@@ -1,0 +1,75 @@
+### YamlMime:YamlDocument
+ms.openlocfilehash: 07a77c646f8aef2440f415fdf143373cd249a641
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26864998"
+documentType: LandingData
+title: Documentação do Microsoft Desktop gerenciados e recursos
+metadata:
+  title: Documentação do Microsoft Desktop gerenciados
+  description: 
+  keywords: dispositivo, aplicativo, gerenciamento
+  author: trudyha
+  ms.author: trudyha
+  ms.date: 11/1/2018
+  ms.topic: landing-page
+  ms.devlang: na
+  ms.service: m365-md
+sections:
+- items:
+  - type: markdown
+    text: A maneira mais fácil agrade usuários e liberar IT.
+- items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: intro/index.md
+      html: <p>Leia sobre o que é o Microsoft Desktop gerenciados e como ele funciona.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_overview.svg
+      title: O que é a Área de Trabalho Gerenciada da Microsoft?
+    - href: service-description/index.md
+      html: <p>Saiba o que está incluído no Microsoft Desktop gerenciados.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
+      title: Descrição do serviço
+    - href: get-ready/index.md
+      html: <p>Saiba como preparar para registrar-se no Microsoft Desktop gerenciados.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_support.svg
+      title: Prepare-se
+    - href: get-started/index.md
+      html: <p>Aprenda a ordem de dispositivos e adicionar contatos.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_whats-new.svg
+      title: Introdução
+    - href: working-with-managed-desktop/index.md
+      html: <p>Saiba mais sobre o gerenciamento de aplicativos.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_portal.svg
+      title: Trabalhando com a Área de Trabalho Gerenciada da Microsoft
+- title: Novos artigos e postagens de blog
+  items:
+  - type: paragraph
+    text: Leia as informações de melhores e mais recentes, que você precisa saber.
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/
+      title: '[Blog] Colaborando com clientes e parceiros para fornecer uma área de trabalho moderna'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_architecture.svg
+    - href: https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html
+      title: '[Artigo] Área de trabalho do Microsoft Managed: Todos os Windows 10 dispositivos, gerenciados pela Microsoft'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_guide.svg
+- title: Vídeos
+  items:
+  - type: markdown
+    text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
