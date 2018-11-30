@@ -1,0 +1,23 @@
+- <span data-ttu-id="241d0-101">A avaliação da infraestrutura e do ambiente está completa, incluindo:</span><span class="sxs-lookup"><span data-stu-id="241d0-101">Assessment of infrastructure and environment is complete, including:</span></span>
+
+    - <span data-ttu-id="241d0-102">Detalhes do dispositivo do cliente</span><span class="sxs-lookup"><span data-stu-id="241d0-102">Client device details</span></span>
+    - <span data-ttu-id="241d0-103">Ferramentas de implantação</span><span class="sxs-lookup"><span data-stu-id="241d0-103">Deployment tools</span></span>
+    - <span data-ttu-id="241d0-104">Licenciamento e contas do Office 365</span><span class="sxs-lookup"><span data-stu-id="241d0-104">Office 365 licensing and accounts</span></span>
+    - <span data-ttu-id="241d0-105">Capacidade da rede</span><span class="sxs-lookup"><span data-stu-id="241d0-105">Network capability</span></span>
+    - <span data-ttu-id="241d0-106">Compatibilidade de aplicativos</span><span class="sxs-lookup"><span data-stu-id="241d0-106">Application compatibility</span></span>
+
+- <span data-ttu-id="241d0-107">O plano de implantação está completo, incluindo:</span><span class="sxs-lookup"><span data-stu-id="241d0-107">Deployment plan is complete, including:</span></span>
+
+    - <span data-ttu-id="241d0-108">Como implantar o Office 365 ProPlus</span><span class="sxs-lookup"><span data-stu-id="241d0-108">How to deploy Office 365 ProPlus</span></span>
+    - <span data-ttu-id="241d0-109">Como gerenciar as atualizações do Office 365 ProPlus</span><span class="sxs-lookup"><span data-stu-id="241d0-109">How to manage updates to Office 365 ProPlus</span></span>
+    - <span data-ttu-id="241d0-110">Se deseja implantar e instalar a partir de uma origem local na rede ou na nuvem</span><span class="sxs-lookup"><span data-stu-id="241d0-110">Whether to deploy and install from a local source on your network or from the cloud</span></span>
+    - <span data-ttu-id="241d0-111">Os dispositivos de cliente e seus canais de atualização</span><span class="sxs-lookup"><span data-stu-id="241d0-111">Which client devices get which update channels</span></span>
+    - <span data-ttu-id="241d0-112">Pacotes de instalação definidos</span><span class="sxs-lookup"><span data-stu-id="241d0-112">Installation packages defined</span></span>
+    - <span data-ttu-id="241d0-113">Todos os dispositivos de cliente atribuídos aos grupos de implantação</span><span class="sxs-lookup"><span data-stu-id="241d0-113">All client devices assigned to deployment groups</span></span>
+    - <span data-ttu-id="241d0-114">Os aplicativos, as arquiteturas e os idiomas do Office e os dispositivos de cliente em que estarão disponíveis</span><span class="sxs-lookup"><span data-stu-id="241d0-114">Which Office applications, architectures, and languages go to which client devices</span></span>
+
+- <span data-ttu-id="241d0-115">A implantação do Office 365 ProPlus está completa, incluindo:</span><span class="sxs-lookup"><span data-stu-id="241d0-115">Deployment of Office 365 ProPlus is complete, including:</span></span>
+
+    - <span data-ttu-id="241d0-116">Todos os dispositivos de cliente têm o Office 365 ProPlus instalado</span><span class="sxs-lookup"><span data-stu-id="241d0-116">All client devices have Office 365 ProPlus installed</span></span>
+    - <span data-ttu-id="241d0-117">Todos os dispositivos de cliente estão no canal de atualização apropriado e recebem atualizações</span><span class="sxs-lookup"><span data-stu-id="241d0-117">All client devices are in the appropriate update channel and are receiving updates</span></span>
+    - <span data-ttu-id="241d0-118">Todos os dispositivos de cliente têm os idiomas apropriados instalados ou disponíveis</span><span class="sxs-lookup"><span data-stu-id="241d0-118">All client devices have the appropriate languages installed or available</span></span>
