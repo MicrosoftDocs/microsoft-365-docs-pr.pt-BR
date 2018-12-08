@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: Onde encontrar ajuda para sua implantação de área de trabalho moderna.
 ms.openlocfilehash: 7c6f68320165abdfd131a84e84345bd6ff6d47c1
-ms.sourcegitcommit: 808656803f2bfd30bc872fa3ce3fe5d072385f5d
+ms.sourcegitcommit: 369f07db4e457334900314a2575f2f75cff5ce9c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27187254"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201615"
 ---
 # <a name="find-help-for-your-modern-desktop-deployment"></a>Encontre ajuda para sua implantação de área de trabalho moderna 
 
