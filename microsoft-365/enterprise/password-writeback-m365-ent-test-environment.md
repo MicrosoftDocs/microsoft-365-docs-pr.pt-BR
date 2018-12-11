@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
 ms.openlocfilehash: 748ccaf8601d9e9564d176f2368e3cc71f926208
-ms.sourcegitcommit: 369f07db4e457334900314a2575f2f75cff5ce9c
+ms.sourcegitcommit: fec2c756121006069dc3e5b8dbd6c4abe7a3c63c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201605"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "27214429"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
