@@ -3,18 +3,18 @@ title: Diretrizes para controladores de dados usando o Office 365
 description: Este documento fornece controladores de dados com informações sobre os serviços profissionais que vai ajudá-los para determinar se um DPIA é necessária e o que detalha para incluir.
 keywords: Documentação do Microsoft 365 DPIA, o Office 365, GDPR
 author: BrendaCarter
-ms.localizationpriority: high
+ms.localizationpriority: Priority
 audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: bcarter
 manager: laurawi
 ms.collection: GDPR
-ms.openlocfilehash: 4b96a80d0817a180d9a1400fa347d5345ecdec74
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 9ef2d1a91c00cbaa52282c27cf047e380dbf8249
+ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 12/12/2018
 ms.locfileid: "26865306"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações de impacto de proteção de dados: Orientação para controladores de dados usando o Microsoft Office 365 
