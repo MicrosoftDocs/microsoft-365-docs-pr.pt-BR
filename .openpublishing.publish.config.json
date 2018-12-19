@@ -4,23 +4,7 @@
       "docset_name": "Microsoft-365-docs",
       "build_source_folder": "microsoft-365",
       "build_output_subfolder": "Microsoft-365-docs",
-      "locale": "pt-bt",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "microsoft-365-vsts",
-      "build_source_folder": "microsoft-365",
-      "build_output_subfolder": "microsoft-365-vsts",
-      "locale": "pt-br",
+      "locale": "pt-BR",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -46,7 +30,13 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pt-br",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pt-BR",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
     }
