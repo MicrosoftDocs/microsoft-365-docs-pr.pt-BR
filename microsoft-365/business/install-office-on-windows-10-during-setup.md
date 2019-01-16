@@ -21,10 +21,10 @@ search.appverid:
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Aprenda Agora a implantar o Office automaticamente os dispositivos Windows 10 durante a instalação.
 ms.openlocfilehash: c51be45b4b4782de43939e648e77239f42492c4c
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865099"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Instalar o Office para Windows 10 durante a configuração

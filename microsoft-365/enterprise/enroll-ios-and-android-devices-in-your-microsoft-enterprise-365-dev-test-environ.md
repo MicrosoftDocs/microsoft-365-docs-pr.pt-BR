@@ -12,18 +12,18 @@ ms.collection: Ent_O365
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: Use este guia de laboratório de teste para registrar os dispositivos em seu ambiente de teste do Microsoft 365 e gerenciá-los remotamente.
-ms.openlocfilehash: 98696104ee8453adb7449980cf439eeb152aeea9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a78db19099ccacd1b2f62e8438d1749f28d22f52
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864816"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Registre dispositivos iOS e Android em seu ambiente de teste do Microsoft 365 Enterprise
 
 Seguindo as instruções fornecidas neste artigo, você poderá registrar e testar os recursos de gerenciamento de dispositivo móvel básica para dispositivos com Android e iOS em seu ambiente de teste do Microsoft 365 Enterprise.
 
-![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -76,7 +76,7 @@ Explore recursos adicionais de [gerenciamento de dispositivos móveis](m365-ente
 
 [Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md)
   
-[Políticas MAM para o ambiente de teste do Microsoft 365 Enterprise](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+[Ambiente de teste de políticas de conformidade do dispositivo para a sua empresa de 365 da Microsoft](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
   
 [Implantar o Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md)
 

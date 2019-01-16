@@ -22,10 +22,10 @@ search.appverid:
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
 description: Saiba como solucionar erros de arquivo do dispositivo de piloto automático.
 ms.openlocfilehash: 9b8d8ab424dd3189ff5c228dab8f5c513ff5dafc
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864859"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Solucionar problemas do dispositivo AutoPilot

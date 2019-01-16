@@ -21,10 +21,10 @@ search.appverid:
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba como configurar o Microsoft 365 Business ao concluir as quatro etapas.
 ms.openlocfilehash: f57239b884bd2e186c0bc01973130a10fa4cfe84
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864685"
 ---
 # <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Configurar o Microsoft 365 Business usando o assistente de configuração

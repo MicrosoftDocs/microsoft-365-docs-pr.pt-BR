@@ -12,18 +12,18 @@ ms.collection: Ent_O365
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para habilitar configurações de segurança adicionais do Office 365 seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 18e7b682d20c2212ae73783d668250d28b04075f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 62cf2347d3e003e9368c987912e7748029241501
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864946"
 ---
 # <a name="increased-office-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Segurança ampliada do Office 365 para seu ambiente de teste do Microsoft 365 Enterprise
 
 Com as instruções deste artigo, você deve configurar as configurações adicionais do Office 365 para aumentar a segurança em seu ambiente de teste do Microsoft 365 Enterprise.
 
-![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -46,7 +46,7 @@ Nesta fase, você pode habilitar maior segurança do Office 365 para seu ambient
 
 Aplicativos que não têm suporte para autenticação moderna não podem ter a [identidade e dispositivo acessam as configurações](microsoft-365-policies-configurations.md) aplicadas a eles, que é um elemento importante de proteger sua assinatura do Microsoft 365 e seus ativos digitais. 
 
-1. Vá para o portal do Office 365 ([https://portal.office.com](https://portal.office.com)) e se conectar à sua assinatura de avaliação do Office 365 com sua conta de administrador global.
+1. Vá para o portal do Office ([https://office.com](https://office.com)) e se conectar à sua assinatura de avaliação do Office 365 com sua conta de administrador global.
     
   - Se você estiver usando o ambiente de teste do Microsoft 365 leve, entre do computador local.
     
@@ -55,10 +55,10 @@ Aplicativos que não têm suporte para autenticação moderna não podem ter a [
 2. A partir da guia do **Centro de administração do Microsoft 365** , clique em **Admin**.
 3. Na guia do **Centro de administração do Microsoft 365** nova, clique em **centrais de Admin > SharePoint**.
 4. Na guia nova **Centro de administração do SharePoint** , clique em **controle de acesso**.
-5. Em **aplicativos que não há suporte para autenticação moderna**, clique em **bloco > Okey**.
+5. Em **aplicativos que não há suporte para autenticação moderna**, clique em **Bloquear**e, em seguida, clique em **Okey**.
 
 
-### <a name="enable-advanced-threat-protection-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Habilitar o Advanced proteção contra ameaças (ATP) para SharePoint, OneDrive e equipes da Microsoft
+### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Habilitar a proteção de ameaça avançada) para o SharePoint, o OneDrive for Business e equipes da Microsoft
 
 O Office 365 avançadas ameaça proteção (ATP) é um recurso do Exchange Online Protection (EOP) que ajuda a manter o malware fora do seu email. Com ATP, criar políticas no Centro de administração do Exchange (EAC) ou a segurança & Centro de conformidade que ajudam a garantir a seus usuários acessar apenas links ou anexos em emails que são identificadas como não mal-intencionado. Para obter mais informações, consulte [proteção contra ameaças avançadas para anexos seguros e links de seguros](https://docs.microsoft.com/office365/securitycompliance/office-365-atp).
 

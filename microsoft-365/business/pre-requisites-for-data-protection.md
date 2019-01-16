@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 'Sabe os pré-requisitos para a configuração de sua organização com Microsoft 365 Business. '
 ms.openlocfilehash: caca6564d6706acd48538a2d33143ed27ed3bd25
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864674"
 ---
 # <a name="pre-requisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Pré-requisitos para a proteção de dados em dispositivos com o Microsoft 365 Business

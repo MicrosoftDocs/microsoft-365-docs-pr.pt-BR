@@ -19,10 +19,10 @@ search.appverid:
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Saiba como criar, editar ou excluir uma política de gerenciamento de aplicativo e proteger os arquivos de trabalho em dispositivos Android ou iOS.
 ms.openlocfilehash: ed03227496120369b94bf2396974eebfd7798678
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865249"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Defina configurações de proteção de aplicativo para dispositivos Android ou iOS

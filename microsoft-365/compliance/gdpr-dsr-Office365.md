@@ -240,9 +240,9 @@ Este exemplo retorna mensagens de email que contêm o número de identificação
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Trabalhar com itens parcialmente indexados na Pesquisa de Conteúdo
 
-Os itens parcialmente indexados (também chamados de *itens não indexados*) são itens de caixa de correio do Exchange Online e documentos do SharePoint Online e de sites do OneDrive for Business que, por algum motivo, não foram completamente indexados para pesquisa, o que significa que eles não podem ser pesquisados pela Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??). As mensagens de email ou os arquivos não são indexados para pesquisa por estes motivos:
+Os itens parcialmente indexados (também chamados de *itens não indexados*) são itens de caixa de correio do Exchange Online e documentos do SharePoint Online e de sites do OneDrive for Business que, por algum motivo, não foram completamente indexados para pesquisa, o que significa que eles não podem ser pesquisados pela Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??d??). As mensagens de email ou os arquivos não são indexados para pesquisa por estes motivos:
 
--   O tipo de arquivo [não é reconhecido ou não tem suporte para indexação](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??); no entanto, às vezes o tipo de arquivo tem suporte para indexação, mas ocorreu um erro de indexação para um arquivo específico
+-   O tipo de arquivo [não é reconhecido ou não tem suporte para indexação](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??b??); no entanto, às vezes o tipo de arquivo tem suporte para indexação, mas ocorreu um erro de indexação para um arquivo específico
 
 -   As mensagens de email têm um arquivo anexado sem um manipulador válido, como um arquivo de imagem (essa é a causa mais comum de itens de email parcialmente indexados)
 
@@ -250,7 +250,7 @@ Os itens parcialmente indexados (também chamados de *itens não indexados*) sã
 
 É recomendável saber mais sobre itens parcialmente indexados para que você possa trabalhar com eles ao responder às solicitações DSR. Para obter mais informações, confira:
 
--   [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??)
+-   [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??b??)
 
 -   [Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365](https://support.office.com/article/investigating-partially-indexed-items-in-office-365-ediscovery-4e8ff113-6361-41e2-915a-6338a7e2a1ed)
 

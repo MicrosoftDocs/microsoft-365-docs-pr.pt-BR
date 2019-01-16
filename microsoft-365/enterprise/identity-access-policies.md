@@ -10,28 +10,28 @@ ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
 - goldenconfig
-ms.openlocfilehash: 72a957222ed3bba449e1576873bfc87a614c075b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: ab8454c27cd57b6bd5cc8df6e1526ee2950ac998
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865314"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve o comum recomendado políticas para proteger o acesso para a nuvem de serviços, incluindo aplicativos de local publicado com Proxy de aplicativo do Windows Azure AD. 
 
-Estas diretrizes descrevem como implantar as políticas recomendadas em um ambiente recém-provisionado. Configurar essas políticas em um ambiente de laboratório separado permite compreender e avaliar as políticas recomendadas antes de preparar a distribuição para seus ambientes de produção e pré-produção. Seu ambiente recém-provisionado pode estar somente em nuvem ou ser híbrido.  
+Esta orientação discute como implantar as diretivas recomendadas em um ambiente recentemente provisionado. Configurando a essas políticas em um ambiente de laboratório separado permite compreender e avaliar as políticas recomendadas antes de preparar a distribuição para os ambientes de pré-produção e de produção. Seu ambiente recém-provisionado pode ser somente nuvem ou híbridas.  
 
 ## <a name="policy-set"></a>Conjunto de política 
 
-O diagrama a seguir ilustra o conjunto recomendado de diretivas. Ela mostra quais camadas de proteção cada política se aplica e se as diretivas serão aplicadas PCs, telefones e tablets ou ambas as categorias de dispositivos. Ele também indica onde essas diretivas são configuradas.
+O diagrama a seguir ilustra o conjunto recomendado de diretivas. Ela mostra quais camadas de proteção cada política se aplica e se as diretivas serão aplicadas PCs ou telefones e tablets ou ambas as categorias de dispositivos. Ele também indica onde essas diretivas são configuradas.
 
 ![Políticas comuns para configurar o acesso de dispositivo e identidade](../images/Identity_device_access_policies_byplan.png)
 
 
 O restante deste artigo descreve como configurar essas diretivas. 
 
-Usar a autenticação multifator é recomendado antes de inscrição de dispositivos em Intune para garantia de que o dispositivo está em posse do usuário desejado. E você deve registrar os dispositivos em Intune antes da aplicação de políticas de conformidade do dispositivo.
+Usar a autenticação multifator é recomendado antes de inscrição de dispositivos em Intune para garantia de que o dispositivo está em posse do usuário desejado. Você também deve registrar os dispositivos em Intune antes da aplicação de políticas de conformidade do dispositivo.
 
 Dar tempo para realizar essas tarefas, recomendamos a implementação das diretivas de linha de base na ordem listada nesta tabela. No entanto, as diretivas MFA para proteção confidencial e altamente regulamentada podem ser implementadas a qualquer momento.
 
@@ -39,15 +39,15 @@ Dar tempo para realizar essas tarefas, recomendamos a implementação das direti
 |Nível de Proteção|Diretivas|Mais informações|
 |:---------------|:-------|:----------------|
 |**Linha de base**|[Exige MFA após a entrada risco *média* ou *alta*](#require-mfa-based-on-sign-in-risk)| |
-|        |[Bloquear os clientes que não oferecem suporte a autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Clientes que não usam autenticação moderna poderá ignorar regras de acesso condicional, portanto, é importante bloquear essas.|
-|        |[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Força os usuários alterem sua senha ao fazer logon se forem detectadas atividades de alto risco para sua conta.|
+|        |[Bloquear os clientes que não oferecem suporte a autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Clientes que não usam autenticação moderna poderá ignorar regras de acesso condicional, portanto, é importante bloquear essas|
+|        |[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Força os usuários a alterarem suas senhas quando entrando se forem detectadas atividades de alto risco para sua conta|
 |        |[Definir políticas de proteção de aplicativos](#define-app-protection-policies)|Uma política por plataforma (iOS, Android, Windows).|
 |        |[Exigem aplicativos aprovados](#require-approved-apps)|Impõe a proteção de aplicativos móveis para telefones e tablets|
-|        |[Definir políticas de conformidade do dispositivo](#define-device-compliance-policies)|Uma política em cada plataforma.|
+|        |[Definir políticas de conformidade do dispositivo](#define-device-compliance-policies)|Uma política em cada plataforma|
 |        |[Exigir compatível com PCs](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe Intune gerenciamento de PCs|
 |**Confidencial**|[Exige MFA após a entrada risco *baixa*, *média* ou *alta*](#require-mfa-based-on-sign-in-risk)| |
-|         |[Exigir compatível com PCs *e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe Intune gerenciamento para PCs e telefone/tablets.|
-|**Altamente controlada**|[*Sempre* solicitar MFA](#require-mfa-based-on-sign-in-risk)|
+|         |[Exigir compatível com PCs *e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe Intune gerenciamento para PCs e telefone/tablets|
+|**Altamente controlado**|[*Sempre* solicitar MFA](#require-mfa-based-on-sign-in-risk)|
 | | |
 
 ## <a name="assigning-policies-to-users"></a>Atribuir políticas aos usuários
@@ -61,11 +61,9 @@ O diagrama a seguir fornece um exemplo de atribuição de usuário e exclusões.
 
 Na ilustração "superior secreta equipe do projeto X" é atribuído uma política de acesso condicional que requer MFA *sempre*. Ser criterioso ao aplicar níveis mais altos de proteção aos usuários. Membros da equipe projeto deverão fornecer duas formas de autenticação toda vez que efetuam logon, mesmo se eles não estão exibindo o conteúdo altamente regulamentado.  
 
- Todos os grupos do Azure AD criados como parte dessas recomendações deve ser criado como grupos do Office 365. Isso é especificamente importante para a implantação de proteção de informações do Windows Azure (AIP) quando a proteção de documentos no SharePoint Online.
+Todos os grupos do Azure AD criados como parte dessas recomendações deve ser criado como grupos do Office 365. Isso é especificamente importante para a implantação de proteção de informações do Windows Azure (AIP) quando a proteção de documentos no SharePoint Online.
 
 ![Captura de tela de criação de grupos do Office 365](../images/identity-device-AAD-groups.png)
-
-
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Exigir MFA com base na entrada risco
@@ -73,13 +71,13 @@ Antes de solicitar a MFA, use uma política de registro de MFA de proteção de 
 
 Para criar uma nova política de acesso condicional: 
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
 3. Na seção **Segurança**, escolha **Acesso condicional**.
 
-4. Escolha **nova política** , conforme mostrado na captura de tela abaixo:
+4. Escolha **Nova política**.
 
 ![Política de AC de linha de base](./media/secure-email/CA-EXO-policy-1.png)
 
@@ -89,8 +87,8 @@ Para criar uma nova política de acesso condicional:
 
 |Tipo|Propriedades|Valores|Notas|
 |:---|:---------|:-----|:----|
-|Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto.|
-||Excluir|Grupo de segurança de exceção, contas de serviço (identidades de aplicativo)|Associação modificada de forma temporária, conforme o necessário|
+|Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto|
+||Excluir|Grupo de segurança de exceção, contas de serviço (identidades de aplicativo)|Associação modificada em uma base temporário conforme necessário|
 |Aplicativos em nuvem|Incluir|Selecione os aplicativos que você deseja que esta regra se aplique. Por exemplo, selecione Exchange Online do Office 365||
 |Condições|Configurado|Sim|Configure específicos para suas necessidades e ambiente|
 |Risco de entrada|Nível de risco||Consulte as orientações na tabela a seguir|
@@ -103,7 +101,7 @@ Aplica as configurações com base no nível de proteção que você está direc
 |:---|:---------|:-----|:----|
 |Nível de risco|Linha de base|Alto, médio|Marque ambos|
 | |Confidencial|Alta, média, baixa|Marque todos os três|
-| |Altamente controlada| |Deixe todas as opções desmarcada para impor sempre MFA|
+| |Altamente controlado| |Deixe todas as opções desmarcada para impor sempre MFA|
 
 **Controles de acesso**
 
@@ -112,17 +110,17 @@ Aplica as configurações com base no nível de proteção que você está direc
 |Conceder|Conceder acesso|verdadeiro|Selecionada|
 ||Exigir MFA|verdadeiro|Verificar|
 ||Exigir o dispositivo para ser marcado como compatível|Falso||
-||Exigem o dispositivo de unidas híbrida Azure AD|Falso||
+||Exigir híbrida Azure dispositivo associado ao AD|Falso||
 ||Requer aplicativo cliente aprovado|Falso||
 ||Exigir todos os controles selecionados|verdadeiro|Selecionada|
 
 > [!NOTE]
-> Certifique-se de que habilite essa diretiva, clicando **no**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva
+> Certifique-se de que habilite essa diretiva, escolhendo **em**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva.
 
 
 
 ## <a name="block-clients-that-dont-support-modern-authentication"></a>Bloquear os clientes que não oferecem suporte a autenticação moderna
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
@@ -136,7 +134,7 @@ As tabelas a seguir descreve as configurações de política de acesso condicion
 
 |Tipo|Propriedades|Valores|Notas|
 |:---|:---------|:-----|:----|
-|Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto.|
+|Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto|
 ||Excluir|Grupo de segurança de exceção, contas de serviço (identidades de aplicativo)|Associação modificada de forma temporária, conforme o necessário|
 |Aplicativos em nuvem|Incluir|Selecione os aplicativos que você deseja que esta regra se aplique. Por exemplo, selecione Exchange Online do Office 365||
 |Condições|Configurado|Sim|Configurar aplicativos do cliente|
@@ -149,17 +147,17 @@ As tabelas a seguir descreve as configurações de política de acesso condicion
 |Conceder|Bloquear acesso|verdadeiro|Selecionada|
 ||Exigir MFA|Falso||
 ||Exigir o dispositivo para ser marcado como compatível|Falso||
-||Exigem o dispositivo de unidas híbrida Azure AD|Falso||
+||Exigir híbrida Azure dispositivo associado ao AD|Falso||
 ||Requer aplicativo cliente aprovado|Falso||
 ||Exigir todos os controles selecionados|verdadeiro|Selecionada|
 
 > [!NOTE]
-> Certifique-se de que habilite essa diretiva, clicando **no**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva
+> Certifique-se de que habilite essa diretiva, escolhendo **em**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva.
 
 
 
 ## <a name="high-risk-users-must-change-password"></a>Usuários de alto risco devem alterar a senha
-Para garantir que todas as contas de usuários de alto risco comprometidas sejam forçadas a executar uma alteração de senha ao entrar, você deve aplicar a política a seguir.
+Para garantir que as contas de todos os usuários alto risco comprometidas são forçados a realizar uma alteração de senha ao entrar no serviço, você deve aplicar a política a seguir.
 
 Faça logon no [portal do Microsoft Azure (http://portal.azure.com) ](http://portal.azure.com/) com suas credenciais de administrador e navegue até **proteção de identidade do Windows Azure AD > política de risco de usuário**.
 
@@ -181,7 +179,7 @@ Faça logon no [portal do Microsoft Azure (http://portal.azure.com) ](http://por
 **Revisão:** não aplicável
 
 > [!NOTE]
-> Certifique-se de que habilite essa diretiva, clicando **no**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva
+> Certifique-se de que habilite essa diretiva, escolhendo **em**. Também considere usando a ferramenta [se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a diretiva
 
 ## <a name="define-app-protection-policies"></a>Definir políticas de proteção de aplicativos
 Políticas de proteção de aplicativos que definem quais aplicativos são permitidos e as ações que eles podem executar com dados de sua organização. Crie Intune app políticas de proteção de dentro do portal do Azure. 
@@ -191,7 +189,7 @@ Crie uma diretiva em cada plataforma:
 - Android
 - Windows 10
 
-Para criar uma nova política de proteção de aplicativo, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **aplicativos móveis > políticas de proteção de aplicativos**. Clique em **Adicionar uma política**.
+Para criar uma nova política de proteção de aplicativo, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **aplicativos móveis > políticas de proteção de aplicativos**. Escolha **Adicionar uma política**.
 
 Há pequenas diferenças na proteção app com opções de política entre iOS e Android. O abaixo política é especificamente para Android. Use esta opção como um guia para as outras políticas.
 
@@ -224,25 +222,25 @@ As tabelas a seguir descrevem as configurações recomendadas:
 |Acessar|Solicitar PIN para acesso|Sim||
 ||Selecione o tipo|Numérico||
 ||Permitir PIN simples|Não||
-||Tamanho do PIN|6 ||
+||Tamanho do PIN|6||
 ||Permitir a impressão digital em vez do PIN|Sim||
 ||Desabilitar app PIN quando o PIN do dispositivo é gerenciado|Sim||
 ||Exigem credenciais corporativas para acesso|Não||
 ||Verificar novamente o requisito de acesso após (minutos)|30||
 ||Bloquear captura de tela e Assistente do Android|Não|No iOS isso não é uma opção disponível|
-|Requisitos de segurança de entrada|Tentativas máximas PIN|5 |Redefinir Pin|
+|Requisitos de segurança de entrada|Tentativas máximas PIN|5|Redefinir Pin|
 ||Período de cortesia offline|720|Bloquear acesso|
 ||Intervalo offline (dias) antes do apagamento dos dados do aplicativo|90|Apagar dados|
 ||Dispositivos Jailbroken/raiz| |Apagar dados|
 
-Ao concluir, lembre-se de clicar em "Criar". Repita as etapas acima e substitua a plataforma selecionada (menu suspenso) por iOS. Isso cria duas políticas de aplicativo, portanto, após criar a política, atribua grupos à política e implante-a.
+Quando concluir, lembre-se de selecionar "Criar". Repita as etapas acima e substitua a plataforma selecionada (suspenso) iOS. Isso cria duas diretivas de aplicativo, portanto depois de criar a política, em seguida, atribuir grupos à diretiva e implantá-la.
 
 Para editar as políticas e atribuir essas políticas a usuários, consulte [como criar e atribuir políticas de proteção de aplicativos](https://docs.microsoft.com/intune/app-protection-policies). 
 
 ## <a name="require-approved-apps"></a>Exigem aplicativos aprovados
 Para exigir a aplicativos aprovados:
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
@@ -254,13 +252,13 @@ Para exigir a aplicativos aprovados:
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Clique em **Selecionar** e **feito**.
+7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Escolha **Selecionar** e **feito**.
 
 8. Escolha **Conceder** na seção **Controles de acesso**.
 
-9. Escolha **conceder acesso**, selecione **exigir aprovados pelo aplicativo cliente**.  Para vários controles, selecione **exigir os controles selecionados**e selecione **Selecionar**. 
+9. Escolha **conceder acesso**, selecione **exigir aprovados pelo aplicativo cliente**. Para vários controles, selecione **exigir os controles selecionados**e selecione **Selecionar**. 
 
-10. Clique em **Criar**.
+10. Escolha **Criar**.
 
 ## <a name="define-device-compliance-policies"></a>Definir políticas de conformidade do dispositivo
 
@@ -275,7 +273,7 @@ Crie uma diretiva em cada plataforma:
 - Windows 8.1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivo, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **Intune > conformidade do dispositivo**. Clique em **Criar política**.
+Para criar políticas de conformidade de dispositivo, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **Intune > conformidade do dispositivo**. Selecione **Criar política**.
 
 As configurações a seguir são recomendadas para Windows 10.
 
@@ -294,7 +292,7 @@ As configurações a seguir são recomendadas para Windows 10.
 |:---|:---------|:-----|:----|
 |Versão do sistema operacional|Tudo|Não configurado||
 
-Para todas as políticas acima para serem consideradas implantadas, elas devem ser direcionadas para grupos de usuários. Você pode fazer isso criando a política (ao Salvar) ou posteriormente selecionando Gerenciar Implantação na seção Política (no mesmo nível de Adicionar).
+Para todas as políticas acima devem ser considerados implantadas, eles precisa ser direcionados a grupos de usuários. Você pode fazer isso criando a política (ao salvar) ou posterior, selecionando **Gerenciar Deployment** na seção **política** (mesmo nível Add).
 
 **Segurança do sistema**
 
@@ -303,19 +301,19 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 |Senha|Exigir uma senha para desbloquear os dispositivos móveis|Obrigatório||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão de dispositivo||
-||Tamanho mínimo da senha|6 ||
-||Máximo de minutos de inatividade antes que a senha é obrigatória|15 |Essa configuração é suportada para Android versões 4.0 e acima ou KNOX 4.0 e acima. Para dispositivos iOS, ele é suportado para iOS 8.0 e acima.|
+||Tamanho mínimo da senha|6||
+||Máximo de minutos de inatividade antes que a senha é obrigatória|15 |Essa configuração é suportada para Android versões 4.0 e acima ou KNOX 4.0 e acima. Para dispositivos iOS, ela é suportada para iOS 8.0 e acima|
 ||Vencimento da senha (dias)|41||
-||Número de senhas anteriores para evitar a reutilização|5 ||
-||Exigir senha quando o dispositivo retorna a partir de um estado ocioso (Mobile e Holographic)|Obrigatório|Disponível para o Windows 10 e versões posteriores.|
+||Número de senhas anteriores para evitar a reutilização|5||
+||Exigir senha quando o dispositivo retorna a partir de um estado ocioso (Mobile e Holographic)|Obrigatório|Disponível para o Windows 10 e versões posteriores|
 |Criptografia|Criptografia de armazenamento de dados no dispositivo|Obrigatório||
 |Segurança de dispositivo|Firewall|Obrigatório||
 ||Antivírus|Obrigatório||
-||AntiSpyware|Obrigatório|Essa configuração requer uma solução antispyware registrada na Central de segurança do Windows.|
+||AntiSpyware|Obrigatório|Esta configuração exige uma solução antispyware registrada na Central de segurança do Windows|
 |Defender|Windows Defender Antimalware|Obrigatório||
-||Versão mínima do Windows Defender Antimalware||Só tem suporte para desktop do Windows 10. A Microsoft recomenda versões não mais de cinco por trás da versão mais recente.|
+||Versão mínima do Windows Defender Antimalware||Só tem suporte para desktop do Windows 10. A Microsoft recomenda versões não mais de cinco por trás da versão mais recente|
 ||Assinatura do Windows Defender Antimalware atualizada|Obrigatório||
-||Proteção em tempo real|Obrigatório|Só tem suporte para desktop do Windows 10.|
+||Proteção em tempo real|Obrigatório|Só tem suporte para a área de trabalho do Windows 10|
 
 **Windows Defender ATP**
 
@@ -323,16 +321,12 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 |:---|:---------|:-----|:----|
 |Regras de proteção de ameaça avançado do Windows Defender|Exigir o dispositivo esteja em ou subordinadas a pontuação de risco de máquina|Médio||
 
-
-
-
-
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Exigir compatível com PCs (mas não compatível com telefones e tablets)
 Antes de adicionar uma diretiva para exigir compatível com PCs, certifique-se de registrar os dispositivos de gerenciamento em Intune. Usar a autenticação multifator é recomendado antes de inscrição de dispositivos em Intune para garantia de que o dispositivo está em posse do usuário desejado. 
 
 Para exigir PCs compatível com:
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
@@ -344,26 +338,23 @@ Para exigir PCs compatível com:
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Clique em **Selecionar** e **feito**.
+7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Escolha **Selecionar** e **feito**.
 
-8. Para exigir compatível com PCs, mas não compatível com telefones e tablets, escolha **plataformas de dispositivo**e **condições** . Escolha "plataformas do dispositivo selecionado" e selecione **Windows** e **macOS**.
+8. Para exigir compatível com PCs, mas não compatível com telefones e tablets, escolha **plataformas de dispositivo**e **condições** . Escolha **Selecionar plataformas de dispositivo** e selecione **Windows** e **macOS**.
 
 9. Escolha **Conceder** na seção **Controles de acesso**.
 
-10. Escolha **conceder acesso**, selecione **exigir o dispositivo deve ser marcado como compatível com**.  Para vários controles, selecione **exigir todos os controles selecionados**e selecione **Selecionar**. 
+10. Escolha **conceder acesso**, selecione **exigir o dispositivo deve ser marcado como compatível com**. Para vários controles, selecione **exigir todos os controles selecionados**e selecione **Selecionar**. 
 
-11. Clique em **Criar**.
+11. Escolha **Criar**.
 
-Se o seu objetivo é exigem compatível com PCs *e* dispositivos móveis, não marque plataformas. Isso impõe FIPS para todos os dispositivos. 
-
-
-
+Se o seu objetivo é exigem compatível com PCs *e* dispositivos móveis, não marque plataformas. Impõe a conformidade para todos os dispositivos. 
 
 ## <a name="require-compliant-pcs-and-mobile-devices"></a>Exigir compatível com PCs *e* dispositivos móveis
 
 Para exigir a conformidade para todos os dispositivos:
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
@@ -375,26 +366,15 @@ Para exigir a conformidade para todos os dispositivos:
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Clique em **Selecionar** e **feito**.
+7. Escolha **Selecionar aplicativos**, selecione os aplicativos desejados na lista de **aplicativos na nuvem** . Por exemplo, selecione Exchange Online do Office 365. Escolha **Selecionar** e **feito**.
 
 8. Escolha **Conceder** na seção **Controles de acesso**.
 
 9. Escolha **conceder acesso**, selecione **exigir o dispositivo deve ser marcado como compatível com**. Para vários controles, selecione **exigir todos os controles selecionados**e selecione **Selecionar**. 
 
-10. Clique em **Criar**.
+10. Escolha **Criar**.
 
 Ao criar essa diretiva, não marque plataformas. Aplica a dispositivos incompatíveis.
-
-
-
-
-
-
-
-
-
-
-
 
 
 

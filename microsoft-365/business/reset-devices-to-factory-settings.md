@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Saiba como usar o Microsoft 365 Business para restauração de fábrica seus dispositivos Windows 10. '
 ms.openlocfilehash: ed745ea792f755ada17b3b327032246dab16d94b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865212"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica

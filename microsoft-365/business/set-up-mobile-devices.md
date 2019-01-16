@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Instale o Office em um iPhone ou um telefone Android e seus arquivos de trabalho no Office apps serão protegidas pelo Microsoft 365 Business.
 ms.openlocfilehash: 15dc9742cb9712bcbf21e7e3668adc572ee9eb2b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864811"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Configurar dispositivos móveis para usuários do Microsoft 365 Business

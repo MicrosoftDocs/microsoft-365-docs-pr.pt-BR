@@ -13,11 +13,11 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 233e2178b060df4950c340e034d5f51216fac8fb
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 4d444e217c5a232811701f6519c2eb3ebe86df70
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864702"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administrador global no seu ambiente de teste do Microsoft 365 Enterprise
@@ -29,7 +29,7 @@ Há duas fases a proteger contas de administrador global no seu ambiente de test
 1.  Crie o ambiente de teste do Microsoft 365 Enterprise.
 2.  Protege a sua conta de administrador global dedicado.
 
-![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -48,7 +48,7 @@ Se você deseja testar a proteção da conta de administrador global em uma empr
 
 Primeiro, crie uma política de segurança de aplicativo de nuvem do Office 365 para monitorar a atividade da conta de administrador global e enviar alertas para o endereço de email da sua conta de administrador global. 
 
-1. Entrar no portal do Office 365 em [http://portal.office.com](http://portal.office.com) usando sua conta de administrador global.
+1. Entrar no portal do Office em [http://portal.office.com](http://portal.office.com) usando sua conta de administrador global.
 2. Clique no lado do **Admin** . Na guia do **Centro de administração do Office** , clique em **centrais de Admin > segurança e conformidade**.
 3. No painel de navegação à esquerda, clique em **alertas > Gerenciar avançadas alertas**.
 4. Na página **Gerenciar alertas de avançadas** , clique em **Ativar de segurança de aplicativo de nuvem do Office 365**e, em seguida, clique em **Ir para segurança de aplicativo de nuvem do Office 365**.

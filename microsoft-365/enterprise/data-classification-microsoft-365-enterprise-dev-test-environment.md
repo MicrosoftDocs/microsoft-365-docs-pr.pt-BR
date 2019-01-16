@@ -3,7 +3,7 @@ title: Ambiente de teste de classificação de dados para a sua empresa de 365 d
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2018
+ms.date: 12/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,18 +12,18 @@ ms.collection: Ent_O365
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para criar e usar o Office 365 rótulos em documentos em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 718cf038d88f1431ec6ca6fce1554d4f44dc1cb7
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 33ac1fa8e26c0037882e6c240cc04ec19e6a6a7b
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865293"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Ambiente de teste de classificação de dados para a sua empresa de 365 da Microsoft
 
-Com as instruções deste artigo, você deve configurar a classificação de dados usando o Office 365 rótulos em seu ambiente de teste do Microsoft 365 Enterprise.
+Com as instruções deste artigo, você deve configurar o uso de rótulos de retenção do Office 365 em seu ambiente de teste do Microsoft 365 Enterprise de classificação de dados.
 
-![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -39,17 +39,17 @@ Se você deseja configurar rótulos do Office 365 em uma empresa simulada, siga 
 
 ## <a name="phase-2-create-office-365-labels"></a>Fase 2: Criar rótulos do Office 365
 
-Nesta fase, você deve criar os rótulos para os diferentes níveis de segurança para as pastas de documentos do SharePoint Online.
+Nesta fase, você deve criar os rótulos para os diferentes níveis de retenção para pastas de documentos do SharePoint Online.
   
-1. Se necessário, use uma instância particular do seu navegador da Internet e entrar no portal do Office 365 com sua conta de administrador global. Para obter ajuda, consulte [Where entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessário, use uma instância particular do seu navegador da Internet e entrar no portal do Office com sua conta de administrador global. Para obter ajuda, consulte [Where entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Na guia **Microsoft Office Home**, clique no bloco **Administração**.
     
 3. Na nova guia **Centro de Administração do Office** do navegador, clique em **Centros de Administração > Segurança&amp; e Conformidade**.
     
-4. Na nova guia **Início – Segurança &amp;e Conformidade** do navegador, clique em **Classificações > Rótulos**.
+4. Do novo **Home - segurança &amp; conformidade** guia do navegador, clique em **classificações > rótulos**. Da **Home > rótulos** painel, clique na guia **retenção** .
     
-5. No painel **Início > Rótulos**, clique em **Criar um rótulo**.
+5. Clique em **criar um rótulo**.
     
 6. No painel **Atribuir nome ao seu rótulo**, digite **Público interno** e clique em **Avançar**.
     
@@ -83,13 +83,13 @@ Nesta fase, você deve criar os rótulos para os diferentes níveis de seguranç
 
 Observe que poderá levar alguns minutos para que os rótulos sejam publicados.
 
-## <a name="phase-3-apply-office-365-labels-to-documents"></a>Fase 3: Aplicar rótulos do Office 365 a documentos
+## <a name="phase-3-apply-office-365-retention-labels-to-documents"></a>Fase 3: Aplicar rótulos de retenção do Office 365 a documentos
 
 Nesta fase, você pode descobrir o comportamento padrão de rótulo para arquivos na pasta de documentos de um site do SharePoint Online e altera manualmente o rótulo de um documento.
 
 Primeiro, crie um site de equipe do SharePoint Online confidenciais nível:
   
-1. Usando um navegador no computador local, entre no Portal do Office 365 usando sua conta de administrador global. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Usando um navegador no computador local, entre no portal do Office usando sua conta de administrador global. Para obter ajuda, consulte [Where entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Na lista de blocos, clique em **SharePoint**.
     
@@ -125,13 +125,13 @@ Em seguida, crie um novo documento no site SensitiveFiles e altere seu rótulo.
     
 4. Clique no ícone do Word ao lado do nome de arquivo **Document.docx** .
     
-5. No painel direito, na seção **Propriedades** , em **Aplicar rótulo**, observe que o documento teve o rótulo **confidenciais** automaticamente aplicado.
+5. No painel direito, na seção **Propriedades** , em **Aplicar rótulo de retenção**, observe que o documento teve o rótulo **confidenciais** automaticamente aplicado.
     
 6. Clique em **Editar todos**.
     
 7. No painel **Document.docx** , em **Aplicar rótulo**, selecione o rótulo **Altamente confidenciais** e clique em **Salvar**.
 
-Consulte a etapa de [classificação de Configure para seu ambiente](data-classification-microsoft-365-enterprise-dev-test-environment.md) na fase de **proteção de informações** para obter informações e links para os rótulos do Office 365 em produção.
+Consulte a etapa de [classificação de Configure para seu ambiente](infoprotect-configure-classification.md) na fase de **proteção de informações** para obter informações e links para os rótulos de retenção do Office 365 em produção.
 
 ## <a name="next-step"></a>Próxima etapa
 

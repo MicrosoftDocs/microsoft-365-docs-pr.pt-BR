@@ -9,11 +9,11 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: b4ab30d09adf83d95f3bad0f46bcb0ae69f1663f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: ed3d21091acd5b54dfdc2917fca85ed0535c3332
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864929"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Etapa 3: Implantar o Windows 10 Enterprise para novos dispositivos com piloto automático do Windows
@@ -103,7 +103,7 @@ Como ponto de verificação provisório, você pode consultar os [critérios de 
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [Análise do Windows usar para monitorar a integridade do dispositivo](windows10-enable-windows-analytics.md) |
+|![](./media/stepnumbers/Step4.png)| [Monitorar a integridade de dispositivo e conformidade](windows10-enable-windows-analytics.md) |
 
 
 

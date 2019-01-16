@@ -5,17 +5,17 @@ keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
-ms.date: 11/1/2018
-ms.openlocfilehash: 7e551e51c3ea972f69c24bcb1994e13f0f7342f0
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.date: 11/7/2018
+ms.openlocfilehash: d3c884d4e184bbe76ca630bfbe9d3a5dff1355d9
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865070"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a Área de Trabalho Gerenciada da Microsoft
 
-Dispositivos de área de trabalho do Microsoft gerenciados são gerenciados por e serão reparados ou substituídos pela Microsoft quando necessário. Microsoft fornecerá o gerenciamento de incidentes proativo e reativo. Microsoft rastreia incidentes no portal de administração do Microsoft Desktop gerenciados. Eles são classificados de acordo com as [definições de gravidade](#severity-definitions). 
+Dispositivos de área de trabalho do Microsoft gerenciados são gerenciados por e serão reparados ou substituídos pela Microsoft, conforme o contrato de garantia. Microsoft fornecerá o gerenciamento de incidentes proativo e reativo. Microsoft rastreia incidentes no portal de administração do Microsoft Desktop gerenciados. Eles são classificados de acordo com as [definições de gravidade](../working-with-managed-desktop/admin-support.md#sev).
 
 Os clientes podem contatar operações Microsoft Desktop gerenciados para:
 - Solicitações de informações sobre o local de trabalho moderno como uma configuração ou Locatário de serviço
@@ -39,10 +39,10 @@ Produtos suportados:
 
 Detalhes de suporte:
 
-- Atual: América do Norte e do Reino Unido apenas (24 x 7 x 365) 
+- Atual: América do Norte, Reino Unido e Austrália apenas (24 x 7 x 365) 
 - Inglês é o idioma com suporte apenas para telefone e bate-papo conversas com os clientes 
 - Podemos parceria com, não substituindo helpdesk de sua empresa; Aplicativos de linha de negócios (LOB), recursos de rede, etc. ainda são manipuladas pela assistência técnica 
-- Dispositivos não-Microsoft Desktop gerenciados estão fora do escopo 
+- Dispositivos gerenciados pelo Microsoft que residem em que os dispositivos de teste tocar e não - Microsoft Managed Desktop estão fora do escopo 
 
 ## <a name="hardware-replacement"></a>Substituição de hardware
 

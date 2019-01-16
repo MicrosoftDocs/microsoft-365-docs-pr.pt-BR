@@ -20,10 +20,10 @@ search.appverid:
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Saiba mais sobre o padrão e outras configurações para proteger os dispositivos Windows 10. '
 ms.openlocfilehash: 0bdf6a56d880cb84f4a4f50550539d97c006ba49
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865237"
 ---
 # <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10

@@ -19,10 +19,10 @@ search.appverid:
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como validar configurações de proteção do aplicativo Microsoft 365 Business em dispositivos Windows 10.
 ms.openlocfilehash: db05c86bd75cc30e22e025034a3dab478d0f5365
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864846"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção de dispositivo em PCs de 10 do Windows

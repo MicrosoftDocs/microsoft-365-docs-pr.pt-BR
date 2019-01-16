@@ -14,10 +14,10 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 ms.custom: microsoft-intune
 ms.openlocfilehash: b511052698f42a07df5fc25aeaad7fc7f00c2a6e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864850"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>Critérios de saída de infraestrutura de gerenciamento de dispositivo móvel

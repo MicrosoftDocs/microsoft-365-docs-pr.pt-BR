@@ -10,10 +10,10 @@ ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
 ms.openlocfilehash: 7772421a32abd863f4301a4bc3d8264d8fe44242
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865240"
 ---
 # <a name="microsoft-365-enterprise-services-and-concepts"></a>Serviços e conceitos do Microsoft 365 Enterprise

@@ -11,10 +11,10 @@ ms.author: bcarter
 manager: laurawi
 ms.collection: GDPR
 ms.openlocfilehash: 9ef2d1a91c00cbaa52282c27cf047e380dbf8249
-ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865306"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações de impacto de proteção de dados: Orientação para controladores de dados usando o Microsoft Office 365 

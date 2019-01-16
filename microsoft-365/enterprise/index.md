@@ -10,11 +10,11 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Documentação e recursos do Microsoft 365 Enterprise
-ms.openlocfilehash: b8c4fd137e96bf96595e1670ea63655839ffc332
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0e758884c063aaa82b5c7fc55051925376f8688b
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864684"
 ---
 <div id="main" class="v2">
@@ -136,6 +136,7 @@ ms.locfileid: "26864684"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gerenciar segurança + de mobilidade do Enterprise</h3>
+                                                <P><a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security" target="_blank">Segurança no Aplicativo da Nuvem da Microsoft</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune/index" target="_blank">Microsoft Intune</a></p>                              <P><a href="https://docs.microsoft.com/azure/active-directory" target="_blank">Azure Active Directory</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure/information-protection/" target="_blank">Proteção de Informações do Azure</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Proteção contra ameaças avançadas Azure</a></p>

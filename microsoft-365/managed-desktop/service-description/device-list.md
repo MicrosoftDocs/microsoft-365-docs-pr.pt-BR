@@ -3,14 +3,14 @@ title: Dispositivos na Área de Trabalho Gerenciada da Microsoft
 description: Este tópico lista as especificações do dispositivo usadas no Microsoft Desktop gerenciados.
 keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 11/2/2018
-ms.openlocfilehash: ee8e5a30952a7337408393f1b3a5070d86ae8929
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 44175e9896dcbfb85aab9872cbadab0addbc7324
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864693"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos na Área de Trabalho Gerenciada da Microsoft
@@ -23,13 +23,15 @@ Para obter mais informações sobre o Microsoft Desktop gerenciado, consulte [a 
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->Para inscrever-se no Microsoft Desktop gerenciados:
 
 - O dispositivo deve ser um dos seguintes modelos e configurações & #x00B9;:
-    - Surface Laptop & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM 
-    - Surface Pro & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM
     - Surface Book 2 & #x00B2;: 512 GB / Intel i7 / 16 GB de RAM / exibir 15 polegadas
     - Mostre Ir & #x00B2;: 128 GB / Intel 4415Y / 8GB de RAM
+    - Surface Laptop & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM
+    - Surface Laptop 2 & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM 
+    - Surface Pro & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM
+    - Surface Pro 6 & #x00B2;: 256 GB / Intel i5 / 8 GB de RAM
 - O dispositivo precisa ter uma imagem que & #x00B3;:
-    - Tem a versão mais recente do Windows 10 Enterprise ou Pro;
-    - Tem a versão mais recente do Microsoft Office 365 clique para executar;
+    - Tem o mais recente Windows 10 Pro ou versão Enterprise ou versão anterior imediato;
+    - Tem a versão mais recente do Microsoft Office 365 clique para executar ou versão anterior imediato;
     - Tem os drivers mais recentes de fornecidos pelo OEM instalado; e
     - Não tem nenhum software pré-carregados adicional
 - O dispositivo não deve ter concluído a experiência de primeira execução do Windows.
@@ -41,5 +43,5 @@ Para obter mais informações sobre o Microsoft Desktop gerenciado, consulte [a 
 
 & #x00B2; Para obter mais informações sobre os recursos desses dispositivos e recursos, consulte [dispositivos de superfície comparar](https://www.microsoft.com/surface/devices/compare-devices).
 
-& #x00B3; Isso pode ser implementado por meio de uma nova aquisição de dispositivo ou novamente Imaging anteriormente adquirido do dispositivo.
+& #x00B3; Isso pode ser implementado por meio de uma nova aquisição de dispositivo ou novamente Imaging anteriormente adquirido do dispositivo. Os dispositivos Surface Laptop 2, 6 Pro e ir atendem a estes requisitos de fábrica e apenas exigem o imaging novamente se eles foram usados anteriormente como um dispositivo de não-MMD pelo requisito de primeira execução.
 

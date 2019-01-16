@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 579f7e5d257d399d803f57ad7f24dbc1242f3ddc
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f83f3ce5e1abc3139a96ea27d7834a2546663e87
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865048"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Serviços de dispositivo da Área de Trabalho Gerenciada da Microsoft
 
-Este tópico lista os serviços e a limitação do serviço para os dispositivos Microsoft Desktop gerenciados. Para obter mais informações 
+Este tópico lista os serviços e a limitação do serviço para os dispositivos Microsoft Desktop gerenciados.
 
 ## <a name="device-services"></a>Serviços de dispositivo
 

@@ -3,14 +3,14 @@ title: Preparar os aplicativos para o Microsoft gerenciados a área de trabalho
 description: ''
 keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: ebeb54bd5d1f50cbb6f78b1c8ad4a624c449b8c2
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: b46e3de4a4cfe2140574ab9fc589e3a738bd2e17
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864882"
 ---
 # <a name="preparing-apps-for-microsoft-managed-desktop"></a>Preparar os aplicativos para o Microsoft gerenciados a área de trabalho
@@ -21,14 +21,16 @@ ms.locfileid: "26864882"
  
 Clientes de Microsoft e Microsoft Desktop gerenciados igualmente têm responsabilidades críticas, embora seja diferentes em torno de aplicativos usados com o Microsoft Desktop gerenciados.
 
-## <a name="microsoft-responsibilites"></a>Microsoft responsibilites
+## <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
 **Aplicativos do Office 365** Microsoft fornecerá o serviço completo para a implantação, atualização e suporte de aplicativos específicos do Office 365. Todos os usuários receberão o conjunto de base do Office 365 clique para executar a versão de 64 bits dos aplicativos incluídos na imagem do dispositivo, de forma que um usuário pode se tornar produtivo rapidamente. Os aplicativos de projeto e o Visio do pacote Office 365 são licenciados separadamente.  Microsoft Desktop gerenciados fornecerá os grupos de implantação, permitindo que o administrador de TI gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. Microsoft dará suporte a usuários finais desses aplicativos por meio de canais Microsoft Desktop gerenciados suporte.
 
-**Aplicativos de linha de negócios** A Microsoft fornece ferramentas para os administradores de TI a gerenciar e implantar seus aplicativos de linha de negócios para os usuários finais como parte do produto Intune. A Microsoft oferecerá suporte a problemas de implantação de aplicativo conforme detalhado nos [aplicativos de linha de negócios](#line-of-business-applications) 
+**Aplicativos de linha de negócios** A Microsoft fornece ferramentas para os administradores de TI a gerenciar e implantar seus aplicativos do linha de negócios (LOB) aos usuários finais como parte do produto Intune. A Microsoft oferecerá suporte a problemas de implantação de aplicativo conforme detalhado nos [aplicativos de linha de negócios](#line-of-business-applications) 
 
 **Implantar com Intune** Durante a inclusão de Microsoft Desktop gerenciados, permitindo que aplicativos adquiridos a serem implantados por meio de Intune Intune será vinculado no **Armazenamento da Microsoft para a empresa** . Microsoft também implantar a versão baseada na web do Portal da empresa aos usuários finais para que os administradores de TI pode fornecer uma experiência de autoatendimento para usuários finais.
 
 **Gerenciamento de aplicativo** Microsoft pode identificar aplicativos restritos que não são adequados para o local de trabalho moderno por causa impacto sobre o seu sistema. Quando esse aplicativo é identificado Microsoft notificará o cliente e desse aplicativo precisará ser removido do inquilino. 
+
+Para obter mais informações em requisitos de aplicativo e comportamentos de app restrita, consulte [requisitos de app do Microsoft Desktop gerenciados](../service-description/mmd-app-requirements.md)
 
 ## <a name="customer-responsibilities"></a>Responsabilidades do cliente
 Pacote Office 365 são fundamentais para as ofertas de produtividade da Microsoft e está incluso na licença Microsoft 365 para todos os usuários do Microsoft Desktop gerenciados. Enquanto o Microsoft implanta, atualiza e oferece suporte a aplicativos do Office para os dispositivos de área de trabalho gerenciada da Microsoft ainda há algumas áreas para o qual o cliente é responsável.
@@ -41,8 +43,7 @@ Como os aplicativos de linha de negócios (LOB) são exclusivos para cada client
 - Atribuindo aplicativos aos usuários
 - Criar e manter os grupos do Windows Azure AD (Active Directory) para gerenciar as atribuições de aplicativo 
 
-Depois que o conjunto básico de aplicativos LOB foi identificado pelos clientes serão adquirir, licenciar, empacotar e testar esses aplicativos no ambiente do Microsoft Desktop gerenciados. O cliente deve carregar e implante aplicativos para Intune para implantar, atualizar e encerrar seus aplicativos LOB. Os clientes estão responsáveis pelo gerenciamento de suporte a aplicativos LOB seus usuários.
- 
+O cliente deve carregar aplicativos LOB para Intune. Eles são então responsáveis por implantando, atualização e encerrando esses aplicativos durante seus respectivos ciclos, bem como gerenciar o suporte para esses aplicativos para seus usuários.
 
 ## <a name="office-applications"></a>Aplicativos do Office
 Como parte da licença do Microsoft 365 E5, o Office 365 Standard Suite (64 bits) é implantado pela Microsoft. 
@@ -74,21 +75,16 @@ Gerenciar configurações de aplicativo remotamente    | ![sim](images/checkmark
 
 Para obter informações sobre os requisitos de aplicativos LOB, consulte [requisitos de aplicativos de área de trabalho gerenciada do Microsoft](../service-description/mmd-app-requirements.md)
 
-## <a name="resources"></a>Recursos
-Enquanto muitos serviços estão fora do escopo para operações de área de trabalho gerenciada do Microsoft há quais ofertas da Microsoft que podem ajudar o cliente a gerenciam os aplicativos de serviços.
 
-### <a name="windows-upgrade-readiness"></a>Preparação para atualização do Windows
-Uma parte importante do configurando novos dispositivos Microsoft gerenciados é entender quais aplicativos são necessários para usuários de dispositivo. Preparação de atualização do Windows é uma ferramenta da Microsoft que ajuda as empresas a compreender o cenário do aplicativo dentro da sua empresa e ajuda-los para analisar dados de chave sobre esses aplicativos, tais como:
-
-- **O uso de aplicativos** - dados de telemetria é usado para monitorar o uso do aplicativo.
-- **Compatibilidade de aplicativos** - atualizar preparação examina cada aplicativo e vê como amplamente tiver sido implantado na versão mais recente do Windows 10 e avalia como identificar se ele for "Pronto para Windows". Esses dados ajudam foco testando os esforços de aplicativos que não estejam já amplamente adotados.
-
-### <a name="intune-application-deployment"></a>Implantação de aplicativos Intune
+## <a name="intune-application-deployment"></a>Implantação de aplicativos Intune
 Gerenciamento de aplicativos pode ser manipulado através do portal de administração de área de trabalho gerenciada da Microsoft ou por meio do portal Intune. Portal de gerenciamento de aplicativo do Intune mostra aplicativos implantados para Windows, Android e iOS. Portal de administração de área de trabalho gerenciada do Microsoft limita o modo de exibição para aplicativos do Windows 10. Ambos estão disponíveis por meio do Portal do Windows Azure. 
-- [Noções básicas do gerenciamento de aplicativo Intune](https://docs.microsoft.com/intune/app-management)
-- [Adicionar um aplicativo do Windows 32](https://docs.microsoft.com/intune/lob-apps-windows)
-- [Adicionar aplicativos web](https://docs.microsoft.com/intune/web-app)
-- [Atribuir e implantar aplicativos para grupos](https://docs.microsoft.com/intune/apps-deploy)
-
-### <a name="application-packaging-standards"></a>Padrões de empacotamento de aplicativo
-Para implantar aplicativos do Windows 32 por meio de Intune devem ser empacotados como uma uma única. MSI, um .appx, ou. MSIX. O tipo de pacote mais comum para Intune está no momento. MSI.
+* [Noções básicas do gerenciamento de aplicativo Intune](https://docs.microsoft.com/intune/app-management)
+* [Como adicionar aplicativos ao Intune](https://docs.microsoft.com/intune/app-management)
+   * [Adicionar um aplicativo de linha de negócios](https://docs.microsoft.com/intune/lob-apps-windows)
+   * [Como adicionar aplicativos do Win32 ao Intune](https://docs.microsoft.com/intune/apps-win32-app-management)
+   * [Adicionar aplicativos web](https://docs.microsoft.com/intune/web-app)
+* [Implantar aplicativos](https://docs.microsoft.com/intune/apps-deploy)
+   * [Implantar aplicativos Windows 10](https://docs.microsoft.com/intune/apps-windows-10-app-deploy)
+* Portal da empresa
+   * [Implantar o Portal da empresa](https://docs.microsoft.com/intune/store-apps-company-portal-app)
+   * [Configurar o aplicativo de Portal da empresa](https://docs.microsoft.com/intune/company-portal-app)

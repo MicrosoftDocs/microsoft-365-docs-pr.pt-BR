@@ -10,15 +10,15 @@ ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
 - goldenconfig
-ms.openlocfilehash: dd1504ac11f0e2eefa56572af24de14b5f87830e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f3d3d72ddf9129997dd4232a578e1f101f113a53
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864689"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
-Este artigo descreve como implementar a identidade recomendada e políticas de acesso de dispositivo para proteger email organizacional e clientes de email que suportam moderno autenticação e acesso condicional. Esta orientação aproveita as [políticas de acesso de identidade comum e dispositivos](identity-access-policies.md) e também inclui algumas recomendações adicionais.
+Este artigo descreve como implementar a identidade recomendada e políticas de acesso de dispositivo para proteger email organizacional e clientes de email que suportam moderna autenticação e acesso condicional. Esta orientação aproveita as [políticas de acesso de identidade comum e dispositivos](identity-access-policies.md) e também inclui algumas recomendações adicionais.
 
 
 Estas recomendações se baseiam em três níveis diferentes de segurança e proteção que pode ser aplicada com base na granulação das suas necessidades: **linha de base**, **confidenciais**e **altamente regulamentado**. Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais do cliente recomendado, referenciados por essas recomendações no [recomendado introdução de políticas e configurações de segurança](microsoft-365-policies-configurations.md).
@@ -34,20 +34,20 @@ Se você incluiu o Exchange Online e o Outlook no escopo das diretivas de quando
 
 |Nível de Proteção|Diretivas|Mais informações|
 |:---------------|:-------|:----------------|
-|**Linha de base**|[Exige MFA após a entrada risco *média* ou *alta*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Inclua o Exchange Online nas atribuições de aplicativos de nuvem.|
-|        |[Bloquear os clientes que não oferecem suporte a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Inclua o Exchange Online nas atribuições de aplicativos de nuvem.|
-|        |[Definir políticas de proteção de aplicativos](identity-access-policies.md#high-risk-users-must-change-password)|Certifique-se de que o Outlook está incluído na lista de aplicativos. Certifique-se atualizar a política em cada plataforma (iOS, Android, Windows).|
-|        |[Exigem aplicativos aprovados](identity-access-policies.md#require-approved-apps)|Inclua o Exchange Online na lista de aplicativos na nuvem.|
-|        |[Exigir compatível com PCs](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua o Exchange Online na lista de aplicativos de nuvem.|
-|        |[Clientes do ActiveSync do bloco](#block-activesync)|Adicione essa nova política. 
-|**Confidencial**|[Exige MFA após a entrada risco *baixa*, *média* ou *alta*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Inclua o Exchange Online nas atribuições de aplicativos de nuvem.|
-|         |[Exigir compatível com PCs *e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua o Exchange Online na lista de aplicativos na nuvem.|
-|**Altamente controlada**|[*Sempre* solicitar MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online nas atribuições de aplicativos de nuvem |
+|**Linha de base**|[Exige MFA após a entrada risco *média* ou *alta*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|        |[Bloquear os clientes que não oferecem suporte a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|        |[Definir políticas de proteção de aplicativos](identity-access-policies.md#high-risk-users-must-change-password)|Certifique-se de que o Outlook está incluído na lista de aplicativos. Certifique-se atualizar a política em cada plataforma (iOS, Android, Windows)|
+|        |[Exigem aplicativos aprovados](identity-access-policies.md#require-approved-apps)|Incluir o Exchange Online na lista de aplicativos de nuvem|
+|        |[Exigir compatível com PCs](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua o Exchange Online na lista de aplicativos de nuvem|
+|        |[Clientes do ActiveSync do bloco](#block-activesync-clients)|Adicionar essa nova política| 
+|**Confidencial**|[Exige MFA após a entrada risco *baixa*, *média* ou *alta*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|         |[Exigir compatível com PCs *e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Incluir o Exchange Online na lista de aplicativos de nuvem|
+|**Altamente controlado**|[*Sempre* solicitar MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 
 ## <a name="block-activesync-clients"></a>Clientes do ActiveSync do bloco
 Essa diretiva impede que os clientes do ActiveSync ignorando outras regras de acesso condicional. A configuração da regra se aplica apenas aos clientes do ActiveSync. Selecionando **exigem aprovados app de cliente**, esta diretiva bloqueia clientes ActiveSync. Para configurar essa diretiva:
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Depois de entrar com êxito, você verá o Painel do Azure.
+1. Vá para o [portal do Windows Azure](https://portal.azure.com)e entrar com suas credenciais. Depois que você tiver entrado com êxito, você verá o painel de controle Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
 
@@ -59,15 +59,17 @@ Essa diretiva impede que os clientes do ActiveSync ignorando outras regras de ac
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **Selecionar aplicativos**, selecione Exchange Online do Office 365. Clique em **Selecionar** e **feito**.
+7. Escolha **Selecionar aplicativos**, selecione **Exchange Online do Office 365**. Escolha **Selecionar** e **feito**.
+
 8. Escolha **condições**e, em seguida, escolha **aplicativos de cliente**.
-9. Para **Configurar**, selecione **Sim**. Verifique o seguinte: **aplicativos móveis e clientes de desktop** e **clientes do Exchange ActiveSync**. Clique em **concluído**.
+
+9. Para **Configurar**, selecione **Sim**. Verifique o seguinte: **aplicativos móveis e clientes de desktop** e **clientes do Exchange ActiveSync**. Escolha **feita**.
 
 10. Escolha **Conceder** na seção **Controles de acesso**.
 
 11. Escolha **conceder acesso**, selecione **exigir aprovados pelo aplicativo cliente**.  Para vários controles, selecione **exigir os controles selecionados**e selecione **Selecionar**. 
 
-12. Clique em **Criar**.
+12. Escolha **Criar**.
 
 ## <a name="setup-office-365-message-encryption"></a>Configurar a criptografia de mensagem do Office 365
 Com os novos recursos do Office 365 Message Encryption (OME), que aproveitar os recursos de proteção em proteção de informações do Windows Azure, sua organização pode compartilhar facilmente email protegido com qualquer pessoa em qualquer dispositivo. Os usuários podem enviar e receber mensagens protegidas com outras organizações do Office 365, bem como os clientes do Office 365 usando o Outlook.com, Gmail e outros serviços de email.

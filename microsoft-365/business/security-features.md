@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business.
-ms.openlocfilehash: bfddb419dbe5db441741a73ecb49e3d52649e382
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 17bcc57d57e837f18b05f66cfd54185324f3cad8
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864991"
 ---
 # <a name="microsoft-365-business-security-features"></a>Recursos de segurança do Microsoft 365 Business
@@ -130,11 +130,9 @@ A capacidade de aplicar as seguintes restrições durante o envio de emails no O
 
 Para verificar que AIP está ativado:
 
-1. Entrar no [Centro de administração do Windows Azure Active Directory](https://portal.azure.com/).
+1. Entrar no [portal do Azure](https://portal.azure.com/).
 
-    Você também pode tocar Localizando **Admin centrais** \> **Azure Active Directory** , no painel de navegação esquerdo no Centro de administração.
-
-2. Selecione **todos os serviços** e tyoe no *Azure Information Protection* na **Caixa Pesquisar**.
+2. Selecione **todos os serviços** e digite no *Azure Information Protection* na **Caixa Pesquisar**.
 
 3. Depois que os resultados são exibidos, clique em Iniciar próximo a **Proteção de informações do Windows Azure** para torná-lo um favorito e fácil de encontrar mais tarde.
 
@@ -144,7 +142,7 @@ Para verificar que AIP está ativado:
 
 Para exibir e modificar, existentes etiquetas:
 
-1. No painel de proteção de informações do Windows Azure, selecione **classificações** \> * * rótulos. <br/>![Rótulos padrão de proteção de informações do Windows Azure.](media/AIPLabels.png)
+1. No painel de proteção de informações do Windows Azure, selecione **classificações** \> **rótulos**. <br/>![Rótulos padrão de proteção de informações do Windows Azure.](media/AIPLabels.png)
 
 2. Você pode escolher qualquer rótulo para exibir opções, você pode alterar o nome para exibição, cores, etc.
  
@@ -159,6 +157,16 @@ Para instalar manualmente o cliente AIP:
 2. Você pode verificar se a instalação funcionou exibindo um documento do Word e certificando-se de que a opção **proteger** está disponível na guia **página inicial** . <br/>![Guia de proteção do menu suspenso em um documento do Word.](media/Word_Protect.png)
 
 Para mais informações, consulte [instalar o cliente](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
+
+## <a name="go-to-intune-admin-center"></a>Vá para o Centro de administração Intune
+
+1. Entrar no [portal do Azure](https://portal.azure.com/).
+
+2. Selecione **todos os serviços** e digite no *Intune* na **Caixa Pesquisar**.
+
+3. Depois que os resultados são exibidos, clique em Iniciar próximo ao **Microsoft Intune** torná-lo um favorito e fácil de encontrar mais tarde.
+ 
+Você pode usar o Intune para registrar e gerenciar dispositivos de sua organização. Para obter mais informações, consulte [recursos pelo método de inscrição para dispositivos do Windows](https://docs.microsoft.com/intune/enrollment-method-capabs) e [Opções de inscrição para dispositivos gerenciados por Intune](https://docs.microsoft.com/intune/enrollment-options).
     
 ## <a name="faq"></a>Perguntas frequentes
 
@@ -174,15 +182,4 @@ Sim, esses recursos estão disponíveis em todos os mercados onde Microsoft 365 
     
     ![No painel de navegação esquerdo no Centro de administração do Microsoft 365, escolha centros do administrador.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Escolha **segurança &amp; conformidade** para ir para segurança &amp; Centro de conformidade. 
-    
- ### <a name="how-do-i-find-the-intune-admin-center"></a>Como encontrar o Centro de administração Intune?
-  
-  
-1. [Entrar no Microsoft 365 Business](https://portal.microsoft.com/) usando suas credenciais de administrador. 
-    
-2. No painel de navegação esquerdo, localize a **centrais de Admin** e expandi-la. 
-    
-3. Escolha **Intune** para ir para o Centro de administração Intune. 
-    
-
+3. Escolha **segurança &amp; conformidade** para ir para segurança &amp; Centro de conformidade.

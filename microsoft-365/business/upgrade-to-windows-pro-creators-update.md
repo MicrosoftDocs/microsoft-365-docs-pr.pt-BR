@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Saiba como atualizar os dispositivos do Windows para o Windows Update criadores do profissional de 10. '
 ms.openlocfilehash: 5a9d232ffa50b642bdeab2dea391895e759e118b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864854"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Atualizar dispositivos Windows para a Atualização do Windows Pro para Criadores

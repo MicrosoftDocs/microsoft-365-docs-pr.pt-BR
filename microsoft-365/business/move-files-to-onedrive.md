@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Saiba como mover os arquivos para OneDrive.
 ms.openlocfilehash: bef14f1231e73cc6d70f3266913d2bde89447c0a
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864941"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business

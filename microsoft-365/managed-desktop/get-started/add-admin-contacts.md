@@ -3,14 +3,14 @@ title: Adicionar contatos de administração no portal de administração do Mic
 description: Diga-nos quem contatar para cada área de foco.
 keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 65dd8709c469826e2696015c13823c58eb10e342
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 31984609681b6e3b1b6de9996eb8fb0fcf6f5624
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864858"
 ---
 # <a name="add-admin-contacts-in-microsoft-managed-desktop-admin-portal"></a>Adicionar contatos de administração no portal de administração de área de trabalho gerenciada da Microsoft
@@ -25,11 +25,11 @@ Portal de administração de área de trabalho gerenciada do Microsoft requer qu
 - Administrador de faturamento
 - Administrador de suporte de serviço
 
-Para obter mais informações sobre essas funções e atribuindo a elas no Azure AD, consulte [permissões de função de administrador no Windows Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
+O Administrador Global deve ser aquele que se inscrevam o cliente de área de trabalho gerenciada do Microsoft.  Todas as cinco funções têm o mesmo acesso dentro do portal de administração para iniciar e exibir tarefas.  Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte [permissões de função de administrador no Windows Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
 
 ## <a name="admin-contact-focus-areas"></a>Áreas de foco de contato do administrador
 
-Contatos de administração devem ser melhor pessoa ou grupo que pode responder perguntas e tomar decisões para áreas de foco diferentes. Nessas áreas incluem:
+Contatos de administração devem ser melhor pessoa ou grupo que pode responder perguntas e tomar decisões para áreas de foco diferentes.  Operações de área de trabalho do Microsoft gerenciados contatará esses contatos Admin para questões envolvendo solicitações de suporte arquivadas pelo cliente.  Esses contatos Admin receberá notificações novas mensagens e atualizações de solicitação de suporte.  Nessas áreas incluem:
 
 Área de foco | Para fazer perguntas sobre
 --- | ---

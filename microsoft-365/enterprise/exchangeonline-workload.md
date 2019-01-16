@@ -11,11 +11,11 @@ ms.collection: Ent_O365
 ms.custom:
 - Strat_O365_Enterprise
 description: As etapas no processo de planejamento, aplicação e orientando o valor do Exchange Online no Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 36b24290acd4467400eab86b4c2760ccad65deab
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: aafa1b28546eb77938bb3e4a5ebe9ccd60b9a60b
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865301"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Implantar o Exchange Online para Microsoft 365 Enterprise
@@ -29,7 +29,7 @@ Se você estiver totalmente nova para o Exchange Online, consulte [Microsoft Exc
 As fases e etapas a seguir orientam você pelo processo de envisioning a função do Exchange Online em sua organização, a inclusão de sua organização para o Exchange Online por meio de uma série de distribuições progressivas e orientando o uso do Exchange Online e sua valor para seus usuários finais.
 
 >[!Note]
->Estas instruções de implantação devem ser seguidas somente depois de concluir sua [infraestrutura foundation](deploy-foundation-infrastructure.md) para Microsoft 365 Enterprise.
+>Estas instruções de implantação devem ser seguidas somente depois que você tiver concluído a [Fase 2-Identity](identity-infrastructure.md) da infra-estrutura 365 Enterprise do Microsoft foundation.
 >
 
 ## <a name="phase-1-envision"></a>Fase 1: visualizar
@@ -38,7 +38,7 @@ Nesta fase, você pode reunir as pessoas para sua implantação do Exchange Onli
 
 ### <a name="step-1-gather-your-exchange-online-deployment-members"></a>Etapa 1: Reúna os membros da sua implantação Exchange Online
 
-Para uma implantação bem-sucedida do Exchange Online na parte superior da Microsoft 365 [infraestrutura foundation](deploy-foundation-infrastructure.md), você precisará fazer as pessoas certas para entrada e comentários. Pessoas-chave incluem tomadores de decisão de negócios, a equipe de TI, como arquitetos e implementadores e defensores para seus usuários finais. 
+Para uma implantação bem-sucedida do Exchange Online na parte superior da [Fase 2-Identity](identity-infrastructure.md) da infra-estrutura 365 Enterprise do Microsoft foundation, você precisará fazer as pessoas certas para entrada e comentários. Pessoas-chave incluem tomadores de decisão de negócios, a equipe de TI, como arquitetos e implementadores e defensores para seus usuários finais. 
 
 Esses três grupos Certifique-se de que sua implantação do Exchange Online inclui considerações que abordam as necessidades comerciais, aspectos técnicos de migração de caixa de correio e de segurança e que o resultado será algo que os usuários típicos usará.
 
@@ -74,11 +74,11 @@ Uma lista de cenários Exchange Online que abordam as necessidades da sua organi
 
 Nesta fase, você planeje os aspectos técnicos de uma implantação do Exchange Online e iniciar a distribuição para grupos selecionados de usuários.
 
-### <a name="prerequisites-identity-and-device-access-configuration"></a>Pré-requisitos: Configuração de acesso de dispositivo e identidade
+### <a name="prerequisites-identity-and-device-access-configuration"></a>Pré-requisitos: Identidade e configuração de acesso ao dispositivo
 
 Para proteger o acesso a caixas de correio Exchange Online, certifique-se de que você tenha configurado a [identidade e dispositivo políticas de acesso](identity-access-policies.md) e o [recomendado políticas de acesso do Exchange Online](secure-email-recommended-policies.md).
 
-### <a name="step-1-complete-your-technical-planning"></a>Etapa 1: concluir seu planejamento técnico
+### <a name="step-1-complete-your-technical-planning"></a>Etapa 1: Concluir seu planejamento técnico
 
 Antes de começar a planejar técnica, determine se você deseja usar FastTrack. Se sua organização tiver mais de 50 estações e estiver participando de um [plano de elegível](https://technet.microsoft.com/library/dn783224.aspx), você pode usar [FastTrack para 365 da Microsoft](https://fasttrack.microsoft.com/microsoft365), disponíveis sem custo adicional para guiá-lo por meio de planejamento, implantação e adoção do serviço. Ou então, você pode concluir este trabalho por conta própria usando os assistentes de inclusão de FastTrack, que foram disponibilizados por [FastTrack](https://fasttrack.microsoft.com/) depois que você entrar com sua conta do Office 365.
 
@@ -86,7 +86,7 @@ Se você estiver fazendo seu próprio processo de planejamento, ou em conjunto c
 
 Use estes recursos para preparar os aspectos técnicos de uma distribuição do Exchange Online: 
 
-- [Formas de migrar várias contas de email para o Office 365](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)
+- [Formas de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
 - [Supervisor de migração de email do Office 365](https://portal.office.com/onboarding/mailsetupadvisor#/) (deve estar conectado à sua assinatura do Office 365)
 - [Colaboração no Exchange Online](https://technet.microsoft.com/library/jj983794(v=exchg.150).aspx)
 - [Destinatários no Exchange Online](https://technet.microsoft.com/library/jj200702(v=exchg.150).aspx)
@@ -165,7 +165,7 @@ Após a aplicação do Exchange Online em toda sua organização, você deve con
 Aqui estão algumas sugestões de atividades:
 
 - Veja [Orientação sobre a adoção do Office 365](https://aka.ms/successfactors) para saber mais sobre as práticas recomendadas gerais para a adoção do serviço de nuvem. 
-- Veja [relatórios de atividades do Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263) para entender o uso do serviço do Office 365 em sua organização. Se você não for um administrador global do Office 365 para sua organização, peça a um administrador global para conceder à sua conta de usuário permissões para ler relatórios, de forma que você possa acessar os relatórios de atividades.
+- Veja [relatórios de atividades do Office 365](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) para entender o uso do serviço do Office 365 em sua organização. Se você não for um administrador global do Office 365 para sua organização, peça a um administrador global para conceder à sua conta de usuário permissões para ler relatórios, de forma que você possa acessar os relatórios de atividades.
 - Monitore sua jurisdição comentários (um canal pública em uma equipe de equipes ou o Yammer central) para os problemas e comentários de pessoas sobre suas experiências com o Exchange Online. Resolver problemas e perguntas mais rápido possível para impedir frustrados indivíduos e demonstrar o suporte para a distribuição.
 - Identificar e criar campeões em cada grupo de negócios e realce seus trabalhos realizados e práticas recomendadas usando o Exchange Online. Refletem seus êxitos check-out para a organização para mostrar a adoção e o sucesso do projeto. Aval líderes técnicos dentro de um grupo de negócios pode exercer uma poderosa influência sobre líderes e pares.
 

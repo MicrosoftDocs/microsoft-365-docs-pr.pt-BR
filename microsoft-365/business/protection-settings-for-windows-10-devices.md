@@ -22,10 +22,10 @@ search.appverid:
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Saiba como criar uma política de gerenciamento de aplicativo e proteger os arquivos de trabalho em dispositivos Windows 10.
 ms.openlocfilehash: acf19a72d994185a35b2e425f8334a73a121ee10
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26864881"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Definir configurações de proteção de aplicativo para dispositivos Windows 10

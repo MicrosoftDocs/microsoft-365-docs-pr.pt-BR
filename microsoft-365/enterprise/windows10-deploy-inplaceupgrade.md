@@ -10,10 +10,10 @@ ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
 ms.openlocfilehash: 3df76c0de7b5a8b12c063113c79f9efa4e33b4c1
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865201"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco

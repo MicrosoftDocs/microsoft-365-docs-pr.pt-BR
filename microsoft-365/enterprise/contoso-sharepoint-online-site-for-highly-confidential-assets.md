@@ -14,10 +14,10 @@ ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 description: 'Resumo: Como Contoso implementou um site do SharePoint Online para altamente regulamentados dados para facilitar a colaboração entre sua pesquisa equipes.'
 ms.openlocfilehash: 697ddb27b56fd529e9c73b89d9f07b8731ad76c3
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865270"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint Online para ativos digitais altamente confidenciais da Contoso Corporation

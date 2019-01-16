@@ -21,10 +21,10 @@ search.appverid:
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: Saiba mais sobre as políticas de dispositivo para Windows 10 que se aplicam a todos os usuários em sua organização.
 ms.openlocfilehash: 38b79b03ea385913d45df4e61f60c9e2071f3679
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26865093"
 ---
 # <a name="configure-windows-10-devices"></a>Configurar dispositivos Windows 10
