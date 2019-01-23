@@ -36,7 +36,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
+      "hide_comments": true,
       "feedback_github_repo": "MicrosoftDocs/microsoft-365-docs",
       "feedback_product_url": "https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app",
       "breadcrumb_path": "/microsoft-365/breadcrumb/toc.json",
