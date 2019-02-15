@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Conheça algumas maneiras de implantar as fases da infraestrutura de base para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 5ffe00c9eb975a0f8c2d193a71d8b613e827cc70
-ms.sourcegitcommit: f2eae6ec367f7b69043105d117a2a7e3da4153aa
+ms.openlocfilehash: 909526fb4938c8da142b4f667140f10dda660877
+ms.sourcegitcommit: 6f94b7a272e33c492957336eae28f439e438c85b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29538916"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29993232"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 Enterprise
 
@@ -53,7 +53,7 @@ Este artigo usa o gráfico a seguir para representar essas definições:
 
 ![](./media/deployment-strategies-microsoft-365-enterprise/definitions.png) 
 
-O sombreamento do gráfico de lançamento para os usuários indica o lançamento de 0% a 100% em sua organização, usando uma abordagem metódica ou estruturada como grupos, departamentos ou regiões.
+O sombreamento do gráfico de porcentagem para os usuários indica o lançamento de 0% a 100% em sua organização, usando uma abordagem metódica ou estruturada como grupos, departamentos ou regiões.
 
 ## <a name="deployment-strategies"></a>Estratégias de implantação
 

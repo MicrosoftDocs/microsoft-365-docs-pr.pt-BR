@@ -16,16 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 748ccaf8601d9e9564d176f2368e3cc71f926208
-ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
+ms.openlocfilehash: 8148341359b66b147ecc5cf9b4927621db1f78dd
+ms.sourcegitcommit: 6f94b7a272e33c492957336eae28f439e438c85b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27241974"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29993222"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
-O write-back de senha permite aos usuários atualizar as senhas pelo Azure Active Directory (AD), o que é então replicado para o Windows Server Active Directory (AD) local. Com o write-back de senha, os usuários não precisam atualizar senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
+O write-back de senha permite aos usuários atualizar as senhas pelo Azure AD (Azure Active Directory), o que é então replicado para o AD DS (Active Directory Domain Services) local. Com o write-back de senha, os usuários não precisam atualizar senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
 
 Este artigo descreve como você pode configurar seu ambiente de teste do Microsoft 365 para o write-back de senha.
 
