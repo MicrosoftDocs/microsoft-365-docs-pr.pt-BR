@@ -6,12 +6,12 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
-ms.openlocfilehash: 54d986f37b3981200bdead30a2c232143b9dd49d
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.openlocfilehash: 64560a1eb597072dd99c1538b0131e3cd807899c
+ms.sourcegitcommit: 1942a860d1b65e1f8062564ec4703b953e0c2fd7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051082"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30122241"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações configuráveis-Microsoft Managed desktop
 
@@ -64,9 +64,9 @@ Todas as configurações configuráveis são gerenciadas usando o portal de admi
 - **Acompanhar progresso** – rastreie o status após implantar a alteração. O status será alterado para **em andamento**e, em seguida, **concluído**ou **falha**. Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para operações de área de trabalho gerenciada da Microsoft para investigar o problema.  
 - **Confira a versão** implantada: cada alteração implantada tem um número de versão.
 - **Reverter alterações** – reverter uma alteração interrompe a implantação atual e reverte todos os toques para as últimas alterações implantadas em todos os toques. Você está retornando para o último valor de configuração em boas condições.
-- **Validatie cahnges** – após a conclusão da implantação, valide as alterações que foram aplicadas conforme o esperado.  
+- **Validar alterações** – após a conclusão da implantação, valide as alterações aplicadas conforme o esperado.  
 
-Se uma implantação tiver falhado ou se você não conseguir reverter uma alteração, [abra uma solicitação de suporte](admin-support.md) com as operações de área de trabalho gerenciada da Microsoft. 
+Se uma implantação tiver falhado ou se você não puder reverter uma alteração, [abra uma solicitação de suporte](admin-support.md) com as operações de área de trabalho gerenciada da Microsoft. 
 
 Para obter mais informações, consulte [implantar e acompanhar definições configuráveis](config-setting-deploy.md).
 
