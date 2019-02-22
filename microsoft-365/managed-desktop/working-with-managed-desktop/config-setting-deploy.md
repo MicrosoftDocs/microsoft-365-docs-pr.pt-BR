@@ -5,13 +5,13 @@ keywords: Microsoft Managed desktop, Microsoft 365, serviço, documentação, im
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 2/12/2019
-ms.openlocfilehash: fd0e0750332fa8f650cfc4756f8eb108be2a71df
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.date: 2/17/2019
+ms.openlocfilehash: d6e669ecb2e00158dd3ce6712014244fa2f081c9
+ms.sourcegitcommit: b838e1dc7a98fcce1bdf7b76173f5f04f16be703
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051122"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30175773"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -24,9 +24,9 @@ Estes são os Statues que você verá para cada implantação.
 Status  | Explicação 
 --- | --- 
 Implantar | Sua alteração está aguardando para ser implantada neste anel.
-Em andamento | A alteração está sendo aplicada a dispositivos neste anel. 
-Completo | A alteração está sendo aplicada a dispositivos neste anel. 
-Falhou | A alteração falhou em 10% dos dispositivos no anel, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
+Em andamento | A alteração está sendo aplicada aos dispositivos ativos neste toque. 
+Completo | A alteração foi concluída em todos os dispositivos ativos neste anel. 
+Falhou | A alteração falhou em 10 por cento de dispositivos ativos no anel, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
 Revertidos | A alteração foi revertida para a última alteração implantada com êxito em todos os toques de implantação.
 
 ## <a name="deploy-changes"></a>Implantar alterações
