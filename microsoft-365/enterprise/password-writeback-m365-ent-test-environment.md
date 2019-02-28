@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 8148341359b66b147ecc5cf9b4927621db1f78dd
-ms.sourcegitcommit: 6f94b7a272e33c492957336eae28f439e438c85b
+ms.openlocfilehash: 7593da41d51d85c0f73d01450bb67306f82c7a1e
+ms.sourcegitcommit: 15c60addeaa51e0601c580665e8316ece75d3abc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29993222"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30303636"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
@@ -106,11 +106,11 @@ Configure o Azure AD Connect em APP1 para write-back de senha.
 
 4. Na página **Tarefas adicionais**, clique em **Personalizar as opções de sincronização** e depois em **Avançar**.
 
-5. Na página **Conectar-se ao Azure AD**, digite as credenciais de conta do Usuário 1 e clique em **Avançar**.
+5. Na página **Conectar ao Azure AD**, digite suas credenciais de conta de administrador global e clique em **Próxima**.
 
 6. Nas páginas **Conectar os diretórios** e **Filtrar domínio/UO**, clique em **Avançar**.
 
-7. Na página **Recursos opcionais**, selecione **Write-back de senha** e clique em Avançar. 
+7. Na página **Recursos opcionais**, selecione **Write-back de senha** e clique em **Avançar**. 
 
 8. Na página **Pronto para configurar**, clique em **Configurar** e aguarde que o processo seja concluído.
 
@@ -129,7 +129,7 @@ Esta configuração consiste em:
 - O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD de suas assinaturas do Azure AD das assinaturas do Office 365 e do EMS E5 para o domínio TESTLAB do Windows Server AD. 
 - O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.
 
-Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-password-writeback.md), na fase Identidade.
+Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-password-reset.md#identity-pw-writeback), na fase Identidade.
 
 ## <a name="next-step"></a>Próxima etapa
 
