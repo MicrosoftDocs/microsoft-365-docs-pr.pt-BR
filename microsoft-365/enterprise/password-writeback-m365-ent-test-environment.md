@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom:
 - TLGS
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 7593da41d51d85c0f73d01450bb67306f82c7a1e
-ms.sourcegitcommit: 15c60addeaa51e0601c580665e8316ece75d3abc
+ms.openlocfilehash: 51ac9caf1cbc2edd979d9529301388a30981ee44
+ms.sourcegitcommit: e749e2db2a15bb52b1a2857dbccdf55c31cff3d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30303636"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340101"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
