@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
-ms.openlocfilehash: 1f0301f8660fd7ff60bd347d0d7b88c629d79453
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 8839be023844ae4de17972790ec9d02b82c75244
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051092"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414189"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referência de configurações configuráveis-Microsoft Managed desktop
 
@@ -115,7 +116,7 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 5. Repita as etapas 1-4 para cada site confiável que você deseja excluir. 
 6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
 
-## <a name="proxy"></a>Proxy
+## <a name="proxy"></a>Acionista
 Você pode gerenciar as configurações de proxy de rede para sua organização. Adicione o seu servidor proxy e o número da porta e, em seguida, adicione suas exceções de site de proxy. A área de trabalho gerenciada da Microsoft inclui um conjunto de exceções de proxy padrão necessárias para que o serviço funcione. A lista de exclusão padrão só pode ser modificada pelo serviço de área de trabalho gerenciada da Microsoft.  Para obter mais informações, consulte [configuração de rede para a área de trabalho gerenciada da Microsoft](../get-ready/network.md). 
 
 As exceções de site de proxy adicionadas no portal de área de trabalho gerenciada da Microsoft são adicionadas às exceções de proxy padrão incluídas no serviço de área de trabalho gerenciada da Microsoft. 

@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/17/2019
-ms.openlocfilehash: d6e669ecb2e00158dd3ce6712014244fa2f081c9
-ms.sourcegitcommit: b838e1dc7a98fcce1bdf7b76173f5f04f16be703
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 62a17c95f5dc6b11f446a27684c507d7aaa95b7b
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30175773"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414160"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -26,7 +27,7 @@ Status  | Explicação
 Implantar | Sua alteração está aguardando para ser implantada neste anel.
 Em andamento | A alteração está sendo aplicada aos dispositivos ativos neste toque. 
 Completo | A alteração foi concluída em todos os dispositivos ativos neste anel. 
-Falhou | A alteração falhou em 10 por cento de dispositivos ativos no anel, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
+Failed | A alteração falhou em 10 por cento de dispositivos ativos no anel, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
 Revertidos | A alteração foi revertida para a última alteração implantada com êxito em todos os toques de implantação.
 
 ## <a name="deploy-changes"></a>Implantar alterações

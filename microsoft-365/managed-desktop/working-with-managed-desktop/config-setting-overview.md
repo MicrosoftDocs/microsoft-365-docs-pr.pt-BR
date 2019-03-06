@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
-ms.openlocfilehash: 64560a1eb597072dd99c1538b0131e3cd807899c
-ms.sourcegitcommit: 1942a860d1b65e1f8062564ec4703b953e0c2fd7
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: ea957d02484eac9a2e8b51f53d6e2c34f2b3d711
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30122241"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414179"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações configuráveis-Microsoft Managed desktop
 

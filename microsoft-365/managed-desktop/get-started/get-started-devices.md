@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/27/2019
-ms.openlocfilehash: d2b5fe34825d44e71a54a895c3de2455eeeeaee1
-ms.sourcegitcommit: e749e2db2a15bb52b1a2857dbccdf55c31cff3d7
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 92bec0956f24d255f36ed233b531a4d4e396cadb
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340091"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414149"
 ---
 # <a name="get-started-using-microsoft-managed-desktop-devices"></a>Introdução ao uso de dispositivos de área de trabalho gerenciada da Microsoft
 
