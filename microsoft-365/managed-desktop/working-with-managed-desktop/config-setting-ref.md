@@ -7,19 +7,19 @@ author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8839be023844ae4de17972790ec9d02b82c75244
-ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
+ms.openlocfilehash: 296602422cf4d590ae17335d7a0bbbc939d929ed
+ms.sourcegitcommit: d38c0ce846bac19e876a03a59ed4f268c7bae389
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30414189"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900270"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referência de configurações configuráveis-Microsoft Managed desktop
 
 Este tópico lista as categorias de configurações que os clientes podem configurar com a área de trabalho gerenciada da Microsoft. Cada categoria de configuração inclui informações sobre requisitos, práticas recomendadas e como personalizar a categoria de configuração. 
 
 ## <a name="desktop-background-picture"></a>Imagem de fundo da área de trabalho
-Você pode personalizar a imagem de plano de fundo da área de trabalho para dispositivos de área de trabalho gerenciado da Microsoft em sua organização. Você pode usá-lo para aplicar uma marca da empresa ou um marketing 
+Você pode personalizar a imagem de plano de fundo da área de trabalho para dispositivos de área de trabalho gerenciado da Microsoft em sua organização. Você pode usá-lo para aplicar uma marca da empresa ou material de marketing. 
 
 ### <a name="requirements"></a>Requisitos
 
@@ -35,7 +35,7 @@ Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área 
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **imagem de fundo da área de trabalho**. 
 4. Insira o local da imagem que você deseja usar. 
-5. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste. 
+5. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste. 
 
 ## <a name="browser-start-pages"></a>Páginas iniciais do navegador
 As páginas iniciais do navegador são abertas em guias individuais quando os usuários iniciam o Microsoft Edge. Se você quiser tornar mais fácil para os usuários abrir um conjunto de sites que eles usam com frequência, adicione uma página inicial de navegador para cada site. 
@@ -53,7 +53,7 @@ Você deve fornecer o nome de domínio totalmente qualificado (FQDN) para sites 
 4. Selecione **Adicionar página inicial**.
 5. Na **página Adicionar do navegador**, digite a URL do site que você deseja usar e, em seguida, selecione **Adicionar página inicial**. 
 6. Repita as etapas 1-5 para as páginas iniciais adicionais do navegador. 
-7. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
+7. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 ## <a name="enterprise-mode-site-list-location"></a>Local da lista de sites do modo empresarial
 
@@ -82,7 +82,7 @@ Essas práticas recomendadas são oferecidas para ajudar os clientes a tomar dec
 2.  Em **configurações**, selecione **configurável**.
 3.  Em espaço de trabalho **configurável** , selecione **local da lista de sites do modo empresarial**. 
 4.  Insira o local https da sua lista de sites. 
-5.  Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
+5.  Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 ## <a name="trusted-sites"></a>Sites confiáveis
 
@@ -105,7 +105,7 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**e, em seguida, selecione **Adicionar site confiável**. 
 4. Em **Adicionar site confiável**, digite a URL, escolha uma zona de segurança e, em seguida, selecione **Adicionar site confiável**. 
 5. Repita as etapas 1-4 para cada site confiável que você deseja adicionar. 
-6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
+6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 **Para remover um site confiável**
 
@@ -114,7 +114,7 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**. 
 4. Selecione o site que você deseja excluir e, em seguida, selecione **excluir**. 
 5. Repita as etapas 1-4 para cada site confiável que você deseja excluir. 
-6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
+6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 ## <a name="proxy"></a>Acionista
 Você pode gerenciar as configurações de proxy de rede para sua organização. Adicione o seu servidor proxy e o número da porta e, em seguida, adicione suas exceções de site de proxy. A área de trabalho gerenciada da Microsoft inclui um conjunto de exceções de proxy padrão necessárias para que o serviço funcione. A lista de exclusão padrão só pode ser modificada pelo serviço de área de trabalho gerenciada da Microsoft.  Para obter mais informações, consulte [configuração de rede para a área de trabalho gerenciada da Microsoft](../get-ready/network.md). 
@@ -140,7 +140,7 @@ Esses requisitos devem ser atendidos para exceções de servidor proxy e site de
 4. Insira o **endereço** e o **número da porta** para o servidor de proxy e, em seguida, selecione **Adicionar exceção de proxy**. 
 5. Insira a URL de um site http válido e, em seguida, selecione **Adicionar exceção de proxy**. 
 6. Repita as etapas 1-5 para cada site confiável que você deseja adicionar. 
-7. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no anel de teste.
+7. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Visão geral das configurações configuráveis](config-setting-overview.md) 
