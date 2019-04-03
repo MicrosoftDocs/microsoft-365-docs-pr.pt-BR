@@ -5,14 +5,13 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 01/17/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: febb3198c434e638f83c412a3f8a3b688d9f5bd1
-ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
+ms.openlocfilehash: 5ccb240460958d5978f4fd19e08652123790784e
+ms.sourcegitcommit: 2211f57c268754d242d6331c188143f818f5a9f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30414159"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31039590"
 ---
 # <a name="deploy-apps-to-microsoft-managed-desktop-devices"></a>Implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft
 Parte da integração com a área de trabalho gerenciada da Microsoft inclui a adição e implantação de aplicativos aos dispositivos do usuário. Quando estiver usando o portal de área de trabalho gerenciada da Microsoft, você poderá adicionar e implantar seus aplicativos. 
