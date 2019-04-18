@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2317a0581b356dadbde2042920ed2542f0e2203c
-ms.sourcegitcommit: 392b906e64d27366b47931e8285b625e5e2f884e
+ms.openlocfilehash: c4ebe0c7ad3d1e197cf90cc975366df61d3b0cb5
+ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31838162"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901205"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft
 
-Na área de trabalho gerenciada da Microsoft, os dispositivos são automaticamente Unidos ao Active Directory do Azure. Isso significa que, se você estiver usando um Active Directory local, será necessário verificar algumas coisas para garantir que os dispositivos que ingressaram no Azure AD possam se comunicar com seu Active Directory local. 
+Na área de trabalho gerenciada da Microsoft, os dispositivos são adicionados automaticamente ao Azure Active Directory (Azure AD). Isso significa que, se você estiver usando um Active Directory local, será necessário verificar algumas coisas para garantir que os dispositivos que ingressaram no Azure AD possam se comunicar com seu Active Directory local. 
 
 > [!NOTE]  
 > *Híbrido* O Azure AD Join não é suportado pela área de trabalho gerenciada da Microsoft.
@@ -30,22 +30,22 @@ Este tópico explica o que você precisa verificar para garantir que os aplicati
 
 ## <a name="single-sign-on-for-on-premises-resources"></a>Logon único para recursos locais
 
-O logon único (SSO) usando o UPN e as senhas são habilitados por padrão em dispositivos de área de trabalho gerenciada da Microsoft. Mas os usuários também podem usar o Windows Hello para empresas, que requer algumas etapas de configuração adicionais. 
+O logon único (SSO) usando o UPN e a senha são habilitados por padrão em dispositivos de área de trabalho gerenciada da Microsoft. Mas os usuários também podem usar o Windows Hello para empresas, que requer algumas etapas de configuração adicionais. 
 
-### <a name="single-sign-on-by-using-upn-and-passwords"></a>Logon único usando UPN e senhas
+### <a name="single-sign-on-by-using-upn-and-password"></a>Logon único usando o UPN e a senha
 
 Na maioria das organizações, seus usuários poderão usar o SSO para autenticar por UPN e senha em dispositivos de área de trabalho gerenciada da Microsoft. No enTanto, para garantir que isso funcione, você deve verificar novamente o seguinte:
 
-- Confirme se a conexão do Azure Active Directory (AAD) está configurada e usa um servidor do Active Directory local executando o Windows Server 2008 R2 ou posterior.
-- Confirme se o AAD Connect está executando uma versão com suporte e se está definido para sincronizar esses três atributos com o Azure AD: 
+- Confirme se o Azure AD Connect está configurado e usa um servidor do Active Directory local executando o Windows Server 2008 R2 ou posterior.
+- Confirme se o Azure AD Connect está executando uma versão com suporte e se está definido para sincronizar esses três atributos com o Azure AD: 
     - Nome de domínio DNS do Active Directory local (onde os usuários finais estão localizados)
-    - NetBIOS do Active Directory do yor local (onde os usuários finais estão localizados)
+    - NetBIOS de seu Active Directory local (onde os usuários finais estão localizados)
     - Nome da conta SAM do usuário
 
 
 ### <a name="single-sign-on-by-using-windows-hello-for-business"></a>Logon único usando o Windows Hello para empresas
 
-Os dispositivos de área de trabalho gerenciada da Microsoft também oferecem aos seus usuários uma experiência rápida e com senha, empregando o Windows Hello para empresas. Para garantir que o Windows Hello para empresas funcione sem que os usuários tenham de fornecer o UPN e as senhas, visite [configurar os dispositivos ingressaDos no Azure ad para o logon único local usando o Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) para verificar os requisitos e siga as etapas fornecidas ali.
+Os dispositivos de área de trabalho gerenciada da Microsoft também oferecem aos seus usuários uma experiência rápida e com senha, empregando o Windows Hello para empresas. Para garantir que o Windows Hello para empresas funcione sem que seus usuários tenham que fornecer seus próprios UPN e senha, visite [configurar os dispositivos ingressaDos no Azure ad para o logon único local usando o Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) para verificar os requisitos e, em seguida, Siga as etapas fornecidas lá.
 
 
 ## <a name="apps-and-resources-that-use-authentication"></a>Aplicativos e recursos que usam autenticação
