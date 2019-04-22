@@ -3,7 +3,7 @@ title: Write-back de senha do ambiente de teste do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2018
+ms.date: 04/16/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,42 +16,46 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 6dada4734798d0e30b50e271520742f3b170ebaf
-ms.sourcegitcommit: aba6d1b81e4c579e82e6fad90daec65d775b450a
+ms.openlocfilehash: 11a0efbae09c36098a19725187cd43b53850f4fc
+ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573425"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901215"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
-O write-back de senha permite aos usuários atualizar as senhas pelo Azure AD (Azure Active Directory), o que é então replicado para o AD DS (Active Directory Domain Services) local. Com o write-back de senha, os usuários não precisam atualizar senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
+O write-back de senha permite aos usuários atualizar suas senhas pelo Azure Active Directory (Azure AD), que é, então, replicado para o seu Active Directory Domain Services (AD DS) local. Com o write-back de senha, os usuários não precisam atualizar suas senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
 
 Este artigo descreve como você pode configurar seu ambiente de teste do Microsoft 365 para o write-back de senha.
 
 Há duas etapas para fazer a configuração:
 
 1.  Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
-2.  Habilitar o write-back de senha para o domínio TESTLAB do Windows Server AD.
+2.  Habilitar o write-back de senha para o domínio TESTLAB AD DS.
     
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
-## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
+## <a name="phase-1-configure-password-hash-synchronization-and-password-reset-for-your-microsoft-365-test-environment"></a>Fase 1: Configurar a sincronização de hash e redefinição de senha do ambiente de teste do Microsoft 365
 
-Siga as instruções em [sincronização de hash de senha para o Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Aqui está a configuração resultante.
+Primeiro, siga as instruções em [sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md). Aqui está sua configuração resultante.
   
 ![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 Esta configuração consiste em: 
   
 - Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.
-- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB do Windows Server AD com o locatário do Microsoft Azure AD das assinaturas do Office 365 e do EMS E5.
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
+- Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS ao locatário do Azure AD de suas assinaturas do Office 365 e EMS E5.
 
-## <a name="phase-2-enable-password-writeback-for-the-testlab-windows-server-ad-domain"></a>Fase 2: habilitar o write-back de senha para o domínio TESTLAB do Windows Server AD
+Em seguida, siga as instruções em [Fase 2 da redefinição de senha](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) Guia do Laboratório de Teste.
+
+A redefinição de senha precisa estar habilitado para que você possa usar o write-back de senha.
+
+## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>Fase 2: Habilitar o write-back de senha para o domínio TESTLAB AD DS
 
 Primeiro, configure a conta de Usuário 1 com a função de administrador global.
 
@@ -65,7 +69,7 @@ Primeiro, configure a conta de Usuário 1 com a função de administrador global
 
 5. No painel **Editar funções de usuário** de usuário1, clique em **Administrador global**. Clique em **Salvar** e depois em **Fechar**.
 
-Configure a conta do Usuário 1 com as configurações de segurança que permitam alterar as senhas em nome de outros usuários no domínio TESTLAB do Windows Server AD.
+Em seguida, configure a conta de Usuário 1 com as configurações de segurança que permitem a alteração de senhas em nome do domínio de outros usuários do TESTLAB AD DS.
 
 1. No [Portal do Azure](https://portal.azure.com), entre com a conta de administrador global e conecte-se ao APP1 com a conta TESTLAB\Usuário1.
 
@@ -125,8 +129,8 @@ Esta é a configuração resultante:
 Esta configuração consiste em:
 
 - Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TESTLAB.\<seu nome de domínio> registrado.
-- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD de suas assinaturas do Azure AD das assinaturas do Office 365 e do EMS E5 para o domínio TESTLAB do Windows Server AD. 
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
+- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos de locatário do Azure AD de suas assinaturas do Office 365 e EMS E5 para o domínio TESTLAB AD DS. 
 - O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.
 
 Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-password-reset.md#identity-pw-writeback), na fase Identidade.
