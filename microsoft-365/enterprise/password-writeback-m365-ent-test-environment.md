@@ -3,7 +3,7 @@ title: Write-back de senha do ambiente de teste do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2018
+ms.date: 04/16/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,131 +16,135 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 6dada4734798d0e30b50e271520742f3b170ebaf
-ms.sourcegitcommit: aba6d1b81e4c579e82e6fad90daec65d775b450a
+ms.openlocfilehash: 11a0efbae09c36098a19725187cd43b53850f4fc
+ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573425"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901215"
 ---
-# <a name="password-writeback-for-your-microsoft-365-test-environment"></a><span data-ttu-id="c45fb-103">Write-back de senha do ambiente de teste do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c45fb-103">Password writeback for your Microsoft 365 test environment</span></span>
+# <a name="password-writeback-for-your-microsoft-365-test-environment"></a><span data-ttu-id="1ad8b-103">Write-back de senha do ambiente de teste do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="1ad8b-103">Password writeback for your Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="c45fb-p101">O write-back de senha permite aos usuários atualizar as senhas pelo Azure AD (Azure Active Directory), o que é então replicado para o AD DS (Active Directory Domain Services) local. Com o write-back de senha, os usuários não precisam atualizar senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.</span><span class="sxs-lookup"><span data-stu-id="c45fb-p101">Password writeback allows users to update their passwords through Azure Active Directory (Azure AD), which is then replicated to your local Active Directory Domain Services (AD DS). With password writeback, users don’t need to update their passwords through the on-premises Windows Server AD where their original user accounts are stored. This helps roaming or remote users who do not have a remote access connection to their on-premises network.</span></span>
+<span data-ttu-id="1ad8b-p101">O write-back de senha permite aos usuários atualizar suas senhas pelo Azure Active Directory (Azure AD), que é, então, replicado para o seu Active Directory Domain Services (AD DS) local. Com o write-back de senha, os usuários não precisam atualizar suas senhas pelo Windows Server AD local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-p101">Password writeback allows users to update their passwords through Azure Active Directory (Azure AD), which is then replicated to your local Active Directory Domain Services (AD DS). With password writeback, users don’t need to update their passwords through the on-premises Windows Server AD where their original user accounts are stored. This helps roaming or remote users who do not have a remote access connection to their on-premises network.</span></span>
 
-<span data-ttu-id="c45fb-107">Este artigo descreve como você pode configurar seu ambiente de teste do Microsoft 365 para o write-back de senha.</span><span class="sxs-lookup"><span data-stu-id="c45fb-107">This article describes how you can configure your Microsoft 365 test environment for password writeback.</span></span>
+<span data-ttu-id="1ad8b-107">Este artigo descreve como você pode configurar seu ambiente de teste do Microsoft 365 para o write-back de senha.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-107">This article describes how you can configure your Microsoft 365 test environment for password writeback.</span></span>
 
-<span data-ttu-id="c45fb-108">Há duas etapas para fazer a configuração:</span><span class="sxs-lookup"><span data-stu-id="c45fb-108">There are two phases to setting this up:</span></span>
+<span data-ttu-id="1ad8b-108">Há duas etapas para fazer a configuração:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-108">There are two phases to setting this up:</span></span>
 
-1.  <span data-ttu-id="c45fb-109">Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.</span><span class="sxs-lookup"><span data-stu-id="c45fb-109">Create the Microsoft 365 simulated enterprise test environment with password hash synchronization.</span></span>
-2.  <span data-ttu-id="c45fb-110">Habilitar o write-back de senha para o domínio TESTLAB do Windows Server AD.</span><span class="sxs-lookup"><span data-stu-id="c45fb-110">Enable password writeback for the TESTLAB Windows Server AD domain.</span></span>
+1.  <span data-ttu-id="1ad8b-109">Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-109">Create the Microsoft 365 simulated enterprise test environment with password hash synchronization.</span></span>
+2.  <span data-ttu-id="1ad8b-110">Habilitar o write-back de senha para o domínio TESTLAB AD DS.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-110">Enable password writeback for the TESTLAB Windows Server AD domain.</span></span>
     
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> <span data-ttu-id="c45fb-112">Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="c45fb-112">Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="1ad8b-112">Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-112">Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
   
-## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a><span data-ttu-id="c45fb-113">Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c45fb-113">Phase 1: Configure password hash synchronization for your Microsoft 365 test environment</span></span>
+## <a name="phase-1-configure-password-hash-synchronization-and-password-reset-for-your-microsoft-365-test-environment"></a><span data-ttu-id="1ad8b-113">Fase 1: Configurar a sincronização de hash e redefinição de senha do ambiente de teste do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="1ad8b-113">Phase 1: Configure password hash synchronization for your Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="c45fb-p102">Siga as instruções em [sincronização de hash de senha para o Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Aqui está a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="c45fb-p102">Follow the instructions in [password hash synchronization for Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Here is your resulting configuration.</span></span>
+<span data-ttu-id="1ad8b-p102">Primeiro, siga as instruções em [sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md). Aqui está sua configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-p102">Follow the instructions in [password hash synchronization for Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Here is your resulting configuration.</span></span>
   
 ![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
-<span data-ttu-id="c45fb-117">Esta configuração consiste em:</span><span class="sxs-lookup"><span data-stu-id="c45fb-117">This configuration consists of:</span></span> 
+<span data-ttu-id="1ad8b-117">Esta configuração consiste em:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-117">This configuration consists of:</span></span> 
   
-- <span data-ttu-id="c45fb-118">Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.</span><span class="sxs-lookup"><span data-stu-id="c45fb-118">Office 365 E5 and EMS E5 trial or permanent subscriptions.</span></span>
-- <span data-ttu-id="c45fb-119">Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.</span><span class="sxs-lookup"><span data-stu-id="c45fb-119">A simplified organization intranet connected to the Internet, consisting of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.</span></span> 
-- <span data-ttu-id="c45fb-120">O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB do Windows Server AD com o locatário do Microsoft Azure AD das assinaturas do Office 365 e do EMS E5.</span><span class="sxs-lookup"><span data-stu-id="c45fb-120">Azure AD Connect runs on APP1 to synchronize the TESTLAB Windows Server AD domain to the Azure AD tenant of your Office 365 and EMS E5 subscriptions.</span></span>
+- <span data-ttu-id="1ad8b-118">Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-118">Office 365 E5 and EMS E5 trial or paid subscriptions.</span></span>
+- <span data-ttu-id="1ad8b-119">Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-119">A simplified organization intranet connected to the Internet, consisting of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.</span></span> 
+- <span data-ttu-id="1ad8b-120">Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS ao locatário do Azure AD de suas assinaturas do Office 365 e EMS E5.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-120">Azure AD Connect runs on APP1 to synchronize the TESTLAB Windows Server AD domain to the Azure AD tenant of your Office 365 and EMS E5 subscriptions.</span></span>
 
-## <a name="phase-2-enable-password-writeback-for-the-testlab-windows-server-ad-domain"></a><span data-ttu-id="c45fb-121">Fase 2: habilitar o write-back de senha para o domínio TESTLAB do Windows Server AD</span><span class="sxs-lookup"><span data-stu-id="c45fb-121">Phase 2: Enable password writeback for the TESTLAB Windows Server AD domain</span></span>
+<span data-ttu-id="1ad8b-121">Em seguida, siga as instruções em [Fase 2 da redefinição de senha](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) Guia do Laboratório de Teste.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-121">Next, follow the instructions in [Phase 2 of the password reset](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) Test Lab Guide.</span></span>
 
-<span data-ttu-id="c45fb-122">Primeiro, configure a conta de Usuário 1 com a função de administrador global.</span><span class="sxs-lookup"><span data-stu-id="c45fb-122">First, configure the User 1 account with the global administrator role.</span></span>
+<span data-ttu-id="1ad8b-122">A redefinição de senha precisa estar habilitado para que você possa usar o write-back de senha.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-122">You must have password reset enabled to use password writeback.</span></span>
 
-1. <span data-ttu-id="c45fb-123">No [portal do Office](https://office.com), entre com sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="c45fb-123">From the [Office portal](https://office.com), sign in with your global administrator account.</span></span>
+## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a><span data-ttu-id="1ad8b-123">Fase 2: Habilitar o write-back de senha para o domínio TESTLAB AD DS</span><span class="sxs-lookup"><span data-stu-id="1ad8b-123">Phase 2: Enable password writeback for the TESTLAB Windows Server AD domain</span></span>
 
-2. <span data-ttu-id="c45fb-p103">Clique no bloco **Administração**. Na nova guia do navegador **Centro de administração do Microsoft 365**, clique em **Usuários ativos**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-p103">Click the **Admin** tile. From the new **Microsoft 365 admin center** tab of your browser, click **Active users**.</span></span>
+<span data-ttu-id="1ad8b-124">Primeiro, configure a conta de Usuário 1 com a função de administrador global.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-124">First, configure the User 1 account with the global administrator role.</span></span>
+
+1. <span data-ttu-id="1ad8b-125">No [portal do Office](https://office.com), entre com sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-125">From the [Office portal](https://office.com), sign in with your global administrator account.</span></span>
+
+2. <span data-ttu-id="1ad8b-p103">Clique no bloco **Administração**. Na nova guia do navegador **Centro de administração do Microsoft 365**, clique em **Usuários ativos**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-p103">Click the **Admin** tile. From the new **Microsoft 365 admin center** tab of your browser, click **Active users**.</span></span>
  
-3. <span data-ttu-id="c45fb-126">Na página **Usuários ativos**, clique na conta **usuário1**,</span><span class="sxs-lookup"><span data-stu-id="c45fb-126">On the **Active users** page, click the **user1** account,</span></span>
+3. <span data-ttu-id="1ad8b-128">Na página **Usuários ativos**, clique na conta **usuário1**,</span><span class="sxs-lookup"><span data-stu-id="1ad8b-128">On the **Active users** page, click the **user1** account,</span></span>
 
-4. <span data-ttu-id="c45fb-127">No painel **usuário1**, clique em **Editar** ao lado de **Funções**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-127">On the **user1** pane, click **Edit** next to **Roles**.</span></span>
+4. <span data-ttu-id="1ad8b-129">No painel **usuário1**, clique em **Editar** ao lado de **Funções**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-129">On the **user1** pane, click **Edit** next to **Roles**.</span></span>
 
-5. <span data-ttu-id="c45fb-p104">No painel **Editar funções de usuário** de usuário1, clique em **Administrador global**. Clique em **Salvar** e depois em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-p104">On the **Edit user roles** pane for user1, click **Global administrator**. Click **Save**, and then click **Close**.</span></span>
+5. <span data-ttu-id="1ad8b-p104">No painel **Editar funções de usuário** de usuário1, clique em **Administrador global**. Clique em **Salvar** e depois em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-p104">On the **Edit user roles** pane for user1, click **Global administrator**. Click **Save**, and then click **Close**.</span></span>
 
-<span data-ttu-id="c45fb-130">Configure a conta do Usuário 1 com as configurações de segurança que permitam alterar as senhas em nome de outros usuários no domínio TESTLAB do Windows Server AD.</span><span class="sxs-lookup"><span data-stu-id="c45fb-130">Next, configure the User 1 account with the security settings that allow it to change passwords on behalf of other users in the TESTLAB Windows Server AD domain.</span></span>
+<span data-ttu-id="1ad8b-132">Em seguida, configure a conta de Usuário 1 com as configurações de segurança que permitem a alteração de senhas em nome do domínio de outros usuários do TESTLAB AD DS.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-132">Next, configure the User 1 account with the security settings that allow it to change passwords on behalf of other users in the TESTLAB Windows Server AD domain.</span></span>
 
-1. <span data-ttu-id="c45fb-131">No [Portal do Azure](https://portal.azure.com), entre com a conta de administrador global e conecte-se ao APP1 com a conta TESTLAB\Usuário1.</span><span class="sxs-lookup"><span data-stu-id="c45fb-131">From the [Azure portal](https://portal.azure.com), sign in with your global administrator account, and then connect to APP1 with the TESTLAB\User1 account.</span></span>
+1. <span data-ttu-id="1ad8b-133">No [Portal do Azure](https://portal.azure.com), entre com a conta de administrador global e conecte-se ao APP1 com a conta TESTLAB\Usuário1.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-133">From the [Azure portal](https://portal.azure.com), sign in with your global administrator account, and then connect to APP1 with the TESTLAB\User1 account.</span></span>
 
-2.  <span data-ttu-id="c45fb-132">Na área de trabalho do APP1, clique em **Iniciar**, digite **ativo** e clique em **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-132">From the desktop of APP1, click **Start**, type **active**, and then click **Active Directory Users and Computers**.</span></span>
+2.  <span data-ttu-id="1ad8b-134">Na área de trabalho do APP1, clique em **Iniciar**, digite **ativo** e clique em **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-134">From the desktop of APP1, click **Start**, type **active**, and then click **Active Directory Users and Computers**.</span></span>
 
-3. <span data-ttu-id="c45fb-p105">Clique em **Modo de exibição** na barra de menus. Se **Recursos avançados** não estiver habilitado, clique nele para habilitá-lo.</span><span class="sxs-lookup"><span data-stu-id="c45fb-p105">Click **View** in the menu bar. If **Advanced features** is not enabled, click it to enable it.</span></span>
+3. <span data-ttu-id="1ad8b-p105">Clique em **Modo de exibição** na barra de menus. Se **Recursos avançados** não estiver habilitado, clique nele para habilitá-lo.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-p105">Click **View** in the menu bar. If **Advanced features** is not enabled, click it to enable it.</span></span>
 
-4. <span data-ttu-id="c45fb-135">No painel de árvore, clique com botão direito no seu domínio, clique em **Propriedades** e depois na guia **Segurança**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-135">In the tree pane, right-click your domain, click **Properties**, and then click the **Security** tab.</span></span>
+4. <span data-ttu-id="1ad8b-137">No painel de árvore, clique com botão direito no seu domínio, clique em **Propriedades** e depois na guia **Segurança**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-137">In the tree pane, right-click your domain, click **Properties**, and then click the **Security** tab.</span></span>
 
-5. <span data-ttu-id="c45fb-136">Clique em **Avançado**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-136">Click **Advanced**.</span></span>
+5. <span data-ttu-id="1ad8b-138">Clique em **Avançado**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-138">Click **Advanced**.</span></span>
 
-6. <span data-ttu-id="c45fb-137">Na guia **Permissões**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-137">On the **Permissions** tab, click **Add**.</span></span>
+6. <span data-ttu-id="1ad8b-139">Na guia **Permissões**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-139">On the **Permissions** tab, click **Add**.</span></span>
 
-7. <span data-ttu-id="c45fb-138">Clique em **Selecionar uma entidade de segurança**, digite **Usuário1** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-138">Click **Select a principal**, type **User1**, and then click **OK**.</span></span>
+7. <span data-ttu-id="1ad8b-140">Clique em **Selecionar uma entidade de segurança**, digite **Usuário1** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-140">Click **Select a principal**, type **User1**, and then click **OK**.</span></span>
 
-8. <span data-ttu-id="c45fb-139">Em **Aplica-se a**, selecione **Objetos de usuário descendente**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-139">In **Applies to**, select **Descendant User objects**.</span></span>
+8. <span data-ttu-id="1ad8b-141">Em **Aplica-se a**, selecione **Objetos de usuário descendente**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-141">In **Applies to**, select **Descendant User objects**.</span></span>
 
-9. <span data-ttu-id="c45fb-140">Em **Permissões**, selecione o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c45fb-140">Under **Permissions**, select the following:</span></span>
+9. <span data-ttu-id="1ad8b-142">Em **Permissões**, selecione o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-142">Under **Permissions**, select the following:</span></span>
 
-    - <span data-ttu-id="c45fb-141">Alterar senha</span><span class="sxs-lookup"><span data-stu-id="c45fb-141">Change password</span></span>
-    - <span data-ttu-id="c45fb-142">Redefinir senha</span><span class="sxs-lookup"><span data-stu-id="c45fb-142">Reset password</span></span>
+    - <span data-ttu-id="1ad8b-143">Alterar senha</span><span class="sxs-lookup"><span data-stu-id="1ad8b-143">Change password</span></span>
+    - <span data-ttu-id="1ad8b-144">Redefinir senha</span><span class="sxs-lookup"><span data-stu-id="1ad8b-144">Reset password</span></span>
 
-10. <span data-ttu-id="c45fb-143">Em **Propriedades**, selecione o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c45fb-143">Under **Properties**, select the following:</span></span>
-    - <span data-ttu-id="c45fb-144">Gravar lockoutTime</span><span class="sxs-lookup"><span data-stu-id="c45fb-144">Write lockoutTime</span></span>
-    - <span data-ttu-id="c45fb-145">Gravar pwdLastSet</span><span class="sxs-lookup"><span data-stu-id="c45fb-145">Write pwdLastSet</span></span>
+10. <span data-ttu-id="1ad8b-145">Em **Propriedades**, selecione o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-145">Under **Properties**, select the following:</span></span>
+    - <span data-ttu-id="1ad8b-146">Gravar lockoutTime</span><span class="sxs-lookup"><span data-stu-id="1ad8b-146">Write lockoutTime</span></span>
+    - <span data-ttu-id="1ad8b-147">Gravar pwdLastSet</span><span class="sxs-lookup"><span data-stu-id="1ad8b-147">Write pwdLastSet</span></span>
 
-11. <span data-ttu-id="c45fb-146">Clique em **OK** três vezes para salvar as alterações.</span><span class="sxs-lookup"><span data-stu-id="c45fb-146">Click **OK** three times to save the changes.</span></span>
+11. <span data-ttu-id="1ad8b-148">Clique em **OK** três vezes para salvar as alterações.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-148">Click **OK** three times to save the changes.</span></span>
 
-12. <span data-ttu-id="c45fb-147">Feche **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-147">Close **Active Directory Users and Computers**.</span></span>
+12. <span data-ttu-id="1ad8b-149">Feche **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-149">Close **Active Directory Users and Computers**.</span></span>
 
-<span data-ttu-id="c45fb-148">Configure o Azure AD Connect em APP1 para write-back de senha.</span><span class="sxs-lookup"><span data-stu-id="c45fb-148">Next, configure Azure AD Connect on APP1 for password writeback.</span></span>
+<span data-ttu-id="1ad8b-150">Configure o Azure AD Connect em APP1 para write-back de senha.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-150">Next, configure Azure AD Connect on APP1 for password writeback.</span></span>
 
-1. <span data-ttu-id="c45fb-149">Se necessário, conecte ao APP1 com a conta TESTLAB\Usuário1.</span><span class="sxs-lookup"><span data-stu-id="c45fb-149">If needed, connect to APP1 with the TESTLAB\User1 account.</span></span>
+1. <span data-ttu-id="1ad8b-151">Se necessário, conecte ao APP1 com a conta TESTLAB\Usuário1.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-151">If needed, connect to APP1 with the TESTLAB\User1 account.</span></span>
 
-2. <span data-ttu-id="c45fb-150">Na área de trabalho de APP1, clique duas vezes em **Azure AD Connect**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-150">From the desktop of APP1, double-click **Azure AD Connect**.</span></span>
+2. <span data-ttu-id="1ad8b-152">Na área de trabalho de APP1, clique duas vezes em **Azure AD Connect**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-152">From the desktop of APP1, double-click **Azure AD Connect**.</span></span>
 
-3. <span data-ttu-id="c45fb-151">Na **Página inicial**, clique em **Configurar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-151">On the **Welcome page**, click **Configure**.</span></span>
+3. <span data-ttu-id="1ad8b-153">Na **Página inicial**, clique em **Configurar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-153">On the **Welcome page**, click **Configure**.</span></span>
 
-4. <span data-ttu-id="c45fb-152">Na página **Tarefas adicionais**, clique em **Personalizar as opções de sincronização** e depois em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-152">On the **Additional tasks** page, click **Customize synchronization options**, and then click **Next**.</span></span>
+4. <span data-ttu-id="1ad8b-154">Na página **Tarefas adicionais**, clique em **Personalizar as opções de sincronização** e depois em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-154">On the **Additional tasks** page, click **Customize synchronization options**, and then click **Next**.</span></span>
 
-5. <span data-ttu-id="c45fb-153">Na página **Conectar ao Azure AD**, digite suas credenciais de conta de administrador global e clique em **Próxima**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-153">On the **Connect to Azure AD** page, type your global administrator account credentials, and then click **Next**.</span></span>
+5. <span data-ttu-id="1ad8b-155">Na página **Conectar ao Azure AD**, digite suas credenciais de conta de administrador global e clique em **Próxima**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-155">On the **Connect to Azure AD** page, type your global administrator account credentials, and then click **Next**.</span></span>
 
-6. <span data-ttu-id="c45fb-154">Nas páginas **Conectar os diretórios** e **Filtrar domínio/UO**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-154">On the **Connect directories** and **Domain/OU filtering** pages, click **Next**.</span></span>
+6. <span data-ttu-id="1ad8b-156">Nas páginas **Conectar os diretórios** e **Filtrar domínio/UO**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-156">On the **Connect directories** and **Domain/OU filtering** pages, click **Next**.</span></span>
 
-7. <span data-ttu-id="c45fb-155">Na página **Recursos opcionais**, selecione **Write-back de senha** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-155">On the **Optional features** page, select **Password writeback** and click **Next**.</span></span> 
+7. <span data-ttu-id="1ad8b-157">Na página **Recursos opcionais**, selecione **Write-back de senha** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-157">On the **Optional features** page, select **Password writeback** and click **Next**.</span></span> 
 
-8. <span data-ttu-id="c45fb-156">Na página **Pronto para configurar**, clique em **Configurar** e aguarde que o processo seja concluído.</span><span class="sxs-lookup"><span data-stu-id="c45fb-156">On the **Ready to configure** page, click **Configure** and wait for the process to finish.</span></span>
+8. <span data-ttu-id="1ad8b-158">Na página **Pronto para configurar**, clique em **Configurar** e aguarde que o processo seja concluído.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-158">On the **Ready to configure** page, click **Configure** and wait for the process to finish.</span></span>
 
-9. <span data-ttu-id="c45fb-157">Ao concluir a configuração, clique em **Sair**.</span><span class="sxs-lookup"><span data-stu-id="c45fb-157">When you see the configuration finish, click **Exit**.</span></span>
+9. <span data-ttu-id="1ad8b-159">Ao concluir a configuração, clique em **Sair**.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-159">When you see the configuration finish, click **Exit**.</span></span>
 
-<span data-ttu-id="c45fb-158">Agora você está pronto para testar o write-back de senha para os usuários em computadores que não estão conectados à rede virtual da sua intranet simulada.</span><span class="sxs-lookup"><span data-stu-id="c45fb-158">You are now ready to test password writeback for users on computers that are not connected to the virtual network of your simulated intranet.</span></span>
+<span data-ttu-id="1ad8b-160">Agora você está pronto para testar o write-back de senha para os usuários em computadores que não estão conectados à rede virtual da sua intranet simulada.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-160">You are now ready to test password writeback for users on computers that are not connected to the virtual network of your simulated intranet.</span></span>
 
-<span data-ttu-id="c45fb-159">Esta é a configuração resultante:</span><span class="sxs-lookup"><span data-stu-id="c45fb-159">Here is your resulting configuration:</span></span>
+<span data-ttu-id="1ad8b-161">Esta é a configuração resultante:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-161">Here is your resulting configuration:</span></span>
 
 ![A empresa simulada com ambiente de teste de autenticação de passagem](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
 
-<span data-ttu-id="c45fb-161">Esta configuração consiste em:</span><span class="sxs-lookup"><span data-stu-id="c45fb-161">This configuration consists of:</span></span>
+<span data-ttu-id="1ad8b-163">Esta configuração consiste em:</span><span class="sxs-lookup"><span data-stu-id="1ad8b-163">This configuration consists of:</span></span>
 
-- <span data-ttu-id="c45fb-162">Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TESTLAB.\<seu nome de domínio> registrado.</span><span class="sxs-lookup"><span data-stu-id="c45fb-162">Office 365 E5 and EMS E5 trial or permanent subscriptions with the DNS domain TESTLAB.\<your domain name> registered.</span></span>
-- <span data-ttu-id="c45fb-163">Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.</span><span class="sxs-lookup"><span data-stu-id="c45fb-163">A simplified organization intranet connected to the Internet, consisting of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.</span></span> 
-- <span data-ttu-id="c45fb-164">O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD de suas assinaturas do Azure AD das assinaturas do Office 365 e do EMS E5 para o domínio TESTLAB do Windows Server AD.</span><span class="sxs-lookup"><span data-stu-id="c45fb-164">Azure AD Connect runs on APP1 to synchronize the list of accounts and groups from the Azure AD tenant of your Office 365 and EMS E5 subscriptions to the TESTLAB Windows Server AD domain.</span></span> 
-- <span data-ttu-id="c45fb-165">O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.</span><span class="sxs-lookup"><span data-stu-id="c45fb-165">Password writeback is enabled so that users can change their passwords through Azure AD without having to be connected to the simplified intranet.</span></span>
+- <span data-ttu-id="1ad8b-164">Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TESTLAB.\<seu nome de domínio> registrado.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-164">Office 365 E5 and EMS E5 trial or paid subscriptions with the DNS domain TESTLAB.\<your domain name> registered.</span></span>
+- <span data-ttu-id="1ad8b-165">Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-165">A simplified organization intranet connected to the Internet, consisting of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.</span></span> 
+- <span data-ttu-id="1ad8b-166">O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos de locatário do Azure AD de suas assinaturas do Office 365 e EMS E5 para o domínio TESTLAB AD DS.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-166">Azure AD Connect runs on APP1 to synchronize the list of accounts and groups from the Azure AD tenant of your Office 365 and EMS E5 subscriptions to the TESTLAB Windows Server AD domain.</span></span> 
+- <span data-ttu-id="1ad8b-167">O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-167">Password writeback is enabled so that users can change their passwords through Azure AD without having to be connected to the simplified intranet.</span></span>
 
-<span data-ttu-id="c45fb-166">Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-password-reset.md#identity-pw-writeback), na fase Identidade.</span><span class="sxs-lookup"><span data-stu-id="c45fb-166">See the [Simplify password updates](identity-password-reset.md#identity-pw-writeback) step in the Identity phase for information and links to configure password writeback in production.</span></span>
+<span data-ttu-id="1ad8b-168">Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-password-reset.md#identity-pw-writeback), na fase Identidade.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-168">See the [Simplify password updates](identity-password-reset.md#identity-pw-writeback) step in the Identity phase for information and links to configure password writeback in production.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="c45fb-167">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="c45fb-167">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="1ad8b-169">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="1ad8b-169">Next step</span></span>
 
-<span data-ttu-id="c45fb-168">Explorar recursos e funcionalidades adicionais de [identidade](m365-enterprise-test-lab-guides.md#identity) no ambiente de teste.</span><span class="sxs-lookup"><span data-stu-id="c45fb-168">Explore additional [identity](m365-enterprise-test-lab-guides.md#identity) features and capabilities in your test environment.</span></span>
+<span data-ttu-id="1ad8b-170">Explorar recursos e funcionalidades adicionais de [identidade](m365-enterprise-test-lab-guides.md#identity) no ambiente de teste.</span><span class="sxs-lookup"><span data-stu-id="1ad8b-170">Explore additional [identity](m365-enterprise-test-lab-guides.md#identity) features and capabilities in your test environment.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c45fb-169">Confira também</span><span class="sxs-lookup"><span data-stu-id="c45fb-169">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ad8b-171">Confira também</span><span class="sxs-lookup"><span data-stu-id="1ad8b-171">See also</span></span>
 
-[<span data-ttu-id="c45fb-170">Guias do Laboratório de Teste do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="c45fb-170">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="1ad8b-172">Guias do Laboratório de Teste do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="1ad8b-172">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="c45fb-171">Implantar o Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="c45fb-171">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="1ad8b-173">Implantar o Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="1ad8b-173">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="c45fb-172">Documentação do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="c45fb-172">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="1ad8b-174">Documentação do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="1ad8b-174">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 
