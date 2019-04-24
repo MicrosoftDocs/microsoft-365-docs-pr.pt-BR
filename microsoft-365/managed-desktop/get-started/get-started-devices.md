@@ -8,11 +8,11 @@ ms.localizationpriority: normal
 ms.date: 2/27/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 92bec0956f24d255f36ed233b531a4d4e396cadb
-ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30414149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276832"
 ---
 # <a name="get-started-using-microsoft-managed-desktop-devices"></a>Introdução ao uso de dispositivos de área de trabalho gerenciada da Microsoft
 

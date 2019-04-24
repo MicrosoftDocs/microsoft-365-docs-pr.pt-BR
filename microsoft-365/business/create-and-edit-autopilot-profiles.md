@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: 'Saiba como criar, editar, excluir ou remover perfis de piloto automático. '
-ms.openlocfilehash: 4658a27e5f2c64a52f8a7d08b3fc13df5e239dc3
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Saiba como criar, editar, excluir ou remover perfis do autoPilot. '
+ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277049"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Criar e editar os perfis do AutoPilot
 
@@ -32,11 +35,9 @@ ms.locfileid: "26864983"
 
 Um perfil aplica-se a um dispositivo ou a um grupo de dispositivos,
   
-1. No Centro de administração do Microsoft 365 Business, escolha **Implantar o Windows com o AutoPilot** no cartão **Ações do dispositivo**. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. no centro de administração do Microsoft 365 Business, escolha **dispositivos** \> **autopilot**.
   
-2. Na página **Preparar o Windows**, escolha a guia **Perfis** \> **Criar perfil**.
+2. Na página **piloto automático** , escolha a guia **perfis** para \> **Criar perfil**.
     
 3. Na página **Criar perfil**, insira um nome para o perfil que o ajude a identificá-lo, por exemplo, Marketing, ative a configuração desejada (confira [Sobre as configurações de perfil de AutoPilot](autopilot-profile-settings.md) para saber mais), e escolha **Salvar**.
     

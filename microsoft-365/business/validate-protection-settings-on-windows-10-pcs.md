@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Saiba como validar configurações de proteção do aplicativo Microsoft 365 Business em dispositivos Windows 10.
-ms.openlocfilehash: f00dd380103ad9498d77b0e8814bace3de168df4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba como validar as configurações de proteção do Microsoft 365 Business app em dispositivos Windows 10.
+ms.openlocfilehash: 4f1f0993dff0ef8d3f6858a3749e063c7b5579c7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279922"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validar as configurações de proteção de aplicativo em computadores Windows 10
 
@@ -31,7 +34,7 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
   
  **Verificar configurações de conexão**
   
-1. Depois que você entrar com credenciais do Microsoft 365 Business e se conectar ao AD do Windows Azure, conforme descrito em [Configurar os dispositivos do Windows para usuários comerciais de 365 da Microsoft](set-up-windows-devices.md), vá para **Configurações do Windows** \> **contas** \> **acesso trabalho ou escola **. Escolha **conectado à \<nome do locatário\> Azure AD**e escolha **Info**.
+1. After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   

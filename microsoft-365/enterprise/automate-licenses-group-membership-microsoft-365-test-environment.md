@@ -1,5 +1,5 @@
 ---
-title: Automatizar a associação de grupo e licenciamento para o seu ambiente de teste do Microsoft 365 Enterprise
+title: Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -8,90 +8,90 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Configure o licenciamento do grupo e a associação ao grupo dinâmico em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 45a78af202f2d9ab029683aae4d95ed9a3370b08
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Configure o licenciamento baseado em grupo e a associação de grupos dinâmicos em seu ambiente de teste do Microsoft 365 Enterprise.
+ms.openlocfilehash: 8ced249ee56e15c057001af60d790a8a4315dd17
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277233"
 ---
-# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Automatizar a associação de grupo e licenciamento para o seu ambiente de teste do Microsoft 365 Enterprise
+# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 Enterprise
 
-Licenciamento baseado no grupo automaticamente atribui ou remove licenças para uma conta de usuário com base na associação de grupo. A associação ao grupo dinâmico adiciona ou remove membros a um grupo com base em Propriedades de conta de usuário, como departamento ou país. Este artigo orienta uma demonstração de ambos no seu ambiente de teste do Microsoft 365 Enterprise.
+O licenciamento baseado em grupo atribui ou remove automaticamente licenças de uma conta de usuário com base na associação de grupo. A associação de grupo dinâmico adiciona ou remove membros de um grupo com base nas propriedades da conta de usuário, como departamento ou país. Este artigo orienta você através de uma demonstração do ambiente de teste do Microsoft 365 Enterprise.
 
-Há duas fases para configurar a participação no grupo de licenciamento automático e dinâmicas no seu ambiente de teste do Microsoft 365 Enterprise:
+Há duas fases para configurar o licenciamento automático e a associação de grupo dinâmico no ambiente de teste do Microsoft 365 Enterprise:
 
 1. Crie o ambiente de teste do Microsoft 365 Enterprise.
-2. Configurar e testar a associação ao grupo dinâmico e licenciamento automático.
+2. Configurar e testar a associação de grupo dinâmico e o licenciamento automático.
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o seu ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
-Se você quiser testar automatizada de licenciamento e participação no grupo em uma maneira leve com os requisitos mínimos, siga as instruções na [configuração base leve](lightweight-base-configuration-microsoft-365-enterprise.md).
+Se você só quiser testar o licenciamento automatizado e a associação de grupo de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Se você deseja testar automatizada de licenciamento e a participação no grupo em uma empresa simulada, siga as instruções na [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
+Se você quiser testar o licenciamento automatizado e a associação de grupo em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Testando automatizada de licenciamento e a associação de grupo não requer o ambiente de teste de simulado empresarial, que inclui uma intranet simulada conectada à Internet e a sincronização de diretório para uma floresta do Windows Server AD. Ele é fornecido aqui como uma opção para que você possa testar automatizada de licenciamento e a associação ao grupo e experimentar em um ambiente que representa uma organização típica. 
+> Testar o licenciamento automatizado e a associação de grupo não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). Ele é fornecido aqui como uma opção para que você possa testar o licenciamento e a associação de grupo automatizados e experimentá-lo em um ambiente que representa uma organização típica. 
   
-## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>Fase 2: Configurar e testar a associação ao grupo dinâmico e licenciamento automático
+## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>Fase 2: configurar e testar a associação de grupo dinâmico e o licenciamento automático
 
-Primeiro, você pode cria um novo grupo de vendas e adicionar uma regra de associação de grupo dinâmico de modo que as contas de usuário com o departamento definido como vendas são automaticamente adicionadas ao grupo de vendas.
+Primeiro, você cria um novo grupo de vendas e adiciona uma regra de associação de grupo dinâmico para que as contas de usuário com o departamento definida como vendas sejam automaticamente adicionadas ao grupo vendas.
 
-1. Usando uma instância particular do seu navegador da Internet, entrar no portal do Office em [https://office.com](https://office.com) com a conta de administrador global de sua assinatura de avaliação do Office 365 E5.
-2. Em uma guia separada do navegador, vá para o portal do Windows Azure em [https://portal.azure.com](https://portal.azure.com).
+1. Usando uma instância privada do navegador da Internet, entre no portal do Office em [https://office.com](https://office.com) com a conta de administrador global da sua assinatura de avaliação do Office 365 e5.
+2. Em uma guia separada do navegador, vá para o portal do Azure em [https://portal.azure.com](https://portal.azure.com).
 3. No Portal do Azure, clique em **Azure Active Directory > Usuários e grupos > Todos os grupos**.
-4. No blade **todos os grupos** , clique em **novo grupo**.
+4. Na folha **todos os grupos** , clique em **novo grupo**.
 5. Em **tipo de grupo**, selecione **Office 365**.
 6. Em **nome do grupo**, digite **vendas**.
 7. Em **tipo de associação**, selecione **usuário dinâmico** .
 8. Clique em **Adicionar consulta dinâmica**.
 9. Em **Adicionar usuários onde**, selecione **departamento**.
 10. No campo seguinte, selecione **Igual a**.
-11. No campo próximo, digite **vendas**.
+11. No campo seguinte, digite **Sales**.
 12. Clique em **Adicionar consulta** e, em seguida, clique em **Criar**.
-13. Feche as lâminas de **grupo** e **os grupos de grupos a todos** .
+13. Feche as lâminas **Group** e **groups-All Groups** .
 
-Em seguida, você configurar o grupo de vendas para que os membros são automaticamente atribuídos E5 do Office 365 e mobilidade corporativos + segurança E5 licenças.
+Em seguida, configure o grupo de vendas para que os Membros recebam automaticamente licenças do Office 365 E5 e Enterprise Mobility + Security e5.
 
-1. No blade **Visão geral** do Azure Active Directory, clique em **licenças > todos os produtos**.
+1. Na folha **visão geral** do Azure Active Directory, clique em **licenças > todos os produtos**.
 2. Na lista, escolha **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e clique em **Atribuir**.
-3. No blade **atribuir licença** , clique em **usuários e grupos**.
-4. Na lista de grupos, selecione o grupo de **vendas** .
+3. Na folha **atribuir licença** , clique em **usuários e grupos**.
+4. Na lista de grupos, selecione o grupo **vendas** .
 5. Clique em **Selecionar** e clique em **Atribuir**.
 6. Feche a guia do Portal do Azure no navegador.
 
-Em seguida, você teste a associação ao grupo dinâmico e licenciamento automático na conta do usuário 4. 
+Em seguida, teste a associação de grupo dinâmico e o licenciamento automático na conta do usuário 4. 
 
-1. Na guia **Página inicial do Microsoft Office** no seu navegador, clique em **Admin**.
-2. A partir da guia do **Centro de administração do Office** , clique em **usuários ativos**.
-3. Na página **usuários ativos** , clique na conta de **usuário 4** .
-4. No painel de **4 de usuário** , clique em **Editar** para **licenças de produto**.
-5. No painel de **licenças do produto** , ative a **mobilidade corporativos + segurança E5** e licenças do **Office 365 Enterprise E5** desativada e clique em **Salvar > fechar**.
-6. Nas propriedades da conta de usuário 4, verifique não se tiverem sido atribuída a nenhuma licença do produto e não há nenhuma associações de grupo.
-7. Para **obter informações de contato**, clique em **Editar** .
-8. No painel de **informações de contato de editar** , clique em **informações de contato**.
-9. No campo **departamento** , digite **vendas**e clique em **Salvar > fechar**.
-10. Aguarde alguns minutos e clique no ícone Atualizar no canto superior direito do painel de conta de usuário 4 periodicamente. 
+1. Na guia **Microsoft Office Home** no navegador, clique em **administrador**.
+2. Na guia **centro de administração do Microsoft 365** , clique em **usuários ativos**.
+3. Na página **usuários ativos** , clique na conta do **usuário 4** .
+4. No painel **usuário 4** , clique em **Editar** para **licenças de produto**.
+5. No painel **de licenças de produto** , desative as licenças do **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e clique em **salvar > fechar**.
+6. Nas propriedades da conta do usuário 4, verifique se nenhuma licença de produto foi atribuída e se não há associações de grupo.
+7. Clique em **Editar** para obter **informações de contato**.
+8. No painel **Editar informações de contato** , clique em **informações de contato**.
+9. No campo **Departamento** , digite **vendas**e clique em **salvar > fechar**.
+10. Aguarde alguns minutos e clique periodicamente no ícone atualizar no canto superior direito do painel usuário 4 da conta. 
 
-No momento, você deverá ver a:
+No momento, você verá:
 
-- Propriedade de **associações de grupo** atualizada com o grupo de **vendas** .
-- Propriedade de **licenças de produto** atualizada com as licenças de **mobilidade corporativos + E5 de segurança** e o **Office 365 Enterprise E5** .
+- Propriedade de **associações de grupo** atualizada com o grupo **Sales** .
+- Propriedade **Product licenses** atualizadas com as licenças do **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** .
 
-Consulte estas etapas na fase de identidade para obter informações e links para implantar a associação ao grupo dinâmico e licenciamento automático na produção:
+Consulte estas etapas na fase de identidade para obter informações e links para implantar a associação de grupo dinâmico e o licenciamento automático em produção:
 
-- [Configurar licenciamentos automáticos](identity-group-based-licensing.md)
-- [Configurar associações de grupo dinâmico](identity-automatic-group-membership.md)
+- [Configurar licenciamentos automáticos](identity-self-service-group-management.md#identity-group-license)
+- [Configurar a associação de grupo dinâmica](identity-self-service-group-management.md#identity-dyn-groups)
 
 ## <a name="next-step"></a>Próxima etapa
 

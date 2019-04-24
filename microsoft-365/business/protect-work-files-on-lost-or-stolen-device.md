@@ -4,11 +4,14 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4StolenDevice
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Saiba mais sobre as configurações disponíveis para proteger os arquivos de trabalho, se um dispositivo do usuário for perdido ou roubado.
-ms.openlocfilehash: 4fafae2dfd25e44dce7083307b3432bcaa25c22b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba mais sobre as configurações disponíveis para proteger os arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
+ms.openlocfilehash: 1256f54b2ff626ea7b85d91020e355c8b611a8c0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285341"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou roubado
 

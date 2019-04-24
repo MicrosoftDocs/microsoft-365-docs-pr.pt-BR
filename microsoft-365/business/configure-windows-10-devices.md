@@ -4,11 +4,14 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4PushSoftware
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
-description: Saiba mais sobre as políticas de dispositivo para Windows 10 que se aplicam a todos os usuários em sua organização.
-ms.openlocfilehash: 38b79b03ea385913d45df4e61f60c9e2071f3679
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba mais sobre as políticas de dispositivo do Windows 10 que se aplicam a todos os usuários em sua organização.
+ms.openlocfilehash: 73a1e59704eb5f261d425cdc58894d824214b4fa
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276845"
 ---
 # <a name="configure-windows-10-devices"></a>Configurar dispositivos Windows 10
 

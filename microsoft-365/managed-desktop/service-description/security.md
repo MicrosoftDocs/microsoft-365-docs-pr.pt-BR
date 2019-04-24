@@ -1,86 +1,86 @@
 ---
-title: Segurança na Área de Trabalho Gerenciada da Microsoft
+title: Segurança na área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 928d01e7386bedc500e984b9c2a3240c6229bb43
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: b91b646b00869827dfb2131e9df9db38a770d9df
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278630"
 ---
-# <a name="security-in-microsoft-managed-desktop"></a>Segurança na Área de Trabalho Gerenciada da Microsoft
+# <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft Desktop gerenciados aplica um conjunto padrão de políticas e utiliza muitas tecnologias Microsoft para ajudar a dispositivos de área de trabalho do Microsoft gerenciados seguros, dados da empresa armazenado e mais. As áreas listadas abaixo são detalhadas ainda mais:  
+O Microsoft Managed desktop aplica um conjunto padrão de políticas e utiliza muitas tecnologias da Microsoft para ajudar a proteger os dispositivos de área de trabalho gerenciada da Microsoft, os dados da empresa armazenados e muito mais. As áreas listadas abaixo são detalhadas:  
 
-- [Segurança de dados](#data-security) - tipos de dados coletados pelo Microsoft Desktop gerenciados e onde ele está armazenado com segurança
-- [Segurança de dispositivo](#device-security) – segurança e proteção em dispositivos Microsoft Desktop gerenciados
-- [Gerenciamento de acesso e identidade](#identity-and-access-management) – Gerenciando uso seguro de dispositivos por meio de serviços de identidade do Active Directory do Azure
-- [Segurança da rede](#network-security) – informações de VPN e o Microsoft Desktop gerenciados recomendada solução e configurações
-- [Segurança das informações](#information-security) – serviços opcionais de disponíveis para aumentar a proteção de informações confidenciais 
+- [Segurança de dados](#data-security) -tipos de dados coletados pela área de trabalho gerenciaDa da Microsoft e onde eles são armazenados com segurança
+- [Segurança do dispositivo](#device-security) – segurança e proteção nos dispositivos de área de trabalho gerenciada da Microsoft
+- [Gerenciamento de identidade e acesso](#identity-and-access-management) – Gerenciando o uso seguro de dispositivos por meio do Azure Active Directory Identity Services
+- [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
+- [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
 ## <a name="data-security"></a>Segurança de dados
 
-Dados coletados de Inquilinos do cliente (que permite que os serviços de TI de área de trabalho gerenciada da Microsoft e operações) são armazenados nos bancos de dados do SQL Azure no locatário Microsoft hospedados nos Estados Unidos.
+Os dados coletados de locatários do cliente (que permite que os serviços e operações de ti da área de trabalho gerenciada da Microsoft) são armazenados em bancos de dados do Azure SQL no Microsoft locatário hospedado nos Estados Unidos da América.
 
 Para obter mais informações, consulte [segurança do Microsoft Azure](https://docs.microsoft.com/azure/security/azure-database-security-overview).
 
-Os tipos de dados transmitidos do seu locatário são mostrados abaixo:
+Listadas abaixo estão os tipos de dados transmitidos do locatário:
 
-- Dados de atualização, o uso e a confiabilidade do dispositivo
-- Dados de implantação e a confiabilidade do aplicativo
-- Dados de implantação de diretiva de segurança e atualização
-- Usuários atribuídos aos dispositivos
+- Dados de atualização de dispositivo, uso e confiabilidade
+- Dados de implantação e confiabilidade de aplicativos
+- Atualização e dados de implantação de política de segurança
+- Usuários atribuídos a dispositivos
 
 
 
-## <a name="device-security"></a>Segurança de dispositivo
+## <a name="device-security"></a>Segurança do dispositivo
 
-Microsoft Desktop gerenciados garante que todos os dispositivos gerenciados são protegidos e protegidos e detecta ameaças mais cedo possível usando os seguintes serviços:
+O Microsoft Managed desktop garante que todos os dispositivos gerenciados estão protegidos e protegidos e detecta ameaças o mais cedo possível, usando os seguintes serviços:
 
 Serviço | Descrição
 --- | ---
-Antivírus | Windows Defender AV está instalado e configurado<br>Definições do Windows Defender AV estão atualizadas
-Criptografia de Volume completo |    Windows BitLocker é a solução de criptografia de volume para dispositivos Microsoft Desktop gerenciados.<br><br>Depois que uma organização for onboarded no serviço, dispositivos serão criptografados usando o Windows BitLocker com internas confiar Platform Module (TPM) para impedir o acesso não autorizado aos dados de locais quando o dispositivo está no modo de suspensão ou desativado. 
-Monitoramento |    Windows Defender avançada proteção contra ameaças (Windows Defender ATP) é usada para o monitoramento de ameaças de segurança em todos os dispositivos de área de trabalho gerenciada do Microsoft. Windows Defender ATP permite aos clientes enterprise detectar, investigar e responder a ameaças avançadas na sua rede corporativa. Para obter mais informações, consulte [proteção de ameaça avançado do Windows Defender.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
-Atualizações de software |  Dispositivos de área de trabalho gerenciada do Microsoft sempre são protegidos com as últimas atualizações de segurança.
-Configuração de dispositivo seguro |   Microsoft Desktop gerenciados implementa o Microsoft Security Baseline. Para obter mais informações, consulte [linhas de base do Windows security.](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)
+Antivírus | O Windows Defender AV está instalado e configurado<br>As definições AV do Windows Defender estão atualizadas
+Criptografia de volume completo |    O Windows BitLocker é a solução de criptografia de volume para dispositivos de área de trabalho gerenciada da Microsoft.<br><br>Depois que uma organização é integrada ao serviço, os dispositivos serão criptografados usando o Windows BitLocker com o módulo de plataforma de confiança (TPM) interno para impedir o acesso não autorizado a dados locais quando o dispositivo estiver no modo de suspensão ou desativado. 
+Monitoramento |    A proteção avançada contra ameaças do Windows Defender (Windows Defender ATP) é usada para monitoramento de ameaças de segurança em todos os dispositivos de área de trabalho gerenciado da Microsoft. O Windows Defender ATP permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em sua rede corporativa. Para obter mais informações, consulte [proteção avançada contra ameaças do Windows Defender.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
+Atualizações do sistema operacional |  Os dispositivos de área de trabalho gerenciada da Microsoft sempre são protegidos com as últimas atualizações de segurança.
+Configuração de dispositivo seguro |   O Microsoft Managed desktop implementa a linha de base de segurança da Microsoft. Para obter mais informações, consulte [linhas de base de segurança do Windows.](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)
 
 
 
 ## <a name="identity-and-access-management"></a>Gerenciamento de identidades e acesso
 
-Gerenciamento de acesso e identidade protege os ativos corporativos e os dados críticos para os negócios. Microsoft Desktop gerenciados configura os dispositivos para garantir o uso seguro com o Azure Active Directory (AD Azure) gerenciados identidades. É responsabilidade do cliente para manter informações precisas no seu locatário do Azure AD. 
+O gerenciamento de identidades e acesso protege os ativos corporativos e os dados críticos para os negócios. O Microsoft Managed desktop configura dispositivos para garantir o uso seguro com identidades gerenciadas do Azure Active Directory (Azure AD). É responsabilidade do cliente manter informações precisas no locatário do Azure AD. 
 
 Serviço | Descrição
 --- | ---
-Autenticação biométrica |  Windows Olá permite aos usuários fazer logon usando sua face ou um PIN, tornando mais difícil de esquecer ou roubar a senhas. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
-Multi-factor Authentication | Azure a autenticação multifator mais fortemente controla o acesso às funções confidenciais do serviço Microsoft Desktop gerenciados, fornecendo um nível adicional de autenticação usando um telefone celular, como a redefinição de senha bem como pessoal. 
-Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, o usuário será atribuído as permissões de usuário padrão. Isso é atribuído como parte da experiência imediata de piloto automático do Windows.
+Autenticação biométrica |  O Windows Hello permite que os usuários façam logon usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
+Autenticação multifator | A autenticação multifator do Azure controla mais rigidamente o acesso a funções confidenciais do serviço de área de trabalho gerenciada da Microsoft, fornecendo um nível adicional de autenticação usando um telefone celular, bem como redefinição de senha de autoatendimento. 
+Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, as permissões de usuário padrão serão atribuídas ao usuário. Isso é atribuído como parte da experiência inicial da caixa do Windows AutoPilot.
 
 
 
 ## <a name="network-security"></a>Segurança da rede
 
-Os clientes são responsáveis por segurança da rede. 
+Os clientes são responsáveis pela segurança da rede. 
 
 Serviço | Descrição
 --- | ---
-VPN | Os clientes possuem sua infra-estrutura de VPN, para garantir a recursos corporativos limitados podem ser expostos fora da intranet.<br><br>Requisito mínimo: área de trabalho do Microsoft Managed exige uma solução VPN Windows 10 compatível e com suporte. Se sua organização precisar de uma solução VPN, ele precisa suportar Windows 10 e ser empacotado e facilidade de implantação por meio de Intune. Para obter mais informações, entre em contato com seu fornecedor de software.<br><br>Recomendação:<br>-A Microsoft recomenda uma solução VPN moderna que possam ser facilmente implantada por meio de Intune para os perfis de VPN push. Isso oferece uma maneira de sempre ativa, sem interrupções, confiável e segura para acessar a rede corporativa. Para obter mais informações, consulte [[VPN configurações Intune]](https://docs.microsoft.com/intune/vpn-settings-configure).<br>-Clientes VPN espessas ou clientes herdados de VPN, não são recomendados pela Microsoft durante a utilização do Microsoft Desktop gerenciados como ele pode afetar o ambiente do usuário final.<br>-A Microsoft recomenda que o tráfego de saída web vai diretamente para a Internet, sem precisar passar por meio da VPN para evitar problemas de desempenho.<br>-Idealmente, a Microsoft recomenda o uso do Windows Azure Active Directory App Proxy em vez de uma VPN.
+VPN | Os clientes possuem sua infraestrutura de VPN, para garantir que os recursos corporativos limitados possam ser expostos fora da intranet.<br><br>Requisitos mínimos: o Microsoft Managed desktop requer uma solução VPN compatível com o Windows 10 e com suporte. Se sua organização precisar de uma solução VPN, precisará oferecer suporte ao Windows 10 e ser empacotado e implantado por meio do Intune. Entre em contato com o fornecedor do software para obter mais informações.<br><br>Recomendação<br>– A Microsoft recomenda uma solução de VPN moderna que possa ser implantada facilmente por meio do Intune para enviar perfis VPN. Isso oferece uma maneira contínua, fácil, confiável e segura de acessar a rede corporativa. Para obter mais informações, consulte [[configurações de VPN no Intune]](https://docs.microsoft.com/intune/vpn-settings-configure).<br>-Clientes VPN espesso ou clientes VPN herdados não são recomendados pela Microsoft enquanto usam a área de trabalho gerenciada da Microsoft, pois isso pode afetar o ambiente do usuário final.<br>-A Microsoft recomenda que o tráfego da Web de saída vá diretamente para a Internet sem passar pela VPN para evitar qualquer problema de desempenho.<br>– Idealmente, a Microsoft recomenda o uso do proxy de aplicativo do Azure Active Directory em vez de uma VPN.
 
 
-## <a name="information-security"></a>Segurança das informações
+## <a name="information-security"></a>Segurança de informações
 
-Os clientes podem configurar esses serviços opcionais para ajudar a proteger os ativos de alto valor corporativos. 
+Os clientes podem configurar esses serviços opcionais para ajudar a proteger ativos corporativos de valor alto. 
 
 Serviço | Descrição
 --- | ---
-Recuperação de dados  | Informações armazenadas em pastas de chave no dispositivo são feitas backup ao OneDrive for Business. Microsoft Desktop gerenciados não é responsável por dados que não estão sincronizados com o OneDrive for Business. 
-Proteção de Informações do Windows |    Para empresas que exigem altos níveis de segurança das informações, recomendamos a [Proteção de informações do Windows](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) e [proteção de informações do Azure.](https://www.microsoft.com/cloud-platform/azure-information-protection). 
+Recuperação de dados  | É feito o backup das informações armazenadas nas principais pastas do dispositivo no OneDrive for Business. O Microsoft Managed desktop não é responsável por dados que não estão sincronizados com o OneDrive for Business. 
+Proteção de Informações do Windows |    Para empresas que exigem altos níveis de segurança de informações, recomendamos [proteção de informações do Windows](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) e proteção de [informações do Azure.](https://www.microsoft.com/cloud-platform/azure-information-protection). 
 

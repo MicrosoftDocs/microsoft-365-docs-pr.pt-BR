@@ -1,6 +1,6 @@
 ---
-title: Proteger documentos corporativos executando o Microsoft Office suplementos - Microsoft 365 Enterprise | Documentos do Microsoft
-description: Descreve como usar o WIP e Intune para proteger os dados corporativos em documentos executando suplementos do Office.
+title: Proteger documentos da empresa que executam suplementos do Microsoft Office-Microsoft 365 Enterprise | Microsoft docs
+description: Descreve como usar WIP e o Intune para proteger dados corporativos em documentos que executam suplementos do Office.
 author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
@@ -10,11 +10,11 @@ ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ms.openlocfilehash: 6871f288a7e5849b147cbf0aedb056f84575f376
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290756"
 ---
 # <a name="use-wip-and-intune-to-protect-enterprise-data-in-documents-running-office-add-ins"></a>Use o WIP e o Intune para proteger dados empresariais em documentos executando suplementos do Office
 Quando os usuários em uma organização usam os suplementos do Office para interagir com os dados organizacionais, isso apresenta um risco potencial de que alguns dados podem ser vazados. Você pode usar a WIP (Proteção de Informações do Windows) e o Microsoft Intune para proteger os dados empresariais quando os usuários estão executando suplementos do Office.

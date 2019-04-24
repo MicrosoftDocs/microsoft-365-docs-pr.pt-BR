@@ -1,5 +1,5 @@
 ---
-title: Ambiente de teste de proteção de identidade AD Azure para a sua empresa de 365 da Microsoft
+title: Proteção de identidade do Azure AD para seu ambiente de teste do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -8,56 +8,56 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Configurar a proteção de identidade do Windows Azure AD e analisar as contas atuais em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 165667ad2122839336ef0790ab5661cff53ca32b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Configure o Azure AD Identity Protection e analise as contas atuais em seu ambiente de teste do Microsoft 365 Enterprise.
+ms.openlocfilehash: bdac512f7645bf78c0a9c6bc5f71b35916bc4812
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279090"
 ---
-# <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Ambiente de teste de proteção de identidade AD Azure para a sua empresa de 365 da Microsoft
+# <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Proteção de identidade do Azure AD para seu ambiente de teste do Microsoft 365 Enterprise
 
-Proteção de identidade AD Azure permite detectar possíveis vulnerabilidades afetar identidades da sua organização, configurar respostas automatizadas e investigar incidentes. Este artigo descreve como habilitar a proteção de identidade do Windows Azure AD e exibir a análise de suas contas do ambiente de teste.
+O Azure AD Identity Protection permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização, configure respostas automatizadas e investigue incidentes. Este artigo descreve como habilitar a proteção de identidade do Azure AD e exibir a análise de suas contas de ambiente de teste.
 
-Há duas fases à configuração de proteção de identidade do Windows Azure AD no seu ambiente de teste do Microsoft 365 Enterprise:
+Há duas fases para configurar a proteção de identidade do Azure AD no seu ambiente de teste do Microsoft 365 Enterprise:
 
 1. Crie o ambiente de teste do Microsoft 365 Enterprise.
-2. Habilitar e usar a proteção de identidade do Windows Azure AD.
+2. Habilitar e usar a proteção de identidade do Azure AD.
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o seu ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
-Se você deseja testar a proteção de identidade do Windows Azure AD de forma leve com os requisitos mínimos, siga as instruções na [configuração base leve](lightweight-base-configuration-microsoft-365-enterprise.md).
+Se você só quiser testar a proteção de identidade do Azure AD de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Se você deseja testar a proteção de identidade do Windows Azure AD em uma empresa simulada, siga as instruções na [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
+Se você quiser testar a proteção de identidade do Azure AD em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Testando a proteção de identidade do Windows Azure AD não requer que o ambiente de teste de simulado empresarial, que inclui uma intranet simulada conectada à Internet e a sincronização de diretório para uma floresta do Windows Server AD. Ele é fornecido aqui como uma opção para que você possa testar a proteção de identidade do Windows Azure AD e experimentar em um ambiente que representa uma organização típica. 
+> O teste da proteção de identidade do Azure AD não exige o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). Ele é fornecido aqui como uma opção para que você possa testar a proteção de identidade do Azure AD e experimentá-lo em um ambiente que representa uma organização típica. 
   
-## <a name="phase-2-enable-and-use-azure-ad-identity-protection"></a>Fase 2: Habilitar e usar a proteção de identidade do Windows Azure AD
+## <a name="phase-2-enable-and-use-azure-ad-identity-protection"></a>Fase 2: habilitar e usar a proteção de identidade do Azure AD
 
-1. Abra uma instância particular do navegador e acesse o portal do Windows Azure em [https://portal.azure.com](https://portal.azure.com) com a conta de administrador global do seu ambiente de teste do Microsoft 365 Enterprise.
-2. No portal do Azure, clique em **todos os serviços > Marketplace**.
-3. Digite **proteção de identidade do Windows Azure AD** e, em seguida, clique nele.
-4. No blade **Introdução** , clique em **Onboard** em **configurações**, clique em **Fixar no painel**e, em seguida, clique em **criar**.
-5. No portal do Azure, clique em **proteção de identidade do Windows Azure AD** , no painel. 
+1. Abra uma instância privada do navegador e entre no portal do Azure em [https://portal.azure.com](https://portal.azure.com) com a conta de administrador global do ambiente de teste do Microsoft 365 Enterprise.
+2. No portal do Azure, clique em **todos os serviços do _GT_ Marketplace**.
+3. Digite **proteção de identidade do Azure ad** e clique nele.
+4. Na folha **introdução** , clique em em **** **configurações**, clique em **fixar no painel**e clique em **criar**.
+5. No portal do Azure, clique em **proteção de identidade do Azure ad** no painel. 
 
-   Você deverá ver um blade **Azure AD proteção-visão geral da identidade** com um painel. Sob **vulnerabilidades**, observe que ele determinado o número de contas de usuário sem registro a autenticação multifator. Esse número variará com base no anterior Microsoft 365 Enterprise Test Lab Guides que você fez.
+   Você deve ver uma lâmina **do Azure ad Identity Protection-visão geral** com um painel. Em **vulnerabilidades**, observe que ela determinou o número de contas de usuário sem registro de autenticação multifator. Esse número varia de acordo com os guias anteriores do laboratório de teste do Microsoft 365 Enterprise que você fez.
 
-6. Clique nas categorias para **investigar** ver se há qualquer usuários ou os eventos que foram detectados.
+6. Clique nas categorias para **investigar** para ver se há usuários ou eventos detectados.
 
-Para outros testes e experimentação, consulte [Simulating eventos de risco](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook).
+Para outros testes e experimentos, consulte [simulating Risk Events](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook).
 
-Consulte a etapa de [proteger contra credencial comprometer](identity-azure-ad-identity-protection.md) na fase de identidade para obter informações e links para implantar a proteção de identidade do Windows Azure AD na produção.
+Consulte a etapa [proteger contra](identity-multi-factor-authentication.md#identity-ident-prot) o comprometimento de credenciais na fase de identidade para obter informações e links para implantar a proteção de identidade do Azure AD em produção.
 
 ## <a name="next-step"></a>Próxima etapa
 

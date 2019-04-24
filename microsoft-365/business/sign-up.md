@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: Saiba como comprar e inscrever-se no Microsoft 365 Business.
 ms.openlocfilehash: 5e8bdb9121f2b567ef4faced2b960feaab49d923
-ms.sourcegitcommit: 913564997dbba42a448865a8913e07e6f203c736
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31504077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283582"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>InScreva-se no Microsoft 365 Business
 
@@ -41,7 +41,7 @@ Vá para [descubra o microsoft 365 Business Advantage](https://www.microsoft.com
 
     - **Username**: Insira o nome (chamado alias) que você usará para seu próprio email comercial. Por exemplo, Robert Young pode usar RobY ou RobYoung como um alias de trabalho.
     - **Sua empresa**: Insira seu nome de negócios exclusivo. Este é o nome que seu site comercial usa se você tiver um, e também é o nome que você deseja incluir após o sinal @ quando você receber um email comercial. Esse nome é chamado de domínio. Por exemplo, se sua empresa for chamada contoso skis, insira ContosoSkis após o sinal @.
-    - **Selecionar um domínio**: se você for o proprietário do seu nome de domínio, selecione. onmicrosoft.com no homens suspenso e solicitaremos que você o configure mais tarde. Caso contrário, será fácil comprar um nome de domínio que represente sua empresa. Para fazer isso, selecione o domínio que você preferir no menu suspenso. Por exemplo, seu endereço de email completo pode *Teresa@ContosoSkis.net*ser. Vamos informar imediatamente se o nome de domínio estiver disponível. Se for, adicionaremos o custo do seu domínio ao custo de sua assinatura do Microsoft 365 Business. O novo domínio também será configurado e pronto para uso no Microsoft 365 se você comprá-lo aqui. Para saber mais sobre domínios, confira [perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+    - **Selecionar um domínio**: se você for o proprietário do seu nome de domínio, selecione. onmicrosoft.com no homens suspenso e solicitaremos que você o configure mais tarde. Caso contrário, será fácil comprar um nome de domínio que represente sua empresa. Para fazer isso, selecione o domínio que você preferir no menu suspenso. Por exemplo, seu endereço de email completo pode ser *Teresa@ContosoSkis.net*. Vamos informar imediatamente se o nome de domínio estiver disponível. Se for, adicionaremos o custo do seu domínio ao custo de sua assinatura do Microsoft 365 Business. O novo domínio também será configurado e pronto para uso no Microsoft 365 se você comprá-lo aqui. Para saber mais sobre domínios, confira [perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq).
     
     ![Captura de tela da página criar sua ID de usuário.](media/signinuserid.png)
 

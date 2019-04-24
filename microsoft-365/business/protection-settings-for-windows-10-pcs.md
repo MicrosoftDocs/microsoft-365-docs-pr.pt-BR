@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 Business para proteger os dispositivos Windows 10.
-ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 Business para proteger dispositivos Windows 10.
+ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285902"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
 
@@ -31,17 +34,15 @@ Exibir um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Acesse o [Microsoft 365 Business](https://portal.office.com) com credenciais de administrador global. 
+1. Entre no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=837890) com credenciais de administrador global. 
     
-2. No centro de administração, no cartão **Políticas de dispositivos**, escolha **Adicionar política**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. No painel de navegação esquerdo, escolha **Adicionar** **políticas** \> de **dispositivos** \> .
   
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
     
 4. Em **Tipo de política**, escolha **Configuração de Dispositivo Windows 10**.
     
-5. Expanda **Proteger dispositivos Windows 10** \> defina as configurações como desejar. Confira [Configurações disponíveis](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) para saber mais. 
+5. Expanda **Proteger dispositivos Windows 10** \> defina as configurações como desejar. Confira [Configurações disponíveis](#available-settings) para saber mais. 
     
     Você sempre poderá usar o link **Redefinir as configurações padrão** para voltar para a configuração padrão. 
     
@@ -60,7 +61,7 @@ Confira [Como os recursos de proteção no Microsoft 365 Business são mapeados 
 |||
 |:-----|:-----|
 |Configuração  <br/> |Descrição  <br/> |
-|Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivirus esteja ativado para proteger PCs contra os riscos de estar conectado à Internet.  <br/> |
+|Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Usar regras que reduzem a superfície de ataque de dispositivos  <br/> |Quando ativada, a redução da superfície de ataque ajuda a bloquear ações e aplicativos normalmente usados por malware para infectar dispositivos. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Confira [Reduzir superfícies de ataque](https://go.microsoft.com/fwlink/?linkid=870417) para saber mais.  <br/> |
 |Proteger pastas de ameaças como ransomware  <br/> |Essa configuração usa o acesso a pastas controladas para proteger os dados da empresa contra modificações feitas por aplicativos suspeitos ou maliciosos, como ransomware. Esses tipos de aplicativos são impedidos de fazer alterações em pastas protegidas. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Confira [Proteger pastas com acesso à pasta controlado](https://go.microsoft.com/fwlink/?linkid=870418) para saber mais.  <br/> |

@@ -7,11 +7,11 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: c4ebe0c7ad3d1e197cf90cc975366df61d3b0cb5
-ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276912"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft
 

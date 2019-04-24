@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Instale o Office em um iPhone ou um telefone Android e seus arquivos de trabalho no Office apps serão protegidas pelo Microsoft 365 Business.
-ms.openlocfilehash: 15dc9742cb9712bcbf21e7e3668adc572ee9eb2b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Instale o Office em um iPhone ou telefone Android, e seus arquivos de trabalho nos aplicativos do Office serão protegidos pelo Microsoft 365 Business.
+ms.openlocfilehash: 4ffde6197104cfceb337a9d531032dacfd9efcf0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284548"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Configurar dispositivos móveis para usuários do Microsoft 365 Business
 
@@ -34,7 +37,7 @@ O exemplo é do Outlook, mas se aplica a quaisquer outros aplicativos do Office 
 
 ## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
   
-Assista a um vídeo sobre como configurar aplicativos do Office em dispositivos iOS com Microsoft 365 Business:
+Assista a um vídeo sobre como configurar os aplicativos do Office em dispositivos iOS com o Microsoft 365 Business:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
 
@@ -64,7 +67,7 @@ Localize o Outlook no iPhone e reinicie-o. Quando solicitado, digite um PIN e ve
   
 ## <a name="androidtabandroid"></a>[Android](#tab/Android)
   
-Para iniciar a instalação no seu telefone Android, vá para o repositório de tocar.
+Para iniciar a instalação no seu telefone Android, vá para o repositório de reprodução.
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   

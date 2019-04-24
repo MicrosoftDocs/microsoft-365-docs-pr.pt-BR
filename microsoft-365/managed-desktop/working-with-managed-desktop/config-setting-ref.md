@@ -8,11 +8,11 @@ ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 296602422cf4d590ae17335d7a0bbbc939d929ed
-ms.sourcegitcommit: d38c0ce846bac19e876a03a59ed4f268c7bae389
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278314"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referência de configurações configuráveis-Microsoft Managed desktop
 
@@ -21,7 +21,7 @@ Este tópico lista as categorias de configurações que os clientes podem config
 ## <a name="desktop-background-picture"></a>Imagem de fundo da área de trabalho
 Você pode personalizar a imagem de plano de fundo da área de trabalho para dispositivos de área de trabalho gerenciado da Microsoft em sua organização. Você pode usá-lo para aplicar uma marca da empresa ou material de marketing. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área de trabalho:
 - Formato de arquivo de imagem-. jpg, JPEG ou. png
@@ -40,7 +40,7 @@ Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área 
 ## <a name="browser-start-pages"></a>Páginas iniciais do navegador
 As páginas iniciais do navegador são abertas em guias individuais quando os usuários iniciam o Microsoft Edge. Se você quiser tornar mais fácil para os usuários abrir um conjunto de sites que eles usam com frequência, adicione uma página inicial de navegador para cada site. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Você deve fornecer o nome de domínio totalmente qualificado (FQDN) para sites de intranet ou Internet para as páginas iniciais do seu navegador. Se os sites internos estiverem configurados, permita que os usuários saibam que o acesso a esses sites só será permitido quando você estiver conectado à rede interna no escritório ou quando estiver conectado a uma conexão VPN. 
 
@@ -61,7 +61,7 @@ Se você tiver sites e aplicativos específicos que sabe que têm problemas de c
 
 Você pode especificar um local do https://ou o local de um compartilhamento interno onde você tenha hospedado sua lista de sites do modo empresarial. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para o arquivo de lista de sites do modo empresarial:
 - Formato de arquivo-arquivo XML que atende [aos requisitos de arquivo](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#site-list-xml-file)
@@ -92,7 +92,7 @@ Os sites confiáveis permitem que você personalize as zonas de segurança ou on
 - Zona 3 – zona da Internet
 - Zona 4 – zona de sites restritos
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet ou Internet para cada site confiável. 
 
@@ -124,7 +124,7 @@ As exceções de site de proxy adicionadas no portal de área de trabalho gerenc
 > [!NOTE]
 > A atualização da lista de exceções de proxy padrão é sempre priorizada em implantações de cliente. Isso significa que sua implantação em estágios será pausada se houver uma implantação para a lista de exceções de proxy padrão.  
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para exceções de servidor proxy e site de proxy:
 - Deve ser um endereço de servidor válido e um número de porta

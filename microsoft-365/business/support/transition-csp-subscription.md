@@ -10,11 +10,11 @@ audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
 ms.openlocfilehash: 8109c0b00f06a15c12bbccf89e7f49dc3fa4b34a
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286190"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 

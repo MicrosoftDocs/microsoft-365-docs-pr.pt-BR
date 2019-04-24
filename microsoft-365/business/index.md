@@ -4,23 +4,24 @@ hide_bc: true
 ms.topic: hub-page
 ms.author: robmazz
 author: robmazz
-keywords: Microsoft 365 Business, Microsoft 365, empresas, SMB, pequenas e médias empresas, documentação do Microsoft 365 Business, documentos, documentação, informações técnicas
+keywords: Microsoft 365 Business, Microsoft 365, Business, SMB, empresas de pequeno e médio porte, documentação do Microsoft 365 Business, documentos, documentação, informações técnicas
 localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-business
-title: Recursos do Microsoft 365 Business
-description: Aprenda a planejar, implantar e usar o Microsoft Office 365, Windows 10 e mobilidade corporativos + segurança juntos em sua empresa para uma infra-estrutura de segura e integrada que permite que o trabalho em equipe e desbloqueia criatividade.
-ms.openlocfilehash: 386c829a6b635b1b23301e838f05b0b84bbfb3b4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-subscription-management
+title: Recursos de negócios do Microsoft 365
+description: Saiba como planejar, implantar e usar o Microsoft Office 365, o Windows 10 e o Enterprise Mobility + Security juntos em sua empresa para uma infraestrutura integrada e segura que habilita o trabalho em equipe e desbloqueia a criatividade.
+ms.openlocfilehash: fc3a702f76426f3b7ffcb0f45996b097d0d17e94
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278488"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Recursos do Microsoft 365 Business</h1>
-        <P>Microsoft Business de 365 inclui as versões mais recentes dos aplicativos do Windows e o Office como o Excel e Outlook. Entre em funcionamento e tirar proveito de proteção de dados e segurança que se estende a todos os dispositivos de negócios.</p>
+        <h1>Recursos de negócios do Microsoft 365</h1>
+        <P>O Microsoft 365 Business inclui as versões mais recentes dos aplicativos do Windows e do Office, como Excel e Outlook. Aproveite e execute as vantagens da proteção e segurança dos dados que se estende a todos os seus dispositivos de negócios.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -74,7 +75,7 @@ ms.locfileid: "26864791"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Mover para a Microsoft 365 Business</h3>
+                                                <h3>Mover para o Microsoft 365 Business</h3>
                                                 <P><a href="migrate-to-microsoft-365-business.md" target="_blank">Mover do Office 365 Business Premium</a></p>
                                             </div>
                                         </div>
@@ -91,10 +92,10 @@ ms.locfileid: "26864791"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Proteger dados corporativos e dispositivos</h3>
-                                                <P><a href="manage.md" target="_blank">Gerenciar dispositivos</a></p> <P><a href="app-protection-settings-for-android-and-ios.md" target="_blank">Proteger iPhone e dispositivos com Android</a></p>
-                                                 <P><a href="https://support.office.com/article/top-10-ways-to-secure-office-365-and-microsoft-365-business-plans-from-cyber-threats-de2da300-dbb6-4725-bb12-b85a9d296e75" target="_blank">Top 10 maneiras de proteger Microsoft 365 Business</a></p>
-                                                <P><a href="security-features.md" target="_blank">Saiba mais sobre recursos de segurança</a></p>
+                                                <h3>Proteger dados e dispositivos corporativos</h3>
+                                                <P><a href="manage.md" target="_blank">Gerenciar dispositivos</a></p> <P><a href="app-protection-settings-for-android-and-ios.md" target="_blank">Proteger dispositivos iPhone e Android</a></p>
+                                                 <P><a href="https://support.office.com/article/top-10-ways-to-secure-office-365-and-microsoft-365-business-plans-from-cyber-threats-de2da300-dbb6-4725-bb12-b85a9d296e75" target="_blank">As 10 maneiras principais de proteger o Microsoft 365 Business</a></p>
+                                                <P><a href="security-features.md" target="_blank">Saiba mais sobre os recursos de segurança</a></p>
                                                 </div>
                                         </div>
                                     </div>
@@ -110,11 +111,11 @@ ms.locfileid: "26864791"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Use o modo </h3>
+                                                <h3>Utilizar</h3>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">Configurar dispositivos móveis</a></p>
-                                                <P><a href="https://support.office.com/office-training-center" target="_blank">Ajudar todos a fazer funcionar com o Office</a></p>
-                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Ajudar a todos alternar para Windows 10</a></p>
-                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Treinamento de Intune</a></p>
+                                                <P><a href="https://support.office.com/office-training-center" target="_blank">Ajudar todos a se familiarizar com o Office</a></p>
+                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Ajudar todos mudarem para o Windows 10</a></p>
+                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Treinamento do Intune</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -133,7 +134,7 @@ ms.locfileid: "26864791"
                                                 <h3>Windows 10</h3>
                                                 <P><a href="set-up-windows-devices.md" target="_blank">Configurar dispositivos Windows 10</a></p>
                                                 <P><a href="remove-company-data.md" target="_blank">Remover dados de dispositivos</a></p>
-                                                <P><a href="reset-devices-to-factory-settings.md" target="_blank">Redefinir dispositivos</a></p>
+                                                <P><a href="reset-devices-to-factory-settings.md" target="_blank">ReDefinição de dispositivos</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,9 +154,9 @@ ms.locfileid: "26864791"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Obtenha ajuda de um parceiro da Microsoft</h3>
-                                                    <P><a href="https://www.microsoft.com/solution-providers/search" target="_blank">Encontre um parceiro</a></p>
-                                                    <P><a href="https://www.microsoft.com/microsoft-365/partners/business" target="_blank">Recursos para parceiros</a></p>
+                                                    <h3>Obter ajuda de um parceiro da Microsoft</h3>
+                                                    <P><a href="https://www.microsoft.com/solution-providers/search" target="_blank">Localizar um parceiro</a></p>
+                                                    <P><a href="https://www.microsoft.com/microsoft-365/partners/business" target="_blank">Recursos de parceiros</a></p>
                                                 </div>
                                             </div>
                                         </div>

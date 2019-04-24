@@ -1,35 +1,36 @@
 ---
-title: Monitorar a integridade de dispositivo e conformidade
-description: Fornece orientação sobre como usar a análise do Windows para monitorar a integridade de dispositivo para Microsoft 365 Enterprise.
-keywords: Microsoft 365 documentação 365 da Microsoft, Microsoft 365 Enterprise, Windows 10 Enterprise, análise do Windows
+title: Monitorar a integridade e a conformidade do dispositivo
+description: Fornece orientação sobre como usar o Windows Analytics para monitorar a integridade do dispositivo para o Microsoft 365 Enterprise.
+keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 365, Windows 10 Enterprise, Windows Analytics
 author: greg-lindsay
 localization_priority: Normal
+ms.collection: M365-modern-desktop
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: 45bf1b222501dd7564d6a619d992d6adfc03242f
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 28cf3325dcb3551148d20defad0be88482554a7c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289392"
 ---
-# <a name="step-4-monitor-device-health-and-compliance"></a>Etapa 4: Monitorar a integridade e a conformidade do dispositivo
+# <a name="step-4-monitor-device-health-and-compliance"></a>Etapa 4: monitorar a integridade e a conformidade do dispositivo
 
 ![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-Análise do Windows usa dados de diagnóstico para fornecer informações rica e acionáveis para ajudá-lo a obter ideias profundas na eficiência operacional e a integridade do Windows 10 dispositivos em seu ambiente.
+O Windows Analytics usa dados de diagnóstico para fornecer informações ricas e acionáveis para ajudá-lo a obter ideias profundas sobre a eficiência operacional e a integridade de dispositivos Windows 10 em seu ambiente.
 
-A capacidade de integridade do dispositivo do Windows Analytics fornece ideias proativas para ajudar a detectar e remediar problemas afetar os usuários finais. Esse novo serviço usa dados de diagnóstico para fornecer tais insights sem requisitos de infraestrutura adicional. Correção proativamente problemas pelos usuários finais permite reduzir os custos de suporte e melhorar a eficiência. Procure por recursos adicionais ser liberada em breve, que melhorarão as capacidades e o valor desse novo serviço.
+O recurso de integridade do dispositivo do Windows Analytics fornece informações pró-ativas para ajudar a detectar e corrigir problemas que afetam os usuários finais. Esse novo serviço usa dados de diagnóstico para fornecer essas insights sem requisitos de infraestrutura adicionais. A correção pró-ativa dos problemas do usuário final permite reduzir os custos de suporte e melhorar a eficiência. Procure recursos adicionais a serem lançados em breve, o que irá aprimorar os recursos e o valor desse novo serviço.
 
-Consulte [monitorar a integridade de dispositivos com a integridade do dispositivo](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) para saber mais, introdução e usar a integridade do dispositivo.
+Consulte [monitorar a integridade dos dispositivos com integridade do dispositivo](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) para saber mais, introdução e usar a integridade do dispositivo.
 
-Como ponto de verificação provisório, você pode consultar os [critérios de saída](windows10-exit-criteria.md#crit-windows10-step4) para esta etapa.
+Como ponto de verificação provisório, é possível conferir os [Critérios de saída](windows10-exit-criteria.md#crit-windows10-step4) para esta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)| [Implantar os recursos de segurança do Windows 10 Enterprise](windows10-enable-security-features.md) |
+|![](./media/stepnumbers/Step5.png)| [Implantar recursos de segurança do Windows 10 Enterprise](windows10-enable-security-features.md) |

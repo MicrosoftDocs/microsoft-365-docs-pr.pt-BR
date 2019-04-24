@@ -1,5 +1,5 @@
 ---
-title: Ambiente de teste a autenticação multifator para sua empresa de 365 da Microsoft
+title: Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -8,96 +8,96 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Configure a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 353f09253794670e8107e084acb3a01cd309fd60
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 Enterprise.
+ms.openlocfilehash: 8e202936451030718c0c86601c2c621c50f78e1a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291136"
 ---
-# <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Ambiente de teste a autenticação multifator para sua empresa de 365 da Microsoft
+# <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
 
-Para um nível adicional de segurança para entrar no Office 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua organização, você pode ativar o Azure a autenticação multifator, que requer mais do que apenas um nome de usuário e uma senha para verificar um conta. Com a autenticação multifator, os usuários são necessários para reconhecer uma chamada telefônica, digite um código de verificação enviado em uma mensagem de texto ou especificar uma senha de app em seus telefones inteligentes após inserir corretamente suas senhas. Eles podem entrar somente depois que esse segundo fator de autenticação foram atendido. 
+Para obter um nível adicional de segurança para entrar no Office 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua organização, você pode habilitar a autenticação multifator do Azure, que requer mais do que apenas um nome de usuário e senha para verificar um Count. Com a autenticação multifator, os usuários precisam confirmar uma chamada telefônica, digitar um código de verificação enviado em uma mensagem de texto ou especificar uma senha de aplicativo em seus telefones inteligentes após inserir corretamente suas senhas. O acesso só será possível depois que esse segundo fator de autenticação for atendido. 
   
-Este artigo descreve como habilitar e testar a autenticação baseada em mensagens de texto de uma conta específica.
+Este artigo descreve como habilitar e testar a autenticação baseada em mensagem de texto para uma conta específica.
   
 Há duas fases para configurar a autenticação multifator para uma conta no seu ambiente de teste do Microsoft 365 Enterprise:
   
 1. Crie o ambiente de teste do Microsoft 365 Enterprise.
     
-2. Habilitar e testar a autenticação multifator para a conta de usuário 2.
+2. Habilite e teste a autenticação multifator para a conta do usuário 2.
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o seu ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
-Se você deseja testar a autenticação multifator de forma leve com os requisitos mínimos, siga as instruções na [configuração base leve](lightweight-base-configuration-microsoft-365-enterprise.md).
+Se você só quiser testar a autenticação multifator de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Se você deseja testar a autenticação multifator em uma empresa simulada, siga as instruções na [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
+Se você quiser testar a autenticação multifator em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Testar a autenticação multifator não requer que o ambiente de teste de simulado empresarial, que inclui uma intranet simulada conectada à Internet e a sincronização de diretório para uma floresta do Windows Server AD. Ele é fornecido aqui como uma opção para que você possa testar a autenticação multifator e experimentar em um ambiente que representa uma organização típica. 
+> Testar a autenticação multifator não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). É fornecida aqui como uma opção para que você possa testar a autenticação multifator e experimentá-la em um ambiente que representa uma organização típica. 
   
-## <a name="phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account"></a>Fase 2: Habilitar e testar a autenticação multifator para a conta de usuário 2
+## <a name="phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account"></a>Fase 2: habilitar e testar a autenticação multifator para a conta do usuário 2
 
-Habilite a autenticação multifator para a conta de usuário 2 com estas etapas:
+Habilite a autenticação multifator para a conta do usuário 2 com estas etapas:
   
-1. Abra uma instância privada separada do navegador, vá para o portal do Office ([https://office.com](https://office.com)) e, em seguida, entre com sua conta de administrador global.
+1. Abra uma instância separada e privada do navegador, vá para o portal do Office ([https://office.com](https://office.com)) e entre com sua conta de administrador global.
     
 2. Na página principal do portal, clique em **Admin**.
     
 3. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
     
-4. No painel de usuários ativos, clique em **mais > Configuração da autenticação multifator**.
+4. No painel usuários ativos, clique em **mais > configuração de autenticação**multifator.
     
-5. Na lista, selecione a conta de **usuário 2** .
+5. Na lista, selecione a conta do **usuário 2** .
     
-6. Na seção **2 do usuário** , em **etapas rápidas**, clique em **Habilitar**.
+6. Na seção **usuário 2** , em **etapas rápidas**, clique em **habilitar**.
     
-7. Na caixa de diálogo **sobre como habilitar a autenticação multifator** , clique em **Habilitar a autenticação multifator**.
+7. Na caixa de diálogo **sobre como habilitar a autenticação** multifator, clique em **habilitar autenticação**multifator.
     
-8. Na caixa de diálogo **atualiza bem-sucedida** , clique em **Fechar**.
+8. Na caixa de diálogo **atualizações com êxito** , clique em **fechar**.
     
-9. Na guia **Página inicial do Microsoft Office** , clique no ícone de conta de usuário no canto superior direito e clique em **Sair**.
+9. Na guia **Microsoft Office Home** , clique no ícone da conta de usuário no canto superior direito e clique em **** sair.
     
-10. Feche sua instância do navegador.
+10. Feche a instância do navegador.
    
-Conclua a configuração da conta do usuário 2 a usar uma mensagem de texto para validação e testá-lo com estas etapas:
+Conclua a configuração da conta do usuário 2 para usar uma mensagem de texto para validação e testá-la com estas etapas:
   
-1. Abra uma nova instância particular do navegador.
+1. Abra uma nova instância privada do navegador.
     
-2. Vá para o portal do Office ([https://office.com](https://office.com)) e o logon com a conta de usuário 2 (Usuário2 @\<nome da organização >. onmicrosoft.com) e a senha.
+2. Vá para o portal do Office[https://office.com](https://office.com)() e entre com a conta do usuário 2 (Usuário2\<@ Organization name>. onmicrosoft. com) e a senha.
     
-3. Depois de entrar, você precisará configurar a conta para obter mais informações. Clique em **Avançar**.
+3. Após entrar, você será solicitado a configurar a conta para obter mais informações. Clique em **Avançar**.
     
-4. Na página **verificação de segurança adicionais** :
+4. Na página **verificação de segurança adicional** :
     
    - Selecione seu país ou região.
     
    - Digite o número de telefone do telefone inteligente que receberá mensagens de texto.
     
-   - **Método**, clique em **Enviar-me um código de mensagem de texto**.
+   - Em **método**, clique em **enviar um código por mensagem de texto**.
     
 5. Clique em **Avançar**.
     
-6. Insira o código de verificação da mensagem de texto recebida no seu telefone inteligente e clique em **Verificar**.
+6. Insira o código de verificação da mensagem de texto recebida no telefone inteligente e clique em **verificar**.
     
-7. Sobre o **etapa 3: mantenha seus aplicativos existentes** página, registre a senha do aplicativo exibido para a conta de usuário 2 em um local seguro e clique em **concluído**.
+7. Na página **etapa 3: manter seus aplicativos existentes** , registre a senha do aplicativo exibida para a conta do usuário 2 em um local seguro e clique em **concluído**.
     
-8. Se essa for a primeira vez você entrou com a conta de usuário 2, você será solicitado alterar a senha. Digite a senha original e uma nova senha duas vezes e, em seguida, clique em **Atualizar senha e entrar**. Registre a nova senha em um local seguro.
+8. Se esta é a primeira vez que você entrou com a conta de usuário 2, você é solicitado a alterar a senha. Digite a senha original e uma nova senha duas vezes e clique em **Atualizar senha e entrar**. Registre a nova senha em um local seguro.
     
-    Você deverá ver o portal do Office para o usuário 2 na guia **Página inicial do Microsoft Office** do seu navegador.
+    Você deve ver o portal do Office para o usuário 2 na guia **Microsoft Office Home** do navegador.
 
 
-Consulte a etapa de [Configurar a autenticação multifator](identity-multi-factor-authentication.md) na fase de identidade para obter informações e links para implantar a autenticação multifator na produção.
+Consulte a etapa [Configurar a autenticação](identity-multi-factor-authentication.md#identity-mfa) multifator na fase Identity para obter informações e links para implantar a autenticação multifator em produção.
     
 ## <a name="next-step"></a>Próxima etapa
 

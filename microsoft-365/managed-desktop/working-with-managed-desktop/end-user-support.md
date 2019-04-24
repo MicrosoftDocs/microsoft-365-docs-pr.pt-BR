@@ -1,42 +1,44 @@
 ---
-title: Obter suporte para a Área de Trabalho Gerenciada da Microsoft
+title: Obter suporte para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 11/28/2018
-ms.openlocfilehash: fb92b7971a35e6fca093f9911fbf480f1b26e6e8
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 3e48fdfc9708f0a1eb3b1cb0e5deb64d1a5ca748
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278214"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
-Existem duas maneiras de que os usuários em sua organização podem obter ajuda com seus dispositivos de área de trabalho gerenciada do Microsoft: app **Obter ajuda** ou suporte por telefone. Observe que os dispositivos que residem em anel teste estão fora do escopo para essas opções de suporte do usuário final. 
+Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Observe que os dispositivos que residem no grupo de teste estão fora do escopo para essas opções de suporte ao usuário final. 
 
-## <a name="get-help-app"></a>Obtenha ajuda app
+## <a name="get-help-app"></a>Obter ajuda do aplicativo
 
-O método preferencial para oferecer suporte aos seus usuários é **Obter ajuda**, uma interface de fácil de usar incorporada ao dispositivo do usuário final.  
+O método preferencial para fornecer suporte aos seus usuários é **obter ajuda**, uma interface fácil de usar incorporada ao dispositivo de usuário final.  
 
-![Obter Ajuda](images/get-help.png)
+![Obter ajuda](images/get-help.png)
 
-Esse é um aplicativo que está instalado em todos os dispositivos de área de trabalho do Microsoft gerenciados e é fixado à barra de tarefas. 
+Este é um aplicativo que é instalado em todos os dispositivos de área de trabalho gerenciada da Microsoft e está fixado na barra de tarefas. 
 
-- Os usuários finais podem solicitar uma chamada de retorno para um número de telefone fornecido ou chat online com um representante de serviço.
-- Solicitações que se encontram fora do escopo de suporte da Microsoft Desktop gerenciados são redirecionadas para a assistência técnica de TI local por meio de chamada telefônica.  
+- Os usuários finais podem solicitar uma chamada de volta para um número de telefone fornecido ou bater papo online com um representante de serviço.
+- As solicitações que estão fora do escopo de suporte do Microsoft Managed desktop são redirecionadas para a assistência técnica de ti local por chamada telefônica.  
 
 ## <a name="phone-support"></a>Suporte por telefone
 
-Os usuários finais com dispositivos Microsoft Desktop gerenciado também têm acesso aos números de telefone gratuitos pode ligarem. Isso quer dizer a ser usado ao obter ajuda não está disponível. Por exemplo, se não conseguir entrar com o dispositivo ou o dispositivo será desfeito. Aqui estão os números de telefone para suporte por telefone:
+Os usuários finais com dispositivos de área de trabalho gerenciada da Microsoft também têm acesso a números de telefone de chamada gratuita que podem chamar. Isso deve ser usado quando obter ajuda não estiver disponível. Por exemplo, se não puder entrar no dispositivo ou se o dispositivo estiver quebrado. Estes são os números de telefone para suporte por telefone:
  
-- Estados Unidos: +1 855 425 0216
-- Reino Unido: + 44 2076 601135
-- Austrália: +61 180 037 0619
+
+- Estados Unidos & Canadá (exceto Quebec): + 1 855 425 0216
+- Reino Unido: + 44 800 026 0698
+- Austrália: + 61 180 037 0619
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- [Administrador de suporte para o Microsoft Desktop gerenciados](admin-support.md). 
-- [Suporte para a área de trabalho gerenciada do Microsoft](../service-description/support.md).
+- [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 
+- [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md).

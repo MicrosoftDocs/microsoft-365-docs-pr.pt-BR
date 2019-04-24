@@ -8,11 +8,11 @@ ms.localizationpriority: normal
 ms.date: 03/08/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: d533de7b68d9fa55ff0a108373d9621068c8fb1e
-ms.sourcegitcommit: 41b3dd9e38f56d0d4683ae6dc8e0e053ff57a3e7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30516346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289106"
 ---
 # <a name="install-intune-company-portal-on-microsoft-managed-desktop-devices"></a>Instalar o portal da empresa do Intune em dispositivos de área de trabalho gerenciado da Microsoft
 

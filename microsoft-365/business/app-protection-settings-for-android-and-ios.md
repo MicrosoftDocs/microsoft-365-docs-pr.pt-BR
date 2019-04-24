@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -17,29 +20,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
-description: Saiba como criar, editar ou excluir uma política de gerenciamento de aplicativo e proteger os arquivos de trabalho em dispositivos Android ou iOS.
-ms.openlocfilehash: ed03227496120369b94bf2396974eebfd7798678
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba como criar, editar ou excluir uma política de gerenciamento de aplicativos e proteger arquivos de trabalho em dispositivos Android ou iOS.
+ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277433"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Defina configurações de proteção de aplicativo para dispositivos Android ou iOS
 
 ## <a name="create-an-app-management-policy"></a>Criar uma política de gerenciamento de aplicativos
 
-1. Acesse o [Microsoft 365 Business](https://portal.office.com) com credenciais de administrador global. 
+1. Entre no [centro de administração de negócios do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890) com credenciais de administrador global. 
     
-2. No centro de administração, no cartão **Políticas de dispositivos**, escolha **Adicionar política**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. No centro de administração, escolha **** \> **políticas** \> de dispositivos **Adicionar política**.
   
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
     
 4. Em **Tipo de política**, escolha **Gerenciamento de Aplicativos para Android** ou **Gerenciamento de Aplicativos para iOS**, dependendo de qual conjunto de políticas que você deseja criar. 
     
-5. Expanda **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** e **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** \> defina as configurações como desejar. A opção **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** é **Desativada** por padrão, mas recomenda-se que ela seja **Ativada** e que os valores padrão sejam aceitos. Confira [Configurações disponíveis](app-protection-settings-for-android-and-ios.md#bkmk_availablesettings) para saber mais. 
+5. Expanda **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** e **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** \> defina as configurações como desejar. A opção **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** é **Desativada** por padrão, mas recomenda-se que ela seja **Ativada** e que os valores padrão sejam aceitos. ConFira [configurações disponíveis](#available-settings) para obter mais informações. 
     
     Você sempre poderá usar o link **Redefinir as configurações padrão** para voltar para a configuração padrão. 
     
@@ -51,7 +52,7 @@ ms.locfileid: "26865249"
     
 ## <a name="edit-an-app-management-policy"></a>Editar uma política de gerenciamento de aplicativos
 
-1. No cartão de **políticas** , escolha **Editar política**.
+1. No cartão **políticas** , escolha **Editar política**.
     
 2. No painel **Editar política**, escolha a política que você deseja alterar 
     
@@ -92,8 +93,8 @@ As configurações a seguir estão disponíveis para gerenciar como os usuários
 |Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração estiver **Ativada**, os usuários precisarão fornecer outra forma de autenticação, além de seu nome de usuário e senha, para poderem usar os aplicativos do Office em seus dispositivos móveis.  <br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
 |Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Esta configuração determina quanto tempo o usuário pode ficar ocioso antes de ser solicitado a entrar novamente.  <br/> |
-|Negar o acesso aos arquivos de trabalho em dispositivos com jailbreak ou com acesso raiz  <br/> |Os usuários inteligentes podem ter dispositivos com jailbreak ou com acesso raiz. Isso significa que o usuário pode modificar o sistema operacional, deixando o dispositivo mais sujeito a malware. Esses dispositivos são bloqueados quando essa configuração está **Ativada**.  <br/> |
-|Permitir que os usuários copiem o conteúdo dos aplicativos do Office para os aplicativos pessoais  <br/> |Podemos permitir isso por padrão, mas se a configuração está **habilitada**, o usuário pode copiar informações em um arquivo de trabalho para um arquivo pessoal. Se a configuração estiver **desativada**, o usuário será capaz de copiar informações de uma conta do trabalho em um app pessoal ou a conta pessoal.<br/> |
+|Negar o acesso aos arquivos de trabalho em dispositivos com jailbreak ou com acesso raiz  <br/> |Os usuários inteligentes podem ter dispositivos com jailbreak ou com acesso raiz. Isso significa que o usuário pode modificar o sistema operacional, deixando o dispositivo mais sujeito a malware. Os dispositivos são bloqueados quando essa configuração está **Ativada**.  <br/> |
+|Permitir que os usuários copiem o conteúdo dos aplicativos do Office para os aplicativos pessoais  <br/> |Permitimos isso por padrão, mas se a configuração estiver **Ativada**, o usuário poderá copiar informações de uma pasta de trabalho para um arquivo pessoal. Quando a configuração está **Desativada**, o usuário não pode copiar informações de uma conta corporativa para um aplicativo pessoal ou uma conta pessoal.  <br/> |
    
 
   

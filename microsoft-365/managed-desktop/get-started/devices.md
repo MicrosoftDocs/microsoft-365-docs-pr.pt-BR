@@ -1,56 +1,57 @@
 ---
-title: Ordem de dispositivos de área de trabalho gerenciada do Microsoft
+title: Ordenar dispositivos na área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/25/2018
-ms.openlocfilehash: 75098621f505513f6855b08e9cd9816992e95a86
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 88efccaf3970f58281338e436edbb7110df2a7de
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289476"
 ---
-# <a name="order-microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada do Microsoft ordem
+# <a name="order-microsoft-managed-desktop-devices"></a>Ordenar dispositivos de área de trabalho gerenciada da Microsoft
 
-Microsoft atualmente está conduzindo uma experiência de compra reduzida nos Estados Unidos (EUA), conforme descrito abaixo. Se você estiver fora dos Estados Unidos ou seu pedido de dispositivo é para dispositivos mais de 50, é recomendável trabalhar com um de nossos parceiros de dispositivos aprovados. Você poderá encontrá-out ao seu contato de conta da Microsoft para obter mais ajuda Configurando uma parceria de dispositivo.
+Atualmente, a Microsoft está conduzindo uma experiência de compra de pequena escala nos Estados Unidos (EUA), conforme descrito abaixo. Se você estiver fora dos EUA ou se a ordem do dispositivo for de mais de 50 dispositivos, recomendamos trabalhar com um de nossos parceiros de dispositivo aprovados. Você pode acessar o contato da sua conta da Microsoft para saber mais sobre a configuração de uma parceria de dispositivo.
 
-Como posso pedido dispositivos para Microsoft Desktop gerenciados?
+Como devo solicitar dispositivos para a área de trabalho gerenciada da Microsoft?
 
   |   
  --- | ---
-De dentro dos Estados Unidos, ordenação menor que 50 dispositivos | [Ordem de portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal)
-Fora dos Estados Unidos | Contate a equipe de Account da Microsoft
-Ordenação mais de 50 dispositivos | Contate a equipe de Account da Microsoft
+De dentro dos Estados Unidos, solicitar menos de 50 dispositivos | [Ordem do portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal)
+Fora dos Estados Unidos | Entre em contato com sua equipe de conta da Microsoft
+Solicitar mais de 50 dispositivos | Entre em contato com sua equipe de conta da Microsoft
 
-## <a name="order-devices"></a>Solicitar dispositivos
-Use estas instruções para dispositivos de ordem nos Estados Unidos. Você começará no Microsoft **portal de administração de área de trabalho gerenciado**, mas você fará as compras por meio de **Armazenamento da Microsoft para a empresa**. 
+## <a name="order-devices"></a>Ordenar dispositivos
+Use estas instruções para solicitar dispositivos nos Estados Unidos. Você começará no portal de **Administração de área de trabalho gerenciada**da Microsoft, mas fará as compras através da **Microsoft Store para empresas**. 
 
- **Dispositivos de ordem**
- 1. Entre no [portal de administração de área de trabalho do Microsoft gerenciados](https://aka.ms/mmdportal)
- 2. Na guia de Introdução, em ordem de dispositivos, selecione **Repositório aberto do Microsoft for Business aos dispositivos da ordem**.
+ **Para ordenar dispositivos**
+ 1. Entrar no [portal de administração de área de trabalho gerenciaDa da Microsoft](https://aka.ms/mmdportal)
+ 2. Na introdução, em solicitar dispositivos, selecione **abrir o Microsoft Store para empresas para solicitar dispositivos**.
  
-    ![Guia de Introdução, pedidos de dispositivos](images/mmd-order-devices.png)
+    ![Introdução, dispositivos de pedidos](images/mmd-order-devices.png)
     
-3. No Microsoft Store for Business, você pode analisar informações sobre o Microsoft Desktop gerenciados e um gráfico de comparação dos dispositivos disponíveis. Clique em **comprar** para escolher um dispositivo. 
+3. No Microsoft Store para empresas, você pode analisar informações sobre a área de trabalho gerenciada da Microsoft e um gráfico de comparação dos dispositivos disponíveis. Clique em **comprar** para escolher um dispositivo. 
 
-    ![Repositório de negócios, compre](images/msfb-buy.png)
+    ![Loja de negócios, comprar](images/msfb-buy.png)
 
-4. Em **Selecionar seu dispositivo**, selecione o dispositivo desejado. 
+4. Em **escolha o dispositivo**, selecione o dispositivo desejado. 
 
-    ![Repositório de negócios, escolha dispositivo](images/msfb-pick-device.png)
+    ![Loja de negócios, selecionar dispositivo](images/msfb-pick-device.png)
 
-5. **Escolher recursos de dispositivo**, selecione um **Plano de serviço**, digite o número de dispositivos e, em seguida, clique em **Adicionar ao carrinho**.
+5. Em **escolher recursos de dispositivo**, selecione um **plano de serviço**, digite o número de dispositivos e clique em **Adicionar ao carrinho**.
 
-6. Examinar seu carrinho e selecione **check-out**ou **Adicionar outro dispositivo**. 
+6. Revise seu carrinho e selecione **checkout**ou **Adicione outro dispositivo**. 
 
-7. Continuar o processo de check-out, revise suas preços, aceite os termos de licenciamento e selecione **Fazer pedido e entrada**. 
+7. Continue o processo de check-out, revise seus preços, aceite os termos de licença e selecione **assinar e fazer pedido**. 
 
-Dispositivos geralmente são enviados em três dias. 
+Os dispositivos normalmente são enviados dentro de três dias. 
 
-Quando tiver concluído ordenação dispositivos, você pode verificar os dispositivos que você solicitou no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal). Em **inventário**, selecione **dispositivos**. 
+Quando você tiver terminado de ordenação de dispositivos, poderá verificar os dispositivos solicitados no [portal de administração de área de trabalho gerenciaDa da Microsoft](https://aka.ms/mmdportal). Em **inventário**, selecione **dispositivos**. 
 
-Quando chegam de dispositivos, distribuí-las aos seus funcionários. Não há nenhum conjunto adicional para cima ou configuração necessária. 
+Quando os dispositivos chegarem, distribua-os para seus funcionários. Não há configuração adicional ou configuração necessária. 
 

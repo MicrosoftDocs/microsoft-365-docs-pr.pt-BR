@@ -1,57 +1,63 @@
 ---
-title: Configuração de rede para Microsoft Desktop gerenciados
+title: Configuração de rede para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 88f095706c82736d4c2ebc6a555aa3e384eeca09
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: f4cfaffe25638de80d23c3e681e50cbb544ca961
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289096"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para Microsoft Desktop gerenciados
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
 <!--Proxy config -->
 
 
 ## <a name="proxy-configuration"></a>Configuração de proxy
 
-Microsoft Desktop gerenciados é um serviço de nuvem gerenciados. Há um conjunto de pontos de extremidade que precisa ser capaz de acessar os serviços de área de trabalho gerenciada do Microsoft. Quando os clientes configurar um proxy ou firewall, eles permitem somente o tráfego de rede de determinados domínios por motivos de segurança. Esta seção lista os pontos de extremidade que precisam ser permitida. 
+O Microsoft Managed desktop é um serviço gerenciado na nuvem. Há um conjunto de pontos de extremidade que os serviços de área de trabalho gerenciada da Microsoft precisam alcançar. Esta seção lista os pontos de extremidade que precisam ser permitidos para os vários aspectos do serviço de área de trabalho gerenciada da Microsoft. 
+
+Os clientes podem otimizar a rede enviando todas as solicitações de rede confiáveis da Microsoft 365 diretamente por meio do firewall/proxy, ignorando a autenticação e todos os outros processos de inspeção ou processamento de pacotes. Isso reduz a latência e seus requisitos de capacidade de perímetro. 
+
+Além disso, para otimizar o desempenho dos serviços baseados em nuvem de área de trabalho gerenciada da Microsoft, esses pontos de extremidade precisam de tratamento especial por navegadores cliente cliente e os dispositivos em sua rede de borda. Esses dispositivos incluem firewalls, interrupção de SSL e inspecionar, dispositivos de inspeção de pacotes e sistemas de prevenção contra perda de dados.
 
 ### <a name="proxy-requirement"></a>Requisito de proxy
 
-O proxy ou firewall deve oferecer suporte a TLS 1.2. Caso contrário, você pode precisar desativar a detecção de protocolo.
+O proxy ou o firewall devem oferecer suporte a TLS 1,2. Caso contrário, os clientes podem ter que desabilitar a detecção de protocolo.
 
-### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Pontos de extremidade permitido - específicas para Microsoft Desktop gerenciados
+### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Pontos de extremidade permitidos específicos para a área de trabalho gerenciada da Microsoft
 
-Esses URLs precisa estar na lista de permissões para que dispositivos Microsoft Desktop gerenciados podem se comunicar com o Microsoft Services.
+O Microsoft Managed desktop usa o portal do Azure para hospedar seu console Web. As seguintes URLs na tabela abaixo precisam estar na lista permitida de seu proxy e firewall para que os dispositivos da área de trabalho gerenciado da Microsoft possam se comunicar com os serviços da Microsoft.  
 
-Serviço da Microsoft  | URLs necessárias na lista de permissões 
+Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada para qualquer coisa que nosso serviço seja executado na API do cliente. Os clientes devem garantir que essa URL esteja sempre acessível em sua rede corporativa.
+
+Serviço Microsoft  | URLs necessárias na lista de permissões 
 --- | --- | ---
-Obter Ajuda | \*. support.services.microsoft.com  <br>inprod.support.Services.microsoft.com  <br>supportchannels.Services.microsoft.com  <br>Graph.Windows.NET  <br>login.Windows.NET  <br>produção-mwaas-services-customerapi.azurewebsites.net
-Assistência Rápida | remoteassistance.support.Services.microsoft.com <br>Relay.support.Services.microsoft.com <br>channelwebsdks.azureedge.NET  <br>Web.Vortex.Data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
+Área de trabalho gerenciada da Microsoft | prod-mwaas-Services-customerapi.azurewebsites.net
+Obter ajuda | \*. support.Services.Microsoft.com  <br>inprod.support.Services.Microsoft.com  <br>supportchannels.Services.Microsoft.com  <br>Graph.Windows.net  <br>login.Windows.net  <br>prod-mwaas-Services-customerapi.azurewebsites.net
+Assistência rápida | RemoteAssistance.support.Services.Microsoft.com <br>Relay.support.Services.Microsoft.com <br>channelwebsdks.azureedge.net  <br>Web.vortex.Data.Microsoft.com  <br>Gateway.ChannelServices.Microsoft.com <br>\*. Lync.com
+Assistente de recuperação e suporte da Microsoft para o Office 365 | \*. apibasic.Diagnostics.Office.com  <br>\*. API.Diagnostics.Office.com
  
 
-### <a name="endpoints-allowed---other-microsoft-products"></a>Pontos de extremidade permitidos - outros produtos da Microsoft
+### <a name="endpoints-allowed---other-microsoft-products"></a>Pontos de extremidade permitidos-outros produtos da Microsoft
 
-Há URLs a partir de vários produtos da Microsoft que precisam ser na lista de permissões para que os dispositivos de área de trabalho do Microsoft gerenciados podem se comunicar com esses Microsoft Services. Use os links para ver a lista completa para cada produto. 
+Há URLs de vários produtos da Microsoft que precisam estar na lista de permissões para que os dispositivos de área de trabalho gerenciada da Microsoft possam se comunicar com esses serviços da Microsoft. Use os links para ver a lista completa de cada produto. 
 
-Serviço da Microsoft | Origem da documentação - URLs necessárias na lista de permissões
+Serviço Microsoft | Origem da documentação-URLs necessárias na lista de permissões
 --- | ---
-Atualização do Windows para negócios (WUfB) | [Windows Update para requisitos de firewall e proxy de negócios](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
-Otimização de entrega | [Requisitos de proxy do Windows Update](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
-Microsoft Store para Empresas | [Lista de permissões do Microsoft Store](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
-Office 365 | [URL do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) incluindo \*. apibasic.diagnostics.office.com
-Azure Active Directory | [Identidade híbrida necessário portas e protocolos](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) e o [Active Directory e o Active Directory Domain Services porta Requirements](https://aka.ms/AA26ygm) 
-Microsoft Intune | [Requisitos de configuração de rede Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
-OneDrive for Business <br> | [Obrigatório URLs e portas para OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports)
-Proteção de ameaça (ATP) avançada do Windows Defender | [Pontos de extremidade do Windows Defender ATP](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection)
-SharePoint Online  | [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#bkmk_teams)
-Power BI | [OneNote](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Windows 10 Enterprise incluindo Windows Update para empresas | [Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)
+Otimização de entrega | [Configurar a otimização de entrega para as atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
+Office 365 | [Intervalo de endereços IP e URL do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Azure Active Directory | Requisitos [de porta e protocolos de identidade híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) e [serviços de domínio do](https://aka.ms/AA26ygm) Active Directory e Active Directory 
+Microsoft Intune | [Requisitos de configuração de rede do Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
+Proteção avançada contra ameaças do Windows Defender (ATP) | [Pontos de extremidade ATP do Windows Defender] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
+)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

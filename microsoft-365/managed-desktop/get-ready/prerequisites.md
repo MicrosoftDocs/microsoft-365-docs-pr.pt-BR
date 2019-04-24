@@ -1,37 +1,36 @@
 ---
-title: Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+title: Pré-requisitos para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Serviço Microsoft Managed Desktop, 365 da Microsoft, documentação
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 11/1/2018
-ms.openlocfilehash: 303765d6804071b3a3de18ee412304566cbbe089
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 8d9c008af9531bc5b829d248665dc5b58ac6034b
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26865191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277382"
 ---
-# <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+# <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos para a área de trabalho gerenciada da Microsoft
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/prereq-azure); do not delete.-->
 <!--from Prerequisites -->
 
-Sucesso com o Microsoft Desktop gerenciados começa com conhecido, documentados e acordados requisitos para a infra-estrutura do cliente. Esta seção descreve os pré-requisitos. 
+O sucesso com a área de trabalho gerenciada da Microsoft começa com requisitos conhecidos, documentados e acordados para a infraestrutura do cliente. Esta seção descreve os requisitos do infastructure. 
 
-Microsoft FastTrack está disponível para ajudar os clientes a atender a esses requisitos e ajudá-lo a se preparar para participar moderno local de trabalho como um serviço. Para obter mais informações, consulte [Microsoft FastTrack](https://fasttrack.microsoft.com/about). 
+O Microsoft FastTrack está disponível para ajudar os clientes a cumprir esses requisitos e ajudá-lo a se preparar para participar da área de trabalho gerenciada pela Microsoft. Para obter mais informações, consulte [Microsoft FastTrack](https://fasttrack.microsoft.com/about). 
 
-Área | Detalhes de pré-requisito
+Área | Detalhes do pré-requisito
 --- | ---
-Licenciamento | Uma licença do Microsoft 365 E5 ou equivalentes licenças são necessárias.<br><br>Essa licença inclui E5 do Office 365, Windows 10 Enterprise E5 & Enterprise mobilidade + E5 de segurança (EMS). Para obter mais informações, consulte [Microsoft 365 licenciamento](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
-Conectividade |  Todos os dispositivos de área de trabalho gerenciada do Microsoft exigem conectividade para vários pontos de extremidade de serviço de Microsoft da rede interna organizacional, incluindo:<br>-Windows Update<br>-Microsoft Store for Business<br>-Azure Active Directory<br>-Relatório de erros Windows<br>-Análise de travamento online<br>-Conectados a experiência do usuário e telemetria<br>-App OneDrive para Windows 10<br><br>A lista completa de necessárias do IP e URLs podem ser encontradas na [Configuração de Proxy](../get-ready/network.md). 
-Azure Active Directory |    Azure Active Directory (AD Azure) deve ser a fonte de autoridade para todas as contas de usuário ou contas de usuário devem ser sincronizadas do local do Active Directory usando o Windows Azure AD de conectar, versão 1.1.654.0 ou posterior. Para obter mais informações, consulte [Connect do Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-Autenticação |    Se o Azure AD não for a fonte de autoridade para contas de usuário, você deve configurar um destes procedimentos no Azure Connect da AD:<br>-Sincronização de Hash senha (recomendada)<br>-Autenticação passagem<br>-Federação com o ADFS<br><br>Quando o definindo opções de autenticação com write-back de senha de conectar-se do Azure AD também é necessária. Para obter mais informações, consulte [Write-back de senha](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback).<br><br>Para obter mais informações sobre opções de autenticação do Azure AD, consulte [Opções de entrada do usuário de conectar do Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin).
-Office 365 |    É altamente recomendável que os seguintes serviços ser migrados para a nuvem:<br>-Email - migrar para o correio na nuvem, Exchange online ou ser configurado com o Exchange Online híbrido com o Exchange 2013 ou superior, no local.<br>-Arquivos e pastas – migram para o SharePoint Online/Office 365.<br>-Skype para negócios – migrar para o Skype para negócios Online.
-Gerenciamento de dispositivo | Microsoft Intune - uma solução MDM somente em nuvem (não-híbrido) é necessária, que permite que os administradores gerenciem dispositivos Microsoft Desktop gerenciados usando um console web que pode ser acessado a partir em qualquer lugar do mundo. Microsoft Intune é a solução MDM necessária.<br><br>Para obter mais informações, consulte [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune). 
-Dados de backup e recuperação | Microsoft Desktop gerenciados requer arquivos a ser sincronizados ao OneDrive for Business para proteção. Quaisquer arquivos que não são sincronizados ao OneDrive for Business não há uma garantia pelo Microsoft Desktop gerenciados e podem ser perdidos durante trocas de dispositivo ou chamadas de suporte que requerem uma redefinição do dispositivo. Microsoft Desktop gerenciados não dá suporte para unidades de rede mapeadas.  
+Licenciamento | Cada usuário do MMD deve receber uma das seguintes opções de licença:<br>-Microsoft 365 e5<br>-Microsoft 365 E3, Enterprise Mobility + Security E5 e Windows 10 Enterprise e5<br>-Office 365 E3, Enterprise Mobility + Security E5 e Windows 10 Enterprise e5<br><br>Os clientes existentes do Enterprise Agreement podem precisar seguir orientações para habilitar a ativação da assinatura do Windows 10 Enterprise no locatário do Azure AD. Para obter mais informações, consulte [implantar licenças do Windows 10 Enterprise](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses#enabling-subscription-activation-with-an-existing-ea).<br><br>As licenças de produto podem ser atribuídas usando grupos de segurança Configurando o licenciamento baseado em grupo do Azure AD. Para obter mais informações, consulte [o que é licenciamento baseado em grupo no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).<br><br>Para obter mais informações sobre licenças disponíveis, consulte [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Conectividade |  Todos os dispositivos de área de trabalho gerenciados da Microsoft exigem conectividade com vários pontos de extremidade do serviço Microsoft a partir da rede corporativa.<br><br>Para obter a lista completa de IPs e URLs necessários, confira [configuração de rede](../get-ready/network.md). 
+Azure Active Directory |    O Azure Active Directory (Azure AD) deve ser a fonte de autoridade para todas as contas de usuário, ou as contas de usuário devem ser sincronizadas a partir do Active Directory local usando a versão mais recente suportada do Azure AD Connect.<br><br>Para obter mais informações sobre o Azure AD Connect, consulte [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect).<br><br>Para obter mais informações sobre versões compatíveis do Azure AD Connect, consulte [Azure ad Connect: versão do histórico de versões](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history).
+Autenticação |    Se o Azure AD não for a fonte de autoridade para contas de usuário, você deverá configurar uma delas no Azure AD Connect:<br>-Sincronização de hash de senha<br>-Autenticação de passagem<br>-Federação com ADFS<br><br>Ao definir as opções de autenticação com o Azure AD Connect, o Write-back de senha também é necessário. Para obter mais informações, consulte [write-back de senha](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Para obter mais informações sobre as opções de autenticação com o Azure AD, confira [Opções de logon do usuário do Azure ad Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin).
+Office 365 |    Embora não seja necessário se inscrever na área de trabalho gerenciada da Microsoft, é altamente recomendável que os seguintes serviços sejam migrados para a nuvem:<br>-Email-migrar para caixas de correio baseadas em nuvem, Exchange Online ou ser configurado com o Exchange Online híbrido com o Exchange 2013 ou superior, no local.<br>-Arquivos e pastas – migre para o OneDrive for Business/SharePoint Online.<br>– Ferramentas de colaboração online – migrar para o Microsoft Teams.
+Gerenciamento de dispositivo | Os dispositivos de área de trabalho gerenciada da Microsoft exigem gerenciamento usando o Microsoft Intune. O Intune deve ser definido como a autoridade de gerenciamento de dispositivo móvel.<br><br>Para obter mais informações, consulte [o Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune). 
+Backup e recuperação de dados | O Microsoft Managed desktop exige que os arquivos sejam sincronizados com o OneDrive for Business para proteção. Qualquer arquivo não sincronizado com o OneDrive for Business não é garantido pela área de trabalho gerenciada pela Microsoft e pode ser perdido durante trocas de dispositivos ou chamadas de suporte que exijam uma redefinição de dispositivo.<br><br>Embora não seja obrigatório, a área de trabalho gerenciada da Microsoft recomenda enfaticamente a migração de unidades de rede mapeadas para a solução de nuvem apropriada.  
 
-[Saiba como cumpre os pré-requisitos para a inscrição do Microsoft Desktop gerenciados.](../get-ready/index.md)
-
-Quando você estiver pronto para começar a área de trabalho gerenciada do Microsoft, contate seu gerente de conta da Microsoft. 
+Quando estiver pronto para começar a usar a área de trabalho gerenciada da Microsoft, entre em contato com o gerente de contas da Microsoft. 

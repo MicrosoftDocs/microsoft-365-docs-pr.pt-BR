@@ -8,11 +8,11 @@ ms.localizationpriority: normal
 ms.date: 2/17/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 4662373b926d07558ecedd05c9dfcf472ceb6357
-ms.sourcegitcommit: d38c0ce846bac19e876a03a59ed4f268c7bae389
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278406"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -27,7 +27,7 @@ Status  | Explicação
 Implantar | Sua alteração está aguardando para ser implantada nesse grupo.
 Em andamento | A alteração está sendo aplicada aos dispositivos ativos desse grupo. 
 Completo | A alteração foi concluída em todos os dispositivos ativos desse grupo. 
-Failed | A alteração falhou em 10 por cento de dispositivos ativos no grupo, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
+Falhou | A alteração falhou em 10 por cento de dispositivos ativos no grupo, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
 Revertidos | A alteração foi revertida para a última alteração implantada com êxito em todos os grupos de implantação.
 
 ## <a name="deploy-changes"></a>Implantar alterações

@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -15,41 +16,29 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Saiba como atualizar os dispositivos do Windows para o Windows Update criadores do profissional de 10. '
-ms.openlocfilehash: 5a9d232ffa50b642bdeab2dea391895e759e118b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Saiba como atualizar dispositivos Windows para a atualização do Windows 10 pro Creators. '
+ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279856"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Atualizar dispositivos Windows para a Atualização do Windows Pro para Criadores
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Atualização para o Windows 10 Pro criadores de atualização
-
-1. Entrar no [Centro de administração do Microsoft](https://portal.office.com/adminportal/home) e localize o cartão de **Atualização do Windows 10** . 
-    
-    ![Placa de atualização do Windows 10 no Centro de administração.](media/066f47bf-7b88-4fea-8fd0-82798ea66716.png)
+## <a name="upgrade-to-windows-10-pro-creators-update"></a>Atualização para a atualização do Windows 10 pro Creators
   
-2. Para atualizar para o Windows Update criadores do profissional de 10, você tem várias opções. É possível:
+1. Para atualizar para a atualização do Windows 10 pro Creators, você tem várias opções. Você pode:
     
-- Instale a atualização com o site de Download de Software da Microsoft - Selecione essa opção se o dispositivo que você está logado no mesmo dispositivo como aquele que deseja atualizar.
+    - Instalar a atualização do [site de download de software da Microsoft](https://go.microsoft.com/fwlink/?LinkID=836951 ) -Selecione esta opção se o dispositivo em que você está conectado estiver no mesmo dispositivo que a atualização.
     
-  a. Selecione **instalar a atualização**.
+      a. No site de download de software, clique em **Atualizar agora** para começar a atualizar o dispositivo para a atualização do Windows 10 pro Creators. 
     
-  b. do software do site de download, clique em **Atualizar agora** para iniciar a atualização de dispositivo ao Windows Update criadores do profissional de 10. 
+     - Criar uma mídia de instalação usando a [ferramenta de criação de mídia](https://go.microsoft.com/fwlink/?LinkID=836960) -Selecione esta opção para criar uma mídia de instalação de atualização do Windows 10 pro Creator (unidade flash USB ou arquivo ISO) para instalar o Windows 10 em um computador diferente daquele que você está usando.
     
-- Compartilhar o link de download - Selecione essa opção se você deseja enviar um email para as pessoas da sua organização para que eles podem atualizar para o Windows 10 Pro sozinhos.
- 
-   r. site de download de select link de **compartilhar o download** para abrir um email que contém um link para o software do Windows. 
+        a. Leia as instruções sobre como usar a ferramenta e criar sua mídia de instalação. 
     
- - Criar uma mídia de instalação usando a ferramenta de criação de mídia - Selecione essa opção para criar uma mídia de instalação do Windows Update criadores do profissional de 10 (unidade flash USB ou arquivo ISO) para instalar o Windows 10 em um PC que é diferente daquele que você está usando.
-    
-    a. Selecione **criar mídia de instalação**.
-    
-    b. ler as instruções sobre como usar a ferramenta e criar sua mídia de instalação. 
-    
-Consulte [Configurar os dispositivos do Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para concluir a definição dos dispositivos Windows 10. 
+ConFira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para concluir a configuração dos dispositivos Windows 10. 
   
-Consulte [Set up dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) completa configurar dispositivos Android e iOS. 
+ConFira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para concluir a configuração dos dispositivos Android e Ios. 
   

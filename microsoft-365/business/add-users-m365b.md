@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,30 +20,28 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Saiba como adicionar novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business.
-ms.openlocfilehash: 3bf718d2b42aa5220a6d746035568985c0df5251
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: ab4e98a30b0cf7361e6d5dd6c307908b04133e2e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277313"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Adicionar usuários adicionais ao Microsoft 365 Business
 
 ## <a name="add-new-users"></a>Adicionar novos usuários
 
-No centro de administração, acesse **Usuários** cartão \> **Adicionar um usuário**.
+No centro de administração, vá para **** o cartão \> de gerenciamento de usuário **Adicionar usuário**.
   
-![Choose Add a user on the Users card in the admin center](media/55218f5b-899c-41cb-8486-8746fcef1748.png)
+No painel **novo usuário** , digite as informações necessárias. 
   
-No painel **Novo usuário**, digite as informações necessárias. 
+Você também pode inserir informações adicionais em **informações de contato**, escolher como definir a senha em configuração de **senha** e atribuir funções sob as **funções**.
   
-Você também pode inserir informações adicionais em **Informações de contato**, escolher como definir a senha na configuração **Senha** e atribuir funções em **Funções**.
+![Inserir informações do usuário no novo cartão de usuário](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
   
-![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
+Na seção licenças de produto, defina a configuração de licença de produto do **** **Microsoft 365 Business** .
   
-Na seção de licenças de produto, definir **Microsoft 365 Business** configuração de licença de produto para **na**.
-  
-![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
+![Definir a configuração da licença como na posição](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
 
   

@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,13 +17,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Saiba como gerenciar o Microsoft 365 Business relacionados a tarefas administrativas, dispositivos móveis, Windows 10PCs e muitas dessas tarefas.
-ms.openlocfilehash: 280bff9f12a884e6a19e26feea5d8a339297a434
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Saiba como gerenciar tarefas de administração relacionadas a negócios da Microsoft 365, dispositivos móveis, Windows 10PCs e muitas dessas tarefas.
+ms.openlocfilehash: 993db51ec487237395ca57290e37a6c5edbce8b8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26864782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278566"
 ---
 # <a name="manage-microsoft-365-business"></a>Gerenciar o Microsoft 365 Business
 
@@ -44,7 +45,7 @@ Confira as seções a seguir sobre como usar o Microsoft 365 Business para prote
     
 - [Definir configurações de proteção de aplicativo para dispositivos Android ou iOS](app-protection-settings-for-android-and-ios.md)
     
-    Consulte [Validar configurações de proteção de aplicativo em um dispositivo Android ou iOS](validate-settings-on-android-or-ios.md) para certificar-se isso funcionou. 
+    ConFira [validar as configurações de proteção do aplicativo em um dispositivo Android ou Ios](validate-settings-on-android-or-ios.md) para garantir que isso funcionou. 
     
 - [Remover dados da empresa de dispositivos](remove-company-data.md)
     
@@ -92,7 +93,7 @@ Os tópicos a seguir descrevem como você pode usar o Windows AutoPilot no Micro
     
 - [Migrar para o Microsoft 365 Business](migrate-to-microsoft-365-business.md)
     
-- [Permitir que os dispositivos Windows 10 associados a um domínio a ser gerenciado pelo Microsoft 365 Business](manage-windows-devices.md)
+- [Habilitar os dispositivos Windows 10 associados ao domínio para serem gerenciados pelo Microsoft 365 Business](manage-windows-devices.md)
     
 [Recursos de segurança adicionais](security-features.md#additional-security-features)
     
