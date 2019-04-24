@@ -2,21 +2,21 @@
 title: Azure e notificação de violação no RGPD
 description: Como o Azure protege contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Azure, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 8b2a0bd52054a3228ba8c9536e6db552735b1f33
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 287175d6f78efa1052e446b230f39c33fc4d5fc6
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286426"
 ---
 # <a name="azure-and-breach-notification-under-the-gdpr"></a>Azure e notificação de violação no RGPD
 

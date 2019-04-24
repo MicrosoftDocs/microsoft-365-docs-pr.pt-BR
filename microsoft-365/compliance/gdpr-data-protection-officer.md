@@ -12,11 +12,11 @@ manager: laurawi
 audience: itpro
 ms.collection: GDPR
 ms.openlocfilehash: 2401613de3c57bc02af67ed527eb37c314528930
-ms.sourcegitcommit: 709163e0d802fbe27d801ace4f004045e78a797c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "26865066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286591"
 ---
 # <a name="microsofts-data-protection-officer"></a>Diretor de proteção dos dados da Microsoft
 

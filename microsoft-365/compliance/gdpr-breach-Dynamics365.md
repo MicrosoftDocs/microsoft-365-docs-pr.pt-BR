@@ -2,21 +2,21 @@
 title: Dynamics 365 e notificação de violação no RGPD
 description: Como o Dynamics 365 protege contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Dynamics 365, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 5bdaa174a4701466ce9f7bd4975221ab95c1cb45
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 3ee90c2fbe2684cebbd19376f44fc97d743515db
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286381"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 e notificação de violação no RGPD
 
