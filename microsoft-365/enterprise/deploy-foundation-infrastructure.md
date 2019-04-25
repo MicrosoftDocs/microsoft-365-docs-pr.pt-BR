@@ -3,61 +3,99 @@ title: Infraestrutura de base do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/27/2018
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender as principais fases da implantação da infraestrutura de base do Microsoft 365 Enterprise em sua organização.
-ms.openlocfilehash: abc38dc0eb3d33f7af9e2c91f020a735cf0c8d96
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 668775097eeffff569b99cc9fe4cd259f5d25c22
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287087"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 Enterprise
 
-Para usufruir plenamente dos benefícios do Microsoft 365 Enterprise, comece a implantação pela infraestrutura de base. 
+Se você vai realizar a implantação de ponta a ponta do Microsoft 365 Enterprise sozinho, primeiro você deve criar uma base firme sobre a qual aplicativos e serviços possam desbloquear a criatividade e o trabalho em equipe em um ambiente seguro. 
 
-## <a name="foundation-infrastructure-for-deploying-microsoft-365-enterprise"></a>Infraestrutura de base para implantação do Microsoft 365 Enterprise
+Para um caminho definido de ponta a ponta para implantação, você pode usar essas fases para planejar e implantar a infraestrutura de base do Microsoft 365 Enterprise:
 
-A infraestrutura de base é o alicerce sobre o qual será possível implantar cargas de trabalho de produtividade (como o Microsoft Teams e o Exchange Online no Office 365) e cenários (como migrar para o Microsoft 365 e automatizar atualizações do cliente). Ela fornece uma segurança inteligente e uma integração que simplifica o gerenciamento contínuo, garantindo que o software cliente seja atualizado com as mais recentes melhorias de produtividade e segurança.
+| | Fase | Resultados |
+|:-------|:-----|:-----|
+|![](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Rede](networking-infrastructure.md)| A rede é otimizada para o acesso aos serviços baseados na nuvem do Microsoft 365. |
+|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: Identidade](identity-infrastructure.md)| As contas de administrador estão protegidas, seus usuários e grupos estão sincronizados e a autenticação de usuário é forte. |
+|![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)| Os computadores baseados no Windows podem ser atualizados para o Windows 10 Enterprise e novos dispositivos são instalados com o Windows 10 Enterprise. |
+|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)| Os usuários existentes do Microsoft Office podem ser atualizados para o Office 365 ProPlus. |
+|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Gerenciamento de dispositivo móvel](mobility-infrastructure.md)| Os dispositivos podem ser registrados e gerenciados. |
+|![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)| Suas etiquetas estão prontas para proteger documentos e os recursos de segurança do Office 365 estão habilitados. |
 
-Siga estas fases para planejar e implantar a infraestrutura de base do Microsoft 365 Enterprise em sua organização:
+As fases começam com o mais fundamental (rede e identidade) e depois criam camadas de configurações e grupos de infraestrutura para:
 
-|||
-|:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Rede](networking-infrastructure.md)|
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: Identidade](identity-infrastructure.md)|
-|![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)|
-|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)|
-|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Gerenciamento de dispositivo móvel](mobility-infrastructure.md)|
-|![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)|
+- Instalar a versão mais atual e segura do Windows nos seus dispositivos.
+- Instalar a versão mais atual do Office nos seus dispositivos.
+- Gerenciar os dispositivos da sua organização.
+- Proteger as informações nesses dispositivos e na nuvem.
 
+Entretanto, você tem a flexibilidade de configurar e implantar as fases ou etapas dentro de fases para atender às suas necessidades de negócios e de recursos de TI.
 
-Antes de sair de cada fase, é preciso examinar os critérios de saída, ou seja, o conjunto de condições necessárias que devem ser cumpridas e outras condições opcionais a serem consideradas. Os critérios de saída de cada fase garantem que a infraestrutura local e na nuvem, assim como a configuração ponta a ponta resultante, atendam aos requisitos de implantação para o Microsoft 365 Enterprise.
+- **Se você é uma organização menor ou mais recente**, siga as fases conforme necessário para criar sua infraestrutura de forma metódica.
 
-Assista a este breve vídeo sobre como funciona o conteúdo da infraestrutura de base.
+-  **Se você é uma organização corporativa**, veja as fases como camadas de infraestrutura de TI em vez de um caminho definido e determine qual é a melhor maneira de chegar à adesão eventual às exigências para cada camada em toda a sua organização.
+
+No final de cada fase, você deve examinar seu critério de saída, que inclui condições obrigatórias que você deve cumprir e condições opcionais a se considerar. O critério de saída para cada fase garante que sua infraestrutura local e de nuvem e configuração resultante de ponta a ponta cumpram as exigências para uma implantação do Microsoft 365 Enterprise.
+
+Para ver como o conteúdo é estruturado, assista a este breve vídeo.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE23VRG]
 
-A figura a seguir apresenta a infraestrutura de base no conteúdo de implantação geral do Microsoft 365 Enterprise e o percurso ao longo dela.
+Esta é a infraestrutura de base no guia geral de implantação do Microsoft 365 Enterprise:
 
 ![](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
-## <a name="fasttrack"></a>FastTrack
+## <a name="infrastructure-configuration-vs-user-rollout"></a>Configuração de infraestrutura vs. implantação para usuários
 
-O FastTrack é um benefício contínuo e reutilizável que está disponível como parte da sua assinatura. Esse serviço é oferecido pelos engenheiros da Microsoft para ajudá-lo a migrar para a nuvem de acordo com seu próprio ritmo. O FastTrack também proporciona acesso a parceiros qualificados para realizar serviços adicionais, conforme necessário. Com mais de 40.000 clientes habilitados até o momento, o FastTrack ajuda a maximizar o ROI, agiliza a implantação e aumenta a adoção em toda a organização. Consulte a página sobre o [FastTrack para o Microsoft 365](https://fasttrack.microsoft.com/microsoft365). 
+A infraestrutura de base é um conjunto de software e serviços configurados que, quando combinados para um usuário, permite que ele aproveite todo o espectro de recursos e proteções que o Microsoft 365 Enterprise oferece. O destino final de sua jornada de implantação de ponta a ponta é fazer com que essa infraestrutura se aplique a todos os seus usuários e seus dispositivos baseados no Windows. 
 
-Se desejar aproveitar as vantagens do FastTrack para implantar o Microsoft 365 Enterprise, você pode usar o [consultor de implantação do Microsoft 365 do FastTrack](https://aka.ms/microsoft365setupguide) para obter instruções sobre como implantar e configurar a infraestrutura de base. Você deve estar conectado como um administrador global em um locatário do Office 365 ou do Microsoft 365 para acessar essa página.
+Entretanto, é importante notar que a infraestrutura de base do Microsoft 365 Enterprise é independente da implantação de software e serviços para os seus usuários. ***Você pode configurar as camadas da infraestrutura de base sem precisar implantar essas camadas para todos os seus usuários.***
+
+Portanto, é possível configurar, testar e definir elementos piloto da infraestrutura de base bem antes da implantação desses elementos para a grande quantidade de usuários nos escritórios, regiões ou divisões da sua organização.
+
+Por exemplo, você cria as configurações para:
+
+| Fase | Resultados |
+|:-------|:-----|
+| Identidade | Sincronização de conta e grupos para políticas de acesso condicional baseadas na identidade. |
+| Windows 10 Enterprise | Grupos para atualizar automaticamente os computadores executando o Windows 7 ou Windows 8.1 para o Windows 10 Enterprise em vigor. |
+| Office 365 ProPlus | Grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
+| Gerenciamento de dispositivo móvel | Grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
+| Proteção de informações | Etiquetas e grupos do Office 365 e Proteção de Informações do Azure. |
+
+Quando você estiver pronto para implantar elementos dessa infraestrutura aos usuários, você:
+
+| Fase | Ação de implantação |
+|:-------|:-----|
+| Identidade | Adicionar contas de usuário aos grupos para políticas de acesso condicional baseadas na identidade. |
+| Windows 10 Enterprise | Adicionar contas aos grupos para implantar automaticamente o Windows 10 Enterprise em vigor para os usuários com o Windows 7 ou o Windows 8.1. |
+| Office 365 ProPlus | Adicionar contas de usuário aos grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
+| Gerenciamento de dispositivo móvel | Adicionar contas aos grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
+| Proteção de informações | Adicionar contas de usuário aos grupos para etiquetas de Proteção de Informações. |
+
+Depois de completar, testar e definir piloto, você pode implantar o software instalado, como o Windows 10 Enterprise e o Office 365 ProPlus e serviços e proteções baseados em nuvem, registro de dispositivo e políticas de acesso condicional para os seus usuários da maneira que melhor se adapte aos seus objetivos de negócios e recursos de TI.
+
+## <a name="deployment-and-project-management-strategies"></a>Implantação e estratégias de gerenciamento de projetos
+
+Para lhe dar algumas ideias de como abordar o gerenciamento de projeto das diferentes fases da infraestrutura de base para usuários piloto e para o restante de sua organização, confira [estratégias de implantação](deployment-strategies-microsoft-365-enterprise.md).
+
 
 ## <a name="next-step"></a>Próxima etapa
 
-Se você já tem uma infraestrutura para o Office 365, Enterprise Mobility + Security ou Windows 10 Enterprise, confira o artigo sobre a [implantação do Microsoft 365 Enterprise com uma infraestrutura existente](deploy-with-existing-infrastructure.md). Nele, você obterá orientações sobre os critérios de saída para cada fase. Com base nessas informações, você poderá determinar com mais rapidez o que será preciso alterar para tornar a infraestrutura de TI compatível com o Microsoft 365 Enterprise.
-
-Se esse não for o seu caso, você pode começar a implantação ponta a ponta do Microsoft 365 Enterprise pela [Fase 1: Rede](networking-infrastructure.md).
+- Tenho infraestrutura existente para o Office 365, Enterprise Mobility + Security (EMS) ou Windows 10 Enterprise:
+  - Confira [Implantar com infraestrutura existente](deploy-with-existing-infrastructure.md). Este artigo guia você pelos critérios de saída para cada fase.
+- Vou começar do zero: 
+   - Comece sua jornada de implantação de ponta a ponta com [Fase 1: Rede](networking-infrastructure.md).

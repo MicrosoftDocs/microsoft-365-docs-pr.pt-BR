@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: 2cbabb04c79816684f4c566b92003bb64471d22b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 55ee8ff88490a82a9438b076bcebfab976f8baf6
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289029"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -40,7 +40,7 @@ A Contoso realizou as etapas a seguir para preparar a segurança para a implanta
 
 1. Contas de administrador limitadas para a nuvem
 
-   A Contoso fez um amplo exame das contas de administrador existentes do AD do Windows Server e configurou uma série de grupos e contas de administrador de nuvem.
+   A Contoso fez um amplo exame das contas de administrador existentes dos Serviços de Domínio do Active Directory (AD DS) e configurou uma série de grupos e contas de administrador de nuvem.
 
 2. Executou a análise de classificação de dados em três níveis
 
@@ -62,9 +62,9 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
   Os administradores de segurança da Contoso atribuíram funções de administrador com menos privilégios para contas que são apropriadas para a função de trabalho e a responsabilidade desse profissional de TI.
 
-  Para saber mais, veja [Sobre as funções de administrador do Office 365](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+  Para saber mais, veja [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
-- Autenticação multifator (MFA) para todas as contas de usuários
+- Autenticação multifator para todas as contas de usuário
 
   A MFA adiciona uma outra camada de proteção ao processo de login exigindo que os usuários confirmem uma chamada, mensagem de texto ou uma notificação de aplicativo no smartphone após inserir a senha corretamente. Com a MFA, as contas de usuário do Azure AD são protegidas contra entrada não autorizada, mesmo que a senha de uma conta esteja comprometida.
 
@@ -73,7 +73,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Acesso mais seguro a dispositivo e aplicativo com políticas de acesso condicional
 
-  A Contoso está usando [políticas de acesso condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de acesso condicional de identidade incluem a necessidade de alterações de senha para usuários de alto risco e o bloqueio de clientes de usar os aplicativos que não suportam autenticação moderna. As políticas condicionais de dispositivo incluem a definição de aplicativos aprovados e que sejam compatíveis com PCs e dispositivos móveis. As políticas de acesso condicional do Exchange Online incluem o bloqueio de clientes do ActiveSync e a configuração de criptografia de mensagens do Office 365. As políticas de acesso condicional do SharePoint Online incluem proteção adicional para sites altamente regulamentados e confidenciais.
+  A Contoso está usando [políticas de acesso condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de acesso condicional de identidade incluem exigir alterações de senha para usuários de alto risco e impedir clientes de usar aplicativos que não são compatíveis com a autenticação moderna. As políticas condicionais de dispositivo incluem a definição de aplicativos aprovados e a exigência de computadores e dispositivos móveis compatíveis. As políticas de acesso condicional do Exchange Online incluem impedir clientes do ActiveSync e configurar a criptografia de mensagem do Office 365. As políticas de acesso condicional do SharePoint Online incluem proteção adicional para sites confidenciais e altamente controlados.
 
 - Windows Hello para Empresas
 
@@ -81,9 +81,9 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Windows Defender Credential Guard
 
-  Para bloquear ataques direcionados e malware em execução no sistema operacional com privilégios administrativos, a Contoso habilitou o [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) por meio da política de grupo do AD do Windows Server.
+  Para impedir ataques direcionados e malware em execução no sistema operacional com privilégios administrativos, a Contoso habilitou o [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) por meio da política de grupo do AD DS.
 
-## <a name="threat-protection"></a>Proteção contra ameaças
+## <a name="threat-protection"></a>Proteção contra Ameaças
 
 - Proteção contra malware com o Windows Defender Antivírus
 
@@ -95,21 +95,21 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
   A Contoso também habilitou o log de auditoria de caixa de correio para determinar quem se conectou nas caixas de correio de usuário, enviou mensagens e outras atividades realizadas pelo proprietário da caixa de correio, um usuário delegado ou um administrador.
 
-- Monitoramento e prevenção contra ataques com a Inteligência Contra Ameaças do Office 365
+- Monitoramento e prevenção contra ataques com investigação e resposta a ameaças do Office 365
 
-  A Contoso usa a [Inteligência Contra Ameaças do Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) para proteger seus usuários do Office 365 facilitando a identificação e a resolução de ataques, e para evitar ataques futuros.
+  A Contoso usa a [investigação e resposta a ameças do Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) para proteger seus usuários do Office 365 facilitando a identificação e a resolução de ataques, e para evitar ataques futuros.
 
 - Proteção contra ataques sofisticados com Advanced Threat Analytics
 
-  A Contoso está usando [Advanced Threat Analytics (ATA)](https://docs.microsoft.com/advanced-threat-analytics/what-is-ata) para se proteger contra ataques direcionados avançados. O ATA automaticamente analisa, aprende e identifica o comportamento de entidade normal e anormal (usuários, dispositivos e recursos). 
+  A Contoso usa [Advanced Threat Analytics (ATA)](https://docs.microsoft.com/advanced-threat-analytics/what-is-ata) para se proteger contra ataques direcionados avançados.  A ATA analisa, aprende e identifica automaticamente comportamento normal e anormal de entidades (usuário, dispositivos e recursos). 
 
 ## <a name="information-protection"></a>Proteção de informações
 
-- Proteja os ativos digitais confidenciais e altamente regulamentados com a Proteção de Informações do Microsoft Azure
+- Proteja os ativos digitais confidenciais e altamente regulamentados com a Proteção de Informações do Azure
 
-  A Contoso determinou três níveis de proteção de dados e implantou rótulos de [Proteção de Informações do Microsoft Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) que os usuários aplicam aos recursos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa sub-rótulos da Proteção de Informações do Microsoft Azure para dados altamente regulamentados que criptografam conteúdo e restringem acesso a grupos de segurança específicos.
+  A Contoso determinou três níveis de proteção de dados e implantou rótulos da [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) que usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa sub-rótulos da Proteção de Informações do Azure para dados altamente regulamentados que criptografam conteúdo e restringem acesso a grupos de segurança específicos.
 
-- Evite vazamentos de dados de intranet com a Prevenção contra perda de dados do Office 365
+- Evite vazamentos de dados de intranet com a prevenção contra perda de dados do Office 365
 
   A Contoso configurou políticas de [Prevenção contra perda de dados](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies) do Exchange Online, do SharePoint Online e do OneDrive for Business para impedir que os usuários compartilhem dados confidenciais de maneira intencional ou acidental.
 
@@ -127,7 +127,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Gerenciamento de dispositivos com o Microsoft Intune
 
-  Como parte do pacote Enterprise Management + Security (EMS), a Contoso usa o [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) para se inscrever, gerenciar e configurar o acesso a dispositivos móveis e os aplicativos que são executados neles. As políticas de acesso condicional baseado em dispositivo também exigem aplicativos aprovados e dispositivos móveis e PCs compatíveis.
+  Como parte do pacote Enterprise Management + Security (EMS), a Contoso usa o [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) para se inscrever, gerenciar e configurar o acesso a dispositivos móveis e os aplicativos que são executados neles.  As políticas de acesso condicional baseadas em dispositivos também exigem aplicativos aprovados, dispositivos móveis e computadores compatíveis.
 
 ## <a name="security-management"></a>Gerenciamento de segurança
 

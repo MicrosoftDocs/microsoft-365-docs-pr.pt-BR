@@ -1,5 +1,5 @@
 ---
-title: Introdução – Implantação do Computador Moderno
+title: Introdução - Implantação do Computador
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,96 +12,92 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Introdução ao processo de Implantação do Computador Moderno.
-ms.openlocfilehash: bb5c1433554e984676884fd2bac4fa5120c76996
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: Introdução ao Processo de Implantação do Computador.
+ms.openlocfilehash: cd8b46189616ac4c981fa83ac097a9bbe01bfb90
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280224"
 ---
-# <a name="getting-started---modern-desktop-deployment"></a>Introdução – Implantação do Computador Moderno
+# <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
-A Nuvem está mudando a forma como é feito o gerenciamento de computadores, com o Microsoft Intelligent Cloud fornecendo informações acionais para ajudar os profissionais de TI a mudar para um computador moderno. Essa série foi desenvolvida para ajudar você a planejar e fazer a transição para um computador moderno baseado no Windows 10 e no Office 365 ProPlus.
-
-<img src="media/getting-started-media/getting-started-media-1.png" alt="Desktop Deployment Wheel" style="background-color: #fff;" />
+![](media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
 
 <table>
 <thead>
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
 <td><p><strong>Introdução: Orientações sobre pessoas, processos e tecnologia</strong></p>
-<p>Descubra os benefícios de um computador moderno, alterações e considerações importantes em relação a implantações anteriores, além das práticas recomendadas para garantir uma transição suave para o Windows 10 e o Office 365 ProPlus.</p></td>
+<p>Descubra os benefícios do Windows 10 e Office 365 ProPlus, alterações e considerações importantes em relação a implantações anteriores, além das práticas recomendadas para garantir uma transição suave para o Windows 10 e o Office 365 ProPlus.</p></td>
 <td><a href="https://aka.ms/ddev0" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->Nesta série, explicaremos as melhores maneiras de usar as ferramentas existentes e apresentamos novas tecnologias, serviços e métodos habilitados pela nuvem. Para ver o processo completo de implantação de computador, acesse o [Centro de Implantação do Computador Moderno](https://aka.ms/HowToShift).
+>Nesta série, explicaremos as melhores maneiras de usar as ferramentas existentes e apresentaremos novas tecnologias, serviços e métodos habilitados pela nuvem.  Para ver o processo completo de implantação do computador, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-Bem-vindo ao Centro de Implantação do Computador Moderno, nosso lugar central para aprender como ajudar você a planejar e fazer a mudança para o computador moderno. Isso permitirá que você aproveite um espaço de trabalho seguro, impulsionado pelas mais recentes experiências de produtividade, trabalho em equipe e colaboração.
+Bem vindo ao Centro de Implantação do Computador, nosso local central para saber como ajudá-lo a se planejar e mudar para o Windows 10 e o Office 365 ProPlus. Isso permitirá que você aproveite um espaço de trabalho seguro, com as experiências mais recentes de produtividade, trabalho em equipe e colaborações.
 
-Se você não tiver implantado um novo ambiente de computador por um tempo, a boa notícia é que o processo de implantação foi aprimorado. Os desafios do passado, como a compatibilidade de aplicativos, são um problema muito menor hoje em dia, e novas ferramentas e informações fornecidas da nuvem permitem que você avance com confiança, de forma mais rápida e eficiente do que nunca.
+Se você não implanta um ambiente de computador há algum tempo, a boa notícia é que muito do processo de implantação foi aprimorado. Desafios do passado, como compatibilidade de aplicativos, são questões menos significativas hoje. Novas ferramentas, assim como informações obtidas da nuvem, permitem que você prossiga com confiança mais rápida e eficientemente do que nunca.
 
 Nesta introdução, descreveremos o que mudou e faremos um tour pela Roda de Implantação de Computador. Isso guiará você pelas etapas recomendadas para a mudança para o Windows 10 e o Office 365 ProPlus, detalhando como aproveitar suas ferramentas e processos existentes enquanto adota tecnologia e abordagens de gerenciamento modernas durante o processo.
 
 ## <a name="why-upgrade"></a>Por que atualizar?
 
-Em combinação, o Windows 10 e o Microsoft Intelligence Cloud aprimoram sua capacidade de oferecer o Espaço de Trabalho mais poderoso, avançado e seguro para seus usuários e permitem simplificar sua infraestrutura de suporte.
+Em combinação, o Windows 10 e o Microsoft Intelligence Cloud aprimoram sua capacidade de oferecer o espaço de trabalho mais poderoso e seguro para seus usuários enquanto permite que você simplifique sua infraestrutura de suporte.
 
-Um dos principais locatários das modernas práticas de gerenciamento é composto por dispositivos que estão sempre atualizados. Por meio dessa série, você verá novos recursos que estão sendo fornecidos para ajudá-lo a migrar para o Windows 10 e o Office 365 ProPlus e como se manter atualizado com as versões semestrais de ambos.
+Um dos principais locatários das práticas modernas de gerenciamento são dispositivos que estão atualizados sempre.  Ao longo desta série, você lerá sobre os novos recursos que estão sendo entregues para ajudá-lo a mover para o Windows 10 e Office 365 ProPlus enquanto se mantém atualizado com as versões semestrais de ambos.
 
 [Windows 10 para o profissional de TI](https://www.microsoft.com/pt-BR/itpro/windows-10)
+
+[Sobre o Office 365 ProPlus na empresa](https://docs.microsoft.com/pt-BR/deployoffice/about-office-365-proplus-in-the-enterprise)
 
 ## <a name="what-has-changed"></a>O que mudou
 
 Vamos começar dando uma olhada no que mudou e melhorou desde a sua última implantação de computador. Se você não mudou seu ambiente de computador por algum tempo, provavelmente está usando o Windows 7, o Office 2010 ou o Office 2013. Se estiver, perceberá que algumas coisas evoluíram desde seu último grande upgrade. Aqui estão algumas das principais mudanças:
 
-**Gerenciamento de Identidade e Acesso** O computador moderno, com sua conectividade aos serviços de produtividade, segurança e gerenciamento da nuvem, tem, em essência, um novo serviço Gerenciamento de Identidade e Acesso: o Azure Active Directory. Isso permite a conectividade segura e de logon único em todos os seus serviços de nuvem. Isso significa que você precisará do Azure AD instalado. Isso permitirá que você aproveite as vantagens dos serviços do Microsoft 365, como o Office 365, o Intune ou o Windows Autopilot.
+**Identidades e Acesso:** O Windows 10 e o Office 365 ProPlus, com a conectividade para produtividade de nuvem, segurança e serviços de gerenciamento têm um novo serviço de Gerenciamento de Acesso e Identidades em sua essência: Azure Active Directory (Azure AD). Isso permite logon único e conectividade segura em todos os serviços de nuvem, o que significa que você precisará que o Azure AD esteja em vigor para aproveitar os serviços do Microsoft 365 como Office 365, Intune ou Windows Autopilot.
 
 [Microsoft 365](https://www.microsoft.com/pt-BR/microsoft-365/default.aspx)
 
-**Ambiente de pré-inicialização segura** O firmware UEFI de 64 bits substitui o BIOS. Isso não apenas acelera os tempos de inicialização, mas também é necessário para ativar muitos dos recursos de segurança modernos do Windows 10. O Windows 10 será executado no BIOS, mas o UEFI é altamente recomendado. Se você não tiver mudado do BIOS para o UEFI e 64 bits, agora é a hora. Existem ferramentas para ajudá-lo a fazer essa mudança durante uma atualização do Windows 10 ou depois dela.
+**Ambiente Pre-Boot Seguro:** firmware de 64 bits da UEFI substitui BIOS. Isso não só acelera o tempo de inicialização, é necessário ativar muitos dos recursos modernos de segurança no Windows 10. Apesar de o Windows 10 rodar em BIOS, UEFI é altamente recomendada. Se você não migrou do BIOS para UEFI e aproveitou os 64 bits, esse é o momento certo. Há ferramentas para ajudá-lo a mudar durante a atualização do Windows 10 ou depois dela.
 
-[Converter de BIOS em UEFI com MBR2GPT](https://technet.microsoft.com/pt-BR/windows/mt782786.aspx)
+**Gerenciamento de dispositivos baseados em nuvem:** Serviços como o Microsoft Intune ajudam você a gerenciar seus dispositivos com Windows 10 da mesma forma que gerencia seus outros dispositivos móveis, tudo em um único lugar. O que torna o Microsoft Intune único é a habilidade de cogerenciar seus dispositivos com Windows 10 com o System Center Configuration Manager. Você pode usar o System Center Configuration Manager para ajudá-lo a mudar para o Windows 10 e, em seguida, adicionar o Microsoft Intune. Trabalhando juntos, o System Center Configuration Manager se torna a borda inteligente dentro de sua organização, conectado à nuvem inteligente da Microsoft. Isso permite que você gerencie os dispositivos de seus usuários com segurança onde quer que eles estejam, estejam conectados na nuvem de sua organização ou na nuvem pública.
 
-**Gerenciamento de dispositivos baseados em nuvem** Serviços como o Microsoft Intune, você gerencia seus dispositivos do Windows 10 como faz com outros dispositivos móveis, tudo em um só lugar. O que torna o Microsoft Intune único é a capacidade de cogerenciar seus dispositivos do Windows 10 com o System Center Configuration Manager. Você pode usar o System Center Configuration Manager para ajudá-lo a mudar para o Windows 10 e, em seguida, adicionar o Microsoft Intune. Trabalhando juntos, o System Center Configuration Manager se torna o Edge inteligente em sua organização, conectado à nuvem inteligente da Microsoft. Isso permite que você gerencie os dispositivos de seus usuários com segurança onde quer que eles estejam, estejam conectados na nuvem da sua organização ou na pública.
+[Cogerenciamento para dispositivos com o Windows 10](https://docs.microsoft.com/pt-BR/sccm/core/clients/manage/co-management-overview)
 
-[Cogerenciamento para dispositivos Windows 10](https://docs.microsoft.com/pt-BR/sccm/core/clients/manage/co-management-overview)
-
-**Serviço de implantação baseado na nuvem** À medida que você adquire novos computadores, apresentamos um novo serviço em nuvem para ajudá-lo a implantar dispositivos do Microsoft 365. É chamado de serviço de implantação do Windows Autopilot. O AutoPilot é integrado aos seus fornecedores de hardware, e os novos computadores são automaticamente registrados no AutoPilot. Isso permite que o novo computador seja enviado diretamente para o usuário final. Quando o computador é ligado pela primeira vez, ele é rapidamente configurado para a configuração desejada da sua organização e personalizado de acordo com as necessidades específicas do usuário.
+**Serviço de Implantação baseado em nuvem:** Conforme você adquire novos computadores, apresentamos um novo serviço de nuvem para ajudá-lo a implantar os dispositivos com Microsoft 365, chamado de serviço de implantação do Windows Autopilot. O Autopilot é integrado aos seus provedores de hardware e novos computadores são registrados automaticamente no Autopilot, permitindo que o novo computador seja enviado diretamente ao usuário final. Quando o computador é ligado pela primeira vez, ele é configurado rapidamente para a configuração desejada pela sua organização e personalizado para as necessidades específicas do usuário.
 
 [Windows Autopilot](https://www.microsoft.com/pt-BR/windowsforbusiness/windows-autopilot)
 
-**Implantações de Clique para Executar** Ao provisionar aplicativos de desktop do Office, o Office 365 ProPlus é a opção preferida. Isso dá a você acesso às inovações mais recentes do Office, à medida que elas são desenvolvidas. Assim, você não precisará esperar anos antes de obter novos recursos. Você também usará uma nova instalação chamada Clique para Executar.
+**Implantações Clique para Executar:** Para provisionar aplicativos da área de trabalho do Office, o Office 365 ProPlus é a opção preferida. Isso lhe dá acesso às mais recentes inovações no Office conforme elas são desenvolvidas, para que você não tenha que esperar por anos para conseguir novos recursos. Você também usará uma nova instalação chamada Clique para Executar.
 
-O Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. O Clique para Executar é mais rápido, mais leve e usa o streaming de programa para permitir que os usuários estejam ativos e em execução em apenas alguns minutos e para serem atualizados em plano de fundo. Não se preocupe, ainda é uma cópia local do Office, e você pode continuar usando suas ferramentas de implantação existentes, como o System Center Configuration Manager, para provisionar e configurar os aplicativos.
+Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Clique para Executar é mais rápido, mais leve e oferece suporte para atualizações em segundo plano para manter seus usuários ativos. Ele ainda é uma cópia local do Office e você pode continuar a usar suas ferramentas de implantação existentes, como o System Center Configuration Manager para provisionar e configurar os aplicativos.
 
 [Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/DeployOffice/deployment-guide-for-office-365-proplus)
 
-**Atualizações semestrais** Depois de migrar para o Windows 10 e o Office 365 ProPlus, as atualizações serão entregues semestralmente com novos recursos. Mas com a Microsoft capaz de fornecer informações da Nuvem para ajudá-lo, você pode distribuir essas atualizações com rapidez e confiança para centenas ou milhares de dispositivos. Como uma atualização in-loco, a atualização de recursos preserva aplicativos, dados e configurações da versão anterior.
+**Atualizações Semestrais:** Quando você tiver migrado para o Windows 10 e Office 365 ProPlus, as atualizações serão entregues semestralmente com novos recursos. Mas com o Microsoft conseguindo trazer informações da nuvem para ajudar, você pode implantar essas atualizações em centenas a milhares de dispositivos de forma rápida e segura. Como uma atualização in-loco, a Atualização de Recurso preserva aplicativos, dados e configurações da versão anterior.
 
 ## <a name="the-deployment-process-wheel"></a>A roda do processo de implantação
 
-Antes de começar, você deve criar um plano de alto nível e obter os patrocinadores necessários. Nossa roda do processo de implantação descreve as etapas essenciais para ajudá-lo a identificar os recursos e membros da equipe principal a serem gerenciados nas seguintes áreas de implantação.
+Antes de começar, você deve criar um plano de alto nível e integrar os patrocinadores necessários. Nossa roda do processo de implantação descreve passos críticos para ajudá-lo a identificar os principais membros da equipe e recursos para gerenciar as seguintes áreas de implantação.
 
-**[Etapa 1: Preparação de dispositivos e aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você precisa saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade.
-
-Para o ajudar nisso, você pode utilizar as ferramentas disponíveis em nosso serviço baseado em nuvem, o Windows Analytics. O Windows Analytics permite que você aproveite a telemetria e inteligência de compatibilidade coletadas de centenas de milhões de computadores para avaliar os aplicativos e drivers que estão sendo executados no dispositivo, para que você possa estabelecer a preparação de seu computador. Você pode até mesmo exportar uma lista de "Computadores prontos para implantação" do Windows Analytics para o System Center Configuration Manager, se você o utiliza, permitindo a criação de coleções orientadas a dados de computadores direcionados à medida que eles estiverem prontos.
+**[Etapa 1: Preparação do Dispositivo e Aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você deve saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade. Para ajudar nisso, você pode aproveitar as ferramentas disponíveis em nosso serviço baseado em nuvem, Windows Analytics. O Windows Analytics permite que você aproveite a inteligência de compatibilidade e os dados de diagnóstico obtidos em milhões de computadores para avaliar os aplicativos e drivers em seu dispositivo para que você possa estabelecer a preparação do estado de seu computador. Você pode até exportar uma lista de “Computadores prontos para implantação” do Windows Analytics para o System Center Configuration Manager se você usá-lo, permitindo que você crie coleções orientadas por dados de computadores direcionados conforme eles ficam prontos.
 
 [Introdução ao Upgrade Readiness](https://docs.microsoft.com/pt-BR/windows/deployment/upgrade/upgrade-readiness-get-started)
 
-**[Etapa 2: Preparação de diretórios e redes](https://aka.ms/mdd2)** Se você ainda não o fez, implemente o Azure Active Directory para gerenciamento de identidade e acesso em seguida. Você também desejará preparar sua rede para a movimentação de imagens do sistema, pacotes de aplicativos, arquivos do usuário e atualizações através dela. Isso significa uma grande quantidade de dados adicionais; sua rede deve ter a capacidade de lidar com essa carga extra sem afetar o trabalho diário da sua organização. Temos uma gama de otimizações de rede disponíveis desde limitação de largura de banda e opções ponto a ponto até a limpeza dinâmica de largura de banda e atualização diferencial.
+**[Etapa 2: Preparação de Diretório e Rede](https://aka.ms/mdd2)** Se você ainda não o fez, deve implantar Azure Active Directory para gerenciamento de identidades e acesso. Você também deve preparar sua rede para a movimentação de imagens do sistema, pacotes de aplicativos, arquivos de usuário e atualizações nela. Isso significa uma grande quantidade de dados adicionais; sua rede deve ter a capacidade de lidar com essa carga adicional sem afetar o trabalho diário da sua organização. Temos uma variedade de otimizações de rede disponíveis desde limitação de largura de banda e opções ponto a ponto a busca de largura de banda dinâmica e atualização diferencial.
 
 [BranchCache versus Cache Par](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**[Etapa 3: Entrega de aplicativos do Office e LOB](https://aka.ms/mdd3)** Embora o Windows continue a oferecer suporte a instalações baseadas em MSI, agora também oferece suporte a mecanismos de instalações mais recentes, otimizados para implantação automatizada e atualizações contínuas. Os clientes do Office 365 ProPlus e do Windows 2019 usam o Clique para Executar, você pode disponibilizar uma variedade de aplicativos UWP e pode se deparar com a implantação cada vez maior de aplicativos de terceiros e aplicativos LOB desenvolvidos internamente que usam os novos aplicativos de empacotamento baseados em MSIX. Essa etapa garante que seus aplicativos estejam prontos para implantações automatizadas e que você esteja preparado para ter sucesso, independentemente de seus aplicativos serem implantados usando Clique para Executar, MSIX, baseados em MSI convencionais, ou serem aplicativos UWP implantados de uma Microsoft Store da Empresa que você definiu acima.
+**[Etapa 3: Entrega de Aplicativos do Office e de Linha de Negócios](https://aka.ms/mdd3)** Apesar de o Windows continuar oferecendo suporte a instalações baseadas em MSI, ele também oferece suporte a mecanismos de instalações mais novos, otimizados para implantação automatizada e atualizações contínuas. Os clientes do Office 365 ProPlus e Office 2019 usam a tecnologia de instalação Clique para Executar. Você pode disponibilizar uma variedade de aplicativos UWP e pode se deparar cada vez mais com a implantação de aplicativos de terceiros e aplicativos de Linha de Negócios desenvolvidos internamente que usam os novos aplicativos de empacotamento baseados em MSIX. Esta etapa garante que seus aplicativos estejam prontos para implantações automatizadas e que você esteja preparado para o sucesso independentemente de seus aplicativos serem implantados usando Clique para Executar, MSIX, baseados em MSI convencionais ou serem aplicativos UWP implantados de uma Microsoft Store para Empresas que você configurou.
 
 [Introdução do MSIX](https://blogs.msdn.microsoft.com/sgern/2018/06/15/msix-intro/)
 
-**[Etapa 4: Migração de arquivos e configurações do usuário](https://aka.ms/mdd4)** Essa é uma etapa crítica em qualquer substituição de computador ou ciclo de atualização: é necessário garantir que os arquivos, os dados e as configurações dos usuários sejam movidos com êxito e preservados durante a migração. Esta etapa abrange as opções disponíveis para migrações manuais ou automatizadas, incluindo as opções conhecidas e novas.
+**[Etapa 4: Migração de arquivos e configurações do usuário](https://aka.ms/mdd4)** Essa é uma etapa crítica em qualquer substituição de computador ou ciclo de atualização: é necessário garantir que os arquivos, os dados e as configurações dos usuários sejam movidos com êxito e preservados durante a migração. Esta etapa abrange as opções disponíveis para migrações manuais ou automatizadas, incluindo opções conhecidas e novas.
 
-Como nos upgrades anteriores, a Ferramenta de Migração do Usuário continua sendo uma ferramenta valiosa para automatizar esse processo e continua sendo uma parte integrante das migrações orquestradas usando o System Center Configuration Manager ou o Microsoft Deployment Toolkit. Mas mover todos esses dados durante a migração pode ser um gargalo de tempo para a substituição do computador, devido à física envolvida na transferência, às vezes, de centenas de gigabytes por computador duas vezes: primeiro do computador existente e depois para o novo computador. Uma nova opção habilitada pelo OneDrive, Migração de Pasta Conhecida, é sincronizar documentos, imagens e arquivos de computador do usuário em grande escala, na nuvem, antes da implantação.
+Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados de Usuários continua a ser uma ferramenta valiosa para automatizar este processo e permanece uma parte de migrações coordenadas usando o System Center Configuration Manager ou o Microsoft Deployment Toolkit. Mas mover todos esses dados na migração pode ser um afunilamento do tempo para a substituição do computador por causa da física envolvida na transferência de, às vezes, centenas de gigabytes por computador duas vezes – a primeira do computador existente, a segunda para o novo computador. Uma nova opção habilitada pelo OneDrive é Mover Pastas Conhecidas, usada para sincronizar documentos e imagens do usuário e arquivos da área de trabalho em escala, na nuvem e antes da implantação.
 
 [Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/pt-BR/onedrive/redirect-known-folders)
 
@@ -113,17 +109,18 @@ Como nos upgrades anteriores, a Ferramenta de Migração do Usuário continua se
 
 [Introdução à implantação do sistema operacional no System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
 
-**[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)** Isso representa uma grande mudança na maneira como você mantém o estado real do computador dos usuários. Com essa mudança para o Windows 10 (e o Office 365 ProPlus), você pode passar a gerenciar o Windows (e do Office) como um serviço. Em vez de uma grande mudança de tecnologia em pequenos intervalos de anos, você estará continuamente trazendo novas capacidades, experiências e proteções para o seu usuário. As atualizações de recursos semestrais oferecem novos recursos no outono e na primavera de cada ano, enquanto as Atualizações de Qualidade cumulativas mensais contêm segurança, confiabilidade e correções de bugs. Embora você possa optar por implantar clientes do Office 2019, recomendamos que você mude para o Office ProPlus. Isso segue um plano de serviço semelhante para o Windows, para que seus usuários também recebam atualizações para os aplicativos do Office regularmente.
+**[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)** Isso representa uma grande mudança na forma que você mantém o estado real do computador dos usuários. Com essa mudança para o Windows 10 e o Office 365 ProPlus, você pode passar a gerenciar o Windows e o Office como um serviço. Em vez de uma grande mudança de tecnologia em pequenos intervalos de anos, você estará trazendo novos recursos, experiências e proteções ao seu usuário. As atualizações de recursos semestrais oferecem novos recursos no outono e primavera de cada ano, enquanto as Atualizações de Qualidade cumulativas contêm segurança, confiabilidade e correção de bugs. Embora você possa optar por implantar o cliente do Office 2019, recomendamos que você mude para o Office 365 ProPlus. Isso segue um plano de serviço semelhante para o Windows para que seus usuários também recebam atualizações para os aplicativos do Office regularmente.
 
 ![](media/getting-started-media/getting-started-media-2.png)
 
 [Visão geral do Windows como serviço](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview)
+[Visão geral do Office como serviço](https://docs.microsoft.com/pt-BR/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-**[Etapa 8: Treinamento e comunicações de usuários](https://aka.ms/mdd8)** Esta última etapa é essencial para impulsionar o uso de novos recursos para aprimorar o trabalho em equipe, as comunicações, a segurança e muito mais. Antes que uma ampla implantação seja direcionada a usuários fora dos anéis de adoção antecipada, recomendamos que você implante a comunicação e o treinamento do usuário. Isso ajudará a impulsionar as alterações desejadas em como as pessoas usam novos recursos no Office, no Windows ou em outros aplicativos e serviços LOB. Para ajudar, oferecemos treinamento online gratuito via Microsoft FastTrack. Além disso, publicamos planos e cronogramas de comunicação de amostras grátis juntamente com modelos de email, de redes sociais e de intranet para ajudar na implantação do Windows 10. Como uma organização do Microsoft 365 ou Office 365, sua organização também pode ter direito e suporte direto.
+**[Etapa 8: Treinamento e comunicações de usuários](https://aka.ms/mdd8)** Esse último passo é essencial para gerar uso de novos recursos para aperfeiçoar o trabalho em equipe, comunicação, segurança e mais. Antes que a implantação geral seja direcionada a usuários fora dos círculos de usuários pioneiros, recomendados que você implante o treinamento e comunicações de usuários. Isso vai ajudar a gerar as mudanças desejadas em como as pessoas usam os novos recursos no Office, Windows ou outros aplicativos e serviços da linha de negócios. Para ajudar, fornecemos treinamento online gratuito através do Microsoft FastTrack. Além disso, publicamos amostras gratuitas de planos de comunicação e cronogramas junto com modelos de e-mail, sociais e de intranet para ajudá-lo na sua implantação do Windows 10. Como uma organização do Microsoft 365 ou Office 365, sua organização também pode ser qualificada para suporte direto.
 
 ## <a name="next-step"></a>Próxima etapa
 
-Agora você está a par das novidades e das diferenças, e já lhe apresentamos a nossa roda recomendada do processo de implantação. Com esse gosto pelas orientações e ferramentas de ponta a ponta disponíveis para você fazer a mudança para o computador moderno, vamos começar.
+Agora você sabe o que é novo e diferente no Windows 10 e no Office 365 ProPlus e explicamos nossa roda recomendada do processo de implantação. Com essa ideia das orientações e ferramentas de ponta a ponta disponíveis para você mudar para o Windows 10 e Office 365 ProPlus, vamos começar.
 
-## <a name="step-1-device-and-app-readinesshttpsakamsmdd1"></a>[Etapa 1: Preparação de dispositivos e aplicativos](https://aka.ms/mdd1)
+## <a name="step-1-device-and-app-readinesshttpsakamsmdd1"></a>[Etapa 1: preparação de dispositivos e aplicativos](https://aka.ms/mdd1)
 

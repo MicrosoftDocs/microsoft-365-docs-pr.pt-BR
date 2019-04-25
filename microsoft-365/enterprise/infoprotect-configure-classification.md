@@ -3,22 +3,22 @@ title: 'Etapa 2: Configurar classificações de ambiente'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 04/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar várias maneiras para classificar os dados em sua organização.
-ms.openlocfilehash: bee0885eb3f8899560532895d1558723b281ab02
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: ca64b98bceb6f969adc964e93a6a1cc872763199
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286969"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Etapa 2: Configurar classificações de ambiente
 
@@ -28,30 +28,64 @@ ms.locfileid: "26864877"
 
 Nesta etapa, você trabalha com as equipes de conformidade e jurídica para definir um esquema de classificação dos dados da sua organização.
 
-## <a name="microsoft-classifications"></a>Classificações da Microsoft
+## <a name="microsoft-365-classification-types"></a>Tipos de classificação do Microsoft 365
 
-O Microsoft 365 inclui três tipos de classificação:
+O Microsoft 365 inclui quatro tipos de classificação:
 
-- Tipos de informações confidenciais no Office 365
-- Rótulos do Office 365
+- Tipos de informações confidenciais
+- Rótulos de retenção
+- Rótulos de confidencialidade
 - Proteção e rótulos de Proteção de Informações do Azure
 
-### <a name="sensitive-information-types-for-office-365"></a>Tipos de informações confidenciais no Office 365
+### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
-Os tipos de informações confidenciais do Office 365 definem como os processos automatizados, como a pesquisa, reconhecem os tipos específicos de informações, como os números da segurança social e de cartões de crédito. Usamos os tipos de informações confidenciais para localizar os dados confidenciais e aplicar regras e políticas de prevenção contra perda de dados para proteger esses dados. Saiba mais em [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e). Por exemplo, os tipos de informações confidenciais são especialmente úteis para atender aos requisitos de regulamentação e conformidade, como o GDPR (Regulamento Geral sobre a Proteção de Dados).
+Tipos de informações confidenciais para o Microsoft 365 definem como processos automatizados como pesquisar e reconhecer tipos específicos de informações. Isso inclui informações confidenciais de funcionários ou dados de clientes como números do serviço de saúde e números de cartão de crédito. Você usa tipos de informações confidenciais para encontrar dados confidenciais e aplica as regras e políticas da prevenção contra perda de dados (DLP) para protegê-los. Para saber mais, confira [o que uma política de DLP contém](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies#what-a-dlp-policy-contains). 
 
-### <a name="office-365-labels"></a>Rótulos do Office 365
-É possível usar os rótulos do Office 365 para dados pessoais e para arquivos secretos comerciais e altamente controlados armazenados no SharePoint Online e no OneDrive for Business. Para saber mais, inclusive como criá-los, confira [Visão geral de rótulos](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30).
+Tipos de informações confidenciais são especialmente úteis para cumprir exigências de conformidade e regulatórias, como para o Regulamento Geral de Proteção de Dados (GDPR).
 
-Se decidir usar rótulos do Office 365, configure pelo menos um rótulo para cada nível de proteção. Por exemplo, crie três rótulos para:
+### <a name="retention-labels"></a>Rótulos de retenção
+
+Parte de definir uma estratégia de governança de dados é decidir por quanto tempo tipos específicos de documentos ou documentos com conteúdos específicos devem ser retidos em conformidade com políticas de organização e regulamentos regionais. Por exemplo, alguns tipos de documentos devem ser retidos por um período específico de tempo e depois apagados e outros devem ser retidos por tempo indeterminado.
+
+Para documentos armazenados no Microsoft 365, você define e aplica rótulos de retenção a documentos e dados armazenados no email do Exchange, SharePoint, OneDrive for Business e mensagens de canal e chat do Teams. Para mais informações, incluindo como criá-los, confira [Visão geral dos rótulos de retenção](https://docs.microsoft.com/office365/securitycompliance/labels).
+
+Se você usar rótulos de retenção, deve configurar um rótulo para cada categoria de arquivo que precisa de uma política de retenção aplicada. No rótulo de retenção, você pode especificar:
+
+- Um conjunto de descritores para os arquivos (por exemplo, por departamento empresarial, categoria de arquivo ou regulamento).
+
+- As configurações de retenção para os arquivos que possuem um rótulo de retenção anexado, como horários e comportamentos de retenção depois que atingirem o tempo de retenção.
+
+Você também pode aplicar automaticamente um rótulo de retenção aos arquivos configurando um site do SharePoint online para aplicar um rótulo de retenção padrão para todos os novos documentos no site. 
+
+Para saber mais, veja a [visão geral dos rótulos de retenção](https://docs.microsoft.com/office365/securitycompliance/labels).
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+Parte de proteger e implementar a segurança para tipos específicos de documentos ou documentos com conteúdos específicos é marcá-los com um rótulo para que a segurança adicional possa ser aplicada. Com rótulos de confidencialidade no Microsoft 365, você pode:
+
+- Impor configurações de proteção como criptografia, permissões ou adicionar uma marca d´água.
+
+- Evitar que conteúdo confidencial saia de sua organização em dispositivos executando o Windows, usando a proteção de pontos de extremidade no Microsoft Intune. 
+
+- Usar a proteção de pontos de extremidade da Proteção de Informações do Windows (WIP) para evitar que um conteúdo seja copiado para um aplicativo de terceiros, como Twitter ou Gmail, ou que seja copiado para armazenamento removível, como uma unidade USB. 
+
+- Usar Segurança no Aplicativo de Nuvem da Microsoft para proteger conteúdo em aplicativos e serviços de terceiros. 
+
+- Classificar conteúdo sem usar nenhuma configuração de proteção.
+
+Se você usar rótulos de confidencialidade, você deve configurar um rótulo para cada nível de segurança e proteção de informações. Por exemplo, crie três rótulos de confidencialidade para:
 
 - Linha de base
+
 - Confidencial
+
 - Altamente controlado
+
+Para saber mais, confira a [visão geral de rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels).
 
 ### <a name="azure-information-protection-labels-and-protection"></a>Proteção e rótulos de Proteção de Informações do Azure
 
-É possível usar rótulos de Proteção de Informações do Azure para classificar e, opcionalmente, proteger documentos e emails da organização. Eles podem ser aplicados aos documentos que estão armazenados fora do Office 365 e também podem ser aplicados automaticamente pelos administradores que definem as regras e as condições, manualmente por usuários ou uma combinação onde os usuários recebem recomendações.
+Você pode usar os rótulos de Proteção de Informações do Azure para classificar e, opcionalmente, proteger os documentos e emails da sua organização. Esses rótulos podem se aplicar a documentos que são armazenados fora do Microsoft 365. Esses rótulos podem ser aplicados automaticamente por administradores que definem regras e condições manualmente por usuários, ou uma combinação onde usuários recebem recomendações.
 
 Para planejar e implantar a proteção e os rótulos de Proteção de Informações do Azure, faça o seguinte:
 
@@ -60,7 +94,11 @@ Para planejar e implantar a proteção e os rótulos de Proteção de Informaç�
 
 Veja mais informações na [Biblioteca de documentação de Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/).
 
-## <a name="classification-for-gdpr"></a>Classificação para GDPR
+Rótulos existentes de Proteção de Informações do Azure funcionam perfeitamente com rótulos de confidencialidade. Por exemplo, você pode manter seus rótulos existentes de Proteção de Informações do Azure e os rótulos que são aplicados aos documentos e email.
+
+Se você tem tanto os rótulos de confidencialidade como os rótulos de Proteção de Informações do Azure, você deve [migrar seus rótulos de Proteção de Informações do Azure para rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-sensitivity-labels-work-with-existing-azure-information-protection-labels).
+
+## <a name="example-classification-for-gdpr"></a>Exemplo: Classificação para GDPR
 
 Confira um exemplo de esquema de classificação que inclui os dados pessoais para GDPR em [Desenvolver um esquema de classificação para dados pessoais](https://docs.microsoft.com/office365/enterprise/architect-a-classification-schema-for-personal-data).
 
