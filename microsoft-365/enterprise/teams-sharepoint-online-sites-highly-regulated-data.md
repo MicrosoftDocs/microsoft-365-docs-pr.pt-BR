@@ -3,26 +3,26 @@ title: Sites do Microsoft Teams e do SharePoint Online para dados altamente cont
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 04/03/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro do SharePoint Online um uma equipe do Microsoft Teams para armazenar seus ativos digitais mais importantes e confidenciais.
-ms.openlocfilehash: fa1a57d898e4822d0c96d6eb807d0a14a815e29a
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 4342ba5e5d1c83ed0c9d26100afd86afa1e62723
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289802"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>Sites do Microsoft Teams e do SharePoint Online para dados altamente controlados
 
-**Resumo:** crie um site de equipe seguro do SharePoint Online um uma equipe do Microsoft Teams para armazenar seus ativos digitais mais importantes e confidenciais.
+*Este cenário aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
 O Microsoft 365 Enterprise inclui um conjunto completo de serviços em nuvem para que você possa criar, armazenar e proteger seus dados altamente regulados. Isso inclui os dados:
 
@@ -33,11 +33,11 @@ Uma solução Microsoft 365 Enterprise baseada na nuvem, que atende a essa neces
 
 - Armazene ativos digitais (documentos, apresentações de slides, planilhas etc.) em um site de equipe do SharePoint Online ou na guia **Arquivos** de uma equipe Microsoft Teams.
 - Bloqueie o site ou a equipe para impedir:
-   - O acesso de todos exceto por um conjunto específico de contas de usuário por meio de associações de grupo, que inclui aqueles que podem acessar o site de equipe do SharePoint Online, qual o nível de permissão e quem pode administrá-lo.
+   - O acesso a apenas um conjunto específico de contas de usuário por meio de associações de grupo, que inclui aqueles que podem acessar o site de equipe do SharePoint Online, qual o nível de permissão e quem pode administrá-lo.
    - Que membros do site concedam acesso a outras pessoas.
    - Que aqueles que não sejam membros do site solicitem acesso a ele.
-- Configure um rótulo do Office 365 para seus sites ou equipes do SharePoint Online como forma padrão de classificar ativos digitais no site.
-- Impeça os usuários de enviar arquivos para fora da organização.
+- Configurar um rótulo de retenção do Office 365 para seus sites ou equipes do SharePoint Online como uma maneira padrão de definir políticas de retenção nos documentos no site ou na equipe.
+- Impedir usuários de enviar arquivos para fora da organização.
 - Criptografe os ativos digitais mais importantes do site ou da equipe.
 - Adicione permissões aos ativos digitais mais importantes para que, mesmo que sejam compartilhados fora do site, só seja possível abri-lo com as credenciais válidas de uma conta de usuário que tenha a permissão.
 
@@ -48,7 +48,7 @@ A tabela a seguir mapeia os requisitos dessa solução para um recurso do Micros
 | **Requisito** | **Recurso do Microsoft 365 Enterprise** |
 | Armazenar ativos digitais | Sites e equipes do SharePoint Online no Office 365 |
 | Bloquear o site | Permissões do site de equipe do SharePoint Online e grupos do Azure AD |
-| Rotular os ativos digitais do site | Rótulos do Office 365 |
+| Rotular os ativos digitais do site | Rótulos de retenção do Office 365 |
 | Bloquear usuários ao enviar arquivos para fora da organização. | Políticas de Prevenção Contra Perda de Dados (DLP) no Office 365 |
 | Criptografar todos os ativos digitais do site | Sub-rótulos de Proteção de Informações do Azure no Enterprise Mobility + Security (EMS) |
 | Adicionar permissões aos ativos digitais do site | Sub-rótulos da Proteção de Informações do Azure no EMS |
@@ -56,7 +56,7 @@ A tabela a seguir mapeia os requisitos dessa solução para um recurso do Micros
 
 Esta solução exige que você já tenha implantado:
 
-- Sua [infraestrutura de base](deploy-foundation-infrastructure.md). 
+- A fase de [identidade](identity-infrastructure.md) e as etapas 1 e 2 da fase de [proteção de informações](infoprotect-infrastructure.md) da infraestrutura de base. 
 - Para dados altamente regulados nos sites de equipe do SharePoint Online, o [SharePoint Online](sharepoint-online-onedrive-workload.md).
 - Para dados altamente regulados nas equipes do Microsoft Teams, o [Microsoft Teams](teams-workload.md).
 
@@ -80,7 +80,7 @@ Essa finalidade gerará a determinação de itens essenciais de configuração c
 
 - O conjunto de grupos do SharePoint e os conjuntos de permissão do SharePoint Online
 - O conjunto de grupos de acesso, grupos de segurança do Azure AD e seus membros para adicionar aos grupos do SharePoint
-- O rótulo do Office 365 a ser atribuído ao site e o conjunto de políticas DLP para o rótulo
+- O rótulo de retenção do Office 365 a ser atribuído ao site e o conjunto de políticas DLP para o rótulo
 - As configurações do sub-rótulo de Proteção de Informações do Azure que os usuários aplicam a ativos digitais altamente confidenciais armazenados no site
 
 Quando determinado, você usa essas configurações para configurar o site na Fase 2. 
@@ -98,17 +98,17 @@ A segurança dos sites de equipe do SharePoint Online que contêm ativos altamen
 
 Consulte [Projetar um site de equipe isolado do SharePoint Online](https://docs.microsoft.com/office365/enterprise/design-an-isolated-sharepoint-online-team-site) para obter detalhes para determinar o conjunto de níveis de permissão, grupos do SharePoint, grupos de acesso e membros do grupo.
 
-### <a name="step-2-office-365-labels-and-dlp-policies"></a>Etapa 2: rótulos do Office 365 e políticas DLP
+### <a name="step-2-office-365-retention-labels-and-dlp-policies"></a>Etapa 2: rótulos de retenção do Office 365 e políticas DLP
 
-Quando aplicados a um site de equipe do SharePoint Online, os rótulos do Office 365 oferecem um método padrão de classificar todos os ativos digitais armazenados no site.
+Quando aplicados a um site de equipe do SharePoint Online, os rótulos de retenção do Office 365 oferecem um método padrão para classificar todos os ativos digitais armazenados no site.
  
-Nos sites do SharePoint Online para dados altamente regulados, você precisa determinar qual o rótulo do Office 365 deverá ser usado.
+Nos sites do SharePoint Online para dados altamente controlados, você precisa determinar qual rótulo de retenção do Office 365 será usado.
 
-Para considerações de design dos rótulos do Office 365, consulte [Rótulos e classificação do Office 365](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files#office-365-classification-and-labels).
+Para considerações de design dos rótulos do Office 365, consulte [Rótulos e classificação do Office 365](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels).
 
 Para proteger informações confidenciais e evitar a divulgação acidental ou intencional, use as políticas DLP. Para obter mais informações, consulte esta [visão geral](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies).
 
-Para sites do SharePoint Online para dados altamente regulamentados, você deve configurar uma política DLP do rótulo do Office 365 atribuído ao site para bloquear usuários quando eles tentam compartilhar ativos digitais com usuários externos. 
+Para sites do SharePoint para dados altamente controlados, você deve configurar uma política DLP do rótulo de retenção do Office 365 atribuído ao site para bloquear usuários quando eles tentam compartilhar ativos digitais com usuários externos. 
 
 ### <a name="step-3-your-azure-information-protection-sub-label"></a>Etapa 3: seu sub-rótulo de Proteção de Informações do Azure
 
@@ -118,15 +118,13 @@ Um sub-rótulo existe em um rótulo existente. Por exemplo, você pode criar um 
 
 As configurações do sub-rótulo aplicado acompanham o ativo. Mesmo que ele seja baixado e compartilhado fora do site, apenas as contas de usuário autenticadas com permissões poderão abri-lo.
 
-Para ver as considerações de design nos rótulos de Proteção de Informações do Azure, consulte [Proteção de Informações do Azure](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files#azure-information-protection).
-
 ### <a name="design-results"></a>Resultados de design
 
 Você determinou o seguinte:
 
 - O conjunto de grupos e níveis de permissão do SharePoint
 - O conjunto de grupos de acesso e os membros deles em cada nível de permissão
-- O rótulo apropriado do Office 365 e a política DLP associada ao rótulo
+- O rótulo de retenção apropriado do Office 365 e a política DLP associada ao rótulo
 - As configurações do sub-rótulo Proteção de Informações do Azure que incluem criptografia e permissões
 
 ## <a name="phase-2-configure"></a>Fase 2: Configurar
@@ -140,11 +138,11 @@ Use as instruções em [Implantar um site de equipe do SharePoint Online isolado
 - Crie e preencha os grupos de acesso para cada nível de permissão do SharePoint usado no site.
 - Crie e configure o site de equipe isolado.
 
-### <a name="step-2-configure-the-site-for-an-office-365-label-dlp-policy"></a>Etapa 2: configurar o site para uma política DLP de um rótulo do Office 365
+### <a name="step-2-configure-the-site-for-an-office-365-retention-label-dlp-policy"></a>Etapa 2: configurar o site para uma política DLP de um rótulo de retenção do Office 365
 
 Use as instruções em [Proteger arquivos do SharePoint Online com DLP e rótulos do Office 365](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) para:
 
-- Identifique ou crie o rótulo do Office 365 e aplique-o ao seu site isolado do SharePoint Online.
+- Identificar ou criar o rótulo de retenção do Office 365 e aplicá-lo ao seu site isolado do SharePoint Online.
 - Crie e configure a política DLP que bloqueia os usuários quando eles tentam compartilhar um ativo digital em seu site do SharePoint Online fora da organização.
 
 ### <a name="step-3-create-an-azure-information-protection-sub-label-for-the-site"></a>Etapa 3: criar um sub-rótulo de Proteção de Informações do Azure no site
@@ -173,8 +171,8 @@ A guia **Arquivos** da nova equipe lista o conteúdo da pasta **Geral** da área
 Você configurou o seguinte:
 
 - Um site isolado do SharePoint Online
-- Um rótulo do Office 365 atribuído ao site isolado do SharePoint Online
-- Uma política DLP para o rótulo do Office 365
+- Um rótulo de retenção do Office 365 atribuído ao site isolado do SharePoint Online
+- Uma política DLP para o rótulo de retenção do Office 365
 - Um sub-rótulo de Proteção de Informações do Azure de uma política com escopo que os usuários podem aplicar aos ativos digitais mais confidenciais armazenados no site e aplica as permissões
 - Se necessário, uma equipe de dados altamente regulamentados com base no site do SharePoint Online
 
