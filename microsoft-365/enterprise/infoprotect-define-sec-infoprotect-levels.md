@@ -3,30 +3,30 @@ title: 'Etapa 1: Definir os níveis de proteção e segurança de informações'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/13/2018
+ms.date: 04/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar os níveis de proteção e segurança de informações para sua organização.
-ms.openlocfilehash: bc55fab7b450685268ae89648ae18292e5494ce8
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 91274ec2bcd4e4472969a7cd65660742daaef5bd
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286994"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>Etapa 1: Definir os níveis de proteção e segurança de informações
 
-*Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*
+*Esta etapa é obrigatória e aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
 ![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Nesta etapa, você vai definir os níveis de proteção e segurança para sua organização. Por exemplo, pode ser que o departamento de vendas precise apenas de um nível baixo de segurança. No entanto, o departamento de pesquisa e as propriedades intelectuais inerentes e altamente valiosas podem precisar de um nível alto de segurança que criptografe os arquivos e limite o acesso apenas à equipe de pesquisa.
+Nesta etapa, você definirá os níveis de segurança e proteção para a sua organização. Por exemplo, seu departamento de vendas pode exigir apenas um baixo nível de segurança. Entretanto, seu departamento de pesquisa e sua propriedade intelectual altamente valiosa pode exigir um alto nível de segurança que criptografa arquivos e limita o acesso somente à equipe de pesquisa.
 
 Embora você possa definir seus próprios níveis de segurança e é possível que já tenha alguns deles estabelecidos, a Microsoft recomenda que você desenvolva um plano para usar pelo menos três níveis diferentes de segurança e proteção que possam ser aplicados. Aqui está uma lista para você começar: 
 
@@ -36,9 +36,7 @@ Embora você possa definir seus próprios níveis de segurança e é possível q
 
 Para saber mais, confira [Três camadas de proteção](microsoft-365-policies-configurations.md#three-tiers-of-protection).
 
-O resultado é a determinação de seus níveis de segurança e proteção de informações.
-
-Como ponto de verificação provisório, consulte os [critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step1) correspondentes a esta etapa.
+Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step1) correspondente desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 

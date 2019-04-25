@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreenda a infraestrutura de rede da Contoso e como ela usa a tecnologia SD-WAN para ter a conectividade de rede de desempenho ideal para serviços baseados na nuvem do Microsoft 365 Enterprise.
-ms.openlocfilehash: 0ef9c37755927444276c83a2c5952b5cb96f22ed
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 09da5f25a9c2cc49ade470fa8fa7fe98d9f7a20e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283750"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Sistema de rede para a Contoso Corporation
 
@@ -87,7 +87,7 @@ A adoção bem-sucedida dos serviços do Microsoft 365 Enterprise por usuários 
 
 1. Criou um diagrama de rede WAN da empresa para ajudar a planejar
 
-   A Contoso iniciou seu planejamento de rede criando um diagrama que mostra seus locais, a conectividade de rede existente, os dispositivos de perímetro de rede existentes e as classes de serviço que são gerenciadas na rede. Eles usaram este diagrama para cada etapa subsequente no planejamento e na implementação da conectividade de rede.
+   A Contoso iniciou seu planejamento de rede criando um diagrama que mostra seus locais, a conectividade de rede existente, os dispositivos de perímetro de rede existentes e as classes de serviço que são gerenciadas na rede.  Ela usou este diagrama para cada etapa subsequente no planejamento e na implementação da conectividade de rede.
 
 2. Criou um plano para conectividade de rede do Microsoft 365 Enterprise
 
@@ -99,9 +99,9 @@ A adoção bem-sucedida dos serviços do Microsoft 365 Enterprise por usuários 
 
 4. Otimizou o desempenho para os serviços de rede da Microsoft
 
-   A Contoso determinou o conjunto de pontos de extremidade do Office 365, do Intune e do Azure e firewalls configurados, dispositivos de segurança e outros sistemas no caminho da Internet para obter um desempenho ideal. Os pontos de extremidade para o tráfego de categoria Otimizar e Permitir do Office 365 foram configurados para os dispositivos SD-WAN que receberam acesso direto à Internet.
+   A Contoso determinou o conjunto de pontos de extremidade do Office 365, Intune e Azure e configurou firewalls, dispositivos de segurança e outros sistemas no caminho da Internet para desempenho otimizado. O tráfego dos pontos de extremidade da categoria Otimizar e Permitir do Office 365 foi configurado nos dispositivos SD-WAN que forneceram acesso direto à Internet.
 
-5. Configurou DNS interno
+5. DNS interno configurado
 
    O DNS precisa ser funcional e ser pesquisado localmente para o tráfego do Office 365.
 

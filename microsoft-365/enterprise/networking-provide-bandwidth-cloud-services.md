@@ -3,22 +3,22 @@ title: 'Etapa 1: preparar sua rede para o Microsoft 365'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 01/29/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreenda a necessidade de largura de banda de Internet para os serviços de nuvem do Microsoft 365 Enterprise.
-ms.openlocfilehash: 412ef53b0e2f87ff07d7a5b3f0d640629d40fbfd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: cb1e62b116a56273098d9c26bee646e7b5d6f7f3
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291079"
 ---
 # <a name="step-1-prepare-your-network-for-microsoft-365"></a>Etapa 1: preparar sua rede para o Microsoft 365
 
@@ -28,9 +28,11 @@ ms.locfileid: "26865322"
 
 Na etapa 1, faça o seguinte:
 
-- Avalie e ajuste a largura de banda de rede para links internos e conexões com a Internet para contabilizar o tráfego de serviços de nuvem do Microsoft 365 Enterprise
-- Alinhe sua rede com uma [arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)
-- Planeje as alterações, crie pilotos e teste-os para verificar se as alterações atender às suas necessidades de latência do tráfego e de largura de banda
+- Avalie e ajuste a largura de banda de rede para links internos e conexões com a Internet para contabilizar o tráfego de serviços de nuvem do Microsoft 365 Enterprise.
+- Alinhe sua rede com uma [arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Planeje as alterações, crie pilotos e teste-os para verificar se as alterações atendem às suas necessidades de latência do tráfego e de largura de banda.
+
+Para informações e recomendações sobre como usar o ExpressRoute com o Office 365 e outros serviços de nuvem do Microsoft 365 Enterprise, confira [Azure ExpressRoute para Office 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute).
 
 Como ponto de verificação provisório, é possível conferir os [Critérios de saída](networking-exit-criteria.md#crit-networking-step1) para esta etapa.
 

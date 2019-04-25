@@ -3,30 +3,30 @@ title: Configuração base corporativa simulada para Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: d674fcf4f1feeabf8c7f2d5aa1b23fc89435e6ca
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 7c16f6fee480e883f7bf87d3b03441cf18e8f73f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290808"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
 Este artigo fornece instruções passo a passo para criar um ambiente simplificado do Microsoft 365 Enterprise, que inclui:
 
-- Assinaturas permanentes ou de avaliação do Office 365 E5 e EMS E5.
+- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.
 - Uma intranet de organização simplificada conectada à Internet, composta por três máquinas virtuais em uma Rede Virtual do Microsoft Azure (DC1 APP1 e CLIENT1).
  
 ![A configuração base corporativa simulada](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
@@ -40,7 +40,7 @@ Você pode usar o ambiente resultante para testar os recursos e a funcionalidade
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Fase 1: criar uma intranet simulada
 
-Nessa fase, você cria uma intranet simulada nos serviços de infraestrutura do Azure, que inclui um controlador de domínio do Windows Server Active Directory, um servidor de aplicativos e um computador cliente. 
+Nesta fase, você cria uma intranet simulada nos serviços de infraestrutura do Azure, que inclui um controlador de domínio dos Serviços de Domínio do Active Directory (AD DS), um servidor de aplicativos e um computador cliente. 
 
 Você usará esses computadores em outros [Guias de laboratório de teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para configurar e demonstrar a identidade híbrida e outros recursos.
 
@@ -71,7 +71,7 @@ Use esse método caso deseje obter a experiência de criação de elementos de i
 
 #### <a name="step-1-create-dc1"></a>Etapa 1: criar DC1
 
-Nessa etapa, criamos uma rede virtual do Azure e adicionamos a DC1, uma máquina virtual que se trata de um controlador de domínio para um domínio do Active Directory (AD) do Windows Server.
+Nessa etapa, criamos uma rede virtual do Azure e adicionamos a DC1, uma máquina virtual que se trata de um controlador de domínio para um domínio do AD DS.
 
 Primeiro, inicie o prompt de comando do Windows PowerShell no computador local.
   
@@ -81,26 +81,26 @@ Primeiro, inicie o prompt de comando do Windows PowerShell no computador local.
 Entre na sua conta do Azure usando o comando a seguir.
   
 ```
-Login-AzureRMAccount
+Connect-AzAccount
 ```
 
 Para obter o nome de sua assinatura, use este comando.
   
 ```
-Get-AzureRMSubscription | Sort Name | Select Name
+Get-AzSubscription | Sort Name | Select Name
 ```
 
 Configure a assinatura do Azure. Substitua tudo o que está entre aspas, inclusive os caracteres < e >, pelo nome correto.
   
 ```
 $subscr="<subscription name>"
-Get-AzureRmSubscription -SubscriptionName $subscr | Select-AzureRmSubscription
+Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 ```
 
 Depois, crie um novo grupo de recursos para o laboratório de testes simulado. Para determinar um nome de grupo de recursos exclusivo, use este comando para relacionar os grupos de recurso existentes.
   
 ```
-Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 Crie um novo grupo de recursos com estes comandos. Substitua tudo o que está entre aspas, incluindo os caracteres < e >, pelos nomes corretos.
@@ -108,43 +108,43 @@ Crie um novo grupo de recursos com estes comandos. Substitua tudo o que está en
 ```
 $rgName="<resource group name>"
 $locName="<location name, such as West US>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Em seguida, crie a rede virtual do TestLab que hospedará a sub-rede da rede corporativa do ambiente corporativo simulado e a protegerá com um grupo de segurança de rede. Preencha o nome do grupo de recursos e execute esses comandos no prompt de comando do PowerShell, no computador local.
   
 ```
 $rgName="<name of your new resource group>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$corpnetSubnet=New-AzureRMVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
-New-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName -Location $locName -AddressPrefix 10.0.0.0/8 -Subnet $corpnetSubnet -DNSServer 10.0.0.4
-$rule1=New-AzureRMNetworkSecurityRuleConfig -Name "RDPTraffic" -Description "Allow RDP to all VMs on the subnet" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
-New-AzureRMNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $locName -SecurityRules $rule1
-$vnet=Get-AzureRMVirtualNetwork -ResourceGroupName $rgName -Name TestLab
-$nsg=Get-AzureRMNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
-Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
+New-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName -Location $locName -AddressPrefix 10.0.0.0/8 -Subnet $corpnetSubnet -DNSServer 10.0.0.4
+$rule1=New-AzNetworkSecurityRuleConfig -Name "RDPTraffic" -Description "Allow RDP to all VMs on the subnet" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+New-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $locName -SecurityRules $rule1
+$vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name TestLab
+$nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
+Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
 ```
 
-Em seguida, crie a máquina virtual DC1 e configure-a como um controlador de domínio para o domínio **testlab.**\<domínio público> do Windows Server Active Directory e um servidor DNS para as máquinas virtuais da rede virtual do TestLab. Por exemplo, se o nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC1 será um controlador de domínio do domínio **<span>testlab</span>.contoso.com**.
+Em seguida, crie a máquina virtual DC1 e configure-a como um controle de domínio para o **testlab.**\<seu domínio público> domínio dos Serviços de Domínio do Active Directory (AD DS) e um servidor DNS para as máquinas virtuais da rede virtual TestLab. Por exemplo, se seu nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC 1 será um controlador de domínio para o domínio do **<span>testlab</span>.contoso.com**.
   
 Para criar uma máquina virtual como DC1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando do PowerShell, no computador local.
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name DC1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name DC1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress 10.0.0.4
-$vm=New-AzureRMVMConfig -VMName DC1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name DC1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name DC1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress 10.0.0.4
+$vm=New-AzVMConfig -VMName DC1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for DC1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName DC1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
-$dataDisk1=New-AzureRmDisk -DiskName "DC1-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName DC1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage
+$diskConfig=New-AzDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
+$dataDisk1=New-AzDisk -DiskName "DC1-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 Será solicitado que você insira um nome de usuário e uma senha para a conta de administrador local na DC1. Use uma senha forte e armazene ambos, a senha e o nome, em um local seguro.
@@ -237,17 +237,17 @@ Para criar uma Máquina Virtual do Microsoft Azure para a APP1, preencha o nome 
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name APP1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name APP1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
-$vm=New-AzureRMVMConfig -VMName APP1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name APP1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name APP1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
+$vm=New-AzVMConfig -VMName APP1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for APP1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 Em seguida, conecte-se à máquina virtual APP1 usando o nome da conta e a senha do administrador local APP1 e depois abra um prompt de comando do Windows PowerShell.
@@ -295,17 +295,17 @@ Para criar uma Máquina Virtual do Microsoft Azure para CLIENT1, preencha o nome
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name CLIENT1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name CLIENT1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
-$vm=New-AzureRMVMConfig -VMName CLIENT1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name CLIENT1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name CLIENT1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
+$vm=New-AzVMConfig -VMName CLIENT1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for CLIENT1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 Em seguida, conecte-se à máquina virtual CLIENT1 usando o nome da conta e a senha do administrador local da CLIENT1 e depois abra um prompt de comando de nível de administrador no Windows PowerShell.
@@ -368,11 +368,11 @@ Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-a 
   
 Primeiro adicione a assinatura de avaliação do EMS E5 e atribua uma licença EMS à sua conta de administrador global.
   
-1. Em uma instância particular do navegador da Internet, entre no Portal do Office 365 com as credenciais da conta de administrador global. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Em uma instância particular de um navegador da Internet, entre no portal do Office com as credenciais da conta de administrador global. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Clique no bloco de **Administração**.
     
-3. Na guia **Centro de Administração do Office** no navegador, no painel de navegação esquerdo, clique em **Cobrança > Comprar serviços**.
+3. Na guia **centro de administração do Microsoft 365** em seu navegador, na navegação à esquerda, clique em **Cobrança > Comprar serviços**.
     
 4. Na página **Comprar serviços**, encontre o item **Enterprise Mobility + Security E5**. Passe o ponteiro do mouse sobre ele e clique em **Iniciar avaliação gratuita**.
     
@@ -387,7 +387,7 @@ Primeiro adicione a assinatura de avaliação do EMS E5 e atribua uma licença E
 9. No painel **Licenças de produto**, mude a licença de produto de **Enterprise Mobility + Security E5** para **Ativada**, clique em **Salvar** e clique em **Fechar** duas vezes.
     
 > [!NOTE]
->  Para obter um ambiente de teste permanente, crie uma nova assinatura permanente com uma pequena quantidade de licenças. 
+>  Para um ambiente de teste permanente, crie uma nova assinatura paga com uma pequena quantidade de licenças. 
   
 Em seguida, repita as etapas 8 e 9 do procedimento anterior para todas as outras contas (Usuário 2, Usuário 3, Usuário 4 e Usuário 5).
   

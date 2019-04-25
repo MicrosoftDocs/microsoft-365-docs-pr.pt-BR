@@ -2,22 +2,22 @@
 title: Migração para o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/28/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de migração de versões do Microsoft Office, servidores do Office e Windows para o Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 8fc0e0b117ef55597efeb139e68b6dbdd03de2db
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f165e09b58b5208fa4d9aae24f7d5cdda385c639
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291259"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migração para o Microsoft 365 Enterprise
 
@@ -31,6 +31,12 @@ Para maximizar o valor comercial do conjunto integrado de produtos do Microsoft 
 
 Realizar todas essas migrações ao longo do tempo aproxima a organização do [local de trabalho moderno](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/), um ambiente seguro e integrado que desbloqueia o trabalho em equipe e a criatividade em sua organização, tudo possibilitado e habilitado pelo Microsoft 365 Enterprise. 
 
+Para saber sobre migração de usuários e dados para específicas cargas de trabalho do Office 365:
+
+- Caixas de correio do usuário do Exchange Server para o Exchange Online, consulte a [carga de trabalho do Exchange Online](exchangeonline-workload.md).
+- Dados do SharePoint, do SharePoint Server para o SharePoint Online, consulte a [carga de trabalho do SharePoint Online](sharepoint-online-onedrive-workload.md).
+- Skype for Business Online para Microsoft Teams, consulte a [carga de trabalho do Microsoft Teams](teams-workload.md).
+
 ## <a name="migration-for-microsoft-office-client-products"></a>Migração para produtos cliente do Microsoft Office
 
 Em muitas organizações grandes e pequenas, você pode usar uma combinação de versões mais antigas dos produtos clientes do Office, como Word, Excel e PowerPoint. Essas versões mais antigas:
@@ -42,7 +48,7 @@ O Microsoft 365 Enterprise inclui o Office 365 ProPlus, uma versão dos produtos
 
 ### <a name="office-2007"></a>Office 2007
 
-Para versões do Office na versão Office 2007, o fim do suporte já passou. Confira [Roteiro de fim do suporte do Office 2007](https://support.office.com/article/office-2007-end-of-support-roadmap-416c54d8-823c-4def-bb7a-6a9b14ef2745) para obter mais informações.
+Para versões do Office na versão Office 2007, o fim do suporte já passou. Confira [Roteiro de fim do suporte do Office 2007](https://docs.microsoft.com/deployoffice/office-2007-end-support-roadmap) para obter mais informações.
 
 Em vez de atualizar seus computadores que executam o Office 2007 com o Office 2010, o Office 2013 ou o Office 2016, considere:
 
@@ -54,7 +60,7 @@ O Office 365 ProPlus instala atualizações automaticamente e pode aproveitar os
 
 ### <a name="office-2010"></a>Office 2010
 
-Para versões do Office na versão Office 2010, o fim do suporte será 13 de outubro de 2020. Para saber mais, confira [Roteiro de fim do suporte do Office 2010](https://support.office.com/article/office-2010-end-of-support-roadmap-2a58999c-4d83-4e67-9fde-bc96d487105e).
+Para versões do Office na versão Office 2010, o fim do suporte será 13 de outubro de 2020. Para saber mais, confira [Roteiro de fim do suporte do Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
 
 Em vez de atualizar seus computadores que executam o Office 2010 com o Office 2013 ou o Office 2016 (cujas atualizações devem ser feitas manualmente), considere: 
 
@@ -89,11 +95,11 @@ O Microsoft 365 Enterprise inclui o Office 365, que inclui versões baseadas em 
 
 Para produtos de servidor na versão Office 2007, o fim do suporte já passou. Confira os artigos a seguir para saber mais:
 
-- [Roteiro de fim do suporte do Exchange 2007](https://support.office.com/article/exchange-2007-end-of-support-roadmap-c3024358-326b-404e-9fe6-b618e54d977d)
-- [Roteiro de fim do suporte do SharePoint Server 2007](https://support.office.com/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717)
-- [Roteiro de fim do suporte do Project Server 2007](https://support.office.com/article/project-server-2007-end-of-support-roadmap-d379018f-72b7-4284-b40a-6c23c8ae38fe)
-- [Roteiro de fim do suporte do Office Communications Server](https://support.office.com/article/office-communications-server-end-of-support-roadmap-54f3d5ba-bdf9-4b37-a9e8-f1ab452d4f78)
-- [Roteiro de fim do suporte do PerformancePoint Server 2007](https://support.office.com/article/performancepoint-server-2007-end-of-support-roadmap-89d9feee-2285-419c-8c14-0f7f583536e0)
+- [Roteiro de fim do suporte do Exchange 2007](https://docs.microsoft.com/office365/enterprise/exchange-2007-end-of-support)
+- [Roteiro de fim do suporte do SharePoint Server 2007](https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support)
+- [Roteiro de fim do suporte do Project Server 2007](https://docs.microsoft.com/office365/enterprise/project-server-2007-end-of-support)
+- [Roteiro de fim do suporte do Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
+- [Roteiro de fim do suporte do PerformancePoint Server 2007](https://docs.microsoft.com/office365/enterprise/pps-2007-end-of-support)
 
 Em vez de atualizar seus produtos de servidor na versão Office 2007 com produtos de servidor nas versões Office 2010, Office 2013 ou Office 2016, considere:
 
@@ -105,8 +111,8 @@ Em vez de atualizar seus produtos de servidor na versão Office 2007 com produto
 
 Para produtos de servidor na versão Office 2010, o fim do suporte foi determinado para o seguinte:
 
-- [Exchange Server 2010](https://support.office.com/article/exchange-2010-end-of-support-roadmap-e150e7b9-c432-4c8d-a0ae-c11847129a7d)
-- [SharePoint Server 2010](https://support.office.com/article/upgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
 Em vez de atualizar esses produtos de servidor na versão Office 2010 com produtos de servidor nas versões Office 2013 ou Office 2016, considere:
 

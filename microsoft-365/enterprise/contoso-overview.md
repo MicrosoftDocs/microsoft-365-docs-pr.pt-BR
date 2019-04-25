@@ -9,22 +9,22 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreenda a Contoso Corporation como uma empresa e a estrutura hierárquica de seus escritórios em todo o mundo.
-ms.openlocfilehash: fd354b4159ee22e65e04afba33af2e90bd49b622
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 751f75bd2a5d1e0df401c1d3aa54a0fd5afec8f7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289352"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Visão geral da Contoso Corporation
 
 **Resumo:** entender a Contoso Corporation como uma empresa e a estrutura hierárquica de seus escritórios em todo o mundo.
 
-A Contoso Corporation é uma empresa multinacional sediada em Paris, França. É uma organização de conglomerado de fabricação, vendas e suporte com mais de 100 mil produtos.
+A Contoso Corporation é uma empresa multinacional com sede em Paris, França. A Contoso é um conglomerado de fabricação, vendas e organização de suporte com mais de 100 mil produtos.
 
 ![](./media/contoso-overview/contoso-icon.png)
 
@@ -46,17 +46,17 @@ Os escritórios da Contoso no mundo todo seguem um design de três camadas.
 
 - Hubs regionais
 
-  Os escritórios do hub regional escritórios atendem a uma região específica do mundo com 60% de equipe de vendas e suporte. Cada hub regional está conectado à sede Paris por um link WAN de ampla largura de banda.
+  Escritórios de hubs regionais atendem uma região específica do mundo com 60% da equipe de vendas e suporte. Cada hub regional está conectado à sede de Paris com link WAN de largura de banda alta.
 
   Cada hub regional tem uma média de 2 mil trabalhadores.
 
 - Filiais
 
-  As filiais têm 80% de equipe de vendas e suporte e oferecem uma presença e local para os clientes da Contoso nas principais cidades ou sub-regiões. Cada filial está conectada a um hub regional por um link WAN ampla largura de banda.
+  As filiais têm 80% de equipe de vendas e suporte e oferecem uma presença local para os clientes da Contoso nas principais cidades ou sub-regiões. Cada filial está conectada a um hub regional com um link WAN de largura de banda alta.
 
   Cada filial tem uma média de 250 funcionários.
 
-25% de força de trabalho da Contoso trabalha somente fora do escritório, com uma porcentagem mais alta desses funcionários nos hubs regionais e filiais. Fornecer suporte aprimorado para esses funcionários é uma meta de negócios importante para a Contoso.
+25% da força de trabalho da Contoso é somente móvel, com um percentual maior de funcionários apenas móveis nos hubs regionais e nas filiais. Fornecer suporte melhor para trabalhadores somente móveis é uma importante meta de negócios da Contoso.
 
 ## <a name="design-considerations-for-microsoft-365-enterprise"></a>Considerações de design para o Microsoft 365 Enterprise
 

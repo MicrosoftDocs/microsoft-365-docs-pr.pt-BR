@@ -13,30 +13,28 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: a9fa85ea37de06399aa2264b09c61e588edc2107
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0ead897fef7f419b5a11b7a1fb5b5f4fdc62e52e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291005"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
-
-Comece seu projeto de implantação da área de trabalho com um inventário dos seus dispositivos e aplicativos, priorize o que você deseja avançar, teste os aplicativos e dispositivos priorizados e corrija o que for preciso para se preparar para a implantação.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
 
 <table>
 <thead>
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
-<td><p><strong>Etapa 1: preparação de dispositivos e aplicativos</strong></p>
-<p>Comece seu projeto de implantação da área de trabalho com um inventário dos seus dispositivos e aplicativos, priorize o que você deseja avançar, teste os aplicativos e dispositivos priorizados e corrija o que for preciso para se preparar para a implantação.</p></td>
+<td><p><strong>Etapa 1: Preparação de Dispositivos e Aplicativos</strong></p>
+<p>Comece o seu projeto de implantação do desktop com um inventário dos seus dispositivos e aplicativos, priorize o que precisa para prosseguir, teste os aplicativos e dispositivos priorizados e corrija o que for necessário para se preparar para a implantação.</p></td>
 <td><a href="https://aka.ms/ddev1" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->A Preparação de Dispositivos e Aplicativos é a primeira etapa na nossa roda de processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware. Para ver o processo de implantação completo da área de trabalho, acesse o [Centro de implantação do Computador Moderno](https://aka.ms/HowToShift).
+>A Preparação de Dispositivo e Aplicativos é a primeira etapa dos nossos processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware.  Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação de Desktop](https://aka.ms/HowToShift).
 >
 
 No passado, um grande desafio para a atualização de computadores dos usuários era a compatibilidade entre aplicativos e hardware. A boa notícia ao planejar sua migração para o Windows 10 e Office 365 ProPlus é que qualquer aplicativo escrito nos últimos 10 anos funciona no Windows 10, e todos os suplementos e macros do VBA que sua organização usou em versões do Office desde o Office 2010 continuam a funcionar em versões mais recentes do Office, sem precisar de modificações.
@@ -45,39 +43,49 @@ Dito isto, dependendo do tamanho e da idade da sua organização, verificar a co
 
 Neste artigo, fornecemos orientações sobre esta primeira fase – Preparação de Dispositivos e Aplicativos – usando a nova ferramenta Windows Analytics Upgrade Readiness, uma solução inteligente baseada na nuvem disponível com sua licença do Windows.
 
-Se você atualmente não tem o Windows Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a [Página do Windows Analytics](http://www.aka.ms/windowsanalytics) e comece a usar.
+## <a name="windows-10-compatibility-scan"></a>Verificação de compatibilidade do Windows 10
+
+Antes da implantação do Windows 10, a Microsoft recomenda verificar a preparação do seu dispositivo existente executando o Windows 7 ou 8/8.1. A mídia de instalação do Windows 10 dá suporte a uma opção de linha de comando para o setup.exe executar a atualização, mas apenas verificando a compatibilidade sem realmente executá-la. O ScanOnly pode ser executado como um arquivo em lotes com script ou integrado à sequência de tarefas do System Center Configuration Manager, incluindo a possibilidade de executar o ScanOnly diretamente da rede, deste modo, a mídia de instalação do Windows 10 não é transmitida para o dispositivo. Quando o ScanOnly termina a verificação, os resultados são retornados, através de códigos de retorno, em arquivos de log gerados pelo Setup.EXE.   
+
+Uma amostra da linha de comando ScanOnly que silenciosamente conclui a verificação de compatibilidade ficaria parecido com o abaixo:
+
+    Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+
+Para saber mais sobre o ScanOnly e outras chaves de comando de configuração do Windows, verifique as [Opções de Linha de Comando de Instalação do Windows](https://aka.ms/setupswitches).
 
 ## <a name="recommended-tool-windows-analytics-upgrade-readiness"></a>Ferramenta recomendada: Windows Analytics Upgrade Readiness
 
-O Windows Analytics Upgrade Readiness oferece muitas vantagens em relação a sistemas de gerenciamento de área de trabalho tradicionais, e é a nossa ferramenta recomendada. Funciona sem agentes, fornece orientações sobre o que precisa ser feito e utiliza informações de compatibilidade entre aplicativos e drivers, obtidas por meio da atualização de centenas de milhões de PCs de consumidores, para fornecer uma análise detalhada que identifica problemas de compatibilidade que podem impedir sua atualização, com links para correções sugeridas de conhecimento da Microsoft.
+O Windows Analytics Upgrade Readiness oferece muitas vantagens em relação aos sistemas de gerenciamento de desktop tradicionais e é a nossa ferramenta recomendada. Funciona sem agentes e fornece orientações sobre o que precisa ser feito, usando as informações de compatibilidade coletadas por meio da atualização de centenas de milhões de computadores dos clientes. Essas informações fornecem uma avaliação detalhada, identificando problemas de compatibilidade que podem bloquear sua atualização, suportadas com links para correções sugeridas e conhecidas pela Microsoft.
 
-Para configurar o Window Analytics Upgrade Readiness, primeiro será preciso configurar uma assinatura do Azure e incluir um espaço de trabalho do Azure Log Analytics para fazer isso. Depois que o serviço Windows Analytics Upgrade Readiness estiver em execução, você poderá inscrever qualquer dispositivo com Windows 7 SP1 ou mais recente conectado à Internet por meio das configurações de Política de Grupo. É simples assim. Não existem agentes para implantar, e o fluxo de trabalho visual do Windows Analytics Upgrade Readiness orienta você desde o teste piloto até à implantação para produção. Se desejar, você pode exportar dados do Windows Analytics Upgrade Readiness para ferramentas de implantação de software como o System Center Configuration Manager, para direcionar a PCs individualmente e criar conjuntos assim que eles estejam prontos para implantação.
+Para configurar o Windows Analytics Upgrade Readiness, primeiro você precisa configurar uma assinatura do Azure e incluir um espaço de trabalho do Azure Log Analytics nele. Uma vez que o serviço Windows Analytics Upgrade Readiness esteja em execução, será possível inscrever qualquer dispositivo Windows 7 SP1 conectado à Internet ou um dispositivo mais novo por meio das configurações de política de grupo. Não há agentes para implantar e o fluxo de trabalho visual do Windows Analytics Upgrade Readiness guia da implantação piloto para a produção. Se desejar, é possível exportar dados do Windows Analytics Upgrade Readiness para as ferramentas de implantação de software, como o System Center Configuration Manager, para direcionar os computadores diretamente e criar coleções à medida que se tornarem prontos para implantação.
 
-## <a name="device-and-app-readiness-process"></a>Preparação de dispositivos e aplicativos
+Se você atualmente não tem o Windows Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a [Página do Windows Analytics](http://www.aka.ms/windowsanalytics) e comece a usar.
 
-A Preparação de Dispositivos e Aplicativos é composta por quatro etapas: 1. Inventário, 2. Priorizar, 3. Testar, 4. Corrigir. Vamos examiná-las uma de cada vez.
+## <a name="device-and-app-readiness-process"></a>Processo de Preparação de Dispositivos e Aplicativos
 
-### <a name="1-inventory"></a>1\. Inventário
+A Preparação de Dispositivo e aplicativos é composta de quatro etapas: 1. Inventariar, 2. Priorizar, 3. Testar, 4. Corrigir. Vamos observar cada uma delas mais de perto.
 
-O serviço do Windows Analytics Upgrade Readiness usa um processo sem agentes para inventariar os computadores, aplicativos e suplementos do Office no seu conjunto de computadores.
+### <a name="1-inventory"></a>1\. Inventariar
+
+O serviço do Windows Analytics Upgrade Readiness usa um processo sem agentes para inventariar os computadores, aplicativos e suplementos do Office em todo o seu desktop.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
-Ele também fornece relatórios sobre sites da Internet, aplicativos e locais da intranet altamente visitados, para ajudá-lo a realizar testes de compatibilidade posteriormente.
+Ele também fornece relatórios sobre sites da Internet, aplicativos e locais da intranet altamente visitados, ajudando a realizar testes de compatibilidade posteriormente.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
 
 ### <a name="2-prioritize"></a>2\. Priorizar
 
-Com o inventário realizado, o Windows Analytics Upgrade Readiness ajuda a identificar e priorizar os aplicativos e hardware mais comumente usados na sua organização, e no que se concentrar para desbloquear o máximo de computadores possível para implantação,
+Com o inventário realizado, o Windows Analytics Upgrade Readiness ajuda a identificar e priorizar os aplicativos e hardware mais comumente usados na sua organização e também focando para desbloquear o máximo de computadores possível para implantação.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
-também fornecendo orientações para ajudá-lo a avaliar as atualizações necessárias para resolver problemas durante a próxima etapa: o teste.
+Fornecendo também orientações para ajudar a avaliar as atualizações necessárias para resolver problemas durante a próxima etapa: o teste.
 
-### <a name="3-testing"></a>3\. Testar
+### <a name="3-testing"></a>3\. Testando
 
-Você descobrirá que a maioria dos suplementos, aplicativos e drivers inventariados funcionarão sem precisar de alterações. Para os itens que o Windows Analytics Upgrade Readiness avalie como tendo problemas, ele oferece informações conhecidas, incluindo onde encontrar atualizações de versão para resolver problemas de compatibilidade. Em vez de dedicar tempo e recursos para solucionar problemas complexos em aplicativos não essenciais pouco implantados e dispositivos antigos, você pode optar por trabalhar com os usuários para desativar e substituir esses itens.
+Você vai notar que a maioria dos aplicativos, drivers e suplementos inventariados irão funcionar da mesma forma. Os itens que o Windows Analytics Upgrade Readiness avalia  como estando com problemas, ele mostra as informações locais, incluindo onde encontrar as atualizações da versão para resolver problemas de compatibilidade. Em vez de dedicar tempo e recursos à resolução de problemas complexos em aplicativos não críticos, pouco utilizados e em dispositivos mais antigos, você poderá optar por trabalhar com os usuários para desativar e substituir esses itens.
 
 Você também pode usar o Windows Analytics Upgrade Readiness para avaliar problemas de compatibilidade baseados no navegador, identificar os aplicativos Web e sites acessados por usuários que ainda estão usando controles ActiveX, Objetos de Ajuda do Navegador, VBScript ou outras tecnologias herdadas sem suporte no navegador Microsoft Edge. Seus usuários ainda precisarão usar o Internet Explorer 11 para esses sites, e você pode adicioná-los à [lista de sites do modo Empresarial](https://docs.microsoft.com/pt-BR/microsoft-edge/deploy/emie-to-improve-compatibility) usando o Enterprise Mode Site List Manager.
 
@@ -87,13 +95,24 @@ Além disso, para ajudar na mudança para o Office 365 ProPlus, você pode usar 
 
 ### <a name="4-remediation"></a>4\. Corrigir
 
-Como a fase final da preparação de dispositivos e aplicativos é "corrigir", aqui o seu objetivo será coletar os pacotes de driver ou softwares necessários, que serão usados para substituir ou atualizar as versões mais antigas como parte do processo de implantação.
+A fase final da preparação de dispositivos e aplicativos é para "corrigir". Aqui o seu objetivo será coletar os softwares necessários ou os pacotes de driver, que serão usados para substituir ou atualizar as versões mais antigas como parte do processo de implantação.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
 
 Conforme remedia problemas da lista, você verá que mais e mais PCs ficam "Prontos para implantação". Isso significa que os drivers e os aplicativos nos computadores estão listados como compatíveis com a versão de destino para implantação do Windows 10.
 
-## <a name="continued-use-of-telemetry-tools"></a>Uso contínuo de ferramentas de telemetria
+### <a name="configuration-manager-software-inventory-for-application-prioritization"></a>Inventário de Software Configuration Manager para Priorização dos Aplicativos
+
+O inventário de software Configuration Manager é uma alternativa para usar as soluções de análise baseadas em nuvem para a preparação de dispositivo e aplicativo. Você pode usar contagens de instalação e análise em computadores específicos para ajudar a priorizar testes e validação de compatibilidade, definindo pacotes de aplicativos compatíveis com o Windows 10 por meio de configurações de pacote. Enquanto essa opção não oferece a capacidade para comparar as informações de compatibilidade locais através dos serviços de análise da Microsoft, esta pode ser uma solução eficiente para direcionar uma quantidade menor de aplicativos priorizados para teste manual. 
+
+Para saber mais, confira [Introdução ao inventário de software no System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/core/clients/manage/inventory/introduction-to-software-inventory) e definir os requisitos de plataforma em pacotes de aplicativos no [Pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/apps/deploy-use/packages-and-programs).
+
+
+## <a name="desktop-app-assure"></a>Desktop App Assure
+
+Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 e no Office 365 ProPlus é a [Desktop App Assure](https://aka.ms/desktopappassure) programa disponível através do FastTrack Center. Por meio do Desktop App Assure, no caso de problemas com um aplicativo válido, um engenheiro da Microsoft trabalhará com você, sem nenhum custo adicional, para ajudar a corrigir a incompatibilidade do aplicativo.
+
+## <a name="continued-use-of-diagnostic-data-tools"></a>Uso Contínuo de Ferramentas de Telemetria
 
 O Windows Analytics Upgrade Readiness não é apenas uma ferramenta para ajudá-lo a mudar para o Windows 10 e Office 365 ProPlus. Quando tiver computadores executando o Windows 10 e o Office 365, você poderá usar esta ferramenta para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
 

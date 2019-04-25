@@ -3,24 +3,24 @@ title: Guias do laboratório de teste do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de laboratório de teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 Enterprise.
-ms.openlocfilehash: df723647748532936e40bbdb4e34ff698b9fa650
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 027386f9b44d09d2927c2473d1ef27381f82f969
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283641"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Guias do laboratório de teste do Microsoft 365 Enterprise
 
@@ -41,7 +41,7 @@ Primeiro, crie um ambiente de teste para o [Microsoft 365 Enterprise](https://do
 
 - Use a [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 Enterprise em um ambiente exclusivamente em nuvem, que não inclui nenhum componente local.
 
-- Use a [configuração básica corporativa simulada](simulated-ent-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 Enterprise em um ambiente exclusivamente em nuvem híbrida, que usa componentes locais como o domínio do Windows Server Active Directory (AD).
+- Use a [configuração básica corporativa simulada](simulated-ent-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 Enterprise em um ambiente exclusivamente em nuvem híbrida, que usa componentes locais como o domínio dos Serviços de Domínio do Active Directory (AD DS).
     
 ## <a name="identity"></a>Identidade
 
@@ -49,15 +49,15 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 - [Sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md)
   
-   Habilitar e testar a sincronização de diretório baseado em hash de senha de um controlador de domínio do Windows Server AD.
+   Habilite e teste a sincronização de diretório baseado em hash de senha de um controlador de domínio dos Serviços de Domínio do Active Directory (AD DS).
 
-- [Autenticação passagem](pass-through-auth-m365-ent-test-environment.md)
+- [Autenticação de passagem](pass-through-auth-m365-ent-test-environment.md)
   
-   Habilitar e testar autenticação de passagem para um controlador de domínio do Windows Server AD.
+   Habilite e teste a autenticação de passagem para um controlador de domínio do AD DS.
 
 - [Logon único contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md)
   
-   Habilite e teste o logon único contínuo do Azure AD (SSO) com um controlador de domínio do AD do Windows Server.
+   Habilite e teste o logon único contínuo do Azure AD (SSO) com um controlador de domínio do AD DS.
 
 - [Autenticação multifator](multi-factor-authentication-microsoft-365-test-environment.md)
   
@@ -66,6 +66,10 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 - [Proteger contas de administradores globais](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
    Bloqueie suas contas de administrador global com o Office 365 Cloud App Security e políticas de acesso condicional.
+
+- [Senha write-back](password-writeback-m365-ent-test-environment.md)
+
+   Use senha write-back para alternar a senha na sua conta de usuário do AD DS do Azure AD.
 
 - [Redefinição de senha](password-reset-m365-ent-test-environment.md)
 
@@ -83,9 +87,9 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 Para demonstrar recursos relacionados ao gerenciamento de dispositivo móvel, confira:
 
-- [Políticas de MAM](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [Políticas de conformidade do dispositivo](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
     
-   Crie grupos de usuários e políticas de MAM (gerenciamento de aplicativo móvel) para dispositivos iOS e Android.
+   Criar uma política de conformidade do dispositivo e um grupo de usuários para dispositivos com Windows 10.
     
 - [Registrar dispositivos iOS e Android](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
@@ -104,12 +108,10 @@ Para demonstrar recursos e capacidades relacionados à proteção da informaçã
     
    Configure e aplique rótulos do Office 365 a um documento em um site de equipe do SharePoint Online.
     
-- [Gerenciamento de acesso privilegiado para seu ambiente de teste do Microsoft 365 Enterprise](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
+- [Gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
    Configure o gerenciamento de acesso privilegiado com acesso just-in-time para tarefas elevadas e privilegiadas na sua organização do Office 365.
 
 ## <a name="see-also"></a>Confira também
 
-[Experiência do Microsoft Cloud com Guias do Laboratório de Teste para Adoção de Nuvem](https://mva.microsoft.com/training-courses/experience-the-microsoft-cloud-with-cloud-adoption-test-lab-guides-17960?l=LXNRdhSLE_1000115881)
-    
-[Pilha do Guia do Laboratório de Teste do One Microsoft Cloud](http://aka.ms/catlgstack)
+[Testar o Office 365 com TLGs para adoção de nuvem](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
