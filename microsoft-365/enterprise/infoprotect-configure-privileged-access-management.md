@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 4: Configurar o gerenciamento de acesso privilegiado do Office 365'
+title: 'Etapa 6: configurar o gerenciamento de acesso privilegiado para o Office 365'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: 297d8e042c2a22c93b4ea566081d258e7ca0a5ab
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 60b52825ead068cd0f068f78c1bbce263e8d7720
+ms.sourcegitcommit: 9d4319a015e493fb88c7e1855bca0121654eb39d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286944"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304151"
 ---
-# <a name="step-4-configure-privileged-access-management-for-office-365"></a>Etapa 4: Configurar o gerenciamento de acesso privilegiado do Office 365
+# <a name="step-6-configure-privileged-access-management-for-office-365"></a>Etapa 6: configurar o gerenciamento de acesso privilegiado para o Office 365
 
 *Esta etapa é opcional e se aplica apenas às versões E5 e Advanced Compliance do Microsoft 365 Enterprise*
 
@@ -43,7 +43,7 @@ Para saber mais, confira o tópico [Gerenciamento do acesso privilegiado no Offi
 
 O resultado esta etapa é que você aumentou a segurança do Office 365, habilitando o controle de acesso just-in-time para dados-chave e as definições de configuração para sua organização.
 
-Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step5) correspondentes desta etapa.
+Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step6) correspondentes desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 

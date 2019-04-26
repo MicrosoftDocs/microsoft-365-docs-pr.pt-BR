@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa EMS no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
-ms.openlocfilehash: e6b6f822a8c0ea26b3d899e3531653b19e225d65
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f47d6a1ee608d33802f1c523d3b954af3771f212
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278036"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Gerenciamento de dispositivo móvel para a Contoso
 
@@ -46,7 +46,10 @@ A Contoso não está usando o Intune para:
 A Contoso configurou sua infraestrutura de gerenciamento de dispositivo móvel da seguinte forma:
 
 - Configurou o Intune como a autoridade de Gerenciamento de Dispositivo Móvel (MDM) e está usando o Intune no Azure para administrar o conteúdo e gerenciar os dispositivos
-- Criou grupos do Azure AD para grupos de dispositivos para registro e configurações do Intune, além de políticas de acesso condicional
+- Criou grupos do Azure AD para dispositivos para registro e configurações do Intune, além de políticas de acesso condicional baseadas no dispositivo.
+
+  Confira [políticas de acesso condicional da Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access) para saber mais.
+
 - Habilitou a plataforma de dispositivos Apple para dar suporte a funcionários com iPads, iPhones e iMacs e celulares de propriedade corporativa com base no iPhone
 - Criou políticas de termos e condições específicas da Contoso, que são apresentadas durante a instalação do Portal da Empresa da Contoso em dispositivos móveis
 - Para dispositivos que não estão registrados, um conjunto de políticas de Gerenciamento de Aplicativo Móvel (MAM) para exigir autenticação para acesso aos serviços do Office 365
