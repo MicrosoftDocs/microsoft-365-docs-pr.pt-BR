@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa o System Center Configuration Manager para implantar o Office 365 ProPlus.
-ms.openlocfilehash: 5b98f72561d7a431a4ca4a0b0241c6105c87026f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0fa0ca1d268dbfd57891804e20959147cd6385e4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283544"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Implantação do Office 365 ProPlus para a Contoso
 
@@ -71,7 +71,7 @@ Para concluir a implantação do Office, a Contoso implementou o seguinte proces
 7. No Gerenciador de Configurações, eles implantaram os pacotes do Windows e do Office em pontos de distribuição em toda a rede e executaram as sequências de tarefas de implantação do Gerenciador de Configurações para implantar o pacote piloto do Office 365 ProPlus no grupo piloto.
 8. Depois de abordar problemas de compatibilidade com o grupo piloto, a Contoso executou as sequências de tarefas para implantar o pacote amplo do Office 365 ProPlus no grupo amplo.
 
-Como a Contoso optou por atualizar automaticamente os dispositivos da nuvem, não havia necessidade de gerenciar o processo no Gerenciador de Configurações. Os dispositivos são automaticamente atualizados diretamente na nuvem com base no canal de atualização que foi definido como parte da implantação inicial. 
+Como a Contoso decidiu atualizar os dispositivos automaticamente a partir da nuvem, não havia necessidade de gerenciar o processo no Gerenciador de Configurações.  Seus dispositivos são automaticamente atualizados diretamente a partir da nuvem com base no canal de atualização que foi definido como parte da implantação inicial. 
 
 ## <a name="next-step"></a>Próxima etapa
 

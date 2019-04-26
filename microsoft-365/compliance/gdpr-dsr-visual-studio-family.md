@@ -4,21 +4,21 @@ description: Solicitações de Titulares de Dados da Família do Visual Studio p
 keywords: Visual Studio, Visual Studio Code, Visual Studio para Mac, documentação do Visual Studio, privacidade, RGPD
 localization_priority: Priority
 audience: itpro
-ms.prod: visual-studio
+ms.prod: visual-studio-family
 ms.topic: article
 ms.date: 05/24/2018
 author: PoulChapman
-ms.author: pchapman
-manager: scalla
+ms.author: olholder
+manager: pchapman
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: 09bba28648cbee6dd32c2005bcb584e97a4c534e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 5b07cefa4a850d5de7c858f180c8f7688fd0a6d7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286919"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr"></a>Solicitações de Titulares de Dados da Família do Visual Studio para o RGPD
 
@@ -101,7 +101,7 @@ Os comentários públicos incluem: problemas relatados, comentários e soluçõe
 
 Para exibir os dados relacionados a comentários, siga estas etapas:
 
-1. Entre na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com). No canto superior direito, clique no seu perfil e escolha **Perfil e Preferências**.
+1. Entre na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com).  No canto superior direito, clique em seu perfil e selecione **Perfil e Preferências**.
 2. Clique em qualquer uma das guias **Perfil**, **Notificações**, **Atividade** e **Anexos** para exibir os dados enviados para os sistemas de comentários.
    1. **Perfil** refere-se a seu perfil na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com), incluindo nome de usuário, endereço de email, sobre etc.
    2. **Notificações** é como você controla as notificações por email que recebe.
@@ -121,7 +121,7 @@ Você pode exportar seus dados de comentários como parte da DSR. Criaremos um o
 
 Para iniciar uma exportação, siga estas etapas:
 
-1. Entre na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com). No canto superior direito, clique no seu perfil e escolha **Perfil e Preferências**.
+1. Entre na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com).  No canto superior direito, clique em seu perfil e selecione **Perfil e Preferências**.
 2. Clique na guia **Privacidade**, clique em **Criar um arquivo morto** para solicitar a exportação de seus dados.
 3. O **Status do Arquivo Morto** será atualizado para mostrar que estamos preparando os dados. O tempo antes de os dados estarem disponíveis depende da quantidade de dados que precisamos exportar.
 4. Quando os dados estiverem prontos, enviaremos um email.

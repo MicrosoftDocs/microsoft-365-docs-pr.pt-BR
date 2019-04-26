@@ -2,21 +2,21 @@
 title: Lista de verificação de preparação de responsabilidade do Dynamics 365 para o RGPD
 description: Fornece uma maneira conveniente para acessar as informações de que talvez você precise para dar suporte ao RGPD ao usar o Dynamics 365.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 05/24/2018
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: b358776da0d2cdd676ac79736efea1908cd2a961
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c175e10e15bb35993b5234a76b6f7ca61e03dd3a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283564"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Dynamics 365 para o RGPD
 
@@ -99,7 +99,7 @@ Para ver mais documentações relacionadas ao RGPD, acesse https://aka.ms/gdprge
 | Países e organizações para os quais as PII podem ser transferidas (7.5.2)         | O cliente deve compreender e ser capaz de fornecer ao indivíduo, a lista de países para os quais os dados pessoais são ou podem ser transferidos. Nas situações em que terceiros ou um processador pode executar esta transferência, o cliente deverá obter essas informações do processador.                                                                                                                                                  | Descrição dos tipos de dados pessoais que são transferidos pelos serviços Microsoft e os locais entre os quais são transferidos e as garantias legais em relação à transferência.<br>– Informações importantes do Dynamics 365 para Avaliações do Impacto sobre a Proteção dos Dados do Cliente [2]                                                       | (30)(1)(e)                                      |
 | Registros de transferências de PII (dados pessoais) (7.5.3)                           | O cliente deve manter todos os registros necessários e obrigatório relacionados a transferências de dados pessoais. Nas situações em que um terceiro ou processadores executem a transferência, o cliente deverá garantir que eles mantenham os registros apropriados e os obtenham conforme o necessário.                                                                                                                                                    | Descrição dos tipos de dados pessoais que são transferidos pelos serviços Microsoft e os locais entre os quais são transferidos e as garantias legais em relação à transferência.<br>– Informações importantes do Dynamics 365 para Avaliações do Impacto sobre a Proteção dos Dados do Cliente [2]                                                       | (30)(1)(e)                                      |
 | Registros da divulgação de PII para terceiros (7.5.4)                            | O cliente deve compreender os requisitos acerca da gravação para quem os dados pessoais foram divulgados. Isso pode incluir divulgações a autoridades policiais etc. Nas situações em que um terceiro ou processador divulgar os dados, o cliente deverá garantir que eles mantenham os registros apropriados e os obtenham conforme o necessário.                                                                                                 | Documentação fornecida sobre as categorias de destinatários de divulgação de dados pessoais, incluindo registros disponíveis de divulgação.<br>– Quem pode acessar seus dados e em que condições [[7](gdpr-arc-Dynamics365.md#7)]                                                                                                              | (30)(1)(d)                                      |
-| Controlador conjunto (7.5.5)                                                      | O cliente deverá determinar se ele é um controlador conjunto com outra organização e documentar de maneira adequada e alocar responsabilidades.                                                                                                                                                                                                                                                           | O Dynamics 365 é um processador de dados pessoais.<br>– Termos do Online Services [1] <!-- look at this one -->confira *Processador e Controlador de Funções e Responsabilidades [1]*                                                                                                                                        | (26)(1), (26)(2), (26)(3)                       |
+| Controlador conjunto (7.5.5)                                                      | O cliente deverá determinar se ele é um controlador conjunto com outra organização e documentar de maneira adequada e alocar responsabilidades.                                                                                                                                                                                                                                                           | O Dynamics 365 é um processador de dados pessoais.<br>- Termos do Online Services [1] <!-- look at this one -->confira *Processador e Controlador de Funções e Responsabilidades [1]*                                                                                                                                        | (26)(1), (26)(2), (26)(3)                       |
 |                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                    |                                                 |
 
 <br>

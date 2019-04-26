@@ -2,20 +2,20 @@
 title: Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
 description: Como o Suporte e os Serviços Profissionais da Microsoft protegem contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 18fa8e4b1b503bfadb6550dc31b17994166f3eb5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a17752773304272938c305649ff6e511ab0d1b0b
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285738"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
 
@@ -102,4 +102,4 @@ Ao notificar os clientes sobre uma violação de dados pessoais, a Microsoft inc
 -   Detalhes de subprocessador/fornecedor, se houver um envolvido na violação
 
 #### <a name="learn-more"></a>Saiba mais
-Saiba mais sobre os [Serviços profissionais da Microsoft](<https://www.microsoft.com/microsoftservices/professional_services.aspx>) acessando a seção Serviços profissionais da Microsoft na Central de Confiabilidade da Microsoft (<https://www.microsoft.com/trustcenter/cloudservices/commercialsupport>). 
+Saiba mais sobre os Serviços Profissionais da Microsoft na Central de Confiabilidade da Microsoft (<https://www.microsoft.com/trustcenter/professional-services>). 

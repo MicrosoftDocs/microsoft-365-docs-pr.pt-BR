@@ -4,19 +4,21 @@ description: Proteção de informações para o RGPD (Regulamento Geral sobre a 
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 author: BrendaCarter
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: bcarter
 manager: laurawi
-ms.collection: GDPR
-ms.openlocfilehash: 371efa4e1c3e3375cd43dcc661d8aa549788baba
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+audience: itpro
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 94ec13437ff297381b4ea8aca0e9370f295f249e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285183"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Proteção de informações para o RGPD com recursos do Microsoft 365
 
@@ -49,8 +51,7 @@ A Microsoft fornece uma configuração recomendada que você pode usar como pont
 
 A proteção contra ameaças está integrada a todos os serviços do Microsoft 365. Aqui estão alguns recursos para começar:
 - [Roteiro de segurança do Office 365: principais prioridades nos primeiros 30 dias, 90 dias e depois](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). Esse roteiro contém recomendações para implementar os recursos. 
-- 
-  [Proteção contra ameaças no Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Saiba mais sobre ações de proteção que podem ser tomadas no Centro de Conformidade e Segurança do Office 365.
+- [Proteção contra ameaças do Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Saiba mais sobre medidas de proteção que você pode tomar na central de segurança do Microsoft 365.
 - [Proteção contra Ameaças do Windows](https://docs.microsoft.com/windows/security/threat-protection/). Saiba mais sobre a Proteção contra Ameaças do Windows Defender e outros recursos no Windows 10.
 
 

@@ -3,22 +3,22 @@ title: 'Fase 2: identidade'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 04/16/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de identidade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 7b5d62f5c09a1ea6d46449b113bff59dbf07ebad
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 932b6fb2cfeb86edcf708bdfdea55cdd8b580838
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288727"
 ---
 # <a name="phase-2-identity"></a>Fase 2: identidade
 
@@ -32,25 +32,20 @@ No Microsoft 365 Enterprise, uma infraestrutura de identidade bem planejada e ex
 
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Planejar e implantar sua infraestrutura de identidade do Microsoft 365 Enterprise 
 
+Antes de começar, assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
+
 Use as etapas a seguir para planejar e implantar uma nova infraestrutura de identidade na nuvem. Também é possível usar estas etapas para adaptar a infraestrutura de identidade híbrida ou local existente para trabalhar com o Microsoft 365 Enterprise. 
 
 |||
 |:-------|:-----|
 |![](./media/stepnumbers/Step1.png)| [Planejar usuários e grupos](identity-plan-users-groups.md) |
-|![](./media/stepnumbers/Step2.png)| [Proteger contas de administradores globais](identity-designate-protect-admin-accounts.md) |
-|![](./media/stepnumbers/Step3.png)| [Configurar administradores globais sob demanda](identity-privileged-identity-management.md) |
-|![](./media/stepnumbers/Step4.png)| [Simplificar redefinições de senha](identity-password-reset.md) |
-|![](./media/stepnumbers/Step5.png)| [Configurar autenticações multifatoriais](identity-multi-factor-authentication.md) |
-|![](./media/stepnumbers/Step6.png)| [Proteger-se do comprometimento de credenciais](identity-azure-ad-identity-protection.md) |
-|![](./media/stepnumbers/Step7.png)| [Sincronizar diretórios](identity-azure-ad-connect.md) |
-|![](./media/stepnumbers/Step8.png)| [Monitorar integridades de sincronização](identity-azure-ad-connect-health.md) |
-|![](./media/stepnumbers/Step9.png)| [Simplificar atualizações de senha](identity-password-writeback.md) |
-|![](./media/stepnumbers/Step10.png)| [Simplificar entradas de usuário](identity-single-sign-on.md) |
-|![](./media/stepnumbers/Step11.png)| [Personalizar páginas de entrada do Office 365](identity-customize-office-365-sign-in.md) |
-|![](./media/stepnumbers/Step12.png)| [Configurar licenciamentos automáticos](identity-group-based-licensing.md) |
-|![](./media/stepnumbers/Step13.png)| [Monitorar atividades de entrada e do locatário](identity-azure-ad-access-usage-reporting.md) |
-|![](./media/stepnumbers/Step14.png)| [Permitir que usuários criem e gerenciem os próprios grupos](identity-self-service-group-management.md) |
-|![](./media/stepnumbers/Step15.png)| [Configurar associações de grupo dinâmico](identity-automatic-group-membership.md) |
+|![](./media/stepnumbers/Step2.png)| [Proteger suas identidades privilegiadas](identity-designate-protect-admin-accounts.md) |
+|![](./media/stepnumbers/Step3.png)| [Configurar identidade híbrida](identity-azure-ad-connect.md) |
+|![](./media/stepnumbers/Step4.png)| [Configurar autenticação de usuário segura](identity-multi-factor-authentication.md) |
+|![](./media/stepnumbers/Step5.png)| [Simplificar o acesso para usuários](identity-password-reset.md) |
+|![](./media/stepnumbers/Step6.png)| [Usar grupos para facilitar o gerenciamento](identity-self-service-group-management.md) |
 
 Após concluir essas etapas, consulte os [critérios de saída](identity-exit-criteria.md) para esta fase a fim de garantir que sua rede atende às condições obrigatórias e opcionais do Microsoft 365 Enterprise.
 
