@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 8e202936451030718c0c86601c2c621c50f78e1a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: ab346934ea639e819e4e45dd6560093629ee9cde
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291136"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353173"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -28,14 +28,14 @@ Este artigo descreve como habilitar e testar a autenticação baseada em mensage
   
 Há duas fases para configurar a autenticação multifator para uma conta no seu ambiente de teste do Microsoft 365 Enterprise:
   
-1. Crie o ambiente de teste do Microsoft 365 Enterprise.
+1. Criar o ambiente de teste do Microsoft 365 Enterprise.
     
 2. Habilite e teste a autenticação multifator para a conta do usuário 2.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -50,31 +50,29 @@ Se você quiser testar a autenticação multifator em uma empresa simulada, siga
 
 Habilite a autenticação multifator para a conta do usuário 2 com estas etapas:
   
-1. Abra uma instância separada e privada do navegador, vá para o portal do Office ([https://office.com](https://office.com)) e entre com sua conta de administrador global.
+1. Abra uma instância separada e privada do navegador, vá para o centro de administração do Microsoft 365[https://portal.microsoft.com](https://portal.microsoft.com)() e entre com sua conta de administrador global.
     
-2. Na página principal do portal, clique em **Admin**.
+2. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
     
-3. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
+3. No painel usuários ativos, clique em **mais > configuração de autenticação**multifator.
     
-4. No painel usuários ativos, clique em **mais > configuração de autenticação**multifator.
+4. Na lista, selecione a conta do **usuário 2** .
     
-5. Na lista, selecione a conta do **usuário 2** .
+5. Na seção **usuário 2** , em **etapas rápidas**, clique em **habilitar**.
     
-6. Na seção **usuário 2** , em **etapas rápidas**, clique em **habilitar**.
+6. Na caixa de diálogo **sobre como habilitar a autenticação** multifator, clique em **habilitar autenticação**multifator.
     
-7. Na caixa de diálogo **sobre como habilitar a autenticação** multifator, clique em **habilitar autenticação**multifator.
+7. Na caixa de diálogo **atualizações com êxito** , clique em **fechar**.
     
-8. Na caixa de diálogo **atualizações com êxito** , clique em **fechar**.
+8. Na guia **centro de administração do Microsoft 365** , clique no ícone da conta de usuário no canto superior direito e **** clique em sair.
     
-9. Na guia **Microsoft Office Home** , clique no ícone da conta de usuário no canto superior direito e clique em **** sair.
-    
-10. Feche a instância do navegador.
+9. Feche a instância do navegador.
    
 Conclua a configuração da conta do usuário 2 para usar uma mensagem de texto para validação e testá-la com estas etapas:
   
 1. Abra uma nova instância privada do navegador.
     
-2. Vá para o portal do Office[https://office.com](https://office.com)() e entre com a conta do usuário 2 (Usuário2\<@ Organization name>. onmicrosoft. com) e a senha.
+2. Vá para o portal do Office 365[https://portal.office.com](https://portal.office.com)() e entre com o nome da conta e a senha do usuário 2.
     
 3. Após entrar, você será solicitado a configurar a conta para obter mais informações. Clique em **Avançar**.
     

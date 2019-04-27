@@ -13,29 +13,26 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: cded424188447f96e5614f31d3e207bb541d438e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 86b2d325fc710fd8b387bc37cad5f8ea60df001d
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290854"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353053"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
 
-Você pode impedir ataques digitais em sua organização, garantindo que suas contas de administrador sejam o mais seguras possível. Este artigo descreve como usar o Office 365 Cloud app Security e as políticas de acesso condicional do Azure AD para proteger contas de administrador global.
+Você pode impedir ataques digitais em sua organização, garantindo que suas contas de administrador sejam o mais seguras possível. Este artigo descreve como usar as políticas de acesso condicional do Azure Active Directory (Azure AD) para proteger contas de administrador global.
 
 Há duas fases para proteger as contas de administrador global no seu ambiente de teste do Microsoft 365 Enterprise:
 
-1.  Crie o ambiente de teste do Microsoft 365 Enterprise.
+1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Proteger sua conta de administrador global dedicado.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
-
-> [!NOTE]
-> O ambiente de teste do Microsoft 365 Enterprise usa versões E5 do Office 365 e Enterprise Management + Security (EMS). O recurso de segurança do Office 365 Cloud app só está disponível na versão E5 do Office 365. 
+> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -47,24 +44,9 @@ Se você quiser testar a proteção da conta de administrador global em uma empr
 > [!NOTE]
 > Testando a proteção da conta de administrador global não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para um Active Directory Domain Services (AD DS). É fornecida aqui como uma opção para que você possa testar a proteção da conta de administrador global e experimentá-la em um ambiente que represente uma organização típica. 
   
-## <a name="phase-2-configure-cloud-app-security-and-conditional-access-policies"></a>Fase 2: configurar a segurança do aplicativo de nuvem e as políticas de acesso condicional
+## <a name="phase-2-configure-conditional-access-policies"></a>Fase 2: configurar políticas de acesso condicional
 
-Primeiro, crie uma política de segurança de aplicativo em nuvem do Office 365 para monitorar a atividade de conta de administrador global e enviar alertas para o endereço de email de sua conta de administrador global. 
-
-1. Entre no portal de [conformidade do & de segurança do Office 365](https://protection.office.com/) usando sua conta de administrador global.
-2. No painel de navegação esquerdo, clique em **alertas _GT_ Gerenciar alertas avançados**.
-3. Na página **Gerenciar alertas avançados** , clique em **ativar o Office 365 Cloud app Security**e clique em **ir para o Office 365 Cloud app Security**.
-4. Na guia novo **painel** , clique em **controlar políticas de >**.
-5. Na página **política** , clique em **criar política**e em política de **atividade**.
-6. Em **nome da política**, digite **atividade administrativa**.
-7. Em **severidade da política**, clique em **alto**.
-8. Em **categoria**, clique em **contas privilegiadas**.
-9. Em **criar filtros para a política**, em **atividades que correspondem a todos os itens a seguir**, clique em **atividades administrativas**.
-10. Em **alertas**, clique em **Enviar alerta como email**. Em **para**, digite o endereço de email da conta de administrador global.
-11. Na parte inferior da página, clique em **criar**.
-12. Feche a guia **painel** .
-    
-Em seguida, crie uma nova conta de usuário como administrador global dedicado.
+Primeiro, crie uma nova conta de usuário como administrador global dedicado.
 
 1. Em uma guia separada, abra o [centro de administração do Microsoft 365](https://admin.microsoft.com/).
 2. Em **usuários ativos**, clique em **Adicionar um usuário**.

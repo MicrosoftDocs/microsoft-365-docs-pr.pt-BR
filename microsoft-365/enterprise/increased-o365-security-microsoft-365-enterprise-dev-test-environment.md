@@ -12,21 +12,21 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para habilitar configurações de segurança adicionais do Microsoft 365 para o ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 54e05122dcbe5d4e24f092536897f2a8ad449e05
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 583d815d9f413df8aeb5ec7abaf68cf79a6cc8b9
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283651"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353113"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Maior segurança do Microsoft 365 para seu ambiente de teste do Microsoft 365 Enterprise
 
 Com as instruções deste artigo, você define configurações adicionais do Microsoft 365 para aumentar a segurança no ambiente de teste do Microsoft 365 Enterprise.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -46,16 +46,15 @@ Nesta fase, você habilitará a segurança mais 365 da Microsoft para seu ambien
 
 Os aplicativos que não dão suporte à autenticação moderna não podem ter [configurações de acesso de dispositivo e identidade](microsoft-365-policies-configurations.md) aplicadas a eles, que é um elemento importante de proteger sua assinatura do Microsoft 365 e seus ativos digitais. 
 
-1. Vá para o portal do Office[https://office.com](https://office.com)() e entre na sua assinatura de avaliação do Office 365 com sua conta de administrador global.
+1. Vá para o centro de administração do Microsoft[https://portal.microsoft.com](https://portal.microsoft.com)365 () e entre na sua assinatura de laboratório de teste do Office 365 com sua conta de administrador global.
     
   - Se você estiver usando o ambiente leve de teste do Microsoft 365, entre no computador local.
     
   - Se você estiver usando o ambiente de teste corporativo da Microsoft 365 simulado, use o [portal do Azure](https://portal.azure.com) para se conectar à máquina virtual CLIENT1 e, em seguida, entre no CLIENT1.
  
-2. Na guia **centro de administração do Microsoft 365** , clique em **administrador**.
-3. Na nova guia **centro de administração do Microsoft 365** , clique em **centros de administração > SharePoint**.
-4. Na nova guia **centro de administração do SharePoint** , clique em **controle de acesso**.
-5. Em **aplicativos que não dão suporte à autenticação moderna**, clique em **Bloquear**e, em seguida, clique em **OK**.
+2. Na nova guia **centro de administração do Microsoft 365** , clique em **centros de administração > SharePoint**.
+3. Na nova guia **centro de administração do SharePoint** , clique em **controle de acesso**.
+4. Em **aplicativos que não dão suporte à autenticação moderna**, clique em **Bloquear**e, em seguida, clique em **OK**.
 
 
 ### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Habilitar a proteção avançada contra ameaças para o SharePoint, o OneDrive for Business e o Microsoft Teams
@@ -86,20 +85,15 @@ Para garantir que o processamento Antimalware seja executado em arquivos com tip
 4. Em **filtro tipos de anexo comuns**, clique **em > salvar**.
 
 
-## <a name="phase-3-examine-office-365-security-tools-and-logs"></a>Fase 3: examinar os logs e as ferramentas de segurança do Office 365
-
-Nesta fase, você examina os serviços internos que informam sobre eventos de segurança e medem a postura geral de segurança.
-
-### <a name="threat-management-dashboard"></a>Painel de gerenciamento de ameaças
+## <a name="phase-3-examine-the-threat-management-dashboard"></a>Fase 3: examinar o painel de gerenciamento de ameaças
 
 O gerenciamento de ameaças do Office 365 pode ajudá-lo a controlar e gerenciar o acesso de dispositivos móveis aos dados da sua organização, ajudar a proteger sua organização contra a perda de dados e ajudar a proteger mensagens de entrada e saída de software mal-intencionado e spam. Você também usa o gerenciamento de ameaças para proteger a reputação do seu domínio e para determinar se ou não os remetentes estão falsificando contas de seu domínio de forma mal-intencionada. Para obter mais informações, consulte [Threat Management na central de segurança do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/threat-management).
 
-
-### <a name="office-365-cloud-app-security-dashboard"></a>Painel do Office 365 Cloud app Security
-
-O Office 365 Cloud app Security, anteriormente conhecido como gerenciamento de segurança avançada do Office 365, permite que você crie políticas que monitoram e informam sobre atividades suspeitas em sua assinatura do Office 365, para que você possa investigar e obter possíveis ação de correção. Para obter mais informações, consulte [Overview of Office 365 Cloud app Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview).
-
 <!--
+### Office 365 Cloud App Security dashboard
+
+Office 365 Cloud App Security, previously known as Office 365 Advanced Security Management, allows you to create policies that monitor for and inform you of suspicious activities in your Office 365 subscription, so that you can investigate and take possible remediation action. For more information, see [Overview of Office 365 Cloud App Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview).
+
 ### Microsoft 365 Secure Score
 
 1. Create a new tab in your browser and go to the [Microsoft 365 security center](https://security.microsoft.com/), and then click **Secure score**.

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: 24aacc1a992e2dfdc683e5e4c4405b105eea7bf5
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291292"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353194"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
 
@@ -64,13 +64,17 @@ Para baixar uma cópia do cartaz, clique [aqui](https://github.com/MicrosoftDocs
 
 ## <a name="deploying"></a>Implantação
 
-Há duas maneiras de implantar os produtos, recursos e componentes do Microsoft 365 Enterprise:
+Há três maneiras de implantar os produtos, recursos e componentes do Microsoft 365 Enterprise:
 
 1. Em parceria com o FastTrack
   
-   Com o FastTrack, os engenheiros da Microsoft ajudam você a migrar para a nuvem em seu próprio ritmo. ConFira [FastTrack para o Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
+   Com o FastTrack, os engenheiros da Microsoft ajudam você a migrar para a nuvem em seu próprio ritmo. Conferir [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
   
-2. Faça você mesmo
+2. Com a ajuda dos serviços de consultoria da Microsoft ou de um [parceiro da Microsoft](https://partner.microsoft.com/).
+
+   Os consultores podem analisar sua infraestrutura atual e ajudá-lo a desenvolver um plano para incorporar todos os softwares e serviços do Microsoft 365 Enterprise.
+
+3. Faça você mesmo
 
    O [Guia de implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md) leva você passo a passo ao desenvolver as cargas de trabalho de infraestrutura e produtividade. 
 
@@ -108,7 +112,7 @@ Para obter mais informações sobre a implantação, consulte How:
 
 ## <a name="next-step"></a>Próxima etapa
 
-Inicie a [jornada de implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md).
+Se você estiver fazendo a implantação sozinho, inicie sua [jornada de implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md).
 
 ## <a name="see-also"></a>Confira também
 
