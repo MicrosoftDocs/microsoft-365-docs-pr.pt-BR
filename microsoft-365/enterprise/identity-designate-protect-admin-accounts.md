@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar as contas de administradores para uma máxima proteção.
-ms.openlocfilehash: 4b4a8d01cdf71e30139fa448813a3ff7c43855c7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0be82fc6f431001c69e79a0a26007c54a87424c3
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285151"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353083"
 ---
 # <a name="step-2-secure-your-privileged-identities"></a>Etapa 2: Proteger suas identidades privilegiadas
 
@@ -39,7 +39,6 @@ Para as contas dedicadas de administrador global, você também deve:
 1. Testar as configurações de autenticação multifator (MFA) baseada em acesso condicional ou conta por usuário para garantir que a MFA está funcionando de forma correta e previsível. A MFA requer uma segunda forma de autenticação, como um código de verificação enviado para um celular.
 2. Configurar a MFA para cada uma das contas dedicadas de administrador global do Office 365 e usar a forma mais forte de autenticação secundária disponível em sua organização. Consulte as informações sobre a [autenticação multifator](identity-multi-factor-authentication.md#identity-mfa) para saber mais.
 2. Use uma política de acesso condicional para exigir a MFA para contas de administradores globais. Veja [Proteção de contas de administradores](identity-access-prerequisites.md#protecting-administrator-accounts) para saber mais.
-4. Use uma política do Office 365 Cloud App Security para monitorar atividades da conta de administrador global. Veja [Configurar maior segurança no Office 365](infoprotect-configure-increased-security-office-365.md) para saber mais.
 
 Consulte as informações sobre como [proteger as contas de administradores globais do Office 365](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) para saber mais sobre a configuração.
 

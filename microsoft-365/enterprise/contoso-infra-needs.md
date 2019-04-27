@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda a infraestrutura básica da infraestrutura de TI local da Contoso e de que forma suas necessidades comerciais podem ser atendidas pelo Microsoft 365 Enterprise.
-ms.openlocfilehash: bd259f367cdf3417e32671457f248029c853b6f8
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a4a86c56f956361e58730f328ef940a627370ea6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283669"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353123"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Infraestrutura de TI e necessidades comerciais da Contoso
 
@@ -127,7 +127,7 @@ O departamento de TI da Contoso determinou o seguinte mapeamento das necessidade
 | Segurança |  |  |
 |  | Gerenciamento de identidades e acesso | Contas de administrador globais dedicadas com autenticação multifator e Azure AD Privileged Identity Management (PIM) <BR> Autenticação multifator para todas as contas de usuários <BR> Acesso condicional <BR> Windows Hello <BR> Windows Credential Guard |
 |  | Proteção contra Ameaças | Advanced Threat Analytics <BR> Windows Defender <BR> Proteção Avançada contra Ameaças <BR> Proteção Avançada contra Ameaças do Office 365 <BR> Investigação e resposta a ameaças do Office 365 <BR> |
-|  | Proteção de informações | Proteção de Informações do Azure <BR> Prevenção contra Perda de Dados do Office 365 <BR> Proteção de Informações do Windows <BR> Microsoft Cloud App Security <BR> Office 365 Cloud App Security (CAS) <BR> Microsoft Intune |
+|  | Proteção de informações | Proteção de Informações do Azure <BR> Prevenção contra Perda de Dados do Office 365 <BR> Proteção de Informações do Windows <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Gerenciamento de segurança | Central de Segurança do Azure  <BR> Central de Segurança do Windows Defender |
 | Acesso remoto e móvel e parceiros de negócios |  |  |
 |  | Aumentar a segurança de trabalhadores remotos e móveis | Microsoft Intune |
