@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as considerações importantes de conformidade e segurança do Windows e do Office.
-ms.openlocfilehash: 3b0e9ae38f988b8c148fe67eeeb629a9fce23037
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: cefab9cfd1b61f37559d88c5625c512d33595395
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865146"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400235"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Etapa 5: Considerações de segurança e conformidade
-
-Examine suas opções de direcionamento de novos recursos de segurança e conformidade como parte da implantação moderna de área de trabalho, juntamente com as considerações e bloqueios comuns ao migrar de versões anteriores do Windows e do Office.
 
 ![](media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-1.png)
 
@@ -36,10 +34,10 @@ Examine suas opções de direcionamento de novos recursos de segurança e confor
 </table>
 
 >[!NOTE]
->Segurança e Conformidade é a quinta etapa do nosso processo recomendado de implantação que abrange as considerações de segurança e conformidade do Windows 10 e do Office 365 ProPlus. Para ver o processo completo de implantação, visite o [Centro de implantação do Computador Moderno](https://aka.ms/HowToShift).
+>Segurança e Conformidade é a quinta etapa do nosso processo recomendado de implantação que abrange as considerações de segurança e conformidade do Windows 10 e do Office 365 ProPlus. Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-Muitos dos recursos relacionados à segurança no Windows 10 são os responsáveis pela migração para a plataforma mais recente. Além disso, a integração com os serviços em nuvem no Office 365 e as opções de identidade usando o Azure Active Directory dão acesso a proteções novas e continuamente atualizadas de dados, dispositivos e usuários.
+Chegou o momento de examinar suas opções de direcionamento de novos recursos de segurança e conformidade como parte da implantação do Windows 10 e do Office 365 ProPlus, juntamente com as considerações e bloqueios comuns ao migrar de versões anteriores do Windows e do Office. Muitos dos recursos relacionados à segurança no Windows 10 são os responsáveis pela migração para a plataforma mais recente. Além disso, a integração com os serviços em nuvem no Office 365 e as opções de identidade usando o Azure Active Directory dão acesso a proteções novas e continuamente atualizadas de dados, dispositivos e usuários.
 
 ## <a name="overcoming-potential-security-related-deployment-blockers"></a>Superar bloqueios em potencial relacionados à segurança
 

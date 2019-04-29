@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do Microsoft Teams no Microsoft 365 Enterprise para toda a sua organização.
-ms.openlocfilehash: 25329c7024f267983a83c4e719f18df6ad613bf5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: bfc9e76211779aa960ff7633dd7d59b2b01e9f98
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400205"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Implantar o Microsoft Teams para o Microsoft 365 Enterprise
+
+*Essa carga de trabalho está incluída nas versões E3 e E5 do Microsoft 365 Enterprise*
 
 O Microsoft Teams reúne chat, conferências, compartilhamento de documentos e conversas em threads de forma que facilita a criação e o compartilhamento conteúdo em grupos. O Temas é uma maneira de trabalhar em equipe e colaborar com o Microsoft 365 Enterprise e é um elemento essencial do valor de trabalho em equipe do Microsoft 365. Se você não conhecer o Teams, confira a [Visão geral do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).
  
@@ -27,9 +29,7 @@ Se você estiver usando o Skype for Business atualmente, estamos incorporando re
 
 As fases e etapas a seguir orientarão você pelo processo de concepção da função do Teams em sua organização, de integração da sua organização no Teams por meio de uma série de implantações progressivas e de geração de uso do Teams e do seu valor para os usuários finais. 
 
->[!Note]
->Estas instruções de implantação devem ser seguidas somente depois que você concluir sua [infraestrutura básica](deploy-foundation-infrastructure.md) para o Microsoft 365 Enterprise.
->
+Antes de começar, verifique se você configurou as fases corretas da [infraestrutura básica](deploy-foundation-infrastructure.md) para que suas equipes tenham os recursos de segurança necessários.
 
 ## <a name="phase-1-envision"></a>Fase 1: visualizar
 
@@ -45,7 +45,7 @@ Esses três grupos garantem que sua implantação do Teams inclua consideraçõe
 Uma lista de pessoas que representam os aspectos de negócios, técnicos e do usuário final da sua organização.
 
 ### <a name="step-2-determine-and-prioritize-your-teams-business-scenarios"></a>Etapa 2: determinar e priorizar seus cenários de negócios do Teams
-O Teams pode ser usado para várias finalidades diferentes. Você precisa descobrir quais finalidades atendem às suas necessidades de negócios nos diferentes níveis de sua organização, em seus grupos de negócios, seus departamentos e suas equipes individuais de trabalho e de projetos. Confira a [Biblioteca de produtividade do Microsoft 365](https://www.microsoft.com/microsoft-365/success) para obter exemplos para ajudar a definir seus cenários do Teams. 
+O Teams pode ser usado para várias finalidades diferentes. Você precisa descobrir quais finalidades atendem às suas necessidades de negócios nos diferentes níveis de sua organização, em seus grupos de negócios, seus departamentos e suas equipes individuais de trabalho e de projetos. Confira a [Biblioteca de produtividade do Microsoft 365](https://www.microsoft.com/microsoft-365/success/?rtc=1) para obter exemplos para ajudar a definir seus cenários do Teams. 
 
 Você deve direcionar o Teams para lidar com equipes rápidas e altamente colaborativas que trabalham próximas e exigem mais recursos do que o email com o Exchange Online pode fornecer. Exemplos são chats de grupo em tempo real com um histórico gravado e um local comum e de fácil acesso para armazenar arquivos e anotações. 
 
@@ -157,7 +157,7 @@ Após distribuir o Teams para toda a sua organização, você deverá continuar 
 - Direcionar sua liderança para promover o Teams como a ferramenta de colaboração e trabalho em equipe para a sua organização.
 - Incentivar as pessoas a usar o Teams para a comunicação e colaboração entre grupos de negócios, departamentos e equipes de trabalho e projetos.
 
-Aqui estão algumas sugestões de atividades:
+Veja algumas sugestões de atividades:
 
 - Veja [Orientação sobre a adoção do Office 365](https://aka.ms/successfactors) para saber mais sobre as práticas recomendadas gerais para a adoção do serviço de nuvem. 
 - Veja [relatórios de atividades do Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263) para entender o uso do serviço do Office 365 em sua organização. Se você não for um administrador global do Office 365 para sua organização, peça alguém que seja para conceder à sua conta de usuário permissões para ler relatórios, de forma que você possa acessar os relatórios de atividades.

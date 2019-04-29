@@ -1,5 +1,5 @@
 ---
-title: Implantar o SharePoint Online for Business no Microsoft 365 Enterprise
+title: Implantar o SharePoint Online e o OneDrive for Business no Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/19/2018
@@ -8,19 +8,20 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do SharePoint Online no Microsoft 365 Enterprise para toda a sua organização.
-ms.openlocfilehash: 7a9fc1733c64b3f639d2de0b5b64e20df60e04a9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 30fe3a971a869a4609d6b8ef2809692b4d4e5420
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290895"
 ---
-# <a name="deploy-sharepoint-online-for-microsoft-365-enterprise"></a>Implantar o SharePoint Online para o Microsoft 365 Enterprise
+# <a name="deploy-sharepoint-online-and-onedrive-for-business-for-microsoft-365-enterprise"></a>Implantar o SharePoint Online e o OneDrive for Business no Microsoft 365 Enterprise
 
+*Essa carga de trabalho está incluída nas versões E3 e E5 do Microsoft 365 Enterprise*
 
 Você usará o SharePoint Online e o Microsoft Teams para armazenar e compartilhar arquivos, gerenciar o conteúdo e a colaboração, além de serem elementos essenciais para o bom trabalho em equipe do Microsoft 365 Enterprise. 
 
@@ -28,11 +29,9 @@ O SharePoint Online também tem recursos avançados de segurança, como controle
 
 Se você está começando a usar o SharePoint Online, confira [SharePoint Online](https://products.office.com/sharepoint/sharepoint-online-collaboration-software) e [Introdução ao SharePoint](https://support.office.com/article/Get-started-with-SharePoint-3a26444b-08c5-46ad-b80a-cda82b11b27b#ID0EAABAAA=Basics).
 
-As fases e as etapas a seguir vão orientá-lo pelo processo de concepção da função do SharePoint Online for Business em sua organização, para a integração da sua organização por várias implantações progressivas, incentivando o uso de seu valor pelos usuários finais. Essas instruções de implantação devem ser seguidas depois de concluir sua [infraestrutura de fundação](deploy-foundation-infrastructure.md). 
+As fases e as etapas a seguir vão orientá-lo pelo processo de concepção da função do SharePoint Online em sua organização, para a integração da organização por várias implantações progressivas, incentivando o uso de seu valor pelos usuários finais. Antes de começar, verifique se você configurou as fases corretas da [infraestrutura básica](deploy-foundation-infrastructure.md) para que os sites do SharePoint Online tenham os recursos de segurança necessários. 
 
->[!Note]
->Para implantar o OneDrive for Business para o Microsoft 365 Enterprise, confira a [guia do OneDrive para empresas](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise).
->
+Para implantar o OneDrive for Business para o Microsoft 365 Enterprise, confira a [guia do OneDrive para empresas](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise).
 
 ## <a name="phase-1-envision"></a>Fase 1: visualizar
 Nesta fase, reúna as pessoas para a implantação do SharePoint Online for Business e determine como sua organização vai usá-los para atender às necessidades de negócios.

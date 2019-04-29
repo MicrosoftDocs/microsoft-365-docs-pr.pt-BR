@@ -3,22 +3,22 @@ title: Critérios de saída da implantação do Office 365 ProPlus
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/29/2018
+ms.date: 03/06/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura do Office 365 ProPlus.
-ms.openlocfilehash: c38539d85e1c826667b7a8a177a15ab75350aa5f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c9a2afeae8d28170f4e8a15531a08e6b94cb48c2
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864666"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399985"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Critérios de saída da implantação do Office 365 ProPlus
 
@@ -26,7 +26,7 @@ ms.locfileid: "26864666"
 
 *Estes critérios aplicam-se às versões E3 e E5 do Microsoft 365 Enterprise e Microsoft 365 Education*
 
-Antes de passar para a próxima fase do processo de implantação, garanta que a sua configuração atenda aos seguintes critérios necessários à infraestrutura do Office 365 ProPlus.
+Garanta que sua configuração atenda aos seguintes critérios obrigatórios para a infraestrutura do Office 365 ProPlus.
 
 - A avaliação da infraestrutura e do ambiente está completa, incluindo:
 
@@ -52,9 +52,12 @@ Antes de passar para a próxima fase do processo de implantação, garanta que a
     - Todos os dispositivos de cliente estão no canal de atualização apropriado e recebem atualizações
     - Todos os dispositivos de cliente têm os idiomas apropriados instalados ou disponíveis
 
-## <a name="next-phase"></a>Próxima fase 
 
+
+## <a name="results-and-next-steps"></a>Resultados e próximas etapas
+
+Seus dispositivos clientes têm as versões mais recentes do Office 365 ProPlus instaladas e receberão atualizações contínuas.
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| A sua próxima fase do processo de implantação de ponta a ponta para o Microsoft 365 Enterprise é o [gerenciamento de dispositivos móveis](mobility-infrastructure.md). |
+|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Se você estiver seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será o [gerenciamento de dispositivos móveis](mobility-infrastructure.md). |

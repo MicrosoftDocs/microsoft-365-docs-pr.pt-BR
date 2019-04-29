@@ -12,17 +12,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Saiba como preparar seus usuários finais para a área de trabalho moderna com o uso de comunicações e treinamento.
-ms.openlocfilehash: 7737828600a9708b0b422a1fada6e0296de67f0f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: Saiba como preparar seus usuários finais para o Windows 10 e o Office 365 ProPlus com o uso de comunicações e treinamento.
+ms.openlocfilehash: cd413ae0f7a85a65c41c2112a64e19b6ed68c987
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865256"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400185"
 ---
 # <a name="step-8-user-communications-and-training"></a>Etapa 8: Treinamento e comunicações de usuários
-
-Informar e preparar seus usuários para as experiências de local de trabalho moderno abrangendo o Office 365, o Windows 10 e novos controles de conformidade e segurança com o Azure Active Directory e muito mais.
 
 ![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
 
@@ -31,21 +29,21 @@ Informar e preparar seus usuários para as experiências de local de trabalho mo
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>Etapa 8: Treinamento e comunicações de usuários</strong></p>
 <p>Certifique-se de que os usuários sejam informados sobre as novas experiências e novas maneiras de trabalhar à medida que você atualiza os computadores para o Windows 10 e o Office 365 ProPlus. Saiba como aproveitar a ajuda de adoção do usuário com o Microsoft FastTrack, materiais de treinamento e modelos de comunicação, bem como novas maneiras de monitorar o uso e a aceitação do usuário.</p></td>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></td>
+<td><a href="https://aka.ms/ddev8" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->O treinamento e as comunicações de usuários são a oitava etapa no nosso processo de implantação recomendado. São abordadas dicas e recomendações para informar e preparar os usuários. Para ver o processo de implantação completo da área de trabalho, acesse o [Centro de implantação do Computador Moderno](https://aka.ms/HowToShift).
+>O treinamento e as comunicações de usuários são a oitava etapa no nosso processo de implantação recomendado. São abordadas dicas e recomendações para informar e preparar os usuários. Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-O truque aqui é descobrir como apresentar as atualizações, quando alguns usuários podem se preocupar com interrupções na produtividade ou alterações no fluxo de trabalho ou se precisam aprender algo novo.
+Informe e prepare seus usuários para as experiências de local de trabalho moderno abrangendo o Office 365, o Windows 10 e novos controles de conformidade e segurança com o Azure Active Directory é fundamental para melhorar a adoção. O truque aqui é descobrir como apresentar as atualizações, quando alguns usuários podem se preocupar com interrupções na produtividade ou alterações no fluxo de trabalho ou se precisam aprender algo novo.
 
 A boa notícia é que, se você estiver migrando do Windows 7 e do Office 2010 ou do Office 2013, haverá várias pessoas familiarizadas com o Windows 10 e versões mais recentes do Office em execução nos dispositivos pessoais e tudo isso ajudará a reduzir o impacto da mudança.
 
 ## <a name="getting-ready-for-new-experiences"></a>Como se preparar para novas experiências
 
-Começando pelo Office, se você estiver implantando o Office 365 ProPlus pela primeira vez, comunique as vantagens de entrar nos aplicativos do Office e salvar arquivos nos locais do OneDrive ou SharePoint para facilitar o compartilhamento, reduzir a ramificação do arquivo e habilitar a coautoria em tempo real.
+Começando pelo Office, se você estiver implantando o Office 365 ProPlus pela primeira vez, será possível comunicar as vantagens de entrar nos aplicativos do Office e salvar arquivos nos locais do OneDrive ou SharePoint para facilitar o compartilhamento, reduzir a ramificação do arquivo e habilitar a coautoria em tempo real.
 
 Os modelos detalhados de comunicação e treinamento estão disponíveis para esses e outros aplicativos locais ou baseados em navegador, como o Teams e o Planner.
 
@@ -91,7 +89,7 @@ Os anéis de implantação devem ser criados em conjunto com as unidades de neg�
 
 Quando você estiver concluído a primeira fase, poderá direcionar um conjunto maior de usuários para a segunda, a fase piloto. Isso deve ser composto de uma combinação representativa de funções de usuário, tipos de dispositivo, aplicativos do Windows e suplementos do Office. Os dados retornados desses grupos serão usados por meio da análise para direcionar as ondas iniciais para a fase 3, a implantação mais ampla.
 
-Lembre-se: todos os computadores nesta fase e em futuras fases devem estar conectados ao serviço de Análise, para que você possa coletar a telemetria sobre a integridade do dispositivos e dos aplicativos, além de economizar largura de banda da otimização de entrega e o uso do logon do Windows Hello.
+Lembre-se: todos os computadores nesta fase e em futuras fases devem estar conectados ao serviço de Análise, para que você possa coletar os dados de diagnóstico sobre a integridade do dispositivos e dos aplicativos, além de economizar largura de banda da otimização de entrega e o uso do logon do Windows Hello.
 
 Para esta fase, é especialmente importante comunicar as alterações e ajudar os usuários a aproveitar os novos recursos. Os usuários geralmente podem não priorizar ou ignorar o email ou outras comunicações provenientes de TI. Sendo assim, ajuda marcar uma reunião com a equipe de gerência para comunicar a mudança e estimular a adoção de novas tecnologias e ferramentas.
 
@@ -123,14 +121,14 @@ Com a expansão do piloto, convém documentar e publicar perguntas frequentes e 
 
 ### <a name="phase-3-and-beyond-broad-production-deployment"></a>Fase 3 e além: Ampliar a implantação de produção 
 
-Quando você alcançar as fases de implantação ampla, terá refinado seus processos, sua comunicação, seu treinamento e suas ferramentas de autoatendimento. Agora você pode usar dados coletados por meio de telemetria para direcionar cada vez mais computadores.
+Quando você alcançar as fases de implantação ampla, terá refinado seus processos, sua comunicação, seu treinamento e suas ferramentas de autoatendimento. Agora você pode usar os dados de diagnóstico coletados para direcionar cada vez mais computadores.
 
 Implante a uma velocidade razoável para a capacidade do departamento de TI, suporte técnico, usuários e rede. Você sempre pode voltar para a etapa 2 no processo de implantação para otimizar sua rede ainda mais usando o cache de ponto a ponto, LEDBAT e outras técnicas para facilitar a transferência mais rápida de dados relacionados à implantação.
 
-Além da telemetria que você monitora por meio de ferramentas de análise, também é possível monitorar o uso do serviço do Office 365 e do Microsoft 365 de maneira precisa com relatórios detalhados de uso por carga de trabalho no centro de administração e usando painéis administrativos por meio do Power BI. São ferramentas excelentes para ajudar a configurar e definir metas ao distribuir novas ferramentas para trabalhar em conjunto, como o Microsoft Teams, ou novas maneiras de compartilhar arquivos, como o OneDrive.
+Além dos dados de diagnóstico monitorados por meio das ferramentas de análise, você também pode monitorar a utilização de serviços do Office 365 e do Microsoft 365 de maneira granular com relatórios de uso detalhados por carga de trabalho no centro de administração e usando os painéis de administração por meio do Power BI. Essas são excelentes ferramentas para ajudar a definir e acompanhar as metas à medida que você implementa novas ferramentas para trabalhar em conjunto, como o Microsoft Teams, ou novas formas de compartilhar arquivos, como o OneDrive.
 
 A adoção e a aceitação de novas tecnologias são um processo contínuo que abrange cada computador em sua organização que tiver o Windows 10 e o Office 365 ProPlus instalado. E os usuários não necessariamente mudam o modo como funcionam, sem que você pare para informá-los e treiná-los nos novos recursos. Por fim, com os novos modelos de serviços fornecendo novos recursos em um cronograma semestral contínuo para Windows e, opcionalmente, um cronograma mensal do Office, a comunicação será contínua.
 
 ## <a name="previous-step"></a>Etapa anterior 
 
-## <a name="step-7-windows-and-office-as-a-servicehttpsakamsmdd7"></a>[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)

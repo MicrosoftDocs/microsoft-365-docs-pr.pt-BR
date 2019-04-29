@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as opções de implantação e atualizações de recursos do sistema operacional.
-ms.openlocfilehash: 6aae2fb39937bec1eebfdc11e403f3835cb895cd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: d5053219750b056c9f72e94524f334a42e2aaa06
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400195"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Etapa 6: Implantação de sistema operacional e atualizações de recursos
-
-Conheça as opções e prepare-se para a implantação do sistema operacional usando abordagens de atualização e imagens com o System Center Configuration Manager ou o Kit de ferramentas de implantação da Microsoft.
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
 
@@ -36,7 +34,7 @@ Conheça as opções e prepare-se para a implantação do sistema operacional us
 </table>
 
 >[!NOTE]
->As Atualizações de Implantação de Recursos do Sistema Operacional são a sexta etapa de nosso processo de implantação recomendado, abrangendo a implantação do sistema operacional Windows 10, atualizações e atualizações de recursos. Para ver o processo completo de implantação da área de trabalho, visite o [Centro de Implantação do Computador Moderno](https://aka.ms/HowToShift).
+>As Atualizações de Implantação de Recursos do Sistema Operacional são a sexta etapa de nosso processo de implantação recomendado, abrangendo a implantação do sistema operacional Windows 10, atualizações e atualizações de recursos. Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
 Caso esteja assistindo ao processo de implantação até agora, você ao menos concluiu parcialmente as etapas de preparação do dispositivo e do aplicativo, preparou a infraestrutura, configurou e coletou pacotes de aplicativos, tem um plano estabelecido para migrar os arquivos de usuários e definiu configurações padrão, assim como tem planos para reter os controles de segurança existentes e talvez implantar novos.
@@ -109,7 +107,7 @@ Independentemente do tipo de implantação escolhido, convém garantir que ele s
 
 ### <a name="windows-autopilot"></a>Windows Autopilot
 
-Uma nova opção com o Windows 10 é configurar novos PCs como parte do seu ciclo de atualização de hardware usando o Windows Autopilot. Aqui você pode trabalhar com os fornecedores de hardware de suporte para personalizar a experiência padrão de instalação do Windows, por exemplo, eliminando as opções apresentadas para os usuários, como Contratos de Licença ou configurações de telemetria.
+Uma nova opção com o Windows 10 é configurar computadores novos como parte do ciclo de atualização de hardware usando o Windows Autopilot. Aqui, você pode trabalhar com fornecedores de hardware de suporte para personalizar a experiência de instalação padrão do Windows, por exemplo, eliminando opções apresentadas aos usuários, como Contratos de Licenças ou configurações de dados de diagnóstico.
 
 Em seguida, quando um usuário se conecta ao PC durante a configuração usando as credenciais do Azure AD, o dispositivo se registra no Microsoft Intune, que pode então assumir o processo de implantação e aplicar os aplicativos, as configurações de atualizações de software e as políticas de conformidade. O Windows Autopilot também pode, como opção, evitar que o usuário acesse a primeira sessão até que o provisionamento seja concluído.
 
@@ -117,9 +115,21 @@ Em seguida, quando um usuário se conecta ao PC durante a configuração usando 
 
 [Pré-requisitos do Windows Autopilot](https://docs.microsoft.com/pt-BR/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
 
+## <a name="windows-update-for-business-for-feature-updates"></a>Atualizações de recursos do Windows Update para Empresas
+
+O Windows Update para Empresas é um serviço gratuito que permite que profissionais de TI mantenham os dispositivos Windows 10 sempre atualizado, conectando-os diretamente ao serviço de atualização do Windows. O Windows Update para Empresas pode ser configurado na Política de grupo ou nas soluções MDM como Microsoft Intune e permite que profissionais de TI criem [anéis de implantação](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-deployment-rings-windows-10-updates) para validar os novos builds. Ele está integrado às ferramentas de gerenciamento existentes, como o WSUS (Windows Server Update Services), o System Center Configuration Manager (ramificação atual) e o Microsoft Intune. Além disso, o Windows Update para Empresas dá suporte à distribuição ponto a ponto para ajudar a otimizar a eficiência da largura de banda e reduzir o congestionamento da rede.
+
+Para saber mais sobre o Windows Update para Empresas, examine a documentação a seguir:
+
+- [Implantar atualizações usando o Windows Update para Empresas](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-manage-updates-wufb)
+- [Configurar o Windows Update para Empresas](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-configure-wufb)
+- [Integrar o Windows Update para Empresas nas ferramentas de gerenciamento existentes](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-integrate-wufb)
+- [Usar a Política de grupo para configurar o Windows Update para Empresas](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-wufb-group-policy)
+- [Usar o Microsoft Intune para configurar o Windows Update para Empresas](https://docs.microsoft.com/pt-BR/intune/windows-update-for-business-configure)
+
 ## <a name="next-step"></a>Próxima etapa 
 
-## <a name="step-7-windows-and-office-as-a-servicehttpsakamsmdd7"></a>[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)
 
 ## <a name="previous-step"></a>Etapa anterior
 

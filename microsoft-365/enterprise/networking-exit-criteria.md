@@ -3,36 +3,35 @@ title: 'Fase 1: Critérios de saída para infraestrutura de rede'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura de rede.
-ms.openlocfilehash: 8161fa2b92ffb4c7c4713e9356c0bc1bfec39d07
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 9ea601d66ef2df0d7a4efde188a70c51e3fb9f60
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291363"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Fase 1: Critérios de saída para infraestrutura de rede
 
 ![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-Se a sua infraestrutura de rede atender às condições a seguir, você estará pronto para passar para a Fase 2.
+Verifique se sua infraestrutura de rede atende aos seguintes critérios necessários e que você considerou os que são opcionais.
 
 <a name="crit-networking-step1"></a>
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
 - Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise
-- Escritórios centrais para todo o tráfego de Internet geral
-- Filiais para otimizar o tráfego de ponto de extremidade da categoria
 - Sua rede geral mapeia para uma arquitetura de referência do Office 365
+- As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego 
 
 Se necessário, a [Etapa 1](networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.
 
@@ -78,8 +77,10 @@ Você deve otimizar as configurações de TCP em seus dispositivos cliente e par
 
 Se necessário, a [Etapa 5](networking-optimize-tcp-performance.md) pode ajudá-lo com essa opção.
 
-## <a name="next-phase"></a>Próxima fase
+## <a name="results-and-next-steps"></a>Resultados e próximas etapas
+
+Seus usuários de intranet já estão prontos para consumir os serviços de nuvem da Microsoft 365 usando um caminho de rede eficiente para a Internet e através dela.
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| A sua próxima fase do processo de implantação de ponta a ponta para o Microsoft 365 Enterprise é a [identidade](identity-infrastructure.md). |
+|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Se você estiver seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será [identidade](identity-infrastructure.md). |

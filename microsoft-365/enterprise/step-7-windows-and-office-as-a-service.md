@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 7: Windows e Office como serviço'
+title: Etapa 7 - Manutenção do Windows e do Office
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,40 +12,38 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Saiba como se preparar para o Windows e o Office como serviço em seu ambiente.
-ms.openlocfilehash: 5c3eb54e07b1cc5492a6d938e97286283fc47ca7
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: Saiba como se preparar para a manutenção do Windows e do Office em seu ambiente.
+ms.openlocfilehash: 5e78c669ef1570acb35e5b939ac66f81317762bd
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289957"
 ---
-# <a name="step-7-windows-and-office-as-a-service"></a>Etapa 7: Windows e Office como serviço
-
-Prepare-se para as atualizações semestrais de canal com novos recursos e funcionalidades no Windows 10 e no Office 365 ProPlus, juntamente com as atualizações correspondentes para ferramentas de gerenciamento do Branch Atual do System Center Configuration Manager.
+# <a name="step-7-windows-and-office-servicing"></a>Etapa 7: Manutenção do Windows e do Office
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-1.png)
 
 <table>
 <thead>
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
-<td><p><strong>Etapa 7: Preparação para o Windows e Office como serviço</strong></p>
+<td><p><strong>Etapa 7: Manutenção do Windows e do Office</strong></p>
 <p>O Windows 10 e o Office 365 ProPlus adicionam continuamente novos recursos para melhorar a segurança e a experiência do usuário com as últimas inovações. Saiba como instalar as atualizações semestrais e mensais, descubra como o novo modelo de serviço funciona e que opções e ferramentas você tem.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->O Windows e Office como serviço é a sétima etapa no nosso processo de implantação recomendado que aborda os aspectos de planejamento de preparação para atualizações semestrais dos recursos. Para ver o processo completo de implantação do computador, acesse o [Centro de Implantação do Computador Moderno](https://aka.ms/HowToShift).
+>A manutenção do Windows e do Office é a sétima etapa no nosso processo de implantação recomendado que aborda os aspectos de planejamento de preparação para atualizações semestrais dos recursos. Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-O Windows 10 e o Office 365 ProPlus apresentam novas opções de serviço, modelos de suporte e cronogramas de atualização. Essas alterações simplificam o processo para você se manter atualizado sobre os recursos mais recentes. Com essas atualizações, há novas opções de configuração para habilitar os planos de serviço que atendam às suas necessidades.
+O Windows 10 e o Office 365 ProPlus apresentam novas opções de manutenção, modelos de suporte e linhas do tempo de atualizações. Essas alterações simplificam o processo para se manter atualizado com os recursos mais recentes. Com essas atualizações, há novas opções de configuração para habilitar os planos de manutenção que atendam às suas necessidades. Saiba como se preparar para as atualizações nos canais semestrais, as quais oferecem novos recursos e funcionalidades no Windows 10 e no Office 365 ProPlus, ao mesmo tempo que aprimoram novas funcionalidades no Branch Atual do System Center Configuration Manager.
 
-[Ajudar os clientes a migrarem para um computador moderno](https://www.microsoft.com/pt-BR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
+[Como ajudar clientes a mudar para o Windows 10 e o Office 365 ProPlus](https://www.microsoft.com/pt-BR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
 ## <a name="update-types"></a>Tipos de atualização
 
-As atualizações enquadram-se em duas categorias principais, atualizações de recursos e atualizações de segurança e qualidade, que contêm correções cumulativas de bugs, confiabilidade e erros. Em termos de frequência, o Windows e o Office oferecem um canal semestral que fornece novos recursos duas vezes por ano em torno de março e setembro, enquanto as atualizações de qualidade e segurança ocorrem mensalmente. Além disso, oferecemos atualizações mensais de canal exclusivas para aplicativos do Office 365, com suporte total e novas atualizações de recursos e qualidade.
+Há duas categorias principais de atualizações, as atualizações de recursos e, posteriormente, as atualizações de qualidade e segurança que contêm correções de bugs, confiabilidade e segurança cumulativa. Em termos frequência, tanto o Windows quanto o Office oferecem um canal semestral que fornece novos recursos duas vezes por ano, por volta de março e de setembro, enquanto as atualizações de qualidade e segurança ocorrerem mensalmente. Além disso, oferecemos com exclusividade para os aplicativos do Office 365 uma opção de canal mensal, com suporte total, em que há atualizações de novos recursos e de qualidade.
 
 Se você está acostumado a um ciclo mais longo entre as atualizações do sistema operacional da área de trabalho e de aplicativo, deve estar se perguntando:
 
@@ -71,11 +69,9 @@ Fornecer atualizações de qualidade e segurança como um pacote de atualizaçã
 
 Com o modelo cumulativo, basta apenas uma única atualização e a quantidade de atualizações mensais que você precisa implantar é menor. Cada atualização contém as atualizações dos meses anteriores e todas as correções necessárias. As atualizações cumulativas são especialmente úteis quando os computadores ficaram desligados por vários meses por estarem aguardando serem reatribuídos a outro usuário.
 
-[Visão geral do Windows como serviço](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview)
+### <a name="expanded-validation-of-updates"></a>Validação expandida das atualizações
 
-### <a name="expanded-validation-of-updates"></a>Validação expandida de atualizações
-
-Outra vantagem é que, antes de lançar as atualizações de implantação geral, primeiro lançamos builds por meio dos programas Insider para [Office](https://products.office.com/en-us/office-insider?tab=Windows-Desktop) e [Windows](https://insider.windows.com/pt-BR/), e isso permite reunir comentários e telemetria antes de lançarmos atualizações amplamente. Agora, os programas Insider estão abertos para todos, para que você possa conhecer as atualizações antes de serem lançadas. Quando isso acontecer, já teremos recebido a telemetria de milhões de configurações, de modo que a qualidade das atualizações se torna inerentemente mais previsível
+Outra vantagem é que, antes de distribuirmos as atualizações para a ampla implantação, lançamos primeiro builds por meio dos programas Insider para o [Office](https://products.office.com/en-us/office-insider?tab=Windows-Desktop) e o [Windows](https://insider.windows.com/pt-BR/), o que nos permite obter dados de diagnóstico e comentários antes de lançar as atualizações de forma mais abrangente. Agora, os programas Insider estão abertos para todos, assim você poderá entender as atualizações com antecedência. Quando lançarmos as atualizações, já teremos recebido dados de diagnóstico de milhões de configurações; portanto, ao disponibilizamos as atualizações, a qualidade será inerentemente mais previsível
 
 E uma última coisa. Como os builds do Office 365 ProPlus Insider refletirão as atualizações de canal mensais, se você estiver usando um canal semestral para o Office para fornecer atualizações de recursos duas vezes por ano com alinhamento ao Windows, também poderá validar esses builds antecipadamente usando as versões direcionadas do canal semestral.
 
@@ -86,6 +82,26 @@ Também pensamos em como simplificar a implantação das atualizações para voc
 [Implantar as atualizações do Windows 10 usando o System Center Configuration Manager](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-manage-updates-configuration-manager)
 
 [Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+
+## <a name="overview-of-windows-and-office-channels"></a>Visão geral dos canais do Windows e do Office
+
+O Windows 10 oferece três canais de manutenção:
+
+- O [**Programa Windows Insider**](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview#windows-insider) é direcionado para que as organizações testem e forneçam comentários sobre os recursos que serão disponibilizados na atualização de recursos seguinte
+- O **Canal Semestral** fornece novas funcionalidades com as versões de atualização de recursos, duas vezes por ano
+- O **Canal de Manutenção em Longo Prazo** é projetado somente para dispositivos especializados que necessitam de uma opção de manutenção mais longa
+
+O Office 365 oferece quatro canais de manutenção:
+
+- O [**Programa Office Insider**](https://support.office.com/pt-BR/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) é direcionado para que as organizações testem e forneçam comentários sobre os recursos e as funcionalidades mais recentes do Office ainda em desenvolvimento
+- O **Canal Mensal** oferece aos usuários os recursos mais recentes do Office, assim que eles são disponibilizados.
+- O **Canal Semestral** fornece novas funcionalidades com novos recursos, apenas duas vezes por ano
+- O **Canal Semestral (direcionado)** é um build com suporte total do Office que permite aos usuários-piloto e a testadores de compatibilidade do aplicativo testar e validar o próximo Canal Semestral
+
+Para obter informações detalhadas sobre os canais de manutenção do Windows e do Office, examine a documentação a seguir:
+
+- [Visão geral do Windows como Serviço](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview#servicing-channels)
+- [Visão geral dos canais de atualização do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Implantação de atualizações em fases
 

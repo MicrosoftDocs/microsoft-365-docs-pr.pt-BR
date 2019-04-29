@@ -9,7 +9,7 @@ Se necessário, a [Etapa 1](../windows10-prepare-your-org.md) pode ajudá-lo com
 
 ### <a name="optional-your-users-are-added-and-licensed"></a>Opcional: os usuários são adicionados e licenciados
 
-As contas que correspondem aos usuários são adicionadas, diretamente ao locatário do Azure AD para as assinaturas do Office 365 e do Intune ou na sincronização de diretório do Windows Server AD local.
+As contas que correspondem aos usuários são adicionadas, diretamente ao locatário do Azure AD para as assinaturas do Office 365 e do Intune ou na sincronização do diretório dos Serviços de Domínio do Active Directory (AD DS) local.
 
 Depois de adicionar os usuários, atribua licenças do Microsoft 365 Enterprise a eles, diretamente como um administrador de usuários ou global ou automaticamente usando uma associação de grupo.
 
@@ -41,13 +41,13 @@ Se necessário, a [Etapa 2](../windows10-deploy-inplaceupgrade.md) pode ajudá-l
 
 Para usar o Windows Autopilot para implantar e personalizar o Windows 10 Enterprise um novo dispositivo, você deve:
 
-- Definir níveis de dados adequados de diagnóstico do Windows
-- Ter concluído os pré-requisitos para o Windows Autopilot, que incluem:
-- Registro do dispositivo e personalização da OOBE
-- Identidade visual da empresa para OOBE
-- Registro automático do MDM do Microsoft Intune
-- Conectividade de rede para os serviços de nuvem usados pelo Windows Autopilot
-- Os dispositivos devem estar pré-instalados no Windows 10, versão 1703 ou posterior
+- Definir os níveis adequados de dados de diagnóstico do Windows
+- Definir os pré-requisitos para o Windows Autopilot, que incluem:
+   - Registro do dispositivo e personalização da OOBE
+   - Identidade visual da empresa para OOBE
+   - Registro automático do MDM do Microsoft Intune
+   - Conectividade de rede para os serviços de nuvem usados pelo Windows Autopilot
+- Dispositivos que estão pré-instalados no Windows 10, versão 1703 ou posterior
 - Selecionado o Windows Autopilot Deployment Program para sua organização
 
 Depois de concluir a configuração do Windows Autopilot, você pode usá-lo para configurar e personalizar o Windows 10 Enterprise com a OOBE ( Configuração Inicial pelo Usuário) para:
