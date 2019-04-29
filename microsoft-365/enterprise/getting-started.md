@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: cd8b46189616ac4c981fa83ac097a9bbe01bfb90
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 984175c781f9fee87fb615b7906bda5d88fe874e
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400275"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
