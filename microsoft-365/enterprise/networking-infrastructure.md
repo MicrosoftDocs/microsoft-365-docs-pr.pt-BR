@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de rede do Microsoft 365 Enterprise.
 ms.openlocfilehash: 9b8c23d543eca97147801d70e42de7105266c52d
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399955"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Fase 1: Infraestrutura de rede para o Microsoft 365 Enterprise
 

@@ -11,11 +11,11 @@ manager: laurawi
 audience: itpro
 ms.collection: GDPR
 ms.openlocfilehash: 074270c11bfb78233607d579231738573969fdfa
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400295"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Office 365 para o RGPD
 
