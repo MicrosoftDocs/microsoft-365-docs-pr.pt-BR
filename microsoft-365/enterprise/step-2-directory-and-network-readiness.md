@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: e690e99110e647ffc06c9ff7d40b789d8670e571
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: cc3dcc1dd9c2e8d9c79f52de76b116ef7f9dffac
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864698"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400165"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -36,7 +36,7 @@ Assegure-se de que seu diretório e sua rede estejam configurados e prontos para
 </table>
 
 >[!NOTE]
->Preparação de rede e diretório é a segunda etapa no processo de implantação recomendado que se concentra no Azure Active Directory e na otimização da rede. Para ver o processo completo de implantação, acesse [Centro de implantação do Computador Moderno](https://aka.ms/HowToShift).
+>Diretório e Preparação de Rede é a segunda etapa em nosso processo de implantação recomendado, enfocando o Azure Active Directory e a otimização da rede. Para ver o processo completo de implantação do desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
 A preparação de rede e diretório é fundamental para assegurar uma implantação descomplicada do sistema operacional e da área de trabalho. Como em qualquer implantação automatizada, é importante assegurar que seus compartilhamentos de arquivos possam ser acessados, e sua rede precisará ser capaz de comportar a transferência de arquivos grandes, para possivelmente centenas ou até mesmo milhares de PCs por vez.
@@ -47,25 +47,25 @@ Neste artigo, exploraremos as ferramentas e as opções para preparar seus servi
 
 ## <a name="adding-azure-active-directory"></a>Adição do Azure Active Directory
 
-Se sua organização usa o Office 365, o Exchange Online, o Microsoft Intune ou outros serviços do Microsoft Online, a boa notícia é que você já está usando o Azure Active Directory. Caso esteja, será necessário apenas assegurar que os usuários de destino para a implantação da área de trabalho estejam no seu Azure Active Directory e que as licenças tenham sido atribuídas.
+Se sua organização usa o Office 365, o Exchange Online, o Microsoft Intune ou outros serviços do Microsoft Online, a boa notícia é que você já está usando o Azure Active Directory. Caso já esteja usando, apenas verifique se os usuários aos quais você está direcionando a implantação de desktop estão em seu Azure Active Directory e se as licenças foram atribuídas.
 
-Caso não esteja usando o Azure Active Directory no momento, há [diversos recursos](https://docs.microsoft.com/pt-BR/azure/active-directory/) para ajudar a configurá-lo. Você também pode se qualificar para assistência personalizada pelo Microsoft FastTrack, como parte da sua licença do Office 365. Saiba mais sobre o [Microsoft Fastrack](https://fasttrack.microsoft.com).
+Se atualmente não estiver usando o Azure Active Directory, há [vários recursos](https://docs.microsoft.com/pt-BR/azure/active-directory/) para ajudá-lo a configurá-lo. É possível que você esteja habilitado a receber assistência personalizada por meio do Microsoft FastTrack, como parte da licença do Office 365. Saiba mais sobre o Microsoft Fastrack clicando [aqui](https://fasttrack.microsoft.com).
 
 Depois que o Azure Active Directory estiver configurado, os usuários poderão entrar e ativar os aplicativos do Office 365 ProPlus, e você poderá usar a implantação do Microsoft Intune ou do Windows Autopilot para implantação automatizada de aplicativos e políticas.
 
 ## <a name="network-readiness"></a>Preparação de rede
 
-Você deve considerar os requisitos de largura de banda ao planejar suas implantações. Há três componentes principais em uma implantação que terão efeito na sua rede: geração de imagem de computador; atualizações de software; personalização de usuário. Entre eles, isso pode significar um excesso de 20 GB por PC para a migração inicial e, frequentemente, 1 GB ou mais por mês por PC para ficar atualizado.
+É necessário considerar os requisitos de largura de banda ao planejar suas implantações. Há três componentes principais em uma implantação que terão impacto na rede: geração de imagens de computador, atualizações de software e personalizações de usuário. Entre eles, isso pode significar mais de 20 GB por computador para a migração inicial e geralmente 1 GB ou mais mensal por computador para se manter atualizado.
 
 Vamos começar explorando os requisitos de cada um desses três componentes principais:
 
 ### <a name="pc-imaging"></a>Geração de imagens de computador
 
-O gráfico abaixo ajuda a planejar com base no tamanho da imagem. Nas imagens do Windows sem personalização, você deve planejar normalmente 3 GB por PC, ainda que, para as imagens personalizadas com aplicativos, você possa precisar disponibilizar 6 GB ou mais. Também poderá ser necessário considerar pacotes de drivers; isso pode representar algumas centenas de megabytes por PC, às vezes até 1 GB.
+Para imagens do Windows sem personalização, é preciso planejar normalmente 3GB por computador, enquanto para imagens personalizadas com aplicativos é necessário permitir 6GB ou mais. Também convém considerar pacotes de driver, que podem ser algumas centenas de MB por computador até 1 GB, algumas vezes.
 
 ### <a name="software-updates"></a>Atualizações de software
 
-Você precisará planejar a largura de banda de atualizações de software. O Windows 10 e o Office 365 ProPlus usam um novo modelo de manutenção que distribui atualizações mensais e semestrais. Caso seja novo nesse modelo, saiba mais sobre [como ele funciona](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview).
+Será necessário planejar a largura de banda de rede para as atualizações de software. O Windows 10 e o Office 365 ProPlus usam um novo modelo de manutenção com atualizações mensais e semestrais. Se você estiver começando a usar esse modelo, saiba mais sobre como ele funciona [aqui](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview).
 
 O novo modelo de manutenção inclui atualizações de recursos semestrais para o Windows, atualizações de canal semestrais para o Office e atualizações de qualidade mensais. As atualizações de recursos normalmente têm entre 2 e 4 GB, e as atualizações de canal semestrais do Office têm entre 300 e 400 MB por atualização. Então há as atualizações mensais de qualidade. Elas podem ter entre algumas centenas de megabytes e mais de um gigabyte. Isso acontece porque as atualizações mensais são cumulativas, então o tamanho delas aumenta durante o ciclo de vida da manutenção de cada versão do Windows 10. Dito isso, confira as ferramentas que podem reduzir a quantidade de dados que precisam passar pela rede para implementar atualizações. Abordaremos isso em mais detalhes abaixo.
 
@@ -103,29 +103,29 @@ As opções de ponto a ponto estão sendo cada vez mais usadas em migrações do
 
 O **BranchCache** ajuda a baixar o conteúdo em ambientes distribuídos sem saturar a rede. São duas opções: modo de cache hospedado, que permite usar os servidores locais para armazenar conteúdo em cache, e modo de cache distribuído (um modo com suporte no System Center Configuration Manager), que permite aos clientes compartilhar o conteúdo já baixado entre eles.
 
-**Cache de mesmo nível** Os clientes com suporte no System Center Configuration Manager também podem usar o cache de mesmo nível. Isso permite que os PCs disponíveis com segurança na rede hospedem a fonte de distribuição de conteúdo. Não convém habilitar essa opção em todos os PCs, apenas os com conexões confiáveis com a rede como hosts (por exemplo, área de trabalho, minitorre ou PCs de torre). O cache de mesmo nível pode até mesmo funcionar para tarefas de implantação em execução nas fases do Windows PE durante a configuração.
+**Cache Par** Os clientes com suporte no System Center Configuration Manager também podem utilizar o Cache Par. Isso permite que os computadores disponibilizados de maneira confiável na rede hospedem a origem para a distribuição de conteúdo. Não habilite isso em todos os computadores, mas apenas nos dispositivos com conexões de rede confiáveis como hosts (por exemplo, desktop, minitorre ou PCs em torre). O Cache Par pode funcionar até para tarefas de implantação em execução em fases do Windows PE durante a instalação.
 
 Observação: BranchCache e cache de mesmo nível são complementares e podem funcionar juntos no mesmo ambiente.
 
 [BranchCache versus Cache Par](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**Otimização de distribuição** A otimização de distribuição é outra tecnologia ponto a ponto de armazenamento em cache, oferecendo controles baseados na rede para implantações do Windows. A otimização de distribuição do Windows 10 para atualizar aplicativos UWP internos, também para instalar aplicativos pela Microsoft Store e para atualizações de software usando Atualizações Expressas. Está disponível desde as primeiras versões do Windows 10, ainda que tenha sido integrada apenas recentemente ao System Center Configuration Manager. Desde o Windows 10 versão 1803, novas opções de configuração significam que você agora pode definir limites de largura de banda de forma independente para atualizações em segundo plano e trabalhos em primeiro plano, como a instalação de aplicativos da Store.
+**Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Essa otimização está disponível desde as versões anteriores do Windows 10, mas ela foi recentemente integrada ao System Center Configuration Manager. Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
-**Considerações adicionais do Office 365 ProPlus**
+**Considerações adicionais sobre o Office 365 ProPlus**
 
-Confira três itens que reduzirão a carga de rede devido a implantações do Office 365 ProPlus.
+Além de aprimorar a Otimização de Entrega, veja a seguir três itens que ajudarão a reduzir a carga de rede em razão de implantações do Office 365 ProPlus.
 
 **Compactação delta binária** O Office 365 ProPlus usa a compactação delta binária para reduzir a largura de banda consumida pelas atualizações de software ao atualizar da versão mais recente do Office 365 ProPlus para a nova versão. Ao obter apenas as alterações de nível binário da versão anterior, o impacto do crescimento mensal de atualizações cumulativas é minimizado. Isso tem o potencial para economizar diversas centenas de dados, por PC, a cada mês. Para usar esse recurso, não é possível pular versões. Se fizer isso, a atualização cumulativa completa deverá ser baixada.
 
 [Baixar as atualizações do Office 365](https://docs.microsoft.com/pt-BR/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
-**Arquivos de dados do Outlook** O Outlook frequentemente é configurado para armazenar toda a caixa de correio do usuário localmente para uso offline. Em qualquer implantação do Windows, exceto na atualização no local, isso requer que os arquivos de dados do Outlook dos usuário se recriem depois da atualização. Isso é um processo automatizado, mas com os limites das caixas de correio do Outlook normalmente configurados para até 100 GB, refazer o cache da caixa de correio inteira localmente para todos os usuário significa muita transferência de dados. Para reduzir a carga da rede, considere o uso da Política de Grupo para reduzir a configuração "Emails a manter offline". No Outlook no Office 365 ProPlus ou no Outlook 2016, o valor padrão está definido para 12 meses. Considere configurar o cache offline para durar entre 1 e 6 meses. A alteração dessa configuração não afeta o tamanho da caixa de correio online, e a caixa de correio inteira ainda poderá ser pesquisada pelo Outlook quando estiver online.
+**Arquivos de Dados do Outlook** O Outlook geralmente está configurado para armazenar localmente em cache toda a caixa de correio do usuário para uso offline. Em qualquer implantação do Windows, exceto em uma atualização in-loco, são necessários os Arquivos de dados do Outlook dos usuários para recriá-los por conta própria após a atualização. Este é um processo automatizado, mas com limites de caixas de correio do Outlook normalmente definidos em até 100 GB, um novo armazenamento local em cache de toda a caixa de correio de todos os usuários indica muita transferência de dados. Para reduzir a carga da rede, considere a possibilidade de usar a Política de Grupo para reduzir a configuração de “Email para manter offline”. No Office 365 ProPlus ou Office 2016, o valor padrão para o Outlook está definido como 12 meses. Para reduzir o impacto na rede, considere configurar o cache offline para ter uma duração entre 1 a 6 meses. Alterar essa configuração não afetará o tamanho da caixa de correio online, e toda a caixa de correio ainda pode ser pesquisada pelo Outlook quando estiver online.
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
-**Arquivos do OneDrive sob demanda para movimentação de pastas conhecidas** O OneDrive é uma excelente forma de sincronizar e proteger os arquivos dos usuários dos PCs e de outros dispositivos na nuvem. Com a movimentação de pastas conhecidas, você pode aplicar a sincronização de arquivos das pastas Área de Trabalho, Documentos e Imagens para o OneDrive, disponibilizando esses arquivos ao entrar em um novo dispositivo ou em um PC com uma nova imagem. Devido ao tamanho e ao número de arquivos mantidos nos locais Área de Trabalho, Documentos e Imagens, você deverá planejar as políticas habilitando e aplicando o OneDrive em seus PCs. Uma opção é usar os controles de Rede de Política de Grupo para controlar a largura de banda usada pelo serviço de sincronização do OneDrive.
+**Arquivos sob Demanda do OneDrive e Mudança de Pastas Conhecidas** O OneDrive é uma ótima maneira de sincronizar e proteger os arquivos do usuário de computadores e de outros dispositivos na nuvem. Com a Mudança de Pastas Conhecidas, você pode impor a sincronização de arquivos da Área de trabalho do usuário, de Documentos e das Pastas de imagens para o OneDrive, tornando esses arquivos disponíveis ao entrar em um novo dispositivo ou em um computador com imagem refeita. Entretanto, lembre-se de que, devido ao tamanho absoluto e ao número de arquivos mantidos na Área de trabalho, nas pastas Documentos e Imagens, é importante planejar bem a implementação das políticas que habilitam e impõem o OneDrive em seus computadores. Uma opção é usar os controles de Rede de Política de Grupo para limitar a largura de banda usada pelo serviço de sincronização do OneDrive.
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
 
@@ -133,7 +133,7 @@ Confira três itens que reduzirão a carga de rede devido a implantações do Of
 
 [Arquivos do OneDrive sob demanda](https://www.microsoft.com/pt-BR/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
-Caso ainda não tenha implementado o OneDrive, a migração do Windows 7 para o Windows 10 é uma excelente oportunidade de habilitar o OneDrive, e ele se integra de forma descomplicada ao Office 365 ProPlus. Considere iniciar a implementação enquanto estiver trabalhando na preparação do dispositivo e de aplicativos. Isso dará uma frente para a sincronização de arquivos antes que você comece a mover as imagens do Windows e implantar aplicativos pela rede.
+Se você ainda não implementou o OneDrive, a mudança do Windows 7 para o Windows 10 é a oportunidade perfeita para habilitar o OneDrive, que se integra facilmente ao Office 365 ProPlus. Considere iniciar essa implementação enquanto estiver trabalhando na preparação dos aplicativos e dispositivos. Isso iniciará a sincronização de arquivos antes de começar a mover as imagens do Windows e a implantar os aplicativos em sua rede.
 
 ## <a name="next-step"></a>Próxima etapa 
 

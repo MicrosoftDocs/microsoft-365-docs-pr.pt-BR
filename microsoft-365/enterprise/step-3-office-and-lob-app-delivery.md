@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como entregar aplicativos do Office e LOB.
-ms.openlocfilehash: 2bae1f159f7c8ae947d4afddfe1e608cdd8bc85b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 2fdd47fa38b3d9403bbd44869e4dfe012abd0f51
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865333"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400145"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Etapa 3: Entrega de aplicativos do Office e LOB
-
-Agora você está pronto para entregar seus aplicativos do Office e LOB. Há algumas maneiras de fazer isso, inclusive algumas novas opções incríveis. Reserve um tempo para analisar e escolher os melhores métodos para suas necessidades atuais.
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-1.png)
 
@@ -36,10 +34,10 @@ Agora você está pronto para entregar seus aplicativos do Office e LOB. Há alg
 </table>
 
 >[!NOTE]
->A entrega de aplicativos do Office e LOB é a terceira etapa de nossa roda da implantação recomendada que aborda as opções para instalar e gerenciar o Office e a LOB. Para uma implantação bem-sucedida, não ignore as primeiras duas etapas. Para ver o processo completo de implantação do computador, acesse o [Centro de Implantação do Computador Moderno](https://aka.ms/HowToShift).
+>A Entrega de Aplicativos do Office e LOB é a terceira etapa do processo de implantação recomendado, que aborda as opções de instalação e gerenciamento do Office e LOB. Para realizar uma implantação bem-sucedida, não ignore as primeiras duas etapas.  Para ver o processo completo de implantação do desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-Embora alguns aplicativos só estejam disponíveis como uma versão compilada de 32 ou 64 bits, outros, incluindo o Office 365 ProPlus, tanto como código compilado nativo de 32 e de 64 bits, e uma das maiores decisões que você fará é a versão que deseja implantar. Para aproveitar a RAM e a capacidade de cálculo adicionais em novos dispositivos, convém usar a versão de 64 bits, mas, antes disso, será necessário descobrir quaisquer dificuldades de compatibilidade relacionadas a arquivo ou a suplemento existentes. Para isso, talvez você precise voltar a visitar a Etapa 1 Preparação de dispositivos e aplicativos antes de continuar.
+Agora você está pronto para implantar o Office e seus Aplicativos LOB (Linha de Negócios). Há algumas maneiras de fazer isso, inclusive algumas opções novas e incríveis. Enquanto alguns aplicativos só estão disponíveis como uma versão de 32 ou 64 bits compilada, outros como o Office 365 ProPlus, oferecem o código compilado nativo de 32 e 64 bits, e uma das principais decisões que você tomará será sobre a versão que deseja implantar. Para aproveitar a potência computacional adicional e a RAM em novos dispositivos, a Microsoft recomenda usar a versão de 64 bits quando não há nenhuma dependência de 32 bits. Para determinar possíveis dificuldades de compatibilidade do suplemento ou relacionadas a arquivos, é recomendável rever a Etapa 1, Preparação de dispositivos e aplicativos, antes de continuar.
 
 Se nada estiver impedindo você, recomendamos a implantação de versões de 64 bits de todos os aplicativos, incluindo o Microsoft Office. Os aplicativos nativos compilados de 64 bits oferecem o melhor desempenho e são a opção mais adequada para o futuro.
 
@@ -49,7 +47,7 @@ Há muitos métodos e modelos para instalar aplicativos no Windows, portanto, va
 
 ## <a name="msi-based-deployments"></a>Implantações baseadas em MSI
 
-Para seus aplicativos de linha de negócios, você provavelmente usará pacotes ou executáveis baseados em MSI e instalará aplicativos como parte de uma sequência de tarefas de distribuição de SO. O Windows 10 continua a funcionar com esses pacotes
+Para seus aplicativos LOB, você provavelmente usará executáveis ou pacotes baseados em MSI e instalará aplicativos como parte de uma sequência de tarefas da implantação do sistema operacional. O Windows 10 continua a funcionar com esses pacotes.
 
 As ferramentas de implantação de software, como o System Center Configuration Manager e o Microsoft Intune, também são otimizadas para entregar aplicativos empacotados por MSI. Depois de validar seus aplicativos no Windows 10, você poderá usar o System Center Configuration Manager (ramificação atual) para a entrega de aplicativos. Se usar o Portal da Empresa no Microsoft Intune, você poderá estender a escolha de aplicativos sancionados pela TI disponíveis para a sua organização, com a finalidade de incluir os aplicativos mais recentes, e os usuários para que escolham eles mesmos o que precisam.
 
@@ -57,21 +55,29 @@ As ferramentas de implantação de software, como o System Center Configuration 
 
 ## <a name="pc-imaging"></a>Geração de imagens de computador
 
-Outro método popular de entrega de aplicativos é a geração de imagens de computador. Nesse caso, os aplicativos são instalados via sequência de tarefas ou manualmente em um computador de amostra e, em seguida, uma imagem do sistema é capturada com os aplicativos necessários pré-instalados. A abordagem de geração de imagens para criar e capturar pode economizar tempo ao provisionar novos computadores, mas lembre-se de que sistemas operacionais e aplicativos dentro da imagem podem se tornar obsoletos rapidamente. O modelo de Atualização Cumulativa no Windows 10 e no Office 365 ProPlus ajuda com esse problema, mas não o elimina completamente. É por isso que recomendamos uma abordagem de imagem fina, em que seus aplicativos são instalados de fora da imagem no momento da implantação.
+Outro método popular de entrega de aplicativos é a geração de imagens do computador. Nesse caso, os aplicativos estão instalados por meio da sequência de tarefas ou manualmente em uma amostra de computador e, em seguida, uma imagem do sistema é capturada com os aplicativos necessários pré-instalados. A abordagem de geração de imagens para criar e capturar economiza tempo ao provisionar computadores novos, mas lembre-se de que os sistemas operacionais e os aplicativos dentro da imagem podem ficar obsoletos rapidamente. O modelo de Atualização Cumulativa do Windows 10 e do Office 365 ProPlus ajuda nesse problema, mas não o elimina completamente. Isso ocorre porque é recomendável uma abordagem de imagem fina, em que os aplicativos são instalados de fora da imagem no momento da implantação.
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-4.png)
 
-Se você quiser incluir o Office 365 ProPlus na sua imagem, lembre-se de que isso usa uma ativação baseada no usuário; não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para pré-instalar o Office no dispositivo que você está gerando imagens e ignorar a entrada do usuário. Os usuários podem entrar, receber a ativação e aproveitar outros recursos que aproveitam a entrada no primeiro uso.
+Se você quiser incluir o Office 365 ProPlus na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para pré-instalar o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais do Office 365 e ativar o Office 365 ProPlus.
 
 [Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/pt-BR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-## <a name="click-to-run"></a>Clique para Executar 
+[Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/pt-BR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
-O Office 365 ProPlus é instalado usando o Clique para Executar, e o Clique para Executar substitui o pacote baseado em MSI em todas as versões da próxima versão do Office 2019 para Windows. Ele traz várias vantagens, incluindo instalações mais rápidas, atualização mais rápida e eficiente e desinstalação mais limpa.
+## <a name="office-click-to-run"></a>Clique para Executar no Office 
 
-Os programas entregues por meio do Clique para Executar são executados em um ambiente de aplicativo virtual em seu computador e, assim, coexistem com outros aplicativos sem conflito; eles também ocupam metade do espaço em disco que usariam como um pacote baseado em MSI. E como o Clique para Executar oferece suporte ao streaming de programas, ao transmitir os recursos mais usados primeiro, os usuários podem começar a usar os aplicativos do Office em apenas alguns minutos, em vez de esperar que o Office seja instalado totalmente primeiro. Isso é importante não apenas para a implantação inicial, isso significa que as atualizações podem ser transmitidas perfeitamente em segundo plano com impacto mínimo nos usuários.
+O Office 365 ProPlus é instalado usando a tecnologia Clique para Executar; ela substitui o pacote baseado em MSI em todas as versões de lançamento do futuro Office 2019 para Windows. Esse recurso apresenta diversas vantagens, incluindo instalações mais rápidas, atualizações mais eficientes e ágeis e desinstalações mais limpas. 
+
+Os programas instalados por meio da tecnologia Clique para Executar são executados em um ambiente virtual do aplicativo em seu computador e, então, coexistem com outros aplicativos sem conflito; eles também ocupam metade do espaço em disco que ocupariam como um pacote baseado em MSI. Os aplicativos do Office são entregues e gerenciados por meio da [Ferramenta de implantação do Office](https://www.microsoft.com/en-us/download/details.aspx?id=49117) que é o mecanismo de instalação necessário para baixar, configurar e personalizar os aplicativos do Office. A ferramenta de implantação do Office lê um arquivo XML de configuração que fornece instruções de metadados sobre como configurar e personalizar a instalação do Office.
+
+A Microsoft recomenda utilizar a [Ferramenta de Personalização do Office](https://config.office.com/) para personalizar as configurações de implantação e criar o arquivo XML de configuração. Por meio da Ferramenta de Personalização do Office é possível definir quais aplicativos e idiomas serão instalados, como os aplicativos serão atualizados, as preferências dos aplicativos e as configurações da experiência de instalação.
+
+![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-7.png)
 
 Se você usar o System Center Configuration Manager, ainda poderá usá-lo para uma ampla implantação do Office 365 ProPlus. O System Center Configuration Manager (ramificação atual) tem suporte nativo para a Ferramenta de Personalização do Office atualizada, personalização de pacote para o Clique para Executar no momento da instalação e suporte nativo para pós-instalação de gerenciamento de atualização de software.
+
+![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
 [Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/deployment-guide-for-office-365-proplus)
 
@@ -87,19 +93,19 @@ Há algumas coisas a serem consideradas para garantir que os aplicativos baseado
 
 Além disso, se você souber que os sites da sua intranet não funcionarão adequadamente no Microsoft Edge, poderá definir todos os sites da intranet para serem abertos usando o Internet Explorer 11 automaticamente. Esse processo usa um arquivo XML para determinar se o IE11 é usado para cada site, usando a Política de Grupo para impor configurações.
 
-Até agora, abordamos métodos de implantação bem conhecidos. Mas há duas novas abordagens para a implantação de aplicativos que você pode considerar.
-
 [O que é o Modo Empresarial](https://docs.microsoft.com/pt-BR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
+
+Por enquanto, abordamos métodos de implantação conhecidos. Mas há duas novas abordagens para a implantação de aplicativos que convém considerar.
 
 ## <a name="microsoft-store-for-business"></a>Microsoft Store para Empresas 
 
-A Microsoft Store para Empresas fornece uma maneira flexível de descobrir, adquirir, gerenciar e distribuir aplicativos gratuitos e pagos para dispositivos Windows 10 em grande escala. Como administrador de TI, você pode publicar aplicativos da Microsoft Store selecionados, juntamente com seus próprios aplicativos personalizados, em sua própria loja particular e atribuir e reutilizar licenças conforme necessário. Seus usuários são direcionados apenas a essa loja e, por isso, só podem encontrar e instalar aplicativos aprovados.
+A Microsoft Store para Empresas fornece uma maneira flexível para descobrir, adquirir, gerenciar e distribuir aplicativos pagos e gratuitos para dispositivos Windows 10 em escala. Como administrador de TI, você pode publicar aplicativos selecionados na Microsoft Store, juntamente com seus próprios aplicativos personalizados, para sua própria loja particular ao mesmo tempo em que atribui e reutiliza as licenças necessárias. Os usuários são direcionados apenas a essa loja, de modo que possam encontrar e instalar apenas os aplicativos aprovados.
 
 Os aplicativos da Store podem ser criados nativamente como aplicativos UWP, ou você pode usar a Ponte de Desktop para reempacotar seus aplicativos existentes para a Loja e adicionar experiências modernas para o Windows 10. Além do código usado para iluminar experiências do Windows 10, seu aplicativo permanece inalterado e continua a executar no modo de usuário de confiança total.
 
 ## <a name="msix-containerization"></a>Transporte em contêineres de MSIX
 
-Uma nova opção para o empacotamento de aplicativos é o MSIX. O MSIX usa a tecnologia de transporte em contêineres disponível no Windows, reunindo os melhores aspectos do empacotamento Clique para Executar, UWP e MSI. Com ferramentas para migrar instaladores existentes como EXE, MSI, APPV e APPX diretamente para o MSIX, vemos que o Transporte em Contêineres de MSIX fornece um caminho uniformizado para as muitas tecnologias de instalação em uso atualmente. O suporte a MSIX vem incluído nas versões atuais do Windows: qualquer dispositivo que execute o Windows 10 RS5 ou mais recente inclui tudo o que você precisa para instalar e executar aplicativos em pacote do MSIX. O Windows 10 integra dinamicamente os contêineres MSIX que recebe, mantendo os aplicativos separados do sistema operacional.
+Uma nova opção de pacote de aplicativos é o MSIX. O MSIX usa a tecnologia de transporte em contêineres disponível no Windows, reunindo os melhores aspectos da tecnologia Clique para Executar e do pacote UWP e MSI. Com ferramentas para migrar instaladores existentes, como EXE, MSI, APPV e APPX diretamente para MSIX, vemos que o Transporte em contêineres MSIX fornece um caminho unificado das muitas tecnologias de instalação em uso atualmente. O suporte ao MSIX está incluído nas versões atuais do Windows: qualquer dispositivo com o Windows 10 RS5 ou mais recente inclui tudo de que você precisa para instalar e executar aplicativos do pacote MSIX. O Windows 10 integra de forma dinâmica os contêineres MSIX que recebe, ao mesmo tempo em que mantém os aplicativos separados do sistema operacional.
 
 Transporte em contêineres significa desinstalação e remoção limpa de pacotes ao contrário de uma grande quantidade de pacotes baseados em MSI e EXE atualmente que pode deixar itens no sistema. Isso também significa apenas a necessidade de credenciais de Usuário Padrão para instalar aplicativos – você não precisa ter as credenciais de administrador para instalar contêineres MSIX. Contêineres MSIX são mais eficientes para atualizar também. Quando uma atualização for publicada, o uso de diferenciais de nível de bloqueio significa que apenas binários novos de rede são aplicados, reduzindo a carga de atualização, para implantações mais rápidas que consomem menos largura de banda.
 
