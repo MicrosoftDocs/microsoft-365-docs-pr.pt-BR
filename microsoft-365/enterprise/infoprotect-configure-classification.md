@@ -3,7 +3,7 @@ title: 'Etapa 2: Configurar classificações de ambiente'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 04/25/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar várias maneiras para classificar os dados em sua organização.
-ms.openlocfilehash: ca64b98bceb6f969adc964e93a6a1cc872763199
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5323e4f682e8a530601308877423502f64878a4c
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286969"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400085"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Etapa 2: Configurar classificações de ambiente
 
@@ -47,38 +47,31 @@ Tipos de informações confidenciais são especialmente úteis para cumprir exig
 
 Parte de definir uma estratégia de governança de dados é decidir por quanto tempo tipos específicos de documentos ou documentos com conteúdos específicos devem ser retidos em conformidade com políticas de organização e regulamentos regionais. Por exemplo, alguns tipos de documentos devem ser retidos por um período específico de tempo e depois apagados e outros devem ser retidos por tempo indeterminado.
 
-Para documentos armazenados no Microsoft 365, você define e aplica rótulos de retenção a documentos e dados armazenados no email do Exchange, SharePoint, OneDrive for Business e mensagens de canal e chat do Teams. Para mais informações, incluindo como criá-los, confira [Visão geral dos rótulos de retenção](https://docs.microsoft.com/office365/securitycompliance/labels).
+Para documentos armazenados no Microsoft 365, você define e aplica rótulos de retenção a documentos e dados armazenados no email do Exchange, SharePoint, OneDrive for Business e mensagens de canal e chat do Teams. 
 
 Se você usar rótulos de retenção, deve configurar um rótulo para cada categoria de arquivo que precisa de uma política de retenção aplicada. No rótulo de retenção, você pode especificar:
 
 - Um conjunto de descritores para os arquivos (por exemplo, por departamento empresarial, categoria de arquivo ou regulamento).
-
 - As configurações de retenção para os arquivos que possuem um rótulo de retenção anexado, como horários e comportamentos de retenção depois que atingirem o tempo de retenção.
 
 Você também pode aplicar automaticamente um rótulo de retenção aos arquivos configurando um site do SharePoint online para aplicar um rótulo de retenção padrão para todos os novos documentos no site. 
 
-Para saber mais, veja a [visão geral dos rótulos de retenção](https://docs.microsoft.com/office365/securitycompliance/labels).
+Para mais informações, confira a [visão geral dos rótulos de retenção](https://docs.microsoft.com/office365/securitycompliance/labels).
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 Parte de proteger e implementar a segurança para tipos específicos de documentos ou documentos com conteúdos específicos é marcá-los com um rótulo para que a segurança adicional possa ser aplicada. Com rótulos de confidencialidade no Microsoft 365, você pode:
 
 - Impor configurações de proteção como criptografia, permissões ou adicionar uma marca d´água.
-
 - Evitar que conteúdo confidencial saia de sua organização em dispositivos executando o Windows, usando a proteção de pontos de extremidade no Microsoft Intune. 
-
 - Usar a proteção de pontos de extremidade da Proteção de Informações do Windows (WIP) para evitar que um conteúdo seja copiado para um aplicativo de terceiros, como Twitter ou Gmail, ou que seja copiado para armazenamento removível, como uma unidade USB. 
-
 - Usar Segurança no Aplicativo de Nuvem da Microsoft para proteger conteúdo em aplicativos e serviços de terceiros. 
-
 - Classificar conteúdo sem usar nenhuma configuração de proteção.
 
 Se você usar rótulos de confidencialidade, você deve configurar um rótulo para cada nível de segurança e proteção de informações. Por exemplo, crie três rótulos de confidencialidade para:
 
 - Linha de base
-
 - Confidencial
-
 - Altamente controlado
 
 Para saber mais, confira a [visão geral de rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels).
@@ -102,12 +95,14 @@ Se você tem tanto os rótulos de confidencialidade como os rótulos de Proteç�
 
 Confira um exemplo de esquema de classificação que inclui os dados pessoais para GDPR em [Desenvolver um esquema de classificação para dados pessoais](https://docs.microsoft.com/office365/enterprise/architect-a-classification-schema-for-personal-data).
 
+## <a name="take-it-for-a-test-drive"></a>Levar para um test drive
+
 |||
 |:-------|:-----|
-|![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Classificação de dados](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
+|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Classificação de dados](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
-Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step3) correspondente desta etapa.
+Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step2) correspondente desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 

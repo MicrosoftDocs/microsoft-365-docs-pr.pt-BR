@@ -12,17 +12,17 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entender as principais fases da implantação da infraestrutura de base do Microsoft 365 Enterprise em sua organização.
-ms.openlocfilehash: 668775097eeffff569b99cc9fe4cd259f5d25c22
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Entenda as principais fases da implantação da infraestrutura básica para o Microsoft 365 Enterprise em sua organização, também conhecida como implantação principal.
+ms.openlocfilehash: e6b8a71f59f20633e323c71e931b930198bc4deb
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400045"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 Enterprise
 
-Se você vai realizar a implantação de ponta a ponta do Microsoft 365 Enterprise sozinho, primeiro você deve criar uma base firme sobre a qual aplicativos e serviços possam desbloquear a criatividade e o trabalho em equipe em um ambiente seguro. 
+Se você vai realizar a implantação de ponta a ponta do Microsoft 365 Enterprise sozinho, primeiro você deve criar uma base firme sobre a qual aplicativos e serviços possam desbloquear a criatividade e o trabalho em equipe em um ambiente seguro. Essa base é às vezes referida como a implantação principal.
 
 Para um caminho definido de ponta a ponta para implantação, você pode usar essas fases para planejar e implantar a infraestrutura de base do Microsoft 365 Enterprise:
 

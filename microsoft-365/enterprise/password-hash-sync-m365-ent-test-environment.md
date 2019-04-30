@@ -9,23 +9,23 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom:
 - TLG
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e demonstrar a sincronização de hash de senha e a entrada para o ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 3cee2b69ce34647627cb2b72f9e0f59a6fba17e9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a692f445bcb56044e9a6a29cee62facd22743733
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26865253"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353126"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Sincronização de hash de senha para ambiente de teste do Microsoft 365
 
-Muitas organizações usam o Azure AD Connect e a sincronização de hash de senha para sincronizar o conjunto de contas na floresta local do Windows Server Active Directory (AD) com o conjunto de contas no locatário do Azure AD, nas assinaturas do Office 365 e do EMS E5. Este artigo descreve como adicionar a sincronização de hash de senha ao ambiente de teste do Microsoft 365, resultando na seguinte configuração:
+Muitas organizações usam o Azure AD Connect e a sincronização de hash de senha para sincronizar o conjunto de contas na própria floresta do Active Directory Domain Services (AD DS) local com o conjunto de contas no locatário do Azure AD de suas assinaturas do Office 365 e EMS E5. Este artigo descreve como adicionar a sincronização de hash de senha a seu ambiente de teste do Microsoft 365, resultando na seguinte configuração:
   
 ![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
@@ -45,8 +45,8 @@ Siga as instruções da [configuração base corporativa simulada do Microsoft 3
   
 Esta configuração consiste em: 
   
-- Assinaturas permanentes ou de avaliação do Office 365 E5 e EMS E5.
-- Uma intranet de organização simplificada conectada à Internet, composta pelas máquinas virtuais DC1, APP1 e CLIENT1, em uma Rede Virtual do Microsoft Azure. O DC1 é um controlador de domínio do domínio testlab.\<nome de domínio público> do Windows Server Active Directory.
+- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.
+- Uma intranet de organização simplificada conectada à Internet, que consiste em máquinas virtuais do DC1, APP1 e CLIENT1 em uma rede virtual do Azure. O DC1 é um controlador de domínio para o testlab.\<seu nome de domínio público> domínio do Active Directory Domain Services (AD DS).
 
 ## <a name="phase-2-create-and-register-the-testlab-domain"></a>Fase 2 – Criar e registrar o domínio testlab
 
@@ -54,7 +54,7 @@ Nesta fase, você adiciona um domínio DNS público e o adiciona-o à assinatura
 
 Primeiro, trabalhe com um provedor de registro DNS público para criar um nome de domínio DNS público com base em um nome de domínio atual e adicioná-lo à assinatura do Office 365. Recomendamos usar o nome **testlab.**\<domínio público>. Por exemplo, se o nome de domínio público for <span>**contoso</span>.com**, adicione o nome de domínio público **<span>testlab</span>.contoso.com**.
   
-Em seguida, adicione o domínio **testlab.**\<domínio público> à assinatura permanente ou de avaliação do Office 365, passando pelo processo de registro de domínio. Isso consiste em adicionar outros registros DNS ao domínio **testlab.**\<domínio público>. Para saber mais, confira o artigo [Adicionar um domínio e usuários ao Office 365](https://support.office.com/article/Add-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611). 
+Em seguida, adicione o **testlab.**\<seu domínio público> domínio da sua assinatura de avaliação ou paga do Office 365 por meio do processo de registro de domínio. Isso consiste em adicionar outros registros DNS ao **testlab.**\<seu domínio público> domínio. Confira mais informações em [Adicionar usuários e domínio ao Office 365](https://support.office.com/article/Add-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611). 
 
 Esta é a configuração resultante.
   
@@ -62,14 +62,14 @@ Esta é a configuração resultante.
   
 Esta configuração consiste em:
 
-- Assinaturas permanentes ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TestLab.\<seu nome de domínio> registrado.
-- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.
+- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS testlab.\<seu nome de domínio público> registrado.
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure.
 
 Veja como o testlab.\<seu nome de domínio público> está agora:
 
 - Compatível com registros DNS públicos.
 - Registrado nas assinaturas do Office 365 e do EMS.
-- O domínio do Windows Server Active Directory na intranet simulada.
+- O domínio AD DS na sua intranet simulada.
      
 ## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Fase 3 – Instalar o Azure AD Connect na APP1
 
@@ -103,19 +103,17 @@ Primeiro, instale e configure o Azure AD Connect na APP1.
     
 10. Na página **Configuração concluída**, clique em **Sair**.
     
-11. No Internet Explorer, vá para o portal do Office 365 ([https://portal.office.com](https://portal.office.com)).
+11. No Internet Explorer, vá para o centro de administração do Microsoft 365 ([https://portal.microsoft.com](https://portal.microsoft.com)).
     
-12. Na página principal do portal, clique em **Admin**.
+12. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
     
-13. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
+    Observe a conta denominada **Usuario1**. Essa conta fica no domínio TESTLAB do AD DS e é uma prova de que a sincronização de diretórios funcionou.
     
-    Observe a conta denominada **Usuário1**. Essa conta fica no domínio TestLab do Windows Server Active Directory e é prova de que a sincronização de diretórios funcionou.
+13. Clique na conta **Usuário1**. Para licenças de produto, clique em **Editar**.
     
-14. Clique na conta **Usuário1**. Para licenças de produto, clique em **Editar**.
-    
-15. Em **Licenças de produto**, selecione o país/região e clique no controle **Desativado** da licença do **Office 365 Enterprise E5** (mudando-o para **Ativado**). Faça o mesmo procedimento para a licença do **Enterprise Mobility + Security E5**. 
+14. Em **Licenças de produto**, selecione o país/região e clique no controle **Desativado** da licença do **Office 365 Enterprise E5** (mudando-o para **Ativado**). Faça o mesmo procedimento para a licença do **Enterprise Mobility + Security E5**. 
 
-16. Clique em **Salvar**, no final da página, e clique em **Fechar**.
+15. Clique em **Salvar**, no final da página, e clique em **Fechar**.
     
 Em seguida, teste a capacidade de entrar na assinatura do Office 365 com a conta <strong>usuario1@testlab.</strong>\<seu nome de domínio > nome de usuário da conta Usuário1.
 
@@ -123,7 +121,7 @@ Em seguida, teste a capacidade de entrar na assinatura do Office 365 com a conta
 
 2. Quando solicitado a fornecer o nome de usuário e a senha, especifique <strong>usuario1@testlab.</strong>\<seu nome de domínio público> e a senha de Usuário1. Você deve entrar como Usuário1. 
  
-Embora o Usuário1 tenha permissões de administrador de domínio para o domínio do Windows Server Active Directory do TestLab, ele não é um administrador global do Office 365. Portanto, o ícone **Administrador** não estará disponível como opção. 
+Observe que, embora o Usuario1 tenha permissões de administrador de domínio para o domínio TESTLAB do AD DS, ele não é um administrador global do Office 365. Portanto, o ícone **Administrador** não estará disponível como opção. 
 
 Esta é a configuração resultante.
 
@@ -131,9 +129,9 @@ Esta é a configuração resultante.
 
 Esta configuração consiste em: 
   
-- Assinaturas permanentes ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TestLab.\<seu nome de domínio> registrado.
-- Uma intranet de organização simplificada conectada à Internet, composta pelas máquinas virtuais DC1, APP1 e CLIENT1, em uma sub-rede de uma Rede Virtual do Microsoft Azure. O Azure AD Connect Health é executado na APP1 para sincronizar periodicamente o domínio do Dev/Test Lab do Windows Server Active Directory com o locatário do Microsoft Azure AD, nas assinaturas do Office 365 e do EMS E5.
-- A conta Usuário1 no domínio TESTLAB do Windows Server AD foi sincronizada com o locatário do Azure AD.
+- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS TESTLAB.\<seu nome de domínio> registrado.
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado periodicamente no APP1 para sincronizar o domínio TESTLAB do AD DS com o locatário do Azure AD de suas assinaturas do Office 365 e EMS E5.
+- A conta Usuario1 no domínio TESTLAB do AD DS foi sincronizada com o locatário do Azure AD.
 
 ## <a name="next-step"></a>Próxima etapa
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: 3112589a023a563ff599535e1e9045a3d3db3bce
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: dca9d5938a5db9cb3bc00e4e34d1f939700a1182
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400055"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
@@ -41,13 +41,13 @@ Há três formas principais de implantar o Microsoft 365 Enterprise:
 
 O FastTrack é um benefício contínuo e repetível—disponível como parte de sua assinatura—que é entregue por engenheiros da Microsoft para ajudá-lo a mover para a nuvem no seu próprio ritmo. O FastTrack também lhe dá acesso a parceiros qualificados para serviços adicionais. Com mais de 40.000 clientes habilitados até o momento, FastTrack ajuda a maximizar o ROI, acelerar a implantação e aumentar a adoção em toda a sua organização. Conferir [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
 
-Se deseja aproveitar as vantagens do FastTrack para implantar o Microsoft 365 Enterprise, você pode usar o [consultor de implantação do Microsoft 365](https://aka.ms/microsoft365setupguide) do FastTrack para obter instruções sobre como implantar e configurar a infraestrutura de base. Note que você deve estar conectado como um administrador global em um locatário do Office 365 ou do Microsoft 365 para acessar esta página.
+Se deseja aproveitar as vantagens do FastTrack para implantar o Microsoft 365 Enterprise, você pode usar o [consultor de implantação do Microsoft 365](https://aka.ms/microsoft365setupguide) do FastTrack para obter instruções sobre como implantar e configurar a infraestrutura de base. Você deve estar conectado como administrador global em um locatário do Office 365 ou do Microsoft 365 para acessar esta página.
 
 Comece sua jornada de implantação de ponta a ponta com FastTrack [aqui](https://fasttrack.microsoft.com/microsoft365).
 
 ## <a name="microsoft-365-enterprise-deployment-guide"></a>Guia de implantação do Microsoft 365 Enterprise
 
-O Guia de Implantação do Microsoft 365 orienta você pela configuração correta e necessária dos produtos e recursos do Microsoft 365 Enterprise.
+O guia de implantação do Microsoft 365 Enterprise orienta você sobre a configuração correta e necessária dos produtos e recursos do Microsoft 365 Enterprise.
 
 Para implantar o Microsoft 365 Enterprise sozinho, você pode:
 

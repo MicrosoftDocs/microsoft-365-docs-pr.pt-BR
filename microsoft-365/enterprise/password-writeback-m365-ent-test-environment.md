@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: e2ccbe251c4e62790331b949f163816f789436cb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e80c169a8aefa60c9e7b3be874a1fb26c86078b6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291446"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353159"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
@@ -55,9 +55,9 @@ Esta configuração consiste em:
 
 Primeiro, configure a conta de Usuário 1 com a função de administrador global.
 
-1. No [portal do Office](https://office.com), entre com sua conta de administrador global.
+1. No [centro de administração do Microsoft 365](https://portal.microsoft.com), entre com sua conta de administrador global.
 
-2. Clique no bloco **Administração**. Na nova guia do navegador **Centro de administração do Microsoft 365**, clique em **Usuários ativos**.
+2. Clique em **Usuários ativos**.
  
 3. Na página **Usuários ativos**, clique na conta **usuário1**,
 

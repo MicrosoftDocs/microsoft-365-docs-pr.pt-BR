@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: 55ee8ff88490a82a9438b076bcebfab976f8baf6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1aade29c8a4f9348b749025818e433981ec19091
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289029"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353094"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -56,7 +56,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Contas de administrador global dedicadas com MFA e PIM
 
-  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas muito fortes e as protegeu com a autenticação multifator (MFA) do Azure AD Privileged Identity Management (PIM). 
+  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas muito fortes e as protegeu com a autenticação multifator (MFA) do Azure AD Privileged Identity Management (PIM).  O PIM está disponível apenas com o Microsoft 365 Enterprise E5.
 
   A entrada com uma conta de administrador global é realizada apenas para tarefas administrativas específicas, as senhas são conhecidas somente por funcionários designados e só podem ser usadas no horário configurado com o Azure AD PIM. 
 
@@ -105,7 +105,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 ## <a name="information-protection"></a>Proteção de informações
 
-- Proteja os ativos digitais confidenciais e altamente regulamentados com a Proteção de Informações do Azure
+- Proteja ativos digitais sensíveis e altamente regulamentados com rótulos de Proteção de Informações do Azure
 
   A Contoso determinou três níveis de proteção de dados e implantou rótulos da [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) que usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa sub-rótulos da Proteção de Informações do Azure para dados altamente regulamentados que criptografam conteúdo e restringem acesso a grupos de segurança específicos.
 
@@ -119,11 +119,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Monitoramento de nuvem com o Microsoft Cloud App Security
 
-  A Contoso está usando o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para mapear o ambiente de nuvem, monitorar o uso e detectar ocorrências e eventos de segurança. 
-
-- Monitoramento de segurança do Office 365 com o Office 365 Cloud App Security
-
-  Os administradores de segurança da Contoso configuram alertas com o [Office 365 Cloud App Security (CAS)](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview) para serem notificados de atividades arriscadas ou incomuns do usuário, como um download de grandes quantidades de dados do OneDrive for Business ou SharePoint Online, falha em várias tentativas de entrada ou entradas de endereços IP desconhecidos ou perigosos.
+  A Contoso está usando o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para mapear o ambiente de nuvem, monitorar o uso e detectar ocorrências e eventos de segurança. O Microsoft Cloud App Security só está disponível no Microsoft 365 Enterprise E5.
 
 - Gerenciamento de dispositivos com o Microsoft Intune
 

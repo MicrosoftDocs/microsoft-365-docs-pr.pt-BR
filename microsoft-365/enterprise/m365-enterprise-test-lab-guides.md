@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de laboratório de teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 027386f9b44d09d2927c2473d1ef27381f82f969
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 007fac786e7676d219d7e82c435e37fe3c3221df
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283641"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353124"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Guias do laboratório de teste do Microsoft 365 Enterprise
 
@@ -65,7 +65,7 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 - [Proteger contas de administradores globais](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   Bloqueie suas contas de administrador global com o Office 365 Cloud App Security e políticas de acesso condicional.
+   Bloqueie suas contas globais de administrador com políticas de acesso condicional.
 
 - [Senha write-back](password-writeback-m365-ent-test-environment.md)
 
@@ -82,6 +82,11 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 - [Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md)
 
    Verifique a existência de vulnerabilidades na sua conta de usuário atual.
+
+- [Acesso a identidades e dispositivos](identity-device-access-m365-test-environment.md)
+
+   Crie um ambiente para testar configurações recomendadas de acesso a identidades e dispositivos e políticas de acesso condicional.
+
 
 ## <a name="mobile-device-management"></a>Gerenciamento de dispositivo móvel
 

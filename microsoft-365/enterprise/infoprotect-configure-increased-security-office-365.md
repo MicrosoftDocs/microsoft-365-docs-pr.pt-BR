@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a segurança aprimorada para o Microsoft 365.
-ms.openlocfilehash: a1976a9305c40d721bd56a4b21b8a52552c1a9dc
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: fcf023960679cf624f3ea7421ab92b1a450d2524
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285070"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400025"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Etapa 3: Configurar a segurança aprimorada para o Microsoft 365
 
@@ -50,13 +50,13 @@ O ATP do Office 365 só está disponível com o Microsoft 365 Enterprise E5.
 |![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia de laboratório de teste: configurar segurança aprimorada no Microsoft 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
-Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step4) correspondente desta etapa.
+Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step3) correspondente desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[Configurar gerenciamento de acesso privilegiado](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step4.png)|[Configurar Proteção de Informações do Windows](infoprotect-deploy-windows-information-protection.md)|
 
 
