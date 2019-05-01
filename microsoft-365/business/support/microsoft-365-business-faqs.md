@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, perguntas frequentes, respostas, negócios
 ms.date: 06/08/2018
-ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bdcfd6a78278aff83b3fc21ae0fbb43bce140a16
+ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286114"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497743"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Perguntas frequentes no Microsoft 365 Business
 
@@ -116,7 +116,7 @@ Clientes que desejam experimentar as capacidades completas do Microsoft 365 Busi
 O caminho mais direto para uma implantação bem-sucedida do Microsoft 365 Business é interagir com um Microsoft Partner. Eles têm amplo treinamento e experiência com uma ampla variedade de cenários de cliente e são melhor preparados para entender seu ambiente e necessidades. Os clientes que têm uma equipe de TI experiente podem usar o <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">guia de Introdução do Microsoft 365 Business</a> para ajudá-los em sua implantação do Microsoft 365 Business. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Microsoft 365 Business inclui todos os recursos do Microsoft Intune? 
-Sim, os assinantes do Microsoft 365 Business estão licenciados para usar recursos completos do Intune para iOS, Android, MacOS e outros gerenciamento de dispositivos de plataforma cruzada. Recursos não disponíveis no console de gerenciamento simplificado no Microsoft 365 Business, como gerenciamento de aplicativos de terceiros e configuração de itens como perfis WiFi, certificados VPN, etc., podem ser gerenciados no console do Intune completo.   
+Sim, os assinantes do Microsoft 365 Business estão licenciados para usar recursos completos do Intune para iOS, Android, MacOS e outros gerenciamento de dispositivos de plataforma cruzada. Recursos não disponíveis no console de gerenciamento simplificado no Microsoft 365 Business, como gerenciamento de aplicativos de terceiros e configuração de perfis WiFi, certificados VPN, etc., podem ser gerenciados no console do Intune completo. Você tem direitos de usar o Gerenciador de configurações para gerenciar clientes cobertos pela licença do EMS. Para consultas relacionadas ao SCCM, confira <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">perguntas frequentes sobre o SCCM</a>
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>O Azure Active Directory Premium P1 acompanha o Microsoft 365 Business? 
