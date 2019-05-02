@@ -3,14 +3,14 @@ title: Dispositivos de área de trabalho gerenciada da Microsoft
 description: Este tópico lista as especificações de dispositivo usadas na área de trabalho gerenciada da Microsoft.
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: a6572a27f737e3467a7efd2a4aea8488b364a8a7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5858ec7bbbd1cd1f961c94ad9605b79ce9ad7b23
+ms.sourcegitcommit: d57adf17de6bc3e67d104d134f43d899a20db252
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291525"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33520751"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -42,7 +42,7 @@ Câmera de infravermelho necessária</td><td>23 de outubro de 2020</td><td>23 de
 <tr><td><a href="https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features">HP EliteDesk 800 G4 DM</a></td><td>128 GB/Intel i3/8 GB de RAM</td><td>SKU com 5VS04AV</td><td>18 de julho de 2020</td><td>18 de julho de 2023</td></tr>
 <tr><td><a href="https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features">HP EliteDesk 800 G4 SFF</a></td><td>128 GB/Intel i3/8 GB de RAM</td><td>SKU com 5VS04AV</td><td>18 de julho de 2020</td><td>18 de julho de 2023</td></tr>
 <tr><td><a href="https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features">HP EliteOne 800 G4 23.8 em AIO</a></td><td>128 GB/Intel i3/8 GB de RAM</td><td>SKU com 5VS04AV</td><td>18 de julho de 2020</td><td>18 de julho de 2023</td></tr>
-<tr><td><a href="https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features">HP proBook X360 440 G1</a></td><td>128 GB/Intel i3/8 GB de RAM</td><td>SKU com 5VS04AV <br />
+<tr><td><a href="https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features">HP ProBook X360 440 G1</a></td><td>128 GB/Intel i3/8 GB de RAM</td><td>SKU com 5VS04AV <br />
 Câmera de infravermelho ou leitor de impressão digital necessário</td><td>6 de junho de 2020</td><td>6 de junho de 2023</td></tr>
 <tr><td><a href="https://www.microsoft.com/en-us/p/surface-book-2-for-business/8x4htznfgg38/lbh3?cid=msft_web_collection&CustomerIntent=Consumer">Livro de superfície 2</a></td><td>512 GB/Intel i7/16 GB de RAM</td><td>exibição de 15 polegadas</td><td>16 de novembro de 2019</td><td>16 de novembro de 2022</td></tr>
 <tr><td><a href="https://www.microsoft.com/en-us/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab">Ir para a superfície</a></td><td>128 GB/Intel 4415Y/8GB de RAM</td><td>Nenhum</td><td>2 de agosto de 2020</td><td>2 de agosto de 2023</td></tr>
@@ -73,7 +73,7 @@ Esses recursos podem ajudar a responder perguntas que você possa ter sobre disp
 
 **Footnotes**
 
-& # x00B9; Adições podem ser feitas a esta lista a qualquer momento. As remoções serão publicadas nesta página 90 dias antes de não permitir que esses dispositivos sejam registrados.
+&#x00B9; Adições podem ser feitas a esta lista a qualquer momento. As remoções serão publicadas nesta página 90 dias antes de não permitir que esses dispositivos sejam registrados.
 
 & # 178; Data do arquivo morto refere-se à data em que esses modelos estarão sujeitos a um período de gerenciamento mais curto; qualquer dispositivo integrado após essa data não receberá um termo de ITaaS inteiro de três anos. Data de aposentadoria refere-se à data em que esse modelo não terá mais suporte da área de trabalho gerenciada da Microsoft.
 
