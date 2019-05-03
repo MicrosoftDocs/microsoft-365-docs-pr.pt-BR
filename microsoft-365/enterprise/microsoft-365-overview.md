@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: d3cac3274a93c2f6d2d042a03a5140f16152d8d9
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353194"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553330"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
 
@@ -30,7 +30,7 @@ O Microsoft 365 Enterprise consiste em:
 
 |||
 |:-------|:-----|
-| Office 365 Enterprise | O inclui o Office 365 proPlus, os aplicativos do Office mais recentes para seu computador e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
+| Office 365 Enterprise | O inclui o Office 365 ProPlus, os aplicativos do Office mais recentes para seu computador e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
 | Windows 10 Enterprise | Atende às necessidades de organizações de grande e médio porte, fornecendo aos usuários a versão mais produtiva e segura do Windows e dos profissionais de ti com implantação abrangente, dispositivo e gerenciamento de aplicativos. |
 | Enterprise Mobility + Security (EMS) | Inclui o Microsoft Intune, que é um serviço de gerenciamento de mobilidade corporativa (EMM) baseado em nuvem que ajuda a habilitar a sua força de produção, ao mesmo tempo em que os dados corporativos são protegidos. |
 |||
@@ -82,7 +82,7 @@ Para obter mais informações sobre a implantação, consulte How:
 
 - [Os clientes](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-enterprise) usam o Microsoft 365 Enterprise.
 - A [Microsoft](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) usa o Microsoft 365 Enterprise.
-- [A Contoso Corporation](contoso-overview.md), uma organização multinacional fictícia, mas representativa, imPlantou o Microsoft 365 Enterprise.
+- [A Contoso Corporation](contoso-overview.md), uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 Enterprise.
 
 ## <a name="additional-microsoft-365-solutions"></a>Soluções adicionais do Microsoft 365
 
@@ -98,16 +98,11 @@ Para obter mais informações sobre a implantação, consulte How:
  
   Capacite funcionários públicos do setor público para trabalhar juntos, com segurança.
 
-
-
 ## <a name="microsoft-365-training"></a>Treinamento do Microsoft 365
 
 |||
 |:-------|:-----|
 ![](./media/m365-poster/m365-fundamentals.svg)| Fique treinado e trabalhe em direção a uma certificação do Microsoft 365. <BR> Comece com os [conceitos básicos do Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
-
-
-
 
 
 ## <a name="next-step"></a>Próxima etapa

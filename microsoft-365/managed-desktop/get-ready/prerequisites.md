@@ -3,16 +3,16 @@ title: Pré-requisitos para a área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 11/1/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8d9c008af9531bc5b829d248665dc5b58ac6034b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 19bd7c553840b0de51f7b26a8f1206a9c5d7b3af
+ms.sourcegitcommit: b27650d1388ca136f85fcc662fe3ba069e9ee895
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277382"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33560050"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos para a área de trabalho gerenciada da Microsoft
 
@@ -25,7 +25,7 @@ O Microsoft FastTrack está disponível para ajudar os clientes a cumprir esses 
 
 Área | Detalhes do pré-requisito
 --- | ---
-Licenciamento | Cada usuário do MMD deve receber uma das seguintes opções de licença:<br>-Microsoft 365 e5<br>-Microsoft 365 E3, Enterprise Mobility + Security E5 e Windows 10 Enterprise e5<br>-Office 365 E3, Enterprise Mobility + Security E5 e Windows 10 Enterprise e5<br><br>Os clientes existentes do Enterprise Agreement podem precisar seguir orientações para habilitar a ativação da assinatura do Windows 10 Enterprise no locatário do Azure AD. Para obter mais informações, consulte [implantar licenças do Windows 10 Enterprise](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses#enabling-subscription-activation-with-an-existing-ea).<br><br>As licenças de produto podem ser atribuídas usando grupos de segurança Configurando o licenciamento baseado em grupo do Azure AD. Para obter mais informações, consulte [o que é licenciamento baseado em grupo no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).<br><br>Para obter mais informações sobre licenças disponíveis, consulte [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Licenciamento |A área de trabalho gerenciada da Microsoft requer o seguinte licenciamento da Microsoft 365 (ou as equivalências):<br>-Microsoft 365 e5<br>-Microsoft 365 E3 + Security e5<br><br>Para obter mais informações sobre licenças disponíveis, consulte [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 Conectividade |  Todos os dispositivos de área de trabalho gerenciados da Microsoft exigem conectividade com vários pontos de extremidade do serviço Microsoft a partir da rede corporativa.<br><br>Para obter a lista completa de IPs e URLs necessários, confira [configuração de rede](../get-ready/network.md). 
 Azure Active Directory |    O Azure Active Directory (Azure AD) deve ser a fonte de autoridade para todas as contas de usuário, ou as contas de usuário devem ser sincronizadas a partir do Active Directory local usando a versão mais recente suportada do Azure AD Connect.<br><br>Para obter mais informações sobre o Azure AD Connect, consulte [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect).<br><br>Para obter mais informações sobre versões compatíveis do Azure AD Connect, consulte [Azure ad Connect: versão do histórico de versões](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history).
 Autenticação |    Se o Azure AD não for a fonte de autoridade para contas de usuário, você deverá configurar uma delas no Azure AD Connect:<br>-Sincronização de hash de senha<br>-Autenticação de passagem<br>-Federação com ADFS<br><br>Ao definir as opções de autenticação com o Azure AD Connect, o Write-back de senha também é necessário. Para obter mais informações, consulte [write-back de senha](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Para obter mais informações sobre as opções de autenticação com o Azure AD, confira [Opções de logon do usuário do Azure ad Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin).
