@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: e36f6e88c41454a951f6c6da4253c4bac07f2fb8
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0f2d1cbeef87301729b23a6290277b28466c9770
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285541"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553300"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
@@ -33,7 +33,7 @@ Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365-en
 
 Você deve ter criado contas e grupos de usuários para que:
 
-- Os funcionários da sua organização e os fornecedores, prestadores de serviços e parceiros que trabalham para ou com a sua organização tenham uma conta de usuário correspondente no Azure Active Directory (Azure AD).
+- Os funcionários da sua organização, assim como os fornecedores, prestadores de serviços e parceiros que trabalham com a sua organização tenham uma conta de usuário correspondente no Azure Active Directory (Azure AD).
 - Os grupos do Azure AD e seus membros tenham contas de usuários e outros grupos para diversos propósitos, como o provisionamento de configurações de segurança de serviços de nuvem da Microsoft, o licenciamento automático e outros usos.
 
 Se necessário, a [Etapa 1](identity-plan-users-groups.md) pode ajudá-lo a atender a esse requisito.
@@ -58,7 +58,7 @@ Use estas etapas para verificar se você protegeu suas contas de administrador g
 2. Entre no Office 365 usando a cada uma das contas da etapa 1. Cada entrada deve exigir a autenticação multifator e a forma mais segura de autenticação secundária disponível em sua organização.
 
 > [!Note]
-> Confira [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) para obter instruções sobre como instalar o módulo PowerShell do Azure AD para Graph e entrar no Office 365.
+> Confira [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) para obter instruções sobre como instalar o Azure Active Directory PowerShell para o módulo do Graph e entrar no Office 365.
 
 <a name="crit-identity-pim"></a>
 ## <a name="optional-you-have-set-up-privileged-identity-management-to-support-on-demand-assignment-of-the-global-administrator-role"></a>Opcional: você configurou o Privileged Identity Management para dar suporte à atribuição sob demanda da função de administrador global
@@ -73,9 +73,9 @@ Se necessário, a [Etapa 2](identity-designate-protect-admin-accounts.md#identit
 
 
 <a name="crit-identity-sync"></a>
-## <a name="required-users-and-groups-are-synchronized-with-azure-ad"></a>Obrigatório: Usuários e grupos estarem sincronizados com o Azure AD
+## <a name="required-users-and-groups-are-synchronized-with-azure-ad"></a>Obrigatório: os usuários e os grupos devem estar sincronizados com o Azure AD
 
-Se você tiver um provedor de identidade local existente, como os Serviços de Domínio do Active Directory (AD DS), é necessário usar o Azure AD Connect para sincronizar contas de usuário e grupos do provedor de identidade local para o seu locatário do Azure AD.
+Se você tiver um provedor de identidade local existente, como o Active Directory Domain Services (AD DS), você usou o Azure AD Connect para sincronizar as contas de usuário e os grupos de seu provedor de identidade local com o locatário do Azure AD.
 
 Com a sincronização de diretórios, seus usuários poderão entrar no Office 365 e em outros serviços de nuvem da Microsoft usando as mesmas credenciais que usam para entrar em seus computadores e acessar os recursos locais.
 
@@ -93,7 +93,7 @@ Para verificar se a autenticação com credenciais locais funciona corretamente,
 
 Para verificar se a sincronização de diretórios está funcionando corretamente, faça o seguinte:
 
-1.  Crie um novo grupo de teste nos Serviços de Domínio do Active Directory (AD DS).
+1.  Crie um novo grupo de teste no AD DS.
 2.  Aguarde o tempo de sincronização.
 3.  Confira se o nome do novo grupo de teste aparece no seu locatário do Azure AD.
 
@@ -163,7 +163,7 @@ Se necessário, a [Etapa 5](identity-password-reset.md#identity-pw-reset) pode a
 
 Você usou as instruções em [Azure AD SSPR com write-back de senha](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) para habilitar o write-back de senha para o locatário do Azure AD da sua assinatura do Microsoft 365 Enterprise.
 
-Se você ignorar esta opção, usuários que não estão conectados à sua rede local deverão redefinir os desbloquear suas senhas do AD DS através de um administrador de TI.
+Se você ignorar essa opção, os usuários que não estiverem conectados à sua rede local deverão redefinir ou desbloquear as senhas do AD DS por meio do administrador de TI.
 
 Se necessário, a [Etapa 5](identity-password-reset.md#identity-pw-writeback) pode ajudá-lo com essa opção.
 
@@ -173,16 +173,16 @@ Se necessário, a [Etapa 5](identity-password-reset.md#identity-pw-writeback) po
 
 ### <a name="how-to-test"></a>Como testar
 
-Você testa o write-back de senha alterando sua senha no Office 365. Você deve conseguir usar sua conta e nova senha para acessar os recursos do AD DS local.
+Para testar o write-back de senha, você deverá alterar sua senha no Office 365. Você deve conseguir usar sua conta e a nova senha para acessar os recursos do AD DS local.
 
-1. Crie uma conta de usuário de teste em seu AD DS local, permita que a sincronização de diretório ocorra e, em seguida, conceda uma licença do Office 365 no centro de administração do Microsoft 365.
+1. Crie uma conta de usuário de teste no AD DS local, permita que a sincronização de diretórios ocorra e, em seguida, conceda uma licença do Office 365 no centro de administração do Microsoft 365.
 2. Em um computador remoto ingressado no domínio do AD DS local, entre no computador e no portal do Office usando as credenciais da conta de usuário de teste.
 3. Selecione **Configurações > Configurações do Office 365 > Senha > Alterar senha**.
 4. Digite a senha atual, digite uma nova senha e a confirme.
-5. Saia do portal do Office e do computador remoto e, em seguida, entre no computador usando a conta de usuário de teste e sua nova senha. Isso prova que você conseguiu mudar a senha de uma conta de usuário do AD DS local usando o locatário do Azure AD.
+5. Saia do portal do Office e do computador remoto e, em seguida, entre no computador usando a conta de usuário de teste e a nova senha. Isso prova que você conseguiu mudar a senha de uma conta de usuário do AD DS local usando o locatário do Azure AD.
 
 <a name="crit-identity-sso"></a>
-## <a name="optional-users-can-sign-in-using-azure-ad-seamless-single-sign-on"></a>Opcional: os usuários podem entrar usando logon único contínuo do Azure AD.
+## <a name="optional-users-can-sign-in-using-azure-ad-seamless-single-sign-on"></a>Opcional: os usuários podem entrar usando o logon único contínuo do Azure AD.
 
 Você deve habilitar o [Azure AD Connect: Logon Único Simplificado](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start) para sua organização para simplificar como os usuários entram em aplicativos baseados na nuvem, como o Office 365.
 
@@ -261,7 +261,7 @@ Se necessário, a [Etapa 6](identity-self-service-group-management.md#identity-g
 
 1. Crie um grupo de segurança de teste no Azure AD com o portal do Azure e configure o licenciamento baseado em grupo para atribuir licenças do Office 365 e do EMS.
 2. Crie uma conta de usuário de teste no Azure AD e adicione-o ao grupo de segurança de teste.
-3. Examine as propriedades da conta de usuário no centro de administração do Microsoft 365 para garantir que ela recebeu as licenças do Office 365 e do EMS.
+3. Examine as propriedades da conta de usuário no centro de administração do Microsoft 365 para garantir que essa conta recebeu as licenças do Office 365 e do EMS.
 4. Remova a conta de usuário de teste do grupo de segurança de teste.
 5. Examine as propriedades da conta de usuário para garantir que ela não tenha mais as licenças do Office 365 e do EMS.
 6. Exclua o grupo de segurança de teste e a conta de usuário de teste.
