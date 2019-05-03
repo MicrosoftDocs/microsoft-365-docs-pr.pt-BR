@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Planeje para o conjunto de usuários e grupos que trabalharão para sua organização.
-ms.openlocfilehash: f8b3df73518e33c7750c0b72b2cb9f36bc8e9745
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c74ff672ce84a5609c11eb4fa7a0405d350349ab
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283780"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553290"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>Etapa 1: Planeje para usuários e grupos
 
@@ -42,7 +42,7 @@ Quando sua organização adotar o Microsoft 365 Enterprise, seu provedor de iden
 - **Serviços de Domínio do Active Directory (AD DS)**, um provedor de identidade intranet hospedado em computadores que executam o Windows Server. Ele normalmente é usado por empresas que têm um provedor de identidade local existente.
 - **Azure Active Directory (Azure AD)**, uma identidade como um serviço baseada em nuvem (IDaaS) que oferece uma ampla variedade de recursos para gerenciar e proteger o seu ambiente. Ele normalmente é usado por empresas que não têm uma infraestrutura local existente.
 
-Se sua organização tiver um provedor de identidade local existente, você deverá sincronizar suas contas e grupos de usuários dos Serviços de Domínio do Active Directory (AD DS) para o Azure AD para fornecer acesso mais eficaz aos serviços baseados na nuvem do Microsoft 365 Enterprise.  Você também pode usar o Azure AD para criar e gerenciar grupos que existam somente na nuvem da Microsoft.
+Se sua organização tiver um provedor de identidade local existente, é necessário sincronizar suas contas de usuários e grupos do AD DS ao Azure AD para fornecer acesso mais contínuo aos serviços baseados em nuvem do Microsoft 365 Enterprise. Você também pode usar o Azure AD para criar e gerenciar grupos que existam somente na nuvem da Microsoft.
 
 Quando você tiver seus usuários e grupos no Azure AD, você poderá:
 

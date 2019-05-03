@@ -65,7 +65,7 @@ Para verificar se a autenticação com credenciais locais funciona corretamente,
 
 Para verificar se a sincronização de diretórios está funcionando corretamente, faça o seguinte:
 
-1.  Crie um novo grupo de teste no Active Directory Domain Services (AD DS).
+1.  Crie um novo grupo de teste no AD DS.
 2.  Aguarde o tempo de sincronização.
 3.  Confira se o nome do novo grupo de teste aparece no seu locatário do Azure AD.
 
