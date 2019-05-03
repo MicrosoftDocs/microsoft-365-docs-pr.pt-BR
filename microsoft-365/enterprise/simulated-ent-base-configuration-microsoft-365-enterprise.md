@@ -3,7 +3,7 @@ title: Configuração base corporativa simulada para Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/15/2019
+ms.date: 05/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,18 +15,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 7c16f6fee480e883f7bf87d3b03441cf18e8f73f
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 173622666420976199709d311ef67a7f0be3d867
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290808"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553361"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
 Este artigo fornece instruções passo a passo para criar um ambiente simplificado do Microsoft 365 Enterprise, que inclui:
 
-- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.
+- Uma assinatura de avaliação ou assinatura paga do Microsoft 365 E5.
 - Uma intranet de organização simplificada conectada à Internet, composta por três máquinas virtuais em uma Rede Virtual do Microsoft Azure (DC1 APP1 e CLIENT1).
  
 ![A configuração base corporativa simulada](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
@@ -125,7 +125,7 @@ $nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
 ```
 
-Em seguida, crie a máquina virtual DC1 e configure-a como um controle de domínio para o **testlab.**\<seu domínio público> domínio dos Serviços de Domínio do Active Directory (AD DS) e um servidor DNS para as máquinas virtuais da rede virtual TestLab. Por exemplo, se seu nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC 1 será um controlador de domínio para o domínio do **<span>testlab</span>.contoso.com**.
+Em seguida, crie a máquina virtual DC1 e configure-a como um controle de domínio para o **testlab.**\<seu domínio público> domínio AD DS e um servidor DNS para as máquinas virtuais da rede virtual TestLab. Por exemplo, se seu nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC 1 será um controlador de domínio para o domínio do **<span>testlab</span>.contoso.com**.
   
 Para criar uma máquina virtual como DC1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando do PowerShell, no computador local.
   
@@ -349,56 +349,65 @@ Essa é sua configuração atual.
 ![Etapa 3 da configuração da base corporativa simulada](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 
-## <a name="phase-2-create-your-office-365-e5-and-ems-e5-subscriptions"></a>Fase 2: criar as assinaturas do Office 365 E5 e do EMS E5
+## <a name="phase-2-create-your-microsoft-365-e5-subscriptions"></a>Fase 2: Criar suas assinaturas do Microsoft 365 E5
 
-Nesta fase, crie novas assinaturas do Office 365 E5 e do EMS E5, que usam um locatário novo e comum do Microsoft Azure AD, que é separado da assinatura de produção. É possível fazer isso de duas maneiras:
+Nesta fase, você cria uma nova assinatura do Microsoft 365 E5 que usa um novo locatário do Azure AD, que é separado da sua assinatura de produção. Você pode fazer isso de duas maneiras:
 
-- Use assinaturas de avaliação do Office 365 E5 e do EMS E5. 
+- Use uma assinatura de avaliação do Microsoft 365 E5. 
 
-  A assinatura de avaliação do Office 365 E5 dura 30 dias, mas pode ser facilmente estendida para 60 dias. A assinatura de avaliação do EMS E5 dura 90 dias. Quando as assinaturas de avaliação expirarem, você deverá convertê-las em assinaturas pagas ou criar novas assinaturas de avaliação. Criar novas assinaturas de avaliação implica em perder a configuração que pode incluir cenários complexos associados a ela.  
-- Use uma assinatura de produção separada do Microsoft 365 Enterprise com uma pequena quantidade de licenças.
+  A assinatura de avaliação do Microsoft 365 E5 é de 30 dias, e pode ser facilmente estendida por até 60 dias. Quando essa assinatura expira, você deve convertê-la para uma assinatura paga ou criar uma nova assinatura de avaliação. Criar uma nova assinatura de avaliação significa abrir mão de suas configuração, o que pode incluir cenários complexos.  
+- Use uma assinatura de produção separada do Microsoft 365 E5 com uma pequena quantidade de licenças.
 
   Isso representa um custo adicional, mas garante um ambiente de teste funcional para testar recursos, configurações e cenários que não expiram. Você pode usar o mesmo ambiente de teste a longo prazo para validação de conceitos, demonstração aos colegas, também para desenvolvimento, gerenciamento e teste de aplicativos. Este e o método recomendado.
 
 ### <a name="use-trial-subscriptions"></a>Usar assinaturas de avaliação
 
-Se precisar usar assinaturas de avaliação, siga as etapas das fases 2 e 3 descritas no artigo [Ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
-  
-Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-a à mesma organização da assinatura do Office 365 E5.
-  
-Primeiro adicione a assinatura de avaliação do EMS E5 e atribua uma licença EMS à sua conta de administrador global.
-  
-1. Em uma instância particular de um navegador da Internet, entre no portal do Office com as credenciais da conta de administrador global. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+Primeiro, siga as etapas da Fase 2 e Fase 3 do [Ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment) para criar um leve ambiente de desenvolvimento/teste do Office 365.
+
+>[!Note]
+>A criação de uma assinatura de avaliação do Office 365 é necessária para que seu ambiente de desenvolvimento/teste tenha um locatário do Azure AD separado de qualquer assinatura paga que você possua. Este separação significa que você pode adicionar e remover usuários e grupos no locatário de teste sem afetar suas assinaturas de produção.
+>
+
+Em seguida, adicione a assinatura de avaliação do Microsoft 365 E5 e atribua uma licença do Microsoft 365 à sua conta de administrador global.
+
+1. Com uma instância particular de um navegador da Internet, acesse o Centro de administração do Microsoft 365 na [http://admin.microsoft.com](http://admin.microsoft.com) com suas credenciais da conta de administrador global.
     
-2. Clique no bloco de **Administração**.
+2. Na página **Centro de administração do Microsoft 365**, na navegação à esquerda, clique em **Cobrança > Serviços de compra**.
     
-3. Na guia **centro de administração do Microsoft 365** em seu navegador, na navegação à esquerda, clique em **Cobrança > Comprar serviços**.
-    
-4. Na página **Comprar serviços**, encontre o item **Enterprise Mobility + Security E5**. Passe o ponteiro do mouse sobre ele e clique em **Iniciar avaliação gratuita**.
-    
+3. Na página **Serviços de compra**, encontre o item **Microsoft 365 E5**. Passe o ponteiro do mouse sobre ele e clique em **Iniciar avaliação gratuita**.
+
+4. Na página **Avaliação do Microsoft 365 E5**, escolha receber uma chamada ou um texto, insira seu número de telefone e clique em **Receber mensagem de texto** ou **Receber chamada**.
+
 5. Na página **Confirmar seu pedido**, clique em **Experimentar agora**.
-    
+
 6. Na página **Recibo do pedido**, clique em **Continuar**.
-    
-7. Na guia **Centro de administração do Office 365** do navegador, no painel de navegação esquerdo, clique em **Usuários > Usuários ativos**.
-    
-8. Clique em sua conta de administrador global e, em seguida, clique em **Editar** para **Licenças de produto**.
-    
-9. No painel **Licenças de produto**, mude a licença de produto de **Enterprise Mobility + Security E5** para **Ativada**, clique em **Salvar** e clique em **Fechar** duas vezes.
-    
+
+7. No Centro de administração do Microsoft 365 clique em **Usuários ativos**e, em seguida, sua conta de administrador.
+
+8. Clique em **Editar** para **Licenças de produto**.
+
+9. Desative a licença do Office 365 Enterprise E5 e habilite a licença do Microsoft 365 E5.
+
+10. Clique em **Salvar> Fechar >Fechar**.
+
+ Em seguida, ***se você concluiu a Fase 3 do*** [Ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment), repita as etapas de 8 a 11 do procedimento anterior para todas as suas contas (Usuário 2, Usuário 3, Usuário 4 e Usuário 5).
+  
 > [!NOTE]
->  Para um ambiente de teste permanente, crie uma nova assinatura paga com uma pequena quantidade de licenças. 
+> A assinatura de avaliação do Microsoft 365 E5 é de 30 dias. Para um ambiente de teste permanente, converta esta assinatura de avaliação para uma assinatura paga com uma pequena quantidade de licenças.
   
-Em seguida, repita as etapas 8 e 9 do procedimento anterior para todas as outras contas (Usuário 2, Usuário 3, Usuário 4 e Usuário 5).
+Seu ambiente de teste agora tem:
   
+- Uma assinatura de avaliação do Microsoft 365 E5.
+- Todas as suas contas de usuário apropriadas (tanto a conta de administrador global como todas as cinco contas de usuário) são habilitadas para usar o Microsoft 365 E5.
+    
 ### <a name="results"></a>Resultados
 
 Seu ambiente de teste agora tem:
   
-- As assinaturas de avaliação do Office 365 Enterprise E5 e do EMS E5 compartilham o mesmo locatário do Azure Active Directory com sua lista de contas de usuário.
-- Todas as suas contas de usuário apropriadas (a conta do administrador global ou todas as cinco contas de usuário) estão habilitadas para usar o Office 365 E5 e o EMS E5.
+- Assinatura de avaliação do Microsoft 365 E5.
+- Todas as suas contas de usuário apropriadas (tanto a conta de administrador global como todas as cinco contas de usuário) são habilitadas para usar o Microsoft 365 E5.
     
-Esta é sua configuração final:
+Esta é sua configuração final.
   
 ![Fase 4 da configuração base corporativa simulada](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
