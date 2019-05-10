@@ -19,20 +19,22 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Saiba como usar o Microsoft 365 Business para redefinir a fábrica de dispositivos Windows 10. '
-ms.openlocfilehash: 8340bd6a24f3b4d875f6482c03a69275a9a48f33
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c125cdb72bf3ca7077b1c283b698ae92ef454b88
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283714"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660490"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica
 
+![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 Uma restauração de fábrica retorna um dispositivo às configurações originais que ele tinha quando o dispositivo foi comprado. Todos os aplicativos e dados do dispositivo que foram instalados após a compra serão removidos. Você pode usar o Microsoft 365 Business para executar a restauração de fábrica nos dispositivos Windows 10 que gerencia.
   
-1. Acesse o [centro de administração](https://aka.ms/bcsportal) com credenciais de administrador global. 
+1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em.. 
     
-2. No centro de administração, na navegação à esquerda, escolha **dispositivos** \> **gerenciar**.
+2. Na navegação à esquerda, escolha **dispositivos** \> **gerenciar**.
 
 3. Na página **gerenciar** , marque a caixa de seleção ao lado do dispositivo para o qual você deseja remover dados e, em seguida, no menu **gerenciar** , escolha redefinição de **fábrica**.
     

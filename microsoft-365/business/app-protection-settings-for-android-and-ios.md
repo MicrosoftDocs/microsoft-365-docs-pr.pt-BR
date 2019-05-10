@@ -21,26 +21,28 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Saiba como criar, editar ou excluir uma política de gerenciamento de aplicativos e proteger arquivos de trabalho em dispositivos Android ou iOS.
-ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 04479360bf13a8ff685a91ed95440c08f8cf80b4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277433"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660489"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Defina configurações de proteção de aplicativo para dispositivos Android ou iOS
 
+![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 ## <a name="create-an-app-management-policy"></a>Criar uma política de gerenciamento de aplicativos
 
-1. Entre no [centro de administração de negócios do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890) com credenciais de administrador global. 
+1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em. 
     
-2. No centro de administração, escolha **** \> **políticas** \> de dispositivos **Adicionar política**.
+2. Na navegação à esquerda, escolha **** \> **políticas** \> de dispositivos **Adicionar**.
   
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
     
 4. Em **Tipo de política**, escolha **Gerenciamento de Aplicativos para Android** ou **Gerenciamento de Aplicativos para iOS**, dependendo de qual conjunto de políticas que você deseja criar. 
     
-5. Expanda **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** e **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** \> defina as configurações como desejar. A opção **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** é **Desativada** por padrão, mas recomenda-se que ela seja **Ativada** e que os valores padrão sejam aceitos. ConFira [configurações disponíveis](#available-settings) para obter mais informações. 
+5. Expanda **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** e **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** \> defina as configurações como desejar. A opção **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** é **Desativada** por padrão, mas recomenda-se que ela seja **Ativada** e que os valores padrão sejam aceitos. Confira [configurações disponíveis](#available-settings) para obter mais informações. 
     
     Você sempre poderá usar o link **Redefinir as configurações padrão** para voltar para a configuração padrão. 
     
@@ -62,9 +64,9 @@ ms.locfileid: "32277433"
     
 ## <a name="delete-an-app-management-policy"></a>Excluir uma política de gerenciamento de aplicativos
 
-1. No cartão **Políticas**, escolha **Excluir política**.
+1. Na página **políticas** , escolha uma política e, em **** seguida, exclua.
     
-2. No painel **Excluir política**, escolha as políticas que você deseja excluir \> **Selecionar** e, em seguida, clique em **Confirmar** para excluir a política ou políticas escolhidas. 
+2. No painel **excluir política** , escolha **confirmar** para excluir a política ou as políticas escolhidas. 
     
 ## <a name="available-settings"></a>Configurações disponíveis
 
@@ -78,7 +80,7 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado pela quantidade de dias que você especificar aqui, quaisquer arquivos de trabalho armazenados nele serão excluídos automaticamente.  <br/> |
 |Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **Ativada**, o único local disponível para salvar arquivos de trabalho será o OneDrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |
@@ -89,7 +91,7 @@ As configurações a seguir estão disponíveis para gerenciar como os usuários
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração estiver **Ativada**, os usuários precisarão fornecer outra forma de autenticação, além de seu nome de usuário e senha, para poderem usar os aplicativos do Office em seus dispositivos móveis.  <br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
 |Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Esta configuração determina quanto tempo o usuário pode ficar ocioso antes de ser solicitado a entrar novamente.  <br/> |

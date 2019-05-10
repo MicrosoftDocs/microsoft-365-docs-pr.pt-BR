@@ -1,5 +1,5 @@
 ---
-title: Configurar o Microsoft 365 Business usando o assistente de configuração
+title: Configurar o Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,113 +21,192 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Saiba como configurar o Microsoft 365 Business executando quatro etapas.
-ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Saiba como configurar o Microsoft 365 Business.
+ms.openlocfilehash: e635b828609fc47cd8b92bb179a25bcc43cb0a1a
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283866"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660710"
 ---
-# <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Configurar o Microsoft 365 Business usando o assistente de configuração
+# <a name="set-up-microsoft-365-business"></a>Configurar o Microsoft 365 Business
 
-Siga as etapas 1-4 abaixo.
-  
-### <a name="set-up-microsoft-365-business"></a>Configurar o Microsoft 365 Business
+Antes de começar, veja obter os detalhes de inscrição do [Microsoft 365 Business](get-microsoft-365-business.md) .
 
-Assista a um vídeo sobre como configurar o Microsoft 365 Business quando você não tem um Active Directory local:
+Assista a um [pequeno vídeo sobre como configurar o Microsoft 365 Business](https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1) usando o assistente de configuração e quando você não tem um Active Directory local
   
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/0705c337-f3e8-4d28-bb6c-530cd28e99f2?autoplay=false]
-  
-As etapas de configuração incluem informações para configurações que incluem o Active Directory local. Se você quiser continuar a acessar dispositivos que ingressaram no domínio, leia os seguintes artigos para ter duas maneiras diferentes de habilitar esse recurso e conclua as etapas antes de executar o assistente de configuração:
+
+## <a name="overview"></a>Visão Geral
+
+A maioria das etapas de configuração pode ser feita no assistente de configuração, mas as outras opções também são listadas.
+
+1. [Adicionar seu domínio](#add-your-domain-to-personalize-sign-in) (se você comprou seu domínio durante a [inscrição](sign-up.md), esta etapa já foi feita.)
+2. Adicionar usuários. Você pode fazer isso de uma das três maneiras:
+    - No [Assistente de configuração](#add-users-in-the-wizard).
+    - Use a sincronização de diretórios para [Adicionar usuários usando o Azure ad Connect](#add-users-by-using-azure-ad-connect) se você tiver um Active Directory local.
+    - Você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração.
+3. Configurar políticas de segurança e configurar dispositivos. Você pode fazer isso de uma das três maneiras:
+    - No [Assistente de configuração](#set-up-policies-in-the-wizard).  
+    - No [centro de administração](#modify-or-add-policies-in-the-admin-center).
+    - No [centro de administração do Intune](https://docs.microsoft.com/intune/what-is-device-management).
+4. Configurar e gerenciar dispositivos Windows 10.
+
+    Quando você ingressa em um dispositivo WIndows 10 no Azure AD, todas as políticas são aplicadas a ela.
+    - Configurar as configurações de dispositivo do Windows 10 no [Assistente de configuração](#set-up-policies-in-the-wizard).
+    - Ingressar em um [novo dispositivo Windows 10](set-up-windows-devices.md#for-a-brand-new-or-newly-upgraded-windows-10-pro-device) no Azure AD.
+    - Ingresse um [dispositivo existente do Windows 10](set-up-windows-devices.md#for-a-device-already-set-up-and-running-windows-10-pro) para o Azure AD.
+1. Instale o Office 365 Business.
+    - Você pode instalar automaticamente o Office nos dispositivos Windows usando o [Assistente de configuração](#set-up-policies-in-the-wizard).
+    - Instale automaticamente o [Office](auto-install-or-uninstall-office.md) a partir do centro de administração.
+    - Permitir que os usuários [instalem aplicativos do Office](https://docs.microsoft.com/office365/admin/setup/install-applications) para Windows e dispositivos.
+     
+1. Configurar segurança adicional.
+    - O assistente de configuração adiciona políticas para proteger seus dispositivos, mas você também pode aproveitar os recursos de [segurança adicionais](#additional-security-settings) para ajudar a proteger seus dados, contas e emails. 
+
+## <a name="add-your-domain-users-and-set-up-policies"></a>Adicionar seu domínio, usuários e configurar políticas
+
+![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
+Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de sua propriedade ou comprar um durante a [inscrição](sign-up.md).
+
+- Se você comprou um novo domínio ao se inscrever, seu domínio está configurado e você pode mover para [Adicionar usuários e atribuir licenças](#add-users-and-assign-licenses).
+
+### <a name="add-your-domain-to-personalize-sign-in"></a>Adicionar seu domínio para personalizar a entrada
+
+1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando suas credenciais de administrador global. 
+
+2. Escolha **Adicionar um domínio** para iniciar o assistente.
+
+    ![Selecione Adicionar um domínio.](media/addadomainadmincenter.png)
+    
+3. No assistente, digite o nome de domínio que você deseja usar (como contoso.com).
+
+
+    ![Captura de tela da página personalizar sua sessão de entrada.](media/personalizesignin.png)
+
+    
+4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifica se você é o proprietário do domínio. Se você souber seu host de domínio, consulte também as [instruções específicas do host](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+
+    Se o seu provedor de hospedagem for o GoDaddy, o processo será fácil e você será solicitado a entrar e permitir que a Microsoft autentique em seu nome:
+
+    ![Na página Confirmar acesso do GoDaddy, selecione autorizar.](media/godaddyauth.png)
+
+### <a name="add-users-and-assign-licenses"></a>Adicionar usuários e atribuir licenças
+
+Você pode adicionar usuários no assistente, mas você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração. Além disso, se você tiver um controlador de domínio local, poderá adicionar usuários com o [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+
+#### <a name="add-users-in-the-wizard"></a>Adicionar usuários no assistente
+
+Todos os usuários adicionados ao assistente recebem automaticamente uma licença de negócios do Microsoft 365.
+Se você tiver um controlador de domínio local e estiver usando o Active Directory, consulte [How to DDD Users by using Azure ad Connect](#add-users-by-using-azure-ad-connect).
+
+![Captura de tela da página Adicionar novos usuários no assistente](media/addnewuserspage.png)
+
+1. Se sua assinatura do Microsoft 365 Business tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você verá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
+
+3. Depois de adicionar os usuários, você também terá uma opção para compartilhar credenciais com os novos usuários que você adicionou. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+
+4. Ignore a migração de mensagens de email e escolha **Avançar** na página **Migrar mensagens de email**. 
+
+    Se você estiver migrando de outro provedor de email e deseja copiar os dados mais tarde, poderá [migrar emails e contatos para o Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
+
+#### <a name="add-users-by-using-azure-ad-connect"></a>Adicionar usuários usando o Azure AD Connect
+
+ Se você tiver um controlador de domínio local com o Active Directory, sincronize seus usuários com o Microsoft 365 Business usando o [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express). Conclua isso antes de iniciar o assistente de configuração. Você pode baixá-lo no centro de administração:
+
+- Vá para usuários **ativos**do **usuário** \> , selecione as reticências na parte superior da página e, em seguida, selecione **sincronização de diretório** para baixar o Azure ad Connect.
+
+    ![Na página usuários ativos, selecione reticências > Directory snchronization.](media/setupdirsync.png)
+
+    > [!IMPORTANT]
+    > Se você criar usuários dessa forma, ainda terá que atribuir licenças a eles no centro de administração.
+
+##### <a name="continue-to-access-domain-joined-apps-and-devices"></a>Continuar a acessar aplicativos e dispositivos associados ao domínio
+
+Se você quiser continuar a acessar os aplicativos e dispositivos associados ao domínio, leia os seguintes artigos para duas maneiras diferentes de habilitar esse:
   
 - [Habilitar os dispositivos Windows 10 associados ao domínio para serem gerenciados pelo Microsoft 365 Business](manage-windows-devices.md)
-    
-    -Esta é a maneira recomendada.
-    
+    - Essa é a maneira recomendada.
+
 - [Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business](access-resources.md)
-    
-### <a name="step-1-personalize-sign-in"></a>Etapa 1: personalizar a entrada
 
-1. Acesse o [Microsoft 365 Business](https://portal.microsoft.com) usando suas credenciais de administrador global. Escolha o bloco **Administrador** para ir para o centro de administração. 
-    
-2. Escolha **Iniciar a instalação** (dependendo do seu estado, você poderá ver **Continuar instalação**) no centro de administração para iniciar o assistente. 
-    
-3. Insira o nome do domínio que você deseja usar (como contoso.com).
-    
-    Digite seu domínio, mesmo que você o tenha verificado enquanto usava o Azure AD Connect, por exemplo. As duas etapas a seguir não se aplicam a você se você usou o Azure AD Connect para verificar seu domínio.
-    
-4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) que verifica se você é o proprietário do domínio. 
-    
-    Você pode exibir um vídeo de exemplo do [vídeo: instalar o Office 365 no novo centro de administração](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Observe que este vídeo não inclui as etapas de proteção de dados do Microsoft 365 Business.
-    
-    ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
-  
-### <a name="step-2-add-users-and-assign-licenses"></a>Etapa 2: adicionar usuários e atribuir licenças
-
-1. Você pode adicionar usuários aqui ou [adicionar usuários posteriormente](add-users-m365b.md) no centro de administração. 
-    
-    Os usuários que você adiciona automaticamente recebem uma licença do Microsoft 365 Business.
-    
-2. Se sua assinatura do Microsoft 365 Business tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você verá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
-    
-3. Você também terá uma opção para compartilhar as credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
-    
-4. Ignore a migração de mensagens de email e escolha **Avançar** na página **Migrar mensagens de email**. 
-    
-    Se você estiver migrando de outro provedor de email e deseja copiar os dados mais tarde, poderá [migrar emails e contatos para o Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
-    
-    ![Screenshot of two new users added in the setup wizard](media/8f729967-5c65-4ceb-b737-18119db40564.png)
-  
-### <a name="step-3-connect-your-domain"></a>Etapa 3: conectar seu domínio
+### <a name="connect-your-domain"></a>Conectar seu domínio
 
 > [!NOTE]
-> Se você optar por usar o domínio. onmicrosoft ou usado o Azure AD Connect, você não verá esta etapa. 
+> Se você optar por usar o domínio. onmicrosoft ou usado o Azure AD Connect para configurar usuários, esta etapa não será exibida.
   
 Para configurar serviços, você deve atualizar alguns registros no registrador de domínios ou no host DNS.
   
-1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Office 365 com qualquer registrador de domínio](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
-    
-2. O email e outros serviços serão configurados para você
-    
-### <a name="step-4-manage-devices-and-work-files"></a>Etapa 4: gerenciar dispositivos e arquivos de trabalho
+1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Office 365 com qualquer registrador de domínio](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-1. Na página **Proteger arquivos de trabalho em dispositivos móveis**, defina as configurações **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** e **Gerenciar como os usuários acessam arquivos do Office em dispositivos móveis** como **Ativada**. Você também pode acessar cada subconfiguração clicando nas divisas ao lado de cada configuração.
-  
-  Todos os arquivos de trabalho de seus usuários licenciados estão agora protegidos em dispositivos iOS e Android, assim que eles instalam os [aplicativos do Office](set-up-mobile-devices.md) (e autenticam com suas credenciais de negócios do Microsoft 365). 
-  
-  ![Screenshot of protect work files on your mobile devices page](media/3139a9aa-6228-4e74-8166-c6a886d7319f.PNG)
-  
-2. Na página **definir configuração de dispositivo do Windows 10** , defina a configuração **proteger dispositivos Windows 10** como **ativado**.
-  
-   Você também pode acessar cada subconfiguração clicando na divisa ao lado dela.
-  
-3. Defina a configuração **Instalar o Office em dispositivos Windows 10** como **Sim** se todos os seus usuários tiverem computadores Windows 10 e não houver instalações do Office ou do Office Clique para Executar. Se esse não for o caso, defina essa opção como **Não**. Você pode [instalar o Office automaticamente](auto-install-or-uninstall-office.md) no centro de administração após preparar os computadores dos usuários. Para obter instruções, consulte [preparar para a instalação do cliente do Office](prepare-for-office-client-deployment.md).
-  
-    Os arquivos de trabalho de usuários licenciados em dispositivos Windows 10 serão projetadas assim que eles [ingressarem em seu dispositivo Windows 10](set-up-windows-devices.md) para um domínio do Microsoft 365 Business Azure ad ou [instalar o Windows 10 em um novo computador](https://support.office.com/article/c654bd23-d256-4ac7-8fba-0c993bf5a771.aspx) enquanto participam simultaneamente da Microsoft 365 Domínio comercial do Azure AD. 
-  
-4. Clique em **Avançar** e a instalação foi concluída. 
-  
-    Envie-nos comentários nesta etapa para nos ajudar a melhorar a experiência.
-  
-    ![Screenshot of Prepare Windows 10 devices page](media/bff701c1-48a3-44f4-aa95-9d959d57c85b.PNG)
-  
+    - Se você tiver registros DNS existentes, por exemplo, um site existente, será necessário gerenciar seus próprios registros DNS para garantir que os serviços existentes permaneçam conectados. Confira [noções básicas sobre domínios](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
+
+        ![Conectar sua página de domínio com gerenciar meus próprios registros DNS.](media/connectyourdomainpage.png)
+
+2. Siga as etapas do assistente e email e outros serviços serão configurados para você.
+
+### <a name="set-up-security-policies-and-device-configurations"></a>Configurar políticas de segurança e configurações de dispositivos 
+
+Essas políticas se aplicam a todos os usuários aos quais você fornece uma licença ou a um grupo de usuários se você decidir atribuir políticas diferentes a um conjunto de usuários.
+
+#### <a name="set-up-policies-in-the-wizard"></a>Configurar políticas no assistente
+
+As políticas configuradas no assistente são aplicadas automaticamente a um [grupo de segurança](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) chamado *todos os usuários*.
+
+1. Na lista **proteger seus arquivos de trabalho em dispositivos móveis** , a opção **proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** será selecionada por padrão. Você pode ativar a opção **gerenciar como os usuários acessam arquivos do Office em dispositivos móveis**e isso é recomendável.
+
+    ![Captura de tela da página proteger arquivos de trabalho em dispositivos móveis.](media/protectworkfilesondevices.png)
+
+     - Se você expandir **proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados**, os [valores padrão](protect-work-files-on-lost-or-stolen-device.md) serão previamente selecionados:
+
+        ![Captura de tela dos valores padrão para proteção de arquivos em dispositivos perdidos.](media/protectworkfilesondevicesdefault.png)
+
+    - Se você selecionar **gerenciar como os usuários acessarão arquivos do Office em dispositivos móveis** e o expandirem, os [valores padrão](manage-user-access-on-mobile-devices.md) serão exibidos. Recomendamos aceitar os valores padrão durante a instalação para criar políticas de aplicativo para Android, iOS e Windows 10 que se apliquem a todos os usuários. Você pode criar mais políticas após concluir a instalação.
+
+        ![Captura de tela das configurações de proteção para arquivos do Office em dispositivos móveis.](media/useraccessonmobile.png)
+
+2. A última etapa para proteger dados e dispositivos permite que você configure políticas para proteger dispositivos Windows 10. Essas configurações são aplicadas automaticamente quando o Windows 10 de um usuário se conecta à sua organização. Você pode expandir **dispositivos Windows 10 seguros** para ver e modificar os [valores padrão](secure-windows-10-devices.md).
+3. Você também pode optar por [instalar automaticamente o Office](install-office-on-windows-10-during-setup.md) em dispositivos Windows 10.
+
+    ![Captura de tela da página definir configuração de dispositivo do Windows 10.](media/setwin10config.png)
+
+#### <a name="modify-or-add-policies-in-the-admin-center"></a>Modificar ou adicionar políticas no centro de administração
+
+Consulte [Manage Microsoft 365 Business](manage.md) para links para tópicos sobre como exibir e modificar políticas de proteção de dispositivos e aplicativos, e como remover dados de ou redefinir dispositivos de usuário.
+
+## <a name="deploy-and-manage-windows-10"></a>Implantar e gerenciar o Windows 10
+Confira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para se conectar manualmente ao Azure AD, seja durante a configuração de novos computadores ou alterando o perfil de logon para computadores existentes. 
+
+### <a name="use-autopilot-to-set-up-new-devices"></a>Usar o piloto automático para configurar novos dispositivos
+
+Você pode usar o [Windows AutoPilot](add-autopilot-devices-and-profile.md) para configurar automaticamente **novos** dispositivos Windows 10 para um usuário, mas pode ser mais fácil obter um [parceiro](https://www.microsoft.com/solution-providers/search) que pode fazer isso para você. Você também pode ir para a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) e solicitar que um especialista em tecnologia de nuvem configure novos dispositivos que você comprou para você.
+
+### <a name="access-on-premises-resources"></a>Acessar recursos locais
+
+Se sua organização usa o Windows Server Active Directory no local, você pode configurar o Microsoft 365 Business para proteger seus dispositivos Windows 10 e ainda manter o acesso a recursos locais que exigem autenticação local. Siga as etapas em [habilitar dispositivos do Windows 10 associados ao domínio para serem gerenciados pela Microsoft 365 Business](manage-windows-devices.md) para configurar isso. Este é o método preferencial e os dispositivos nesse estado são chamados de dispositivos do Azure AD associados híbridos.
+
+Se sua empresa tiver um Active Directory local que contenha alguns recursos locais (como compartilhamento de arquivos e impressoras), você poderá dar aos seus dispositivos associados ao AD do Azure acesso a esses recursos seguindo as etapas aqui: [acessar recursos locais de um Dispositivo ingressado no AD do Azure no Microsoft 365 Business](access-resources.md).
+
+## <a name="deploy-office-365-client-apps"></a>Implantar aplicativos cliente do Office 365
+
+Se você optar por instalar automaticamente os aplicativos do Office no durante a configuração, os aplicativos serão instalados nos dispositivos Windows 10 depois que eles entrarem no Azure AD de seus dispositivos Windows com suas credenciais de trabalho.
+Para instalar o Office no Mobile iOS ou dispositivos Android, consulte [set up Mobile Devices for Microsoft 365 business users](set-up-mobile-devices.md).
+
+Você também pode instalar o Office individualmente. Confira [instalar o Office em um PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc471665) para obter instruções.
+
 ## <a name="additional-security-settings"></a>Configurações de segurança adicionais
 
 Além da configuração de segurança e conformidade no assistente de instalação, você também pode definir as seguintes configurações adicionais:
   
-- Configurar a proteção contra anexos não seguros. **Proteção avançada contra ameaças** (ATP) identifica conteúdo mal-intencionado e, em seguida, bloqueia a entrega de anexos não seguros, ajudando a protegê-lo contra esquemas de phishing e infecções de ransomware. Para ativar a proteção de anexos, confira [Configurar políticas de anexos seguros ATP do Office 365](https://support.office.com/article/078eb946-819a-4e13-8673-fe0c0ad3a775#setpolicy).
-    
-- Proteger seu ambiente quando os usuários clicarem em links mal-intencionados. A ATP examina os links em email no momento em que um usuário clica neles. Se um link não for seguro, o usuário será avisado para não visitar o site ou informando que o site foi bloqueado. Isso ajuda a proteger contra esquemas de phishing. [Configure as políticas de links seguros de ATP do office 365](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#reveddefaultscc) ou [Configure as políticas de links seguros do Office 365 ATP](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#addemailpolscc).
-    
-- Você pode preservar todo o conteúdo da caixa de correio, incluindo itens excluídos, colocando a caixa de correio de um usuário em **retenção de litígio**. Para obter instruções, consulte 
-- [Configurar a retenção de email com o arquivamento do Exchange Online](security-features.md#set-up-email-retention-with-exchange-online-archiving).
-    
-- Configurar políticas de **retenção**personalizadas, por exemplo, para preservar um período específico de tempo ou excluir o conteúdo permanentemente no final do período de retenção. Você pode habilitar políticas de retenção personalizadas no centro de conformidade e títulos, acessar a **retenção**de **governança** \> de dados e seguir as etapas no assistente. Para saber mais, confira [visão geral das políticas de retenção](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
-    
-## <a name="next-steps"></a>Próximas etapas
+- **Proteção contra malware de email**
+- **Anexos seguros de proteção avançada contra ameaças (ATP)**
+- **Links seguros da ATP**
+- **Anti-phishing da APT**
+- **Arquivamento do Exchange Online**
+- **Prevenção de perda de dados (DLP)**
+- **Proteção de informações do Azure** (Plano 1)
+- **Disponibilidade do portal do Intune**
 
-Para os usuários que têm licenças, a próxima etapa será configurar dispositivos.<br/> Confira [Configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) e [Configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md). <br/>Confira [Gerenciar o Microsoft 365 Business](manage.md) para links de tópicos sobre como configurar políticas de proteção de dispositivos e aplicativos e como remover dados de dispositivos de usuários. 
-  
+Para começar, veja [Configurar políticas avançadas de segurança](set-up-advanced-security.md).
 
-
+Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de práticas recomendadas de segurança.

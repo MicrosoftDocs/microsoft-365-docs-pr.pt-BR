@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: 212685bc229f519152e69b09d0a745bfac7a38cd
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2be8eb16b9d17547d3bc4c3e4fe499b4c14117a4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276872"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660260"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business
 
-Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). ConFira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) para saber mais. 
+Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). Confira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) para saber mais. 
   
 ## <a name="run-azure-ad-connect"></a>Executar o Azure AD Connect
 
@@ -47,11 +47,9 @@ Se sua organização não estiver pronta para implantar na configuração de dis
 Se você for o Azure AD ingressando em um dispositivo do Windows que tenha sido ingressado no domínio ou em um grupo de trabalho, você precisará considerar as seguintes limitações:
   
 - Quando um dispositivo do Azure AD se une, ele cria um novo usuário sem fazer referência a um perfil existente. Para corrigir isso, os perfis precisam ser migrados manualmente. Um perfil de usuário contém informações como favoritos, arquivos locais, configurações do navegador, configurações do menu Iniciar, etc. Uma melhor abordagem é localizar uma ferramenta de terceiros para mapear arquivos e configurações existentes para o novo perfil
-    
-- Se o dispositivo estiver usando objetos de política de grupo (GPO), alguns GPOs podem não ter um [provedor de serviços de configuração](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) comparável (CSP) no Intune. Execute a [ferramenta MMAT](https://www.microsoft.com/download/details.aspx?id=45520) para localizar CSPs comparáveis para GPOs existentes. 
-    
-- Os usuários não poderão autenticar em aplicativos que dependem da autenticação do Active Directory. Para lidar com essa avaliação usando um aplicativo herdado e considere a atualização para um aplicativo que usa autenticação moderna, se possível.
-    
-- A descoberta de impressora do Active Directory não funcionará. Para corrigir isso, forneça caminhos de impressora diretos para todos os usuários ou aproveite a [impressão de nuvem híbrida](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
-    
 
+- Se o dispositivo estiver usando objetos de política de grupo (GPO), alguns GPOs podem não ter um [provedor de serviços de configuração](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) comparável (CSP) no Intune. Execute a [ferramenta MMAT](https://www.microsoft.com/download/details.aspx?id=45520) para localizar CSPs comparáveis para GPOs existentes.
+
+- Os usuários não poderão autenticar em aplicativos que dependem da autenticação do Active Directory. Para lidar com essa avaliação usando um aplicativo herdado e considere a atualização para um aplicativo que usa autenticação moderna, se possível.
+
+- A descoberta de impressora do Active Directory não funcionará. Para corrigir isso, forneça caminhos de impressora diretos para todos os usuários ou aproveite a [impressão de nuvem híbrida](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
