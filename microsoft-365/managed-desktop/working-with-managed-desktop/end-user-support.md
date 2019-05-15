@@ -7,16 +7,18 @@ author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3e48fdfc9708f0a1eb3b1cb0e5deb64d1a5ca748
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a073a5dfe61b036cbdc3bf9b0be08bc559acb548
+ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278214"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970468"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
-Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Observe que os dispositivos que residem no grupo de teste estão fora do escopo para essas opções de suporte ao usuário final. 
+Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Ambas as opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana. 
+>[!NOTE]
+>Os dispositivos que residem no grupo de teste estão fora do escopo para essas opções de suporte ao usuário final. 
 
 ## <a name="get-help-app"></a>Obter ajuda do aplicativo
 
@@ -32,12 +34,14 @@ Este é um aplicativo que é instalado em todos os dispositivos de área de trab
 ## <a name="phone-support"></a>Suporte por telefone
 
 Os usuários finais com dispositivos de área de trabalho gerenciada da Microsoft também têm acesso a números de telefone de chamada gratuita que podem chamar. Isso deve ser usado quando obter ajuda não estiver disponível. Por exemplo, se não puder entrar no dispositivo ou se o dispositivo estiver quebrado. Estes são os números de telefone para suporte por telefone:
- 
 
-- Estados Unidos & Canadá (exceto Quebec): + 1 855 425 0216
+- Estados Unidos: + 1 855 425 0216
+- Canadá (exceto Quebec): + 1 855 425 0216
 - Reino Unido: + 44 800 026 0698
 - Austrália: + 61 180 037 0619
 
+>[!NOTE]
+>Deixe o número de série do dispositivo pronto ao ligar. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 

@@ -7,16 +7,16 @@ author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 11/7/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2e88f629764fa1c19a4a2d53337ebaebc7c173b8
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 97637f28f5a5de292385a36472966f3272b2f09a
+ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278516"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970458"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
 
-Os dispositivos de área de trabalho gerenciada da Microsoft são gerenciados pelo e serão reparados ou substituídos pela Microsoft conforme o contrato de garantia. A Microsoft oferecerá gerenciamento de incidentes proativo e reativo. A Microsoft rastreia incidentes no portal de administração de área de trabalho gerenciada da Microsoft. Eles são classificados de acordo com as [definições de gravidade](../working-with-managed-desktop/admin-support.md#sev).
+A Microsoft oferecerá gerenciamento de incidentes proativo e reativo. A Microsoft rastreia incidentes no portal de administração de área de trabalho gerenciada da Microsoft. Eles são classificados de acordo com as [definições de gravidade](../working-with-managed-desktop/admin-support.md#sev).
 
 Os clientes podem contatar as operações de área de trabalho gerenciada da Microsoft para:
 - Solicitações de informações sobre o locatário ou a configuração da área de trabalho gerenciada da Microsoft
@@ -34,7 +34,7 @@ Suporte para área de trabalho gerenciada da Microsoft:
 Produtos suportados:
 
 - Windows 10 com proteção avançada contra ameaças do Windows Defender (WDATP) 
-- SubConjunto do pacote Microsoft 365 E3: Outlook, Word, PowerPoint, Excel, Skype for Business Client, Microsoft Teams 
+- Subconjunto do pacote do Office 365: Outlook, Word, PowerPoint, Excel, cliente Skype for Business, Microsoft Teams 
 - Microsoft Store para Empresas 
 - Cliente do OneDrive for Business 
 
