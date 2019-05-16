@@ -3,7 +3,7 @@ title: Como as políticas do Microsoft 365 Business protegem os dados da empresa
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_ESPoliciesLM
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Saiba mais sobre as políticas que direcionam dispositivos específicos e grupos de segurança para proteger os dados da empresa nos dispositivos pessoais do usuário.
-ms.openlocfilehash: 11f0432b9e738841e6523dce436c534af41b827a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: ee7a0a1a397d7f527c3db16520ba157168cfbee3
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276778"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072631"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Como as políticas do Microsoft 365 Business protegem os dados da empresa
 

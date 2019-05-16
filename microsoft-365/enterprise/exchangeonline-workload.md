@@ -3,7 +3,7 @@ title: Implantar o Exchange Online para o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 06/28/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: Percorra o processo de planejamento, distribuição e condução do valor do Exchange Online no Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 6efd94da7806b6268881f7eaabe5efacc8920f47
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c54c80a955d86028ac473857cbdcb8b1a8f272d3
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281201"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072281"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Implantar o Exchange Online para o Microsoft 365 Enterprise
 
@@ -163,7 +163,7 @@ Depois de distribuir o Exchange Online para toda a sua organização, você deve
 - Sua liderança é promover o Exchange Online como a principal ferramenta para comunicação e agendamento individuais e de curta duração.
 - Incentivar as pessoas a usá-lo para o grupo de negócios, o departamento, o trabalho e as comunicações da equipe de projeto, o calendário e a colaboração.
 
-Aqui estão algumas sugestões de atividades:
+Veja algumas sugestões de atividades:
 
 - Veja [Orientação sobre a adoção do Office 365](https://aka.ms/successfactors) para saber mais sobre as práticas recomendadas gerais para a adoção do serviço de nuvem. 
 - Veja [relatórios de atividades do Office 365](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) para entender o uso do serviço do Office 365 em sua organização. Se você não for um administrador global do Office 365 para sua organização, peça a um administrador global para conceder à sua conta de usuário permissões para ler relatórios, de forma que você possa acessar os relatórios de atividades.

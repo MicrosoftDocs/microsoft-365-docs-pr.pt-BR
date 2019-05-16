@@ -3,7 +3,7 @@ title: Sobre as configurações de perfil do AutoPilot
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - ZTDProfileSettings
@@ -25,25 +25,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: Os perfis do autoPilot ajudam a controlar como o Windows é instalado nos dispositivos do usuário. Os perfis contêm configurações padrão e opcionais, como ignorar a instalação da corTana.
-ms.openlocfilehash: d43a15e5f3dc83596b5c23dd0ceb416b24810298
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Os perfis do AutoPilot ajudam a controlar como o Windows é instalado nos dispositivos do usuário. Os perfis contêm configurações padrão e opcionais, como ignorar a instalação da Cortana.
+ms.openlocfilehash: adc8112861b67fd96a91ff24dc155aeb0c394532
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276932"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34071851"
 ---
 # <a name="about-autopilot-profile-settings"></a>Sobre as configurações de perfil do AutoPilot
 
-## <a name="autopilot-profile-settings"></a>Configurações de perfil do autoPilot
+## <a name="autopilot-profile-settings"></a>Configurações de perfil do AutoPilot
 
-Você pode controlar como o Windows é instalado nos dispositivos de usuário usando os perfis do autoPilot. Os perfis contêm as configurações a seguir.
+Você pode controlar como o Windows é instalado nos dispositivos de usuário usando os perfis do AutoPilot. Os perfis contêm as configurações a seguir.
   
- **Recursos padrão do autoPilot (obrigatório) que são definidos automaticamente:**
+ **Recursos padrão do AutoPilot (obrigatório) que são definidos automaticamente:**
   
 |**Configuração**|**Descrição**|
 |:-----|:-----|
-|Ignorar o registro da corTana, OneDrive e OEM  <br/> |Ignora a instalação de aplicativos de consumidor como a corTana e o OneDrive pessoal. O usuário do dispositivo poderá instalá-los mais tarde, contanto que ele seja um administrador local no dispositivo. O registro do fabricante original é ignorado porque o dispositivo será gerenciado pelo Microsoft 365 Business.  <br/> |
+|Ignorar o registro da Cortana, OneDrive e OEM  <br/> |Ignora a instalação de aplicativos de consumidor como a Cortana e o OneDrive pessoal. O usuário do dispositivo poderá instalá-los mais tarde, contanto que ele seja um administrador local no dispositivo. O registro do fabricante original é ignorado porque o dispositivo será gerenciado pelo Microsoft 365 Business.  <br/> |
 |Experiência de entrada com a marca da sua empresa  <br/> |Se sua empresa tiver uma [marca adicionar sua empresa à página de entrada do Office 365](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), o usuário do dispositivo receberá essa experiência ao entrar.  <br/> |
 |Registro automático do MDM com contas do AAD configuradas.  <br/> |A identidade do usuário será gerenciada pelo Azure Active Directory e os usuários entrarão no Windows e no Office 365 com suas credenciais de negócios do Microsoft 365.  <br/> |
    

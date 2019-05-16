@@ -3,7 +3,7 @@ title: Estados do dispositivo
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Saiba mais sobre os Estados de dispositivos no Microsoft 365 Business.
-ms.openlocfilehash: 15114835a5014f5bfac600eac79bcdffdaec481a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 06e5c800e6a104785c1fd0724223e05d7729722e
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276953"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072711"
 ---
 # <a name="device-states"></a>Estados do dispositivo
 

@@ -3,7 +3,7 @@ title: Obter o Microsoft 365 Business da central de parceiros
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Saiba como comprar o Microsoft 365 Business pelo Microsoft Partner Center.
-ms.openlocfilehash: f11e5905915e182faa5f3f1b6b7d3477ecac320b
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 4f36edb356d382880bb1dda407bd52ca8e2dcce6
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660400"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072691"
 ---
 # <a name="get-microsoft-365-business"></a>Obter o Microsoft 365 Business
 

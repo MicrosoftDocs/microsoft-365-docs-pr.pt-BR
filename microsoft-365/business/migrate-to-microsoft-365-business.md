@@ -3,7 +3,7 @@ title: Migrar para o Microsoft 365 Business do Office 365 Business Premium
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa para o Microsoft 365 Business.
-ms.openlocfilehash: 3e45ba13e4cfe772829f545219bf86a9a3317d59
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e4bb18904355663f9f26f58a3fd3aaf7420e5378
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285616"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072731"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migrar para o Microsoft 365 Business do Office 365 Business Premium
 
@@ -58,7 +58,7 @@ Se você receber um link para comprar suas licenças, passará por um assistente
     
 2. Na página **personalizar sua entrada e email** , você pode adicionar um domínio escolhendo **conectar um domínio que você já possui** , se quiser usar essa oportunidade para adicionar outro domínio à sua assinatura. 
     
-    Se você já configurou um domínio, o segundo campo indicará que o e a usará para **continuar usando** \< _o nome_ \> **de domínio para email e entrar**.   se você ainda não configurou um domínio com sua assinatura, diga **continuar usando** \< _sua empresa name.onmicrosoft.com_ \> **para email e entrar**.  
+    Se você já configurou um domínio, o segundo campo indicará que o e a usará para **continuar usando** \< _o nome_ \> **de domínio para email e entrar**.   Se você ainda não configurou um domínio com sua assinatura, diga **continuar usando** \< _sua empresa Name.onmicrosoft.com_ \> **para email e entrar**.  
     
     Escolha **Avançar**.
     
@@ -78,9 +78,9 @@ Se você receber um link para comprar suas licenças, passará por um assistente
     
     ![No cartão do usuário, escolha Editar ao lado de licenças de produto.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. em **licenças de produto** , deslize **Microsoft 365 Business** to **** \> **Save**e **Close**.
+8. Em **licenças de produto** , deslize **Microsoft 365 Business** to **** \> **Save**e **Close**.
     
-após adquirir a licença inicial para o Microsoft 365 Business, agora você pode também adicionar mais nos **serviços de compra**de **cobrança** \> . Na página **comprar serviços** , você pode clicar nas reticências no cartão de **visita do Microsoft 365** e escolher **alterar a quantidade de licenças** para comprar mais. 
+Após adquirir a licença inicial para o Microsoft 365 Business, agora você pode também adicionar mais nos **serviços de compra**de **cobrança** \> . Na página **comprar serviços** , você pode clicar nas reticências no cartão de **visita do Microsoft 365** e escolher **alterar a quantidade de licenças** para comprar mais. 
   
 ## <a name="protect-user-devices-and-files"></a>Proteger os arquivos e os dispositivos do usuário
 
@@ -92,7 +92,7 @@ Após ter atribuído licenças para o Microsoft 365 Business, você pode começa
     
 3. No painel **Adicionar política** , dê um nome à política e, em seguida, escolha um **tipo de política** na lista suspensa. 
     
-    Você pode configurar políticas de aplicativo para proteger arquivos em dispositivos Android e iPhone, bem como Windows 10, e pode configurar políticas de configuração de dispositivo para dispositivos do Windows 10 de propriedade da empresa. ConFira os seguintes links para obter detalhes:
+    Você pode configurar políticas de aplicativo para proteger arquivos em dispositivos Android e iPhone, bem como Windows 10, e pode configurar políticas de configuração de dispositivo para dispositivos do Windows 10 de propriedade da empresa. Confira os seguintes links para obter detalhes:
     
   - [Definir configurações de proteção de aplicativo para dispositivos Android ou iOS](app-protection-settings-for-android-and-ios.md)
     
@@ -106,9 +106,9 @@ Após ter atribuído licenças para o Microsoft 365 Business, você pode começa
     
   - Se o Windows ainda não estiver na atualização do Windows pro Creator, será necessário [atualizá-lo para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md).
     
-  - ConFira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para obter etapas para dispositivos Windows. 
+  - Confira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para obter etapas para dispositivos Windows. 
     
-  - ConFira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para obter etapas para telefones Android e iPhones. 
+  - Confira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para obter etapas para telefones Android e iPhones. 
     
 5. Para instalar automaticamente os aplicativos cliente do Office, consulte [preparar para a implantação do cliente do Office pela Microsoft 365 Business](prepare-for-office-client-deployment.md) e [instalar ou desinstalar automaticamente o Office em dispositivos Windows 10](auto-install-or-uninstall-office.md).
     

@@ -15,6 +15,7 @@
 ### [Pré-requisitos para a área de trabalho gerenciada da Microsoft](get-ready/prerequisites.md)
 ### [Preparar rede](get-ready/network.md)
 ### [Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft](get-ready/authentication.md)
+### [Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft](get-ready/mapped-drives.md)
 ### [Preparar aplicativos de linha de negócios](get-ready/apps.md)
 ## [Introdução à área de trabalho gerenciada da Microsoft](get-started/index.md)
 ### [Adicionar contatos do administrador](get-started/add-admin-contacts.md)

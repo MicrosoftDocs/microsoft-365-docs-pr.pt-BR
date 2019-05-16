@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint Online para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: c20e3a1c4ad0b862e81b897acc1462e3a1d1f776
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 99599829658e5dc46c8adebfe59f5c6d09b165de
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289209"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072772"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint Online para ativos digitais altamente confidenciais da Contoso Corporation
 
@@ -26,7 +26,7 @@ ms.locfileid: "32289209"
   
 Os ativos mais valiosos da Contoso são sua propriedade intelectual na forma de segredos comerciais, como técnicas de fabricação proprietárias e especificações de design para produtos que estão em desenvolvimento. Esses ativos estão em formato digital, originalmente armazenados como arquivos em um site do SharePoint Server 2016. Quando a contoso implantou o Microsoft 365 Enterprise, eles queriam migrar seus ativos digitais locais para a nuvem para facilitar o acesso e mais colaboração aberta entre as equipes de pesquisa em Paris, Moscow, Nova York, Pequim e Bangalore. 
   
-No enTanto, devido à natureza confidencial, o acesso a esses arquivos deve ser:
+No entanto, devido à natureza confidencial, o acesso a esses arquivos deve ser:
 
 - Restrito ao conjunto de pessoas que têm permissão para exibir ou alterá-las, com permissões contínuas para o site administrado somente pelos administradores do SharePoint. 
 - Protegido por DLP (prevenção contra perda de dados) para impedir que os usuários os distribuam fora do site.
@@ -36,7 +36,7 @@ Administradores de segurança e do SharePoint no departamento de ti da Contoso d
   
 A contoso usou estas etapas para criar e proteger sites de equipe do SharePoint Online para suas equipes de pesquisa.
 
-## <a name="step-1-reviewed-and-verified-the-members-of-research-team-groups"></a>Etapa 1: reVisado e verificado os membros dos grupos da equipe de pesquisa
+## <a name="step-1-reviewed-and-verified-the-members-of-research-team-groups"></a>Etapa 1: revisado e verificado os membros dos grupos da equipe de pesquisa
 
 Os administradores de ti da Contoso executaram uma análise do conjunto de grupos de segurança para suas equipes de pesquisa. Eles removeram qualquer pessoa que não seja um pesquisador ou não precisevam de acesso aos ativos de pesquisa. 
 
@@ -70,9 +70,9 @@ Em seguida, criamos uma nova política de DLP do Office 365 chamada **pesquisa**
 
 - Usa o rótulo de retenção **altamente confidencial** do Office 365. 
 - É aplicado ao site de **pesquisa** .
-- Impede que os usuários compartilhem documentos.
+- Bloqueia os usuários quando eles tentam compartilhar um ativo digital no site de **pesquisa** fora da contoso.
 
-Para obter detalhes sobre a configuração, consulte [proteger arquivos do SharePoint Online com rótulos do Office 365 e DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
+Para obter detalhes sobre a configuração, consulte [proteger arquivos do SharePoint Online com rótulos de retenção e DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
 ## <a name="step-4-created-an-azure-information-protection-sub-label-for-the-site"></a>Etapa 4: criou um subrótulo da proteção de informações do Azure para o site
 
@@ -93,7 +93,7 @@ Aqui está a configuração resultante do site de **pesquisa** para ativos altam
 Arquivos em pastas do site de **pesquisa** são protegidos por:
 
 - O subrótulo de proteção de informações do Azure de **pesquisa** , que aplica criptografia e permssions a cada arquivo que viaja com o arquivo quando ele é movido ou copiado do site de **pesquisa** .
-- A política de DLP de **pesquisa** , que usa o rótulo de retenção **altamente confidencial** e as configurações que impedem o arquivo de sair do site.
+- A política de DLP de **pesquisa** , que usa o rótulo de retenção **altamente confidencial** e as configurações que impedem o arquivo de ser compartilhado com usuários externos.
 - O conjunto de permissões de site, que só permite o acesso aos membros dos grupos de segurança e administração de **pesquisa de membros** e **visualizadores** de pesquisa pelos membros do grupo de segurança **Research-admins** .
 
 ## <a name="step-5-migrated-the-on-premises-sharepoint-research-data"></a>Etapa 5: migrar os dados de pesquisa do SharePoint local

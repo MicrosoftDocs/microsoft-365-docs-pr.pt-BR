@@ -3,7 +3,7 @@ title: Mover arquivos para o OneDrive for Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Saiba como mover seus arquivos para o OneDrive.
-ms.openlocfilehash: a5cc0ff46599bcbf5aee71a76bce3ed99c8b9a66
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 361c65a714a8f820c05204b627c179adf8b17e63
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285394"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072661"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
 
