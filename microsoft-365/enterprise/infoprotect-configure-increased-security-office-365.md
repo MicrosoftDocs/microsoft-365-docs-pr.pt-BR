@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/10/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a segurança aprimorada para o Microsoft 365.
-ms.openlocfilehash: fcf023960679cf624f3ea7421ab92b1a450d2524
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 81c39eb6a51e7596a72721c72084f1f255f7f451
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400025"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073631"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Etapa 3: Configurar a segurança aprimorada para o Microsoft 365
 

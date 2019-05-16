@@ -3,7 +3,7 @@ title: Cenários e cargas de trabalho do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 30dbf913016687025c6159f1f1fc311462a13d29
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 06dc8683c471de9de7067a3d84673687cddc76c6
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400135"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072401"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
 

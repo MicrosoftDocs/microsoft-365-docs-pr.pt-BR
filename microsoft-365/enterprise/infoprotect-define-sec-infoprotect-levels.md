@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/10/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar os níveis de proteção e segurança de informações para sua organização.
-ms.openlocfilehash: 91274ec2bcd4e4472969a7cd65660742daaef5bd
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 37ef1433f2c117e17c78d297a920424d8e83cbb8
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286994"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34071971"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>Etapa 1: Definir os níveis de proteção e segurança de informações
 

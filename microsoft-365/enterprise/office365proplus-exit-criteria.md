@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 03/06/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura do Office 365 ProPlus.
-ms.openlocfilehash: c9a2afeae8d28170f4e8a15531a08e6b94cb48c2
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 544eb31a8fd2417adfa929df793f88ec52b1d503
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33399985"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073141"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Critérios de saída da implantação do Office 365 ProPlus
 

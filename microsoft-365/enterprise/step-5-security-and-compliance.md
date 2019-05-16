@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as considerações importantes de conformidade e segurança do Windows e do Office.
-ms.openlocfilehash: cefab9cfd1b61f37559d88c5625c512d33595395
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: ceb6a8e54c99a89cb969c0118de9151cb35314ce
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400235"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073031"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Etapa 5: Considerações de segurança e conformidade
 
@@ -51,11 +51,12 @@ Algumas soluções de criptografia de disco permitem que você execute as atuali
 
 Uma opção para resolver esses problemas é usar o BitLocker no Windows 10, que está incluído no Windows 10 Pro e em versões superiores. O BitLocker permite que você suspenda a proteção de atualizações do sistema operacional e de atualizações de recursos como parte do processo.
 
-[Implantação básica do Bitlocker](https://docs.microsoft.com/pt-BR/windows/security/information-protection/bitlocker/bitlocker-basic-deployment)
+
+  [Implantação básica do Bitlocker](https://docs.microsoft.com/pt-BR/windows/security/information-protection/bitlocker/bitlocker-basic-deployment)
 
 ### <a name="antivirus-and-antimalware-application-compatibility"></a>Compatibilidade de aplicativos antivírus e antimalware
 
-Em segundo lugar, ainda que tenhamos visto que mais de [99% dos aplicativos do Windows são compatíveis](https://www.microsoft.com/pt-BR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/) entre o Windows 7 e o Windows 10, as exceções são frequentemente aplicativos antivírus (AV) ou clientes VPN (Virtual Private Network, rede privada virtual). Esses aplicativos frequentemente implementam práticas de desenvolvimento não padrão e APIs, usando com frequência formas não documentadas de proteger seu sistema ou conectá-lo aos recursos de rede.
+Em segundo lugar, ainda que tenhamos visto que mais de [99% dos aplicativos do Windows são compatíveis](https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/) entre o Windows 7 e o Windows 10, as exceções são frequentemente aplicativos antivírus (AV) ou clientes VPN (Virtual Private Network, rede privada virtual). Esses aplicativos frequentemente implementam práticas de desenvolvimento não padrão e APIs, usando com frequência formas não documentadas de proteger seu sistema ou conectá-lo aos recursos de rede.
 
 Como resultado, esses aplicativos, por natureza, podem ser frágeis a alterações ao migrar para uma nova versão do Windows. Caso seu software AV ou VPN não funcione no Windows 10 ou depois da atualização, a correção normalmente é substituir o aplicativo que está usando por um com suporte e testado no Windows 10.
 
@@ -77,19 +78,24 @@ Começando com o gerenciamento de identidades e acesso. O Azure Active Directory
 
 No nível do dispositivo, a biometria pode fornecer identificadores únicos para oferecer um acesso mais seguro para seus dispositivos e aplicativos, conforme você segue na direção da meta de eliminar senhas. O Windows Hello oferece autenticação multifator baseada em dispositivo. Ela confia no próprio dispositivo, em seu PIN ou no identificador biométrico exclusivo, como seu rosto ou sua impressão digital, que você pode aplicar por política.
 
-[Noções básicas do gerenciamento de identidade do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/fundamentals/identity-fundamentals)
 
-[Entender as soluções de identidade do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/fundamentals/understand-azure-identity-solutions)
+  [Noções básicas do gerenciamento de identidade do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/fundamentals/identity-fundamentals)
 
-[Acesso condicional do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/conditional-access/overview)
 
-[Windows Hello para Empresas](https://docs.microsoft.com/pt-BR/windows/security/identity-protection/hello-for-business/hello-identity-verification)
+  [Entender as soluções de identidade do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/fundamentals/understand-azure-identity-solutions)
+
+
+  [Acesso condicional do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/conditional-access/overview)
+
+
+  [Windows Hello para Empresas](https://docs.microsoft.com/pt-BR/windows/security/identity-protection/hello-for-business/hello-identity-verification)
 
 ### <a name="virtualization-based-security"></a>Segurança baseada em virtualização
 
 Agora, além da identidade, você também pode habilitar a proteção contínua contra ameaças conhecidas ou não. Para fazer isso, o Windows 10 usa a segurança baseada em virtualização no núcleo para assegurar a integridade da inicialização e do código usando a Inicialização Segura. Também podemos ajudar a evitar o roubo de credenciais com a Proteção de Credenciais, ao manter os segredos do usuário isolados do Windows. E a Proteção de Aplicativos pode isolar e reduzir as ameaças baseadas em navegador ao executá-lo em um contêiner isolado. Todas essas tecnologias usam segurança baseada em virtualização no Windows 10 e são alterações fundamentais que não podem ser replicadas em um sistema Windows 7. Isso também precisa do UEFI, do Windows de 64 bits e de suporte a extensão de virtualização com SLAT no nível do hardware.
 
-[Saiba mais sobre a segurança baseada em virtualização](https://docs.microsoft.com/pt-BR/windows-hardware/design/device-experiences/oem-vbs)
+
+  [Saiba mais sobre a segurança baseada em virtualização](https://docs.microsoft.com/pt-BR/windows-hardware/design/device-experiences/oem-vbs)
 
 ### <a name="security-enhancements-from-cloud-services"></a>Aprimoramentos de segurança de serviços em nuvem
 
@@ -97,7 +103,9 @@ Os serviços em nuvem oferecem outra camada de proteção opcional para melhorar
 
 Com o Gráfico de Segurança Inteligente da Microsoft, você tem acesso mais rápido a informações e proteções de novas ameaças. Você pode aproveitar algumas dessas vantagens, começando pelo Office.
 
-**[Prevenção contra perda de dados](https://docs.microsoft.com/pt-BR/office365/securitycompliance/data-loss-prevention-policies)** integrada ao Office 365 ProPlus ajuda a informar os usuários de políticas de segurança quando conteúdo de alto risco, como números de cartão de crédito ou de identificação, são detectados. As políticas podem informar ou bloquear o envio e o compartilhamento depois de notificar os usuários.
+
+  **
+  [Prevenção contra perda de dados](https://docs.microsoft.com/pt-BR/office365/securitycompliance/data-loss-prevention-policies)** integrada ao Office 365 ProPlus ajuda a informar os usuários de políticas de segurança quando conteúdo de alto risco, como números de cartão de crédito ou de identificação, são detectados. As políticas podem informar ou bloquear o envio e o compartilhamento depois de notificar os usuários.
 
 A **[Proteção de Informações do Azure](https://docs.microsoft.com/pt-BR/azure/information-protection/rms-client/client-admin-guide)** é um serviço complementar que pode ser usado com o Office, permitindo aos usuários classificar e rotular com facilidade os arquivos do Office. Ela pode acionar uma ação automática em arquivos rotulados, como criptografia ou bloquear o compartilhamento.
 

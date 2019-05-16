@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como preparar seus usuários finais para o Windows 10 e o Office 365 ProPlus com o uso de comunicações e treinamento.
-ms.openlocfilehash: cd413ae0f7a85a65c41c2112a64e19b6ed68c987
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 60207ad991acdee2c5378b331ce85aa762722e40
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400185"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073041"
 ---
 # <a name="step-8-user-communications-and-training"></a>Etapa 8: Treinamento e comunicações de usuários
 
@@ -55,11 +55,12 @@ Para o Windows 10, podemos ajudá-lo a familiarizar os usuários com recursos op
 
 Também são visíveis os controles de segurança e conformidade aos quais os usuários podem estar expostos. O Enterprise Mobility + Security, que é composto pelo Azure AD e pelo Microsoft Intune, integra recursos adicionais ao Windows 10 e o Office 365 que podem ser direcionados para o upgrade do computador.
 
-[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/pt-BR/cloud-platform/enterprise-mobility-security)
+[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security)
 
 Por exemplo, se você já tiver habilitado a Autenticação Multifator, ela utilizará o Azure AD e protegerá o acesso do usuário a recursos aproveitando um aplicativo de telefone ou um PIN para usar os serviços com segurança. E a Proteção de Informações do Azure facilita para os usuários classificar e rotular documentos.
 
-[Configurar a autenticação multifator para usuários do Office 365](https://support.office.com/pt-BR/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+
+  [Configurar a autenticação multifator para usuários do Office 365](https://support.office.com/pt-BR/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 Estes são apenas alguns dos novos recursos que serão percebidos pelos seus usuários e alguns poderão pegá-los de surpresa, de uma maneira mais ou menos positiva. E essas surpresas, especialmente se alterarem o fluxo de trabalho normal, podem resultar em mais chamadas e tíquetes para você ou seu suporte técnico.
 

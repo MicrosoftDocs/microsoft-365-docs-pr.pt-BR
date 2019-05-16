@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 05/01/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de Laboratório de Teste para criar um ambiente de teste leve para testar o Microsoft 365 Enterprise.
-ms.openlocfilehash: 7ad6d5bcf4e53b918af2c06f81c2744cec7c1b35
-ms.sourcegitcommit: 1b77b699b8e23df8b98530dfad3a29b4aaa0753c
+ms.openlocfilehash: a189cb63847f2b95402a864422257a38d1f098d1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33867991"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072181"
 ---
 # <a name="the-lightweight-base-configuration"></a>A configuração de base leve
 

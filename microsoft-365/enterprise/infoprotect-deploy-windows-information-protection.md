@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/25/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreender e implantar a Proteção de Informações do Windows no Microsoft 365.
-ms.openlocfilehash: ca706d49053bbc100a633afb74c7c978de2e4c5c
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: e32b09c20e86ff927748f7aedd8b8d769e07916e
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353093"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073552"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Etapa 4: configurar a Proteção de Informações do Windows
 
