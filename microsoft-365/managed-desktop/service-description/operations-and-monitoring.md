@@ -3,16 +3,15 @@ title: Monitoramento e operações de área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 12/18/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 391c5cca9f1d440a806fa094633b50c3256c2a26
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c618c5bf2acf50d84aca354975670ed84b581601
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291456"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431912"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Monitoramento e operações de área de trabalho gerenciada da Microsoft
 
@@ -21,7 +20,7 @@ ms.locfileid: "32291456"
 
 ## <a name="change-management"></a>Gerenciamento de alterações
 
-Em um oferta de serviços, o equilíbrio de responsabilidade sobre coisas como a manutenção de hardware e atualizações de segurança passa para o provedor de serviços (Microsoft) em vez do cliente (você). No enTanto, você ainda precisará garantir que o software de terceiros e o personalizado continuem funcionando conforme o esperado quando as atualizações são implantadas.
+Em um oferta de serviços, o equilíbrio de responsabilidade sobre coisas como a manutenção de hardware e atualizações de segurança passa para o provedor de serviços (Microsoft) em vez do cliente (você). No entanto, você ainda precisará garantir que o software de terceiros e o personalizado continuem funcionando conforme o esperado quando as atualizações são implantadas.
 
 Para produtos locais, sua organização assume todas as responsabilidades de gerenciamento de alterações.
 
@@ -62,7 +61,7 @@ Nem todas as alterações têm o mesmo impacto sobre os usuários ou exigem aç�
 
 |   | Função |   Atualizações não relacionadas à segurança |  Segurança
 --- | --- | --- | ---
-**Tipo de alteração** | – Atualizações de recursos<br>– Novos recursos ou aplicativos<br>-Recursos preTeridos | Hotfixes de cliente para problemas | Patches de segurança
+**Tipo de alteração** | – Atualizações de recursos<br>– Novos recursos ou aplicativos<br>-Recursos preteridos | Hotfixes de cliente para problemas | Patches de segurança
 **Aviso com antecedência** | um aviso de cinco dias para alterações que exigem ação |    Não, eles estão incluídos na versão mensal   | Não, eles estão incluídos na versão mensal 
 **Canal de comunicação** | -Central de mensagens<br>– Alerta de email | -Central de mensagens<br>– Alerta de email | -Central de mensagens<br>– Alerta de email
 **Requer ação de administração de locatário** | Às vezes |  Raramente |    Raramente 

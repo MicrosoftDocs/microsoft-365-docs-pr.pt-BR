@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b8d41e3747ad1e844e8d8f51412366d1c58efbe4
-ms.sourcegitcommit: 82a5c9a1f0f9627264f6f488dedb03f9092451fd
+ms.openlocfilehash: 7c260ce7b3fcb488cb22fb054eeb6ba322fee94b
+ms.sourcegitcommit: ef1382ca224a0c108df2633a6550786666691e1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34163437"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34391262"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Preparar certificados e perfis de rede para a área de trabalho gerenciada da Microsoft  
  
@@ -71,7 +71,7 @@ Depois que seu perfil de LAN tiver sido exportado, você poderá preparar a pol�
     - OMA-URI (diferencia maiúscula de minúscula): Enter *./Device/Vendor/MSFT/WiredNetwork/LanXML*
     - Tipo de dados: selecionar **cadeia de caracteres (arquivo XML)**. 
     - XML personalizado: carregue o arquivo XML exportado.
-2. Envie uma solicitação de serviço para operações de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração em "dispositivos de trabalho modernos – teste". As operações de área de trabalho gerenciada da Microsoft lhe permitirão saber quando a solicitação será concluída usando o portal de administração.
+2. Envie uma solicitação de suporte para as operações de ti de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração em "dispositivos do ambiente de trabalho modernos – As operações de ti de área de trabalho gerenciada da Microsoft permitirão que você saiba quando a solicitação é concluída por meio da solicitação de suporte no portal de administração.
  
 ## <a name="deploy-certificates-and-wi-fivpn-profile"></a>Implantar certificados e o perfil Wi-Fi/VPN 
  
@@ -82,6 +82,6 @@ Para implantar certificados e perfis, siga estas etapas:
 2. Criar um perfil para cada SCEP ou certificados PKCS (consulte [criar um perfil de certificado SCEP](https://docs.microsoft.com/intune/certificates-scep-configure#create-a-scep-certificate-profile) ou [criar um perfil de certificado PKCS](https://docs.microsoft.com/intune/certficates-pfx-configure#create-a-pkcs-certificate-profile)) cada um desses perfis deve ter uma descrição que inclua uma data de expiração no formato dd/mm/aaaa. **Os perfis de certificado sem uma data de expiração não serão implantados.**
 3. Criar um perfil para cada rede WiFi corporativa (consulte [configurações de Wi-Fi para dispositivos Windows 10 e posteriores](https://docs.microsoft.com/intune/wi-fi-settings-windows)).
 4. Criar um perfil para cada VPN corporativa (consulte [Windows 10 and Windows Holographic device settings to add VPN Connections using Intune](https://docs.microsoft.com/intune/vpn-settings-windows-10)).
-5. Envie uma solicitação de serviço intitulada "implantação de certificado" ou "implantação de perfil Wi-Fi" para operações de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração para "dispositivos de área de trabalho moderna – Test". As operações de área de trabalho gerenciada da Microsoft lhe permitirão saber quando a solicitação foi concluída usando o portal de administração. 
+5. Enviar uma solicitação de suporte intitulado "implantação de certificado" ou "implantação de perfil Wi-Fi" para operações de ti de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração em "dispositivos de local de trabalho modernos – teste ". As operações de ti de área de trabalho gerenciada da Microsoft permitirão que você saiba quando a solicitação foi concluída por meio da solicitação de suporte no portal de administração. 
  
  
