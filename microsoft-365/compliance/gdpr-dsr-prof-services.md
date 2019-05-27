@@ -10,12 +10,12 @@ ms.author: heicba
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: fdbd15e3b6cb3a5283bea9dc92ed89c7f2493f40
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 4fb7c3140a73e4f72673807bb99214ff6fc0f2bc
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278238"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431742"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr"></a>Solicitações de titulares dos dados ao suporte e aos Serviços profissionais da Microsoft sobre o RGPD
 
@@ -23,7 +23,7 @@ ms.locfileid: "32278238"
 
 Os Serviços profissionais da Microsoft incluem um grupo diverso de arquitetos, engenheiros, consultores técnicos e profissionais de suporte dedicados ao cumprimento da missão da Microsoft de capacitar os clientes a produzirem mais e conquistarem mais. Nossa equipe de Serviços profissionais tem mais de 21.000 consultores, orientadores digitais, suporte premier, engenheiros e profissionais de vendas trabalhando em 191 países, com suporte a 46 idiomas diferentes, gerenciando milhões de compromissos por mês e participando de interações com clientes e parceiros por meio de ferramentas locais, por telefone, na Web, na comunidade e automatizadas. A organização oferece uma ampla experiência no portfólio da Microsoft, utilizando uma ampla rede de parceiros, comunidades técnicas, ferramentas, diagnósticos e canais que nos conectam com nossos clientes corporativos.
 
-Saiba mais sobre os Serviços profissionais da Microsoft acessando a seção Serviços profissionais da Microsoft na Central de Confiabilidade da Microsoft (<https://www.microsoft.com/trustcenter/professional-services>). Os Serviços profissionais da Microsoft levam a sério as suas obrigações no Regulamento Geral sobre a Proteção de Dados (RGPD). As informações neste documento foram projetadas para responder a perguntas de clientes sobre como as ofertas de suporte e consultoria responderão e auxiliarão clientes a responder a obrigações da Solicitação de Entidades de Dados (DSR) no RGPD.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
+Saiba mais sobre os Serviços Profissionais da Microsoft acessando a seção Serviços Profissionais da Microsoft na Central de Confiabilidade da Microsoft (<https://www.microsoft.com/trustcenter/professional-services>). Os Serviços profissionais da Microsoft levam a sério as suas obrigações no Regulamento Geral sobre a Proteção de Dados (RGPD). As informações neste documento foram projetadas para responder a perguntas de clientes sobre como as ofertas de suporte e consultoria responderão e auxiliarão clientes a responder a obrigações da Solicitação de Entidades de Dados (DSR) no RGPD.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
 
 ### <a name="introduction-to-dsrs"></a>Introdução às DSRs 
 
@@ -55,13 +55,13 @@ Todas as solicitações precisam ser realizadas por meio de um representante do 
 
 Vejamos abaixo as definições relevantes dos termos do RGPD para este guia:
 
--   **Controlador.** A pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, em que tais fins e meios são determinados por lei da União ou do Estado-Membro, e o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou do Estado-Membro.
+-   **Controlador** a pessoa física ou jurídica, autoridade pública, agência ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei de união ou estado-membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei de união ou estado-membro.
 
--   **Dados pessoais e titular dos dados.** Quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
+-   **Dados pessoais e titular dos dados:** quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
 
--   **Processador.** Uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.
+-   **Processador** uma pessoa física ou jurídica, autoridade pública, agência ou outro corpo que processa dados pessoais em nome do controlador.
 
-#### <a name="additional-terms-and-definitions-that-may-helpful-in-understanding-this-guide"></a>Outros termos e definições que podem ser úteis à compreensão deste guia
+#### <a name="additional-terms-and-definitions-that-may-be-helpful-in-understanding-this-guide"></a>Outros termos e definições que podem ser úteis à compreensão deste guia
 
 -   **Dados de consultoria e de suporte** são todos os dados, incluindo qualquer texto, som, vídeo, arquivos de imagem ou software que são fornecidos à Microsoft por ou em nome do Cliente (ou que o Cliente autoriza a Microsoft a obter de um serviço online) por meio de uma interação com a Microsoft para obter suporte ou Serviços profissionais. A título de esclarecimento, isso não inclui os dados coletados em que a Microsoft é o controlador de dados, como os dados do contato do cliente.
 
@@ -81,7 +81,7 @@ Este guia trata de quatro cenários que um cliente pode encontrar se tiver utili
 Explicação sobre como a Microsoft responderá às solicitações de um contato do cliente ou administrador de TI para atender aos direitos do titular de dados.
 
 <span id="_Toc510704612" class="anchor"><span id="_Toc511045454" class="anchor"><span id="_Toc511403162" class="anchor"></span></span></span>
-- **DSR para um usuário final à Microsoft**
+- **DSR para um usuário final de envolvimento da Microsoft**
 
 Explicação sobre como a Microsoft responderá às solicitações dos funcionários do cliente ou de outros titulares de dados para exercer seus direitos.
 
@@ -117,13 +117,13 @@ Os clientes podem optar por fazer alterações em seus dados coletados durante a
 Davi é um administrador de TI de um cliente empresarial do Office 365, com uma interação de suporte aberta e duas interações fechadas. Agora, Davi está saindo da sua empresa e deseja excluir os seus dados. Davi entra em contato com a RPC, que o identifica como o administrador de TI. Davi fica sabendo que seu nome não pode ser excluído das interações anteriores (fechadas) nem de qualquer dado nas interações abertas. No entanto, a PRC substituirá Davi como contato no tíquete aberto atual caso ele indique um contato substituto. Davi avisa à Microsoft que Laura será o contato substituto e a Microsoft fará a alteração em todos os sistemas de suporte.
 
 <span id="_Toc510704616" class="anchor"><span id="_Toc511403166" class="anchor"></span></span>
-## <a name="dsr-for-an-end-user-engaging-microsoft"></a>DSR para um usuário final à Microsoft
+## <a name="dsr-for-an-end-user-engaging-microsoft"></a>DSR para um usuário final de envolvimento da Microsoft
 
 *Como a Microsoft responderá às solicitações dos funcionários do cliente ou de outros titulares dos dados para exercer os direitos deles.*
 
 Se os funcionários do cliente ou outros titulares dos dados entrarem em contato com a Microsoft para fazerem solicitações sobre seus dados coletados pela Microsoft na qualidade de processador de dados, o titular dos dados será informado de que precisará contatar o cliente da Microsoft, como o controlador de dados, para exercer esses direitos. Isso é tudo o que a Microsoft fará.
 
-Se o titular dos dados também tiver contatado a Microsoft para exercer seus direitos sobre os dados que a Microsoft coletou em situações em que ela é o controlador de dados (por exemplo, suporte ao consumidor, contato do cliente comercial), a Microsoft responderá separadamente à solicitação de exercício de direito do titular dos dados do indivíduo relativa aos dados pessoais.
+Se o titular dos dados também tiver contatado a Microsoft para exercer seus direitos sobre os dados que a Microsoft coletou em situações em que ela é a controladora de dados (por exemplo, suporte ao consumidor, contato do cliente comercial), a Microsoft responderá separadamente à solicitação de exercício de direito do titular dos dados do indivíduo relativa aos dados pessoais.
 
 ***Exemplo apenas para fins ilustrativos***
 
@@ -190,7 +190,7 @@ Observação: as interações (tíquetes) também serão excluídas de acordo co
 <span id="_Toc508792528" class="anchor"><span id="_Toc510704621" class="anchor"><span id="_Toc511403171" class="anchor"></span></span></span>
 ## <a name="step-5-delete"></a>Etapa 5: Exclusão
 
-O "direito de apagar" por meio da remoção dos dados pessoais dos Dados de Suporte de uma organização é uma importante proteção do RGPD. A remoção de dados pessoais compreende a exclusão de documentos, arquivos ou interações inteiros, ou a exclusão de dados específicos em um documento, interação ou arquivo.
+O "direito de apagar" por meio da remoção dos dados pessoais dos Dados de Suporte de uma organização é uma importante proteção do RGPD. A remoção de dados pessoais compreende a exclusão de documentos, arquivos ou interações inteiras, ou a exclusão de dados específicos em um documento, interação ou arquivo.
 
 Conforme um cliente investiga ou se prepara para excluir dados pessoais em resposta a uma DSR, existem alguns pontos importantes a serem entendidos sobre como a exclusão funciona para o Suporte da Microsoft.<span id="_Export" class="anchor"><span id="_Step_6:_Export" class="anchor"></span></span>
 
