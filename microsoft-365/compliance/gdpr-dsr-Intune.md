@@ -1,23 +1,24 @@
 ---
 title: Solicitações de Entidades de Dados do Intune para o RGPD
-description: ''
+description: Guia sobre como usar produtos, serviços e ferramentas administrativas da Microsoft para ajudar nossos clientes controladores a encontrarem e tomarem medidas em relação a dados pessoais para responder às solicitações de DSR.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: dougeby
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: dougeby
+author: dougeby
 manager: angrobe
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: fa65d33795108a16759fa87d476bb5a4dc94a281
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 868bdf151f853168e7de69669b67e5686089ce72
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285193"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431442"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Intune para o RGPD
+
 O RGPD (Regulamento Geral sobre a Proteção de Dados) da UE fornece direitos às pessoas (conhecidas na regulamentação como *titulares de dados*) para gerenciar os dados pessoais que foram coletados por um funcionário ou outro tipo de órgão ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos amplamente no RGPD como quaisquer dados relacionados a uma pessoa identificada ou identificável. O RGPD fornece aos titulares de dados os direitos específicos a seus dados pessoais; esses direitos incluem a obtenção de cópias desses dados pessoais, a solicitação de correções, a restrição do processamento, a exclusão ou o recebimento desses dados em formato eletrônico para que possam ser migrados para outro controlador. Uma solicitação formal de um titular de dados feita a um controlador para realizar uma ação em seus dados pessoais é chamada de *Solicitação de Titular de Dados* ou DSR.
 
 O guia descreve como usar os produtos, serviços e ferramentas administrativas da Microsoft para ajudar os nossos clientes controladores a encontrar dados pessoais e agir em relação a eles para responder a DSRs. Especificamente, isso inclui como localizar, acessar e agir em dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:

@@ -2,20 +2,20 @@
 title: Solicitações de Entidades de Dados do Azure para o RGPD
 description: ''
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: e74c4c96b66a7c21bc46520dbcdeb34898bceaf9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1e3593cf96fdef770c8704859c569dcc097f4ec3
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286006"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431672"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Azure para o RGPD
 
@@ -25,17 +25,17 @@ O RGPD (Regulamento Geral sobre a Proteção de Dados) da UE fornece direitos à
 
 O guia descreve como usar os produtos, serviços e ferramentas administrativas da Microsoft para ajudar os nossos clientes controladores a encontrar dados pessoais e agir em relação a eles para responder a DSRs. Especificamente, isso inclui como localizar, acessar e agir em dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:
 
-1.  ***Descobrir***: use as ferramentas de pesquisa e descoberta para encontrar com mais facilidade os dados de clientes que possam estar sujeitos a uma DSR. Assim que os documentos potencialmente responsivos forem coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir a fim de responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes de sua organização para responder a DSRs.
+1.  Descoberta: use as ferramentas de pesquisa e descoberta para encontrar com mais facilidade os dados de clientes que possam estar sujeitos a uma DSR. Assim que os documentos potencialmente responsivos forem coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir a fim de responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes de sua organização para responder a DSRs.
 
-2.  ***Acessar***: recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
+2.  Acesso: recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
 
-3.  ***Retificar***: faça alterações ou implemente outras ações solicitadas nos dados pessoais, quando aplicável.
+3.  Corrigir – faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
 
-4.  ***Restringir***: restrinja o processamento dos dados pessoais, seja removendo as licenças de vários serviços do Azure ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
+4.  Restringir: restrinja o processamento dos dados pessoais, seja removendo as licenças de vários serviços do Azure ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
 
-5.  ***Excluir***: remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
+5.  Excluir: remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
 
-6.  ***Exportar***: forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados.
+6.  Exportar: forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados.
 
 Cada seção deste guia descreve os procedimentos técnicos que uma organização controladora de dados pode realizar para responder a uma DSR para dados pessoais na nuvem da Microsoft.
 
@@ -44,15 +44,15 @@ Cada seção deste guia descreve os procedimentos técnicos que uma organizaçã
 
 Veja a seguir as definições dos termos que são relevantes para este guia.
 
--   *Controlador*: a pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, em que tais fins e meios são determinados por lei da União ou do Estado-Membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou do Estado-Membro.
+-   Controlador: a pessoa física ou jurídica, autoridade pública, agência ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei de união ou estado-membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei de união ou estado-membro.
 
--   *Dados pessoais* e *titular dos dados*: quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
+-   *Dados pessoais e titular dos dados:* quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
 
--   *Processador*: uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.
+-   Processador: uma pessoa física ou jurídica, autoridade pública, agência ou outro corpo que processa dados pessoais em nome do controlador.
 
--   *Dados do cliente*: todos os dados, incluindo qualquer arquivo de texto, som, vídeo ou imagem, e software fornecidos à Microsoft por um cliente ou em seu nome através do uso de serviço corporativo. Dados do cliente incluem (1) informações de identificação de usuários finais (por exemplo, nomes de usuário e informações de contato no Azure Active Directory) e conteúdo do cliente que um cliente carrega ou cria em serviços específicos (por exemplo, conteúdo de cliente na conta do Armazenamento do Azure, conteúdo do cliente em um Banco de Dados SQL do Azure ou imagem da máquina virtual do cliente em máquinas virtuais do Azure).
+-   Dados do cliente: todos os dados, incluindo qualquer arquivo de texto, som, vídeo ou imagem, e software fornecidos à Microsoft por um cliente ou em seu nome através do uso de serviço corporativo. Dados do cliente incluem (1) informações de identificação de usuários finais (por exemplo, nomes de usuário e informações de contato no Azure Active Directory) e conteúdo do cliente que um cliente carrega ou cria em serviços específicos (por exemplo, conteúdo de cliente na conta do Armazenamento do Azure, conteúdo do cliente em um Banco de Dados SQL do Azure ou imagem da máquina virtual do cliente em máquinas virtuais do Azure).
 
--   *Logs gerados pelo sistema*: logs e dados relacionados gerados pela Microsoft que nos ajudam a fornecer os serviços empresariais aos usuários. Logs gerados pelo sistema contêm principalmente dados pseudônimos, tais como identificadores exclusivos, normalmente um número gerado pelo sistema que não pode sozinho identificar um indivíduo, mas que é usado para fornecer serviços empresariais aos usuários. Logs gerados pelo sistema também podem conter informações de identificação dos usuários finais, como nomes de usuário.
+-   Logs gerados pelo sistema: logs e dados relacionados gerados pela Microsoft que nos ajudam a fornecer os serviços empresariais aos usuários. Logs gerados pelo sistema contêm principalmente dados pseudônimos, tais como identificadores exclusivos, normalmente um número gerado pelo sistema que não pode sozinho identificar um indivíduo, mas que é usado para fornecer serviços empresariais aos usuários. Logs gerados pelo sistema também podem conter informações de identificação dos usuários finais, como nomes de usuário.
 
 <span id="_Toc511384802" class="anchor"><span id="_Toc511163873" class="anchor"><span id="_Toc511136230" class="anchor"><span id="_Toc511125163" class="anchor"><span id="_Toc511120750" class="anchor"><span id="_Toc511122657" class="anchor"><span id="_Toc508792504" class="anchor"></span></span></span></span></span></span></span>
 
@@ -261,7 +261,7 @@ A Microsoft oferece a capacidade de descobrir os dados dos clientes diretamente 
 <span id="_Toc511384819" class="anchor"><span id="_Toc511163890" class="anchor"><span id="_Toc511136247" class="anchor"><span id="_Toc511125180" class="anchor"><span id="_Toc511120767" class="anchor"><span id="_Toc511122674" class="anchor"></span></span></span></span></span></span>
 ## <a name="step-6-export"></a>Etapa 6: Exportação
 
-<span id="_Power_BI_2" class="anchor"></span>O “direito de portabilidade de dados” permite que o titular de dados solicite uma cópia dos seus dados pessoais em formato eletrônico (que é um “formato estruturado, comumente usado, interoperável e legível por máquina”) que pode ser transmitido para outro controlador de dados. O Azure dá suporte a isso ao habilitar a sua organização a exportar dados no formato nativo JSON para o contêiner de armazenamento especificado do Azure.
+<span id="_Power_BI_2" class="anchor"> </span>O “direito de portabilidade de dados” permite que o titular de dados solicite uma cópia dos seus dados pessoais em formato eletrônico (que é um “formato estruturado, comumente usado, interoperável e legível por máquina”) que pode ser transmitido para outro controlador de dados. O Azure dá suporte a isso ao habilitar a sua organização a exportar dados no formato nativo JSON para o contêiner de armazenamento especificado do Azure.
 
 >[Importante]: você deve ser administrador de locatários para exportar dados de usuário do locatário.
 
@@ -300,7 +300,7 @@ O administrador de locatário é a única pessoa em sua organização que tem ac
 <span id="_Toc511384825" class="anchor"><span id="_Toc511163896" class="anchor"><span id="_Toc511136254" class="anchor"><span id="_Toc511125187" class="anchor"><span id="_Toc511120774" class="anchor"><span id="_Toc511122681" class="anchor"><span id="_Toc511119129" class="anchor"></span></span></span></span></span></span></span>
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
-A Microsoft oferece um portal e experiências de produto, proporcionando ao administrador de locatários do cliente corporativo a capacidade de gerenciar solicitações de acesso que permitem acessar dados pessoais do usuário, incluindo: (a) informações de identificação sobre um usuário final e (b) logs gerados pelo sistema. O processo é idêntico ao descrito na seção do Azure Active Directory da Parte 1, Etapa 2: Acessar.
+A Microsoft oferece um portal e experiências de produto, proporcionando ao administrador de locatários do cliente corporativo a capacidade de gerenciar solicitações de acesso que permitem acessar dados pessoais do usuário, incluindo: (a) informações de identificação sobre um usuário final e (b) logs gerados pelo sistema. O processo é idêntico ao descrito na seção do Azure Active Directory da Parte 1, Etapa 2: acesso.
 
 <span id="_Toc511384826" class="anchor"><span id="_Toc511163897" class="anchor"><span id="_Toc511136255" class="anchor"><span id="_Toc511125188" class="anchor"><span id="_Toc511120775" class="anchor"><span id="_Toc511122682" class="anchor"><span id="_Toc511119130" class="anchor"></span></span></span></span></span></span></span>
 ### <a name="service-specific-interfaces"></a>Interfaces específicas de serviços
