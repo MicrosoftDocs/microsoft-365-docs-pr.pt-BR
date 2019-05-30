@@ -13,12 +13,12 @@ manager: pchapman
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b07cefa4a850d5de7c858f180c8f7688fd0a6d7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 744935cb41e1521970e6fac05493129eaaf7910d
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286919"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431542"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr"></a>Solicitações de Titulares de Dados da Família do Visual Studio para o RGPD
 
@@ -72,8 +72,8 @@ Os usuários podem controlar as configurações de privacidade para esses produt
 
 Os controladores podem gerenciar os dados dos clientes e os logs gerados pelo sistema coletados de seus titulares de dados por um dos dois métodos, dependendo de como o seu produto da Família do Visual Studio ou extensões da Microsoft foram registrados. Em alguns casos, os dois métodos devem ser usados. Os dois métodos permitem que os controladores baixem uma cópia do seu histórico de atividades gerenciado por esse método. O fechamento de uma conta MSA ou AAD exclui os dados de clientes associados ao Visual Studio e cria o anonimato de dados de identificação pessoal nos logs gerados pelo sistema referentes a esses produtos. Os logs gerados pelo sistema em anonimato são mantidos por não mais que 18 meses.
 
-- Os usuários que registraram um produto da Família do Visual Studio usando uma conta com o apoio de um locatário do Azure&mdash;por exemplo, conta AAD ou conta MSA associada a uma assinatura do Azure&mdash;pode seguir as instruções em [Solicitações de Titulares de Dados do Azure para o RGPD ](gdpr-dsr-azure.md).
-- Os usuários que registrados um produto da Família do Visual Studio sem uma conta apoiada por um locatário do Azure&mdash;por exemplo, muitas contas usando uma conta da Microsoft (MSA)&mdash;podem usar[o Centro de Resposta de Privacidade da Microsoft baseado na Web](https://aka.ms/userprivacysite) disponível por meio de sua conta da Microsoft para exibir, controlar e excluir dados de atividades vinculados a sua conta da Microsoft em vários serviços Microsoft. Nesse cenário, o usuário é um controlador de seus próprios dados pessoais.
+- Os usuários que registraram um produto da Família do Visual Studio usando uma conta com o apoio de um locatário do Azure — por exemplo, conta AAD ou conta MSA associada a uma assinatura do Azure — pode seguir as instruções em [Solicitações de Titulares de Dados do Azure para o RGPD](gdpr-dsr-azure.md).
+- Os usuários que registraram um produto da Família do Visual Studio sem uma conta apoiada por um locatário do Azure — por exemplo, muitas contas usando uma conta da Microsoft (MSA) — podem usar [o Centro de Resposta de Privacidade da Microsoft baseado na Web](https://aka.ms/userprivacysite) disponível por meio de sua conta da Microsoft para exibir, controlar e excluir dados de atividades vinculados a sua conta da Microsoft em vários serviços Microsoft. Nesse cenário, o usuário é um controlador dos seus próprios dados pessoais.
 
 > [!NOTE]
 > Quando um titular de conta MSA exclui sua conta, todos os seus dados de identificação pessoal referentes a esses produtos são excluídos, seja a conta apoiada por um locatário do Azure ou não e os logs gerados pelo sistema são definidos de maneira anônima.
@@ -104,7 +104,7 @@ Para exibir os dados relacionados a comentários, siga estas etapas:
 1. Entre na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com).  No canto superior direito, clique em seu perfil e selecione **Perfil e Preferências**.
 2. Clique em qualquer uma das guias **Perfil**, **Notificações**, **Atividade** e **Anexos** para exibir os dados enviados para os sistemas de comentários.
    1. **Perfil** refere-se a seu perfil na [Comunidade de Desenvolvedores](https://developercommunity.visualstudio.com), incluindo nome de usuário, endereço de email, sobre etc.
-   2. **Notificações** é como você controla as notificações por email que recebe.
+   2. **Notificações é como você controla as notificações por email que recebe.
    3. **Atividade** oferecerá os itens de comentários que estão ativos em (lançado, comentado etc.) e as atividades realizadas.
    4. **Anexos** é uma lista de histórico de seus anexos em um formato como `FileName was attached to the problem "ProblemName" Tue, Apr 10, 18 2:27 PM`.
 

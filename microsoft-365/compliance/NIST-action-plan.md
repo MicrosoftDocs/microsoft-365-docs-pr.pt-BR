@@ -12,36 +12,34 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 0a18089bcead4d2cad5f94cd71081aa521571bfa
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 91399acd19869b0c2633a1b887bd54ae8db35081
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283601"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431662"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Plano de ação NIST 800-53 do Microsoft 365 – principais prioridades para os primeiros 30 dias, 90 dias e depois
 
-O Microsoft 365 permite que você opere sua empresa com uma estrutura de controle de nuvem, que alinha controles com vários padrões regulatórios. O Microsoft 365 inclui o Office 365, o Windows 10 e o Enterprise Mobility + Security. O sistema de controle interno da Microsoft se baseia na publicação especial 800-53 do Instituto Nacional de Normas e Tecnologia (NIST), e o Office 365 foi reconhecido pela norma NIST 800-53 mais recente. 
-
+O Microsoft 365 permite que você opere sua empresa com uma estrutura de controle de nuvem, que alinha controles com vários padrões regulatórios. O Microsoft 365 inclui o Office 365, o Windows 10 e o Enterprise Mobility + Security. O sistema de controle interno da Microsoft se baseia na publicação especial 800-53 do Instituto Nacional de Normas e Tecnologia (NIST), e o Office 365 foi reconhecido pela norma NIST 800-53 mais recente.
 
 A Microsoft é reconhecida como líder do setor de segurança em nuvem. Com anos de experiência na criação de software empresarial e no oferecimento de serviços online, nossa equipe está constantemente aprendendo e continuamente atualizando nossos serviços e aplicativos para oferecer um serviço de produtividade em nuvem seguro que atende a padrões rigorosos do setor para fins de conformidade. Os serviços de nuvem governamental da Microsoft, inclusive o governo dos EUA Office 365, atendem aos exigentes requisitos do FedRAMP (US Federal Risk and Authorization Management Program, Programa de Gerenciamento de Autorização e Risco Federal dos EUA), que permite às agências federais dos EUA se beneficiarem de economias de custos e da rigorosa segurança do Microsoft Cloud.
 
 Este artigo inclui um plano de ação priorizado que você pode seguir ao trabalhar para atender aos requisitos do NIST 800-53. Esse plano de ação foi desenvolvido em parceria com a Protiviti, um parceiro da Microsoft especializado em conformidade regulamentar. Saiba mais sobre como usar esse plano de ação no Microsoft Ignite participando desta sessão: [Traçar um gráfico de estratégia de proteção de informações e do caminho da conformidade com o Microsoft 365](https://myignite.techcommunity.microsoft.com/sessions/65720?source=sessions), apresentada por Maithili Dandige (Microsoft) e Antônio Maio (Protiviti).
 
-
 ## <a name="action-plan-outcomes"></a>Resultados do plano de ação
-Essas recomendações são fornecidas em três fases em uma ordem lógica com os resultados a seguir. 
+
+Essas recomendações são fornecidas em três fases em uma ordem lógica com os resultados a seguir: 
 
 |||
 |:-----|:-----|
 |**Fase**|**Resultados**|
 |30 dias|•   Entenda os requisitos do NIST 800-53 e considere interagir com um parceiro de consultoria da Microsoft.<br>•   Aprenda e entenda a estratégia interna detalhada de defesa do Microsoft 365.  <br>•   Proteja o acesso do usuário e do administrador ao Office 365. <br>•   Assegure que todo o acesso ao sistema seja passível de auditoria de acordo com as políticas de auditoria e responsabilidade de sua organização.|
 |90 dias|•   Aprimore seu programa de gerenciamento de configuração, antimalware e correções.<br>•   Use as funcionalidades de segurança do Microsoft 365 para controlar o acesso ao ambiente e para proteger os ativos e as informações organizacionais.<br>•   Use recursos internos de auditoria para monitorar atividades confidenciais ou arriscadas no Office 365.<br>•   Implante a Proteção Avançada contra Ameaças para links e anexos em emails e nos documentos do Office.|
-|Além de 90 dias|•   Use ferramentas avançadas do Microsoft 365 e a proteção de informações para implementar controles contínuos para dispositivos e proteção para dados corporativos.<br>•   Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.  <br>•   Aproveite a detecção de ameaças aprimorada e os recursos de proteção com análise de proteção avançada de forma a oferecer segurança robusta e em camadas para a organização. Desenvolva um plano de resposta para reduzir os efeitos dos sistemas comprometidos em sua organização.|
-
-
+|Além de 90 dias|•   Use ferramentas avançadas do Microsoft 365 e a proteção de informações para implementar controles contínuos para dispositivos e proteção para dados corporativos.<br>•   Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.  <br>•   Use a detecção de ameaças aprimorada e os recursos de proteção com análise de proteção avançada de forma a oferecer segurança robusta e em camadas para a organização. Desenvolva um plano de resposta a incidentes para reduzir os efeitos dos sistemas comprometidos em sua organização.|
 
 ## <a name="30-days--powerful-quick-wins"></a>30 dias – Ganhos Rápidos Poderosos
+
 Essas tarefas podem ser realizadas rapidamente e tem baixo impacto para os usuários.
 
 |||
@@ -52,8 +50,6 @@ Essas tarefas podem ser realizadas rapidamente e tem baixo impacto para os usuá
 |Proteja o acesso do usuário e do administrador ao Office 365.|• Estabeleça um [gerenciamento forte de credenciais](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials) para proteger as credenciais de conta de usuário. <br> •  Conheça as [políticas de acesso de dispositivo e identidade recomendadas](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations) para serviços do Office 365.<br> • Use as [funções administrativas do Office 365](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a) para implementar o acesso baseado em função aos recursos de administração e para habilitar a separação dos deveres administrativos. Observação: muitas funções administrativas no Office 365 têm uma função correspondente no Exchange Online, SharePoint Online e Skype for Business Online. Segmente as permissões para assegurar que um único administrador não tenha um acesso maior do que o necessário.|
 |Assegure que todo o acesso ao sistema seja auditado de acordo com as políticas de auditoria e responsabilidade de sua organização.|Ative o [log de auditoria](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) e a [auditoria de caixas de correio do Office 365](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing) (para todas as caixas de correio do Exchange) a fim de monitorar atividades potencialmente mal-intencionadas e habilitar a análise jurídica de violações de dados no Office 365.|
 |||
-
-
 
 ## <a name="90-days--enhanced-protections"></a>90 dias – Proteções Aprimoradas 
 Essas tarefas levam um pouco mais de tempo para planejar e implementar. 
@@ -67,24 +63,20 @@ Essas tarefas levam um pouco mais de tempo para planejar e implementar.
 |Implante a Proteção Avançada contra Ameaças para links e anexos em emails e nos documentos do Office.|Implemente a [Proteção Avançada contra Ameaças do Office 365 (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) para ajudar a impedir os vetores mais comuns de ataque, incluindo emails de phishing e documentos do Office que contenham anexos e links mal-intencionados.|
 |||
 
-
 ## <a name="beyond-90-days--ongoing-security-data-governance-and-reporting"></a>Além de 90 dias – Segurança Contínua, Gestão de Dados e Relatórios
-Essas ações levam mais tempo e são baseadas em trabalhos anteriores.  
 
+Essas ações levam mais tempo e são baseadas em trabalhos anteriores.  
 
 |||
 |:-----|:-----|
 |**Área**|**Tarefas**|
 |Use ferramentas avançadas do Microsoft 365 e a proteção de informações para implementar controles contínuos para dispositivos e proteção para dados corporativos.|• Use o [Microsoft Intune](https://docs.microsoft.com/intune/) para proteger dados confidenciais armazenados e acessados em dispositivos móveis e para assegurar que dispositivos corporativos em conformidade sejam usados para acessar os serviços em nuvem.|
-|Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.|•    Para avaliar o desempenho em relação às políticas e aos procedimentos definidos da organização, use o [Gerenciador de Conformidade da Microsoft](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud?redirectSourcePath=%252fen-us%252farticle%252fuse-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services-429e686f-d8a6-455e-a2b6-3791d763f000) continuamente para executar avaliações regulares da aplicação de políticas de segurança da informação da organização.<br>•   Use o [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure) para controlar e executar avaliações regulares de todos os usuários e grupos com altos níveis de permissões (ou seja, os usuários administrativos ou com privilégios).<br>• Implante e configure o [Privileged Access Management](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365) para fornecer o controle de acesso preciso sobre as tarefas com privilégios de administrador no Office 365. Quando habilitado, os usuários precisarão solicitar acesso just-in-time para concluir tarefas avançadas e com privilégios por um fluxo de trabalho de aprovação de escopo altamente delimitado e tempo cronometrado.<br>• Faça a auditoria de [acesso a caixas de correio por não proprietários](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports) para identificar potenciais vazamentos de informações e revisar proativamente o acesso de não proprietários a todas as caixas de correio do Exchange Online.<br>•   Use as [Políticas de Alertas do Office 365, relatórios de prevenção de perda de dados e o Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data) para monitorar o uso dos aplicativos de nuvem na organização e implementar as avançadas políticas de alertas baseadas nas atividades dos usuários e em heurística.<br>• Use o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para rastrear automaticamente as atividades arriscadas, identificar administradores potencialmente mal-intencionados, investigar violações de dados ou verificar se os requisitos de conformidade foram atendidos.|
+|Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.|•    Para avaliar o desempenho em relação às políticas e aos procedimentos definidos da organização, use o [Gerenciador de Conformidade da Microsoft](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud?redirectSourcePath=%252fen-us%252farticle%252fuse-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services-429e686f-d8a6-455e-a2b6-3791d763f000) continuamente para executar avaliações regulares da aplicação de políticas de segurança da informação da organização.<br>• Use o [Gerenciamento de Identidade Privilegiada do Azure AD](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure) para controlar e executar avaliações regulares de todos os usuários e grupos com altos níveis de permissões (ou seja, os usuários administrativos ou com privilégios).<br>•  Implante e configure o [Gerenciamento de Acesso Privilegiado](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365) para fornecer controle de acesso granular a tarefas de administração privilegiadas no Office 365.  Depois de ativados, os usuários precisarão solicitar acesso just-in-time para concluir tarefas elevadas e privilegiadas por meio de um fluxo de trabalho de aprovação com escopo alto e com limite de tempo.<br>• Faça a auditoria de [acesso a caixas de correio por não proprietários](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports) para identificar potenciais vazamentos de informações e revisar proativamente o acesso de não proprietários a todas as caixas de correio do Exchange Online.<br>•   Use as [Políticas de Alertas do Office 365, relatórios de prevenção de perda de dados e o Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data) para monitorar o uso dos aplicativos de nuvem na organização e implementar as avançadas políticas de alertas baseadas nas atividades dos usuários e em heurística.<br>• Use o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para rastrear automaticamente as atividades arriscadas, identificar administradores potencialmente mal-intencionados, investigar violações de dados ou verificar se os requisitos de conformidade foram atendidos.|
 |Aproveite a detecção de ameaças aprimorada e os recursos de proteção com análise de proteção avançada de forma a oferecer segurança robusta e em camadas para a organização. Desenvolva um plano de resposta para reduzir os efeitos dos sistemas comprometidos em sua organização.|• Implante e configure o [Windows Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/) para aproveitar análise e geração de relatórios avançados de forma a obter informações essenciais sobre quais usuários estão sendo alvo em sua organização e as metodologias de ataques cibernéticos sendo exploradas.<br>•    Aproveite [relatórios e análises de Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/office365/securitycompliance/view-reports-for-atp) para analisar ameaças pelas informações sobre emails e conteúdo mal-intencionados detectadas automaticamente em sua organização. Use relatórios e recursos de rastreamento de mensagens internos para investigaras mensagens de email que foram bloqueadas devido a um vírus ou malware desconhecido.<br>•    Use a [Inteligência contra Ameaças do Office 365 ](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) para agregar informações de várias fontes de forma a obter uma visão holística de seu panorama de segurança de nuvem.<br>•    [Integre a Inteligência contra Ameaças do Office 365 e a Proteção Avançada contra Ameaças do Windows Defender](https://docs.microsoft.com/office365/securitycompliance/integrate-office-365-ti-with-wdatp) para entender rapidamente se os dispositivos dos usuários estão em risco ao investigar ameaças no Office 365.<br>•   Simule métodos de ataque comuns no ambiente do Office 365 usando o [Simulador de Ataques do Office 365](https://docs.microsoft.com/office365/securitycompliance/attack-simulator). Revise os resultados das simulações de ataques para identificar as oportunidades de treinamento de usuários e para validar os procedimentos de resposta a incidentes da organização.<br>•  Configure [permissões no centro de conformidade e segurança](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center) para garantir que o acesso aos dados de monitoramento e auditoria seja restrito a usuários aprovados e integrados às medidas de resposta a incidentes da organização.|
 |||
-
 
 ## <a name="learn-more"></a>Saiba mais
 
 Saiba mais sobre [Microsoft e a CSF (Cyber Security Framework, Estrutura de segurança cibernética) da NIST](https://www.microsoft.com/trustcenter/compliance/NIST_CSF), inclusive a NIST 800-53.
 
 [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
-
-

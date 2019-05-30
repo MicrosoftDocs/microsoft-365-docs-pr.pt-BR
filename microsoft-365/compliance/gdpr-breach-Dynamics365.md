@@ -2,27 +2,25 @@
 title: Dynamics 365 e notificação de violação no RGPD
 description: Como o Dynamics 365 protege contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Dynamics 365, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 3ee90c2fbe2684cebbd19376f44fc97d743515db
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 957fbe5713c248ebcac1a986248455c7d98b4935
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286381"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431872"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 e notificação de violação no RGPD
 
-O Dynamics 365 leva a sério as suas obrigações relacionadas ao Regulamento Geral sobre a Proteção de Dados (RGPD). Violação de Dados do Microsoft Dynamics 365
-
-A Microsoft trabalha continuamente para oferecer serviços altamente seguros e de nível corporativo aos clientes do Dynamics 365. As informações nesta seção apresentam um resumo da proteção do Microsoft Dynamics 365 contra incidentes de segurança/violação de dados, bem como o processo que adotamos para responder e notificar os clientes.
+O Dynamics 365 assume suas obrigações na norma de proteção de dados gerais (RGPD) com seriedade e exige grandes medidas de segurança para proteger contra violações de dados. A Microsoft funciona continuamente para fornecer serviços altamente seguros e de nível empresarial para clientes do Dynamics 365. As informações nesta seção apresentam um resumo da proteção do Microsoft Dynamics 365 contra incidentes de segurança/violação de dados, bem como o processo que adotamos para responder e notificar os clientes.
 
 #### <a name="microsoft-dynamics-365-built-in-security-features"></a>Recursos de segurança internos do Microsoft Dynamics 365
 
@@ -104,7 +102,7 @@ Os processos de detecção usados pelo Microsoft Dynamics 365 foram projetados p
 
 -   Os relatórios de cliente que descrevem as atividades suspeitas atribuídas aos serviços do Microsoft Dynamics 365 (em vez de atividades que ocorrem no escopo de responsabilidade do cliente).
 
--   Atividade de segurança da [Equipe Azul e da Equipe Vermelha](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/). Essa estratégia usa uma Equipe Vermelha ofensiva altamente especializada em segurança para descobrir e tratar de falhas possíveis nos serviços do Microsoft Dynamics 365. A Equipe Azul de resposta de segurança deve detectar e se proteger contra atividades da Equipe Vermelha. As ações tanto da Equipe Vermelha quanto da Equipe Azul são usadas para verificar se esforços de resposta de segurança do Microsoft Dynamics 365 estão gerenciando com eficiência os incidentes de segurança. As atividades de segurança da Equipe Vermelha e da Equipe Azul são operadas de acordo com os requisitos de responsabilidade para garantir a proteção dos dados do cliente.
+-   A atividade de segurança da [Equipe Azul e da Equipe Vermelha](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/). Essa estratégia usa uma Equipe Vermelha ofensiva altamente especializada em segurança para descobrir e tratar de falhas possíveis nos serviços do Microsoft Dynamics 365. A Equipe Azul de resposta de segurança deve detectar e se proteger contra atividades da Equipe Vermelha. As ações tanto da Equipe Vermelha quanto da Equipe Azul são usadas para verificar se esforços de resposta de segurança do Microsoft Dynamics 365 estão gerenciando com eficiência os incidentes de segurança. As atividades de segurança da Equipe Vermelha e da Equipe Azul são operadas de acordo com os requisitos de responsabilidade para garantir a proteção dos dados do cliente.
 
 -   Escalonamentos por operadores de serviços do Microsoft Dynamics 365. Os funcionários da Microsoft fazem treinamentos para identificar e escalonar possíveis problemas de segurança.
 
@@ -122,13 +120,13 @@ A equipe de resposta de segurança trabalha com os engenheiros de segurança do 
 
 -   **Incidente de privacidade:** um subtipo do incidente de segurança que envolve dados pessoais. Os procedimentos de tratamento são os mesmos que os de um incidente de segurança.
 
-Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu, ou que muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão do estágio Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima da dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do processo de notificação do incidente de cliente.
+Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu, ou que muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão do estágio Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima da dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
 
 Durante a investigação, a equipe de resposta de segurança trabalha com consultores jurídicos globais para ajudar a garantir que a análise forense seja executada de acordo com as obrigações e compromissos legais para com os clientes. Também há restrições significativas sobre a visualização e o tratamento de sistemas e dados do cliente em diversos ambientes operacionais. Dados confidenciais ou sensíveis, bem como dados do cliente não são transferidos do ambiente de produção sem a expressa aprovação por escrito do Gerente de Incidentes registrado no tíquete de incidente correspondente.
 
 A Microsoft confirma que o risco à empresa e ao cliente foi suprimido com êxito e que foram implementadas medidas corretivas. Se necessário, realizam-se etapas de atenuação emergenciais para resolver riscos de segurança imediatos associados ao evento.
 
-A Microsoft também realiza um post-mortem interno para as violações de dados. Como parte desse exercício, analisa-se a suficiência da resposta e dos procedimentos operacionais, e quaisquer atualizações que podem ser necessárias para as políticas de segurança internas da Microsoft ou processos relacionados são identificados e implementados. Post-mortem internos para violações de dados são registros altamente confidenciais não disponíveis para clientes. Os post-mortem podem, no entanto, ser resumidos e incluídos em outras notificações de evento de cliente. Esses relatórios são fornecidos para auditores externos para revisão como parte do ciclo de auditoria de rotina do Dynamics 365.
+A Microsoft também concluiu um post-mortem interno para violações de dados. Como parte deste exercício, a suficiência de respostas e os procedimentos operacionais são avaliados e todas as atualizações que possam ser necessárias para as políticas de segurança interna da Microsoft ou processos relacionados são identificados e implementados. Os postmortems internos para violações de dados são registros altamente confidenciais que não estão disponíveis para os clientes. No entanto, postmortems podem ser resumidos e incluídos nas notificações de evento de outro cliente. Esses relatórios são fornecidos para auditores externos para revisão como parte do ciclo de auditoria de rotina do Dynamics 365.
 
 #### <a name="customer-notification"></a>Notificação de cliente
 

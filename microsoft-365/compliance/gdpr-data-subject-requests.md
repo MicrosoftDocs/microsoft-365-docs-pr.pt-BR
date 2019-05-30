@@ -2,21 +2,21 @@
 title: Solicitações de Entidades de Dados para o RGPD
 description: ''
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 1022b4c8ec1a8fbc57147bb28cc3d79af6869b3b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: ea8fb66cf826861eac312a02d0d7d3cfaf1cf65c
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285574"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431852"
 ---
 # <a name="data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados para o RGPD
 

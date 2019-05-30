@@ -2,21 +2,21 @@
 title: Listas de verificação de preparação de responsabilidade para o RGPD
 description: Como os serviços Microsoft protegem contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 05/24/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 9ae75e55a64d0e94fefd34668b9be9d6e76aadcf
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 557dbb9efcc2ded1716f85aab2ba505fa6f97d2b
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286553"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431882"
 ---
 # <a name="accountability-readiness-checklists-for-the-gdpr"></a>Listas de verificação de preparação de responsabilidade para o RGPD
 
@@ -27,11 +27,6 @@ Essas listas de verificação de preparação de responsabilidade oferecem uma m
 - [Dynamics 365](gdpr-arc-Dynamics365.md)
 - [Suporte e Serviços Profissionais da Microsoft](gdpr-arc-prof-services.md)
 
-
-
-
 ## <a name="learn-more"></a>Saiba mais
 
 [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
-
-

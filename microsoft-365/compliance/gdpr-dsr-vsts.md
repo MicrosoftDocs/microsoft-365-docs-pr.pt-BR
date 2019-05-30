@@ -12,12 +12,12 @@ manager: douge
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: b3711e0a68600152750d85e6287be735e204a92d
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 91ab1c1e23b2f4f9aab5c4327c29ac6cea52d080
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285089"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431772"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr"></a>Solicitações de assunto de dados do Azure DevOps Services para o RGPD
 
@@ -33,7 +33,7 @@ Os artigos [Política de Privacidade da Microsoft](https://privacy.microsoft.com
 
 ## <a name="personal-data-we-collect"></a>Dados pessoais que coletamos
 
-A Microsoft coleta dados de usuários para operar e aprimorar o Azure DevOps Services. O Azure DevOps Services coleta duas categorias de dados&mdash;dados do cliente e logs gerados pelo sistema. Os dados do cliente incluem dados de interação e transacionais de que o Azure DevOps Services precisa para operar o serviço. Os logs gerados pelo sistema incluem dados de uso do serviço agregados para cada recurso e área de produto.
+A Microsoft coleta dados de usuários para operar e aprimorar o Azure DevOps Services. O Azure DevOps Services coleta duas categorias de dados do cliente e logs gerados pelo sistema. Os dados do cliente incluem dados de interação e transacionais de que o Azure DevOps Services precisa para operar o serviço. Os logs gerados pelo sistema incluem dados de uso do serviço agregados para cada recurso e área de produto.
 
 ## <a name="delete-azure-devops-data"></a>Excluir dados do Azure DevOps
 

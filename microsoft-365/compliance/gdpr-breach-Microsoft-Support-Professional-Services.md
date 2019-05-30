@@ -1,27 +1,27 @@
 ---
 title: Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
-description: Como o Suporte e os Serviços Profissionais da Microsoft protegem contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
+description: Como o Suporte e os Serviços Profissionais da Microsoft protegem contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma violação.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: a17752773304272938c305649ff6e511ab0d1b0b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8a0f0c5c173fbee6a865d2c9a7afb0f61b388507
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285738"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431592"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
 
-O Suporte da Microsoft e os Serviços profissionais levam a sério as suas obrigações concernentes ao Regulamento Geral sobre a Proteção de Dados (RGPD).
+O Suporte da Microsoft e os Serviços Profissionais levam a sério as suas obrigações concernentes ao Regulamento Geral sobre a Proteção de Dados (RGPD).
 
-Os Serviços profissionais da Microsoft incluem um grupo diverso de arquitetos, engenheiros, consultores técnicos e profissionais de suporte dedicados ao cumprimento da missão da Microsoft de capacitar os clientes a produzirem mais e conquistarem mais. Nossa equipe de Serviços profissionais tem mais de 21.000 consultores, orientadores digitais, suporte premier, engenheiros e profissionais de vendas trabalhando em 191 países, com suporte a 46 idiomas diferentes, gerenciando milhões de compromissos por mês e participando de interações com clientes e parceiros por meio de ferramentas locais, por telefone, na Web, na comunidade e automatizadas. A organização oferece uma ampla experiência no portfólio da Microsoft, utilizando uma ampla rede de parceiros, comunidades técnicas, ferramentas, diagnósticos e canais que nos conectam com nossos clientes corporativos.
+Os Serviços profissionais da Microsoft incluem um grupo diverso de arquitetos, engenheiros, consultores técnicos e profissionais de suporte dedicados ao cumprimento da missão da Microsoft de capacitar os clientes a produzirem mais e conquistarem mais. Nossa equipe de Serviços profissionais tem mais de 21.000 consultores, Orientadores Digitais, Suporte Premier, engenheiros e profissionais de vendas trabalhando em 191 países, com suporte a 46 idiomas diferentes, gerenciando milhões de compromissos por mês e participando de interações com clientes e parceiros por meio de ferramentas locais, por telefone, na Web, na comunidade e automatizadas. A organização oferece uma ampla experiência no portfólio da Microsoft, utilizando uma ampla rede de parceiros, comunidades técnicas, ferramentas, diagnósticos e canais que nos conectam com nossos clientes corporativos.
 
 A equipe de resposta a incidentes de proteção de dados globais dos Serviços profissionais da Microsoft se esforça para (a) utilizar operações e processos rigorosos para evitar a ocorrência de incidentes de proteção de dados, (b) gerenciá-los de forma profissional e eficiente ao ocorrerem e (c) aprender com esses incidentes de proteção de dados por meio de post-mortem regulares e melhorias de programa. Os processos e resultados da equipe de resposta a incidentes de proteção de dados dos Serviços profissionais da Microsoft são analisados e certificados por várias auditorias de segurança e de conformidade (por exemplo, ISO/IEC 27001).
 
@@ -37,7 +37,7 @@ Para ser declarado, a equipe de resposta a incidentes de proteção de dados da 
 
 Devido à natureza dos Serviços profissionais, alguns eventos que parecem incidentes de proteção de dados da Microsoft não o são, pois ocorreram por meio de ações do cliente ou em sistemas do cliente. A Microsoft não monitora ou responde a incidentes de proteção de dados na área de responsabilidade do cliente. No entanto, quando a Microsoft fica sabendo de um incidente de proteção de dados realizado pelo cliente, classificamos isso como um incidente de proteção de dados realizado pelo cliente, que a equipe de resposta a incidentes de proteção de dados chama de "evento", informamos ao cliente a nossa observação e, conforme solicitado, ajudamos o cliente na resposta, dentro da extensão necessária à sua interação com a Microsoft. Alguns exemplos de incidentes de proteção de dados realizados pelo cliente são o envio acidental das senhas do cliente e outros dados confidenciais à Microsoft, solicitações para excluir dados e quando são vítimas de fraudes.
 
-Algumas ações estão completamente fora do escopo desse processo, incluindo perguntas gerais sobre nossas políticas ou normas de proteção de dados, solicitações de direitos do titular dos dados, solicitações de recusa, lista de desejos de produtos ou relatórios de bug não relacionados à proteção de dados, incidentes de proteção não relacionados a dados do cliente e fraudes contra a Microsoft.
+Algumas ações estão completamente fora do escopo desse processo, incluindo perguntas gerais sobre nossas políticas ou normas de proteção de dados, solicitações de direitos do titular dos dados, solicitações de recusa, lista de desejos de produtos ou relatórios de bug não relacionados à proteção de dados, incidentes de proteção não relacionados aos dados do cliente e fraudes contra a Microsoft.
 
 ### <a name="types-of-data-protection-incidents"></a>Tipos de incidentes de proteção de dados
 
@@ -77,11 +77,11 @@ Está disponível um treinamento online regular e a conclusão é obrigatória p
 
 Quando a organização de Serviços profissionais da Microsoft identifica um incidente de proteção de dados, ela segue um plano de resposta padrão da indústria documentado, começando com a determinação de que os critérios de incidentes de proteção de dados foram atendidos. Sempre que ocorre um incidente de proteção de dados, normalmente ele é declarado imediatamente após a triagem mas, dependendo da complexidade, a declaração pode acontecer a qualquer momento quando estiver disponível um nível de informações necessárias, inclusive após o estágio de investigação. Por outro lado, a equipe tem como critério declarar um incidente de proteção de dados apenas com base em qualquer suspeita razoável de ocorrência. A equipe também pode alternar entre as várias etapas conforme o andamento da investigação.
 
-A Microsoft também realiza um post-mortem interno para incidentes de proteção de dados. Como parte desse exercício, analisa-se a suficiência da resposta e dos procedimentos operacionais, e quaisquer atualizações que podem ser necessárias para o *Procedimento operacional padrão de resposta a incidentes de proteção de dados* ou processos relacionados são identificados e implementados. Post-mortem internos para violações de dados são registros altamente confidenciais não disponíveis para clientes. Os post-mortem podem, no entanto, ser resumidos e incluídos nas notificações de eventos do cliente. Como parte de um ciclo de auditoria de rotina, os processos de post-mortem são revisados por auditores externos para garantir o acompanhamento.
+A Microsoft também realiza um post-mortem interno para incidentes de proteção de dados. Como parte desse exercício, analisa-se a suficiência da resposta e dos procedimentos operacionais e quaisquer atualizações que possam ser necessárias para o *Procedimento Operacional Padrão de Resposta a Incidentes de Proteção de Dados* ou processos relacionados são identificados e implementados. Postmortems internos para violações de dados são registros altamente confidenciais não disponíveis para clientes. Os postmortems podem, no entanto, ser resumidos e incluídos nas notificações de eventos do cliente. Como parte de um ciclo de auditoria de rotina, os processos de post-mortem são revisados por auditores externos para garantir o acompanhamento.
 
 #### <a name="notification"></a>Notificação
 
-Quando os Serviços profissionais da Microsoft declaram um incidente de proteção de dados de acordo com o RGPD, podemos fazer a notificação aos nossos clientes dentro de 72 horas. Esse aviso obrigatório de 72 horas é um compromisso de política dos Serviços profissionais, não uma exigência legal do RGPD.
+Quando os Serviços profissionais da Microsoft declaram um incidente de proteção de dados de acordo com o RGPD, notificamos os nossos clientes dentro de 72 horas. Esse aviso obrigatório de 72 horas é um compromisso da política dos Serviços Profissionais — não uma exigência legal do RGPD.
 
 Após a declaração de um incidente de proteção de dados, o processo de notificação ocorrerá da forma mais eficiente possível, levando em conta os riscos de segurança de um trabalho agilizado. Para garantir que a notificação possa ser entregue com êxito, é responsabilidade do cliente garantir que as informações de contato administrativas em cada conta, assinatura e portal de serviços online aplicáveis estejam corretas. Embora o objetivo seja fornecer aos clientes afetados um aviso preciso, acionável e oportuno, para atender ao compromisso de notificação dentro de 72 horas a notificação inicial pode não incluir detalhes completos, pois todos os detalhes podem não estar disponíveis durante as etapas iniciais de um incidente de proteção de dados. Além disso, talvez a Microsoft precise reter alguns detalhes devido às circunstâncias do incidente de proteção de dados. Por exemplo, poderá ser necessário reter detalhes se o envio da notificação aumentar o risco de outros clientes ou prejudicar a capacidade da Microsoft ou do devido processo legal de capturar um criminoso.
 

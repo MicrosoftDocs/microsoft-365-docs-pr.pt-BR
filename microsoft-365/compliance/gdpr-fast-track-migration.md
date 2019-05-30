@@ -1,6 +1,6 @@
 ---
 title: RGPD
-description: Orientação técnica da Microsoft, CONJUNTO DE FERRAMENTAS DE MIGRAÇÕES FASTTRACK PARA ENVIAR SOLICITAÇÃO DE EXCLUSÃO
+description: Orientação técnica da Microsoft — CONJUNTO DE FERRAMENTAS DE MIGRAÇÕES FASTTRACK PARA ENVIAR SOLICITAÇÃO DE EXCLUSÃO
 keywords: Migração FastTrack, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 author: MohitKumar
 localization_priority: Priority
@@ -11,20 +11,20 @@ ms.author: mohitku
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: ae4c088ce16b2b415ffa79a6fadd3f1c2a0426c7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0ef1a23d69ae91b9d94c4587f1912c4171fe84d3
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286792"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431412"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>Conjunto de ferramentas de migração FastTrack para envio de solicitação de exclusão
 
 ## <a name="toolset-purpose"></a>Finalidade do conjunto de ferramentas
 
-Se você for cliente envolvido atualmente com migrações FastTrack, a exclusão da conta de usuário do Office 365 não excluirá a cópia dos dados em posse da equipe do Microsoft FastTrack, mantida apenas para a conclusão da migração. Se, durante a migração, você quiser que a equipe do Microsoft FastTrack também exclua a cópia dos dados, envie uma solicitação por esse conjunto de ferramentas. No curso normal dos negócios, o Microsoft FastTrack excluirá todas as cópias dos dados após a conclusão da migração. 
+Se você for um cliente envolvido atualmente com migrações FastTrack, a exclusão da conta de usuário do Office 365 não excluirá a cópia dos dados em posse da equipe do Microsoft FastTrack, mantida apenas para a conclusão da migração. Se, durante a migração, você quiser que a equipe do Microsoft FastTrack também exclua a cópia dos dados, envie uma solicitação por esse conjunto de ferramentas. No curso normal dos negócios, o Microsoft FastTrack excluirá todas as cópias dos dados após a conclusão da migração.
 
-### <a name="supported-platforms"></a>Plataformas com suporte
+### <a name="supported-platforms"></a>Plataformas compatíveis
 A Microsoft oferece suporte à versão inicial deste conjunto de ferramentas na plataforma do Windows e no console do PowerShell. Este conjunto de ferramentas oferece suporte às plataformas conhecidas a seguir:
  
 ***Tabela 1 - Plataformas compatíveis com este conjunto de ferramentas***
@@ -44,9 +44,9 @@ A Microsoft oferece suporte à versão inicial deste conjunto de ferramentas na 
 
 Este conjunto de ferramentas está disponível na Galeria do PowerShell no aplicativo de console do PowerShell. Para localizar e carregar o módulo desse cmdlet, primeiro abra o PowerShell no modo de administrador para que ele tenha as permissões apropriadas para instalar o módulo. Se você nunca usou o PowerShell, acesse a Barra de Tarefas do Windows e, na caixa de pesquisa, digite "PowerShell". Selecione o aplicativo de console usando o botão direito e escolha **Executar como administrador**, depois clique em **Sim** para executar o Windows PowerShell.
 
-![PowerShell - executar como administrador](media/fasttrack-powershell_image.png)
+![PowerShell - Executar como administrador](media/fasttrack-powershell_image.png)
 
-![PowerShell - permitir que o aplicativo faça alterações](media/fasttrack-run-powershell_image.png)
+![PowerShell - Permitir que o aplicativo faça alterações](media/fasttrack-run-powershell_image.png)
 
 Agora que o console está aberto, você precisa definir permissões para a execução do script. Digite o seguinte comando para permitir a execução dos scripts: ‘Set-ExecutionPolicy – ExecutionPolicy: Bypass – Scope:Process’
 
@@ -82,7 +82,7 @@ Se você precisar se conectar a um ambiente de nuvem que não seja comercial, se
 
 Para enviar uma solicitação de DSR, execute o seguinte comando: Submit-FastTrackGdprDsrRequest -DsrRequestUserEmail: SubjectUserEmail@mycompany.com
 
-Em caso de sucesso – o cmdlet retornará um objeto com um objeto ID da Transação. Guarde essa ID da Transação.
+Em caso de sucesso – o cmdlet retornará um objeto com um objeto ID da Transação. Guarde a ID da Transação.
 
 
 #### <a name="checking-the-status-of-a-request-transaction"></a>Verificar o status da transação de uma solicitação

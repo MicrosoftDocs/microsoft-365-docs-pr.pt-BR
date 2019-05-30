@@ -2,39 +2,39 @@
 title: Solicitações de Titulares de Dados do Dynamics 365 para o RGPD
 description: Guia sobre como usar produtos, serviços e ferramentas administrativas da Microsoft para ajudar nossos clientes controladores a encontrarem e tomarem medidas em relação a dados pessoais para responder às solicitações de DSR.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/30/2019
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 4e1597e658b0ac6de0c4805b77660e6c47424aa2
-ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
+ms.openlocfilehash: 3c394df956801beed63b5e31c4a1579bf5324eba
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33497733"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431752"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Titulares de Dados do Dynamics 365 para o RGPD
 
 O RGPD (Regulamento sobre a Proteção de Dados) da UE fornece direitos às pessoas (conhecidas na regulamentação como *titulares de dados*) para gerenciar os dados pessoais que foram coletados por um funcionário ou outro tipo de órgão ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos amplamente no RGPD como quaisquer dados relacionados a uma pessoa identificada ou identificável. O RGPD fornece a titulares de dados direitos específicos a seus dados pessoais; esses direitos incluem a obtenção de cópias, a solicitação de alterações, a restrição do processamento, a exclusão ou seu recebimento em formato eletrônico para que possam ser migrados para outro controlador. Uma solicitação formal por um titular de dados a um controlador para realizar uma ação quanto a seus dados pessoais é chamada de *Solicitação de Direitos de Titular de Dados* ou DSR.<span id="_Toc510437912" class="anchor"><span id="_Toc508792504" class="anchor"></span></span>
 
-O guia aborda como usar os produtos, os serviços e as ferramentas administrativas da Microsoft, de modo que ajudem nossos clientes controladores a encontrar dados pessoais e agir em relação a eles ao responder a solicitações de DSR. Especificamente, isso inclui como encontrar, acessar e agir sobre dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:
+O guia aborda como usar os produtos, os serviços e as ferramentas administrativas da Microsoft, de modo que ajudem nossos clientes controladores a encontrar dados pessoais e agir em relação a eles ao responder a solicitações de DSR. Especificamente, isso inclui como encontrar, acessar e atuar com dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:
 
-1. ***Descobrir***: use as ferramentas de pesquisa e descoberta para encontrar mais facilmente dados do clientes que possam ser o titular de uma solicitação de DSR. Depois que os documentos potencialmente responsivos são coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir para responder à solicitação de DSR. Se preferir, pode determinar que a solicitação não atende às diretrizes das suas organizações para responder às solicitações de DSR.
+1. ***Descobrir — use as ferramentas de pesquisa e descoberta para encontrar mais facilmente dados do cliente que possam ser o titular de uma solicitação de DSR. Depois que os documentos potencialmente responsivos são coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir para responder à solicitação de DSR. Se preferir, pode determinar que a solicitação não atende às diretrizes das suas organizações para responder às solicitações de DSR.
 
-2. ***Acessar***: recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
+2. Acesso — Recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
 
-3. ***Retificar*** – faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
+3. ***Corrigir – Faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
 
-4.  ***Restringir*** — restrinja o processamento dos dados pessoais, seja removendo as licenças de vários serviços online ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
+4.  ***Restringir — Restrinja o processamento dos dados pessoais, seja removendo as licenças de vários serviços online ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
 
-5. ***Excluir***: remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
+5. ***Excluir — Remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
 
-6. ***Exportar***: forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados.
+6. ***Exportar — Forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados.
 
 Cada seção deste guia descreve os procedimentos técnicos que uma organização controladora de dados pode realizar para responder a uma solicitação de DSR para dados pessoais na nuvem da Microsoft
 
@@ -42,15 +42,15 @@ Cada seção deste guia descreve os procedimentos técnicos que uma organizaçã
 
 Veja a seguir as definições dos termos que são relevantes para este guia:
 
-- <em>Controlador</em>: a pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, em que tais fins e meios são determinados por lei da União ou do Estado-Membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou do Estado-Membro.
+- <em>Controlador — A pessoa física ou jurídica, autoridade pública, agência ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei da União ou Estado-Membro, o controlador, ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou Estado-Membro.
 
-- *Dados pessoais* e <em>titular dos dados</em>: quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
+- *Dados pessoais* e <em> titular dos dados — Quaisquer informações relacionadas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
 
-- <em>Processador</em>: uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.
+- <em>Processador — Uma pessoa física ou jurídica, autoridade pública, agência ou outro corpo que processa dados pessoais em nome do controlador.
 
 - *Dados do cliente*: todos os dados, incluindo texto, som, vídeo ou arquivos de imagem e software que são fornecidos para a Microsoft, por ou em nome de um cliente, através do uso do serviço empresarial, conforme definido nos Termos de Serviços Online da Microsoft.
 
-- *Logs*-*gerados pelo sistema*: logs e dados relacionados gerados pela Microsoft que nos ajudam a fornecer os serviços corporativos aos usuários. Logs gerados pelo sistema contêm principalmente dados com pseudônimos, como identificadores exclusivos, normalmente um número gerado pelo sistema que não pode, isoladamente, identificar um indivíduo, mas que é usado para fornecer serviços corporativos aos usuários. Logs gerados pelo sistema também podem conter informações de identificação dos usuários finais, como nomes de usuário.  
+- *Logs* *gerados pelo sistema — Logs e dados relacionados gerados pela Microsoft que nos ajudam a fornecer os serviços corporativos aos usuários. Logs gerados pelo sistema contêm principalmente dados com pseudônimos, como identificadores exclusivos, normalmente um número gerado pelo sistema que não pode, isoladamente, identificar um indivíduo, mas que é usado para fornecer serviços corporativos aos usuários. Logs gerados pelo sistema também podem conter informações de identificação dos usuários finais, como nomes de usuário.  
 
 ### <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>Como este guia pode ajudar você a cumprir suas responsabilidades de controlador
 
@@ -64,7 +64,7 @@ Este guia, dividido em duas partes, descreve como usar os produtos, serviços e 
 
 Quando titulares de dados exercem seus direitos e fazem solicitações, considere os seguintes pontos:
 
-- Identifique corretamente a pessoa e sua função, como funcionário, cliente, fornecedor, ao usar as informações que o titular dos dados forneceu a você como parte da solicitação. Essas informações podem ser um nome, um número de cliente ou ID do funcionário ou outro identificador.
+- Identifique corretamente a pessoa e sua função — como funcionário, cliente, fornecedor, ao usar as informações que o titular dos dados forneceu a você como parte da solicitação. Essas informações podem ser um nome, um número de cliente ou ID do funcionário ou outro identificador.
 
 - Grave os dados e a hora da solicitação. (Você terá 30 dias para concluir a solicitação).
 
@@ -165,7 +165,7 @@ O <span id="_Toc511225664" class="anchor"></span>***Dynamics 365 Business Centra
 
 Para editar em massa vários registros do Business Central, você pode exportar listas para o Excel usando o [suplemento para Excel do Business Central](https://docs.microsoft.com/pt-BR/dynamics365/business-central/finance-analyze-excel#the--excel-add-in) para corrigir vários registros e publicar os dados modificados do Excel no Business Central. Para saber mais, consulte [Exportar seus dados empresariais para o Excel](https://docs.microsoft.com/pt-BR/dynamics365/business-central/about-export-data).
 
-- Você pode alterar dados do cliente armazenados em qualquer campo, como as informações do cliente no cartão do cliente, ao editar manualmente o elemento de dados com os dados pessoais de destino. Para saber mais, confira [inserir dados](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data).
+- Você pode alterar dados do cliente armazenados em qualquer campo, como as informações do cliente no cartão do cliente — ao editar manualmente o elemento de dados com os dados pessoais de destino. Para saber mais, confira [inserir dados](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data).
 
 #### <a name="brief-note-about-modifying-entries-in-business-transactions"></a>Nota curta sobre como modificar entradas em transações de negócios
 Registros transacionais, como entradas contábeis gerais, do cliente e tributárias, são essenciais para a integridade de um sistema de planejamento de recursos empresariais. Dados pessoais que fazem parte de uma transação financeira ou de outro tipo são mantidos “no estado em que se encontram” para cumprir as leis financeiras (por exemplo, leis tributárias), impedir fraudes (como uma trilha de auditoria de segurança ou para estar em conformidade com as certificações do setor). Dessa forma, o Dynamics 365 for Finance and Operations e o Dynamics 365 Business Central restringem a modificação dos dados nesses registros.
@@ -174,7 +174,7 @@ Se você armazena dados pessoais em registros de transações empresariais, a ú
 
 ### <a name="restricting-the-processing-of-customer-data"></a>Restrição do processamento de dados do cliente
 
-Ao receber uma solicitação de um titular de dados para restringir o processamento de dados do cliente, você pode extrair facilmente os dados afetados do serviço online e armazená-los em um contêiner separado (ou seja, um armazenamento local ou em um serviço Web separado com recursos de isolamento de dados) isolado das funções de processamento fornecidas por qualquer aplicativo de nuvem.
+Ao receber uma solicitação de um titular de dados para restringir o processamento de dados do cliente, você pode extrair facilmente os dados afetados do serviço online e armazená-los em um contêiner separado (ou seja, um armazenamento local ou em um serviço Web separado com recursos de isolamento de dados) isolado das funções de processamento fornecidas por qualquer aplicativo da nuvem.
 
 Mecanismo alternativo como o bloco de processamento de dados é fornecido pelo ***Dynamics 365 Business Central***, onde são oferecidos aos usuários a capacidade de bloquear o registro específico de titulares de dados. Para saber mais, confira [Restrição de processamento de dados para um titular de dados](https://docs.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data#restrict-data-processing-for-a-data-subject). Quando um registro for bloqueado, o Dynamics 365 Business Central irá interromper o processamento de dados do cliente daquele titular de dados. Não é possível criar novas transações que usam um registro bloqueado como, por exemplo, uma nova fatura para um cliente, se o cliente ou vendedor estiver bloqueado.
 
@@ -224,7 +224,7 @@ Você pode exportar dados do cliente para um arquivo do Excel. No Excel, você p
 
 ### <a name="microsoft-social-engagement"></a>Microsoft Social Engagement
 
-<span id="_Toc511166412" class="anchor"></span>Como o Microsoft Social Engagement processos dados pessoais encontrados em dados de cliente e conteúdo social, este aplicativo oferece uma maneira exclusiva de atender às solicitações DSR, já que ela se relaciona com dados pessoais recuperados de redes sociais. Conteúdo social é coletado de material disponível publicamente em redes sociais (como o Twitter, Facebook e YouTube) e a indexação de dados ou serviços de agregação de dados em resposta às consultas de pesquisa do cliente executadas no Microsoft Social Engagement. Conteúdo social não é um dado do cliente. Outras restrições de processamento, uso e armazenamento de conteúdo social são descritas nos termos de serviço da Microsoft Online.
+<span id="_Toc511166412" class="anchor"></span>Como o Microsoft Social Engagement processos dados pessoais encontrados em dados de cliente e conteúdo social, este aplicativo oferece uma maneira exclusiva de atender às solicitações DSR, já que ela se relaciona com dados pessoais recuperados de redes sociais. O conteúdo social é coletado de material disponível publicamente em redes sociais (como o Twitter, Facebook e YouTube) e da indexação de dados ou serviços de agregação de dados em resposta às consultas de pesquisa do cliente executadas no Microsoft Social Engagement. Conteúdo social não é um dado do cliente. Outras restrições de processamento, uso e armazenamento de conteúdo social são descritas nos termos de serviço da Microsoft Online.
 
 ### <a name="finding-personal-data"></a>Localizar dados pessoais
 
@@ -234,7 +234,7 @@ A primeira etapa para responder à solicitação de um titular de dados é pesqu
 
 - Dados do usuário de redes sociais (chamado de *autor* no Social Engagement) que o Social Engagement adquire de plataformas sociais. Eles podem incluir o nome, o nome de usuário, a imagem de perfil, a localização, o site e a biografia, se fornecida pelo autor.
 
-- Marcas do autor usadas para agrupar e classificar autores como, por exemplo, influenciadores, concorrentes ou fãs.
+- Marcas do autor usadas para agrupar e classificar autores como — por exemplo, influenciadores, concorrentes ou fãs.
 
 #### <a name="for-employees"></a>Para os funcionários
 
@@ -246,7 +246,7 @@ A primeira etapa para responder à solicitação de um titular de dados é pesqu
 
 - Nomes de usuário no Power BI se sua organização usar o [pacote de conteúdo do Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi) do Power BI para analisar o desempenho da equipe nas redes sociais.
 
-Esta primeira etapa, ou seja, localizar e analisar os dados pessoais em questão, o ajudará a determinar se a solicitação do titular de dados atende aos requisitos da sua organização para aceitá-la ou recusá-la. Por exemplo, depois de localizar e analisar os dados pessoais, você pode determinar que a solicitação não atende aos requisitos da sua organização porque afetaria negativamente os direitos e liberdades de terceiros.
+Esta primeira etapa — ou seja, localizar e analisar os dados pessoais em questão — o ajudará a determinar se a solicitação do titular de dados atende aos requisitos da sua organização para aceitá-la ou recusá-la. Por exemplo, depois de localizar e analisar os dados pessoais, você pode determinar que a solicitação não atende aos requisitos da sua organização porque afetaria negativamente os direitos e liberdades de terceiros.
 
 #### <a name="social-media-users-authors"></a>Usuários de redes sociais (autores)
 
@@ -383,7 +383,7 @@ Os administradores podem acessar os logs gerados pelo sistema associados ao uso 
 
 1.  Acesse o [Portal de Confiança do Serviço da Microsoft](https://servicetrust.microsoft.com/) e entre usando as credenciais de um administrador global do Dynamics 365.
 
-2.  Na lista suspensa **Privacidade** localizada na parte superior da página, clique em **Solicitação de Titular de Dados**.
+2.  Na lista suspensa **Privacidade** localizada na parte superior da página, clique em **Solicitação de Titular dos Dados**.
 
 3.  Na página **Solicitação de Titular dos Dados**, em **Logs Gerados pelo Sistema**, clique em **Exportação de Log de Dados**.
 
@@ -393,7 +393,7 @@ Os administradores podem acessar os logs gerados pelo sistema associados ao uso 
 
 Depois de criar uma nova solicitação, ela será listada na página **Exportação de Log de Dados**, onde você poderá acompanhar seu status. Após a conclusão de uma solicitação, você poderá clicar em um link para acessar os logs gerados pelo sistema que serão exportados para o local de armazenamento do Azure de sua organização dentro de 30 dias após a criação da solicitação. Os dados serão salvos em formato comum legível por máquina, como JSON ou XML. Se você não tiver uma conta do Azure e um local de armazenamento do Azure, será preciso criar uma conta do Azure e/ou um local de armazenamento do Azure para sua organização para que a ferramenta Exportação de Log de Dados possa exportar os logs gerados pelo sistema.
 
-O Azure possibilita que sua organização exporte os dados no formato JSON nativo para um Contêiner de Armazenamento do Azure especificado[. Artigo Introdução ao Armazenamento do Microsoft Azure: armazenamento de blobs](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage).
+O Azure possibilita que sua organização exporte os dados no formato JSON nativo para um Contêiner de Armazenamento do Azure especificado[. Artigo Introdução ao Armazenamento do Microsoft Azure — Armazenamento de blobs](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage).
 
 **Importante**: você deve ser um administrador de locatários para exportar dados de usuário do locatário.
 
@@ -411,7 +411,7 @@ A tabela a seguir resume como acessar e exportar os logs gerados pelo sistema:
 </tr>
 <tr class="even">
 <td align="left"><strong>Quais são os dados retornados pela ferramenta Exportação de Log de Dados?</strong></td>
-<td align="left">A ferramenta Exportação de Log de Dados retorna logs gerados pelo sistema que a Microsoft armazena. Os dados exportados abrangerão vários serviços da Microsoft, incluindo o Office 365, o Azure e o Dynamics.</td>
+<td align="left">A ferramenta Exportação de Log de Dados retorna logs gerados pelo sistema que a Microsoft armazena. Os dados exportados abrangerão vários serviços da Microsoft incluindo o Office 365, o Azure e o Dynamics.</td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>Quem tem acesso à ferramenta Exportação de Log de Dados para enviar solicitações de acesso aos logs gerados pelo sistema?</strong></td>
@@ -435,7 +435,8 @@ A tabela a seguir resume como acessar e exportar os logs gerados pelo sistema:
 </tbody>
 </table>
 
-[Observação] Alguns recursos não permitirão a exportação ou a exclusão de logs gerados pelo sistema com informações pessoais para manter a integridade dessas informações por motivos de segurança e auditoria.
+> [!Note]
+> Alguns recursos não permitirão a exportação ou a exclusão de logs gerados pelo sistema com informações pessoais para manter a integridade dessas informações por motivos de segurança e auditoria.
 
 ### <a name="deleting-system-generated-logs"></a>Excluir os logs gerados pelo sistema
 Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente sua conta do Azure Active Directory. Para obter instruções sobre como excluir permanentemente um usuário, consulte a seção [Excluir um usuário](https://microsoft-my.sharepoint.com/personal/kated_microsoft_com/Documents/DSR%20Guide%20v4%20-(newly%20created%20for%20O365%20only).docx#_Deleting_a_user) deste guia. É importante observar que excluir permanentemente uma conta de usuário é um processo irreversível após iniciado.
@@ -444,4 +445,4 @@ Excluir permanentemente uma conta de usuário removerá os dados do usuário de 
 
 #### <a name="learn-more"></a>Saiba mais
 
-[Central de Confiabilidade da Microsoft](https://www.microsoft.com/pt-BR/TrustCenter/Privacy/gdpr/default.aspx)
+[Central de Confiabilidade da Microsoft](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx)

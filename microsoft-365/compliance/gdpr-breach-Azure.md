@@ -2,21 +2,21 @@
 title: Azure e notificação de violação no RGPD
 description: Como o Azure protege contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma falha.
 keywords: Azure, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 287175d6f78efa1052e446b230f39c33fc4d5fc6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5e8c04bcd20f56580e939bc4a2685eb232d5e589
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286426"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431492"
 ---
 # <a name="azure-and-breach-notification-under-the-gdpr"></a>Azure e notificação de violação no RGPD
 
@@ -131,13 +131,13 @@ A equipe de resposta de segurança trabalha com os engenheiros de segurança do 
 
 -   **Violação de privacidade:** um subtipo do incidente de segurança que envolve dados pessoais. Os procedimentos de tratamento são os mesmos que os de um incidente de segurança.
 
-Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu, ou que muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão do estágio Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima da dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do processo de notificação do incidente de cliente.
+Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu, ou que muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão do estágio Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima da dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
 
 Durante a investigação, a equipe de resposta de segurança trabalha com consultores jurídicos globais para ajudar a garantir que a análise forense seja executada de acordo com as obrigações e compromissos legais para com os clientes. Também há restrições significativas sobre a visualização e o tratamento de sistemas e dados do cliente em diversos ambientes operacionais. Dados confidenciais ou sensíveis, bem como dados do cliente não são transferidos do ambiente de produção sem a expressa aprovação por escrito do Gerente de Incidentes registrado no tíquete de incidente correspondente.
 
 A Microsoft confirma que o risco à empresa e ao cliente foi suprimido com êxito e que foram implementadas medidas corretivas. Se necessário, realizam-se etapas de atenuação emergenciais para resolver riscos de segurança imediatos associados ao evento.
 
-A Microsoft também realiza um post-mortem interno para as violações de dados. Como parte desse exercício, analisa-se a suficiência da resposta e dos procedimentos operacionais, e quaisquer atualizações que podem ser necessárias para o procedimento operacional padrão de resposta a incidentes de segurança ou processos relacionados são identificadas e implementadas. Post-mortem internos para violações de dados são registros altamente confidenciais não disponíveis para clientes. Os post-mortem podem, no entanto, ser resumidos e incluídos em outras notificações de evento de cliente. Esses relatórios são fornecidos para auditores externos para revisão como parte do ciclo de auditoria de rotina do Azure.
+A Microsoft também concluiu um post-mortem interno para violações de dados. Como parte deste exercício, a suficiência de respostas e os procedimentos operacionais são avaliados e todas as atualizações que possam ser necessárias para o SOP de Resposta a Incidentes de Segurança ou processos relacionados são identificados e implementados. Os postmortems internos para violações de dados são registros altamente confidenciais que não estão disponíveis para os clientes. No entanto, postmortems podem ser resumidos e incluídos nas notificações de evento de outro cliente. Esses relatórios são fornecidos para auditores externos para revisão como parte do ciclo de auditoria de rotina do Azure.
 
 #### <a name="customer-notification"></a>Notificação de cliente
 ---------------------
@@ -146,13 +146,13 @@ O Microsoft Azure notifica os clientes e as autoridades regulamentadoras sobre a
 
 Após a declaração de um CRSI, o processo de notificação ocorrerá da forma mais eficiente possível, levando em conta os riscos de segurança de um trabalho agilizado. Em geral, o processo de criação de notificações ocorre durante o andamento da investigação do incidente. As notificações ao cliente são realizadas dentro de 72 horas após declararmos uma violação, *exceto* nas seguintes circunstâncias:
 
--   A Microsoft acredita que a notificação aumentará o risco para outros clientes. Por exemplo, após uma notificação, um adversário pode ficar sabendo de informações que utilizará para impossibilitar a correção.
+-   A Microsoft acredita que o ato de executar uma notificação aumentará o risco para outros clientes. Por exemplo, o ato de notificar pode alertar algum adversário, causando uma incapacidade de remediar.
 
 -   Outras circunstâncias extremas ou incomuns investigadas pelo departamento jurídico da Microsoft Corporate External and Legal Affairs (CELA) e pelo gerente de incidentes executivo.
 
 O Microsoft Azure fornece aos clientes informações detalhadas permitindo que executem investigações internas e ajudando-os a atender os compromissos com o usuário final, sem atrasar o processo de notificação.
 
-A notificação de uma violação de dados pessoais será enviada ao cliente da forma escolhida pela Microsoft, inclusive por email. A notificação de uma violação de dados será enviada à lista de contatos de segurança fornecida na Central de Segurança do Azure, que pode ser configurada seguindo-se as [diretrizes de implementação](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details). Se não houver informações de contato na Central de Segurança do Azure, a notificação será enviada a um ou mais administradores em uma assinatura do Azure. Para garantir que a notificação possa ser entregue, é responsabilidade do cliente garantir que as informações do contato administrativo em cada assinatura aplicável e portal de serviços online estejam corretas.
+A notificação de uma violação de dados pessoal será enviada ao cliente por qualquer meio que a Microsoft selecionar, incluindo via email. A notificação de falha de dados será entregue à lista de contatos de segurança fornecida na central de segurança do Azure, que pode ser configurada seguindo as[diretrizes de implementação](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details). Se as informações de contato não forem fornecidas na central de segurança do Azure, a notificação será enviada para um ou mais administradores em uma assinatura do Azure. Para garantir que as notificações possam ser entregues com êxito, é responsabilidade do cliente garantir que as informações de contato administrativas em cada assinatura aplicável e o portal de serviços online estejam corretas.
 
 A equipe do Microsoft Azure ou do Azure Governamental também pode optar por notificar outros funcionários da Microsoft, como o Serviço de Atendimento ao Consumidor (SAC) e os Gerentes de contas do cliente ou os Gerentes técnicos de contas. Normalmente, essas pessoas têm uma relação próxima com o cliente e podem facilitar a correção mais rápida.<span id="_Appendix_A" class="anchor"></span>
 
@@ -161,7 +161,7 @@ A equipe do Microsoft Azure ou do Azure Governamental também pode optar por not
 
 O Microsoft Intune é um componente essencial da oferta de serviço em nuvem do Microsoft Enterprise Mobility e da Security Suite. Para dar suporte à estratégia de governança de dados, todos os serviços em nuvem da Microsoft são desenvolvidos com a Privacidade da Microsoft e as metodologias de Segurança por design e por padrão.
 
-Dessa forma, a oferta de serviço em nuvem do Microsoft Intune segue as mesmas medidas técnicas e organizacionais que as equipes de serviço do Microsoft Azure tomam para a proteção contra processos de violação de dados. Portanto, as informações descritas no documento de notificação "Violação de dados do Microsoft Azure" aqui também são parecidas com o serviço do Microsoft Intune. Por exemplo, o Microsoft Intune tem o mesmo ciclo de vida e processo de resposta a incidentes de segurança (da Etapa 1: Detectar até a etapa 5<strong>:</strong> Fechamento e Post-mortem) e também o mesmo processo de notificação de incidente de segurança ao cliente. Além disso, trabalhando diretamente com a equipe do Microsoft O365, o Microsoft Intune também atende às suas obrigações de notificação de violação relativas a qualquer cliente do Microsoft O365 que use o Intune.
+Como a oferta do serviço de nuvem do Microsoft Intune acompanha as mesmas medidas Técnicas e Organizacionais, uma ou mais equipes de serviços do Microsoft Azure usam para proteger contra os processos de violação de dados. Portanto, qualquer informação documentada no documento de notificação “Violação de Dados do Microsoft Azure” aqui também é análoga ao serviço do Microsoft Intune. Por exemplo, o Microsoft Intune tem o mesmo Ciclo de Vida e Processo de Resposta do Incidente de Segurança (Estágio 1: Detecção por meio do estágio 5<strong>:</strong>: Fechar e Postmortem) e também o mesmo processo de Notificação de Incidente de Segurança do Cliente. Além disso, o Microsoft Intune também preenche suas obrigações de Notificação de Violação para todos os clientes do Microsoft O365 que usam o Intune ao trabalhar diretamente com a equipe do Microsoft O365.
 
 Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](https://servicetrust.microsoft.com/ViewPage/GDPRBreach) no Portal de Confiança do Serviço.
 
