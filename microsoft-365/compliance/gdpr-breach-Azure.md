@@ -11,12 +11,12 @@ author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 5e8c04bcd20f56580e939bc4a2685eb232d5e589
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: a0d4f66bb765ae0f4f10ccb1ddefa86b90172352
+ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431492"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34544848"
 ---
 # <a name="azure-and-breach-notification-under-the-gdpr"></a>Azure e notificação de violação no RGPD
 
@@ -26,8 +26,7 @@ A segurança está integrada ao Microsoft Azure desde o início, começando com 
 
 A Microsoft tem um serviço de resposta a incidentes global, 24 horas por dia, 7 dias por semana, que funciona para minimizar os efeitos de ataques ao Microsoft Azure. Certificado por várias auditorias de segurança e conformidade (por exemplo, [ISO/IEC 27018](https://www.microsoft.com/trustcenter/compliance/iso-iec-27018)), a Microsoft emprega operações e processos rigorosos em seus datacenters para impedir o acesso não autorizado, incluindo o monitoramento de vídeo 24 horas por dia, 7 dias por semana, funcionários de segurança treinados, cartões inteligentes e controles biométricos.
 
-#### <a name="detection-of-potential-breaches"></a>Detecção de possíveis violações
--------------------------------
+## <a name="detection-of-potential-breaches"></a>Detecção de possíveis violações
 
 Devido à natureza da computação em nuvem moderna, nem todas as violações de dados que ocorrem em um ambiente de nuvem de cliente envolvem serviços do Microsoft Azure. A Microsoft emprega um modelo de responsabilidade compartilhada para os serviços do Azure definirem as responsabilidades operacionais e de segurança. A responsabilidade compartilhada é particularmente importante quando se discute a segurança de um serviço de nuvem, porque tanto o provedor de serviços de nuvem quanto o cliente têm a sua cota de responsabilidade pela segurança na nuvem.
 
@@ -35,103 +34,45 @@ A Microsoft não monitora nem responde a incidentes de segurança no domínio de
 
 O Azure responde a uma possível violação de dados de acordo com o processo de resposta a incidentes de segurança, que é um subconjunto do plano de gerenciamento de incidentes do Microsoft Azure. A resposta a incidentes de segurança do Azure é implementada usando-se um processo de cinco etapas: Detecção, Avaliação, Diagnóstico, Estabilização e Fechamento. A equipe de resposta a incidentes de segurança pode alternar entre as etapas de diagnóstico e estabilização conforme o andamento de investigação. Vejamos abaixo um panorama do processo de resposta a incidentes de segurança:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="left">Etapa</th>
-<th align="left">Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">1</td>
-<td align="left">Detecção</td>
-<td align="left">Primeira indicação de um possível incidente.</td>
-</tr>
-<tr class="even">
-<td align="left">2</td>
-<td align="left">Avaliação</td>
-<td align="left">Um membro de plantão da equipe de resposta a incidentes avalia o impacto e a gravidade do evento. Com base em evidências, a avaliação pode ou não resultar num escalonamento para a equipe de resposta de segurança.</td>
-</tr>
-<tr class="odd">
-<td align="left">3</td>
-<td align="left">Diagnóstico</td>
-<td align="left"><p>Os especialistas em resposta de segurança realizam a investigação técnica ou forense, identificam estratégias de confinamento, de atenuação e de solução alternativa.</p>
-<p>Se a equipe de segurança achar que os dados do cliente podem ter sido expostos a um indivíduo criminoso ou não autorizado, a execução do processo de notificação de incidente do cliente começa em paralelo.</p></td>
-</tr>
-<tr class="even">
-<td align="left">4</td>
-<td align="left">Estabilização e Recuperação</td>
-<td align="left">A equipe de resposta a incidentes cria um plano de recuperação para atenuar o problema. As etapas de contenção de crise, como colocar em quarentena os sistemas afetados, podem ocorrer imediatamente e em paralelo com o diagnóstico. As atenuações de longo prazo podem ser planejadas, e ocorrer após o risco imediato ter passado.</td>
-</tr>
-<tr class="odd">
-<td align="left">5</td>
-<td align="left">Fechamento e Post-Mortem</td>
-<td align="left">A equipe de resposta a incidentes cria um post-mortem que descreve os detalhes do incidente com a intenção de revisar políticas, procedimentos e processos para evitar a recorrência do evento.</td>
-</tr>
-</tbody>
-</table>
+|**Etapa**|**Descrição**|
+|:-----|:-----|
+| ***1 - Detecção*** | Primeira indicação de um possível incidente. |
+| ***2 - Avaliação*** | Um membro de plantão da equipe de resposta a incidentes avalia o impacto e a gravidade do evento. Com base em evidências, a avaliação pode ou não resultar num escalonamento para a equipe de resposta de segurança. |
+| ***3 - Diagnóstico*** | Os especialistas em resposta de segurança realizam a investigação técnica ou forense, identificam estratégias de confinamento, de atenuação e de solução alternativa. Se a equipe de segurança achar que os dados do cliente podem ter sido expostos a um indivíduo criminoso ou não autorizado, a execução do processo de notificação de incidente do cliente começa em paralelo.|
+| ***4 - Estabilização e Recuperação*** | A equipe de resposta a incidentes cria um plano de recuperação para atenuar o problema. As etapas de contenção de crise, como colocar em quarentena os sistemas afetados, podem ocorrer imediatamente e em paralelo com o diagnóstico. As atenuações de longo prazo podem ser planejadas, e ocorrer após o risco imediato ter passado. |
+| ***5 - Fechamento e Post-mortem*** | A equipe de resposta a incidentes cria um post-mortem que descreve os detalhes do incidente com a intenção de revisar políticas, procedimentos e processos para evitar a recorrência do evento. |
 
 O white paper [Resposta de segurança do Microsoft Azure na nuvem](https://gallery.technet.microsoft.com/Azure-Security-Response-in-dd18c678) apresenta mais detalhes sobre como a Microsoft investiga, gerencia e responde a incidentes de segurança no Azure.
 
 Os processos de detecção usados pelo Microsoft Azure foram projetados para detectar eventos que põem em risco a confidencialidade, a integridade e a disponibilidade dos serviços do Azure. Vários eventos podem provocar o início de uma investigação:
 
--   Alertas de sistema automáticos por monitoramento interno e estruturas de alerta. Esses alertas podem vir na forma de alarmes baseados em assinatura, como antimalware, detecção de invasão ou via algoritmos projetados para analisar a atividade esperada e alertar sobre anomalias.
-
--   Relatórios internos dos serviços Microsoft em execução no Microsoft Azure e no Azure Governamental.
-
--   As vulnerabilidades de segurança são relatadas ao [Microsoft Security Response Center (MSRC)](https://technet.microsoft.com/security/dn440717) via <secure@microsoft.com>. O MSRC funciona com parceiros e pesquisadores de segurança de diferentes pontos do mundo para ajudar a evitar incidentes de segurança e fazer progredir a segurança dos produtos da Microsoft.
-
--   Relatórios de cliente via [Portal de suporte ao cliente](http://www.windowsazure.com/support/contact/) ou o Portal de Gerenciamento do Azure Governamental ou do Microsoft Azure, que descrevem as atividades suspeitas atribuídas à infraestrutura do Azure (em vez das atividades que ocorrem dentro do escopo de responsabilidade do cliente).
-
--   Atividade de segurança da [Equipe Azul e da Equipe Vermelha](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/). Essa estratégia usa uma Equipe Vermelha ofensiva altamente especializada em segurança da Microsoft para descobrir e tratar de falhas possíveis no Azure. A Equipe Azul de resposta de segurança deve detectar e se proteger contra atividades da Equipe Vermelha. As ações tanto da Equipe Vermelha quanto da Equipe Azul são usadas para verificar se os esforços de resposta de segurança do Azure estão gerenciando com eficiência os incidentes de segurança. As atividades de segurança da Equipe Vermelha e da Equipe Azul são operadas de acordo com regras de interação para ajudar a garantir a proteção dos dados do cliente.
+- Alertas de sistema automatizados por monitoramento interno e estruturas de alerta. Esses alertas podem vir na forma de alarmes baseados em assinatura, como anti-malware, detecção de invasão ou via algoritmos projetados para analisar a atividade esperada e alertar sobre anomalias.
+- Relatórios internos dos serviços Microsoft em execução no Microsoft Azure e no Azure Governamental.
+- As vulnerabilidades de segurança são relatadas ao [Microsoft Security Response Center (MSRC)](https://technet.microsoft.com/security/dn440717) via <secure@microsoft.com>. O MSRC funciona com parceiros e pesquisadores de segurança de diferentes pontos do mundo para ajudar a evitar incidentes de segurança e fazer progredir a segurança dos produtos da Microsoft.
+- Relatórios de cliente via [Portal de suporte ao cliente](http://www.windowsazure.com/support/contact/) ou o Portal de Gerenciamento do Azure Governamental ou do Microsoft Azure, que descrevem as atividades suspeitas atribuídas à infraestrutura do Azure (em vez das atividades que ocorrem dentro do escopo de responsabilidade do cliente).
+- Atividade de segurança da [Equipe Azul e da Equipe Vermelha](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/). Essa estratégia usa uma Equipe Vermelha ofensiva altamente especializada em segurança da Microsoft para descobrir e tratar de falhas possíveis no Azure. A Equipe Azul de resposta de segurança deve detectar e se proteger contra atividades da Equipe Vermelha. As ações tanto da Equipe Vermelha quanto da Equipe Azul são usadas para verificar se os esforços de resposta de segurança do Azure estão gerenciando com eficiência os incidentes de segurança. As atividades de segurança da Equipe Vermelha e da Equipe Azul são operadas de acordo com regras de interação para ajudar a garantir a proteção dos dados do cliente.
 
 -   Escalonamentos por operadores de Serviços do Azure. Os funcionários da Microsoft fazem treinamentos para identificar e escalonar possíveis problemas de segurança.
 
-#### <a name="azures-data-breach-response"></a>Resposta de violação de dados do Azure
-----------------------------
+## <a name="azures-data-breach-response"></a>Resposta de violação de dados do Azure
 
 A Microsoft atribui a prioridade de investigação e níveis de gravidade adequados determinando o impacto funcional, a capacidade de recuperação e impacto de informações do incidente. Tanto a prioridade quanto a gravidade podem mudar ao longo da investigação, com base em novas descobertas e conclusões. Eventos de segurança que envolvam risco iminente ou confirmado aos dados do cliente são considerados como de alta gravidade e tratados ininterruptamente até a resolução. O Microsoft Azure categoriza o impacto de informações do incidente nas seguintes categorias da violação:
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">Categoria</th>
-<th align="left">Definição</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Nenhum</td>
-<td align="left">Nenhuma informação foi vazada, alterada, excluída ou comprometida de outra forma.</td>
-</tr>
-<tr class="even">
-<td align="left">Violação de privacidade</td>
-<td align="left">Dados pessoais confidenciais de contribuintes tributários, funcionários, beneficiários, etc. foram acessados ou vazados.</td>
-</tr>
-<tr class="odd">
-<td align="left">Violação proprietária</td>
-<td align="left">Informações proprietárias não classificadas, como informações de infraestrutura crítica protegida (PCII), foram acessadas ou vazadas.</td>
-</tr>
-<tr class="even">
-<td align="left">Perda de integridade</td>
-<td align="left">Informações confidenciais ou proprietárias foram alteradas ou excluídas.</td>
-</tr>
-</tbody>
-</table>
+|**Categoria**|**Definição**|
+|:-----|:-----|
+| ***Nenhum*** | Nenhuma informação foi vazada, alterada, excluída ou comprometida de outra forma. |
+| ***Violação de privacidade*** | Dados pessoais confidenciais de contribuintes tributários, funcionários, beneficiários, etc. foram acessados ou vazados. |
+| ***Violação proprietária*** | Informações proprietárias não classificadas, como informações de infraestrutura crítica protegida (PCII), foram acessadas ou vazadas. |
+| ***Perda de integridade*** | Informações confidenciais ou proprietárias foram alteradas ou excluídas. |
 
 A equipe de resposta de segurança trabalha com os engenheiros de segurança do Microsoft Azure e Especialistas no Assunto (EAs) para classificar o evento com base em dados concretos das evidências. Um evento de segurança pode ser classificado como:
 
--   **Falso positivo:** um evento que atende aos critérios de detecção, mas se descobre que ele faz parte da prática normal de negócios e talvez precise ser filtrado. A equipe de serviços identificará a causa raiz de falsos positivos e os resolverá de forma sistemática, aproveitando as fontes de detecção e <span id="_Toc350859432" class="anchor"></span>ajustando-as conforme necessário.
+- **Falso positivo:** um evento que atende aos critérios de detecção, mas se descobre que ele faz parte da prática normal de negócios e talvez precise ser filtrado. A equipe de serviços identificará a causa raiz de falsos positivos e os resolverá de forma sistemática, aproveitando as fontes de detecção e <span id="_Toc350859432" class="anchor"></span>ajustando-as conforme necessário.
+- **Incidente de segurança:** um incidente em que houve acesso criminoso a dados do cliente ou dados de suporte armazenados em equipamentos ou instalações da Microsoft, ou houve acesso não autorizado a tais equipamentos ou instalações resultando na perda, divulgação ou alteração de Dados do cliente ou Dados de suporte.
+- **Incidente de segurança a ser relatado ao cliente (CRSI):** um acesso ou uso criminoso ou não autorizado de sistemas, equipamentos ou instalações da Microsoft que resultem em divulgação, modificação ou perda de dados do cliente.
+- **Violação de privacidade:** um subtipo do incidente de segurança que envolve dados pessoais. Os procedimentos de tratamento são os mesmos que os de um incidente de segurança.
 
--   **Incidente de segurança:** um incidente em que houve acesso criminoso a dados do cliente ou dados de suporte armazenados em equipamentos ou instalações da Microsoft, ou houve acesso não autorizado a tais equipamentos ou instalações resultando na perda, divulgação ou alteração de Dados do cliente ou Dados de suporte.
-
--   **Incidente de segurança a ser relatado ao cliente (CRSI):** um acesso ou uso criminoso ou não autorizado de sistemas, equipamentos ou instalações da Microsoft que resultem em divulgação, modificação ou perda de dados do cliente.
-
--   **Violação de privacidade:** um subtipo do incidente de segurança que envolve dados pessoais. Os procedimentos de tratamento são os mesmos que os de um incidente de segurança.
-
-Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu, ou que muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão do estágio Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima da dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
+Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão da etapa Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima de dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
 
 Durante a investigação, a equipe de resposta de segurança trabalha com consultores jurídicos globais para ajudar a garantir que a análise forense seja executada de acordo com as obrigações e compromissos legais para com os clientes. Também há restrições significativas sobre a visualização e o tratamento de sistemas e dados do cliente em diversos ambientes operacionais. Dados confidenciais ou sensíveis, bem como dados do cliente não são transferidos do ambiente de produção sem a expressa aprovação por escrito do Gerente de Incidentes registrado no tíquete de incidente correspondente.
 
@@ -139,16 +80,15 @@ A Microsoft confirma que o risco à empresa e ao cliente foi suprimido com êxit
 
 A Microsoft também concluiu um post-mortem interno para violações de dados. Como parte deste exercício, a suficiência de respostas e os procedimentos operacionais são avaliados e todas as atualizações que possam ser necessárias para o SOP de Resposta a Incidentes de Segurança ou processos relacionados são identificados e implementados. Os postmortems internos para violações de dados são registros altamente confidenciais que não estão disponíveis para os clientes. No entanto, postmortems podem ser resumidos e incluídos nas notificações de evento de outro cliente. Esses relatórios são fornecidos para auditores externos para revisão como parte do ciclo de auditoria de rotina do Azure.
 
-#### <a name="customer-notification"></a>Notificação de cliente
----------------------
+## <a name="customer-notification"></a>Notificação de cliente
 
 O Microsoft Azure notifica os clientes e as autoridades regulamentadoras sobre as violações de dados, conforme necessário. A Microsoft conta com uma pesada compartimentalização interna na operação do Azure. Os logs de fluxo de dados também são robustos. Como benefício desse design, a maioria das ocorrências pode estar limitada a clientes específicos. O objetivo é fornecer aos clientes afetados um aviso preciso, acionável e oportuno quando da violação dos seus dados.
 
 Após a declaração de um CRSI, o processo de notificação ocorrerá da forma mais eficiente possível, levando em conta os riscos de segurança de um trabalho agilizado. Em geral, o processo de criação de notificações ocorre durante o andamento da investigação do incidente. As notificações ao cliente são realizadas dentro de 72 horas após declararmos uma violação, *exceto* nas seguintes circunstâncias:
 
--   A Microsoft acredita que o ato de executar uma notificação aumentará o risco para outros clientes. Por exemplo, o ato de notificar pode alertar algum adversário, causando uma incapacidade de remediar.
+- A Microsoft acredita que o ato de executar uma notificação aumentará o risco para outros clientes. Por exemplo, o ato de notificar pode alertar algum adversário, causando uma incapacidade de remediar.
 
--   Outras circunstâncias extremas ou incomuns investigadas pelo departamento jurídico da Microsoft Corporate External and Legal Affairs (CELA) e pelo gerente de incidentes executivo.
+- Outras circunstâncias extremas ou incomuns investigadas pelo departamento jurídico da Microsoft Corporate External and Legal Affairs (CELA) e pelo gerente de incidentes executivo.
 
 O Microsoft Azure fornece aos clientes informações detalhadas permitindo que executem investigações internas e ajudando-os a atender os compromissos com o usuário final, sem atrasar o processo de notificação.
 
@@ -156,8 +96,7 @@ A notificação de uma violação de dados pessoal será enviada ao cliente por 
 
 A equipe do Microsoft Azure ou do Azure Governamental também pode optar por notificar outros funcionários da Microsoft, como o Serviço de Atendimento ao Consumidor (SAC) e os Gerentes de contas do cliente ou os Gerentes técnicos de contas. Normalmente, essas pessoas têm uma relação próxima com o cliente e podem facilitar a correção mais rápida.<span id="_Appendix_A" class="anchor"></span>
 
-#### <a name="microsoft-intune-data-breach"></a>Violação de dados do Microsoft InTune
-----------------------------
+## <a name="microsoft-intune-data-breach"></a>Violação de dados do Microsoft InTune
 
 O Microsoft Intune é um componente essencial da oferta de serviço em nuvem do Microsoft Enterprise Mobility e da Security Suite. Para dar suporte à estratégia de governança de dados, todos os serviços em nuvem da Microsoft são desenvolvidos com a Privacidade da Microsoft e as metodologias de Segurança por design e por padrão.
 
@@ -166,5 +105,6 @@ Como a oferta do serviço de nuvem do Microsoft Intune acompanha as mesmas medid
 Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](https://servicetrust.microsoft.com/ViewPage/GDPRBreach) no Portal de Confiança do Serviço.
 
 
-#### <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Saiba mais
+
 [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
