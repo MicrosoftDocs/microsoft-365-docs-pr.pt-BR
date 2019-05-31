@@ -1,0 +1,37 @@
+- name: Gerenciar compras e cobrança comercial
+  href: index.md
+  expanded: true
+  items:
+    - name: Produtos e serviços
+      expanded: true
+      items:
+        - name: Gerenciar aplicativos de terceiros
+          href: manage-saas-apps.md
+        - name: Comprar licenças
+          href: /office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Atribuir licenças
+          href: /office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Remover licenças da assinatura
+          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Remover licenças de usuários
+          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Atualizar assinaturas
+          href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+    - name: Faturas e pagamentos
+      items:
+        - name: Entender minha fatura
+          href: /microsoft-store/billing-understand-your-invoice-msfb?context=/microsoft-365/commerce/context/context-commerce
+        - name: Gerenciar métodos de pagamento
+          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
+        - name: Gerenciar perfis de cobrança
+          href: /microsoft-store/billing-profile?context=/microsoft-365/commerce/context/context-commerce
+        - name: Histórico de pedidos
+          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+    - name: Conta de cobrança
+      items:
+        - name: Gerenciar informações de conta de cobrança
+          href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
+        - name: Associar um locatário à minha conta de cobrança
+          href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+    - name: Gerenciar relações com meus parceiros
+      href: /microsoft-store/work-with-partner-microsoft-store-business?context=/microsoft-365/commerce/context/context-commerce
