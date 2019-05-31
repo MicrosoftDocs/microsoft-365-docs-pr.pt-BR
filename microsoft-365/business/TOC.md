@@ -7,17 +7,18 @@
 ### [Visão geral da instalação](set-up-overview.md)
 ### [Configurar o Microsoft 365 Business](set-up.md)
 ### [Atualizar para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md)
-### [Configurar dispositivos móveis](set-up-mobile-devices.md)
-### [Configurar dispositivos Windows](set-up-windows-devices.md)
 ### [Preparar a implantação do cliente do Office](prepare-for-office-client-deployment.md)
 ### [Instalação automática ou desinstalação do Office](auto-install-or-uninstall-office.md)
 ### [Acessar recursos locais]()
 #### [Habilitar o gerenciamento de dispositivos Windows 10 associados ao domínio](manage-windows-devices.md)
 #### [Acessar recursos de um dispositivo associado ao AD do Azure](access-resources.md)
+## Configuração do dispositivo de usuário
+### [Configurar dispositivos móveis](set-up-mobile-devices.md)
+### [Configurar dispositivos Windows](set-up-windows-devices.md)
 ## [Seguro](security-features.md)
 ### [Proteja sua empresa](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Configurar recursos avançados de segurança](set-up-advanced-security.md)
-## Usuários
+## Gerenciar usuários
 ### [Adicionar usuários](add-users-m365b.md)
 ### [Remover um funcionário](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Gerenciar dispositivos
@@ -41,6 +42,6 @@
 ### [Criar e editar os dispositivos do AutoPilot](create-and-edit-autopilot-devices.md)
 ### [Configurações de perfil do AutoPilot](autopilot-profile-settings.md)
 ### [Estados do dispositivo](device-states.md)
-## [PERGUNTAS FREQUENTEs sobre o Microsoft 365 Business](support/microsoft-365-business-faqs.md)
+## [Perguntas frequentes sobre o Microsoft 365 Business](support/microsoft-365-business-faqs.md)
 # [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise)
 # [Documentação do Microsoft 365](https://docs.microsoft.com/microsoft-365)
