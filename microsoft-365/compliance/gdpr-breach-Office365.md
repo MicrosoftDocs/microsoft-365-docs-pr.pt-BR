@@ -11,12 +11,12 @@ author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 69c626d874e0afd59e1447c494ec1b84c7a4cb7a
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: 0bacc6341ac143a8f2b3dcb066709c951d2f1cbb
+ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431862"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34544948"
 ---
 # <a name="office-365-breach-notification-under-the-gdpr"></a>Notificação de violação do Office 365 segundo o RGPD
 
@@ -36,11 +36,11 @@ Além do nosso compromisso de fornecer a notificação de violação em tempo h�
 
 Veja aqui uma descrição de alguns dos nossos investimentos relacionados:
 
--   **Sistemas de controle do acesso.** O Office 365 mantém uma política de "acesso zero", o que significa que os engenheiros não têm acesso ao serviço, a menos que seja concedido explicitamente em resposta a uma ocorrência específica que exija um acesso elevado. Sempre que o acesso for concedido, será feito seguindo o princípio de privilégios mínimos: a permissão é concedida para uma solicitação específica a fim de permitir apenas um conjunto mínimo de ações necessárias para o serviço solicitado. Para isso, o Office 365 mantém uma separação estrita entre "funções de elevação", com cada função permitindo apenas a execução de determinadas ações predefinidas. A função "Acessar dados do cliente" é distinta de outras funções geralmente usadas para administrar o serviço e sua inspeção é considerada com muito mais atenção antes da aprovação. Em conjunto, esses investimentos no controle do acesso reduzem muito a probabilidade de que um engenheiro do Office 365 acesse dados de clientes de forma inadequada.
+- **Sistemas de controle do acesso.** O Office 365 mantém uma política de "acesso zero", o que significa que os engenheiros não têm acesso ao serviço, a menos que seja concedido explicitamente em resposta a uma ocorrência específica que exija um acesso elevado. Sempre que o acesso for concedido, será feito seguindo o princípio de privilégios mínimos: a permissão é concedida para uma solicitação específica a fim de permitir apenas um conjunto mínimo de ações necessárias para o serviço solicitado. Para isso, o Office 365 mantém uma separação estrita entre "funções de elevação", com cada função permitindo apenas a execução de determinadas ações predefinidas. A função "Acessar dados do cliente" é distinta de outras funções geralmente usadas para administrar o serviço e sua inspeção é considerada com muito mais atenção antes da aprovação. Em conjunto, esses investimentos no controle do acesso reduzem muito a probabilidade de que um engenheiro do Office 365 acesse dados de clientes de forma inadequada.
 
--   **Sistemas de monitoramento de segurança e automação:** o Office 365 mantém sistemas de monitoramento de segurança robustos em tempo real. Entre outros problemas, esses sistemas geram alertas por tentativas ilícitas de acessar dados de clientes ou de transferir dados de nosso serviço. Relacionados aos pontos de controle de acesso mencionados acima, nossos sistemas de monitoramento de segurança mantêm registros detalhados das solicitações de elevação realizadas e das ações tomadas para uma determinada solicitação de elevação. O Office 365 também investe em resoluções automáticas que atuam automaticamente para mitigar as ameaças em resposta aos problemas detectados e equipes dedicadas para responder a alertas que não possam ser solucionados automaticamente. Para validar os sistemas de monitoramento de segurança, o Office 365 conduz regularmente exercícios em equipe, nos quais uma equipe de testes de invasão interna simula um comportamento invasor em relação ao ambiente ao vivo. Esses exercícios levam a melhorias regulares dos nossos recursos de resposta e do monitoramento da segurança.
+- **Sistemas de monitoramento de segurança e automação:** o Office 365 mantém sistemas de monitoramento de segurança robustos em tempo real. Entre outros problemas, esses sistemas geram alertas por tentativas ilícitas de acessar dados de clientes ou de transferir dados de nosso serviço. Relacionados aos pontos de controle de acesso mencionados acima, nossos sistemas de monitoramento de segurança mantêm registros detalhados das solicitações de elevação realizadas e das ações tomadas para uma determinada solicitação de elevação. O Office 365 também investe em resoluções automáticas que atuam automaticamente para mitigar as ameaças em resposta aos problemas detectados e equipes dedicadas para responder a alertas que não possam ser solucionados automaticamente. Para validar os sistemas de monitoramento de segurança, o Office 365 conduz regularmente exercícios em equipe, nos quais uma equipe de testes de invasão interna simula um comportamento invasor em relação ao ambiente ao vivo. Esses exercícios levam a melhorias regulares dos nossos recursos de resposta e do monitoramento da segurança.
 
--   **Equipe e processos:** além da automação descrita acima, o Office 365 mantém os processos e as equipes responsáveis por educar as organizações de forma mais ampla sobre a privacidade e os processos de gerenciamento de incidentes, e por executar esses processos durante uma violação. Por exemplo, o procedimento operacional padrão (SOP) detalhado de uma violação de privacidade é mantido e compartilhado com as equipes por toda a organização. Este SOP descreve detalhadamente as funções e responsabilidades de equipes individuais do Office 365 e das equipes de resposta a incidentes de segurança centralizada, que abrangem o que as equipes precisam fazer para melhorar suas próprias condições de segurança (realizar análises de segurança, integração com sistemas de monitoramento de segurança central e outras práticas recomendadas) e o que precisam fazer se houver uma violação real (escalonamento rápido da resposta ao incidente, manter e fornecer fontes de dados específicos a serem usados para acelerar o processo de resposta). As equipes recebem treinamento constante sobre a classificação de dados, procedimentos corretos de armazenamento e manipulação de dados pessoais.
+- **Equipe e processos:** além da automação descrita acima, o Office 365 mantém os processos e as equipes responsáveis por educar as organizações de forma mais ampla sobre a privacidade e os processos de gerenciamento de incidentes, e por executar esses processos durante uma violação. Por exemplo, o procedimento operacional padrão (SOP) detalhado de uma violação de privacidade é mantido e compartilhado com as equipes por toda a organização. Este SOP descreve detalhadamente as funções e responsabilidades de equipes individuais do Office 365 e das equipes de resposta a incidentes de segurança centralizada, que abrangem o que as equipes precisam fazer para melhorar suas próprias condições de segurança (realizar análises de segurança, integração com sistemas de monitoramento de segurança central e outras práticas recomendadas) e o que precisam fazer se houver uma violação real (escalonamento rápido da resposta ao incidente, manter e fornecer fontes de dados específicos a serem usados para acelerar o processo de resposta). As equipes recebem treinamento constante sobre a classificação de dados, procedimentos corretos de armazenamento e manipulação de dados pessoais.
 
 O principal argumento é que o Office 365 investe imensamente na redução da probabilidade e nas consequências de violações de dados pessoais que afetem os clientes. Se ocorrer uma violação de dados pessoais, temos o compromisso de notificar rapidamente os nossos clientes, assim que a violação for confirmada.
 
@@ -48,29 +48,26 @@ O principal argumento é que o Office 365 investe imensamente na redução da pr
 
 A seção acima descreve investimentos que o Office 365 faz para reduzir a probabilidade de violação de dados. No caso improvável de que uma violação ocorra, os clientes devem aguardar uma experiência previsível em termos do seguinte:
 
--   Um ciclo de vida consistente de respostas a incidentes no Office 365. Como descrito acima, o Office 365 mantém SOPs detalhados de respostas a incidentes que descrevem como as equipes devem se preparar contra violações e como devem operar se ocorrer uma violação, o que garante que nossos processos e proteções sejam aplicados por todos os serviços.
+- Um ciclo de vida consistente de respostas a incidentes no Office 365. Como descrito acima, o Office 365 mantém SOPs detalhados de respostas a incidentes que descrevem como as equipes devem se preparar contra violações e como devem operar se ocorrer uma violação, o que garante que nossos processos e proteções sejam aplicados por todos os serviços.
 
--   Critérios consistentes para notificar os clientes. Nossos critérios de notificação se concentram na confidencialidade, integridade e disponibilidade de dados de clientes. O Office 365 notifica diretamente os clientes se a confidencialidade ou a integridade de seus dados forem afetadas. Ou seja, notificamos os clientes se seus dados forem acessados sem a adequada autorização ou se houver perdas ou destruição de dados inadequadas. O Office 365 também informa problemas que afetem a disponibilidade de dados, embora isso geralmente seja feito pelo Painel de integridade de serviço (SHD).
+- Critérios consistentes para notificar os clientes. Nossos critérios de notificação se concentram na confidencialidade, integridade e disponibilidade de dados de clientes. O Office 365 notifica diretamente os clientes se a confidencialidade ou a integridade de seus dados forem afetadas. Ou seja, notificamos os clientes se seus dados forem acessados sem a adequada autorização ou se houver perdas ou destruição de dados inadequadas. O Office 365 também informa problemas que afetem a disponibilidade de dados, embora isso geralmente seja feito pelo Painel de integridade de serviço (SHD).
 
--   Detalhes de notificação consistente. Quando o Office 365 faz comunicações sobre violação de dados, os clientes podem esperar que sejam informados detalhes específicos; no mínimo, forneceremos os seguintes detalhes:
+- Detalhes de notificação consistente. Quando o Office 365 faz comunicações sobre violação de dados, os clientes podem esperar que sejam informados detalhes específicos; no mínimo, forneceremos os seguintes detalhes:
 
-    -   O momento da violação e o momento em que a violação foi percebida.
-
-    -   A quantidade aproximada de usuários afetados.
-
-    -   Os tipos de dados do usuário que foram violados.
-
-    -   Ações necessárias para reduzir a violação, seja do controlador ou do processador.
+    - O momento da violação e o momento em que a violação foi percebida.
+    - A quantidade aproximada de usuários afetados.
+    - Os tipos de dados do usuário que foram violados.
+    - Ações necessárias para reduzir a violação, seja do controlador ou do processador.
 
 Os clientes também devem observar que o Office 365, como um processador de dados, não determina o risco de violação de dados. Sempre que for detectada uma violação de dados pessoais, notificaremos os clientes e forneceremos os detalhes que eles precisam para determinar com precisão o risco para os usuários afetados e para decidir se é necessário reportar às autoridades regulamentares. Para essa finalidade, espera-se que os controladores de dados determinem o seguinte:
 
--   Gravidade da violação (ou seja, a determinação do risco).
+- Gravidade da violação (ou seja, a determinação do risco).
 
--   Se é necessário notificar os usuários finais.
+- Se é necessário notificar os usuários finais.
 
--   Se é necessário notificar os reguladores (DPAs).
+- Se é necessário notificar os reguladores (DPAs).
 
--   As etapas específicas que o controlador deve tomar para reduzir as consequências da violação.
+- As etapas específicas que o controlador deve tomar para reduzir as consequências da violação.
 
 ## <a name="contacting-microsoft"></a>Entrar em contato com a Microsoft
 
@@ -84,7 +81,5 @@ O contato de privacidade do cliente pode ser uma pessoa da organização, uma li
 
 Para resumir, o Office 365 solicita que os clientes façam o seguinte para receberem os benefícios de nossos processos de notificação de violações:
 
--   Escolha um contato para receber notificações por email sobre a violação de dados pessoais. Este contato deve estar ciente dos requisitos de controladores, de acordo com o RGPD, e deve estar preparado para interagir com o Responsável pela proteção de dados da organização e até mesmo com a Autoridade de proteção a dados logo após receber a notificação. Os administradores do locatário também receberão as notificações de violação e, da mesma forma, deverão estar cientes dos requisitos do controlador de acordo com o RGPD.
-
--   Insira o endereço de email do contato de privacidade no portal do AAD. Se nenhuma informação de Contato de privacidade global for fornecida, a Microsoft notificará somente o administrador do locatário.
-- <!-- note that there is missing text clipped from the original Word doc -->
+- Escolha um contato para receber notificações por email sobre a violação de dados pessoais. Este contato deve estar ciente dos requisitos de controladores, de acordo com o RGPD, e deve estar preparado para interagir com o Responsável pela proteção de dados da organização e até mesmo com a Autoridade de proteção a dados logo após receber a notificação. Os administradores do locatário também receberão as notificações de violação e, da mesma forma, deverão estar cientes dos requisitos do controlador de acordo com o RGPD.
+- Insira o endereço de email do contato de privacidade no portal do AAD. Se nenhuma informação de Contato de privacidade global for fornecida, a Microsoft notificará somente o administrador do locatário.
