@@ -11,22 +11,20 @@ author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 0bacc6341ac143a8f2b3dcb066709c951d2f1cbb
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: f30bdc4aec20a69c18405b6f69a14fc919f57554
+ms.sourcegitcommit: 651a1c583021a7122a9487be2f32330aff161467
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544948"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34675626"
 ---
 # <a name="office-365-breach-notification-under-the-gdpr"></a>Notificação de violação do Office 365 segundo o RGPD
 
 Como um processador de dados, o Office 365 garante que nossos clientes possam atender aos requisitos de notificação de violação de RGPD como controladores de dados. Para essa finalidade, estamos comprometidos com o seguinte:
 
--   Em fornecer aos clientes a capacidade de especificar um contato de privacidade dedicado que será notificado sobre a violação. Os clientes podem especificar este contato no Azure Active Directory (AAD).
-
--   Em notificar os clientes até 72 horas após uma violação de dados pessoais ser declarada. A notificação será feita por email para o contato especificado pelo cliente.
-
--   A notificação inicial incluirá ao menos uma descrição da natureza da violação, a aproximação de impacto sobre o usuário e as etapas de mitigação (se aplicável). Se nossa investigação não for concluída até o momento da notificação inicial, podemos indicar as próximas etapas e linhas de tempo para comunicação subsequente em nossa notificação inicial.
+- Em fornecer aos clientes a capacidade de especificar um contato de privacidade dedicado que será notificado sobre a violação. Os clientes podem especificar este contato no Azure Active Directory (AAD).
+- Em notificar os clientes até 72 horas após uma violação de dados pessoais ser declarada. A notificação será feita por email para o contato especificado pelo cliente.
+- A notificação inicial incluirá ao menos uma descrição da natureza da violação, a aproximação de impacto sobre o usuário e as etapas de mitigação (se aplicável). Se nossa investigação não for concluída até o momento da notificação inicial, podemos indicar as próximas etapas e linhas de tempo para comunicação subsequente em nossa notificação inicial.
 
 A Microsoft reconhece que os controladores de dados são responsáveis por conduzir avaliações de risco e determinar se uma violação requer a notificação de DPA ao cliente e a nossa notificação aos clientes fornece as informações necessárias para executar tal avaliação. Portanto, a Microsoft avisará aos clientes sobre qualquer violação de dados pessoais, exceto nesses casos em que os dados pessoais confirmados sejam incompreensíveis (por exemplo, dados altamente criptografados nos quais a integridade das chaves está confirmada).
 
@@ -62,11 +60,8 @@ A seção acima descreve investimentos que o Office 365 faz para reduzir a proba
 Os clientes também devem observar que o Office 365, como um processador de dados, não determina o risco de violação de dados. Sempre que for detectada uma violação de dados pessoais, notificaremos os clientes e forneceremos os detalhes que eles precisam para determinar com precisão o risco para os usuários afetados e para decidir se é necessário reportar às autoridades regulamentares. Para essa finalidade, espera-se que os controladores de dados determinem o seguinte:
 
 - Gravidade da violação (ou seja, a determinação do risco).
-
 - Se é necessário notificar os usuários finais.
-
 - Se é necessário notificar os reguladores (DPAs).
-
 - As etapas específicas que o controlador deve tomar para reduzir as consequências da violação.
 
 ## <a name="contacting-microsoft"></a>Entrar em contato com a Microsoft
