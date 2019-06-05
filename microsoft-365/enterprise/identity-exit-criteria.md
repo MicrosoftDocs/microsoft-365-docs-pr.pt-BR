@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: aabd9f5db223b4b1aba0173dcfb739fe27553555
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 19eefe3cd153668239d9cf15f71c90e8ac9571e1
+ms.sourcegitcommit: e87c9aa4d6f4756c0a761d3de7c70492b43bf0b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072121"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34681038"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
@@ -51,7 +51,7 @@ Se necessário, a [Etapa 2](identity-designate-protect-admin-accounts.md#identit
 
 Use estas etapas para verificar se você protegeu suas contas de administrador global:
 
-1. Execute o seguinte comando do Azure AD V2 no prompt de comando do PowerShell. Você verá somente a lista de contas de administradores globais dedicados.
+1. Execute o seguinte comando do Azure Active Directory PowerShell for Graph no prompt de comando do PowerShell. Você verá somente a lista de contas de administradores globais dedicados.
    ```
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
