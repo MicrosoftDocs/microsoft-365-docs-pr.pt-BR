@@ -23,7 +23,7 @@ Se necessário, a [Etapa 2](../identity-designate-protect-admin-accounts.md#iden
 
 Use estas etapas para verificar se você protegeu suas contas de administrador global:
 
-1. Execute o seguinte comando do Azure AD V2 no prompt de comando do PowerShell. Você verá somente a lista de contas de administradores globais dedicados.
+1. Execute o seguinte comando do Azure Active Directory PowerShell for Graph no prompt de comando do PowerShell. Você verá somente a lista de contas de administradores globais dedicados.
    ```
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
