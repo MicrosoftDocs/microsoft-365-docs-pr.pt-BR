@@ -5,17 +5,17 @@ keywords: Documentação do Microsoft 365 DPIA, Office 365, GDPR
 ms.localizationpriority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 95f3e5e4bb36c5bcf5e2d8a2a3f629c213d2d219
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: da9ba78f11dad06a1bea72484e6ecc77e7619493
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544828"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698293"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Office 365 
 
@@ -37,7 +37,7 @@ O Artigo 35 do RGPD exige que o controlador de dados crie uma Avaliação de Imp
 |||
 
 > [!Note]
-> <sup>1</sup>Com relação aos critérios de que o processamento é em “grande escala”, o Recital 91 do RGPD esclarece que: “O processamento de dados pessoais não deve ser considerado em grande escala se o processamento se referir a dados pessoais de pacientes ou clientes por um médico individual, outro profissional da saúde ou advogado. Nesses casos, uma avaliação de impacto de proteção de dados não deve ser obrigatória.”
+> <sup>1</sup> Com relação aos critérios de que o processamento é em “grande escala”, o Recital 91 do RGPD esclarece que: “O processamento de dados pessoais não deve ser considerado em grande escala se o processamento se referir a dados pessoais de pacientes ou clientes por um médico individual, outro profissional da saúde ou advogado. Nesses casos, uma avaliação de impacto de proteção de dados não deve ser obrigatória.”
 
 ## <a name="part-2--contents-of-a-dpia"></a>Parte 2 — Conteúdo de uma AIPD
 

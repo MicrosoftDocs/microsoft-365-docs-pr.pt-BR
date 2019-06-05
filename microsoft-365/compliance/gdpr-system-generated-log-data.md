@@ -6,17 +6,17 @@ localization_priority: Priority
 Robots: NOFOLLOW,NOINDEX
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: a9b408ae8def149f215af78982d87b9329c260cd
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: d2fb80270296c5eac2a29fecb2c613680882fb96
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431332"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34697963"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>Etapas adicionais para exportar dados de log gerados pelo sistema
 

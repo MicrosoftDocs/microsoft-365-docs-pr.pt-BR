@@ -5,18 +5,17 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.date: 04/13/2018
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 61bd182c5f51a025d36a21541a2f901a00e87e53
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: 9330daf0f6d7094ef907020408057cb1104463ac
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544918"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698273"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Notificação de violação no GDPR
 

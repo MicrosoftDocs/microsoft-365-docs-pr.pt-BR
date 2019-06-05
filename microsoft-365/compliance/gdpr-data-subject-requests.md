@@ -5,18 +5,17 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.date: 04/13/2018
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 00fed2cde29f12bb7e2b91d28e223c09da8ae7a5
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: 55d51d70f78eb52e6f6fcedbc541872c5a0931bc
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544928"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698213"
 ---
 # <a name="data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados para o RGPD
 
