@@ -3,8 +3,8 @@ title: Centro de Implantação do Computador
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
-audience: ITPro
+ms.date: 06/01/19
+ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: a98fde22eced18a02c5191a52f49e97b06ba0a77
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 659ea39fc4ccd1c06d79c8a5c39ff2c4e85ba9ce
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072791"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814642"
 ---
 # <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
 

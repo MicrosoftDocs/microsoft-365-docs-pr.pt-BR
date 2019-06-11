@@ -3,8 +3,8 @@ title: Introdução - Implantação do Computador
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
-audience: ITPro
+ms.date: 05/20/2019
+ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: 41f35eb31adb4e388d21fd1264b13a345c7d22b6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b9264f8d9232bf1b88372694d43e2d2c70c8cb70
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072381"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814652"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 

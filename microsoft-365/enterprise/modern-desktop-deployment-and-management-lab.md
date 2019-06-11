@@ -3,7 +3,7 @@ title: Kit de laboratório de implantação do Office e do Windows
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 10/31/2018
+ms.date: 06/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 213d53b323cd5a5ca6f803320cf09e168beb1114
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 86bdf37ca56c5779042ee78be091dd14ee63b80e
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400060"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814542"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
@@ -127,7 +127,8 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
 
-  - [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - 
+  [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Plano de implantação do Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

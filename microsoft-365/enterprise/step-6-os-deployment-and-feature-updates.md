@@ -3,8 +3,8 @@ title: 'Etapa 6: Implantação de sistema operacional e atualizações de recurs
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
-audience: ITPro
+ms.date: 05/30/2019
+ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as opções de implantação e atualizações de recursos do sistema operacional.
-ms.openlocfilehash: 5b5d7f7174c4effe3db831ed6fb669cc9bdc7578
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: e26bbea4e0507c66102931eb102ce96d2620cfc7
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073071"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814622"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Etapa 6: Implantação de sistema operacional e atualizações de recursos
 
