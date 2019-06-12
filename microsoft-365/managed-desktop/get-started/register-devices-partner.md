@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: d743092fdd309c1afd748afa7523f0cc0c6a2fd0
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 40927b18b0d047eae848b5a2a938d98fa6de3119
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400005"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857315"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop-for-partners"></a>Registrar dispositivos no Microsoft Managed desktop para parceiros
 
@@ -30,8 +30,8 @@ Para concluir o registro do cliente, primeiro crie um arquivo CSV.
 O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo um (fabricante, modelo, etc.), mas seus próprios dados para as outras linhas. Se você usar o modelo, abra-o em uma ferramenta de edição de texto, como o bloco de notas, e considere a possibilidade de deixar todos os dados na linha 1 apenas inserindo dados nas linhas 2 e abaixo. 
     
   ```
- Manufacturer,Model,Serial Number,Hardware Hash
-  SpiralOrbit,ContosoABC,000000000000,
+ Manufacturer,Model,Serial Number
+  SpiralOrbit,ContosoABC,000000000000
   
   
   ```
@@ -71,7 +71,7 @@ Você pode monitorar o progresso do registro de dispositivo na página principal
 | Falha no registro | Não foi possível concluir o registro. Consulte [solução de problemas](register-devices-self.md#troubleshooting) para obter mais informações. |
 | Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário final. A área de trabalho gerenciada da Microsoft irá orientá-lo pela primeira vez na configuração, portanto, não é necessário fazer mais preparativos. |
 | Ativo | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
-| Inativa | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. No enTanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  |
+| Inativa | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  |
 
 ## <a name="register-devices-by-using-an-api"></a>Registrar dispositivos usando uma API
 

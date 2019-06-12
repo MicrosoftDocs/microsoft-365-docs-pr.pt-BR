@@ -4,21 +4,42 @@ description: Este tópico lista os tópicos novos e atualizados da área de trab
 keywords: histórico de alterações
 ms.prod: m365-md
 ms.sitesec: library
-author: trudyha
-ms.author: jdecker
+author: jaimeo
+ms.author: jaimeo
 ms.topic: article
-ms.date: 03/11/2019
 ms.localizationpriority: normal
-ms.openlocfilehash: 9bbcbe99e3dc08d4201d4a80323b17647309f433
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 3cf7e948e5bf963ae9239656881c181d90f23a6e
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277966"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857314"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml).
+
+
+## <a name="may-2019"></a>Maio de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Idiomas e regiões compatíveis com o Microsoft Managed desktop](service-description/regions-languages.md) | Tópico atualizado
+[Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Tópico atualizado
+[Dispositivos arquivados do Microsoft Managed desktop](service-description/archived-device-list.md) | Novo tópico
+[Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo tópico
+[Preparar certificados e perfis de rede para a área de trabalho gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo tópico
+[Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Tópico atualizado
+
+
+## <a name="april-2019"></a>Abril de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Instalar o portal da empresa do Intune em dispositivos de área de trabalho gerenciado da Microsoft](get-started/company-portal.md) | Novo tópico
+[Instalar o Microsoft Project e o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](get-started/project-visio.md) | Novo tópico 
+[Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft](get-ready/authentication.md) | Novo tópico
+[Registrar dispositivos na área de trabalho gerenciada da Microsoft](get-started/register-devices-self.md) | Novo tópico
+[Registrar dispositivos no Microsoft Managed desktop para parceiros](get-started/register-devices-partner.md) | Novo tópico
+[Implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft](get-started/deploy-apps.md) | Tópico atualizado
 
 ## <a name="march-2019"></a>Março de 2019
 Tópico novo ou alterado | Descrição
@@ -51,7 +72,7 @@ Tópico novo ou alterado | Descrição
 
 Tópico novo ou alterado | Descrição
 --- | ---
-[Suporte para a área de trabalho gerenciada da Microsoft](service-description/support.md)<br />e [suporte ao usuário final para a área de trabalho gerenciaDa da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir Austrália.
+[Suporte para a área de trabalho gerenciada da Microsoft](service-description/support.md)<br />e [suporte ao usuário final para a área de trabalho gerenciada da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir Austrália.
 
 ## <a name="october-30-2018"></a>30 de outubro de 2018
 Conteúdo reorganizado: seção adicionada à [Descrição do serviço de área de trabalho gerenciada da Microsoft](service-description/index.md). 

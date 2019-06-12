@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0eabd3c90e0aae2812b2ee9fd6fb4d1768e90c1e
-ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
+ms.openlocfilehash: c3674df0bfd797b9076bbf52379444665b1ce4d8
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34104207"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857304"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -40,7 +40,7 @@ Além disso, o dispositivo também deve:
 
 - Ter uma imagem aprovada pela área de trabalho gerenciada pela Microsoft. Ao solicitar dispositivos, verifique se você especificou que eles estão sendo usados com a área de trabalho gerenciada da Microsoft.
 - Não concluiu a experiência de primeira execução do Windows.
-- Ser inscrito no [Windows AutoPilot](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/user-driven-aad) e ter o perfil AutoPilot da área de trabalho gerenciada da Microsoft atribuído.
+- Ser registrado com o Microsoft Managed Destkop usando o recurso de [registro do dispositivo](https://aka.ms/mmddrhelp)
 
 #### <a name="additional-help"></a>Ajuda adicional
 

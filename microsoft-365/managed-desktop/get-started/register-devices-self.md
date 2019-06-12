@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 02b3b7ab32ff92304ab27ca8e8c805ade803c971
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: f1e61cfc7fd1d6d597efbfa2480155e06a3d3eb7
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400061"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857294"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop"></a>Registrar dispositivos na área de trabalho gerenciada da Microsoft
 
@@ -21,7 +21,7 @@ A área de trabalho gerenciada da Microsoft pode funcionar com dispositivos novo
 
 ## <a name="prepare-to-register-devices"></a>Preparar para registrar dispositivos
 
-Se você ainda não tiver obtido os dispositivos que deseja usar, verifique os [dispositivos de área de trabalho gerenciaDa da Microsoft](../service-description/device-list.md) e trabalhe com um parceiro de dispositivo para adquirir dispositivos compatíveis.
+Se você ainda não tiver obtido os dispositivos que deseja usar, verifique os [dispositivos de área de trabalho gerenciada da Microsoft](../service-description/device-list.md) e trabalhe com um parceiro de dispositivo para adquirir dispositivos compatíveis.
 
 Se você estiver trabalhando com dispositivos totalmente novos ou reutilizar os existentes, para registrá-los com a área de trabalho gerenciada da Microsoft, será necessário preparar um **arquivo separado por vírgula (CSV)**. Esse arquivo deve incluir as seguintes informações para cada dispositivo:
 
@@ -39,20 +39,20 @@ O hash de hardware deve ser uma correspondência exata.
 Para obter o hash de hardware, você pode solicitar ajuda do seu OEM ou parceiro ou seguir estas etapas para cada dispositivo:
 
 1.  Abra um prompt do PowerShell com direitos administrativos.
-2.  Sejam`Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Sejam`powershell -ExecutionPolicy Unrestricted Get-WindowsAutopilotInfo -OutputFile <path>\hardwarehash.csv`
+2.  Sejam`Install-Script -Name Get-MMDRegistrationInfo`
+3.  Sejam`powershell -ExecutionPolicy Unrestricted Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 
 
 Como alternativa, você pode seguir estas etapas em um dispositivo novo (antes de passar pelo OOBE pela primeira vez):
 
 1. Em um dispositivo diferente, insira uma unidade USB.
 2. Abra um prompt do PowerShell com direitos administrativos.
-3. Sejam`Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
+3. Sejam`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. Ative o dispositivo de destino, mas não inicie a experiência de instalação. Se você iniciar acidentalmente a experiência de instalação, será necessário redefinir ou recriar a imagem do dispositivo.
 5. Insira a unidade USB e, em seguida, pressione SHIFT + F10.
 6. Abra um prompt do PowerShell com direitos administrativos e, em `cd <pathToUsb>`seguida, execute.
 7. Sejam`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
-8. Sejam`.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+8. Sejam`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 3. Remova a unidade USB e desligue o dispositivo executando`shutdown -s -t 0`
 
 >[!IMPORTANT]
@@ -76,7 +76,7 @@ O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Registrar dispositivos usando o portal do Azure
 
-No [portal do Azure](https://aka.ms/mmdportal)de área de trabalho gerenciaDa da Microsoft, selecione **dispositivos** no painel de navegação esquerdo. Selecione **+ registrar dispositivos**; o funcionamento é aberto:
+No [portal do Azure](https://aka.ms/mmdportal)de área de trabalho gerenciada da Microsoft, selecione **dispositivos** no painel de navegação esquerdo. Selecione **+ registrar dispositivos**; o funcionamento é aberto:
 
 [![Surgir após selecionar registrar dispositivos](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
 
@@ -101,7 +101,7 @@ Você pode monitorar o progresso do registro de dispositivo na página principal
 | Falha no registro | Não foi possível concluir o registro. Consulte [solução de problemas](register-devices-self.md#troubleshooting) para obter mais informações. |
 | Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário final. A área de trabalho gerenciada da Microsoft irá orientá-lo pela primeira vez na configuração, portanto, não é necessário fazer mais preparativos. |
 | Ativo | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
-| Inativa | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. No enTanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
+| Inativa | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 
 ## <a name="register-devices-by-using-an-api"></a>Registrar dispositivos usando uma API
