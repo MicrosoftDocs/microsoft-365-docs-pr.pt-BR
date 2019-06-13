@@ -1,91 +1,80 @@
 ---
-title: Preparando aplicativos para a área de trabalho gerenciada da Microsoft
+title: Aplicativos na área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: be28760fc3facdb21643943ace11deda378d437c
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: db89e3b1f8b5b8073eab62e4b4d38087e1e73fa4
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289057"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913042"
 ---
-# <a name="preparing-apps-for-microsoft-managed-desktop"></a>Preparando aplicativos para a área de trabalho gerenciada da Microsoft
+# <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na área de trabalho gerenciada da Microsoft
 
 <!--This topic is the target for 2 "Learn more" links in the Admin Portal (aka.ms/app-overview;app-package); also target for link from Online resources (aka.ms/app-overviewmmd-app-prep) do not delete.-->
 
 <!--Applications: supported/onboard/deployment -->
  
-Os clientes de área de trabalho gerenciada da Microsoft e da Microsoft têm responsabilidades igualmente diferentes em relação aos aplicativos usados com a área de trabalho gerenciada da Microsoft.
+## <a name="apps-generally"></a>Aplicativos geralmente
 
-## <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
-**Aplicativos do Office 365** A Microsoft fornecerá serviço completo para a implantação, atualização e suporte de aplicativos específicos do Office 365. Todos os usuários receberão o conjunto base do Office 365 clique para executar, versão de 64 bits de aplicativos incluídos na imagem do dispositivo para que um usuário possa se tornar produtivo rapidamente. Os aplicativos do Project e do Visio no pacote do Office 365 são licenciados separadamente.  A área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos apropriadamente para sua organização. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
+A Microsoft inclui certos aplicativos-chave, juntamente com a licença do Microsoft 365 E3 ou E5 necessária para participar da área de trabalho gerenciada da Microsoft. No entanto, mesmo que forneçamos esses aplicativos, você ainda tem determinadas responsabilidades e ações para concluir.
 
-**Aplicativos de linha de negócios** A Microsoft fornece ferramentas para que os administradores de ti gerenciem e implantem seus aplicativos de linha de negócios (LOB) para os usuários finais como parte do produto do Intune. A Microsoft dará suporte a problemas de implantação de aplicativos, conforme detalhado em [aplicativos de linha de negócios](#line-of-business-applications) 
-
-**Implantar com o Intune** O Intune será vinculado à **Microsoft Store para empresas** durante a integração da área de trabalho gerenciada da Microsoft, permitindo que aplicativos adquiridos sejam implantados por meio do Intune. A Microsoft também implantará o aplicativo portal da empresa da Microsoft Store para os usuários finais, de modo que os administradores de ti possam fornecer uma experiência de autoatendimento para seus usuários finais.
-
-**Gerenciamento de aplicativos** A Microsoft pode identificar aplicativos restritos que não são adequados para o local de trabalho moderno devido ao impacto do sistema. Quando um aplicativo é identificado, a Microsoft notificará o cliente e esse aplicativo deverá ser removido do locatário. 
-
-Para obter mais informações sobre comportamentos de aplicativo restritos e requisitos de aplicativos, consulte [requisitos do aplicativo de área de trabalho gerenciado da Microsoft](../service-description/mmd-app-requirements.md)
-
-## <a name="customer-responsibilities"></a>Responsabilidades do cliente
-O pacote do Office 365 é essencial para ofertas de produtividade da Microsoft e está incluído na licença do Microsoft 365 para todos os usuários do Microsoft Managed desktop. Enquanto a Microsoft implanta, atualiza e dá suporte a aplicativos do Office para dispositivos de área de trabalho gerenciada da Microsoft, ainda há algumas áreas nas quais o cliente é responsável.
-- **Atribuir licenças** -os clientes são responsáveis por atribuir as licenças apropriadas aos usuários finais do Office 365. 
-- **Adicionar usuários a grupos de segurança** -para clientes com usuários que precisam do Project ou do Visio, o administrador de ti deve adicionar esses usuários aos grupos de implantação apropriados. Os administradores de ti também são responsáveis por gerenciar o fim da vida útil desses usuários. 
-- **Implantar os complementos do office 365** -os clientes são responsáveis pela implantação de qualquer plug-in no pacote do Office 365 que são considerados necessários. 
-
-Como os aplicativos de linha de negócios (LOB) são exclusivos para cada cliente, os clientes são responsáveis por gerenciar todos os aplicativos em sua organização não implantados pela Microsoft. Isso inclui:
-- Decidir quais aplicativos são necessários e quem precisa deles
-- Atribuindo aplicativos a esses usuários
-- Criar e manter grupos do Azure Active Directory (AD) para gerenciar atribuições de aplicativos 
-
-O cliente deve carregar aplicativos LOB no Intune. Eles são, então, responsáveis pela implantação, atualização e encerramento desses aplicativos sobre seus respectivos ciclos de vida, além de gerenciar o suporte para esses aplicativos para seus usuários.
-
-## <a name="office-applications"></a>Aplicativos do Office
-Como parte da licença do Microsoft 365 e5, o Office 365 Standard Suite (64 bit) é implantado pela Microsoft. 
-
-Para obter detalhes, consulte [tecnologias de área de trabalho gerenciaDa da Microsoft](../intro/technologies.md) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
-
-## <a name="line-of-business-applications"></a>Aplicativos de linha de negócios
-Esta tabela resume as responsabilidades em diferentes fases para aplicativos de linha de negócios (LOB). 
-
-Itens de trabalho do aplicativo |    Cliente    | Microsoft
---- | --- | ---
-**Aplicativos de integração** |  |
-Identificar aplicativos necessários para grupos de usuários de destino   | ![sim](images/checkmark.png)  |
-Criar e gerenciar grupos do Azure AD para implantação de aplicativos | ![sim](images/checkmark.png) |   
-**Pacote de aplicativos** |  |
-Empacotar aplicativos para atender aos padrões de implantação do Intune |  ![sim](images/checkmark.png) |  
-Carregar aplicativos no Intune | ![sim](images/checkmark.png)     |
-Testar aplicativos no ambiente de área de trabalho gerenciada da Microsoft |    ![sim](images/checkmark.png) |  
-Testar aplicativos com usuários finais    | ![sim](images/checkmark.png) |    
-**Implantação** | |
-Gerenciar e atribuir usuários aos aplicativos  | ![sim](images/checkmark.png)  |
-As ferramentas de implantação do Intune fornecem aplicativos para clientes remotos| |   ![sim](images/checkmark.png)
-Identificar e implantar atualizações de aplicativos por meio do Intune | ![sim](images/checkmark.png)    |
-Desinstalar e remover aplicativos quando eles tiverem sido desativados    | ![sim](images/checkmark.png) |    
-**Gerenciamento** | |
-Adquirir e atribuir licenças |   ![sim](images/checkmark.png)     |
-Fornecer suporte ao usuário final para aplicativos de linha de negócios  | ![sim](images/checkmark.png) |
-Gerenciar as configurações do aplicativo remotamente    | ![sim](images/checkmark.png) |
-
-Para obter informações sobre requisitos de aplicativos LOB, consulte [requisitos de aplicativos de área de trabalho gerenciaDa da Microsoft](../service-description/mmd-app-requirements.md)
+Você também pode implantar aplicativos adicionais não-Microsoft nos seus usuários finais para autoatendimento por meio do portal da empresa ou uma instalação de segundo plano necessária, tudo usando o pipeline de implantação do Microsoft Intune. Se você tiver o conhecimento, poderá migrar os aplicativos que precisa sozinho; Se não houver distribuidores de serviços de consultoria da Microsoft (MCS) ou não da Microsoft, você poderá ajudá-lo com um projeto de pacote e migração. Para obter mais informações sobre como trabalhar com MCS, confira [trabalhar com serviços de consultoria da Microsoft](apps-MCS.md).
 
 
-## <a name="intune-application-deployment"></a>Implantação de aplicativo do Intune
-O gerenciamento de aplicativos pode ser manipulado pelo portal de administração de área de trabalho gerenciada da Microsoft ou por meio do portal do Intune. O portal de gerenciamento de aplicativos do Intune mostra aplicativos implantados para Windows, Android e iOS. O portal de administração do Microsoft Managed desktop limita o modo de exibição aos aplicativos do Windows 10. Ambos estão disponíveis por meio do portal do Azure. 
-* [Noções básicas do gerenciamento de aplicativos do Intune](https://docs.microsoft.com/intune/app-management)
-* [Adicionar aplicativos ao Intune](https://docs.microsoft.com/intune/app-management)
-   * [Adicionar um aplicativo de linha de negócios](https://docs.microsoft.com/intune/lob-apps-windows)
-   * [Adicionar aplicativos Win32 ao Intune](https://docs.microsoft.com/intune/apps-win32-app-management)
-   * [Adicionar aplicativos Web](https://docs.microsoft.com/intune/web-app)
-* [Implantar aplicativos](https://docs.microsoft.com/intune/apps-deploy)
-   * [Implantar aplicativos no Windows 10](https://docs.microsoft.com/intune/apps-windows-10-app-deploy)
-* Portal da empresa
-   * [Implantar o portal da empresa](https://docs.microsoft.com/intune/store-apps-company-portal-app)
-   * [Configurar o aplicativo do portal da empresa](https://docs.microsoft.com/intune/company-portal-app)
+## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
+
+Incluído na sua licença de área de trabalho gerenciada da Microsoft são versões de 64 bits dos aplicativos no Office 365 ProPlus Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business e OneNote). As versões de clique para executar do Microsoft Project e do Visio *não* estão incluídas por padrão, mas você pode solicitar que sejam adicionadas. Para obter mais informações sobre esses aplicativos, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
+
+### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>O que a Microsoft faz para dar suporte aos aplicativos que fornecemos
+
+A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos incluídos do Office 365 ProPlus. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para seu departamento. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
+
+### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>O que você precisa fazer para dar suporte aos aplicativos que fornecemos
+
+Ainda há algumas coisas que você precisa fazer com estes aplicativos:
+
+- **Atribuir licenças** – você é responsável por obter e atribuir as licenças apropriadas aos usuários finais do Office 365 ProPlus.
+- **Adicionar usuários a grupos de segurança** -se você estiver usando o Microsoft Project ou o Visio, seu administrador de ti deverá adicionar esses usuários aos grupos de implantação apropriados. Os administradores de ti também são responsáveis por recuperar licenças desses usuários, caso eles saiam da empresa.
+- **Implantar os complementos do office 365** -se você precisar de qualquer complemento para qualquer um dos aplicativos do Office 365 ProPlus, implante-os centralmente como qualquer outro aplicativo do Windows 32. 
+
+## <a name="apps-you-provide"></a>Aplicativos que você fornece
+
+Obviamente, você provavelmente tem vários outros aplicativos necessários para suas operações de negócios. Eles podem ser implantados somente em dispositivos de área de trabalho gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode fazer com que ele seja empacotado por um fornecedor (que pode ser um fornecedor que não seja da Microsoft ou o Microsoft Consulting Services (MCS)) ou, se você tiver os meios, você pode empacotá-los por conta própria. Você adiciona esses pacotes ao portal de área de trabalho gerenciada da Microsoft e os atribui aos grupos do Azure Active Directory para acionar a implantação. 
+
+Se você atualmente implanta seus aplicativos usando o System Center Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais deles podem exigir algum ajuste .
+
+
+### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Preparando seus próprios aplicativos para inclusão na área de trabalho gerenciada da Microsoft
+Revise seus aplicativos, verificação:
+
+- Nenhum dos aplicativos é proibido ou tem comportamento restrito, conforme descrito nos [requisitos do aplicativo da área de trabalho gerenciada da Microsoft](https://aka.ms/app-req).
+- Os aplicativos devem estar prontos para gerenciamento pelo Microsoft Intune. Para saber mais sobre isso, confira [implantação de aplicativo do Windows 10 usando o Microsoft Intune](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) e [adicione aplicativos ao Microsoft Intune](https://docs.microsoft.com/intune/apps-add).
+- Outros requisitos de pré-embalagem, como fornecer chaves de licença, contrato com os termos de licença e definições de configuração de servidor.
+
+### <a name="decide-how-to-package-apps"></a>Decidir como empacotar aplicativos
+
+Alguns fornecedores de software independentes podem exigir que seus aplicativos sejam empacotados antes de serem implantados centralmente. "Empacotar" significa que o instalador do aplicativo é configurado com configurações como chaves de licença, locais de servidor remoto ou atalhos de área de trabalho para que o aplicativo possa ser instalado em segundo plano.
+
+Há três opções para obter seus aplicativos empacotados: 
+
+
+- Você mesmo pode empacotar aplicativos
+- Você pode trabalhar com um fornecedor que não seja da Microsoft
+- Você pode entrar com a MCS para empacotar seus aplicativos. Trabalhe com seu representante de conta da Microsoft. Para obter mais detalhes, consulte [Working with Microsoft Consulting Services](apps-MCS.md).
+
+
+
+
+
+
+
+## <a name="deploying-apps"></a>Implantando aplicativos
+
+Seja qual for o método que você usa para obter aplicativos, uma vez concluído, você está pronto para seguir as etapas em [implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/deploy-apps.md).
+
+

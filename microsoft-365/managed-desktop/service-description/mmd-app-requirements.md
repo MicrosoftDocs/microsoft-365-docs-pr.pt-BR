@@ -3,16 +3,15 @@ title: Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 01/08/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 07e4719d87cb11910a90665ce9beb95edf6641a4
-ms.sourcegitcommit: e15cf5d0d8ff3dfdc457b469992d72ac802e6434
+ms.openlocfilehash: ded8bcfd87a6b430dfc4be055a582b482872b104
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467739"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913012"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -28,7 +27,7 @@ Para garantir o desempenho, a confiabilidade e a manutenção dos dispositivos d
 
 ## <a name="centrally-managed-apps"></a>Aplicativos gerenciados de forma centralizada
 
-Todos os aplicativos e drivers instalados em dispositivos gerenciados pela Microsoft devem ser implantados por meio do Intune, da Microsoft Store ou da Microsoft Store para empresas; Se estiver disponível, os drivers também serão implantados por meio do serviço Windows Update. 
+Todos os aplicativos e drivers instalados em dispositivos gerenciados pela Microsoft devem ser implantados por meio do Microsoft Intune, da Microsoft Store ou da Microsoft Store para empresas; Se estiver disponível, os drivers também serão implantados por meio do serviço Windows Update. 
 
 ## <a name="prohibited-app-classes"></a>Classes de aplicativo proibidas
 
