@@ -1,26 +1,38 @@
 ---
 title: Descrição do serviço de área de trabalho gerenciada da Microsoft
-description: Descrição do serviço de área de trabalho gerenciada da Microsoft inclui dispositivo como serviço e como serviço
+description: Descreve o que está incluído na área de trabalho gerenciada da Microsoft como um serviço
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 02/06/2019
-ms.openlocfilehash: abce237a7e9608d50c79f8676033a1362fd9931e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 59344a338e051b32225574c18609ffde09716c8c
+ms.sourcegitcommit: 83338be246ae104724d7f38af12fe7f6546fec27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283433"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933540"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço de área de trabalho gerenciada da Microsoft
-A área de trabalho gerenciada da Microsoft inclui estes serviços: 
 
-- [Dispositivos de programa](device-list.md)
-- [Serviços de dispositivos](device-services.md)
-- [Configuração do dispositivo](device-policies.md)
-- [Segurança](security.md)
-- [Atualizações](updates.md)
-- [Suporte](support.md)
-- [Operações e monitoramento](operations-and-monitoring.md)
-- [Requisitos do aplicativo](mmd-app-requirements.md)
+O Microsoft Managed desktop é um serviço que oferece aos usuários uma experiência moderna e sempre mantém os dispositivos atualizados com as versões mais recentes do Windows 10 Enterprise Edition, do Office 365 ProPlus e dos serviços de segurança da Microsoft, incluindo:
+
+- Configuração de dispositivos
+- Recursos para manter os usuários e dispositivos seguros, incluindo o Windows Hello, BitLocker, SecureBoot e a segurança baseada em virtualização de acordo com as práticas recomendadas da Microsoft
+- Serviços de monitoramento e correção de segurança de dispositivo
+- Compatibilidade de aplicativos, por meio do [aplicativo de área de trabalho garantir](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)
+- Gerenciamento de atualizações do Windows 10 e do Office 365 ProPlus apps
+- Dados analíticos sobre o uso de dispositivos e aplicativos
+- Suporte de ti para seus usuários finais
+- Suporte operacional para profissionais de ti
+
+Para obter detalhes sobre os serviços específicos incluídos na área de trabalho gerenciada da Microsoft, consulte os outros tópicos desta seção. Se você já decidiu que a área de trabalho gerenciada da Microsoft é para você, os tópicos em Prepare-se [para o registro no Microsoft Managed desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/) fornecem as etapas para se preparar para ingressar no serviço.
+
+- [Idiomas e linguagens do Microsoft Managed desktop suportados](regions-languages.md) explica quais regiões e idiomas são compatíveis com o serviço.
+- Para garantir a melhor experiência para os seus usuários finais, apenas determinados dispositivos são compatíveis com a área de trabalho gerenciada da Microsoft. [Dispositivos de programa](device-list.md) especifica os modelos de dispositivos e configurações exatos que você pode usar com o serviço, independentemente de fornecer ou trabalhar com um parceiro.
+- [Serviços de dispositivo](device-services.md) especifica os serviços relacionados a dispositivos que a Microsoft fornecerá aos assinantes.
+- A [configuração do dispositivo](device-policies.md) esclarece as políticas padrão de gerenciamento de dispositivos móveis relacionadas à segurança que o serviço aplicará aos dispositivos registrados.
+- [Security](security.md) especifica os dados coletados de dispositivos registrados, bem como os recursos e políticas relacionados à segurança do dispositivo, gerenciamento de identidade e acesso, segurança de rede e segurança de informações.
+- [As atualizações](updates.md) descrevem os vários grupos de atualização que o Microsoft Managed desktop usa para distribuir atualizações para seus dispositivos.
+- O [suporte](support.md) esclarece o suporte que a Microsoft fornece para sua organização e usuários finais.
+- [Operações e monitoramento](operations-and-monitoring.md) explica como o gerenciamento de alterações funciona com a área de trabalho gerenciada da Microsoft, incluindo procedimentos padrão para solicitar e preparar alterações na implantação.
+- [Application requirements](mmd-app-requirements.md) descreve os tipos de aplicativos e comportamentos permitidos no Microsoft Managed desktop e a divisão de funções e responsabilidades para implantação e gerenciamento de aplicativos.
