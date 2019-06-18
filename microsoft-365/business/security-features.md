@@ -1,9 +1,9 @@
 ---
-title: Recursos de segurança do Microsoft 365 Business
+title: Recursos de conformidade e segurança de negócios da Microsoft 365
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business.
-ms.openlocfilehash: adf1cf183022f3d2c19364b9f60868e285f78637
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: bd61ad3bf1b34635a7b80f1c9ccf63fa98d31915
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660501"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017513"
 ---
-# <a name="microsoft-365-business-security-features"></a>Recursos de segurança do Microsoft 365 Business
+# <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
 
 O Microsoft 365 Business oferece recursos simplificados de segurança para ajudar a proteger seus dados em PCs, telefones e tablets.
     
@@ -36,7 +36,6 @@ O Microsoft 365 Business oferece recursos simplificados de segurança para ajuda
 
 Você pode gerenciar muitos dos recursos de segurança de negócios do Microsoft 365 no centro de administração, que oferece uma maneira simplificada para ativar ou desativar esses recursos. No centro de administração, você pode fazer o seguinte:
   
-![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
 - [Definir configurações de gerenciamento de aplicativo para dispositivos Android ou Ios](app-protection-settings-for-android-and-ios.md) . 
     
@@ -68,8 +67,32 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
     
   - Análise de conexão sofisticada e análise com alimentação de AI para detectar e descartar mensagens perigosas.
     
-  - Verificações automáticas de links da Web em email para avaliar se eles fazem parte de um esquema de phishing. Isso impede você de acessar sites não seguros.
+  - Verificações automáticas de links no email para avaliar se eles fazem parte de um esquema de phishing. Isso impede você de acessar sites não seguros.
+
+- **[Os recursos completos do Intune no portal do Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
+    Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como o gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não estão disponíveis no Microsoft 365 centro de administração de negócios.
+- **Mesmo [acesso condicional](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) que o plano P1 do Azure AD**
+
+    O acesso condicional pode ajudar a proteger sua organização contra o risco de entrada, as tentativas de acesso de uma rede ou localidade inesperada, o acesso tenta formar tipos de dispositivo arriscados e assim por diante. As políticas de acesso condicional são aplicadas depois que a primeira autenticação é concluída e usa sinais do primeiro evento de autenticação para determinar se o acesso tentado deve ser aprovado, negar ou f mais prova (como o segundo formato de identificação) é Necessário.
+
+    Os recursos de acesso condicional incluídos são:
+
+    - Acesso com base no nome de usuário, grupo e função
+    - Acesso [baseado em um aplicativo](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
+    - [Acesso com base no local](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  Só permitir o acesso de intervalos de IP confiáveis ou países específicos 
+    - Exigir MFA para acesso
+    - Bloquear o acesso a aplicativos que usam [autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
+    - Exigir que os aplicativos usem a [proteção de aplicativo do Intune](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+    - Autenticação personalizada, como a MFA, com provedores de terceiros, por exemplo, DUO.
+   
+    Outros recursos
+    - [Redefinição de senha](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) de autoatendimento para o Azure ad híbrido
+    
+## <a name="compliance-features"></a>Recursos de conformidade
+
+Sua assinatura do Microsoft 365 Business inclui recursos que ajudam você a manter padrões de conformidade e regulamentações.
+
 - **[Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
     Você pode configurar o DLP para detectar automaticamente informações confidenciais, como números de cartão de crédito, números de seguridade social, etc. para impedir o compartilhamento inadvertido fora da empresa.
@@ -80,13 +103,9 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
     
 - **[Proteção de Informações do Azure](https://go.microsoft.com/fwlink/p/?linkid=871406)**
     
-    A proteção de informações ajuda você a controlar o acesso a informações confidenciais em emails e documentos com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. O Microsoft 365 Business inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais detalhes, consulte [Azure Information Protection Client admininstrator Guide](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide).
-    
-- **[Os recursos completos do Intune no portal do Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
-    
-    Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como o gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não estão disponíveis no Microsoft 365 centro de administração de negócios.
-    
-As seções a seguir descrevem como você pode gerenciar esses recursos no centro &amp; de conformidade de segurança e no centro de administração do Intune. Com o tempo, os controles simplificados serão adicionados ao centro de administração de negócios do Microsoft 365.
+    A proteção de informações ajuda você a controlar o acesso a informações confidenciais em emails e documentos com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. O Microsoft 365 Business inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais detalhes, consulte [Azure Information Protection Client Administrator Guide](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide).
+
+Você pode gerenciar esses recursos no centro de &amp; conformidade de segurança e no centro de administração do Intune. Com o tempo, os controles simplificados serão adicionados ao centro de administração de negócios do Microsoft 365.
   
     
 ## <a name="faq"></a>Perguntas frequentes
