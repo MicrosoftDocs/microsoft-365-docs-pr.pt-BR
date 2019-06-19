@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 86bdf37ca56c5779042ee78be091dd14ee63b80e
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 4b69047c2c595b899fd29593c9c02a3531ffbd53
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814542"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017493"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
-Estes laboratórios práticos para baixar se concentram na implantação do Windows 10 e do Office 365 e nas considerações relacionadas ao gerenciamento e configuração após a implantação. Este treinamento é altamente recomendável para organizações que estão se preparando para o fim da vida útil do Windows 7, mas também se aplica se estiver usando Windows 10, Office 365 Plus ou Office 2019. Há guias para Windows 10, Office 365 ProPlus, Enterprise Mobility + Security e produtos e serviços relacionados.
+Baixáveis e práticos, estes laboratórios se concentram na implantação do Windows 10 e do Office 365, juntamente com considerações de configuração e gerenciamento relacionadas após a implantação. Este treinamento é altamente recomendado para organizações que estão se preparando para o final da vida útil do Windows 7, mas também se aplica ao Windows 10 e Office 365 Plus ou Office 2019. Estão incluídos guias do Windows 10, Office 365 ProPlus, Enterprise Mobility + Security e produtos e serviços relacionados.
 
 Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda do Desktop Deployment, abrangendo o System Center Configuration Manager, o Windows Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
@@ -36,18 +36,17 @@ O kit de laboratório é gratuito para baixar e usa um software de avaliação.
 
 O laboratório fornece um ambiente de laboratório virtual provisionado automaticamente, incluindo clientes da área de trabalho ingressados no domínio, controlador de domínio, gateway de Internet e uma instância ConfigMgr totalmente configurada. O laboratório contém Versões de avaliação dos seguintes produtos:
 
-  - Windows 10 Enterprise, versão 1809
-  - Windows 7
-  - Office 365 ProPlus, versão 1901
-  - System Center Configuration Manager, versão 1802
-  - Kit de avaliação e implantação do Windows para o Windows 10, versão 1809
+  - Windows 10 Enterprise, versão 1903
+  - Windows 7 Enterprise
+  - System Center Configuration Manager, versão 1902
+  - Kit de Avaliação e Implantação do Windows para Windows 10, versão 1903
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V) 5.1
   - Monitoramento e administração do Microsoft BitLocker 2.5 SP1
-  - Windows Server 2016
-  - Microsoft SQL Server 2014
+  - Windows Server 2019
+  - Microsoft SQL Server 2017
 
-Além disso, o laboratório foi projetado para ser conectado aos testes do:
+Além disso, o laboratório foi projetado para ser conectado aos testes do: 
 
   - Microsoft 365 Enterprise E5
 
@@ -119,7 +118,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ### <a name="download-the-windows-and-office-deployment-lab-kithttpsakamsmddlabsevalcenter"></a>[**Baixe o Kit de laboratório de implantação do Office e do Windows**](https://aka.ms/mddlabs_evalcenter)
 
-*Use uma largura de banda ampla para baixar esse conteúdo para melhorar a experiência de download e aguarde de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer o mínimo de 150 GB de espaço livre em disco e 16 GB de memória disponível. Para obter um desempenho ideal, é recomendável ter 32 GB de memória disponíveis. O laboratório expira em 13 de maio de 2019. Uma nova versão será publicada antes da expiração.*
+*Para melhorar sua experiência de download, use uma ampla largura de banda para baixar este conteúdo e permita de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, é recomendável possuir 32 GB de memória disponível. O laboratório expira em 27 de agosto de 2019. Uma nova versão será publicada antes da expiração.*
 
 ## <a name="additional-guidance"></a>**Orientações adicionais**
 
