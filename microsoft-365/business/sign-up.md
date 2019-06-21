@@ -18,18 +18,24 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como comprar e inscrever-se no Microsoft 365 Business.
-ms.openlocfilehash: ecbf316f63e11ed07dc775f6659f650112cc8cb4
-ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
+ms.openlocfilehash: 0f92bf35d2a7898d530fd509d8d13c91f32ccab3
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017503"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114913"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Inscreva-se no Microsoft 365 Business
 
 Se você for um parceiro, consulte [Get microsoft 365 Business from Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-Vá para [descubra o microsoft 365 Business Advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) e escolha **comprar agora** em Microsoft 365 Business.
+Para comprar o Microsoft 365 Business Online, vá para [descobrir microsoft 365 Business Advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) e escolha **comprar agora** em Microsoft 365 Business.
+
+Você também pode fazer o acompanhamento para uma [loja da Microsoft](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) para comprar o Microsoft 365 Business e obter a ajuda de configuração.
+
+## <a name="complete-the-sign-up-steps"></a>Concluir as etapas de inscrição
+
+Após adquirir o Microsoft 365 Business, complete as etapas a seguir.
 
 1. Na **tela de boas-vindas, vamos conhecer** a página para inserir as informações necessárias. Observe que:
  
@@ -43,7 +49,7 @@ Vá para [descubra o microsoft 365 Business Advantage](https://www.microsoft.com
     - **Sua empresa**: Insira seu nome de negócios exclusivo. Este é o nome que seu site comercial usa se você tiver um, e também é o nome que você deseja incluir após o sinal @ quando você receber um email comercial. Esse nome é chamado de domínio. Por exemplo, se sua empresa for chamada contoso skis, insira ContosoSkis após o sinal @.
     - **Selecionar um domínio**: se você for o proprietário do seu nome de domínio, selecione. onmicrosoft.com no menu suspenso e solicitaremos que você o configure mais tarde. Caso contrário, será fácil comprar um nome de domínio que represente sua empresa. Para fazer isso, selecione o domínio que você preferir no menu suspenso. Por exemplo, seu endereço de email completo pode ser *Teresa@ContosoSkis.net*. Vamos informar imediatamente se o nome de domínio estiver disponível. Se for, adicionaremos o custo do seu domínio ao custo de sua assinatura do Microsoft 365 Business. O novo domínio também será configurado e pronto para uso no Microsoft 365 se você comprá-lo aqui. Para saber mais sobre domínios, confira [perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq).
     
-    ![Captura de tela da página criar sua ID de usuário.](media/signinuserid.png)
+        ![Captura de tela da página criar sua ID de usuário.](media/signinuserid.png)
 
 3. Preencha o restante dos campos e selecione **criar minha conta**.
 4. No comprovante **. você é. Não. A.** página Insira um número de telefone para receber um código por meio de texto ou uma chamada e selecione o **texto comigo** ou **ligue para mim**e, \> em seguida, insira o código de verificação a **seguir**.
