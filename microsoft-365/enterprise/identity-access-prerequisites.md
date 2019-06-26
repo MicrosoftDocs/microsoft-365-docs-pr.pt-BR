@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2bb13d2af70b90f8c98a4bb902156f840e7f57f1
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8ac644ccd7772d8e4c53395c8a42ff6ddbd683a6
+ms.sourcegitcommit: a6878de8ab977b675a45fc847ff46a9c0365dc56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289002"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35231854"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -30,7 +30,7 @@ Este artigo descreve os pré-requisitos que precisam ser implementados antes que
 Antes de implementar as políticas recomendadas de identidade e acesso de dispositivos, há vários pré-requisitos que sua organização deve atender. A tabela a seguir detalha os pré-requisitos que se aplicam ao seu ambiente. 
 
 
-| Configuração | Somente na nuvem | Active Directory com sincronização de hash de senha |  Autenticação passagem |  Federação com AD FS |
+| Configuração | Somente na nuvem | Active Directory com sincronização de hash de senha |  Autenticação de passagem |  Federação com AD FS |
 | :------------- | :-----------: | :--------------: | :------------: | :------------: |
 |  [Configure a sincronização de hash de senha](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization). Isso deve ser habilitado para detectar credenciais vazadas e agir em busca de acesso condicional com base em risco. **Observação:** Isso é necessário independentemente de sua organização usar a autenticação gerenciada, como a autenticação de passagem (PTA) ou a autenticação federada. |    | Sim | Sim | Sim |
 | [Habilitar o logon único contínuo](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) para assinar automaticamente os usuários quando eles estiverem em seus dispositivos corporativos conectados à sua rede corporativa. |  | Sim | Sim |  |
@@ -98,7 +98,7 @@ Para obter mais informações sobre o suporte ao cliente do Office 365, consulte
 - [Suporte ao aplicativo cliente do Office 365-autenticação moderna](https://docs.microsoft.com/en-us/office365/enterprise/office-365-client-support-modern-authentication)
 
 ## <a name="protecting-administrator-accounts"></a>Protegendo contas de administrador
-O Azure AD oferece uma maneira simples de começar a proteger o acesso de administrador com uma política de acesso condicional pré-configurada. No Azure AD, acesse **acesso condicional** e procure esta política – **política de linha de base: exigir MFA para administradores**. Selecione esta política e selecione **usar política imediatamente**. 
+O Azure AD oferece uma maneira simples de começar a proteger o acesso de administrador com uma política de acesso condicional pré-configurada. No Azure AD, acesse **acesso condicional** e procure esta política – **política de linha de base: exigir MFA para administradores (visualização)**. Selecione esta política e selecione **usar política imediatamente**. 
 
 Esta política requer MFA para as seguintes funções:
 - Administradores globais
@@ -110,7 +110,7 @@ Esta política requer MFA para as seguintes funções:
 Para obter mais informações, consulte [Baseline Security Policy for Azure ad admin](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/22/baseline-security-policy-for-azure-ad-admin-accounts-in-public-preview/)accounts.
 
 As recomendações adicionais incluem o seguinte:
-- Use o Azure AD Privileged Identity Management para reduzir o número de contas administrativas persistentes. ConFira [começar a usar o PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started). 
+- Use o Azure AD Privileged Identity Management para reduzir o número de contas administrativas persistentes. Confira [começar a usar o PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started). 
 - [Use o gerenciamento de acesso privilegiado no Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/privileged-access-management-overview) para proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à posição para dados confidenciais ou acesso a definições de configuração crítica. 
 - Use as contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso não administrativo regular e só usar a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. As funções de [administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) têm muito mais privilégios do que os serviços do Office 365.
 - Siga as práticas recomendadas para proteger contas privilegiadas no Azure AD, conforme descrito neste [artigo](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices).
