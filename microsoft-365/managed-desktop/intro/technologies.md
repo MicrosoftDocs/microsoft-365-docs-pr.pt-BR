@@ -7,12 +7,12 @@ author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 843a8cd066bbaf87a8b2b7cc74d8817207e47153
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 9c0e6481d0dc80e7cf03de2b748935c2f59f132a
+ms.sourcegitcommit: e54ec86310a18101f4688890cd5a9fc16bbe6f55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283463"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "35257814"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de área de trabalho gerenciada da Microsoft
 
@@ -28,7 +28,7 @@ Estes são os componentes incluídos nas licenças corporativas necessárias e c
 ## <a name="office-365-e3"></a>Office 365 E3
  |
  --- | ---
-Pacote standard do Office 365 (64 bits) * | O pacote de aplicativos do Office padrão será enviado com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>Os 64 bits Click para executar (C2R) versões completas do Microsoft Project e Microsoft Visio não estão incluídos no pacote standard do Office 365.  No enTanto, como a instalação desses aplicativos depende da instalação padrão do pacote do Office, a área de trabalho gerenciada da Microsoft criou os grupos de segurança e implantações do Intune padrão que o cliente usará para implantar esses aplicativos em usuários finais licenciados.  
+Pacote standard do Office 365 (64 bits) * | O pacote de aplicativos do Office padrão será enviado com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>Os 64 bits Click para executar (C2R) versões completas do Microsoft Project e Microsoft Visio não estão incluídos no pacote standard do Office 365.  No entanto, como a instalação desses aplicativos depende da instalação padrão do pacote do Office, a área de trabalho gerenciada da Microsoft criou os grupos de segurança e implantações do Intune padrão que o cliente usará para implantar esses aplicativos em usuários finais licenciados.  
 Armazenar aplicativos |    O Microsoft Sway, o Desktop Power BI não é fornecido com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
 Aplicativos Win32 |    O Power BI pro, o cliente do Azure Information Protection e o Microsoft Planner não são fornecidos com o dispositivo e podem ser empacotados para implantação pelo cliente. 
 Aplicativos Web |  Yammer, Office Online, Delve, Flow, StaffHub, PowerApps não são entregues com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
@@ -39,8 +39,6 @@ Cloud PBX do Skype for Business Online | Este recurso está disponível por meio
  |
  --- | ---
 Credential Guard |  A Microsoft fornecerá orientações e gerenciará os aspectos de nuvem desse recurso.
-Device Guard (controle de aplicativo do Windows Defender) | A área de trabalho gerenciada da Microsoft criará a política. <br><br>O cliente gerenciará as assinaturas.
-Gerenciamento do AppLocker |  A Microsoft criará a política. <br><br>O cliente gerenciará as assinaturas.
 Virtualização de aplicativos (App-V) |    A área de trabalho gerenciada da Microsoft não oferece suporte a esse tipo de implantação, pois ela não é suportada no Intune.
 User Experience Virtualization (UE-V) | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop.
 Experiência do usuário gerenciado  | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop. O MDM é usado como uma solução para o gerenciamento de dispositivos.
