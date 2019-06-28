@@ -4,6 +4,7 @@
 ### [Tecnologias na área de trabalho gerenciada da Microsoft](intro/technologies.md)
 ## [Descrição do serviço de área de trabalho gerenciada da Microsoft](service-description/index.md)
 ### [Regiões e idiomas suportados](service-description/regions-languages.md)
+### [Ciclo de vida do produto](service-description/device-lifecycle.md)
 ### [Dispositivos de programa](service-description/device-list.md)
 #### [Dispositivos de programa arquivados](service-description/archived-device-list.md)
 ### [Serviços de dispositivos](service-description/device-services.md)
