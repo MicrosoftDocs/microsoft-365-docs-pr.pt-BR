@@ -3,16 +3,16 @@ title: Configuração de rede para a área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4cfaffe25638de80d23c3e681e50cbb544ca961
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 333fb51fe9d7df7c5ec47c2e7a812cd489c36d23
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289096"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390488"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
@@ -39,10 +39,10 @@ Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada p
 
 Serviço Microsoft  | URLs necessárias na lista de permissões 
 --- | --- | ---
-Área de trabalho gerenciada da Microsoft | prod-mwaas-Services-customerapi.azurewebsites.net
-Obter ajuda | \*. support.Services.Microsoft.com  <br>inprod.support.Services.Microsoft.com  <br>supportchannels.Services.Microsoft.com  <br>Graph.Windows.net  <br>login.Windows.net  <br>prod-mwaas-Services-customerapi.azurewebsites.net
-Assistência rápida | RemoteAssistance.support.Services.Microsoft.com <br>Relay.support.Services.Microsoft.com <br>channelwebsdks.azureedge.net  <br>Web.vortex.Data.Microsoft.com  <br>Gateway.ChannelServices.Microsoft.com <br>\*. Lync.com
-Assistente de recuperação e suporte da Microsoft para o Office 365 | \*. apibasic.Diagnostics.Office.com  <br>\*. API.Diagnostics.Office.com
+Área de trabalho gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
+Obter ajuda | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+Assistência rápida | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
+Assistente de recuperação e suporte da Microsoft para o Office 365 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed---other-microsoft-products"></a>Pontos de extremidade permitidos-outros produtos da Microsoft

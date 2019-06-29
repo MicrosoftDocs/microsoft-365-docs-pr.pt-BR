@@ -3,16 +3,16 @@ title: Trabalhando com a área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 06/06/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 23d9b5fe38eac94d12a3dc293acaeda5e3e22f88
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1ec402077eb20cfa39192e099de2d35e4e79399e
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278274"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390368"
 ---
 # <a name="working-with-microsoft-managed-desktop"></a>Trabalhando com a área de trabalho gerenciada da Microsoft
 

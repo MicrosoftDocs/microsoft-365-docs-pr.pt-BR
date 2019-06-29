@@ -3,16 +3,16 @@ title: 'Administradores: ajudar os usuários a começar a usar o dispositivo de 
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, dispositivo, introdução, Microsoft 365
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/27/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 92bec0956f24d255f36ed233b531a4d4e396cadb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d1c70275938c8448b5eca07ed374157147856a30
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276832"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390348"
 ---
 # <a name="get-started-using-microsoft-managed-desktop-devices"></a>Introdução ao uso de dispositivos de área de trabalho gerenciada da Microsoft
 

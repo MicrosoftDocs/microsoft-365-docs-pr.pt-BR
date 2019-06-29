@@ -3,16 +3,16 @@ title: Implantar configurações configuráveis na área de trabalho gerenciada 
 description: Implantar e acompanhar alterações de configurações configuráveis na área de trabalho gerenciada da Microsoft.
 keywords: Microsoft Managed desktop, Microsoft 365, serviço, documentação, implantação, implantação em estágios, configurações configuráveis
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/17/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4662373b926d07558ecedd05c9dfcf472ceb6357
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bfa769cab9f8d812fa2533232f66b0d4f8a4edb7
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278406"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390508"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -27,7 +27,7 @@ Status  | Explicação
 Implantar | Sua alteração está aguardando para ser implantada nesse grupo.
 Em andamento | A alteração está sendo aplicada aos dispositivos ativos desse grupo. 
 Completo | A alteração foi concluída em todos os dispositivos ativos desse grupo. 
-Falhou | A alteração falhou em 10 por cento de dispositivos ativos no grupo, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
+Failed | A alteração falhou em 10 por cento de dispositivos ativos no grupo, portanto, a implantação foi interrompida.<br><br> Uma solicitação de suporte será aberta automaticamente com as operações de área de trabalho gerenciada da Microsoft para solucionar problemas de implantação. 
 Revertidos | A alteração foi revertida para a última alteração implantada com êxito em todos os grupos de implantação.
 
 ## <a name="deploy-changes"></a>Implantar alterações
@@ -36,7 +36,7 @@ Mostraremos a imagem de plano de fundo da área de trabalho nessas instruções.
 
 **Para implantar alterações**
 
-1. Entrar no [portal de administração de área de trabalho gerenciaDa da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja implantar e, em seguida, selecione a implantação em estágios a ser implantada.
 4. Selecione **implantar** para implantar a alteração em um dos grupos de implantação.
@@ -56,7 +56,7 @@ Depois de implantar uma alteração, você pode reverter do **status de implanta
 Mostraremos as etapas para reverter uma alteração usando a imagem de plano de fundo da área de trabalho como um exemplo. 
 
 **Para reverter uma alteração**
-1. Entrar no [portal de administração de área de trabalho gerenciaDa da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja reverter e selecione a implantação em estágios a ser revertida.
 4. Em **precisa reverter essa alteração**, selecione **reverter implantação**.
