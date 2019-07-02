@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 9912b05c07599c5ad0c0ed7fec91ae2572bd2ead
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 322da1ccfbd0cf8b5070894580b06fb5b0283f40
+ms.sourcegitcommit: 1d5fc181036b673c4f0b9e161e19395dbfe5a304
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289305"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411645"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -36,7 +36,7 @@ O restante deste artigo descreve como configurar essas políticas.
 
 É recomendável usar a autenticação multifator antes de registrar dispositivos no Intune para garantir que o dispositivo esteja na posse do usuário desejado. Você também deve inscrever dispositivos no Intune antes de impor políticas de conformidade do dispositivo.
 
-Para dar tempo para realizar essas tarefas, recomendamos implementar as políticas de linha de base na ordem listada nesta tabela. No enTanto, as políticas da MFA de proteção confidencial e altamente regulamentada podem ser implementadas a qualquer momento.
+Para dar tempo para realizar essas tarefas, recomendamos implementar as políticas de linha de base na ordem listada nesta tabela. No entanto, as políticas da MFA de proteção confidencial e altamente regulamentada podem ser implementadas a qualquer momento.
 
 
 |Nível de Proteção|Políticas|Mais informações|
@@ -50,7 +50,7 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |        |[Exigir computadores compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento de computadores do Intune|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para PCs e telefones/tablets|
-|**Altamente regulamentado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
+|**Altamente controlado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
 | | |
 
 ## <a name="assigning-policies-to-users"></a>Atribuindo políticas aos usuários
@@ -100,11 +100,11 @@ Para criar uma nova política de acesso condicional:
 
 Aplique as configurações com base no nível de proteção que você está direcionando.
 
-|Propriedade	|Nível de proteção|Valores|Anotações|
+|Propriedade|Nível de proteção|Valores|Anotações|
 |:---|:---------|:-----|:----|
 |Nível de risco|Linha de base|Alto, médio|Marque ambos|
 | |Confidencial|Alta, média, baixa|Marque todos os três|
-| |Altamente controlada| |Deixar todas as opções desmarcadas para sempre impor a MFA|
+| |Altamente controlado| |Deixar todas as opções desmarcadas para sempre impor a MFA|
 
 **Controles de acesso**
 
@@ -112,8 +112,8 @@ Aplique as configurações com base no nível de proteção que você está dire
 |:---|:---------|:-----|:----|
 |Conceder|Conceder acesso|True|Selecionado|
 ||Exigir MFA|verdadeiro|Verificar|
-||Exigir que o dispositivo seja marcado como em conformidade|False||
-||Exigir dispositivo híbrido associado ao AD do Azure|False||
+||Exigir que o dispositivo seja marcado como em conformidade|Falso||
+||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
 ||Exigir aplicativo cliente aprovado|Falso||
 ||Exigir todos os controles selecionados|verdadeiro|Selecionado|
 
@@ -148,9 +148,9 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
 |Conceder|Bloquear acesso|True|Selecionado|
-||Exigir MFA|False||
-||Exigir que o dispositivo seja marcado como em conformidade|False||
-||Exigir dispositivo híbrido associado ao AD do Azure|False||
+||Exigir MFA|Falso||
+||Exigir que o dispositivo seja marcado como em conformidade|Falso||
+||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
 ||Exigir aplicativo cliente aprovado|Falso||
 ||Exigir todos os controles selecionados|verdadeiro|Selecionado|
 
@@ -176,8 +176,8 @@ Faça logon no [Portal do Microsoft Azure (http://portal.azure.com)](http://port
 
 | Tipo | Propriedades | Valores                  | Anotações |
 |:-----|:-----------|:------------------------|:------|
-|      | Acesso     | Permitir acesso            | True  |
-|      | Acesso     | Requer a alteração de senha | verdadeiro  |
+|      | Access     | Permitir acesso            | True  |
+|      | Access     | Requer a alteração de senha | verdadeiro  |
 
 **Revisão:** não aplicável
 
@@ -192,7 +192,7 @@ Criar uma política para cada plataforma:
 - Android
 - Windows 10
 
-Para criar uma nova política de proteção de aplicativos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **aplicativos móveis > políticas de proteção de aplicativos**. Escolha **Adicionar uma política**.
+Para criar uma nova política de proteção de aplicativos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **aplicativos móveis > políticas de proteção de aplicativo**. Escolha **Adicionar uma política**.
 
 Há pequenas diferenças nas opções de política de proteção de aplicativo entre o iOS e o Android. A política abaixo é especificamente para Android. Use este como um guia para suas outras políticas.
 
@@ -219,7 +219,7 @@ As tabelas a seguir descrevem as configurações recomendadas:
 ||Restringir recortar, copiar e colar com outros aplicativos|Aplicativos gerenciados por política com colar no||
 ||Restringir a exibição de conteúdo da Web no Managed Browser|Não||
 ||Criptografar dados do aplicativo|Sim|No iOS, selecione a opção: Quando o dispositivo está bloqueado|
-||Desabilitar a criptografia de aplicativos quando o dispositivo estiver habilitado|Sim|DesAbilite essa configuração para evitar a criptografia dupla|
+||Desabilitar a criptografia de aplicativos quando o dispositivo estiver habilitado|Sim|Desabilite essa configuração para evitar a criptografia dupla|
 ||Desabilitar a sincronização de contatos|Não||
 ||Desabilitar a impressão|Não||
 |Acessar|Solicitar PIN para acesso|Sim||
@@ -234,7 +234,7 @@ As tabelas a seguir descrevem as configurações recomendadas:
 |Requisitos de segurança de entrada|Máximo de tentativas de PIN|0,5|Redefinir PIN|
 ||Período de cortesia offline|720|Bloquear acesso|
 ||Intervalo offline (dias) antes do apagamento dos dados do aplicativo|90|Limpar dados|
-||Dispositivos desBloqueados/com raiz| |Limpar dados|
+||Dispositivos desbloqueados/com raiz| |Limpar dados|
 
 Ao concluir, lembre-se de selecionar "criar". Repita as etapas acima e substitua a plataforma selecionada (menu suspenso) por iOS. Isso cria duas políticas de aplicativo, portanto, após criar a política, atribua grupos à política e implante-a.
 
@@ -257,11 +257,15 @@ Para exigir aplicativos aprovados:
 
 7. Escolha **selecionar aplicativos**, selecione os aplicativos desejados na lista **aplicativos de nuvem** . Por exemplo, selecione Office 365 Exchange Online. Escolha **selecionar** e **concluir**.
 
-8. Escolha **Conceder** na seção **Controles de acesso**.
+8. Escolha **condições**, selecione **plataformas de dispositivos**e, em seguida, escolha **Configurar**
 
-9. Escolha **conceder acesso**, selecione **exigir aplicativo cliente aprovado**. Para vários controles, selecione **exigir os controles selecionados**e, em seguida, escolha **selecionar**. 
+9. Em **incluir**, escolha **Selecionar plataformas de dispositivo**, selecione **Android** e **Ios**. Clique em **concluído** e **concluído** novamente
 
-10. Escolha **Criar**.
+10. Escolha **Conceder** na seção **Controles de acesso**.
+
+11. Escolha **conceder acesso**, selecione **exigir aplicativo cliente aprovado**. Para vários controles, selecione **exigir os controles selecionados**e, em seguida, escolha **selecionar**. 
+
+12. Escolha **Criar**.
 
 ## <a name="define-device-compliance-policies"></a>Definir políticas de conformidade de dispositivos
 
@@ -276,7 +280,7 @@ Criar uma política para cada plataforma:
 - Windows 8,1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até **conformidade de dispositivo do Intune >**. Selecione **criar política**.
+Para criar políticas de conformidade de dispositivos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até o **Intune > o dispositivo de conformidade**. Selecione **criar política**.
 
 As configurações a seguir são recomendadas para o Windows 10.
 
@@ -301,7 +305,7 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
+|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
 ||Tamanho mínimo da senha|6||
