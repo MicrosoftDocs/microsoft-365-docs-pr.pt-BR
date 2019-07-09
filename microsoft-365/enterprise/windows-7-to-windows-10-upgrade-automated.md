@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 4e07ae23f063bdc714d5dddd8cdb8d8c41e25eac
-ms.sourcegitcommit: 12c4d5444d6e0e8825fc85e3e8453fa376746495
+ms.openlocfilehash: 6fc22ad7ae8b0a34384818bc77813c6802609b89
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395220"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584507"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
 A partir de 14 de janeiro de 2020, atualizações de segurança ou suporte para PCs com Windows 7 não serão mais fornecidos. Com apenas alguns meses restantes para a mudança do Windows 7 para o Windows 10 e com várias opções para implantar, uma pergunta comum na Comunidade de TI é: "Qual é a maneira mais rápida de se mover do Windows 7 para o Windows 10?" A resposta curta é executar atualizações in-loco para computadores existentes e fazendo isso você pode reduzir o foco em vários aspectos do processo de implantação da área de trabalho.
 
-![](media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png)
+<center><img src="media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
 Usando as atualizações in-loco, vários processos de implantação de área de trabalho são reduzidos drasticamente no escopo, especialmente:
 
