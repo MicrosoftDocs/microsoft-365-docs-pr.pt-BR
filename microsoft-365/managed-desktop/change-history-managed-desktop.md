@@ -8,16 +8,21 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 65602cb3175f8a930537746d831bb85f26de0383
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 4915bf5d1b89720c65a5134b23d9d837febff357
+ms.sourcegitcommit: 184957e2878388e0d427a7ee47577d29c4e3c483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390358"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35605960"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml).
+
+## <a name="july-2019"></a>Julho de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
 
 ## <a name="june-2019"></a>Junho de 2019
 Tópico novo ou alterado | Descrição
