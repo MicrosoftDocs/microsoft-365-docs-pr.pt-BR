@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: b9264f8d9232bf1b88372694d43e2d2c70c8cb70
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 60389149e286bca8e27f50dabee8aaf03f52c90c
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814652"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584517"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
@@ -86,7 +86,7 @@ Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Cl
 
 Antes de começar, você deve criar um plano de alto nível e integrar os patrocinadores necessários. Nossa roda do processo de implantação descreve passos críticos para ajudá-lo a identificar os principais membros da equipe e recursos para gerenciar as seguintes áreas de implantação.
 
-**[Etapa 1: Preparação do Dispositivo e Aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você deve saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade. Para ajudar nisso, você pode aproveitar as ferramentas disponíveis em nosso serviço baseado em nuvem, Windows Analytics. O Windows Analytics permite que você aproveite a inteligência de compatibilidade e os dados de diagnóstico obtidos em milhões de computadores para avaliar os aplicativos e drivers em seu dispositivo para que você possa estabelecer a preparação do estado de seu computador. Você pode até exportar uma lista de “Computadores prontos para implantação” do Windows Analytics para o System Center Configuration Manager se você usá-lo, permitindo que você crie coleções orientadas por dados de computadores direcionados conforme eles ficam prontos.
+**[Etapa 1: Preparação do Dispositivo e Aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você deve saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade. Para ajudar nisso, você pode aproveitar as ferramentas disponíveis em nosso serviço baseado em nuvem, o Desktop Analytics. O desktop Analytics permite que você aproveite a inteligência de compatibilidade e os dados de diagnóstico obtidos de milhões de computadores para avaliar os aplicativos e os drivers em execução no seu dispositivo, para que você possa estabelecer a prontidão da área de trabalho. Você pode até exportar uma lista de “Computadores prontos para implantação” do Desktop Analytics para o System Center Configuration Manager se você usá-lo, permitindo que você crie coleções orientadas por dados de computadores direcionados conforme eles ficam prontos.
 
 
   [Introdução ao Upgrade Readiness](https://docs.microsoft.com/pt-BR/windows/deployment/upgrade/upgrade-readiness-get-started)

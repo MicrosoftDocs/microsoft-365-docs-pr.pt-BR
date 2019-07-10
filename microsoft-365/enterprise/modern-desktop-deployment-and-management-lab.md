@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: c056aba81edc079f0577dea8d4ef535d7e6cc32a
-ms.sourcegitcommit: a84cf473bc61a7bb1cfca221cf435e0a418305b2
+ms.openlocfilehash: ba1cd7e88766b6393bafcbd7381ceeb98f030d51
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "35576501"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584526"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
 Baixáveis e práticos, estes laboratórios se concentram na implantação do Windows 10 e do Office 365, juntamente com considerações de configuração e gerenciamento relacionadas após a implantação. Este treinamento é altamente recomendado para organizações que estão se preparando para o final da vida útil do Windows 7, mas também se aplica ao Windows 10 e Office 365 Plus ou Office 2019. Estão incluídos guias do Windows 10, Office 365 ProPlus, Enterprise Mobility + Security e produtos e serviços relacionados.
 
-Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda do Desktop Deployment, abrangendo o System Center Configuration Manager, o Windows Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda de Implementação do Desktop, abrangendo o System Center Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
 Como parte do processo de [Implantação de Desktop](http://www.aka.ms/howtoshift) do Windows 10 e do Office 365 ProPlus, a criação de um ambiente de laboratório isolado ou em área restrita é o ponto de partida recomendado quando você começa a explorar as atualizações da ferramenta de implantação e a testar sua automação relacionada à implantação.
 
@@ -60,7 +60,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ### <a name="device-and-app-readiness"></a>**Preparação de dispositivos e aplicativos**
 
-  - Windows Analytics
+  - Desktop Analytics
   - O modo Empresarial e a lista de sites do modo Empresarial para o Internet Explorer
 
 ### <a name="directory-and-network-readiness"></a>**Preparação de rede e diretório**

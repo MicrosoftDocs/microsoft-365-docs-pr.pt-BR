@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: d9ab05c9ff7d0b926f147ee4f924d95f01ccffd1
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 8070d08ade5d4b29327ab88bdc36e5f2182c0016
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814612"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584567"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -80,7 +80,7 @@ Uma maneira de limitar o impacto do tráfego relacionado a documentos na rede é
 
   [Sobre o BITS](https://docs.microsoft.com/pt-BR/windows/desktop/bits/about-bits)
 
-Se usar o System Center Configuration Manager, também poderá configurar os pontos de distribuição prontos para BITS ou habilitar o multicast com WDS.
+Se usar o System Center Configuration Manager (Branch Atual), também poderá configurar os Pontos de Distribuição prontos para BITS ou habilitar o multicast com WDS.
 
 A limitação de tráfego específico significa que o tráfego de rede normal será menos afetado pelos PCs baixando atualizações e aplicativos. Mas separar um determinado percentual de largura de banda para essas tarefas ajuda que a produtividade não seja afetada pela implantação do Windows ou do Office, e o processo continua em execução conforme necessário. Isso pode piorar o tempo de inatividade relacionado à implantação, impedindo o acesso de usuários aos PCs durante a execução da implantação.
 
@@ -90,7 +90,7 @@ Felizmente, há novas ferramentas para facilitar o gerenciamento do efeito na re
 
 ## <a name="scavenging-bandwidth"></a>**Busca de largura de banda**
 
-O LEDBAT (Low Extra Delay Background Transport, baixo atraso extra de transporte em plano de fundo), com suporte no Windows Server 2019 e no System Center Configuration Manager versão 1806, foi projetado para otimizar o tráfego de rede para os clientes do Windows.
+O Transporte em Segundo Plano com Latência Otimizada (LEDBAT), com suporte no Windows Server 2019 e no System Center Configuration Manager (Branch Atual), foi projetado para otimizar o tráfego de rede para os clientes do Windows.
 
 [10 principais recursos de rede no Windows Server 2019: \#9 LEDBAT – Transporte em segundo plano com latência otimizada](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
 
@@ -110,7 +110,7 @@ Observação: BranchCache e cache de mesmo nível são complementares e podem fu
 
 [BranchCache versus Cache Par](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Essa otimização está disponível desde as versões anteriores do Windows 10, mas ela foi recentemente integrada ao System Center Configuration Manager. Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
+**Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Ela está disponível desde as versões anteriores do Windows 10, mas foi recentemente integrada ao System Center Configuration Manager (Branch Atual). Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 

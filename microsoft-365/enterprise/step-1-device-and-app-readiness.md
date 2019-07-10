@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: f45b4c4b38cd2108c706eb6465e9b5ba241e252f
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: eb619cf807c2bd4ad3644dbb26e72b62e30320c7
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814632"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584547"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
@@ -41,7 +41,7 @@ No passado, um grande desafio para a atualização de computadores dos usuários
 
 Dito isto, dependendo do tamanho e da idade da sua organização, verificar a compatibilidade entre aplicativos e hardware provavelmente ainda é uma etapa inicial essencial no nosso processo de implantação recomendado de fase de 8.
 
-Neste artigo, fornecemos orientações sobre esta primeira fase – Preparação de Dispositivos e Aplicativos – usando a nova ferramenta Windows Analytics Upgrade Readiness, uma solução inteligente baseada na nuvem disponível com sua licença do Windows.
+Neste artigo, fornecemos orientações sobre esta primeira fase – Preparação de Dispositivos e Aplicativos – usando a nova ferramenta Desktop Analytics Upgrade Readiness, uma solução inteligente baseada na nuvem disponível com sua licença do Windows.
 
 ## <a name="windows-10-compatibility-scan"></a>Verificação de compatibilidade do Windows 10
 
@@ -53,13 +53,13 @@ Uma amostra da linha de comando ScanOnly que silenciosamente conclui a verifica�
 
 Para saber mais sobre o ScanOnly e outras chaves de comando de configuração do Windows, verifique as [Opções de Linha de Comando de Instalação do Windows](https://aka.ms/setupswitches).
 
-## <a name="recommended-tool-windows-analytics-upgrade-readiness"></a>Ferramenta recomendada: Windows Analytics Upgrade Readiness
+## <a name="recommended-tool-desktop-analytics-upgrade-readiness"></a>Ferramenta Recomendada: Desktop Analytics Upgrade Readiness
 
-O Windows Analytics Upgrade Readiness oferece muitas vantagens em relação aos sistemas de gerenciamento de desktop tradicionais e é a nossa ferramenta recomendada. Funciona sem agentes e fornece orientações sobre o que precisa ser feito, usando as informações de compatibilidade coletadas por meio da atualização de centenas de milhões de computadores dos clientes. Essas informações fornecem uma avaliação detalhada, identificando problemas de compatibilidade que podem bloquear sua atualização, suportadas com links para correções sugeridas e conhecidas pela Microsoft.
+O Desktop Analytics Upgrade Readiness oferece muitas vantagens em relação aos sistemas de gerenciamento de desktop tradicionais e é a nossa ferramenta recomendada. Funciona sem agentes e fornece orientações sobre o que precisa ser feito, usando as informações de compatibilidade coletadas por meio da atualização de centenas de milhões de computadores dos clientes. Essas informações fornecem uma avaliação detalhada, identificando problemas de compatibilidade que podem bloquear sua atualização, suportadas com links para correções sugeridas e conhecidas pela Microsoft.
 
-Para configurar o Windows Analytics Upgrade Readiness, primeiro você precisa configurar uma assinatura do Azure e incluir um espaço de trabalho do Azure Log Analytics nele. Uma vez que o serviço Windows Analytics Upgrade Readiness esteja em execução, será possível inscrever qualquer dispositivo Windows 7 SP1 conectado à Internet ou um dispositivo mais novo por meio das configurações de política de grupo. Não há agentes para implantar e o fluxo de trabalho visual do Windows Analytics Upgrade Readiness guia da implantação piloto para a produção. Se desejar, é possível exportar dados do Windows Analytics Upgrade Readiness para as ferramentas de implantação de software, como o System Center Configuration Manager, para direcionar os computadores diretamente e criar coleções à medida que se tornarem prontos para implantação.
+Para configurar o Windows Analytics Upgrade Readiness, primeiro você precisa configurar uma assinatura do Azure e incluir um espaço de trabalho do Azure Log Analytics nele. Uma vez que o serviço Desktop Analytics Upgrade Readiness esteja em execução, será possível inscrever qualquer dispositivo Windows 7 SP1 conectado à Internet ou um dispositivo mais novo por meio das configurações de política de grupo - é simples. Não há agentes para implantar e o fluxo de trabalho visual do Desktop Analytics Upgrade Readiness o guiará da implantação piloto até a produção. Se desejar, é possível exportar dados do Desktop Analytics Upgrade Readiness para as ferramentas de implantação de software, como o System Center Configuration Manager (Branch Atual), para direcionar os computadores diretamente e criar coleções à medida que estiverem prontas para implantação.
 
-Se você atualmente não tem o Windows Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a [Página do Windows Analytics](http://www.aka.ms/windowsanalytics) e comece a usar.
+Se você atualmente não tem o Desktop Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a Página do Desktop Analytics](http://www.aka.ms/desktopanalytics) e comece a usar.
 
 ## <a name="device-and-app-readiness-process"></a>Processo de Preparação de Dispositivos e Aplicativos
 
@@ -67,7 +67,7 @@ A Preparação de Dispositivo e aplicativos é composta de quatro etapas: 1. Inv
 
 ### <a name="1-inventory"></a>1\. Inventariar
 
-O serviço do Windows Analytics Upgrade Readiness usa um processo sem agentes para inventariar os computadores, aplicativos e suplementos do Office em todo o seu desktop.
+O serviço do Desktop Analytics Upgrade Readiness usa um processo sem agentes para inventariar os computadores e aplicativos em todo o seu desktop.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
@@ -77,7 +77,7 @@ Ele também fornece relatórios sobre sites da Internet, aplicativos e locais da
 
 ### <a name="2-prioritize"></a>2\. Priorizar
 
-Com o inventário realizado, o Windows Analytics Upgrade Readiness ajuda a identificar e priorizar os aplicativos e hardware mais comumente usados na sua organização e também focando para desbloquear o máximo de computadores possível para implantação.
+Com o inventário realizado, o Desktop Analytics Upgrade Readiness ajuda a identificar e priorizar os aplicativos e hardware mais comumente usados na sua organização e também foca no desbloqueio do máximo de computadores possível para implantação.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
@@ -85,9 +85,9 @@ Fornecendo também orientações para ajudar a avaliar as atualizações necess�
 
 ### <a name="3-testing"></a>3\. Testando
 
-Você vai notar que a maioria dos aplicativos, drivers e suplementos inventariados irão funcionar da mesma forma. Os itens que o Windows Analytics Upgrade Readiness avalia  como estando com problemas, ele mostra as informações locais, incluindo onde encontrar as atualizações da versão para resolver problemas de compatibilidade. Em vez de dedicar tempo e recursos à resolução de problemas complexos em aplicativos não críticos, pouco utilizados e em dispositivos mais antigos, você poderá optar por trabalhar com os usuários para desativar e substituir esses itens.
+Você vai notar que a maioria dos aplicativos, drivers e suplementos inventariados irão funcionar da mesma forma. Para os itens que o Desktop Analytics Upgrade Readiness avalia como estando com problemas, ele mostra as informações locais, incluindo onde encontrar as atualizações da versão para resolver problemas de compatibilidade. Em vez de dedicar tempo e recursos à resolução de problemas complexos em aplicativos não críticos, pouco utilizados e em dispositivos mais antigos, você poderá optar por trabalhar com os usuários para desativar e substituir esses itens.
 
-Você também pode usar o Windows Analytics Upgrade Readiness para avaliar problemas de compatibilidade baseados no navegador, identificar os aplicativos Web e sites acessados por usuários que ainda estão usando controles ActiveX, Objetos de Ajuda do Navegador, VBScript ou outras tecnologias herdadas sem suporte no navegador Microsoft Edge. Seus usuários ainda precisarão usar o Internet Explorer 11 para esses sites, e você pode adicioná-los à [lista de sites do modo Empresarial](https://docs.microsoft.com/pt-BR/microsoft-edge/deploy/emie-to-improve-compatibility) usando o Enterprise Mode Site List Manager.
+Você também pode usar o Desktop Analytics Upgrade Readiness para avaliar problemas de compatibilidade baseados no navegador, identificar os aplicativos Web e sites acessados por usuários que ainda estão usando controles ActiveX, Objetos de Ajuda do Navegador, VBScript ou outras tecnologias herdadas sem suporte no navegador Microsoft Edge. Seus usuários ainda precisarão usar o Internet Explorer 11 para esses sites, e você pode adicioná-los à [lista de sites do Modo Empresarial](https://docs.microsoft.com/pt-BR/microsoft-edge/deploy/emie-to-improve-compatibility) usando o Enterprise Mode Site List Manager.
 
 Além disso, para ajudar na mudança para o Office 365 ProPlus, você pode usar o [Readiness Toolkit for Office](https://docs.microsoft.com/pt-BR/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) para testar a compatibilidade dos seus suplementos e macros do Microsoft Visual Basic for Applications (VBA).
 
@@ -114,7 +114,7 @@ Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>Uso Contínuo de Ferramentas de Telemetria
 
-O Windows Analytics Upgrade Readiness não é apenas uma ferramenta para ajudá-lo a mudar para o Windows 10 e Office 365 ProPlus. Quando tiver computadores executando o Windows 10 e o Office 365, você poderá usar esta ferramenta para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
+O Desktop Analytics Upgrade Readiness não é apenas uma ferramenta para ajudá-lo a mudar para o Windows 10 e o Office 365 ProPlus. Quando tiver computadores executando o Windows 10 e o Office 365, você poderá usar esta ferramenta para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
 
 ## <a name="next-step"></a>Próxima etapa 
 
