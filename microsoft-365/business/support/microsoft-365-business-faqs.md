@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, perguntas frequentes, respostas, negócios
 ms.date: 06/08/2018
-ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
-ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
+ms.openlocfilehash: 9f3f82169dcd4454ffb46b1269422688a107f2b0
+ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276214"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35630580"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Perguntas frequentes no Microsoft 365 Business
 
@@ -27,10 +27,10 @@ A Microsoft 365 é uma solução integrada que reúne as melhores ferramentas de
 **Um conjunto holístico de ferramentas de colaboração e de produtividade de negócios** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher e Access 
 * Exchange, OneDrive, Skype for Business, Microsoft Teams, SharePoint 
-* Os aplicativos de negócios do Office (Bookings, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft Listings<sup>[1](#footnote1)</sup>, Microsoft Connections<sup>[1](#footnote1)</sup>, Microsoft Invoicing<sup>[1](#footnote1)</sup>) 
+* Aplicativos de negócios do Office (reservas, gerentes de clientes do Outlook, MileIQ<sup>[1](#footnote1)</sup>, Microsoft faturamento<sup>[1](#footnote1)</sup>) 
  
 **Recursos de segurança e de gerenciamento de dispositivos corporativos** 
-- Ajuda a fornecer proteção contra ameaças externas, como phishing & malware sofisticado com o Office 365 proteção avançada contra ameaças e o Windows Defender Exploit Guard 
+- Ajuda a fornecer proteção contra ameaças externas, como phishing & malware sofisticado com a proteção avançada contra ameaças do Office 365 e o Windows Defender Exploit Guard 
 -  Ajuda a controlar & gerenciar como as informações confidenciais são acessadas e transmitidas com as políticas de prevenção de perda de dados do Office 365 (para estar disponível nos planos 2018 de proteção de informações do Microsoft Azure 
 -  Ajuda a proteger, preservar e fazer backup de seus dados com o arquivamento do Exchange Online  
 -   Proteção de aplicativos para o Office & outros aplicativos móveis com a proteção de aplicativo do Intune 
@@ -82,7 +82,7 @@ O Microsoft 365 Business oferece aos clientes um meio simples, mas poderoso, de 
   
 * **Gerenciamento de Dispositivos para computadores com Windows 10** (PCs) para Windows 10 dispositivos permite que as empresas podem optar por definir e impor recursos, como a proteção do Windows Defender de malware, as atualizações automáticas e telas de desativar após um determinado período de tempo. Além disso, perdidos ou roubados dispositivos Windows 10 podem ser completamente apagados de aplicativos de negócios e dados por meio do Centro de administração. 
 
-* **Gerenciamento de dispositivo para IOS, os recursos do Android _AMP_ MacOS** ajudam as empresas a gerenciar com segurança um ecossistema de dispositivos diferente que inclui dispositivos IOS, Android, Windows e MacOS. 
+* **Gerenciamento de dispositivos para IOS, os recursos do Android & MacOS** ajudam as empresas a gerenciar com segurança um ecossistema de dispositivos diferente que inclui dispositivos IOS, Android, Windows e MacOS. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Como o Microsoft 365 Business ajuda a proteger computadores na minha organização contra ataques mal-intencionados? 
 Computadores gerenciados com o Microsoft 365 Business são protegidas com o Windows Defender, que é o Não. 1 recurso antivírus no Windows 10, protegendo mais computadores contra vírus, malware, spyware e outras ameaças que qualquer outra solução.  Com o Microsoft 365 Business, as empresas podem garantir que a proteção do Windows Defender esteja em execução e sempre atualizada em todos os seus dispositivos Windows 10.  
