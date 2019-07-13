@@ -1,0 +1,4 @@
+<span data-ttu-id="0d931-101">--Título: Descrição da referência da área de trabalho gerenciada da Microsoft: informações detalhadas sobre determinados recursos da área de trabalho gerenciada da Microsoft: área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação MS. Service: M365-MD Author: jaimeo MS. localizationpriority: normal</span><span class="sxs-lookup"><span data-stu-id="0d931-101">-- title: Microsoft Managed Desktop reference description: Detailed information on certain Microsoft Managed Desktop features keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation ms.service: m365-md author: jaimeo ms.localizationpriority: normal</span></span>
+---
+
+# <a name="microsoft-managed-desktop-reference"></a><span data-ttu-id="0d931-102">Referência de área de trabalho gerenciada da Microsoft</span><span class="sxs-lookup"><span data-stu-id="0d931-102">Microsoft Managed Desktop reference</span></span>
