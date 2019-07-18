@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 468a8c7f1151443d001efb89639c5cdad204b1c2
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: fc2d978b50a433249e016c25b4c234de6c7f46b8
+ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698233"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35778126"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Titulares de Dados do Dynamics 365 para o RGPD
 
@@ -224,7 +224,7 @@ Essa primeira etapa — encontrar e analisar os dados pessoais em questão — a
 
 Para localizar:
 
-- Um perfil de usuário, vá para o [centro de administração do Office 365](https://portal.office.com/adminportal/home). No **centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, pesquise pelo usuário na lista. No Social Engagement, vá até **Configurações \> Gerenciamento de usuários** para ver as informações que são automaticamente sincronizadas do Office 365.
+- Um perfil de usuário, acesse o [centro de administração](https://portal.office.com/adminportal/home). No **Centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, pesquise pelo usuário na lista. No Social Engagement, vá até **Configurações \> Gerenciamento de usuários** para ver as informações que são automaticamente sincronizadas do Office 365.
 - O destinatário de um alerta, siga as duas primeiras etapas em [Gerenciar destinatários de alertas como administrador](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator).
 - Dados de perfil de redes sociais que foram inseridos por funcionários, acesse **Configurações \> Perfis sociais**. (Para saber mais, consulte [Gerenciar perfis sociais](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-social-profiles).)
 - Nomes de usuário no Power BI, abra o painel do Power BI no Social Engagement e filtre pelo nome do funcionário.
@@ -242,7 +242,7 @@ O RGPD concede aos titulares de dados o direito de obter uma cópia de dados pes
 
 Para exportar:
 
-- dados do cliente de perfis de usuário, acesse a [Centro de Administração do Office 365](https://portal.office.com/adminportal/home). No **Centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, procure pelos usuários cujos dados você deseja exportar. Exclua todos os usuários, exceto o usuário-alvo e, em seguida, selecione **Exportar** para exportar os dados para um arquivo. csv, usando o Excel para exibir as informações.
+- dados do cliente de perfis de usuário, acesse o [centro de administração](https://portal.office.com/adminportal/home). No **Centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, procure pelos usuários cujos dados você deseja exportar. Exclua todos os usuários, exceto o usuário-alvo e, em seguida, selecione **Exportar** para exportar os dados para um arquivo. csv, usando o Excel para exibir as informações.
 - Endereços de email de um destinatário de alerta (o único dado do cliente em um alerta). Siga as etapas no [Gerenciar destinatários de alerta como administrador](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator). Depois selecione **Exportar** para baixar uma lista do Excel dos alertas que incluem esse destinatário.
 - Nomes de usuário do Power BI: os [Relatórios de envolvimento](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi) mostram nomes de usuários em relatórios de desempenho da equipe nas redes sociais. Para exportar esses dados, filtre pelo usuário no painel do PowerBI ou acesse o [relatório](https://docs.microsoft.com/power-bi/power-bi-report-add-filter) e [exporte os dados](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
 
@@ -317,7 +317,7 @@ Para extrair as marcas do autor que foram adicionadas a um autor específico, vo
 
 Para exportar:
 
-- dados do cliente de perfis de usuário, acesse a [Centro de Administração do Office 365](https://portal.office.com/adminportal/home). No **Centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, procure pelos usuários cujos dados você deseja exportar. Exclua todos os usuários, exceto o usuário-alvo e, em seguida, selecione **Exportar** para exportar os dados para um arquivo. csv, usando o Excel para exibir as informações.
+- dados do cliente de perfis de usuário, acesse o [centro de administração](https://portal.office.com/adminportal/home). No **Centro de administração**, selecione **Usuários**. Na página **Usuários Ativos**, procure pelos usuários cujos dados você deseja exportar. Exclua todos os usuários, exceto o usuário-alvo e, em seguida, selecione **Exportar** para exportar os dados para um arquivo. csv, usando o Excel para exibir as informações.
 - Endereços de email de um destinatário de alerta (somente os dados pessoais em um alerta). Siga as etapas em [Gerenciar destinatários de alertas como administrador](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator). Em seguida, selecione **Exportar** para baixar uma lista do Excel dos alertas que incluem esse destinatário.
 - Nomes de usuário do Power BI: os [Relatórios de envolvimento](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi) mostram nomes de usuários em relatórios de desempenho da equipe nas redes sociais. Para exportar esses dados, filtre pelo usuário no painel do PowerBI ou acesse o [relatório](https://docs.microsoft.com/power-bi/power-bi-report-add-filter) e [exporte os dados](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
 
