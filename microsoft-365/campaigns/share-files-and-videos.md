@@ -21,21 +21,21 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Compartilhe arquivos e vídeos dentro da sua campanha com o Microsoft Teams e o SharePoint..
-ms.openlocfilehash: bcc81b65661e113083705c6536f6de4d030a3de7
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+description: Compartilhe arquivos e vídeos dentro da sua campanha com o Microsoft Teams e o SharePoint.
+ms.openlocfilehash: c554ba2b4e7945cefa9a1e7114b3726efa58561e
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35080575"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772338"
 ---
 # <a name="share-files-and-videos"></a>Compartilhar arquivos e vídeos
 
-Quando você precisa controlar quem pode exibir e quem pode editar seus arquivos, você precisa armazenar os arquivos em um local seguro, onde você pode certificar-se de que as permissões são aplicadas corretamente. Você pode usar o Microsoft Teams para armazenar seus arquivos e, em seguida, compartilhar os arquivos dentro ou fora da sua campanha com o Microsoft Teams ou enviando links do SharePoint. Enviar um link em vez de um anexo de email significa que você sabe quem está exibindo e modificando os arquivos e não pode ser exibido ou modificado sem sua permissão. 
+Quando você precisa controlar quem pode exibir e quem pode editar seus arquivos, você precisa armazenar os arquivos em um local seguro, onde você pode ter certeza de que as permissões são aplicadas corretamente. Você pode usar o Microsoft Teams para armazenar seus arquivos e, em seguida, compartilhar os arquivos dentro ou fora da sua campanha com o Microsoft Teams ou enviando links do SharePoint. Enviar um link em vez de um anexo de email significa que você sabe quem está exibindo e modificando os arquivos e não pode ser exibido ou modificado sem sua permissão. 
 
-![Diagrama de uma janela do Microsoft Teams com a guia arquivos aberta e obter link no menu](media/m365-democracy-teams-sharefiles.png)
+![Diagrama de uma janela do Microsoft Teams, mostrando a guia arquivos e obter link no menu](media/m365-democracy-teams-sharefiles.png)
 
-Com seus arquivos no Microsoft Teams e no SharePoint, você também pode trabalhar nos arquivos juntos e revisar as alterações de cada um. Use o Microsoft Teams para compartilhar arquivos dentro de uma campanha política, você pode fazer isso usando o Microsoft Teams. Se você precisar compartilhar externamente com pessoas de fora da campanha, você pode adicioná-los como convidados a uma equipe ou enviá-los para um link do SharePoint seguro.
+Com seus arquivos no Microsoft Teams e no SharePoint, você também pode trabalhar nos arquivos juntos e revisar as alterações de cada um. Use o Microsoft Teams para compartilhar arquivos dentro de uma campanha política. Se você precisar compartilhar externamente com pessoas de fora da campanha, você pode adicioná-los como convidados a uma equipe ou enviá-los para um link do SharePoint seguro.
 
 Você também pode usar o Microsoft Stream para armazenar e compartilhar vídeos para sua campanha. Esses vídeos não são visíveis para o público para que sejam ideais para mensagens de campanha internas.
 

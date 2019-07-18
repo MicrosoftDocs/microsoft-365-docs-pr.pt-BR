@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365 Business
-ms.openlocfilehash: 2ebf6994cc7ba4026c5985e6b7accfc832ab003c
-ms.sourcegitcommit: c7ea55e36484d64db3f3af8e111a83cfc634143e
+ms.openlocfilehash: 5a3a9aada60875a7ee1f43a870e4d2731f84d4c1
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35192639"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772548"
 ---
 # <a name="increase-threat-protection"></a>Aumentar a proteção contra ameaças
 
@@ -257,7 +257,7 @@ Para obter mais informações, consulte [Office 365 ATP Safe links](https://go.m
 
 Depois de ativar a pesquisa de log de auditoria no centro &amp; de conformidade de segurança, você pode manter o administrador e outras atividades do usuário no log e pesquisá-lo. 
 
-Você precisa ter a função de logs de auditoria no Exchange Online para ativar ou desativar a pesquisa de log de auditoria em sua assinatura do Microsoft 365 Business. Por padrão, essa função é atribuída aos grupos de função gerenciamento de conformidade e gerenciamento da organização na página permissões no centro de administração do Exchange. Os administradores globais no Microsoft 365 são membros desse grupo por padrão.
+Você deve receber a função de logs de auditoria no Exchange Online para ativar ou desativar a pesquisa de log de auditoria em sua assinatura do Microsoft 365 Business. Por padrão, essa função é atribuída aos grupos de função gerenciamento de conformidade e gerenciamento da organização na página permissões no centro de administração do Exchange. Os administradores globais no Microsoft 365 são membros desse grupo por padrão.
 
 1. Para ativar a pesquisa de log de auditoria, vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e, em seguida, escolha **conformidade** em **centros de administração** no painel de navegação esquerdo. 
 2. Na página de **conformidade do Microsoft 365** , escolha **mais recursos**e, em seguida, **abra** no cartão centro de ** &amp; segurança do Office 365** .
@@ -266,7 +266,7 @@ Você precisa ter a função de logs de auditoria no Exchange Online para ativar
 3. Na página segurança e conformidade, escolha **Pesquisar** e, em seguida, **pesquisa log de auditoria**.
 1. Na parte superior da página **pesquisa de log de auditoria** , escolha **ativar a auditoria**.
 
-Depois que o recurso é ativado, você pode pesquisar arquivos, pastas e muitas atividades. Para obter mais informações, consulte [Search the Audit Log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+Após o recurso ser ativado, você pode pesquisar arquivos, pastas e muitas atividades. Para obter mais informações, consulte [Search the Audit Log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="tune-up-anonymous-sharing-settings-for-sharepoint-and-onedrive-files-and-folders"></a>Ajustar configurações de compartilhamento anônimo para arquivos e pastas do SharePoint e do OneDrive
 
@@ -279,7 +279,7 @@ Depois que o recurso é ativado, você pode pesquisar arquivos, pastas e muitas 
 
 ## <a name="activity-alerts"></a>Alertas de atividade
 
-Você pode usar os alertas de atividade para rastrear as atividades de administrador e de usuário e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas também é possível criar outras personalizadas. Para obter mais informações, consulte [políticas de alerta](https://docs.microsoft.com/office365/securitycompliance/alert-policies). Por exemplo, se você armazenar um arquivo importante no SharePoint que você não deseja que todos compartilhem externamente, você pode criar uma notificação que o alertará se alguém o compartilhar.
+Você pode usar os alertas de atividade para rastrear as atividades de administrador e de usuário e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar itens personalizados. Para obter mais informações, consulte [políticas de alerta](https://docs.microsoft.com/office365/securitycompliance/alert-policies). Por exemplo, se você armazenar um arquivo importante no SharePoint que você não deseja que todos compartilhem externamente, você pode criar uma notificação que o alertará se alguém o compartilhar.
 
 A figura a seguir mostra as políticas padrão incluídas no Microsoft 365 Business. <br/><br/>
     ![Políticas de alerta padrão incluídas no Microsoft 365 Business.](media/alertpolicies.png)
@@ -289,8 +289,8 @@ A figura a seguir mostra as políticas padrão incluídas no Microsoft 365 Busin
 Você pode impedir que as pessoas em sua organização compartilhem seus calendários ou também pode gerenciar o que eles podem compartilhar. Por exemplo, você pode restringir o compartilhamento somente para horários disponíveis/ocupados.
 
 1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **configurações** \> de **Serviços & suplementos**
-2. Na página **serviços &** suplementos, escolha **calendário**e escolha se as pessoas na sua organização podem compartilhar seus calendários com pessoas de fora que tenham o Office 365 ou Exchange, ou com qualquer pessoa. 
-    Se você escolher o compartilhamento com qualquer pessoa, poderá decidir também compartilhar apenas as informações de disponibilidade.
+2. Na página **serviços &** suplementos, escolha **calendário**e escolha se as pessoas em sua organização podem compartilhar seus calendários com pessoas de fora que tenham o Office 365 ou Exchange, ou com qualquer pessoa. 
+    Se você escolher o compartilhamento com qualquer pessoa, poderá optar por apenas compartilhar informações de disponibilidade.
 
 3. Escolha **salvar alterações** na parte inferior da página.
 

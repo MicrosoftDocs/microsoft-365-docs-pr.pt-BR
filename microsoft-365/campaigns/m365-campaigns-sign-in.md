@@ -20,18 +20,18 @@ search.appverid:
 - BCS160
 - MET150
 description: Entre no Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: 2bf147f1d062ecbccabade355e50cff16bf30089
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: be24db2a7614e312bff96e5689f58a439de224a6
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183204"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772438"
 ---
 # <a name="sign-in-to-microsoft-365-for-campaigns"></a>Entrar no Microsoft 365 para campanhas
 
 ## <a name="for-campaign-admins"></a>Para administradores de campanha
 Se você se inscreveu no Microsoft 365 para campanhas, você é o Microsoft 365 admin. Confira aqui como entrar: 
-1. Encontre o nome de usuário e a senha que enviamos para o endereço de email que você nos forneceu em etapa 2 de [etapas para se inscrever](m365-campaigns-sign-up.md#steps-to-sign-up).
+1. Encontre o nome de usuário e a senha que enviamos para o endereço de email que você nos forneceu na etapa 2 das [etapas para se inscrever](m365-campaigns-sign-up.md#steps-to-sign-up).
 2. No navegador, vá para o centro de administração do Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em. 
 3. Digite o nome de usuário e a senha. Selecione **entrar**.
 4. No canto superior direito da página, encontre o controle **Visualizar no** . Selecione **Visualizar no** para que você possa usar todos os controles descritos em [proteção contra relevo para sua campanha](m365-campaigns-security-overview.md).

@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Proteger contra phishing e outros ataques com o Microsoft 365 para campanhas.
-ms.openlocfilehash: a0e5876d0b1a3b454a00df79f3d0808b26ef8e1e
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+ms.openlocfilehash: 4902a2273eef110ced9ae16c3b91f39ac990a736
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35080587"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772478"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Proteger-se contra phishing e outros ataques
 
 O Microsoft 365 inclui muitas proteções para proteção contra ataques, mas há coisas que você pode fazer sozinho para limitar e minimizar o risco de ataques online.
 
-- **Spam ou lixo eletrônico** Há muitas razões pelas quais você pode receber lixo eletrônico e nem todas as mensagens de lixo eletrônico são as mesmas. No entanto, você pode reduzir o que chega a e, assim, reduzir os riscos de ataques filtrando o lixo eletrônico.
+- **Spam ou lixo eletrônico** Há muitas razões pelas quais você pode receber lixo eletrônico e nem todas as mensagens de lixo eletrônico são as mesmas. No entanto, você pode reduzir o que chega a e, assim, reduzir os riscos de ataques, filtrando o lixo eletrônico.
 - **Phishing** Um golpe de phishing é um email que parece ser legítimo, mas é uma tentativa de obter informações pessoais ou roubar seu dinheiro.
 - **Falsificação** Os golpistas também podem usar uma técnica chamada falsificação para fazer com que você tenha recebido um email de si mesmo. 
-- **Malware** é um software mal-intencionado que pode ser instalado em seu computador – normalmente instalado depois que você clica em um link ou abriu um documento de um email. Há vários tipos de malware (por exemplo, ransomware, quando o computador é usado), mas você não deseja ter nenhum deles. 
+- **Malware** é um software mal-intencionado que pode ser instalado em seu computador, normalmente instalado após você clicar em um link ou abrir um documento de um email. Há vários tipos de malware (por exemplo, ransomware, quando o computador é usado), mas você não deseja ter nenhum deles. 
 
 
 ## <a name="best-practices"></a>Práticas recomendadas
@@ -46,7 +46,7 @@ Siga estas [10 dicas sobre como ajudar a reduzir o spam](https://support.office.
 
 **Relatar!**
 
-Relatar qualquer phishing ou outros emails de scam recebidos. Selecione a mensagem e escolha **relatar mensagem** na faixa de opções para relatar o remetente da mensagem e, em seguida, bloquear a mensagem.
+Relatar qualquer phishing ou outros emails de scam recebidos. Selecione a mensagem e escolha **relatar mensagem** na faixa de opções.
 Veja mais informações sobre como [relatar emails de lixo eletrônico e phishing](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 **Evitar phishing**
@@ -60,13 +60,13 @@ Leia sobre cinco tipos comuns de golpes em [lidar com abuso, phishing ou falsifi
 
 **Certifique-se de que seus emails pareçam legítimos para outras pessoas**
 
-Ajude seus clientes a confiar em suas comunicações – adicione uma assinatura digital para provar que ela é proveniente de você. Confira [mensagens seguras usando uma assinatura digital](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
+Ajude seus clientes a confiar em suas comunicações adicionando uma assinatura digital para provar que ela está chegando por você. Confira [mensagens seguras usando uma assinatura digital](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
 
 ## <a name="help-protect-your-campaign-from-online-threats"></a>Ajudar a proteger sua campanha de ameaças online
 
 Baixe este infográfico com dicas para você e os membros de sua equipe de campanha:
 
-[![Imagem para ajudar a proteger o gráfico de informações de campanha](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+[! A ajuda para proteger seu gráfico de informações de campanha](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)] (downloads/M365CampaignsWhatCanUsersDoToSecure. pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | do[PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 

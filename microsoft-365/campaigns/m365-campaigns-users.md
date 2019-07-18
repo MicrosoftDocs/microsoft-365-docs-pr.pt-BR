@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft 365 para campanhas afeta seus usuários.
-ms.openlocfilehash: 9d70adab86eb7c8b7f1608de58c0652f84ec03a0
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 3715e0a458f2af5f2fecb8e2e6939254b3141411
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183205"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772418"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Como a Microsoft 365 para campanhas afeta seus usuários
 
-O Microsoft 365 for Campaigns torna muito mais difícil para os hackers obterem acesso ao seu ambiente. A desvantagem é que os usuários precisarão saber como trabalhar dentro desse ambiente mais seguro. Entendemos que é necessário um pouco mais de paciência, mas vale a pena manter sua organização protegida.
+O Microsoft 365 for Campaigns torna muito mais difícil para os hackers obterem acesso ao seu ambiente. A compensação é que os usuários precisarão saber como trabalhar dentro desse ambiente mais seguro. Entendemos que é necessário um pouco mais de paciência, mas vale a pena manter sua organização protegida.
 
 ![Ilustração que resume os principais pontos abaixo para iPhones, dispositivos Android, Macs, Windows 10, compartilhamento e pessoal-chave](media/M365-democracy-Users_700px.png)
 
@@ -57,7 +57,7 @@ Também é importante que os usuários mantenham o dispositivo de trabalho princ
 - Instale as versões mais recentes dos aplicativos da área de trabalho do Office e mantenha-as atualizadas com as atualizações, quando solicitado. 
 - Fique sobre as atualizações do sistema operacional, como as atualizações do Windows.
 
-Para [dispositivos Windows 10 e Mac não gerenciados](m365-campaigns-protect-pcs-macs.md), os usuários têm a responsabilidade de garantir que os recursos básicos de segurança estejam habilitados.
+Para [dispositivos Windows 10 e Mac não gerenciados](m365-campaigns-protect-pcs-macs.md), os usuários têm a responsabilidade de garantir que os recursos de segurança básicos estejam habilitados.
 
 **Habilitar recursos básicos de segurança em dispositivos Windows 10 e Mac do BYOD**
 
@@ -69,11 +69,11 @@ Para [dispositivos Windows 10 e Mac não gerenciados](m365-campaigns-protect-pcs
 Para saber mais sobre essas recomendações, confira [proteger sua conta e dispositivos de hackers e malware](https://support.office.com/en-us/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10).
 
 ## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-office-365-tools"></a>Colaborar usando o Microsoft Teams, o OneDrive, o SharePoint Online e outras ferramentas do Office 365
-Os usuários podem estar tentado a compartilhar e armazenar seus arquivos de organização em locais diferentes do Microsoft 365. O Microsoft 365 o torna tão fácil quanto possível colaborar e compartilhar com segurança. Você pode [compartilhar arquivos e vídeos](share-files-and-videos.md) diretamente do Microsoft Teams, onedrive, Stream e até mesmo de dentro de um arquivo. O compartilhamento de dentro dessas ferramentas ajuda a evitar a perda de dados. Você também pode adicionar mais proteção a dados confidenciais para impedir o compartilhamento fora da sua organização. 
+Os usuários podem estar tentado a compartilhar e armazenar seus arquivos de organização em locais diferentes do Microsoft 365. O Microsoft 365 o torna tão fácil quanto possível colaborar e compartilhar com segurança. Você pode [compartilhar arquivos e vídeos](share-files-and-videos.md) diretamente do Microsoft Teams, onedrive, Stream e até mesmo de dentro de um arquivo. O compartilhamento de dentro dessas ferramentas ajuda a evitar a perda de dados. Você pode adicionar mais proteção a dados confidenciais para impedir o compartilhamento fora da sua organização. 
 
 
 ## <a name="set-up-managed-windows-10-devices"></a>Configurar dispositivos Windows 10 gerenciados
-Recomendamos que seus membros da equipe mais importantes usem dispositivos do Windows 10 que você gerenciam com atualização. Mostraremos como [gerenciar e proteger esses dispositivos](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json). Isso garante que os membros da equipe que são o alvo de valor mais alto para hackers recebam a maior proteção. 
+Recomendamos que os membros mais importantes da equipe usem dispositivos do Windows 10 que você gerenciam com atualização. Mostraremos como [gerenciar e proteger esses dispositivos](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json). Isso garante que os membros da equipe que são o alvo de valor mais alto para hackers recebam a maior proteção. 
 
 
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obtenha o Microsoft 365 para campanhas para que você possa proteger sua campanha contra ameaças cybersecurity a emails, dados e comunicações.
-ms.openlocfilehash: 21131707d88168f8886472f3ef0b42603229d8c5
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 0e038f3b33db957d3503ee091b075b767c30eeda
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183209"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772508"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>Obter o Microsoft 365 para campanhas
 
@@ -53,7 +53,7 @@ Não há nenhum compromisso de tempo mínimo quando você se inscreve no Microso
 
 ## <a name="how-do-i-qualify-for-special-pricing"></a>Como qualificar para preços especiais?
 
-1. Vá até https://m365forcampaigns.microsoft.com/ e forneça alguns detalhes sobre sua organização. Os detalhes fornecidos nos ajudarão a verificar se você representa uma campanha política ou um parceiro político no nível nacional nos Estados Unidos. Não há compromisso ao concluir esse formulário. 
+1. Vá até https://m365forcampaigns.microsoft.com/ e forneça alguns detalhes sobre sua organização. Os detalhes que você fornecer nos ajudarão a verificar se representa uma campanha ou um parceiro político no nível nacional nos Estados Unidos. Não há compromisso ao concluir esse formulário. 
 2. Depois de concluir o formulário, leva-nos alguns dias para revisar suas informações. 
 3. Depois de verificarmos se você representa uma campanha política ou uma parte do nível nacional, receberá um convite por email da Microsoft. O convite inclui um link de inscrição específico para sua organização. 
 
