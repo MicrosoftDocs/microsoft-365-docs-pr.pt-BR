@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: e58a69c25c00a0482d3837d9bde626ec0a54936f
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 7420073ba768f0e5adba33d673d3ccd6369e306c
+ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772318"
+ms.locfileid: "35778136"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografar ou rotular seus emails confidenciais
 
@@ -60,7 +60,7 @@ Você cria regras de fluxo de email para criptografar mensagens de email com os 
 
 1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, entre no Office 365. 
 2. Escolha o bloco administrador. 
-3. No centro de administração do Office 365, escolha **centros de administração > Exchange**. 
+3. No centro de administração, escolha **centros de administração > Exchange**. 
 
 Para obter mais informações, consulte [definir regras de fluxo de email para criptografar mensagens de email no Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email).
 

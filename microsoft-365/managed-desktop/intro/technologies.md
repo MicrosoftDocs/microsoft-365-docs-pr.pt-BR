@@ -3,16 +3,16 @@ title: Tecnologias de área de trabalho gerenciada da Microsoft
 description: Este tópico lista as tecnologias e os aplicativos usados na área de trabalho gerenciada da Microsoft.
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9c0e6481d0dc80e7cf03de2b748935c2f59f132a
-ms.sourcegitcommit: e54ec86310a18101f4688890cd5a9fc16bbe6f55
+ms.openlocfilehash: 914a90b4267132c9cb942740ceb974b084bcdf82
+ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "35257814"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35778086"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de área de trabalho gerenciada da Microsoft
 
@@ -31,7 +31,7 @@ Estes são os componentes incluídos nas licenças corporativas necessárias e c
 Pacote standard do Office 365 (64 bits) * | O pacote de aplicativos do Office padrão será enviado com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>Os 64 bits Click para executar (C2R) versões completas do Microsoft Project e Microsoft Visio não estão incluídos no pacote standard do Office 365.  No entanto, como a instalação desses aplicativos depende da instalação padrão do pacote do Office, a área de trabalho gerenciada da Microsoft criou os grupos de segurança e implantações do Intune padrão que o cliente usará para implantar esses aplicativos em usuários finais licenciados.  
 Armazenar aplicativos |    O Microsoft Sway, o Desktop Power BI não é fornecido com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
 Aplicativos Win32 |    O Power BI pro, o cliente do Azure Information Protection e o Microsoft Planner não são fornecidos com o dispositivo e podem ser empacotados para implantação pelo cliente. 
-Aplicativos Web |  Yammer, Office Online, Delve, Flow, StaffHub, PowerApps não são entregues com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
+Aplicativos Web |  Yammer, Office em um navegador, Delve, fluxo, StaffHub, o PowerApps não é fornecido com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
 Cloud PBX do Skype for Business Online | Este recurso está disponível por meio do Office 365. O Microsoft Managed desktop não configura nenhum aspecto desse serviço
 
 ## <a name="windows-10-enterprise-e5"></a>Windows 10 Enterprise e5
@@ -42,7 +42,7 @@ Credential Guard |  A Microsoft fornecerá orientações e gerenciará os aspect
 Virtualização de aplicativos (App-V) |    A área de trabalho gerenciada da Microsoft não oferece suporte a esse tipo de implantação, pois ela não é suportada no Intune.
 User Experience Virtualization (UE-V) | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop.
 Experiência do usuário gerenciado  | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop. O MDM é usado como uma solução para o gerenciamento de dispositivos.
-Proteção Avançada Contra Ameaças do Windows Defender |   Isso é usado pelo Microsoft Managed desktop para gerenciar políticas de segurança de dispositivos. 
+Proteção avançada contra ameaças do Microsoft defender | Isso é usado pelo Microsoft Managed desktop para gerenciar políticas de segurança de dispositivos. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security e5
 
