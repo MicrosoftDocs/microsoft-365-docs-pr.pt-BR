@@ -13,14 +13,72 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: 659ea39fc4ccd1c06d79c8a5c39ff2c4e85ba9ce
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: b19c2f5df6368fd6066b6506a17ed81ddf57f8c6
+ms.sourcegitcommit: 275d5c2d74e55ef6488594165367b02e735dc540
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814642"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35834024"
 ---
 # <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
+
+<table border="0">
+ <tr>
+ <td>
+  <strong>Atualizar do Windows 7 para o Windows 10 </strong><p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/pt-BR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/pt-BR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o System Center Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </td>
+ </tr>
+ <tr>
+ <td>
+    <table border="0">
+     <tr>
+     <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Upgrade ConfigMgr" height="144" width="144" />
+              </td>
+              <td>
+              <strong>Atualizar o ConfigMgr para o Branch atual</strong>
+                  </td>
+                 </tr>
+                </table>
+    </td>
+        <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Device and App Readiness" height="144" width="144" />
+              </td>
+              <td>
+              <strong>Validar a preparação de dispositivos e aplicativos</strong>
+                  </td>
+                 </tr>
+                </table>
+    </td>
+        <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Upgrade Windows 7 PCs" height="144" width="144" />
+              </td>
+              <td>
+              <strong>Atualizar computadores com Windows 7 para o Windows 10</strong>
+                  </td>
+                 </tr>
+                </table>
+        </td>
+        </tr>
+    </td>
+    </tr>
+    <tr>
+    <td>
+Parte da etapa de prontidão de rede e de diretório para organizações que usam o SCCM </td>
+    <td>
+Parte da etapa de preparação do dispositivo e do aplicativo; a ajuda está disponível por meio da Garantia de Aplicativo da Área de Trabalho </td>
+    <td>
+Etapa das atualizações de recursos e implantação do OS para PCs mantidos pelo usuário </td>
+    </tr>
+</table>
 
 <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
