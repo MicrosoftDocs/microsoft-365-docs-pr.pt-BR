@@ -3,16 +3,16 @@ title: Obter suporte para a área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a073a5dfe61b036cbdc3bf9b0be08bc559acb548
-ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
+ms.openlocfilehash: 1e98ef5a7c800ed3fb7fe1b7355e535ed3576c1e
+ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970468"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35853160"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
@@ -41,7 +41,7 @@ Os usuários finais com dispositivos de área de trabalho gerenciada da Microsof
 - Austrália: + 61 180 037 0619
 
 >[!NOTE]
->Deixe o número de série do dispositivo pronto ao ligar. 
+>Deixe seu endereço de email organizacional pronto quando você ligar para verificar sua identidade. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 
