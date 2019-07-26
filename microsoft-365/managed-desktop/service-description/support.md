@@ -3,16 +3,16 @@ title: Suporte para a área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 11/7/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 97637f28f5a5de292385a36472966f3272b2f09a
-ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
+ms.openlocfilehash: 83f4d8b6fb9f2938151db8dfea37b3c9f18124c9
+ms.sourcegitcommit: 8f57be80955cd374d418c7e1a78849ff3e1d630f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970458"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35907542"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
 
@@ -25,15 +25,15 @@ Os clientes podem contatar as operações de área de trabalho gerenciada da Mic
 
 ## <a name="whats-included"></a>O que está incluído?
 
-Suporte para área de trabalho gerenciada da Microsoft:
+O suporte ao Microsoft Managed desktop inclui:
 
-- Fornece uma equipe de engenheiros de suporte dedicados a dispositivos de área de trabalho gerenciada pela Microsoft
-- Oferece suporte a dispositivos de área de trabalho gerenciada da Microsoft e usuários finais atribuídos a esses dispositivos
-- Concede acesso administrativo limitado aos dispositivos de área de trabalho gerenciada da Microsoft para engenheiros de suporte que gerenciam dispositivos de área de trabalho gerenciado 
+- Uma equipe de engenheiros dedicada aos dispositivos de área de trabalho gerenciada da Microsoft
+- Opções de suporte para usuários finais com dispositivos de área de trabalho gerenciada da Microsoft
+- Concede acesso administrativo limitado aos dispositivos de área de trabalho gerenciada da Microsoft para engenheiros que gerenciam dispositivos de área de trabalho gerenciado 
 
 Produtos suportados:
 
-- Windows 10 com proteção avançada contra ameaças do Windows Defender (WDATP) 
+- Windows 10 com proteção avançada contra ameaças do Microsoft defender 
 - Subconjunto do pacote do Office 365: Outlook, Word, PowerPoint, Excel, cliente Skype for Business, Microsoft Teams 
 - Microsoft Store para Empresas 
 - Cliente do OneDrive for Business 
