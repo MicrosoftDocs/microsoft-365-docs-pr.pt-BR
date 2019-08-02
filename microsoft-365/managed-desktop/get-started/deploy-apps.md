@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5eac2e8c3023015bd034c51ad7e16a669a484772
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 5e842849afbedd506689caa9ffc0953a58e18fed
+ms.sourcegitcommit: f5c9aff5700f7824bf71f4a7e8c7236f7d91043e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390418"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36059581"
 ---
 # <a name="deploy-apps-to-microsoft-managed-desktop-devices"></a>Implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft
 Parte da integração com a área de trabalho gerenciada da Microsoft inclui a adição e implantação de aplicativos aos dispositivos do usuário. Quando estiver usando o portal de área de trabalho gerenciada da Microsoft, você poderá adicionar e implantar seus aplicativos. 
@@ -41,9 +41,9 @@ Você pode entrar no portal de área de trabalho gerenciada da Microsoft ou entr
 1.  Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mmdportal). 
 2.  Em **inventário**, selecione **aplicativos**.
 3.  Na carga de trabalho aplicativos, selecione **Adicionar**.
-4.  Em **Adicionar aplicativo**, selecione **aplicativo de linha de negócios** ou **aplicativo Windows (Win32)-visualização**.
+4.  Em **Adicionar aplicativo**, selecione **aplicativo de linha de negócios** ou **Windows app (Win32)**.
     - Se você selecionou o **aplicativo de linha de negócios**, consulte [Adicionar um aplicativo de linha de negócios do Windows ao Microsoft Intune](https://docs.microsoft.com/intune/lob-apps-windows) para obter instruções sobre como adicionar e configurar aplicativos de linha de negócios.
-    - Se você selecionou **Windows app (Win32) – Preview**, confira o [Win32 app Management](https://docs.microsoft.com/intune/apps-win32-app-management) para instruções sobre como adicionar e configurar aplicativos do Windows.
+    - Se você tiver selecionado o **Windows app (Win32)**, confira o [Win32 app Management](https://docs.microsoft.com/intune/apps-win32-app-management) para instruções sobre como adicionar e configurar aplicativos do Windows.
 
 <span id="msfb-apps">
 
