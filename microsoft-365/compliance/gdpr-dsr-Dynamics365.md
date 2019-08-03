@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: fc2d978b50a433249e016c25b4c234de6c7f46b8
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: 72277ec2dfe7681aa5f596e655d5e275bbb64dd1
+ms.sourcegitcommit: 5615e790dc53ccc74f3c475ca43d69ca56be348a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778126"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "36041175"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Titulares de Dados do Dynamics 365 para o RGPD
 
@@ -96,7 +96,7 @@ O ***Dynamics 365 Finance and Operations*** oferece várias maneiras para você 
 - Crie um formulário personalizado que localize e exporte dados pessoais.
 - Crie um portal ou site externo que permita que um cliente autenticado veja seus próprios dados pessoais.
 
-O ***Dynamics for Business Central*** oferece várias formas de pesquisar dados de clientes. Para saber mais, confira [Pesquisar, filtrar e classificar dados](https://docs.microsoft.com/dynamics-nav-app/ui-enter-criteria-filters).
+O ***Dynamics 365 for Business Central*** oferece várias formas de pesquisar dados de clientes. Para saber mais, confira [Pesquisar, filtrar e classificar dados](https://docs.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters).
 
 ***O Dynamics 365 for Talent*** fornece recursos avançados de pesquisa e filtragem para localizar dados pessoais específicos e o recurso de exportação do Microsoft Office para exportar ou imprimir essas informações em PDF usando extensões do navegador.
 
@@ -189,7 +189,7 @@ Tanto o Dynamics 365 for Finance and Operations quanto o ***Dynamics 365 for Tal
 
 O ***Dynamics 365 Business Central*** oferece os seguintes recursos:
 
-- Você pode exportar dados do cliente para um arquivo do Excel. No Excel, você pode editar os dados do cliente a serem incluídos na solicitação de portabilidade, e depois salvar como um formato comum legível por máquina, como .csv ou .xml. Para saber mais, confira [exportar dados corporativos para o Excel](https://docs.microsoft.com/dynamics-nav-app/about-export-data).
+- Você pode exportar dados do cliente para um arquivo do Excel. No Excel, você pode editar os dados do cliente a serem incluídos na solicitação de portabilidade, e depois salvar como um formato comum legível por máquina, como .csv ou .xml. Para saber mais, confira [exportar dados corporativos para o Excel](https://docs.microsoft.com/dynamics365/business-central/about-export-data).
 - Você pode exportar dados do cliente para um arquivo do Excel. No Excel, você pode editar os dados do cliente a serem incluídos na solicitação de portabilidade, e depois salvar como um formato comum legível por máquina, como .csv ou .xml. Para saber mais, confira [exportar dados corporativos para o Excel](https://docs.microsoft.com/pt-BR/dynamics365/business-central/about-export-data).
 
 ### <a name="microsoft-social-engagement"></a>Microsoft Social Engagement
