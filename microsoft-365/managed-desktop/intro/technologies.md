@@ -5,14 +5,13 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 914a90b4267132c9cb942740ceb974b084bcdf82
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: 9f3094b1a1272b0c200271b8d5703fe7173683a6
+ms.sourcegitcommit: 6b5370cded5d8259c9ed561eed324227f74c410b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778086"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171731"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de área de trabalho gerenciada da Microsoft
 
@@ -23,31 +22,28 @@ Este tópico lista as tecnologias e os aplicativos usados na área de trabalho g
 
 O Microsoft 365 Enterprise Licensing é necessário para todos os usuários da área de trabalho gerenciada da Microsoft. Para obter mais informações sobre requisitos de licenciamento para o serviço, consulte [pré-requisitos para a área de trabalho gerenciada da Microsoft](../get-ready/prerequisites.md).
 
-Estes são os componentes incluídos nas licenças corporativas necessárias e como o serviço usa cada componente com os dispositivos de área de trabalho gerenciada da Microsoft. As funções e responsabilidades específicas de cada área são detalhadas em todo o tópico da área de trabalho gerenciada da Microsoft. 
+Este tópico resume os componentes incluídos nas licenças corporativas necessárias, com uma descrição de como o serviço usa cada componente com os dispositivos de área de trabalho gerenciada da Microsoft. Funções e responsabilidades específicas de cada área são detalhadas em toda a documentação da área de trabalho gerenciada da Microsoft. 
 
 ## <a name="office-365-e3"></a>Office 365 E3
  |
  --- | ---
-Pacote standard do Office 365 (64 bits) * | O pacote de aplicativos do Office padrão será enviado com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>Os 64 bits Click para executar (C2R) versões completas do Microsoft Project e Microsoft Visio não estão incluídos no pacote standard do Office 365.  No entanto, como a instalação desses aplicativos depende da instalação padrão do pacote do Office, a área de trabalho gerenciada da Microsoft criou os grupos de segurança e implantações do Intune padrão que o cliente usará para implantar esses aplicativos em usuários finais licenciados.  
-Armazenar aplicativos |    O Microsoft Sway, o Desktop Power BI não é fornecido com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
-Aplicativos Win32 |    O Power BI pro, o cliente do Azure Information Protection e o Microsoft Planner não são fornecidos com o dispositivo e podem ser empacotados para implantação pelo cliente. 
-Aplicativos Web |  Yammer, Office em um navegador, Delve, fluxo, StaffHub, o PowerApps não é fornecido com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
-Cloud PBX do Skype for Business Online | Este recurso está disponível por meio do Office 365. O Microsoft Managed desktop não configura nenhum aspecto desse serviço
+Pacote standard do Office 365 (64 bits) | O pacote de aplicativos do Office padrão será enviado com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>Os C2R (clique para executar) 64 as versões completas do Microsoft Project e do Microsoft Visio não estão incluídas no Office 365. No entanto, como a instalação desses aplicativos depende da instalação padrão do pacote do Office, a área de trabalho gerenciada da Microsoft criou implantações e grupos de segurança padrão do Microsoft Intune que você pode usar para implantar esses aplicativos em usuários finais licenciados. Para obter mais informações, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md)  
+Armazenar aplicativos |    O Microsoft Sway e o Power BI não são fornecidos com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
+Aplicativos Win32 |    O Teams não é fornecido com o dispositivo, mas é empacotado e fornecido pela Microsoft para os dispositivos de área de trabalho gerenciada da Microsoft. O cliente de proteção de informações do Azure não é fornecido com o dispositivo, mas você pode ter esse pacote para implantação. 
+Aplicativos Web |  O Yammer, o Office em um navegador, o Delve, o fluxo, o StaffHub, o PowerApps e o Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
+
 
 ## <a name="windows-10-enterprise-e5"></a>Windows 10 Enterprise e5
 
  |
  --- | ---
-Credential Guard |  A Microsoft fornecerá orientações e gerenciará os aspectos de nuvem desse recurso.
-Virtualização de aplicativos (App-V) |    A área de trabalho gerenciada da Microsoft não oferece suporte a esse tipo de implantação, pois ela não é suportada no Intune.
-User Experience Virtualization (UE-V) | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop.
-Experiência do usuário gerenciado  | Isso não é usado com dispositivos gerenciados pelo Microsoft Managed desktop. O MDM é usado como uma solução para o gerenciamento de dispositivos.
-Proteção avançada contra ameaças do Microsoft defender | Isso é usado pelo Microsoft Managed desktop para gerenciar políticas de segurança de dispositivos. 
+Virtualização de aplicativos (App-V) |    A área de trabalho gerenciada da Microsoft não oferece suporte a esse tipo de implantação, já que ele não é suportado pelo Microsoft Intune.
+Proteção avançada contra ameaças do Microsoft defender |  O Microsoft Managed desktop usa isso para monitorar a segurança de dispositivos. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security e5
 
  |
  --- | ---
-Mobilidade corporativa + segurança E3<br>Microsoft Azure Active Directory Premium P2 |    Todos os aspectos da Enterprise Mobility + Security E3 e do AADP podem ser usados para gerenciar dispositivos MDM.
-Microsoft Cloud App Security |  Este é um recurso opcional que os clientes podem usar com o serviço de área de trabalho gerenciada da Microsoft.
-Proteção de informações do Azure P2  |Este é um recurso opcional que os clientes podem usar com o serviço de área de trabalho gerenciada da Microsoft.
+Mobilidade corporativa + segurança E3<br>Microsoft Azure Active Directory Premium P2 |    Você pode usar todos os recursos do Enterprise Mobility + Security E3 e o Azure Active Directory Premium P2 para gerenciar dispositivos MDM.
+Microsoft Cloud App Security |  Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
+Proteção de informações do Azure P2  | Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
