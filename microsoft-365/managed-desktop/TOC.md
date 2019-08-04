@@ -2,6 +2,7 @@
 ## [O que é o Microsoft Managed desktop?](intro/index.md)
 ### [Funções e responsabilidades](intro/roles-and-responsibilities.md)
 ### [Tecnologias na área de trabalho gerenciada da Microsoft](intro/technologies.md)
+### [Área de trabalho gerenciada da Microsoft e ITIL](MMD-and-ITSM.md)
 ## [Descrição do serviço de área de trabalho gerenciada da Microsoft](service-description/index.md)
 ### [Regiões e idiomas suportados](service-description/regions-languages.md)
 ### [Ciclo de vida do produto](service-description/device-lifecycle.md)
