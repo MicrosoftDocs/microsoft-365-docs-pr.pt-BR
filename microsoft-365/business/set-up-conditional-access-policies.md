@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas de acesso condicional
+title: Configurar políticas de acesso condicional para campanhas do Microsoft 365
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,15 +19,15 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como configurar políticas de acesso condicional para o Microsoft 365 Business.
-ms.openlocfilehash: a0cc4a9085bdfe6a8d40acc69a020af1c5861fcf
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+description: Saiba como configurar políticas de acesso condicional para campanhas do Microsoft 365.
+ms.openlocfilehash: 7d8e1f16019d151478aae57b1593b0e0758e5b19
+ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913002"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35076305"
 ---
-# <a name="set-up-conditional-access-policies-for-microsoft-365-business"></a>Configurar políticas de acesso condicional para o Microsoft 365 Business
+# <a name="set-up-conditional-access-policies"></a>Configurar políticas de acesso condicional
 
 As políticas de [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) adicionam substancial segurança adicional. A Microsoft fornece um conjunto de políticas de acesso condicional de linha de base que são recomendadas para todos os clientes. As políticas de linha de base são um conjunto de políticas predefinidas que ajudam a proteger as organizações contra vários ataques comuns. Esses ataques comuns podem incluir a irrigação de senha, a repetição e o phishing.
 

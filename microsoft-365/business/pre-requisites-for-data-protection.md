@@ -3,7 +3,7 @@ title: Pré-requisitos para a proteção de dados em dispositivos com o Microsof
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 'Conheça os pré-requisitos para configurar sua organização com o Microsoft 365 Business. '
-ms.openlocfilehash: 4789e72c3e6d1c7877b236279947f1a1b64d046f
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6de76eb681037ea74d2ac026879bb0d41094d0e2
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278127"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074621"
 ---
 # <a name="pre-requisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Pré-requisitos para a proteção de dados em dispositivos com o Microsoft 365 Business
 

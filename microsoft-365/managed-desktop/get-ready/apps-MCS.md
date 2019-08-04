@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 39a5102d045d9ed79b631a3b477bd1c72dea76de
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 3687966fd49db3fd58c4ecbb3917e45ec6dfa3c3
+ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34918714"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35425734"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Como trabalhar com os serviços de consultoria da Microsoft
 
@@ -22,7 +22,7 @@ Você pode entrar com o Microsoft Consulting Services (MCS) para obter seus apli
 Para trabalhar com o pacote de aplicativos MCS, **você deve fornecer estes elementos**:
 
 - Os arquivos do instalador de origem (por exemplo, setup. exe ou. msi).
-- As instruções de instalação, especificando detalhes sobre como a instalação final deve ser verificada. Por exemplo, deve haver um atalho de área de trabalho para o aplicativo? O que a visibilidade do aplicativo deve ser? O aplicativo deve se conectar a um servidor e, em caso afirmativo, qual deles? <!--For details, see the [application packaging request template](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx). -->
+- As instruções de instalação, especificando detalhes sobre como a instalação final deve ser verificada. Por exemplo, deve haver um atalho de área de trabalho para o aplicativo? O que a visibilidade do aplicativo deve ser? O aplicativo deve se conectar a um servidor e, em caso afirmativo, qual deles? Para obter detalhes, consulte o [modelo de solicitação de pacotes de aplicativos](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx).
 - Você deve executar seu próprio teste de aceitação para verificar se o aplicativo funciona conforme você precisa para o seu ambiente.
 
 **O MCS cuidará destas ações:**

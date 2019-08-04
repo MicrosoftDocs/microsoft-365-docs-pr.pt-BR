@@ -3,7 +3,7 @@ title: Configurar dispositivos Windows para usuários do Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Saiba como configurar dispositivos do Windows que executam o Windows 10 pro para usuários do Microsoft 365 Business. '
-ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5efe3aa1e329e7a9edcfd49fcc1f1391f95fd97f
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284261"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074541"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Configurar dispositivos Windows para usuários do Microsoft 365 Business
 
@@ -36,7 +36,7 @@ Se você tiver dispositivos Windows executando o Windows 7 Pro, Windows 8 Pro ou
   
 Para obter mais informações sobre como atualizar dispositivos Windows para a Atualização do Windows 10 Pro para Criadores, siga as etapas deste tópico: [Atualize dispositivos Windows para a Atualização do Windows Pro para Criadores](upgrade-to-windows-pro-creators-update.md).
   
-ConFira [verificar se o dispositivo está conectado ao Azure ad](#verify-the-device-is-connected-to-azure-ad) para verificar se você tem a atualização ou se a atualização funcionou. 
+Confira [verificar se o dispositivo está conectado ao Azure ad](#verify-the-device-is-connected-to-azure-ad) para verificar se você tem a atualização ou se a atualização funcionou. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Ingressar dispositivos Windows 10 ao Azure AD de sua organização
 

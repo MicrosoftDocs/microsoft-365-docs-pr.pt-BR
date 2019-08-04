@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 31650774a784f1fe784c30b90bc1f9ae579b34fa
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: f7f1b8377769545c4399f54b0f2eab99a656d24f
+ms.sourcegitcommit: 18e03ab333175eccfc89e38b081022746976e513
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291608"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35595297"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -46,13 +46,13 @@ Revise esses requisitos antes de iniciar a implantação do Windows 10:
 - **Edições do Windows qualificadas para atualização** : seus dispositivos devem estar executando edições do Windows 7 ou Windows 8,1 qualificadas para atualização para o Windows 10 Enterprise. Para obter uma lista de edições suportadas, consulte [caminhos de atualização do Windows 10](https://aka.ms/win10upgradepaths). 
 - **Dispositivos suportados** : a maioria dos computadores compatíveis com o Windows 8,1 será compatível com o Windows 10. Talvez seja necessário instalar drivers atualizados no Windows 10 para que seus dispositivos funcionem corretamente. Consulte [Windows 10 Specifications](https://aka.ms/windows10specifications) para obter mais informações.
 - **Preparação da implantação** : Certifique-se de ter o seguinte antes de começar a configurar a implantação:
-    - Mídia de instalação do Windows 10: a mídia de instalação deve estar localizada em uma unidade separada, com o ISO já montado. Você pode obter a ISO de [downloads](https://aka.ms/msdn-subscriber-downloads) para assinaNtes do MSDN ou do [centro de serviços](https://aka.ms/mvlsc)de licenciamento por volume.
+    - Mídia de instalação do Windows 10: a mídia de instalação deve estar localizada em uma unidade separada, com o ISO já montado. Você pode obter a ISO de [downloads](https://aka.ms/msdn-subscriber-downloads) para assinantes do MSDN ou do [centro de serviços](https://aka.ms/mvlsc)de licenciamento por volume.
     - Backups de dados do usuário – embora os dados do usuário sejam migrados na atualização, a prática recomendada é configurar um cenário de backup. Por exemplo, exporte todos os dados do usuário para uma conta do OneDrive, unidade flash USB criptografada no BitLocker ou servidor de arquivos de rede. Para obter mais informações, consulte [back up or Transfer Data in Windows](https://aka.ms/backuptransferdatawindows).
 - **Preparação do ambiente** : você usará uma estrutura de servidor do Configuration Manager existente para se preparar para a implantação do sistema operacional. Além da configuração base, as seguintes configurações devem ser feitas no ambiente do Configuration Manager:
     1. [Estenda o esquema do Active Directory](https://aka.ms/extendadschema) e [crie um contêiner de gerenciamento do sistema](https://aka.ms/createsysmancontainer).
     2. Habilitar a descoberta de florestas do Active Directory e a descoberta de sistema do Active Directory. Para obter mais informações, consulte [Configure Discovery Methods for System Center Configuration Manager](https://aka.ms/configurediscoverymethods).
     3. Criar limites de intervalo IP e grupo de limite para a atribuição de conteúdo e de site. Para obter mais informações, consulte [definir limites do site e grupos de limite para o System Center Configuration Manager](https://aka.ms/definesiteboundaries).
-    4. Adicione e configure a função de ponto do Configuration Manager Reporting Services. Para obter mais informações, consulte Configuring rePorting [in Configuration Manager](https://aka.ms/configurereporting).
+    4. Adicione e configure a função de ponto do Configuration Manager Reporting Services. Para obter mais informações, consulte Configuring Reporting [in Configuration Manager](https://aka.ms/configurereporting).
     5. Criar uma estrutura de pasta do sistema de arquivos para pacotes.
     6. Criar uma estrutura de pasta do console do Configuration Manager para pacotes.
     7. Instale as atualizações do System Center Configuration Manager (Branch atual) e os pré-requisitos adicionais do Windows 10.
@@ -121,7 +121,7 @@ Siga estas etapas para criar uma implantação para a sequência de tarefas.
 7. Na página **alertas** , aceite as configurações padrão e, em seguida, selecione **Avançar**.
 8. Na página **Resumo** , selecione **Avançar**e, em seguida, selecione **Fechar**.
 
-## <a name="part-5-start-the-windows-10-upgrade-task-sequence"></a>Parte 5: iniciar a sequência de tarefas de atualização do Windows 10
+## <a name="part-4-start-the-windows-10-upgrade-task-sequence"></a>Parte 4: iniciar a sequência de tarefas de atualização do Windows 10
 Siga estas etapas para iniciar a sequência de tarefas de atualização do Windows 10 no dispositivo que você está atualizando.
  
 1. Faça logon no computador do Windows e inicie a **central de software**.
@@ -133,7 +133,7 @@ Se você tiver problemas ao usar o Windows 10 em um ambiente corporativo, poder�
 
 Durante a implantação das atualizações em sua organização, use o recurso de conformidade de atualização do Windows Analytics para fornecer uma visão holística da conformidade de atualização do sistema operacional, o progresso da implantação e a solução de problemas de falha para dispositivos Windows 10. Esse novo serviço usa dados de diagnóstico, incluindo o progresso da instalação, a configuração do Windows Update e outras informações para fornecer essas insights, sem custo adicional e sem requisitos de infraestrutura adicionais. Se ele é usado com o Windows Update para empresas ou outras ferramentas de gerenciamento, você pode ter certeza de que seus dispositivos estão atualizados corretamente.
 
-ConFira [monitorar as atualizações do Windows e o Windows Defender Antivirus com a conformidade de atualização](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor) para saber mais, começar e usar a conformidade de atualização.
+Confira [monitorar as atualizações do Windows e o Windows Defender Antivirus com a conformidade de atualização](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor) para saber mais, começar e usar a conformidade de atualização.
 
 Como ponto de verificação provisório, é possível conferir os [Critérios de saída](windows10-exit-criteria.md#crit-windows10-step2) para esta etapa.
 

@@ -3,16 +3,16 @@ title: Instalar o portal da empresa do Intune dispositivos de área de trabalho 
 description: Informações sobre a instalação do aplicativo portal da empresa em dispositivos de área de trabalho gerenciada da Microsoft
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, portal da empresa
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 03/08/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d533de7b68d9fa55ff0a108373d9621068c8fb1e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a9ce2b2455b6036170636ac564c450676473ac48
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289106"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390698"
 ---
 # <a name="install-intune-company-portal-on-microsoft-managed-desktop-devices"></a>Instalar o portal da empresa do Intune em dispositivos de área de trabalho gerenciado da Microsoft
 

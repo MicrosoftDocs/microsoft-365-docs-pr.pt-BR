@@ -3,7 +3,7 @@ title: Solucionar problemas de dispositivo do AutoPilot
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: troubleshooting
 f1_keywords:
 - ZTDTroubleshootDeviceErrors
@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
 description: Saiba como solucionar erros de arquivo de dispositivo piloto automático.
-ms.openlocfilehash: 9d4a47f78c38d8c076f5b3876a36b6bf46eaaaf3
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 88b59ec20ddda401c1dac45ff729ac38497a767e
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279829"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074351"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Solucionar problemas de dispositivo do AutoPilot
 
 ## <a name="device-file-error-messages"></a>Mensagens de erro de arquivo de dispositivo
 
-Veja a seguir informações sobre alguns dos erros que você pode ver enquanto estiver trabalhando com arquivos de dispositivo do autoPilot no Microsoft 365 Business. 
+Veja a seguir informações sobre alguns dos erros que você pode ver enquanto estiver trabalhando com arquivos de dispositivo do AutoPilot no Microsoft 365 Business. 
   
 |**Código de erro**|**Correção para tentar**|
 |:-----|:-----|
@@ -43,6 +43,6 @@ Veja a seguir informações sobre alguns dos erros que você pode ver enquanto e
 |O valor de hash de hardware para um dispositivo não está correto.  <br/> |Se você vir esse erro, significa que o valor que você forneceu no arquivo CSV para o hash de hardware de um dispositivo não está correto. Primeiro, verifique se o valor foi digitado corretamente. Se você achar que o valor está correto, mas esse erro ainda está ocorrendo, peça ajuda ao fornecedor do hardware.  <br/> |
 |Dispositivo atribuído a outro locatário  <br/> |Se você vir esse erro, significa que o valor que você forneceu no arquivo CSV para o número de série ou a chave de produto de um ou mais dispositivos está incorreto. Primeiro, verifique se o valor foi digitado corretamente. Se você achar que o valor está correto, mas esse erro ainda está ocorrendo, peça ajuda ao fornecedor do hardware.  <br/> |
 |O arquivo CSV contém um número de série ou chave de produto inválida  <br/> |Se você vir esse erro, significa que o dispositivo que você está tyring a registrar já está registrado por outra organização. Para corrigir isso, peça ajuda ao fornecedor do hardware.  <br/> |
-|Este dispositivo não tem suporte para a instalação usando o autoPilot  <br/> | Este erro significa que o dispositivo não atende aos requisitos de implantação do piloto automático. Os dispositivos precisam atender a esses requisitos:  <br/>  Windows 10, versão 1703 ou posteriores.  <br/>  Novos dispositivos que ainda não passaram pela configuração inicial pelo usuário do Windows.  <br/> |
+|Este dispositivo não tem suporte para a instalação usando o AutoPilot  <br/> | Este erro significa que o dispositivo não atende aos requisitos de implantação do piloto automático. Os dispositivos precisam atender a esses requisitos:  <br/>  Windows 10, versão 1703 ou posteriores.  <br/>  Novos dispositivos que ainda não passaram pela configuração inicial pelo usuário do Windows.  <br/> |
 |Dispositivo não encontrado  <br/> |Esse erro significa que um ou mais dispositivos no seu arquivo CSV não estão registrados na sua organização. Para corrigir isso, peça ajuda ao fornecedor do hardware.  <br/> |
    

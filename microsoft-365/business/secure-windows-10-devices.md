@@ -3,7 +3,7 @@ title: Proteger dispositivos Windows 10
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4WindowsConfig
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Saiba mais sobre o padrão e outras configurações para proteger dispositivos Windows 10. '
-ms.openlocfilehash: 6f06936c2075710210ad9e29ee92905b3b49917a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b56aac0c760aa0e57d48683b5f1726c9add16d20
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278048"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074411"
 ---
 # <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
 
@@ -39,7 +39,7 @@ Todas as configurações são **Ativadas** por padrão. As configurações a seg
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Desligar a tela do dispositivo quando ele ficar ocioso durante este período  <br/> |Garante que os dados da empresa estejam protegidos se um usuário ficar ocioso. Um usuário pode estar trabalhando em um local público, como um café, e se distanciar ou distrair por um momento, deixando seu dispositivo vulnerável a olhares aleatórios. Essa configuração permite que você controle quanto tempo o usuário pode ficar ocioso antes que a tela seja desligada.  <br/> |

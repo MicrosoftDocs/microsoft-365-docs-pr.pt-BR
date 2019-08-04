@@ -3,16 +3,16 @@ title: Serviços de dispositivo de área de trabalho gerenciado da Microsoft
 description: Este tópico lista os serviços de dispositivo e limitações da área de trabalho gerenciada da Microsoft.
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 01e6edf99ff1aa59517f4f5c7d106cd8724fa04b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 533d51da027441ac199c3e1bfefb42812309a91b
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286168"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390648"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Serviços de dispositivo de área de trabalho gerenciado da Microsoft
 
@@ -25,7 +25,7 @@ A Microsoft fornecerá esses serviços para os dispositivos de área de trabalho
  | 
  --- | ---
 Suporte | Os agentes de suporte responderão perguntas diretamente relacionadas à funcionalidade do dispositivo e a diagnosticar problemas de dispositivos.
-Estoque | Todos os dispositivos são rastreados no portal de administração de área de trabalho gerenciada da Microsoft para inventário e acompanhamento de status.
+Inventariar | Todos os dispositivos são rastreados no portal de administração de área de trabalho gerenciada da Microsoft para inventário e acompanhamento de status.
 Firmware/atualizações de driver | As atualizações de firmware/driver são implantadas e monitoradas para compatibilidade da Microsoft. 
 Acessórios | Os acessórios que acompanham o dispositivo são cobertos pelos mesmos serviços que o próprio dispositivo, mas os termos de garantia podem ser diferentes. Consulte os termos de garantia escolhidos ao selecionar seus dispositivos. 
 Configuração do dispositivo    | Os dispositivos serão pré-configurados com a versão atual do Windows e receberão seus aplicativos e configurações por meio da nuvem. 

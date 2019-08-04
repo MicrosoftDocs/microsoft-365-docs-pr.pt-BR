@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 4915bf5d1b89720c65a5134b23d9d837febff357
-ms.sourcegitcommit: 184957e2878388e0d427a7ee47577d29c4e3c483
+ms.openlocfilehash: 7d09e2fbf9d21497aa9bd43d308978979a6c73c6
+ms.sourcegitcommit: c6ee468b4aeb3684d332cb79f5cd121f60f32d3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35605960"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35795617"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
 
@@ -23,6 +23,9 @@ Este tópico lista os tópicos novos e atualizados na [documentação da área d
 Tópico novo ou alterado | Descrição
 --- | ---
 [Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
+[Área de trabalho gerenciada da Microsoft e ITIL](MMD-and-ITSM.md) | Novo tópico
+[Configuração do dispositivo](service-description/device-policies.md) | Tópico atualizado
+
 
 ## <a name="june-2019"></a>Junho de 2019
 Tópico novo ou alterado | Descrição

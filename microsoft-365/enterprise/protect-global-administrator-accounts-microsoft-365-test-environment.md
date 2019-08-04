@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/16/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 86b2d325fc710fd8b387bc37cad5f8ea60df001d
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 7a6f99ae1123b07618dea9910a0bdd993e36ca13
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353053"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074141"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
 
@@ -29,10 +29,10 @@ Há duas fases para proteger as contas de administrador global no seu ambiente d
 1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Proteger sua conta de administrador global dedicado.
 
-![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -66,7 +66,7 @@ Em seguida, crie um novo grupo chamado GlobalAdmins e adicione a conta Dedicated
 4. Clique em **selecionar proprietário** clique em sua conta de administrador global e, em seguida, clique em **Adicionar > fechar**.
 5. Na lista de grupos, clique no grupo **GlobalAdmins** .
 6. Na página **GlobalAdmins** , clique em **Editar para membro**e, em seguida, clique em **adicionar membros**.
-7. Na lista, clique na conta **DedicatedAdmin** e, em seguida, clique em **salvar _GT_ fechar > fechar o centro de administração do >**.
+7. Na lista, clique na conta **DedicatedAdmin** e, em seguida, clique em **salvar > fechar > fechar o centro de administração do >**.
 
 Em seguida, crie políticas de acesso condicional para exigir a autenticação multifator para contas de administrador global e para negar a autenticação se o risco de entrada for médio ou alto.
 
@@ -75,15 +75,15 @@ Essa primeira política requer que todas as contas de administrador global usem 
 1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com).
 2. Clique em **Azure Active Directory > acesso condicional**.
 3. Na folha **acesso condicional – políticas** , clique em **política de linha de base: exigir MFA para administradores (visualização)**.
-4. Nas **políticas de linha de base...** lâmina, clique em **usar política imediatamente _GT_ salvar**.
+4. Nas **políticas de linha de base...** lâmina, clique em **usar política imediatamente > salvar**.
 
 Essa segunda política bloqueia o acesso à autenticação de conta de administrador global quando o risco de entrada é médio ou alto.
 
 1. Na folha **acesso condicional – políticas** , clique em **nova política**.
 2. Na **nova** folha, digite **administradores globais** em **nome**.
 3. Na seção **atribuições** , clique em **usuários e grupos**.
-4. Na guia **incluir** da folha **usuários e grupos** , clique em **Selecionar usuários e grupos _GT_ usuários e grupos > selecionar**.
-5. Na folha **selecionar** , clique em **GlobalAdmins _GT_ selecionar > concluído**.
+4. Na guia **incluir** da folha **usuários e grupos** , clique em **Selecionar usuários e grupos > usuários e grupos > selecionar**.
+5. Na folha **selecionar** , clique em **GlobalAdmins > selecionar > concluído**.
 6. Na seção **atribuições** , clique em **condições**.
 7. Na folha **condições** , clique em **risco de entrada**, clique em **Sim** para **Configurar**, clique **em alta** e **média**e, em seguida, clique em **selecionar** e **concluir**.
 8. Na seção **controles de acesso** da **nova** folha, clique em **conceder**.

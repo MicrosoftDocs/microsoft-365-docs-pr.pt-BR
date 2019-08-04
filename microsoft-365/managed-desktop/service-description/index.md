@@ -5,17 +5,18 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 59344a338e051b32225574c18609ffde09716c8c
-ms.sourcegitcommit: 83338be246ae104724d7f38af12fe7f6546fec27
+ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
+ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933540"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35830489"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço de área de trabalho gerenciada da Microsoft
 
 O Microsoft Managed desktop é um serviço que oferece aos usuários uma experiência moderna e sempre mantém os dispositivos atualizados com as versões mais recentes do Windows 10 Enterprise Edition, do Office 365 ProPlus e dos serviços de segurança da Microsoft, incluindo:
 
+- Registro simplificado de novos dispositivos
 - Configuração de dispositivos
 - Recursos para manter os usuários e dispositivos seguros, incluindo o Windows Hello, BitLocker, SecureBoot e a segurança baseada em virtualização de acordo com as práticas recomendadas da Microsoft
 - Serviços de monitoramento e correção de segurança de dispositivo

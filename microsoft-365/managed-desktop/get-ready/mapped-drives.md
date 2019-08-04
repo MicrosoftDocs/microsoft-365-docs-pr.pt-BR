@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b3fc4a4ed82c01188f348d2e494a0dbf7effc77a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: e4c2dbe8f1cae12aa1b10c6cd43f295a9a6062d0
+ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34079261"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100707"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft
 
@@ -25,7 +25,7 @@ A modernização desses serviços permitirá a melhor experiência do usuário f
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Unidades mapeadas na área de trabalho gerenciada da Microsoft
  
-Se você não puder remover ou substituir unidades mapeadas para alguns casos de uso, envie uma solicitação de suporte no portal de área de trabalho gerenciada da Microsoft para que elas sejam implantadas nos usuários de área de trabalho gerenciada da Microsoft.
+Se você não puder remover ou substituir unidades mapeadas para alguns casos de uso, envie uma solicitação de suporte no portal de administração de área de trabalho gerenciada da Microsoft para que eles sejam implantados em usuários de área de trabalho gerenciada da Microsoft.
     
 Para tal solicitação, você precisará fornecer os seguintes detalhes na solicitação de suporte: 
 
@@ -46,7 +46,7 @@ Por exemplo:
 Verifique se as unidades mapeadas não podem ser evitadas e se você analisou cuidadosamente os requisitos antes de enviar qualquer solicitação de serviço. Siga estas etapas:
 
 1. Navegue até o [portal de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal).  
-2. Envie uma solicitação de suporte intitulada "implantação de unidades mapeadas" por meio da seção **support _GT_ support requests** e forneça todos os detalhes de compartilhamento de arquivos necessários.  
-3. As operações de área de trabalho gerenciada da Microsoft avisarão usando as atualizações de solicitação de suporte, quando a solicitação tiver sido concluída. Inicialmente, essa configuração só será implantada em dispositivos no grupo de implantação de teste.  
-4. Você deve testar e confirmar se a configuração implantada pela equipe de operações de área de trabalho gerenciada da Microsoft funciona conforme o esperado. Use a solicitação de suporte para atualizar as operações de área de trabalho gerenciada da Microsoft depois de concluir o teste.  
-5. A equipe de operações de área de trabalho gerenciada da Microsoft implantará a configuração em outros grupos de implantação. 
+2. Envie uma solicitação de suporte intitulada "implantação de unidades mapeadas" por meio da seção de suporte de **solicitações de suporte >** e forneça todos os detalhes necessários do compartilhamento de arquivos.  
+3. As operações de ti de área de trabalho gerenciada da Microsoft avisarão usando as atualizações de solicitação de suporte, quando a solicitação tiver sido concluída. Inicialmente, essa configuração só será implantada em dispositivos no grupo de implantação de teste.  
+4. Você deve testar e confirmar se a configuração implantada pelas operações de ti de área de trabalho gerenciada da Microsoft funciona conforme o esperado. Responda usando a guia discussão na solicitação de suporte para notificar as operações de ti de área de trabalho gerenciada da Microsoft depois de concluir o teste.  
+5. A equipe de operações de ti de área de trabalho gerenciada da Microsoft implantará a configuração em outros grupos de implantação. 

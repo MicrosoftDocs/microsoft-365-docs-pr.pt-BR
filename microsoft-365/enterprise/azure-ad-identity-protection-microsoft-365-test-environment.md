@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 08/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configure o Azure AD Identity Protection e analise as contas atuais em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: bdac512f7645bf78c0a9c6bc5f71b35916bc4812
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d267bb9dff94acfec46fa1275887f9cade2a7285
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279090"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074081"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Proteção de identidade do Azure AD para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -26,7 +26,7 @@ O Azure AD Identity Protection permite que você detecte possíveis vulnerabilid
 
 Há duas fases para configurar a proteção de identidade do Azure AD no seu ambiente de teste do Microsoft 365 Enterprise:
 
-1. Crie o ambiente de teste do Microsoft 365 Enterprise.
+1. Criar o ambiente de teste do Microsoft 365 Enterprise.
 2. Habilitar e usar a proteção de identidade do Azure AD.
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
@@ -46,7 +46,7 @@ Se você quiser testar a proteção de identidade do Azure AD em uma empresa sim
 ## <a name="phase-2-enable-and-use-azure-ad-identity-protection"></a>Fase 2: habilitar e usar a proteção de identidade do Azure AD
 
 1. Abra uma instância privada do navegador e entre no portal do Azure em [https://portal.azure.com](https://portal.azure.com) com a conta de administrador global do ambiente de teste do Microsoft 365 Enterprise.
-2. No portal do Azure, clique em **todos os serviços do _GT_ Marketplace**.
+2. No portal do Azure, clique em **todos os serviços > Marketplace**.
 3. Digite **proteção de identidade do Azure ad** e clique nele.
 4. Na folha **introdução** , clique em em **** **configurações**, clique em **fixar no painel**e clique em **criar**.
 5. No portal do Azure, clique em **proteção de identidade do Azure ad** no painel. 

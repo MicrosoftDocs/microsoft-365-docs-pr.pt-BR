@@ -3,7 +3,7 @@ title: Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4StolenDevice
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Saiba mais sobre as configurações disponíveis para proteger os arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
-ms.openlocfilehash: 1256f54b2ff626ea7b85d91020e355c8b611a8c0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 505b85dabfdd27a9da8b7bcfdf7741dbb22b0ba3
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285341"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074441"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou roubado
 
@@ -39,7 +39,7 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado pela quantidade de dias que você especificar aqui, quaisquer arquivos de trabalho armazenados nele serão excluídos automaticamente.  <br/> |
 |Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **Ativada**, o único local disponível para salvar arquivos de trabalho será o OneDrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |

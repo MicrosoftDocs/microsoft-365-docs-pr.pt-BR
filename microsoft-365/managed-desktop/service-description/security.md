@@ -3,15 +3,15 @@ title: Segurança na área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: b91b646b00869827dfb2131e9df9db38a770d9df
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5987dcaf717ecb2907f02db675a77c3e1d2d2220
+ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278630"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35425664"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
@@ -19,7 +19,7 @@ ms.locfileid: "32278630"
 
 O Microsoft Managed desktop aplica um conjunto padrão de políticas e utiliza muitas tecnologias da Microsoft para ajudar a proteger os dispositivos de área de trabalho gerenciada da Microsoft, os dados da empresa armazenados e muito mais. As áreas listadas abaixo são detalhadas:  
 
-- [Segurança de dados](#data-security) -tipos de dados coletados pela área de trabalho gerenciaDa da Microsoft e onde eles são armazenados com segurança
+- [Segurança de dados](#data-security) -tipos de dados coletados pela área de trabalho gerenciada da Microsoft e onde eles são armazenados com segurança
 - [Segurança do dispositivo](#device-security) – segurança e proteção nos dispositivos de área de trabalho gerenciada da Microsoft
 - [Gerenciamento de identidade e acesso](#identity-and-access-management) – Gerenciando o uso seguro de dispositivos por meio do Azure Active Directory Identity Services
 - [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
@@ -46,9 +46,9 @@ O Microsoft Managed desktop garante que todos os dispositivos gerenciados estão
 
 Serviço | Descrição
 --- | ---
-Antivírus | O Windows Defender AV está instalado e configurado<br>As definições AV do Windows Defender estão atualizadas
+Antivírus | O Microsoft defender AV está instalado e configurado<br>As definições de AV do Microsoft defender estão atualizadas
 Criptografia de volume completo |    O Windows BitLocker é a solução de criptografia de volume para dispositivos de área de trabalho gerenciada da Microsoft.<br><br>Depois que uma organização é integrada ao serviço, os dispositivos serão criptografados usando o Windows BitLocker com o módulo de plataforma de confiança (TPM) interno para impedir o acesso não autorizado a dados locais quando o dispositivo estiver no modo de suspensão ou desativado. 
-Monitoramento |    A proteção avançada contra ameaças do Windows Defender (Windows Defender ATP) é usada para monitoramento de ameaças de segurança em todos os dispositivos de área de trabalho gerenciado da Microsoft. O Windows Defender ATP permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em sua rede corporativa. Para obter mais informações, consulte [proteção avançada contra ameaças do Windows Defender.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
+Monitoramento |    A proteção avançada contra ameaças do Microsoft defender (Microsoft defender ATP) é usada para monitoramento de ameaças de segurança em todos os dispositivos de área de trabalho gerenciado da Microsoft. O Microsoft defender ATP permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em sua rede corporativa. Para obter mais informações, consulte [proteção avançada contra ameaças do Microsoft defender.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
 Atualizações do sistema operacional |  Os dispositivos de área de trabalho gerenciada da Microsoft sempre são protegidos com as últimas atualizações de segurança.
 Configuração de dispositivo seguro |   O Microsoft Managed desktop implementa a linha de base de segurança da Microsoft. Para obter mais informações, consulte [linhas de base de segurança do Windows.](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)
 
@@ -61,7 +61,7 @@ O gerenciamento de identidades e acesso protege os ativos corporativos e os dado
 Serviço | Descrição
 --- | ---
 Autenticação biométrica |  O Windows Hello permite que os usuários façam logon usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
-Autenticação multifator | A autenticação multifator do Azure controla mais rigidamente o acesso a funções confidenciais do serviço de área de trabalho gerenciada da Microsoft, fornecendo um nível adicional de autenticação usando um telefone celular, bem como redefinição de senha de autoatendimento. 
+Multi-factor Authentication | A autenticação multifator do Azure controla mais rigidamente o acesso a funções confidenciais do serviço de área de trabalho gerenciada da Microsoft, fornecendo um nível adicional de autenticação usando um telefone celular, bem como redefinição de senha de autoatendimento. 
 Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, as permissões de usuário padrão serão atribuídas ao usuário. Isso é atribuído como parte da experiência inicial da caixa do Windows AutoPilot.
 
 

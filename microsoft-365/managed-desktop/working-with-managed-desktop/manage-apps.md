@@ -3,16 +3,16 @@ title: Gerenciar aplicativos na área de trabalho gerenciada da Microsoft
 description: Informações sobre como atualizar aplicativos de linha de negócios implantados em dispositivos de área de trabalho gerenciada da Microsoft
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ce2765ef2ab176dc5d9a1d41db7e26549b007d79
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 87968e1238ee5b3dce6e569846e253dada72dd6d
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285941"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390728"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Gerenciar aplicativos de linha de negócios na área de trabalho gerenciada da Microsoft
 
@@ -25,7 +25,7 @@ Há algumas maneiras de gerenciar as atualizações de aplicativo para aplicativ
 ## <a name="update-line-of-business-apps-in-microsoft-managed-desktop"></a>Atualizar aplicativos de linha de negócios na área de trabalho gerenciada da Microsoft
 
 **Para atualizar seus aplicativos de linha de negócios no portal de área de trabalho gerenciada da Microsoft**
-1. Entre no [portal de administração de área de trabalho gerenciaDa da Microsoft](http://aka.ms/mmdportal).
+1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mmdportal).
 2. Em **inventário**, selecione **aplicativos**.  
 3. Selecione o aplicativo que você deseja atualizar e, em seguida, selecione **Editar**.
 4. Em **gerenciar**, selecione **Propriedades**. 
@@ -43,7 +43,7 @@ O aplicativo atualizado será implantado nos dispositivos do usuário.
 **Para atualizar seus aplicativos de linha de negócios no Intune**
 1. Entre no [portal do Azure](https://azure.portal.com).
 2. Selecione **todos os serviços** > do**Intune**. O Intune está na seção **monitoramento + gerenciamento** .
-3. Selecione aplicativos **cliente >**.
+3. Selecione **aplicativos cliente > aplicativos**.
 4. Localize e selecione seu aplicativo na lista de aplicativos.
 5. Na folha **visão geral** , selecione **Propriedades**.
 6. Selecione o **arquivo do pacote de aplicativos**.
@@ -58,7 +58,7 @@ Se houver um erro encontrado quando uma nova versão de um aplicativo for implan
 
 **Para reverter um aplicativo de linha de negócios para uma versão anterior**
 
-1. Entre no [portal de administração de área de trabalho gerenciaDa da Microsoft](http://aka.ms/mmdportal).
+1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mmdportal).
 2. Em **inventário**, selecione **aplicativos**.  
 3. Selecione o aplicativo que você precisa reverter e, em seguida, selecione **Editar**.
 4. Em **gerenciar**, selecione **Propriedades**. 

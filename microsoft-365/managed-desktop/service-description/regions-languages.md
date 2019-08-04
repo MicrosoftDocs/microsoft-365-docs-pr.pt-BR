@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3b89591943e060eb752f0301258f2114f3a84608
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: bdd11728b6b3b5ebaf0eea507906e4fc31adb7b5
+ms.sourcegitcommit: d9350b6465d1404d32bcba8f5fc5a203085e6b82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34482695"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786726"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Idiomas e regiões compatíveis com o Microsoft Managed desktop
 
@@ -20,7 +20,7 @@ Este tópico fornece detalhes sobre regiões e idiomas suportados pela área de 
 - **Regiões:** Estados Unidos, Canadá (exceto Quebec), Reino Unido, Austrália e Nova Zelândia
 - **Idiomas:** O inglês é o único idioma suportado atualmente disponível para os usuários em dispositivos gerenciados. Isso se aplica às opções de suporte do [administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e do [usuário final](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support) . 
 
-No entanto, os clientes ainda podem usar dispositivos gerenciados fora das regiões listadas acima sem uma interrupção do serviço de área de trabalho gerenciada da Microsoft. Por exemplo, um funcionário com base no Reino Unido pode trabalhar com segurança e receber atualizações em seus dispositivos gerenciados durante viagens Ásia, Europa ou América do Sul.
+No entanto, os clientes ainda podem usar dispositivos gerenciados fora das regiões listadas acima sem uma interrupção para o serviço de área de trabalho gerenciada da Microsoft. Por exemplo, um funcionário com base no Reino Unido pode trabalhar com segurança e receber atualizações em seus dispositivos gerenciados durante viagens Ásia, Europa ou América do Sul.
 
 Para obter mais informações sobre o suporte do usuário com a área de trabalho gerenciada da Microsoft, consulte [support for Microsoft Managed desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support).
 

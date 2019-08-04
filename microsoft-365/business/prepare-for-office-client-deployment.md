@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 10/31/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Saiba como instalar automaticamente os aplicativos do Office de 32 bits em computadores com o Windows 10 e mantê-los atualizados.
-ms.openlocfilehash: c8e93746b89925d6b6a928a474fe5736e2834987
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 20269c493b0e3b5a7deb56a24a5e1a9583ef9d0a
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286633"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074641"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Preparar para distribuição de cliente do Office com o Microsoft 365 Business
 

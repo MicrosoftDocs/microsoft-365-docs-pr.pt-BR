@@ -3,22 +3,22 @@ title: Configurações configuráveis para a área de trabalho gerenciada da Mic
 description: Informações sobre configurações configuráveis com a área de trabalho gerenciada da Microsoft
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, configurações, configurações configuráveis
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0d30e92eb9747079a7edc5a8fd198298508f342e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d8ebe4519d169db5500c55a3337836ca2d0986c0
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278207"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390718"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações configuráveis-Microsoft Managed desktop
 
 O Microsoft Managed desktop implanta configurações e políticas que são aplicadas a todos os dispositivos gerenciados pela área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [Device Configuration](../service-description/device-policies.md).
 
-As configurações que podem ser conFiguradas no Microsoft Managed desktop concedem aos administradores de ti uma maneira de personalizar e implantar as configurações exclusivas de sua organização e necessidades de negócios. Essas configurações são adicionais às configurações e políticas de configuração de dispositivo gerenciadas pela área de trabalho gerenciada da Microsoft.  
+As configurações que podem ser configuradas no Microsoft Managed desktop concedem aos administradores de ti uma maneira de personalizar e implantar as configurações exclusivas de sua organização e necessidades de negócios. Essas configurações são adicionais às configurações e políticas de configuração de dispositivo gerenciadas pela área de trabalho gerenciada da Microsoft.  
 
 Alterações de configuração configuráveis são feitas na nuvem e aplicadas a seus dispositivos de área de trabalho gerenciada da Microsoft em grupos de implantação definidos. Esse processo é semelhante à forma como o Microsoft Managed desktop gerencia alterações nas configurações e políticas do configuruation de dispositivos definidas e gerenciadas pelo serviço. Usando o mesmo processo que o Microsoft Managed desktop usa para implantar alterações, você continua a mover sua organização para frente, usando práticas modernas de gerenciamento de ti.
 

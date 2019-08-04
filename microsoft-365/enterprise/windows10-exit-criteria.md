@@ -4,7 +4,7 @@ ms.author: greglin
 author: greg-lindsay
 manager: laurawi
 ms.date: 03/05/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para o Windows 10 Enterprise.
-ms.openlocfilehash: 1e8a2e748f42431465c027acbc468f4c5891d320
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 29ab2373321485d8de892a29132d1af07a318b7b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289501"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074101"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Fase 3: critérios de saída da infraestrutura do Windows 10 Enterprise
 
@@ -37,7 +37,7 @@ Se necessário, a [Etapa 1](windows10-prepare-your-org.md) pode ajudá-lo com es
 
 ## <a name="optional-your-users-are-added-and-licensed"></a>Opcional: os usuários são adicionados e licenciados
 
-As contas que correspondem aos usuários são adicionadas, diretamente ao locatário do Azure AD para as assinaturas do Office 365 e do Intune ou na sincronização de diretório dos Serviços de Domínio do Active Directory (AD DS) local.
+As contas que correspondem aos usuários são adicionadas, diretamente ao locatário do Azure AD para as assinaturas do Office 365 e do Intune ou na sincronização do diretório dos Serviços de Domínio do Active Directory (AD DS) local.
 
 Depois de adicionar os usuários, atribua licenças do Microsoft 365 Enterprise a eles, diretamente como um administrador de usuários ou global ou automaticamente usando uma associação de grupo.
 

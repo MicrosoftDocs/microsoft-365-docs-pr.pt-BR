@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 8/13/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Saiba como os recursos de proteção no Microsoft 365 Business MAP para o Intune Settings. A assinatura fornece a você uma licença para modificar as configurações do Intune.
-ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278546"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074251"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Como os recursos de proteção no Microsoft 365 Business mapeiam para as configurações do Intune
 
@@ -37,7 +37,7 @@ A tabela a seguir fornece detalhes sobre como as configurações de política de
   
 Para localizar a configuração do Intune, enquanto estiver conectado com suas credenciais de administrador do Microsoft 365 Business, vá para **centros de administração**e, em seguida, **Intune**.
   
- **Importante:** Uma assinatura do Microsoft 365 Business fornece uma licença para modificar todas as configurações do Intune. ConFira [introdução ao Intune para começar.](https://docs.microsoft.com/intune/introduction-intune)
+ **Importante:** Uma assinatura do Microsoft 365 Business fornece uma licença para modificar todas as configurações do Intune. Confira [introdução ao Intune para começar.](https://docs.microsoft.com/intune/introduction-intune)
   
 Clique no nome da Política que você deseja selecionar (por exemplo, Política de aplicativo para Android) e escolha **Configurações de política**.
   
@@ -88,7 +88,7 @@ Clique no nome de política que você deseja selecionar e escolha **Geral, Atrib
 
 A tabela a seguir fornece detalhes sobre como as definições de configuração de dispositivo do Windows 10 são mapeadas para configurações do Intune.
   
-para localizar a configuração do Intune, enquanto estiver conectado com suas credenciais de administrador do Microsoft 365 Business, vá para [portal do Azure](https://portal.azure.com)e, em seguida, selecione **mais serviços**e digite o intune no **filtro**, selecione o dispositivo do **Intune** \> ** ** \> **perfis**de configuração. Selecione **Política de dispositivo para Windows 10** \> **Propriedades** \> **Configurações**.
+Para localizar a configuração do Intune, enquanto estiver conectado com suas credenciais de administrador do Microsoft 365 Business, vá para [portal do Azure](https://portal.azure.com)e, em seguida, selecione **mais serviços**e digite o Intune no **filtro**, selecione o dispositivo do **Intune** \> ** ** \> **perfis**de configuração. Selecione **Política de dispositivo para Windows 10** \> **Propriedades** \> **Configurações**.
   
 |**Configuração de política de dispositivo do Windows 10**|**Configuração(ões) do Intune**|
 |:-----|:-----|
