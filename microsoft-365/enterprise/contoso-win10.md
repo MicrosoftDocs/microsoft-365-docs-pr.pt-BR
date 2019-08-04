@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usou o System Center Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
-ms.openlocfilehash: f5f8335b8769daf28b55769fc64fed6607b69eb3
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 03ee4d9efcedf42eb976e001411299d2080abf83
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289161"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073851"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Implantação do Windows 10 Enterprise para a Contoso
 

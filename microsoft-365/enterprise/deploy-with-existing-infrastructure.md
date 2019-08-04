@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 06/04/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lea os critérios de saída para a implantação do Microsoft 365 Enterprise, quando você tiver uma infraestrutura existente.
-ms.openlocfilehash: 7087094bc52196b2002e3b9c657335cc92af51cb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8c9c1d1900e9fd1a025d3fd74cc9f358b612a4d1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289614"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073911"
 ---
 # <a name="deployment-of-microsoft-365-enterprise-with-existing-infrastructure"></a>Implantação do Microsoft 365 Enterprise com a infraestrutura existente
 
