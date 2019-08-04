@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/16/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de identidade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 932b6fb2cfeb86edcf708bdfdea55cdd8b580838
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6acd462a0fcd4169a42a0b1d0e1738ffcba597f5
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288727"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073891"
 ---
 # <a name="phase-2-identity"></a>Fase 2: identidade
 
@@ -58,10 +58,7 @@ A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Saiba como os especialistas de TI da Microsoft planejaram e implantaram os recursos de identidade do Microsoft 365 Enterprise com estes recursos:
-
-- [Gerenciamento de identidades de usuários e acesso seguro da Microsoft](https://www.microsoft.com/itshowcase/Article/Content/931/Managing-user-identities-and-secure-access-at-Microsoft)
-- [Usar o Azure AD Privileged Identity Management para acesso elevado](https://www.microsoft.com/itshowcase/Article/Content/887/Using-Azure-AD-Privileged-Identity-Management-for-elevated-access)
+Saiba como os especialistas de TI [da Microsoft gerenciam identidades e protegem o acesso.](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR5)
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 

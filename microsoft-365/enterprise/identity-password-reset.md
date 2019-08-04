@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/19/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a redefinição de senha de autoatendimento (SSPR) do Azure Active Directory.
-ms.openlocfilehash: 98118a5891ea8224843faa638b52a421d96e8a0b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b57291aabf1b51e7866dba10ba50eacc27291a2a
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287042"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073721"
 ---
 # <a name="step-5-simplify-access-for-users"></a>Etapa 5: Simplificar o acesso para usuários
 
@@ -30,7 +30,7 @@ ms.locfileid: "32287042"
 
 *Isso é opcional para ambientes híbridos e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-Nesta seção, você permitirá que os usuários redefinam suas senhas através do Azure Active Directory (Azure AD) que depois é replicada para os seus serviços locais de domínio do Active Directory (AD DS). Este processo é conhecido como write-back de senha. Com o write-back de senha, os usuários não precisam atualizar suas senhas através dos serviços locais de domínio do Active Directory (AD DS), onde as contas de usuário e seus atributos são armazenados. Isso é valioso para usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
+Nesta seção, você permitirá que os usuários redefinam suas senhas através do Azure Active Directory (Azure AD) que depois é replicada para os seus serviços locais de domínio do Active Directory (AD DS). Este processo é conhecido como write-back de senha. Com o write-back de senha, os usuários não precisam atualizar suas senhas através dos serviços locais de domínio do AD DS, onde as contas de usuário e seus atributos são armazenados. Isso é valioso para usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
 
 O write-back de senha é necessário para utilizar completamente as capacidades de recursos de Proteção de Identidade, por exemplo para exigir que os usuários alterem a senha local quando for detectado um alto risco de comprometimento da conta.
 
