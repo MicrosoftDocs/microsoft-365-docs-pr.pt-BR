@@ -10,22 +10,57 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: d810dbfa6abb4935ae9d7078f9ed475123be405c
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: 95805d6d61f2e8454ade16298db78370b0fca9f1
+ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698353"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35078921"
 ---
-# <a name="accountability-readiness-checklists-for-the-gdpr"></a><span data-ttu-id="3ab81-104">Listas de verificação de preparação de responsabilidade para o RGPD</span><span class="sxs-lookup"><span data-stu-id="3ab81-104">Accountability readiness checklists for the GDPR</span></span>
+# <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a><span data-ttu-id="ebbd3-104">Suporte ao seu programa RGPD com listas de verificação de preparação para responsabilidade</span><span class="sxs-lookup"><span data-stu-id="ebbd3-104">Support your GDPR program with Accountability Readiness Checklists</span></span>
 
-<span data-ttu-id="3ab81-105">Essas listas de verificação de preparação de responsabilidade oferecem uma maneira conveniente de acessar as informações que talvez sejam necessárias para dar suporte ao RGPD (Regulamentação de Proteção de Dados) geral ao usar produtos e serviços Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3ab81-105">These accountability readiness checklists provide a convenient way to access information you may need to support the General Data Protection Regulation (GDPR) when using Microsoft products and services.</span></span>  
+<span data-ttu-id="ebbd3-105">O RGPD introduz novas regras a empresas, agências governamentais, organizações sem fins lucrativos e outras organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. O RGPD se aplica onde quer que você e sua empresa estejam localizados.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-105">The GDPR introduces new rules for companies, government agencies, non-profits, and other organizations that offer goods and services to people in the European Union (EU), or that collect and analyze data for EU residents. The GDPR applies no matter where you or your enterprise are located.</span></span> <span data-ttu-id="ebbd3-106">É possível encontrar mais informações no [tópico Resumo RGPD](gdpr.md).</span><span class="sxs-lookup"><span data-stu-id="ebbd3-106">Additional details are in the [GDPR Summary topic](gdpr.md).</span></span>
 
-- [<span data-ttu-id="3ab81-106">Office 365</span><span class="sxs-lookup"><span data-stu-id="3ab81-106">Office 365</span></span>](gdpr-arc-Office365.md)
-- [<span data-ttu-id="3ab81-107">Azure</span><span class="sxs-lookup"><span data-stu-id="3ab81-107">Azure</span></span>](gdpr-arc-Azure.md)
-- [<span data-ttu-id="3ab81-108">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3ab81-108">Dynamics 365</span></span>](gdpr-arc-Dynamics365.md)
-- [<span data-ttu-id="3ab81-109">Suporte e Serviços Profissionais da Microsoft</span><span class="sxs-lookup"><span data-stu-id="3ab81-109">Microsoft Support and Professional Services</span></span>](gdpr-arc-prof-services.md)
+## <a name="accountability-readiness-checklists"></a><span data-ttu-id="ebbd3-107">Listas de verificação de preparação de responsabilidade</span><span class="sxs-lookup"><span data-stu-id="ebbd3-107">Accountability Readiness Checklists</span></span>
 
-## <a name="learn-more"></a><span data-ttu-id="3ab81-110">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="3ab81-110">Learn more</span></span>
+<span data-ttu-id="ebbd3-108">Esta lista de verificação de preparação de responsabilidade fornece uma maneira conveniente para acessar informações que podem ser necessárias para dar suporte ao RGPD ao usar os produtos e serviços da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-108">Accountability readiness checklists are provided to conveniently access information you may need to support the GDPR when using Microsoft products and services.</span></span> <span data-ttu-id="ebbd3-109">A lista de verificação lista as possíveis obrigações que você pode ter em RGPD e direciona você a informações que você pode usar para dar suporte à conformidade da sua organização.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-109">The checklist lists potential obligations you may have under the GDPR, and points you to information that you can use to support your organizations’ compliance.</span></span> <br><br>
 
-[<span data-ttu-id="3ab81-111">Central de Confiabilidade da Microsoft</span><span class="sxs-lookup"><span data-stu-id="3ab81-111">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1RP] 
+
+<span data-ttu-id="ebbd3-110">Há um guia específico para quatro famílias de produtos e serviços da Microsoft:</span><span class="sxs-lookup"><span data-stu-id="ebbd3-110">There is a specific guide for four Microsoft product and services families:</span></span>
+
+- [<span data-ttu-id="ebbd3-111">Office 365</span><span class="sxs-lookup"><span data-stu-id="ebbd3-111">Office 365</span></span>](gdpr-arc-Office365.md)
+- [<span data-ttu-id="ebbd3-112">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="ebbd3-112">Dynamics 365</span></span>](gdpr-arc-Dynamics365.md)
+- [<span data-ttu-id="ebbd3-113">Azure</span><span class="sxs-lookup"><span data-stu-id="ebbd3-113">Azure</span></span>](gdpr-arc-Azure.md)
+- [<span data-ttu-id="ebbd3-114">Suporte e Serviços Profissionais da Microsoft</span><span class="sxs-lookup"><span data-stu-id="ebbd3-114">Microsoft Support and Professional Services</span></span>](gdpr-arc-prof-services.md)
+
+<span data-ttu-id="ebbd3-115">Você pode gerenciar os itens nesta lista de verificação com o [Gerente de Conformidade](https://servicetrust.microsoft.com/ComplianceManager) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados do cliente no bloco RGPD.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-115">You can manage the items in this checklist with [Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager) by referencing the Control ID and Control Title under Customer Managed Controls in the GDPR tile.</span></span>
+
+<span data-ttu-id="ebbd3-116">As listas de verificação incluem as quatro categorias básicas de considerações para um programa de privacidade compatível com RGPD listados abaixo, juntamente com os requisitos de exemplo.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-116">The checklists include the four basic categories of considerations for a privacy program supporting GDPR listed below, along with example requirements.</span></span>
+
+1. <span data-ttu-id="ebbd3-117">Condições de coleta e processamento de dados:</span><span class="sxs-lookup"><span data-stu-id="ebbd3-117">Conditions for Data Collection and Processing:</span></span>
+
+    - <span data-ttu-id="ebbd3-118">Quando o consentimento é obtido?</span><span class="sxs-lookup"><span data-stu-id="ebbd3-118">When is consent obtained?</span></span>  
+    - <span data-ttu-id="ebbd3-119">Identificar e documentar a finalidade</span><span class="sxs-lookup"><span data-stu-id="ebbd3-119">Identify and document purpose (7.2.1)</span></span>  
+    - <span data-ttu-id="ebbd3-120">Avaliação de impacto de privacidade</span><span class="sxs-lookup"><span data-stu-id="ebbd3-120">Privacy impact assessment (7.2.5)</span></span>
+
+2. <span data-ttu-id="ebbd3-121">Direitos das entidades dos dados</span><span class="sxs-lookup"><span data-stu-id="ebbd3-121">Data subject rights</span></span>  
+
+    - <span data-ttu-id="ebbd3-122">Determinação de informações para entidades de segurança de PII (entidades de dados) </span><span class="sxs-lookup"><span data-stu-id="ebbd3-122">Determining information for PII principals (data subjects) (7.3.2)</span></span>  
+    - <span data-ttu-id="ebbd3-123">Fornecer mecanismo para modificar ou retirar o consentimento </span><span class="sxs-lookup"><span data-stu-id="ebbd3-123">Provide mechanism to modify or withdraw consent (7.3.4)</span></span>
+
+3. <span data-ttu-id="ebbd3-124">Privacidade por padrão e design</span><span class="sxs-lookup"><span data-stu-id="ebbd3-124">4. Privacy by Design and Default</span></span>  
+
+    - <span data-ttu-id="ebbd3-125">Limitar coleta</span><span class="sxs-lookup"><span data-stu-id="ebbd3-125">Limit Collection</span></span>  
+    - <span data-ttu-id="ebbd3-126">Conformidade com níveis de identificação</span><span class="sxs-lookup"><span data-stu-id="ebbd3-126">Comply with identification levels (7.4.4)</span></span>  
+    - <span data-ttu-id="ebbd3-127">Arquivos temporários</span><span class="sxs-lookup"><span data-stu-id="ebbd3-127">Temporary and read-only files</span></span>
+
+4. <span data-ttu-id="ebbd3-128">Segurança e proteção de dados</span><span class="sxs-lookup"><span data-stu-id="ebbd3-128">Data Protection and Security</span></span>  
+
+    - <span data-ttu-id="ebbd3-129">Noções básicas sobre a organização e o contexto</span><span class="sxs-lookup"><span data-stu-id="ebbd3-129">Understanding the organization and its context (5.2.1)</span></span>  
+    - <span data-ttu-id="ebbd3-130">Planejamento</span><span class="sxs-lookup"><span data-stu-id="ebbd3-130">Planning</span></span>  
+    - <span data-ttu-id="ebbd3-131">Políticas de segurança da informação</span><span class="sxs-lookup"><span data-stu-id="ebbd3-131">Information Security Policies (6.2)</span></span>
+
+## <a name="learn-more"></a><span data-ttu-id="ebbd3-132">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="ebbd3-132">Learn more</span></span>
+
+- [<span data-ttu-id="ebbd3-133">Central de Confiabilidade da Microsoft</span><span class="sxs-lookup"><span data-stu-id="ebbd3-133">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
