@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de rede do Microsoft 365 Enterprise.
-ms.openlocfilehash: 9b8c23d543eca97147801d70e42de7105266c52d
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 4c1ea87e243d72920a3a56df270fab33bd722834
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33399955"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074311"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Fase 1: Infraestrutura de rede para o Microsoft 365 Enterprise
 
@@ -48,11 +48,11 @@ Após concluir essas etapas, consulte os [critérios de saída](networking-exit-
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Para conhecer a Microsoft em detalhes e saber como a empresa se preparou e otimizou a rede para os serviços de nuvem do Office 365, confira o artigo [Otimizar o desempenho da rede para o Microsoft Office 365](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365).
+Dê uma olhada na Microsoft e saiba como a empresa [otimizou a rede da Microsoft para serviços de nuvem](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR4).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 
-Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, [otimizou a rede](contoso-networking.md) dos serviços em nuvem do Microsoft 365.
+Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, [otimizou seus dispositivos de rede e a conexão à internet](contoso-networking.md) para os serviços de nuvem do Microsoft 365.
 
 ![](./media/contoso-overview/contoso-icon.png)
 
