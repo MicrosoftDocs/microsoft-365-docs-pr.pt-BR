@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Recursos de negócios do Microsoft 365
 description: Saiba como planejar, implantar e usar o Microsoft Office 365, o Windows 10 e o Enterprise Mobility + Security juntos em sua empresa para uma infraestrutura integrada e segura que habilita o trabalho em equipe e desbloqueia a criatividade.
-ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+ms.openlocfilehash: 2d937f777ab5aebb0dcdf3eee40c62c109256d82
+ms.sourcegitcommit: 99d3facce4dc02ab9a5a8956bb49de6581b3562d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34653037"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36213330"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "34653037"
                                                 <h3>Explorar</h3>
                                                 <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Visão geral de vídeo</a></p>
                                                 <P><a href="microsoft-365-business-overview.md" target="_blank">O que é o Microsoft 365 Business</a></p>
-                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-service-description" target="_blank">Descrição de serviço</a></p>
+                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description" target="_blank">Descrição de serviço</a></p>
                                                 <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">Perguntas frequentes</a></p>
                                             </div>
                                         </div>
