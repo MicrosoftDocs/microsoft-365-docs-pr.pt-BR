@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: 9f67c8b6ac28557e8a37a31ec8ca9e0b318cb79a
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: bc678a4bd1b6f4e7332589186767894ee46aa83e
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937403"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054943"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
-O Microsoft 365 Enterprise é uma combinação do Office 365, Enterprise Mobility + Security (EMS) e Windows 10 Enterprise que: 
+O Microsoft 365 Enterprise é uma combinação de aplicativos e serviços de produtividade locais e na nuvem com o Windows 10 Enterprise que:  
 
 - tem segurança inteligente;
 - está integrado para oferecer simplicidade;

@@ -3,8 +3,8 @@ title: Infraestrutura de base do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 03/05/2019
-ms.audience: ITPro
+ms.date: 05/22/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda as principais fases da implantação da infraestrutura básica para o Microsoft 365 Enterprise em sua organização, também conhecida como implantação principal.
-ms.openlocfilehash: e6b8a71f59f20633e323c71e931b930198bc4deb
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 0c683f771609c847556f82fe84a17dad13ee34d4
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400045"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36055013"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 Enterprise
 
-Se você vai realizar a implantação de ponta a ponta do Microsoft 365 Enterprise sozinho, primeiro você deve criar uma base firme sobre a qual aplicativos e serviços possam desbloquear a criatividade e o trabalho em equipe em um ambiente seguro. Essa base é às vezes referida como a implantação principal.
+Se você vai realizar a implantação de ponta a ponta do Microsoft 365 Enterprise sozinho, primeiro você deve criar uma base firme sobre a qual aplicativos e serviços possam desbloquear a criatividade e o trabalho em equipe em um ambiente seguro. Essa base é às vezes referida como uma *implantação principal*.
 
 Para um caminho definido de ponta a ponta para implantação, você pode usar essas fases para planejar e implantar a infraestrutura de base do Microsoft 365 Enterprise:
 
@@ -58,6 +58,22 @@ Esta é a infraestrutura de base no guia geral de implantação do Microsoft 365
 
 ![](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
+## <a name="at-a-glance"></a>Visão geral
+
+O [pôster de infraestrutura de base do Microsoft 365 Enterprise](http://aka.ms/m365efoundinfraposter) é um local central para exibição, para cada fase:
+
+- Os objetivos gerais da fase para administradores e usuários
+- Os serviços, recursos e ferramentas
+- As principais decisões de design para planejamento
+- Os resultados da configuração
+- O processo de integração de um novo usuário
+- Como monitorar e atualizar
+
+![](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)
+
+Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf).
+
+
 ## <a name="infrastructure-configuration-vs-user-rollout"></a>Configuração de infraestrutura vs. implantação para usuários
 
 A infraestrutura de base é um conjunto de software e serviços configurados que, quando combinados para um usuário, permite que ele aproveite todo o espectro de recursos e proteções que o Microsoft 365 Enterprise oferece. O destino final de sua jornada de implantação de ponta a ponta é fazer com que essa infraestrutura se aplique a todos os seus usuários e seus dispositivos baseados no Windows. 
@@ -74,7 +90,7 @@ Por exemplo, você cria as configurações para:
 | Windows 10 Enterprise | Grupos para atualizar automaticamente os computadores executando o Windows 7 ou Windows 8.1 para o Windows 10 Enterprise em vigor. |
 | Office 365 ProPlus | Grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
 | Gerenciamento de dispositivo móvel | Grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
-| Proteção de informações | Etiquetas e grupos do Office 365 e Proteção de Informações do Azure. |
+| Proteção de informações | Rótulos de confidencialidade e grupos do Office 365 e Proteção de Informações do Azure. |
 
 Quando você estiver pronto para implantar elementos dessa infraestrutura aos usuários, você:
 
@@ -92,10 +108,16 @@ Depois de completar, testar e definir piloto, você pode implantar o software in
 
 Para lhe dar algumas ideias de como abordar o gerenciamento de projeto das diferentes fases da infraestrutura de base para usuários piloto e para o restante de sua organização, confira [estratégias de implantação](deployment-strategies-microsoft-365-enterprise.md).
 
+## <a name="deployment-for-non-enterprises"></a>Implantação não empresarial
+
+Se a sua organização for menor e o Microsoft 365 Business não for adequado para você, confira a [implantação não empresarial](deploy-foundation-infrastructure-non-enterprises.md).
+
 
 ## <a name="next-step"></a>Próxima etapa
 
-- Tenho infraestrutura existente para o Office 365, Enterprise Mobility + Security (EMS) ou Windows 10 Enterprise:
-  - Confira [Implantar com infraestrutura existente](deploy-with-existing-infrastructure.md). Este artigo guia você pelos critérios de saída para cada fase.
-- Vou começar do zero: 
-   - Comece sua jornada de implantação de ponta a ponta com [Fase 1: Rede](networking-infrastructure.md).
+
+| Onde estou | Onde preciso ir |
+|:-------|:-----|
+| Tenho infraestrutura existente para o Office 365, Enterprise Mobility + Security (EMS) ou Windows 10 Enterprise: | Comece com [Implantar com infraestrutura existente](deploy-with-existing-infrastructure.md), que o orienta pelos critérios de saída para cada fase. |
+| Estou começando do zero como uma empresa | Comece sua jornada de implantação de ponta a ponta com [Fase 1: Rede](networking-infrastructure.md). |
+| Estou começando do zero como uma organização não empresarial | Comece sua jornada de implantação com [Implantação não empresarial](deploy-foundation-infrastructure-non-enterprises.md). |

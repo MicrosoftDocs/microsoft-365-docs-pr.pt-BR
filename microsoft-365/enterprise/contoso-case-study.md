@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,18 +13,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 Enterprise.
-ms.openlocfilehash: 559e1af8a344fea2863c528eeaa99de718d2eeed
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e587a2c6588faf32aa6882ef1659472365611517
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276668"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054913"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise para a Contoso Corporation
 
 **Resumo:** como uma organização global fictícia, mas representativa, adotou o Microsoft 365 Enterprise.
 
-O Microsoft 365 Enterprise é a principal oferta de nuvem da Microsoft, que combina o Office 365, Windows 10 Enterprise e Enterprise Mobility + Security (EMS) em uma solução completa e inteligente que promove a criatividade e o trabalho em conjunto, de forma segura. 
+O Microsoft 365 Enterprise é a principal oferta de nuvem da Microsoft, que combina aplicativos de produtividade locais e na nuvem e serviços com o Windows 10 Enterprise e os recursos avançados de segurança em uma solução completa e inteligente que permite que todos sejam criativos e trabalhem em conjunto, com segurança. 
 
 A Contoso Corporation é um fictício, mas representativo, conglomerado global de produção com sede em Paris, na França. A Contoso implantou o Microsoft 365 Enterprise e abordou decisões de design e detalhes de implementação fundamentais em relação a redes, identidade, Windows 10 Enterprise, Office 365 ProPlus, gerenciamento de dispositivos móveis, proteção de informações e segurança. 
 
