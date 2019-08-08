@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 68f5d5cb46d4aa643b1b09f9204b24dea3d77eb1
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 2178b871da412d12bf20dae9b72d7562e2bc4654
+ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390528"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243942"
 ---
 # <a name="add-admin-contacts-in-microsoft-managed-desktop-admin-portal"></a>Adicionar contatos do administrador no portal de administração de área de trabalho gerenciada da Microsoft
 
@@ -28,13 +28,13 @@ O portal de administração de área de trabalho gerenciada da Microsoft exige q
 
 O administrador global deve ser um para inscrever o cliente na área de trabalho gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso dentro do portal de administração para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
 
-## <a name="admin-contact-focus-areas"></a>Áreas de foco de contato do administrador
+## <a name="admin-contact-areas-of-focus"></a>Áreas de contato do administrador de foco
 
 Os contatos do administrador devem ser a melhor pessoa ou grupo que pode responder a perguntas e tomar decisões para diferentes áreas de foco. As operações de área de trabalho gerenciada da Microsoft contatarão esses contatos de administração para questões envolvendo solicitações de suporte arquivadas pelo cliente. Esses contatos do administrador receberão notificações para atualizações de solicitação de suporte e novas mensagens. Essas áreas incluem:
 
 Área de foco | Para perguntas sobre
 --- | ---
-Aplicativos | Solucionando problemas de pacotes de aplicativos
+Pacote de aplicativos | Solucionando problemas de pacotes de aplicativos
 Dispositivos | Integridade do dispositivo, Solucionando problemas com dispositivos de área de trabalho gerenciada da Microsoft
 Segurança | Solucionando problemas de segurança com dispositivos de área de trabalho gerenciada da Microsoft
 Assistência técnica de ti | nos casos em que o suporte de área de trabalho gerenciada da Microsoft focaliza as permissões do usuário final fora das áreas de suporte do MMD 

@@ -6,18 +6,18 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 5987dcaf717ecb2907f02db675a77c3e1d2d2220
-ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
+ms.openlocfilehash: 6d3be89b52d71543687a02a1fd3fbae8bc1543f8
+ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35425664"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243932"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-O Microsoft Managed desktop aplica um conjunto padrão de políticas e utiliza muitas tecnologias da Microsoft para ajudar a proteger os dispositivos de área de trabalho gerenciada da Microsoft, os dados da empresa armazenados e muito mais. As áreas listadas abaixo são detalhadas:  
+O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a proteger os dispositivos e dados gerenciados. Especificamente: 
 
 - [Segurança de dados](#data-security) -tipos de dados coletados pela área de trabalho gerenciada da Microsoft e onde eles são armazenados com segurança
 - [Segurança do dispositivo](#device-security) – segurança e proteção nos dispositivos de área de trabalho gerenciada da Microsoft
@@ -37,6 +37,7 @@ Listadas abaixo estão os tipos de dados transmitidos do locatário:
 - Dados de implantação e confiabilidade de aplicativos
 - Atualização e dados de implantação de política de segurança
 - Usuários atribuídos a dispositivos
+- Logs de segurança de seu locatário relacionado às contas usadas pela área de trabalho gerenciada pela Microsoft para gerenciar o serviço
 
 
 
@@ -60,8 +61,7 @@ O gerenciamento de identidades e acesso protege os ativos corporativos e os dado
 
 Serviço | Descrição
 --- | ---
-Autenticação biométrica |  O Windows Hello permite que os usuários façam logon usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
-Multi-factor Authentication | A autenticação multifator do Azure controla mais rigidamente o acesso a funções confidenciais do serviço de área de trabalho gerenciada da Microsoft, fornecendo um nível adicional de autenticação usando um telefone celular, bem como redefinição de senha de autoatendimento. 
+Autenticação biométrica |  O Windows Hello permite que os usuários façam logon usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Os clientes são responsáveis por implementar os pré-requisitos necessários para o Active Directory local para o uso desse serviço em uma configuração híbrida. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 
 Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, as permissões de usuário padrão serão atribuídas ao usuário. Isso é atribuído como parte da experiência inicial da caixa do Windows AutoPilot.
 
 
