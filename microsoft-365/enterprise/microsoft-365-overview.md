@@ -3,7 +3,7 @@ title: Visão geral do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2019
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: ec2a8f0d60f50503f8f5cf457c2999598e248053
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: de67f9e99fbb7a3a6e85001ec675f16672f4ef22
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937413"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297891"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
 
@@ -59,15 +59,26 @@ Para obter mais informações, consulte [recursos e funcionalidades de cada plan
 
 O [cartaz do Microsoft 365 Enterprise](http://aka.ms/m365eposter) é um local central para você exibir:
 
-- Os benefícios do Microsoft 365 Enterprise e como eles mapeiam para seus pilares de valor
+- Os benefícios do Microsoft 365 Enterprise e como os aplicativos e os serviços mapeiam para seus pilares de valor
 - Planos do Microsoft 365 Enterprise e quais componentes eles contêm 
 - Os principais componentes do local de trabalho moderno, que o Microsoft 365 Enterprise permite
-- Os principais cenários de valor de negócios do Microsoft 365 Enterprise e os serviços e produtos que fazem isso acontecer
+- A [biblioteca de produtividade da Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e os cenários representativos de alguns departamentos de organização comuns
 - O roteiro de adoção que realça o guia de [implantação](deploy-microsoft-365-enterprise.md) do Microsoft 365 Enterprise
 
 ![](./media/m365-poster/m365e-poster.png)
 
 Para baixar uma cópia do cartaz, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf).
+
+
+## <a name="transition-your-entire-organization"></a>Transição de toda a organização
+
+Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 Enterprise, baixe o [pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+Este cartaz de duas páginas é uma maneira rápida de inventariar sua infraestrutura existente e obter as orientações para mudar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office e outros elementos de infraestrutura e segurança, como gerenciamento de dispositivos, identidade e proteção de informações e ameaças.
+
+Você pode imprimir este cartaz em formatos de carta, ofício ou tablóide (11 x 17).
 
 ## <a name="deploying"></a>Implantação
 
