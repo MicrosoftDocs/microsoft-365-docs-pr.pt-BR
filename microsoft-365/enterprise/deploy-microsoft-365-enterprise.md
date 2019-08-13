@@ -3,7 +3,7 @@ title: Implantar o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 07/30/2019
+ms.date: 08/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: bc678a4bd1b6f4e7332589186767894ee46aa83e
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 2f527c8d3afe2d3d0690661c6f01efefd5b0d435
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054943"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297901"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
@@ -29,13 +29,13 @@ O Microsoft 365 Enterprise é uma combinação de aplicativos e serviços de pro
 - desbloqueia a criatividade;
 - foi criado para trabalho em equipe.
 
-Esses benefícios não são alcançados apenas ao obter as licenças para os três produtos, mas ao implantá-las e implantar seus recursos de uma forma específica que inclui a integração e segurança de ponta.
+Você pode perceber esses benefícios implantando a infraestrutura e as cargas de trabalho de produtividade de uma forma integrada que inclui serviços de segurança e recursos de ponta.
 
 Há três formas principais de implantar o Microsoft 365 Enterprise:
 
-- Implante-o com engenheiros da Microsoft usando o FastTrack para o Microsoft 365.
+- Implante-o com engenheiros da Microsoft usando o [FastTrack para o Microsoft 365](#fasttrack-for-microsoft-365).
 - Implante-o com a ajuda dos Serviços de Consultoria da Microsoft ou com um [parceiro da Microsoft](https://partner.microsoft.com/).
-- Implante-o sozinho com o guia de implantação do Microsoft 365 Enterprise.
+- Implante-o sozinho com o [guia de implantação do Microsoft 365 Enterprise](#microsoft-365-enterprise-deployment-guide). 
 
 ## <a name="fasttrack-for-microsoft-365"></a>FastTrack para o Microsoft 365
 
@@ -57,7 +57,7 @@ Para implantar o Microsoft 365 Enterprise sozinho, você pode:
 
   **Se você é uma organização menor ou mais recente**, siga as fases em ordem para criar sua infraestrutura de forma metódica.
 
-  Entretanto, você pode implantar fases ou as porções de fases desta infraestrutura em qualquer ordem conforme necessário, [uma após a outra ou em paralelo](deployment-strategies-microsoft-365-enterprise.md), para se integrar à sua infraestrutura atual, encaixar-se com seus planos e recursos de TI e atender às suas necessidades de negócios. 
+  Entretanto, você pode implantar fases ou as porções de fases desta infraestrutura em qualquer ordem conforme necessário, [uma após a outra ou em paralelo](deployment-strategies-microsoft-365-enterprise.md), para se integrar à sua infraestrutura atual, encaixar-se com seus planos e recursos de TI e atender às suas necessidades de negócios. Para uma implantação não empresarial simplificada, clique [aqui](deploy-foundation-infrastructure-non-enterprises.md).
 
   **Se você é uma organização corporativa**, veja as fases como as camadas de infraestrutura de TI em vez de um caminho definido e determine qual é a melhor maneira de chegar à adesão eventual às exigências de cada camada em toda a sua organização.
 
@@ -85,6 +85,16 @@ Para saber mais, confira [Guias do Laboratório de Teste do Microsoft 365 Enterp
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
+## <a name="transition-your-entire-organization"></a>Transição para toda a organização
+
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, baixe o [pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter as diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+
+Você pode imprimir esse pôster em formato de carta, oficial ou de tabloide (11 x 17).
+
 ## <a name="how-did-others-do-it"></a>Como os outros fizeram isso?
 
 Use esses recursos para entender como os outros implantaram e estão usando o Microsoft 365 Enterprise.
@@ -98,11 +108,10 @@ Use o site Histórias de Clientes para conferir como os clientes da Microsoft us
 3. Selecione o setor da organização em **Setor**.
 4. Selecione **Microsoft 365** em **Produto**.
 5. Clique em um cartão para o estudo de caso do cliente.
-  
 
 ### <a name="how-microsoft-uses-microsoft-365-enterprise"></a>Como a Microsoft usa o Microsoft 365 Enterprise
 
-Definir uma cultura digital é uma das principais prioridades para todo líder que se esforça para promover um espaço de trabalho moderno. O Microsoft 365 foi projetado para oferecer suporte a esse tipo de mudança cultural, ajudando líderes a capacitarem todas as pessoas em suas empresas a estimularem a criatividade e a colaboração. Na Microsoft, estabelecer nosso infraestrutura fundamental desencadeou exatamente esse tipo de mudança da cultura digital. Implementar o Microsoft 365 Enterprise nos permitiu implantar a tecnologia de colaboração, como o Microsoft Teams e Exchange Online, e compartilhar dados confidenciais online em sites seguros de intranet do SharePoint.
+Definir uma cultura digital é uma das principais prioridades para todo líder que se esforça para promover um espaço de trabalho moderno. O Microsoft 365 foi projetado para oferecer suporte a esse tipo de mudança cultural, ajudando líderes a capacitarem todas as pessoas em suas empresas a estimulares a criatividade e a colaboração. Estabelecer a infraestrutura fundamental da Microsoft desencadeou exatamente esse tipo de mudança da cultura digital. Implementar o Microsoft 365 Enterprise nos permitiu implantar a tecnologia de colaboração, como o Microsoft Teams e Exchange Online, e compartilhar dados confidenciais online em sites seguros de intranet do SharePoint.
 
 Ao mesmo tempo, recursos de segurança inteligentes e integração de produto ajudam a simplificar as necessidades de gerenciamento e a minimizar o custo total de propriedade no ciclo de vida de TI. 
 
@@ -115,7 +124,7 @@ Saiba como o Core Services Engineering and Operations (antigo Microsoft IT) [pla
 
 Contoso Corporation é uma corporação fictícia mas representante global do conglomerado de produção com sede em Paris, França. Veja como [Contoso implantou o Microsoft 365 Enterprise](contoso-case-study.md) e abordou as principais decisões de design e detalhes de implementação para a rede, identidade, Windows 10 Enterprise, Office 365 ProPlus, gerenciamento de dispositivo móvel, proteção de informações e segurança. 
 
-## <a name="next-step-to-deploy-microsoft-365-enterprise"></a>Próximo passo para implantar o Microsoft 365 Enterprise
+## <a name="next-step"></a>Próxima etapa
 
 Para fazer isso com assistência direta da Microsoft, use [FastTrack](https://fasttrack.microsoft.com/microsoft365).
 

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 0c81f93b117645974e93870f20d4dfb469dae3ac
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 3e7e030e3684606a906a57856d08ea25c7dc2001
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054923"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297861"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
 
@@ -66,7 +66,7 @@ Aqui estão algumas cargas de trabalho comuns para implantar imediatamente:
   - O [Exchange Online](exchangeonline-workload.md), para que os usuários possam começar a usar o email baseado na nuvem.
 - Se não houver a necessidade imediata de armazenar na nuvem ativos digitais altamente regulamentados, implante o [Microsoft Teams](teams-workload.md) e o [SharePoint Online](sharepoint-online-onedrive-workload.md) para seus usuários, antes da camada de **Proteção de informações**.
 
-É preciso decidir sobre a maneira mais adequada de ordenar e implantar a configuração das fases de pré-requisito da infraestrutura de base a fim de atender às suas necessidades de negócios da melhor forma possível.
+É preciso decidir sobre a maneira mais adequada de ordenar e implantar a configuração das fases de pré-requisito da infraestrutura de base a fim de atender às necessidades de seus negócios.
 
 ### <a name="best-practice"></a>Prática recomendada
 
@@ -77,3 +77,4 @@ A fase de **Identidade** garante que sua identidade baseada na nuvem, seja ela s
 Embora seja fundamental e muito importante para o desempenho geral, a implementação da fase de **Rede** pode estar em andamento enquanto estiver ingressando os usuários nas cargas de trabalho; tenha em mente que o aplicativo e o desempenho do serviço do Microsoft 365 melhorarão ao longo do tempo.
 
 Isso vale especialmente para organizações corporativas com vários locais e uma combinação de dispositivos de borda e de conexões com a Internet.
+

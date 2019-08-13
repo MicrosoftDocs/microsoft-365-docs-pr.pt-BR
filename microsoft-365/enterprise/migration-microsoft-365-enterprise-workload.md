@@ -2,7 +2,7 @@
 title: Migração para o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de migração de versões do Microsoft Office, servidores do Office e Windows para o Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 171a0d1b9db5c6dad89d091e81413fbdd785b3b4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f82e65cdff674884466fe70a299250c92f356186
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073291"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297871"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migração para o Microsoft 365 Enterprise
 
@@ -28,6 +28,10 @@ Para maximizar o valor comercial do conjunto integrado de produtos do Microsoft 
 - Cliente do Office instalado em seus computadores para o Office 365 ProPlus
 - Servidores do Office instalados em seus servidores para seus serviços equivalentes no Office 365
 - Windows 7 e Windows 8.1 em dispositivos Windows 10 Enterprise
+
+>[!Note]
+>O Windows 7 atinge o fim do suporte no dia 14 de janeiro de 2020. Para saber mais, clique [aqui](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
+>
 
 Realizar todas essas migrações ao longo do tempo aproxima a organização do [local de trabalho moderno](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/), um ambiente seguro e integrado que desbloqueia o trabalho em equipe e a criatividade em sua organização, tudo possibilitado e habilitado pelo Microsoft 365 Enterprise. 
 
@@ -151,6 +155,16 @@ Veja como os especialistas em TI da Microsoft migraram a empresa para o Microsof
 - [SharePoint para a nuvem: saiba como a Microsoft realizou a própria migração](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
 - [Implantar o Windows 10 na Microsoft como uma atualização in-loco](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
 - [Implantação do Windows 10: dicas e truques da TI da Microsoft](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT) (vídeo)
+
+## <a name="transition-your-entire-organization"></a>Transição para toda a organização
+
+Para ter uma ideia melhor de como migrar toda a organização para o Microsoft 365 Enterprise, baixe o [pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui os produtos neste artigo e outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+
+Você pode imprimir esse pôster em formato de carta, oficial ou de tabloide (11 x 17).
 
 ## <a name="result"></a>Resultado
 
