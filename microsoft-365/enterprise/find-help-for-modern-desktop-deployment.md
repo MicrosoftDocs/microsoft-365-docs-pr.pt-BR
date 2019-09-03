@@ -42,8 +42,7 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="step 2" height="144" width="144" /></td>
 <td><p><strong>Preparação de Rede e Diretório</strong></p>
 <ul>
-<li><p>
-  <a href="https://docs.microsoft.com/pt-BR/fasttrack/o365-onboarding-and-migration#core">Integração principal</a>, onde os especialistas da Microsoft FastTrack oferecem integração de identidade entre os seus serviços de diretório atuais e o Azure Active Directory. Isto é necessário para o Office 365 ProPlus, o Microsoft Intune, o OneDrive e outros serviços de nuvem do Office 365 e EMS como parte do processo de implantação do computador.</p></li>
+<li><p><a href="https://docs.microsoft.com/pt-BR/fasttrack/o365-onboarding-and-migration#core">Integração principal</a>, onde os especialistas da Microsoft FastTrack oferecem integração de identidade entre os seus serviços de diretório atuais e o Azure Active Directory. Isto é necessário para o Office 365 ProPlus, o Microsoft Intune, o OneDrive e outros serviços de nuvem do Office 365 e EMS como parte do processo de implantação do computador.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -64,25 +63,21 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="step 5" height="144" width="144" /></td>
 <td><p><strong>Considerações de Segurança e Conformidade</strong></p>
 <ul>
-<li><p>
-  <a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Azure AD Premium</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com serviços de habilitação para melhorar a sua segurança e os níveis de proteção à informação conforme você adota o Microsoft 365. Estes serviços incluem a Autenticação Multifator do Azure, Redefinição de Senha Automática, Acesso Condicional do Azure Active Directory e muito mais. Para a segurança de dispositivos e endpoint, o Microsoft FastTrack também pode ajudar com o provisionamento e políticas do <a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>.</p></li>
+<li><p><a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Azure AD Premium</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com serviços de habilitação para melhorar a sua segurança e os níveis de proteção à informação conforme você adota o Microsoft 365. Estes serviços incluem a Autenticação Multifator do Azure, Redefinição de Senha Automática, Acesso Condicional do Azure Active Directory e muito mais. Para a segurança de dispositivos e endpoint, o Microsoft FastTrack também pode ajudar com o provisionamento e políticas do <a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
 <td><p><strong>Implantação de Sistema Operacional e Atualizações de Recursos</strong></p>
 <ul>
-<li><p>
-  <a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>, no qual os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e a configuração do Windows Autopilot para novos dispositivos, políticas MDM para seu Windows 10 e outros dispositivos móveis, incluindo a implantação de aplicativos; perfis de Wi-Fi e VPN; gerenciamento conjunto com o System Center Configuration Manager e muito mais.</p></li>
+<li><p><a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>, no qual os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e a configuração do Windows Autopilot para novos dispositivos, políticas MDM para seu Windows 10 e outros dispositivos móveis, incluindo a implantação de aplicativos; perfis de Wi-Fi e VPN; gerenciamento conjunto com o System Center Configuration Manager e muito mais.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="step 7" height="144" width="144" /></td>
 <td><p><strong>Office e Windows como um Serviço</strong></p>
 <ul>
-<li><p>
-  <a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com a configuração de políticas de atualização para o Windows 10 e o Office 365 ProPlus. 
-  <a href="https://docs.microsoft.com/pt-BR/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, onde o Microsoft FastTrack pode também fornecer orientações sobre como configurar os anéis de implantação para que permaneçam atualizado.</p></li>
+<li><p><a href="https://docs.microsoft.com/pt-BR/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com a configuração de políticas de atualização para o Windows 10 e o Office 365 ProPlus. <a href="https://docs.microsoft.com/pt-BR/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, onde o Microsoft FastTrack pode também fornecer orientações sobre como configurar os anéis de implantação para que permaneçam atualizado.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

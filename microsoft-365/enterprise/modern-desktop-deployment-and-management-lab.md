@@ -126,8 +126,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
 
-  - 
-  [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Plano de implantação do Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
