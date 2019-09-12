@@ -59,15 +59,13 @@ Durante o processo de migração, você precisará ter uma capacidade suficiente
 
 Onde você estiver executando uma atualização do PC e não reformatando a partição principal do Windows, também terá a opção de usar um depósito de migração de link físico com USMT. Este processo preserva o estado do usuário no PC enquanto os antigos sistema operacional e aplicativos são removidos e atualizados. Com o processo de restauração vindo da mesma partição local, esta opção oferece melhorias significativas de desempenho e reduz o tráfego de rede.
 
-
-  [Visão geral da Ferramenta de Migração de Estados de Usuários (USMT)](https://docs.microsoft.com/pt-BR/windows/deployment/usmt/usmt-overview)
+[Visão geral da Ferramenta de Migração de Estados de Usuários (USMT)](https://docs.microsoft.com/pt-BR/windows/deployment/usmt/usmt-overview)
 
 ## <a name="onedrive-known-folder-move"></a>Movimentação de pastas conhecidas no OneDrive
 
 Se seus usuários estão no OneDrive e você está adicionando o OneDrive como parte desta implantação, há uma nova opção disponível para você. Usando a nuvem para sincronizar arquivos de usuários, o recurso “Movimentação de Pastas Conhecidas” do OneDrive proporciona um nível de flexibilidade que não é possível com as opções de migração de arquivos baseadas na rede local. Se habilitada antes da migração, ela fornece acesso seguro nos PCs novos e atualizados e elimina a necessidade de criar depósitos temporários de migração em seus próprios servidores. Também tem o potencial de ser completamente transparente para o usuário.
 
-
-  [Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/pt-BR/onedrive/redirect-known-folders)
+[Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/pt-BR/onedrive/redirect-known-folders)
 
 Se você já está usando o OneDrive, sabe que os usuários podem escolher as pastas e locais que desejam sincronizar no OneDrive ou SharePoint com seu dispositivo, mas na verdade isso impõe a carga da configuração ao usuário. Com a Movimentação de Pastas Conhecidas, você pode direcionar as pastas Documentos, Área de Trabalho e Imagens dentro de um perfil de usuário e protegê-las todas no OneDrive. Um usuário consegue fazer isso por si próprio ou, o que é importante nesse cenário, você pode [executar isso usando as configurações de Política de Grupo](https://docs.microsoft.com/pt-BR/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c).
 

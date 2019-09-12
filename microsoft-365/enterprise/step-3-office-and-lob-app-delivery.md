@@ -43,8 +43,7 @@ Se nada estiver impedindo você, recomendamos a implantação de versões de 64 
 
 Há muitos métodos e modelos para instalar aplicativos no Windows, portanto, vamos analisar suas opções de entrega.
 
-
-  [Gerenciamento de aplicativos do Windows 10](https://docs.microsoft.com/pt-BR/windows/application-management/)
+[Gerenciamento de aplicativos do Windows 10](https://docs.microsoft.com/pt-BR/windows/application-management/)
 
 ## <a name="msi-based-deployments"></a>Implantações baseadas em MSI
 
@@ -62,11 +61,9 @@ Outro método popular de entrega de aplicativos é a geração de imagens do com
 
 Se você quiser incluir o Office 365 ProPlus na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para pré-instalar o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais do Office 365 e ativar o Office 365 ProPlus.
 
+[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/pt-BR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-  [Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/pt-BR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
-
-
-  [Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/pt-BR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/pt-BR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Clique para Executar no Office 
 
@@ -82,17 +79,13 @@ Se você usar o System Center Configuration Manager, ainda poderá usá-lo para 
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
+[Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/deployment-guide-for-office-365-proplus)
 
-  [Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/deployment-guide-for-office-365-proplus)
+[Remover as versões MSI existentes do Office durante a atualização para o Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/upgrade-from-msi-version)
 
+[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
-  [Remover as versões MSI existentes do Office durante a atualização para o Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/upgrade-from-msi-version)
-
-
-  [Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
-
-
-  [Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/pt-BR/intune/apps-add-office365)
+[Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/pt-BR/intune/apps-add-office365)
 
 ## <a name="browser-based-apps"></a>Aplicativos baseados em navegador
 
@@ -100,8 +93,7 @@ Há algumas coisas a serem consideradas para garantir que os aplicativos baseado
 
 Além disso, se você souber que os sites da sua intranet não funcionarão adequadamente no Microsoft Edge, poderá definir todos os sites da intranet para serem abertos usando o Internet Explorer 11 automaticamente. Esse processo usa um arquivo XML para determinar se o IE11 é usado para cada site, usando a Política de Grupo para impor configurações.
 
-
-  [O que é o Modo Empresarial](https://docs.microsoft.com/pt-BR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
+[O que é o Modo Empresarial](https://docs.microsoft.com/pt-BR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
 
 Por enquanto, abordamos métodos de implantação conhecidos. Mas há duas novas abordagens para a implantação de aplicativos que convém considerar.
 
