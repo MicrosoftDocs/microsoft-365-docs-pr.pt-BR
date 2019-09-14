@@ -3,7 +3,7 @@ title: 'Etapa 2: Proteger suas identidades privilegiadas'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/01/2018
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar as contas de administradores para uma máxima proteção.
-ms.openlocfilehash: 8a1d232ffc0242766d79b2e4884582f3b5524d22
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b9c645d597dfeb2bdc42e2b0b7615252dc1f5ecb
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074051"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981902"
 ---
 # <a name="step-2-secure-your-privileged-identities"></a>Etapa 2: Proteger suas identidades privilegiadas
 
@@ -37,28 +37,27 @@ Nesta seção, você vai ajudar a evitar ataques digitais à sua organização, 
 Para as contas dedicadas de administrador global, você também deve:
 
 1. Testar as configurações de autenticação multifator (MFA) baseada em acesso condicional ou conta por usuário para garantir que a MFA está funcionando de forma correta e previsível. A MFA requer uma segunda forma de autenticação, como um código de verificação enviado para um celular.
-2. Configurar a MFA para cada uma das contas dedicadas de administrador global do Office 365 e usar a forma mais forte de autenticação secundária disponível em sua organização. Consulte as informações sobre a [autenticação multifator](identity-multi-factor-authentication.md#identity-mfa) para saber mais.
-2. Use uma política de acesso condicional para exigir a MFA para contas de administradores globais. Veja [Proteção de contas de administradores](identity-access-prerequisites.md#protecting-administrator-accounts) para saber mais.
+2. Habilitar a política de acesso condicional **Política de linha de base: exige a MFA de administradores** para suas contas de administradores globais e usar a forma mais segura de autenticação secundária disponível na sua organização. Para obter mais informações, confira [Autenticação multifatorial](identity-access-prerequisites.md#protecting-administrator-accounts).
 
-Consulte as informações sobre como [proteger as contas de administradores globais do Office 365](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) para saber mais sobre a configuração.
+Para obter outras proteções, confira [Proteger as contas de administradores globais do Office 365](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations).
 
 > [!Note]
 > As organizações devem usar identidades somente de nuvem para criar contas privilegiadas, como os administradores globais, para cenários de quebra de vidro em emergências como um ataque cibernético. Para saber mais, confira [Gerenciar contas administrativas de acesso de emergência no Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access).
 
 Os resultados desta seção são:
 
-- As únicas contas de usuários que possuem a função de administrador global em sua assinatura fazem parte do novo conjunto de contas de administradores globais dedicadas. Verifique isso com o seguinte comando do PowerShell do Azure Active Directory para Graph: 
+- As únicas contas de usuário com a função de administrador global na sua assinatura são as contas de administradores globais dedicadas. Verifique isso com o seguinte comando do PowerShell do Azure Active Directory para Graph: 
   ```
   Get-AzureADDirectoryRole | Where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
-- Todas as outras contas de usuários comuns que gerenciam sua assinatura têm funções de administrador atribuídas que estão associadas às responsabilidades de trabalho deles.
+- Todas as outras contas de usuários que gerenciam seus serviços de assinatura têm funções de administrador atribuídas que estão associadas às responsabilidades de trabalho deles.
 
 > [!Note]
 > Confira [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) para obter instruções sobre como instalar o módulo PowerShell do Azure Active Directory para Graph e entrar.
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: proteger contas de administrador global](protect-global-administrator-accounts-microsoft-365-test-environment.md) |
+|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de testes, confira o [Guia de laboratório de testes de proteção de contas de administradores globais](protect-global-administrator-accounts-microsoft-365-test-environment.md). |
 |||
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-global-admin) para esta seção.

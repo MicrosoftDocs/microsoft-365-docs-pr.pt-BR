@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: 8070d08ade5d4b29327ab88bdc36e5f2182c0016
-ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
+ms.openlocfilehash: 505099607b6c4744af29d00ff04e2535a2c0848e
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35584567"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982722"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -73,7 +73,7 @@ O novo modelo de manutenção inclui atualizações de recursos semestrais para 
 
 O terceiro componente a considerar é a personalização do usuário. Aqui você precisa planejar a largura de banda da rede para acomodar a restauração dos arquivos do usuário, das configurações e dos aplicativos como parte do processo de atualização do PC ou de substituição. Juntos, esses itens frequentemente excedem 20 GB por PC. Para alguns usuários, isso pode passar dos 100 GB.
 
-## <a name="limiting-bandwidth"></a>**Limitar a largura de banda**
+## <a name="limiting-bandwidth"></a>Limitar a largura de banda
 
 Uma maneira de limitar o impacto do tráfego relacionado a documentos na rede é controlar usando a configuração BITS (Background Intelligent Transfer Service, serviço de transferência inteligente em segundo plano) nos clientes. O BITS usa uma ABR (Adaptive Bit Rate, taxa de bits adaptativa) para ajustar a largura de banda disponível para fins de implantação. Isso pode ser configurado nos clientes usando a Política de Grupo.
 
@@ -87,7 +87,7 @@ Felizmente, há novas ferramentas para facilitar o gerenciamento do efeito na re
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
 
-## <a name="scavenging-bandwidth"></a>**Busca de largura de banda**
+## <a name="scavenging-bandwidth"></a>Busca de largura de banda
 
 O Transporte em Segundo Plano com Latência Otimizada (LEDBAT), com suporte no Windows Server 2019 e no System Center Configuration Manager (Branch Atual), foi projetado para otimizar o tráfego de rede para os clientes do Windows.
 
@@ -97,7 +97,7 @@ Ao contrário do controle tradicional, o LEDBAT pode usar toda a largura de band
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
 
-## <a name="peer-to-peer-options"></a>**Opções ponto a ponto**
+## <a name="peer-to-peer-options"></a>Opções ponto a ponto
 
 As opções de ponto a ponto estão sendo cada vez mais usadas em migrações do Windows 10, para geração de imagens de computador, atualizações de software e personalização de usuário. Elas também são importantes para facilitar as atualizações entre compilações depois da implantação inicial do Windows 10. Aqui vamos ver diversos exemplos para ajudar a mover o tráfego relacionado ao Windows 10 e ao Office para longe do centro da rede, reduzindo a necessidade de abordagens de controle clássicas e permitindo que os PCs encontrem os arquivos de atualização necessários em pontos na rede local em vez de baixá-los de um ponto de distribuição ou da Internet.
 

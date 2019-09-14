@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as considerações importantes de conformidade e segurança do Windows e do Office.
-ms.openlocfilehash: 791006a6a836f28adb8d71b20e0e887b903752ba
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 472a838c68ed06560f5b81f7854b05b1b2e8eefd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814582"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981752"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Etapa 5: Considerações de segurança e conformidade
 
@@ -111,7 +111,7 @@ A **[Criptografia de Mensagens do Office 365](https://docs.microsoft.com/pt-BR/o
 
 O **[Controle de Aplicativos do Windows Defender](https://docs.microsoft.com/pt-BR/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)** no Windows 10 opera de acordo com uma lista de permissões e negações que a Microsoft verificou para fins de segurança e tudo que é gerenciado pelas políticas de proteção de endpoint usando o Microsoft Intune.
 
-A **[Proteção Avançada Contra Ameaças do Windows Defender](https://docs.microsoft.com/pt-BR/windows/security/threat-protection/windows-defender-atp/overview)** é uma plataforma unificada para proteção preventiva, detecção pós-violação, investigação automatizada e resposta. Ela protege os pontos de extremidade de ameaças cibernéticas, detecta ataques avançados e violações de dados, automatiza os incidentes de segurança e melhora a postura de segurança.
+A **[Proteção Avançada Contra Ameaças do Microsoft Defender](https://docs.microsoft.com/pt-BR/windows/security/threat-protection/windows-defender-atp/overview)** é uma plataforma unificada para proteção preventiva, detecção pós-violação, investigação automatizada e resposta. Ela protege os pontos de extremidade contra ameaças cibernéticas, detecta ataques avançados e violações de dados, automatiza os incidentes de segurança e melhora a postura de segurança.
 
 A **[Proteção contra Exploração](https://docs.microsoft.com/pt-BR/windows/security/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard)** ajuda a reduzir a superfície de ataques de aplicativos em execução evitando que o malware entre no Windows e impedindo que processos não confiáveis acessem as pastas protegidas.
 

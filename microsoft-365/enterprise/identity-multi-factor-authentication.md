@@ -3,7 +3,7 @@ title: 'Etapa 4: Configurar autenticação de usuário segura'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/17/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar a autenticação multifator nas contas de usuário.
-ms.openlocfilehash: 73e884802329765fd6a89cfb7d0e04116c17968c
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 2a4a0926a08ae8279523219a2d7a2386ea0c6742
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072081"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981842"
 ---
 # <a name="step-4-configure-secure-user-authentication"></a>Etapa 4: Configurar autenticação de usuário segura
 
@@ -36,7 +36,7 @@ Com a MFA, a segunda camada de segurança pode ser:
 - Um dispositivo pessoal de confiança que não seja facilmente forjado ou duplicado, como um smartphone.
 - Um atributo biométrico, como uma impressão digital.
 
-Você vai habilitar a MFA e configurar o método de autenticação secundária em cada conta de usuário. Avise os usuários que a MFA será ativada para que eles compreendam os requisitos, como o uso obrigatório de um Smartphone para acesso, e possam entrar na rede com êxito.
+Você habilitará a MFA e configurará o método de autenticação secundária com [políticas de acesso condicional](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#enable-multi-factor-authentication-with-conditional-access), as quais permitem que você use os grupos do Azure Active Directory (Azure AD) para implementar a MFA em conjuntos de usuários específicos, como usuários piloto, em regiões geográficas ou em departamentos. Avise seus usuários que a MFA será ativada para que eles compreendam os requisitos, como o uso obrigatório de um Smartphone para acesso, e possam entrar na rede com êxito. 
 
 Para saber mais, confira [Planejar autenticações multifatoriais](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted).
 
@@ -51,7 +51,22 @@ Para saber mais, confira [Planejar autenticações multifatoriais](https://docs.
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-mfa) para esta seção.
 
+<a name="identity-password-prot"></a>
+## <a name="prevent-bad-passwords"></a>Evitar o uso de senhas ruins
 
+*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+
+Para impedir que os usuários criem senhas que possam ser facilmente descobertas, use a proteção de senhas do Azure AD, que usa uma lista geral e uma opcional de senhas proibidas, sendo a última especificada por você. Você pode usar, por exemplo, termos específicos da sua organização, como:
+
+- Nomes de marcas
+- Nomes de produtos
+- Locais (por exemplo, sedes de empresas)
+- Termos internos específicos da empresa
+- Abreviaturas com significados específicos da empresa.
+
+Você pode bloquear senhas ruins [na nuvem](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) e para seu [Active Directory Domain Services (AD DS) local](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad-on-premises).
+
+Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-password-prot) desta seção.
 
 <a name="identity-ident-prot"></a>
 ## <a name="protect-against-credential-compromise"></a>Proteger-se contra o comprometimento de credenciais
@@ -64,8 +79,8 @@ Com a Azure AD Identity Protection, você pode:
 
 |||
 |:---------|:---------|
-|Determinar e administrar possíveis vulnerabilidades nas identidades da organização|O Azure AD utiliza o aprendizado de máquina para detectar anomalias e atividades suspeitas, como atividades de entrada e pós-entrada. Usando esses dados, a Proteção de Identidade gera relatórios e alertas que lhe ajudarão a avaliar os problemas e a tomar as medidas necessárias.|
-|Detectar ações suspeitas relacionadas às identidades da organização e responder a essas suspeitas automaticamente|Você pode configurar as políticas baseadas em risco que são acionadas automaticamente para detectar problemas quando um nível de risco específico é atingido. Essas políticas, além de outros controles de acesso condicional fornecidos pelo Azure Active Directory e pelo Enterprise Mobility + Security EMS (), podem bloquear automaticamente o acesso ou realizar ações corretivas, incluindo a redefinição de senha e exigindo a autenticação multifator para entradas subsequentes.|
+|Determinar e administrar possíveis vulnerabilidades nas identidades da organização|O Azure AD usa o aprendizado de máquina para detectar anomalias e atividades suspeitas, como entrada e pós-entradas. Ao usar esses dados, o Azure AD Identity Protection gera relatórios e alertas que ajudam você a avaliar os problemas e a tomar medidas.|
+|Detectar ações suspeitas relacionadas às identidades da organização e responder a essas suspeitas automaticamente|Você pode configurar políticas de risco que respondem automaticamente a problemas detectados quando um nível de risco específico tiver sido alcançado. Essas políticas, além de outros controles de acesso condicional fornecidos pelo Azure AD e pelo Microsoft Intune, podem bloquear automaticamente o acesso ou tomar ações corretivas, como redefinições de senha e a imposição de autenticação multifator para as próximas entradas.|
 |Investigar incidentes suspeitos e resolvê-los com medidas administrativas|Você pode investigar eventos de risco usando informações sobre o incidente de segurança. Fluxos básicos de trabalho estão disponíveis para controlar investigações e iniciar ações de correção, como a redefinição de senhas.|
 
 Consulte mais [informações sobre a Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
@@ -106,8 +121,6 @@ O **relatório de atividade de entradas** registra quem executou as tarefas rela
 Para saber mais sobre os relatórios e como acessá-los, consulte as informações sobre os [relatórios do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-azure-portal).
 
 Como resultado desta etapa, você ficará ciente desses relatórios e saberá como usá-los para obter informações de atividades e eventos ocorridos no Azure AD para poder planejar a segurança.
-
-
 
 ## <a name="next-step"></a>Próxima etapa
 

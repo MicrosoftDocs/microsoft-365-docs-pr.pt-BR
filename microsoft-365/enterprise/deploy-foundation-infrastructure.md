@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda as principais fases da implantação da infraestrutura básica para o Microsoft 365 Enterprise em sua organização, também conhecida como implantação principal.
-ms.openlocfilehash: 0b54225d3ce9043564788e28ddd88426dae611e9
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: c66a328becf03a179b3ef0526c3110783904e741
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297911"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982092"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 Enterprise
 
@@ -60,7 +60,7 @@ Esta é a infraestrutura de base no guia geral de implantação do Microsoft 365
 
 ## <a name="at-a-glance"></a>Visão geral
 
-O [pôster de infraestrutura de base do Microsoft 365 Enterprise](http://aka.ms/m365efoundinfraposter) é um local central para exibição, para cada fase:
+O [pôster de infraestrutura de base do Microsoft 365 Enterprise](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) é um local central para exibição, para cada fase:
 
 - Os objetivos gerais da fase para administradores e usuários
 - Os serviços, recursos e ferramentas
@@ -69,7 +69,7 @@ O [pôster de infraestrutura de base do Microsoft 365 Enterprise](http://aka.ms/
 - O processo de integração de um novo usuário
 - Como monitorar e atualizar
 
-![](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)
+[![Imagem do pôster da infraestrutura de base do Microsoft 365 Enterprise](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf).
 

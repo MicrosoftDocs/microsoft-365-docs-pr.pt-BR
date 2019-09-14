@@ -3,7 +3,7 @@ title: 'Etapa 5: Simplificar o acesso para usuários'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/19/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a redefinição de senha de autoatendimento (SSPR) do Azure Active Directory.
-ms.openlocfilehash: b57291aabf1b51e7866dba10ba50eacc27291a2a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ec81b2931fd4ad599ffcf983ea8a7d764c56404a
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073721"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981792"
 ---
 # <a name="step-5-simplify-access-for-users"></a>Etapa 5: Simplificar o acesso para usuários
 
@@ -32,7 +32,7 @@ ms.locfileid: "34073721"
 
 Nesta seção, você permitirá que os usuários redefinam suas senhas através do Azure Active Directory (Azure AD) que depois é replicada para os seus serviços locais de domínio do Active Directory (AD DS). Este processo é conhecido como write-back de senha. Com o write-back de senha, os usuários não precisam atualizar suas senhas através dos serviços locais de domínio do AD DS, onde as contas de usuário e seus atributos são armazenados. Isso é valioso para usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
 
-O write-back de senha é necessário para utilizar completamente as capacidades de recursos de Proteção de Identidade, por exemplo para exigir que os usuários alterem a senha local quando for detectado um alto risco de comprometimento da conta.
+O write-back de senha é necessário para o uso por completo das capacidades de Proteção de Identidade do Azure AD, por exemplo para exigir que os usuários alterem a senha local quando for detectado um alto risco de comprometimento da conta.
 
 Para obter mais informações e instruções de configuração, consulte o artigo sobre o [Azure AD SSPR com o write-back de senha](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-writeback).
 
@@ -71,7 +71,7 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 Nesta seção, você vai configurar o Logon Único Contínuo do Azure Active Directory (Azure AD Seamless SSO) para permitir que seus usuários entrem nos serviços que usam as contas de usuário do Azure AD sem precisar digitar suas senhas e em muitos casos, seus nomes de usuário. Isso facilita o acesso de seus usuários a aplicativos baseados na nuvem, como o Office 365, sem precisar de nenhum componente adicional local, como servidores de federação de identidades.
 
-Você configurará o SSO Contínuo do Azure Active Directory com a ferramenta Azure AD Connect.
+Você configura o SSO Contínuo do Azure Active Directory com a ferramenta Azure AD Connect.
 
 Confira as [instruções para configurar o SSO Contínuo do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start).
 
@@ -92,20 +92,11 @@ Nesta seção, você ajudará usuários a reconhecer a página de entrada da sua
 
 Com o Microsoft 365 Enterprise, é possível personalizar a aparência das páginas de entrada e do Painel de acesso para incluírem o logotipo da empresa, os esquemas de cores e as informações do usuário personalizadas. 
 
-Quando um usuário tenta fazer logon por um dispositivo, ele vê algo parecido com o exemplo a seguir na página de entrada do Office 365 *antes da personalização*.
-
-![Exemplo da página de entrada do Office 365 antes da personalização](./media/identity-customize-office-365-sign-in/id-step01-sign-in-before.png)
-
-Aqui está o que o mesmo usuário da Contoso Corporation veria *após a personalização*.
-
-![Exemplo da página de entrada do Office 365 depois da personalização](./media/identity-customize-office-365-sign-in/id-step01-sign-in-after.png)
-
 Saiba mais em [Adicionar a marca da empresa na página de entrada do Office 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page).
 
 Confira as instruções de configuração em [Adicionar a marca da empresa na página de entrada e no Painel de acesso](http://aka.ms/aadpaddbranding).
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-custom-sign-in) para esta seção.
-
 
 ## <a name="next-step"></a>Próxima etapa
 

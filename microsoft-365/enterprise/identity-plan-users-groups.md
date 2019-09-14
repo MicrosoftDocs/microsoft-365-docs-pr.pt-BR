@@ -3,7 +3,7 @@ title: 'Etapa 1: Planeje para usuários e grupos'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/25/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Planeje para o conjunto de usuários e grupos que trabalharão para sua organização.
-ms.openlocfilehash: 1f879c789e6b531dec7163fa252e0f85459c823d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 05b854c182b6f624cf143ed93920c344391ee416
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072171"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981802"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>Etapa 1: Planeje para usuários e grupos
 
@@ -31,7 +31,7 @@ Nesta etapa, você criará sua infraestrutura de identidade que combina usuário
 - Mantenha o controle sobre quem tem acesso aos recursos em seu ambiente.
 - Proteja o acesso com controles que garantem a identidade (os usuários são quem dizem ser) e o acesso de dispositivos seguros.
 - Provisione recursos em seu ambiente com permissões apropriadas para reduzir o potencial para danos e vazamento de dados. 
-- Monitore o seu ambiente para identificar comportamentos de usuários anômalos e automaticamente tomar medidas.
+- Monitore seu ambiente para identificar comportamentos anômalos de usuários e agir automaticamente.
 
 ## <a name="plan-your-primary-identity-provider"></a>Planejar seu provedor de identidade principal
 
@@ -67,10 +67,10 @@ Além disso, alguns serviços de nuvem podem ser compartilhados com usuários de
 
 Você pode usar grupos no Azure AD para várias finalidades que simplifiquem o gerenciamento de seu ambiente de nuvem. Por exemplo, para grupos do Azure AD, você pode:
 
-- Usar o licenciamento baseado em grupo para atribuir licenças do Office 365 e do Enterprise Mobility + Security (EMS) às suas contas de usuário automaticamente assim que elas forem adicionadas ao Azure AD ou sincronizadas do AD DS. 
-- Adicionar contas de usuário para grupos específicos de forma dinâmica com base em atributos das contas de usuário, como o departamento.  
+- Usar o licenciamento baseado em grupo para atribuir licenças às suas contas de usuário automaticamente assim que elas forem adicionadas ao Azure AD ou sincronizadas do AD DS. 
+- Adicionar contas de usuário a grupos específicos de modo dinâmico com base em atributos das contas de usuário, como o departamento.  
 - Provisionar usuários automaticamente para aplicativos de Software como um Serviço (SaaS) e para proteger o acesso a esses aplicativos com a autenticação multifator e outras regras de acesso condicional.
-- Configurar permissões e níveis de acesso para sites de equipe do SharePoint Online. Grupos do Azure AD também podem ser usados com as políticas de Proteção de Informações do Azure com escopo para proteger os arquivos com criptografia e permissões. 
+- Provisionar permissões e níveis de acesso para sites de equipe do SharePoint Online. Grupos do Azure AD também podem ser usados com confidencialidade ou rótulos de Proteção de Informações do Azure para proteger os arquivos com criptografia e permissões. 
 
 ## <a name="results"></a>Resultados
 
@@ -81,7 +81,7 @@ Ao concluir esta etapa, você terá:
 
 Como um ponto de verificação provisório, é possível ver os [critérios de saída](identity-exit-criteria.md#crit-identity-user-groups) para esta etapa.
 
-Quando seus usuários e grupos do Azure AD forem criados, você poderá começar a atribuir licenças e a usar o Exchange Online. Para implantar o Exchange Online para os seus usuários, confira [Implantar o Exchange Online para o Microsoft 365 Enterprise](exchangeonline-workload.md).
+Quando seus usuários e grupos do Azure AD forem criados, você poderá começar a atribuir licenças e a usar cargas de trabalho de produtividade como o OneDrive for Business ou o Exchange Online.
 
 ## <a name="next-step"></a>Próxima etapa
 

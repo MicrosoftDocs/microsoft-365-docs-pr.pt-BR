@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 2559734241a8b30ec43b26fb0b096faba18138b9
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: 30d6e1566fda4dbc84800bbd4359a689f858f9e4
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778146"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982647"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Office 365 para o RGPD
 
@@ -97,7 +97,7 @@ A tabela a seguir lista os aplicativos do Office 365 que as pessoas usam para cr
 | ![Ícone do Excel](media/o365-excel-64x64.png) <br> Excel | ![Ícone do Skype for Business](media/o365-skypeforbusiness-64x64.png) <br> Skype for Business |
 | ![Ícone do Office Lens](media/o365-lens-64x64.png) <br> Office Lens | ![Ícone de Tarefas](media/O365-DSR-Doc-Final_image8.png) <br> Tarefas |
 | ![Ícone do OneDrive](media/o365-OneDrive-64x64.png) <br> OneDrive for Business |![Ícone do Teams](media/o365-teams-64x64.png) <br> Teams |
-| ![Ícone do OneNote](media/o365-onenote-64x64.png) <br> OneNote| ![Ícone de tarefas pendentes](media/o365-todo-64x64.png) <br> Tarefa pendente |
+| ![Ícone do OneNote](media/o365-onenote-64x64.png) <br> OneNote| ![Ícone do To Do](media/o365-todo-64x64.png) <br> To Do |
 | ![Ícone do Outlook](media/o365-outlook-64x64.png) <br> Outlook/Exchange | ![Ícone de Vídeo](media/O365-DSR-Doc-Final_image14.png) <br> Vídeo |
 | ![Ícone de pessoas](media/O365-DSR-Doc-Final_image15.png) <br> Pessoas | ![Ícone do Visio](media/o365-visio-64x64.png) <br> Visio |
 | ![Ícone do PowerPoint](media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Ícone do Word](media/o365-word-64x64.png) <br> Word
@@ -159,7 +159,7 @@ A tabela a seguir lista algumas condições que podem ser usadas para limitar o 
 | :--- | :--- |:--- |
 |**Condição**|**Descrição** |**Exemplo de valores de condição**|
 | Tipo de arquivo | A extensão de um documento ou arquivo. Use esta condição para pesquisar documentos e arquivos do Office criados por aplicativos do Office 365. Use essa condição ao pesquisar documentos em sites do SharePoint Online e em contas do OneDrive for Business.<br/>A propriedade do documento correspondente é o tipo de arquivo. <br/>Para obter uma lista completa das extensões de arquivo que podem ser pesquisadas, confira o artigo sobre extensões de nome de arquivo rastreadas e tipos de arquivo analisados padrão no SharePoint](https://technet.microsoft.com/library/jj219530.aspx).|&nbsp;&bull;&nbsp;&nbsp;csv — pesquisa arquivos CSV (valores separados por vírgula); os arquivos do Excel podem ser salvos no formato CSV e o arquivo CSV pode ser importado facilmente no Excel<br><br>&bull;&nbsp;&nbsp;docx —pesquisa arquivos do Word <br><br>&bull;&nbsp;&nbsp;mpp — pesquisa arquivos do Project<br/><br>&bull;&nbsp;&nbsp;one — pesquisa arquivos do OneNote <br><br>&bull;&nbsp;&nbsp;pdf — pesquisa arquivos salvos em um formato PDF <br><br>&bull;&nbsp;&nbsp;pptx — pesquisa arquivos do PowerPoint <br><br>&bull;&nbsp;&nbsp;xlxs — pesquisa arquivos do Excel <br><br>&bull;&nbsp;&nbsp;vsd — pesquisa arquivos do Visio <br><br>&bull;&nbsp;&nbsp;wmv — pesquisa arquivos do Windows Media <br>|
-| Tipo de mensagem | Tipo de mensagem de email para pesquisar. Use esta condição para pesquisar caixas de correio de contatos (Pessoas), tarefas de reuniões (Calendário) ou conversas do Skype for Business. A propriedade de email correspondente é *tipo*.|&bull;&nbsp;&nbsp;*contatos — pesquisa a lista Meus Contatos (Pessoas) de uma caixa de correio <br><br>&bull;&nbsp;&nbsp;* email — pesquisa mensagens de email <br><br>&bull;&nbsp;&nbsp;*im — pesquisa conversas do Skype for Business <br><br>&bull;&nbsp;&nbsp;* reuniões — pesquisa compromissos e solicitações de reunião (Calendário) <br><br>&bull;&nbsp;&nbsp;*tarefas — pesquisa a lista Minhas Tarefas (Tarefas); usar esse valor também retornará tarefas criadas no Microsoft To-Do.<br>|
+| Tipo de mensagem | Tipo de mensagem de email para pesquisar. Use esta condição para pesquisar caixas de correio de contatos (Pessoas), tarefas de reuniões (Calendário) ou conversas do Skype for Business. A propriedade de email correspondente é *tipo*.|&bull;&nbsp;&nbsp;*contatos — pesquisa a lista Meus Contatos (Pessoas) de uma caixa de correio <br><br>&bull;&nbsp;&nbsp;* email — pesquisa mensagens de email <br><br>&bull;&nbsp;&nbsp;*im — pesquisa conversas do Skype for Business <br><br>&bull;&nbsp;&nbsp;* reuniões — pesquisa compromissos e solicitações de reunião (Calendário) <br><br>&bull;&nbsp;&nbsp;*tarefas — pesquisa a lista Minhas Tarefas (Tarefas); usar esse valor também retornará tarefas criadas no Microsoft To Do.<br>|
 | Marca de conformidade |O rótulo atribuído a uma mensagem de email ou um documento. Os rótulos são usados para classificar emails e documentos para governança de dados e imposição de regras de retenção com base na classificação definida pelo rótulo. Use essa condição para pesquisar itens que receberam um rótulo automática ou manualmente.<br/>Essa é uma condição útil para investigações de DSR, pois a organização pode estar usando rótulos para classificar conteúdo relacionado à privacidade de dados, ou que inclua dados pessoais ou informações confidenciais. Confira a seção "Uso da Pesquisa de Conteúdo para localizar todo o conteúdo com um rótulo específico aplicado a ele" em [Visão geral de rótulos no Office 365](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30).|compliancetag="personal data"|
 ||||
 
@@ -256,7 +256,7 @@ As seções a seguir descrevem o que você deve ter em mente durante a pesquisa 
 - [Office Lens](#office-lens)
 - [Configurações de experiência do OneDrive for Business e SharePoint](#onedrive-for-business-and-sharepoint-online-experience-settings)
 - [Microsoft Teams educacional](#microsoft-teams-for-education)
-- [Microsoft To-Do](#microsoft-to-do)
+- [Microsoft To Do](#microsoft-to-do)
 - [Skype for Business](#skype-for-business)
 
 #### <a name="office-lens"></a>Office Lens
@@ -362,9 +362,9 @@ Veja a seguir as diretrizes específicas para pesquisar um Bloco de Anotações 
    ```
 6.  Executar novamente a Pesquisa de Conteúdo. Os resultados da pesquisa devem incluir todos os arquivos do OneNote para o Bloco de Anotações de Classe da equipe da classe.
 
-#### <a name="microsoft-to-do"></a>Microsoft To-Do
+#### <a name="microsoft-to-do"></a>Microsoft To Do
 
-As tarefas (chamadas de *tarefas pendentes*, que são salvas nas *listas de tarefas pendentes*) no Microsoft To-Do são salvas como tarefas na caixa de correio do Exchange Online de um usuário. Isso significa que você pode usar a ferramenta Pesquisa de Conteúdo para pesquisar, acessar, excluir e exportar tarefas pendentes. Para saber mais, confira [Configurar o Microsoft To-Do](https://support.office.com/article/Set-up-Microsoft-To-Do-490c1a8c-2333-4952-8125-841afadb9620).
+As tarefas (chamadas de *tarefas pendentes*, que são salvas nas *listas de tarefas pendentes*) no Microsoft To Do são salvas como tarefas em uma caixa de correio do Exchange Online de um usuário. Isso significa que você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar, acessar, excluir e exportar tarefas pendentes. Para obter mais informações, consulte [Configurar o Microsoft To Do](https://support.office.com/article/Set-up-Microsoft-To-Do-490c1a8c-2333-4952-8125-841afadb9620).
 
 #### <a name="skype-for-business"></a>Skype for Business
 
@@ -456,11 +456,11 @@ Para algumas solicitações de exportação de DSR, pode ser conveniente permiti
 
 ## <a name="deleting-personal-data"></a>Excluir dados pessoais
 
-O "direito de apagar" por meio da remoção dos dados pessoais dos Dados do Cliente de uma organização é uma importante proteção do RGPD. A remoção de dados pessoais inclui excluir documentos ou arquivos inteiros, ou excluir dados específicos em um documento ou arquivo (que seria como as ações e os processos descritos na seção de retificação deste guia).
+O “direito de apagar” através da remoção de dados pessoais dos Dados de Clientes de uma organização é uma proteção fundamental do RGPD. Entre as ações de remoção de dados pessoais, estão excluir documentos ou arquivos inteiros ou excluir dados específicos em um documento ou arquivo (que seria como as ações e os processos descritos na seção de retificação deste guia).
 
 Conforme você investiga ou se prepara para excluir dados pessoais em resposta a uma DSR, existem alguns pontos importantes a serem entendidos sobre como a exclusão (e retenção) de dados funciona no Office 365.
 
-- **Exclusão reversível versus exclusão irreversível — nos serviços do Office 365 como o Exchange Online, o SharePoint Online e o OneDrive for Business, há os conceitos de *exclusão reversível* e *exclusão irreversível*, que estão relacionados à capacidade de recuperação de um item excluído (em geral, por um período limitado) antes de ser permanentemente removido da nuvem da Microsoft, sem possibilidade de recuperação. Nesse contexto, um item que sofreu uma exclusão reversível poderá ser recuperado pelo usuário e/ou administrador por um período limitado antes de ser excluído irreversivelmente. Quando um item é excluído de forma irreversível, fica marcado para remoção permanente e é eliminado assim que é processado pelo serviço correspondente do Office 365. Veja como a exclusão reversível e a exclusão irreversível funcionam com itens de caixas de correio e sites (independentemente de o proprietário ou administrador dos dados ter excluído o item):
+- **Exclusão reversível versus exclusão irreversível**: nos serviços do Office 365 como o Exchange Online, o SharePoint Online e o OneDrive for Business, há os conceitos de *exclusão reversível* e *exclusão irreversível*, que estão relacionados à capacidade de recuperação de um item excluído (em geral, por um período limitado) antes de ele ser permanentemente removido da nuvem da Microsoft, sem possibilidade de recuperação. Nesse contexto, um item que sofreu uma exclusão reversível poderá ser recuperado pelo usuário e/ou administrador por um período limitado antes de ser excluído irreversivelmente. Quando um item é excluído de forma irreversível, fica marcado para remoção permanente e é eliminado assim que é processado pelo serviço correspondente do Office 365. Veja como a exclusão reversível e a exclusão irreversível funcionam com itens de caixas de correio e sites (independentemente de o proprietário ou administrador dos dados ter excluído o item):
 
     - **Caixas de correio:** um item é excluído de forma reversível quando ele é excluído da pasta Itens Excluídos ou quando o usuário exclui esse item pressionando **Shift + Delete**. Quando o item é excluído de forma reversível, ele é movido para a pasta Itens Recuperáveis na caixa de correio. Nesse ponto, o item poderá ser recuperado pelo usuário até que o período de retenção de itens excluídos expire (no Office 365, o período de retenção de itens excluídos é de 14 dias, mas pode ser aumentado para até 30 dias pelo administrador). Após a expiração do período de retenção, o item é excluído de forma irreversível e movido para uma pasta oculta (chamada pasta *Limpezas*). O item será permanentemente removido (limpo) do Office 365 na próxima vez que a caixa de correio for processada (as caixas de correio são processadas a cada sete dias).
 
@@ -469,7 +469,7 @@ Conforme você investiga ou se prepara para excluir dados pessoais em resposta a
 > [!NOTE]
 > Entender as ações que resultam na exclusão temporária ou na exclusão irreversível de um item ajudará você a determinar como excluir dados de maneira que atenda aos requisitos de RGPD ao responder a uma solicitação de exclusão.
 
-- **Política de retenção e retenções legais: no Office 365, uma “retenção” pode ser colocada em caixas de correio e sites. Em resumo, isso significa que nada será permanentemente removido (exclusão irreversível) se uma caixa de correio ou um site estiver em retenção, até que o período de retenção de um item expire ou até que a retenção seja removida.  Isso é importante no contexto da exclusão do Conteúdo do Cliente em resposta a uma DSR: se um item for excluído irreversivelmente de um local de conteúdo que está em retenção, o item não será permanentemente removido do Office 365. Isso significa que ele pode ser recuperado de modo aceitável por um administrador de TI. Se a sua organização tiver um requisito ou uma política de que os dados sejam excluídos de maneira permanente e irrecuperável no Office 365 em resposta à DSR, uma retenção terá que ser removida de uma caixa de correio ou um site para excluir dados permanentemente do Office 365. É mais do que provável que as diretrizes da organização para responder às DSRs terão um processo definido para determinar se uma solicitação de exclusão de DSR específica ou uma retenção legal tem precedência. Se uma retenção for removida para excluir itens, ela poderá ser reimplementada depois que o item for excluído.
+- **Política de retenção e retenções legais:** no Office 365, uma “retenção” pode ser colocada em caixas de correio e sites. Em resumo, isso significa que nada será permanentemente removido (exclusão irreversível) se uma caixa de correio ou um site estiver em retenção, até que o período de retenção de um item expire ou até que a retenção seja removida.  Isso é importante no contexto da exclusão do Conteúdo do Cliente em resposta a uma DSR: se um item for excluído irreversivelmente de um local de conteúdo que está em retenção, o item não será permanentemente removido do Office 365. Isso significa que ele pode ser recuperado de modo aceitável por um administrador de TI. Se a sua organização tiver um requisito ou uma política de que os dados sejam excluídos de maneira permanente e irrecuperável no Office 365 em resposta à DSR, uma retenção terá que ser removida de uma caixa de correio ou um site para excluir dados permanentemente do Office 365. É mais do que provável que as diretrizes da organização para responder às DSRs terão um processo definido para determinar se uma solicitação de exclusão de DSR específica ou uma retenção legal tem precedência. Se uma retenção for removida para excluir itens, ela poderá ser reimplementada depois que o item for excluído.
 
 ### <a name="deleting-documents-in-sharepoint-online-and-onedrive-for-business"></a>Excluir documentos no SharePoint Online e OneDrive for Business
 

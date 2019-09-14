@@ -3,7 +3,7 @@ title: 'Etapa 6: Usar grupos para facilitar o gerenciamento'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/25/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar o gerenciamento de grupos de autoatendimento do Azure AD.
-ms.openlocfilehash: 67c3a0e45fa253bdaedead03ac1137422ee0f8de
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 97077f5e047f55ea6bf6e532d25d25f4682ff179
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073601"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981772"
 ---
 # <a name="step-6-use-groups-for-easier-management"></a>Etapa 6: Usar grupos para facilitar o gerenciamento
 
@@ -74,14 +74,11 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 *Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças para as assinaturas do grupo serão atribuídas ou removidas automaticamente da conta de usuário.
+Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão atribuídas ou terão a atribuição cancelada automaticamente da conta do usuário.
 
-No Microsoft 365 Enterprise, você configura grupos de segurança do Azure AD para atribuir estas duas licenças:
+No Microsoft 365 Enterprise, você configurará grupos de segurança do Azure AD para atribuir as licenças apropriadas do Microsoft 365 Enterprise.
 
-- Office 365 Enterprise E3 ou E5
-- Enterprise Mobility + Security (EMS) E3 ou E5
-
-Usando os grupos que foram identificados na Etapa 2, procure aqueles com uma lista de contas em que todos os usuários precisem ter as licenças do Office 365 e do EMS. Verifique se você tem licenças suficientes para todos os membros do grupo. Se não houver licenças para todos, os novos usuários não receberão licenças até que estas estejam disponíveis.
+Verifique se você tem licenças suficientes para todos os membros do grupo. Caso as licenças acabem, os novos usuários não receberão licenças até que elas fiquem disponíveis.
 
 >[!Note]
 >Você não deve configurar o *licenciamento baseado em grupo* para grupos que contenham contas do Azure para empresas (B2B).
@@ -103,6 +100,6 @@ Os resultados desta seção são:
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-group-license) para esta seção.
 
-## <a name="next-step"></a>Próxima etapa
-
-[Critérios de saída da infraestrutura de identidade](identity-exit-criteria.md)
+|||
+|:-------|:-----|
+|![](./media/stepnumbers/Step7.png)| [Configurar a governança de identidade](identity-governance.md) |
