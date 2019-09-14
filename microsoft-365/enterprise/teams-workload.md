@@ -2,7 +2,7 @@
 title: Implantar o Microsoft Teams para o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2018
+ms.date: 08/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do Microsoft Teams no Microsoft 365 Enterprise para toda a sua organização.
-ms.openlocfilehash: 1e7519817a10eb4aa710dff2d4c74c9390c9f6f6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: fd2e72ddb0dfbcc437d30dee16241fbccc81b05b
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072851"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982612"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Implantar o Microsoft Teams para o Microsoft 365 Enterprise
 
@@ -50,14 +50,6 @@ O Teams pode ser usado para várias finalidades diferentes. Você precisa descob
 Você deve direcionar o Teams para lidar com equipes rápidas e altamente colaborativas que trabalham próximas e exigem mais recursos do que o email com o Exchange Online pode fornecer. Exemplos são chats de grupo em tempo real com um histórico gravado e um local comum e de fácil acesso para armazenar arquivos e anotações. 
 
 Uma maneira de ver os benefícios do Teams é examinar como uma equipe física ou virtual interage hoje e, então, descobrir o cenário do Teams apropriado que substitui a interação e oferece maneiras mais fáceis de colaborar e oferecer recursos adicionais.
-
-O Teams habilita esses cenários estratégicos de negócios para o Microsoft 365 Enterprise:
-
-- Comunicar-se com sua equipe para se manter informado, solicitar sugestões e criar coesão e consenso
-- Envolver os firstline workers para habilitar a transformação digital
-- Compreender os hábitos de trabalho para melhorar a influência e o impacto
-
-Para saber mais, confira [Transformação digital usando o Microsoft 365](http://transform.microsoft.com). 
 
 #### <a name="microsoft-teams-for-highly-regulated-data"></a>Microsoft Teams para dados altamente controlados
 
@@ -99,7 +91,7 @@ Em seguida, use estes recursos para entender o licenciamento do Teams e para con
 - [Gerenciar o acesso de usuários ao Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/user-access)
 - [Obter clientes para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
 - [Ativar o Microsoft Teams em sua organização do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
-- [Gerenciar os recursos do Microsoft Teams em sua organização do Office 365](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)
+- [Gerenciar os recursos do Microsoft Teams em sua organização do Office 365](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 
 #### <a name="result"></a>Resultado
 
