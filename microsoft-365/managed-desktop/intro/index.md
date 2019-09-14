@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 10/24/2018
-ms.openlocfilehash: c0866dc4ff4a768bbae2488cdea2655470978f94
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 1cde7cda7cf6bb42508aa52460ff2ee254f62967
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390688"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982582"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é o Microsoft Managed desktop?
 
@@ -23,8 +23,8 @@ A área de trabalho gerenciada da Microsoft faz isso combinando o poder do Micro
 
 
 <table>
-<tr><th>Melhor experiência</th><th>Tecnologia mais recente</th><th>Apoiado pela Microsoft</th></tr>
-<tr><td><p>Windows 10</p><p>Office 365 ProPlus</p><p></p><p>Windows Autopilot</p><p>Dispositivo moderno</p></td><td><p>Sempre se atualizado</p><p>Atualizações de recursos semestral </p><p>atualização de dispositivo com 2 ou 3 anos</p></td><td><p>Configuração do dispositivo</p><p>Monitoramento e correção de segurança</p><p>Implantação de aplicativo</p><p>Gerenciamento de atualizações</p><p>Análise de desktop</p><p>suporte ao usuário final 24x7</p></td></tr>
+<tr><th>Usuários finais do encantarão</th><th>Capacitar a ti</th><th>Apoiado pela Microsoft</th></tr>
+<tr><td><p>Dispositivo moderno</p><p>Windows 10</p><p>Office 365 ProPlus</p><p>Segurança interna</p><p>Logon com reconhecimento facial</p><p>Sempre se atualizado</p></td><td><p>Segurança interna</p><p>Informações acionáveis</p><p>Suporte a operações</p><p>Orientações de especialistas da Microsoft</p></td><td><p>Equipe de operações de segurança</p><p>Monitoramento de integridade</p><p>Backup em nuvem para dados</p><p>Princípios sem estado</p><p>suporte ao usuário final 24x7</p></td></tr>
 </table>
 
 O Microsoft Managed Desktop fornece aos clientes uma solução de ti abrangente que desacelera os usuários e libera os recursos de ti para tarefas mais importantes. Desenvolvemos esse serviço com base nos comentários que costumamos ouvir:

@@ -17,17 +17,22 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: fa3cf640e799feb81ff08c5b7b81d57f707e0152
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072021"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981652"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business
 
-Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). Confira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) para saber mais. 
-  
+Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). O vídeo a seguir detalha as etapas de como configurar isso para o cenário mais comum.
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
+
+Confira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) para saber mais.
+As etapas também são resumidas nas seções a seguir.
+
 ## <a name="run-azure-ad-connect"></a>Executar o Azure AD Connect
 
 Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure AD da sua organização para acessar recursos locais.
@@ -38,7 +43,7 @@ Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure A
     
 3. Depois que os dispositivos Windows 10 são associados ao Azure AD, cada usuário deve reinicializar seus dispositivos e fazer logon com suas credenciais de negócios do Microsoft 365. Todos os dispositivos agora também terão acesso aos recursos locais.
     
-Nenhuma etapa adicional é necessária para obter acesso a recursos no local para dispositivos ingressados no Azure AD. Essa é uma funcionalidade interna disponível no Windows 10. 
+Nenhuma etapa adicional é necessária para obter acesso a recursos locais para dispositivos ingressados no Azure AD. Essa é uma funcionalidade interna disponível no Windows 10. 
   
 Se sua organização não estiver pronta para implantar na configuração de dispositivo associado ao Azure AD, descrita acima, considere configurar a [configuração do dispositivo associado ao Azure ad híbrido](manage-windows-devices.md).
   

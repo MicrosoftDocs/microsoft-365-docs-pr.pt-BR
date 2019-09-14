@@ -1,6 +1,6 @@
 ---
 title: Implantar recursos de segurança do Windows 10 Enterprise
-description: Fornece uma orientação de alto nível sobre as etapas de que você precisa para implantar o Windows 10 Enterprise em PCs como parte do Microsoft 365 Enterprise.
+description: Fornece uma orientação de alto nível sobre as etapas de que você precisa para implantar recursos de segurança do Windows 10 Enterprise em computadores como parte do Microsoft 365 Enterprise.
 keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 365, Windows 10 Enterprise, segurança
 author: greg-lindsay
 localization_priority: Normal
@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: 60145444a7fb2b4ddf2ea6a3606e04aa04a578af
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5f1b505238a6a508753fc6a89957310c31001301
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291618"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982622"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Etapa 5: implantar recursos de segurança do Windows 10 Enterprise
 
@@ -24,21 +24,22 @@ ms.locfileid: "32291618"
 O Windows 10 fornece recursos de segurança para proteger usuários corporativos, interromper o ciberataques e evitar a perda de dados. 
 
 Para saber mais sobre essas tecnologias, confira:
+
 * [Proteção de identidade](https://docs.microsoft.com/windows/security/identity-protection/) -saiba mais sobre o Windows Hello para empresas, o Credential Guard e o controle de acesso.
-* [Proteção contra ameaças](https://docs.microsoft.com/windows/threat-protection/) – saiba mais sobre a proteção avançada contra ameaças do Windows Defender, uma plataforma unificada para proteção preventiva, detecção de pós-violação, investigação automatizada e resposta.
+* [Proteção contra ameaças](https://docs.microsoft.com/windows/threat-protection/) – saiba mais sobre a proteção avançada contra ameaças do Microsoft defender, uma plataforma unificada para proteção preventiva, detecção de pós-violação, investigação automatizada e resposta.
 * [Proteção de informações](https://docs.microsoft.com/windows/security/information-protection/) – saiba mais sobre o BitLocker, a proteção de informações do Windows e outras maneiras pelas quais o Windows 10 ajuda a proteger os dados corporativos. 
 
 Esta etapa mostra como você pode implantar, gerenciar, configurar e solucionar problemas usando estes recursos de segurança:
 
 * [Windows Defender Antivírus](#windows-defender-antivirus)
 * [Windows Defender Exploit Guard](#windows-defender-exploit-guard)
-* [Proteção Avançada contra Ameaças do Windows Defender](#windows-defender-advanced-threat-protection)
+* [Proteção avançada contra ameaças do Microsoft defender](#windows10-sec-atp)
 
 <a name="windows10-sec-av"></a>
 ## <a name="windows-defender-antivirus"></a>Windows Defender Antivírus
 O Windows Defender Antivirus (AV) é uma solução antimalware interna do Windows 10. Ele fornece gerenciamento de segurança e antimalware para desktops, computadores portáteis e servidores. Para obter mais informações sobre o Windows Defender AV, os requisitos mínimos e como você pode gerenciar esse recurso, consulte [Windows Defender Antivirus no Windows 10 e Windows Server 2016](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10).
 
-Se você não estiver usando o Windows Defender AV como cliente antivírus principal, ou se você também estiver usando o Windows Defender ATP, há algumas considerações que você precisa levar em conta. Para saber mais, confira [compatibilidade de AV do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/windows-defender-antivirus-compatibility).
+Se você não estiver usando o Windows Defender AV como cliente antivírus principal, ou se estiver usando o Microsoft defender ATP, há algumas considerações que você precisa levar em conta. Para saber mais, confira [compatibilidade de AV do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/windows-defender-antivirus-compatibility).
 
 ### <a name="deployment-and-management"></a>Implantação e gerenciamento
 Para implantar e gerenciar o Windows Defender AV, siga as orientações aqui:
@@ -57,13 +58,13 @@ Para ajudar a entender as opções de configuração, consulte esta lista de tod
 Você pode usar o [Guia de avaliação de proteção AV do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/evaluate-windows-defender-antivirus) para ajudar a avaliar o nível de proteção e o impacto do Windows Defender AV em sua rede. Isso também pode ser útil na criação de uma configuração inicial ou como um "guia de início rápido" e é atualizado regularmente para fornecer as recomendações mais úteis para configurar e habilitar recursos para garantir o máximo de proteção.
 
 ### <a name="reporting"></a>Reporting
-Você pode obter relatórios usando uma ferramenta de configuração, como o System Center Configuration Manager ou o Microsoft Intune. Você também pode obter relatórios da conformidade da atualização (OMS) ou consumir logs de eventos do Windows no seu SIEM. Se você tiver uma licença para o Windows Defender ATP, também poderá obter relatórios sobre as detecções do Windows Defender AV e realizar a correção básica. Para obter mais informações, consulte estes recursos:
+Você pode obter relatórios usando uma ferramenta de configuração, como o System Center Configuration Manager ou o Microsoft Intune. Você também pode obter relatórios da conformidade da atualização (OMS) ou consumir logs de eventos do Windows no seu SIEM. Se você tiver uma licença para o Microsoft defender ATP, também poderá obter relatórios sobre as detecções do Windows Defender AV e realizar a correção básica. Para obter mais informações, consulte estes recursos:
 * [Implantar, gerenciar e relatar o AV do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/deploy-manage-report-windows-defender-antivirus)
 * [Relatório sobre proteção antivírus do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/report-monitor-windows-defender-antivirus)
-* [Visão geral do portal ATP do Windows Defender](https://go.microsoft.com/fwlink/?linkid=861596)
+* [Visão geral do portal ATP do Microsoft defender](https://go.microsoft.com/fwlink/?linkid=861596)
 
 ### <a name="troubleshooting"></a>Solução de problemas
-Para obter informações sobre como solucionar problemas básicos de erros e códigos de eventos, consulte reVisar [logs de eventos e códigos de erro para solucionar problemas com o Windows Defender AV](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus).
+Para obter informações sobre como solucionar problemas básicos de erros e códigos de eventos, consulte [revisar logs de eventos e códigos de erro para solucionar problemas com o Windows Defender AV](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus).
 
 Você também pode enviar problemas (como falsos positivos) usando o sistema de envio de inteligência de segurança do Windows Defender. Para saber como, confira [Enviar problemas para a Microsoft](https://www.microsoft.com/wdsi/filesubmission).
 
@@ -81,23 +82,23 @@ Para implantar, gerenciar e configurar o Windows Defender Exploit Guard, siga as
 Você pode usar uma série de tópicos de avaliação para ajudar a avaliar o nível de proteção e o impacto do Windows Defender Exploit Guard em sua rede. Isso também pode ser útil na criação de uma configuração inicial ou como um "guia de início rápido" e os tópicos e orientações são atualizados regularmente para fornecer as recomendações mais úteis para configurar e habilitar recursos para garantir o máximo de proteção. Para obter mais informações, [avalie o Windows Defender Exploit Guard](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/evaluate-windows-defender-exploit-guard).
 
 ### <a name="reporting"></a>Reporting
-Você pode obter relatórios usando uma ferramenta de configuração, como o System Center Configuration Manager ou o Intune. Você também pode obter relatórios consumindo logs de eventos do Windows no SIEM. Se você tiver uma licença para o Windows Defender ATP, também poderá obter relatórios sobre as detecções do Windows Defender AV e realizar a correção básica. Para obter mais informações, consulte estes recursos:
+Você pode obter relatórios usando uma ferramenta de configuração, como o System Center Configuration Manager ou o Intune. Você também pode obter relatórios consumindo logs de eventos do Windows no SIEM. Se você tiver uma licença para o Microsoft defender ATP, também poderá obter relatórios sobre as detecções do Windows Defender AV e realizar a correção básica. Para obter mais informações, consulte estes recursos:
 * [Exibir eventos do Windows Defender Exploit Guard](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
-* [Visão geral do portal ATP do Windows Defender](https://go.microsoft.com/fwlink/?linkid=861596)
+* [Visão geral do portal ATP do Microsoft defender](https://go.microsoft.com/fwlink/?linkid=861596)
 
 ### <a name="troubleshooting"></a>Solução de problemas
 Você pode executar a solução de problemas básica ou, opcionalmente, fornecer os arquivos. cab da Microsoft e enviar problemas (como falsos positivos) usando o sistema de envio de inteligência de segurança do Windows Defender. Para saber como, confira [Enviar problemas para a Microsoft](https://www.microsoft.com/wdsi/filesubmission).
 
 
 <a name="windows10-sec-atp"></a>
-## <a name="windows-defender-advanced-threat-protection"></a>Proteção Avançada Contra Ameaças do Windows Defender
-O Windows Defender ATP, disponível apenas com o plano Microsoft 365 Enterprise e5, é um serviço de segurança que permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em suas redes. Para obter mais informações sobre o Windows Defender ATP, os requisitos mínimos e como você pode gerenciar esse recurso, consulte:
+## <a name="microsoft-defender-advanced-threat-protection"></a>Proteção avançada contra ameaças do Microsoft defender
+O Microsoft defender ATP, disponível apenas com o plano Microsoft 365 Enterprise e5, é um serviço de segurança que permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em suas redes. Para obter mais informações sobre o Microsoft defender ATP, os requisitos mínimos e como você pode gerenciar esse recurso, consulte:
 
-* [Windows Defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
+* [Microsoft defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [Requisitos mínimos](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/minimum-requirements-windows-defender-advanced-threat-protection)
 
 ### <a name="deployment-management-and-configuration"></a>Implantação, gerenciamento e configuração
-Para implantar o Windows Defender ATP, você precisará garantir que tenha a licença correta do Windows. Depois de verificar se você tem a licença certa, você precisará decidir a localização geográfica para onde seus dados serão armazenados. Depois, você pode começar a integração de pontos de extremidade ao serviço.
+Para implantar o Microsoft defender ATP, você precisará garantir que tenha a licença correta do Windows. Depois de verificar se você tem a licença certa, você precisará decidir a localização geográfica para onde seus dados serão armazenados. Depois, você pode começar a integração de pontos de extremidade ao serviço.
 
 Para obter mais detalhes sobre essas etapas, consulte estes tópicos principais: 
 
@@ -109,12 +110,12 @@ Para obter mais detalhes sobre essas etapas, consulte estes tópicos principais:
 Após a integração bem-sucedida de pontos de extremidade ao serviço, você pode começar a investigar alertas de vários painéis. Depois de analisar os alertas, você poderá executar ações de resposta nos alertas. 
 
 Para obter mais informações sobre como fazer isso, consulte:
-* [Visão geral do portal ATP do Windows Defender](https://go.microsoft.com/fwlink/?linkid=861596)
-* [Usar o portal ATP do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/use-windows-defender-advanced-threat-protection)
+* [Visão geral do portal ATP do Microsoft defender](https://go.microsoft.com/fwlink/?linkid=861596)
+* [Usar o portal ATP do Microsoft defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/use-windows-defender-advanced-threat-protection)
 * [Executar ações de resposta](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/response-actions-windows-defender-advanced-threat-protection)
 
 ### <a name="integrate-with-other-products-and-tools"></a>Integrar com outros produtos e ferramentas
-O Windows Defender ATP integra e oferece suporte a vários outros produtos e ferramentas para expandir seus recursos de segurança. 
+O Microsoft defender ATP integra e oferece suporte a vários outros produtos e ferramentas para expandir seus recursos de segurança. 
 
 Para obter mais informações sobre as ferramentas e outros produtos, consulte:
 * [Ferramentas SIEM](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/configure-siem-windows-defender-advanced-threat-protection)
@@ -125,7 +126,7 @@ Para obter mais informações sobre as ferramentas e outros produtos, consulte:
 ### <a name="troubleshooting"></a>Solução de problemas
 Você pode encontrar problemas durante a integração ou com o uso do produto. Para obter mais informações sobre como solucionar problemas, consulte:
 * [Solucionando problemas de integração](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
-* [Solucionando problemas do Windows Defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
+* [Solucionando problemas do Microsoft defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
 
 ## <a name="next-step"></a>Próxima etapa
 

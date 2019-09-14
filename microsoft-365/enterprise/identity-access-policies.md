@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 322da1ccfbd0cf8b5070894580b06fb5b0283f40
-ms.sourcegitcommit: 1d5fc181036b673c4f0b9e161e19395dbfe5a304
+ms.openlocfilehash: 67274f4f6483b3f22e9526df8dfbdd872c0573ef
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411645"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982012"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -322,11 +322,11 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 ||Assinatura antimalware do Windows Defender atualizada|Precisa||
 ||Proteção em tempo real|Precisa|Compatível apenas com a área de trabalho do Windows 10|
 
-**Windows Defender ATP**
+**Microsoft defender ATP**
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Regras de proteção avançada contra ameaças do Windows Defender|Exigir que o dispositivo esteja no ou abaixo da Pontuação de risco da máquina|Médio||
+|Regras de proteção avançada contra ameaças do Microsoft defender|Exigir que o dispositivo esteja no ou abaixo da Pontuação de risco da máquina|Médio||
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Exigir computadores compatíveis (mas telefones e tablets não compatíveis)
 Antes de adicionar uma política para exigir computadores compatíveis, não deixe de inscrever dispositivos para gerenciamento no Intune. É recomendável usar a autenticação multifator antes de registrar dispositivos no Intune para garantir que o dispositivo esteja na posse do usuário desejado. 

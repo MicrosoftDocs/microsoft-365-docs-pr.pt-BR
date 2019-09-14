@@ -5,7 +5,7 @@ keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 3
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/18/2018
+ms.date: 08/28/2019
 ms.topic: conceptual
 ms.prod: microsoft-365-enterprise
 ms.service: ''
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 0ee9696d441d61fb41359f6502e6f73988749156
-ms.sourcegitcommit: 12fbb429dba7517220191d90816e235583943fe0
+ms.openlocfilehash: 570b71a5e766738769b537a2601ede7f01bf078c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33623145"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982802"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Fase 5: gerenciamento de dispositivos móveis para o Microsoft 365 Enterprise
 
@@ -26,17 +26,7 @@ ms.locfileid: "33623145"
 
 *Este recurso se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-O Microsoft 365 Enterprise inclui recursos para ajudar a gerenciar dispositivos e seus aplicativos em sua organização. Usando o Microsoft Intune, você pode gerenciar os dispositivos iOS, Android, macOS e Windows para proteger o acesso aos recursos da sua organização, incluindo seus dados. O Intune integra-se ao Azure Active Directory (Azure AD) e habilita os seguintes cenários comerciais para o Microsoft 365:
-
-- Armazenar e compartilhar arquivos dentro e fora de sua organização para trabalhar de forma transparente entre os limites organizacionais
-- Trabalhar com segurança de qualquer lugar, a qualquer momento e em qualquer dispositivo para alcançar mais, mantendo um estilo de trabalho flexível
-- Fornecer tranquilidade com controles e visibilidade para conformidade verificada no setor com padrões globais em conformidade
-- Proteger informações e reduzir o risco de perda de dados
-- Detectar e proteger contra ameaças externas
-- Monitorar, relatar e analisar atividade para reagir de forma imediata para fornecer segurança organizacional
-- Proteger seus usuários e suas contas
-
-Para saber mais, confira [Transformação digital usando o Microsoft 365](http://transform.microsoft.com). 
+O Microsoft 365 Enterprise inclui recursos para ajudar a gerenciar dispositivos e seus aplicativos em sua organização. Usando o Microsoft Intune, você pode gerenciar os dispositivos iOS, Android, macOS e Windows para proteger o acesso aos recursos da sua organização, incluindo seus dados. 
 
 Nesta fase, você registra seus dispositivos no Intune e cria e aplica políticas para ajudar a manter seus dados seguros e protegidos. A biblioteca inteira da documentação do Intune está [disponível online](https://docs.microsoft.com/intune). Também recomendamos que você analise o [Guia de planejamento, design e implementação da implantação do Intune](https://docs.microsoft.com/intune/planning-guide) antes de começar.
 
@@ -110,7 +100,7 @@ Quando os usuários recebem um dispositivo móvel, uma das primeiras tarefas é 
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do laboratório de teste: políticas de conformidade do dispositivo](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do laboratório de teste: políticas de conformidade do dispositivo](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 ## <a name="step-6-turn-on-compliance-and-conditional-access"></a>Etapa 6: ativar a conformidade e o acesso condicional
@@ -146,7 +136,7 @@ Lembre-se, comece pequeno e use uma abordagem em estágios. Atribua o perfil a u
 O Intune é um serviço poderoso e inclui muitos recursos. Veja algumas outras tarefas que você pode executar usando o Intune:
 
 - Gerenciar software e atualizações em [dispositivos](https://docs.microsoft.com/intune/windows-update-for-business-configure) & Windows[PCs](https://docs.microsoft.com/intune/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)e dispositivos [Ios](https://docs.microsoft.com/intune/software-updates-ios)
-- Ative a [proteção avançada contra ameaças do Windows Defender (ATP)](https://docs.microsoft.com/intune/advanced-threat-protection) em seus dispositivos Windows 10 e use a conformidade e o acesso condicional para proteger o acesso a recursos corporativos, como o SharePoint ou o Exchange Online
+- Ative a [proteção avançada contra ameaças do Microsoft defender (ATP)](https://docs.microsoft.com/intune/advanced-threat-protection) em seus dispositivos Windows 10 e use a conformidade e o acesso condicional para proteger o acesso a recursos corporativos, como o SharePoint ou o Exchange Online
 - Use [atento](https://docs.microsoft.com/intune/lookout-mobile-threat-defense-connector), [Symantec](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)e outros parceiros de ameaças de defesa de dispositivos móveis
 - Adicionar uma [autoridade de certificação (CA) de parceiro](https://docs.microsoft.com/intune/certificate-authority-add-scep-overview) para emitir e renovar certificados
 - [Forneça orientações aos usuários finais](https://docs.microsoft.com/intune/end-user-educate) no aplicativo portal da empresa, obtendo aplicativos e muito mais
@@ -166,7 +156,7 @@ Saiba como os especialistas de ti da Microsoft [gerenciam dispositivos com o EMS
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 
-Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, implantou [sua infraestrutura de gerenciamento de dispositivo móvel com os](contoso-mdm.md) serviços de nuvem da Microsoft 365.
+Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, [implantou sua infraestrutura de gerenciamento de dispositivo móvel com os](contoso-mdm.md) serviços de nuvem da Microsoft 365.
 
 ![](./media/contoso-overview/contoso-icon.png)
 

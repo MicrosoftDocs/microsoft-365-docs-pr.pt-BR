@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f16989960d999e65ad904fd11894d5fe8bca98f0
-ms.sourcegitcommit: 1bd18fb00aad37bad8d1411a916f444e1d1a38cf
+ms.openlocfilehash: 83e7f227639c9efa69bb634ad91e3ff4f0821cd8
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35756893"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982492"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -22,7 +22,7 @@ Para obter mais informações sobre a área de trabalho gerenciada da Microsoft,
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
 Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo deve ser um dos seguintes modelos e atender ou exceder as especificações listadas da RAM, da família de processadores e do espaço em disco. Nenhuma outra personalização é suportada.
 
-Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a *Data* de arquivamento é a data na qual esses modelos estarão sujeitos à vida útil de serviço de área de trabalho gerenciada da Microsoft mais curta; todos os dispositivos que foram integrados após essa data não receberão um termo completo de três anos de suporte da área de trabalho gerenciada da Microsoft. Os dispositivos arquivados também estão listados em [dispositivos arquivados da área de trabalho gerenciada da Microsoft](archived-device-list.md). *Data de aposentadoria* é a data na qual esse modelo não terá mais suporte no Microsoft Managed desktop. Nessa data, todos os dispositivos registrados desse modelo serão removidos da área de trabalho gerenciada da Microsoft, não importa quando eles foram registrados.
+Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a *data de arquivamento* é a data na qual esses modelos estarão sujeitos à vida útil de serviço de área de trabalho gerenciada da Microsoft mais curta; todos os dispositivos que foram integrados após essa data não receberão um termo completo de três anos de suporte da área de trabalho gerenciada da Microsoft. Os dispositivos arquivados também estão listados em [dispositivos arquivados da área de trabalho gerenciada da Microsoft](archived-device-list.md). *Data de aposentadoria* é a data na qual esse modelo não terá mais suporte no Microsoft Managed desktop. Nessa data, todos os dispositivos registrados desse modelo serão removidos da área de trabalho gerenciada da Microsoft, não importa quando eles foram registrados.
 
 >[!NOTE]
 >Os dispositivos podem ser adicionados a esta tabela a qualquer momento, mas forneceremos 90 dias de aviso para qualquer alteração que afete o arquivo morto ou a data de aposentadoria.
@@ -33,7 +33,8 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 
 | Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 9 de janeiro de 2020  | 9 de janeiro de 2023  |
+|[Dell Latitude 5300/5400/5500](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
+[Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 9 de janeiro de 2020  | 9 de janeiro de 2023  |
 [Dell Latitude 7390 7390 2-in-1/7490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297)   | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | 9 de janeiro de 2020 | 9 de janeiro de 2023 |
 |[Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 22 de maio de 2020  | 22 de maio de 2023 |
 | [HP elite X2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV, câmera de infravermelho necessária | 14 de maio de 2020 | 14 de maio de 2023 |

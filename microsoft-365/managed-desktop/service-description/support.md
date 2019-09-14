@@ -5,14 +5,13 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 11/7/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 69e8463ce6bfffcd2ee5e8dd0f7f724910b13802
-ms.sourcegitcommit: d137cb1bd67a79d8af84357dc156824830d35aa7
+ms.openlocfilehash: 6c30f9e9a9f45ac8a68c285f4c594b238874f768
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35924874"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982502"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
 
@@ -34,7 +33,7 @@ O suporte ao Microsoft Managed desktop inclui:
 Produtos suportados:
 
 - Windows 10 com proteção avançada contra ameaças do Microsoft defender 
-- Subconjunto do pacote do Office 365: Outlook, Word, PowerPoint, Excel, cliente Skype for Business, Microsoft Teams 
+- Estes aplicativos do Office 365 ProPlus: Outlook, Word, PowerPoint, Excel, Skype for Business Client, Microsoft Teams 
 - Microsoft Store para Empresas 
 - Cliente do OneDrive for Business 
 
@@ -42,8 +41,8 @@ Detalhes de suporte:
 
 - Atual: América do Norte, Canadá (exceto Quebec), Reino Unido, Austrália e Nova Zelândia apenas (24x7x365) 
 - O inglês é o único idioma suportado para conversas de telefone e chat com clientes 
-- Estamos estabelecendo parcerias com o, não substituindo o helpdesk corporativo; Aplicativos de linha de negócios (LOB), recursos de rede, etc. ainda são tratados pela assistência técnica 
-- Os dispositivos gerenciados pela Microsoft que residem no grupo de teste e dispositivos de área de trabalho gerenciados que não são da Microsoft estão fora do escopo 
+- Estamos estabelecendo parcerias com o, não substituindo o helpdesk corporativo; aplicativos de linha de negócios (LOB), recursos de rede, etc. ainda são tratados pela assistência técnica 
+- Os dispositivos de área de trabalho gerenciada da Microsoft no grupo "teste" e dispositivos que não fazem parte da área de trabalho gerenciada da Microsoft estão fora do escopo 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

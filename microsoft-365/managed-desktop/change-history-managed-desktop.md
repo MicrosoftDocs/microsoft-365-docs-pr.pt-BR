@@ -8,16 +8,36 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 7d09e2fbf9d21497aa9bd43d308978979a6c73c6
-ms.sourcegitcommit: c6ee468b4aeb3684d332cb79f5cd121f60f32d3e
+ms.openlocfilehash: a9755d1caae20694f1198dec0bf3e659bccee8ee
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35795617"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982602"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml).
+
+## <a name="september-2019"></a>Setembro de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Pré-requisitos para a área de trabalho gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
+[Configurar dispositivos de área de trabalho gerenciada da Microsoft](get-started/set-up-devices.md) | Novo tópico
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Tópico atualizado
+[Registrar os dispositivos existentes por conta própria](get-started/register-reused-devices-self.md) | Novo tópico
+[Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](service-description/updates.md) | Tópico atualizado
+
+## <a name="august-2019"></a>Agosto de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
+[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tópico atualizado
+[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Tópico atualizado
+[Pré-requisitos para a área de trabalho gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
+[Tecnologias de área de trabalho gerenciada da Microsoft](intro/technologies.md) | Tópico atualizado
+
+
 
 ## <a name="july-2019"></a>Julho de 2019
 Tópico novo ou alterado | Descrição
@@ -46,7 +66,7 @@ Tópico novo ou alterado | Descrição
 [Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo tópico
 [Preparar certificados e perfis de rede para a área de trabalho gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo tópico
 [Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Tópico atualizado
-
+[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md)
 
 ## <a name="april-2019"></a>Abril de 2019
 Tópico novo ou alterado | Descrição

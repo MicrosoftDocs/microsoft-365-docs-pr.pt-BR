@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, perguntas frequentes, respostas, negócios
 ms.date: 06/08/2018
-ms.openlocfilehash: 9f3f82169dcd4454ffb46b1269422688a107f2b0
-ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
+ms.openlocfilehash: 3ab99b402bf440cd0c113a87dc453ff388a5befb
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "35630580"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982312"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Perguntas frequentes no Microsoft 365 Business
 
@@ -72,7 +72,9 @@ Se o hardware executado hoje executa o Windows 7 Pro ou posterior, ele provavelm
 A compatibilidade do aplicativo com a área de trabalho existente (Win32) é forte no Windows 10, com a maioria dos aplicativos funcionando sem quaisquer alterações. Os clientes e seus consultores de TI confiáveis devem ler o aplicativo recomendado testando o processo para <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">compatibilidade do Windows 10</a> e examinar os <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">requisitos do sistema Office</a> para garantir uma transição suave para a Microsoft 365 Business. 
 
 ### <a name="what-is-windows-10-business"></a>O que é o Windows 10 Business? 
-Windows 10 Business é um conjunto de serviços de nuvem e recursos de dispositivo de gerenciamento que complementam o Windows 10 Pro e permitem que os controles de segurança e gerenciamento centralizados do Microsoft 365 Business. Windows 10 Business também vem com o Windows AutoPilot, um serviço que simplifica a implantação de novos computadores com Windows 10. Se você tiver dispositivos que são licenciados para o Windows 7, 8 e 8.1 Professional, o Microsoft 365 Business fornece um upgrade para o Windows 10 Pro que é pré-requisito para implantar o Windows 10 Business. 
+Windows 10 Business é um conjunto de serviços de nuvem e recursos de dispositivo de gerenciamento que complementam o Windows 10 Pro e permitem que os controles de segurança e gerenciamento centralizados do Microsoft 365 Business. Windows 10 Business também vem com o Windows AutoPilot, um serviço que simplifica a implantação de novos computadores com Windows 10. Se você tiver dispositivos que são licenciados para o Windows 7, 8 e 8.1 Professional, o Microsoft 365 Business fornece um upgrade para o Windows 10 Pro que é pré-requisito para implantar o Windows 10 Business.
+> [!IMPORTANT]
+> Você precisa fornecer a chave de produto original ao atualizar, caso contrário a atualização não funcionará. 
 
 ### <a name="how-does-microsoft-365-business-help-support-our-bring-your-own-device-byod-policy"></a>Como o Microsoft 365 Business ajuda a dar suporte à nossa política para trazer seu próprio dispositivo (BYOD)? 
 Muitos funcionários preferem usar seus próprios telefones celulares ou tablets para acesso pessoal e informações sobre o trabalho em vez de executarem vários dispositivos para cada finalidade. O uso de dispositivos pessoais para o trabalho, em lugar comum, aumenta o risco de informações de negócios que podem acabar caindo em mãos erradas. Muitas soluções de proteção de dados móveis concorrentes exigem que os usuários alternem para um modo específico em seu dispositivo ou usem outro mecanismo complexo que os usuários podem encontrar intrusivos e, portanto, evite usar. 
@@ -127,7 +129,7 @@ O Microsoft 365 Business baseia-se na tecnologia da Microsoft e embora ele compa
 O Intune ajuda você a gerenciar com segurança dispositivos iOS, Android, Windows e macOS. 
  
 ### <a name="what-is-windows-autopilot"></a>O que é o Windows AutoPilot? 
-O Windows AutoPilot é um serviço que simplifica a implantação de novos computadores com o Windows 10. Esse processo pode ser feito quando o usuário final fizer logon no Microsoft 365 Business pela primeira vez — sem IT nunca tocar o dispositivo, aproveitando controles de gerenciamento centralizado do Microsoft 365 Business. Você também pode usar o Windows AutoPilot para computadores existentes que estão executando a Atualização do Windows 10 Professional para Criadores (ou posterior) com as configurações de fábrica restauradas. Detalhes sobre o Windows AutoPilot podem ser encontrados nesta postagem de <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">blog de junho de 2017</a>.
+O Windows AutoPilot é um serviço que simplifica a implantação de novos computadores com o Windows 10. Esse processo pode ser feito quando o usuário final fizer logon no Microsoft 365 Business pela primeira vez — sem IT nunca tocar o dispositivo, aproveitando controles de gerenciamento centralizado do Microsoft 365 Business. Você também pode usar o Windows AutoPilot para computadores existentes que estão executando a Atualização do Windows 10 Professional para Criadores (ou posterior) com as configurações de fábrica restauradas. Detalhes sobre o Windows AutoPilot podem ser encontrados nesta <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">postagem de blog de junho de 2017</a>.
 
 ## <a name="compatibility"></a>Compatibilidade
 

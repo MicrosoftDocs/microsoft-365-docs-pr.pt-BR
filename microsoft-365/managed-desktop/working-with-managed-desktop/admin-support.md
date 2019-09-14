@@ -5,14 +5,13 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 12/18/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 08c0ee15869ac47d889f9575e8eaeff63fa64fd7
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 40f26f83e8b3001d2010d3197020f067fc51aaae
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390618"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982472"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -56,3 +55,4 @@ Detalhes adicionais:
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md). 
+- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [administrador de área de trabalho gerenciada da Microsoft Portal](https://aka.ms/mwaasportal).

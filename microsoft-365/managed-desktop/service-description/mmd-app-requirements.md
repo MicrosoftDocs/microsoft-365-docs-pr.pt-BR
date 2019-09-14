@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ded8bcfd87a6b430dfc4be055a582b482872b104
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 5e0ca142e2ef84f198ee154c5b7c7f4f6621c37c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913012"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982452"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -33,7 +33,7 @@ Todos os aplicativos e drivers instalados em dispositivos gerenciados pela Micro
 
 Determinados tipos de aplicativos não são permitidos em dispositivos de área de trabalho gerenciada da Microsoft:
 - software antivírus, de segurança ou de auditoria de terceiros
-- Versões do Microsoft Office anteriores ao Office 365 Pro Plus
+- Versões do Microsoft Office anteriores ao Office 365 ProPlus
 - Aplicativos que instalam ou agrupam outros softwares de terceiros
 
 ## <a name="restricted-app-behaviors"></a>Comportamentos de aplicativo restritos

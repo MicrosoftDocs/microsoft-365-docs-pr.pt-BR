@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa para o Microsoft 365 Business.
-ms.openlocfilehash: e4bb18904355663f9f26f58a3fd3aaf7420e5378
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a3f77bd18b9b900151c50f923b705e4ff0150519
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072731"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982432"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migrar para o Microsoft 365 Business do Office 365 Business Premium
 
@@ -35,7 +35,7 @@ Se você já tem uma assinatura do Office 365 for Business, por exemplo, o Offic
   
 ## <a name="add-microsoft-365-business-licenses"></a>Adicionar licenças de negócios do Microsoft 365
 
-Você tem duas maneiras de obter o Microsoft 365 Business. Se você tiver um parceiro, ele poderá comprar o Microsoft 365 Business para você pelo [Microsoft Partner Center](get-microsoft-365-business.md). Seu parceiro também pode ajudá-lo a migrar para o Microsoft 365 Business.
+Você tem duas maneiras de obter o Microsoft 365 Business. Um parceiro pode comprar o Microsoft 365 Business para você pelo [Microsoft Partner Center](get-microsoft-365-business.md). Seu parceiro também pode ajudá-lo a migrar para o Microsoft 365 Business.
   
 Se você gerenciar sua própria assinatura, poderá [entrar em contato com a venda](https://www.microsoft.com/microsoft-365/business) para comprar as licenças de negócios do Microsoft 365. 
   
@@ -78,7 +78,7 @@ Se você receber um link para comprar suas licenças, passará por um assistente
     
     ![No cartão do usuário, escolha Editar ao lado de licenças de produto.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. Em **licenças de produto** , deslize **Microsoft 365 Business** to **** \> **Save**e **Close**.
+8. Em **licenças de produto** , deslize **Microsoft 365 Business** **to** \> **Save**e **Close**.
     
 Após adquirir a licença inicial para o Microsoft 365 Business, agora você pode também adicionar mais nos **serviços de compra**de **cobrança** \> . Na página **comprar serviços** , você pode clicar nas reticências no cartão de **visita do Microsoft 365** e escolher **alterar a quantidade de licenças** para comprar mais. 
   
