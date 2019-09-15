@@ -83,10 +83,10 @@ Você implantou o Windows Defender Exploit Guard para proteger seus dispositivos
 Se necessário, a [Etapa 5](../windows10-enable-security-features.md#windows10-sec-eg) pode ajudá-lo com esse requisito.
 
 <a name="crit-windows10-step5c"></a>
-### <a name="required-you-are-using-windows-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>Obrigatório: você está usando a Proteção Avançada Contra Ameaças do Windows Defender (Microsoft 365 Enterprise E5 apenas)
+### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>Obrigatório: você está usando a Proteção Avançada Contra Ameaças do Microsoft Defender (Microsoft 365 Enterprise E5 apenas)
 
-Você implantou a Proteção Avançada contra Ameaças do Windows Defender (ATP) para detectar, investigar e responder a ameaças avançadas contra sua rede e dispositivos que executam o Windows 10 Enterprise. 
+Você implantou a Proteção Avançada contra Ameaças do Microsoft Defender (ATP) para detectar, investigar e responder a ameaças avançadas contra sua rede e dispositivos que executam o Windows 10 Enterprise. 
 
-Como opção, você integrou o Windows Defender ATP com outras ferramentas para expandir seus recursos.
+Como opção, você integrou o Microsoft Defender ATP com outras ferramentas para expandir seus recursos.
 
 Se necessário, a [Etapa 5](../windows10-enable-security-features.md#windows10-sec-atp) pode ajudá-lo com esse requisito.
