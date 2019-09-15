@@ -45,6 +45,6 @@ Se necessário, a [Etapa 4](../networking-configure-proxies-firewalls.md) pode a
 <a name="crit-networking-step5"></a>
 ### <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>Opcional: Seus clientes e aplicativos do Office 365 serem configurados para um desempenho ideal
 
-Você deve otimizar as configurações de TCP em seus dispositivos cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
+Você deve otimizar as configurações de TCP (protocolo de controle de transmissão) em seus dispositivos de cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
 
 Se necessário, a [Etapa 5](../networking-optimize-tcp-performance.md) pode ajudá-lo com essa opção.
