@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 7fbe7f277825905326a1234249e5bccf7082658d
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: 1cd1a73395a7bfeb190f8a31589c27bb95312484
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698313"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982332"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 e notificação de violação no RGPD
 
@@ -73,10 +73,10 @@ A equipe de resposta de segurança trabalha com os engenheiros de segurança do 
 
 - **Falso positivo:** um evento que atende aos critérios de detecção, mas se descobre que ele faz parte da prática normal de negócios e talvez precise ser filtrado. A equipe de serviços identificará a causa raiz de falsos positivos e os resolverá de forma sistemática, aproveitando as fontes de detecção e <span id="_Toc350859432" class="anchor"></span>ajustando-as conforme necessário.
 - **Incidente de segurança:** um incidente em que houve acesso criminoso a dados do cliente ou dados de suporte armazenados em equipamentos ou instalações da Microsoft, ou houve acesso não autorizado a tais equipamentos ou instalações resultando na perda, divulgação ou alteração de Dados do cliente ou Dados de suporte.
-- **Incidente de segurança a ser relatado ao cliente (CRSI):** um acesso ou uso criminoso ou não autorizado de sistemas, equipamentos ou instalações da Microsoft que resultem em divulgação, modificação ou perda de dados do cliente.
-- **Incidente de privacidade:** um subtipo do incidente de segurança que envolve dados pessoais. Os procedimentos de tratamento são os mesmos que os de um incidente de segurança.
+- **Incidente de segurança a ser relatado ao cliente (CRSI):** Acesso ilegal ou não autorizado ou uso de sistemas, equipamentos ou instalações da Microsoft que resultem em divulgação, modificação ou perda de dados do cliente.
+- **Incidente de Privacidade** : Um subtipo de Incidente de Segurança que envolve dados pessoais. Manipular procedimentos não é diferente de um incidente de segurança.
 
-Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É desejado, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão da etapa Diagnóstico de um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento quando todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima de dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
+Para um CRSI ser declarado, a Microsoft deve determinar que o acesso não autorizado aos dados do cliente ocorreu ou muito provavelmente ocorreu e/ou que há um compromisso jurídico ou contratual exigindo a notificação. É recomendável, mas não obrigatório, que as etapas de impacto, acesso a recursos e reparo de um cliente específico sejam notificadas. Um incidente geralmente é declarado como CRSI após a conclusão da etapa Diagnosticar um incidente de segurança. No entanto, a declaração pode ocorrer a qualquer momento em que todas as informações pertinentes estiverem disponíveis. O gerente de incidentes de segurança deve estabelecer evidências acima de dúvida razoável de que um evento a ser relatado ocorreu, a fim de começar a execução do Processo de Notificação do Incidente do Cliente.
 
 Durante a investigação, a equipe de resposta de segurança trabalha com consultores jurídicos globais para ajudar a garantir que a análise forense seja executada de acordo com as obrigações e compromissos legais para com os clientes. Também há restrições significativas sobre a visualização e o tratamento de sistemas e dados do cliente em diversos ambientes operacionais. Dados confidenciais ou sensíveis, bem como dados do cliente não são transferidos do ambiente de produção sem a expressa aprovação por escrito do Gerente de Incidentes registrado no tíquete de incidente correspondente.
 
@@ -88,7 +88,7 @@ A Microsoft também concluiu um post-mortem interno para violações de dados. C
 
 O Microsoft Dynamics 365 notifica os clientes e as autoridades regulamentadoras sobre as violações de dados, conforme necessário. A Microsoft conta com uma pesada compartimentalização interna na operação dos serviços do Dynamics 365. Os logs de fluxo de dados também são robustos. Como benefício desse design, a maioria das ocorrências pode estar limitada a clientes específicos. O objetivo é fornecer aos clientes afetados um aviso preciso, acionável e oportuno quando da violação dos seus dados.
 
-O processo de notificação de um CRSI declarado ocorrerá da forma mais eficiente possível, levando em conta os riscos de segurança de um trabalho agilizado. Em geral, o processo de criação de notificações ocorre durante o andamento da investigação de incidente. As notificações ao cliente são realizadas imediatamente após declararmos uma violação, *exceto* nas seguintes circunstâncias:
+O processo de notificação em um CRSPI declarado ocorrerá o mais rapidamente possível, considerando os riscos de segurança da mudança rápida. Geralmente, o processo de redação de notificações acontece quando a investigação do incidente está em andamento. As notificações dos clientes são entregues imediatamente no momento em que uma violação é declarada, *com exceção* das seguintes circunstâncias:
 
 - A Microsoft acredita que a notificação aumentará o risco para outros clientes. Por exemplo, após uma notificação, um adversário pode ficar sabendo de informações que utilizará para impossibilitar a correção.
 - Outras circunstâncias extremas ou incomuns investigadas pelo departamento jurídico da Microsoft e pelo gerente de incidentes executivo.
