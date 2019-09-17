@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: 2f527c8d3afe2d3d0690661c6f01efefd5b0d435
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: 896ac2ec0f9964344a416d583858e90a1a59e8fd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297901"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982062"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
@@ -85,15 +85,15 @@ Para saber mais, confira [Guias do Laboratório de Teste do Microsoft 365 Enterp
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-## <a name="transition-your-entire-organization"></a>Transição para toda a organização
+## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, baixe o [pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, confira [Fazer a Transição da Organização para o Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
-![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+[![Pôster sobre a Transição da Organização para o Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter as diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
-Você pode imprimir esse pôster em formato de carta, oficial ou de tabloide (11 x 17).
+Você pode[baixar o pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formato de carta, oficial ou de tabloide (11x17).
 
 ## <a name="how-did-others-do-it"></a>Como os outros fizeram isso?
 
@@ -115,7 +115,7 @@ Definir uma cultura digital é uma das principais prioridades para todo líder q
 
 Ao mesmo tempo, recursos de segurança inteligentes e integração de produto ajudam a simplificar as necessidades de gerenciamento e a minimizar o custo total de propriedade no ciclo de vida de TI. 
 
-Saiba como o Core Services Engineering and Operations (antigo Microsoft IT) [planejou e implantou uma base](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365) para dar suporte aos aplicativos e serviços que estimulam a criatividade e o trabalho em equipe em um ambiente seguro.
+Saiba como o Core Services Engineering and Operations (antigo Microsoft IT) [planejou e implantou uma base](https://www.microsoft.com/pt-BR/itshowcase/deploying-and-managing-microsoft-365) para dar suporte aos aplicativos e serviços que estimulam a criatividade e o trabalho em equipe em um ambiente seguro.
 
 > [!Note]
 > Esta página da Web só está disponível em inglês.

@@ -3,7 +3,7 @@ title: 'Fase 2: identidade'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de identidade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 6acd462a0fcd4169a42a0b1d0e1738ffcba597f5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 07f95a249912826b80e0654cac4063b3d5763267
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073891"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981942"
 ---
 # <a name="phase-2-identity"></a>Fase 2: identidade
 
@@ -26,15 +26,23 @@ ms.locfileid: "34073891"
 
 No Microsoft 365 Enterprise, uma infraestrutura de identidade bem planejada e executada fortalece a segurança e o acesso dos dados e cargas de trabalho de produtividade somente por usuários e dispositivos autenticados.
 
+Assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365 Enterprise.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
+
 >[!Note]
 >Se você já implantou uma infraestrutura de identidade, confira [Critérios de saída de identidade](identity-exit-criteria.md) para garantir que atendam às condições obrigatórias e opcionais do Microsoft 365 Enterprise.
 >
 
+Para os recursos de identidade de cada plano do Microsoft 365 Enterprise, a função do Azure Active Directory (Azure AD), os componentes locais e os baseados em nuvem, e as configurações de autenticação mais comuns, consulte o [pôster sobre Infraestrutura de Identidade](media/identity-infrastructure/M365E-ID-Infra.pdf).
+
+[![Pôster sobre a Infraestrutura de Identidade](./media/identity-infrastructure/m365e-identity-arch-poster.png)](media/identity-infrastructure/M365E-ID-Infra.pdf)
+
+Esse pôster de duas páginas é uma maneira rápida de aumentar os conceitos e as configurações do Microsoft 365 Enterprise.
+
+Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/identity-infrastructure/M365E-ID-Infra.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
+
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Planejar e implantar sua infraestrutura de identidade do Microsoft 365 Enterprise 
-
-Antes de começar, assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
 Use as etapas a seguir para planejar e implantar uma nova infraestrutura de identidade na nuvem. Também é possível usar estas etapas para adaptar a infraestrutura de identidade híbrida ou local existente para trabalhar com o Microsoft 365 Enterprise. 
 
@@ -46,8 +54,9 @@ Use as etapas a seguir para planejar e implantar uma nova infraestrutura de iden
 |![](./media/stepnumbers/Step4.png)| [Configurar autenticação de usuário segura](identity-multi-factor-authentication.md) |
 |![](./media/stepnumbers/Step5.png)| [Simplificar o acesso para usuários](identity-password-reset.md) |
 |![](./media/stepnumbers/Step6.png)| [Usar grupos para facilitar o gerenciamento](identity-self-service-group-management.md) |
+|![](./media/stepnumbers/Step7.png)| [Configurar a governança de identidade](identity-governance.md) |
 
-Após concluir essas etapas, consulte os [critérios de saída](identity-exit-criteria.md) para esta fase a fim de garantir que sua rede atende às condições obrigatórias e opcionais do Microsoft 365 Enterprise.
+Após concluir essas etapas, consulte os [critérios de saída](identity-exit-criteria.md) para esta fase a fim de garantir que sua rede atende às condições obrigatórias e opcionais à identidade do Microsoft 365 Enterprise.
 
 ## <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 
@@ -58,7 +67,7 @@ A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Saiba como os especialistas de TI [da Microsoft gerenciam identidades e protegem o acesso.](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR5)
+Saiba como os especialistas de TI [da Microsoft gerenciam identidades e protegem o acesso.](https://www.microsoft.com/pt-BR/itshowcase/deploying-and-managing-microsoft-365#primaryR5)
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 
