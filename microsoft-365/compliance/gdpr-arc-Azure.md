@@ -10,25 +10,25 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 86254d388bc5134b7913ab5e93cde96a7bc4cc66
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: b605bfa3d549b3359f8bb780cfffa7306db44d2d
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698403"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982405"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Azure para o RGPD
 
 ## <a name="1-introduction"></a>1. Introdução
 
-Esta lista de verificação de prontidão de responsabilidade fornece uma maneira conveniente de acessar as informações necessárias para oferecer suporte ao Regulamento Geral de Proteção de Dados (RGPD) ao usar o Microsoft Azure. A lista de verificação é organizada, usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança para processadores de dados pessoais extraído de:
+Esta Lista de Verificação de Prontidão de Responsabilidade fornece uma maneira conveniente de acessar as informações necessárias para oferecer suporte ao Regulamento Geral de Proteção de Dados (RGPD) ao usar o Microsoft Azure. A lista de verificação é organizada, usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança para processadores de dados pessoais extraído de:
 
-- Requisitos de técnicas de segurança da [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735).
+- Requisitos de técnicas de segurança[ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736).
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de privacidade.
 
 Você pode gerenciar os itens nesta lista de verificação com o Gerente de Conformidade [16] fazendo referência à ID de Controle e Título de Controle em Controles Gerenciados pelo Cliente no bloco RGPD. Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Azure implementa para oferecer suporte ao RGPD, que você pode baixar na [Central de Confiabilidade do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
-Essa estrutura de controle também é usada para organizar a apresentação dos [controles internos implementados pelo Microsoft Dynamics 365 para dar suporte ao RGPD](https://aka.ms/gdprcontrols).
+Essa estrutura de controle também é usada para organizar a apresentação dos [controles internos implementados pelo Microsoft Dynamics 365 para dar suporte ao RGPD](https://aka.ms/GDPRControls).
 
 Para obter mais documentação relacionada ao RGPD, visite [https://aka.ms/gdprgetstarted](https://aka.ms/gdprgetstarted).
 
