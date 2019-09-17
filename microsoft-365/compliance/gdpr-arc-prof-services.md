@@ -10,21 +10,21 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: db0cb3ed472d0f50808339624550f0e98082b737
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: f14016d596f11869fb923106cb174fa5ce255ec3
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698363"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982302"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade de Serviços profissionais e de suporte da Microsoft para RGPD
 
 ## <a name="1-introduction"></a>1. Introdução
 
-Essa lista de verificação de prontidão de responsabilidade fornece uma maneira conveniente de acessar as informações necessárias para oferecer suporte ao RGPD ao usar o Microsoft Professional Services e os serviços de suporte da Microsoft. A lista de verificação é organizada usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança para processadores de dados pessoais extraídos de:
+Essa lista de verificação de preparação de responsabilidade fornece uma maneira conveniente de acessar as informações necessárias para oferecer suporte ao RGPD ao usar o Microsoft Professional Services e os serviços de suporte da Microsoft. A lista de verificação é organizada usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança para processadores de dados pessoais extraídos de:
 
-- Requisitos de técnicas de segurança da [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735).
-- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de privacidade.
+- [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) para técnicas e requisitos de gerenciamento de informações de privacidade.
+- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de segurança da informação em geral.
 
 Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Professional Services implementa para oferecer suporte ao RGPD, que você pode baixar do [Central de Confiabilidade do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
@@ -39,7 +39,7 @@ Essa estrutura de controle também é usada para organizar a apresentação dos 
 |***Obter e registrar o consentimento (7.2.4)***|Quando for determinado como obrigatório, o cliente deve obter consentimento de maneira apropriada. O cliente também deve estar ciente dos requisitos de como uma solicitação para consentimento é apresentada e coletada|Os Serviços Professionais da Microsoft não oferecem suporte direto para a obtenção de consentimento do usuário.|(7)(1), (7)(2), (9)(2)(a)|
 |***Avaliação de impacto de privacidade (7.2.5)***|O cliente deve estar ciente dos requisitos para concluir as avaliações de impacto de privacidade (quando devem ser executados, as categorias de dados que podem exigir um, o momento certo de concluir a avaliação).|Os Serviços Professionais da Microsoft fornecem orientação sobre quando e como determinar a realização de um DPIA e uma visão geral do programa DPIA na Microsoft, incluindo o envolvimento do DPO, que é fornecido na página de Avaliações do Impacto sobre a Proteção dos *Dados* [(DPIAs) do Portal de Confiança do Serviço.](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA)<p>Suporte para seus DPIAs, confira:<br>– Informações importantes dos Serviços Profissionais da Microsoft para Avaliações do Impacto sobre a Proteção dos Dados do Cliente [[10](gdpr-arc-prof-services.md#10)]</p>|Artigo (35)|
 |***Contratos com processadores PII (7.2.6)***|O cliente deve garantir que seus contratos com processadores incluam requisitos para auxiliar com quaisquer obrigações regulamentares ou legais relevantes relacionadas ao processamento e à proteção de dados pessoais.|Os contratos da Microsoft que exigem que nós ajudemos as suas obrigações de acordo com o RGPD, incluindo suporte para os direitos dos titulares dos dados.<br>– Adendo da Proteção de Dados de Serviços Profissionais da Microsoft [[1](gdpr-arc-prof-services.md#1)]|(5)(2), (28)(3)(e), (28)(9)|
-|***Registros relacionados ao processamento de PII (7.2.7)***|O cliente deve manter todos os registros necessários e obrigatórios relacionados ao processamento de dados pessoais (por exemplo, finalidade, medidas de segurança, etc.). Alguns desses registros devem ser fornecidos por um subprocessador e o cliente deve garantir a obtenção de tais registros.|O Microsoft Professional Services mantém registros necessários para demonstrar conformidade e suporte para responsabilidade sob o RGPD. Veja a documentação de segurança do Microsoft Professional Services [[2](gdpr-arc-prof-services.md#2)]|(5)(2), (24)(1), (30)(1)(a), (30)(1)(b), (30)(1)(c), (30)(1)(d), (30)(1)(g), (30)(1)(f), (30)(3), (30)(4), (30)(5)|
+|***Registros relacionados ao processamento de PII (7.2.7)***|O cliente deve manter todos os registros necessários e obrigatórios relacionados ao processamento de dados pessoais (por exemplo, finalidade, medidas de segurança etc.). Alguns desses registros devem ser fornecidos por um subprocessador e o cliente deve garantir a obtenção de tais registros.|O Microsoft Professional Services mantém registros necessários para demonstrar conformidade e suporte para responsabilidade sob o RGPD. Veja a documentação de segurança do Microsoft Professional Services [[2](gdpr-arc-prof-services.md#2)]|(5)(2), (24)(1), (30)(1)(a), (30)(1)(b), (30)(1)(c), (30)(1)(d), (30)(1)(g), (30)(1)(f), (30)(3), (30)(4), (30)(5)|
 
 ## <a name="3-rights-of-data-subjects"></a>3. Direitos de titulares dos dados
 

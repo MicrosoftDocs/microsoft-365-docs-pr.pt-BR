@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure os navegadores da web e os dispositivos de borda para executar bypass de tráfego dos locais confiáveis do Office 365.
-ms.openlocfilehash: c7d4391d3274fd36a3f6fbf208cd94ce7b0f9339
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 416c93fd3f44e1cd9edba52a9d6117ac6d133760
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074221"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982782"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Etapa 4: Configurar o bypass de tráfego
 
@@ -26,7 +26,7 @@ ms.locfileid: "34074221"
 
 ![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-Como o tráfego geral da Internet pode ser arriscado, as redes de organizações típicas reforçam a segurança com dispositivos de borda, como servidores proxy, interrupção e inspeção de SSL, dispositivos de inspeção de pacotes e sistemas de prevenção de perda de dados. Leia sobre alguns dos problemas com dispositivos de interceptação de rede em Usar soluções ou dispositivos de rede de terceiros em tráfego do Office 365.
+Como o tráfego geral da Internet pode ser arriscado, as redes de organizações típicas reforçam a segurança com dispositivos de borda, como servidores proxy, Interrupção e Inspeção de SSL, dispositivos de inspeção de pacotes e sistemas de prevenção de perda de dados. Leia sobre alguns dos problemas com dispositivos de interceptação de rede em Usar soluções ou dispositivos de rede de terceiros em tráfego do Office 365.
 
 No entanto, os endereços IP e nomes de domínio DNS usados pelos serviços de nuvem do Microsoft 365 são conhecidos. Além disso, o tráfego e os serviços por si só são protegidos por vários recursos de segurança. Como essa proteção e segurança já está em funcionamento, os dispositivos de borda não precisam duplicá-la. Os destinos intermediários e o processamento de segurança duplicado do tráfego do Microsoft 365 podem reduzir significativamente o desempenho.
 
@@ -40,7 +40,8 @@ Você pode encontrar os intervalos de endereços IP e os nomes de domínio DNS e
 
 A Microsoft recomenda que você:
 
-- Use scripts PAC (configuração automática de Proxy) nos navegadores da Internet dos computadores no local para executar o bypass dos servidores proxy para os nomes de domínio DNS dos serviços baseados na nuvem do Microsoft 365. Para obter o script PAC mais recente do Microsoft 365, confira o script Get-Pacfile do PowerShell.
+- Use scripts de Configuração Automática de Proxy (PAC) nos navegadores da Internet dos computadores no local para executar o bypass dos servidores proxy para os nomes de domínio DNS dos serviços baseados na nuvem do Microsoft 365. Para obter o script PAC mais recente do Microsoft 365, confira [Script Get-Pacfile do PowerShellt](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic)..
+- 
 - Analise seus dispositivos de borda para determinar o processamento duplicado e configure-os para encaminhar o tráfego sem processamento para os pontos de extremidade Otimizar e Permitir, o que é conhecido como executar o bypass de tráfego. 
 
 Os dispositivos de borda incluem firewalls, interrupção e inspeção de SSL, dispositivos de inspeção empacotados e sistemas de prevenção de perda de dados. Para configurar e atualizar as configurações de dispositivos de borda, você pode usar um script ou uma chamada REST para consumir uma lista estruturada de pontos de extremidade do serviço Web de Pontos de extremidade do Office 365. Para saber mais, confira [URL do serviço Web e endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).

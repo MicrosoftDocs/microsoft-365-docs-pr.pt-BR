@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura de rede.
-ms.openlocfilehash: 533707eec17483c8291b232821035752c9d09e43
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9d818a97e79465d639c52f96901bd1cbaa31144a
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074201"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982772"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Fase 1: Critérios de saída para infraestrutura de rede
 
@@ -30,7 +30,7 @@ Verifique se sua infraestrutura de rede atende aos seguintes critérios necessá
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
 - Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise
-- Sua rede geral mapeia para uma arquitetura de referência do Office 365
+- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)
 - As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego 
 
 Se necessário, a [Etapa 1](networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.
@@ -73,7 +73,7 @@ Se necessário, a [Etapa 4](networking-configure-proxies-firewalls.md) pode ajud
 <a name="crit-networking-step5"></a>
 ## <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>Opcional: Seus clientes e aplicativos do Office 365 serem configurados para um desempenho ideal
 
-Você deve otimizar as configurações de TCP em seus dispositivos cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
+Você deve otimizar as configurações de Protocolo de Controle de Transmissão (TCP) em seus dispositivos cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
 
 Se necessário, a [Etapa 5](networking-optimize-tcp-performance.md) pode ajudá-lo com essa opção.
 
