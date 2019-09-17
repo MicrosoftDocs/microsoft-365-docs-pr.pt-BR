@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure os navegadores da web e os dispositivos de borda para executar bypass de tráfego dos locais confiáveis do Office 365.
-ms.openlocfilehash: 416c93fd3f44e1cd9edba52a9d6117ac6d133760
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: fbc4956525e2661ce791c6ec81b449dba685d0f0
+ms.sourcegitcommit: 1ca1062ccddd7a46fa0bb4af6ee5f0eb141e7280
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982782"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36999035"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Etapa 4: Configurar o bypass de tráfego
 
@@ -44,7 +44,7 @@ A Microsoft recomenda que você:
 - 
 - Analise seus dispositivos de borda para determinar o processamento duplicado e configure-os para encaminhar o tráfego sem processamento para os pontos de extremidade Otimizar e Permitir, o que é conhecido como executar o bypass de tráfego. 
 
-Os dispositivos de borda incluem firewalls, interrupção e inspeção de SSL, dispositivos de inspeção empacotados e sistemas de prevenção de perda de dados. Para configurar e atualizar as configurações de dispositivos de borda, você pode usar um script ou uma chamada REST para consumir uma lista estruturada de pontos de extremidade do serviço Web de Pontos de extremidade do Office 365. Para saber mais, confira [URL do serviço Web e endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
+Os dispositivos de borda incluem firewalls, interrupção e inspeção de SSL, dispositivos de inspeção empacotados e sistemas de prevenção de perda de dados. Para configurar e atualizar as configurações de dispositivos de borda, você pode usar um script ou uma chamada REST para consumir uma lista estruturada de pontos de extremidade do serviço Web de Pontos de extremidade do Office 365. Para saber mais, confira [URL do serviço Web e endereço IP do Office 365](https://docs.microsoft.com/pt-BR/office365/enterprise/office-365-ip-web-service#exporting-a-proxy-pac-file).
 
 Observe que você está apenas ignorando o processamento normal de segurança de rede e proxy do tráfego para os pontos de extremidade da categoria Otimizar e Permitir do Microsoft 365. Todo o outro tráfego geral da Internet será intermediado por proxy e estará sujeito ao processamento existente de segurança da rede.
 
