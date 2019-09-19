@@ -5,14 +5,13 @@ keywords: Microsoft Managed desktop, Microsoft 365, serviço, documentação, im
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 2/17/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bfa769cab9f8d812fa2533232f66b0d4f8a4edb7
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 5b6a2756514e94cb4f96141d6e7c9f6f2a6dd7ff
+ms.sourcegitcommit: a4657a499967751d4c2dfc6cd1904258ab8be193
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390508"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040783"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -20,7 +19,7 @@ Depois de fazer alterações nas categorias de configuração e testar uma impla
 
 ## <a name="deployment-statuses"></a>Status de implantação 
 
-Estes são os Statues que você verá para cada implantação.
+Estes são os status que você verá para cada implantação.
 
 Status  | Explicação 
 --- | --- 
@@ -41,13 +40,11 @@ Mostraremos a imagem de plano de fundo da área de trabalho nessas instruções.
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja implantar e, em seguida, selecione a implantação em estágios a ser implantada.
 4. Selecione **implantar** para implantar a alteração em um dos grupos de implantação.
 
-![Visão geral do status de implantação de configurações configuráveis](images/deploy-cs-overview.png)
-
-A área de trabalho gerenciada da Microsoft recomenda a implantação de grupos de implantação nesta ordem: Test, First, Fast e, em seguida, ampla. 
+![Configurações configuráveis status de](images/1deployedit.png) implantação visão geral da área de trabalho gerenciada da Microsoft recomenda a implantação de grupos de implantação nesta ordem: Test, First, Fast e, em seguida, ampla. 
 
 Quando as alterações são concluídas em cada grupo, o status é alterado para **concluído**.
 
-![Implantação de configurações configuráveis concluída](images/config-setting-complete.png)
+![Implantação de configurações configuráveis concluída](images/2completeedit.png)
 
 ## <a name="revert-deployment"></a>Reverter implantação
 
@@ -61,7 +58,7 @@ Mostraremos as etapas para reverter uma alteração usando a imagem de plano de 
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja reverter e selecione a implantação em estágios a ser revertida.
 4. Em **precisa reverter essa alteração**, selecione **reverter implantação**.
 
-![Reversão de implantação de configurações configurável](images/config-setting-revert.png) 
+![Reversão de implantação de configurações configurável](images/3revert.png) 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Visão geral das configurações configuráveis](config-setting-overview.md)
