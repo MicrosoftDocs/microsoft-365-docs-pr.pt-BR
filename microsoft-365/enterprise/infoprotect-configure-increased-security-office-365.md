@@ -3,7 +3,7 @@ title: 'Etapa 3: Configurar a segurança aprimorada para o Microsoft 365'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a segurança aprimorada para o Microsoft 365.
-ms.openlocfilehash: 81c39eb6a51e7596a72721c72084f1f255f7f451
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073631"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047274"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Etapa 3: Configurar a segurança aprimorada para o Microsoft 365
 
@@ -28,14 +28,14 @@ ms.locfileid: "34073631"
 
 Para garantir que seus dados e sua assinatura do Microsoft 365 comecem e continuem protegidos contra ameaças mal-intencionadas, configure o seguinte:
 
-- [Ajustar as políticas de gerenciamento de ameaças](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-office-365-security--compliance-center)
+- [Ajustar as políticas de gerenciamento de ameaças](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-microsoft-365-security-center)
 - [Configurações adicionais para todos os locatários do Exchange Online](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-additional-exchange-online-tenant-wide-settings)
 - [Políticas de compartilhamento para todos os locatários no Centro de administração do SharePoint](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-tenant-wide-sharing-policies-in-sharepoint-admin-center)
 - [Configurações do Azure Active Directory (Azure AD)](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-settings-in-azure-active-directory)
 
 Após a configuração, você pode obter informações sobre seu status de segurança em:
 
-- [Painéis e relatórios na Central de segurança da Microsoft](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security--compliance-center)
+- [Painéis e relatórios na Central de segurança da Microsoft](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security-and-compliance-centers)
 - [Classificação de Segurança da Microsoft](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)
 
 Um recurso de segurança adicional é a [Proteção Avançada contra Ameaças do Office 365 (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp), que ajuda sua organização a colaborar de forma mais segura ao:
