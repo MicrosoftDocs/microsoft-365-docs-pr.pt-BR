@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 6: configurar o gerenciamento de acesso privilegiado para o Office 365'
+title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado para o Office 365'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: fdfb0bc69d1dc05cffd717951cb493995d2123d4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072091"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047284"
 ---
-# <a name="step-6-configure-privileged-access-management-for-office-365"></a>Etapa 6: configurar o gerenciamento de acesso privilegiado para o Office 365
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado para o Office 365
 
 *Esta etapa é opcional e se aplica apenas às versões E5 e Advanced Compliance do Microsoft 365 Enterprise*
 
@@ -39,11 +39,13 @@ Para habilitar o gerenciamento do acesso privilegiado no Office 365, confira o t
 
 Para saber mais, confira o tópico [Gerenciamento do acesso privilegiado no Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview).
 
-## <a name="results"></a>Resultados
 
-O resultado esta etapa é que você aumentou a segurança do Office 365, habilitando o controle de acesso just-in-time para dados-chave e as definições de configuração para sua organização.
+|||
+|:-------|:-----|
+|![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de teste, consulte o [Guia de laboratório de teste de gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|||
 
-Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step6) correspondentes desta etapa.
+Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step7) correspondentes desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 

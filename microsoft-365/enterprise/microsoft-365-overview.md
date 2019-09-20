@@ -3,7 +3,7 @@ title: Visão geral do Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: b1750e1810556b8dadd4a16481c9ada3195f6c3c
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: f08682709cc47dc8fa6b4fcd48dc4511ff251ba1
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982832"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050282"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
 
@@ -78,27 +78,27 @@ Para obter uma visão melhor de como mover toda a organização para os produtos
 
 Este cartaz de duas páginas é uma maneira rápida de inventariar sua infraestrutura existente e obter as orientações para mudar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office e outros elementos de infraestrutura e segurança, como gerenciamento de dispositivos, identidade e proteção de informações e ameaças.
 
-Você pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
+Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
 
-## <a name="avoid-end-of-support-for-office-2010-clients-and-servers-and-windows-7"></a>Evitar o fim do suporte para clientes e servidores do Office 2010 e Windows 7
+## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Evite o fim do suporte para clientes e servidores do Windows 7 e do Office 2010
 
-Os seguintes produtos atingem o fim do suporte em **14 de janeiro de 2010**:
+Os seguintes produtos atingem o fim do suporte em **14 de janeiro de 2020**:
 
 - [Windows 7](https://aka.ms/win7upgrade)
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
 
 Os seguintes produtos atingem o fim do suporte em **13 de outubro de 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
 - [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
 Para obter um resumo visual das opções de atualização, migração e movimentação para a nuvem desses produtos, confira o [cartaz de fim de suporte](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 
 [![Imagem do fim de suporte para clientes e servidores do Office 2010 e para o pôster do Windows 7](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-Este cartaz de uma página é uma maneira rápida de entender os vários caminhos que você pode tomar para impedir que os produtos de cliente e de servidor do Office 2010 e o Windows 7 atinjam o fim do suporte, com caminhos e suporte de opções preferidos no Microsoft 365 Enterprise realçado.
+Este cartaz de uma página é uma maneira rápida de entender os vários caminhos que você pode tomar para impedir que os produtos de cliente e servidor do Windows 7 e Office 2010 atinjam o fim do suporte, com caminhos e suporte preferidos no Microsoft 365 Enterprise realçado.
 
-Você pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
+Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
 
 ## <a name="deploy"></a>Implantar
 

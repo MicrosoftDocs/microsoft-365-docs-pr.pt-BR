@@ -6,18 +6,19 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0af9134880f018cf814715a8ca3a3b7dc55c5fcd
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: de7f218b5cfe2dcdba6c29aea81bd6004adedf76
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982392"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047224"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
-Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Ambas as opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana. 
+Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Ambas as opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana.
+ 
 >[!NOTE]
->Os dispositivos que residem no grupo de teste estão fora do escopo para essas opções de suporte ao usuário final. 
+>Essas opções de suporte não estão disponíveis para dispositivos no grupo de teste. 
 
 ## <a name="get-help-app"></a>Obter ajuda do aplicativo
 
@@ -38,9 +39,10 @@ Os usuários finais com dispositivos de área de trabalho gerenciada da Microsof
 - Canadá (exceto Quebec): + 1 855 425 0216
 - Reino Unido: + 44 800 026 0698
 - Austrália: + 61 180 037 0619
+- Nova Zelândia: + 64 988 44380
 
 >[!NOTE]
->Deixe seu endereço de email organizacional pronto quando você ligar para verificar sua identidade. 
+>Você precisará ter seu endereço de email organizacional pronto ao chamar para verificar sua identidade. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 
