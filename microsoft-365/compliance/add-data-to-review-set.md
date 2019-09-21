@@ -1,0 +1,56 @@
+---
+title: Adicionar resultados de pesquisa a um conjunto de revisão
+ms.author: markjjo
+author: markjjo
+manager: laurawi
+ms.date: ''
+audience: Admin
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection: M365-security-compliance
+search.appverid:
+- MOE150
+- MET150
+ms.assetid: ''
+description: ''
+ms.openlocfilehash: 03328cfeada2e6bc493bfff0ee64f95904b8c9f8
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37072377"
+---
+# <a name="add-search-results-to-a-review-set"></a><span data-ttu-id="e7a94-102">Adicionar resultados de pesquisa a um conjunto de revisão</span><span class="sxs-lookup"><span data-stu-id="e7a94-102">Add search results to a review set</span></span>
+
+<span data-ttu-id="e7a94-103">Quando estiver satisfeito com os resultados de uma pesquisa e estiver pronto para revisar e analisar os resultados da pesquisa, você poderá adicioná-los a uma análise definida no caso.</span><span class="sxs-lookup"><span data-stu-id="e7a94-103">When you're satisfied with the results of a search and you're ready to review and analyze those search results, you can add them to a review set in the case.</span></span> <span data-ttu-id="e7a94-104">Copiar os dados originais para o conjunto de revisão também facilita o processo de revisão e análise fornecendo ferramentas avançadas de análise, como detecção de temas, detecção de duplicidade próxima e identificação de thread de email.</span><span class="sxs-lookup"><span data-stu-id="e7a94-104">Copying the original data to the review set also facilitates the review and analysis process by providing you with advanced analytics tools such as themes detection, near-duplicate detection, and email thread identification.</span></span> <span data-ttu-id="e7a94-105">Também é possível adicionar dados de fontes de dados que não sejam do Office 365 a um conjunto de revisão para que você possa revisar os dados além dos dados coletados do Office 365.</span><span class="sxs-lookup"><span data-stu-id="e7a94-105">You can also add data from non-Office 365 data sources to a review set so that you can review that data in addition to the data you collect from Office 365.</span></span> 
+
+<span data-ttu-id="e7a94-106">Quando você adiciona os resultados de uma pesquisa a um conjunto de revisão (os conjuntos de revisão estão na guia **conjuntos de revisão** do caso), ocorrem as seguintes coisas:</span><span class="sxs-lookup"><span data-stu-id="e7a94-106">When you add the results of a search to a review set (review sets are on the **Review sets** tab of the case), the following things occur:</span></span>
+
+- <span data-ttu-id="e7a94-107">A pesquisa é executada novamente.</span><span class="sxs-lookup"><span data-stu-id="e7a94-107">The search is run again.</span></span> <span data-ttu-id="e7a94-108">Isso significa que os resultados de pesquisa reais copiados para o conjunto de revisão podem ser diferentes dos resultados estimados que foram retornados quando a pesquisa foi executada pela última vez.</span><span class="sxs-lookup"><span data-stu-id="e7a94-108">This means the actual search results copied to the review set may be different than the estimated results that were returned when the search was last run.</span></span>
+
+- <span data-ttu-id="e7a94-109">Todos os itens nos resultados da pesquisa são copiados da fonte de dados original nos serviços do Live Office 365 e copiados para um local seguro de armazenamento do Azure na nuvem da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="e7a94-109">All items in the search results are copied from the original data source in the live Office 365 services, and copied to a secure Azure storage location in the Microsoft cloud.</span></span>
+
+- <span data-ttu-id="e7a94-110">Todos os itens (incluindo o conteúdo e os metadados) são reindexados para que todos os dados no conjunto de revisão sejam totalmente pesquisáveis durante a revisão dos dados de caso.</span><span class="sxs-lookup"><span data-stu-id="e7a94-110">All items (including the content and metadata) are re-indexed so that all data in the review set is fully searchable during the review of the case data.</span></span> <span data-ttu-id="e7a94-111">A indexação dos resultados dos dados em pesquisas abrangentes e muito rápidas quando você pesquisa os dados na revisão definida durante a investigação do caso.</span><span class="sxs-lookup"><span data-stu-id="e7a94-111">Re-indexing the data results in thorough and very fast searches when you search the data in the review set during the case investigation.</span></span>
+
+<span data-ttu-id="e7a94-112">Para adicionar dados a um conjunto de revisão, clique em uma pesquisa na guia **pesquisas** e, em seguida, clique em **Adicionar resultados para revisão definida** na página do menu suspenso.</span><span class="sxs-lookup"><span data-stu-id="e7a94-112">To add data to a review set, click a search on the **Searches** tab, and then click **Add results to review set** on the flyout page.</span></span>
+
+![Adicionando dados a um conjunto de revisão](media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
+
+<span data-ttu-id="e7a94-114">Você pode adicionar a um conjunto de revisão existente ou criar um novo conjunto de revisão.</span><span class="sxs-lookup"><span data-stu-id="e7a94-114">You can add to an existing review set or create a new review set.</span></span>  <span data-ttu-id="e7a94-115">Se estiver adicionando a um novo conjunto de revisão, especifique o nome e clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="e7a94-115">If adding to a new review set, specify the name and then click **Add**.</span></span>
+
+![Selecione um conjunto de revisão](media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
+
+<span data-ttu-id="e7a94-117">A adição de dados a um conjunto de revisão é um processo de execução demorada.</span><span class="sxs-lookup"><span data-stu-id="e7a94-117">Adding data to a review set is a long-running process.</span></span> <span data-ttu-id="e7a94-118">Esse processo inclui a coleta de itens das fontes de dados originais no Office 365 (por exemplo, de caixas de correio e sites), copiando-os para o local de armazenamento do Azure (esse processo de cópia também é chamado de *inclusão*) e, em seguida, indexando novamente os itens.</span><span class="sxs-lookup"><span data-stu-id="e7a94-118">This process includes gathering items from the original data sources in Office 365 (for example, from mailboxes and sites), copying them to the Azure storage location (this copying process is also called *ingestion*), and then re-indexing the items.</span></span> <span data-ttu-id="e7a94-119">Você pode acompanhar o progresso na guia **trabalhos** ou na guia **pesquisas** monitorando o status na coluna **Adicionar dados para revisão** .</span><span class="sxs-lookup"><span data-stu-id="e7a94-119">You can track the progress on the **Jobs** tab or on the **Searches** tab by monitoring the status in the **Added data to review set** column.</span></span> <span data-ttu-id="e7a94-120">Depois que o processamento do conjunto de revisão estiver concluído, clique na guia **revisar conjuntos** no caso e clique no conjunto de revisão para iniciar o processo de filtragem, revisão, marcação e exportação de dados no conjunto de revisão.</span><span class="sxs-lookup"><span data-stu-id="e7a94-120">After the review set processing is completed, click the **Review sets** tab in the case, and click the review set to start the process of filtering, reviewing, tagging, and exporting data in the review set.</span></span>
+
+## <a name="add-a-sample-to-a-review-set"></a><span data-ttu-id="e7a94-121">Adicionar um exemplo a um conjunto de revisão</span><span class="sxs-lookup"><span data-stu-id="e7a94-121">Add a sample to a review set</span></span>
+
+<span data-ttu-id="e7a94-122">Se você quiser validar os resultados de uma pesquisa com mais detalhes antes de adicionar todos eles a um conjunto de revisão, você pode adicionar um exemplo dos resultados da pesquisa a um conjunto de revisão, em vez de adicionar tudo.</span><span class="sxs-lookup"><span data-stu-id="e7a94-122">If you want to validate the results of a search more thoroughly before adding all of them to a review set, you can add a sample of the search results to a review set instead of adding everything.</span></span>
+
+<span data-ttu-id="e7a94-123">Para adicionar um exemplo a um conjunto de revisão, clique em uma pesquisa na guia **pesquisas** e clique em **amostra** na página do menu suspenso.</span><span class="sxs-lookup"><span data-stu-id="e7a94-123">To add a sample to a review set, click a search on the **Searches** tab and click **Sample** on the flyout page.</span></span> <span data-ttu-id="e7a94-124">Na página **parâmetros de amostragem** , escolha uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="e7a94-124">On the **Sampling parameters** page, choose one of the following options:</span></span>
+
+- <span data-ttu-id="e7a94-125">**Nível de confiança%** e **intervalo de confiança%** – os itens adicionados ao conjunto de revisão serão determinados pelos parâmetros estatísticos que você definir.</span><span class="sxs-lookup"><span data-stu-id="e7a94-125">**Confidence level %** and **Confidence interval %** – The items added to the review set will be determined by the statistical parameters that you set.</span></span> <span data-ttu-id="e7a94-126">Se você costuma usar um nível de confiança e um intervalo ao obter resultados de amostragem, especifique-os nas caixas suspensas.</span><span class="sxs-lookup"><span data-stu-id="e7a94-126">If you typically use a confidence level and interval when sampling results, specify them in the drop-down boxes.</span></span> <span data-ttu-id="e7a94-127">Caso contrário, use as configurações padrão.</span><span class="sxs-lookup"><span data-stu-id="e7a94-127">Otherwise, use the default settings.</span></span>
+
+- <span data-ttu-id="e7a94-128">**Amostra aleatória%** – os itens adicionados ao conjunto de revisão são baseados em uma seleção aleatória do percentual especificado do número total de itens retornados pela pesquisa.</span><span class="sxs-lookup"><span data-stu-id="e7a94-128">**Random sample %** – The items added to the review set is based on a random selection of the specified percentage of the total number of items returned by the search.</span></span>
+
+<span data-ttu-id="e7a94-129">Após selecionar e configurar uma das opções anteriores, escolha um conjunto de revisão para adicionar o exemplo a e clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="e7a94-129">After selecting and configuring one of the previous options, choose a review set to add the sample to and then click **Send**.</span></span> <span data-ttu-id="e7a94-130">Novamente, você pode acompanhar o progresso na guia **trabalhos** ou na guia **pesquisas** monitorando o status na coluna **Adicionar dados para revisão** .</span><span class="sxs-lookup"><span data-stu-id="e7a94-130">Again, you can track the progress on the **Jobs** tab or on the **Searches** tab by monitoring the status in the **Added data to review set** column.</span></span>
