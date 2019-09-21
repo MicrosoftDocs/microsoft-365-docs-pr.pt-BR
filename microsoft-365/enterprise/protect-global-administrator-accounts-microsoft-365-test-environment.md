@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 7a6f99ae1123b07618dea9910a0bdd993e36ca13
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 457ac33aa2242dc4b25cd662bf233bb1599a6fec
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074141"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071550"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
 
@@ -93,7 +93,7 @@ Essa segunda política bloqueia o acesso à autenticação de conta de administr
 
 Para testar a primeira política, saia e entre com a conta DedicatedAdmin. Você deve ser solicitado a configurar o MFA na conta de usuário. Isso demonstra que a primeira política está sendo aplicada.
 
-Consulte a etapa [proteger contas de administrador global](identity-designate-protect-admin-accounts.md#identity-global-admin) na fase de identidade para obter informações e links para proteger suas contas de administrador global em produção.
+Consulte a etapa [proteger contas de administrador global](identity-create-protect-global-admins.md#identity-global-admin) na fase de identidade para obter informações e links para proteger suas contas de administrador global em produção.
 
 ## <a name="next-step"></a>Próxima etapa
 

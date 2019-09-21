@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configure o licenciamento baseado em grupo e a associação de grupos dinâmicos em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 179284dce271c69939a560703561a32648af93b1
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: cb01e1a405e7cff1f9965e34751b3ce638dd8018
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072621"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071720"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -90,8 +90,8 @@ No momento, você verá:
 
 Consulte estas etapas na fase de identidade para obter informações e links para implantar a associação de grupo dinâmico e o licenciamento automático em produção:
 
-- [Configurar licenciamentos automáticos](identity-self-service-group-management.md#identity-group-license)
-- [Configurar a associação de grupo dinâmica](identity-self-service-group-management.md#identity-dyn-groups)
+- [Configurar licenciamentos automáticos](identity-use-group-management.md#identity-group-license)
+- [Configurar a associação de grupo dinâmica](identity-use-group-management.md#identity-dyn-groups)
 
 ## <a name="next-step"></a>Próxima etapa
 

@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configure o Azure AD Identity Protection e analise as contas atuais em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: d267bb9dff94acfec46fa1275887f9cade2a7285
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 97530dcec9c32882bbe3b66eb53eaa6d4668a838
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074081"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071710"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Proteção de identidade do Azure AD para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -48,7 +48,7 @@ Se você quiser testar a proteção de identidade do Azure AD em uma empresa sim
 1. Abra uma instância privada do navegador e entre no portal do Azure em [https://portal.azure.com](https://portal.azure.com) com a conta de administrador global do ambiente de teste do Microsoft 365 Enterprise.
 2. No portal do Azure, clique em **todos os serviços > Marketplace**.
 3. Digite **proteção de identidade do Azure ad** e clique nele.
-4. Na folha **introdução** , clique em em **** **configurações**, clique em **fixar no painel**e clique em **criar**.
+4. Na folha **introdução** , clique em em **configurações** **, clique em** **fixar no painel**e clique em **criar**.
 5. No portal do Azure, clique em **proteção de identidade do Azure ad** no painel. 
 
    Você deve ver uma lâmina **do Azure ad Identity Protection-visão geral** com um painel. Em **vulnerabilidades**, observe que ela determinou o número de contas de usuário sem registro de autenticação multifator. Esse número varia de acordo com os guias anteriores do laboratório de teste do Microsoft 365 Enterprise que você fez.
@@ -57,7 +57,7 @@ Se você quiser testar a proteção de identidade do Azure AD em uma empresa sim
 
 Para outros testes e experimentos, consulte [simulating Risk Events](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook).
 
-Consulte a etapa [proteger contra](identity-multi-factor-authentication.md#identity-ident-prot) o comprometimento de credenciais na fase de identidade para obter informações e links para implantar a proteção de identidade do Azure AD em produção.
+Consulte a etapa [proteger contra o comprometimento de credenciais](identity-secure-user-sign-ins.md#identity-ident-prot) na fase de identidade para obter informações e links para implantar a proteção de identidade do Azure AD em produção.
 
 ## <a name="next-step"></a>Próxima etapa
 

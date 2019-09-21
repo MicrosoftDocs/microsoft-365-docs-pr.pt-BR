@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 319f8058aa4504c52cacf5f0d97982d115c41c8a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f209c3cebaefd8b4bddafb68471c35e5c37905be
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074211"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071570"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -54,17 +54,17 @@ Habilite a autenticação multifator para a conta do usuário 2 com estas etapas
     
 2. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
     
-3. No painel usuários ativos, clique em **mais > configuração de autenticação**multifator.
+3. No painel usuários ativos, clique em **mais > configuração de autenticação multifator**.
     
 4. Na lista, selecione a conta do **usuário 2** .
     
 5. Na seção **usuário 2** , em **etapas rápidas**, clique em **habilitar**.
     
-6. Na caixa de diálogo **sobre como habilitar a autenticação** multifator, clique em **habilitar autenticação**multifator.
+6. Na caixa de diálogo **sobre como habilitar a autenticação multifator** , clique em **habilitar autenticação multifator**.
     
 7. Na caixa de diálogo **atualizações com êxito** , clique em **fechar**.
     
-8. Na guia **centro de administração do Microsoft 365** , clique no ícone da conta de usuário no canto superior direito e **** clique em sair.
+8. Na guia **centro de administração do Microsoft 365** **, clique no**ícone da conta de usuário no canto superior direito e clique em sair.
     
 9. Feche a instância do navegador.
    
@@ -95,7 +95,7 @@ Conclua a configuração da conta do usuário 2 para usar uma mensagem de texto 
     Você deve ver o portal do Office para o usuário 2 na guia **Microsoft Office Home** do navegador.
 
 
-Consulte a etapa [Configurar a autenticação](identity-multi-factor-authentication.md#identity-mfa) multifator na fase Identity para obter informações e links para implantar a autenticação multifator em produção.
+Consulte a etapa [Configurar a autenticação multifator](identity-secure-user-sign-ins.md#identity-mfa) na fase Identity para obter informações e links para implantar a autenticação multifator em produção.
     
 ## <a name="next-step"></a>Próxima etapa
 
