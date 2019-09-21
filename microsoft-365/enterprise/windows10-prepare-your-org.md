@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: josephd
-ms.openlocfilehash: 9b09f21c71f578c45a71149cedfd67a8ea9104e6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5deae85ae614079c23a373d4ecae7ce81aeb3fcd
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289395"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071770"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Etapa 1: preparar sua organização para o Windows 10 Enterprise
 
@@ -29,15 +29,15 @@ Antes de atualizar seus dispositivos para o Windows 10 Enterprise, considere o s
   Com uma assinatura do Microsoft 365, você obtém um nome de domínio padrão que termina no onmicrosoft.com (por exemplo, contoso.onmicrosoft.com). A maioria das organizações prefere usar um ou mais domínios que eles possuem para que seus endereços de email sejam encerrados em seu próprio nome de domínio (como username@contoso.com). Para usar seu próprio domínio, é necessário adicioná-lo ao Microsoft 365 e verificar se você é o proprietário dele. Recomendamos que você adicione e verifique seus domínios agora para que eles estejam prontos sempre que você configurar os serviços do Microsoft 365, como email e Skype for Business.
 - **Você não precisa adicionar usuários no momento** <br>
   Para usar os serviços do Microsoft 365 ou instalar produtos da Microsoft 365, os usuários precisam de contas no Microsoft 365 e precisam de licenças de produto. O modo como você adiciona usuários à Microsoft 365 depende do número de usuários e se você tem atualmente o Active Directory no local. Se você não tiver o Active Directory (ou se tiver o Active Directory, mas não quiser sincronizá-lo para o Microsoft 365), poderá adicionar usuários diretamente ao Microsoft 365 e atribuir licenças, individualmente ou em massa. <br>
-  Se você tiver o Active Directory local, poderá [sincronizá-lo com o microsoft 365](identity-azure-ad-connect.md#identity-sync) para criar contas de usuário no Azure AD, o diretório de nuvem usado pelo Microsoft 365. Com esse método, você pode criar contas para usuários e grupos de segurança que você usa para gerenciar permissões para recursos (como conjuntos de sites ou documentos do SharePoint Online). A sincronização do seu Active Directory com o Microsoft 365 não atribuirá licenças aos usuários.
+  Se você tiver o Active Directory local, poderá [sincronizá-lo com o microsoft 365](identity-add-user-accounts.md#identity-sync) para criar contas de usuário no Azure AD, o diretório de nuvem usado pelo Microsoft 365. Com esse método, você pode criar contas para usuários e grupos de segurança que você usa para gerenciar permissões para recursos (como conjuntos de sites ou documentos do SharePoint Online). A sincronização do seu Active Directory com o Microsoft 365 não atribuirá licenças aos usuários.
 - **Você não precisa licenciar usuários no momento** <br>
-  Para que os usuários possam usar os serviços do Microsoft 365 ou instalar software do portal do Microsoft 365, eles precisam de licenças de produto. Como administrador global ou de gerenciamento de usuários, você pode atribuir diretamente licenças de produtos no Microsoft 365 individualmente ou em massa. Você também pode usar o [Licenciamento baseado em grupo](identity-self-service-group-management.md#identity-group-license) para atribuir licenças automaticamente quando os usuários são adicionados a um determinado grupo. 
-- **Você instala o Office 365 proPlus separadamente** <br>
-  A obtenção de uma licença do Microsoft 365 não instala automaticamente o Office 365 proPlus em seus computadores cliente. Consulte a [fase 4: Office 365 ProPlus](office365proplus-infrastructure.md) para obter mais informações. 
+  Para que os usuários possam usar os serviços do Microsoft 365 ou instalar software do portal do Microsoft 365, eles precisam de licenças de produto. Como administrador global ou de gerenciamento de usuários, você pode atribuir diretamente licenças de produtos no Microsoft 365 individualmente ou em massa. Você também pode usar o [Licenciamento baseado em grupo](identity-use-group-management.md#identity-group-license) para atribuir licenças automaticamente quando os usuários são adicionados a um determinado grupo. 
+- **Você instala o Office 365 ProPlus separadamente** <br>
+  A obtenção de uma licença do Microsoft 365 não instala automaticamente o Office 365 ProPlus em seus computadores cliente. Consulte a [fase 4: Office 365 ProPlus](office365proplus-infrastructure.md) para obter mais informações. 
 
 ## <a name="set-windows-diagnostics-data-level"></a>Definir nível de dados de diagnóstico do Windows
 
-A Microsoft usa dados de diagnóstico para ajudar a manter os dispositivos Windows seguros identificando tendências de malware e outras ameaças, e para nos ajudar a melhorar a qualidade dos serviços do Windows e da Microsoft. Você deve garantir que o serviço de diagnóstico esteja habilitado em um nível mínimo de básico em todos os pontos de extremidade da sua organização. *Por padrão, esse serviço é habilitado e definido como o nível avançado.* No enTanto, é uma boa prática verificar e garantir que eles estejam recebendo dados do sensor. A configuração de níveis por meio de políticas substitui as configurações no nível do dispositivo. 
+A Microsoft usa dados de diagnóstico para ajudar a manter os dispositivos Windows seguros identificando tendências de malware e outras ameaças, e para nos ajudar a melhorar a qualidade dos serviços do Windows e da Microsoft. Você deve garantir que o serviço de diagnóstico esteja habilitado em um nível mínimo de básico em todos os pontos de extremidade da sua organização. *Por padrão, esse serviço é habilitado e definido como o nível avançado.* No entanto, é uma boa prática verificar e garantir que eles estejam recebendo dados do sensor. A configuração de níveis por meio de políticas substitui as configurações no nível do dispositivo. 
 
 **Níveis de dados de diagnóstico do sistema operacional Windows 10**
 
@@ -50,7 +50,7 @@ Use o valor apropriado na tabela abaixo ao configurar a política de gerenciamen
 | Segurança | Somente dados de segurança. | ,0 |
 | Básica | Dados de segurança e dados básicos de sistema e de qualidade. | 1 |
 | Metarquivo | Dados de segurança, dados básicos de sistema e de qualidade, e ideias aprimoradas e dados avançados de confiabilidade. | duas |
-| Inteiro | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3D |
+| Completo | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3D |
 
 Você pode habilitar os dados de diagnóstico através de qualquer um destes métodos:
 
@@ -59,7 +59,7 @@ Você pode habilitar os dados de diagnóstico através de qualquer um destes mé
 * **Política de grupo** -se você não planeja registrar dispositivos no Intune, você pode usar um objeto de política de grupo para definir o nível de dados de diagnóstico da sua organização.
 * **Prompt de comando** -você pode configurar os dados de diagnóstico e o serviço do Windows 10 para que iniciem automaticamente com o prompt de comando. Esse método é melhor se você estiver testando o serviço em apenas alguns dispositivos. Habilitar o serviço para iniciar automaticamente com este comando não irá configurar o nível de dados de diagnóstico. Se você não configurou um nível de dados de diagnóstico usando ferramentas de gerenciamento, o serviço funcionará com o nível avançado padrão.
 
-ConFira [configurar os dados de diagnóstico do Windows em sua organização](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization) para saber mais sobre os dados de diagnóstico do Windows e como habilitá-lo com base no método escolhido.
+Confira [configurar os dados de diagnóstico do Windows em sua organização](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization) para saber mais sobre os dados de diagnóstico do Windows e como habilitá-lo com base no método escolhido.
 
 Como ponto de verificação provisório, é possível conferir os [Critérios de saída](windows10-exit-criteria.md#crit-windows10-step1) para esta etapa.
 
