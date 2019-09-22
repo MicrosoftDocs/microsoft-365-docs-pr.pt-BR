@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 30d6e1566fda4dbc84800bbd4359a689f858f9e4
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: bacf6b55bc4c92987511bdf1ab4ac5b120f11836
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982647"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071490"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Office 365 para o RGPD
 
@@ -1767,7 +1767,7 @@ Os administradores de TI podem usar a ferramenta de pesquisa do log de auditoria
 - Movem um arquivo
 - Carregam ou baixam um arquivo
 
-É possível pesquisar o log de auditoria em busca de atividades específicas, tipos de atividade, atividades executadas por um usuário específico e outros critérios de pesquisa. Além das atividades do SharePoint Online e OneDrive for Business, você também pode pesquisar atividades no Flow, Power BI e Microsoft Teams. Os registros de auditoria são retidos por 90 dias. Portanto, não será possível pesquisar as atividades do usuário que ocorreram há mais de 90 dias. Para obter uma lista completa das atividades auditadas e como pesquisar o log de auditoria, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance). 
+É possível pesquisar o log de auditoria em busca de atividades específicas, tipos de atividade, atividades executadas por um usuário específico e outros critérios de pesquisa. Além das atividades do SharePoint Online e OneDrive for Business, você também pode pesquisar atividades no Flow, Power BI e Microsoft Teams. Os registros de auditoria são retidos por 90 dias. Portanto, não será possível pesquisar as atividades do usuário que ocorreram há mais de 90 dias. Para obter uma lista completa das atividades auditadas e como pesquisar o log de auditoria, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](search-the-audit-log-in-security-and-compliance.md). 
 
 > [!TIP]
 > Para contornar a limitação de 90 dias discutida acima e manter um histórico de execução dos registros de auditoria da sua organização, você pode exportar todas as atividades em uma agenda recorrente (por exemplo, a cada 30 dias) para ter um registro contínuo de registros de auditoria da organização.

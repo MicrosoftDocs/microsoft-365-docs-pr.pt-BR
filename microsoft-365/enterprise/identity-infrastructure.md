@@ -3,7 +3,7 @@ title: 'Fase 2: identidade'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/06/2019
+ms.date: 09/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,13 +12,13 @@ ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Etapas para implantar a infraestrutura de identidade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 07f95a249912826b80e0654cac4063b3d5763267
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+description: As etapas para implantar sua infraestrutura de identidade do Microsoft 365 Enterprise.
+ms.openlocfilehash: 2d9ffcc5122b5a5dfc94fb007167655e879d6799
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981942"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071690"
 ---
 # <a name="phase-2-identity"></a>Fase 2: identidade
 
@@ -27,6 +27,8 @@ ms.locfileid: "36981942"
 No Microsoft 365 Enterprise, uma infraestrutura de identidade bem planejada e executada fortalece a segurança e o acesso dos dados e cargas de trabalho de produtividade somente por usuários e dispositivos autenticados.
 
 Assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365 Enterprise.
+
+<p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
@@ -48,13 +50,12 @@ Use as etapas a seguir para planejar e implantar uma nova infraestrutura de iden
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Planejar usuários e grupos](identity-plan-users-groups.md) |
-|![](./media/stepnumbers/Step2.png)| [Proteger suas identidades privilegiadas](identity-designate-protect-admin-accounts.md) |
-|![](./media/stepnumbers/Step3.png)| [Configurar identidade híbrida](identity-azure-ad-connect.md) |
-|![](./media/stepnumbers/Step4.png)| [Configurar autenticação de usuário segura](identity-multi-factor-authentication.md) |
-|![](./media/stepnumbers/Step5.png)| [Simplificar o acesso para usuários](identity-password-reset.md) |
-|![](./media/stepnumbers/Step6.png)| [Usar grupos para facilitar o gerenciamento](identity-self-service-group-management.md) |
-|![](./media/stepnumbers/Step7.png)| [Configurar a governança de identidade](identity-governance.md) |
+|![](./media/stepnumbers/Step1.png)| [Criar e proteger contas de administrador global](identity-create-protect-global-admins.md) |
+|![](./media/stepnumbers/Step2.png)| [Proteger suas senhas](identity-secure-your-passwords.md) |
+|![](./media/stepnumbers/Step3.png)| [Proteger e gerenciar as entradas do seu usuário](identity-secure-user-sign-ins.md) |
+|![](./media/stepnumbers/Step4.png)| [Adicionar suas contas de usuário](identity-add-user-accounts.md) |
+|![](./media/stepnumbers/Step5.png)| [Usar grupos de gerenciamento](identity-use-group-management.md) |
+|![](./media/stepnumbers/Step6.png)| [Configurar a governança de identidade](identity-configure-identity-governance.md) |
 
 Após concluir essas etapas, consulte os [critérios de saída](identity-exit-criteria.md) para esta fase a fim de garantir que sua rede atende às condições obrigatórias e opcionais à identidade do Microsoft 365 Enterprise.
 
@@ -80,4 +81,4 @@ Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas repres
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Planejar usuários e grupos](identity-plan-users-groups.md) |
+|![](./media/stepnumbers/Step1.png)| [Criar e proteger contas de administrador global](identity-create-protect-global-admins.md) |
