@@ -3,7 +3,7 @@ title: Implantar o Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 08/09/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: 896ac2ec0f9964344a416d583858e90a1a59e8fd
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ce4b3dfeb3c13f68b0218f5aea5740b6dc5252d0
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982062"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050272"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
@@ -39,7 +39,7 @@ Há três formas principais de implantar o Microsoft 365 Enterprise:
 
 ## <a name="fasttrack-for-microsoft-365"></a>FastTrack para o Microsoft 365
 
-O FastTrack é um benefício contínuo e repetível—disponível como parte de sua assinatura—que é entregue por engenheiros da Microsoft para ajudá-lo a mover para a nuvem no seu próprio ritmo. O FastTrack também lhe dá acesso a parceiros qualificados para serviços adicionais. Com mais de 40.000 clientes habilitados até o momento, FastTrack ajuda a maximizar o ROI, acelerar a implantação e aumentar a adoção em toda a sua organização. Conferir [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
+O FastTrack é um benefício contínuo e repetível —*disponível gratuitamente como parte de sua assinatura*— que é fornecido pelos engenheiros da Microsoft para ajudá-lo a mover para a nuvem no seu próprio ritmo. O FastTrack também lhe dá acesso a parceiros qualificados para serviços adicionais. Com mais de 40.000 clientes habilitados até o momento, FastTrack ajuda a maximizar o ROI, acelerar a implantação e aumentar a adoção em toda a sua organização. Conferir [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
 
 Se deseja aproveitar as vantagens do FastTrack para implantar o Microsoft 365 Enterprise, você pode usar o [consultor de implantação do Microsoft 365](https://aka.ms/microsoft365setupguide) do FastTrack para obter instruções sobre como implantar e configurar a infraestrutura de base. Você deve estar conectado como administrador global em um locatário do Office 365 ou do Microsoft 365 para acessar esta página.
 
@@ -77,9 +77,9 @@ Comece sozinho em sua jornada de implantação de ponta a ponta [aqui](deploy-fo
 
 Se você está começando a usar Microsoft 365 Enterprise ou um produto específico ou recurso, uma das melhores formas de aprender é criar algo sozinho e ver isso funcionar.
 
-Nós facilitamos isso com os Guias de Laboratório de Teste (TLGs), que o orienta pela configuração da infraestrutura ou de um recurso em um ambiente simplificado mas representativo usando uma assinatura de avaliação ou uma assinatura paga.
+Nós facilitamos isso com as Guias de Laboratório de Teste (TLGs), que o orienta pela configuração da infraestrutura ou de um recurso em um ambiente de teste simplificado mas representativo, usando assinaturas de avaliação ou paga.
 
-Com TLGs, você pode aprender sozinho, demonstrar, personalizar ou criar uma prova de conceito de uma configuração complexa, carga de trabalho ou cenário de ponta a ponta.
+Com as TLGs, você pode aprender sozinho, demonstrar, personalizar ou criar uma prova de conceito (PoC) de uma configuração complexa, carga de trabalho ou cenário de ponta a ponta.
 
 Para saber mais, confira [Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md).
 
@@ -87,13 +87,13 @@ Para saber mais, confira [Guias do Laboratório de Teste do Microsoft 365 Enterp
 
 ## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, confira [Fazer a Transição da Organização para o Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, confira o pôster [Fazer a Transição da Organização para o Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Pôster sobre a Transição da Organização para o Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
-Você pode[baixar o pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formato de carta, oficial ou de tabloide (11x17).
+Você também pode[baixar o pôster de transição](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formato de carta, oficial ou de tabloide (11x17).
 
 ## <a name="how-did-others-do-it"></a>Como os outros fizeram isso?
 

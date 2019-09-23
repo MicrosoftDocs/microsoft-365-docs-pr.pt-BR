@@ -60,10 +60,24 @@ Sua equipe de conformidade e segurança de dados está usando o Office 365 Secur
 
 Se necessário, a [Etapa 5](../infoprotect-data-loss-prevention.md) pode ajudá-lo a atender a esse requisito. 
 
-
 <a name="crit-infoprotect-step6"></a>
+### <a name="optional-email-encryption-is-configured"></a>Opcional: a criptografia de email está configurada
+
+Você configurou a seguinte criptografia de email conforme necessário para a sua organização:
+
+|||
+|:-------|:-----|
+| **Método de criptografia** | **Para email enviado** |
+| [Criptografia de Mensagens do Office 365 (OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | Fora da organização com criptografia |
+| [Gerenciamento de Direitos de Informação (IRM)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | Com criptografia e permissões |
+| [Secure/Multipurpose Internet Mail Extensions (S/MIME)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | Com assinaturas digitais e de criptografia usando criptografia de chave pública |
+|||
+
+Se necessário, a [Etapa 6](../infoprotect-email-encryption.md) pode ajudá-lo a atender a esse requisito.
+
+<a name="crit-infoprotect-step7"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>Opcional: configurar o gerenciamento de acesso privilegiado no Office 365
 
 Você usou as informações do tópico [Configurar gerenciamento de acesso privilegiado do Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) para habilitar uma ou mais políticas de acesso privilegiado em sua organização. Você configurou essas políticas e o acesso just-in-time está habilitado para acessar dados confidenciais ou configurações críticas.
 
-Se necessária, a [Etapa 6](../infoprotect-configure-privileged-access-management.md) pode ajudá-lo a atender a esse requisito. 
+Se necessário, a [Etapa 7](../infoprotect-configure-privileged-access-management.md) pode ajudá-lo a atender a esse requisito. 

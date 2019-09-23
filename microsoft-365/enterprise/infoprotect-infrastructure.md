@@ -3,7 +3,7 @@ title: 'Fase 6: proteção de informações'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/01/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura de proteção de informações do Microsoft 365 Enterprise.
-ms.openlocfilehash: a00f61cbf2f8d00929a67dae6d401fd99014ec26
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 3174790d1ee6c9ed05605dd1c3c75405e3eac42b
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073681"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047304"
 ---
 # <a name="phase-6-information-protection"></a>Fase 6: proteção de informações
 
@@ -43,14 +43,15 @@ Em seguida, siga estas etapas para criar a proteção de informações para o Mi
 |![](./media/stepnumbers/Step3.png)|[Configurar a segurança aprimorada para o Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
 |![](./media/stepnumbers/Step4.png)|[Configurar Proteção de Informações do Windows](infoprotect-deploy-windows-information-protection.md)|
 |![](./media/stepnumbers/Step5.png)|[Configurar a Prevenção de Perda de Dados do Office 365](infoprotect-data-loss-prevention.md)|
-|![](./media/stepnumbers/Step6.png)|[Configurar o gerenciamento de acesso privilegiado do Office 365](infoprotect-configure-privileged-access-management.md)|
-
+|![](./media/stepnumbers/Step6.png)|[Configurar a criptografia de email](infoprotect-email-encryption.md)|
+|![](./media/stepnumbers/Step7.png)|[Configurar o gerenciamento de acesso privilegiado do Office 365](infoprotect-configure-privileged-access-management.md)|
+|||
 
 Após concluir essas etapas, consulte os [critérios de saída](infoprotect-exit-criteria.md) para esta fase a fim de garantir que sua rede atende às condições obrigatórias e opcionais do Microsoft 365 Enterprise.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Saiba como os especialistas de TI da Microsoft usam a [Proteção de Informações do Azure e proteção dos dados.](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR9)
+Saiba como os especialistas de TI da Microsoft usam a [Proteção de Informações do Azure e proteção dos dados.](https://www.microsoft.com/pt-BR/itshowcase/deploying-and-managing-microsoft-365#primaryR9)
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 

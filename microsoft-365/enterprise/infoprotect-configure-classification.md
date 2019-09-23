@@ -3,7 +3,7 @@ title: 'Etapa 2: Configurar classificações de ambiente'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/25/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar várias maneiras para classificar os dados em sua organização.
-ms.openlocfilehash: 483549e7eaa7f6b77b775cf35bda7b0f42834ad2
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ca1b4aefca7ee63f1c8fe098c115fc4f0074d9f6
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072251"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047294"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Etapa 2: Configurar classificações de ambiente
 
@@ -63,9 +63,8 @@ Para mais informações, confira a [visão geral dos rótulos de retenção](htt
 Parte de proteger e implementar a segurança para tipos específicos de documentos ou documentos com conteúdos específicos é marcá-los com um rótulo para que a segurança adicional possa ser aplicada. Com rótulos de confidencialidade no Microsoft 365, você pode:
 
 - Impor configurações de proteção como criptografia, permissões ou adicionar uma marca d´água.
-- Evitar que conteúdo confidencial saia de sua organização em dispositivos executando o Windows, usando a proteção de pontos de extremidade no Microsoft Intune. 
 - Usar a proteção de pontos de extremidade da Proteção de Informações do Windows (WIP) para evitar que um conteúdo seja copiado para um aplicativo de terceiros, como Twitter ou Gmail, ou que seja copiado para armazenamento removível, como uma unidade USB. 
-- Usar Segurança no Aplicativo de Nuvem da Microsoft para proteger conteúdo em aplicativos e serviços de terceiros. 
+- Usar o Microsoft Cloud App Security (CAS) para proteger conteúdo em aplicativos e serviços de terceiros. 
 - Classificar conteúdo sem usar nenhuma configuração de proteção.
 
 Se você usar rótulos de confidencialidade, você deve configurar um rótulo para cada nível de segurança e proteção de informações. Por exemplo, crie três rótulos de confidencialidade para:
@@ -73,6 +72,8 @@ Se você usar rótulos de confidencialidade, você deve configurar um rótulo pa
 - Linha de base
 - Confidencial
 - Altamente controlado
+
+Caso armazene arquivos com dados altamente regulamentados em um site do SharePoint Online e quiser que esses arquivos tenham as mesmas permissões que o site se os arquivos saírem do site, será necessário criar um rótulo de confidencialidade adicional cujas permissões sejam as mesmas do site.
 
 Para saber mais, confira a [visão geral de rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels).
 
