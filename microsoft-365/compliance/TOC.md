@@ -337,8 +337,7 @@
 ### [Campos de metadados do documento](document-metadata-fields.md)
 ### [Gerenciar tarefas](manage-jobs.md)
 
-# 
-  [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
+# [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 ## [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md)
 ## [Gerenciar a auditoria de caixa de correio](enable-mailbox-auditing.md)
 ## [Propriedades detalhadas no log de auditoria](detailed-properties-in-the-office-365-audit-log.md)
