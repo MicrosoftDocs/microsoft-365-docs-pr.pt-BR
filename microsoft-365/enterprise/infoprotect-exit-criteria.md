@@ -3,7 +3,7 @@ title: Critérios de saída da infraestrutura de proteção de informações
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/25/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Examinar os critérios da infraestrutura e dos serviços com base na proteção de informações a fim de garantir que sua configuração atenda aos requisitos do Microsoft 365 Enterprise.
-ms.openlocfilehash: 267a6efaef5a5bcfb0ec9f8e0e9f33d525f5ce74
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 02e972a80d4b42ae66193bbbc55d0f1e63be5ba6
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071941"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047234"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de proteção de informações
 
@@ -88,16 +88,30 @@ Sua equipe de conformidade e segurança de dados está usando o Office 365 Secur
 
 Se necessário, a [Etapa 5](infoprotect-data-loss-prevention.md) pode ajudá-lo a atender a esse requisito. 
 
-
 <a name="crit-infoprotect-step6"></a>
+## <a name="optional-email-encryption-is-configured"></a>Opcional: a criptografia de email está configurada
+
+Você configurou a seguinte criptografia de email conforme necessário para sua organização:
+
+|||
+|:-------|:-----|
+| **Método de criptografia** | **Para email enviado** |
+| [Criptografia de Mensagens do Office 365 (OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | Fora da sua organização com criptografia |
+| [Gerenciamento de Direitos de Informação (IRM)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | Com criptografia e permissões |
+| [Extensões para Mensagens de Internet Multifunção/Seguras (S/ MIME)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | Com criptografia e assinaturas digitais usando criptografia de chave pública |
+|||
+
+Se necessária, a [Etapa 6](infoprotect-email-encryption.md) pode ajudá-lo a atender a esse requisito.
+
+<a name="crit-infoprotect-step7"></a>
 ## <a name="optional-configure-privileged-access-management-in-office-365"></a>Opcional: configurar o gerenciamento de acesso privilegiado no Office 365
 
 Você usou as informações do tópico [Configurar gerenciamento de acesso privilegiado do Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) para habilitar uma ou mais políticas de acesso privilegiado em sua organização. Você configurou essas políticas e o acesso just-in-time está habilitado para acessar dados confidenciais ou configurações críticas.
 
-Se necessária, a [Etapa 6](infoprotect-configure-privileged-access-management.md) pode ajudá-lo a atender a esse requisito. 
+Se necessário, a [Etapa 7](infoprotect-configure-privileged-access-management.md) pode ajudá-lo a atender a esse requisito. 
 
 ## <a name="results-and-next-steps"></a>Resultados e próximas etapas
 
-Sua infra-estrutura de proteção de informações para o Microsoft 365 Enterprise usa níveis de segurança definidos, maior segurança para o Office 365, classificação usando rótulos e tipos de dados confidenciais, Proteção de Informações do Windows, Prevenção de Perda de Dados e gerenciamento de acesso privilegiado.
+Sua infraestrutura de proteção de informações para o Microsoft 365 Enterprise usa níveis de segurança definidos, maior segurança para o Office 365, classificação usando tipos e rótulos de dados confidenciais, Proteção de Informações do Windows, Prevenção de Perda de Dados, criptografia de email e gerenciamento de acesso privilegiado.
 
 Se você está seguindo a implantação de ponta a ponta do Microsoft 365 Enterprise, você está pronto para fazer suas [cargas de trabalho e seus cenários](deploy-workloads.md) aproveitarem todos os recursos e configurações de sua infraestrutura de base.
