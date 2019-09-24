@@ -19,32 +19,32 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Exibir políticas e ações de dispositivos entrando no Microsoft 365 Business com o credintials de administração global.
-ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ea53276f4ee8430031105f2b9c516471c702e839
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072191"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121269"
 ---
-# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="228a7-103">Exibir e gerenciar políticas e dispositivos</span><span class="sxs-lookup"><span data-stu-id="228a7-103">View and manage policies and devices</span></span>
+# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="56948-103">Exibir e gerenciar políticas e dispositivos</span><span class="sxs-lookup"><span data-stu-id="56948-103">View and manage policies and devices</span></span>
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+<span data-ttu-id="56948-104">[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="56948-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-## <a name="view-and-edit-device-policies"></a><span data-ttu-id="228a7-105">Exibir e editar políticas de dispositivos</span><span class="sxs-lookup"><span data-stu-id="228a7-105">View and edit device policies</span></span>
+## <a name="view-and-edit-device-policies"></a><span data-ttu-id="56948-105">Exibir e editar políticas de dispositivos</span><span class="sxs-lookup"><span data-stu-id="56948-105">View and edit device policies</span></span>
 
-1.  <span data-ttu-id="228a7-106">Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em.</span><span class="sxs-lookup"><span data-stu-id="228a7-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
-2. <span data-ttu-id="228a7-107">No painel de navegação esquerdo, escolha **políticas**de **dispositivos** \> .</span><span class="sxs-lookup"><span data-stu-id="228a7-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
+1.  <span data-ttu-id="56948-106">Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em.</span><span class="sxs-lookup"><span data-stu-id="56948-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+2. <span data-ttu-id="56948-107">No painel de navegação esquerdo, escolha **políticas**de **dispositivos** \> .</span><span class="sxs-lookup"><span data-stu-id="56948-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
 
-    <span data-ttu-id="228a7-108">Nessa página, você pode criar, editar, alterar o grupo de destino ou excluir uma política.</span><span class="sxs-lookup"><span data-stu-id="228a7-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
+    <span data-ttu-id="56948-108">Nessa página, você pode criar, editar, alterar o grupo de destino ou excluir uma política.</span><span class="sxs-lookup"><span data-stu-id="56948-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a><span data-ttu-id="228a7-110">Exibir e gerenciar dispositivos</span><span class="sxs-lookup"><span data-stu-id="228a7-110">View and manage devices</span></span>
+## <a name="view-and-manage-devices"></a><span data-ttu-id="56948-110">Exibir e gerenciar dispositivos</span><span class="sxs-lookup"><span data-stu-id="56948-110">View and manage devices</span></span>
 
 
-1. <span data-ttu-id="228a7-111">Na barra de navegação esquerda, escolha **dispositivos** \> **gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="228a7-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
+1. <span data-ttu-id="56948-111">Na barra de navegação esquerda, escolha **dispositivos** \> **gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="56948-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
     
-    <span data-ttu-id="228a7-p101">Nessa página, você pode selecionar um ou mais dispositivos e remover dados da empresa. Para dispositivos Windows 10 para os quais você definiu configurações de proteções do dispositivo, também é possível optar por restaurar o dispositivo com as configurações de fábrica.</span><span class="sxs-lookup"><span data-stu-id="228a7-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
+    <span data-ttu-id="56948-p101">Nessa página, você pode selecionar um ou mais dispositivos e remover dados da empresa. Para dispositivos Windows 10 para os quais você definiu configurações de proteções do dispositivo, também é possível optar por restaurar o dispositivo com as configurações de fábrica.</span><span class="sxs-lookup"><span data-stu-id="56948-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
   
    ![Página gerenciar dispositivos](media/devicesmanage.png)
 
