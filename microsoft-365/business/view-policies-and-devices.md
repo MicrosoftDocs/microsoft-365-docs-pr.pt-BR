@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Exibir políticas e ações de dispositivos entrando no Microsoft 365 Business com o credintials de administração global.
-ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ea53276f4ee8430031105f2b9c516471c702e839
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072191"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121269"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Exibir e gerenciar políticas e dispositivos
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="view-and-edit-device-policies"></a>Exibir e editar políticas de dispositivos
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business.
-ms.openlocfilehash: bd61ad3bf1b34635a7b80f1c9ccf63fa98d31915
-ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
+ms.openlocfilehash: 6b8fc215b95913e1beef3a3715119b947a7af406
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017513"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121149"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
 
@@ -32,7 +32,7 @@ O Microsoft 365 Business oferece recursos simplificados de segurança para ajuda
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Recursos de segurança do centro de administração de negócios da Microsoft 365
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Você pode gerenciar muitos dos recursos de segurança de negócios do Microsoft 365 no centro de administração, que oferece uma maneira simplificada para ativar ou desativar esses recursos. No centro de administração, você pode fazer o seguinte:
   
@@ -87,7 +87,7 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
     - Autenticação personalizada, como a MFA, com provedores de terceiros, por exemplo, DUO.
    
     Outros recursos
-    - [Redefinição de senha](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) de autoatendimento para o Azure ad híbrido
+    - [Redefinição de senha de autoatendimento](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) para o Azure ad híbrido
     
 ## <a name="compliance-features"></a>Recursos de conformidade
 
