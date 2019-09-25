@@ -1,16 +1,16 @@
 <a name="crit-networking-step1"></a>
 ### <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
-- Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise
-- Sua rede geral mapeia para uma arquitetura de referência do Office 365
-- As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego
+- Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise.
+- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego.
 
 Se necessário, a [Etapa 1](../networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step2"></a>
 ### <a name="required-your-local-offices-have-local-internet-connections-and-name-resolution"></a>Obrigatório: seus escritórios locais terem uma resolução de nome e conexões da Internet local
 
-Você deve configurar cada escritório local com acesso à Internet por meio de um ISP local cujos servidores DNS usem um endereço IP público local que identifique sua localização na Internet. Isso garante o melhor desempenho possível para os usuários que acessarem o Office 365 e o Intune.
+Você deve configurar cada escritório local com acesso à Internet por meio de um ISP local cujos servidores DNS usem um endereço IP público local que identifique sua localização na Internet. Isso garante o melhor desempenho possível para os usuários que acessarem os serviços de nuvem do Microsoft 365.
 
 Se você não usar um ISP local para cada filial, o desempenho sofrer, pois o tráfego de rede deverá percorrer o backbone da organização ou as solicitações de dados serão atendidas por servidores remotos de front-end.
 
@@ -20,7 +20,7 @@ Use uma ferramenta ou site em um dispositivo do escritório em questão para det
 Se necessário, a [Etapa 2](../networking-dns-resolution-same-location.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step3"></a>
-### <a name="optional-unneeded-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serão removidos
+### <a name="optional-unneccessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serem removidos
 
 Você examinou os hairpins da rede e determinou o impacto deles no desempenho de todos os escritórios. Você removeu hairpins da rede sempre que possível ou trabalhou com sua rede de terceiros ou provedor de segurança para implementar o emparelhamento ideal do Microsoft 365 para a rede deles.
 
@@ -45,6 +45,6 @@ Se necessário, a [Etapa 4](../networking-configure-proxies-firewalls.md) pode a
 <a name="crit-networking-step5"></a>
 ### <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>Opcional: Seus clientes e aplicativos do Office 365 serem configurados para um desempenho ideal
 
-Você deve otimizar as configurações de TCP (protocolo de controle de transmissão) em seus dispositivos de cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
+Você deve otimizar as configurações de Protocolo de Controle de Transmissão (TCP) em seus dispositivos cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
 
 Se necessário, a [Etapa 5](../networking-optimize-tcp-performance.md) pode ajudá-lo com essa opção.
