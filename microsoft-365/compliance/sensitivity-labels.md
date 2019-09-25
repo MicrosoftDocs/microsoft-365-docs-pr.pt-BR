@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para impor configurações de proteção, como criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: f6239c9378b540dd1e3b512711a7184dc4f45774
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d732303db1c2b138349a88fde45bd2aefb745c89
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073564"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148515"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -38,13 +38,13 @@ Você pode usar rótulos de confidencialidade para:
 
 - **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em serviços e aplicativos de terceiros, como SalesForce, Box ou Dropbox, mesmo que o aplicativo ou serviço de terceiros não leia nem ofereça suporte a rótulos de confidencialidade.
 
-- **Estender rótulos de confidencialidade a aplicativos e serviços de terceiros.** Com o SDK de proteção de informações da Microsoft, os aplicativos de terceiros no Windows, Mac e Linux podem ler rótulos de confidencialidade e aplicar configurações de proteção. Este recurso estará disponível para aplicativos iOS e Android em breve.
+- **Estender rótulos de confidencialidade a aplicativos e serviços de terceiros.** Com o SDK de Proteção de Informações da Microsoft, os aplicativos de terceiros [nessas plataformas](https://docs.microsoft.com/pt-BR/information-protection/develop/overview#microsoft-information-protection-sdk) podem ler rótulos de confidencialidade e aplicar configurações de proteção.
 
 - **Classificar o conteúdo sem usar configurações de proteção.** Você também pode simplesmente atribuir uma classificação ao conteúdo (por exemplo, um adesivo) que permanece e se movimenta com o conteúdo à medida que ele é usado e compartilhado. Você pode usar essa classificação para gerar relatórios de uso e ver dados de atividade do conteúdo confidencial. Com base nessas informações, você sempre pode optar por aplicar as configurações de proteção posteriormente.
     
 Em todos esses casos, os rótulos de confidencialidade do Office 365 podem ajudar você a adotar as ações certas no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
   
-Você cria rótulos de confidencialidade na Central de Conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de sensibilidade**. Esses rótulos de confidencialidade podem ser usados pela Proteção de Informações do Azure, aplicativos do Office e serviços do Office 365.
+Você cria rótulos de confidencialidade no centro de conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de confidencialidade**. Esses rótulos de confidencialidade podem ser usados pela Proteção de Informações do Azure, pelos aplicativos do Office e serviços do Office 365.
 
 Para clientes da Proteção de Informações do Azure, você pode usar seus rótulos de Proteção de Informações do Azure nos outros centros de administração e seus rótulos serão sincronizados com o portal do Azure, caso você opte por executar configurações adicionais ou avançadas. **Os rótulos de Proteção de Informações do Azure e os rótulos de confidencialidade do Office 365 são totalmente compatíveis entre si.** Isso significa, por exemplo, se você tiver um conteúdo marcado pela Proteção de Informações do Azure, não precisará reclassificar ou rotular novamente seu conteúdo.
 
@@ -68,7 +68,7 @@ Cada item de conteúdo pode ter um único rótulo de confidencialidade aplicado 
 
 Depois que um rótulo de confidencialidade é aplicado a um email ou documento, as configurações de proteção desse rótulo são aplicadas no conteúdo. Com um rótulo de confidencialidade, você pode:
 
-- **Criptografar** apenas o email ou tanto o email quanto os documentos. Você pode escolher quais usuários ou qual grupo têm permissões para executar quais ações e por quanto tempo. Por exemplo, você pode optar por permitir que os usuários em um domínio específico fora da sua organização tenham permissões para examinar o conteúdo por apenas 7 dias após ele ser rotulado. Para saber mais, confira [Restringir o acesso ao conteúdo usando criptografia em rótulos de confidencialidade](encryption-sensitivity-labels.md).
+- **Criptografar** apenas emails ou emails e documentos. Você pode escolher quais ações determinados usuários ou grupos possuem permissões para executar e a duração das permissões. Por exemplo, você pode optar por permitir que os usuários, em um domínio específico fora da sua organização, tenham permissões para revisar o conteúdo por apenas sete dias após o conteúdo ser rotulado. Como alternativa, em vez de você atribuir permissões, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. Para saber mais informações, confira [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md).
 
 - **Marcar o conteúdo** adicionando marcas-d'água, cabeçalhos ou rodapés personalizados a emails ou documentos com rótulos aplicados. As marcas-d'água são aplicadas apenas a documentos, não a emails, e são limitadas a 255 caracteres. Além disso, os cabeçalhos e rodapés também são limitados a 1.024 caracteres, exceto no Excel, onde são limitados a 255 caracteres ou menos, dependendo se o documento contém outros cabeçalhos ou rodapés e de outros fatores.
 
@@ -259,7 +259,7 @@ Antes que seus rótulos de confidencialidade possam usar a CAS, é necessário a
 
 Como um rótulo de confidencialidade é mantido como texto não criptografado nos metadados de um documento, serviços e aplicativos de terceiros podem escolher dar suporte à identificação e proteção do conteúdo que contém esse rótulo. O suporte em outros aplicativos e serviços está sempre em expansão.
 
-Com o [SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/), aplicativos e serviços de terceiros podem ler e aplicar rótulos de confidencialidade e proteção a documentos. O SDK tem suporte para aplicativos no Windows, Mac e Linux. O suporte para aplicativos iOS e Android estará disponível em breve.
+Com o [SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/), os aplicativos e os serviços de terceiros podem ler e aplicar os rótulos de confidencialidade e proteção aos documentos. O SDK oferece suporte a aplicativos [nessas plataformas](https://docs.microsoft.com/pt-BR/information-protection/develop/overview#microsoft-information-protection-sdk).
 
 Usando o SDK, você pode rotular e proteger o conteúdo de uma forma que funcione em outros aplicativos e serviços de Proteção de Informações da Microsoft, como aplicativos do Office, serviços do Office 365, verificação da Proteção de Informações do Azure, Microsoft Cloud App Security e várias outras soluções de parceiros. Por exemplo, saiba mais sobre o [suporte para rótulos de confidencialidade no Adobe Acrobat](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Starting-October-use-Adobe-Acrobat-Reader-for-PDFs-protected-by/ba-p/262738).
 
