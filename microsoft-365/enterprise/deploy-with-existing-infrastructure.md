@@ -3,7 +3,7 @@ title: Implantação do Microsoft 365 Enterprise com a infraestrutura existente
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/04/2018
+ms.date: 09/24/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lea os critérios de saída para a implantação do Microsoft 365 Enterprise, quando você tiver uma infraestrutura existente.
-ms.openlocfilehash: 8c9c1d1900e9fd1a025d3fd74cc9f358b612a4d1
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 1b464398b981133e2851760d7bfe16869f1d1429
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073911"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148505"
 ---
 # <a name="deployment-of-microsoft-365-enterprise-with-existing-infrastructure"></a>Implantação do Microsoft 365 Enterprise com a infraestrutura existente
 
-Muitas organizações têm redes e identidade existentes, além de outros componentes ou produtos locais e serviços na nuvem da Microsoft. Este artigo trata de cada fase da implantação do Microsoft 365 Enterprise para que você possa rapidamente determinar como adaptar ou alterar a sua infraestrutura existente.
+Muitas organizações têm redes e identidade existentes, além de outros componentes ou produtos locais e serviços na nuvem da Microsoft. Este artigo passa por cada fase da implantação do Microsoft 365 Enterprise para que você possa determinar rapidamente como adaptar ou alterar sua infraestrutura existente.
 
 Antes de sair de cada fase, é preciso examinar os critérios de saída, ou seja, um conjunto de condições necessárias que devem ser cumpridas e outras condições opcionais a serem consideradas. Os critérios de saída de cada fase garantem que a infraestrutura local e na nuvem, assim como a configuração ponta a ponta resultante, atendam aos requisitos da implantação do Microsoft 365 Enterprise.
 
@@ -49,7 +49,7 @@ Leia as seguintes condições opcionais e obrigatórias para a infraestrutura do
 
 ## <a name="exit-criteria-for-office-365-proplus-phase-4"></a>Critérios de saída do Office 365 ProPlus (fase 4)
 
-Atender aos requisitos para avaliação, planejamento de implantação e implantação da infraestrutura do Office 365 ProPlus para o Microsoft 365 Enterprise.
+Atenda aos requisitos para avaliação, planejamento de implantação e implantação da infraestrutura do Office 365 ProPlus.
 
 [!INCLUDE [Deployment exit criteria for Office 365 ProPlus](./includes/deployment-exit-criteria-office365proplus.md)]
 
