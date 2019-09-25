@@ -3,7 +3,7 @@ title: Estratégias de implantação da infraestrutura de base do Microsoft 365 
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 01/23/2019
+ms.date: 09/24/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Conheça algumas maneiras de implantar as fases da infraestrutura de base para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 2c30420390be97d33f66888eac533b89c907b3b2
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: d71c46867e27252db90e55f304baa29e4bca4076
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073881"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148495"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 Enterprise
 
@@ -84,22 +84,22 @@ Para simplificar a discussão e o exemplo, presume-se que cada fase e segmento d
 >Fase 1: a fase de rede da infraestrutura de base do Microsoft 365 Enterprise é de responsabilidade exclusiva do TI. Os usuários colhem os benefícios de uma conectividade otimizada com os recursos de nuvem da Microsoft, mas não sofrem pressão para alcançá-los.
 >
 
-Exemplo simplificado da experiência piloto do usuário:
+Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em março, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em junho, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em setembro, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em setembro, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em dezembro, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 90 dias entre lançamentos piloto sucessivos.
 
-Exemplo simplificado de experiência do usuário final:
+Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em abril, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em julho, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em outubro, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em outubro, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em janeiro do ano subsequente, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 90 dias entre lançamentos sucessivos para o usuário.
@@ -110,28 +110,26 @@ A desvantagem dessa estratégia de implantação é que pode levar muito tempo p
 
 Para essa estratégia de implantação, o lançamento piloto da fase seguinte começa durante a última parte do lançamento para o usuário da fase atual. Esta é a implantação das etapas 2 a 6 quando o lançamento piloto ocorre enquanto o lançamento para o usuário da fase anterior está se encerrando.
 
-Esta é uma comparação simplificada entre as estratégias de implantação em série e paralela.
-
 ![](./media/deployment-strategies-microsoft-365-enterprise/parallel1.png) 
  
 O resultado final é que o lançamento para o usuário da fase atual se encerra em sua organização antes de começar a seguinte. Os usuários que não fazem parte do lançamento piloto não lidam com os lançamentos de várias fases ao mesmo tempo, mas os lançamentos piloto acontecem em paralelo aos lançamentos para o usuário.
 
-Exemplo simplificado da experiência piloto do usuário: 
+Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em fevereiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em abril, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em junho, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em junho, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em agosto, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 60 dias entre lançamentos piloto sucessivos.
 
-Exemplo simplificado de experiência do usuário final:
+Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em março, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em maio, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em julho, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em julho, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em setembro, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 60 dias entre lançamentos sucessivos para o usuário.
@@ -143,7 +141,7 @@ A vantagem dessa estratégia de implantação é que pode levar menos tempo para
 Para essa estratégia de implantação, inicie:
 
 - O lançamento piloto da fase seguinte durante a última parte do lançamento para o usuário da fase atual.
-- O lançamento para o usuário da fase seguinte durante o lançamento para o usuário da fase atual de forma que nenhum usuário precise lidar com o lançamento das várias fases ao mesmo tempo. Isso supõe que você esteja lançando cada fase da infraestrutura de base da mesma forma, nas regiões, departamentos ou outros.
+- Distribuição ao usuário da próxima fase durante a distribuição da fase atual, de modo que nenhum usuário esteja lidando com distribuições de várias fases ao mesmo tempo. Isso pressupõe que você esteja distribuindo todas as fases da infraestrutura de base da mesma forma, usando regiões, departamentos ou outros agrupamentos.
 
 Esta é uma comparação simplificada entre as diversas estratégias de implantação.
 
@@ -154,27 +152,27 @@ O resultado final é que:
 - Os lançamentos piloto passam de uma fase para a próxima sem pausas.
 - O lançamento para o usuário de uma fase começa antes da conclusão do lançamento para o usuário da fase anterior, mas nenhum usuário individual está lançando mais de uma fase por vez.
 
-Exemplo simplificado da experiência piloto do usuário: 
+Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em janeiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em fevereiro, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em março, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em março, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em abril, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 30 dias entre lançamentos piloto sucessivos.
 
-Exemplo simplificado de experiência do usuário final:
+Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em fevereiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
 - Em março, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
-- Em abril, registro o dispositivo e aplico as políticas de acesso condicional e do aplicativo. (Gerenciamento de dispositivo móvel)
+- Em abril, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em maio, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
 O resultado é uma cadência de 30 dias entre lançamentos sucessivos para o usuário.
 
-A vantagem dessa estratégia de implantação é que pode levar até menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 Enterprise, sem fazer com que os usuários individuais tenham que lidar com vários lançamentos simultâneos. No entanto, os usuários não têm uma pausa entre fases sucessivas.
+A vantagem dessa estratégia de implantação é que pode levar menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 Enterprise, sem que os usuários lidem com vários lançamentos simultaneamente. No entanto, não há interrupção entre as fases sucessivas para os usuários.
 
 ### <a name="up-front-infrastructure-and-rollout-of-end-to-end-configuration"></a>Infraestrutura inicial e lançamento da configuração de ponta a ponta
 
@@ -187,7 +185,7 @@ O departamento de TI configura a infraestrutura das fases 2 a 6 e faz o lançame
 - A MFA e outros recursos de identidade (Identidade)
 - O Windows 10 Enterprise em dispositivos Windows (Windows 10 Enterprise)
 - O Office 365 ProPlus para o pacote do Office (Office 365 ProPlus)
-- Políticas de acesso condicional e a aplicativos (Gerenciamento de dispositivos móveis)
+- Políticas de dispositivo e aplicativos (Gerenciamento de dispositivos móveis)
 - Instalação do cliente de Proteção de Informações do Azure e treinamento sobre como aplicar rótulos a documentos. (Proteção de Informações)
 
 Após a conclusão do lançamento piloto, começa o lançamento para os usuários, em que cada usuário recebe todas as funcionalidades ao mesmo tempo.
