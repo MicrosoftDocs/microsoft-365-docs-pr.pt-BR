@@ -7,15 +7,17 @@
 ## [Usar assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Plano de segurança e conformidade no Office 365](plan-for-security-and-compliance.md)
 
-# Gerenciar riscos insideres
+# Gerenciar riscos internos
 ## [Proteger o acesso de usuários e dispositivos](protect-access-to-data-and-services.md)
-## [Gerenciamento de acesso privilegiado](privileged-access-management-overview.md)
-## [Configurar gerenciamento de acesso privilegiado](privileged-access-management-configuration.md)
 ## [Sistema de Proteção de Dados do Cliente](customer-lockbox-requests.md)
+## [Gerenciamento de acesso privilegiado]()
+### [Saiba mais sobre o gerenciamento de acesso privilegiado](privileged-access-management-overview.md)
+### [Configurar gerenciamento de acesso privilegiado](privileged-access-management-configuration.md)
 ## Chave do Cliente
 ### [Controlar seus dados no Office 365 usando a Chave do Cliente](controlling-your-data-using-customer-key.md)
 ### [Criptografia de serviço com chave do cliente para perguntas frequentes do Office 365](service-encryption-with-customer-key-faq.md)
-## [Supervisionar comunicações](supervision-policies.md)
+## [Supervisão de comunicação]()
+### [Saiba mais sobre a supervisão de comunicação](supervision-policies.md)
 ### [Configurar políticas de supervisão para sua organização](configure-supervision-policies.md)
 ## [Barreiras de informações](information-barriers.md)
 ### [Definir políticas de barreira de informações](information-barriers-policies.md)
@@ -285,6 +287,7 @@
 ## [Atribuir permissões de Descoberta Eletrônica](assign-ediscovery-permissions.md)
 ## [Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365](set-up-compliance-boundaries.md)
 ## [Série de solução de Descoberta eletrônica – Cenário de derramamento de dados – Pesquisar e remover](data-spillage-scenariosearch-and-purge.md)
+## [Solucionar problemas comuns de descoberta eletrônica](ediscovery-troubleshooting-common-issues.md)
 
 ## Gerenciar retenções
 ### [Criar uma retenção de Descoberta Eletrônica](ediscovery-cases.md#step-4-place-content-locations-on-hold)
@@ -337,7 +340,8 @@
 ### [Campos de metadados do documento](document-metadata-fields.md)
 ### [Gerenciar tarefas](manage-jobs.md)
 
-# [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
+# 
+  [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 ## [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md)
 ## [Gerenciar a auditoria de caixa de correio](enable-mailbox-auditing.md)
 ## [Propriedades detalhadas no log de auditoria](detailed-properties-in-the-office-365-audit-log.md)
