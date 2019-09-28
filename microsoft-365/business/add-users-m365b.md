@@ -10,22 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Saiba como adicionar novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business.
-ms.openlocfilehash: 844245f5740d1e90ca1a7c9f372a8ab5a8225dd7
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9451be8a13c78230d0314e6d4ac74a6c9d7564ae
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072901"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287426"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Adicionar usuários adicionais ao Microsoft 365 Business
 
@@ -40,7 +36,7 @@ ms.locfileid: "34072901"
       
     ![Inserir informações do usuário no novo cartão de usuário](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Na seção licenças de produto, defina a configuração de licença de produto do **** **Microsoft 365 Business** .
+    Na seção licenças de produto, **defina a configuração de licença**de produto do **Microsoft 365 Business** .
       
     ![Definir a configuração da licença como na posição](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   

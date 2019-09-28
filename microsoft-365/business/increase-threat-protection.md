@@ -10,19 +10,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais.
-ms.openlocfilehash: b6e9941eee9de4f295b0f8056c1c91b7076e530c
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34668372"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288106"
 ---
 # <a name="increase-threat-protection"></a>Aumentar a proteção contra ameaças
 
@@ -63,7 +61,7 @@ Para criar uma regra de transporte de emails:
   
 1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha central de **Administração** \> do **Exchange**.
     
-2. Na categoria **fluxo** de emails, clique em **regras**.
+2. Na categoria **fluxo de emails** , clique em **regras**.
     
 3. Clique **+** em e em **criar uma nova regra**.
     
@@ -97,7 +95,7 @@ Para criar uma regra de transporte de email, Assista [a este vídeo curto](https
   
 1. No centro de administração do Microsoft 365, clique em **centrais** \> de administração do **Exchange**.
     
-2. Na categoria **fluxo** de emails, clique em **regras**.
+2. Na categoria **fluxo de emails** , clique em **regras**.
     
 3. Clique **+** em e em **criar uma nova regra**.
     

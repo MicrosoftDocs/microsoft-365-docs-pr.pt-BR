@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre a correção do domínio do remetente no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 42a673c5e6b04109656ef35bb5a80504ed1f42a9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bda6482b2c9264337db9e95f84ff41ce08582363
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073654"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306145"
 ---
 # <a name="fix-sender-domain-insight"></a>Corrigir a percepção do domínio do remetente
 

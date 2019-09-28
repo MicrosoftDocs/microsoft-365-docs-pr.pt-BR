@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Enviar ou responder a mensagens criptografadas com S/MIME no Microsoft Outlook é muito semelhante à experiência com uma mensagem não criptografada.
-ms.openlocfilehash: 9b7ba86039fe774570c38d58a15591b7f1521302
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 63f45688946f1946f0b0a63cec748d0f0c6a50ee
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073133"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305925"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Enviar e receber emails assinados e criptografados por S/MIME no Exchange Online
 

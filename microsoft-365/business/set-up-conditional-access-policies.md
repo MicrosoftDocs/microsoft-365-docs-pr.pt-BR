@@ -11,21 +11,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como configurar políticas de acesso condicional para campanhas do Microsoft 365.
-ms.openlocfilehash: 614e3a6e13a14114f40ecf87bf936d4165744503
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: dbb5231032d2faef0a7ecb2734226b34290c70bf
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982372"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288606"
 ---
 # <a name="set-up-conditional-access-policies"></a>Configurar políticas de acesso condicional
 

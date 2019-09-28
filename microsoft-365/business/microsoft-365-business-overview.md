@@ -11,22 +11,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: 64cfa460311af6cdafb637ceb3415511e003e394
-ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
+ms.openlocfilehash: 8568232eb65485f1e016342bb13de9a07f706c00
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35853140"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288526"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Visão geral do Microsoft 365 Business
 
@@ -45,7 +41,7 @@ Seus dados corporativos podem ser comprometidos de várias maneiras. Você e seu
 1. Credenciais de entrada comprometidas ou fracas.
 2. Dispositivo comprometido com um PIN fraco ou um dispositivo de Propriedade do usuário.
 3. Usuários que podem copiar/colar/salvar dados da sua organização em aplicativos pessoais.
-4. Usuários que instalam e usam<sup></sup> 3 aplicativos de terceiros com segurança fraca.
+4. Usuários que instalam e usam<sup>3 aplicativos</sup> de terceiros com segurança fraca.
 5. Vulnerabilidades de email, incluindo compartilhamento de dados confidenciais, tentativas de phishing, malware, etc.
 6. Quando pessoas que não deveriam, podem acessar documentos com informações confidenciais.
 

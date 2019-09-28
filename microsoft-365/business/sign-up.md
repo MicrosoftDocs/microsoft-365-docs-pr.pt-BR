@@ -10,20 +10,17 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 description: Saiba como comprar e inscrever-se no Microsoft 365 Business.
-ms.openlocfilehash: 0f92bf35d2a7898d530fd509d8d13c91f32ccab3
-ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
+ms.openlocfilehash: bcdf0adc60c597a5eca485415f33662402d12cf4
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35114913"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288226"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Inscreva-se no Microsoft 365 Business
 
@@ -52,7 +49,7 @@ Após adquirir o Microsoft 365 Business, complete as etapas a seguir.
         ![Captura de tela da página criar sua ID de usuário.](media/signinuserid.png)
 
 3. Preencha o restante dos campos e selecione **criar minha conta**.
-4. No comprovante **. você é. Não. A.** página Insira um número de telefone para receber um código por meio de texto ou uma chamada e selecione o **texto comigo** ou **ligue para mim**e, \> em seguida, insira o código de verificação a **seguir**.
+4. No **comprovante. você é. Não. A.** página Insira um número de telefone para receber um código por meio de texto ou uma chamada e selecione o **texto comigo** ou **ligue para mim**e, \> em seguida, insira o código de verificação a **seguir**.
 5. Na página **onde você estará usando esta página,** insira seu endereço comercial. Essas informações determinam quais impostos você paga e quais assinaturas estão disponíveis. Para obter mais informações sobre os impostos, consulte [que imposto será cobrado?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 
 1. Selecione **Avançar**, revise seu pedido e selecione **Avançar** novamente.
 1. Na página **como você deseja pagar** , insira os detalhes do pagamento e, em seguida, **faça o pedido**.

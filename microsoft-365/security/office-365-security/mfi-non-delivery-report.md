@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 64664f54ce90676689b90391c1244f1587ef2578
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 19b3e40aee6af286a3b8ddb43cdb87a39e622b01
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073675"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306155"
 ---
 # <a name="non-delivery-report"></a>Notificação de falha na entrega
 

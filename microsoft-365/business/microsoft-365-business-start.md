@@ -10,22 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: d309700761ee48ef66a8cd3886fd416c79463ed5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 52e3167986bb7ed835762540e8076a3b9b2a0b56
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074291"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287626"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Introdução ao Microsoft 365 Business
 
@@ -92,6 +88,6 @@ Depois de configurar os computadores com Windows 10, você pode [instalar o Offi
 ## <a name="related-topics"></a>Tópicos Relacionados
 [Documentação e recursos do Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Gerenciar o Microsoft 365 Business](manage.md) [Migrar para o Microsoft 365 Business](migrate-to-microsoft-365-business.md)
+[Gerenciar o microsoft 365 Business](manage.md)[migrar para o Microsoft 365 Business](migrate-to-microsoft-365-business.md)
   
 

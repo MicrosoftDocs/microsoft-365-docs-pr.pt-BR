@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de clientes de autenticação SMTP no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 7d3977293b0456b9ab3d383c1a41be9858a66028
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a273da9e0ebe7987a22669c54f3ebfe103e5933c
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073648"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306025"
 ---
 # <a name="smtp-auth-clients-report"></a>Relatório de clientes de autenticação SMTP
 

@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: 589d979b9a2ed3f262eb8171fe08622c225548ce
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9b82836b5f9f28c3055e540890771def28382d2b
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073723"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306125"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>Gerenciar permissões do grupo de funções de administrador no EOP
-  
+
 No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de administração do Exchange (EAC) para tornar um usuário membro de um grupo ou de grupos de funções a fim de atribuir a ele permissões de execução de tarefas administrativas específicas. Também é possível remover um usuário de um grupo ou grupo de funções usando o EAC.
-  
+
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Tempo estimado para conclusão: 5 a 10 minutos
@@ -33,7 +33,7 @@ No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de 
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum do [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
-  
+
 ## <a name="use-the-eac-to-assign-members-to-admin-role-groups"></a>Usar o EAC para atribuir membros a grupos de funções de administração
 
 1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções ao qual você deseja adicionar o usuário ou usuários e, em seguida, clique](../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
@@ -47,8 +47,8 @@ No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de 
 5. Você verá que o usuário foi adicionado ao painel **Membros**. Clique em **Salvar**.
 
    > [!NOTE]
-   > Os usuários precisam sair e entrar novamente para ver a alteração em seus diretos administrativos após a adição ou remoção de membros do grupo de funções. 
-  
+   > Os usuários precisam sair e entrar novamente para ver a alteração em seus diretos administrativos após a adição ou remoção de membros do grupo de funções.
+
 ## <a name="use-the-eac-to-remove-members-from-admin-role-groups"></a>Usar o EAC para remover membros de grupos de funções de administração
 
 1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções do qual você deseja remover um usuário ou usuários e, em seguida, clique](../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
@@ -59,7 +59,7 @@ No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de 
 
    > [!NOTE]
    > Os usuários precisam sair e entrar novamente para ver a alteração em seus diretos administrativos após a adição ou remoção de membros do grupo de funções.
-  
+
 ## <a name="for-more-information"></a>Para obter mais informações
 
 [Permissões de recurso no EOP](feature-permissions-in-eop.md)
