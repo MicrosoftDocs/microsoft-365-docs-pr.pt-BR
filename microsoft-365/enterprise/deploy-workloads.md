@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 730826f388364d1232f1750059002d111279c1be
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: e8608bd18e493aeb0b0b1200a3b9e9aa6083b641
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981932"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306005"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
 
@@ -29,7 +29,11 @@ Para aproveitar os benefícios da criatividade e do trabalho em equipe do Micros
 
 Confira a carga de trabalho de [migração](migration-microsoft-365-enterprise-workload.md) para obter um mapa geral para migrar toda a sua organização para o Microsoft 365 Enterprise, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
 
-Os cenários usam recursos e serviços do Microsoft 365 Enterprise de forma integrada para atender às necessidades empresariais. Uma dessas necessidades é proteger dados altamente regulamentados armazenados no Microsoft 365. Os dados altamente regulamentados incluem ativos digitais:
+Os cenários usam recursos e serviços do Microsoft 365 Enterprise de forma integrada para atender às necessidades empresariais. 
+
+É necessário garantir que seus funcionários trabalhem de forma produtiva e segura quando não estão conectados diretamente à sua intranet. Confira o cenário [Capacitar funcionários remotos](empower-people-to-work-remotely.md) para obter um roteiro para implantar os elementos da infraestrutura e conduzir o usuário remoto na adoção das principais cargas de trabalho, como o Teams e o Exchange Online.
+
+Outra dessas necessidades é proteger dados altamente regulamentados armazenados no Microsoft 365. Os dados altamente regulamentados incluem ativos digitais:
 
 - Sujeitos a regulamentações regionais.
 - Mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização.
