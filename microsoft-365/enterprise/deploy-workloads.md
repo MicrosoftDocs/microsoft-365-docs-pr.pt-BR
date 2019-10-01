@@ -2,7 +2,7 @@
 title: Cenários e cargas de trabalho do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/15/2019
+ms.date: 09/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: e8608bd18e493aeb0b0b1200a3b9e9aa6083b641
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 6446e73f79a3dd92d60fa3299e6007e1a5a3fdeb
+ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306005"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37329200"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
 
@@ -25,9 +25,9 @@ Para aproveitar os benefícios da criatividade e do trabalho em equipe do Micros
 
 - [Microsoft Teams](teams-workload.md)
 - [Exchange Online](exchangeonline-workload.md)
-- [SharePoint Online](sharepoint-online-onedrive-workload.md)
+- [SharePoint e OneDrive](sharepoint-online-onedrive-workload.md)
 
-Confira a carga de trabalho de [migração](migration-microsoft-365-enterprise-workload.md) para obter um mapa geral para migrar toda a sua organização para o Microsoft 365 Enterprise, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
+Confira o artigo [migração](migration-microsoft-365-enterprise-workload.md) para obter um roteiro para migrar toda a sua organização para o Microsoft 365 Enterprise, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
 
 Os cenários usam recursos e serviços do Microsoft 365 Enterprise de forma integrada para atender às necessidades empresariais. 
 
@@ -38,7 +38,7 @@ Outra dessas necessidades é proteger dados altamente regulamentados armazenados
 - Sujeitos a regulamentações regionais.
 - Mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização.
 
-Para proteger esses dados contra ameaças internas e externas, confira os [Sites do Microsoft Teams e do SharePoint Online para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md). Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint Online ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
+Para proteger esses dados contra ameaças internas e externas, confira os [Sites do Microsoft Teams e do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md). Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
 
 Veja a seguir as cargas de trabalho e os cenários no guia de implantação geral do Microsoft 365 Enterprise:
 
@@ -60,16 +60,16 @@ Confira a [biblioteca de produtividade da Microsoft 365](https://www.microsoft.c
 | Windows 10 Enterprise | Os computadores com o Windows 7 ou Windows 8.1 podem ser atualizados para o Windows 10 Enterprise, e os novos dispositivos recebem a instalação do Windows 10 Enterprise. |
 | Office 365 ProPlus | Os usuários existentes do Microsoft Office podem ser atualizados para o Office 365 ProPlus. |
 | Gerenciamento de dispositivo móvel | Os dispositivos podem ser registrados e gerenciados. |
-| Proteção de informações | Os recursos de segurança do Office 365 estão habilitados, e sua sensibilidade ou os rótulos de Proteção de Informações do Azure estão prontos para proteger os documentos. |
+| Proteção de informações | Os recursos de proteção de informações do Microsoft 365 estão configurados e sua confidencialidade ou os rótulos de proteção de informações do Azure estão prontos para proteger documentos e emails. |
 
 Lembre-se de que esse processo é o ideal e pode levar algum tempo para planejar, configurar, testar e desenvolver um piloto, especialmente em grandes organizações com infraestrutura existente e diversos locais. Não é necessário completar todas essas fases em todos os locais para aproveitar mais rapidamente o valor empresarial do Microsoft 365 Enterprise. 
 
 Estas estão algumas cargas de trabalho comuns para implantar imediatamente: 
 
 - Depois que a fase de **Identidade** da infraestrutura de base é implementada para os usuários, muitas organizações implantam:
-  - O [Office 365 ProPlus](office365proplus-infrastructure.md) em conjunto com o [OneDrive for Business](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise). O Office 365 ProPlus fornece a segurança da autenticação moderna e a experiência do usuário do cliente mais recente do Microsoft Office. A migração dos arquivos pessoais do usuário para o OneDrive for Business reduz a infraestrutura e a necessidade de dar suporte a pastas base e drivers.
+  - O [Office 365 ProPlus](office365proplus-infrastructure.md) em conjunto com o [OneDrive](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise). O Office 365 ProPlus fornece a segurança da autenticação moderna e a experiência do usuário do cliente mais recente do Microsoft Office. A migração dos arquivos pessoais do usuário para o OneDrive reduz a infraestrutura e a necessidade de dar suporte a pastas base e drivers.
   - O [Exchange Online](exchangeonline-workload.md), para que os usuários possam começar a usar o email baseado na nuvem.
-- Se não houver a necessidade imediata de armazenar ativos digitais altamente regulamentados na nuvem, implante o [Microsoft Teams](teams-workload.md) e o [SharePoint Online](sharepoint-online-onedrive-workload.md) para seus usuários, antes da fase de **Proteção de informações**.
+- Se não houver a necessidade imediata de armazenar ativos digitais altamente regulamentados na nuvem, implante o [Microsoft Teams](teams-workload.md) e o [SharePoint](sharepoint-online-onedrive-workload.md) para seus usuários, antes da fase de **Proteção de informações**.
 
 É preciso decidir qual é maneira mais adequada de ordenar e implantar a configuração das fases de pré-requisito da infraestrutura de base a fim de atender às necessidades de seus negócios.
 
@@ -79,5 +79,4 @@ Estas estão algumas cargas de trabalho comuns para implantar imediatamente:
 
 A fase de **Identidade** garante que sua identidade baseada na nuvem, seja ela somente na nuvem ou sincronizada com o Active Directory Domain Services (AD DS) local, contenha as contas e os grupos de usuário e de computador para gerenciar a autenticação e o acesso. É necessária a autenticação forte para todos os usuários com proteção forte de contas de administrador, antes de colocar os ativos digitais da organização na nuvem do Microsoft 365.
 
-Embora seja fundamental e muito importante para o desempenho geral, a implementação da fase de **Rede** pode estar em andamento enquanto os usuários estiver ingressando nas cargas de trabalho; tenha em mente que o aplicativo e o desempenho do serviço do Microsoft 365 melhorarão ao longo do tempo. Isso vale especialmente para organizações corporativas com vários locais e uma combinação de dispositivos de borda e de conexões com a Internet.
-
+Embora seja fundamental e muito importante para o desempenho geral, a implementação da fase de **Rede** pode estar em andamento enquanto os usuários estiverem ingressando nas cargas de trabalho; tenha em mente quea carga de trabalho e o desempenho do serviço do Microsoft 365 melhorarão ao longo do tempo. Isso vale especialmente para organizações corporativas com vários locais e uma combinação de dispositivos de borda e de conexões com a Internet.

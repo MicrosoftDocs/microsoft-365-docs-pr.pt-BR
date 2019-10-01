@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365 e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
-ms.openlocfilehash: ae09d49bdb0b51986e58db72f578de7fa2a0c931
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e3553ff2e3c8398ac4bc00258e41e8d9607b3639
+ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072178"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37334251"
 ---
 # <a name="content-search-in-office-365"></a>Pesquisa de Conteúdo no Office 365
 
@@ -407,6 +407,6 @@ Lembre-se do seguinte ao usar filtros de permissão de pesquisa para pesquisar c
 
 - O parâmetro **Região**direciona as pesquisas para a área de satélite especificada. Se um gerente de Descoberta Eletrônica só pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa será mostrado. 
 
-- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os data centers são pesquisados quando se pesquisa caixas de correio. 
+- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os datacenters são pesquisados quando se pesquisa caixas de correio. 
     
-Para obter mais informações sobre como usar filtros de permissões de pesquisa em um ambiente de várias regiões, confira a seção "Pesquisa e exportação de conteúdo em ambientes Multi-Geo" em[Configurar limites de conformidade para investigações de Descoberta Eletrônica no Office 365](tagging-and-assessment-in-advanced-ediscovery.md#searching-and-exporting-content-in-multi-geo-environments).
+Para obter mais informações sobre como usar filtros de permissões de pesquisa em um ambiente de várias regiões, confira a seção "Pesquisa e exportação de conteúdo em ambientes Multi-Geo" em[Configurar limites de conformidade para investigações de Descoberta Eletrônica](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments).
