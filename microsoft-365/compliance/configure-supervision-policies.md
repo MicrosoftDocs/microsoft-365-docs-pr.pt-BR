@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure as políticas de análise de supervisão para capturar comunicações de funcionários para revisão.
-ms.openlocfilehash: ccbc5897ef8c6fb6018793ff7e3fe7731ee14710
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dae8969598f5a71814c1b61db83341f30c0cb9d7
+ms.sourcegitcommit: 8e5b799efd3ddd0eae9dd2835c3783103817fb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072210"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37317613"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>Configurar políticas de supervisão para sua organização
 
@@ -52,10 +52,6 @@ Siga estas etapas para configurar e usar a supervisão na sua organização do O
 - **Etapa 5 (opcional)**: [testar sua política de supervisão](#step-5-test-your-supervision-policy-optional)
 
     Teste sua política de supervisão para garantir que ela funcione conforme desejado. É importante garantir que sua estratégia de conformidade esteja atendendo aos padrões.
-
-- **Etapa 6 (opcional)**: [Configurar o Outlook para revisores que não desejam usar o painel de supervisão do Office 365 para analisar comunicações supervisionadas](#step-6-configure-outlook-for-reviewers-optional)
-
-    Configure o Outlook para dar aos revisores o acesso à funcionalidade de supervisão no cliente do Outlook para que eles possam avaliar e categorizar cada item.
 
 ## <a name="step-1-set-up-groups-for-supervision-optional"></a>Etapa 1: configurar grupos de supervisão (opcional)
 
@@ -181,70 +177,10 @@ Depois de criar uma política de supervisão, é uma boa ideia testar para garan
 1. Abra um cliente de email ou o Microsoft Teams conectado como um usuário supervisionado definido na política que você deseja testar.
 2. Envie um email ou chat do Microsoft Teams que atendam aos critérios definidos na política de supervisão. Pode ser uma palavra-chave, o tamanho do anexo, o domínio, etc. Certifique-se de determinar se as configurações condicionais configuradas na política são muito restritivas ou muito lenients.
 
-    > [!Note]
+    > [!NOTE]
     > Os emails sujeitos às políticas definidas são processados quase em tempo real e podem ser testados imediatamente após a configuração da política. Os chats no Microsoft Teams podem levar até 24 horas para processar totalmente em uma política. 
 
 3. Faça logon em seu locatário do Office 365 como um revisor designado na política de supervisão. Navegue até a **supervisão** > da*política* > personalizada**aberta** para exibir o relatório da política.
-
-## <a name="step-6-configure-outlook-for-reviewers-optional"></a>Etapa 6: configurar o Outlook para revisores (opcional)
-
-Os revisores que desejam usar o Outlook em vez do painel de supervisão no Office 365 para rever as comunicações devem configurar o cliente do Outlook.
-
-### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>Etapa 1: copiar o endereço da caixa de correio de supervisão
-
-Para configurar a análise da área de trabalho do Outlook, você precisará do endereço da caixa de correio de supervisão criada como parte da configuração da política de supervisão.
-  
-> [!NOTE]
-> Se outra pessoa criou a política, você precisará obter esse endereço deles para instalar o suplemento.
-
-**Para localizar o endereço da caixa de correio de supervisão**
-  
-1. Entre no [centro de conformidade](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
-
-2. Vá até **supervisão**.
-
-3. Selecione uma política de supervisão para as comunicações que você deseja revisar.
-
-4. No submenu detalhes da política, em **caixa de correio de supervisão**, copie o endereço.<br/>![A seção "caixa de correio de supervisão" do submenu de detalhes da política de supervisão mostrando o endereço da caixa de correio de supervisão realçada](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
-  
-### <a name="step-2-configure-the-supervision-mailbox-for-outlook-access"></a>Etapa 2: configurar a caixa de correio de supervisão para o acesso do Outlook
-
-Em seguida, os revisores precisam executar alguns comandos do PowerShell do Exchange Online para que eles possam conectar o Outlook à caixa de correio de supervisão.
-  
-1. Conectar-se ao Exchange Online PowerShell. [Como faço isso?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
-
-2. Execute os seguintes comandos, onde *SupervisoryReview {GUID} @domain. onmicrosoft.com* é o endereço que você copiou na etapa 1 acima, e *User* é o nome do revisor que se conectará à caixa de correio de supervisão na etapa 3.
-
-    ```Add-MailboxPermission "SupervisoryReview{GUID}@domain.onmicrosoft.com" -User <alias or email address of the account that has reviewer permissions to the supervision mailbox> -AccessRights FullAccess```
-
-    ```Set-Mailbox "<SupervisoryReview{GUID}@domain.onmicrosoft.com>" -HiddenFromAddressListsEnabled: $false```
-
-3. Aguarde pelo menos uma hora antes de passar para a etapa 3.
-
-### <a name="step-3-create-an-outlook-profile-to-connect-to-the-supervision-mailbox"></a>Etapa 3: criar um perfil do Outlook para se conectar à caixa de correio de supervisão
-
-Para a etapa final, os revisores precisam criar um perfil do Outlook para se conectar à caixa de correio de supervisão.
-
-> [!NOTE]
-> Para criar um novo perfil do Outlook, você usará as configurações de email no painel de controle do Windows. O caminho que você leva para acessar essas configurações pode depender de qual sistema operacional Windows (Windows 7, Windows 8 ou Windows 10) você está usando e qual versão do Outlook está instalada.
-  
-1. Abra o painel de controle. Na caixa de **pesquisa** na parte superior da janela, digite **email**.<br/>(Não sabe como acessar o painel de controle? Veja [onde está o painel de controle?](https://support.microsoft.com/help/13764/windows-where-is-control-panel))
-  
-2. Abra o aplicativo de **email** .
-
-3. Em **configuração de email-Outlook**, clique em **Mostrar perfis**.<br/>![A caixa de diálogo "configuração de email-Outlook" com o botão "mostrar perfis" realçado](media/28b5dae9-d10c-4f2b-926a-294c857d555c.jpg)
-  
-4. Em **email**, clique em **Adicionar**. Em seguida, em **novo perfil**, insira um nome para a caixa de correio de supervisão (como **supervisão**).<br/>![A caixa de diálogo "novo perfil" mostrando o nome "supervisão" na caixa "nome do perfil"](media/d02ae181-b541-4ec6-8f51-698f30033204.jpg)
-  
-5. Em **conectar o Outlook ao Office 365**, clique em **conectar a uma conta diferente**.<br/>![A mensagem "conectar o Outlook ao Office 365" com o link "conectar a uma conta diferente" realçado](media/fac49ff8-a7f0-4e82-a271-9ec045a95de1.jpg)
-  
-6. Em **configuração automática de conta**, escolha **configuração manual ou tipos de servidor adicionais**e clique em **Avançar**.
-
-7. Em **escolher o tipo de conta**, escolha **Office 365**. Em seguida, na caixa **endereço de email** , digite o endereço da caixa de correio de supervisão que você copiou anteriormente.<br/>![A página ' escolha o tipo de conta ' da caixa de diálogo ' adicionar conta ' no Outlook mostrando a caixa ' endereço de email ' realçada.](media/4f601236-9f69-4cf6-a58c-0b91204aa8cb.jpg)
-  
-8. Quando solicitado, insira suas credenciais do Office 365.
-
-9. Se tiver êxito, a pasta **supervisão \<–\> nome da política** será listada no modo de exibição lista de pastas no Outlook.
 
 ## <a name="powershell-reference"></a>Referência do PowerShell
 
