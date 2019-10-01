@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Você pode ativar o recurso de pesquisa de log de auditoria no centro de conformidade de & de segurança. Se você mudar de ideia, poderá desativar se estiver desligado a qualquer momento. Quando a pesquisa de log de auditoria está desativada, os administradores não podem pesquisar o log de auditoria do Office 365 para atividades de usuário e administrador em sua organização.
-ms.openlocfilehash: c5e1106617aa4828ec2db5afcc44ac55e91f2383
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 83ef355c4acd5e0af4fd7ffbf13157307bcac930
+ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073744"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37334241"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Ativar e desativar a Pesquisa de log de auditoria do Office 365
 
@@ -35,7 +35,7 @@ Você (ou outro administrador) deve ativar o log de auditoria antes de começar 
     > [!IMPORTANT]
     > Os usuários precisam receber permissões no Exchange Online para ativar ou desativar a pesquisa de log de auditoria. Se você atribuir aos usuários a função logs de auditoria na página **permissões** no centro de conformidade & segurança, não será possível ativar ou desativar a pesquisa de log de auditoria. Isso ocorre porque o cmdlet subjacente é um cmdlet do Exchange Online. 
   
-- Se você desativar a pesquisa de log de auditoria no Office 365, não será possível usar a API da atividade de gerenciamento do Office 365 para acessar os dados de auditoria da sua organização. Desativando a pesquisa de log de auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o centro de conformidade de & de segurança ou quando executar o cmdlet **Search-UnifiedAuditLog** no PowerShell do Exchange Online . Isso também significa que seus logs de auditoria não estarão disponíveis por meio da API de atividade de gerenciamento do Office 365.  
+- Se você desativar a pesquisa de log de auditoria no Office 365, não poderá usar a API da atividade de gerenciamento do Office 365 para acessar os dados de auditoria da sua organização. Desativando a pesquisa de log de auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o centro de conformidade de & de segurança ou quando executar o cmdlet **Search-UnifiedAuditLog** no PowerShell do Exchange Online . Isso também significa que seus logs de auditoria não estarão disponíveis por meio da API de atividade de gerenciamento do Office 365.  
     
 - Para obter instruções passo a passo sobre como pesquisar o log de auditoria do Office 365, consulte [Pesquisar o log de auditoria no centro de conformidade do & de segurança](search-the-audit-log-in-security-and-compliance.md).
     
@@ -47,15 +47,13 @@ Você pode usar o centro de conformidade & segurança ou o PowerShell para ativa
 
 1. No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> .
     
-2. Clique em **Iniciar gravação de atividades do usuário e do administrador**.
+   Uma faixa é exibida informando que a auditoria deve ser ativada para registrar a atividade do usuário e do administrador.
+
+2. Clique em **ativar a auditoria**.
     
-    ![Clique em Iniciar gravação de atividades de administrador e usuário para ativar a auditoria](media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
+    ![Clique em ativar auditoria](media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
   
-    Uma caixa de diálogo é exibida informando que a atividade de usuário e administrador em sua organização será registrada no log de auditoria do Office 365 e disponível para exibição em um relatório. 
-    
-3. Clique em **Ativar**.
-    
-    Uma mensagem é exibida dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação.
+    A faixa é atualizada para dizer que o log de auditoria está sendo preparado e que você pode pesquisar a atividade de usuário e administrador em algumas horas.
     
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>Usar o PowerShell para ativar a pesquisa de log de auditoria
 
@@ -85,14 +83,12 @@ Você precisa usar o PowerShell remoto conectado à sua organização do Exchang
     
     - No PowerShell, execute o seguinte comando:
 
-        ```
-        Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-        ```
+            ```
+            Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+            ```
 
-        O valor da `False` propriedade _UnifiedAuditLogIngestionEnabled_ indica que a pesquisa de log de auditoria está desativada. 
+           The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
     
-    - No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> e clique em **Pesquisar**.
+    - No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> .
     
-      Uma mensagem é exibida dizendo que a pesquisa de log de auditoria não está ativada. 
-    
-      ![Uma mensagem será exibida se A auditoria estiver desativada](media/dca53da6-1cbe-4fa3-9860-f0d674de9538.png)
+           A banner is displayed saying that auditing has to be turned on in order to record user and admin activity.
