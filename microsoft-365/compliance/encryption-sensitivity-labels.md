@@ -1,7 +1,7 @@
 ---
 title: Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: ea7eda3558313389bfa2bc752a469e00cc7ae577
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: be41f60f8d0210c779fb6c5a8fdc783cf23fcc19
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148475"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369442"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade
 
@@ -135,7 +135,7 @@ Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário d
 
 Você pode usar essas opções para permitir que os usuários atribuam permissões quando os mesmos aplicarem manualmente um rótulo de sensibilidade ao conteúdo:
 
-- No Outlook, um usuário pode aplicar restrições equivalente à opção**Não encaminhar**. Essa opção é compatível nativamente com o Outlook no Windows e não exige que você instale o cliente de rotulagem de Proteção de informações do Azure.
+- No Outlook, um usuário pode aplicar restrições equivalente à opção[Não encaminhar](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails). Essa opção é compatível nativamente com o Outlook no Windows e não exige que você instale o cliente de rotulagem de Proteção de informações do Azure.
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar um nível de permissão para usuários, grupos ou organizações específicos. Essa opção não é compatível nativamente com esses aplicativos e portanto exige que você instale o cliente de rotulagem de Proteção de informações do Azure.
 
 Essas opções determinam em quais aplicativos o rótulo de sensibilidade será exibido:

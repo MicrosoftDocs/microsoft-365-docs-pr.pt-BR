@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado para o Office 365'
+title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,18 +13,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: e9c68e4fafb1e9537b403965b4360806938c6a6f
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047284"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370418"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado para o Office 365
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365
 
 *Esta etapa é opcional e se aplica apenas às versões E5 e Advanced Compliance do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 O gerenciamento do acesso privilegiado é habilitado pela configuração de políticas que especificam o acesso just-in-time a atividades baseadas em tarefas em seu locatário do Office 365. Ele pode ajudar a proteger sua organização contra violações que podem usar contas de administrador existentes com acesso permanente a dados confidenciais ou acesso a definições críticas de configuração. Por exemplo, você pode configurar uma política de gerenciamento de acesso privilegiado que requer a aprovação explícita para acessar e alterar configurações de caixas de correio da organização em seu locatário do Office 365.
 
@@ -42,7 +42,7 @@ Para saber mais, confira o tópico [Gerenciamento do acesso privilegiado no Offi
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de teste, consulte o [Guia de laboratório de teste de gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de teste, consulte o [Guia de laboratório de teste de gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
 |||
 
 Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step7) correspondentes desta etapa.
