@@ -1,7 +1,7 @@
 ---
 title: Criação e publicação em massa de rótulos de retenção usando o PowerShell
-ms.author: stephow
-author: stephow-msft
+ms.author: laurawi
+author: laurawi
 ms.date: ''
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: No Office 365, você pode usar rótulos de retenção para implementar uma programação de retenção para sua organização. Como gerente de registros ou responsável pela conformidade, você pode ter centenas de rótulos de retenção para criar e publicar. Você pode fazer isso por meio da interface do usuário no Centro de Conformidade e Segurança, mas criar rótulos de retenção um por vez é demorado e ineficiente. Usando o script e os arquivos .csv fornecidos abaixo, você pode criar e publicar em massa rótulos de retenção e políticas de rótulo de retenção. Primeiro você cria uma lista dos rótulos de retenção e uma lista das políticas de rótulo de retenção no Excel e, em seguida, cria os rótulos de retenção e as diretivas de rótulo de retenção nessas listas usando o PowerShell. Isso torna mais fácil criar e publicar de uma só vez todos os rótulos de retenção exigidos pelo cronograma de retenção.
-ms.openlocfilehash: 1b6ab634ee0f168392981026367a3b8b2e98f5f8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 086ae7fc941a916a92b49c4745b584dd32a7cbda
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072259"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342924"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>Criação e publicação em massa de rótulos de retenção usando o PowerShell
 

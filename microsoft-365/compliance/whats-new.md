@@ -15,12 +15,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 558a35d255171ffa09f5e8610cdfc0d6ba63c9fe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b80edfb0425904b03426ef0ff3cdd1d251e638ea
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073232"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369632"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -29,9 +29,23 @@ Estamos adicionando novos recursos para o centro de [conformidade da Microsoft 3
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 
-## <a name="august-2019"></a>Agosto de 2019
+## <a name="september-2019"></a>Setembro de 2019
 
 Está imaginando por que ele está silencioso no lançamento frontal este mês? Temos uma cabeça para a criação de soluções de conformidade novas e inovadoras que serão anunciadas no [Microsoft Ignite](https://www.microsoft.com/ignite) em novembro. Fique atento!
+
+### <a name="new-encryption-options-for-sensitivity-labels"></a>Novas opções de criptografia para rótulos de confidencialidade 
+
+Ao configurar a criptografia para um rótulo de confidencialidade, agora você tem duas opções que permitem aos usuários atribuir permissões ao aplicarem manualmente o rótulo a emails e documentos:<br>
+- Ao aplicar o rótulo ao **email do Outlook**, os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários serão capazes de ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
+- Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel**, os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
+
+[Saiba mais](encryption-sensitivity-labels.md#let-users-assign-permissions)
+
+## <a name="august-2019"></a>Agosto de 2019
+
+### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
+
+Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
 
 ## <a name="july-2019"></a>Julho de 2019
 
@@ -49,34 +63,3 @@ Lançamos duas novas funções de administrador para ajudar a gerenciar a segura
 Não há mais rolagem por um mar de relatórios para encontrar os que você deseja. Agora você pode pesquisar relatórios (com base nos seus títulos) e filtrar em categorias como "rótulos" e "conformidade" e fontes como "Office 365" e "Microsoft Cloud app Security".
 
 ![Captura de tela dos botões de pesquisa e filtro para relatórios com um filtro aplicado](media/mcc_report_filtering.png)
-
-### <a name="help-content"></a>Conteúdo de ajuda
-
-Retire uma cadeira, pegue uma xícara de café e deixe que nossos documentos de conformidade mais recentes o limpem.
-
-**Descoberta Eletrônica Avançada**
-- [Analisar conversas na descoberta eletrônica avançada](conversation-review-sets.md) Novo
-- [Solucionar problemas de AzCopy na descoberta eletrônica avançada](troubleshooting-azcopy.md)
-- [Carregar dados que não sejam do Office 365 em um conjunto de revisão](load-non-office365-data.md)
-- [Correção de erros durante o processamento de dados](error-remediation.md)
-
-**Arquivamento de dados de terceiros**
-- [Configurar um conector para arquivar dados do Bloomberg instantâneos no Office 365](archive-instant-bloomberg-data.md)
-
-**Auditoria**
-- [Compartilhamento de auditoria para localizar recursos compartilhados com usuários externos](use-sharing-auditing.md)
-- [Referência da API da Atividade de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)
-- [Solução de problemas da API da Atividade de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)
-- [Pesquisar o log de auditoria no centro de conformidade & segurança](search-the-audit-log-in-security-and-compliance.md)
-
-**Criptografia**
-- [Informações herdadas de Criptografia de Mensagens do Office 365](legacy-information-for-message-encryption.md)
-
-**Correta**
-- [Criar tipos de informações confidenciais personalizados com classificação com base na correspondência exata de dados](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-
-**Governança de dados**
-- [Visão geral de políticas de retenção](retention-policies.md)
-
-**Supervisão**
-- [Políticas de supervisão no Office 365](supervision-policies.md)

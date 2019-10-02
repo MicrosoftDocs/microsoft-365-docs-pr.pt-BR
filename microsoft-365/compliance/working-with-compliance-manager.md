@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 07aee08c8929443b8b4f4805d22a94b0ad9db27a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 02cceb0487f357e6b40b634dc6d3cd7349ec2d96
+ms.sourcegitcommit: acf29701bfba3e4843e49a79fde012f3c7a7024a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073230"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37350312"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -94,7 +94,7 @@ Ao trabalhar com grupos, lembre-se:
 
 O Gerenciador de conformidade (visualização) inclui uma nova interface para gerenciar novos elementos de dados chamados **Gerenciamento de locatários**. Esta interface permite que você gerencie as configurações de todos os locatários:
 
-- **Dimensões:** Exibir, adicionar e personalizar metadados para modelos, avaliações e itens de ação que permitem que você crie pivôs personalizados para filtros.
+- **Dimensões:** Exibir metadados para modelos, avaliações e itens de ação que permitem que você crie pivôs personalizados para filtros.
 - **Proprietários:** Especifique um proprietário para cada item de ação.
 - **Ações do cliente:** Gerencie a lista completa de itens de ações incluídas no Gerenciador de conformidade (visualização) e habilite/desabilite o monitoramento de Pontuação segura para ações integradas à pontuação segura.
 
@@ -102,34 +102,7 @@ Selecione **Gerenciamento de locatário** para abrir a interface de gerenciament
 
 ### <a name="dimensions"></a>Dimensões
 
-As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão do **tipo de ação** e dos valores de dimensão da **documentação**, **operacional**e **técnica**. Você pode modificar as dimensões existentes ou adicionar suas próprias. A adição de dimensões é sempre necessária ao importar modelos personalizados.
-
-#### <a name="add-a-dimension"></a>Adicionar uma dimensão
-
-1. Abra o **Gerenciamento de locatários** e selecione **dimensões**.
-2. Selecione **+ Adicionar dimensão**.
-3. Insira um nome exclusivo no campo de **chave** .
-4. Opcionalmente, habilite vários valores para serem usados simultaneamente para a mesma chave, deslize a opção para **permitir que a seleção múltipla para dimensões** seja ativada.
-5. Selecione **+ Adicionar** para adicionar um valor fornecendo um nome exclusivo e clicando no ícone salvar.
-6. Repita a etapa 5 para cada valor que você deseja adicionar.
-7. Selecione **salvar** para salvar a nova dimensão.
-
-#### <a name="edit-a-dimension"></a>Editar uma dimensão
-
-Você pode renomear uma chave de dimensão, mas pode modificar os valores de dimensões personalizadas.
-
-1. Abra o **Gerenciamento de locatários** e selecione **dimensões**.
-2. Localize a dimensão que você deseja editar, selecione as reticências (...) ao lado dela e selecione **Editar**.
-3. Selecione **+ Adicionar** para adicionar um valor fornecendo um nome exclusivo e clicando no ícone salvar ou selecione o valor que você deseja editar ou excluir e selecione **remover** ou **Editar**.
-4. Selecione **salvar** quando terminar de fazer as alterações.
-
-#### <a name="delete-a-dimension"></a>Excluir uma dimensão
-
-Você pode excluir dimensões personalizadas, se necessário.
-
-1. Abra o **Gerenciamento de locatários** e selecione **dimensões**.
-2. Localize a dimensão que você deseja excluir, selecione as reticências (...) ao lado dela e selecione **excluir**.
-3. Quando a mensagem de confirmação for exibida, selecione **excluir**.
+As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão do **tipo de ação** e dos valores de dimensão da **documentação**, **operacional**e **técnica**. Você pode editar ou excluir dimensões existentes.
 
 ### <a name="owners"></a>Proprietários
 
@@ -354,11 +327,11 @@ Os controles podem ser exibidos no painel de informações de controles. Os cont
 
 ![Detalhes dos controles da Microsoft sobre o Gerenciador de conformidade](media/compliance-manager-control-details.png)
 
-Há três tipos de controles. Dois são fornecidos pela Microsoft nos modelos internos, e o terceiro é criado e gerenciado por clientes em modelos personalizados. Os três tipos são:
+Há três tipos de controles:
 
-1. **Controles gerenciados pela Microsoft (mm):** são controles para os quais somente a Microsoft tem responsabilidade. Eles aparecem nos modelos da caixa de entrada e são adicionados ao gerente de conformidade da Microsoft.
-2. **Controles gerenciados pelo cliente (cm):** são controles para os quais somente os clientes têm responsabilidade. Eles aparecem nos modelos da caixa de entrada e são adicionados ao gerente de conformidade da Microsoft ou dos clientes. O cliente também pode editar ou desabilitar os controles gerenciados pelo cliente fornecidos pela Microsoft.
-3. **Controles compartilhados (SM):** são controles onde a responsabilidade é compartilhada entre a Microsoft e o cliente. Eles aparecem nos modelos da caixa de entrada e são adicionados ao Gerenciador de conformidade da Microsoft.
+1. **Controles gerenciados pela Microsoft:** são controles para os quais somente a Microsoft tem responsabilidade. Eles aparecem nos modelos da caixa de entrada e são adicionados ao gerente de conformidade da Microsoft.
+2. **Controles gerenciados pelo cliente:** são controles para os quais somente os clientes têm responsabilidade. Eles aparecem nos modelos da caixa de entrada e são adicionados ao gerente de conformidade por clientes.
+3. **Controles de gerenciamento compartilhado:** são controles onde a responsabilidade é compartilhada entre a Microsoft e o cliente. Eles aparecem nos modelos da caixa de entrada e são adicionados ao Gerenciador de conformidade da Microsoft. O cliente também pode editar ou desabilitar os controles gerenciados pela Microsoft.
 
 ### <a name="actions-items"></a>Itens de ações
 
@@ -423,7 +396,7 @@ Essa guia inclui colunas que definem os controles que são mapeados para as aç�
 - **controlDescription:** Descrição de controle de Certification/Standard/regulamento, etc.
 - **controlVersion:** Informações de versão do controle opcional.  Exemplo: para o NIST 800-53, o valor atual é Rev 4, portanto, o controlVersion é 4.  Para CCM CSA, ele é o 3.0.1.
 - **IsDisabled:** Use TRUE ou FALSE para indicar se o controle foi desabilitado.
-- **ControlType:** Use o CM para indicar que esses são controles gerenciados pelo cliente.
+- **ControlType:** Use CC para indicar que esses são controles gerenciados pelo cliente.
 - **controlComplianceScore:** Soma da Pontuação de todas as ações atribuídas ao controle.
 - **controlActionTitle:** Lista delimitada por ponto-e-vírgula duplo de todos os actionTitles para esse controle, conforme listado na guia ações. 
 
@@ -449,7 +422,7 @@ Essa guia inclui colunas que definem ações individuais e inclui detalhes como 
     Product::Office 365;;Certification::NIST CSF
     ```
 
-    Todas as dimensões usadas em um modelo personalizado devem estar listadas na guia dimensões do arquivo de importação, mesmo se já estiverem listadas no painel dimensões. Se você estiver adicionando novas chaves de dimensão ou valores, você deve adicioná-los primeiro ao painel de dimensões.
+    Todas as dimensões usadas em um modelo personalizado devem estar listadas na guia dimensões do arquivo de importação, mesmo se já estiverem listadas no painel dimensões.
 - **actionScore:** Valor numérico para cada ação, que representa a pontuação dessa ação. Recomendamos seguir o modelo de Pontuação usado pelas avaliações internas, que se baseia no propósito e na aplicação de cada ação.
 - **actionOwnership:** Lista de proprietários delimitadas por ponto e vírgula. Todos os proprietários listados devem ser incluídos na guia propriedade.
 - **actionDescription:** Texto de cada ação, que deve ser exclusivo. Este campo suporta o idioma de redução, conforme descrito abaixo.
@@ -527,7 +500,7 @@ Você pode criar um modelo copiando um modelo existente ou importando dados de m
 
 1. Abra o painel de **modelos** e selecione **+ Adicionar modelo**.
 2. No campo **Inserir nome do modelo** , forneça um nome exclusivo para o modelo.
-3. Adicione uma ou mais dimensões. Mesmo que as dimensões que você usa já estejam listadas no painel de dimensões, elas ainda devem estar listadas no arquivo de importação.
+3. Selecione pelo menos uma dimensão da lista disponível.
 4. Selecione **procurar** para navegar até o local do arquivo de importação, selecione-o e selecione **abrir**.
 5. O arquivo de importação será validado e indicará o número de controles e famílias de controle que foram detectados. Se houver erros, um link será fornecido para uma versão modificada do arquivo de importação que inclui detalhes do erro. Todos os erros devem ser resolvidos para que os dados sejam importados.
 6. Depois que os dados passarem na validação, selecione **Adicionar ao painel**.

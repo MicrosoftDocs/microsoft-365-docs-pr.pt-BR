@@ -2,6 +2,7 @@
 
 # Introdução
 ## [Novidades do centro de conformidade](whats-new.md)
+## [Atualizações recentes para conteúdo de conformidade](recently-updated-topics-mcc.md)
 ## [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md)
 ## [Ir para o Centro de Conformidade e Segurança](go-to-the-securitycompliance-center.md)
 ## [Usar assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -104,7 +105,7 @@
 ### [Gerenciador de planos de arquivo](file-plan-manager.md)
 ### [Rótulos de retenção](labels.md)
 ### [Cumprir com a Regra SEC 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/pt-BR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Retenção baseada em eventos](event-driven-retention.md)
 ### [Automatizar retenção baseada em eventos](automate-event-driven-retention.md)
 ## [Descartar dados](disposition-reviews.md)
@@ -125,7 +126,7 @@
 ### Plano de arquivos
 #### [Gerenciador de planos de arquivo](file-plan-manager.md)
 #### [Rótulos de retenção](labels.md)
-#### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/pt-BR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
 #### [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
 #### [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)

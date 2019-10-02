@@ -1,7 +1,7 @@
 ---
 title: Visão geral das políticas de exclusão de documentos
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
-ms.openlocfilehash: 59bc100a19f3597aa1bf16506bf6c7049a35af3b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 87d79f6b8f4381693bf043bc0e04fcfe4359fa90
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071913"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342944"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Visão geral das políticas de exclusão de documentos
 
@@ -44,7 +44,7 @@ Você cria e gerencia políticas de exclusão de documentos usando o centro de p
 
 Além das políticas de exclusão de documentos, o Office 365 fornece estas políticas de retenção para conteúdos de sites:
   
-- [Gerenciamento de registros](https://go.microsoft.com/fwlink/p/?LinkID=404250)
+- [Records management](https://go.microsoft.com/fwlink/p/?LinkID=404250)
     
 - [Políticas de gerenciamento de informações para tipos de conteúdo, listas e bibliotecas](https://go.microsoft.com/fwlink/p/?LinkID=404239)
     

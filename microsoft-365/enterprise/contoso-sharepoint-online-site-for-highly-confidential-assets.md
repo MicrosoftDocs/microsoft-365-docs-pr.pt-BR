@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint Online para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: 99599829658e5dc46c8adebfe59f5c6d09b165de
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 6c61d02c802a77afeb93a58b59114741c6630f9e
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072772"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369522"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint Online para ativos digitais altamente confidenciais da Contoso Corporation
 
@@ -56,7 +56,7 @@ Os administradores do SharePoint da Contoso criaram primeiro um novo site de equ
 
 Estes são os níveis de permissão do SharePoint resultantes, grupos do SharePoint e seus membros.
 
-![](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/spo-permissions.png)
+![Níveis de permissão do SharePoint, grupos do SharePoint e seus membros](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/spo-permissions.png)
 
 Em seguida, eles configuraram restrições adicionais para o site.
 
@@ -80,7 +80,7 @@ Os administradores da Contoso criaram um novo subrótulo de proteção de inform
 
 - Requer criptografia.
 - Permite acesso total por membros do grupo de segurança **Research-Members** .
-- Permite o acesso de leitura por membros do grupo de segurança de visualizadores de **pesquisa** .
+- Permite o acesso de leitura por membros do grupo de segurança de **visualizadores de pesquisa** .
 
 Em seguida, implantamos o cliente de proteção de informações do Azure nos dispositivos dos membros da equipe de pesquisa.
 
@@ -88,7 +88,7 @@ Para obter detalhes sobre a configuração, consulte [proteger arquivos do Share
 
 Aqui está a configuração resultante do site de **pesquisa** para ativos altamente confidenciais.
 
-![](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
+![A configuração resultante do site * * Research * * para ativos altamente confidenciais](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
 
 Arquivos em pastas do site de **pesquisa** são protegidos por:
 

@@ -1,5 +1,5 @@
 ---
-title: Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
+title: Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
 description: Este tópico lista os tópicos novos e atualizados da área de trabalho gerenciada da Microsoft.
 keywords: histórico de alterações
 ms.prod: m365-md
@@ -8,33 +8,38 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a9755d1caae20694f1198dec0bf3e659bccee8ee
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: a982b493027775add547a87700906a6cbbdaef60
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982602"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369622"
 ---
-# <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da área de trabalho gerenciada da Microsoft
+# <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
 
-Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml).
+Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os tópicos "atualizados" são aqueles que tiveram inclusões de material ou correções – correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
 ## <a name="september-2019"></a>Setembro de 2019
 Tópico novo ou alterado | Descrição
 --- | ---
-[Pré-requisitos para a área de trabalho gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
+[Tecnologias de área de trabalho gerenciada da Microsoft](intro/technologies.md) | Tópico atualizado
+[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Tópico atualizado
+[Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Tópico atualizado
+[Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-deploy.md) | Tópico atualizado
+[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tópico atualizado
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
 [Configurar dispositivos de área de trabalho gerenciada da Microsoft](get-started/set-up-devices.md) | Novo tópico
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Tópico atualizado
-[Registrar os dispositivos existentes por conta própria](get-started/register-reused-devices-self.md) | Novo tópico
+[Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Novo tópico
 [Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](service-description/updates.md) | Tópico atualizado
 
 ## <a name="august-2019"></a>Agosto de 2019
 Tópico novo ou alterado | Descrição
 --- | ---
-[Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
+[Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
 [Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tópico atualizado
 [Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Tópico atualizado
-[Pré-requisitos para a área de trabalho gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Tópico atualizado
 [Tecnologias de área de trabalho gerenciada da Microsoft](intro/technologies.md) | Tópico atualizado
 
 
@@ -42,8 +47,8 @@ Tópico novo ou alterado | Descrição
 ## <a name="july-2019"></a>Julho de 2019
 Tópico novo ou alterado | Descrição
 --- | ---
-[Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
-[Área de trabalho gerenciada da Microsoft e ITIL](MMD-and-ITSM.md) | Novo tópico
+[Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Tópico atualizado
+[Área de Trabalho e ITIL Gerenciados da Microsoft](MMD-and-ITSM.md) | Novo tópico
 [Configuração do dispositivo](service-description/device-policies.md) | Tópico atualizado
 
 
@@ -51,7 +56,7 @@ Tópico novo ou alterado | Descrição
 Tópico novo ou alterado | Descrição
 --- | ---
 [Aplicativos na área de trabalho gerenciada da Microsoft](get-ready/apps.md) | Tópico atualizado
-[Como trabalhar com os serviços de consultoria da Microsoft](get-ready/apps-mcs.md) | Novo tópico
+[Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Novo tópico
 [Funções e responsabilidades de área de trabalho gerenciada da Microsoft](intro/roles-and-responsibilities.md) | Tópico atualizado
 [Ciclo de vida do produto do Microsoft Managed desktop](service-description/device-lifecycle.md) | Novo tópico
 
@@ -63,8 +68,8 @@ Tópico novo ou alterado | Descrição
 [Idiomas e regiões compatíveis com o Microsoft Managed desktop](service-description/regions-languages.md) | Tópico atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Tópico atualizado
 [Dispositivos arquivados do Microsoft Managed desktop](service-description/archived-device-list.md) | Novo tópico
-[Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo tópico
-[Preparar certificados e perfis de rede para a área de trabalho gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo tópico
+[Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo tópico
+[Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo tópico
 [Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Tópico atualizado
 [Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md)
 
@@ -73,7 +78,7 @@ Tópico novo ou alterado | Descrição
 --- | ---
 [Instalar o portal da empresa do Intune em dispositivos de área de trabalho gerenciado da Microsoft](get-started/company-portal.md) | Novo tópico
 [Instalar o Microsoft Project e o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](get-started/project-visio.md) | Novo tópico 
-[Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft](get-ready/authentication.md) | Novo tópico
+[Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](get-ready/authentication.md) | Novo tópico
 [Registrar dispositivos na área de trabalho gerenciada da Microsoft](get-started/register-devices-self.md) | Novo tópico
 [Registrar dispositivos no Microsoft Managed desktop para parceiros](get-started/register-devices-partner.md) | Novo tópico
 [Implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft](get-started/deploy-apps.md) | Tópico atualizado
@@ -87,9 +92,9 @@ Tópico novo ou alterado | Descrição
 ## <a name="february-2019"></a>Fevereiro de 2019
 Tópico novo ou alterado | Descrição
 --- | ---
-[Dispositivos de programa](service-description/device-list.md) | Atualizado com suporte para determinados dispositivos Dell e HP.
+[Dispositivos do programa](service-description/device-list.md) | Atualizado com suporte para determinados dispositivos Dell e HP.
 [Visão geral das configurações configuráveis](working-with-managed-desktop/config-setting-overview.md) | Novo tópico
-[Referência de configurações configuráveis](working-with-managed-desktop/config-setting-ref.md) | Novo tópico
+[Referência de configurações que podem ser alteradas](working-with-managed-desktop/config-setting-ref.md) | Novo tópico
 [Controlar e implantar configurações configuráveis](working-with-managed-desktop/config-setting-deploy.md) | Novo tópico
 [Introdução aos dispositivos](get-started/get-started-devices.md) | Novo tópico
 
