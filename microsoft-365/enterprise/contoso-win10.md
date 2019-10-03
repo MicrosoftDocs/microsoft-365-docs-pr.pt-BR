@@ -3,7 +3,7 @@ title: Implantação do Windows 10 Enterprise para a Contoso
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usou o System Center Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
-ms.openlocfilehash: 03ee4d9efcedf42eb976e001411299d2080abf83
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a63a973bed4bf62ebf7c2534d4c55a4e3b8ef60c
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073851"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370468"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Implantação do Windows 10 Enterprise para a Contoso
 
 **Resumo:** entenda como a Contoso usou o System Center Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
 
-Antes da ampla implantação do Microsoft 365 Enterprise, a Contoso tinha PCs e dispositivos compatíveis com o Windows que executavam uma combinação de Windows 7 (10%), Windows 8.1 (65%) e Windows 10 (25%). A Contoso queria atualizar seus PCs para o Windows 10 Enterprise para aproveitar a segurança aprimorada e reduzir a sobrecarga da TI em implantações automatizadas de atualizações. 
+Antes da ampla implantação do Microsoft 365 Enterprise, a Contoso tinha computadores e dispositivos compatíveis com o Windows que executavam uma combinação de Windows 7 (10%), Windows 8.1 (65%) e Windows 10 (25%). A Contoso queria atualizar seus computadores para o Windows 10 Enterprise para aproveitar a segurança aprimorada e reduzir a sobrecarga da TI em implantações automatizadas de atualizações. 
 
 Depois de avaliar suas necessidades de infraestrutura e comerciais, a Contoso identificou esses principais requisitos para a implantação:
 
@@ -45,11 +45,11 @@ Antes e durante as atualizações in-loco do Windows 10 Enterprise, a Contoso us
 
 - Conformidade de atualização  
 
-  Coleta dados do sistema e de diagnóstico, incluindo o progresso da instalação da atualização, dados de configuração do Windows Update para Empresas (WUfB), dados do Windows Defender Antivírus e outras informações específicas da atualização, e armazena esses dados na análise e uso da nuvem.
+  Mostra o estado dos dispositivos com relação às atualizações do Windows para que você possa garantir que eles estejam nas atualizações mais recentes conforme apropriado.
 
 - Integridade do dispositivo  
 
-  Coleta dados do sistema e de diagnóstico do Windows 10, incluindo o progresso da instalação da atualização, dados de configuração do Windows Update para Empresas (WUfB), dados do Windows Defender Antivírus e outras informações específicas da atualização, e armazena esses dados na análise e uso da nuvem.
+  Identifica os dispositivos que falham com frequência e, portanto, talvez precisem ser recriados ou substituídos, e os drivers de dispositivo que estejam falhando, com sugestões de versões alternativas desses drivers, podem reduzir o número de falhas. Fornece notificação de configurações incorretas de proteção de informações do Windows que enviam avisos para os usuários finais.
  
 A Contoso possui uma infraestrutura existente do System Center Configuration Manager (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalações, atualizações e configurações. Ele também possui recursos internos para facilitar e efetivar a implantação e o gerenciamento do Windows 10 Enterprise.
 
@@ -75,13 +75,11 @@ Para concluir a implantação da atualização in-loco do Windows 10 Enterprise,
 4. Realizou uma avaliação de sucesso para PCs e dispositivos nos três anéis de teste de validação e implantação usando as soluções de Integridade do dispositivos e Conformidade de atualização do Windows Analytics.
 5. Com base nas informações do Windows Analytics, a Contoso determinou qual versão do Windows 10 Enterprise será implantada no anel de implantação geral.
 6. Executou as sequências das tarefas de implantação do Configuration Manager para implantar o pacote do Windows escolhido no anel de implantação geral.
-7. Os computadores e dispositivos monitorados na implantação geral usam as soluções de Integridade do dispositivos e Conformidade de atualização fornecidas pelo Windows Analytics para solucionar problemas.
+7. Os computadores e dispositivos monitorados na implantação geral usam as soluções de integridade dos dispositivos e conformidade de atualização fornecidas para solucionar problemas.
 
-A Figura 1 mostra a atualização in-loco e a arquitetura de implantação de atualizações contínuas.
+Veja a atualização in-loco e a arquitetura de implantação de atualizações contínuas.
 
-![](./media/contoso-win10/contoso-win10-fig1.png)
- 
-**Figura 1: infraestrutura de implantação do Windows 10 Enterprise da Contoso**
+![Infraestrutura de implantação do Windows 10 Enterprise da Contoso](./media/contoso-win10/contoso-win10-fig1.png)
 
 Esta infraestrutura é formada pelo:
 

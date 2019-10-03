@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise para a Contoso Corporation
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 Enterprise.
-ms.openlocfilehash: e587a2c6588faf32aa6882ef1659472365611517
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 0d5453a5f55314207e0c8403837a83dd66eb70d3
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054913"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369612"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -46,11 +46,11 @@ Confira os seguintes artigos para saber mais:
 
 - [Identidade](contoso-identity.md)
 
-  A identidade da Contoso na solução da nuvem aproveita o provedor de identidades local dela e inclui autenticação federada com os próprios provedores confiáveis de identidades de terceiros existentes.
+  A identidade da Contoso na solução da nuvem aproveita a floresta dos serviços de domínio Active Directory (AD DS) local e inclui autenticação federada com os próprios provedores confiáveis de identidades de terceiros existentes.
 
 - [Windows 10 Enterprise](contoso-win10.md)
 
-  O Windows 10 Enterprise da Contoso implementa uma infraestrutura e instala automaticamente atualizações no sistema operacional de seu PC e dispositivo principais.
+  O Windows 10 Enterprise da Contoso implementa uma infraestrutura e instala automaticamente atualizações para dispositivos que executam o sistema operacional principal do computador e dispositivo.
 
 - [Office 365 ProPlus](contoso-o365pp.md)
 
@@ -58,7 +58,7 @@ Confira os seguintes artigos para saber mais:
 
 - [Gerenciamento de dispositivo móvel](contoso-mdm.md)
 
-  Com muitos funcionários móveis e smartphones e tablets da empresa e pessoais, a Contoso usa o gerenciamento de dispositivo móvel para registrar e proteger os dispositivos e seus dados.
+  Com vários funcionários móveis e smartphones e tablets da empresa e pessoais, a Contoso usa o gerenciamento de dispositivo móvel para registrar e proteger os dispositivos e seus dados e gerenciar aplicativos.
 
 - [Proteção de informações](contoso-info-protect.md)
 

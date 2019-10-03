@@ -3,7 +3,7 @@ title: Gerenciamento de dispositivo móvel para a Contoso
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
-ms.openlocfilehash: 9f3db160b01a54afa3457703b0333be1ff3a02ec
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: b083b7fed67eb08b47daf70c3fd22c181f5a8f77
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054983"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370478"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Gerenciamento de dispositivo móvel para a Contoso
 
-**Resumo:** entenda como a Contoso usa Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
+**Resumo:** Entenda como a Contoso usa Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
 
 O Microsoft 365 Enterprise inclui o Microsoft Intune e um conjunto de serviços do Azure que dão suporte a segurança, ao gerenciamento de aplicativos e dispositivos móveis.
 
@@ -64,6 +64,10 @@ A Contoso configurou sua infraestrutura de gerenciamento de dispositivo móvel d
   - Clara separação de dados pessoais e comerciais. Os administradores ou usuários podem apagar seletivamente dados corporativos do dispositivo, mantendo inalterados dados pessoais, como imagens, contas de email e arquivos pessoais.
 
 Depois de implantar, a Contoso registrou os PCs, smartphones e tablets de propriedade da empresa adicionando-os aos grupos de dispositivos apropriados do Intune, e gradualmente implementou um programa BYOD para os funcionários poderem registrar seus dispositivos pessoais. Os dispositivos registrados receberam políticas do Intune, resultando em dispositivos e aplicativos gerenciados e seguros. Dispositivos não registrados têm políticas de gerenciamento de aplicativo móvel (MAM) que especificam aplicativos permitidos.
+
+Esta é a arquitetura de implantação de gerenciamento de dispositivo móvel da Contoso.
+
+![Infraestrutura de implantação de gerenciamento de dispositivo móvel da Contoso.](./media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>Próxima etapa
 

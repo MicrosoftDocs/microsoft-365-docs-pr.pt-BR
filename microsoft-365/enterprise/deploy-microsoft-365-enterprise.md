@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 Enterprise na sua organização.
-ms.openlocfilehash: ce4b3dfeb3c13f68b0218f5aea5740b6dc5252d0
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: 1d88ed400d20b15823d3991a1cd099bbb16ffa84
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050272"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369532"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Implantar o Microsoft 365 Enterprise
 
@@ -65,7 +65,7 @@ Para implantar o Microsoft 365 Enterprise sozinho, você pode:
 
 Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.
 
-![](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 As cargas de trabalho e os cenários operam acima da infraestrutura de base. Entretanto, você não precisa ter todas as fases da infraestrutura de base prontas para começar a usar cargas de trabalho para produtividade e colaboração.
 
