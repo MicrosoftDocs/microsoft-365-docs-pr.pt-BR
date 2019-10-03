@@ -31,6 +31,7 @@
 ### [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md)
 ### [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)
 ### [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
+### [Rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md)
 
 ## [Data loss prevention (DLP)](data-loss-prevention-policies.md)
 ### [DLP e Microsoft Teams](dlp-microsoft-teams.md)
