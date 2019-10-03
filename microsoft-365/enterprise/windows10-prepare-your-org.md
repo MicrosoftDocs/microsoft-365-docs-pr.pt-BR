@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: josephd
-ms.openlocfilehash: 5deae85ae614079c23a373d4ecae7ce81aeb3fcd
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aafd629b4efcfa1307a25bf8e340236f183998b5
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071770"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370238"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Etapa 1: preparar sua organização para o Windows 10 Enterprise
 
 *Este artigo aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Antes de atualizar seus dispositivos para o Windows 10 Enterprise, considere o seguinte:
 
@@ -67,7 +67,7 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)| [Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) |
+|![Etapa 2](./media/stepnumbers/Step2.png)| [Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) |
 
 
 

@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f173bd2357d445b502a4b28b60399d5cdb087cd0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2ce02826ae2b0661d3b893c1074e692ce93cf9f3
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289251"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370278"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Etapa 3: implantar o Windows 10 Enterprise para novos dispositivos com o Windows AutoPilot
 
 *Este artigo aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Se você tiver novos computadores com Windows 10, você pode usar o Windows AutoPilot para personalizar a experiência (OOBE) da sua organização e implantar um novo sistema com aplicativos e configurações já configurados. Não há imagens para implantar, nenhum driver a ser injetado e nenhuma infraestrutura para gerenciar. Os usuários podem passar pelo processo de implantação de forma independente, sem a necessidade de consultar o administrador de ti.
 
@@ -90,7 +90,7 @@ Depois que você terminar, o usuário será conectado ao Azure AD da sua organiz
 Siga estas etapas para verificar o status de sincronização do dispositivo com o Azure AD e comece a usar sua conta do Microsoft 365 no dispositivo. 
 
 1. Abra **configurações**.
-2. Na página **trabalho ou escola do Access** , selecione a **área conectado <organization name> a** para expor as **informações** dos botões **** e desconectar.
+2. Na página **trabalho ou escola do Access** , selecione a **área conectado <organization name> a** para expor as **informações** dos botões e **Desconectar**.
 3. Selecione **informações** para obter seu status de sincronização.
 4. Na página **status da sincronização** , selecione **sincronizar** para obter as políticas de gerenciamento de dispositivos móveis mais recentes no computador.
 5. Para começar a usar a conta do Microsoft 365, vá para o botão **Iniciar** do Windows, clique com o botão direito do mouse na imagem da conta atual e selecione **mudar** conta.
@@ -104,7 +104,7 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [Monitorar a integridade e a conformidade do dispositivo](windows10-enable-windows-analytics.md) |
+|![Etapa 4](./media/stepnumbers/Step4.png)| [Monitorar a integridade e a conformidade do dispositivo](windows10-enable-windows-analytics.md) |
 
 
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Saiba como habilitar o Microsoft 365 para proteger dispositivos do Windows 10 associados ao AD local.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288026"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376086"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Habilitar os dispositivos Windows 10 associados ao domínio para serem gerenciados pelo Microsoft 365 Business
 
@@ -37,9 +37,9 @@ O vídeo a seguir detalha as etapas de como configurar isso para o cenário mais
 
 Antes de sincronizar os usuários e computadores do domínio do Active Directory local, examine [preparar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Em particular:
 
-   - Certifique-se de que não exista duplicatas no diretório para os seguintes atributos: **mail**, **proxyAddresses**e **userPrincipalName**. Esses valores devem ser exclusivos e qualquer duplicatas deve ser removida..
+   - Certifique-se de que não exista duplicatas no diretório para os seguintes atributos: **mail**, **proxyAddresses**e **userPrincipalName**. Esses valores devem ser exclusivos e qualquer duplicatas deve ser removida.
    
-   - Recomendamos que o atributo **userPrincipalName** (UPN) para cada conta de usuário local seja configurado para corresponder ao endereço de email principal que corresponde ao usuário licenciado 365 da Microsoft. Por exemplo, *Mary. Shelley<span>@ Contoso<span> . com* , em vez de *Mary @ contoso. local*
+   - Recomendamos que o atributo **userPrincipalName** (UPN) para cada conta de usuário local seja configurado para corresponder ao endereço de email principal que corresponde ao usuário licenciado 365 da Microsoft. Por exemplo *Mary.Shelley@contoso.com* , em vez de *Mary @ contoso. local*
    
    - Se o domínio do Active Directory terminar em um sufixo não roteável, como. *local* ou *. LAN*, em vez de um sufixo roteável na Internet, como *. com* ou *. org*, você precisará ajustar o sufixo UPN das contas de usuário local primeiro, conforme descrito em [Prepare um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
@@ -75,6 +75,6 @@ Para registrar dispositivos do Windows 10 associados a um domínio existente com
 
 ## <a name="6-set-up-windows-hello-for-business"></a>6. configurar o Windows Hello para empresas
 
- O Windows Hello para empresas substitui senhas com autenticação de dois fatores (2FA) para entrar em um computador local. Um fator é um par de chaves assimétricas e o outro é um PIN ou outro gesto local, como impressão digital ou reconhecimento facial se o seu dispositivo suportar. Recomendamos que você substitua senhas com o 2FA e o Windows Hello para empresas, onde for possível.
+ O Windows Hello para empresas substitui senhas com autenticação de dois fatores (2FA) para entrar em um computador local. Um fator é um par de chaves assimétricas e o outro é um PIN ou outro gesto local, como impressão digital ou reconhecimento facial se o seu dispositivo suportar. É recomendável substituir senhas com o 2FA e o Windows Hello para empresas, onde for possível.
 
 Para configurar o Windows Hello para empresas híbridos, revise os [pré-requisitos de confiança da chave híbrida do Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Siga as instruções em [configurar as configurações de confiança de chave híbrida do Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings). 

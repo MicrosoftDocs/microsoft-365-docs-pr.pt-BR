@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f7f1b8377769545c4399f54b0f2eab99a656d24f
-ms.sourcegitcommit: 18e03ab333175eccfc89e38b081022746976e513
+ms.openlocfilehash: 3e37cebc1721a1bdcce0a30223a8beeb38868e82
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35595297"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370078"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
 *Este artigo aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 O caminho mais simples para atualizar os computadores que estão executando o Windows 7 ou o Windows 8,1 para o Windows 10 é por meio de uma atualização in-loco. Você pode usar uma sequência de tarefas do System Center Configuration Manager (Configuration Manager) para automatizar completamente o processo. 
 
@@ -46,13 +46,13 @@ Revise esses requisitos antes de iniciar a implantação do Windows 10:
 - **Edições do Windows qualificadas para atualização** : seus dispositivos devem estar executando edições do Windows 7 ou Windows 8,1 qualificadas para atualização para o Windows 10 Enterprise. Para obter uma lista de edições suportadas, consulte [caminhos de atualização do Windows 10](https://aka.ms/win10upgradepaths). 
 - **Dispositivos suportados** : a maioria dos computadores compatíveis com o Windows 8,1 será compatível com o Windows 10. Talvez seja necessário instalar drivers atualizados no Windows 10 para que seus dispositivos funcionem corretamente. Consulte [Windows 10 Specifications](https://aka.ms/windows10specifications) para obter mais informações.
 - **Preparação da implantação** : Certifique-se de ter o seguinte antes de começar a configurar a implantação:
-    - Mídia de instalação do Windows 10: a mídia de instalação deve estar localizada em uma unidade separada, com o ISO já montado. Você pode obter a ISO de [downloads](https://aka.ms/msdn-subscriber-downloads) para assinantes do MSDN ou do [centro de serviços](https://aka.ms/mvlsc)de licenciamento por volume.
+    - Mídia de instalação do Windows 10: a mídia de instalação deve estar localizada em uma unidade separada, com o ISO já montado. Você pode obter a ISO de [downloads para assinantes do MSDN](https://aka.ms/msdn-subscriber-downloads) ou do [centro de serviços de licenciamento por volume](https://aka.ms/mvlsc).
     - Backups de dados do usuário – embora os dados do usuário sejam migrados na atualização, a prática recomendada é configurar um cenário de backup. Por exemplo, exporte todos os dados do usuário para uma conta do OneDrive, unidade flash USB criptografada no BitLocker ou servidor de arquivos de rede. Para obter mais informações, consulte [back up or Transfer Data in Windows](https://aka.ms/backuptransferdatawindows).
 - **Preparação do ambiente** : você usará uma estrutura de servidor do Configuration Manager existente para se preparar para a implantação do sistema operacional. Além da configuração base, as seguintes configurações devem ser feitas no ambiente do Configuration Manager:
     1. [Estenda o esquema do Active Directory](https://aka.ms/extendadschema) e [crie um contêiner de gerenciamento do sistema](https://aka.ms/createsysmancontainer).
     2. Habilitar a descoberta de florestas do Active Directory e a descoberta de sistema do Active Directory. Para obter mais informações, consulte [Configure Discovery Methods for System Center Configuration Manager](https://aka.ms/configurediscoverymethods).
     3. Criar limites de intervalo IP e grupo de limite para a atribuição de conteúdo e de site. Para obter mais informações, consulte [definir limites do site e grupos de limite para o System Center Configuration Manager](https://aka.ms/definesiteboundaries).
-    4. Adicione e configure a função de ponto do Configuration Manager Reporting Services. Para obter mais informações, consulte Configuring Reporting [in Configuration Manager](https://aka.ms/configurereporting).
+    4. Adicione e configure a função de ponto do Configuration Manager Reporting Services. Para obter mais informações, consulte [Configuring Reporting in Configuration Manager](https://aka.ms/configurereporting).
     5. Criar uma estrutura de pasta do sistema de arquivos para pacotes.
     6. Criar uma estrutura de pasta do console do Configuration Manager para pacotes.
     7. Instale as atualizações do System Center Configuration Manager (Branch atual) e os pré-requisitos adicionais do Windows 10.
@@ -76,7 +76,7 @@ Nesta etapa, você configurará uma sequência de tarefas de atualização que c
 Para criar uma sequência de tarefas de atualização, execute as seguintes etapas:
   
 1. No console do Gerenciador de configurações, no espaço de trabalho da **biblioteca de software** , expanda **sistemas operacionais**. 
-2. Clique com o botão direito do mouse no nó sequências de **tarefas** e selecione **criar sequência de tarefas**.
+2. Clique com o botão direito do mouse no nó **sequências de tarefas** e selecione **criar sequência de tarefas**.
 3. Na página **criar uma nova sequência de tarefas** , selecione **atualizar um sistema operacional do pacote de atualização**e, em seguida, selecione **Avançar**.
 4. Na página **informações da sequência de tarefas** , especifique **atualização do Windows 10 Enterprise x64**e, em seguida, selecione **Avançar**.
 5. Na página **atualizar o sistema operacional Windows** , selecione **procurar** e escolha o **pacote de atualização do sistema operacional de atualização do Windows 10 Enterprise x64**, selecione **OK**e, em seguida, selecione **Avançar**.
@@ -141,7 +141,7 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)| [Implantar o Windows 10 Enterprise para novos dispositivos com o Windows AutoPilot](windows10-deploy-autopilot.md) |
+|![Etapa 3](./media/stepnumbers/Step3.png)| [Implantar o Windows 10 Enterprise para novos dispositivos com o Windows AutoPilot](windows10-deploy-autopilot.md) |
 
 
 

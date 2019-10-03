@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
-ms.openlocfilehash: 744c1822331c71e718007105f58d1bc64b3c70df
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: d610ab37312a1305809d740a9353822293c48df0
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369642"
+ms.locfileid: "37376126"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -34,9 +34,9 @@ Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteú
 
 ### <a name="ediscovery"></a>Descoberta eletrônica
 
-[Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica](ediscovery-troubleshooting-common-issues.md) (novo)<br> Inclui etapas básicas de solução de problemas que podem ser tomadas para identificar e resolver problemas que você pode encontrar durante uma pesquisa de descoberta eletrônica ou em qualquer outro lugar no processo de descoberta eletrônica
+[Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica](ediscovery-troubleshooting-common-issues.md) (novo)<br> Inclui etapas básicas de solução de problemas que podem ser tomadas para identificar e resolver problemas que você pode encontrar durante uma pesquisa de descoberta eletrônica ou em qualquer outro lugar no processo de descoberta eletrônica.
 
-###<a name="supervision"></a>Supervisão
+### <a name="supervision"></a>Supervisão
 
 [Configurar políticas de supervisão para sua organização](configure-supervision-policies.md) (atualizado)<br>Removidos detalhes sobre como usar o Outlook para executar revisões. Em vez disso, use as opções de revisão e marcação que estão disponíveis na interface de usuário de supervisão.
 
