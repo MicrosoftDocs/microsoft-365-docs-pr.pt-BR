@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure a segurança aprimorada para o Microsoft 365.
-ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 290b10dd8e0bf9a7180bae72669b22f3d575f914
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047274"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370168"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Etapa 3: Configurar a segurança aprimorada para o Microsoft 365
 
-*Esta etapa é obrigatória e aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
+*Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Para garantir que seus dados e sua assinatura do Microsoft 365 comecem e continuem protegidos contra ameaças mal-intencionadas, configure o seguinte:
 
@@ -57,6 +57,6 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[Configurar Proteção de Informações do Windows](infoprotect-deploy-windows-information-protection.md)|
+|![Etapa 4](./media/stepnumbers/Step4.png)|[Configurar Proteção de Informações do Windows](infoprotect-deploy-windows-information-protection.md)|
 
 
