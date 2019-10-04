@@ -3,7 +3,7 @@ title: 'Etapa 3: Evitar hairpins de rede'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,35 +13,43 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e remova hairpins de rede para melhorar o desempenho.
-ms.openlocfilehash: eb233c02d1d4c0198c11d520acca1d680df78a82
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8d3c971c1295f8f1112c594635bfd791b251bd68
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073281"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370328"
 ---
-# <a name="step-3-avoid-network-hairpins"></a><span data-ttu-id="1b236-103">Etapa 3: Evitar hairpins de rede</span><span class="sxs-lookup"><span data-stu-id="1b236-103">Step 3: Avoid network hairpins</span></span>
+# <a name="step-3-avoid-network-hairpins"></a><span data-ttu-id="1595e-103">Etapa 3: Evitar hairpins de rede</span><span class="sxs-lookup"><span data-stu-id="1595e-103">Step 3: Avoid network hairpins</span></span>
 
-<span data-ttu-id="1b236-104">*Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*</span><span class="sxs-lookup"><span data-stu-id="1b236-104">*This step is required and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+<span data-ttu-id="1595e-104">*Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*</span><span class="sxs-lookup"><span data-stu-id="1595e-104">*This step is required and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Fase 1 – Rede](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-<span data-ttu-id="1b236-p101">Um [hairpin de rede](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) ocorre quando o tráfego vinculado a um destino é direcionado primeiro para outro local intermediário, como uma pilha de segurança local, um agente de acesso à nuvem ou um gateway da Web baseado em nuvem. Um hairpin de rede também pode ser causado por mau roteamento na Internet devido a provedores de serviços de rede. O hairpin adiciona latência e pode redirecionar potencialmente o tráfego para um local geograficamente distante.</span><span class="sxs-lookup"><span data-stu-id="1b236-p101">A [network hairpin](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) happens when traffic bound for a destination is first directed to another intermediate location, such as an on-premises security stack, cloud access broker, or cloud-based web gateway. A network hairpin could also be caused by poor routing on the Internet due to network service providers. A hairpin adds latency and can potentially redirect traffic to a geographically distant location.</span></span>
+<span data-ttu-id="1595e-106">Um [hairpin de rede](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) acontece quando o tráfego vinculado a um destino é direcionado primeiro para outro local intermediário, como uma pilha de segurança local, um agente de acesso à nuvem ou um gateway Web baseado em nuvem.</span><span class="sxs-lookup"><span data-stu-id="1595e-106">A [network hairpin](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) happens when traffic bound for a destination is first directed to another intermediate location, such as an on-premises security stack, cloud access broker, or cloud-based web gateway. A network hairpin could also be caused by poor routing on the Internet due to network service providers. A hairpin adds latency and can potentially redirect traffic to a geographically distant location.</span></span> <span data-ttu-id="1595e-107">Veja um exemplo.</span><span class="sxs-lookup"><span data-stu-id="1595e-107">Here is an example:</span></span>
 
-<span data-ttu-id="1b236-p102">Para otimizar o desempenho do tráfego para serviços baseados em nuvem do Microsoft 365, verifique se o provedor que fornece a conexão local com a Internet tem um relacionamento de emparelhamento direto com a Rede Global da Microsoft bem próxima a esse local. Essas conexões não possuem hairpins.</span><span class="sxs-lookup"><span data-stu-id="1b236-p102">To optimize performance for traffic to Microsoft 365 cloud-based services, check whether the ISP providing the local Internet connection has a direct peering relationship with the Microsoft Global Network in close proximity to that location. These connections do not have hairpins.</span></span>
+![Exemplo de um hairpin de rede](./media/networking-avoid-network-hairpins/network-hairpin-example.png)
 
-<span data-ttu-id="1b236-p103">Se você usa serviços de rede ou segurança baseados em nuvem para o tráfego do Microsoft 365, certifique-se de que o efeito do hairpin seja avaliado e seu impacto no desempenho seja compreendido. Analise o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1b236-p103">If you use cloud-based network or security services for your Microsoft 365 traffic, ensure that the hairpinning effect is evaluated and its impact on performance is understood. Examine the following:</span></span>
+<span data-ttu-id="1595e-109">Um hairpin de rede também pode ser causado por um roteamento insatisfatório na Internet, devido aos provedores de serviços de rede.</span><span class="sxs-lookup"><span data-stu-id="1595e-109">A network hairpin could also be caused by poor routing on the Internet due to network service providers.</span></span> 
 
-- <span data-ttu-id="1b236-112">O número e a localização dos provedores de serviços através dos quais o tráfego é encaminhado em relação às suas filiais e aos pontos de emparelhamento da Rede Global da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b236-112">The number and locations of your service providers through which the traffic is forwarded in relationship to your branch offices and Microsoft Global Network peering points</span></span> 
-- <span data-ttu-id="1b236-113">A qualidade da relação de emparelhamento de rede do provedor de serviços com seu ISP e a Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b236-113">The quality of the network peering relationship of the service provider with your ISP and Microsoft</span></span> 
-- <span data-ttu-id="1b236-114">O impacto no desempenho de backhaul na infraestrutura do provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="1b236-114">The performance impact of backhauling in the service provider infrastructure</span></span>
+<span data-ttu-id="1595e-110">Um hairpin adiciona latência e pode redirecionar o tráfego para um local distante geograficamente.</span><span class="sxs-lookup"><span data-stu-id="1595e-110">A hairpin adds latency and can potentially redirect traffic to a geographically distant location.</span></span>
 
-<span data-ttu-id="1b236-115">Sempre que possível, configure seus roteadores de borda para enviar tráfego confiável do Microsoft 365 diretamente, em vez de fazer proxy ou encapsulamento por meio de um fornecedor terceirizado de segurança de rede baseado em nuvem ou na nuvem que processa o tráfego da Internet.</span><span class="sxs-lookup"><span data-stu-id="1b236-115">Whenever possible, configure your edge routers to send trusted Microsoft 365 traffic directly, instead of proxying or tunneling through a third-party cloud or cloud-based network security vendor that processes your Internet traffic.</span></span> 
+<span data-ttu-id="1595e-p102">Para otimizar o desempenho do tráfego para serviços baseados em nuvem do Microsoft 365, verifique se o provedor que fornece a conexão local com a Internet tem um relacionamento de emparelhamento direto com a Rede Global da Microsoft bem próxima a esse local. Essas conexões não possuem hairpins.</span><span class="sxs-lookup"><span data-stu-id="1595e-p102">To optimize performance for traffic to Microsoft 365 cloud-based services, check whether the ISP providing the local Internet connection has a direct peering relationship with the Microsoft Global Network in close proximity to that location. These connections do not have hairpins.</span></span>
 
-<span data-ttu-id="1b236-116">Como um ponto de verificação provisório, é possível ver os [critérios de saída](networking-exit-criteria.md#crit-networking-step3) para esta etapa.</span><span class="sxs-lookup"><span data-stu-id="1b236-116">As an interim checkpoint, you can see the [exit criteria](networking-exit-criteria.md#crit-networking-step3) for this step.</span></span>
+<span data-ttu-id="1595e-p103">Se você usa serviços de rede ou segurança baseados em nuvem para o tráfego do Microsoft 365, certifique-se de que o efeito do hairpin seja avaliado e seu impacto no desempenho seja compreendido. Analise o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1595e-p103">If you use cloud-based network or security services for your Microsoft 365 traffic, ensure that the hairpinning effect is evaluated and its impact on performance is understood. Examine the following:</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="1b236-117">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="1b236-117">Next step</span></span>
+- <span data-ttu-id="1595e-115">O número e a localização dos provedores de serviços através dos quais o tráfego é encaminhado em relação às suas filiais e aos pontos de emparelhamento da Rede Global da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1595e-115">The number and locations of your service providers through which the traffic is forwarded in relationship to your branch offices and Microsoft Global Network peering points</span></span> 
+- <span data-ttu-id="1595e-116">A qualidade da relação de emparelhamento de rede do provedor de serviços com seu ISP e a Microsoft</span><span class="sxs-lookup"><span data-stu-id="1595e-116">The quality of the network peering relationship of the service provider with your ISP and Microsoft</span></span> 
+- <span data-ttu-id="1595e-117">O impacto no desempenho de backhaul na infraestrutura do provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="1595e-117">The performance impact of backhauling in the service provider infrastructure</span></span>
+
+<span data-ttu-id="1595e-118">Sempre que possível, configure seus roteadores de borda para enviar tráfego confiável do Microsoft 365 diretamente, em vez de fazer proxy ou encapsulamento por meio de um fornecedor terceirizado de segurança de rede baseado em nuvem ou na nuvem que processa o tráfego da Internet.</span><span class="sxs-lookup"><span data-stu-id="1595e-118">Whenever possible, configure your edge routers to send trusted Microsoft 365 traffic directly, instead of proxying or tunneling through a third-party cloud or cloud-based network security vendor that processes your Internet traffic.</span></span> 
+
+![Exemplo de um hairpin de rede sendo ignorado](./media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+
+<span data-ttu-id="1595e-120">Como um ponto de verificação provisório, é possível ver os [critérios de saída](networking-exit-criteria.md#crit-networking-step3) para esta etapa.</span><span class="sxs-lookup"><span data-stu-id="1595e-120">As an interim checkpoint, you can see the [exit criteria](networking-exit-criteria.md#crit-networking-step3) for this step.</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="1595e-121">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="1595e-121">Next step</span></span>
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[<span data-ttu-id="1b236-118">Configurar o bypass de tráfego</span><span class="sxs-lookup"><span data-stu-id="1b236-118">Configure traffic bypass</span></span>](networking-configure-proxies-firewalls.md)|
+|![Etapa 4](./media/stepnumbers/Step4.png)|[<span data-ttu-id="1595e-123">Configurar o bypass de tráfego</span><span class="sxs-lookup"><span data-stu-id="1595e-123">Configure traffic bypass</span></span>](networking-configure-proxies-firewalls.md)|
