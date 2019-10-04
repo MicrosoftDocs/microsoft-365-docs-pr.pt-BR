@@ -3,7 +3,7 @@ title: Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporati
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: 3de3b748659d713d4db8375d4bcc51ce89573d79
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 394120f811057258afe1bd29e60733e42bf5191a
+ms.sourcegitcommit: 4acd6fc368f547eb7a25d04799cb1a77003b143d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054963"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37372712"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -31,8 +31,8 @@ Para obter a aprovação da implantação do Microsoft 365 Enterprise pelo depar
 - Email e PCs são protegidos contra malware
 - Permissões em ativos digitais baseados em nuvem definem quem pode acessar o que e o que podem fazer e são projetadas para acesso de menor privilégio
 - Ativos digitais confidenciais e altamente regulamentados são rotulados, criptografados e armazenados em locais seguros
-- Ativos digitais altamente regulamentados são protegidos com permissões
-- A segurança de TI pode monitorar a postura de segurança de painéis centrais e receber notificações de eventos de segurança para conseguir responder rapidamente e mitigar o problema
+- Ativos digitais altamente regulamentados são protegidos com criptografia e permissões adicionais
+- A equipe de segurança de TI pode monitorar a postura de segurança atual a partir de painéis centrais e receber notificações de eventos de segurança para conseguir responder rapidamente e mitigar o problema
 
 ## <a name="contosos-path-to-microsoft-365-security-readiness"></a>Caminho da Contoso para preparação para segurança do Microsoft 365
 
@@ -56,7 +56,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Contas de administrador global dedicadas com MFA e PIM
 
-  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas muito fortes e as protegeu com a autenticação multifator (MFA) do Azure AD Privileged Identity Management (PIM).  O PIM está disponível apenas com o Microsoft 365 Enterprise E5.
+  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas fortes e as protegeu com a Autenticação Multifator (MFA) do Azure e com o Azure Active Directory Privileged Identity Management (PIM). O PIM está disponível apenas com o Microsoft 365 Enterprise E5.
 
   A entrada com uma conta de administrador global é realizada apenas para tarefas administrativas específicas, as senhas são conhecidas somente por funcionários designados e só podem ser usadas no horário configurado com o Azure AD PIM. 
 
@@ -69,11 +69,11 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
   A MFA adiciona uma outra camada de proteção ao processo de login exigindo que os usuários confirmem uma chamada, mensagem de texto ou uma notificação de aplicativo no smartphone após inserir a senha corretamente. Com a MFA, as contas de usuário do Azure AD são protegidas contra entrada não autorizada, mesmo que a senha de uma conta esteja comprometida.
 
    - Para proteger contra o comprometimento da assinatura do Microsoft 365, a Contoso exige MFA em todas as contas de administrador global.
-   - Para proteção contra ataques de phishing, na qual um invasor compromete as credenciais de uma pessoa confiável na organização e envia emails mal-intencionados, a Contoso habilitou a MFA em todas as contas de usuário, incluindo diretoria e gerência. 
+   - Para se proteger contra ataques de phishing, no qual um invasor compromete as credenciais de uma pessoa confiável na organização e envia emails mal-intencionados, a Contoso habilitou a MFA em todas as contas de usuário, incluindo diretoria e gerência. 
 
-- Acesso mais seguro a dispositivo e aplicativo com políticas de acesso condicional
+- Acesso mais seguro a dispositivos e aplicativos com Políticas de Acesso Condicional
 
-  A Contoso está usando [políticas de acesso condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de acesso condicional de identidade incluem exigir alterações de senha para usuários de alto risco e impedir clientes de usar aplicativos que não são compatíveis com a autenticação moderna. As políticas condicionais de dispositivo incluem a definição de aplicativos aprovados e a exigência de computadores e dispositivos móveis compatíveis. As políticas de acesso condicional do Exchange Online incluem impedir clientes do ActiveSync e configurar a criptografia de mensagem do Office 365. As políticas de acesso condicional do SharePoint Online incluem proteção adicional para sites confidenciais e altamente controlados.
+  A Contoso está usando [Políticas de Acesso Condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de Acesso Condicional de Identidade incluem exigir alterações de senha para usuários de alto risco e impedir clientes de usar aplicativos que não são compatíveis com a autenticação moderna. As políticas de dispositivos incluem a definição de aplicativos aprovados e a exigência de computadores e dispositivos móveis compatíveis. As políticas de Acesso Condicional do Exchange Online incluem impedir clientes do ActiveSync e configurar a criptografia de mensagem do Office 365. As políticas de Acesso Condicional do SharePoint Online incluem proteção adicional para sites confidenciais e altamente controlados.
 
 - Windows Hello para Empresas
 
@@ -107,11 +107,11 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Proteja ativos digitais sensíveis e altamente regulamentados com rótulos de Proteção de Informações do Azure
 
-  A Contoso determinou três níveis de proteção de dados e implantou rótulos da [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) que usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa sub-rótulos da Proteção de Informações do Azure para dados altamente regulamentados que criptografam conteúdo e restringem acesso a grupos de segurança específicos.
+  A Contoso determinou três níveis de proteção de dados e implantou [rótulos de confidencialidade do Office 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels), que os usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa dados altamente regulamentados de sub-rótulos de confidencialidade para que criptografam conteúdos e restringem o acesso a grupos e contas de usuários específicos.
 
 - Evite vazamentos de dados de intranet com a prevenção contra perda de dados do Office 365
 
-  A Contoso configurou políticas de [Prevenção contra perda de dados](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies) do Exchange Online, do SharePoint Online e do OneDrive for Business para impedir que os usuários compartilhem dados confidenciais de maneira intencional ou acidental.
+  A Contoso configurou políticas de [Prevenção contra Perda de Dados](https://docs.microsoft.com/pt-BR/microsoft-365/compliance/data-loss-prevention-policies) do Exchange Online, do SharePoint Online e do OneDrive for Business para impedir que os usuários compartilhem dados confidenciais de maneira intencional ou acidental.
 
 - Impedir o vazamento de dados do dispositivo com a Proteção de Informações do Windows
 
@@ -123,20 +123,20 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Gerenciamento de dispositivos com o Microsoft Intune
 
-  A Contoso usa o [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) para se inscrever, gerenciar e configurar o acesso a dispositivos móveis e os aplicativos que são executados neles. As políticas de acesso condicional baseadas em dispositivos também exigem aplicativos aprovados, dispositivos móveis e computadores compatíveis.
+  A Contoso usa o [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) para se inscrever, gerenciar e configurar o acesso a dispositivos móveis e os aplicativos que são executados neles. As políticas de Acesso Condicional com Base no Dispositivo também exigem aplicativos aprovados, dispositivos móveis e computadores compatíveis.
 
 ## <a name="security-management"></a>Gerenciamento de segurança
 
 - Painel central de segurança para TI com a Central de Segurança do Azure
 
-  A Contoso usa a [Central de Segurança do Azure](https://docs.microsoft.com/intune/introduction-intune) para uma exibição unificada de segurança e proteção contra ameaças, a fim de gerenciar políticas de segurança em suas cargas de trabalho e responder a ataques cibernéticos.
+  A Contoso usa a [Central de Segurança do Azure](https://azure.microsoft.com/services/security-center/) para uma exibição unificada de segurança e proteção contra ameaças, a fim de gerenciar políticas de segurança em suas cargas de trabalho e responder a ataques cibernéticos.
 
 - Painel central de segurança para os usuários com a Central de Segurança do Windows Defender
 
-  A Contoso implantou o [aplicativo da Central de Segurança do Windows Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) para seus PCs e dispositivos executando o Windows 10 Enterprise para que os usuários possam ver a postura de segurança rapidamente e tomar medidas.
+  A Contoso implantou o [aplicativo de Segurança do Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) para seus PCs e dispositivos executando o Windows 10 Enterprise, para que os usuários possam ver a postura de segurança rapidamente e tomar medidas.
 
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-sharepoint-online-site-for-highly-confidential-assets.md) como a Contoso criou um site do SharePoint Online com dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.
+[Saiba](contoso-sharepoint-online-site-for-highly-confidential-assets.md) como a Contoso criou um site do SharePoint com dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.
 
