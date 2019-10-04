@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você pode deixar as entradas dos usuários no Windows e no Microsoft 365 mais seguras.
-ms.openlocfilehash: edf51b344ed8f9c8e13587cc2ccf0ba1ed081da6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6f45d61694cabd10587ff13bd787fa42bdaeac01
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073206"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370188"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>Etapa 3: proteger e gerenciar as entradas do seu usuário
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Fase 2 – Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 
 <a name="identity-windows-hello"></a>
@@ -92,4 +92,4 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [Adicionar suas contas de usuário](identity-add-user-accounts.md) |
+|![Etapa 4](./media/stepnumbers/Step4.png)| [Adicionar suas contas de usuário](identity-add-user-accounts.md) |

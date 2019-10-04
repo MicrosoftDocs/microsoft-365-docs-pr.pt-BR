@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda as principais fases da implantação da infraestrutura básica para o Microsoft 365 Enterprise em sua organização, também conhecida como implantação principal.
-ms.openlocfilehash: 016764333b7234681aa06e511227b203f9c9eaea
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: c18e4d770aec63da091ad38fc341a87f9d71e9be
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050302"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370348"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 Enterprise
 
@@ -28,12 +28,12 @@ Para um caminho definido de ponta a ponta para implantação, você pode usar es
 
 | | Fase | Resultados |
 |:-------|:-----|:-----|
-|![](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Rede](networking-infrastructure.md)| A rede é otimizada para o acesso aos serviços baseados na nuvem do Microsoft 365. |
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: Identidade](identity-infrastructure.md)| As contas de administrador estão protegidas, seus usuários e grupos estão sincronizados e a autenticação de usuário é forte. |
-|![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)| Os computadores baseados no Windows podem ser atualizados para o Windows 10 Enterprise e novos dispositivos são instalados com o Windows 10 Enterprise. |
-|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)| Os usuários existentes do Microsoft Office podem ser atualizados para o Office 365 ProPlus. |
-|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Gerenciamento de dispositivo móvel](mobility-infrastructure.md)| Os dispositivos podem ser registrados e gerenciados. |
-|![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)| Os recursos de segurança do Office 365 estão habilitados e suas etiquetas e políticas estão prontas para proteger documentos e emails. |
+|![Fase 1: Rede](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Rede](networking-infrastructure.md)| A rede é otimizada para o acesso aos serviços baseados na nuvem do Microsoft 365. |
+|![Fase 2: Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: identidade](identity-infrastructure.md)| As contas de administrador estão protegidas, seus usuários e grupos estão sincronizados e a autenticação de usuário é forte. |
+|![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)| Os computadores baseados no Windows podem ser atualizados para o Windows 10 Enterprise e novos dispositivos são instalados com o Windows 10 Enterprise. |
+|![Fase 4: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)| Os usuários existentes do Microsoft Office podem ser atualizados para o Office 365 ProPlus. |
+|![Fase 5: Gerenciamento de dispositivos móveis](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Gerenciamento de dispositivo móvel](mobility-infrastructure.md)| Os dispositivos podem ser registrados e gerenciados. |
+|![Fase 6: Proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)| Os recursos de segurança do Office 365 estão habilitados e suas etiquetas e políticas estão prontas para proteger documentos e emails. |
 
 As fases começam com o mais fundamental (rede e identidade) e depois criam camadas de configurações e grupos de infraestrutura para:
 
@@ -56,7 +56,7 @@ Para ver como o conteúdo é estruturado, assista a este breve vídeo.
 
 Esta é a infraestrutura de base no guia geral de implantação do Microsoft 365 Enterprise:
 
-![](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
+![A infraestrutura de base no guia geral de implantação do Microsoft 365 Enterprise](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
 ## <a name="at-a-glance"></a>Visão geral
 

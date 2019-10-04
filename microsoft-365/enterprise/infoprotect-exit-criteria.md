@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Examinar os critérios da infraestrutura e dos serviços com base na proteção de informações a fim de garantir que sua configuração atenda aos requisitos do Microsoft 365 Enterprise.
-ms.openlocfilehash: 02e972a80d4b42ae66193bbbc55d0f1e63be5ba6
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: f4896baeb4c18fc1eabac10b15f3ad8e150ab260
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047234"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370128"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de proteção de informações
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: Proteção de Informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Verifique se a sua infraestrutura de proteção de informações atende aos seguintes critérios necessários e que você considerou aqueles que são opcionais.
 

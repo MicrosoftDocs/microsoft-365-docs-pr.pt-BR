@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Adicione contas de usuários e grupos diretamente na nuvem ou sincronizando-as com o diretório local.
-ms.openlocfilehash: ce831a6866f61342f6eb93836d44637742007c03
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073211"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370218"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Fase 4: adicionar suas contas de usuário
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Fase 2 – Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-cloud-only"></a>
 ## <a name="create-your-user-accounts-for-cloud-only-identity"></a>Criar contas de usuário para identidade somente na nuvem
@@ -126,4 +126,4 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)| [Usar grupos de gerenciamento](identity-use-group-management.md) |
+|![Etapa 5](./media/stepnumbers/Step5.png)| [Usar grupos de gerenciamento](identity-use-group-management.md) |
