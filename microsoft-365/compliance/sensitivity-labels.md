@@ -1,7 +1,7 @@
 ---
 title: Visão geral de rótulos de confidencialidade
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para impor configurações de proteção, como criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: d732303db1c2b138349a88fde45bd2aefb745c89
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: c0f7438d0ee8de873122cdf9bf08878a7edebaf6
+ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148515"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37378613"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -47,6 +47,8 @@ Em todos esses casos, os rótulos de confidencialidade do Office 365 podem ajuda
 Você cria rótulos de confidencialidade no centro de conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de confidencialidade**. Esses rótulos de confidencialidade podem ser usados pela Proteção de Informações do Azure, pelos aplicativos do Office e serviços do Office 365.
 
 Para clientes da Proteção de Informações do Azure, você pode usar seus rótulos de Proteção de Informações do Azure nos outros centros de administração e seus rótulos serão sincronizados com o portal do Azure, caso você opte por executar configurações adicionais ou avançadas. **Os rótulos de Proteção de Informações do Azure e os rótulos de confidencialidade do Office 365 são totalmente compatíveis entre si.** Isso significa, por exemplo, se você tiver um conteúdo marcado pela Proteção de Informações do Azure, não precisará reclassificar ou rotular novamente seu conteúdo.
+
+>Observação: os rótulos de confidencialidade só têm suporte para locatários na nuvem global (pública). Os rótulos de confidencialidade não têm suporte para locatários em outras nuvens, como as [nuvens nacionais](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud).
 
 ## <a name="what-a-sensitivity-label-is"></a>O que é um rótulo de confidencialidade
 
@@ -206,6 +208,7 @@ Nos aplicativos do Office em dispositivos Android, os rótulos de confidencialid
 
 - [Aplicar rótulos de confidencialidade aos seus documentos e email no Office](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
 - [Problemas conhecidos ao aplicar rótulos de confidencialidade aos arquivos do Office](https://support.office.com/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Como os rótulos de confidencialidade funcionam nos aplicativos do Office](sensitivity-labels-office-apps.md)
 
 ## <a name="how-sensitivity-labels-work-with-existing-azure-information-protection-labels"></a>Como os rótulos de confidencialidade funcionam com rótulos existentes da Proteção de Informações do Azure
 

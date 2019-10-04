@@ -3,7 +3,7 @@ title: 'Fase 1: Critérios de saída para infraestrutura de rede'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/05/2019
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,32 +13,32 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura de rede.
-ms.openlocfilehash: 9d818a97e79465d639c52f96901bd1cbaa31144a
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ad54284fdbd00fef486a13a957af6f06cb6a7450
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982772"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370148"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Fase 1: Critérios de saída para infraestrutura de rede
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Fase 1 – Rede](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 Verifique se sua infraestrutura de rede atende aos seguintes critérios necessários e que você considerou os que são opcionais.
 
 <a name="crit-networking-step1"></a>
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
-- Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise
-- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)
-- As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego 
+- Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise.
+- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego.
 
 Se necessário, a [Etapa 1](networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step2"></a>
 ## <a name="required-your-local-offices-have-local-internet-connections-and-name-resolution"></a>Obrigatório: seus escritórios locais terem uma resolução de nome e conexões da Internet local
 
-Você deve configurar cada escritório local com acesso à Internet por meio de um ISP local cujos servidores DNS usem um endereço IP público local que identifique sua localização na Internet. Isso garante o melhor desempenho possível para os usuários que acessarem o Office 365 e o Intune.
+Você configurou cada escritório local com acesso à Internet por meio de um ISP local cujos servidores DNS usam um endereço IP público local que identifica sua localização na Internet. Isso garante o melhor desempenho possível para os usuários que acessarem os serviços de nuvem do Microsoft 365.
 
 Se você não usar um ISP local para cada filial, o desempenho sofrer, pois o tráfego de rede deverá percorrer o backbone da organização ou as solicitações de dados serão atendidas por servidores remotos de front-end.
 
@@ -48,7 +48,7 @@ Use uma ferramenta ou site em um dispositivo do escritório em questão para det
 Se necessário, a [Etapa 2](networking-dns-resolution-same-location.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step3"></a>
-## <a name="optional-unneeded-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serão removidos
+## <a name="optional-unneccessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serem removidos
 
 Você examinou os hairpins da rede e determinou o impacto deles no desempenho de todos os escritórios. Você removeu hairpins da rede sempre que possível ou trabalhou com sua rede de terceiros ou provedor de segurança para implementar o emparelhamento ideal do Microsoft 365 para a rede deles.
 
@@ -83,4 +83,4 @@ Seus usuários de intranet já estão prontos para consumir os serviços de nuve
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Se você estiver seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será [identidade](identity-infrastructure.md). |
+|![Fase 2 – Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Se você estiver seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será [identidade](identity-infrastructure.md). |

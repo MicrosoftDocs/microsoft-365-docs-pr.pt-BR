@@ -3,7 +3,7 @@ title: Investigação e resposta automatizadas (AIR) no Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/18/2019
+ms.date: 10/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,21 +13,27 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Saiba mais sobre os recursos de investigação e resposta automatizados do Office 365 proteção avançada contra ameaças.
-ms.openlocfilehash: 1e600a7a392acc34fac2547a3daa17c0058322b5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 99eea4d723a2d9f27528eb951c758b33e0390f93
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072879"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37386198"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
-Recursos automatizados de investigação e resposta (AIR) (incluídos no [Office 365 Advanced Threat Protection](office-365-atp.md) Plan 2) permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
+Os recursos de investigação e resposta automatizados permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
 - Para obter uma visão geral de como o AIR funciona, use este artigo.
 - Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
 
 > [!NOTE]
 > Você deve ser um administrador global, administrador de segurança, operador de segurança ou leitor de segurança para acessar os recursos de ar. Para saber mais sobre essas permissões, confira [centro de segurança do Microsoft 365: funções e permissões](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
+
+O AIR está incluído nas seguintes assinaturas:
+- Microsoft 365 E5
+- Microsoft 365 E5 Security
+- Office 365 e5
+- Office 365 plano avançado de proteção contra ameaças 2
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
@@ -57,8 +63,12 @@ Na versão inicial do AIR (início de abril de 2019), os alertas gerados a parti
 
 - Mensagens de email que contêm URLs de phishing removidos após a entrega *
 
+- Padrões de envio de emails suspeitos detectados #
+
+- Usuário impedido de enviar email #
+
 > [!NOTE]
-> Os alertas marcados com um asterisco recebem uma severidade *informativa* nas respectivas políticas de alerta no centro de conformidade com segurança &, com notificações por email desativadas. As notificações por email podem ser ativadas por meio da [configuração da política de alerta](../../compliance/alert-policies.md#alert-policy-settings).
+> Os alertas marcados com um asterisco (*) recebem uma severidade *informativa* nas respectivas políticas de alerta no centro de conformidade com segurança &, com notificações por email desativadas. As notificações por email podem ser ativadas por meio da [configuração da política de alerta](../../compliance/alert-policies.md#alert-policy-settings). Os alertas marcados com um hash (#) são geralmente alertas associados aos guias de visualização pública.
 
 Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente. Observe que os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, você precisa alterar a filtragem de alerta para incluir alertas informativos.
 
@@ -74,15 +84,18 @@ Os guias de segurança que você receberá com o AIR são projetados para lidar 
 
 ### <a name="security-playbooks-are-rolling-out-in-phases"></a>Os guias de segurança estão distribuindo em fases
 
-Como parte do AIR, os guias de segurança são implantados em fases. Durante a fase 1 (a visualização começou a ser distribuída em abril de 2019), vários guias estratégicos foram lançados que incluem recomendações para ações que os administradores de segurança revisam e aprovam:
+Como parte do AIR, os guias de segurança são implantados em fases. Agora, a fase 1 está disponível e inclui vários guias estratégicos que fornecem recomendações para ações que os administradores de segurança podem revisar e aprovar:
 - Mensagem de phishing relatada pelo usuário
-- URL clique em alterar veredicto 
+- URL clique em alterar veredicto
 - Malware detectado após a entrega (malware ZAP)
 - O phishing detectou o post-Delivery ZAP (Phish ZAP)
 
-A fase 1 também inclui investigações de email manuais (usando o [Explorador de ameaças](threat-explorer.md)).
+A fase 1 também inclui suporte para investigações de email manuais (usando o [Explorador de ameaças](threat-explorer.md)).
 
-A fase 2 está em andamento agora. Visite o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para ver o que mais está planejado e disponível em breve.
+A fase 2 agora está em andamento com os seguintes guias estratégicos na **Visualização pública**, fornecendo recomendações para ações e administradores de segurança do auxiliar em problemas de investigação:
+- Usuário relatado como comprometido (visualização pública)
+
+Os guias estratégicos serão lançados à medida que forem concluídos. Visite o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para ver o que mais está planejado e disponível em breve.
 
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Os guias estratégicos incluem investigação e recomendações
 
@@ -290,7 +303,7 @@ O AIR do Office 365 está incluído nas seguintes assinaturas:
 
 - Microsoft 365 Enterprise E5
 - Office 365 Enterprise E5
-- Proteção contra ameaças da Microsoft
+- Proteção contra Ameaças da Microsoft
 - Office 365 plano avançado de proteção contra ameaças 2
 
 Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).

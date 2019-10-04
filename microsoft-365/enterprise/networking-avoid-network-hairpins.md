@@ -3,7 +3,7 @@ title: 'Etapa 3: Evitar hairpins de rede'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,20 +13,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e remova hairpins de rede para melhorar o desempenho.
-ms.openlocfilehash: eb233c02d1d4c0198c11d520acca1d680df78a82
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8d3c971c1295f8f1112c594635bfd791b251bd68
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073281"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370328"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>Etapa 3: Evitar hairpins de rede
 
 *Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Fase 1 – Rede](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-Um [hairpin de rede](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) ocorre quando o tráfego vinculado a um destino é direcionado primeiro para outro local intermediário, como uma pilha de segurança local, um agente de acesso à nuvem ou um gateway da Web baseado em nuvem. Um hairpin de rede também pode ser causado por mau roteamento na Internet devido a provedores de serviços de rede. O hairpin adiciona latência e pode redirecionar potencialmente o tráfego para um local geograficamente distante.
+Um [hairpin de rede](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) acontece quando o tráfego vinculado a um destino é direcionado primeiro para outro local intermediário, como uma pilha de segurança local, um agente de acesso à nuvem ou um gateway Web baseado em nuvem. Veja um exemplo.
+
+![Exemplo de um hairpin de rede](./media/networking-avoid-network-hairpins/network-hairpin-example.png)
+
+Um hairpin de rede também pode ser causado por um roteamento insatisfatório na Internet, devido aos provedores de serviços de rede. 
+
+Um hairpin adiciona latência e pode redirecionar o tráfego para um local distante geograficamente.
 
 Para otimizar o desempenho do tráfego para serviços baseados em nuvem do Microsoft 365, verifique se o provedor que fornece a conexão local com a Internet tem um relacionamento de emparelhamento direto com a Rede Global da Microsoft bem próxima a esse local. Essas conexões não possuem hairpins.
 
@@ -38,10 +44,12 @@ Se você usa serviços de rede ou segurança baseados em nuvem para o tráfego d
 
 Sempre que possível, configure seus roteadores de borda para enviar tráfego confiável do Microsoft 365 diretamente, em vez de fazer proxy ou encapsulamento por meio de um fornecedor terceirizado de segurança de rede baseado em nuvem ou na nuvem que processa o tráfego da Internet. 
 
+![Exemplo de um hairpin de rede sendo ignorado](./media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+
 Como um ponto de verificação provisório, é possível ver os [critérios de saída](networking-exit-criteria.md#crit-networking-step3) para esta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[Configurar o bypass de tráfego](networking-configure-proxies-firewalls.md)|
+|![Etapa 4](./media/stepnumbers/Step4.png)|[Configurar o bypass de tráfego](networking-configure-proxies-firewalls.md)|

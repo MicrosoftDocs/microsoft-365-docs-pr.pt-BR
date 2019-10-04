@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Documentação e recursos do Microsoft 365 Enterprise
-ms.openlocfilehash: 38d349fb17303ac9e9979ae9a58682e01578b70a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c96656495e9433703b85fb1c5f3610a617100253
+ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283473"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391204"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -78,8 +78,9 @@ ms.locfileid: "32283473"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gerenciar conformidade &amp; de segurança</h3>
-                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">Soluções de conformidade</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Conformidade com segurança &amp; do Office 365</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">Planos de ação de conformidade</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/" target="_blank">Conformidade do Microsoft 365</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/security/" target="_blank">Segurança do Microsoft 365</a></p>
                                                 <P><a href="microsoft-365-policies-configurations.md" target="_blank">Acesso &amp; ao dispositivo de identidade</a></p>
                                                 <P><a href="https://docs.microsoft.com/windows/security/threat-protection/index" target="_blank">Windows Defender ATP</a></p>
                                             </div>
