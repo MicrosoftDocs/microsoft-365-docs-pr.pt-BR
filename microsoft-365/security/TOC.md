@@ -17,6 +17,8 @@
 #### [Monitoramento e relatório de dispositivo](./mtp/monitor-devices.md)
 #### [Monitoramento e relatório de aplicativo](./mtp/monitor-apps.md)
 
+### [Gerenciar tíquetes pelo ServiceNow](./mtp/tickets.md)
+
 ## [Segurança do Office 365]()
 ### [Introdução]()
 #### [Mapa de segurança do Office 365](./office-365-security/security-roadmap.md)
@@ -250,4 +252,4 @@
 
 ### [Office 365 Enterprise](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 for Business](https://docs.microsoft.com/office-365-security/admin/admin-home)
-## [Conformidade com o Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
+## [Conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
