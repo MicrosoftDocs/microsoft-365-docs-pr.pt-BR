@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 02cceb0487f357e6b40b634dc6d3cd7349ec2d96
-ms.sourcegitcommit: acf29701bfba3e4843e49a79fde012f3c7a7024a
+ms.openlocfilehash: d15899b994e4169c7362144623bc726f3825245d
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37350312"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417580"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -40,7 +40,7 @@ Para começar, uma avaliação ISO/IEC 27001:2103 para o Office 365 aparece por 
 
 ## <a name="administration"></a>Administração
 
-Há funções administrativas específicas que só estão disponíveis para o administrador de locatários e visíveis somente quando o logon é feito com uma conta de administrador global. No entanto, até que o administrador atribua funções do Gerenciador de conformidade aos usuários, os dados no Gerenciador de conformidade são visíveis para todos os usuários em sua organização. É recomendável implementar o controle de acesso baseado em função para determinar quem pode acessar e realizar ações no Gerenciador de conformidade.
+Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. Depois que o administrador atribuir funções do Gerenciador de conformidade a outros usuários, esses usuários poderão exibir dados no Gerenciador de conformidade e realizar ações determinadas por sua função. O administrador também pode conceder acesso somente leitura ao Gerenciador de conformidade, atribuindo ao usuário a [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader).
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>Atribuir funções do Gerenciador de Conformidade aos usuários
 
@@ -551,15 +551,11 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 
-||**Leitor do Gerenciador de Conformidade**|**Colaborador do Gerenciador de Conformidade**|**Consultor do Gerenciador de Conformidade**|**Administrador do Gerenciador de Conformidade**|**Administrador do Portal**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Ler dados:** Os usuários podem ler mas não editar dados (exceto para o modelo de dados e gerenciamento de locatários).  <br> | X | X | X | X  | X |
-|**Editar dados:** Os usuários podem editar todos os campos, exceto os campos resultado do teste e data de teste (exceto os dados de modelo e o gerenciamento de locatários).  <br> || X | X  | X | X |
-|**Edite os resultados do teste:** Os usuários podem editar os campos resultado do teste e data de teste.  <br> ||| X | X | X |
-|**Gerenciar avaliações:** Os usuários podem criar, arquivar e excluir avaliações.  <br> |||| X | X |
-|**Gerenciar dados mestres:** Os usuários podem exibir, editar e excluir dados de modelo e dados de gerenciamento de locatários.  <br> |||| X | X |
-|**Gerenciar usuários:** Os usuários podem adicionar outros usuários em sua organização às funções leitor, colaborador, consultor e administrador. Somente os usuários com a função de administrador global em sua organização podem adicionar ou remover usuários da função de administrador do Portal.  <br> ||||| X |
-
-### <a name="guest-access"></a>Acesso de convidados
-  
-Após a configuração do acesso ao Gerenciador de conformidade, qualquer usuário que não tenha uma função provisionada estará na função de **acesso de convidado** por padrão (o que também é a experiência de qualquer conta não provisionada pela organização, como contas pessoais da Microsoft). Os usuários de acesso de convidados não têm acesso total a todos os recursos do Gerenciador de conformidade. Eles não podem ver qualquer um dos dados de avaliação de conformidade da organização, no entanto, eles podem usar o Gerenciador de conformidade para exibir os relatórios de avaliação de conformidade e de confiança do serviço da Microsoft.
+||**Leitor global do Azure AD**|**Leitor do Gerenciador de Conformidade**|**Colaborador do Gerenciador de Conformidade**|**Consultor do Gerenciador de Conformidade**|**Administrador do Gerenciador de Conformidade**|**Administrador do Portal**|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|**Ler dados:** Os usuários podem ler mas não editar dados (exceto para o modelo de dados e gerenciamento de locatários).  <br> | X | X | X | X | X  | X  |X |
+|**Editar dados:** Os usuários podem editar todos os campos, exceto os campos resultado do teste e data de teste (exceto os dados de modelo e o gerenciamento de locatários).  <br> ||| X | X  | X | X |
+|**Edite os resultados do teste:** Os usuários podem editar os campos resultado do teste e data de teste.  <br> |||| X | X | X |
+|**Gerenciar avaliações:** Os usuários podem criar, arquivar e excluir avaliações.  <br> ||||| X | X |
+|**Gerenciar dados mestres:** Os usuários podem exibir, editar e excluir dados de modelo e dados de gerenciamento de locatários.  <br> ||||| X | X |
+|**Gerenciar usuários:** Os usuários podem adicionar outros usuários em sua organização às funções leitor, colaborador, consultor e administrador. Somente os usuários com a função de administrador global em sua organização podem adicionar ou remover usuários da função de administrador do Portal.  <br> |||||| X |

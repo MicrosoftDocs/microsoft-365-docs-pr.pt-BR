@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: c88b45fb568b0fe29bc967676ea09e89e9084a62
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 428e4ef319d53bf161903fc9584037800d0b3d3b
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072226"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417530"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -111,11 +111,16 @@ Os controles de certificação geralmente são implementados por uma pessoa e te
 
 ## <a name="permissions"></a>Permissões
 
-O Gerenciador de conformidade usa um [modelo de permissão](working-with-compliance-manager.md#permissions)de controle de acesso baseado em função. Por padrão, todas as pessoas em sua organização com a conta do Azure Active Directory (Azure AD) têm acesso total e podem executar qualquer ação no Gerenciador de conformidade. Após o controle de acesso baseado em função ter sido implementado pela sua organização, qualquer usuário que não tenha sido atribuído a uma função gerente de conformidade é atribuído acesso de convidado. A equipe de serviço da Microsoft não tem acesso à posição para dados que você insere ou carrega.
+O Gerenciador de conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente os usuários atribuídos a uma função de usuário podem acessar o Gerenciador de conformidade e as ações permitidas por cada usuário são restringidas por tipo de função. [Exibir uma tabela](working-with-compliance-manager.md#permissions) mostrando as ações permitidas para cada permissão.
 
-Para alterar as permissões padrão e implementar um modelo de controle de acesso baseado em função totalmente, pelo menos um usuário deve ser adicionado a cada função de Gerenciador de conformidade. Após um usuário ser adicionado a uma função, as permissões para executar as ações atribuídas a essa função são removidas do conjunto padrão de permissões disponíveis para todos os usuários. Somente os usuários provisionados com a função poderão acessar o Gerenciador de conformidade e executar as ações permitidas por essa função.
+O portal admin para o Gerenciador de conformidade pode definir permissões para outros usuários no Gerenciador de conformidade seguindo estas etapas:
 
-Se você adicionar um usuário à função para gerenciar avaliações, somente os membros dessa função poderão gerenciar avaliações. Se você não adicionar um usuário à função que permite que os usuários leiam os dados em avaliações, todos os usuários em sua organização poderão acessar o Gerenciador de conformidade e ler os dados em qualquer avaliação.
+1. No menu suspenso **superior,** selecione **Administração**e **configurações**.
+2. A partir daqui, selecione a função que você deseja atribuir e, em seguida, adicione o funcionário que você deseja atribuir a essa função. Os usuários poderão executar determinadas ações.
+
+Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade; no entanto, eles não podem editar dados ou executar ações no Gerenciador de conformidade.
+
+Observe que não há mais uma função de **acesso de convidado** padrão. Cada usuário deve ser atribuído a uma função para acessar e trabalhar no Gerenciador de conformidade.
   
 ## <a name="manage-evidence"></a>Gerenciar evidências
 

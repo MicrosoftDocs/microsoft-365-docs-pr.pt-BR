@@ -12,21 +12,21 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 148920fac825dab9f67a79bc11907b72218e47bc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: eb6e79d840439acec007fef54bf6cb5ca5633f1e
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072225"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417490"
 ---
 # <a name="compliance-score-methodology-preview"></a>Metodologia de Pontuação de conformidade (prévia)
 
 > [!NOTE]
 > A Pontuação de Conformidade não expressa uma medida absoluta da conformidade organizacional em relação a qualquer padrão ou regulamentação específicos. Ela expressa até que ponto você adotou os controles que podem reduzir os riscos aos dados pessoais e à privacidade individual. Nenhum serviço pode garantir que você esteja em conformidade com um padrão ou regulamentação e a Pontuação de Conformidade não deve ser interpretada como uma garantia de forma alguma.
 
-O painel do Gerenciador de conformidade exibe uma pontuação total de conformidade para avaliações em cada bloco de avaliação. Esta é a pontuação de conformidade geral para a avaliação e é o acúmulo de pontos recebidos para cada controle implementado e testado na avaliação. Para uma nova avaliação, a pontuação de conformidade tem um valor inicial para os controles gerenciados pela Microsoft testados por terceiros independentes. A pontuação de conformidade pode ajudar a priorizar quais avaliações e controles focalizar para melhorar a postura geral de conformidade.
+O painel do Gerenciador de conformidade exibe uma pontuação total de conformidade para avaliações em cada bloco de avaliação. Esta é a pontuação de conformidade geral para a avaliação e é o acúmulo de pontos recebidos para cada controle implementado e testado na avaliação. Para uma nova avaliação, a pontuação de conformidade tem um valor inicial para os controles gerenciados pela Microsoft testados por terceiros independentes. A pontuação de conformidade é calculada com base em pontuações de ação gerenciada pela Microsoft e pontuações de ação gerenciada pelo cliente. A pontuação de conformidade pode ajudar a priorizar quais avaliações e controles focalizar para melhorar a postura geral de conformidade.
 
-Os valores de Pontuação de conformidade exibidos para o controle são aplicados *totalmente* à pontuação total de conformidade, em uma base de aprovação/falha. O controle é implementado e passa o teste de avaliação subsequente ou não. Não há crédito parcial para uma implementação parcial. Os pontos atribuídos são adicionados à pontuação de conformidade quando o controle tem:
+Os valores de Pontuação de conformidade exibidos para o controle são aplicados *totalmente* à pontuação total de conformidade, em uma base de aprovação/falha. O controle é implementado e passa o teste de avaliação subsequente ou não. Os pontos atribuídos são adicionados à pontuação de conformidade quando o controle tem:
 
 - **Status de implementação** igual a **implementação** **implementada** ou alternativa,
 - O **resultado do teste** é **passado**.
