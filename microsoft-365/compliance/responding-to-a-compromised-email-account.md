@@ -14,12 +14,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda a reconhecer e responder a uma conta de email comprometida no Office 365
-ms.openlocfilehash: 98a254ad6e356cecd44dac57bbe9f83171ddad73
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 239e880bbdd1b2ef7cbbde7e42fb8392777563a5
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073776"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417570"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Respondendo a uma conta de email comprometida no Office 365
 
@@ -94,7 +94,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 ### <a name="step-4-unblock-the-user-from-sending-mail"></a>Etapa 4 Desbloqueie o usuário de enviar emails
 
 Se a caixa de correio suspeita de estar comprometida foi usada ilicitamente para enviar emails de spam, é provável que esta tenha sido impedida de enviar emails.
-1. Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedimentos em [Removendo um usuário, domínio ou endereço IP de uma lista de bloqueio após o envio de emails de spam](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
+1. Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedimentos em [Removendo um usuário, domínio ou endereço IP de uma lista de bloqueio após o envio de emails de spam](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam).
 
 ### <a name="step-5-optional-block-the-user-account-from-signing-in"></a>Etapa 5 Opcional: bloqueie a conta de usuário no login
 
