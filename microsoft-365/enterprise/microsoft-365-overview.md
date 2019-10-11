@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: 8ae6462c2d1de32aa44820f4f417b92bad6db7d3
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: b5629edbdbd660a8548fc30809c408d88b18111b
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370458"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437831"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
 
@@ -30,7 +30,7 @@ O Microsoft 365 Enterprise consiste em:
 
 |||
 |:-------|:-----|
-| Aplicativos baseados em nuvem e locais e serviços de produtividade | O inclui o Office 365 ProPlus, os aplicativos do Office mais recentes para seu computador e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
+| Aplicativos baseados em nuvem e locais e serviços de produtividade | Inclui o Office 365 ProPlus, os aplicativos do Office mais recentes para seu PC e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
 | Windows 10 Enterprise | Atende às necessidades de organizações de grande e médio porte, fornecendo aos usuários a versão mais produtiva e segura do Windows e dos profissionais de ti com implantação abrangente, dispositivo e gerenciamento de aplicativos. |
 | Gerenciamento de dispositivos e serviços avançados de segurança | Inclui o Microsoft Intune, que é um serviço de gerenciamento de mobilidade corporativa (EMM) baseado em nuvem que ajuda a habilitar a sua força de produção, ao mesmo tempo em que os dados corporativos são protegidos. |
 |||
@@ -57,7 +57,7 @@ Para obter mais informações, consulte [recursos e funcionalidades de cada plan
 
 ## <a name="get-the-big-picture"></a>Obter a visão geral
 
-O [cartaz do Microsoft 365 Enterprise](media/Microsoft365Enterprise.pdf) é um local central para você exibir:
+O [cartaz do Microsoft 365 Enterprise](media/m365-poster/Microsoft365Enterprise.pdf) é um local central para você exibir:
 
 - Os benefícios do Microsoft 365 Enterprise e como os aplicativos e os serviços mapeiam para seus pilares de valor
 - Planos do Microsoft 365 Enterprise e quais componentes eles contêm 
@@ -65,20 +65,20 @@ O [cartaz do Microsoft 365 Enterprise](media/Microsoft365Enterprise.pdf) é um l
 - A [biblioteca de produtividade da Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e os cenários representativos de alguns departamentos de organização comuns
 - O roteiro de adoção que realça o guia de [implantação](deploy-microsoft-365-enterprise.md) do Microsoft 365 Enterprise
 
-[![Imagem do cartaz do Microsoft 365 Enterprise](./media/m365-poster/m365e-poster.png)](media/Microsoft365Enterprise.pdf)
+[![Imagem do cartaz do Microsoft 365 Enterprise](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
-Para baixar uma cópia do cartaz, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf).
+Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
-## <a name="transition-your-entire-organization"></a>Transição de toda a organização
+## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
 Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 Enterprise, baixe o [pôster de transição](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Imagem da transição para o cartaz do Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Este cartaz de duas páginas é uma maneira rápida de inventariar sua infraestrutura existente e obter as orientações para mudar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office e outros elementos de infraestrutura e segurança, como gerenciamento de dispositivos, identidade e proteção de informações e ameaças.
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
-Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
+Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Evite o fim do suporte para clientes e servidores do Windows 7 e do Office 2010
 
@@ -98,7 +98,7 @@ Para obter um resumo visual das opções de atualização, migração e moviment
 
 Este cartaz de uma página é uma maneira rápida de entender os vários caminhos que você pode tomar para impedir que os produtos de cliente e servidor do Windows 7 e Office 2010 atinjam o fim do suporte, com caminhos e suporte preferidos no Microsoft 365 Enterprise realçado.
 
-Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) e imprimi-lo em formatos carta, ofício ou tablóide (11 x 17).
+Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
 ## <a name="deploy"></a>Implantar
 

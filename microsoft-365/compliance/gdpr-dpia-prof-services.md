@@ -11,12 +11,13 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: a8ac02ee4ca882598fa07cd7ae5f141524fdf480
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+hideEdit: true
+ms.openlocfilehash: 61b39db3280d6b55a04a5962f0ca2a7e56cb43c8
+ms.sourcegitcommit: d9e9788abb31f6c876f81326569ccc9b716fc1c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698243"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37422348"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-professional-services"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Serviços Professionais da Microsoft 
 

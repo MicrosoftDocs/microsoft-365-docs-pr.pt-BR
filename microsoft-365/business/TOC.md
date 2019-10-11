@@ -29,9 +29,9 @@
 ### [Mapear os recursos de proteção para as configurações do Intune](map-protection-features-to-intune-settings.md)
 ### [Configurações de proteção de aplicativos para Android e iOS](app-protection-settings-for-android-and-ios.md)
 #### [Validar as configurações em Android ou iOS](validate-settings-on-android-or-ios.md)
-### [Configurações de proteção para computadores com Windows 10](protection-settings-for-windows-10-pcs.md)
+### [Configurações de proteção de dispositivos em computadores com Windows 10](protection-settings-for-windows-10-pcs.md)
 #### [Validar as configurações em computadores com Windows 10](validate-settings-on-windows-10-pcs.md)
-### [Configurações de proteção para dispositivos com Windows 10](protection-settings-for-windows-10-devices.md)
+### [Configurações de proteção de aplicativos em computadores com Windows 10](protection-settings-for-windows-10-devices.md)
 ## [Migrar para o Microsoft 365 Business](migrate-to-microsoft-365-business.md)
 ## Cobrança
 ### [Sua fatura](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)

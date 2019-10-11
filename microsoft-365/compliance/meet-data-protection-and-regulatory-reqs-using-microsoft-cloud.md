@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: O Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft fornece ferramentas para monitorar, implementar e gerenciar os controles para ajudar sua organização a alcançar a conformidade de acordo com os padrões de segurança e proteção de dados do setor (como RGPD, ISO 27001 e 27018, e HIPAA) quando comparados aos serviços em nuvem da Microsoft, como o Microsoft Azure e o Office 365. O Gerenciador de Conformidade ajuda quem supervisiona a estratégia de privacidade e proteção de dados da sua organização a gerenciar o processo de avaliação de risco e conformidade.
-ms.openlocfilehash: 6a06d69456ed1d42497f1d9f377252b079c6daba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 95816ca13818d068066c4e3c7fce371f1eeccc25
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073498"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417590"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Usar o Gerenciador de Conformidade para ajudar a atender aos requisitos regulamentares e de proteção de dados ao usar os serviços em nuvem da Microsoft
 
@@ -87,40 +87,29 @@ Uma Avaliação tem vários componentes, que são:
   
 ## <a name="permissions-and-role-based-access-control"></a>Permissões e controle de acesso baseado na função
 
-Por padrão, todos em sua organização com uma conta do Office 365 ou do Azure Active Directory têm acesso ao Gerenciador de Conformidade e podem executar qualquer ação nele. Para alterar as permissões padrão no modelo de controle de acesso baseado na função, pelo menos um usuário deve ser adicionado a cada função do Gerenciador de Conformidade (confira as instruções a seguir). Depois que um usuário é adicionado a uma função, as permissões para executar as ações atribuídas a essa função são removidas do conjunto de permissões disponíveis para todos os usuários e somente os usuários que foram atribuídos àquela função podem acessar o Gerenciador de Conformidade e executar as ações permitidas para aquela função.
+O Gerenciador de Conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente usuários aos quais é atribuída uma função de usuário podem acessar o Gerenciador de Conformidade, e as ações permitidas por cada usuário são restritas por tipo de função.
   
-Depois que o acesso baseado na função é implementado, qualquer usuário que não tenha recebido uma função definida no Gerenciador de Conformidade terá acesso como Convidado.
-  
-> [!NOTE]
-> Para implementar totalmente o controle de acesso baseado na função para gerenciar quem pode acessar e executar as ações no Gerenciador de Conformidade, um usuário deve ser adicionado a cada função para alterar as permissões padrão. Por exemplo, se você adicionar um usuário a uma função que permite que os usuários gerenciem Avaliações, somente membros dessa função poderão gerenciar as Avaliações. Da mesma forma, se você não adicionar um usuário a uma função que permita que os usuários leiam os dados no Avaliações, todos os usuários em sua organização poderão acessar o Gerenciador de Conformidade e ler os dados de qualquer Avaliação. 
+Observe que não há mais uma função padrão **Acesso do Convidado**. Cada usuário deve ter uma função atribuída para acessar e trabalhar no Gerenciador de Conformidade.
   
 A tabela a seguir descreve cada permissão do Gerenciador de Conformidade e o que ela permite que o usuário faça. A tabela também indica a função para a qual cada permissão é atribuída.
   
 ||**Leitor do Gerenciador de Conformidade**|**Colaborador do Gerenciador de Conformidade**|**Consultor do Gerenciador de Conformidade**|**Administrador do Gerenciador de Conformidade**|**Administrador do Portal**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Ler dados** – os usuários podem ler, mas não podem editar os dados.  <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Editar dados** – os usuários podem editar todos os campos, exceto os campos Resultado e Data do teste.  <br/> ||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Editar resultados do teste** – os usuários podem editar os campos Resultado e Data do teste.  <br/> |||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Gerenciar avaliações** – os usuários podem criar, arquivar e excluir as Avaliações.  <br/> ||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Gerenciar usuários** – os usuários podem adicionar outros usuários em sua organização nas funções de Leitor, Colaborador, Consultor e Administrador. Somente os usuários com a função de Administrador Global na organização podem adicionar ou remover os usuários da função de Administrador do Portal.<br/> |||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Ler dados** – os usuários podem ler, mas não podem editar os dados.  <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|
+|**Editar dados** – os usuários podem editar todos os campos, exceto os campos Resultado e Data do teste.  <br/> ||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Editar resultados do teste** – os usuários podem editar os campos Resultado e Data do teste.  <br/> ||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Gerenciar avaliações** – os usuários podem criar, arquivar e excluir as Avaliações.  <br/> |||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Gerenciar usuários** – os usuários podem adicionar outros usuários em sua organização nas funções de Leitor, Colaborador, Consultor e Administrador. Somente os usuários com a função de Administrador Global na organização podem adicionar ou remover os usuários da função de Administrador do Portal.<br/> ||||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
    
-### <a name="guest-access"></a>Acesso de convidados
-  
-Depois que o acesso ao Gerenciador de Conformidade estiver configurado, qualquer usuário que não tenha uma função atribuída recebe por padrão o **Acesso de convidados** (que também é a experiência de todas as contas não atribuídas da organização, como Contas pessoais da Microsoft). Os usuários com Acesso de convidados não têm acesso total aos recursos do Gerenciador de Conformidade e não podem ver nenhum dado de avaliação de conformidade da organização, entretanto podem usar o Gerenciador de Conformidade para exibir os relatórios de avaliação de conformidade da Microsoft e os documentos do Service Trust. Para obter uma ilustração do que é ou não acessível, consulte as imagens abaixo, nas quais os recursos acessíveis são destacados em azul e os recursos inacessíveis são destacados em vermelho. 
-  
-![Painel do Gerenciador de Conformidade – experiência do acesso de convidados](media/7c9cb09d-ba13-4633-ad89-129a33e291f7.png)
-  
-![Gerenciador de Conformidade – gráfico de acesso de convidados](media/11dade9e-557d-4a7f-ac2a-a5a1c0eaea93.png)
+## <a name="understanding-the-compliance-score"></a>Noções básicas sobre a Pontuação de Conformidade
 
-## <a name="understanding-the-compliance-score"></a>Noções básicas sobre a pontuação de conformidade
-
-No Painel, o Gerenciador de Conformidade exibe uma pontuação total para avaliações do Office 365 no canto superior direito do bloco. Este é o total geral da Pontuação de Conformidade da Avaliação e apresenta o acúmulo de pontos recebidos para cada avaliação de controle marcada como Implementada e Testada na Avaliação. Ao adicionar uma Avaliação, você verá que a Pontuação de conformidade já está a caminho da conclusão porque os pontos para os controles gerenciados da Microsoft que foram implementados pela Microsoft e testados por terceiros independentes já foram aplicados.
+No Painel, o Gerenciador de Conformidade exibe uma pontuação total das avaliações do Office 365 no canto superior direito do bloco. Esta é a Pontuação de Conformidade total geral da Avaliação e representa o acúmulo de pontos recebidos de cada avaliação de controle que foi marcada como Implementada e Testada na Avaliação. Ao adicionar uma Avaliação, você verá que a Pontuação de Conformidade já está a caminho da conclusão porque os pontos para os controles gerenciados pela Microsoft que foram implementados pela Microsoft e testados por terceiros independentes já estão aplicados.
   
 ![Painel do Gerenciador de Conformidade – pontuação total de conformidade](media/756091aa-1afd-4aff-93ab-c6f6824f2add.png)
   
 Os pontos restantes vêm da avaliação bem-sucedida do controle do cliente, desde a implementação e teste dos controles gerenciados pelo cliente, cada um com um valor específico que contribui para a pontuação geral de conformidade. 
   
-Cada Avaliação exibe uma Pontuação de Conformidade com base no risco para ajudá-lo a avaliar o nível de risco (devido a problemas de incompatibilidades ou controle) associado a cada controle (incluindo os gerenciados pela Microsoft e pelo cliente) em uma Avaliação. A cada controle de gerenciamento de cliente é atribuído um número de pontos possíveis (chamados de classificação de gravidade) em uma escala de 1 a 10, onde mais pontos são concedidos para controles associados a um fator de risco mais alto se o controle falhar e menos pontos são concedidos para controles de menor risco. 
+Cada Avaliação exibe uma Pontuação de Conformidade com base em risco para ajudá-lo a avaliar o nível de risco (devido a reprovação por falta de conformidade ou controle) associado a cada controle (inclusive os controles gerenciados pela Microsoft e pelo cliente) em uma Avaliação. A cada controle gerenciado pelo cliente é atribuído um número de pontos possíveis (chamado de *classificação de gravidade), em uma escala de 1 a 10, onde mais pontos serão concedidos para controles associados a um fator de risco mais alto se o controle falhar e menos pontos serão concedidos para controles de risco menores. 
   
 Por exemplo, o controle de avaliação do Gerenciamento de acesso do usuário mostrado abaixo tem uma classificação de risco de gravidade muito alta e exibe um valor atribuído de 10.
   
@@ -132,7 +121,7 @@ Por exemplo, o controle de avaliação do Gerenciamento de acesso do usuário mo
   
 O Gerenciador de Conformidade atribui uma classificação de severidade padrão para cada controle. As classificações de risco são calculadas com base nos seguintes critérios:
   
-- Se um controle impede a ocorrência de incidentes (classificação mais alta), detecta incidentes que aconteceram ou corrige o impacto de um incidente (classificação mais baixa). Em termos de classificação de gravidade, uma pontuação maior é atribuída a um controle obrigatório que impeça uma ameaça; os controles que são detectores ou corretivos (independentemente de serem obrigatórios ou discricionários) recebem uma pontuação menor.
+- Se um controle impede a ocorrência de incidentes (classificação mais alta), detecta incidentes que ocorreram ou corrige o impacto de um incidente (classificação mais baixa). Em termos de classificação de gravidade, um controle obrigatório que impede uma ameaça recebe o número mais alto de pontos; os controles que são detetivos ou corretivos (independentemente de serem obrigatórios ou facultativos) recebem o número menor de pontos.
     
 - Se for um controle obrigatório (depois que for implementado) e, portanto, não pode ser ignorado pelos usuários (por exemplo, os usuários tem que redefinir a senha e atender aos requisitos de comprimento e caracteres da senha) ou se for opcional e os usuários podem ignorá-lo (por exemplo, as regras de negócios que exigem que os usuários bloqueiem suas telas quando os computadores estão sem supervisão).
     
@@ -142,13 +131,13 @@ O Gerenciador de Conformidade atribui uma classificação de severidade padrão 
     
 Os valores exibidos da Pontuação de Conformidade de um controle são aplicados *em sua totalidade* à Pontuação total de conformidade em uma base de aprovar/reprovar, ou seja, o controle é implementado e passa no teste de avaliação subsequente ou não; não há crédito parcial para uma implementação parcial. Somente quando o controle tem seu **Status de Implementação** definido como **Implementado** ou **Implementação Alternativa** e o **Resultado do Teste** é definido como **Aprovado** que os pontos atribuídos são adicionados à Pontuação total de conformidade. 
   
-O mais importante é que a Pontuação de Conformidade pode ajudá-lo a priorizar em quais controles a implementação deve se concentrar, indicando quais controles têm maior risco potencial se houver uma falha relacionada. Além da priorização baseada no risco, quando controles de avaliação estão relacionados a outros controles (seja dentro da mesma avaliação ou em outra avaliação no mesmo grupo de avaliação), concluir um único controle com sucesso pode resultar em uma redução significativa de esforço com base na sincronização dos resultados dos testes de controles.
+O mais importante é que a Pontuação de Conformidade pode ajudar a priorizar em quais controles você deve se concentrar na implementação porque ela indica os controles cujo potencial de risco é maior, caso ocorra uma falha relacionada a um controle. Além da priorização baseada em risco, quando os controles de avaliação estão relacionados a outros controles (na mesma avaliação ou em outra avaliação no mesmo agrupamento de avaliações), a conclusão de um único controle com sucesso pode resultar em uma redução significativa do esforço com base na sincronização dos resultados de testes de controle.
   
 Por exemplo, na imagem abaixo vemos que a Avaliação de RGPD no Office 365 atualmente está com 46% concluído, com 51 de 111 avaliações de controle concluídas para uma Pontuação total de conformidade de 289 em um máximo de 600.
   
 ![Gerenciador de Conformidade – resumo da avaliação](media/595eedae-e3e0-4d1f-8cf5-7c1c9f4fd1e8.png)
   
-Na avaliação, o controle RGPD 7.5.5 está relacionado a cinco outros controles (7.4.1, 7.4.3, 7.4.4, 7.4.8 e 7.4.9), cada um com uma pontuação de classificação de risco de severidade de moderada a alta – 6 ou 8). Usando o filtro de avaliação, foram selecionados todos esses controles, tornando-os visíveis no modo de exibição de avaliação, e é possível ver abaixo que nenhum deles foi avaliado. 
+Na avaliação, o controle GDPR 7.5.5 está relacionado a 5 outros controles (7.4.1, 7.4.3, 7.4.4, 7.4.8 e 7.4.9), cada um com uma pontuação de classificação de risco de severidade de moderada a alta - 6 ou 8). Por meio do filtro de avaliação, marcamos todos esses controles, tornando-os visíveis no modo de exibição de avaliação e podemos ver abaixo que nenhum deles foi avaliado. 
   
 ![Gerenciador de Conformidade – modo de exibição de Avaliação – controles de filtro, nenhum avaliado](media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) Como esses 6 controles estão relacionados, a conclusão de qualquer um deles causará a sincronização dos resultados do teste entre os controles relacionados dentro da avaliação (da mesma forma que ocorre com qualquer controle relacionado em uma avaliação que esteja no mesmo grupo de avaliação). Após a conclusão da implementação e do teste do controle RGPD 7.5.5, a área de detalhes de controle é atualizada para mostrar que todos os 6 controles foram avaliados, com um aumento correspondente no número de controles avaliados para 57 e 51% avaliados, e uma mudança na Pontuação de Conformidade total de +40. 
   
@@ -170,7 +159,7 @@ A Pontuação de Conformidade, como a Microsoft Secure Score, é semelhante a ou
   
 As Avaliações no Gerenciador de Conformidade são baseadas no modelo de responsabilidade compartilhada para computação em nuvem. No Modelo de responsabilidade compartilhada, a Microsoft e cada cliente compartilham a responsabilidade de proteção dos dados do cliente quando esses dados são armazenados em nossa nuvem.
   
-Como mostrado abaixo na Avaliação do RGPD do Office 365, a Microsoft e os clientes são responsáveis por executar diversas Ações projetadas para atender aos requisitos da norma ou regulamentação que está sendo avaliada. Para racionalizar e compreender as Ações necessárias em vários padrões e regulamentações, o Gerenciador de Conformidade trata todos os padrões e regulamentações como se fossem estruturas de controle. Assim, as Ações realizadas pela Microsoft e pelos clientes para cada Avaliação envolvem a implementação e validação de vários controles.
+Como se vê na Avaliação de RGPD do Office 365 abaixo, tanto a Microsoft como os clientes são responsáveis por executar diversas Ações projetadas para atender aos requisitos do padrão ou da regulamentação em avaliação. Para racionalizar e compreender o necessário. Ações em uma variedade de padrões e regulamentos, o Gerenciador de Conformidade trata todos os padrões e regulamentos como se fossem estruturas de controle. Desse modo, as Ações realizadas pela Microsoft e pelos clientes para cada Avaliação envolvem a implementação e a validação de diversos controles.
   
 ![Gerenciador de Conformidade – avaliação do RGPD](media/123f8126-85b8-4baa-9c4e-c6295cf4a5ca.png)
   

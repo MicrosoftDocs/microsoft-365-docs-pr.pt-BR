@@ -1,6 +1,6 @@
 ---
 title: Classificação de Segurança da Microsoft
-description: Descreve a pontuação segura da Microsoft na central de segurança do Microsoft 365, como os detalhes são calculados e quais administradores de segurança podem esperar usá-lo.
+description: Descreve a pontuação segura da Microsoft na central de segurança do Microsoft 365, como os detalhes são calculados e quais administradores de segurança podem esperar.
 keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -15,84 +15,143 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 17d2decc7374d9022c68cbe2f2d58da959f44a7d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b337f020702b60ceeb02043e9b66d5614f58c228
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073955"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435555"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
->[!IMPORTANT]
->Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
 
-Com a pontuação segura da Microsoft na central de segurança do Microsoft 365, você pode ter maior visibilidade e controle sobre a postura de segurança da sua organização. A partir de um painel centralizado, você pode monitorar e aprimorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
+A pontuação segura ajuda as organizações a fazer o seguinte:  
 
-A pontuação segura da Microsoft oferece visualizações robustas, integração com outros produtos da Microsoft, comparação de sua pontuação com outras empresas, filtragem por categoria e muito mais. Com a ferramenta, você pode concluir as ações de melhoria de segurança em sua organização e acompanhar o histórico de sua pontuação. A pontuação também pode refletir quando soluções de terceiros solucionaram ações de melhoria recomendadas.  
+* Relatar o estado atual da postura de segurança da organização.
+* Melhorar a postura de segurança fornecendo descoberta, visibilidade, orientação e controle.  
+* Compare com benchmarks e estabeleça indicadores de desempenho principais (KPIs).
+
+A pontuação segura oferece às organizações acesso a visualizações robustas de métricas e tendências, integração com outros produtos da Microsoft, comparação de pontos com organizações similares e muito mais. A pontuação também pode refletir quando soluções de terceiros solucionaram as ações recomendadas.
+
+Além disso, você pode acessar suas recomendações e pontuações por meio da [API do Microsoft Graph](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta).
 
 ## <a name="how-it-works"></a>Como funciona
 
-Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações são classificadas para conclusão parcial, como habilitar a MFA (autenticação multifator) para seus usuários. A segurança deve sempre ser balanceada com usabilidade, e nem todas as recomendações funcionarão para o seu ambiente.
+Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários. A segurança deve sempre ser balanceada com usabilidade, e nem todas as recomendações podem funcionar para seu ambiente.
+
+Sua pontuação é atualizada em tempo real para refletir as informações apresentadas nas páginas de ações de visualizações e melhorias. A pontuação segura também sincroniza diariamente para receber dados do sistema sobre seus pontos obtidos para cada ação.
+
+### <a name="how-improvement-actions-are-scored"></a>Como as ações de aperfeiçoamento são pontuadas
+
+A maioria é classificada de forma binária, se você implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, obterá 100% dos pontos. Para outras ações de melhoria, os pontos são fornecidos como uma porcentagem da configuração total. Por exemplo, se a ação de melhoria diz que você obtém 30 pontos protegendo todos os seus usuários com a autenticação multifator e tem apenas 5 de 100 total de usuários protegidos, você receberia uma pontuação parcial de cerca de 2 pontos (5 protegido/100 total * 30 pt máx. = 2 pts  Pontuação parcial).
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
-Atualmente, para exibir a pontuação segura da Microsoft, você deve receber uma das seguintes funções no Azure Active Directory:
+Para ter permissão para acessar a pontuação segura da Microsoft, você deve receber uma das seguintes funções no Azure Active Directory.
 
-* Administrador global
-* Administrador de segurança
-* Leitor de segurança
+### <a name="read-and-write-roles"></a>Funções de leitura e gravação
 
-## <a name="rich-experiences--additional-security-recommendations"></a>Experiências avançadas & recomendações de segurança adicionais
+Com acesso de leitura e gravação, você pode fazer alterações e interagir diretamente com a pontuação segura. Você também pode atribuir acesso somente leitura a outros usuários.
 
-Na pontuação segura da Microsoft, adicionamos recomendações do Azure AD, do Intune e do Cloud app Security, com recomendações da central de segurança do Azure e do Microsoft defender ATP em breve. Também adicionamos ainda mais recomendações de segurança para o Office 365. Com informações adicionais e mais visibilidade de um conjunto mais amplo de produtos e serviços da Microsoft, você pode se sentir confiável para o gerenciamento da integridade de segurança da sua organização. Você também pode obter sua pontuação usando a [API do Microsoft Graph](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta).
+* CompanyAdministrator
+* SecurityAdministrator
+* ExchangeAdmin
+* SharePointAdmin
+
+### <a name="read-only-roles"></a>Funções somente leitura
+
+Com acesso somente leitura, você não pode editar o status ou as anotações de uma ação de melhoria, editar zonas de pontuação ou editar comparações personalizadas.
+
+* HelpdeskAdmin
+* UserAccountAdmin
+* ServiceSupportAdmin
+* SecurityReader
+* SecurityOperator
+* GlobalReader
+
+### <a name="graph-api"></a>API do Graph
+
+Para acessar a API do Graph, você precisa ter um dos seguintes escopos, além de uma função:
+
+* Escopo securityevents. Read. All (para função somente leitura)
+* Escopo securityevents. ReadWrite. All (para função de leitura e gravação)
+
+## <a name="rich-experiences--security-recommendations"></a>Experiências avançadas & recomendações de segurança
+
+Na pontuação segura da Microsoft, há recomendações do Office 365, do Azure AD, do Intune e do Cloud app Security, com recomendações da central de segurança do Azure e da central de segurança do Microsoft defender em breve.
 
 Para ajudá-lo a saber mais rapidamente as informações de que você precisa, as recomendações da Microsoft são organizadas em grupos:
 
-* Identity (estado de proteção de suas contas e funções do Azure AD)
-* Dados (estado de proteção de seus documentos do Office 365)
-* Dispositivo (estado de proteção de seus dispositivos; Ações de melhoria do Microsoft defender ATP em breve)
-* Aplicativo (estado de proteção de seus aplicativos de email e nuvem)
-* Infraestrutura (estado de proteção dos seus recursos do Azure; em breve)
+* Identity (contas e funções do Azure AD)
+* Dados (documentos do Office 365)
+* Dispositivo (dispositivos ATP do Microsoft defender)
+* Aplicativo (aplicativos de email e de nuvem)
+* Infraestrutura (recursos do Azure)
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação. Você pode usar esses dados para agir e fazer grandes diferenças em sua postura de segurança.  
 
-![M365 homepage](../media/secure-score/homepage-original.png)
-*Figura 1: página de visão geral de Pontuação segura da Microsoft*
+![Home Page](../media/secure-score/homepage-original.png)
+de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
 
-A guia ações de melhoria lista todas as recomendações de segurança aplicáveis ao seu locatário junto com o status (concluído, não concluído, resolvido por terceiros e ignorado). Você pode pesquisar, filtrar e agrupar todos os controles.  A classificação é baseada na avaliação da Microsoft de valor de segurança e esforço para concluir.
+A guia ações de melhoria lista as recomendações de segurança que lidam com possíveis superfícies de ataque, juntamente com o status (concluído, não concluído, resolvido por terceiros e ignorado). Você pode pesquisar, filtrar e agrupar todas as ações de aperfeiçoamento.
+
+### <a name="ranking"></a>Classificação
+
+A classificação baseia-se no número de outros pontos restantes para atingir, dificuldade de implementação, impacto do usuário e complexidade. As ações mais altas de melhoria da classificação têm a grande quantidade de pontos restantes com baixa dificuldade, impacto do usuário e complexidade.
+
+### <a name="actions"></a>Ações
 
 As ações rotuladas como [not score] não são rastreadas pela pontuação segura da Microsoft. Você ainda pode tomar ações, mas concluí-las não afetará sua pontuação. Se uma ação for rastreada pela pontuação segura da Microsoft no futuro e você já a tiver concluído, sua pontuação segura refletirá automaticamente a alteração.
 
-Quando você clica em uma ação de melhoria, uma saída é exibida. Para concluir a ação, você tem algumas opções:
+Quando você seleciona uma ação de aprimoramento específica, uma saída é exibida. Para concluir a ação, você tem algumas opções:
 
-1. Selecione **configurações de exibição** para ir para a tela de configuração e fazer a alteração. Em seguida, você obterá os pontos que a ação vale a pena, visível na parte superior da saída. Os pontos podem levar até 24 horas para serem atualizados.
+1. Selecione **configurações de exibição** para ir para a tela de configuração e fazer a alteração. Em seguida, você obtém os pontos que a ação vale a pena, visível na parte superior da saída. Os pontos podem levar até 24 horas para serem atualizados.
 
-2. Selecione **resolver por meio** de terceiros, pois a ação de aprimoramento já foi abordada por um aplicativo ou software de terceiros. Você ganhará os pontos que a ação vale a pena, para que sua pontuação segura reflita melhor a sua postura geral de segurança. Se um terceiro não mais cobrir o controle, você poderá marcar a ação de melhoria como não concluída. Tenha em mente que a Microsoft não terá visibilidade se os requisitos de Pontuação foram atendidos se a ação de melhoria for marcada como resolvida por terceiros.
+2. Selecione **resolver por meio** de terceiros, pois a ação de aprimoramento já foi abordada por um aplicativo ou software de terceiros. Você ganha os pontos que a ação vale, para que sua pontuação segura reflita melhor a postura geral de segurança. Se um terceiro não mais cobrir o controle, você poderá marcar a ação de melhoria como não concluída. Lembre-se de que a Microsoft não tem visibilidade de que os requisitos de Pontuação foram atendidos se a ação de aprimoramento for marcada como resolvida por terceiros.
 
-3. Selecione **ignorar** porque você optou por aceitar o risco e não enact a ação de aperfeiçoamento. Após ignorar uma ação de melhoria, o número total de pontos de Pontuação segura que você pode alcançar será reduzido. Você pode exibir essa ação no histórico ou desfazê-la a qualquer momento.
+3. Selecione **ignorar** porque você optou por aceitar o risco e não enact a ação de aperfeiçoamento. Após ignorar uma ação de melhoria, o número total de pontos de Pontuação segura que você pode alcançar é reduzido. Você pode exibir essa ação no histórico ou desfazê-la a qualquer momento.
 
 4. Selecione **revisar** porque a ação de aprimoramento exige que você examine regularmente uma parte do seu ambiente para ganhar e manter pontos. Por exemplo, as regras de encaminhamento de caixa de correio devem ser revisadas semanalmente para garantir que os dados não sejam vazadas da sua rede. Você não precisa fazer alterações, mas será necessário executar uma ação. Se você examinar as regras regularmente, receberá os pontos. Caso contrário, a pontuação será reduzida.
 
-![Página inicial do M365](../media/secure-score/secure-score1x450.png) ![Página inicial do M365](../media/secure-score/secure-score2x450.png)
+![Exemplo de ação de melhoria da Pontuação de segurança](../media/secure-score/secure-score1x450.png) ![Exemplo de ação de melhoria de análise de pontos de segurança](../media/secure-score/secure-score2x450.png)
 
 *Figuras 2 & 3: aprimorar submenus de ação*
 
 ## <a name="monitor-improvements-over-time"></a>Monitorar melhorias ao longo do tempo
 
-Você pode exibir um gráfico da pontuação da sua organização com o tempo na guia **histórico** . Este modo de exibição inclui a média global, média da indústria e contagem de assentos similares, juntamente com todas as ações realizadas no intervalo de tempo selecionado. Você também pode personalizar um intervalo de datas e filtrar por categoria.
-
-A pontuação é calculada uma vez por dia (em torno de 1:00 AM PST). Se você fizer uma alteração em uma ação medida, a pontuação será automaticamente atualizada no dia seguinte. Também é importante observar que alguns outros portais mostram partes da Pontuação segura da Microsoft (como a central de segurança do Microsoft defender). Se você concluir uma ação de melhoria e a pontuação for aumentada nesses portais, pode levar até 24 horas para que a pontuação atualizada seja exibida no centro de segurança do Microsoft 365.  
-
-## <a name="how-improvement-actions-are-scored"></a>Como as ações de aperfeiçoamento são pontuadas
-
-A maioria é classificada de uma maneira binária-você obtém 100% dos pontos se implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica. Para outras ações de melhoria, os pontos são fornecidos como uma porcentagem da configuração total. Por exemplo, se a ação de melhoria diz que você receberá 30 pontos se você proteger todos os seus usuários com a autenticação multifator e tiver apenas 5 de 100 total de usuários protegidos, você terá uma pontuação parcial de cerca de 2 pontos (5 protegidos/100 total * 30 pt máx.  Pontuação parcial de pts).
+Você pode exibir um gráfico da pontuação da sua organização ao longo do tempo na guia **histórico** . abaixo do gráfico, há uma lista de todas as ações realizadas no intervalo de tempo selecionado e seus atributos, como pontos e categorias resultantes. Você pode personalizar um intervalo de datas e filtrar por categoria.
 
 ## <a name="risk-awareness"></a>Reconhecimento de risco
 
 A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança; Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft, o que pode ajudar a reduzir o risco de ser violado. Nenhum serviço online é totalmente imune às brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
+
+## <a name="whats-coming"></a>O que está chegando?
+
+Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
+
+### <a name="removing-not-scored-and-review-improvement-actions"></a>Remover ações de melhoria de "não pontuadas" e "revisar"
+
+Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis e as ações de análise de revisão não são medidas para o mesmo padrão como outras ações de aprimoramento.  
+
+Por esses motivos, todas as ações de melhoria que não foram pontuadas ou exigiam uma cadência de revisão serão removidas temporariamente. Nenhuma ação é necessária em sua parte.
+
+### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
+
+Para padronizar pontos em várias experiências, cada ponto de ação de melhoria de Pontuação segura será atualizado para ter 10 pontos ou menos. É necessário ser mais consistente em todo o espectro de controles de segurança que temos hoje e aqueles que iremos adicionar no futuro. Embora essa seja uma alteração significativa e você veja os totais de pontos de projeção, não haverá mudanças na sua postura de segurança.  
+
+### <a name="preview-features"></a>Recursos de visualização
+
+Os seguintes recursos serão incluídos na versão prévia:
+
+* Todos os novos modos de exibição de métricas e tendências para discussões de nível de líder e CISO
+* Novas maneiras de acompanhar e avaliar a sua pontuação
+* Melhor controle e monitoramento para regressões de Pontuação
+* Filtrar, marcar, Pesquisar e agrupar suas ações de aperfeiçoamento
+* Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
+* E muito mais!
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 

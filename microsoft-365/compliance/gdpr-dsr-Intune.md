@@ -10,12 +10,13 @@ author: dougeby
 manager: angrobe
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 4e6afa2b9003a2cf2b41691f50688b21e3bf0ea1
-ms.sourcegitcommit: dc5c297ee7bca212b8a902daebe4907254c4315f
+hideEdit: true
+ms.openlocfilehash: 01f30dfbeb851731b6a8a101e19101b8f446524f
+ms.sourcegitcommit: d9e9788abb31f6c876f81326569ccc9b716fc1c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34589797"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37422278"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Intune para o RGPD
 

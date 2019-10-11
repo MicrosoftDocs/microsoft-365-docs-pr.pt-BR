@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informações confidenciais personalizado para DLP no Centro de Conformidade e Segurança.
-ms.openlocfilehash: baf715b6bb3a09495d6b5efa47eee6ea0ec3160a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ec5f61eec3e4f4f94fa955a936db0b245fc772eb
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072193"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435565"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Crie um tipo de informações confidenciais personalizado no PowerShell do Centro de Conformidade e Segurança
 
@@ -114,8 +114,7 @@ Eis um XML de exemplo do pacote de regras que criaremos neste tópico. Os elemen
             <Description default="true" langcode="en-us">
             A custom classification for detecting Employee IDs.
             </Description>
-            <Name default="true" langcode="de-de">Name for German locale</Name>
-            <Description default="true" langcode="de-de">
+            <Description default="false" langcode="de-de">
             Description for German locale.
             </Description>
         </Resource>

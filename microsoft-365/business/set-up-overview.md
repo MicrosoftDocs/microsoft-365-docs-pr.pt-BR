@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4be0a8aa1b050ee3e20a045eb2c07666765118ed
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288566"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440528"
 ---
-# <a name="overview-of-setup"></a>Visão geral da instalação
+# <a name="overview-of-setup"></a>Visão geral da configuração
 
 A maioria das etapas de configuração pode ser feita no assistente de configuração, mas as outras opções também são listadas.
 
@@ -41,7 +41,7 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
         - Você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Etapa 2: configurar políticas de segurança e configurar dispositivos 
 
-  - Use o [Assistente de configuração](set-up.md#set-up-security-policies-and-device-configurations) para configurar as políticas de dispositivo e segurança. 
+  - Use o [Assistente de configuração](set-up.md#protect-data-and-devices) para configurar as políticas de dispositivo e segurança. 
   - Você também pode adicionar mais ou editá-los mais tarde no [centro de administração](view-policies-and-devices.md) e no [portal do Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - Além das configurações de segurança no assistente de instalação, você pode aumentar a segurança adicionando as seguintes configurações:
 
@@ -62,7 +62,7 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
    Ao ingressar em um dispositivo Windows 10 no Azure AD, as políticas que você configurou na [etapa 2](#step-2-set-up-security-policies-and-configure-devices) são aplicadas a ela.
 
    - O Windows 10 pro é um [pré-requisito](pre-requisites-for-data-protection.md) para o Microsoft 365 Business, mas se você tem o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura lhe concede uma [atualização para o Windows 10 pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Use o [Assistente de configuração](set-up.md#set-up-security-policies-and-device-configurations) para configurar políticas para dispositivos Windows 10.
+    - Use o [Assistente de configuração](set-up.md#protect-data-and-devices) para configurar políticas para dispositivos Windows 10.
 
 ## <a name="stes-4-install-office-365-business"></a>Stes 4: instalar o Office 365 Business
 - Você pode instalar automaticamente o Office nos dispositivos Windows usando o [Assistente de configuração](set-up.md#deploy-office-365-client-apps).
@@ -74,7 +74,7 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
             
      Você pode usar o [Windows AutoPilot](add-autopilot-devices-and-profile.md) para configurar automaticamente **novos** dispositivos Windows 10 para um usuário, mas pode ser mais fácil obter um [parceiro](https://www.microsoft.com/solution-providers/search) que pode fazer isso para você. Você também pode ir para a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) e solicitar que um especialista em tecnologia de nuvem configure novos dispositivos que você comprou para você.
 
-- **Acessar recursos locais**
+- **Acesse recursos locais**
 
      - Se sua organização usa o Windows Server Active Directory no local, você pode configurar o Microsoft 365 Business para proteger seus dispositivos Windows 10 e ainda manter o acesso a recursos locais que exigem autenticação local. Siga as etapas em [habilitar dispositivos do Windows 10 associados ao domínio para serem gerenciados pela Microsoft 365 Business](manage-windows-devices.md) para configurar isso. Este é o método preferencial e os dispositivos nesse estado são chamados de dispositivos do Azure AD associados híbridos.
 

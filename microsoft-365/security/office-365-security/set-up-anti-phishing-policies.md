@@ -12,12 +12,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Proteção contra phishing, com proteção abrangente como parte do Office 365 proteção avançada contra ameaças e proteção básica no Office 365 proteção do Exchange Online, pode ajudar a proteger sua organização contra ataques de phishing baseados em representação mal-intencionada. e outros ataques de phishing.
-ms.openlocfilehash: e668a4681f37f4a3d6977f9d42c4aa661a07cac7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 620a6f818d3de7c360c3dc22a0ca5822357fb487
+ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073120"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37428402"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a> Configurar políticas antiphishing e antiphishing da ATP do Office 365
 
@@ -39,7 +39,7 @@ O que fazer:
 3. Configurar uma política de anti-phishing ou uma política anti-phishing do ATP.
 
 >[!IMPORTANT]
-> Para saber como várias tecnologias são aplicadas, consulte [como as políticas e proteções são combinadas](https://docs.microsoft.com/office365/securitycompliance/how-policies-and-protections-are-combined).
+> Para saber como várias tecnologias são aplicadas, consulte [como as políticas e proteções são combinadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined).
 
 ## <a name="review-the-prerequisites"></a>Revisar os pré-requisitos
 
@@ -47,9 +47,9 @@ O que fazer:
 
     |Role  |Onde/como a atribuição  |
     |---------|---------|
-    |Administrador global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
-    |Administrador de segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-    |Gerenciamento da organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+    |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
+    |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
+    |Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
 
     Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -93,9 +93,6 @@ Cada organização no Office 365 tem uma política anti-phishing padrão que se 
 |**Adicionar domínios e remetentes confiáveis** <br/> |Define endereços de email e domínios que não serão considerados representação por essa política. As mensagens dos endereços e domínios de email do remetente que você adiciona como remetentes confiáveis e domínios nunca serão classificadas como um ataque baseado em representação. Como resultado, as ações e configurações nesta política não serão aplicadas a mensagens desses remetentes e domínios.  <br/><br/>O limite máximo para essas listas é de aproximadamente 1000 entradas. |Quando os usuários interagem com domínios ou usuários que disparam a representação, mas são considerados seguros. Por exemplo, se um parceiro tiver o mesmo nome de exibição ou nome de domínio semelhante ao definido como um usuário na lista.  <br/> |
 |**Aplicado a** <br/> |Define os destinatários cujas mensagens de email de entrada serão sujeitas às regras da política. Você pode criar condições e exceções para os destinatários associados à política.  <br/> Por exemplo, você pode criar uma política global para sua organização aplicando a regra a todos os destinatários em seu domínio.  <br/> Você também pode criar regras de exceção, como uma regra que não verifica mensagens de email para um grupo específico de destinatários.  <br/> |Cada política deve ser associada a um conjunto de usuários, por exemplo, usuários em um grupo ou domínio específico.  <br/> |
 |**Limites avançados de phishing** <br/> |Define o nível de configurações para como as mensagens de phishing são tratadas.  <br/> **Padrão** Um email suspeito de ser phishing é tratado da forma padrão.  <br/> **Agressivo** É suspeito que o sistema fique em caso de phishing com um alto grau de confiança e que seja tratado pelo sistema da mesma maneira.  <br/> **Mais agressivo** É suspeito que o sistema seja de phishing com uma média, alta ou muito alto grau de confiança é manipulado pelo sistema da mesma maneira.  <br/> **Mais agressivo** É suspeito que o sistema seja de phishing com baixa, média, alta ou muito alto grau de confiança é tratado pelo sistema da mesma maneira.  <br/> |Quando você deseja ser mais agressivo no tratamento de mensagens potencialmente de phishing no Office 365. Por exemplo, as mensagens com uma grande probabilidade de ser phishing terão as ações mais agressivas tomadas neles enquanto as mensagens com baixa probabilidade têm ações menos agressivas tomadas. Essa configuração também afeta outras partes do sistema de filtragem que combinam sinais juntos. Isso não significa necessariamente que ações diferentes são implementadas.  Essencialmente, você define a probabilidade de o email ser Phish, para determinar a (mesma) ação designada. A possibilidade de mover mensagens boas aumenta conforme o nível das configurações aumenta.  <br/>|
-
-> [!IMPORTANT]
-> ![Imagem](../media/EnableMailboxIntelligenceBasedImpersonation.png) novas configurações importantes, separting * * Mailbox Intelligence "from" proteção de representação baseada em inteligência de caixa de correio ". A representação é quando você acessa a caixa de correio de forma programática e executa ações sobre a caixa de correio usando um script, uma API ou um software de terceiros, ou até mesmo código mal-intencionado em sua caixa de correio.
 
 ## <a name="learn-about-anti-phishing-policy-options"></a>Saiba mais sobre as opções de política anti-phishing
 

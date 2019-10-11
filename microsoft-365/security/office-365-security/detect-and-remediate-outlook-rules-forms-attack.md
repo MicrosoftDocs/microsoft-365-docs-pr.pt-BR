@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
-ms.openlocfilehash: ef2f08c953b91ccefcadd5947d2d0a9f39683ae2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d19a9c86dce42724aa2be00f11ea49ac7cc19d8a
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072541"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440648"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Office 365
 
@@ -123,7 +123,7 @@ Há dois cmdlets do PowerShell remoto que você pode usar para remover ou desabi
 Etapas para caixas de correio que estão em um servidor Exchange
 
 1. Conecte-se ao servidor do Exchange usando o PowerShell remoto. Siga as etapas em [conectar-se aos servidores Exchange usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell?view=exchange-ps).
-2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o [cmdlet Remove-inbox Rule ](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)-use isso para remover completamente uma, várias ou todas as regras da caixa de correio.
+2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o [cmdlet Remove-inbox Rule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)-use isso para remover completamente uma, várias ou todas as regras da caixa de correio.
 3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o [cmdlet Disable-InboxRule](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
 
 Etapas para caixas de correio no Exchange Online
@@ -144,8 +144,8 @@ A melhor maneira de proteger suas contas de usuário e, especialmente suas conta
     <li>Monitorar como suas contas de usuário são <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">acessadas e usadas</a>. Não é possível impedir a violação inicial, mas você diminuirá a duração e o impacto da violação detectando-a antes. Você pode usá-las: <a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security">as políticas de segurança do aplicativo Cloud do Office 365</a> para monitorar suas contas e alertar sobre atividades incomuns. 
         <ol type="a">
             <li><b>Várias tentativas de logon com falha</b> Esta política faz o perfil de seu ambiente e dispara alertas quando os usuários executam várias atividades de logon com falha em uma única sessão com relação à linha de base aprendida, que pode indicar uma tentativa de violação.</li>
-            <li><b>Viagens impossível</b> - Essa política faz o perfil de seu ambiente e dispara alertas quando as atividades são detectadas do mesmo usuário em diferentes locais dentro de um período de tempo menor do que o tempo de viagem esperado entre os dois locais. Isso pode indicar que um usuário diferente está usando as mesmas credenciais. Detectar esse comportamento anômala exige um período de aprendizado inicial de sete dias durante o qual ele aprende o padrão de atividade de um novo usuário.</li>
-            <li><b>Atividade representada incomum (por usuário)</b> - Esta política faz o perfil de seu ambiente e dispara alertas quando os usuários executam várias atividades representadas em uma única sessão com relação à linha de base aprendida, que pode indicar uma tentativa de violação.</li>
+            <li><b>Viagem</b> - impossível esta política perfis o ambiente e dispara alertas quando as atividades são detectadas do mesmo usuário em diferentes locais dentro de um período de tempo menor do que o tempo de viagem esperado entre os dois locais. Isso pode indicar que um usuário diferente está usando as mesmas credenciais. Detectar esse comportamento anômala exige um período de aprendizado inicial de sete dias durante o qual ele aprende o padrão de atividade de um novo usuário.</li>
+            <li><b>Atividade representada incomuns (por usuário)</b> - esta política faz o perfil de seu ambiente e aciona alertas quando os usuários executam várias atividades representadas em uma única sessão com relação à linha de base conhecida, que pode indicar um tentativa de violação.</li>
         </ol>
     </li>
     <li>Aproveite uma ferramenta como a <a href="https://securescore.office.com/">Pontuação segura do Office 365</a> para gerenciar as configurações e os comportamentos de segurança da conta. 

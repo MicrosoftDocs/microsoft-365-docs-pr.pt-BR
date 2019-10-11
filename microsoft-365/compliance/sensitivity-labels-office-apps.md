@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para impor configurações de proteção, como criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: 1de7eadfcf95a54917c1d5e2cc0d42cc1ad486a5
-ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
+ms.openlocfilehash: f702423f0b1074b5619ef1c321cc5e9f1daef1d7
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37378643"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417560"
 ---
 # <a name="how-sensitivity-labels-work-in-office-apps"></a>Como os rótulos de confidencialidade funcionam nos aplicativos do Office
 
@@ -131,7 +131,8 @@ PowerPoint
 <td><font size="-1">Em breve<sup>3</sup>
 <td><font size="-1">Em breve<sup>3</sup>
 
-<tr><td><font size="-1">Atribuir permissões predefinidas
+<tr><td><font size="-1">
+  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/encryption-sensitivity-labels#assign-permissions-now">Atribuir permissões predefinidas</a>
 <td><font size="-1"><b>Sim</b><br><font size="-1">1910+</font>
 
 <td><font size="-1"><b>Sim</b><br><font size="-1">16.21.0+</font>
@@ -167,7 +168,8 @@ PowerPoint
 <td><font size="-1">TBD
 <td><font size="-1">TBD
 
-<tr><td><font size="-1">Exigir que os usuários apliquem um rótulo a seus emails e documentos
+<tr><td><font size="-1">
+  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">Exigir que os usuários apliquem um rótulo a seus emails e documentos</a>
 <td><font size="-1">TBD
 
 <td><font size="-1">TBD
@@ -202,7 +204,7 @@ PowerPoint
 | --- | --- | --- |
 | Word, Excel, PowerPoint em todas as plataformas | Imediatamente | Imediatamente |
 | Outlook para PC e Mac | Após o email ser enviado pelo Exchange Online | Imediatamente |
-| Word, Excel, PowerPoint em todas as plataformas | Após o email ser enviado pelo Exchange Online | Após o email ser enviado pelo Exchange Online |
+| Outlook na Web, iOS e Android | Após o email ser enviado pelo Exchange Online | Após o email ser enviado pelo Exchange Online |
 
 ## <a name="can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows"></a>Os rótulos de confidencialidade podem ser executados juntamente com o cliente da Proteção de Informações do Azure no Office para Windows?
 
@@ -228,11 +230,7 @@ Os [modelos de proteção](https://docs.microsoft.com/azure/information-protecti
 
 ## <a name="can-a-file-or-email-have-more-than-one-classification"></a>Um arquivo ou email pode ter mais de uma classificação?
 
-Os usuários podem selecionar apenas um rótulo por vez para cada documento ou email, o que geralmente resulta em apenas uma classificação. No entanto, se os usuários selecionarem um sub-rótulo, isso aplicará dois rótulos ao mesmo tempo; um rótulo primário e um rótulo secundário. Usando sub-rótulos, um arquivo pode ter duas classificações que denotam um relacionamento pai/filho para um nível adicional de controle. 
-
-Por exemplo, o rótulo  **Confidencial**  pode conter sub-rótulos, como  **Jurídico**  e  **Financeiro**. Você pode aplicar diferentes marcas visuais de classificação e diferentes modelos de Gerenciamento de Direitos a esses sub-rótulos. Um usuário não pode selecionar o rótulo  **Confidencial**  sozinho; apenas um de seus sub-rótulos, como  **Jurídico**. Como resultado, o rótulo que eles veem definido é  **Jurídico** / ** Confidencial**. Os metadados para esse arquivo incluem uma propriedade de texto personalizada para  **Confidencial**, uma propriedade de texto customizada para  **Jurídico** e outra que contém os dois valores (**Jurídico Confidencial**). 
-
-Ao usar sub-rótulos, não configure marcas visuais, proteção e condições no rótulo principal. Ao usar subníveis, defina essas configurações apenas no sub-rótulo. Se você definir essas configurações no rótulo primário e em seu sub-rótulo, as configurações no sub-rótulo terão preferência.
+Não. Os usuários podem selecionar apenas um rótulo de cada vez para cada documento ou email.
 
 ## <a name="when-an-email-is-labeled-do-any-attachments-automatically-get-the-same-labeling"></a>Quando um email é rotulado, os anexos recebem automaticamente a mesma rotulagem?
 

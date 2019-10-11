@@ -1,5 +1,5 @@
 ---
-title: Configurar notificações de spam do usuário final no Exchange Online
+title: Configurar notificações de spam para o usuário final no Exchange Online
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
@@ -13,14 +13,14 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios.
-ms.openlocfilehash: 1c2832110c98af07752ac7dc7fc985fcb75bc0dd
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9da8ae5a9fd17db1cd9d92f21950a2ef5eb1a225
+ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073329"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37428392"
 ---
-# <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam do usuário final no Exchange Online
+# <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam para o usuário final no Exchange Online
 
 > [!IMPORTANT]
 > Este tópico é para os clientes do Exchange Online que estão protegendo caixas de correio hospedadas em nuvem. Os clientes autônomos do Exchange Online Protection (EOP) que estão protegendo caixas de correio locais devem ler o seguinte tópico em vez disso: [configurar notificações de spam para o usuário final no EOP](configure-end-user-spam-notifications-in-eop.md). 
@@ -61,13 +61,13 @@ Para obter informações sobre os atalhos de teclado que podem se aplicar aos pr
     
 4. Na caixa de diálogo posterior, você pode configurar as seguintes opções:
     
-1. **Habilitar notificações de spam para o usuário final** Marque esta caixa de seleção para habilitar notificações de spam para o usuário final para esta política. (De outra forma, se esta política estiver habilitada, você pode desmarcar esta caixa de seleção para desabilitar as notificações de spam para usuário final para esta política.) 
+   - **Habilitar notificações de spam para o usuário final** Marque esta caixa de seleção para habilitar notificações de spam para o usuário final para esta política. (De outra forma, se esta política estiver habilitada, você pode desmarcar esta caixa de seleção para desabilitar as notificações de spam para usuário final para esta política.) 
     
-2. **Envie notificações de spam para o usuário final a cada (dias)** Especifique a frequência com a qual as notificações de spam para o usuário final são enviadas. O padrão é 3 dias. Você pode especificar entre 1 e 15 dias. Se você especificar 7 dias, por exemplo, a notificação incluirá uma lista de todas as mensagens para aquele usuários dos últimos 7 dias que foram enviadas para a quarentena de spam. 
+   - **Envie notificações de spam para o usuário final a cada (dias)** Especifique a frequência com a qual as notificações de spam para o usuário final são enviadas. O padrão é 3 dias. Você pode especificar entre 1 e 15 dias. Se você especificar 7 dias, por exemplo, a notificação incluirá uma lista de todas as mensagens para aquele usuários dos últimos 7 dias que foram enviadas para a quarentena de spam. 
     
-3. **Idioma da notificação** Usando a lista suspensa, escolha o idioma de escrita das notificações de spam para o usuário final para esta diretiva. 
+   - **Idioma da notificação** Usando a lista suspensa, escolha o idioma de escrita das notificações de spam para o usuário final para esta diretiva. 
     
-5. Clique em **salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel direito.
+   - Clique em **Salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel direito.
     
 > [!NOTE]
 >  As notificações de spam do usuário final só serão funcionais para políticas de filtro de spam habilitadas. >  As notificações de spam do usuário final só são enviadas uma vez por dia. O horário de entrega da notificação não pode ser garantido para qualquer cliente específico e não é configurável. 
@@ -76,6 +76,26 @@ Para obter informações sobre os atalhos de teclado que podem se aplicar aos pr
   
 ![Regra de transporte para testar notificações de spam do usuário final](../media/EOP-ESN-testspecificusers.jpg)
   
+## <a name="use-the-scc-to-configure-end-user-spam-notifications"></a>Usar o SCC para configurar notificações de spam para o usuário final
+
+Você também pode usar o centro de conformidade e segurança (SCC) para configurar as notificações de spam do usuário final. Siga estas etapas:
+
+1. Abra o centro de segurança e conformidade, navegue até **anti-spam** da **política** \> de **Gerenciamento** \> de ameaças ou https://protection.office.com/antispamuse o link direto.
+
+2. Clique na seta para baixo ao lado da política de filtro de spam para a qual você deseja habilitar as notificações de spam do usuário final.
+
+3. Clique no link **configurar notificações de spam para o usuário final** .
+
+4. Na caixa de diálogo posterior, você pode configurar as seguintes opções:
+    
+   - **Habilitar notificações de spam para o usuário final** Marque esta caixa de seleção para habilitar notificações de spam para o usuário final para esta política. (De outra forma, se esta política estiver habilitada, você pode desmarcar esta caixa de seleção para desabilitar as notificações de spam para usuário final para esta política.) 
+    
+   - **Envie notificações de spam para o usuário final a cada (dias)** Especifique a frequência com a qual as notificações de spam para o usuário final são enviadas. O padrão é 3 dias. Você pode especificar entre 1 e 15 dias. Se você especificar 7 dias, por exemplo, a notificação incluirá uma lista de todas as mensagens para aquele usuários dos últimos 7 dias que foram enviadas para a quarentena de spam. 
+    
+   - **Idioma da notificação** Usando a lista suspensa, escolha o idioma de escrita das notificações de spam para o usuário final para esta diretiva. 
+    
+   - Clique em **Salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel.
+
 ## <a name="for-more-information"></a>Para saber mais
 
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)

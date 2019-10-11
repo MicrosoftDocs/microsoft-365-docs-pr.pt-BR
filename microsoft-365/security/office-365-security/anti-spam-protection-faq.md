@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre proteção antispam
+title: Perguntas frequentes sobre a proteção antispam
 ms.author: krowley
 author: kccross
 manager: dansimp
@@ -14,14 +14,14 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP).
-ms.openlocfilehash: d36499815979fb0b5ac805a98f0c9320fc07a538
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 504fb93a271a60db4c43aa48ba6578a904c8bb5a
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072929"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441088"
 ---
-# <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre proteção antispam
+# <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
 Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP). 
   
@@ -51,7 +51,7 @@ Para obter mais informações sobre como configurar suas políticas contra spam,
   
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
   
-[Configurar a política de spam de saída](configure-the-outbound-spam-policy.md)
+[Configuração da política de spam de saída](configure-the-outbound-spam-policy.md)
   
  **P. Se eu fizer uma alteração em uma política contra spam, quanto tempo demora para que as alterações façam efeito após eu salvá-las?**
   
@@ -79,7 +79,7 @@ Clientes do Exchange Online Protection: [relatórios e rastreamento de mensagens
   
  **P. Alguém me enviou uma mensagem e eu não consigo encontrá-la. Desconfio que ela foi detectada como spam. Existe uma ferramenta que posso usar para descobrir?**
   
-R. Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagens para descobrir por que uma mensagem foi marcada como spam, consulte [Uma mensagem foi marcada como spam?](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam)
+R. Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagem para descobrir por que uma mensagem foi marcada como spam, confira [a mensagem foi marcada como spam?](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam)
   
  **Q. O serviço limitará (limite de taxa) meu email se os meus usuários enviarem spam de saída?**
   
@@ -191,7 +191,7 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
 [Proteção anti-spam de emails do Office 365](https://support.office.com/article/6a601501-a6a8-4559-b2e7-56b59c96a586)
   
-[Listas de remetentes seguros e remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
+[Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
   
 [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md)
   

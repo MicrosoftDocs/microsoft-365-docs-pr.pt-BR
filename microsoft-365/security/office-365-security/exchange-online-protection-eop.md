@@ -1,5 +1,5 @@
 ---
-title: 'Proteção do Exchange Online '
+title: Proteção do Exchange Online
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Veja algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP.
-ms.openlocfilehash: 36eaf667f2d38d27a8ef6a350817c5faf078a5d5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 707e909821c4a394e230b1746bde86521d8fb10a
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072489"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441558"
 ---
 # <a name="exchange-online-protection"></a>Proteção do Exchange Online
 
 Bem-vindo ao serviço de filtragem de email hospedado no Microsoft Proteção do Exchange Online (EOP) . Aqui estão algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP e usar o seu conteúdo:
-  
+
 - Para saber mais sobre o EOP, confira a [Descrição do Exchange Online Protection Service ](https://go.microsoft.com/fwlink/p/?LinkId=320619). Outros recursos úteis são o [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md), [Perguntas frequentes gerais sobre o EOP](eop-general-faq.md) e [Recursos EOP](eop-features.md), além da [página inicial do Exchange Online Protection](https://go.microsoft.com/fwlink/?LinkId=279912).
 
 - Para começar com o EOP, os novos clientes devem dirigir-se ao [Configurar seu serviço EOP](set-up-your-eop-service.md). Este tópico fornece passos que vão ajudá-lo colocar o EOP em funcionamento.
@@ -30,7 +30,7 @@ Bem-vindo ao serviço de filtragem de email hospedado no Microsoft Proteção do
 ## <a name="eop-help-for-administrators"></a>Ajuda do EOP para administradores
 
 O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes categorias de primeiro nível:
-  
+
 - [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md): apresenta como o EOP funciona e fornece links para informações adicionais.
 
 - [Recursos do EOP](eop-features.md): fornece uma lista de recursos disponíveis no EOP.
@@ -51,7 +51,7 @@ O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes cat
 
 - [Relatórios e rastreamento de mensagens no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md): descreve os relatórios e as ferramentas de solução de problemas disponíveis.
 
-- [Centro de administração do Exchange no Exchange Online Protection ](exchange-admin-center-in-exchange-online-protection-eop.md): descreve como acessar e navegar pela interface de gerenciamento do centro de administração do Exchange para gerenciar seu serviço do EOP.
+- [Centro de administração do Exchange no Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md): descreve como acessar e navegar pela interface de gerenciamento do centro de administração do Exchange para gerenciar seu serviço do EOP.
 
 - [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell): fornece informações sobre o PowerShell remoto, que permite gerenciar seu serviço do EOP a partir da linha de comando.
 
@@ -60,7 +60,7 @@ O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes cat
 ## <a name="eop-help-for-end-users"></a>Ajuda do EOP para usuários finais
 
 O conteúdo da Ajuda para auxiliar usuários finais do EOP a gerenciar spam é composto pelos seguintes tópicos:
-  
+
 - [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md): descreve como os usuários finais podem localizar e liberar suas próprias mensagens em quarentena de spam na interface de usuário de quarentena de spam e, opcionalmente, relatá-las como não sendo lixo eletrônico para a Microsoft.
 
 - [Enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md): descreve as diferentes maneiras como os usuários finais podem enviar mensagens de spam (lixo eletrônico) e não spam (não lixo eletrônico) para a Microsoft. Este tópico inclui links para as ferramentas de relatório disponíveis no Microsoft Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App).

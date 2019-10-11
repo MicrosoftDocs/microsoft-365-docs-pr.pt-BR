@@ -1,5 +1,5 @@
 ---
-title: Revogar emails criptografados pela criptografia de mensagem avançada do Office 365
+title: Revogar email criptografado pelo a Criptografia de Mensagem Avançada do Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -7,23 +7,23 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 10/8/2019
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
 description: Como administrador do Office 365, você pode revogar determinados emails que foram criptografados com a criptografia de mensagem avançada do Office 365.
-ms.openlocfilehash: e55129f68c7add589bd973b36f069d7cdbf631cf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7adc5713c8753e0caf780bbacf98519665458c52
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073179"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435545"
 ---
-# <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Revogar emails criptografados pela criptografia de mensagem avançada do Office 365
+# <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Revogar email criptografado pelo a Criptografia de Mensagem Avançada do Office 365
 
-A revogação de emails é oferecida como parte da criptografia de mensagem avançada do Office 365. A criptografia de mensagem avançada do Office 365 está disponível na parte superior da criptografia de mensagem do Office 365 em determinadas assinaturas. A criptografia avançada de mensagens está incluída no [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), no Office 365 Enterprise E5 e no Office 365 Education a5. Se sua organização tiver uma assinatura do Office 365 que não inclua a criptografia de mensagem avançada do Office 365, você poderá comprar a criptografia de mensagem avançada como um complemento com a conformidade E5 do SKU de conformidade avançada.
+A revogação de emails é oferecida como parte da criptografia de mensagem avançada do Office 365. O Office 365 Advanced Message Encryption está incluído no [microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 e5, Microsoft 365 E5 (precificação de pessoas sem fins lucrativos), Office 365 Enterprise E5 (precificação de pessoas sem fins lucrativos) e Office 365 Education a5. Se sua organização tem uma assinatura que não inclui a criptografia de mensagem avançada do Office 365, você pode comprá-la com o complemento de SKU de conformidade da Microsoft 365 E5 para Microsoft 365 E3, Microsoft 365 E3 (precificação de pessoas sem fins lucrativos) ou o Office 365 Advanced Complemento de SKU de conformidade para o Microsoft 365 E3, Microsoft 365 E3 (preço de equipe sem fins lucrativos) ou SKUs do Office 365.
 
 Este artigo faz parte de uma série maior de artigos sobre a [criptografia de mensagens do Office 365](ome.md).
 
@@ -119,7 +119,7 @@ Você pode revogar um email usando o Windows PowerShell usando o cmdlet Set-OMEM
 
 ## <a name="more-information-about-office-365-advanced-message-encryption"></a>Mais informações sobre a criptografia de mensagem avançada do Office 365
 
-- [Criptografia de mensagem avançada do Office 365](ome-advanced-message-encryption.md)
+- [Criptografia de Mensagem Avançada do 365 Office](ome-advanced-message-encryption.md)
 
 - [Criptografia de mensagem avançada do Office 365-expiração de email](ome-advanced-expiration.md)
 

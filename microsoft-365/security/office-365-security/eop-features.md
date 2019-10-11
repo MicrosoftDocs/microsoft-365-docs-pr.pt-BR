@@ -1,7 +1,7 @@
 ---
 title: Recursos EOP
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -10,20 +10,20 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-ms.openlocfilehash: a5a11204cff0392245c91d371aad0fcae9e4d124
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1dd3ff638c9cb209c51a82fd2388057f3bf4b95e
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072504"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441508"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
 A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-  
+
 > [!TIP]
-> O [Roteiro do Office 365 para empresas](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é um bom recurso para descobrir informações sobre os novos recursos que estão por vir. Para ter uma visão mais ampla sobre quais recursos estão disponíveis com os diferentes planos de assinatura da EOP, veja [Descrição do serviço de Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). 
-  
+> O [Roteiro do Office 365 para empresas](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é um bom recurso para descobrir informações sobre os novos recursos que estão por vir. Para ter uma visão mais ampla sobre quais recursos estão disponíveis com os diferentes planos de assinatura da EOP, veja [Descrição do serviço de Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+
 |||
 |:-----|:-----|
 |**Recurso**|**Descrição**|
@@ -35,13 +35,13 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Listas de bloqueio de URLs mal-intencionadas|A EOP usa várias listas de bloqueio de URL que ajudam a detectar links mal-intencionados conhecidos nas mensagens.|
 |Proteção antiphishing|A EOP inclui 750.000 domínios de remetentes de spam conhecidos.|
 |**Gerenciamento de spam**||
-|A capacidade de configurar o filtro de conexão de listas de IPs permitidos e IP bloqueados|Os endereços IP especificados no filtro de conexão são respeitados para os endereços IP únicos e intervalos de endereços IP CIDR. O serviço também dá suporte a endereços IPv6. Saiba mais em [Configure a política de filtro de conexão](configure-the-connection-filter-policy.md).|
+|A capacidade de configurar o filtro de conexão de listas de IPs permitidos e IP bloqueados|Os endereços IP especificados no filtro de conexão são respeitados para os endereços IP únicos e intervalos de endereços IP CIDR. O serviço também dá suporte a endereços IPv6. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md).|
 |A capacidade de personalizar as políticas de filtro de conteúdo por usuário, grupo ou domínio|Para uma maior granularidade, você pode criar políticas personalizadas de filtro de conteúdo e aplicá-las a usuários, grupos ou domínios específicos na sua organização. Diretrizes personalizadas sempre prevalecem sobre as diretrizes padrão, mas você pode alterar a prioridade (isto é, a ordem de execução) das suas diretrizes personalizadas. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).|
 |A capacidade de configurar as ações em mensagens de conteúdo filtrado|Há várias ações configuráveis. Por exemplo, você pode excluir mensagens de conteúdo filtrado ou enviá-las para a pasta Lixo eletrônico ou para a quarentena. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).|
 |A capacidade de configurar as opções avançadas para filtragem de spam agressiva|Para obter mais informações, consulte [configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md) (onde você as configura) e [Opções avançadas de filtragem de spam](advanced-spam-filtering-asf-options.md) (que fornece detalhes específicos sobre o que cada opção faz).|
 |Filtragem de spam internacional|Você pode configurar a EOP para filtrar mensagens de email escritas em idiomas específicos ou enviadas de países ou regiões específicos. Você pode configurar até 86 idiomas e 250 regiões diferentes. O serviço aplicará a ação configurada para spam de alta confiança. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).|
 |Gerenciar spam via Outlook ou Outlook na Web (anteriormente conhecido como Outlook Web App)|Os administradores e usuários finais podem criar listas de remetentes confiáveis e listas de remetentes bloqueados. Para saber mais: <br/>• **Outlook na Web**: consulte [bloquear ou permitir (configurações de lixo eletrônico)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46).  <br/>• **Outlook**: consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). <br/><br/> Se você estiver usando o EOP para ajudar a proteger caixas de correio locais, certifique-se de usar a sincronização de diretório para ajudar a garantir que essas configurações sejam sincronizadas com o serviço. Para saber mais sobre como configurar a sincronização de diretório, consulte "Usar a sincronização de diretório para gerenciar usuários de email" em [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).|
-|Envios de spam por meio do Suplemento Relatório de Lixo Eletrônico do Microsoft Office Outlook|Você pode baixar um suplemento para o Outlook que permite enviar mensagens de spam para a análise da Microsoft. Para obter mais informações sobre como baixar e usar essa ferramenta, consulte [habilitar o suplemento de mensagem de relatório](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676). <br/><br/> Se você estiver usando o Exchange Server 2013 ou posterior com o EOP, você também pode clicar com o botão direito do mouse no Outlook na Web para enviar mensagens de spam, conforme descrito em [relatar lixo eletrônico e golpes de phishing no Outlook na Web ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).|
+|Envios de spam por meio do Suplemento Relatório de Lixo Eletrônico do Microsoft Office Outlook|Você pode baixar um suplemento para o Outlook que permite enviar mensagens de spam para a análise da Microsoft. Para obter mais informações sobre como baixar e usar essa ferramenta, consulte [habilitar o suplemento de mensagem de relatório](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676). <br/><br/> Se você estiver usando o Exchange Server 2013 ou posterior com o EOP, você também pode clicar com o botão direito do mouse no Outlook na Web para enviar mensagens de spam, conforme descrito em [relatar lixo eletrônico e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).|
 |Envios de mensagens de spam e que não são spam por meio de um alias de email|Você pode enviar mensagens de spam (lixo) e que não são spam (não são lixo eletrônico) para a Microsoft por meio do email. Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).|
 |Envios de spam e não spam por meio do Outlook na Web relatório de lixo eletrônico|Você pode enviar spam e mensagens não spam para a Microsoft via Outlook no relatório de lixo eletrônico da Web. Para saber mais, confira [relatar spam e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).  <br/><br/> Este recurso está disponível atualmente para o Outlook nos clientes da Web cujas caixas de correio do Exchange Server 2013 SP1 ou posterior estão sendo filtradas pelo EOP. Os clientes do Exchange Online Outlook na Web também terão essa funcionalidade em um futuro próximo.|
 |Notificações da quarentena de spam para usuário final|Os usuários finais podem liberar suas próprias mensagens em quarentena de spam e, opcionalmente, liberá-las como não sendo lixo eletrônico via mensagens de notificação de spam de usuário final. Esses emails de notificação devem ser configurados e habilitados por um administrador, conforme descrito em [Configure End-User spam Notifications in Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md) ou [Configure End-User spam Notifications in EOP](configure-end-user-spam-notifications-in-eop.md).|
@@ -77,7 +77,7 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Alterar o nível de confiança de spam de uma mensagem usando regras.|Você pode inspecionar uma mensagem em trânsito e atribuir um nível de confiança de spam com base nos critérios que você escolher. Para obter mais informações, consulte [usar regras de fluxo de emails para definir o nível de confiança de spam (SCL) em mensagens](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).|
 |Inspecionar anexos de mensagens|Você pode examinar o conteúdo de um anexo ou as características de um arquivo anexado e definir uma ação a ser tomada com base naquilo que for encontrado. Para obter mais informações, consulte [usar regras de fluxo de emails para inspecionar anexos de mensagens no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments).|
 |**Administração**||
-|Administração com base na Web|Os administradores da EOP podem gerenciar o serviço pela interface do Centro de Administração do Exchange, que é compatível com 60 idiomas. Para obter mais informações, consulte [centro de administração do Exchange no Exchange Online Protection ](exchange-admin-center-in-exchange-online-protection-eop.md).|
+|Administração com base na Web|Os administradores da EOP podem gerenciar o serviço pela interface do Centro de Administração do Exchange, que é compatível com 60 idiomas. Para saber mais, veja [Exchange admin center in Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md).|
 |Sincronização de diretório|A sincronização de diretório está disponível por meio do Ferramenta de Sincronização do Microsoft Azure Active Directory. Para saber mais, veja a seção «Usar a sincronização de diretório para gerenciar usuários de email» em [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).  |
 |Bloqueio de borda baseado em diretório (DBEB)|O recurso DBEB permite rejeitar mensagens de destinatários inválidos no perímetro da rede do serviço. O DBEB permite que os administradores adicionem destinatários habilitados pelo email para o Office 365 e bloqueiem todas as mensagens enviadas para endereços de email que não estão presentes no Office 365. Para obter mais informações sobre como configurar o DBEB, consulte [usar o bloqueio de borda baseado em diretório para rejeitar mensagens enviadas a destinatários inválidos](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).|
 |Acesso ao Windows PowerShell Remoto|Todos os recursos da EOP estão disponíveis através do Windows PowerShell remoto. Para obter mais informações, consulte [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).|

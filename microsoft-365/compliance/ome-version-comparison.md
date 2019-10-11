@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Ajuda a explicar as diferenças entre as versões da criptografia de mensagem do Office 365.
-ms.openlocfilehash: b617d6a9f61ae8ec5a0133d405f89038bdab9fc4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 29c30c1630e6fbf24e9037837c162b4ac67950e2
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073570"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435515"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
@@ -34,7 +34,7 @@ Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para
 
 |                                   |Recursos antigos       |                   |Novos recursos              |
 |-----------------------------------|-------------------|-------------------|--------------------------|
-|**Funcionalidade**                     | **OME herdado**    | **IRM**           | **Novos recursos do OME** |
+|**Funcionalidade**                     | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
 |*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados do Office 365 (DLP)|
 |*Modelo de gerenciamento de direitos*       |   N/D      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|
