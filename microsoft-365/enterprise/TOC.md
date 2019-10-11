@@ -83,7 +83,7 @@
 ### [Proteção de informações](contoso-info-protect.md)
 ### [Resumo de segurança](contoso-security-summary.md)
 ### [Site do SharePoint para dados altamente controlados](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
+## [Alterações no conteúdo de implantação do Microsoft 365 Enterprise](microsoft-365-deploment-guide-changes.md)
 # [Centro de Implantação de Desktop](desktop-deployment-center-home.md)
 ## [Introdução: orientações sobre pessoas, processos e tecnologia](getting-started.md)
 ## [Etapa 1: Preparação de dispositivos e aplicativos](step-1-device-and-app-readiness.md)
