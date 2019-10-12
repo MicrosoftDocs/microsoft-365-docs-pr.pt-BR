@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: Percorra o processo de planejamento, distribuição e condução do valor do Exchange Online no Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: c11a4ca0216d42f039005616c5d414759b8c0bad
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 30ba71fbf2af684afbbffe0a2e2b1720a8eeec2c
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437811"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453857"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Implantar o Exchange Online para o Microsoft 365 Enterprise
 
@@ -74,8 +74,11 @@ Se você estiver fazendo seu próprio planejamento ou em conjunto com o FastTrac
 Use estes recursos para se preparar para os aspectos técnicos de uma distribuição do Exchange Online: 
 
 - [Formas de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
+- [Migrar pastas públicas do Exchange Server para o Exchange Online](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?view=exchserver-2019)
+- [Migrar pastas públicas do Exchange Server para grupos do Office 365](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
 - [Colaboração no Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/collaboration-exo)
 - [Destinatários no Exchange Online](https://docs.microsoft.com/exchange/recipients-in-exchange-online/recipients-in-exchange-online)
+- [Outlook para iOS e Android](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android)
 
 Para uma compreensão melhor da segurança no Exchange Online, revise os seguintes recursos:
 
