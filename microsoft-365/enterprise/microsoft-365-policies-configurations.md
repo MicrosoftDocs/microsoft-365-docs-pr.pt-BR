@@ -14,20 +14,20 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 9751d1e224d2fb4b879a5dbc37cb368af2152987
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1fae59706a77663090d4f29cc6a34b339c11e92c
+ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291341"
+ms.lasthandoff: 10/13/2019
+ms.locfileid: "37481299"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
 
-Esta série de artigos descreve como configurar o acesso seguro aos serviços de nuvem por meio de produtos de segurança do Enterprise Mobility +, implementando um ambiente e uma configuração recomendados, incluindo um conjunto prescrito de políticas de acesso condicional e recursos relacionados. Você pode usar estas diretrizes para proteger o acesso a todos os serviços integrados ao Azure Active Directory, incluindo os serviços do Office 365, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
+Esta série de artigos descreve como configurar o acesso seguro aos serviços em nuvem por meio de produtos de EMS (Enterprise Mobility + Security) implementando um ambiente e uma configuração recomendados, incluindo um conjunto prescrito de políticas de acesso condicional e recursos relacionados. O EMS é um componente principal do Microsoft 365. Você pode usar estas diretrizes para proteger o acesso a todos os serviços integrados ao Azure Active Directory, incluindo os serviços do Office 365, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
 
 Essas recomendações são alinhadas com a pontuação segura da Microsoft, bem como a [Pontuação de identidade no Azure ad](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score), e aumentam essas pontuações para sua organização. Essas recomendações também ajudarão você a implementar essas [cinco etapas para proteger sua infraestrutura de identidade](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps). 
 
-A Microsoft entende que algumas organizações têm requisitos ou complexidades de ambiente exclusivos. Se você for uma dessas organizações, use estas recomendações como ponto de partida. No enTanto, a maioria das organizações pode implementar essas recomendações conforme prescrito. 
+A Microsoft entende que algumas organizações têm requisitos ou complexidades de ambiente exclusivos. Se você for uma dessas organizações, use estas recomendações como ponto de partida. No entanto, a maioria das organizações pode implementar essas recomendações conforme prescrito. 
 
 ## <a name="intended-audience"></a>Público-alvo
 
@@ -124,7 +124,7 @@ Esta orientação mostra como implementar um conjunto de políticas para protege
 
 ### <a name="windows-10-and-office-365-proplus"></a>Windows 10 e Office 365 ProPlus
 
-O Windows 10 e o Office 365 proPlus são o ambiente de cliente recomendado para computadores. Recomendamos o Windows 10, já que o Azure foi projetado para fornecer a experiência mais suave possível tanto para o local quanto para o AD do Azure. O Windows 10 também inclui recursos avançados de segurança que podem ser gerenciados por meio do Intune. O Office 365 proPlus inclui as versões mais recentes dos aplicativos do Office. Eles usam autenticação moderna, que é mais segura e um requisito para acesso condicional. Esses aplicativos também incluem ferramentas aprimoradas de segurança e conformidade.
+O Windows 10 e o Office 365 ProPlus são o ambiente de cliente recomendado para computadores. Recomendamos o Windows 10, já que o Azure foi projetado para fornecer a experiência mais suave possível tanto para o local quanto para o AD do Azure. O Windows 10 também inclui recursos avançados de segurança que podem ser gerenciados por meio do Intune. O Office 365 ProPlus inclui as versões mais recentes dos aplicativos do Office. Eles usam autenticação moderna, que é mais segura e um requisito para acesso condicional. Esses aplicativos também incluem ferramentas aprimoradas de segurança e conformidade.
 
 ## <a name="applying-these-capabilities-across-the-three-tiers-of-protection"></a>Aplicação desses recursos nas três camadas de proteção
 
