@@ -3,7 +3,7 @@ title: Capacitar funcionários remotos
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/27/2019
+ms.date: 10/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Configure a infraestrutura e os recursos de segurança que permitem que seus funcionários trabalhem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: b73e16a52741a6587e9ed903cab6ddfedf896973
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 198b01205e7419c4a3aa874c1e6213cce5284576
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403250"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453937"
 ---
 # <a name="empower-remote-workers"></a>Capacitar funcionários remotos
 
@@ -69,6 +69,13 @@ Para atender a esses critérios para funcionários remotos, use os seguintes rec
   - Organizações que tenham identidade híbrida podem usar o Proxy de Aplicativo do Azure AD em vez de conexões VPN (rede virtual privada)
 
 As fases a seguir o ajudarão a implantar o recurso do Microsoft 365 Enterprise para permitir o acesso remoto e impulsionar a adoção de funcionários remotos. Se você já tiver implantado os elementos dessas fases, certifique-se de que eles atendam aos requisitos descritos antes de passar para o próximo elemento.
+
+<a name="poster"></a>Para ver um resumo de uma página desse cenário, consulte o pôster [Capacitar funcionários remotos](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
+
+[![Pôster Capacitar funcionários remotos](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+
+Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
+
 
 ## <a name="phase-1-deploy-microsoft-365-features-and-capabilities-for-remote-workers"></a>Fase 1: implantar os recursos e as funcionalidades do Microsoft 365 para funcionários remotos
 

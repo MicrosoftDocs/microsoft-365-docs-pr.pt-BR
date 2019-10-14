@@ -19,6 +19,13 @@
 
 ### [Gerenciar tíquetes pelo ServiceNow](./mtp/tickets.md)
 
+
+## [Configurações de acesso à identidade e dispositivo](../enterprise/microsoft-365-policies-configurations.md)
+### [Trabalho de pré-requisito](../enterprise/identity-access-prerequisites.md)
+### [Identidade comum e políticas de acesso ao dispositivo](../enterprise/identity-access-policies.md)
+### [Políticas de acesso recomendadas do Exchange Online](../enterprise/secure-email-recommended-policies.md)
+### [Políticas de acesso recomendadas do SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
+
 ## [Segurança do Office 365]()
 ### [Introdução]()
 #### [Mapa de segurança do Office 365](./office-365-security/security-roadmap.md)
@@ -43,7 +50,6 @@
 ##### [Perguntas frequentes sobre proteção antimalware](./office-365-security/anti-malware-protection-faq-eop.md)
 ##### [Proteção antispam e antimalware do Office 365](./office-365-security/anti-malware-protection.md)
 ##### [Perguntas frequentes sobre a proteção antispam](./office-365-security/anti-spam-protection-faq.md)
-##### [Controlar spam de saída no Office 365](./office-365-security/controlling-outbound-spam-in-Office-365.md)
 ##### [Evitar caracteres inválidos nas regras e política de filtro de spam](./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md)
 ##### [Remetente seguro e listas de remetentes bloqueados no Exchange Online](./office-365-security/safe-sender-and-blocked-sender-lists-faq.md)
 ##### [Dicas de segurança em mensagens de email no Office 365](./office-365-security/safety-tips-in-office-365.md)
@@ -55,7 +61,7 @@
 ##### [Proteção antispam de emails do Office 365](./office-365-security/anti-spam-protection.md)
 ##### [Como políticas e proteções são combinadas](./office-365-security/how-policies-and-protections-are-combined.md)
 ##### [Como reduzir emails de spam no Office 365](./office-365-security/reduce-spam-email.md)
-##### [Como controlar spam de saída no Office 365](./office-365-security/outbound-spam-controls.md)
+##### [Controlar spam de saída no Office 365](./office-365-security/outbound-spam-controls.md)
 ##### [Bloquear spam de email com o filtro de spam do Office 365 para evitar problemas de falsos negativos](./office-365-security/reduce-spam-email.md)
 ##### [Limpeza Automática Zero Hora – proteção contra spam e malware](./office-365-security/zero-hour-auto-purge.md)
 ##### [Garantir que o spam seja direcionado para a pasta Lixo Eletrônico de cada usuário](./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
@@ -253,4 +259,8 @@
 
 ### [Office 365 Enterprise](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 for Business](https://docs.microsoft.com/office-365-security/admin/admin-home)
-## [Conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
+
+
+
+
+## [Conformidade com o Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)

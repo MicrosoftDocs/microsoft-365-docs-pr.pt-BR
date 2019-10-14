@@ -12,30 +12,30 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Quando a Proteção do Exchange Online examina mensagens de emails de entrada, insere o cabeçalho **X-Forefront-Antispam-Report** em cada mensagem.
-ms.openlocfilehash: 5b7cefc2057d4e7705c991348a7710c2eaa4c7d9
-ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
+description: Aprenda sobre os campos e valores do cabeçalho que são adicionados às mensagens pela Proteção do Exchange Online.
+ms.openlocfilehash: 7a89a5dc0c05bd390669b5008b9d589a89488171
+ms.sourcegitcommit: b0396171d24c6298b809b43bb109d3afed4de5b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428412"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37451113"
 ---
 # <a name="anti-spam-message-headers"></a>Cabeçalhos de mensagem antispam
 
 Quando o Proteção do Exchange Online examina emails de entrada, insere o cabeçalho **X-Forefront-Antispam-Report** em cada mensagem. Os campos nesse cabeçalho podem ajudar a fornecer aos administradores informações sobre a mensagem e sobre como ela foi processada. Os campos no cabeçalho **X-Microsoft-Antispam** fornecem mais informações sobre email em massa e phishing. Além esses dois cabeçalhos, o Proteção do Exchange Online também insere resultados de autenticação de email para cada mensagem que ele processa no cabeçalho **Authentication-results**.
 
-Para obter informações sobre como exibir um cabeçalho de mensagem de email em vários clientes de email, veja [Analisador de Cabeçalho de Mensagens](https://go.microsoft.com/fwlink/p/?LinkId=306583).  
-  
+Para obter informações sobre como exibir um cabeçalho de mensagem de email em vários clientes de email, veja [Analisador de Cabeçalho de Mensagens](https://go.microsoft.com/fwlink/p/?LinkId=306583). 
+
 > [!TIP]
->  Você pode copiar e colar o conteúdo do cabeçalho da mensagem na ferramenta [Analisador de Mensagem](https://testconnectivity.microsoft.com/?tabid=mha). Essa ferramenta ajuda a analisar os cabeçalhos, deixando-os em um formato mais legível.
-  
+> Você pode copiar e colar o conteúdo do cabeçalho da mensagem na ferramenta [Analisador de Mensagem](https://testconnectivity.microsoft.com/?tabid=mha). Essa ferramenta ajuda a analisar os cabeçalhos, deixando-os em um formato mais legível.
+
 ## <a name="x-forefront-antispam-report-message-header-fields"></a>Campos de cabeçalho da mensagem X-Forefront-Antispam-Report
 
 Depois de acessar as informações do cabeçalho da mensagem, procure **X-Forefront-Antispam-Report** e por estes campos. Outros campos neste cabeçalho são usados exclusivamente pela equipe anti-spam da Microsoft para fins de diagnóstico.
 
 |**Campo do cabeçalho**|**Descrição**|
 |:-----|:-----|
-|CIP: [endereço IP]|O endereço IP de conexão. Talvez você queira especificar esse endereço IP quando estiver criando uma Lista de IPs Permitidos ou uma Lista de IPs Bloqueados no filtro de conexão. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md).|
+|CIP: \[endereço IP\]|O endereço IP de conexão. Talvez você queira especificar esse endereço IP quando estiver criando uma Lista de IPs Permitidos ou uma Lista de IPs Bloqueados no filtro de conexão. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md).|
 |CTRY|O país/região a partir do qual a mensagem se conectou ao serviço. Isso é determinado pelo endereço IP de conexão, que pode não ser o mesmo que o endereço IP de envio original.|
 |LANG|O idioma no qual a mensagem foi escrita, conforme especificado pelo código de país/região (por exemplo, ru_RU para russo).|
 |SCL|O valor de Nível de Confiança de Spam (SCL) da mensagem. Para obter mais informações sobre como interpretar esses valores, consulte [Níveis de confiança de spam](spam-confidence-levels.md).  |
@@ -53,71 +53,70 @@ Depois de acessar as informações do cabeçalho da mensagem, procure **X-Forefr
 |SFV:SKI|De forma semelhante a SFV:SKN, a filtragem de mensagem é ignorada por outro motivo, como sendo email intraorganizacional em um locatário.|
 |SFV:SKQ|A mensagem foi liberada da quarentena e enviada para os destinatários pretendidos.|
 |SFV:NSPM|A mensagem foi marcada como não spam e enviada aos destinatários pretendidos.|
-|H: [helostring]|A cadeia de caracteres HELO ou EHLO do servidor de email que está se conectando.|
-|PTR: [ReverseDNS]|O registro PTR, ou registro do ponteiro, do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
+|H: \[helostring\]|A cadeia de caracteres HELO ou EHLO do servidor de email que está se conectando.|
+|PTR: \[ReverseDNS\]|O registro PTR, ou registro do ponteiro, do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
 |CAT:|A categoria da política de proteção, aplicada à mensagem: <br/>MALW: malware <br/>PHSH: phishing <br/>HSPM: spam de alta confiança <br/>SPOOF: falsificação <br/>SPM: spam <br/>BULK: em massa <br/>DIMP: representação de domínio <br/>UIMP: representação de usuário <br/>Potencialmente, uma mensagem de entrada pode ser sinalizada por várias formas de proteção e várias verificações de detecção. As políticas têm prioridades diferentes, e a política com a prioridade mais alta será aplicada. Confira [Qual política se aplica quando vários métodos de proteção e varreduras são executados em seu email](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined).|
 |SFTY|A mensagem foi identificada como phishing e também será marcada com um dos seguintes valores: <br/>9.1: Valor padrão. A mensagem contém uma URL de phishing, pode conter outro conteúdo de phishing ou pode ter sido marcada como phishing por outro filtro de email, como uma versão local do Exchange Server, antes de retransmitir a mensagem para o Office 365. <br/>9.11: A mensagem falhou nas verificações de antifalsificação em que o domínio de envio em De: o cabeçalho é o mesmo, está alinhado ou faz parte da mesma organização que o domínio de recebimento. Isso indica que uma dica de segurança de dentro da organização contra falsificação será adicionada à mensagem. <br/>9.19: A mensagem falhou na verificação de usurpação de identidade de domínio em que o domínio de envio está tentando representar um domínio de propriedade do destinatário ou um domínio personalizado protegido pela política de anti-phishing. Isso indica que uma dica de segurança de representação será adicionada à mensagem, se habilitada pela política anti-phishing. <br/>9.20: A mensagem falhou na verificação de usurpação de identidade de domínio em que o domínio de envio está tentando representar um usuário na organização de receptores ou um domínio personalizado protegido pela política de anti-phishing. Isso indica que uma dica de segurança de representação será adicionada à mensagem, se habilitada pela política anti-phishing. <br/>9.21: A mensagem falhou em verificações de antifalsificação e o domínio de envio em De: o cabeçalho não autentica e é de um domínio externo. Usado em combinação com o CompAuth (consulte Resultados-de-Autenticação). <br/>9.22: Igual a 9.21, exceto pelo fato de o usuário ter um remetente seguro que foi substituído. <br/>9.23: Igual a 9.22, exceto que a organização tem um remetente ou domínio permitido que foi substituído. <br/>9.24: Igual a 9.23, exceto pelo fato de o usuário ter uma regra de fluxo de emails do Exchange que foi substituído.|
-|X-CustomSpam: [ASFOption]|A mensagem corresponde a uma opção de filtragem de spam avançada. Por exemplo, **X-CustomSpam: os links de Imagem para sites remotos** indica que os** links de Imagem para sites remotos de** ASF foram correspondidas. Para descobrir qual texto de cabeçalho X é adicionado para cada opção ASF específica, consulte [Opções de Filtragem de Spam Avançada](advanced-spam-filtering-asf-options.md).|
+|X-CustomSpam: \[ASFOption\]|A mensagem corresponde a uma opção avançada de filtragem de spam. Por exemplo, **X-CustomSpam: os links de Imagem para sites remotos** indica que os** links de Imagem para sites remotos de** ASF foram correspondidas. Para descobrir qual texto do cabeçalho X é adicionado para cada opção ASF específica, confira [Opções adicionais de filtragem de spam](advanced-spam-filtering-asf-options.md).|
 |
 
 ## <a name="x-microsoft-antispam-message-header-fields"></a>Campos de cabeçalho da mensagem X-Microsoft-Antispam
 
 A tabela a seguir descreve campos úteis no cabeçalho da mensagem **X-Microsoft-Antispam**. Outros campos neste cabeçalho são usados exclusivamente pela equipe anti-spam da Microsoft para fins de diagnóstico.
-  
+
 |**Campo do cabeçalho**|**Descrição**|
 |:-----|:-----|
-|BCL|O Nível de Reclamação em Massa (BCL) da mensagem. Para saber mais, veja [Valores de nível compatível com dados em massa](bulk-complaint-level-values.md).  |
 |PCL|O Nível de Confiança de Phishing (PCL) da mensagem que indica se é uma mensagem de phishing. Esse status pode ser retornado como um dos seguintes valores numéricos: <br/>**0-3**: O conteúdo da mensagem provavelmente não é phishing. <br/>**4-8**: O conteúdo da mensagem provavelmente é phishing. <br/>**-9990**: (somente da Proteção do Exchange Online) O conteúdo da mensagem é provavelmente phishing.  <br/>  Os valores são usados para determinar que ação o seu cliente de email toma em relação às mensagens. Por exemplo, o Outlook usa o carimbo PCL para bloquear o conteúdo de mensagens suspeitas.  Para ter mais informações sobre phishing e como o Outlook processa as mensagens de phishing, consulte [Ativar ou desativar links em mensagens de email](https://support.office.com/article/2D79B907-93B6-4774-82E6-1F0385CF20F8).|
 |
 
 ## <a name="authentication-results-message-header"></a>Cabeçalho da mensagem Authentication-results
 
 Os resultados das verificações em relação a SPF, DKIM e DMARC são gravados ou marcados pelo Office 365 no cabeçalho da mensagem **Authentication-results** quando os servidores de email recebem uma mensagem de email.
-  
-### <a name="check-stamp-syntax-and-examples"></a>verificar sintaxe e exemplos de carimbo
+
+### <a name="check-stamp-syntax-and-examples"></a>Verifique a sintaxe e os exemplos do carimbo
 
 Os exemplos de sintaxe a seguir mostram uma parte do texto "carimbo" que o Office 365 aplica ao cabeçalho da mensagem para cada email que passa por uma verificação de autenticação de email quando é recebida por nossos servidores de email. O carimbo é adicionado ao cabeçalho **Authentication-Results**.
-  
-**Sintaxe: Carimbo de verificação do SPF**
-  
+
+#### <a name="syntax-spf-check-stamp"></a>Sintaxe: Carimbo de verificação do SPF
+
 Para SPF, a seguinte sintaxe é aplicada.
-  
+
 ```text
 spf=<pass (IP address)|fail (IP address)|softfail (reason)|neutral|none|temperror|permerror> smtp.mailfrom=<domain>
 ```
 
-**Exemplos: Carimbo de verificação do SPF**
-  
+**Exemplos: carimbo de verificação de SPF
+
 ```text
 spf=pass (sender IP is 192.168.0.1) smtp.mailfrom=contoso.com
 spf=fail (sender IP is 127.0.0.1) smtp.mailfrom=contoso.com
 ```
 
-**Sintaxe: Carimbo de verificação do DKIM**
-  
+#### <a name="syntax-dkim-check-stamp"></a>Sintaxe: Carimbo de verificação do DKIM
+
 Para DKIM, a seguinte sintaxe é aplicada.
-  
+
 ```text
 dkim=<pass|fail (reason)|none> header.d=<domain>
 ```
 
-**Exemplos: Carimbo de verificação do DKIM**
-  
+** Exemplos: carimbo de verificação de DKIM
+
 ```text
 dkim=pass (signature was verified) header.d=contoso.com
 dkim=fail (body hash did not verify) header.d=contoso.com
 ```
 
-**Sintaxe: Carimbo de verificação do DMARC**
-  
+#### <a name="syntax-dmarc-check-stamp"></a>Sintaxe: Carimbo de verificação do DMARC
+
 Para DMARC, a seguinte sintaxe é aplicada.
-  
+
 ```text
 dmarc=<pass|fail|bestguesspass|none> action=<permerror|temperror|oreject|pct.quarantine|pct.reject> header.from=<domain>
 ```
 
-**Exemplos: Carimbo de verificação do DMARC**
-  
+#### <a name="examples-dmarc-check-stamp"></a>Exemplos: Carimbo de verificação do DMARC
+
 ```text
 dmarc=pass action=none header.from=contoso.com
 dmarc=bestguesspass action=none header.from=contoso.com
@@ -128,7 +127,7 @@ dmarc=fail action=oreject header.from=contoso.com
 ### <a name="authentication-results-message-header-fields-used-by-office-365-email-authentication"></a>Campos do cabeçalho da mensagem Authentication-results usados pela autenticação de email do Office 365
 
 Esta tabela descreve os campos e os valores possíveis para cada verificação de autenticação de email.
-  
+
 |**Campo do cabeçalho**|**Descrição**|
 |:-----|:-----|
 |spf|Descreve os resultados da verificação do SPF para a mensagem. Os valores possíveis incluem:<br/>**pass (endereço IP)**: Indica que a verificação do SPF para a mensagem foi aprovada e inclui um endereço IP do remetente. O cliente está autorizado a enviar ou retransmitir emails em nome do domínio do remetente. <br/>**fail (endereço IP)**: Indica a verificação do SPF para a mensagem reprovada e inclui um endereço IP do remetente. Isso também é conhecido como _falha grave_. <br/>**softfail (motivo)**: Indica que o registro SPF designou o host como não tendo permissão para enviar, mas está em transição. <br/>**neutral**: Indica que o registro SPF declarou explicitamente que não definiu se o endereço IP está autorizado. <br/>**none**: Indica que o domínio não tem um registro SPF ou o registro SPF não é avaliado como um resultado. <br/>**temperror**: Indica que ocorreu um erro que pode ser temporário, por exemplo, um erro de DNS. Tentar novamente mais tarde poderá ser bem sucedido sem qualquer ação do administrador. <br/>**permerror**: Indica que um erro permanente ocorreu. Isso acontece quando, por exemplo, o domínio tem um registro SPF mal formatado.|

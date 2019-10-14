@@ -16,8 +16,8 @@
 ### [Configurar dispositivos móveis](set-up-mobile-devices.md)
 ### [Configurar dispositivos do Windows](set-up-windows-devices.md)
 ## [Proteja sua empresa](security-features.md)
+### [Configurar o MFA](set-up-mfa.md)
 ### [Aumentar proteção contra ameaças](increase-threat-protection.md)
-### [Introdução ao Acesso Condicional](set-up-conditional-access-policies.md)
 ### [Configurar recursos de conformidade](set-up-compliance.md)
 ## Gerenciar Usuários
 ### [Adicionar usuários](add-users-m365b.md)
