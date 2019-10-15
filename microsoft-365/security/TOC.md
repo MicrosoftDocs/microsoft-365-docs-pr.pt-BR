@@ -1,14 +1,31 @@
 # [Segurança do Microsoft 365](index.yml)
 
+## Introdução
+### [Segurança do Microsoft 365 para responsáveis por decisões de negócios (BDMs)](Microsoft-365-security-for-bdm.md)
+### [Classificação de segurança](./mtp/microsoft-secure-score.md)
+### [Workshop de treinamento de Diretor Executivo de Segurança da Informação (CISO)](./office-365-security/ciso-workshop.md)
+#### [Módulo 1 - Instruções de segurança cibernética da Microsoft](./office-365-security/ciso-workshop-module-1.md)
+#### [Módulo 2 - Gerenciamento de segurança](./office-365-security/ciso-workshop-module-2.md)
+#### [Módulo 3 - Gerenciamento de identidades e acesso](./office-365-security/ciso-workshop-module-3.md)
+#### [Módulo 4a - Estratégia de proteção contra ameaças, Parte I](./office-365-security/ciso-workshop-module-4a.md) 
+#### [Módulo 4b - Estratégia de proteção contra ameaças, Parte II](./office-365-security/ciso-workshop-module-4b.md)
+#### [Módulo 5 - Proteção de informações](./office-365-security/ciso-workshop-module-5.md)
+
+
+## [Configurações de acesso à identidade e dispositivo](../enterprise/microsoft-365-policies-configurations.md)
+### [Trabalho de pré-requisito](../enterprise/identity-access-prerequisites.md)
+### [Identidade comum e políticas de acesso ao dispositivo](../enterprise/identity-access-policies.md)
+### [Políticas de acesso recomendadas do Exchange Online](../enterprise/secure-email-recommended-policies.md)
+### [Políticas de acesso recomendadas do SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
+
+
 ## Proteção contra Ameaças da Microsoft
 ### [Visão geral]()
 #### [O que é a Proteção contra Ameaças da Microsoft?](mtp/microsoft-threat-protection.md)
 #### [Centro de segurança do Microsoft 365](mtp/overview-security-center.md)
 
-
 ### [Procurando no Microsoft 365](./mtp/hunting.md)
 
-### [Classificação de segurança](./mtp/microsoft-secure-score.md)
 
 ### [Relatórios]()
 #### [Monitorar e exibir relatórios](./mtp/monitoring-and-reporting.md)
@@ -20,12 +37,6 @@
 ### [Gerenciar tíquetes pelo ServiceNow](./mtp/tickets.md)
 
 
-## [Configurações de acesso à identidade e dispositivo](../enterprise/microsoft-365-policies-configurations.md)
-### [Trabalho de pré-requisito](../enterprise/identity-access-prerequisites.md)
-### [Identidade comum e políticas de acesso ao dispositivo](../enterprise/identity-access-policies.md)
-### [Políticas de acesso recomendadas do Exchange Online](../enterprise/secure-email-recommended-policies.md)
-### [Políticas de acesso recomendadas do SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
-
 ## [Segurança do Office 365]()
 ### [Introdução]()
 #### [Mapa de segurança do Office 365](./office-365-security/security-roadmap.md)
@@ -34,13 +45,8 @@
 #### [Permissões no Centro de Segurança e Conformidade](./office-365-security/permissions-in-the-security-and-compliance-center.md)
 #### [Conceder aos usuários acesso ao Centro de Segurança](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
-#### [Workshop de treinamento de Diretor Executivo de Segurança da Informação (CISO)](./office-365-security/ciso-workshop.md)
-##### [Módulo 1 - Instruções de segurança cibernética da Microsoft](./office-365-security/ciso-workshop-module-1.md)
-##### [Módulo 2 - Gerenciamento de segurança](./office-365-security/ciso-workshop-module-2.md)
-##### [Módulo 3 - Gerenciamento de identidades e acesso](./office-365-security/ciso-workshop-module-3.md)
-##### [Módulo 4a - Estratégia de proteção contra ameaças, Parte I](./office-365-security/ciso-workshop-module-4a.md) 
-##### [Módulo 4b - Estratégia de proteção contra ameaças, Parte II](./office-365-security/ciso-workshop-module-4b.md)
-##### [Módulo 5 - Proteção de informações](./office-365-security/ciso-workshop-module-5.md)
+
+
 
 
 ### [Proteção contra ameaças](./office-365-security/protect-against-threats.md)
