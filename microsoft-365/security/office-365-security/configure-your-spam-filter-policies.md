@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 38160952827d8e60884877a67aea15521000f63f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fb46e735c4fae73565b6fe008d47a3e7ffd3f4cb
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072841"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510558"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -50,7 +50,7 @@ Para habilitar mais configurações personalizadas ou adicionar políticas perso
 
 3. Na seção **Ações em massa e spam**:
 
-  - Selecione uma ação para os tipos de **Spam**, **Spam de alta confiança**, **Email de phishing** e **Emails em massa**. Os valores disponíveis são: 
+  - Selecione uma ação para os tipos de **Spam**, **Spam de alta confiança**, **Email de phishing de alta confiança** e **Email de phishing** e **Emails em massa**. Os valores disponíveis são: 
 
     - **Mover mensagem para a pasta Lixo Eletrônico:** envia a mensagem para a pasta Lixo Eletrônico dos destinatários especificados. Esta é a ação padrão para spam, spam de alta confiança e em massa.<br/><br/>
 
