@@ -1,8 +1,8 @@
 # [Conformidade do Microsoft 365](index.yml)
 
 # Introdução
-## [Novidades do centro de conformidade](whats-new.md)
-## [Atualizações recentes para conteúdo de conformidade](recently-updated-topics-mcc.md)
+## [O que há de novo no Centro de Conformidade](whats-new.md)
+## [Atualizações recentes do conteúdo de conformidade](recently-updated-topics-mcc.md)
 ## [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md)
 ## [Ir para o Centro de Conformidade e Segurança](go-to-the-securitycompliance-center.md)
 ## [Usar assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -17,8 +17,8 @@
 ## Chave de Cliente
 ### [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md)
 ### [Criptografia de serviço com Chave de Cliente para perguntas frequentes do Office 365](service-encryption-with-customer-key-faq.md)
-## [Supervisão de comunicação]()
-### [Saiba mais sobre a supervisão de comunicação](supervision-policies.md)
+## [Supervisão]()
+### [Aprenda sobre políticas de supervisão](supervision-policies.md)
 ### [Configure as políticas de supervisão da sua organização](configure-supervision-policies.md)
 ## [Barreiras de informações](information-barriers.md)
 ### [Definir políticas de barreira de informações](information-barriers-policies.md)
@@ -31,7 +31,7 @@
 ### [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md)
 ### [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)
 ### [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
-### [Rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md)
+### [Rótulos de sensibilidade em aplicativos do Office](sensitivity-labels-office-apps.md)
 
 ## [Data loss prevention (DLP)](data-loss-prevention-policies.md)
 ### [DLP e Microsoft Teams](dlp-microsoft-teams.md)
@@ -106,7 +106,7 @@
 ### [Gerenciador de planos de arquivo](file-plan-manager.md)
 ### [Rótulos de retenção](labels.md)
 ### [Cumprir com a Regra SEC 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/pt-BR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Retenção baseada em eventos](event-driven-retention.md)
 ### [Automatizar retenção baseada em eventos](automate-event-driven-retention.md)
 ## [Descartar dados](disposition-reviews.md)
@@ -127,7 +127,7 @@
 ### Plano de arquivos
 #### [Gerenciador de planos de arquivo](file-plan-manager.md)
 #### [Rótulos de retenção](labels.md)
-#### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [Criar e publicar rótulos de retenção usando o PowerShell](https://docs.microsoft.com/pt-BR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
 #### [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
 #### [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
@@ -211,7 +211,7 @@
 
 ### [Analisar dados de ocorrência](analyzing-data-in-review-set.md)
 #### [Próximo detecção duplicada](near-duplicate-detection-in-advanced-ediscovery.md)
-#### [Email threading](email-threading-in-advanced-ediscovery.md)
+#### [Threading de emails](email-threading-in-advanced-ediscovery.md)
 #### [Temas](themes-in-advanced-ediscovery.md)
 #### [Usar o módulo relevância para analisar dados](using-relevance.md)
 
@@ -318,7 +318,7 @@
 
 ## [Executar análise para investigar mais rápido](run-analytics-to-investigate-faster.md)
 ### [Threading de emails](email-threading.md)
-### [Detecção de duplicata próxima](near-duplicates.md)
+### [Próximo detecção duplicada](near-duplicates.md)
 ### [Temas](themes.md)
 ### [Usar o módulo de Relevância](use-relevance-module.md)
 
@@ -330,7 +330,7 @@
 ### [Exportar documentos de evidência](export-documents-from-incident.md)
 ### [Baixar trabalhos de exportação](download-export-jobs-from-a-data-investigation.md)
 
-## [Definir configurações de investigações de dados](configure-settings-datainvestigations.md)
+## Definir configurações de investigação
 ### [Adicionar ou remover membros de uma investigação](add-remove-members.md)
 ### [Definir configurações de pesquisa e análise](configure-search-analytics-settings.md)
 ### [Feche ou exclua uma investigação](close-or-delete-investigation.md)
