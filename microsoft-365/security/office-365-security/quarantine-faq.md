@@ -14,12 +14,12 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a quarentena hospedada.
-ms.openlocfilehash: 389fa939c2fd35351abad4d355829656c3977deb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 393542596eacd26a4f64237f666fabfe236dceed
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073594"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510528"
 ---
 # <a name="quarantine-faq"></a>Perguntas Frequentes sobre a Quarentena
 
@@ -47,15 +47,15 @@ R. Para acessar a quarentena de spam de usuário final, os usuários finais deve
   
  **P. É possível enviar qualquer outra mensagem, além de spam, para a quarentena?**
   
-R. As mensagens que correspondem a uma regra de fluxo de emails (também conhecida como regra de transporte) também podem ser enviadas para a quarentena do administrador, se essa for a ação configurada. A quarentena de usuário final destina-se apenas a spam.
+A. Sim. As mensagens que correspondem a uma regra de fluxo de emails (também conhecida como regra de transporte) junto com as mensagens identificadas como Phish também podem ser enviadas para a quarentena do administrador, se essa for a ação configurada. A quarentena de usuário final destina-se apenas a spam.
   
  **P. Por quanto tempo as mensagens são mantidas na quarentena?**
   
-R. Por padrão, as mensagens de spam em quarentena são mantidas em quarentena por 30 dias, enquanto as mensagens em quarentena que correspondem a uma regra de fluxo de emails são mantidas em quarentena por 7 dias. Após esse período de tempo, as mensagens serão excluídas e não podem ser recuperadas. O período de retenção para mensagens em quarentena que correspondem a uma regra de fluxo de emails não é configurável. No entanto, o período de retenção para mensagens de spam em quarentena pode ser reduzido através da configuração **Reter spam por (dias)** nas suas políticas de filtro de conteúdo. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).
+R. Por padrão, as mensagens de spam em quarentena são mantidas em quarentena por 30 dias, enquanto as mensagens em quarentena que correspondem a uma regra de fluxo de emails são mantidas em quarentena por até 30 dias, com base no período de retenção definido em sua política de filtro de conteúdo padrão. Após esse período de tempo, as mensagens serão excluídas e não podem ser recuperadas. O período de retenção para mensagens em quarentena que correspondem a uma regra de fluxo de emails não é configurável. No entanto, o período de retenção para mensagens de spam em quarentena pode ser reduzido através da configuração **Reter spam por (dias)** nas suas políticas de filtro de conteúdo. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).
   
  **P. Posso liberar ou relatar mais de uma mensagem em quarentena por vez?**
   
-R. A capacidade de liberar ou relatar várias mensagens ao mesmo tempo não está disponível no momento no Eat ou na quarentena de spam do usuário final. No entanto, os administradores podem criar um script remoto do Windows PowerShell para realizar essa tarefa. Use o cmdlet [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) para procurar por mensagens, e o cmdlet [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) para liberá-las. 
+R. Sim, até 100 mensagens podem ser liberadas de uma só vez no portal de quarentena. Além disso, os administradores podem criar um script do Windows PowerShell remoto para realizar essa tarefa. Use o cmdlet [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) para procurar por mensagens, e o cmdlet [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) para liberá-las. 
   
  **P. Coringas são aceitos durante a pesquisa de mensagens em quarentena? Posso pesquisar mensagens em quarentena em um domínio específico?**
   

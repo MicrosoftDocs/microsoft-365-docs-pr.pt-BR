@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: Este artigo descreve como o Office 365 usa o registro TXT SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas do seu domínio personalizado. Isso se aplica a mensagens de saída enviadas do Office 365. As mensagens enviadas do Office 365 para um destinatário no Office 365 sempre passarão a SPF.'
-ms.openlocfilehash: 2845fc9b20b337764159d9debc04f165dcb4bf62
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7db1259f4ec15fffe46955ba2166b244c5737d43
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072444"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510548"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Office 365 usa o Sender Policy Framework (SPF) para evitar falsificação
 
@@ -244,6 +244,6 @@ Você pode usar nslookup para visualizar seus registros DNS, incluindo seu regis
 ## <a name="for-more-information"></a>Para saber mais
 <a name="SPFTroubleshoot"> </a>
 
-Precisa de ajuda para adicionar o registro TXT SPF? Estão disponíveis [instruções passo a passo](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) para atualizar registros TXT SPF em uma série de registradores de domínios conhecidos. [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md) inclui os campos de cabeçalho e sintaxe usados pelo Office 365 para verificações do SPF. 
+Precisa de ajuda para adicionar o registro TXT SPF? Leia o artigo [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide#add-a-txt-record-for-spf-to-help-prevent-email-spam) para obter informações detalhadas sobre o uso da estrutura de política de remetente com seu domínio personalizado no Office 365. [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md) inclui os campos de cabeçalho e sintaxe usados pelo Office 365 para verificações do SPF. 
   
 
