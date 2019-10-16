@@ -1,8 +1,8 @@
 ---
 title: Workshop do diretor de segurança de informações (CISO)
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: 95bfc90211b90e129e6b208ab09b6123c61ccaae
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6987f5fcb0504ad4b5bee91a417ff632faa11623
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072849"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37523616"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>Treinamento de workshop do diretor de segurança de informações (CISO)
 
@@ -32,7 +32,7 @@ Os vídeos do CISO Workshop e o conteúdo de download do PDF/PowerPoint são mod
 
 - [Módulo 2: gerenciamento de segurança](ciso-workshop-module-2.md): saiba como aumentar a visibilidade e o controle sobre seus bens corporativos híbridos com orientação integrada, imposição automatizada de políticas e monitoramento.
 
-- [Módulo 3: gerenciamento de identidade e acesso](ciso-workshop-module-3.md): como a maioria dos ataques modernos envolve as identidades de usuário comprometetivas, saiba como criar um novo perímetro de segurança de identidade para proteger ativos fora da sua rede corporativa.
+- [Módulo 3: módulo 3-Identity e zero Trust User Access](ciso-workshop-module-3.md): saiba como incluir conceitos de confiança zero em sua identidade e estratégia de acesso de usuário para proteger melhor os dados corporativos dentro e fora do perímetro da rede.
 
 - [Módulo 4a: estratégia de proteção contra ameaças, parte I](ciso-workshop-module-4a.md): Explore as principais aprendizados sobre proteção contra ameaças, evolução da segurança, estratégias e mapas de segurança.
 

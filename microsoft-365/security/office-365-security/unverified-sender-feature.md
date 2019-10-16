@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: 1b6c834f5d54c54a577b51edf5f135e30990a92c
-ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
+ms.openlocfilehash: 6f3d11a510756871d6688dc948e2a50b4d59406d
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510538"
+ms.locfileid: "37523626"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -33,6 +33,15 @@ Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.c
 ## <a name="how-can-i-identify-a-suspicious-message-in-my-inbox"></a>Como identificar uma mensagem suspeita em minha caixa de entrada?
 
 O Outlook.com e o Outlook na Web mostram indicadores quando o remetente de uma mensagem não pode ser identificado ou sua identidade é diferente da que você vê no endereço do remetente.
+
+## <a name="you-see-a--in-the-sender-image"></a>Você vê um '? ' na imagem do remetente
+
+Quando o Outlook.com e o Outlook na Web não conseguem verificar a identidade do remetente usando técnicas de autenticação de email, eles exibem um '? ' na foto do remetente. 
+
+![A mensagem não passou na verificação](../media/message-did-not-pass-verification.jpg)
+
+Nem todas as mensagens que não são autenticadas são mal-intencionadas. No entanto, você deve ter cuidado para interagir com mensagens que não são autenticadas se você não reconhece o remetente. Ou, se você reconhece um remetente que normalmente não tem um '? ' na imagem do remetente, mas, repentinamente, você começa a vê-lo, que pode ser um sinal de que o remetente está sendo falsificado.
+
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>Como gerenciar quais mensagens recebem o tratamento de remetentes não verificados 
 
@@ -49,14 +58,6 @@ Se você for um cliente do Office 365, poderá gerenciar esse recurso através d
     - Adicione o par de domínios através do cmdlet PhishFilterPolicy. Para obter mais detalhes, consulte Set-PhishFilterPolicy e anti-falsification Protection in Office 365
 
 Além disso, não aplicamos o tratamento de remetente não verificado se ele foi entregue à caixa de entrada por meio de uma lista de permissões de administração, incluindo regras de transporte de email (ETRs), lista de domínios seguros (política antispam), lista de remetentes seguros ou um usuário tiver definido esse usuário como um "remetente seguro" em seu postal.
-
-### <a name="you-see-a--in-the-sender-image"></a>Você vê um '? ' na imagem do remetente
-
-Quando o Outlook.com e o Outlook na Web não conseguem verificar a identidade do remetente usando técnicas de autenticação de email, eles exibem um '? ' na foto do remetente. 
-
-![A mensagem não passou na verificação](../media/message-did-not-pass-verification.jpg)
-
-Nem todas as mensagens que não são autenticadas são mal-intencionadas. No entanto, você deve ter cuidado para interagir com mensagens que não são autenticadas se você não reconhece o remetente. Ou, se você reconhece um remetente que normalmente não tem um '? ' na imagem do remetente, mas, repentinamente, você começa a vê-lo, que pode ser um sinal de que o remetente está sendo falsificado.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
