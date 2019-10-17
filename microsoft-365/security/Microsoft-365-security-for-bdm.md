@@ -10,16 +10,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: os cenários mais comuns de ameaças e ataques enfrentados pelas organizações para seus ambientes Microsoft 365 e as ações recomendadas para reduzir esses riscos.
-ms.openlocfilehash: 16108f71702e2464721fa09fee4c6c298496a2c4
-ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
+ms.openlocfilehash: c847e11d141dd6b3b4ce7601631259ba73e1703f
+ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2019
-ms.locfileid: "37481314"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37556816"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Segurança da Microsoft 365 para responsáveis por decisões de negócios (BDMs)
 
-Este artigo discute alguns dos cenários mais comuns de ameaça e ataque enfrentados pelas organizações para seus ambientes Microsoft 365 e as ações recomendadas para a redução desses riscos. Embora o Microsoft 365 seja fornecido com uma ampla variedade de recursos de segurança pré-configurados, ele também exige que o cliente realize a responsabilidade de proteger suas próprias identidades, dados e dispositivos usados para acessar os serviços de nuvem. 
+Este artigo discute alguns dos cenários mais comuns de ameaça e ataque enfrentados pelas organizações para seus ambientes Microsoft 365 e as ações recomendadas para a redução desses riscos. Embora o Microsoft 365 seja fornecido com uma ampla variedade de recursos de segurança pré-configurados, ele também exige que o cliente realize a responsabilidade de proteger suas próprias identidades, dados e dispositivos usados para acessar os serviços de nuvem. Esta orientação foi desenvolvida por Kozeta feixe (Microsoft Cloud Security Architect) e Thiagaraj Sundararajan (consultor sênior da Microsoft).
 
 Este artigo é organizado por prioridade de trabalho, começando com a proteção dessas contas usadas para administrar os serviços e ativos mais importantes, como seu locatário, email e SharePoint. Ele oferece uma maneira de método de abordagem de segurança e funciona em conjunto com a planilha a seguir para que você possa acompanhar o progresso dos participantes e das equipes em sua organização: [Microsoft 365 Security for BDMs](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx). 
 
