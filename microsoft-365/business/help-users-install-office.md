@@ -10,18 +10,23 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 'Ajudar os usuários a instalar os aplicativos do Office. '
-ms.openlocfilehash: 5b953cda7dbd8c2ebe5a6f276ba275e459e95028
-ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
+description: Ajudar os usuários a instalar os aplicativos do Office.
+ms.openlocfilehash: 4ecb08d5dbaab7553a87f7cea85f527367600d6a
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37523636"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574769"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Ajudar os usuários a instalar o Office em dispositivos Windows 10
 

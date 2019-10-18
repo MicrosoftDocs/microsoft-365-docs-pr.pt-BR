@@ -12,19 +12,24 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Saiba mais sobre as políticas que direcionam dispositivos específicos e grupos de segurança para proteger os dados da empresa nos dispositivos pessoais do usuário.
-ms.openlocfilehash: a34d0a83f10aba1bf9bffb2b81907d7629344665
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: f0a7f5ac91fa7eb20c54024f8017927199a7758b
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288066"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574589"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Como as políticas do Microsoft 365 Business protegem os dados da empresa
 

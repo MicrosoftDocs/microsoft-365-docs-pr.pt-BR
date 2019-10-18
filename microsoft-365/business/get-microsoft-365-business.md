@@ -10,18 +10,23 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Saiba como comprar o Microsoft 365 Business pelo Microsoft Partner Center.
-ms.openlocfilehash: 27f0b291861959c7fe925f5c72698895999d65f8
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: cd13db200292f84ea736bbd27af69608e576e586
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287786"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574899"
 ---
 # <a name="get-microsoft-365-business"></a>Obter o Microsoft 365 Business
 

@@ -14,27 +14,28 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Saiba como usar o Microsoft 365 Business para remover dados da empresa de dispositivos de usuário ou computadores Windows. '
-ms.openlocfilehash: 804c8104dca4c9203f603346da2a746e36c23dcd
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 169bc7d849bb934de2788daebb90308b1a086111
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074561"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575729"
 ---
 # <a name="remove-company-data-from-devices"></a>Remover dados da empresa de dispositivos
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>Remover dados da empresa
 
 Você pode usar o Microsoft 365 Business para remover dados da empresa que seus usuários têm nos [dispositivos](app-protection-settings-for-android-and-ios.md) ou [PCs Windows](protection-settings-for-windows-10-devices.md) protegidos pelo Microsoft 365. **Se você remover os dados da empresa de um dispositivo, não é possível restaurá-los mais tarde**. 
   
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em.
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
 2. Na barra de navegação esquerda, escolha **dispositivos** \> **gerenciar**.  
   

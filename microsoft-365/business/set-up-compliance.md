@@ -10,17 +10,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e rotular dados confidenciais.
-ms.openlocfilehash: a0ba2fa6dbe7c786d577ad7098c1790f569f5acc
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: 73709c1302a2e9e46eb2d54ea021438b5f1743c5
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453898"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575649"
 ---
 # <a name="set-up-compliance-features"></a>Configurar recursos de conformidade
 

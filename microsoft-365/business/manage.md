@@ -8,18 +8,23 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Saiba como gerenciar tarefas de administração relacionadas a negócios da Microsoft 365, dispositivos móveis, Windows 10PCs e muitas dessas tarefas.
-ms.openlocfilehash: 87ba4093a37c708fe405cd0876a53f8b9ae91567
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287947"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575949"
 ---
 # <a name="manage-microsoft-365-business"></a>Gerenciar o Microsoft 365 Business
 
@@ -73,9 +78,9 @@ Os tópicos a seguir descrevem como você pode usar o Windows AutoPilot no Micro
   
 - [Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot](add-autopilot-devices-and-profile.md)
     
-- [Criar e editar os perfis do AutoPilot](create-and-edit-autopilot-profiles.md)
+- [Criar e editar perfis do AutoPilot](create-and-edit-autopilot-profiles.md)
     
-- [Criar e editar os dispositivos do AutoPilot](create-and-edit-autopilot-devices.md)
+- [Criar e editar dispositivos do AutoPilot](create-and-edit-autopilot-devices.md)
     
 - [Solucionar problemas de dispositivo do AutoPilot](troubleshoot-autopilot-errors.md)
     

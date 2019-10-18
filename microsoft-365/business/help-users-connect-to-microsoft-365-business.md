@@ -12,19 +12,24 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Saiba o que esperar após a conclusão da instalação do Business Cloud Suite.
-ms.openlocfilehash: 62a1a64bea0db3793e903469d8898a789cbc4242
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: b11c247e8d857f8c7a4d41f633267038b3dd86c6
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288046"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574689"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Ajudar usuários a se conectar ao Microsoft 365 Business
 

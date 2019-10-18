@@ -10,19 +10,24 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Saiba agora para implantar automaticamente o Office em dispositivos Windows 10 durante a instalação.
-ms.openlocfilehash: b924cf148bbd765d9ef5265853f1354f5cd5db0e
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 64585d0a34e409822959939d5ae40fac57ff943b
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288166"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575989"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Instalar o Office para Windows 10 durante a configuração
 

@@ -11,19 +11,24 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: 'Saiba como criar, editar, excluir ou remover perfis do AutoPilot. '
-ms.openlocfilehash: 8fae8af5e7aa7b866745d0b34a4fe11862de6e9d
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+description: Saiba como criar, editar, excluir ou remover perfis do AutoPilot.
+ms.openlocfilehash: 4305340a2fc5df8202cf4d85f9e2541690bf9ed0
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287766"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574709"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Criar e editar os perfis do AutoPilot
 

@@ -10,18 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-security-compliance
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business.
-ms.openlocfilehash: c0c37b09fd0bb0218864b6bc97aa127feae1ff16
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: 668b83e363a40e61391cbe56b0dbfab88cae7c43
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453967"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575689"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
 

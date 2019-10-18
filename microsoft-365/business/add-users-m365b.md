@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Saiba como adicionar novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business.
-ms.openlocfilehash: 9451be8a13c78230d0314e6d4ac74a6c9d7564ae
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287426"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574749"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Adicionar usuários adicionais ao Microsoft 365 Business
 
 ## <a name="add-new-users"></a>Adicionar novos usuários
 
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em. 
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
 2. Na navegação à esquerda, escolha usuários **ativos**do **usuário** \> .
 1. Na página **usuários ativos** , escolha **Adicionar um usuário**.
  4. No painel **novo usuário** , digite as informações necessárias. 
