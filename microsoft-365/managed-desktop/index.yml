@@ -5,16 +5,15 @@ metadata:
   title: Documentação da área de trabalho gerenciada da Microsoft
   description: null
   keywords: 'dispositivo, aplicativo, gerenciamento'
-  author: trudyha
-  ms.author: trudyha
-  ms.date: 11/1/2018
+  author: jaimeo
+  ms.author: jaimeo
   ms.topic: landing-page
   ms.devlang: na
   ms.service: m365-md
 sections:
   - items:
       - type: markdown
-        text: A maneira mais fácil de encantarão os usuários e liberá-lo.
+        text: 'A área de trabalho gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseado em nuvem pela Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de ti para se concentrar nas principais necessidades de negócios.'
   - items:
       - type: list
         style: cards
@@ -22,30 +21,30 @@ sections:
         columns: 2
         items:
           - href: intro/index.md
-            html: <p>Leia sobre o que é o Microsoft Managed desktop e como ele funciona.</p>
+            html: '<p>Introdução à área de trabalho gerenciada da Microsoft para tomadores de decisões-o que é, como funciona e o que ele pode fazer por você</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_overview.svg'
-            title: O que é o Microsoft Managed desktop?
+            title: O que é a Área de Trabalho Gerenciada da Microsoft?
           - href: service-description/index.md
-            html: <p>Saiba o que está incluído na área de trabalho gerenciada da Microsoft.</p>
+            html: <p>Descrição detalhada de todas as partes da área de trabalho gerenciada da Microsoft</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
             title: Descrição do serviço
           - href: get-ready/index.md
-            html: <p>Saiba como se preparar para se inscrever na área de trabalho gerenciada da Microsoft.</p>
+            html: <p>Todas as etapas para preparar seu ambiente e a organização para trabalhar com o serviço</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_support.svg'
             title: Prepare-se
           - href: get-started/index.md
-            html: <p>Saiba como encomendar dispositivos e adicionar contatos.</p>
+            html: '<p>Obtenha sua organização no Conselho com a área de trabalho gerenciada da Microsoft, incluindo a configuração de dispositivos e a implantação de aplicativos</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_whats-new.svg'
             title: Introdução
           - href: working-with-managed-desktop/index.md
-            html: <p>Saiba mais sobre o gerenciamento de aplicativos.</p>
+            html: <p>Tudo sobre suas operações diárias com o serviço</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_portal.svg'
-            title: Trabalhando com a área de trabalho gerenciada da Microsoft
+            title: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
   - title: Novos artigos e postagens de blog
     items:
       - type: paragraph
