@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Proteger contra phishing e outros ataques com o Microsoft 365 para campanhas.
-ms.openlocfilehash: 4902a2273eef110ced9ae16c3b91f39ac990a736
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
+ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772478"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37593856"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Proteger-se contra phishing e outros ataques
 
@@ -66,7 +66,7 @@ Ajude seus clientes a confiar em suas comunicações adicionando uma assinatura 
 
 Baixe este infográfico com dicas para você e os membros de sua equipe de campanha:
 
-[! A ajuda para proteger seu gráfico de informações de campanha](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)] (downloads/M365CampaignsWhatCanUsersDoToSecure. pdf)
+[![O gráfico de informações de ajuda para proteger seu campanha](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | do[PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 

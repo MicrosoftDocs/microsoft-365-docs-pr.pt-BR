@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 67274f4f6483b3f22e9526df8dfbdd872c0573ef
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 3739f9f0ab7a7faa9c0467b29cc6c401254e8f58
+ms.sourcegitcommit: aa878adee65a1cdf87d4cabda41ab35673957f40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982012"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590495"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -42,15 +42,15 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |Nível de Proteção|Políticas|Mais informações|
 |:---------------|:-------|:----------------|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
-|        |[Bloquear clientes que não dão suporte à autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Os clientes que não usam a autenticação moderna podem ignorar as regras de acesso condicional, portanto, é importante bloquear esses|
+|        |[Bloquear clientes que não oferecem suporte à autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Os clientes que não usam a autenticação moderna podem ignorar as regras de acesso condicional, portanto, é importante bloquear esses|
 |        |[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Obriga os usuários a alterarem a senha ao entrar se a atividade de alto risco for detectada para sua conta|
 |        |[Definir políticas de proteção de aplicativos](#define-app-protection-policies)|Uma política por plataforma (iOS, Android, Windows).|
 |        |[Exigir aplicativos aprovados](#require-approved-apps)|Impõe proteção de aplicativos móveis para telefones e tablets|
 |        |[Definir políticas de conformidade do dispositivo](#define-device-compliance-policies)|Uma política para cada plataforma|
-|        |[Exigir computadores compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento de computadores do Intune|
+|        |[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento de computadores do Intune|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para PCs e telefones/tablets|
-|**Altamente controlado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
+|**Altamente controlada**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
 | | |
 
 ## <a name="assigning-policies-to-users"></a>Atribuindo políticas aos usuários
@@ -104,7 +104,7 @@ Aplique as configurações com base no nível de proteção que você está dire
 |:---|:---------|:-----|:----|
 |Nível de risco|Linha de base|Alto, médio|Marque ambos|
 | |Confidencial|Alta, média, baixa|Marque todos os três|
-| |Altamente controlado| |Deixar todas as opções desmarcadas para sempre impor a MFA|
+| |Altamente controlada| |Deixar todas as opções desmarcadas para sempre impor a MFA|
 
 **Controles de acesso**
 
@@ -122,7 +122,7 @@ Aplique as configurações com base no nível de proteção que você está dire
 
 
 
-## <a name="block-clients-that-dont-support-modern-authentication"></a>Bloquear clientes que não dão suporte à autenticação moderna
+## <a name="block-clients-that-dont-support-modern-authentication"></a>Bloquear clientes que não oferecem suporte à autenticação moderna
 1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Após entrar com êxito, você verá o painel do Azure.
 
 2. Escolha **Azure Active Directory** no menu à esquerda.
@@ -192,7 +192,7 @@ Criar uma política para cada plataforma:
 - Android
 - Windows 10
 
-Para criar uma nova política de proteção de aplicativos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e navegue até **aplicativos móveis > políticas de proteção de aplicativo**. Escolha **Adicionar uma política**.
+Para criar uma nova política de proteção de aplicativos, entre no portal do Microsoft Azure com suas credenciais de administrador e navegue até **** > **políticas de proteção**de aplicativos do cliente. Escolha **criar política**.
 
 Há pequenas diferenças nas opções de política de proteção de aplicativo entre o iOS e o Android. A política abaixo é especificamente para Android. Use este como um guia para suas outras políticas.
 
@@ -305,7 +305,7 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
+|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
 ||Tamanho mínimo da senha|6||

@@ -1,24 +1,25 @@
 ---
-title: Prepare-se para o registro na área de trabalho gerenciada da Microsoft
-description: ''
+title: Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft
+description: Etapas a serem executadas para preparar sua organização para registro
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 06/06/2018
-ms.openlocfilehash: 68cf55e5528affef352f144384888c0cb01cfc88
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 0bfd6e61a08d8db2e6226a004006be9750b94a10
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390538"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37595587"
 ---
-# <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Prepare-se para o registro na área de trabalho gerenciada da Microsoft
+# <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft
 
-Saiba mais sobre os pré-requisitos para a área de trabalho gerenciada da Microsoft. 
+Estes tópicos descrevem as etapas que você precisará realizar em sua organização para se preparar para o registro, incluindo a verificação de que o ambiente atende aos principais pré-requisitos, a configuração de redes, a configuração de certificados e a preparação de seus aplicativos para inclusão no serviço.
 
-## <a name="in-this-section"></a>Nesta seção
+- [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](prerequisites.md)
+- [Configuração de rede para a área de trabalho gerenciada da Microsoft](network.md)
+- [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](network.md)
+- [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+- [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+- [Aplicativos na área de trabalho gerenciada da Microsoft](apps.md)
 
-- [Pré-requisitos para a área de trabalho gerenciada da Microsoft](prerequisites.md)
-- [Configuração da rede](network.md)
-- [Preparar aplicativos para a área de trabalho gerenciada da Microsoft](apps.md)

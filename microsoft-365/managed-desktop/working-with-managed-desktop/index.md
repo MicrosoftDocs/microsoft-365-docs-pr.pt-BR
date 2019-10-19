@@ -1,25 +1,22 @@
 ---
-title: Trabalhando com a área de trabalho gerenciada da Microsoft
+title: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 06/06/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1ec402077eb20cfa39192e099de2d35e4e79399e
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 2ee1b38497819f547b0dcf91ecd88249d0d2d704
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390368"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37595407"
 ---
-# <a name="working-with-microsoft-managed-desktop"></a>Trabalhando com a área de trabalho gerenciada da Microsoft
+# <a name="working-with-microsoft-managed-desktop"></a>Trabalhar com a Área de Trabalho Gerenciada da Microsoft
 
-Depois de trabalhar com sua equipe de conta da Microsoft para a integração com a área de trabalho gerenciada da Microsoft, você pode usar o [portal de administração](https://aka.ms/mmdportal) para gerenciar seu ambiente. 
+Esta seção inclui informações sobre sua vida útil diária com o serviço, por exemplo, como os administradores de ti podem obter suporte, se necessário, como os usuários finais têm suporte, Gerenciando seus aplicativos depois de implantados e como trabalhar com as configurações personalizáveis nos dispositivos.
 
-## <a name="in-this-section"></a>Nesta seção
-
-- [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md)
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md)
-- [Gerenciar aplicativos na área de trabalho gerenciada da Microsoft](manage-apps.md)
+- [Obtendo ajuda para usuários finais](end-user-support.md)
+- [Configurações configuráveis-Microsoft Managed desktop](config-setting-overview.md)

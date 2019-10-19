@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 40f26f83e8b3001d2010d3197020f067fc51aaae
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 37c44a43662b6befd92c9710c65814399db4d54f
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982472"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37159679"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -50,7 +50,14 @@ Detalhes adicionais:
 - **Horário comercial** -na maioria dos países, o horário comercial é de 9:00 às 5:00 P.m., hora oficial do Pacífico.
 - **Compatibilidade de aplicativos** – para que um problema de compatibilidade de aplicativo seja considerado, deve haver um erro reproduzido, da mesma versão do aplicativo, entre a versão anterior e a atual do Windows ou Office. Para resolver problemas de compatibilidade de aplicativos, a Microsoft requer um ponto de contato do cliente para trabalhar com o. A pessoa deve trabalhar diretamente com nossa equipe de controle rápido para investigar e resolver o problema.
 - **Tempo de resposta do cliente** Se um cliente não puder atender aos requisitos de resposta esperados, a Microsoft fará o downgrade da solicitação por um nível de severidade, para um mínimo de severidade C. Se um cliente não responder às solicitações de ação, a Microsoft reduzirá e fechará a solicitação de suporte em 48 horas da última solicitação.
- 
+
+
+## <a name="providing-administrator-rights-to-specific-users"></a>Fornecer direitos de administrador a usuários específicos
+
+Ao trabalhar com a equipe de suporte, talvez seja necessário fornecer direitos de administrador local a um usuário em um dispositivo para ajudar na solução de problemas. Para fazer isso, você já deve ter direitos de administrador global ou de administrador de dispositivo no Microsoft Intune para sua própria conta. Siga uma destas etapas, dependendo da sua situação:
+
+- Se os seus usuários estiverem sincronizados a partir da conta do Active Directory local, execute a **rede local do .net/Add "Contoso\username"** em um prompt de comando com privilégios elevados.
+- Se os seus usuários forem criados no Azure Active Directory, execute a **rede local do .net/Add "AzureAD\UserUpn"** em um prompt de comando com privilégios elevados.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
