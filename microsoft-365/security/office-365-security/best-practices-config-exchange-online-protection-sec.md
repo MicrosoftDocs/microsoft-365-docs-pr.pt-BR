@@ -3,7 +3,7 @@ title: Práticas recomendadas de configuração para o EOP e o Office 365 ATP Se
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 09/18/2019
+ms.date: 10/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? O que é recomendado? O que deve ser usado agressivamente? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: fb6a39756c54e46f5ac8208c9c92af30bc144a57
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: b40b4189ed996e1b2f671b77602630f2a98966a5
+ms.sourcegitcommit: ffdf576fbc62c4c316f6d8061d2bd973e7df9f56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37387144"
+ms.lasthandoff: 10/19/2019
+ms.locfileid: "37598295"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp-security"></a>Práticas recomendadas para configurar a segurança do EOP e do Office 365 ATP
 
@@ -32,14 +32,14 @@ Discutiremos dois níveis de segurança, chamados recomendados e agressivos no E
 
 SPF, DKIM e DMARC são acrônimos para a estrutura de política de remetente, DomainKeys identificadas por email e autenticação de mensagens baseadas em domínio, relatórios e conformidade (bastante mouthful) e são a base da autenticação e validação de email.
 
-Esses métodos tratam de email de saída do Office 365 e os sistemas de destino de ajuda confiam que os emails do seu domínio sejam válidos. Eles são as únicas práticas recomendadas que envolveremos as configurações a serem feitas *fora* do Office 365, em seu DNS. Para obter etapas de configuração específicas, consulte a seção [validação de email e autenticação](https://docs.microsoft.com/en-us/office365/securitycompliance/how-office-365-uses-spf-to-prevent-spoofing) no Sumário de segurança e conformidade.
+Esses métodos tratam de email de saída do Office 365 e os sistemas de destino de ajuda confiam que os emails do seu domínio sejam válidos. Eles são as únicas práticas recomendadas que envolveremos as configurações a serem feitas *fora* do Office 365, em seu DNS. Para obter etapas de configuração específicas, consulte a seção [validação de email e autenticação](https://docs.microsoft.com/office365/securitycompliance/how-office-365-uses-spf-to-prevent-spoofing) no Sumário de segurança e conformidade.
 
 
 |Nome do recurso de segurança  |Recomendado |Atraente  |Comentário  |
 |---------|---------|---------|---------|
-|[Criar registros SPF](https://docs.microsoft.com/en-us/office365/securitycompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)    | S        |    S     |   -      |
-|[Configurar a assinatura do DKIM para domínios](https://docs.microsoft.com/en-us/office365/securitycompliance/use-dkim-to-validate-outbound-email)     |  S       |    S     |  -       |
-|[Implementar DMARC com ação rejeitar ou quarentena](https://docs.microsoft.com/en-us/office365/securitycompliance/use-dmarc-to-validate-email)     |   S      |     S    |   Use Action = None para recomendado e Action = Reject for agressivo.     |
+|[Criar registros SPF](https://docs.microsoft.com/office365/securitycompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)    | Sim        |    Sim     |   -      |
+|[Configurar a assinatura do DKIM para domínios](https://docs.microsoft.com/office365/securitycompliance/use-dkim-to-validate-outbound-email)     |  Sim       |    Sim     |  -       |
+|[Implementar DMARC com ação rejeitar ou quarentena](https://docs.microsoft.com/office365/securitycompliance/use-dmarc-to-validate-email)     |   Sim      |     Sim    |   Use Action = None para recomendado e Action = Reject for agressivo.     |
 
 > [!IMPORTANT]
 > Para trabalhar com direitos e permissões de segurança, verifique se você tem a função ou as funções corretas no Office 365 ou no centro de segurança e conformidade. Se você for um *administrador de segurança* no Azure Active Directory, um *Administrador Global* no Office 365 ou um *gerente organizacional* do Exchange Online no Exchange Online/Exchange Online PowerShell, você está pronto para começar.
@@ -56,9 +56,9 @@ Os filtros do phising são ativados por padrão no Office 365, mas devem ser con
 
 |Nome do recurso de segurança  |Recomendado |Atraente  |Comentário  |
 |---------|---------|---------|---------|
-|Período de retenção de quarentena    |   S      |     S    |   30 dias   |
-|Frequência de notificação de spam do usuário final   |   S      |     S    |   3 dias   |
-|A exclusão autolimpa de zero horas deve ser habilitada   |   S      |     S    |   True  |
+|Período de retenção de quarentena    |   Sim      |     Sim    |   30 dias   |
+|Frequência de notificação de spam do usuário final   |   Sim      |     Sim    |   3 dias   |
+|A exclusão autolimpa de zero horas deve ser habilitada   |   Sim      |     Sim    |   Verdadeiro  |
 |A ação de detecção de spam deve ser enviada para | JMF | Quarentena | - |
 |A ação de detecção de spam de alta confiança deve ser enviada para | Quarentena | Quarentena| - |
 |A ação de detecção em massa deve ser definida como | JMF | Quarentena | - |
@@ -122,7 +122,7 @@ Recomendado para **ativado** nos níveis recomendado e agressivo:
 |MailboxIntelligenceProtectionAction |NoAction |Bloquear | - |
 |TargetedDomainProtectionAction |NoAction |Bloquear | - |
 |AuthenticationFailAction |MoveToJmf |Quarentena | - |
-|AntiSpoofEnforcementType |Alto |Alto | - |
+|AntiSpoofEnforcementType |Alta |Alta | - |
 |EnableAuthenticationSafetyTip |Falso |True | - |
 |EnableAntiSpoofEnforcement |Verdadeiro |Verdadeiro | - |
 |EnableUnauthenticatedSender |Verdadeiro |Verdadeiro | - |
@@ -135,7 +135,7 @@ Recomendado para **ativado** nos níveis recomendado e agressivo:
 Anteriormente, disse que foi incentivamos que as assinaturas E3 adicionem um plano de ATP 1 do Office 365 ou o plano ATP 2 mais completo. O anti-phishing avançado é um motivo pelo qual. Habilitado por padrão, o anti-phishing ***deve*** ser configurado com políticas para operar. Esquecer de configurar políticas anti-phishing expõe os usuários a riscos, certifique-se de que a etapa 2 depois de adicionar uma assinatura ATP.
 
 > [!IMPORTANT]
->  Se você tiver uma assinatura e5, você tem o [plano ATP 2](https://products.office.com/en-us/exchange/advance-threat-protection)no momento. Marque este link quando quiser descobrir [o que há de novo na ATP](https://review.docs.microsoft.com/en-us/microsoft-365/security/office-365-security/whats-new-in-office-365-atp?branch=oatp-newstuff).
+>  Se você tiver uma assinatura e5, você tem o [plano ATP 2](https://products.office.com/exchange/advance-threat-protection)no momento. Marque este link quando quiser descobrir [o que há de novo na ATP](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp?branch=oatp-newstuff).
 
 ### <a name="advanced-anti-phishing"></a>Anti-phishing avançado
 
