@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: 9898090171d9e009a4f43f5362c363f71f08072e
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.openlocfilehash: dda8291e8f57e4855e582614573d6971fa3919f1
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35830509"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37422558"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
@@ -51,9 +51,9 @@ Uma amostra da linha de comando ScanOnly que silenciosamente conclui a verifica�
 
     Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
 
-Para saber mais sobre o ScanOnly e outras chaves de comando de configuração do Windows, verifique as [Opções de Linha de Comando de Instalação do Windows](https://aka.ms/setupswitches).
+Para saber mais sobre o ScanOnly e outras opções de comando de configuração do Windows, verifique as [Opções de Linha de Comando de Instalação do Windows](https://aka.ms/setupswitches).
 
-## <a name="recommended-tool-desktop-analytics"></a>Ferramenta Recomendada: Desktop Analytics 
+## <a name="recommended-tool-desktop-analytics"></a>Ferramenta Recomendada: Análise de Área de Trabalho
 
 O Desktop Analytics oferece muitas vantagens em relação aos sistemas de gerenciamento de desktop tradicionais e é a nossa ferramenta recomendada. Funciona sem agentes e fornece orientações sobre o que precisa ser feito, usando as informações de compatibilidade coletadas por meio da atualização de centenas de milhões de computadores dos clientes. Essas informações fornecem uma avaliação detalhada, identificando problemas de compatibilidade que podem bloquear sua atualização, suportadas com links para correções sugeridas e conhecidas pela Microsoft.
 
