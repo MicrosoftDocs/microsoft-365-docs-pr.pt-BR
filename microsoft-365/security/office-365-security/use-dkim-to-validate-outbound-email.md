@@ -3,6 +3,7 @@ title: Use o DKIM para emails em seu domínio personalizado no Office 365
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
+ms.date: 09/27/2019, 10/8/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,23 +14,23 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: este artigo descreve como usar o DomainKeys Identified Mail (DKIM) com o Office 365 para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado.'
-ms.openlocfilehash: e672556448774798f5746207ff578ff18059573c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bebbc355e6d16d5571733295ce0e48b91332f863
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071782"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37424227"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Use o DKIM para validar emails enviados de seu domínio personalizado no Office 365
 
- **Resumo:** Este artigo descreve como você usa o DomainKeys identified identificado mail (DKIM) com o Office 365 para garantir que os sistemas de email de destino confiem em mensagens enviadas de saída de seu domínio personalizado.
+ **Resumo:** Este artigo descreve como você usa o DomainKeys Identified Mail (DKIM) com o Office 365 para garantir que os sistemas de email de destino confiem em mensagens enviadas de saída de seu domínio personalizado.
   
-Você deve usar o DKIM, além da SPF e do DMARC, para ajudar a evitar que spoofers enviem mensagens que pareçam que são provenientes de seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Parece complicado, mas não é. Quando você configura o DKIM, autoriza seu domínio a associar, ou assinar, o nome dele a uma mensagem de email usando a autenticação de criptografia. Sistemas de email que recebem emails de seu domínio podem usar essa assinatura digital para ajudar a determinar se os emails recebidos são legítimos.
+Você deve usar o DKIM, além do SPF e do DMARC, para ajudar a evitar que spoofers enviem mensagens que pareçam que são provenientes de seu domínio. O DKIM possibilita adicionar uma assinatura digital no cabeçalho de mensagens de email enviadas. Parece complicado, mas não é. Quando você configura o DKIM, autoriza seu domínio a associar, ou fazer login, seu nome a uma mensagem de email usando a autenticação de criptografia. Sistemas de email que recebem emails de seu domínio podem usar essa assinatura digital para ajudar a determinar se os emails recebidos são legítimos.
   
-Basicamente, você usa uma chave privada para criptografar o cabeçalho no email de saída do seu domínio. Publique uma chave pública nos registros DNS do seu domínio que os servidores de recebimento possam então usar para decodificar a assinatura. Eles usam a chave pública para confirmar que as mensagens realmente vêm de você e não de alguém que está falsificando seu domínio.
+Basicamente, você usa uma chave privada para criptografar o cabeçalho no email de saída do seu domínio. Publique uma chave pública nos registros DNS do seu domínio que os servidores de recebimento possam então usar para decodificar a assinatura. Eles usam a chave pública para confirmar que as mensagens realmente vêm de você e não de alguém que está *falsificando* seu domínio.
   
-O Office 365 configura automaticamente o DKIM para domínios iniciais. O domínio inicial é o domínio que o Office 365 criou quando você se inscreveu no serviço, por exemplo, contoso.onmicrosoft.com. Não é preciso fazer nada para configurar o DKIM para o seu domínio inicial. Para saber mais sobre domínios, confira [Perguntas frequentes sobre domínios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain).
-  
+O Office 365 configura automaticamente o DKIM para domínios iniciais de “onmicrosoft.com”. Isso significa que não é preciso fazer nada para configurar o DKIM para qualquer nome de domínio inicial (ex. litware.onmicrosoft.com). Para saber mais sobre domínios, confira [Perguntas frequentes sobre domínios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain).
+
 Você também pode optar por não fazer nada sobre o DKIM em relação ao seu domínio personalizado. Se você não configurar o DKIM para o seu domínio personalizado, o Office 365 criará um par de chaves privada e pública, habilitará a assinatura do DKIM e configurará a política padrão do Office 365 para o seu domínio personalizado. Embora isso seja abrangente o suficiente para a maioria dos clientes do Office 365, você deve configurar manualmente o DKIM para o seu domínio personalizado nas seguintes circunstâncias:
   
 - Você tem mais de um domínio personalizado no Office 365
@@ -46,6 +47,8 @@ Neste artigo:
   
 - [Como o DKIM funciona melhor do que a SPF para evitar a falsificação maliciosa no Office 365](use-dkim-to-validate-outbound-email.md#HowDKIMWorks)
 
+- [Atualize manualmente as chaves de 1024 bits para chaves de criptografia DKIM de 2048 bits](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
+
 - [O que você precisa fazer para configurar manualmente o DKIM no Office 365](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
 - [Para configurar o DKIM para mais de um domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
@@ -58,6 +61,9 @@ Neste artigo:
 
 - [Próximas etapas: depois de configurar o DKIM para o Office 365](use-dkim-to-validate-outbound-email.md#DKIMNextSteps)
 
+> [!NOTE]
+> O Microsoft 365 oferece suporte ao usuário de DKIM de 1024 ou 2048 bits. Se você estiver usando o DKIM de 1024 bits e desejar configurar para o de 2048 bits, siga as etapas deste artigo para alternar sua configuração de assinatura DKIM. Até o final de 2019, a Microsoft terá suporte para chaves de 2048 bits por padrão, para todos os clientes. 
+
 ## <a name="how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing-in-office-365"></a>Como o DKIM funciona melhor do que o SPF para evitar a falsificação maliciosa no Office 365
 <a name="HowDKIMWorks"> </a>
 
@@ -68,8 +74,36 @@ A SPF adiciona informações a um envelope de mensagem, mas o DKIM realmente cri
 Neste exemplo, se você tivesse apenas publicado um registro TXT SPF do seu domínio, o servidor de email do destinatário poderia ter marcado seu email como spam e gerado um resultado positivo falso. A adição do DKIM neste cenário reduz o resultado positivo falso de spam. Como o DKIM depende de criptografia de chave pública para autenticar, e não apenas de endereços IP, é considerado uma forma muito mais forte de autenticação que o SPF. Recomendamos usar o SPF e o DKIM, bem como o DMARC, em sua implantação.
   
 Detalhes fundamentais: o DKIM usa uma chave privada para inserir uma assinatura criptografada nos cabeçalhos das mensagens. A domínio que assina, ou domínio de saída, é inserido como o valor do campo **d=** no cabeçalho. O domínio que verifica, ou domínio do destinatário, usa esse campo **d=** para procurar a chave pública no DNS e autenticar a mensagem. Se a mensagem for verificada, passa na verificação do DKIM. 
-  
-## <a name="what-you-need-to-do-to-manually-set-up-dkim-in-office-365"></a>O que você precisa fazer para configurar manualmente o DKIM no Office 365
+
+## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Atualize manualmente as chaves de 1024 bits para chaves de criptografia DKIM de 2048 bits
+<a name="1024to2048DKIM"> </a>
+
+Já que tanto o número de bits 1024 e o 2048 têm suporte para chaves DKIM, essas instruções mostrarão como atualizar a chave de 1024 para 2048 bits. As etapas a seguir são para dois casos de uso, escolha o que melhor se adapta à sua configuração.
+
+1. Quando você **já tiver o DKIM configurado**, alterne o número de bits da seguinte maneira:
+    1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/pt-BR/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.)
+    1. E, em seguida, execute o seguinte cmdlet:
+
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}`
+
+1. Ou para uma **nova implementação do DKIM**:
+    1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/pt-BR/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Este é um cmdlet do Exchange Online.)
+    1. Execute o seguinte cmdlet:
+
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True`
+
+Mantenha-se conectado ao Office 365 para *verificar* a configuração.
+
+2. Execute o cmdlet:
+
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Get-DkimSigningConfig | fl`
+
+> [!TIP]
+>Essa nova chave de 2048 bits entra em vigor no RotateOnDate e enviará emails com a chave 1024 bits provisoriamente. Após quatro dias, você poderá testar novamente com a chave de 2048 bits (ou seja, quando a rotação entrar em vigor no segundo seletor). 
+
+Se você deseja alternar para o segundo seletor, suas opções são: a) permitir que o serviço do Office 365 alterne o seletor e atualize para o número de bits 2048 nos próximos 6 meses, ou b) após 4 dias confirmando que número de bits 2048 está em uso, manualmente alterne a segunda chave de seletor usando o cmdlet apropriado listado acima.
+
+## <a name="steps-you-need-to-do-to-manually-set-up-dkim-in-office-365"></a>O que você precisa fazer para configurar manualmente o DKIM no Office 365
 <a name="SetUpDKIMO365"> </a>
 
 Para configurar o DKIM, execute estas etapas:
