@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: bb3c178ee64d5925f82aef9887c06ceafe51f4ee
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 08676f9fa89d9cbf932f9d70664ad1d17a153e3b
+ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403210"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37617249"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint para ativos digitais altamente confidenciais da Contoso Corporation
 
@@ -96,7 +96,7 @@ A equipe de segurança da Contoso treinou os membros do grupo **Research** Offic
 
 O resultado final é um ambiente seguro no qual os pesquisadores podem colaborar através da Contoso em um ambiente seguro em arquivos que contenham informações de pesquisa. 
 
-Se um documento de pesquisa com o subrótulo **Teams de pesquisa** deixa o site de **pesquisa** , ele é criptografado e acessível somente para os membros dos grupos do Office 365 de **pesquisa** com credenciais de conta de usuário válidas.
+Se um documento de pesquisa com o subrótulo **Teams de pesquisa** deixa o site de **pesquisa** , ele é criptografado e acessível somente aos membros do grupo **Research** Office 365 com credenciais de conta de usuário válidas.
 
 ## <a name="next-step"></a>Próxima etapa
 
@@ -104,4 +104,4 @@ Se um documento de pesquisa com o subrótulo **Teams de pesquisa** deixa o site 
 
 ## <a name="see-also"></a>Confira também
 
-[Biblioteca de produtividade da Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
+[Biblioteca de produtividade do Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
