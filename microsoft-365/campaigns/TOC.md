@@ -37,4 +37,4 @@
 ## [Restaurar dispositivos para as configurações de fábrica](../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json)
 
 # Gerenciamento de incidentes de segurança
-## [Responder a uma conta de email comprometida](../compliance/responding-to-a-compromised-email-account?toc=/microsoft-365/campaigns/toc.json)
+## [Responder a uma conta de email comprometida](https://docs.microsoft.com/microsoft-365/compliance/responding-to-a-compromised-email-account)
