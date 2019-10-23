@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais.
-ms.openlocfilehash: 0b0c1ac1d23bc7b167a58ecf93019a77c51c4366
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
+ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37576009"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37636743"
 ---
 # <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
 
@@ -134,7 +134,7 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
     
 4. Na página **anti-phishing** , selecione **+ criar**. Um assistente é iniciado que orienta você na definição da política anti-phishing.
     
-5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) para obter mais detalhes. 
+5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options) para obter mais detalhes. 
     
 6. Depois de revisar as configurações, escolha **criar esta política** ou **salvar**, conforme apropriado.
     
