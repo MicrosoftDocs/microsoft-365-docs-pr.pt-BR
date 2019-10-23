@@ -2,7 +2,7 @@
 title: Cenários e cargas de trabalho do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 9416efe6171f8f3aefee504e5f39d19a2a909073
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: 2fbc3b5063ab0ed675b9d1a3873877e5486a3d6c
+ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369422"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37608592"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
 
@@ -38,13 +38,18 @@ Outra dessas necessidades é proteger dados altamente regulamentados armazenados
 - Sujeitos a regulamentações regionais.
 - Mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização.
 
-Para proteger esses dados contra ameaças internas e externas, confira os [Sites do Microsoft Teams e do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md). Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
+Para proteger esses dados contra ameaças internas e externas, confira:
+
+- [Teams para dados altamente controlados](secure-teams-highly-regulated-data-scenario.md)
+- [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md). 
+
+Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
 
 Veja a seguir as cargas de trabalho e os cenários no guia de implantação geral do Microsoft 365 Enterprise:
 
 ![As cargas de trabalho e os cenários no guia de implantação geral do Microsoft 365 Enterprise](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
-Confira a [biblioteca de produtividade da Microsoft 365](https://www.microsoft.com/microsoft-365/success/) para ver cenários adicionais. 
+Confira a [Biblioteca de Produtividade do Microsoft 365](https://aka.ms/productivitylibrary) https://aka.ms/productivitylibrary) para ver cenários adicionais. 
 
 ## <a name="foundation-infrastructure-prerequisites"></a>Pré-requisitos da infraestrutura de base
 
