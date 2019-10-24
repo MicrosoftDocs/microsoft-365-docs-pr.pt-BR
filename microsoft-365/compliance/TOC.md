@@ -11,13 +11,13 @@
 # Gerenciar riscos internos
 ## [Proteger acesso de usuário e de dispositivo](protect-access-to-data-and-services.md)
 ## [Sistema de Proteção de Dados do Cliente](customer-lockbox-requests.md)
-## [Gerenciamento de acesso privilegiado]()
+## Gerenciamento de acesso privilegiado
 ### [Saiba mais sobre o gerenciamento de acesso privilegiado](privileged-access-management-overview.md)
 ### [Configurar gerenciamento de acesso privilegiado](privileged-access-management-configuration.md)
 ## Chave de Cliente
 ### [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md)
 ### [Criptografia de serviço com Chave de Cliente para perguntas frequentes do Office 365](service-encryption-with-customer-key-faq.md)
-## [Supervisionar comunicações]()
+## Supervisionar comunicações
 ### [Aprenda sobre políticas de supervisão](supervision-policies.md)
 ### [Configure as políticas de supervisão da sua organização](configure-supervision-policies.md)
 ## [Barreiras de informações](information-barriers.md)
@@ -387,7 +387,7 @@
 ## [RGPD](gdpr.md)
 ### [Plano de ação recomendado para o RGPD](gdpr-action-plan.md)
 
-### [Listas de verificação de preparação de responsabilidade]()
+### Listas de verificação de preparação de responsabilidade
 #### [Listas de verificação de preparação de responsabilidade](gdpr-arc.md)
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
@@ -396,7 +396,7 @@
 
 ### [Proteção de informações](gdpr-information-protection.md)
 
-### [Solicitações de entidades de dados]()
+### Solicitações de titular dos dados
 #### [Solicitações de entidades de dados](gdpr-data-subject-requests.md)
 #### [Azure](gdpr-dsr-azure.md)
 #### [Azure DevOps Services](gdpr-dsr-vsts.md)
@@ -406,14 +406,14 @@
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Família do Visual Studio](gdpr-dsr-visual-studio-family.md)
 
-### [Notificação de violação]()
+### Notificação de violação
 #### [Notificação de violação](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
 #### [Suporte da Microsoft e Serviços Profissionais](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
-### [Avaliações do impacto sobre a proteção dos dados]()
+### Avaliações do impacto sobre a proteção dos dados
 #### [Avaliações do impacto sobre a proteção dos dados](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
@@ -574,7 +574,7 @@
 #### [Defesa de Privacidade UE-EUA](offering-eu-us-privacy-shield.md)
 #### [RGPD (UE)](offering-gdpr-eu.md)
 #### [G-Cloud (Reino Unido)](offering-g-cloud-uk.md)
-#### [IDW PS 951 (Alemanha)]()
+#### IDW PS 951 (Alemanha)
 #### [IT Grundschutz Workbook (Alemanha)](offering-it-grundschutz-workbook-germany.md)
 #### [LOPD (Espanha)](offering-lopd-spain.md)
 #### [PASF (Reino Unido)](offering-pasf-uk.md)
