@@ -14,12 +14,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os valores de nível de reclamar em massa (BCL) no Office 365.
-ms.openlocfilehash: 6f9314a5b96dbd641e461dfb564ed8605372a949
-ms.sourcegitcommit: b0396171d24c6298b809b43bb109d3afed4de5b8
+ms.openlocfilehash: 822c84ea9b36cfdae1d8faccf7e0c7d9f747c917
+ms.sourcegitcommit: 7830969c8fa41724359657910716f3ce312cc2cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37451093"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37650113"
 ---
 # <a name="bulk-complaint-level-values"></a>Valores de nível de reclamação em massa
 
@@ -39,4 +39,4 @@ A tabela a seguir descreve os valores de BCL que estão em uso no momento.
 |,0|A mensagem não é de um remetente em massa.|
 |1, 2, 3|A mensagem é de um remetente em massa que gera algumas reclamações.|
 |4, 5, 6, 7|A mensagem é de um remetente em massa que gera um número misto de reclamações.|
-|8, 9|A mensagem é de um remetente em massa que gera um grande número de reclamações|
+|8, 9|A mensagem é de um remetente em massa que gera um grande número de reclamações.|
