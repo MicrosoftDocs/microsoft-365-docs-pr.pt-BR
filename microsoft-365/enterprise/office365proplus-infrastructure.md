@@ -13,20 +13,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura do Office 365 ProPlus para o Microsoft 365 Enterprise.
-ms.openlocfilehash: f20435edc4cdc675d0308774eb493a67723054f4
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 5c32257fb9066f170da1f1a3cfe4b865e383cfcb
+ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982762"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37646396"
 ---
 # <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
 
-![](./media/deploy-foundation-infrastructure/O365proplus_icon.png)
+![Fase 4: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon.png)
 
 *Estes critérios aplicam-se às versões E3 e E5 do Microsoft 365 Enterprise e Microsoft 365 Education*
 
-O Microsoft 365 Enterprise inclui o Office 365 ProPlus, a versão de assinatura do Office. Como o Office 2016, o Office 365 ProPlus inclui todos os aplicativos do Office e esses aplicativos são instalados diretamente em seus dispositivos cliente. Ao contrário do Office 2016, o Office 365 ProPlus é atualizado com novos recursos regularmente e tem um modelo de licenciamento baseado em usuário que permite instalar o Office em até 5 dispositivos. Para saber mais, confira [Sobre o Office 365 ProPlus na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise).
+O Microsoft 365 Enterprise inclui o Office 365 ProPlus, a versão de assinatura do Office. Como o Office 2019, o Office 365 ProPlus inclui todos os aplicativos do Office, e esses aplicativos são instalados diretamente nos dispositivos clientes. Diferentemente do Office 2019, o Office 365 ProPlus é atualizado regularmente com novos recursos e possui um modelo de licenciamento baseado no usuário que permite que as pessoas instalem o Office em vários dispositivos. Para obter mais detalhes, consulte [Sobre o Office 365 ProPlus na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise).
 
 Nesta fase, você implantará o Office 365 ProPlus em dispositivos cliente como parte do Microsoft 365 Enterprise. Além destas instruções, recomendamos usar o [Microsoft Fastrack](https://fasttrack.microsoft.com/office) para ajudar com sua implantação. 
 
@@ -44,7 +44,7 @@ Antes de implantar o Office 365 ProPlus, siga as orientações em [Avaliar seu a
 
 Após a avaliação do ambiente, siga as orientações em [Planejar sua implantação do Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus) para criar um plano de implantação. Esse plano inclui as seguintes decisões: 
 
-- Como implantar o Office, incluindo qual ferramenta usar (como o System Center Configuration Manager ou a Ferramenta de Implantação do Office [ODT]) e de onde instalar o Office
+- Como implantar o Office, incluindo qual ferramenta usar (como o System Center Configuration Manager ou a Ferramenta de Implantação do Office) e a partir de onde instalar o Office
 - Como gerenciar as atualizações do Office
 - Quais canais de atualização utilizar (os canais de atualização do Office controlam a frequência com a qual seus usuários recebem atualizações de recursos para os aplicativos do Office)
 - Os pacotes de instalação e grupos de implantação do Office que você deseja usar, incluindo quais aplicativos do Office e idiomas devem ser instalados para quais usuários
@@ -53,14 +53,12 @@ O [artigo de planejamento](https://docs.microsoft.com/DeployOffice/plan-office-3
 
 ## <a name="step-3-deploy"></a>Etapa 3: Implantar
 
-Com base no seu plano de implantação da etapa 2, escolha como deseja implantar:
+Com base no seu plano de implantação, escolha como deseja implantar:
 
 - **[Implantar o Office 365 ProPlus com o System Center Configuration Manager](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** Gerencie sua implantação com o Configuration Manager, e baixar e implante o Office de pontos de distribuição em sua rede
 
 - **[Implantar o Office 365 ProPlus com a ODT da nuvem](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-the-cloud):** Gerencie sua implantação com a ODT e instale o Office em dispositivos cliente diretamente do Office CDN
  
-- **[Implantar o Office 365 ProPlus com a ODT de uma origem local](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-a-local-source):** Gerencie sua implantação com a ODT, e baixe e implante o Office de uma origem local na sua rede 
-
 - **[Instale o Office 365 ProPlus por conta própria pelo portal do Office](https://support.office.com/article/Download-and-install-or-reinstall-Office-365-or-Office-2016-on-a-PC-or-Mac-4414EAAF-0478-48BE-9C42-23ADC4716658):** Gerencie sua implantação pelo portal do Office e peça que seus usuários instalem o Office nos dispositivos cliente deles diretamente do portal
 
 Muitas organizações usarão uma combinação dessas opções para diferentes usuários. Por exemplo, uma organização pode usar o Configuration Manager para implantar o Office para a maioria de seus usuários, mas permitir que um pequeno grupo de funcionários que não estejam conectados à rede interna com frequência instalem o Office por conta própria. 
@@ -75,7 +73,7 @@ Saiba como os especialistas da Microsoft estão [implantando e gerenciando as at
 
 Veja como a Contoso Corporation, uma empresa multinacional fictícia mas representativa, [implantou o Office 365 ProPlus](contoso-o365pp.md).
 
-![](./media/contoso-overview/contoso-icon.png)
+![A Contoso Corporation](./media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Próxima etapa
 

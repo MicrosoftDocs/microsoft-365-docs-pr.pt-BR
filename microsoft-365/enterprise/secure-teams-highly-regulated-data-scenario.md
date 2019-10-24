@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: 5117d310ccd877a7377e6e538e7fba13daaad4ef
-ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
+ms.openlocfilehash: 4ef4d4e9b8ab437c90aac434db158cfb40f066cb
+ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37617259"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37628345"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -40,9 +40,9 @@ Esta é a configuração resultante com um rótulo de confidencialidade.
 
 ![A configuração segura do cenário de equipe](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
  
-## <a name="configuration"></a>Configuração
+## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>Fase 1: Configurar uma equipe para dados altamente regulamentados
 
-A configuração ponta a ponta de uma equipe segura consiste destas etapas:
+A configuração de ponta a ponta consiste nas seguintes etapas:
 
 1. Configurações de identidade e acesso a dispositivo.
 2. Criação de uma equipe privada.
@@ -92,7 +92,7 @@ Esta é a configuração resultante até o momento.
 No Site da Equipe, defina estas configurações de permissão.
 
 1. Na barra de ferramentas, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-2. No painel de **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+2. No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
 3. Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
 4. Desabilite **Permitir solicitações de acesso** e clique em **Salvar**.
 
@@ -124,7 +124,7 @@ Ao contrário de um rótulo de confidencialidade para dados altamente regulament
 
 Para atingir esse nível adicional de segurança para os arquivos armazenados no Site de Equipe, você deve configurar um novo rótulo de confidencialidade, que é um sub-rótulo do rótulo geral para arquivos altamente regulamentados. Somente os membros do Grupo de Equipe vão vê-los na lista de rótulos.
 
-Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para de uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando você tiver um grande número de rótulos ou quiser organizar rótulos para equipes privadas sob o rótulo altamente regulamentado.
+Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando você tiver um grande número de rótulos ou quiser organizar rótulos para equipes privadas sob o rótulo altamente regulamentado.
 
 [Use estas instruçõess](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) para configurar um rótulo separado ou um sub-rótulo com as seguintes configurações:
 
@@ -142,30 +142,20 @@ Esta é a relação entre o rótulo de confidencialidade e o Grupo de Equipe.
 
 
 >[!Note]
->Se você configurar o rótulo ou sub-rótulo de confidencialidade para permissões definidas pelo usuário ou com uma data de vencimento, não poderá abrir o arquivo no Teams ou no SharePoint Online. Você deve usar um aplicativo do Office.
+>Se você configurar o rótulo ou sub-rótulo de confidencialidade para permissões definidas pelo usuário ou com uma data de validade, não poderá abrir o arquivo no Teams ou no SharePoint. Você deve usar um aplicativo do Office.
 >
 
-## <a name="using-the-team-and-a-sensitivity-label"></a>Usando a equipe e um rótulo de confidencialidade
-
-Os membros do Grupo de Equipe podem acessar a equipe e todos os seus recursos, incluindo chats, reuniões e outros aplicativos. Ao trabalhar com arquivos da seção de **Arquivos** de um canal, os membros do Grupo de Equipe devem atribuir o rótulo ou sub-rótulo de confidencialidade aos arquivos criados para a equipe segura. Veja um exemplo.
-
-![Exemplo de um rótulo aplicado a um arquivo em uma equipe segura](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
- 
-Quando o rótulo for aplicado ao arquivo, ele será protegido. Os membros do Grupo de Equipe podem abri-lo no Teams e colaborar em tempo real. Ele é criptografado e inclui as permissões de Coautor definidas para os membros do Grupo de Equipe. Se o arquivo sair do site e for encaminhado para um usuário mal-intencionado, eles terão que fornecer as credenciais de uma conta de usuário que seja membro do Grupo de Equipe para abrir o arquivo e exibir seu conteúdo. 
-
-Você pode ver quais arquivos têm um rótulo atribuído exibindo uma pasta no SharePoint Online e adicionando a coluna **Confidencialidade**através da opção **Mostrar/ocultar** colunas de **Adicionar coluna**.
-
-## <a name="custom-permissions"></a>Permissões personalizadas
+### <a name="custom-permissions"></a>Permissões personalizadas
 
 Você também pode configurar permissões de site do SharePoint personalizadas para o Site da Equipe e, se necessário, seu rótulo de confidencialidade correspondente. Veja dois exemplos.
 
-### <a name="example-1-delegating-sharepoint-site-administration"></a>Exemplo 1: delegar a administração de sites do SharePoint
+#### <a name="example-1-delegating-sharepoint-site-administration"></a>Exemplo 1: delegar a administração de sites do SharePoint
 
 Se o proprietário da equipe não tiver experiência em administração do SharePoint ou desejar delegar a administração do Site de Equipe, ele poderá adicionar a conta de usuário de um administrador do SharePoint à lista de proprietários da equipe. No entanto, o administrador do SharePoint teria acesso total à equipe e a todos os seus recursos e poderia abrir um arquivo com o rótulo de confidencialidade aplicado. 
 
 Para evitar essa concessão excessiva de privilégios, adicione a conta de usuário do administrador do SharePoint ao grupo de Proprietários do SharePoint de Site de Equipe nas configurações de permissões avançadas do site. O administrador do SharePoint pode administrar o site, mas não poderá acessar a equipe e nenhum de seus recursos ou abrir os arquivos com o rótulo de confidencialidade atribuído.
 
-### <a name="example-2-allowing-view-only-access-to-labeled-files"></a>Exemplo 2: permitir acesso somente de exibição a arquivos rotulados
+#### <a name="example-2-allowing-view-only-access-to-labeled-files"></a>Exemplo 2: permitir acesso somente de exibição a arquivos rotulados
 
 Se algum membro da equipe precisar visualizar somente o conteúdo dos arquivos rotulados no Site da Equipe, adicione suas contas de usuário individuais ao:
 
@@ -178,8 +168,48 @@ Estas são as permissões resultantes do rótulo.
  
 Os visitantes do site poderão acessar o Site da Equipe diretamente e visualizar o conteúdo dos arquivos aos quais o sub-rótulo foi aplicado. No entanto, como eles não são membros do Grupo de Equipe, não poderão acessar a equipe ou nenhum de seus recursos.
 
+
+## <a name="phase-2-drive-user-adoption-for-team-members"></a>Fase 2: Impulsionar a adoção do usuário para membros da equipe
+
+Com a equipe no local, é hora de impulsionar a adoção dessa equipe e sua segurança adicional aos membros da equipe.
+
+### <a name="step-1-train-your-users"></a>Etapa 1: treinar os usuários
+
+Os membros do Grupo de Equipe podem acessar a equipe e todos os seus recursos, incluindo chats, reuniões e outros aplicativos. Ao trabalhar com arquivos da seção de **Arquivos** de um canal, os membros do Grupo de Equipe devem atribuir o rótulo ou sub-rótulo de confidencialidade aos arquivos criados para a equipe segura. Veja um exemplo.
+
+![Exemplo de um rótulo aplicado a um arquivo em uma equipe segura](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
+ 
+Quando o rótulo for aplicado ao arquivo, ele será protegido. Os membros do Grupo de Equipe podem abri-lo no Teams e colaborar em tempo real. Ele é criptografado e inclui as permissões de Coautor definidas para os membros do Grupo de Equipe. Se o arquivo sair do site e for encaminhado para um usuário mal-intencionado, eles terão que fornecer as credenciais de uma conta de usuário que seja membro do Grupo de Equipe para abrir o arquivo e exibir seu conteúdo. 
+
+Treine os membros da sua equipe:
+
+- Sobre a importância de usar a nova equipe para bate-papos, reuniões, arquivos e outros recursos do Site da Equipe e as consequências de um vazamento de dados altamente regulamentados, como ramificações legais, multas regulatórias, ransomware ou perda de vantagem competitiva.
+- Como acessar a equipe.
+- Como criar novos arquivos no site e carregar novos arquivos armazenados localmente.
+- Como a política DLP bloqueia o compartilhamento de arquivos externamente por parte do usuário.
+- Como rotular arquivos com o rótulo personalizado ou sub-rótulo da equipe.
+- Como o rótulo ou o sub-rótulo protege os arquivos, mesmo quando vazam do site.
+
+Esse treinamento deve incluir exercícios práticos para que os membros da sua equipe possam experimentar esses recursos e seus resultados.
+
+### <a name="step-2-conduct-periodic-reviews-of-usage-and-address-team-member-feedback"></a>Etapa 2: Realize análises de uso periódicas e gerencie os comentários dos membros da equipe
+
+Nas semanas após o treinamento:
+
+- Aborde rapidamente os comentários dos membros da equipe e ajuste as políticas e configurações.
+- Analise o uso da equipe e compare-o com as expectativas de uso.
+- Verifique se os arquivos altamente regulamentados foram rotulados corretamente com o rótulo ou sub-rótulo de confidencialidade personalizado.
+
+  Você pode verificar quais arquivos têm um rótulo atribuído exibindo uma pasta no SharePoint e adicionando a coluna **Confidencialidade** por meio da opção **Mostrar/ocultar colunas** da **coluna Adicionar**.
+
+Repita o treinamento dos usuários conforme necessário.
+
 ## <a name="see-also"></a>Confira também
 
 [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md)
+
+[Cargas de trabalho e cenários do Microsoft 365 Enterprise](deploy-workloads.md)
+
+[Biblioteca de produtividade do Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
 
 [Guia de implantação](deploy-microsoft-365-enterprise.md)

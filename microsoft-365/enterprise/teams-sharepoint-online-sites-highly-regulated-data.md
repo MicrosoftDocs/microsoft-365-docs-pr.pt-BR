@@ -3,7 +3,7 @@ title: Sites do SharePoint para dados altamente regulamentados
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/04/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe do SharePoint seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: ece6547ba596fe53c4f3b3f6bfbaa6570a724c6a
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 7162ced48a64270713dc1eac6e73de053d24b2f4
+ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437821"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37628335"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>Sites do SharePoint para dados altamente regulamentados
 
@@ -30,7 +30,7 @@ O Microsoft 365 Enterprise inclui um conjunto completo de serviços baseados em 
 - Mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização.
 
 >[!Note]
-> Um cenário semelhante usando o Microsoft Teams está em desenvolvimento.
+> Um cenário semelhante usando o Microsoft Teams esta [aqui](secure-teams-highly-regulated-data-scenario.md).
 >
 
 Um cenário da Microsoft 365 Enterprise baseada na nuvem, que atende a essa necessidade comercial, requer que você:
@@ -50,14 +50,14 @@ A tabela a seguir mapeia os requisitos desse cenário para um recurso do Microso
 |:-------|:-----|
 | **Requisito** | **Recurso do Microsoft 365 Enterprise** |
 | Armazenar arquivos  | Sites de equipe do SharePoint |
-| Bloquear o site | Grupos do Azure Active Directory (Azure AD) e permissões de site de equipe do SharePoint |
+| Bloquear o site | Grupos do Office 365 e permissões de site de equipe do SharePoint |
 | Rotular os arquivos do site | Rótulos de retenção do Office 365 |
 | Bloquear usuários ao enviar arquivos para fora da organização. | Políticas de Prevenção Contra Perda de Dados (DLP) no Office 365 |
-| Criptografar todos os arquivos do site | Sub-rótulos de confidencialidade do Office 365 |
-| Adicionar permissões aos arquivos do site | Sub-rótulos de confidencialidade do Office 365 |
+| Criptografar todos os arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Office 365 |
+| Adicionar permissões aos arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Office 365 |
 |||
 
-Estas são as configurações para um site do SharePoint seguro.
+Aqui está um exemplo de configuração para um site do SharePoint seguro.
 
 ![Os sites do SharePoint para um cenário de dados altamente regulamentados](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
@@ -99,12 +99,11 @@ Para sites do SharePoint, você deve configurar uma política DLP do rótulo de 
 
 ### <a name="step-2-your-office-365-sensitivity-sublabel"></a>Etapa 2: Sub-rótulo de confidencialidade do Office 365
 
-Para fornecer criptografia e um conjunto de permissões para seus arquivos mais confidenciais, os usuários devem aplicar um sub-rótulo de confidencialidade do Office 365.
+Para fornecer criptografia e um conjunto de permissões aos seus arquivos mais confidenciais, os usuários devem aplicar um rótulo ou sub-rótulo de confidencialidade do Office 365. Existe uma sub-rótulo em um rótulo existente. 
 
-Existe uma sub-rótulo em um rótulo existente. Por exemplo, você pode criar um sub-rótulo de Pesquisa e Desenvolvimento no rótulo Altamente Regulamentado. Para sites do SharePoint para dados altamente regulamentados, configure as permissões para que somente os membros do site possam abrir e alterar o arquivo ao qual o sub-rótulo está anexado.
+Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para de uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando você tiver um grande número de rótulos ou quiser organizar rótulos para sites seguros em seu rótulo altamente regulamentado. 
 
-As configurações do sub-rótulo aplicado acompanham o arquivo. Mesmo que ele tenha sido vazado fora do site, somente as contas de usuário autenticado que têm permissões poderão abri-lo.
-
+As configurações do rótulo ou sub-rótulo aplicado acompanham o arquivo. Mesmo que ele tenha sido vazado fora do site, somente as contas de usuário autenticado que têm permissões poderão abri-lo.
 
 ### <a name="design-results"></a>Resultados de design
 
@@ -125,10 +124,10 @@ Siga [essas instruções]( https://support.office.com/article/create-a-site-in-s
 
 No site do SharePoint, defina estas configurações de permissão.
 
-1.  Na barra de ferramentas, clique no ícone Configurações e, em seguida, clique em **Permissões do site**.
-2.  No painel **Permissões do site**, clique em **Configurações de permissões avançadas**.
-3.  Na nova guia **Permissões** do navegador, clique em **Configurações de Solicitação de Acesso**.
-4.  Na caixa de diálogo **Configurações de Solicitações de Acesso**, desmarque **Permitir que os membros compartilhem o site e arquivos e pastas individuais** e **Permitir solicitações de acesso** (para que todas as três caixas de seleção sejam desmarcadas) e, depois, clique em **OK**.
+1. Na barra de ferramentas, clique no ícone Configurações e, em seguida, clique em **Permissões do site**.
+2. No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+3. Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
+4. Desative **Permitir solicitações de acesso** e clique em **Salvar**.
 
 Com essas configurações, a capacidade de membros do grupo de sites compartilharem o site com outros membros ou de não membros solicitarem acesso ao site é desativada.
 
@@ -145,13 +144,13 @@ Use as instruções em [Proteger arquivos do SharePoint com rótulos do Office 3
 Ao contrário de um rótulo de confidencialidade para dados altamente regulamentados que qualquer pessoa pode aplicar a qualquer arquivo, um site seguro precisa de seu próprio sub-rótulo, para que os arquivos com o sub-rótulo atribuído:
 
 - São criptografadas e a criptografia acompanha o arquivo.
--   Contenham permissões personalizadas para que somente os membros do grupo de sites possam abri-lo.
+- Contenham permissões personalizadas para que somente os membros do grupo de sites possam abri-lo.
 
-Para atingir esse nível adicional de segurança para os arquivos armazenados no site, você deve configurar um novo rótulo de confidencialidade, que é um sub-rótulo do rótulo geral para arquivos altamente regulamentados. Somente os membros do grupo do site poderão vê-lo na lista de sub-rótulos do rótulo altamente regulamentado.
+Para atingir esse nível adicional de segurança para os arquivos armazenados no site, você deve configurar um novo rótulo de confidencialidade ou um sub-rótulo do rótulo geral para arquivos altamente regulamentados. Somente os membros do grupo do site poderão vê-lo na lista de sub-rótulos do rótulo altamente regulamentado.
 
-Use as instruções [aqui](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) para configurar um sub-rótulo da etiqueta que você está usando para arquivos altamente regulamentados com as seguintes configurações:
+Use as instruções [aqui](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) para configurar um rótulo ou um sub-rótulo do rótulo que você está usando para arquivos altamente regulamentados com as seguintes configurações:
 
-- O nome do sub-rótulo contém o nome do site para facilitar a associação ao atribuir o sub-rótulo a um arquivo.
+- O nome do rótulo ou sub-rótulo contém o nome do site para facilitar a associação ao atribuir o rótulo ou o sub-rótulo a um arquivo.
 - A criptografia está ativada.
 - O grupo de sites tem permissões de Coautoria.
 
@@ -162,14 +161,13 @@ Você configurou o seguinte:
 - Configurações de permissão mais restritivas no site do SharePoint
 - Um rótulo de retenção do Office 365 atribuído à parte de Documentos do site do SharePoint
 - Uma política DLP para o rótulo de retenção do Office 365
-- Um sub-rótulo de confidencialidade do Office 365 que os usuários podem aplicar aos arquivos mais confidenciais armazenados no site que criptografa o arquivo e permite apenas o acesso de Coautor aos membros do grupo de sites da equipe 
+- Um rótulo ou sub-rótulo de confidencialidade do Office 365 que os usuários podem aplicar aos arquivos mais confidenciais armazenados no site, que criptografam o arquivo e permitem apenas o acesso de coautor aos membros do grupo de sites de equipe 
 
-Esta é a configuração resultante.
+Aqui está a configuração resultante que usa um sub-rótulo do rótulo altamente regulamentado.
 
 ![Os sites do SharePoint para um cenário de dados altamente regulamentados](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
-
-Este é um exemplo de um usuário que aplicou o sub-rótulo de confidencialidade a um arquivo armazenado no site.
+Aqui está um exemplo de usuário que aplicou o sub-rótulo em um arquivo armazenado no site.
 
 ![Os sites do SharePoint para um cenário de dados altamente regulamentados](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
 
@@ -182,14 +180,14 @@ Por exemplo, os funcionários que estão acostumados a armazenar arquivos confid
 
 ### <a name="step-1-train-your-users"></a>Etapa 1: treinar os usuários
 
-Depois de concluir a configuração, treine o conjunto de usuários que são membros dos grupos de acesso do site:
+Depois de concluir sua configuração, treine o conjunto de usuários que são membros do site:
 
 - Sobre a importância de usar o novo site para proteger arquivos valiosos e as consequências de um vazamento de dados altamente regulamentados, como ramificações legais, multas regulatórias, ransomware ou perda de vantagem competitiva.
 - Como acessar o site e seus arquivos.
 - Como criar novos arquivos no site e carregar novos arquivos armazenados localmente.
 - Como a política DLP bloqueia o compartilhamento de arquivos externamente por parte do usuário.
-- Como rotular os arquivos mais confidenciais com o sub-rótulo para o site.
-- Como o sub-rótulo protege um arquivo, mesmo quando vazado do site.
+- Como rotular os arquivos mais sensíveis com o rótulo ou sub-rótulo do site.
+- Como o rótulo ou o sub-rótulo protege um arquivo, mesmo quando vazado do site.
 
 Este treinamento deve incluir exercícios práticos para que os usuários possam experimentar essas operações e os resultados.
 
@@ -198,21 +196,27 @@ Este treinamento deve incluir exercícios práticos para que os usuários possam
 Nas semanas após o treinamento, o administrador do SharePoint para o site do SharePoint pode:
 
 - Analisar o uso do site e compará-lo a expectativas de uso.
-- Verificar se os arquivos altamente confidenciais foram rotulados corretamente com o sub-rótulo de confidencialidade.
+- Verificar se os arquivos altamente confidenciais foram rotulados corretamente com o rótulo ou o sub-rótulo de confidencialidade.
+
+  Você pode ver quais arquivos têm um rótulo atribuído exibindo uma pasta no SharePoint Online e adicionando a coluna **Confidencialidade**através da opção **Mostrar/ocultar colunas** em **Adicionar coluna**.
+
 
 Repita o treinamento dos usuários conforme necessário.
 
 ### <a name="user-adoption-results"></a>Resultados de adoção do usuário
 
-Os arquivos altamente regulamentados são armazenados exclusivamente em sites do SharePoint para dados altamente regulamentados e os arquivos mais confidenciais têm o sub-rótulo de confidencialidade para o site aplicado.
+Arquivos altamente regulamentados são armazenados exclusivamente em sites do SharePoint para dados altamente regulamentados e os arquivos mais confidenciais possuem o rótulo ou sub-rótulo de confidencialidade do site aplicado.
 
 ## <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Como a Contoso Corporation implantou o Microsoft 365 Enterprise
 
-Contoso Corporation é uma corporação fictícia mas representante global do conglomerado de produção com sede em Paris, França. Veja como Contoso projetou, configurou e, em seguida, orientou a adoção de um [site do SharePoint seguro](contoso-sharepoint-online-site-for-highly-confidential-assets.md) para suas equipes de pesquisa em Paris, Moscou, Nova York, Pequim e Bengaluru (Bangalore). 
+A Contoso Corporation é um conglomerado de fabricação global fictício, mas representativo. Veja como Contoso projetou, configurou e, em seguida, orientou a adoção de um [site do SharePoint seguro](contoso-sharepoint-online-site-for-highly-confidential-assets.md) para suas equipes de pesquisa em Paris, Moscou, Nova York, Pequim e Bengaluru (Bangalore). 
 
 ## <a name="see-also"></a>Confira também
 
+[Microsoft Teams para dados altamente regulamentados](secure-teams-highly-regulated-data-scenario.md)
+
+[Cargas de trabalho e cenários do Microsoft 365 Enterprise](deploy-workloads.md)
+
+[Biblioteca de produtividade do Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
+
 [Guia de implantação](deploy-microsoft-365-enterprise.md)
-
-[Guias de laboratório de teste](m365-enterprise-test-lab-guides.md)
-
