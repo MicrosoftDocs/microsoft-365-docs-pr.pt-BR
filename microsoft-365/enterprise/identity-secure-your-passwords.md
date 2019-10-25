@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você precisa de senhas fortes e gerenciáveis em toda a organização.
-ms.openlocfilehash: 7bb4e0f296b320aa8a24916ded40089246308a20
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: a3661eedc11e0c826422f540cf1e2e9abf911f9d
+ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370398"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37662547"
 ---
 # <a name="step-2-secure-your-passwords"></a>Etapa 2: proteger suas senhas
 
@@ -31,7 +31,7 @@ ms.locfileid: "37370398"
 
 Todos os usuários devem usar as [Diretrizes de senhas da Microsoft](https://www.microsoft.com/research/publication/password-guidance/) para criar senhas de conta de usuário.
 
-Para impedir que os usuários criem senhas que possam ser facilmente descobertas, use a proteção de senhas do Azure AD, que usa uma lista geral e uma opcional de senhas proibidas, sendo a última especificada por você. Você pode, por exemplo, usar termos específicos da sua organização, como:
+Para impedir que os usuários criem senhas que possam ser facilmente descobertas, use a proteção de senhas do Azure AD, que usa uma lista geral e uma opcional personalizada de senhas proibidas, sendo a última especificada por você. Você pode, por exemplo, usar termos específicos da sua organização, como:
 
 - Nomes de marcas
 - Nomes de produtos

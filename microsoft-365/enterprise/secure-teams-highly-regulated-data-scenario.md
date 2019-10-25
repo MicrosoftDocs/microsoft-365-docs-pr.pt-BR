@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: 4ef4d4e9b8ab437c90aac434db158cfb40f066cb
-ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
+ms.openlocfilehash: d917e14719744dad8a681e15a8547655c3a0457f
+ms.sourcegitcommit: d95aab99d7827dbb9248280044748ca05ebec786
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37628345"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37657798"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -124,7 +124,7 @@ Ao contrário de um rótulo de confidencialidade para dados altamente regulament
 
 Para atingir esse nível adicional de segurança para os arquivos armazenados no Site de Equipe, você deve configurar um novo rótulo de confidencialidade, que é um sub-rótulo do rótulo geral para arquivos altamente regulamentados. Somente os membros do Grupo de Equipe vão vê-los na lista de rótulos.
 
-Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando você tiver um grande número de rótulos ou quiser organizar rótulos para equipes privadas sob o rótulo altamente regulamentado.
+Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando houver um grande número de rótulos ou quiser organizar rótulos para equipes privadas sob o rótulo altamente regulamentado.
 
 [Use estas instruçõess](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) para configurar um rótulo separado ou um sub-rótulo com as seguintes configurações:
 
