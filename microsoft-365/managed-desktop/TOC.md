@@ -15,6 +15,8 @@
 ### [Suporte](service-description/support.md)
 ### [Operações e monitoramento](service-description/operations-and-monitoring.md)
 ### [Requisitos do aplicativo](service-description/mmd-app-requirements.md)
+### [Mudanças de serviço e comunicação](service-description/servicechanges.md)
+### [Personalizar o serviço](service-description/customizing.md)
 ## [Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft](get-ready/index.md)
 ### [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md)
 ### [Preparar rede](get-ready/network.md)
