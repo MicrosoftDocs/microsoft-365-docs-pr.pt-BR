@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b337f020702b60ceeb02043e9b66d5614f58c228
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: d8ba3626fc2b6cb7dbc56d32cb61baf34e43996e
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435555"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697746"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -32,9 +32,9 @@ A pontuação segura ajuda as organizações a fazer o seguinte:
 * Melhorar a postura de segurança fornecendo descoberta, visibilidade, orientação e controle.  
 * Compare com benchmarks e estabeleça indicadores de desempenho principais (KPIs).
 
-A pontuação segura oferece às organizações acesso a visualizações robustas de métricas e tendências, integração com outros produtos da Microsoft, comparação de pontos com organizações similares e muito mais. A pontuação também pode refletir quando soluções de terceiros solucionaram as ações recomendadas.
+As organizações obtêm acesso a visualizações robustas de métricas e tendências, integração com outros produtos da Microsoft, comparação de pontos com organizações similares e muito mais. A pontuação também pode refletir quando soluções de terceiros solucionaram as ações recomendadas.
 
-Além disso, você pode acessar suas recomendações e pontuações por meio da [API do Microsoft Graph](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta).
+Além disso, você pode acessar suas recomendações e pontuações por meio da [API do Microsoft Graph](https://www.microsoft.com/security/partnerships/graph-security-api). Saiba mais sobre o [tipo de recurso de Pontuação segura](https://go.microsoft.com/fwlink/?linkid=2092996).
 
 ## <a name="how-it-works"></a>Como funciona
 
@@ -45,6 +45,10 @@ Sua pontuação é atualizada em tempo real para refletir as informações apres
 ### <a name="how-improvement-actions-are-scored"></a>Como as ações de aperfeiçoamento são pontuadas
 
 A maioria é classificada de forma binária, se você implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, obterá 100% dos pontos. Para outras ações de melhoria, os pontos são fornecidos como uma porcentagem da configuração total. Por exemplo, se a ação de melhoria diz que você obtém 30 pontos protegendo todos os seus usuários com a autenticação multifator e tem apenas 5 de 100 total de usuários protegidos, você receberia uma pontuação parcial de cerca de 2 pontos (5 protegido/100 total * 30 pt máx. = 2 pts  Pontuação parcial).
+
+### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
+
+No momento, há recomendações para o Office 365 (incluindo o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros), o Azure AD, o Intune e o Cloud app Security. As recomendações para outros produtos de segurança, como o Azure ATP e o Microsoft defender ATP, serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros. 
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
@@ -77,19 +81,17 @@ Para acessar a API do Graph, você precisa ter um dos seguintes escopos, além d
 * Escopo securityevents. Read. All (para função somente leitura)
 * Escopo securityevents. ReadWrite. All (para função de leitura e gravação)
 
-## <a name="rich-experiences--security-recommendations"></a>Experiências avançadas & recomendações de segurança
+## <a name="gain-visibility-into-your-security-posture"></a>Obter visibilidade da postura de segurança
 
-Na pontuação segura da Microsoft, há recomendações do Office 365, do Azure AD, do Intune e do Cloud app Security, com recomendações da central de segurança do Azure e da central de segurança do Microsoft defender em breve.
-
-Para ajudá-lo a saber mais rapidamente as informações de que você precisa, as recomendações da Microsoft são organizadas em grupos:
+Para ajudá-lo a obter mais rapidamente as informações de que você precisa, as ações de melhoria da Microsoft são organizadas em grupos:
 
 * Identity (contas e funções do Azure AD)
 * Dados (documentos do Office 365)
-* Dispositivo (dispositivos ATP do Microsoft defender)
+* Dispositivo (dispositivos ATP do Microsoft defender, em breve)
 * Aplicativo (aplicativos de email e de nuvem)
 * Infraestrutura (recursos do Azure)
 
-Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação. Você pode usar esses dados para agir e fazer grandes diferenças em sua postura de segurança.  
+Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
 ![Home Page](../media/secure-score/homepage-original.png)
 de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*

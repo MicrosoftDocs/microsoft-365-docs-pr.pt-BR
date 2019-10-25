@@ -13,41 +13,43 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 78defc7ad5da788ae49195f6c0027f3639d50f3e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 101ebbe46b9f49a1a450c4cb22b5d5f67ce1b322
+ms.sourcegitcommit: bd487d36b04b8f8caf10900e8c5237f9ccf9e072
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291107"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37654020"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
-Este artigo descreve como implementar as políticas recomendadas de identidade e acesso de dispositivo para proteger emails e clientes de email organizacionais que dão suporte à autenticação moderna e acesso condicional. Este guia é baseado nas [políticas comuns de acesso a identidade e dispositivo](identity-access-policies.md) e também inclui algumas recomendações adicionais.
 
+Este artigo descreve como implementar as políticas recomendadas de identidade e acesso de dispositivo para proteger emails e clientes de email organizacionais que dão suporte à autenticação moderna e acesso condicional. Este guia é baseado nas [políticas comuns de acesso a identidade e dispositivo](identity-access-policies.md) e também inclui algumas recomendações adicionais.
 
 Essas recomendações são baseadas em três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade das suas necessidades: linha de **base**, **confidencial**e **altamente regulamentada**. Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
 
 Essas recomendações exigem que seus usuários usem clientes de email modernos, incluindo Outlook para iOS e Android em dispositivos móveis. O Outlook para iOS e Android oferecem suporte aos melhores recursos do Office 365. Esses aplicativos móveis do Outlook também são arquitetados com recursos de segurança que dão suporte ao uso móvel e trabalham em conjunto com outros recursos de segurança de nuvem da Microsoft. Para obter mais informações, consulte [Outlook para IOS e perguntas frequentes sobre Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq).
 
 ## <a name="updating-common-policies-to-include-email"></a>Atualizando políticas comuns para incluir email
+
 O diagrama a seguir ilustra as políticas comuns de acesso de dispositivo e identidades e indica quais políticas precisam ser atualizadas para proteger o email. Observe a adição de uma nova regra para o Exchange Online bloquear clientes ActiveSync. Isso força o uso do Outlook Mobile.
 
 ![Resumo das atualizações de política para proteção de email](../images/identity-access-ruleset-mail.png)
 
-Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada regra vincula as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) . 
+Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada regra vincula as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) .
 
 |Nível de Proteção|Políticas|Mais informações|
 |:---------------|:-------|:----------------|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
-|        |[Bloquear clientes que não dão suporte à autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|        |[Bloquear clientes que não oferecem suporte à autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 |        |[Definir políticas de proteção de aplicativos](identity-access-policies.md#high-risk-users-must-change-password)|Certifique-se de que o Outlook esteja incluído na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows)|
 |        |[Exigir aplicativos aprovados](identity-access-policies.md#require-approved-apps)|Incluir o Exchange Online na lista de aplicativos em nuvem|
-|        |[Exigir computadores compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o Exchange Online na lista de aplicativos em nuvem|
+|        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o Exchange Online na lista de aplicativos em nuvem|
 |        |[Bloquear clientes ActiveSync](#block-activesync-clients)|Adicionar esta nova política| 
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Incluir o Exchange Online na lista de aplicativos em nuvem|
-|**Altamente regulamentado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 
 ## <a name="block-activesync-clients"></a>Bloquear clientes ActiveSync
+
 Essa política impede que os clientes do ActiveSync ignorem outras regras de acesso condicional. A configuração de regra só se aplica aos clientes do ActiveSync. Ao selecionar **exigir aplicativo cliente aprovado**, esta política bloqueia clientes ActiveSync. Para configurar esta política:
 
 1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais. Após entrar com êxito, você verá o painel do Azure.
@@ -70,16 +72,15 @@ Essa política impede que os clientes do ActiveSync ignorem outras regras de ace
 
 10. Escolha **Conceder** na seção **Controles de acesso**.
 
-11. Escolha **conceder acesso**, selecione **exigir aplicativo cliente aprovado**.  Para vários controles, selecione **exigir os controles selecionados**e, em seguida, escolha **selecionar**. 
+11. Escolha **conceder acesso**, selecione **exigir aplicativo cliente aprovado**.  Para vários controles, selecione **exigir os controles selecionados**e, em seguida, escolha **selecionar**.
 
 12. Escolha **Criar**.
 
 ## <a name="setup-office-365-message-encryption"></a>Configurar a criptografia de mensagem do Office 365
+
 Com os novos recursos de criptografia de mensagens do Office 365 (OME), que aproveitam os recursos de proteção na proteção de informações do Azure, sua organização pode compartilhar facilmente email protegido com qualquer pessoa em qualquer dispositivo. Os usuários podem enviar e receber mensagens protegidas com outras organizações do Office 365, bem como clientes não-Office 365, usando o Outlook.com, o Gmail e outros serviços de email.
 
-Para obter mais informações, consulte [configurar novos recursos de criptografia de mensagem do Office 365](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e). 
-
-
+Para obter mais informações, consulte [configurar novos recursos de criptografia de mensagem do Office 365](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e).
 
 ## <a name="next-steps"></a>Próximas etapas
 

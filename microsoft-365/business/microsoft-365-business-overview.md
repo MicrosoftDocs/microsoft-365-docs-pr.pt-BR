@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575909"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697756"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Visão geral do Microsoft 365 Business
 
@@ -54,7 +54,43 @@ O Microsoft 365 Business ajuda a proteger seus dados em cada uma dessas instânc
 
 ![Uma figura que mostra como o M365B protege sua empresa.](media/m365businessvalueadd.png)
 
-Para ver a lista completa de recursos de segurança, consulte [recursos de segurança do Microsoft 365 Business](security-features.md). Depois de [Configurar o Microsoft 365 Business](set-up.md), consulte [Configurar políticas avançadas de segurança](set-up-advanced-security.md) para começar com os recursos de segurança que não estão incluídos como parte da configuração. Leia também as [10 maneiras principais de proteger o Office 365 e os planos de negócios do Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para obter uma boa visão geral de como configurar as proteções contra criminosos virtuais e hackers.
+## <a name="how-your-data-and-devices-are-protected"></a>Como os dados e dispositivos são protegidos
+
+O Microsoft 365 Business ajuda a **proteger contra ameaças** por:
+
+A verificação de links em emails e documentos em tempo real para bloquear sites não seguros (links de ATP seguros).
+
+- Executar uma análise avançada de anexos de email em um ambiente de área restrita para detectar malware recentemente desenvolvidas (anexos seguros de ATP). 
+
+- Habilitar políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para oferecer proteção contra ataques avançados (inteligência antiphishing da ATP). 
+
+- Configuração de políticas avançadas que desabilitam o acesso de locais não confiáveis ou ignoram a autenticação multifator de locais confiáveis, como a rede do Office (Azure MFA, incluindo IPs confiáveis e acesso condicional). 
+
+- Impondo a proteção contra malware em todos os dispositivos Windows 10 da sua empresa e protegendo arquivos nas pastas principais do sistema contra alterações feitas por ransomware (Windows Defender)
+
+Seus **dados corporativos são protegidos** por:
+
+- Usando a detecção automática para ajudar a evitar que informações confidenciais, como números de seguridade social ou cartões de crédito, vazando fora de sua empresa (prevenção de perda de dados). 
+
+- Criptografar emails confidenciais para que você possa se comunicar com segurança com clientes ou outras pessoas de fora da sua empresa, garantindo que apenas o destinatário desejado possa ler a mensagem (criptografia de mensagem do Office 365).
+
+- Controlar quem tem acesso às informações da empresa aplicando restrições como não **copiar** e **não encaminhar** para email e documentos (proteção de informações do Azure, plano 1).
+
+- Habilitar o arquivamento em nuvem ilimitado para que você possa reter todos os emails de seus negócios, incluindo as caixas de correio dos antigos funcionários (arquivamento do Exchange Online).
+
+Seus **dispositivos são protegidos** por:
+
+- Controlar quais dispositivos e usuários podem acessar seus dados do Office 365; com opções para impedir que os usuários façam logon de computadores domésticos, aplicativos não aprovados ou fora de horários de trabalho (acesso condicional).
+
+- Aplicação de políticas de segurança para proteger dados corporativos em dispositivos iOS e Android.  Por exemplo, você pode exigir que os usuários forneçam um PIN ou uma impressão digital para acessar dados corporativos e criptografar dados em dispositivos móveis (proteção de aplicativos para aplicativos móveis do Office).
+
+- Manter os documentos de negócios, os emails e outros dados em aplicativos móveis do Office aprovados e impedir que os funcionários os salvem em aplicativos e locais não autorizados (proteção de aplicativos para aplicativos móveis do Office).
+
+- Apagamento remoto de dados corporativos de dispositivos perdidos ou roubados sem afetar as informações pessoais (limpeza seletiva do Intune).
+
+- Usando controles simplificados para gerenciar políticas para todos os computadores com Windows 10 em sua empresa, aplicando a criptografia BitLocker e instalando automaticamente as atualizações críticas do Windows (aplicando as políticas do Windows Update).
+
+Para ver a lista completa de recursos de segurança, consulte [recursos de segurança do Microsoft 365 Business](security-features.md). Depois de [Configurar o Microsoft 365 Business](set-up.md), consulte [Configurar políticas avançadas de segurança](set-up-advanced-security.md) para começar com os recursos de segurança que não estão incluídos como parte da configuração dirigida. Leia também as [10 maneiras principais de proteger o Office 365 e os planos de negócios do Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para obter uma boa visão geral de como configurar as proteções contra criminosos virtuais e hackers.
 
 ## <a name="get-microsoft-365-business"></a>Obter o Microsoft 365 Business
 
