@@ -13,18 +13,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Use este guia de laboratório de teste para habilitar o gerenciamento de acesso privilegiado do ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 306cd8d3cb574fd18a3d184898ead765936bf431
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: df3a2138de105b45f472ff0a862af2afe6dd2a34
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073011"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733412"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Gerenciamento de acesso privilegiado para seu ambiente de teste do Microsoft 365 Enterprise
 
 Com as instruções deste artigo, você configura o gerenciamento de acesso privilegiado para aumentar a segurança no seu ambiente de teste do Microsoft 365 Enterprise.
 
-![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -36,7 +36,7 @@ Se você só quiser configurar o gerenciamento de acesso privilegiado de forma l
 Se você deseja configurar o gerenciamento de acesso privilegiado em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> O teste de gerenciamento de acesso privilegiado não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretório para uma floresta do AD DS. Ele é fornecido aqui como uma opção para que você possa testar o gerenciamento de acesso privilegiado e experimentá-lo em um ambiente que representa uma organização típica. 
+> O teste de gerenciamento de acesso privilegiado não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta do AD DS. Ele é fornecido aqui como uma opção para que você possa testar o gerenciamento de acesso privilegiado e experimentá-lo em um ambiente que representa uma organização típica. 
 
 ## <a name="phase-2-configure-privileged-access-management"></a>Fase 2: configurar o gerenciamento de acesso privilegiado
 
@@ -75,7 +75,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando credenciais da conta de administrador global para seu ambiente de teste.
 
-2. No centro de administração, vá para **configurações** > **segurança & privacidade** > **privilegiada**.
+2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -118,7 +118,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando a conta de administrador global para seu ambiente de teste.
 
-2. No centro de administração, vá para **configurações** > **segurança & privacidade** > **privilegiada**.
+2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -140,7 +140,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais do usuário 3 no seu ambiente de teste (membro do grupo de segurança "aprovadores de acesso privilegiado" no seu ambiente de teste).
 
-2. No centro de administração, vá para **configurações** > **segurança & privacidade** > **privilegiada**.
+2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
