@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de laboratório de teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 6293e6a4ee17453fd842cde27f909412bb34dab0
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 082d110ca7b25d3613ee276b30066683cd0232b5
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073471"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733413"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Guias do laboratório de teste do Microsoft 365 Enterprise
 
@@ -57,7 +57,7 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 - [Logon único contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md)
   
-   Habilite e teste o logon único contínuo do Azure AD (SSO) com um controlador de domínio do AD DS.
+   Habilite e teste o Logon Único Contínuo (SSO) do Azure AD com um controlador de domínio do AD DS.
 
 - [Autenticação multifator](multi-factor-authentication-microsoft-365-test-environment.md)
   
