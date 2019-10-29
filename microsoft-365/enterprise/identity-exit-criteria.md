@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: 4a93d0a9fb497daccba4fd2641fd5faf9c4fb384
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 84c2b97e064d3dba8a97767a31cc9fe7ccc6dd8c
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370198"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746517"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
@@ -96,7 +96,7 @@ Se necessário, a [Etapa 2](identity-secure-your-passwords.md#identity-sso) pode
 <a name="crit-identity-custom-sign-in"></a>
 ## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Opcional: A tela de entrada do Office 365 ser personalizada para sua organização
 
-Você deve usar o artigo [Adicionar a identidade visual da sua empresa às suas páginas de entrada e do Painel de Acesso](http://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada do Office 365.
+Você deve usar o artigo [Adicionar a identidade visual da sua empresa às suas páginas de entrada e do Painel de Acesso](https://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada do Office 365.
 
 Se você ignorar essa opção, os usuários verão uma tela genérica de entrada do Office 365 e poderão não ter a confiança de que estão entrando no site da sua organização.
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você precisa de senhas fortes e gerenciáveis em toda a organização.
-ms.openlocfilehash: a3661eedc11e0c826422f540cf1e2e9abf911f9d
-ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
+ms.openlocfilehash: 375f4a678e85dccb544ffaf56f648e98609841d9
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37662547"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746507"
 ---
 # <a name="step-2-secure-your-passwords"></a>Etapa 2: proteger suas senhas
 
@@ -90,7 +90,7 @@ Com o Microsoft 365 Enterprise, é possível personalizar a aparência das pági
 
 Saiba mais em [Adicionar a marca da empresa na página de entrada do Office 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page).
 
-Confira as instruções de configuração em [Adicionar a marca da empresa na página de entrada e no Painel de acesso](http://aka.ms/aadpaddbranding).
+Confira as instruções de configuração em [Adicionar a marca da empresa na página de entrada e no Painel de acesso](https://aka.ms/aadpaddbranding).
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-custom-sign-in) para esta seção.
 

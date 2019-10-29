@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: b0bb241cb475b8ab3bdb0d7ebbbda6ab0936b29d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7a23f0eabcd9b4b0b94f6f932570fed12de32cbe
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073091"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746497"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
@@ -371,7 +371,7 @@ Primeiro, siga as etapas da Fase 2 e Fase 3 do [Ambiente de desenvolvimento/test
 
 Em seguida, adicione a assinatura de avaliação do Microsoft 365 E5 e atribua uma licença do Microsoft 365 à sua conta de administrador global.
 
-1. Com uma instância particular de um navegador da Internet, acesse o Centro de administração do Microsoft 365 na [http://admin.microsoft.com](http://admin.microsoft.com) com suas credenciais da conta de administrador global.
+1. Com uma instância particular de um navegador da Internet, acesse o Centro de administração do Microsoft 365 na [https://admin.microsoft.com](https://admin.microsoft.com) com suas credenciais da conta de administrador global.
     
 2. Na página **Centro de administração do Microsoft 365**, na navegação à esquerda, clique em **Cobrança > Serviços de compra**.
     

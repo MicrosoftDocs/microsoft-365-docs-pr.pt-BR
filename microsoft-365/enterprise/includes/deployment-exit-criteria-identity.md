@@ -68,7 +68,7 @@ Se necessário, a [Etapa 2](../identity-secure-your-passwords.md#identity-sso) p
 <a name="crit-identity-custom-sign-in"></a>
 ### <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Opcional: A tela de entrada do Office 365 ser personalizada para sua organização
 
-Você deve usar o artigo [Adicionar a identidade visual da sua empresa às suas páginas de entrada e do Painel de Acesso](http://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada do Office 365.
+Você deve usar o artigo [Adicionar a identidade visual da sua empresa às suas páginas de entrada e do Painel de Acesso](https://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada do Office 365.
 
 Se você ignorar essa opção, os usuários verão uma tela genérica de entrada do Office 365 e poderão não ter a confiança de que estão entrando no site da sua organização.
 
