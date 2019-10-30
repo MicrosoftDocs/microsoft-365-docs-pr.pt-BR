@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: O Microsoft Proteção do Exchange Online (EOP) é um serviço de filtragem de e-mails baseado na nuvem que ajuda a proteger sua organização contra spam e malware, e inclui recursos para defender sua organização das violações da política de mensagens.
-ms.openlocfilehash: e091946792e78f47f5c0ab5a001bf45ca4de6b08
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b00de649bf0517d3c5cda99f1c20579ad1dfeec5
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440448"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772265"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
@@ -56,13 +56,13 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 ## <a name="eop-plans-and-features"></a>Planos e recursos do EOP
 
-Estes são os planos de assinatura disponíveis do EOP:
+Os planos de assinatura disponíveis do EOP são:
 
-- **EOP autônomo**: onde o EOP protege suas caixas de correio locais.
+- **EOP autônomo**: você se inscreve no EOP para proteger sua organização de email local.
 
-- **Recursos do EOP no Exchange Online**: onde o EOP protege suas caixas de correio hospedadas na nuvem do Exchange Online.
+- **Recursos do EOP no Exchange Online**: qualquer assinatura que inclua o Exchange Online (autônomo ou como parte do Office 365) usa o EOP para proteger suas caixas de correio do Exchange Online.
 
-- **Exchange Enterprise CAL com serviços**: onde o EOP protege suas caixas de correio locais, como o EOP autônomo, e inclui a prevenção de perda de dados (DLP) e relatórios usando serviços Web.
+- **Exchange Enterprise CAL com serviços**: se você tiver uma organização do Exchange no local onde comprou o Exchange Enterprise CAL adicional com licenças de serviços, o EOP faz parte dos serviços incluídos.
 
 Para mais informações sobre as exigências, limites importantes e disponibilidade de recursos em todos os planos de assinatura do EOP, consulte a [Descrição do serviço de proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=320619).
 
@@ -72,7 +72,7 @@ A configuração do EOP pode ser simples, especialmente no caso de uma pequena o
 
 Se você já comprou o EOP, consulte [Configurar seu serviço EOP](set-up-your-eop-service.md) para garantir a conclusão de todas as etapas necessárias de configuração do EOP, a fim de proteger seu ambiente de mensagens.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Recursos EOP](eop-features.md)
 

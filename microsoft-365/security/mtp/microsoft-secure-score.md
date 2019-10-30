@@ -15,18 +15,18 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d8ba3626fc2b6cb7dbc56d32cb61baf34e43996e
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+ms.openlocfilehash: 74afe39e78990d794368ed19aa5fd5116bee17bb
+ms.sourcegitcommit: 0830be61e21570ee3a2589e35c21f358b52585c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697746"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37774904"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
 A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
 
-A pontuação segura ajuda as organizações a fazer o seguinte:  
+A pontuação segura ajuda as organizações:
 
 * Relatar o estado atual da postura de segurança da organização.
 * Melhorar a postura de segurança fornecendo descoberta, visibilidade, orientação e controle.  
@@ -38,7 +38,7 @@ Além disso, você pode acessar suas recomendações e pontuações por meio da 
 
 ## <a name="how-it-works"></a>Como funciona
 
-Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários. A segurança deve sempre ser balanceada com usabilidade, e nem todas as recomendações podem funcionar para seu ambiente.
+Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários. A segurança deve ser balanceada com usabilidade e nem todas as recomendações podem funcionar para seu ambiente.
 
 Sua pontuação é atualizada em tempo real para refletir as informações apresentadas nas páginas de ações de visualizações e melhorias. A pontuação segura também sincroniza diariamente para receber dados do sistema sobre seus pontos obtidos para cada ação.
 
@@ -48,7 +48,7 @@ A maioria é classificada de forma binária, se você implementar a ação de me
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
-No momento, há recomendações para o Office 365 (incluindo o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros), o Azure AD, o Intune e o Cloud app Security. As recomendações para outros produtos de segurança, como o Azure ATP e o Microsoft defender ATP, serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros. 
+No momento, há recomendações para o Office 365 (incluindo o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros), o Azure AD, o Intune e o Cloud app Security. As recomendações para outros produtos de segurança, como o Azure ATP e o Microsoft defender ATP, serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
@@ -85,10 +85,10 @@ Para acessar a API do Graph, você precisa ter um dos seguintes escopos, além d
 
 Para ajudá-lo a obter mais rapidamente as informações de que você precisa, as ações de melhoria da Microsoft são organizadas em grupos:
 
-* Identity (contas e funções do Azure AD)
-* Dados (documentos do Office 365)
+* Identity (contas do Azure AD & funções, com o Azure ATP disponível em breve)
+* Dados (proteção de informações da Microsoft)
 * Dispositivo (dispositivos ATP do Microsoft defender, em breve)
-* Aplicativo (aplicativos de email e de nuvem)
+* Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
 * Infraestrutura (recursos do Azure)
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
@@ -102,7 +102,7 @@ A guia ações de melhoria lista as recomendações de segurança que lidam com 
 
 ### <a name="ranking"></a>Classificação
 
-A classificação baseia-se no número de outros pontos restantes para atingir, dificuldade de implementação, impacto do usuário e complexidade. As ações mais altas de melhoria da classificação têm a grande quantidade de pontos restantes com baixa dificuldade, impacto do usuário e complexidade.
+A classificação baseia-se no número de outros pontos restantes para atingir, dificuldade de implementação, impacto do usuário e complexidade. As ações mais altas de melhoria da classificação têm um grande número de pontos restantes com baixa dificuldade, impacto do usuário e complexidade.
 
 ### <a name="actions"></a>Ações
 
