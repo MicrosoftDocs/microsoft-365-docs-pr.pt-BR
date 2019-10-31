@@ -9,11 +9,11 @@
         - name: Comprar licenças
           href: /office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: Atribuir licenças
-          href: /office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+          href: /office365/admin/manage/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Cancelar a atribuição de licenças
+          href: /office365/admin/manage/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: Remover licenças da assinatura
           href: /office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
-        - name: Remover licenças de usuários
-          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: Atualizar assinaturas
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: Faturas e pagamentos
@@ -21,11 +21,11 @@
         - name: Entender sua fatura
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
         - name: Gerenciar métodos de pagamento
-          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
+          href: /office365/Admin/subscriptions-and-billing/add-update-or-remove-credit-card-or-bank-account?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: Gerenciar perfis de cobrança
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
         - name: Política de serviços de pagamento 2 e autenticação de cliente forte
-          href: /microsoft-365/commerce/billing-and-payments/psd2.md
+          href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: Contas de cobrança
       items:
         - name: Gerenciar informações de conta de cobrança
