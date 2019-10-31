@@ -11,16 +11,16 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores no Office 365 (também conhecido como inteligência de fluxo de emails).
-ms.openlocfilehash: 088af4b6924fde0277901a19437d17c4506ff22b
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: d49937afb379b43821d905001e8aee21ca86eb52
+ms.sourcegitcommit: b91d75d2631166ddd158d26a0a476e26391a58ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441538"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886854"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Inteligência de fluxo de emails no Office 365
 
-Normalmente, você usa um conector para rotear mensagens de email da sua organização do Office 365 para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Office 365 para uma organização de parceiro. Quando o Office 365 não pode entregar essas mensagens por meio do conector, elas são enfileiradas no Office 365. O Office 365 continuará a tentar a entrega de cada mensagem por 48 horas. Após 48 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
+Normalmente, você usa um conector para rotear mensagens de email da sua organização do Office 365 para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Office 365 para uma organização de parceiro. Quando o Office 365 não pode entregar essas mensagens por meio do conector, elas são enfileiradas no Office 365. O Office 365 continuará a tentar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
 
 O Office 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste tópico. Coletivamente, os erros de enfileiramento e notificação para mensagens não entregues enviadas via conectores são conhecidos como _inteligência de fluxo de emails_.
 

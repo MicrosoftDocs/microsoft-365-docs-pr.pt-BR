@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: este artigo descreve como usar o DomainKeys Identified Mail (DKIM) com o Office 365 para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado.'
-ms.openlocfilehash: 4d9228301a4cafd3728a349ad710496ba8f9d379
-ms.sourcegitcommit: ffdf576fbc62c4c316f6d8061d2bd973e7df9f56
+ms.openlocfilehash: 07cb90684bbbba4851697020ceac4756381f8b55
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "37598285"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772235"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Use o DKIM para validar emails enviados de seu domínio personalizado no Office 365
 
@@ -129,7 +129,7 @@ Crie CNAMEs referenciados na saída Get-DkimSigningConfig
 ```powershell
     Set-DkimSigningConfig -Identity <domain> -Enabled $true
 ```
-Os registros CNAME em seu DNS indicarão que já criaram registros A que existem no DNS nos servidores DNS da Microsoft para o Office 365.
+Os registros CNAME no seu DNS apontarão para os registros DKIM TXT já criados que existem no DNS nos servidores DNS da Microsoft para o Office 365.
   
 O Office 365 executa a rotação de chaves automática usando os dois registros estabelecidos. Se você provisionou domínios personalizados em adição ao domínio inicial no Office 365, deve publicar dois registros CNAME para cada domínio adicional. Portanto, se você tem dois domínios, deve publicar dois registros CNAME adicionais e assim por diante.
   

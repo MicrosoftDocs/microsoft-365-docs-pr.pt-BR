@@ -13,12 +13,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os campos e valores do cabeçalho que são adicionados às mensagens pela Proteção do Exchange Online.
-ms.openlocfilehash: 7a89a5dc0c05bd390669b5008b9d589a89488171
-ms.sourcegitcommit: b0396171d24c6298b809b43bb109d3afed4de5b8
+ms.openlocfilehash: df0e31ad6d1c67c8d7ed92e9b42efb1da0c37731
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37451113"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772255"
 ---
 # <a name="anti-spam-message-headers"></a>Cabeçalhos de mensagem antispam
 
@@ -39,7 +39,6 @@ Depois de acessar as informações do cabeçalho da mensagem, procure **X-Forefr
 |CTRY|O país/região a partir do qual a mensagem se conectou ao serviço. Isso é determinado pelo endereço IP de conexão, que pode não ser o mesmo que o endereço IP de envio original.|
 |LANG|O idioma no qual a mensagem foi escrita, conforme especificado pelo código de país/região (por exemplo, ru_RU para russo).|
 |SCL|O valor de Nível de Confiança de Spam (SCL) da mensagem. Para obter mais informações sobre como interpretar esses valores, consulte [Níveis de confiança de spam](spam-confidence-levels.md).  |
-|PCL|O valor do Nível de confiança de phishing (PCL) da mensagem.|
 |SRV:BULK|A mensagem foi identificada como uma mensagem de email em massa. Se a **opção de filtragem de spam avançada Bloquear todas as mensagens de email em massa estiver habilitada**, ela será marcada como spam. Se não estiver habilitada, ela será apenas marcada como spam se o restante das regras de filtragem determinar que a mensagem é spam.|
 |SFV:SFE|A filtragem foi ignorada e foi permitida a passagem da mensagem porque ela foi enviada de um endereço em uma lista de remetentes seguros de um indivíduo.|
 |SFV:BLK|A filtragem foi ignorada e foi bloqueada a passagem da mensagem porque ela foi enviada de um endereço em uma lista de remetentes bloqueados de um indivíduo.  <br/> **Dica:** Para obter mais informações sobre como os usuários finais podem criar listas de remetentes seguros e bloqueados, confira [Bloquear ou permitir (configurações de lixo eletrônico)](https://go.microsoft.com/fwlink/p/?LinkId=294862) (Outlook na Web) e [Visão geral do Filtro de Lixo Eletrônico](https://go.microsoft.com/fwlink/p/?LinkId=270065) (Outlook).|
@@ -66,8 +65,7 @@ A tabela a seguir descreve campos úteis no cabeçalho da mensagem **X-Microsoft
 
 |**Campo do cabeçalho**|**Descrição**|
 |:-----|:-----|
-|PCL|O Nível de Confiança de Phishing (PCL) da mensagem que indica se é uma mensagem de phishing. Esse status pode ser retornado como um dos seguintes valores numéricos: <br/>**0-3**: O conteúdo da mensagem provavelmente não é phishing. <br/>**4-8**: O conteúdo da mensagem provavelmente é phishing. <br/>**-9990**: (somente da Proteção do Exchange Online) O conteúdo da mensagem é provavelmente phishing.  <br/>  Os valores são usados para determinar que ação o seu cliente de email toma em relação às mensagens. Por exemplo, o Outlook usa o carimbo PCL para bloquear o conteúdo de mensagens suspeitas.  Para ter mais informações sobre phishing e como o Outlook processa as mensagens de phishing, consulte [Ativar ou desativar links em mensagens de email](https://support.office.com/article/2D79B907-93B6-4774-82E6-1F0385CF20F8).|
-|
+|BCL|O Nível de Reclamação em Massa (BCL) da mensagem ajuda a distinguir os diferentes tipos de remetentes de envio em massa. Isso é representado como um valor entre 0 e 9. Para valores e outras informações sobre BCL, consulte [Valores de Nível de Reclamação em Massa](bulk-complaint-level-values.md).|
 
 ## <a name="authentication-results-message-header"></a>Cabeçalho da mensagem Authentication-results
 
