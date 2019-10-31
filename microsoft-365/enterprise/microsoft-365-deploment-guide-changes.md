@@ -3,7 +3,7 @@ title: Alterações no conteúdo de implantação do Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/25/2019
+ms.date: 10/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Veja o novo conteúdo e as alterações no conteúdo no Guia de Implantação do Microsoft 365.
-ms.openlocfilehash: 7c0ce7abed78f305bb3dc71e92628b25d48a040d
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: 6c965efcbbfebe4fd80ac983674a7d183793e946
+ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733482"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37889930"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Alterações no conteúdo de implantação do Microsoft 365 Enterprise
 
@@ -30,13 +30,20 @@ ms.locfileid: "37733482"
 
   [![Pôster Implantar o Windows 10 com Piloto Automático](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=bfzlEl8SrShCQyj8E2QUf6LJfxlKre6ortODE4qHjrc%3D&st=2019-10-24T22%3A18%3A33Z&se=2019-10-25T22%3A28%3A33Z&sp=r)
 
+  Você também pode fazer o download deste pôster em formato [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) ou do [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx).
+
 - [Pôster de implantação do Windows 10 com o System Center Configuration Manager](windows10-deploy-inplaceupgrade.md)
 
   [![Pôster de implantação do Windows 10 com o System Center Configuration Manager](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=tKD38RgLAoOCAWJ5ppEbLevBAHk7KHtWrXldy2Jl6mY%3D&st=2019-10-24T22%3A16%3A08Z&se=2019-10-25T22%3A26%3A08Z&sp=r)
 
+  Você também pode fazer o download deste pôster em formato [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) ou do [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx).
+
 - [Teams para dados altamente controlados](secure-teams-highly-regulated-data-scenario.md)
 
   [![O Teams para dados altamente controlados](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)](secure-teams-highly-regulated-data-scenario.md)
+
+  Anúncios: [Blog da Comunidade Técnica do Microsoft 365](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Protect-your-highly-regulated-files-in-Teams-with-Microsoft-365/ba-p/962985)  |  [LinkedIn](https://www.linkedin.com/pulse/how-can-i-lock-down-team-sensitive-top-secret-joe-davies/?published=t)
+
 
 - [Pôster Capacitar trabalhadores remotos](empower-people-to-work-remotely.md#poster)
 
@@ -45,6 +52,7 @@ ms.locfileid: "37733482"
 
 ### <a name="updates-and-enhancements"></a>Atualizações e aprimoramentos
 
+- Atualização da [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)
 - Atualização do [estudo de caso da Contoso](contoso-case-study.md)
 - Atualização das cargas de trabalho [Microsoft Teams](teams-workload.md), [Exchange Online](exchangeonline-workload.md) e [SharePoint Online](sharepoint-online-onedrive-workload.md) 
 - Atualização dos [sites do SharePoint para cenário de dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md)
@@ -63,6 +71,8 @@ ms.locfileid: "37733482"
 
   [![Configuração de trabalhador remoto para uma organização com identidade híbrida](./media/empower-people-to-work-remotely/remote-workers-hybrid.png)](empower-people-to-work-remotely.md) 
  
+  Anúncios: [Blog da Comunidade Técnica do Microsoft 365](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Empower-your-remote-workers-with-Microsoft-365-Enterprise/ba-p/935196#M236)  |  [LinkedIn](https://www.linkedin.com/pulse/how-do-i-configure-microsoft-365-enterprise-empower-my-joe-davies/)
+
 - [Etapa de criptografia de email](infoprotect-email-encryption.md) para a [Fase 6: Proteção de Informações](infoprotect-infrastructure.md)
 
 ### <a name="updates-and-enhancements"></a>Atualizações e aprimoramentos
