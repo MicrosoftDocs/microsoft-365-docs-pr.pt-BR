@@ -13,12 +13,12 @@ ms.custom: aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
-ms.openlocfilehash: 7cf1fa1b12ab11e777754cba8f75cc4bead95279
-ms.sourcegitcommit: 29d85279c76ffaaa3f45e7ea3bdb590f54847fd6
+ms.openlocfilehash: 9faa573ea2062af2fe49e2810eaecc75ce90c84c
+ms.sourcegitcommit: 9d0a025ea9e265d515a034de0102eabcf47d11f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885575"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37911382"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -29,7 +29,12 @@ ms.locfileid: "37885575"
 
 ### <a name="what-changes-did-microsoft-announce-around-self-service-purchases-for-the-power-platform-products"></a>Quais alterações a Microsoft anunciou em compras de autoatendimento para os produtos da plataforma de energia?
 
-A partir de 19 de novembro de 2019, a aquisição de autoatendimento, assinatura e recursos de gerenciamento de licença para produtos de plataforma de alimentação (Power BI, PowerApps e Flow) estarão disponíveis para a maioria dos clientes em nuvem comercial nos Estados Unidos. A compra de autoatendimento oferece aos usuários a oportunidade de experimentar novas tecnologias e permitir que elas desenvolvam soluções que, por fim, beneficiarão suas organizações maiores. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento. As equipes de compras centrais e de ti terão visibilidade para todos os usuários que compram e implantam soluções de compras de autoatendimento por meio do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>.
+ATUALIZAR a partir de 31 de outubro de 2019: na semana passada, temos a opinião dos clientes sobre a distribuição de nossos recursos de compra de autoatendimento para produtos de plataforma de energia. Com base nos comentários, estamos fazendo as seguintes alterações em nosso plano:
+
+- No dia 19 de novembro, forneceremos aos administradores de ti uma maneira de desativar a compras de autoatendimento por produto através do PowerShell. Mais detalhes estarão disponíveis.
+- Para dar mais tempo para se preparar para essa mudança, estamos atualizando o lançamento para recursos de compra de autoatendimento para os produtos de plataforma de alimentação para começar com o Power BI em 14 de Janeiro para todos os clientes de nuvem comercial.  
+
+A partir de 14 de janeiro de 2020, a aquisição de autoatendimento, assinatura e recursos de gerenciamento de licença para produtos de plataforma de alimentação (Power BI, PowerApps e Flow) estarão disponíveis para clientes em nuvem comercial nos Estados Unidos. A compra de autoatendimento oferece aos usuários a oportunidade de experimentar novas tecnologias e permitir que elas desenvolvam soluções que, por fim, beneficiarão suas organizações maiores. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento. As equipes de compras centrais e de ti terão visibilidade para todos os usuários que compram e implantam soluções de compras de autoatendimento por meio do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> e poderão desativar a compra de autoatendimento por produto por meio do PowerShell.
 
 ### <a name="why-is-microsoft-adding-a-self-service-purchase-option-for-the-power-platform-products"></a>Por que a Microsoft está adicionando uma opção de compra de autoatendimento para os produtos da plataforma de alimentação?
 
@@ -37,7 +42,7 @@ No mundo de hoje, os usuários finais e departamentos estão cada vez mais procu
 
 ### <a name="when-will-self-service-purchase-for-the-power-platform-products-be-available"></a>Quando a compra de autoatendimento para os produtos da plataforma de energia estará disponível?
 
-A Microsoft está lançando a compra de autoatendimento para o Power BI em 19 de novembro de 2019, para os clientes nos Estados Unidos, com mercados adicionais ficando disponíveis nos próximos meses. O PowerApps e o Microsoft Flow serão adicionados em 4 de dezembro de 2019. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento.
+A Microsoft está iniciando a compra de autoatendimento para o Power BI em 14 de janeiro de 2020, para os clientes nos Estados Unidos, com mercados adicionais ficando disponíveis nos próximos meses. O PowerApps e o Microsoft Flow serão adicionados nas semanas a seguir. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>A compra de autoatendimento será habilitada para serviços além dos produtos de plataforma de energia?
 
@@ -91,13 +96,7 @@ A pessoa que comprar a assinatura por meio de compras de autoatendimento será c
 
 ### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>Quais recursos um administrador tem para compras de autoatendimento?
 
-Os administradores podem exibir todas as compras de autoatendimento feitas em sua organização no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos para cada compra de autoatendimento.
-
-Embora todos os usuários do Azure AD em organizações qualificadas tenham permissão para fazer compras de autoatendimento e tenham controle total sobre suas assinaturas, os administradores têm as mesmas políticas de gerenciamento e acesso de dados sobre produtos comprados por autoatendimento ou centralmente.
-
-### <a name="why-are-self-service-purchases-not-subject-to-admin-approval"></a>Por que as compras de autoatendimento não estão sujeitas à aprovação do administrador?
-
-Estamos respondendo aos nossos clientes que solicitaram compras de autoatendimento e que ainda respeitam o controle de administração sobre os serviços. Os administradores têm visibilidade total de quem fez uma compra de autoatendimento e quais usuários em seus locatários receberam uma licença de uma compra de autoatendimento. As organizações também podem confiar em políticas, procedimentos e comunicações internos para garantir que as pessoas que fazem compras de autoatendimento estejam em conformidade com as políticas da empresa.  Como um exemplo de como controlar o acesso aos serviços: [set-MsolServicePrincipal](https://docs.microsoft.com/powershell/module/msonline/set-msolserviceprincipal?view=azureadps-1.0) pode ser usado para impedir o uso do produto em todo o seu locatário.
+Os administradores podem exibir todas as compras de autoatendimento feitas em sua organização no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. Se for necessário para sua organização, os administradores poderão desativar a compra de autoatendimento por produto através do PowerShell. Os administradores têm as mesmas políticas de gerenciamento de dados e acesso sobre os produtos comprados por meio de compras de autoatendimento ou de forma centralizada.
 
 ### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Como a Microsoft está respeitando a conformidade e o controle de dados habilitando a compra de autoatendimento?
 
@@ -122,6 +121,11 @@ Os administradores podem ver o produto, o nome do comprador, a assinatura adquir
 ### <a name="are-customers-it-departments-or-partners-expected-to-support-products-bought-through-self-service-purchase"></a>Os departamentos de ti ou parceiros são esperados para o suporte de produtos comprados por autoatendimento?
 
 Não é esperado que os departamentos de ti e os parceiros forneçam suporte para produtos comprados por autoatendimento. A Microsoft fornecerá suporte padrão para compradores de autoatendimento.
+
+### <a name="if-a-self-service-purchaser-calls-support-will-they-use-the-customers-premier-support-incidents"></a>Se um comprador de autoatendimento ligar para o suporte, eles usarão os incidentes de suporte Premier do cliente?
+
+Os compradores de autoatendimento não usarão os incidentes de suporte Premier do cliente para receber suporte para suas compras de autoatendimento.
+
 
 ### <a name="how-are-users-expected-to-receive-training-on-the-products-they-buy-through-self-service-purchase"></a>Como os usuários devem receber treinamento nos produtos que comprarem por meio de compras de autoatendimento?
 
