@@ -82,6 +82,12 @@
 #### [Informações herdadas de Criptografia de Mensagens do Office 365](legacy-information-for-message-encryption.md)
 #### [Configurar o Azure Rights Management para a versão anterior de Criptografia de Mensagens do Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
+## [Entender a classificação de dados (visualização)](data-classification-overview.md)
+### [Exibir atividade do rótulo (visualização)](data-classification-activity-explorer.md)
+### [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md)
+### [Usando um classificador pronto para uso (visualização)](classifier-using-a-ready-to-use-classifier.md)
+### [Criando e treinando um classificador (visualização)](classifier-creating-a-trainable-classifier.md)
+
 # Gerenciar governança de informações
 ## [Importar dados](importing-pst-files-to-office-365.md)
 ### [Usar o upload de rede para importar arquivos PST](use-network-upload-to-import-pst-files.md)
@@ -357,11 +363,16 @@
 
 # Gerenciar riscos de conformidade.
 ## [Portal de Confiança do Serviço da Microsoft](get-started-with-service-trust-portal.md)
-## [Gerenciador de conformidade (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [Gerenciador de conformidade (visualização)](compliance-manager-overview.md)
-### [Novidades do Gerenciador de conformidade (visualização)](compliance-manager-release-notes.md)
-### [Trabalhar com o Gerenciador de conformidade (visualização)](working-with-compliance-manager.md)
-### [Metodologia de pontuação de conformidade (Visualização)](compliance-score-methodology.md)
+## Pontuação de Conformidade e Gerenciador de Conformidade
+### [Pontuação de Conformidade (visualização)](compliance-score.md)
+### [Configurar a Pontuação de Conformidade (visualização)](compliance-score-setup.md)
+### [Trabalhando com a Pontuação de Conformidade (visualização)](working-with-compliance-score.md)
+### [Cálculo da Pontuação de Conformidade (visualização)](compliance-score-methodology.md)
+### [Notas de versão da Pontuação de Conformidade (visualização)](compliance-score-release-notes.md)
+### [Gerenciador de conformidade (visualização)](compliance-manager-overview.md)
+#### [Novidades do Gerenciador de conformidade (visualização)](compliance-manager-release-notes.md)
+#### [Trabalhar com o Gerenciador de conformidade (visualização)](working-with-compliance-manager.md)
+#### [Gerenciador de Conformidade (herdado)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [Ferramenta de solicitação de entidade de dados RGPD](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Proteção de Informações do Office 365 para o RGPD](office-365-information-protection-for-gdpr.md)
