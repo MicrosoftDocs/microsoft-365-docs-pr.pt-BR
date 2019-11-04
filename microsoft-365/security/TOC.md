@@ -15,6 +15,8 @@
 ## [Configurações de acesso à identidade e dispositivo](../enterprise/microsoft-365-policies-configurations.md)
 ### [Trabalho de pré-requisito](../enterprise/identity-access-prerequisites.md)
 ### [Identidade comum e políticas de acesso ao dispositivo](../enterprise/identity-access-policies.md)
+### [Políticas para usuários convidados e externos](../enterprise/identity-access-policies-guest-access.md)
+### [Políticas de acesso recomendadas do Teams](../enterprise/teams-access-policies.md)
 ### [Políticas de acesso recomendadas do Exchange Online](../enterprise/secure-email-recommended-policies.md)
 ### [Políticas de acesso recomendadas do SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
 
