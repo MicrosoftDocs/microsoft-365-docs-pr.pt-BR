@@ -4,6 +4,7 @@
 ## [O que há de novo no Centro de Conformidade](whats-new.md)
 ## [Atualizações recentes do conteúdo de conformidade](recently-updated-topics-mcc.md)
 ## [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md)
+## [Catálogo de soluções do Microsoft 365 (visualização)](microsoft-365-solution-catalog.md)
 ## [Ir para o Centro de Conformidade e Segurança](go-to-the-securitycompliance-center.md)
 ## [Usar assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Plano de segurança e conformidade no Office 365](plan-for-security-and-compliance.md)
@@ -17,9 +18,13 @@
 ## Chave de Cliente
 ### [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md)
 ### [Criptografia de serviço com Chave de Cliente para perguntas frequentes do Office 365](service-encryption-with-customer-key-faq.md)
-## Supervisionar comunicações
-### [Aprenda sobre políticas de supervisão](supervision-policies.md)
-### [Configure as políticas de supervisão da sua organização](configure-supervision-policies.md)
+## [Conformidade em comunicações]()
+### [Saiba mais sobre a conformidade em comunicações (visualização)](communication-compliance.md)
+### [Configurar a conformidade em comunicações no Microsoft 365 (visualização)](communication-compliance-configure.md)
+### [Investigar e corrigir alertas de conformidade em comunicações (visualização)](communication-compliance-investigate-remediate.md)
+### [Referência de recurso para a conformidade em comunicações (visualização)](communication-compliance-feature-reference.md)
+### [Políticas de supervisão no Office 365](supervision-policies.md)
+### [Configurar políticas de supervisão no Office 365](configure-supervision-policies.md)
 ## [Barreiras de informações](information-barriers.md)
 ### [Definir políticas de barreira de informações](information-barriers-policies.md)
 ### [Atributos das políticas de barreira de informações](information-barriers-attributes.md)
@@ -89,6 +94,7 @@
 ### [Criando e treinando um classificador (visualização)](classifier-creating-a-trainable-classifier.md)
 
 # Gerenciar governança de informações
+## [Gerenciar governança de informações](manage-information-governance.md)
 ## [Importar dados](importing-pst-files-to-office-365.md)
 ### [Usar o upload de rede para importar arquivos PST](use-network-upload-to-import-pst-files.md)
 ### [Usar o envio de unidade para importar arquivos PST](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -372,7 +378,7 @@
 ### [Gerenciador de conformidade (visualização)](compliance-manager-overview.md)
 #### [Novidades do Gerenciador de conformidade (visualização)](compliance-manager-release-notes.md)
 #### [Trabalhar com o Gerenciador de conformidade (visualização)](working-with-compliance-manager.md)
-#### [Gerenciador de Conformidade (herdado)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+#### [Gerenciador de conformidade (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [Ferramenta de solicitação de entidade de dados RGPD](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Proteção de Informações do Office 365 para o RGPD](office-365-information-protection-for-gdpr.md)
@@ -394,8 +400,8 @@
 # [Planos de ação de conformidade regulatória](compliance-solutions-overview.md)
 
 ## [ISO — Plano de ação recomendado](iso-action-plan.md)
-## [NIST — Plano de ação recomendado](nist-action-plan.md) 
-
+## [NIST — Plano de ação recomendado](nist-action-plan.md)
+## [CCPA – Perguntas frequentes](ccpa-faq.md)
 ## [RGPD](gdpr.md)
 ### [Plano de ação recomendado para o RGPD](gdpr-action-plan.md)
 
@@ -592,6 +598,7 @@
 #### [PASF (Reino Unido)](offering-pasf-uk.md)
 
 ### América do Norte
+#### [CCPA (Lei de privacidade e proteção de dados da Califórnia)](offering-ccpa.md)
 #### [Leis de Privacidade do Canadá](offering-canadian-privacy-laws.md)
 
 ### América do Sul
