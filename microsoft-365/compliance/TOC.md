@@ -18,7 +18,7 @@
 ## Chave de Cliente
 ### [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md)
 ### [Criptografia de serviço com Chave de Cliente para perguntas frequentes do Office 365](service-encryption-with-customer-key-faq.md)
-## [Conformidade em comunicações]()
+## Conformidade em comunicações
 ### [Saiba mais sobre a conformidade em comunicações (visualização)](communication-compliance.md)
 ### [Configurar a conformidade em comunicações no Microsoft 365 (visualização)](communication-compliance-configure.md)
 ### [Investigar e corrigir alertas de conformidade em comunicações (visualização)](communication-compliance-investigate-remediate.md)
@@ -36,6 +36,8 @@
 ### [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md)
 ### [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)
 ### [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
+### [Usar rótulos de confidencialidade para equipes, grupos e sites](sensitivity-labels-teams-groups-sites.md)
+### [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 ### [Rótulos de sensibilidade em aplicativos do Office](sensitivity-labels-office-apps.md)
 
 ## [Data loss prevention (DLP)](data-loss-prevention-policies.md)
