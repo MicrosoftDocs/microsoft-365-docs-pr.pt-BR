@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam no centro de administração do Exchange.
-ms.openlocfilehash: b01abc327dd19a2d3098d3c49deed1edb1c07b68
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8651b09d891a57cd5239311026af701064c9a4e1
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073537"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964447"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -59,7 +59,7 @@ A ação na regra deve seguir este padrão:
 
 1. Defina o nível de confiança de spam (SCL) como-1 (ignorar filtragem de spam).
 
-2. Adicione um cabeçalho X para dizer o que a regra faz. No exemplo abaixo, você pode adicionar um cabeçalho simples "X-ETR: ignorar a filtragem de spam para o remetente `contoso.com`autenticado". Se você tiver mais de um domínio nesta regra, você pode alterar o texto do cabeçalho conforme apropriado. **Quando uma mensagem ignora a filtragem devido a um ETR, ela carimba SFV: skn no cabeçalho X-Forefront-antispam-Report** (**se estiver em uma lista de permissões de IP, ele também carimba IPV: Cal**). Isso ajudará na solução de problemas.
+2. Adicione um cabeçalho X para dizer o que a regra faz. No exemplo abaixo, você pode adicionar um cabeçalho simples "X-ETR: ignorar a filtragem de spam para o remetente `contoso.com`autenticado". Se você tiver mais de um domínio nesta regra, você pode alterar o texto do cabeçalho conforme apropriado. **Quando uma mensagem ignora a filtragem devido a um ETR, ela carimba SFV: skn no cabeçalho X-Forefront-antispam-Report** (**se ele estiver em uma lista de permissões de IP, ele também carimba IPV: Cal**). Isso ajudará na solução de problemas.
 
 ![GUI para ignorar a filtragem de spam.](../media/1-AllowList-SkipFilteringFromContoso.png)
 

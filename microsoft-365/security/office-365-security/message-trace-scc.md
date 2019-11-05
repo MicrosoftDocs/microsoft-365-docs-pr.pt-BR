@@ -9,18 +9,21 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: a936a3b24c97e9336550527750afa800345891e6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3f5855f8951d91c1124a3f204c72e5f6e37d7e80
+ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073711"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968521"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
+
+> [!NOTE]
+> Para executar o rastreamento de mensagens, o administrador deve ser membro dos grupos de função de gerenciamento de organização, de conformidade ou de suporte técnico.
 
 O rastreamento de mensagens no centro de conformidade & segurança melhora no rastreamento de mensagens que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com suas mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
 
@@ -29,7 +32,7 @@ O rastreamento de mensagens no centro de conformidade & segurança melhora no ra
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
-1. [Entre no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) com sua conta corporativa ou de estudante.
+1. [Entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) com sua conta corporativa ou de estudante.
 
 2. Selecione o ícone do inicializador de aplicativos do ![Ícone inicializador de aplicativo do Office 365](../media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png) no canto superior esquerdo e escolha **Administrador**.
 
@@ -60,7 +63,7 @@ Os valores padrão são **todos os remetentes** e **todos os destinatários**, m
 - **Para estas pessoas**: clique neste campo para selecionar um ou mais destinatários em sua organização.
 
 > [!NOTE]
-> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas`*@contoso.com` ( `scot?@contoso.com`ou), mas você não pode usar várias entradas curinga no mesmo campo ao mesmo tempo.<br/>Você pode colar vários remetentes ou listas de destinatários separados por ponto`;`-e-vírgula (). Espaços (`\s`), retorno de carro`\r`() ou símbolos de`\n`linhas Next () são permitidos.
+> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo `*@contoso.com`,), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo.<br/>Você pode colar vários remetentes ou listas de destinatários separados por ponto`;`-e-vírgula (). Espaços (`\s`), retorno de carro`\r`() ou símbolos de`\n`linhas Next () são permitidos.
 
 ### <a name="time-range"></a>Intervalo de tempo
 

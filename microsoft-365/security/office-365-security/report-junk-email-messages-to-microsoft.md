@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:'
-ms.openlocfilehash: 622463be7aea51b0912965ff713c76e8961c51d3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b53f6df11f2b0ee8fe6b20d3797d6e317c9a73e
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073390"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964437"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Relatar mensagens de Lixo Eletrônico à Microsoft
 
@@ -34,7 +34,7 @@ O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office 
 O Suplemento de Relatórios de Lixo Eletrônico ajuda você a enviar relatórios para o serviço Microsoft Proteção do Exchange Online (EOP). Se a sua caixa de correio não estiver protegida pelo serviço, o envio de relatório de lixo eletrônico não afetará os filtros de spam. Os administradores podem saber mais sobre as configurações de spam que se aplicam a toda a organização em [Como ajudar a garantir que uma mensagem não seja marcada como spam](https://go.microsoft.com/fwlink/p/?LinkId=534224) ou [Bloquear spam de email com o filtro de spam do Office 365 para evitar problemas de falsos negativos](https://go.microsoft.com/fwlink/p/?LinkId=534225). Elas são úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou negativos falsos.
   
 > [!TIP]
-> Você também pode enviar mensagens de spam diretamente para a Microsoft usando o endereço de email do [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e mensagens falsas positivas (não spam) usando o endereço de email do [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com) . Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md). 
+> Você também pode enviar mensagens de spam diretamente para a Microsoft usando o endereço de email do [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e mensagens falsas positivas (não spam) usando o endereço de email do [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) . Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md). 
   
 ### <a name="to-report-junk-email-messages-from-outlook"></a>Para relatar mensagens de lixo eletrônico do Outlook
 

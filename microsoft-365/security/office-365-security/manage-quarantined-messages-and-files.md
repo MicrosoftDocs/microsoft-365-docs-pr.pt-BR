@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: 'Como administrador, você pode exibir, liberar e relatar mensagens em quarentena falsas positivas no Office 365. Você pode configurar políticas para que o Office 365 Filtre mensagens e as envie para quarentena por vários motivos: porque elas foram identificadas como spam, em massa, phishing, malware ou porque corresponderam a uma regra de fluxo de emails. '
-ms.openlocfilehash: aebd6b1cc3d792971eaff68df8a3f44a3f384910
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1450b88bdb3336923891bbbe041d9ca384a3c875
+ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073713"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968469"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365
 
@@ -32,7 +32,7 @@ Por padrão, o Office 365 envia mensagens de phishing e mensagens contendo malwa
 Você deve ter permissões de administrador global (GA) no Office 365 ou ser um membro de um ou mais grupos de funções do centro de conformidade de & de segurança, para trabalhar com mensagens em quarentena ou arquivos em quarentena. Consulte [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center) para obter mais informações.
   
 > [!IMPORTANT]
->Por padrão, as mensagens de spam, de massa e de phishing são mantidas em quarentena por 30 dias. As mensagens colocadas em quarentena porque corresponderam a uma regra de fluxo de emails são mantidas em quarentena por 7 dias. As mensagens de malware são mantidas em quarentena por 15 dias. Você pode personalizar o tempo de quarentena de spam em configurações antispam no centro de conformidade &amp; de segurança. Quando o Office 365 exclui uma mensagem da quarentena, não é possível obtê-la novamente. Se desejar, você pode alterar o período de retenção para mensagens em quarentena nas políticas de filtro antispam. Para obter mais informações, consulte [configuração do período de retenção de quarentena](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) neste artigo. 
+>Por padrão, as mensagens de spam, de massa e de phishing são mantidas em quarentena por 30 dias. As mensagens colocadas em quarentena porque corresponderam a uma regra de fluxo de emails são mantidas em quarentena por 7 dias. As mensagens de malware são mantidas em quarentena por 15 dias. Você pode personalizar o tempo de quarentena de spam em configurações antispam no centro de conformidade &amp; de segurança. Quando o Office 365 exclui uma mensagem da quarentena, não é possível recuperá-la. Se desejar, você pode alterar o período de retenção para mensagens em quarentena nas políticas de filtro antispam. Para obter mais informações, consulte [configuração do período de retenção de quarentena](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) neste artigo. 
   
 ## <a name="view-your-organizations-quarantined-messages"></a>Exibir as mensagens em quarentena da sua organização
 
@@ -41,11 +41,11 @@ Você deve ter permissões de administrador global (GA) no Office 365 ou ser um 
 2. Na lista à esquerda, expanda **Gerenciamento de ameaças**, escolha **revisão**e, em seguida, escolha **quarentena**.
     
     > [!TIP]
-    > Para ir diretamente para a página **quarentena** no centro de conformidade &amp; de segurança, use esta URL: >[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > Para acessar diretamente a página **Quarentena ** no Centro de &amp;Conformidade e Segurança, use a seguinte URL: > [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
   
-    Por padrão, o centro &amp; de conformidade de segurança exibe todas as mensagens de email em quarentena como spam. As mensagens são classificadas da mais nova para a mais antiga com base na **Data** em que a mensagem foi recebida. O **remetente**, o **assunto**e a data de expiração (em **vencimento** ) também são exibidos para cada mensagem. Você pode classificar em um campo clicando no cabeçalho da coluna correspondente; clique em um cabeçalho de coluna uma segunda vez para reverter a ordem de classificação. 
+    Por padrão, o Centro de &amp; Conformidade e Segurança exibe todas as mensagens de email que foram enviadas para a quarentena como spam. As mensagens são classificadas da mais recente à mais antiga, de acordo com a **Data** de recebimento da mensagem. **Remetente**, **Assunto**, e a data de vencimento (em **expiras** ) também são exibidos para cada mensagem. Para classificar um campo, clique no cabeçalho da coluna correspondente. clique no cabeçalho de uma coluna novamente para inverter a ordem da classificação.  
     
-3. Você pode exibir uma lista de todas as mensagens em quarentena ou pode reduzir o conjunto de resultados por filtragem. Você só pode realizar operações em massa em até 100 itens, então a filtragem também pode ajudar a reduzir o conjunto de resultados se você tiver mais do que isso. Você pode filtrar mensagens rapidamente por um único motivo de quarentena escolhendo uma opção do filtro na parte superior da página. As opções incluem:
+3. Você pode exibir uma lista de todas as mensagens em quarentena ou pode reduzir o conjunto de resultados por filtragem. Nosso sistema permite realizar operações em massa com até 100 itens, portanto a filtragem também pode ajudar a reduzir o conjunto de resultados, se você tiver mais do que essa quantidade de itens. Você pode filtrar mensagens rapidamente por um único motivo de quarentena escolhendo uma opção do filtro na parte superior da página. As opções são:
     
   - Email identificado como spam
     
@@ -67,9 +67,9 @@ Após localizar uma mensagem em quarentena específica, clique na mensagem para 
 
 1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global em sua organização do Office 365, entre no Office 365 e [vá para o centro de segurança e conformidade](../../compliance/go-to-the-securitycompliance-center.md).
     
-2. À esquerda, expanda **Gerenciamento de ameaças**, escolha **revisão**e, em seguida, escolha **quarentena**. <br/>
+2. No lado esquerdo, expanda **Gerenciamento de Ameaças**, escolha **Revisão** e escolha **Quarentena**. <br/>
     > [!TIP]
-    > Para ir diretamente para a página **quarentena** no centro de conformidade &amp; de segurança, use esta URL: >[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > Para acessar diretamente a página **Quarentena ** no Centro de &amp;Conformidade e Segurança, use a seguinte URL: > [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
   
 3. Por padrão, a página exibe mensagens de email em quarentena. Para exibir os arquivos em quarentena, defina os filtros na parte superior da página para mostrar os **arquivos**em quarentena devido a **malware**. Você deve ter permissões de administrador no Office 365 para trabalhar com arquivos em quarentena. 
     
@@ -89,10 +89,10 @@ Dependendo das suas configurações, pode haver muito de arquivos e mensagens em
     
       - Para pesquisar mensagens em quarentena, defina filtros para mostrar **todos** ou **apenas o meu** **email**. Para o último filtro, escolha o tipo de mensagem em quarentena que você está procurando. Você pode pesquisar por mensagens em quarentena que foram identificadas como **spam**, para mensagens que correspondam a uma regra de fluxo de emails (**regra de transporte**), emails **em massa** , emails de **phishing** ou emails que contenham **malware**.
     
-2. Em **classificar resultados por**, escolha o filtro ou filtros que você deseja usar para Pesquisar nas listas suspensas. As opções variam de acordo com o fato de você estar pesquisando arquivos ou mensagens. Não há suporte para caracteres curinga nos campos de pesquisa no momento.<br/><br/>Para arquivos e mensagens, você pode optar por filtrar pela data em que a mensagem ou o arquivo foi enviado para a quarentena. Você pode especificar a data ou um intervalo de datas, incluindo a hora. Você também pode filtrar os resultados da pesquisa pela data de expiração na qual o arquivo ou a mensagem será excluído da quarentena ou você pode usar uma combinação de filtros. Para pesquisar por data de expiração, escolha **filtro avançado**. Em **expirar**, você pode selecionar mensagens que serão excluídas da quarentena nas próximas 24 horas ( **hoje**), nas próximas 48 horas ( **próximos 2 dias**), na próxima semana (próximos **7 dias**) ou você pode selecionar um intervalo de tempo personalizado.<br/><br/>Para mensagens, você tem as seguintes opções adicionais:
+2. Em **classificar resultados por**, escolha o filtro ou filtros que você deseja usar para Pesquisar nas listas suspensas. As opções variam de acordo com o fato de você estar pesquisando arquivos ou mensagens. Não há suporte para caracteres curinga nos campos de pesquisa no momento.<br/><br/>Para arquivos e mensagens, você pode optar por filtrar pela data em que a mensagem ou o arquivo foi enviado para a quarentena. É possível especificar a data ou o intervalo de datas, inclusive o horário. Você também pode filtrar os resultados da pesquisa pela data de expiração na qual o arquivo ou a mensagem será excluído da quarentena ou você pode usar uma combinação de filtros. Para pesquisar por data de expiração, escolha **filtro avançado**. Em **expirar**, você pode selecionar mensagens que serão excluídas da quarentena nas próximas 24 horas ( **hoje**), nas próximas 48 horas ( **próximos 2 dias**), na próxima semana (próximos **7 dias**) ou você pode selecionar um intervalo de tempo personalizado.<br/><br/>Para mensagens, você tem as seguintes opções adicionais:
     
       - **ID da mensagem**. Use isso para identificar uma mensagem específica quando você souber a ID da mensagem.<br/><br/>
-    Por exemplo, se uma mensagem específica é enviada por ou destinada a um usuário em sua organização, mas nunca atingiu seu destino, você pode pesquisar a mensagem usando um rastreamento de mensagem (consulte [executar um rastreamento de mensagem e exibir resultados](https://go.microsoft.com/fwlink/?LinkId=799737)). Se você descobrir que a mensagem foi enviada para a quarentena, talvez porque correspondeu a uma regra de fluxo de emails ou tenha sido identificada como spam, você pode facilmente localizar essa mensagem em quarentena, especificando sua ID de mensagem. Certifique-se de incluir a cadeia de ID de mensagem completa. Isso pode incluir colchetes angulares\<\>(), por exemplo:<br/>
+    Por exemplo, se uma mensagem específica é enviada por, ou destinada a, um usuário em sua organização, mas ela nunca chega ao seu destino, você pode procurar a mensagem, utilizando um recurso de rastreamento de mensagens.(consulte [Executar um rastreamento de mensagem e exibir resultados](https://go.microsoft.com/fwlink/?LinkId=799737)). Se você descobrir que a mensagem foi enviada para a quarentena, talvez porque correspondeu a uma regra de fluxo de emails ou tenha sido identificada como spam, você pode facilmente localizar essa mensagem em quarentena, especificando sua ID de mensagem. Certifique-se de incluir a cadeia de ID de mensagem completa. Isso pode incluir colchetes angulares\<(\>), por exemplo:<br/>
     `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`
     
       - **Endereço de email do remetente**. Escolha filtrar por um único endereço de email do remetente. 
@@ -156,11 +156,11 @@ Ao selecionar um item exibido na lista quarentena, você verá um resumo de suas
 
 Após selecionar uma mensagem ou grupo de mensagens, você tem várias opções para gerenciar mensagens em quarentena.
   
-- Nada a fazer. Se você optar por não fazer nada, a mensagem será excluída pelo Office 365 automaticamente após a expiração. Por padrão, spam, massa, malware, phishing e mensagens em quarentena porque corresponderam a uma regra de fluxo de emails são mantidas em quarentena por 30 dias. Quando o Office 365 exclui uma mensagem da quarentena, não é possível obtê-la novamente. Se desejar, você pode alterar o período de retenção para mensagens em quarentena Configurando a configuração **reter spam para (dias)** em suas políticas antispam. Para obter mais informações, consulte [configuração do período de retenção de quarentena](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) neste artigo. 
+- Não tomar nenhuma medida. Se optar por não fazer nada, o Office 365 excluirá automaticamente a mensagem, após a data de expiração. Por padrão, spam, massa, malware, phishing e mensagens em quarentena porque corresponderam a uma regra de fluxo de emails são mantidas em quarentena por 30 dias. Quando o Office 365 exclui uma mensagem da quarentena, não é possível recuperá-la. Se desejar, você pode alterar o período de retenção para mensagens em quarentena Configurando a configuração **reter spam para (dias)** em suas políticas antispam. Para obter mais informações, consulte [configuração do período de retenção de quarentena](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) neste artigo. 
     
 - **Exibir cabeçalho da mensagem** Escolha este link para ver o texto do cabeçalho da mensagem. Para analisar o cabeçalho em camadas, copie o texto do cabeçalho da mensagem para a área de transferência e escolha **analisador de cabeçalho de mensagem da Microsoft** para ir para o analisador de conectividade remota (clique com o botão direito do mouse e escolha **abrir em uma nova guia** se não quiser deixar o Office 365 para concluir esta tarefa). Cole o cabeçalho da mensagem na página na seção analisador de cabeçalho de mensagem e escolha **analisar cabeçalhos**.
     
-- **Visualizar mensagem** Permite que você veja versões brutas ou de HTML do texto do corpo da mensagem. No modo de exibição HTML, os links estão desabilitados. 
+- **Visualizar mensagem** Permite exibir versões brutas ou em HTML do texto do corpo da mensagem. No modo de exibição de HTML. 
     
 - **Baixar mensagem** ou **baixar arquivo**. Escolha essa opção para baixar uma cópia da mensagem ou arquivo para o dispositivo local. Você precisará confirmar se entendeu os riscos associados ao download de itens da quarentena antes que você possa fazer isso. As mensagens são salvas no formato. eml em uma pasta que você especificar. Os arquivos em quarentena são salvos em seu formato original.
     
@@ -195,16 +195,15 @@ Você pode configurar por quanto tempo as mensagens e os arquivos permanecerão 
     > [!TIP]
     > Para ir diretamente para a página **antispam** no centro de conformidade de &amp; segurança, use esta URL: >[https://protection.office.com/?hash=/antispam](https://protection.office.com/?hash=/antispam)
   
-3. Escolha **personalizado** para exibir a guia **configurações personalizadas** . 
+ 
+3. Expanda a linha **padrão da política de filtro de spam (AlwaysOn)** . 
     
-4. Expanda a linha **padrão da política de filtro de spam (AlwaysOn)** . 
+4. Escolha **Editar política**. As configurações da política de filtro de spam padrão aparecem em uma nova página.
     
-5. Escolha **Editar política**. As configurações da política de filtro de spam padrão aparecem em uma nova página.
+5. Expanda **spam e ações em massa**.
     
-6. Expanda **spam e ações em massa**.
+6. Em **quarentena**, na caixa de texto **reter spam por (dias)** , insira a quantidade de tempo que você deseja que o Office 365 retenha mensagens e arquivos em quarentena. O padrão é 30 dias. Este também é o máximo. 
     
-7. Em **quarentena**, na caixa de texto **reter spam por (dias)** , insira a quantidade de tempo que você deseja que o Office 365 retenha mensagens e arquivos em quarentena. O padrão é 30 dias. Este também é o máximo. 
-    
-8. Escolha **Salvar**.
+7. Escolha **Salvar**.
     
 
