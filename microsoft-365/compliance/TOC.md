@@ -90,6 +90,7 @@
 #### [Configurar o Azure Rights Management para a versão anterior de Criptografia de Mensagens do Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
 ## [Entender a classificação de dados (visualização)](data-classification-overview.md)
+### [Exibir conteúdo rotulado (visualização)](data-classification-content-explorer.md)
 ### [Exibir atividade do rótulo (visualização)](data-classification-activity-explorer.md)
 ### [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md)
 ### [Usando um classificador pronto para uso (visualização)](classifier-using-a-ready-to-use-classifier.md)
