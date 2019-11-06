@@ -1,5 +1,5 @@
 ---
-title: Migrar para o Microsoft 365 Business do Office 365 Business Premium
+title: Atualização para o Microsoft 365 Business do Office 365 Business Premium
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,34 +19,24 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Saiba como mover sua empresa para o Microsoft 365 Business.
-ms.openlocfilehash: ae9ca0fe97916fdae6104a6edbb04efba5d9299e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Etapas que atualizam sua empresa do Office 365 Business Premium para a Microsoft 365 Business.
+ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
+ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575869"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38002096"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migrar para o Microsoft 365 Business do Office 365 Business Premium
+# <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Atualização para o Microsoft 365 Business do Office 365 Business Premium
 
-Se você já tem uma assinatura do Office 365 for Business, por exemplo, o Office 365 Business Premium, é possível adicionar licenças facilmente ao Microsoft 365 Business e atribuí-las a alguns ou todos os usuários.
-  
-> [!NOTE]
-> Você não pode usar o botão [mudar de plano](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) para atualizar para o Microsoft 365 Business ainda. 
-  
-## <a name="add-microsoft-365-business-licenses"></a>Adicionar licenças de negócios do Microsoft 365
+Se você tiver uma [assinatura do office 365 for Business](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2), por exemplo, o Office 365 Business Premium, é possível atualizar facilmente para o Microsoft 365 Business. Atualize para o Microsoft 365 Business se você quiser adicionar: 
+- Windows 10 pro (para computadores que executam o Windows 8 ou posterior)
+- Controles simples que gerenciam dados corporativos em dispositivos
+- Recursos avançados de segurança.
+Saiba mais sobre o Microsoft 365 Business em [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
-Você tem duas maneiras de obter o Microsoft 365 Business. Um parceiro pode comprar o Microsoft 365 Business para você pelo [Microsoft Partner Center](get-microsoft-365-business.md). Seu parceiro também pode ajudá-lo a migrar para o Microsoft 365 Business.
-  
-Se você gerenciar sua própria assinatura, poderá [entrar em contato com a venda](https://www.microsoft.com/microsoft-365/business) para comprar as licenças de negócios do Microsoft 365. 
-  
-Consulte [Adicionar, alterar ou excluir um parceiro do supervisor de assinatura](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) para descobrir como começar a trabalhar com um parceiro. 
-  
-Se você receber um link para comprar suas licenças, passará por um assistente como este abaixo. Escolha **Sim, adicionar à minha conta**. Você também pode escolher o número de licenças e o método de pagamento.
-  
-![No link comprar do Microsoft 365 Business Direct, escolha Adicionar à sua conta atual ou Inscreva-se em uma nova conta.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
-  
-## <a name="assign-microsoft-365-licenses"></a>Atribuir licenças do Microsoft 365
+## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Qual é a diferença entre o Office 365 Business Premium e o Microsoft 365 Business?
+Adicionamos uma comparação lado a lado desses dois planos à [Descrição do serviço de negócios 365 da Microsoft](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
 1. Após adquirir novas licenças e esta é a primeira vez que você fez, a faixa de instalação do Microsoft 365 Business será exibida na parte superior do centro de administração.
     
@@ -69,7 +59,7 @@ Se você receber um link para comprar suas licenças, passará por um assistente
     
     Se você não tiver novos funcionários para adicionar e quiser atribuir licenças a usuários existentes, escolha **Avançar**.
     
-4. Na página * * migrar mensagens de email * *, você pode optar por migrar emails de qualquer um dos novos usuários adicionados na etapa 3. Você também pode ignorar esta etapa. Escolha **Avançar**.
+4. Na página **migrar mensagens de email** , você pode optar por migrar emails para qualquer um dos novos usuários que você adicionou na etapa 3. Você também pode ignorar esta etapa. Escolha **Avançar**.
     
 5. Na última página, escolha **ir para o centro de administração**e continuar a instalação.
     
@@ -79,19 +69,47 @@ Se você receber um link para comprar suas licenças, passará por um assistente
     
     ![No cartão do usuário, escolha Editar ao lado de licenças de produto.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. Em **licenças de produto** , deslize **Microsoft 365 Business** **to** \> **Save**e **Close**.
-    
-Após adquirir a licença inicial para o Microsoft 365 Business, agora você pode também adicionar mais nos **serviços de compra**de **cobrança** \> . Na página **comprar serviços** , você pode clicar nas reticências no cartão de **visita do Microsoft 365** e escolher **alterar a quantidade de licenças** para comprar mais. 
+## <a name="before-you-get-started"></a>Antes de começar
+
+- **Quando devo escolher atualizar?** Atualização é a escolha certa quando você deseja atualizar **todos os usuários** atribuídos a um único plano. Quando você escolhe atualizar, todos os usuários do plano são alternados para outro plano ao mesmo tempo. Se você não quiser atualizar todos os que foram atribuídos a um único plano, compre licenças para o novo plano (neste caso, o Microsoft 365 Business) e [atribua essas licenças individualmente](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) a cada usuário que você deseja atualizar. 
+- **Alguns complementos podem impedir a atualização** Se você tentar iniciar uma atualização e tiver um complemento que impeça você de continuar, é possível remover o complemento primeiro e, em seguida, adicioná-lo novamente mais tarde, se você ainda precisar dele. 
+- **Se você pagou seu plano** Não há um caminho de atualização direto para planos pré-pagos. Você saberá se tem um plano pré-pago porque configurou seu plano usando uma ID de produto que você pode ter adquirido em uma loja. Entre em contato com um parceiro, acesse a Microsoft Store ou espere até que seu plano pré-pago expire para mudar para um novo plano.
+
+## <a name="upgrade-to-microsoft-365-business"></a>Atualização para o Microsoft 365 Business
+Compre suas licenças seguindo estas etapas no [novo centro de administração](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview):
+1. Entre no centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+2. Vá para o painel de navegação e selecione produtos de **cobrança** \> **& Services**. Encontre sua assinatura do Office 365 e selecione-a para exibir os detalhes. 
+
+    ![Uma captura de tela mostra como localizar e selecionar sua assinatura no centro de administração.](media/FindYourSubscription.png)
+
+3. Na próxima página, selecione **Atualizar**. 
+
+      ![Uma captura de tela mostra onde selecionar a atualização no centro de administração.](media/SelectUpgrade.png)
+
+  > [!NOTE]
+  > Se você vir uma mensagem dizendo "não há suporte para a atualização de sua assinatura com o licenciamento baseado em grupo no Azure Active Directory", você poderá ignorá-la com segurança, a menos que tenha uma organização muito grande. As organizações que selecionaram essa opção saberão que estão usando o licenciamento baseado em grupo.
+
+4. Em seguida, você pode exibir uma lista de planos do Office para os quais você pode atualizar. Nesse caso, encontre o plano de negócios do Microsoft 365. Você pode rolar para baixo se quiser ver todos os aplicativos e serviços do Office incluídos neste plano. Em **microsoft 365 Business**, selecione **upgrade** para adicionar o Microsoft 365 Business ao seu carrinho.
+5. No carrinho:
+    1. Incluiremos automaticamente licenças para todos os seus usuários atuais ao carrinho. Se você precisar de mais ou menos licenças, precisará [comprar e atribuir essas licenças individualmente](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. Você pode ajustar como gostaria de pagar-mensalmente ou anualmente. Selecione o menu suspenso para fazer sua escolha.
+6. Selecione **ir para checkout** , onde você verá um resumo da sua compra, incluindo a forma de pagamento para esta conta. Você também pode adicionar um código promocional aqui se tiver um.
+7. Selecione **fazer ordem** para concluir a compra.
+A Microsoft leva alguns minutos para configurar seus novos planos de serviço. Para verificar o progresso, selecione **verificar status da atualização**. 
+1. Quando o plano estiver pronto, talvez seja necessário concluir algumas etapas adicionais de configuração no centro de administração. No painel de navegação, selecione **página inicial** para concluir as etapas de configuração adicionais.
+
+> [!NOTE]
+> Você receberá um reembolso rateado para as licenças do Ofifce 365 que não são mais necessárias. Sua conta bancária ou cartão de crédito serão cobrados de dois dias após a configuração do novo plano.
   
 ## <a name="protect-user-devices-and-files"></a>Proteger os arquivos e os dispositivos do usuário
 
-Após ter atribuído licenças para o Microsoft 365 Business, você pode começar a proteger os dispositivos e arquivos dos usuários.
+Agora que as licenças de negócios da Microsoft 365 foram atribuídas, conclua as etapas para começar a proteger os dispositivos e arquivos. Você usará algumas novas opções incluídas no painel de navegação do centro de administração.
   
-1. No centro de administração, na navegação à esquerda, vá para **** \> **políticas**de dispositivos.
+1. No centro de administração, no painel de navegação, vá para **** \> **políticas**de dispositivos.
     
-2. Na página **políticas de dispositivo** , escolha **Adicionar**.
+2. Na página **políticas de dispositivo** , selecione **Adicionar**.
     
-3. No painel **Adicionar política** , dê um nome à política e, em seguida, escolha um **tipo de política** na lista suspensa. 
+3. No painel **Adicionar política** , dê um nome à política (por exemplo, proteger arquivos de trabalho) e, em seguida, escolha um **tipo de política** na lista suspensa. 
     
     Você pode configurar políticas de aplicativo para proteger arquivos em dispositivos Android e iPhone, bem como Windows 10, e pode configurar políticas de configuração de dispositivo para dispositivos do Windows 10 de propriedade da empresa. Confira os seguintes links para obter detalhes:
     
@@ -101,17 +119,14 @@ Após ter atribuído licenças para o Microsoft 365 Business, você pode começa
     
   - [Definir configurações de proteção de dispositivos para computadores com Windows 10](protection-settings-for-windows-10-pcs.md)
     
-   ![No painel Adicionar política, digite um nome para ele e escolha o tipo de política no menu suspenso.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
 4. Depois de configurar as políticas, você e seus funcionários poderão configurar dispositivos:
     
-  - Se o Windows ainda não estiver na atualização do Windows pro Creator, será necessário [atualizá-lo para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md).
+  - Se seus dispositivos Windows ainda não estiverem usando a atualização do Windows pro Creator, você precisará [atualizá-los para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md).
     
   - Confira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para obter etapas para dispositivos Windows. 
     
   - Confira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para obter etapas para telefones Android e iPhones. 
-    
-5. Para instalar automaticamente os aplicativos cliente do Office, consulte [preparar para a implantação do cliente do Office pela Microsoft 365 Business](prepare-for-office-client-deployment.md) e [instalar ou desinstalar automaticamente o Office em dispositivos Windows 10](auto-install-or-uninstall-office.md).
-    
+
 
 

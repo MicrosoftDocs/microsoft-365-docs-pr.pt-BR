@@ -9,16 +9,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 3f5855f8951d91c1124a3f204c72e5f6e37d7e80
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: eb3730602fbef5162df48ec7795a9ac8c2b24bdd
+ms.sourcegitcommit: 83e564f07a2a039c0fb993ac5697241d33827acb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968521"
+ms.locfileid: "37993726"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
@@ -63,7 +63,7 @@ Os valores padrão são **todos os remetentes** e **todos os destinatários**, m
 - **Para estas pessoas**: clique neste campo para selecionar um ou mais destinatários em sua organização.
 
 > [!NOTE]
-> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo `*@contoso.com`,), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo.<br/>Você pode colar vários remetentes ou listas de destinatários separados por ponto`;`-e-vírgula (). Espaços (`\s`), retorno de carro`\r`() ou símbolos de`\n`linhas Next () são permitidos.
+> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo `*@contoso.com`,), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo.<br/>Você pode colar vários remetentes ou listas de destinatários separados por ponto-`;`e-vírgula (). espaços (`\s`), retornos de`\r`carro () ou linhas de`\n`próximo ().
 
 ### <a name="time-range"></a>Intervalo de tempo
 
