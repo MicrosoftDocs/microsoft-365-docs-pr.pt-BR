@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: da8f88251f6d1ae3185641dd408b29aa41cd7ea9
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 9a405f96ee7a113197fbc9c237779db3e3e5e5ca
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390408"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012256"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referência de configurações configuráveis-Microsoft Managed desktop
 
@@ -31,7 +31,7 @@ Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área 
 ### <a name="customize-and-deploy-desktop-background-picture"></a>Personalizar e implantar imagem de plano de fundo da área de trabalho
 
 **Para adicionar uma imagem de plano de fundo da área de trabalho personalizada**
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **imagem de fundo da área de trabalho**. 
 4. Insira o local da imagem que você deseja usar. 
@@ -47,7 +47,7 @@ Você deve fornecer o nome de domínio totalmente qualificado (FQDN) para sites 
 ### <a name="customize-and-deploy-browser-start-pages"></a>Personalizar e implantar páginas iniciais do navegador
 
 **Para adicionar uma página inicial do navegador**
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **páginas iniciais do navegador**. 
 4. Selecione **Adicionar página inicial**.
@@ -78,7 +78,7 @@ Essas práticas recomendadas são oferecidas para ajudar os clientes a tomar dec
 
 **Para adicionar um local de lista de modo de site corporativo**
 
-1.  Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1.  Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2.  Em **configurações**, selecione **configurável**.
 3.  Em espaço de trabalho **configurável** , selecione **local da lista de sites do modo empresarial**. 
 4.  Insira o local https da sua lista de sites. 
@@ -100,7 +100,7 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 
 **Para adicionar um site confiável**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**e, em seguida, selecione **Adicionar site confiável**. 
 4. Em **Adicionar site confiável**, digite a URL, escolha uma zona de segurança e, em seguida, selecione **Adicionar site confiável**. 
@@ -109,7 +109,7 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 
 **Para remover um site confiável**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**. 
 4. Selecione o site que você deseja excluir e, em seguida, selecione **excluir**. 
@@ -134,7 +134,7 @@ Esses requisitos devem ser atendidos para exceções de servidor proxy e site de
 
 **Para adicionar uma exceção de site de proxy individual**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal)
+1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho **configurável** , selecione **proxy**. 
 4. Insira o **endereço** e o **número da porta** para o servidor de proxy e, em seguida, selecione **Adicionar exceção de proxy**. 
@@ -144,4 +144,4 @@ Esses requisitos devem ser atendidos para exceções de servidor proxy e site de
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Visão geral das configurações configuráveis](config-setting-overview.md) 
-- [Implantar configurações configuráveis](config-setting-deploy.md)
+- [Implantar configurações que podem ser alteradas](config-setting-deploy.md)

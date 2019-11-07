@@ -1,18 +1,18 @@
 ---
-title: Etapas para os parceiros registrarem dispositivos
+title: Etapas para registrar dispositivos de Parceiros
 description: Como os parceiros podem registrar dispositivos para que possam ser gerenciados pela área de trabalho gerenciada da Microsoft
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 69d9387047cbb14a97f3da1d401b30a97bd7fd90
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 971b17d3f9fad15d5c254d47af9b6eb30b66633c
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982712"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011942"
 ---
-# <a name="steps-for-partners-to-register-devices"></a>Etapas para os parceiros registrarem dispositivos
+# <a name="steps-for-partners-to-register-devices"></a>Etapas para registrar dispositivos de Parceiros
 
 
 Este tópico descreve as etapas dos parceiros a serem seguidas para registrar dispositivos. O processo de registro de seus próprios dispositivos está documentado em [registrar dispositivos na área de trabalho gerenciada da Microsoft](register-devices-self.md).
@@ -20,7 +20,7 @@ Este tópico descreve as etapas dos parceiros a serem seguidas para registrar di
 
 
 ## <a name="prepare-for-registration"></a>Preparar para o registro 
-Antes de concluir o registro de um cliente, primeiro você deve estabelecer uma relação com eles no [Partner Center](https://partner.microsoft.com/dashboard). Certifique-se de selecionar **incluir privilégios de administração delegada para o Azure Active Directory e o Office 365**. Saiba mais na [ajuda da central de parceiros](https://docs.microsoft.com/en-us/partner-center/request-a-relationship-with-a-customer).
+Antes de concluir o registro de um cliente, primeiro você deve estabelecer uma relação com eles no [Partner Center](https://partner.microsoft.com/dashboard). Certifique-se de selecionar **incluir privilégios de administração delegada para o Azure Active Directory e o Office 365**. Saiba mais na [ajuda da central de parceiros](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer).
 
 Para concluir o registro do cliente, primeiro crie um arquivo CSV.
 

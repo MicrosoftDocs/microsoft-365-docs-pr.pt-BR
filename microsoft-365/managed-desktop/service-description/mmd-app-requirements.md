@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5e0ca142e2ef84f198ee154c5b7c7f4f6621c37c
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 6b5f1d7cf8070808aecb57c7f5b2c16ec84b37d6
+ms.sourcegitcommit: 543ac29a15412a348b61db2297e7bcdcca842206
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982452"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38020364"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -38,7 +38,7 @@ Determinados tipos de aplicativos não são permitidos em dispositivos de área 
 
 ## <a name="restricted-app-behaviors"></a>Comportamentos de aplicativo restritos
 
-Determinados comportamentos de aplicativo podem afetar negativamente a experiência do usuário ou podem representar um risco de segurança para os dispositivos de área de trabalho gerenciada da Microsoft. Os aplicativos com os seguintes comportamentos não podem ser executados no ambiente de área de trabalho gerenciada da Microsoft sem uma isenção específica da Microsoft.
+Determinados comportamentos de aplicativo podem afetar negativamente a experiência do usuário ou podem representar um risco de segurança para os dispositivos de área de trabalho gerenciada da Microsoft. Os aplicativos com os seguintes comportamentos não podem ser executados no ambiente de área de trabalho gerenciada da Microsoft sem um específico da Microsoft.
 
 Experiência do usuário:
 - Instalar serviços em segundo plano
@@ -58,5 +58,5 @@ Segurança:
 
 A área de trabalho gerenciada da Microsoft suporta apenas drivers de dispositivos que estão disponíveis por meio do Windows Update ou da caixa de entrada instalada com o dispositivo gerenciado da Microsoft. 
 
-Se um aplicativo exigir que um ou mais drivers específicos sejam executados, será considerado um aplicativo restrito e exigirá a implantação da isenção na área de trabalho gerenciada da Microsoft. 
+Se um aplicativo exigir que um ou mais drivers específicos sejam executados, será considerado um aplicativo restrito e exigirá a implantação do para a área de trabalho gerenciada da Microsoft. 
 

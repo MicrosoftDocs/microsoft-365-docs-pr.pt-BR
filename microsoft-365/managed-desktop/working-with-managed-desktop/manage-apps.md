@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 87968e1238ee5b3dce6e569846e253dada72dd6d
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 425ba674ca9911e4c93bda4fc9ad61cec7fb85b7
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390728"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012406"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Gerenciar aplicativos de linha de negócios na área de trabalho gerenciada da Microsoft
 
@@ -25,7 +25,7 @@ Há algumas maneiras de gerenciar as atualizações de aplicativo para aplicativ
 ## <a name="update-line-of-business-apps-in-microsoft-managed-desktop"></a>Atualizar aplicativos de linha de negócios na área de trabalho gerenciada da Microsoft
 
 **Para atualizar seus aplicativos de linha de negócios no portal de área de trabalho gerenciada da Microsoft**
-1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mmdportal).
+1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal).
 2. Em **inventário**, selecione **aplicativos**.  
 3. Selecione o aplicativo que você deseja atualizar e, em seguida, selecione **Editar**.
 4. Em **gerenciar**, selecione **Propriedades**. 
@@ -58,7 +58,7 @@ Se houver um erro encontrado quando uma nova versão de um aplicativo for implan
 
 **Para reverter um aplicativo de linha de negócios para uma versão anterior**
 
-1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mmdportal).
+1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal).
 2. Em **inventário**, selecione **aplicativos**.  
 3. Selecione o aplicativo que você precisa reverter e, em seguida, selecione **Editar**.
 4. Em **gerenciar**, selecione **Propriedades**. 

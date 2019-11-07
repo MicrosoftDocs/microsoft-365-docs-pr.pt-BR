@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: dd86637aeb0d8a8690729a97e81ad5e2bea62818
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 7282e1f9d780c127dd70845efefa90aa03e57537
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982884"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011842"
 ---
 # <a name="set-up-microsoft-managed-desktop-devices"></a>Configurar dispositivos de área de trabalho gerenciada da Microsoft
 
@@ -32,6 +32,17 @@ Recomendamos trabalhar com um de nossos parceiros de dispositivo aprovados. Voc�
 
 1. Revise a lista de [dispositivos aprovados atualmente](../service-description/device-list.md) para identificar quais dos seus dispositivos foram aprovados para uso com a área de trabalho gerenciada da Microsoft. Se você reutilizar um dispositivo existente, você precisará reindexá-lo.
 2. Execute um dos seguintes procedimentos:
-    - [Registrar os dispositivos existentes por conta própria](register-reused-devices-self.md)
+    - [Registrar dispositivos existentes sozinho](register-reused-devices-self.md)
     - Trabalhar com um parceiro para registrar os dispositivos
 3. Preparar [seus usuários](get-started-devices.md) para usar dispositivos de área de trabalho gerenciada da Microsoft
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+
+1. [Adicionar e verificar contatos de administrador no portal de administração](add-admin-contacts.md)
+2. [Ajustar o acesso condicional](conditional-access.md)
+3. [Atribuir licenças](assign-licenses.md)
+4. [Implantar o portal da empresa do Intune](company-portal.md)
+5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+6. Configurar dispositivos (este tópico)
+7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
+8. [Implantar aplicativos](deploy-apps.md)

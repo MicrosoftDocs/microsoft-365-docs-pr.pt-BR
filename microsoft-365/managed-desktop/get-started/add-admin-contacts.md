@@ -1,22 +1,24 @@
 ---
-title: Adicionar contatos do administrador no portal de administração de área de trabalho gerenciada da Microsoft
+title: Adicionar e verificar contatos de administrador no portal de administração
 description: Diga-nos quem entrar em contato para cada área de foco.
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2178b871da412d12bf20dae9b72d7562e2bc4654
-ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
+ms.openlocfilehash: 3f77a5f6f0af83ea82d2ab3cea0798b95e27c2d2
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243942"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012062"
 ---
-# <a name="add-admin-contacts-in-microsoft-managed-desktop-admin-portal"></a>Adicionar contatos do administrador no portal de administração de área de trabalho gerenciada da Microsoft
+# <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos de administrador no portal de administração
 
-Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os clientes. Para simplificar a comunicação e garantir que estamos verificando os melhores contatos, você precisa fornecer um conjunto de contatos de administração. As operações de ti de área de trabalho gerenciada da Microsoft contatarão essas pessoas para resolver problemas de solução de problemas para o seu locatário. 
+Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os clientes. Para simplificar a comunicação e garantir que estamos verificando com as pessoas certas, você precisa fornecer um conjunto de contatos de administração. As operações de ti de área de trabalho gerenciada da Microsoft contatarão essas pessoas para resolver problemas de solução de problemas para o seu locatário.
+
+> [!IMPORTANT]
+> Você pode já ter adicionado esses contatos no portal de administração. Em caso afirmativo, Reserve um momento para verificar se a lista de contatos é precisa, pois a área de trabalho gerenciada da Microsoft **deve** ser capaz de encontrá-las se ocorrer um incidente grave.
 
 ## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Acesso do Azure Active Directory para o portal de administração de área de trabalho gerenciada da Microsoft
 
@@ -26,27 +28,27 @@ O portal de administração de área de trabalho gerenciada da Microsoft exige q
 - Administrador de cobrança
 - Administrador de suporte de serviço
 
-O administrador global deve ser um para inscrever o cliente na área de trabalho gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso dentro do portal de administração para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
+O administrador global deve ser o para inscrever sua organização na área de trabalho gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso dentro do portal de administração para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
 
 ## <a name="admin-contact-areas-of-focus"></a>Áreas de contato do administrador de foco
 
-Os contatos do administrador devem ser a melhor pessoa ou grupo que pode responder a perguntas e tomar decisões para diferentes áreas de foco. As operações de área de trabalho gerenciada da Microsoft contatarão esses contatos de administração para questões envolvendo solicitações de suporte arquivadas pelo cliente. Esses contatos do administrador receberão notificações para atualizações de solicitação de suporte e novas mensagens. Essas áreas incluem:
+Os contatos do administrador devem ser a melhor pessoa ou grupo que pode responder a perguntas e tomar decisões para diferentes áreas de foco. **As operações de área de trabalho gerenciada da Microsoft contatarão esses contatos de administração para questões envolvendo solicitações de suporte arquivadas pelo cliente.** Esses contatos do administrador receberão notificações para atualizações de solicitação de suporte e novas mensagens. Essas áreas incluem:
 
 Área de foco | Para perguntas sobre
 --- | ---
 Pacote de aplicativos | Solucionando problemas de pacotes de aplicativos
 Dispositivos | Integridade do dispositivo, Solucionando problemas com dispositivos de área de trabalho gerenciada da Microsoft
 Segurança | Solucionando problemas de segurança com dispositivos de área de trabalho gerenciada da Microsoft
-Assistência técnica de ti | nos casos em que o suporte de área de trabalho gerenciada da Microsoft focaliza as permissões do usuário final fora das áreas de suporte do MMD 
+Assistência técnica de ti | nos casos em que nossa equipe de suporte passa as permissões do usuário final para fora das áreas de suporte da área de trabalho gerenciada da Microsoft 
 Other | Para problemas não cobertos por outras áreas
 
-Quem escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu ambiente de área de trabalho gerenciada da Microsoft. Quando você integra seu ambiente de área de trabalho gerenciada da Microsoft, você é solicitado a adicionar contatos para sua assistência técnica e segurança local. 
+**Quem escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu ambiente de área de trabalho gerenciada da Microsoft.** Quando você integra seu ambiente de área de trabalho gerenciada da Microsoft, você é solicitado a adicionar contatos para sua assistência técnica e segurança local. 
 
 Os contatos do administrador são necessários ao [Enviar uma solicitação de suporte](../working-with-managed-desktop/support.md). Você precisará ter um contato de administrador para a área de foco da solicitação de suporte. 
 
 **Para adicionar contatos do administrador**
 
-1.  Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal). 
+1.  Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal). 
 
 2.  Em **suporte**, selecione **contatos do administrador**. 
 
@@ -62,3 +64,13 @@ Os contatos do administrador são necessários ao [Enviar uma solicitação de s
 
 5. Repita para cada área de foco. 
 
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+
+1. Adicionar e verificar contatos de administrador no portal de administração (este tópico)
+2. [Ajustar o acesso condicional](conditional-access.md)
+3. [Atribuir licenças](assign-licenses.md)
+4. [Instalar o portal da empresa do Intune em dispositivos](company-portal.md)
+5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+6. [Configurar dispositivos de área de trabalho gerenciada da Microsoft](set-up-devices.md)
+7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
+8. [Implantar aplicativos em dispositivos](deploy-apps.md)

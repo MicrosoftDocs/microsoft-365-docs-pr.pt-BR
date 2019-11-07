@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 37c44a43662b6befd92c9710c65814399db4d54f
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: b17b5a3458458ff0c73c93fa184ef8ff6a064199
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37159679"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011992"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -21,7 +21,7 @@ Você pode enviar tíquetes de suporte ou solicitações de comentários para a 
 >Verifique se você [configurou um contato de administrador](../get-started/add-admin-contacts.md) para pacotes de aplicativos, dispositivos, segurança e outros. Você não pode enviar uma solicitação de suporte em nenhuma destas áreas se um contato de administrador não estiver configurado.
 
 **Para enviar uma solicitação de suporte**
-1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](http://aka.ms/mwaasportal). 
+1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal). 
 2. Em **solicitações de suporte**, selecione **+ novo tíquete de suporte**.
 3. Selecione o **tipo de solicitação de suporte** que corresponde à ajuda de que você precisa. A tabela abaixo descreve as opções. 
 4. Selecione o **nível de severidade**. Para obter mais informações, consulte [support Request Severity definições](#sev). 

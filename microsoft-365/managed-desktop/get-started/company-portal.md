@@ -1,20 +1,19 @@
 ---
-title: Instalar o portal da empresa do Intune dispositivos de área de trabalho gerenciado da Microsoft
+title: Instalar o portal da empresa do Intune em dispositivos
 description: Informações sobre a instalação do aplicativo portal da empresa em dispositivos de área de trabalho gerenciada da Microsoft
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, portal da empresa
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 03/08/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a9ce2b2455b6036170636ac564c450676473ac48
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 121771dd2474d58e7bd6a0d56218563c8785d4bf
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390698"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011952"
 ---
-# <a name="install-intune-company-portal-on-microsoft-managed-desktop-devices"></a>Instalar o portal da empresa do Intune em dispositivos de área de trabalho gerenciado da Microsoft
+# <a name="install-intune-company-portal-on-on-devices"></a>Instalar o portal da empresa do Intune em dispositivos
 
 O Microsoft Managed desktop exige que os administradores de ti instalem o portal da empresa do Intune para seus usuários com dispositivos de área de trabalho gerenciada da Microsoft Veja alguns benefícios da sua organização:
 - Os usuários têm um local para procurar e instalar aplicativos disponíveis. 
@@ -44,3 +43,14 @@ Para obter mais informações sobre como enviar solicitações de suporte com a 
 Como administrador de ti da sua organização, é importante permitir que os usuários saibam como usar o portal da empresa em sua organização. O Microsoft Managed desktop recomenda:
 - Etapas de instalação de aplicativos do portal da empresa. Para obter mais informações, consulte [Install and share apps in your Device](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows).
 - Como enviar solicitações para os administradores de ti para aplicativos que não estão disponíveis no momento.
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+
+1. [Adicionar e verificar contatos de administrador no portal de administração](add-admin-contacts.md)
+2. [Ajustar o acesso condicional](conditional-access.md)
+3. [Atribuir licenças](assign-licenses.md)
+4. Implantar o portal da empresa do Intune (este tópico)
+5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+6. [Configurar dispositivos](set-up-devices.md)
+7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
+8. [Implantar aplicativos](deploy-apps.md)
