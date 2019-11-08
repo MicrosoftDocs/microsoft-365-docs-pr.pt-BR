@@ -3,6 +3,7 @@
 ## Introdução
 ### [Segurança do Microsoft 365 para responsáveis por decisões de negócios (BDMs)](Microsoft-365-security-for-bdm.md)
 ### [Classificação de segurança](./mtp/microsoft-secure-score.md)
+### [Classificação de Segurança (visualização)](./mtp/microsoft-secure-score-preview.md)
 ### [Workshop de treinamento de Diretor Executivo de Segurança da Informação (CISO)](./office-365-security/ciso-workshop.md)
 #### [Módulo 1 - Instruções de segurança cibernética da Microsoft](./office-365-security/ciso-workshop-module-1.md)
 #### [Módulo 2 - Gerenciamento de segurança](./office-365-security/ciso-workshop-module-2.md)
