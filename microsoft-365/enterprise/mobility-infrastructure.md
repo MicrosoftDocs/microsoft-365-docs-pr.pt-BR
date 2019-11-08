@@ -13,16 +13,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: dd73f32ff3c830104777aeefb1271178031a5b0d
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: 72ddad03486bf2c7dcba682453fa3bcfbdd1162b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386138"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031146"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Fase 5: gerenciamento de dispositivos móveis para o Microsoft 365 Enterprise
 
-![Fase 5: gerenciamento de dispositivos móveis](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
+![Fase 5: gerenciamento de dispositivo móvel](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
 
 *Este recurso se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
@@ -151,7 +151,7 @@ A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Saiba como os especialistas de ti da Microsoft [gerenciam dispositivos com o EMS](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
+Saiba como os especialistas de ti da Microsoft [gerenciam dispositivos com o EMS](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 

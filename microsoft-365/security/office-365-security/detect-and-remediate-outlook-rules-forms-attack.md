@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
-ms.openlocfilehash: d19a9c86dce42724aa2be00f11ea49ac7cc19d8a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 56882ca53852d33a642f6031c6a3fa6c68eb667d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440648"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033892"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Office 365
 
@@ -124,18 +124,18 @@ Etapas para caixas de correio que estão em um servidor Exchange
 
 1. Conecte-se ao servidor do Exchange usando o PowerShell remoto. Siga as etapas em [conectar-se aos servidores Exchange usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell?view=exchange-ps).
 2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o [cmdlet Remove-inbox Rule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)-use isso para remover completamente uma, várias ou todas as regras da caixa de correio.
-3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o [cmdlet Disable-InboxRule](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
+3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o [cmdlet Disable-InboxRule](https://technet.microsoft.com/library/dd298120(v=exchg.160).aspx). 
 
 Etapas para caixas de correio no Exchange Online
 1. Siga as etapas em [conectar ao Exchange Online usando o PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 2.  Se você deseja remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o [cmdlet Remove-inbox Rule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps).
-3.  Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o [cmdlet Disable-InboxRule](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
+3.  Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o [cmdlet Disable-InboxRule](https://technet.microsoft.com/library/dd298120(v=exchg.160).aspx). 
 
 ## <a name="how-to-minimize-future-attacks"></a>Como minimizar ataques futuros
 
 ### <a name="first-protect-your-accounts"></a>Primeiro: proteger suas contas
 
-As regras e os exploits de formulários são usados apenas por um invasor depois que eles roubam ou violaram uma das contas do usuário. Portanto, a primeira etapa para impedir o uso dessas explorações em relação à sua organização é proteger agressivamente suas contas de usuário.  Algumas das maneiras mais comuns pelas quais as contas são violadas são por meio de ataques de fraude de [senha](http://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) ou phishing.
+As regras e os exploits de formulários são usados apenas por um invasor depois que eles roubam ou violaram uma das contas do usuário. Portanto, a primeira etapa para impedir o uso dessas explorações em relação à sua organização é proteger agressivamente suas contas de usuário.  Algumas das maneiras mais comuns pelas quais as contas são violadas são por meio de ataques de fraude de [senha](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) ou phishing.
 
 
 
@@ -145,7 +145,7 @@ A melhor maneira de proteger suas contas de usuário e, especialmente suas conta
         <ol type="a">
             <li><b>Várias tentativas de logon com falha</b> Esta política faz o perfil de seu ambiente e dispara alertas quando os usuários executam várias atividades de logon com falha em uma única sessão com relação à linha de base aprendida, que pode indicar uma tentativa de violação.</li>
             <li><b>Viagem</b> - impossível esta política perfis o ambiente e dispara alertas quando as atividades são detectadas do mesmo usuário em diferentes locais dentro de um período de tempo menor do que o tempo de viagem esperado entre os dois locais. Isso pode indicar que um usuário diferente está usando as mesmas credenciais. Detectar esse comportamento anômala exige um período de aprendizado inicial de sete dias durante o qual ele aprende o padrão de atividade de um novo usuário.</li>
-            <li><b>Atividade representada incomuns (por usuário)</b> - esta política faz o perfil de seu ambiente e aciona alertas quando os usuários executam várias atividades representadas em uma única sessão com relação à linha de base conhecida, que pode indicar um tentativa de violação.</li>
+            <li><b>Atividade representada incomuns (por usuário)</b> - esta política faz o perfil de seu ambiente e dispara alertas quando os usuários executam várias atividades representadas em uma única sessão com relação à linha de base aprendida, o que pode indicar uma violação de tentativa.</li>
         </ol>
     </li>
     <li>Aproveite uma ferramenta como a <a href="https://securescore.office.com/">Pontuação segura do Office 365</a> para gerenciar as configurações e os comportamentos de segurança da conta. 
@@ -161,19 +161,19 @@ Veja a seguir as versões de patch para os clientes do Outlook 2013 e 2016:
 
 Para obter mais informações sobre os patches de segurança individuais, consulte:
 
-- [Patch de segurança do Outlook 2013](https://support.microsoft.com/en-us/help/3191938) 
-- [Patch de segurança do Outlook 2016](https://support.microsoft.com/en-us/help/3191883)
+- [Patch de segurança do Outlook 2013](https://support.microsoft.com/help/3191938) 
+- [Patch de segurança do Outlook 2016](https://support.microsoft.com/help/3191883)
 
 ### <a name="third-monitor-your-outlook-clients"></a>Terceiro: monitorar seus clientes Outlook
 Observe que, mesmo com os patches e atualizações instalados, é possível que um invasor altere a configuração da máquina local para reabilitar o comportamento de "Iniciar aplicativo". Você pode usar o [gerenciamento avançado de política de grupo](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) para monitorar e impor políticas de máquina local em seus clientes.  
-Você pode ver se "Iniciar aplicativo" foi habilitado novamente por meio de uma substituição no registro usando as informações em [como exibir o registro do sistema usando as versões de 64 bits do Windows](https://support.microsoft.com/en-us/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows).  Verifique estas subchaves: 
+Você pode ver se "Iniciar aplicativo" foi habilitado novamente por meio de uma substituição no registro usando as informações em [como exibir o registro do sistema usando as versões de 64 bits do Windows](https://support.microsoft.com/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows).  Verifique estas subchaves: 
 
-- Outlook 2016: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\
-- Outlook 2013: HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security\
+- Outlook 2016: HKEY_CURRENT_USER \Software\Microsoft\Office\16.0\Outlook\Security\
+- Outlook 2013: HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Outlook\Security\
 
 Procure a chave EnableUnsafeClientMailRules. Se ele estiver lá e estiver definido como 1, o patch de segurança do Outlook foi substituído e o computador está vulnerável ao ataque de formulários/regras. Se o valor for 0, a ação "Iniciar aplicativo" estará desabilitada.  Se a versão atualizada e corrigida do Outlook estiver instalada e essa chave do registro não estiver presente, um sistema não estará vulnerável a esses ataques.
 
-Os clientes com instalações do Exchange no local devem considerar o bloqueio de versões mais antigas do Outlook que não possuem patches disponíveis. Os detalhes sobre esse processo podem ser encontrados no artigo [Configurar o bloqueio de cliente do Outlook](https://technet.microsoft.com/en-us/library/dd335207(v=exchg.150).aspx).
+Os clientes com instalações do Exchange no local devem considerar o bloqueio de versões mais antigas do Outlook que não possuem patches disponíveis. Os detalhes sobre esse processo podem ser encontrados no artigo [Configurar o bloqueio de cliente do Outlook](https://technet.microsoft.com/library/dd335207(v=exchg.150).aspx).
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
 Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.

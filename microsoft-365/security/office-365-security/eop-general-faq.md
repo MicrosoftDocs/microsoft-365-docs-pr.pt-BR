@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Aqui, respondemos às dúvidas gerais mais comuns sobre o Proteção do Exchange Online (EOP), o serviço de filtragem de email hospedado na nuvem da Microsoft. Para ver mais tópicos de perguntas frequentes, vá para os seguintes links:'
-ms.openlocfilehash: b49bb92cea781dc2c2120f1c0512a9de5182f16a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 838e69ad52dbb7f2012c5d8605e41c91ba4c6b7e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441498"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033862"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 
@@ -33,7 +33,7 @@ Aqui, respondemos às dúvidas gerais mais comuns sobre o Proteção do Exchange
 
 - [Perguntas frequentes sobre proteção antimalware](anti-malware-protection-faq-eop.md)
 
-- [Perguntas Frequentes sobre Rastreamento de Mensagens](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
+- [Perguntas Frequentes sobre Rastreamento de Mensagens](https://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
 
 **P. O que é o EOP?**
   
@@ -63,7 +63,7 @@ R. O Office 365 é o nome dado a um conjunto de produtos e serviços que podem s
   
 R. O centro de administração do Microsoft 365 terá algumas dessas informações. Se você for afetado por um evento de nível de serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino) após entrar no centro de administração do Microsoft 365. Recomendamos ler as informações e executar as ações necessárias para qualquer item, conforme apropriado.
   
-Em relação aos novos recursos do EOP, o [Mapa de recursos do Office 365 para empresas](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é uma boa ferramenta para encontrar informações sobre novos recursos. Também vamos postar artigos do blog sobre novos recursos no site do [Microsoft 365 Blogs](https://www.microsoft.com/en-us/microsoft-365/blog/) .
+Em relação aos novos recursos do EOP, o [Mapa de recursos do Office 365 para empresas](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é uma boa ferramenta para encontrar informações sobre novos recursos. Também vamos postar artigos do blog sobre novos recursos no site do [Microsoft 365 Blogs](https://www.microsoft.com/microsoft-365/blog/) .
   
 **P. O serviço funciona com versões herdadas do Exchange (como o Exchange Server 2010) e ambientes que não sejam Exchange?**
   

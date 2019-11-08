@@ -1,5 +1,5 @@
 ---
-title: 'Reportar spam e golpes de phishing no Outlook na Web '
+title: 'Relatar lixo eletrônico e esquemas de phishing no Outlook na Web '
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +14,14 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os usuários do Microsoft Outlook na Web podem relatar lixo eletrônico (spam) e golpes de phishing usando opções de relatório de email internas. Você também pode informar a Microsoft se um email foi identificado incorretamente como lixo eletrônico (spam).
-ms.openlocfilehash: 0191394c1e0c0f43c65af977c219630c65b6a292
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f066181e912060b137437893dee545787fa405a2
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071805"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031796"
 ---
-# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Reportar spam e golpes de phishing no Outlook na Web 
+# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Relatar lixo eletrônico e esquemas de phishing no Outlook na Web 
 
 Pode ser frustrante quando os usuários da sua organização recebem lixo eletrônico ou perdem um email importante, pois ele foi identificado indevido como spam. Estamos constantemente ajustando os filtros de spam do EOP (proteção do Exchange Online) para serem mais precisos, e você e seus usuários finais podem ajudá-lo com esse processo; Os usuários do Microsoft Outlook na Web podem relatar lixo eletrônico (spam) e golpes de phishing usando opções de relatório de email internas. Você também pode informar a Microsoft se um email foi identificado incorretamente como lixo eletrônico (spam).
   
@@ -60,11 +60,11 @@ Quando uma mensagem é identificada incorretamente como lixo eletrônico pelo Of
   
 2. Uma caixa de diálogo é aberta perguntando se você quer enviar uma cópia da mensagem que não é lixo eletrônico para análise da Microsoft. Clique em **relatório** para enviar a mensagem para a equipe de análise de spam da Microsoft. 
     
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Saiba mais sobre lixo eletrônico e phishing](https://go.microsoft.com/fwlink/p/?LinkId=270068)
 
-[Suplemento de relatório de lixo eletrônico para o Microsoft Outlook](https://docs.microsoft.com/en-us/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
+[Suplemento de relatório de lixo eletrônico para o Microsoft Outlook](https://docs.microsoft.com/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
   
   
 

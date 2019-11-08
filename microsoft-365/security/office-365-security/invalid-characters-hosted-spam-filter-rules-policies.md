@@ -1,5 +1,5 @@
 ---
-title: Evitar caracteres inválidos em suas regras de filtro de spam e na política de filtro de spam
+title: Evitar caracteres inválidos nas regras e política de filtro de spam
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Fornece ajuda para os administradores que têm caracteres inválidos na configuração antispam e estão em problemas ao tentar usar o centro de conformidade &amp; de segurança.
-ms.openlocfilehash: 286a96814e0be5857499d7c54839d20142d0dd60
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 96d81c17c33c5ecf6e7b88ebe5676336b963cb4e
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072416"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039100"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>Evitar caracteres inválidos em suas regras de filtro de spam e política de filtro de spam 
 
@@ -41,18 +41,18 @@ Depois de identificar a política e as regras que contêm caracteres inválidos,
     
 2. Para alterar o nome da política de filtro de spam, execute o cmdlet Set-HostedContentFilterPolicy da seguinte maneira:
     
-    ```
+    ```powershell
     Set-HostedContentFilterPolicy -Identity "Old policy name" -Name "New policy name"
     ```  
 
 3. Para alterar o nome de uma regra de filtro de spam, execute o cmdlet Set-HostedContentFilterRule da seguinte maneira:
     
-    ```
+    ```powershell
     Set-HostedContentFilterRule -Identity "Old rule name" -Name "New rule name"
     ```  
 
   
- ## <a name="for-more-information"></a>Para saber mais
+ ## <a name="for-more-information"></a>Para obter mais informações
 
 [Gerenciamento de ameaças no centro &amp; de conformidade de segurança](protect-against-threats.md)
   

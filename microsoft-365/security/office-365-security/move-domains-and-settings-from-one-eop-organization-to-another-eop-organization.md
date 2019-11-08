@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: A alteração de requisitos comerciais, às vezes, pode exigir a divisão de uma organização (locatário) Microsoft Proteção do Exchange Online (EOP) em duas organizações separadas, mesclando duas organizações em uma ou movendo os domínios e as configurações de EOP de uma organização para outra.
-ms.openlocfilehash: 89f62a158801dc269cebafcb37f72bb5cb8c93b8
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: d1e2913b9263879b1d9a1ca9d20b6b623f2208cf
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441448"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032216"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Mover domínios e configurações de uma organização do EOP para outra organização do EOP
 
@@ -51,7 +51,7 @@ Para recriar a organização de origem na organização de destino, verifique se
   > [!NOTE]
   > O suporte de cmdlet para a exportação e importação do conjunto de regras de fluxo de emails atualmente só tem suporte para planos de assinatura do EOP Premium.
 
-A maneira mais fácil de coletar todas as suas configurações é usar o PowerShell. Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](http://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx).
+A maneira mais fácil de coletar todas as suas configurações é usar o PowerShell. Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx).
 
 Você pode coletar todas as suas configurações e exportá-las para um arquivo .xml que será importado para o locatário de destino. Em geral, você pode redirecionar a saída do cmdlet **Get** de cada configuração do cmdlet **Export-Clixml**, salvando as configurações em arquivos .xml, conforme mostrado no exemplo de código seguinte.
 

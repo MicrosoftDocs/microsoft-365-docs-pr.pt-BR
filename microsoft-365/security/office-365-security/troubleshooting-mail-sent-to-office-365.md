@@ -14,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Office 365 e práticas recomendadas para envio de email em massa para clientes do Office 365.
-ms.openlocfilehash: 59c02b31b759870892846947940744e123c73788
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b87b0745c95cd043987f49ed7f21118339d3e592
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441178"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030695"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Solução de problemas de email enviados para o Office 365
 
@@ -71,7 +71,7 @@ Podemos não aceitar emails de remetentes que falham em uma pesquisa de DNS reve
 
 Alguns problemas de entrega são o resultado do endereço IP do remetente sendo bloqueado pela Microsoft ou porque a conta do usuário é identificada como remetente proibido devido à atividade de spam anterior. Se você achar que recebeu a notificação por erro, primeiro siga as instruções na mensagem de notificação de falha na entrega para resolver o problema.
 
-Para obter mais informações sobre o erro recebido, consulte a lista completa de códigos de erro SMTP em [DSNs e NDRs no Exchange 2013 local e no Office 365](http://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx).
+Para obter mais informações sobre o erro recebido, consulte a lista completa de códigos de erro SMTP em [DSNs e NDRs no Exchange 2013 local e no Office 365](https://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx).
 
  Por exemplo, se você receber a seguinte notificação de falha na entrega, ela indicará que o endereço IP de envio foi bloqueado pela Microsoft.
 
@@ -108,7 +108,7 @@ Você recebeu a notificação de falha na entrega porque a atividade suspeita fo
 
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Não consigo receber emails de remetentes no Office 365
 
- Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges).
+ Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Práticas recomendadas para envio de email em massa para usuários do Office 365
 

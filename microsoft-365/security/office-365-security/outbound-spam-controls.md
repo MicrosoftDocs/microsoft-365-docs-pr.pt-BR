@@ -15,12 +15,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Se sua organização enviar muitas mensagens em massa marcadas como spam, você poderá ter impedido de enviar emails com o Office 365. Leia este artigo para saber mais sobre por que isso acontece e o que você pode fazer sobre ele.
-ms.openlocfilehash: 1985f9726a32e2726fd2814e5ec9079ad3ec211e
-ms.sourcegitcommit: 6c42fb7123b9688f9b53bc7fa91fb8cdfcf4c718
+ms.openlocfilehash: 28677e2bbfad7f44595de1300e42b9c58ab99c2b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37455063"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031846"
 ---
 # <a name="control-outbound-spam-in-office-365"></a>Controlar spam de saída no Office 365
 
@@ -33,7 +33,7 @@ Adotamos o gerenciamento de spam de saída seriamente porque nosso é um serviç
 
 - **Habilitar notificações quando uma conta estiver enviando spam ou desligar**: os administradores podem obter estava sempre que uma mensagem é marcada como spam de saída e enviada através do pool de alto risco. Ao monitorar esta caixa de correio, um administrador pode detectar se eles têm uma conta comprometida em sua rede ou se o filtro de spam está marcando incorretamente o email como spam. Você pode encontrar mais informações sobre como configurar a política de spam de saída [aqui](configure-the-outbound-spam-policy.md).
 
-- **Revise manualmente as reclamações de spam de provedores de email de terceiros**: vários serviços de email de terceiros, como o Outlook.com, o Yahoo e o AOL fornecem um loop de feedback em que, se qualquer usuário em seu serviço marcar um email de nosso serviço como spam, a mensagem será empacotada e enviado de volta para nós para revisão. Para saber mais sobre o suporte do remetente para o Outlook.com, clique [aqui](https://sendersupport.olc.protection.outlook.com/pm/services.aspx).
+- **Revise manualmente as reclamações de spam de provedores de email de terceiros**: vários serviços de email de terceiros, como o Outlook.com, o Yahoo e o AOL fornecem um loop de feedback em que, se qualquer usuário em seu serviço marcar um email de nosso serviço como spam, a mensagem será empacotada e enviada de volta para nós para análise. Para saber mais sobre o suporte do remetente para o Outlook.com, clique [aqui](https://sendersupport.olc.protection.outlook.com/pm/services.aspx).
 
 ## <a name="what-eop-does-to-control-outbound-spam"></a>O que o EOP faz para controlar o spam de saída
 
@@ -47,7 +47,7 @@ Adotamos o gerenciamento de spam de saída seriamente porque nosso é um serviç
 
    Uma única mensagem marcada como spam pode ser uma classificação inválida pelo mecanismo de spam e também conhecida como falso positivo. Nós o enviamos pelo pool de alto risco para dar a chance de sair; no entanto, um grande número de mensagens em um curto período de tempo indica um problema e, quando isso ocorre, impede que a conta envie mais email. Há diferentes limites que existem para contas de email individuais, bem como em agregação para o locatário inteiro.
 
-4. **Desabilitação de contas incorretas quando eles enviam muito emails por um**período de tempo: além dos limites acima que procuram uma proporção de mensagens marcadas como spam, também há limites que bloqueiam contas quando atingem um limite geral independentemente Se as mensagens são ou não marcadas como spam. O motivo pelo qual esse limite existe é porque uma conta comprometida pode enviar spam de zero dias que não foi perdido pelo filtro de spam. Como é difícil, se não for impossível, para às vezes dizer a diferença entre uma campanha de email em massa legítima e uma campanha de spam maciça, esses limites são ativados para limitar qualquer dano em potencial.
+4. **Desabilitação de contas incorretas quando eles enviam muito emails por um**período de tempo: além dos limites acima que procuram uma proporção de mensagens marcadas como spam, também há limites que bloqueiam contas quando atingem um limite geral independentemente de as mensagens estarem marcadas como spam. O motivo pelo qual esse limite existe é porque uma conta comprometida pode enviar spam de zero dias que não foi perdido pelo filtro de spam. Como é difícil, se não for impossível, para às vezes dizer a diferença entre uma campanha de email em massa legítima e uma campanha de spam maciça, esses limites são ativados para limitar qualquer dano em potencial.
 
 > [!NOTE]
 > Para #3 e #4, não anunciamos os limites exatos para evitar que os remetentes de spam entrem em jogos o sistema e para garantir que possamos alterar os limites quando precisarmos. Os limites são altos o suficiente, de forma que um usuário de negócios médio nunca o acessará e o suficiente para que ele contenha a maior parte dos danos que um spammer pode fazer.
@@ -60,9 +60,9 @@ Adotamos o gerenciamento de spam de saída seriamente porque nosso é um serviç
 
 2. **Use um email em massa de terceiros para enviar a comunicação em massa**: há vários emails em massa de terceiros, cujo único negócio é enviar email em massa. Eles podem trabalhar com os clientes para garantir que eles tenham boas práticas de email e que tenham recursos dedicados à imposição.
 
-O grupo de trabalho do MAAWG (mensagens antiabuso, móvel e malware) publica sua lista de associação [aqui](http://www.maawg.org/about/roster). Vários provedores de email em massa estão na lista e são conhecidos como cidadãos da Internet responsáveis.
+O grupo de trabalho do MAAWG (mensagens antiabuso, móvel e malware) publica sua lista de associação [aqui](https://www.maawg.org/about/roster). Vários provedores de email em massa estão na lista e são conhecidos como cidadãos da Internet responsáveis.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Notificação de exemplo de quando um remetente é bloqueado ao enviar spam de saída](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md)
 

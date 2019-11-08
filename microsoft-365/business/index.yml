@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Recursos de negócios do Microsoft 365
-summary: O Microsoft 365 Business inclui as versões mais recentes dos aplicativos do Windows e do Office, como Excel e Outlook. Aproveite e execute as vantagens da proteção e segurança dos dados que se estende a todos os seus dispositivos de negócios.
+summary: O Microsoft 365 Business é um serviço de assinatura que inclui as ferramentas de produtividade do Office 365 e recursos avançados para ajudar a proteger sua empresa contra o ciberataques, proteger seus dados e gerenciar os dispositivos.
 brand: m365
 metadata:
   title: Recursos de negócios do Microsoft 365
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 88c08b430fa67d81435b7b6a4eb079a216b228d7
-  ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+  ms.openlocfilehash: e1c35876a203a41796690850c20ff1a37eca19ea
+  ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/06/2019
-  ms.locfileid: "38002413"
+  ms.lasthandoff: 11/08/2019
+  ms.locfileid: "38038790"
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business?
@@ -30,7 +30,7 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck
       itemType: overview
       text: Comparar planos (somente em inglês)
-    - url: https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
       text: Descrição de serviço
     - url: support/microsoft-365-business-faqs.md
@@ -80,13 +80,13 @@ conceptualContent:
       text: Veja mais
   - title: Gerenciar ameaças
     links:
-    - url: https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-atp
+    - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
       text: Proteção Avançada contra Ameaças do Office 365
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: Configurar o MFA
-    - url: https://docs.microsoft.com/en-us/microsoft-365/business/increase-threat-protection#protect-against-ransomware
+    - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
       itemType: how-to-guide
       text: Proteger contra ransomware
     - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
@@ -123,7 +123,7 @@ conceptualContent:
     - url: reset-devices-to-factory-settings.md
       itemType: how-to-guide
       text: Apagar e redefinir
-    - url: https://docs.microsoft.com/en-us/intune/index
+    - url: https://docs.microsoft.com/intune/index
       itemType: overview
       text: Intune
     - url: manage-windows-devices.md

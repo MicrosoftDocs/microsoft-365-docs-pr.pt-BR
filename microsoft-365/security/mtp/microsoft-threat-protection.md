@@ -1,5 +1,5 @@
 ---
-title: Proteção contra ameaças da Microsoft
+title: Proteção contra Ameaças da Microsoft
 description: A proteção contra ameaças da Microsoft é uma solução de proteção de ameaças coordenada projetada para proteger dispositivos, identidades, dados e aplicativos
 keywords: Introdução à proteção contra ameaças da Microsoft, segurança da CyberSource, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 305f4e213d03f4ee7fccca5fee9bea8efb3d1e9e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6e2ca4405838f6e72603bcdb3024b8c0f70e3e99
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073954"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034292"
 ---
-# <a name="microsoft-threat-protection"></a>Proteção contra ameaças da Microsoft
+# <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
 A proteção contra ameaças da Microsoft é uma solução de segurança abrangente que reúne recursos avançados de segurança que permitem às organizações atuais: 
 
@@ -38,7 +38,7 @@ Acessar o poder da proteção contra ameaças da Microsoft por meio do centro de
 <center><h2>Serviços de proteção contra ameaças da Microsoft</center></h2>
 <table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Proteção avançada contra ameaças do Microsoft defender</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Proteção avançada contra ameaças do Office 365</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/en-us/azure-advanced-threat-protection/"><b>Proteção avançada contra ameaças do Azure</b></a></center></td>
+<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Proteção avançada contra ameaças do Azure</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/security-center/"><b>Central de segurança do Azure</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Segurança do aplicativo do Microsoft Cloud</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/sentinel/overview"><b>Sentinela do Microsoft Azure</b></a></center></td>

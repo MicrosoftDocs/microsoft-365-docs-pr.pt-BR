@@ -12,19 +12,19 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam no centro de administração do Exchange.
-ms.openlocfilehash: 8651b09d891a57cd5239311026af701064c9a4e1
-ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
+ms.openlocfilehash: 2a161573e3b51f12cd7582df26a021fab3f8de84
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37964447"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033686"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
 Se você quiser garantir que os usuários recebam emails de um remetente ou remetentes específicos porque você confia neles e suas mensagens, há vários métodos disponíveis que você pode escolher. Essas opções incluem regras de transporte do Exchange (ETRs), remetentes confiáveis do Outlook, listas de permissões de IP, listas de permissões de remetente/domínio antispam.
 
 > [!IMPORTANT]
-> Enquanto as listas de permissões da organização podem ser usadas para tratar de falsos positivos, isso deve ser considerado como uma solução temporária e evitada se possível. O gerenciamento de falsos positivos usando listas de permissões não é recomendável, pois pode abrir inadvertidamente sua organização para falsificação, representação e outros ataques. Se você usar uma lista de permissões para essa finalidade, precisará estar atento e manter o artigo para [enviar emails de spam, não spam e phishing para a Microsoft para análise](https://docs.microsoft.com/en-us/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis), no Ready.
+> Enquanto as listas de permissões da organização podem ser usadas para tratar de falsos positivos, isso deve ser considerado como uma solução temporária e evitada se possível. O gerenciamento de falsos positivos usando listas de permissões não é recomendável, pois pode abrir inadvertidamente sua organização para falsificação, representação e outros ataques. Se você usar uma lista de permissões para essa finalidade, precisará estar atento e manter o artigo para [enviar emails de spam, não spam e phishing para a Microsoft para análise](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis), no Ready.
 
 O método recomendado para configurar uma lista de remetentes confiáveis é usar as regras de transporte do Exchange (ETRs), já que isso apresenta a maior flexibilidade para garantir que apenas as mensagens corretas sejam permitidas. O *endereço de email da política* antispam e as listas de *permissões baseadas no domínio* não são tão seguras quanto as *listas baseadas em endereço IP* , pois os domínios podem ser falsificados facilmente. Mas as listas de permissões baseadas em IP de política antispam também apresentam riscos, pois eles permitirão que qualquer domínio enviado através desse IP ignore a filtragem de spam. Tenha cuidado e monitore *as* exceções feitas com cuidado.
 
@@ -44,7 +44,7 @@ Você sempre deve restringir suas listas de permissões porque elas ignoram muit
 
 Para garantir que apenas mensagens legítimas sejam permitidas para sua organização, a condição deve ser uma das seguintes:
 
-- Use o status de autenticação do remetente do domínio de envio. Isso é feito verificando o cabeçalho Authentication-Results para garantir que ele contenha "dMarc = Pass" ou "dMarc = bestguesspass". Isso garante que o domínio de envio tenha sido autenticado e não esteja sendo falsificado. Clique para saber mais sobre a autenticação de email [SPF](https://docs.microsoft.com/en-us/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)e [DMARC](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-dmarc-to-validate-email) .
+- Use o status de autenticação do remetente do domínio de envio. Isso é feito verificando o cabeçalho Authentication-Results para garantir que ele contenha "dMarc = Pass" ou "dMarc = bestguesspass". Isso garante que o domínio de envio tenha sido autenticado e não esteja sendo falsificado. Clique para saber mais sobre a autenticação de email [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)e [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email) .
 
 - Ou, se o domínio de envio não tiver autenticação, use o domínio de envio *mais* um IP de envio (ou intervalo IP). Certifique-se de que você é o mais *restritivo possível*, o objetivo é fazer isso o mais seguro possível. Um intervalo IP maior do que/24 *não* é recomendado. Evite adicionar intervalos de endereços IP que pertençam a serviços de consumidor ou infraestruturas compartilhadas.
 
@@ -70,22 +70,22 @@ A ação na regra deve seguir este padrão:
 
 Não adicione domínios que você possui ou domínios populares (por exemplo, `microsoft.com`) à regra de fluxo de emails como uma condição. Isso é considerado de alto risco, pois cria oportunidades de atores incorretos para enviar emails que seriam filtrados de outra forma.
 
-[Clique para obter as etapas para criar um ETR, também conhecido como regras de fluxo de emails](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages).
+[Clique para obter as etapas para criar um ETR, também conhecido como regras de fluxo de emails](https://docs.microsoft.com/office365/SecurityCompliance/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages).
 
 ## <a name="use-outlook-safe-senders-end-user-managed"></a>Usar remetentes confiáveis do Outlook (gerenciado pelo usuário final)
 
-Em vez de autorizar um endereço, um domínio ou um endereço IP globalmente, os usuários finais também podem permitir o envio de endereços por meio de remetentes confiáveis do Outlook. As etapas para configurar isso diferem entre o [Outlook Web App](https://support.office.com/en-us/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/en-us/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são autorizadas com êxito devido a remetentes confiáveis, você verá SFV: SFE no X-Forefront-antispam-Report** , que indica que a filtragem de spam/spoof/Phish será ignorada.
+Em vez de autorizar um endereço, um domínio ou um endereço IP globalmente, os usuários finais também podem permitir o envio de endereços por meio de remetentes confiáveis do Outlook. As etapas para configurar isso diferem entre o [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são autorizadas com êxito devido a remetentes confiáveis, você verá SFV: SFE no X-Forefront-antispam-Report** , que indica que a filtragem de spam/spoof/Phish será ignorada.
 
 ## <a name="use-anti-spam-policy-ip-allow-lists"></a>Usar listas de permissões de IP de política antispam
 
-Quando não é possível usar o ETRs para permitir globalmente um remetente específico durante a validação da autenticação do remetente ou por meio da ligação de um domínio e IP juntos, a melhor opção é adicionar o remetente à *lista de IPs permitidos da política*antispam. [As etapas detalhadas podem ser encontradas em configurar o documento da política de filtro de conexão](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-the-connection-filter-policy). É importante manter a lista de endereços IP permitidos no mínimo e evitar usar intervalos de endereços IP. Evite adicionar intervalos de endereços IP que pertençam a serviços de consumidor ou infraestruturas compartilhadas e *Verifique* também se você revisar a lista de endereços IP permitidos regularmente e remover os que não são mais necessários.
+Quando não é possível usar o ETRs para permitir globalmente um remetente específico durante a validação da autenticação do remetente ou por meio da ligação de um domínio e IP juntos, a melhor opção é adicionar o remetente à *lista de IPs permitidos da política*antispam. [As etapas detalhadas podem ser encontradas em configurar o documento da política de filtro de conexão](https://docs.microsoft.com/office365/securitycompliance/configure-the-connection-filter-policy). É importante manter a lista de endereços IP permitidos no mínimo e evitar usar intervalos de endereços IP. Evite adicionar intervalos de endereços IP que pertençam a serviços de consumidor ou infraestruturas compartilhadas e *Verifique* também se você revisar a lista de endereços IP permitidos regularmente e remover os que não são mais necessários.
 
 > [!CAUTION]
 > A configuração de políticas antispam para permitir com base no endereço IP do remetente resultará em ignorar a filtragem de spam para todas as mensagens desse endereço IP na regra de permissão. Isso cria um alto risco de atores defeituosos enviando emails que seriam filtrados de outra forma. Esse método também ignora todos os filtros de spam, as verificações de autenticação do remetente e os territórios da mensagem na caixa de entrada do usuário, aumentando o risco.
 
 ## <a name="use-anti-spam-policy-senderdomain-allow-lists"></a>Usar listas de permissões de remetente/domínio de política antispam
 
-A opção menos desejável é autorizar por remetente/domínio. Essa opção deve ser evitada *se for possível* que ela ignore a proteção de spam/spoof/Phish completamente e não avalie a autenticação do remetente. Esse método aumenta o risco de receber emails de atores incorretos e é melhor recomendável temporariamente e somente durante o teste. As etapas detalhadas podem ser encontradas em [configurar seu documento de políticas de filtro de spam](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) .
+A opção menos desejável é autorizar por remetente/domínio. Essa opção deve ser evitada *se for possível* que ela ignore a proteção de spam/spoof/Phish completamente e não avalie a autenticação do remetente. Esse método aumenta o risco de receber emails de atores incorretos e é melhor recomendável temporariamente e somente durante o teste. As etapas detalhadas podem ser encontradas em [configurar seu documento de políticas de filtro de spam](https://docs.microsoft.com/office365/securitycompliance/configure-your-spam-filter-policies) .
 
 O limite máximo para essas listas é de aproximadamente 1000 entradas.
 

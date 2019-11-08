@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: Este artigo descreve como o Office 365 usa o registro TXT SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas do seu domínio personalizado. Isso se aplica a mensagens de saída enviadas do Office 365. As mensagens enviadas do Office 365 para um destinatário no Office 365 sempre passarão a SPF.'
-ms.openlocfilehash: 9a0cbbe29a43a223a006b1a8495d2522ca2386c4
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 189b97de92386a7dc1a7a264ee1bb58cd367839a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772215"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033912"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Office 365 usa o SPF (estrutura de política de remetente) para evitar a falsificação
 
@@ -127,7 +127,7 @@ Se você tem uma implantação híbrida (ou seja, algumas caixas de correio loca
 
 Use as informações de sintaxe neste artigo para formular o registro TXT SPF do seu domínio personalizado. Apesar de haver outras opções de sintaxe que não são mencionadas aqui, essas são as opções mais usadas. Após formular seu registro, atualize-o no seu registrador de domínios.
   
-Para informações sobre os domínios que você precisará incluir para o Office 365, confira [Registros DNS externos necessários para o SPF](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Use as [instruções passo a passo](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) para atualizar registros TXT SPF para o seu registrador de domínios. Se o seu registrador não estiver listado, entre em contato com ele separadamente para saber como atualizar seu registro. 
+Para informações sobre os domínios que você precisará incluir para o Office 365, confira [Registros DNS externos necessários para o SPF](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Use as [instruções passo a passo](https://office.microsoft.com/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) para atualizar registros TXT SPF para o seu registrador de domínios. Se o seu registrador não estiver listado, entre em contato com ele separadamente para saber como atualizar seu registro. 
   
 ### <a name="spf-txt-record-syntax-for-office-365"></a>Sintaxe do registro TXT SPF para Office 365
 <a name="SPFSyntaxO365"> </a>

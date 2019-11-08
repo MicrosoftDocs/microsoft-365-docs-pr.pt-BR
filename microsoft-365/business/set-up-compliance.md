@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e rotular dados confidenciais.
-ms.openlocfilehash: 73709c1302a2e9e46eb2d54ea021438b5f1743c5
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5213c55f4a8ce0e223896f1b960847714d6d06cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575649"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031406"
 ---
 # <a name="set-up-compliance-features"></a>Configurar recursos de conformidade
 
@@ -57,7 +57,7 @@ Para colocar uma caixa de correio em retenção de litígio, no centro de admini
 
 Os rótulos de confidencialidade vêm com o plano 1 do Windows Information Protection (AIP) e ajudam você a classificar e, opcionalmente, proteger seus documentos e emails, aplicando rótulos. Os rótulos podem ser aplicados automaticamente por administradores que definem regras e condições, manualmente por usuários ou usando uma combinação em que os usuários recebem recomendações.
 
-Para configurar rótulos de sensibilidade, exiba o vídeo [criar e gerenciar rótulos de confidencialidade](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
+Para configurar rótulos de sensibilidade, exiba o vídeo [criar e gerenciar rótulos de confidencialidade](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
 
 
 

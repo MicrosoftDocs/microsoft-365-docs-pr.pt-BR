@@ -14,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: 17d069a9bee76087790b608ba3c00bae9c644f99
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: cabb583aebc1baff1eb9f8286fceb2864b26deea
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441218"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031766"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Serviços para não clientes enviando emails para o Office 365
 
@@ -46,7 +46,7 @@ A Microsoft oferece várias opções de suporte para pessoas com problemas de en
 
 - Use o [portal de deslistação do Office 365](https://sender.office.com) para enviar uma solicitação para que o seu IP seja removido da lista do remetente bloqueado.
 
-- Leia os [fóruns da Comunidade da Microsoft](https://community.office365.com/en-us/f/).
+- Leia os [fóruns da Comunidade da Microsoft](https://community.office365.com/f/).
 
 - Entre em contato com o cliente do Office 365 em que você está tentando enviar um email usando outro método e peça a ele para entrar em contato com o suporte da Microsoft e abrir um tíquete de suporte em seu nome. Em alguns casos, por motivos legais, o suporte da Microsoft deve se comunicar diretamente com o remetente que possui o espaço IP que está sendo bloqueado. No entanto, os usuários que não são normalmente não podem abrir tíquetes de suporte.
 

@@ -1,5 +1,5 @@
 ---
-title: Combatendo lixo eletrônico enviado para o Office 365
+title: Combater lixo eletrônico enviado ao Office 365
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +14,14 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia de filtragem antispam e antispam do Exchange Online Protection (EOP) está sendo aplicada nas plataformas de email da Microsoft para fornecer aos usuários as ferramentas e inovações mais recentes antispam e anti-phishing em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
-ms.openlocfilehash: 0a73d428e952c0c0cb340d91a52768a42ae204a1
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7c1b74d2ddb98d1250f80455163c5f0b8690b0de
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072485"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032366"
 ---
-# <a name="fighting-junk-email-sent-to-office-365"></a>Combatendo lixo eletrônico enviado para o Office 365
+# <a name="fighting-junk-email-sent-to-office-365"></a>Combater lixo eletrônico enviado ao Office 365
 
 O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia de filtragem antispam e antispam do Exchange Online Protection (EOP) está sendo aplicada nas plataformas de email da Microsoft para fornecer aos usuários as ferramentas e inovações mais recentes antispam e anti-phishing em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
   
@@ -66,9 +66,9 @@ A falsificação de domínio é uma maneira de imitar um endereço de email leg�
   
 O EOP usa a estrutura de proteção do remetente (SPF), o DomainKeys identificado mail (DKIM) e a autenticação de mensagens baseadas em domínio, relatórios e conformidade (DMARC) e outras autenticações implícitas para verificar se as mensagens são provenientes do domínio do qual dizem . Recomendamos que todos os remetentes usem o SPF e o DKIM para proteger seus destinatários contra spam e golpes de phishing. Recomendamos que os remetentes considerem publicar um DMARC para rejeitar ou colocar em quarentena os emails enviados de remetentes não autorizados.
   
-- Para saber mais sobre o SPF, confira [RFC 7208](https://tools.ietf.org/html/rfc7208) e [Sender Policy Framework](http://www.openspf.org/).
+- Para saber mais sobre o SPF, confira [RFC 7208](https://tools.ietf.org/html/rfc7208) e [Sender Policy Framework](https://www.openspf.org/).
     
-- Para saber mais sobre o DKIM, confira [RFC 6376](https://tools.ietf.org/html/rfc6376) e [DKIM.org](http://dkim.org/).
+- Para saber mais sobre o DKIM, confira [RFC 6376](https://tools.ietf.org/html/rfc6376) e [DKIM.org](https://dkim.org/).
     
 - Para saber mais sobre o DMARC, confira [DMARC.org](https://dmarc.org/).
     

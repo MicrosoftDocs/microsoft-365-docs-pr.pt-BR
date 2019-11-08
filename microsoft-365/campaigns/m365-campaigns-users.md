@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft 365 para campanhas afeta seus usuários.
-ms.openlocfilehash: 3715e0a458f2af5f2fecb8e2e6939254b3141411
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: beded4f9346a8e05244a28cb28c06a1b5410b12a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772418"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031236"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Como a Microsoft 365 para campanhas afeta seus usuários
 
@@ -66,7 +66,7 @@ Para [dispositivos Windows 10 e Mac não gerenciados](m365-campaigns-protect-pcs
 ||**Windows 10**|**Mac**|
 |Recursos de segurança|Ativar a proteção de dispositivo BitLocker<p><p> Garantir que o Windows Defender permaneça no <p>Ativar o Firewall do Windows| Usar o FileVault para criptografar o disco Mac <p><p>Usar um software antivírus confiável <p>Ativar proteção de firewall|
 
-Para saber mais sobre essas recomendações, confira [proteger sua conta e dispositivos de hackers e malware](https://support.office.com/en-us/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10).
+Para saber mais sobre essas recomendações, confira [proteger sua conta e dispositivos de hackers e malware](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10).
 
 ## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-office-365-tools"></a>Colaborar usando o Microsoft Teams, o OneDrive, o SharePoint Online e outras ferramentas do Office 365
 Os usuários podem estar tentado a compartilhar e armazenar seus arquivos de organização em locais diferentes do Microsoft 365. O Microsoft 365 o torna tão fácil quanto possível colaborar e compartilhar com segurança. Você pode [compartilhar arquivos e vídeos](share-files-and-videos.md) diretamente do Microsoft Teams, onedrive, Stream e até mesmo de dentro de um arquivo. O compartilhamento de dentro dessas ferramentas ajuda a evitar a perda de dados. Você pode adicionar mais proteção a dados confidenciais para impedir o compartilhamento fora da sua organização. 

@@ -14,12 +14,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 8f86aa654c79bac2409d64b43d0cf7bb563c1412
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8ce6e21bcc25853e641ee20126ffd38c785e76f7
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072960"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033932"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
@@ -47,7 +47,7 @@ O widget Resumo de gerenciamento de ameaças informa rapidamente como sua organi
 As informações que você verá no Resumo de gerenciamento de ameaças depende do que a assinatura inclui. A tabela a seguir descreve quais informações estão incluídas para o Office 365 E3 e o Office 365 e5.
 
 
-|Office 365 E3  |Office 365 e5  |
+|Office 365 E3  |Office 365 E5  |
 |---------|---------|
 |Mensagens de malware bloqueadas<br/>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br> |Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas |
 
@@ -64,7 +64,7 @@ Os detalhes dependem de sua assinatura do Office 365 incluir o [Exchange Online 
 
 |Se sua assinatura incluir... |Você verá estes detalhes |
 |---------|---------|
-|EOP mas não Office 365 ATP     |Email mal-intencionado detectado e bloqueado pelo EOP<br> Consulte [relatório de status de proteção contra ameaças (EOP)](../../compliance/view-email-security-reports.md#threat-protection-status-report).| |
+|EOP mas não Office 365 ATP     |Email mal-intencionado detectado e bloqueado pelo EOP<br> Consulte [relatório de status de proteção contra ameaças (EOP)](../../compliance/view-email-security-reports.md#threat-protection-status-report).| 
 |Office 365 ATP |Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e pelo Office 365 ATP<br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos ATP (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](atp-anti-phishing.md)).<br>Consulte [relatório de status de proteção contra ameaças (ATP)](view-reports-for-atp.md#threat-protection-status-report). | 
 
 Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports). 

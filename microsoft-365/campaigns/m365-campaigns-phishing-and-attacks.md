@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Proteger contra phishing e outros ataques com o Microsoft 365 para campanhas.
-ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
-ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
+ms.openlocfilehash: be00cdc0c70c2a2f6ac9292e933031280b7c4616
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37593856"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029055"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Proteger-se contra phishing e outros ataques
 
@@ -42,12 +42,12 @@ O Microsoft 365 inclui muitas proteções para proteção contra ataques, mas h�
 
 **Reduzir emails de spam**
 
-Siga estas [10 dicas sobre como ajudar a reduzir o spam](https://support.office.com/en-us/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6).
+Siga estas [10 dicas sobre como ajudar a reduzir o spam](https://support.office.com/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6).
 
 **Relatar!**
 
 Relatar qualquer phishing ou outros emails de scam recebidos. Selecione a mensagem e escolha **relatar mensagem** na faixa de opções.
-Veja mais informações sobre como [relatar emails de lixo eletrônico e phishing](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+Veja mais informações sobre como [relatar emails de lixo eletrônico e phishing](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 **Evitar phishing**
 - Nunca responda a um email que solicita que você envie informações pessoais ou de conta.
@@ -56,11 +56,11 @@ Veja mais informações sobre como [relatar emails de lixo eletrônico e phishin
 - Se o email parece vir de uma empresa, entre em contato com o serviço de atendimento ao cliente da empresa por telefone ou navegador da Web para ver se o email é legítimo.
 - Procure na Web a linha de assunto de email seguida pela palavra hoax para ver se alguém mais relatou este scam.
 
-Leia sobre cinco tipos comuns de golpes em [lidar com abuso, phishing ou falsificação](https://support.office.com/en-us/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3).
+Leia sobre cinco tipos comuns de golpes em [lidar com abuso, phishing ou falsificação](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3).
 
 **Certifique-se de que seus emails pareçam legítimos para outras pessoas**
 
-Ajude seus clientes a confiar em suas comunicações adicionando uma assinatura digital para provar que ela está chegando por você. Confira [mensagens seguras usando uma assinatura digital](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
+Ajude seus clientes a confiar em suas comunicações adicionando uma assinatura digital para provar que ela está chegando por você. Confira [mensagens seguras usando uma assinatura digital](https://support.office.com/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
 
 ## <a name="help-protect-your-campaign-from-online-threats"></a>Ajudar a proteger sua campanha de ameaças online
 
@@ -75,6 +75,6 @@ Baixe este infográfico com dicas para você e os membros de sua equipe de campa
 ## <a name="set-it-up"></a>Configuração
 
 Saiba mais sobre como:
-- [Mantenha seus arquivos e comunicações seguros com o Office](https://support.office.com/en-us/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
-- [Permaneça seguro e privado no trabalho](https://support.office.com/en-us/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
+- [Mantenha seus arquivos e comunicações seguros com o Office](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
+- [Permaneça seguro e privado no trabalho](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
   

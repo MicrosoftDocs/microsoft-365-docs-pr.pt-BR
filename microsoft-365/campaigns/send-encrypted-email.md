@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: 7420073ba768f0e5adba33d673d3ccd6369e306c
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: e7028f69f4418ae0ff0183653c509fc9ad6171ac
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778136"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031226"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografar ou rotular seus emails confidenciais
 
@@ -46,11 +46,11 @@ Antes de enviar emails com informações confidenciais ou confidenciais, conside
 
 ## <a name="set-it-up"></a>Configuração
 
-Se você deseja criptografar uma mensagem que não atende a uma regra predefinida ou seu administrador não configurou nenhuma regra, você pode aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou do Outlook 2016 para Mac, selecione **opções > permissões**e, em seguida, selecione a opção de proteção necessária. Você também pode enviar uma mensagem criptografada selecionando o botão **proteger** no Outlook na Web. Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.office.com/en-us/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-US&rs=en-US&ad=US).
+Se você deseja criptografar uma mensagem que não atende a uma regra predefinida ou seu administrador não configurou nenhuma regra, você pode aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou do Outlook 2016 para Mac, selecione **opções > permissões**e, em seguida, selecione a opção de proteção necessária. Você também pode enviar uma mensagem criptografada selecionando o botão **proteger** no Outlook na Web. Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.office.com/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-US&rs=en-US&ad=US).
 
 ## <a name="admin-settings"></a>Configurações de administrador
 
-Você pode aprender tudo sobre como configurar a criptografia de email em [criptografia de email no Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/email-encryption).
+Você pode aprender tudo sobre como configurar a criptografia de email em [criptografia de email no Office 365](https://docs.microsoft.com/office365/securitycompliance/email-encryption).
 
 ### <a name="automatically-encrypt-email-messages"></a>Criptografar mensagens de email automaticamente
 
@@ -62,9 +62,9 @@ Você cria regras de fluxo de email para criptografar mensagens de email com os 
 2. Escolha o bloco administrador. 
 3. No centro de administração, escolha **centros de administração > Exchange**. 
 
-Para obter mais informações, consulte [definir regras de fluxo de email para criptografar mensagens de email no Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email).
+Para obter mais informações, consulte [definir regras de fluxo de email para criptografar mensagens de email no Office 365](https://docs.microsoft.com/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email).
 
 ### <a name="brand-your-encryption-messages"></a>Marcar suas mensagens de criptografia
 
-Você também pode aplicar a sua marca de campanha para personalizar a aparência e o texto nas mensagens de email. Para obter mais informações, consulte [Adicionar a marca da sua organização às mensagens criptografadas](https://docs.microsoft.com/en-us/office365/securitycompliance/email-encryption).
+Você também pode aplicar a sua marca de campanha para personalizar a aparência e o texto nas mensagens de email. Para obter mais informações, consulte [Adicionar a marca da sua organização às mensagens criptografadas](https://docs.microsoft.com/office365/securitycompliance/email-encryption).
 

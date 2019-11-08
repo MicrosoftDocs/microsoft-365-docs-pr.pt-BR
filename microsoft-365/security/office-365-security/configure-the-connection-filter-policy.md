@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para garantir que os emails enviados de pessoas confiáveis não sejam bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões, também conhecida como lista de remetentes confiáveis, dos endereços IP nos quais você confia. Você também pode criar uma lista de remetentes bloqueados.
-ms.openlocfilehash: 09da8b2b7ee6c584d479ffc1206e7b3cf72d1eb8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 541960ce5339e1334cdc61e1f88bff9be48fe2bd
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072843"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032426"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Configurar a política do filtro de conexão
 
@@ -42,13 +42,13 @@ O vídeo a seguir mostra as etapas de configuração da política de filtro de c
 
 - Tempo estimado para conclusão: 15 minutos
 
-- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
+- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
 
 - Para obter o endereço IP do remetente cujas mensagens você gostaria de permitir ou bloquear, verifique o cabeçalho de Internet da mensagem. Procure o cabeçalho CIP, conforme descrito em [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md). Para obter informações sobre como exibir um cabeçalho de mensagem em vários clientes de email, consulte [analisador de cabeçalho de mensagem](https://go.microsoft.com/fwlink/p/?LinkId=306583).
 
 - Mensagens de email enviadas de um endereço IP na lista de bloqueios de IP são rejeitadas, não são marcadas como spam, e nenhum filtro adicional ocorre.
 
-- O procedimento de filtro de conexão a seguir também pode ser executado via PowerShell remoto. Use o cmdlet [Get-HostedConnectionFilterPolicy](http://technet.microsoft.com/library/bd751db2-3f26-495b-8e5a-4fcab53b17fd.aspx) para revisar suas configurações e o cmdlet [Set-HostedConnectionFilterPolicy](http://technet.microsoft.com/library/ccb5731b-3fca-4d69-a91f-5049ea963fac.aspx) para editar as configurações da política de filtro de conexão. Para saber como usar o Windows PowerShell para se conectar à proteção do Exchange Online, confira [conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+- O procedimento de filtro de conexão a seguir também pode ser executado via PowerShell remoto. Use o cmdlet [Get-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/bd751db2-3f26-495b-8e5a-4fcab53b17fd.aspx) para revisar suas configurações e o cmdlet [Set-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/ccb5731b-3fca-4d69-a91f-5049ea963fac.aspx) para editar as configurações da política de filtro de conexão. Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>Use o EAC para editar a política padrão de filtro de conexão
 
@@ -75,7 +75,7 @@ A seguir estão algumas considerações adicionais que você pode desejar consul
   
 ### <a name="specifying-a-cidr-range-that-falls-outside-of-the-recommended-range"></a>Especificando uma faixa de CIDR que está fora da faixa recomendada
 
-Para especificar um intervalo de endereços IP CIDR de/1 a/23, você deve criar uma regra de fluxo de emails que opere no intervalo de endereços IP que define o nível de confiança de spam (SCL) para **ignorar a filtragem de spam** (o que significa que todas as mensagens recebidas desse intervalo de endereços IP são definido como "não spam") e nenhuma filtragem adicional é realizada pelo serviço. No entanto, se qualquer um desses endereços IP aparecer em qualquer uma das listas de bloqueios proprietários da Microsoft ou em qualquer uma das listas de bloqueios de terceiros, essas mensagens ainda serão bloqueadas. Portanto, é altamente recomendável que você use o intervalo de endereços IP/24 para/32.
+Para especificar um intervalo de endereços IP CIDR de/1 a/23, você deve criar uma regra de fluxo de emails que opere no intervalo de endereços IP que define o nível de confiança de spam (SCL) para **ignorar a filtragem de spam** (o que significa que todas as mensagens recebidas desse intervalo de endereços IP estão definidas como "não spam") e nenhuma filtragem adicional é realizada pelo No entanto, se qualquer um desses endereços IP aparecer em qualquer uma das listas de bloqueios proprietários da Microsoft ou em qualquer uma das listas de bloqueios de terceiros, essas mensagens ainda serão bloqueadas. Portanto, é altamente recomendável que você use o intervalo de endereços IP/24 para/32.
   
 Para criar essa regra de fluxo de emails, execute as etapas a seguir.
   
@@ -91,7 +91,7 @@ Para criar essa regra de fluxo de emails, execute as etapas a seguir.
 
 6. Na caixa **Faça o seguinte**, defina a ação, escolhendo **Modificar as propriedades da mensagem** e depois **definir o nível de confiança de spam (SCL)**. Na caixa **especificar SCL** , selecione **Ignorar filtragem de spam**, e clique em **ok**.
 
-7. Se desejar, você pode optar por auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras opções. Recomendamos testar a regra por um período antes de aplicá-la. [Procedimentos para regras de fluxo de emails no Exchange Server](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) contém mais informações sobre essas seleções.
+7. Se desejar, você pode optar por auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras opções. Recomendamos testar a regra por um período antes de aplicá-la. [Procedimentos para regras de fluxo de emails no Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) contém mais informações sobre essas seleções.
 
 8. Clique em **salvar** para salvar a regra. A regra é exibida na lista de regras.
 
@@ -121,7 +121,7 @@ Para fazer isso, execute as seguintes etapas:
 
 8. Na caixa **especificar domínio** , digite o domínio para o qual você deseja ignorar a filtragem de spam, como **contosob.com**. Clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif) de adição para movê-lo para a lista de frases. Repita esta etapa se você deseja adicionar mais domínios como exceções e clique em **ok** após ter finalizado. 
 
-9. Se desejar, você pode optar por auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras opções. Recomendamos testar a regra por um período antes de aplicá-la. [Procedimentos para regras de fluxo de emails no Exchange Server](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) contém mais informações sobre essas seleções.
+9. Se desejar, você pode optar por auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras opções. Recomendamos testar a regra por um período antes de aplicá-la. [Procedimentos para regras de fluxo de emails no Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) contém mais informações sobre essas seleções.
 
 10. Clique em **salvar** para salvar a regra. A regra é exibida na lista de regras.
 
@@ -131,7 +131,7 @@ Depois de criar e aplicar a regra, a filtragem de spam para o endereço IP ou in
 
 As mensagens de endereços IP permitidos que você configurou em políticas de filtro de conexão ainda estão sujeitas à filtragem de spam nos seguintes cenários:
 
-- O endereço IP de origem em sua política de filtro de conexão também é configurado em um conector de entrada baseado em IP ou local em *qualquer* locatário (Vamos chamar este locatário a **) e o locatário a** e o servidor de proteção do Exchange Online que primeiro encontra o a mensagem no Office 365 acontece estar na mesma floresta do Active Directory nos datacenters da Microsoft. Neste cenário, **IPV: Cal** é adicionado aos cabeçalhos da mensagem [antispam](anti-spam-message-headers.md) da mensagem (indicando a mensagem de filtragem de spam ignorada), mas a mensagem ainda está sujeita à filtragem de spam.
+- O endereço IP de origem em sua política de filtro de conexão também é configurado em um conector de entrada baseado em IP ou local em *qualquer* locatário (Vamos chamar este locatário a **) e o locatário a** e o servidor de proteção do Exchange Online que encontra primeiro a mensagem no Office 365 estão na mesma floresta do Active Directory nos datacenters da Microsoft. Neste cenário, **IPV: Cal** é adicionado aos cabeçalhos da mensagem [antispam](anti-spam-message-headers.md) da mensagem (indicando a mensagem de filtragem de spam ignorada), mas a mensagem ainda está sujeita à filtragem de spam.
 
 - Seu locatário (onde você configurou a política de filtro de conexão) e o servidor de proteção do Exchange Online que primeiro encontra a mensagem no Office 365 estão em florestas do Active Directory diferentes nos datacenters da Microsoft. Neste cenário, **IPV: Cal** não é adicionado aos cabeçalhos da mensagem, portanto, a mensagem ainda está sujeita à filtragem de spam.
 
@@ -149,13 +149,13 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 |:-----|
 |![O ícone pequeno do LinkedIn Learning](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
-[Listas de remetentes seguros e remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
+[Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
   
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
   
-[Configurar a política de spam de saída](configure-the-outbound-spam-policy.md)
+[Configuração da política de spam de saída](configure-the-outbound-spam-policy.md)
   
 [Como ajudar a garantir que uma mensagem não é marcada como spam](https://go.microsoft.com/fwlink/p/?LinkId=534224)
   

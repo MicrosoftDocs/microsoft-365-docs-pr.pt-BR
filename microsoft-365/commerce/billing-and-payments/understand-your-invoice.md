@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: e0af9ec0808de97e55ef550c6feb51a146dbb5f6
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 79d652f56617837019322b7329d918488283659a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646408"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029035"
 ---
 # <a name="understand-your-invoice"></a>Entender sua fatura
 
 A fatura fornece um resumo de seus encargos e instruções para pagamento. Você pode [exibir sua fatura online](#view-your-online-invoice) no centro de administração do Microsoft 365. Você também pode baixá-lo no formato de documento portátil (. pdf) para enviar por email.
 
-Se você tiver uma assinatura do Office 365, confira [exibir sua fatura do Office 365 para empresas](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
+Se você tiver uma assinatura do Office 365, confira [exibir sua fatura do Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
 
 ## <a name="understand-the-invoice-header"></a>Entender o cabeçalho da fatura
 
@@ -50,13 +50,13 @@ O **Resumo de cobrança** mostra o resumo dos encargos desde o período de cobra
 | --- | --- |
 | Encargos|Número total de produtos comprados para esse período de cobrança e seus impostos e taxas relacionados. As compras são agregadas para fornecer uma visão concisa da sua cobrança. |
 | Créditos |Créditos recebidos de Devoluções |
-| Créditos do Azure aplicados |Seus créditos do Azure aplicados automaticamente ao Azure cobram cada período de cobrança. Se você não tiver créditos do Azure, este campo ficará oculto. Para obter mais informações sobre os créditos do Azure, confira [acompanhar o saldo de crédito do Microsoft Customer Agreement](https://docs.microsoft.com/en-us/azure/billing/billing-mca-check-azure-credits-balance). |
+| Créditos do Azure aplicados |Seus créditos do Azure aplicados automaticamente ao Azure cobram cada período de cobrança. Se você não tiver créditos do Azure, este campo ficará oculto. Para obter mais informações sobre os créditos do Azure, confira [acompanhar o saldo de crédito do Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-mca-check-azure-credits-balance). |
 | Subtotal |O valor de pré-imposto devido |
 | Imposto |O tipo e a quantidade de impostos que você paga, dependendo do país do seu perfil de cobrança. Se você não tiver que pagar o imposto, nenhum imposto será exibido na fatura. |
 
 ### <a name="understand-your-charges"></a>Entender seus encargos
 
-As páginas de encargos mostram o custo dividido por produto. Para clientes do Azure, os encargos podem ser organizados por seção de fatura. Para obter mais informações sobre como as seções de fatura são usadas com produtos do Azure, confira [seções de fatura](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview#invoice-sections) em introdução [à sua conta de cobrança de contrato de cliente da Microsoft](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview). Dentro de cada ordem de produto, o custo é dividido pela família de serviços.
+As páginas de encargos mostram o custo dividido por produto. Para clientes do Azure, os encargos podem ser organizados por seção de fatura. Para obter mais informações sobre como as seções de fatura são usadas com produtos do Azure, confira [seções de fatura](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) em introdução [à sua conta de cobrança de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/billing/billing-mca-overview). Dentro de cada ordem de produto, o custo é dividido pela família de serviços.
 
 | Termo |Descrição |
 | --- | --- |
@@ -76,7 +76,7 @@ O valor total devido para cada família de serviços é calculado subtraindo cr�
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-Se houver encargos do Azure na fatura que você gostaria de obter mais detalhes, confira [entender os encargos em sua fatura de contrato de cliente da Microsoft](https://docs.microsoft.com/en-us/azure/billing/billing-mca-understand-your-bill).
+Se houver encargos do Azure na fatura que você gostaria de obter mais detalhes, confira [entender os encargos em sua fatura de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill).
 
 ## <a name="understand-the-last-invoice-page"></a>Entender a última página de fatura
 
@@ -110,4 +110,4 @@ As faturas estão disponíveis online. Um link para sua fatura online está disp
 
 Se você tiver dúvidas ou precisar de ajuda com seus créditos do Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">crie uma solicitação de suporte com o suporte do Azure</a>.
 
-Se você tiver dúvidas ou precisar de ajuda com sua fatura no centro de administração do Microsoft 365, [entre em contato com o suporte para produtos de negócios](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products).
+Se você tiver dúvidas ou precisar de ajuda com sua fatura no centro de administração do Microsoft 365, [entre em contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

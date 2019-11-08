@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: Estenda a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams para permitir a colaboração mais segura para sua organização.
-ms.openlocfilehash: 151acef2c5993d4deef77e1dbb7960925c59864f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ad2b5e06dab99bb2cdbe4b0e4c1785d716d865f7
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072909"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38035711"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
 
@@ -42,11 +43,11 @@ Dependendo de como o Office 365 estiver configurado, as pessoas podem ou não te
   
 [![Baixar um arquivo bloqueado no OneDrive for Business](../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
-Para saber mais, confira [ativar o Office 365 ATP para SharePoint, onedrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
+Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
   
 ## <a name="keep-these-points-in-mind"></a>Mantenha esses pontos em mente
 
-- A ATP não examinará todos os arquivos de um único arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Isso é esperado. Os arquivos são verificados de forma assíncrona por meio de um processo que usa eventos de atividade de compartilhamento e convidados, juntamente com heurística inteligente e sinais de ameaça para identificar arquivos mal-intencionados.
+- A ATP não examinará todos os arquivos de um único arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Isso é por desígnio. Os arquivos são verificados de forma assíncrona por meio de um processo que usa eventos de atividade de compartilhamento e convidados, juntamente com heurística inteligente e sinais de ameaça para identificar arquivos mal-intencionados.
 
 - Certifique-se de que seus sites do SharePoint estão configurados para usar a [experiência moderna](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Quando um arquivo é identificado como mal-intencionado e bloqueado, as pessoas podem ver que isso ocorreu na experiência moderna, mas não no modo de exibição clássico. A proteção ATP aplica se a experiência moderna ou o modo de exibição clássico é usado; no entanto, os indicadores visuais que um arquivo está bloqueado estão presentes apenas na experiência moderna.
     

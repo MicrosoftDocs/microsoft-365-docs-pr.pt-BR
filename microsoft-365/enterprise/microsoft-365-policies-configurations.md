@@ -14,24 +14,24 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 1fae59706a77663090d4f29cc6a34b339c11e92c
-ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
+ms.openlocfilehash: eba186233efa5bebb980c4e16aafb0fe854910c9
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2019
-ms.locfileid: "37481299"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031316"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
 
 Esta série de artigos descreve como configurar o acesso seguro aos serviços em nuvem por meio de produtos de EMS (Enterprise Mobility + Security) implementando um ambiente e uma configuração recomendados, incluindo um conjunto prescrito de políticas de acesso condicional e recursos relacionados. O EMS é um componente principal do Microsoft 365. Você pode usar estas diretrizes para proteger o acesso a todos os serviços integrados ao Azure Active Directory, incluindo os serviços do Office 365, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
 
-Essas recomendações são alinhadas com a pontuação segura da Microsoft, bem como a [Pontuação de identidade no Azure ad](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score), e aumentam essas pontuações para sua organização. Essas recomendações também ajudarão você a implementar essas [cinco etapas para proteger sua infraestrutura de identidade](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps). 
+Essas recomendações são alinhadas com a pontuação segura da Microsoft, bem como a [Pontuação de identidade no Azure ad](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score), e aumentam essas pontuações para sua organização. Essas recomendações também ajudarão você a implementar essas [cinco etapas para proteger sua infraestrutura de identidade](https://docs.microsoft.com/azure/security/azure-ad-secure-steps). 
 
 A Microsoft entende que algumas organizações têm requisitos ou complexidades de ambiente exclusivos. Se você for uma dessas organizações, use estas recomendações como ponto de partida. No entanto, a maioria das organizações pode implementar essas recomendações conforme prescrito. 
 
 ## <a name="intended-audience"></a>Público-alvo
 
-Essas recomendações são direcionadas para arquitetos corporativos e profissionais de ti que estão familiarizados com o [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) e [o Microsoft Enterprise Mobility + Security](http://microsoft.com/ems), que inclui, entre outros, o Azure Active Directory (identidade), a Microsoft Intune (gerenciamento de dispositivos) e proteção de informações do Azure (proteção de dados).
+Essas recomendações são direcionadas para arquitetos corporativos e profissionais de ti que estão familiarizados com o [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) e [o Microsoft Enterprise Mobility + Security](https://microsoft.com/ems), que inclui, entre outros, o Azure Active Directory (identidade), o Microsoft Intune (gerenciamento de dispositivos) e a proteção de informações do Azure (proteção de dados).
 
 ### <a name="customer-environment"></a>Ambiente do cliente
 
@@ -69,7 +69,7 @@ Esta orientação mostra como implementar a proteção de identidades e disposit
 
 **Soluções para proteção de arquivos do Office 365**<br/>
 ![Miniatura do pôster "soluções de proteção de arquivo no Office 365"](../images/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
 ## <a name="security-and-productivity-trade-offs"></a>Vantagens e desvantagens de produtividade e segurança
 

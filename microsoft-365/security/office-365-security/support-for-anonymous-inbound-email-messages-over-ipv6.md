@@ -13,12 +13,12 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar o suporte para mensagens anônimas de fontes IPv6 para o Exchange Online Protection e o Exchange Online.
-ms.openlocfilehash: b6b1a0f42d879929de5059b6e197bd5fe14887dc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c29c1fa450ca2a2e213930c4f4a394aaf462e31d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073834"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031986"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>Suporte para mensagens de email de entrada anônimas por IPv6
 
@@ -28,7 +28,7 @@ Remetentes que transmitem mensagens para serviço sobre IPv6 devem cumprir com o
   
 1. O endereço de IPv6 remetente deve ter um registro PTR válido ([registro DNS inverso](https://en.wikipedia.org/wiki/Reverse_DNS_lookup) do endereço IPv6 remetente). 
     
-2. O remetente deve passar por verificação SPF (definida na [RFC 7208](https://tools.ietf.org/html/rfc7208)) ou [verificação DKIM](http://dkim.org/) (definida na [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
+2. O remetente deve passar por verificação SPF (definida na [RFC 7208](https://tools.ietf.org/html/rfc7208)) ou [verificação DKIM](https://dkim.org/) (definida na [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
     
 É obrigatório cumprir com esses requisitos, independentemente da configuração anterior à escolha do IPv6. Se ambos os requisitos forem satisfeitos, a mensagem passará pelo filtro de mensagens de email normal fornecido pelo serviço. Se uma ou outra não for atendida, a mensagem será rejeitada com uma das seguintes respostas 450:
   
@@ -40,7 +40,7 @@ Se você não tiver a opção de receber mensagens sobre IPv6 e o remetente tent
   
  `550 5.2.1 Service unavailable, [contoso.com] does not accept email over IPv6.`
   
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Suporte para validação de mensagens assinadas por DKIM](support-for-validation-of-dkim-signed-messages.md)
   

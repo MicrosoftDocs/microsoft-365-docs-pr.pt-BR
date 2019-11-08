@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 504fb93a271a60db4c43aa48ba6578a904c8bb5a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 7e84aa35d3269e4b22fd8ea868b55249b422f268
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441088"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034182"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -73,13 +73,13 @@ R. Mensagens de spam e não spam podem ser enviadas para a Microsoft para análi
   
 R. Sim, por exemplo, você pode obter um relatório de detecção de spam no centro de administração do Microsoft 365. Este relatório mostra o volume de spam como uma contagem de mensagens exclusivas. Para obter mais informações sobre relatórios, consulte os seguintes links:
   
-Clientes do Exchange Online: [monitoramento, relatórios e rastreamento de mensagens no Exchange Online](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
+Clientes do Exchange Online: [monitoramento, relatórios e rastreamento de mensagens no Exchange Online](https://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   
 Clientes do Exchange Online Protection: [relatórios e rastreamento de mensagens no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md)
   
  **P. Alguém me enviou uma mensagem e eu não consigo encontrá-la. Desconfio que ela foi detectada como spam. Existe uma ferramenta que posso usar para descobrir?**
   
-R. Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagem para descobrir por que uma mensagem foi marcada como spam, confira [a mensagem foi marcada como spam?](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam)
+R. Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagem para descobrir por que uma mensagem foi marcada como spam, confira [a mensagem foi marcada como spam?](https://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam)
   
  **Q. O serviço limitará (limite de taxa) meu email se os meus usuários enviarem spam de saída?**
   
@@ -89,15 +89,15 @@ Você pode enviar uma notificação para um endereço de email especificado quan
   
  **P. Posso usar um provedor de antispam e antimalware de terceiros em conjunto com o Exchange Online?**
   
-R. Sim, você pode configurar outro serviço de filtragem de spam e malwares para proteger suas caixas de correio do Exchange Online. Para fazer isso para emails de entrada, você deve redirecionar suas mensagens para o provedor de terceiros, alterando os registros MX para que apontem para o provedor de terceiros e, em seguida, redirecione as mensagens para o EOP para processamento adicional. Para fazer isso para emails de saída, configure o destino de entrega de mensagem para o provedor de terceiros (host inteligente), conforme mostrado em [Scenario: Outbound Smart Hosting](http://technet.microsoft.com/library/431b3f02-4efd-4bd3-94e7-eecd03f8ef5e.aspx).
+R. Sim, você pode configurar outro serviço de filtragem de spam e malwares para proteger suas caixas de correio do Exchange Online. Para fazer isso para emails de entrada, você deve redirecionar suas mensagens para o provedor de terceiros, alterando os registros MX para que apontem para o provedor de terceiros e, em seguida, redirecione as mensagens para o EOP para processamento adicional. Para fazer isso para emails de saída, configure o destino de entrega de mensagem para o provedor de terceiros (host inteligente), conforme mostrado em [Scenario: Outbound Smart Hosting](https://technet.microsoft.com/library/431b3f02-4efd-4bd3-94e7-eecd03f8ef5e.aspx).
   
  **P. A Microsoft possui alguma documentação sobre como eu posso me proteger contra golpes de phishing?**
   
 P. Sim. Veja estes artigos:
   
-[Obtenha ajuda contra golpes de phishing, fraude da loteria e outros tipos de golpes](http://go.microsoft.com/fwlink/p/?LinkId=325606)
+[Obtenha ajuda contra golpes de phishing, fraude da loteria e outros tipos de golpes](https://go.microsoft.com/fwlink/p/?LinkId=325606)
   
-[Golpes de web e email: Como ajudar você a se proteger](http://go.microsoft.com/fwlink/p/?LinkID=325607)
+[Golpes de web e email: Como ajudar você a se proteger](https://go.microsoft.com/fwlink/p/?LinkID=325607)
   
  **P. As mensagens de spam e malware são investigadas para identificar quem as enviou ou são transferidas para entidades legais?**
   
@@ -187,7 +187,7 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
     
     O Hotmail usa um programa chamado Serviços de Dados de Rede Inteligente do Hotmail que permite que os remetentes verifiquem as reclamações enviadas pelos usuários finais. O SNDS é o portal principal para a solução de problemas de entrega ao Hotmail.
     
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Proteção anti-spam de emails do Office 365](https://support.office.com/article/6a601501-a6a8-4559-b2e7-56b59c96a586)
   

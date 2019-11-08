@@ -1,5 +1,5 @@
 ---
-title: Aumentar a proteção contra ameaças
+title: Aumentar proteção contra ameaças
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365 Business
-ms.openlocfilehash: 5a3a9aada60875a7ee1f43a870e4d2731f84d4c1
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: f7ae2516403613667401e622f93939cfce63e617
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772548"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029065"
 ---
-# <a name="increase-threat-protection"></a>Aumentar a proteção contra ameaças
+# <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
 
 Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 365 para proteção contra phishing, malware e outras ameaças. Essas recomendações são apropriadas para organizações com uma maior necessidade de segurança, como campanhas políticas, escritórios de advocacia e clínicas de assistência médica. 
 
 Antes de começar, verifique sua pontuação segura do Office 365. A pontuação segura do Office 365 analisa a segurança da sua organização do Office 365 com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. A realização das ações recomendadas neste artigo aumenta sua pontuação. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. 
 
-Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/en-us/office365/securitycompliance/microsoft-secure-score).
+Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
 
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Aumentar o nível de proteção contra malware no email
@@ -61,7 +61,7 @@ Para obter mais informações, consulte [proteção Antimalware](https://go.micr
 
 O ransomware restringe o acesso aos dados criptografando arquivos ou bloqueando telas de computador. Em seguida, tenta extort dinheiro de vítimas solicitando "resgate", geralmente na forma de cryptocurrencies como Bitcoin, no Exchange para acessar os dados. 
   
-Você pode se proteger contra o ransomware criando uma ou mais regras de fluxo de email para bloquear extensões de arquivo comumente usadas para ransomware (elas foram adicionadas na etapa [aumentar o nível de proteção contra malware no email](#raise-the-level-of-protection-against-malware-in-mail) ) ou para avisar os usuários que receberem esses anexos no email.
+Você pode se proteger contra o ransomware criando uma ou mais regras de fluxo de email para bloquear extensões de arquivo comumente usadas para ransomware (elas foram adicionadas na etapa [aumentar o nível de proteção contra malware no email](#raise-the-level-of-protection-against-malware-in-mail) ) ou para avisar os usuários que recebem esses anexos por email.
 
 Além dos arquivos que você bloqueou na etapa anterior, é também recomendável criar uma regra para avisar os usuários antes de abrir os anexos de arquivo do Office que incluem macros. O ransomware pode ser oculto dentro de macros, portanto, avisaremos os usuários para não abrir esses arquivos de pessoas que eles não conhecem.
 
@@ -69,7 +69,7 @@ Para criar uma regra de transporte de emails:
   
 1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha central de **Administração** \> do **Exchange**.
     
-2. Na categoria **fluxo** de emails, clique em **regras**.
+2. Na categoria **fluxo de emails** , clique em **regras**.
     
 3. Clique **+** em e em **criar uma nova regra**.
     
@@ -87,7 +87,7 @@ Para criar uma regra de transporte de emails:
 |Faça o seguinte. . .  <br/> |Notificar o destinatário com uma mensagem  <br/> |
 |Fornecer texto da mensagem  <br/> |Não abra esses tipos de arquivos de pessoas que você não sabe porque eles podem conter macros com código mal-intencionado.  <br/> |
    
-Para obter mais informações, consulte:
+Para saber mais, confira:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
@@ -103,7 +103,7 @@ Para criar uma regra de transporte de email, Assista [a este vídeo curto](https
   
 1. No centro de administração do Microsoft 365, clique em **centrais** \> de administração do **Exchange**.
     
-2. Na categoria **fluxo** de emails, clique em **regras**.
+2. Na categoria **fluxo de emails** , clique em **regras**.
     
 3. Clique **+** em e em **criar uma nova regra**.
     
@@ -172,7 +172,7 @@ Se você ainda não vir a página de **instalação** com cartões no seu locat�
     ![Escolha Exibir na barra de aumento de proteção contra ameaças avançadas.](media/startatp.png) 
 
 3. Na página **aumentar a proteção contra ameaças avançadas** , escolha **introdução**.
-4. No painel que é aberto, marque as caixas de seleção ao lado de **links e anexos em email**, **examinar arquivos no SharePoint, no onedrive e**no Microsoft Teams e **examinar links no Office Desktop e aplicativos do Office Online** em **itens de varredura de conteúdo mal-intencionado**.
+4. No painel que é aberto, marque as caixas de seleção ao lado de **links e anexos em email**, **examinar arquivos no SharePoint, no onedrive e no Microsoft Teams**e **examinar links no Office Desktop e aplicativos do Office Online** em **itens de varredura de conteúdo mal-intencionado**.
 
       - Em **links e anexos em email**, digite todos os usuários ou os usuários específicos cujo email você deseja verificar.
 
@@ -273,7 +273,7 @@ Após o recurso ser ativado, você pode pesquisar arquivos, pastas e muitas ativ
 (altere o padrão de validade do link anônimo para 14 dias, altere o tipo de compartilhamento padrão para "pessoas específicas") Para alterar as configurações de compartilhamento do OneDrive e do SharePoint:
 1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **SharePoint** em **centros de administração** no painel de navegação esquerdo. 
 2. No centro de administração do SharePoint, vá para **compartilhamento**de **políticas** \> .
-3. Na página **compartilhamento** , em **links de arquivo e pasta**, selecione **pessoas específicas**e, em **Configurações avançadas para links "qualquer pessoa"**, selecione **estes links devem expirar dentro de vários dias**e digite 14 (ou outro número de dias para os quais você deseja restringir o tempo de vida do link.
+3. Na página **compartilhamento** , em **links de arquivo e pasta**, selecione **pessoas específicas**e, em **Configurações avançadas para links "qualquer pessoa"**, selecione **estes links devem expirar dentro de vários dias**e digite 14 (ou outro número de dias em que você deseja restringir o tempo de vida do link).
 
     ![Escolha pessoas específicas e defina o término do link como 14 dias.](media/anyonelinks.png)
 

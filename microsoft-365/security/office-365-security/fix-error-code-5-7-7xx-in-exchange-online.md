@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: d55bc1f8a051a7f9932528a75aac8f1efa18911c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 28ed444d821cbe00cfcb92872de15bb43a65ae28
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072474"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033872"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 
@@ -49,25 +49,25 @@ Após o comprometimento, os locatários serão impedidos de enviar emails de sa�
 
 Há várias coisas que você precisa fazer se o locatário for bloqueado para envio de email:
 
-1. Certifique-se de registrar todos os seus domínios no centro de administração do Microsoft 365. Mais informações podem ser encontradas [aqui](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Certifique-se de registrar todos os seus domínios no centro de administração do Microsoft 365. Mais informações podem ser encontradas [aqui](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Procure por conectores incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada em seu locatário do Office 365 para enviar spam. Você pode encontrar mais informações sobre como verificar seus conectores [aqui](https://docs.microsoft.com/en-us/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
+2. Procure por conectores incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada em seu locatário do Office 365 para enviar spam. Você pode encontrar mais informações sobre como verificar seus conectores [aqui](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
 
 3. Bloqueie seus servidores locais e certifique-se de que eles não estão comprometidos.
 
 > [!TIP]
 > Há muitos fatores envolvidos aqui, especialmente se forem servidores de terceiros. Independentemente disso, você precisará confirmar que todos os emails que deixam seus servidores são legítimos.
 
-4. Após concluir, você precisará ligar para o suporte da Microsoft e solicitar que o locatário seja desbloqueado para envio de domínios não registrados.  Fornecer o código de erro é útil, mas você precisará provar que seu ambiente está protegido e que o spam não será enviado novamente. É possível encontrar mais informações sobre como abrir um caso de suporte [aqui](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online).
+4. Após concluir, você precisará ligar para o suporte da Microsoft e solicitar que o locatário seja desbloqueado para envio de domínios não registrados.  Fornecer o código de erro é útil, mas você precisará provar que seu ambiente está protegido e que o spam não será enviado novamente. É possível encontrar mais informações sobre como abrir um caso de suporte [aqui](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online).
   
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
-[Office 365 email anti-spam protection](anti-spam-protection.md)
+[Proteção antispam de emails do Office 365](anti-spam-protection.md)
 
 [Notificações de falha na entrega de email no Office 365](https://support.office.com/article/email-non-delivery-reports-in-office-365-51daa6b9-2e35-49c4-a0c9-df85bf8533c3)
 
-[Configurar o encaminhamento de email para uma caixa de correio](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
+[Configurar o encaminhamento de email para uma caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
 
-[Como configurar um dispositivo multifuncional ou aplicativo para enviar email usando o Office 365](https://support.office.com/en-us/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
+[Como configurar um dispositivo multifuncional ou aplicativo para enviar email usando o Office 365](https://support.office.com/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
 
-[Gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+[Gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).

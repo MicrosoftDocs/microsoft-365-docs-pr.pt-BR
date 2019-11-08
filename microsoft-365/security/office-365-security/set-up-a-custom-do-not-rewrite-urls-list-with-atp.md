@@ -15,12 +15,12 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de links seguros de ATP, você pode incluir uma lista de URLs que não reconfigura para permitir que algumas pessoas em sua organização visitem sites que você inclui na sua lista.
-ms.openlocfilehash: 512d4ce507c191b00bc2d21f61d5efbf2dffcb57
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 1068f7e2ac75f9c4403475e1fa9bc4da57fabe51
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772135"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032046"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando os links seguros de ATP do Office 365
 
@@ -69,19 +69,19 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 - Qualquer URL especificada na lista "não reescrever" será excluída da verificação de links seguros de ATP para os destinatários que você especificar.
  
-- Se você já tiver uma lista de URLs na lista de "não reescrever", verifique se a lista e adicione caracteres curinga conforme apropriado. Por exemplo, se a sua lista existente tem uma entrada `http://contoso.com/a` como e você deseja incluir subcaminhos como `http://contoso.com/a/b` em sua política, adicione um curinga à sua entrada para que ele se `http://contoso.com/a/*`pareça.
+- Se você já tiver uma lista de URLs na lista de "não reescrever", verifique se a lista e adicione caracteres curinga conforme apropriado. Por exemplo, se a sua lista existente tem uma entrada `https://contoso.com/a` como e você deseja incluir subcaminhos como `https://contoso.com/a/b` em sua política, adicione um curinga à sua entrada para que ele se `https://contoso.com/a/*`pareça.
     
 - Não inclua uma barra (/) nas URLs que você especificar na lista "não reconfigurar". Por exemplo, em vez de `contoso.com/` inserir na lista "não reescrever", insira `contoso.com`.
 
-- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três asteriscos curinga (\*). Curingas (\*) são usados para incluir explicitamente prefixos ou subdomínios, `http://` como `https://`ou. Uma entrada, como não `contoso.com` é a mesma `*.contoso.com/*` da lista "não reconfigurar". Você deve ter `*.contoso.com/*` se quiser permitir que as pessoas visitem um domínio e seus subdomínios e caminhos.
+- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três asteriscos curinga (\*). Curingas (\*) são usados para incluir explicitamente prefixos ou subdomínios, `https://` como `https://`ou. Uma entrada, como não `contoso.com` é a mesma `*.contoso.com/*` da lista "não reconfigurar". Você deve ter `*.contoso.com/*` se quiser permitir que as pessoas visitem um domínio e seus subdomínios e caminhos.
     
 A tabela a seguir lista exemplos do que você pode inserir e o efeito que essas entradas têm.
     
 |**Entrada de exemplo**|**O que ele faz**|
 |:-----|:-----|
-|`contoso.com`|Permite que os destinatários visitem um `http://contoso.com` site como, mas não subdomínios ou caminhos.|
-|`*.contoso.com/*`  <br/> |Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `http://www.contoso.com`, `https://www.contoso.com` `https://maps.contoso.com`, ou`http://www.contoso.com/a`  <br/> |
-|`http://contoso.com/a`  <br/> |Permite que destinatários específicos visitem um site `http://contoso.com/a`como, mas não subcaminhos como`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a/*`  <br/> |Permite que destinatários específicos visitem um site `http://contoso.com/a` como e subcaminhos como`http://contoso.com/a/b`  <br/> |
+|`contoso.com`|Permite que os destinatários visitem um `https://contoso.com` site como, mas não subdomínios ou caminhos.|
+|`*.contoso.com/*`  <br/> |Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com`, `https://www.contoso.com` `https://maps.contoso.com`, ou`https://www.contoso.com/a`  <br/> |
+|`https://contoso.com/a`  <br/> |Permite que destinatários específicos visitem um site `https://contoso.com/a`como, mas não subcaminhos como`https://contoso.com/a/b`  <br/> |
+|`https://contoso.com/a/*`  <br/> |Permite que destinatários específicos visitem um site `https://contoso.com/a` como e subcaminhos como`https://contoso.com/a/b`  <br/> |
    
  

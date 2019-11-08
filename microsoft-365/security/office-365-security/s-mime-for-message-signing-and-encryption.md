@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Os administradores podem saber mais sobre como usar S/MIME no Exchange Online.
-ms.openlocfilehash: 9b7ad73f1a7dd55abdc5a88a2f86344f5a2f0f5b
-ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
+ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608582"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032146"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME para assinatura e criptografia de mensagens no Exchange Online
 
@@ -76,6 +76,6 @@ S/MIME requer uma infraestrutura de certificado e publicação que é geralmente
 
 ## <a name="more-information"></a>Mais informações
 
-[Outlook na Web](http://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[Outlook na Web](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
 
-[Email Seguro (2000)](https://technet.microsoft.com/en-us/library/cc962043.aspx)
+[Email Seguro (2000)](https://technet.microsoft.com/library/cc962043.aspx)

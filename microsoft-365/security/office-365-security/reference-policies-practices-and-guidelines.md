@@ -14,12 +14,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger os usuários de emails ofensivos, indesejados ou mal-intencionados.
-ms.openlocfilehash: e897b5ecf7fb31581c22e2a6e3cc80f927f43454
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 0957e34008f4e05693218970c458656d73d9c0fe
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441418"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031806"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
@@ -83,7 +83,7 @@ A Microsoft trabalha ativamente com órgãos de mercado e provedores de serviço
 
 - [Aliança de confiança online](https://www.otalliance.org/resources)
 
-- [Coalition de &amp; provedor de remetente de email](http://www.espcoalition.org/)
+- [Coalition de &amp; provedor de remetente de email](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>Relatórios de abuso e spam
 

@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: 92e8ccb99dfece7687c25db84b81fc7bc7158d71
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 2af5d4b4f84f39f5b157313e5b38ef030da7263d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574669"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030525"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business
 
-Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
+Qualquer dispositivo Windows 10 que seja associado ao Active Directory do Azure terá acesso a todos os recursos baseados na nuvem, como seus aplicativos do Office 365 e pode ser protegido pelo Microsoft 365 Business. Para permitir o acesso a recursos locais, como aplicativos de linha de negócios (LOB), compartilhamentos de arquivos e impressoras, você deve sincronizar o Active Directory local com o Azure Active Directory usando o [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect). 
 
-Confira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) para saber mais.
+Confira [introdução ao gerenciamento de dispositivos no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction) para saber mais.
 As etapas também são resumidas nas seções a seguir.
 
 ## <a name="run-azure-ad-connect"></a>Executar o Azure AD Connect

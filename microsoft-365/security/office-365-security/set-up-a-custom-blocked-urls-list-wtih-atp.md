@@ -15,17 +15,17 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar uma lista de URLs bloqueadas para sua organização usando a proteção avançada contra ameaças do Office 365. As URLs bloqueadas serão aplicadas a mensagens de email e documentos do Office de acordo com as políticas de links seguros de ATP.
-ms.openlocfilehash: 738509978bfafb44cd289113ef77c3d12fb79a78
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab79f86646ffd195b31d46980c3bd3bd3bb8f444
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073128"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032056"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP do Office 365
 
 > [!IMPORTANT]
-> Este artigo destina-se a clientes corporativos com [proteção avançada contra ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Com a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), sua organização pode ter uma lista personalizada de endereços de sites (URLs) bloqueadas. Quando uma URL é bloqueada, as pessoas que clicam em links para a URL bloqueada são levadas para uma [página de aviso](atp-safe-links-warning-pages.md) que se assemelha à seguinte imagem: 
   
@@ -43,9 +43,9 @@ Para editar (ou definir) políticas ATP, você deve receber uma das funções de
 
 |Role  |Onde/como a atribuição  |
 |---------|---------|
-|Administrador global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
-|Administrador de segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-|Gerenciamento da organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
+|Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
+|Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
 
 > [!TIP]
 > Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
@@ -66,7 +66,7 @@ Para editar (ou definir) políticas ATP, você deve receber uma das funções de
 
 Ao adicionar URLs à sua lista, tenha em mente os seguintes pontos: 
 
-- Não inclua uma barra ( **/**) no final da URL. Por exemplo, em vez de `http://www.contoso.com/`inserir, `http://www.contoso.com`insira.
+- Não inclua uma barra ( **/**) no final da URL. Por exemplo, em vez de `https://www.contoso.com/`inserir, `https://www.contoso.com`insira.
     
 - Você pode especificar uma URL somente de domínio (como `contoso.com` ou `tailspintoys.com`). Isso bloqueará cliques em qualquer URL que contenha o domínio.
 
@@ -76,10 +76,10 @@ Ao adicionar URLs à sua lista, tenha em mente os seguintes pontos:
     
 |**Entrada de exemplo**|**O que ele faz**|
 |:-----|:-----|
-|`contoso.com` ou `*contoso.com*`  <br/> |Bloqueia o domínio, subdomínios e caminhos, como `https://www.contoso.com`, e `http://sub.contoso.com``http://contoso.com/abc`  <br/> |
-|`http://contoso.com/a`  <br/> |Bloqueia um site `http://contoso.com/a` , mas não outros subcaminhos como`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a*`  <br/> |Bloqueia um site `http://contoso.com/a` e subcaminhos adicionais, como`http://contoso.com/a/b`  <br/> |
-|`http://toys.contoso.com*`  <br/> |Bloqueia um subdomínio ("Toys" nesse caso), mas permite cliques para outras URLs de domínio ( `http://contoso.com` como `http://home.contoso.com`ou).  <br/> |
+|`contoso.com` ou `*contoso.com*`  <br/> |Bloqueia o domínio, subdomínios e caminhos, como `https://www.contoso.com`, e `https://sub.contoso.com``https://contoso.com/abc`  <br/> |
+|`https://contoso.com/a`  <br/> |Bloqueia um site `https://contoso.com/a` , mas não outros subcaminhos como`https://contoso.com/a/b`  <br/> |
+|`https://contoso.com/a*`  <br/> |Bloqueia um site `https://contoso.com/a` e subcaminhos adicionais, como`https://contoso.com/a/b`  <br/> |
+|`https://toys.contoso.com*`  <br/> |Bloqueia um subdomínio ("Toys" nesse caso), mas permite cliques para outras URLs de domínio ( `https://contoso.com` como `https://home.contoso.com`ou).  <br/> |
    
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Como definir exceções para determinados usuários em uma organização

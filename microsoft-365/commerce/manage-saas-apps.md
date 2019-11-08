@@ -11,12 +11,12 @@ ms.author: TrudyHa
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: 72ef33199f3cde42ec86b4d64d13828116510d8f
-ms.sourcegitcommit: a263fc5a598363ca809a3cb990d41393bf38d3b7
+ms.openlocfilehash: f14809e58c1580333ba4e412a2b442df79e61975
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34592288"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029025"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
@@ -24,7 +24,7 @@ Você pode gerenciar licenças e cobrança para aplicativos de terceiros no cent
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 Há algumas maneiras de comprar aplicativos de terceiros.
-- **Compra direta** – os clientes podem comprar diretamente assinaturas do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou do [AppSource](http://www.appsource.com/). 
+- **Compra direta** – os clientes podem comprar diretamente assinaturas do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou do [AppSource](https://www.appsource.com/). 
 - **Compra de parceiro** – trabalhe com um parceiro por meio do Partner Center para comprar assinaturas. 
 - **Proposta da Microsoft** – responder a uma proposta da Microsoft Sales que inclui aplicativos de terceiros. 
 
@@ -56,7 +56,7 @@ Os administradores precisam ativar aplicativos de terceiros antes de atribuí-lo
 1. Vá para o [centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890)e ative **a visualização**.
 2. Selecione produtos de **cobrança** > **&** > **aplicativos**de serviços.
 3. Localize e selecione o aplicativo que você deseja gerenciar. 
-4. Em **configurações de & ações**, selecione **gerenciar no portal do Publisher**. 
+4. Em **configurações & ações**, selecione **gerenciar no portal do Publisher**. 
 
 Você será direcionado para o site do fornecedor do aplicativo onde é possível ativar o aplicativo. 
 
@@ -78,7 +78,7 @@ Os administradores precisam ativar aplicativos de terceiros antes de atribuí-lo
 1. Vá para o [centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890)e ative **a visualização**.
 2. Selecione produtos de **cobrança** > **&** > **aplicativos**de serviços.
 3. Localize e selecione o aplicativo que você deseja gerenciar. 
-4. Em **configurações de & ações**, selecione o link para **gerenciar no portal do Publisher**. 
+4. Em **configurações & ações**, selecione o link para **gerenciar no portal do Publisher**. 
  
 ## <a name="change-license-quantity"></a>Alterar a quantidade de licenças
 Os administradores podem alterar o número de licenças pertencentes à sua organização. Isso se aplica apenas aos aplicativos adquiridos com o preço baseado em assento.
@@ -116,4 +116,4 @@ Os clientes podem cancelar o aplicativo de software como serviço na página do 
 1. Vá para o [centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890)e ative **a visualização**.
 2. Selecione produtos de **cobrança** > **&** > **aplicativos**de serviços.
 3. Localize e selecione o aplicativo que você deseja gerenciar. 
-4. Em **configurações de & ações**, selecione **cancelar assinatura**.
+4. Em **configurações & ações**, selecione **cancelar assinatura**.

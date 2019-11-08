@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: Este tópico descreve como os administradores do Exchange Online e do Exchange Online Protection (EOP) podem localizar, liberar e relatar mensagens que estejam na quarentena do Centro de administração do Exchange (EAC).
-ms.openlocfilehash: 8f127dd1e7c14bbf2ae1d3bf23e611ef5c3ac1dc
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: c8779fb89ecb1deda92382ae2d91de4e54b303e7
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37576029"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032356"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Localizar e liberar mensagens em quarentena como um administrador
 
@@ -37,9 +37,9 @@ As mensagens em quarentena são listadas na página **quarentena** do EAC. Por p
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "quarentena" no tópico [permissões de recurso no Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
+- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "quarentena" no tópico [permissões de recurso no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
 
-- Você pode liberar ou relatar várias mensagens ao mesmo tempo na página **quarentena**. Como alternativa, pode criar um script do Windows PowerShell remoto para realizar essa tarefa. Use o cmdlet [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) para procurar as mensagens e o cmdlet [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) para liberá-las.
+- Você pode liberar ou relatar várias mensagens ao mesmo tempo na página **quarentena**. Como alternativa, pode criar um script do Windows PowerShell remoto para realizar essa tarefa. Use o cmdlet [Get-QuarantineMessage](https://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) para procurar as mensagens e o cmdlet [Release-QuarantineMessage](https://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) para liberá-las.
 
 - Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
@@ -54,7 +54,7 @@ No Centro de administração do Exchange (EAC), você pode filtrar itens da quar
 
 2. Na janela **Pesquisa Avançada** selecione qualquer combinação das condições a seguir. Marque a caixa de seleção associada para permitir cada condição. Não há suporte para curingas.
 
-   1. **ID da mensagem**: você pode usar esse parâmetro para executar uma pesquisa direcionada para uma mensagem específica. Por exemplo, se uma mensagem específica é enviada por, ou destinada a, um usuário em sua organização, mas ela nunca chega ao seu destino, você pode procurar a mensagem utilizando o recurso de rastreamento de mensagens. Para saber mais, confira [Run a Message Trace and View Results](http://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx). Se você descobrir que a mensagem foi enviada para a quarentena, talvez porque ela corresponde a uma regra ou foi identificada como spam, é possível encontrá-la facilmente na quarentena especificando sua ID de Mensagem. Lembre-se de incluir a sequência completa da ID da Mensagem. Isso pode incluir colchetes angulares\<\>().
+   1. **ID da mensagem**: você pode usar esse parâmetro para executar uma pesquisa direcionada para uma mensagem específica. Por exemplo, se uma mensagem específica é enviada por, ou destinada a, um usuário em sua organização, mas ela nunca chega ao seu destino, você pode procurar a mensagem utilizando o recurso de rastreamento de mensagens. Para saber mais, confira [Run a Message Trace and View Results](https://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx). Se você descobrir que a mensagem foi enviada para a quarentena, talvez porque ela corresponde a uma regra ou foi identificada como spam, é possível encontrá-la facilmente na quarentena especificando sua ID de Mensagem. Lembre-se de incluir a sequência completa da ID da Mensagem. Isso pode incluir colchetes angulares\<\>().
 
    2. **Endereço de email do remetente**: especifique o endereço de email da pessoa que enviou a mensagem.
 
@@ -62,9 +62,9 @@ No Centro de administração do Exchange (EAC), você pode filtrar itens da quar
 
    4. **Assunto**: especifique o texto da linha de assunto da mensagem.
 
-   5. **Recebido**: é possível selecionar se a mensagem foi recebida pela quarentena nas últimas 24 horas ( **hoje**), nas últimas 48 horas ( **últimos 2 dias**), na semana passada ( **últimos 7 dias**) ou você pode selecionar um intervalo de tempo personalizado durante que a mensagem foi recebida pela quarentena.
+   5. **Recebido**: é possível selecionar que a mensagem foi recebida por quarentena nas últimas 24 horas ( **hoje**), nas últimas 48 horas ( **últimos 2 dias**), na semana passada ( **últimos 7 dias**) ou você pode selecionar um intervalo de tempo personalizado durante o qual a mensagem foi recebida pela quarentena.
 
-   6. **Expira**: é possível selecionar que a mensagem será excluída da quarentena nas próximas 24 horas ( **hoje**), nas próximas 48 horas ( **próximos 2 dias**), na próxima semana (próximos **7 dias**) ou você pode selecionar um intervalo de tempo personalizado durante Qual a mensagem será excluída da quarentena.
+   6. **Expira**: é possível selecionar que a mensagem será excluída da quarentena nas próximas 24 horas ( **hoje**), nas próximas 48 horas ( **próximos 2 dias**), na próxima semana (próximos **7 dias**) ou você pode selecionar um intervalo de tempo personalizado durante o qual a mensagem será excluída da quarentena.
 
       > [!IMPORTANT]
       > Por padrão, as mensagens de spam em quarentena são mantidas em quarentena por 30 dias, enquanto as mensagens em quarentena que correspondem a uma regra de fluxo de emails são mantidas em quarentena por até 30 dias, com base no período de retenção definido na sua política de filtro de conteúdo padrão. Após esse período de tempo, o Office 365 exclui as mensagens e elas não podem ser recuperadas. O período de retenção para mensagens em quarentena que correspondem a uma regra de fluxo de emails não é configurável. No entanto, o período de retenção para mensagens de spam em quarentena pode ser reduzido através da configuração **Reter spam por (dias)** nas suas políticas de filtro de conteúdo. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).

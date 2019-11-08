@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Proteger contra phishing e outros ataques com o Microsoft 365 para campanhas.
-ms.openlocfilehash: 686a69a7e712e80c4f58cade24a69465fb4e7d33
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 2533710ccb7b173f5cc1fd19b185fcd32b7801c9
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772448"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031286"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Proteger PCs e Macs não gerenciados do Windows 10
 
@@ -48,9 +48,9 @@ Se o seu computador com o Windows 10 ou Mac não for gerenciado pela sua organiz
 ## <a name="windows-10tabwindows10"></a>[Windows 10](#tab/Windows10)
 **Ativar a criptografia do dispositivo**<p>
 
-A criptografia do dispositivo está disponível em uma ampla variedade de dispositivos Windows e ajuda a proteger seus dados criptografando-os. Se você ativar a criptografia de dispositivo, apenas pessoas autorizadas poderão acessar o dispositivo e os dados. Consulte [ativar a criptografia de dispositivo](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption) para obter instruções.
+A criptografia do dispositivo está disponível em uma ampla variedade de dispositivos Windows e ajuda a proteger seus dados criptografando-os. Se você ativar a criptografia de dispositivo, apenas pessoas autorizadas poderão acessar o dispositivo e os dados. Consulte [ativar a criptografia de dispositivo](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) para obter instruções.
 
- Se a criptografia do dispositivo não estiver disponível em seu dispositivo, você poderá ativar a [criptografia BitLocker](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption) padrão. (O BitLocker não está disponível no Windows 10 Home Edition.) 
+ Se a criptografia do dispositivo não estiver disponível em seu dispositivo, você poderá ativar a [criptografia BitLocker](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) padrão. (O BitLocker não está disponível no Windows 10 Home Edition.) 
 
 
 
@@ -59,10 +59,10 @@ Se você tiver o Windows 10, obterá a proteção antivírus mais recente com a 
 
 O Windows Update baixa as atualizações da segurança do Windows automaticamente para ajudar a manter seu computador seguro e protegê-lo contra ameaças.
 
-Se você tiver uma versão anterior do Windows e estiver usando o Microsoft Security Essentials, é uma boa ideia mudar para a segurança do Windows. Consulte [ajudar a proteger meu dispositivo com a segurança do Windows](https://support.microsoft.com/en-us/help/17464/windows-10-help-protect-my-device-with-windows-security) para obter mais informações.
+Se você tiver uma versão anterior do Windows e estiver usando o Microsoft Security Essentials, é uma boa ideia mudar para a segurança do Windows. Consulte [ajudar a proteger meu dispositivo com a segurança do Windows](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security) para obter mais informações.
 
 **Ativar o Firewall do Windows**<p>
-Você deve sempre executar o Firewall do Windows mesmo se tiver outro firewall ativado. Desativar o Firewall do Windows pode tornar seu dispositivo (e sua rede, se você tiver um) mais vulnerável a acesso não autorizado. Consulte [Ativar ou desativar o Firewall do Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) para obter instruções
+Você deve sempre executar o Firewall do Windows mesmo se tiver outro firewall ativado. Desativar o Firewall do Windows pode tornar seu dispositivo (e sua rede, se você tiver um) mais vulnerável a acesso não autorizado. Consulte [Ativar ou desativar o Firewall do Windows](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) para obter instruções
 
 ## <a name="mactabmac"></a>[Mac](#tab/Mac)
 **Usar o FileVault para criptografar seu disco Mac**<p>
