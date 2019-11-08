@@ -14,24 +14,24 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: 16cabf8080e6d3a04805a4fcce385a80ec80dfd6
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 0e901a162be61c7be2465a0054669ebc459e6f3f
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982082"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031086"
 ---
 # <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
 
 <strong>Atualizar do Windows 7 para o Windows 10</strong>
-<p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o System Center Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </p>
+<p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o System Center Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </p>
 
 <p>
 </p>
 
 <ul class="panelContent cardsM">
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/step-2-directory-and-network-readiness">
+        <a href="https://docs.microsoft.com/microsoft-365/enterprise/step-2-directory-and-network-readiness">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -50,7 +50,7 @@ ms.locfileid: "36982082"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/step-1-device-and-app-readiness">
+        <a href="https://docs.microsoft.com/microsoft-365/enterprise/step-1-device-and-app-readiness">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -69,7 +69,7 @@ ms.locfileid: "36982082"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">
+        <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

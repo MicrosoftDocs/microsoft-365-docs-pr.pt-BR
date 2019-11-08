@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como preparar seus usuários finais para o Windows 10 e o Office 365 ProPlus com o uso de comunicações e treinamento.
-ms.openlocfilehash: 6592734c89ea280a658007f53020641a0bc956b8
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 46a9a21fe60d2cf16f0e24483c5e6ab261714b23
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814552"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033656"
 ---
 # <a name="step-8-user-communications-and-training"></a>Etapa 8: Treinamento e comunicações de usuários
 
@@ -55,11 +55,11 @@ Para o Windows 10, podemos ajudá-lo a familiarizar os usuários com recursos op
 
 Também são visíveis os controles de segurança e conformidade aos quais os usuários podem estar expostos. O Enterprise Mobility + Security, que é composto pelo Azure AD e pelo Microsoft Intune, integra recursos adicionais ao Windows 10 e o Office 365 que podem ser direcionados para o upgrade do computador.
 
-[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/pt-BR/cloud-platform/enterprise-mobility-security)
+[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
 
 Por exemplo, se você já tiver habilitado a Autenticação Multifator, ela utilizará o Azure AD e protegerá o acesso do usuário a recursos aproveitando um aplicativo de telefone ou um PIN para usar os serviços com segurança. E a Proteção de Informações do Azure facilita para os usuários classificar e rotular documentos.
 
-[Configurar a autenticação multifator para usuários do Office 365](https://support.office.com/pt-BR/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Configurar a autenticação multifator para usuários do Office 365](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 Estes são apenas alguns dos novos recursos que serão percebidos pelos seus usuários e alguns poderão pegá-los de surpresa, de uma maneira mais ou menos positiva. E essas surpresas, especialmente se alterarem o fluxo de trabalho normal, podem resultar em mais chamadas e tíquetes para você ou seu suporte técnico.
 
@@ -101,7 +101,7 @@ Em paralelo ao planejamento para dispositivos, usuários, departamentos e moment
 
 Para ajudar seu esforço em reunir conteúdo de treinamento, você pode acessar um conjunto abrangente de treinamentos cursos em vídeo com orientações passo a passo na biblioteca de produtividade do Microsoft FastTrack.
 
-[Biblioteca de produtividade do Microsoft FastTrack](https://www.microsoft.com/en-us/microsoft-365/success/?rtc=2)
+[Biblioteca de produtividade do Microsoft FastTrack](https://www.microsoft.com/microsoft-365/success/?rtc=2)
 
 Há centenas de tópicos, com base no que é importante para sua organização, incluindo: criar conteúdo mais impactante, compartilhar sites e conteúdo, transformar o trabalho em equipe e desbloquear a produtividade com dispositivos modernos.
 

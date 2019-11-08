@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como migrar arquivos e configurações de usuários.
-ms.openlocfilehash: a35874121c348dff15a0959aa766b405c75b3d65
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 8b9bde4eb1ddf0951a2ab27795dadef9965f6a1c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814562"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031486"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Etapa 4: Migração de arquivos e configurações de usuários.
 
@@ -51,7 +51,7 @@ Se optar por uma migração manual, você poderá precisar avaliar se conseguir�
 
 ## <a name="automated-migration-using-usmt"></a>Migração automatizada usando USMT 
 
-Para implantações em grande escala, você pode automatizar grande parte do processo usando ferramentas de automação de implantação baseadas em sequências de tarefas, como o Gerenciador de Configurações da Central do Sistema ou o Kit de Implantação da Microsoft (MDT). Estas duas soluções usam a Ferramenta de Migração de Estados de Usuários (USMT) como parte de seu processo de implantação de ponta a ponta. A USMT é parte do [Kit de Avaliação e Implantação do Windows (Windows ADK)](https://docs.microsoft.com/pt-BR/windows-hardware/get-started/adk-install)
+Para implantações em grande escala, você pode automatizar grande parte do processo usando ferramentas de automação de implantação baseadas em sequências de tarefas, como o Gerenciador de Configurações da Central do Sistema ou o Kit de Implantação da Microsoft (MDT). Estas duas soluções usam a Ferramenta de Migração de Estados de Usuários (USMT) como parte de seu processo de implantação de ponta a ponta. A USMT é parte do [Kit de Avaliação e Implantação do Windows (Windows ADK)](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
 
 A USMT captura contas e arquivos de usuários, configurações do sistema operacional e configurações de aplicativos, e depois os migra para uma nova instalação do Windows. Ela também confere ao Administrador de TI o controle exato do que será migrado e, opcionalmente, pode excluir tipos de arquivos indesejados - por exemplo, arquivos de áudio e vídeo ou executáveis.
 
@@ -59,31 +59,31 @@ Durante o processo de migração, você precisará ter uma capacidade suficiente
 
 Onde você estiver executando uma atualização do PC e não reformatando a partição principal do Windows, também terá a opção de usar um depósito de migração de link físico com USMT. Este processo preserva o estado do usuário no PC enquanto os antigos sistema operacional e aplicativos são removidos e atualizados. Com o processo de restauração vindo da mesma partição local, esta opção oferece melhorias significativas de desempenho e reduz o tráfego de rede.
 
-[Visão geral da Ferramenta de Migração de Estados de Usuários (USMT)](https://docs.microsoft.com/pt-BR/windows/deployment/usmt/usmt-overview)
+[Visão geral da Ferramenta de Migração de Estados de Usuários (USMT)](https://docs.microsoft.com/windows/deployment/usmt/usmt-overview)
 
 ## <a name="onedrive-known-folder-move"></a>Movimentação de pastas conhecidas no OneDrive
 
 Se seus usuários estão no OneDrive e você está adicionando o OneDrive como parte desta implantação, há uma nova opção disponível para você. Usando a nuvem para sincronizar arquivos de usuários, o recurso “Movimentação de Pastas Conhecidas” do OneDrive proporciona um nível de flexibilidade que não é possível com as opções de migração de arquivos baseadas na rede local. Se habilitada antes da migração, ela fornece acesso seguro nos PCs novos e atualizados e elimina a necessidade de criar depósitos temporários de migração em seus próprios servidores. Também tem o potencial de ser completamente transparente para o usuário.
 
-[Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/pt-BR/onedrive/redirect-known-folders)
+[Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)
 
-Se você já está usando o OneDrive, sabe que os usuários podem escolher as pastas e locais que desejam sincronizar no OneDrive ou SharePoint com seu dispositivo, mas na verdade isso impõe a carga da configuração ao usuário. Com a Movimentação de Pastas Conhecidas, você pode direcionar as pastas Documentos, Área de Trabalho e Imagens dentro de um perfil de usuário e protegê-las todas no OneDrive. Um usuário consegue fazer isso por si próprio ou, o que é importante nesse cenário, você pode [executar isso usando as configurações de Política de Grupo](https://docs.microsoft.com/en-us/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c).
+Se você já está usando o OneDrive, sabe que os usuários podem escolher as pastas e locais que desejam sincronizar no OneDrive ou SharePoint com seu dispositivo, mas na verdade isso impõe a carga da configuração ao usuário. Com a Movimentação de Pastas Conhecidas, você pode direcionar as pastas Documentos, Área de Trabalho e Imagens dentro de um perfil de usuário e protegê-las todas no OneDrive. Um usuário consegue fazer isso por si próprio ou, o que é importante nesse cenário, você pode [executar isso usando as configurações de Política de Grupo](https://docs.microsoft.com/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c).
 
 Com a Movimentação de Pastas Conhecidas, os usuários não alteram seu fluxo de trabalho - tudo parece igual antes, durante e depois da conclusão da sincronização com o OneDrive. Através da Política de Grupo, você até pode escolher se quer ou não notificar os usuários de que seus documentos, imagens e área de trabalho estão protegidos no OneDrive. Se preferir não fazê-lo, tudo acontecerá silenciosamente no plano de fundo. Os usuários só saberão quando receberem novos PCs ou quando seus PCs forem atualizados. Assim que entrarem em suas novas contas do OneDrive, estes arquivos estarão disponíveis novamente e serão restaurados em seus novos PCs. E é claro que o OneDrive garante que eles também terão seus arquivos seguramente a qualquer momento em seus telefones e em outros dispositivos.
 
 A autenticação para o OneDrive é fornecida pelo Azure Active Directory, de modo que, para uma segurança adicional, você pode facilmente habilitar a autenticação multifatorial e definir políticas para controlar a largura de banda de carregamento e download que o OneDrive usa para limitar a atividade de rede.
 
-Você não precisa migrar todos os usuários ao mesmo tempo. É possível que você dividir a implantação das configurações de Política de Grupo em fazes ou [limitar a sincronização de arquivos a PCs do domínio](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps).
+Você não precisa migrar todos os usuários ao mesmo tempo. É possível que você dividir a implantação das configurações de Política de Grupo em fazes ou [limitar a sincronização de arquivos a PCs do domínio](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps).
 
 ## <a name="start-menu-and-task-bar-customization"></a>Menu Iniciar e personalização da barra de tarefas
 
-O OneDrive foi projetado para sincronizar e proteger arquivos e pastas. ele não sincroniza aplicativos ou configurações do Windows. Para fazer isso no passado, você deve ter usado o método de perfil de cópia para configurar layouts padrão para os menus Iniciar e configurações da barra de tarefas dos usuários. No Windows 10 Pro, Enterprise e Education, você pode usar a Política de Grupo, MDM, PowerShell ou fornecer pacotes para implantar o [menu Iniciar e layouts da barra de tarefas personalizados](https://docs.microsoft.com/pt-BR/windows/configuration/windows-10-start-layout-options-and-policies). Não é necessário refazer imagens e o layout pode ser atualizado simplesmente sobrescrevendo o arquivo .xml que o contém.
+O OneDrive foi projetado para sincronizar e proteger arquivos e pastas. ele não sincroniza aplicativos ou configurações do Windows. Para fazer isso no passado, você deve ter usado o método de perfil de cópia para configurar layouts padrão para os menus Iniciar e configurações da barra de tarefas dos usuários. No Windows 10 Pro, Enterprise e Education, você pode usar a Política de Grupo, MDM, PowerShell ou fornecer pacotes para implantar o [menu Iniciar e layouts da barra de tarefas personalizados](https://docs.microsoft.com/windows/configuration/windows-10-start-layout-options-and-policies). Não é necessário refazer imagens e o layout pode ser atualizado simplesmente sobrescrevendo o arquivo .xml que o contém.
 
-Para criar um novo layout, simplesmente configure um sistema de amostras e use o cmdlet [Export-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/export-startlayout?view=win10-ps) do PowerShell para gerar um arquivo XML, e depois coloque este arquivo em um compartilhamento de rede ou o distribua localmente como parte de sua sequência de implantação; ele só precisa estar acessível como arquivo de Somente leitura quando o usuário entrar. Então, você pode usar a política ou o cmdlet [Import-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/import-startlayout?view=win10-ps) para referenciar este arquivo.
+Para criar um novo layout, simplesmente configure um sistema de amostras e use o cmdlet [Export-StartLayout](https://docs.microsoft.com/powershell/module/startlayout/export-startlayout?view=win10-ps) do PowerShell para gerar um arquivo XML, e depois coloque este arquivo em um compartilhamento de rede ou o distribua localmente como parte de sua sequência de implantação; ele só precisa estar acessível como arquivo de Somente leitura quando o usuário entrar. Então, você pode usar a política ou o cmdlet [Import-StartLayout](https://docs.microsoft.com/powershell/module/startlayout/import-startlayout?view=win10-ps) para referenciar este arquivo.
 
 ## <a name="removing-unwanted-in-box-apps"></a>Remoção de aplicativos indesejados de caixa de entrada
 
-O Windows 10 inclui muitos aplicativos internos úteis como parte da instalação padrão, mas você pode preferir remover alguns deles de seus PCs gerenciados e até configurar sua instalação de modo a impedir que esses aplicativos retornem, por exemplo, XBOX ou Zune Music. Você pode recuperar uma lista desses aplicativos suando os comando do [PowerShell Get-AppxPackage](https://technet.microsoft.com/pt-BR/library/hh856044.aspx) e remover os que você não deseja usando o comando [Remove-AppxPackage](https://technet.microsoft.com/pt-BR/library/hh856038.aspx). Como alternativa, você pode montar o arquivo Windows Image (.img) off line antes da implantação e extrair pacotes que não deseja usar usando a ferramenta de linha de comando [Gerenciamento e Manutenção de Imagens de Implantação (DISM)](https://docs.microsoft.com/pt-BR/windows-hardware/manufacture/desktop/what-is-dism) e o comando [Remove-AppxProvisionedPackage](https://docs.microsoft.com/en-us/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps).
+O Windows 10 inclui muitos aplicativos internos úteis como parte da instalação padrão, mas você pode preferir remover alguns deles de seus PCs gerenciados e até configurar sua instalação de modo a impedir que esses aplicativos retornem, por exemplo, XBOX ou Zune Music. Você pode recuperar uma lista desses aplicativos suando os comando do [PowerShell Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx) e remover os que você não deseja usando o comando [Remove-AppxPackage](https://technet.microsoft.com/library/hh856038.aspx). Como alternativa, você pode montar o arquivo Windows Image (.img) off line antes da implantação e extrair pacotes que não deseja usar usando a ferramenta de linha de comando [Gerenciamento e Manutenção de Imagens de Implantação (DISM)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism) e o comando [Remove-AppxProvisionedPackage](https://docs.microsoft.com/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps).
 
 ## <a name="next-step"></a>Próxima etapa
 

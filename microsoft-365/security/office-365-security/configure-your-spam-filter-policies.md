@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: fb46e735c4fae73565b6fe008d47a3e7ffd3f4cb
-ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
+ms.openlocfilehash: dd9385139e869fde094249d2dce014aa19056418
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510558"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032416"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -32,7 +32,7 @@ As configurações de filtro de spam incluem a seleção da ação a ser realiza
 
 Tempo estimado para conclusão: 30 minutos
   
-Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
 
 As configurações da política de filtro de spam estão todas no SCC (Centro de conformidade e segurança). Para obter mais informações, [Acesse o Centro de conformidade e segurança do Office 365](../../compliance/go-to-the-securitycompliance-center.md). A página de configurações de antispam está dentro da seção do SCC \> **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
@@ -104,15 +104,15 @@ A política padrão não pode ser desabilitada ou excluída e as políticas pers
 
 Você também pode configurar e aplicar políticas de filtro de conteúdo no PowerShell. Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554). Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
   
-- [Get-HostedContentFilterPolicy](http://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) Exibir suas configurações de filtro de spam. 
+- [Get-HostedContentFilterPolicy](https://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) Exibir suas configurações de filtro de spam. 
     
-- [Set-HostedContentFilterPolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) Editar suas configurações de filtro de spam. 
+- [Set-HostedContentFilterPolicy](https://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) Editar suas configurações de filtro de spam. 
     
-- [New-HostedContentFilterPolicy](http://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) Criar uma nova política personalizada de filtro de spam. 
+- [New-HostedContentFilterPolicy](https://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) Criar uma nova política personalizada de filtro de spam. 
     
-- [Remove-HostedContentFilterPolicy](http://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) Excluir uma política personalizada de filtro de spam. 
+- [Remove-HostedContentFilterPolicy](https://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) Excluir uma política personalizada de filtro de spam. 
     
-Para aplicar uma política personalizada de filtro de spam a usuários, grupos e/ou domínios, use o cmdlet do [New-HostedContentFilterRule](http://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) (para criar uma nova regra de filtragem que possa ser aplicada a políticas personalizadas) ou o cmdlet [Set-HostedContentFilterRule](http://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) (para editar uma regra de filtro existente que possa ser aplicada a políticas personalizadas). Para habilitar ou desabilitar a regra aplicada à política, use o cmdlet [Enable-HostedContentFilterRule](http://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) ou o cmdlet do [Disable-HostedContentFilterRule](http://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx). 
+Para aplicar uma política personalizada de filtro de spam a usuários, grupos e/ou domínios, use o cmdlet do [New-HostedContentFilterRule](https://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) (para criar uma nova regra de filtragem que possa ser aplicada a políticas personalizadas) ou o cmdlet [Set-HostedContentFilterRule](https://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) (para editar uma regra de filtro existente que possa ser aplicada a políticas personalizadas). Para habilitar ou desabilitar a regra aplicada à política, use o cmdlet [Enable-HostedContentFilterRule](https://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) ou o cmdlet do [Disable-HostedContentFilterRule](https://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx). 
   
 ## <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 

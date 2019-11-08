@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 045f0e0fd2375c4342896668f69ce1305f4a1d43
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b8d6ae3a6721a3563cc68fcec9dd7f9d470bb31e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981692"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031106"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
@@ -26,7 +26,7 @@ Baixáveis e práticos, estes laboratórios se concentram na implantação do Wi
 
 Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda de Implementação do Desktop, abrangendo o System Center Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
-Como parte do processo de [Implantação de Desktop](http://www.aka.ms/howtoshift) do Windows 10 e do Office 365 ProPlus, a criação de um ambiente de laboratório isolado ou em área restrita é o ponto de partida recomendado quando você começa a explorar as atualizações da ferramenta de implantação e a testar sua automação relacionada à implantação.
+Como parte do processo de [Implantação de Desktop](https://www.aka.ms/howtoshift) do Windows 10 e do Office 365 ProPlus, a criação de um ambiente de laboratório isolado ou em área restrita é o ponto de partida recomendado quando você começa a explorar as atualizações da ferramenta de implantação e a testar sua automação relacionada à implantação.
 
 O kit de laboratório é gratuito para baixar e usa um software de avaliação.
 
@@ -122,11 +122,11 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ## <a name="additional-guidance"></a>**Orientações adicionais**
 
-  - [Centro de Implantação do Computador](http://www.aka.ms/howtoshift)
+  - [Centro de Implantação do Computador](https://www.aka.ms/howtoshift)
 
-  - [Vídeos da série Implantação do Computador do Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
+  - [Vídeos da série Implantação do Computador do Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 
-  - [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Plano de implantação do Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

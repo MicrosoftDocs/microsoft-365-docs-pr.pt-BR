@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.'
-ms.openlocfilehash: 6cf9fb03c66f1cf4d1f20287f5dc121474898d5b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ca72ee800287bf8a90fe45f4aaa1de3400cb71e1
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073199"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038880"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
@@ -134,7 +134,7 @@ Primeiro, conecte-se ao módulo [PowerShell do Azure Active Directory para Graph
   
 Em seguida, preencha o nome de sua organização, o local e uma senha comum e, em seguida, execute esses comandos desde o prompt de comando do PowerShell ou Ambiente de Script Integrado (ISE):
   
-```
+```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
 $commonPassword="<common password for all the new accounts>"
@@ -169,31 +169,31 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 Use estas etapas para verificar se a associação de grupo dinâmico e o licenciamento com base em grupo estão funcionando corretamente.
   
 1. Na guia **Microsoft Office Home** do navegador, clique no bloco **Administração**.
-    
+
 2. Na nova guia **Centro de administração do Microsoft 365** do seu navegador, clique em **Usuários**.
-    
+
 3. Na lista de usuários, clique em **Candidato**.
-    
+
 4. No painel que lista as propriedades da conta de usuário **Candidato**, verifique se:
-    
+
   - É um membro do grupo **Equipe estratégica e sênior** (em **Associações de grupo**).
-    
+
   - Foram-lhe atribuídas as licenças do **Enterprise Mobility + Security E5** e do **Office 365 Enterprise E5** (nas **Licenças de produto**).
-    
+
 5. Feche o painel da conta de usuário do **Candidato**.
-    
+
 ## <a name="record-values-for-future-reference"></a>Valores de registro para referência futura
 
 Grave esses valores para trabalhar com as assinaturas de avaliação do Office 365 e do EMS para o ambiente de desenvolvimento/de teste:
   
 - Nome da sua organização de assinatura de avaliação: ![](../media/Common-Images/TableLine.png) 
-    
+
     Por exemplo, para o nome de domínio de assinatura de avaliação contoso.onmicrosoft.com, o nome da organização é "contoso".
-    
+
 - O nome de administrador global do Office 365: ![](../media/Common-Images/TableLine.png).onmicrosoft.com
-    
+
     Grave a senha dessa conta e a senha inicial comum das outras contas de usuário em um local seguro.
-    
+
 ## <a name="next-step"></a>Próxima etapa
 
 Criar os quatro diferentes tipos de sites de equipe do SharePoint Online neste ambiente de desenvolvimento/de teste com [Criar sites de equipe em um ambiente de desenvolvimento/de teste de campanha política](create-team-sites-in-a-political-campaign-dev-test-environment.md).
@@ -207,7 +207,3 @@ Criar os quatro diferentes tipos de sites de equipe do SharePoint Online neste a
 [Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
   
 [Adoção da nuvem e de soluções híbridas](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

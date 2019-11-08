@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como entregar aplicativos do Office e LOB.
-ms.openlocfilehash: 15a3b1730f5e2a62f067f7615d873ad34fa18d9e
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: fdb16aa9d92e3fd2608ca3738dc5af80389f18ea
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814602"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031526"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Etapa 3: Entrega de aplicativos do Office e LOB
 
@@ -43,7 +43,7 @@ Se nada estiver impedindo você, recomendamos a implantação de versões de 64 
 
 Há muitos métodos e modelos para instalar aplicativos no Windows, portanto, vamos analisar suas opções de entrega.
 
-[Gerenciamento de aplicativos do Windows 10](https://docs.microsoft.com/pt-BR/windows/application-management/)
+[Gerenciamento de aplicativos do Windows 10](https://docs.microsoft.com/windows/application-management/)
 
 ## <a name="msi-based-deployments"></a>Implantações baseadas em MSI
 
@@ -61,15 +61,15 @@ Outro método popular de entrega de aplicativos é a geração de imagens do com
 
 Se você quiser incluir o Office 365 ProPlus na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para pré-instalar o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais do Office 365 e ativar o Office 365 ProPlus.
 
-[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/pt-BR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/pt-BR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Clique para Executar no Office 
 
 O Office 365 ProPlus é instalado usando a tecnologia Clique para Executar; ela substitui o pacote baseado em MSI em todas as versões de lançamento do futuro Office 2019 para Windows. Esse recurso apresenta diversas vantagens, incluindo instalações mais rápidas, atualizações mais eficientes e ágeis e desinstalações mais limpas. 
 
-Os programas instalados por meio da tecnologia Clique para Executar são executados em um ambiente virtual do aplicativo em seu computador e, então, coexistem com outros aplicativos sem conflito; eles também ocupam metade do espaço em disco que ocupariam como um pacote baseado em MSI. Os aplicativos do Office são entregues e gerenciados por meio da [Ferramenta de implantação do Office](https://www.microsoft.com/en-us/download/details.aspx?id=49117) que é o mecanismo de instalação necessário para baixar, configurar e personalizar os aplicativos do Office. A ferramenta de implantação do Office lê um arquivo XML de configuração que fornece instruções de metadados sobre como configurar e personalizar a instalação do Office.
+Os programas instalados por meio da tecnologia Clique para Executar são executados em um ambiente virtual do aplicativo em seu computador e, então, coexistem com outros aplicativos sem conflito; eles também ocupam metade do espaço em disco que ocupariam como um pacote baseado em MSI. Os aplicativos do Office são entregues e gerenciados por meio da [Ferramenta de implantação do Office](https://www.microsoft.com/download/details.aspx?id=49117) que é o mecanismo de instalação necessário para baixar, configurar e personalizar os aplicativos do Office. A ferramenta de implantação do Office lê um arquivo XML de configuração que fornece instruções de metadados sobre como configurar e personalizar a instalação do Office.
 
 A Microsoft recomenda utilizar a [Ferramenta de Personalização do Office](https://config.office.com/) para personalizar as configurações de implantação e criar o arquivo XML de configuração. Por meio da Ferramenta de Personalização do Office é possível definir quais aplicativos e idiomas serão instalados, como os aplicativos serão atualizados, as preferências dos aplicativos e as configurações da experiência de instalação.
 
@@ -79,13 +79,13 @@ Se você usar o System Center Configuration Manager, ainda poderá usá-lo para 
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/deployment-guide-for-office-365-proplus)
+[Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
-[Remover as versões MSI existentes do Office durante a atualização para o Office 365 ProPlus](https://docs.microsoft.com/pt-BR/deployoffice/upgrade-from-msi-version)
+[Remover as versões MSI existentes do Office durante a atualização para o Office 365 ProPlus](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/pt-BR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
-[Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/pt-BR/intune/apps-add-office365)
+[Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
 ## <a name="browser-based-apps"></a>Aplicativos baseados em navegador
 
@@ -93,7 +93,7 @@ Há algumas coisas a serem consideradas para garantir que os aplicativos baseado
 
 Além disso, se você souber que os sites da sua intranet não funcionarão adequadamente no Microsoft Edge, poderá definir todos os sites da intranet para serem abertos usando o Internet Explorer 11 automaticamente. Esse processo usa um arquivo XML para determinar se o IE11 é usado para cada site, usando a Política de Grupo para impor configurações.
 
-[O que é o Modo Empresarial](https://docs.microsoft.com/pt-BR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
+[O que é o Modo Empresarial](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
 
 Por enquanto, abordamos métodos de implantação conhecidos. Mas há duas novas abordagens para a implantação de aplicativos que convém considerar.
 

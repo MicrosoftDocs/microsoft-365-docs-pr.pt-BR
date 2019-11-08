@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Guia de atualização manual do Windows 7 para Windows 10.
-ms.openlocfilehash: f148815a72c9315db2a6d55f7b8433cc9dddf448
-ms.sourcegitcommit: 12c4d5444d6e0e8825fc85e3e8453fa376746495
+ms.openlocfilehash: 13cdb56b52655ed81932601dd3ff97c90c1daad8
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395222"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033676"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Guia passo a passo de atualização manual do Windows 7 para Windows 10
 
@@ -26,7 +26,7 @@ Este artigo descreve o processo de atualização manual de um PC com Windows 7 E
 
 ## <a name="windows-10-upgrades-using-the-media-creation-tool-or-iso-files"></a>O Windows 10 é atualizado usando a ferramenta de criação de mídia ou arquivos ISO
 
-Você pode atualizar para o Windows 10 diretamente usando a [ferramenta de criação de mídia](https://www.microsoft.com/en-us/software-download/windows10ISO) ou usá-la para baixar o Windows 10 como um arquivo ISO. Você deve observar se o seu sistema atual é de 32 ou 64 bits, o idioma padrão do sistema e a edição do Windows 7 (por exemplo, Home, Professional ou Enterprise). No Windows 7, essas informações estão localizadas no sistema do painel de controle \>Sistema e Segurança\>. A ferramenta de criação de mídia não oferece suporte ao Windows 10 Enterprise para atualizações, criação de mídia de instalação ou download de arquivos ISO. O Windows 10 Enterprise é necessário se você estiver atualizando do Windows 7 Enterprise.
+Você pode atualizar para o Windows 10 diretamente usando a [ferramenta de criação de mídia](https://www.microsoft.com/software-download/windows10ISO) ou usá-la para baixar o Windows 10 como um arquivo ISO. Você deve observar se o seu sistema atual é de 32 ou 64 bits, o idioma padrão do sistema e a edição do Windows 7 (por exemplo, Home, Professional ou Enterprise). No Windows 7, essas informações estão localizadas no sistema do painel de controle \>Sistema e Segurança\>. A ferramenta de criação de mídia não oferece suporte ao Windows 10 Enterprise para atualizações, criação de mídia de instalação ou download de arquivos ISO. O Windows 10 Enterprise é necessário se você estiver atualizando do Windows 7 Enterprise.
 
 ![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
 
@@ -108,6 +108,6 @@ A partir daqui, você pode iniciar o processo para voltar para o Windows 7. Depo
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Migrar para o Windows 10 em um novo computador
 
-Outra opção recomendada é mover para o Windows 10 em um novo computador. Se essa for a sua preferência, você pode transferir seus arquivos do computador antigo usando o backup do [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), o [Backup e a Restauração integrados ao Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), o uso manual de um [dispositivo de armazenamento externo](https://support.microsoft.com/en-us/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) ou ferramentas como o [PCmover Express da Laplink](https://www.microsoft.com/en-us/windows/transfer-your-data). Com qualquer uma dessas opções, você ainda precisará reinstalar todos os aplicativos necessários que não estão incluídos no Windows 10. Para saber mais sobre as suas opções para mover-se manualmente de um PC existente com Windows 7 para um novo PC com Windows 10, consulte [Movendo para um PC com Windows 10](https://support.microsoft.com/en-us/help/4229823?ocid=MoveToWindows10) no Suporte do Windows.
+Outra opção recomendada é mover para o Windows 10 em um novo computador. Se essa for a sua preferência, você pode transferir seus arquivos do computador antigo usando o backup do [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), o [Backup e a Restauração integrados ao Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), o uso manual de um [dispositivo de armazenamento externo](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) ou ferramentas como o [PCmover Express da Laplink](https://www.microsoft.com/windows/transfer-your-data). Com qualquer uma dessas opções, você ainda precisará reinstalar todos os aplicativos necessários que não estão incluídos no Windows 10. Para saber mais sobre as suas opções para mover-se manualmente de um PC existente com Windows 7 para um novo PC com Windows 10, consulte [Movendo para um PC com Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) no Suporte do Windows.
 
 ## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[Centro de Implantação do Computador](https://aka.ms/howtoshift)

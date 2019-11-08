@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: 505099607b6c4744af29d00ff04e2535a2c0848e
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: c009a60849390cc9b796a56f66e63d44e12cdc68
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982722"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031556"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -49,7 +49,7 @@ Neste artigo, exploraremos as ferramentas e as opções para preparar seus servi
 
 Se sua organização usa o Office 365, o Exchange Online, o Microsoft Intune ou outros serviços do Microsoft Online, a boa notícia é que você já está usando o Azure Active Directory. Caso já esteja usando, apenas verifique se os usuários aos quais você está direcionando a implantação de desktop estão em seu Azure Active Directory e se as licenças foram atribuídas.
 
-Se atualmente não estiver usando o Azure Active Directory, há [vários recursos](https://docs.microsoft.com/pt-BR/azure/active-directory/) para ajudá-lo a configurá-lo. É possível que você esteja habilitado a receber assistência personalizada por meio do Microsoft FastTrack, como parte da licença do Office 365. Saiba mais sobre o Microsoft Fastrack clicando [aqui](https://fasttrack.microsoft.com).
+Se atualmente não estiver usando o Azure Active Directory, há [vários recursos](https://docs.microsoft.com/azure/active-directory/) para ajudá-lo a configurá-lo. É possível que você esteja habilitado a receber assistência personalizada por meio do Microsoft FastTrack, como parte da licença do Office 365. Saiba mais sobre o Microsoft Fastrack clicando [aqui](https://fasttrack.microsoft.com).
 
 Depois que o Azure Active Directory estiver configurado, os usuários poderão entrar e ativar os aplicativos do Office 365 ProPlus, e você poderá usar a implantação do Microsoft Intune ou do Windows Autopilot para implantação automatizada de aplicativos e políticas.
 
@@ -65,7 +65,7 @@ Para imagens do Windows sem personalização, é preciso planejar normalmente 3G
 
 ### <a name="software-updates"></a>Atualizações de software
 
-Será necessário planejar a largura de banda de rede para as atualizações de software. O Windows 10 e o Office 365 ProPlus usam um novo modelo de manutenção com atualizações mensais e semestrais. Se você estiver começando a usar esse modelo, saiba mais sobre como ele funciona [aqui](https://docs.microsoft.com/pt-BR/windows/deployment/update/waas-overview).
+Será necessário planejar a largura de banda de rede para as atualizações de software. O Windows 10 e o Office 365 ProPlus usam um novo modelo de manutenção com atualizações mensais e semestrais. Se você estiver começando a usar esse modelo, saiba mais sobre como ele funciona [aqui](https://docs.microsoft.com/windows/deployment/update/waas-overview).
 
 O novo modelo de manutenção inclui atualizações de recursos semestrais para o Windows, atualizações de canal semestrais para o Office e atualizações de qualidade mensais. As atualizações de recursos normalmente têm entre 2 e 4 GB, e as atualizações de canal semestrais do Office têm entre 300 e 400 MB por atualização. Então há as atualizações mensais de qualidade. Elas podem ter entre algumas centenas de megabytes e mais de um gigabyte. Isso acontece porque as atualizações mensais são cumulativas, então o tamanho delas aumenta durante o ciclo de vida da manutenção de cada versão do Windows 10. Dito isso, confira as ferramentas que podem reduzir a quantidade de dados que precisam passar pela rede para implementar atualizações. Abordaremos isso em mais detalhes abaixo.
 
@@ -77,7 +77,7 @@ O terceiro componente a considerar é a personalização do usuário. Aqui você
 
 Uma maneira de limitar o impacto do tráfego relacionado a documentos na rede é controlar usando a configuração BITS (Background Intelligent Transfer Service, serviço de transferência inteligente em segundo plano) nos clientes. O BITS usa uma ABR (Adaptive Bit Rate, taxa de bits adaptativa) para ajustar a largura de banda disponível para fins de implantação. Isso pode ser configurado nos clientes usando a Política de Grupo.
 
-[Sobre o BITS](https://docs.microsoft.com/pt-BR/windows/desktop/bits/about-bits)
+[Sobre o BITS](https://docs.microsoft.com/windows/desktop/bits/about-bits)
 
 Se usar o System Center Configuration Manager (Branch Atual), também poderá configurar os Pontos de Distribuição prontos para BITS ou habilitar o multicast com WDS.
 
@@ -119,7 +119,7 @@ Além de aprimorar a Otimização de Entrega, veja a seguir três itens que ajud
 
 **Compactação delta binária** O Office 365 ProPlus usa a compactação delta binária para reduzir a largura de banda consumida pelas atualizações de software ao atualizar da versão mais recente do Office 365 ProPlus para a nova versão. Ao obter apenas as alterações de nível binário da versão anterior, o impacto do crescimento mensal de atualizações cumulativas é minimizado. Isso tem o potencial para economizar diversas centenas de dados, por PC, a cada mês. Para usar esse recurso, não é possível pular versões. Se fizer isso, a atualização cumulativa completa deverá ser baixada.
 
-[Baixar as atualizações do Office 365](https://docs.microsoft.com/pt-BR/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
+[Baixar as atualizações do Office 365](https://docs.microsoft.com/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
 **Arquivos de Dados do Outlook** O Outlook geralmente está configurado para armazenar localmente em cache toda a caixa de correio do usuário para uso offline. Em qualquer implantação do Windows, exceto em uma atualização in-loco, são necessários os Arquivos de dados do Outlook dos usuários para recriá-los por conta própria após a atualização. Este é um processo automatizado, mas com limites de caixas de correio do Outlook normalmente definidos em até 100 GB, um novo armazenamento local em cache de toda a caixa de correio de todos os usuários indica muita transferência de dados. Para reduzir a carga da rede, considere a possibilidade de usar a Política de Grupo para reduzir a configuração de “Email para manter offline”. No Office 365 ProPlus ou Office 2016, o valor padrão para o Outlook está definido como 12 meses. Para reduzir o impacto na rede, considere configurar o cache offline para ter uma duração entre 1 a 6 meses. Alterar essa configuração não afetará o tamanho da caixa de correio online, e toda a caixa de correio ainda pode ser pesquisada pelo Outlook quando estiver online.
 
@@ -131,7 +131,7 @@ Além de aprimorar a Otimização de Entrega, veja a seguir três itens que ajud
 
 [Movimentação de pastas conhecidas da instalação](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 
-[Arquivos do OneDrive sob demanda](https://www.microsoft.com/pt-BR/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
+[Arquivos do OneDrive sob demanda](https://www.microsoft.com/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
 Se você ainda não implementou o OneDrive, a mudança do Windows 7 para o Windows 10 é a oportunidade perfeita para habilitar o OneDrive, que se integra facilmente ao Office 365 ProPlus. Considere iniciar essa implementação enquanto estiver trabalhando na preparação dos aplicativos e dispositivos. Isso iniciará a sincronização de arquivos antes de começar a mover as imagens do Windows e a implantar os aplicativos em sua rede.
 

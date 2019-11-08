@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 6fc22ad7ae8b0a34384818bc77813c6802609b89
-ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
+ms.openlocfilehash: 4d1601c23d160d5618d491cd168583c78b54181c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35584507"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033626"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
@@ -40,11 +40,11 @@ As atualizações in-loco para o Windows 10 são uma abordagem confiável para m
 
 O processo de atualização, por padrão, faz backup da instalação anterior do Windows, como parte da atualização, para que, no caso de uma falha de atualização, ou se um dispositivo ou aplicativo não funcionar corretamente após a atualização, o computador possa ser revertido para o Windows 7. Os computadores atualizados por padrão têm 10 dias, para que você possa iniciar manualmente uma reversão para o Windows 7, se necessário.
 
-As atualizações in-loco podem ser automatizadas usando as ferramentas de implantação do sistema operacional como o [System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) ou o [Kit de Ferramentas de Implantação da Microsoft](https://docs.microsoft.com/en-us/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). Este artigo destaca as abordagens e otimizações automatizadas juntamente com links para recursos relacionados para obter ajuda adicional.
+As atualizações in-loco podem ser automatizadas usando as ferramentas de implantação do sistema operacional como o [System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) ou o [Kit de Ferramentas de Implantação da Microsoft](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). Este artigo destaca as abordagens e otimizações automatizadas juntamente com links para recursos relacionados para obter ajuda adicional.
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Atualizar um pequeno número de computadores
 
-No caso de um único computador ou de vários computadores, a abordagem manual da atualização geralmente é a melhor opção em comparação com abordagens mais automatizadas. Você pode encontrar o software e as licenças necessárias na [Microsoft Store](http://go.microsoft.com/fwlink/p/?LinkId=808282), outros revendedores de software ou no  [Centro de Atendimento de Licenciamento por Volume](https://www.microsoft.com/licensing/servicecenter/default.aspx), caso tenha um licenciamento por volume. Para obter instruções detalhadas sobre como atualizar um único PC para o Windows 10, bem como as opções de restauração pós-atualização, confira o [Guia passo a passo de atualização manual do Windows 7 para Windows 10](https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
+No caso de um único computador ou de vários computadores, a abordagem manual da atualização geralmente é a melhor opção em comparação com abordagens mais automatizadas. Você pode encontrar o software e as licenças necessárias na [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), outros revendedores de software ou no  [Centro de Atendimento de Licenciamento por Volume](https://www.microsoft.com/licensing/servicecenter/default.aspx), caso tenha um licenciamento por volume. Para obter instruções detalhadas sobre como atualizar um único PC para o Windows 10, bem como as opções de restauração pós-atualização, confira o [Guia passo a passo de atualização manual do Windows 7 para Windows 10](https://docs.microsoft.com/pt-BR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
 
 ## <a name="how-to-upgrade-many-computers"></a>Como atualizar muitos computadores
 
@@ -52,7 +52,7 @@ Se você gerencia dezenas ou milhares de computadores, a melhor opção é execu
 
 Isso significa que você pode ignorar a disponibilidade do diretório ou as tarefas associadas ao Azure Active Directory, ao Office e à distribuição de aplicativos de linha de negócios e a migração de arquivos do usuário, pois esses aspectos são mantidos como parte da atualização, e a segurança deve ser levada adiante. Essas áreas podem ser melhoradas ao mesmo tempo.
 
-As opções de implantação de atualização são abordadas na [Implantação de SO e atualizações de recursos](http://www.aka.ms/mdd6) e embora você possa criar facilmente soluções com script que executem a configuração do Windows 10 de maneira automatizada com interação mínima ou sem administração, uma sequência de tarefas fornecerá um controle mais granular para:
+As opções de implantação de atualização são abordadas na [Implantação de SO e atualizações de recursos](https://www.aka.ms/mdd6) e embora você possa criar facilmente soluções com script que executem a configuração do Windows 10 de maneira automatizada com interação mínima ou sem administração, uma sequência de tarefas fornecerá um controle mais granular para:
 
   - Executar verificações de pré-implantação,
 
@@ -78,13 +78,13 @@ Os motivos mais comuns pelos quais as atualizações podem não ser concluídas 
 
   - Soluções de código de baixo nível, como anti-malware, VPN ou virtualização
 
-Os modelos de [atualização de sequência de tarefas](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) está incorporada ao Branch atual do System Center Configuration Manager e está disponível para várias versões. Em versões recentes, há melhorias significativas de tecnologia no System Center Configuration Manager que tornam o processo ainda mais eficiente para determinar a compatibilidade de dispositivos e do Office, reduzindo o tráfego de rede e configurando novas opções como o backup do OneDrive. Assista a esta [ apresentação mecânica da Microsoft](https://youtu.be/CYRnAmCD7ls) para saber mais sobre as atualizações recentes para a implantação do sistema operacional do System Center Configuration Manager.
+Os modelos de [atualização de sequência de tarefas](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) está incorporada ao Branch atual do System Center Configuration Manager e está disponível para várias versões. Em versões recentes, há melhorias significativas de tecnologia no System Center Configuration Manager que tornam o processo ainda mais eficiente para determinar a compatibilidade de dispositivos e do Office, reduzindo o tráfego de rede e configurando novas opções como o backup do OneDrive. Assista a esta [ apresentação mecânica da Microsoft](https://youtu.be/CYRnAmCD7ls) para saber mais sobre as atualizações recentes para a implantação do sistema operacional do System Center Configuration Manager.
 
 Caso não use o System Center Configuration Manager, você pode usar o kit de ferramentas de implantação da Microsoft para criar e executar a atualização de sequências de tarefas de implantação.
 
 ## <a name="pre-cache-task-sequence-upgrades"></a>Atualizações de sequência de tarefas anteriores ao cache
 
-A [opção de cache anterior](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) para o Configuration Manager permite que os clientes baixem o conteúdo do pacote de atualização do sistema operacional antes da sequência de tarefas atualizar o sistema operacional. Anteriormente, iniciar a sequência de tarefas iniciaria o download do conteúdo do pacote. O conteúdo anterior ao cache também oferece a opção de baixar o pacote de atualização do SO aplicável e todo o conteúdo mencionado assim que ele recebe a implantação.
+A [opção de cache anterior](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) para o Configuration Manager permite que os clientes baixem o conteúdo do pacote de atualização do sistema operacional antes da sequência de tarefas atualizar o sistema operacional. Anteriormente, iniciar a sequência de tarefas iniciaria o download do conteúdo do pacote. O conteúdo anterior ao cache também oferece a opção de baixar o pacote de atualização do SO aplicável e todo o conteúdo mencionado assim que ele recebe a implantação.
 
 Sequências de tarefas anteriores ao cache combinadas com verificações de compatibilidade
 

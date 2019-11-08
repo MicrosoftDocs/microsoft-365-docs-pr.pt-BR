@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: e863a7fe580bdd6c60ba6f28d3fbf2df010e9384
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7b793d3244343111f1894ff8aae77c2d6ea8f4f3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072935"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034282"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -115,7 +115,7 @@ A Microsoft diferencia dois tipos de mensagens de falsificação:
   
  **Falsificação dentro da organização**
   
-Também conhecida como falsificação self-to-self, ocorre quando o domínio no endereço De: é igual ou está alinhado ao domínio do destinatário (quando o domínio do destinatário é um dos [Domínios Aceitos](https://technet.microsoft.com/pt-BR/library/jj945194%28v=exchg.150%29.aspx) de sua organização) ou quando o domínio no endereço De: faz parte da mesma organização.
+Também conhecida como falsificação self-to-self, ocorre quando o domínio no endereço De: é igual ou está alinhado ao domínio do destinatário (quando o domínio do destinatário é um dos [Domínios Aceitos](https://technet.microsoft.com/library/jj945194%28v=exchg.150%29.aspx) de sua organização) ou quando o domínio no endereço De: faz parte da mesma organização.
   
 O exemplo a seguir tem remetente e destinatário do mesmo domínio (contoso.com). Espaços são inseridos no endereço de email para evitar a coleta de spambot na página):
   
@@ -654,7 +654,7 @@ A tecnologia antifalsificação da Microsoft foi implantada inicialmente nas org
   
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
-Você pode usar o [Suplemento para Relatar Mensagens para o Outlook](https://support.office.com/article/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2) ou, se não estiver instalado, [Enviar mensagens de spam, não spam e de phishing à Microsoft para análise](https://technet.microsoft.com/pt-BR/library/jj200769%28v=exchg.150%29.aspx).
+Você pode usar o [Suplemento para Relatar Mensagens para o Outlook](https://support.office.com/article/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2) ou, se não estiver instalado, [Enviar mensagens de spam, não spam e de phishing à Microsoft para análise](https://technet.microsoft.com/library/jj200769%28v=exchg.150%29.aspx).
   
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>Sou um administrador de domínio que não sabe quem são todos os meus remetentes!
 

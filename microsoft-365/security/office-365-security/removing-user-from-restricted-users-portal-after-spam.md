@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: Se um usuário que continuamente envia emails do Office 365 é classificado como spam, ele será impedido de enviar qualquer outra mensagem de email.
-ms.openlocfilehash: d0409a16a8584e7561f04a30fcc4184bfa41d87c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4abb37bbda20d17b19144d6f62b4ef1a4fc8fb4c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073338"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032156"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam
 
@@ -34,7 +34,7 @@ Se um usuário enviar emails continuamente classificados como spam do Office 365
 
 Tempo estimado para conclusão: 5 minutos
   
-Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
 
 O procedimento a seguir também pode ser realizado pelo PowerShell remoto. Use o cmdlet Get-BlockedSenderAddress para obter a lista de usuários restritos e remover-BlockedSenderAddress para remover a restrição. Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
@@ -81,10 +81,10 @@ Os comandos do PowerShell para usuários restritos são:
 
 [Responder a uma conta de email comprometida](../../compliance/responding-to-a-compromised-email-account.md)
 
-[Entender o usuário restrito de enviar alerta de emails](https://docs.microsoft.com/pt-BR/office365/securitycompliance/alert-policies)
+[Entender o usuário restrito de enviar alerta de emails](https://docs.microsoft.com/office365/securitycompliance/alert-policies)
 
 [Pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md)
 
 [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md)
 
-[Políticas de alerta no Centro de Conformidade e Segurança](https://docs.microsoft.com/pt-BR/office365/securitycompliance/alert-policies)
+[Políticas de alerta no Centro de Conformidade e Segurança](https://docs.microsoft.com/office365/securitycompliance/alert-policies)

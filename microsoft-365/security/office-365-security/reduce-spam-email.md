@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Aprenda as maneiras mais comuns de reduzir spam e lixo eletrônico no Office 365.
-ms.openlocfilehash: 759d56862497444c27d0cc0f081731a3581337bd
-ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
+ms.openlocfilehash: 5d915759766b122457553a24d2f92f67c3093b34
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428422"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031816"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Como reduzir emails de spam no Office 365
 
@@ -45,13 +45,13 @@ Para evitar que você receba muito spam, a Proteção do Exchange Online (EOP) e
 
 - **Aponte os registros DNS para o Office 365** Para que a Proteção do Exchange Online forneça a proteção ideal, os registros DNS do servidor de mensagens (MX) de todos os domínios devem ser apontados para o Office 365 e somente para ele. Confira [Criar registros DNS para o Office 365 ao gerenciar os registros DNS](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23).
     
-- **Habilitar a regra de lixo eletrônico em todas as caixas de correio** Por padrão, a ação de filtragem de spam é definida como **Mover mensagem para a pasta Lixo eletrônico**. Se esta for a ação de política de spam preferida e atual, toda caixa de correio [também deverá ter a regra de lixo eletrônico habilitada](https://support.office.com/pt-BR/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). Para verificar isso, você pode executar o cmdlet Get-MailboxJunkEmailConfiguration em uma ou mais caixas de correio. Por exemplo, você pode verificar se isso se aplica a todas as caixas de correio executando o seguinte: Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}
+- **Habilitar a regra de lixo eletrônico em todas as caixas de correio** Por padrão, a ação de filtragem de spam é definida como **Mover mensagem para a pasta Lixo eletrônico**. Se esta for a ação de política de spam preferida e atual, toda caixa de correio [também deverá ter a regra de lixo eletrônico habilitada](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). Para verificar isso, você pode executar o cmdlet Get-MailboxJunkEmailConfiguration em uma ou mais caixas de correio. Por exemplo, você pode verificar se isso se aplica a todas as caixas de correio executando o seguinte: Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}
     
     Ao visualizar a saída, a propriedade Habilitar deve ser definida como Verdadeiro. Se estiver definida como Falso, você poderá executar Set-MailboxJunkEmailConfiguration para alterá-la para Verdadeiro da seguinte forma: Set-MailboxJunkEmailConfiguration -Identity $values.UserPrincipalName -Enabled $true.
     
 - **Criar regras de fluxo de email no servidor Exchange no local** Se você estiver usando a Proteção do Exchange Online, mas suas caixas de correio estiverem localizadas no Exchange Server Local, você precisará criar algumas regras de fluxo de emails no Exchange Server Local. Confira as [instruções para somente EOP](https://docs.microsoft.com/previous-versions/exchange-server/exchange-150/jj900470(v=exchg.150)).
     
-- **Marcar emails em massa como spam** Emails em massa são emails de serviços nos quais os usuários podem ter se inscrito, mas que ainda assim podem ser indesejados. No cabeçalho da mensagem, localize a propriedade BCL (Nível de confiança em massa) no cabeçalho X-Microsoft-Antispam. Se o valor de BCL for menor que o limite definido no filtro de spam, ajuste o limite para marcar esses tipos de mensagens em massa como spam. Usuários diferentes têm tolerâncias e preferências diferentes para [como o email em massa é tratado](https://docs.microsoft.com/pt-BR/office365/SecurityCompliance/bulk-complaint-level-values). Você pode criar regras ou políticas diferentes para atender a diferentes preferências do usuário. 
+- **Marcar emails em massa como spam** Emails em massa são emails de serviços nos quais os usuários podem ter se inscrito, mas que ainda assim podem ser indesejados. No cabeçalho da mensagem, localize a propriedade BCL (Nível de confiança em massa) no cabeçalho X-Microsoft-Antispam. Se o valor de BCL for menor que o limite definido no filtro de spam, ajuste o limite para marcar esses tipos de mensagens em massa como spam. Usuários diferentes têm tolerâncias e preferências diferentes para [como o email em massa é tratado](https://docs.microsoft.com/office365/SecurityCompliance/bulk-complaint-level-values). Você pode criar regras ou políticas diferentes para atender a diferentes preferências do usuário. 
     
 - **Bloquear um remetente imediatamente** Caso você precise bloquear imediatamente um remetente, poderá fazê-lo pelo endereço de email, domínio ou endereço IP. Confira [Criar listas de bloqueio de remetentes no Office 365](create-block-sender-lists-in-office-365.md). Uma entrada em uma lista de permissão de usuário final pode substituir um bloqueio definido pelo administrador.
     

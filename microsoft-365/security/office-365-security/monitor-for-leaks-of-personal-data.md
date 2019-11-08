@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 51e681d751e9d36872a47fcde1390c3dda8a2184
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b4ca34f3446a0067c6497d844e5b79a78d0eb35e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073625"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032236"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -59,7 +59,7 @@ Além disso, você pode usar os relatórios de DLP para ajustar suas políticas 
 
 Os relatórios DLP estão no centro de segurança e o no centro de conformidade. Navegue até Relatórios \> Exibir relatórios. Em prevenção de perda de dados (DLP), vá para correspondências de políticas e regras DLP ou substituições e falsos positivos DLP.
 
-Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://support.office.com/pt-BR/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
+Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://support.office.com/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
 
 ![Relatório mostrando correspondências de política DLP](../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -77,21 +77,21 @@ As equipes de conformidade e segurança de informações podem usar essas ferram
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
-Existem soluções disponíveis, com quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](https://docs.microsoft.com/pt-BR/azure/operations-management-suite/oms-solution-office-365).
+Existem soluções disponíveis, com quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
--   [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](https://support.office.com/pt-BR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://support.office.com/pt-BR/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (introdução)
+-   [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (introdução)
 
--   [Ativar e desativar a Pesquisa de log de auditoria do Office 365](https://support.office.com/pt-BR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+-   [Ativar e desativar a Pesquisa de log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [Pesquisas o log de auditoria](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [Pesquisas o log de auditoria](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (cmdlet) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/library/mt238501(v=exchg.160).aspx) (cmdlet) 
 
--   [Propriedades detalhadas no log de auditoria do Office 365](https://support.office.com/pt-BR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+-   [Propriedades detalhadas no log de auditoria do Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -125,11 +125,11 @@ Observação: não deixe de habilitar a opção "Examinar automaticamente os arq
 
 Mais informações:
 
--   [Implantar o Cloud App Security](https://docs.microsoft.com/pt-BR/cloud-app-security/getting-started-with-cloud-app-security)
+-   [Implantar o Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/pt-BR/cloud-platform/cloud-app-security)
+-   [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
--   [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](https://docs.microsoft.com/pt-BR/cloud-app-security/use-case-proxy-block-session-aad)
+-   [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Políticas de atividade e arquivo de exemplo para detectar o compartilhamento de dados pessoais
 
@@ -141,7 +141,7 @@ Alerta quando um arquivo que contém um número de cartão de crédito é compar
 <thead>
 <tr class="header">
 <th align="left"><strong>Controle</strong></th>
-<th align="left"><strong>Settings</strong></th>
+<th align="left"><strong>Configurações</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -216,7 +216,7 @@ Observações:
 <thead>
 <tr class="header">
 <th align="left"><strong>Controle</strong></th>
-<th align="left"><strong>Settings</strong></th>
+<th align="left"><strong>Configurações</strong></th>
 </tr>
 </thead>
 <tbody>
