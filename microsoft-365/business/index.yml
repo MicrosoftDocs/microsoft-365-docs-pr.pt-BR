@@ -4,19 +4,19 @@ summary: O Microsoft 365 Business é um serviço de assinatura que inclui as fer
 brand: m365
 metadata:
   title: Recursos de negócios do Microsoft 365
-  description: description
+  description: descrição
   ms.service: o365-administration
   ms.topic: hub-page
   ms.collection: collection
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: e1c35876a203a41796690850c20ff1a37eca19ea
-  ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+  ms.openlocfilehash: 26ef032b9b5ee69aa30f50bf14ca5cca7563b41e
+  ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
   ms.translationtype: MT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 11/08/2019
-  ms.locfileid: "38038790"
+  ms.locfileid: "38076295"
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business?
@@ -27,9 +27,9 @@ conceptualContent:
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Treinamento de negócios 365 da Microsoft
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck
+    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
-      text: Comparar planos (somente em inglês)
+      text: Comparar planos
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
       text: Descrição de serviço
