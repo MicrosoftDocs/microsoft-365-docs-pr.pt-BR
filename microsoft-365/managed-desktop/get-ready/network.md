@@ -4,15 +4,15 @@ description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5b2b1a147659bf58c9b8ded26d6774994a3c1682
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: a6397f1c78bb15e198ed75be50c51953b049ed68
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012206"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074684"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
@@ -23,19 +23,19 @@ ms.locfileid: "38012206"
 
 O Microsoft Managed desktop é um serviço gerenciado na nuvem. Há um conjunto de pontos de extremidade que os serviços de área de trabalho gerenciada da Microsoft precisam alcançar. Esta seção lista os pontos de extremidade que precisam ser permitidos para os vários aspectos do serviço de área de trabalho gerenciada da Microsoft. 
 
-Os clientes podem otimizar a rede enviando todas as solicitações de rede confiáveis da Microsoft 365 diretamente por meio do firewall/proxy, ignorando a autenticação e todos os outros processos de inspeção ou processamento de pacotes. Isso reduz a latência e seus requisitos de capacidade de perímetro. 
+Os clientes podem otimizar a rede enviando todas as solicitações de rede confiáveis da Microsoft 365 diretamente por meio de seu firewall ou proxy, ignorando a autenticação e todos os processamentos ou inspeções adicionais no nível de pacote. Isso reduz a latência e seus requisitos de capacidade de perímetro. 
 
 Além disso, para otimizar o desempenho dos serviços baseados em nuvem de área de trabalho gerenciada da Microsoft, esses pontos de extremidade precisam de tratamento especial por navegadores cliente cliente e os dispositivos em sua rede de borda. Esses dispositivos incluem firewalls, interrupção de SSL e inspecionar, dispositivos de inspeção de pacotes e sistemas de prevenção contra perda de dados.
 
 ### <a name="proxy-requirement"></a>Requisito de proxy
 
-O proxy ou o firewall devem oferecer suporte a TLS 1,2. Caso contrário, os clientes podem ter que desabilitar a detecção de protocolo.
+O proxy ou o firewall devem oferecer suporte a TLS 1,2. Caso contrário, talvez seja necessário desabilitar a detecção de protocolo.
 
 ### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Pontos de extremidade permitidos específicos para a área de trabalho gerenciada da Microsoft
 
 O Microsoft Managed desktop usa o portal do Azure para hospedar seu console Web. As seguintes URLs na tabela abaixo precisam estar na lista permitida de seu proxy e firewall para que os dispositivos da área de trabalho gerenciado da Microsoft possam se comunicar com os serviços da Microsoft.  
 
-Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada para qualquer coisa que nosso serviço seja executado na API do cliente. Os clientes devem garantir que essa URL esteja sempre acessível em sua rede corporativa.
+Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada para qualquer coisa que nosso serviço seja executado na API do cliente. Você deve garantir que essa URL esteja sempre acessível em sua rede corporativa.
 
 Serviço Microsoft  | URLs necessárias na lista de permissões 
 --- | --- | ---
@@ -56,8 +56,7 @@ Otimização de entrega | [Configurar a otimização de entrega para as atualiza
 Office 365 | [Intervalo de endereços IP e URL do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Requisitos [de porta e protocolos de identidade híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) e [serviços de domínio do](https://aka.ms/AA26ygm) Active Directory e Active Directory 
 Microsoft Intune | [Requisitos de configuração de rede do Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
-Proteção avançada contra ameaças do Microsoft defender (ATP) | [Pontos de extremidade do Microsoft defender ATP] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
-)
+Proteção avançada contra ameaças do Microsoft defender (ATP) | [Pontos de extremidade do Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

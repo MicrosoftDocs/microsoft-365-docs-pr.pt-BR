@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Esta solução informa o que os ataques de cybersecurity mais comuns podem parecer no Office 365 e como respondê-los
-ms.openlocfilehash: 71289c42ab5f86fee088e5bb158746a8b809caa9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 33cacf98efb78826f2655376b19a9d05d12955e7
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073617"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38078070"
 ---
 # <a name="office-365-security-incident-response"></a>Resposta a incidentes de segurança do Office 365
 
@@ -41,12 +41,12 @@ Confira aqui mensalmente quando mais artigos forem adicionados com o tempo.
 ## <a name="detect-and-remediate-articles"></a>Detectar e corrigir artigos
 
 - [Detectar e corrigir a concessão de autorização ilícita no Office 365](detect-and-remediate-illicit-consent-grants.md)
-- [Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
+- [Detectar e Corrigir Ataques de Injeção a Regras do Outlook e Formulários Personalizados no Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
 
 ## <a name="incident-response-articles"></a>Artigos sobre resposta a incidentes
 
-- [Respondendo a uma conta de email comprometida no Office 365](/compliance/responding-to-a-compromised-email-account.md)
+- [Respondendo a uma conta de email comprometida no Office 365](~/compliance/responding-to-a-compromised-email-account.md)
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
 Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.

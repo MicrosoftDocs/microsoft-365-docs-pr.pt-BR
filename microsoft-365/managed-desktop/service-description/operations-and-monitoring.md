@@ -4,14 +4,15 @@ description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c618c5bf2acf50d84aca354975670ed84b581601
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: 9f0d1889e625ceba52f3e91ee950041f82e9750e
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431912"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074763"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Monitoramento e operações de área de trabalho gerenciada da Microsoft
 
@@ -82,7 +83,7 @@ Rede (proxy, inspeção de pacote, VPN)  | Avisar e planejar com os clientes par
 Contas de serviço |– Implemente, armazene e gerencie as credenciais com segurança.<br> – Comunique o acesso não autorizado ou use essas credenciais para a equipe de operações de segurança. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Não atribua política, autenticação multifator, acesso condicional ou implantação de aplicativo para as contas de serviço de área de trabalho gerenciada da Microsoft.<br>-Não redefina a senha ou use as credenciais.<br>– Abra uma solicitação de suporte do Sev C para operações de área de trabalho gerenciada da Microsoft, caso seja observada atividade suspeita nos logs de auditoria do Intune ou Azure, relacionadas a essas contas de serviço.
 Grupos de dispositivos | – Implemente e gerencie a associação de dispositivos nos grupos da área de trabalho gerenciada da Microsoft.<br>– Use os grupos de área de trabalho gerenciada da Microsoft para gerenciar a atribuição e a versão de configuração e atualizações para dispositivos. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Não modificar a associação de qualquer grupo de área de trabalho gerenciada da Microsoft.<br>– Use somente os grupos para atribuir certificados corporativos para serviços como VPN, Windows Hello para Business ou criptografia de email ou configuração de perfil de Wi-Fi corporativos.<br>-Onde existe o cogerenciamento, exclua explicitamente todos os grupos da área de trabalho gerenciado da Microsoft ao implantar o cliente do Configuration Manager.
 Políticas |  – Implemente e gerencie as políticas de área de trabalho gerenciada da Microsoft que regem o estado de configuração dos dispositivos no serviço.<br>– Implantar atualizações, política ou janelas, usando grupos de dispositivos de forma incremental.<br> -Excluir explicitamente os grupos de área de trabalho gerenciada não Microsoft de direcionamento. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não edite ou atribua políticas de área de trabalho gerenciada da Microsoft a dispositivos ou usuários não gerenciados pelo serviço de área de trabalho gerenciada da Microsoft.
-Proteção Avançada Contra Ameaças do Windows Defender | Monitore e investigue os dispositivos dentro do escopo do serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>-Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas
+Proteção Avançada contra Ameaças do Microsoft Defender   | Monitore e investigue os dispositivos dentro do escopo do serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>-Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas
 Microsoft Store para Empresas |  Configurar e manter o perfil do Windows AutoPilot para o serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não modifique a configuração do perfil do Microsoft AutoPilot da área de trabalho gerenciada do Windows ou adicione/remova dispositivos atribuídos.
 Certificados | | -Criar uma solicitação de suporte 60 dias antes da expiração de um certificado, solicitando informações para uma alteração de configuração planejada, incluindo detalhes da configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Atualizar todos os certificados necessários para configurar perfis de certificado, perfis VPN e perfis Wi-Fi.
 
@@ -91,7 +92,7 @@ Certificados | | -Criar uma solicitação de suporte 60 dias antes da expiraçã
 
 ## <a name="device-wipe-with-factory-reset"></a>Apagamento de dispositivos com redefinição de fábrica
 
-Equipe de operações de área de trabalho gerenciada pode fazer uma redefinição de fábrica em dispositivos gerenciados pelo Microsoft Managed desktop que precisam ser reimagem. Isso será útil se você precisar fornecer um dispositivo para um funcionário diferente ou se um funcionário sair da sua empresa. 
+A equipe de operações de área de trabalho gerenciada da Microsoft pode executar uma restauração de fábrica de dispositivos registrados no serviço quando necessário. Isso será útil se você precisar fornecer um dispositivo para um funcionário diferente ou se um funcionário sair da sua empresa. 
 
 Há alguns requisitos:
 
@@ -113,4 +114,4 @@ Quando o dispositivo tiver sido redefinido, você poderá fornecê-lo a uma pess
 
 O BitLocker é um componente essencial da segurança dos dados nesse processo. Com a criptografia BitLocker nos dispositivos de área de trabalho gerenciada da Microsoft, os dados na unidade permanecem seguros, mesmo após a redefinição de fábrica ter sido aplicada ao dispositivo. Os dados que estavam na unidade não estarão disponíveis para o próximo usuário do dispositivo. Para obter mais informações, consulte [visão geral do BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview).
 
-Para obter mais informações, consulte [redefinição de fábrica de um dispositivo](https://docs.microsoft.com/intune/devices-wipe#factory-reset-a-device). 
+Para obter mais informações, consulte [redefinição de fábrica de um dispositivo](https://docs.microsoft.com/intune/remote-actions/devices-wipe#factory-reset-a-device). 

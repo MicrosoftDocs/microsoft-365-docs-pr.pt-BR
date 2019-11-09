@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 4d1601c23d160d5618d491cd168583c78b54181c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6cf7b25c584b94b077b95b35be58f6cd5ef75ac5
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033626"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38078080"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
@@ -44,7 +44,7 @@ As atualizações in-loco podem ser automatizadas usando as ferramentas de impla
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Atualizar um pequeno número de computadores
 
-No caso de um único computador ou de vários computadores, a abordagem manual da atualização geralmente é a melhor opção em comparação com abordagens mais automatizadas. Você pode encontrar o software e as licenças necessárias na [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), outros revendedores de software ou no  [Centro de Atendimento de Licenciamento por Volume](https://www.microsoft.com/licensing/servicecenter/default.aspx), caso tenha um licenciamento por volume. Para obter instruções detalhadas sobre como atualizar um único PC para o Windows 10, bem como as opções de restauração pós-atualização, confira o [Guia passo a passo de atualização manual do Windows 7 para Windows 10](https://docs.microsoft.com/pt-BR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
+No caso de um único computador ou de vários computadores, a abordagem manual da atualização geralmente é a melhor opção em comparação com abordagens mais automatizadas. Você pode encontrar o software e as licenças necessárias na [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), outros revendedores de software ou no  [Centro de Atendimento de Licenciamento por Volume](https://www.microsoft.com/licensing/servicecenter/default.aspx), caso tenha um licenciamento por volume. Para obter instruções detalhadas sobre como atualizar um único PC para o Windows 10, bem como as opções de restauração pós-atualização, confira o [Guia passo a passo de atualização manual do Windows 7 para Windows 10](https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
 
 ## <a name="how-to-upgrade-many-computers"></a>Como atualizar muitos computadores
 

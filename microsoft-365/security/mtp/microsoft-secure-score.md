@@ -15,16 +15,16 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 74afe39e78990d794368ed19aa5fd5116bee17bb
-ms.sourcegitcommit: 0830be61e21570ee3a2589e35c21f358b52585c0
+ms.openlocfilehash: dbe84eb5c9c9fb8ff6e052f8a8fc1f257985ee70
+ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37774904"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38076335"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
-A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
+A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Seguir as recomendações de Pontuação de segurança podem proteger sua organização contra ameaças. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
 
 A pontuação segura ajuda as organizações:
 
@@ -44,7 +44,7 @@ Sua pontuação é atualizada em tempo real para refletir as informações apres
 
 ### <a name="how-improvement-actions-are-scored"></a>Como as ações de aperfeiçoamento são pontuadas
 
-A maioria é classificada de forma binária, se você implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, obterá 100% dos pontos. Para outras ações de melhoria, os pontos são fornecidos como uma porcentagem da configuração total. Por exemplo, se a ação de melhoria diz que você obtém 30 pontos protegendo todos os seus usuários com a autenticação multifator e tem apenas 5 de 100 total de usuários protegidos, você receberia uma pontuação parcial de cerca de 2 pontos (5 protegido/100 total * 30 pt máx. = 2 pts  Pontuação parcial).
+A maioria é classificada de forma binária, se você implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, obterá 100% dos pontos. Para outras ações de melhoria, os pontos são fornecidos como uma porcentagem da configuração total. Por exemplo, se a ação de melhoria diz que você obtém 30 pontos protegendo todos os seus usuários com a autenticação multifator e tem apenas 5 de 100 total de usuários protegidos, você receberia uma pontuação parcial de cerca de 2 pontos (5 protegidos/100 total * 30 pts = 2 pt de Pontuação parcial).
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 

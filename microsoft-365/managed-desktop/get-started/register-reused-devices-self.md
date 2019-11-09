@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 51db9c88710605c6203023b343edc4359556d57d
-ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
+ms.openlocfilehash: e11b72228dceb5a4999e6b9398efde02a41ca163
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37577767"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074733"
 ---
 # <a name="register-existing-devices-yourself"></a>Registrar dispositivos existentes sozinho
 
@@ -71,25 +71,30 @@ Se você atendeu a todos esses pré-requisitos, você está pronto para coletar 
 4. No **Construtor de relatórios**, selecione **fonte de dados:**. Selecione a fonte de dados padrão, que deve começar com "AutoGen". 
 5. Escolha **tipo de consulta como texto**e, em seguida, insira esta consulta:
 
-```
 
+
+
+```sql
 SELECT comp.manufacturer0      AS Manufacturer,  
        comp.model0             AS Model,  
        bios.serialnumber0      AS Serial_Number,  
        mdm.devicehardwaredata0 AS HardwareHash  
-FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp  
+FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
+
        INNER JOIN Fn_rbac_gs_pc_bios(@UserSIDs) bios  
                ON comp.resourceid = bios.resourceid  
        INNER JOIN Fn_rbac_gs_mdm_devdetail_ext01(@UserSIDs) mdm  
                ON comp.resourceid = mdm.resourceid
-
-
 ```
+
+
+
+
 5. Navegue até a guia **campo** , os valores de wehre para o **nome do campo** e a origem do **campo** já devem estar preenchidos. Se não estiverem, selecione **Adicionar**e, em seguida, selecione **campo de consulta**. Insira o **nome do campo** e a **origem do campo**.
 6. Repita o procedimento para cada um destes valores: 
     - Fabricantes 
     - Modelo 
-    - Núm_série 
+    - Serial_Number 
     - HardwareHash
 7. Selecione **OK**.
 
@@ -115,7 +120,7 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp 
 
 
 > [!IMPORTANT]
-> A consulta no Gerenciador de configurações não permite espaços em nomes de coluna exportados; é por isso que as etapas tinham que inserir "Núm_série" e "HardwareHash". Agora que você tem o arquivo CSV exportado, você deve editar os cabeçalhos de relatório para ler o *número de série* e o *hash de hardware* , conforme mostrado aqui antes de prosseguir com o registro do dispositivo.
+> A consulta no Gerenciador de configurações não permite espaços em nomes de coluna exportados; é por isso que as etapas tinham que inserir "Serial_Number" e "HardwareHash". Agora que você tem o arquivo CSV exportado, você deve editar os cabeçalhos de relatório para ler o *número de série* e o *hash de hardware* , conforme mostrado aqui antes de prosseguir com o registro do dispositivo.
 
 Agora você pode prosseguir para [registrar dispositivos usando o portal do Azure](#register-devices-by-using-the-azure-portal).
 
