@@ -3,7 +3,7 @@ title: Teams para dados altamente regulamentados
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/31/2019
+ms.date: 11/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: c4a7c724b6fbb4515deba1a207eea31902f822e0
-ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
+ms.openlocfilehash: 97cc19b0b0067dc0eaca845dd16621be823f1334
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37929214"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302948"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -115,7 +115,7 @@ Esta é a configuração resultante até o momento.
  
 ### <a name="step-4-create-a-retention-label-and-dlp-policy"></a>Etapa 4: Criação de um rótulo de retenção e uma política DLP.
 
-Use [estas instruções](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp) para:
+Use [estas instruções](https://docs.microsoft.com/microsoft-365/security/office-365-security/deploy-teams-retention-dlp) para:
 
 1. Crie e publique um rótulo de retenção para dados altamente regulamentados (se necessário).
 2. Configure o Site de Equipe para o rótulo de retenção criado na etapa 1.
