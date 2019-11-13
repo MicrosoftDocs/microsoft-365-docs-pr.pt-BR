@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5f1e2bd2440b5c38c958d3182684e87643f2e853
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: a064a41fc7ab69e31d49553f600dfd6bb91ef7b0
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012022"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302908"
 ---
 # <a name="deploy-apps-to-devices"></a>Implantar aplicativos em dispositivos
 Parte da integração com a área de trabalho gerenciada da Microsoft inclui a adição e implantação de aplicativos aos dispositivos do usuário. Quando estiver usando o portal de área de trabalho gerenciada da Microsoft, você poderá adicionar e implantar seus aplicativos. 
@@ -83,7 +83,7 @@ Tipo de atribuição de aplicativo |   Uso de grupo   | Exemplo de nome do Azure
 --- | --- | ---
 Disponível |  O aplicativo estará disponível no site ou aplicativo do portal da empresa. | MMD – *nome do aplicativo* – disponível
 Obrigatório |  O aplicativo é instalado em dispositivos nos grupos selecionados. | MMD – *nome do aplicativo* – obrigatório
-Uninstall |  O aplicativo especifica é desinstalado dos dispositivos nos grupos selecionados. | MMD – *nome do aplicativo* – desinstalar
+Uninstall |  O aplicativo é desinstalado de dispositivos nos grupos selecionados. | MMD – *nome do aplicativo* – desinstalar
 
 Adicione seus usuários a esses grupos para fazer com que o aplicativo disponibilize, instalar o aplicativo ou remover o aplicativo do dispositivo de área de trabalho gerenciado da Microsoft. 
 
@@ -102,11 +102,11 @@ Adicione seus usuários a esses grupos para fazer com que o aplicativo disponibi
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
 
-1. [Adicionar e verificar contatos de administrador no portal de administração](add-admin-contacts.md)
+1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
-4. [Implantar o portal da empresa do Intune](company-portal.md)
-5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+4. [Implantar o Portal da Empresa do Intune](company-portal.md)
+5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
 6. [Configurar dispositivos](set-up-devices.md)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
 8. Implantar aplicativos (este tópico)
