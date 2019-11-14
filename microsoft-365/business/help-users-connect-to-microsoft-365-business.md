@@ -24,21 +24,21 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Saiba o que esperar após a conclusão da instalação do Business Cloud Suite.
-ms.openlocfilehash: b11c247e8d857f8c7a4d41f633267038b3dd86c6
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: d19438d6e085ba27ec3fb0308005a9bf473383e1
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574689"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320179"
 ---
-# <a name="help-users-connect-to-microsoft-365-business"></a><span data-ttu-id="bde1f-103">Ajudar usuários a se conectar ao Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="bde1f-103">Help users connect to Microsoft 365 Business</span></span>
+# <a name="help-users-connect-to-microsoft-365-business"></a><span data-ttu-id="cf129-103">Ajudar usuários a se conectar ao Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="cf129-103">Help users connect to Microsoft 365 Business</span></span>
 
-<span data-ttu-id="bde1f-p101">Quando concluir a instalação, as políticas de dispositivo estarão no local e prontas para serem aplicadas. No caso de dispositivos móveis, os usuários devem baixar os aplicativos do Office. Em seguida, as políticas são aplicadas quando eles entram com uma conta corporativa ou de estudante. Para aplicar as políticas em computadores Windows, há mais algumas tarefas a serem realizadas, como uma atualização in-loco. Faça referência e compartilhe os tópicos a seguir para ajudar os usuários a fazer a instalação e a se conectar.</span><span class="sxs-lookup"><span data-stu-id="bde1f-p101">After completing setup, your default device policies are in place and ready to apply. On mobile devices, users will download Office apps and then policies are applied when the user signs in with their work or school account. There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade. Please reference and share the following topics to help users get setup and connected.</span></span>
+<span data-ttu-id="cf129-104">Depois de concluir a instalação, suas políticas de dispositivo padrão estão vigentes e prontas para serem aplicadas.</span><span class="sxs-lookup"><span data-stu-id="cf129-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="cf129-105">Em dispositivos móveis, os usuários baixam aplicativos do Office.</span><span class="sxs-lookup"><span data-stu-id="cf129-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="cf129-106">As políticas são aplicadas quando o usuário faz logon com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="cf129-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="cf129-107">Há um pouco mais de trabalho a fazer antes que as políticas se apliquem a PCs Windows, como uma atualização in-loco.</span><span class="sxs-lookup"><span data-stu-id="cf129-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="cf129-108">Confira e compartilhe os seguintes tópicos para ajudar os usuários a se configurar e conectarem:</span><span class="sxs-lookup"><span data-stu-id="cf129-108">See and share the following topics to help users get set up and connected:</span></span>
   
-[<span data-ttu-id="bde1f-108">Configurar dispositivos Windows para usuários do Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="bde1f-108">Set up Windows devices for Microsoft 365 Business users</span></span>](set-up-windows-devices.md)
+[<span data-ttu-id="cf129-109">Configurar dispositivos Windows para usuários do Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="cf129-109">Set up Windows devices for Microsoft 365 Business users</span></span>](set-up-windows-devices.md)
   
-[<span data-ttu-id="bde1f-109">Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot</span><span class="sxs-lookup"><span data-stu-id="bde1f-109">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+[<span data-ttu-id="cf129-110">Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot</span><span class="sxs-lookup"><span data-stu-id="cf129-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
   
-[<span data-ttu-id="bde1f-110">Configurar dispositivos móveis para usuários do Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="bde1f-110">Set up mobile devices for Microsoft 365 Business users</span></span>](set-up-mobile-devices.md)
+[<span data-ttu-id="cf129-111">Configurar dispositivos móveis para usuários do Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="cf129-111">Set up mobile devices for Microsoft 365 Business users</span></span>](set-up-mobile-devices.md)
   
 
