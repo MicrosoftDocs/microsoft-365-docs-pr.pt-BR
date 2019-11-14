@@ -21,34 +21,34 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Saiba como usar o Windows AutoPilot para configurar novos dispositivos Windows 10 para sua empresa.
-ms.openlocfilehash: d028ea3e902965d55c445dc3b3a02aa315201b25
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574779"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38323086"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot
 
-Você pode usar o Windows AutoPilot para configurar **novos** dispositivos Windows 10 para sua empresa, de modo que eles estejam prontos para uso produtivo assim que você os fornecer aos seus funcionários.
+Você pode usar o Windows AutoPilot para configurar **novos** dispositivos Windows 10 para sua empresa, de modo que eles fiquem prontos para uso quando você os conceder aos seus funcionários.
   
 ## <a name="device-requirements"></a>Requisitos do dispositivo
 
-Os dispositivos precisam atender a esses requisitos:
+Os dispositivos devem atender a estes requisitos:
   
-- Windows 10, versão 1703 ou posteriores.
+- Windows 10, versão 1703 ou posterior
     
-- Novos dispositivos que ainda não passaram pela configuração inicial pelo usuário do Windows.
+- Novos dispositivos que não foram transferidos pela experiência inicial pelo Windows
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Usar o guia de configuração para criar perfis e dispositivos
 
-[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Se você ainda não tiver perfis ou grupos de dispositivos criados, a melhor maneira de começar é usando o guia passo a passo, mas também pode [adicionar dispositivos](create-and-edit-autopilot-devices.md) e [atribuir perfis](create-and-edit-autopilot-profiles.md) a eles sem usar o guia. 
+Se você ainda não criou grupos ou perfis de dispositivos, a melhor maneira de começar é usando o guia passo a passo. Você também pode [Adicionar dispositivos](create-and-edit-autopilot-devices.md) e [atribuir perfis](create-and-edit-autopilot-profiles.md) a eles sem usar o guia. 
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 
-2. Na navegação à esquerda, escolha o **piloto automático**de **dispositivos** \> .
+2. No painel de navegação esquerdo, escolha **dispositivos** \> **AutoPilot**.
 
     ![No centro de administração, escolha dispositivos e, em seguida, piloto automático.](media/AutoPilot.png)
   
@@ -56,37 +56,35 @@ Se você ainda não tiver perfis ou grupos de dispositivos criados, a melhor man
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Na página **Carregar arquivo .csv com a lista de dispositivos**, navegue até um local onde está o arquivo .CSV preparado. Em seguida, **Abrir** \> **Avançar**. O arquivo deve ter três cabeçalhos:
+3. Na página **carregar arquivo. csv com a lista de dispositivos** , navegue até um local onde você está preparado. CSV e, em seguida, **abra** \> **Avançar**. O arquivo deve ter três cabeçalhos:
     
-  - Coluna A: Número de série do dispositivo
+    - Coluna A: Número de série do dispositivo
     
-  - Coluna B: ID do produto Windows
+    - Coluna B: ID do produto Windows
     
-  - Coluna C: Hash de hardware
+    - Coluna C: Hash de hardware
     
-    Você encontra essas informações com seu fornecedor de hardware ou pode usar o [script Get-WindowsAutoPilotInfo PowerShell](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) que gerará um arquivo CSV. 
+    Você pode obter essas informações do seu fornecedor de hardware ou pode usar o [script Get-WindowsAutoPilotInfo do PowerShell](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) para gerar um arquivo CSV. 
     
     Para saber mais, confira o [Arquivo CSV da lista de dispositivos](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Você também pode baixar um exemplo de arquivo na página **Carregar arquivo .csv com uma lista de dispositivos**. 
     
-4. Na página **Atribuir um perfil**, você pode escolher perfil existente ou criar um novo. Se você ainda não tiver um, será solicitado a criar um novo. 
+4. Na página **atribuir um perfil** , você pode escolher um perfil existente ou criar um novo. Se você ainda não tiver um, você será solicitado a criar um. 
     
     Um perfil é um conjunto de configurações que podem ser aplicadas a um único dispositivo ou a um grupo de dispositivos.
     
-    Os recursos padrão são necessários e serão definidos automaticamente. Os recursos padrão são:
+    Os recursos padrão são necessários e são definidos automaticamente. Os recursos padrão são:
     
-  - São ignorados os registros Cortana, OneDrive e OEM.
+    - Ignorar o registro de Cortana, OneDrive e OEM.
     
-  - Crie uma experiência de entrada com a marca da sua empresa
+    - Crie uma experiência de entrada com a marca da sua empresa
     
-  - Seus dispositivos serão conectados às contas do Azure Active Directory e inscritos automaticamente para serem gerenciados pelo Microsoft 365 Business.
+    - Conecte seus dispositivos às contas do Azure Active Directory e registre-os automaticamente para serem gerenciados pelo Microsoft 365 Business.
     
-    Para saber mais, confira
-    
-    [Sobre as configurações de perfil do AutoPilot](autopilot-profile-settings.md) . 
+    Para obter mais informações, consulte [sobre as configurações de perfil do AutoPilot](autopilot-profile-settings.md). 
     
 5. As outras configurações são **Ignorar as configurações de privacidade** e **Não permitir que o usuário se torne o administrador local**. Por padrão, essas configuração são definidas como **Desativado**. 
     
     Escolha **Avançar**.
     
-6. A página **Pronto** indica que o perfil criado (ou escolhido) será aplicado ao grupo de dispositivos que você criou ao carregar a lista de dispositivos. Essas configurações entrarão em vigor quando os usuários do dispositivo fizerem logon na próxima vez. Escolha **Fechar**.
+6. **Você concluiu** indica que o perfil criado (ou escolhido) será aplicado ao grupo de dispositivos que você criou carregando a lista de dispositivos. As configurações entrarão em vigor quando os usuários do dispositivo entrarem em seguida. Escolha **Fechar**.
     

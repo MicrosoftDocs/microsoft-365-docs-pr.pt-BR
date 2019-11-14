@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: Saiba mais sobre as políticas de dispositivo do Windows 10 que se aplicam a todos os usuários em sua organização.
-ms.openlocfilehash: 11c8f75f56a86895d7f81fc242490303c10ac24e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: ad092d2b2760a55e16c44a66350626c90c9ac7c5
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575419"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321355"
 ---
 # <a name="configure-windows-10-devices"></a>Configurar dispositivos Windows 10
 
-Durante a instalação, criamos uma política de dispositivo para Windows 10, que se aplica a todos os usuários da organização. Quando o usuário entra em um aplicativo do Office no dispositivo Windows 10 com uma conta corporativa ou de estudante, as configurações que você definiu se aplicam automaticamente para garantir que ele esteja se conectando de forma segura.
+Durante a instalação, você cria uma política de dispositivo para o Windows 10 que se aplica a todos os usuários em sua organização. Quando um usuário entra em um aplicativo do Office em seu dispositivo Windows 10 com sua conta corporativa ou de estudante, as configurações definidas são automaticamente aplicadas para garantir que o usuário esteja se conectando de forma segura.
   
-Recomendamos aceitar a configuração padrão durante a instalação. Depois de instalar, você pode criar outras políticas e destiná-las a grupos de usuários específicos.
+Recomendamos aceitar a configuração padrão durante a instalação. Após a instalação, você pode criar mais políticas e destina-las a grupos de usuários específicos.
   
 Para adicionar uma política a fim de gerenciar as configurações do dispositivo Windows 10, confira [Definir as configurações de dispositivo para computadores Windows 10](protection-settings-for-windows-10-pcs.md).
   

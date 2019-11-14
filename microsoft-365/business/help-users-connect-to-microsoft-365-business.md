@@ -24,16 +24,16 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Saiba o que esperar após a conclusão da instalação do Business Cloud Suite.
-ms.openlocfilehash: b11c247e8d857f8c7a4d41f633267038b3dd86c6
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: d19438d6e085ba27ec3fb0308005a9bf473383e1
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574689"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320179"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Ajudar usuários a se conectar ao Microsoft 365 Business
 
-Quando concluir a instalação, as políticas de dispositivo estarão no local e prontas para serem aplicadas. No caso de dispositivos móveis, os usuários devem baixar os aplicativos do Office. Em seguida, as políticas são aplicadas quando eles entram com uma conta corporativa ou de estudante. Para aplicar as políticas em computadores Windows, há mais algumas tarefas a serem realizadas, como uma atualização in-loco. Faça referência e compartilhe os tópicos a seguir para ajudar os usuários a fazer a instalação e a se conectar.
+Depois de concluir a instalação, suas políticas de dispositivo padrão estão vigentes e prontas para serem aplicadas. Em dispositivos móveis, os usuários baixam aplicativos do Office. As políticas são aplicadas quando o usuário faz logon com sua conta corporativa ou de estudante. Há um pouco mais de trabalho a fazer antes que as políticas se apliquem a PCs Windows, como uma atualização in-loco. Confira e compartilhe os seguintes tópicos para ajudar os usuários a se configurar e conectarem:
   
 [Configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md)
   

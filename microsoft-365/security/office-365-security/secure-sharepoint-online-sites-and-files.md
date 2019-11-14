@@ -19,18 +19,18 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Resumo: recomendações de configuração para proteger arquivos no SharePoint Online e no Office 365.'
-ms.openlocfilehash: 62b7227239c52f50f2dc437e1ddedc663a5bb01d
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 15b67d2569f2c8ceafb16973ae2bf6862ebb9ded
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38035701"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311105"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Proteger sites e arquivos do SharePoint Online
 
  **Resumo:** recomendações de configuração para proteger arquivos no SharePoint Online e no Office 365.
   
-Este artigo fornece recomendações para configurar sites de equipe do SharePoint Online e proteção de arquivo que equilibra a segurança com facilidade de colaboração. Esse artigo define quatro configurações diferentes, começando com um site público dentro de sua organização com as políticas de compartilhamento abertas. Cada configuração adicional representa uma etapa significativa na proteção, mas a capacidade de acessar e colaborar com os recursos é reduzida ao conjunto de usuários relevantes. Use essas recomendações como um ponto de partida e ajuste as configurações para atender às necessidades da sua organização. 
+Este artigo fornece recomendações para configurar sites de equipe do SharePoint Online e proteção de arquivo que equilibra a segurança com facilidade de colaboração. Esse artigo define quatro configurações diferentes, começando com um site público dentro de sua organização com as políticas de compartilhamento abertas. Cada configuração adicional representa uma etapa significativa na proteção, mas a capacidade de acessar e colaborar com os recursos é reduzida ao conjunto de usuários relevantes. Use essas recomendações como um ponto de partida e ajuste as configurações para atender às necessidades da sua organização.
   
 As configurações nesse artigo se alinham às recomendações da Microsoft para três níveis de proteção de dados, identidades e dispositivos:
   
@@ -40,7 +40,7 @@ As configurações nesse artigo se alinham às recomendações da Microsoft para
     
 - Proteção altamente confidencial
     
-Para obter mais informações sobre essas camadas e recursos recomendados para cada camada, consulte os recursos a seguir. 
+Para obter mais informações sobre essas camadas e recursos recomendados para cada camada, consulte os recursos a seguir.
   
 - [Proteção de identidade e dispositivo para o Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365IDP)
     
@@ -54,7 +54,7 @@ As recomendações para sites de equipe do SharePoint Online traçam uma varieda
 
 Conforme ilustrado:
   
-- A proteção de linha de base inclui duas opções para sites de equipe do SharePoint Online — um site público e um site privado. Os sites públicos podem ser descobertos e acessados por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados apenas por membros do site. Essas configurações de site permitem o compartilhamento fora do grupo. 
+- A proteção de linha de base inclui duas opções para sites de equipe do SharePoint Online — um site público e um site privado. Os sites públicos podem ser descobertos e acessados por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados apenas por membros do site. Essas configurações de site permitem o compartilhamento fora do grupo.
     
 - Os sites para proteção confidencial e altamente confidencial são sites privados com acesso limitado apenas a membros de grupos específicos.
     

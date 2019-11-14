@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Saiba mais sobre as políticas que direcionam dispositivos específicos e grupos de segurança para proteger os dados da empresa nos dispositivos pessoais do usuário.
-ms.openlocfilehash: f0a7f5ac91fa7eb20c54024f8017927199a7758b
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Para proteger os dados da empresa nos dispositivos pessoais dos usuários, use as políticas que direcionam dispositivos e grupos de segurança específicos.
+ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574589"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320119"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Como as políticas do Microsoft 365 Business protegem os dados da empresa
 
 As políticas criadas são específicas para o tipo de dispositivo e podem ser aplicadas a grupos de usuários específicos. Isso significa que você pode criar uma política que se aplique aos executivos e outra que se aplique a todas as outras pessoas.
   
-No caso de dispositivos Android e iOS, você pode adicionar ou editar políticas de aplicativo que protejam os aplicativos do Office e os arquivos de trabalho usados por eles. Podemos controlar um pouco mais os dispositivos Windows 10, de modo que as políticas de aplicativo incluam configurações adicionais, como criptografia e proteção para locais de nuvem e de rede. É possível também criar políticas para dispositivos Windows 10, que impõem configurações, como proteção contra vírus e atualizações automáticas. Recomendamos continuar com as políticas criadas durante a instalação, mas se quiser ajustar ou adicionar mais políticas, confira os seguintes artigos:
+No caso de dispositivos Android e iOS, você pode adicionar ou editar políticas de aplicativo que protejam os aplicativos do Office e os arquivos de trabalho usados por eles. Podemos controlar um pouco mais os dispositivos Windows 10 e, portanto, as políticas de aplicativo podem incluir mais configurações, como criptografia e proteção para locais de rede e de nuvem. É possível também criar políticas para dispositivos Windows 10, que impõem configurações, como proteção contra vírus e atualizações automáticas. Recomendamos que você mantenha as políticas criadas durante a instalação, mas se quiser ajustar suas políticas ou adicionar mais, consulte estes artigos:
   
 [Definir configurações de aplicativo para dispositivos Android ou iOS](app-protection-settings-for-android-and-ios.md)
   
