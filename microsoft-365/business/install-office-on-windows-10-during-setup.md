@@ -22,19 +22,17 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Saiba agora para implantar automaticamente o Office em dispositivos Windows 10 durante a instalação.
-ms.openlocfilehash: 64585d0a34e409822959939d5ae40fac57ff943b
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: fbc11553452ae5068ad7013a409901dee5b3570d
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575989"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320039"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Instalar o Office para Windows 10 durante a configuração
 
 ![Faixa que aponta para https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
 
-Essa configuração é desmarcada por padrão. Você pode ativá-la para garantir que os usuários tenham a versão mais recente do Office em todos os seus dispositivos com Windows 10, mas devem primeiro verificar se todos os pré-requisitos foram atendidos. Os usuários devem ser licenciados para o Microsoft 365 Business para esta configuração enviar o software para o dispositivo, além de outros requisitos descritos em [Preparar para distribuição de cliente do Office com o Microsoft 365 Business](prepare-for-office-client-deployment.md). 
+Essa configuração é desmarcada por padrão. Você pode ativá-lo para garantir que os usuários tenham a versão mais recente do Office em todos os seus dispositivos Windows 10, mas primeiro verifique se todos os pré-requisitos foram atendidos. Os usuários devem ser licenciados para a Microsoft 365 Business para esta configuração para enviar o software ao dispositivo, além de outros requisitos descritos em [preparar para a implantação do cliente do Office pelo Microsoft 365 Business](prepare-for-office-client-deployment.md). 
   
-Recomendamos aceitar a configuração padrão durante a instalação. Caso prefira definir configurações diferentes para grupos de usuários diferentes, você poderá gerenciar a implantação por grupo após a instalação. Vá para **Dispositivos** \> **Gerenciar implantação do Office** na página inicial do Centro de administração. Confira as instruções passo a passo em [Instalar ou desinstalar o Office automaticamente em dispositivos Windows 10](auto-install-or-uninstall-office.md).
-  
-
+Recomendamos que você aceite a configuração padrão durante a instalação. Caso prefira definir configurações diferentes para grupos de usuários diferentes, você poderá gerenciar a implantação por grupo após a instalação. Vá para **Dispositivos** \> **Gerenciar implantação do Office** na página inicial do Centro de administração. Confira as instruções passo a passo em [Instalar ou desinstalar o Office automaticamente em dispositivos Windows 10](auto-install-or-uninstall-office.md).

@@ -19,22 +19,23 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como saber a diferença entre gerenciamento de dispositivo móvel e gerenciamento de aplicativo móvel, ou MDM e MAM.
-ms.openlocfilehash: 338390f7e824d5fbff1bf25e1291aa9803e8dcd6
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+description: Saiba mais sobre as diferenças entre o gerenciamento de dispositivo móvel e o gerenciamento de aplicativo móvel, ou MDM e MAM.
+ms.openlocfilehash: fff9fc40f9dbead58b456fb3449133c3eb8523d4
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697876"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38319969"
 ---
 # <a name="difference-between-mdm-and-mam"></a>Diferença entre MDM e MAM
 
-O Microsoft 365 Business oferece várias maneiras de proteger seus dados corporativos. Em [visão geral do Microsoft 365 Business](../microsoft-365-business-overview.md) , você pode ler mais sobre as várias proteções definidas automaticamente e o que você pode configurar sozinho para proteger ainda mais a sua empresa. Você também pode configurar políticas que protegem seus dispositivos Windows 10 e também os dados em seus dispositivos móveis.
-[Definir configurações de proteção de aplicativo para dispositivos Windows 10](../protection-settings-for-windows-10-devices.md)
+O Microsoft 365 Business oferece várias maneiras de proteger seus dados corporativos. Confira [visão geral do Microsoft 365 Business](../microsoft-365-business-overview.md) para saber mais sobre as várias proteções definidas automaticamente e o que você pode configurar sozinho para proteger ainda mais sua empresa. Você também pode configurar políticas que protegem seus dispositivos Windows 10 e os dados em seus dispositivos móveis.
+[Definir configurações de proteção de aplicativo para dispositivos Windows 10](../protection-settings-for-windows-10-devices.md).
+
 ## <a name="mobile-device-management-or-mdm"></a>Gerenciamento de dispositivo móvel ou MDM
 
-O Microsoft 365 Business permite que você configure políticas que protegem dados em seus dispositivos Windows 10. Quando um dispositivo está sob gerenciamento de dispositivo móvel, você controla todo o dispositivo e pode limpar os dados dele, bem como redefini-lo para as configurações de fábrica. Consulte [definir configurações de proteção de dispositivos para computadores Windows 10](../protection-settings-for-windows-10-pcs.md) para obter mais informações.
+O Microsoft 365 Business permite que você configure políticas que protegem dados em seus dispositivos Windows 10. Quando um dispositivo está sob gerenciamento de dispositivo móvel, você controla todo o dispositivo e pode limpar os dados dele e também o redefine para as configurações de fábrica. Para obter mais informações, consulte [definir configurações de proteção de dispositivos para computadores com Windows 10](../protection-settings-for-windows-10-pcs.md).
 
 ## <a name="mobile-application-management-or-mam"></a>Gerenciamento de aplicativo móvel ou MAM
 
-O gerenciamento de aplicativos móveis permite que você controle seus dados corporativos nos dispositivos pessoais dos seus usuários, como iPhones e Androids, além de seus computadores pessoais do Win 10. As políticas de gerenciamento de aplicativos definidas permitem que você mantenha seus usuários copiando dados corporativos de aplicativos do Office para seus aplicativos pessoais e também pode remover todos os dados dos aplicativos do Office em seus dispositivos pessoais. Consulte [definir configurações de proteção de aplicativo para dispositivos Android ou Ios](../app-protection-settings-for-android-and-ios.md) e [definir configurações de proteção de aplicativo para dispositivos Windows 10](../protection-settings-for-windows-10-devices.md) para obter mais informações.
+O gerenciamento de aplicativos móveis permite que você controle seus dados corporativos nos dispositivos pessoais dos seus usuários, como iPhones e Androids, e seus computadores pessoais do Win 10. Você pode usar as políticas de gerenciamento de aplicativos para impedir que os usuários copiem dados corporativos de aplicativos do Office para seus aplicativos pessoais. Você também pode remover todos os dados dos aplicativos do Office em seus dispositivos pessoais. Para obter mais informações, consulte [definir configurações de proteção de aplicativo para dispositivos Android ou Ios](../app-protection-settings-for-android-and-ios.md) e [definir configurações de proteção de aplicativo para dispositivos Windows 10](../protection-settings-for-windows-10-devices.md).
