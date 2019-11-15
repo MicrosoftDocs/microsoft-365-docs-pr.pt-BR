@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 31a6c85b7fd19006e4be26dce36fc1f821f38e44
-  ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+  ms.openlocfilehash: ddf37ec091aace486b2e4f199cf31f3c720d93a1
+  ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/11/2019
-  ms.locfileid: "38231616"
+  ms.lasthandoff: 11/14/2019
+  ms.locfileid: "38627057"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de ti
@@ -26,7 +26,7 @@ highlightedContent:
     url: https://docs.microsoft.com/learn/m365/
   - title: Treinamento para usuários finais
     itemType: learn
-    url: https://support.microsoft.com
+    url: https://support.office.com/modernworkplace
   - title: Treinamento para pequenas empresas
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
