@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: As contas de administrador global precisam de um tratamento especial para ajudar a mantê-las protegidas contra o comprometimento de credenciais.
-ms.openlocfilehash: 72de7d683a9c2a080f7be69e585d16d8122cd46d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 257caf197df74d32b438a17158598237cf4c58b5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370208"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627077"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Etapa 1: criar e proteger contas de administrador global
 
@@ -47,7 +47,7 @@ Para obter outras proteções, confira [Proteger as contas de administrador glob
 Os resultados desta seção são:
 
 - As únicas contas de usuário com a função de administrador global na sua assinatura são as contas de administradores globais dedicadas. Verifique isso com o seguinte comando do PowerShell do Azure Active Directory para Graph: 
-  ```
+  ```powershell
   Get-AzureADDirectoryRole | Where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 - Todas as outras contas de usuários que gerenciam seus serviços de assinatura têm funções de administrador atribuídas que estão associadas às responsabilidades de trabalho deles.
