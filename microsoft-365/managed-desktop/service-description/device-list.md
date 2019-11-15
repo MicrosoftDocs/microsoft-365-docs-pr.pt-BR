@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: cfa46fa61483f68031ef508779dd71bd43fa92ae
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11cbdaf47e06536afd996fd41c3ea603967e2685
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034242"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640343"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -33,13 +33,14 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 
 | Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
 |----------|----------------|---------------------------|----------------|--------------------|
-|[Dell Precision 3530](https://www.dell.com/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 22 de maio de 2020  | 22 de maio de 2023 |
-|[Dell Latitude 5300/5400/5500](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
-[Dell Latitude 5490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 9 de janeiro de 2020  | 9 de janeiro de 2023  |
-[Dell Latitude 7200 2-in-1/7300/7400](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-[Dell Latitude 7390 7390 2-in-1/7490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297)   | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | 9 de janeiro de 2020 | 9 de janeiro de 2023 |
+| [Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 22 de maio de 2020  | 22 de maio de 2023 |
+| [Dell Latitude 5300/5400/5500](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
+| [Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 9 de janeiro de 2020  | 9 de janeiro de 2023  |
+| [Dell Latitude 7200 2-in-1/7300/7400](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
+| [Dell Latitude 7390 7390 2-in-1/7490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | 9 de janeiro de 2020 | 9 de janeiro de 2023 |
+| [HP EliteBook 830/840/850 G6 Notebook PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário | 30 de novembro de 2020 | 30 de novembro de 2023 |
+| [HP EliteBook X360 830 G6 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | [HP elite X2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV, câmera de infravermelho necessária | 14 de maio de 2020 | 14 de maio de 2023 |
-| [HP EliteBook 830/840/850 G5](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário | 15 de fevereiro de 2020 | 15 de fevereiro de 2023 |
 | [HP EliteBook X360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 56 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | 14 de maio de 2020 | 14 de maio de 2023 |
 | [HP EliteBook X360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | 23 de outubro de 2020 | 23 de outubro de 2023 |
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
@@ -51,7 +52,9 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 | [Laptop de superfície 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | [Surface pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 
-Além disso, o dispositivo também deve:     
+
+
+Além disso, o dispositivo também deve atender a estes critérios:     
 
 - Ter uma imagem aprovada pela área de trabalho gerenciada pela Microsoft. Ao solicitar dispositivos, verifique se você especificou que eles estão sendo usados com a área de trabalho gerenciada da Microsoft.
 - Não concluiu a experiência de primeira execução do Windows.
@@ -63,7 +66,7 @@ Esses recursos podem ajudar a responder perguntas que você possa ter sobre disp
 
 - Para saber mais sobre os dispositivos Dell, <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>de contato.
 
-- Para saber mais sobre o contato de dispositivos HP: Américas (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Europa/Oriente Médio/África (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Ásia (Pacífico)/Japão (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Global (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
+- Para saber mais sobre dispositivos HP e instruções de solicitação de dispositivo, contate: Américas (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Europa/Oriente Médio/África (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Ásia (Pacífico)/Japão (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Global (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
 
 
 

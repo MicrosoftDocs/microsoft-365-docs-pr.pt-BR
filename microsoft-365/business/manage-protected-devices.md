@@ -24,16 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Saiba como redefinir ou apagar um dispositivo gerenciado por meio de políticas de proteção.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074661"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633320"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Gerenciar dispositivos protegidos com o Microsoft 365 Business
 
-Quando um usuário associa o dispositivo dele à sua organização e usa uma conta corporativa para entrar no dispositivo ou nos aplicativos do Office, podemos proteger o dispositivo com as políticas que você configurou, que estarão relacionadas na página **Dispositivos**. Se um dispositivo for perdido ou roubado, você poderá gerenciá-lo nesta página para remover todos os dados da empresa. É possível também restaurar dispositivos Windows 10 para as configurações de fábrica a fim de apagar as configurações personalizadas. Saiba mais sobre as tarefas que você pode realizar para gerenciar dispositivos nos seguintes artigos: 
+Depois que um usuário conecta o dispositivo à sua organização entrando com sua conta de trabalho no dispositivo ou aplicativos do Office no dispositivo, você pode proteger o dispositivo com as políticas que você configurou. Os dispositivos conectados estão listados na página **dispositivos** . Se um dispositivo for perdido ou roubado, você poderá gerenciá-lo nesta página para remover todos os dados da empresa. É possível também restaurar dispositivos Windows 10 para as configurações de fábrica a fim de apagar as configurações personalizadas. 
+
+Para obter mais informações sobre as tarefas que você pode usar para gerenciar dispositivos, consulte estes artigos: 
   
 [Remover dados da empresa de dispositivos](remove-company-data.md)
   

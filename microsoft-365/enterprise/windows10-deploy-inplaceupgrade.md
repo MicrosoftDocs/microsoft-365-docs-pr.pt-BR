@@ -1,7 +1,7 @@
 ---
 title: Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
-description: Fornece orientação sobre como configurar e implantar uma imagem do Windows 10 Enterprise usando o System Center Configuration Manager como uma atualização in-loco.
-keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 365, Windows 10 Enterprise, implantação, atualização in-loco, Gerenciador de configurações, System Center Configuration Manager
+description: Fornece orientação sobre como configurar e implantar uma imagem do Windows 10 Enterprise usando o Gerenciador de configuração do Microsoft Endpoint como uma atualização in-loco.
+keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 365, Windows 10 Enterprise, implantação, atualização in-loco, Gerenciador de configurações, Gerenciador de configurações
 author: greg-lindsay
 localization_priority: Normal
 ms.collection: M365-modern-desktop
@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f7dfa5c72a98dacc7a772ea034df6696621a8ef6
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: f3a518ca448bf56c4328bbc34fe29a41d5f16488
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302928"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627465"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -23,13 +23,13 @@ ms.locfileid: "38302928"
 
 ![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-O caminho mais simples para atualizar os computadores que estão executando o Windows 7 ou o Windows 8,1 para o Windows 10 é por meio de uma atualização in-loco. Você pode usar uma sequência de tarefas do System Center Configuration Manager (Configuration Manager) para automatizar completamente o processo. 
+O caminho mais simples para atualizar os computadores que estão executando o Windows 7 ou o Windows 8,1 para o Windows 10 é por meio de uma atualização in-loco. Você pode usar uma sequência de tarefas do Gerenciador de configurações (Configuration Manager) para automatizar completamente o processo. 
 
 Se você tiver computadores que executam o Windows 7 ou o Windows 8,1, recomendamos esse caminho se sua organização estiver implantando o Windows 10. Isso utiliza o programa de instalação do Windows (Setup. exe) para executar uma atualização in-loco, que preserva automaticamente todos os dados, configurações, aplicativos e drivers da versão do sistema operacional existente. Isso requer o menor esforço de ti, porque não há necessidade de nenhuma infraestrutura de implantação complexa.
 
 Siga estas etapas para configurar e implantar uma imagem do Windows 10 Enterprise usando o Configuration Manager como uma atualização in-loco.
 
-## <a name="the-windows-10-deployment-with-system-center-configuration-manager-poster"></a>Pôster de implantação do Windows 10 com o System Center Configuration Manager
+## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>A implantação do Windows 10 com o pôster do Configuration Manager
 
 O pôster do Gerenciador de configurações é uma página no modo paisagem (17x11). Clique na imagem abaixo para exibir um PDF no navegador. 
 
@@ -43,9 +43,9 @@ Primeiro, use o recurso de prontidão de atualização do Windows Analytics para
 
 Consulte [gerenciar atualizações do Windows com a preparação para atualização](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness) para saber mais, introdução, usar e solucionar problemas de preparação da atualização.
 
-Em seguida, siga o guia para usar o System Center Configuration Manager (Branch atual) para atualizar o sistema operacional Windows 7 ou posterior para o Windows 10. Como em qualquer implantação de alto risco, é recomendável fazer backup dos dados do usuário antes de prosseguir. O armazenamento em nuvem do OneDrive está pronto para ser usado para usuários licenciados da Microsoft 365 e pode ser usado para armazenar com segurança seus arquivos. Para obter mais informações, consulte o [Guia de início rápido do onedrive](https://aka.ms/ODfBquickstartguide). Para acessar essa página, você deve entrar como administrador de locatário ou administrador global em um Office 365 ou Microsoft 365 locatário.
+Em seguida, siga o guia para usar o Gerenciador de configuração (ramificação atual) para atualizar o sistema operacional Windows 7 ou posterior para o Windows 10. Como em qualquer implantação de alto risco, é recomendável fazer backup dos dados do usuário antes de prosseguir. O armazenamento em nuvem do OneDrive está pronto para ser usado para usuários licenciados da Microsoft 365 e pode ser usado para armazenar com segurança seus arquivos. Para obter mais informações, consulte o [Guia de início rápido do onedrive](https://aka.ms/ODfBquickstartguide). Para acessar essa página, você deve entrar como administrador de locatário ou administrador global em um Office 365 ou Microsoft 365 locatário.
 
-Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for System Center Configuration Manager](https://aka.ms/supportforwin10sccm).
+Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for Configuration Manager](https://aka.ms/supportforwin10sccm).
 
 **Para verificar a preparação para atualizar o Windows**
 
@@ -58,12 +58,12 @@ Revise esses requisitos antes de iniciar a implantação do Windows 10:
     - Backups de dados do usuário – embora os dados do usuário sejam migrados na atualização, a prática recomendada é configurar um cenário de backup. Por exemplo, exporte todos os dados do usuário para uma conta do OneDrive, unidade flash USB criptografada no BitLocker ou servidor de arquivos de rede. Para obter mais informações, consulte [back up or Transfer Data in Windows](https://aka.ms/backuptransferdatawindows).
 - **Preparação do ambiente** : você usará uma estrutura de servidor do Configuration Manager existente para se preparar para a implantação do sistema operacional. Além da configuração base, as seguintes configurações devem ser feitas no ambiente do Configuration Manager:
     1. [Estenda o esquema do Active Directory](https://aka.ms/extendadschema) e [crie um contêiner de gerenciamento do sistema](https://aka.ms/createsysmancontainer).
-    2. Habilitar a descoberta de florestas do Active Directory e a descoberta de sistema do Active Directory. Para obter mais informações, consulte [Configure Discovery Methods for System Center Configuration Manager](https://aka.ms/configurediscoverymethods).
-    3. Criar limites de intervalo IP e grupo de limite para a atribuição de conteúdo e de site. Para obter mais informações, consulte [definir limites do site e grupos de limite para o System Center Configuration Manager](https://aka.ms/definesiteboundaries).
+    2. Habilitar a descoberta de florestas do Active Directory e a descoberta de sistema do Active Directory. Para obter mais informações, consulte [Configure Discovery Methods for Configuration Manager](https://aka.ms/configurediscoverymethods).
+    3. Criar limites de intervalo IP e grupo de limite para a atribuição de conteúdo e de site. Para saber mais, confira [definir limites do site e grupos de limite para o Gerenciador de configurações](https://aka.ms/definesiteboundaries).
     4. Adicione e configure a função de ponto do Configuration Manager Reporting Services. Para obter mais informações, consulte [Configuring Reporting in Configuration Manager](https://aka.ms/configurereporting).
     5. Criar uma estrutura de pasta do sistema de arquivos para pacotes.
     6. Criar uma estrutura de pasta do console do Configuration Manager para pacotes.
-    7. Instale as atualizações do System Center Configuration Manager (Branch atual) e os pré-requisitos adicionais do Windows 10.
+    7. Instale as atualizações do Configuration Manager (Branch atual) e os pré-requisitos adicionais do Windows 10.
 
 ## <a name="part-2-add-a-windows-10-os-image-using-configuration-manager"></a>Parte 2: adicionar uma imagem do Windows 10 so usando o Configuration Manager
 Agora, você precisará criar um pacote de atualização do sistema operacional que contenha a mídia de instalação completa do Windows 10. Nas etapas a seguir, você usará o Gerenciador de configurações para criar um pacote de atualização para o Windows 10 Enterprise x64.
@@ -94,7 +94,7 @@ Para criar uma sequência de tarefas de atualização, execute as seguintes etap
 Após criar a sequência de tarefas de atualização, você precisará criar uma coleção que contenha os dispositivos que você irá atualizar.
 
 > [!NOTE]
-> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar coleções no System Center Configuration Manager](https://aka.ms/sccm-create-collections).
+> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar conjuntos no Gerenciador de configurações](https://aka.ms/sccm-create-collections).
 
 1. No console do Gerenciador de configurações, no espaço de trabalho **ativos e conformidade** , clique com o botão direito do mouse em **coleções de dispositivos**e selecione **criar coleção de dispositivos**. 
 2. No Assistente para criar coleção de dispositivos, na página **geral** , insira as seguintes configurações e selecione **Avançar**:

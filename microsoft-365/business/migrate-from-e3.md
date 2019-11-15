@@ -19,16 +19,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business do Office 365 E3.
-ms.openlocfilehash: 5142038110cada6e1da77d405c82f119e0f9e4d3
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: f624ee7ef7c00ac4d1fe413500d0cd081a156748
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002412"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640572"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Migrando do Office 365 E3 para a Microsoft 365 Business 
 
-O Microsoft 365 Business tem tudo o que você precisa para sua pequena empresa, combinando os melhores aplicativos de produtividade baseada na nuvem com gerenciamento e segurança simples de dispositivos.  Se você tiver uma assinatura do Office 365 E3, mas não tiver mais de 300 funcionários, considere mudar para o Microsoft 365 Business para recursos de segurança adicionais.
+O Microsoft 365 Business tem tudo o que você precisa para sua pequena empresa, combinando os melhores aplicativos de produtividade baseada na nuvem com gerenciamento e segurança simples de dispositivos. Se você tiver uma assinatura do Office 365 E3, mas não tiver mais de 300 funcionários, considere mudar para o Microsoft 365 Business para recursos de segurança adicionais.
 
 A migração é fácil: primeiro você muda de licenças e todos os seus dados e informações de usuário em sua assinatura atual são mantidos. Após a migração, você precisará configurar os recursos que são adicionados no Microsoft 365 Business.
 
@@ -62,15 +62,15 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Office 365 
 |**Licença de acesso para cliente (direitos de CAL)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Incluído com o Office 365 E3](./media/check-mark.png)|
 
-<sup>1</sup> a versão do Microsoft 365 Business dos aplicativos do Office não inclui ativação de volume por meio da política de grupo, telemetria de aplicativos, controles de atualização, comparação de planilhas e consultas de Business Intelligence.
+<sup>1</sup> a versão Microsoft 365 Business dos aplicativos do Office não inclui ativação por volume através da política de grupo, telemetria de aplicativos, controles de atualização, comparação de planilhas e consultas de Business Intelligence.
 
 ## <a name="migration"></a>Migração
 
-Para migrar sua assinatura, consulte [mudar para um plano diferente manualmente](https://docs.microsoft.com/office365/admin/misc/switch-plans-manually) para obter instruções se você deseja mover apenas algumas pessoas para o Microsoft 365 Business, você pode [atualizar todos automaticamente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan)ou pode trabalhar com o parceiro para migrar o E3 assinatura e licenças para uma assinatura do Microsoft 365 Business.
+Para migrar sua assinatura, consulte [mudar para um plano diferente manualmente](https://docs.microsoft.com/office365/admin/misc/switch-plans-manually) para obter instruções, se você quiser mover apenas algumas pessoas para o Microsoft 365 Business. Você também pode [Atualizar todas as pessoas automaticamente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan)ou trabalhar com o parceiro para mover sua assinatura e licenças do E3 para uma assinatura do Microsoft 365 Business.
 As seções a seguir descrevem as alterações que você precisa fazer, se houver, e o que você pode fazer após a migração.
 
 ### <a name="office-365-e3-subscription-configuration-and-data"></a>Dados e configuração de assinatura do Office 365 E3
-Você não precisa fazer alterações em sua assinatura atual ou dados antes de migrar, o que inclui:
+Você não precisa fazer alterações em sua assinatura atual ou seus dados antes de migrar, o que inclui:
 
 - Configuração de assinatura, como registros DNS e nomes de domínio.
 - Contas de usuário e de grupo e configurações de autenticação, como a autenticação multifator ou políticas de acesso condicional.
@@ -78,7 +78,7 @@ Você não precisa fazer alterações em sua assinatura atual ou dados antes de 
 
 ### <a name="windows-10"></a>Windows 10
 
-Se o Windows ainda não estiver na atualização do Windows pro Creator, será necessário [atualizá-lo para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md).
+Se o Windows ainda não estiver na atualização do Windows pro Creator, [atualize-o para a atualização do Windows pro Creators](upgrade-to-windows-pro-creators-update.md).
 
 ### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Configurar políticas para proteger os arquivos e os dispositivos do usuário
 
@@ -87,7 +87,7 @@ Se o Windows ainda não estiver na atualização do Windows pro Creator, será n
 
 Após ter atribuído licenças para o Microsoft 365 Business, você pode começar a proteger os dispositivos e arquivos dos usuários.
 
-Se você atualizou todas as pessoas em sua organização para o Microsoft 365 Business, verá o assistente de configuração na Home Page e poderá seguir as etapas [Configurar o Microsoft 365 Business no assistente de instalação](set-up.md) para proteger arquivos e dispositivos móveis.
+Se você atualizou todas as pessoas em sua organização para o Microsoft 365 Business, verá o assistente de instalação na Home Page e poderá seguir as etapas [Configurar o microsoft 365 Business no assistente de instalação](set-up.md) para proteger arquivos e dispositivos móveis.
 
 Você também pode concluir estas etapas na página dispositivos:
   
@@ -97,7 +97,7 @@ Você também pode concluir estas etapas na página dispositivos:
     
 3. No painel **Adicionar política** , dê um nome à política e, em seguida, escolha um **tipo de política** na lista suspensa. 
     
-    Você pode configurar políticas de aplicativo para proteger arquivos em dispositivos Android e iPhone, bem como Windows 10, e pode configurar políticas de configuração de dispositivo para dispositivos do Windows 10 de propriedade da empresa. Confira os seguintes links para obter detalhes:
+     Você pode configurar políticas de aplicativo para proteger arquivos em dispositivos Android e iPhone, bem como Windows 10, e pode configurar políticas de configuração de dispositivo para dispositivos do Windows 10 de propriedade da empresa. Confira os seguintes links para obter detalhes:
     
   - [Definir configurações de proteção de aplicativo para dispositivos Android ou iOS](app-protection-settings-for-android-and-ios.md)
     
@@ -113,7 +113,7 @@ Você também pode concluir estas etapas na página dispositivos:
 
 ### <a name="threat-protection"></a>Proteção contra Ameaças
 
-Após a migração para o Microsoft 365 Business, você tem o Office 365 ATP. Confira o [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) para obter uma visão geral e configurar a configuração de [links de segurança ATP](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa), [configurar os anexos seguros de ATP](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5) e [Configurar a ATP anti-phishing](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
+Após a migração para o Microsoft 365 Business, você tem o Office 365 ATP. Confira [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) para obter uma visão geral. Para configurar, consulte [Configurar links de segurança ATP](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa), [Configurar anexos de segurança ATP](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)e configurar o [anti-phishing da ATP](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

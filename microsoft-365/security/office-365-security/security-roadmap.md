@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Principais recomendações da equipe do cybersecurity da Microsoft para a implementação de recursos de segurança para proteger seu ambiente do Office 365. '
-ms.openlocfilehash: e9731b9e64fa552363a52422146e1ae6eccf64ab
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: ab2d780ff947ac829ba2565cf3fd142208fcf8b0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032096"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627565"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Mapa de segurança do Office 365-principais prioridades para os primeiros 30 dias, 90 dias e além de
 
@@ -74,7 +74,7 @@ Essas tarefas demoram um pouco mais para planejar e implementar, mas aumentam si
 |Área  <br/> |Tarefa  <br/> |
 |Gerenciamento de segurança  <br/> | • Verifique a pontuação segura para as ações recomendadas para [https://securescore.office.com](https://securescore.office.com)seu ambiente ().  <br/>  • Continue a examinar regularmente painéis e relatórios no centro de segurança do Microsoft 365, no Cloud app Security e nas ferramentas SIEM.  <br/>  • Procure e implemente atualizações de software.  <br/>  • Conduzir simulações de ataque para os ataques de senhas de spear-phishing, de irrigação de senha e de força bruta usando o [Attack Simulator](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) (incluído no [Office 365 Threat Intelligence](office-365-ti.md)).  <br/>  • Procure por compartilhar riscos examinando os relatórios internos no Cloud app Security (na guia investigar).  <br/>  • Verifique o [Gerenciador de conformidade](../../compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) para analisar o status das regulamentações que se aplicam à sua organização (como RGPD, NIST 800-171).  <br/> |
 |Proteção contra Ameaças  <br/> | Implementar proteções aprimoradas para contas de administrador:  <br/>  • Configure o PAWs ( [estações de trabalho com privilégios de acesso privilegiados](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) ) para atividades de administrador.  <br/>  • Configure o [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).  <br/>  • Configure uma ferramenta de gerenciamento de eventos e informações de segurança (SIEM) para coletar dados de log do Office 365, do Cloud app Security e de outros serviços, incluindo o AD FS. O log de auditoria do Office 365 armazena dados por apenas 90 dias. A captura desses dados na ferramenta SIEM permite que você armazene dados por um período mais longo.  <br/> |
-|Gerenciamento de identidades e acesso  <br/> | • Habilitar e impor a MFA para todos os usuários.  <br/>  • Implemente um conjunto de [acesso condicional e políticas relacionadas](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations). |
+|Gerenciamento de identidades e acesso  <br/> | • Habilitar e impor a MFA para todos os usuários.  <br/>  • Implemente um conjunto de [acesso condicional e políticas relacionadas](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
 |Proteção de informações  <br/> | Adaptar e implementar políticas de proteção de informações. Esses recursos incluem exemplos:  <br/> • [Proteção de informações do Office 365 para rgpd](https://aka.ms/o365gdpr) <br/> • [Proteger sites e arquivos do SharePoint Online](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Use políticas de prevenção de perda de dados e ferramentas de monitoramento no Office 365 para dados armazenados no Office 365 (em vez de segurança do Cloud app). <br><br>Use o Cloud app Security com o Office 365 para recursos avançados de alerta (diferentes de prevenção de perda de dados).  <br/> |
    
 ## <a name="beyond"></a>Deles

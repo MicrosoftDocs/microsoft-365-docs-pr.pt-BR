@@ -12,23 +12,23 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para criar e usar rótulos de retenção do Office 365 em documentos no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 66e06f9a89b102c131bc29af17c4564fabbab9b4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 1bcd3ab2d8069ad85d48ecf682d3b7d49e7cf739
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072411"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38639781"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Classificação de dados para seu ambiente de teste do Microsoft 365 Enterprise
 
 Com as instruções deste artigo, você configura a classificação de dados usando rótulos de retenção do Office 365 no ambiente de teste do Microsoft 365 Enterprise.
 
-![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar seu ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
 
 Se você só quiser configurar rótulos de retenção do Office 365 de uma forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -99,7 +99,7 @@ Primeiro, crie um site de equipe do SharePoint Online de nível confidencial:
     
 6. Em **Descrição do site de equipe**, digite **site do SharePoint para arquivos confidenciais**.
     
-7.  Em **Configurações de privacidade**, selecione **Privado – somente membros podem acessar esse site** e clique em **Avançar**.
+7.  Em **Configurações de privacidade**, escolha **Privado – somente membros podem acessar esse site** e clique em **Avançar**.
     
 8. No painel **Quem você deseja adicionar?**, clique em **Concluir**.
     
@@ -107,7 +107,7 @@ Em seguida, configure a pasta de documentos do site de equipe do SensitiveFiles 
   
 1. Na guia **SensitiveFiles** do navegador, clique em **documentos**.
     
-2. Clique no ícone de configurações e clique em **Configurações de biblioteca**.
+2. Clique no ícone de configurações e em **Configurações de biblioteca**.
     
 3. Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
     
@@ -115,7 +115,7 @@ Em seguida, configure a pasta de documentos do site de equipe do SensitiveFiles 
 
 Em seguida, crie um novo documento no site do SensitiveFiles e altere seu rótulo de retenção.
     
-1. Na pasta documentos, clique em **novo documento do Word do >**.
+1. Na pasta documentos, clique em **novo documento do Word >**.
     
 2. Digite algum texto no documento em branco. Aguarde o texto ser salvo.
     

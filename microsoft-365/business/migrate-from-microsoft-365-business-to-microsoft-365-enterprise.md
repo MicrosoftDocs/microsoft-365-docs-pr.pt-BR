@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business para a Microsoft 365 Enterprise E3.
-ms.openlocfilehash: 1ef32960905f1336f9ac92231d463959e3bfd01c
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 77760aa8ea5b79f39d4c069d86e79a3cec6844e9
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931849"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640780"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-enterprise-e3"></a>Migrar do Microsoft 365 Business para o Microsoft 365 Enterprise E3
 
@@ -34,7 +34,7 @@ Por exemplo, sua empresa cresceu e precisa de mais de 300 licenças (Parabéns, 
 
 Ou, seus negócios precisam de recursos corporativos, como o Office 365 ProPlus, o Windows 10 Enterprise E3 ou as licenças de acesso para Cliente Enterprise (CALs).
 
-A atualização é fácil: você pode iniciar a atualização [do centro de administração](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide). Todos os dados e a configuração da sua assinatura atual são mantidos. Não há nada para se preparar para a migração e nada a fazer posteriormente, exceto aproveitar os novos recursos. 
+A atualização é fácil: você pode iniciar a atualização [a partir do centro de administração](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide). Todos os dados e a configuração da sua assinatura atual são mantidos. Não há nada para se preparar para a migração e nada para fazer posteriormente, exceto aproveitar os novos recursos. 
 
 >[!Note]
 >Você também pode usar uma assinatura do Microsoft 365 Business para até 300 estações e obter uma assinatura do Microsoft 365 Enterprise E3 por mais de 300 estações. No entanto, o Office 365 ATP não está incluído no Microsoft 365 Enterprise E3. Para obter proteção contínua contra ameaças, você deve adicionar mais licenças do Office 365 ATP para que todos os usuários no escopo das suas políticas de ATP do Office 365 sejam licenciados.
@@ -87,13 +87,13 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Microsoft 3
 
 ## <a name="migration"></a>Migração
 
-Para migrar, trabalhe com seu parceiro para transferir sua assinatura e licenças do Microsoft 365 Business para uma assinatura do Microsoft 365 Enterprise E3 com suas licenças.
+Para migrar, trabalhe com seu parceiro para transferir sua assinatura e licenças do Microsoft 365 Business para uma assinatura do Microsoft 365 Enterprise E3 adequada com suas licenças.
 
 As seções a seguir descrevem as alterações que você precisa fazer, se houver, e o que você pode fazer após a migração.
 
 ### <a name="microsoft-365-subscription-configuration-and-data"></a>Dados e configuração de assinatura do Microsoft 365
 
-Você não precisa fazer alterações em sua assinatura atual ou dados antes de migrar, o que inclui:
+Você não precisa fazer alterações na assinatura atual ou nos dados antes de migrar, o que inclui:
 
 - Configuração de assinatura, como nomes de domínio DNS.
 - Contas de usuário e de grupo e configurações de autenticação, como a autenticação multifator ou políticas de acesso condicional.

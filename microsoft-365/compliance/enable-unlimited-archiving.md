@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: 'Para administradores: saiba como habilitar o arquivamento de expansão automática no Office 365, que fornece aos usuários um armazenamento ilimitado para suas caixas de correio do Exchange Online. Você pode habilitar o arquivamento de expansão automática para toda a sua organização ou apenas para usuários específicos.'
-ms.openlocfilehash: b140cf9bed811c5af2de2e5441bd3c296ed7effe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b5191aa080722b5bb3150c92d922b6b150fc545e
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072694"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627087"
 ---
 # <a name="enable-unlimited-archiving-in-office-365--admin-help"></a>Habilitar o arquivamento ilimitado no Office 365 — ajuda do administrador
 
@@ -48,10 +48,10 @@ Você pode habilitar o arquivamento de expansão automática para toda a sua org
     
 2. Execute o seguinte comando no PowerShell do Exchange Online para habilitar o arquivamento de expansão automática para toda a sua organização.
 
-    ```
+    ```powershell
     Set-OrganizationConfig -AutoExpandingArchive
     ```
-  
+
 ## <a name="enable-auto-expanding-archiving-for-specific-users"></a>Habilitar o arquivamento de expansão automática para usuários específicos
 
 Em vez de habilitar o arquivamento de expansão automática para cada usuário em sua organização, você pode habilitá-lo somente para usuários específicos. Você pode fazer isso porque apenas alguns usuários podem precisar de uma grande capacidade de armazenamento de arquivo morto.
@@ -68,7 +68,7 @@ Esse espaço adicional é adicionado para evitar qualquer problema de armazename
     
 2. Execute o seguinte comando no PowerShell do Exchange Online para habilitar o arquivamento de expansão automática para um usuário específico. Conforme explicado anteriormente, a caixa de correio de arquivo morto do usuário (arquivo principal) deve estar habilitada para que você possa ativar o arquivamento de expansão automática para esse usuário.
     
-    ```
+    ```powershell
     Enable-Mailbox <user mailbox> -AutoExpandingArchive
     ```
 
@@ -80,7 +80,7 @@ Esse espaço adicional é adicionado para evitar qualquer problema de armazename
 
 Para verificar se o arquivamento de expansão automática está habilitado para sua organização, execute o seguinte comando no PowerShell do Exchange Online.
 
-```
+```powershell
 Get-OrganizationConfig | FL AutoExpandingArchiveEnabled
 ```
 
@@ -88,9 +88,10 @@ Um valor `True` indica que o arquivamento de expansão automática está habilit
   
 Para verificar se o arquivamento de expansão automática está habilitado para um usuário específico, execute o seguinte comando no PowerShell do Exchange Online.
   
-```
+```powershell
 Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 ```
+
 Um valor `True` indica que o arquivamento de expansão automática está habilitado para o usuário. 
   
 Tenha em mente as seguintes coisas depois de habilitar o arquivamento de expansão automática:
@@ -106,7 +107,7 @@ Tenha em mente as seguintes coisas depois de habilitar o arquivamento de expans�
 
 - Você também pode usar o PowerShell para habilitar caixas de correio de arquivo morto. Por exemplo, você pode executar o seguinte comando no PowerShell do Exchange Online para habilitar caixas de correio de arquivo morto para todos os usuários cuja caixa de correio de arquivo morto ainda não esteja habilitada.
 
-    ```
+    ```powershell
     Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
     ```
 
@@ -116,7 +117,7 @@ Tenha em mente as seguintes coisas depois de habilitar o arquivamento de expans�
     
 - O arquivamento de expansão automática é suportado para caixas de correio de arquivo morto baseadas em nuvem em uma implantação híbrida do Exchange para usuários que tenham uma caixa de correio primária local. No entanto, após o arquivamento de expansão automática ser habilitado para uma caixa de correio de arquivo morto baseado em nuvem, não é possível desconectar a caixa de correio de arquivo morto à organização local do Exchange. O arquivamento de expansão automática não tem suporte para caixas de correio locais no Exchange Server 2010.
     
-- Para obter uma lista de clientes do Outlook que os usuários podem usar para acessar itens na área de armazenamento adicional em suas caixas de correio de arquivo morto, consulte a seção "requisitos do Outlook para acessar itens em um arquivo expandido automaticamente" em [visão geral de arquivamento ilimitado no Office 365](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive) .
+- Para obter uma lista de clientes do Outlook que os usuários podem usar para acessar itens na área de armazenamento adicional em suas caixas de correio de arquivo morto, consulte a seção "requisitos do Outlook para acessar itens em um arquivo expandido automaticamente" em [visão geral de arquivamento ilimitado no Office 365](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive).
     
 - Conforme explicado anteriormente, 10 GB é adicionado à cota de armazenamento da caixa de correio de arquivo morto principal do usuário (e à pasta itens recuperáveis se a caixa de correio estiver em espera) ao executar o comando **Enable-Mailbox-AutoExpandingArchive** . Isso fornece armazenamento adicional até que o espaço de armazenamento expandido automaticamente seja provisionado (o que pode levar até 30 dias). Esse espaço de armazenamento adicional não é adicionado quando você executa o **Set-OrganizationConfig-AutoExpandingArchive** para habilitar o arquivamento de expansão automática para todas as caixas de correio em sua organização. Se você habilitou o arquivamento de expansão automática para toda a organização, mas precisa adicionar 10 GB adicionais de espaço de armazenamento para um usuário específico, é possível executar o comando **Enable-Mailbox-AutoExpandingArchive** nessa caixa de correio. Você receberá um erro informando que o arquivamento de expansão automática já foi habilitado, mas o espaço de armazenamento adicional será adicionado à caixa de correio. 
 

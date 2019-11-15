@@ -16,14 +16,17 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: O Office 365 pode ajudar a proteger seu ambiente contra malware, detectando vírus em arquivos que os usuários carregam no SharePoint Online. Os arquivos são verificados em busca de vírus após serem carregados. Se um arquivo for infectado, uma propriedade será definida para que os usuários não possam baixar ou sincronizar o arquivo.
-ms.openlocfilehash: 60dc2cbd1b2d248f13c2b8c32738c4f195d6a7a0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9776dd7791d8543e0fd401a3c21c95d9fbf60f09
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073349"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38639821"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Detecção de vírus no SharePoint Online
+
+> [!IMPORTANT]
+> Para usar esse recurso, a proteção avançada contra ameaças do Office 365 (ATP) é necessária. Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams).
 
 O Office 365 pode ajudar a proteger seu ambiente contra malware, detectando vírus em arquivos que os usuários carregam no SharePoint Online. Os arquivos são verificados em busca de vírus após serem carregados. Se um arquivo for infectado, uma propriedade será definida para que os usuários não possam baixar ou sincronizar o arquivo.
   
