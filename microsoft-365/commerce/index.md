@@ -11,10 +11,10 @@ ms.date: 5/29/2019
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.openlocfilehash: f25274c1cf06bf2900de3a45686156f33d3143aa
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37889900"
 ---
 # <a name="manage-commercial-purchases-in-microsoft-365-admin-center"></a>Gerenciar compras comerciais no centro de administração do Microsoft 365

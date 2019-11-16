@@ -7,10 +7,10 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 10/24/2018
 ms.openlocfilehash: 45baa63fc475917a10c87cc66d1346af48479645
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38012032"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?

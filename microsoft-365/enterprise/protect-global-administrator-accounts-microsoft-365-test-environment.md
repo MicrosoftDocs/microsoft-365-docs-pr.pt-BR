@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: c7ee5bca3f5841ac7751e497ca88391daf965301
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 89985f99f5471aab87189e78035062add2c6bad9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640353"
+ms.locfileid: "38673327"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
+
+*Este guia de laboratório de teste só pode ser usado para ambientes de teste do Microsoft 365 Enterprise.*
 
 Você pode impedir ataques digitais em sua organização, garantindo que suas contas de administrador sejam o mais seguras possível. Este artigo descreve como usar as políticas de acesso condicional do Azure Active Directory (Azure AD) para proteger contas de administrador global.
 
@@ -29,7 +31,7 @@ Há duas fases para proteger as contas de administrador global no seu ambiente d
 1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Proteger sua conta de administrador global dedicado.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.

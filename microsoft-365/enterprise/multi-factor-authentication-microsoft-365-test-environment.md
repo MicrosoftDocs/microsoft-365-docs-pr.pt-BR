@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 6c004f1ac093a997c263162ab8c945366f6361bd
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: af4ae63f52fa74084dfddf0e6861c5ae3ba2aedb
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639901"
+ms.locfileid: "38673257"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
+
+*Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 Enterprise e do Office 365.*
 
 Para obter um nível adicional de segurança para entrar no Office 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua organização, você pode habilitar a autenticação multifator do Azure, que requer mais do que apenas um nome de usuário e senha para verificar um Count. Com a autenticação multifator, os usuários precisam confirmar uma chamada telefônica, digitar um código de verificação enviado em uma mensagem de texto ou especificar uma senha de aplicativo em seus telefones inteligentes após inserir corretamente suas senhas. O acesso só será possível depois que esse segundo fator de autenticação for atendido. 
   
@@ -32,7 +34,7 @@ Há duas fases para configurar a autenticação multifator para uma conta no seu
     
 2. Habilite e teste a autenticação multifator para a conta do usuário 2.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.

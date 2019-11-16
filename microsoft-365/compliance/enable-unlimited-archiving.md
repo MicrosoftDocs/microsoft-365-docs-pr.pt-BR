@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: 'Para administradores: saiba como habilitar o arquivamento de expansão automática no Office 365, que fornece aos usuários um armazenamento ilimitado para suas caixas de correio do Exchange Online. Você pode habilitar o arquivamento de expansão automática para toda a sua organização ou apenas para usuários específicos.'
 ms.openlocfilehash: b5191aa080722b5bb3150c92d922b6b150fc545e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38627087"
 ---
 # <a name="enable-unlimited-archiving-in-office-365--admin-help"></a>Habilitar o arquivamento ilimitado no Office 365 — ajuda do administrador

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business.
-ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633390"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676059"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Visão geral do Microsoft 365 Business
 
@@ -98,4 +98,7 @@ Para ver a lista completa de recursos de segurança, consulte [recursos de segur
 
 - Se você não tem um parceiro e deseja obter o Microsoft 365 Business, você pode [comprá-lo aqui](https://www.microsoft.com/microsoft-365/business) e siga as instruções de [inscrição](sign-up.md) .
 
-- Você também pode fazer o acompanhamento para uma [loja da Microsoft](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) para comprar o Microsoft 365 Business e obter a ajuda de configuração.
+- Você também pode fazer o acompanhamento para uma [loja da Microsoft](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) para comprar o Microsoft 365 Business e obter a ajuda de configuração.
+
+    > [!NOTE]
+    > Este link é para lojas somente nos EUA

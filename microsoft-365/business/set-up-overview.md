@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: 50f172c235aa06aa78fec60fc119ac7f568df308
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575579"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676019"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -70,10 +70,9 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
 
 ## <a name="stes-4-install-office-365-business"></a>Stes 4: instalar o Office 365 Business
 - Você pode instalar automaticamente o Office nos dispositivos Windows usando o [Assistente de configuração](set-up.md#deploy-office-365-client-apps).
-- Instale automaticamente o [Office](auto-install-or-uninstall-office.md) a partir do centro de administração.
 - Permitir que os usuários [instalem aplicativos do Office](https://docs.microsoft.com/office365/admin/setup/install-applications) para Windows e dispositivos.
      
-## <a name="advanced"></a>Advanced
+## <a name="advanced"></a>Avançado
 - **Usar o piloto automático para configurar novos dispositivos**
             
      Você pode usar o [Windows AutoPilot](add-autopilot-devices-and-profile.md) para configurar automaticamente **novos** dispositivos Windows 10 para um usuário, mas pode ser mais fácil obter um [parceiro](https://www.microsoft.com/solution-providers/search) que pode fazer isso para você. Você também pode ir para a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) e solicitar que um especialista em tecnologia de nuvem configure novos dispositivos que você comprou para você.
@@ -82,6 +81,6 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
 
      - Se sua organização usa o Windows Server Active Directory no local, você pode configurar o Microsoft 365 Business para proteger seus dispositivos Windows 10 e ainda manter o acesso a recursos locais que exigem autenticação local. Siga as etapas em [habilitar dispositivos do Windows 10 associados ao domínio para serem gerenciados pela Microsoft 365 Business](manage-windows-devices.md) para configurar isso. Este é o método preferencial e os dispositivos nesse estado são chamados de dispositivos do Azure AD associados híbridos.
 
-    - Se sua empresa tiver um Active Directory local que contenha alguns recursos locais (como compartilhamento de arquivos e impressoras), você poderá dar aos seus dispositivos associados ao AD do Azure acesso a esses recursos seguindo as etapas aqui: [acessar recursos locais de um Dispositivo ingressado no AD do Azure no Microsoft 365 Business](access-resources.md).
+    - Se sua empresa tiver um Active Directory local que contenha alguns recursos locais (como compartilhamento de arquivos e impressoras), você poderá dar aos seus dispositivos associados ao AD do Azure acesso a esses recursos seguindo as etapas aqui: [acessar recursos locais de um dispositivo associado ao AD do Azure no Microsoft 365 Business](access-resources.md).
 
   

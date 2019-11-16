@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f3a518ca448bf56c4328bbc34fe29a41d5f16488
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 08d10dae35023d3e1d9f1e98d36e52f283ec04fa
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627465"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38669672"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -33,7 +33,7 @@ Siga estas etapas para configurar e implantar uma imagem do Windows 10 Enterpris
 
 O pôster do Gerenciador de configurações é uma página no modo paisagem (17x11). Clique na imagem abaixo para exibir um PDF no navegador. 
 
-[![Implantar o Windows 10 com o cartaz do Configuration Manager](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=jjP0k8Y9ClANZptzS5IPwxs61kocwCg6bLUBdjZp6lY%3D&st=2019-11-12T23%3A51%3A28Z&se=2019-11-14T00%3A01%3A28Z&sp=r)
+[![Implantar o Windows 10 com o cartaz do Configuration Manager](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
 
 Você também pode fazer o download deste pôster em formato [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) ou do [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx).
 

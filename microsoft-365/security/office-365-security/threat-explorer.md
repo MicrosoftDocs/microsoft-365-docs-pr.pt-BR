@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 01985c69d1d89536d16b166eafc23df37ee53d0a
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: e3f205a75c30397382b63112df4503f7a1d23582
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639881"
+ms.locfileid: "38673277"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -81,11 +81,15 @@ A **linha do tempo de email** é outro novo recurso do Explorer destinado a torn
 Para obter mais informações sobre a investigação de emails mal-intencionados [, consulte localizar e investigar emails mal-intencionados que foram entregues no Office 365](https://docs.microsoft.com/office365/securitycompliance/investigate-malicious-email-that-was-delivered).
 
 
-Além disso, agora você poderá **exportar relatórios** para o Microsoft Excel para exibir a ID da mensagem de rede e o clique em veredicto, tornando a tarefa de entender onde seu tráfego foi originado mais facilmente. Veja como funciona. A partir do gerenciamento de ameaças no Office 365 Quick-Launch, clique nesta cadeia:
+Além disso, agora você poderá **exportar relatórios para cliques de URL** para o Microsoft Excel a fim de exibir a ID da mensagem de rede e o clique em veredicto, tornando a tarefa de compreensão onde sua URL clica em tráfego originado mais facilmente. Veja como funciona. A partir do gerenciamento de ameaças no Office 365 Quick-Launch, clique nesta cadeia:
 
-**Explorer > exibir > de Phish > principais URLs**
+**Explorer > exibir > de phishing clica > principais URLs ou principais cliques de URL > clique em qualquer registro para abrir o submenu de URL**
 
 Ao clicar em uma URL na lista, você verá um novo botão de exportação no painel de saída. Use este botão para mover dados para uma planilha do Excel para facilitar o relatório.
+
+Você pode acessar o mesmo local em detecções de tempo real, como:
+
+**Explorer > detecções em tempo real > exibir as URLs de phishing > > principais URLs ou principais cliques > clique em qualquer registro para abrir o submenu de URL > navegue até a guia cliques.**
 
 > [!TIP]
 > Mapeamento de ID de mensagem de rede o clique em voltar para emails específicos quando você pesquisa pelo Explorer ou ferramentas de terceiros associadas via ID de mensagem de rede. A pesquisa da ID da mensagem de rede fornecerá aos administradores o email específico associado a um clique. Na exportação, a identificação de correlação da ID da mensagem de rede realiza uma análise mais rápida e eficiente.

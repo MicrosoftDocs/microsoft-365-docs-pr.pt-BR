@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configure o licenciamento baseado em grupo e a associação de grupos dinâmicos em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: c3b515a9b453275f9b79ba2b90d5a4c14611c2aa
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: fe6380d94919556904a1fb1ac0624fac3496fe30
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639791"
+ms.locfileid: "38673247"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 Enterprise
+
+*Este guia de laboratório de teste só pode ser usado para ambientes de teste do Microsoft 365 Enterprise.*
 
 O licenciamento baseado em grupo atribui ou remove automaticamente licenças de uma conta de usuário com base na associação de grupo. A associação de grupo dinâmico adiciona ou remove membros de um grupo com base nas propriedades da conta de usuário, como departamento ou país. Este artigo orienta você através de uma demonstração do ambiente de teste do Microsoft 365 Enterprise.
 
@@ -29,7 +31,7 @@ Há duas fases para configurar o licenciamento automático e a associação de g
 1. Criar o ambiente de teste do Microsoft 365 Enterprise.
 2. Configurar e testar a associação de grupo dinâmico e o licenciamento automático.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.

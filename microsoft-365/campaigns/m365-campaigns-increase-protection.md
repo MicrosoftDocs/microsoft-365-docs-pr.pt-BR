@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365 Business
-ms.openlocfilehash: f7ae2516403613667401e622f93939cfce63e617
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 9b17af7f6dde321fb8da758f0cc8223e5f488121
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029065"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676099"
 ---
 # <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
 
@@ -139,7 +139,7 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
     
 4. Na página **anti-phishing** , selecione **+ criar**. Um assistente é iniciado que orienta você na definição da política anti-phishing.
     
-5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) para obter mais detalhes. 
+5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) para obter mais detalhes. 
     
 6. Depois de revisar as configurações, escolha **criar esta política** ou **salvar**, conforme apropriado.
     
@@ -155,7 +155,7 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
 |Adicionar domínios e remetentes confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
 |Aplicado a  <br/> |Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **concluído**.  <br/> |
    
-Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
+Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 ## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>Proteção contra anexos mal-intencionados, arquivos e links com a proteção avançada contra ameaças (ATP)
 
@@ -208,7 +208,7 @@ Para criar uma política de anexo seguro ATP, Assista a [este breve vídeo](http
 |Redirecionar o anexo na detecção  <br/> |Habilitar o redirecionamento (Selecione esta caixa) Insira a conta de administrador ou uma configuração de caixa de correio para quarentena.          Aplica a seleção acima se a verificação de malware por anexos expira ou quando ocorre um erro (Selecione esta caixa).  <br/> |
 |Aplicado a  <br/> |O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
    
-Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
+Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 ### <a name="set-up-atp-safe-links-in-the-security--compliance-center"></a>Configurar links de ATP seguros no centro de conformidade e segurança &
 

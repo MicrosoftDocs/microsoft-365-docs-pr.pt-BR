@@ -11,10 +11,10 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Documentação e recursos do Microsoft 365 Enterprise
 ms.openlocfilehash: 8740d999ff2ade06b5b2c4f168068e8827d0fb41
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38030876"
 ---
 <div id="main" class="v2">

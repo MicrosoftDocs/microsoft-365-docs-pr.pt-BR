@@ -13,17 +13,15 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: 08676f9fa89d9cbf932f9d70664ad1d17a153e3b
-ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
+ms.openlocfilehash: ce813407c0f4c6f7b68aa997bf5e54b86a24ff2d
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37617249"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672707"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint para ativos digitais altamente confidenciais da Contoso Corporation
 
- **Resumo:** Como a contoso implementou um site do SharePoint para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.
-  
 Os ativos mais valiosos da Contoso são sua propriedade intelectual na forma de segredos comerciais, como técnicas de fabricação proprietárias e especificações de design para produtos que estão em desenvolvimento. Esses ativos estavam em formato digital, originalmente armazenados como arquivos em um site do SharePoint Server 2016. Quando a contoso implantou o Microsoft 365 Enterprise, eles queriam migrar seus ativos digitais locais para a nuvem para facilitar o acesso e mais colaboração aberta entre as equipes de pesquisa em Paris, Moscow, Nova York, Pequim e Bangalore. 
   
 No entanto, devido à natureza confidencial, o acesso a esses arquivos deve ser:

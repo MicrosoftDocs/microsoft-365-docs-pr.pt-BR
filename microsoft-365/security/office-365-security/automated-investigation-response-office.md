@@ -1,9 +1,9 @@
 ---
-title: Investigação e resposta automatizadas (AIR) no Office 365
+title: Resposta de incidente automatizado (AIR) no Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/03/2019
+ms.date: 11/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,28 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Saiba mais sobre os recursos de investigação e resposta automatizados do Office 365 proteção avançada contra ameaças.
-ms.openlocfilehash: 99eea4d723a2d9f27528eb951c758b33e0390f93
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
+ms.openlocfilehash: 18da20491f9641b8313304e350f9c224b63cc5d9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386198"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673397"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
+# <a name="automated-incident-response-air-in-office-365"></a>Resposta de incidente automatizado (AIR) no Office 365
 
-Os recursos de investigação e resposta automatizados permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
+Os recursos de resposta de incidentes automatizados (AIR) permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
 - Para obter uma visão geral de como o AIR funciona, use este artigo.
 - Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
 
 > [!NOTE]
 > Você deve ser um administrador global, administrador de segurança, operador de segurança ou leitor de segurança para acessar os recursos de ar. Para saber mais sobre essas permissões, confira [centro de segurança do Microsoft 365: funções e permissões](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
-
-O AIR está incluído nas seguintes assinaturas:
-- Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 e5
-- Office 365 plano avançado de proteção contra ameaças 2
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
@@ -72,7 +66,7 @@ Na versão inicial do AIR (início de abril de 2019), os alertas gerados a parti
 
 Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente. Observe que os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, você precisa alterar a filtragem de alerta para incluir alertas informativos.
 
-Se sua organização gerencia seus alertas de segurança por meio de um sistema de gerenciamento de alerta, sistema de gerenciamento de serviços ou informações de segurança e sistema de gerenciamento de eventos (SIEM), você pode enviar alertas do Office 365 para esse sistema por meio de [uma notificação por email ou via API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). As notificações de alerta de investigação via email ou API incluem links para acessar os alertas no centro de conformidade & segurança, permitindo que o administrador de segurança atribuído Navegue rapidamente para a investigação.
+Se sua organização gerencia seus alertas de segurança por meio de um sistema de gerenciamento de alerta, sistema de gerenciamento de serviços ou informações de segurança e sistema de gerenciamento de eventos (SIEM), você pode enviar alertas do Office 365 para esse sistema por meio de uma notificação por email ou por meio da [API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). As notificações de alerta de investigação via email ou API incluem links para acessar os alertas no centro de conformidade & segurança, permitindo que o administrador de segurança atribuído Navegue rapidamente para a investigação.
 
 ![Alertas que se vinculam a investigações](../media/air-alerts-page-details.png) 
 
@@ -118,18 +112,22 @@ Você pode:
 - Exporte os dados para um arquivo. csv.
 
 O status de investigação indica o progresso das análises e ações. À medida que a investigação é executada, o status é alterado para indicar se as ameaças foram encontradas e se as ações foram aprovadas. 
-- **Iniciando**: a investigação será enfileirada para começar em breve
-- **Executando**: a investigação foi iniciada e está conduzindo sua análise
-- **Nenhuma ameaça encontrada**: a investigação concluiu a análise e nenhuma ameaça foi encontrada
-- **Encerrado pelo sistema**: a investigação não foi fechada e expirou após 7 dias
-- **Ação pendente**: a investigação encontrou ameaças com ações recomendadas
-- **Ameaças encontradas**: a investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no Air
-- **Corrigido**: a investigação foi concluída e foi totalmente corrigida (todas as ações foram aprovadas)
-- **Parcialmente corrigido**: a investigação concluída e algumas das ações recomendadas foram aprovadas
-- **Encerrado pelo usuário**: um administrador terminou a investigação
-- **Falha**: ocorreu um erro durante a investigação que impediu que ele chegasse em ameaças
-- **Enfileirado por limitação**: a investigação está aguardando a análise devido às limitações de processamento do sistema (para proteger o desempenho do serviço)
-- **Terminada pela limitação**: não foi possível concluir a investigação em tempo suficiente devido à investigação de limitações de processamento de volume e sistema. Você pode acionar novamente a investigação selecionando o email no Explorer e selecionando a ação investigar.
+
+
+|Status  |O que significa  |
+|---------|---------|
+|Iniciando | A investigação será enfileirada para começar em breve |
+|Executando | A investigação foi iniciada e está conduzindo sua análise |
+|Nenhuma ameaça encontrada | A investigação concluiu a análise e nenhuma ameaça foi encontrada |
+|Encerrado pelo sistema | A investigação não foi fechada e expirou após 7 dias |
+|Ação Pendente | A investigação encontrou ameaças com ações recomendadas |
+|Ameaças encontradas | A investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no AIR |
+|Remediado | A investigação foi concluída e foi totalmente corrigida (todas as ações foram aprovadas) |
+|Parcialmente corrigido | A investigação terminou e algumas das ações recomendadas foram aprovadas |
+|Encerrado pelo usuário | Um administrador terminou a investigação |
+|Falhou | Ocorreu um erro durante a investigação que o impediu de chegar a uma conclusão em relação a ameaças |
+|Em fila por limitação | A investigação está aguardando a análise devido a limitações de processamento do sistema (para proteger o desempenho do serviço) |
+|Terminada pela limitação | A investigação não pôde ser concluída em tempo suficiente devido à investigação de limitações de processamento de volume e sistema. Você pode acionar novamente a investigação selecionando o email no Explorer e selecionando a ação investigar. |
 
 ### <a name="investigation-graph"></a>Gráfico de investigação
 
@@ -189,7 +187,8 @@ Você pode:
 
 ![Email de investigação de ar com detalhes de submenu](../media/air-investigationemailpageflyoutdetails.png)
 
-* Observação: no contexto de email, você pode ver uma superfície de ameaça de anomalias de volume como parte da investigação. Uma anomalia de volume indica um pico em mensagens de email semelhantes em torno do tempo de evento de investigação em comparação aos prazos anteriores. Esse pico no tráfego de email com características semelhantes (por exemplo, domínio de assunto e remetente, semelhança de corpo e IP de remetente) é típico do início de campanhas ou ataques de email. No entanto, as campanhas de emails em massa, spam e legítimas normalmente compartilham essas características. As anomalias de volume representam uma possível ameaça e, portanto, podem ser menos graves em comparação às ameaças de malware ou phishing identificadas usando mecanismos antivírus, acionamento ou reputação mal-intencionados.
+> [!NOTE]
+> No contexto de email, você pode ver uma superfície de ameaça de anomalias de volume como parte da investigação. Uma anomalia de volume indica um pico em mensagens de email semelhantes em torno do tempo de evento de investigação em comparação aos prazos anteriores. Esse pico no tráfego de email com características semelhantes (por exemplo, domínio de assunto e remetente, semelhança de corpo e IP de remetente) é típico do início de campanhas ou ataques de email. No entanto, as campanhas de emails em massa, spam e legítimas normalmente compartilham essas características. As anomalias de volume representam uma possível ameaça e, portanto, podem ser menos graves em comparação às ameaças de malware ou phishing identificadas usando mecanismos antivírus, acionamento ou reputação mal-intencionados.
 
 ### <a name="user-investigation"></a>Investigação de usuário
 
@@ -299,12 +298,12 @@ Semelhante aos guias estratégicos acionados por um alerta, as investigações a
 
 ## <a name="how-to-get-air"></a>Como obter o AIR
 
-O AIR do Office 365 está incluído nas seguintes assinaturas:
+O Office 365 AIR está incluído nas seguintes assinaturas:
 
-- Microsoft 365 Enterprise E5
-- Office 365 Enterprise E5
+- Microsoft 365 E5
+- Office 365 E5
 - Proteção contra Ameaças da Microsoft
-- Office 365 plano avançado de proteção contra ameaças 2
+- Plano 2 de proteção avançada contra ameaças do Office 365
 
 Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
 
@@ -317,3 +316,4 @@ Para saber mais sobre a disponibilidade de recursos, visite a [disponibilidade d
 [Saiba mais sobre o AIR no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 
 
 [Visite o mapa do Microsoft 365 para ver o que está chegando em breve e distribuir](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+

@@ -4,7 +4,7 @@ keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, 
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/03/2019
+ms.date: 11/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Introdução ao uso de recursos de resposta de incidentes automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 293b567cf24e9c6b0e33e28e9dd1ca0453fd0cd1
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: 13f7e95829b8cf3adf17a40cf7b02c5322b15ea7
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37385728"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673417"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Investigar e responder automaticamente a ameças no Office 365
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Dependendo da sua assinatura, a [proteção avançada contra ameaças do Office 365](office-365-atp.md) pode incluir recursos de resposta de incidentes automatizados (Air) que podem economizar tempo e esforço da equipe de operações de segurança em lidar com alertas e ameaças.
 
@@ -37,13 +37,15 @@ Com o AIR, quando determinados alertas são acionados, um ou mais guias estraté
 - [Exibir detalhes sobre um alerta relacionado a uma investigação](#view-details-about-an-alert-related-to-an-investigation)
 
 > [!NOTE]
-> Você deve ser um administrador global, administrador de segurança, operador de segurança ou leitor de segurança para executar as tarefas descritas neste artigo. Para saber mais, veja [centro de segurança do Microsoft 365: funções e permissões](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
+> Você deve ter as permissões apropriadas para executar as tarefas descritas neste artigo. Por exemplo, você Myst ser um administrador global, administrador de segurança, operador de segurança ou leitor de segurança. [Saiba mais sobre as funções e permissões da central de segurança do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
 
 O AIR está incluído nas seguintes assinaturas:
 - Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 e5
-- Office 365 plano avançado de proteção contra ameaças 2
+- Segurança do Microsoft 365 E5
+- Office 365 E5
+- Plano 2 de proteção avançada contra ameaças do Office 365
+
+Se você não tiver uma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ## <a name="view-details-of-an-investigation"></a>Exibir detalhes de uma investigação
 
@@ -109,7 +111,7 @@ Se sua organização estiver usando uma solução de relatórios personalizada o
 
 Use os seguintes recursos para configurar isso:
 
-|Resource  |Descrição  |
+|Recurso  |Descrição  |
 |---------|---------|
 |[Visão geral das APIs de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)     |A API da Atividade de Gerenciamento do Office 365 fornece informações sobre várias ações e eventos de usuário, administração, sistema e políticas dos logs de atividades do Office 365 e do Azure Active Directory.         |
 |[Introdução às APIs de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)     |A API de gerenciamento do Office 365 usa o Azure AD para fornecer serviços de autenticação para que seu aplicativo acesse os dados do Office 365. Siga as etapas deste artigo para configurá-lo.          |

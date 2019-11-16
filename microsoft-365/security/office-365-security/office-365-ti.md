@@ -3,7 +3,7 @@ title: Investigação e resposta a ameaças do Office 365
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/23/2019
+ms.date: 11/15/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Descubra como os recursos de inteligência de ameaças no Office 365 proteção avançada contra ameaças pode ajudá-lo a Pesquisar ameaças em sua organização, responder a malware, phishing e outros ataques que o Office 365 detectou em seu nome e Pesquisar ameaças indicadores.
-ms.openlocfilehash: 749ddef383839043141027ace4a2d906932b7e91
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 047fb99a32fdd7e86572c5a96370f351da50f139
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031866"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673267"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Investigação e resposta a ameaças do Office 365
 
@@ -32,13 +32,13 @@ Os recursos de investigação e resposta contra ameaças no [office 365 proteç�
     
 - Fornecer informações e conhecimento para ajudar as operações de segurança a evitar o cyberattacks em sua organização
 
-- Aplicação de [investigação e resposta automatizadas](automated-investigation-response-office.md) para ameaças críticas baseadas em email
+- Empregar [resposta de incidentes automatizado](automated-investigation-response-office.md) para ameaças críticas baseadas em email
     
 Os recursos de investigação e resposta contra ameaças fornecem informações sobre ameaças e ações de resposta relacionadas que estão disponíveis no centro de &amp; conformidade de segurança do Office 365. Essas informações podem ajudar a equipe de segurança da sua organização a proteger os usuários do Office 365 contra ataques baseados em email ou arquivos. Os recursos ajudam a monitorar sinais e coletar dados de várias fontes, como atividade do usuário, autenticação, email, computadores comprometidos e incidentes de segurança. Os tomadores de decisões de negócios e os administradores globais do Office 365, administradores de segurança e analistas de segurança podem usar essas informações para entender e responder a ameaças contra os usuários do Office 365 e proteger a propriedade intelectual.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Familiarize-se com as ferramentas de investigação e resposta contra ameaças
 
-Recursos de investigação e resposta contra ameaças no centro &amp; de conformidade de segurança, como um conjunto de ferramentas e fluxos de trabalho de resposta, incluindo o [painel de ameaças](#threat-dashboard), o [Explorer](#threat-explorer), [incidentes](#incidents), o [simulador de ataques](#attack-simulator)e a [investigação automatizada & resposta](automated-investigation-response-office.md).
+Recursos de investigação e resposta contra ameaças no centro &amp; de conformidade de segurança, como um conjunto de ferramentas e fluxos de trabalho de resposta, incluindo o [painel de ameaças](#threat-dashboard), o [Explorer](#threat-explorer), [incidentes](#incidents), o [simulador de ataques](#attack-simulator)e a [resposta de incidentes automatizado](automated-investigation-response-office.md).
   
 ### <a name="threat-dashboard"></a>Painel de ameaças
 
@@ -46,7 +46,7 @@ Use o painel de ameaças (isso também é conhecido como [painel de segurança](
   
 ![Painel de ameaças](../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
-Para exibir e usar esse painel, no centro de &amp; conformidade de segurança, vá para o **painel** **Gerenciamento** \> de ameaças.
+Para exibir e usar esse painel, no centro de conformidade de &amp; segurança do Office 365, vá para o **painel** **Gerenciamento** \> de ameaças.
 
 Para saber mais sobre 
   
@@ -56,7 +56,7 @@ Use o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md)
   
 ![Explorador de ameaças](../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
-Para exibir e usar esse relatório, no centro de &amp; conformidade de segurança, vá para **Gerenciador**de **Gerenciamento** \> de ameaças.
+Para exibir e usar esse relatório, no centro de conformidade de &amp; segurança do Office 365, vá para **Gerenciador**de **Gerenciamento** \> de ameaças.
   
 ### <a name="incidents"></a>Incidente
 
@@ -74,7 +74,7 @@ Use o simulador de ataques para configurar e executar o cyberattacks realista em
 
 ### <a name="automated-investigation-and-response"></a>Investigação e resposta automatizadas
 
-Use recursos automatizados de investigação e resposta (AIR) para economizar tempo e esforço de correlação de conteúdo, dispositivos e pessoas em risco de ameaças em sua organização. Os processos de ar podem começar sempre que determinados alertas são acionados ou quando iniciados por sua equipe de operações de segurança. Para saber mais, veja [resposta de incidente automatizado (Air) com o Office 365](automated-investigation-response-office.md). 
+Use recursos automatizados de investigação e resposta (AIR) para economizar tempo e esforço de correlação de conteúdo, dispositivos e pessoas em risco de ameaças em sua organização. Os processos de ar podem começar sempre que determinados alertas são acionados ou quando iniciados por sua equipe de operações de segurança. Para saber mais, veja [resposta de incidente automatizado no Office 365](automated-investigation-response-office.md). 
   
 ## <a name="threat-intelligence-widgets"></a>Widgets de inteligência de ameaças
 

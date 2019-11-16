@@ -6,10 +6,10 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.openlocfilehash: 0bfd6e61a08d8db2e6226a004006be9750b94a10
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37595587"
 ---
 # <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft
