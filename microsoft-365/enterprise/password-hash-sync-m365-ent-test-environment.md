@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e demonstrar a sincronização de hash de senha e a entrada para o ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: ad48a11684903c65fb6d8e07a4e7a3c2523a153f
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: dcf5e4301d6c9c91068abc1d12db8e6de1083376
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639811"
+ms.locfileid: "38673377"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Sincronização de hash de senha para ambiente de teste do Microsoft 365
 
@@ -72,6 +72,8 @@ Veja como o testlab.\<seu nome de domínio público> está agora:
 - O domínio AD DS na sua intranet simulada.
      
 ## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Fase 3 – Instalar o Azure AD Connect na APP1
+
+*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
 
 Nesta fase, instale e configure a ferramenta Azure AD Connect na APP1 e verifique se ela funciona.
   
