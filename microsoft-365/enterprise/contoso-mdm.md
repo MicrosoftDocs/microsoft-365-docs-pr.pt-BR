@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
-ms.openlocfilehash: b083b7fed67eb08b47daf70c3fd22c181f5a8f77
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c486c9ef338ab1bd8959266183da6b79d62b3311
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370478"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673177"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Gerenciamento de dispositivo móvel para a Contoso
-
-**Resumo:** Entenda como a Contoso usa Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e aplicativos com base nessa plataforma.
 
 O Microsoft 365 Enterprise inclui o Microsoft Intune e um conjunto de serviços do Azure que dão suporte a segurança, ao gerenciamento de aplicativos e dispositivos móveis.
 
