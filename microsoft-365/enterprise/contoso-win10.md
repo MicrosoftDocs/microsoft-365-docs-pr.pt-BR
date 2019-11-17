@@ -12,24 +12,22 @@ ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entenda como a Contoso usou o System Center Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
-ms.openlocfilehash: a63a973bed4bf62ebf7c2534d4c55a4e3b8ef60c
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+description: Entenda como a Contoso usou o Microsoft Endpoint Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
+ms.openlocfilehash: 2080562aeb2f6359aa2a4f836de3406e4ca2439c
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370468"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672697"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Implantação do Windows 10 Enterprise para a Contoso
-
-**Resumo:** entenda como a Contoso usou o System Center Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
 
 Antes da ampla implantação do Microsoft 365 Enterprise, a Contoso tinha computadores e dispositivos compatíveis com o Windows que executavam uma combinação de Windows 7 (10%), Windows 8.1 (65%) e Windows 10 (25%). A Contoso queria atualizar seus computadores para o Windows 10 Enterprise para aproveitar a segurança aprimorada e reduzir a sobrecarga da TI em implantações automatizadas de atualizações. 
 
 Depois de avaliar suas necessidades de infraestrutura e comerciais, a Contoso identificou esses principais requisitos para a implantação:
 
 - O maior número possível de PCs e dispositivos que devem executar o Windows 10 Enterprise
-- A implantação das atualizações in-loco aproveita a infraestrutura existente do System Center Configuration Manager
+- A distribuição das atualizações in-loco aproveita a infraestrutura existente do Configuration Manager
 - O controle de quais versões do Windows 10 Enterprise implantar e atualizar são feitas por meio de anéis
 - Os PCs e dispositivos devem estar atualizados com custos administrativos mínimos de TI e com impacto mínimo para os usuários finais
 
@@ -51,7 +49,7 @@ Antes e durante as atualizações in-loco do Windows 10 Enterprise, a Contoso us
 
   Identifica os dispositivos que falham com frequência e, portanto, talvez precisem ser recriados ou substituídos, e os drivers de dispositivo que estejam falhando, com sugestões de versões alternativas desses drivers, podem reduzir o número de falhas. Fornece notificação de configurações incorretas de proteção de informações do Windows que enviam avisos para os usuários finais.
  
-A Contoso possui uma infraestrutura existente do System Center Configuration Manager (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalações, atualizações e configurações. Ele também possui recursos internos para facilitar e efetivar a implantação e o gerenciamento do Windows 10 Enterprise.
+A Contoso possui uma infraestrutura existente do Configuration Manager (Filial Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalação, atualizações e configurações. Ele também possui recursos internos para tornar mais fácil e eficiente a implantação e o gerenciamento do Windows 10 Enterprise.
 
 ## <a name="planning-process"></a>Processo de planejamento
 
@@ -83,7 +81,7 @@ Veja a atualização in-loco e a arquitetura de implantação de atualizações 
 
 Esta infraestrutura é formada pelo:
 
-- System Center Configuration Manager que:
+- Configuration Manager, que:
   - Obtém imagens para pacotes do Windows 10 Enterprise a partir do Centro de Licenciamento por Volume da Microsoft na Rede da Microsoft.
   - É o ponto de administração central para pacotes de implantação.
 - Pontos de distribuição regionais que normalmente estão localizados nos escritórios secundários da Contoso.
@@ -91,7 +89,7 @@ Esta infraestrutura é formada pelo:
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-o365pp.md) mais sobre como a Contoso utiliza a infraestrutura do System Center Configuration Manager para implantar e manter o Office 365 ProPlus atualizado em toda a organização. 
+[Saiba](contoso-o365pp.md) mais sobre como a Contoso utiliza a infraestrutura do Configuration Manager para implantar e manter o Office 365 ProPlus atualizado em toda a organização. 
 
 ## <a name="see-also"></a>Confira também
 
