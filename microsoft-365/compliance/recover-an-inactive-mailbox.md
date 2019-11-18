@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Se um antigo funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho de um funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa no Office 365. Ao recuperar uma caixa de correio inativa, ela é convertida em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. '
-ms.openlocfilehash: be7935472363e406a978c09f926776e69c3024fe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9caa5d8f8c44ee5a916129e7f181532c8c0dd1a2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073748"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38685011"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Recuperar uma caixa de correio inativa no Office 365
 
@@ -40,7 +40,7 @@ Consulte a seção [mais informações](#more-information) para obter mais detal
     
 - Execute o seguinte comando para obter informações de identidade para as caixas de correio inativas em sua organização. 
 
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly | FL Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
     ```
 
@@ -54,16 +54,16 @@ Use o cmdlet **New-Mailbox** com o parâmetro *InactiveMailbox* para recuperar u
   
 1. Criar uma variável que contém as propriedades da caixa de correio inativa. 
     
-    ```
+    ```powershell
     $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
     ```
-   
+
     > [!IMPORTANT]
     > No comando anterior, use o valor da propriedade **distinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa tenha o mesmo endereço SMTP principal. 
   
 2. Este exemplo usa as propriedades obtidas no comando anterior e recupera a caixa de correio inativa para uma caixa de correio ativa para o usuário Ana Beebe. Certifique-se de que os valores especificados para os parâmetros *Name* e *MicrosoftOnlineServicesID* sejam exclusivos em sua organização. 
 
-    ```
+    ```powershell
     New-Mailbox -InactiveMailbox $InactiveMailbox.DistinguishedName -Name annbeebe -FirstName Ann -LastName Beebe -DisplayName "Ann Beebe" -MicrosoftOnlineServicesID Ann.Beebe@contoso.com -Password (ConvertTo-SecureString -String 'P@ssw0rd' -AsPlainText -Force) -ResetPasswordOnNextLogon $true
     ```
 
@@ -95,7 +95,7 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Offi
     
 - **Como saber se o período de retenção de caixa de correio de exclusão reversível de uma caixa de correio inativa expirou?** Execute o seguinte comando. 
     
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL ExternalDirectoryObjectId
   ```
 

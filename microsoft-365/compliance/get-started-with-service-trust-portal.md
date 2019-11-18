@@ -12,12 +12,12 @@ mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Para os relatórios de conformidade normativa do Office 365, Azure e Dynamics 365 online, para ver auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e como é possível ser compatível com ISO, HIPAA, NIST, FINRA, RGPD e FedRAMP quando você usa esses serviços online.
-ms.openlocfilehash: 80dd054787957941353cbb76489fc7063d17a416
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 22968c23b1d521b8fd48e9eccd4679e0a6dd2ed2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071881"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684952"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Introdução ao portal de confiança do serviço Microsoft
 
@@ -76,20 +76,20 @@ O fornece os seguintes recursos e ferramentas relacionados à conformidade:
 
   As informações sobre relatórios de auditoria e um link para a página **relatórios de auditoria** também são exibidos na home page do portal de confiança do serviço. 
   
-- **Gerenciador de conformidade** -o Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda você a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Office 365, Dynamics 365 e Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Para obter mais informações, consulte [use o Gerenciador de conformidade para ajudar a atender aos requisitos de proteção de dados e regulamentações ao usar os serviços de nuvem da Microsoft](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
+- **Gerenciador de conformidade** -o Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Office 365, o Dynamics 365 e o Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Para obter mais informações, consulte [use o Gerenciador de conformidade para ajudar a atender aos requisitos de proteção de dados e regulamentações ao usar os serviços de nuvem da Microsoft](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
 
-### <a name="industries--regions"></a>Regiões & setores
+### <a name="industries--regions"></a>Países e regiões
 
 Fornece informações de conformidade específicas do setor e da região sobre os serviços de nuvem da Microsoft.
 
 - **Indústrias** : fornece páginas iniciais específicas do setor para informações e sobre como os serviços de nuvem da Microsoft ajudam a conformidade da sua organização com padrões e regulamentações para esses setores:
 
     - Educação
-    - Serviços financeiros
-    - Legais
+    - Serviços Financeiros
+    - Governo
     - Integridade
-    - Indústria
-    - Loja
+    - Fabricação
+    - Varejo
 
 - **Regiões** : fornece opiniões legais sobre a conformidade dos serviços em nuvem da Microsoft com várias leis de vários países. Os países específicos incluem Austrália, República Tcheca, Alemanha, Polônia, Romênia, Espanha e Reino Unido.
   
@@ -104,11 +104,11 @@ Fornece uma infinidade de informações de implementação e design de seguranç
 - Plantas de segurança e conformidade do Azure
 - Controles auditados
   
-### <a name="trust-center"></a>Centro de confiabilidade
+### <a name="trust-center"></a>Central de Confiabilidade
 
 Links para a [central de confiabilidade da Microsoft](https://www.microsoft.com/trustcenter), que fornece mais informações sobre segurança, conformidade e privacidade na nuvem da Microsoft. Isso inclui informações sobre os recursos nos serviços do Microsoft Cloud que podem ser usados para atender a requisitos específicos do RGPD, documentação útil para sua responsabilidade do RGPD e para sua compreensão das medidas técnicas e organizacionais A Microsoft levou para dar suporte ao RGPD.
   
-### <a name="my-library"></a>Minha biblioteca
+### <a name="my-library"></a>Minha Biblioteca
 
 Este novo recurso permite salvar (ou *fixar*) documentos para que você possa acessá-los rapidamente na sua página minha biblioteca. Você também pode configurar notificações para que a Microsoft envie uma mensagem de email quando os documentos de sua biblioteca do My forem atualizados. Para obter mais informações, consulte a seção [minha biblioteca](#my-library-1) neste artigo.
 
@@ -118,7 +118,7 @@ Funções administrativas que estão disponíveis somente para a conta de admini
   
  A página de **configurações** permite que você atribua acesso baseado em função ao Gerenciador de conformidade. Para obter mais informações, consulte a seção "permissões e controle de acesso baseado em função" em [usar o Gerenciador de conformidade para ajudar a atender aos requisitos de proteção de dados e regulamentados ao usar os serviços de nuvem da Microsoft](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control).
   
-### <a name="search"></a>Pesquisa
+### <a name="search"></a>Pesquisar
 
 Clique na lupa no canto superior direito da página do portal de confiança do serviço para expandir a caixa, insira seus termos de pesquisa e pressione **Enter**.
 
@@ -137,7 +137,7 @@ Para listar os controles de avaliações no gerente de conformidade relacionados
 > [!NOTE]
 > Os relatórios e documentos do portal de confiança do serviço estão disponíveis para download por pelo menos 12 meses após a publicação ou até que uma nova versão do documento fique disponível.
   
-## <a name="my-library"></a>Minha biblioteca
+## <a name="my-library"></a>Minha Biblioteca
 
 Use o recurso minha biblioteca para adicionar documentos e recursos no portal de confiança do serviço à sua página minha biblioteca. Isso permite que você acesse documentos que são relevantes para você em um único local.  Para adicionar um documento à sua biblioteca, clique no menu **...** à direita de um documento e, em seguida, selecione **salvar na biblioteca**. Você pode adicionar vários documentos à minha biblioteca clicando na caixa de seleção ao lado de um ou mais documentos e, em seguida, clicando em **salvar na biblioteca** na parte superior da página.
 
@@ -169,4 +169,4 @@ Podemos ajudá-lo com perguntas sobre o portal de confiança do serviço ou os e
   
 Seu feedback é muito importante para nós. Clique no botão de comentários na parte inferior da página para nos enviar comentários sobre o que você fez ou não gostou, ou sugestões que você pode ter para melhorar nossos produtos ou recursos de produto.
   
-![](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)
+![Que tipo de comentários você tem](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)

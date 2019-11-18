@@ -10,17 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Use limites de conformidade para criar limites lógicos em uma organização do Office 365 que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: 1e87926910ad7dd356696368ad6759bfacfe37c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 13f45ce55f23d91a81068031691436383ec87ba3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072989"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38685003"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
 
@@ -106,10 +107,10 @@ Depois de criar grupos de função para cada agência, a próxima etapa é criar
   
 Veja a sintaxe usada para criar um filtro de permissões de pesquisa usado para limites de conformidade.
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_<ComplianceAttribute>  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'" -Action <Action >
 ```
-  
+
 Veja a seguir uma descrição de cada parâmetro no comando:
   
 -  `FilterName`: Especifica o nome do filtro. Use um nome que descreva ou identifique a agência na qual o filtro é usado. 
@@ -135,13 +136,13 @@ Aqui estão exemplos dos dois filtros de permissões de pesquisa que seriam cria
   
  **Fourth Coffee**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_ComplianceAttribute -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL
 ```
-   
+
  **Coho Winery**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL
 ```
 
@@ -220,30 +221,30 @@ Os filtros de permissões de pesquisa também permitem que você controle onde o
 
 Aqui estão exemplos de como usar o parâmetro **Region** ao criar filtros de permissão de pesquisa para limites de conformidade. Isso pressupõe que a quarta subsidiária de café está localizada na América do Norte e que a Coho Winery está na Europa. 
   
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_Department -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL -Region NAM
 ```
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Department -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
 ```
-   
+
 Tenha em mente as seguintes coisas ao pesquisar e exportar conteúdo em ambientes multigeográfico.
   
-- O parâmetro **Region** não controla pesquisas de caixas de correio do Exchange. Todos os data centers serão pesquisados quando você Pesquisar caixas de correio. Para limitar o escopo do qual as caixas de correio do Exchange são pesquisadas, use o parâmetro **Filters** ao criar ou alterar um filtro de permissões de pesquisa. 
+- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os data centers serão pesquisados quando você Pesquisar caixas de correio. Para limitar o escopo do qual as caixas de correio do Exchange são pesquisadas, use o parâmetro **Filters** ao criar ou alterar um filtro de permissões de pesquisa. 
     
 - Se for necessário que um gerente de descoberta eletrônica pesquise em várias regiões do SharePoint, você precisará criar uma conta de usuário diferente para o Gerenciador de descoberta eletrônica usar no filtro permissões de pesquisa para especificar a região em que os sites do SharePoint ou o OneDrive as contas estão localizadas. Para obter mais informações sobre como configurar isso, consulte a seção "pesquisando conteúdo em um ambiente multigeográfico do SharePoint" na [pesquisa de conteúdo no Office 365](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
     
 - Ao pesquisar conteúdo no SharePoint e no OneDrive, o parâmetro **Region** direciona as pesquisas para o local principal ou de satélite onde o gerente de descoberta eletrônica conduzirá investigações de descoberta eletrônica. Se um gerente de descoberta eletrônica pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa é retornado. 
     
-- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços do Office 365 que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) são carregados para o local de armazenamento do Azure no datacenter especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado para a região padrão da organização. 
+- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços do Office 365 que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) são carregados no local de armazenamento do Azure no datacenter especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado para a região padrão da organização. 
     
 - Você pode editar um filtro de permissões de pesquisa existente para adicionar ou alterar a região executando o seguinte comando:
 
-    ```
+    ```powershell
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
- 
+
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
  **Quem pode criar e gerenciar filtros de permissões de pesquisa (usando os cmdlets New-ComplianceSecurityFilter e Set-ComplianceSecurityFilter)?**

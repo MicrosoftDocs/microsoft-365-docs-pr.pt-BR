@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: b13dab63514dc8658479dbd68d5a014dc7347bb8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9748e3dc51a322ad3a77bab800d64925da95eeeb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072055"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684802"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
@@ -107,7 +107,7 @@ Para demonstrar a detecção de TFN de uma maneira mais econômica, um email com
 
 ![Número de arquivo de imposto da Austrália que não passa checksum](media/DLP-create-test-tune-email-test1.png)
 
-Em comparação, um email com as palavras "número do arquivo de impostos" e um TFN válido que passa a soma de verificação acionará a política. Para o registro aqui, o TFN que estou usando foi obtido de um site que gera um TFNs válido, mas não autêntico. Há sites semelhantes que geram [números de cartão de crédito válidos, mas falsificados](http://www.fakecreditcardgenerator.net/). Esses sites são muito úteis porque um dos erros mais comuns ao testar uma política de DLP é usar um número falso que não é válido e não passará na soma de verificação (e, portanto, não acionará a política).
+Em comparação, um email com as palavras "número do arquivo de impostos" e um TFN válido que passa a soma de verificação acionará a política. Para o registro aqui, o TFN que estou usando foi obtido de um site que gera um TFNs válido, mas não autêntico. Há sites semelhantes que geram [números de cartão de crédito válidos, mas falsificados](https://www.fakecreditcardgenerator.net/). Esses sites são muito úteis porque um dos erros mais comuns ao testar uma política de DLP é usar um número falso que não é válido e não passará na soma de verificação (e, portanto, não acionará a política).
 
 ![Número de arquivo de imposto da Austrália que passa a soma de verificação](media/DLP-create-test-tune-email-test2.png)
 
@@ -203,7 +203,7 @@ Quando você estiver contente que sua política de DLP está detectando com prec
 
 ![Opção para ativar a política](media/DLP-create-test-tune-turn-on-policy.png)
  
-Se você estiver esperando para ver quando a política entrará em vigor, [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e execute o [cmdlet Get-DlpCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) para ver o DistributionStatus.
+Se você estiver esperando para ver quando a política entrará em vigor, [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e execute o [cmdlet Get-DlpCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) para ver o DistributionStatus.
 
 ![Executando o cmdlet no PowerShell](media/DLP-create-test-tune-PowerShell.png)
 

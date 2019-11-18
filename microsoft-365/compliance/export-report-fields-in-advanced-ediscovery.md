@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Descreve todos os campos incluídos nos relatórios de exportação para descoberta eletrônica avançada.
-ms.openlocfilehash: 3e73cc1c106dfa98bd35f84c352fc89d0e45b74d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 54287b4319a3fd7cf5be8aaf74d3a375253cba1f
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072631"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38685028"
 ---
 # <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Exportar campos de relatório na descoberta eletrônica avançada do Office 365
 
@@ -62,15 +62,15 @@ A tabela a seguir lista os campos de cada modelo de exportação.
 |Email_recipient_domains  <br/> |Email  <br/> |Domínios de destinatários de email (para, CC e Cco).  <br/> |Sim  <br/> |Sim  <br/> |
 |Email_date_received  <br/> |Email  <br/> |Data em que o email foi recebido.  <br/> |Sim  <br/> |Sim  <br/> |
 |Email_action  <br/> |Email  <br/> |Valores: de acordo com o assunto do email: "encaminhar" (para "FW:"), "responder" (para "RE:") ou "outros" (outro texto do assunto).  <br/> |Sim  <br/> |Sim  <br/> |
-|Meeting_Start_Date/hora  <br/> ||A data e a hora em que um item de reunião foi iniciado.  <br/> |Sim  <br/> |Sim  <br/> |
-|Meeting_End_Date/hora  <br/> ||A data e a hora em que um item de reunião terminou.  <br/> |Sim  <br/> |Sim  <br/> |
+|Meeting_Start_Date/time  <br/> ||A data e a hora em que um item de reunião foi iniciado.  <br/> |Sim  <br/> |Sim  <br/> |
+|Meeting_End_Date/time  <br/> ||A data e a hora em que um item de reunião terminou.  <br/> |Sim  <br/> |Sim  <br/> |
 |File_relevance_score  <br/> |Relevância  <br/> |Pontuação de relevância (0-100). Por problema.  <br/> |Sim  <br/> |Sim  <br/> |
 |Family_relevance_score  <br/> |Relevância  <br/> |Pontuação de relevância da família máx (0-100). Por problema.  <br/> |Sim  <br/> |Sim  <br/> |
 |Relevance_tag  <br/> |Relevância  <br/> |Marcação do arquivo, se o arquivo foi marcado manualmente em relevância. Por problema.  <br/> |Sim  <br/> |Sim  <br/> |
 |Relevance_load_group  <br/> |Relevância  <br/> |Grupo de carga de relevância do arquivo especificado, com um campo por problema.  <br/> |Sim  <br/> |Sim  <br/> |
 |Normalized_relevance_score  <br/> |Relevância  <br/> |Pontuação de relevância normalizada (0-100), que é comparável entre problemas e cargas.  <br/> |Sim  <br/> |Sim  <br/> |
 |Marked_as_seed  <br/> |Relevância  <br/> |Marcação do arquivo, se ele tiver sido definido como um arquivo semente em relevância por problema/categoria.  <br/> |Sim  <br/> |Sim  <br/> |
-|Marked_as_pre-Tagged  <br/> |Relevância  <br/> |Marcação do arquivo, se ele tiver sido definido como previamente marcado em relevância por problema/categoria.  <br/> |Sim  <br/> |Sim  <br/> |
+|Marcadas Marked_as_pre  <br/> |Relevância  <br/> |Marcação do arquivo, se ele tiver sido definido como previamente marcado em relevância por problema/categoria.  <br/> |Sim  <br/> |Sim  <br/> |
 |Relevance_status_description  <br/> |Relevância  <br/> |Descrição do status de relevância.  <br/> |Sim  <br/> |Sim  <br/> |
 |Comentário  <br/> |Geral  <br/> |Comentário inserido pelo usuário.  <br/> |Sim  <br/> |Sim  <br/> |
 |Export_input_path  <br/> |Processamento   <br/> |Exportar caminho de entrada.  <br/> |Sim  <br/> |Sim  <br/> |
@@ -90,7 +90,7 @@ A tabela a seguir lista os campos de cada modelo de exportação.
 |Input_path  <br/> |Processamento   <br/> |Caminho do arquivo de entrada.  <br/> |Sim  <br/> |Sim  <br/> |
 |Input_date_modified  <br/> |Processamento   <br/> |O arquivo de entrada de data foi modificado pela última vez.  <br/> |Sim  <br/> |Sim  <br/> |
 |ND_ET_sort_excl_attach  <br/> |Analisar  <br/> |Concatenação de conjunto de emails e ND definidos para revisão. ' D' é adicionado como um prefixo para conjuntos ND, e ' E ' é adicionado a email ssets.  <br/> |Sim  <br/> |Sim  <br/> |
-|ND_ET_sort_incl_attach  <br/> |Analisar  <br/> |A concatenação do conjunto de emails e da ND definida para revisar é adicionada como um prefixo para conjuntos de ND, e ' E ' é adicionado aos conjuntos de emails. Além disso, cada email em um Email_set é seguido pelos seus anexos apropriados.  <br/> |Sim  <br/> |Sim  <br/> |
+|ND_ET_sort_incl_attach  <br/> |Analisar  <br/> |A concatenação do conjunto de emails e da ND definida para revisar é adicionada como um prefixo para conjuntos de ND, e ' E ' é adicionado aos conjuntos de emails. Além disso, cada email dentro de um Email_set é seguido pelos seus anexos apropriados.  <br/> |Sim  <br/> |Sim  <br/> |
 |Deduped_custodians  <br/> |Geral  <br/> |Responsáveis por arquivos com eliminação de duplicação  <br/> |Sim  <br/> |Sim  <br/> |
 |Deduped_file_IDs  <br/> |Geral  <br/> |IDs de arquivos com eliminação da duplicação  <br/> |Sim  <br/> |Sim  <br/> |
 |Deduped_paths  <br/> |Geral  <br/> |Caminhos dos arquivos com eliminação da duplicação  <br/> |Sim  <br/> |Sim  <br/> |
@@ -130,9 +130,7 @@ A tabela a seguir lista os campos de cada modelo de exportação.
 |Set_order_inclusives_first  <br/> |Email  <br/> |Emails e anexos: ordem cronológica do contador (inclusive primeiro). Documents: pivô primeiro e o restante por Pontuação de similaridade, decrescente.  <br/> |Não  <br/> |Sim  <br/> |
 |Tagged_By  <br/> |Relevância  <br/> |Usuário que marcou o arquivo em relevância para o problema específico.  <br/> |Não  <br/> |Sim  <br/> |
 |Word_count  <br/> |Analisar  <br/> |Número de palavras no documento.  <br/> |Não  <br/> |Sim  <br/> |
-|||||||||||
-||||||
-||||||
+|
    
 ## <a name="related-topics"></a>Tópicos Relacionados
 

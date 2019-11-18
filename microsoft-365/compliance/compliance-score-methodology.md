@@ -1,5 +1,5 @@
 ---
-title: Metodologia de Pontuação de conformidade
+title: Cálculo da Pontuação de conformidade
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -11,74 +11,75 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: eb6e79d840439acec007fef54bf6cb5ca5633f1e
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
+ms.openlocfilehash: e3bb9bc2d9d833eea8c5a9e4a29334d9777aebac
+ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417490"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38684741"
 ---
-# <a name="compliance-score-methodology-preview"></a>Metodologia de Pontuação de conformidade (prévia)
+# <a name="microsoft-compliance-score-calculation-preview"></a>Cálculo da Pontuação de conformidade da Microsoft (versão prévia)
 
-> [!NOTE]
-> A Pontuação de Conformidade não expressa uma medida absoluta da conformidade organizacional em relação a qualquer padrão ou regulamentação específicos. Ela expressa até que ponto você adotou os controles que podem reduzir os riscos aos dados pessoais e à privacidade individual. Nenhum serviço pode garantir que você esteja em conformidade com um padrão ou regulamentação e a Pontuação de Conformidade não deve ser interpretada como uma garantia de forma alguma.
+> [!IMPORTANT]
+> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
 
-O painel do Gerenciador de conformidade exibe uma pontuação total de conformidade para avaliações em cada bloco de avaliação. Esta é a pontuação de conformidade geral para a avaliação e é o acúmulo de pontos recebidos para cada controle implementado e testado na avaliação. Para uma nova avaliação, a pontuação de conformidade tem um valor inicial para os controles gerenciados pela Microsoft testados por terceiros independentes. A pontuação de conformidade é calculada com base em pontuações de ação gerenciada pela Microsoft e pontuações de ação gerenciada pelo cliente. A pontuação de conformidade pode ajudar a priorizar quais avaliações e controles focalizar para melhorar a postura geral de conformidade.
+## <a name="overview"></a>Visão geral
 
-Os valores de Pontuação de conformidade exibidos para o controle são aplicados *totalmente* à pontuação total de conformidade, em uma base de aprovação/falha. O controle é implementado e passa o teste de avaliação subsequente ou não. Os pontos atribuídos são adicionados à pontuação de conformidade quando o controle tem:
+O painel de Pontuação de conformidade exibe uma pontuação que mede seu progresso ao concluir ações de aperfeiçoamento nos controles. Seus pontos são acumulados ao concluir ações.
+
+Sua pontuação é calculada com base na conclusão de ações gerenciadas pela Microsoft e ações gerenciadas pelo cliente. Cada ação tem um impacto diferente na sua pontuação, dependendo dos possíveis riscos envolvidos, portanto, a pontuação pode ajudar a priorizar a ação a ser focalizada para melhorar a postura geral de conformidade.
+
+Os valores de Pontuação de conformidade exibidos para o controle são aplicados *em sua totalidade* à sua pontuação total em uma base de aprovação/falha. O controle é implementado e passa o teste de avaliação subsequente ou não. Os pontos atribuídos são adicionados à pontuação de conformidade quando o controle tem:
 
 - **Status de implementação** igual a **implementação** **implementada** ou alternativa,
 - O **resultado do teste** é **passado**.
 
-## <a name="compliance-score"></a>Pontuação de conformidade
-  
-No gerente de conformidade, as pontuações da linha de base movem do nível de controle para o nível do item de ação. As pontuações se baseiam na finalidade (detecção, prevenção ou correção) e na imposição (discricionária ou obrigatória) do item de ação.
+A soma dos pontos obtidos por meio de ações de melhoria é a pontuação de controle. A soma de suas pontuações de controle é a pontuação de avaliação. A soma de suas pontuações de avaliação é a pontuação de conformidade geral
 
-Itens de ação são mapeados para controles e quando um controle é mapeado para vários itens de ação, a soma das pontuações de item de ação é a pontuação de controle. A soma da Pontuação de controle de todos os controles em uma determinada avaliação é a pontuação de avaliação. A pontuação média de todas as avaliações em um grupo é a pontuação de conformidade desse grupo.
+## <a name="initial-score-based-on-microsoft-365-data-protection-baseline"></a>Pontuação inicial com base na linha de base de proteção de dados da Microsoft 365
   
-### <a name="mandatory-or-discretionary-controls"></a>Controles obrigatórios ou discricionários
+A pontuação de conformidade fornece uma pontuação pronta para uso com base na linha de base de proteção de dados do Microsoft 365, que é um conjunto de controles que inclui normas e padrões de proteção de dados e governança de dados gerais. Essa linha de base desenha elementos primariamente da NIST CSF (National Institute of Standards and Technology cybersecurity Framework) e ISO (International Organization for Standardization), bem como de FedRAMP (Federal Risk and Authorization Management Program) e RGPD (regulamentação geral de proteção de dados da União Europeia).
+
+## <a name="how-compliance-score-continuously-assesses-controls"></a>Como a pontuação de conformidade avalia os controles continuamente
+
+A pontuação de conformidade verifica automaticamente o ambiente Microsoft 365 e detecta as configurações do sistema, atualizando continuamente e automaticamente o status do controle técnico. Por exemplo, se você ativou a MFA (autenticação multifator) no portal do Azure AD, a pontuação de conformidade detecta a configuração e reflete isso nos detalhes da solução de acesso de controle. Por outro lado, se você não tiver ativado o MFA, os sinalizadores de Pontuação de conformidade que são uma ação recomendada para você realizar.
+
+A pontuação de conformidade atualiza seu status de controle a cada 24 horas. Depois de seguir uma recomendação para implementar um controle, você verá o status do controle atualizado no dia seguinte.
+
+Durante a visualização pública, a avaliação contínua está disponível para controles de parte, mas não todos.
   
- Os **controles obrigatórios** são ações que não podem ser ignoradas intencionalmente ou acidentalmente. Um exemplo de um controle obrigatório comum é uma política de senha gerenciada centralmente que define os requisitos de tamanho, complexidade e validade da senha. Os usuários devem cumprir esses requisitos para acessar o sistema.
+## <a name="control-types-and-points"></a>Tipos de controle e pontos
+
+A pontuação de conformidade controla dois tipos de controles, gerenciados pela Microsoft e pelo cliente, cada um deles com pontos que contribuem para sua pontuação geral:
+
+1. Os **pontos gerenciados pelo cliente** contribuem para sua pontuação de conformidade com base em controles gerenciados pela sua organização.
+2. Os **pontos gerenciados pela Microsoft** contribuem para sua pontuação de conformidade com base em controles gerenciados pela Microsoft como um provedor de serviços de nuvem.
+
+Os controles recebem um valor de pontuação com base no fato de serem obrigatórios ou discricionários, e se são preventivos, de detecção ou corretivas, conforme descrito abaixo.
+
+### <a name="mandatory-and-discretionary-controls"></a>Controles obrigatórios e discricionários
+
+ - Os **controles obrigatórios** são ações que não podem ser ignoradas intencionalmente ou acidentalmente. Um exemplo é uma política de senha gerenciada centralmente que define os requisitos de tamanho, complexidade e validade da senha. Os usuários devem cumprir esses requisitos para acessar o sistema.
   
- Os **controles discricionários** dependem dos usuários para entender a política e agir de acordo. Por exemplo, uma política que exija que os usuários bloqueiem seu computador quando deixam de ser um controle discricionário, pois ele se baseia no usuário.
+ - Os **controles discricionários** dependem dos usuários para entender a política e agir de acordo. Por exemplo, uma política que exija que os usuários bloqueiem seu computador quando deixam de ser um controle discricionário, pois ele se baseia no usuário.
   
-### <a name="preventative-detective-or-corrective-controls"></a>Controles de prevenção, detecção ou correção
+### <a name="preventative-detective-and-corrective-controls"></a>Controles de prevenção, detecção e correção
   
- Os **controles preventivos** são ações que impedem riscos específicos. Por exemplo, a proteção de informações em repouso usando criptografia é um controle preventivo contra ataques, violações. A separação de direitos é um controle preventivo para gerenciar o conflito de interesses e para proteger contra fraudes.
+ - Os **controles preventivos** tratam de riscos específicos. Por exemplo, a proteção de informações em repouso usando criptografia é um controle preventivo contra ataques e violações. A separação de direitos é um controle preventivo para gerenciar o conflito de interesse e proteção contra fraudes.
   
- Os **controles de detecção** são ações que monitoram ativamente os sistemas para identificar condições ou comportamentos irregulares que representam riscos ou que podem ser usados para detectar intrusões ou determinar se ocorreu uma violação. Auditoria de acesso do sistema e auditorias de ações administrativas privilegiadas são tipos de controles de monitoramento de detecção. Auditorias de conformidade normativa são um tipo de controle de detecção usado para encontrar problemas de processo.
+ - Os **controles de detecção** monitoram ativamente os sistemas para identificar condições ou comportamentos irregulares que representam riscos ou que podem ser usados para detectar intrusões ou determinar se ocorre uma violação. Auditoria de acesso do sistema e auditorias de ações administrativas privilegiadas são tipos de controles de monitoramento de detecção. Auditorias de conformidade normativa são um tipo de controle de detecção usado para encontrar problemas de processo.
   
-Os **controles corretivos** são controles que tentam manter os efeitos adversos de um incidente de segurança para um mínimo, realizar ações corretivas para reduzir o efeito imediato e reverter os danos, se possível. Privacy incidente Response é um controle corretivo para limitar danos e restaurar sistemas para um estado operacional após uma violação.
+- Os **controles corretivos** tentam manter os efeitos adversos de um incidente de segurança para um mínimo, realizar ações corretivas para reduzir o efeito imediato e reverter os danos, se possível. Privacy incidente Response é um controle corretivo para limitar danos e restaurar sistemas para um estado operacional após uma violação.
   
-Cada controle tem um valor atribuído no gerente de conformidade com base no risco que ele representa:
+Cada controle tem um valor atribuído em Pontuação de conformidade com base no risco que representa:
 
 |**Tipo**|**Pontuação atribuída**|
 |:-----|:-----|
 | Obrigatórios preventivos | 27 |
-| Discricionários preventivos | 9  |
+| Discricionários preventivos | 241 |
 | Detecção obrigatória | 3D |
 | Detecção arbitrária | 1 |
 | Obrigatório corretivo | 3D |
 | Condicionalmente | 1 |
   
-## <a name="action-item-workflow"></a>Fluxo de trabalho do item de ação
-
-Este é o fluxo de trabalho básico de um item de ação típico:
-  
-1. O gerente de conformidade, risco, privacidade e/ou proteção de dados de uma organização atribui uma tarefa a alguém na organização para implementar um controle. Essa pessoa pode ser:
-
-    - Um proprietário de política de negócios.
-    - Um implementador de ti.
-    - Outra pessoa na organização com responsabilidade de realizar a tarefa.
-
-2. Essa pessoa realiza as tarefas necessárias para implementar o controle, carrega evidências de implementação no Gerenciador de conformidade e marca o controle vinculado ao item de ação conforme implementado. Após a conclusão dessas tarefas, elas atribuem o item de ação a um consultor para validação.
-
-    Os avaliadores podem ser:
-
-    - Avaliadores internos que realizam a validação de controles em uma organização.
-    - Avaliadores externos que examinam, verificam e certificam a conformidade, como as organizações independentes de terceiros que auditam os serviços de nuvem da Microsoft.
-
-3. O consultor valida o controle e examina a evidência e marca o controle como avaliado e os resultados da avaliação.
-
-Depois que todos os controles associados a uma avaliação forem avaliados, a avaliação estará concluída.

@@ -1,5 +1,5 @@
 ---
-title: Criptografia de email do Exchange Online com o AD RMS
+title: Criptografia de email do Exchange Online com AD RMS
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: Você pode configurar o IRM do Exchange Online para usar o AD RMS (Active Directory Rights Management Service) local, se necessário, para atender aos requisitos da sua organização. Isso não é comum. Se você não tiver um requisito para usar o AD RMS, use a criptografia de mensagem do Office.
-ms.openlocfilehash: f5611ca7efeae0ab60ef90ebf4f8a225ea1332e7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1c3bdf02f31f57f1328f0244d539d0dc88e7ba89
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071825"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684815"
 ---
-# <a name="exchange-online-mail-encryption-with-ad-rms"></a>Criptografia de email do Exchange Online com o AD RMS
+# <a name="exchange-online-mail-encryption-with-ad-rms"></a>Criptografia de email do Exchange Online com AD RMS
 
 Para evitar o vazamento de informações, o Exchange Online inclui a funcionalidade IRM (Gerenciamento de Direitos de Informação) que oferece proteção online e offline de mensagens e anexos de email. Você pode configurar o IRM do Exchange Online para usar o AD RMS (Active Directory Rights Management Service) local, se necessário, para atender aos requisitos da sua organização. Isso não é comum. Se você não tiver um requisito para usar o AD RMS, use a [criptografia de mensagem do Office 365](ome.md) . 
 
@@ -43,6 +43,6 @@ Depois de habilitada, a proteção do IRM pode ser aplicada às mensagens da seg
     
 - **Os administradores podem usar regras de proteção de transporte para aplicar a proteção de IRM automaticamente ao Outlook e ao Outlook na Web.** Você pode criar regras de proteção de transporte para mensagens protegidas por IRM. Configure a ação da regra de proteção de transporte para aplicar um modelo de política de direitos do AD RMS às mensagens que cumprem a condição da regra. Depois que você habilita o IRM, os modelos de política de direitos do AD RMS de sua organização ficam disponíveis para uso com a ação de regra de proteção de transporte denominada **Aplicar proteção de direitos à mensagem com**.
     
-- **Os administradores podem criar regras de proteção do Outlook.** As regras de proteção do Outlook aplicam automaticamente a proteção de IRM a mensagens no Outlook 2010 (não no Outlook na Web) com base em condições de mensagem que incluem o departamento do remetente ao qual a mensagem é enviada e se os destinatários estão dentro ou fora do seu departamento. Para obter detalhes, consulte [Create an Outlook Protection Rule](http://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx).
+- **Os administradores podem criar regras de proteção do Outlook.** As regras de proteção do Outlook aplicam automaticamente a proteção de IRM a mensagens no Outlook 2010 (não no Outlook na Web) com base em condições de mensagem que incluem o departamento do remetente ao qual a mensagem é enviada e se os destinatários estão dentro ou fora do seu departamento. Para obter detalhes, consulte [Create an Outlook Protection Rule](https://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx).
     
 

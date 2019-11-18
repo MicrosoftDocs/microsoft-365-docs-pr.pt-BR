@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova versão da descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: e63fe05cf9a2e236247da3c45674b53cc830546d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: abeb4e6b9a465e4f1df857187ef709b5dc2c86b5
+ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073196"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "38684716"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -35,19 +35,19 @@ O fluxo de trabalho interno de descoberta eletrônica avançada se alinha com o 
 
 Em um nível alto, veja como a descoberta eletrônica avançada é compatível com o fluxo de trabalho do EDRM:
 
-- **Identificação** – depois de identificar as possíveis pessoas de interesse em uma investigação, você pode adicioná-las como responsáveis (também chamados de *responsáveis por dados*, porque eles podem ter informações relevantes para a investigação) a um avançado ocorrência de descoberta eletrônica. Depois que os usuários são adicionados como responsáveis, é fácil preservar, coletar e revisar documentos de responsáveis.
+- **Identificador.** Após identificar as possíveis pessoas de interesse em uma investigação, você poderá adicioná-las como responsáveis (também chamados de *responsáveis por dados*, pois elas podem ter informações relevantes para a investigação) a uma ocorrência de descoberta eletrônica avançada. Depois que os usuários são adicionados como responsáveis, é fácil preservar, coletar e revisar documentos de responsáveis.
 
-- **Preservação** – para preservar e proteger os dados relevantes para uma investigação, a descoberta eletrônica avançada permite que você coloque um bloqueio legal nas fontes de dados associadas aos responsáveis em um caso. Você também pode colocar dados não custodial em espera. A descoberta eletrônica avançada também tem um fluxo de trabalho de comunicações interno para que você possa enviar notificações de retenção legal para os responsáveis e controlar suas confirmações.
+- **Preservação.** Para preservar e proteger dados relevantes para uma investigação, a descoberta eletrônica avançada permite que você coloque um controle legal nas fontes de dados associadas aos responsáveis em um caso. Você também pode colocar dados não custodial em espera. A descoberta eletrônica avançada também tem um fluxo de trabalho de comunicações interno para que você possa enviar notificações de retenção legal para os responsáveis e controlar suas confirmações.
 
-- **Coleção** – depois de identificar (e preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na pesquisa de descoberta eletrônica avançada e coletar dados ao vivo das fontes de dados do custodial (e de fontes de dados não-custodial , se aplicável, que podem ser relevantes para o caso.
+- **Coletânea.** Depois de identificar (e preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na pesquisa de descoberta eletrônica avançada e coletar dados ao vivo das fontes de dados do custodial (e fontes de dados não-custodial, se aplicável) que pode ser relevante para o caso.
 
-- **Processamento** – após coletar todos os dados relevantes para o caso, a próxima etapa é processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão*), que fornece uma exibição estática dos dados de caso. 
+- **Processe.** Após coletar todos os dados relevantes para o caso, a próxima etapa será processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão*), que fornece uma exibição estática dos dados de caso. 
  
-- **Revisão** – depois que os dados tiverem sido adicionados a um conjunto de revisão, você poderá exibir documentos específicos e executar outras consultas para reduzir os dados para o que é mais relevante para o caso. Além disso, pode anotar e marcar documentos específicos.
+- **Exame.** Depois que os dados forem adicionados a um conjunto de revisão, você poderá exibir documentos específicos e executar outras consultas para reduzir os dados para o que é mais relevante para o caso. Além disso, pode anotar e marcar documentos específicos.
  
-- **Análise** – a descoberta eletrônica avançada oferece uma ferramenta integrada de análise que ajuda você a buscar mais dados do conjunto de revisão que você determinar não é relevante para a investigação. Além de reduzir o volume de dados relevantes, a descoberta eletrônica avançada também ajuda você a salvar os custos de análise jurídica, permitindo que você organize o conteúdo para tornar o processo de revisão mais fácil e eficiente.
+- **Analisa.** A descoberta eletrônica avançada fornece uma ferramenta de análise integrada que ajuda você a buscar mais dados do conjunto de revisão que você determinar não é relevante para a investigação. Além de reduzir o volume de dados relevantes, a descoberta eletrônica avançada também ajuda você a salvar os custos de análise jurídica, permitindo que você organize o conteúdo para tornar o processo de revisão mais fácil e eficiente.
 
-- **Produção** e **apresentação** – quando você estiver pronto, você pode exportar documentos de um conjunto de revisão para análise jurídica. Você pode exportar documentos em seu formato nativo ou em um formato especificado pelo EDRM para que eles possam ser importados para aplicativos de revisão de terceiros.
+- **Produção** e **apresentação.** Quando estiver pronto, você pode exportar documentos de um conjunto de revisão para análise jurídica. Você pode exportar documentos em seu formato nativo ou em um formato especificado pelo EDRM para que eles possam ser importados para aplicativos de revisão de terceiros.
 
 ## <a name="advanced-ediscovery-workflow"></a>Fluxo de trabalho de descoberta eletrônica avançada
 
@@ -79,14 +79,16 @@ Use a guia **pesquisas** para criar pesquisas para pesquisar as fontes de dados 
 
 ## <a name="reviewing-and-analyzing-case-data"></a>Revisando e analisando dados de caso
 
-Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para obter mais informações, consulte:
+Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, confira:
 
-- [Revisar dados de caso na descoberta eletrônica avançada](reviewing-data-in-review-set.md)
-- [Analisar dados em um conjunto de revisão na descoberta eletrônica avançada](analyzing-data-in-review-set.md)
+- [Exibir documentos em um conjunto de revisão](view-documents-in-review-set.md)
+- [Consultar os dados em um conjunto de revisão](review-set-search.md)
+- [Marcar documentos em um conjunto de revisão](tagging-documents.md)
+- [Analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md)
 
 ## <a name="exporting-data-for-review-and-presentation"></a>Exportando dados para revisão e apresentação
 
-Depois de exportar os dados de um conjunto de revisão, use a guia **exportações** para gerenciar um trabalho de exportação e baixar dados de um conjunto de revisão. Quando você exporta um conjunto de revisão, os dados são carregados em um local de armazenamento do Azure e, em seguida, estão disponíveis para download para um computador local. Você pode obter a chave de avaliação de armazenamento necessária para baixar os dados exportados **na guia exportações** . Para obter mais informações, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md).
+Depois de exportar os dados de um conjunto de revisão, use a guia **exportações** para gerenciar um trabalho de exportação e baixar dados de um conjunto de revisão. Quando um conjunto de análise é exportado, os dados são carregados para um local de armazenamento fornecido pela Microsoft (ou um local de armazenamento do Azure gerenciado por sua organização). Após ser carregado para o Azure, ele é e está disponível para download para um computador local. Você pode obter a chave de avaliação de armazenamento necessária para baixar os dados exportados **na guia exportações** . Para obter mais informações, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md).
 
 ## <a name="managing-jobs"></a>Gerenciando trabalhos
 

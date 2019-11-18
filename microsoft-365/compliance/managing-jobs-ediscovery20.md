@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c0dd3b19f1fb666e07f70c36db05ed520093bfac
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9f3a27cc86bb764191aa23cd9159c97635f62e09
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072770"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38684882"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Gerenciar trabalhos na descoberta eletrônica avançada
 
@@ -27,10 +27,10 @@ Veja a seguir uma lista dos trabalhos (que geralmente são processos de longa du
 
 | Tipo de trabalho           | Descrição     |
 | :----------------- | :----------     |
-|Adicionando dados a um conjunto de revisão | Um usuário adiciona os resultados de uma pesquisa a um conjunto de revisão. Esse trabalho consiste em dois subtrabalhos: </br> </br>• **GatheringItems** -uma lista de itens que correspondem à consulta de pesquisa (e a fonte de dados do Office 365 em que eles estão localizados) é gerada. </br>• **Ingestão & indexação** – os itens que correspondem à consulta de pesquisa são copiados para um local de armazenamento do Azure (em um processo chamado *ingestão*) e os itens no local de armazenamento do Azure são re-indexados. Esse novo índice é usado ao consultar e analisar itens no conjunto de dados. </br></br>Para obter mais informações, consulte [Add Search Results to a Review Set](add-data-to-review-set.md). |
+|Adicionando dados a um conjunto de revisão | Um usuário adiciona os resultados de uma pesquisa a um conjunto de revisão. Esse trabalho consiste em dois subtrabalhos: </br>• **GatheringItems** -uma lista de itens que correspondem à consulta de pesquisa (e a fonte de dados do Office 365 em que eles estão localizados) é gerada. </br>• **Ingestão & indexação** – os itens que correspondem à consulta de pesquisa são copiados para um local de armazenamento do Azure (em um processo chamado *ingestão*) e os itens no local de armazenamento do Azure são re-indexados. Esse novo índice é usado ao consultar e analisar itens no conjunto de dados. </br></br>Para obter mais informações, consulte [Add Search Results to a Review Set](add-data-to-review-set.md). |
 |Adicionando dados a outro conjunto de revisão | Um usuário adiciona documentos de uma análise configurada para um conjunto de revisão diferente no mesmo caso. Para obter mais informações, consulte [Adicionar dados a um conjunto de revisão de outro conjunto de revisão](add-data-to-review-set-from-another-review-set.md).|
 |Adição de dados que não sejam do Office 365 a um conjunto de revisão | Um usuário carrega dados que não são do Office 365 em um conjunto de revisão. Os dados também são indexados durante esse processo. Por exemplo, os arquivos de um servidor de arquivos local ou de um computador cliente são carregados em um conjunto de revisão. Para obter mais informações, consulte [carregar dados não-Office 365 em um conjunto de revisão](load-non-office365-data.md).| 
-|Adicionando dados corrigidos a um conjunto de revisão | Dados com erros de processamento são corrigidos e carregados novamente em um conjunto de revisão. Para obter mais informações, consulte [Error remediation When Processing data](error-remediation.md). | 
+|Adicionando dados corrigidos a um conjunto de revisão | Dados com erros de processamento são corrigidos e carregados novamente em um conjunto de revisão. Para saber mais, confira:</br>• [Correção de erro ao processar dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [Correção de erro de item único](single-item-error-remediation.md)| 
 |Comparando conjuntos de carregamento | Um usuário examina as diferenças entre diferentes conjuntos de carga em um conjunto de revisão. Um conjunto de carga é uma instância de adição de dados a um conjunto de revisão. Por exemplo, se você adicionar os resultados de duas pesquisas diferentes ao mesmo conjunto de revisão, cada uma representaria um conjunto de carga. Para obter mais informações, consulte [Manage Load sets](manage-load-sets.md). |
 |Convertendo documentos redigidos em PDF|Depois que um usuário anotar um documento em um conjunto de revisão e redigir uma parte dele, ele poderá optar por converter o documento redigido em um arquivo PDF. Isso garante que a parte redigida não será visível se o documento for exportado para apresentação. Para obter mais informações, consulte [exibir documentos em um conjunto de revisão](annotating-and-redacting-documents.md). |
 |Estimando resultados de pesquisa | Após um usuário criar e executar uma nova pesquisa (ou executar novamente uma pesquisa existente), a ferramenta de pesquisa pesquisa o índice de itens que correspondem à consulta de pesquisa e prepara uma estimativa que inclui o número e o tamanho total de todos os itens pela pesquisa e o número de fontes de dados sear ched.  Para obter mais informações, consulte [coletar dados por um caso](collecting-data-for-ediscovery.md). | 
@@ -54,4 +54,4 @@ A tabela a seguir descreve os diferentes Estados de status dos trabalhos.
 | Em andamento | O trabalho está em andamento, você pode monitorar o andamento do trabalho na guia **trabalhos** . |
 | Foi | O trabalho foi concluído com êxito. A data e hora em que o trabalho foi concluído é exibida na coluna **concluído** da guia **trabalhos** . |
 | Parcialmente bem-sucedido | O trabalho foi parcialmente bem-sucedido. |
-| Failed | O trabalho falhou.  Você deve tentar executar novamente a ação que disparou o trabalho. Se o trabalho falhar uma segunda vez, recomendamos que você entre em contato com o suporte da Microsoft e forneça as informações de suporte do trabalho. |
+| Falhou | O trabalho falhou.  Você deve tentar executar novamente a ação que disparou o trabalho. Se o trabalho falhar uma segunda vez, recomendamos que você entre em contato com o suporte da Microsoft e forneça as informações de suporte do trabalho. |

@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 80 inclui tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 820bab0a128f952cf5d96208f5d561f4994bd859
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9c3111069ff30784af5fe781200de5e770c79066
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073237"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38685032"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>O que os tipos de informações confidenciais procuram
 
@@ -1057,7 +1057,7 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
+- A função Func_belgium_national_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_belgium_national_number for encontrada.
 - A soma de verificação passa.
 
@@ -1125,12 +1125,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_cpf localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_brazil_cpf for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_cpf localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -1185,12 +1185,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_cnpj localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_brazil_cnpj for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_cnpj localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -1261,12 +1261,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_rg localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_brazil_rg for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
+- A função Func_brazil_rg localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -1440,7 +1440,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_[province_name]_drivers_license_name
+#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_ [province_name] _drivers_license_name
 
 - A abreviação da província, por exemplo AB
 - O nome da província, por exemplo, Alberta
@@ -1708,7 +1708,7 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a expressão regular Regex_canada_phin localiza o conteúdo que corresponde ao padrão.
-São encontradas pelo menos duas palavras-chave do Keyword_canada_phin ou do Keyword_canada_provinces..
+São encontradas pelo menos duas palavras-chave de Keyword_canada_phin ou Keyword_canada_provinces..
 
 ```xml
 <!-- Canada PHIN -->
@@ -1867,12 +1867,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
+- A função Func_chile_id_card localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_chile_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
+- A função Func_chile_id_card localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -1926,12 +1926,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
+- A função Func_china_resident_id localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_china_resident_id for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
+- A função Func_china_resident_id localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -2223,7 +2223,7 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_id_card localiza conteúdo que corresponde ao padrão.
+- A função Func_croatia_id_card localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_croatia_id_card for encontrada.
 
 ```xml
@@ -2263,12 +2263,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
+- A função Func_croatia_oib_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_croatia_oib_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
+- A função Func_croatia_oib_number localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -2325,7 +2325,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP é de 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_czech_id_card localiza conteúdo que corresponde ao padrão.
+Uma política de DLP é de 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_czech_id_card localiza o conteúdo que corresponde ao padrão.
 Uma palavra-chave de Keyword_czech_id_card for encontrada.
 A soma de verificação passa.
 
@@ -2841,7 +2841,7 @@ Uma palavra-chave de Keyword_finland_passport_number for encontrada.
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
 </Entity>
-Keyword_finland_passport_number de palavras-chave o Passport Passi
+Palavras-chave Keyword_finland_passport_number Passport Passi
    
 ## <a name="france-drivers-license-number"></a>Número de carteira de motorista da França
 
@@ -3001,12 +3001,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 95% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
+- A função Func_french_insee ou Func_fr_insee localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
+- A função Func_french_insee ou Func_fr_insee localiza o conteúdo que corresponde ao padrão.
 - Nenhuma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
@@ -3398,12 +3398,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
+- A função Func_hong_kong_id_card localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_hong_kong_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
+- A função Func_hong_kong_id_card localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -3522,10 +3522,10 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP é de 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
+Uma política de DLP é de 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_india_aadhaar localiza o conteúdo que corresponde ao padrão.
 Uma palavra-chave de Keyword_india_aadhar for encontrada.
 A soma de verificação passa.
-Uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
+Uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_india_aadhaar localiza o conteúdo que corresponde ao padrão.
 A soma de verificação passa.
 ```xml
 <!-- India Unique Identification (Aadhaar) number -->
@@ -3816,14 +3816,14 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
+- A função Func_ireland_pps localiza o conteúdo que corresponde ao padrão.
 - Uma das seguintes opções for verdadeira:
     - Uma palavra-chave de Keyword_ireland_pps for encontrada.
     - A função Func_eu_date encontra uma data no formato de data à direita.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
+- A função Func_ireland_pps localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -4433,9 +4433,9 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_netherlands_bsn localiza conteúdo que corresponde ao padrão.
+- A função Func_netherlands_bsn localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_netherlands_bsn for encontrada.
-- A função Func_eu_date2 encontra uma data no formato de data à direita.
+- A função Func_eu_date2 localiza uma data no formato de data à direita.
 - A soma de verificação passa.
 
 ```xml
@@ -4523,11 +4523,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_norway_id_number localiza conteúdo que corresponde ao padrão.
+- A função Func_norway_id_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_norway_id_number for encontrada.
 - A soma de verificação passa.
 - Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_norway_id_numbe localiza conteúdo que corresponde ao padrão.
+- A função Func_norway_id_numbe localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -4615,7 +4615,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_polish_national_id localiza conteúdo que corresponde ao padrão.
+Uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres: a função Func_polish_national_id localiza o conteúdo que corresponde ao padrão.
 Uma palavra-chave de Keyword_polish_national_id_passport_number for encontrada.
 A soma de verificação passa.
 
@@ -4880,7 +4880,7 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_africa_identification_number localiza conteúdo que corresponde ao padrão.
+- A função Func_south_africa_identification_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_south_africa_identification_number for encontrada.
 - A soma de verificação passa.
 
@@ -4925,12 +4925,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
+- A função Func_south_korea_resident_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_south_korea_resident_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
+- A função Func_south_korea_resident_number localiza o conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -5416,11 +5416,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
+- A função Func_Thai_Citizen_Id localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_Thai_Citizen_Id for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
+- A função Func_Thai_Citizen_Id localiza o conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Thai Citizen ID -->
@@ -5463,11 +5463,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
+- A função Func_Turkish_National_Id localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_Turkish_National_Id for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
+- A função Func_Turkish_National_Id localiza o conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Turkish National Identity -->
@@ -5502,7 +5502,7 @@ Combinação de 18 letras e dígitos no formato especificado
 18 letras e dígitos:
 - Cinco letras (não diferenciam maiúsculas de minúsculas) ou o dígito "9" em vez de uma letra 
 - Um dígito 
-- Cinco dígitos no formato de data DDMMA para data de nascimento 
+- Cinco dígitos no formato de data MMDDY para data de nascimento (o sétimo caractere é incrementado por 50 se o driver for fêmea, ou seja, 51 a 62 em vez de 01 a 12)
 - Duas letras (não diferenciam maiúsculas de minúsculas) ou o dígito "9" em vez de uma letra 
 - Cinco dígitos
 
@@ -5990,7 +5990,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - identification cards# 
 
 
-#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
+#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_ [state_name] _drivers_license_name
 
 - Abreviação do estado (por exemplo, "NY") 
 - Nome do estado (por exemplo, "Nova York")    
@@ -6100,10 +6100,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 Quatro funções procuram CPFs em quatro padrões diferentes:
-- Func_ssn localiza CPFs com uma formatação forte de 2011 formatada com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
-- Func_unformatted_ssn localiza o CPFs com uma formatação forte de 2011 que não são formatados como nove dígitos consecutivos (ddddddddd)
-- Func_randomized_formatted_ssn localiza o post-2011 CPFs que são formatados com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
-- Func_randomized_unformatted_ssn localiza o post-2011 CPFs que não estão formatados como nove dígitos consecutivos (ddddddddd)
+- Func_ssn localiza CPFs com formatação forte de 2011 formatada com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
+- Func_unformatted_ssn localiza CPFs com uma formatação forte anterior à 2011 que não são formatadas como nove dígitos consecutivos (ddddddddd)
+- Func_randomized_formatted_ssn localiza CPFs post-2011 que são formatados com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
+- Func_randomized_unformatted_ssn localiza CPFs post-2011 que não estão formatados como nove dígitos consecutivos (ddddddddd)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -6119,7 +6119,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - A função Func_us_address localiza um endereço no formato correto.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_unformatted_ssn localiza conteúdo que corresponde ao padrão.
+- A função Func_unformatted_ssn localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
 - A função Func_us_date encontra uma data no formato de data à direita.
 - A função Func_us_address localiza um endereço no formato correto.

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Saiba como definir a regra para ignorar texto específico ao usar os módulos de análise e de processo na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 70d9879f1cb6b3def06ff978fc2f7fa8f20a92f0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cb40ebe946b65f08de9ffc27ff830fbf76d4f8a7
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073369"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684819"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Definir a opção Ignorar texto para análise na descoberta eletrônica avançada do Office 365
 
@@ -96,7 +96,7 @@ As expressões regulares têm suporte para uso ao definir o texto de ignorar. A 
   - O campo normal eExpression pode ter comprimento ilimitado.
     
 > [!TIP]
-> Para obter uma explicação e sintaxe detalhada de expressões regulares, consulte: [linguagem de expressão regular-referência rápida](https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx). 
+> Para obter uma explicação e sintaxe detalhada de expressões regulares, consulte: [linguagem de expressão regular-referência rápida](https://msdn.microsoft.com/library/az24scfc%28v=vs.110%29.aspx). 
   
 ## <a name="define-ignore-text-rule"></a>Definir a regra de ignorar texto
 

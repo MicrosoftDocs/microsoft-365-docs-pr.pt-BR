@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Saiba como o Exchange Online e o Office 365 usam a segurança de camada de transporte (TLS) e o sigilo total de comunicação por email. Além disso, obtenha informações sobre o certificado emitido pela Microsoft para o Exchange Online.
-ms.openlocfilehash: e165be9a3407abfcc165054f7f147eeb2d2c0a82
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 34667714840e23be5d19aed8f47a539ea1474ab4
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072645"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684797"
 ---
 # <a name="how-exchange-online-uses-tls-to-secure-email-connections-in-office-365"></a>Como o Exchange Online usa o TLS para proteger conexões de email no Office 365
 
@@ -88,7 +88,7 @@ O novo certificado é emitido por uma autoridade de certificação (CA) diferent
 O novo certificado requer a conexão aos pontos de extremidade da nova AC como parte da validação do certificado. Se isso não for feito, o fluxo de email pode ser afetado negativamente. Se você proteger seus servidores de email com firewalls que permitem que apenas os servidores de email se conectem com determinados destinos, será necessário verificar se o servidor é capaz de validar o novo certificado. Para confirmar se o servidor pode usar o novo certificado, conclua estas etapas:
 
 1. Conecte-se ao seu servidor Exchange local usando o Windows PowerShell e execute o seguinte comando:  
-  `certutil -URL http://crl.globalsign.com/gsorganizationvalsha2g3.crl`
+  `certutil -URL https://crl.globalsign.com/gsorganizationvalsha2g3.crl`
 2. Na janela exibida, escolha **recuperar**.
 3. Quando o utilitário concluir sua verificação, ele retornará um status. Se o status Exibir **OK**, seu servidor de email poderá validar com êxito o novo certificado. Caso contrário, você precisará determinar o que está causando falha nas conexões. Provavelmente, você precisará atualizar as configurações de um firewall. A lista completa de pontos de extremidade que precisam ser acessados incluem:
     - ocsp.globalsign.com

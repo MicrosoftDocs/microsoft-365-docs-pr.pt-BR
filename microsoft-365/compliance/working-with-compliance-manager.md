@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: d15899b994e4169c7362144623bc726f3825245d
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: e8e1ae997bf48f38e66319aec6ee07d0a84768c8
+ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417580"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38684854"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -40,9 +40,11 @@ Para começar, uma avaliação ISO/IEC 27001:2103 para o Office 365 aparece por 
 
 ## <a name="administration"></a>Administração
 
-Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. Depois que o administrador atribuir funções do Gerenciador de conformidade a outros usuários, esses usuários poderão exibir dados no Gerenciador de conformidade e realizar ações determinadas por sua função. O administrador também pode conceder acesso somente leitura ao Gerenciador de conformidade, atribuindo ao usuário a [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader).
+Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. O administrador global pode atribuir permissões de usuário e pode ativar as atualizações automáticas de Pontuação de segurança para todas as ações.
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>Atribuir funções do Gerenciador de Conformidade aos usuários
+
+Depois que o administrador atribuir funções do Gerenciador de conformidade a outros usuários, esses usuários poderão exibir dados no Gerenciador de conformidade e realizar ações determinadas por sua função. O administrador também pode conceder acesso somente leitura ao Gerenciador de conformidade, atribuindo ao usuário a [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader).
 
 Cada função do gerente de conformidade tem permissões levemente diferentes. Você pode exibir as permissões atribuídas a cada função, ver quais usuários estão em quais funções e adicionar ou remover usuários dessa função através do portal de confiança do serviço. Selecione o item de menu **administrador** e escolha **configurações** para exibir.
   
@@ -58,7 +60,7 @@ Para adicionar ou remover usuários das funções do Gerenciador de Conformidade
 
 4. Na lista suspensa **selecionar função** , selecione a função que você deseja gerenciar.
 
-5. Os usuários adicionados a cada função são listados na página **selecionar função** .
+5. Os usuários adicionados a cada função estão listados na página **Selecionar função**.
 
 6. Para adicionar usuários a essa função, selecione **Adicionar**. Na caixa de diálogo **Adicionar usuários** , selecione o campo usuário. Você pode rolar pela lista de usuários disponíveis ou começar a digitar o nome do usuário para filtrar a lista com base no seu termo de pesquisa. Selecione o usuário para adicionar essa conta à lista de **Adicionar usuários** fornecida com essa função. Se quiser adicionar vários usuários simultaneamente, comece a digitar um nome de usuário para filtrar a lista e, em seguida, selecione o usuário a ser adicionado à lista. Selecione **salvar** para provisionar a função selecionada para esses usuários. 
 
@@ -67,6 +69,18 @@ Para adicionar ou remover usuários das funções do Gerenciador de Conformidade
 7. Para remover usuários dessa função, selecione os usuários e selecione **excluir**.
 
     ![Gerenciador de conformidade — excluir usuários](media/compliance-manager-delete-users.png)
+
+### <a name="controlling-automatic-secure-score-updates"></a>Controlar atualizações automáticas de Pontuação segura
+
+As atualizações de Pontuação segura podem ser ativadas automaticamente para todas as ações, podem ser desativadas para todas as ações ou podem ser definidas por ação individual.
+
+1. Entre no portal de [confiança do serviço](https://servicetrust.microsoft.com) com sua conta de administrador global.
+
+2. Na barra de menus superior do portal de confiança do serviço, selecione **administrador** e, em seguida, escolha **configurações**.
+
+4. Na guia **Pontuação segura** , selecione o botão apropriado para escolher a configuração.
+
+**Observação:** Somente o administrador global pode ativar ou desativar as atualizações automáticas para todas as ações. O administrador do Gerenciador de conformidade pode ativar atualizações automáticas para ações individuais, mas não para todas as ações globalmente.
 
 ## <a name="groups"></a>Grupos
 
@@ -87,8 +101,8 @@ Ao trabalhar com grupos, lembre-se:
 - Novos grupos podem copiar informações de um grupo existente quando você cria uma nova avaliação. Qualquer informação adicionada aos detalhes de implementação e o plano de teste e os campos de resposta de gerenciamento dos controles gerenciados pelo cliente de avaliações no grupo de que você está copiando são copiados para os mesmos controles gerenciados pelo cliente (ou relacionados) no novo Estimativa. Se você estiver adicionando uma nova avaliação a um grupo existente, as informações comuns de avaliações nesse grupo serão copiadas para a nova avaliação.
 - Os nomes de grupo (também chamados de *IDs de grupo*) devem ser exclusivos em sua organização.
 - Os grupos podem conter Avaliações para a mesma certificação/regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de serviço/certificação na nuvem. Por exemplo, um grupo não pode conter duas avaliações para o Office 365 e o NIST CSF. Um grupo pode conter várias avaliações para o mesmo serviço de nuvem somente se a certificação/regulamentação correspondente de cada um for diferente.
-- Após a adição de uma avaliação a um grupo de avaliação, o agrupamento não poderá ser alterado. Você pode renomear o grupo de avaliação, que altera o nome do agrupamento de avaliação para todas as avaliações associadas a esse grupo. Você pode criar uma avaliação e um novo grupo de avaliação e copiar informações de uma avaliação existente, o que cria efetivamente uma duplicata dessa avaliação em um grupo de avaliação diferente.
-- O arquivamento de uma avaliação interrompe a relação entre essa avaliação e o grupo. Todas as outras atualizações de outras avaliações relacionadas não serão mais refletidas na avaliação arquivada.
+- Após a adição de uma avaliação a um grupo de avaliação, o agrupamento não poderá ser alterado. Você pode renomear o grupo de avaliação, que altera o nome do agrupamento de avaliação para todas as avaliações associadas a esse grupo. Você pode criar uma avaliação e um novo grupo de avaliação e copiar informações de uma avaliação existente, o que efetivamente criará uma duplicata dessa avaliação em um grupo de avaliação diferente.
+- O arquivamento de uma avaliação interrompe a relação entre essa avaliação e o grupo. Quaisquer atualizações posteriores de outras avaliações relacionadas não serão mais refletidas na avaliação arquivada.
 
 ## <a name="tenant-management"></a>Gerenciamento de locatário
 
@@ -103,6 +117,9 @@ Selecione **Gerenciamento de locatário** para abrir a interface de gerenciament
 ### <a name="dimensions"></a>Dimensões
 
 As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão do **tipo de ação** e dos valores de dimensão da **documentação**, **operacional**e **técnica**. Você pode editar ou excluir dimensões existentes.
+
+> [!IMPORTANT]
+> Você pode adicionar novas dimensões, e elas podem ser atribuídas a modelos que você já tenha importado. Você também pode adicionar novas dimensões a todos os novos modelos criados.
 
 ### <a name="owners"></a>Proprietários
 
@@ -154,11 +171,6 @@ Em resumo, você pode ver o título, proprietário, categoria, imposição e pon
 8. Selecione o **X** para fechar a folha de descrição.
 9. Selecione **salvar** para salvar a ação do cliente.
 
-#### <a name="edit-a-customer-action"></a>Editar uma ação de cliente
-
-1. Selecione as reticências (...) da ação que você deseja modificar e selecione **Editar**.
-2. Edite a ação conforme desejado e selecione **salvar**.
-
 #### <a name="delete-a-customer-action"></a>Excluir uma ação de cliente
 
 1. Selecione as reticências (...) da ação que você deseja modificar e selecione **excluir**.
@@ -188,7 +200,7 @@ Em resumo, você pode ver o título, proprietário, categoria, imposição e pon
 - O título da avaliação.
 - As dimensões da avaliação, incluindo a certificação, o ambiente e o produto aplicados à avaliação.
 - A data em que foi criada e a data em que foi modificada pela última vez.
-- A pontuação de avaliação mostrada como uma porcentagem.
+- A pontuação de avaliação mostrada como uma porcentagem. Essa Pontuação inclui automaticamente as pontuações dos controles gerenciados pela Microsoft e da Pontuação segura.
 - Indicadores de progresso que mostram o número de controles avaliados pela Microsoft e gerenciados pelo cliente.
 
 ### <a name="copying-information-from-existing-assessments"></a>Copiar informações de avaliações existentes
@@ -215,9 +227,7 @@ Ao criar uma avaliação, você tem a opção de copiar informações de um grup
 
 3. Selecione **salvar** para criar a avaliação.
 
-### <a name="viewing-assessments"></a>Como exibir avaliações
-
-#### <a name="view-an-assessment"></a>Exibir uma avaliação
+### <a name="view-an-assessment"></a>Exibir uma avaliação
   
 1. No painel de avaliações, selecione o nome da avaliação para abri-lo e exibir as informações sobre itens de ação e controles.
 
@@ -282,40 +292,39 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 O relatório de avaliação é baixado como um arquivo do Excel na sessão do navegador. O nome dos arquivos para o arquivo do Excel padrão é o título da avaliação.
 
-### <a name="archive-a-template-or-an-assessment"></a>Arquivar um modelo ou avaliação
+### <a name="hide-a-template-or-an-assessment"></a>Ocultar um modelo ou uma avaliação
 
-Quando você tiver concluído um modelo ou avaliação e não precisar mais dele para fins de conformidade, você poderá arquivá-lo. Quando um modelo ou avaliação é arquivado, ele é removido do modo de exibição padrão e você deve marcar a caixa de seleção Mostrar arquivo morto para exibi-la.
+Quando você termina com um modelo ou avaliação e não precisa mais dele para fins de conformidade, é possível ocultá-lo em seu modo de exibição. Quando um modelo ou avaliação estiver oculto, ele será removido do modo de exibição padrão e você deverá selecionar a caixa de seleção **incluir oculto** para exibi-la.
 
-![Modo de exibição de ação da Microsoft do gerente de conformidade](media/compliance-manager-archive-assessment-view.png)
-  
+![Exibição de modelo oculto do Gerenciador de conformidade](media/compliance-manager-hidden-template.png "Modelo oculto do Gerenciador de conformidade")
+
 > [!IMPORTANT]
-> As avaliações arquivadas não mantêm seus links para documentos de evidência carregados. É altamente recomendável que você exporte a avaliação antes de arquivamento para manter links para os documentos de evidência no relatório.
+> As avaliações ocultas não retêm seus links para documentos de evidência carregados. É altamente recomendável que você exporte a avaliação antes de ocultá-la para manter links para os documentos de evidência no relatório.
   
-#### <a name="archive-a-template"></a>Arquivar um modelo
+#### <a name="hiding-a-template"></a>Ocultar um modelo
 
 1. Abra o painel de **modelos** .
-2. Localize o modelo que você deseja arquivar e selecione o ícone de arquivo morto.
-3. Ao ver a mensagem de confirmação, selecione **arquivo morto**.
+2. Localize o modelo que você deseja ocultar e nas reticências em sua linha, selecione **ocultar**.
+3. Ao ver a mensagem de confirmação, selecione **ocultar**.
 
-#### <a name="archive-an-assessment"></a>Arquivar uma avaliação
+#### <a name="hide-an-assessment"></a>Ocultar uma avaliação
 
 1. Abra o painel de **avaliações** .
-2. Selecione o **grupo** na lista suspensa que contém a avaliação que você deseja arquivar.
-3. Localize a avaliação que você deseja arquivar e selecione o ícone de arquivo morto.
-4. Ao ver a mensagem de confirmação, selecione **arquivo morto**.
+2. Selecione o **grupo** na lista suspensa que contém a avaliação que você deseja ocultar.
+3. Localize a avaliação que você deseja ocultar e, nas reticências, selecione **ocultar**.
+4. Ao ver a mensagem de confirmação, selecione **ocultar**.
 
-#### <a name="view-archived-assessments"></a>Exibir avaliações arquivadas
+#### <a name="view-hidden-assessments"></a>Exibir avaliações ocultas
   
-1. Abra a guia painel de **avaliações** e marque a caixa de seleção **Mostrar arquivo morto** .
-2. As avaliações arquivadas aparecem na seção **avaliações arquivadas** .
-3. Selecione o nome da avaliação para abrir e exibir a avaliação.
+1. Abra a guia painel de **avaliações** e marque a caixa de seleção **incluir ocultos** .
+2. As avaliações ocultas aparecem na seção **avaliações ocultas** .
 
-#### <a name="activate-an-archived-assessment"></a>Ativar uma avaliação arquivada
+#### <a name="unhide-an-assessment"></a>Reexibir uma avaliação
 
-1. Na guia **avaliações** e selecione a caixa de seleção **Mostrar arquivo morto** .
-2. As avaliações arquivadas aparecem na seção **avaliações arquivadas** .
-3. Localize a avaliação que você deseja ativar e selecione o ícone ativar.
-4. Ao ver a mensagem de confirmação, selecione **Ativar**.
+1. Na guia **avaliações** , marque a caixa de seleção **incluir ocultos** .
+2. As avaliações ocultas aparecem na seção **avaliações ocultas** .
+3. Localize a avaliação que você deseja Reexibir e, nas reticências, selecione **Reexibir**.
+4. Ao ver a mensagem de confirmação, selecione **Reexibir**.
 
 ## <a name="controls-and-actions"></a>Controles e ações
 
@@ -507,6 +516,9 @@ Você pode criar um modelo copiando um modelo existente ou importando dados de m
 7. O modelo importado aparece no painel **modelos** e tem um status de **importado**. Selecione as reticências (...) e selecione **publicar** para publicar o modelo. Quando a mensagem de confirmação for exibida, selecione **publicar**. O status do modelo muda para **aprovação pendente**.
 8. Outro usuário com a função de administrador do gerente de conformidade deve aprovar o modelo no painel modelos. Eles devem selecionar as reticências (...) e selecionar **aprovar**. Quando a mensagem de confirmação for exibida, selecione **aprovar**. O modelo agora está pronto para uso.
 
+> [!IMPORTANT]
+> Ao criar um modelo, você deve incluir as dimensões de **produto** e **certificação** para garantir que seu modelo seja exibido na pontuação de conformidade.
+
 ### <a name="customize-a-template"></a>Personalizar um modelo
 
 Os modelos podem ser personalizados por meio de outros controles personalizados. Todos os controles personalizados são considerados controles gerenciados pelo cliente.
@@ -531,6 +543,9 @@ Os modelos podem ser personalizados por meio de outros controles personalizados.
 12. Quando todas as ações aplicáveis forem selecionadas, selecione **atribuir**.
 13. Selecione **salvar** para salvar o novo controle.
 
+> [!NOTE]
+> As alterações feitas em um modelo não serão refletidas nas avaliações existentes. As atualizações de modelo devem ser feitas primeiro e, em seguida, aplicadas a uma nova avaliação, para que as alterações sejam vistas.
+
 ### <a name="export-a-template-to-json"></a>Exportar um modelo para JSON
 
 O Gerenciador de conformidade (visualização) também oferece suporte à exportação de modelos para o formato JSON (JavaScript Object Notation). Isso permite que você troque os dados do Gerenciador de conformidade com outros sistemas que dão suporte a JSON.
@@ -553,7 +568,7 @@ A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o qu
 
 ||**Leitor global do Azure AD**|**Leitor do Gerenciador de Conformidade**|**Colaborador do Gerenciador de Conformidade**|**Consultor do Gerenciador de Conformidade**|**Administrador do Gerenciador de Conformidade**|**Administrador do Portal**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Ler dados:** Os usuários podem ler mas não editar dados (exceto para o modelo de dados e gerenciamento de locatários).  <br> | X | X | X | X | X  | X  |X |
+|**Ler dados:** Os usuários podem ler mas não editar dados (exceto para o modelo de dados e gerenciamento de locatários).  <br> | X | X | X | X | X  | X |
 |**Editar dados:** Os usuários podem editar todos os campos, exceto os campos resultado do teste e data de teste (exceto os dados de modelo e o gerenciamento de locatários).  <br> ||| X | X  | X | X |
 |**Edite os resultados do teste:** Os usuários podem editar os campos resultado do teste e data de teste.  <br> |||| X | X | X |
 |**Gerenciar avaliações:** Os usuários podem criar, arquivar e excluir avaliações.  <br> ||||| X | X |

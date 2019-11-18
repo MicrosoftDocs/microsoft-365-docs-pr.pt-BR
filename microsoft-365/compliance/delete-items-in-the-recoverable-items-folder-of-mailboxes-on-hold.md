@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Office 365.'
-ms.openlocfilehash: 9da469af900c2610762338029aa80d31c7f10363
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1954ac4db8b978b0b1c3cdc8cee080cc0f0e6c22
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070730"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684976"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -71,7 +71,7 @@ Além disso, é necessário obter as configurações de acesso do cliente da cai
     
 2. Execute o seguinte comando para obter informações sobre a recuperação de item único e o período de retenção de item excluído.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL SingleItemRecoveryEnabled,RetainDeletedItemsFor
     ```
 
@@ -79,7 +79,7 @@ Além disso, é necessário obter as configurações de acesso do cliente da cai
     
 3. Execute o seguinte comando para obter as configurações de acesso à caixa de correio para a caixa de correio. 
     
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
@@ -87,7 +87,7 @@ Além disso, é necessário obter as configurações de acesso do cliente da cai
     
 4. Execute o seguinte comando para obter informações sobre as políticas de retenção de isenções e do Office 365 aplicadas à caixa de correio.
     
-    ```
+    ```powershell
     Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
     ```
 
@@ -97,9 +97,10 @@ Além disso, é necessário obter as configurações de acesso do cliente da cai
   
 5. Execute o seguinte comando para obter informações sobre as políticas de retenção do Office 365 em toda a organização. 
 
-    ```
+    ```powershell
     Get-OrganizationConfig | FL InPlaceHolds
     ```
+   
    Se sua organização tiver as políticas de retenção do Office 365 em toda a organização, você terá que excluir a caixa de correio dessas políticas na etapa 3.
 
    > [!TIP]
@@ -107,7 +108,7 @@ Além disso, é necessário obter as configurações de acesso do cliente da cai
   
 6. Execute o seguinte comando para obter o tamanho atual e o número total de itens em pastas e subpastas na pasta itens recuperáveis na caixa de correio principal do usuário. 
 
-    ```
+    ```powershell
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
@@ -138,19 +139,19 @@ Execute as etapas a seguir no PowerShell do Exchange Online.
     ```   
     Set-CASMailbox <username> -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
     ```
-   
+
    > [!NOTE]
     > Pode levar até 60 minutos para desabilitar todos os métodos de acesso para cliente para a caixa de correio. Observe que desabilitar esses métodos de acesso não desconectará o proprietário da caixa de correio no qual está conectado no momento. Se o proprietário não estiver conectado, não será possível acessar a caixa de correio após a desabilitação dos métodos de acesso. 
   
 2. Execute o seguinte comando para aumentar o período de retenção de item excluído no máximo 30 dias. Isso pressupõe que a configuração atual é inferior a 30 dias. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 30
     ```
 
 3. Execute o comando a seguir para desabilitar a recuperação de item único.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $false
     ```
 
@@ -159,7 +160,7 @@ Execute as etapas a seguir no PowerShell do Exchange Online.
   
 4. Execute o comando a seguir para impedir que o assistente de pasta gerenciada processe a caixa de correio. Conforme explicado anteriormente, você pode desabilitar o assistente de pasta gerenciada somente se uma política de retenção do Office 365 com um bloqueio de preservação não for aplicada à caixa de correio. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $true
     ```
 
@@ -174,7 +175,7 @@ A última etapa para que você possa excluir itens da pasta itens recuperáveis 
   
 Execute o seguinte comando no PowerShell do Exchange Online para remover uma retenção de litígio da caixa de correio.
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $false
 ```
 
@@ -186,31 +187,31 @@ Set-Mailbox <username> -LitigationHoldEnabled $false
   
 Execute o seguinte comando no PowerShell do Exchange Online para identificar o bloqueio in-loco colocado na caixa de correio. Use o GUID do bloqueio in-loco identificado na etapa 1. 
 
-```
+```powershell
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 ```
-   
+
 Após identificar o bloqueio in-loco, você pode usar o centro de administração do Exchange (Eat) ou o PowerShell do Exchange Online para remover a caixa de correio da isenção. Para mais informações, consulte [Criar ou remover um bloqueio In-loco](https://go.microsoft.com/fwlink/?linkid=852668).
   
  ### <a name="office-365-retention-policies-applied-to-specific-mailboxes"></a>Políticas de retenção do Office 365 aplicadas a caixas de correio específicas
   
 Execute o seguinte comando no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar a política de retenção do Office 365 que é aplicada à caixa de correio. Use o GUID (não incluindo o `mbx` prefixo `skp` ou) para a política de retenção que você identificou na etapa 1. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
-   
-Após identificar a política de retenção, vá para a página **retenção** de **governança** \> de data no centro de conformidade & segurança, edite a política de retenção que você identificou na etapa anterior e remova a caixa de correio da lista de destinatários incluídos na política de retenção. 
+
+Depois de identificar a política de retenção, vá para a página **retenção** de **governança** \> de data no centro de conformidade & segurança, edite a política de retenção que você identificou na etapa anterior e remova a caixa de correio da lista de destinatários que estão incluídos na política de retenção. 
   
  ### <a name="organization-wide-office-365-retention-policies"></a>Políticas de retenção do Office 365 em toda a organização
   
 As políticas de retenção de toda a organização e do Exchange 365 são aplicadas a todas as caixas de correio na organização. Eles são aplicados no nível da organização (não no nível da caixa de correio) e são retornados quando você executa o cmdlet **Get-OrganizationConfig** na etapa 1. Execute o seguinte comando no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar as políticas de retenção do Office 365 em toda a organização. Use o GUID (não incluindo o `mbx` prefixo) para as políticas de retenção em toda a organização que você identificou na etapa 1. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-Após identificar as políticas de retenção do Office 365 em toda a organização, vá para a página de **retenção** de **governança** \> de dados no centro de conformidade & segurança, edite cada política de retenção em toda a organização identificada no etapa anterior e adicione a caixa de correio à lista de destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção. 
+Após identificar as políticas de retenção do Office 365 em toda a organização, vá para a página de **retenção** de **governança** \> de dados no centro de conformidade & segurança, edite cada política de retenção em toda a organização que você identificou na etapa anterior e adicione a caixa de correio à lista de destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção. 
 
 ### <a name="office-365-retention-labels"></a>Rótulos de retenção do Office 365
 
@@ -218,7 +219,7 @@ Sempre que um usuário aplica um rótulo que é configurado para reter conteúdo
 
 Para exibir o valor da propriedade *ComplianceTagHoldApplied* , execute o seguinte comando no PowerShell do Exchange Online:
 
-```
+```powershell
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
@@ -230,15 +231,15 @@ Para obter mais informações sobre rótulos, consulte [Overview of Office 365 L
   
 Execute os seguintes comandos no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar o bloqueio associado a uma ocorrência de descoberta eletrônica aplicada à caixa de correio. Use o GUID (não incluindo o `UniH` prefixo) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. Observe que o segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada; o terceiro comando exibe o nome da retenção. 
   
-```
+```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
 ```
 
-```
+```powershell
 Get-ComplianceCase $CaseHold.CaseId | FL Name
 ```
 
-```
+```powershell
 $CaseHold.Name
 ```
 
@@ -250,7 +251,7 @@ Após qualquer tipo de retenção ser removido de uma caixa de correio, o valor 
 
 Antes de poder excluir itens na etapa 5, você deve remover o atraso de retenção da caixa de correio. Primeiro, determine se a espera de atraso é aplicada à caixa de correio executando o seguinte comando no PowerShell do Exchange Online:
 
-```
+```powershell
 Get-Mailbox <username> | FL DelayHoldApplied
 ```
 
@@ -258,9 +259,10 @@ Se o valor da propriedade *DelayHoldApplied* for definido como **false**, uma es
 
 Se o valor da propriedade *DelayHoldApplied* for definido como **true**, execute o seguinte comando para remover o atraso de retenção:
 
-```
+```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
+
 Observe que você deve receber a função de retenção legal no Exchange Online para usar o parâmetro *RemoveDelayHoldApplied* .
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Etapa 5: excluir itens na pasta itens recuperáveis
@@ -284,7 +286,7 @@ Os exemplos a seguir mostram a sintaxe de comando de cada uma dessas opções. E
 
 Este exemplo copia todos os itens da pasta itens recuperáveis do usuário para uma pasta na caixa de correio de pesquisa de descoberta da sua organização. Isso permite que você revise os itens antes de excluí-los permanentemente.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>"
 ```
 
@@ -294,15 +296,15 @@ No exemplo anterior, não é necessário copiar itens para a caixa de correio de
 
 Este exemplo copia todos os itens da pasta itens recuperáveis do usuário para uma pasta na caixa de correio de pesquisa de descoberta da organização e, em seguida, exclui os itens da pasta itens recuperáveis do usuário.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
 ```
- 
+
 ### <a name="example-3"></a>Exemplo 3
 
 Este exemplo exclui todos os itens na pasta itens recuperáveis do usuário, sem copiá-los para uma caixa de correio de destino. 
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
 ```
 
@@ -312,38 +314,38 @@ Aqui estão alguns exemplos de como usar o parâmetro *SearchQuery* para localiz
   
 Este exemplo retorna mensagens que contêm uma frase específica no campo Subject.
   
-```
+```powershell
 SearchQuery 'subject:"MAIL_BOX VALIDATION/UPGRADE!!!"' 
 ```
 
 Este exemplo retorna mensagens que foram enviadas dentro do intervalo de datas especificado.
   
-```
+```powershell
 SearchQuery 'sent>=06/01/2016 AND sent<=09/01/2016'
 ```
- 
+
 Este exemplo retorna mensagens que foram enviadas para a pessoa especificada.
 
-```
+```powershell
 SearchQuery 'to:garthf@alpinehouse.com'
 ```
-   
+
 ### <a name="verify-that-items-were-deleted"></a>Verificar se os itens foram excluídos
 
 Para verificar se você excluiu com êxito itens da pasta itens recuperáveis de uma caixa de correio, use o cmdlet **Get-MailboxFolderStatistics** no PowerShell do Exchange Online para verificar o tamanho e o número de itens na pasta itens recuperáveis. Você pode comparar essas estatísticas com as que você coletou na etapa 1. 
   
 Execute o seguinte comando em para obter o tamanho atual e o número total de itens em pastas e subpastas na pasta itens recuperáveis na caixa de correio principal do usuário. 
   
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-   
+
 Execute o seguinte comando para obter o tamanho e o número total de itens em pastas e subpastas na pasta itens recuperáveis na caixa de correio de arquivo morto do usuário. 
 
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-  
+
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>Etapa 6: reverter a caixa de correio para o estado anterior
 
 A etapa final é reverter a caixa de correio de volta à configuração anterior. Isso significa redefinir as propriedades que você alterou na etapa 2 e aplicar novamente as isenções que foram removidas na etapa 3. Isso inclui:
@@ -365,29 +367,29 @@ Execute as seguintes etapas (na sequência especificada) no PowerShell do Exchan
   
 1. Execute o seguinte comando para alterar o período de retenção do item excluído de volta para seu valor original. Isso pressupõe que a configuração anterior tenha menos de 30 dias; por exemplo, 14 dias. 
     
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 14
     ```
-   
+
 2. Execute o seguinte comando para reabilitar a recuperação de item único.
    
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $true
     ```
 
 3. Execute o seguinte comando para reabilitar todos os métodos de acesso para cliente para a caixa de correio.
     
-    ```
+    ```powershell
     Set-CASMailbox <username> -EwsEnabled $true -ActiveSyncEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
     ```
-   
+
 4. Aplique novamente as isenções que você removeu na etapa 3. Dependendo do tipo de retenção, use um dos procedimentos a seguir.
     
     **Retenção de litígio**
     
     Execute o seguinte comando para reabilitar uma retenção de litígio para a caixa de correio.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -LitigationHoldEnabled $true
     ```
 
@@ -409,20 +411,20 @@ Execute as seguintes etapas (na sequência especificada) no PowerShell do Exchan
     
 5. Execute o seguinte comando para permitir que o assistente de pasta gerenciada processe a caixa de correio novamente. Conforme mencionado anteriormente, recomendamos que você espere 24 horas após a reaplicação de uma política de retenção de bloqueio ou do Office 365 (e confirmar se ela está no lugar) antes de reabilitar o assistente de pasta gerenciada. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $false
     ```
-   
+
 6. Para verificar se a caixa de correio foi revertida para a configuração anterior, você pode executar os seguintes comandos e comparar as configurações com as que você coletou na etapa 1.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL ElcProcessingDisabled,InPlaceHolds,LitigationHoldEnabled,RetainDeletedItemsFor,SingleItemRecoveryEnabled
     ```
 
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
-  
+
 ## <a name="more-information"></a>Mais informações
 
 Aqui está uma tabela que descreve como identificar diferentes tipos de isenções com base nos valores da propriedade *InPlaceHolds* quando você executa os cmdlets **Get-Mailbox** ou **Get-OrganizationConfig** . Para obter informações mais detalhadas, consulte [como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md).

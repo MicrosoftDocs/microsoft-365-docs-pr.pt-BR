@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados da ferramenta de chat do Bloomberg para o Office 365. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: eda68a0fdc887a2042a78683eaef0693264d0684
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 97923fbd9bec8f5ae5fad822947c57bab08fe218
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072303"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38684764"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data-in-office-365"></a>Configurar um conector para arquivar dados do Bloomberg instantâneos no Office 365
 
 Use um conector nativo no centro de conformidade & segurança no Office 365 para importar e arquivar dados de chat de serviços financeiros da ferramenta de colaboração do [Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) . Depois de configurar e configurar um conector, ele se conecta ao site da sua organização (SFTP) uma vez a cada dia, converte o conteúdo de mensagens de chat em um formato de mensagem de email e, em seguida, importa esses itens para caixas de correio no Office 365.
 
-Depois que os dados do Bloomberg instantâneos são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria e políticas de retenção do Office 365 para dados instantâneos do Bloomberg. Por exemplo, você pode pesquisar mensagens de chat do Bloomberg instantâneas usando a pesquisa de conteúdo ou associar a caixa de correio que contém os dados do Bloomberg instantâneos a um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector de Bloomberg instantâneo para importar e arquivar dados no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados do Bloomberg instantâneos são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 a dados do Bloomberg. Por exemplo, você pode pesquisar mensagens de chat do Bloomberg instantâneas usando a pesquisa de conteúdo ou associar a caixa de correio que contém os dados do Bloomberg instantâneos a um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector de Bloomberg instantâneo para importar e arquivar dados no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 ## <a name="overview-of-archiving-instant-bloomberg-data"></a>Visão geral do arquivamento de dados instantâneos do Bloomberg
 
@@ -119,7 +119,7 @@ A última etapa é criar um conector de Bloomberg instantâneo no centro de conf
 5. Na página de **caixa de correio alternativa** , digite o endereço de email de uma caixa de correio que é usada para armazenar as mensagens de chat do Bloomberg instantâneo que não estão associados a uma caixa de correio de usuário em sua organização.
 
    > [!NOTE]
-   > Cada mensagem de chat em todas as conversas no Bloomberg instantâneo inclui uma propriedade chamada *CorporateEmailAddress*, que contém o endereço de email da sua organização para o participante do chat. Durante o processo de importação, o conector tenta importar mensagens de chat para uma caixa de correio de usuário no Office 365 que tenha os mesmos endereços de email que correspondem ao da propriedade *CorporateEmailAddress* . Se não houver uma caixa de correio do Office 365 com o mesmo endereço que o da propriedade *CorporateEmailAddress* , o conector importa a mensagem de chat para a caixa de correio alternativa que você especificar nessa página. No momento, as mensagens instantâneas de chat do Bloomberg arquivadas na caixa de correio alternativa não são monitoradas por políticas de supervisão no Office 365.
+   > Cada mensagem de chat em todas as conversas no Bloomberg instantâneo inclui uma propriedade chamada *CorporateEmailAddress*, que contém o endereço de email da sua organização para o participante do chat. Durante o processo de importação, o conector tenta importar mensagens de chat para uma caixa de correio de usuário no Office 365 que tenha os mesmos endereços de email que correspondem ao da propriedade *CorporateEmailAddress* . Se não houver uma caixa de correio do Office 365 com o mesmo endereço da propriedade *CorporateEmailAddress* , o conector importa a mensagem de chat para a caixa de correio alternativa que você especificar nessa página.
 
 6. Clique em **Avançar**, revise suas configurações e clique em **preparar** para criar o conector.
 

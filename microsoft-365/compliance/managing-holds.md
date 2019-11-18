@@ -8,18 +8,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1e457ffa05670e6a8b48692bbb382ebd8f2b404e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1cea83ffec8af8b22b5a27e9d760946e71ba7f68
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072771"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684986"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar isenções na descoberta eletrônica avançada
 
@@ -27,7 +29,7 @@ Você pode usar um caso de descoberta eletrônica avançada para criar isençõe
 
 ## <a name="manage-custodian-based-holds"></a>Gerenciar bloqueios baseados em responsáveis
 
-Em alguns casos, você pode ter um conjunto de responsáveis por dados identificados e optar por preservá-los. Na descoberta eletrônica avançada, quando esses responsáveis são colocados em espera, o usuário e suas fontes de dados selecionadas são adicionados automaticamente a uma política de retenção de responsáveis. 
+Em alguns casos, você pode ter um conjunto de responsáveis que você identificou e decidiu preservar seus dados durante o caso. Na descoberta eletrônica avançada, quando esses responsáveis são colocados em espera, o usuário e suas fontes de dados selecionadas são adicionados automaticamente a uma política de retenção de responsáveis. 
 
 Para exibir a política de retenção de responsáveis:
 
@@ -86,7 +88,7 @@ Para criar uma retenção para um caso de descoberta eletrônica avançada:
 
     - Clique em **Adicionar** condições para adicionar uma ou mais condições para restringir a consulta de pesquisa para a isenção. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você cria a retenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou de site criados dentro do intervalo de datas sejam colocados em espera. Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador AND. Isso significa que os itens precisam satisfazer a consulta de palavra-chave e a condição a ser colocada em espera.
 
-     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [keyword queries and Search Conditions for Content Search](https://docs.microsoft.com/en-us/office365/SecurityCompliance/keyword-queries-and-search-conditions).
+     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [keyword queries and Search Conditions for Content Search](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions).
 
 12. Depois de configurar um bloqueio baseado em consulta, clique em **Avançar**.
  
@@ -116,10 +118,10 @@ Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
 - **Como mapear outros grupos do Office 365 ou site do Microsoft Teams para um? E como colocar um bloqueio não custodial nos grupos do Office 365 e no Microsoft Teams?** O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los em espera em um caso de descoberta eletrônica é muito semelhante. Lembre-se do seguinte ao colocar grupos do Office 365 e do Microsoft Teams em espera.
   - Para colocar o conteúdo localizado nos grupos do Office 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
   
-  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Office 365 ou equipe da Microsoft. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Office 365 ou a uma equipe da Microsoft. Por exemplo, o comando a seguir exibe as propriedades selecionadas de um grupo do Office 365 chamado equipe de liderança sênior:
+  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Office 365 ou equipe da Microsoft. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Office 365 ou a uma equipe da Microsoft. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
 
 
-    ```
+    ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
     DisplayName            : Senior Leadership Team
     Alias                  : seniorleadershipteam
@@ -128,24 +130,24 @@ Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
     ```
 
     > [!NOTE]
-    > Para executar o cmdlet Get-unificado, você deve receber a função de destinatários somente para exibição no Exchange Online ou ser um membro de um grupo de função atribuído à função de destinatários somente para exibição.
+    > Para executar o cmdlet Get-UnifiedGroup, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura.
 
  - Quando a caixa de correio de um usuário é pesquisada, qualquer grupo do Office 365 ou Microsoft Team do qual o usuário é membro não será pesquisado. Da mesma forma, quando você coloca um grupo do Office 365 ou um bloqueio de equipe da Microsoft, somente a caixa de correio de grupo e o site de grupo são colocados em espera; as caixas de correio e os sites do OneDrive for Business de membros do grupo não são colocados em espera, a menos que você os adicione explicitamente como responsáveis ou coloque suas fontes de dados em espera. Portanto, se você precisar colocar um grupo do Office 365 ou o Microsoft Team em espera para um determinado local, considere o mapeamento do site de grupo e da caixa de correio de grupo para os responsáveis (consulte Gerenciando responsáveis em descoberta eletrônica avançada). Se o grupo do Office 365 ou a equipe da Microsoft não puder ser atribuído a um único membro, considere a adição da origem a um bloqueio não custodial. 
  
- - Para obter uma lista dos membros de um grupo do Office 365 ou de uma equipe da Microsoft, você pode exibir as propriedades na página de grupos de > domésticos no centro de administração do Microsoft 365. Como alternativa, você pode executar o seguinte comando no PowerShell do Exchange Online:
+ - Para obter uma lista dos membros de um grupo do Office 365 ou de uma equipe da Microsoft, você pode exibir as propriedades na página de grupos de > domésticos no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online:
 
-   ``` 
+   ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
    ```
 
     > [!NOTE]
-    > Para executar o cmdlet **Get-UnifiedGroupLinks** , você deve ser atribuído à função de destinatários somente para exibição no Exchange Online ou ser um membro de um grupo de função atribuído à função de destinatários somente para exibição.
+    > Para executar o cmdlet **Get-UnifiedGroupLinks**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser um membro de um grupo de funções atribuído à função Destinatários Somente Leitura.
 
 - As conversas de canal que fazem parte de um canal do Microsoft Teams são armazenadas na caixa de correio que está associada à equipe. Da mesma forma, os arquivos que os membros da equipe compartilham em um canal são armazenados no site do SharePoint da equipe. Portanto, você precisa colocar a caixa de correio do Microsoft Team e o site do SharePoint em espera para reter conversas e arquivos em um canal.
   
 - Como alternativa, as conversas que fazem parte da lista de chat no Microsoft Teams são armazenadas na caixa de correio do usuário que participa do chat.  Os arquivos que um usuário compartilha em conversas de chat são armazenados no site do OneDrive for Business do usuário que compartilha o arquivo. Portanto, você precisa colocar as caixas de correio de usuários individuais e os sites do OneDrive for Business em retenção para reter conversas e arquivos na lista de chat. 
   
-- Cada equipe do Microsoft ou canal de equipe contém um wiki para anotações e colaboração. O conteúdo wiki é automaticamente salvo em um arquivo com um formato. mht. Esse arquivo é armazenado na biblioteca de documentos de dados wiki do teams no site do SharePoint da equipe. Você pode colocar o conteúdo do wiki em espera, colocando o site do SharePoint da equipe em espera.
+- Cada equipe do Microsoft ou canal de equipe contém um wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode colocar o conteúdo do wiki em espera, colocando o site do SharePoint da equipe em espera.
 
   > [!NOTE]
   > A capacidade de manter o conteúdo do wiki para uma equipe do Microsoft ou um canal de equipe (quando você coloca o site do SharePoint da equipe em espera) foi lançada em 22 de junho de 2017. Se um site de equipe estiver em espera, o conteúdo wiki será retido a partir dessa data. No entanto, se um site de equipe estiver em espera e o conteúdo wiki tiver sido excluído antes de 22 de junho de 2017, o conteúdo wiki não foi mantido.

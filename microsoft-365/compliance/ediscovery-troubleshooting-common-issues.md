@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: Investigar, solucionar problemas e resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
-ms.openlocfilehash: 0d411976ecf6adba9df1f75eb8a45409647b3e1a
-ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
+ms.openlocfilehash: 37e92e480759601f9dfe61430bdd647b20df051d
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37378633"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684969"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -29,7 +29,7 @@ Este tópico aborda as etapas básicas de solução de problemas que podem ser t
 
 ## <a name="errorissue-ambiguous-location"></a>Erro/problema: local ambíguo
 
-Se você tentar adicionar o local da caixa de correio do usuário para pesquisar e houver objetos duplicados ou conflitantes com o mesmo userID no diretório do Exchange Online Protection (EOP), você receberá `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous`esse erro:. 
+Se você tentar adicionar o local da caixa de correio do usuário para pesquisar e houver objetos duplicados ou conflitantes com o mesmo userID no diretório do Exchange Online Protection (EOP), você receberá esse erro: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous`. 
 
 ### <a name="resolution"></a>Resolução
 
@@ -37,19 +37,19 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
 
 1. Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-2. Recuperar todas as instâncias do nome de usuário, digite:
+2. Execute o seguinte comando para recuperar todas as instâncias do nome de usuário:
 
     ```powershell
     Get-Recipient <username>
     ```
 
-A saída de ' useralias@contoso.com ' seria semelhante à seguinte:
+   A saída de ' useralias@contoso.com ' seria semelhante à seguinte:
 
-> 
-> |Nome  |RecipientType  |
-> |---------|---------|
-> |Alias, usuário     |MailUser         |
-> |Alias, usuário     |Usuário         |
+   > 
+   > |Nome  |RecipientType  |
+   > |---------|---------|
+   > |Alias, usuário     |MailUser         |
+   > |Alias, usuário     |Usuário         |
 
 3. Se vários usuários forem retornados, localize e corrija o objeto conflitante.
 
@@ -58,13 +58,13 @@ A saída de ' useralias@contoso.com ' seria semelhante à seguinte:
 Uma pesquisa de descoberta eletrônica ou conteúdo pode resultar no seguinte erro:
 >Esta pesquisa foi concluída com erros (#).  Você gostaria de repetir a pesquisa nos locais com falha?
 
-![Falha na captura de tela de erro de local específico de pesquisa]( media/edisc-tshoot-specific-location-search-fails.png)
+![Falha na captura de tela de erro de local específico da pesquisa]( media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>Resolução
 
 Se você receber esse erro, recomendamos verificar os locais que falharam na pesquisa e, em seguida, executar a pesquisa apenas nos locais com falha.
 
-1. Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e, em seguida, insira o seguinte comando:
+1. Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL 
@@ -74,11 +74,11 @@ Se você receber esse erro, recomendamos verificar os locais que falharam na pes
 
 3. Repita a pesquisa de descoberta eletrônica somente nos locais com falha.
 
-4. Se você continuar recebendo esses erros, confira [locais de falha na tentativa](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/retry-failed-content-search) de obter mais etapas de solução de problemas.
+4. Se você continuar recebendo esses erros, confira [locais de falha na tentativa](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) de obter mais etapas de solução de problemas.
 
 ## <a name="errorissue-file-not-found"></a>Erro/problema: arquivo não encontrado
 
-Ao executar uma pesquisa de descoberta eletrônica que inclui o SharePoint Online e uma unidade para locais comerciais, você pode `File Not Found` receber o erro, embora o arquivo esteja localizado no site. Esse erro estará nos avisos de exportação e erros. csv ou itens ignorados. csv. Isso pode ocorrer se o arquivo não puder ser localizado no site ou se o índice estiver desatualizado. Este é o texto de um erro real, com ênfase adicionada.
+Ao executar uma pesquisa de descoberta eletrônica que inclui o SharePoint Online e uma unidade para locais comerciais, você pode `File Not Found` receber o erro, embora o arquivo esteja localizado no site. Esse erro estará nos avisos de exportação e erros. csv ou itens ignorados. csv. Isso pode ocorrer se o arquivo não puder ser encontrado no site ou se o índice estiver desatualizado. Este é o texto de um erro real (com ênfase adicionada).
   
 > 28.06.2019 10:02:19_FailedToExportItem_Failed para baixar conteúdo. Informações adicionais de diagnóstico: Microsoft. Office. Compliance. EDiscovery. ExportWorker. Exceptions. ContentDownloadTemporaryFailure: falha ao baixar do conteúdo 6ea52149-91cd-4965-b5bb-82ca6a3ec9be do tipo documento. ID de correlação: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode:-2147024894---> Microsoft. SharePoint. Client. ServerException: ***arquivo não encontrado***. em Microsoft. SharePoint. Client. ClientRequest. ProcessResponseStream (Stream responseStream) em Microsoft. SharePoint. Client. ClientRequest. ProcessResponse ()---fim de rastreamento de pilha de exceção interna---
 
@@ -86,7 +86,7 @@ Ao executar uma pesquisa de descoberta eletrônica que inclui o SharePoint Onlin
 
 1. Verifique o local identificado na pesquisa para garantir que o local do arquivo está correto e adicionado nos locais de pesquisa.
 
-2. Use os procedimentos a fim de [solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://docs.microsoft.com/en-us/sharepoint/crawl-site-content) para reindexar o site.
+2. Use os procedimentos a fim de [solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://docs.microsoft.com/sharepoint/crawl-site-content) para reindexar o site.
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Erro/problema: a pesquisa falha porque o destinatário não foi encontrado
 
@@ -96,7 +96,7 @@ Uma pesquisa de descoberta eletrônica falha com `recipient not found`o erro. Es
 
 1. Conecte-se ao [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-2. Verifique se o objeto do usuário está sincronizado com o tipo de proteção do Exchange Online:
+2. Execute o seguinte comando para verificar se o usuário foi sincronizado com a proteção do Exchange Online:
 
     ```powershell
     Get-Recipient <userId> | FL
@@ -110,9 +110,9 @@ Ao exportar os resultados da pesquisa de descoberta eletrônica ou de pesquisa d
 
 ### <a name="resolution"></a>Resolução
 
-1.  Tente usar as etapas identificadas no artigo [aumentar as velocidades de download](https://docs.microsoft.com/en-us/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
+1.  Tente usar as etapas identificadas no artigo [aumentar as velocidades de download](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
 
-2.  Se você ainda tiver problemas, conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e, em seguida, insira o seguinte comando:
+2.  Se você ainda tiver problemas, conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL
@@ -120,7 +120,7 @@ Ao exportar os resultados da pesquisa de descoberta eletrônica ou de pesquisa d
 
 4. Encontre a quantidade de dados a serem baixados nos parâmetros SearchResults e SearchStatistics.
 
-5. Insira o seguinte comando:
+5. Execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearchAction | FL
@@ -140,15 +140,15 @@ Ao executar uma pesquisa de descoberta eletrônica, se a pesquisa falhar continu
 
 1. Divida a pesquisa em pesquisas menores e execute a pesquisa novamente.  Tente usar um intervalo de datas menor ou limitar o número de locais que estão sendo pesquisados.
 
-2. Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e, em seguida, insira o seguinte comando:
+2. Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
 
-    ```powershell
+    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
     Get-ComplianceSearch <searchname> | FL
     ```
 
 3. Examine a saída para obter resultados e erros.
 
-4. Examine o arquivo Trace. log. Ele será na mesma pasta para a qual você enviou a exportação.
+4. Examine o arquivo Trace. log. Ele está localizado na mesma pasta para a qual você exportou os resultados da pesquisa.
 
 5. Entrar em contato com o Suporte da Microsoft.
 
@@ -160,17 +160,38 @@ erro de distribuição de política de retenção de caso de descoberta eletrôn
 
 ### <a name="resolution"></a>Resolução
 
-1.  Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e, em seguida, insira o seguinte comando:
+1.  Conecte-se ao [PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando para uma retenção de caso de descoberta eletrônica:
 
     ```powershell
-    Get-RetentionCompliancePolicy  <policyname> - DistributionDetail | FL
+    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
+    ```
+
+    Para uma política de retenção, execute o seguinte comando:
+
+    ```powershell
+    Get-RetentionCompliancePolicy <policyname> - DistributionDetail | FL
     ```
 
 2. Examine o valor no parâmetro DistributionDetail para obter erros como o seguinte:
+ 
+   > Erro: recursos: está demorando mais do que o esperado para implantar a política. Pode levar mais duas horas para atualizar o status de implantação final, portanto, verifique novamente em algumas horas. " 
+   
+3. Tente executar o parâmetro RetryDistribution na política em questão:
+   
+    
+    Para isenções de caso de descoberta eletrônica:
 
-   > Se houver erro, crie escalonamento para PG para forçar uma nova sincronização manual na política.
+    ```powershell
+    Set-CaseHoldPolicy <policyname> -RetryDistribution
+    ```
 
-3. Entrar em contato com o Suporte da Microsoft.
+    Para políticas de retenção:
+
+    ```powershell
+    Set-RetentionCompliancePolicy <policyname> -RetryDistribution
+    ``` 
+
+4. Entrar em contato com o Suporte da Microsoft.
 
 ## <a name="see-also"></a>Confira também
 

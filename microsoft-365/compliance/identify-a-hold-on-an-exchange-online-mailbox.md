@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Office 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Office 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
-ms.openlocfilehash: 47e7ffff1703c0de94f014dc18e249cc9775e3e2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3319d65f7260a50cdcd38a36b6135a3cc42fb874
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071886"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684955"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -41,7 +41,7 @@ O Office 365 oferece várias maneiras em que sua organização pode impedir que 
     - **Políticas de retenção em toda a organização:** Essas são as políticas atribuídas a todos os locais de conteúdo em sua organização. Você usa o cmdlet **Get-OrganizationConfig** no PowerShell do Exchange Online para obter informações sobre políticas de retenção em toda a organização.
   Para obter mais informações, consulte a seção "aplicando uma política de retenção a uma organização inteira ou locais específicos" em [visão geral das políticas de retenção do Office 365](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations).
 
-- **[Rótulos de retenção do office 365](labels.md):** se um usuário aplicar um rótulo de retenção do Office 365 (um que esteja configurado para reter conteúdo ou reter e excluir conteúdo) em *qualquer* pasta ou item na caixa de correio, uma retenção será colocada na caixa de correio como se a caixa de correio estivesse colocado em retenção de litígio ou atribuído a uma política de retenção do Office 365. Para obter mais informações, consulte o artigo [identificando caixas de correio em espera porque um rótulo de retenção foi aplicado a uma seção de pasta ou item](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) neste artigo.
+- **[Rótulos de retenção do office 365](labels.md):** se um usuário aplicar um rótulo de retenção do Office 365 (um que esteja configurado para reter conteúdo ou reter e excluir conteúdo) em *qualquer* pasta ou item na caixa de correio, uma retenção será colocada na caixa de correio como se a caixa de correio fosse colocada em retenção de litígio ou atribuída a uma política de retenção do Office 365. Para obter mais informações, consulte o artigo [identificando caixas de correio em espera porque um rótulo de retenção foi aplicado a uma seção de pasta ou item](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) neste artigo.
 
 Para gerenciar caixas de correio em espera, talvez seja necessário identificar o tipo de retenção colocado em uma caixa de correio para que você possa realizar tarefas como alterar a duração da retenção, remover temporariamente ou permanentemente a retenção ou excluir uma caixa de correio de uma política de retenção do Office 365. Nesses casos, a primeira etapa é identificar o tipo de retenção colocado na caixa de correio. E como várias isenções (e diferentes tipos de isenções) podem ser colocadas em uma única caixa de correio, você precisa identificar todas as isenções colocadas em uma caixa de correio se quiser remover ou alterar uma isenção.
 
@@ -59,7 +59,7 @@ Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange On
 
 Execute o seguinte comando para obter informações sobre as políticas de retenção de isenções e do Office 365 aplicadas a uma caixa de correio.
 
-```
+```powershell
 Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
 ```
 
@@ -80,7 +80,7 @@ A tabela a seguir descreve como identificar diferentes tipos de isenções com b
 ### <a name="get-organizationconfig"></a>Get-OrganizationConfig
 Se a propriedade *InPlaceHolds* estiver vazia quando você executar o cmdlet **Get-Mailbox** , ainda poderá haver uma ou mais políticas de retenção do Office 365 em toda a organização aplicadas à caixa de correio. Execute o seguinte comando no PowerShell do Exchange Online para obter uma lista de GUIDs para as políticas de retenção do Office 365 em toda a organização.
 
-```
+```powershell
 Get-OrganizationConfig | FL InPlaceHolds
 ```
 
@@ -125,15 +125,15 @@ Depois de obter o GUID de uma retenção aplicada a uma caixa de correio, a pró
 
 Execute os seguintes comandos no PowerShell do centro de conformidade e segurança & para identificar uma retenção de descoberta eletrônica aplicada à caixa de correio. Use o GUID (não incluindo o prefixo UniH) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. O primeiro comando cria uma variável que contém informações sobre a retenção. Essa variável é usada em outros comandos. O segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada. O terceiro comando exibe o nome da retenção e uma lista das caixas de correio às quais o bloqueio se aplica.
 
-```
+```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
 ```
 
-```
+```powershell
 Get-ComplianceCase $CaseHold.CaseId | FL Name
 ```
 
-```
+```powershell
 $CaseHold | FL Name,ExchangeLocation
 ```
 
@@ -143,16 +143,17 @@ Para se conectar ao PowerShell do centro de conformidade e segurança &, confira
 
 Execute o seguinte comando no PowerShell do Exchange Online para identificar o bloqueio in-loco aplicado à caixa de correio. Use o GUID do bloqueio in-loco identificado na etapa 1. O comando exibe o nome da retenção e uma lista das caixas de correio às quais o bloqueio se aplica.
 
-```
+```powershell
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name,SourceMailboxes
 ```
+
 Se o GUID do bloqueio in-loco começar com o `cld` prefixo, certifique-se de incluir o prefixo ao executar o comando anterior.
 
 ### <a name="office-365-retention-policies"></a>Políticas de retenção do Office 365
 
 Execute o seguinte comando em segurança & o PowerShell do centro de conformidade para identificar a política de retenção do Office 365 (local de toda a organização ou específica) que é aplicada à caixa de correio. Use o GUID (sem incluir o prefixo MBX, SKP ou GRP ou o sufixo de ação) identificado na etapa 1.
 
-```
+```powershell
 Get-RetentionCompliancePolicy <hold GUID without prefix or suffix> -DistributionDetail  | FL Name,*Location
 ```
 
@@ -166,7 +167,7 @@ Sempre que um usuário aplica um rótulo de retenção que é configurado para r
 
 Para exibir o valor da propriedade *ComplianceTagHoldApplied* , execute o seguinte comando no PowerShell do Exchange Online:
 
-```
+```powershell
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
@@ -178,20 +179,21 @@ Após qualquer tipo de retenção ser removido de uma caixa de correio, o valor 
 
 Para exibir o valor da propriedade *DelayHoldApplied* de uma caixa de correio, execute o seguinte comando no PowerShell do Exchange Online.
 
-```
+```powershell
 Get-Mailbox <username> | FL DelayHoldApplied
 ```
 
 Para remover o atraso antes da expiração, você pode executar o seguinte comando no PowerShell do Exchange Online: 
  
-```
+```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
+
 Você deve receber a função de retenção legal no Exchange Online para usar o parâmetro *RemoveDelayHoldApplied* 
 
 Para remover o atraso de espera em uma caixa de correio inativa, execute o seguinte comando no PowerShell do Exchange Online:
 
-```
+```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 

@@ -13,14 +13,15 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: O RGPD fornece aos seus dados pessoais direitos específicos da UE (chamados de dados). esses direitos incluem a obtenção de cópias dele, a solicitação de alterações, a restrição do processamento dele, a exclusão ou o recebimento de um formato eletrônico. Uma solicitação formal por um assunto de dados para realizar uma ação em seus dados pessoais é chamada de solicitação de entidade de dados ou DSR. Você pode usar casos de DSR no centro de conformidade no Office 365 e no Microsoft 365 para gerenciar as investigações de DSR da sua organização.
-ms.openlocfilehash: 8a4882070509991ca91403c96b55825fac3a2536
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b1e6eac17c95e3d0fe638711483802c829fdd56
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072803"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684948"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 
@@ -133,13 +134,13 @@ Depois de criar um caso DSR e adicionar membros, a próxima etapa é executar a 
     
 Esta é a aparência da consulta de palavra-chave para a pesquisa interna que é criada automaticamente quando você cria um caso em DSR.
   
-```
+```powershell
 participants:"<email address>" OR author:"<display name>" OR createdby:"<display name>"
 ```
 
 Por exemplo, se o nome do assunto de dados for INA Eduarda, a consulta de palavra-chave ficaria assim:
   
-```
+```powershell
 participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 ```
 
@@ -272,7 +273,7 @@ Para modificar os locais de conteúdo para pesquisa:
 3. Se você modificar os locais de conteúdo na pesquisa interna, clique em **Salvar &amp; executar** para reiniciar a pesquisa. 
 
 > [!NOTE]
-> Quando você pesquisa todos os locais da caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 que são salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados da pesquisa. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estão disponíveis para visualização. Mas é incluído quando você exporta e baixa os resultados da pesquisa. Para obter mais informações sobre os aplicativos que armazenam dados na caixa de correio de um usuário, confira o [conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
+> Quando você pesquisa todos os locais da caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 que são salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados da pesquisa. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estarão disponíveis para visualização. Mas é incluído quando você exporta e baixa os resultados da pesquisa. Para obter mais informações sobre os aplicativos que armazenam dados na caixa de correio de um usuário, confira o [conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
   
 ## <a name="more-information-about-using-the-dsr-case-tool"></a>Mais informações sobre como usar a ferramenta de ocorrência de DSR
 
@@ -414,7 +415,7 @@ Aqui está um processo de alto nível para pesquisar itens que o assunto dos dad
     
   - Na caixa **palavras-chave** , use a seguinte consulta de pesquisa: 
     
-    ```
+    ```powershell
     itemclass:ipm.post AND "<email address of the data subject>"
     ```
 

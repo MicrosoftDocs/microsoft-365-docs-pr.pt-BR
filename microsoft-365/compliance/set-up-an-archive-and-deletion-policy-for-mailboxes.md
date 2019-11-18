@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão no Office 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: ca43498d785f1a5525a8159e7e553bd36257a7c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 801f97b658df08cd3c548c6aed99018a8613b473
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072998"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38685006"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização do Office 365
 
@@ -125,7 +125,7 @@ Primeiro, você criará uma marca de política padrão de arquivo morto personal
     
 3. **Período de retenção** Selecione **quando o item atinge a seguinte idade (em dias)** e, em seguida, insira a duração do período de retenção. Neste cenário, os itens serão movidos para a caixa de correio de arquivo morto após 1095 dias (3 anos).
     
-4. **Comentário** Opcion Digite um comentário que explique a finalidade da marca de retenção personalizada. 
+4. **Comentário** (opcional) digite um comentário que explique o objetivo da marca de retenção personalizada. 
     
 3. Clique em **salvar** para criar a DPT de arquivo morto personalizada. 
     
@@ -147,7 +147,7 @@ Em seguida, você criará outro DPT personalizado, mas ele será uma política d
     
 3. **Período de retenção** Selecione **quando o item atinge a seguinte idade (em dias)** e, em seguida, insira a duração do período de retenção. Para este cenário, os itens serão removidos após 2555 dias (sete anos).
     
-4. **Comentário** Opcion Digite um comentário que explique a finalidade da marca de retenção personalizada. 
+4. **Comentário** (opcional) digite um comentário que explique o objetivo da marca de retenção personalizada. 
     
 3. Clique em **salvar** para criar a DPT de exclusão personalizada. 
     
@@ -171,7 +171,7 @@ A última marca de retenção que você criará é uma marca de política de ret
     
 4. **Período de retenção** Selecione **quando o item atinge a seguinte idade (em dias)** e, em seguida, insira a duração do período de retenção. Para este cenário, os itens serão excluídos após 1825 dias (5 anos).
     
-5. **Comentário** Opcion Digite um comentário que explique a finalidade da marca de retenção personalizada. 
+5. **Comentário** (opcional) digite um comentário que explique o objetivo da marca de retenção personalizada. 
     
 3. Clique em **salvar** para criar o relatório personalizado para a pasta itens excluídos. 
     
@@ -242,7 +242,7 @@ Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em se
   
 1. Em seu computador local, abra o Windows PowerShell e execute o comando a seguir.
     
-    ```
+    ```powershell
     $UserCredential = Get-Credential
     ```
 
@@ -250,19 +250,19 @@ Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em se
     
 2. Execute o seguinte comando.
     
-    ```
+    ```powershell
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     ```
 
 3. Execute o seguinte comando.
     
-    ```
+    ```powershell
     Import-PSSession $Session
     ```
 
 4. Para verificar se você está conectado à sua organização do Exchange Online, execute o comando a seguir para obter uma lista de todas as caixas de correio de sua organização.
     
-    ```
+    ```powershell
     Get-Mailbox
     ```
 
@@ -271,11 +271,11 @@ Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em se
   
 5. Execute os dois comandos a seguir para iniciar o assistente de pasta gerenciada para todas as caixas de correio de usuário em sua organização.
     
-    ```
+    ```powershell
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     ```
 
-    ```
+    ```powershell
     $Mailboxes.Identity | Start-ManagedFolderAssistant
     ```
 
@@ -289,16 +289,18 @@ Na etapa 4, você precisa atribuir a nova política de retenção a caixas de co
 
 2. Execute o comando a seguir para exibir informações sobre os planos de caixa de correio em sua organização.
 
-    ```
+    ```powershell
     Get-MailboxPlan | Format-Table DisplayName,RetentionPolicy,IsDefault
     ```
+    
     Observe o plano de caixa de correio definido como o padrão.
 
 3. Execute o comando a seguir para atribuir a nova política de retenção que você criou na etapa 3 (por exemplo, a **política de retenção e arquivo morto da Alpine Ski House**) ao plano de caixa de correio padrão. Este exemplo assume que o nome do plano de caixa de correio padrão é **ExchangeOnlineEnterprise**.
 
-    ```
+    ```powershell
     Set-MailboxPlan "ExchangeOnlineEnterprise" -RetentionPolicy "Alpine House Archive and Retention Policy"
     ```
+
 4. Você pode executar novamente o comando na etapa 2 para verificar se a política de retenção atribuída ao plano de caixa de correio padrão foi alterada.
 
 ## <a name="more-information"></a>Mais informações

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: db32748b25296ef82c56160e95535ac488eb65a5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2f7618f80f02865816a1f937b36c9f09b794b77d
+ms.sourcegitcommit: 8ad30e6c5cd77a72e5c1ce463c9f693132cc0b15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072155"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "38684737"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Criar uma política DLP com base em um modelo
 
@@ -167,8 +167,8 @@ Eis aqui os diferentes status e o que eles significam.
 |**Testando, sem notificações** <br/> |A política está no modo de teste. As ações em uma regra não são aplicadas, mas as correspondências de política são coletadas e podem ser visualizadas usando os relatórios de DLP. As notificações sobre correspondências de política não são enviadas aos destinatários especificados.  <br/> |
 |**On** <br/> |A política está ativa e imposta. A política foi implantada com êxito a todas as suas fontes de conteúdo.  <br/> |
 |**Desativando...** <br/> |A política está sendo removida para as fontes de conteúdo incluídas. A política ainda pode estar ativa e imposta em algumas fontes. Desativando uma política pode levar até 45 minutos.  <br/> |
-|**Desativada** <br/> |A política não está ativa e não foi imposta. As configurações da política (fontes, palavras-chave, duração, etc.) são salvas.  <br/> |
-|**Excluindo...** <br/> |A política está sendo excluída. A política não está ativa e não foi imposta.  <br/> |
+|**Desabilitado** <br/> |A política não está ativa e não foi imposta. As configurações da política (fontes, palavras-chave, duração, etc.) são salvas.  <br/> |
+|**Excluindo...** <br/> |A política está sendo excluída. A política não está ativa e não foi imposta. Normalmente, leva uma hora para que uma política seja delet <br/> |
    
 ## <a name="turn-off-a-dlp-policy"></a>Desativar uma política de DLP
 
@@ -186,9 +186,9 @@ Além disso, você pode desativar cada regra individualmente editando a polític
     
 - [Enviar notificações e mostrar dicas de política para políticas de DLP](use-notifications-and-policy-tips.md)
     
-- [Criar uma política de DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
+- [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
     
-- [O que os modelos de política de DLP incluem](what-the-dlp-policy-templates-include.md)
+- [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
 - [Inventário de tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
     

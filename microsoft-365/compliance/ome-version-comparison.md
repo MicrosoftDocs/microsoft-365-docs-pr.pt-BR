@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Ajuda a explicar as diferenças entre as versões da criptografia de mensagem do Office 365.
-ms.openlocfilehash: 29c30c1630e6fbf24e9037837c162b4ac67950e2
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: 1d4016e3fa0576a52ef9627539ecd96416a53fae
+ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435515"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "38684725"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
@@ -36,10 +36,10 @@ Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |**Funcionalidade**                     | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
 |*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados do Office 365 (DLP)|
-|*Modelo de gerenciamento de direitos*       |   N/D      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
+|*Modelo de gerenciamento de direitos*       |   Não disponível      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|
 |*Experiência para o destinatário interno*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Experiência interna nativa em clientes do Outlook|Experiência nativa em linha para destinatários na mesma organização usando clientes do Outlook.  Os destinatários podem ler a mensagem do portal OME usando clientes que não o Outlook (sem download ou aplicativo necessário).|
-|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|N/D|Experiência interna nativa para destinatários do Office 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
+|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Não disponível|Experiência interna nativa para destinatários do Office 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
 |*Permissões de anexo*           |Sem restrições em anexos|Os anexos estão protegidos|Os anexos são protegidos para a opção não encaminhar e modelos personalizados. Os administradores podem escolher se os anexos da opção somente criptografia estão protegidos ou não.|
 |*Dê suporte a sua própria chave (BYOK)*|Nenhum                |Nenhum               |BYOK com suporte          |
 ||
@@ -72,11 +72,9 @@ Para obter informações sobre como usar a criptografia de mensagem avançada, c
 
 ## <a name="unique-characteristics-of-office-365-message-encryption-in-a-gcc-high-deployment"></a>Características exclusivas da criptografia de mensagem do Office 365 em uma implantação avançada GCC
 
-A criptografia de mensagem avançada do Office 365 não está disponível em um ambiente com o GCC High. Você ainda pode usar um modelo de marca única em um ambiente de maior GCC.
+A criptografia de mensagem avançada do Office 365 não está disponível em um ambiente com o GCC High. Você ainda pode usar e personalizar um modelo de marca única em um ambiente de maior GCC.
 
 Além disso, se você planeja usar a criptografia de mensagem do Office 365 em um ambiente de maior GCC, há algumas características exclusivas sobre a experiência do destinatário.
-
-O Office 365 Advanced Message Encryption não é suportado no GCC High.
 
 ### <a name="encrypted-email-from-gcc-high-to-gcc-high-recipients"></a>Emails criptografados de destinatários de GCC alto a GCC
 

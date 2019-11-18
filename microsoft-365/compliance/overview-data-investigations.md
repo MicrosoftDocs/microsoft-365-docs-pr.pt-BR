@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 641914893b78546b13bb446fc29e3669acaeee29
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1b578487a42e8663757468c848772afd93529753
+ms.sourcegitcommit: 0b5ef663f379c8bb0a223ebd3f09eec984d93812
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073784"
+ms.lasthandoff: 10/12/2019
+ms.locfileid: "38684713"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Visão geral das investigações de dados (prévia) no Microsoft 365
 
@@ -43,18 +43,18 @@ Use a guia **pesquisas** para criar pesquisas para localizar os dados do Office 
 
 ## <a name="review-and-investigate-evidence"></a>Analisar e investigar evidências
 
-Use a guia **evidência** para investigar os dados que você coletou do serviço em tempo real, que neste caso é o Office 365. Os dados no conjunto de evidências é um instantâneo dos resultados de pesquisa coletados. Quando você adiciona resultados de pesquisa como evidência, um processo é disparado para extrair arquivos, metadados e texto. Quando esse processo é concluído, a ferramenta de investigações de dados cria um novo índice de todos os dados e o adiciona a um conjunto de evidências. Para qualquer investigação sensível ao tempo, isso permite que você contenha rapidamente o ambiente, excluindo os dados localizados nos locais de conteúdo originais (no Live Service) ao investigar as evidências coletadas em um ambiente em quarentena. Depois que a evidência é coletada, você pode executar consultas adicionais para restringir os dados por intervalo de tempo, tipos de arquivo, proprietários de dados e outros tipos de condições. Por exemplo, usando as condições autor, remetente e destinatário, você pode identificar rapidamente aqueles que estavam envolvidos no despejo dos dados e se qualquer um dos dados derramados foi compartilhado com pessoas de fora da sua organização.
+Use a guia **evidência** para investigar os dados que você coletou do serviço em tempo real, que neste caso é o Office 365. Os dados no conjunto de evidências é um instantâneo dos resultados de pesquisa coletados. Quando você adiciona resultados de pesquisa como evidência, um processo é disparado para extrair arquivos, metadados e texto. Quando esse processo é concluído, a ferramenta de investigações de dados cria um novo índice de todos os dados e o adiciona a um conjunto de evidências. Para qualquer investigação sensível ao tempo, isso permite que você contenha rapidamente o ambiente, excluindo os dados localizados nos locais de conteúdo originais (no Live Service) ao investigar as evidências coletadas em um ambiente em quarentena. Depois que a evidência é coletada, você pode executar mais consultas para restringir os dados por intervalo de tempo, tipos de arquivo, proprietários de dados e outros tipos de condições. Por exemplo, usando as condições autor, remetente e destinatário, você pode identificar rapidamente aqueles que estavam envolvidos no despejo dos dados e se qualquer um dos dados derramados foi compartilhado com pessoas de fora da sua organização.
 
-Você também pode executar a análise avançada nas evidências coletadas. Isso pode fornecer temas gerais e organizar evidências por threads de email, duplicatas exatas e quase duplicatas para facilitar sua investigação. Você pode revisar documentos no modo de exibição de texto extraído ou no formato de arquivo nativo e marcá-los com resultados de investigação. Para obter mais informações, consulte:
+Você também pode executar a análise avançada nas evidências coletadas. Isso pode fornecer temas gerais e organizar evidências por threads de email, duplicatas exatas e quase duplicatas para facilitar sua investigação. Você pode revisar documentos no modo de exibição de texto extraído ou no formato de arquivo nativo e marcá-los com resultados de investigação. Para saber mais, confira:
 
-  - [Analisar dados em evidência](review-data-in-evidence.md)
+  - [Revisar dados em evidência](review-data-in-evidence.md)
 
   - [Executar análise para investigar mais rápido](run-analytics-to-investigate-faster.md)
 
 
 ## <a name="managing-people-of-interest"></a>Gerenciando pessoas de interesse
 
-Use a guia **pessoas de interesse** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse durante a investigação da evidência. Quando você adiciona pessoas de interesse, suas fontes de dados, como a sua caixa de correio e a conta do OneDrive, são identificadas e mapeadas. Em seguida, você pode escopor pesquisas adicionais pesquisando somente os locais de conteúdo dessas pessoas. Quando delimitado por pessoas de interesse, as pesquisas são mais eficientes e precisas porque a ferramenta reprocessa quaisquer dados não indexados, como imagens ou tipos de arquivo não suportados. Na guia **pessoas de interesse** , você também pode exibir e pesquisar a atividade de log de auditoria dessas pessoas para ajudar a investigar ainda mais. Você pode adicionar mais pessoas de interesse durante a investigação. Para obter mais informações, consulte [gerenciar pessoas de interesse em uma investigação](manage-people-of-interest.md).
+Use a guia **pessoas de interesse** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse durante a investigação da evidência. Quando você adiciona pessoas de interesse, suas fontes de dados, como a sua caixa de correio e a conta do OneDrive, são identificadas e mapeadas. Em seguida, você pode escopor pesquisas pesquisando somente os locais de conteúdo dessas pessoas. Quando delimitado por pessoas de interesse, as pesquisas são mais eficientes e precisas porque a ferramenta reprocessa quaisquer dados não indexados, como imagens ou tipos de arquivo não suportados. Na guia **pessoas de interesse** , você também pode exibir e pesquisar a atividade de log de auditoria dessas pessoas para ajudar a investigar ainda mais. Você pode adicionar mais pessoas de interesse durante a investigação. Para obter mais informações, consulte [gerenciar pessoas de interesse em uma investigação](manage-people-of-interest.md).
 
 ## <a name="indexing-the-data-of-people-of-interest"></a>Indexando os dados de pessoas de interesse
 
@@ -66,8 +66,8 @@ Se você quiser exportar dados, use a guia **exportações** para gerenciar um t
 
 ## <a name="managing-jobs"></a>Gerenciando trabalhos
 
-Use a guia **trabalhos** para monitorar os processos de execução demorada para tarefas relacionadas à investigação. Isso inclui trabalhos para executar pesquisas, adicionar dados a um conjunto de evidência, indexar novamente os dados e exportar evidências. Por exemplo, você pode criar uma nova pesquisa na guia **pesquisas** que inclui um grande número de fontes de dados. O status desse processo de pesquisa é exibido na guia **trabalhos** . Para obter mais informações, consulte [Manage Jobs in a data Investigation](manage-jobs.md).
+Use a guia **trabalhos** para monitorar os processos de execução demorada para tarefas relacionadas à investigação. Isso inclui trabalhos para executar pesquisas, adicionar dados a um conjunto de evidências, reindexar dados e exportar evidências. Por exemplo, você pode criar uma pesquisa na guia **pesquisas** que inclui várias fontes de dados. O status desse processo de pesquisa é exibido na guia **trabalhos** . Para obter mais informações, consulte [Manage Jobs in a data Investigation](manage-jobs.md).
 
 ## <a name="configuring-investigation-settings"></a>Definindo configurações de investigação
 
-Use a guia **configurações** para definir as configurações de toda a investigação. Isso inclui adicionar membros a uma investigação, fechar ou excluir uma investigação e configurar o comportamento de pesquisa e análise. Para obter mais informações, consulte [Configure Settings for Data investigações (Preview)](configure-settings-datainvestigations.md).
+Use a guia **configurações** para definir as configurações de toda a investigação. Isso inclui adicionar membros a uma investigação, fechar ou excluir uma investigação e configurar o comportamento de pesquisa e análise.

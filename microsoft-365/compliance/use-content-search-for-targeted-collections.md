@@ -7,17 +7,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas. Uma coleção direcionada significa que você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.
-ms.openlocfilehash: 525e2daf5b9dc8268e2b5db2eaab17099bf5bc0d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 02cd78f9ebb02f7c41e0703ba4ddb78bfd184000
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073047"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684993"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
 
@@ -28,13 +30,13 @@ O recurso de pesquisa de conteúdo no centro de &amp; conformidade de segurança
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para executar o script na etapa 1. Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para executar o script na etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
     
     Além disso, você precisa receber a função de destinatários de email em sua organização do Exchange Online. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics** , que está incluído no script na etapa 1. Por padrão, a função de destinatários de email é atribuída aos grupos de função de gerenciamento de organização e de gerenciamento de destinatários no Exchange Online. Para obter mais informações sobre como atribuir permissões no Exchange Online, consulte [Manage role Group Members](https://go.microsoft.com/fwlink/p/?linkid=692102). Você também pode criar um grupo de função personalizado, atribuir a ele a função de destinatários de email e, em seguida, adicionar os membros que precisam executar o script na etapa 1. Para obter mais informações, consulte [Manage role groups](https://go.microsoft.com/fwlink/p/?linkid=730688).
     
 - Cada vez que você executa o script na etapa 1, uma nova sessão remota do PowerShell é criada. Portanto, você pode usar todas as sessões remotas do PowerShell disponíveis para você. Para evitar que isso aconteça, você pode executar o seguinte comando para desconectar suas sessões do PowerShell remotos ativas.
     
-  ```
+  ```powershell
   Get-PSSession | Remove-PSSession
   ```
 
@@ -62,7 +64,7 @@ Para exibir uma lista de pastas de caixa de correio ou nomes de site documentlin
   
 1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `GetFolderSearchParameters.ps1`.
     
-  ```
+  ```powershell
   #########################################################################################################
   # This PowerShell script will prompt you for:                             #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
@@ -177,7 +179,7 @@ Para exibir uma lista de pastas de caixa de correio ou nomes de site documentlin
     
 3. Executar o script; por exemplo:
     
-      ```
+      ```powershell
       .\GetFolderSearchParameters.ps1
       ```
 
@@ -203,7 +205,7 @@ O exemplo na etapa 2 mostra a consulta usada para pesquisar a subpasta de limpez
   
 ### <a name="script-output-for-site-folders"></a>Saída de script para pastas de site
 
-Se você estiver obtendo o caminho da propriedade **documentlink** de sites do SharePoint ou do onedrive for Business, o script se conecta ao centro de conformidade de & de segurança usando o PowerShell remoto, cria uma nova pesquisa de conteúdo que pesquisa o site em busca de pastas e exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo de **documentlink** à URL da pasta. Como a propriedade **documentlink** é uma propriedade pesquisável, você usará `documentlink:<path>` o par propriedade: valor em uma consulta de pesquisa na etapa 2 para pesquisar essa pasta. O script exibe um máximo de 200 pastas de site. Se houver mais de 200 pastas de site, as mais recentes serão exibidas.
+Se você estiver obtendo o caminho da propriedade **documentlink** de sites do SharePoint ou do onedrive for Business, o script se conecta ao centro de conformidade de & de segurança usando o PowerShell remoto, cria uma nova pesquisa de conteúdo que pesquisa o site para pastas e, em seguida, exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo de **documentlink** à URL da pasta. Como a propriedade **documentlink** é uma propriedade pesquisável, você usará `documentlink:<path>` o par propriedade: valor em uma consulta de pesquisa na etapa 2 para pesquisar essa pasta. O script exibe um máximo de 200 pastas de site. Se houver mais de 200 pastas de site, as mais recentes serão exibidas.
   
 Veja um exemplo de saída retornada pelo script para pastas de site.
   
@@ -245,28 +247,28 @@ Aqui estão alguns exemplos de como usar `folderid` as `documentlink` Propriedad
   
 - Este exemplo pesquisa três pastas de caixa de correio diferentes. Você pode usar sintaxe de consulta semelhante para pesquisar as pastas ocultas em uma pasta de itens recuperáveis de um usuário.
     
-  ```
+  ```powershell
   folderid:<folderid> OR folderid:<folderid> OR folderid:<folderid>
   ```
 
 - Este exemplo procura em uma pasta de caixa de correio itens que contenham uma frase exata.
     
-  ```
+  ```powershell
   folderid:<folderid> AND "Contoso financial results"
   ```
 
 - Este exemplo pesquisa uma pasta de site (e todas as subpastas) para documentos que contenham as letras "NDA" no título.
     
-  ```
+  ```powershell
   documentlink:<path> AND filename:nda
   ```
 
 - Este exemplo pesquisa uma pasta de site (e qualquer subpasta) para documentos que foram alterados em um intervalo de datas.
     
-  ```
+  ```powershell
   documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
-  
+
 ## <a name="more-information"></a>Mais informações
 
 Tenha em mente os seguintes pontos ao usar o script neste artigo para executar coleções direcionadas.

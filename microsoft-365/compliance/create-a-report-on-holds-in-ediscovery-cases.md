@@ -8,22 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Use o script neste artigo para gerar um relatório que contenha informações sobre todas as isenções associadas a ocorrências de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365.
-ms.openlocfilehash: 7118b62dcd42413309e33c45e80516c8822faeff
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e07e628b21c9e8f7485f3012a8740823fe301fc2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072115"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684926"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Criar um relatório sobre isenções em casos de descoberta eletrônica no Office 365
   
 O script neste artigo permite que os administradores de descoberta eletrônica e os gerentes de descoberta eletrônica gerem um relatório que contém informações sobre todas as isenções associadas a casos de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365. O relatório contém informações como o nome do caso ao qual uma retenção está associada, os locais de conteúdo que são colocados em espera e se a retenção é baseada em consulta. Se houver casos em que não haja isenções, o script criará um relatório adicional com uma lista de casos sem isenções.
 
-Consulte a seção [mais informações](#more-information) para obter uma descrição detalhada das informações incluídas no relatório. 
+Consulte a seção [mais informações](#more-information) para obter uma descrição detalhada das informações incluídas no relatório.
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -39,7 +41,7 @@ A primeira etapa é conectar-se ao centro de conformidade & segurança da sua or
   
 1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `ConnectSCC.ps1`. 
     
-      ```
+      ```powershell
       # Get login credentials 
       $UserCredential = Get-Credential 
       $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
@@ -51,10 +53,10 @@ A primeira etapa é conectar-se ao centro de conformidade & segurança da sua or
     
 3. Executar o script; por exemplo:
 
-    ```
+    ```powershell
     .\ConnectSCC.ps1
     ```
-   
+
 4. Quando solicitar suas credenciais, insira seu endereço de email e senha e clique em **OK**. 
   
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: executar o script para relatar em suspensões associadas a ocorrências de descoberta eletrônica
@@ -63,7 +65,7 @@ Depois de se conectar ao PowerShell do centro de conformidade e segurança &, a 
   
 1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, CaseHoldsReport. ps1. 
     
-  ```
+  ```powershell
 #script begin
 " " 
 write-host "***********************************************"
@@ -155,7 +157,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     
 3. Executar o script; por exemplo:
 
-    ```
+    ```powershell
     .\CaseHoldsReport.ps1
     ```
 

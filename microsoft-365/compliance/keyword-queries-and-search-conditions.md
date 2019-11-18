@@ -12,17 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar em caixas de correio do Exchange Online e em sites do SharePoint ou do OneDrive for Business usando a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança.  '
-ms.openlocfilehash: 5b3438537e2936fa140052c6869f84937e103746
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e01953c6397c8c7ca9f38780537f3f7546b238fb
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071887"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684949"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -47,7 +48,7 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 > [!NOTE]
 > Ao pesquisar as propriedades de email, não é possível pesquisar itens em que a propriedade especificada está vazia ou em branco. Por exemplo, usando o par *Propriedade: Value* do **assunto: ""** para pesquisar mensagens de email com uma linha de assunto vazia retornará zero resultados. Isso também se aplica ao pesquisar Propriedades de site e de contato.
   
-|**Property**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Propriedade**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
 |Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*`|Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo.|
 |Cco|O campo Cco de uma mensagem de email. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Todos os exemplos retornam mensagens com Brenda Fernandes incluída no campo Cco.|
@@ -65,7 +66,7 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 |Destinatários|Todos os campos de destinatários em uma mensagem de email. Esses campos são para, CC e Cco.<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Mensagens enviadas para pauloa@contoso.com. O segundo exemplo retorna mensagens enviadas para qualquer destinatário no domínio contoso.com.|
 |Sent|A data em que uma mensagem de email foi enviada pelo remetente.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|Mensagens que foram enviadas na data especificada ou dentro do intervalo de datas especificado.|
 |Tamanho|O tamanho de um item, em bytes.|`size>26214400`  <br/> `size:1..1048567`|Mensagens maiores do que 25?? MB. O segundo exemplo retorna mensagens de 1 a 1.048.567 bytes (1 MB) de tamanho.|
-|Subject|O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está pesquisando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma correspondência exata. Por exemplo, se você procurar `subject:"Quarterly Financials"`, seus resultados incluirão mensagens com o assunto "Finanças trimestralmente 2018".|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|Mensagens que contenham a frase "Finanças trimestrais" em qualquer lugar do texto da linha de assunto. O segundo exemplo retorna todas as mensagens que contêm a palavra northwind na linha de assunto.|
+|Assunto|O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está pesquisando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma correspondência exata. Por exemplo, se você procurar `subject:"Quarterly Financials"`, seus resultados incluirão mensagens com o assunto "Finanças trimestralmente 2018".|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|Mensagens que contenham a frase "Finanças trimestrais" em qualquer lugar do texto da linha de assunto. O segundo exemplo retorna todas as mensagens que contêm a palavra northwind na linha de assunto.|
 |To|O campo para de uma mensagem de email. <sup>1</sup>|`to:annb@contoso.com`  <br/> `to:annb ` <br/> `to:"Ann Beebe"`|Todos os exemplos retornam mensagens em que Clara Barbosa é especificada na linha Para:.|
 |||||
    
@@ -74,11 +75,11 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 
 ## <a name="searchable-site-properties"></a>Propriedades de sites pesquisáveis
 
-A tabela a seguir lista algumas das propriedades do SharePoint e do OneDrive for Business que podem ser pesquisadas usando o recurso de pesquisa de conteúdo no centro de conformidade de & de segurança ou usando o **New-ComplianceSearch** ou o **set-ComplianceSearch **cmdlet. A tabela inclui um exemplo da sintaxe da _Propriedade: Value_ para cada propriedade e uma descrição dos resultados da pesquisa retornados pelos exemplos. 
+A tabela a seguir lista algumas das propriedades do SharePoint e do OneDrive for Business que podem ser pesquisadas usando o recurso de pesquisa de conteúdo no centro de conformidade de & de segurança ou usando o cmdlet **New-ComplianceSearch** ou **set-ComplianceSearch** . A tabela inclui um exemplo da sintaxe da _Propriedade: Value_ para cada propriedade e uma descrição dos resultados da pesquisa retornados pelos exemplos. 
   
 Para obter uma lista completa das propriedades do SharePoint que podem ser pesquisadas, confira [visão geral das propriedades rastreadas e gerenciadas no SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=331599). As propriedades marcadas com um **Sim** na coluna **consultável** podem ser pesquisadas. 
   
-|**Property**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Propriedade**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`author:"Garth Fort"`|Todos os documentos criados por Paulo Araújo.|
 |ContentType|O tipo de conteúdo do SharePoint de um item, como item, documento ou vídeo.|`contenttype:document`|Todos os documentos seriam ser retornados.|
@@ -90,11 +91,11 @@ Para obter uma lista completa das propriedades do SharePoint que podem ser pesqu
 |FileName|O nome de um arquivo.|`filename:"marketing plan"`  <br/> `filename:estimate`|O primeiro exemplo retorna os arquivos com a frase exata "plano de marketing" no título. O segundo exemplo retorna arquivos com a palavra "estimativa" no nome de arquivo.|
 |LastModifiedTime|A data em que um item foi alterado pela última vez.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|O primeiro exemplo retorna itens que foram alterados em ou após 1 de maio de 2016. O segundo exemplo retorna os itens que foram alterados entre 1º de maio de 2016 e 1 de junho de 2016.|
 |ModifiedBy|A pessoa que alterou um item pela última vez. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`modifiedby:"Garth Fort"`|Todos os itens que foram alterados pela última vez por Paulo Araújo.|
-|Caminho|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/\* à URL do site especificado; por exemplo,`path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso `Path` da propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
+|Path|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/\* à URL do site especificado; por exemplo,`path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso `Path` da propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
 |SharedWithUsersOWSUser|Documentos que foram compartilhados com o usuário especificado e exibidos na página **compartilhado comigo** no site do onedrive for Business do usuário. Estes são documentos que foram explicitamente compartilhados com o usuário especificado por outras pessoas na sua organização. Quando você exporta documentos que correspondem a uma consulta de pesquisa que usa a propriedade SharedWithUsersOWSUser, os documentos são exportados do local de conteúdo original da pessoa que compartilhou o documento com o usuário especificado. Para obter mais informações, consulte [pesquisando o conteúdo do site compartilhado em sua organização](#searching-for-site-content-shared-within-your-organization).|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|Ambos os exemplos retornam todos os documentos internos que foram explicitamente compartilhados com o Henrique Fort e que aparecem na página **compartilhado comigo** na conta do onedrive for Business do Henrique Fort.|
 |Site|A URL de um site ou grupo de sites em sua organização.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|O primeiro exemplo retorna itens dos sites do OneDrive for Business para todos os usuários da organização. O segundo exemplo retorna itens de todos os sites de equipe.|
 |Tamanho|O tamanho de um item, em bytes.|`size>=1`  <br/> `size:1..10000`|O primeiro exemplo retorna itens com mais de 1 byte. O segundo exemplo retorna itens de 1 a 10.000 bytes de tamanho.|
-|Título|O título do documento. A propriedade Title é metadados especificados em documentos do Microsoft Office. É diferente do nome de arquivo do documento.|`title:"communication plan"`|Qualquer documento que contém a frase "plano de comunicação" na propriedade de metadados Title de um documento do Office.|
+|Cargo|O título do documento. A propriedade Title é metadados especificados em documentos do Microsoft Office. É diferente do nome de arquivo do documento.|`title:"communication plan"`|Qualquer documento que contém a frase "plano de comunicação" na propriedade de metadados Title de um documento do Office.|
 |||||
    
 ## <a name="searchable-contact-properties"></a>Propriedades de contato pesquisáveis
@@ -104,7 +105,7 @@ A tabela a seguir lista as propriedades de contato que estão indexadas e que vo
 > [!TIP]
 > Para pesquisar valores que contenham espaços ou caracteres especiais, use aspas duplas ("") para conter a frase; por exemplo, `businessaddress:"123 Main Street"`. 
   
-|**Property**|**Descrição da propriedade**|
+|**Propriedade**|**Descrição da propriedade**|
 |:-----|:-----|
 |BusinessAddress|O endereço na propriedade **endereço comercial** . A propriedade também é chamada de endereço **comercial** na página de propriedades do contato.|
 |BusinessPhone|O número de telefone em qualquer uma das propriedades do número de **telefone comercial** .|
@@ -123,7 +124,7 @@ A tabela a seguir lista as propriedades de contato que estão indexadas e que vo
 |OfficeLocation|O valor na propriedade local do **Office** ou do **Office** .|
 |OtherAddress|O valor da propriedade **outro** endereço.|
 |Sobrenome|O nome na propriedade **Last** Name.|
-|Título|O título na propriedade **cargo** .|
+|Cargo|O título na propriedade **cargo** .|
 |||||
 
 ## <a name="searchable-sensitive-data-types"></a>Tipos de dados confidenciais pesquisáveis
@@ -141,7 +142,7 @@ Para obter mais informações sobre como criar consultas `SensitiveType` usando 
 
 Operadores de pesquisa booleanos, como **e**, **ou**, e **não**, ajudam você a definir pesquisas mais precisas, incluindo ou excluindo palavras específicas na consulta de pesquisa. Outras técnicas, como o uso de operadores de propriedade ( \>como = ou..), aspas, parênteses e curingas, ajudam a refinar uma consulta de pesquisa. A tabela a seguir lista os operadores que você pode usar para restringir ou ampliar os resultados de pesquisa. 
   
-|**Operador**|**Usage**|**Descrição**|
+|**Operator**|**Usage**|**Descrição**|
 |:-----|:-----|:-----|
 |E|palavra-chave1 AND palavra-chave2|Retorna itens que incluem todas as palavras-chave ou `property:value` expressões especificadas. Por exemplo, `from:"Ann Beebe" AND subject:northwind` retorna todas as mensagens enviadas por Ana Beebe que continham a palavra Northwind na linha de assunto. <sup>duas</sup>|
 |+|palavra + palavra-chave2 + keyword3|Retorna itens que contêm *um* `keyword2` ou `keyword3` *e* que também contêm `keyword1`.   Portanto, este exemplo é equivalente à consulta `(keyword2 OR keyword3) AND keyword1`.  <br/> A consulta `keyword1 + keyword2` (com um espaço após o **+** símbolo) não é o mesmo que usar o operador * * e * *. Essa consulta seria equivalente a `"keyword1 + keyword2"` e retornar itens com a fase `"keyword1 + keyword2"`exata.|
@@ -205,9 +206,9 @@ Crie uma condição usando as propriedades de email ao pesquisar caixas de corre
 |Tipo|A propriedade da classe Message de um item de email. Esta é a mesma propriedade que a propriedade de email ItemProperty. Também é uma condição de vários valores. Portanto, para selecionar várias classes de mensagens, pressione a tecla **Ctrl** e clique duas ou mais classes de mensagens na lista suspensa que você deseja adicionar à condição. Cada classe de mensagem selecionada na lista será logicamente conectada pelo operador **or** na consulta de pesquisa correspondente.  <br/> Para obter uma lista das classes de mensagem (e sua ID de classe de mensagem correspondente) que são usadas pelo Exchange e que você pode selecionar na lista **classe de mensagens** , consulte [tipos de item e classes de mensagens](https://go.microsoft.com/fwlink/?linkid=848143).|
 |Received|A data em que uma mensagem de email foi recebida pelo destinatário. Essa propriedade é igual à propriedade de email Received.|
 |Destinatários|Todos os campos de destinatários em uma mensagem de email. Esses campos são para, CC e Cco.|
-|Sender|O remetente de uma mensagem de email.|
+|Remetente|O remetente de uma mensagem de email.|
 |Sent|A data em que uma mensagem de email foi enviada pelo remetente. Essa propriedade é igual à propriedade de email Sent.|
-|Subject|O texto na linha de assunto de uma mensagem de email.|
+|Assunto|O texto na linha de assunto de uma mensagem de email.|
 |To|O destinatário de uma mensagem de email no campo para.|
 |||
   
@@ -218,7 +219,7 @@ Crie uma condição usando as propriedades do documento ao pesquisar documentos 
 |**Condição**|**Descrição**|
 |:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original.|
-|Título|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento.|
+|Cargo|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento.|
 |Created|A data em que um documento foi criado.|
 |Última modificação|A data em que um documento foi alterado pela última vez.|
 |Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension.|
@@ -228,7 +229,7 @@ Crie uma condição usando as propriedades do documento ao pesquisar documentos 
 
 Ao adicionar uma condição, você pode selecionar um operador que é relevante para o tipo de propriedade da condição. A tabela a seguir descreve os operadores que são usados com condições e lista o equivalente que é usado na consulta de pesquisa.
   
-|**Operador**|**Equivalente de consulta**|**Descrição**|
+|**Operator**|**Equivalente de consulta**|**Descrição**|
 |:-----|:-----|:-----|
 |After|`property>date`|Usado com condições de data. Retorna itens que foram enviados, recebidos ou modificados após a data especificada. |
 |Before|`property<date`|Usado com condições de data. Retorna itens que foram enviados, recebidos ou modificados antes da data especificada.|
@@ -277,7 +278,7 @@ Lembre-se do seguinte ao usar condições de pesquisa.
   
 ### <a name="examples-of-using-conditions-in-search-queries"></a>Exemplos
 
-Os exemplos a seguir mostram a versão baseada em GUI de uma consulta de pesquisa com condições, a sintaxe de consulta de pesquisa exibida no painel de detalhes da pesquisa selecionada (que também é retornada pelo cmdlet **Get-ComplianceSearch** ) e a lógica do consulta KQL correspondente. 
+Os exemplos a seguir mostram a versão baseada em GUI de uma consulta de pesquisa com condições, a sintaxe de consulta de pesquisa exibida no painel de detalhes da pesquisa selecionada (que também é retornada pelo cmdlet **Get-ComplianceSearch** ) e a lógica da consulta KQL correspondente. 
   
 #### <a name="example-1"></a>Exemplo 1
 
@@ -379,13 +380,13 @@ Somente os documentos que são compartilhados usando a terceira opção (compart
 
 Você pode usar a consulta de palavra-chave a seguir para pesquisar especificamente o conteúdo nas conversas do Skype for Business:
 
-```
+```powershell
 kind:im
 ```
 
 A consulta de pesquisa anterior também retorna chats do Microsoft Teams. Para evitar isso, você pode restringir os resultados da pesquisa para incluir apenas conversas do Skype for Business usando a seguinte consulta de palavra-chave:
 
-```
+```powershell
 kind:im AND subject:conversation
 ```
 
@@ -393,7 +394,7 @@ A consulta de palavra-chave anterior exclui chats no Microsoft Teams porque as c
 
 Para pesquisar conversas do Skype for Business que ocorreram em um intervalo de datas específico, use a seguinte consulta de palavra-chave:
 
-```
+```powershell
 kind:im AND subject:conversation AND (received=startdate..enddate)
 ```
 

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 428e4ef319d53bf161903fc9584037800d0b3d3b
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: 723f1372b9214367985cc6b42c41e94c3f201b89
+ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417530"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38684742"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -105,22 +105,22 @@ Um controle compartilhado refere-se a qualquer controle em que a Microsoft e os 
 
 Os [itens de ações](working-with-compliance-manager.md#controls-and-actions) são incluídos em controles gerenciados pelo cliente como parte da funcionalidade de gerenciamento de fluxo de trabalho interna que você pode usar para gerenciar e acompanhar o progresso da conclusão da avaliação.
 
-As pessoas da sua organização podem usar o Gerenciador de conformidade para analisar os controles gerenciados pelo cliente em todas as avaliações para as quais foram atribuídos. Quando um usuário entra no gerente de conformidade e abre o painel **itens de ação** , uma lista de itens de ação atribuídos a eles é exibida. Dependendo da função de gerente de conformidade atribuída ao usuário, eles podem fornecer detalhes de implementação ou teste, atualizar o status ou atribuir itens de ação.
+As pessoas da sua organização podem usar o Gerenciador de conformidade para analisar os controles gerenciados pelo cliente em todas as avaliações para as quais foram atribuídos. Quando o usuário entra no Gerenciador de Conformidade e abre o painel **Itens de Ação**, é exibida uma lista de Itens de Ação que foram atribuídos a ela. Dependendo da função do Gerenciador de Conformidade atribuída ao usuário, ele pode fornecer detalhes da implementação ou dos testes, atualizar o Status ou atribuir Itens de Ação.
 
 Os controles de certificação geralmente são implementados por uma pessoa e testados por outra. Por exemplo, depois que os itens de ação atribuídos inicialmente a uma pessoa para implementação são concluídos, os itens de ação são atribuídos à próxima pessoa para testar e carregar evidências. Qualquer usuário com permissões suficientes para as atribuições de controle pode atribuir e Reatribuir itens de ação. Isso permite o gerenciamento central de atribuições de controle e o roteamento descentralizado de itens de ação entre implementadores e testadores.
 
 ## <a name="permissions"></a>Permissões
 
-O Gerenciador de conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente os usuários atribuídos a uma função de usuário podem acessar o Gerenciador de conformidade e as ações permitidas por cada usuário são restringidas por tipo de função. [Exibir uma tabela](working-with-compliance-manager.md#permissions) mostrando as ações permitidas para cada permissão.
+O Gerenciador de Conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente usuários aos quais é atribuída uma função de usuário podem acessar o Gerenciador de Conformidade, e as ações permitidas por cada usuário são restritas por tipo de função. [Exibir uma tabela](working-with-compliance-manager.md#permissions) mostrando as ações permitidas para cada permissão.
 
 O portal admin para o Gerenciador de conformidade pode definir permissões para outros usuários no Gerenciador de conformidade seguindo estas etapas:
 
 1. No menu suspenso **superior,** selecione **Administração**e **configurações**.
 2. A partir daqui, selecione a função que você deseja atribuir e, em seguida, adicione o funcionário que você deseja atribuir a essa função. Os usuários poderão executar determinadas ações.
 
-Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade; no entanto, eles não podem editar dados ou executar ações no Gerenciador de conformidade.
+Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade; no entanto, eles não podem editar dados ou executar ações no Gerenciador de conformidade.
 
-Observe que não há mais uma função de **acesso de convidado** padrão. Cada usuário deve ser atribuído a uma função para acessar e trabalhar no Gerenciador de conformidade.
+Observe que não há mais uma função padrão **Acesso do Convidado**. Cada usuário deve ter uma função atribuída para acessar e trabalhar no Gerenciador de Conformidade.
   
 ## <a name="manage-evidence"></a>Gerenciar evidências
 
@@ -131,28 +131,30 @@ O Gerenciador de conformidade pode armazenar evidências de suas tarefas de impl
 O gerente de conformidade fornece [modelos](working-with-compliance-manager.md#templates) pré-configurados para avaliações e permite que você crie modelos personalizados para controles gerenciados pelo cliente para suas necessidades de conformidade. Novos modelos são criados importando as informações de controles de um arquivo do Excel ou você pode criar um modelo a partir de uma cópia de um modelo existente.
 
 Os modelos pré-configurados incluídos no Gerenciador de conformidade são:
- 
-- [ISO 27001:2013](https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en)
-- [ISO 27018:2019](https://www.iso.org/obp/ui/#iso:std:iso-iec:27018:ed-2:v1:en)
-- [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final)
-- [NIST 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)
-- [Estrutura NIST cybersecurity (CSF)](https://www.nist.gov/cyberframework)
-- [O CCM (Cloud Security Alliance) 3.0.1 (Cloud Control Matrix) 3.0.1](https://cloudsecurityalliance.org/working-groups/cloud-controls-matrix/#_overview)
-- [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://ithandbook.ffiec.gov/it-booklets/information-security.aspx) 
-- [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html) / de[alta tecnologia](https://www.hhs.gov/hipaa/for-professionals/special-topics/hitech-act-enforcement-interim-final-rule/index.html)
-- [FedRAMP moderado](https://www.fedramp.gov/documents/)
-- [RGPD de União Européia](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
+
+1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
+2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
+3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+5. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+6. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+8. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077) 
+8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
+9. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
+10. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
+11. [Lei de privacidade do consumidor da Califórnia (CCPA)-visualização](https://go.microsoft.com/fwlink/?linkid=2108871)
+12. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 ## <a name="compliance-score"></a>Pontuação de conformidade
 
-A [Pontuação de conformidade](compliance-score-methodology.md) é um componente principal do Gerenciador de conformidade que ajuda sua organização a entender e gerenciar a conformidade. Como a [Pontuação segura da Microsoft](../security/mtp/microsoft-secure-score.md), a pontuação de conformidade é um sistema de pontuação baseado em comportamento para atividades relacionadas à proteção de dados, privacidade e segurança em sua organização. A pontuação de conformidade de uma avaliação é uma expressão de conformidade com um determinado padrão ou regulamentação. Quanto maior a pontuação numérica, melhor a postura de conformidade para a avaliação. A compreensão da metodologia de Pontuação de conformidade é crucial para priorizar as ações obrigatórias de controle gerenciado pelo cliente.
+A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que ajuda você a entender a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
   
 > [!IMPORTANT]
-> A Pontuação de Conformidade não expressa uma medida absoluta da conformidade organizacional em relação a qualquer padrão ou regulamentação específicos. Ela expressa até que ponto você adotou os controles que podem reduzir os riscos aos dados pessoais e à privacidade individual. Nenhum serviço pode garantir que você esteja em conformidade com um padrão ou regulamentação e a Pontuação de Conformidade não deve ser interpretada como uma garantia de forma alguma.
+> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
 
 ## <a name="secure-score-integration"></a>Integração da Pontuação segura
 
-O Gerenciador de conformidade é integrado à [Pontuação segura da Microsoft](../security/mtp/microsoft-secure-score.md) para aplicar automaticamente o crédito de Pontuação segura à pontuação de conformidade para itens de ação sincronizados. Isso é configurável para itens de ação individuais e fornece uma atualização contínua entre os itens.
+O Gerenciador de conformidade é integrado à [Pontuação segura da Microsoft](../security/mtp/microsoft-secure-score.md) para aplicar automaticamente o crédito de Pontuação segura à pontuação de conformidade para itens de ação sincronizados. Isso é configurável para itens de ação individuais ou todas as ações globalmente e fornece atualizações de Pontuação segura.
 
 Por exemplo, você tem um requisito relacionado à segurança para ativar o Azure Rights Management em sua organização que também se aplica a um item de ação relacionado à conformidade. Quando o Azure Rights Management é ativado e processado pela pontuação segura, o Gerenciador de conformidade recebe a notificação da atualização e a Pontuação do item de ação é atualizada automaticamente com o crédito de conclusão.
 

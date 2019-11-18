@@ -14,18 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Instale e use o Azure Storage Explorer para baixar documentos que foram exportados de uma análise definida na descoberta eletrônica avançada.
-ms.openlocfilehash: 4846a77d26079303f85778e71e6bdf2804ccea5e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 412ec48865c6cb7e511e3f6068fe02d87a99f831
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071906"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684968"
 ---
 # <a name="download-export-jobs"></a>Baixar trabalhos de exportação
 
 Quando você exporta documentos de um conjunto de revisão em um caso de descoberta eletrônica avançada, os documentos são carregados em um local de armazenamento do Azure fornecido pela Microsoft ou em um local de armazenamento do Azure gerenciado por sua organização. O tipo de local de armazenamento do Azure usado depende de qual opção foi selecionada quando os documentos foram exportados. 
 
-Este artigo fornece instruções sobre como usar o Microsoft Azure Storage Explorer para se conectar a um local de armazenamento do Azure para navegar e baixar os documentos exportados. Para obter mais informações sobre o Azure Storage Explorer, consulte [QuickStart: Use Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer).
+Este artigo fornece instruções sobre como usar o Microsoft Azure Storage Explorer para se conectar a um local de armazenamento do Azure para navegar e baixar os documentos exportados. Para obter mais informações sobre o Azure Storage Explorer, consulte [QuickStart: Use Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-storage-explorer).
 
 ## <a name="step-1-install-the-azure-storage-explorer"></a>Etapa 1: instalar o Azure Storage Explorer
 
@@ -73,7 +73,7 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
     O **nó contêineres blob** (em **contas** > **de armazenamento (contêineres anexados)** \> é aberto. 
 
-    ![](./media/AzureStorageConnect5.png)
+    ![Exportar trabalhos no nó contêineres de BLOBs](./media/AzureStorageConnect5.png)
 
     Ele contém um contêiner nomeado com o nome de exibição da etapa 4. Este contêiner contém uma pasta para cada trabalho de exportação que você criou. Essas pastas são nomeadas com uma ID que corresponde à ID do trabalho de exportação. Você pode encontrar essas IDs de exportação (e o nome da exportação) em **informações de suporte** na página de menu para cada um dos **dados de preparação do trabalho de exportação** listados na guia **trabalhos** .
 

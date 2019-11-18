@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Office 365 aplicando uma política de retenção de bloqueio ou do Office 365 à caixa de correio e, em seguida, excluindo a conta de usuário do Office 365 correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: ca6fc5b579b6974ce89db14d318a6dc5a50f3f5c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cf2484dad9e9fda105985e9291a16a5f8a83f5c3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072091"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684932"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Criar e gerenciar caixas de correio inativas no Office 365
 
@@ -73,7 +73,7 @@ Para exibir uma lista das caixas de correio inativas em sua organização:
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador na sua organização do Office 365. 
     
-2. Clique em**retenção**de **governança** > de dados.
+2. Clique em**retenção**de **governança** > de informações.
     
 3. Na página **retenção** , clique em **mais**![elipses](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)de barra de navegação e clique em **caixas de correio inativas**.
     
@@ -85,7 +85,7 @@ Para exibir uma lista das caixas de correio inativas em sua organização:
   
 Como alternativa, você pode executar o seguinte comando no PowerShell do Exchange Online para exibir a lista de caixas de correio inativas.
 
-```
+```powershell
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
@@ -93,10 +93,10 @@ Você pode clicar ![em exportar ícone](media/47205c65-babd-4b3a-bd7b-98dfd92883
   
 Você também pode executar o seguinte comando para exportar a lista de caixas de correio inativas e outras informações para um arquivo CSV. Neste exemplo, o arquivo CSV é criado no diretório atual.
 
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,DistinguishedName,ExchangeGuid,WhenSoftDeleted | Export-Csv InactiveMailboxes.csv -NoType
 ```
-   
+
 > [!NOTE]
 > É possível que uma caixa de correio inativa tenha o mesmo endereço SMTP de uma caixa de correio de usuário ativo. Nesse caso, o valor da propriedade **distinguishedName** ou **ExchangeGuid** pode ser usado para identificar exclusivamente uma caixa de correio inativa. 
   
@@ -104,17 +104,17 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
 
 Você pode acessar o conteúdo da caixa de correio inativa usando a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança. Ao pesquisar uma caixa de correio inativa, você pode criar uma pesquisa por palavras chave para buscar itens específicos ou pode obter todo o conteúdo da caixa de correio inativa. Você pode visualizar os resultados da pesquisa ou exportar os resultados da pesquisa para um arquivo de dados do Outlook (PST) ou para mensagens de email individuais. Para obter os procedimentos passo a passo para pesquisar caixas de correio e exportar resultados de pesquisa, consulte os seguintes tópicos:
   
-- [Pesquisa de conteúdo no Office 365](content-search.md)
+- [Pesquisa de Conteúdo no Office 365](content-search.md)
     
-- [Exportar os resultados da Pesquisa de Conteúdo](export-search-results.md)
+- [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
     
-Veja algumas coisas que você deve ter em mente ao pesquisar caixas de correio inativas.
+Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas de correio inativas.
   
 - Se uma pesquisa de conteúdo incluir uma caixa de correio de usuário e essa caixa de correio for desativada, a pesquisa de conteúdo continuará a Pesquisar a caixa de correio inativa quando você executar novamente a pesquisa após ela se tornar inativa.
     
 - Em alguns casos, um usuário pode ter uma caixa de correio ativa e uma caixa de correio inativa que tenha o mesmo endereço SMTP. Nesse caso, somente a caixa de correio específica que você selecionar como um local para uma pesquisa de conteúdo será pesquisada. Em outras palavras, se você adicionar a caixa de correio de um usuário a uma pesquisa, não poderá supor que as suas caixas de correio ativas e inativas serão pesquisadas; somente a caixa de correio que você adicionar explicitamente à pesquisa será pesquisada.
     
-- É altamente recomendável que você evite ter uma caixa de correio ativa e uma caixa de correio inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atualmente atribuído a uma caixa de correio inativa, recomendamos recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma caixa de correio ativa (ou o arquivo de uma caixa de correio ativa) e excluir o caixa de correio inativa.
+- Não é recomendável de forma alguma que você tenha uma caixa de correio ativa e uma inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atualmente atribuído a uma caixa de correio inativa, recomendamos recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma caixa de correio ativa (ou o arquivo de uma caixa de correio ativa) e excluir o caixa de correio inativa.
     
 ## <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>Alterar a duração do bloqueio para uma caixa de correio inativa
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 description: Saiba como criar um bloqueio in-loco para uma caixa de correio excluída de forma reversível para torná-la inativa e preservar seu conteúdo. Em seguida, você pode usar as ferramentas de descoberta eletrônica da Microsoft para pesquisar a caixa de correio inativa.
-ms.openlocfilehash: ce4121e6187a765b5a9e23d6e6e11d8cc2640161
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab8ab8b8eff0eefd91a87fb72439547c7d2fe97b
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073398"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38684846"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Colocar um bloqueio in-loco em uma caixa de correio excluída de forma reversível no Exchange Online
 
@@ -32,24 +32,24 @@ Você pode ter uma situação em que uma pessoa deixou sua organização e a con
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Você precisa usar o cmdlet **New-MailboxSearch** no Windows PowerShell para colocar um bloqueio in-loco em uma caixa de correio excluída de forma reversível. Você não pode usar o centro de administração do Exchange (Eat) ou o centro de descoberta eletrônica no SharePoint Online. 
-    
-- Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
-    
+
+- Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+
 - Execute o seguinte comando para obter informações de identidade sobre as caixas de correio excluídas por software em sua organização. 
-    
-  ```
+
+  ```powershell
   Get-Mailbox -SoftDeletedMailbox | FL Name,WhenSoftDeleted,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
 - Para obter mais informações sobre caixas de correio inativas, consulte [visão geral das caixas de correio inativas no Office 365](inactive-mailboxes-in-office-365.md).
-    
+
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>Colocar um bloqueio in-loco em uma caixa de correio excluída de forma reversível para torná-la uma caixa de correio inativa
 
-Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio de exclusão flexível uma caixa de correio inativa. Para obter mais informações, consulte [New-MailboxSearch](http://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx).
+Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio de exclusão flexível uma caixa de correio inativa. Para obter mais informações, consulte [New-MailboxSearch](https://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx).
   
-1. Criar uma variável que contém as propriedades da caixa de correio excluída de forma reversível. 
-    
-   ```
+1. Criar uma variável que contém as propriedades da caixa de correio excluída de forma reversível.
+
+   ```powershell
    $SoftDeletedMailbox = Get-Mailbox -SoftDeletedMailbox -Identity <identity of soft-deleted mailbox>
    ```
 
@@ -57,36 +57,37 @@ Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio de exclusão
     > No comando anterior, use o valor da propriedade **distinguishedName** ou **ExchangeGuid** para identificar a caixa de correio excluída de forma reversível. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e uma caixa de correio excluída de forma reversível possam ter o mesmo endereço SMTP principal. 
   
 2. Crie um bloqueio in-loco e coloque-o na caixa de correio excluída de forma reversível. Neste exemplo, não é especificada nenhuma duração de retenção. Isso significa que os itens serão mantidos indefinidamente ou até que a retenção seja removida da caixa de correio inativa.
-    
-   ```
+
+   ```powershell
    New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true
     ```
+
    Você também pode especificar uma duração de retenção ao criar o bloqueio in-loco. Este exemplo mantém itens na caixa de correio inativa por aproximadamente 7 anos.
-    
-   ```
+
+   ```powershell
    New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true -ItemHoldPeriod 2777
    ```
 
 3. Após alguns momentos, execute um dos seguintes comandos para verificar se a caixa de correio excluída por software é uma caixa de correio inativa.
-    
-   ```
+
+   ```powershell
    Get-Mailbox -InactiveMailboxOnly
    ```
 
     Ou
     
-   ```
+   ```powershell
    Get-Mailbox -InactiveMailboxOnly -Identity $SoftDeletedMailbox.DistinguishedName  | FL IsInactiveMailbox
    ```
 
 ## <a name="more-information"></a>Mais informações
 
-Após tornar uma caixa de correio inativa excluída por software, há várias maneiras de gerenciar a caixa de correio. Para obter mais informações, consulte:
+Após tornar uma caixa de correio inativa excluída por software, há várias maneiras de gerenciar a caixa de correio. Para saber mais, confira:
   
-- [Alterar a duração do bloqueio para uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
-    
+- [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
+
 - [Recuperar uma caixa de correio inativa](recover-an-inactive-mailbox.md)
-    
+
 - [Restaurar uma caixa de correio inativa](restore-an-inactive-mailbox.md)
-    
-- [Excluir uma caixa de correio inativa](delete-an-inactive-mailbox.md) (removendo a retenção)
+
+- [Excluir uma caixa de correio inativa](delete-an-inactive-mailbox.md) (removendo a isenção)

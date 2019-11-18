@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 614397a81fd898975e5163c669fb8693fcdfe77c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c7bc6043722059b04d7fb99663a7dfb8815de697
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072672"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684810"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Correção de erro ao processar dados de uma investigação
 
@@ -54,7 +54,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
     >Recomendamos que você use um caminho de arquivo local em vez de um caminho de rede remoto para obter o desempenho ideal.
 
     > [!NOTE]
-    > Se você ainda não instalou o AzCopy, você pode instalá-lo daqui:https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+    > Se você ainda não instalou o AzCopy, você pode instalá-lo daqui:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 6. Copie o comando predefinido clicando em **copiar para área de transferência**. Inicie um prompt de comando do Windows, Cole o comando e pressione **Enter**.  
 

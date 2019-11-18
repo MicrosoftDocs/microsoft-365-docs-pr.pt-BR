@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 8ccac9e4-3a50-49fa-a95b-d186032a6ee3
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: As políticas de gerenciamento de informações permitem que sua organização controle o tempo de retenção de conteúdo, para auditar o que as pessoas fazem com o conteúdo e adicionar códigos de barras ou rótulos a documentos. Uma política pode ajudar a garantir a conformidade com normas legais e governamentais ou processos corporativos internos. Como administrador, você pode configurar uma política para controlar como controlar documentos e quanto tempo manter documentos.
-ms.openlocfilehash: 85113393f534a6b17f75962d02518a5a8c65dd8b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d8572f570db7b0223bc2f08cd78875224897e02c
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072082"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38684907"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Criar e aplicar políticas de gerenciamento de informações
 
@@ -90,7 +91,7 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
     
 ||||||**1.**|* * Escolha * * Adicionar um estágio de retenção para registros... * * * *|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-||||||2.  <br/> | Selecione uma opção de período de retenção para especificar quando documentos ou itens estão definidos para expirar. Siga um destes procedimentos:  <br/>  Para definir a data de vencimento com base em uma propriedade de data, em **evento** \> **este estágio é baseado em uma propriedade de data no item**e, em seguida, selecione a ação de documento ou item (por exemplo, criado ou modificado) e o incremento de tempo após esta ação ( por exemplo, o número de dias, meses ou anos) quando você deseja que o item expire.  <br/>  Para usar uma fórmula de retenção personalizada para determinar a expiração, escolha **definir por uma fórmula de retenção personalizada instalada neste servidor**.  <br/> > [!NOTE]> essa opção só estará disponível se uma fórmula personalizada tiver sido configurada pelo administrador.           |
+||||||2.  <br/> | Selecione uma opção de período de retenção para especificar quando documentos ou itens estão definidos para expirar. Siga um destes procedimentos:  <br/>  Para definir a data de vencimento com base em uma propriedade de data, em **evento** \> **este estágio é baseado em uma propriedade de data no item**e, em seguida, selecione a ação de documento ou item (por exemplo, criado ou modificado) e o incremento de tempo após esta ação (por exemplo, o número de dias, meses ou anos) quando você deseja que o item expire.  <br/>  Para usar uma fórmula de retenção personalizada para determinar a expiração, escolha **definir por uma fórmula de retenção personalizada instalada neste servidor**.  <br/> > [!NOTE]> essa opção só estará disponível se uma fórmula personalizada tiver sido configurada pelo administrador.           |
 ||||||3.  <br/> |A opção **Iniciar um fluxo de trabalho** só estará disponível se você estiver definindo uma política para uma lista, biblioteca ou tipo de conteúdo que já tenha um fluxo de trabalho associado. Você receberá uma opção de fluxos de trabalho para escolher.  <br/> |
 ||||||4.  <br/> |Na seção **recorrência** , selecione **repetir a ação deste estágio...** e insira com que frequência você deseja que a ação ocorra novamente.  <br/> > [!NOTE]> essa opção só estará disponível se a ação selecionada puder ser repetida. Por exemplo, você não pode definir a recorrência para que a ação seja **excluída permanentemente**.           |
 ||||||5.  <br/> |Escolha **OK**.  <br/> |
@@ -101,7 +102,7 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
     
 ||||||1. * * *|Na página Editar política, * * **em** **auditoria** **\>** **habilitar auditoria** * * e marque as caixas de seleção ao lado dos eventos para os quais você deseja manter uma trilha de auditoria. * * * *|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-||||||**2.** <br/> |**Para solicitar que os usuários insiram esses códigos de barras em documentos,** **escolha** **Solicitar que os usuários insiram um código de barras antes de salvar ou imprimir** **.** <br/> |
+||||||**2.** <br/> |**Para solicitar que os usuários insiram esses códigos de barras em documentos,** **escolha** **avisar os usuários para inserir um código de barras antes de salvar ou imprimir** **.** <br/> |
 ||||||**3.** <br/> |**Escolha** **OK** * * para aplicar o recurso de auditoria à política. ** <br/> |
 |||||||O recurso de política de auditoria permite que as organizações criem e analisem trilhas de auditoria para documentos e listem itens como listas de tarefas, listas de problemas, grupos de discussão e calendários. Esse recurso de política fornece um log de auditoria que registra eventos, por exemplo, quando o conteúdo é visualizado, editado ou excluído.  <br/> |
 |||||||Quando a auditoria é habilitada como parte de uma política de gerenciamento de informações, os administradores podem exibir os dados de auditoria em relatórios de uso de política baseados no Microsoft Excel e que resumem o uso atual. Os administradores podem usar esses relatórios para determinar como as informações estão sendo utilizadas na organização. Esses relatórios também podem ajudar as organizações a verificar e documentar a conformidade normativa ou a investigar possíveis preocupações.  <br/> |
@@ -172,7 +173,7 @@ Se **tipo de conteúdo** aparecer como origem, clique em **Alterar fonte**e em *
     
 7. Na caixa de diálogo Propriedades do estágio, selecione uma opção de período de retenção para especificar quando os documentos ou itens estão definidos para expirar. Siga um destes procedimentos:
     
-  - Para definir a data de vencimento com base em uma propriedade de data, em **evento** \> **este estágio é baseado em uma propriedade de data no item**e, em seguida, selecione a ação de documento ou item (por exemplo, criado ou modificado) e o incremento de tempo após esta ação ( por exemplo, o número de dias, meses ou anos) quando você deseja que o item expire. 
+  - Para definir a data de vencimento com base em uma propriedade de data, em **evento** \> **este estágio é baseado em uma propriedade de data no item**e, em seguida, selecione a ação de documento ou item (por exemplo, criado ou modificado) e o incremento de tempo após esta ação (por exemplo, o número de dias, meses ou anos) quando você deseja que o item expire. 
     
   - Para usar uma fórmula de retenção personalizada para determinar a expiração, escolha **definir por uma fórmula de retenção personalizada instalada neste servidor**. 
     

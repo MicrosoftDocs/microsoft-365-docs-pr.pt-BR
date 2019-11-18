@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 10/8/2019
+ms.date: 10/16/2019
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
-description: A criptografia de mensagem avançada no Office 365 ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores expirem e revogassem o acesso por meio de um portal da Web do Office 365 para emails criptografados.
-ms.openlocfilehash: eb6e95b1cbf24ab19df6a595c34721c84c831211
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+description: A criptografia de mensagem avançada no Office 365 ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores façam muito mais com mensagens protegidas.
+ms.openlocfilehash: 7594a6ed2226081e54af957268cf0ca3fe403767
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435505"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684824"
 ---
 # <a name="office-365-advanced-message-encryption"></a>Criptografia de Mensagem Avançada do 365 Office
 
@@ -29,16 +29,18 @@ A criptografia de mensagem avançada no Office 365 ajuda os clientes a cumprir a
 
 Você só pode revogar e definir uma data de vencimento para emails enviados para destinatários externos.
 
-Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar um modelo de identidade visual personalizado, o Office 365 aplica um invólucro ao email que se ajusta à regra de fluxo de emails para a qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem pelo portal. Em outras palavras, email com um modelo de identidade visual personalizado aplicado.
-
 ## <a name="get-started-with-office-365-advanced-message-encryption"></a>Introdução à criptografia de mensagem avançada do Office 365
 
-Os tópicos a seguir descrevem como configurar e usar a criptografia de mensagem avançada.
+Os artigos a seguir descrevem como configurar e usar a criptografia de mensagem avançada.
 
-Sua organização deve ter uma assinatura que inclua a criptografia de mensagem avançada do Office 365. Para obter informações detalhadas sobre assinaturas suportadas, consulte a [Descrição de política de mensagens e serviço de conformidade](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance).
+Sua organização deve ter uma assinatura que inclua a criptografia de mensagem avançada do Office 365. Para obter informações detalhadas sobre assinaturas suportadas, consulte a [Descrição de política de mensagens e serviço de conformidade](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance).
 
 Se você não tiver a configuração de criptografia de mensagem do Office 365 já configurada, confira [configurar novos recursos de criptografia de mensagens do office 365](set-up-new-message-encryption-capabilities.md).
+
+Com a criptografia de mensagem avançada, você não está limitado a um único modelo de identidade visual. Em vez disso, você pode criar e usar vários modelos de identidade visual. Para saber mais, confira [Adicionar a marca da sua organização às mensagens criptografadas](add-your-organization-brand-to-encrypted-messages.md).
 
 [Definir uma data de expiração para email criptografado pela criptografia de mensagem avançada do Office 365](ome-advanced-expiration.md). Controlar emails confidenciais compartilhados fora da organização com políticas automáticas que aprimoram a proteção, expirando o acesso por meio de um portal da Web seguro para emails criptografados.
 
 [Revogar emails criptografados pela criptografia de mensagem avançada do Office 365](revoke-ome-encrypted-mail.md). Controle emails confidenciais compartilhados fora da organização e aprimore a proteção revogando o acesso por meio de um portal da Web seguro para emails criptografados.  
+
+Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar um modelo de identidade visual personalizado, o Office 365 aplica um invólucro ao email que se ajusta à regra de fluxo de emails para a qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem pelo portal. Em outras palavras, email com um modelo de identidade visual personalizado aplicado. Para obter mais informações e um exemplo, consulte o guia em [garantir que todos os destinatários externos usem o portal do ome para ler emails criptografados, somente a criptografia de mensagem avançada do Office 365](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only).

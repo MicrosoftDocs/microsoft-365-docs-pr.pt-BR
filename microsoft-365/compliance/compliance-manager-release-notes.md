@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 3646d86cd9edac95975958458eb52a44fe30d2f5
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: 1a490212b2275b9f297e2585e7242f5331d0fe56
+ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417500"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "38684766"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>Notas de versão do Gerenciador de conformidade (visualização)
 
@@ -27,11 +27,9 @@ Você pode usar a ferramenta atualizada do [Gerenciador de conformidade](https:/
 
 ## <a name="whats-new-in-compliance-manager-preview"></a>O que há de novo no Gerenciador de conformidade (versão prévia)
 
-- **Acesso baseado em função ao Gerenciador de conformidade:** A função de **acesso de adivinhação** padrão foi removida. Para que um usuário acesse o gerente de conformidade, o administrador global deve [atribuir a cada usuário uma permissão](compliance-manager-overview#permissions.md).
+- **Acesso baseado em função ao Gerenciador de conformidade:** A função de **acesso de convidado** padrão foi removida. Para que um usuário acesse o gerente de conformidade, o administrador global deve [atribuir a cada usuário uma permissão](compliance-manager-overview.md#permissions).
 
-- **Integração com a pontuação segura da Microsoft:** O Gerenciador de conformidade oferece suporte à integração com a [Pontuação segura da Microsoft](../security/mtp/microsoft-secure-score.md) , mapeando as ações gerenciadas pelo cliente para mais de 50 de Pontuação segura. Quando você completa uma ação mapeada na pontuação segura, a ação correspondente do Gerenciador de conformidade é atualizada automaticamente.
-
-- **Importe avaliações personalizadas:** Além das avaliações internas, o Gerenciador de conformidade agora oferece suporte à importação de modelos personalizados. Você pode criar avaliações personalizadas para qualquer produto ou serviço e qualquer padrão ou regulamentação.
+- **Nota de conformidade atualizada**: a pontuação de conformidade agora inclui pontuações para ações gerenciadas pela Microsoft. A pontuação aumentará como resultado.
 
 - **Itens de ações:** Os itens de ação agora são itens individuais e muitos incluem coleção de telemetria da API do Microsoft Secure Score Graph. Sempre que possível, as recomendações de ações técnicas agora têm links para a página de configuração aplicável no serviço do Office 365.
 
@@ -39,8 +37,6 @@ Você pode usar a ferramenta atualizada do [Gerenciador de conformidade](https:/
     - **Dimensões:** Exibir, adicionar e personalizar metadados para modelos, avaliações e itens de ação que permitem que você crie pivôs personalizados para filtros.
     - **Proprietários:** Especifique um proprietário para cada item de ação.
     - **Ações do cliente:** Gerencie a lista completa de itens de ações incluídas no Gerenciador de conformidade (visualização) e habilite/desabilite o monitoramento de Pontuação segura para itens de ação integrados à pontuação segura.
-
-- **Pontuação de conformidade atualizada**: a metodologia mudou para suportar a sincronização com a pontuação segura da Microsoft. A pontuação é calculada com base nas pontuações de ação gerenciada pela Microsoft e nas pontuações de ação gerenciada pelo cliente.
 
 ## <a name="known-issues-in-compliance-manager-preview"></a>Problemas conhecidos no gerente de conformidade (visualização)
 
@@ -52,8 +48,11 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 
 ### <a name="secure-score"></a>Classificação de Segurança
 
-- Resultados de Pontuação segura não estão disponíveis para alguns itens de ações em determinadas assinaturas do Microsoft 365 e do Office 365. O resultado da Pontuação segura é ' não pôde ser detectado ' nesses casos.
+- Resultados de Pontuação segura não estão disponíveis para alguns itens de ações em determinadas assinaturas do Microsoft 365 e do Office 365. **Não foi possível detectar** o resultado da Pontuação segura nesses casos.
 - Às vezes, os resultados de Pontuação segura são retornados para políticas correspondentes e itens de ação não concluídos.
+- Para novos locatários, as atualizações de Pontuação segura para todas as ações são automaticamente ativadas. O administrador global pode definir a opção de atualização contínua de Pontuação segura como desativada, o que desativa as atualizações de todas as ações.
+- Quando as atualizações de Pontuação segura estiverem ativadas, as ações serão ativamente monitoradas por Pontuação segura, embora a data de teste da ação não seja atualizada para refletir o monitoramento.
+- Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle gerenciado pela Microsoft e integração de Pontuação segura.
 
 ### <a name="microsoft-managed-controls"></a>Controles gerenciados pela Microsoft
 
@@ -69,12 +68,9 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 
 - Quando você importa um modelo, todas as avaliações baseadas nesse modelo refletem todas as famílias de controle que fazem parte do modelo. Mas se você adicionar novas famílias de controle ao modelo, qualquer avaliação existente não refletirá as alterações. Somente novas avaliações criadas a partir do modelo atualizado refletem as alterações.
 
-### <a name="filters"></a>Filtros
-
-- A filtragem em itens de ação ou controles não produz resultados corretos de forma consistente.
-
 ### <a name="templates"></a>Modelos
 
+- Ao criar um modelo, você deve incluir as dimensões de **produto** e **certificação** para garantir que seu modelo seja exibido na pontuação de conformidade.
 - Os modelos arquivados são editáveis e não devem ser editáveis.
 - Os modelos bloqueados permitem a criação da avaliação, quando não deveriam. Bloquear um modelo é destinado a impedir que ele seja usado para criar avaliações.
 

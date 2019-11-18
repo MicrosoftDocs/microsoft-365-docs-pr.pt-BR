@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Você pode ativar o recurso de pesquisa de log de auditoria no centro de conformidade de & de segurança. Se você mudar de ideia, poderá desativar se estiver desligado a qualquer momento. Quando a pesquisa de log de auditoria está desativada, os administradores não podem pesquisar o log de auditoria do Office 365 para atividades de usuário e administrador em sua organização.
-ms.openlocfilehash: 83ef355c4acd5e0af4fd7ffbf13157307bcac930
-ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
+ms.openlocfilehash: 4e382c9916a9460d2c837a336607734427416a1a
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37334241"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684995"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Ativar e desativar a Pesquisa de log de auditoria do Office 365
 
@@ -35,7 +35,7 @@ Você (ou outro administrador) deve ativar o log de auditoria antes de começar 
     > [!IMPORTANT]
     > Os usuários precisam receber permissões no Exchange Online para ativar ou desativar a pesquisa de log de auditoria. Se você atribuir aos usuários a função logs de auditoria na página **permissões** no centro de conformidade & segurança, não será possível ativar ou desativar a pesquisa de log de auditoria. Isso ocorre porque o cmdlet subjacente é um cmdlet do Exchange Online. 
   
-- Se você desativar a pesquisa de log de auditoria no Office 365, não poderá usar a API da atividade de gerenciamento do Office 365 para acessar os dados de auditoria da sua organização. Desativando a pesquisa de log de auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o centro de conformidade de & de segurança ou quando executar o cmdlet **Search-UnifiedAuditLog** no PowerShell do Exchange Online . Isso também significa que seus logs de auditoria não estarão disponíveis por meio da API de atividade de gerenciamento do Office 365.  
+- Se você desativar a pesquisa de log de auditoria no Office 365, não poderá usar a API da atividade de gerenciamento do Office 365 para acessar os dados de auditoria da sua organização. Desativando a pesquisa de log de auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o centro de conformidade de & de segurança ou quando executar o cmdlet **Search-UnifiedAuditLog** no PowerShell do Exchange Online. Isso também significa que seus logs de auditoria não estarão disponíveis por meio da API de atividade de gerenciamento do Office 365.  
     
 - Para obter instruções passo a passo sobre como pesquisar o log de auditoria do Office 365, consulte [Pesquisar o log de auditoria no centro de conformidade do & de segurança](search-the-audit-log-in-security-and-compliance.md).
     
@@ -61,7 +61,7 @@ Você pode usar o centro de conformidade & segurança ou o PowerShell para ativa
     
 2. Execute o seguinte comando do PowerShell para ativar a pesquisa de log de auditoria no Office 365.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
     ```
 
@@ -75,7 +75,7 @@ Você precisa usar o PowerShell remoto conectado à sua organização do Exchang
     
 2. Execute o seguinte comando do PowerShell para desativar a pesquisa de log de auditoria no Office 365.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
     ```
 
@@ -83,12 +83,12 @@ Você precisa usar o PowerShell remoto conectado à sua organização do Exchang
     
     - No PowerShell, execute o seguinte comando:
 
-            ```
-            Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-            ```
+    ```powershell
+    Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+    ```
 
-           The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
+      O valor da `False` propriedade _UnifiedAuditLogIngestionEnabled_ indica que a pesquisa de log de auditoria está desativada. 
     
     - No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> .
     
-           A banner is displayed saying that auditing has to be turned on in order to record user and admin activity.
+      Uma faixa é exibida dizendo que a auditoria deve ser ativada para registrar a atividade de usuário e administrador.

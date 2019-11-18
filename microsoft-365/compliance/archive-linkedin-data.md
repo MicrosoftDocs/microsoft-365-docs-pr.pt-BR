@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados de uma página da empresa do LinkedIn para o Office 365. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a conformidade dos dados de terceiros da sua organização.
-ms.openlocfilehash: 618cef7c0208378179d41a94f4a274a0bddadee9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1117eb6b7c756519ad07cafc52a635d65999d9e0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072304"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684929"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data-in-office-365-preview"></a>Configurar um conector para arquivar dados do LinkedIn no Office 365 (versão prévia)
 
@@ -71,14 +71,10 @@ Para exibir mais detalhes, clique no conector na lista na página de dados de te
 
 - Devido ao comportamento anterior, você pode pesquisar as propriedades `from` ou `subject` email ao usar uma ferramenta de descoberta eletrônica da Microsoft para pesquisar itens do LinkedIn que são arquivados no Office 365. Por exemplo, se o nome da página da empresa for "página da empresa contoso", então você poderá usar uma das seguintes *Propriedades:* pares de valores na consulta de pesquisa de palavra-chave:
    
-   ```
-   from:"Contoso Company Page"
-   ```
+   > de: "página da empresa contoso"
 
     Ou
 
-   ```
-   subject:"Contoso Company Page"
-   ```
+   > Assunto: "página da empresa contoso"
 
 - Para facilitar a localização ou o gerenciamento de itens do LinkedIn importados para o Office 365, o proprietário da caixa de correio de armazenamento (ou qualquer pessoa que tenha atribuído a permissão FullAccess) pode configurar uma regra de caixa de entrada para mover os itens de uma página da empresa do LinkedIn para uma pasta específica. Isso é útil se a caixa de correio de armazenamento é usada para arquivar itens importados de diferentes fontes de dados de terceiros. Por exemplo, você pode criar uma regra de caixa de entrada que move todos os itens que contêm o nome de uma página específica da empresa do LinkedIn no campo assunto para uma pasta específica.

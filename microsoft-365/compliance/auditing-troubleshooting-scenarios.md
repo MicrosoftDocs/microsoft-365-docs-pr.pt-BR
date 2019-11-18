@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Você pode usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo foi capaz de fazer logon com êxito em seu departamento.
-ms.openlocfilehash: 255fd323ca08dd4ea759648fbe0673f5e5254c22
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f075d4317e8da748b6eca654747a2757c0040558
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072292"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684933"
 ---
-# <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>Pesquisar o log de auditoria do Office 365 para solucionar problemas de cenários comuns
+# <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria do Office 365 para investigar problemas comuns de suporte
 
-Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a solucionar problemas de cenários de suporte comuns. Isso inclui o uso do log de auditoria para:
+Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a investigar problemas comuns de suporte. Isso inclui o uso do log de auditoria para:
 
 - Localizar o endereço IP do computador usado para acessar uma conta comprometida
 - Determinar quem configurou o encaminhamento de email para uma caixa de correio
@@ -114,13 +114,13 @@ a. No campo **ObjectID** , o alias da caixa de correio para o qual o encaminhame
 
 b. No campo **parâmetros** , o valor *ForwardingSmtpAddress* indica que o encaminhamento de emails foi definido na caixa de correio. Neste exemplo, o email está sendo encaminhado para o endereço de email mike@contoso.com, que está fora da organização do alpinehouse.onmicrosoft.com.
 
-c. O valor *true* para o parâmetro *DeliverToMailboxAndForward* indica que uma cópia da mensagem entregue ao Sarad@alpinehouse.onmicrosoft.com *e* é encaminhada para o endereço de email especificado pelo *ForwardingSmtpAddress *o parâmetro, que neste exemplo é Mike@contoso.com. Se o valor do parâmetro *DeliverToMailboxAndForward* for definido como *false*, o email será encaminhada somente para o endereço especificado pelo parâmetro *ForwardingSmtpAddress* . Ele não é entregue à caixa de correio especificada no campo **ObjectID** .
+c. O valor *true* para o parâmetro *DeliverToMailboxAndForward* indica que uma cópia da mensagem entregue ao Sarad@alpinehouse.onmicrosoft.com *e* é encaminhada para o endereço de email especificado pelo parâmetro *ForwardingSmtpAddress* , que, neste exemplo, é Mike@contoso.com. Se o valor do parâmetro *DeliverToMailboxAndForward* for definido como *false*, o email será encaminhada somente para o endereço especificado pelo parâmetro *ForwardingSmtpAddress* . Ele não é entregue à caixa de correio especificada no campo **ObjectID** .
 
 d. O campo **userid** indica o usuário que define o encaminhamento de emails na caixa de correio especificada no campo **ObjectID** . Esse usuário também é exibido na coluna **usuário** na página de resultados da pesquisa. Nesse caso, parece que o proprietário da caixa de correio define o encaminhamento de email em sua caixa de correio.
 
 Se você determinar que o encaminhamento de emails não deve ser definido na caixa de correio, é possível removê-lo executando o seguinte comando no PowerShell do Exchange Online:
 
-```
+```powershell
 Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null 
 ```
 
@@ -232,7 +232,7 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
    ![Pesquisar todas as atividades realizadas pelo usuário externo](media/PassThroughAuth2.png)
 
-    Além das atividades de **logon do usuário** , outros registros de auditoria podem ser retornados, de forma que indiquem um usuário na sua organização com recursos compartilhados com o usuário externo e se o usuário externo acesso, modificou ou baixou um documento que o foi compartilhado com eles.
+    Além das atividades de **logon do usuário** , outros registros de auditoria podem ser retornados, por exemplo, que indicam um usuário na sua organização recursos compartilhados com o usuário externo e se o usuário externo acesso, modificou ou baixou um documento que foi compartilhado com eles.
 
 - Pesquisar atividades de compartilhamento do SharePoint que indicariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para obter mais informações, consulte [usar a auditoria de compartilhamento no log de auditoria do Office 365](use-sharing-auditing.md).
 

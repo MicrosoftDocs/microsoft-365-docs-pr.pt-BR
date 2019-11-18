@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 6501b5ef-6bf7-43df-b60d-f65781847d6c
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
-ms.openlocfilehash: c8ac6f0a4364117c475637e0288d7a1a790d57c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a1ed9f511f77883428b23ff224956593763403e1
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071997"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38684899"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>Criptografia de dados no OneDrive for Business e no SharePoint Online
 

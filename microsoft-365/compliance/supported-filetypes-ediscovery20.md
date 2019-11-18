@@ -14,16 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3dbebb20d179f78e97a8ae18fb810a8cb53c45ed
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5f574fa4fa53e83e2af4ea563c63106e8206c3d5
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073096"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "38684735"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na descoberta eletrônica avançada
 
 A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo para vários níveis diferentes, que são descritos na tabela a seguir. Essa lista não é finalizada e adicionaremos novos tipos de arquivos conforme continuamos com o teste de validação. As tabelas indicam se um tipo de arquivo é suportado para a extração de texto (OCR para imagens), visível no visualizador nativo e também suporte no Visualizador de anotações na descoberta eletrônica avançada.
+
 
 ## <a name="archive--container"></a>Arquivo morto/contêiner
 
@@ -32,7 +33,19 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | aplicativo/x-7z-compactado | Sim | Sim | Sim | .7z |
 | application/x-rar-compactado | Sim | Sim | Sim | . rar |
 | application/x-tar | Sim | Sim | Sim | . tar |
-| aplicativo/zip | Sim | Sim | Sim | . zip |
+| aplicativo/zip | Sim | Sim | Sim | .zip |
+||||||||
+
+## <a name="audio--video"></a>Áudio/vídeo
+
+| Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| Application/MP4 | Sim | Sim | Não | Sim | Não | . F4V;. m4a;. m4v;. mp4;. MP4V;. MPEG;. MPEG4 |
+| áudio/MPEG | Sim | Sim | Não | Sim | Não | . MPEG |
+| vídeo/3GPP | Sim | Sim | Não | Sim | Não | .3gp |
+| vídeo/3GPP2 | Sim | Sim | Não | Sim | Não | .3g2; .3gp2 |
+| vídeo/QuickTime | Sim | Sim | Não | Sim | Não | . moov;. mov;. Qt |
+| vídeo/x-M4V | Sim | Sim | Não | Sim | Não | .m4v |
 ||||||||
 
 ## <a name="database"></a>Banco de dados
@@ -47,7 +60,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
 | application/vnd. MS-Outlook | Sim | Sim | Sim | Sim | Sim | . msg |
-| mensagem/RFC822 | Sim | Sim | Sim | Sim | Sim | . eml |
+| mensagem/RFC822 | Sim | Sim | Sim | Sim | Sim | .eml |
 | texto/vCard-contato | Sim | Sim | Sim | Sim | Sim | . vcf |
 ||||||||
 
@@ -95,6 +108,13 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | application/vnd. openxmlformats-officeDocument. SpreadsheetML. Template | Sim | Sim | Sim | Sim | Sim | . xltx |
 ||||||||
 
+## <a name="microsoft-onenote"></a>Microsoft OneNote
+
+| Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| aplicativo/OneNote | Sim | Sim | Sim | Sim | Não | . um |
+||||||||
+
 ## <a name="microsoft-powerpoint"></a>Microsoft Powerpoint
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
@@ -103,6 +123,13 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | application/vnd.openxmlformats-officedocument.presentationml.presentation | Sim | Sim | Sim | Sim | Sim | . pptx |
 | application/vnd. openxmlformats-officeDocument. presentationml. slideshow | Sim | Sim | Sim | Sim | Sim | . ppsx |
 | application/vnd. openxmlformats-officeDocument. presentationml. Template | Sim | Sim | Sim | Sim | Sim | . potx |
+||||||||
+
+## <a name="microsoft-project"></a>Microsoft Project
+
+| Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| application/vnd. MS-Project | Sim | Sim | Sim | Não | Sim | . mpp |
 ||||||||
 
 ## <a name="microsoft-publisher"></a>Microsoft Publisher

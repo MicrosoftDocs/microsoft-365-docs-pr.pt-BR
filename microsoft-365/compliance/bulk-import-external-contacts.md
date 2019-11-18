@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Saiba como os administradores podem usar o PowerShell do Exchange Online e um arquivo CSV para importar contatos externos para a lista de endereços global em massa.
-ms.openlocfilehash: 08fe7666f03c7fe60555133292be9e27a9ffa413
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 272223d9ab61b2c5ae17043cf4523d49da306de9
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072248"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684928"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Importação em massa de contatos externos para o Exchange Online
 
@@ -47,10 +47,10 @@ A primeira etapa é criar um arquivo CSV que contenha informações sobre cada c
     > [!TIP]
     > Se seu idioma contiver caracteres especiais (como **å**, **ä**e **ö** em Sueco), salve o arquivo CSV com UTF-8 ou outra codificação Unicode quando você salvar o arquivo no bloco de notas. 
   
-    ```
+    ```text
     ExternalEmailAddress,Name,FirstName,LastName,StreetAddress,City,StateorProvince,PostalCode,Phone,MobilePhone,Pager,HomePhone,Company,Title,OtherTelephone,Department,CountryOrRegion,Fax,Initials,Notes,Office,Manager
     danp@fabrikam.com,Dan Park,Dan,Park,1234 23rd Ave,Golden,CO,80215,206-111-1234,303-900-1234,555-1212,123-456-7890,Fabrikam,Shipping clerk,555-5555,Shipping,US,123-4567,R.,Good worker,31/1663,Dan Park
-    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park 
+    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park
     ```
 
     A primeira linha, ou linha de cabeçalho, do arquivo CSV lista as propriedades de contatos que podem ser usadas quando você as importa para o Exchange Online. Cada nome de propriedade é separado por uma vírgula. Cada linha sob a linha de cabeçalho representa os valores de propriedade para importar um único contato externo. 
@@ -75,7 +75,7 @@ A próxima etapa é usar o arquivo CSV que você criou na etapa 1 e o PowerShell
     
 3. Execute o seguinte comando para criar os contatos externos:
 
-    ```
+    ```powershell
     Import-Csv .\ExternalContacts.csv|%{New-MailContact -Name $_.Name -DisplayName $_.Name -ExternalEmailAddress $_.ExternalEmailAddress -FirstName $_.FirstName -LastName $_.LastName}
     ```
 
@@ -86,7 +86,7 @@ A próxima etapa é usar o arquivo CSV que você criou na etapa 1 e o PowerShell
     > [!TIP]
     > Para obter instruções para se conectar ao Eat, consulte [Exchange Admin Center in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=328197). 
   
-5. Se necessário, clique em **Atualizar** ![ícone](media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar a lista e consulte os contatos externos que foram importados. 
+5. Se necessário, clique em **Atualizar** para atualizar a lista e ver os contatos externos que foram importados. 
     
     Os contatos importados aparecerão no catálogo de endereços compartilhado no Outlook e no Outlook na Web.
     
@@ -103,12 +103,12 @@ Após executar o comando na etapa 2, os contatos externos são criados, mas não
     
 3. Execute os dois comandos a seguir para adicionar as outras propriedades do arquivo CSV aos contatos externos que você criou na etapa 2.
     
-    ```
+    ```powershell
     $Contacts = Import-CSV .\ExternalContacts.csv
   
     ```
 
-    ```
+    ```powershell
     $contacts | ForEach {Set-Contact $_.Name -StreetAddress $_.StreetAddress -City $_.City -StateorProvince $_.StateorProvince -PostalCode $_.PostalCode -Phone $_.Phone -MobilePhone $_.MobilePhone -Pager $_.Pager -HomePhone $_.HomePhone -Company $_.Company -Title $_.Title -OtherTelephone $_.OtherTelephone -Department $_.Department -Fax $_.Fax -Initials $_.Initials -Notes  $_.Notes -Office $_.Office -Manager $_.Manager}
     ```
 
@@ -140,19 +140,19 @@ Algumas empresas podem usar somente contatos externos para que possam ser adicio
     
 2. Para ocultar um único contato externo, execute o comando a seguir.
     
-    ```
+    ```powershell
     Set-MailContact <external contact> -HiddenFromAddressListsEnabled $true 
     ```
- 
+
     Por exemplo, para ocultar pilar Fernandes do catálogo de endereços compartilhado, execute este comando:
 
-    ```
+    ```powershell
     Set-MailContact "Pilar Pinilla" -HiddenFromAddressListsEnabled $true
     ```
-   
+
 3. Para ocultar todos os contatos externos do catálogo de endereços compartilhado, execute este comando:
 
-    ```
+    ```powershell
     Get-Contact -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'MailContact')} | Set-MailContact -HiddenFromAddressListsEnabled $true  
     ```
 

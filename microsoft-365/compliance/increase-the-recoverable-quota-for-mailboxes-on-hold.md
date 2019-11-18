@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: 'Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Office 365. '
-ms.openlocfilehash: 4c2e36dae3c8677579569d55a9c5b88efb5c54e5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 266437d77ba4f3a82fa69db6a997fd58748fa834
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071862"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684958"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
 
@@ -40,12 +40,12 @@ Para ajudar a reduzir a chance de exceder esse limite, a cota de armazenamento d
   
 Quando a cota de armazenamento da pasta Itens Recuperáveis na caixa de correio principal de uma caixa de correio em espera está quase atingindo o limite, você pode fazer o seguinte:
   
-- **Habilitar a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática** -você pode habilitar uma capacidade de armazenamento ilimitada para a pasta itens recuperáveis, simplesmente habilitando a caixa de correio de arquivo morto e, em seguida, ativando o recurso de arquivamento de expansão automática no Exchange Modo. Isso resulta em 110 GB para a pasta itens recuperáveis na caixa de correio principal e uma quantidade ilimitada de capacidade de armazenamento para a pasta itens recuperáveis no arquivo morto do usuário. Confira como: [habilitar caixas de correio de arquivo morto no centro de conformidade de & de segurança](enable-archive-mailboxes.md) e [habilitar o arquivamento ilimitado no Office 365](enable-unlimited-archiving.md).
+- **Habilitar a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática** -você pode habilitar uma capacidade de armazenamento ilimitada para a pasta itens recuperáveis, simplesmente habilitando a caixa de correio de arquivo morto e, em seguida, ativando o recurso de arquivamento de expansão automática no Exchange Online. Isso resulta em 110 GB para a pasta itens recuperáveis na caixa de correio principal e uma quantidade ilimitada de capacidade de armazenamento para a pasta itens recuperáveis no arquivo morto do usuário. Confira como: [habilitar caixas de correio de arquivo morto no centro de conformidade de & de segurança](enable-archive-mailboxes.md) e [habilitar o arquivamento ilimitado no Office 365](enable-unlimited-archiving.md).
     
     > [!NOTE]
     > Após habilitar o arquivamento para uma caixa de correio que está prestes a exceder a cota de armazenamento da pasta Itens Recuperáveis, convém executar o Assistente de Pasta Gerenciada para disparar manualmente o assistente para processar a caixa de correio, de modo que os itens expirados sejam movidos para a pasta Itens Recuperáveis na caixa de correio de arquivo morto. Confira as instruções na [Etapa 4](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings). Os demais itens na caixa de correio do usuário podem ser movidos para a nova caixa de correio de arquivo morto. Considere a possibilidade de informar ao usuário que isso pode acontecer depois que você habilitar a caixa de correio de arquivo morto. 
   
-- **Criar uma política de retenção personalizada para caixas de correio em retenção** , além de habilitar a caixa de correio de arquivo morto e o arquivamento de expansão automática para caixas de correio em retenção de litígio ou bloqueio in-loco, você também pode querer criar uma política de retenção personalizada para caixas de correio no retenção. Isso permite aplicar uma política de retenção para caixas de correio em espera diferente da Política de MRM Padrão que é aplicada às caixas de correio que não estão em espera. Isso permite aplicar marcas de retenção projetadas especificamente para caixas de correio em espera. Isso inclui a criação de uma nova marca de retenção para a pasta Itens Recuperáveis. 
+- **Criar uma política de retenção personalizada para caixas de correio em retenção** , além de habilitar a caixa de correio de arquivo morto e o arquivamento de expansão automática para caixas de correio em retenção de litígio ou bloqueio in-loco, você também pode querer criar uma política de retenção personalizada para caixas de correio em espera. Isso permite aplicar uma política de retenção para caixas de correio em espera diferente da Política de MRM Padrão que é aplicada às caixas de correio que não estão em espera. Isso permite aplicar marcas de retenção projetadas especificamente para caixas de correio em espera. Isso inclui a criação de uma nova marca de retenção para a pasta Itens Recuperáveis. 
     
 O restante deste tópico descreve os procedimentos passo a passo para criar uma política de retenção personalizada para caixas de correio em espera.
   
@@ -65,13 +65,13 @@ A primeira etapa é criar uma marca de retenção personalizada (chamada de marc
     
 2. Execute o seguinte comando para criar um novo relatório para a pasta Itens Recuperáveis:  
     
-    ```
+    ```powershell
     New-RetentionPolicyTag -Name <Name of RPT> -Type RecoverableItems -AgeLimitForRetention <Number of days> -RetentionAction MoveToArchive
     ```
 
     Por exemplo, o comando a seguir cria um relatório para a pasta Itens Recuperáveis denominado "Itens Recuperáveis para caixas de correio em retenção: 30 dias", com um período de retenção de 30 dias. Isso significa que depois que um item estiver na pasta Itens Recuperáveis por 30 dias, ele será movido para a pasta Itens Recuperáveis na caixa de correio de arquivo morto do usuário.
     
-    ```
+    ```powershell
     New-RetentionPolicyTag -Name "Recoverable Items 30 days for mailboxes on hold" -Type RecoverableItems -AgeLimitForRetention 30 -RetentionAction MoveToArchive
     ```
 
@@ -118,17 +118,17 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
   
 Execute o comando a seguir para criar a nova política de retenção para caixas de correio em espera.  
   
-```
+```powershell
 New-RetentionPolicy <Name of retention policy>  -RetentionPolicyTagLinks <list of retention tags>
 
 ```
 
 Por exemplo, o comando a seguir cria a política de retenção e as marcas de retenção vinculadas que são exibidas na ilustração anterior.
   
-```
+```powershell
 New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks "Recoverable Items 30 days for mailboxes on hold","1 Month Delete","1 Week Delete","1 Year Delete","5 Year Delete","6 Month Delete","Default 2 year move to archive","Junk Email","Never Delete","Personal 1 year move to archive","Personal 5 year move to archive"
 ```
-  
+
 ## <a name="step-3-apply-the-new-retention-policy-to-mailboxes-on-hold"></a>Etapa 3: Aplicar a nova política de retenção a caixas de correio em espera
 
 A última etapa é aplicar a nova política de retenção que você criou na Etapa 2 a caixas de correio em espera na sua organização. Você pode usar o Eat ou o PowerShell do Exchange Online para aplicar a política de retenção a uma única caixa de correio ou a várias caixas de correio. 
@@ -161,27 +161,27 @@ Você pode usar o PowerShell do Exchange Online para aplicar uma nova política 
   
 Este exemplo aplica a nova política de retenção à caixa de correio de Clara Barbosa.
   
-```
+```powershell
 Set-Mailbox "Pilar Pinilla" -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
 Este exemplo aplica a nova política de retenção a todas as caixas de correio na organização que estão em Retenção de Litígio.
   
-```
+```powershell
 $LitigationHolds = Get-Mailbox -ResultSize unlimited | Where-Object {$_.LitigationHoldEnabled -eq 'True'}
 ```
 
-```
+```powershell
 $LitigationHolds.DistinguishedName | Set-Mailbox -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
 Este exemplo aplica a nova política de retenção a todas as caixas de correio na organização que estão em Bloqueio In-loco.
   
-```
+```powershell
 $InPlaceHolds = Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null}
 ```
 
-```
+```powershell
 $InPlaceHolds.DistinguishedName | Set-Mailbox -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
@@ -189,35 +189,35 @@ Você pode usar o cmdlet **Get-Mailbox** para verificar se a nova política de r
   
 Aqui estão alguns exemplos para verificar se os comandos nos exemplos anteriores aplicaram a "Política MRM a caixas de correio em espera" em caixas de correio em Retenção de Litígio e caixas de correio em Bloqueio In-loco.
   
-```
+```powershell
 Get-Mailbox "Pilar Pinilla" | Select RetentionPolicy
 ```
 
-```
+```powershell
 Get-Mailbox -ResultSize unlimited | Where-Object {$_.LitigationHoldEnabled -eq 'True'} | FT DisplayName,RetentionPolicy -Auto
 ```
 
-```
+```powershell
 Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null} | FT DisplayName,RetentionPolicy -Auto
 ```
-  
+
 ## <a name="optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings"></a>(Opcional) Etapa 4: Executar o Assistente de Pasta Gerenciada para aplicar as novas configurações de retenção
 
 Depois de aplicar a nova política de retenção às caixas de correio em espera, pode levar até 7 dias no Exchange Online para que o assistente de pasta gerenciada processe essas caixas de correio usando as configurações da nova política de retenção. Em vez de esperar pela execução do Assistente de Pasta Gerenciada, você pode usar o cmdlet **Start-ManagedFolderAssistant** para disparar manualmente o assistente para processar as caixas de correio às quais você aplicou a nova política de retenção. 
   
 Execute o comando a seguir para iniciar o Assistente de Pasta Gerenciada para caixa de correio de Clara Barbosa.
   
-```
+```powershell
 Start-ManagedFolderAssistant "Pilar Pinilla"
 ```
 
 Execute os comandos a seguir para iniciar o Assistente de Pasta Gerenciada para todas as caixas de correio em espera.
   
-```
+```powershell
 $MailboxesOnHold = Get-Mailbox -ResultSize unlimited | Where-Object {($_.InPlaceHolds -ne $null) -or ($_.LitigationHoldEnabled -eq "True")}
 ```
 
-```
+```powershell
 $MailboxesOnHold.DistinguishedName | Start-ManagedFolderAssistant
 ```
 

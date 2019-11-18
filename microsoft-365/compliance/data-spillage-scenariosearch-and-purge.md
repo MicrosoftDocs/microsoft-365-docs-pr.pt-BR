@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Usar as ferramentas de descoberta eletrônica e de pesquisa do Office 365 para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: bf6c22a593a2611b86012cd51e3e2932a13dfe4d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 39419982bf343c7fcc1568a1550b3cdd41968296
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071982"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684978"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -82,7 +82,7 @@ Para criar uma pesquisa de conteúdo associada a uma ocorrência de descoberta e
 
 Após criar uma pesquisa de conteúdo, você precisará rever e validar que os resultados da pesquisa e verificar se eles consistam apenas das mensagens de email que devem ser excluídas. Em uma pesquisa de conteúdo, você pode visualizar uma amostra aleatória de 1.000 mensagens de email sem exportar os resultados da pesquisa para evitar outros dados de derramamento. Você pode ler mais sobre as limitações de visualização em [limites de pesquisa de conteúdo](limits-for-content-search.md).
   
-Se você tiver mais de 1.000 caixas de correio ou mais de 100 mensagens de email por caixa de correio para revisão, poderá dividir a pesquisa inicial em várias pesquisas usando palavras-chave ou condições adicionais, como intervalo de datas ou remetente/destinatário, e revisar os resultados de cada pesquisa individual. Certifique-se de anotar todas as consultas de pesquisa para usar quando excluir mensagens na [etapa 7](#step-7-permanently-delete-the-spilled-data).
+Se você tiver mais de 1.000 caixas de correio ou mais de 100 mensagens de email por caixa de correio para revisão, você pode dividir a pesquisa inicial em várias pesquisas usando palavras-chave ou condições adicionais, como o intervalo de datas ou remetente/destinatário, e revisar os resultados de cada pesquisa individualmente. Certifique-se de anotar todas as consultas de pesquisa para usar quando excluir mensagens na [etapa 7](#step-7-permanently-delete-the-spilled-data).
 
 Se uma licença do Office 36 E5 for atribuída a um ou usuário final, você poderá examinar até 10.000 resultados de pesquisa de uma vez usando a descoberta eletrônica avançada do Office 365. Se houver mais de 10.000 mensagens de email a serem revisadas, você pode dividir a consulta de pesquisa por intervalo de datas e revisar cada resultado individualmente à medida que os resultados da pesquisa são classificados por data. Na descoberta eletrônica avançada, você pode marcar os resultados da pesquisa usando o **rótulo como** recurso no painel Visualizar e filtrar o resultado da pesquisa pela marca rotulada. Isso é útil quando você colabora com um revisor secundário. Usando ferramentas de análise adicionais em uma descoberta eletrônica avançada, como reconhecimento óptico de caracteres, encadeamento de emails e codificação de previsão, você pode processar e revisar rapidamente milhares de mensagens e marcá-las para análise adicional. Consulte [configuração rápida da descoberta eletrônica avançada do Office 365](quick-setup-for-advanced-ediscovery.md).
 
@@ -118,7 +118,7 @@ Para investigar melhor se um email com dados derramados foi compartilhado, você
   
 Você pode usar o rastreamento de mensagens no centro de segurança e conformidade ou usar os cmdlets correspondentes no PowerShell do Exchange Online. É importante observar que o rastreamento de mensagens não oferece garantias completas sobre a integridade dos dados retornados. Para obter mais informações sobre como usar o rastreamento de mensagens, consulte: 
   
-- [Rastreamento de mensagens no centro de conformidade & segurança](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
+- [Rastreamento de mensagens no Centro de Conformidade e Segurança](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
     
 - [Novo rastreamento de mensagens no centro de conformidade e segurança &](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     
@@ -154,7 +154,7 @@ Abra o relatório de Resumo de exportação que você baixou na [etapa 4](#step-
 
 Se a recuperação de item único estiver habilitada ou se uma caixa de correio for colocada em espera, uma mensagem permanentemente excluída (limpad) será mantida na pasta itens recuperáveis. Portanto, antes de poder limpar dados derramados, você precisa verificar as configurações de caixa de correio existentes e desabilitar a recuperação de item único e remover qualquer política de retenção de bloqueio ou do Office 365. Tenha em mente que você pode preparar uma caixa de correio de cada vez e, em seguida, executar o mesmo comando em caixas de correio diferentes ou criar um script do PowerShell para preparar várias caixas de correio ao mesmo tempo.
 
-- Consulte "etapa 1: coletar informações sobre a caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) para obter instruções sobre como verificar se a recuperação de item único está habilitada ou se a caixa de correio está colocada em espera ou se ela está atribuída a um política de retenção. 
+- Consulte "etapa 1: coletar informações sobre a caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) para obter instruções sobre como verificar se a recuperação de item único está habilitada ou se a caixa de correio está colocada em espera ou se ela está atribuída a uma política de retenção. 
     
 - Consulte "etapa 2: preparar a caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-2-prepare-the-mailbox) para obter instruções sobre como desabilitar a recuperação de item único. 
     
@@ -174,24 +174,24 @@ Usando os locais da caixa de correio que você coletou e preparou na etapa 6 e a
     
 2. Execute o seguinte comando:
     
-    ```
+    ```powershell
     Search-Mailbox -Identity <mailbox identity> -SearchDumpster -DeleteContent $true -SearchQuery <search query>
     ```
-  
+
 3. Execute novamente o comando anterior para cada caixa de correio que contenha os dados derramados, substituindo o valor do parâmetro Identity. por exemplo:
 
-    ```
+    ```powershell
     Search-Mailbox -Identity sarad@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
     ```
 
-    ```
+    ```powershell
     Search-Mailbox -Identity janets@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
     ```
 
-   ```
+   ```powershell
    Search-Mailbox -Identity pilarp@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
    ```
-  
+
 Conforme mencionado anteriormente, você também pode criar um [script do PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6) e executá-lo em uma lista de caixas de correio para que o script exclua os dados derramados em cada caixa de correio.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>Etapa 8: verificar, fornecer uma prova de exclusão e auditoria
@@ -214,12 +214,11 @@ Se as palavras-chave na consulta de pesquisa que você criou e usou na etapa 3 c
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Auditar o processo de investigação de derramamento de dados
 
-Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria que foram criados quando você executou o comando **Search-Mailbox-DeleteContent** para excluir os dados derramados. Para obter mais informações, consulte:
+Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria que foram criados quando você executou o comando **Search-Mailbox-DeleteContent** para excluir os dados derramados. Para saber mais, confira:
 
-- 
-  [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
+- [Pesquisar no log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 
-- [Procurar atividades de descoberta eletrônica no log de auditoria](search-for-ediscovery-activities-in-the-audit-log.md)
+- [Procurar atividades de Descoberta Eletrônica no log de auditoria](search-for-ediscovery-activities-in-the-audit-log.md)
 
 - Consulte a seção "atividades auditadas-log de auditoria do administrador do Exchange" em [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md#audited-activities) para obter orientação sobre como pesquisar registros de auditoria relacionados a cmdlets em execução no Exchange Online.
   

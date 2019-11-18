@@ -12,16 +12,16 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: Saiba como configurar o registro do Windows para aumentar a taxa de transferência de dados ao baixar os resultados da pesquisa e dados de pesquisa do centro de conformidade e segurança & e descoberta eletrônica avançada no Office 365.
-ms.openlocfilehash: 44f595e6beffcc3d6789ad7b6f70ad77a48381cb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f74d164250f9d5b9b8315fe2651d3374457451ed
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072590"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684953"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365
 
-Ao usar a ferramenta de exportação de descoberta eletrônica do Office 365 para baixar os resultados de uma pesquisa de conteúdo no centro de conformidade & de segurança ou dados de download da descoberta eletrônica avançada do Office 365, a ferramenta inicia um determinado número de operações de exportação simultâneas para baixar o dados para o computador local. Por padrão, o número de operações simultâneas é definido como 8 vezes o número de núcleos no computador que você está usando para baixar os dados. Por exemplo, se você tiver um computador dual core (ou seja, duas unidades de processamento central em um único chip), o número padrão de operações de exportação simultâneas será 16. Para aumentar a taxa de transferência e acelerar o processo de download, é possível aumentar o número de operações simultâneas Configurando uma configuração do registro do Windows no computador que você usa para baixar os resultados da pesquisa. Para acelerar o processo de download, recomendamos que você comece com uma configuração de 24 operações simultâneas.
+Ao usar a ferramenta de exportação de descoberta eletrônica do Office 365 para baixar os resultados de uma pesquisa de conteúdo no centro de conformidade & de segurança ou dados de download da descoberta eletrônica avançada do Office 365, a ferramenta inicia um determinado número de operações de exportação simultâneas para baixar os dados para o seu computador local. Por padrão, o número de operações simultâneas é definido como 8 vezes o número de núcleos no computador que você está usando para baixar os dados. Por exemplo, se você tiver um computador dual core (ou seja, duas unidades de processamento central em um único chip), o número padrão de operações de exportação simultâneas será 16. Para aumentar a taxa de transferência e acelerar o processo de download, é possível aumentar o número de operações simultâneas Configurando uma configuração do registro do Windows no computador que você usa para baixar os resultados da pesquisa. Para acelerar o processo de download, recomendamos que você comece com uma configuração de 24 operações simultâneas.
   
 Se você baixar os resultados da pesquisa por uma rede de baixa largura de banda, aumentar essa configuração poderá ter um impacto negativo. Como alternativa, é possível aumentar a configuração para mais de 24 operações simultâneas em uma rede de alta largura de banda (o número máximo de operações simultâneas é 48). Depois de definir essa configuração do registro, talvez seja necessário alterá-la para encontrar o número ideal de operações simultâneas para seu ambiente.
   
@@ -33,7 +33,7 @@ Execute o procedimento a seguir no computador que você usará para baixar os re
     
 2. Salve o seguinte texto em um arquivo de registro de janela usando um sufixo de nome de arquivo. reg; por exemplo, ConcurrentOperations. reg. 
     
-    ```
+    ```text
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool]
     "DownloadConcurrency"="24"
@@ -64,7 +64,7 @@ Execute o procedimento a seguir no computador que você usará para baixar os re
     
     Portanto, depois de alterar a `DownloadConcurrency` configuração do registro, certifique-se de reiniciar o trabalho de exportação (clicando em **reiniciar exportação**) no centro de conformidade de & de segurança. Em seguida, você pode baixar os resultados exportados. Para obter mais informações sobre como exportar dados e resultados de pesquisa, consulte:
     
-  - [Exportar os resultados da Pesquisa de Conteúdo](export-search-results.md)
+  - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
     
   - [Exportar resultados na descoberta eletrônica avançada do Office 365](export-results-in-advanced-ediscovery.md)
     

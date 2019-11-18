@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 2cbf19ad3c648373704c379794e24590fcb6d290
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a19b8f7933cfae06c462d204148f53b441126f58
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072021"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38684888"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -114,7 +114,7 @@ Um administrador do Office 365 pode ativar os controles de lockbox do cliente no
 Os registros de auditoria que correspondem às solicitações de lockbox do cliente são registrados no log de auditoria do Office 365 e podem ser acessados por meio da [ferramenta de pesquisa de log de auditoria](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) no centro de conformidade & segurança do Office 365. As ações relacionadas a um cliente que aceita ou nega uma solicitação de lockbox de cliente e ações executadas por engenheiros da Microsoft (quando as solicitações de acesso são aprovadas) são registradas no log de auditoria do Office 365. Você pode pesquisar e revisar esses registros de auditoria.
 
 > [!NOTE]
-> Você precisa receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria do Office 365. Para saber mais, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin).
+> Você precisa receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria do Office 365. Para saber mais, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin).
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>Pesquisar o log de auditoria para atividades relacionadas às solicitações de lockbox do cliente
 
@@ -162,7 +162,7 @@ Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockb
 |:---------- |:----------|
 | Date       | A data e a hora em que a solicitação de lockbox do cliente foi aprovada ou negada.
 | Endereço IP | O endereço IP do computador que o aprovador usou para aprovar ou negar uma solicitação. |
-| Usuário       | A conta de serviço BOXServiceAccount\[@\]customerforest. Prod.Outlook.com.            |
+| Usuário       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
 | Atividade   | Set-AccessToCustomerDataRequest; Esta é a atividade de auditoria que é registrada quando você aprova ou nega uma solicitação de lockbox do cliente.                                |
 | Item       | O GUID da solicitação de lockbox do cliente                             |
 
@@ -216,7 +216,7 @@ O conteúdo do cliente é os dados criados por usuários dos serviços e aplicat
 
 - Inferências e todas as inferências subsequentes, se o conteúdo do cliente permanecer
 
-Para obter informações adicionais sobre o conteúdo do cliente no Office 365, consulte a [central de confiabilidade do office 365](https://products.office.com/en-US/business/office-365-trust-center-privacy/).
+Para obter informações adicionais sobre o conteúdo do cliente no Office 365, consulte a [central de confiabilidade do office 365](https://products.office.com/business/office-365-trust-center-privacy/).
 
 #### <a name="who-is-notified-when-there-is-a-request-to-access-my-content"></a>Quem é notificado quando há uma solicitação para acessar meu conteúdo?
 
@@ -270,9 +270,9 @@ Se um cliente rejeitar uma solicitação de lockbox do cliente, não ocorrerá n
 
 #### <a name="does-customer-lockbox-protect-against-data-requests-from-law-enforcement-agencies-or-other-third-parties"></a>A Lockbox do cliente protege contra solicitações de dados de agências de imposição de leis ou outras terceiros?
 
-Não. A Microsoft leva seriamente as solicitações de terceiros aos dados dos clientes. Como um provedor de serviços de nuvem, a Microsoft sempre defende a privacidade dos dados dos clientes. No evento, obtemos uma intimação, a Microsoft sempre tenta redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [proteção dos dados do cliente a partir do rastreamento governamental](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)). Publicamos periodicamente [informações detalhadas](https://www.microsoft.com/en-us/corporate-responsibility/lerr) sobre as solicitações de cumprimento de leis que a Microsoft recebe.
+Não. A Microsoft leva seriamente as solicitações de terceiros aos dados dos clientes. Como um provedor de serviços de nuvem, a Microsoft sempre defende a privacidade dos dados dos clientes. No evento, obtemos uma intimação, a Microsoft sempre tenta redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [proteção dos dados do cliente a partir do rastreamento governamental](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)). Publicamos periodicamente [informações detalhadas](https://www.microsoft.com/corporate-responsibility/lerr) sobre as solicitações de cumprimento de leis que a Microsoft recebe.
 
-Consulte a [central de confiabilidade da Microsoft](https://www.microsoft.com/en-us/trustcenter/default.aspx) sobre solicitações de dados de terceiros e a seção "divulgação de dados do cliente" nos [termos dos serviços online](https://www.microsoft.com/Licensing/product-licensing/products.aspx) para obter mais informações.
+Consulte a [central de confiabilidade da Microsoft](https://www.microsoft.com/trustcenter/default.aspx) sobre solicitações de dados de terceiros e a seção "divulgação de dados do cliente" nos [termos dos serviços online](https://www.microsoft.com/Licensing/product-licensing/products.aspx) para obter mais informações.
 
 #### <a name="how-does-microsoft-ensure-that-a-member-of-its-staff-doesnt-have-standing-access-to-customer-content-in-office-365-applications"></a>Como a Microsoft garante que um membro de sua equipe não tenha acesso ao conteúdo do cliente em aplicativos do Office 365?
 

@@ -10,12 +10,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A Impressão Digital de Documento facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da impressão digital de documento e como criar um usando o PowerShell.
-ms.openlocfilehash: 776410ec042e629e32fa6b03a2cb4fe0f2bacd2e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8ac8e0f44c71f0f52d362f6c6c84f7fc9e55face
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070106"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38684861"
 ---
 # <a name="document-fingerprinting"></a>Impressão Digital de Documento
 
@@ -51,7 +51,7 @@ Por exemplo, você pode querer configurar uma política de DLP que impede que fu
   
 ### <a name="supported-file-types"></a>Tipos de arquivo compatíveis
 
-A impressão digital de documento oferece suporte aos mesmos tipos de arquivo suportados nas regras de fluxo de emails (também conhecidas como regras de transporte). Para obter uma lista de tipos de arquivo com suporte, confira [tipos de arquivo com suporte para inspeção de conteúdo de regra de fluxo de email](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection). Uma observação rápida sobre os tipos de arquivo: nem as regras de fluxo de emails e a impressão digital de documentos dão suporte ao tipo de arquivo. dotx, que pode ser confuso porque é um arquivo de modelo no Word. Quando você vir a palavra "modelo" neste e em outros tópicos sobre Impressão Digital de Documento, ela se referirá a um documento já estabelecido como um formulário padrão, e não ao tipo de arquivo de modelo.
+A impressão digital de documento oferece suporte aos mesmos tipos de arquivo suportados nas regras de fluxo de emails (também conhecidas como regras de transporte). Para obter uma lista de tipos de arquivo com suporte, confira [tipos de arquivo com suporte para inspeção de conteúdo de regra de fluxo de email](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection). Uma observação rápida sobre os tipos de arquivo: nem as regras de fluxo de emails e a impressão digital de documentos dão suporte ao tipo de arquivo. dotx, que pode ser confuso porque é um arquivo de modelo no Word. Quando você vir a palavra "modelo" neste e em outros tópicos sobre Impressão Digital de Documento, ela se referirá a um documento já estabelecido como um formulário padrão, e não ao tipo de arquivo de modelo.
   
 #### <a name="limitations-of-document-fingerprinting"></a>Limitações da impressão digital de documento
 
@@ -65,18 +65,18 @@ A impressão digital de documento não detectará informações confidenciais no
     
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Usar o PowerShell para criar um pacote de regras de classificação com base na impressão digital de documento
 
-Observe que, no momento, você pode criar uma impressão digital de documento usando o &amp; PowerShell no centro de conformidade de segurança. Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Observe que, no momento, você pode criar uma impressão digital de documento usando o &amp; PowerShell no centro de conformidade de segurança. Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-A DLP usa pacotes de regras de classificação para detectar conteúdo confidencial. Para criar um pacote de regras de classificação com base em uma impressão digital de documento, use os cmdlets **New-DlpFingerprint** e **New-DlpSensitiveInformationType** . Como os resultados de **New-DlpFingerprint** não são armazenados fora da regra de classificação de dados, você sempre executa **New-DlpFingerprint** e **New-DlpSensitiveInformationType** ou **set-DlpSensitiveInformationType** no mesmo Sessão do PowerShell. Este exemplo cria uma nova impressão digital de documento baseada no arquivo CC:\My Documents\Contoso Employee Template.docx. Você armazena a nova impressão digital como uma variável para que possa usá-la com o cmdlet **New-DlpSensitiveInformationType** na mesma sessão do PowerShell. 
+A DLP usa pacotes de regras de classificação para detectar conteúdo confidencial. Para criar um pacote de regras de classificação com base em uma impressão digital de documento, use os cmdlets **New-DlpFingerprint** e **New-DlpSensitiveInformationType** . Como os resultados de **New-DlpFingerprint** não são armazenados fora da regra de classificação de dados, você sempre executa **New-DlpFingerprint** e **New-DlpSensitiveInformationType** ou **set-DlpSensitiveInformationType** na mesma sessão do PowerShell. Este exemplo cria uma nova impressão digital de documento baseada no arquivo CC:\My Documents\Contoso Employee Template.docx. Você armazena a nova impressão digital como uma variável para que possa usá-la com o cmdlet **New-DlpSensitiveInformationType** na mesma sessão do PowerShell.
   
-```
+```powershell
 $Employee_Template = Get-Content "C:\My Documents\Contoso Employee Template.docx" -Encoding byte -ReadCount 0
 $Employee_Fingerprint = New-DlpFingerprint -FileData $Employee_Template -Description "Contoso Employee Template"
 ```
 
 Este exemplo cria uma nova regra de classificação de dados chamada "Contoso Employee Confidential" que usa as impressões digitais de documento do arquivo C:\My Documents\Contoso Customer Information Form.docx.
   
-```
+```powershell
 $Customer_Form = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
 $Customer_Fingerprint = New-DlpFingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
 New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
@@ -86,15 +86,14 @@ Agora você pode usar o cmdlet **Get-DlpSensitiveInformationType** para localiza
   
 Por fim, adicione o pacote de regras de classificação de dados "contoso Customer Confidential" a uma política &amp; de DLP no centro de conformidade de segurança. Este exemplo adiciona uma regra a uma política de DLP existente chamada "ConfidentialPolicy".
 
-```
+```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Você também pode usar o pacote de regras de classificação de dados nas regras de fluxo de email no Exchange Online, conforme mostrado no exemplo a seguir. Para executar este comando, primeiro você precisa [se conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Observe também que leva tempo para que o pacote de regras seja sincronizado do &amp; centro de conformidade de segurança para o centro de administração do Exchange.
+Você também pode usar o pacote de regras de classificação de dados nas regras de fluxo de email no Exchange Online, conforme mostrado no exemplo a seguir. Para executar este comando, primeiro você precisa [se conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Observe também que leva tempo para que o pacote de regras seja sincronizado do &amp; centro de conformidade de segurança para o centro de administração do Exchange.
   
-```
+```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
-
 ```
 
 A DLP agora detecta documentos que correspondem à impressão digital de documento. docx do formulário cliente da contoso.

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância do Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 569fdfd6e5369459d55bb3ecfa2ebc32f0a10005
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 78c8446a30868b2c01f6831630cadc21916e6476
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073086"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38685030"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
 
@@ -37,15 +37,14 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
   
     Na guia **marca** , o nome de exibição do arquivo é mostrado. Pode ser o caminho, o assunto do email, o título ou o nome definido pelo usuário. A ID, o caminho do arquivo ou o caminho do texto podem ser copiados clicando com o botão direito do mouse no caminho do arquivo. 
     
-    As estatísticas de marcação de tabulação de **marca** mostram o número de exemplo de arquivo (na parte superior do painel esquerdo), o número do arquivo exibido no momento no total de arquivos no exemplo (parte inferior do painel direito) e o número total atual de arquivos marcados no exemplo (fim de t o painel esquerdo), que muda à medida que você marca os arquivos. Isso se aplica a qualquer marcação de relevância feita, seja em avaliação, treinamento, atualização ou teste. 
+    As estatísticas de marcação de tabulação de **marca** mostram o número de exemplo de arquivo (na parte superior do painel esquerdo), o número do arquivo exibido no momento do total de arquivos no exemplo (parte inferior do painel direito) e o número total atual de arquivos marcados no exemplo (parte inferior do painel esquerdo), que é alterado à medida que você marca os arquivos. Isso se aplica a qualquer marcação de relevância feita, seja em avaliação, treinamento, atualização ou teste. 
     
     Os ícones que indicam a existência de comentários, marcas e arquivos da família são exibidos no modo de exibição de arquivo em uma barra acima do arquivo.
     
 2. Determine a relevância do arquivo para o problema do caso e marque o arquivo usando os botões ou atalhos de teclado da opção de marcação, conforme mostrado na tabela a seguir:
-    
-| |
+
 |**Opção de marcação**|**Descrição**|**Atalho de teclado**|**Para vários problemas – atalho de teclado de marca em massa**|
-|:-----|:-----|:-----|:-----|
+|-----|-----|-----|-----|
 |R  <br/> |Necessários  <br/> |Z  <br/> |Shift + Z  <br/> |
 |NR  <br/> |Não relevante  <br/> |X  <br/> |Shift + X  <br/> |
 |Ignorar  <br/> |Ignorar  <br/> |C  <br/> |Shift + A  <br/> |

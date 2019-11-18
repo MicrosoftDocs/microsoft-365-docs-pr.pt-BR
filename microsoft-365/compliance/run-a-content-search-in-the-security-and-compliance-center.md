@@ -9,21 +9,23 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.ComplianceSearch
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Use a pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar caixas de correio, sites do SharePoint Online e locais do OneDrive for Business. '
-ms.openlocfilehash: cebdbf7808534b82085affa16c06ac1929b3fd8d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 41b3a3d30decd1787d18652398ee0462bada38fc
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073181"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38685010"
 ---
 # <a name="run-a-content-search-in-the-security--compliance-center"></a>Executar uma pesquisa de conteúdo no Centro de Conformidade e Segurança
 
-Você pode usar a ferramenta de descoberta eletrônica de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar itens como email, documentos e conversas de mensagens instantâneas na sua organização do Office 365. Use esta ferramenta para pesquisar itens nestes serviços do Office 365:
+Você pode usar a ferramenta de descoberta eletrônica de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar itens como email, documentos e conversas de mensagens instantâneas na sua organização do Office 365. Use esta ferramenta para pesquisar itens nos seguintes serviços do Office 365:
   
-- Caixas de correio do Exchange Online e pastas públicas
+- Pastas públicas e caixas de correio do Exchange Online.
     
 - Sites do SharePoint Online e do OneDrive for Business
     
@@ -71,7 +73,7 @@ A Pesquisa de conteúdo é uma nova ferramenta de pesquisa de Descoberta Eletrô
     
 [Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
-## <a name="create-a-search"></a>Create a search
+## <a name="create-a-search"></a>Criar uma pesquisa
 <a name="create"> </a>
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
@@ -102,9 +104,9 @@ A Pesquisa de conteúdo é uma nova ferramenta de pesquisa de Descoberta Eletrô
     
   - Você pode adicionar caixas de correio e grupos de distribuição inativos à lista de caixas de correio a serem pesquisadas. Para grupos de distribuição, as caixas de correio dos membros do grupo são pesquisadas. Observe que não há suporte para grupos dinâmicos de distribuição.
     
-  - Para obter uma lista das caixas de correio inativas em sua organização, execute o `Get-Mailbox -InactiveMailboxOnly` comando no PowerShell do Exchange Online. Como alternativa, você pode ir para a **retenção** de **governança** \> de dados no centro de conformidade & segurança e, em seguida, clicar](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> em **mais**![reticências de barra de navegação **inativas**.
+  - Para ver uma lista das caixas de correio inativas na sua organização, execute o comando  `Get-Mailbox -InactiveMailboxOnly`no PowerShell do Exchange Online. Como alternativa, vá para **Governança de dados** \> **Retenção** no Centro de Conformidade e Segurança, e em seguida, clique em **Mais**![Reticências da Barra de Navegação](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **Caixas de Correio Inativas**.
     
-  - Você também pode adicionar a caixa de correio que está associada a um grupo do Office 365 ou a uma equipe da Microsoft. Nesse caso, somente a caixa de correio de grupo ou de equipe é pesquisada; as caixas de correio do grupo ou membros da equipe não são pesquisadas. Para procurá-los, adicione-os especificamente à pesquisa.
+  - Você também pode adicionar a caixa de correio que está associada a um grupo do Office 365 ou a uma equipe da Microsoft. Nesse caso, somente a caixa de correio de grupo ou de equipe é pesquisada; as caixas de correio do grupo ou membros da equipe não são pesquisadas. Para pesquisá-los, você precisa adicioná-los especificamente à pesquisa.
     
   - Se você não quiser incluir caixas de correio na pesquisa, selecione **escolher caixas de correio específicas para pesquisa**, mas não adicionar uma caixa de correio à lista.
     
@@ -126,17 +128,17 @@ A Pesquisa de conteúdo é uma nova ferramenta de pesquisa de Descoberta Eletrô
     
     ![Criar uma consulta de pesquisa com palavras-chave e condições](media/1b7cf7b5-f1e1-471a-ad5c-48aad8435b00.png)
   
-1. Na caixa sob o **que você deseja que procuremos?**, digite uma consulta de pesquisa na caixa. Você pode especificar palavras-chave, propriedades de mensagem, como datas de envio e recebimento, ou propriedades de documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, **não**, **Near**ou **ONEAR**. Você também pode pesquisar informações confidenciais (como números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa. 
+1. Na caixa sob o **que você deseja que procuremos?**, digite uma consulta de pesquisa na caixa. Você pode especificar palavras-chave, propriedades de mensagem como datas enviadas e recebidas, ou ainda, propriedades do documento como nomes de arquivos ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, **não**, **Near**ou **ONEAR**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa. 
     
 2. Você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e a palavra-chave tipo a em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas pelo operador **or** na consulta de pesquisa criada. 
     
     ![Você pode digitar uma palavra-chave ou fase de palavra-chave em uma linha na lista de palavras-chave](media/aea1a361-639d-4a82-8c3c-48645ef3fc05.png)
   
-    Por que usar a lista de palavras-chave? Você pode obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso pode ajudá-lo a identificar rapidamente quais palavras-chave são mais (e menos) eficientes. Você também pode usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre estatísticas de pesquisa, consulte [View keyword Statistics for Content Search Results](view-keyword-statistics-for-content-search.md).
+    Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para Resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
     
     Consulte a seção para obter orientação sobre como usar a lista de palavras-chave. 
     
-3. Clique em **verificar erros de ortografia** para verificar a consulta em busca de caracteres não suportados e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte são geralmente ocultos e geralmente causam um erro de pesquisa ou retornam resultados indesejados. Para obter mais informações sobre os caracteres não suportados verificados, confira [verificar se há erros na consulta de pesquisa de conteúdo](check-your-content-search-query-for-errors.md).
+3. Clique em **verificar erros de ortografia** para verificar a consulta em busca de caracteres não suportados e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte geralmente estão ocultos e costumam causar um erro de pesquisa ou retornam resultados inesperados. Para obter mais informações sobre os caracteres sem suporte que estão marcados, confira [Verifique se há erros na consulta da Pesquisa de Conteúdo](check-your-content-search-query-for-errors.md).
     
 4. Em **condições**, adicione condições a uma consulta de pesquisa para restringir uma pesquisa e retornar um conjunto mais refinado de resultados. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você inicia a pesquisa. Uma condição é logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam atender à consulta de palavra-chave e à condição para serem incluídos nos resultados. É assim que as condições ajudam a restringir os resultados. 
     
@@ -167,7 +169,7 @@ A Pesquisa de conteúdo é uma nova ferramenta de pesquisa de Descoberta Eletrô
 ## <a name="export-search-results"></a>Exportar resultados de pesquisa
 <a name="export"> </a>
 
-Após uma pesquisa ser executada com êxito, você pode exportar os resultados da pesquisa para um computador local. Quando você exporta os resultados de email, eles são baixados para seu computador como arquivos PST. Quando você exporta conteúdo de sites do SharePoint e do OneDrive for Business, cópias de documentos nativos do Office são exportadas. Também há outros documentos e relatórios que são incluídos nos resultados de pesquisa exportados. Para obter mais informações, consulte [Exportar resultados de pesquisa do centro de conformidade de & de segurança](export-search-results.md).
+Depois que uma pesquisa é executada com êxito, você pode exportar os resultados para um computador local. Quando você exporta os resultados de email, eles são baixados para seu computador como arquivos PST. Quando você exporta conteúdo de sites do SharePoint e do OneDrive for Business, cópias de documentos nativos do Office são exportadas. Também há outros documentos e relatórios que são incluídos nos resultados de pesquisa exportados. Para obter mais informações, consulte [Exportar resultados de pesquisa do centro de conformidade de & de segurança](export-search-results.md).
   
 ## <a name="preview-search-results"></a>Visualização de resultados de pesquisa
 <a name="preview"> </a>
@@ -184,30 +186,30 @@ Após a conclusão da pesquisa, você poderá visualizar os resultados. Há uma 
     
     O item é aberto no painel de visualização.
     
-4. Se não houver suporte para o tipo de arquivo para visualização ou para baixar uma cópia de um documento, você poderá clicar em **baixar arquivo original** para baixá-lo no computador local. Para páginas da Web. aspx, a URL da página é incluída, embora você talvez não tenha permissões para acessar a página. 
+4. Se um tipo de arquivo não for compatível com a visualização ou não puder baixar uma cópia de um documento, clique em **Baixar arquivo original** para baixá-lo em seu computador local. Para páginas da Web .aspx, a URL da página está incluída, mas pode ser que não haja permissões para acessar a página. 
     
 > [!NOTE]
 > Se você visualizar os resultados da pesquisa de uma pesquisa realizada há mais de 7 dias, deverá atualizar os resultados da pesquisa. A pesquisa é executada novamente para obter os resultados mais atuais que atendem à consulta de pesquisa. 
   
 ### <a name="file-types-that-can-be-previewed"></a>Tipos de arquivo que podem ser visualizados
 
-Você pode visualizar tipos de arquivo suportados no painel de visualização. Se não houver suporte para um tipo de arquivo, será necessário baixar uma cópia do arquivo para o computador local para visualizá-lo. Os tipos de arquivo a seguir têm suporte e podem ser visualizados na página **Visualizar resultados da pesquisa** . 
+É possível visualizar os tipos de arquivo com suporte no painel de visualização. Se não houver suporte para um tipo de arquivo, será necessário baixar uma cópia do arquivo para o computador local para visualizá-lo. Os tipos de arquivo a seguir têm suporte e podem ser visualizados na página **Visualizar resultados da pesquisa** . 
   
-- . txt,. html,. mhtml
+- .txt, .html, .mhtml
     
-- . eml
+- .eml
     
-- . doc,. docx,. docm
+- .doc, .docx, .docm
     
-- . pptm,. pptx
+- .pptm, .pptx
     
 - .pdf
     
 Além disso, há suporte para os seguintes tipos de contêiner de arquivos. Você pode exibir a lista de arquivos no contêiner no painel de visualização.
   
-- . zip
+- .zip
     
-- . gzip
+- .gzip
     
 [Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
@@ -269,7 +271,7 @@ Veja mais informações sobre as pesquisas de conteúdo.
   
 [Consultas de pesquisa](#search-queries)
   
-[Pesquisando caixas de correio inativas](#searching-inactive-mailboxes)
+[Pesquisar caixas de correio inativas](#searching-inactive-mailboxes)
   
 [Miscellaneous](#miscellaneous)
   
@@ -279,12 +281,12 @@ Veja mais informações sobre as pesquisas de conteúdo.
   
 - Para obter uma descrição dos limites que são aplicados ao recurso de pesquisa de conteúdo, consulte [Limits for Search in the Security & Compliance Center](limits-for-content-search.md).
     
-- A Microsoft coleta informações de desempenho para pesquisas de conteúdo executadas por todas as organizações do Office 365. Embora a complexidade da consulta de pesquisa possa causar impacto nos tempos de pesquisa, o maior fator que afeta a duração das pesquisas longas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um contrato de nível de serviço para tempos de pesquisa, a tabela a seguir lista os tempos de pesquisa médios de uma pesquisa de conteúdo com base no número de caixas de correio incluídas na pesquisa.
+- A Microsoft coleta informações sobre o desempenho das Pesquisas de Conteúdo executadas por todas as organizações do Office 365. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
     
 |**Número de caixas de correio**|**Tempo médio de pesquisa**|
 |:-----|:-----|
 |100  <br/> |30 segundos  <br/> |
-|1,000  <br/> |45 segundos  <br/> |
+|1.000  <br/> |45 segundos  <br/> |
 |10.000  <br/> |4 minutos  <br/> |
 |25.000  <br/> |10 minutos  <br/> |
 |50.000  <br/> |20 minutos  <br/> |
@@ -299,13 +301,13 @@ Veja mais informações sobre as pesquisas de conteúdo.
   
 ### <a name="microsoft-teams-and-office-365-groups"></a>Microsoft Teams e grupos do Office 365
   
-- O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, procurá-los é muito semelhante. Lembre-se do seguinte ao pesquisar conteúdo no Microsoft Teams e nos grupos do Office 365.
+- O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, procurá-los é muito semelhante. Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos do Office 365.
     
   - Para pesquisar conteúdo localizado no Microsoft Teams e nos grupos do Office 365, você precisa especificar a caixa de correio e o site do SharePoint associados a uma equipe ou a um grupo.
     
-  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Microsoft Team ou do Office 365. Essa é uma boa maneira de obter a URL do site que está associado a uma equipe ou a um grupo. Por exemplo, o comando a seguir exibe as propriedades selecionadas de um grupo do Office 365 chamado equipe de liderança sênior: 
+  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Microsoft Team ou do Office 365. Esta é uma boa maneira de obter a URL do site associado a uma equipe ou a um grupo. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior: 
     
-  ```
+  ```powershell
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
   DisplayName            : Senior Leadership Team
   Alias                  : seniorleadershipteam
@@ -315,32 +317,32 @@ Veja mais informações sobre as pesquisas de conteúdo.
   ```
 
     > [!NOTE]
-    > Para executar o cmdlet **Get-unificado** , você deve receber a função de destinatários somente para exibição no Exchange Online ou ser um membro de um grupo de função atribuído à função de destinatários somente para exibição. 
+    > Para executar o cmdlet **Get-UnifiedGroup**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura. 
   
   - Quando a caixa de correio de um usuário é pesquisada, qualquer Microsoft Team ou grupo do Office 365 do qual o usuário é membro não será pesquisado. Da mesma forma, quando você pesquisa um grupo do Microsoft Team ou do Office 365, somente a caixa de correio de grupo e o site de grupo que você especifica são pesquisados; as contas de caixas de correio e do OneDrive for Business dos membros do grupo não são pesquisadas, a menos que você as adicione explicitamente à pesquisa.
     
-  - Para obter uma lista dos membros de um grupo do Microsoft Team ou do Office 365, você pode exibir as propriedades na página **grupos \> domésticos** no centro de administração do Microsoft 365. Como alternativa, você pode executar o seguinte comando no PowerShell do Exchange Online: 
+  - Para obter uma lista dos membros de um grupo do Microsoft Team ou do Office 365, você pode exibir as propriedades na página **grupos \> domésticos** no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
     
-  ```
+  ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
   ```
 
     > [!NOTE]
-    > Para executar o cmdlet **Get-UnifiedGroupLinks** , você deve ser atribuído à função de destinatários somente para exibição no Exchange Online ou ser um membro de um grupo de função atribuído à função de destinatários somente para exibição. 
+    > Para executar o cmdlet **Get-UnifiedGroupLinks**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser um membro de um grupo de funções atribuído à função Destinatários Somente Leitura. 
   
   - As conversas que fazem parte de um canal do Microsoft Teams são armazenadas na caixa de correio que está associada à equipe da Microsoft. Da mesma forma, os arquivos que os membros da equipe compartilham em um canal são armazenados no site do SharePoint da equipe. Portanto, você precisa adicionar a caixa de correio do Microsoft Team e o site do SharePoint como um local de conteúdo para pesquisar conversas e arquivos em um canal.
     
   - 
     
-    Como alternativa, as conversas que fazem parte da lista de chat no Microsoft Teams são armazenadas na caixa de correio do Exchange Online dos usuários que participam do chat. Os arquivos que um usuário compartilha em conversas de chat são armazenados na conta do OneDrive for Business do usuário que compartilha o arquivo. Portanto, você precisa adicionar as caixas de correio de usuário individuais e as contas do OneDrive for Business como locais de conteúdo para pesquisar conversas e arquivos na lista de chat.
+    Como alternativa, as conversas que fazem parte da lista de chat no Microsoft Teams são armazenadas na caixa de correio do Exchange Online dos usuários que participam do chat. E os arquivos que um usuário compartilha nas conversas do Chat são armazenados na conta do OneDrive for Business do usuário que compartilha o arquivo. Portanto, é preciso adicionar as caixas de correio do usuário individual e as contas do OneDrive for Business como locais de conteúdo para pesquisar conversas e arquivos na Lista de chat.
     
     > [!NOTE]
     > Os usuários que participam de conversas que fazem parte da lista de chat no Microsoft Teams devem ter uma caixa de correio do Exchange Online (baseada na nuvem) para que você pesquise conversas de chat. Isso ocorre porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não conseguirá Pesquisar conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem conseguir participar de conversas que fazem parte da lista de chat no Microsoft Teams. No entanto, nesse caso, o conteúdo dessas conversas não é pesquisável porque os usuários não têm caixas de correio baseadas em nuvem. 
   
-  - Cada equipe do Microsoft ou canal de equipe contém um wiki para anotações e colaboração. O conteúdo wiki é automaticamente salvo em um arquivo com um formato. mht. Esse arquivo é armazenado na biblioteca de documentos de dados wiki do teams no site do SharePoint da equipe. Você pode usar a ferramenta de pesquisa de conteúdo para pesquisar o wiki especificando o site do SharePoint da equipe como o local de conteúdo a ser pesquisado. 
+  - Cada equipe do Microsoft ou canal de equipe contém um wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar o Wiki ao especificar o site do SharePoint da equipe como o local de conteúdo a ser pesquisado. 
     
     > [!NOTE]
-    > A capacidade de Pesquisar o wiki para uma equipe ou um canal da Microsoft (quando você pesquisa o site do SharePoint da equipe) foi lançada em 22 de junho de 2017. Páginas wiki que foram salvas ou atualizadas nessa data ou após estão disponíveis para serem pesquisadas. Páginas wiki salvas ou atualizadas pela última vez antes da data não estão disponíveis para pesquisa. 
+    > A capacidade de Pesquisar o wiki para uma equipe ou um canal da Microsoft (quando você pesquisa o site do SharePoint da equipe) foi lançada em 22 de junho de 2017. As páginas Wiki que foram salvas ou atualizadas nesta data ou após estarão disponíveis para serem pesquisadas. As páginas Wiki salvas pela última vez ou atualizadas antes dessa data não estarão disponíveis para a pesquisa. 
   
 ### <a name="onedrive-for-business"></a>OneDrive for Business
   
@@ -351,44 +353,44 @@ Veja mais informações sobre as pesquisas de conteúdo.
   
 - Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta de pesquisa.
     
-  - Você precisa selecionar a caixa de seleção **Mostrar lista de palavras-chave** e, em seguida, digitar cada palavra-chave em uma linha separada para criar uma consulta de pesquisa onde as palavras-chave (ou palavras-chave) em cada linha estejam conectadas pelo operador **or** . Se você apenas colar uma lista de palavras-chave na caixa keyword ou pressionar a tecla **Enter** depois de digitar uma palavra-chave, elas não serão conectadas pelo operador **or** . Aqui estão incorretos e estão corretos exemplo de adição de uma lista de palavras-chave. 
+  - É necessário selecionar a caixa de seleção **Mostrar lista de palavras-chave** e digitar cada palavra-chave em uma linha separada para criar uma consulta de pesquisa em que as palavras-chave (ou frases de palavras-chave) de cada linha sejam conectadas pelo operador **OU**. Se você apenas colar uma lista de palavras-chave na caixa keyword ou pressionar a tecla **Enter** depois de digitar uma palavra-chave, elas não serão conectadas pelo operador **or** . Aqui estão incorretos e estão corretos exemplo de adição de uma lista de palavras-chave. 
     
-    **Correcta**
+    **Incorreto**
     
-    ![A maneira incorreta de Formatar uma lista de palavras-chave (colando a lista na caixa palavra-chave)](media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
+    ![A maneira incorreta de formatar uma lista de palavras-chave (colando a lista na caixa de palavra-chave)](media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
   
-    **Maneira**
+    **Correto**
     
-    ![A maneira correta de Formatar uma lista de palavras-chave (selecionando caixa de seleção e lista de colagem)](media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
+    ![A maneira correta de formatar uma lista de palavras-chave (selecionando a caixa de seleção e, em seguida, colando a lista)](media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
   
-  - Você também pode preparar uma lista de palavras-chave ou frases de palavras-chave em um arquivo do Excel ou em um arquivo de texto sem formatação e, em seguida, copiar e colar a lista na lista de palavras-chave. Para fazer isso, você precisa selecionar a caixa de seleção **Mostrar lista de palavras-chave** . Em seguida, clique na primeira linha da lista de palavras-chave e cole sua lista. Cada linha do Excel ou arquivo de texto será colada em uma linha separada na lista de palavras-chave. 
+  - Você também pode preparar uma lista de palavras-chave ou frases de palavras-chave em um arquivo do Excel ou em um arquivo de texto sem formatação e, em seguida, copiar e colar a lista na lista de palavras-chave. Para fazer isso, é preciso selecionar a caixa de seleção **Mostrar lista de palavras-chave**. Em seguida, clique na primeira linha da lista de palavras-chave e cole a sua lista. Cada linha do Excel ou arquivo de texto será colada em uma linha separada na lista de palavras-chave. 
     
-  - Após criar uma consulta usando a lista de palavras-chave, é uma boa ideia verificar a sintaxe da consulta de pesquisa (no painel de detalhes da pesquisa selecionada) para fazer com que a consulta de pesquisa seja o que você pretendia. Na consulta de pesquisa exibida em **consulta** no painel de detalhes, as palavras-chave são separadas pelo texto **(c:s)**. Isso indica que as palavras-chave estão conectadas pelo operador **or** . Da mesma forma, se a consulta de pesquisa incluir condições, as palavras-chave e as condições serão separadas pelo texto **(c:c)**. Isso indica que as palavras-chave estão conectadas às condições pelo operador **and** . Veja a seguir um exemplo da consulta de pesquisa (exibido no painel de detalhes) que ocorre quando se usa a lista de palavras-chave e uma condição. 
+  - Após criar uma consulta usando a lista de palavras-chave, é uma boa ideia verificar a sintaxe da consulta de pesquisa (no painel de detalhes da pesquisa selecionada) para fazer com que a consulta de pesquisa seja o que você pretendia. Na consulta de pesquisa exibida em **Consulta** no painel de detalhes, as palavras-chave são separadas pelo texto **(c:s)**. Isso indica que as palavras-chave estão conectadas pelo operador **or** . Da mesma forma, se a consulta de pesquisa incluir condições, as palavras-chave e as condições serão separadas pelo texto **(c:c)**. Isso indica que as palavras-chave estão conectadas às condições pelo operador **and** . Veja um exemplo de consulta de pesquisa (exibido no painel de Detalhes) que resulta ao usar a lista de palavras-chave e uma condição. 
     
-    ![Exemplo da consulta que é criada ao usar a lista de palavras-chave e uma condição](media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
+    ![Exemplo de consulta que é criada ao usar a lista de palavras-chave e uma condição](media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
   - Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres não inglesas (como caracteres chineses), talvez seja necessário usar o cmdlet **set-ComplianceSearch** para configurar a propriedade Language para a pesquisa de conteúdo. Ao criar uma pesquisa de conteúdo usando a GUI no centro de conformidade de & de segurança, o idioma padrão é neutro. 
     
-    Como saber se você precisa alterar a configuração de idioma de uma pesquisa de conteúdo? Se você estiver certo de que os locais de conteúdo contêm os caracteres que você está procurando, mas a pesquisa não retornar nenhum resultado, a configuração de idioma poderá ser a causa.
+    Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você estiver certo de que os locais de conteúdo contêm os caracteres que você está procurando, mas a pesquisa não retornar nenhum resultado, a configuração de idioma poderá ser a causa.
     
     Para alterar a configuração de idioma de uma pesquisa de conteúdo existente, execute o seguinte comando no PowerShell do centro de conformidade e segurança &:
     
-  ```
+  ```powershell
   Set-ComplianceSearch <name of content search> -Language <culture code value>
   ```
 
     Por exemplo, para alterar a configuração de idioma para chinês, você usaria `zh-CN` o valor do código de cultura. Depois de alterar a configuração de idioma, você terá que executar novamente a pesquisa. Para obter uma lista de possíveis valores de código de cultura, confira [classe CultureInfo](https://go.microsoft.com/fwlink/p/?LinkID=184859). Para pesquisas de conteúdo, recomendamos que você use códigos de cultura de duas partes para o valor da configuração de idioma; por exemplo, `ja-JP` e não `ja`.
     
 
-### <a name="searching-inactive-mailboxes"></a>Pesquisando caixas de correio inativas
+### <a name="searching-inactive-mailboxes"></a>Pesquisar caixas de correio inativas
   
-Conforme mencionado anteriormente, você pode pesquisar caixas de correio inativas em uma pesquisa de conteúdo. Veja algumas coisas que você deve ter em mente ao pesquisar caixas de correio inativas.
+Conforme mencionado anteriormente, você pode pesquisar caixas de correio inativas em uma pesquisa de conteúdo. Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas de correio inativas.
   
 - Se uma pesquisa de conteúdo incluir uma caixa de correio de usuário e essa caixa de correio for desativada, a pesquisa de conteúdo continuará a Pesquisar a caixa de correio inativa quando você executar novamente a pesquisa após ela se tornar inativa.
     
 - Em alguns casos, um usuário pode ter uma caixa de correio ativa e uma caixa de correio inativa que tenha o mesmo endereço SMTP. Nesse caso, somente a caixa de correio específica que você selecionar como um local para uma pesquisa de conteúdo será pesquisada. Em outras palavras, se você adicionar a caixa de correio de um usuário a uma pesquisa, não poderá supor que as suas caixas de correio ativas e inativas serão pesquisadas; somente a caixa de correio que você adicionar explicitamente à pesquisa será pesquisada.
     
-- É altamente recomendável que você evite ter uma caixa de correio ativa e uma caixa de correio inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atualmente atribuído a uma caixa de correio inativa, recomendamos recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma caixa de correio ativa (ou o arquivo de uma caixa de correio ativa) e excluir o caixa de correio inativa. Para obter mais informações, consulte um dos seguintes tópicos:
+- Não é recomendável de forma alguma que você tenha uma caixa de correio ativa e uma inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atualmente atribuído a uma caixa de correio inativa, recomendamos recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma caixa de correio ativa (ou o arquivo de uma caixa de correio ativa) e excluir o caixa de correio inativa. Para obter mais informações, consulte um dos seguintes tópicos:
     
   - [Recuperar uma caixa de correio inativa no Office 365](recover-an-inactive-mailbox.md)
     

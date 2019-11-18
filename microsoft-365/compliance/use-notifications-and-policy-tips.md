@@ -2,8 +2,8 @@
 title: Enviar notificações por email e mostrar dicas para políticas de DLP
 ms.author: chrfox
 author: chrfox
-manager: dansimp
-ms.date: 06/14/2019
+manager: laurawi
+ms.date: ''
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -12,16 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: 198b2de6d26b260840f0e578e4b50f0693708a94
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2de9ef48d98e5d702e3f96d90f05b83b0ec4e55a
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073871"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38684904"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -117,7 +118,7 @@ Você pode criar uma notificação de email personalizada em vez de enviar a not
   
 Você também pode usar os tokens a seguir para ajudar a personalizar a notificação por email. Esses tokens são variáveis que são substituídas por informações específicas na notificação que é enviada.
 
-|**Geração**|**Descrição**|
+|**Token**|**Descrição**|
 |:-----|:-----|
 |%% AppliedActions%%  <br/> |As ações aplicadas ao conteúdo.  <br/> |
 |%% ContentURL%%  <br/> |A URL do documento no site do SharePoint Online ou do OneDrive for Business.  <br/> |
@@ -214,23 +215,13 @@ Atualmente, o Outlook 2013 e versões posteriores dão suporte à exibição de 
 - Conteúdo contém
 - O conteúdo é compartilhado
 
-No momento, estamos trabalhando no suporte para mostrar dicas de política para condições adicionais. Entre eles:
-
-- O conteúdo de qualquer anexo de email não pôde ser verificado
-- O conteúdo de qualquer anexo de email não concluiu a verificação
-- A extensão do arquivo de anexo é
-- O anexo está protegido por senha
-- Propriedade Document é
-- Domínio do destinatário é
-- O endereço IP do remetente é
-
 Observe que todas essas condições funcionam no Outlook, onde elas corresponderão ao conteúdo e imporão ações de proteção ao conteúdo. Mas Mostrar dicas de política para usuários ainda não tem suporte.
   
 ### <a name="policy-tips-in-the-exchange-admin-center-vs-the-office-365-security-amp-compliance-center"></a>Dicas de política no centro de administração do Exchange versus centro de conformidade &amp; de segurança do Office 365
 
 As dicas de política podem funcionar com políticas de DLP e regras de fluxo de email criadas no centro de administração do Exchange ou com políticas de DLP criadas &amp; no centro de conformidade de segurança do Office 365, mas não em ambos. Isso ocorre porque essas políticas são armazenadas em locais diferentes, mas as dicas de política podem desenhar apenas de um único local.
   
-Se você configurou as dicas de política no centro de administração do Exchange, qualquer dica de política configurada no &amp; centro de conformidade de segurança do Office 365 será exibida aos usuários no Outlook na Web e no Outlook 2013 e posterior até que você desative as dicas no Exchange Centro de administração. Isso garante que as regras de fluxo de emails atuais do Exchange (também conhecidas como regras de transporte) continuem a funcionar até que você opte por alternar &amp; para o centro de conformidade de segurança do Office 365.
+Se você configurou as dicas de política no centro de administração do Exchange, as dicas de política configuradas no &amp; centro de conformidade de segurança do Office 365 não aparecerão aos usuários no Outlook na Web e no Outlook 2013 e posteriores até que você desative as dicas no centro de administração do Exchange. Isso garante que as regras de fluxo de emails atuais do Exchange (também conhecidas como regras de transporte) continuem a funcionar até que você opte por alternar &amp; para o centro de conformidade de segurança do Office 365.
   
 Observe que, embora as dicas de política possam desenhar apenas de um único local, as notificações por email são sempre enviadas, mesmo se você estiver usando políticas de DLP &amp; no centro de conformidade de segurança do Office 365 e no centro de administração do Exchange.
   
@@ -288,12 +279,10 @@ Você pode personalizar o texto para dicas de política separadamente da notific
 
 - [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md)
     
-- [Criar uma política DLP com base em um modelo](create-a-dlp-policy-from-a-template.md)
+- [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
     
-- [Criar uma política de DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
+- [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
     
-- [O que os modelos de política de DLP incluem](what-the-dlp-policy-templates-include.md)
+- [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
-- [O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
-    
-
+- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)

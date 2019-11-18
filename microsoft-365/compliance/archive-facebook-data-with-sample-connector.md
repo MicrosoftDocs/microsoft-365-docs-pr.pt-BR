@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados de terceiros de fontes de dados, como páginas de negócios do Facebook, Twitter, páginas da empresa do LinkedIn e Bloomberg instantâneo. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 2dde58e4d3ead0064e28c1ba1bfc04485c7a25df
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 74b35281f72277c4698b835a63613288dce7d9ce
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072308"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684838"
 ---
 # <a name="use-a-sample-connector-to-archive-facebook-data-in-office-365-preview"></a>Usar um exemplo de conector para arquivar dados do Facebook no Office 365 (versão prévia)
 
@@ -23,7 +23,7 @@ O recurso de conector de exemplo para arquivar dados do Facebook no Office 365 e
 
 Use um conector de exemplo no centro de conformidade & segurança no Office 365 para importar e arquivar dados de páginas de negócios do Facebook para o Office 365. Depois de configurar e configurar um conector de exemplo, ele se conecta à página de negócios do Facebook (em uma base agendada), converte o conteúdo de itens do Facebook em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
 
-Depois que os dados do Facebook são importados, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, supervisão e políticas de retenção do Office 365 para os dados do Facebook. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Facebook são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Facebook são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Facebook no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados do Facebook são importados, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 para os dados do Facebook. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Facebook são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Facebook são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Facebook no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 > [!NOTE]
 > Neste momento, somente os conectores de amostra para páginas de negócios do Facebook e [Twitter](archive-twitter-data-with-sample-connector.md) estão disponíveis para visualização. Mais exemplos de conectores serão disponibilizados em breve.
@@ -85,9 +85,9 @@ Para obter instruções detalhadas, consulte [criar um novo recurso do aplicativ
 
 Durante a conclusão desta etapa (seguindo as instruções passo a passo), você fornece as seguintes informações (que você copiou para um arquivo de texto depois de concluir as etapas anteriores) ao criar o recurso do aplicativo Web.
 
-- APISecretKey — você cria esse segredo durante a conclusão desta etapa; é usado na etapa 7.
-- StorageAccountConnectionString – o URI da cadeia de caracteres de conexão que você copiou após a criação da conta de armazenamento do Azure na etapa 3.
-- tenantid – a ID do locatário de sua organização do Office 365 que você copiou depois de criar o aplicativo do Facebook Connector no Azure Active Directory na etapa 2.
+- APISecretKey: você cria esse segredo durante a conclusão desta etapa; é usado na etapa 7.
+- StorageAccountConnectionString: o URI da cadeia de caracteres de conexão que você copiou após a criação da conta de armazenamento do Azure na etapa 3.
+- tenantid: a ID do locatário de sua organização do Office 365 que você copiou depois de criar o aplicativo do Facebook Connector no Azure Active Directory na etapa 2.
 
 Além disso, você carrega o arquivo SampleConnector. zip (que você baixou na etapa 1) nesta etapa para implantar o código-fonte do aplicativo do Facebook Connector.
 
@@ -118,7 +118,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 - Token de verificação de WebHooks do Facebook (obtido na etapa 5)
 - ID de aplicativo do Azure Active Directory (a ID de aplicativo do AAD obtida na etapa 2)
 - Segredo de aplicativo do Azure Active Directory (o segredo do aplicativo AAD obtido na etapa 2)
-- URI do aplicativo do Azure Active Directory (o URI do aplicativo AAD obtido na etapa 2; por exemplo,https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)
+- URI do aplicativo do Azure Active Directory (o URI do aplicativo AAD obtido na etapa 2; por exemplo,`https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)`
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>Etapa 7: configurar um conector personalizado no centro de conformidade & segurança
 

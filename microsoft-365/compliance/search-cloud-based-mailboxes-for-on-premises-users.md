@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados 1xN chats) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: 38aff6116bd3cd8e4ba9f0f46d6fd81f790803f3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 97b849e682c0902b6a2d48919c2f2cd1257d8691
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073735"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38685005"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Pesquisando caixas de correio baseadas em nuvem para usuários locais no Office 365
 
@@ -86,7 +86,7 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
     
 3. Crie a consulta de palavra-chave e adicione condições à consulta de pesquisa, se necessário. Para pesquisar dados de chats de equipe apenas, você pode adicionar a seguinte consulta na caixa **palavras-chave** : 
     
-    ```
+    ```text
     kind:im
     ``` 
 
@@ -96,13 +96,13 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
     
     - **Locais específicos:** Selecione essa opção e clique em **Modificar** \> escolher usuário, grupos ou equipes para pesquisar caixas de correio específicas. Conforme explicado anteriormente, o seletor de locais permite que você pesquise os usuários locais. 
     
-5. Salve e execute a pesquisa. Quaisquer resultados de pesquisa das caixas de correio baseadas em nuvem para usuários locais podem ser visualizados como qualquer outro resultado de pesquisa. Você também pode exportar os resultados da pesquisa (incluindo quaisquer dados de chat do Teams) para um arquivo PST. Para obter mais informações, consulte: 
+5. Salve e execute a pesquisa. Quaisquer resultados de pesquisa das caixas de correio baseadas em nuvem para usuários locais podem ser visualizados como qualquer outro resultado de pesquisa. Você também pode exportar os resultados da pesquisa (incluindo quaisquer dados de chat do Teams) para um arquivo PST. Para saber mais, confira: 
     
     - [Create a search](content-search.md#create-a-search)
     
     - [Preview search results](content-search.md#preview-search-results)
     
-    - [Exportar os resultados da Pesquisa de Conteúdo](export-search-results.md)
+    - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
     
 ## <a name="using-powershell-to-search-for-teams-chat-data-in-cloud-based-mailboxes-for-on-premises-users"></a>Usando o PowerShell para pesquisar dados de chat do teams em caixas de correio baseadas em nuvem para usuários locais
 
@@ -112,15 +112,15 @@ Você pode usar os cmdlets **New-ComplianceSearch** e **set-ComplianceSearch** n
     
 2. Execute o seguinte comando do PowerShell para criar uma pesquisa de conteúdo que pesquisa as caixas de correio baseadas em nuvem de usuários locais.
     
-    ```
+    ```powershell
     New-ComplianceSearch <name of new search> -ContentMatchQuery <search query> -ExchangeLocation <on-premises user> -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
-   
+
     O parâmetro *IncludeUserAppContent* é usado para especificar a caixa de correio baseada em nuvem para o usuário ou usuários que são especificados pelo parâmetro *ExchangeLocation* . O *AllowNotFoundExchangeLocationsEnabled* permite caixas de correio baseadas em nuvem para usuários locais. Quando você usa o `$true` valor para esse parâmetro, a pesquisa não tenta validar a existência da caixa de correio antes de ser executada. Isso é necessário para pesquisar as caixas de correio baseadas em nuvem para usuários locais, pois esses tipos de caixas de correio não são resolvidos como caixas de correio normais. 
     
     O exemplo a seguir procura por chats do Teams (que são mensagens instantâneas) que contêm palavra-chave "Redstone" na caixa de correio baseada em nuvem de Sara Davis, que é um usuário local na organização Contoso.
   
-    ```
+    ```powershell
     New-ComplianceSearch "Redstone_Search" -ContentMatchQuery "redstone AND kind:im" -ExchangeLocation sarad@contoso.com -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
 

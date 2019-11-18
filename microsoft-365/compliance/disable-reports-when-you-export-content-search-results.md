@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: Edite o registro do Windows no computador local para desabilitar relatórios ao exportar os resultados de uma pesquisa de conteúdo do centro de conformidade de & de segurança no Office 365. A desabilitação desses relatórios pode acelerar o tempo de download e poupar espaço em disco.
-ms.openlocfilehash: f6abcf8afe70bc6ce04f0f9343e28879f7fed885
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f9b999eaf3f1924012c9d4899b0e234f0893fc2c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071928"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684973"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>Desabilitar relatórios ao exportar os resultados da Pesquisa de Conteúdo
 
@@ -34,7 +34,7 @@ Execute o procedimento a seguir no computador que você usará para exportar os 
     
       Salve o seguinte texto em um arquivo de registro do Windows usando um sufixo de nome de arquivo. reg; por exemplo, DisableResultsCsv. reg.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d False 
       ```
@@ -43,7 +43,7 @@ Execute o procedimento a seguir no computador que você usará para exportar os 
     
       Salve o seguinte texto em um arquivo de registro do Windows usando um sufixo de nome de arquivo. reg; por exemplo, DisableManifestXml. reg.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d False 
       ```
@@ -68,7 +68,7 @@ Se você desabilitou os relatórios Results. csv e manifest. XML criando os arqu
     
         Abra o arquivo DisableResultsCsv. reg no bloco de notas, altere `False` o `True`valor para e salve o arquivo. Por exemplo, após editar o arquivo, ele terá a seguinte aparência:
     
-        ```
+        ```text
         Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d True
         ```
@@ -77,7 +77,7 @@ Se você desabilitou os relatórios Results. csv e manifest. XML criando os arqu
     
         Abra o arquivo DisableManifestXml. reg no bloco de notas, altere `False` o `True`valor para e salve o arquivo. Por exemplo, após editar o arquivo, ele terá a seguinte aparência:
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d True
       ```
@@ -91,7 +91,6 @@ Se você desabilitou os relatórios Results. csv e manifest. XML criando os arqu
     O editor do registro exibe uma mensagem dizendo que a configuração foi adicionada com êxito ao registro.
   
 ## <a name="frequently-asked-questions-about-disabling-export-reports"></a>Perguntas frequentes sobre a desabilitação de relatórios de exportação
-<a name="faqs"> </a>
 
  **Quais são os relatórios Results. csv e manifest. xml?**
   

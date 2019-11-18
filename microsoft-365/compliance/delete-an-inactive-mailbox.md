@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa do Office 365, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Após a remoção da isenção, a caixa de correio inativa é marcada para exclusão e é excluída permanentemente após ser processada.
-ms.openlocfilehash: b6cea7284ccb930ef10ec96c082291acb9f66f2f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c4cf9385d5b642f410c210c6372e4ff469838377
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070611"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684981"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Excluir uma caixa de correio inativa no Office 365
 
@@ -46,13 +46,13 @@ Conforme mencionado anteriormente, uma retenção de litígio, um bloqueio in-lo
   
 Execute o seguinte comando para exibir as informações de retenção de todas as caixas de correio inativas em sua organização.
   
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,LitigationHoldEnabled,InPlaceHolds
 ```
 
 O valor de **true** para a propriedade **LitigationHoldEnabled** indica que a caixa de correio inativa está em retenção de litígio. Se um bloqueio in-loco for colocado em uma caixa de correio inativa, o GUID da retenção será exibido como o valor da propriedade **InPlaceHolds** . Por exemplo, os resultados a seguir para duas caixas de correio inativas mostram que uma retenção de litígio é colocada em Ana Beebe e que duas isenções in-loco são colocadas na Pilar Fernandes. 
   
-```
+```text
 DisplayName           : Ann Beebe
 Name                  : annb
 IsInactiveMailbox     : True
@@ -77,7 +77,7 @@ Depois de identificar o tipo de retenção que é colocado na caixa de correio i
 
 Conforme mencionado anteriormente, você precisa usar o Windows PowerShell para remover uma retenção de litígio de uma caixa de correio inativa. Você não pode usar o Eat. Execute o comando a seguir para remover uma retenção de litígio.
   
-```
+```powershell
 Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -LitigationHoldEnabled $false
 ```
 
@@ -99,9 +99,9 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. Se você souber o nome do bloqueio in-loco que deseja excluir, poderá ir para a próxima etapa. Caso contrário, execute o seguinte comando para obter o nome do bloqueio in-loco que é colocado na caixa de correio inativa que você deseja excluir permanentemente. Use o GUID de bloqueio in-loco obtido na [etapa 1: identificar as isenções em uma caixa de correio inativa](#step-1-identify-the-holds-on-an-inactive-mailbox).
     
-```
-  Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
-```
+   ```powershell
+   Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
+   ```
 
 2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
     
@@ -117,29 +117,29 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. Crie uma variável que contenha as propriedades do bloqueio in-loco que você deseja excluir. Use o GUID de bloqueio in-loco obtido na [etapa 1: identificar as isenções em uma caixa de correio inativa](#step-1-identify-the-holds-on-an-inactive-mailbox).
     
-```
-  $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
-```
+   ```powershell
+   $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
+   ```
 
 2. Desabilite o bloqueio no bloqueio in-loco.
     
-```
-  Set-MailboxSearch $InPlaceHold.Name -InPlaceHoldEnabled $false
-```
+   ```powershell
+   Set-MailboxSearch $InPlaceHold.Name -InPlaceHoldEnabled $false
+   ```
 
 3. Exclua o bloqueio in-loco.
     
-```
-  Remove-MailboxSearch $InPlaceHold.Name
-```
+   ```powershell
+   Remove-MailboxSearch $InPlaceHold.Name
+   ```
 
 #### <a name="use-the-eac-to-remove-an-inactive-mailbox-from-an-in-place-hold"></a>Use o Eat para remover uma caixa de correio inativa de um bloqueio in-loco
 
 1. Se você souber o nome do bloqueio in-loco colocado na caixa de correio inativa, poderá ir para a próxima etapa. Caso contrário, execute o seguinte comando para obter o nome do bloqueio in-loco colocado na caixa de correio. Use o GUID de bloqueio in-loco obtido na [etapa 1: identificar as isenções em uma caixa de correio inativa](#step-1-identify-the-holds-on-an-inactive-mailbox).
     
-```
-  Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
-```
+   ```powershell
+   Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
+   ```
 
 2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
     
@@ -159,47 +159,47 @@ Se o bloqueio in-loco contiver um grande número de caixas de correio de origem,
   
 1. Criar uma variável que contém as propriedades do bloqueio in-loco colocado na caixa de correio inativa. Use o GUID de bloqueio in-loco obtido na [etapa 1: identificar as isenções em uma caixa de correio inativa](#step-1-identify-the-holds-on-an-inactive-mailbox).
     
-```
-  $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
-```
+    ```powershell
+    $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
+    ```
 
 2. Verifique se a caixa de correio inativa está listada como uma caixa de correio de origem para o bloqueio in-loco. 
     
-```
-  $InPlaceHold.Sources
-```
+   ```powershell
+   $InPlaceHold.Sources
+   ```
 
    **Observação:** A propriedade *sources* do bloqueio in-loco identifica as caixas de correio de origem por suas propriedades *legacyExchangeDN* . Como essa propriedade identifica exclusivamente caixas de correio inativas, o uso da propriedade *sources* do bloqueio in-loco ajuda a evitar a remoção da caixa de correio errada. Isso também ajuda a evitar problemas se duas caixas de correio tiverem o mesmo alias ou endereço SMTP. 
    
 3. Remova a caixa de correio inativa da lista de caixas de correio de origem na variável. Certifique-se de usar o **legacyExchangeDN** da caixa de correio inativa retornada pelo comando na etapa anterior. 
     
-```
-  $InPlaceHold.Sources.Remove("<LegacyExchangeDN of the inactive mailbox>")
-```
+    ```powershell
+    $InPlaceHold.Sources.Remove("<LegacyExchangeDN of the inactive mailbox>")
+    ```
 
-    For example, the following command removes the inactive mailbox for Pilar Pinilla.
+    Por exemplo, o comando a seguir remove a caixa de correio inativa de pilar Fernandes.
     
-  ```
-  $InPlaceHold.Sources.Remove("/o=contoso/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9c8dfff651ec4908950f5df60cbbda06-pilarp")
-  ```
+    ```powershell
+    $InPlaceHold.Sources.Remove("/o=contoso/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/ cn=9c8dfff651ec4908950f5df60cbbda06-pilarp")
+    ```
 
 4. Verifique se a caixa de correio inativa é removida da lista de caixas de correio de origem na variável.
     
-```
-  $InPlaceHold.Sources
-```
+   ```powershell
+   $InPlaceHold.Sources
+   ```
 
 5. Modificar o bloqueio in-loco com a lista atualizada de caixas de correio de origem, que não inclui a caixa de correio inativa.
     
-```
-  Set-MailboxSearch $InPlaceHold.Name -SourceMailboxes $InPlaceHold.Sources
-```
+   ```powershell
+   Set-MailboxSearch $InPlaceHold.Name -SourceMailboxes $InPlaceHold.Sources
+   ```
 
 6. Verifique se a caixa de correio inativa é removida da lista de caixas de correio de origem para o bloqueio in-loco.
     
-```
-  Get-MailboxSearch $InPlaceHold.Name | FL Sources
-```
+   ```powershell
+   Get-MailboxSearch $InPlaceHold.Name | FL Sources
+   ```
 
 ## <a name="more-information"></a>Mais informações
 
@@ -213,7 +213,7 @@ Se o bloqueio in-loco contiver um grande número de caixas de correio de origem,
     
 - **Como exibir informações sobre uma caixa de correio inativa depois que a retenção for removida?** Depois que uma retenção for removida e a caixa de correio inativa for revertida para uma caixa de correio excluída por software, ela não será retornada usando o parâmetro *InactiveMailboxOnly* com o cmdlet **Get-Mailbox** . Mas você pode exibir informações sobre a caixa de correio usando o comando **Get-Mailbox-SoftDeletedMailbox** . Por exemplo: 
     
-```
+  ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In
   Placeholds,WhenSoftDeleted,IsInactiveMailbox
   Name                   : pilarp
@@ -222,7 +222,7 @@ Se o bloqueio in-loco contiver um grande número de caixas de correio de origem,
   InPlaceHolds           : {}
   WhenSoftDeleted        : 10/30/2014 1:19:04 AM
   IsInactiveMailbox      : False
-```
-  
-No exemplo acima, a propriedade *WhenSoftDeleted* identifica a data de exclusão reversível, que neste exemplo é 30 de outubro de 2014. Se esta caixa de correio excluída por software anteriormente era uma caixa de correio inativa para a qual a retenção foi removida, ela será excluída permanentemente 30 dias após o valor da propriedade *WhenSoftDeleted* . Nesse caso, a caixa de correio é excluída permanentemente após 30 de novembro de 2014.
+  ```
+
+  No exemplo acima, a propriedade *WhenSoftDeleted* identifica a data de exclusão reversível, que neste exemplo é 30 de outubro de 2014. Se esta caixa de correio excluída por software anteriormente era uma caixa de correio inativa para a qual a retenção foi removida, ela será excluída permanentemente 30 dias após o valor da propriedade *WhenSoftDeleted* . Nesse caso, a caixa de correio é excluída permanentemente após 30 de novembro de 2014.
 

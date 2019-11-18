@@ -3,7 +3,7 @@ title: Planejar a conformidade &amp; de segurança no Office 365
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 3/15/2018
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Página de aterrissagem para planejar a segurança e a conformidade
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3619a5e22a5bc957b001dd4f42a9569a7543e6b5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 86eef432f30ea9a437f0857f693d62eb23f4ba8d
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073151"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38684866"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Planejar a conformidade &amp; de segurança no Office 365
 
@@ -51,7 +51,7 @@ Proteger o acesso aos dados e serviços do Office 365 é crucial para se defende
 
 Analisar e planejar os recursos de proteção de arquivos organizados por três níveis de proteção.
   
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
 ## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>Etapa 5: aproveitar o centro de conformidade &amp; de segurança do Microsoft 365
 
@@ -59,9 +59,9 @@ O centro &amp; de conformidade de segurança oferece uma visão única dos contr
   
 - [Vá para o centro de conformidade &amp; de segurança do Office 365](go-to-the-securitycompliance-center.md)
     
-- [Permissions in the Office 365 Security &amp; Compliance Center](/security/office-365-security/protect-against-threats.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](~/security/office-365-security/protect-against-threats.md)
     
-- [Conceder aos usuários acesso ao centro de conformidade &amp; de segurança do Office 365](/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [Conceder aos usuários acesso ao centro de conformidade &amp; de segurança do Office 365](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>Etapa 6: usar cenários de segurança de ponta a ponta como pontos de partida
 
@@ -69,16 +69,14 @@ Use estas configurações recomendadas como ponto de partida para cenários de s
   
 - [Configurações e políticas de email seguro](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
     
-- [Contoso na nuvem da Microsoft](http://aka.ms/cloudarchcontoso)
+- [Contoso na nuvem da Microsoft](https://aka.ms/cloudarchcontoso)
     
 ## <a name="microsoft-365-admin-centers-and-dashboards"></a>Centros e painéis de administração do Microsoft 365
 
 Defina suas configurações de segurança e conformidade nesses centros e painéis de administração para proteger seu ambiente do Office 365
   
-|**Scriçõe**|**URL de gerenciamento**|**Painéis e centros de administração**|
+|**Assinatura**|**URL de gerenciamento**|**Painéis e centros de administração**|
 |:-----|:-----|:-----|
 |Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Centro de administração do Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Centro de administração do Exchange  <br/>  Centro de administração do SharePoint e centro de administração do OneDrive for Business  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Gerenciamento de aplicativos móveis da Microsoft  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Segurança no Aplicativo na Nuvem  <br/> |
-   
-

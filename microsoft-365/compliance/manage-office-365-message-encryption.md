@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Após concluir a configuração do Office 365 Message Encryption (OME), você pode personalizar a configuração de sua implantação de várias maneiras. Por exemplo, você pode configurar se deseja habilitar códigos de passagem única, exibir o botão proteger no Outlook na Web e muito mais. As tarefas deste artigo descrevem como.
-ms.openlocfilehash: 5e087211ec72c9cc37896a9a48cc01ce3c1a8d07
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072781"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38684813"
 ---
 # <a name="manage-office-365-message-encryption"></a>Gerenciar a Criptografia de Mensagens do Office 365
 
@@ -32,7 +32,7 @@ Ao configurar os novos recursos de criptografia de mensagens do Office 365, os u
   
 ### <a name="to-manage-whether-recipients-can-use-social-ids-to-sign-in-to-the-ome-portal"></a>Para gerenciar se os destinatários podem usar IDs sociais para entrar no portal do OME
   
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
 2. Execute o cmdlet Set-OMEConfiguration com o parâmetro SocialIdSignIn da seguinte maneira:
 
@@ -185,7 +185,7 @@ Se você tiver a criptografia de mensagem avançada do Office 365, poderá usar 
    New-OMEConfiguration -Identity "<template name>" -ExternalMailExpiryInDays 7
    ```
 
-   em `template name` que é o nome que você deseja usar para o modelo de identidade visual personalizada de criptografia de mensagem do Office 365. For example,
+   em `template name` que é o nome que você deseja usar para o modelo de identidade visual personalizada de criptografia de mensagem do Office 365. Por exemplo,
 
    ```powershell
    New-OMEConfiguration -Identity "<One week expiration>" -ExternalMailExpiryInDays 7

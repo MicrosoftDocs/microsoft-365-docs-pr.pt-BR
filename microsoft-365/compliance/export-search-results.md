@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
-ms.openlocfilehash: 198459eb013c2f34b1a440d29375069175bfb0c6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3d416e1e808ae6045f5510e0a051f038e4b38c06
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072760"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38684963"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -35,7 +36,7 @@ Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultad
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para exportar os resultados da pesquisa, você precisa ter a função de gerenciamento de exportação no centro de conformidade de segurança &. Essa função é atribuída ao grupo de função do Gerente de Descoberta Eletrônica interno. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+- Para exportar os resultados da pesquisa, você precisa ter a função de gerenciamento de exportação no centro de conformidade de segurança &. Essa função é atribuída ao grupo de função do Gerente de Descoberta Eletrônica interno. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
     
 - O computador que você usa para exportar os resultados da pesquisa devem atender aos seguintes requisitos de sistema:
     
@@ -65,17 +66,17 @@ Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultad
     
     Adicione as seguintes linhas ao arquivo *Machine. config* em algum lugar entre `<configuration>` as `</configuration>` marcas e. Certifique-se de `ProxyServer` substituir `Port` e com os valores corretos para sua organização; por exemplo, `proxy01.contoso.com:80` . 
     
-    ```
+    ```text
     <system.net>
        <defaultProxy enabled="true" useDefaultCredentials="true">
-         <proxy proxyaddress="http://ProxyServer :Port " 
+         <proxy proxyaddress="https://ProxyServer :Port " 
                 usesystemdefault="False" 
                 bypassonlocal="True" 
                 autoDetect="False" />
        </defaultProxy>
     </system.net>
     ```
-    
+
 ## <a name="step-1-prepare-search-results-for-export"></a>Etapa 1: preparar resultados de pesquisa para exportação
 
 A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao preparar os resultados, eles são carregados para um local de armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft. O conteúdo de caixas de correio e sites é carregado com uma taxa máxima de 2 GB por hora.
@@ -256,7 +257,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
     Se você exportar os itens indexado e parcialmente indexado ou se exportar apenas os itens indexados de uma pesquisa de conteúdo que retorna todos os itens, o mesmo número de itens será baixado. Isso acontece mesmo que os resultados de pesquisa estimados para a pesquisa de conteúdo (exibidos nas estatísticas de pesquisa no centro de conformidade & segurança) ainda incluam uma estimativa separada para o número de itens parcialmente indexados. Por exemplo, digamos que a estimativa de uma pesquisa que inclua todos os itens (sem palavras-chave na consulta de pesquisa) mostra que 1.000 itens foram encontrados e que 200 itens parcialmente indexados também foram encontrados. Nesse caso, os itens 1.000 incluem os itens parcialmente indexados, pois a pesquisa retorna todos os itens. Em outras palavras, há 1.000 total de itens retornados pela pesquisa, e não 1.200 itens (como você pode esperar). Se você exportar os resultados dessa pesquisa e optar por exportar itens indexados e parcialmente indexados (ou exportar apenas itens parcialmente indexados), serão baixados 1.000 itens. Novamente, isso ocorre porque os itens parcialmente indexados estão incluídos nos resultados regulares (indexados) quando você usa uma consulta de pesquisa em branco para retornar todos os itens. Neste mesmo exemplo, se você optar por exportar apenas itens parcialmente indexados, somente os itens não indexados 200 serão baixados.
     
-    Observe também que, no exemplo anterior (quando você exporta itens indexados e parcialmente indexados ou você exporta apenas itens indexados), o relatório de **Resumo de exportação** incluído nos resultados de pesquisa exportados listaria 1.000 itens estimados e 1.000 baixado itens pelas mesmas razões descritas anteriormente. 
+    Observe também que, no exemplo anterior (quando você exporta itens indexados e parcialmente indexados ou você exporta apenas itens indexados), o relatório de **Resumo de exportação** incluído nos resultados de pesquisa exportados listaria 1.000 itens estimados e 1.000 itens baixados pelos mesmos motivos que foram descritos anteriormente. 
     
 - Se a pesquisa de que você está exportando os resultados for uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, somente os itens parcialmente de locais de conteúdo que contêm itens que correspondam aos critérios de pesquisa serão exportados. Em outras palavras, se nenhum resultado de pesquisa for encontrado em uma caixa de correio ou site, todos os itens parcialmente indexados na caixa de correio ou site não serão exportados. O motivo disso é que exportar itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
     
@@ -277,7 +278,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
     Se você optar por exportar itens parcialmente indexados, os itens de caixa de correio parcialmente indexados serão exportados em um arquivo PST separado, independentemente da opção que você escolher em **exportar o conteúdo do Exchange como**.
 
-- Se itens parcialmente indexados forem retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), esses parcialmente indexados serão exportados com os resultados de pesquisa regulares. Portanto, se você optar por exportar tanto itens indexados quanto itens parcialmente indexados (selecionando **todos os itens, incluindo aqueles que têm formato não reconhecido, estão criptografados ou não foram indexados por outros motivos** exportar opção), os itens parcialmente indexados serão exportados com os resultados regulares serão listados no relatório Results. csv. Eles não serão listados no relatório de itens não indexados. csv.
+- Se itens parcialmente indexados forem retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), esses parcialmente indexados serão exportados com os resultados de pesquisa regulares. Portanto, se você optar por exportar itens indexados e itens parcialmente indexados (selecionando **todos os itens, incluindo aqueles que têm formato não reconhecido, estiverem criptografados ou não foram indexados por outros motivos** : a opção Exportar), os itens parcialmente indexados exportados com os resultados regulares serão listados no relatório Results. csv. Eles não serão listados no relatório de itens não indexados. csv.
     
  ### <a name="exporting-individual-messages-or-pst-files"></a>Exportando mensagens individuais ou arquivos PST
   

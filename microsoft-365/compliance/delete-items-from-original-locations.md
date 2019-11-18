@@ -1,5 +1,5 @@
 ---
-title: Excluir itens de seu local original
+title: Excluir itens do local original
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -8,18 +8,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como usar a nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para excluir itens de seus locais originais.
-ms.openlocfilehash: d855a8e4c69d64cdb37c40b37b042c2571af67a8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c121cda03a4f5143275074aa288ae1f0a5548bfc
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070600"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38684921"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>Excluir itens de seu local original (versão prévia)
 
@@ -29,7 +31,7 @@ Usando investigações de dados, você pode excluir itens de seus locais origina
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para excluir itens, você precisa ter a função de **pesquisa e limpeza** no centro de conformidade de segurança &. Essa função é atribuída por padrão ao grupo de função interno do investigador de dados. 
+- Para excluir itens, você precisa ter a função de **pesquisa e limpeza** no centro de conformidade de segurança &. Essa função é atribuída por padrão ao grupo de função interno do investigador de dados.
 
 - O procedimento neste tópico pressupõe que você tenha executado uma pesquisa associada a uma investigação e adicionado os resultados da pesquisa a um conjunto de evidência. Depois que os resultados da pesquisa estiverem em evidência, você poderá selecionar um ou mais itens a serem excluídos. Para saber mais, confira [Pesquisar dados em uma investigação](search-for-data.md).
 
@@ -41,7 +43,7 @@ Execute as seguintes etapas para excluir itens do local original:
 
 1. Na ferramenta de **investigações de dados** , abra a investigação de dados que contém os itens que você deseja excluir e clique na guia **evidência** .
 
-2. Selecione os itens que você deseja excluir. Você pode selecionar todos os itens no conjunto de evidências ou selecionar apenas um subconjunto de itens. 
+2. Selecione os itens que você deseja excluir. Você pode selecionar todos os itens no conjunto de evidências ou selecionar apenas um subconjunto de itens.
 
    > [!NOTE]
    > Se você selecionar os anexos de um email ou um arquivo anexado a um documento no SharePoint e no OneDrive, o item pai também será selecionado e excluído quando o item for excluído do seu local original. Da mesma forma, se você selecionar um item que tenha anexos, o item de item pai e todos os anexos serão excluídos.
@@ -57,11 +59,11 @@ Execute as seguintes etapas para excluir itens do local original:
    > [!NOTE]
    > Na captura de tela anterior, o número de itens indica o número de itens selecionados para exclusão. O número de documentos indica o número total de itens, incluindo os arquivos anexados a um item pai. Por exemplo, se você selecionar uma mensagem de email e essa mensagem tiver um documento do Word anexado, o número de itens e documentos exibidos em **documentos selecionados só** será **1 itens (2 documentos)**.
 
-Você pode acompanhar o progresso do trabalho **excluir itens de locais originais** na guia **trabalhos** . Clique no trabalho para exibir a página de menu suspenso. 
+Você pode acompanhar o progresso do trabalho **excluir itens de locais originais** na guia **trabalhos** . Clique no trabalho para exibir a página de menu suspenso.
 
 ![Página de submenu para excluir itens do trabalho de locais originais](media/DataInvestigationsDeleteItems3.png)
 
-Quando os itens no trabalho são excluídos, o status do trabalho é definido como **bem-sucedido**. A hora e a data do trabalho concluído também são exibidas. 
+Quando os itens no trabalho são excluídos, o status do trabalho é definido como **bem-sucedido**. A hora e a data do trabalho concluído também são exibidas.
 
 ![Trabalho de excluir itens concluído](media/DataInvestigationsDeleteItems4.png)
 
