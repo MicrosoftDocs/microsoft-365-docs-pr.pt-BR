@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: 97cc19b0b0067dc0eaca845dd16621be823f1334
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: f787951748cc1fb0b6b207b4b3aca0de1c29e3d7
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302948"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627495"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -125,7 +125,7 @@ Esta é a configuração resultante até o momento.
 
 ![Etapa 4 da configuração segura do cenário de equipe](./media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
  
-### <a name="step-5-create-the-label-or-a-sublabel-of-the-highly-regulated-label"></a>Etapa 5: criação de rótulo ou sub-rótulo de rótulo altamente regulamentado.
+### <a name="step-5-create-a-sensitivity-label-or-a-sublabel-of-the-highly-regulated-sensitivity-label"></a>Etapa 5: criação de rótulo ou sub-rótulo de confidencialidade altamente regulamentado
 
 Ao contrário de um rótulo de confidencialidade para dados altamente regulamentados que qualquer pessoa pode aplicar a qualquer arquivo, uma equipe segura precisa de seu próprio rótulo ou sub-rótulo, assim os arquivos atribuídos:
 

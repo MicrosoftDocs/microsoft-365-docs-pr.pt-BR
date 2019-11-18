@@ -3,7 +3,7 @@ title: Configuração de base leve
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/01/2019
+ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,14 +15,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de Laboratório de Teste para criar um ambiente de teste leve para testar o Microsoft 365 Enterprise.
-ms.openlocfilehash: 770ddf46f40036f0d711c7c30bdaebee7fdeef6e
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: ff9577fb461429fd8d4628dc0eea6b8a35664fbc
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746527"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672737"
 ---
 # <a name="the-lightweight-base-configuration"></a>A configuração de base leve
+
+*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
 
 Este artigo fornece instruções passo a passo para criar um ambiente simplificado com a assinatura do Microsoft 365 E5 e um computador com o Windows 10 Enterprise. 
 
@@ -33,17 +35,150 @@ Use o ambiente resultante para testar os recursos e as funcionalidades do [Micro
 ![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Clique [aqui](https://aka.ms/m365etlgstack) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-create-your-office-365-e5-subscription"></a>Fase 1: criar uma assinatura do Office 365 E5
 
-Siga as etapas da Fase 2 e Fase 3 do [Ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment) para criar um leve ambiente de desenvolvimento/teste do Office 365.
+Começaremos com uma assinatura de avaliação do Office 365 E5 e, em seguida, adicionaremos a assinatura do Microsoft 365 E5 a ela.
 
->[!Note]
->A criação de uma assinatura de avaliação do Office 365 é necessária para que seu ambiente de desenvolvimento/teste tenha um locatário do Azure AD separado de qualquer assinatura paga que você possua. Este separação significa que você pode adicionar e remover usuários e grupos no locatário de teste sem afetar suas assinaturas de produção.
->
+Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro é necessário um nome de empresa fictícia e uma nova conta da Microsoft.
   
-## <a name="phase-2-add-a-microsoft-365-e5-trial-subscription"></a>Fase 2: adicionar uma assinatura de avaliação do Microsoft 365 E5.
+1. Recomendamos que você use uma variante do nome de empresa Contoso para o nome da sua empresa, que é uma empresa fictícia usada no conteúdo de exemplo da Microsoft, mas não é necessário. Registre o seu nome de empresa fictícia aqui: ![](./media/Common-Images/TableLine.png)
+    
+2. Para se inscrever em uma nova conta da Microsoft, acesse [https://outlook.com](https://outlook.com) e crie uma conta com um novo endereço e conta de email. Você usará essa conta para se inscrever no Office 365.
+    
+  - Armazene o nome e sobrenome da sua nova conta aqui: ![](./media/Common-Images/TableLine.png)
+    
+  - Armazene o novo endereço de conta de email aqui: ![](./media/Common-Images/TableLine.png)@outlook.com
+    
+### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Inscrever-se em uma assinatura de avaliação do Office 365 E5
+
+1. Abra o navegador da Internet no computador e vá para [https://aka.ms/e5trial](https://aka.ms/e5trial).
+    
+2. Na página **Bem-vindo, fale mais sobre você**, especifique:
+    
+  - Sua localização física
+    
+  - Nome e sobrenome da sua nova conta da Microsoft
+    
+  - Seu novo endereço de conta de email
+    
+  - Um número de telefone comercial
+    
+  - Nome da sua empresa fictícia
+    
+  - Um tamanho de organização de 250-999
+    
+3. Clique em **Apenas mais uma etapa**.
+    
+4. Na página **Crie a sua ID de usuário**, digite um nome de usuário com base em seu novo endereço de email, sua empresa fictícia após o sinal de @ (remova todos os espaços no nome) e depois uma senha (duas vezes) para essa nova conta do Office 365.
+    
+    Armazene a senha que você digitou em um local seguro.
+    
+    Armazene o nome da sua empresa fictícia, a ser chamada de **nome da organização**, aqui: ![](./media/Common-Images/TableLine.png)
+    
+5. Clique em **Criar minha conta**.
+    
+6. Na página **Prove. que você. não é. um. robô.**, digite o número do seu telefone capaz de receber mensagem de texto e clique em **Enviar mensagem**.
+    
+7. Digite o código de verificação da mensagem de texto recebida e clique em **Avançar**.
+    
+8. Armazene a URL da página de entrada aqui (selecione e copie): ![](./media/Common-Images/TableLine.png)
+    
+9. Armazene a ID de usuário aqui (selecione e copie): ![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+    Esse valor será chamado de **Nome de administrador global do Office 365**.
+    
+10. Quando você vir a mensagem, **Você está pronto para avançar**, clique nela.
+    
+11. Na próxima página, aguarde até o Office 365 concluir a configuração e os blocos estarem disponíveis.
+    
+Você verá a página principal do portal do Office 365 de onde você pode acessar os serviços do Office e o centro de Administração do Microsoft 365.
+  
+A criação de uma assinatura de avaliação do Office 365 é necessária para que seu ambiente de desenvolvimento/teste tenha um locatário do Azure AD separado de qualquer assinatura paga que você possua. Este separação significa que você pode adicionar e remover usuários e grupos no locatário de teste sem afetar suas assinaturas de produção.
+    
+## <a name="phase-2-configure-your-office-365-trial-subscription"></a>Fase 2: configurar a sua assinatura de avaliação do Office 365
+
+Nesta fase, você configurará a sua assinatura do Office 365 com outros usuários, atribuindo a eles licenças do Office 365 E5.
+  
+Use as instruções em [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) para se conectar à sua assinatura do Office 365 com o Azure Active Directory PowerShell para módulo do Graph do seu computador.
+    
+Na caixa de diálogo Solicitação de credenciais do Windows PowerShell, digite o nome de administrador global do Office 365 (exemplo: jdoe@contosotoycompany.onmicrosoft.com) e a senha.
+  
+Preencha o nome de sua organização (exemplo: contosotoycompany), o código de país com dois caracteres para a sua localização e execute os seguintes comandos no prompt do PowerShell:
+
+```powershell
+$orgName="<organization name>"
+$loc="<two-character country code, such as US>"
+$commonPW="<common user account password>"
+$PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password=$commonPW
+
+$userUPN= "user2@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 2" -GivenName User -SurName 2 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user2"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user3@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 3" -GivenName User -SurName 3 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user3"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user4@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 4" -GivenName User -SurName 4 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user4"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+```
+> [!NOTE]
+> O uso de uma senha comum aqui é para a automação e facilidade de configuração para um ambiente de desenvolvimento/teste. Obviamente, isso é recomendado para assinaturas de produção. 
+
+### <a name="record-key-information-for-future-reference"></a>Registrar principais informações para referência futura
+
+Talvez você queira imprimir este artigo para registrar as informações específicas necessárias para esse ambiente pelos 30 dias da assinatura de avaliação do Office 365. É possível estender facilmente a assinatura de avaliação por mais 30 dias. Para um ambiente de desenvolvimento/teste permanente, crie uma nova assinatura paga com um locatário do Azure Ad separado e uma pequena quantidade de licenças.
+
+Registre esses valores:
+  
+- O nome de administrador global do Office 365: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (da etapa 9 da fase 2)
+    
+    Também armazene a senha dessa conta em um local seguro.
+    
+- O nome da organização da sua assinatura de avaliação: ![](./media/Common-Images/TableLine.png) (da etapa 4 da fase 2)
+    
+- Para listar as contas do usuário 2, Usuário 3, Usuário 4 e Usuário 5, execute o seguinte comando no prompt do Módulo do Windows Azure Active Directory para Windows PowerShell:
+    
+  ```powershell
+  Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName
+  ```
+
+    Armazene os nomes de contas aqui:
+    
+  - Nome da conta do Usuário 2: usuário2@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - Nome da conta do Usuário 3: usuário3@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - Nome da conta do Usuário 4: usuário4@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - Nome da conta do Usuário 5: usuário5@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+    Também registre a senha em comum dessas contas em um local seguro.
+   
+
+### <a name="using-an-office-365-devtest-environment"></a>Usando o ambiente de desenvolvimento/teste do Office 365
+
+Se você quiser apenas um ambiente de desenvolvimento/teste do Office 365, você pode parar aqui. 
+
+Confira [Guias de Laboratório de Testes do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para Guias de Laboratório de Testes adicionais que se aplicam ao Office 365 e ao Microsoft 365.
+  
+## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a>Fase 3: adicionar uma assinatura de avaliação do Microsoft 365 E5
 
 Nesta fase, inscreva-se para a assinatura de avaliação do Microsoft 365 E5 e adicione-a à mesma organização de sua assinatura de avaliação do Office 365 E5.
   
@@ -69,7 +204,7 @@ Primeiro, adicione a assinatura de avaliação do Microsoft 365 E5 e atribua uma
 
 10. Clique em **Salvar> Fechar >Fechar**.
 
-Em seguida, ***se você concluiu a Fase 3 do*** [Ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment), repita as etapas de 8 a 11 do procedimento anterior para todas as suas contas (Usuário 2, Usuário 3, Usuário 4 e Usuário 5).
+Em seguida, repita as etapas de 8 a 11 do procedimento anterior para todas as outras contas (Usuário 2, Usuário 3, Usuário 4 e Usuário 5).
   
 > [!NOTE]
 > A assinatura de avaliação do Microsoft 365 E5 é de 30 dias. Para um ambiente de teste permanente, converta esta assinatura de avaliação para uma assinatura paga com uma pequena quantidade de licenças. 
@@ -79,13 +214,11 @@ Seu ambiente de teste agora tem:
 - Uma assinatura de avaliação do Microsoft 365 E5.
 - Todas as suas contas de usuário apropriadas (tanto a conta de administrador global como todas as cinco contas de usuário) são habilitadas para usar o Microsoft 365 E5.
     
-A figura 1 mostra sua configuração resultante, que adiciona o Microsoft 365 E5, que inclui o Office 365 e o Enterprise Security + Management (EMS).
+Essa é a configuração resultante, que adiciona o Microsoft 365 E5, incluindo o Office 365 e o Enterprise Security + Management (EMS).
   
-**Figura 1: adicionar a assinatura de avaliação do Microsoft 365**
-
 ![Fase 2 do ambiente de teste do Microsoft 365 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
-## <a name="phase-3-create-a-windows-10-enterprise-computer"></a>Fase 3: criar um computador com o Windows 10 Enterprise
+## <a name="phase-4-create-a-windows-10-enterprise-computer"></a>Fase 4: criar um computador com o Windows 10 Enterprise
 
 Nesta fase, crie um computador autônomo executando o Windows 10 Enterprise como um computador físico, uma máquina virtual ou uma máquina virtual do Azure.
   
@@ -108,32 +241,32 @@ Inicie um prompt do Microsoft PowerShell.
   
 Entre na sua conta do Azure usando o comando a seguir.
   
-```
+```powershell
 Connect-AzAccount
 ```
 
 Para obter o nome de sua assinatura, use este comando.
   
-```
+```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
 Defina sua assinatura do Azure. Substitua tudo o que está entre aspas, incluindo os caracteres \< e >, pelo nome correto.
   
-```
+```powershell
 $subscr="<subscription name>"
 Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 ```
 
 Depois, crie um novo grupo de recursos. Para determinar um nome exclusivo para o grupo de recursos, use este comando para listar os grupos de recursos existentes.
   
-```
+```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 Crie seu novo grupo de recursos com estes comandos. Substitua tudo o que está entre aspas, incluindo os caracteres \< e >, pelos nomes corretos.
   
-```
+```powershell
 $rgName="<resource group name>"
 $locName="<location name, such as West US>"
 New-AzResourceGroup -Name $rgName -Location $locName
@@ -141,7 +274,7 @@ New-AzResourceGroup -Name $rgName -Location $locName
 
 Em seguida, crie uma nova rede virtual e uma máquina virtual WIN10 com estes comandos. Quando solicitado, forneça o nome e a senha da conta de administrador local para WIN10 e armazene-os em um local seguro.
   
-```
+```powershell
 $corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
 New-AzVirtualNetwork -Name "M365Ent-TestLab" -ResourceGroupName $rgName -Location $locName -AddressPrefix 10.0.0.0/8 -Subnet $corpnetSubnet
 $rule1=New-AzNetworkSecurityRuleConfig -Name "RDPTraffic" -Description "Allow RDP to all VMs on the subnet" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
@@ -161,7 +294,7 @@ $vm=Set-AzVMOSDisk -VM $vm -Name WIN10-TestLab-OSDisk -DiskSizeInGB 128 -CreateO
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-## <a name="phase-4-join-your-windows-10-computer-to-azure-ad"></a>Fase 4: adicionar o computador com Windows 10 no Azure AD
+## <a name="phase-5-join-your-windows-10-computer-to-azure-ad"></a>Fase 5: adicionar o computador com Windows 10 no Azure AD
 
 Depois de criar a máquina física ou virtual com Windows 10 Enterprise, entre com uma conta Administrador local.
   
@@ -192,15 +325,15 @@ Em seguida, instale o Office 365 ProPlus no computador WIN10.
     
 4. Aguarde até concluir a instalação do Office. Quando você vir **Tudo pronto!**, clique duas vezes em **Fechar**.
     
-A Figura 3 mostra o ambiente resultante, que inclui o computador do WIN10 que:
+Este é o ambiente resultante.
+
+![Fase 5 do ambiente de teste do Microsoft 365 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+
+Isso inclui o computador WIN10 que tem:
 
 - Ingressou no locatário do Azure AD das suas assinaturas do Microsoft 365 E5.
 - Registrou um dispositivo do Azure AD no Microsoft Intune (EMS).
 - Instalou o Office 365 ProPlus.
-  
-**Figura 2: a configuração final de um ambiente de teste do Microsoft 365**
-
-![Fase 4 do ambiente de teste do Microsoft 365 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
   
 Agora você está pronto para experimentar os recursos adicionais do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
   

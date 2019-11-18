@@ -15,14 +15,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 5faa6857de42049cbcfc237e3e617de294794530
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: cf69be53f6c0687aba90b57ab4e272ea68c66c3e
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640383"
+ms.locfileid: "38673297"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
+
+*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
 
 Este artigo fornece instruções passo a passo para criar um ambiente simplificado do Microsoft 365 Enterprise, que inclui:
 
@@ -352,7 +354,7 @@ Essa é sua configuração atual.
 
 ## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a>Fase 2: criar sua assinatura do Microsoft 365 E5
 
-Nesta fase, você criará uma nova assinatura do Microsoft 365 E5 que usa um novo locatário do Azure AD, que é separado da sua assinatura de produção. É possível fazer isso de duas formas:
+Nesta fase, você criará uma nova assinatura do Microsoft 365 E5 que usa um novo locatário do Azure AD, que é separado da sua assinatura de produção.  Você pode fazer isso de duas maneiras:
 
 - Use uma assinatura de avaliação do Microsoft 365 E5. 
 
