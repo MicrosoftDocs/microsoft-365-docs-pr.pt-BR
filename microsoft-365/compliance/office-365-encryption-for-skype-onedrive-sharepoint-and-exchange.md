@@ -13,13 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
+- SPO_Content
 description: 'Resumo: uma descrição da criptografia para o Skype, o OneDrive, o SharePoint e o Exchange Online.'
-ms.openlocfilehash: 55141f671e6cb3d7ea837bfcf9701e37a18fb7ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 220f3060bd9581b22183bbb56e68c3ec930d0c24
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073464"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38690082"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia do Office 365 para o Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
 
@@ -63,7 +64,7 @@ As credenciais usadas para acessar os contêineres de armazenamento do Azure tam
 > [!NOTE]
 > Para clientes do governo dos EUA do Office 365, os blobs de dados são armazenados no armazenamento do governo dos EUA do Azure. Além disso, o acesso às chaves do SharePoint Online no Office 365 governo dos EUA limita-se à equipe do Office 365 que foi especificamente filtrada. A equipe de operações do governo dos EUA do Azure não tem acesso ao repositório de chaves do SharePoint Online usado para criptografar blobs de dados.
 
-Para obter mais informações sobre a criptografia de dados no SharePoint Online e no OneDrive for Business, consulte [criptografia de dados no onedrive for Business e no SharePoint Online](https://technet.microsoft.com/en-us/library/dn905447.aspx).
+Para obter mais informações sobre a criptografia de dados no SharePoint Online e no OneDrive for Business, consulte [criptografia de dados no onedrive for Business e no SharePoint Online](https://technet.microsoft.com/library/dn905447.aspx).
 
 ### <a name="list-items-in-sharepoint-online"></a>Listar itens no SharePoint Online
 

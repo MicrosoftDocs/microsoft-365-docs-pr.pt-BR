@@ -1,0 +1,65 @@
+---
+title: Ministério da tecnologia de informações e eletrônicos (MeitY)
+description: A Microsoft recebeu a capacitação total pelo Ministério de eletrônicos e tecnologia de informações na Índia.
+keywords: Microsoft 365, conformidade, ofertas
+localization_priority: None
+ms.prod: Microsoft-365-enterprise
+ms.topic: article
+ms.author: robmazz
+author: robmazz
+manager: laurawi
+audience: itpro
+ms.collection: M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: 34e20578d09079031d4a41bafdf199d055ced09a
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38690033"
+---
+# <a name="compliance-offering-ministry-of-electronics-and-information-technology-meity"></a>Oferta de conformidade: Ministério de eletrônicos e tecnologia da informação (MeitY)
+
+## <a name="meity-overview"></a>Visão geral do MeitY
+
+O Ministério da tecnologia de informação e eletrônicos (MeitY), uma agência do governo da Índia, fornece diretrizes de política para todas as organizações governamentais e de setor público de estado. Suas diretrizes também são freqüentemente adotadas por organizações do setor privado em setores regulamentados, como serviços financeiros e telecomunicações.
+
+O MeitY fornece a capacitação (referida por MeitY como "empanelment") dos provedores de serviços de nuvem, o que exige que os serviços de nuvem sejam certificados como compatíveis com um conjunto predefinido de padrões e diretrizes sobre segurança, interoperabilidade, portabilidade de dados contrato de nível de serviço e termos contratuais e condições. Auditores configurados pelo MeitY verificam a conformidade conduzindo auditorias de provedores de serviços de nuvem.
+
+Após a credencial, os provedores de serviços de nuvem são listados em um diretório de serviços de nuvem governamental onde as organizações do setor público podem comparar e adquirir serviços de nuvem credenciados. O diretório é um serviço da [iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj) (ou \[do GI governamental\] of India Cloud), que promove o uso da computação em nuvem no governo e governa a implementação de serviços de ti do setor público.
+
+## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft e Ministério de eletrônicos e tecnologia de informação (MeitY)
+
+Em novembro de 2017, a Microsoft tornou-se um dos primeiros provedores de serviços de nuvem global para obter a capacitação completa do MeitY para seus três modelos de nuvem:
+
+- Nuvem pública, para serviços de nuvem pública de vários locatários compartilhados
+- Nuvem virtual privada governamental, que deve ser logicamente separada do público e de outras ofertas do provedor de serviços de nuvem
+- Nuvem da Comunidade governamental, para serviços em nuvem dedicados a departamentos governamentais e fisicamente separados das ofertas públicas e de outras ofertas do provedor de serviços de nuvem
+
+A capacitação de MeitY da Microsoft foi o resultado de uma auditoria rigorosa conduzida pela Directorate de análise de análise e teste de qualidade (STQC), uma organização governamental que oferece serviços de garantia de qualidade, usando uma estrutura de avaliação com base no trabalho da iniciativa de nuvem do MeghRaj. Por meio do Microsoft Azure, as organizações do setor público podem agora desenhar em uma ampla variedade de modelos de implantação e ofertas de serviços, incluindo a infraestrutura como serviço (IaaS), plataforma como serviço (PaaS), recuperação de desastres, DevOps e backup gerenciado.
+
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+
+- [Azure](https://aka.ms/AzureCompliance)
+- Intune
+
+## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
+
+- Capacitação de nuvem da Microsoft sob o [status de auditoria dos provedores de serviço de nuvem](https://meity.gov.in/content/gi-cloud-meghraj)
+
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
+**Por que o MeitY é importante?**
+
+Tornar os serviços do governo disponíveis para o cidadãos online é uma parte fundamental do programa da Índia digital, que visa "transformar a Índia em uma economia de conhecimento ou sociedade digitalmente habilitada." O MeitY lista provedores de serviços de nuvem credenciados no diretório de serviços de nuvem governamentais, que permite que as organizações do setor público comparem e adquiram esses serviços.
+
+## <a name="resources"></a>Recursos
+
+- [Ministério de eletrônicos e tecnologia de informações](https://meity.gov.in/)
+- [Iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj)
+- [Provedores de serviços de nuvem credenciados](https://meity.gov.in/content/gi-cloud-meghraj)
+- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+
+## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+
+Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).

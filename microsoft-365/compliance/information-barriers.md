@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
-ms.openlocfilehash: c4a9213e74129126da0cbc41b7bc210a10b34db2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 31de709e5ac834ad628110088b0dab80efe85950
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072728"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38689994"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 
@@ -34,7 +34,7 @@ As barreiras de informação estão sendo lançadas agora, começando com o Micr
 Para todos esses cenários de exemplo (e mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações no Microsoft Teams. Essas políticas podem impedir que as pessoas chamem ou chat com as que elas não deveriam ou permitir que as pessoas se comuniquem somente com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários que estão cobertos por essas políticas tentarem se comunicar com outras pessoas no Microsoft Teams, as verificações são realizadas para impedir (ou permitir) a comunicação (conforme definido pelas políticas de barreira de informações). Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras de informações no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams).
 
 > [!IMPORTANT]
-> Atualmente, as barreiras de informação não se aplicam às comunicações por email ou ao compartilhamento de arquivos por meio do SharePoint Online ou do OneDrive. Além disso, as barreiras de informação são independentes dos [limites de conformidade](tagging-and-assessment-in-advanced-ediscovery.md).<p>Antes de definir e aplicar as políticas de barreira de informações, certifique-se de que sua organização não tenha [diretivas de catálogo de endereços do Exchange](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informação são baseadas nas políticas do catálogo de endereços.) 
+> Atualmente, as barreiras de informação não se aplicam às comunicações por email ou ao compartilhamento de arquivos por meio do SharePoint Online ou do OneDrive. Além disso, as barreiras de informação são independentes dos [limites de conformidade](tagging-and-assessment-in-advanced-ediscovery.md).<p>Antes de definir e aplicar as políticas de barreira de informações, certifique-se de que sua organização não tenha [diretivas de catálogo de endereços do Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informação são baseadas nas políticas do catálogo de endereços.) 
 
 ## <a name="what-happens-with-information-barriers"></a>O que acontece com as barreiras de informação
 
@@ -58,7 +58,7 @@ Para saber mais sobre a experiência do usuário com barreiras de informações,
 As barreiras de informação estão sendo lançadas agora e estão incluídas em assinaturas, como:
 
 - Microsoft 365 E5
-- Office 365 e5
+- Office 365 E5
 - Conformidade Avançada do Office 365
 - Conformidade e proteção de informações do Microsoft 365 e5
 

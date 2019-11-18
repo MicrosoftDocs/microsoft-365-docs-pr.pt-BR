@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
-ms.openlocfilehash: 8ad6dd5e098438de0904fb511c631afbc761ff5b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3d5dfbcb4410739d8d935b50a8e4ad069145e6a5
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072734"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38690087"
 ---
 # <a name="define-policies-for-information-barriers"></a>Definir políticas para barreiras de informações
 
@@ -59,7 +59,7 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 Além das [licenças e permissões necessárias](information-barriers.md#required-licenses-and-permissions), certifique-se de que os seguintes requisitos são atendidos: 
      
 - **Dados de diretório**. Certifique-se de que a estrutura da sua organização é refletida nos dados do diretório. Para fazer isso, verifique se os atributos da conta de usuário, como associação de grupo, nome do departamento, etc. estão preenchidos corretamente no Azure Active Directory (ou Exchange Online). Para saber mais, confira os seguintes recursos:
-  - [Atributos para políticas de barreira de informações](information-barriers-attributes.md)
+  - [Atributos das políticas de barreira de informações](information-barriers-attributes.md)
   - [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
 
@@ -77,7 +77,7 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 
    1. Execute os seguintes cmdlets do PowerShell:
 
-      ```
+      ```powershell
       Login-AzureRmAccount 
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
       $sp=Get-AzureRmADServicePrincipal -ServicePrincipalName $appId
@@ -108,7 +108,10 @@ Quando você tiver sua lista inicial de grupos e políticas, prossiga para ident
 
 ### <a name="identify-segments"></a>Identificar segmentos
 
-Além da sua lista inicial de políticas, faça uma lista de segmentos para sua organização. Os usuários que serão incluídos nas políticas de barreira de informações devem pertencer a um segmento e nenhum usuário deverá pertencer a dois ou mais segmentos. Cada segmento pode ter apenas uma política de barreira de informações aplicada. 
+Além da sua lista inicial de políticas, faça uma lista de segmentos para sua organização. Os usuários que serão incluídos nas políticas de barreira de informações devem pertencer a um segmento. Planeje seus segmentos com cuidado, pois um usuário só pode estar em um segmento. Cada segmento pode ter apenas uma política de barreira de informações aplicada.
+
+> [!IMPORTANT]
+> Um usuário só pode estar em um segmento.
 
 Determine quais atributos dos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department*, *memberOf*ou qualquer um dos atributos com suporte. Certifique-se de que você tem valores no atributo que você selecionou para os usuários. [Consulte a lista de atributos com suporte para barreiras de informações](information-barriers-attributes.md).
 
@@ -274,10 +277,10 @@ A contoso tem cinco departamentos: RH, vendas, marketing, pesquisa e produção.
 |Segmento  |Pode falar com  |Não é possível falar com  |
 |---------|---------|---------|
 |HUMANOS     |Todos         |(sem restrições)         |
-|Vendas     |RH, marketing, manufatura         |Pesquisa         |
+|Vendas     |RH, marketing, manufatura         |Pesquisar         |
 |Marketing     |Todos         |(sem restrições)         |
-|Pesquisa     |RH, marketing, manufatura        |Vendas     |
-|Indústria |RH, marketing |Qualquer pessoa que não seja RH ou marketing |
+|Pesquisar     |RH, marketing, manufatura        |Vendas     |
+|Fabricação |RH, marketing |Qualquer pessoa que não seja RH ou marketing |
 
 Com isso em mente, o plano da Contoso inclui três políticas de barreira de informações:
 
@@ -295,8 +298,8 @@ A Contoso usará o atributo Department no Azure Active Directory para definir se
 |HUMANOS     | `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`        |
 |Vendas     | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'"`        |
 |Marketing     | `New-OrganizationSegment -Name "Marketing" -UserGroupFilter "Department -eq 'Marketing'"`        |
-|Pesquisa     | `New-OrganizationSegment -Name "Research" -UserGroupFilter "Department -eq 'Research'"`        |
-|Indústria     | `New-OrganizationSegment -Name "Manufacturing" -UserGroupFilter "Department -eq 'Manufacturing'"`        |
+|Pesquisar     | `New-OrganizationSegment -Name "Research" -UserGroupFilter "Department -eq 'Research'"`        |
+|Fabricação     | `New-OrganizationSegment -Name "Manufacturing" -UserGroupFilter "Department -eq 'Manufacturing'"`        |
 
 Com os segmentos definidos, a contoso prossegue para definir políticas. 
 

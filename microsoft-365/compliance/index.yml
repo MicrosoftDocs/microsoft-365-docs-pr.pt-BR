@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: c502be734ec6fdc86a64968ecf1859587869cdf9
-  ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
+  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/30/2019
-  ms.locfileid: "37329179"
+  ms.lasthandoff: 11/01/2019
+  ms.locfileid: "38689988"
 landingContent:
 - title: Gerenciar a proteção de informações
   linkLists:
@@ -60,8 +60,8 @@ landingContent:
       url: privileged-access-management-overview.md
     - text: Sistema de Proteção de Dados do Cliente
       url: customer-lockbox-requests.md
-    - text: Supervisionar comunicações
-      url: supervision-policies.md
+    - text: Conformidade em comunicações
+      url: communication-compliance.md
     - text: Barreiras de informações
       url: information-barriers.md
     - text: Chave de Cliente
@@ -82,8 +82,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Gerente de Conformidade
-      url: compliance-manager-overview.md
+    - text: Pontuação de conformidade
+      url: compliance-score.md
     - text: Plano de ação de conformidade do RGPD
       url: gdpr-action-plan.md
     - text: Proteção de informações para o RGPD
