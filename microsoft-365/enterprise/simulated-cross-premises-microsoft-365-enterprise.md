@@ -14,17 +14,17 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 description: 'Resumo: crie uma rede virtual simulada entre locais no Microsoft Azure como um ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 7fc3035db5e0b6e924d8b55e81cbee5eca38bfbf
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: be753251670f882b277305f808354791efc38547
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640710"
+ms.locfileid: "38673307"
 ---
-# <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Rede virtual simulada entre locais em um ambiente de teste do Microsoft 365
+# <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Rede virtual simulada entre instalações em um ambiente de teste do Microsoft 365
 
- **Resumo:** crie uma rede virtual simulada entre locais no Microsoft Azure como um ambiente de desenvolvimento/teste.
-  
+*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste do Microsoft 365 Enterprise e do Office 365 Enterprise.*
+
 Este artigo ajuda você a criar um ambiente simulado de nuvem híbrida com o Microsoft Azure usando duas redes virtuais do Azure. Veja a configuração resultante. 
   
 ![Fase 3 do ambiente de desenvolvimento/teste da rede virtual simulada entre locais, com a máquina virtual DC2 na VNet XPrem](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)

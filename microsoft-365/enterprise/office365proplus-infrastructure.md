@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura do Office 365 ProPlus para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 05615c4c9020326da6b2e3e97b162dbb8d132854
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a51a37a321b450d233d7f9fd6da28b5828514d13
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033646"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627445"
 ---
 # <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
 
@@ -44,7 +44,7 @@ Antes de implantar o Office 365 ProPlus, siga as orientações em [Avaliar seu a
 
 Após a avaliação do ambiente, siga as orientações em [Planejar sua implantação do Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus) para criar um plano de implantação. Esse plano inclui as seguintes decisões: 
 
-- Como implantar o Office, incluindo qual ferramenta usar (como o System Center Configuration Manager ou a Ferramenta de Implantação do Office) e a partir de onde instalar o Office
+- Como implantar o Office, incluindo qual ferramenta usar (como o Microsoft Endpoint Configuration Manager ou a Ferramenta de Implantação do Office) e a partir de onde instalar o Office
 - Como gerenciar as atualizações do Office
 - Quais canais de atualização utilizar (os canais de atualização do Office controlam a frequência com a qual seus usuários recebem atualizações de recursos para os aplicativos do Office)
 - Os pacotes de instalação e grupos de implantação do Office que você deseja usar, incluindo quais aplicativos do Office e idiomas devem ser instalados para quais usuários
@@ -55,7 +55,7 @@ O [artigo de planejamento](https://docs.microsoft.com/DeployOffice/plan-office-3
 
 Com base no seu plano de implantação, escolha como deseja implantar:
 
-- **[Implantar o Office 365 ProPlus com o System Center Configuration Manager](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** Gerencie sua implantação com o Configuration Manager, e baixar e implante o Office de pontos de distribuição em sua rede
+- **[Implantar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** Gerencie sua implantação com o Configuration Manager, baixe e implante o Office a partir de pontos de distribuição na sua rede.
 
 - **[Implantar o Office 365 ProPlus com a ODT da nuvem](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-the-cloud):** Gerencie sua implantação com a ODT e instale o Office em dispositivos cliente diretamente do Office CDN
  

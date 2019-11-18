@@ -3,7 +3,7 @@ title: Implantação do Office 365 ProPlus para a Contoso
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,17 +12,17 @@ ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entenda como a Contoso usa o System Center Configuration Manager para implantar o Office 365 ProPlus.
-ms.openlocfilehash: 8367f6456b6e32c62e03f611114177f4dbe6622f
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+description: Entenda como a Contoso usa o Microsoft Endpoint Configuration Manager para implantar o Office 365 ProPlus.
+ms.openlocfilehash: ef13ac14be68b12e9483bd20f385e0cd16f51152
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054993"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627347"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Implantação do Office 365 ProPlus para a Contoso
 
-**Resumo:** Entenda como a Contoso usa o System Center Configuration Manager para implantar o Office 365 ProPlus.
+**Resumo:** Entenda como a Contoso usa o Microsoft Endpoint Configuration Manager para implantar o Office 365 ProPlus.
 
 A Contoso atualizou seus PCs para o Windows 10 Enterprise e o Office 365 ProPlus a fim de permitir a colaboração mais eficiente, melhor segurança e uma experiência de área de trabalho mais moderna. Depois de avaliar suas necessidades comerciais e de infraestrutura, a Contoso identificou esses principais requisitos para a implantação:
 
@@ -33,7 +33,7 @@ A Contoso atualizou seus PCs para o Windows 10 Enterprise e o Office 365 ProPlus
 
 ## <a name="deployment-tools"></a>Ferramentas de implantação
 
-Com base nos requisitos, a Contoso escolheu implantar o Windows e o Office com o System Center Configuration Manager (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalações, atualizações e configurações. Ele também possui recursos internos para facilitar e efetivar a implantação e o gerenciamento do Office, incluindo:
+Com base nos requisitos, a Contoso escolheu implantar o Windows 10 Enterprise e o Office 365 ProPlus com o Configuration Manager (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalações, atualizações e configurações. Ele também possui recursos internos para facilitar e efetivar a implantação e o gerenciamento do Office, incluindo:
 
 - Cache par, que pode ajudar com capacidade limitada de rede durante a implantação de dispositivos em locais remotos
 - O painel de Gerenciamento de Clientes do Office, que facilita a implantação do Office e a monitoração das atualizações e oferece aos administradores acesso aos recursos mais recentes de implantação e gerenciamento
@@ -51,7 +51,7 @@ O Office 365 ProPlus tem um novo modelo de lançamento: o Office como serviço. 
 
 Em vez de gerenciar as atualizações do Office com o Gerenciador de Configurações, a Contoso habilitou as atualizações automáticas da nuvem. As atualizações baseadas na nuvem reduziram a sobrecarga administrativa além de garantir que os dispositivos estivessem sempre atualizados. 
 
-A Contoso seguiu a mesma abordagem de duas etapas para as atualizações de recursos que eles usavam para implantar o Office: os dispositivos no grupo piloto recebiam as atualizações de recursos quatro meses antes do que os dispositivos no restante da organização (o grupo amplo). Para ativar isso para o Office, a Contoso usou dois [canais de atualização](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) recomendados: 
+A Contoso seguiu a mesma abordagem de duas etapas para as atualizações de recursos que eles usavam para implantar o Office: os dispositivos no grupo piloto recebiam as atualizações de recursos quatro meses antes do que os dispositivos no restante da organização (o grupo amplo). Para habilitar isso no Office, a Contoso usou dois [canais de atualização](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) recomendados: 
 
 - Canal semestral (direcionado) para atualizações para o grupo piloto 
 - Canal semestral para atualizações para o grupo amplo. 
@@ -73,9 +73,13 @@ Para concluir a implantação do Office, a Contoso implementou o seguinte proces
 
 Como a Contoso decidiu atualizar os dispositivos automaticamente a partir da nuvem, não havia necessidade de gerenciar o processo no Gerenciador de Configurações.  Seus dispositivos são automaticamente atualizados diretamente a partir da nuvem com base no canal de atualização que foi definido como parte da implantação inicial. 
 
+Veja a arquitetura de implantação de atualizações contínuas e instalação do Office 365 ProPlus da Contoso.
+
+![Infraestrutura de implantação do Office 365 ProPlus da Contoso](./media/contoso-o365pp/contoso-o365pp-fig1.png)
+ 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-mdm.md) como a Contoso está usando o Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e os aplicativos que são executados neles em toda a organização.
+[Saiba](contoso-mdm.md) como a Contoso está usando o Microsoft Intune no Microsoft 365 Enterprise para gerenciar seus dispositivos e os aplicativos que são executados neles em toda a organização.
 
 ## <a name="see-also"></a>Confira também
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para o Windows 10 Enterprise.
-ms.openlocfilehash: 268423de91309947381509017d386c62a5ef23da
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: 98dd4b71f1c2af6d72580066d73e75dfd4aa60ff
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37372802"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627525"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Fase 3: critérios de saída da infraestrutura do Windows 10 Enterprise
 
@@ -99,14 +99,14 @@ Se necessário, a [Etapa 4](windows10-enable-windows-analytics.md) pode ajudá-l
 <a name="crit-windows10-step5a"></a>
 ## <a name="required-you-are-using-windows-defender-antivirus-or-your-own-antimalware-solution"></a>Obrigatório: você está usando o Windows Defender Antivirus ou uma solução antimalware
 
-Você implantou o Windows Defender Antivirus ou sua própria solução antivírus para proteger seus dispositivos que executam o Windows 10 Enterprise contra softwares mal-intencionados. Se tiver implantado o Windows Defender Antivirus, você implementou um método de relatório, como o System Center Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de antivírus.
+Você implantou o Windows Defender Antivirus ou sua própria solução antivírus para proteger seus dispositivos que executam o Windows 10 Enterprise contra softwares mal-intencionados. Se tiver implantado o Windows Defender Antivirus, você implementou um método de relatório, como o Microsoft Endpoint Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de antivírus.
 
 Se necessário, a [Etapa 5](windows10-enable-security-features.md#windows10-sec-av) pode ajudá-lo com esse requisito.
 
 <a name="crit-windows10-step5b"></a>
 ## <a name="required-you-are-using-windows-defender-exploit-guard"></a>Obrigatório: você está usando o Windows Defender Exploit Guard
 
-Você implantou o Windows Defender Exploit Guard para proteger seus dispositivos que executam o Windows 10 Enterprise contra invasões e implementou um método de relatório, como o System Center Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de invasão.
+Você implantou o Windows Defender Exploit Guard para proteger seus dispositivos que executam o Windows 10 Enterprise contra invasões e implementou um método de relatório, como o Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de invasão.
 
 Se necessário, a [Etapa 5](windows10-enable-security-features.md#windows10-sec-eg) pode ajudá-lo com esse requisito.
 
