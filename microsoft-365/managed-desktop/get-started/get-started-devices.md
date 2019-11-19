@@ -7,18 +7,18 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: eec0243b7724eac852a9145a4e4fadcc13fae097
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: ae544592184b9de1b5a515ccd21af74185486d58
+ms.sourcegitcommit: f64397f3b144de36605da8d7116c46010765346d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627555"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38697154"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Preparar usuários para o uso dos dispositivos
 
 Depois que um dispositivo de área de trabalho gerenciada da Microsoft estiver nas mãos de seu usuário final, a introdução é rápida e fácil. Os dispositivos são pré-configurados com a versão atual do Windows, e as configurações e os aplicativos são instalados da nuvem, pois o usuário conclui a instalação. 
  
-Para tornar isso ainda mais fácil, oferecemos um guia que conduz seus usuários pela configuração inicial e fornece recursos de ajuda para a configuração e para uso posterior, se necessário. Você pode personalizar este guia para incluir determinados detalhes específicos para sua organização. Em seguida, distribua o guia diretamente para os usuários junto com o dispositivo. Há duas versões, uma para organizações que usam o sistema de suporte da Microsoft (o aplicativo Get Help), uma para aqueles que fornecem seu próprio suporte de usuário final interno.
+Para tornar isso ainda mais fácil, oferecemos um guia que conduz seus usuários pela configuração inicial e fornece recursos de ajuda para a configuração e para uso posterior, se necessário. Você pode personalizar este guia para incluir determinados detalhes específicos para sua organização. Em seguida, distribua o guia diretamente para os usuários junto com o dispositivo. Há duas versões, uma para organizações que usam o sistema de suporte da Microsoft (o aplicativo Get Help), uma para aqueles que oferecem suporte alternativo para seus usuários.
 
 ## <a name="to-prepare-the-guide"></a>Para preparar o guia
 
