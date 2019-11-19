@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: f787951748cc1fb0b6b207b4b3aca0de1c29e3d7
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d875c3148a019774e038d18a75bb6fb2c2413463
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627495"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699761"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -48,7 +48,7 @@ Esta é a configuração resultante com um rótulo de confidencialidade.
 
 [![Pôster Teams para dados altamente regulamentados](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
-Você também pode baixar esse pôster como um [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) e imprimir em formatos de carta, oficial ou tabloide (11 x 17).
+Você também pode baixar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) ou [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) e imprimir em papel carta, oficial ou tabloide (11 x 17).
 
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>Fase 1: Configurar uma equipe para dados altamente regulamentados
 
@@ -213,6 +213,10 @@ Nas semanas após o treinamento:
   Você pode verificar quais arquivos têm um rótulo atribuído exibindo uma pasta no SharePoint e adicionando a coluna **Confidencialidade** por meio da opção **Mostrar/ocultar colunas** da **coluna Adicionar**.
 
 Repita o treinamento dos usuários conforme necessário.
+
+## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Como a Contoso Corporation usou uma equipe segura para um projeto confidencial
+
+A Contoso Corporation é um conglomerado de fabricação global fictício, mas representativo. Veja como a Contoso configurou e orientou a adoção de uma [equipe segura](contoso-team-for-top-secret-project.md) de um projeto confidencial para desenvolver e trazer ao mercado um novo conjunto de produtos e serviços. 
 
 ## <a name="see-also"></a>Confira também
 

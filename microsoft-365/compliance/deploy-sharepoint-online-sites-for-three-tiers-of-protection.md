@@ -13,16 +13,17 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- SPO_Content
 ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: 'Resumo: Crie e configure sites de equipe do SharePoint Online para vários níveis de proteção de informações.'
-ms.openlocfilehash: 2ddf3de7180d384c387bdc335afda6214508e3c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4ff892d57d4fe6e707e4cbcb4f1562a3594fe70b
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070682"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38708022"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Implantar sites do SharePoint Online para três camadas de proteção
 
@@ -46,7 +47,7 @@ Para criar um site de equipe do SharePoint Online de linha de base com permissõ
     
 4. Na página **Criar um site**, clique em **Site de equipe**.
     
-5. Em **Nome do site**, digite um nome para o site de equipe público. 
+5. Em **Nome do site**, digite um nome para o site de equipe público.
     
 6. Em **Descrição do site de equipe**, digite uma descrição do objetivo do site.
     
@@ -70,7 +71,7 @@ Para criar um site de equipe do SharePoint Online de linha de base com permissõ
     
 4. Na página **Criar um site**, clique em **Site de equipe**.
     
-5. Em **Nome do site**, digite um nome para o site de equipe privado. 
+5. Em **Nome do site**, digite um nome para o site de equipe privado.
     
 6. Em **Descrição do site de equipe,** digite uma descrição do objetivo do site.
     

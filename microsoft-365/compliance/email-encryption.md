@@ -15,18 +15,18 @@ ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 ms.collection:
 - M365-security-compliance
 description: Compara as opções de criptografia no Office 365, incluindo a Criptografia de Mensagem do Office (OME), S/MIME, Gerenciamento de Direitos de Informação (IRM) e apresenta o protocolo TLS (Protocolo TLS).
-ms.openlocfilehash: 79a7ddd13e437255fa671e949236c879b235c2ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 70c22f9627c804c201cb23b7b3c38a4f6a349ece
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072711"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708005"
 ---
 # <a name="email-encryption-in-office-365"></a>Criptografia de email no Office 365
 
 Este artigo compara as opções de criptografia no Office 365, incluindo a Criptografia de Mensagens do Office (OME), S/MIME, Gerenciamento de Direitos de Informação (IRM) e apresenta o protocolo TLS (Transport Layer Security).
   
-O Office 365 oferece várias opções de criptografia para ajudar a atender às necessidades de segurança de email da sua empresa. Este artigo apresenta três maneiras de criptografar emails no Office 365. Se você quiser saber mais sobre todos os recursos de segurança do Office 365, acesse a central [de confiabilidade do Office 365](http://go.microsoft.com/fwlink/p/?LinkID=282470). Este artigo apresenta os três tipos de criptografia disponíveis para administradores do Office 365 para ajudar a proteger o email no Office 365:
+O Office 365 oferece várias opções de criptografia para ajudar a atender às necessidades de segurança de email da sua empresa. Este artigo apresenta três maneiras de criptografar emails no Office 365. Se você quiser saber mais sobre todos os recursos de segurança do Office 365, acesse a central [de confiabilidade do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=282470). Este artigo apresenta os três tipos de criptografia disponíveis para administradores do Office 365 para ajudar a proteger o email no Office 365:
   
 - Criptografia de Mensagem do Office (OME).
 
@@ -66,7 +66,7 @@ Assista a este vídeo para obter uma [introdução à criptografia no Office 365
 
 ## <a name="what-encryption-options-are-available-for-my-office-365-subscription"></a>Quais opções de criptografia estão disponíveis para minha assinatura do Office 365?
 
-Para saber mais sobre as opções de criptografia de email da sua assinatura [do Office 365,](https://technet.microsoft.com/pt-BR/library/exchange-online-service-description.aspx)Confira a descrição do serviço do Exchange Online. Aqui você pode encontra informações sobre os seguintes recursos de criptografia:
+Para saber mais sobre as opções de criptografia de email da sua assinatura [do Office 365,](https://technet.microsoft.com/library/exchange-online-service-description.aspx)Confira a descrição do serviço do Exchange Online. Aqui você pode encontra informações sobre os seguintes recursos de criptografia:
   
 - Azure RMS, incluindo recursos IRM e OME
 
@@ -92,7 +92,7 @@ Para saber mais sobre as opções de criptografia de email neste artigo, bem sob
   
 **IRM**
   
-[Gerenciamento de Direitos de Informação no Exchange Online](https://technet.microsoft.com/pt-BR/library/jj983436%28v=exchg.150%29.aspx)
+[Gerenciamento de Direitos de Informação no Exchange Online](https://technet.microsoft.com/library/jj983436%28v=exchg.150%29.aspx)
   
 [ O que é o Azure Rights Management? ](https://technet.microsoft.com/library/jj585026)
   
@@ -106,4 +106,4 @@ Para saber mais sobre as opções de criptografia de email neste artigo, bem sob
   
 **TLS**
   
-[Configurar o fluxo de emails usando conectores no Office 365](https://technet.microsoft.com/pt-BR/library/jj723138%28v=exchg.150%29.aspx)
+[Configurar o fluxo de emails usando conectores no Office 365](https://technet.microsoft.com/library/jj723138%28v=exchg.150%29.aspx)

@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como pesquisar e localizar dados pessoais no Office 365.
-ms.openlocfilehash: b63cf930a38feab6df815b5350d60184a6339927
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f553f29ac1327fa84c2d52f80379593c9291d610
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073148"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38709974"
 ---
 # <a name="search-for-and-find-personal-data"></a>Pesquisar e localizar dados pessoais
 
@@ -79,7 +79,7 @@ Começar a pesquisar dados pessoais usando os tipos de informações confidencia
 
 Este tópico inclui uma lista de alguns tipos de informações confidenciais que se aplicam a cidadãos na União Europeia. Verifique o centro de segurança ou centro de conformidade para novas adições que podem ajudar com a conformidade GDPR.
 
-Confira também este artigo: [Lista de tipos de informações confidenciais e para que serve cada um](https://support.office.com/pt-BR/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
+Confira também este artigo: [Lista de tipos de informações confidenciais e para que serve cada um](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
 
 Os tipos de informações confidenciais definem como o processo automatizado reconhecerá tipos específicos de informação, como números de contas bancárias, números de serviços de saúde e de cartões de crédito. Os tipos de informações confidenciais também são conhecidos como condições. Um tipo de informação confidencial se define por um padrão que pode ser identificado por uma expressão regular ou uma função. Além disso, podem-se usar evidências de comprovação como palavras-chave e somas de verificação para identificar um tipo de informação confidencial. Também se usa o nível de confiança e de proximidade no processo de avaliação.
 
@@ -97,7 +97,7 @@ No momento, os tipos de informações confidenciais não podem ser usados para l
 <tbody>
 <tr class="odd"><td align="left"><p>Acessar a Pesquisa de Conteúdo no Centro de Conformidade e Segurança</p></td>
 <td align="left"><p>No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisa&amp; investigação** &gt; **Pesquisa de Conteúdo**.</p>
-<p>Confira <a href="https://support.office.com/pt-BR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Executar uma Pesquisa de Conteúdo no Centro de Conformidade e Segurança do Office 365</a>.</p></td>
+<p>Confira <a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Executar uma Pesquisa de Conteúdo no Centro de Conformidade e Segurança do Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Criar um novo item de pesquisa para cada tipo de informação confidencial</p></td>
@@ -110,14 +110,14 @@ No momento, os tipos de informações confidenciais não podem ser usados para l
 <p>SensitiveType:&quot;Número de passaporte francês&quot;</p>
 </blockquote>
 <p>Amplie a pesquisa para o SharePoint (inclui o OneDrive for Business). A sintaxe deve ser exata e não deve haver erros de digitação ou espaços extras.</p>
-<p>Confira <a href="https://support.office.com/pt-BR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">Criar uma consulta para localizar dados confidenciais armazenados em sites</a>.</p></td>
+<p>Confira <a href="https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">Criar uma consulta para localizar dados confidenciais armazenados em sites</a>.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Examinar os resultados de cada pesquisa</p></td>
 <td align="left"><p>Identifique esses tipos de problemas para determinar se a precisão da consulta está adequada:</p>
 <p><li>Muitos falsos positivos</li></p>
 <p><li>Falta de instâncias de dados conhecidos</li></p>
-<p>Confira <a href="https://support.office.com/pt-BR/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Exportar os resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança do Office 365</a>.</p>
+<p>Confira <a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Exportar os resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança do Office 365</a>.</p>
 <p>Observação: se estiver usando o Mozilla Firefox ou o Chrome, pode ser preciso baixar antes os relatórios usando o Internet Explorer ou o Microsoft Edge para instalar o suplemento necessário.</p></td>
 </tr>
 </tbody>
@@ -217,4 +217,4 @@ Exemplos:
 
 Observação: "SensitiveType" diferencia maiúsculas e minúsculas, mas o restante da consulta não.
 
-Também é possível usar operadores e propriedades para ilustrar como você pode refinar suas consultas. Para obter mais informações e exemplos, confira [Criar uma consulta para localizar dados confidenciais armazenados em sites](https://support.office.com/pt-BR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836).
+Também é possível usar operadores e propriedades para ilustrar como você pode refinar suas consultas. Para obter mais informações e exemplos, confira [Criar uma consulta para localizar dados confidenciais armazenados em sites](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836).

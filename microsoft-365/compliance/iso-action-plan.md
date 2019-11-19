@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 5737cac2803c1ba74bc569e5e1206251bd1c8367
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: d68edbb64ae1c7b78661e765f8d270ee60fc271b
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431722"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "38709968"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Plano de ação ISO 27001 do Microsoft 365 – principais prioridades para os primeiros 30 dias, 90 dias e depois
 
@@ -26,8 +26,8 @@ ISO/IEC 27001 é o padrão internacional para implementação de um sistema de g
 
 Este artigo inclui um plano de ação priorizado que você pode seguir ao trabalhar para atender aos requisitos do ISO/IEC 27001. Esse plano de ação foi desenvolvido em parceria com a Protiviti, um parceiro da Microsoft especializado em conformidade regulamentar. Saiba mais sobre como usar esse plano de ação no Microsoft Ignite participando desta sessão: [Traçar um gráfico de estratégia de proteção de informações e do caminho da conformidade com o Microsoft 365](https://myignite.techcommunity.microsoft.com/sessions/65720?source=sessions), apresentada por Maithili Dandige (Microsoft) e Antônio Maio (Protiviti).
 
-
 ## <a name="action-plan-outcomes"></a>Resultados do plano de ação
+
 Essas recomendações são fornecidas em três fases em uma ordem lógica com os resultados a seguir: 
 
 |||
@@ -37,10 +37,8 @@ Essas recomendações são fornecidas em três fases em uma ordem lógica com os
 |90 dias|**Use as funcionalidades de segurança do Microsoft 365 para controlar o acesso ao ambiente e proteja os ativos e as informações organizacionais de acordo com os procedimentos operacionais padrão (SOPs) definidos.**<br>• Proteja as contas de administradores e usuários finais ao habilitar soluções de autenticação e identidade, tais como a autenticação multifator e a autenticação moderna.<br>• Estabeleça políticas de senha forte para gerenciar e proteger as credenciais de contas dos usuários.<br>• Configure e implante as funcionalidades de criptografia de mensagens para ajudar os usuários finais a estar em conformidade com as SOPs da sua organização ao enviar dados confidenciais por email.<br>• Habilite proteções contra códigos mal-intencionados e implemente procedimentos de prevenção e resposta contra violações de dados.<br>• Configure as políticas de Prevenção contra Perda de Dados (DLP) para identificar, proteger e controlar o acesso a dados confidenciais.<br>• Garanta que os dados confidenciais sejam armazenados e acessados de acordo com as políticas corporativas.<br>• Impeça os vetores mais comuns de ataque, incluindo phishing de emails e documentos do Office que contenham anexos e links mal-intencionados.
 |Além de 90 dias|**Use as avançadas ferramentas de gestão de dados e de proteção de informações do Microsoft 365 para implementar programas de gestão contínua de dados pessoais.**<br>• Identifique automaticamente as informações pessoais em documentos e emails.<br>• Proteja os dados confidenciais armazenados e acessados em dispositivos móveis em toda a organização e certifique-se que sejam usados dispositivos corporativos em conformidade para acessar os dados.<br><br>**Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.**<br>•  Para avaliar o desempenho em relação aos procedimentos operacionais padrão (SOPs), utilize o Gerenciador de Conformidade da Microsoft para executar avaliações regulares das políticas de segurança de informações e sua implementação na organização.<br>• Revise e monitore o sistema de gerenciamento de segurança de informações de forma contínua.<br>• Controle e execute avaliações regulares de todos os usuários e grupos com altos níveis de permissões (ou seja, os usuários administrativos ou com privilégios).<br>• Implante e configure as funcionalidades do Microsoft 365 para proteger identidades privilegiadas e controlar estritamente o acesso privilegiado.<br>• Como parte dos seus procedimentos operacionais padrão (SOPs), pesquise os logs de auditoria do Office 365 para revisar as alterações feitas às configurações dos locatários, a elevação de privilégios de usuários finais e atividades arriscadas de usuários.<br>• Monitore o uso dos aplicativos de nuvem na organização e implemente políticas de alertas avançados.<br>• Rastreie automaticamente as atividades arriscadas, identifique administradores potencialmente mal-intencionados, investigue violações de dados ou verifique se os requisitos de conformidade foram atendidos.
 
-
-
-
 ## <a name="30-days--powerful-quick-wins"></a>30 dias – Ganhos Rápidos Poderosos
+
 Essas tarefas podem ser realizadas rapidamente e tem baixo impacto para os usuários.
 
 |||
@@ -51,10 +49,8 @@ Essas tarefas podem ser realizadas rapidamente e tem baixo impacto para os usuá
 |Certifique-se que os registros relacionados à segurança das informações estejam protegidos contra a perda, exclusão, modificação ou acesso não autorizado pela criação de políticas de Auditoria e Prestação de Contas como parte dos seus Procedimentos Operacionais Padrão (SOPs).|Ative o [log de auditoria](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) e a [auditoria de caixas de correio do Office 365](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) (para todas as caixas de correio do Exchange) a fim de monitorar atividades potencialmente mal-intencionadas e habilitar a análise forense da violações de dados no Office 365.<br>• Regularmente pesquise os logs de auditoria dos locatários do Office 365 para revisar as alterações feitas às configurações de locatários.<br>• Habilite as [Políticas de alerta do Office 365](https://support.office.com/article/alert-policies-in-the-office-365-security-compliance-center-8927b8b9-c5bc-45a8-a9f9-96c732e58264) para atividades confidenciais no centro de conformidade e segurança do Microsoft 365, como quando uma elevação de privilégios ocorre em uma conta de usuário.<br>• Para armazenamento de longo prazo de dados de logs de auditoria do Office 365, use a [referência da API da Atividade de Gestão do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) para integrar com uma ferramenta de gerenciamento de eventos e informações de segurança (SIEM).
 |Defina funções administrativas e de segurança para a organização com políticas apropriadas relacionadas à diferenciação de direitos.|• Use as [funções administrativas do Office 365](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a) para habilitar a separação das obrigações de administração. Observação: muitas funções de administrador no Office 365 têm uma função correspondente no Exchange Online, no SharePoint Online e no Skype for Business Online.<br>• Segmente as permissões para garantir que um único administrador não tenha mais acesso do que o necessário.|
 
+## <a name="90-days--enhanced-protections"></a>90 dias – Proteções Aprimoradas
 
-
-
-## <a name="90-days--enhanced-protections"></a>90 dias – Proteções Aprimoradas 
 Essas tarefas demoram um pouco mais para planejar e implementar, mas aumentam significativamente as condições de segurança. 
 
 |||
@@ -63,8 +59,8 @@ Essas tarefas demoram um pouco mais para planejar e implementar, mas aumentam si
 |Use as funcionalidades de segurança do Microsoft 365 para controlar o acesso ao ambiente e proteja os ativos e as informações organizacionais de acordo com os procedimentos operacionais padrão (SOPs) definidos.|• Proteja as contas de administradores e usuários finais ao implementar [políticas de identidade e acesso a dispositivos](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations), incluindo a autenticação multifator (MFA) para todas as contas de usuários e a autenticação moderna para todos os aplicativos.<br>• Estabeleça [políticas de senha forte](https://www.microsoft.com/research/publication/password-guidance/) para gerenciar e proteger as credenciais de contas dos usuários.<br>• Configure a [Criptografia de Mensagens do Office 365 (OME)](https://support.office.com/article/office-365-message-encryption-f87cb016-7876-4317-ae3c-9169b311ff8a) para ajudar os usuários finais a estar em conformidade com as SOPs da sua organização ao enviar dados confidenciais por email.<br>• Implante a [Proteção Avançada contra Ameaças do Windows Defender (ATP)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) em todos os computadores para proteger contra códigos mal-intencionados, bem como para prevenção e resposta a violações de dados.<br>• Configure, teste e implante as [políticas de Prevenção contra Perda de Dados (DLP) do Office 365](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) para identificar, monitorar e [proteger automaticamente](https://docs.microsoft.com/office365/enterprise/apply-protection-to-personal-data-in-office-365) mais de 80 tipos comuns de dados confidenciais de documentos e emails, inclusive informações de identificação pessoal, financeiras e médicas.<br>• Informe automaticamente os remetentes de email que eles podem estar prestes a violar uma de suas políticas, mesmo antes de enviar uma mensagem ofensiva configurando as [Dicas de Política](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips). As Dicas de Política podem ser configuradas para apresentar uma breve nota no Outlook, no Outlook na Web e no OWA para dispositivos, que fornece informações sobre possíveis violações de política durante a criação da mensagem.<br>• Implemente a [Proteção Avançada contra Ameaças do Office 365](https://support.office.com/article/office-365-advanced-threat-protection-e100fe7c-f2a1-4b7d-9e08-622330b83653) (ATP) para ajudar a impedir os vetores mais comuns de ataque, incluindo emails de phishing e documentos do Office que contenham anexos e links mal-intencionados.|
 
 
-
 ## <a name="beyond-90-days--ongoing-security-data-governance-and-reporting"></a>Além de 90 dias – Segurança Contínua, Gestão de Dados e Relatórios
+
 Proteja os dados pessoais em repouso e em trânsito, detecte e responda a violações de dados e facilite testes regulares das medidas de segurança. Estas são medidas de segurança importantes criadas na tarefa anterior.  
 
 
@@ -74,16 +70,7 @@ Proteja os dados pessoais em repouso e em trânsito, detecte e responda a viola�
 |Use as avançadas ferramentas de gestão de dados e de proteção de informações do Microsoft 365 para implementar programas de gestão contínua de dados pessoais.|• Use a [Gestão de Dados Avançada do Office 365](https://docs.microsoft.com/office365/enterprise/apply-labels-to-personal-data-in-office-365) para identificar informações pessoais em documentos e emails ao aplicar automaticamente os rótulos do Office 365.<br>• Use o [Microsoft Intune](https://docs.microsoft.com/intune/) para proteger dados confidenciais armazenados e acessados em dispositivos móveis em toda a organização, e certifique-se de que sejam usados dispositivos corporativos em conformidade para acessar os dados.|
 |Monitore a conformidade contínua no Microsoft 365 e em outros aplicativos em nuvem.|• Para avaliar o desempenho em relação aos procedimentos operacionais padrão (SOPs), utilize o [Gerenciador de Conformidade da Microsoft](https://support.office.com/article/use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services-429e686f-d8a6-455e-a2b6-3791d763f000) em base contínua para executar avaliações regulares de ISO 27001:2013 das políticas de segurança de informações e sua implementação na organização.<br>• Revise e monitore o sistema de gerenciamento de segurança de informações de forma contínua.<br>• Use o [Gerenciamento de Identidade Privilegiada do Azure AD](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure) para controlar e executar avaliações regulares de todos os usuários e grupos com altos níveis de permissões (ou seja, os usuários administrativos ou com privilégios).<br>•  Implante e configure o [Gerenciamento de Acesso Privilegiado no Office 365](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365) para fornecer controle de acesso granular a tarefas de administração privilegiadas no Office 365.  Depois de ativados, os usuários precisam solicitar acesso just-in-time para concluir tarefas elevadas e privilegiadas por meio de um fluxo de trabalho de aprovação com escopo alto e com limite de tempo.<br>• Como parte dos seus procedimentos operacionais padrão (SOPs), pesquise os logs de auditoria do Office 365 para revisar as alterações feitas às configurações dos locatários, a elevação de privilégios de usuários finais e atividades arriscadas de usuários.<br>• Faça a auditoria de [acesso a caixas de correio por não proprietários](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports) para identificar potenciais vazamentos de informações e revisar proativamente o acesso de não proprietários a todas as caixas de correio do Exchange Online.<br>• Use as [Políticas de Alertas do Office 365, relatórios de prevenção de perda de dados e o Microsoft Cloud App Security](https://docs.microsoft.com/office365/enterprise/monitor-for-leaks-of-personal-data) para monitorar o uso dos aplicativos de nuvem na organização e implementar as avançadas políticas de alertas baseadas nas atividades dos usuários e em heurística.<br>• Use o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para rastrear automaticamente as atividades arriscadas, identificar administradores potencialmente mal-intencionados, investigar violações de dados ou verificar se os requisitos de conformidade foram atendidos.|
 
-
-
-
-
-
-
 ## <a name="learn-more"></a>Saiba mais
 
-Central de Confiabilidade da Microsoft: [Padrões de Gerenciamento de Segurança de Informações ISO/IEC 27001:2013](https://www.microsoft.com/TrustCenter/Compliance/ISO-IEC-27001)
-
-[Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
-
-
+- Central de Confiabilidade da Microsoft: [Padrões de Gerenciamento de Segurança de Informações ISO/IEC 27001:2013](offering-iso-27001.md)
+- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

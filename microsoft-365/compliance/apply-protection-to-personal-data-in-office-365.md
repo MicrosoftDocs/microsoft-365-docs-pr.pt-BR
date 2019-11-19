@@ -11,17 +11,18 @@ ms.collection:
 - Strat_O365_Enterprise
 - GDPR
 - M365-security-compliance
+- SPO_Content
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como usar políticas DLP para proteger dados pessoais no Office 365.
-ms.openlocfilehash: f6d6d69f7c776b9b49ea360367117a9ce86293b2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12d6de9b8012062e26daec922d5c55fa0f52381a
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072330"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38708019"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Aplicar proteção a dados pessoais no Office 365
 
@@ -41,7 +42,7 @@ Com a DLP, você pode:
 
 -   Ver relatórios de DLP que mostram conteúdo que corresponde às políticas de DLP da sua organização.
 
-Para mais informações, confira [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/pt-BR/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
+Para mais informações, confira [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
 
 ![Opções para criar uma política de Prevenção Contra Perda de Dados](Media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
@@ -72,7 +73,7 @@ A tabela a seguir lista três configurações de aumento de proteção usando DL
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Nível de proteção</strong></th>
+<th align="left"><strong>Nível de Proteção</strong></th>
 <th align="left"><strong>Configuração de DLP para documentos com informações pessoais relacionadas a assuntos de dados da UE</strong></th>
 <th align="left"><strong>Benefícios e riscos</strong></th>
 </tr>
@@ -119,7 +120,7 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 <thead>
 <tr class="header">
 <th align="left"><strong>Controle</strong></th>
-<th align="left"><strong>Settings</strong></th>
+<th align="left"><strong>Configurações</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -142,7 +143,7 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 <tr class="odd">
 <td align="left">Notificar os usuários quando o conteúdo corresponder às configurações de política</td>
 <td align="left"><p>Marque esta caixa ("Mostrar dicas de política a usuários e enviar uma notificação de email para eles.")</p>
-<p>Clique em "Personalizar a dica e o email" e atualize eles para o seu ambiente. Veja as notificações padrão neste artigo: <a href="https://support.office.com/pt-BR/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Enviar notificações por email e mostrar dicas de política para políticas DLP</a>.</p></td>
+<p>Clique em "Personalizar a dica e o email" e atualize eles para o seu ambiente. Veja as notificações padrão neste artigo: <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Enviar notificações por email e mostrar dicas de política para políticas DLP</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left">Detectar quando uma quantidade específica de informações confidenciais estiver sendo compartilhada de uma só vez</td>
@@ -177,12 +178,12 @@ Para maior acessibilidade, a tabela a seguir fornece as mesmas informações da 
 <thead>
 <tr class="header">
 <th align="left"><strong>Escopo de proteção</strong></th>
-<th align="left"><strong>Capabilities</strong></th>
+<th align="left"><strong>Funcionalidades</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Proteção no nível do email e documento (inclui emails em trânsito, mas no momento, não inclui caixas de correio em repouso)</td>
+<td align="left">Proteção no nível do email e documento (inclui emails em trânsito, mas, no momento, não inclui caixas de correio em repouso)</td>
 <td align="left"><p>Tipos de informações confidenciais</p>
 <p>Rótulos do Office.</p>
 <p>Políticas de prevenção contra perda de dados</p>
@@ -226,7 +227,7 @@ A ilustração apresenta os níveis de permissão, desde Controle total a Soment
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Controle Total</strong></th>
+<th align="left"><strong>Controle total</strong></th>
 <th align="left"><strong>Design</strong></th>
 <th align="left"><strong>Editar</strong></th>
 <th align="left"><strong>Colaboração</strong></th>
@@ -300,7 +301,7 @@ A tabela a seguir resume os controles que você pode configurar.
 
 Mais informações:
 
--   [Gerenciar compartilhamento externo para o ambiente do SharePoint Online](https://support.office.com/pt-BR/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [Gerenciar compartilhamento externo para o ambiente do SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
 -   [Compartilhar sites ou documentos com pessoas de fora da organização](https://support.office.com/pt-BR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
@@ -351,7 +352,7 @@ As políticas de acesso de dispositivos do SharePoint e do OneDrive for Business
 </tbody>
 </table>
 
-Mais informações: [Centro de administração do SharePoint Online: controlar o acesso de dispositivos não gerenciados](https://support.office.com/pt-BR/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
+Mais informações: [Centro de administração do SharePoint Online: controlar o acesso de dispositivos não gerenciados](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>Proteção de acesso a serviços de identidades e dispositivos
 
@@ -359,9 +360,9 @@ A Microsoft recomenda configurar a proteção de identidades e dispositivos que 
 
 A proteção de acesso de identidades e dispositivos oferece um parâmetro de proteção para garantir que as identidades não sejam comprometidas, que os dispositivos estejam em segurança e que os dados da organização que são acessados nos dispositivos estejam isolados e protegidos.
 
-Como ponto de partida para as orientações de configuração e recomendações, confira [Diretrizes de segurança da Microsoft para campanhas políticas, organizações sem fins lucrativos e outras organizações Agile](https://docs.microsoft.com/pt-BR/microsoft-365-enterprise/microsoft-security-guidance).
+Como ponto de partida para as orientações de configuração e recomendações, confira [Diretrizes de segurança da Microsoft para campanhas políticas, organizações sem fins lucrativos e outras organizações Agile](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance).
 
-Para ambientes com identidade híbrida com o AD FS, confira [Recomendações de configurações e políticas de segurança](https://docs.microsoft.com/pt-BR/microsoft-365-enterprise/microsoft-security-guidance).
+Para ambientes com identidade híbrida com o AD FS, confira [Recomendações de configurações e políticas de segurança](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance).
 
 A ilustração a seguir descreve como os serviços em nuvem (SaaS, PaaS), tipos de conta (contas de domínio de locatário vs. contas B2B) e funcionalidades de recursos de acesso estão relacionadas. É importante observar quais funcionalidades podem ser usadas com contas B2B.
 

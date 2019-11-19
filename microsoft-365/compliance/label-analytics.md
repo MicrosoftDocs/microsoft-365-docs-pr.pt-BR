@@ -1,7 +1,7 @@
 ---
 title: Exibição do uso do rótulo com análises de rótulo
-ms.author: stephow
-author: stephow-MSFT
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Depois de criar seus rótulos de retenção e rótulos de sensibilidade, você desejará ver como eles estão sendo usados em seu locatário. Com a análise do rótulo no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365, você pode exibir rapidamente os rótulos mais usados e onde foram aplicados.
-ms.openlocfilehash: 297987d420b5ed05bf4fdeb86513bc7c4ddec609
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 45cebbe67a773b76289920554d4e39fcbce789cc
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072725"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38709980"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Exibição do uso do rótulo com análises de rótulo
 
@@ -38,9 +38,9 @@ Você encontra a análise de rótulo no [Centro de conformidade do Microsoft 365
 
 ## <a name="sensitivity-label-usage"></a>Uso do rótulo de confidencialidade
 
-Os dados de uso do rótulo de confidencialidade são extraídos dos Relatórios de Proteção de Informações do Azure – para saber mais, confira [Central de relatórios de Proteção de Informações do Azure](https://docs.microsoft.com/pt-BR/azure/information-protection/reports-aip).
+Os dados de uso do rótulo de confidencialidade são extraídos dos Relatórios de Proteção de Informações do Azure – para saber mais, confira [Central de relatórios de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
-Observe que tem os relatórios de Proteção de Informações do Azure possuem [pré-requisitos](https://docs.microsoft.com/pt-BR/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics) que também se aplicam a análise de rótulos nos rótulos de confidencialidade no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365. Por exemplo, você precisa de uma assinatura do Azure que inclua a Análise de Log, pois esses relatórios são um resultado do envio de eventos de auditoria da Proteção de Informação de clientes de Proteção de Informações do Azure e scanners em um local centralizado com base no serviço de Análise de Log do Azure.
+Observe que tem os relatórios de Proteção de Informações do Azure possuem [pré-requisitos](/azure/information-protection/reports-aip#prerequisites) que também se aplicam a análise de rótulos nos rótulos de confidencialidade no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365. Por exemplo, você precisa de uma assinatura do Azure que inclua a Análise de Log, pois esses relatórios são um resultado do envio de eventos de auditoria da Proteção de Informação de clientes de Proteção de Informações do Azure e scanners em um local centralizado com base no serviço de Análise de Log do Azure.
 
 Para uso do rótulo de confidencialidade:
 
@@ -97,5 +97,5 @@ Para exibir a análise do rótulo, você deve ter uma das seguintes funções no
 - Administrador de segurança
 - Leitor de segurança
 
-Além disso, observe que esses relatórios usam o Monitor do Azure para armazenar os dados em um espaço de trabalho de Análise de Log pertencente à sua organização. Portanto, o usuário deve ser adicionado como um leitor ao espaço de trabalho de monitoramento do Azure monitoramento que possui os dados, para saber mais, confira [Permissões necessárias para análise da Proteção de Informações do Azure](https://docs.microsoft.com/pt-BR/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
+Além disso, observe que esses relatórios usam o Monitor do Azure para armazenar os dados em um espaço de trabalho de Análise de Log pertencente à sua organização. Portanto, o usuário deve ser adicionado como um leitor ao espaço de trabalho de monitoramento do Azure monitoramento que possui os dados, para saber mais, confira [Permissões necessárias para análise da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
 
