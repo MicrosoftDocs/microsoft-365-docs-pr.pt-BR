@@ -83,6 +83,7 @@
 ### [Gerenciamento de dispositivo móvel](contoso-mdm.md)
 ### [Proteção de informações](contoso-info-protect.md)
 ### [Resumo de segurança](contoso-security-summary.md)
+### [Equipe para um projeto confidencial](contoso-team-for-top-secret-project.md)
 ### [Site do SharePoint para dados altamente controlados](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 ## [Alterações no conteúdo de implantação do Microsoft 365 Enterprise](microsoft-365-deploment-guide-changes.md)
 # [Centro de Implantação de Desktop](desktop-deployment-center-home.md)
