@@ -3,7 +3,7 @@ title: Proteção de Informações da Contoso Corporation
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 66ae8f4d3ddd71db593daa7b375348e71afeb2f8
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: f5893414a0aab3d0ab89eb180f0c907d4379194c
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369592"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673197"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
-
-**Resumo:** entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
 
 A Contoso se preocupa com sua segurança e proteção de informações. Por exemplo, o vazamento ou a destruição de sua propriedade intelectual que descreve projetos de produtos e técnicas patenteadas de fabricação, colocaria você em desvantagem competitiva.
 
@@ -35,7 +33,7 @@ A Contoso realizou uma análise de seus dados e determinou os níveis a seguir.
 ||||
 |:-------|:-----|:-----|
 | **Nível 1: linha de base** | **Nível 2: confidencial** | **Nível 3: altamente controlado** |
-| Os dados são criptografados e estão disponíveis somente para usuários autenticados <BR> <BR> Fornecido para todos os dados armazenados localmente e em armazenamento e cargas de trabalho baseados em nuvem, como o Office 365. Os dados são criptografados enquanto estão no serviço e em trânsito entre o serviço e os dispositivos do cliente. <BR><BR> Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados: <BR> <BR> A autenticação forte inclui autenticação multifator com validação de SMS. A prevenção de perda de dados garante que informações confidenciais ou críticas não trafeguem fora da rede local. <BR><BR> Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria. <BR> <BR>  Os níveis mais altos de criptografia de dados em repouso e na nuvem, de modo compatível com os regulamentos regionais, combinados com autenticação multifator com cartões inteligentes e auditoria e alertas granulares. <BR> <BR> Exemplos de dados de Nível 3 são informações de identificação pessoal do cliente e do parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
+| Os dados são criptografados e estão disponíveis somente para usuários autenticados. <BR> <BR> Fornecido para todos os dados armazenados localmente e em armazenamento e cargas de trabalho baseados em nuvem, como o Office 365. Os dados são criptografados enquanto estão no serviço e em trânsito entre o serviço e os dispositivos do cliente. <BR><BR> Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados. <BR> <BR> A autenticação forte inclui a Autenticação Multifator do Microsoft Azure (MFA) com a validação de SMS. A prevenção de perdas de dados garante que informações confidenciais ou críticas não trafeguem fora da nuvem da Microsoft. <BR><BR> Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria. <BR> <BR>  Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares. <BR> <BR> Exemplos de dados de Nível 3 são informações de identificação pessoal do cliente e do parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
 ||||
 
 ## <a name="contosos-information-policies"></a>Políticas de informações da Contoso
@@ -44,9 +42,9 @@ As tabela a seguir lista as políticas de informações da Contoso.
 |||||
 |:-------|:-----|:-----|:-----|
 |  | **Acesso** | **Retenção de dados** | **Proteção de informações** |
-| Baixo valor de negócios (Nível 1: Linha de base) | Permitir acesso a todos  | Seis meses | Usar criptografia |
-| Valor médio de negócios (Nível 2: Confidencial) | Permitir acesso a funcionários, fornecedores e parceiros da Contoso <BR> <BR> Usar a MFA (autenticação multifator), protocolo TLS e o Gerenciamento de Aplicativos Móveis (MAM) | Dois anos  | Usar valores de hash para integridade de dados  |
-| Alto valor de negócios (Nível 3: Altamente controlado) | Permitir acesso aos executivos e clientes potenciais em engenharia e fabricação <BR> <BR> Rights Management System (RMS) com dispositivos de rede gerenciados somente  | Sete anos  | Usar assinaturas digitais para não repúdio  |
+| Baixo valor de negócios (Nível 1: Linha de base) | Permitir acesso a todos  | 6 meses | Usar criptografia. |
+| Valor médio de negócios (Nível 2: Confidencial) | Permitir acesso a funcionários, fornecedores e parceiros da Contoso <BR> <BR> Usar a MFA, o Protocolo TLS e o Gerenciamento de Aplicativos Móveis (MAM) | 2 anos  | Usar valores de hash para integridade de dados.  |
+| Alto valor de negócios (Nível 3: altamente controlado) | Permitir acesso aos executivos e clientes potenciais em engenharia e fabricação. <BR> <BR> Rights Management System (RMS) somente com dispositivos de rede gerenciados.  | 7 anos  | Usar assinaturas digitais para não repúdio.  |
 |||||
 
 ## <a name="contosos-path-to-information-protection-with-microsoft-365-enterprise"></a>Caminho da Contoso para a proteção de informações com o Microsoft 365 Enterprise
@@ -63,36 +61,34 @@ A Contoso usou as seguintes etapas para preparar o Microsoft 365 Enterprise para
 
 3. Criou rótulos de confidencialidade e suas configurações para os diferentes níveis de informações
 
-   A Contoso criou rótulos de confidencialidade para seus níveis de dados, com rótulos confidenciais e altamente controlados incluindo criptografia, permissões e marcas d'água.
+   A Contoso criou rótulos de confidencialidade para seus níveis de dados, com rótulos altamente regulamentados incluindo criptografia, permissões e marcas d'água.
 
-4. Criou sites protegidos do SharePoint Online para dados confidenciais e altamente controlados com permissões que bloqueiam o acesso
+4. Criou sites protegidos do SharePoint para dados confidenciais e altamente regulamentados com permissões que bloqueiam o acesso
 
-   Os sites confidenciais e altamente controlados foram configurados como [sites isolados](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites), nos quais as permissões padrão do site de equipe do SharePoint Online foram personalizadas para os grupos do Azure Active Directory (Azure AD). Os sites confidenciais e altamente controlados do SharePoint Online também foram configurados com um rótulo de retenção correspondente. Os arquivos armazenados em sites altamente controlados do SharePoint Online são protegidos com o rótulo de confidencialidade Altamente Controlado. Para saber mais, confira o cenário de [sites do Microsoft Teams e SharePoint Online para dados altamente controlados](teams-sharepoint-online-sites-highly-regulated-data.md).
+   Os sites confidenciais e altamente regulamentados foram configurados como [sites isolados](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites), nos quais as permissões padrão do site de equipe do SharePoint Online foram personalizadas.  Os sites confidenciais e altamente regulamentados do SharePoint também foram configurados com um rótulo de retenção correspondente. Os arquivos armazenados em sites altamente regulamentados do SharePoint são protegidos com o rótulo de confidencialidade Altamente Regulamentado. Para obter mais informações, confira ao cenário [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md).
 
-5.  Moveu dados de sites do SharePoint e compartilhamentos de arquivos locais para seus novos sites do SharePoint Online
+5.  Moveu dados de sites do SharePoint e compartilhamentos de arquivos locais para seus novos sites do SharePoint
 
-    Os arquivos migrados para os novos sites do SharePoint Online herdaram os rótulos de retenção padrão atribuídos ao site.
+    Os arquivos migrados para os novos sites do SharePoint herdaram os rótulos de retenção padrão atribuídos ao site.
 
-6.  Treinou funcionários para usar os rótulos de confidencialidade para novos documentos, como interagir com a TI da Contoso ao criar novos sites do SharePoint Online e sempre armazenar ativos digitais em sites do SharePoint Online.
+6.  Treinou funcionários para usar os rótulos de confidencialidade para novos documentos, como interagir com a TI da Contoso ao criar novos sites do SharePoint e sempre armazenar ativos digitais em sites do SharePoint.
 
-    Considerou a parte mais difícil da transição da proteção de informações para a nuvem. Era necessário que a TI e o gerenciamento da Contoso mudasse os maus hábitos de armazenamento de informações dos funcionários da organização para sempre armazenar e rotular seus ativos digitais e nunca usar serviços de armazenamento em nuvem de terceiros ou unidades USB.
+    Considerou a parte mais difícil da transição da proteção de informações para a nuvem. Era necessário que a TI e o gerenciamento da Contoso mudassem os maus hábitos de armazenamento de informações dos funcionários da organização para sempre rotular e armazenar seus ativos digitais na nuvem, evitando usar compartilhamentos de arquivos locais e nunca usar serviços de armazenamento em nuvem de terceiros ou unidades USB.
 
-## <a name="conditional-access-policies-for-information-protection"></a>Políticas de acesso condicional para proteção de informações
+## <a name="conditional-access-policies-for-information-protection"></a>Políticas de Acesso Condicional para proteção de informações
 
-Juntamente com sua infraestrutura de gerenciamento de identidade e dispositivo móvel e como parte de sua implementação do Exchange Online e do SharePoint Online, a Contoso configurou o seguinte conjunto de políticas de acesso condicional e as aplicou aos grupos apropriados do Azure AD:
+Juntamente com sua infraestrutura de gerenciamento de identidade e dispositivo móvel e como parte de sua implementação do Exchange Online e do SharePoint, a Contoso configurou o seguinte conjunto de políticas de Acesso Condicional e as aplicou aos grupos apropriados:
 
 - [Acesso de aplicativo gerenciados e não gerenciado e políticas de dispositivos](identity-access-policies.md)
 - [Políticas de acesso do Exchange Online](secure-email-recommended-policies.md)
-- [Políticas de acesso do SharePoint Online](sharepoint-file-access-policies.md)
+- [Políticas de acesso do SharePoint](sharepoint-file-access-policies.md)
 
-A Figura 1 mostra um conjunto de políticas resultantes da proteção de informações da Contoso.
+Este é o conjunto de políticas resultantes da proteção de informações da Contoso.
 
-![Políticas de acesso condicional do dispositivo, Exchange Online e SharePoint Online](./media/contoso-info-protect/contoso-info-protect-fig1.png)
+![Políticas de Acesso Condicional do Dispositivo, do Exchange Online e do SharePoint ](./media/contoso-info-protect/contoso-info-protect-fig1.png)
 
-**Figura 1: Políticas de acesso condicional do dispositivo, Exchange Online e SharePoint Online**
- 
 >[!Note]
->A Contoso também configurou políticas de acesso condicional adicionais para identidade e entrada. Confira [Identidade para a Contoso Corporation](contoso-identity.md).
+>A Contoso também configurou políticas de Acesso condicional adicionais para identidade e entrada.  Confira, [Identidade da Contoso Corporation](contoso-identity.md#conditional-access-policies-for-identity-and-device-access).
 >
 
 Essas políticas garantem que:
@@ -100,21 +96,24 @@ Essas políticas garantem que:
 - Os aplicativos sejam permitidos e as ações que eles podem realizar sejam definidas por políticas de proteção de aplicativo.
 - PCs e dispositivos móveis devem estar compatíveis.
 - O Exchange Online utilize a criptografia de mensagem do Office 365 para o Exchange Online.
-- O SharePoint Online use restrições impostas pelo aplicativo.
-- O SharePoint Online use políticas de controle de acesso para acesso somente por navegador e para bloquear o acesso de dispositivos não gerenciados.
+- O SharePoint usa restrições impostas pelo aplicativo.
+- O SharePoint usa políticas de controle de acesso para acesso somente por navegador e para bloquear o acesso de dispositivos não gerenciados.
 
 ## <a name="mapping-microsoft-365-enterprise-features-to-contosos-data-levels"></a>Mapear recursos do Microsoft 365 Enterprise para os níveis de dados da Contoso
 
-A tabela a seguir mostra o mapeamento dos níveis de dados da Contoso para os recursos de proteção de informações no Microsoft 365 Enterprise.
+A tabela a seguir mapeia os níveis de dados da Contoso para os recursos de proteção de informações no Microsoft 365 Enterprise.
 
 |||||
 |:-------|:-----|:-----|:-----|
 | | **Office 365** | **Windows 10 e Office 365 ProPlus** | **EMS** |
-| Nível 1: linha de base  | Políticas de acesso condicional do SharePoint Online e Exchange Online <BR> Permissões em sites do SharePoint Online | Rótulos de confidencialidade <BR> BitLocker <BR> Proteção de Informações do Windows | Políticas de acesso condicional de dispositivos e políticas de Gerenciamento de Aplicativos Móveis |
-| Nível 2: Confidencial | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade <BR> Rótulos do Office 365 em sites do SharePoint Online <BR> Prevenção contra perda de dados do Office 365 para for SharePoint Online e Exchange Online <BR> Sites isolados do SharePoint Online  | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade em ativos digitais <BR> Gestão de Dados Avançada do Office 365 | Nível 1 |
+| Nível 1: linha de base  | Políticas de Acesso Condicional do SharePoint e do Exchange Online <BR> Permissões em sites do SharePoint  | Rótulos de confidencialidade <BR> BitLocker <BR> Proteção de Informações do Windows | Políticas de Acesso Condicional de Dispositivos e políticas de Gerenciamento de Aplicativos Móveis |
+| Nível 2: Confidencial | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade <BR> Rótulos de retenção do Office 365 em sites do SharePoint <BR> Prevenção Contra Perda de Dados do Office 365 para o SharePoint Online e o Exchange Online <BR> Sites isolados do SharePoint   | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade em ativos digitais  | Nível 1 |
 | Nível 3: altamente controlado | Nível 2 mais: <BR><BR> Criptografia BYOK (Traga sua própria chave) e proteção de informações de segredos comerciais <BR> Azure Key Vault para aplicativos de linha de negócios que interagem com os serviços do Office 365 | Nível 2 | Nível 1 |
 |||||
 
+Estas são as configurações resultantes da proteção de informações da Contoso.
+
+![Configurações resultantes da proteção de informações da Contoso](./media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>Próxima etapa
 
