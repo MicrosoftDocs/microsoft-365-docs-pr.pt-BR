@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 7c4e66988c57754324fbc18de95e97d409ab0a53
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: c6f01e5b82d0021c4698dfa7b4fddc5152c7d737
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078911"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749613"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Avaliação de impacto de proteção de dados do GDPR
 
@@ -27,10 +29,10 @@ Este documento orienta você a informações relacionadas a Avaliações do Impa
 
 ## <a name="terminology"></a>Terminologia
 
-Definições úteis para os termos RGPD usados neste documento:
+Definições úteis para os termos do RGPD usados neste documento:
 
-- *Controlador de dados (controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
-- *Dados pessoais* e *entidade de dados*: qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é um que pode ser identificada, direta ou indiretamente.  
+- *Controlador de Dados (Controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
+- *Dados pessoais* e *entidade de dados*: qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é uma que pode ser identificada, direta ou indiretamente.  
 - *Processador:* uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.  
 - *Dados do cliente*: dados produzidos e armazenados nas operações do dia a dia para o trabalho em andamento.
 

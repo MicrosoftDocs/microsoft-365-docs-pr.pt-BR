@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 11bf048dd1cd913d8344929b5025a65638d47f4b
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078931"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749601"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -27,9 +29,9 @@ Este documento o orienta com informações para respeitar os direitos e cumprir 
 
 ## <a name="terminology"></a>Terminologia
 
-Definições úteis para os termos RGPD usados neste documento:
+Definições úteis para os termos do RGPD usados neste documento:
 
-- *Controlador de dados (controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
+- *Controlador de Dados (Controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
 - *Dados pessoais* e *entidade de dados*: qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é uma que pode ser identificada, direta ou indiretamente.  
 - *Processador:* uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.  
 - *Dados do cliente*: dados produzidos e armazenados nas operações do dia a dia para o funcionamento do seu negócio.
@@ -66,7 +68,7 @@ As solicitações do titular de dados fornecem meios para que os titulares de da
 - **Quais ações são necessárias para concluir um DSR? **: DSRs envolvem seis atividades: descoberta, acesso, retificação, restrição, exportação e exclusão.
 - **Quais são suas fontes de dados?**: A maioria dos dados de uma organização é gerada em [aplicativos do Office](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs), como o Excel e o Outlook. Você também pode encontrar dados relevantes para um DSR em [Informações](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365), gerados por produtos e serviços da Microsoft, e [logs gerados pelo sistema](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs).
 - **Quais tipos de dados precisam ser pesquisados?**: dados pessoais podem ser encontrados em dados de clientes, informações geradas por produtos e serviços da Microsoft, além de logs gerados pelo sistema.
-- **Como os dados pessoais serão pesquisados?**: procurar dados pessoais pode variar em produtos e serviços da Microsoft. As ferramentas de pesquisa incluem [Pesquisa de Conteúdo](https://docs.microsoft.com/pt-BR/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) ou recurso [de pesquisa no aplicativo](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Os administradores podem acessar [logs gerados pelo sistema](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs) associados à atividade de um usuário.  
+- **Como os dados pessoais serão pesquisados?**: procurar dados pessoais pode variar em produtos e serviços da Microsoft. As ferramentas de pesquisa incluem [Pesquisa de Conteúdo](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) ou recurso [de pesquisa no aplicativo](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Os administradores podem acessar [logs gerados pelo sistema](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs) associados à atividade de um usuário.  
 - **Em quais formatos os dados pessoais devem ser disponibilizados?**: o "direito de portabilidade dos dados" do RGPD permite que o titular de dados solicite uma cópia dos dados pessoais que estejam em um "formato estruturado, frequentemente usado, que possa ser lido por máquina", bem como solicite que sua organização transmita esses arquivos para outro controlador de dados.
 
 ### <a name="data-protection-impact-assessment"></a>Avaliações do Impacto sobre a Proteção dos Dados

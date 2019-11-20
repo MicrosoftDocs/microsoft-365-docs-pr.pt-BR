@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 772ff86c1973e9cbf656214145260fad2d6fb1d7
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 915e80a07d77e5ce2200228a1c3f5b77511d5f1d
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698173"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749594"
 ---
 # <a name="microsofts-data-protection-officer"></a>Diretor de proteção dos dados da Microsoft
 

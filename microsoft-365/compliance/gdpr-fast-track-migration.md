@@ -10,13 +10,15 @@ ms.topic: article
 ms.author: mohitku
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 0ef1a23d69ae91b9d94c4587f1912c4171fe84d3
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: ff20eca7a9c1dd50b491a96853bab5c1069e070d
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431412"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749607"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>Conjunto de ferramentas de migração FastTrack para envio de solicitação de exclusão
 

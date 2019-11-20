@@ -9,14 +9,16 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
+ms.collection:
+- GDPR
+- M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 5b41775a4ab68f1738748f6726842472288ce8f1
-ms.sourcegitcommit: d9e9788abb31f6c876f81326569ccc9b716fc1c0
+ms.openlocfilehash: 055c19715ff5dcd28ae05489600a31b2f7904e72
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37422388"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749623"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Dynamics 365 para o RGPD
 
@@ -128,7 +130,7 @@ Para obter mais informações relacionada ao RGPD, acesse https://aka.ms/gdprget
 |||
 |:-----|:-----|
 |**ID**|**Descrição/Link**|
-| 1 <a name="1"> </a> | [Termos dos Serviços Online](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
+| 1 <a name="1"> </a> | [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 | 2 <a name="2"> </a> | [Informações importantes do Dynamics 365 para Avaliações do Impacto sobre a Proteção dos Dados do Cliente](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA?command=Download&downloadType=Document&downloadId=ef2902bb-3137-4f4a-8ca6-af35afaa6bec&docTab=2ba9a350-555c-11e8-b74a-77b1f31da06e_DPIA) |
 | 3 <a name="3"> </a> | [Auditoria e Relatórios no Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing) |
 | 4 <a name="4"> </a> | [Solicitações de Titulares de Dados do Dynamics 365 para o RGPD](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) |
@@ -138,9 +140,9 @@ Para obter mais informações relacionada ao RGPD, acesse https://aka.ms/gdprget
 | 8 <a name="8"> </a> | [Relatório de auditoria SOC 2 Tipo 2 Relatório e Carta Ponte do Dynamics 365](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=e06a247d-af6b-4933-8074-1002757984bd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 9 <a name="9"> </a> | [Dynamics 365 — Descobrir recursos de segurança internos](https://www.microsoft.com/trustcenter/security/dynamics365-security) |
 | 10 <a name="10"> </a> | [Quem pode acessar dados e em quais termos](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms) |
-| 11 <a name="11"> </a> | [Contratos para subprocessadores: Contratação com a Microsoft](https://www.microsoft.com/pt-BR/procurement/supplier-contracting.aspx#SSPA) |
+| 11 <a name="11"> </a> | [Contratos para subprocessadores: Contratação com a Microsoft](https://www.microsoft.com/procurement/supplier-contracting.aspx#SSPA) |
 | 12<a name="12"> </a>  | [Notificação de Violação do Dynamics 365 no GDPR](https://servicetrust.microsoft.com/ViewPage/GDPRBreach) |
-| 13 <a name="13"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings) |
+| 13 <a name="13"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.md) |
 | 14 <a name="14"> </a> | [Relatório de Análise de Segurança e Testes de Penetração do Dynamics 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=25aa47b1-c510-43f2-84de-6b78ed3b1258&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Pen_Test_and_Security_Assessments) |
 | 15 <a name="15"> </a> | [Gerenciador de Conformidade](https://servicetrust.microsoft.com/ComplianceManager) |
 | 16 <a name="16"> </a> | [Informações de DPO da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) |

@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 3a07400f6c3e788734b4d959080e2008eb7b0cfe
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: c4e9cdeb953e01ee44caa1ba8031332da4e245be
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698283"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749617"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
 
@@ -27,7 +29,7 @@ A equipe de resposta a incidentes de proteção de dados globais dos Serviços p
 
 ## <a name="data-protection-incident-response-overview"></a>Visão geral de resposta a incidentes de proteção de dados 
 
-Os Serviços profissionais da Microsoft estão comprometidos com a proteção dos seus clientes e com a tomada de medidas consideráveis para impedir que os incidentes de proteção de dados ocorram, como um meio de manter a confiabilidade do cliente. Um incidente de proteção de dados na organização de Serviços profissionais é uma violação de segurança que leva à acidental ou criminosa destruição, perda, alteração, divulgação não autorizada de ou o acesso a dados pessoais, de suporte ou de consultoria, enquanto processados pela Microsoft. Para clientes comerciais que adquiriram o Suporte Premier, o Suporte Unificado ou os Serviços de Consultoria da Microsoft, consulte o idioma de resposta a incidentes de proteção de dados no Adendo de proteção de dados de Serviços profissionais localizado em <http://aka.ms/professionalservicesdpa/>.
+Os Serviços profissionais da Microsoft estão comprometidos com a proteção dos seus clientes e com a tomada de medidas consideráveis para impedir que os incidentes de proteção de dados ocorram, como um meio de manter a confiabilidade do cliente. Um incidente de proteção de dados na organização de Serviços profissionais é uma violação de segurança que leva à acidental ou criminosa destruição, perda, alteração, divulgação não autorizada de ou o acesso a dados pessoais, de suporte ou de consultoria, enquanto processados pela Microsoft. Para clientes comerciais que adquiriram o Suporte Premier, o Suporte Unificado ou os Serviços de Consultoria da Microsoft, consulte o idioma de resposta a incidentes de proteção de dados no Adendo de proteção de dados de Serviços profissionais localizado em <https://aka.ms/professionalservicesdpa/>.
 
 ## <a name="scope--limits-of-data-protection-incident-response-process"></a>Escopo e limites do processo de resposta a incidentes de proteção de dados
 
@@ -54,7 +56,7 @@ Os Serviços profissionais da Microsoft monitoram continuamente os incidentes de
 Os processos de detecção usados pelos Serviços profissionais da Microsoft são desenvolvidos para descobrir os incidentes de proteção de dados e acionar as investigações. Por exemplo:
 
 - As vulnerabilidades de segurança são relatadas ao sistema de relatórios de toda a Microsoft para serem verificadas ou relatadas diretamente à equipe de resposta a incidentes de proteção de dados dos Serviços profissionais.
-- Os clientes enviam relatórios pelo [Portal do suporte ao cliente](http://support.microsoft.com) nos quais descrevem as atividades suspeitas.
+- Os clientes enviam relatórios pelo [Portal do suporte ao cliente](https://support.microsoft.com) nos quais descrevem as atividades suspeitas.
 - Os funcionários dos Serviços profissionais enviam os escalonamentos. Os funcionários da Microsoft fazem treinamentos para identificar e escalonar problemas de segurança possíveis.
 - Para ferramentas e sistemas usados no processo de fornecimento dos Serviços profissionais, as equipes de operações usam alertas de sistema automáticos por monitoramento interno e estruturas de alerta. Esses alertas podem vir na forma de alarmes baseados em assinatura, como antimalware, detecção de invasão ou via algoritmos projetados para analisar a atividade esperada e alertar sobre anomalias.
 

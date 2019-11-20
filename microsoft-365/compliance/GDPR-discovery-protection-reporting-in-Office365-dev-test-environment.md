@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Demonstre recursos de RGPD no Office 365.
-ms.openlocfilehash: 102c0b43eacafc6c1af5596e70b1dd2cec47487e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 98339aeec2c89edd4fead1482f98aa3d9f316856
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072384"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38749631"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste do Office 365
 
@@ -123,7 +123,7 @@ A Contoso sempre faz referência aos clientes usando um CCN nas correspondência
 
     ```
     <?xml version="1.0" encoding="utf-8"?>
-    <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"> 
+    <RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce"> 
     <RulePack id="GUID1">
     <Version major="1" minor="0" build="0" revision="0" />
     <Publisher id="GUID2" />

@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 95805d6d61f2e8454ade16298db78370b0fca9f1
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 1bc2ac17d8548382dff721decba674952de977d6
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078921"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749620"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Suporte ao seu programa RGPD com listas de verificação de preparação para responsabilidade
 

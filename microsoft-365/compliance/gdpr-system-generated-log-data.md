@@ -10,13 +10,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: d2fb80270296c5eac2a29fecb2c613680882fb96
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 725c39cdb33a37364e2b24679d1e998f60281b2b
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34697963"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749592"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>Etapas adicionais para exportar dados de log gerados pelo sistema
 
