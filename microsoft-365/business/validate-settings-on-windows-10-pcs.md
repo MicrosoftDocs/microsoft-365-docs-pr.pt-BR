@@ -22,22 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como validar as configurações de proteção do Microsoft 365 Business app em dispositivos Windows 10.
-ms.openlocfilehash: 5fed2278856f40233b142d3c7c4bc623e3777799
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: b8793ab7f77bbc7f608f237e2455f6fd12c3bb26
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575459"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721791"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção do dispositivo em computadores com Windows 10
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Verificar se as políticas de dispositivo do Windows 10 estão definidas
 
-Depois de [configurar as políticas de dispositivos](protection-settings-for-windows-10-pcs.md), pode levar algumas horas para que a política entre em vigor nos dispositivos dos usuários. Você pode confirmar que as políticas tomaram efeito examinando várias telas de configurações do Windows nos dispositivos dos usuários. Como os usuários não poderão modificar as configurações de Windows Update e antivírus do Windows Defender em seus dispositivos Windows 10, muitas dessas opções ficarão acinzentadas.
+Depois de [configurar as políticas de dispositivos](protection-settings-for-windows-10-pcs.md), pode levar algumas horas para que a política entre em vigor nos dispositivos dos usuários. Você pode confirmar que as políticas tomaram efeito examinando várias telas de configurações do Windows nos dispositivos dos usuários. Como os usuários não poderão modificar as configurações do Windows Update Antivirus e do Windows Defender em seus dispositivos Windows 10, muitas opções serão acinzentadas.
   
 1. Vá para **configurações** \> **atualização &amp; de segurança** \> do **Windows Update** \> **Opções de reinicialização** e confirme se todas as configurações estão acinzentadas. 
     
-    ![Todas as opções de reinicialização ficam acinzentadas.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Todas as opções de reinicialização ficam esmaecidas.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
 2. Vá para **configurações** \> **avançadas** de **atualização &amp; de segurança** \> do **Windows Update** \> e confirme se todas as configurações estão acinzentadas. 
     
@@ -49,11 +49,11 @@ Depois de [configurar as políticas de dispositivos](protection-settings-for-win
     
     ![Escolha a página como as atualizações são entregues indica que as configurações estão ocultas ou gerenciadas pela sua organização.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
-4. Para abrir a central de segurança do Windows Defender, acesse **configurações** \> de **atualização &amp; de segurança** **** \> \> Windows Defender clique em abrir o thread de \> vírus **** ** &amp; da central de segurança do Windows Defender ** \> **configurações de &amp; proteção contra ameaças de vírus**de proteção. 
+4. Para abrir a central de segurança do Windows Defender, vá para **configurações** \> de segurança \> de ** &amp; atualização** do **Windows Defender** \> clique em **abrir a central** \> ** &amp; ** de segurança do Windows Defender proteção \> contra ** &amp; ameaças**de vírus. 
     
 5. Verifique se todas as opções estão acinzentadas. 
     
-    ![As configurações de proteção contra vírus e ameaças estão acinzentadas.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![As configurações de proteção contra vírus e ameaças são esmaecidas.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Tópicos Relacionados
 

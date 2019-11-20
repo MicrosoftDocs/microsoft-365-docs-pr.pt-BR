@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: cd59570cbcb9b027780e160117b44be88770d6b9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575539"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721480"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business no assistente de instalação
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Adicionar o domínio, os usuários e as políticas de configuração
 
-[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de sua propriedade ou comprar um durante a [inscrição](sign-up.md).
 
@@ -58,7 +58,7 @@ Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de 
     
 4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifica se você é o proprietário do domínio. Se você souber seu host de domínio, consulte também as [instruções específicas do host](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Se o seu provedor de hospedagem for GoDaddy ou outro host habilitado com o [domínio Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e você será solicitado a entrar novamente e permitir que a Microsoft autentique em seu nome:
+    Se o seu provedor de hospedagem for o GoDaddy ou outro host habilitado com o [domínio Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e você será solicitado a entrar novamente e permitir que a Microsoft autentique em seu nome.
 
     ![Na página Confirmar acesso do GoDaddy, selecione autorizar.](media/godaddyauth.png)
 
@@ -74,7 +74,7 @@ Todos os usuários adicionados ao assistente recebem automaticamente uma licenç
 
 1. Se sua assinatura do Microsoft 365 Business tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
 
-2. Depois de adicionar os usuários, você também terá uma opção para compartilhar credenciais com os novos usuários que você adicionou. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+2. Depois de adicionar os usuários, você também terá uma opção de compartilhar credenciais com os novos usuários que você adicionou. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
 
 3. Na criação de equipes para sua organização, você pode optar por adicionar equipes e adicionar usuários a elas. Você também pode fazer isso mais tarde. Para obter mais informações, consulte [criar uma equipe para toda a empresa](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
 
@@ -103,7 +103,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 
 As políticas configuradas no assistente são aplicadas automaticamente a um [grupo de segurança](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) chamado *todos os usuários*. Você também pode criar grupos adicionais para atribuir políticas ao centro de administração.
 
-1. Na lista **proteger seus arquivos de trabalho em dispositivos móveis** , a opção **proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** será selecionada por padrão. Você pode ativar a opção **gerenciar como os usuários acessam arquivos do Office em dispositivos móveis**e isso é recomendável.
+1. Em **proteger seus arquivos de trabalho em dispositivos móveis**, a opção **proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados** será selecionada por padrão. Você pode ativar a opção **gerenciar como os usuários acessam arquivos do Office em dispositivos móveis**e isso é recomendável.
 
     ![Captura de tela da página proteger arquivos de trabalho em dispositivos móveis.](media/protectworkfilesondevices.png)
 
@@ -123,7 +123,8 @@ As políticas configuradas no assistente são aplicadas automaticamente a um [gr
 
 ## <a name="deploy-office-365-client-apps"></a>Implantar aplicativos cliente do Office 365
 
-Se você optar por instalar automaticamente os aplicativos do Office no durante a configuração, os aplicativos serão instalados nos dispositivos Windows 10 depois que eles entrarem no Azure AD de seus dispositivos Windows com suas credenciais de trabalho.
+Se você optar por instalar automaticamente aplicativos do Office durante a instalação, os aplicativos serão instalados nos dispositivos Windows 10 depois que eles entrarem no Azure AD de seus dispositivos Windows, usando suas credenciais de trabalho.
+
 Para instalar o Office no Mobile iOS ou dispositivos Android, consulte [set up Mobile Devices for Microsoft 365 business users](set-up-mobile-devices.md).
 
 Você também pode instalar o Office individualmente. Confira [instalar o Office em um PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) para obter instruções.

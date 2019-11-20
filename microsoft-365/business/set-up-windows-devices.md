@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Saiba como configurar dispositivos do Windows que executam o Windows 10 pro para usuários do Microsoft 365 Business. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575559"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718860"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Configurar dispositivos Windows para usuários do Microsoft 365 Business
 
@@ -41,7 +41,7 @@ Confira [verificar se o dispositivo está conectado ao Azure ad](#verify-the-dev
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Ingressar dispositivos Windows 10 ao Azure AD de sua organização
 
-Depois que todos os dispositivos Windows de sua organização terem sido atualizados para a Atualização do Windows 10 Pro para Criadores ou já estiverem executando a Atualização do Windows 10 Pro para Criadores, você poderá ingressar esses dispositivos em sua organização do Azure Active Directory. Depois que os dispositivos são ingressados, eles serão automaticamente atualizados para o Windows 10 Business, que faz parte de sua assinatura do Microsoft 365 Business.
+Quando todos os dispositivos Windows da sua organização tiverem sido atualizados para a atualização do Windows 10 pro Creators ou já estiverem executando o Windows 10 pro Creators Update, você poderá ingressar nesses dispositivos no Azure Active Directory da sua organização. Depois que os dispositivos são associados, eles serão automaticamente atualizados para o Windows 10 Business, que faz parte da sua assinatura do Microsoft 365 Business.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>No caso de um dispositivo Windows 10 Pro novo ou atualizado recentemente
 
@@ -89,7 +89,7 @@ No caso de um novo dispositivo que executa a Atualização do Windows 10 Pro par
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Se você carregou arquivos no OneDrive for Business, sincronize-os novamente. Se você usou uma ferramenta de terceiros para migrar o perfil e arquivos, sincronize-os também com o novo perfil.
+Se você carregou arquivos no OneDrive for Business, sincronize-os novamente. Se você usou uma ferramenta de terceiros para migrar o perfil e os arquivos, sincronize-os com o novo perfil.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Verifique se o dispositivo está conectado ao Azure AD
 
@@ -97,7 +97,7 @@ Para verificar seu status de sincronização, na página **Acessar trabalho ou e
   
 Na página de status de sincronização, clique em Sincronização para obter as últimas políticas de gerenciamento de dispositivo móvel no PC.
   
-Para começar a usar a conta do Microsoft 365 Business, vá para o botão **Iniciar** do Windows, clique com botão direito na imagem da conta atual e, em seguida, clique em **Trocar conta**. Entre com o email e a senha da sua organização.
+Para começar a usar a conta do Microsoft 365 Business, vá para o botão **Iniciar** do Windows, clique com o botão direito do mouse na sua imagem da conta atual e **mude de conta**. Entre com o email e a senha da sua organização.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   

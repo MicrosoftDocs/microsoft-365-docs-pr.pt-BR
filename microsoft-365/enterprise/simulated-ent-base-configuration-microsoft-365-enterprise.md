@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: bbb3bc2fc7d2abab395dc50481f1955382eca144
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: 98eb336a0f63f47b4b79de44c46fcd81f1d9c9f6
+ms.sourcegitcommit: 2bdd7b535a7d2a4896df130b7047f8c85f4d47b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694128"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38711875"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
@@ -213,7 +213,7 @@ Em seguida, configure a nova conta Usuário1 como um administrador de domínio, 
   
 ```powershell
 $yourDomain="<your public domain>"
-$domainName = "testlab"+$yourDomain
+$domainName = "testlab."+$yourDomain
 $userName="user1@" + $domainName
 $userSID=(New-Object System.Security.Principal.NTAccount($userName)).Translate([System.Security.Principal.SecurityIdentifier]).Value
 $groupNames=@("Domain Admins","Enterprise Admins","Schema Admins")

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Instale o Office em um iPhone ou telefone Android, e seus arquivos de trabalho nos aplicativos do Office serão protegidos pelo Microsoft 365 Business.
-ms.openlocfilehash: 6dd18569f0d4b3c71f00004706c2430eb7c5ae43
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: e09db43705d601df0c0b30a46ee36cf0295ecae3
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575599"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718930"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Configurar dispositivos móveis para usuários do Microsoft 365 Business
 
@@ -58,11 +58,11 @@ Insira seu endereço de email corporativo na tela **Adicionar Conta de Email** \
   
 ![Sign in to your work account](media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Se sua organização estiver protegendo arquivos em aplicativos, você verá uma caixa de diálogo informando que sua organização agora protege os dados no aplicativo e você precisa reiniciar o aplicativo para continuar a usá-la. Toque em **OK** e feche o Outlook. 
+Se sua organização estiver protegendo arquivos em aplicativos, você verá uma caixa de diálogo informando que sua organização agora está protegendo os dados no aplicativo e precisará reiniciar o aplicativo para continuar a usá-lo. Toque em **OK** e feche o Outlook. 
   
-![Screenshot that showa your organization is now protecting your Outlook app](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Captura de tela que mostra a sua organização agora está protegendo seu aplicativo Outlook](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-Localize o Outlook no iPhone e reinicie-o. Quando solicitado, digite um PIN e verifique-o. O Outlook no iPhone agora está pronto para ser usado.
+Localize o Outlook no iPhone e reinicie-o. Quando solicitado, insira um PIN e verifique-o. O Outlook no iPhone agora está pronto para ser usado.
   
 ![Set a PIN to access your organization's data](media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
@@ -72,11 +72,11 @@ Para iniciar a instalação no seu telefone Android, vá para o repositório de 
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Insira Microsoft Outlook na caixa de pesquisa do Google Play e toque em **Instalar**.Quando o Outlook estiver instalado, toque em **Abrir**.
+Insira o Microsoft Outlook na caixa de pesquisa Google Play e toque em **instalar**. Após a instalação do Outlook, toque em **abrir**.
   
 ![Tap Open to open Outlook app](media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-No aplicativo do Outlook, toque em **Começar** e, em seguida, adicione a conta de email do Microsoft 365 Business \> **Continuar** e entre com as credenciais da sua organização.
+No aplicativo Outlook, toque em **começar**, adicione sua conta \> de email do Microsoft 365 Business **continue**e entre com as credenciais da sua organização.
   
 ![Sign in to your organizational account in Outlook](media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -84,7 +84,7 @@ A caixa de diálogo informa que você deve instalar o aplicativo Portal da Empre
   
 ![Tap on Go to store to get Intune Company Portal app](media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Na Play Store, instale o Portal da Empresa Intune.
+Em reproduzir repositório, instale o portal da empresa do Intune.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   

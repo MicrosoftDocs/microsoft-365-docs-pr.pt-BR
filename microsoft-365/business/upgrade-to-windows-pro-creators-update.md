@@ -18,29 +18,29 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Saiba como atualizar dispositivos Windows para a atualização do Windows 10 pro Creators. '
-ms.openlocfilehash: 5daebb16dcb98ebcdacfb5c7cf330772b24ab753
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 72522626d3d5cd836b47e896202e6c18c06fe0b1
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575479"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718840"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Atualizar dispositivos Windows para a Atualização do Windows Pro para Criadores
 
 ## <a name="upgrade-to-windows-10-pro-creators-update"></a>Atualização para a atualização do Windows 10 pro Creators
   
-1. Para atualizar para a atualização do Windows 10 pro Creators, você tem várias opções. Você pode:
+Para atualizar para a atualização do Windows 10 pro Creators, você tem várias opções. Você pode:
     
-    - Instalar a atualização do [site de download de software da Microsoft](https://go.microsoft.com/fwlink/?LinkID=836951 ) -Selecione esta opção se o dispositivo em que você está conectado estiver no mesmo dispositivo que a atualização.
-    
-      a. No site de download de software, clique em **Atualizar agora** para começar a atualizar o dispositivo para a atualização do Windows 10 pro Creators. 
-    
-     - Criar uma mídia de instalação usando a [ferramenta de criação de mídia](https://go.microsoft.com/fwlink/?LinkID=836960) -Selecione esta opção para criar uma mídia de instalação de atualização do Windows 10 pro Creator (unidade flash USB ou arquivo ISO) para instalar o Windows 10 em um computador diferente daquele que você está usando.
-    
-        a. Leia as instruções sobre como usar a ferramenta e criar sua mídia de instalação. 
+- Instalar a atualização do [site](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; de download de software da Microsoft Selecione essa opção se o dispositivo em que você está conectado estiver no mesmo dispositivo que o que você deseja atualizar. 
 
-> [!Note]
-> Se você tiver dispositivos Windows que executam o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura do Microsoft 365 Business lhe dá direito a uma atualização do Windows 10-você não precisa de uma chave de produto.
+    - No site de download de software, clique em **Atualizar agora** para começar a atualizar o dispositivo para a atualização do Windows 10 pro Creators. 
+    
+- Criar uma mídia de instalação usando a [ferramenta](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; de criação de mídia Selecione essa opção para criar uma mídia de instalação de atualização do Windows 10 pro Creator (unidade flash USB ou arquivo ISO) para instalar o Windows 10 em um computador diferente daquele que você está usando.
+
+    - Leia as instruções sobre como usar a ferramenta e criar sua mídia de instalação. 
+
+> [!NOTE]
+> Se você tiver dispositivos Windows que executam o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura do Microsoft 365 Business lhe dá direito a uma atualização do Windows 10; Você não precisa de uma chave de produto.
     
 Confira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para concluir a configuração dos dispositivos Windows 10. 
   

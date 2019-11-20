@@ -14,16 +14,18 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar regras de fluxo de emails (regras de transporte) para criptografar e descriptografar mensagens usando a criptografia de mensagem do Office 365.
-ms.openlocfilehash: 17a04941d7132dbe50f8a79ec3b8879b300b414e
-ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
+ms.openlocfilehash: 54fc53d1e39208f42348b6def4afadf71092ff11
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "38684727"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748549"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Definir regras de fluxo de e-mail para criptografar mensagens de e-mail no Office 365
 
 Como administrador global do Office 365, você pode criar regras de fluxo de emails (também conhecidas como regras de transporte) para ajudar a proteger mensagens de email enviadas e recebidas. Você pode configurar regras para criptografar qualquer mensagem de email de saída e remover a criptografia de mensagens criptografadas de dentro da sua organização ou de respostas para mensagens criptografadas enviadas da sua organização. Você pode usar o centro de administração do Exchange (Eat) ou o PowerShell do Exchange Online para criar essas regras. Além das regras de criptografia geral, também é possível habilitar ou desabilitar opções de criptografia de mensagens individuais para usuários finais.
+
+Você não pode criptografar emails de entrada de remetentes fora da sua organização.
 
 Se você migrou recentemente do AD RMS para a proteção de informações do Azure, precisará revisar suas regras de fluxo de emails existentes para garantir que eles continuem funcionando em seu novo ambiente. Além disso, se você quiser aproveitar as vantagens dos novos recursos de criptografia de mensagens do Office 365 (OME) disponíveis por meio da proteção de informações do Azure, precisará atualizar suas regras de fluxo de email existentes. Caso contrário, seus usuários continuarão a receber emails criptografados que usam o formato de anexo HTML anterior em vez da nova experiência de OME sem problemas. Se você ainda não configurou o OME, confira [configurar novos recursos de criptografia de mensagens do Office 365](set-up-new-message-encryption-capabilities.md) para obter informações.
 

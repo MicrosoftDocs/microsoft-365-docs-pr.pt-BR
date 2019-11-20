@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365 Business
-ms.openlocfilehash: 9b17af7f6dde321fb8da758f0cc8223e5f488121
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: ce37f6d31037c442d6cabd6adc07f5f0138add54
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676099"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748302"
 ---
 # <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
 
@@ -63,7 +63,7 @@ O ransomware restringe o acesso aos dados criptografando arquivos ou bloqueando 
   
 Você pode se proteger contra o ransomware criando uma ou mais regras de fluxo de email para bloquear extensões de arquivo comumente usadas para ransomware (elas foram adicionadas na etapa [aumentar o nível de proteção contra malware no email](#raise-the-level-of-protection-against-malware-in-mail) ) ou para avisar os usuários que recebem esses anexos por email.
 
-Além dos arquivos que você bloqueou na etapa anterior, é também recomendável criar uma regra para avisar os usuários antes de abrir os anexos de arquivo do Office que incluem macros. O ransomware pode ser oculto dentro de macros, portanto, avisaremos os usuários para não abrir esses arquivos de pessoas que eles não conhecem.
+Além dos arquivos que você bloqueou na etapa anterior, também é recomendável criar uma regra para avisar os usuários antes de abrir os anexos de arquivo do Office que incluem macros. O ransomware pode ser oculto dentro de macros, portanto, avisar os usuários para não abrir esses arquivos de pessoas que não conhecem.
 
 Para criar uma regra de transporte de emails:
   
@@ -128,7 +128,6 @@ Se você configurou um ou mais domínios personalizados para o seu ambiente do O
   
 Recomendamos que você comece a usar essa proteção criando uma política para proteger seus usuários mais importantes e seu domínio personalizado. 
 
-  
 Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinamento curto](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)ou conclua as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com). 
@@ -139,9 +138,9 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
     
 4. Na página **anti-phishing** , selecione **+ criar**. Um assistente é iniciado que orienta você na definição da política anti-phishing.
     
-5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) para obter mais detalhes. 
+5. Especifique o nome, a descrição e as configurações da política, conforme recomendado na tabela abaixo. Para obter mais informações, consulte [saiba mais sobre opções de política de anti-phishing do ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies). 
     
-6. Depois de revisar as configurações, escolha **criar esta política** ou **salvar**, conforme apropriado.
+6. Após revisar as configurações, escolha **criar esta política** ou **salvar**, conforme apropriado.
     
 
 |**Configuração ou opção**<br/>|**Configuração recomendada** <br/>|
@@ -161,14 +160,14 @@ Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Pol
 
 ![Faixa que aponta para https://aka.ms/aboutM365preview.](../business/media/m365admincenterchanging.png)
 
-Primeiro, certifique-se de <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> que, no centro de administração, você tenha a nova visualização do centro de administração ativada; Ative a alternância ao lado do texto **o novo centro de administração**.
+Primeiro, verifique se a nova visualização do centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> administração está ativada no centro de administração. Ative a alternância ao lado do texto **o novo centro de administração**.
 
    ![A nova visualização do centro de administração.](media/previewon.png)
 
 Se você ainda não vir a página de **instalação** com cartões no seu locatário, consulte como concluir essas etapas no centro de conformidade &amp; de segurança do Office 365. Confira [set up ATP Safe Attachments no centro de conformidade de & de segurança](#set-up-atp-safe-attachments-in-the-security--compliance-center) e [Configurar links de ATP seguros no centro de conformidade de & de segurança](#set-up-atp-safe-links-in-the-security--compliance-center).
 
 1.  No painel de navegação esquerdo, escolha **configuração**.
-2. Na página **configuração** , escolha **Exibir** no cartão **aumentar proteção contra ameaças avançadas** .</br></br>
+2. Na página **configuração** , escolha **Exibir** no cartão **aumentar a proteção contra ameaças avançadas** .</br></br>
     ![Escolha Exibir na barra de aumento de proteção contra ameaças avançadas.](media/startatp.png) 
 
 3. Na página **aumentar a proteção contra ameaças avançadas** , escolha **introdução**.
@@ -176,7 +175,7 @@ Se você ainda não vir a página de **instalação** com cartões no seu locat�
 
       - Em **links e anexos em email**, digite todos os usuários ou os usuários específicos cujo email você deseja verificar.
 
-    ![Verifique todas as caixas de seleção em aumentar o protestar de ameaças avançadas.](media/setatp.png)
+    ![Marque todas as caixas de seleção em aumentar a proteção contra ameaças avançadas.](media/setatp.png)
 5. Escolha **criar políticas** para ativar os anexos seguros ATP e links seguros de ATP.
 
 ### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>Configurar anexos seguros de ATP no centro de conformidade de & de segurança
@@ -288,9 +287,9 @@ A figura a seguir mostra as políticas padrão incluídas no Microsoft 365 Busin
 
 Você pode impedir que as pessoas em sua organização compartilhem seus calendários ou também pode gerenciar o que eles podem compartilhar. Por exemplo, você pode restringir o compartilhamento somente para horários disponíveis/ocupados.
 
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **configurações** \> de **Serviços & suplementos**
-2. Na página **serviços &** suplementos, escolha **calendário**e escolha se as pessoas em sua organização podem compartilhar seus calendários com pessoas de fora que tenham o Office 365 ou Exchange, ou com qualquer pessoa. 
-    Se você escolher o compartilhamento com qualquer pessoa, poderá optar por apenas compartilhar informações de disponibilidade.
+1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **configurações** \> de **Serviços & suplementos**.
+2. Na página **serviços & suplementos** , escolha **calendário**e escolha se as pessoas em sua organização podem compartilhar seus calendários com pessoas de fora que tenham o Office 365 ou Exchange, ou com qualquer pessoa. 
+    Se você escolher a opção compartilhar com qualquer pessoa, você pode decidir também compartilhar apenas informações de disponibilidade.
 
 3. Escolha **salvar alterações** na parte inferior da página.
 

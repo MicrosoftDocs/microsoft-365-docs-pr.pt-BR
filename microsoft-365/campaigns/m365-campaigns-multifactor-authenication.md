@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a autenticação multifator.
-ms.openlocfilehash: cd14bb0d0f24215c64579851fe6982c5bf1ddc3e
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 8bd3d4e0c2a918d5b8dbf0c763444bb0a1cff466
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772488"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748352"
 ---
 # <a name="set-up-multifactor-authentication"></a>Configurar a autenticação multifator
 
@@ -38,4 +38,4 @@ Veja mais em [Configure Multifactor Authentication in Microsoft 365 Business](ht
 
 ## <a name="use-the-outlook-app-in-your-devices"></a>Usar o aplicativo Outlook em seus dispositivos
 
-Depois que o administrador exigir que você use a MFA e você tiver configurado um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use somente o aplicativo Outlook para acessar seu email do Microsoft 365 para campanhas. Confira [configurar dispositivos móveis](../business/set-up-mobile-devices.md) para instalar aplicativos do Office, incluindo o Outlook, em seu telefone.
+Depois que o administrador exigir que você use a MFA e você tenha configurado um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use somente o aplicativo Outlook para acessar seu email Microsoft 365 para campanhas. Confira [configurar dispositivos móveis](../business/set-up-mobile-devices.md) para instalar aplicativos do Office, incluindo o Outlook, em seu telefone.
