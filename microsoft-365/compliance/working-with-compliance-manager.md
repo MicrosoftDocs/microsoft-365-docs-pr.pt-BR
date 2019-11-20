@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: e8e1ae997bf48f38e66319aec6ee07d0a84768c8
-ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+ms.openlocfilehash: b1d67a71d8440923552e4702f7035bd24b166fec
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38684854"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718680"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -421,13 +421,13 @@ Essa guia inclui colunas que definem ações individuais e inclui detalhes como 
 
 - **actionDimensionValues:** Lista delimitada por ponto-e-vírgula duplo de dimensões aplicáveis da guia dimensões, usando o seguinte formato:
 
-    ```
+    ```Markdown
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
     ```
     
     Por exemplo:
 
-    ```
+    ```Markdown
     Product::Office 365;;Certification::NIST CSF
     ```
 
@@ -461,7 +461,7 @@ Os modelos e as avaliações dão suporte ao uso do idioma de redução para alg
 
 Os marcadores são representados como asteriscos em vez de marcadores do Word ou Excel. Por exemplo:
 
-```
+```Markdown
 * Item A
 * Item B
 * Item C
@@ -480,15 +480,16 @@ Os números são representados como números, mas com espaços para recuo (três
 
 Os hiperlinks são construídos colocando-se entre colchetes ao redor do texto do hiperlink e do hiperlink em si, em parênteses imediatamente ao lado do colchete de fechamento.  Por exemplo:
 
-```
+```Markdown
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 ```
 Este texto é renderizado da seguinte maneira: clique [aqui](https://www.microsoft.com) para ir para a Home Page da Microsoft.
+
 Conforme mostrado no exemplo acima, o Gerenciador de conformidade não renderiza URLs com sublinhado.
 
-O texto em negrito é apenas dois asteriscos em cada lado do texto a ser negrito.  Por exemplo:
+O texto em negrito é dois asteriscos em cada lado do texto a ser negrito.  Por exemplo:
 
-```
+```Markdown
 **This text will render in bold**
 ```
 **Este texto é renderizado em negrito**
