@@ -20,32 +20,31 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Exibir políticas e ações de dispositivos entrando no Microsoft 365 Business com credenciais de administrador global.
-ms.openlocfilehash: c961630f0698ed864bfb94b4672f92825089ea4c
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 982c1f410802f9589d40073a11768b7dd68567c0
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575439"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718910"
 ---
-# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="40868-103">Exibir e gerenciar políticas e dispositivos</span><span class="sxs-lookup"><span data-stu-id="40868-103">View and manage policies and devices</span></span>
+# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="b3358-103">Exibir e gerenciar políticas e dispositivos</span><span class="sxs-lookup"><span data-stu-id="b3358-103">View and manage policies and devices</span></span>
 
-<span data-ttu-id="40868-104">[![Rótulo para permitir que o centro de administração esteja mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="40868-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
+<span data-ttu-id="b3358-104">[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="b3358-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-## <a name="view-and-edit-device-policies"></a><span data-ttu-id="40868-105">Exibir e editar políticas de dispositivos</span><span class="sxs-lookup"><span data-stu-id="40868-105">View and edit device policies</span></span>
+## <a name="view-and-edit-device-policies"></a><span data-ttu-id="b3358-105">Exibir e editar políticas de dispositivos</span><span class="sxs-lookup"><span data-stu-id="b3358-105">View and edit device policies</span></span>
 
-1.  <span data-ttu-id="40868-106">Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="40868-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
-2. <span data-ttu-id="40868-107">No painel de navegação esquerdo, escolha **políticas**de **dispositivos** \> .</span><span class="sxs-lookup"><span data-stu-id="40868-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
+1.  <span data-ttu-id="b3358-106">Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="b3358-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+2. <span data-ttu-id="b3358-107">No painel de navegação esquerdo, escolha **políticas**de **dispositivos** \> .</span><span class="sxs-lookup"><span data-stu-id="b3358-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
 
-    <span data-ttu-id="40868-108">Nessa página, você pode criar, editar, alterar o grupo de destino ou excluir uma política.</span><span class="sxs-lookup"><span data-stu-id="40868-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
+    <span data-ttu-id="b3358-108">Nesta página, você pode criar, editar, alterar o grupo de destino ou excluir uma política.</span><span class="sxs-lookup"><span data-stu-id="b3358-108">On this page, you can create, edit, change target group, or delete a policy.</span></span>
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a><span data-ttu-id="40868-110">Exibir e gerenciar dispositivos</span><span class="sxs-lookup"><span data-stu-id="40868-110">View and manage devices</span></span>
+## <a name="view-and-manage-devices"></a><span data-ttu-id="b3358-110">Exibir e gerenciar dispositivos</span><span class="sxs-lookup"><span data-stu-id="b3358-110">View and manage devices</span></span>
 
-
-1. <span data-ttu-id="40868-111">Na barra de navegação esquerda, escolha **dispositivos** \> **gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="40868-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
+1. <span data-ttu-id="b3358-111">Na barra de navegação esquerda, escolha **dispositivos** \> **gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="b3358-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
     
-    <span data-ttu-id="40868-p101">Nessa página, você pode selecionar um ou mais dispositivos e remover dados da empresa. Para dispositivos Windows 10 para os quais você definiu configurações de proteções do dispositivo, também é possível optar por restaurar o dispositivo com as configurações de fábrica.</span><span class="sxs-lookup"><span data-stu-id="40868-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
+    <span data-ttu-id="b3358-112">Nessa página, você pode selecionar um ou mais dispositivos e remover dados da empresa.</span><span class="sxs-lookup"><span data-stu-id="b3358-112">On this page, you can select one or more devices and remove company data.</span></span> <span data-ttu-id="b3358-113">Para dispositivos Windows 10 para os quais você definiu configurações de proteções do dispositivo, também é possível optar por restaurar o dispositivo com as configurações de fábrica.</span><span class="sxs-lookup"><span data-stu-id="b3358-113">For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
   
    ![Página gerenciar dispositivos](media/devicesmanage.png)
 
