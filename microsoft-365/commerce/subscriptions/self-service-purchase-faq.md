@@ -13,12 +13,12 @@ ms.custom: aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
-ms.openlocfilehash: cbf30a29ed3948cb3b20da919835ed2524163617
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: fb295315eca84614e78792d0900318610c26b239
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721641"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757688"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -29,12 +29,11 @@ ms.locfileid: "38721641"
 
 ### <a name="what-changes-did-microsoft-announce-around-self-service-purchases-for-the-power-platform-products"></a>Quais alterações a Microsoft anunciou em compras de autoatendimento para os produtos da plataforma de energia?
 
-ATUALIZAR a partir de 31 de outubro de 2019: na semana passada, temos a opinião dos clientes sobre a distribuição de nossos recursos de compra de autoatendimento para produtos de plataforma de energia. Com base nos comentários, estamos fazendo as seguintes alterações em nosso plano:
+Em 19 de novembro de, fornecemos aos administradores de ti uma maneira de desativar a compras de autoatendimento por produto através do PowerShell. Para saber como usá-la, confira [usar o AllowSelfServicePurchase para o módulo do MSCommerce PowerShell](allowselfservicepurchase-powershell.md).
 
-- No dia 19 de novembro, forneceremos aos administradores de ti uma maneira de desativar a compras de autoatendimento por produto através do PowerShell. Para saber como usá-la, confira [usar o AllowSelfServicePurchase para o módulo do MSCommerce PowerShell](allowselfservicepurchase-powershell.md).
-- Para dar mais tempo para se preparar para essa mudança, estamos atualizando o lançamento para recursos de compra de autoatendimento para os produtos de plataforma de alimentação para começar com o Power BI em 14 de Janeiro para todos os clientes de nuvem comercial.  
+Para dar mais tempo para se preparar para essa mudança, estamos atualizando o lançamento para recursos de compra de autoatendimento para os produtos de plataforma de alimentação para iniciar com o Power BI em 14 de Janeiro para todos os clientes de nuvem comercial.  
 
-Desde 14 de janeiro de 2020, a aquisição de autoatendimento, assinatura e recursos de gerenciamento de licença para produtos de plataforma de alimentação (Power BI, aplicativos de energia e automatização de energia) estarão disponíveis para clientes em nuvem comercial nos Estados Unidos. A compra de autoatendimento oferece aos usuários a oportunidade de experimentar novas tecnologias e permitir que elas desenvolvam soluções que, por fim, beneficiarão suas organizações maiores. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento. As equipes de compras centrais e de ti terão visibilidade para todos os usuários que compram e implantam soluções de compras de autoatendimento por meio do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> e poderão desativar a compra de autoatendimento por produto por meio do PowerShell.
+Desde 14 de janeiro de 2020, a aquisição de autoatendimento, assinatura e recursos de gerenciamento de licença para produtos de plataforma de alimentação (Power BI, aplicativos de energia e automatização de energia) estarão disponíveis para clientes em nuvem comercial nos Estados Unidos. A compra de autoatendimento oferece aos usuários a oportunidade de experimentar novas tecnologias e permitir que elas desenvolvam soluções que irão beneficiar suas organizações maiores. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento. As equipes de compras centrais e de ti terão visibilidade para todos os usuários que compram e implantam soluções de compras de autoatendimento por meio do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>e poderão desativar a compras de autoatendimento por produto por meio do PowerShell.
 
 ### <a name="why-is-microsoft-adding-a-self-service-purchase-option-for-the-power-platform-products"></a>Por que a Microsoft está adicionando uma opção de compra de autoatendimento para os produtos da plataforma de alimentação?
 
@@ -46,13 +45,13 @@ A Microsoft está iniciando a compra de autoatendimento para o Power BI em 14 de
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>A compra de autoatendimento será habilitada para serviços além dos produtos de plataforma de energia?
 
-No momento, a família de produtos de plataforma de energia é o único serviço oferecido por meio de compras de autoatendimento.
+No momento, apenas os produtos da família de plataformas de alimentação estão sendo oferecidos por meio de compras de autoatendimento.
 
 ## <a name="making-a-self-service-purchase"></a>Fazendo uma compra de autoatendimento
 
 ### <a name="how-does-a-customer-make-a-self-service-purchase"></a>Como um cliente faz uma compra de autoatendimento?
 
-Os clientes poderão fazer compras de autoatendimento online no Microsoft Power BI, aplicativos de energia e sites de energia automatizados. Primeiro, os clientes serão solicitados a inserir um endereço de email para garantir que eles sejam um usuário em um locatário do Azure Active Directory (AD) existente e, em seguida, eles serão direcionados para fazer logon usando suas credenciais do Azure AD. Depois de fazer logon, o cliente será solicitado a selecionar quantas assinaturas desejam comprar e fornecer pagamento de cartão de crédito. Quando a compra estiver concluída, será possível começar a usar sua assinatura. O comprador também poderá acessar um modo de exibição limitado do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> , onde poderá permitir que outras pessoas em sua organização usem o produto.
+Os clientes poderão fazer compras de autoatendimento online no Microsoft Power BI, aplicativos de energia e sites de energia automatizados. Primeiro, os clientes serão solicitados a inserir um endereço de email para garantir que eles sejam um usuário em um locatário existente do Azure Active Directory (AD). Em seguida, eles serão direcionados para fazer logon usando suas credenciais do Azure AD. Depois de entrar, o cliente receberá uma solicitação para selecionar quantas assinaturas eles desejam comprar e fornecer o pagamento do cartão de crédito. Quando a compra estiver concluída, será possível começar a usar sua assinatura. O comprador também poderá acessar um modo de exibição limitado do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> , onde poderá permitir que outras pessoas em sua organização usem o produto.
 
 ### <a name="what-are-the-payment-options-for-self-service-purchases"></a>Quais são as opções de pagamento para compras de autoatendimento?
 
@@ -100,7 +99,7 @@ A pessoa que comprar a assinatura por meio de compras de autoatendimento será c
 
 Os administradores podem exibir todas as compras de autoatendimento feitas em sua organização no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. Se for necessário para sua organização, os administradores poderão desativar a compra de autoatendimento por produto através do PowerShell. Os administradores têm as mesmas políticas de gerenciamento de dados e acesso sobre os produtos comprados por meio de compras de autoatendimento ou de forma centralizada.
 
-Os administradores também podem controlar se os usuários de sua organização podem fazer compras de autoatendimento. Para obter mais informações, consulte [usar o AllowSelfServicePurchase para o módulo do MSCommerce PowerShell](allowselfservicepurchase-powershell.md).
+Os administradores também podem controlar se os usuários de sua organização podem fazer compras de autoatendimento. Para obter mais informações, consulte [usar AllowSelfServicePurchase para o módulo do MSCommerce PowerShell](allowselfservicepurchase-powershell.md).
 
 ### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Como a Microsoft está respeitando a conformidade e o controle de dados habilitando a compra de autoatendimento?
 

@@ -11,16 +11,16 @@ ms.author: TrudyHa
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: f14809e58c1580333ba4e412a2b442df79e61975
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 047c93dd6dbeeb1e55bfc22b337f42870f34e104
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029025"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753550"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
-Você pode gerenciar licenças e cobrança para aplicativos de terceiros no centro de administração do Microsoft 365 com o modo de visualização ativado. Os recursos atualizados incluem gerenciamento avançado de assinatura, acesso melhorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinatura é baseado na plataforma comercial atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes adquirem diretamente ou de um provedor de terceiros.
+Você pode gerenciar licenças e cobrança para aplicativos de terceiros no centro de administração do Microsoft 365 com o modo de visualização ativado. Os recursos atualizados incluem gerenciamento avançado de assinatura, acesso melhorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinatura é baseado na plataforma comercial atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes adquirem diretamente ou de provedor de terceiros.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 Há algumas maneiras de comprar aplicativos de terceiros.
@@ -50,7 +50,7 @@ O suporte para aplicativos de terceiros está disponível nestas regiões:
 - Europa Ocidental
 
 ## <a name="set-up-app"></a>Configurar aplicativo
-Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do fornecedor de terceiros. 
+Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Esses aplicativos são ativados no portal do fornecedor de terceiros. 
 
 **Para ativar aplicativos de terceiros**
 1. Vá para o [centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=837890)e ative **a visualização**.
@@ -60,18 +60,18 @@ Os administradores precisam ativar aplicativos de terceiros antes de atribuí-lo
 
 Você será direcionado para o site do fornecedor do aplicativo onde é possível ativar o aplicativo. 
 
-## <a name="managing-3rd-party-apps"></a>Gerenciando aplicativos de terceiros
-Os administradores gerenciam aplicativos de terceiros em dois locais: centro de administração do Microsoft 365 e portal do provedor de aplicativos de terceiros. Veja aqui o que você pode fazer em cada portal.
+## <a name="managing-third-party-apps"></a>Gerenciando aplicativos de terceiros
+Os administradores gerenciam aplicativos de terceiros em dois locais: centro de administração do Microsoft 365 e portal do provedor de aplicativos terceirizado. Veja aqui o que você pode fazer em cada portal.
 
 ### <a name="app-status"></a>Status do aplicativo
-Após a ativação, o aplicativo permanecerá ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Você precisa comprar outra cópia do aplicativo para continuar a usá-la.
+Depois de ativado, o aplicativo permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Você precisa comprar outra cópia do aplicativo para continuar a usá-la.
 
 | Centro de administração do Microsoft 365 | Portal do fornecedor do aplicativo |
 | --- | --- |
 | Alterar a quantidade de licenças <br> Gerenciar como pagar sua cobrança <br> Gerenciar como pagar sua cobrança <br> Alterar método de pagamento (cartão de crédito) <br> Exibir fatura <br> Cancelar assinatura do aplicativo | Configurar o aplicativo (uma vez para cada aplicativo) <br> Atribuir licenças a usuários <br> Suporte técnico |
 
 ## <a name="assign-licenses"></a>Atribuir licenças
-Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do fornecedor de terceiros. Na página aplicativo, em configurações & ações, selecione o link para atribuir licenças.
+Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do fornecedor de terceiros. Na página aplicativo, em **configurações & ações**, selecione o link para atribuir licenças.
 
 **Para atribuir aplicativos de terceiros**
 
@@ -81,7 +81,7 @@ Os administradores precisam ativar aplicativos de terceiros antes de atribuí-lo
 4. Em **configurações & ações**, selecione o link para **gerenciar no portal do Publisher**. 
  
 ## <a name="change-license-quantity"></a>Alterar a quantidade de licenças
-Os administradores podem alterar o número de licenças pertencentes à sua organização. Isso se aplica apenas aos aplicativos adquiridos com o preço baseado em assento.
+Os administradores podem alterar o número de licenças pertencentes à sua organização. Isso aplica-se apenas aos aplicativos adquiridos com o preço baseado em assento.
 
 **Para alterar a quantidade de licenças**
 

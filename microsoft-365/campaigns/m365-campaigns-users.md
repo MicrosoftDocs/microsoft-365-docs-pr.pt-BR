@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft 365 para campanhas afeta seus usuários.
-ms.openlocfilehash: beded4f9346a8e05244a28cb28c06a1b5410b12a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11a141ba24aa45c0c60dec064877f319f0b5ded2
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031236"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753590"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Como a Microsoft 365 para campanhas afeta seus usuários
 
@@ -47,7 +47,7 @@ Baixe um [infográfico](m365-campaigns-protect-campaign-infographic.md) com dica
 ## <a name="set-up-iphones-and-android-devices"></a>Configurar iPhones e dispositivos Android
 Todos os usuários que você adicionar ao seu ambiente precisarão de alguns minutos para [configurar os iPhones e dispositivos Android](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json) para que funcionem com segurança:
 - Configurar dispositivos para usar a autenticação multifator com o aplicativo autenticador.
-- Use os aplicativos do Microsoft Mobile, incluindo Outlook Mobile, Word, OneDrive e outros aplicativos da Microsoft da loja de aplicativos. Não há suporte para os aplicativos de email nativos incluídos em iPhones e dispositivos Android. 
+- Use os aplicativos do Microsoft Mobile, incluindo Outlook Mobile, Word, OneDrive e outros aplicativos da Microsoft da loja de aplicativos. Os aplicativos de email nativos incluídos em iPhones e dispositivos Android não são suportados. 
 - Exigir um PIN para que os usuários desbloqueiem seus dispositivos.
 
 Após configurá-los, os usuários serão solicitados a usar o aplicativo autenticador ao acessar os dados da sua organização nesses dispositivos, incluindo emails. 
@@ -74,7 +74,3 @@ Os usuários podem estar tentado a compartilhar e armazenar seus arquivos de org
 
 ## <a name="set-up-managed-windows-10-devices"></a>Configurar dispositivos Windows 10 gerenciados
 Recomendamos que os membros mais importantes da equipe usem dispositivos do Windows 10 que você gerenciam com atualização. Mostraremos como [gerenciar e proteger esses dispositivos](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json). Isso garante que os membros da equipe que são o alvo de valor mais alto para hackers recebam a maior proteção. 
-
-
-
-  

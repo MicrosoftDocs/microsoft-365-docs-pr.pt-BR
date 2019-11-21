@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar políticas de conformidade de comunicação para configurar comunicações de funcionários para revisão.
-ms.openlocfilehash: 76b28443d2fa77967933ea61f2724a2a5ff072be
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 0a830914a22968119d836e2190a6f133d91fd305
+ms.sourcegitcommit: 5f96fa472cbdca30c2cfe24d66c9c6fcaedb1a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684756"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38755599"
 ---
 # <a name="configure-communication-compliance-for-microsoft-365-preview"></a>Configurar conformidade de comunicação para o Microsoft 365 (versão prévia)
 
@@ -42,7 +42,7 @@ Siga estas etapas para configurar e usar a conformidade de comunicação em sua 
 
 - **Etapa 2 (obrigatório)**: [tornar a conformidade de comunicação disponível em sua organização](#step-2-make-communication-compliance-available-in-your-organization-required)
 
-    Adicione a si mesmo à função de **administrador de análise de supervisão** para que você possa configurar políticas. Você também precisará atribuir as funções de **Gerenciamento de caso** e de **revisão** a pessoas ou grupos que terão a ação investigativa e de correção em mensagens com correspondências de política. Qualquer pessoa que tenha essas funções atribuídas pode acessar a página **conformidade de comunicação** no centro de conformidade da Microsoft 365. Se o email reviewable estiver hospedado no Exchange Online, cada revisor deverá ter [acesso ao PowerShell remoto para o Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+    Adicione a si mesmo à função de **administrador de análise de supervisão** para que você possa configurar políticas. Você também precisará criar um grupo com o **administrador de análise de supervisão**, o gerenciamento de **casos** e as funções de **revisão** para pessoas ou grupos que terão a ação investigativa e de correção em mensagens com correspondências de política. Qualquer pessoa que tenha essas funções atribuídas pode acessar a página **conformidade de comunicação** no centro de conformidade da Microsoft 365. Se o email reviewable estiver hospedado no Exchange Online, cada revisor deverá ter [acesso ao PowerShell remoto para o Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 - **Etapa 3 (obrigatório)**: [Configurar uma política de conformidade de comunicação](#step-3-create-a-communication-compliance-policy-required)
 
@@ -77,29 +77,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
 
 ## <a name="step-2-make-communication-compliance-available-in-your-organization-required"></a>Etapa 2: tornar a conformidade de comunicação disponível em sua organização (obrigatório)
 
-Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de supervisão. Para investigar e corrigir mensagens com correspondências de política, você deve receber as funções de **Gerenciamento de caso** e de **revisão** .
-  
-Para fazer isso, você pode adicionar a si mesmo como um membro do grupo de função de análise de supervisão ou pode criar um novo grupo de função.
-  
-### <a name="add-required-roles-to-the-supervisory-reviewer-role-group"></a>Adicionar funções necessárias ao grupo de funções supervisor revisor
-
-1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
-
-2. No centro de conformidade da Microsoft 365, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
-
-3. Selecione o grupo de função de **análise de supervisão** e, em seguida, clique em **Editar** na seção **funções atribuídas** da página detalhes.
-
-4. Selecione **Editar**e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para o **Gerenciamento de casos** e a **revisão**e, em seguida, selecione **Adicionar**.
-
-5. Selecione **concluído**e, em seguida, selecione **salvar**.
-
-6. Na seção **Membros** , selecione **Editar** para adicionar as pessoas que você deseja que gerencie a conformidade de comunicação para sua organização.
-
-7. Selecione **Editar**e, em seguida, selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar**.
-
-8. Selecione **concluído**e, em seguida, selecione **salvar**.
-
-9. Selecione **fechar** para sair da página detalhes do grupo de funções.
+Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Além disso, para investigar e corrigir mensagens com correspondências de política, você deve criar um grupo para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos** e as funções de **revisão** .
 
 ### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
 

@@ -4,19 +4,19 @@ summary: O Microsoft 365 Business é um serviço de assinatura que inclui as fer
 brand: m365
 metadata:
   title: Recursos de negócios do Microsoft 365
-  description: descrição
+  description: description
   ms.service: o365-administration
   ms.topic: hub-page
   ms.collection: collection
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 26ef032b9b5ee69aa30f50bf14ca5cca7563b41e
-  ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+  ms.openlocfilehash: 2d8bececbaf4c249e13f31e314b42afc1bdd31c3
+  ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/08/2019
-  ms.locfileid: "38076295"
+  ms.lasthandoff: 11/21/2019
+  ms.locfileid: "38757638"
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business?
@@ -171,15 +171,15 @@ conceptualContent:
     - url: sign-up.md
       itemType: get-started
       text: Inscreva-se no Microsoft 365 Business
-    - url: https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790
-      itemType: video
-      text: Armazenar arquivos na nuvem
-    - url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
-      itemType: video
-      text: Colaborar com o Microsoft Teams
-    - url: https://docs.microsoft.com/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=%2Fmicrosoft-365%2Fbusiness%2Ftoc.json&bc=%2Fmicrosoft-365%2Fbusiness%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Exibir minha cobrança
+      text: Migrar do Office 365 Business Premium
+    - url: migrate-from-e3.md
+      itemType: how-to-guide
+      text: Migrar do Office 365 E3
+    - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+      itemType: how-to-guide
+      text: Migrar para o Microsoft 365 Enterprise E3
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/security/
+      url: microsoft-365-business-overview.md
       text: Veja mais

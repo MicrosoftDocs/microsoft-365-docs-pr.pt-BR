@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Compartilhe arquivos e vídeos dentro da sua campanha com o Microsoft Teams e o SharePoint.
-ms.openlocfilehash: 14daa826e7df961baefaf7f6e7a17530842aad25
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 446285c375b64c6622905d3320de92c4ddb2dca0
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031186"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753610"
 ---
 # <a name="share-files-and-videos"></a>Compartilhar arquivos e vídeos
 
-Quando você precisa controlar quem pode exibir e quem pode editar seus arquivos, você precisa armazenar os arquivos em um local seguro, onde você pode ter certeza de que as permissões são aplicadas corretamente. Você pode usar o Microsoft Teams para armazenar seus arquivos e, em seguida, compartilhar os arquivos dentro ou fora da sua campanha com o Microsoft Teams ou enviando links do SharePoint. Enviar um link em vez de um anexo de email significa que você sabe quem está exibindo e modificando os arquivos e não pode ser exibido ou modificado sem sua permissão. 
+Quando você precisa controlar quem pode exibir e quem pode editar seus arquivos, você precisa armazenar os arquivos em um local seguro, onde você pode certificar-se de que as permissões são aplicadas corretamente. Você pode usar o Microsoft Teams para armazenar seus arquivos e, em seguida, compartilhar os arquivos dentro ou fora da sua campanha usando o Microsoft Teams ou enviando links do SharePoint. Enviar um link em vez de um anexo de email significa que você sabe quem está exibindo e modificando os arquivos e não pode ser exibido ou modificado sem sua permissão. 
 
 ![Diagrama de uma janela do Microsoft Teams, mostrando a guia arquivos e obter link no menu](media/m365-democracy-teams-sharefiles.png)
 

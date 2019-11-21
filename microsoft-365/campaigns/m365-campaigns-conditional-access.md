@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como exigir a MFA e configurar as políticas de acesso condicional para o Microsoft 365 Business.
-ms.openlocfilehash: b4ea67037339ae1a00f12d7b51e4584d259264e4
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0279fff8dd4143c883b2f1633907ac197c65f04a
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031336"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748282"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifator e configurar políticas de acesso condicional
 
@@ -70,16 +70,14 @@ Para exigir que todos os usuários entrem com uma segunda forma de ID:
 
 1. Vá para [portal do Azure](https://portal.azure.com)e navegue até **acesso condicional** **do Azure Active Directory** \> .
     
-    As políticas de linha de base estão listadas na página e você pode ver que exigir MFA para administradores e proteção do usuário final já está habilitada após a conclusão das etapas em [exigir MFA](#require-mfa).
+    As políticas de linha de base estão listadas na página e você pode ver que **exigir MFA para administradores** e **proteção do usuário final** já está habilitada após a conclusão das etapas em [exigir MFA](#require-mfa).
 
     ![Página que lista as políticas de linha de base para acesso condicional.](media/casettings.png)
 2. Consulte as seguintes instruções específicas para cada política:
 
     - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-
-       
-    -   [Exigir MFA para usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+    - [Exigir MFA para usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
     - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
     - [Exigir MFA para gerenciamento de serviços](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-Você pode configurar políticas adicionais, como exigir aplicativos cliente aprovados. Consulte a [documentação de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/) para obter mais informações.
+Você pode configurar políticas adicionais, como exigir aplicativos cliente aprovados. Para obter mais informações, consulte a [documentação de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/).

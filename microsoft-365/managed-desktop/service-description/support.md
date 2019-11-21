@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6c30f9e9a9f45ac8a68c285f4c594b238874f768
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 134e971e00fc64d3ea005d32ed95359ed8fb8feb
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982502"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757658"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
 
@@ -39,7 +39,7 @@ Produtos suportados:
 
 Detalhes de suporte:
 
-- Atual: América do Norte, Canadá (exceto Quebec), Reino Unido, Austrália e Nova Zelândia apenas (24x7x365) 
+- Atual: Estados Unidos, Canadá (exceto Quebec), Reino Unido, Bélgica, Luxemburgo, Holanda, Austrália e Nova Zelândia (24x7x365) 
 - O inglês é o único idioma suportado para conversas de telefone e chat com clientes 
 - Estamos estabelecendo parcerias com o, não substituindo o helpdesk corporativo; aplicativos de linha de negócios (LOB), recursos de rede, etc. ainda são tratados pela assistência técnica 
 - Os dispositivos de área de trabalho gerenciada da Microsoft no grupo "teste" e dispositivos que não fazem parte da área de trabalho gerenciada da Microsoft estão fora do escopo 

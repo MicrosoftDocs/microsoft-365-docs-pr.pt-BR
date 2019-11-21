@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: 178fa371d0f299c58168957b82b0c7da74b37742
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: b6866a3c2291b00934b5808777f795e5b99faa34
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772458"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753600"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
@@ -75,14 +75,14 @@ Se você já tem uma assinatura existente do Office 365 for Business, por exempl
 > Você não pode adicionar o Microsoft 365 for Campaigns offer a um locatário do Microsoft 365 Business existente.
 
 1. Em seu convite para o Microsoft 365 para emails de campanhas, selecione **inscrever sua organização >**. Isso leva você para a assinatura do Microsoft 365.
-2. Na **tela de boas-vindas, vamos conhecer a** página, clique ou toque em **deseja adicionar isso a uma assinatura existente? Entre**.
+2. Na **tela de boas-vindas, vamos conhecer a** página, clique ou toque em **deseja adicioná-lo a uma assinatura existente? Entre**.
     
     ![Escolha entrar no canto superior direito.](media/addtoexisting.png)
-3. Na página de entrada, insira o alias de administração de sua assinatura existente, por exemplo, *Ana Maria @<span></span>VoteContoso. org* e, em seguida, escolha **Avançar**, insira sua senha e escolha **entrar**.
-4. Sobre **como esta aparência?** Insira o número de usuários que você tem e escolha **Avançar**. Observe que você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
+3. Na página de entrada, insira o alias de administração de sua assinatura existente, por exemplo *Alice@VoteContoso<span></span>. org*, escolha **Avançar**, insira sua senha e, em seguida, escolha **entrar**.
+4. Sobre **como esta aparência?** Insira o número de usuários que você tem e escolha **Avançar**. Você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
 5. Na página **como você deseja pagar?** , insira sua forma de pagamento e escolha **fazer pedido**.
 
-Após concluir essas etapas, você estará pronto para [atribuir as novas licenças](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) à equipe de campanha. 
+Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) à equipe de campanha. 
 
 
 ## <a name="whats-next"></a>E agora?

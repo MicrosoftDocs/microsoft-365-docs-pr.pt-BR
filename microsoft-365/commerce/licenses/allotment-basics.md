@@ -12,12 +12,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: Saiba mais sobre o novo recurso de alocações.
-ms.openlocfilehash: 3414fce02844629826edc6d9474f746aa27cfa2e
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: fff63b3c61ad95696e7f7677a34154ad65e82259
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012438"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753570"
 ---
 # <a name="allotment-basics"></a>Noções básicas sobre alocação
 
@@ -47,4 +47,4 @@ Você deve ser um administrador global ou de licença para começar a usar uma a
 
 ## <a name="getting-started"></a>Introdução
 
-O recurso de alocações está disponível em uma visualização privada para apenas um pequeno número de clientes. Se você estiver interessado em ingressar, preencha este formulário:[https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)
+O recurso de alocações está disponível em uma visualização privada para apenas um pequeno número de clientes. Se você estiver interessado em ingressar, preencha este formulário: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).

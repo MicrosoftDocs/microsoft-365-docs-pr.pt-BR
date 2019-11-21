@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como configurar e proteger suas contas de administrador.
-ms.openlocfilehash: 33bf7f8a2a1e666a7822be1d52ac2d81fc681230
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 76c90b48e0f0859ed856b6e3dc772aedfc2ccdaf
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772468"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753738"
 ---
 # <a name="protect-your-administrator-accounts"></a>Proteger suas contas de administrador
 
@@ -38,9 +38,9 @@ Quando você se inscreve no Microsoft 365 Business e insere suas informações, 
 
 ## <a name="create-additional-admin-accounts"></a>Criar contas de administração adicionais
 
-Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular dos aplicativos do Office e usar apenas a conta administrativa, quando necessário, para gerenciar contas, dispositivos e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença do Microsoft 365 Business das contas de administrador para que você não precise pagar por elas.
+Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular dos aplicativos do Office e usar apenas a conta administrativa, quando necessário, para gerenciar contas e dispositivos, e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença do Microsoft 365 Business das contas de administrador para que você não precise pagar por elas.
 
-Convém configurar pelo menos uma conta de administrador global adicional para conceder acesso de administrador a outro funcionário confiável. Você também pode criar contas de administrador separadas para o gerenciamento de usuários (essa função é chamada de **administrador de gerenciamento de usuários**). Consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para obter mais informações.
+Convém configurar pelo menos uma conta de administrador global adicional para conceder acesso de administrador a outro funcionário confiável. Você também pode criar contas de administrador separadas para o gerenciamento de usuários (essa função é chamada de **administrador de gerenciamento de usuários**). Para obter mais informações, consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
 Para criar contas de administração adicionais:
 
@@ -51,7 +51,7 @@ Para criar contas de administração adicionais:
 2. Na página **usuários ativos** , selecione **Adicionar um usuário** na parte superior da página e, no painel **novo usuário** , insira o nome e outras informações.
 3. Expanda a seção **funções** e escolha **administrador global** para conceder acesso de administrador global ao usuário. Você também pode escolher **administrador personalizado** e escolher qualquer uma das funções que são exibidas.
 
-    Insira um email alternativo na caixa de texto endereço de email alternativo. Você pode usar esse endereço para recuperar suas informações de senha, caso tenha bloqueado. Para administradores globais, um demonstrativo de cobrança também será enviado para esse endereço.
+    Insira um email alternativo na caixa de texto **endereço de email alternativo** . Você pode usar esse endereço para recuperar suas informações de senha, caso tenha bloqueado. Para administradores globais, um demonstrativo de cobrança também será enviado para esse endereço.
 
     ![Escolha a função de administrador](media/adminroles.png)
     
@@ -61,7 +61,7 @@ Para criar contas de administração adicionais:
 
 ## <a name="create-an-emergency-admin-account"></a>Criar uma conta de administrador de emergência
 
-Você também deve criar uma conta de backup que não esteja configurada com a autenticação multifator (MFA), para que você não se bloqueie acidentalmente (por exemplo, se perder o telefone que está usando como um segundo de verificação). Certifique-se de que a senha dessa conta seja uma frase ou pelo menos 16 caracteres de comprimento. Isso geralmente é conhecido como "conta de divisão".
+Você também deve criar uma conta de backup que não esteja configurada com a autenticação multifator (MFA), para que você não se bloqueie acidentalmente (por exemplo, se perder o telefone que está usando como uma segunda forma de verificação). Certifique-se de que a senha dessa conta seja uma frase ou pelo menos 16 caracteres de comprimento. Isso geralmente é conhecido como "conta de divisão".
 
 ## <a name="create-a-user-account-for-yourself"></a>Criar uma conta de usuário para si mesmo
 
@@ -71,7 +71,7 @@ Para criar uma nova conta de usuário:
 1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">centro de administração</a> e, em seguida, escolha usuários **ativos** do **usuário** \> no painel de navegação esquerdo.
 2. Na página **usuários ativos** , selecione **Adicionar um usuário** na parte superior da página e, no painel **novo usuário** , insira o nome e outras informações.
 3. Expanda a seção **funções** e escolha **usuário (sem acesso administrativo)**.
-1. Na seção **licenças de produto** , mova o seletor para o **Microsoft 365 Business para o** . **** 
+1. Na seção **licenças de produto** , mova o seletor **para o** **Microsoft 365 Business para o** . 
 
 ## <a name="register-each-of-these-accounts-for-multi-factor-authentication"></a>Registrar cada uma dessas contas para autenticação multifator
 

@@ -16,23 +16,23 @@ search.appverid:
 - MET150
 description: Saiba como os perfis de cobrança dão suporte a faturas.
 keywords: Perfil de cobrança, faturas, encargos, encargos gerenciados
-ms.openlocfilehash: 9db8b949cb07c8386505234d9d88aa2627a752b5
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 4b46709cf877ea8689f72b66d5ac357272e4737d
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029045"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753540"
 ---
 # <a name="manage-billing-profiles"></a>Gerenciar perfis de cobrança
 Para clientes comerciais que compram produtos e serviços da Microsoft, os perfis de cobrança permitem que você personalize quais itens estão incluídos na fatura e como você paga suas faturas.
 
 Os perfis de cobrança incluem as seguintes informações:
 
-- Nome da **conta** &mdash; de cobrança da conta de cobrança à qual o perfil está relacionado
-- **Métodos** &mdash; de pagamento cartões de crédito ou débito, contas bancárias, cheque ou transferência de fio
-- Endereço de cobrança de **informações** &mdash; de contato e um nome de contato
-- Moeda **das configurações** &mdash; de fatura com base no país da conta de cobrança, um número de OC opcional e a opção de receber faturas como anexos de email
-- Permissões permissões que permitem alterar o perfil de cobrança, pagar contas ou usar a forma de pagamento no perfil de cobrança para fazer compras **** &mdash;
+- Nome da **conta** &ndash; de cobrança da conta de cobrança à qual o perfil está relacionado
+- **Métodos** &ndash; de pagamento cartões de crédito ou débito, contas bancárias, cheque ou transferência de fio
+- Endereço de cobrança de **informações** &ndash; de contato e um nome de contato
+- Moeda **das configurações** &ndash; de fatura com base no país da conta de cobrança, um número de OC opcional e a opção de receber faturas como anexos de email
+- Permissões permissões que permitem alterar o perfil de cobrança, pagar contas ou usar a forma de pagamento no perfil de cobrança para fazer compras **** &ndash;
 
 Use perfis de cobrança para controlar suas compras e personalizar sua fatura. Uma fatura mensal é gerada para os produtos comprados com o perfil de cobrança. Você pode personalizar a fatura, como atualizar o número da ordem de compra e a preferência de fatura de email.
 
@@ -51,7 +51,7 @@ As funções em perfis de cobrança têm permissões para controlar compras e ex
 
 ## <a name="view-billing-profiles"></a>Exibir perfis de cobrança
 
-1. No centro de administração, vá para a página **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Faturas e pagamentos</a>.
 
 2. Escolha **perfis de cobrança**e, em seguida, escolha um perfil de cobrança na lista.
 

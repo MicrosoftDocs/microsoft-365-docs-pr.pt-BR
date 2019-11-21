@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar reuniões online com o Microsoft Teams.
-ms.openlocfilehash: 67a58b17d3e5153d8e0f36788f68ca7c0e204d6f
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 7ecdec3f7dc329f1ff70bf8d72a7ca5bc946636f
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772298"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753580"
 ---
 # <a name="set-up-meetings"></a>Configurar reuniões
 
@@ -40,8 +40,8 @@ Baixe um infográfico em [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) 
 ## <a name="best-practices"></a>Práticas recomendadas
 
 Siga estas práticas recomendadas para suas reuniões online:
-1. Agende suas reuniões online diretamente no Microsoft Teams. Você pode escolher uma equipe e um canal, e o Microsoft Teams convidará os participantes dessa equipe ou canal automaticamente.
-2. Precisa de uma reunião improvisada? Se você estiver em um chat de um em um, escolha **reunir agora** para iniciar uma chamada de vídeo ou áudio com a pessoa com quem você está batendo papo. 
+- Agende suas reuniões online diretamente no Microsoft Teams. Você pode escolher uma equipe e um canal, e o Microsoft Teams convidará os participantes dessa equipe ou canal automaticamente.
+- Precisa de uma reunião improvisada? Se você estiver em um chat de um em um, escolha **reunir agora** para iniciar uma chamada de vídeo ou áudio com a pessoa com quem você está batendo papo. 
 
 
 ## <a name="schedule-a-meeting"></a>Agendar uma reunião
