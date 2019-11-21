@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 2bd14e70012fa2e3d6f71972005060bd83713d49
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: e9d922b1ce537c85dbb24d884ca1560ad8e32459
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078941"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38749633"
 ---
 # <a name="gdpr-breach-notification"></a>Notificação de falha de RGPD
 
@@ -53,29 +55,26 @@ Os detalhes relacionados a notificações de violação para produtos e serviço
 1. **[Office 365](gdpr-breach-Office365.md)**  
     A Microsoft investe fortemente em sistemas, processos e equipes para reduzir a probabilidade de violação de dados pessoais e para rapidamente detectar e reduzir a consequência da violação, caso ocorra. Mais detalhes podem ser lidos em [Investimentos do Office 365 na segurança de dados](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-office365#office-365-investments-in-data-security).
 
-    Um cliente pode ficar atento a uma violação e entrar em contato com a Microsoft. Nesse caso, notifique o suporte da Microsoft, que criará uma interface com as equipes de engenharia para obter mais informações.
+    Um cliente pode ficar atento a uma violação e entrar em contato com a Microsoft. Nesse caso, notifique o Suporte da Microsoft, que criará uma interface com as equipes de engenharia para obter mais informações.
 
-2. **[Azure](gdpr-breach-Azure.md)**  
-    A Microsoft tem um serviço global de respostas 24 horas por dia, que funciona para reduzir os efeitos de ataques no Microsoft Azure.
+2. **[Azure & Dynamics 365](gdpr-breach-azure-dynamics.md)**  
+    A Microsoft tem um serviço global de respostas 24 horas por dia, que funciona para reduzir os efeitos de ataques no Microsoft Azure e no Dynamics 365.
 
-    - *Detecção de Violações*: como a Microsoft e o cliente têm obrigações de segurança, os serviços do Azure usam um modelo de responsabilidade compartilhado para definir responsabilidades de segurança e operacionais. A Microsoft não monitora ou responde a incidentes de segurança no domínio de responsabilidade do cliente. A resposta a incidentes de clientes pode envolver a colaboração [com o suporte ao cliente](https://azure.microsoft.com/support/options/) do Azure, dados os contratos de serviço apropriados. O Microsoft Azure também oferece vários serviços (por exemplo, a [Central de Segurança do Azure](https://azure.microsoft.com/services/security-center/)) que os clientes podem usar para desenvolver e gerenciar respostas a incidentes de segurança.
+    - *Detecção de Violações*: Como a Microsoft e o cliente têm obrigações de segurança, os serviços do Azure usam um modelo de responsabilidade compartilhada para definir responsabilidades de segurança e operacionais. A Microsoft não monitora ou responde a incidentes de segurança no domínio de responsabilidade do cliente. A resposta a incidentes de clientes pode envolver a colaboração [com o suporte ao cliente](https://azure.microsoft.com/support/options/) do Azure, dados os contratos de serviço apropriados. O Microsoft Azure também oferece vários serviços (por exemplo, a [Central de Segurança do Azure](https://azure.microsoft.com/services/security-center/)) que os clientes podem usar para desenvolver e gerenciar respostas a incidentes de segurança.
 
-        Para obter uma lista de eventos que disparam uma investigação de violação no Microsoft Azure, confira [Detecção de possíveis violações](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure?#detection-of-potential-breaches). [O Azure e a Notificação de Violação no âmbito do RGPD](gdpr-breach-Azure.md) fornecem detalhes adicionais sobre como a Microsoft investiga, gerencia e responde a incidentes de segurança no Azure.
+        Para obter uma lista de eventos que disparam uma investigação de violação no Microsoft Azure, confira [Detecção de possíveis violações](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches). [O Azure e a Notificação de Violação no âmbito do RGPD](gdpr-breach-azure-dynamics.md) fornecem detalhes adicionais sobre como a Microsoft investiga, gerencia e responde a incidentes de segurança no Azure.
 
     - *Resposta à Violação de Dados*: a Microsoft determina a prioridade adequada e os níveis de gravidade de uma violação analisando o impacto funcional, a capacidade de recuperação e o impacto das informações do incidente. A prioridade e a severidade podem mudar durante a investigação, com base nas novas descobertas e conclusões.
-    A equipe de resposta de segurança da Microsoft trabalha em conjunto com consultores jurídicos globais para ajudar a garantir que as perícias sejam realizadas de acordo com obrigações legais e compromissos com os clientes. Esses processos estão detalhados na [Resposta de Violação de Dados do Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure#azures-data-breach-response).
+    A equipe de resposta de segurança da Microsoft trabalha em conjunto com consultores jurídicos globais para ajudar a garantir que as perícias sejam realizadas de acordo com obrigações legais e compromissos com os clientes. Esses processos estão detalhados na [Resposta de Violação de Dados do Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response).
 
     - *Notificação de Cliente*: o Microsoft Azure notifica os clientes e as autoridades normativas das violações de dados conforme necessário. As notificações dos clientes são oferecidas em não mais de 72 horas a partir do prazo, com exceção das seguintes circunstâncias:
 
         - A Microsoft acredita que o ato de executar uma notificação aumentará o risco para outros clientes.
         - O cronograma de 72 horas pode deixar alguns detalhes do incidente disponíveis. Eles serão fornecidos para você à medida que a investigação prosseguir.
 
-        Mais detalhes podem ser encontrados na [Notificação do Cliente](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure#customer-notification).
+        Mais detalhes podem ser encontrados na [Notificação do Cliente](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification).
 
-3. **[Dynamics 365](gdpr-breach-Dynamics365.md)**  
-    A Notificação de Violação é tratada conforme descrito acima para o Azure.
-
-4. **[Suporte e Serviços Profissionais da Microsoft](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
+3. **[Suporte e Serviços Profissionais da Microsoft](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
     A natureza dos serviços profissionais significa que alguns incidentes de proteção de dados podem se enquadrar no domínio de responsabilidade do cliente. Quando o Microsoft Professional Services identifica um incidente de proteção de dados, ele acompanha o plano de resposta padrão do setor, conforme descrito em [Escopo e limites do processo de resposta a incidentes de proteção de dados](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process).
 
 ## <a name="learn-more"></a>Saiba mais
