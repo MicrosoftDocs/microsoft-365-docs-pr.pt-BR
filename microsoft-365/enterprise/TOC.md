@@ -55,6 +55,7 @@
 ### [Identidade]()
 #### [Sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md)
 #### [Autenticação de passagem](pass-through-auth-m365-ent-test-environment.md)
+#### [Autenticação federada](federated-identity-for-your-office-365-dev-test-environment.md)
 #### [Logon único contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md)
 #### [Autenticação multifator](multi-factor-authentication-microsoft-365-test-environment.md)
 #### [Proteger contas de administradores globais](protect-global-administrator-accounts-microsoft-365-test-environment.md)
