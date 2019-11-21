@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure a autenticação de passagem para seu ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 21289d01f85f7e7e5e92b4f84d7ba0c1a4f6e8a9
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 98e0ad4b216fdc3940c0077cb308d6271ffed678
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673387"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757718"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Autenticação de passagem para seu ambiente de teste do Microsoft 365
 
@@ -49,8 +49,8 @@ Siga as instruções em [sincronização de hash de senha para o Microsoft 365](
   
 Esta configuração consiste em: 
   
-- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5.
-- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado periodicamente no APP1 para sincronizar o domínio TESTLAB do AD DS com o locatário do Azure AD de suas assinaturas do Office 365 e EMS E5.
+- Assinatura de avaliação ou assinatura paga do Microsoft 365 E5 ou Office 365 E5.
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado periodicamente no APP1 para sincronizar o domínio TESTLAB do AD DS com o locatário do Azure AD de sua assinatura do Microsoft 365 ou Office 365.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: configurar o Azure AD Connect no APP1 para autenticação de passagem
 
@@ -92,8 +92,8 @@ Esta é a configuração resultante:
  
 Esta configuração consiste em:
 
-- Assinaturas pagas ou de avaliação do Office 365 E5 e EMS E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
-- Uma intranet de organização simplificada conectada à Internet, composta pelas máquinas virtuais DC1, APP1 e CLIENT1, em uma sub-rede de uma Rede Virtual do Microsoft Azure. Um Agente de Autenticação é executado no APP1 para processar as solicitações de autenticação de passagem do locatário do Azure AD nas assinaturas do Office 365 e do EMS E5.
+- Assinaturas pagas ou de avaliação do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
+- Uma intranet de organização simplificada conectada à Internet, composta pelas máquinas virtuais DC1, APP1 e CLIENT1, em uma sub-rede de uma Rede Virtual do Microsoft Azure. Um Agente de Autenticação é executado no APP1 para processar as solicitações de autenticação de passagem do locatário do Azure AD nas assinaturas do Microsoft 365 ou do Office 365. 
 
 ## <a name="next-step"></a>Próxima etapa
 
