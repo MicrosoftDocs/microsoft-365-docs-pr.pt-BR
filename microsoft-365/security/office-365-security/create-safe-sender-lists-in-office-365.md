@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam no centro de administração do Exchange.
-ms.openlocfilehash: 2a161573e3b51f12cd7582df26a021fab3f8de84
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f4ece6f7528b301ed7046df84ca18915d833dbbf
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033686"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793675"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -87,7 +87,7 @@ Quando não é possível usar o ETRs para permitir globalmente um remetente espe
 
 A opção menos desejável é autorizar por remetente/domínio. Essa opção deve ser evitada *se for possível* que ela ignore a proteção de spam/spoof/Phish completamente e não avalie a autenticação do remetente. Esse método aumenta o risco de receber emails de atores incorretos e é melhor recomendável temporariamente e somente durante o teste. As etapas detalhadas podem ser encontradas em [configurar seu documento de políticas de filtro de spam](https://docs.microsoft.com/office365/securitycompliance/configure-your-spam-filter-policies) .
 
-O limite máximo para essas listas é de aproximadamente 1000 entradas.
+O limite máximo para essas listas é de aproximadamente 1000 entradas; no entanto, você poderá inserir 30 entradas no Portal. Você deve usar o PowerShell para adicionar mais de 30 entradas.
 
 > [!CAUTION]
 > A configuração de políticas antispam para *permitir o domínio remetente/permitido* resultará em mensagens que ignoram a filtragem de spam para uma) de mensagens de remetentes na lista de permissões, ou b, todos os remetentes de um domínio permitido. Esse método aumenta significativamente os spammers de risco podem falsificar o domínio de envio (ou representar o endereço de email completo) que ignora todos os filtros de spam, verificações de autenticação de remetentes e envia a mensagem diretamente para a caixa de entrada de uma pessoa.

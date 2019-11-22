@@ -14,23 +14,23 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: As opções avançadas de filtragem de spam oferecem aos administradores a capacidade de inspecionar vários atributos de conteúdo de uma mensagem. A presença desses atributos em uma mensagem aumenta a pontuação de spam da mensagem (aumentando assim o potencial para que possa ser identificada como spam) ou marcar a mensagem como spam. As propriedades da mensagem específica do alvo das opções ASF, como marcas de HTML e redirecionamento de URL, que são comumente encontrados em mensagens de spam.
-ms.openlocfilehash: 0f1fb22a0500df5e9ff261bd60b0430dd4fad4d0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bfb559ece8a69f0d641cdb2ad552d7e831eda416
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073552"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793694"
 ---
 # <a name="advanced-spam-filtering-options"></a>Opções avançadas de filtragem de spam
+
+> [!NOTE]
+> As configurações avançadas de filtro de spam da política antispam estão sendo substituídas atualmente. Nossas configurações recomendadas para isso é desativá **-las**. As funções que estavam disponíveis no filtro de spam avançado estão sendo incorporadas a outras partes da pilha de filtragem.
 
 As opções avançadas de filtragem de spam oferecem aos administradores a capacidade de inspecionar vários atributos de conteúdo de uma mensagem. A presença desses atributos em uma mensagem aumenta a pontuação de spam da mensagem (aumentando assim o potencial para que possa ser identificada como spam) ou marcar a mensagem como spam. As propriedades da mensagem específica do alvo das opções ASF, como marcas de HTML e redirecionamento de URL, que são comumente encontrados em mensagens de spam.
   
 Habilitar as opções ASF é uma abordagem agressiva para filtragem de spam e todas as mensagens filtradas por essas opções não podem ser relatadas como falso positivos. Essas mensagens podem ser identificadas por meio de notificações periódicas de spam do usuário final e recuperadas da quarentena de spam. Elas também podem ser identificadas pelo texto de cabeçalho X específico para cada opção ASF e que aparece no cabeçalho de Internet das mensagens nas quais uma opção ASF tenha sido correspondida. Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
   
 As opções de ASF podem ser definidas sobre, fora ou para o modo de teste ao editar suas políticas de filtro de conteúdo. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md). O modo de teste não está disponível para a **dispersão de NDR**, **registro SPF: falha grave**, **filtragem de ID de remetente condicional: falha de hardware**e opções de **email em massa** . 
-  
-> > [!TIP]
->  Considere habilitar suas opções de ASF no modo de teste, a fim de maximizar o bloqueio de spam baseado em seu ambiente. Para clientes com percentagens elevadas de spam para opções ASF específicas, recomendamos que você teste essas opções antes de implementá-las em seu ambiente de produção. Se você estiver preocupado com o phishing em sua organização, ative a opção **registro SPF: falha grave** . 
   
 A tabela a seguir, descreve cada opção de filtragem de spam avançada.
   

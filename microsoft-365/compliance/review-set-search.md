@@ -14,41 +14,53 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 446f3f2588a79cb328476db490f1f555448b5ce7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8eadfbeb1a78edd12129c97dc3144a45c5c409cf
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073770"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191266"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar os dados em um conjunto de revisão
 
-Na maioria dos casos, será útil ser capaz de se aprofundar no que está em um conjunto de revisão e organizá-los para análise mais eficiente. As consultas em um conjunto de revisão permitem que você faça isso, permitindo que você se concentre em um subconjunto de documentos que atendem aos critérios definidos por você ao mesmo tempo.
+Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um conjunto de análise e organizar esses dados para facilitar uma análise mais eficiente. Usar consultas em um conjunto de revisão ajuda você a se concentrar em um subconjunto de documentos que atendem aos critérios de sua análise.
 
-## <a name="creating-and-running-a-query-within-a-review-set"></a>Criar e executar uma consulta dentro de um conjunto de revisão
+## <a name="creating-and-running-a-query-in-a-review-set"></a>Criando e executando uma consulta em um conjunto de revisão
 
-Para criar e executar uma consulta no conjunto de análise, clique em "nova consulta" em seu conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em "salvar" para executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, basta clicar na consulta salva. Consulte os [campos de metadados do documento](document-metadata-fields.md) para obter uma lista de metadados que você pode pesquisar.
+Para criar e executar uma consulta nos documentos em um conjunto de revisão, clique em **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, clique em uma consulta salva. 
 
-## <a name="building-your-query"></a>Criar sua consulta
+![Analisar consultas de definição](media/AeDReviewSetQueries.png)
 
-Você pode criar sua consulta usando uma combinação de cartões de condição e linguagem de consulta no cartão de condição de palavras-chave. Você pode agrupar cartões de condição juntos como um bloco para criar uma consulta mais complexa.
+## <a name="building-a-review-set-query"></a>Criar uma consulta de conjunto de revisão
 
-### <a name="condition-card"></a>Cartão de condição
+Você pode criar uma consulta usando uma combinação de cartões de condição e linguagem de consulta no cartão de condição de palavras-chave. Você também pode agrupar cartões de condição juntos como um bloco (chamado de *grupo de condição*) para criar uma consulta mais complexa. Para obter uma lista e uma descrição das propriedades de metadados que você pode pesquisar, confira os [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md).
+
+### <a name="condition-cards"></a>Cartões de condição
 
 Cada campo pesquisável em um conjunto de revisão tem um cartão de condição correspondente que você pode usar para criar sua consulta.
 
 Há vários tipos de cartões de condição:
-- FREETEXT: o cartão de condição do freetext é usado para campos de texto como o assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
-- Date: o cartão de condição de data é usado para campos de data, como data da última modificação.
-- Opções de pesquisa: o cartão de condição opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico em seu conjunto de análise. Isso é usado para campos, como remetente, onde há um número finito de valores possíveis em seu conjunto de análise.
-- Palavra-chave: cartão de condição de palavra-chave é uma instância específica do cartão de condição FREETEXT que você pode usar para pesquisar termos ou usar o idioma de consulta do KQL. Veja mais detalhes abaixo.
+
+- FREETEXT: um cartão de condição do freetext é usado para campos de texto como o assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
+
+- Date: um cartão de condição de data é usado para campos de data, como data da última modificação.
+
+- Opções de pesquisa: um cartão de condição de opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico em seu conjunto de análise. Isso é usado para campos, como remetente, onde há um número finito de valores possíveis em seu conjunto de análise.
+
+- Palavra-chave: um cartão de condição de palavra-chave é uma instância específica do cartão de condição FREETEXT que você pode usar para pesquisar termos, ou usar o idioma de consulta do KQL como no. Veja mais detalhes abaixo.
 
 ### <a name="query-language"></a>Linguagem de consulta
 
-Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta oferece suporte à sintaxe KQL padrão como e, ou, não e NEAR (n). Também suporta curingas de caractere único (?) e curinga de vários caracteres (*).
+Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como e, ou, não e NEAR (n). Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
 
-## <a name="filter"></a>Filtrar
+## <a name="using-filters"></a>Usando filtros
 
-Além das consultas que você pode salvar, você pode sobrepor mais condições de imediato aos resultados da consulta usando filtros. Os filtros diferem das consultas de algumas maneiras significativas:
-- Os filtros são temporários (ou seja, não persistem em diferentes sessões), enquanto as consultas são salvas no conjunto de revisão.
-- Os filtros são sempre aditivos; os filtros serão aplicados na parte superior da consulta que você tem em vigor no momento, ao passo que a aplicação de uma consulta substituirá a consulta em vigor.
+Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. Isso ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão. 
+
+![Examinar filtros de conjunto](media/AeDReviewSetFilters.png)
+
+Os filtros diferem das consultas de duas maneiras significativas:
+
+- Os filtros são transitórios. Eles não persistem além da sessão existente. Em outras palavras, não é possível salvar um filtro. As consultas são salvas no conjunto de revisão e acessadas sempre que abrir o conjunto de revisão.
+
+- Os filtros são sempre aditivos. Os filtros são aplicados além da consulta do conjunto de análise atual. A aplicação de uma consulta diferente substituirá os resultados retornados pela consulta atual.

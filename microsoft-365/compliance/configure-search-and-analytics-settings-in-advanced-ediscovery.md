@@ -13,43 +13,71 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5aa83f4f736c239b1cdfe940f27cfaa4b981ff64
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Definir configurações de descoberta eletrônica avançadas que se aplicam a todas as análises definidas em uma ocorrência. Isso inclui configurações para análise e OCR.
+ms.openlocfilehash: f34f10c08be582389346b3aedc899bd9f4906a93
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072216"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191136"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Definir configurações de pesquisa e análise
 
+Você pode definir as configurações de cada caso de descoberta eletrônica avançada para controlar a funcionalidade a seguir.
+
+- Duplicados próximos e threads de email
+- Temas
+- Consulta de definição de análise gerada automaticamente
+- Ignorar texto
+- Reconhecimento óptico de caracteres
+
+Para definir as configurações de pesquisa e análise de um caso:
+
+1. Na página **descoberta eletrônica avançada** , selecione o caso.
+
+2. Na guia **configurações** , em **pesquisa & análise**, clique em **selecionar**.
+
+   A página de configurações de caso é exibida. Essas configurações são aplicadas a todos os conjuntos de revisão em um caso.
+
+   ![Definir as configurações de análise e de pesquisa para uma ocorrência de descoberta eletrônica avançada](media/AeDCaseSettings.png)
 
 ## <a name="near-duplicates-and-email-threading"></a>Duplicados próximos e threads de email
 
-Nesta seção, você pode definir parâmetros para detecção de duplicidades, detecção de duplicidade próxima e thread de email.
+Nesta seção, você pode definir parâmetros para detecção de duplicidades, detecção de duplicidade próxima e thread de email. Para obter mais informações, consulte [Near Duplicate Detection](near-duplicates.md) and [e-mail Threading](email-threading.md).
 
-- Enable/disable: incluir a detecção de duplicidades, a detecção de duplicidade próxima e o encadeamento de email como parte do fluxo de análise, se habilitado. Como eles se baseiam uns dos outros, você deve habilitar todos eles ou desabilitá-los.
+- **Threads próximos de duplicatas/email:** Quando ativado, a detecção de duplicidades, a detecção de duplicidade próxima e o encadeamento de emails são incluídos como parte do fluxo de trabalho quando você executa a análise nos dados de um conjunto de revisão.
 
-- Limite: se o nível de similaridade de dois documentos estiver acima do limite, ele será colocado no mesmo conjunto próximo duplicado.
+- **Limite de semelhança de documento e de email:** Se o nível de similaridade de dois documentos estiver acima do limite, ambos os documentos serão colocados no mesmo conjunto próximo duplicado.
 
-- Ocultar duplicatas por padrão: se essa configuração estiver ativada, um filtro para ocultar documentos duplicados será aplicado na análise definida por padrão. O filtro pode ser removido manualmente no conjunto de revisão, se necessário.
-
-- Número mínimo/máximo de palavras: próximas duplicatas e o encadeamento de emails será executado somente em documentos que tenham pelo menos o número mínimo de palavras e, no máximo, o número máximo de palavras.
-Para obter mais informações, consulte [Near Duplicate Detection](near-duplicates.md) and [e-mail Threading](email-threading.md).
+- **Número mínimo/máximo de palavras:** Essas configurações especificam que uma análise próxima de duplicatas e de encadeamento de emails é executada apenas em documentos que tenham pelo menos o número mínimo de palavras e, no máximo, o número máximo de palavras.
 
 ## <a name="themes"></a>Temas
 
-Nesta seção, você pode definir parâmetros para temas.
+Nesta seção, você pode definir parâmetros para temas. Para obter mais informações, consulte [Themes](themes-in-advanced-ediscovery.md).
 
-- Enable/disable: incluir agrupamento de temas como parte do fluxo de análise, se habilitado.
-- Ajustar o número máximo de temas dinamicamente dinamicamente: em certos casos, não há documentos suficientes para produzir o número desejado de temas. Se essa configuração estiver ativada, em vez de tentar forçar o número máximo de temas desejado, o sistema ajustará o número máximo de temas dinamicamente.
-- Número máximo de temas: número desejado de temas
-- Incluir números em temas: quando habilitado, ele incluirá números ao gerar temas.  
+- **Temas:** Quando ativado, o clustering de temas é executado como parte do fluxo de trabalho quando você executa a análise nos dados em um conjunto de revisão.
 
-## <a name="optical-character-recognition-ocr"></a>Reconhecimento óptico de caracteres (OCR)
+- **Número máximo de temas:** Especifica o número máximo de temas que podem ser gerados quando você executa a análise nos dados de um conjunto de revisão.
 
-Quando essa configuração estiver ativada, o OCR será executado em imagens que são incluídas nos conjuntos de revisão para que possam ser pesquisadas.
+- **Incluir números em temas:** Quando ativado, os números (que identificam um tema) são incluídos durante a geração de temas. 
+
+- **Ajuste o número máximo de temas dinamicamente:** Em determinadas situações, pode não haver documentos suficientes em um conjunto de revisão para produzir o número desejado de temas. Quando essa configuração estiver habilitada, a descoberta eletrônica avançada ajustará o número máximo de temas dinamicamente, em vez de tentar impor o número máximo de temas.
+
+## <a name="review-set-query"></a>Analisar consulta de definição
+
+Se você marcar a caixa **de seleção criar automaticamente para revisar a pesquisa salva após a análise, a descoberta automática de descoberta automática de** autogeração de consulta Set **para revisão.** 
+
+![A consulta AutoGenerated de revisar](media/AeDForReviewQuery.png)
+
+Essa consulta basicamente filtra os itens duplicados do conjunto de revisão. Isso permite que você revise os itens exclusivos no conjunto de revisão. Essa consulta é criada somente quando você executa a análise para qualquer análise definida no caso. Para obter mais informações, sobre revisões definidas de consultas, consulte [consultar os dados em um conjunto de revisão](review-set-search.md).
 
 ## <a name="ignore-text"></a>Ignorar texto
 
-Há situações em que determinados textos reduzirão a qualidade da análise, como avisos de isenção de responsabilidade longos que são adicionados a certos emails, independentemente do conteúdo do email. Se você estiver ciente desses casos, poderá excluir esse texto da análise especificando o texto (RegEx é suportado) e de quais módulos o texto deve ser excluído.
+Há situações em que certos textos reduzirão a qualidade da análise, como avisos de isenção de responsabilidade longos que são adicionados a mensagens de email, independentemente do conteúdo do email. Se você souber do texto que deve ser ignorado, é possível excluí-lo da análise especificando a cadeia de caracteres de texto e a funcionalidade de análise (Near-duplicates, encadeamento de emails, temas e relevância) que o texto deve ser excluído. O uso de expressões regulares (RegEx) como texto ignorado também é suportado. 
+
+## <a name="optical-character-recognition-ocr"></a>Reconhecimento óptico de caracteres (OCR)
+
+Quando essa configuração estiver ativada, o OCR será executado em arquivos de imagem adicionados aos conjuntos de revisão para que o texto da imagem possa ser revisado, pesquisado, marcado e analisado. Para saber mais, confira:
+
+- [Adicionar os resultados da pesquisa a um conjunto de revisão](add-data-to-review-set.md#optical-character-recognition)
+- [Tipos de arquivo de imagem compatíveis](supported-filetypes-ediscovery20.md#image)

@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
-ms.openlocfilehash: e3bb9bc2d9d833eea8c5a9e4a29334d9777aebac
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: a94b1051af383041a89fa136ae490875ea48782d
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684741"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793655"
 ---
-# <a name="microsoft-compliance-score-calculation-preview"></a>Cálculo da Pontuação de conformidade da Microsoft (versão prévia)
+# <a name="microsoft-compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade da Microsoft (visualização)
 
 > [!IMPORTANT]
 > A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
@@ -77,9 +77,9 @@ Cada controle tem um valor atribuído em Pontuação de conformidade com base no
 |**Tipo**|**Pontuação atribuída**|
 |:-----|:-----|
 | Obrigatórios preventivos | 27 |
-| Discricionários preventivos | 241 |
-| Detecção obrigatória | 3D |
-| Detecção arbitrária | 1 |
-| Obrigatório corretivo | 3D |
-| Condicionalmente | 1 |
+| Discricionários preventivos | 9  |
+| Detecção obrigatória | 3  |
+| Detecção arbitrária | 1  |
+| Obrigatório corretivo | 3  |
+| Condicionalmente | 1  |
   

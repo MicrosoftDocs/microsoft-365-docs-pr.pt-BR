@@ -13,18 +13,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5f574fa4fa53e83e2af4ea563c63106e8206c3d5
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+description: Uma lista de tipos de arquivo com suporte no eDiscovery avançado da Microsoft 365. Isso inclui uma lista dos tipos de arquivo de imagem suportados pela funcionalidade de OCR na descoberta eletrônica avançada.
+ms.openlocfilehash: ff9fdc77226ee476de3fe89a980b2658720749bf
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "38684735"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191236"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na descoberta eletrônica avançada
 
-A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo para vários níveis diferentes, que são descritos na tabela a seguir. Essa lista não é finalizada e adicionaremos novos tipos de arquivos conforme continuamos com o teste de validação. As tabelas indicam se um tipo de arquivo é suportado para a extração de texto (OCR para imagens), visível no visualizador nativo e também suporte no Visualizador de anotações na descoberta eletrônica avançada.
-
+A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo para vários níveis diferentes, que são descritos nas tabelas a seguir. Essa lista não é finalizada e adicionaremos novos tipos de arquivos conforme continuamos com o teste de validação. Essas tabelas indicam se um tipo de arquivo é suportado para extração de texto (e reconhecimento óptico de caracteres ou extração de texto OCR para arquivos de imagem), visível no visualizador nativo e também suporte no Visualizador de anotações em descoberta eletrônica avançada.
 
 ## <a name="archive--container"></a>Arquivo morto/contêiner
 
@@ -115,7 +114,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | aplicativo/OneNote | Sim | Sim | Sim | Sim | Não | . um |
 ||||||||
 
-## <a name="microsoft-powerpoint"></a>Microsoft Powerpoint
+## <a name="microsoft-powerpoint"></a>Microsoft PowerPoint
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
