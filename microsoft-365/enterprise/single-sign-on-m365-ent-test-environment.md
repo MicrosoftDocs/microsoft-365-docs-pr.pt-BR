@@ -3,7 +3,7 @@ title: O Logon único Contínuo do Azure AD para o ambiente de teste do Microsof
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2018
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure e teste o Logon único Contínuo do Azure AD para o ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: a32dca8c37d9e6788aef801e9f99a90b724e86b1
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: f263ab507e392c1172d28b5d6ef111d8d9f40682
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757668"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202232"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>O Logon único Contínuo do Azure AD para o ambiente de teste do Microsoft 365
 
@@ -81,7 +81,7 @@ Nesta fase, você configura o Azure AD Connect no APP1 para SSO Contínuo do Azu
 
 11. No portal do Azure, no painel esquerdo, clique em **Azure Active Directory > Azure AD Connect Health**. Verifique se o recurso **Logon único Contínuo** aparece como **Habilitado**.
 
-Em seguida, teste a capacidade de entrar na assinatura do Office 365 com a conta <strong>usuario1@testlab.</strong>\<seu domínio público>nome de usuário da conta Usuário1.
+Em seguida, teste a capacidade de entrar em sua assinatura com a conta <strong>usuario1@testlab.</strong>\<seu domínio público> nome de usuário da conta Usuário1.
 
 1. Do Internet Explorer para APP1, clique no ícone de configurações e, em seguida, clique em **Opções da Internet**.
  
@@ -93,11 +93,11 @@ Em seguida, teste a capacidade de entrar na assinatura do Office 365 com a conta
 
 5. Em **Adicionar este site à zona**, digite **https<span>://</span>autologon.microsoftazuread-sso.com**, clique em **Adicionar > Fechar > OK > OK**.
 
-6. Encerre o Office 365 e entre novamente, mas desta vez especifique uma conta diferente.
+6. Saia e entre novamente, mas desta vez especifique uma conta diferente.
 
 7. Quando solicitado a fazer login, especifique <strong>usuário1@testlab.</strong>\<o nome de seu domínio público> e clique em **Avançar**. Você deve conseguir entrar como Usuário1 sem que uma senha seja solicitada. Isso prova que o SSO de conexão remota do Azure AD está funcionando.
 
-Observe que, embora o Usuário1 tenha permissões de administrador de domínio para o domínio do AD DS TESTLAB, ele não é um administrador global do Azure AD e do Office 365. Portanto, o ícone **Administrador** não estará disponível como opção.
+Observe que, embora o Usuário1 tenha permissões de administrador de domínio para o domínio TESTLAB do AD DS, ele não é um administrador global do Azure AD. Portanto, o ícone **Administrador** não estará disponível como opção.
 
 Esta é a configuração resultante:
 
