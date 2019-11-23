@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 6f024337ac134cc830dfb61286e7f8e53d41c169
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 3f9d4e1dff1f324e8e2c3eedb502ef0480d2c25e
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191216"
+ms.locfileid: "39202412"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -26,23 +26,27 @@ ms.locfileid: "39191216"
 
 - [Proteção avançada contra ameaças do Office 365 (Office 365 ATP)](office-365-atp.md)
 
-Os recursos a seguir agora estão disponíveis no mercado (GA) na versão mais recente do Office 365 ATP. 
+Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. Os recursos que estão atualmente em versão prévia são indicados **(visualização)**.
 
 >Ainda não tem o Office 365 ATP? [Entre em contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644). 
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP Plano 1 e Plano 2
 
-O Office 365 ATP está disponível em dois planos: Office 365 ATP Plan 1 e Office 365 ATP Plan 2. A tabela a seguir resume o que está incluído em cada plano. 
+O Office 365 ATP está disponível em dois planos: Office 365 ATP Plan 1 e Office 365 ATP Plan 2.
+ 
+A tabela a seguir resume o que está incluído em cada plano. 
 
 |Plano ATP 1 do Office 365  |Plano ATP 2 do Office 365  |
 |---------|---------|
 |Recursos de configuração, proteção e detecção:<br/>- [Anexos seguros](atp-safe-attachments.md)<br/>- [Links seguros](atp-safe-links.md)<br/>- [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Proteção contra phishing avançado](atp-anti-phishing.md)<br/>- [Detecções em tempo real](threat-explorer.md)     |Recursos do Office 365 ATP Plan 1<br/>---mais---<br/>Recursos de automação, investigação, correção e educação:<br/>- [Rastreadores de ameaças](threat-trackers.md)<br/>- [Explorador de ameaças](threat-explorer.md)<br/>- [Resposta de incidente automatizada](automated-investigation-response-office.md)<br/>- [Simulador de ataque](attack-simulator.md)         |
 
-O Office 365 ATP Plan 2 está incluído no Office 365 Enterprise e5, Office 365 Education a5 e Microsoft 365 Enterprise e5. O plano ATP 1 do Office 365 está incluído no Microsoft 365 Business. Se sua assinatura atual não inclui o Office 365 ATP, [vendas de contato para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644)e veja como a ATP pode funcionar para sua organização. 
+- O Office 365 ATP Plan 2 está incluído no Office 365 e5, no Office 365 a5 e no Microsoft 365 e5. 
+- O plano ATP 1 do Office 365 está incluído no Microsoft 365 Business. 
+- Se sua assinatura atual não inclui o Office 365 ATP, [vendas de contato para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644)e veja como a ATP pode funcionar para sua organização. 
 
 ## <a name="november-2019"></a>Novembro de 2019
 
-- [Confira novos recursos comprometidos de detecção e resposta do usuário (visualização)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (plano ATP 2 do Office 365)
+- [Confira novos recursos comprometidos de detecção e resposta do usuário (**Visualização**)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (plano ATP 2 do Office 365)
 
 ## <a name="september-2019"></a>Setembro de 2019
 

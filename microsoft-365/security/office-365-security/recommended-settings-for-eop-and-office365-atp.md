@@ -13,25 +13,26 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 9ef3344bd6497495d3d2279f570a8090d4fa4573
-ms.sourcegitcommit: d8d001c03c28c10bea005d1c9b5f4a8f393af706
+ms.openlocfilehash: d49f465aa66cd3c720e83b28569da2770300067e
+ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38677525"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39204250"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
-O **proteção do Exchange Online (EOP)** é o núcleo de segurança para assinaturas do Office 365 e ajuda a impedir que emails mal-intencionados cheguem às caixas de entrada do funcionário. Mas com ataques novos e mais sofisticados surgindo todos os dias, as proteções aprimoradas costumam ser necessárias. **Proteção avançada contra ameaças do Office 365 (ATP)** O plano ATP 1 ou a ATP plano 2 contêm recursos adicionais que dão aos administradores mais camadas de segurança, controle e investigação. 
+O **proteção do Exchange Online (EOP)** é o núcleo de segurança para assinaturas do Office 365 e ajuda a impedir que emails mal-intencionados cheguem às caixas de entrada do funcionário. Mas com ataques novos e mais sofisticados surgindo todos os dias, as proteções aprimoradas costumam ser necessárias. **Proteção avançada contra ameaças do Office 365 (ATP)** O plano ATP 1 ou a ATP plano 2 contêm recursos adicionais que dão aos administradores mais camadas de segurança, controle e investigação.
 
-Embora possamos permitir que os administradores de segurança personalizem suas configurações de segurança, há dois níveis de segurança no EOP e no Office 365 ATP que recomendamos: **padrão** e **estrito**. O ambiente e as necessidades de cada cliente são diferentes, mas acreditamos que esses níveis de configurações de filtragem de email ajudarão a impedir que emails indesejados cheguem à caixa de entrada de seus funcionários na maioria das situações. 
+Embora possamos permitir que os administradores de segurança personalizem suas configurações de segurança, há dois níveis de segurança no EOP e no Office 365 ATP que recomendamos: **padrão** e **estrito**. O ambiente e as necessidades de cada cliente são diferentes, mas acreditamos que esses níveis de configurações de filtragem de email ajudarão a impedir que emails indesejados cheguem à caixa de entrada de seus funcionários na maioria das situações.
 
 Este tópico descreve estas configurações recomendadas pela Microsoft para ajudar a proteger os usuários do Office 365.
 
 ## <a name="anti-spam-anti-malware-and-anti-phishing-protection-in-eop"></a>Anti-spam, Antimalware e proteção contra phishing no EOP
+
 Anti-spam, Antimalware e anti-phishing são recursos do EOP que podem ser configurados pelos administradores. Recomendamos as seguintes configurações.
 
-### <a name="anti-spam-policy"></a>Política antispam
+### <a name="eop-anti-spam-policy-settings"></a>Configurações de política antispam do EOP
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
@@ -71,7 +72,7 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
 |MarkAsSpamNdrBackscatter|
 |MarkAsSpamSpfRecordHardFail|
 
-#### <a name="outbound-spam-filter-policy"></a>Política de filtro de spam de saída
+#### <a name="eop-outbound-spam-filter-policy-settings"></a>Configurações de política de filtro de spam de saída do EOP
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
@@ -80,7 +81,7 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
 |Limites de destinatários de política de spam de saída-limite diário|800|1000||
 |Ação quando um usuário exceder os limites|Impedir que o usuário envie emails|Impedir que o usuário envie emails||
 
-### <a name="anti-malware-policy"></a>Política Antimalware
+### <a name="eop-anti-malware-policy-settings"></a>Configurações de política antimalware do EOP
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
@@ -90,26 +91,28 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
 |Notificar remetentes internos da mensagem não entregue|Desabilitado|Desabilitado||
 |Notificar remetentes externos da mensagem não entregue|Desabilitado|Desabilitado||
 
-### <a name="anti-phishing-policy"></a>Política anti-phishing
+### <a name="eop-anti-phishing-policy-settings"></a>Configurações de política de anti-phishing do EOP
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
-|Habilitar proteção contra falsificação|Habilitado|Habilitado||
+|Habilitar a proteção contra falsificação|Habilitado|Habilitado||
 |Habilitar remetente não autenticado (marcação)|Habilitado|Habilitado||
 |Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio|Mover mensagem para pastas de lixo eletrônico dos destinatários|Colocar a mensagem em quarentena||
 
-## <a name="office-365-advanced-threat-protection-atp-security"></a>Segurança de proteção avançada contra ameaças (ATP) do Office 365
-Outros benefícios de segurança acompanham uma assinatura avançada de proteção contra ameaças do Office 365. Para obter as notícias e informações mais recentes, você pode ver [o que há de novo no Office 365 ATP](whats-new-in-office-365-atp.md). 
+## <a name="office-365-advanced-threat-protection-security"></a>Segurança avançada de proteção contra ameaças do Office 365
+
+Outros benefícios de segurança são fornecidos com uma assinatura de proteção avançada contra ameaças (ATP) do Office 365. Para obter as notícias e informações mais recentes, você pode ver [o que há de novo no Office 365 ATP](whats-new-in-office-365-atp.md).
 
 O Office 365 ATP inclui as políticas de anexo seguro e links seguros para impedir que emails com anexos possivelmente mal-intencionados sejam entregues e para impedir que os usuários cliquem em URLs potencialmente não seguras.
 
 > [!IMPORTANT]
-> O anti-phishing avançado é um dos benefícios de uma assinatura ATP do Office 365. Habilitado por padrão, o anti-phishing ***deve*** ser configurado usando políticas antes de começar a filtrar emails. Esquecer de configurar políticas anti-phishing pode expor os usuários a emails arriscados. Certifique-se de configurar suas políticas anti-phishing após adicionar uma assinatura ATP do Office 365.
+> O anti-phishing avançado é um dos benefícios de uma assinatura ATP do Office 365. Embora esteja habilitado por padrão, você ***deve*** configurar pelo menos uma política anti-phishing antes de poder iniciar a filtragem de email. Esquecer de configurar políticas anti-phishing pode expor os usuários a emails arriscados. Certifique-se de configurar suas políticas anti-phishing após adicionar uma assinatura ATP do Office 365.
 
 Se você tiver adicionado uma assinatura ATP do Office 365 ao seu EOP, defina as seguintes configurações.
 
-### <a name="office-atp-anti-phishing-policy"></a>Política anti-phishing do Office ATP
-Os clientes do EOP obtêm um conjunto básico de políticas anti-phishing, mas com o Office 365 ATP, os administradores obtêm mais recursos e controle para ajudar a prevenir, detectar e remidi contra ataques.
+### <a name="office-atp-anti-phishing-policy-settings"></a>Configurações de política anti-phishing do Office ATP
+
+Os clientes do EOP obtêm anti-phishing básico como descrito anteriormente, mas o Office 365 ATP inclui mais recursos e controle para ajudar a prevenir, detectar e corrigir contra ataques.
 
 |Nome do recurso de segurança de representação|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
@@ -128,7 +131,7 @@ Os clientes do EOP obtêm um conjunto básico de políticas anti-phishing, mas c
 
 |Nome do recurso de segurança de spoof|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
-|Habilitar proteção contra falsificação|Habilitado|Habilitado||
+|Habilitar a proteção contra falsificação|Habilitado|Habilitado||
 |Habilitar remetente não autenticado (marcação)|Habilitado|Habilitado||
 |Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio|Mover mensagem para pastas de lixo eletrônico dos destinatários|Colocar a mensagem em quarentena||
 |EnableAuthenticationSafetyTip|Verdadeiro|Verdadeiro|Essa configuração só está disponível no PowerShell|
@@ -161,7 +164,7 @@ Não rastrear quando os usuários clicarem em links seguros|Desabilitado|Desabil
 |Redirecionar o anexo na detecção|Habilitado|Habilitado|Redirecionar para o endereço de email de um administrador de segurança que sabe como determinar se o anexo é malware ou não|
 |Resposta de anexos seguros de ATP se a verificação de malware para anexos expirar ou o erro ocorrer|Habilitado|Habilitado||
 
-## <a name="miscellaneous-settings-for-eop-or-office-365-atp"></a>Configurações diversas para o EOP ou o Office 365 ATP
+## <a name="miscellaneous-settings"></a>Configurações variadas
 
 Estas configurações abrangem uma variedade de recursos que não se encaixam necessariamente em categorias específicas acima. Algumas das configurações são externas para o centro de conformidade de & de segurança.
 

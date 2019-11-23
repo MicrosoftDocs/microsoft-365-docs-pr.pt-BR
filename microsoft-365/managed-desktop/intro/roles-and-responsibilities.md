@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6eb10fda5df4d21068c9a3194cc4b97ba1afaaf3
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 0288dfd2ee84f406c4bcdf4a604d1370afeefed7
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982542"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202172"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Funções e responsabilidades de área de trabalho gerenciada da Microsoft
 
@@ -41,7 +41,7 @@ Veja a seguir um conjunto adicional de funções e responsabilidades comuns que 
 
 Função ou responsabilidade | Descrição
 --- | ---
-Gerenciamento de alterações | A Microsoft notificará os clientes, antecipadamente, quando as alterações precisarem ser feitas no ambiente de área de trabalho gerenciada da Microsoft. O cliente precisa ter seu próprio processo de gerenciamento de alterações e ter um contato estabelecido com a equipe de operações de área de trabalho gerenciada da Microsoft. O cliente também precisa ter recursos para revisar e aprovar essas alterações. Para obter mais informações, consulte [operações e monitoramento](../service-description/operations-and-monitoring.md).  
+Gerenciamento de alterações | A Microsoft notificará os clientes, antecipadamente, quando as alterações precisarem ser feitas no ambiente de área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [Service Changes and Communication](../service-description/servicechanges.md)<br><br>O cliente precisa ter seu próprio processo de gerenciamento de alterações e ter um contato estabelecido com a equipe de operações de área de trabalho gerenciada da Microsoft. O cliente também precisa ter recursos para revisar e aprovar essas alterações. Para obter mais informações, consulte [operações e monitoramento](../service-description/operations-and-monitoring.md).  
 O gerenciamento de identidades | O cliente é responsável por criar contas de usuário, atribuindo usuários a grupos e mantendo metadados atualizados. 
 Configuração e gerenciamento do Office 365 ProPlus | A Microsoft é responsável por garantir que os aplicativos do Office sejam implantados para os usuários finais, e esses aplicativos são atualizados. <br><br> O cliente é responsável pelo gerenciamento de políticas e serviços do Office 365, incluindo responsabilidades de administração do Exchange Online:<br>– Administração de email<br>– Configuração de regra e caixa de correio<br>-Gerenciamento local do Exchange<br><br>O cliente também é responsável por ferramentas de colaboração, administração do SharePoint Server, gerenciamento de domínio, políticas de segurança e de informações definidas no portal de administração do Office 365. 
 Suporte ao usuário final | O cliente é responsável por fornecer suporte ao usuário final para: <br>-Na infraestrutura de site: toda a conectividade de rede e Internet, a infraestrutura de VPN e a configuração do cliente, equipamento de sala de conferência local, impressoras, servidor proxy e configuração, firewalls.<br><br>-Recursos de nuvem em toda a empresa: email, SharePoint, serviços de colaboração e outras infraestruturas de nuvem que se relacionam com o espaço tecnológico de toda a empresa.<br><br>-Linha de negócios e outros aplicativos específicos da empresa.

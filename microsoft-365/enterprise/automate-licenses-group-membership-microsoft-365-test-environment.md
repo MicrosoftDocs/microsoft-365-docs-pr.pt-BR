@@ -3,7 +3,7 @@ title: Automatizar o licenciamento e a associação de grupo para seu ambiente d
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2018
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configure o licenciamento baseado em grupo e a associação de grupos dinâmicos em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: fe6380d94919556904a1fb1ac0624fac3496fe30
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: b1f3bc4a44e66d162360e82295c8f2877131cd07
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673247"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202472"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Automatizar o licenciamento e a associação de grupo para seu ambiente de teste do Microsoft 365 Enterprise
 
-*Este guia de laboratório de teste só pode ser usado para ambientes de teste do Microsoft 365 Enterprise.*
+*Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
 
 O licenciamento baseado em grupo atribui ou remove automaticamente licenças de uma conta de usuário com base na associação de grupo. A associação de grupo dinâmico adiciona ou remove membros de um grupo com base nas propriedades da conta de usuário, como departamento ou país. Este artigo orienta você através de uma demonstração do ambiente de teste do Microsoft 365 Enterprise.
 
@@ -63,10 +63,10 @@ Primeiro, você cria um novo grupo de vendas e adiciona uma regra de associaçã
 12. Clique em **Adicionar consulta** e, em seguida, clique em **Criar**.
 13. Feche as lâminas **Group** e **groups-All Groups** .
 
-Em seguida, configure o grupo de vendas para que os Membros recebam automaticamente licenças do Office 365 E5 e Enterprise Mobility + Security e5.
+Em seguida, configure o grupo de vendas para que os Membros recebam automaticamente a licença do Microsoft 365 e5.
 
 1. Na folha **visão geral** do Azure Active Directory, clique em **licenças > todos os produtos**.
-2. Na lista, escolha **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e clique em **Atribuir**.
+2. Na lista, selecione **Micrsooft 365 E5**e clique em **atribuir**.
 3. Na folha **atribuir licença** , clique em **usuários e grupos**.
 4. Na lista de grupos, selecione o grupo **vendas** .
 5. Clique em **Selecionar** e clique em **Atribuir**.
@@ -78,7 +78,7 @@ Em seguida, teste a associação de grupo dinâmico e o licenciamento automátic
 2. Na guia **centro de administração do Microsoft 365** , clique em **usuários ativos**.
 3. Na página **usuários ativos** , clique na conta do **usuário 4** .
 4. No painel **usuário 4** , clique em **Editar** para **licenças de produto**.
-5. No painel **de licenças de produto** , desative as licenças do **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e clique em **salvar > fechar**.
+5. No painel **licenças de produto** , desabilite a licença do **Microsoft 365 E5** e clique em **salvar > fechar**.
 6. Nas propriedades da conta do usuário 4, verifique se nenhuma licença de produto foi atribuída e se não há associações de grupo.
 7. Clique em **Editar** para obter **informações de contato**.
 8. No painel **Editar informações de contato** , clique em **informações de contato**.
@@ -88,7 +88,7 @@ Em seguida, teste a associação de grupo dinâmico e o licenciamento automátic
 No momento, você verá:
 
 - Propriedade de **associações de grupo** atualizada com o grupo **Sales** .
-- Propriedade **Product licenses** atualizadas com as licenças do **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** .
+- Propriedade **Product licenses** atualizada com a licença do **Microsoft 365 E5** .
 
 Consulte estas etapas na fase de identidade para obter informações e links para implantar a associação de grupo dinâmico e o licenciamento automático em produção:
 

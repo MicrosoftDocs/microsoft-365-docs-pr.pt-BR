@@ -3,7 +3,7 @@ title: Proteger contas de administradores globais no ambiente de teste do Micros
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 89985f99f5471aab87189e78035062add2c6bad9
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 5447177c6581b69d48272ceef7718552ea84dc9d
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673327"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202222"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
 
-*Este guia de laboratório de teste só pode ser usado para ambientes de teste do Microsoft 365 Enterprise.*
+*Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
 
 Você pode impedir ataques digitais em sua organização, garantindo que suas contas de administrador sejam o mais seguras possível. Este artigo descreve como usar as políticas de acesso condicional do Azure Active Directory (Azure AD) para proteger contas de administrador global.
 
@@ -56,7 +56,7 @@ Primeiro, crie uma nova conta de usuário como administrador global dedicado.
 4. Clique em **senha**, clique em **deixe-me criar a senha**e digite uma senha forte. Registre a senha dessa nova conta em um local seguro.
 5. Clear **faça com que este usuário altere sua senha quando entrar pela primeira vez**.
 6. Clique em **funções**e, em seguida, clique em **administrador global**.
-7. Clique em **licenças de produto**e, em seguida, ative as licenças do **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** no.
+7. Clique em **licenças de produto**e, em seguida, ative a licença do **Microsoft 365 E5** no.
 8. Clique em **Adicionar**.
 9. Na **página usuário foi adicionado**, desmarque **Enviar senha no email**e clique em **Fechar**.
 

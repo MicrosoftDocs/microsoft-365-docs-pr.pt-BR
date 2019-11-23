@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: a0f48fefcbb77f5972b91f7fbfbd9dffa6ad7f32
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 7c2cb707f606d6f3f622a72a9fea9fb437626b2b
+ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191196"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39204230"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
 
@@ -35,14 +35,14 @@ Seus usuários finais aproveitarão as versões mais recentes do Windows 10 e do
 
 Claro que não há nada que impeça você de obter e gerenciar seus próprios dispositivos e implantações do Microsoft 365. Então, o que o Microsoft Managed desktop oferece além disso?
 
-Para seus usuários finais:
+Nossas políticas e a linha de base de segurança oferecem aos seus usuários finais esses benefícios:
 
 - Tempos de inicialização para dispositivos de área de trabalho gerenciada da Microsoft sobre um quarto como longo.
 - Pelo menos duas vezes a duração da bateria
 - Cerca de um terço de falhas de dispositivos por ano
 - Mobilidade de dispositivos por meio de [roaming de estado corporativo](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa qual dispositivo entrar
 
-Para seus administradores de ti:
+Os seus administradores de ti se beneficiam dos seguintes recursos:
 
 - Os painéis do insights o mantêm constantemente atualizado quanto ao uso, confiabilidade, integridade do dispositivo e outros dados em dispositivos e usuários
 - Cerca de *um décimo* da quantidade de tempo necessária para atualizar 95% dos dispositivos
@@ -65,7 +65,7 @@ Também monitoramos a integridade do dispositivo e fornecemos informações sobr
 
 
 ## <a name="need-more-details"></a>Precisa de mais detalhes?
-Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar com mais são o [mapa](https://aka.ms/AA6jiam) e um [Resumo de uma página para](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/microsoft-managed-desktop-data-sheet-v20191114.pdf)download. Você pode encontrar as últimas notícias no [blog](https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/bg-p/MicrosoftManagedDesktop)da área de trabalho gerenciada da Microsoft.
+Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar com mais são o [mapa](https://aka.ms/AA6jiam) e um [Resumo de uma página para](https://aka.ms/AA6ob3h)download. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd)da área de trabalho gerenciada da Microsoft.
 
 Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organização, você pode aprofundar-se na documentação adicional que explica mais sobre o serviço, como preparar sua organização para se inscrever, como começar a usar o serviço e realizar operações em andamento posteriormente inclusive como você e seus usuários finais podem obter a ajuda facilmente, se necessário. Se você já está pronto para entrar, comece entrando em contato com sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
 
@@ -87,9 +87,14 @@ Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organi
 
 **Introdução** Quando você estiver pronto para se inscrever, esta seção inclui as etapas a serem seguidas para realmente participar do serviço, obter e configurar dispositivos, preparar seus usuários finais e implantar aplicativos.
 
-- [Adicionar contatos do administrador no portal de administração de área de trabalho gerenciada da Microsoft](../get-started/add-admin-contacts.md)
+- [Adicionar e verificar contatos do administrador no portal de Administração](../get-started/add-admin-contacts.md)
+- [Ajustar o acesso condicional](../get-started/conditional-access.md)
+- [Atribuir licenças](../get-started/assign-licenses.md)
+- [Instalar o portal da empresa do Intune em dispositivos](../get-started/company-portal.md)
+- [Habilitar Roaming de Estado da Empresa](../get-started/enterprise-state-roaming.md)
 - [Configurar dispositivos de área de trabalho gerenciada da Microsoft](../get-started/set-up-devices.md)
-- [Implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/deploy-apps.md)
+- [Preparar usuários para o uso dos dispositivos](../get-started/get-started-devices.md)
+- [Implantar aplicativos em dispositivos](../get-started/deploy-apps.md)
 
 **Trabalhando com a área de trabalho gerenciada da Microsoft** Esta seção inclui informações sobre sua vida útil diária com o serviço, por exemplo, como os administradores de ti podem obter suporte, se necessário, como os usuários finais têm suporte, Gerenciando seus aplicativos depois de implantados e como trabalhar com as configurações personalizáveis nos dispositivos.
 

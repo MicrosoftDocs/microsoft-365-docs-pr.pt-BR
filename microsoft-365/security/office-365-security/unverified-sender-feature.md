@@ -13,17 +13,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: 6f3d11a510756871d6688dc948e2a50b4d59406d
-ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
+ms.openlocfilehash: f758213802d32b4154924d1ab4a3d8bbff49e717
+ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37523626"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39204249"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
 > [!NOTE] 
-> Essas atualizações estão sendo lançadas agora e talvez ainda não estejam disponíveis para todos os usuários.
+> Essas atualizações estão sendo lançadas agora e talvez ainda não estejam disponíveis para todos os usuários. Esse recurso tem suporte para usuários do Enterprise outlook.com. No momento, ele não está disponível para clientes do outlook.com.
 
 Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
 
@@ -51,11 +51,11 @@ Se você for um cliente do Office 365, poderá gerenciar esse recurso através d
 
     ![Edição de remetentes não autenticados na interface gráfica.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
-- Se um administrador identificou um falso positivo e um remetente não deve receber o tratamento de remetente não verificado, eles podem executar uma das ações a seguir para adicionar o remetente à lista de permissões de falsificação de inteligência de falsificação:
+- Se um administrador identificou um falso positivo e um remetente não deve receber o tratamento de remetentes não verificados, uma das ações a seguir pode ser executada para adicionar o remetente à lista de permissões de falsificação de inteligência de falsificação:
         
-    - Adicionar o par de domínios por meio da compreensão de inteligência de falsificação. Para obter mais detalhes, consulte Walkthrough: spoof Intelligence percepção
+    - Adicionar o par de domínios por meio da compreensão de inteligência de falsificação. Para obter mais detalhes, consulte [Walkthrough: spoof Intelligence percepção](https://docs.microsoft.com/microsoft-365/security/office-365-security/walkthrough-spoof-intelligence-insight).
                 
-    - Adicione o par de domínios através do cmdlet PhishFilterPolicy. Para obter mais detalhes, consulte Set-PhishFilterPolicy e anti-falsification Protection in Office 365
+    - Adicione o par de domínios através do cmdlet PhishFilterPolicy. Para obter mais detalhes, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) e [set up Office 365 ATP anti-phishing and anti-phishing Policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
 
 Além disso, não aplicamos o tratamento de remetente não verificado se ele foi entregue à caixa de entrada por meio de uma lista de permissões de administração, incluindo regras de transporte de email (ETRs), lista de domínios seguros (política antispam), lista de remetentes seguros ou um usuário tiver definido esse usuário como um "remetente seguro" em seu postal.
 
