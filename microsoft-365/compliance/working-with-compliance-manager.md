@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: b1d67a71d8440923552e4702f7035bd24b166fec
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: c50122f390809e145af621ed6341d02ae9c3b8cf
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718680"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202352"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -149,15 +149,19 @@ Não é possível editar o nome de um proprietário, mas você pode modificar a 
 
 A área ações do cliente mostra todas as ações do cliente para todos os modelos e avaliações no Gerenciador de conformidade (visualização).
 
-![Gerenciador de conformidade — adicionar usuários](media/compliance-manager-customer-actions.png)
+![Gerenciador de conformidade — adicionar usuários](media/compliance-manager-customer-actions.png "Ações do cliente do Gerenciador de conformidade")
 
-Em resumo, você pode ver o título, proprietário, categoria, imposição e pontuação de uma ação e determinar se ele está integrado à pontuação segura. Você pode expandir uma ação e selecionar **ler mais** para ler a descrição da ação e acessar todos os links na descrição. Você também pode usar essa interface para habilitar e desabilitar a integração de Pontuação segura em uma base por ação e para adicionar ações personalizadas. As ações com recursos de integração de Pontuação segura têm reticências (...) ao lado delas (Observe que as ações personalizadas também têm reticências ao lado delas).
+Rapidamente, você pode ver o título de uma ação, proprietário, categoria, imposição e pontuação, e determinar se ele está integrado à pontuação segura. Você pode expandir uma ação e selecionar **ler mais** para ler a descrição da ação e acessar todos os links na descrição. Você também pode usar essa interface para habilitar e desabilitar a integração de Pontuação segura em uma base por ação e para adicionar ações personalizadas. As ações com recursos de integração de Pontuação segura têm reticências (...) ao lado delas (Observe que as ações personalizadas também têm reticências ao lado delas).
 
 #### <a name="enable-or-disable-secure-score-integration"></a>Habilitar ou desabilitar a integração de Pontuação segura
 
 1. Selecione as reticências (...) da ação que você deseja modificar e selecione **Editar**.
 2. Alterne a opção de atualização contínua de Pontuação segura para ativado ou desativado para habilitar ou desabilitar o monitoramento contínuo por meio de Pontuação segura.
 3. Selecione **Salvar**.
+
+Quando as organizações implantam pela primeira vez o Microsoft 365 ou o Office 365, leva aproximadamente sete dias para uma pontuação segura para coletar dados completamente e o fator de sua pontuação. Durante esse tempo, definir a opção de atualização contínua de Pontuação segura como **desativado** e definir manualmente uma ação a ser **implementada** contará essa ação em direção à sua pontuação. Após os sete dias iniciais, a ativação da atualização contínua de Pontuação segura habilitará o monitoramento contínuo desse ponto em diante.
+
+Qualquer ação que não é suportada pela integração de Pontuação segura pode ser implementada manualmente. Uma implementação manual será fatorar a pontuação para o grupo dessa ação.
 
 #### <a name="add-a-customer-action"></a>Adicionar uma ação de cliente
 
@@ -563,7 +567,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 ![Relatório do Excel de avaliação do Gerenciador de conformidade](media/compliance-manager-assessment-report.png)
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

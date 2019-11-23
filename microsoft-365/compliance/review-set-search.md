@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8eadfbeb1a78edd12129c97dc3144a45c5c409cf
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: b37ff9bf96ff641750acc9ac47ef9c27b566651c
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191266"
+ms.locfileid: "39202342"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar os dados em um conjunto de revisão
 
@@ -51,11 +51,11 @@ Há vários tipos de cartões de condição:
 
 ### <a name="query-language"></a>Linguagem de consulta
 
-Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como e, ou, não e NEAR (n). Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
+Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como **e**, **ou**, e **não**, e **Near**. Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
 
 ## <a name="using-filters"></a>Usando filtros
 
-Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. Isso ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão. 
+Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. Isso ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
 
 ![Examinar filtros de conjunto](media/AeDReviewSetFilters.png)
 

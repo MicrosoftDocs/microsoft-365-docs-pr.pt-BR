@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 1a490212b2275b9f297e2585e7242f5331d0fe56
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 1f233a6bc19f4a7afa495f49ad77e39e496c1dc5
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38684766"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202162"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>Notas de versão do Gerenciador de conformidade (visualização)
 
@@ -51,8 +51,10 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 - Resultados de Pontuação segura não estão disponíveis para alguns itens de ações em determinadas assinaturas do Microsoft 365 e do Office 365. **Não foi possível detectar** o resultado da Pontuação segura nesses casos.
 - Às vezes, os resultados de Pontuação segura são retornados para políticas correspondentes e itens de ação não concluídos.
 - Para novos locatários, as atualizações de Pontuação segura para todas as ações são automaticamente ativadas. O administrador global pode definir a opção de atualização contínua de Pontuação segura como desativada, o que desativa as atualizações de todas as ações.
+  - **Observação**: quando as organizações implantam pela primeira vez o Microsoft 365 ou o Office 365, leva aproximadamente sete dias para uma pontuação segura para coletar dados completamente e fatorar sua pontuação. Durante esse tempo, definir a opção de atualização contínua de Pontuação segura como **desativado** e definir manualmente uma ação a ser **implementada** contará essa ação em direção à sua pontuação. Após os sete dias iniciais, a ativação da atualização contínua de Pontuação segura habilitará o monitoramento contínuo desse ponto em diante.
 - Quando as atualizações de Pontuação segura estiverem ativadas, as ações serão ativamente monitoradas por Pontuação segura, embora a data de teste da ação não seja atualizada para refletir o monitoramento.
 - Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle gerenciado pela Microsoft e integração de Pontuação segura.
+- Qualquer ação que não é suportada pela integração de Pontuação segura pode ser implementada manualmente. Uma implementação manual será fatorar a pontuação para o grupo dessa ação.
 
 ### <a name="microsoft-managed-controls"></a>Controles gerenciados pela Microsoft
 

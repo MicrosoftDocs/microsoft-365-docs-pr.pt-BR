@@ -701,6 +701,8 @@
           href: compliance-score-methodology.md
         - name: Notas de versão da Pontuação de Conformidade (visualização)
           href: compliance-score-release-notes.md
+        - name: FAQ de Pontuação de conformidade (versão prévia)
+          href: compliance-score-faq.md
         - name: Gerenciador de conformidade (visualização)
           href: compliance-manager-overview.md
           items:

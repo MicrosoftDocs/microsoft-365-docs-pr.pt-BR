@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Adicione os resultados de uma pesquisa associada a uma ocorrência de descoberta eletrônica avançada. Os itens são copiados do local original e copiados para um local de armazenamento do Azure fornecido pela Microsoft. Os itens também são reindexados e a descoberta eletrônica avançada executará o OCR (reconhecimento óptico de caracteres) em arquivos de imagem e carregará o texto da imagem para revisão e análise.
-ms.openlocfilehash: 0a1b2a245e3a650d6a35bc1032539e7b7e969dc9
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 99fe0cce8bd872ecd5f4a94699857c36c3a4d617
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191176"
+ms.locfileid: "39202322"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 
@@ -57,6 +57,6 @@ Após selecionar e configurar uma das opções anteriores, escolha um conjunto d
 
 ## <a name="optical-character-recognition"></a>Reconhecimento óptico de caracteres
 
-Quando você adiciona resultados de pesquisa a um conjunto de revisão, a funcionalidade de reconhecimento óptico de caracteres (OCR) em descoberta eletrônica avançada extrai automaticamente o texto de imagens e inclui o texto da imagem com os dados que são adicionados a um conjunto de revisão. Isso permite que você realize análises e análises adicionais sobre texto em imagens. O OCR tem suporte para arquivos soltos, anexos de email e imagens incorporadas. Para obter uma lista de formatos de arquivo de imagem suportados para OCR, confira [tipos de arquivo com suporte na descoberta eletrônica avançada](supported-filetypes-ediscovery20.md#image).
+Quando você adiciona resultados de pesquisa a um conjunto de revisão, a funcionalidade de reconhecimento óptico de caracteres (OCR) em descoberta eletrônica avançada extrai automaticamente o texto de imagens e inclui o texto da imagem com os dados que são adicionados a um conjunto de revisão. Você pode exibir o texto extraído no Visualizador de texto do arquivo de imagem selecionado no conjunto de revisão. Isso permite que você realize análises e análises adicionais sobre texto em imagens. O OCR tem suporte para arquivos soltos, anexos de email e imagens incorporadas. Para obter uma lista de formatos de arquivo de imagem suportados para OCR, confira [tipos de arquivo com suporte na descoberta eletrônica avançada](supported-filetypes-ediscovery20.md#image).
 
 Você precisa habilitar a funcionalidade de OCR para cada caso que você criar na descoberta eletrônica avançada. Para obter mais informações, consulte [Configurar definições de pesquisa e análise](configure-search-and-analytics-settings-in-advanced-ediscovery.md#optical-character-recognition-ocr).
