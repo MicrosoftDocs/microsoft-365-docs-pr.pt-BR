@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Para administradores: saiba mais sobre o serviço de importação no Centro de Conformidade e Segurança para importar dados de email (arquivos PST) em massa às caixas de correio de usuário no Exchange Online. Este tópico fornece perguntas frequentes e explica como funciona p processo de importação de PST.'
-ms.openlocfilehash: 4682114ad150f818dfe39fe662bc3440d655e4ea
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 948ba22ff88b72a3af92edb39bfdc28cfde4c385
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072578"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39218836"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Visão geral da importação de arquivos de organização PST para o Office 365
 
@@ -94,11 +94,11 @@ Esta é uma ilustração e uma descrição do processo de importação de PST co
     
   - Usar os [casos de Descoberta Eletrônica](ediscovery-cases.md) para gerenciar as investigações jurídicas de sua organização. 
     
-  - Usar as [políticas de retenção](retention-policies.md) no Centro de Conformidade e Segurança para controlar o tempo de retenção do conteúdo da caixa de correio e, em seguida, exclua o conteúdo depois que o período de retenção expirar. 
+  - Usar as [políticas de retenção](retention-policies.md) no Centro de Conformidade e Segurança para controlar por quanto tempo o conteúdo da caixa de correio fica retido e, em seguida, exclua o conteúdo depois que o período de retenção expirar. 
 
-  - Usar [políticas de supervisão](supervision-policies.md) para examinar as mensagens e verificar se elas estão em conformidade com os padrões de mensagem e adicionar um tipo de classificação.
+  - Usar [Políticas de conformidade de comunicação](communication-compliance.md) para examinar as mensagens e se certificar que elas estão em conformidade com os padrões de mensagem e adicionar um tipo de classificação.
     
-- Importar dados para o Office 365 ajuda na proteção contra perda de dados. Os dados de email importados para o Office 365 herdam recurso de alta disponibilidade do Exchange Online.
+- Importar dados para o Office 365 ajuda na proteção contra a perda de dados. Os dados de email importados para o Office 365 herdam recurso de alta disponibilidade do Exchange Online.
     
 - Os dados de email no Office365 ficam disponíveis para os usuários em todos os dispositivos, já que são armazenados na nuvem.
     

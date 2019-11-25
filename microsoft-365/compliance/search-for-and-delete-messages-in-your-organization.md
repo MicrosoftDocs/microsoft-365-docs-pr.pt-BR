@@ -1,5 +1,5 @@
 ---
-title: Pesquisar e excluir mensagens de email no Office 365 da sua organização - ajuda para administradores
+title: Pesquisar e excluir mensagens de email em sua organização do Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
-description: Você pode usar o recurso Pesquisar e limpar do Centro de Segurança e Conformidade do Office365 para pesquisar e excluir uma mensagem de email de todas as caixas de correio da sua organização.
-ms.openlocfilehash: cd592ca48fdb2390e8449672920aa697cc297495
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Você pode usar o recurso Pesquisar e limpar do Centro de Segurança e Conformidade do Office365 para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
+ms.openlocfilehash: 0c2b54b8e2d18a91075c577d65d7023e3b1d2c44
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071796"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39218856"
 ---
-# <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Pesquisar e excluir mensagens de email no Office 365 da sua organização - ajuda para administradores
+# <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Pesquisar e excluir mensagens de e-mail em sua organização do Office 365
 
-**Este artigo é para os administradores. Você está tentando encontrar itens na sua caixa de correio que deseja excluir? Confira [Localizar uma mensagem ou um item com a Pesquisa Instantânea](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**|
+**Este artigo é para os administradores. Você está tentando encontrar itens na sua caixa de correio que deseja excluir? Consulte [Localizar uma mensagem ou um item com a Pesquisa Instantânea](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**|
    
 Você pode usar o recurso Pesquisa de Conteúdo no Office365 para pesquisar e excluir uma mensagem de email de todas as caixas de correio da sua organização. Isso pode ajudar você a encontrar e remover um email potencialmente nocivo ou de alto risco, como por exemplo:
   
@@ -39,13 +39,13 @@ Você pode usar o recurso Pesquisa de Conteúdo no Office365 para pesquisar e ex
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre a adição de usuários a um grupo de funções, confira [Conceder acesso ao centro de segurança e conformidade ](/security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre a adição de usuários a um grupo de funções, confira [Conceder acesso ao centro de segurança e conformidade ](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
     
 - Você tem que usar o Centro de Segurança e Conformidade do PowerShell para excluir mensagens. Consulte a[Etapa 2](#step-2-connect-to-security--compliance-center-powershell) para obter instruções sobre como se conectar.
     
-- Só é possível remover no máximo dez itens de cada vez por caixa de correio. Como o recurso de pesquisa e remoção de mensagens tem como objetivo ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam rapidamente removidas das caixas de correio. Este recurso não tem como objetivo limpar as caixas de correio do usuário. Para excluir mais de 10 itens, você pode usar o comando ** Search-Mailbox-DeleteContent** no PowerShell do Exchange Online. Consulte[Pesquisar e excluir mensagens - ajuda para administradores](search-for-and-delete-messagesadmin-help.md).
+- Só é possível remover no máximo dez itens de cada vez por caixa de correio. Como o recurso de pesquisa e remoção de mensagens tem como objetivo ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam rapidamente removidas das caixas de correio. Este recurso não tem como objetivo limpar as caixas de correio do usuário. Para excluir mais de 10 itens, você pode usar o comando **Search-Mailbox-DeleteContent** no PowerShell do Exchange Online. Consulte [Procurar e excluir mensagens](search-for-and-delete-messagesadmin-help.md).
     
-- O número máximo de caixas de correio em uma pesquisa de conteúdo na qual você pode excluir itens numa ação de Pesquisar e limpar é 50.000. Se a pesquisa de conteúdo (que você cria na [ Etapa 1](#step-1-create-a-content-search-to-find-the-message-to-delete)) tiver mais de 50.000 caixas de correio de origem, a ação limpar (que você vai criar na etapa 3) falhará. Confira a seção[Mais informações](#more-information) para obter uma dica de como executar uma operação Pesquisar e limpar em mais de 50.000 caixas de correio. 
+- O número máximo de caixas de correio em uma pesquisa de conteúdo na qual você pode excluir itens executando uma ação de pesquisar e limpar é de 50.000. Se a pesquisa de conteúdo (que você cria na [ Etapa 1](#step-1-create-a-content-search-to-find-the-message-to-delete)) tiver mais de 50.000 caixas de correio de origem, a ação limpar (que você vai criar na etapa 3) falhará. Confira a seção[Mais informações](#more-information) para obter uma dica de como executar uma operação Pesquisar e limpar em mais de 50.000 caixas de correio. 
     
 - O procedimento neste artigo só pode ser usado para excluir itens nas caixas de correio e pastas públicas do Exchange Online. Não é possível usá-lo para excluir o conteúdo dos sites do SharePoint ou do OneDrive for Business.
     
@@ -82,13 +82,13 @@ Aqui estão dois exemplos de consultas para localizar mensagens de email suspeit
   
 - Essa consulta retornará as mensagens que foram recebidas pelos usuários entre 13 de abril de 2016 e 14 de abril de 2016 e que contêm as palavras "ação" e "obrigatório" na linha de assunto.
     
-    ```
+    ```powershell
     (Received:4/13/2016..4/14/2016) AND (Subject:'Action required')
     ```
-   
+
 - Essa consulta retornará as mensagens que foram enviadas por chatsuwloginsset12345@outlook.com e que contêm a frase exata "Atualizar as informações da sua conta" na linha de assunto.
     
-    ```
+    ```powershell
     (From:chatsuwloginsset12345@outlook.com) AND (Subject:"Update your account information")
     ```
 
@@ -102,29 +102,29 @@ Se a sua conta do Office 365 usa a MFA (autenticação multifator) ou autentica�
 
 Após a criação e detalhamento de uma pesquisa de conteúdo com o objetivo de retornar a mensagem que você deseja remover e está conectada ao Centro de Segurança e Conformidade no PowerShell, a etapa final será executar o cmdlet**New-ComplianceSearchAction** para excluir a mensagem.  Você pode excluir a mensagem temporária ou permanentemente. Uma mensagem excluída temporariamente (soft- deleted) é movida para a pasta Itens Recuperáveis de um usuário e mantida até que o período de retenção de itens excluídos expire. As mensagens excluídas permanentemente (hard-deleted) serão definitivamente removidas da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. Se a recuperação de um único item estiver habilitada para a caixa de correio, os itens excluídos permanentemente serão removidos definitivamente após o término do período de retenção de itens excluídos. Se uma caixa de correio for colocada em espera, as mensagens excluídas serão preservadas até que a duração de retenção do item expire ou até que o período de espera seja interrompido na caixa de correio.
   
-No exemplo a seguir, o comando excluirá temporariamente os resultados de pesquisa retornados por uma Pesquisa de Conteúdo chamada “Remover Mensagens de Phishing”. 
+No exemplo a seguir, o comando exclui temporariamente os resultados da pesquisa retornados por uma Pesquisa de conteúdo chamada “Remover mensagens de phishing”. 
 
-```
+```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
 
-Para excluir permanentemente os itens retornados pela Pesquisa de Conteúdo "Remover Mensagem de Phishing", execute este comando:
+Para excluir permanentemente os itens retornados pela Pesquisa de conteúdo "Remover mensagens de phishing", execute este comando:
 
-```
+```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
 ```
 
-Observe que, quando você executa o comando anterior para excluir mensagens de forma temporária ou permanente, a pesquisa especificada pelo parâmetro *SearchName*  é a Pesquisa de Conteúdo que você criou na Etapa 1. 
+Quando você executa o comando anterior para excluir mensagens de forma temporária ou permanente, a pesquisa especificada pelo parâmetro *SearchName* é a Pesquisa de conteúdo que você criou na Etapa 1. 
   
-Para saber mais, confira [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction).
+Para obter mais informações, consulte [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction).
 
 ## <a name="more-information"></a>Mais informações
 
 - **Como obter o status da operação de pesquisa e exclusão?**
 
-    Execute o **Get-ComplianceSearchAction** para obter o status da operação de exclusão. Observe que o objeto criado com a execução do cmdlet **New-ComplianceSearchAction** é denominado de acordo com este formato:  `<name of Content Search>_Purge`. 
+    Execute o **Get-ComplianceSearchAction** para obter o status da operação de exclusão. O objeto criado quando você executa o cmdlet **New-ComplianceSearchAction** é nomeado de acordo com este formato: `<name of Content Search>_Purge`. 
     
-- **O que acontece quando após a exclusão de uma mensagem?**
+- **O que acontece após a exclusão de uma mensagem?**
 
    Uma mensagem excluída com o comando `New-ComplianceSearchAction -Purge -PurgeType HardDelete` será movida para a pasta Remoções e não poderá ser acessada pelo usuário. Uma vez na pasta Remoções, a mensagem é mantida pelo período de retenção do item excluído, se a recuperação de itens individuais estiver habilitada para a caixa de correio. (No Office 365, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada.) Após o período de retenção de item excluído expirar, a mensagem será marcada para exclusão permanente e será definitivamente removida do Office 365 da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. 
 
