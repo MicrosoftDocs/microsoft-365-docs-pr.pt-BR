@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar a agenda de retenção específica da sua organização em um plano de arquivo para gerenciar a retenção, a declaração de registros e o descarte no suporte de todo o ciclo de vida do conteúdo.
-ms.openlocfilehash: 97b5c1981cf2596554571e8b53059aa718aa561c
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 3057b5ab061bc5107acbde3c67ecde8a9edaffd7
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440668"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "39233201"
 ---
 # <a name="records-management-in-microsoft-365"></a>Gerenciamento de registros no Office 365
 
@@ -26,13 +26,13 @@ Organizações de todos os tipos exigem uma solução de gerenciamento de regist
 
 A solução de gerenciamento de registros é compatível com os seguintes elementos:
 
+- **Conteúdo do rótulo como um registro**. Publique [os rótulos de registro](records.md) a serem aplicados pelos usuários finais ou [aplique automaticamente ](labels.md#applying-a-retention-label-automatically-based-on-conditions) os mesmos aos itens que contêm informações confidenciais, palavras-chave ou tipos de conteúdo específicos.
+
 - **Migrar e gerenciar seu plano de retenção com o plano de arquivo** e usar o [gerenciador de planos de arquivo](file-plan-manager.md) para reunir seu plano de retenção existente ou criar um novo com os descritores de arquivo e expandir as hierarquias.
 
 - **Estabeleça políticas de retenção e exclusão dentro do rótulo do registro**. Defina os períodos de [retenção](retention-policies.md#retaining-content-for-a-specific-period-of-time) e [disposição](retention-policies.md#deleting-content-thats-older-than-a-specific-age) com base em vários fatores, incluindo a data da última modificação ou criação.
 
 - **Acione a retenção baseada em eventos** com [retenção baseada em eventos](event-driven-retention.md).
-
-- **Rotule como um registro**. Publique [os rótulos de registro](labels.md#using-retention-labels-for-records-management) a serem aplicados pelos usuários finais ou [aplique automaticamente os rótulos de registro](labels.md#applying-a-retention-label-automatically-based-on-conditions) aos itens que contêm informações confidenciais, palavras-chave ou tipos de conteúdo específicos.
 
 - **Examine e valide o descarte** com a [revisão de disposição](disposition-reviews.md).
 
