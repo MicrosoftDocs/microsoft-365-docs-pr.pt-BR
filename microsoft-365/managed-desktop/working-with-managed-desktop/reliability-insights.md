@@ -1,0 +1,39 @@
+---
+title: Informações sobre confiabilidade
+description: ''
+keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+ms.service: m365-md
+author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: f830e01d54aef9065727971533633f8e63bc1214
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257029"
+---
+# <a name="reliability-insights"></a>Informações sobre confiabilidade
+
+Este modo de exibição fornece um resumo de integridade dos dispositivos gerenciados. Para exibir os dados de confiabilidade, selecione a guia **confiabilidade** .
+
+
+![Painel de confiabilidade](images/insights_reliability.png)
+
+A seção **confiabilidade entre dispositivos** oferece um resumo de integridade rápida de sua implantação nos últimos 14 dias, relatando a porcentagem de dispositivos considerados como "saudáveis" e o tempo médio observado desde a última falha relatada. 
+
+ 
+O gráfico de **confiabilidade ao longo do tempo** indica o número de dispositivos com erros críticos e o número total de erros críticos observados ao longo do tempo.
+
+A seção **principais problemas** detalha os problemas detectados específicos que afetam pelo menos 5% dos seus dispositivos gerenciados. Os detalhes relatados incluem:
+
+- O tipo de problema
+    - O aplicativo falha, no qual um aplicativo para de funcionar ou pára inesperadamente
+    - O aplicativo paralisa, onde um aplicativo pára de responder à entrada
+    - Erros críticos, que ocorrem quando o Windows encontrou um problema que não pode se recuperar de
+- O número de dispositivos afetados pelo mesmo problema
+- A porcentagem de dispositivos gerenciados que o número representa
+- A contagem total de ocorrências do problema específico
+- O componente de software que parece ser a origem do problema
+- O status atual como operações de área de trabalho gerenciada da Microsoft investiga e corrige o problema
+
