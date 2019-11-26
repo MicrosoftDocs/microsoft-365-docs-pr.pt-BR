@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: eccc60dc7a306f3e7b2eb128ed45a92af65491a5
-ms.sourcegitcommit: cd748ca00088275372f51fbf8c4bc72bfd3e1437
+ms.openlocfilehash: 3c5b52c89c9a5eb9e78e670bce0b5c3edec89cd1
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "39233203"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256708"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -57,7 +57,7 @@ Quando um rótulo de confidencialidade é aplicado automaticamente, o usuário v
 
 ## <a name="recommend-that-the-user-apply-a-sensitivity-label"></a>Recomendar ao usuário que ele aplique um rótulo de confidencialidade
 
-Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com essa opção, os usuários podem aceitar a classificação e qualquer proteção associada ou descartar a recomendação se o rótulo não for adequado para seus documentos ou emails.
+Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com essa opção, seus usuários podem aceitar a classificação e qualquer proteção associada ou descartar a recomendação se o rótulo não for adequado para seus documentos ou emails.
 
 Os rótulos recomendados têm suporte no Word, PowerPoint e Excel (e exigem que o cliente de rotulagem unificado da Proteção de Informações do Azure esteja instalado).
 

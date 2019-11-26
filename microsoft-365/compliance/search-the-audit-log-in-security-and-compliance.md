@@ -10,17 +10,18 @@ localization_priority: Priority
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 9885463e61c36713cbd7be82ac1ef2caaee70e7a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 43ab1083ad028ee53ad355a84fda17b02decbc70
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071799"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39233514"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -86,13 +87,13 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
 
 - Caso pretenda desativar a pesquisa de log de auditoria do Office 365 da sua organização, execute o comando a seguir no PowerShell remoto conectado à sua organização do Exchange Online:
 
-  ```
+  ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
   ```
 
     Para ativar a pesquisa de auditoria novamente, execute o seguinte comando no PowerShell do Exchange Online:
 
-  ```
+  ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
   ```
 
@@ -213,6 +214,9 @@ Os resultados contêm as seguintes informações sobre cada evento retornado pel
 
 - **Endereço IP**: O endereço IP do dispositivo que foi usado quando a atividade foi registrada. O endereço IP é exibido em um formato de endereço IPv4 ou IPv6.
 
+   > [!NOTE]
+  > Para alguns serviços, o valor exibido nesse campo pode ser o endereço IP de um aplicativo confiável (por exemplo, Office em aplicativos Web) chamando o serviço em nome de um usuário e não o endereço IP do dispositivo usado por quem realizou a atividade. Além disso, em atividades de administrador (ou atividade realizada por uma conta do sistema) para os eventos relacionados ao Active Directory do Azure, o endereço IP não é registrado e o valor exibido neste campo é `null`.
+
 - **Usuário**: O usuário (ou a conta de serviço) que realizou a ação que disparou o evento.
 
 - **Atividade**: A atividade realizada pelo usuário. Esse valor corresponde às atividades que você selecionou na lista suspensa **Atividades**. Para um evento do log de auditoria de administradores do Exchange, o valor nessa coluna é um cmdlet do Exchange.
@@ -296,8 +300,9 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |[Atividades de administração de usuários](#user-administration-activities)|[Atividades de administração de grupos do Azure AD](#azure-ad-group-administration-activities)|[Atividades de administração de aplicativos](#application-administration-activities)|
 |[Atividades de administração de funções](#role-administration-activities)|[Atividades de administração de diretórios](#directory-administration-activities)|[Atividades de Descoberta Eletrônica](#ediscovery-activities)|
 |[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
-|[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Yammer](#yammer-activities)|[Atividades do Fluxo da Microsoft](#microsoft-flow-activities)|
-|[Atividades do Microsoft PowerApps](#microsoft-powerapps)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)|
+|[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades do Yammer](#yammer-activities)|
+|[Atividades do Fluxo da Microsoft](#microsoft-flow-activities)|[Atividades do Microsoft PowerApps](#microsoft-powerapps)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
+[Atividades de administradores do Exchange](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
@@ -439,7 +444,7 @@ A tabela a seguir lista os eventos relacionados para atribuir permissões no Sha
 
 |**Nome amigável**|**Operação**|**Descrição**|
 |:-----|:-----|:-----|
-|Administrador de conjunto de sites adicionado|SiteCollectionAdminAdded|O proprietário ou administrador do conjunto de sites adiciona uma pessoa como administrador de conjunto de sites para um site. Os administradores do conjunto de sites têm permissões de controle total para o conjunto de sites e todos os subsites. Essa atividade também será registrada quando um administrador conceder acesso a uma conta do usuário do Onedrive (editando o perfil do usuário no centro de administração do SharePoint ou [usando o centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data#part-1---get-access-to-the-former-employees-onedrive-for-business-documents)).|
+|Administrador de conjunto de sites adicionado|SiteCollectionAdminAdded|O proprietário ou administrador do conjunto de sites adiciona uma pessoa como administrador de conjunto de sites para um site. Os administradores do conjunto de sites têm permissões de controle total para o conjunto de sites e todos os subsites. Essa atividade também será registrada quando um administrador conceder acesso a uma conta do usuário do Onedrive (editando o perfil do usuário no centro de administração do SharePoint ou [usando o centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)).|
 |Usuário ou grupo adicionado ao grupo do SharePoint|AddedToGroup|O usuário adicionou um membro ou convidado a um grupo do SharePoint. Esta pode ter sido uma ação intencional ou o resultado de outra atividade, como um evento de compartilhamento.|
 |Herança de nível de permissão interrompida|PermissionLevelsInheritanceBroken|Um item foi alterado para que ele não mais herde os níveis de permissão de seu pai.|
 |Compartilhamento de herança interrompido|SharingInheritanceBroken|Um item foi alterado para que não herde mais as permissões de compartilhamento de seu pai.|
@@ -680,7 +685,7 @@ O log de auditoria do Power BI não está habilitado por padrão. Para pesquisar
 
 ### <a name="microsoft-workplace-analytics-activities"></a>Atividades do Microsoft Workplace Analytics
 
-O Workplace Analytics fornece informação de como os grupos colaboram em sua organização do Office 365. A tabela a seguir lista as atividades executadas pelos usuários que recebem a função de Administrador ou as funções de Analista no Workplace Analytics. Os usuários que receberam a função de Analista têm acesso total a todos os recursos de serviço e usam o produto para fazer análise. Os usuários que receberam a função de Administrador podem definir as configurações de privacidade e os padrões do sistema, além de poder preparar, carregar e verificar dados organizacionais no Workplace Analytics. Para saber mais, confira [Workplace Analytics](https://docs.microsoft.com/pt-BR/workplace-analytics/index-orig).
+O Workplace Analytics fornece informação de como os grupos colaboram em sua organização do Office 365. A tabela a seguir lista as atividades executadas pelos usuários que recebem a função de Administrador ou as funções de Analista no Workplace Analytics. Os usuários que receberam a função de Analista têm acesso total a todos os recursos de serviço e usam o produto para fazer análise. Os usuários que receberam a função de Administrador podem definir as configurações de privacidade e os padrões do sistema, além de poder preparar, carregar e verificar dados organizacionais no Workplace Analytics. Para saber mais, confira [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig).
 
 |**Nome amigável**|**Operação**|**Descrição**|
 |:-----|:-----|:-----|
@@ -724,8 +729,16 @@ A tabela a seguir lista as atividades de usuários e de administradores no Micro
 |Guia removida|TabRemoved|Um usuário remove uma guia de um canal.|
 |Conector atualizado|ConnectorUpdated|Um usuário modificou um conector em um canal.|
 |Guia atualizada|TabUpdated|Usuário modificou uma guia no canal.|
-|Usuário entrou nas Equipes|TeamsSessionStarted|Um usuário entra em um cliente do Microsoft Teams.|
+|Usuário entrou nas Equipes|TeamsSessionStarted|Um usuário entra em um cliente do Microsoft Teams. Este evento não captura as atividades de atualização de token.|
 ||||
+
+### <a name="microsoft-teams-healthcare-activities"></a>Atividades do Microsoft Teams Healthcare
+
+Se a sua organização estiver usando o [aplicativo Patients ](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) do Microsoft Teams, você poderá pesquisar o log de auditoria para atividades relacionadas ao uso do aplicativo Patients. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Patients, um grupo de atividades adicionais para essas atividades estará disponível na lista seletora**Atividades**.
+
+![Atividades do Microsoft Teams Healthcare na lista seletora Atividades](media/TeamsHealthcareAuditActivities.png)
+
+Para obter uma descrição das atividades do aplicativos Patients, confira [Logs de auditoria para aplicativo Patients](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit).
 
 ### <a name="yammer-activities"></a>Atividades do Yammer
 
@@ -758,7 +771,7 @@ Você pode pesquisar o log de auditoria para atividades no Microsoft Flow. Essas
 
 ### <a name="microsoft-powerapps"></a>Microsoft PowerApps
 
-Você pode pesquisar o log de auditoria de atividades relacionadas a aplicativos no PowerApps. Essas atividades incluem criar, iniciar e publicar um aplicativo. Atribuir permissões a aplicativos também é auditado. Para obter uma descrição de todas as atividades do PowerApps, confira [Log de atividades do PowerApps](https://docs.microsoft.com/pt-BR/power-platform/admin/logging-powerapps#what-events-are-audited).
+Você pode pesquisar o log de auditoria de atividades relacionadas a aplicativos no PowerApps. Essas atividades incluem criar, iniciar e publicar um aplicativo. Atribuir permissões a aplicativos também é auditado. Para obter uma descrição de todas as atividades do PowerApps, confira [Log de atividades do PowerApps](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited).
 
 ### <a name="microsoft-stream-activities"></a>Atividades do Microsoft Stream
 

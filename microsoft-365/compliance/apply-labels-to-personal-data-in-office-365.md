@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como usar os rótulos do Office como parte do seu plano de proteção do GDPR.
-ms.openlocfilehash: 518e5352861242bfbf9220f876edcb4b616493df
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 023d6e2d3db1b6ec844801598df1925f3660217f
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072340"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256908"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Aplicar rótulos a dados pessoais no Office 365
 
@@ -44,9 +44,9 @@ Rótulos de retenção podem ser aplicados a email no Exchange Online e esses r�
 
 Na ilustração:
 
--   Use os rótulos de retenção em dados pessoais e arquivos de segredos comerciais e altamente regulados no SharePoint Online e no OneDrive for Business.
--   Os tipos de informações confidenciais do Office 365 podem ser usados dentro do Office 365 e com o Cloud App Security para monitorar dados pessoais que residem em outros aplicativos SaaS. 
--   Use os rótulos de confidencialidade em arquivos de segredos comerciais e altamente regulados, emails do Exchange Online, arquivos de outros serviços SaaS, arquivos em datacenters no local e arquivos em outros provedores de serviços de nuvem.
+-   Use os rótulos de retenção em dados pessoais e arquivos de segredos comerciais e altamente controlados no SharePoint Online e no OneDrive for Business.
+-   Os tipos de informações confidenciais do Office 365 podem ser usados dentro do Office 365 e com o Cloud App Security para monitorar dados pessoais que residem em outros aplicativos SaaS.
+-   Use os rótulos de confidencialidade em arquivos de segredos comerciais e altamente controlados, emails do Exchange Online, arquivos de outros serviços SaaS, arquivos em datacenters no local e arquivos em outros provedores de nuvem.
 
 
 ## <a name="use-retention-labels-and-sensitive-information-types-across-microsoft-365-for-information-protection"></a>Usar os rótulos de retenção e os tipos de informações confidenciais no Microsoft 365 para proteção de informações
@@ -78,7 +78,7 @@ Para maior acessibilidade, a tabela a seguir fornece os mesmos exemplos da ilust
 <p>...aos documentos com este rótulo...</p>
 <p>Dados do cliente</p></td>
 <td align="left"><p>Alertar quando os arquivos com esses atributos...</p>
-<p>Escolha um ou mais atributos: atributo PII predefinido, tipo de informação confidencial do Office 365, rótulo de confidencialidade (API), expressão personalizada</p>
+<p>Escolha um ou mais atributos: atributo PII predefinido, tipo de informação confidencial do Office 365, rótulo de confidencialidade (API), expressão personalizada.</p>
 <p>. . . que forem compartilhados fora da organização em qualquer aplicativo SaaS sancionado.</p><p>Obs.: rótulos de retenção atualmente não são suportados pelo Cloud App Security.</td>
 </tr>
 <tr class="even">
@@ -99,7 +99,7 @@ Para maior acessibilidade, a tabela a seguir fornece os mesmos exemplos da ilust
 
 Para os dados pessoais sujeitos ao GDPR, a Microsoft recomenda a aplicação automática de rótulos usando os tipos de informações confidenciais que você selecionou para seu ambiente. É importante que as políticas de aplicação automática de rótulos sejam bem pensadas e testadas para alcançar o comportamento pretendido.
 
-Tanto a ordem de criação das políticas de aplicação automática quanto o fato de os usuários também aplicarem rótulos afetam o resultado. Por isso, é importante planejar a distribuição com atenção. Veja o que é preciso saber.
+Tanto a ordem de criação das políticas de aplicação automática quanto o fato de os usuários também aplicarem rótulos afetam o resultado. Por isso, é importante planejar a distribuição com cuidado. Veja o que é preciso saber.
 
 ### <a name="one-label-at-a-time"></a>Um rótulo por vez
 
@@ -107,11 +107,11 @@ Só é possível atribuir um rótulo a um documento.
 
 ### <a name="older-auto-apply-policies-win"></a>As políticas de aplicação automática mais antigas têm prioridade
 
-Se houver várias regras de atribuição de um rótulo de aplicação automática e o conteúdo atender às condições de várias regras, o rótulo para a regra mais antiga será atribuído. Por esse motivo, é importante planejar as políticas de rotulação com atenção antes de configurá-las. Se uma organização precisar de uma alteração na prioridade das políticas de rotulação, será necessário excluí-las e recriá-las.
+Se houver várias regras de atribuição de um rótulo de aplicação automática e o conteúdo atender às condições de várias regras, o rótulo para a regra mais antiga será atribuído. Por esse motivo, é importante planejar as políticas de rótulo com atenção antes de configurá-las. Se uma organização precisar de uma alteração na prioridade das políticas de rótulo, será necessário excluí-las e recriá-las.
 
 ### <a name="manual-user-applied-labels-trump-auto-applied-labels"></a>Os rótulos aplicados manualmente pelo usuário prevalecem sobre os rótulos com aplicação automática
 
-Os rótulos aplicados manualmente pelo usuário prevalecem sobre os rótulos com aplicação automática.As políticas de aplicação automática não podem substituir um rótulo já aplicado por um usuário. Porém, os usuários podem substituir rótulos aplicados automaticamente.
+Os rótulos aplicados manualmente pelo usuários prevalecem sobre os rótulos com aplicação automática. As políticas de aplicação automática não podem substituir um rótulo já aplicado por um usuários. Porém, os usuários podem substituir rótulos aplicados automaticamente.
 
 ### <a name="auto-assigned-labels-can-be-updated"></a>Os rótulos atribuídos automaticamente podem ser atualizados
 
@@ -119,9 +119,9 @@ Os rótulos atribuídos automaticamente podem ser atualizados por políticas de 
 
 Seu plano para a implementação de rótulos deve:
 
--   Priorizar a ordem de criação de políticas de aplicação automática.
+- Priorizar a ordem de criação de políticas de aplicação automática.
 
--   Deixar tempo suficiente para a aplicação automática de rótulos antes da distribuição para os usuários aplicarem manualmente. Pode levar até sete dias para que os rótulos sejam aplicados a todo o conteúdo que atende às condições.
+- Deixar tempo suficiente para a aplicação automática de rótulos antes da distribuição para os usuários aplicarem manualmente. Pode levar até sete dias para que os rótulos sejam aplicados a todo o conteúdo que atende às condições.
 
 ### <a name="example-priority-for-creating-the-auto-apply-policies"></a>Exemplo de prioridade para a criação de políticas de aplicação automática
 
@@ -134,7 +134,7 @@ Seu plano para a implementação de rótulos deve:
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Recursos Humanos — Dados de Funcionários</td>
+<td align="left">Recursos humanos – dados de funcionários</td>
 <td align="left">1</td>
 </tr>
 <tr class="even">
@@ -166,7 +166,7 @@ Seu plano para a implementação de rótulos deve:
 
 ## <a name="create-labels-and-auto-apply-label-policies"></a>Criar rótulos e políticas de aplicação automática de rótulos
 
-Crie rótulos e políticas no centro de segurança e no centro de conformidade.
+Criar rótulos e políticas no centro de segurança ou no centro de conformidade.
 
 <table>
 <thead>
@@ -198,8 +198,8 @@ A ilustração a seguir mostra como criar um rótulo de aplicação automática 
 
 Na ilustração:
 
--   O rótulo "Dados do cliente" foi criado.
+- O rótulo "Dados do cliente" foi criado.
 
--   Os tipos de informações confidenciais desejados para o GDPR foram listados: Número Nacional de Identificação da Bélgica, Número do cartão de crédito, Número de Cartão de Identidade da Croácia, ID nacional da Finlândia.
+- Os tipos de informações confidenciais desejados para o GDPR foram listados: Número Nacional de Identificação da Bélgica, Número do cartão de crédito, Número de Cartão de Identidade da Croácia, ID nacional da Finlândia.
 
--   Criar uma política de aplicação automática atribui o rótulo "Dados do cliente" a todo arquivo com um dos tipos de informação confidencial que você adicionar à política.
+- Criar uma política de aplicação automática atribui o rótulo "Dados do cliente" a todo arquivo com um dos tipos de informação confidencial que você adicionar à política.

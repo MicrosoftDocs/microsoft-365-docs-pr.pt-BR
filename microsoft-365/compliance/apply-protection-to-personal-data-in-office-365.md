@@ -16,13 +16,13 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Saiba como usar políticas DLP para proteger dados pessoais no Office 365.
-ms.openlocfilehash: 12d6de9b8012062e26daec922d5c55fa0f52381a
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+description: Saiba como usar políticas de prevenção de perda de dados (DLP) para proteger dados pessoais no Office 365.
+ms.openlocfilehash: e3f7bdc589b34da0aad8baabd5b54bcfd59f25b9
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38708019"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256778"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Aplicar proteção a dados pessoais no Office 365
 
@@ -62,9 +62,9 @@ Esta ilustração mostra as opções para criar uma política DLP:
 
 Um dos principais usos da DPL do Office 365 é identificar dados pessoais relacionados a assuntos de dados da UE no ambiente do Office 365. A DPL do Office 365 pode notificar as equipes de conformidade sobre onde as informações pessoais estão armazenadas no SharePoint Online e no OneDrive for Business, ou quando os usuários enviam email contendo informações pessoais. A DLP pode ainda fornecer dicas de políticas aos seus funcionários ao trabalhar com informações pessoais relacionadas a residentes da UE.
 
-Instruir e aumentar a conscientização em relação a onde os dados de residentes da UE estão armazenados no seu ambiente e como os seus funcionários têm permissão para gerenciá-los representam um nível de proteção de informações usando a DLP do Office 365. Muitas vezes, os funcionários que já têm acesso a esse tipo de informação precisam desse acesso para executar as suas tarefas do dia a dia. A aplicação das políticas de DLP para ajudar a manter a conformidade com o GDPR pode não exigir a restrição do acesso.
+Instruir e aumentar a conscientização em relação a onde os dados de residentes da UE estão armazenados no seu ambiente e como os seus funcionários têm permissão para gerenciá-los representam um nível de proteção de informações usando a DLP do Office 365. Muitas vezes, os funcionários que já têm acesso a esse tipo de informações precisam desse acesso para realizar suas tarefas do dia a dia. A aplicação das políticas de DLP para ajudar a manter a conformidade com o GDPR pode não exigir a restrição do acesso.
 
-No entanto, a conformidade com o GDPR geralmente envolve uma avaliação baseada em risco da organização da perspectiva de segurança das informações e legal, identificação do tipo e onde as informações pessoais foram armazenadas, bem como se há uma justificativa legal para armazenar e processar essas informações. Com base nessa avaliação, a implementação de políticas para proteger a organização e estar em conformidade com o GDPR pode exigir a remoção do acesso dos funcionários a documentos que contenham informações de assuntos de dados da UE. Nos casos em que for preciso maior proteção, é possível configurar uma proteção adicional de DLP.
+No entanto, a conformidade com o GDPR geralmente envolve uma avaliação baseada em risco da organização, da perspectiva de segurança das informações e da perspectiva legal, identificação do tipo e onde as informações pessoais foram armazenadas, bem como se há uma justificativa legal para armazenar e processar essas informações. Com base nessa avaliação, a implementação de políticas para proteger a organização e estar em conformidade com o GDPR pode exigir a remoção do acesso dos funcionários a documentos que contenham informações pessoais de titulares dos dados da UE. Nos casos em que for preciso maior proteção, é possível configurar uma proteção adicional de DLP.
 
 A tabela a seguir lista três configurações de aumento de proteção usando DLP. A primeira configuração, reconhecimento, pode ser usada como ponto de partida e nível mínimo de proteção do GDPR.
 
@@ -84,7 +84,7 @@ A tabela a seguir lista três configurações de aumento de proteção usando DL
 <td align="left"><p>Envie notificações por email para as equipes de conformidade quando esses dados forem encontrados em documentos no SharePoint Online e OneDrive for Business.</p>
 <p>Personalize e exiba Dicas de Política para funcionários no SharePoint e no OneDrive for Business ao acessar documentos contendo esses dados.</p>
 <p>Detectar e relatar quando esses dados estiverem sendo compartilhados.</p></td>
-<td align="left"><p>Aumente a conscientização das equipes de conformidade, bem como dos funcionários sobre onde esses dados são armazenados.</p>
+<td align="left"><p>Aumente a conscientização das equipes e funcionários de conformidade sobre onde esses dados são armazenados.</p>
 <p>Instrua os funcionários sobre a política corporativa para lidar com documentos que contêm esses dados.</p>
 <p>Não impede que os funcionários compartilhem esses dados internamente ou externamente.</p>
 <p>Revise os relatórios de DLP de dados compartilhados e decida se precisa aumentar a proteção.</p></td>
@@ -100,7 +100,7 @@ A tabela a seguir lista três configurações de aumento de proteção usando DL
 <tr class="odd">
 <td align="left">Impedir o compartilhamento interno e externo</td>
 <td align="left"><p>Restrinja o acesso a documentos que contenham esses dados no SharePoint Online e no OneDrive for Business quando esse conteúdo for compartilhado internamente ou externamente.</p>
-<p>Impedir o envio de email contendo esses dados para destinatários internos e externos.</p></td>
+<p>Impeça o envio de email que contém esses dados para destinatários internos e externos.</p></td>
 <td align="left"><p>Impede o compartilhamento interno e externo desses dados.</p>
 <p>Os funcionários podem não conseguir concluir tarefas que exijam trabalhar com esses dados.</p>
 <p>Você pode revisar os relatórios de DLP para dados compartilhados internamente e externamente e decidir se é necessário um treinamento para usuário final.</p></td>
@@ -108,7 +108,7 @@ A tabela a seguir lista três configurações de aumento de proteção usando DL
 </tbody>
 </table>
 
-Observação: conforme os níveis de proteção aumentam, a capacidade dos usuários de acessar informações diminuirá em alguns casos e pode afetará a produtividade ou capacidade para concluir as tarefas diárias. O aumento dos níveis de proteção com a implementação de políticas que afetam os funcionários geralmente é acompanhado por um treinamento de usuários finais, instruindo os usuários sobre novas políticas de segurança e procedimentos para continuar a ser mais produtivo em um ambiente mais seguro.
+Observação: conforme os níveis de proteção aumentam, a capacidade dos usuários de acessar informações diminuirá em alguns casos e pode afetar a produtividade ou capacidade de concluir as tarefas diárias. O aumento dos níveis de proteção com a implementação de políticas que afetam os funcionários geralmente é acompanhado por um treinamento de usuários finais, instruindo os usuários sobre novas políticas de segurança e procedimentos para que continuem sendo mais produtivos em um ambiente mais seguro.
 
 ### <a name="example-dlp-policy-for-gdpr--awareness"></a>Exemplo de política DLP para GDPR — Reconhecimento 
 
@@ -156,11 +156,11 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 
 Todos os locais incluem:
 
--   SharePoint Online
+- SharePoint Online
 
--   Contas do OneDrive for Business
+- Contas do OneDrive for Business
 
--   Caixas de correio do Exchange
+- Caixas de correio do Exchange
 
 Como a Pesquisa de Conteúdo, no momento, não permite testar tipos de informações confidenciais com email, considere criar políticas separadas para o Exchange com um subconjunto de tipos de informações confidenciais em cada política e monitore a distribuição dessas políticas.
 
@@ -311,7 +311,7 @@ O SharePoint Online e o OneDrive for Business permitem configurar as políticas 
 
 Se você configurar políticas de acesso de dispositivo no nível do site, certifique-se de coordená-las com as políticas a nível de locatário e também com as políticas de acesso configuradas no Azure Active Directory, Intune e Gerenciamento de Aplicativos do Intune.
 
-As políticas de acesso de dispositivos do SharePoint e do OneDrive for Business exigem políticas com suporte no Azure Active Directory e no Microsoft Intune, dependendo do cenário que está sendo implementado. A tabela a seguir resume os objetivos que podem ser alcançados com as políticas de acesso e indica quais produtos exigem políticas com suporte.
+As políticas de acesso de dispositivos do SharePoint e do OneDrive for Business exigem políticas com suporte no Azure Active Directory e no Microsoft Intune, dependendo do cenário que está sendo implementado. A tabela a seguir resume os objetivos que podem ser alcançados com as políticas de acesso de dispositivos e indica quais produtos exigem políticas com suporte.
 
 <table>
 <thead>
@@ -364,7 +364,7 @@ Como ponto de partida para as orientações de configuração e recomendações,
 
 Para ambientes com identidade híbrida com o AD FS, confira [Recomendações de configurações e políticas de segurança](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance).
 
-A ilustração a seguir descreve como os serviços em nuvem (SaaS, PaaS), tipos de conta (contas de domínio de locatário vs. contas B2B) e funcionalidades de recursos de acesso estão relacionadas. É importante observar quais funcionalidades podem ser usadas com contas B2B.
+A ilustração a seguir descreve como os serviços em nuvem (SaaS, PaaS), tipos de conta (contas de domínio de locatário vs. contas B2B) e funcionalidades de recursos de acesso estão relacionados. É importante observar quais funcionalidades podem ser usadas com contas B2B.
 
 ![Serviços em nuvem, tipos de conta e funcionalidades de acesso](Media/Apply-protection-to-personal-data-in-Office-365-image4.png)
 
