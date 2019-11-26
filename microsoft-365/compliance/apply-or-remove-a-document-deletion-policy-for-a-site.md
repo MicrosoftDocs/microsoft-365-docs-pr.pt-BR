@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
 description: Com frequência, as organizações estão sujeitas a regulamentações de conformidade, legais ou outras que exigem que elas retenham documentos por um determinado período. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais. Por esse motivo, sua organização pode ter criado uma política de exclusão de documentos para seu site. Por exemplo, pode ser necessário que documentos comerciais gerais sejam excluídos cinco anos após sua criação.
-ms.openlocfilehash: 3f5228c26cc4e12c129a57e2141e3eea50d029a2
-ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
+ms.openlocfilehash: 2eaa864cda726e6e36625f81358da76856db7db4
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37342954"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256758"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>Aplicar ou remover uma política de exclusão de documentos de um site
 
-Com frequência, as organizações estão sujeitas a regulamentações de conformidade, legais ou outras que exigem que elas retenham documentos por um determinado período. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais. Por esse motivo, sua organização pode ter criado uma política de exclusão de documentos para seu site. Por exemplo, pode ser necessário que documentos comerciais gerais sejam excluídos cinco anos após sua criação.
+As organizações geralmente estão sujeitas às normas de conformidade, jurídica ou outras que exigem a retenção de documentos por um determinado período de tempo. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais. Por esse motivo, sua organização pode ter criado uma política de exclusão de documentos para&mdash;seu site, por exemplo, documentos de negócios gerais podem ser excluídos cinco anos após terem sido criados.
   
 Dependendo da sua organização, uma política de exclusão de documentos pode ser:
   
@@ -33,11 +33,11 @@ Dependendo da sua organização, uma política de exclusão de documentos pode s
     
   - Escolher outra política, se disponível.
     
-  - Recusar totalmente a política caso ela não seja relevante ao conteúdo do site.
+  - Cancele a política completamente se não for relevante para o conteúdo do site.
     
 - **Nem obrigatória nem padrão** Neste caso, nenhuma política será automaticamente aplicada ao site, e o proprietário do site precisará tomar ação para aplicar uma. 
     
-Uma política de exclusão de documentos pode conter mais de uma regra — por exemplo, uma regra poderia dizer para excluir documentos um ano após sua criação, mas outra regra poderia dizer para excluir documentos um ano após a última modificação. Se uma política contiver mais de uma regra, você poderá selecionar a regra que melhor se aplique ao seu site. A regra de exclusão será aplicada a todas as bibliotecas no site. Somente uma política e uma regra poderão estar ativas em um site ao mesmo tempo. Como uma política, uma regra pode ser definida como padrão, de forma a ser automaticamente aplicada quando a política for aplicada.
+Uma política de exclusão de documentos pode conter mais de&mdash;uma regra por exemplo, uma regra pode dizer excluir documentos um ano após eles terem sido criados, mas outra regra pode dizer excluir documentos um ano após a última modificação. Se uma política contiver mais de uma regra, você poderá selecionar a regra que melhor se aplique ao seu site. A regra de exclusão será aplicada a todas as bibliotecas no site. Somente uma política e uma regra poderão estar ativas em um site ao mesmo tempo. Como uma política, uma regra pode ser definida como padrão, para que ela seja aplicada automaticamente quando a política é aplicada.
   
 Por fim, as políticas de exclusão de documentos são herdadas. Quando você seleciona uma política ou uma regra para seu site, essa seleção é herdada por todos os subsites, embora o proprietário de um subsite possa interromper a herança ao selecionar uma política ou regra diferente. Quando você selecionar uma política ou uma regra, considere o conteúdo de qualquer subsite abaixo de seu site.
   
@@ -85,7 +85,7 @@ Como proprietário do site ou proprietário de conjunto de sites, sua organizaç
   
   - **Para recusar uma política** Escolha **recusar: no note excluir** \> **salvar**.
     
-    Como proprietário do site, você poderá recusar uma política de exclusão de documentos se determinar que a política não é aplicável ao conteúdo de seu site. No entanto, você não poderá recusar uma política que tenha sido marcada como **Obrigatória**.
+    Como proprietário do site, você pode recusar uma política de exclusão de documentos se determinar que a política não se aplica ao conteúdo do seu site. No entanto, não é possível recusar uma política que tenha sido marcada como **obrigatória**.
     
     ![Opção recusar](media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
   
@@ -99,7 +99,7 @@ Um site pode usar outras políticas de retenção e exclusão de conteúdo:
     
 Se você aplicar uma política de exclusão de documentos a um site que já use políticas de tipo de conteúdo ou políticas de gerenciamento de informações para uma lista ou biblioteca, essas políticas serão ignoradas enquanto a política de exclusão de documentos estiver em vigor. Se outras políticas forem ignoradas, você verá a mensagem "o conteúdo deste site usa políticas de exclusão de documentos".
   
-Isso significa que você deve planejar para que um site use somente políticas destinadas a conteúdo estruturado (políticas de gerenciamento de informações e políticas de tipo de conteúdo) ou a conteúdo não estruturado (políticas de exclusão de documentos), e não ambas. Caso você recuse uma política de exclusão de documentos, o aviso não será exibido e outros tipos de políticas continuarão a funcionar.
+Isso significa que você deve planejar para que um site use somente políticas destinadas a conteúdo estruturado (políticas de gerenciamento de informações e políticas de tipo de conteúdo) ou a conteúdo não estruturado (políticas de exclusão de documentos), e não ambas. Se você optar por uma política de exclusão de documentos, o aviso não será exibido e outros tipos de políticas continuarão a funcionar.
   
 As políticas de site não são afetadas por políticas de exclusão de documentos.
   

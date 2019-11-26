@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Adicione os resultados de uma pesquisa associada a uma ocorrência de descoberta eletrônica avançada. Os itens são copiados do local original e copiados para um local de armazenamento do Azure fornecido pela Microsoft. Os itens também são reindexados e a descoberta eletrônica avançada executará o OCR (reconhecimento óptico de caracteres) em arquivos de imagem e carregará o texto da imagem para revisão e análise.
-ms.openlocfilehash: 99fe0cce8bd872ecd5f4a94699857c36c3a4d617
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 838301576d84f4cf3dcb618904f55b661bcf95b3
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202322"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257019"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 

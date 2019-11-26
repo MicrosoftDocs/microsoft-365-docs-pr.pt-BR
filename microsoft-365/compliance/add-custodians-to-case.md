@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 287d5252fd787d80a20ff6cff77a7b1f7cf7e0bf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fc8002d900c38dee1b8487bbc0167b956f63b97f
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072378"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257049"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 
@@ -38,7 +38,7 @@ Para adicionar os responsáveis a um caso, você deve ser membro do grupo de fun
 
 A primeira etapa é identificar e adicionar os responsáveis à ocorrência.
 
-1. Na home page de **descoberta eletrônica avançada** , clique no caso para o qual você deseja adicionar os responsáveis. 
+1. Na home page de **descoberta eletrônica avançada** , clique na ocorrência à qual você deseja adicionar os responsáveis. 
  
 2. Clique na guia **responsáveis** e, em seguida, clique em **+ Adicionar responsáveis**.
 
@@ -50,17 +50,17 @@ A primeira etapa é identificar e adicionar os responsáveis à ocorrência.
   
 ## <a name="step-2-select-custodian-data-sources"></a>Etapa 2: selecionar fontes de dados de responsáveis
 
-Após adicionar os responsáveis, a ferramenta de responsáveis ajudará você a identificar as fontes de dados principais pertencentes a cada um dos responsáveis; especificamente, esses locais de dados são a caixa de correio do Exchange e a conta do OneDrive. 
+Após adicionar os responsáveis, a ferramenta de responsáveis ajudará você a identificar as fontes de dados principais pertencentes a cada um dos responsáveis. Esses locais de dados são a caixa de correio do Exchange e a conta do OneDrive. 
 
 Para identificar as fontes de dados de responsáveis: 
 
-1. Para selecionar a caixa de correio do Exchange para todos os responsáveis, clique na caixa de seleção **Exchange** na parte superior da coluna. Observe que você pode desmarcar a caixa de seleção de qualquer determinado local para remover uma caixa de correio como uma localização custodial. Como alternativa, você pode deixar a caixa de seleção **Exchange** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção de responsáveis individuais. 
+1. Para selecionar a caixa de correio do Exchange para todos os responsáveis, marque a caixa de seleção **Exchange** na parte superior da coluna. Em seguida, você pode desmarcar a caixa de seleção de qualquer determinado membro para remover uma caixa de correio como um local do custodial. Como alternativa, você pode deixar a caixa de seleção **Exchange** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção para os responsáveis individuais. 
  
    ![Selecionar fontes de dados do custodial](media/AddCustodianStep2.png)
  
 2. Repita a mesma coisa para as contas do OneDrives dos responsáveis. 
 
-    Depois de selecionar as fontes de dados do responsáveis, o sistema tenta identificar e verificar automaticamente essas fontes de dados e, em seguida, adiciona-as ao caso como fontes de dados associadas aos responsáveis.
+    Depois que você seleciona as fontes de dados do responsáveis, o sistema tenta automaticamente identificar e verificar essas fontes de dados e, em seguida, as adiciona à caixa como fontes de dados associadas aos responsáveis.
  
 4. Clique em **Avançar** para iniciar a associação de fontes de dados adicionais aos responsáveis no caso.
 
@@ -74,7 +74,7 @@ Para mapear caixas de correio, sites ou equipes para um determinado local:
   
    ![Mapear fontes de dados adicionais](media/AddCustodianStep3.PNG)
 
-2. Na página do menu suspenso, você pode especificar uma fonte de dados de qualquer dos seguintes serviços do Office 365:
+2. Na página do menu suspenso, você pode especificar uma fonte de dados de qualquer um dos seguintes serviços do Office 365:
   
    -  **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. Use a caixa Pesquisar para localizar caixas de correio para associar aos responsáveis. Para especificar as caixas de correio a serem atribuídas aos responsáveis selecionados, use a caixa de pesquisa para localizar caixas de correio de usuário e grupos de distribuição. Você também pode atribuir a caixa de correio associada a um grupo do Office 365 ou a uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
 
@@ -83,7 +83,7 @@ Para mapear caixas de correio, sites ou equipes para um determinado local:
      
      - **Sites do SharePoint** -clique em **escolher sites** e clique em **escolher sites** novamente para exibir uma lista de sites do SharePoint em sua organização. Para associar um site ao funcionário, você pode selecionar um site na lista ou pode digitar a URL de um site diferente ou um site associado a um grupo do Office 365, Microsoft Team ou uma conta do OneDrive.
      
-     - **Teams** – clique em **escolher equipes** e, em seguida, clique em **escolher o Teams** novamente para exibir uma lista de Microsoft Teams que o participante é membro de atualmente. Selecione as equipes que você gostaria de adicionar a seus responsáveis. Depois de selecionado, o sistema identificará automaticamente & selecionar o site do SharePoint associado e a caixa de correio de grupo associados a essa equipe da Microsoft. Clique em **escolher**e em **concluído**.
+     - **Teams** – clique em **escolher equipes** e, em seguida, clique em **escolher o Teams** novamente para exibir uma lista de Microsoft Teams que os responsáveis atualmente são membros. Selecione as equipes que você gostaria de adicionar a seus responsáveis. Depois de selecionado, o sistema identificará automaticamente & selecionar o site do SharePoint associado e a caixa de correio de grupo associados a essa equipe da Microsoft. Clique em **escolher**e em **concluído**.
 
        ![Mapear fontes de dados](media/AddCustodianStep4.PNG)
         
@@ -94,17 +94,17 @@ Após concluir a associação de fontes de dados adicionais aos responsáveis, v
 
 ## <a name="step-4-place-custodians-on-hold"></a>Etapa 4: colocar os responsáveis em espera
 
-Depois de finalizar os responsáveis e as fontes de dados a serem adicionados ao caso, você pode, opcionalmente, colocar alguns ou todos os responsáveis em espera. Quando você coloca um bloqueador, todo o conteúdo de todos os locais de conteúdo associados aos responsáveis é preservado até que você remova a isenção ou libere os responsáveis do. Em alguns casos, talvez você queira adicionar os responsáveis por um caso sem colocá-los em espera.
+Depois de finalizar os responsáveis e as fontes de dados a serem adicionados ao caso, você pode, opcionalmente, colocar alguns ou todos os responsáveis em espera. Quando você coloca um bloqueador, todo o conteúdo de todos os locais de conteúdo associados aos responsáveis é preservado até que você remova a retenção ou libere os responsáveis da retenção. Em alguns casos, talvez você queira adicionar os responsáveis por um caso sem colocá-los em espera.
 
 Para colocar os responsáveis e as fontes de dados em retenção:
 
-1. Na página **colocar um bloqueio nos responsáveis selecionados** , clique na caixa de seleção **reter** na parte superior da coluna para colocar todos os responsáveis em espera. Observe que, em seguida, você pode desmarcar a caixa de seleção de qualquer um dos responsáveis específicos para remover da isenção. Como alternativa, você pode deixar a caixa de seleção **reter** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção de responsáveis individuais. 
+1. Na página **colocar um bloqueio nos responsáveis selecionados** , marque a caixa de seleção **reter** na parte superior da coluna para colocar todos os responsáveis em espera. Você pode desmarcar a caixa de seleção para que todos os responsáveis específicos sejam removidos da isenção. Como alternativa, você pode deixar a caixa de seleção **reter** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção para os responsáveis individuais. 
  
    ![Colocar suspensões](media/AddCustodianStep5.PNG)
 
 2. Verifique as seleções de retenção de responsáveis e, em seguida, clique em **concluir**.
 
-Se você não colocar uma retenção de um, os responsáveis e as fontes de dados associadas serão adicionados ao caso, mas o conteúdo dessas fontes de dados não será colocado em espera.
+Se você não colocar uma retenção em um local, os responsáveis e as fontes de dados associadas serão adicionados ao caso, mas o conteúdo dessas fontes de dados não será colocado em espera.
 
 Depois que um Objectfor colocado em espera, uma política de retenção de responsáveis que contenha todas as fontes de custodial será criada automaticamente. Para exibir esta política:
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
-ms.openlocfilehash: 82cbbf7fdea4a534c2bc73bf0f817d6fc3a249de
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: cd970f5e89a08de133511c99b8209b389f32cd87
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684913"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256808"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Aplicar o gerenciamento de direitos de informação (IRM) a uma lista ou biblioteca
 
@@ -53,7 +53,7 @@ Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a 
     
     ![Botões de configurações da biblioteca do SharePoint na faixa de opções](media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
   
-3. Em **permissões e gerenciamento**, clique em **Gerenciamento de direitos de informação**. Se o link de gerenciamento de direitos de informação não for exibido, o IRM pode não estar habilitado para seu site. Entre em contato com o administrador do servidor para ver se é possível habilitar o IRM para seu site. O link de gerenciamento de direitos de informação não aparece para bibliotecas de imagens.
+3. Em **permissões e gerenciamento**, clique em **Gerenciamento de direitos de informação**. Se o link de gerenciamento de direitos de informação não aparecer, o IRM pode não estar habilitado para seu site. Entre em contato com o administrador do servidor para ver se é possível habilitar o IRM para seu site. O link de gerenciamento de direitos de informação não aparece para bibliotecas de imagens.
     
 4. Na página **configurações de gerenciamento de direitos de informação** , marque a caixa de seleção **restringir a permissão para documentos nesta biblioteca ao baixar** , para aplicar permissão restrita a documentos baixados dessa lista ou biblioteca. 
     

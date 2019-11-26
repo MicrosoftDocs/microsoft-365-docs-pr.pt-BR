@@ -1,5 +1,5 @@
 ---
-title: Confirmar as notificações de bloqueio
+title: Confirmar uma notificação de retenção
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,19 +14,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1a627a0927d6ffa2244e9f3580867379ff1fbdc5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: de542ad950fce061b63aa4b2aaf37821582d7466
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072380"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256798"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Confirmar uma notificação de retenção 
-Ao responder a uma solicitação ou investigação regulamentar, talvez seja necessário informar os responsáveis pela obrigação de preservar as ESI (electronicly Stored Information), bem como qualquer material que possa ser relevante para uma questão legal ativa ou iminente. Depois de enviada, as equipes jurídicas devem saber que cada um deles recebeu, leu e entendeu e concordou em cumprir as instruções fornecidas.
+Ao responder a uma solicitação ou investigação regulamentar, talvez seja necessário informar os responsáveis pela obrigação de preservar as ESI (electronicly Stored Information) e qualquer material que possa ser relevante para uma questão legal ativa ou iminente. Depois de enviada, as equipes jurídicas devem saber que cada um deles recebeu, leu e entendeu e concordou em seguir as instruções fornecidas.
 
-Para ajudar a reduzir o tempo, o custo e o esforço de acompanhamento de seus responsáveis, a descoberta eletrônica avançada permite que você envie e acompanhe notificações de bloqueio legal por email. Além de avisos por email, todos os responsáveis também terão acesso a um portal de conformidade individual, permitindo que os responsáveis sejam mantidos informados sobre as alterações em seu status de obrigação.
+Para ajudar a reduzir o tempo, o custo e o esforço de acompanhamento dos seus responsáveis, a descoberta eletrônica avançada permite que você envie e acompanhe notificações de bloqueio legal por email. Além de avisos por email, todos os responsáveis terão acesso a um portal de conformidade individual, permitindo que os responsáveis sejam mantidos informados sobre as alterações no status de obrigação.
 
-## <a name="email-notifications"></a>Notificações por email
+## <a name="email-notifications"></a>Notificações por e-mail
 Após a emissão de uma notificação de retenção legal, todos os responsáveis receberão um email exclusivo e personalizado contendo o aviso de retenção legal definido e adicionarão instruções. 
 
 > [!Tip] 
@@ -34,17 +34,17 @@ Após a emissão de uma notificação de retenção legal, todos os responsávei
 
 Com base na configuração de sua notificação de retenção legal, seus responsáveis podem receber os seguintes avisos: 
 
-- **Aviso de emissão** – este é o primeiro aviso enviado ao seu seu. Isso conterá as instruções de emissão, bem como a notificação de bloqueio acrescentada ao final da mensagem.
+- **Aviso de emissão** – este é o primeiro aviso enviado ao seu seu. Isso conterá as instruções de emissão e o aviso de espera anexado ao final da mensagem.
 
 - **Aviso de lembrete** -se habilitado, um aviso de lembrete será enviado aos seus responsáveis com base na frequência e no intervalo especificados. Os lembretes continuarão a ser enviados até que os responsáveis tenham confirmado o aviso ou até que o número de lembretes tenha sido esgotado.
 
 - **Aviso de escalonamento** -se habilitado, um aviso de escalonamento será enviado aos seus responsáveis e ao gerente após os avisos de lembrete terem sido esgotados. O sistema enviará automaticamente notificações de escalonamento até que os enrolamentos encaminhadas tenham sido concluídos ou até que os responsáveis reconheçam a notificação de espera.
 
-- **Problema de reemissão** – durante o período de uma investigação, se o conteúdo de um aviso de isenção for atualizado, o aviso atualizado será enviado automaticamente para os responsáveis.
+- **Aviso de reemissão** – durante o período de uma investigação, se o conteúdo de um aviso de isenção for atualizado, o aviso atualizado será enviado automaticamente para os responsáveis.
 
-- **Nota de lançamento** -quando um dos responsáveis for liberado do caso, ele será enviado para o aviso de lançamento. 
+- **Aviso de liberação** : quando um dos responsáveis é liberado do caso, ele receberá o aviso de lançamento. 
 
 ## <a name="compliance-portal"></a>Portal de conformidade
-Além das notificações por email, todos os responsáveis também terão acesso a um portal de conformidade exclusivo. Por meio do portal, todos os responsáveis poderão exibir, acessar e confirmar suas notificações de espera ativas.
+Além das notificações por email, cada um dos responsáveis terá acesso a um portal de conformidade exclusivo. Por meio do portal, cada um pode exibir, acessar e confirmar suas notificações de espera ativas.
 
 ![Portal de conformidade para um responsáveis](media/CustodianPortal.jpg)

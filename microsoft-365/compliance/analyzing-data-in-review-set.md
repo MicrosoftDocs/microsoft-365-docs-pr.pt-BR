@@ -14,20 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b331bba76f45a11a4d1c8c0552b27759cf49608a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 60436db997d75d92e7d17fc27f66eb3944b419d8
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072342"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256898"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>Analisar dados em um conjunto de revisão na descoberta eletrônica avançada
 
-Quando o número de documentos coletados é grande, pode ser muito difícil examiná-los. A descoberta eletrônica avançada fornece várias ferramentas para analisar os documentos para reduzir o volume de documentos a serem revisados sem perda de informações e para ajudá-lo a organizar os documentos de forma coerente. Para saber mais sobre esses recursos, confira:
+Quando o número de documentos coletados é grande, pode ser difícil examiná-los. A descoberta eletrônica avançada fornece várias ferramentas para analisar os documentos para reduzir o volume de documentos a serem revisados sem perda de informações e para ajudá-lo a organizar os documentos de forma coerente. Para saber mais sobre esses recursos, confira:
 
-- [Detecção de duplicata próxima](near-duplicates.md)
+- [Próximo detecção duplicada](near-duplicates.md)
 
-- [Conversa de email](email-threading.md)
+- [Threading de emails](email-threading.md)
 
 - [Temas](themes.md)
 
@@ -63,4 +63,4 @@ O relatório tem quatro componentes da análise:
 
 - **Emails** -quantas mensagens de email foram inclusivas, cópias inclusivas, inclusive minuses ou nenhuma das opções acima.
 
-- **Attachments** -quantos anexos de email são exclusivos ou duplicados de um outro anexo de email no conjunto de revisão.
+- **Attachments** -quantos anexos de email são exclusivos ou duplicados de outro anexo de email no conjunto de revisão.

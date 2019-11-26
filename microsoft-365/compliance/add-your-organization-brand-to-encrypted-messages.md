@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode aplicar a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
-ms.openlocfilehash: ea68e8ddb9e29c4948d8ee51b8d7b6a94501c986
-ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
+ms.openlocfilehash: 118bf93f7bdcb7dc522f95978eb5bb4456e90d5b
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "38684726"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256738"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
 
@@ -39,23 +39,23 @@ Como administrador do Exchange Online ou do Exchange Online Protection, você po
 
 Você também pode reverter para a aparência padrão a qualquer momento.
 
-Se quiser mais controle, você pode usar a criptografia de mensagem avançada do Office 365 e criar vários modelos para emails criptografados provenientes da sua organização. Usando esses modelos, você pode controlar mais do que apenas a aparência das mensagens de email, mas também controlar partes da experiência do usuário final. Por exemplo, você pode especificar se os destinatários de emails que têm esse modelo aplicado e quem usam o Google, Yahoo e contas da Microsoft podem usar essas contas para entrar no portal de criptografia de mensagens do Office 365. Você pode usar modelos para cumprir vários casos de uso, como:
+Se quiser mais controle, você pode usar a criptografia de mensagem avançada do Office 365 e criar vários modelos para emails criptografados provenientes da sua organização. Usando esses modelos, você pode controlar mais do que apenas a aparência das mensagens de email, mas também controlar partes da experiência do usuário final. Por exemplo, você pode especificar se os destinatários de emails que possuem esse modelo aplicado e que usam Google, Yahoo e contas da Microsoft podem usar essas contas para entrar no portal de criptografia de mensagens do Office 365. Você pode usar modelos para cumprir vários casos de uso, como:
 
-- Modelos para cada departamento, como finanças, vendas, etc.
+- Modelos para cada departamento, como finanças, vendas e assim por diante.
 
 - Modelos para produtos diferentes
 
 - Modelos para diferentes regiões geográficas ou países
 
-- Se você deseja ou não permitir que os emails sejam revogados
+- Se você deseja permitir que os emails sejam revogados
 
-- Se você deseja ou não que os emails enviados para destinatários externos expirem após um determinado número de dias.
+- Se você deseja que os emails enviados para destinatários externos expirem após um determinado número de dias.
 
 Depois de criar os modelos, você pode aplicá-los a emails criptografados usando regras de fluxo de email do Exchange. Se você tiver a criptografia de mensagem avançada do Office 365, poderá revogar qualquer email que tenha marcado usando esses modelos.
 
 ## <a name="work-with-ome-branding-templates"></a>Trabalhar com modelos de identidade visual do OME
 
-Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 para usar esses cmdlets.
+Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 para usar esses cmdlets.
 
 - [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
 - [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
@@ -65,7 +65,7 @@ Você pode modificar vários recursos dentro de um modelo de identidade visual. 
 
 Use o Windows PowerShell para modificar um modelo de identidade visual por vez. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados.
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
 
@@ -89,7 +89,7 @@ Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar
 
 Para criar um novo modelo de identidade visual personalizado:
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) para criar um novo modelo.
 
@@ -107,7 +107,7 @@ Para criar um novo modelo de identidade visual personalizado:
 
 Para remover todas as modificações do modelo padrão, incluindo as personalizações de marca e assim por diante, conclua estas etapas:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia `""`,. Para todos os valores de imagem, como logotipo, defina o valor `"$null"`como.
 
@@ -128,7 +128,7 @@ Você só pode remover ou excluir modelos de identidade visual que você fez. N�
 
 Para remover um modelo de identidade visual personalizado:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet **Remove-OMEConfiguration** da seguinte maneira:
 
@@ -170,9 +170,9 @@ Para obter informações sobre como criar uma regra de fluxo de email do Exchang
    - Emails criptografados enviados com uma determinada palavra-chave, como "externo" ou "parceiro"
    - Emails criptografados enviados para um domínio específico
 
-7. Em **faça o seguinte**, selecione **Modificar a segurança** > da mensagem**aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual daqueles que você criou ou modificou.
+7. Em **faça o seguinte**, selecione **Modificar a segurança** > da mensagem**aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual daqueles criados ou modificados.
 
-8. Opcion Se você deseja que a regra de fluxo de emails também aplique criptografia além da identidade visual personalizada, em **faça o seguinte**, selecione **Modificar a segurança da mensagem** e, em seguida, escolha **aplicar proteção de mensagens e proteção de direitos do Office 365**. Selecione um modelo do RMS na lista, escolha **salvar**e, em seguida, escolha **OK**.
+8. Opcion Se quiser que a regra de fluxo de emails aplique criptografia além da identidade visual personalizada, em **faça o seguinte**, selecione **Modificar a segurança da mensagem**e, em seguida, escolha **aplicar a criptografia de mensagens e a proteção de direitos do Office 365**. Selecione um modelo do RMS na lista, escolha **salvar**e, em seguida, escolha **OK**.
   
    A lista de modelos inclui todos os modelos e opções padrão, bem como os modelos personalizados que você criou para uso pelo Office 365. Se a lista estiver vazia, verifique se você configurou a criptografia de mensagem do Office 365 com os novos recursos, conforme descrito em [configurar novos recursos de criptografia de mensagens do office 365](set-up-new-message-encryption-capabilities.md). Para obter informações sobre os modelos padrão, consulte [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a opção não **encaminhar** , confira a [opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a opção **somente criptografia** , confira a [opção criptografar somente para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
