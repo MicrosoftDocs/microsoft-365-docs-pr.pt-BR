@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 1cd1a73395a7bfeb190f8a31589c27bb95312484
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 92979fd66ac2d51c48b7a0836be5eb1133ae242a
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982332"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39266084"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 e notificação de violação no RGPD
 
@@ -71,7 +73,7 @@ A Microsoft atribui a prioridade de investigação e níveis de gravidade adequa
 
 A equipe de resposta de segurança trabalha com os engenheiros de segurança do Microsoft Dynamics 365 e Especialistas no Assunto (EAs) para classificar o evento com base em dados concretos das evidências. Um evento de segurança pode ser classificado como:
 
-- **Falso positivo:** um evento que atende aos critérios de detecção, mas se descobre que ele faz parte da prática normal de negócios e talvez precise ser filtrado. A equipe de serviços identificará a causa raiz de falsos positivos e os resolverá de forma sistemática, aproveitando as fontes de detecção e <span id="_Toc350859432" class="anchor"></span>ajustando-as conforme necessário.
+- **Falso positivo:** um evento que atende aos critérios de detecção, mas que é considerado como parte de uma prática empresarial normal e talvez precise ser filtrado. A equipe de serviços identificará a causa raiz dos falsos positivos e os abordará de maneira sistemática, aproveitando as fontes de detecção e ajustando-as conforme for necessário.
 - **Incidente de segurança:** um incidente em que houve acesso criminoso a dados do cliente ou dados de suporte armazenados em equipamentos ou instalações da Microsoft, ou houve acesso não autorizado a tais equipamentos ou instalações resultando na perda, divulgação ou alteração de Dados do cliente ou Dados de suporte.
 - **Incidente de segurança a ser relatado ao cliente (CRSI):** Acesso ilegal ou não autorizado ou uso de sistemas, equipamentos ou instalações da Microsoft que resultem em divulgação, modificação ou perda de dados do cliente.
 - **Incidente de Privacidade** : Um subtipo de Incidente de Segurança que envolve dados pessoais. Manipular procedimentos não é diferente de um incidente de segurança.
@@ -97,7 +99,7 @@ O Microsoft Dynamics 365 fornece aos clientes informações detalhadas permitind
 
 A notificação de uma violação de dados pessoais será enviada ao cliente da forma escolhida pela Microsoft, inclusive por email. A notificação de uma violação de dados será enviada à lista de administradores/contatos do cliente (somente os locatários afetados) fornecida na Central de Segurança do Office, configurável pelo administrador do locatário/cliente. Para garantir que a notificação possa ser entregue, é responsabilidade do cliente garantir que as informações de contato administrativas em cada assinatura aplicável e portal de serviços online estejam corretas.
 
-A equipe do Microsoft Dynamics 365 também pode optar por notificar outros funcionários da Microsoft, como o Serviço de Atendimento ao Consumidor (SAC) e os Gerentes de contas do cliente ou os Gerentes técnicos de contas. Normalmente, essas pessoas têm uma relação próxima com o cliente e podem facilitar a correção mais rápida.<span id="_Appendix_A" class="anchor"></span>
+A equipe do Microsoft Dynamics 365 também pode optar por notificar equipes adicionais da Microsoft, como Atendimento ao Cliente (AC) e Gestor(es) de Contas (GC) ou Gestor(es) Técnico(s) de Contas (TC) do cliente. Esses indivíduos geralmente têm um relacionamento próximo com o cliente e podem facilitar uma correção mais rápida.
 
 ## <a name="learn-more"></a>Saiba mais
 
