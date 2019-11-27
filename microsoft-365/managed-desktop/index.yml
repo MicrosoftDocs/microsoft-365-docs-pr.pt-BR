@@ -23,27 +23,27 @@ sections:
           - href: intro/index.md
             html: '<p>Introdução à área de trabalho gerenciada da Microsoft para tomadores de decisões-o que é, como funciona e o que ele pode fazer por você</p>'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_overview.svg'
+              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
             title: O que é a Área de Trabalho Gerenciada da Microsoft?
           - href: service-description/index.md
             html: <p>Descrição detalhada de todas as partes da área de trabalho gerenciada da Microsoft</p>
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
             title: Descrição do serviço
           - href: get-ready/index.md
             html: <p>Todas as etapas para preparar seu ambiente e a organização para trabalhar com o serviço</p>
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_support.svg'
+              src: 'https://docs.microsoft.com/media/common/i_support.svg'
             title: Prepare-se
           - href: get-started/index.md
             html: '<p>Obtenha sua organização no Conselho com a área de trabalho gerenciada da Microsoft, incluindo a configuração de dispositivos e a implantação de aplicativos</p>'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_whats-new.svg'
+              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
             title: Introdução
           - href: working-with-managed-desktop/index.md
             html: <p>Tudo sobre suas operações diárias com o serviço</p>
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_portal.svg'
+              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
             title: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
   - title: Novos artigos e postagens de blog
     items:
@@ -54,15 +54,19 @@ sections:
         className: cardsM
         columns: 2
         items:
-          - href: 'https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/'
-            title: Escrever Colaborar com clientes e parceiros para fornecer uma área de trabalho moderna
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
+            title: Roteiro Seu roteiro completo para a área de trabalho gerenciada da Microsoft
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_architecture.svg'
-          - href: 'https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html'
-            title: 'Segue Área de trabalho gerenciada da Microsoft: todos os dispositivos Windows 10, gerenciados pela Microsoft'
+              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
+            title: 'Whitepaper Estudo: elevação de demanda para serviços de área de trabalho gerenciada'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_guide.svg'
+              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
+          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
+            title: '[Livro eletrônico] Encantarão sua empresa com um local de trabalho moderno'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
   - title: Vídeos
     items:
       - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
+        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
