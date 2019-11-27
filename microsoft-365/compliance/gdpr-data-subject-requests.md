@@ -1,7 +1,7 @@
 ---
-title: Solicitações de Entidades de Dados para o RGPD
+title: Solicitações de assunto de dados para o RGPD e o CCPA
 description: ''
-keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
+keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,21 +9,25 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: dc4352ac14f42a227f1572b0c7f1442aa4dec838
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: f5ab5230cae7dcc31c487ecbc6a2bbdcbcaaa0dd
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078901"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39268401"
 ---
-# <a name="data-subject-requests-and-the-gdpr"></a>Solicitações de Entidades de Dados para o RGPD
+# <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados e o RGPD e CCPA
 
-O RGPD introduz novas regras a empresas, agências governamentais, organizações sem fins lucrativos e outras organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. O RGPD se aplica onde quer que você e sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo RGDP](gdpr.md). <br><br>
+O Regulamento Geral de Proteção de Dados (RGPD) introduz novas regras a organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. independentemente de onde você ou sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo do RGDP](gdpr.md).
+
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  A CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas".  <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1SI] 
 
-Neste documento, você poderá obter informações sobre como concluir as notificações de violação no RGPD usando produtos e serviços da Microsoft.
+Neste documento, você poderá obter informações sobre como concluir as solicitações de entidades de dados (DSRs) em RGPD e CCPA usando produtos e serviços da Microsoft.
 
 - [Office 365](gdpr-dsr-Office365.md)
 - [Azure](gdpr-dsr-Azure.md)
@@ -35,9 +39,9 @@ Neste documento, você poderá obter informações sobre como concluir as notifi
 
 ## <a name="terminology"></a>Terminologia
 
-Definições úteis para os termos RGPD usados neste documento:
+Definições úteis para os termos do RGPD usados neste documento:
 
-- *Controlador de dados (controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
+- *Controlador de Dados (Controlador*): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
 - *Dados pessoais* e *entidade de dados*: qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é uma que pode ser identificada, direta ou indiretamente.  
 - *Processador:* uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.  
 - *Dados do cliente*: dados produzidos e armazenados nas operações do dia a dia para o trabalho em andamento.
@@ -45,6 +49,8 @@ Definições úteis para os termos RGPD usados neste documento:
 ## <a name="what-is-a-dsr"></a>O que é um DSR?
 
 O RGPD (Regulamento Geral sobre a Proteção de Dados) da União Europeia concede o direito às pessoas (conhecidas na regulamentação como entidades de dados) de gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecidos como controladores de dados ou apenas controladores). O RGPD fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador.
+
+A Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  
 
 Como um controlador você é obrigado a levar em consideração imediatamente cada DSR e fornecer uma resposta substantiva, basta executar a ação solicitada ou fornecer uma explicação sobre por que o DSR não pode ser acomodado pelo controlador. Um controlador deve consultar seus próprios consultores legais ou de conformidade quanto ao descarte apropriado de um determinado DSR.
 

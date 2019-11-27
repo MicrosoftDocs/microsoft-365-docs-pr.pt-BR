@@ -1,7 +1,7 @@
 ---
 title: Visão geral da retenção controlada por eventos
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de retenção, você pode basear um período de retenção no momento que um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo. A retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros.
-ms.openlocfilehash: 1f258296017734c80cb3719eb0b830593f69b220
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 08e4f8b5a761cfd80d1b2039c5e2b7a9c1fee981
+ms.sourcegitcommit: 0830be61e21570ee3a2589e35c21f358b52585c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072649"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "39268398"
 ---
 # <a name="overview-of-event-driven-retention"></a>Visão geral da retenção controlada por eventos
 
@@ -42,7 +42,7 @@ Normalmente, a retenção controlada por eventos é usada como parte de um proce
 - Rótulos com base em eventos frequentemente disparam uma revisão de disposição ao final do período de retenção, para que um gerente de registros possa revisar e descartar manualmente o conteúdo. Para saber mais, consulte [Visão geral das revisões de disposição](disposition-reviews.md).
     
 Um rótulo baseado em um evento tem os mesmos recursos que qualquer rótulo no Office 365. Para saber mais, consulte [Visão geral dos rótulos](labels.md).
-    
+
 ## <a name="understanding-the-relationship-between-event-types-labels-events-and-asset-ids"></a>Compreender a relação entre tipos de eventos, rótulos, eventos e IDs de ativos
 
 Para usar a retenção controlada por eventos, é importante compreender a relação entre tipos de evento, rótulos, eventos e IDs de ativo, conforme ilustrado aqui. Veja uma explicação após o diagrama.
@@ -75,6 +75,9 @@ Este é o fluxo de trabalho de nível superior para retenção controlada por ev
   
 ![Diagrama de fluxo de trabalho para configurar a retenção controlada por eventos](media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
   
+> [!TIP]
+> Consulte [Gerenciar o ciclo de vida dos documentos do SharePoint com rótulos de retenção](auto-apply-retention-labels-scenario.md) para obter um cenário detalhado sobre como usar as propriedades gerenciadas no SharePont para aplicar automaticamente os rótulos de retenção e implementar a retenção voltada para o evento.
+
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Etapa 1: Criar um rótulo cujo período de retenção seja baseado em um evento
 
 Na central de conformidade do Microsoft 365, na central de segurança do Microsoft 365 ou na Central de Conformidade de&amp; Segurança do Office 365, na navegação à esquerda, escolha **Classificações** > **Rótulos de retenção** > **Rótulos** guia > **Criar um rótulo**.
@@ -103,7 +106,7 @@ Observe que após escolher um tipo de evento e criar o rótulo, o tipo de evento
   
 ### <a name="step-3-publish-or-auto-apply-the-label"></a>Etapa 3: Publicar ou aplicar automaticamente o rótulo
 
-Assim como qualquer rótulo, você precisa publicar ou aplicar automaticamente um rótulo baseado em evento para que seja aplicado manual ou automaticamente ao conteúdo. Você pode fazer isso na página de**Classificação** > **Rótulos de retenção**.
+Assim como qualquer rótulo, você precisa publicar ou aplicar automaticamente um rótulo com base em eventos, para que ele seja aplicado manual ou automaticamente ao conteúdo. Você pode fazer isso na página **Rótulos de** > **retenção** de classificação.
   
 ![Opções para publicar ou aplicar automaticamente um rótulo](media/options-to-publish-auto-apply-retention-label.png)
 
@@ -123,9 +126,7 @@ Compreenda que a ID de ativo é simplesmente outra propriedade do documento no S
   
 ### <a name="step-5-create-an-event"></a>Etapa 5: Criar um evento
 
-Quando uma instância específica desse tipo de evento ocorrer, por exemplo, um produto atingir o final da vida útil, acesse a página Eventos no Centro de Conformidade e Segurança e crie um evento. Você precisa acionar manualmente um evento por meio da criação dele.
-  
-![Página Eventos no Centro de Conformidade e Segurança](media/811bddfb-a7e9-4990-bf5e-abe0dfb91809.png)
+Quando uma instância específica desse tipo de evento ocorrer, por exemplo, um produto chega ao fim de sua vida útil, acesse a página **Eventos de gerenciamento** > **de registros** no Centro &amp; de conformidade de segurança e crie um evento. Você precisa acionar manualmente um evento ao criá-lo.
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Etapa 6: Escolher o mesmo tipo de evento usado pelo rótulo na Etapa 2
 
