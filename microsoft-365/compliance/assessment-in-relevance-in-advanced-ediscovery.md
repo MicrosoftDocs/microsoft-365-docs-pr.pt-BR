@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Obtenha uma visão geral do estágio de avaliação e sua função para determinar a riqueza de problemas durante o treinamento de relevância na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 77d9449ad15fd3a53709f2a28a96b06ab54556eb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 727b432a541e1316952faa7dc9c5b8e40ac4295c
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072286"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615631"
 ---
 # <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Entender a avaliação em relevância na descoberta eletrônica avançada do Office 365
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
-A descoberta eletrônica avançada permite a avaliação prévia, por exemplo, para os problemas definidos e os dados importados para um caso. A descoberta eletrônica avançada permite que o especialista tome decisões relacionadas à abordagem adotada e as aplique ao projeto de revisão de documentos.
+A descoberta eletrônica avançada permite a avaliação prévia, por exemplo, para os problemas definidos e os dados importados para um caso. A descoberta eletrônica avançada permite que o especialista tome decisões sobre uma abordagem adotada e aplique essas decisões ao projeto de revisão do documento.
   
 ## <a name="understanding-assessment"></a>Noções básicas sobre avaliação
 
@@ -35,9 +35,9 @@ Quanto maior o número de arquivos relevantes no conjunto de avaliação, mais p
   
 As estatísticas, que são apresentadas no controle e decidem as guias durante o treinamento e depois do cálculo em lotes, incluem estimativas de recall para diferentes conjuntos de revisão. Em estatísticas, as estimativas baseadas em um conjunto de amostra (neste caso, os arquivos de avaliação) incluem a margem de erro e o nível de confiança dessa margem de erro. Por exemplo, a recuperação estimada de 80% pode ter uma margem de erro de mais ou menos 5% com um nível de confiança de 95%. Isso significa que a RECALL estimada é de 75%-85% e esta estimativa tem 95% de confiança. Quanto maior o conjunto de avaliação, a margem de erro torna-se menor e as estatísticas são mais precisas. 
   
-Depois que o especialista revisa um conjunto de avaliação inicial de 500 arquivos, a relevância é capaz de determinar a margem atual de erro dos valores de recuperação. A relevância também definirá uma margem de erro padrão que recomenda o acesso para otimizar o conjunto de avaliação. Veja a seguir alguns exemplos:
+Depois que o especialista revisa um conjunto de avaliação inicial de 500 arquivos, a relevância pode determinar a margem atual de erro dos valores de recuperação. A relevância também recomenda uma margem de erro padrão para alcançar a otimização do conjunto de avaliação. Aqui estão alguns exemplos:
   
-- Se o conjunto de avaliação já tiver resultado uma margem de erro de mais ou menos 10%, será recomendável passar para o treinamento (nenhuma análise adicional da avaliação é necessária). 
+- Se o conjunto de avaliação já tiver resultado uma margem de erro de mais ou menos 10%, a relevância recomendará a migração para o treinamento (nenhuma análise adicional da avaliação é necessária). 
     
 - Se o conjunto de avaliação tiver uma margem de erro de mais ou menos 13%, a relevância poderá recomendar a revisão de outro conjunto de arquivos de avaliação para alcançar uma margem menor. 
     

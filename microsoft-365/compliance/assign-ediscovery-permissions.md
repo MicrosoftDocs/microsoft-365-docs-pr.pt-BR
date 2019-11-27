@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 61b55c221c11a577a64d0d2358c89253b1e90714
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 067a54f6286df5a5ce6e5b02b7ea1d6964b16777
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684939"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39603745"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -28,7 +28,7 @@ Se quiser que as pessoas usem qualquer uma das ferramentas relacionadas à desco
   
 O grupo de função principal relacionado à descoberta eletrônica no centro de conformidade e segurança & é chamado de **Gerenciador de descoberta eletrônica**. Há dois subgrupos dentro desse grupo de funções. 
   
-- **gerentes de descoberta** eletrônica: um gerente de descoberta eletrônica pode usar a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança para pesquisar locais de conteúdo na organização e realizar várias ações relacionadas à pesquisa, como Visualizar e exportar resultados de pesquisa. Os membros também podem criar e gerenciar ocorrências de descoberta eletrônica, adicionar e remover membros a uma ocorrência, criar isenções de caso e executar pesquisas de conteúdo associadas a uma ocorrência e acessar dados de ocorrências na descoberta eletrônica avançada do Office 365.  Os gerentes de descoberta eletrônica só podem acessar e gerenciar os casos que criam. Eles não podem acessar ou gerenciar casos criados por outros gerentes de descoberta eletrônica. 
+- **gerentes de descoberta** eletrônica: um gerente de descoberta eletrônica pode usar a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança para pesquisar locais de conteúdo na organização e realizar várias ações relacionadas à pesquisa, como Visualizar e exportar resultados de pesquisa. Os membros também podem criar e gerenciar ocorrências de descoberta eletrônica, adicionar e remover membros a um caso, criar isenções de caso, executar pesquisas de conteúdo associadas a uma ocorrência e acessar dados de ocorrências na descoberta eletrônica avançada do Office 365. Os gerentes de descoberta eletrônica só podem acessar e gerenciar os casos que criam. Eles não podem acessar ou gerenciar casos criados por outros gerentes de descoberta eletrônica. 
     
 - **Administradores** de descoberta eletrônica: um administrador de descoberta eletrônica é um membro do grupo de funções Gerenciador de descoberta eletrônica e pode executar as mesmas tarefas relacionadas ao gerenciamento de casos e pesquisa de conteúdo que um gerente de descoberta eletrônica pode executar. Além disso, um Administrador de Descoberta Eletrônica pode: 
     
@@ -45,9 +45,9 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você precisa ser membro do grupo de função gerenciamento da organização (ou receber a função de gerenciamento de função) para atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança.
+- Você precisa ser membro do grupo de função gerenciamento da organização ou receber a função de gerenciamento de função para atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança.
     
-- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Consulte a seção [mais informações](#more-information) para obter mais detalhes. 
+- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Para obter mais detalhes, consulte a seção [mais informações](#more-information) . 
     
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -55,18 +55,18 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
     
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
     
-3. No painel esquerdo do centro de segurança e conformidade, clique em **permissões**e, em seguida, clique na caixa de seleção ao lado de **Gerenciador de descoberta eletrônica**.
+3. No painel esquerdo do centro de segurança e conformidade, selecione **permissões**e marque a caixa de seleção ao lado de **Gerenciador de descoberta eletrônica**.
     
 4. Na página do submenu **Gerenciador de descoberta eletrônica** , siga um destes procedimentos com base nas permissões de descoberta eletrônica que você deseja atribuir. 
   
-    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, clique em **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , clique no hiperlink **escolher Gerenciador de descoberta eletrônica** e, em seguida, clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e clique em **Adicionar**. Quando terminar de adicionar usuários, clique em **concluído**. Em seguida, na página **edição escolha o Gerenciador de descoberta eletrônica** , clique em **salvar** para salvar as alterações feitas na associação do Gerenciador de descoberta eletrônica.
+    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , selecione o hiperlink **escolher Gerenciador de descoberta eletrônica** e ![selecione Adicionar](media/ITPro-EAC-AddIcon.gif) ícone **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha Gerenciador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do Gerenciador de descoberta eletrônica.
   
-    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, clique em **Editar**. Na seção **escolher administrador de descoberta eletrônica** , **em administradores de descoberta eletrônica**, clique em **escolher administrador de descoberta eletrônica** clique em **Editar**e, em seguida, clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e clique em **Adicionar**. Quando terminar de adicionar usuários, clique em **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , clique em **salvar** para salvar as alterações feitas na associação do administrador de descoberta eletrônica.
+    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher administrador de descoberta eletrônica** , **em administradores de descoberta eletrônica**, selecione **escolher administrador de descoberta eletrônica**, selecione ![ **Editar**e, em seguida, selecione Adicionar ícone](media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e, em seguida, **adicione**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do administrador de descoberta eletrônica.
       
 > [!NOTE]
 > Você também pode usar o cmdlet **Add-eDiscoveryCaseAdmin** para tornar um usuário um administrador de descoberta eletrônica. No entanto, o usuário deve ter a função de gerenciamento de casos atribuída para que você possa usar este cmdlet para torná-los um administrador de descoberta eletrônica. Para obter mais informações, consulte [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217). 
   
-Na página **permissões** no centro de conformidade & segurança, você também pode atribuir permissões relacionadas a descoberta eletrônica aos usuários, adicionando-as aos grupos de função Administrador de conformidade, gerenciamento de organização e revisor. Para obter uma descrição das funções RBAC relacionadas à descoberta eletrônica atribuídas a cada um desses grupos de função, consulte a seção [funções RBAC relacionadas a descoberta eletrônica](#rbac-roles-related-to-ediscovery) . 
+Na página **permissões** no centro de conformidade de & de segurança, você também pode atribuir permissões relacionadas a eDiscovery dos usuários adicionando-as aos grupos de função Administrador de conformidade, gerenciamento de organização e revisor. Para obter uma descrição das funções RBAC relacionadas à descoberta eletrônica atribuídas a cada um desses grupos de função, consulte a seção [funções RBAC relacionadas a descoberta eletrônica](#rbac-roles-related-to-ediscovery) . 
 
 ## <a name="rbac-roles-related-to-ediscovery"></a>Funções RBAC relacionadas à descoberta eletrônica
 
@@ -94,9 +94,9 @@ Essa função permite que os usuários criem, editem, excluam e controlem o aces
 
 Essa função permite que os usuários executem a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar caixas de correio e pastas públicas, sites do SharePoint Online, sites do OneDrive for Business, conversas do Skype for Business, grupos do Office 365 e Microsoft Teams. Essa função permite que um usuário obtenha uma estimativa dos resultados da pesquisa e crie relatórios de exportação, mas as funções adicionais são necessárias para iniciar as ações de pesquisa de conteúdo, como visualização, exportação ou exclusão de resultados de pesquisa.
 
-Observe que os usuários atribuíam a função de pesquisa de conformidade, mas não têm a função de visualização podem visualizar os resultados de uma pesquisa na qual a ação de visualização tenha sido iniciada por um usuário que foi atribuído à função de visualização. O usuário sem a função Preview pode visualizar os resultados por até 2 semanas após a criação da ação de visualização inicial.
+Os usuários atribuídos à função de pesquisa de conformidade, mas não têm a função Preview, podem visualizar os resultados de uma pesquisa na qual a ação de visualização tenha sido iniciada por um usuário ao qual a função de visualização seja atribuída. O usuário sem a função Preview pode visualizar os resultados por até duas semanas após a criação da ação de visualização inicial.
 
-Da mesma forma, os usuários atribuíam a função de pesquisa de conformidade, mas não a função de exportação pode baixar os resultados de uma pesquisa na qual a ação de exportação iniciou por um usuário que foi atribuído à função de exportação. O usuário sem a função de exportação pode baixar os resultados de uma pesquisa por até duas semanas após a criação da ação de exportação inicial. Após isso, não será possível baixar os resultados, a menos que alguém com a função exportar reinicie a exportação.
+Da mesma forma, os usuários atribuídos à função de pesquisa de conformidade, mas não têm a função de exportação podem baixar os resultados de uma pesquisa na qual a ação de exportação foi iniciada por um usuário ao qual a função de exportação foi atribuída. O usuário sem a função de exportação pode baixar os resultados de uma pesquisa por até duas semanas após a criação da ação de exportação inicial. Depois, eles não podem baixar os resultados, a menos que alguém com a função exportar reinicie a exportação.
 
 Para obter mais informações, consulte [pesquisa de conteúdo no Office 365](content-search.md). 
 
@@ -108,7 +108,7 @@ Para obter mais informações sobre como exportar resultados de pesquisa, consul
 
 ### <a name="hold"></a>Retenção
 
-Essa função permite que os usuários coloquem conteúdo em caixas de correio, pastas públicas, sites, conversas do Skype for Business e grupos do Office 365 em espera. Quando o conteúdo estiver em espera, os proprietários do conteúdo ainda poderão modificar ou excluir o conteúdo original, mas o conteúdo será preservado até que a retenção seja removida ou até que a duração da retenção expire. 
+Essa função permite que os usuários coloquem conteúdo em retenção em caixas de correio, pastas públicas, sites, conversas do Skype for Business e grupos do Office 365. Quando o conteúdo está em espera, os proprietários do conteúdo ainda podem modificar ou excluir o conteúdo original, mas o conteúdo será preservado até que a retenção seja removida ou até que a duração da retenção expire. 
 
 Para obter mais informações sobre isenções, consulte:
 
@@ -117,11 +117,11 @@ Para obter mais informações sobre isenções, consulte:
 
 ### <a name="preview"></a>Visualização
 
-Essa função permite que os usuários exibam uma lista de itens que foram retornados de uma pesquisa de conteúdo. Eles também poderão abrir e exibir cada item da lista para exibir seu conteúdo.
+Essa função permite que os usuários exibam uma lista de itens que foram retornados de uma pesquisa de conteúdo. Eles também podem abrir e exibir cada item da lista para exibir seu conteúdo.
 
 ### <a name="review"></a>Revisão
 
-Essa função permite que os usuários acessem os dados de ocorrência na descoberta eletrônica avançada do Office 365. O principal objetivo dessa função é fornecer aos usuários acesso à descoberta eletrônica avançada. Os usuários atribuídos a essa função podem ver e abrir a lista de casos na página descoberta eletrônica no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de conformidade & segurança, ele pode clicar em **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada. Essa função não permite que o usuário visualize os resultados de uma pesquisa de conteúdo associada ao caso ou realize outras tarefas de gerenciamento de caso ou de pesquisa de conteúdo.
+Essa função permite que os usuários acessem os dados de ocorrência na descoberta eletrônica avançada do Office 365. O principal objetivo dessa função é fornecer aos usuários acesso à descoberta eletrônica avançada. Os usuários atribuídos a essa função podem ver e abrir a lista de casos na página descoberta eletrônica no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de conformidade & segurança, ele pode selecionar **alternar para descoberta eletrônica avançada** para acessar e analisar os dados de caso na descoberta eletrônica avançada. Essa função não permite que o usuário visualize os resultados de uma pesquisa de conteúdo associada ao caso ou outras tarefas de gerenciamento de caso ou de pesquisa de conteúdo.
 
 ### <a name="rms-decrypt"></a>Descriptografia do RMS
 
@@ -140,7 +140,7 @@ Essa função permite que os usuários realizem a remoção em massa de dados qu
     
   - Como um administrador de descoberta eletrônica pode exibir e acessar todos os casos de descoberta eletrônica, eles podem auditar e supervisionar todos os casos e pesquisas de conformidade associadas. Isso pode ajudar a evitar qualquer mau uso de pesquisas de conformidade ou ocorrências de descoberta eletrônica. E como os administradores de eDiscovery podem acessar informações potencialmente confidenciais nos resultados de uma pesquisa de conformidade, você deve limitar o número de pessoas que são administradores de descoberta eletrônica.
     
-    Além disso, os administradores de descoberta eletrônica são automaticamente adicionados como administradores na descoberta eletrônica avançada. Isso significa que uma pessoa deve ser um administrador de descoberta eletrônica para executar tarefas administrativas em descoberta eletrônica avançada, como configurar usuários, criar ocorrências e importar dados em um caso.
+    Além disso, os administradores de descoberta eletrônica são automaticamente adicionados como administradores na descoberta eletrônica avançada. Isso significa que uma pessoa deve ser um administrador de descoberta eletrônica para realizar tarefas administrativas na descoberta eletrônica avançada, como configurar usuários, criar ocorrências e importar dados em um caso.
     
 - **Posso adicionar um grupo como membro do grupo de função Gerenciador de descoberta eletrônica?** Conforme explicado anteriormente, você pode adicionar um grupo de segurança habilitado para email como um membro do subgrupo gerenciadores de descoberta eletrônica no grupo de função Gerenciador de descoberta eletrônica usando o cmdlet **Add-RoleGroupMember** no PowerShell do centro de conformidade de segurança &. Por exemplo, você pode executar o seguinte comando para adicionar um grupo de segurança habilitado para email ao grupo de funções Gerenciador de descoberta eletrônica. 
     
@@ -148,8 +148,8 @@ Essa função permite que os usuários realizem a remoção em massa de dados qu
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Observe que não há suporte para um grupo de distribuição do Exchange ou um grupo do Office 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando ` New-DistributionGroup -Type Security ` o comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Observe que pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email fique disponível para ser adicionada ao grupo de função gerenciadores de descoberta eletrônica. 
+    Não há suporte para grupos de distribuição do Exchange e grupos do Office 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando ` New-DistributionGroup -Type Security ` o comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
     
     Além disso, como declarado anteriormente, você não pode tornar um grupo de segurança habilitado para email em um administrador de descoberta eletrônica usando o cmdlet **Add-eDiscoveryCaseAdmin** no PowerShell do centro de conformidade e segurança &. Você só pode adicionar usuários individuais como administradores de descoberta eletrônica. 
     
-    Observe que você também não pode adicionar um grupo de segurança habilitado para email como um membro de uma ocorrência.
+    Você também não pode adicionar um grupo de segurança habilitado para email como membro de uma ocorrência.

@@ -13,12 +13,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os campos e valores do cabeçalho que são adicionados às mensagens pela Proteção do Exchange Online.
-ms.openlocfilehash: df1d85c49ee4c9485ae426864a3014b6a7c9f3cc
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: adc97ea59293d226ae304e128643901faedc1a37
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640323"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615671"
 ---
 # <a name="anti-spam-message-headers"></a>Cabeçalhos de mensagem antispam
 
@@ -54,7 +54,7 @@ Depois de acessar as informações do cabeçalho da mensagem, procure **X-Forefr
 |SFV:NSPM|A mensagem foi marcada como não spam e enviada aos destinatários pretendidos.|
 |H: \[helostring\]|A cadeia de caracteres HELO ou EHLO do servidor de email que está se conectando.|
 |PTR: \[ReverseDNS\]|O registro PTR, ou registro do ponteiro, do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
-|CAT:|A categoria da política de proteção, aplicada à mensagem: <br/>MALW: malware <br/>PHSH: phishing <br/>HSPM: spam de alta confiança <br/>SPOOF: falsificação <br/>SPM: spam <br/>BULK: em massa <br/>DIMP: representação de domínio <br/>UIMP: representação de usuário <br/><br/>GIMP: Inteligência de Caixa de Correio<br/>Potencialmente, uma mensagem de entrada pode ser sinalizada por várias formas de proteção e várias verificações de detecção. As políticas têm prioridades diferentes, e a política com a prioridade mais alta será aplicada. Confira [Qual política se aplica quando vários métodos de proteção e varreduras são executados em seu email](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined).|
+|CAT:|A categoria da política de proteção, aplicada à mensagem: <br/>MALW: malware <br/>PHSH: phishing <br/>HSPM: spam de alta confiança <br/>SPOOF: falsificação <br/>SPM: spam <br/>BULK: em massa <br/>DIMP: representação de domínio <br/>UIMP: representação de usuário <br/>GIMP: Inteligência de Caixa de Correio<br/>Potencialmente, uma mensagem de entrada pode ser sinalizada por várias formas de proteção e várias verificações de detecção. As políticas têm prioridades diferentes, e a política com a prioridade mais alta será aplicada. Confira [Qual política se aplica quando vários métodos de proteção e varreduras são executados em seu email](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined).|
 |SFTY|A mensagem foi identificada como phishing e também será marcada com um dos seguintes valores: <br/>9.1: Valor padrão. A mensagem contém uma URL de phishing, pode conter outro conteúdo de phishing ou pode ter sido marcada como phishing por outro filtro de email, como uma versão local do Exchange Server, antes de retransmitir a mensagem para o Office 365. <br/>9.11: A mensagem falhou nas verificações de antifalsificação em que o domínio de envio em De: o cabeçalho é o mesmo, está alinhado ou faz parte da mesma organização que o domínio de recebimento. Isso indica que uma dica de segurança de dentro da organização contra falsificação será adicionada à mensagem. <br/>9.19: A mensagem falhou na verificação de usurpação de identidade de domínio em que o domínio de envio está tentando representar um domínio de propriedade do destinatário ou um domínio personalizado protegido pela política de anti-phishing. Isso indica que uma dica de segurança de representação será adicionada à mensagem, se habilitada pela política anti-phishing. <br/>9.20: A mensagem falhou na verificação de usurpação de identidade de domínio em que o domínio de envio está tentando representar um usuário na organização de receptores ou um domínio personalizado protegido pela política de anti-phishing. Isso indica que uma dica de segurança de representação será adicionada à mensagem, se habilitada pela política anti-phishing. <br/>9.21: A mensagem falhou em verificações de antifalsificação e o domínio de envio em De: o cabeçalho não autentica e é de um domínio externo. Usado em combinação com o CompAuth (consulte Resultados-de-Autenticação). <br/>9.22: Igual a 9.21, exceto pelo fato de o usuário ter um remetente seguro que foi substituído. <br/>9.23: Igual a 9.22, exceto que a organização tem um remetente ou domínio permitido que foi substituído. <br/>9.24: Igual a 9.23, exceto pelo fato de o usuário ter uma regra de fluxo de emails do Exchange que foi substituído.|
 |X-CustomSpam: \[ASFOption\]|A mensagem corresponde a uma opção avançada de filtragem de spam. Por exemplo, **X-CustomSpam: os links de Imagem para sites remotos** indica que os** links de Imagem para sites remotos de** ASF foram correspondidas. Para descobrir qual texto do cabeçalho X é adicionado para cada opção ASF específica, confira [Opções adicionais de filtragem de spam](advanced-spam-filtering-asf-options.md).|
 |

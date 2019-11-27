@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados do Twitter para o Office 365. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: cf738f67778dbe435e60098b9fc6d753583858a8
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 86362193b0c64afa182c2f49ff27bd7e5f27935c
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684837"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615571"
 ---
 # <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>Usar um exemplo de conector para arquivar dados do Twitter no Office 365 (versão prévia)
 
@@ -23,7 +23,7 @@ O recurso de conector de exemplo para arquivar dados do Twitter no Office 365 es
 
 Use um conector de exemplo no centro de conformidade & segurança no Office 365 para importar e arquivar dados do Twitter. Depois de configurar e configurar um conector de exemplo, ele se conecta à conta do Twitter da sua organização (em uma base agendada), converte o conteúdo de um item em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
 
-Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de conectores de amostra para importar e arquivar dados do Twitter no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. Usar um exemplo de conector para importar e arquivar dados do Twitter no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 > [!NOTE]
 > Atualmente, somente os conectores de amostra para as [páginas de negócios](archive-facebook-data-with-sample-connector.md) do Twitter e do Facebook estão disponíveis para visualização. Mais exemplos de conectores serão disponibilizados em breve.
@@ -31,13 +31,13 @@ Após a importação dos dados do Twitter, você pode aplicar recursos de confor
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-twitter"></a>Pré-requisitos para configurar um conector para o Twitter
 
-Você deve concluir os pré-requisitos a seguir antes de configurar e configurar um conector de exemplo no centro de conformidade & segurança para importar e arquivar dados da conta do Twitter da sua organização. 
+Conclua os pré-requisitos a seguir antes de configurar e configurar um conector de exemplo no centro de conformidade & segurança para importar e arquivar dados da conta do Twitter da sua organização. 
 
 - Você precisa de uma conta do Twitter para sua organização; Você precisa se conectar a essa conta ao configurar o conector.
 
 - Sua organização deve ter uma assinatura válida do Azure. Se você não tiver uma assinatura do Azure existente, poderá se inscrever em uma destas opções:
 
-    - [Inscreva-se para obter uma assinatura gratuita do Azure em 1 ano](https://azure.microsoft.com/free) 
+    - [Inscreva-se para uma assinatura gratuita do Azure para um ano](https://azure.microsoft.com/free) 
 
     - [Inscreva-se para obter uma assinatura do Azure de pagamento conforme a ser acessado](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
@@ -46,14 +46,14 @@ Você deve concluir os pré-requisitos a seguir antes de configurar e configurar
 
 - Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação.
 
-- O usuário que configura o conector personalizado no Security & Compliance (na etapa 7) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um novo grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
+- O usuário que configura o conector personalizado no Security & Compliance (na etapa 7) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um novo grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
-## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>Etapa 1: baixar o pacote de aplicativos do conector pré-criado do github
+## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>Etapa 1: baixar o pacote de aplicativos do conector pré-criado do GitHub
 
 A primeira etapa é baixar o código-fonte para o aplicativo do conector de amostra do Twitter que usará uma API do Twitter para se conectar à sua conta do Twitter e extrair os dados para que você possa importá-lo para o Office 365.
 
 1. Vá para [este site do GitHub](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases). 
-2. Na versão mais recente, clique no arquivo **SampleConnector. zip** .
+2. Na versão mais recente, selecione o arquivo **SampleConnector. zip** .
 3. Salve o arquivo ZIP em um local no computador local. Você carrega este arquivo zip no Azure na etapa 4.
 
 ## <a name="step-2-create-an-app-in-azure-active-directory"></a>Etapa 2: criar um aplicativo no Azure Active Directory
@@ -62,7 +62,7 @@ A próxima etapa é registrar um novo aplicativo no Azure Active Directory (AAD)
 
 Para obter instruções passo a passo, consulte [etapa 2: criar um aplicativo no Azure Active Directory](deploy-twitter-connector.md#step-2-create-an-app-in-azure-active-directory).
 
-Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salvará as informações a seguir em um arquivo de texto. Os valores para eles serão usados nas etapas posteriores do processo de implantação.
+Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salvará as informações a seguir em um arquivo de texto. Esses valores serão usados nas etapas posteriores do processo de implantação.
 
 - ID do aplicativo AAD
 - Segredo do aplicativo AAD
@@ -75,7 +75,7 @@ O conector do Twitter implantado para sua organização carrega os itens do Twit
 
 Para obter instruções passo a passo, consulte [etapa 3: criar uma conta de armazenamento do Azure](deploy-twitter-connector.md#step-3-create-an-azure-storage-account).
 
-Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salva o URI da cadeia de conexão gerado. Use esta cadeia de caracteres ao criar um recurso do aplicativo Web no Azure na etapa 4.
+Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salva o URI da cadeia de caracteres de conexão gerado. Use esta cadeia de caracteres ao criar um recurso do aplicativo Web no Azure na etapa 4.
 
 ## <a name="step-4-create-a-web-app-resource-in-azure"></a>Etapa 4: criar um recurso do aplicativo Web no Azure
 
@@ -91,7 +91,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 Além disso, você carrega o arquivo SampleConnector. zip (que baixou na etapa 1) nesta etapa para implantar o código-fonte do aplicativo do conector do Twitter.
 
-Após concluir esta etapa, certifique-se de copiar a URL do serviço de aplicativo do Azure `https://twitterconnector.azurewebsites.net`(por exemplo,). É necessário usá-lo para concluir a etapa 5, etapa 6 e etapa 7).
+Após concluir esta etapa, certifique-se de copiar a URL do serviço de aplicativo do Azure `https://twitterconnector.azurewebsites.net`(por exemplo,). Você precisa usar essa URL para concluir a etapa 5, etapa 6 e etapa 7).
 
 ## <a name="step-5-create-developer-app-on-twitter"></a>Etapa 5: criar um aplicativo de desenvolvedor no Twitter
 
@@ -99,7 +99,7 @@ A próxima etapa é criar e configurar um aplicativo de desenvolvedor no Twitter
 
 Para obter instruções passo a passo, consulte [etapa 5: criar o aplicativo Twitter](deploy-twitter-connector.md#step-5-create-the-twitter-app).
 
-Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salva as informações a seguir em um arquivo de texto. Os valores para eles serão usados para configurar o aplicativo do conector do Twitter na etapa 6.
+Durante a conclusão desta etapa (seguindo as instruções passo a passo), você salva as informações a seguir em um arquivo de texto. Esses valores serão usados para configurar o aplicativo do conector do Twitter na etapa 6.
 
 - Chave de API do Twitter
 - Chave secreta da API do Twitter
@@ -124,7 +124,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>Etapa 7: configurar um conector personalizado no centro de conformidade & segurança
 
-A etapa final é configurar o conector personalizado no centro de conformidade de & de segurança que importa dados da conta do Twitter da sua organização para uma caixa de correio especificada no Office 365. Depois de concluir com êxito esta etapa, o serviço de importação do Office 365 iniciará o processo de importação de dados do Twitter para o Office 365. 
+A etapa final é configurar o conector personalizado no centro de conformidade de & de segurança que importa dados da conta do Twitter da sua organização para uma caixa de correio especificada no Office 365. Depois de concluir com êxito esta etapa, o serviço de importação do Office 365 começará a importar dados do Twitter para o Office 365. 
 
 Para obter instruções passo a passo, consulte [etapa 7: configurar um conector personalizado no centro de segurança e conformidade](deploy-twitter-connector.md#step-7-set-up-a-custom-connector-in-the-security-and-compliance-center). 
 
