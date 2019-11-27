@@ -13,12 +13,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 895715c35dd124bbcea56ed0eb479cfc4281d157
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: fa88f80a0f7423a57850e2d8ad690f2472a23a7c
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257546"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615651"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -41,7 +41,7 @@ Anti-spam, Antimalware e anti-phishing são recursos do EOP que podem ser config
 |Ação de detecção de email de phishing|Mensagem em quarentena|Mensagem em quarentena||
 |Ação de detecção de email de phishing de alta confiança|Mensagem em quarentena|Mensagem em quarentena||
 |Ação de detecção de email em massa|Mover mensagem para a pasta Lixo Eletrônico|Mensagem em quarentena||
-|Definir o limite de email em massa para|6|quatro||
+|Definir o limite de email em massa para|6|quatro|No momento, o padrão é 7, mas recomendamos que a maioria das organizações o mvoe para pelo menos 6|
 |Período de retenção de quarentena|30 dias|30 dias||
 |Dicas de segurança|Habilitado|Habilitado||
 |Remetentes permitidos|Nenhum|Nenhum||
@@ -76,9 +76,9 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
-|Limites de destinatários de política de spam de saída-limite por hora externa|400|500||
-|Limites de destinatários de política de spam de saída-limite por hora interna|800|1000||
-|Limites de destinatários de política de spam de saída-limite diário|800|1000||
+|Limites de destinatários de política de spam de saída-limite por hora externa|500|400||
+|Limites de destinatários de política de spam de saída-limite por hora interna|1000|800||
+|Limites de destinatários de política de spam de saída-limite diário|1000|800||
 |Ação quando um usuário exceder os limites|Impedir que o usuário envie emails|Impedir que o usuário envie emails||
 
 ### <a name="eop-anti-malware-policy-settings"></a>Configurações de política antimalware do EOP
