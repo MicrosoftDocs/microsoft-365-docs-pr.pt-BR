@@ -1,19 +1,19 @@
 ---
-title: Informações sobre confiabilidade
+title: Insights de confiabilidade
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f830e01d54aef9065727971533633f8e63bc1214
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 8ecc117b2bc6e7cec3dcf0470a6d3c61ad34adf0
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257029"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634028"
 ---
-# <a name="reliability-insights"></a>Informações sobre confiabilidade
+# <a name="reliability-insights"></a>Insights de confiabilidade
 
 Este modo de exibição fornece um resumo de integridade dos dispositivos gerenciados. Para exibir os dados de confiabilidade, selecione a guia **confiabilidade** .
 
@@ -35,5 +35,12 @@ A seção **principais problemas** detalha os problemas detectados específicos 
 - A porcentagem de dispositivos gerenciados que o número representa
 - A contagem total de ocorrências do problema específico
 - O componente de software que parece ser a origem do problema
+- A categoria do problema detectado:
+    - Navegador (borda, Chrome, IE)
+    - Desconhecido (componentes não Microsoft)
+    - Driver (áudio, gráficos ou outros drivers)
+    - Produtividade (margem de atraso, pacotes G-Suites, Microsoft Office e seus complementos ou extensões, equipes)
+    - Mídia (imagem, música ou aplicativos de vídeo
+    - Segurança (componentes de segurança do Windows)
 - O status atual como operações de área de trabalho gerenciada da Microsoft investiga e corrige o problema
 

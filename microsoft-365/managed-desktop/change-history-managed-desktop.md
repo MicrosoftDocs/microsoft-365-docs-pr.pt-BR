@@ -8,16 +8,43 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a982b493027775add547a87700906a6cbbdaef60
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369622"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634058"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os tópicos "atualizados" são aqueles que tiveram inclusões de material ou correções – correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="november-2019"></a>Novembro de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Trabalhar com insights](working-with-managed-desktop/insights.md) | Novo tópico
+[Informações de uso](working-with-managed-desktop/usage-insights.md) | Novo tópico
+[Insights de confiabilidade](working-with-managed-desktop/reliability-insights.md) | Novo tópico
+[Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Tópico atualizado
+[Página principal do Microsoft Managed desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/) | Tópico atualizado
+[O que é a Área de Trabalho Gerenciada da Microsoft?](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/index) | Tópico atualizado
+[Preparar usuários para o uso dos dispositivos](get-started/get-started-devices.md) | Tópico atualizado
+[Exceções para o plano de serviço](service-description/customizing.md) | Tópico atualizado
+
+
+## <a name="october-2019"></a>Outubro de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Exceções para o plano de serviço](service-description/customizing.md) | Novo tópico
+[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Tópico atualizado
+[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tópico atualizado
+[Mudanças de serviço e comunicação](service-description/servicechanges.md) | Novo tópico
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Tópico atualizado
+[Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Tópico atualizado
+[Idiomas e regiões compatíveis com o Microsoft Managed desktop](service-description/regions-languages.md) | Tópico atualizado
+
+
+
 
 ## <a name="september-2019"></a>Setembro de 2019
 Tópico novo ou alterado | Descrição

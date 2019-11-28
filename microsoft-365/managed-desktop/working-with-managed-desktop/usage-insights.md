@@ -1,20 +1,20 @@
 ---
-title: Insights de uso
+title: Informações de uso
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3f1d1deb031d26f9dec687b73be86ec8a2491a50
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: a3367785d858c1d2546571fa1ad8a8c1b96cf59f
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256858"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634018"
 ---
-# <a name="usage-insights"></a>Insights de uso
-Este modo de exibição fornece métricas de uso para seus dispositivos de área de trabalho gerenciada da Microsoft. 
+# <a name="usage-insights"></a>Informações de uso
+Este modo de exibição fornece métricas de uso para seus dispositivos de área de trabalho gerenciada da Microsoft. Para esses fins, um aplicativo é considerado "em uso" se estiver em execução e em foco.
 
 Para exibir os dados de uso, selecione a guia **uso** .
 
