@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Investigue e corrija os alertas de conformidade de comunicação no Microsoft 365.
-ms.openlocfilehash: 8aaf74ceafc737487bd97bb7c71b26fc139aacf0
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 336ce22813b60a4543941b18e11acf525570bb26
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684753"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633680"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>Investigar e corrigir alertas de conformidade em comunicações (visualização)
 
@@ -31,7 +31,7 @@ Depois de configurar suas políticas de conformidade de comunicação, você com
 
 A primeira etapa para investigar problemas detectados por suas políticas é examinar os alertas gerados no centro de conformidade da Microsoft 365. Há várias áreas no centro de conformidade para ajudá-lo a investigar rapidamente os alertas, dependendo de como você prefere exibir o agrupamento de alertas:
 
-- **Home Page de conformidade de comunicação**: ao entrar [https://compliance.microsoft.com](https://compliance.microsoft.com) usando credenciais para uma conta de administrador na sua organização do Microsoft 365, selecione**visão geral** de **conformidade** > de comunicação para exibir a Home Page de conformidade de comunicação. Aqui você verá:
+- **Home Page de conformidade de comunicação**: quando você entra [https://compliance.microsoft.com](https://compliance.microsoft.com) no usando credenciais para uma conta de administrador na sua organização do Microsoft 365, selecione**visão geral** de **conformidade** > de comunicação para exibir a Home Page de conformidade de comunicação. Aqui você verá:
     - Alertas que precisam de revisão listadas da severidade alta para baixa. Selecione um alerta para iniciar a página detalhes do alerta e para iniciar ações de correção.
     - Correspondências de política recentes listadas pelo nome da política.
     - Itens resolvidos listados pelo nome da política.
@@ -112,7 +112,7 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
     - **Resolver**: selecionar o controle **resolver** imediatamente remove a mensagem da fila de **alertas pendentes** e nenhuma ação adicional pode ser executada na mensagem. Ao selecionar **resolver**, você já fechou o alerta sem mais classificação e não pode ser reaberto para futuras ações. Todas as mensagens resolvidas são exibidas na guia **resolvido** .
     - **Falso positivo**: você sempre pode resolver uma mensagem como falso positivo em qualquer ponto durante o fluxo de trabalho de revisão de mensagens. A mensagem não pode ser reaberta e todas as mensagens falsas positivas são exibidas na guia **resolvido** .
     - **Marcar como**: marcar a mensagem como *compatível*, *não compatível*ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
-    - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado e selecione **Enviar** para email um lembrete para o funcionário que enviou a mensagem e para resolver o problema.
+    - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado e selecione **Enviar para enviar** por email um lembrete para o funcionário que enviou a mensagem e para resolver o problema.
     - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados para enviar uma notificação por email solicitando revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
 
 4. **Determinar se os detalhes da mensagem devem ser arquivados fora da conformidade de comunicação**: os detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o controle de **Download** automaticamente adiciona mensagens selecionadas a um. ZIP arquivo que pode ser salvo no armazenamento fora do Microsoft 365.

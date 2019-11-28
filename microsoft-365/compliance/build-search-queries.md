@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados ao usar a investigação de dados no Microsoft 365.
-ms.openlocfilehash: e042115c0bbd772bea494d0ca39f3709c7526b5e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Use palavras-chave e condições para restringir o escopo de pesquisa ao pesquisar dados usando a investigação de dados no Microsoft 365.
+ms.openlocfilehash: 0f90543553477d3eacb4bf044ea9d5707514a267
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072265"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631051"
 ---
 # <a name="build-search-queries"></a>Criar consultas de pesquisa
 
@@ -29,9 +29,9 @@ Ao criar consultas de pesquisa, você pode usar palavras-chave para localizar co
 
 ## <a name="keyword-searches"></a>Pesquisas de palavra-chave
 
-Digite uma consulta de palavra-chave na caixa **palavras-** chave na consulta de pesquisa. Você pode especificar palavras-chave, propriedades de mensagens de email (como datas enviadas e recebidas) ou propriedades do documento (como nomes de arquivo ou a data em que um documento foi alterado pela última vez). Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, e **não**, e **Near**. Você também pode pesquisar informações confidenciais (como números de seguridade social) em documentos no SharePoint e no OneDrive (não em mensagens de email) ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa **palavras-chave** vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
+Digite uma consulta de palavra-chave na caixa **palavras-** chave na consulta de pesquisa. Você pode especificar palavras-chave, propriedades de mensagens de email, como datas enviadas e recebidas, ou propriedades do documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode pesquisar informações confidenciais, como números de seguridade social, em documentos no SharePoint e no OneDrive (não em mensagens de email) ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa **palavras-chave** vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
     
-Como alternativa, você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e frase de palavra-chave ou palavra-chave Type em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (representado como *c:s*) que é semelhante em funcionalidade ao operador **or** na consulta de pesquisa criada. Isso significa que os itens que contêm qualquer palavra-chave em qualquer linha são incluídos nos resultados da pesquisa.
+Como alternativa, você pode marcar a caixa de seleção **Mostrar lista de palavras-chave** e digitar uma frase de palavra-chave ou palavra-chave em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (representado como *c:s*) que é semelhante em funcionalidade ao operador **or** na consulta de pesquisa criada. Isso significa que os itens que contêm qualquer palavra-chave em qualquer linha são incluídos nos resultados da pesquisa.
 
 ![Use a lista de palavras-chave para obter estatísticas sobre cada palavra-chave na consulta](media/KeywordListSearch.png)
 
@@ -42,4 +42,4 @@ Por que usar a lista de palavras-chave? Você pode obter estatísticas que mostr
 
 ## <a name="conditions"></a>Condições
     
-Você pode adicionar condições de pesquisa para restringir o escopo de uma pesquisa e retornar um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa criada e executada quando você inicia a pesquisa. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa palavra-chave) por um operador lógico (que é representado como *c:c*) que é semelhante em funcionalidade ao operador **and** . Isso significa que os itens precisam satisfazer a consulta de palavra-chave e uma ou mais condições a serem incluídas nos resultados da pesquisa. É assim que as condições ajudam a restringir os resultados. Para obter uma lista e uma descrição das condições que você pode usar em uma consulta de pesquisa, consulte a seção "condições de pesquisa" em [consultas de palavra-chave e condições de pesquisa](keyword-queries-and-search-conditions.md#search-conditions).
+Você pode adicionar condições de pesquisa para restringir o escopo de uma pesquisa e retornar um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa palavra-chave) por um operador lógico (que é representado como *c:c*) que é semelhante em funcionalidade ao operador **and** . Isso significa que os itens precisam satisfazer a consulta de palavra-chave e uma ou mais condições a serem incluídas nos resultados da pesquisa. É assim que as condições ajudam a restringir os resultados. Para obter uma lista e uma descrição das condições que você pode usar em uma consulta de pesquisa, consulte a seção "condições de pesquisa" em [consultas de palavra-chave e condições de pesquisa](keyword-queries-and-search-conditions.md#search-conditions).

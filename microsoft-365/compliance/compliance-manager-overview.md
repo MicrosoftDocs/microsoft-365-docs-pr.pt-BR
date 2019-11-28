@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: be2ba99f7779640df90c35101e96839fb87156d4
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: f8683fd3b3462a44856266ec0e3bef96829b032c
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615611"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633650"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -51,7 +51,7 @@ Os [grupos](working-with-compliance-manager.md#groups) são contêineres que per
 
 ## <a name="assessments"></a>Avaliações
 
-As [avaliações](working-with-compliance-manager.md#assessments) são contêineres que permitem organizar os controles com base nas responsabilidades compartilhadas entre a Microsoft e sua organização para avaliar os riscos de segurança e conformidade do serviço de nuvem. As avaliações ajudam você a implementar proteções de proteção de dados especificadas por um padrão de conformidade e normas, regulamentos ou leis de proteção de dados aplicáveis. Eles ajudam a discernir sua postura de proteção e conformidade de dados contra o padrão do setor selecionado para o serviço de nuvem da Microsoft selecionado. As avaliações são concluídas pela implementação dos controles incluídos na avaliação que mapeiam para um padrão de certificação.
+As [avaliações](working-with-compliance-manager.md#assessments) são contêineres que permitem organizar os controles de responsabilidades compartilhadas entre a Microsoft e sua organização para avaliar os riscos de segurança e conformidade do serviço de nuvem. As avaliações ajudam você a implementar proteções de proteção de dados especificadas por um padrão de conformidade e normas, regulamentos ou leis de proteção de dados aplicáveis. Eles ajudam a discernir sua postura de proteção e conformidade de dados contra o padrão do setor selecionado para o serviço de nuvem da Microsoft selecionado. As avaliações são concluídas pela implementação dos controles incluídos na avaliação que mapeiam para um padrão de certificação.
 
 Por padrão, o Gerenciador de conformidade cria as seguintes Avaliações para sua organização:
 
@@ -105,9 +105,9 @@ Um controle compartilhado refere-se a qualquer controle em que a Microsoft e os 
 
 Os [itens de ações](working-with-compliance-manager.md#controls-and-actions) são incluídos em controles gerenciados pelo cliente como parte da funcionalidade de gerenciamento de fluxo de trabalho interna que você pode usar para gerenciar e acompanhar o progresso da conclusão da avaliação.
 
-As pessoas da sua organização podem usar o Gerenciador de conformidade para analisar os controles gerenciados pelo cliente em todas as avaliações para as quais foram atribuídos. Quando o usuário entra no Gerenciador de Conformidade e abre o painel **Itens de Ação**, é exibida uma lista de Itens de Ação que foram atribuídos a ela. Dependendo da função do Gerenciador de Conformidade atribuída ao usuário, ele pode fornecer detalhes da implementação ou dos testes, atualizar o Status ou atribuir Itens de Ação.
+As pessoas da sua organização podem usar o Gerenciador de conformidade para analisar os controles gerenciados pelo cliente em todas as avaliações às quais estão atribuídos. Quando o usuário entra no Gerenciador de Conformidade e abre o painel **Itens de Ação**, é exibida uma lista de Itens de Ação que foram atribuídos a ela. Dependendo da função do Gerenciador de Conformidade atribuída ao usuário, ele pode fornecer detalhes da implementação ou dos testes, atualizar o Status ou atribuir Itens de Ação.
 
-Os controles de certificação geralmente são implementados por uma pessoa e testados por outra. Por exemplo, depois que os itens de ação atribuídos inicialmente a uma pessoa para implementação são concluídos, os itens de ação são atribuídos à próxima pessoa para testar e carregar evidências. Qualquer usuário com permissões suficientes para as atribuições de controle pode atribuir e Reatribuir itens de ação. Isso permite o gerenciamento central de atribuições de controle e o roteamento descentralizado de itens de ação entre implementadores e testadores.
+Os controles de certificação geralmente são implementados por uma pessoa e testados por outra. Por exemplo, depois que os itens de ação atribuídos inicialmente a uma pessoa para implementação são concluídos, esses itens de ação são atribuídos à próxima pessoa para testar e carregar evidências. Qualquer usuário com permissões suficientes para as atribuições de controle pode atribuir e Reatribuir itens de ação. Isso permite o gerenciamento central de atribuições de controle e o roteamento descentralizado de itens de ação entre implementadores e testadores.
 
 ## <a name="permissions"></a>Permissões
 
@@ -118,13 +118,13 @@ O portal admin para o Gerenciador de conformidade pode definir permissões para 
 1. No menu suspenso **superior,** selecione **Administração**e **configurações**.
 2. A partir daqui, selecione a função que você deseja atribuir e, em seguida, adicione o funcionário que você deseja atribuir a essa função. Os usuários poderão executar determinadas ações.
 
-Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade; no entanto, eles não podem editar dados ou executar ações no Gerenciador de conformidade.
+Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade. No entanto, eles não podem editar dados nem executar ações no Gerenciador de conformidade.
 
-Observe que não há mais uma função padrão **Acesso do Convidado**. Cada usuário deve ter uma função atribuída para acessar e trabalhar no Gerenciador de Conformidade.
+Não há mais uma função de **acesso de convidado** padrão. Cada usuário deve ter uma função atribuída para acessar e trabalhar no Gerenciador de Conformidade.
   
 ## <a name="manage-evidence"></a>Gerenciar evidências
 
-O Gerenciador de conformidade pode armazenar evidências de suas tarefas de implementação para executar testes e validação de controles gerenciados pelo cliente. A evidência inclui documentos, planilhas, capturas de tela, imagens, scripts, arquivos de saída de script e outros arquivos. O Gerenciador de conformidade também recebe automaticamente a telemetria e cria um registro de evidência para itens de ação que estão integrados à pontuação segura. Todos os dados carregados como evidências no gerente de conformidade são armazenados nos Estados Unidos nos sites de armazenamento na nuvem da Microsoft. Esses dados são replicados nas regiões do Azure localizadas no sudeste asiático e na Europa Ocidental.
+O Gerenciador de conformidade pode armazenar evidências de suas tarefas de implementação para executar testes e a validação de controles gerenciados pelo cliente. A evidência inclui documentos, planilhas, capturas de tela, imagens, scripts, arquivos de saída de script e outros arquivos. O Gerenciador de conformidade também recebe automaticamente a telemetria e cria um registro de evidência para itens de ação que estão integrados à pontuação segura. Todos os dados carregados como evidências no gerente de conformidade são armazenados nos Estados Unidos nos sites de armazenamento na nuvem da Microsoft. Esses dados são replicados nas regiões do Azure localizadas no sudeste asiático e na Europa Ocidental.
 
 ## <a name="templates"></a>Modelos
 

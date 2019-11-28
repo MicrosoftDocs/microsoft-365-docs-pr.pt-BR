@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: e2719df640a202f5ad88534920ef525f6da97189
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+description: " "
+ms.openlocfilehash: 5d8950f2e6164781111465aee8d89eaff92ee958
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191166"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633830"
 ---
 # <a name="close-or-delete-a-case"></a>Fechar ou excluir uma ocorrência
 
@@ -31,7 +31,7 @@ Quando o caso ou a investigação legal suportados por uma ocorrência de descob
 
 - O caso ainda está listado na página descoberta eletrônica no centro de conformidade de & de segurança. Os detalhes, isenções, pesquisas e membros de um caso fechado são mantidos.
 
-- Você pode editar uma ocorrência após ela ser fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas, exportar resultados de pesquisa e preparar o resultado da pesquisa para análise na descoberta eletrônica avançada. A principal diferença entre casos ativos e fechados é que a retenção é desativada quando um caso é fechado.
+- Você pode editar uma ocorrência após ela ser fechada. Por exemplo, você pode adicionar ou remover membros, criar pesquisas, exportar resultados de pesquisa e preparar resultados de pesquisa para análise na descoberta eletrônica avançada. A principal diferença entre casos ativos e fechados é que a retenção é desativada quando um caso é fechado.
 
 Para fechar uma ocorrência:
 

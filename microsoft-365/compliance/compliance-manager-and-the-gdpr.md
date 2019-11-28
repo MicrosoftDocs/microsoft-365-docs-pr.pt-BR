@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: e41b28972dc2ada5c0591de0e73c04ea3306e039
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0d2edb2f7362fa8e8bea6ae82c417f61072bccff
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072236"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633610"
 ---
 # <a name="microsoft-compliance-manager-and-the-gdpr"></a>Gerente de conformidade da Microsoft e o RGPD
 
@@ -48,7 +48,7 @@ Para procurar uma conta de usuário:
 
 ## <a name="export-a-report-of-account-data-history"></a>Exportar um relatório do histórico de dados da conta
 
-Para cada conta de usuário identificada, você pode gerar um relatório de dependências vinculadas a essa conta. Essas informações permitem que você reatribua itens de ação abertas ou assegure o acesso a evidências previamente carregadas.
+Para cada conta de usuário identificada, você pode gerar um relatório de dependências vinculadas à conta. Essas informações permitem que você reatribua itens de ação abertas ou assegure o acesso a evidências previamente carregadas.
   
  Para gerar e exportar um relatório:
   
@@ -69,6 +69,6 @@ Para excluir o item de ação da conta de usuário e o histórico de upload de d
   
 1. Selecione **excluir**.
 
-    Uma caixa de diálogo de confirmação é exibida, "*isso remove todas as atribuições de item de ação de controle e o histórico de carregamento do documento para o usuário selecionado. Esta ação é permanente. Tem certeza de que deseja continuar?*"
+    Uma caixa de diálogo de confirmação é exibida: "*isso remove todas as atribuições de item de ação de controle e o histórico de carregamento do documento para o usuário selecionado. Esta ação é permanente. Tem certeza de que deseja continuar?*"
 
 2. Para continuar, selecione **OK**; caso contrário, selecione **Cancelar**.

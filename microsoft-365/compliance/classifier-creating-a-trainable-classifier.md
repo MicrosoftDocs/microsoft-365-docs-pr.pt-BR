@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use classificadores treinados quando um dos classificadores de caixa pronto para usar não atender às suas necessidades. Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este tópico mostra como criar um classificador personalizado.
-ms.openlocfilehash: 1d62b70d821593ff7d8d3889c0da0e0b5cc9809f
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 2b1955a2079a26792e973eec1848fcdac8c58218
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38690084"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633978"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Criar um classificador treinado (visualização)
 
@@ -38,7 +38,7 @@ Quando você quiser um classificador treinado para identificar de forma independ
 
 ## <a name="testing-content"></a>Testando conteúdo
 
-Depois que o classificador treinado tiver processado amostras positivas suficientes para criar um modelo de previsão, você precisará testar as previsões feitas para ver se o classificador pode distinguir corretamente os itens que correspondem à categoria e aos itens que não têm. Você faz isso alimentando o outro, espero maior, um conjunto de conteúdo separado para o homem que consiste em exemplos que devem se enquadrar na categoria e exemplos que não. Depois de processar os resultados, você percorrerá manualmente os resultados e verificará se cada previsão está correta, incorreta ou se não tem certeza. O classificador treinado usa esse feedback para melhorar seu modelo de previsão.
+Depois que o classificador treinado tiver processado exemplos positivos suficientes para criar um modelo de previsão, você precisará testar as previsões feitas para ver se o classificador pode distinguir corretamente os itens que correspondem à categoria e aos itens que não estão. Você faz isso alimentando o outro, espero maior, um conjunto de conteúdo separado para o homem que consiste em exemplos que devem se enquadrar na categoria e exemplos que não. Depois de processá-los, você passará manualmente pelos resultados e verificará se cada previsão está correta, incorreta ou se não tem certeza. O classificador treinado usa esse feedback para melhorar seu modelo de previsão.
 
 > [!TIP]
 > Para obter melhores resultados, tenha 10.000 itens em seu conjunto de amostra de teste com uma distribuição uniforme de correspondências positivas e negativas.
@@ -92,7 +92,7 @@ Depois que o classificador treinado tiver processado amostras positivas suficien
 
 13. Escolha `Add items to test`.
 
-14. Insira o site, a biblioteca e a URL exata do SharePoint Online para o site de conteúdo de teste na etapa 12. Escolha `Add`.
+14. Insira o site, a biblioteca e a URL exata do SharePoint Online para o site de conteúdo de teste da etapa 12. Escolha `Add`.
 
 15. Finalize o assistente escolhendo `Done`. Seu classificador treinado levará até uma hora para processar os arquivos de teste.
 

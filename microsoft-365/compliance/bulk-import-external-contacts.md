@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Saiba como os administradores podem usar o PowerShell do Exchange Online e um arquivo CSV para importar contatos externos para a lista de endereços global em massa.
-ms.openlocfilehash: 272223d9ab61b2c5ae17043cf4523d49da306de9
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 12fc8ec47881ce5cb3dc00a7a646966588bd5cca
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684928"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39630981"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Importação em massa de contatos externos para o Exchange Online
 
@@ -99,7 +99,7 @@ Após executar o comando na etapa 2, os contatos externos são criados, mas não
   
 1.  Conecte o PowerShell à sua organização do Exchange Online. Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. Vá para a pasta da área de trabalho onde você salvou o arquivo CSV na etapa 1; por exemplo `C:\Users\Administrator\desktop`.
+2. Vá para a pasta da área de trabalho onde você salvou o arquivo CSV na etapa 1; por exemplo, `C:\Users\Administrator\desktop`.
     
 3. Execute os dois comandos a seguir para adicionar as outras propriedades do arquivo CSV aos contatos externos que você criou na etapa 2.
     

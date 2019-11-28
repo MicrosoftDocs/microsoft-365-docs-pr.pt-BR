@@ -11,13 +11,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado e você confirmar que os resultados são precisos, use-o para pesquisar o conteúdo de suas organizações, classifique-o para aplicar os rótulos de retenção ou sensibilidade ou inclua-o na prevenção de perda de dados (DLP) ou políticas de retenção.
-ms.openlocfilehash: 6b8574b7c87f0b038c46894940cb8d15b152ab5c
-ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
+description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
+ms.openlocfilehash: 458f7e6c9f15bac71cd3dadf2ed64e1c1f4ef1c5
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38689990"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633860"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -25,7 +25,7 @@ Classificar e rotular o conteúdo para que ele possa ser protegido e manipulado 
 
 ## <a name="manually"></a>Manualmente
 
-Isso requer Judgement e ação humana. Um administrador pode usar os rótulos preexistentes e os tipos de informações confidenciais ou criar seus próprios e publicá-los. Os usuários e administradores aplicam-se ao conteúdo à medida que encontrá-lo. Você pode proteger o conteúdo e gerenciar sua disposição.
+Esse método requer ações e julgamento humana. Um administrador pode usar os rótulos preexistentes e os tipos de informações confidenciais ou criar seus próprios e publicá-los. Os usuários e administradores aplicam-se ao conteúdo à medida que encontrá-lo. Você pode proteger o conteúdo e gerenciar sua disposição.
 
 ## <a name="automated-pattern-matching"></a>Correspondência de padrões automatizados
 
@@ -33,14 +33,14 @@ Esta categoria de mecanismos de classificação inclui localizar conteúdo por:
 
 - Palavras-chave ou valores de metadados (idioma de consulta de palavra-chave)
 - usando padrões identificados anteriormente de informações confidenciais, como segurança social, cartão de crédito ou números de contas bancárias [(tipos de informações confidenciais)](what-the-sensitive-information-types-look-for.md)
-- Reconhecendo um item porque é uma variação em um modelo [(impressão de dedo de documento)](document-fingerprinting.md)
+- Reconhecendo um item porque ele é uma variação em um modelo [(impressão digital de documentos)](document-fingerprinting.md)
 - usando a presença de cadeias de caracteres exatas [(correspondência exata de dados)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
 
 Os rótulos de confidencialidade e retenção podem ser automaticamente aplicados para tornar o conteúdo disponível para uso em [políticas de retenção](retention-policies.md)e [prevenção contra perda de dados (DLP)](data-loss-prevention-policies.md) .
 
 ## <a name="trainable-classifiers"></a>Classificadores estagiários
 
-Esse método de classificação é particularmente adequado ao conteúdo que, por sua natureza, não é predeterminado para ser identificado facilmente pelos métodos de correspondência de padrões manuais ou automatizados. Esse método de classificação é mais sobre o treinamento de um classificador para identificar um item com base no que o item é, não por elementos que estão no item (correspondência de padrão). Um classificador aprende como identificar um tipo de conteúdo procurando por centenas de exemplos do conteúdo que você está interessado em classificar. Para começar, alimentar os exemplos de ti que são definitivamente na categoria e, depois de processá-los, você o testará dando uma mistura de exemplos de correspondência e de não correspondência. O classificador faz previsões como se um determinado item está ou não na categoria que você está criando. Em seguida, você confirma seus resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão de suas previsões. Quando você publica o classificador treinado, ele classifica itens em locais, como o SharePoint Online, o Exchange e o OneDrive e classifica o conteúdo.
+Esse método de classificação é especialmente adequado ao conteúdo que não é facilmente identificado pelos métodos de correspondência de padrões manuais ou automatizados. Esse método de classificação é mais sobre o treinamento de um classificador para identificar um item com base no que o item é, não por elementos que estão no item (correspondência de padrão). Um classificador aprende como identificar um tipo de conteúdo observando centenas de exemplos do conteúdo que você está interessado em classificar. Comece por alimentar exemplos de ti que são definitivamente na categoria. Depois de processar esses, você o testará dando um mix de exemplos de correspondência e de não correspondência. Em seguida, o classificador faz previsões como se um determinado item está na categoria que você está criando. Em seguida, você confirma seus resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão de suas previsões. Quando você publica o classificador treinado, ele classifica itens em locais como o SharePoint Online, o Exchange e o OneDrive e classifica o conteúdo.
 
 > [!IMPORTANT]
 > Os dois tipos de classificadores estão disponíveis como uma condição para [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e [conformidade de comunicação](communication-compliance.md).
@@ -60,11 +60,11 @@ Há pronto para usar classificadores e classificadores estagiários. Obter um cl
 A Microsoft 365 vem com seis classificadores prontos para usar:
 
 - **Linguagem ofensiva**: detecta itens de texto que contêm obscenidades, slurs, taunts e expressões disfarçadas (que são expressões que têm o mesmo significado de um termo mais ofensivo).
-- **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
+- **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato.
 - **SourceCode**: detecta itens que contêm um conjunto de instruções e instruções escritas em linguagens de programação de computador amplamente usadas.
 - **Assédio**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas à conduta ofensiva direcionada uma ou várias pessoas com base nas seguintes características: raça, étnica, Religion, origem nacional, sexo, orientação sexual, idade, deficiência.
-- **Profanação**: detecta uma categoria específica de itens de texto de idioma ofensivo que contêm expressões que constrangim a maioria das pessoas
-- **Ameaça**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade
+- **Profanação**: detecta uma categoria específica de itens de texto de idioma ofensivo que contêm expressões que constrangim a maioria das pessoas.
+- **Ameaça**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade.
 
 Eles aparecem no modo de exibição de classificação de dados do **Centro** > de conformidade da Microsoft 365 **(visualização)** > **classificadores estagiários** com o status de `Ready to use`.
 
@@ -88,7 +88,7 @@ Quando os classificadores prontos para usar não atendem às suas necessidades, 
 
 #### <a name="process-flow-for-creating-trainable-classifiers"></a>Fluxo do processo de criação de classificadores estagiários
 
-A criação e publicação de um classificador treinado para uso em soluções de conformidade, como políticas de retenção e supervisão de comunicação, segue esse fluxo. Para obter mais detalhes sobre como criar um classificador treinado, consulte [criando um classificador treinado](classifier-creating-a-trainable-classifier.md).
+Criar e publicar um classificador treinado para uso em soluções de conformidade, como políticas de retenção e supervisão de comunicação, segue este fluxo. Para obter mais detalhes sobre como criar um classificador treinado, consulte [criando um classificador treinado](classifier-creating-a-trainable-classifier.md).
 
 ![classificador de fluxo de processo de estagiário](media/classifier-trainable-classifier-flow.png)
 

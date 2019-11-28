@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Office 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Office 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
-ms.openlocfilehash: 3319d65f7260a50cdcd38a36b6135a3cc42fb874
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 13e7bcec4d6ce7a04b069552b599e742c8777e8a
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684955"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634008"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -175,30 +175,56 @@ Para obter mais informações sobre rótulos de retenção, consulte [visão ger
 
 ## <a name="managing-mailboxes-on-delay-hold"></a>Gerenciando caixas de correio em espera de atraso
 
-Após qualquer tipo de retenção ser removido de uma caixa de correio, o valor da propriedade de caixa de correio *DelayHoldApplied* é definido como **true**. Isso ocorrerá na próxima vez que o assistente de pasta gerenciada processar a caixa de correio e detectar que uma retenção foi removida. Isso é chamado de espera de *atraso* e significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente (removidos) da caixa de correio. Isso dá aos administradores uma oportunidade de Pesquisar ou recuperar itens de caixa de correio que serão removidos depois que a retenção for removida. Quando um atraso de espera é colocado na caixa de correio, a caixa de correio ainda é considerada em espera por uma duração ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Office 365 tentará automaticamente remover o atraso de espera (definindo a propriedade *DelayHoldApplied* como **false**) para que a retenção seja removida. Após a propriedade *DelayHoldApplied* como **false**, os itens marcados para remoção serão removidos na próxima vez que a caixa de correio for processada pelo assistente de pasta gerenciada.
+Após qualquer tipo de retenção ser removido de uma caixa de correio, uma *espera de atraso* é aplicada. Isso significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente (removidos) da caixa de correio. Isso dá aos administradores uma oportunidade de Pesquisar ou recuperar itens de caixa de correio que serão removidos após a remoção de uma retenção. Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true**:
 
-Para exibir o valor da propriedade *DelayHoldApplied* de uma caixa de correio, execute o seguinte comando no PowerShell do Exchange Online.
+- **DelayHoldApplied:** Essa propriedade se aplica a conteúdo relacionado a email (gerado por pessoas que usam o Outlook e o Outlook na Web) que está armazenado na caixa de correio de um usuário.
+
+- **DelayReleaseHoldApplied:** Essa propriedade se aplica a conteúdo baseado em nuvem (gerado por aplicativos que não são do Outlook, como o Microsoft Teams, o Microsoft Forms e o Microsoft Yammer) que é armazenado na caixa de correio de um usuário. Os dados de nuvem gerados por um aplicativo da Microsoft geralmente são armazenados em uma pasta oculta da caixa de correio de um usuário.
+ 
+ Quando uma espera de atraso é colocada na caixa de correio (quando qualquer uma das propriedades anteriores é definida como **true**), a caixa de correio ainda é considerada em espera por uma duração de retenção ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Office 365 tentará automaticamente remover o atraso de espera (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **false**) para que a retenção seja removida. Após qualquer uma dessas propriedades ser definida como **false**, os itens correspondentes marcados para remoção serão removidos na próxima vez que a caixa de correio for processada pelo assistente de pasta gerenciada.
+
+Para exibir os valores das propriedades DelayHoldApplied e DelayReleaseHoldApplied para uma caixa de correio, execute o seguinte comando no PowerShell do Exchange Online.
 
 ```powershell
-Get-Mailbox <username> | FL DelayHoldApplied
+Get-Mailbox <username> | FL *HoldApplied*
 ```
 
-Para remover o atraso antes da expiração, você pode executar o seguinte comando no PowerShell do Exchange Online: 
+Para remover o atraso antes da expiração, você pode executar um (ou ambos) os seguintes comandos no PowerShell do Exchange Online, dependendo da propriedade que você deseja alterar: 
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-Você deve receber a função de retenção legal no Exchange Online para usar o parâmetro *RemoveDelayHoldApplied* 
+Ou
+ 
+```powershell
+Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
+```
 
-Para remover o atraso de espera em uma caixa de correio inativa, execute o seguinte comando no PowerShell do Exchange Online:
+Você deve receber a função de retenção legal no Exchange Online para usar os parâmetros *RemoveDelayHoldApplied* ou *RemoveDelayReleaseHoldApplied* . 
+
+Para remover o atraso de espera em uma caixa de correio inativa, execute um dos seguintes comandos no PowerShell do Exchange Online:
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
+Ou
+
+```powershell
+Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied
+```
+
 > [!TIP]
 > A melhor maneira de especificar uma caixa de correio inativa no comando anterior é usar seu nome distinto ou valor de GUID do Exchange. O uso de um desses valores ajuda a evitar a especificação acidental da caixa de correio errada. 
+
+Para obter mais informações sobre como usar esses parâmetros para gerenciar suspensões de atraso, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+
+Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso de espera:
+
+- Se a propriedade DelayHoldApplied ou DelayReleaseHoldApplied estiver definida como **true** e uma caixa de correio (ou a conta de usuário do Office 365 correspondente) for excluída, a caixa de correio se tornará uma caixa de correio inativa. Isso ocorre porque uma caixa de correio é considerada em espera se a propriedade for definida como **true**e a exclusão de uma caixa de correio em espera resultar em uma caixa de correio inativa. Para excluir uma caixa de correio e não torná-la inativa, você precisa definir ambas as propriedades como **false**.
+
+- Como declarado anteriormente, uma caixa de correio é considerada como em espera para uma duração de retenção ilimitada se a propriedade DelayHoldApplied ou DelayReleaseHoldApplied estiver definida como **true**. No entanto, isso não significa que *todo* o conteúdo da caixa de correio seja preservado. Ele depende do valor que é definido para cada propriedade. Por exemplo, digamos que ambas as propriedades estejam definidas como **true** porque as isenções são removidas da caixa de correio. Em seguida, você remove apenas a espera de atraso aplicada a dados de nuvem não-Outlook (usando o parâmetro *RemoveDelayReleaseHoldApplied* ). Na próxima vez que o assistente de pasta gerenciada processa a caixa de correio, os itens não-Outlook marcados para remoção são removidos. Qualquer item do Outlook marcado para remoção não será limpo porque a propriedade DelayHoldApplied ainda está definida como **true**. O oposto também seria true: se DelayHoldApplied estiver definido como **false** e DelayReleaseHoldApplied estiver definido como **true**, somente os itens do Outlook marcados para remoção serão removidos.
 
 ## <a name="next-steps"></a>Próximas etapas
 

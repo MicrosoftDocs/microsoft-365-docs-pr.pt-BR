@@ -14,16 +14,26 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fc198bd5aa042cad2aadbe35ae4f19f66effe2bf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 51f242408e749e7d9bde60a9d462d4a9156f68fc
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071925"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633580"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
-A tabela a seguir lista os campos de metadados para documentos em uma revisão definida em um caso na descoberta eletrônica avançada. A tabela indica o nome do campo de metadados, se o campo pode ser pesquisado durante a execução de uma consulta em um conjunto de revisão, se o campo está presente ao exibir os metadados de arquivo de um documento selecionado em um conjunto de revisão e se o campo é incluído quando os documentos a re-exportado.
+A tabela a seguir lista os campos de metadados para documentos em uma revisão definida em um caso na descoberta eletrônica avançada. A tabela fornece as seguintes informações:
+
+- O nome do campo de metadados (na coluna **nome do campo** ).
+
+- O nome da propriedade que você pode pesquisar ao executar uma consulta de [conjunto de revisão](review-set-search.md) (na coluna **nome do campo pesquisável** ). Uma célula em branco significa que você não pode pesquisar o campo em uma consulta de conjunto de revisão.
+
+- O nome do campo de metadados que inclui quando os documentos são exportados (na coluna **nome do campo exportado** ).  Uma célula em branco significa que o campo meta data não está incluído nos metadados exportados.
+
+- O nome do campo de metadados que é exibido ao exibir os metadados de arquivo de um documento selecionado em um conjunto de revisão (na coluna **exibir nome do campo** ). Uma célula em branco significa que o campo meta dados não está incluído ao exibir os metadados de arquivo de um documento.
+
+- Uma descrição do campo meta dados (na **coluna Descrição**).
 
 | Nome do campo | Nome do campo pesquisável | Nome do campo exportado | Nome do campo de exibição | Descrição |
 | :- |  :- |  :- |  :- |  :- |
@@ -44,7 +54,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 | Tempo de gravação da redação da conversa | ConversationRedactionBurnTime |  | Tempo de gravação da redação da conversa | Data em que a versão do PDF da conversa foi criada para o chat. |
 | Data de criação do documento | Createdtime | Doc_date_created | Data de criação do documento | Criar data a partir de metadados de documento. |
 | Custodian | Custodian | Custodian | Custodian | Nome dos responsáveis com os quais o item foi associado. |
-| Data | Data | Data | Data | Data é um campo computado que depende do tipo de arquivo.<br />**Email**: data de envio<br />**Anexos de email**: data da última modificação do documento, se não estiver disponível, a data de envio do pai<br />**Documentos incorporados**: data da última modificação do documento, se não estiver disponível, a data da última modificação do pai.<br />**Documentos do SPO (inclui anexos modernos)**: data da última modificação do SharePoint, se não estiver disponível, a data da última modificação dos documentos<br />**Documentos não pertencentes ao Office**: data da última modificação<br />**Reuniões**: data de início da reunião<br />**Caixa postal**: data de envio<br />**Im**: data de envio. |
+| Data | Data | Data | Data | Data é um campo computado que depende do tipo de arquivo.<br />**Email**: data de envio<br />**Anexos de email**: data da última modificação do documento, se não estiver disponível, a data de envio do pai<br />**Documentos incorporados**: data da última modificação do documento, se não estiver disponível, a data da última modificação do pai.<br />**Documentos do SPO (inclui anexos modernos)**: data da última modificação do SharePoint, se não estiver disponível, a data da última modificação dos documentos<br />**Documentos que não são do Office**: data da última modificação<br />**Reuniões**: data de início da reunião<br />**Caixa postal**: data de envio<br />**Im**: data de envio. |
 | Outros caminhos | Dedupedcompoundpath | Deduped_compound_path | Outros caminhos | Lista de caminhos compostos de documentos que são duplicatas exatas (email: com base no conteúdo, documentos: com base no hash). |
 | Outros responsáveis | DedupedCustodians | Deduped_custodians | Outros responsáveis | Lista de responsáveis por documentos que são duplicatas exatas (por email: com base no conteúdo; para documentos: com base no hash). |
 | Outras IDs de arquivo | DedupedFileIds | Deduped_file_IDs | Outras IDs de arquivo | Lista de IDs de arquivo de documentos que são duplicatas exatas (para email: com base no conteúdo; para documentos: com base no hash). |
@@ -72,10 +82,10 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 | ExtractedTextLength |  | Extracted_text_length |  | Número de caracteres no texto extraído. |
 | Pontos de relevância da família-problema de caso 1 |  | Family_relevance_score_case_issue_1 |  | Pontuação de relevância da família caso o problema 1 de relevância. |
 | FamilyDuplicateSet |  | Family_duplicate_set |  | Identificador numérico para famílias que são duplicatas exatas entre si (mesmo conteúdo e todos os mesmos anexos). |
-| ID da família | FamilyId | Family_ID | ID da família | Grupos de ID de família juntos todos os itens; para email, isso inclui a mensagem e todos os anexos; para documentos, inclua o documento e todos os itens incorporados. |
+| ID da família | FamilyId | Family_ID | ID da família | Grupos de ID de família juntos todos os itens; para email, isso inclui a mensagem e todos os anexos; para documentos, isso inclui o documento e todos os itens incorporados. |
 | Tamanho da família |  | Family_size | Tamanho da família | Número de documentos na família. |
 | Nota de relevância de arquivo problema de caso 1 |  | File_relevance_score_case_issue_1 |  | Pontuação de relevância de arquivo caso problema 1 de relevância. |
-| Classe de arquivo | Fileclass | File_class | Classe de arquivo | Para conteúdo do SharePoint e do OneDrive: **Document**; para o conteúdo do Exchange: **email**ou **anexo**. |
+| Classe de arquivo | Fileclass | File_class | Classe de arquivo | Para conteúdo do SharePoint e do OneDrive: **Document**; para o conteúdo do Exchange: * * email ou **anexo**. |
 | ID de arquivo | FileId | File_ID | ID de arquivo | Identificador de documento exclusivo no caso.|
 | Data do sistema de arquivos criada |  | File_system_date_created | Data do sistema de arquivos criada | Data de criação do sistema de arquivos (só se aplica a dados não-Office 365). |
 | Data do sistema de arquivos modificada |  | File_system_date_modified | Data do sistema de arquivos modificada | Data de modificação do sistema de arquivos (só se aplica a dados não-Office 365). |
@@ -83,11 +93,11 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 | Tem anexo | HasAttachment | Email_has_attachment | Tem anexo | Indica se a mensagem tem ou não anexos. |
 | O advogado é | HasAttorney |  | O advogado é | True quando pelo menos um dos participantes é encontrado na lista advogado; caso contrário, o valor será false. |
 | HasText |  | Has_text |  | Indica se o item tem ou não texto, valores possíveis são true e false. |
-| ID imutável | Imutávelid | Immutable_ID | ID imutável | ID imutável, conforme armazenado no Office 365. |
+| ID Imutável | Imutávelid | Immutable_ID | ID Imutável | ID imutável, conforme armazenado no Office 365. |
 | Tipo inclusivo | Inclusivtype | Inclusive_type | Tipo inclusivo | Tipo inclusivo calculado para análise: **0** -não inclusivo; **1** -inclusive; **2** – menos inclusivo; cópia **3** incluindo. |
 | Em responder à ID |  | In_reply_to_ID | Em responder à ID | Em resposta à ID da mensagem. |
 | É representante | Isrepresentativo | Is_representative | É representante | Um documento em cada conjunto de duplicatas exatas é marcado como representante. |
-| Classe de item | ItemClass | Item_class | Classe de item | Classe de item fornecida pelo Exchange Server; por exemplo **IPM. Observação** |
+| Classe de item | ItemClass | Item_class | Classe de item | Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação** |
 | Last modified date | LastModifiedDate | Doc_date_modified | Last modified date | Data da última modificação dos metadados do documento. |
 | ID de carregamento | Loadid | Load_ID | ID de carregamento | ID de carregamento, no qual o item foi carregado em um conjunto de revisão. |
 | Locais | Locais | Locais | Locais | Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados;<br />Dados importados não-O365 ><br />Equipes > Teams<br />EXO-> Exchange<br />SPO-> SharePoint<br />OneDrive for Business-> OneDrive |
@@ -129,19 +139,19 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 | Pontuação de relevância | RelevanceScore |  | Pontuação de relevância | Pontuação de relevância de um documento com base na relevância. |
 | Marca de relevância | RelevanceTag |  | Marca de relevância | Pontuação de relevância de um documento com base na relevância. |
 | ID do representante | Representativo |  | ID do representante | Identificador numérico de cada conjunto de duplicatas exatas. |
-| Sender | Sender | Email_sender | Sender | Campo remetente (de) para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
+| Remetente | Remetente | Email_sender | Remetente | Campo remetente (de) para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
 | Remetente/autor | SenderAuthor |  | Remetente/autor | Campo calculado composto pelo remetente ou autor do item. |
 | Domínio do remetente | SenderDomain | Email_sender_domain | Domínio do remetente | Domínio do remetente. |
 | Sent | Sent | Email_date_sent | Sent | Data de envio da mensagem. |
 | Definir ordem: inclusivo primeiro | SetOrderInclusivesFirst | Set_order_inclusives_first | Definir ordem: inclusive primeiro. | Campo de classificação-email e anexos: contador-cronológico, documentos: tabela dinâmica primeiro, por Pontuação de similaridade, decrescente. |
 | SimilarityPercent |  | Similarity_percent |  | Indica a aparência de um documento para a tabela dinâmica do conjunto próximo duplicado. |
 | Tamanho do arquivo nativo | Tamanho | Native_size | Tamanho do arquivo nativo | Número de bytes do item nativo. |
-| Subject | Subject | Email_subject | Subject | Assunto da mensagem. |
+| Assunto | Assunto | Email_subject | Assunto | Assunto da mensagem. |
 | Assunto/título | SubjectTitle |  | Assunto/título | Campo calculado composto pelo assunto ou título do item. |
 | Marcado por problema de caso 1 |  | Tagged_by_Case_issue_1 |  | Usuário que marcou este documento para o problema de caso 1, em relevância. |
 | Marcações | Marcações | Marcações | Marcações | Marcas aplicadas em um conjunto de revisão. |
 | Lista de temas | Themelist | Themes_list | Lista de temas | Lista de temas conforme calculado para análise. |
-| Título | Título | Doc_title | Título | Título dos metadados do documento. |
+| Cargo | Cargo | Doc_title | Cargo | Título dos metadados do documento. |
 | To | To | Email_to | To | Campo para para tipos de mensagem.  Format é **DisplayName\<SmtpAddress>** |
 | Exclusivo no conjunto de emails | UniqueInEmailSet |  | Exclusivo no conjunto de emails | False se houver uma duplicata do anexo em seu conjunto de emails. |
 | Foi corrigido | WasRemediated | Was_Remediated | Foi corrigido | True se o item foi corrigido, caso contrário, false. |
@@ -149,4 +159,4 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 ||||||
 
   > [!NOTE]
-  > Para obter mais informações sobre campos pesquisáveis ao pesquisar diretamente no Office 365, consulte as [consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo](keyword-queries-and-search-conditions.md)
+  > Para obter mais informações sobre as propriedades pesquisáveis ao pesquisar os locais de conteúdo do Office 365 quando você estiver coletando dados para um caso de descoberta eletrônica avançada, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).

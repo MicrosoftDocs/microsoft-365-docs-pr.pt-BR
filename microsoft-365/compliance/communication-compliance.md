@@ -16,22 +16,22 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre conformidade de comunicação no Microsoft 365
-ms.openlocfilehash: 3765e8236b319eaadc543782f2254aefaa8914a2
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 8c8e94209d2db575dd8338afa6f4c5c968033683
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684749"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633660"
 ---
 # <a name="communication-compliance-in-microsoft-365-preview"></a>Conformidade de comunicação no Microsoft 365 (versão prévia)
 
-A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails, Microsoft Teams ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
+A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams ou comunicações de terceiros em sua organização e tomar ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 
 As políticas de conformidade de comunicação no Microsoft 365 ajudam a superar muitos desafios modernos associados à conformidade e às comunicações internas e externas, incluindo:
 
 - Verificação de aumento de tipos de canais de comunicação
 - O aumento do volume de dados da mensagem
-- A imposição normativa & o risco de multas
+- Aplicação de regulamentações e risco de multas
 
 Em algumas organizações, pode haver uma separação de tarefas entre o suporte de ti e o grupo de gerenciamento de conformidade. A Microsoft 365 oferece suporte à separação entre a configuração de conformidade de comunicação e a configuração de políticas para a verificação de comunicações. Por exemplo, o grupo de ti de uma organização pode ser responsável por configurar permissões e grupos de função para dar suporte a políticas de conformidade de comunicação configuradas e gerenciadas pela equipe de conformidade da organização.
 
@@ -49,7 +49,7 @@ As políticas de conformidade de comunicação podem ajudar na revisão de mensa
 
 - **Conformidade normativa**
 
-    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações dos funcionários e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor de seus revendedores em sua organização para proteger contra possíveis atividades de dinheiro-Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas.
+    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações dos funcionários e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor para o revendedor em sua organização para proteger contra possíveis atividades de dinheiro Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas.
 
 ## <a name="new-enhancements"></a>Novos aprimoramentos
 
@@ -79,7 +79,7 @@ Os fluxos de trabalho de correção internos permitem que você identifique rapi
 - **Detecção de duplicidades exatas e próximas**: além da verificação de termos exatas que correspondam a políticas de conformidade de comunicação, os grupos de detecção de duplicidades próximos, termos e mensagens parecidas em conjunto para ajudar a acelerar o processo de revisão.
 - **Novos filtros**: investigue e corrija alertas de política mais rapidamente com filtros de mensagem para vários campos, incluindo remetente, destinatário, data, domínios e muito mais.
 - **Visualizações de mensagens aprimoradas**: as ações de investigação e correção agora são mais rápidas com novas exibições de fonte de mensagens, de texto e de anotações. Os anexos de mensagem agora são visíveis para fornecer contexto completo ao realizar ações de correção.
-- **Exibição de histórico do usuário**: modo de exibição histórico de todas as atividades de correção de mensagens do usuário, como notificações e escalonamentos passados para correspondências de política, agora fornecem aos revisores mais contexto durante o processo de fluxo de trabalho de correção. As instâncias de primeira vez ou de repetição das correspondências de política para os usuários agora estão arquivadas e facilmente visíveis.
+- **Exibição de histórico do usuário**: o modo de exibição histórico de todas as atividades de correção de mensagens do usuário, como notificações e escalonamentos passados para correspondências de política, agora fornece aos revisores mais contexto durante o processo de fluxo de trabalho de correção. As instâncias de primeira vez ou de repetição das correspondências de política para usuários são agora arquivadas e facilmente visíveis.
 
 ### <a name="actionable-insights"></a>Informações acionáveis
 
@@ -126,14 +126,14 @@ Nesta etapa, você tem uma visão mais profunda dos problemas detectados como co
 - **Alertas**: quando uma mensagem corresponde a uma política de supervisão, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se um caso é atribuído e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
 - **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem
 - **Revisão de documentos**: durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
-- **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados para correspondências de política.
+- **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.
 - **Filtros**: Use filtros como remetente, destinatário, data e assunto para restringir rapidamente os alertas de mensagem que você deseja examinar.
 
 ### <a name="remediate"></a>Corrigir
 
 A próxima etapa é corrigir problemas de conformidade de comunicação que você investigou usando as seguintes opções:
 
-- **Resolver**: após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso a um funcionário sobre o alerta ou abertura de um novo caso para o alerta.
+- **Resolver**: após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente, e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso a um funcionário sobre o alerta ou abertura de um novo caso para o alerta.
 - **Marcar uma mensagem**: como parte da resolução de um problema, é possível marcar a mensagem detectada como compatível, não compatível ou como questionável, pois ela se relaciona com as políticas e os padrões da sua organização. A marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos.
 - **Notificar o usuário**: frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
 - **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.

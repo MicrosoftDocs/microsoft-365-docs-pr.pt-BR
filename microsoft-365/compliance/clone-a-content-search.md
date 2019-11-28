@@ -12,25 +12,25 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
-description: Use o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente no centro de conformidade no Office 365 ou no Microsoft 365. Quando uma pesquisa é clonada, uma nova pesquisa (com um novo nome) é criada e contém as mesmas propriedades da pesquisa original. Em seguida, você pode editar a nova pesquisa (alterando a consulta de palavra-chave ou o intervalo de datas) e, em seguida, executá-la.
-ms.openlocfilehash: 25aa5d6a1ba19f697a6ccf474e055faf6a19d6bd
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+description: Use o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente no centro de conformidade no Office 365 ou no Microsoft 365. Quando você clona uma pesquisa, uma nova pesquisa (com um novo nome) é criada e contém as mesmas propriedades da pesquisa original. Em seguida, você pode editar a nova pesquisa alterando a palavra-chave de consulta ou o intervalo de datas e, em seguida, execute-a.
+ms.openlocfilehash: 87d9c75dc0a2b58b95ad6f2aaeb6c55f178e515f
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684944"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633840"
 ---
 # <a name="clone-a-content-search"></a>Clonar uma Pesquisa de Conteúdo
 
-Criar uma pesquisa de conteúdo no centro de conformidade no Office 365 ou no Microsoft 365 que pesquisa muitas caixas de correio ou sites do SharePoint e do OneDrive for Business pode levar algum tempo. A especificação dos sites a serem pesquisados também pode ser propensa a erros se você digitar indigitou uma URL. Para evitar esses problemas, você pode usar o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente. Quando uma pesquisa é clonada, uma nova pesquisa (com um nome diferente) é criada, contendo as mesmas propriedades (como os locais de conteúdo e a consulta de pesquisa) como a pesquisa original. Em seguida, você pode editar a nova pesquisa (alterando a consulta de palavra-chave ou o intervalo de datas) e executá-la.
+Criar uma pesquisa de conteúdo no centro de conformidade no Office 365 ou Microsoft 365 que pesquisa muitas caixas de correio ou sites do OneDrive for Business pode levar algum tempo. A especificação dos sites a serem pesquisados também pode ser propensa a erros se você digitar indigitou uma URL. Para evitar esses problemas, você pode usar o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente. Quando você clona uma pesquisa, uma nova pesquisa (com um nome diferente) é criada, contendo as mesmas propriedades (como os locais de conteúdo e a consulta de pesquisa) como a pesquisa original. Em seguida, você pode editar a nova pesquisa alterando a palavra-chave de consulta ou o intervalo de datas e executá-la.
   
 Por que clonar pesquisas de conteúdo?
   
 - Para comparar os resultados das diferentes consultas de pesquisa de palavras-chave executadas nos mesmos locais de conteúdo.
     
-- Para evitar que você insira novamente um grande número de locais de conteúdo ao criar uma nova pesquisa.
+- Para evitar que você reinsira um grande número de locais de conteúdo ao criar uma nova pesquisa.
     
-- Para diminuir o tamanho dos resultados da pesquisa; por exemplo, se você tiver uma pesquisa que retorne muitos resultados para exportação, você pode clonar a pesquisa e, em seguida, adicionar um critério de pesquisa com base em um intervalo de datas para reduzir o número de resultados da pesquisa.
+- Para diminuir o tamanho dos resultados da pesquisa. Por exemplo, se você tiver uma pesquisa que retorne muitos resultados para exportação, você pode clonar a pesquisa e, em seguida, adicionar um critério de pesquisa com base em um intervalo de datas para reduzir o número de resultados da pesquisa.
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -132,11 +132,11 @@ Para clonar uma pesquisa:
     
     - O nome da nova pesquisa.
     
-    O script cria a nova pesquisa de conteúdo, mas não a inicia. Isso lhe dá a oportunidade de editar e executar a pesquisa na próxima etapa. Você pode exibir as propriedades da nova pesquisa executando o cmdlet **Get-ComplianceSearch** ou indo para a página de **pesquisa de conteúdo** ou **descoberta eletrônica** no centro de conformidade, dependendo se a nova pesquisa está ou não associada a um caso. 
+    O script cria a nova pesquisa de conteúdo, mas não a inicia. Isso lhe dá a oportunidade de editar e executar a pesquisa na próxima etapa. Você pode exibir as propriedades da nova pesquisa executando o cmdlet **Get-ComplianceSearch** ou indo para a página de **pesquisa de conteúdo** ou **descoberta eletrônica** no centro de conformidade, dependendo se a nova pesquisa está associada a um caso. 
   
 ## <a name="step-2-edit-and-run-the-cloned-search-in-the-compliance-center"></a>Etapa 2: editar e executar a pesquisa clonada no centro de conformidade
 
-Depois de executar o script para clonar uma pesquisa de conteúdo existente, a próxima etapa é usar o centro de conformidade para editar e executar a nova pesquisa. Conforme mencionado anteriormente, você pode editar uma pesquisa, alterando a consulta de pesquisa de palavra-chave e adicionando ou removendo condições de pesquisa. Para saber mais, confira:
+Depois de executar o script para clonar uma pesquisa de conteúdo existente, a próxima etapa é acessar o centro de conformidade para editar e executar a nova pesquisa. Conforme mencionado anteriormente, você pode editar uma pesquisa, alterando a consulta de pesquisa de palavra-chave e adicionando ou removendo condições de pesquisa. Para saber mais, veja:
   
 - [Pesquisa de Conteúdo no Office 365](content-search.md)
     

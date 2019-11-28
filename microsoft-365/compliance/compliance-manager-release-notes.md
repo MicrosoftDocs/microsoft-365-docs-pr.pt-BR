@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 1f233a6bc19f4a7afa495f49ad77e39e496c1dc5
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: bc702778fc135429067352cac824a31c0b60a406
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202162"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633630"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>Notas de versão do Gerenciador de conformidade (visualização)
 
@@ -44,11 +44,11 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 
 ### <a name="compliance-score"></a>Pontuação de conformidade
 
-- Para itens de ação marcados como **não no escopo**, a pontuação atribuída ao item de ação não é excluída do cálculo da Pontuação de conformidade. Itens de ação marcados **não no escopo** não aumentam sua pontuação de conformidade.
+- Para itens de ação marcados como **não no escopo**, a pontuação atribuída ao item de ação não é excluída do cálculo da Pontuação de conformidade. Itens de ação marcados **não no escopo** não aumentam a pontuação de conformidade.
 
 ### <a name="secure-score"></a>Classificação de Segurança
 
-- Resultados de Pontuação segura não estão disponíveis para alguns itens de ações em determinadas assinaturas do Microsoft 365 e do Office 365. **Não foi possível detectar** o resultado da Pontuação segura nesses casos.
+- Resultados de pontos de segurança não estão disponíveis para alguns itens de ações em determinadas assinaturas do Microsoft 365 e do Office 365. **Não foi possível detectar** o resultado da Pontuação segura nesses casos.
 - Às vezes, os resultados de Pontuação segura são retornados para políticas correspondentes e itens de ação não concluídos.
 - Para novos locatários, as atualizações de Pontuação segura para todas as ações são automaticamente ativadas. O administrador global pode definir a opção de atualização contínua de Pontuação segura como desativada, o que desativa as atualizações de todas as ações.
   - **Observação**: quando as organizações implantam pela primeira vez o Microsoft 365 ou o Office 365, leva aproximadamente sete dias para uma pontuação segura para coletar dados completamente e fatorar sua pontuação. Durante esse tempo, definir a opção de atualização contínua de Pontuação segura como **desativado** e definir manualmente uma ação a ser **implementada** contará essa ação em direção à sua pontuação. Após os sete dias iniciais, a ativação da atualização contínua de Pontuação segura habilitará o monitoramento contínuo desse ponto em diante.
@@ -74,7 +74,7 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 
 - Ao criar um modelo, você deve incluir as dimensões de **produto** e **certificação** para garantir que seu modelo seja exibido na pontuação de conformidade.
 - Os modelos arquivados são editáveis e não devem ser editáveis.
-- Os modelos bloqueados permitem a criação da avaliação, quando não deveriam. Bloquear um modelo é destinado a impedir que ele seja usado para criar avaliações.
+- Os modelos bloqueados permitem a criação da avaliação quando não deveriam. Bloquear um modelo é destinado a impedir que ele seja usado para criar avaliações.
 
 ### <a name="export"></a>Exportar
 
@@ -83,7 +83,7 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 ### <a name="supported-browsers"></a>Navegadores com suporte
 
 - As versões mais recentes do Microsoft Edge, do Chrome e do Safari são suportadas.
-- Pode haver casos em que os dados atualizados não aparecem até que seu navegador seja atualizado.
+- Pode haver casos em que os dados atualizados não são exibidos até que seu navegador seja atualizado.
 - A versão de visualização do Microsoft Edge não é suportada, mas não tem problemas conhecidos.
 - Não há suporte para o Internet Explorer.
 
