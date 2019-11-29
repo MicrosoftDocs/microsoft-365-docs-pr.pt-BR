@@ -8,20 +8,25 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Saiba mais sobre como atender aos requisitos de RGPD no SharePoint Server local.
-ms.openlocfilehash: 6da9d635506eafc2b976cf6a87f68370f40e327a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dba20f2f85bc9a474b39e427ed2628a2f9c9f437
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071885"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39625371"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>RGPD para SharePoint Server
+
+Aplicável a:
+- SharePoint Server 2013
+- SharePoint Server 2016
+- SharePoint Server 2019
 
 Como parte da proteção de informações pessoais, recomendamos o seguinte:
 
 -   Classifique seus dados usando a Proteção de Informações do Azure.
 
--   Execute o SharePoint Server em uma configuração de privilégios mínimos. Consulte [Planejamento para administração de privilégios mínimos no SharePoint Server](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) e [Segurança para o SharePoint Server](https://docs.microsoft.com/pt-BR/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) para saber mais.
+-   Execute o SharePoint Server em uma configuração de privilégios mínimos. Consulte [Planejamento para administração de privilégios mínimos no SharePoint Server](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) e [Segurança para o SharePoint Server](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) para saber mais.
 
 -   [Habilite a criptografia BitLocker em seus servidores](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server).
 
@@ -35,7 +40,7 @@ A abordagem básica recomendada para o conteúdo gerado pelo usuário em sites e
 
 A abordagem recomendada para compartilhamentos de arquivos e sites do SharePoint inclui estas etapas:
 
-1.  **[Instale e configure o verificador da Proteção de Informações do Azure.](https://docs.microsoft.com/pt-BR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[Instale e configure o verificador da Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Decida quais tipos de dados confidenciais usar.
 
@@ -65,7 +70,7 @@ A abordagem recomendada para compartilhamentos de arquivos e sites do SharePoint
 
 Ao aplicar rótulos em dados confidenciais, certifique-se de usar um rótulo que não esteja configurado com proteção. Isso inclui criptografia que impeça que os serviços detectem dados confidenciais nos arquivos.
 
-Saiba mais sobre como usar o verificador da Proteção de Informações do Azure para localizar e rotular dados pessoais no [Microsoft GDPR Data Discovery Toolkit](http://aka.ms/gdprpartners) (http://aka.ms/gdprpartners).
+Saiba mais sobre como usar o verificador da Proteção de Informações do Azure para localizar e rotular dados pessoais no [Microsoft GDPR Data Discovery Toolkit](https://aka.ms/gdprpartners) (https://aka.ms/gdprpartners).
 
 Consulte informações sobre como configurar o verificador para analisar condições e os tipos de informações confidenciais para prevenção contra perda de dados (DLP) do Office 365 em [Como configurar as condições de classificação automática e recomendada para a Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification). Observe que os novos tipos de informações confidenciais do Office 365 não estarão disponíveis imediatamente para usar com o verificador e tipos de informações confidenciais personalizados não podem ser usados com o verificador.
 
@@ -85,7 +90,7 @@ A remoção de informações pessoais (como metadados ou comentários em um docu
 
 ### <a name="uls-logs"></a>Logs do ULS
 
-O Serviço de Log Unificado (ULS) e o Log de uso no SharePoint Server acompanham diversas funções de sistema e podem conter informações do usuário. Logs do ULS e logs de uso são arquivos de texto e podem ser pesquisados usando diversas ferramentas de pesquisa. O [cmdlet Merge-SPLogFile do PowerShell](https://docs.microsoft.com/pt-BR/powershell/module/sharepoint-server/merge-splogfile) fornece uma maneira de retornar os registros dos logs do ULS em vários servidores de um farm.
+O Serviço de Log Unificado (ULS) e o Log de uso no SharePoint Server acompanham diversas funções de sistema e podem conter informações do usuário. Logs do ULS e logs de uso são arquivos de texto e podem ser pesquisados usando diversas ferramentas de pesquisa. O [cmdlet Merge-SPLogFile do PowerShell](https://docs.microsoft.com/powershell/module/sharepoint-server/merge-splogfile) fornece uma maneira de retornar os registros dos logs do ULS em vários servidores de um farm.
 
 Considere configurar as políticas de retenção de logs para o valor mínimo necessário para seus objetivos de negócios. Consulte informações sobre como configurar o registro em log no SharePoint Server em [Configurar o registro de diagnóstico no SharePoint Server](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging).
 

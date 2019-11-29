@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 43ab1083ad028ee53ad355a84fda17b02decbc70
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 4a43573893ecc16539810cfcfe85c8df469d06dd
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "39233514"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634038"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -58,6 +58,8 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 - Atividade de administradores e analistas do Microsoft Workplace Analytics
 
 - Atividade de usuários e administradores do Microsoft PowerApps
+
+- Atividade de usuários e administradores do Microsoft Forms
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -125,7 +127,9 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
   |SharePoint Online e OneDrive for Business|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Sway||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Workplace Analytics|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Yammer||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Yammer||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Forms|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  ||||
 
 - O Azure Active Directory (Azure AD) é o serviço de diretório do Office 365. O log de auditoria unificado contém atividades de usuários, grupos, aplicativos, domínios e atividades de diretórios realizadas no Microsoft 365 ou no portal de gerenciamento do Azure. Para obter uma lista completa de eventos do Azure AD, confira [Eventos de Relatório de Auditoria do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=616549).
 
@@ -302,7 +306,7 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades do Yammer](#yammer-activities)|
 |[Atividades do Fluxo da Microsoft](#microsoft-flow-activities)|[Atividades do Microsoft PowerApps](#microsoft-powerapps)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
-[Atividades de administradores do Exchange](#exchange-admin-audit-log)|||
+|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
@@ -776,6 +780,43 @@ Você pode pesquisar o log de auditoria de atividades relacionadas a aplicativos
 ### <a name="microsoft-stream-activities"></a>Atividades do Microsoft Stream
 
 Você pode pesquisar o log de auditoria para atividades no Microsoft Stream. Essas atividades incluem atividades de vídeo executadas por usuários, atividades de canal de grupo e atividades de administração, como gerenciar usuários, gerenciar as configurações da organização e exportar relatórios. Para obter uma descrição dessas atividades, confira a seção "Atividades registradas no Microsoft Stream em [Logs de auditoria do Microsoft Stream](https://docs.microsoft.com/stream/audit-logs).
+
+### <a name="microsoft-forms-activities"></a>Atividades do Microsoft Forms
+
+A tabela a seguir lista as atividades de usuários e administradores no Microsoft Forms que estejam conectados ao log de auditoria do Office 365. O Microsoft Forms é uma ferramenta de formulários/testes/pesquisa usada para coletar dados para análise. 
+
+Onde indicado abaixo nas descrições, algumas operações contêm parâmetros adicionais de atividade.
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Comentário criado|CreateComment|O proprietário do formulário adiciona um comentário ou pontuação a um teste.|
+|Formulário criado|CreateForm|O proprietário do formulário cria um novo formulário.|
+|Formulário editado|EditForm|O proprietário do formulário edita um formulário criando, removendo ou editando uma pergunta. <br><br>A propriedade EditOperation:string indica o nome da operação de edição. As possíveis operações são: CreateQuestion, CreateQuestionChoice, DeleteQuestion, DeleteQuestionChoice, DeleteFormImage, DeleteQuestionImage, UpdateQuestion, UpdateQuestionChoice, UploadFormImage/Bing/Onedrive, UploadQuestionImage e ChangeTheme.  <br><br>A maioria dos nomes de operação são auto-explicativos. <br><br>FormImage inclui qualquer lugar dentro do Forms que o usuário pode carregar uma imagem, como em uma consulta ou como um tema de plano de fundo.|
+|Formulário movido|MoveForm|O proprietário do formulário move um formulário. <br><br>A propriedade DestinationUserId:string indica a ID de usuário da pessoa que moveu o formulário. A propriedade NewFormId:string é a nova ID do formulário copiado recentemente.|
+|Formulário excluído |DeleteForm|O proprietário do formulário exclui um formulário. Isso inclui SoftDelete (opção de exclusão usada e o formulário é movido para a lixeira) e HardDelete (a lixeira é esvaziada).|
+|Formulário exibido (tempo de design)|ViewForm|O proprietário do formulário abre um formulário existente para edição.|
+|Formulário visualizado|PreviewForm|O proprietário do formulário visualiza um formulário usando a função Visualização.|
+|Formulário exportado|ExportForm|O proprietário do formulário exporta os resultados para o Excel. <br><br>A propriedade ExportFormat:string indica se o arquivo do Excel foi baixado ou está online.|
+|Formulário de compartilhamento permitido para cópia|AllowShareFormForCopy|O proprietário do formulário cria um link de modelo para compartilhar o formulário com outros usuários. Esse evento é registrado quando o proprietário do formulário clica para gerar uma URL de modelo.|
+|Formulário de compartilhamento não permitido para cópia|DisallowShareFormForCopy|O proprietário do formulário exclui o link do modelo.|
+|Coautor do formulário adicionado|AddFormCoauthor|Um usuário usa um link de colaboração para criar e exibir respostas. Esse evento é registrado em log quando um usuário usa uma URL de colaboração (não quando a URL de colaboração é gerada primeiro).|
+|Coautor do formulário removido|RemoveFormCoauthor|O proprietário do formulário exclui um link de colaboração.|
+|Página de resposta exibida|ViewRuntimeForm|O usuário abriu uma página de resposta para exibição. Esse evento é registrado independentemente de o usuário enviar uma resposta ou não.|
+|Resposta criada|CreateResponse|Semelhante a receber uma nova resposta.  Um usuário enviou uma resposta a um formulário. <br><br>A propriedade ResponseId:string e a propriedade ResponderId:string indicam qual resultado está sendo visualizado. <br><br>Para um respondente anônimo, a propriedade ResponderId será nula.|
+|Resposta atualizada|UpdateResponse|O proprietário do formulário atualizou um comentário ou uma pontuação em um teste. <br><br>A propriedade ResponseId:string e a propriedade ResponderId:string indicam qual resultado está sendo visualizado. <br><br>Para um respondente anônimo, a propriedade ResponderId será nula.|
+|Todas as respostas excluídas|DeleteAllResponses|O proprietário exclui todos os dados de resposta.|
+|Resposta excluída|DeleteResponse|O proprietário do formulário exclui uma resposta. <br><br>A propriedade ResponseId:string indica qual resposta está sendo excluída.|
+|Respostas exibidas|ViewResponses|O proprietário do formulário exibe a lista agregada de respostas. <br><br>A propriedade ViewType:string indica se o proprietário do formulário está exibindo Detalhes ou Agregação|
+|Resposta exibida|ViewResponse|O proprietário do formulário exibe uma resposta específica. <br><br>A propriedade ResponseId:string e a propriedade ResponderId:string indicam qual resultado está sendo visualizado. <br><br>Para um respondente anônimo, a propriedade ResponderId será nula.|
+|Link de resumo criado|GetSummaryLink|O proprietário do formulário cria links de resumo para compartilhar resultados.|
+|Link de resumo excluído|DeleteSummaryLink|O proprietário do formulário exclui o link de resultados de resumo.|
+|Formulário de status de phishing atualizado|UpdatePhishingStatus|Esse evento é registrado sempre que o valor de status de segurança interna for alterado, independentemente de isso ter alterado o Estado de Segurança final (por exemplo, o formulário agora está Fechado ou Aberto). Isso significa que você pode ver os eventos duplicados sem uma alteração final de Estado de Segurança.|
+|Convite do Forms Pro enviado|ProInvitation|O usuário clica para ativar uma avaliação do Pro.|
+|Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza a configuração de um formulário. <br><br>A propriedade FormSettingName:string indica o nome e o novo valor da configuração.|
+|Configuração de usuário atualizada|UpdateUserSetting|O proprietário do formulário atualiza a configuração de um usuário. <br><br>A propriedade UserSettingName:string indica o nome e o novo valor da configuração|
+|Formulários listados|ListForms|O proprietário do formulário está exibindo uma lista de formulários. <br><br>A propriedade ViewType:string indica que exibição o proprietário do formulário está olhando: Todos os Formulários, Compartilhado Comigo ou Formulários de Grupo|
+|Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondedor estiver dentro da mesma organização que o proprietário do formulário.|
+||||
 
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
 

@@ -1,7 +1,7 @@
 ---
-title: Solicitações de Entidades de Dados do Azure para o RGPD
+title: Solicitações de assunto de dados do Azure para o GDPR e o CCPA
 description: ''
-keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
+keywords: Documentação do Microsoft 365, Microsoft 365 Education, Microsoft 365, GPDR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,28 +9,33 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 7a294893d609747b5ab36c66319427608462b451
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: 73139f0ab67f728ecb55874bb92d9cc874b60408
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698333"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39268420"
 ---
-# <a name="azure-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Azure para o RGPD
+# <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure para o GDPR e o CCPA
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Introdução às DSRs (Solicitações de Entidades de Dados)
 
-O [Regulamento Geral de Proteção de Dados da União Europeia (RGPD)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) concede direitos a pessoas (conhecidas no regulamento como *entidades de dados*) para gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos de forma muito ampla no âmbito do RGPD como qualquer dado relacionado a uma única pessoa natural identificada ou identificável. O RGPD concede às entidades de dados direitos específicos sobre seus dados pessoais; esses direitos incluem a obtenção de cópias, a solicitação de correções, a restrição do processamento e a exclusão de dados pessoais, ou o seu recebimento em formato eletrônico para que possam ser transferidos para outro controlador. Um pedido formal de uma entidade de dados a controlador para efetuar uma ação nos seus dados pessoais é chamado de *Solicitação de Entidade de Dados* ou DSR.
+O Regulamento Geral [de Proteção de Dados da União Europeia (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) concede direitos às pessoas (conhecidas no regulamento como *titulares de dados*) para gerenciarem os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos de maneira muito ampla, sob o GDPR, assim como qualquer dado relacionado à uma pessoa física identificada ou identificável. O GDPR concede aos titulares de dados direitos específicos sobre seus dados pessoais; esses direitos incluem obter cópias dos dados pessoais, solicitar correções, restringir o processamento, excluí-los ou recebê-los em formato eletrônico para que possam ser movidos para outro controlador. Uma solicitação formal de um titular de dados a um controlador para executar uma ação em seus dados pessoais é chamada de *Solicitação de titular de dados* ou DSR.
+
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais. O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
 O guia descreve como usar os produtos, serviços e ferramentas administrativas da Microsoft para ajudar os nossos clientes controladores a encontrar dados pessoais e agir em relação a eles para responder a DSRs. Especificamente, isso inclui como localizar, acessar e agir em dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:
 
-- **Descoberta:** use ferramentas de pesquisa e descoberta para localizar com mais facilidade os dados de clientes que possam estar sujeitos a uma DSR. Assim que os documentos potencialmente dinâmicos forem coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir a fim de responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes de sua organização para responder a DSRs.
+- **Descobrir** – use ferramentas de pesquisa e descoberta para localizar dados pessoais que possam ser a entidade de uma solicitação DSR. Após a coleta dos documentos que atendem à solicitação, você pode executar uma ou mais das ações de DSR a seguir para responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes da sua organização para responder às solicitações DSR.
 - **Acesso:** recupere dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
 - **Retificação:** faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
-- **Restrição:** restrinja o processamento de dados pessoais, removendo licenças de diversos serviços do Azure ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
+- **Restringir:** restrinja o processamento de dados pessoais, removendo licenças para vários serviços do Azure ou desativando os serviços desejados sempre que possível. Você também pode remover dados da nuvem da Microsoft e retê-los localmente ou em outro lugar.
 - **Exclusão:** remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
-- **Exportação:** forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados.
+- **Exportar/Receber (Portabilidade): ** forneça uma cópia eletrônica (em formato legível para computador) de dados pessoais ou informações pessoais para o titular dos dados. Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há distinção entre as funções pública, privada ou corporativa de uma pessoa. O termo definido como "informações pessoais" se alinha aproximadamente com "dados pessoais" do RGPD. No entanto, o CCPA também inclui dados da família e do domicílio. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
 Cada seção deste guia descreve os procedimentos técnicos que uma organização controladora de dados pode realizar para responder a uma DSR para dados pessoais na nuvem da Microsoft.
 
@@ -41,17 +46,17 @@ Veja a seguir as definições dos termos que são relevantes para este guia.
 - **Controlador:** a pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei da União ou Estado-Membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou Estado-Membro.
 - **Dados pessoais e titular dos dados:** quaisquer informações relacionadas a uma pessoa física identificada ou identificável (“titular dos dados”); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos à identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física.
 - **Processador:** uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.
-- **Dados do cliente:** todos os dados, incluindo texto, som, vídeo ou arquivos de imagem e software que são fornecidos à Microsoft, por ou em nome de um cliente, através do uso de serviço corporativo. Dados do cliente incluem (1) informações de identificação de usuários finais (por exemplo, nomes de usuário e informações de contato no Azure Active Directory) e conteúdo do cliente que um cliente carrega ou cria em serviços específicos (por exemplo, conteúdo de cliente na conta de Armazenamento do Azure, conteúdo do cliente em um Banco de Dados SQL do Azure ou imagem da máquina virtual do cliente em máquinas virtuais do Azure).
-- **Logs gerados pelo sistema:** logs e dados relacionados gerados pela Microsoft que nos ajudam a fornecer os serviços corporativos aos usuários. Logs gerados pelo sistema contêm, principalmente, dados pseudônimos, tais como identificadores exclusivos, normalmente um número gerado pelo sistema que não pode sozinho identificar um indivíduo, mas que é usado para fornecer serviços corporativos aos usuários. Logs gerados pelo sistema também podem conter informações de identificação dos usuários finais, como nomes de usuário.
+- **Dados do cliente:** Todos os dados, incluindo todos os arquivos de texto, som, vídeo ou imagem e software, fornecidos à Microsoft por um cliente, em nome de um cliente ou por meio do uso do serviço corporativo. Os dados do cliente incluem tanto (1) informações identificáveis de usuários finais (por exemplo, nomes de usuário e informações de contato no Active Directory do Azure) quanto conteúdo do cliente para o qual o cliente carrega arquivos ou que é criado em serviços específicos (por exemplo, conteúdo do cliente em uma conta de Armazenamento do Azure, conteúdo do cliente de um Banco de Dados SQL do Azure ou uma imagem de máquina virtual de cliente em Máquinas Virtuais do Azure).
+- **Logs gerados pelo sistema:** logs e dados relacionados gerados pela Microsoft que ajudam a Microsoft a fornecer serviços corporativos aos usuários. Os logs gerados pelo sistema contêm principalmente dados pseudonimizados, como identificadores exclusivos — normalmente, um número gerado pelo sistema que não pode, por si só, identificar uma pessoa individual, mas é usado para fornecer os serviços corporativos aos usuários. Os logs gerados pelo sistema também podem conter informações identificáveis sobre os usuários finais, como um nome de usuário.
 
 ## <a name="how-to-use-this-guide"></a>Como usar este guia
 
 Este guia consiste em duas partes:
 
-- **Parte 1: Respondendo a Solicitações de Entidade de Dados para Dados do Cliente:** a Parte 1 deste guia discute como acessar, retificar, restringir, excluir e exportar dados de aplicativos nos quais você criou dados. Esta seção detalha como executar Solicitações de Entidades de Dados em relação ao Conteúdo do Cliente e também às informações identificáveis dos usuários finais.
-- **Parte 2: Respondendo a Solicitações de Entidades de Dados para Logs Gerados pelo Sistema:** quando você usa os serviços corporativos da Microsoft, a Microsoft gera algumas informações, conhecidas como Logs Gerados pelo Sistema, para fornecer o serviço. A Parte 2 deste guia discute como acessar, excluir e exportar essas informações para o Azure.
+- **Parte 1: Respondendo a Solicitações de Entidade de Dados para Dados do Cliente:** a Parte 1 deste guia discute como acessar, retificar, restringir, excluir e exportar dados de aplicativos nos quais você criou dados. Esta seção detalha como executar o DSRs no conteúdo do cliente e também as informações identificáveis dos usuários finais.
+- **Parte 2: Respondendo a Solicitações de Entidades de Dados para Logs Gerados pelo Sistema:** quando você usa os serviços corporativos da Microsoft, a Microsoft gera algumas informações, conhecidas como Logs Gerados pelo Sistema, para fornecer o serviço.  A parte 2 deste guia discute como acessar, excluir e exportar essas informações para o Azure.
 
-## <a name="understanding-dsrs-for-azure-active-directory-and-microsoft-service-accounts"></a>Noções básicas sobre DSRs para o Active Directory do Azure e contas de serviço da Microsoft
+## <a name="understanding-dsrs-for-azure-active-directory-and-microsoft-service-accounts"></a>Entender noções básicas dos DSRs para contas de serviço do Azure Active Directory e Microsoft
 
 Ao considerar serviços fornecidos para clientes empresariais, a execução de DSRs sempre deve ser compreendida no contexto de um locatário específico do Azure Active Directory (AAD). As DSRs sempre são executadas em um determinado locatário do AAD. Se um usuário fizer parte de vários locatários, é importante enfatizar que uma determinada DSR é executada *apenas* no contexto do locatário específico no qual a solicitação foi recebida. É essencial entender que isso significa que a execução da DSR por um cliente corporativo **não** afeta os dados de um cliente corporativo adjacente.
 
@@ -85,19 +90,19 @@ Isso é especialmente útil se você quiser localizar ou alterar dados pessoais 
 
 1. Entre no [portal do Azure](https://portal.azure.com/) com uma conta de administrador global do diretório.
 
-2. Selecione **Todos os serviços**, digite **Usuários e grupos** na caixa de texto e pressione **Enter**.
+2. Selecione **Azure Active Directory**.
 
-     ![Selecionar Todos os serviços](media/azure-dsr_image3.png)
+     ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
 
-3. Na folha **Usuários e grupos**, selecione **Usuários**.
+3. Selecione **Usuários**.
 
-     ![Selecionar usuários](media/azure-dsr_image9.png)
+     ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
 
-4. Na folha **Usuários e grupos - Usuários**, selecione um usuário na lista e, em seguida, na folha do usuário selecionado, selecione **Perfil** para exibir as informações de perfil do usuário que possam conter dados pessoais.
+4. No painel **Todos os usuários**, selecione um usuário na lista e, em seguida, no painel do usuário selecionado, selecione **Perfil** para visualizar as informações de perfil do usuário que possam conter dados pessoais.
 
-    ![Selecionar perfil](media/azure-dsr_image5.png)
+    ![Selecione perfil](media/gdpr-azure-dsr-azure-user-profile.png)
 
-5. Se for necessário, é possível adicionar ou alterar informações de perfil do usuário e depois, na barra de comando, selecionar **Salvar**.
+5. Se você precisa adicionar ou alterar as informações do perfil do usuário, selecione **Editar** na barra de comandos e selecione **Salvar** depois de fazer as alterações.
 
 #### <a name="service-specific-interfaces"></a>Interfaces específicas do serviço
 
@@ -133,25 +138,21 @@ Você pode corrigir, atualizar ou excluir informações de identificação sobre
 
 1. Entre no [portal do Azure](https://portal.azure.com/) com uma conta de administrador global do diretório.
 
-2. Selecione **Todos os serviços**, digite **Usuários e grupos** na caixa de texto e pressione **Enter**.
+2. Selecione **Azure Active Directory**.
 
-    ![Selecionar Todos os serviços](media/azure-dsr_image3.png)
+    ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
 
-3. Na folha **Usuários e grupos**, selecione **Usuários**.
+3. Selecione **Usuários**.
 
-    ![Selecionar usuários](media/azure-dsr_image9.png)
+    ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
 
-4. Na folha **Usuários e grupos - Usuários**, selecione um usuário na lista e, em seguida, na folha do usuário selecionado, selecione **Perfil** para exibir as informações de perfil do usuário que precisam ser corrigidas ou atualizadas.
+4. No painel **Todos os usuários**, selecione um usuário na lista e, em seguida, no painel do usuário selecionado, selecione **Perfil** para visualizar as informações do perfil do usuário que precisam ser corrigidas ou atualizadas.
 
-    ![Selecionar perfil](media/azure-dsr_image5.png)
+    ![Selecione perfil](media/gdpr-azure-dsr-azure-user-profile.png)
 
-5. Corrija ou atualize as informações e, em seguida, na barra de comando, selecione **Salvar**.
+5. Corrija ou atualize as informações do perfil do usuário, incluindo as informações de trabalho, selecionando **Editar** na barra de comandos e selecione  **Salvar** depois de fazer as alterações.
 
-6. Na folha do usuário selecionado, selecione **Informações de trabalho** para exibir informações de trabalho de usuários que precisam ser corrigidas ou atualizadas.
-
-    ![Selecionar informações de trabalho](media/azure-dsr_image4.png)
-
-7. Corrija ou atualize as informações de trabalho de usuário e, em seguida, na barra de comando, selecione **Salvar**.
+    ![Selecione perfil](media/gdpr-azure-dsr-azure-edit-user-profile.png)
 
 #### <a name="service-specific-interfaces"></a>Interfaces específicas de serviços
 
@@ -184,26 +185,30 @@ Veja a seguir o processo detalhado para excluir usuários de locatários.
 
 ###### <a name="to-delete-a-user-from-an-azure-tenant"></a>Para excluir um usuário de um locatário do Azure
 
-1. Abra o portal do Azure, selecione a folha **Azure Active Directory** e selecione **Usuários**.
+1. Entre no [Portal do Azure](https://portal.azure.com/) com uma conta de administrador global do diretório.
 
-    A folha **Usuários - Todos os usuários** é exibida.
+2. Selecione **Azure Active Directory**.
 
-    ![Localizar usuário](media/azure-dsr_image8.png)
+    ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
 
-2. Marque a caixa ao lado do usuário que você deseja excluir, selecione **Excluir usuário**e selecione **Sim** na caixa que confirma se você deseja excluir o usuário.
+3. Selecione **Usuários**.
 
-    ![Gerenciamento de usuários](media/azure-dsr_image9.png)
+    ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
 
-3. Na caixa suspensa **Mostrar**, selecione **Usuários excluídos recentemente**.
+4. Marque a caixa ao lado do usuário que você deseja excluir, selecione **Excluir usuário**e selecione **Sim** na caixa que confirma se você deseja excluir o usuário.
 
-    ![Exibir perfil de usuário](media/azure-dsr_image10.png)
+    ![Gerenciamento de usuários](media/gdpr-azure-dsr-azure-selected-user.png)
 
-4. Selecione o mesmo usuário novamente, escolha **Excluir permanentemente**e selecione **Sim** na caixa que pergunta se você tem certeza.
+5. No painel  **Todos os usuários** , selecione **Usuários excluídos**.
+
+    ![Visualizar perfil do usuário](media/gdpr-azure-dsr-azure-deleted-user.png)
+
+4. Selecione o mesmo usuário novamente, selecione  **Excluir permanentemente** na barra de comandos e selecione  **Sim**  na caixa perguntando se você tem certeza.
 
 >[!IMPORTANT]  
 >Lembre-se que, ao clicar em **Sim**, você exclui permanente e irrevogavelmente o usuário, todos os dados associados e os logs gerados pelo sistema. Se você fizer isso por engano, será necessário adicioná-lo manualmente ao locatário. Os dados associados e os logs gerados pelo sistema não podem ser recuperados.
 
-   ![Exibir informações comerciais do usuário](media/azure-dsr_image11.png)
+   ![Exibir informações comerciais do usuário](media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
 #### <a name="service-specific-interfaces"></a>Interfaces específicas do serviço
 
@@ -279,15 +284,15 @@ Veja a seguir o processo detalhado para exportar os dados de seu locatário.
 
 1. Abra o portal do Azure, selecione **Todos os serviços**, digite *Política* para filtrar e selecione **Política**.
 
-     ![Filtro Todos os serviços ](media/azure-dsr_image12.png)
+     ![Filtro Todos os serviços ](media/gdpr-azure-dsr-azure-policy.png)
 
 2. Na folha **Política**, selecione **Privacidade do usuário**, selecione **Gerenciar Solicitações de Usuário**e selecione **Adicionar solicitação de exportação**.
 
-    ![Adicionar solicitação de exportação ](media/azure-dsr_image13.png)
+    ![Adicionar solicitação de exportação ](media/gdpr-azure-dsr-azure-add-export-request.png)
 
 3. Preencha a **Solicitação de exportação de dados**:
 
-    ![Nova solicitação de exportação de dados](media/azure-dsr_image14.png)
+    ![Nova solicitação de exportação de dados](media/gdpr-azure-dsr-azure-export-data-request.png)
 
 - **Usuário.** Digite o endereço de email do usuário do Azure Active Directory que solicitou a exportação.
 - **Assinatura.** Selecione a conta que você usa para relatar o uso de recursos e cobrar pelos serviços. Esse também é o local de sua conta de armazenamento do Azure.

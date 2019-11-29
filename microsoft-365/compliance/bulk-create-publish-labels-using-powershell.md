@@ -13,19 +13,19 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: No Office 365, você pode usar rótulos de retenção para implementar uma programação de retenção para sua organização. Como gerente de registros ou responsável pela conformidade, você pode ter centenas de rótulos de retenção para criar e publicar. Você pode fazer isso por meio da interface do usuário no Centro de Conformidade e Segurança, mas criar rótulos de retenção um por vez é demorado e ineficiente. Usando o script e os arquivos .csv fornecidos abaixo, você pode criar e publicar em massa rótulos de retenção e políticas de rótulo de retenção. Primeiro você cria uma lista dos rótulos de retenção e uma lista das políticas de rótulo de retenção no Excel e, em seguida, cria os rótulos de retenção e as diretivas de rótulo de retenção nessas listas usando o PowerShell. Isso torna mais fácil criar e publicar de uma só vez todos os rótulos de retenção exigidos pelo cronograma de retenção.
-ms.openlocfilehash: 2be7c2251a3a35f32ff9754134cca1f5958b447a
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+description: No Office 365, você pode usar rótulos de retenção para implementar uma agenda de retenção na sua organização. Usando os arquivos script e .csv fornecidos, você pode criar e publicar rótulos de retenção e políticas de rótulo de retenção usando o PowerShell.
+ms.openlocfilehash: b2bf7f4a4934e1c5b0c88005e586dd6b0d38e3f9
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38708018"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631591"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>Criação e publicação em massa de rótulos de retenção usando o PowerShell
 
 No Office 365, você pode usar rótulos de retenção para implementar uma programação de retenção para sua organização. Como gerente de registros ou responsável pela conformidade, você pode ter centenas de rótulos de retenção para criar e publicar. Você pode fazer isso por meio da interface do usuário no Centro de Conformidade e &amp; Segurança, mas criar rótulos de retenção um por vez é demorado e ineficiente.
   
-Usando os arquivos script e .csv fornecidos abaixo, você pode criar rótulos de retenção em massa e publicar políticas de rótulo de retenção. Primeiro você cria uma lista dos rótulos de retenção e uma lista das políticas de rótulo de retenção no Excel e, em seguida, cria os rótulos de retenção e as políticas de rótulo de retenção nessas listas usando o PowerShell. Isso torna mais fácil criar e publicar de uma só vez todos os rótulos de retenção exigidos pelo cronograma de retenção.
+Usando os arquivos script e .csv fornecidos abaixo, você pode criar rótulos de retenção em massa e publicar políticas de rótulo de retenção. Primeiro, crie uma lista dos rótulos de retenção e uma lista das políticas de rótulo de retenção no Excel e, em seguida, use o PowerShell para criar, em massa, os rótulos de retenção e as políticas de rótulo de retenção nessas listas. Isso facilita a criação e a publicação de todos os rótulos de retenção que seu agendamento de retenção exige ao mesmo tempo.
   
 Para mais informações sobre rótulos de retenção, consulte [Visão geral de rótulos](labels.md).
   
@@ -69,7 +69,7 @@ Observações:
     
 - Se o arquivo .csv contiver uma política de rótulo de retenção com o mesmo nome de uma já existente, o script ignorará a criação dessa política de rótulo de retenção. Nenhuma política de rótulo de retenção duplicada será criada.
     
-- O script publica apenas rótulos de retenção aplicados manualmente ao conteúdo. Este script não fornece suporte a rótulos de retenção aplicados automaticamente ao conteúdo.
+- O script só publica os rótulos de retenção aplicados manualmente ao conteúdo. Esse script não suporta rótulos de retenção aplicados automaticamente ao conteúdo.
     
 - Se você alterar ou renomear os cabeçalhos de coluna, o script falhará. O script exige um arquivo .csv no formato fornecido aqui.
     

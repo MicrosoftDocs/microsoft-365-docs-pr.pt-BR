@@ -1,6 +1,6 @@
 ---
-title: Solicitações de assunto de dados do Azure DevOps para o RGPD
-keywords: Visual Studio Team Services, VSTS, documentação Azure DevOps, privacidade, RGPD
+title: Solicitações de entidades de dados do Azure DevOps para RGPD e CCPA
+keywords: Visual Studio Team Services, VSTS, documentação Azure DevOps, privacidade, RGPD, CCPA
 localization_priority: Priority
 audience: itpro
 ms.prod: devops
@@ -9,21 +9,25 @@ ms.date: 06/11/2018
 author: jitojo
 ms.author: jominana
 manager: douge
-ms.collection: GDPR
+ms.collection:
+- GDPR
+- M365-security-compliance
 ms.workload:
 - multiple
-ms.openlocfilehash: ce5ccb1961fe1751604b32bb5b37595b0884b395
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3af519ed13b8c647d359ea9c8d1faaff2c34209e
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071480"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39268837"
 ---
-# <a name="azure-devops-services-data-subject-requests-for-the-gdpr"></a>Solicitações de assunto de dados do Azure DevOps Services para o RGPD
+# <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure DevOps Services para o RGPD e CCPA
 
-O RGPD [(Regulamento Geral sobre a Proteção de Dados)](http://ec.europa.eu/justice/data-protection/reform/index_en.htm) da União Europeia fornece direitos às pessoas, conhecidas na regulamentação como *titulares de dados*, para gerenciar os dados pessoais coletados por um *controlador de dados*. Um controlador de dados, ou somente *controlador*, é um funcionário ou outro tipo de agência ou organização. Os dados pessoais são definidos amplamente no RGPD como quaisquer dados relacionados a uma pessoa identificada ou identificável. O RGPD fornece aos titulares de dados direitos específicos aos dados pessoais deles. Esses direitos incluem a obtenção de cópias desses dados pessoais, a solicitação de correções, a restrição do processamento, a exclusão ou o recebimento desses dados em formato eletrônico para que possam ser migrados para outro controlador. Uma solicitação formal de um titular de dados feita a um controlador para realizar uma ação nos dados pessoais dele é chamada de *Solicitação de Titular de Dados* ou DSR.
+O RGPD [(Regulamento Geral sobre a Proteção de Dados)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) da União Europeia fornece direitos às pessoas, conhecidas na regulamentação como *titulares de dados*, para gerenciar os dados pessoais coletados por um *controlador de dados*. Um controlador de dados, ou somente *controlador*, é um funcionário ou outro tipo de agência ou organização. Os dados pessoais são definidos amplamente no RGPD como quaisquer dados relacionados a uma pessoa identificada ou identificável. O RGPD fornece aos titulares de dados direitos específicos aos dados pessoais deles. Esses direitos incluem a obtenção de cópias desses dados pessoais, a solicitação de correções, a restrição do processamento, a exclusão ou o recebimento desses dados em formato eletrônico para que possam ser migrados para outro controlador. Uma solicitação formal de um titular de dados feita a um controlador para realizar uma ação nos dados pessoais dele é chamada de *Solicitação de Titular de Dados* ou DSR.
 
-Para saber mais sobre o RGPD, confira a [Seção RGPD do portal Service Trust](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
+
+Para saber mais sobre o RGPD, confira a [Seção RGPD do portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 Este guia descreve como usar as ferramentas da Microsoft para exportar ou excluir dados pessoais coletados durante uma sessão autenticada (conectada) do Azure DevOps Services (anteriormente conhecido como Visual Studio Team Services).
 
@@ -33,11 +37,11 @@ Os artigos [Política de Privacidade da Microsoft](https://privacy.microsoft.com
 
 ## <a name="personal-data-we-collect"></a>Dados pessoais que coletamos
 
-A Microsoft coleta dados de usuários para operar e aprimorar o Azure DevOps Services. O Azure DevOps Services coleta duas categorias de dados do cliente e logs gerados pelo sistema. Os dados do cliente incluem dados de interação e transacionais de que o Azure DevOps Services precisa para operar o serviço. Os logs gerados pelo sistema incluem dados de uso do serviço agregados para cada recurso e área de produto.
+A Microsoft coleta dados de usuários para operar e melhorar os serviços do Azure DevOps. O Azure DevOps Services coleta duas categorias de dados: dados do cliente e registros gerados pelo sistema. Os dados do cliente incluem dados transacionais e interativos que podem ser identificados pelos usuários, os quais o Azure DevOps Services precisa operar o serviço. Os logs gerados pelo sistema incluem dados de uso do serviço agregados para cada recurso e área do produto.
 
 ## <a name="delete-azure-devops-data"></a>Excluir dados do Azure DevOps
 
-O primeiro passo para excluir os dados do cliente do Azure DevOps Services associados e tornar anônimo os dados pessoalmente identificáveis encontrados em logs gerados pelo sistema é fechar a conta de identidade Azure Active Directory (AAD) ou a conta da Microsoft (MSA). O Azure DevOps Services é confiável como um sistema de registro com integridade, capacidade de rastreamento e regras de auditoria rigorosas. Essas obrigações existentes afetam nossas obrigações de retenção e exclusão para o RGPD. Fechar a conta de identidade não altera nem remove artefatos e registros associados à identidade individual na organização do Azure DevOps Services. Garantimos que, quando uma organização do Azure DevOps Services inteira é excluída, todos os dados e logs gerados pelo sistema pessoalmente identificáveis encontrados na organização são removidos de nossos sistema (após o prazo de exclusão de 30 dias da organização do Azure DevOps Services).
+A primeira etapa para excluir os dados associados do cliente do Azure DevOps Services e tornar os dados de identificação pessoal anônimos encontrados nos logs gerados pelo sistema é fechar a sua conta do Azure Active Directory (AAD) ou a conta da Microsoft (MSA). O Azure DevOps Services conta com um sistema de registro com integridade estrita, rastreabilidade e regras de auditoria. Essas obrigações existentes afetam nossas obrigações de exclusão e retenção para RGPD. Fechar a conta de identidade não altera, remove ou altera artefatos e registros associados à identidade individual na organização do Azure DevOps. Garantimos que, quando toda a organização do Azure DevOps for excluída, todos os dados de identificação pessoal associados e os logs gerados pelo sistema encontrados na organização serão removidos do nosso sistema (após o requisito DevOps organização do Azure 30 dias exclusão simples).
 
 ## <a name="export-azure-devops-data"></a>Exportar dados do Azure DevOps
 

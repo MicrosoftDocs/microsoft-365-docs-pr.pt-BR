@@ -13,67 +13,67 @@ search.appverid:
 - MOE150
 - MET150
 description: Este tópico explica como configurar os fluxos dos processos empresariais para automatizar a retenção por meio de eventos usando a API REST do Microsoft 365.
-ms.openlocfilehash: 5977b79c47166fdafc76dfdb122b4fd37b63a875
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b4ae97ad9564f61e65b990a0054fcf13d88f1d8d
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38708014"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631061"
 ---
 # <a name="automate-event-based-retention"></a>Automatizar retenção baseada em eventos
 
-A massificação de conteúdo nas organizações e como ele pode se tornar ROT (redundante, obsoleto, trivial) é um negócio sério. Para continuar atendendo aos desafios legais, comerciais e de conformidade regulamentar, as empresas devem poder manter e proteger informações importantes, e encontrar rapidamente o conteúdo relevante. Para que uma empresa seja bem-sucedida, é fundamental que ela mantenha apenas informações importantes e pertinentes.
+O dramático aumento no volume de conteúdo nas organizações e como ele pode se tornar ROT (redundante, obsoleto, trivial) é um negócio sério. Para continuar encarando de frente os desafios legais, comerciais e de conformidade regulamentar, as empresas devem ser capaz de proteger informações importantes, e identificar rapidamente o que é relevante. Para que uma empresa seja bem-sucedida, é fundamental que ela retenha apenas informações importantes e pertinentes.
 
-Portanto, as organizações podem aproveitar as soluções de retenção no Centro de Conformidade e Segurança do Office 365. A retenção pode ser disparada por meio de [rótulos de retenção](labels.md). O rótulo de retenção tem a opção de [basear o período de retenção em um evento específico](event-driven-retention.md). Normalmente, o período de retenção se baseia em uma data conhecida, como a data de criação ou a data da última modificação do conteúdo. No entanto, as organizações também têm requisitos para descartar conteúdo com base na ocorrência de um evento, por exemplo, sete anos depois que um funcionário deixa a organização.
+Para atender à essa necessidade, as organizações podem aproveitar as soluções de retenção no Centro de Conformidade e Segurança do Office 365. A retenção pode ser ativada pelo uso de [rótulos de retenção](labels.md). O rótulo de retenção tem a opção de [basear o período de retenção em um evento específico](event-driven-retention.md). Normalmente, o período de retenção se baseia em uma data conhecida, como a data de criação ou a data da última modificação do conteúdo. No entanto, as organizações também têm requisitos para descartar conteúdo com base na ocorrência de um evento, por exemplo, sete anos depois que um funcionário deixa a organização.
 
-Para garantir o descarte de conteúdo de acordo com as regras, é fundamental saber quando um evento ocorre. Com o volume de conteúdo aumentando rapidamente, fica cada vez mais difícil reter e descartá-lo em conformidade e de maneira oportuna.
+Para garantir o conteúdo seja descartado de acordo com as regras, é fundamental saber quando um evento ocorre. Com o volume de conteúdo aumentando rapidamente, fica cada vez mais difícil retê-lo e descartá-lo em conformidade e de maneira oportuna.
 
 A retenção baseada em eventos resolve esse problema. Este tópico explica como configurar os fluxos dos processos empresariais para automatizar a retenção por meio de eventos usando a API REST do Microsoft 365.
 
 ## <a name="about-event-based-retention"></a>Sobre a retenção baseada em eventos
 
-Sejam de pequeno, médio ou grande porte, a quantidade de documentos comerciais e jurídicos, arquivos de funcionários, contratos e documentação de produtos que as empresas criam e gerenciam todos os dias está aumentando radicalmente.
+Sejam as organizações de pequeno, médio ou grande porte, a quantidade de documentos comerciais e jurídicos, arquivos de funcionários, contratos e documentação de produtos que se cria e se gerencia todos os dias está aumentando radicalmente.
 
 Por exemplo, todos os dias, dezenas ou centenas de funcionários entram e saem das organizações. O departamento de RH continua a criar, atualizar ou excluir documentos relacionados a funcionários de acordo com as exigências comerciais. Esse processo está sujeito às diferentes políticas de retenção descritas para o negócio:
 
-- **O período de retenção do conteúdo pode ser uma data conhecida**, como a data da criação, a data da última modificação ou da rotulagem do conteúdo. Por exemplo, você pode reter documentos por sete anos depois de criados e excluí-los em seguida.
+- **O período de retenção do conteúdo pode ser uma data conhecida**, como a data da criação, a data da última modificação ou da rotulagem do conteúdo. Por exemplo, você pode reter documentos por sete anos depois de criá-los e excluí-los em seguida.
 
 - **O período de retenção do conteúdo pode ser uma data desconhecida**. Por exemplo, com os rótulos de retenção, é possível basear o período de retenção na ocasião em que ocorre um tipo específico de evento, como a data em que um funcionário sai da empresa.
 
-O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo aplicado para esse tipo de evento faz com que as ações de retenção do rótulo sejam aplicadas a ele. Isso se chama retenção baseada em eventos. Para saber mais, confira [Visão geral da retenção orientada a eventos](event-driven-retention.md).
+O evento desencadeia o início do período de retenção, e todo o conteúdo com um rótulo aplicado para esse tipo de evento faz com que as ações de retenção do rótulo sejam aplicadas a ele. Isso se chama retenção baseada em eventos. Para saber mais, confira [Visão geral da retenção direcionada por eventos](event-driven-retention.md).
 
 ## <a name="set-up-event-based-retention"></a>Configurar a retenção baseada em eventos
 
-Esta seção descreve o que precisa ser feito antes da retenção do conteúdo.
+Esta seção descreve o que é necessário fazer antes da retenção do conteúdo.
 
 ### <a name="identify-roles"></a>Identificar as funções
 
-Identifique as diferentes funções de uma organização que executam as tarefas de Gerenciamento de Registros que seriam responsáveis pela retenção eficaz e eficiente de documentos comerciais.
+Identificar as diferentes funções dentro de uma organização que executam as tarefas de Gerenciamento de Registros e que seriam responsáveis pela retenção eficaz e eficiente de documentos comerciais.
 
   | **Pessoal**| **Função**|
   | - | - |
   | Administrador | Cria tipos de evento de retenção, rótulos de retenção e repositórios de registro no SharePoint |
   | Gerente de registros                                  | Fornece políticas de retenção, diretrizes de agendamento de retenção e detalhes de conformidade   |
   | Administrador do sistema (empresa)                          | Configura e gerencia sistemas externos para trabalhar com o Microsoft 365                       |
-  | Operador de Informações                               | Gerencia o ciclo de vida dos processos empresariais (RH, finanças, TI, etc.)                 |
+  | Operador de Informações                               | Gerencia o ciclo de vida dos seus processos empresariais (RH, finanças, TI e assim por diante)                 |
 
 ### <a name="set-up-the-security--compliance-center"></a>Configurar o Centro de Conformidade e Segurança
   
-1. O administrador de conformidade cria um tipo de evento. Por exemplo, rescisão de funcionário, vencimento de contrato ou término de fabricação de produto (confira o processo passo a passo na [retenção orientada por eventos](event-driven-retention.md)).
+1. O administrador de conformidade cria um tipo de evento &ndash;, por exemplo, Rescisão de Funcionário, Vencimento de Contrato ou Término de Fabricação de Produto. (confira o processo passo a passo na [ Retenção orientada por eventos](event-driven-retention.md).
     
-1. O administrador de conformidade cria um rótulo de retenção com base em um evento e associa o rótulo a um tipo de evento.
+2. O administrador de conformidade cria um rótulo de retenção com base em um evento e associa o rótulo a um tipo de evento.
     
-1. Há quatro tipos de disparadores para rótulos de retenção:
+    Há quatro tipos de fatores desencadeantes para rótulos de retenção:
             
     1. Data de criação
                 
-    1. Última modificação
+    2. Última modificação
                 
-    1. Data do rótulo (quando o conteúdo foi rotulado)
+    3. Data do rótulo (quando o conteúdo foi rotulado)
                 
-    1. Com base em eventos
+    4. Com base em eventos
     
-1. O administrador de conformidade publica o rótulo de retenção.
+3. O administrador de conformidade publica o rótulo de retenção.
 
 ### <a name="set-up-sharepoint"></a>Configurar o SharePoint
    
@@ -81,29 +81,29 @@ Para criar um repositório de registros, o administrador de conformidade:
 
 1. Cria um site do SharePoint.
 
-1. Faz um dos seguintes procedimentos:
+2. Faz um dos seguintes procedimentos:
         
     - Cria uma biblioteca do SharePoint: ele define um rótulo baseado em eventos no nível da biblioteca. Para saber mais, confira [Como aplicar um rótulo de retenção padrão a todo o conteúdo de uma biblioteca, pasta ou de um conjunto de documentos do SharePoint](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
           
-    - Configura um conjunto de documentos no SharePoint. Para saber mais, confira [Introdução a conjuntos de documentos](https://support.office.com/article/Introduction-to-Document-Sets-3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234).
+    - Faz a configuração de um conjunto de documentos no SharePoint. Para saber mais, confira [Introdução a conjuntos de documentos](https://support.office.com/article/3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234).
       
-1. Atribui uma ID de ativo (a ID de ativo é um nome de produto ou código usado pela organização, por exemplo, um número de funcionário) a cada conjunto de documentos de funcionários. Ao atribuir a ID de ativo à pasta, todos os itens dessa pasta herdam automaticamente a mesma ID. Isso significa que todos os itens podem ter o período de retenção disparado pelo mesmo evento.
+3. Atribui uma ID de ativo ao conjunto de documentos de cada funcionário. Uma ID do ativo é um nome do produto ou código do produto usado pela organização, por exemplo, o Número do funcionário pode ser uma ID do ativo. Ao atribuir a ID do ativo à pasta, todos os itens dessa pasta passar a ter automaticamente a mesma ID do ativo. Isso significa que todos os itens podem ter o período de retenção desencadeado pelo mesmo evento.
 
 ## <a name="ways-to-trigger-event-based-retention"></a>Maneiras de disparar a retenção baseada em eventos
 
 Há duas maneiras pelas quais a retenção baseada em eventos pode ser disparada:
 
-- **Usando a IU do centro de administração** Esse processo que pode ser usado para reter menos conteúdo por vez ou para reduzir a frequência de disparo da retenção, como mensal ou anual. Para saber mais sobre este método, confira [Visão geral da retenção orientada a eventos](event-driven-retention.md). No entanto, essa maneira de disparar a retenção pode ser demorada e passível de erros, retardando a escalabilidade. Portanto, uma solução automatizada e perfeita para acionar a retenção pode aumentar a segurança e a conformidade dos dados.
+- **Usando a interface do usuário do centro de administração** Esse é um processo que pode ser usado para reter menos conteúdo de cada vez ou no caso de o gatilho que ativa a retenção não ser muito frequente (mensal ou anual, por exemplo). Para mais informações sobre esse método, confira a [Visão geral dos rótulos de retenção baseada em eventos](event-driven-retention.md). No entanto, esse método de gatilho de retenção pode ser demorado e propenso a erros, desse modo inibindo escalabilidade. Portanto, uma solução automatizada e ordenada para acionar a retenção pode melhorar a segurança e a conformidade dos dados.
 
 - **Usando uma API REST do Microsoft 365** Esse processo pode ser usado quando grandes quantidades de conteúdo devem ser retidas por vez e/ou quando a frequência de disparo da retenção for mais frequente, como diária ou semanal. O fluxo detecta quando um evento ocorre no sistema de linha de negócios e cria automaticamente um evento relacionado no Centro de Conformidade e Segurança. Não é necessário criar manualmente um evento na interface do usuário sempre que ocorrer um.
 
 Há duas opções de uso para a API REST:
 
-- **O Microsoft Flow ou um aplicativo semelhante** pode ser usado para disparar automaticamente a ocorrência de um evento. O Microsoft Flow é um orquestrador de conexão com outros sistemas. O uso deste aplicativo não exige uma solução personalizada.
+- **O Microsoft Flow ou um aplicativo semelhante** pode ser usado para desencadear automaticamente a ocorrência de um evento. O Microsoft Flow é um orquestrador para a conexão com outros sistemas. Usar o Microsoft Flow não requer uma solução personalizada.
 
 - **PowerShell ou um cliente HTTP para chamar a REST API** Usando o PowerShell (versão 6 ou superior) para chamar a API REST do Microsoft 365 para criar eventos. 
 
-Uma API REST é um ponto de extremidade de serviço com suporte para conjuntos de operações HTTP (métodos), que fornecem acesso para criação/recuperação/atualização/exclusão aos recursos do serviço. Para saber mais, confira [Componentes de uma solicitação/resposta da API REST](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). Nesse caso, é possível criar e recuperar eventos usando operações (métodos) POST e GET com a API REST do Microsoft 365.
+Uma API REST é um ponto de extremidade de serviço que oferece suporte a conjuntos de operações HTTP (métodos), que fornecem o acesso criar/recuperar/atualizar/deletar aos recursos do serviço. Para saber mais, confira [Componenente de uma solicitação/resposta do API REST](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). Nesse caso, usando o Microsoft 365 REST API, eventos podem ser criados e recuperados usando operações (métodos) POST e GET.
 
 ## <a name="example-scenarios"></a>Exemplos de cenários
 
@@ -111,39 +111,37 @@ Vamos considerar os seguintes cenários:
 
 ### <a name="scenario-1-employees-leaving-the-organization"></a>Cenário 1: funcionários que deixam a organização 
 
-Uma organização cria e armazena vários documentos relacionados a funcionários para cada funcionário. Esses documentos são gerenciados e retidos durante a vigência do contrato de cada funcionário. No entanto, quando o funcionário deixa a organização ou o contrato dele é rescindido, a organização é obrigada por exigências legais e comerciais a reter os documentos desse funcionário por um determinado período.
+Uma organização cria e armazena vários documentos relativos ao contrato de trabalho para cada funcionário. Esses documentos são gerenciados e mantidos enquanto durar o vínculo de emprego de cada funcionário. No entanto, quando o funcionário deixa a organização ou o contrato de trabalho chega ao fim, a organização é obrigada por requisitos legais e comerciais a guardar os documentos desse funcionário por um período estipulado.
 
 Agora, se vários funcionários deixarem a organização todos os dias, ela deverá disparar o tempo de retenção de centenas ou milhares de documentos por dia.
 
-Além disso, o período de retenção deve ser calculado para cada um desses funcionários, como a data de rescisão + número de dias, meses ou anos, com base no tipo de registro do funcionário. Por exemplo, a remuneração versus os registros de benefícios desse funcionário pode precisar de uma retenção diferente.
+Além disso, o período de retenção deve ser calculado para cada um desses funcionários, como a Data de rescisão + número de dias, meses ou anos, com base no tipo de registro do funcionário. Por exemplo, a remuneração versus os registros de benefícios desse funcionário pode precisar de uma retenção diferente.
 
-O diagrama abaixo mostra como pode haver vários rótulos associados a um único evento. Aqui, todos os arquivos com rótulo de "remuneração do funcionário" e todos os arquivos com rótulo de "benefícios do funcionário" estão associados a um único evento, representado pelo funcionário que deixa a organização. Cada um desses diferentes arquivos tem diferentes relógios de retenção. Assim, quando um funcionário deixa a organização, esses arquivos, no âmbito de cada rótulo, passam por um período de retenção diferente. Disparar todos esses relógios de retenção diferentes para cada tipo de arquivo ou rótulo para cada funcionário é uma tarefa extremamente complexa. Imagine fazer isso para vários funcionários.
+O diagrama abaixo mostra como pode haver diversos rótulos associados a um único evento. Aqui estão todos os arquivos sob o rótulo de Indenização do trabalhador e todos os arquivos sob o rótulo de Benefícios dos funcionários estão ambos associados a um único evento, que é o funcionário deixando a organização. Cada um desses arquivos tem diferentes relógios de retenção. Portanto, quando um funcionário deixa a organização, esses arquivos dentro de cada etiqueta têm um período de retenção diferente. Disparar todos esses relógios diferentes para cada tipo de arquivo ou rótulo para cada funcionário é uma tarefa bastante desafiadora. Imagine fazer isso para vários funcionários.
 
 ![Diagrama de tipo de evento, eventos e rótulos](media/automate-event-driven-retention-event-diagram-employee-leaving.png)
 
-Portanto, um processo automatizado para disparar esses diferentes relógios de retenção para vários funcionários economizará tempo, será isento de erros e extremamente eficiente.
+Portanto, um processo automatizado para acionar esses diferentes relógios de retenção para vários funcionários economizaria tempo, seria isento de erros e extremamente eficiente.
 
 **Como configurar a retenção automatizada baseada em eventos para este cenário:**
 
 ![Diagrama de funções e ações para o cenário de saída do funcionário da organização](media/automate-event-driven-retention-employee-termination-diagram.png)
 
-  - O administrador criar pastas de funcionários para o conjunto de documentos, como Sara Melo, Diogo Martins.
+  - O administrador criar pastas de funcionários para o Conjunto de documentos, como Sara Melo, Diogo Martins.
 
-  - O administrador adiciona arquivos de funcionários, como Benefícios, Folha de pagamento e Remuneração, à pasta de cada funcionário.
+  - O administrador adiciona arquivos de funcionários, como Benefícios, Folha de pagamento e Seguro-doença, à pasta de cada funcionário.
 
-  - O administrador atribui uma ID de ativo à pasta de cada funcionário. 
+  - O administrador atribui uma ID de ativo para a pasta de cada funcionário. 
 
-  - Administrador do Centro de Conformidade e Segurança I
+  - O administrador do CCS entra no Centro de Conformidade e Segurança.
 
-  - Entra no Centro de Conformidade e Segurança
+  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a funcionários, como "Rescisão de Funcionário" e "Contratação de Funcionário".
 
-  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a funcionários, como "Rescisão de funcionário" e "Contratação de funcionário".
+  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Retenção de Funcionários".
 
-  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Retenção de funcionários".
+  - O rótulo "Retenção de Funcionário" é publicado e aplicado de forma automática ou manual aos arquivos de funcionários no SharePoint.
 
-  - O rótulo "Retenção de funcionário" é publicado e aplicado de forma automática ou manual aos arquivos de funcionários no SharePoint.
-
-  - Um sistema de gerenciamento de RH, como o Workday, pode trabalhar com o Microsoft Flow para executar periodicamente o gerenciamento de arquivos de funcionários.
+  - Um sistema de gerenciamento de RH, como o Workday, pode trabalhar com o Microsoft Flow para realizar periodicamente o gerenciamento de arquivos de funcionários.
 
   - Quando um funcionário deixa a organização, o Flow dispara a API REST de retenção baseada em eventos do Microsoft 365, que inicia o relógio de retenção nos arquivos específicos do funcionário.
 
@@ -407,17 +405,17 @@ Etapa 2 – Executar o seguinte script.
 
 #### <a name="verify-the-outcome-in-both-options"></a>Verificar o resultado nas duas opções
 
-Etapa 1 – Ir para o Centro de Conformidade e Segurança.
+Etapa 1: Vá para o Centro de Conformidade e Segurança.
 
-Etapa 2 – Clicar em Eventos, em Governança de dados.
+Etapa 2: Selecione **Eventos** em ** Governança de Dados**.
 
-Etapa 3 – Verificar se o evento foi criado.
+Etapa 3 : Verifique se o Evento foi criado.
 
-Da mesma forma, as opções acima para automatizar a retenção baseada em eventos também podem ser usadas para os cenários a seguir.
+Da mesma forma, as opções acima para automatizar a retenção baseada em eventos também podem ser usadas também para os cenários a seguir.
 
-### <a name="scenario-2-contracts-expiring"></a>Cenário 2 – Expiração de contratos
+### <a name="scenario-2-contracts-expiring"></a>Cenário 2 : Expiração de Contratos
 
-Uma organização pode ter vários registros para um único contrato com clientes, fornecedores e parceiros. Esses documentos podem residir em uma biblioteca de documentos, como o SharePoint. O término de um contrato determina o início do período de retenção dos documentos associados a esse contrato. Por exemplo: todos os registros relacionados a contratos devem ser retidos por cinco anos, a partir do momento em que o contrato expira. O evento que dispara o período de retenção de cinco anos é o término do contrato.
+Uma organização pode fazer registros múltiplos para um único contrato com clientes, fornecedores e parceiros. Esse documentos podem ser colocados em uma biblioteca de documentos como o Sharepoint. O término de um contrato determina o início do período de retenção dos documentos associados àquele contrato. Por exemplo, todos os registros relacionados a contratos precisam ser retidos por cinco anos contados da data em que o contrato expirou. O evento que desencadeia o período de retenção de cinco anos é a expiração do contrato.
 
 Um sistema de CRM (gerenciamento de relacionamento com o cliente) pode trabalhar com o Microsoft 365 e disparar a retenção de documentos do contrato.
 
@@ -427,19 +425,19 @@ Um sistema de CRM (gerenciamento de relacionamento com o cliente) pode trabalhar
 
   - O administrador cria uma biblioteca do SharePoint com várias pastas para cada tipo de contrato.
 
-  - O administrador adiciona arquivos de contrato, como Contratos de licença e Contratos de desenvolvimento, a cada pasta de contrato.
+  - O administrador adiciona arquivos de contrato, como Contratos de Licença e Contratos de Desenvolvimento, a cada pasta de contrato.
 
   - O administrador atribui uma ID de ativo à pasta de cada contrato.
 
-  - O administrador entra no Centro de Conformidade e Segurança.
+  - O administrador do CCS entra no Centro de Conformidade e Segurança.
 
-  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a contratos, como "Criação de contrato" e "Expiração de contrato".
+  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a contratos, como "Criação de Contrato" e "Expiração de Contrato".
 
-  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Expiração do contrato".
+  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Expiração do Contrato".
 
-  - O rótulo "Expiração de contrato" é publicado e aplicado de forma automática ou manual aos arquivos de contratos no SharePoint.
+  - O rótulo "Expiração de Contrato" é publicado e aplicado de forma automática ou manual aos arquivos de contratos no SharePoint.
 
-  - O sistema de gerenciamento de contratos pode trabalhar com o Microsoft Flow ou um aplicativo semelhante para executar periodicamente o gerenciamento de arquivos de contratos.
+  - O Sistema de Gerenciamento de Contratos pode trabalhar com o Microsoft Flow ou um aplicativo semelhante para realizar periodicamente o gerenciamento de arquivos de contratos.
 
   - Quando um contrato expira, o Microsoft Flow dispara a API REST de retenção baseada em eventos do Microsoft 365, que inicia o relógio de retenção nos arquivos específicos do contrato.
 
@@ -453,21 +451,21 @@ Um sistema de ERP (Planejamento de Recursos Empresariais) pode trabalhar com o M
 
 ![Diagrama de funções e tarefas para o cenário de ciclo de vida do produto](media/automate-event-driven-retention-product-lifecycle-expiration.png)
 
-  - O administrador cria pastas de produtos no conjunto de documentos, como Produto 1, Produto 2, etc.
+  - O administrador cria pastas de produtos no Conjunto de documentos, como Produto 1, Produto 2 e assim por diante.
 
-  - O administrador adiciona arquivos de produto, como Especificações de fabricação, Preços de produto e Licenciamento de produto, a cada pasta de produto.
+  - O administrador adiciona arquivos de produto, como Especificações de Fabricação, Preços de Produto e Licenciamento de Produto, a cada pasta de produto.
 
   - O administrador atribui uma ID de ativo à pasta de cada produto.
 
-  - O administrador entra no Centro de Conformidade e Segurança.
+  - O administrador do CCS entra no Centro de Conformidade e Segurança.
 
-  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a produtos, como "Início de fabricação de produto" e "Término de fabricação de produto".
+  - O administrador do Centro de Conformidade e Segurança cria tipos de eventos relacionados a funcionários, como "Início de Fabricação de Produto" e "Término de Fabricação de Produto".
 
-  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Término de fabricação de produto".
+  - O administrador do Centro de Conformidade e Segurança cria o rótulo "Término de Fabricação de Produto".
 
-  - O rótulo "Término de fabricação de produto" é publicado e aplicado de forma automática ou manual aos arquivos de produtos no SharePoint.
+  - O rótulo "Término de Fabricação de Produto" é publicado e aplicado de forma automática ou manual aos arquivos de produtos no SharePoint.
 
-  - Os sistemas de ERP podem trabalhar com o Microsoft Flow ou com aplicativos semelhantes para executar periodicamente o gerenciamento de arquivos de produtos.
+  - Os sistemas de ERP podem trabalhar com o Microsoft Flow ou com aplicativos semelhantes para realizar periodicamente o gerenciamento de arquivos de produtos.
 
   - Quando a fabricação de um produto é encerrada, o Microsoft Flow dispara a API REST de retenção baseada em eventos do Microsoft 365, que inicia o relógio de retenção nos arquivos específicos do produto.
 
@@ -475,11 +473,11 @@ Um sistema de ERP (Planejamento de Recursos Empresariais) pode trabalhar com o M
 
 ### <a name="using-redirect-302-response-results-to-call-the-rest-api"></a>Como usar resultados de resposta de Redirecionamento 302 para chamar a API REST
 
-1.  Invoque uma chamada de evento de retenção POST usando a URL da API REST <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent> (é necessário ter permissões de administrador global).
+1. Invoque uma chamada de evento de retenção POST usando a URL da API REST <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent> (é necessário ter permissões de administrador global).
 
-2.  Verifique o código da resposta. Se for 302, obtenha a URL redirecionada da propriedade Location do cabeçalho da resposta.
+2. Verifique o código da resposta. Se for 302, obtenha a URL redirecionada da propriedade Location do cabeçalho da resposta.
 
-3.  Invoque a chamada de evento de retenção POST usando a URL redirecionada.
+3. Invoque a chamada de evento de retenção POST usando a URL redirecionada.
 
 ## <a name="credits"></a>Créditos
 
