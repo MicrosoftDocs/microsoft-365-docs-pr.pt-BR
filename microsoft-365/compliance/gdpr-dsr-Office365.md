@@ -1,7 +1,7 @@
 ---
-title: Solicitações de Serviços de Dados do Office 365 no RGPD
-description: Entenda os direitos do usuário de acordo com o RGPD e como o Office 365 ajuda as empresas a encontrar dados e a agir sobre eles em resposta às DSRs.
-keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
+title: Solicitações de serviços de dados do Office 365 no RGPD e CCPA
+description: Entenda os direitos do usuário de acordo com o RGPD e CCPA e como o Office 365 ajuda as empresas a encontrar dados e a agir sobre eles em resposta às DSRs.
+keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,28 +9,32 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: bacf6b55bc4c92987511bdf1ab4ac5b120f11836
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 9f2d17c6165a028061cf7d155f828c683f09543f
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071490"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39624512"
 ---
-# <a name="office-365-data-subject-requests-for-the-gdpr"></a>Solicitações de Entidades de Dados do Office 365 para o RGPD
+# <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Office 365 para o GDPR e o CCPA
 
 ## <a name="introduction-to-dsrs"></a>Introdução às DSRs
 
-O [Regulamento Geral de Proteção de Dados da União Europeia (RGPD)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) concede direitos a pessoas (conhecidas no regulamento como *entidades de dados*) para gerenciar os dados pessoais que foram coletados por um empregador ou outro tipo de agência ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos de forma ampla no âmbito do RGPD como qualquer dado relacionado a uma pessoa natural identificada ou identificável. O RGPD concede às entidades de dados direitos específicos sobre seus dados pessoais; esses direitos incluem a obtenção de cópias, a solicitação de correções, a restrição do processamento e a exclusão de dados pessoais, ou o seu recebimento em formato eletrônico para que possam ser transferidos para outro controlador. Um pedido formal de uma entidade de dados a um controlador para efetuar uma ação nos seus dados pessoais é chamado de *Solicitação de Entidade de Dados* ou DSR. O controlador é obrigado a considerar prontamente cada DSR e fornecer uma resposta substantiva, seja tomando a ação solicitada, seja fornecendo uma explicação de por que a DSR não pode ser recebida pelo controlador. Os controladores devem consultar seus próprios consultores legais ou de conformidade com relação às medidas adequadas para qualquer DSR.
+O [Regulamento Geral de Proteção de Dados da União Europeia (RGPD)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) concede direitos a pessoas (conhecidas no regulamento como *entidades de dados*) para gerenciar os dados pessoais que foram coletados por um empregador ou outro tipo de agência ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos de forma ampla no âmbito do RGPD como qualquer dado relacionado a uma pessoa natural identificada ou identificável. O RGPD concede às entidades de dados direitos específicos sobre seus dados pessoais; esses direitos incluem a obtenção de cópias, a solicitação de correções, a restrição do processamento e a exclusão de dados pessoais, ou o seu recebimento em formato eletrônico para que possam ser transferidos para outro controlador. Um pedido formal de uma entidade de dados a um controlador para efetuar uma ação nos seus dados pessoais é chamado de *Solicitação de Entidade de Dados* ou DSR. O controlador é obrigado a considerar prontamente cada DSR e fornecer uma resposta substantiva, seja tomando a ação solicitada, seja fornecendo uma explicação do por que a DSR não pode ser recebida pelo controlador. Os controladores devem consultar seus próprios consultores legais ou de conformidade com relação às medidas adequadas para qualquer DSR.
 
-O guia aborda como usar os produtos, os serviços e as ferramentas administrativas do Office 365, de modo que ajudem você a encontrar dados pessoais e agir em relação aos dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia:
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais. O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
-- **Descoberta:** use ferramentas de pesquisa e descoberta para localizar com mais facilidade os dados de clientes que possam estar sujeitos a uma DSR. Assim que os documentos potencialmente dinâmicos forem coletados, você pode executar uma ou mais ações de DSR descritas nas etapas a seguir a fim de responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes de sua organização para responder a DSRs.
+O guia aborda como usar produtos, serviços e ferramentas administrativas do Office 365 para ajudá-lo a encontrar e a trabalhar com dados pessoais ou informações pessoais para responder ao DSRs. Especificamente, isso inclui como localizar, acessar e atuar em dados pessoais ou informações pessoais que estão na nuvem da Microsoft. Veja a seguir uma visão geral rápida dos processos descritos neste guia:
+
+- **Descobrir** – use ferramentas de pesquisa e descoberta para localizar dados pessoais que possam ser a entidade de uma solicitação DSR. Após a coleta dos documentos que atendem à solicitação, você pode executar uma ou mais das ações de DSR a seguir para responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes da sua organização para responder às solicitações DSR.
 - **Acesso:** recupere dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
 - **Retificação:** faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
-- **Restrição:** restrinja o processamento de dados pessoais, removendo licenças de diversos serviços do Azure ou desativando os serviços desejados, quando possível. Você também pode remover dados da nuvem da Microsoft e mantê-los no local ou onde preferir.
+- **Restringir:** restrinja o processamento de dados pessoais, removendo licenças para vários serviços do Azure ou desativando os serviços desejados sempre que possível. Você também pode remover dados da nuvem da Microsoft e retê-los localmente ou em outro lugar.
 - **Exclusão:** remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
-- **Exportação:** forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para a entidade de dados.
+- **Exportar/Receber (Portabilidade): ** forneça uma cópia eletrônica (em formato legível para computador) de dados pessoais ou informações pessoais para o titular dos dados. Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há distinção entre as funções pública, privada ou corporativa de uma pessoa. O termo definido como "informações pessoais" se alinha aproximadamente com "dados pessoais" do RGPD. No entanto, o CCPA também inclui dados da família e do domicílio. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
 ### <a name="terminology"></a>Terminologia
 
@@ -183,13 +187,13 @@ Este exemplo retorna arquivos do Excel ou sites do SharePoint Online e contas do
 
 ***Sintaxe da palavra-chave***
 
-```
+```Query
 pilar@contoso.com AND filetype="xlxs"
 ```
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image18.png)
+![caixa de diálogo palavra-chave](media/O365-DSR-Doc_image18.png)
 
 ##### <a name="example-2"></a>Exemplo 2
 
@@ -199,19 +203,19 @@ Este exemplo retorna arquivos do Excel ou Word nos sites do SharePoint Online e 
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image19.png)
+![caixa de diálogo palavra-chave](media/O365-DSR-Doc_image19.png)
 
 ##### <a name="example-3"></a>Exemplo 3
 
 Este exemplo retorna mensagens de email que contêm o número de identificação especificado, que é o Número de Inscrição na Previdência Social na França (INSEE)
 
-```
+```Query
 "1600330345678 97" AND kind="email"
 ```
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image20.png)
+![caixa de diálogo palavra-chave](media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Trabalhar com itens parcialmente indexados na Pesquisa de Conteúdo
 
@@ -281,13 +285,13 @@ Os usuários finais podem descobrir, acessar e retificar dados do perfil de usu�
 
 Outra maneira de os usuários acessarem os dados de perfil do SharePoint é navegar até a **página de edição de perfil** na conta do OneDrive for Business, que pode ser acessada pelo caminho **EditProfile.aspx** sob a URL da conta do OneDrive for Business. Por exemplo, para um usuário <strong>usuario1@contoso.com</strong>, a conta do OneDrive for Business dele está localizada em:
 
-```
+```URL
 `https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx`
 ```
 
 A URL para a página de edição de perfil seria:
 
-```
+```URL
 `https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx`
 ```
 
@@ -357,9 +361,11 @@ Veja a seguir as diretrizes específicas para pesquisar um Bloco de Anotações 
 3. Selecione esse item e copie o caminho da pasta que é exibido no painel de detalhes. Essa é a pasta raiz do Bloco de Anotações de Classe.
 4. Edite a pesquisa que você criou na etapa 1, substitua o nome da classe na consulta de palavra-chave pelo caminho da pasta do Bloco de Anotações de Classe e preceda o caminho da pasta com a propriedade do site **caminho**; por exemplo, **caminho:<https://contosoedu.onmicrosoft.com/sites/9C> Biology/SiteAssets/9C Biology Notebook/**. Certifique-se de incluir as aspas e a barra à direita.
 5. Adicione uma condição de pesquisa e selecione a condição Tipo de Arquivo e use um para o valor do tipo de arquivo.  Isso retorna todos os arquivos do OneNote nos resultados da pesquisa. A sintaxe da palavra-chave resultante seria parecida com esta: [](#building-search-queries-to-find-personal-data)
-    ```
+
+    ```Query
    path:"<https://contosoedu.onmicrosoft.com/sites/9C> Biology/SiteAssets/9C Biology Notebook/" AND filetype="one"
    ```
+
 6.  Executar novamente a Pesquisa de Conteúdo. Os resultados da pesquisa devem incluir todos os arquivos do OneNote para o Bloco de Anotações de Classe da equipe da classe.
 
 #### <a name="microsoft-to-do"></a>Microsoft To Do
@@ -426,13 +432,13 @@ Quando você exporta os resultados de uma Pesquisa de Conteúdo, os itens de ema
 Para exportar e baixar itens:
 
 1. Abra a Pesquisa de Conteúdo no Centro de Conformidade e Segurança.
-2. Na página do submenu de pesquisa, clique em ![](media/o365-dsr_image21.png) **Mais** e em **Exportar resultados**.  Também é possível exportar um relatório.
+2. Na página do submenu de pesquisa, clique em ![carregar ícone](media/o365-dsr_image21.png) **Mais**, e em **Exportar resultados**. Também é possível exportar um relatório.
 3. Conclua as seções na página do submenu **Exportar resultados**. Certifique-se de usar a barra de rolagem para exibir todas as opções de exportação.
 4. Volte para a página Pesquisa de Conteúdo no Centro de Conformidade e Segurança e clique na guia **Exportar**.
 5. Clique em **Atualizar** para atualizar a página.
 6. Na coluna **Nome**, clique no trabalho de exportação que você criou. O nome do trabalho de exportação é o nome da pesquisa de conteúdo acrescido de **\_Export**.
 7. Na página do submenu de exportação, em **Chave de exportação**, **clique em copiar para a área de transferência**. Você usará essa chave na etapa 10 para baixar os resultados da pesquisa.
-8. Na parte superior da página do submenu, clique em ![](media/o365-dsr_image21.png) **Baixar resultados**.
+8. Na parte superior da página do submenu, clique em ![baixar ícone](media/o365-dsr_image21.png) **Baixar resultados**.
 9. Caso você receba uma solicitação para instalar a **Ferramenta de Exportação de Descoberta Eletrônica do Office 365**, clique em **Instalar**.
 10. Na **Ferramenta de Exportação de Descoberta Eletrônica**, cole na caixa apropriada a chave de exportação que você copiou na etapa 7.
 11. Clique em **Procurar** para especificar o local onde deseja baixar os arquivos de resultado da pesquisa.
@@ -847,13 +853,16 @@ Arquivos de alunos associados a um envio de tarefa são armazenados na bibliotec
 
 Um administrador pode usar a ferramenta Pesquisa de Conteúdo no Centro de Conformidade e Segurança do Office 365 para procurar arquivos de alunos (nas bibliotecas de Trabalho do Aluno e Arquivos da Classe) relacionados a envios em tarefas e arquivos relacionados a tarefas. Por exemplo, um administrador pode pesquisar todos os sites do SharePoint na organização e usar o nome do aluno e o nome da classe ou tarefa na consulta de pesquisa para localizar dados relevantes para uma solicitação de DSR.
 
-Da mesma forma, um administrador pode pesquisar arquivos do professor relacionados a tarefas para arquivos que um professor distribuiu aos alunos. Por exemplo, um administrador pode pesquisar todos os sites do SharePoint na organização e usar o nome do professor e o nome da classe ou atribuição na consulta de pesquisa para localizar dados relevantes para uma solicitação de DSR.
+Da mesma forma, um administrador pode pesquisar arquivos de professores relacionados a tarefas de arquivos que um professor distribuiu aos alunos. Por exemplo, um administrador pode pesquisar todos os sites do SharePoint na organização e usar o nome do professor e a classe ou o nome da tarefa na consulta de pesquisa para localizar dados relevantes para uma solicitação DSR.
 
-Veja a [seção Usando a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo para responder a DSRs](#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) neste guia.
+Para saber mais, confira:
+
+- [Documentação do Administrador de Tarefas ](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-admin-documentation)
+- [Usar a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo para responder a DSRs](#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) (neste guia)
 
 ##### <a name="finding-assignments-data-not-stored-in-sharepoint"></a>Localizar dados de tarefas não armazenados no SharePoint
 
-Os seguintes tipos de dados do Assignments não são armazenados no site do SharePoint de equipe de classe e, portanto, não podem ser descobertos usando a Pesquisa de Conteúdo.  Esses dados incluem o seguinte:
+Os seguintes tipos de dados de Tarefas não são armazenados no site do SharePoint de equipe de classe e, portanto, não podem ser descobertos usando a Pesquisa de Conteúdo.  Esses dados incluem o seguinte:
 
 - Notas do aluno e comentários do professor
 - A lista de documentos enviados para uma atribuição por cada aluno
@@ -865,24 +874,27 @@ Mesmo que um aluno não faça mais parte de uma classe, os dados podem ainda est
 
 ##### <a name="export"></a>Exportar
 
-Você pode exportar dados de tarefas para um aluno específico para todas as classes em que o aluno está matriculado atualmente usando um script do PowerShell. Confira:
+Você pode exportar dados de tarefas de um aluno específico para todas as classes nas quais o aluno está inscrito usando um script do PowerShell para obter uma lista de classes para o aluno e usar um script do PowerShell para exportar os dados. Confira:
 
-- [Usar scripts para exportar e excluir dados de usuários de Atribuições](https://support.office.com/article/04473375-6c00-4dda-bfe5-b55a772958fe).
-- [Exportar dados de alunos e professores de tarefas](https://support.office.com/article/e8c36e0e-fb6e-42c5-97fd-66f90f92a13a).
+- [Configurar Tarefas para o Teams](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [Obter uma lista de classes para um aluno específico](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
+- [Exportar dados de alunos e professores de tarefas](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-export).
 
 Se o aluno foi removido do Site de Equipe de classe, o administrador pode adicionar o aluno ao site antes de executar o script de exportação. Ou então, o administrador pode usar o arquivo de entrada do script para identificar todas as classes em que o aluno já foi registrado. Você também pode usar o script de exportação de tarefa para exportar dados de envios de todas as tarefas às quais um professor tem acesso.
 
 ##### <a name="delete"></a>Excluir
 
-Você pode excluir dados do Assignments de um aluno específico para todas as classes em que o aluno está matriculado atualmente usando um script do PowerShell. Faça isso antes de remover o aluno da classe. Confira:
+Você pode excluir dados de tarefas de um aluno específico para todas as classes nas quais o aluno está inscrito usando um script do PowerShell para obter uma lista de classes para o aluno e usar um script do PowerShell para excluir os dados. Faça isso antes de remover o aluno da classe. Confira:
 
-- [Usar scripts para exportar e excluir dados de usuários de Atribuições](https://support.office.com/article/04473375-6c00-4dda-bfe5-b55a772958fe).
-
-- [Excluir dados de alunos de Tarefas](https://support.office.com/article/a368853a-9565-4320-8e86-2f9423e932a4).
+- [Configurar Tarefas para o Teams](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [Obter uma lista de classes para um aluno específico](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
+- [Excluir dados de alunos de Tarefas](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-delete).
 
 Se o aluno foi removido do site de Equipe de Classe, o administrador pode adicionar o aluno de volta ao site antes de executar o script de exportação. Ou então, o administrador pode usar o arquivo de entrada do script para identificar todas as classes em que o aluno já foi registrado. Não é possível usar o script de exclusão de tarefas para excluir dados do professor, pois todas as tarefas são compartilhadas no site de Equipe de Classe. Como alternativa, um administrador precisaria se adicionar ao site de Equipe de Classe e excluir uma tarefa específica.
 
-**Bloco de anotações de classe:** a pesquisa de conteúdo no bloco de anotações de classe é discutida anteriormente neste guia. Veja a seção [Bloco de anotações de classe do OneNote](#onenote-class-notebook). Você também pode usar a ferramenta Pesquisa de Conteúdo para exportar dados de um bloco de anotações de classe. Como alternativa, um administrador ou a entidade de dados pode exportar dados de um bloco de anotações de classe. Confira [Salvar uma cópia de um bloco de anotações de classe](https://support.office.com/article/44733e18-0ef1-4d4b-be51-fc2ac5bfe9ec).
+#### <a name="class-notebook"></a>Bloco de Anotações de Classe
+
+A pesquisa de conteúdo no bloco de anotações de classe é discutida anteriormente neste guia. Veja a seção [Bloco de anotações de classe do OneNote](#onenote-class-notebook). Você também pode usar a ferramenta Pesquisa de Conteúdo para exportar dados de um bloco de anotações de classe. Como alternativa, um administrador ou a entidade de dados pode exportar dados de um bloco de anotações de classe. Confira [Salvar uma cópia de um bloco de anotações de classe](https://support.office.com/article/44733e18-0ef1-4d4b-be51-fc2ac5bfe9ec).
 
 ### <a name="flow"></a>Flow
 
@@ -1073,7 +1085,7 @@ O PowerApps é um serviço para criar aplicativos que podem ser compartilhados e
 
 Para ajudar a facilitar uma solicitação DSR relacionada ao PowerApps, você pode usar as operações de administração expostas no [Centro de Administração do PowerApps](https://admin.powerapps.com/) e [cmdlets do PowerShell de Administração do PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).  Acessar estas ferramentas exigirá uma conta com as seguintes permissões:
 
-- Uma licença paga de Plano 2 do PowerApps ou uma licença de avaliação de Plano 2 do PowerApps. Você pode assinar uma licença de avaliação de avaliação de 30 dias [aqui](http://web.powerapps.com/trial). 
+- Uma licença paga de Plano 2 do PowerApps ou uma licença de avaliação de Plano 2 do PowerApps. Você pode assinar uma licença de avaliação de avaliação de 30 dias [aqui](https://web.powerapps.com/trial). 
 - [Administrador global do Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) ou
 - [Administrador global do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
@@ -1168,7 +1180,7 @@ Depois que conteúdo relevante do StaffHub é encontrado, você pode exibir e fa
 - **Arquivos compartilhados:** todos os arquivos no StaffHub são armazenados no SharePoint Online e, portanto, podem ser descobertos, acessados e exportados usando a Pesquisa de Conteúdo conforme descrito anteriormente. Eles também podem ser visualizados no StaffHub sob a guia **Arquivos**.
 - **Mensagens:** atualmente, as mensagens podem ser acessadas seguindo as etapas sobre como acessar dados específicos do usuário no próximo item. No futuro, todas as mensagens no StaffHub serão armazenadas no Microsoft Teams, o que significa que você poderá usar a ferramenta Pesquisa de Conteúdo para acessá-las.
 - **Dados específicos do usuário:** os dados específicos do usuários consistem em configurações do usuário, feed de atividades do usuário e histórico de solicitações de deslocamento do usuário, nenhum dos quais pode ser visualizado por membros da equipe os administradores. Para acessar ou exportar dados específicos do usuário, peça à entidade de dados que faça logon em sua conta do StaffHub para obtê-los. Como alternativa, se a entidade de dados tiver saído da sua organização, você poderá obter esses dados fazendo com que seu administrador redefina a senha do usuário para a entidade de dados para permitir que você ou o administrador façam logon na conta.
-- **Kronos:** O StaffHub suporta conexões com o [Kronos](http://www.kronos.com/), que é uma ferramenta de gerenciamento de força de trabalho terceirizada. O StaffHub e o Kronos são processadores independentes e processam os dados da sua organização sob os termos individuais que você assinou com cada uma das partes. Se a sua DSR se referir a dados mantidos pelo Kronos, você precisará entrar em contato com o Kronos para obter ajuda com a DSR, e vice-versa.
+- **Kronos:** O StaffHub suporta conexões com o [Kronos](https://www.kronos.com/), que é uma ferramenta de gerenciamento de força de trabalho terceirizada. O StaffHub e o Kronos são processadores independentes e processam os dados da sua organização sob os termos individuais que você assinou com cada uma das partes. Se a sua DSR se referir a dados mantidos pelo Kronos, você precisará entrar em contato com o Kronos para obter ajuda com a DSR, e vice-versa.
 
 #### <a name="delete"></a>Excluir
 
@@ -1205,7 +1217,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 #### <a name="discover"></a>Descobrir
 
-O conteúdo criado usando o Sway (encontrado em [www.sway.com](http://www.sway.com)) pode ser visto apenas pelo proprietário e por aqueles que o autor deu permissão para exibir o Sway.  Confira [Configurações de privacidade no Sway](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).  Para determinar se o Sway é um local onde provavelmente dados pessoais responsivos à sua DSR residem, você pode pedir ao Titular dos Dados e aos usuários organizacionais que provavelmente têm conteúdo gerado sobre o Titular dos Dados para pesquisar seus Sways e compartilhar com você rodos os Sways que provavelmente contêm dados pessoais responsivos à solicitação do Titular dos Dados. Para obter informações sobre como compartilhar um Sway, confira Compartilhar um Sway da sua Conta Organizacional” no artigo [Compartilhar o Sway](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998).
+O conteúdo criado usando o Sway (encontrado em [www.sway.com](https://www.sway.com)) pode ser visto apenas pelo proprietário e por aqueles que o autor deu permissão para exibir o Sway.  Confira [Configurações de privacidade no Sway](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).  Para determinar se o Sway é um local onde provavelmente dados pessoais responsivos à sua DSR residem, você pode pedir ao Titular dos Dados e aos usuários organizacionais que provavelmente têm conteúdo gerado sobre o Titular dos Dados para pesquisar seus Sways e compartilhar com você rodos os Sways que provavelmente contêm dados pessoais responsivos à solicitação do Titular dos Dados. Para obter informações sobre como compartilhar um Sway, confira Compartilhar um Sway da sua Conta Organizacional” no artigo [Compartilhar o Sway](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998).
 
 #### <a name="access"></a>Access
 
@@ -1531,7 +1543,7 @@ Os usuários podem excluir as seguintes informações no Delve:
 
 ### <a name="myanalytics"></a>MyAnalytics
 
-O MyAnalytics fornece estatísticas aos usuários para ajudar na compreensão de como eles usam o tempo no trabalho. Para ajudar os usuários a entenderem melhor os dados que são apresentados a eles no painel pessoal e como esses dados são calculados, direcione os usuários para o tópico da Ajuda [Painel pessoal do MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard).
+O MyAnalytics fornece estatísticas aos usuários para ajudar na compreensão de como eles usam o tempo no trabalho. Para ajudar os usuários a entenderem melhor os dados que são apresentados a eles no painel pessoal e como esses dados são calculados, direcione os usuários para o tópico da Ajuda [Painel pessoal do MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2).
 
 #### <a name="access-and-export"></a>Acessar e exportar
 
@@ -1543,7 +1555,7 @@ Todos os insights gerados pelo MyAnalytics são derivados dos itens de calendár
 
 #### <a name="restrict"></a>Restringir
 
-Para restringir o processamento para um usuário específico, você pode optar por retirá-lo do MyAnalytics. Para saber como, confira o artigo sobre [definição das configurações de usuário do MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-mya-user-settings).
+Para restringir o processamento para um usuário específico, você pode optar por retirá-lo do MyAnalytics. Para saber como, confira o artigo sobre [definição das configurações de usuário do MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics).
 
 #### <a name="delete"></a>Excluir
 
@@ -1551,7 +1563,7 @@ Todo o conteúdo da caixa de correio, incluindo dados de MyAnalytics, é descart
 
 ### <a name="workplace-analytics"></a>Workplace Analytics
 
-O Workplace Analytics permite que as organizações aumentem os dados do Office 365 com seus próprios dados corporativos para obter insights sobre a produtividade organizacional, os padrões de colaboração e o engajamento do funcionário. [Este artigo](https://docs.microsoft.com/workplace-analytics/overview/privacy-and-data-access) explica o controle que a sua organização tem sobre os dados que o Workplace Analytics processa e quem tem acesso a esses dados.
+O Workplace Analytics permite que as organizações aumentem os dados do Office 365 com seus próprios dados corporativos para obter insights sobre a produtividade organizacional, os padrões de colaboração e o engajamento do funcionário. [Este artigo](https://docs.microsoft.com/workplace-analytics/index-orig) explica o controle que a sua organização tem sobre os dados que o Workplace Analytics processa e quem tem acesso a esses dados.
 
 Para ajudar com as DSRs no Workplace Analytics: 
 
@@ -1580,7 +1592,7 @@ Para remover dados pessoais de um assunto de dados, o administrador global do Of
 1. Remover a licença do Workplace Analytics do assunto de dados.
 2. Exclua a entrada do Azure Active Directory (AAD) para o assunto dos dados. (Para saber mais, confira [excluir um usuário](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user).)
 3. Contate o suporte e obtenha ajuda para a abrir um ticket de exclusão de usuário do Direitos de Assunto dos Dados (DSR). Nesse ticket identifique o assunto dos dados usando o Nome Principal do Usuário (UPN).
-4. Exporte uma cópia dos dados de RH do sistema de RH da empresa (consulte [exportar dados](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data#step-three--export-data)), remova informações do assunto dos dados desse arquivo de dados de RH e carregue o arquivo de dados de RH editado no formato. csv para o Workplace Analytics (consulte [Carregar dados organizacionais](https://docs.microsoft.com/workplace-analytics/setup/upload-organizational-data)).
+4. Exporte uma cópia dos dados de RH do sistema de RH da empresa (consulte [exportar dados](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data)), remova informações do assunto dos dados desse arquivo de dados de RH e carregue o arquivo de dados de RH editado no formato. csv para o Workplace Analytics (consulte [Carregar dados organizacionais](https://docs.microsoft.com/workplace-analytics/setup/upload-organizational-data)).
 
 ## <a name="part-3-responding-to-dsrs-for-system-generated-logs"></a>Parte 3: Responder às DSRs para logs gerados pelo sistema
 
@@ -1625,7 +1637,7 @@ A seguir há um resumo do acesso e da exportação de logs de gerados pelo siste
 
 - **Como serão os dados nos registros gerados pelo sistema?:** Exemplo de um registro de log gerado pelo sistema no formato JSON:
 
-   ```
+   ```JSON
    [{
             "DateTime": "2017-04-28T12:09:29-07:00",
              "AppName": "SharePoint",
@@ -1666,7 +1678,7 @@ Excluir uma conta de usuário não removerá logs geradas pelo sistema para o Ya
 Um administrador de TI global precisará fazer o seguinte para excluir logs gerados pelo sistema nestas nuvens nacionais:
 
 - Office 365 Germany: quando a conta de usuário for excluída permanentemente, os logs gerados pelo sistema também serão excluídos. 
-- Office 365 US Government: envie uma solicitação ao Suporte da Microsoft por meio do [portal de administração do Office 365](http://portal.office365.us).
+- Office 365 US Government: envie uma solicitação ao Suporte da Microsoft por meio do [portal de administração do Office 365](https://portal.office365.us).
 - Office 365 operado pela 21Vianet (China): envie uma solicitação ao Suporte da Microsoft por meio do portal de administração do Office 365 nesta [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage). Vá para **Comércio** e selecione **Assinatura** -> **Privacidade** -> **RGPD** e insira as informações necessárias.
 
 ## <a name="part-4-additional-resources-to-assist-you-with-dsrs"></a>Parte 4: Recursos adicionais para ajudar com as DSRs
@@ -1784,4 +1796,5 @@ A tabela a seguir lista as alterações ao guia DSR do Office 365 desde sua publ
 |9/1/2019|[StaffHub](#staffhub)|Na seção Excluir, foi atualizada a descrição do que acontece quando uma conta de usuário é excluída permanentemente.|
 |8/5/2019| [Publisher](#publisher)|Conteúdo adicional sobre como responder os DSRs para o Publisher.|
 |11/7/2019| [MyAnalytics](#myanalytics)|A capacidade de um administrador de usar a ferramenta de ocorrência de DSR no Centro de Conformidade e Segurança do Office 365 de exportar dados do MyAnalytics foi removida porque todos os usuários podem ver seus dados no aplicativo MyAnalytics. |
+|11/6/2019 |[Educação](#education)|Vinculado a novos tópicos sobre o uso de scripts do PowerShell para obter uma lista de classes para um aluno específico e, em seguida, exportar ou excluir seus dados.|
 ||||
