@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323386"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668779"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business
 
@@ -32,6 +32,9 @@ Qualquer dispositivo Windows 10 que esteja associado ao Azure Active Directory t
 Para saber mais, confira [Introduction to Device Management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 As etapas também são resumidas nas seções a seguir.
 
+> [!IMPORTANT]
+> Este procedimento só é aplicável ao OAuth e ao NTLM. Não há suporte para Kerberos.
+ 
 ## <a name="run-azure-ad-connect"></a>Executar o Azure AD Connect
 
 Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure AD da sua organização para acessar recursos locais.
@@ -43,6 +46,8 @@ Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure A
 3. Depois que os dispositivos Windows 10 são associados ao Azure AD, cada usuário deve reinicializar seus dispositivos e entrar com suas credenciais de negócios do Microsoft 365. Agora, todos os dispositivos também têm acesso a recursos locais.
     
 Nenhuma etapa adicional é necessária para obter acesso a recursos locais para dispositivos ingressados no Azure AD. Essa funcionalidade é incorporada no Windows 10. 
+
+Se você planeja fazer logon no dispositivo AADJ que não seja o método de senha, como PIN/bio-Metric via login de credencial do WHFB e, em seguida, acesse recursos locais (compartilhamentos, impressoras. etc.), sigahttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Se sua organização não estiver pronta para implantar na configuração de dispositivo associado ao Azure AD, descrita acima, considere configurar a [configuração do dispositivo associado ao Azure ad híbrido](manage-windows-devices.md).
   

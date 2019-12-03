@@ -1,7 +1,7 @@
 ---
 title: Número do Passport da UE
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 8/16/2018
 audience: Admin
@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: fa3be04dec0f71a2568e046abd6b0af3e20181c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 44ee6e7b46d79772bcd3aec0fd26265f58f6c4c6
+ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072667"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39662796"
 ---
 # <a name="eu-passport-number"></a>Número do Passport da UE
 
 Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
   
-## <a name="austria"></a>Áustria 
+## <a name="austria"></a>Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -66,7 +66,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 |:-----|
 |passport number  <br/> número de passaporte austríaco  <br/> Passport não  <br/> reisepass  <br/> österreichisch reisepass  <br/> |
    
-## <a name="belgium"></a>Bélgica 
+## <a name="belgium"></a>Bélgica
 
 ### <a name="format"></a>Formatar
 
@@ -349,7 +349,7 @@ Para obter detalhes, consulte a seção "número do passaporte da França" em [o
   
 ## <a name="germany"></a>Alemanha
 
-Para obter detalhes, consulte a seção "número de passaporte da Alemanha" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).
+Para obter detalhes, consulte a seção "número do passaporte em alemão" em [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).
   
 ## <a name="greece"></a>Grécia
 
@@ -939,5 +939,5 @@ Para obter detalhes, consulte a seção "U.S./Reino Unido Número do Passport "n
   
 ## <a name="see-also"></a>Confira também
 
-[O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
+[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 

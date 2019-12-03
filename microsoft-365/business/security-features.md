@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business.
-ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 98eb0c2015ed6088b2d5e8621c8e72a5b63f2a17
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715133"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668839"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
 
@@ -74,7 +74,8 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
     Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não está disponível através da Microsoft 365 centro de administração de negócios.
 - **Mesmo [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) que o plano P1 do Azure AD**
 
-    O acesso condicional pode ajudar a proteger sua organização contra o risco de entrada, as tentativas de acesso de uma rede ou localidade inesperada, o acesso tenta de tipos de dispositivos arriscados e assim por diante. As políticas de acesso condicional são aplicadas depois que a primeira autenticação é concluída e usa sinais do primeiro evento de autenticação para determinar se o acesso tentado deve ser aprovado, negado ou se é mais uma prova (como a segunda forma de a identificação) é necessária.
+
+    O acesso condicional pode ajudar a proteger sua organização contra o risco de entrada, as tentativas de acesso de uma rede ou localidade inesperada, o acesso tenta de tipos de dispositivos arriscados e assim por diante. As políticas de acesso condicional são aplicadas depois que a primeira autenticação é concluída e usa sinais do primeiro evento de autenticação para determinar se o acesso tentado deve ser aprovado, negado ou se for mais uma prova (como uma segunda forma de identificação) é necessário.
 
     Os recursos de acesso condicional incluídos são:
 

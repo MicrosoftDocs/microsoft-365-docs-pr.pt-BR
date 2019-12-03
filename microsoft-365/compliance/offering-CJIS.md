@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 52b5718ecbd558cf1bf5e89702b6574c87841040
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7fb31d007b7935d8a2beef93b80ca1958c7a3a27
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690029"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668809"
 ---
 # <a name="compliance-offering-criminal-justice-information-services-cjis-security-policy"></a>Oferta de conformidade: política de segurança de serviços de informações de Justiça (CJIS) criminais
 
@@ -40,12 +40,12 @@ Saiba mais sobre os benefícios da política de segurança do CJIS na nuvem da M
 
 Saiba como acelerar sua política de segurança do CJIS com o plano de conformidade e segurança do Azure: [Baixe as diretrizes de implementação do CJIS para os serviços de nuvem do Microsoft governo](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
 - [Office 365 governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -53,13 +53,13 @@ O FBI não oferece certificação de conformidade da Microsoft com os requisitos
 
 [Requisitos de nuvem do Microsoft CJIS](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-## <a name="cjis-status-in-the-united-states"></a>Status CJIS nos Estados Unidos
+## <a name="cjis-status-in-the-united-states-current-as-of-9232019"></a>CJIS status nos Estados Unidos (atual a partir de 9/23/2019)
 
-36 Estados e o distrito de Columbia com acordos de gerenciamento, realçado no mapa em verde incluem:
+37 Estados e o distrito de Columbia com acordos de gerenciamento, realçado no mapa em verde incluem:
 
-Alabama, Alasca, Arkansas, Arizona, Califórnia, Colorado, Flórida, Georgia, Havaí, Illinois, Indiana, Iowa, Kansas, Kentucky, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana, New Jersey, Nova York, Nevada, Carolina do Norte, Oklahoma, Oregon, Pensilvânia, Rhode Island, Carolina do Sul, Tennessee, Texas, Utah, Vermont, Virgínia, Washington, Washington D.C., West Virgínia.
+Alabama, Alasca, Arkansas, Arizona, Califórnia, Colorado, Flórida, Georgia, Havaí, Illinois, Indiana, Iowa, Kansas, Kentucky, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana, New Jersey, Nova York, Nevada, Carolina do Norte, Oklahoma, Oregon, Pensilvânia, Rhode Island, Carolina do Sul, Tennessee, Texas, Utah, Vermont, Virgínia, Washington, Washington D.C., West Virgínia, Wisconsin.
 
-O compromisso da Microsoft com a reunião dos controles normativos CJIS permite que as organizações de Justiça criminais implementem soluções baseadas em nuvem e estejam em conformidade com a política de segurança do CJIS V 5.7.
+O compromisso da Microsoft com a reunião dos controles normativos CJIS permite que as organizações de Justiça criminais implementem soluções baseadas em nuvem e estejam em conformidade com a política de segurança do CJIS V 5,8.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -71,8 +71,6 @@ Entre em contato com seu representante de conta da Microsoft para obter informa�
 
 A Microsoft assina um contrato de informação com um CSA (CJIS Systems Agency) de estado; Você pode solicitar uma cópia da CSA do seu estado. Além disso, a Microsoft fornece aos clientes informações detalhadas de segurança, privacidade e conformidade. Os clientes também podem analisar os relatórios de segurança e conformidade preparados por auditores independentes para que eles possam validar que a Microsoft implementou os controles de segurança (como ISO 27001) apropriados para o escopo de auditoria relevante.
 
-Estados com a documentação apropriada do CJIS, a partir de agosto de 2017, incluem: Alasca, Arizona, Arkansas, Califórnia, Colorado, Havaí, Georgia, Illinois, Indiana, Iowa, Kansas,, Massachusetts, Michigan, Minnesota, Missouri, Montana , Nova York, Carolina do Norte, Oregon, Pensilvânia, Rhode Island, Carolina do Sul, Tennessee, Texas, Virgínia, Utah, Vermont e Washington.
-
 **Onde começo com o esforço de conformidade da Agência?**
 
 [CJIS política de segurança](https://aka.ms/cjis-security-policy) cobre as precauções que a Agência deve tomar para proteger o CJI. Além disso, seu representante de conta da Microsoft pode colocá-lo em contato com aqueles familiarizados com os requisitos de sua jurisdição
@@ -83,10 +81,10 @@ Estados com a documentação apropriada do CJIS, a partir de agosto de 2017, inc
 - [Política de segurança do CJIS](https://aka.ms/cjis-security-policy)
 - [CJIS Security Policy versão 5,3 Backgrounder](https://aka.ms/cjis-backgrounder)
 - [Diretrizes de implementação do CJIS para o governo do Azure](https://aka.ms/cjisimplementationguidelines)
-- [Estrutura de conformidade do hub de controles comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Nuvem do Microsoft governamental](https://go.microsoft.com/fwlink/?linkid=2087246)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/?linkid=2087246)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf).
