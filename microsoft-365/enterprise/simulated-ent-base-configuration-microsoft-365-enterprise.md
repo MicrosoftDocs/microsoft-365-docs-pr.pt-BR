@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de laboratório de teste para criar um ambiente de teste corporativo simulado para o Microsoft 365 Enterprise.
-ms.openlocfilehash: b89df6cad03084a8d9119f03f5c07d01a9c96061
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: febfa4e9ce3fdc430cf53a9cce61a15f0a4247fb
+ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202365"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39662806"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>A configuração base corporativa simulada
 
@@ -261,7 +261,7 @@ Em seguida, adicione a máquina virtual APP1 ao domínio TestLab com estes coman
   
 ```powershell
 $yourDomain="<your public domain name>"
-Add-Computer -DomainName ("testlab" + $yourDomain)
+Add-Computer -DomainName ("testlab." + $yourDomain)
 Restart-Computer
 ```
 
@@ -319,7 +319,7 @@ Em seguida, adicione a máquina virtual do CLIENT1 ao domínio TestLab com estes
   
 ```powershell
 $yourDomain="<your public domain name>"
-Add-Computer -DomainName ("testlab" + $yourDomain)
+Add-Computer -DomainName ("testlab." + $yourDomain)
 Restart-Computer
 ```
 
