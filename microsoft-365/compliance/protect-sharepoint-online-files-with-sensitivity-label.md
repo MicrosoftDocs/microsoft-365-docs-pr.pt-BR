@@ -18,18 +18,18 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Resumo: aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.'
-ms.openlocfilehash: b5251d393249e9023f6f437cb3df6c074ebdf436
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: 51950bd3c9790dedd2801e98234ff16470db6421
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39637646"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668798"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>Proteger arquivos do SharePoint Online com um rótulo de confidencialidade
 
 Use as etapas deste artigo para configurar um rótulo de confidencialidade do Office 365 para fornecer criptografia e permissões para arquivos. Esses arquivos podem ser adicionados a uma biblioteca do SharePoint configurada para proteção altamente confidencial. Ou abra um arquivo diretamente do site e aplique o rótulo. A proteção de criptografia e permissões vai junto com um arquivo, mesmo quando ele é baixado do site. 
 
-Essas etapas são parte de uma solução maior de configuração da proteção altamente confidencial para sites do SharePoint e os arquivos dentro desses sites. Para saber mais, confira [Sites e arquivos seguros do SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection). 
+Essas etapas são parte de uma solução maior de configuração da proteção altamente confidencial para sites do SharePoint e os arquivos dentro desses sites. Para saber mais, confira [Sites e arquivos seguros do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
 
 Usar rótulos de confidencialidade em arquivos no SharePoint Online não é recomendável para todos os clientes, mas é uma opção para os clientes que precisam deste nível de proteção em um subconjunto de arquivos.
 
@@ -44,7 +44,7 @@ Para obter esse nível adicional de segurança para arquivos em um site de equip
 
 - Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para uso global e equipes privadas individuais.
 
-- Use um sub-rótulo de confidencialidade quando houver um grande número de rótulos ou quiser organizar rótulos paras equipes altamente confidenciais sob o rótulo altamente regulamentado.
+- Use um sub-rótulo de confidencialidade quando houver um grande número de rótulos ou quiser organizar rótulos paras equipes altamente confidenciais sob um rótulo de uso geral para arquivos muito confidenciais.
 
 Use [estas instruções](encryption-sensitivity-labels.md) para configurar um rótulo separado ou um sub-rótulo com as seguintes configurações:
 
@@ -67,7 +67,7 @@ Há duas maneiras de conceder aos usuários externos o acesso aos arquivos prote
 
 ## <a name="see-also"></a>Confira também
 
-[Proteger arquivos e sites do SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)
+[Proteger arquivos e sites do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
 [Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
