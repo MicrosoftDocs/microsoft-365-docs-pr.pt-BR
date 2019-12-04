@@ -1,7 +1,7 @@
 ---
 title: Exibir os relatórios de governança de dados
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 6/8/2018
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os relatórios de governança de dados no Centro de Conformidade e Segurança do Office 365, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
-ms.openlocfilehash: d6537c7c2c6f4bda9aad105ea5882e245a430f4c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6d761931cea171afb84e25fa0900bec7c3a2f3c2
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073272"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813901"
 ---
 # <a name="view-the-data-governance-reports"></a>Exibir os relatórios de governança de dados
 
@@ -34,7 +34,7 @@ Depois de criar rótulos, convém verificar se eles estão sendo aplicados ao co
     
 Todos esses relatórios mostram conteúdo rotulado do Exchange, SharePoint e OneDrive for Business.
   
-Você pode encontrar esses relatórios no Centro de Conformidade e Segurança \> **Governança de Dados** \> **Painel**.
+Você pode encontrar esses relatórios no Centro de Conformidade &amp; Segurança \> **Governança de Informações** \> **Painel**.
   
 ![Gráfico mostrando tendências de rótulo nos últimos 90 dias](media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   

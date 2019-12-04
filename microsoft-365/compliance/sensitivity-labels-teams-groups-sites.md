@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 72bdfef27ba20fabb0d59852e4e20425b2747425
-ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
+ms.openlocfilehash: a6c187227703395ed5fe3d926dabe30e6203fca5
+ms.sourcegitcommit: 909f18d6c497086899fa239b5b5e0bb91f1e7804
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/04/2019
-ms.locfileid: "39818833"
+ms.locfileid: "39819127"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -77,15 +77,15 @@ Estas imagens mostram:
   }
 ```
 
-O Office 365 não usa mais as classificações antigas para novos grupos e sites do SharePoint quando você habilita essa visualização. Se você usou a [classificação de site do Azure ad](/sharepoint/dev/solution-guidance/modern-experience-site-classification) ($setting ["classificationlist"]), os grupos e sites existentes ainda exibem as classificações antigas. Para exibir as novas classificações, converta-as. Para obter informações sobre como converter, confira [se você usou a classificação clássica de sites do Azure ad](#if-you-used-classic-azure-ad-site-classification).
+O Office 365 não usa mais as classificações antigas para novos grupos e sites do SharePoint quando você habilita essa visualização. Se você usou a [classificação de site do Azure ad](/sharepoint/dev/solution-guidance/modern-experience-site-classification) ($setting ["classificationlist"]), os grupos e sites existentes ainda exibem as classificações antigas. Para exibir as novas classificações, converta-as. Para obter informações sobre como converter, confira [se você usou a classificação clássica de sites do Azure ad](#if-you-used-classic-azure-ad-site-classification). 
 
-## <a name="set-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>Definir as configurações de site e de grupo ao criar (ou editar) rótulos de confidencialidade
+## <a name="set-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>Definir configurações de site e de grupo ao criar ou editar rótulos de sensibilidade
 
-Após habilitar a visualização, siga estas etapas para criar rótulos de confidencialidade. As alterações nessas configurações podem levar até 24 horas de sincronização.
+Após habilitar a visualização, siga estas etapas para criar ou editar rótulos de sensibilidade. Você deve concluir estas etapas para que os novos rótulos de sensibilidade funcionem com sites e grupos, mesmo que já tenha rótulos definidos. As alterações nessas configurações podem levar até 24 horas de sincronização.
 
 1. No centro de conformidade da Microsoft 365, selecione**Rótulos de sensibilidade**de **classificação** > .
 
-2. Selecione **criar um rótulo**.
+2. Selecione **criar um rótulo**. Se você já tiver um rótulo, pule para a próxima etapa.
 
 3. Selecione as opções desejadas e, na guia **configurações de site e grupo** , escolha:
 
@@ -97,6 +97,14 @@ Após habilitar a visualização, siga estas etapas para criar rótulos de confi
 
 > [!IMPORTANT]
 > Somente as configurações de site e grupo terão efeito quando você aplicar um rótulo a uma equipe, grupo ou site. Outras configurações, como a criptografia e a marcação de conteúdo, não são aplicadas a todo o conteúdo dentro da equipe, grupo ou site. Da mesma forma, se você criar um rótulo e não ativar as configurações de site e de grupo, o rótulo ainda estará disponível quando os usuários criarem equipes, grupos e sites, mas não fizer nada quando os usuários a aplicarem.
+
+[Saiba como publicar um rótulo de confidencialidade](/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do)
+
+## <a name="troubleshoot-sensitivity-label-deployment"></a>Solucionando problemas de implantação de rótulo de sensibilidade
+
+Se você tiver problemas ao criar um grupo Teams ou Office 365 após habilitar essas configurações ou fazer uma alteração na descrição de um rótulo, salve o rótulo, aguarde algumas horas e, em seguida, tente criar novamente o grupo Team ou Office 365.
+
+Se você ainda não conseguir ver o novo rótulo de confidencialidade do SharePoint Online, entre em contato com o suporte da Microsoft imediatamente.
 
 [Saiba como publicar um rótulo de confidencialidade](/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do)
 

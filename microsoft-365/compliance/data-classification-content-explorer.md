@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 6f062901acbf149f6fc56c266d10b370ed0c1112
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 9e9ad76d2bdd7f74368121346f7e04d1208803ff
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "39268415"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818853"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>Usando o explorador de conteúdo de classificação de dados (visualização)
 
@@ -27,7 +27,19 @@ O explorador de conteúdo de classificação de dados permite que os itens que f
 
 ## <a name="content-explorer"></a>Explorador de conteúdo
 
-O Explorador de conteúdo é uma representação atual dos itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização.
+O Explorador de conteúdo mostra uma imagem instantânea atual dos itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização.
+
+### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
+
+Uma **política DLP** ajuda a proteger informações confidenciais, que são definidas como um [tipo de informações confidenciais](data-loss-prevention-policies.md). O Microsoft 365 inclui [definições para vários tipos de informações confidenciais comuns](what-the-sensitive-information-types-look-for.md) em diferentes regiões, prontas para você usar. Por exemplo, um número de cartão de crédito, números de contas bancárias, números de ID nacionais e números de serviço Windows Live ID.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+Um [rótulo de confidencialidade](sensitivity-labels.md) é simplesmente uma marca que indica o valor do item para a sua organização. Ele pode ser aplicado manualmente ou automaticamente. Uma vez aplicado, ele é incorporado ao documento e o acompanhará em todos os lugares. Um rótulo de confidencialidade habilita vários comportamentos de proteção, como uma marca d' água obrigatória ou a criptografia. Com a proteção de ponto de extremidade habilitada, você pode até mesmo impedir que um item saia de seu controle organizacional.
+
+### <a name="retention-labels"></a>Rótulos de retenção
+
+Um [rótulo de retenção](labels.md) permite definir por quanto tempo um item rotulado será mantido e as etapas a serem seguidas antes de excluí-lo. Ele pode ser aplicado manualmente ou automaticamente através de políticas. Eles podem ajudar a sua organização a se manter em conformidade com as determinações regulamentares e legais.
 
 ![captura de tela do explorador de conteúdo](media/data-classification-content-explorer-1.png)
 
@@ -55,3 +67,4 @@ A conta que você usa para acessar o Explorador de conteúdo deve estar em uma o
 - [Rótulos de retenção](labels.md)
 - [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 - [Visão geral de políticas de retenção](retention-policies.md)
+- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)

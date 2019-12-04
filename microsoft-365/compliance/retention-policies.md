@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: e8014b04df0991c89c6f487b3f9d8e176b9cff75
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: caeec733b3b5722f25210d0d2566e1dd9a5cd95e
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "39637642"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818983"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -213,9 +213,9 @@ Como uma política no âmbito da organização, se uma política for aplicada a 
   
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
-Você também pode aplicar uma política de retenção a usuários específicos. Para fazer isso, ative o **Status** desse local e, em seguida, use os links para incluir ou excluir usuários, grupos do Office 365 ou locais específicos. 
+Você também pode aplicar uma política de retenção a usuários específicos, grupos do Office 365 ou sites. Para fazer isso, ative o **Status** desse local e, em seguida, use os links para incluir ou excluir usuários, grupos do Office 365 ou locais específicos. 
   
-No entanto, observe que os seguintes limites existem para uma política de retenção que inclui ou exclui mais de 1.000 usuários específicos:
+No entanto, observe que os seguintes limites existem para uma política de retenção que inclui ou exclui mais de 1.000 locais específicos:
   
 - Essa política de retenção pode conter, no máximo, 1.000 caixas de correio e 100 conjuntos de sites.
     
