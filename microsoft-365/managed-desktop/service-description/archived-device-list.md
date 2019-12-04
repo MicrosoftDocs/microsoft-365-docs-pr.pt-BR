@@ -4,13 +4,14 @@ description: Dispositivos próximos à aposentadoria que você ainda pode regist
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ccc4d7e2fae0a8e5ee6e3a7d71fb55edc8f04930
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 3372332529f9391b5cea8da4095d04178e8b731b
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640582"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813871"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -23,7 +24,7 @@ Para garantir a melhor experiência do usuário, o Microsoft Managed desktop des
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
 Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo deve ser um dos seguintes modelos e atender ou exceder as especificações listadas da RAM, da família de processadores e do espaço em disco. Nenhuma outra personalização é suportada.
 
-Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas.
+
 
 >[!NOTE]
 >Nesta tabela, a "data de aposentadoria" é a data em que esse modelo não terá mais suporte no Microsoft Managed desktop. Nessa data, todos os dispositivos registrados desse modelo serão removidos da área de trabalho gerenciada da Microsoft, não importa quando eles foram registrados.
@@ -32,9 +33,9 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 
 | Modelo  | Especificações mínimas  | Requisitos adicionais   | Data de aposentadoria |
 |---------|---------|---------|---------|
-| [HP EliteBook 830/840/850 G5](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
-|[Laptop de superfície](https://www.microsoft.com/p/surface-laptop-1st-gen-for-business/8w36k32zm453/g4vs?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |
-|[Surface pro](https://www.microsoft.com/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8 GB de RAM | Nenhum | **15 de junho de 2022** |
+| HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
+|Laptop de superfície| 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |
+|Surface pro| 256 GB/Intel i5/8 GB de RAM | Nenhum | **15 de junho de 2022** |
 
 
 Além disso, o dispositivo também deve:

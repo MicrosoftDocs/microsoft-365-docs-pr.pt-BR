@@ -4,15 +4,16 @@ description: Informações sobre como atualizar aplicativos de linha de negócio
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 425ba674ca9911e4c93bda4fc9ad61cec7fb85b7
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 7aca4713aae189e39133e08a1fbcad6fd75e6a70
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012406"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813851"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Gerenciar aplicativos de linha de negócios na área de trabalho gerenciada da Microsoft
 
@@ -41,7 +42,7 @@ O aplicativo atualizado será implantado nos dispositivos do usuário.
 ## <a name="update-line-of-business-apps-in-intune"></a>Atualizar aplicativos de linha de negócios no Intune
 
 **Para atualizar seus aplicativos de linha de negócios no Intune**
-1. Entre no [portal do Azure](https://azure.portal.com).
+1. Entre no [portal do Azure](https://portal.azure.com).
 2. Selecione **todos os serviços** > do**Intune**. O Intune está na seção **monitoramento + gerenciamento** .
 3. Selecione **aplicativos cliente > aplicativos**.
 4. Localize e selecione seu aplicativo na lista de aplicativos.

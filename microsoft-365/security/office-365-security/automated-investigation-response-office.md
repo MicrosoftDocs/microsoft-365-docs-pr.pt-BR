@@ -3,7 +3,7 @@ title: Resposta de incidente automatizado (AIR) no Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/15/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,21 +13,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 18da20491f9641b8313304e350f9c224b63cc5d9
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: dc1f2a4c0c91cf7b1e2d351f173367e34c5d3323
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673397"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813911"
 ---
 # <a name="automated-incident-response-air-in-office-365"></a>Resposta de incidente automatizado (AIR) no Office 365
 
 Os recursos de resposta de incidentes automatizados (AIR) permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
 - Para obter uma visão geral de como o AIR funciona, use este artigo.
 - Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
-
-> [!NOTE]
-> Você deve ser um administrador global, administrador de segurança, operador de segurança ou leitor de segurança para acessar os recursos de ar. Para saber mais sobre essas permissões, confira [centro de segurança do Microsoft 365: funções e permissões](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
@@ -47,24 +44,22 @@ As seções a seguir fornecem mais detalhes sobre o AIR, incluindo detalhes sobr
 
 Os [alertas](../../compliance/alert-policies.md#viewing-alerts) representam disparadores de fluxos de trabalho da equipe de operações de segurança para resposta a incidentes. Priorizar o conjunto certo de alertas para investigação e, ao mesmo tempo, garantir que nenhuma ameaça seja difícil. Quando as investigações nos alertas são realizadas manualmente, as equipes de operações de segurança devem procurar e correlacionar as entidades (por exemplo, conteúdo, dispositivos e usuários) em risco de ameaças. Essas tarefas e fluxos de trabalho são muito demorados e envolvem várias ferramentas e sistemas. Com o AIR, a investigação e a resposta são automatizadas nos alertas importantes de segurança e gerenciamento de ameaças que acionam os guias estratégicos de resposta de segurança automaticamente. 
 
-Na versão inicial do AIR (início de abril de 2019), os alertas gerados a partir das seguintes políticas de alerta de eventos únicos são investigados automaticamente. 
+Na versão inicial do AIR (início de abril de 2019), os alertas gerados a partir dos seguintes tipos de políticas de alerta de evento único são investigados automaticamente:  
 
 - Um clique em URL potencialmente mal-intencionado foi detectado
-
 - Email relatado pelo usuário como Phish *
-
 - Mensagens de email contendo malware removidos após a entrega *
-
 - Mensagens de email que contêm URLs de phishing removidos após a entrega *
-
 - Padrões de envio de emails suspeitos detectados #
-
 - Usuário impedido de enviar email #
 
 > [!NOTE]
 > Os alertas marcados com um asterisco (*) recebem uma severidade *informativa* nas respectivas políticas de alerta no centro de conformidade com segurança &, com notificações por email desativadas. As notificações por email podem ser ativadas por meio da [configuração da política de alerta](../../compliance/alert-policies.md#alert-policy-settings). Os alertas marcados com um hash (#) são geralmente alertas associados aos guias de visualização pública.
 
-Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente. Observe que os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, você precisa alterar a filtragem de alerta para incluir alertas informativos.
+Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente. 
+
+> [!NOTE]
+> Os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, altere a filtragem de alerta para incluir alertas informativos.
 
 Se sua organização gerencia seus alertas de segurança por meio de um sistema de gerenciamento de alerta, sistema de gerenciamento de serviços ou informações de segurança e sistema de gerenciamento de eventos (SIEM), você pode enviar alertas do Office 365 para esse sistema por meio de uma notificação por email ou por meio da [API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). As notificações de alerta de investigação via email ou API incluem links para acessar os alertas no centro de conformidade & segurança, permitindo que o administrador de segurança atribuído Navegue rapidamente para a investigação.
 
@@ -117,14 +112,14 @@ O status de investigação indica o progresso das análises e ações. À medida
 |Status  |O que significa  |
 |---------|---------|
 |Iniciando | A investigação será enfileirada para começar em breve |
-|Executando | A investigação foi iniciada e está conduzindo sua análise |
+|Em execução | A investigação foi iniciada e está conduzindo sua análise |
 |Nenhuma ameaça encontrada | A investigação concluiu a análise e nenhuma ameaça foi encontrada |
 |Encerrado pelo sistema | A investigação não foi fechada e expirou após 7 dias |
 |Ação Pendente | A investigação encontrou ameaças com ações recomendadas |
-|Ameaças encontradas | A investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no AIR |
+|Ameaça Encontrada | A investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no AIR |
 |Remediado | A investigação foi concluída e foi totalmente corrigida (todas as ações foram aprovadas) |
 |Parcialmente corrigido | A investigação terminou e algumas das ações recomendadas foram aprovadas |
-|Encerrado pelo usuário | Um administrador terminou a investigação |
+|Encerrado Pelo Usuário | Um administrador terminou a investigação |
 |Falhou | Ocorreu um erro durante a investigação que o impediu de chegar a uma conclusão em relação a ameaças |
 |Em fila por limitação | A investigação está aguardando a análise devido a limitações de processamento do sistema (para proteger o desempenho do serviço) |
 |Terminada pela limitação | A investigação não pôde ser concluída em tempo suficiente devido à investigação de limitações de processamento de volume e sistema. Você pode acionar novamente a investigação selecionando o email no Explorer e selecionando a ação investigar. |
@@ -259,7 +254,7 @@ Você pode:
 
 Quando um usuário em sua organização envia uma mensagem de email e o relata à Microsoft usando o [suplemento de mensagem de relatório para o Outlook ou o Outlook Web Access](enable-the-report-message-add-in.md), o relatório também é enviado ao seu sistema e fica visível no Explorer no modo de exibição relatado pelo usuário. Essa mensagem relatada pelo usuário agora dispara um alerta informativo baseado no sistema, que inicia automaticamente o guia estratégico de investigação.
 
-Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre eles:
+Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre elas:
 - Uma determinação sobre o tipo de ameaça que ela pode ser;
 - Quem o enviou;
 - De onde o email foi enviado (infraestrutura de envio);
@@ -308,6 +303,15 @@ O Office 365 AIR está incluído nas seguintes assinaturas:
 Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
 
 Para saber mais sobre a disponibilidade de recursos, visite a [disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+
+## <a name="required-permissions-to-use-air-capabilities"></a>Permissões necessárias para usar os recursos de ar
+
+As permissões são concedidas por determinadas funções, como aquelas descritas na tabela a seguir: 
+
+|Tarefa |Função (ões) necessária |
+|--|--|
+|Para configurar os recursos de ar |Uma das seguintes opções: <br/>- **Administrador global**<br/>- **Administrador de segurança** <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
+|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes opções (essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Administrador global** <br/>- **Administrador de segurança**<br/>- **Leitor de segurança** <br/>---e---<br/>- **Pesquisa e limpeza** (esta função é atribuída somente no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))
 
 ## <a name="next-steps"></a>Próximas etapas
 

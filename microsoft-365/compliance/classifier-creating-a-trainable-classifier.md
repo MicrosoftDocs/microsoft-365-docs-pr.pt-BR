@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use classificadores treinados quando um dos classificadores de caixa pronto para usar não atender às suas necessidades. Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este tópico mostra como criar um classificador personalizado.
-ms.openlocfilehash: 2b1955a2079a26792e973eec1848fcdac8c58218
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: cb3cda9777d692a56263e92cd908eb09bfa99895
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633978"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813369"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Criar um classificador treinado (visualização)
 
@@ -28,6 +28,9 @@ Para saber mais sobre os diferentes tipos de classificadores, confira [introduç
 Esta linha do tempo reflete uma implantação de amostra.
 
 ![Estagiário-classificador-linha do tempo](media/trainable-classifier-deployment-timeline_border.png)
+
+> [!TIP]
+> O consentimento é obrigatório pela primeira vez para os classificadores treináveis. O Microsoft 365 leva 12 dias para concluir a avaliação da linha de base do conteúdo da sua organização.
 
 ## <a name="seed-content"></a>Conteúdo semente
 
@@ -42,9 +45,6 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 
 > [!TIP]
 > Para obter melhores resultados, tenha 10.000 itens em seu conjunto de amostra de teste com uma distribuição uniforme de correspondências positivas e negativas.
-
-> [!TIP]
-> O consentimento é obrigatório pela primeira vez para os classificadores treináveis. O Microsoft 365 leva 12 dias para concluir a avaliação da linha de base do conteúdo da sua organização.
 
 ## <a name="how-to-create-a-trainable-classifier"></a>Como criar um classificador treinado
 
@@ -107,6 +107,8 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 ![caixa examinar itens](media/classifier-trainable-review-detail.png)
 
 19. Revise *pelo menos* 200 itens.
+
+<!-- insert Analyze steps here-->
 
 20. Continue a revisar até que a precisão alcance pelo menos 70 `Publish the classifier` % e `Ready to use`o status é.
 

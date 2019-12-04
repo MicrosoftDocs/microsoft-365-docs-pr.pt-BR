@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,19 +23,25 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business.
-ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 419754b5ea06baabac8c170a860e076dc7fa8f81
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676059"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812849"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Visão geral do Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>O que é o Microsoft 365 Business
 
 O Microsoft 365 Business é um serviço de assinatura que inclui as ferramentas de produtividade do Office 365 e recursos avançados para ajudar a proteger sua empresa contra o ciberataques, proteger seus dados e gerenciar dispositivos.
+
+Assista a este vídeo para ver uma rápida visão geral do Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
+Se você descobriu esse vídeo útil, confira a [série completa de treinamento para pequenas empresas e as novas no Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+
 O Microsoft 365 Business é destinado a até 300 licenças. Se você precisar de mais licenças, consulte a documentação do [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) para obter mais informações.
 
 Consulte a [Descrição do serviço de negócios 365 da Microsoft](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) para obter a lista completa de recursos.
@@ -102,3 +109,7 @@ Para ver a lista completa de recursos de segurança, consulte [recursos de segur
 
     > [!NOTE]
     > Este link é para lojas somente nos EUA
+
+## <a name="see-also"></a>Confira também
+
+[Vídeos de treinamento de negócios da Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

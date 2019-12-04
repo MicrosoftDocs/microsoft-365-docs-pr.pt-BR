@@ -75,7 +75,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Rótulos de sensibilidade em aplicativos do Office
+        - name: Rótulos de confidencialidade em aplicativos do Office
           href: sensitivity-labels-office-apps.md
     - name: Prevenção de perda de dados (DLP)
       href: data-loss-prevention-policies.md
@@ -317,6 +317,8 @@
           href: export-search-results.md
         - name: Exportar um relatório de Pesquisa de Conteúdo
           href: export-a-content-search-report.md
+        - name: Usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge
+          href: configure-edge-to-export-search-results.md
         - name: Pesquisar e excluir mensagens de email
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Pesquisar caixas de correio baseadas em nuvem dos usuários locais no Office 365

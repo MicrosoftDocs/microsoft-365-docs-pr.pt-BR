@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Após concluir a configuração do Office 365 Message Encryption (OME), você pode personalizar a configuração de sua implantação de várias maneiras. Por exemplo, você pode configurar se deseja habilitar códigos de passagem única, exibir o botão proteger no Outlook na Web e muito mais. As tarefas deste artigo descrevem como.
-ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6222825872dc512918b512d0dfc1918dd8a0cbe3
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684813"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813109"
 ---
 # <a name="manage-office-365-message-encryption"></a>Gerenciar a Criptografia de Mensagens do Office 365
 
@@ -58,7 +58,7 @@ Se o destinatário de uma mensagem criptografada pelo OME não usar o Outlook, i
   
 ### <a name="to-manage-whether-ome-generates-one-time-pass-codes"></a>Para gerenciar se o OME gera códigos de passagem única
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-OMEConfiguration com o parâmetro OTPEnabled:
 
@@ -84,7 +84,7 @@ Como administrador, você pode gerenciar se deseja exibir este botão para os us
   
 ### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>Para gerenciar se o botão criptografar aparece no Outlook na Web
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-IRMConfiguration com o parâmetro-SimplifiedClientAccessEnabled:
 
@@ -114,7 +114,7 @@ Para obter mais informações e para uma visão da experiência do cliente, cons
   
 ### <a name="to-manage-whether-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>Para gerenciar se os usuários do aplicativo iOS podem exibir mensagens protegidas pela criptografia de mensagens do Office 365
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-ActiveSyncOrganizations com o parâmetro AllowRMSSupportForUnenlightenedApps:
 
@@ -151,24 +151,24 @@ Para obter mais informações sobre como o Office 365 implementa a criptografia 
   
 ### <a name="to-manage-whether-email-attachments-are-decrypted-on-download-from-a-web-browser"></a>Para gerenciar se os anexos de email são descriptografados no download a partir de um navegador da Web
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Execute o cmdlet Set-IRMConfiguration com o parâmetro DecryptAttachmentFromPortal:
+2. Execute o cmdlet Set-IRMConfiguration com o parâmetro DecryptAttachmentForEncryptOnly:
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal <$true|$false>
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly <$true|$false>
    ```
 
    Por exemplo, para configurar o serviço para descriptografar anexos de email quando um usuário o baixa de um navegador da Web:
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $true
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
    ```
 
    Para configurar o serviço para deixar anexos de email criptografados como estão no download:
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $false
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
 ## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>Garantir que todos os destinatários externos usem o portal do OME para ler emails criptografados — somente criptografia de mensagem avançada do Office 365
@@ -177,7 +177,7 @@ Se você tiver a criptografia de mensagem avançada do Office 365, poderá usar 
 
 ### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>Criar um modelo personalizado para forçar todos os destinatários externos a usar o portal do OME e para que os emails criptografados sejam revogávels e expirarem em 7 dias
 
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet New-OMEConfiguration:
 
@@ -227,7 +227,7 @@ Esperamos que ele não venha, mas se você precisar, desabilitar os novos recurs
   
 ### <a name="to-disable-the-new-capabilities-for-ome"></a>Para desabilitar os novos recursos do OME
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Se você habilitou o botão **criptografar** no Outlook na Web, desabilite-o executando o cmdlet Set-IRMConfiguration com o parâmetro SimplifiedClientAccessEnabled. Caso contrário, pule esta etapa.
 

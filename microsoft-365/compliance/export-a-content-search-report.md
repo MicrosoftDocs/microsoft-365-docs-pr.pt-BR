@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Em vez de exportar os resultados reais de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365, você pode exportar um relatório de resultados de pesquisa. O relatório contém um resumo dos resultados da pesquisa e um documento com informações detalhadas sobre cada item que seria exportado.
-ms.openlocfilehash: 9fe006ba595920f938a4d070eb87987137d73f7e
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 5146120afd9ea36845f5a0d19619da35379438d5
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437781"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676788"
 ---
 # <a name="export-a-content-search-report"></a>Exportar um relatório de Pesquisa de Conteúdo
 
 Em vez de exportar o conjunto completo de resultados de pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança (e de uma pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica), você pode exportar os mesmos relatórios gerados ao exportar os resultados da pesquisa.
   
-Quando um relatório é exportado, ele é baixado para uma pasta que tenha o mesmo nome da pesquisa de conteúdo, mas que é acrescentado com *_ReportsOnly*. Por exemplo, se a pesquisa de conteúdo for chamada de *ContosoCase0815*, o relatório será baixado para uma pasta denominada *ContosoCase0815_ReportsOnly*. Para obter uma lista de documentos incluídos no relatório, confira o [que está incluído no relatório](#whats-included-in-the-report).
+Quando você exporta um relatório, ele é baixado para uma pasta que tem o mesmo nome da pesquisa de conteúdo, mas que é acrescentado com *_ReportsOnly*. Por exemplo, se a pesquisa de conteúdo for chamada de *ContosoCase0815*, o relatório será baixado para uma pasta chamada *ContosoCase0815_ReportsOnly*. Para obter uma lista de documentos incluídos no relatório, confira o [que está incluído no relatório](#whats-included-in-the-report).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -44,15 +44,17 @@ Quando um relatório é exportado, ele é baixado para uma pasta que tenha o mes
     
   - Microsoft .NET Framework 4,7
     
-  - Um navegador com suporte:
-    
-    - Microsoft Edge
-    
-      or
-    
-    - Microsoft Internet Explorer 10 e versões posteriores
-    
-    **Observação:** A Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros. 
+- Você precisa usar um dos seguintes navegadores suportados para executar a ferramenta de exportação de descoberta eletrônica<sup>1</sup>:
+
+  - Microsoft Edge <sup>2</sup>
+
+    OU
+
+  - Microsoft Internet Explorer 10 e versões posteriores
+
+  > [!NOTE]
+  > <sup>1</sup> a Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros.<br/>
+  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md).
 
 - Se o tamanho total estimado dos resultados retornados por uma pesquisa de conteúdo exceder 2 TB, a exportação do relatório falhará. Para exportar o relatório com êxito, tente restringir o escopo e executar novamente a pesquisa para que o tamanho estimado dos resultados seja menor que 2 TB.
 

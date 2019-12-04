@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
-ms.openlocfilehash: 3d416e1e808ae6045f5510e0a051f038e4b38c06
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: b3c978f57533623a6e58d22919430f4e02e78b77
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684963"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676778"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -44,15 +44,17 @@ Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultad
     
   - Microsoft .NET Framework 4,7
     
-  - Um navegador com suporte:
+- Você precisa usar um dos seguintes navegadores suportados para executar a ferramenta de exportação de descoberta eletrônica<sup>1</sup>:
+
+  - Microsoft Edge <sup>2</sup>
+  
+    OU
+
+  - Microsoft Internet Explorer 10 e versões posteriores
     
-     - Microsoft Edge
-    
-        OU
-    
-     - Microsoft Internet Explorer 10 e versões posteriores
-    
-    **Observação:** A Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros. 
+  > [!NOTE]
+  > <sup>1</sup> a Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros.<br/>
+  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md).
     
 - Ao baixar os resultados da pesquisa (descritos na etapa 2), você pode aumentar a velocidade de download Configurando uma configuração do registro do Windows no computador que você usa para exportar os resultados da pesquisa. Para obter mais informações, consulte [aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md).
     

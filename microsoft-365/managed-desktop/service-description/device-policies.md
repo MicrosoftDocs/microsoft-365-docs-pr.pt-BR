@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 93c7cca75f513008706b4a52b4bbc1bc033341aa
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.openlocfilehash: 5eb91a45d844863b27ee208bda2bee812789851e
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35830479"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813841"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -20,19 +20,12 @@ ms.locfileid: "35830479"
 
 <!-- Device configuration and Security Addendum-->
 
-Quando um novo dispositivo de área de trabalho gerenciada da Microsoft está sendo configurado, garantimos que ele tenha a configuração correta otimizada para a área de trabalho gerenciada da Microsoft. Isso inclui um conjunto de políticas padrão definidas como parte do processo de integração. Para evitar conflitos, não altere essas políticas. 
+Quando um novo dispositivo de área de trabalho gerenciada da Microsoft está sendo configurado, garantimos que ele tenha a configuração correta otimizada para a área de trabalho gerenciada da Microsoft. Isso inclui um conjunto de políticas padrão definidas como parte do processo de integração. Essas políticas são oferecidas usando o gerenciamento de dispositivo móvel (MDM) sempre que possível. Para mais informações, consulte [Gerenciamento de dispositivos móveis](https://docs.microsoft.com/windows/client-management/mdm/). 
 
-Os dispositivos chegarão com uma imagem de assinatura e ingressarão no domínio do Azure Active Directory quando o primeiro usuário fizer logon. O dispositivo instalará automaticamente as políticas e os aplicativos necessários, sem qualquer intervenção de ti necessária.
+>[!NOTE]
+>Para evitar conflitos, não altere essas políticas.
 
-## <a name="why-mdm-over-group-policy"></a>Por que o MDM sobre a política de grupo
-
-Há alguns motivos para usar o gerenciamento de dispositivo móvel (MDM) em vez da política de Grupo:
-
-- Security-as políticas MDM são mais seguras. A política de grupo foi projetada para funcionar melhor com a identidade local enquanto o MDM foi projetado para funcionar melhor com o gerenciamento de identidade na nuvem (Azure Active Directory).
-- Confiabilidade-as políticas MDM oferecem implantação de política mais confiável. Além disso, as configurações de MDM substituem as políticas de GPO (objeto de diretiva de grupo). A partir do Windows 10, versão 1803, as configurações de MDM são priorizadas sobre os valores de política de grupo, que dão suporte aos clientes que estão migrando para o gerenciamento moderno. 
-- Alinhar-se com a visão da área de trabalho gerenciada da Microsoft – fornece um monitoramento mais abrangente sobre a implantação de políticas e oferece suporte à abordagem baseada em grupo para a implantação gradual de alterações de política com capacidade de pausar/retomar
-
-Para mais informações, consulte [Gerenciamento de dispositivos móveis](https://docs.microsoft.com/windows/client-management/mdm/). 
+Os dispositivos chegarão com uma imagem de assinatura e ingressarão no domínio do Azure Active Directory quando o primeiro usuário entrar. O dispositivo instalará automaticamente as políticas e os aplicativos necessários, sem qualquer intervenção da equipe de ti.
 
 ## <a name="default-policies"></a>Políticas padrão
 
@@ -54,4 +47,4 @@ Conexões limitadas | Por padrão, as atualizações em conexões limitadas (com
 
  Essas políticas são adicionadas para aumentar a segurança de setores altamente regulamentados. 
  - **Monitoramento de segurança**: a Microsoft monitorará dispositivos usando a [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Se uma ameaça for detectada, a Microsoft irá notificar o cliente, isolar o dispositivo e retificar o problema remotamente. 
- - **Disable PowerShell v2**: a Microsoft removeu o PowerShell V2 em agosto de 2017. Este recurso foi desabilitado em todos os dispositivos de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre essa alteração, consulte [Windows PowerShell 2,0](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/)preterition.
+ - **Disable PowerShell v2**: a Microsoft removeu o PowerShell V2 em agosto de 2017. Este recurso foi desabilitado em todos os dispositivos de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre essa alteração, consulte [Windows PowerShell 2,0 Preterition](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).

@@ -24,26 +24,31 @@ sections:
             html: '<p>Introdução à área de trabalho gerenciada da Microsoft para tomadores de decisões-o que é, como funciona e o que ele pode fazer por você</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
+              alt: ''
             title: O que é a Área de Trabalho Gerenciada da Microsoft?
           - href: service-description/index.md
             html: <p>Descrição detalhada de todas as partes da área de trabalho gerenciada da Microsoft</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-            title: Descrição do serviço
+              alt: ''
+            title: Descrição de serviço
           - href: get-ready/index.md
             html: <p>Todas as etapas para preparar seu ambiente e a organização para trabalhar com o serviço</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
+              alt: ''
             title: Prepare-se
           - href: get-started/index.md
             html: '<p>Obtenha sua organização no Conselho com a área de trabalho gerenciada da Microsoft, incluindo a configuração de dispositivos e a implantação de aplicativos</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
+              alt: ''
             title: Introdução
           - href: working-with-managed-desktop/index.md
             html: <p>Tudo sobre suas operações diárias com o serviço</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
+              alt: ''
             title: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
   - title: Novos artigos e postagens de blog
     items:

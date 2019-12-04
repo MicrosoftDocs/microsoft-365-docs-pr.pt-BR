@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dbe84eb5c9c9fb8ff6e052f8a8fc1f257985ee70
-ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+ms.openlocfilehash: bfb2a191305128e4e2d5f3a624d73c858ece79bc
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38076335"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676808"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -38,7 +38,9 @@ Além disso, você pode acessar suas recomendações e pontuações por meio da 
 
 ## <a name="how-it-works"></a>Como funciona
 
-Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários. A segurança deve ser balanceada com usabilidade e nem todas as recomendações podem funcionar para seu ambiente.
+Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários.
+
+Mostramos o conjunto completo de possíveis aprimoramentos, independentemente da licença, para que você possa entender as práticas recomendadas de segurança e aprimorar sua pontuação. Sua postura de segurança absoluta é representada pela pontuação segura, que permanece a mesma, não importa quais licenças de produto sua organização possui. Tenha em mente que a segurança deve ser balanceada com usabilidade, e nem todas as recomendações podem funcionar para seu ambiente.
 
 Sua pontuação é atualizada em tempo real para refletir as informações apresentadas nas páginas de ações de visualizações e melhorias. A pontuação segura também sincroniza diariamente para receber dados do sistema sobre seus pontos obtidos para cada ação.
 

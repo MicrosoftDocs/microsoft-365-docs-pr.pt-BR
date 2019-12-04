@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6ea67a9214f5c52f02f7b4d5888b59971951d033
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7dae370f9fd41ba0a04dd4c327a238dac3841da3
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690071"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676648"
 ---
 # <a name="compliance-offering-national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Oferta de conformidade: National Institute of Standard and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -26,7 +26,7 @@ O National Institute of Standards and Technology (NIST) promove e mantém padrõ
 
 As principais prioridades do FICIC foram estabelecer um conjunto de padrões e práticas para ajudar as organizações a gerenciar o risco do cybersecurity e, ao mesmo tempo, habilitar a eficiência da empresa. A estrutura do NIST aborda o risco de cybersecurity sem impor requisitos normativos adicionais para organizações governamentais e de setor privado.
 
-O FICIC faz referência a padrões reconhecidos de forma global, incluindo o NIST SP 800-53, no apêndice A da [estrutura 2014 do NIST para melhorar a infraestrutura crítica cybersecurity](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf). Cada controle dentro da estrutura do FICIC é mapeado para os controles do NIST 800-53 correspondentes dentro da linha de base moderada do FedRAMP.
+O FICIC faz referência a padrões reconhecidos de forma global, incluindo o NIST SP 800-53, no apêndice A da estrutura do NIST [para melhorar a infra-estrutura crítica cybersecurity](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11). Cada controle dentro da estrutura do FICIC é mapeado para os controles do NIST 800-53 correspondentes dentro da linha de base moderada do FedRAMP.
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft e o NIST CSF
 
@@ -37,11 +37,11 @@ Saiba como acelerar sua implantação do NIST cybersecurity Framework com o Gere
 - [Baixar a segurança do Azure e a estrutura de verificação de avaliação de risco do NIST CSF](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 no gerente de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 para o governo](https://aka.ms/d365-compliance-list)
-- [Office 365 e Office 365 governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audit-cycle-and-certification"></a>Ciclo de auditoria e certificação
 
@@ -98,12 +98,12 @@ A Microsoft fornece as ofertas mais abrangentes em comparação a outros provedo
 
 - [Autorizações dos serviços em nuvem da Microsoft](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [Mapeamento de ofertas do Microsoft Cyber para: NIST cybersecurity Framework (CSF), controles de CIS, ISO27001:2013 e HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)
-- [2014 estrutura para melhorar a infraestrutura crítica cybersecurity](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf)
+- [Estrutura para melhorar a infra-estrutura crítica cybersecurity](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)
 - [Ordem executiva presidencial para reforçar o cybersecurity de redes federais e infra-estrutura crítica](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
-- [Nuvem do Microsoft governamental](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf).

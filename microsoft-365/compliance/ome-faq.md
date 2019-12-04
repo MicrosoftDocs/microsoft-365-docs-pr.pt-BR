@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 11/14/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como os novos recursos de proteção de mensagens no Office 365 funcionam? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 8fea73b73ab49dcfb0ac67935a9e027e87eb721a
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 95efde63ff9cf4c53522c0242a33001a35d2e334
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38685026"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818843"
 ---
 # <a name="office-365-message-encryption-faq"></a>Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 
@@ -133,7 +133,11 @@ Sim! Você pode configurar regras de fluxo de email no Exchange Online ou usando
   
 ## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>Posso abrir mensagens criptografadas enviadas para uma caixa de correio compartilhada?
 
-Sim! As mensagens criptografadas têm suporte para uma caixa de correio compartilhada. Algumas limitações se aplicam.
+Sim! As mensagens criptografadas têm suporte para uma caixa de correio compartilhada.
+
+- Os usuários podem abrir emails protegidos em uma caixa de correio compartilhada onde a caixa de correio compartilhada recebeu um email protegido como parte de um grupo de distribuição.
+
+- Os usuários podem exibir anexos que herdam a proteção de email quando usam o Outlook para Windows, o Outlook para Mac e o Outlook na Web.
 
 ## <a name="is-delegated-access-supported"></a>Há suporte para o acesso delegado?
 

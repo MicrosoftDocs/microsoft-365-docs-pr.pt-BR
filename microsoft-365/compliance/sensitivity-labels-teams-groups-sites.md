@@ -1,9 +1,9 @@
 ---
-title: Usar rótulos de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
+title: Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 11/13/2019
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 5fc7fec199482449baf9174d6e854d0a5564faa6
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 72bdfef27ba20fabb0d59852e4e20425b2747425
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684924"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818833"
 ---
-# <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar rótulos de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
+# <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
 Ao criar rótulos de confidencialidade no [centro de conformidade da Microsoft 365](https://protection.office.com/), agora você pode aplicá-los ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. Você pode associar políticas aos rótulos a serem controlados:
 
@@ -38,7 +38,9 @@ Agora, você também pode habilitar os rótulos de confidencialidade para arquiv
 
 Os rótulos de confidencialidade para o Microsoft Teams, os grupos do Office 365 e os sites do SharePoint são implantados gradualmente para locatários e podem ser alterados antes da versão final.
 
-## <a name="overview"></a>Visão geral
+A visualização pública não funciona com as redes de distribuição de conteúdo do Office 365 (CDNs).
+
+## <a name="overview"></a>Visão Geral
 
 Quando você publica rótulos de sensibilidade, os usuários no Office 365 têm acesso à mesma lista de rótulos.
 
@@ -77,9 +79,9 @@ Estas imagens mostram:
 
 O Office 365 não usa mais as classificações antigas para novos grupos e sites do SharePoint quando você habilita essa visualização. Se você usou a [classificação de site do Azure ad](/sharepoint/dev/solution-guidance/modern-experience-site-classification) ($setting ["classificationlist"]), os grupos e sites existentes ainda exibem as classificações antigas. Para exibir as novas classificações, converta-as. Para obter informações sobre como converter, confira [se você usou a classificação clássica de sites do Azure ad](#if-you-used-classic-azure-ad-site-classification).
 
-## <a name="set-site-and-group-settings-when-you-create-sensitivity-labels"></a>Definir configurações de site e de grupo ao criar rótulos de confidencialidade
+## <a name="set-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>Definir as configurações de site e de grupo ao criar (ou editar) rótulos de confidencialidade
 
-Após habilitar a visualização, siga estas etapas:
+Após habilitar a visualização, siga estas etapas para criar rótulos de confidencialidade. As alterações nessas configurações podem levar até 24 horas de sincronização.
 
 1. No centro de conformidade da Microsoft 365, selecione**Rótulos de sensibilidade**de **classificação** > .
 
@@ -148,7 +150,7 @@ Os seguintes aplicativos e serviços suportam os rótulos de confidencialidade n
 
 - Centro de conformidade do Microsoft 365
 - SharePoint
-- Outlook Online
+- Outlook na Web
 - Teams
 - Centro de administração do SharePoint
 - Centro de administração do Azure AD
@@ -158,7 +160,7 @@ Você não pode usar os seguintes aplicativos e serviços para criar grupos do O
 - Outlook para Mac
 - Móvel do Outlook  
 - Área de trabalho do Outlook para Windows
-- Formulários  
+- Forms  
 - Dynamics 365  
 - Yammer  
 - Stream  

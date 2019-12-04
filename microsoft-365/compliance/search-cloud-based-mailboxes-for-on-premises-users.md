@@ -15,28 +15,29 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados 1xN chats) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: 97b849e682c0902b6a2d48919c2f2cd1257d8691
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 5c757ee16232cb0e70b8adf57ab6888fb972368e
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685005"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676818"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Pesquisando caixas de correio baseadas em nuvem para usuários locais no Office 365
 
-Se sua organização tiver uma implantação híbrida do Exchange e tiver habilitado o Microsoft Teams, os usuários poderão usar o aplicativo de chat do teams para mensagens instantâneas. Para o usuário baseado em nuvem, os dados de chat do Teams (também chamados de chats do 1xN) são salvos em sua caixa de correio baseada na nuvem principal. Quando um usuário local usa o aplicativo chat de equipe, sua caixa de correio principal está localizada no local. Para contornar essa limitação, a Microsoft lançou um novo recurso em que uma área de armazenamento baseada em nuvem (chamada de caixa de correio baseada em nuvem para usuários locais) é criada para armazenar dados de chat de equipes para usuários locais. Isso permite que você use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do teams para usuários locais. 
+Se sua organização tiver uma implantação híbrida do Exchange e tiver habilitado o Microsoft Teams, os usuários poderão usar o aplicativo de chat do teams para mensagens instantâneas. Para o usuário baseado em nuvem, os dados de chat do Teams (também chamados de *chats do 1xN*) são salvos em sua caixa de correio baseada na nuvem principal. Quando um usuário local usa o aplicativo chat de equipe, sua caixa de correio principal está localizada no local. Para contornar essa limitação, a Microsoft lançou um novo recurso em que uma área de armazenamento baseada em nuvem (chamada de caixa de correio baseada em nuvem para usuários locais) é criada para armazenar dados de chat de equipes para usuários locais. Isso permite que você use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do teams para usuários locais. 
   
 Estes são os requisitos e limitações para configurar caixas de correio baseadas em nuvem para usuários locais:
   
 - As contas de usuário no serviço de diretório local (como Active Directory) devem ser sincronizadas com o Active Directory do Azure, o serviço de diretório no Office 365. Isso significa que uma conta de usuário de email é criada no Office 365 e é associada a um usuário cuja caixa de correio principal está localizada na organização local.
 
-- O usuário cuja caixa de correio principal está localizada na organização local deve receber uma licença do Microsoft Teams e uma licença do Exchange Online Plan 1.
-    
+- O usuário cuja caixa de correio principal está localizada na organização local deve receber uma licença do Microsoft Teams e um mínimo de uma licença do Exchange Online Plan 1.
+
 - A caixa de correio baseada em nuvem para usuários locais é usada apenas para dados de chat de equipes de repositório. Um usuário local não pode entrar na caixa de correio baseada em nuvem ou acessar de qualquer forma. Ele não pode ser usado para enviar ou receber mensagens de email. 
-    
+
 - Você precisa enviar uma solicitação ao suporte da Microsoft para permitir que sua organização pesquise dados de chat de equipes nas caixas de correio baseadas em nuvem para usuários locais. Confira [como arquivar uma solicitação com o suporte da Microsoft para habilitar esse recurso](#filing-a-request-with-microsoft-support-to-enable-this-feature) neste artigo. 
-    
- **Observação:** As conversas de canal do teams sempre são armazenadas na caixa de correio baseada em nuvem associada à equipe. Isso significa que você pode usar a pesquisa de conteúdo para pesquisar conversas de canal sem ter que arquivar uma solicitação de suporte. Para obter mais informações sobre como Pesquisar conversas de canal de equipes, consulte [Searching Microsoft Teams and Office 365 groups](content-search.md#searching-microsoft-teams-and-office-365-groups).
+
+> [!NOTE]
+> As conversas de canal do teams sempre são armazenadas na caixa de correio baseada em nuvem associada à equipe. Isso significa que você pode usar a pesquisa de conteúdo para pesquisar conversas de canal sem ter que arquivar uma solicitação de suporte. Para obter mais informações sobre como Pesquisar conversas de canal de equipes, consulte [Searching Microsoft Teams and Office 365 groups](content-search.md#searching-microsoft-teams-and-office-365-groups).
   
 ## <a name="how-it-works"></a>Como funciona
 
@@ -71,9 +72,7 @@ Depois que esse recurso é implantado na sua organização do Office 365, as seg
     ![A caixa de seleção "adicionar conteúdo de aplicativo do Office para usuários locais" é adicionada à IU de pesquisa de conteúdo](media/599e751e-17bd-408d-a18c-127538de6e85.png)
   
 - Os usuários locais são exibidos no seletor de locais de conteúdo que você usa para selecionar caixas de correio de usuário para pesquisa. 
-    
 
-  
 ## <a name="searching-for-teams-chat-content-in-cloud-based-mailboxes-for-on-premises-users"></a>Pesquisando conteúdo de chat do teams em caixas de correio baseadas em nuvem para usuários locais
 
 Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar dados de chat de equipes nas caixas de correio baseadas em nuvem para usuários locais. 
@@ -85,39 +84,39 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
     Como explicado anteriormente, a caixa de seleção **adicionar conteúdo do aplicativo do Office para usuários locais** é exibida em **locais**. Ela está selecionada por padrão.
     
 3. Crie a consulta de palavra-chave e adicione condições à consulta de pesquisa, se necessário. Para pesquisar dados de chats de equipe apenas, você pode adicionar a seguinte consulta na caixa **palavras-chave** : 
-    
+
     ```text
     kind:im
-    ``` 
+    ```
 
 4. Neste ponto, você pode escolher uma das seguintes opções em **locais**:
-    
+
     - **Todos os locais:** Selecione essa opção para pesquisar as caixas de correio de todos os usuários em sua organização. Quando a caixa de seleção é selecionada, todas as caixas de correio baseadas em nuvem para usuários locais também serão pesquisadas. 
-    
+
     - **Locais específicos:** Selecione essa opção e clique em **Modificar** \> escolher usuário, grupos ou equipes para pesquisar caixas de correio específicas. Conforme explicado anteriormente, o seletor de locais permite que você pesquise os usuários locais. 
     
 5. Salve e execute a pesquisa. Quaisquer resultados de pesquisa das caixas de correio baseadas em nuvem para usuários locais podem ser visualizados como qualquer outro resultado de pesquisa. Você também pode exportar os resultados da pesquisa (incluindo quaisquer dados de chat do Teams) para um arquivo PST. Para saber mais, confira: 
-    
+
     - [Create a search](content-search.md#create-a-search)
-    
+
     - [Preview search results](content-search.md#preview-search-results)
-    
+
     - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
-    
+
 ## <a name="using-powershell-to-search-for-teams-chat-data-in-cloud-based-mailboxes-for-on-premises-users"></a>Usando o PowerShell para pesquisar dados de chat do teams em caixas de correio baseadas em nuvem para usuários locais
 
 Você pode usar os cmdlets **New-ComplianceSearch** e **set-ComplianceSearch** no PowerShell do centro de conformidade & segurança para pesquisar a caixa de correio baseada em nuvem para usuários locais. Conforme explicado anteriormente, você não precisa enviar uma solicitação de suporte para usar o PowerShell para pesquisar dados de chat do teams para usuários locais. 
   
 1. [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
-    
+
 2. Execute o seguinte comando do PowerShell para criar uma pesquisa de conteúdo que pesquisa as caixas de correio baseadas em nuvem de usuários locais.
-    
+
     ```powershell
     New-ComplianceSearch <name of new search> -ContentMatchQuery <search query> -ExchangeLocation <on-premises user> -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
 
     O parâmetro *IncludeUserAppContent* é usado para especificar a caixa de correio baseada em nuvem para o usuário ou usuários que são especificados pelo parâmetro *ExchangeLocation* . O *AllowNotFoundExchangeLocationsEnabled* permite caixas de correio baseadas em nuvem para usuários locais. Quando você usa o `$true` valor para esse parâmetro, a pesquisa não tenta validar a existência da caixa de correio antes de ser executada. Isso é necessário para pesquisar as caixas de correio baseadas em nuvem para usuários locais, pois esses tipos de caixas de correio não são resolvidos como caixas de correio normais. 
-    
+
     O exemplo a seguir procura por chats do Teams (que são mensagens instantâneas) que contêm palavra-chave "Redstone" na caixa de correio baseada em nuvem de Sara Davis, que é um usuário local na organização Contoso.
   
     ```powershell
@@ -129,18 +128,17 @@ Você pode usar os cmdlets **New-ComplianceSearch** e **set-ComplianceSearch** n
 Para obter mais informações sobre como usar esses cmdlets, consulte:
   
 - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
-    
+
 - [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/set-compliancesearch)
-    
+
 - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
-    
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
 - No momento, só é possível pesquisar, Visualizar e exportar conteúdo em caixas de correio baseadas em nuvem para usuários locais. Não há suporte para a colocação de uma caixa de correio baseada em nuvem para um usuário local em um bloqueio associado a um caso de descoberta eletrônica ou a atribuição de uma política de retenção do Office 365. 
-    
+
 - O seletor de local de conteúdo para descoberta eletrônica exibe os usuários locais e permite que você os selecione. No entanto, conforme explicado anteriormente, a suspensão não será aplicada ao usuário local.
-    
+
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
  **Onde são localizadas caixas de correio baseadas em nuvem para usuários locais?**
