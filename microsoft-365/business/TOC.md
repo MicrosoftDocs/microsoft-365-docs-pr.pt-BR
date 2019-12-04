@@ -6,10 +6,11 @@
 ## Configurar
 ### [Visão geral da configuração](set-up-overview.md)
 ### [Configurar o Microsoft 365 Business](set-up.md)
+### [Proteger computadores Windows 10](secure-win-10-pcs.md)
 ### [Fazer o upgrade para a Atualização do Windows Pro para Criadores](upgrade-to-windows-pro-creators-update.md)
 ### [Preparar para implantação do cliente do Office](prepare-for-office-client-deployment.md)
 ### [Ajude os usuários a instalar o Office](help-users-install-office.md)
-### [Acesse recursos locais]()
+### [Acessar recursos locais]
 #### [Permitir que dispositivos Windows 10 ingressados no domínio sejam gerenciados](manage-windows-devices.md)
 #### [Acessar recursos de um dispositivo associado ao Azure AD](access-resources.md)
 ## Configuração de dispositivo do usuário
