@@ -18,16 +18,16 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: 'Resumo: Aplique rótulos de retenção e políticas de DLP (prevenção de perda de dados) aos sites de equipe do SharePoint Online com vários níveis de proteção de informações.'
-ms.openlocfilehash: 4c9eb83cbde7d54706f109484257e97c22c4733c
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: c40261df8203841e3627a0d7a0c09c7f88a02a6b
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39630994"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668869"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Proteja arquivos do SharePoint Online com DLP e rótulos de retenção
 
-Use as etapas neste artigo para projetar e implantar rótulos de retenção e políticas de DLP (prevenção de perda de dados) para sites de equipe do SharePoint Online de linha de base, confidenciais e altamente confidenciais. Para obter mais informações sobre essas três camadas de proteção, consulte [Proteção de arquivos e sites do SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection).
+Use as etapas neste artigo para projetar e implantar rótulos de retenção e políticas de DLP (prevenção de perda de dados) para sites de equipe do SharePoint Online de linha de base, confidenciais e altamente confidenciais. Para obter mais informações sobre essas três camadas de proteção, consulte [Proteção de arquivos e sites do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md).
   
 ## <a name="how-this-works"></a>Como isso funciona
 
@@ -150,7 +150,7 @@ Use estas etapas para configurar uma política DLP que notifica os usuários qua
     
 14. No painel **Personalizar dicas de política e notificações de email**, clique em **Personalizar o texto da dica da política**.
     
-15. Na caixa de texto, digite ou cole em uma das dicas a seguir, dependendo se você está usando rótulos de confidencialidade para proteger arquivos altamente confidenciais:
+15. Na caixa de texto, digite ou cole uma das dicas a seguir, dependendo se você está usando opcionalmente rótulos de confidencialidade para proteger arquivos altamente confidenciais:
     
   - Para compartilhar com um usuário de fora da organização, baixe o arquivo e abra-o. Clique em Arquivo, em seguida, Proteger Documento e Criptografar com Senha e especifique uma senha forte. Envie a senha em um email separado ou outros meios de comunicação.
   - Arquivos altamente confidenciais são protegidos com criptografia. Somente usuários externos que recebam permissões do seu departamento de TI para esses arquivos poderão lê-los.
