@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: 79d652f56617837019322b7329d918488283659a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0319f8ce1cfc0fcfeec095e6dedccefdcb1a0a4d
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029035"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837375"
 ---
 # <a name="understand-your-invoice"></a>Entender sua fatura
 
@@ -100,7 +100,7 @@ As faturas estão disponíveis online. Um link para sua fatura online está disp
 
 ### <a name="to-view-your-online-invoice"></a>Para exibir sua fatura online
 
-1. No centro de administração, vá para a página **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Faturas e pagamentos</a>.
 
 2. Para baixar a versão. pdf da fatura, escolha **baixar nota fiscal PDF** na linha da fatura que você deseja ver.
 

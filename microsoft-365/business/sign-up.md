@@ -16,16 +16,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 description: Saiba como comprar e inscrever-se no Microsoft 365 Business.
-ms.openlocfilehash: 3470d07f98a1c5806a27d8f21f152a818e4a0371
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: d755931b6383a15376d3a875a9cf1ed93e9f4a63
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812789"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831234"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Inscreva-se no Microsoft 365 Business
 
@@ -44,7 +46,7 @@ Há três maneiras de obter o Microsoft 365 Business:
 
 ## <a name="sign-up-steps"></a>Etapas de inscrição
 
-Assista a este vídeo para obter uma rápida visão geral do processo de inscrição.
+Assista a este vídeo para obter uma rápida visão geral do processo de inscrição.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 

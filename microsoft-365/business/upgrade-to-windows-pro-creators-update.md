@@ -15,17 +15,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Saiba como atualizar dispositivos Windows para a atualização do Windows 10 pro Creators. '
-ms.openlocfilehash: 7aaf1f64e93c05a0ffc7de47c8eab9c787b6c220
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: e8399ad94ef58ad8fa5386d4ab0ed7fa4b8627a0
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812739"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831184"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Atualizar dispositivos Windows para a Atualização do Windows Pro para Criadores
 

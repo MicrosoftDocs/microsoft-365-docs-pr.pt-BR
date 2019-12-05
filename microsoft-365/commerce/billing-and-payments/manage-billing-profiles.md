@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba como os perfis de cobrança dão suporte a faturas.
 keywords: Perfil de cobrança, faturas, encargos, encargos gerenciados
-ms.openlocfilehash: 4b46709cf877ea8689f72b66d5ac357272e4737d
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 3dbdbb57b46b915891640483bde56ebc8ad1cff6
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753540"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837385"
 ---
 # <a name="manage-billing-profiles"></a>Gerenciar perfis de cobrança
 Para clientes comerciais que compram produtos e serviços da Microsoft, os perfis de cobrança permitem que você personalize quais itens estão incluídos na fatura e como você paga suas faturas.

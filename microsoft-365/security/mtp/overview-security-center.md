@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 5779bc02575a01c86333eaa9dbc9e9667c87f5ee
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 12446dcb69b9f2324afcece9f230605fdcfcfdc8
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034202"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831992"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -25,9 +25,7 @@ Gerenciar a segurança de sua empresa para proteger-se contra um panorama de ame
 
 Insira o centro de segurança do Microsoft 365--a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. Aqui você pode facilmente exibir a integridade de segurança da sua organização, agir para configurar dispositivos, usuários e aplicativos e obter alertas sobre atividades suspeitas. A central de segurança do Microsoft 365 destina-se especificamente às equipes de administradores de segurança e operações de segurança para gerenciar e proteger melhor sua organização.
 
-O novo centro de segurança do Microsoft 365 e o centro de conformidade da Microsoft 365 são áreas de trabalho especializadas projetadas para atender às necessidades das equipes de segurança e equipes de conformidade. Essas soluções são integradas nos serviços do Microsoft 365 e fornecem informações acionáveis para ajudar a reduzir os riscos e a proteger seu imóvel digital.
-
-[Saiba mais e prepare](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance) -se para a nova central de segurança do Microsoft 365 e o centro de conformidade da Microsoft 365.
+O novo centro de segurança do Microsoft 365 e o [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) são áreas de trabalho especializadas projetadas para atender às necessidades das equipes de segurança e equipes de conformidade. Essas soluções são integradas nos serviços do Microsoft 365 e fornecem informações acionáveis para ajudar a reduzir os riscos e a proteger seu imóvel digital.
 
 Visite a central de segurança do Microsoft 365 em security.microsoft.com.  
 

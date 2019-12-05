@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como entrar, configurar permissões e entender seu painel para a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar avaliações de riscos.
-ms.openlocfilehash: 7bff479d4cd7e3f200f7fc169eb351299eec8a39
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 03bcc5663e3b57728eb4ba791bbcba9593e5afc7
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793645"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831174"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Configuração da Pontuação de conformidade da Microsoft (versão prévia)
 
@@ -63,8 +63,6 @@ Para definir permissões no centro de conformidade da Microsoft 365:
 
 1. Vá para o [centro de conformidade da Microsoft 365](https://compliance.microsoft.com) e entre com sua conta de administrador global.
 2. Selecione **permissões** no painel de navegação à esquerda. A partir daqui, você pode exibir funções e atribuir permissões.
-
-Para obter detalhes, leia [as funções e permissões no centro de conformidade da Microsoft 365](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions).
 
 ## <a name="understand-the-compliance-score-dashboard"></a>Entender o painel de Pontuação de conformidade
 

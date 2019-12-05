@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: a6c187227703395ed5fe3d926dabe30e6203fca5
-ms.sourcegitcommit: 909f18d6c497086899fa239b5b5e0bb91f1e7804
+ms.openlocfilehash: ebe5e00c3458782e1874274cb508326968461ce3
+ms.sourcegitcommit: 1bd81cf48c7fab1b8aaf7c3f550ce42ab02136dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819127"
+ms.locfileid: "39822487"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -40,7 +40,7 @@ Os rótulos de confidencialidade para o Microsoft Teams, os grupos do Office 365
 
 A visualização pública não funciona com as redes de distribuição de conteúdo do Office 365 (CDNs).
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Quando você publica rótulos de sensibilidade, os usuários no Office 365 têm acesso à mesma lista de rótulos.
 
@@ -102,11 +102,9 @@ Após habilitar a visualização, siga estas etapas para criar ou editar rótulo
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>Solucionando problemas de implantação de rótulo de sensibilidade
 
-Se você tiver problemas ao criar um grupo Teams ou Office 365 após habilitar essas configurações ou fazer uma alteração na descrição de um rótulo, salve o rótulo, aguarde algumas horas e, em seguida, tente criar novamente o grupo Team ou Office 365.
+Se você tiver problemas ao criar um grupo Teams ou Office 365 após habilitar essas configurações ou fazer uma alteração na descrição de um rótulo de confidencialidade, salve o rótulo, espere algumas horas e, em seguida, tente criar novamente o grupo Team ou Office 365.
 
 Se você ainda não conseguir ver o novo rótulo de confidencialidade do SharePoint Online, entre em contato com o suporte da Microsoft imediatamente.
-
-[Saiba como publicar um rótulo de confidencialidade](/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do)
 
 ## <a name="apply-a-sensitivity-label-to-a-new-team"></a>Aplicar um rótulo de confidencialidade a uma nova equipe
 
