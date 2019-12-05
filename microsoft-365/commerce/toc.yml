@@ -17,6 +17,7 @@
         - name: Atualizar assinaturas
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: Faturas e pagamentos
+      expanded: true
       items:
         - name: Entender sua fatura
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
@@ -28,8 +29,8 @@
           href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: Contas de cobrança
       items:
-        - name: Gerenciar informações de conta de cobrança
-          href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
+        - name: Gerenciar contas de cobrança
+          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
         - name: Associar um locatário à minha conta de cobrança
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
     - name: Gerenciar relações com meus parceiros

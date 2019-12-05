@@ -1,0 +1,115 @@
+- name: Área de Trabalho Gerenciada da Microsoft
+  href: index.yml
+  items:
+    - name: O que é a Área de Trabalho Gerenciada da Microsoft?
+      href: intro/index.md
+      items:
+        - name: Funções e responsabilidades
+          href: intro/roles-and-responsibilities.md
+        - name: Tecnologias na Área de Trabalho Gerenciada da Microsoft
+          href: intro/technologies.md
+        - name: Área de Trabalho e ITIL Gerenciados da Microsoft
+          href: MMD-and-ITSM.md
+    - name: Descrição do serviço da Área de Trabalho Gerenciada da Microsoft
+      href: service-description/index.md
+      items:
+        - name: Regiões e idiomas com suporte
+          href: service-description/regions-languages.md
+        - name: Ciclo de vida do produto
+          href: service-description/device-lifecycle.md
+        - name: Dispositivos do programa
+          href: service-description/device-list.md
+          items:
+            - name: Dispositivos do programa arquivado
+              href: service-description/archived-device-list.md
+        - name: Serviços do dispositivo
+          href: service-description/device-services.md
+        - name: Configuração do dispositivo
+          href: service-description/device-policies.md
+        - name: Segurança
+          href: service-description/security.md
+        - name: Updates
+          href: service-description/updates.md
+        - name: Suporte
+          href: service-description/support.md
+        - name: Operações e monitoramento
+          href: service-description/operations-and-monitoring.md
+        - name: Requisitos do aplicativo
+          href: service-description/mmd-app-requirements.md
+        - name: Mudanças de serviço e comunicação
+          href: service-description/servicechanges.md
+        - name: Exceções para o plano de serviço
+          href: service-description/customizing.md
+    - name: Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft
+      href: get-ready/index.md
+      items:
+        - name: Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+          href: get-ready/prerequisites.md
+        - name: Preparar rede
+          href: get-ready/network.md
+        - name: Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft
+          href: get-ready/authentication.md
+        - name: Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
+          href: get-ready/mapped-drives.md
+        - name: Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft
+          href: get-ready/certs-wifi-lan.md
+        - name: Preparar aplicativos
+          href: get-ready/apps.md
+          items:
+            - name: Trabalhar com Serviços de Consultoria da Microsoft
+              href: get-ready/apps-MCS.md
+    - name: Introdução à Área de Trabalho Gerenciada da Microsoft
+      href: get-started/index.md
+      items:
+        - name: Adicionar e verificar contatos do administrador no portal de Administração
+          href: get-started/add-admin-contacts.md
+        - name: Ajustar o acesso condicional
+          href: get-started/conditional-access.md
+        - name: Atribuir licenças
+          href: get-started/assign-licenses.md
+        - name: Implantar o Portal da Empresa do Intune
+          href: get-started/company-portal.md
+        - name: Habilitar Roaming de Estado da Empresa
+          href: get-started/enterprise-state-roaming.md
+        - name: Configurar dispositivos
+          href: get-started/set-up-devices.md
+          items:
+            - name: Registrar novos dispositivos sozinho
+              href: get-started/register-devices-self.md
+              items:
+                - name: Etapas para registrar dispositivos de Parceiros
+                  href: get-started/register-devices-partner.md
+            - name: Registrar dispositivos existentes sozinho
+              href: get-started/register-reused-devices-self.md
+        - name: Preparar usuários para o uso dos dispositivos
+          href: get-started/get-started-devices.md
+        - name: Implantar aplicativos
+          href: get-started/deploy-apps.md
+          items:
+            - name: Microsoft Project e Microsoft Visio
+              href: get-started/project-visio.md
+    - name: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
+      href: working-with-managed-desktop/index.md
+      items:
+        - name: Trabalhar com insights
+          href: working-with-managed-desktop/insights.md
+          items:
+            - name: Informações de uso
+              href: working-with-managed-desktop/usage-insights.md
+            - name: Insights de confiabilidade
+              href: working-with-managed-desktop/reliability-insights.md
+        - name: Suporte para administrador
+          href: working-with-managed-desktop/admin-support.md
+        - name: Suporte ao usuário final
+          href: working-with-managed-desktop/end-user-support.md
+        - name: Gerenciar aplicativos
+          href: working-with-managed-desktop/manage-apps.md
+        - name: Configurações que podem ser alteradas
+          href: working-with-managed-desktop/config-setting-overview.md
+          items:
+            - name: Referência de configurações que podem ser alteradas
+              href: working-with-managed-desktop/config-setting-ref.md
+            - name: Implantar configurações que podem ser alteradas
+              href: working-with-managed-desktop/config-setting-deploy.md
+    - name: Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
+      href: change-history-managed-desktop.md
