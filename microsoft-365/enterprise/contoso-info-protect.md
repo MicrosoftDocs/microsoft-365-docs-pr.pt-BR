@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: f5893414a0aab3d0ab89eb180f0c907d4379194c
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: d6167896c3e42c5fef373de7c5be7123467936f4
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673197"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831674"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -65,7 +65,7 @@ A Contoso usou as seguintes etapas para preparar o Microsoft 365 Enterprise para
 
 4. Criou sites protegidos do SharePoint para dados confidenciais e altamente regulamentados com permissões que bloqueiam o acesso
 
-   Os sites confidenciais e altamente regulamentados foram configurados como [sites isolados](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites), nos quais as permissões padrão do site de equipe do SharePoint Online foram personalizadas.  Os sites confidenciais e altamente regulamentados do SharePoint também foram configurados com um rótulo de retenção correspondente. Os arquivos armazenados em sites altamente regulamentados do SharePoint são protegidos com o rótulo de confidencialidade Altamente Regulamentado. Para obter mais informações, confira ao cenário [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md).
+   Os sites altamente regulados e confidenciais foram configurados como sites de equipe privados com restrições de permissões adicionais. Os sites confidenciais e altamente regulamentados do SharePoint também foram configurados com um rótulo de retenção correspondente. Os arquivos armazenados em sites altamente regulamentados do SharePoint são protegidos com o rótulo de confidencialidade Altamente Regulamentado. Para obter mais informações, confira ao cenário [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md).
 
 5.  Moveu dados de sites do SharePoint e compartilhamentos de arquivos locais para seus novos sites do SharePoint
 

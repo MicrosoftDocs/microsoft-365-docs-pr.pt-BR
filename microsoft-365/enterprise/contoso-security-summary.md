@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: b49312b94aef35afc5febeae0fd4dc71b7c642af
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: fb5e99f775c8e23b8ea522ca15b115a5c5d3aedf
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672677"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831882"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 

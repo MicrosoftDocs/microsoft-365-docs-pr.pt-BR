@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa o Microsoft Endpoint Configuration Manager para implantar o Office 365 ProPlus.
-ms.openlocfilehash: e0e1343d2ed36b1c76ad4708545c4e6d4010bb45
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7649a4a5c77c7f743e3339db6f91b7afc3b1343f
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673157"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831982"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Implantação do Office 365 ProPlus para a Contoso
 
@@ -31,7 +31,7 @@ A Contoso atualizou seus PCs para o Windows 10 Enterprise e o Office 365 ProPlus
 
 ## <a name="deployment-tools"></a>Ferramentas de implantação
 
-Com base em seus requisitos, a Contoso optou por implantar o Windows 10 Enterprise e o Office 365 ProPlus com o Gerenciador de Configurações (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalação, atualizações e configurações. Ele também possui recursos internos para tornar mais fácil e eficiente a implantação e o gerenciamento do Office, incluindo:
+Com base nos requisitos, a Contoso escolheu implantar o Windows 10 Enterprise e o Office 365 ProPlus com o Configuration Manager (Branch Atual). O Configuration Manager é dimensionado para ambientes grandes e fornece controle extensivo sobre instalações, atualizações e configurações. Ele também possui recursos internos para facilitar e efetivar a implantação e o gerenciamento do Office, incluindo:
 
 - Cache par, que pode ajudar com capacidade limitada de rede durante a implantação de dispositivos em locais remotos
 - O painel de Gerenciamento de Clientes do Office, que facilita a implantação do Office e a monitoração das atualizações e oferece aos administradores acesso aos recursos mais recentes de implantação e gerenciamento
@@ -49,7 +49,7 @@ O Office 365 ProPlus tem um novo modelo de lançamento: o Office como serviço. 
 
 Em vez de gerenciar as atualizações do Office com o Gerenciador de Configurações, a Contoso habilitou as atualizações automáticas da nuvem. As atualizações baseadas na nuvem reduziram a sobrecarga administrativa além de garantir que os dispositivos estivessem sempre atualizados. 
 
-A Contoso seguiu a mesma abordagem de dois estágios para atualizações de recursos que ela usava para implantar o Office: os dispositivos no grupo piloto receberam atualizações de recursos quatro meses antes dos dispositivos no restante da organização (o grupo amplo). Para habilitar isso no Office, a Contoso usou dois [canais de atualização](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) recomendados: 
+A Contoso seguiu a mesma abordagem de duas etapas para as atualizações de recursos que eles usavam para implantar o Office: os dispositivos no grupo piloto recebiam as atualizações de recursos quatro meses antes do que os dispositivos no restante da organização (o grupo amplo). Para habilitar isso no Office, a Contoso usou dois [canais de atualização](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) recomendados: 
 
 - Canal semestral (direcionado) para atualizações para o grupo piloto 
 - Canal semestral para atualizações para o grupo amplo. 

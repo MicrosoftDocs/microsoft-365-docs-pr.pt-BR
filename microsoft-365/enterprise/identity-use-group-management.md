@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você pode usar os grupos para automatizar o gerenciamento de algumas tarefas administrativas.
-ms.openlocfilehash: 769fc0dd69b13978dbb9cf91d890ad271a7d9bb5
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 0d46a2af5683b8da40275302460d453f1f14acbe
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370178"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831654"
 ---
 # <a name="step-5-use-groups-for-management"></a>Etapa 5: usar os grupos para gerenciamento
 
@@ -76,7 +76,7 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 *Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão atribuídas ou terão a atribuição cancelada automaticamente da conta do usuário.
+Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão atribuída ou terão a atribuição cancelada automaticamente da conta do usuário.
 
 No Microsoft 365 Enterprise, você configurará grupos de segurança do Azure AD para atribuir as licenças apropriadas do Microsoft 365 Enterprise.
 

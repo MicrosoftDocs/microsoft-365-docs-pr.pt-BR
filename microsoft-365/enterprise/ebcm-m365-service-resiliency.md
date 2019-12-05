@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Descrição do tópico de resiliência
-ms.openlocfilehash: f2fd50a662076904daf3133e0edf45808ef2c39d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a31e24925e65bcdff4ee6416a3e308bf46a5a955
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031046"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831852"
 ---
 # <a name="built-in-resiliency"></a>Resiliência integrada
 
@@ -39,7 +39,7 @@ No Microsoft 365, nos empenhamos para que todos os serviços sejam arquitetados 
 O escopo de um incidente de serviço é medido de acordo com a gravidade, duração e número de clientes afetados. Gostaríamos de limitar o escopo de todos os incidentes ao:
 
 - ter várias instâncias de cada serviço particionadas umas das outras
-- implantar atualizações de forma controlada e graduada usando anéis de validação, para que seja possível detectar e atenuar todos os problemas que possam surgir com a atualização logo no início do processo de implantação. Isso permite a regressão da atualização, se necessário, e ocorre primeiro em um grupo pequeno dentro da Microsoft (anel interno) antes de ser implantado em grupos maiores, como todos os 140 mil funcionários da Microsoft (anel 2), depois nos anéis pioneiros (anel 3) e por fim para todos os clientes de forma global (anel 4).
+- implantar atualizações de forma controlada e graduada usando anéis de validação, para que seja possível detectar e atenuar todos os problemas que possam surgir com a atualização logo no início do processo de implantação. Isso permite a regressão da atualização, se necessário e ocorre primeiro em um grupo pequeno dentro da Microsoft (anel interno) antes de ser implantado em grupos maiores, como odos os 140 mil funcionários da Microsoft (anel 2), depois nos anéis pioneiros (anel 3) e por fim para todos os clientes de forma global (anel 4).
 - gerando melhorias no monitoramento por meio da automação. O Microsoft 365 é muito grande e o tempo de atividade de destino do SLA é alto. No início de um incidente de serviço, se houvesse a necessidade de intervenção humana na detecção e resposta, não conseguiríamos responder de forma rápida o suficiente para atender aos SLAs. A automação é a chave para a detecção e resposta rápidas e eficazes de incidentes de serviço. Quanto mais cedo soubermos de algo, mais rápido poderemos corrigir o problema.
 
 Juntamente com os recursos ativos/ativos integrados na arquitetura de serviço do Microsoft 365, esses esforços atenuam a gravidade, a duração e o número de clientes afetados durante um incidente de serviço.  

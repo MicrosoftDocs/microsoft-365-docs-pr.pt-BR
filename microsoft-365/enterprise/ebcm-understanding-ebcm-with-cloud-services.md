@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como planejar e implementar a continuidade de negócios parece diferente quando os serviços de nuvem fazem parte da sua oferta de TI.
-ms.openlocfilehash: 9b8d769670b53a75c2b48254cb0026488995274a
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 86ceac67b90acfbb90a35d9a528a89d619668722
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122251"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831832"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gerenciamento de continuidade de negócios empresariais (EBCM) com serviços de nuvem
 

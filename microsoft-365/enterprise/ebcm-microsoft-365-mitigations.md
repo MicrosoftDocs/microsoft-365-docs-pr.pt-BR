@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Alguns exemplos de mitigações para cenários de incidentes de serviço do Microsoft 365.
-ms.openlocfilehash: 830d8c3ac9993185bbb60ff15c08903e298b9b78
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: c2eaa51bd6980893780f6e0534f33cac636ad716
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122261"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831972"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Estratégias de mitigação de incidentes de serviço
 

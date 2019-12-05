@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aspectos a considerar ao desenvolver seu plano de continuidade de negócios com reconhecimento na nuvem.
-ms.openlocfilehash: e7bd9ad7d1bd14db761ec399e260bbfc23954d99
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a9f8b7f6950375fb976202a10da03662c3b2715a
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031066"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831664"
 ---
 # <a name="developing-your-continuity-plan"></a>Desenvolvendo seu plano de continuidade
 
@@ -26,7 +26,7 @@ Este tópico fornece orientação sobre o desenvolvimento de um plano de continu
 
 Em geral, o planejamento de continuidade de negócios envolve quatro aspectos, avaliação, planejamento, validação de capacidade e comunicação e coordenação.
 
-## <a name="assesment"></a>Avaliação
+## <a name="assessment"></a>Avaliação
 Primeiro, você deve identificar as funções de negócios da sua organização e os serviços e processos que dão suporte a eles. Isso inclui concluir uma análise de impacto nos negócios, em que cada função empresarial é classificada de acordo com o nível de importância delas e você identifica os processos e os serviços de que cada uma depende. Veja um exemplo de tabela que você pode fazer para obter ajuda para começar a usar sua própria avaliação.
 
 **Amostra de Avaliação de impacto empresarial (BIA)**
@@ -49,7 +49,7 @@ Este é um documento de BIA para `name of the service, system, process, or funct
 |A tecnologia tem uma missão executiva conhecida para um SLA de processo específico? Se sim, explique em detalhes.|`details here`|
 |A perda ou o comprometimento dos dados associados a esses serviços acione um evento principal? Se sim, explique em detalhes.|`details here`|
 |O serviço tem uma solução alternativa ou alternativa para algumas ou todas as suas funções e recursos importantes? Se sim, explique em detalhes.|`details here`|
-|O serviço processa, armazena ou transmite dados do cliente (PII)? Se sim, explique em detalhes.|`details here`|
+|O serviço processa, armazena ou transmite dados de clientes, como informações de identificação pessoal (PII)? Se sim, explique em detalhes.|`details here`|
 |Status de BIA|`develop your own status classification, here are some examples: planned, started, in-progress, complete, on-hold, expired`|
 |Data de conclusão|`the date this BIA was completed`|
 |Facilitador de BIA|`name of the person or group who is responsible for developing and maintaining this BIA`|

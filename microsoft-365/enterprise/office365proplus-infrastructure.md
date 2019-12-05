@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura do Office 365 ProPlus para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 30e3956eba0e990d8d07a41dae924c3005f34d75
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: f41990055a97a2853622529e7cc28ccf096eef69
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757748"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831892"
 ---
 # <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
 
@@ -67,7 +67,7 @@ Se sua organização usar o Configuration Manager, é recomendável atualizar pa
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
-Saiba como os especialistas da Microsoft estão [implantando e gerenciando as atualizações para o Office 365 ProPlus.](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR7)
+Saiba como os especialistas da Microsoft estão [implantando e gerenciando as atualizações para o Office 365 ProPlus](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR7).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Como a Contoso desenvolveu o Microsoft 365 Enterprise
 

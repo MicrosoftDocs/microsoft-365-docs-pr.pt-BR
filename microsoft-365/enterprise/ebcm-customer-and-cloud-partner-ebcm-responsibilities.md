@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda o que a Microsoft faz durante um incidente de serviço para que você possa preparar melhor seus planos de continuidade de negócios.
-ms.openlocfilehash: c74bb83352f87faf0bb7f50e8aec4ac813516d3c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 02ab818a6b26fc6b9902747f6c0211545d4b4704
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031076"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831862"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Responsabilidades do parceiro de nuvem e do cliente sobre o gerenciamento da continuidade de negócios corporativos
 
@@ -32,9 +32,9 @@ Como um parceiro confiável, a Microsoft cria serviços de nuvem altamente resis
 A Microsoft notifica os administradores do Microsoft 365 atualizando o SDH (Painel de Integridade do Serviço) específico dos locatários no Portal de administração do Microsoft 365. As atualizações do incidente do serviço normalmente são fornecidas a cada hora. Se um período diferente for necessário, manteremos você informado sobre alterações nas postagens de comunicação do SHD.
 
 ## <a name="targeted"></a>Direcionadas
-Na maioria dos casos, quando nossos sistemas de monitoramento detectam um problema, podemos identificar a base de clientes afetada, seja de um único cliente ou mesmo de uma região, e direcionar as comunicações necessárias para esses clientes. Assim você consegue saber o que precisa sobre a sua empresa e não se distrai com notificações de ruído que não causam impacto sobre você. Por exemplo, se o banco de dados de uma caixa de correio específica for afetado, podemos identificar com exatidão quais clientes têm usuários na infraestrutura afetada e direcionar nossas comunicações para eles. Se o escopo do impacto do incidente não estiver claro, ampliaremos nossas comunicações para o grupo mais amplo de clientes que possam ser afetados.
+Na maioria dos casos, quando nossos sistemas de monitoramento detectam um problema, podemos identificar a base de clientes afetada, seja de um único cliente ou mesmo de uma região, e direcionar as comunicações necessárias para esses clientes. Assim você consegue saber o que precisa sobre a sua empresa e não se distrai com notificações de ruído que não causam impacto sobre você. Por exemplo, se o banco de dados de uma caixa de correio específica for afetado, podemos identificar com exatidão quais clientes têm usuários na infraestrutura afetada e direcionar nossas comunicações para eles. Se o escopo do impacto do incidente não estiver claro, ampliaremos nossas comunicações para o grupo mais amplo de clientes que possam ser afetadas.
 
-## <a name="highly-avaliable"></a>Altamente disponível
+## <a name="highly-available"></a>Altamente disponível
 A Microsoft mantém vários canais para comunicações de status de serviço que os clientes podem usar.
 
 - Caso o Centro de administração ou o Painel de integridade do serviço no Centro de administração não estejam disponíveis, você pode monitorar o status do serviço usando nosso [site de backup](https://status.office365.com/).

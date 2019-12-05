@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura de rede.
-ms.openlocfilehash: ad54284fdbd00fef486a13a957af6f06cb6a7450
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: f3d2861af90e9a6f8a9b0b64b307dac6b1b76eb1
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370148"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831942"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Fase 1: Critérios de saída para infraestrutura de rede
 
@@ -48,7 +48,7 @@ Use uma ferramenta ou site em um dispositivo do escritório em questão para det
 Se necessário, a [Etapa 2](networking-dns-resolution-same-location.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step3"></a>
-## <a name="optional-unneccessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serem removidos
+## <a name="optional-unnecessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários são removidos
 
 Você examinou os hairpins da rede e determinou o impacto deles no desempenho de todos os escritórios. Você removeu hairpins da rede sempre que possível ou trabalhou com sua rede de terceiros ou provedor de segurança para implementar o emparelhamento ideal do Microsoft 365 para a rede deles.
 
