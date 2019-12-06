@@ -20,7 +20,7 @@ Use uma ferramenta ou site em um dispositivo do escritório em questão para det
 Se necessário, a [Etapa 2](../networking-dns-resolution-same-location.md) pode ajudá-lo com esse requisito.
 
 <a name="crit-networking-step3"></a>
-### <a name="optional-unneccessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários serem removidos
+### <a name="optional-unnecessary-network-hairpins-are-removed"></a>Opcional: os hairpins de rede desnecessários são removidos
 
 Você examinou os hairpins da rede e determinou o impacto deles no desempenho de todos os escritórios. Você removeu hairpins da rede sempre que possível ou trabalhou com sua rede de terceiros ou provedor de segurança para implementar o emparelhamento ideal do Microsoft 365 para a rede deles.
 
