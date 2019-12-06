@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a79b56bc5f6150439cd945f99b53a69b34a04a45
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 525ea4c129e351b157463efdf02280a1f55797ad
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690048"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859781"
 ---
-# <a name="compliance-offering-united-kingdom-government-cloud-g-cloud"></a>Oferta de conformidade: governo do Reino Unido-nuvem (G-Cloud)
+# <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
 ## <a name="uk-g-cloud-overview"></a>Visão geral do Reino Unido G-Cloud
 
@@ -38,16 +38,16 @@ Saiba mais sobre os benefícios do Reino Unido G-Cloud V6 na nuvem da Microsoft:
 
 Saiba como acelerar sua implantação do Reino Unido G-Cloud V6 com nosso plano de conformidade e segurança do Azure: [baixar as diretrizes de implementação de princípio de nuvem do Microsoft Azure Blueprint do Reino Unido](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
+- Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Serviço de nuvem de fluxo da Microsoft como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
+- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Office 365: Exchange Online, SharePoint Online e Skype for Business Online
-- Serviço de nuvem do PowerApps como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -102,7 +102,7 @@ Além dos datacenters UK, os serviços de nuvem da Microsoft têm data centers e
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [portal de confiança do serviço](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança de Serviços](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
 
 ## <a name="resources"></a>Recursos
 
@@ -111,8 +111,8 @@ O [portal de confiança do serviço](https://support.office.com/article/Get-star
 - [Princípios de segurança G-Cloud](https://aka.ms/UK-G-Cloud)
 - [Mercado digital](https://www.digitalmarketplace.service.gov.uk/)
 - [Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/E/0/9E008CC0-6783-4472-B19D-F5B6970DD73A/UK_GCloud_Compliance_Backgrounder.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/E/0/9E008CC0-6783-4472-B19D-F5B6970DD73A/UK_GCloud_Compliance_Backgrounder.pdf).

@@ -17,19 +17,19 @@ ms.assetid: c5e95951-da67-4ec7-92c5-982abd477e69
 ms.collection:
 - M365-security-compliance
 description: Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, você precisa ter uma conta de administrador global do Office 365 ou de administrador da empresa do Exchange (grupo de funções do Gerenciamento de Organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte Atribuindo funções de administrador no Office 365 operado pela 21Vianet. Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP.
-ms.openlocfilehash: 787c01ff7d06943b51916675b9e30dc3f020d5e1
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7a9d7c3752e612b8e0bdcce6a0f9bb420c61c249
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073596"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866643"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Proteger caixas de correio locais com o Exchange Online Protection
 
 > [!NOTE]
 > Este artigo aplica-se somente ao Office 365 operado pela 21Vianet na China. 
   
-Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, você precisa ter uma conta de administrador global do Office 365 ou de administrador da empresa do Exchange (grupo de funções do Gerenciamento de Organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte [atribuindo funções de administrador no Office 365 operado pela 21vianet](https://support.office.com/article/d58b8089-cbfd-41ec-b64c-9cfcbef495ac). Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP. 
+Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, você precisa ter uma conta de administrador global do Office 365 ou de administrador da empresa do Exchange (grupo de funções do Gerenciamento de Organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte [atribuindo funções de administrador no Office 365 operado pela 21vianet](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?&view=o365-21vianet). Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP. 
   
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Etapa 1: usar o centro de administração do Microsoft 365 para adicionar e verificar seu domínio
 
@@ -38,7 +38,7 @@ Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no l
 2.  Siga as etapas no portal para adicionar os registros DNS aplicáveis ao seu provedor de Hospedagem de DNS, a fim de verificar a propriedade do domínio. 
     
 > [!TIP]
-> [Adicione seu domínio e seus usuários ao office 365 operado pela 21vianet](https://support.office.com/article/1cd4839b-d051-46b8-ab9b-bc7752024e78) e [crie registros DNS para o Office 365 ao gerenciar seus registros DNS](https://support.office.com/article/0669bf14-414d-4f51-8231-6b710ce7980b) são recursos úteis para referência à medida que você adiciona seu domínio ao serviço e configura o DNS. 
+> [Adicione seu domínio e seus usuários ao office 365 operado pela 21vianet](https://docs.microsoft.com/office365/admin/setup/add-domain?&view=o365-21vianet) e [crie registros DNS para o Office 365 ao gerenciar seus registros DNS](https://docs.microsoft.com/office365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?&view=o365-21vianet) são recursos úteis para referência à medida que você adiciona seu domínio ao serviço e configura o DNS. 
   
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>Etapa 2: Adicionar destinatários e configurar o tipo de domínio
 
@@ -54,7 +54,7 @@ Crie conectores no EAC (Centro de administração do Exchange) que permitem o fl
   
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Etapa 4: Permitir acesso SMTP através da porta de entrada 25
 
-Após configurar os conectores, espere 72 horas para permitir a propagação das atualizações dos registros de DNS. Depois disso, restrinja o tráfego SMTP da porta-25 de entrada em seu firewall ou servidores de email para aceitar emails somente dos datacenters do EOP, especificamente dos endereços IP listados em [URLs e intervalos de endereços IP do Office 365 operado pela 21vianet](https://support.office.com/article/5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0#__exchange_online_protection). Isso protege seu ambiente local limitando o escopo de mensagens de entrada que você pode receber. Além disso, atualize também quaisquer configurações em seu servidor de mensagens que controlam os endereços IP que podem se conectar para retransmitir mensagens.
+Após configurar os conectores, espere 72 horas para permitir a propagação das atualizações dos registros de DNS. Depois disso, restrinja o tráfego SMTP da porta-25 de entrada em seu firewall ou servidores de email para aceitar emails apenas dos datacenters do EOP, especificamente dos endereços IP listados em [URLs e intervalos de endereços IP para o Office 365](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints). Isso protege seu ambiente local limitando o escopo de mensagens de entrada que você pode receber. Além disso, atualize também quaisquer configurações em seu servidor de mensagens que controlam os endereços IP que podem se conectar para retransmitir mensagens.
   
 > [!TIP]
 > Configure o servidor SMTP com um tempo limite de conexão de 60 segundos. Essa configuração é aceita na maioria das situações, o que fornece um pequeno atraso no caso de uma mensagem enviada com um anexo grande, por exemplo. 
@@ -65,7 +65,7 @@ Para garantir que o spam (lixo eletrônico) é roteado corretamente para a pasta
   
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Etapa 6: usar o centro de administração do Microsoft 365 para apontar o seu registro MX para o EOP
 
-Siga as etapas de configuração de domínio do Office 365 para atualizar o registro MX do seu domínio, para que haja fluxo da EOP no seu email de entrada. Para obter mais informações, você pode fazer referência [a criar registros DNS para o Office 365 ao gerenciar seus registros DNS](https://support.office.com/article/0669bf14-414d-4f51-8231-6b710ce7980b).
+Siga as etapas de configuração de domínio do Office 365 para atualizar o registro MX do seu domínio, para que haja fluxo da EOP no seu email de entrada. Para obter mais informações, você pode fazer referência [a criar registros DNS para o Office 365 ao gerenciar seus registros DNS](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
   
 Como saber se essa tarefa funcionou?
   

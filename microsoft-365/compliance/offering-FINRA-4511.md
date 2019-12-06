@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 80114436580e388afce0508f69dc892c0eaaf435
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: af2e282ac992dbf6935e9a2c1a9c7144d26aad39
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690011"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859831"
 ---
-# <a name="compliance-offering-financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Oferta de conformidade: FINRA (autoridades regulamentadoras da indústria financeira) 4511 (c) Estados Unidos
+# <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 (c) Estados Unidos
 
 ## <a name="about-finra-rule-4511"></a>Sobre a regra de FINRA 4511
 
@@ -48,7 +48,7 @@ Para avaliar a conformidade do Office 365 com a regra do FINRA 4511 (c), a Micro
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
@@ -66,21 +66,21 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 ## <a name="how-to-implement"></a>Como implementar
 
 - **Regulamentação de serviços financeiros**: mapa de conformidade dos principais princípios normativos dos EUA para computação em nuvem e serviços online da Microsoft. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Guia de conformidade de avaliação de riscos &**: Crie um modelo de governança para avaliação de risco dos serviços de nuvem da Microsoft e notificação de regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **Casos de uso financeiro**: visões gerais de caso de uso, tutoriais e outros recursos para criar soluções do Azure para serviços financeiros.
+- **Guia de conformidade e avaliação de risco**: cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Casos de uso financeiro**: Visões gerais de uso, tutoriais e outros recursos para criar soluções Azure para serviços financeiros.
 
 [Saiba mais](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Recursos
 
-- [Programa de conformidade dos serviços financeiros da Microsoft](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Serviços de nuvem de negócios e serviços financeiros da Microsoft](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Ferramenta de avaliação de risco Cloud de serviços financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
+- [Programa de Conformidade para Serviços Financeiros da Microsoft](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
+- [ serviços corporativos de nuvem e serviços financeiros da Microsoft ](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Ferramenta de Avaliação de Risco na Nuvem de Serviços Financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Políticas de retenção do Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
-- [Blog dos serviços financeiros da Microsoft](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Blog dos Serviços Financeiros da Microsoft](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf).

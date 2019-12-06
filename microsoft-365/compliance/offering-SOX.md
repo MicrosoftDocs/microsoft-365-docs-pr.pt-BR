@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 2f496db53cde8779dd45f7d15cc9d6bd7789a75c
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 1bc568d6db13dd91d0e16e29633dccc58e28fc2a
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690059"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859471"
 ---
-# <a name="compliance-offering-sarbanes-oxley-act-of-2002-sox"></a>Oferta de conformidade: Sarbanes-Oxley Act of 2002 (SOX)
+# <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act de 2002 (SOX)
 
 ## <a name="sox-overview"></a>Visão geral do SOX
 
@@ -40,13 +40,13 @@ Na Microsoft, compartilhamos a responsabilidade de conformidade com nossos clien
 
 Saiba mais sobre como usar os relatórios de conformidade do Microsoft Azure ao lidar com as obrigações de conformidade SOX: [baixar as diretrizes do Azure para Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -65,12 +65,12 @@ Ao migrar seus aplicativos e dados para os serviços de nuvem da Microsoft cober
 ## <a name="resources"></a>Recursos
 
 - [Diretrizes do Azure para Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
-- [Programa de conformidade dos serviços financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Serviços de nuvem de negócios e serviços financeiros da Microsoft](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Responsabilidades compartilhadas da computação em nuvem](https://aka.ms/sharedresponsibility)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Programa de Conformidade para Serviços Financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Conformidade de serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Responsabilidades compartilhadas para a computação em nuvem](https://aka.ms/sharedresponsibility)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf).

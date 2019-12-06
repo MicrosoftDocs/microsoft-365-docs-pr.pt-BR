@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 5edd043db7d5f8c401aa287032ddf7cfd9b63982
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 0e967520dbbac845861168d3eea5053e18a46edf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690052"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859801"
 ---
-# <a name="compliance-offering-federal-risk-and-authorization-management-program-fedramp"></a>Oferta de conformidade: programa de gerenciamento de riscos e autorização federal (FedRAMP)
+# <a name="federal-risk-and-authorization-management-program-fedramp"></a>Programa de gerenciamento de riscos e autorização federal (FedRAMP)
 
 ## <a name="fedramp-overview"></a>Visão geral do FedRAMP
 
@@ -62,14 +62,14 @@ Depois que um P-ATO é concedido, um CSP ainda exige uma autorização, um ATO d
 - O Office 365 (planos corporativos e comerciais) e o Office 365 governo dos EUA têm um ATO de órgão FedRAMP no nível de impacto moderado do escritório do departamento de serviços humanos e dos serviços de saúde (DHHS) do inspetor geral. Office 365 o governo dos EUA foi o primeiro serviço de colaboração e email baseado em nuvem a obter essa autorização.
 - Qualquer cliente que deseje consumir a defesa do governo dos EUA do O365 pode usar o P-ATO de DISA para gerar um ATO de agência para documentar sua aceitação do O365.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-- [Azure e governo do Azure](https://go.microsoft.com/fwlink/p/?linkid=2095323)
+- [Azure e Azure Governamental](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365 e Office 365 governo dos EUA](https://aka.ms/o365-compliance-framework)
-- Office 365 defesa do governo dos EUA
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- [Office 365 e Office 365 U.S. Government](https://aka.ms/o365-compliance-framework)
+- Office 365 U.S. Government Defense
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - Microsoft defender ATP
 
 > [!NOTE]
@@ -79,7 +79,7 @@ Depois que um P-ATO é concedido, um CSP ainda exige uma autorização, um ATO d
 
 A Microsoft precisa certificar novamente seus serviços em nuvem a cada ano para manter seu P-ATO e ATOs. Para fazer isso, a Microsoft deve monitorar e avaliar seus controles de segurança continuamente e demonstrar que a segurança de seus serviços permanece em conformidade.
 
-- [Autorizações dos serviços em nuvem da Microsoft](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
+- [Autorizações dos serviços de nuvem da Microsoft](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
 - [Relatórios de auditoria do Microsoft FedRAMP](https://aka.ms/MicrosoftFedRAMPAuditDocuments)
 
 ## <a name="ramp-up-your-fedramp-solutions-on-azure-government"></a>Aumentar a escala de suas soluções do FedRAMP no governo do Azure
@@ -109,11 +109,11 @@ Sim. Você pode usar as certificações dos serviços de nuvem da Microsoft como
 ## <a name="resources"></a>Recursos
 
 - [Programa de gerenciamento de riscos e autorização federal](https://www.fedramp.gov/)
-- [Estrutura de conformidade do hub de controles comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Nuvem do Microsoft governamental](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Estrutura de avaliação de segurança do FedRAMP](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf).

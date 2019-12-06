@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8924905e83d1911dc30a420319d61940b75bfe05
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: e7b3dbad49fd57005dffd7e39e61906efdab771d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690070"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859341"
 ---
-# <a name="compliance-offering-nist-sp-800171"></a>Oferta de conformidade: NIST SP 800 – 171
+# <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
 ## <a name="about-nist-sp-800171"></a>Sobre o NIST SP 800 – 171
 
@@ -39,7 +39,7 @@ Os requisitos do NIST SP 800 – 171 são um subconjunto do NIST SP 800-53, o pa
 
 Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações de defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas DFARS do departamento de defesa dos EUA que exigem conformidade com a segurança requisitos do NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
@@ -67,9 +67,9 @@ Sim. Os clientes da Microsoft podem usar os controles auditados descritos nos re
 - [Autorizações do FedRAMP de serviços em nuvem da Microsoft](https://marketplace.fedramp.gov/index.html?status=Compliant&sort=productName#/products)
 - [NIST 800-171 3,3 auditoria e responsabilidade com o Office 365 GCC High](https://info.summit7systems.com/blog/nist-3.3-audit-and-accountability-with-office-365)
 - [A estrutura do cybersecurity da Microsoft e do NIST](offering-nist-csf.md)
-- [Nuvem do Microsoft governamental](https://www.microsoft.com/enterprise/government)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf ).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf ).

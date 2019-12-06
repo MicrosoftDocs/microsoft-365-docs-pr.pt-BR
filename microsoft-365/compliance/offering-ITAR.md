@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b79cd30c225631b93c92f8199d008d24ecc9a06d
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 9fa4195daa12ebbdafa33851f2bf458bde3d36ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690041"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859650"
 ---
-# <a name="compliance-offering-international-traffic-in-arms-regulations-itar"></a>Oferta de conformidade: normas de tráfego internacional em braços (ITAR)
+# <a name="international-traffic-in-arms-regulations-itar"></a>Normas de tráfego internacional em braços (ITAR)
 
 ## <a name="itar-overview"></a>Visão geral do ITAR
 
@@ -36,10 +36,10 @@ O ITAR tem obrigações específicas para relatar violações, que podem fornece
   
 Os clientes que procuram os dados do ITAR regulamentados devem funcionar com suas equipes de conta e licenciamento da Microsoft para saber mais, obter contratos adequados e acessar informações relevantes da arquitetura do sistema.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
-- [Office 365 defesa do governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -54,8 +54,8 @@ Entre em contato com seu representante de conta da Microsoft.
 - [Usando o governo do Azure com dados controlados pelo ITAR](https://aka.ms/azure-itar-guide)
 - [Governo do Azure](https://azure.microsoft.com/features/gov/)
 - [Office 365 governo dos EUA](https://products.office.com/government/office-365-web-services-for-government)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf).

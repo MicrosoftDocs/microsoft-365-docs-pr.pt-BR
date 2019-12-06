@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1a3fe8adac9dae1b2dcbc04430e9d7d3f49bc201
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 378f03c5c579939abed84cfdea436845f37292af
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690014"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859891"
 ---
-# <a name="compliance-offering-federation-against-copyright-theft-fact"></a>Oferta de conformidade: Federação contra roubo de direitos autorais (fato)
+# <a name="federation-against-copyright-theft-fact"></a>Federação contra roubo de direitos autorais (fato)
 
 ## <a name="fact-overview"></a>Visão geral do fato
 
@@ -32,9 +32,9 @@ Com base no envio voluntário pela Microsoft para uma auditoria de fatos, o audi
 
 Saiba mais sobre os benefícios do fato na nuvem da Microsoft: [baixar o plano de fundo de fatos](https://aka.ms/fact-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-[Azure e governo do Azure](https://aka.ms/AzureCompliance)
+[Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -57,9 +57,9 @@ A conformidade com o fato é voluntária, mas a Microsoft optou por realizar uma
 - [Certificação CDSA dos serviços de mídia do Azure](https://aka.ms/cdsa-cert)
 - [Certificação ISO 27001 do Azure](https://aka.ms/Azure-BSI-Cert)
 - [Avaliação do MPAA](offering-mpaa.md)
-- [Respostas do Azure para o CSA CAIQ v 3.0.1](https://aka.ms/csacaiqresponses)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Respostas do Azure ao CSA CAIQ v3.0.1](https://aka.ms/csacaiqresponses)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf).

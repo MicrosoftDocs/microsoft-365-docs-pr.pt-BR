@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 91d2d00b951252d8c8a1c9d8d405ff6c5fd888e2
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 30509260e83f1aaa59c57365357e18a3f12097c4
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690038"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859721"
 ---
-# <a name="compliance-offering-us-internal-revenue-service-publication-1075"></a>Oferta de conformidade: publicação de serviço de receita interna da US 1075
+# <a name="us-internal-revenue-service-publication-1075"></a>Publicação de serviço de receita interna da US 1075
 
 ## <a name="us-internal-revenue-service-publication-1075-overview"></a>Visão geral da publicação do serviço de receita interna US 1075
 
@@ -42,15 +42,15 @@ Para ajudar agências governamentais em seus esforços de conformidade, a Micros
 
 Saiba mais sobre os benefícios do IRS 1075 na nuvem da Microsoft: [baixar o irs 1075 Backgrounder](https://aka.ms/irs1075-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 As autorizações do FedRAMP são concedidas a três níveis de impacto com base nas diretrizes do NIST: baixo, médio e alto. Essas classificam o impacto que a perda de confidencialidade, integridade ou disponibilidade pode ter em uma organização: baixo (efeito limitado), médio (efeito adverso sério) e alto (efeito grave ou catastrófico).
 
-- [Azure e governo do Azure](https://azure.microsoft.com/global-infrastructure/government/)
+- [Azure e Azure Governamental](https://azure.microsoft.com/global-infrastructure/government/)
 - Dynamics 365 governo dos EUA
-- [Office 365 e Office 365 governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Office 365 defesa do governo dos EUA
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 U.S. Government Defense
+- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -79,10 +79,10 @@ Não. Os únicos ambientes onde o FTI podem ser armazenados e processados são o
 
 - [Publicação IRS 1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
 - [Programa de salvaguardas IRS](https://www.irs.gov/uac/Safeguards-Program)
-- [Estrutura de conformidade do hub de controles comuns da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-- [Nuvem da Microsoft para o governo](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf).

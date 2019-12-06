@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Depois de exportar e baixar os resultados de uma pesquisa de log de auditoria do Office 365 para um arquivo CSV, você pode usar o recurso transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON da coluna AuditData em sua própria coluna. Isso pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
-ms.openlocfilehash: 9b422877c10f086553a695e43c50f02d389dd2b5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: dc96bb8fbcf3acbab66bdb8d4b3d1450e9d3aeaf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684960"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39858177"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Exportar, configurar e exibir registros de log de auditoria
 
@@ -45,7 +45,7 @@ A primeira etapa é Pesquisar o log de auditoria e, em seguida, exportar os resu
    ![Mensagem exibida quando o download do arquivo CSV é concluído](media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
-  > Você pode baixar um máximo de 50.000 entradas para um arquivo CSV de uma única pesquisa de log de auditoria. Se as entradas 50.000 forem baixadas para o arquivo CSV, provavelmente você poderá supor que há mais de 50.000 eventos que atingiram os critérios de pesquisa. Para exportar mais do que esse limite, tente usar um intervalo de datas para reduzir o número de registros de log de auditoria. Você pode ter que executar várias pesquisas com intervalos de datas menores para exportar mais de 50.000 entradas.
+  > É possível baixar no máximo 50 mil entradas para um arquivo CSV de uma única pesquisa de logs de auditoria. Se 50 mil entradas forem baixadas para o arquivo CSV, você poderá supor que existem provavelmente mais de 50 mil eventos que corresponderam aos critérios de pesquisa. Para exportar mais do que esse limite, tente usar um intervalo de datas para reduzir o número de registros de log de auditoria. Talvez seja necessário executar várias pesquisas com intervalos de datas menores para exportar mais de 50 mil entradas.
 
 ## <a name="step-2-format-the-exported-audit-log-using-the-power-query-editor"></a>Etapa 2: Formatar o log de auditoria exportado usando o editor de consulta de alimentação
 
@@ -120,12 +120,12 @@ Veja aqui algumas dicas e exemplos de como exportar e exibir o log de auditoria 
 
    - Você pode usar o nome ou o valor de enumeração para o tipo de registro como o valor para o parâmetro *RecordType* . Para obter uma lista de nomes de tipo de registro e seus valores de enumeração correspondentes, consulte a tabela *AuditLogRecordType* no [esquema da API da atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32).
    
-   - Você só pode incluir um único valor para esse parâmetro. Para pesquisar registros de auditoria para outros tipos de registro, você precisa executar novamente os dois comandos anteriores para especificar um tipo de registro diferente e acrescentar esses resultados ao arquivo CSV original. Por exemplo, você executaria esses dois comandos para adicionar atividades de arquivo do SharePoint do mesmo intervalo de datas ao arquivo PowerShellAuditlog. csv.
+   - Você só pode incluir um único valor para esse parâmetro. Para pesquisar registros de auditoria para outros tipos de registro, você precisa executar novamente os dois comandos anteriores para especificar um tipo de registro diferente e acrescentar esses resultados ao arquivo CSV original. Por exemplo, você deve executar os dois comandos a seguir para adicionar atividades de arquivo do SharePoint do mesmo intervalo de datas ao arquivo PowerShellAuditlog. csv.
 
-       ```powershell
-      $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
-      ```
+          ```powershell
+          $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
+          ```
 
-      ```powershell
-      $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
-      ```powershell
+          ```powershell
+          $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
+          ```

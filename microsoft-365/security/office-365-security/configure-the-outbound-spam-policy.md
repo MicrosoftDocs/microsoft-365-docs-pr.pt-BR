@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: d59d167a3e62dcb3d0f0532331902644c6b469dc
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: baf6999923a4c4cf346915800b8f97a0d0378f58
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033852"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871907"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Configurar a política de spam de saída
 
@@ -37,9 +37,9 @@ A filtragem de spam de saída está sempre habilitada se você utilizar o servi�
 
 Tempo estimado para conclusão: 5 minutos
 
-Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
 
-O procedimento a seguir também pode ser realizado pelo PowerShell remoto. Use o cmdlet [Get-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) para analisar suas configurações e o cmdlet [Set-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) para editar as configurações de política de spam de saída. Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+O procedimento a seguir também pode ser realizado pelo PowerShell remoto. Use o cmdlet [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) para analisar suas configurações e o cmdlet [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) para editar as configurações de política de spam de saída. Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 ## <a name="use-the-security-and-compliance-center-scc-to-edit-the-default-outbound-spam-policy"></a>Usar o centro de conformidade e segurança (SCC) para editar a política de spam de saída padrão
 
@@ -103,7 +103,7 @@ Utilize o procedimento a seguir para editar a política de spam de saída padrã
 
 8. Clique em **salvar**
 
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 [Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
 

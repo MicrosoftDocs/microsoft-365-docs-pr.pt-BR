@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b603cc6b946f62a8ca6b7cfa5c0dd7faf64dfbe4
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: c125b3cf01824c5791917bed45766b62cea7cdd5
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690043"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859741"
 ---
-# <a name="compliance-offering-health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Oferta de conformidade: Health Insurance Portability and Accountability (HIPAA) & funciona
+# <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>Visão geral da HIPAA e do Decreto de alta tecnologia
 
@@ -48,18 +48,18 @@ Os serviços de nuvem corporativa da Microsoft também são cobertos por avalia�
 
 Saiba mais sobre os benefícios da HIPAA e da alta tecnologia na nuvem da Microsoft: [Leia a história do cliente Zwanger — Pesiri Radiologia](https://customers.microsoft.com/story/radiology-clinics-ease-compliance-drive-innovation-with-cloud-based-data-network)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-- [Azure e governo do Azure](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
+- Segurança no aplicativo na nuvem
 - Serviço Microsoft Health bot
 - Microsoft Stream
-- Serviços profissionais da Microsoft: Premier e on-premises para o Azure, Dynamics 365, Intune e para clientes de média empresa e Enterprise do Office 365
-- [Dynamics 365 e Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
-- Serviço de nuvem de fluxo da Microsoft como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
+- Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Office 365.
+- [Dynamics 365 e Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
+- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Intune
-- [Office 365, Office 365 governo dos EUA e Office 365 defesa do governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Serviço de nuvem do PowerApps como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
+- [Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
 - Azure DevOps Services
 
@@ -89,7 +89,7 @@ A Microsoft não pode modificar o acordo HIPAA, pois os serviços da Microsoft s
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [portal de confiança do serviço](https://www.microsoft.com/trustcenter/STP/default.aspx) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados dos serviços de nuvem da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança de Serviços](https://www.microsoft.com/trustcenter/STP/default.aspx) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados dos serviços de nuvem da Microsoft com seus próprios requisitos legais e normativos.
 
 **Como posso saber mais sobre como obedecer à HIPAA e ao ato de alta tecnologia?**
 
@@ -102,13 +102,13 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 ## <a name="resources"></a>Recursos
 
 - [Regra HIPAA Omnibus](https://aka.ms/HIPAA-omnibus) (as regulamentações finais – modificando regras do HIPAA)
-- [Estrutura de conformidade do hub de controles comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Nuvem do Microsoft governamental](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
 - [Diretrizes de implementação do Azure HIPAA](https://aka.ms/azure-hipaa-guide)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf).

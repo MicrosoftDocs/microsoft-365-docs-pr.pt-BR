@@ -12,12 +12,12 @@ ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: Neste articleSupported LanguagesInstall o relatório de lixo eletrônico adicionar-desintalar o suplemento de relatório de lixo eletrônico-inFor mais informações
-ms.openlocfilehash: 7f294ed78affba6e55f2372b81b517bbd25d3f08
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 508d542be4862a6a06b795fc7a4b97bdc405d430
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072430"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865883"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar o Suplemento Relatório de Lixo Eletrônico para o Microsoft Outlook
   
@@ -59,13 +59,12 @@ O Suplemento Relatório de Lixo Eletrônico é compatível com os seguintes idio
 - Espanhol
     
 ## <a name="install-the-junk-email-reporting-add-in"></a>Instalar o Suplemento Relatório de Lixo Eletrônico
-<a name="sectionSection1"> </a>
 
 Você pode instalar o Suplemento Relatório de Lixo Eletrônico:
   
-- Ao executar o pacote do Windows Installer da mesma forma que você faria com qualquer outro arquivo .msi. Quando você instala o suplemento, uma interface GUI é exibida e leva você pelas telas de instalação. Para saber mais, confira [Instalar o Suplemento Relatório de Lixo Eletrônico usando o Assistente de Configuração](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard). OU
+- Ao executar o pacote do Windows Installer da mesma forma que você faria com qualquer outro arquivo .msi. Quando você instala o suplemento, uma interface GUI é exibida e leva você pelas telas de instalação. Para saber mais, confira [Instalar o Suplemento Relatório de Lixo Eletrônico usando o Assistente de Configuração](#install-the-junk-email-reporting-add-in-using-the-setup-wizard). OU
     
-- Ao executar uma instalação silenciosa que elimina a interface do usuário de instalação. Em vez disso, você pode especificar opções de linha de comando que executam um script de instalação. Quando você instala o suplemento, há opções de configuração adicionais que ficam disponíveis e que não estão disponíveis na interface GUI. Para saber mais, confira [Instalar o Suplemento Relatório de Lixo Eletrônico usando Modo Silencioso](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode).
+- Ao executar uma instalação silenciosa que elimina a interface do usuário de instalação. Em vez disso, você pode especificar opções de linha de comando que executam um script de instalação. Quando você instala o suplemento, há opções de configuração adicionais que ficam disponíveis e que não estão disponíveis na interface GUI. Para saber mais, confira [Instalar o Suplemento Relatório de Lixo Eletrônico usando Modo Silencioso](#install-the-junk-email-reporting-add-in-using-silent-mode).
     
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -87,7 +86,6 @@ A instalação do Suplemento Relatório de Lixo Eletrônico para o Microsoft Out
 > Você deve ter privilégios de administrador no computador em que está instalando o suplemento. 
   
 ### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a>Instalar o Suplemento Relatório de Lixo Eletrônico usando o Assistente de Configuração
-<a name="BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard"> </a>
 
 1. Feche o Outlook no computador.
     
@@ -108,7 +106,6 @@ A instalação do Suplemento Relatório de Lixo Eletrônico para o Microsoft Out
 9. Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opções, como **Relatar como Phishing** se você quiser relatar emails de esquemas de phishing para a Microsoft. Na pasta Lixo Eletrônico, você também pode selecionar, **Relatar como não sendo lixo eletrônico** se um email tiver sido identificado incorretamente como lixo eletrônico. 
     
 ### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>Instalar o Suplemento Relatório de Lixo Eletrônico usando Modo Silencioso
-<a name="BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode"> </a>
 
 1. Feche o Outlook no computador.
     
@@ -135,9 +132,9 @@ A instalação do Suplemento Relatório de Lixo Eletrônico para o Microsoft Out
   
     Para adicionar ambos os parâmetros opcionais com base nos exemplos acima, você deve especificar os itens a seguir para um computador que está executando o Outlook x86: 
     
-  ```
-  msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
-  ```
+      ```
+      msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
+      ```
 
 4. Após concluir a instalação, inicie o Outlook.
     
@@ -146,21 +143,19 @@ A instalação do Suplemento Relatório de Lixo Eletrônico para o Microsoft Out
 6. Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opções, como **Relatar como Phishing** se você quiser relatar emails de esquemas de phishing para a Microsoft. Na pasta Lixo Eletrônico, você também pode selecionar, **Relatar como não sendo lixo eletrônico** se um email tiver sido identificado incorretamente como lixo eletrônico. 
     
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>Desinstalar o Suplemento Relatório de Lixo Eletrônico
-<a name="sectionSection2"> </a>
 
 Use uma dessas opções para desinstalar o Suplemento Relatório de Lixo Eletrônico:
   
-- Remova o suplemento usando o Painel de Controle do Windows. Para saber mais, confira [Desinstalar o Suplemento Relatório de Lixo Eletrônico no Painel de Controle](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel). OU
+- Remova o suplemento usando o Painel de Controle do Windows. Para saber mais, confira [Desinstalar o Suplemento Relatório de Lixo Eletrônico no Painel de Controle](#uninstall-the-junk-email-reporting-add-in-from-control-panel).
     
-- Execute o pacote do instalador do Windows e selecione a opção desinstalar. Para saber mais, confira [Desinstalar o Suplemento Relatório de Lixo Eletrônico Executando o Pacote do Windows Installer](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage). OU
+- Execute o pacote do Windows Installer e selecione a opção desinstalar. Confira mais informações [em desinstalar o suplemento relatório de lixo eletrônico executando o pacote do Windows Installer](#uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package).
     
-- Execute uma instalação silenciosa usando a opção de desinstalação. Para saber mais, confira [Desinstalar o Suplemento Relatório de Lixo Eletrônico em Modo Silencioso](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#MK_UninstalltheJunkEmailReportingAdd-ininSilentMode).
+- Execute uma instalação silenciosa usando a opção de desinstalação. Para saber mais, confira [Desinstalar o Suplemento Relatório de Lixo Eletrônico em Modo Silencioso](#uninstall-the-junk-email-reporting-add-in-in-silent-mode).
     
 > [!NOTE]
 > Você deve ter privilégios de administrador no computador em que você está desinstalando o suplemento. 
   
 ### <a name="uninstall-the-junk-email-reporting-add-in-from-control-panel"></a>Desinstalar o Suplemento Relatório de Lixo Eletrônico no Painel de Controle
-<a name="BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel"> </a>
 
 1. Feche o Outlook no computador.
     
@@ -175,7 +170,6 @@ Use uma dessas opções para desinstalar o Suplemento Relatório de Lixo Eletrô
 6. Inicie o Outlook novamente para confirmar se o suplemento não está mais sendo exibido na faixa de opções do Outlook.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package"></a>Desinstalar o Suplemento Relatório de Lixo Eletrônico Executando o Pacote do Windows Installer
-<a name="BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage"> </a>
 
 1. Feche o Outlook no computador.
     
@@ -191,7 +185,6 @@ Use uma dessas opções para desinstalar o Suplemento Relatório de Lixo Eletrô
 4. Inicie o Outlook novamente para confirmar se o suplemento não está mais sendo exibido na faixa de opções do Outlook.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-in-silent-mode"></a>Desinstalar o Suplemento Relatório de Lixo Eletrônico em Modo Silencioso
-<a name="MK_UninstalltheJunkEmailReportingAdd-ininSilentMode"> </a>
 
 1. Feche o Outlook no computador.
     
@@ -209,9 +202,8 @@ Use uma dessas opções para desinstalar o Suplemento Relatório de Lixo Eletrô
 4. Inicie o Outlook novamente para confirmar se o suplemento não está mais sendo exibido na faixa de opções do Outlook.
     
 ## <a name="for-more-information"></a>Para saber mais
-<a name="sectionSection3"> </a>
 
-[Relatar mensagens de Lixo Eletrônico à Microsoft](report-junk-email-messages-to-microsoft.md)
+[Relatar mensagens de lixo eletrônico à Microsoft](report-junk-email-messages-to-microsoft.md)
   
 [Solução de problemas e informações de suporte](troubleshooting-and-support-information.md)
   

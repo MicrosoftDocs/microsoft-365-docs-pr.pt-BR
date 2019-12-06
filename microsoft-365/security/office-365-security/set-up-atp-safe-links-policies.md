@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 82731d961fddf90c2b53bfead1b72a3f35df2b24
-ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
+ms.openlocfilehash: 09a9a47610915244ade77e1410024d7f055e390f
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37593876"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866613"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -47,11 +47,11 @@ Os [links seguros de ATP](atp-safe-links.md), um recurso da [proteção avançad
     
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir: <br>
 
-    |Função  |Onde/como a atribuição  |
+    |Role  |Onde/como a atribuição  |
     |---------|---------|
     |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
     |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-    |Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+    |Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
     Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -75,7 +75,7 @@ Quando você tiver a [proteção avançada contra ameaças do Office 365](office
     
 5. Na seção **configurações que se aplicam a conteúdo exceto email** , marque (ou desmarque) as opções que você deseja usar. (Recomendamos que você selecione todas as opções.) 
     
-6. Escolha **Salvar**.
+6. Selecione **Salvar**.
     
 ## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>Etapa 3: Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a destinatários de email específicos
 
@@ -107,7 +107,7 @@ Depois de revisar (ou editar) a política de links seguros padrão ATP que se ap
     
   - Na seção **aplica-se** a, escolha **o destinatário é um membro de**e, em seguida, escolha o (s) grupo (s) que você deseja incluir na política. Escolha **Adicionar**e, em seguida, escolha **OK**.
     
-6. Escolha **Salvar**.
+6. Selecione **Salvar**.
     
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Etapa 4: Saiba mais sobre as opções de política de links seguros de ATP
 

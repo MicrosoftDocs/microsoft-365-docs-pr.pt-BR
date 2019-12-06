@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8da59d5571b559915b3c4cd7f0e1c6bc6bec8866
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: dc0e77623346bb3cb089069196780870e87af8ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690044"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859761"
 ---
-# <a name="compliance-offering-gramm-leach-bliley-act-glba"></a>Oferta de conformidade: lei Gramm-Leach-Bliley (GLBA)
+# <a name="gramm-leach-bliley-act-glba"></a>Ato Gramm-Leach-Bliley (GLBA)
 
 ## <a name="glba-overview"></a>Visão geral do GLBA
 
@@ -35,13 +35,13 @@ A Microsoft desenvolveu ferramentas de avaliação de riscos para o [Azure](http
 - [Baixar a ferramenta de avaliação de risco Cloud de serviços financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Baixar a ferramenta de avaliação de risco em nuvem do Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -52,17 +52,17 @@ A FTC responde isso detalhadamente em sua página do GLB Act, [que é coberta pe
 ## <a name="resources"></a>Recursos
 
 - [Lei Gramm-Leach-Bliley](https://www.ftc.gov/tips-advice/business-center/privacy-and-security/gramm-leach-bliley-act)
-- [Ferramenta de avaliação de risco Cloud de serviços financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Ferramenta de Avaliação de Risco na Nuvem de Serviços Financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Ferramenta de avaliação de risco em nuvem do Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="other-microsoft-resources-for-financial-services"></a>Outros recursos da Microsoft para serviços financeiros
 
-- [Programa de conformidade dos serviços financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Serviços de nuvem de negócios e serviços financeiros da Microsoft](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Responsabilidades compartilhadas da computação em nuvem](https://aka.ms/sharedresponsibility)
+- [Programa de Conformidade para Serviços Financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Conformidade de serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Responsabilidades compartilhadas para a computação em nuvem](https://aka.ms/sharedresponsibility)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf).

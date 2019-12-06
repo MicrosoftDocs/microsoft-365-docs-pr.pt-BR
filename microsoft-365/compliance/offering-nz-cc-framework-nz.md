@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: eb14bbe784685fb79ba09f28bc9ca12216b24d57
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 2722c5df4b96f28a449057abae353350b036a13b
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690067"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859331"
 ---
-# <a name="compliance-offering-new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Oferta de conformidade: novas Zelândia considerações sobre segurança e privacidade da computação em nuvem governamental
+# <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considerações de segurança e privacidade da computação em nuvem governamental Nova Zelândia
 
 ## <a name="new-zealand-government-cloud-computing-security-and-privacy-overview"></a>Visão geral da privacidade e segurança da computação em nuvem governamental da Nova Zelândia
 
@@ -36,12 +36,12 @@ Saiba mais sobre os benefícios da estrutura CC do NZ na nuvem da Microsoft: [Ba
 
 Saiba como acelerar sua implantação do Microsoft CC Framework com nosso plano de segurança e conformidade do Azure: [baixar a resposta do Azure para a estrutura CC do NZ](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-- [Azure e governo do Azure](https://aka.ms/AzureCompliance)
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- O serviço de nuvem do Power BI como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Exchange Online, SharePoint Online e Skype for Business online. O Microsoft NZ trabalhou com a equipe do GCIO para desenvolver uma arquitetura de referência para integrar o Exchange Online e o SEEMail descrito no White Paper [Office 365: SEEMail integração e arquitetura de referência](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf)
 
@@ -64,7 +64,7 @@ Se sua agência for necessária para realizar a certificação e a capacitação
 - [Computação em nuvem: considerações sobre segurança e privacidade de informações (ISPC)](https://aka.ms/NZ-Cloud-Computing-Considerations)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Office 365: arquitetura de referência e integração do SEEMail](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (diretrizes adicionais do NZ da Microsoft sobre a adoção do serviço de nuvem)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Respostas da Microsoft para "Cloud Computing IPSC"
 
@@ -74,6 +74,6 @@ Se sua agência for necessária para realizar a certificação e a capacitação
 - [Office 365](https://aka.ms/O365-NZ-Response)
 - [Power BI](https://download.microsoft.com/download/5/1/7/51726B9B-2E76-49C4-9D4F-A36BF025CB93/Response-to-GCIO-105-questions-Power-BI.pdf)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf).

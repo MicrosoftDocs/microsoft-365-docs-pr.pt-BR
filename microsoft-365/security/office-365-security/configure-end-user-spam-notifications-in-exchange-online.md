@@ -13,12 +13,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios.
-ms.openlocfilehash: 0f2fc88e0004f78c74f2447998d136e4c5ebc3d0
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0eef6f508a775513ff5c6e061d12e023534eb0bd
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032447"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871927"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam para o usuário final no Exchange Online
 
@@ -47,7 +47,7 @@ Após receber uma mensagem de notificação, os usuários finais podem escolher 
 
 Tempo estimado para conclusão: 2 minutos
   
-Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) . 
+Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) . 
   
 Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
   
@@ -96,7 +96,7 @@ Você também pode usar o centro de conformidade e segurança (SCC) para configu
     
    - Clique em **Salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel.
 
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
   

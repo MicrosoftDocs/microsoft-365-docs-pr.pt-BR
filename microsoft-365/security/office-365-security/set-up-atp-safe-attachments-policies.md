@@ -15,17 +15,17 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
-ms.openlocfilehash: 80e698faf012f56b809cd88d33e0c8227723127e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0c81c8323db417d6e462812efe8686389139e915
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073119"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866633"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
 > [!IMPORTANT]
-> Este artigo destina-se a clientes corporativos com [proteção avançada contra ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre anexos seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre anexos seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresentações, planilhas e muito mais. Nem sempre é fácil dizer se um anexo é seguro ou mal-intencionado apenas olhando uma mensagem de email. E a última coisa que você deseja é um anexo mal-intencionado para obter estragos para sua organização. Felizmente, a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP) pode ajudar. Você pode configurar as políticas de [anexos seguros de ATP](atp-safe-attachments.md) para ajudar a garantir que sua organização seja protegida contra ataques por anexos de email não seguros. 
   
@@ -45,9 +45,9 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
     |Role  |Onde/como a atribuição  |
     |---------|---------|
-    |Administrador global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
-    |Administrador de segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-    |Gerenciamento da organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+    |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
+    |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
+    |Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
     
     Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -77,7 +77,7 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
     
       - Na seção **aplica-se** a, escolha **o domínio do destinatário**e selecione o seu domínio. Escolha **Adicionar**e, em seguida, escolha **OK**.
     
-6. Escolha **Salvar**.
+6. Selecione **Salvar**.
     
 Considere configurar várias políticas de anexos seguros de ATP para sua organização. Essas políticas serão aplicadas na ordem em que estão listadas na página de **anexos seguros de ATP** . Após uma política ter sido definida ou editada, permita pelo menos 30 minutos para que as políticas entrem em vigor nos datacenters da Microsoft. 
   
@@ -87,7 +87,7 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
   
 |**Opção**|**Effect**|**Use quando quiser:**|
 |:-----|:-----|:-----|
-|**Desativada** <br/> |Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens  <br/> |Desative a verificação para remetentes, scanners, faxes ou hosts inteligentes internos que só enviarão anexos conhecidos e bons  <br/> Evitar atrasos desnecessários no roteamento de email interno  <br/> **Essa opção não é recomendada para a maioria dos usuários. Ele permite que você ative a verificação de anexos seguros de ATP para um pequeno grupo de remetentes internos.**           |
+|**Desabilitado** <br/> |Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens  <br/> |Desative a verificação para remetentes, scanners, faxes ou hosts inteligentes internos que só enviarão anexos conhecidos e bons  <br/> Evitar atrasos desnecessários no roteamento de email interno  <br/> **Essa opção não é recomendada para a maioria dos usuários. Ele permite que você ative a verificação de anexos seguros de ATP para um pequeno grupo de remetentes internos.**           |
 |**Monitorar** <br/> |Entrega mensagens com anexos e rastreia o que acontece com o malware detectado  <br/> |Veja onde o malware detectado entra em sua organização  <br/> |
 |**Bloquear** <br/> |Impede que mensagens com anexos de malware detectados continuem  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> Bloqueia automaticamente mensagens e anexos futuros  <br/> |Proteger sua organização de ataques repetidos usando os mesmos anexos de malware  <br/> |
 |**Replace** <br/> |Remove anexos detectados de malware  <br/> Notifica os destinatários de que os anexos foram removidos  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> |Aumentar a visibilidade dos destinatários que os anexos foram removidos devido a um malware detectado  <br/> |

@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 34e20578d09079031d4a41bafdf199d055ced09a
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b5fb48ebaf16d2f7c17645c347185326cde6eefa
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690033"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859571"
 ---
-# <a name="compliance-offering-ministry-of-electronics-and-information-technology-meity"></a>Oferta de conformidade: Ministério de eletrônicos e tecnologia da informação (MeitY)
+# <a name="ministry-of-electronics-and-information-technology-meity"></a>Ministério da tecnologia de informações e eletrônicos (MeitY)
 
 ## <a name="meity-overview"></a>Visão geral do MeitY
 
@@ -38,7 +38,7 @@ Em novembro de 2017, a Microsoft tornou-se um dos primeiros provedores de servi�
 
 A capacitação de MeitY da Microsoft foi o resultado de uma auditoria rigorosa conduzida pela Directorate de análise de análise e teste de qualidade (STQC), uma organização governamental que oferece serviços de garantia de qualidade, usando uma estrutura de avaliação com base no trabalho da iniciativa de nuvem do MeghRaj. Por meio do Microsoft Azure, as organizações do setor público podem agora desenhar em uma ampla variedade de modelos de implantação e ofertas de serviços, incluindo a infraestrutura como serviço (IaaS), plataforma como serviço (PaaS), recuperação de desastres, DevOps e backup gerenciado.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -58,8 +58,8 @@ Tornar os serviços do governo disponíveis para o cidadãos online é uma parte
 - [Ministério de eletrônicos e tecnologia de informações](https://meity.gov.in/)
 - [Iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Provedores de serviços de nuvem credenciados](https://meity.gov.in/content/gi-cloud-meghraj)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).

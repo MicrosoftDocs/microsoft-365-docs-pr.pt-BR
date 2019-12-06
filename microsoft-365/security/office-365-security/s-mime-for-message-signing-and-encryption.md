@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Os administradores podem saber mais sobre como usar S/MIME no Exchange Online.
-ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 87f7438b8297b0c7d6d7674cd2c02db6be14bb28
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032146"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872047"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME para assinatura e criptografia de mensagens no Exchange Online
 
@@ -37,7 +37,7 @@ Você pode configurar o S/MIME para funcionar com qualquer um dos seguintes pont
 
 As etapas a seguir para configurar o S/MIME com cada um desses pontos de extremidade são um pouco diferentes. Geralmente, será necessário executar as seguintes etapas:
 
-- Instale uma autoridade de certificação com base no Windows e configure uma infraestrutura de chave pública para emitir certificados S/MIME. Também há suporte para certificados emitidos por provedores de certificados de terceiros. Para obter detalhes, consulte [Visão Geral dos Serviços de Certificados do Active Directory](https://technet.microsoft.com/library/hh831740.aspx).
+- Instale uma autoridade de certificação com base no Windows e configure uma infraestrutura de chave pública para emitir certificados S/MIME. Também há suporte para certificados emitidos por provedores de certificados de terceiros. Para obter detalhes, consulte [Visão Geral dos Serviços de Certificados do Active Directory](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
 
 - Publique o certificado de usuário em uma conta do AD DS local nos atributos **UserSMIMECertificate** e/ou **userCertificate** .
 
@@ -76,6 +76,6 @@ S/MIME requer uma infraestrutura de certificado e publicação que é geralmente
 
 ## <a name="more-information"></a>Mais informações
 
-[Outlook na Web](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[Outlook na Web](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-[Email Seguro (2000)](https://technet.microsoft.com/library/cc962043.aspx)
+[Email Seguro (2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))

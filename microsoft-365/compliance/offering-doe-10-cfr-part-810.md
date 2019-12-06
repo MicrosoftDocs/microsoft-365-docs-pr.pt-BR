@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1e7f850a06a95f86c2afd5c8bccc77ff5431dda4
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: fe87cde60847a0f5d935b50f433cd9b95702bebf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690055"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859401"
 ---
-# <a name="compliance-offering-us-doe-10-cfr-part-810"></a>Oferta de conformidade: US DoE 10 CFR parte 810
+# <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR parte 810
 
 ## <a name="microsoft-and-doe-10-cfr-part-810"></a>Microsoft e DoE 10 CFR parte 810
 
@@ -31,7 +31,7 @@ O FedRAMP oferece uma linha de base adequada para fornecer garantias de que o go
 
 Além disso, o governo do Azure é uma nuvem de comunidade do governo dos EUA que é fisicamente separada da nuvem do Azure. Ele fornece garantias adicionais sobre os requisitos específicos de filtragem de plano de fundo pelo governo dos EUA, incluindo controles específicos que restringem o acesso a informações e sistemas para os cidadãos nos EUA na equipe de operações do Azure.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -63,9 +63,9 @@ Os clientes que implantam dados no Azure governamentais são responsáveis por s
 - [Serviços de nuvem do Azure e controles de exportação dos EUA](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - [Microsoft e FedRAMP](offering-fedramp.md)
 - [Microsoft e DoD](offering-dod-disa-l2-l4-l5.md)
-- [Nuvem do Microsoft governamental](https://www.microsoft.com/enterprise/government)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf).

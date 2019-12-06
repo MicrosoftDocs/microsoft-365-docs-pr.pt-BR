@@ -9,16 +9,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: eb3730602fbef5162df48ec7795a9ac8c2b24bdd
-ms.sourcegitcommit: 83e564f07a2a039c0fb993ac5697241d33827acb
+ms.openlocfilehash: 040747a540c7f5e63d61eb149f9183ed2e5d2782
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37993726"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871757"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
@@ -131,7 +131,7 @@ Os tipos de relatórios disponíveis são:
 
 - **Resumo**: disponível se o intervalo de tempo for inferior a 10 dias e não requer opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**.
 
-- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **por essas pessoas**, **a essas pessoas**ou ** ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com).
+- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com).
 
 **Observações**:
 
@@ -139,7 +139,7 @@ Os tipos de relatórios disponíveis são:
 
 - Embora você possa selecionar um resumo avançado ou um relatório estendido para qualquer intervalo de data/hora, normalmente as últimas quatro horas de dados arquivados ainda não estarão disponíveis para esses dois tipos de relatórios.
 
-Ao clicar em **Avançar**, você verá uma página de resumo que lista as opções de filtragem selecionadas, um título exclusivo (editável) para o relatório e o endereço de email que recebe a notificação quando o rastreamento de mensagem é concluído (também editável, e deve estar em um dos domínios aceitos de sua organização. Clique em **preparar relatório** para enviar o rastreamento de mensagem. Na página principal de **rastreamento de mensagem** , você pode ver o status do relatório na seção **relatórios baixáveis** .
+Ao clicar em **Avançar**, você verá uma página de resumo que lista as opções de filtragem selecionadas, um título exclusivo (editável) para o relatório e o endereço de email que recebe a notificação quando o rastreamento de mensagem é concluído (também editável e deve estar em um dos domínios aceitos de sua organização). Clique em **preparar relatório** para enviar o rastreamento de mensagem. Na página principal de **rastreamento de mensagem** , você pode ver o status do relatório na seção **relatórios baixáveis** .
 
 Para obter mais informações sobre as informações que são retornadas nos diferentes tipos de relatório, consulte a próxima seção.
 
@@ -231,7 +231,7 @@ Os detalhes de rastreamento de mensagem contêm as seguintes informações adici
 
 Disponível (concluído) relatórios de resumo aprimorados estão disponíveis na seção de **relatórios que podem ser baixados** no rastreamento de mensagem de início. As informações a seguir estão disponíveis no relatório:
 
-- **origin_timestamp**<sup>*</sup>: data e hora em que a mensagem foi inicialmente recebida pelo serviço, usando o fuso horário UTC configurado.
+- **origin_timestamp**<sup>*</sup>: a data e a hora em que a mensagem foi inicialmente recebida pelo serviço, usando o fuso horário UTC configurado.
 
 - **sender_address**: o endereço de email do remetente (*domínio*do*alias*@).
 
@@ -243,7 +243,7 @@ Disponível (concluído) relatórios de resumo aprimorados estão disponíveis n
 
   - **# #Receive, entregar** significa que a mensagem foi recebida pelo serviço e foi entregue à caixa de correio do destinatário.
 
-- **message_subject**: os primeiros 256 caracteres do campo de **assunto** da mensagem.
+- **message_subject**: os primeiros 256 caracteres do campo **assunto** da mensagem.
 
 - **TOTAL_BYTES**: o tamanho da mensagem em bytes, incluindo os anexos.
 
@@ -267,11 +267,11 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
 - **client_ip**: o endereço IP do servidor de email ou cliente de mensagens que enviou a mensagem.
 
-- **client_hostname**: o nome de host ou FQDN do servidor de email ou cliente de mensagens que enviou a mensagem.
+- **client_hostname**: o nome do host ou o FQDN do servidor de email ou cliente de mensagens que enviou a mensagem.
 
 - **server_IP**: o endereço IP do servidor de origem ou de destino.
 
-- **server_hostname**: o nome de host ou FQDN do servidor de destino.
+- **server_hostname**: o nome do host ou FQDN do servidor de destino.
 
 - **source_context**: informações adicionais associadas ao campo **Source** . Por exemplo:
 
@@ -287,7 +287,7 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
   - `SMTP`
 
-- **event_id**: eles correspondem aos valores de **evento de mensagem** que são explicados na seção [localizar registros relacionados para esta mensagem](#find-related-records-for-this-message) .
+- **event_id**: elas correspondem aos valores de **eventos da mensagem** que são explicados na seção [localizar registros relacionados para esta mensagem](#find-related-records-for-this-message) .
 
 - **internal_message_id**: um identificador de mensagem atribuído pelo servidor do Exchange Online que está processando a mensagem no momento.
 
@@ -299,17 +299,17 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
 - **referência**: Este campo contém informações adicionais para tipos específicos de eventos. Por exemplo:
 
-  - **DSN**: contém o link de relatório, que é o valor **message_id** da notificação de status de entrega associada (também conhecido como DSN, notificação de falha na entrega, NDR ou mensagem de devolução) se um DSN é gerado subsequentemente para esse evento. Se esta for uma mensagem DSN, este campo conterá o valor **message_id** da mensagem original para a qual o DSN foi gerado.
+  - **DSN**: contém o link de relatório, que é o valor de **message_id** da notificação de status de entrega associada (também conhecida como DSN, notificação de falha na entrega, NDR ou mensagem de devolução) se um DSN é gerado subsequentemente para esse evento. Se esta for uma mensagem DSN, este campo conterá o valor **message_id** da mensagem original para a qual o DSN foi gerado.
 
   - **Expand**: contém o valor **related_recipient_address** das mensagens relacionadas.
 
-  - **Receive**: pode conter o valor **message_id** da mensagem relacionada se a mensagem foi gerada por outros processos (por exemplo, regras de caixa de entrada).
+  - **Receive**: pode conter o valor de **message_id** da mensagem relacionada se a mensagem foi gerada por outros processos (por exemplo, regras de caixa de entrada).
 
-  - **Send**: contém o valor **internal_message_id** de qualquer mensagem DSN.
+  - **Send**: contém o valor de **internal_message_id** de qualquer mensagem de DSN.
 
-  - **Transfer**: contém o valor **internal_message_id** da mensagem que está sendo bifurcada (por exemplo, por conversão de conteúdo, limites de destinatário de mensagem ou agentes).
+  - **Transfer**: contém o valor de **internal_message_id** da mensagem que está sendo bifurcada (por exemplo, por conversão de conteúdo, limites de destinatário de mensagem ou agentes).
 
-  - **MAILBOXRULE**: contém o valor **internal_message_id** da mensagem de entrada que fez com que a regra de caixa de entrada gerasse a mensagem de saída.
+  - **MAILBOXRULE**: contém o valor de **internal_message_id** da mensagem de entrada que causou a regra de caixa de entrada gerar a mensagem de saída.
 
     Para outros tipos de eventos, esse campo geralmente está em branco.
 
@@ -327,7 +327,7 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
 - **custom_data**: contém dados relacionados a tipos de eventos específicos. Para obter mais informações, consulte as seções a seguir.
 
-#### <a name="custom_data-values"></a>valores de custom_data
+#### <a name="custom_data-values"></a>custom_data valores
 
 O campo **custom_data** de um `AGENTINFO` evento é usado por uma variedade de agentes do Exchange Online para registrar detalhes do processamento de mensagens. Alguns dos agentes mais interessantes são descritos nas seções a seguir.
 
@@ -341,20 +341,20 @@ Um valor **custom_data** que começa com `S:SFA` é do agente Filtro de spam. Os
 |`SFV=SPM`|O filtro de conteúdo marcou a mensagem como spam.|
 |`SFV=BLK`|A filtragem foi ignorada e a mensagem foi bloqueada, pois originou-se em um remetente bloqueado.|
 |`SFV=SKS`|A mensagem foi marcada como spam antes de ser processada pelo filtro de conteúdo. Isso inclui mensagens que atenderam a uma regra Transporte para marcá-la automaticamente como spam e ignorar toda filtragem adicional.|
-|`SCL=<number>`|Para saber mais sobre os diferentes valores SCL e seu significado, veja [Níveis de confiança de spam](https://technet.microsoft.com/library/jj200686.aspx).|
-|`PCL=<number>`|O valor do Nível de confiança de phishing (PCL) da mensagem. Podem ser interpretados da mesma maneira que os valores de SCL documentados em [Níveis de confiança de spam](https://technet.microsoft.com/library/jj200686.aspx).  |
+|`SCL=<number>`|Para saber mais sobre os diferentes valores SCL e seu significado, veja [Níveis de confiança de spam](spam-confidence-levels.md).|
+|`PCL=<number>`|O valor do Nível de confiança de phishing (PCL) da mensagem. Podem ser interpretados da mesma maneira que os valores de SCL documentados em [Níveis de confiança de spam](spam-confidence-levels.md).  |
 |`DI=SB`|O remetente da mensagem foi bloqueado.|
 |`DI=SQ`|A mensagem foi colocada em quarentena.|
 |`DI=SD`|A mensagem foi excluída.|
 |`DI=SJ`|A mensagem foi enviada para a pasta de lixo eletrônico do destinatário.|
-|`DI=SN`|A mensagem foi roteada através do pool de entrega de risco mais alto. Para obter mais informações, consulte [pool de entrega de alto risco para mensagens de saída](https://technet.microsoft.com/library/jj200746.aspx).|
+|`DI=SN`|A mensagem foi roteada através do pool de entrega de risco mais alto. Para obter mais informações, consulte [pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).|
 |`DI=SO`|A mensagem foi roteada através do pool normal de entrega de saída.|
 |`SFS=[a]|SFS=[b]`|Isso indica que houve correspondência com regras de spam.|
 |`IPV=CAL`|A mensagem foi permitida pelos filtros de spam porque o endereço IP estava especificado em uma Lista de Permissões de IP do filtro de conexão.|
 |`H=<EHLOstring>`|A cadeia de caracteres HELO ou EHLO do servidor de email de conexão.|
 |`PTR=<ReverseDNS>`|O registro PTR do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
 
-Um valor de exemplo **custom_data** para uma mensagem filtrada para spam como este:
+Um exemplo **custom_data** valor de uma mensagem filtrada para spam como este:
 
 `S:SFA=SUM|SFV=SPM|IPV=CAL|SRV=BULK|SFS=470454002|SFS=349001|SCL=9|SCORE=-1|LIST=0|DI=SN|RD=ftmail.inc.com|H=ftmail.inc.com|CIP=98.129.140.74|SFP=1501|ASF=1|CTRY=US|CLTCTRY=|LANG=en|LAT=287|LAT=260|LAT=18;`
 
@@ -377,21 +377,21 @@ Um valor **custom_data** que começa com `S:AMA` é do agente de filtro de malwa
 |`Name=<malware>`|O nome do malware foi detectado.|
 |`File=<filename>`|O nome do arquivo que continha o malware.|
 
-Um valor de exemplo **custom_data** para uma mensagem que contém malware tem a seguinte aparência:
+Um exemplo **custom_data** valor de uma mensagem que contém malware tem a seguinte aparência:
 
 `S:AMA=SUM|v=1|action=b|error=|atch=1;S:AMA=EV|engine=M|v=1|sig=1.155.974.0|name=DOS/Test_File|file=filename;S:AMA=EV|engine=A|v=1|sig=201707282038|name=Test_File|file=filename`
 
 #### <a name="transport-rule-agent"></a>Agente de regra de transporte
 
-Um valor **custom_data** que começa com`S:TRA` é do agente de regra de transporte para regras de fluxo de emails (também conhecidas como regras de transporte). Os principais detalhes são descritos na tabela a seguir:
+Um valor de **custom_data** que começa`S:TRA` com é do agente de regra de transporte para regras de fluxo de emails (também conhecidas como regras de transporte). Os principais detalhes são descritos na tabela a seguir:
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora no UTC quando a correspondência da regra ocorreu.|
-|`Action=<ActionDefinition>`|A ação que foi aplicada. Para obter uma lista de ações disponíveis, consulte [Mail Flow Rule Actions in Exchange Online](https://technet.microsoft.com/library/jj919237.aspx).|
+|`Action=<ActionDefinition>`|A ação que foi aplicada. Para obter uma lista de ações disponíveis, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
 |`Mode=<Mode>`|O modo da regra. Os valores válidos são: <br/>• **Impor**: todas as ações da regra serão impostas. <br/>• **Teste com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas. <br/>• **Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.|
 
-Um valor de exemplo **custom_data** para mensagens que correspondem às condições de uma regra de fluxo de emails tem a seguinte aparência:
+Um exemplo **custom_data** valor de uma mensagem que coincida com as condições de uma regra de fluxo de emails tem a seguinte aparência:
 
 `S:TRA=ETR|ruleId=19a25eb2-3e43-4896-ad9e-47b6c359779d|st=7/17/2017 12:31:25 AM|action=ApplyHtmlDisclaimer|sev=1|mode=Enforce`

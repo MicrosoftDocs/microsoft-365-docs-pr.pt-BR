@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 283b6a45807547f9a8d0521cf2c6793a2a15c4d6
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b0bb12a4c7f7120d1a607de53ec97d7e8ce915e8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690056"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859391"
 ---
-# <a name="compliance-offering-us-export-administration-regulations-ear"></a>Oferta de conformidade: normas de administração de exportação dos EUA (EAR)
+# <a name="us-export-administration-regulations-ear"></a>Normas de administração de exportação dos EUA (EAR)
 
 ## <a name="about-the-ear"></a>Sobre o EAR
 
@@ -46,9 +46,9 @@ O departamento de comércio dos EUA, que impõe o EAR, levou a posição de que 
 - **Criptografia de ponta a ponta**. Aproveitando a criptografia de ponta a ponta, o porto seguro para locais de armazenamento físico especificado na EAR, os serviços de nuvem dentro do escopo da Microsoft oferecem recursos de criptografia que podem ajudar a proteger contra riscos de controle de exportação. Eles também oferecem aos clientes uma [ampla variedade de opções de criptografia de dados](https://aka.ms/Azure-Encryption-Overview) em trânsito e em repouso, e a flexibilidade para escolher entre as opções de criptografia.
 - **Ferramentas e protocolos para impedir a exportação considerada não autorizada**. O uso de criptografia também ajuda a proteger contra uma possível exportação (ou considerado reexportação) no EAR, porque, mesmo que uma pessoa que não seja a dos EUA tenha acesso a dados criptografados, nada será revelado se não puder ler ou compreender os dados enquanto estiverem criptografados; Portanto, não há "lançamento" de dados controlados.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-- [Azure e governo do Azure](https://aka.ms/AzureCompliance)
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Governo do Office 365 (GCC-elevado e DoD)](https://aka.ms/Office-365-Export-Controls)
 - Intune
 
@@ -88,4 +88,4 @@ Os Estados Unidos também têm regulamentações de controle de exportação sep
 - [Exportar restrições de criptografia](https://docs.microsoft.com/windows/uwp/security/export-restrictions-on-cryptography)
 - [Microsoft e FIPS 140-2](offering-fips-140-2.md)
 - [Microsoft e ITAR](offering-itar.md)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

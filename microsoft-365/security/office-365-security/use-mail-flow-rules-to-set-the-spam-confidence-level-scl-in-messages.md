@@ -14,12 +14,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir o SCL de mensagens na proteção do Exchange Online.
-ms.openlocfilehash: 8da95c5356f7cde47d378d93c721057959554631
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 35a1235ee8bbb1a61bf37c3cd29e06e62252351d
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030625"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871217"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Usar regras de fluxo de emails para definir o SCL (nível de confiança de spam) em mensagens
 
@@ -29,7 +29,7 @@ Você pode criar uma regra de fluxo de emails (também conhecida como regra de t
   
 - Tempo estimado para concluir este procedimento: 10 minutos.
     
-- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "regras de fluxo de email" em [permissões de recurso no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) ou [permissões de recurso no EOP](feature-permissions-in-eop.md). 
+- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "regras de fluxo de email" em [permissões de recurso no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) ou [permissões de recurso no EOP](feature-permissions-in-eop.md). 
     
 - Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
     

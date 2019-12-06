@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: fae04170595b953b2ec88c34e2fec5a2a7ffa9cb
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: ebe89a7dc63a9adbe2c40961f92c1a6656d9ae9d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690040"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859731"
 ---
-# <a name="compliance-offering-health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Oferta de conformidade: HITRUST (Health Information Trust Alliance) (CSF) Security Framework
+# <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) estrutura de segurança comum (CSF)
 
 ## <a name="hitrust--csf-overview"></a>HITRUST — visão geral do CSF
 
@@ -36,11 +36,11 @@ Saiba como acelerar sua implantação do HITRUST com o plano de segurança e con
 
 [Baixe a matriz de responsabilidades do cliente do Microsoft Azure HITRUST (CRM) Blueprint v 9.0 d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
-- [Azure e governo do Azure](https://aka.ms/AzureCompliance)
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Intune
-- [Office 365 e Office 365 governo dos EUA](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -106,8 +106,8 @@ Faça logon na ferramenta HITRUST MyCSF® e preencha previamente sua avaliação
 - [HITRUST CSF 8,1](https://hitrustalliance.net/csf-license-agreement/)
 - [Entendendo e aproveitando o CSF](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [Saiba mais sobre o programa de responsabilidade compartilhada do HITRUST](https://go.microsoft.com/fwlink/p/?linkid=2100268)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf).

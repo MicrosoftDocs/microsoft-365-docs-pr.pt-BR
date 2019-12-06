@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para garantir que os emails enviados de pessoas confiáveis não sejam bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões, também conhecida como lista de remetentes confiáveis, dos endereços IP nos quais você confia. Você também pode criar uma lista de remetentes bloqueados.
-ms.openlocfilehash: 541960ce5339e1334cdc61e1f88bff9be48fe2bd
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6dc0bc4f29446cc064420632f04265c93c0ffa1b
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032426"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871917"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Configurar a política do filtro de conexão
 
@@ -42,13 +42,13 @@ O vídeo a seguir mostra as etapas de configuração da política de filtro de c
 
 - Tempo estimado para conclusão: 15 minutos
 
-- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
+- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o entrada "anti-spam" no tópico [permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) .
 
 - Para obter o endereço IP do remetente cujas mensagens você gostaria de permitir ou bloquear, verifique o cabeçalho de Internet da mensagem. Procure o cabeçalho CIP, conforme descrito em [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md). Para obter informações sobre como exibir um cabeçalho de mensagem em vários clientes de email, consulte [analisador de cabeçalho de mensagem](https://go.microsoft.com/fwlink/p/?LinkId=306583).
 
 - Mensagens de email enviadas de um endereço IP na lista de bloqueios de IP são rejeitadas, não são marcadas como spam, e nenhum filtro adicional ocorre.
 
-- O procedimento de filtro de conexão a seguir também pode ser executado via PowerShell remoto. Use o cmdlet [Get-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/bd751db2-3f26-495b-8e5a-4fcab53b17fd.aspx) para revisar suas configurações e o cmdlet [Set-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/ccb5731b-3fca-4d69-a91f-5049ea963fac.aspx) para editar as configurações da política de filtro de conexão. Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+- O procedimento de filtro de conexão a seguir também pode ser executado via PowerShell remoto. Use o cmdlet [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy) para revisar suas configurações e o cmdlet [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) para editar as configurações da política de filtro de conexão. Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>Use o EAC para editar a política padrão de filtro de conexão
 
@@ -149,7 +149,7 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 |:-----|
 |![O ícone pequeno do LinkedIn Learning](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
 
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para saber mais
 
 [Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
   

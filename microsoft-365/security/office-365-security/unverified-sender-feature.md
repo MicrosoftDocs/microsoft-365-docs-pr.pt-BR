@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: f758213802d32b4154924d1ab4a3d8bbff49e717
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 89cd473a7b7f2ff663d7ee1eee41f84144dee6d7
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204249"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866433"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -47,7 +47,7 @@ Nem todas as mensagens que não são autenticadas são mal-intencionadas. No ent
 
 Se você for um cliente do Office 365, poderá gerenciar esse recurso através do centro de conformidade & segurança. 
 
-- No centro de conformidade & segurança do Office 365, os administradores globais ou de segurança podem ativar ou desativar o recurso, por meio da proteção antifalsificação na política de anti-phishing. Além disso, ele pode ser gerenciado por meio do cmdlet "Set-AntiPhishPolicy". Para obter mais detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy?view=exchange-ps).
+- No centro de conformidade & segurança do Office 365, os administradores globais ou de segurança podem ativar ou desativar o recurso, por meio da proteção antifalsificação na política de anti-phishing. Além disso, ele pode ser gerenciado por meio do cmdlet "Set-AntiPhishPolicy". Para obter mais detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
     ![Edição de remetentes não autenticados na interface gráfica.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
