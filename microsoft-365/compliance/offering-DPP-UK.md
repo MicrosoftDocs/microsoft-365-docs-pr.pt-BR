@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ac12047420e29a0c096dffac884ab584a38fad9b
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 3adc0bcc75886476de9f088c1f539c63fe4e4be8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690012"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859961"
 ---
-# <a name="compliance-offering-digital-production-partnership-dpp-united-kingdom"></a>Oferta de conformidade: DPP (parceria de produção digital) Reino Unido
+# <a name="digital-production-partnership-dpp-united-kingdom"></a>Parceria de produção digital (DPP) Reino Unido
 
 ## <a name="about-the-dpp"></a>Sobre o DPP
 
@@ -32,7 +32,7 @@ O Microsoft Azure recebeu a DPP comprometida com a marca de segurança para tran
   
 Isso significa que os difundidores e outros clientes de mídia que usam o Azure podem ter certeza de que seu serviço robusto e de segurança pode ajudar a atender às demandas exclusivas do setor de transmissão, do desenvolvimento de programas à transmissão.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 
@@ -52,8 +52,8 @@ A marca de transmissão do Azure é válida por um ano e renovada anualmente.
 
 - [DPP confirmado no programa de segurança Guia do usuário da lista de verificação de transmissão](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
 - [NABA e DPP de transmissores para promover requisitos de segurança da CyberSource para fornecedores](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf).

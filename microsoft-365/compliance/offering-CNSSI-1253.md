@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 232d8ddcdcd108d069247bc76850d7d17f18b629
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 12af7c84a922e3db0b7d234dce6f4095ba062a64
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690028"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860031"
 ---
-# <a name="compliance-offering-committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>Oferta de conformidade: Comitê sobre a instrução de sistemas de segurança nacional não. 1253 (CNSSI 1253)
+# <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>Não há um Comitê sobre a instrução de sistemas de segurança nacional 1253 (CNSSI 1253)
 
 ## <a name="about-cnss-instruction-1253"></a>Sobre a instrução CNSS 1253
 
@@ -36,7 +36,7 @@ O Azure governamental atualmente possui uma autorização de alto nível do FedR
   
 A conformidade do governo do Azure com os requisitos exigentes do CNSSI 1253 significa que o Azure pode oferecer aos clientes do setor público nos Estados Unidos uma rica variedade de serviços compatíveis com o CNSSI 1253, permitindo que eles se beneficiem com a economia de custos e com o rigoroso segurança da nuvem da Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem em escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 
@@ -64,9 +64,9 @@ O Azure governamental (FedRAMP Package ID F1603087869) foi testado novamente ess
 - [Governo do Azure](https://aka.ms/Azure-Government)
 - [Microsoft e FedRAMP](offering-fedramp.md)
 - [Autorização de Microsoft e DoD provisório](offering-DoD-DISA-L2-L4-L5.md)
-- [Nuvem do Microsoft governamental](https://www.microsoft.com/enterprise/government)
-- [Conformidade na central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Baixar o plano de fundo da oferta
+## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
-Você precisa do documento de plano de fundo para esta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf).
+Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf).

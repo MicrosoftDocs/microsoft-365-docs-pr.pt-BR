@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como os novos recursos de proteção de mensagens no Office 365 funcionam? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 95efde63ff9cf4c53522c0242a33001a35d2e334
-ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
+ms.openlocfilehash: f8b92e7156921548499ecbb1876787f63eeb3259
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39818843"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866413"
 ---
 # <a name="office-365-message-encryption-faq"></a>Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 
@@ -119,6 +119,10 @@ A criptografia de PDF permite proteger documentos PDF confidenciais por meio de 
 
 Not yet. Não há suporte para anexos do OneDrive for Business, e os usuários finais não podem criptografar um email que contenha um anexo do OneDrive for Business em nuvem.
   
+## <a name="what-email-clients-support-preview-of-encrypted-attachments-in-protected-emails"></a>Quais clientes de email dão suporte à visualização de anexos criptografados em emails protegidos?
+
+Quando os anexos são protegidos com um email protegido, os clientes do Outlook oferecem a capacidade do tha de visualizar o documento diretamente. O Outlook oferece suporte à visualização de documentos do Office (docx, xlsx, pptx, Doc, xls, ppt). O Outlook na Web oferece suporte à visualização de documentos do Office (docx, xlsx, pptx) e PDF.  
+
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Posso criptografar mensagens automaticamente Configurando políticas?
 
 Sim. Use regras de fluxo de email no Exchange Online para criptografar automaticamente uma mensagem com base em determinadas condições. Por exemplo, você pode criar políticas com base na ID do destinatário, domínio do destinatário ou no conteúdo do corpo ou assunto da mensagem. Consulte [definir regras de fluxo de emails para criptografar mensagens de email no Office 365](define-mail-flow-rules-to-encrypt-email.md).

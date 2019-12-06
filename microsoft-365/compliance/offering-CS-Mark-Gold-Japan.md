@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 51e8c1fcc577130d0d9446c331b0616ef33e69fd
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: e20c1f63721d77779eae47f701e06e606ca34a04
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218650"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860021"
 ---
-# <a name="compliance-offering-cloud-security-mark-gold-cs-gold-mark"></a>Oferta de conformidade: Cloud Security Mark Gold (CS Gold Mark)
+# <a name="cloud-security-mark-gold-cs-gold-mark"></a>Cloud Security Mark Gold (CS Gold Mark)
 
 ## <a name="cs-gold-mark-overview"></a>Visão geral da marca do CS Gold Mark
 
