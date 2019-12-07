@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b28a8f2c4e4a3dddaa4d9e7833121b55154f1b8a
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 27ef305d8f8df0469ec4d6d5f98b5c96127f0387
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218590"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859601"
 ---
-# <a name="compliance-offering-minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>Oferta de conformidade: Estrutura de Padrões de risco mínimo aceitável para trocas (MARS-E) 2.0
+# <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>Padrões de Risco Mínimo Aceitável para a Estrutura de Trocas (MARS-E) 2.0
 
 ## <a name="mars-e-20-framework-overview"></a>Visão geral da Estrutura de MARS-E 2.0
 

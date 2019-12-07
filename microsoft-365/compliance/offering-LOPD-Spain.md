@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: bab0c06ec3a626598ff8a2d731b522fa3e8781b2
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 8a89153d1105f407d9fb88ad326d3b37b98ec229
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625171"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859621"
 ---
-# <a name="compliance-offering-spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Oferta de Conformidade: Decreto Real Espanhol 1720/2007, lei orgânica da Espanha 15/1999
+# <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Decreto Real Espanhol 1720/2007, Lei Orgânica da Espanha 15/1999
 
 ## <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-overview"></a>Visão Geral do Decreto Real Espanhol 1720/2007, lei orgânica da Espanha 15/1999
 

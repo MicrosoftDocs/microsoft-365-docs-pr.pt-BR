@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 36b6253a2b880704dea1875dc1fcbfad4a90af2e
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: e8755b89184b52b128e2f3c1060db6cf32e2f9e4
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218620"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859611"
 ---
-# <a name="compliance-offering-monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Oferta de conformidade: Autoridade Monetária de Singapura (MAS) e Associação de Bancos em Singapura (ABS)
+# <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Autoridade Monetária de Singapura (MAS) e Associação de Bancos em Singapura (ABS)
 
 ## <a name="mas-and-abs-overview"></a>Visão geral da MAS e da ABS
 

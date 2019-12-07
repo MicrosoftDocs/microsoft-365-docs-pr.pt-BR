@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: dbf59e28a911bff5b5e94bfe956c6fac49917ad5
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 69cc897f749a591da9bdc69057bccf2dc96351da
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622400"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859531"
 ---
-# <a name="compliance-offering-national-health-service-nhs-information-governance-ig-toolkit"></a>Oferta de conformidade: National Health Service (NHS) Information Governance (IG) Toolkit
+# <a name="national-health-service-nhs-information-governance-ig-toolkit"></a>National Health Service (NHS) Information Governance (IG) Toolkit
 
 ## <a name="nhs-ig-toolkit-overview"></a>Visão geral de NHS IG Toolkit 
 

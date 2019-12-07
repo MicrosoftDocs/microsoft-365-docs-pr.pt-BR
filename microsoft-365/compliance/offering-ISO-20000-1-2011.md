@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7cbe7a98c55708cca1a7f6d5d8c6ce376f591f7f
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 705b59a5ae499a580086304abe91a9318bb36fcb
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625172"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859701"
 ---
-# <a name="compliance-offering-isoiec-20000-12011-information-technology-service-management"></a>Oferta de conformidade: Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:2011
+# <a name="isoiec-20000-12011-information-technology-service-management"></a>Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:2011
 
 ## <a name="isoiec-20000-12011-overview"></a>Visão geral da ISO/IEC 20000-1:2011
 
