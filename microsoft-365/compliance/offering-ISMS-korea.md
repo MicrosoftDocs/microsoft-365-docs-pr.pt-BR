@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 58bae4b2579a92b88859aaac6e0d338c0f688349
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 5685acf9bd03503dcee5c4b40533265bf25e0ee3
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622379"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859711"
 ---
-# <a name="compliance-offering-korea-information-security-management-system-k-isms"></a>Oferta de conformidade: Sistema de gerenciamento de segurança de informações da Coreia do Sul (K-ISMS)
+# <a name="korea-information-security-management-system-k-isms"></a>Sistema de Gerenciamento de Segurança de Informações da Coreia (K-ISMS)
 
 ## <a name="about-k-isms"></a>Sobre o K-ISMS
 

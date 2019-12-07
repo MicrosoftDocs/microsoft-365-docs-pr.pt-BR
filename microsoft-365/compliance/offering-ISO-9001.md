@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4ba32661be241aab061609b97468c073d0c8d67c
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 9eb781ccaab7f7af00cc3c34bc7f7d9fb312fa26
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625177"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859641"
 ---
-# <a name="compliance-offering-iso-90012015-quality-management-systems-standards"></a>Oferta de conformidade: Padrões dos Sistemas de Gestão da Qualidade ISO 9001:2015
+# <a name="iso-90012015-quality-management-systems-standards"></a>Padrões dos Sistemas de Gestão da Qualidade ISO 9001:2015
 
 ## <a name="iso-9001-overview"></a>Visão geral da ISO 9001
 

@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 066edf9c337bae342cb24778879e937045d3a42c
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: e668793da42010656d58f3a474c86e1d24814e84
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625181"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860101"
 ---
-# <a name="compliance-offering-cloud-computing-compliance-controls-catalog-c5"></a>Oferta de conformidade: Cloud Computing Compliance Controls Catalog (C5)
+# <a name="cloud-computing-compliance-controls-catalog-c5"></a>Catálogo de Controles de Conformidade de Computação em Nuvem (C5)
 
 ## <a name="c5-overview"></a>Visão geral do C5
 

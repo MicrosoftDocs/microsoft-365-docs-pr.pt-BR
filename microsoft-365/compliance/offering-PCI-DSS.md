@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 877c9f0c757406c8e9bc9483ab39350a2c814deb
-ms.sourcegitcommit: 1bd81cf48c7fab1b8aaf7c3f550ce42ab02136dc
+ms.openlocfilehash: 7c87b758798c2676ca627f738d8d48c97161b4d1
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39822477"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859501"
 ---
-# <a name="compliance-offering-payment-card-industry-pci-data-security-standard-dss"></a>Oferta de conformidade: Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)
+# <a name="payment-card-industry-pci-data-security-standard-dss"></a>Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)
 
 ## <a name="pci-dss-overview"></a>Visão geral do PCI DSS
 

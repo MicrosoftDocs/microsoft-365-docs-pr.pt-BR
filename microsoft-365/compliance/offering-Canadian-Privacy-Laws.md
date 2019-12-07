@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6663c737148a20c44e0fa94733dad2b47631722c
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 22703f7c9589a246464b16a3088036a858f59475
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622382"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859991"
 ---
-# <a name="compliance-offering-canadian-privacy-laws"></a>Oferta de conformidade: Leis de Privacidade do Canadá
+# <a name="canadian-privacy-laws"></a>Leis de Privacidade do Canadá
 
 ## <a name="about-canadian-privacy-laws"></a>Sobre as Leis de Privacidade do Canadá
 

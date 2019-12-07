@@ -1,7 +1,7 @@
 ---
 title: Diretrizes de Acessibilidade para Conteúdo da Web 2.1
 description: A Microsoft publica os relatórios WCAG 2.1 AA que refletem o produto ou serviço completo, ou partes do produto que podem ser instaladas separadamente.
-keywords: Microsoft 365, ofertas, conformidade
+keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 9239ac26cfdb0e81c979faacf253191577a22b9a
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: a1887bd2b6c04836ebb11d224fcc59debcd88e55
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39195124"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859441"
 ---
-# <a name="compliance-offering-web-content-accessibility-guidelines-21"></a>Oferta de conformidade: Diretrizes de Acessibilidade para Conteúdo da Web 2.1
+# <a name="web-content-accessibility-guidelines-21"></a>Diretrizes de Acessibilidade para Conteúdo da Web 2.1
 
 ## <a name="about-wcag-21"></a>Sobre as WCAG 2.1
 

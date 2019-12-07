@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 51d167a4aea3abcbef6348cf2a7b9c7fde52d6ea
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 168519277be7b19d0d3e864e39aa506b1bf0ed0d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39268736"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859541"
 ---
-# <a name="compliance-offering-nen-7510"></a>Oferta de conformidade: NEN 7510
+# <a name="nen-7510"></a>NEN 7510
 
 ## <a name="nen-7510-overview"></a>Visão geral do NEN 7510
 

@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 405b730e845cd1f27d2d495b9437bf46a4499f5e
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 300a6c5d43bdb3653426b451abb3c82709194039
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218600"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859671"
 ---
-# <a name="compliance-offering-isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Oferta de conformidade: código de conduta ISO/IEC 27018 para a proteção de dados pessoais na nuvem
+# <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem
 
 ## <a name="isoiec-27018-overview"></a>Visão geral da ISO/IEC 27018
 

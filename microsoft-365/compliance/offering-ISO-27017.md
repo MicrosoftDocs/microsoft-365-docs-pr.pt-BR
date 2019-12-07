@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6002637496cfa01bc7b14ad29069493e45142c33
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: f58322fe915c811ba2613bef98116f910abc03d1
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625178"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859681"
 ---
-# <a name="compliance-offering-isoiec-270172015-code-of-practice-for-information-security-controls"></a>Oferta de conformidade: Código de Conduta ISO/IEC 27017:2015 para Controles de Segurança de Informações
+# <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>Código de Conduta ISO/IEC 27017:2015 para Controles de Segurança de Informações
 
 ## <a name="iso-iec-27017-overview"></a>Visão geral da ISO/IEC 27017
 

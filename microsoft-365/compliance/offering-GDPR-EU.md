@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ab50ba0a901672b2bd6f21f95f04612bba3f8cfd
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 3002d8bca20f7505287420d700aff60fec1af966
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233534"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859771"
 ---
-# <a name="compliance-offering-general-data-protection-regulation-gdpr"></a>Oferta de conformidade: GDPR (Regulamento Geral sobre a Proteção de Dados)
+# <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral de Proteção de Dados (GDPR)
 
 ## <a name="learn-about-gdpr-compliance-best-practices"></a>Aprenda as melhores práticas de conformidade do GDPR
 

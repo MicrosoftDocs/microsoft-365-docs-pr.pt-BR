@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1a928dc7093f493238b848e3427875b78171f3b4
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 12c900b61e7227d8bb2770501c59747cd9c431c8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622387"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860091"
 ---
-# <a name="compliance-offering-baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Oferta de conformidade: Padrão de linha de base do Informatiebeveiliging Rijksdienst (BIR 2012)
+# <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Padrão de linha de base do Informatiebeveiliging Rijksdienst (BIR 2012)
 
 ## <a name="bir-2012-overview"></a>Visão geral do BIR 2012
 
