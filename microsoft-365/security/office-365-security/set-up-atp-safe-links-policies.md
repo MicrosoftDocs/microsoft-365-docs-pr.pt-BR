@@ -15,17 +15,17 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 09a9a47610915244ade77e1410024d7f055e390f
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 29e0c8d485d89498fe952d29d8b68f808c4aaaf3
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866613"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970127"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
 > [!IMPORTANT]
-> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Os [links seguros de ATP](atp-safe-links.md), um recurso da [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), podem ajudar a proteger sua organização contra links mal-intencionados usados em phishing e outros ataques. Se você tiver as [permissões necessárias para o centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md), poderá configurar as políticas de links seguros de ATP para ajudar a garantir que quando as pessoas clicarem em endereços da Web (URLs), sua organização esteja protegida. As políticas de links seguros de ATP podem ser configuradas para verificar URLs em emails e URLs em documentos do Office.
   

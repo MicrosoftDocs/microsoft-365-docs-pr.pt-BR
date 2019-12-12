@@ -15,34 +15,65 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 6e2ca4405838f6e72603bcdb3024b8c0f70e3e99
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 01a81d5f4ac68d72095f86de93b727c60d28393f
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034292"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910201"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
-A proteção contra ameaças da Microsoft é uma solução de segurança abrangente que reúne recursos avançados de segurança que permitem às organizações atuais: 
+**Aplica-se a:**
+- Proteção contra Ameaças da Microsoft
 
-- **Proteger ativos** -ativos é protegido contra usuários, dispositivos e aplicativos não autorizados.
+[!include[Prerelease information](prerelease.md)]
 
-- **Conectar os pontos** , aproveitando a fibra óptica sem paralelo, a solução aplica a correlação de sinais para agrupar alertas de várias superfícies de ataque para dar a você um contexto melhor no escopo de uma ameaça.
+A proteção contra ameaças da Microsoft é um pacote unificado de defesa do Enterprise Defense que se integra nativamente ao ponto de extremidade, identidade, email e aplicativos para detectar, prevenir, investigar e responder automaticamente a ataques sofisticados.  
 
-- **Capacitadores** de segurança: por meio da visibilidade do escopo completo de uma ameaça, seus defensores de segurança são habilitados para identificar seu impacto e tomar as ações de correção apropriadas.
+Com a solução integrada de proteção contra ameaças da Microsoft, os profissionais de segurança podem unir os sinais de ameaça de que cada um desses produtos recebe e determinam o escopo completo e o impacto da ameaça; como ele entrou no ambiente, o que ele é afetado e como ele está afetando a organização no momento. A proteção contra ameaças da Microsoft realiza ações automáticas para impedir ou interromper o ataque e a AutoCorreção de caixas de correio, pontos de extremidade e identidades de usuários afetados.  
 
 
-Acessar o poder da proteção contra ameaças da Microsoft por meio do centro de segurança do Microsoft 365.
+O pacote de proteção contra ameaças da Microsoft protege: 
+- **Pontos de extremidade com Microsoft defender ATP** -Microsoft defender ATP é uma plataforma de ponto de extremidade unificado para proteção preventiva, detecção de pós-violação, investigação automatizada e resposta. 
+- O **email e a colaboração com o office 365 ATP** -Office 365 ATP salvaguarda sua organização contra ameaças mal-intencionadas causadas por mensagens de email, links (URLs) e ferramentas de colaboração. 
+- **Identidades com o Azure ATP e o Azure ad Identity Protection** -o Azure ATP usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. 
+- **Aplicativos com o Microsoft Cloud app** Security-Microsoft Cloud app Security é uma solução completa de SaaS que traz visibilidade profunda, controles de dados fortes e proteção avançada contra ameaças para seus aplicativos de nuvem. 
+
+A camada exclusiva de produtos cruzados do Microsoft Threat Protection aumenta os componentes individuais do pacote para:
+- Ajudar a proteger contra ataques e coordenar respostas defensivas no pacote por meio de compartilhamento de sinal e ações automatizadas
+- Narrar a história completa do ataque entre alertas de produtos, comportamentos e contexto para equipes de segurança unindo dados sobre alertas, eventos suspeitos e ativos impactados em ' incidentes '
+- Automatizar a resposta para comprometer ao acionar a auto-recuperação de ativos impactados por meio da correção automatizada
+- Permitir que as equipes de segurança realizem uma busca detalhada e eficaz de ameaças nos dados do Office e do ponto de extremidade
+
+![Imagem da página de visão geral do incidente](../images/overview-incident.png) <br>
+Incidente entre produtos (visão geral)
+
+![Imagem da fila de alertas](../images/incident-list.png)<br>
+Todos os alertas relacionados nos produtos do pacote que foram correlacionados em um único incidente (modo de exibição de alertas)
+
+![Imagem da fila de incidentes](../images/advanced-hunting.png)<br>
+Busca baseada em consulta na parte superior dos dados brutos de email e ponto de extremidade
+
+
+Os recursos entre produtos do Microsoft Threat Protection incluem: 
+- **Painel único de interauto-produtos do modo de** visualização central todas as informações para detecções, ativos impactados, ações automatizadas e evidências relacionadas em uma única fila e um único painel no [Security.Microsoft.com](https://security.microsoft.com). 
+- **Fila de incidentes combinados** – para ajudar os profissionais de segurança a se concentrar no que é crítico, garantindo o escopo completo do ataque, os ativos afetados e as ações de correção automatizada são agrupados e colocados em tempo hábil. 
+- **Resposta automática para ameaças** -as informações críticas de ameaças são compartilhadas em tempo real entre os produtos de proteção contra ameaças da Microsoft para ajudar a interromper o andamento de um ataque. Por exemplo, se um arquivo mal-intencionado é detectado em um ponto de extremidade protegido pelo Microsoft defender ATP, ele instruirá o Office 365 ATP a examinar e remover o arquivo de todas as mensagens de email. O arquivo será bloqueado em vista pelo pacote de segurança do Microsoft 365 inteiro.
+- **Auto-recuperação de dispositivos comprometidos, identidades de usuário e caixas de correio** -a proteção contra ameaças da Microsoft usa ações automáticas e guias estratégicos para corrigir os ativos impactados de volta a um estado seguro. A proteção contra ameaças da Microsoft aproveita os recursos de correção automática dos produtos do pacote para garantir que todos os ativos afetados relacionados a um incidente sejam corrigidos automaticamente quando possível.
+- **Busca de ameaças entre produtos** -as equipes de segurança podem aproveitar o conhecimento organizacional exclusivo para procurar sinais de comprometimento criando suas próprias consultas personalizadas sobre os dados brutos coletados pelos vários produtos de proteção. A proteção contra ameaças da Microsoft fornece acesso baseado em consulta para 30 dias de sinais brutos históricos e dados de alerta em todos os dados do Endpoint e do Office 365 ATP. 
 
 <center><h2>Serviços de proteção contra ameaças da Microsoft</center></h2>
 <table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Proteção avançada contra ameaças do Microsoft defender</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Proteção avançada contra ameaças do Office 365</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Proteção avançada contra ameaças do Azure</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/security-center/"><b>Central de segurança do Azure</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Segurança do aplicativo do Microsoft Cloud</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/sentinel/overview"><b>Sentinela do Microsoft Azure</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/active-directory/"><b>Azure Active Directory</b></a></center></td>
 </tr>
 </table>
 <br>
+
+
+## <a name="get-started"></a>Introdução
+Os clientes com uma licença Microsoft 365 E5 ou equivalente podem usar a proteção contra ameaças da Microsoft. Para começar, habilite o serviço na central de segurança do Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
+- [Requisitos de licenciamento](prerequisites.md#licensing-requirements)
+- [Ativar a proteção contra ameaças da Microsoft](mtp-enable.md)

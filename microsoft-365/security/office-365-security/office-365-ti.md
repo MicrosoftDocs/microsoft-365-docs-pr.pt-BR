@@ -1,9 +1,9 @@
 ---
-title: Investigação e resposta a ameaças do Office 365
+title: Investigação de ameaças e recursos de resposta do Office 365 no Office 365 Advanced Threat Protection Plan 2
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/03/2019
+ms.date: 12/04/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,31 +15,32 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Descubra como os recursos de inteligência de ameaças no Office 365 proteção avançada contra ameaças pode ajudá-lo a Pesquisar ameaças em sua organização, responder a malware, phishing e outros ataques que o Office 365 detectou em seu nome e Pesquisar ameaças indicadores.
-ms.openlocfilehash: 63b5579c5a3e52273064f85a901a6b592e7dd939
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 1e8a3cee67a3fdb56042bc83dac7b09367241bf3
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813731"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967994"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Investigação e resposta a ameaças do Office 365
 
 Os recursos de investigação e resposta contra ameaças no [office 365 proteção avançada contra ameaças](office-365-atp.md) ajudam os analistas e administradores de segurança a proteger os usuários do Office 365 da sua organização:
-  
 - Facilitando a identificação, o monitoramento e a compreensão do cyberattacks
-    
 - Ajudando a resolver rapidamente as ameaças no Exchange Online, no SharePoint Online, no OneDrive for Business e no Microsoft Teams
-    
 - Fornecer informações e conhecimento para ajudar as operações de segurança a evitar o cyberattacks em sua organização
-
-- Empregar [resposta de incidentes automatizado](automated-investigation-response-office.md) para ameaças críticas baseadas em email
+- O emprego de [investigação e resposta automatizadas no Office 365](automated-investigation-response-office.md) para ameaças críticas baseadas em email
     
-Os recursos de investigação e resposta contra ameaças fornecem informações sobre ameaças e ações de resposta relacionadas que estão disponíveis no centro de &amp; conformidade de segurança do Office 365. Essas informações podem ajudar a equipe de segurança da sua organização a proteger os usuários do Office 365 contra ataques baseados em email ou arquivos. Os recursos ajudam a monitorar sinais e coletar dados de várias fontes, como atividade do usuário, autenticação, email, computadores comprometidos e incidentes de segurança. Os tomadores de decisões de negócios e os administradores globais do Office 365, administradores de segurança e analistas de segurança podem usar essas informações para entender e responder a ameaças contra os usuários do Office 365 e proteger a propriedade intelectual.
+Os recursos de investigação e resposta contra ameaças fornecem informações sobre ameaças e ações de resposta relacionadas que estão disponíveis no centro de &amp; conformidade de segurança do Office 365. Essas informações podem ajudar a equipe de segurança da sua organização a proteger os usuários do Office 365 contra ataques baseados em email ou arquivos. Os recursos ajudam a monitorar sinais e coletar dados de várias fontes, como atividade do usuário, autenticação, email, computadores comprometidos e incidentes de segurança. Os tomadores de decisões de negócios e sua equipe de operações de segurança podem usar essas informações para entender e responder a ameaças em relação à sua organização e proteger sua propriedade intelectual.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Familiarize-se com as ferramentas de investigação e resposta contra ameaças
 
-Recursos de investigação e resposta contra ameaças no centro &amp; de conformidade de segurança, como um conjunto de ferramentas e fluxos de trabalho de resposta, incluindo o [painel de ameaças](#threat-dashboard), o [Explorer](#threat-explorer), [incidentes](#incidents), o [simulador de ataques](#attack-simulator)e a [resposta de incidentes automatizado](automated-investigation-response-office.md).
-  
+Recursos de investigação e resposta contra ameaças no centro &amp; de conformidade de segurança, como um conjunto de ferramentas e fluxos de trabalho de resposta, incluindo o seguinte:
+- [Painel de ameaças](#threat-dashboard)
+- [Explorer](#threat-explorer)
+- [Incidente](#incidents)
+- [Simulador de ataque](#attack-simulator)
+- [Investigação e resposta automatizadas](automated-investigation-response-office.md)
+
 ### <a name="threat-dashboard"></a>Painel de ameaças
 
 Use o painel de ameaças (isso também é conhecido como [painel de segurança](security-dashboard.md)) para ver rapidamente quais ameaças foram tratadas e como uma maneira visual de relatar os responsáveis pelas decisões de negócios como os serviços do Office 365 estão protegendo sua empresa.
@@ -72,7 +73,7 @@ Use o simulador de ataques para configurar e executar o cyberattacks realista em
 
 ### <a name="automated-investigation-and-response"></a>Investigação e resposta automatizadas
 
-Use recursos automatizados de investigação e resposta (AIR) para economizar tempo e esforço de correlação de conteúdo, dispositivos e pessoas em risco de ameaças em sua organização. Os processos de ar podem começar sempre que determinados alertas são acionados ou quando iniciados por sua equipe de operações de segurança. Para saber mais, confira [Resposta automatizada a incidentes no Office 365](automated-investigation-response-office.md). 
+Use recursos automatizados de investigação e resposta (AIR) para economizar tempo e esforço de correlação de conteúdo, dispositivos e pessoas em risco de ameaças em sua organização. Os processos de ar podem começar sempre que determinados alertas são acionados ou quando iniciados por sua equipe de operações de segurança. Para saber mais, confira [investigação e resposta automatizadas no Office 365](automated-investigation-response-office.md). 
   
 ## <a name="threat-intelligence-widgets"></a>Widgets de inteligência de ameaças
 
@@ -82,33 +83,26 @@ Como parte da oferta do plano de proteção avançada contra ameaças do Office 
   
 ## <a name="how-do-we-get-these-capabilities"></a>Como obtemos esses recursos?
 
-Os recursos de investigação e resposta contra ameaças do Office 365 estão incluídos no Office 365 Advanced Threat Protection Plan 2 e Enterprise e5. 
+Os recursos de investigação e resposta contra ameaças do Office 365 estão incluídos no Office 365 Advanced Threat Protection Plan 2, incluído no Enterprise E5 ou como um complemento a determinadas assinaturas. Para saber mais, confira [Office 365 ATP Plan 1 e Plan 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+
+## <a name="required-roles-and-permissions"></a>Funções e permissões necessárias
+
+O Office 365 proteção avançada contra ameaças usa o controle de acesso baseado em função. As permissões são atribuídas por meio de funções no Azure Active Directory, no centro de administração do Microsoft 365 ou no centro de conformidade & segurança do Office 365.
 
 > [!TIP]
-> Se sua organização tiver uma assinatura do Office 365 que não inclua esses recursos de investigação e resposta de ameaças, você poderá comprar o Office 365 Advanced Threat Protection Plan 2 como um complemento. Para obter mais informações sobre opções de plano, confira [Descrição do serviço proteção avançada contra ameaças do office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) e [comprar ou editar um complemento para o Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).
-  
-1. Como administrador global do Office 365, acesse [https://admin.microsoft.com](https://admin.microsoft.com) e entre usando sua conta corporativa ou de estudante para o Office 365. 
-    
-2. Escolha **administrador** \> **cobrança** para ver o que sua assinatura atual inclui. 
-    - Se você vir o **office 365 Enterprise E5**, sua organização terá o Office 365 Advanced Threat Protection Plan 2 (que inclui os recursos de investigação e resposta contra ameaças). 
-    - Se você vir uma assinatura diferente, como o **office 365 Enterprise E3** ou o **Office 365 Enterprise E1**, considere adicionar o Office 365 Advanced Threat Protection Plan 2. (Para fazer isso, escolha **+ Adicionar assinatura**.)
-    
-3. No centro de administração do Microsoft 365, escolha usuários **ativos**do **usuário** \> .
-    
-4. Atribuir licenças do Office 365 Advanced Threat Protection Plan 2 a todos os usuários ativos. (Apenas os usuários que têm uma licença para isso aparecerão em relatórios, como o Explorer.)
-    
-5. Atribua funções às pessoas em sua organização que irão trabalhar com a proteção avançada contra ameaças do Office 365. Confira [conceder aos usuários acesso ao centro de &amp; conformidade de segurança do Office 365](grant-access-to-the-security-and-compliance-center.md)e consulte a seguinte tabela:<br/><br/>
+> Embora algumas funções, como administrador de segurança, possam ser atribuídas no centro de conformidade & segurança do Office 365, considere o uso do centro de administração do Microsoft 365 ou do Azure Active Directory. Para obter informações sobre funções, grupos de funções e permissões, consulte os seguintes recursos:
+> - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+> - [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 
-  |**Para executar esta atividade...** <br/> |**Você deve ter essas funções** <br/> |  
-  |:-----|:-----|
-  |Usar o painel de ameaças (ou o novo [painel de segurança](security-dashboard.md))<br/> Exibir informações sobre ameaças recentes ou atuais  <br/> |Um dos seguintes (atribuído no Azure Active Directory ou no centro de conformidade de segurança &amp; do Office 365): <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> |
-  |Usar o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças  <br/> |Um dos seguintes (atribuído no Azure Active Directory ou no centro de conformidade de segurança &amp; do Office 365): <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> |
-  |Exibir incidentes (também conhecidos como investigações) <br/> Adicionar mensagens de email a um incidente  <br/> |Um dos seguintes (atribuído no Azure Active Directory ou no centro de conformidade de segurança &amp; do Office 365): <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/>  <br/> |
-  |Acionar ações de email em um incidente  <br/> Localizar e excluir mensagens de email suspeitas  <br/> |Um dos seguintes (atribuído no Azure Active Directory ou no centro de conformidade de segurança &amp; do Office 365): <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>---e---<br/>- **Pesquisa e limpeza** (atribuído somente no centro de conformidade de &amp; segurança do Office 365)  <br/> |
-  |Integrar o Office 365 Advanced Threat Protection Plan 2 with Microsoft defender ATP  <br/> Integrar o Office 365 Advanced Threat Protection Plan 2 com um servidor SIEM  <br/> |Um dos seguintes (atribuído no Azure Active Directory ou no centro de conformidade de segurança &amp; do Office 365): <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>---e---<br/>Uma função apropriada atribuída em aplicativos adicionais (como a central de segurança do Microsoft defender ou um servidor SIEM)  <br/> |
+|Atividade |Funções e permissões |  
+|:-----|:-----|
+|Usar o painel de ameaças (ou o novo [painel de segurança](security-dashboard.md))<br/> <br/>Exibir informações sobre ameaças recentes ou atuais  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
+|Usar o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
+|Exibir incidentes (também conhecidos como investigações) <br/> Adicionar mensagens de email a um incidente  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 ().  |
+|Acionar ações de email em um incidente <br/> <br/> Localizar e excluir mensagens de email suspeitas  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** mais a função de **pesquisa e limpeza**<br/><br/>As funções de **administrador global** e **administrador de segurança** podem ser atribuídas no Azure Active[https://portal.azure.com](https://portal.azure.com)Directory () ou no centro de administração[https://admin.microsoft.com](https://admin.microsoft.com)do Microsoft 365 (). <br/><br/>A função de **pesquisa e limpeza** deve ser atribuída no centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 (). |
+|Integrar o Office 365 Advanced Threat Protection Plan 2 with Microsoft defender Advanced Threat Protection  <br/><br/> Integrar o Office 365 Advanced Threat Protection Plan 2 com um servidor SIEM  <br/> |O **administrador global do Office 365** ou a função de **administrador de segurança** atribuída no Azure Active Directory[https://portal.azure.com](https://portal.azure.com)() ou no centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com)Microsoft 365 ().<br/>--- **mais** ---<br/>Uma função apropriada atribuída em aplicativos adicionais (como a [central de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) ou seu servidor Siem)  |
    
-Para obter informações sobre funções, grupos de funções e permissões, consulte [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
     
 ## <a name="next-steps"></a>Próximas etapas
 

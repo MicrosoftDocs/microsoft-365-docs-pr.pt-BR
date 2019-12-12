@@ -71,7 +71,14 @@ sections:
             title: '[Livro eletrônico] Encantarão sua empresa com um local de trabalho moderno'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+              alt: ''
   - title: Vídeos
     items:
+      - type: paragraph
+        text: Saiba mais sobre os benefícios da área de trabalho gerenciada da Microsoft do VP de tecnologia nos Indiana os ritmos.
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
+      - type: paragraph
+        text: O gerente geral da área de trabalho gerenciada da Microsoft compartilha todos os destaques do serviço na conferência anual do Ignite.
+      - type: markdown
+        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'

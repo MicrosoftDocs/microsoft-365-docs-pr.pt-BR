@@ -3,7 +3,6 @@ title: Gerenciador de ameaças e detecções em tempo real, novidade para o expl
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/07/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,22 +14,22 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 4507155acf3a973484f8228803660abf65167121
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 64ebfef5c0d5540acf74d0d6f5a864461e83f82f
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866363"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967934"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
-Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças**e escolha as detecções do **Explorer** ou **em tempo real**. 
+Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças**e escolha as detecções do **Explorer** ou **em tempo real**. 
 
 |Com o plano ATP 2, você vê:  |Com o plano ATP 1, você vê:  |
 |---------|---------|
 |![Explorador de ameaças](../media/threatmgmt-explorer.png)      |![Detecções em tempo real](../media/threatmgmt-realtimedetections.png)         |
 
-Com o Explorer (ou detecções em tempo real), você tem um relatório poderoso que permite que sua equipe de operações de segurança investigue e responda às ameaças de forma eficaz e eficiente e se assemelha à imagem a seguir: 
+Com o Explorer (ou detecções em tempo real), você tem um relatório poderoso que permite que sua equipe de operações de segurança investigue e responda às ameaças de forma eficaz e eficiente. O relatório é semelhante à seguinte imagem: 
 
 ![Vá para o Gerenciador \> de gerenciamento de ameaças](../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
@@ -40,13 +39,20 @@ Com esse relatório, você pode:
 - [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (apenas plano ATP 2)
 - ... [Investigue emails mal-intencionados e muito mais](#more-ways-to-use-explorer-or-real-time-detections)!
 
-## <a name="new-features-in-real-time-detections"></a>Novos recursos em detecções em tempo real
+## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Novos recursos no Gerenciador de ameaças e detecções em tempo real
 
-Três novos recursos adicionados ao explorador de ameaças estão descritos abaixo.
+Três novos recursos adicionados ao Gerenciador de ameaças e às detecções em tempo real:
+- [Visualizar o cabeçalho de email e baixar o corpo do email](#preview-email-header-and-download-email-body)
+- [Linha do tempo de email](#email-timeline)
+- [Exportar URL clique em dados](#export-url-click-data)
 
-Primeiro, a **visualização do cabeçalho de email e o download do corpo do email** são novos recursos disponíveis no explorador de ameaças. Os administradores poderão analisar os cabeçalhos/emails baixados quanto a ameaças. Como o download de emails pode arriscar a exposição das informações, esse processo é controlado pelo controle de acesso baseado em funções (RBAC). Uma nova função, chamada ' prévia ', deve ser adicionada a outro grupo de função do Office 365 (por exemplo, em operações da SEC, ou administração da SEC) para conceder a capacidade de baixar emails e Visualizar cabeçalhos no modo de exibição todos os emails.
+Esses novos recursos estão descritos abaixo.
 
-Mas o Explorer (e as detecções em tempo real) também adiciona novos campos criados para dar a você uma visão mais completa de onde seus emails estão no terreno. Parte do objetivo dessa alteração é tornar a busca mais fácil para pessoas de operações de segurança, mas o resultado líquido é saber o local dos emails de problemas em um relance.
+### <a name="preview-email-header-and-download-email-body"></a>Visualizar o cabeçalho de email e baixar o corpo do email
+
+A capacidade de Visualizar um cabeçalho de email e baixar o corpo do email são novos recursos disponíveis no explorador de ameaças. Os administradores poderão analisar os cabeçalhos/mensagens de email baixados para ameaças. Como o download de mensagens de email pode arriscar a exposição de informações, esse processo é controlado pelo controle de acesso baseado em funções (RBAC). Uma nova função, *Visualização*, deve ser adicionada a outro grupo de função do Office 365 (como operações de segurança ou administrador de segurança) para conceder a capacidade de baixar emails e Visualizar cabeçalhos em todas as mensagens de email exibir.
+
+Mas o Explorer (e as detecções em tempo real) também adiciona novos campos criados para fornecer uma imagem mais completa de onde suas mensagens de email estão no terreno. Parte da meta dessa alteração é tornar a busca mais fácil para pessoas de operações de segurança, mas o resultado líquido é saber o local das mensagens de email de problemas em um relance.
 
 Como isso é feito? O status de entrega agora é dividido em duas colunas:
 
@@ -57,7 +63,7 @@ A ação de entrega é a ação realizada em um email devido a políticas ou det
 
 |Gerados  |Lixo eletrônico  |Blocked  |Devido  |
 |---------|---------|---------|---------|
-|O email foi entregue à caixa de entrada ou pasta de um usuário, e o usuário pode acessá-lo diretamente.    | O email foi enviado à pasta de lixo eletrônico ou à pasta excluída do usuário, e o usuário tem acesso a emails nessas pastas.       | Todos os emails colocados em quarentena, que falharam ou foram descartados. Isso é completamente inacessível pelo usuário!     | Qualquer email onde anexos mal-intencionados são substituídos por arquivos. txt que indicam que o anexo era mal-intencionado.     |
+|O email foi entregue na caixa de entrada do usuário ou em outra pasta, e o usuário pode acessá-lo diretamente.    | O email foi enviado para a pasta de lixo eletrônico do usuário ou para a pasta excluída e o usuário tem acesso a mensagens de email nessas pastas.       | Qualquer mensagem de email em quarentena, que falhou ou foi interrompida, e não pode ser acessada pelo usuário.     | Quaisquer mensagens de email em que anexos mal-intencionados foram substituídos por arquivos. txt que indicam que os anexos foram mal-intencionados.     |
 
 E aqui está o que o usuário pode ver e o que eles não podem:
 
@@ -68,28 +74,31 @@ E aqui está o que o usuário pode ver e o que eles não podem:
 
 O local de entrega mostra os resultados das políticas e detecções que executam post-Delivery. Ele está vinculado a uma ação de entrega. Este campo foi adicionado para dar informações sobre a ação tomada quando um email de problema é encontrado. Estes são os possíveis valores de local de entrega:
 
-1. Caixa de entrada ou pasta – o email está na caixa de entrada ou uma pasta (de acordo com suas regras de email).
-2. Local ou externo – a caixa de correio não existe na nuvem, mas está no local.
-3. Pasta lixo eletrônico – o email na pasta lixo eletrônico de um usuário.
-4. Pasta itens excluídos – o email na pasta itens excluídos de um usuário.
-5. Quarentena – o email em quarentena e não está na caixa de correio de um usuário.
-6. Falha – o email não pôde chegar à caixa de correio.
-7. Descartado – o email é perdido em algum lugar no fluxo.
+- **Caixa de entrada ou pasta**: o email está na caixa de entrada ou uma pasta (de acordo com suas regras de email).
+- **Local ou externo**: a caixa de correio não existe na nuvem, mas está no local.
+- **Pasta de lixo eletrônico**: o email está na pasta lixo eletrônico de um usuário.
+- **Pasta itens excluídos**: o email na pasta itens excluídos de um usuário.
+- **Quarantine**: o email em quarentena e não está na caixa de correio de um usuário.
+- **Falha**: o email não pôde chegar à caixa de correio.
+- **Descartado**: o email é perdido em algum lugar no fluxo de emails.
+
+### <a name="email-timeline"></a>Linha do tempo de email
 
 A **linha do tempo de email** é outro novo recurso do Explorer destinado a tornar a experiência de busca melhor para administradores. Ele reduz a randomização porque há menos tempo gasto na verificação de locais diferentes para tentar entender o evento. Quando vários eventos ocorrem ou próximos à mesma hora em um email, esses eventos serão exibidos em um modo de exibição de linha do tempo. Na verdade, alguns eventos que acontecerão após a entrega ao seu email serão capturados na coluna "ação especial". A combinação das informações da linha do tempo dos emails com a ação especial tomada no envio de mensagens enviará aos administradores informações sobre como as políticas funcionam, onde o email foi finalmente encaminhado e, em alguns casos, qual era a avaliação final.
 
-Para obter mais informações sobre a investigação de emails mal-intencionados [, consulte localizar e investigar emails mal-intencionados que foram entregues no Office 365](https://docs.microsoft.com/office365/securitycompliance/investigate-malicious-email-that-was-delivered).
+Para obter mais informações sobre a investigação de mensagens de email mal-intencionadas, consulte [Localizar e investigar emails mal-intencionados que foram entregues no Office 365](https://docs.microsoft.com/office365/securitycompliance/investigate-malicious-email-that-was-delivered).
 
+### <a name="export-url-click-data"></a>Exportar URL clique em dados
 
-Além disso, agora você poderá **exportar relatórios para cliques de URL** para o Microsoft Excel a fim de exibir a ID da mensagem de rede e o clique em veredicto, tornando a tarefa de compreensão onde sua URL clica em tráfego originado mais facilmente. Veja como funciona. A partir do gerenciamento de ameaças no Office 365 Quick-Launch, clique nesta cadeia:
+Além disso, agora você poderá exportar relatórios para cliques de URL para o Microsoft Excel a fim de exibir a ID da mensagem de rede e o clique em veredicto, tornando a tarefa de compreensão onde sua URL clica em tráfego originado mais facilmente. Veja como funciona. A partir do gerenciamento de ameaças no Office 365 Quick-Launch, clique nesta cadeia:
 
-**Explorer > exibir > de phishing clica > principais URLs ou principais cliques de URL > clique em qualquer registro para abrir o submenu de URL**
+**Explorer** > **Exibir Phish** > **** cliques > **principais URLs ou URL principais cliques** > **clique em qualquer registro para abrir o submenu URL**
 
 Ao clicar em uma URL na lista, você verá um novo botão de exportação no painel de saída. Use este botão para mover dados para uma planilha do Excel para facilitar o relatório.
 
-Você pode acessar o mesmo local em detecções de tempo real, como:
+Você pode obter o mesmo local no relatório de detecções em tempo real da seguinte maneira:
 
-**Explorer > detecções em tempo real > exibir as URLs de phishing > > principais URLs ou principais cliques > clique em qualquer registro para abrir o submenu de URL > navegue até a guia cliques.**
+**Gerenciador** > **de detecções** > em tempo real**Exibir** > **URLs** > de phishing**principais URLs ou principais cliques** > **clique em qualquer registro para abrir o submenu** > URL**navegue até a guia cliques.**
 
 > [!TIP]
 > Mapeamento de ID de mensagem de rede o clique em voltar para emails específicos quando você pesquisa pelo Explorer ou ferramentas de terceiros associadas via ID de mensagem de rede. A pesquisa da ID da mensagem de rede fornecerá aos administradores o email específico associado a um clique. Na exportação, a identificação de correlação da ID da mensagem de rede realiza uma análise mais rápida e eficiente.
@@ -130,11 +139,11 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
    - Os **principais cliques** são as URLs encapsuladas de links seguros que foram clicados, classificados por contagem de clique total (essa coluna também não é exibida para simplificar o modo de exibição). Total de contagens por coluna indicam os links seguros clique em contagem de veredicto para cada URL clicada. No modo de exibição email de phishing, eles são URLs suspeitas ou maliciosas mais frequentes, mas podem incluir URLs limpas que estão nas mensagens de phishing. Os cliques de URL em links não ajustados não aparecerão aqui.
    
-   As duas tabelas URLs mostram as principais URLs nos emails de phishing por ação de entrega e local, e mostram cliques de URL que foram bloqueados (ou visitados apesar de um aviso) para que você possa entender quais links defeituosos potenciais foram recebidos por usuários e interagem com os usuários. A partir daqui, você pode realizar uma análise adicional. Por exemplo, abaixo do gráfico, você pode ver as principais URLs nos emails que foram bloqueados no ambiente da sua organização.
+   As duas tabelas de URL mostram as principais URLs nas mensagens de email de phishing por ação de entrega e local, e mostram cliques de URL que foram bloqueados (ou visitados apesar de um aviso) para que você possa entender quais links defeituosos possíveis foram recebidos por usuários e interagem com os usuários. A partir daqui, você pode realizar uma análise adicional. Por exemplo, abaixo do gráfico, você pode ver as principais URLs nas mensagens de email que foram bloqueadas no ambiente da sua organização.
    
    ![URLs do Explorer que foram bloqueadas](../media/ExplorerPhishClickVerdictURLs.png)
    
-   Selecione uma URL para exibir informações mais detalhadas. Observe que, na caixa de diálogo de submenu URL, a filtragem de emails é removida para mostrar a exibição completa da exposição da URL em seu ambiente. Isso permite que você filtre emails no Explorer para os quais você está preocupado, encontre URLs específicas que são ameaças potenciais e, em seguida, expanda a compreensão da exposição de URL no seu ambiente (por meio da caixa de diálogo detalhes da URL) sem ter que adicionar filtros de URL ao Visualização do Explorer.
+   Selecione uma URL para exibir informações mais detalhadas. **Observação**: na caixa de diálogo de submenu URL, a filtragem em mensagens de email é removida para mostrar a exibição completa da exposição da URL em seu ambiente. Isso permite que você filtre mensagens de email no Explorer para as quais você está preocupado, encontre URLs específicas que são ameaças potenciais e, em seguida, expanda a compreensão da exposição de URL no seu ambiente (por meio da caixa de diálogo de detalhes da URL) sem ter que adicionar filtros de URL para a própria exibição do Explorer.
 
 ## <a name="review-email-messages-reported-by-users"></a>Analisar mensagens de email relatadas por usuários
 
@@ -153,9 +162,9 @@ O relatório é atualizado para mostrar dados sobre mensagens de email que as pe
 ## <a name="start-automated-investigation-and-response"></a>Iniciar investigação e resposta automatizadas
 
 > [!NOTE]
-> Os recursos de resposta de incidentes automatizados estão disponíveis no **office 365 ATP Plan 2** e no **Office 365 E5**.
+> Os recursos de investigação e resposta automatizados estão disponíveis no **office 365 ATP Plan 2** e no **Office 365 E5**.
 
-(Novo!) A [resposta de incidentes automatizado](automated-investigation-response-office.md) pode economizar sua equipe de operações de segurança muito tempo e esforço na investigação e redução do cyberattacks. Além de configurar alertas que podem acionar um guia de segurança, você pode iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer. 
+(Novo!) A [investigação e a resposta automatizadas](automated-investigation-response-office.md) podem salvar sua equipe de operações de segurança muito tempo e esforço na investigação e redução do cyberattacks. Além de configurar alertas que podem acionar um guia de segurança, você pode iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer. 
 
 Para obter detalhes sobre isso, consulte [example: um administrador de segurança dispara uma investigação do Explorer](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).
 
@@ -171,7 +180,7 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 Você deve ter o [Office 365 ATP](office-365-atp.md) para obter as detecções do Explorer ou em tempo real.
 - O Explorer está incluído no plano 2 do Office 365 ATP. 
 - O relatório de detecções em tempo real está incluído no plano 1 de ATP do Office 365.
-- Planejar a atribuição de licenças para todos os usuários que devem estar protegidos por ATP. (As detecções de Explorer ou em tempo real mostrarão dados de detecção para usuários licenciados.)
+- Planejar a atribuição de licenças para todos os usuários que devem estar protegidos pelo Office 365 ATP. (As detecções de Explorer ou em tempo real mostram dados de detecção para usuários licenciados.)
 
 Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter as permissões apropriadas, como aquelas concedidas a um administrador de segurança ou leitor de segurança. 
 

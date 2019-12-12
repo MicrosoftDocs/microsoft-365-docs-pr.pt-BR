@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: e11b72228dceb5a4999e6b9398efde02a41ca163
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 8d2bc20a1d429510dfcd651c6b15dc1a2a89de9d
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074733"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962598"
 ---
 # <a name="register-existing-devices-yourself"></a>Registrar dispositivos existentes sozinho
 
@@ -208,7 +208,7 @@ O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo
 
 No [portal do Azure](https://aka.ms/mmdportal)de área de trabalho gerenciada da Microsoft, selecione **dispositivos** no painel de navegação esquerdo. Selecione **+ registrar dispositivos**; o funcionamento é aberto:
 
-[![Surgir após selecionar registrar dispositivos](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
+[![Entrada após selecionar registrar dispositivos, listando dispositivos com colunas para usuários atribuídos, número de série, status, data do último-observado e idade](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
 
 
 [//]: # (Infelizmente, isso não é verdadeiro. Podemos remover esta anotação, mas deixá-la agora até que haja uma oportunidade de conversar sobre ela.)
