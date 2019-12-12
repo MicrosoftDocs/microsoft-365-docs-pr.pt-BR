@@ -11,12 +11,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores no Office 365 (também conhecido como inteligência de fluxo de emails).
-ms.openlocfilehash: d49937afb379b43821d905001e8aee21ca86eb52
-ms.sourcegitcommit: b91d75d2631166ddd158d26a0a476e26391a58ac
+ms.openlocfilehash: ee02be439cd3bd9405aea7a94410af794808f259
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886854"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971769"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Inteligência de fluxo de emails no Office 365
 
@@ -60,7 +60,7 @@ Normalmente, esse erro significa que o Office 365 encontrou um erro de conexão 
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>Como corrigir o código de erro 450 4.4.316?
 
-- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP 365 do Office na porta 25 TCP para seus servidores de email locais. Para obter uma lista dos endereços IP do Office 365, confira [URLs e intervalos de endereços IP do office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.aspx).
+- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP 365 do Office na porta 25 TCP para seus servidores de email locais. Para obter uma lista dos endereços IP do Office 365, confira [URLs e intervalos de endereços IP do office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 - Se não houver mais mensagens a serem entregues ao seu ambiente local, clique em **corrigir agora** no alerta para que o Office 365 possa rejeitar imediatamente as mensagens com destinatários inválidos. Isso reduzirá o risco de exceder a cota da organização para destinatários inválidos, o que pode afetar a entrega de mensagens normal. Ou você pode usar as seguintes instruções para corrigir manualmente o problema:
 
@@ -74,7 +74,7 @@ Normalmente, esse erro significa que o Office 365 encontrou um erro de conexão 
 
        - Desabilite o conector clicando em **Editar** ![ícone](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
 
-  - Altere o domínio aceito no Office 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=785428).
+  - Altere o domínio aceito no Office 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
   **Observação**: normalmente, essas alterações levam entre 30 minutos e uma hora para entrar em vigor. Após uma hora, verifique se você não receberá mais o erro.
 
