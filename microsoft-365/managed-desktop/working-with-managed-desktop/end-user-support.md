@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6bb3ebfabe74af82cd62e836e9c3d6dfd606cb88
-ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
+ms.openlocfilehash: c53813a96772389f8ae180663ca3131701e47365
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391214"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962198"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
@@ -24,7 +24,7 @@ Há duas maneiras de que os usuários em sua organização possam obter ajuda co
 
 O método preferencial para fornecer suporte aos seus usuários é **obter ajuda**, uma interface fácil de usar incorporada ao dispositivo de usuário final.  
 
-![Obter ajuda](images/get-help.png)
+![Ícone obter ajuda do aplicativo](images/get-help.png)
 
 Este é um aplicativo que é instalado em todos os dispositivos de área de trabalho gerenciada da Microsoft e está fixado na barra de tarefas. 
 
@@ -51,6 +51,8 @@ Os usuários finais com dispositivos de área de trabalho gerenciada da Microsof
 - Estados Unidos: + 1 855 425 0216
 - Canadá (exceto Quebec): + 1 855 425 0216
 - Reino Unido: + 44 800 026 0698
+- Bélgica: + 32 800 58533
+- Luxemburgo: + 352 800 40119
 - Austrália: + 61 180 037 0619
 - Nova Zelândia: + 64 988 44380
 
@@ -60,4 +62,4 @@ Os usuários finais com dispositivos de área de trabalho gerenciada da Microsof
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md).
-- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [administrador de área de trabalho gerenciada da Microsoft Portal](https://aka.ms/mwaasportal).
+- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal).

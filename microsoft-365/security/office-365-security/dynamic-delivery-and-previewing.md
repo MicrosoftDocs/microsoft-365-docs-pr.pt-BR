@@ -15,16 +15,16 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de anexos seguros de ATP, você escolhe a entrega dinâmica para evitar atrasos de mensagens e permite que as pessoas visualizem os anexos que estão sendo examinados.
-ms.openlocfilehash: 203f5082701f1f3eeea36b385918328cb85deb81
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3cf914325b493098f61c84f27c102dd64fd7d8e9
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072526"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970768"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP do Office 365
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A entrega dinâmica é uma opção que pode ser selecionada para [anexos seguros de ATP](atp-safe-attachments.md). Leia este artigo para saber mais sobre a entrega dinâmica e recursos de visualização de anexos nos [anexos seguros de ATP no Office 365](atp-safe-attachments.md).
 
@@ -45,7 +45,7 @@ A maioria dos documentos PDFs e do Office pode ser visualizada no modo de segura
 
 Com a entrega dinâmica, as pessoas podem ler e responder às mensagens de email imediatamente, enquanto seus anexos estão sendo analisados. 
 
-A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados do Office 365 residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All) 
+A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados do Office 365 residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All)
   
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>O que acontece quando alguém encaminha um email que contém um anexo?
 

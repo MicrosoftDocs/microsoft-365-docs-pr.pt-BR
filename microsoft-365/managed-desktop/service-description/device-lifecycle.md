@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 88abd7bd8b2b4a9af37a1daf5579ac6268a9f927
-ms.sourcegitcommit: e5aa684dab9b4dbe92002d31e69e7225bd8f95a1
+ms.openlocfilehash: 431b28635f856ebd50e1de4129c00149e1e7c78d
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348855"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962338"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto do Microsoft Managed desktop
 
@@ -19,7 +19,7 @@ Benefícios do Microsoft Managed desktop os usuários finais garantem que eles s
 Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicionados e removidos do catálogo aprovado. 
 
 > [!NOTE]
-> Neste tópico, faremos uma distinção entre um "dispositivo" e um "produto". Por "dispositivo", queremos dizer um computador individual e específico. Por exemplo, "número de série 1234", "laptop da Bill", "VM compartilhada XYZ" refere-se a dispositivos específicos. Um "produto", no entanto, refere-se a uma coleção ou família de dispositivos. Por exemplo, "fabrikam laptop", "adatum ZX450 laptop", etc. Isso é importante porque os produtos são adicionados à nossa [lista](device-list.md)ou catálogos aprovados, e os dispositivos são os que são registrados na área de trabalho gerenciada da Microsoft.
+> Neste tópico, faremos uma distinção entre um "dispositivo" e um "produto". Por "dispositivo", queremos dizer um computador individual e específico. Por exemplo, "número de série 1234", "laptop da Bill", "VM compartilhada XYZ" refere-se a dispositivos específicos. Um "produto", no entanto, refere-se a uma coleção ou família de dispositivos. Por exemplo, "fabrikam laptop", "adatum ZX450 laptop", etc. Isso é importante porque os produtos são adicionados à nossa lista ou catálogos [aprovados](device-list.md), e os dispositivos são os que são registrados na área de trabalho gerenciada da Microsoft.
 
 ## <a name="product-lifecycle"></a>Ciclo de vida do produto
 
@@ -33,14 +33,14 @@ Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicion
 
 A sequência inteira é descrita nesta ilustração:
 
-![cronograma do ciclo de vida](images/non-dark1-edits.PNG)
+![linha do tempo do ciclo de vida: Iniciando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse período, a janela de certificação termina e em algum momento o dispositivo é integrado. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos é iniciado. A partir do momento em que o dispositivo é integrado, ele tem um período de 3 anos de uso até que seja removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](images/non-dark1-edits.PNG)
 
-Os produtos permanecem no catálogo por até 24 meses, mas os *dispositivos* permanecem sob gerenciamento por 3 anos com base em suas datas de registro individuais. Efetivamente, cada produto tem três datas importantes, mas cada dispositivo tem apenas um. Para produtos, todas as três datas são calculadas com base na *data de aprovação*e, portanto, publicamos essas datas após a aprovação, de modo que você possa sempre olhar em frente e planejar adequadamente para o ciclo de vida inteiro do produto.
+Os produtos permanecem no catálogo por até 24 meses, mas os <em>dispositivos</em> permanecem sob gerenciamento por 3 anos com base em suas datas de registro individuais. Efetivamente, cada produto tem três datas importantes, mas cada dispositivo tem apenas um. Para produtos, todas as três datas são calculadas com base na <em>data de aprovação</em>e, portanto, publicamos essas datas após a aprovação, de modo que você possa sempre olhar em frente e planejar adequadamente para o ciclo de vida inteiro do produto.
 
 Esta tabela mostra as datas de exemplo de um produto teórico:
 
 
-|Product  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
+|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
 |---------|---------|---------|---------|
 |Laptop da Fabrikam    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
 |Laptop adatum   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
@@ -75,7 +75,7 @@ Esse período é o principal da disponibilidade do produto:
 
 Todos os dispositivos registrados durante esse período recebem o total de três anos de suporte da área de trabalho gerenciada da Microsoft (conforme mostrado na linha do tempo azul). Este período dura até uma data de término definida como 24 meses a partir da data de disponibilidade geral.
 
-Você pode pensar nesse período com o "registro aberto" efetivamente, para maximizar o valor da área de trabalho gerenciada da Microsoft, você deve direcionar os modelos de compras e os produtos selecionados para se enquadram neste período. Como um pequeno exemplo, um cliente deve evitar a liquidação em um período de distribuição de dois anos usando um produto que esteja em seu mês final de disponibilidade principal – a maioria desses dispositivos não receberá os três anos de gerenciamento de área de trabalho gerenciada da Microsoft (consulte [carência período](#product-grace-period) para obter mais informações).  
+Você pode pensar nesse período com o "registro aberto" efetivamente, para maximizar o valor da área de trabalho gerenciada da Microsoft, você deve direcionar os modelos de compras e os produtos selecionados para se enquadram neste período. Como um pequeno exemplo, um cliente deve evitar a liquidação em um período de distribuição de dois anos usando um produto que esteja no mês final da disponibilidade principal – a maioria desses dispositivos não receberá os três anos de gerenciamento de área de trabalho gerenciada da Microsoft (consulte [período de cortesia](#product-grace-period) para obter mais informações).  
 
 ## <a name="product-grace-period"></a>Período de cortesia do produto
 
@@ -88,7 +88,7 @@ Se você comprou recentemente vários dispositivos aprovados antes de se inscrev
 
 O exemplo de laptop da Fabrikam da tabela anterior ilustra essa situação: 
 
-|Product  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
+|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
 |---------|---------|---------|---------|
 |Laptop da Fabrikam    | 6/1/2017 | 6/1/2019 | 6/1/2022 |
 
@@ -111,9 +111,9 @@ A equipe de área de trabalho gerenciada da Microsoft sabe que os ciclos de comp
 Além disso, também executaremos as seguintes ações automatizadas para garantir que novos dispositivos sejam implantados no momento:
 
 
-|Linha do tempo  |Ação  |
+|Linha do tempo  |Action  |
 |---------|---------|
-|T-90     | Sinalizaremos este dispositivo como expirar em **breve**, com um marcador amarelo no site de inventário de dispositivos.  |
+|T-90     | Sinalizaremos este dispositivo como **expirar em breve**, com um marcador amarelo no site de inventário de dispositivos.  |
 |T-60     | Sinalizaremos esse dispositivo como **expiração** com um marcador vermelho no site de inventário de dispositivos.       |
 |T-30     | Postaremos uma mensagem no portal de administração dizendo que os dispositivos estão saindo de acordo com a conformidade.       |
 |,0     |  Ajustaremos o portal de administração para dizer que os dispositivos agora expiraram os administradores de redirecionar para a lista de dispositivos primeiro.       |

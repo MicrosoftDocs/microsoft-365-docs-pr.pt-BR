@@ -14,12 +14,12 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a quarentena hospedada.
-ms.openlocfilehash: 2754efb6edee577eca351da0486ac54912ec4b5b
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: f8d7d0820685671c4cbe9ae7671058cc60d8e637
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872077"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971549"
 ---
 # <a name="quarantine-faq"></a>Perguntas Frequentes sobre a Quarentena
 
@@ -27,7 +27,7 @@ Este tópico fornece as perguntas frequentes e respectivas respostas sobre a qua
 
  **P. como gerenciar mensagens em quarentena em quarentena?**
 
-Você precisa usar o centro de &amp; conformidade de segurança para exibir e trabalhar com mensagens que foram enviadas à quarentena porque elas contêm malware. Para obter mais informações, consulte [Quarantine Email messages in Office 365](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b).
+Você precisa usar o centro de &amp; conformidade de segurança para exibir e trabalhar com mensagens que foram enviadas à quarentena porque elas contêm malware. Para obter mais informações, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
 
  **P. Como configuro o serviço para enviar mensagens de spam para a quarentena?**
 

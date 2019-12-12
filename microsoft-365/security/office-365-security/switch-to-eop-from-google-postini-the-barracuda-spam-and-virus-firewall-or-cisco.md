@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: O objetivo deste tópico é ajudar você a entender o processo de optar pelo Exchange Online Protection (EOP) a partir de um serviço de proteção na nuvem ou ferramenta de higienização de email local e então oferecer recursos de ajuda para começar.
-ms.openlocfilehash: ebb06951513f742b5b1a1917513960ffa144d127
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: c9d8bc73ee6226bececed7d8a4fc66b0eccfa6e1
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441198"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971389"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort
 
@@ -25,7 +25,7 @@ Se você é novo no EOP e deseja ler uma visão geral de seus recursos antes de 
 
 Antes de mudar para EOP, é importante que você decida se deseja hospedar as suas caixas de correio protegias pelo EOP na nuvem, com o Exchange Online, localmente ou em um cenário híbrido. (Hybrid significa que você tem algumas caixas de correio hospedadas no local e outra parte hospedado com o Exchange Online.) Cada um desses cenários de hospedagem: nuvem, no local, e híbrido, é possível, mas as etapas de configuração podem variar. Aqui estão algumas considerações para ajudar você a escolher a implantação apropriada:
 
-- **EOP proteção com caixas de correio locais**: esse cenário será apropriado se você tiver uma infraestrutura de Hospedagem de emails existente que você deseja usar ou se tiver requisitos de negócios para manter as caixas de correio locais e quiser usar o EOP como seu email baseado em nuvem prote. [Switch to EOP standalone](#switch-to-eop-standalone) describes this scenario in more detail.
+- **EOP proteção com caixas de correio locais**: esse cenário será apropriado se você tiver uma infraestrutura de Hospedagem de emails existente que você deseja usar ou se tiver requisitos de negócios para manter as caixas de correio locais e quiser usar o EOP como sua proteção de email baseada em nuvem. [Switch to EOP standalone](#switch-to-eop-standalone) describes this scenario in more detail.
 
 - **Proteção do EOP com caixas de correio do Exchange Online**: esse cenário será apropriado se você quiser proteção do EOP e todas as suas caixas de correio hospedadas na nuvem. It can help you reduce complexity, because you don't have to maintain on-premises messaging servers. [Switch to Exchange Online](#switch-to-exchange-online) describes this scenario.
 
@@ -37,7 +37,7 @@ Se você atualmente hospeda as suas caixas de correio localmente e use uma ferra
 
 ## <a name="switch-to-exchange-online"></a>Mude para o Exchange Online
 
-Talvez você tenha caixas de correio locais protegidos por um aparelho no local, e você quer ir para Exchange Online caixas de correio em nuvem hospedados e proteção EOP para aproveitar Office 365 Mensagens de nuvem e recursos de proteção. Para começar, você pode inscrever-se no Office 365 e adicionar o seu domínio. Este cenário não exige que você instale conectores, porque nao há nenhum roteamento para caixas de correio locais. Comece na [Página de inscrição no Office 365](https://www.microsoft.com/office365/online-software.aspx). [Introdução ao Office 365](https://go.microsoft.com/fwlink/p/?LinkId=275407) fornece recursos para se familiarizar com seus recursos.
+Talvez você tenha caixas de correio locais protegidos por um aparelho no local, e você quer ir para Exchange Online caixas de correio em nuvem hospedados e proteção EOP para aproveitar Office 365 Mensagens de nuvem e recursos de proteção. Para começar, você pode inscrever-se no Office 365 e adicionar o seu domínio. Este cenário não exige que você instale conectores, porque nao há nenhum roteamento para caixas de correio locais. Comece a [obter os recursos avançados mais recentes com o Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) para se inscrever e se familiarizar com seus recursos.
 
 Durante o processo de instalação do Office 365 , você criará usuários de caixa de correio baseados na nuvem.
 

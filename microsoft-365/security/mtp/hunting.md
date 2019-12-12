@@ -1,32 +1,39 @@
 ---
-title: Busca por malware e outras ameaças no Microsoft 365
-description: Descreve como você pode procurar contas comprometidas, arquivos com menos malware, emails suspeitos e muito mais.
-keywords: segurança, malware, Microsoft 365, M365, central de segurança, caça, caça, Microsoft defender ATP, Office 365 ATP, Azure ATP
-ms.prod: w10
+title: Busca por outras ameaças no Microsoft 365
+description: Use os recursos de busca de ameaças no centro de segurança do Microsoft 365 para encontrar violações e outras ameaças de forma proativa
+keywords: segurança, malware, Microsoft 365, M365, central de segurança, caça, caça, Microsoft defender ATP, Office 365 ATP, Azure ATP, caça avançada
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
-ms.author: ellevin
-author: levinec
+ms.author: lomayor
+author: lomayor
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 218c78cd8737c3a963386ae0a58a79824ef1615f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034383"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909417"
 ---
-# <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a>Busca por malware e outras ameaças no Microsoft 365
+# <a name="hunt-for-threats-in-microsoft-365"></a>Busca por ameaças no Microsoft 365
 
-A busca fornece às equipes de segurança uma visão de possíveis ameaças em sua organização por email e dados, dispositivos e identidades. Dentro do Microsoft defender ATP, Office 365 ATP e portais ATP do Azure, você pode procurar contas comprometidas, arquivos menos malware, emails suspeitos e muito mais.
+Com recursos de busca de ameaças no centro de segurança do Microsoft 365, você pode encontrar ameaças de forma proativa em sua organização que afetem email e dados, dispositivos e identidades. Na tela de **busca** , você pode acessar ferramentas de busca de ameaças disponibilizadas por várias soluções:
+- Office 365 ATP — [busca por ameaças a emails e dados](../office-365-security/office-365-atp.md)
+- Microsoft defender ATP — [busca por ameaças a dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
+- Azure ATP – procurar [ameaças a identidades](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)
 
-![Página de busca](../media/security-docs/hunt.png)
+![Página de busca](../images/hunt.png)
 
-Saiba mais:
 
-* [Dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) no Microsoft defender proteção avançada contra ameaças
-* [Email e dados](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) no Office 365 proteção avançada contra ameaças
-* [Identidades](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user) no Azure proteção avançada contra ameaças
+## <a name="hunt-with-microsoft-threat-protection"></a>Caça com a proteção contra ameaças da Microsoft
+
+[Ative a proteção contra ameaças da Microsoft](mtp-enable.md) para obter a interface de consulta de busca avançada diretamente no centro de segurança do Microsoft 365. Com a [busca avançada](advanced-hunting-overview.md), você pode criar consultas únicas que confiram dados do Microsoft defender ATP, abrangendo dados de dispositivos integrados e o Office 365 ATP, fornecendo dados de emails.
+
+## <a name="related-topics"></a>Tópicos relacionados
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
+- [Visão geral da proteção contra ameaças da Microsoft](microsoft-threat-protection.md)
+- [Ativar a proteção contra ameaças da Microsoft](mtp-enable.md)

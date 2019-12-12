@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 040747a540c7f5e63d61eb149f9183ed2e5d2782
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: fa10c4168720565770ec0a3bc4bb06486155c3cc
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871757"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970327"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -99,7 +99,7 @@ Você pode deixar o valor padrão **todos** selecionado ou pode selecionar um do
 
 - **Falha**: a mensagem não foi entregue.
 
-- Em **quarentena**: a mensagem foi colocada em quarentena (como spam, email em massa ou phishing). Para obter mais informações, consulte [Quarantine Email messages in Office 365](https://support.office.com/article/4c234874-015e-4768-8495-98fcccfc639b.aspx).
+- Em **quarentena**: a mensagem foi colocada em quarentena (como spam, email em massa ou phishing). Para obter mais informações, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
 
 - **Filtrado como spam**: a mensagem foi identificada como spam e foi rejeitada ou bloqueada (não foi colocada em quarentena).
 

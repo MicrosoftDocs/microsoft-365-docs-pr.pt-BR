@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 04cffc6c6e09794e4c92653c1a09dd43718f38c0
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: b782c58bc3694bd27024f9aa7cdb2316c6d2a48a
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871987"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971959"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -93,11 +93,7 @@ R. Sim, você pode configurar outro serviço de filtragem de spam e malwares par
 
  **P. A Microsoft possui alguma documentação sobre como eu posso me proteger contra golpes de phishing?**
 
-P. Sim. Veja estes artigos:
-
-[Obtenha ajuda contra golpes de phishing, fraude da loteria e outros tipos de golpes](https://go.microsoft.com/fwlink/p/?LinkId=325606)
-
-[Golpes de web e email: Como ajudar você a se proteger](https://go.microsoft.com/fwlink/p/?LinkID=325607)
+R. Sim, leia [proteger sua privacidade na Internet](https://support.microsoft.com/help/4091455)
 
  **P. As mensagens de spam e malware são investigadas para identificar quem as enviou ou são transferidas para entidades legais?**
 
@@ -125,7 +121,7 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
     [Configurar o SPF no Office 365 para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-    [Perguntas frequentes sobre domínios](/office365/admin/setup/domains-faq)
+    [Perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 5. **Assinatura de email com DKIM, assinar com canonização relaxada.**
 
@@ -159,25 +155,25 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
     O Double opt-in é a prática que exige que um usuário passe por dois processos para confirmar o recebimento de correio de marketing:
 
-1. No primeiro processo, o usuário clica em uma caixa de seleção desmarcada anteriormente, onde ele opta por receber mais ofertas ou mensagens de email do comerciante.
+   1. No primeiro processo, o usuário clica em uma caixa de seleção desmarcada anteriormente, onde ele opta por receber mais ofertas ou mensagens de email do comerciante.
 
-2. No segundo processo, o comerciante envia um email de confirmação para o endereço de email do usuário, pedindo que ele clique em um link com limite de tempo para concluir a confirmação.
+   2. No segundo processo, o comerciante envia um email de confirmação para o endereço de email do usuário, pedindo que ele clique em um link com limite de tempo para concluir a confirmação.
 
-    Usar o double opt-in ajuda a formar uma boa reputação para os remetentes de mala direta.
+      Usar o double opt-in ajuda a formar uma boa reputação para os remetentes de mala direta.
 
 10. **Os remetentes de mala direta devem criar conteúdo transparente pelo qual possam ser responsabilizados:**
 
-1. A verbosidade solicitando que os destinatários adicionem o remetente ao catálogo de endereços deve indicar claramente que tal ação não é uma garantia de entrega.
+    1. A verbosidade solicitando que os destinatários adicionem o remetente ao catálogo de endereços deve indicar claramente que tal ação não é uma garantia de entrega.
 
-2. Ao construir redirecionamentos no corpo da mensagem, use um estilo de vínculo consistente.
+    2. Ao construir redirecionamentos no corpo da mensagem, use um estilo de vínculo consistente.
 
-3. Não envie imagens nem anexos grandes, nem mensagens compostas por apenas uma imagem.
+    3. Não envie imagens nem anexos grandes, nem mensagens compostas por apenas uma imagem.
 
-4. Ao empregar pixels de rastreamento (bugs da Web ou avisos), indique claramente a presença deles em sua privacidade pública ou configurações P3P.
+    4. Ao empregar pixels de rastreamento (bugs da Web ou avisos), indique claramente a presença deles em sua privacidade pública ou configurações P3P.
 
 11. **Formatar notificações de status de entrega de saída.**
 
-    Ao gerar as mensagens de notificação de status de entrega, os remetentes devem seguir o formato de uma mensagem de devolução, conforme especificado em [RFC 3464](https://go.microsoft.com/fwlink/?LinkId=279715).
+    Ao gerar as mensagens de notificação de status de entrega, os remetentes devem seguir o formato de uma mensagem de devolução, conforme especificado em [RFC 3464](https://www.ietf.org/rfc/rfc3464.txt).
 
 12. **Remover endereços de email de devolução para usuários inexistentes.**
 
@@ -189,12 +185,10 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
 ## <a name="for-more-information"></a>Para saber mais
 
-[Proteção anti-spam de emails do Office 365](https://support.office.com/article/6a601501-a6a8-4559-b2e7-56b59c96a586)
+[Proteção antispam de emails do Office 365](anti-spam-protection.md)
 
 [Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
 
 [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md)
 
 [Mnsagens backscatter e EOP](backscatter-messages-and-eop.md)
-
-

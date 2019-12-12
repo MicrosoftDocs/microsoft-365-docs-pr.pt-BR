@@ -14,18 +14,18 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: Este tópico descreve como os administradores do Exchange Online e do Exchange Online Protection (EOP) podem localizar, liberar e relatar mensagens que estejam na quarentena do Centro de administração do Exchange (EAC).
-ms.openlocfilehash: e60c0ae87f050b6e72e53b6069a61cd52df0641a
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 7d7288b85660c5569c748a3cb24a1d3cd027b72d
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871837"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971749"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Localizar e liberar mensagens em quarentena como um administrador
 
 Este tópico descreve como os administradores do Exchange Online e do Exchange Online Protection (EOP) podem localizar, liberar e relatar mensagens que estejam na quarentena do Centro de administração do Exchange (EAC). O Office 365 direciona as mensagens para quarentena porque elas foram identificadas como spam ou correspondem a uma regra de fluxo de emails (também conhecida como regra de transporte).
 
-Você pode usar o centro de conformidade & segurança em vez da Eat para concluir qualquer uma dessas tarefas também; o portal de quarentena dentro do centro de administração do Exchange (Eat) está definido como decommisioned.  Para obter mais informações, consulte [Quarantine Email messages in Office 365](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b).
+Você pode usar o centro de conformidade & segurança em vez da Eat para concluir qualquer uma dessas tarefas também; o portal de quarentena dentro do centro de administração do Exchange (Eat) está definido como decommisioned. Para obter mais informações, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
 
 As mensagens em quarentena são listadas na página **quarentena** do EAC. Por padrão, as mensagens são classificadas da mais nova para a mais antiga no campo **RECEBIDAS**. Os valores **REMETENTE**, **ASSUNTO** e **EXPIRA** também são listados para cada mensagem. Você pode classificar com base em qualquer um desses campos clicando nos cabeçalhos. Clicar em um cabeçalho de coluna uma segunda vez inverterá a ordem de classificação. No máximo 500 mensagens podem ser exibidas na página **quarentena**
 
@@ -44,7 +44,7 @@ As mensagens em quarentena são listadas na página **quarentena** do EAC. Por p
 - Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
-> Está com problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), ou [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Está com problemas? Peça ajuda no fórum do [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
 
 ## <a name="use-advanced-search-to-filter-and-locate-quarantined-messages"></a>Usar a pesquisa avançada para filtrar e localizar mensagens em quarentena
 

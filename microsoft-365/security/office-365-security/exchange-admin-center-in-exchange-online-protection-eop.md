@@ -14,12 +14,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: O EAC (Centro de administração do Exchange) é o console de gerenciamento baseado na Web da EOP (Proteção do Exchange Online) da Microsoft.
-ms.openlocfilehash: 6ef800b9f440f67d45f3eaa08b4731989fcf2652
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 58f339e2ebbb566b8656eed68453841ca011a72f
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871857"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970547"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Centro de administração do Exchange na Proteção do Exchange Online
 
@@ -96,7 +96,7 @@ O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No menu 
 
 ## <a name="supported-browsers"></a>Navegadores com suporte
 
-Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use os navegadores, clientes do Office e aplicativos mais recentes. Também recomendamos que você instale as atualizações de software quando elas estiverem disponíveis. Para obter mais informações sobre os navegadores e requisitos de sistema compatíveis com o serviço, confira [requisitos de sistema do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=402699).
+Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use os navegadores, clientes do Office e aplicativos mais recentes. Também recomendamos que você instale as atualizações de software quando elas estiverem disponíveis. Para obter mais informações sobre os navegadores e requisitos de sistema suportados para o serviço, consulte [System Requirements for Office](https://products.office.com/office-system-requirements).
 
 ## <a name="supported-languages-in-eop"></a>Idiomas com suporte na EOP
 

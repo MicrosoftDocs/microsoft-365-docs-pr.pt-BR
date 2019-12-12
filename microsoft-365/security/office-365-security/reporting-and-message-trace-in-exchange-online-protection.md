@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: O Microsoft Proteção do Exchange Online (EOP) oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status e a integridade gerais de sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade. A tabela a seguir descreve os relatórios e as ferramentas de solução de problemas disponíveis para o administradores de EOP.
-ms.openlocfilehash: 81b4ce3d22fbf33dc2f22a4b0a73a3459b1874ee
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 251286fca4ed54b87809c46e6e0f47ea618df747
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441408"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971500"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Relatórios e rastreamento de mensagem no Exchange Online Protection
 
@@ -31,15 +31,15 @@ O Microsoft Proteção do Exchange Online (EOP) oferece muitos relatórios difer
 
 **Uso da caixa de correio**: exibir informações sobre o armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
 
-Confira os recursos a seguir para obter mais informações:
+Veja os seguintes recursos para obter mais informações:
 
-- [Relatórios do Office 365 no centro de administração-grupos do Office 365](https://go.microsoft.com/fwlink/p/?linkid=861610)
+- [Relatórios do Office 365 no centro de administração-grupos do Office 365](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [Relatórios do Office 365 no Centro de administrador - Atividade de email](https://go.microsoft.com/fwlink/p/?linkid=859706)
+- [Relatórios do Office 365 no Centro de administrador - Atividade de email](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [Relatórios do Office 365 no Centro de administrador - Uso do aplicativo de email](https://go.microsoft.com/fwlink/p/?linkid=859707)
+- [Relatórios do Office 365 no Centro de administrador - Uso do aplicativo de email](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
-- [Relatórios do Office 365 no Centro de administrador - Uso de caixa de correio](https://go.microsoft.com/fwlink/p/?linkid=859708)
+- [Relatórios do Office 365 no Centro de administrador - Uso de caixa de correio](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios de segurança & conformidade no centro de administração do Microsoft 365
 
@@ -49,17 +49,15 @@ Esses relatórios aprimorados fornecem uma experiência de relatório interativa
 
 **EOP**: exibir informações sobre detecções de malware, email falsificado, detecções de spam e fluxo de emails para e da sua organização.
 
-[Exibir relatórios para proteção avançada contra ameaças e proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=852409)
+[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
-Criar programaticamente relatórios disponíveis no centro de administração do Microsoft 365 usando o Microsoft Graph Confira os subtópicos sobre [como trabalhar com os relatórios de uso do Office 365 no Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=865135)
+Criar programaticamente relatórios que estão disponíveis no centro de administração do Microsoft 365 usando o Microsoft Graph. Confira os subtópicos sobre [como trabalhar com os relatórios de uso do Office 365 no Microsoft Graph](https://docs.microsoft.com/graph/api/resources/report).
 
-## <a name="custom-reports-using-reporting-web-services"></a>Relatórios personalizados usando serviços Web de relatório
+## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
-Criar programaticamente relatórios dos cmdlets disponíveis de relatórios do PowerShell do Exchange Online Protection usando a filtragem de consulta REST/ODATA2.
-
-Confira [Serviços Web de relatório do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=279926)
+Criar relatórios programaticamente. Confira [visão geral do Microsoft Graph](https://docs.microsoft.com/graph/overview).
 
 ## <a name="message-trace"></a>Rastreamento de mensagens
 

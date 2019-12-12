@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7e3827dc12c04d2c7952f9321a70714691c5ed47
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 244070c7fd2d5c98f87990bcb4ef6de96ca5a90c
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012296"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962238"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop
 
@@ -40,11 +40,12 @@ Mostraremos a imagem de plano de fundo da área de trabalho nessas instruções.
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja implantar e, em seguida, selecione a implantação em estágios a ser implantada.
 4. Selecione **implantar** para implantar a alteração em um dos grupos de implantação.
 
-![Configurações configuráveis status de](images/1deployedit.png) implantação visão geral da área de trabalho gerenciada da Microsoft recomenda a implantação de grupos de implantação nesta ordem: Test, First, Fast e, em seguida, ampla. 
+![Espaço de trabalho de status de implantação. Painel de sites confiáveis à direita. Na seção grupos de implantação há três colunas: grupos de implantação, dispositivos e status. Na coluna status, "implantar" é realçado.](images/1deployedit.png)
+Recomendamos a implantação de grupos de implantação nesta ordem: Test, First, Fast e, em seguida, ampla. 
 
 Quando as alterações são concluídas em cada grupo, o status é alterado para **concluído**.
 
-![Implantação de configurações configuráveis concluída](images/2completeedit.png)
+![Espaço de trabalho de status de implantação com colunas para data atualizada, versão, teste, primeiro, rápida e ampla. A linha de proxy é expandida, mostrando uma configuração com data sinalizada como "completa" em cada um dos quatro grupos de implantação.](images/2completeedit.png)
 
 ## <a name="revert-deployment"></a>Reverter implantação
 
@@ -56,9 +57,9 @@ Mostraremos as etapas para reverter uma alteração usando a imagem de plano de 
 1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
 2. Em **configurações**, selecione **configurável**.
 3. Em espaço de trabalho de **status da implantação** , selecione a configuração que você deseja reverter e selecione a implantação em estágios a ser revertida.
-4. Em **precisa reverter essa alteração**, selecione **reverter implantação**.
+4. Em **precisa reverter essa alteração?**, selecione **reverter implantação**.
 
-![Reversão de implantação de configurações configurável](images/3revert.png) 
+![Espaço de trabalho de status de implantação. As páginas iniciais do navegador estão selecionadas, abrindo um painel do lado direito com dados sobre a alteração enviada e seu status. Na parte inferior é a área "precisa reverter esta alteração", onde você pode selecionar "reverter a implantação".](images/3revert.png) 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Visão geral das configurações configuráveis](config-setting-overview.md)

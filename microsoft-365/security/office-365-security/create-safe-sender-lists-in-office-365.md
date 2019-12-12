@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam no centro de administração do Exchange.
-ms.openlocfilehash: f4ece6f7528b301ed7046df84ca18915d833dbbf
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 1e804e73b8e2b98107c955004bac240793375ab9
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793675"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970847"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -74,7 +74,7 @@ Não adicione domínios que você possui ou domínios populares (por exemplo, `m
 
 ## <a name="use-outlook-safe-senders-end-user-managed"></a>Usar remetentes confiáveis do Outlook (gerenciado pelo usuário final)
 
-Em vez de autorizar um endereço, um domínio ou um endereço IP globalmente, os usuários finais também podem permitir o envio de endereços por meio de remetentes confiáveis do Outlook. As etapas para configurar isso diferem entre o [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são autorizadas com êxito devido a remetentes confiáveis, você verá SFV: SFE no X-Forefront-antispam-Report** , que indica que a filtragem de spam/spoof/Phish será ignorada.
+Em vez de autorizar um endereço, um domínio ou um endereço IP globalmente, os usuários finais também podem permitir o envio de endereços por meio de remetentes confiáveis do Outlook. As etapas para configurar isso diferem entre o [Outlook na Web](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são autorizadas com êxito devido a remetentes confiáveis, você verá SFV: SFE no X-Forefront-antispam-Report** , que indica que a filtragem de spam/spoof/Phish será ignorada.
 
 ## <a name="use-anti-spam-policy-ip-allow-lists"></a>Usar listas de permissões de IP de política antispam
 

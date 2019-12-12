@@ -14,16 +14,16 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode usar o simulador de ataques para executar cenários de ataque realistas em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real atinja sua empresa.
-ms.openlocfilehash: bb68850587647f7e96c940de10e3da23cd5e83de
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: e5f304a7c706875216c58330b1225d341b2b59df
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306175"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971929"
 ---
 # <a name="attack-simulator-in-office-365"></a>Simulador de Ataque no Office 365
 
-**Resumo** Se você for um administrador global do Office 365 ou um administrador de segurança e sua organização tiver o Office 365 Advanced Threat Protection Plan 2, que inclui os [recursos de investigação e resposta contra ameaças](office-365-ti.md), você poderá usar o simulador de ataque para executar cenários de ataque realísticos em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real afete o resultado final. Leia este artigo para saber mais.
+**Resumo** Se você for um administrador global do Office 365 ou um administrador de segurança e sua organização tiver o Office 365 Advanced Threat Protection Plan 2, que inclui os [recursos de investigação e resposta contra ameaças](office-365-ti.md), você poderá usar o simulador de ataques para executar cenários de ataque realísticos em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real afete o resultado final. Leia este artigo para saber mais.
 
 ## <a name="the-attacks"></a>Os ataques
 
@@ -47,7 +47,7 @@ Verifique se você e sua organização atendem aos seguintes requisitos para o s
 
 - Você é um administrador global do Office 365 ou administrador de segurança
 
-- A [autenticação multifator/acesso condicional](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) está ativada, por pelo menos a conta de administrador global do Office 365 e os administradores de segurança que usarão o simulador de ataques. (Idealmente, a autenticação multifator/acesso condicional está ativada para todos os usuários da sua organização.)
+- A [autenticação multifator/acesso condicional](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) está ativada, por pelo menos a conta de administrador global do Office 365 e os administradores de segurança que usarão o simulador de ataques. (Idealmente, a autenticação multifator/acesso condicional está ativada para todos os usuários da sua organização.)
 
 - Sua organização tem o [plano de proteção avançada contra ameaças do Office 365](office-365-atp.md), com o simulador &amp; de ataques visível no centro de conformidade de segurança (vá para o \> **simulador de ataques**de **Gerenciamento de ameaças** )
 

@@ -14,19 +14,19 @@ ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
 description: Como um administrador do Exchange Online ou do Exchange Online Protection (EOP), você pode ajudar a garantir que uma mensagem de email que viaja pelo serviço não seja marcada como spam. Consulte a versão atualizada das dicas e procedimentos para fazer isso em impedir emails falsos positivos marcados como spam com uma lista de segura ou outras técnicas.
-ms.openlocfilehash: c865c9e972dc1ce6a7394fab0efb94ec1a532e48
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: ef405aaef888937e1d1f9495f4d23a8b23c5ce06
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441118"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970407"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Como ajudar a garantir que uma mensagem não seja marcada como spam
 
-Como um administrador do Exchange Online ou do Exchange Online Protection (EOP), você pode ajudar a garantir que uma mensagem de email que viaja pelo serviço não seja marcada como spam. Consulte a versão atualizada das dicas e procedimentos para fazer isso em [impedir emails falsos positivos marcados como spam com uma lista de segura ou outras técnicas](https://go.microsoft.com/fwlink/p/?LinkID=534224).
+Como um administrador do Exchange Online ou do Exchange Online Protection (EOP), você pode ajudar a garantir que uma mensagem de email que viaja pelo serviço não seja marcada como spam. Consulte a versão atualizada das dicas e procedimentos para fazer isso em [como impedir que bons emails sejam marcados como spam no Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam).
 
 ## <a name="see-also"></a>Confira também
 
 [Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
 
-[Proteção anti-spam de emails do Office 365](https://support.office.com/article/Office-365-Email-Anti-Spam-Protection-6a601501-a6a8-4559-b2e7-56b59c96a586)
+[Proteção antispam de emails do Office 365](anti-spam-protection.md)

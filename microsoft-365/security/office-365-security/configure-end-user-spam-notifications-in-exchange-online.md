@@ -13,12 +13,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios.
-ms.openlocfilehash: 0eef6f508a775513ff5c6e061d12e023534eb0bd
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 0b1b88a60ba1f14aa482dc8214739930b69cca05
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871927"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909831"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam para o usuário final no Exchange Online
 
@@ -31,17 +31,11 @@ As notificações de spam do usuário final contém uma lista de todas as mensag
   
 Após receber uma mensagem de notificação, os usuários finais podem escolher entre as seguintes opções:
 
-**Visualize** a mensagem se quiser visualizar o conteúdo ou o cabeçalho antes de executar a ação.
-
-**Baixe** a mensagem se quiser revisar a mensagem e os anexos (se houver) no dispositivo antes de executar a ação.
+**Bloquear remetente** se quiser que o Office 365 adicione o remetente à sua lista de remetentes bloqueados.
 
 **Versão** se a mensagem não for spam e se você quiser que o Office 365 envie a mensagem para sua caixa de correio.
 
-**Versão & permitir remetente** se a mensagem não for spam e se você quiser que o Office 365 adicione o remetente à sua lista de remetentes e destinatários confiáveis para futuros emails. Tenha em mente que seu administrador pode ter outras configurações de permissão/bloqueio de toda a organização que substituem sua lista de remetentes seguros.
-
-**Release & Report**, se a mensagem não for spam e você quiser enviar a mensagem para sua caixa de correio e relatá-la para a Microsoft para análise.
-
-**Bloquear** se você quiser que o Office 365 adicione o remetente à sua lista de remetentes bloqueados.
+**Revise** para navegar até o portal de quarentena dentro do centro de conformidade de & de segurança se você quiser realizar outras ações, como visualização ou lançamento.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 

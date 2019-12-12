@@ -1,19 +1,19 @@
 ---
-title: Adicionar e verificar contatos de administrador no portal de administração
+title: Adicionar e verificar contatos do administrador no portal de Administração
 description: Diga-nos quem entrar em contato para cada área de foco.
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3f77a5f6f0af83ea82d2ab3cea0798b95e27c2d2
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: f592644b0aa2853839dd83025a112d0fd3c563df
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012062"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962608"
 ---
-# <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos de administrador no portal de administração
+# <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos do administrador no portal de Administração
 
 Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os clientes. Para simplificar a comunicação e garantir que estamos verificando com as pessoas certas, você precisa fornecer um conjunto de contatos de administração. As operações de ti de área de trabalho gerenciada da Microsoft contatarão essas pessoas para resolver problemas de solução de problemas para o seu locatário.
 
@@ -52,15 +52,15 @@ Os contatos do administrador são necessários ao [Enviar uma solicitação de s
 
 2.  Em **suporte**, selecione **contatos do administrador**. 
 
-    ![Menu de suporte, contatos do administrador](images/admincontacts.png)
+    ![Menu de suporte, contatos do administrador próximo à parte superior selecionada](images/admincontacts.png)
 
 3. Selecione **Adicionar**.
 
-    ![Botão Adicionar do portal de administração](images/adminadd.png)
+    ![Portal de administração, botão Adicionar, à esquerda de exportar e atualizar](images/adminadd.png)
 
 4.  Selecione uma **área de foco** e insira as informações do contato. 
 
-    ![a lista de áreas de foco](images/areaoffocus.png)
+    ![a lista de áreas de foco, como outros, aplicativos e segurança](images/areaoffocus.png)
 
 5. Repita para cada área de foco. 
 
@@ -70,7 +70,7 @@ Os contatos do administrador são necessários ao [Enviar uma solicitação de s
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
 4. [Instalar o portal da empresa do Intune em dispositivos](company-portal.md)
-5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
 6. [Configurar dispositivos de área de trabalho gerenciada da Microsoft](set-up-devices.md)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
 8. [Implantar aplicativos em dispositivos](deploy-apps.md)

@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: A definição de usuários de email é uma parte importante do gerenciamento do serviço Exchange Online Protection (EOP).
-ms.openlocfilehash: 065fdae30dea49220c10fd455b7ac346e70c18de
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 2871ec73a06a092aa5cfdab0d9648d8cc5311460
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871767"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971739"
 ---
 # <a name="manage-mail-users-in-eop"></a>Gerenciar usuários de email no EOP
 
@@ -63,13 +63,13 @@ Esta seção oferece informações sobre o gerenciamento de usuários de email u
 
   - **Quarentena de spam do usuário final**: para acessar a quarentena de spam do usuário final, os usuários finais devem ter uma ID de usuário e uma senha válida do Office 365. Os clientes do EOP que estão protegendo caixas de correio locais devem ser usuários de email válidos.
 
-  - **Regras de fluxo de emails**: quando você usa a sincronização de diretório, os usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e você pode criar regras de fluxo de emails (também conhecidas como regras de transporte) que se destinam a usuários e/ou grupos específicos sem ter que adicioná-los manualmente por meio do PowerShell do Exchange Online Protection. Observe que os [grupos dinâmicos de distribuição](https://go.microsoft.com/fwlink/?LinkId=507569) não podem ser sincronizados através da sincronização de diretório.
+  - **Regras de fluxo de emails**: quando você usa a sincronização de diretório, os usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e você pode criar regras de fluxo de emails (também conhecidas como regras de transporte) que se destinam a usuários e/ou grupos específicos sem ter que adicioná-los manualmente por meio do PowerShell do Exchange Online Protection. Observe que os [grupos dinâmicos de distribuição](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) não podem ser sincronizados através da sincronização de diretório.
 
-Obtenha as permissões necessárias e prepare-se para a sincronização de diretórios, como descrito em [Preparar a sincronização de diretórios](https://go.microsoft.com/fwlink/p/?LinkId=308908).
+Obtenha as permissões necessárias e prepare-se para a sincronização de diretório, conforme descrito em [o que é a identidade híbrida com o Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 ### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a>Para sincronizar os diretórios de usuário com o Azure Active Directory Connect (AAD Connect)
 
-Para sincronizar os usuários com o Azure Active Directory (AAD), primeiro você deve **ativar a sincronização de diretórios**, conforme descrito em [Activate Directory Synchronization](https://go.microsoft.com/fwlink/p/?LinkId=308909).
+Para sincronizar os usuários com o Azure Active Directory (AAD), primeiro você precisa **ativar a sincronização de diretórios**, conforme descrito em [sincronização do Azure ad Connect: entender e personalizar a sincronização](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).
 
 A seguir, a instalação e a configuração de um computador local para executar o AAD Connect (se você ainda não tiver uma coisa que vale a pena verificar antes do tempo). A [configuração do AAD Connect, o tópico Express Way](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express) mostra como configurar e sincronizar suas contas no local para o Azure AD com o AAD Connect.
 

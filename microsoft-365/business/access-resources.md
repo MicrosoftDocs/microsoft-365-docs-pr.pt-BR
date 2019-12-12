@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 89ac38f3da9cbdd3ff1a5eb33dc129d2e83521c7
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668779"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967154"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business
 
@@ -47,7 +47,7 @@ Conclua as etapas a seguir para habilitar os dispositivos ingressados no Azure A
     
 Nenhuma etapa adicional é necessária para obter acesso a recursos locais para dispositivos ingressados no Azure AD. Essa funcionalidade é incorporada no Windows 10. 
 
-Se você planeja fazer logon no dispositivo AADJ que não seja o método de senha, como PIN/bio-Metric via login de credencial do WHFB e, em seguida, acesse recursos locais (compartilhamentos, impressoras. etc.), sigahttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Se você planeja fazer logon no dispositivo AADJ que não seja o método de senha, como PIN/bio-Metric via login de credencial do WHFB e, em seguida, acesse recursos locais (compartilhamentos, impressoras. etc.), sigahttps://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Se sua organização não estiver pronta para implantar na configuração de dispositivo associado ao Azure AD, descrita acima, considere configurar a [configuração do dispositivo associado ao Azure ad híbrido](manage-windows-devices.md).
   

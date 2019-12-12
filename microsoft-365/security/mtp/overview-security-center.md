@@ -2,7 +2,7 @@
 title: Visão geral da central de segurança do Microsoft 365
 description: Descreve a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos da Microsoft.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidades, dados, dispositivos, aplicativos
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 12446dcb69b9f2324afcece9f230605fdcfcfdc8
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: e58ceb29693fbf950ba64c267332cf2b3efcadc0
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831992"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909970"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -27,7 +27,11 @@ Insira o centro de segurança do Microsoft 365--a nova casa para monitorar e ger
 
 O novo centro de segurança do Microsoft 365 e o [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) são áreas de trabalho especializadas projetadas para atender às necessidades das equipes de segurança e equipes de conformidade. Essas soluções são integradas nos serviços do Microsoft 365 e fornecem informações acionáveis para ajudar a reduzir os riscos e a proteger seu imóvel digital.
 
-Visite a central de segurança do Microsoft 365 em security.microsoft.com.  
+Visite a central de segurança do Microsoft [https://security.microsoft.com](https://security.microsoft.com)365 em. 
+
+> [!NOTE]
+> Você deve receber uma função apropriada, como administrador global, administrador de segurança, operador de segurança ou leitor de segurança no Azure Active Directory para acessar o centro de segurança do Microsoft 365.
+
 
 ## <a name="lets-take-a-closer-look"></a>Vamos fazer uma análise mais detalhada
 
@@ -35,24 +39,25 @@ A **Home** Page mostra muitos dos cartões comuns de que as equipes de seguranç
 
 Essa informação instantânea ajuda você a acompanhar as atividades mais recentes em sua organização. A central de segurança do Microsoft 365 reúne sinais de várias fontes para apresentar uma visão holística do ambiente do Microsoft 365.
 
-![Home Page de segurança do Microsoft 365](../media/security-docs/home.jpg)
-
 A central de segurança do Microsoft 365 inclui:
 
 * **Página inicial** – obtenha uma visão geral da integridade geral da segurança da sua organização.
-* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 356, incluindo alertas do Microsoft Cloud app Security, Office 365 ATP, Azure AD e Microsoft defender ATP. Disponível para clientes E3 e e5.  
+* **Incidentes** – Veja a maior história de um ataque conectando os pontos vistos em alertas individuais em entidades. Você saberá exatamente onde um ataque começou, quais dispositivos sofreram impacto, quais são afetados e onde a ameaça foi eliminada.
+* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 356, incluindo alertas do Microsoft Cloud app Security, Office 365 ATP, Azure AD, Azure ATP e Microsoft defender ATP. Disponível para clientes E3 e e5.  
+* **Central de ações** -reduza o volume de alertas que sua equipe de segurança deve resolver manualmente, permitindo que sua equipe de operações de segurança se concentre em ameaças mais sofisticadas e outras iniciativas de alto valor.
 * **Relatórios** – obtenha os detalhes e as informações de que você precisa para proteger melhor seus usuários, dispositivos, aplicativos e muito mais.
 * **Pontuação segura** – aprimore sua postura geral de segurança com a pontuação segura da Microsoft. Esta página fornece um resumo de recursos de segurança e recursos diferentes que você habilitou e inclui recomendações para as áreas a serem aprimoradas.
-* **Caça** – pesquise proativamente por malware, arquivos suspeitos e atividades em sua organização do Microsoft 365.
+* Busca **avançada** – pesquise proativamente por malware, arquivos suspeitos e atividades em sua organização do Microsoft 365.
 * **Classificação** – ajude a proteger a perda de dados adicionando rótulos para classificar documentos, mensagens de email, documentos, sites e muito mais. Quando um rótulo é aplicado (automaticamente ou pelo usuário), o conteúdo ou site é protegido com base nas configurações escolhidas. Por exemplo, você pode criar rótulos que criptografam arquivos, adicionam a marcação de conteúdo e controlam o acesso do usuário a sites específicos.
 * **Políticas** : configurar políticas para gerenciar dispositivos, proteger contra ameaças e receber alertas sobre várias atividades em sua organização.
 * **Permissões** – gerencie quem em sua organização tem acesso à central de segurança do Microsoft 365 para exibir conteúdo e realizar tarefas. Você também pode atribuir permissões do Microsoft 365 no portal do Azure AD.
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Saiba mais 
 
 Explore estes tópicos sobre como monitorar, analisar e responder às suas necessidades de segurança:
-
-* Revise e aprimore a postura de segurança globalmente com a [Pontuação segura da Microsoft](microsoft-secure-score.md)
-* [Relatar](monitoring-and-reporting.md) o status de suas identidades, dados, dispositivos, aplicativos e infraestrutura
-* [Busca pró-ativa](hunting.md) por tentativas de invasão e atividade de violação que afetem seus emails, dados, dispositivos e contas
-* [Entender as campanhas e as técnicas de ataque mais recentes com a](latest-attack-campaigns.md) análise de ameaças
+- Conectar os pontos em alertas por meio de [incidentes](incident-queue.md)
+- Corrigir ameaças automaticamente usando a [investigação e a correção automatizadas](mtp-autoir.md)
+- Revise e aprimore a postura de segurança globalmente com a [Pontuação segura da Microsoft](microsoft-secure-score.md)
+- [Relatar](monitoring-and-reporting.md) o status de suas identidades, dados, dispositivos, aplicativos e infraestrutura
+- [Busca pró-ativa de ameaças](advanced-hunting-overview.md) para tentativas de invasão e atividade de violação que afetem seus emails, dados, dispositivos e contas
+- [Entender as campanhas e as técnicas de ataque mais recentes com a](latest-attack-campaigns.md) análise de ameaças

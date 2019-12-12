@@ -1,9 +1,8 @@
 ---
-title: Resposta de incidente automatizado (AIR) no Office 365
+title: Investigação e resposta automatizadas (AIR) no Office 365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,38 +12,41 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: dc1f2a4c0c91cf7b1e2d351f173367e34c5d3323
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: c019d07a9971619f4af453c352ecb5555d402640
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813911"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971939"
 ---
-# <a name="automated-incident-response-air-in-office-365"></a>Resposta de incidente automatizado (AIR) no Office 365
+# <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
-Os recursos de resposta de incidentes automatizados (AIR) permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
+Os recursos de investigação e resposta automatizados permitem que você execute processos de investigação automatizados em resposta a ameaças bem conhecidas que existem hoje. O AIR pode ajudar sua equipe de operações de segurança a operar com mais eficiência e eficácia.
 - Para obter uma visão geral de como o AIR funciona, use este artigo.
 - Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
+
+> [!TIP]
+> Você tem o Microsoft 365 E5 ou o Microsoft 365 E3 junto com a identidade & proteção contra ameaças? Considere a possibilidade de tentar a [proteção contra ameaças da Microsoft](../mtp/microsoft-threat-protection.md).
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
 Em um nível alto, o fluxo de ar funciona da seguinte maneira:
 
-|Fase  |O que está envolvido  |
+|Fase|O que está envolvido|
 |---------|---------|
-|1     |Um [alerta](#alerts) que é acionado e um [guia estratégico de segurança](#security-playbooks) é iniciado.         |
-|duas     |Dependendo do alerta específico e do manual de segurança, a [investigação automática começará imediatamente](#example-a-user-reported-phish-message-launches-an-investigation-playbook). (Como alternativa, um analista de segurança pode [iniciar uma investigação automatizada manualmente](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer), a partir de um valor em um relatório, como o [Explorer](threat-explorer.md).)         |
-|3D     |Enquanto uma investigação automatizada é executada, seu escopo pode aumentar conforme novos e os alertas relacionados são acionados.         |
-|quatro     |Durante e após uma investigação automatizada, [detalhes e resultados](#investigation-graph) estão disponíveis para exibição. Os resultados incluem [ações recomendadas](#recommended-actions) que podem ser tomadas para responder e corrigir quaisquer ameaças encontradas. Além disso, um [log](#playbook-log) de análise manual está disponível que controla todas as atividades de investigação.<br/>Se sua organização estiver usando uma solução de relatórios personalizada ou uma solução de terceiros, você poderá [usar a API da atividade de gerenciamento do Office 365](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) para exibir informações sobre investigações e ameaças automatizadas.         |
-|0,5     |Sua equipe de operações de segurança revisa os resultados e as recomendações e aprova ações de correção. No Office 365, as ações de correção são realizadas apenas após a aprovação da equipe de segurança da sua organização.         |
+|1|Um [alerta](#alerts) que é acionado e um [guia estratégico de segurança](#security-playbooks) é iniciado.|
+|duas|Dependendo do alerta específico e do manual de segurança, a [investigação automática começará imediatamente](#example-a-user-reported-phish-message-launches-an-investigation-playbook). (Como alternativa, um analista de segurança pode [iniciar uma investigação automatizada manualmente](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer), a partir de um valor em um relatório, como o [Explorer](threat-explorer.md).)|
+|3D|Enquanto uma investigação automatizada é executada, seu escopo pode aumentar conforme novos e os alertas relacionados são acionados.|
+|4 |Durante e após uma investigação automatizada, [detalhes e resultados](#investigation-graph) estão disponíveis para exibição. Os resultados incluem [ações recomendadas](#recommended-actions) que podem ser tomadas para responder e corrigir quaisquer ameaças encontradas. Além disso, um [log](#playbook-log) de análise manual está disponível que controla todas as atividades de investigação.<br/>Se sua organização estiver usando uma solução de relatórios personalizada ou uma solução de terceiros, você poderá [usar a API da atividade de gerenciamento do Office 365](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) para exibir informações sobre investigações e ameaças automatizadas.|
+|5 |Sua equipe de operações de segurança revisa os resultados e as recomendações e aprova ações de correção. No Office 365, as ações de correção são realizadas apenas após a aprovação da equipe de segurança da sua organização.|
 
 As seções a seguir fornecem mais detalhes sobre o AIR, incluindo detalhes sobre alertas, guias de segurança e detalhes de investigação. Além disso, dois exemplos de como o AIR funciona são incluídos neste artigo. Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
 
 ## <a name="alerts"></a>Alertas
 
-Os [alertas](../../compliance/alert-policies.md#viewing-alerts) representam disparadores de fluxos de trabalho da equipe de operações de segurança para resposta a incidentes. Priorizar o conjunto certo de alertas para investigação e, ao mesmo tempo, garantir que nenhuma ameaça seja difícil. Quando as investigações nos alertas são realizadas manualmente, as equipes de operações de segurança devem procurar e correlacionar as entidades (por exemplo, conteúdo, dispositivos e usuários) em risco de ameaças. Essas tarefas e fluxos de trabalho são muito demorados e envolvem várias ferramentas e sistemas. Com o AIR, a investigação e a resposta são automatizadas nos alertas importantes de segurança e gerenciamento de ameaças que acionam os guias estratégicos de resposta de segurança automaticamente. 
+Os [alertas](../../compliance/alert-policies.md#viewing-alerts) representam disparadores de fluxos de trabalho da equipe de operações de segurança para resposta a incidentes. Priorizar o conjunto certo de alertas para investigação e, ao mesmo tempo, garantir que nenhuma ameaça seja difícil. Quando as investigações nos alertas são realizadas manualmente, as equipes de operações de segurança devem procurar e correlacionar as entidades (por exemplo, conteúdo, dispositivos e usuários) em risco de ameaças. Essas tarefas e fluxos de trabalho são muito demorados e envolvem várias ferramentas e sistemas. Com o AIR, a investigação e a resposta são automatizadas nos alertas importantes de segurança e gerenciamento de ameaças que acionam os guias estratégicos de resposta de segurança automaticamente.
 
-Na versão inicial do AIR (início de abril de 2019), os alertas gerados a partir dos seguintes tipos de políticas de alerta de evento único são investigados automaticamente:  
+Na versão inicial do AIR (início de abril de 2019), os alertas gerados a partir dos seguintes tipos de políticas de alerta de evento único são investigados automaticamente:
 
 - Um clique em URL potencialmente mal-intencionado foi detectado
 - Email relatado pelo usuário como Phish *
@@ -56,18 +58,18 @@ Na versão inicial do AIR (início de abril de 2019), os alertas gerados a parti
 > [!NOTE]
 > Os alertas marcados com um asterisco (*) recebem uma severidade *informativa* nas respectivas políticas de alerta no centro de conformidade com segurança &, com notificações por email desativadas. As notificações por email podem ser ativadas por meio da [configuração da política de alerta](../../compliance/alert-policies.md#alert-policy-settings). Os alertas marcados com um hash (#) são geralmente alertas associados aos guias de visualização pública.
 
-Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente. 
+Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](#investigation-graph)correspondente.
 
 > [!NOTE]
 > Os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, altere a filtragem de alerta para incluir alertas informativos.
 
 Se sua organização gerencia seus alertas de segurança por meio de um sistema de gerenciamento de alerta, sistema de gerenciamento de serviços ou informações de segurança e sistema de gerenciamento de eventos (SIEM), você pode enviar alertas do Office 365 para esse sistema por meio de uma notificação por email ou por meio da [API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). As notificações de alerta de investigação via email ou API incluem links para acessar os alertas no centro de conformidade & segurança, permitindo que o administrador de segurança atribuído Navegue rapidamente para a investigação.
 
-![Alertas que se vinculam a investigações](../media/air-alerts-page-details.png) 
+![Alertas que se vinculam a investigações](../media/air-alerts-page-details.png)
 
 ## <a name="security-playbooks"></a>Guias de segurança
 
-Os guias de segurança são políticas de back-end que estão no coração da automação no Microsoft Threat Protection. Os guias estratégicos de segurança fornecidos no AIR são baseados em cenários comuns de segurança do mundo real. Um guia de segurança é iniciado automaticamente quando um alerta é disparado dentro da sua organização. Depois que o alerta é acionado, o manual associado é executado automaticamente. O guia estratégico executa uma investigação, examinando todos os metadados associados (incluindo mensagens de email, usuários, assuntos, remetentes, etc.). Com base nas conclusões do guia estratégico, o ar recomenda um conjunto de ações que a equipe de segurança de sua organização pode executar para controlar e reduzir a ameaça. 
+Os guias de segurança são políticas de back-end que estão no coração da automação no Microsoft Threat Protection. Os guias estratégicos de segurança fornecidos no AIR são baseados em cenários comuns de segurança do mundo real. Um guia de segurança é iniciado automaticamente quando um alerta é disparado dentro da sua organização. Depois que o alerta é acionado, o manual associado é executado automaticamente. O guia estratégico executa uma investigação, examinando todos os metadados associados (incluindo mensagens de email, usuários, assuntos, remetentes, etc.). Com base nas conclusões do guia estratégico, o ar recomenda um conjunto de ações que a equipe de segurança de sua organização pode executar para controlar e reduzir a ameaça.
 
 Os guias de segurança que você receberá com o AIR são projetados para lidar com as ameaças mais frequentes que as organizações enfrentam hoje. Eles são baseados na entrada de operações de segurança e em equipes de resposta a incidentes, incluindo aqueles que ajudam a defender a Microsoft e seus ativos de clientes.
 
@@ -88,9 +90,9 @@ Os guias estratégicos serão lançados à medida que forem concluídos. Visite 
 
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Os guias estratégicos incluem investigação e recomendações
 
-No AIR, cada guia estratégico de segurança inclui: 
-- uma investigação raiz, 
-- etapas seguidas para identificar e correlacionar outras ameaças potenciais e 
+No AIR, cada guia estratégico de segurança inclui:
+- uma investigação raiz,
+- etapas seguidas para identificar e correlacionar outras ameaças potenciais e
 - ações de correção de ameaças recomendadas.
 
 Cada etapa de alto nível inclui muitas subetapas executadas para fornecer uma resposta detalhada, detalhada e exaustiva às ameaças.
@@ -99,30 +101,30 @@ Cada etapa de alto nível inclui muitas subetapas executadas para fornecer uma r
 
 A página de investigações automatizadas mostra as investigações da organização e seus Estados atuais.
 
-![Página de investigação principal para AIR](../media/air-maininvestigationpage.png) 
-  
+![Página de investigação principal para AIR](../media/air-maininvestigationpage.png)
+
 Você pode:
 - Navegue diretamente para uma investigação (selecione uma **ID de investigação**).
 - Aplicar filtros. Escolha um **tipo de investigação**, **intervalo de tempo**, **status**ou uma combinação desses.
 - Exporte os dados para um arquivo. csv.
 
-O status de investigação indica o progresso das análises e ações. À medida que a investigação é executada, o status é alterado para indicar se as ameaças foram encontradas e se as ações foram aprovadas. 
+O status de investigação indica o progresso das análises e ações. À medida que a investigação é executada, o status é alterado para indicar se as ameaças foram encontradas e se as ações foram aprovadas.
 
 
-|Status  |O que significa  |
+|Status|O que significa|
 |---------|---------|
-|Iniciando | A investigação será enfileirada para começar em breve |
-|Em execução | A investigação foi iniciada e está conduzindo sua análise |
-|Nenhuma ameaça encontrada | A investigação concluiu a análise e nenhuma ameaça foi encontrada |
-|Encerrado pelo sistema | A investigação não foi fechada e expirou após 7 dias |
-|Ação Pendente | A investigação encontrou ameaças com ações recomendadas |
-|Ameaça Encontrada | A investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no AIR |
-|Remediado | A investigação foi concluída e foi totalmente corrigida (todas as ações foram aprovadas) |
-|Parcialmente corrigido | A investigação terminou e algumas das ações recomendadas foram aprovadas |
-|Encerrado Pelo Usuário | Um administrador terminou a investigação |
-|Falhou | Ocorreu um erro durante a investigação que o impediu de chegar a uma conclusão em relação a ameaças |
-|Em fila por limitação | A investigação está aguardando a análise devido a limitações de processamento do sistema (para proteger o desempenho do serviço) |
-|Terminada pela limitação | A investigação não pôde ser concluída em tempo suficiente devido à investigação de limitações de processamento de volume e sistema. Você pode acionar novamente a investigação selecionando o email no Explorer e selecionando a ação investigar. |
+|Iniciando| A investigação será enfileirada para começar em breve|
+|Em execução| A investigação foi iniciada e está conduzindo sua análise|
+|Nenhuma ameaça encontrada| A investigação concluiu a análise e nenhuma ameaça foi encontrada|
+|Encerrado pelo sistema| A investigação não foi fechada e expirou após 7 dias|
+|Ação Pendente| A investigação encontrou ameaças com ações recomendadas|
+|Ameaça Encontrada| A investigação encontrou ameaças, mas as ameaças não têm ações disponíveis no AIR|
+|Remediado| A investigação foi concluída e foi totalmente corrigida (todas as ações foram aprovadas)|
+|Parcialmente corrigido| A investigação terminou e algumas das ações recomendadas foram aprovadas|
+|Encerrado Pelo Usuário| Um administrador terminou a investigação|
+|Falhou| Ocorreu um erro durante a investigação que o impediu de chegar a uma conclusão em relação a ameaças|
+|Em fila por limitação| A investigação está aguardando a análise devido a limitações de processamento do sistema (para proteger o desempenho do serviço)|
+|Terminada pela limitação| A investigação não pôde ser concluída em tempo suficiente devido à investigação de limitações de processamento de volume e sistema. Você pode acionar novamente a investigação selecionando o email no Explorer e selecionando a ação investigar.|
 
 ### <a name="investigation-graph"></a>Gráfico de investigação
 
@@ -148,16 +150,16 @@ Você pode:
 
 ### <a name="email-investigation"></a>Investigação de email
 
-Na guia **email** de uma investigação, você pode ver todos os clusters de email identificados como parte da investigação. 
+Na guia **email** de uma investigação, você pode ver todos os clusters de email identificados como parte da investigação.
 
-Dado o volume simples de email que os usuários de uma organização enviam e recebem, o processo de 
-- agrupar mensagens de email com base em atributos semelhantes de um cabeçalho de mensagem, corpo, URL e anexos; 
-- separar emails mal-intencionados do email em bom estado; e 
-- executar ações em mensagens de email mal-intencionadas 
+Dado o volume simples de email que os usuários de uma organização enviam e recebem, o processo de
+- agrupar mensagens de email com base em atributos semelhantes de um cabeçalho de mensagem, corpo, URL e anexos;
+- separar emails mal-intencionados do email em bom estado; e
+- executar ações em mensagens de email mal-intencionadas
 
-pode levar várias horas. Agora, o ar automatiza esse processo, poupando o tempo e esforço da equipe de segurança da sua organização. 
+pode levar várias horas. Agora, o ar automatiza esse processo, poupando o tempo e esforço da equipe de segurança da sua organização.
 
-Dois tipos diferentes de clusters de email podem ser identificados durante a etapa de análise de email: clusters de similaridade e clusters de indicador. 
+Dois tipos diferentes de clusters de email podem ser identificados durante a etapa de análise de email: clusters de similaridade e clusters de indicador.
 - Os clusters de similaridade são mensagens de email que contêm atributos de remetente e conteúdo semelhantes. Esses clusters são avaliados para conteúdo mal-intencionado com base nas descobertas de detecção originais. Os clusters de emails que contêm detecções mal intencionadas suficientes são considerados mal-intencionados.
 - Os clusters de indicadores são mensagens de email que contêm a mesma entidade de indicador (hash de arquivo ou URL) do email original. Quando a entidade de arquivo/URL original é identificada como mal-intencionada, o AIR aplica o indicador veredicto a todo o cluster de mensagens de email contendo essa entidade. Como um arquivo identificado como malware significa que o cluster de mensagens de email que contém esse arquivo é tratado como mensagens de email de malware.
 
@@ -165,13 +167,13 @@ O objetivo do clustering é encontrar outras mensagens de email relacionadas env
 
 A guia **email** também mostra os itens de email relacionados à investigação, como os detalhes de email relatados pelo usuário, o email original relatado, a (s) mensagem (ns) de email zapped devido a malware/phishing, etc.
 
-A contagem de emails identificada na guia email representa atualmente a soma total de todas as mensagens de email exibidas na guia **email** . Como as mensagens de email estão presentes em vários clusters, a contagem total real de mensagens de email identificadas (e afetadas por ações de correção) é a contagem de mensagens de email exclusivas em todos os clusters e mensagens de email dos destinatários originais. 
+A contagem de emails identificada na guia email representa atualmente a soma total de todas as mensagens de email exibidas na guia **email** . Como as mensagens de email estão presentes em vários clusters, a contagem total real de mensagens de email identificadas (e afetadas por ações de correção) é a contagem de mensagens de email exclusivas em todos os clusters e mensagens de email dos destinatários originais.
 
-O Explorer e o AIR contam mensagens de email por destinatário, já que os locais de segurança verdicts, ações e entrega variam de acordo com cada destinatário. Portanto, um email original enviado a três usuários conta como um total de três mensagens de email em vez de um email. Observação pode haver casos em que um email é contado duas ou mais vezes, uma vez que o email pode ter várias ações nela, pode haver várias cópias do email quando todas as ações ocorrerem. Por exemplo, um email de malware detectado na entrega pode resultar em um email bloqueado (em quarentena) e um email substituído (arquivo de ameaça substituído por um arquivo de aviso e, em seguida, entregue à caixa de correio do usuário). Como há, literalmente, duas cópias do email no sistema, elas podem ser contadas em contagens de cluster. 
+O Explorer e o AIR contam mensagens de email por destinatário, já que os locais de segurança verdicts, ações e entrega variam de acordo com cada destinatário. Portanto, um email original enviado a três usuários conta como um total de três mensagens de email em vez de um email. Observação pode haver casos em que um email é contado duas ou mais vezes, uma vez que o email pode ter várias ações nela, pode haver várias cópias do email quando todas as ações ocorrerem. Por exemplo, um email de malware detectado na entrega pode resultar em um email bloqueado (em quarentena) e um email substituído (arquivo de ameaça substituído por um arquivo de aviso e, em seguida, entregue à caixa de correio do usuário). Como há, literalmente, duas cópias do email no sistema, elas podem ser contadas em contagens de cluster.
 
 As contagens de email são calculadas no momento da investigação e algumas contagens são recalculadas quando você abre submenus de investigação (com base em uma consulta subjacente). As contagens de email mostradas para os clusters de email na guia email e o valor de quantidade de email mostrado no submenu de cluster são calculados no momento da investigação. A contagem de emails mostrada na parte inferior da guia email do submenu de cluster e a contagem de mensagens de email exibidas no Explorer refletem mensagens de email recebidas após a análise inicial da investigação. Portanto, um cluster de emails que mostra uma quantidade original de 10 mensagens de email mostraria uma lista de emails de 15 a 5 mensagens de email que chegam entre a fase de análise de investigação e quando o administrador revisa a investigação. Mostrar as duas contagens em modos de exibição diferentes é feito para indicar o impacto do email no momento da investigação e o impacto atual até o momento em que a correção é executada.
 
-Por exemplo, considere o cenário a seguir. O primeiro cluster de três mensagens de email foi considerado como phishing. Outro cluster de mensagens semelhantes com o mesmo IP e assunto foi encontrado e considerado mal-intencionado, pois alguns deles foram identificados como phishing durante a detecção inicial. 
+Por exemplo, considere o cenário a seguir. O primeiro cluster de três mensagens de email foi considerado como phishing. Outro cluster de mensagens semelhantes com o mesmo IP e assunto foi encontrado e considerado mal-intencionado, pois alguns deles foram identificados como phishing durante a detecção inicial.
 
 ![Página investigação de emails de ar](../media/air-investigationemailpage.png)
 
@@ -199,12 +201,12 @@ Você pode:
 
 ### <a name="machine-investigation"></a>Investigação de máquina
 
-Na guia **computadores** , você pode ver todas as máquinas identificadas como parte da investigação. 
+Na guia **computadores** , você pode ver todas as máquinas identificadas como parte da investigação.
 
 ![Página da máquina de investigação de ar](../media/air-investigationmachinepage.png)
 
 Como parte da investigação, o AIR correlaciona ameaças de email a dispositivos. Por exemplo, uma investigação passa um hash de arquivo mal-intencionado no [Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-) para investigar. Isso permite a investigação automatizada de máquinas relevantes para seus usuários, para ajudar a garantir que as ameaças sejam tratadas na nuvem e nos seus pontos de extremidade. 
+) para investigar. Isso permite a investigação automatizada de máquinas relevantes para seus usuários, para ajudar a garantir que as ameaças sejam tratadas na nuvem e nos seus pontos de extremidade.
 
 Você pode:
 - Obtenha uma visão geral das máquinas e ameaças atuais encontradas.
@@ -212,9 +214,9 @@ Você pode:
 
 ### <a name="entity-investigation"></a>Investigação de entidade
 
-Na guia **entidades** , você pode ver todas as entidades identificadas como parte da investigação. 
+Na guia **entidades** , você pode ver todas as entidades identificadas como parte da investigação.
 
-Aqui, você pode ver as entidades investigadas e os detalhes dos tipos de entidades, como mensagens de email, clusters, endereços IP, usuários e muito mais. Você também pode ver quantas entidades foram analisadas e as ameaças que foram associadas a cada uma delas. 
+Aqui, você pode ver as entidades investigadas e os detalhes dos tipos de entidades, como mensagens de email, clusters, endereços IP, usuários e muito mais. Você também pode ver quantas entidades foram analisadas e as ameaças que foram associadas a cada uma delas.
 
 ![Página de entidades de investigação aérea](../media/air-investigationentitiespage.png)
 
@@ -226,7 +228,7 @@ Você pode:
 
 ### <a name="playbook-log"></a>Log do guia estratégico
 
-Na guia **log** , você pode ver todas as etapas do guia estratégico que ocorreram durante a investigação. O log captura um inventário completo de todas as ações concluídas pelos recursos de investigação automática do Office 365 como parte do ar. Ele fornece uma visão clara de todas as etapas executadas, incluindo a ação em si, uma descrição e a duração do real do início ao fim. 
+Na guia **log** , você pode ver todas as etapas do guia estratégico que ocorreram durante a investigação. O log captura um inventário completo de todas as ações concluídas pelos recursos de investigação automática do Office 365 como parte do ar. Ele fornece uma visão clara de todas as etapas executadas, incluindo a ação em si, uma descrição e a duração do real do início ao fim.
 
 ![Página de log de investigação de ar](../media/air-investigationlogpage.png)
 
@@ -237,7 +239,7 @@ Você pode:
 
 ### <a name="recommended-actions"></a>Ações recomendadas
 
-Na guia **ações** , você pode ver todas as ações do guia estratégico que são recomendadas para correção após a conclusão da investigação. 
+Na guia **ações** , você pode ver todas as ações do guia estratégico que são recomendadas para correção após a conclusão da investigação.
 
 As ações capturam as etapas que a Microsoft recomenda que você faça no final de uma investigação. Você pode realizar ações de correção aqui selecionando uma ou mais ações. Clicar em **aprovar** permite que a correção seja iniciada. (As permissões apropriadas são necessárias-a função de ' pesquisa e limpeza ' é necessária para executar ações do Explorer e do AIR). Por exemplo, um leitor de segurança pode exibir ações, mas não aprová-las. Observação: não é necessário aprovar todas as ações. Se você não concordar com a ação recomendada ou sua organização não escolher determinados tipos de ações, então você poderá optar por **rejeitar** as ações ou simplesmente ignorá-las e não realizar qualquer ação. Aprovar e/ou rejeitar todas as ações permitem que a investigação seja totalmente fechada, enquanto deixa algumas ações incompletas resultam na alteração do status de investigação para um estado parcialmente corrigido.
 
@@ -254,7 +256,7 @@ Você pode:
 
 Quando um usuário em sua organização envia uma mensagem de email e o relata à Microsoft usando o [suplemento de mensagem de relatório para o Outlook ou o Outlook Web Access](enable-the-report-message-add-in.md), o relatório também é enviado ao seu sistema e fica visível no Explorer no modo de exibição relatado pelo usuário. Essa mensagem relatada pelo usuário agora dispara um alerta informativo baseado no sistema, que inicia automaticamente o guia estratégico de investigação.
 
-Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre elas:
+Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre eles:
 - Uma determinação sobre o tipo de ameaça que ela pode ser;
 - Quem o enviou;
 - De onde o email foi enviado (infraestrutura de envio);
@@ -264,18 +266,18 @@ Durante a fase de investigação de raiz, vários aspectos do email são avaliad
 - e muito mais.
 
 Depois que a investigação raiz estiver concluída, o guia estratégico fornecerá uma lista de ações recomendadas a serem executadas no email original e entidades associadas a ela.
-  
+
 Em seguida, várias etapas de investigação e busca de ameaças são executadas:
 
 - Mensagens de email semelhantes em outros clusters de email são pesquisadas.
 - O sinal é compartilhado com outras plataformas, como [o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
 - É possível determinar se qualquer usuário clicou por links mal-intencionados em mensagens de email suspeitas.
 - Uma verificação é feita no Office 365 proteção do Exchange Online ([EOP](exchange-online-protection-eop.md)) e no Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
-- Uma verificação é feita para ver se um usuário foi comprometido. Esta verificação utiliza sinais no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security) e no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlacionando qualquer anomalia de atividade do usuário relacionada. 
+- Uma verificação é feita para ver se um usuário foi comprometido. Esta verificação utiliza sinais no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security) e no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlacionando qualquer anomalia de atividade do usuário relacionada.
 
-Durante a fase de caça, riscos e ameaças são atribuídos a várias etapas de busca. 
+Durante a fase de caça, riscos e ameaças são atribuídos a várias etapas de busca.
 
-Correção é a fase final do guia estratégico. Durante esta fase, as etapas de correção são tomadas, com base nas fases de investigação e busca. 
+Correção é a fase final do guia estratégico. Durante esta fase, as etapas de correção são tomadas, com base nas fases de investigação e busca.
 
 ## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>Exemplo: um administrador de segurança dispara uma investigação do explorador de ameaças
 
@@ -285,7 +287,7 @@ Por exemplo, suponha que você está exibindo dados no Explorer sobre mensagens 
 
 ![Mensagens relatadas pelo usuário no Explorer com o botão investigar](../media/Explorer-UserReported-Investigate.png)
 
-Como outro exemplo, suponha que você esteja exibindo dados sobre mensagens de email detectadas como contendo malware e que há várias mensagens de email detectadas como contendo malware. Você pode selecionar a guia **email** , selecionar uma ou mais mensagens de email e, em seguida, no menu **ações** , selecionar **investigar**. 
+Como outro exemplo, suponha que você esteja exibindo dados sobre mensagens de email detectadas como contendo malware e que há várias mensagens de email detectadas como contendo malware. Você pode selecionar a guia **email** , selecionar uma ou mais mensagens de email e, em seguida, no menu **ações** , selecionar **investigar**.
 
 ![Iniciando uma investigação de malware no Explorer](../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
@@ -300,24 +302,26 @@ O Office 365 AIR está incluído nas seguintes assinaturas:
 - Proteção contra Ameaças da Microsoft
 - Plano 2 de proteção avançada contra ameaças do Office 365
 
-Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
+Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 Para saber mais sobre a disponibilidade de recursos, visite a [disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>Permissões necessárias para usar os recursos de ar
 
-As permissões são concedidas por determinadas funções, como aquelas descritas na tabela a seguir: 
+As permissões são concedidas por determinadas funções, como aquelas descritas na tabela a seguir:
 
-|Tarefa |Função (ões) necessária |
+|Tarefa|Função (ões) necessária|
 |--|--|
-|Para configurar os recursos de ar |Uma das seguintes opções: <br/>- **Administrador global**<br/>- **Administrador de segurança** <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes opções (essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Administrador global** <br/>- **Administrador de segurança**<br/>- **Leitor de segurança** <br/>---e---<br/>- **Pesquisa e limpeza** (esta função é atribuída somente no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))
+|Para configurar os recursos de ar|Uma das seguintes opções: <br/>- **Administrador global**<br/>- **Administrador de segurança** <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).|
+|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes opções (essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Administrador global** <br/>- **Administrador de segurança**<br/>- **Leitor de segurança** <br/>---e---<br/>- **Pesquisa e limpeza** (esta função é atribuída somente no [centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md))
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Introdução ao uso do AIR no Office 365](office-365-air.md)
+- [Introdução ao uso do AIR no Office 365](office-365-air.md)
+- [Saiba mais sobre o AIR no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Visite o mapa do Microsoft 365 para ver o que está chegando em breve e distribuir](https://www.microsoft.com/microsoft-365/roadmap?filters=)
 
-[Saiba mais sobre o AIR no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 
+## <a name="see-also"></a>Confira também
 
-[Visite o mapa do Microsoft 365 para ver o que está chegando em breve e distribuir](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-
+- [Proteção contra Ameaças da Microsoft](../mtp/microsoft-threat-protection.md)
+- [Investigação e correção automatizadas (ar) na proteção contra ameaças da Microsoft](../mtp/mtp-autoir.md)

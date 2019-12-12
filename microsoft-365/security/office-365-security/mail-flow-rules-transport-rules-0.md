@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização do Office 365.
-ms.openlocfilehash: acd661962c1223c4124c492ce66f463d27e7ca10
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 604e2c7cb0b2cc34021e6708ae9f08769e8e6e91
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441528"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970337"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regras de fluxo de emails (regras de transporte) no Exchange Online Protection
 
@@ -41,7 +41,7 @@ Para implementar políticas de mensagens específicas usando regras do fluxo de 
 
 - [Redução de ameaças de malware com o bloqueio de anexos de arquivo no Exchange Online Protection](reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 
-- [Definir regras para criptografar ou descriptografar mensagens de email](https://go.microsoft.com/fwlink/p/?Linkid=402846).
+- [Definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
 
 O vídeo a seguir fornece uma demonstração da configuração de regras de fluxo de emails na proteção do Exchange Online.
 
@@ -89,7 +89,7 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 |**Adiar a mensagem se o processamento de regra não for concluído**|_RuleErrorAction_|Você pode especificar como a mensagem deveria ser tratada se o processamento de regra não puder ser concluído. Por padrão, a regra será ignorada, mas você pode optar por reenviar a mensagem para processamento.|
 |**Corresponder endereço do remetente da mensagem**|_SenderAddressLocation_|Se a regra usa condições ou exceções que examinam o endereço de email do remetente, você pode procurar o valor no cabeçalho da mensagem, no envelope da mensagem ou em ambos.|
 |**Parar o processamento de mais regras**|_SenderAddressLocation_|Essa é uma ação para a regra, mas se parece com uma propriedade no EAC. Você pode optar por evitar a aplicação de regras adicionais a uma mensagem após uma regra processar uma mensagem.|
-|**Comments**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
+|**Comentários**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Como as regras de fluxo de emails são aplicadas a mensagens
 
@@ -106,9 +106,9 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 |**Tipo de mensagem**|**Uma regra pode ser aplicada?**|
 |:-----|:-----|
 |**Mensagens regulares**: mensagens que contêm um único corpo de mensagem em formato Rich Text (RTF), HTML ou texto sem formatação, ou um conjunto de corpos de mensagens ou de várias partes ou alternativo.|Sim|
-|**Criptografia de mensagem do office 365**: mensagens criptografadas pela criptografia de mensagem do Office 365 no Office 365. Para saber mais, veja [Criptografia de Mensagens do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=392525).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para saber mais, veja [Habilitar ou desabilitar a descriptografia de transporte](https://go.microsoft.com/fwlink/p/?linkid=848060).  <br/><br/> Você também pode criar uma regra que descriptografa automaticamente mensagens criptografadas. Para saber mais, veja [Definir regras para criptografar ou descriptografar mensagens de email](https://go.microsoft.com/fwlink/p/?Linkid=402846).  |
+|**Criptografia de mensagem do office 365**: mensagens criptografadas pela criptografia de mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para obter mais informações, consulte [definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).|
 |**Mensagens criptografadas em S/MIME**|As regras podem apenas acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> As regras com condições que exigem a inspeção do conteúdo da mensagem ou ações que modificam o conteúdo da mensagem não podem ser processadas.|
-|**Mensagens protegidas por RMS**: mensagens que tinham uma política do Active Directory Rights Management Services (AD RMS) ou do Azure Rights Management (RMS) aplicada.|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem protegida por RMS, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou opcional; o padrão é opcional). Para saber mais, veja [Habilitar ou desabilitar a descriptografia de transporte](https://go.microsoft.com/fwlink/p/?linkid=848060).  |
+|**Mensagens protegidas por RMS**: mensagens que tinham uma política do Active Directory Rights Management Services (AD RMS) ou do Azure Rights Management (RMS) aplicada.|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem protegida por RMS, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou opcional; o padrão é opcional).|
 |**Mensagens com assinatura limpa**: mensagens que foram assinadas, mas não foram criptografadas.|Sim|
 |**Mensagens de um**: mensagens criadas ou processadas pelo serviço de Unificação de mensagens, como caixa postal, fax, notificações de chamadas não atendidas e mensagens criadas ou encaminhadas usando o Microsoft Outlook Voice Access.|Sim|
 |**Mensagens anônimas**: mensagens enviadas por remetentes anônimos.|Sim|
@@ -126,4 +126,4 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 
 [Criptografia de email no Office 365](https://docs.microsoft.com/office365/securitycompliance/email-encryption)
 
-[Limites de regras de Diário, Transporte e Caixa de Entrada](https://go.microsoft.com/fwlink/p/?LinkId=324584)
+[Limites de regras de diário, transporte e caixa de entrada](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits)

@@ -14,12 +14,12 @@ ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
 ms.collection:
 - M365-security-compliance
 description: Este tópico descreve as etapas de solução de problemas para os usuários finais e administradores e fornece informações sobre como contatar o suporte técnico para obter assistência.
-ms.openlocfilehash: c87744608930603f70e6be1132a0b405e9646b57
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: a6a4b94db3e34442d326942641b10db15d104d71
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441188"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971619"
 ---
 # <a name="troubleshooting-and-support-information"></a>Solução de problemas e informações de suporte
 
@@ -86,6 +86,6 @@ Se você precisar de ajuda com a instalação, configuração ou desinstalação
 
 ## <a name="for-more-information"></a>Para saber mais
 
-[Habilitar o suplemento de Mensagem de Relatório](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
+[Habilitar o suplemento de Mensagem de Relatório](enable-the-report-message-add-in.md)
 
 [Relatar mensagens de lixo eletrônico à Microsoft](report-junk-email-messages-to-microsoft.md)

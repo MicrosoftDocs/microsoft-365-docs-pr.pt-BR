@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Bloquear as opções da lista de remetentes incluem remetentes bloqueados do Outlook, listas de bloqueios de remetente/domínio antispam, listas de bloqueio de IP e regras de transporte do Exchange (ETRs) também chamadas de fluxo de emails.
-ms.openlocfilehash: 27e0a1881c50031f180192b6bc02f3d606e7b76c
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: f4fab732a92df2a2500212c9825d2b3e710b0a07
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793705"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970887"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Criar listas de remetentes bloqueados no Office 365
 
@@ -43,7 +43,7 @@ Quando somente um pequeno número de usuários é afetado, isso ocorre quando os
 > [!IMPORTANT]
 > Se as mensagens indesejadas forem boletins informativos de uma fonte confiável e reconhecível, a cancelamento do email é outra opção para impedir que o usuário obtenha os emails no futuro.
 
-As etapas para configurar isso são diferentes entre o [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são bloqueadas com êxito devido a remetentes bloqueados, você verá SFV: BLK no X-Forefront-antispam-Report** , que indica que a mensagem está sendo bloqueada.
+As etapas para configurar isso são diferentes entre o [Outlook na Web](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) e o [cliente do Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Quando as mensagens são bloqueadas com êxito devido a remetentes bloqueados, você verá SFV: BLK no X-Forefront-antispam-Report** , que indica que a mensagem está sendo bloqueada.
 
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>Usar listas de bloqueio de remetente/domínio de política antispam
 

@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: Este tópico fornece perguntas frequentes e suas respostas para parceiros e revendedores Microsoft que desejam executar tarefas de administração delegadas do Office 365, incluindo a habilidade de gerenciar o Exchange Online Protection (EOP) para outros locatários (empresas).
-ms.openlocfilehash: 729ebd0f62834ffcf929da4c2b1b11b0a16275c9
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 4e2548ebe52926e00269615a436662183ec5bd2a
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440498"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970747"
 ---
 # <a name="delegated-administration-faq"></a>Perguntas frequentes sobre administração delegada
 
@@ -27,11 +27,11 @@ R. Se você for um parceiro da Microsoft ou revendedor e se inscrever em um Micr
 
 1. Inscreva-se para ser um [Consultor do Microsoft Office 365](https://aka.ms/cloudbenefits).
 
-2. Inscreva-se para a administração delegada do Office 365. Para que você possa começar a administrar a conta de um cliente, ele deverá autorizá-lo como um administrador delegado. Para obter a aprovação dele, é necessário [enviar primeiro uma oferta para administração delegada](https://go.microsoft.com/fwlink/?LinkId=396829). (Você também pode oferecer posteriormente a administração delegada ao seu cliente.)
+2. Inscreva-se para a administração delegada do Office 365. Para que você possa começar a administrar a conta de um cliente, ele deverá autorizá-lo como um administrador delegado. Para obter a aprovação dele, é necessário [enviar primeiro uma oferta para administração delegada](https://support.office.com/article/26530dc0-ebba-415b-86b1-b55bc06b073e). (Você também pode oferecer posteriormente a administração delegada ao seu cliente.)
 
-3. Crie a conta de administração delegada usando as etapas em [Adicionar ou excluir um administrador delegado](https://go.microsoft.com/fwlink/?LinkId=396831).
+3. Crie a conta de administração delegada usando as etapas em [Adicionar, alterar ou excluir um parceiro de supervisor de assinatura](https://docs.microsoft.com/office365/admin/misc/add-partner).
 
-Visite [Parceiros: construa seu negócio e administre sua conta de parceiro do Office 365](https://go.microsoft.com/fwlink/?LinkId=301485) para obter mais informações sobre como configurar a administração delegada do Office 365.
+Visite [parceiros: Crie sua empresa e administre sua assinatura de parceiro do office 365](https://support.office.com/article/30dd1681-47e0-4cbc-abfe-a222cd111319) para obter mais informações sobre como configurar a administração delegada do Office 365.
 
 **P. Sou um cliente, não é um revendedor, como posso configurar o administrador delegado para meus sublocatários?**
 
@@ -43,4 +43,4 @@ R. O Office 365 não tem esse recurso no momento.
 
 **P. Posso obter um relatório consolidado em todos os meus sublocatários?**
 
-R. O relatório consolidado nas empresas que você gerencia não está disponível para os relatórios do centro de administração do Microsoft 365 no momento. No entanto, você pode fazer isso usando o Windows PowerShell remoto ou o [serviço Web de relatório do Office 365](https://go.microsoft.com/fwlink/?LinkId=279926).
+R. O relatório consolidado nas empresas que você gerencia não está disponível para os relatórios do centro de administração do Microsoft 365 no momento. No entanto, você pode fazer isso usando [o Microsoft Graph](https://docs.microsoft.com/graph/overview).

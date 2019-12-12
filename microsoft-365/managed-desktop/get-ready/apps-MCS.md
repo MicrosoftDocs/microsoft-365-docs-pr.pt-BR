@@ -1,19 +1,19 @@
 ---
-title: Como trabalhar com os serviços de consultoria da Microsoft
+title: Trabalhar com Serviços de Consultoria da Microsoft
 description: preparação e etapas a serem seguidas para trabalhar com MCS para empacotar seus aplicativos
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, aplicativos, MCS, pacotes
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3687966fd49db3fd58c4ecbb3917e45ec6dfa3c3
-ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
+ms.openlocfilehash: 4491504616eb4bb447f12d08dddb12c73c2a88ac
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35425734"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962618"
 ---
-# <a name="working-with-microsoft-consulting-services"></a>Como trabalhar com os serviços de consultoria da Microsoft
+# <a name="working-with-microsoft-consulting-services"></a>Trabalhar com Serviços de Consultoria da Microsoft
 
 Você pode entrar com o Microsoft Consulting Services (MCS) para obter seus aplicativos empacotados para uso com a área de trabalho gerenciada da Microsoft. Para obter detalhes exatos, trabalhe com seu representante de conta para entrar em contato com a MCS e o escopo de seu projeto de pacote de aplicativos específico.
 
@@ -35,7 +35,7 @@ Para trabalhar com o pacote de aplicativos MCS, **você deve fornecer estes elem
 
 Inicie o processo de empacotamento carregando as informações do aplicativo para o portal de área de trabalho gerenciada da Microsoft. A equipe de empacotamento revisa novos envios a cada quinta-feira. Após a revisão e o empacotamento, os aplicativos empacotados são entregues na sexta-feira a seguir. Até cinco aplicativos por semana podem ser empacotados para iniciar, mas o serviço pode ser dimensionado para atender às suas necessidades.
 
-![calendário mostrando datas de revisão, embalagem e entrega de aplicativos](images/MCS-cal.png)
+![calendário mostrando o fluxo de aplicativos em uma quinta-feira (o 21, neste exemplo), a validação de mídia no dia seguinte, empacotando na segunda-feira (o 25º) e entrega de aplicativos na sexta-feira subsequente (o dia 29)](images/MCS-cal.png)
 
 Você será notificado assim que o aplicativo for entregue. Nesse ponto, você tem 21 dias para executar o teste de aceitação e aprovar o trabalho no portal de área de trabalho gerenciada da Microsoft. Se descobrir algum problema com o aplicativo durante o teste de aceitação, rejeite o aplicativo no portal de área de trabalho gerenciada da Microsoft e você será conectado por email com um empacotador MCS para entender e resolver o problema.
 

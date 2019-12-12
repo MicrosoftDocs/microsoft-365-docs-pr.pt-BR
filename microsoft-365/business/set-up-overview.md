@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812769"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967614"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -50,14 +50,16 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
   
   Além das configurações de segurança no assistente de instalação, você pode aumentar a segurança adicionando as seguintes configurações:
 
-      - **Proteção contra malware de email**
-      - **Anti-phishing ATP**
-      - **Arquivamento do Exchange Online**
-      - **Proteção de informações do Azure (Plan1**)
 
-          Para começar, veja [Configurar políticas avançadas de segurança](set-up-advanced-security.md).
+- **Proteção contra malware de email**
+- **Anti-phishing ATP**
+- **Arquivamento do Exchange Online**
+- **Proteção de informações do Azure (Plan1**)
 
-        Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de práticas recomendadas de segurança.
+
+Para começar, veja [Configurar políticas avançadas de segurança](set-up-advanced-security.md).
+
+Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de práticas recomendadas de segurança.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Etapa 3: configurar e gerenciar dispositivos Windows 10
 

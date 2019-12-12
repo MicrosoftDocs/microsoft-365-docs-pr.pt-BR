@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Veja algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP.
-ms.openlocfilehash: 707e909821c4a394e230b1746bde86521d8fb10a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: ae08ff17a3ef25f0b0903d02ffe396cd201bd06c
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441558"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970517"
 ---
 # <a name="exchange-online-protection"></a>Proteção do Exchange Online
 
 Bem-vindo ao serviço de filtragem de email hospedado no Microsoft Proteção do Exchange Online (EOP) . Aqui estão algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP e usar o seu conteúdo:
 
-- Para saber mais sobre o EOP, confira a [Descrição do Exchange Online Protection Service ](https://go.microsoft.com/fwlink/p/?LinkId=320619). Outros recursos úteis são o [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md), [Perguntas frequentes gerais sobre o EOP](eop-general-faq.md) e [Recursos EOP](eop-features.md), além da [página inicial do Exchange Online Protection](https://go.microsoft.com/fwlink/?LinkId=279912).
+- Para saber mais sobre o EOP, confira a [Descrição do serviço de proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). Outros recursos úteis são o [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md), [Perguntas frequentes gerais sobre o EOP](eop-general-faq.md) e [Recursos EOP](eop-features.md), além da [página inicial do Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection).
 
 - Para começar com o EOP, os novos clientes devem dirigir-se ao [Configurar seu serviço EOP](set-up-your-eop-service.md). Este tópico fornece passos que vão ajudá-lo colocar o EOP em funcionamento.
 
@@ -67,6 +67,6 @@ O conteúdo da Ajuda para auxiliar usuários finais do EOP a gerenciar spam é c
 
 - [Enviando malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md): descreve como os usuários finais podem enviar malwares que o fizeram após os filtros ou enviar um arquivo que foi identificado incorretamente como malware.
 
-- Os usuários finais podem adicionar usuários ou domínios específicos a uma lista de remetentes seguros ou uma lista de remetentes bloqueados Configurando suas configurações de lixo eletrônico no Outlook ou no Outlook na Web. Observe que as mensagens enviadas de remetentes bloqueados são marcadas como spam, não rejeitadas, o que significa que elas podem ser recuperadas da pasta de lixo eletrônico ou quarentena (dependendo de onde o administrador configurou o serviço para enviar spam.) Para obter mais informações, consulte [use the Report Message Add-in](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Os usuários finais podem adicionar usuários ou domínios específicos a uma lista de remetentes seguros ou uma lista de remetentes bloqueados Configurando suas configurações de lixo eletrônico no Outlook ou no Outlook na Web. Observe que as mensagens enviadas de remetentes bloqueados são marcadas como spam, não rejeitadas, o que significa que elas podem ser recuperadas da pasta de lixo eletrônico ou quarentena (dependendo de onde o administrador configurou o serviço para enviar spam.) Para obter mais informações, consulte [use the Report Message Add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 - [Ajuda e suporte para EOP](help-and-support-for-eop.md) Fornece informações sobre como obter ajuda e suporte técnico.
