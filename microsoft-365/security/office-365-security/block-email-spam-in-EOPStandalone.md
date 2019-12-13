@@ -16,12 +16,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: Documento para administradores autônomos de EOP para ajudar a evitar falsos negativos de spam
-ms.openlocfilehash: cc0237ddc127c9818ae9cf4916187485e4d1dee7
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 1c82bd65906f79898677136e02fd619bbe4c5214
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871947"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971899"
 ---
 # <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Personalizar o filtro antispam do Office 365 com estas configurações
 
@@ -31,7 +31,7 @@ O administrador pode usar várias configurações de filtro de spam do Office 36
 
 Personalize o filtro de spam do Office 365 adicionando o endereço IP do remetente à lista de bloqueio de IP do filtro de conexão:
 
-1. Obtenha os cabeçalhos da mensagem que você deseja bloquear em seu cliente de email, como o Outlook ou o Outlook na Web (anteriormente conhecido como Outlook Web App), conforme descrito em [Analisador de cabeçalho de mensagem](https://go.microsoft.com/fwlink/p/?LinkId=306583).
+1. Obtenha os cabeçalhos da mensagem que você deseja bloquear em seu cliente de email, como o Outlook ou o Outlook na Web (anteriormente conhecido como Outlook Web App), conforme descrito em [Exibir cabeçalhos de mensagens da Internet no Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 
 2. Procure o endereço IP após a marca CIP no cabeçalho X-Forefront-Antispam-Report usando o [Analisador de cabeçalho de mensagem](https://testconnectivity.microsoft.com/?tabid=mha) ou manualmente.
 
@@ -49,7 +49,7 @@ O spam é, em grande parte, emails em massa, por exemplo, boletins informativos 
 
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>Os usuários de email também podem ajudar a garantir que os falsos negativos e spams sejam bloqueados com o filtro de spam do Office 365
 
-Instruir seus usuários a adicionar o endereço do remetente de spam à lista de remetentes bloqueados no [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) ou no [Outlook na web](https://go.microsoft.com/fwlink/p/?LinkId=294862) ajudará em suas iniciativas contra spam no Office 365 a fim de impedir falsos negativos e lixo eletrônico. No Outlook na web, comece clicando em **Configurações** \> **Opções** \> **Bloquear ou permitir** e adicione o endereço à lista de **Remetentes bloqueados**, conforme mostrado aqui.
+Instruir seus usuários a adicionar o endereço do remetente de spam à lista de remetentes bloqueados no [Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) ou no [Outlook na web](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d) ajudará em suas iniciativas contra spam no Office 365 a fim de impedir falsos negativos e lixo eletrônico. No Outlook na web, comece clicando em **Configurações** \> **Opções** \> **Bloquear ou permitir** e adicione o endereço à lista de **Remetentes bloqueados**, conforme mostrado aqui.
 
 ![Bloquear um remetente no Outlook na web](../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 
