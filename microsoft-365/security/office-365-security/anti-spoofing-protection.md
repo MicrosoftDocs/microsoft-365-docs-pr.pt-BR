@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: 182b422f5ebfac440777eeb975732fe7cd48822b
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 5685fc29f97c9aa41e472926c4e1f26bfcfd1432
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871977"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971989"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -103,7 +103,7 @@ Authentication-Results:
 |||
 |:-----|:-----|
 |**Motivo**|**Descrição**|
-|0xx |A mensagem foi reprovada na autenticação composta.<br/>**000** significa que a mensagem foi reprovada no DMARC com uma ação de rejeição ou quarentena.  <br/>**001** significa que a mensagem foi reprovada na autenticação de email implícita. Isso significa que o domínio de envio não tinha registros de autenticação de email publicados ou, se os tinha, eles usavam uma política de falha mais fraca (falha não grave do SPF ou neutra; política do DMARC de p=nenhum).  <br/>**002** significa que a organização tem uma política para o par remetente/domínio, que é explicitamente proibido de enviar emails falsificados. Essa configuração é definida manualmente por um administrador.  <br/>**010** significa que a mensagem foi reprovada no DMARC com uma ação de rejeição ou quarentena, e o domínio de envio é um dos domínios aceitos de sua organização (isso faz parte da falsificação self-to-self ou dentro da organização). <br/> |
+|0xx |A mensagem foi reprovada na autenticação composta.<br/>**000** significa que a mensagem foi reprovada no DMARC com uma ação de rejeição ou quarentena.  <br/>**001** significa que a mensagem foi reprovada na autenticação de email implícita. Isso significa que o domínio de envio não tinha registros de autenticação de email publicados ou, se os tinha, eles usavam uma política de falha mais fraca (falha não grave do SPF ou neutra; política do DMARC de p=nenhum).  <br/>**002** significa que a organização tem uma política para o par remetente/domínio, que é explicitamente proibido de enviar emails falsificados. Essa configuração é definida manualmente por um administrador.  <br/>**010** significa que a mensagem foi reprovada no DMARC com uma ação de rejeição ou quarentena, e o domínio de envio é um dos domínios aceitos de sua organização (isso faz parte da falsificação self-to-self ou dentro da organização).|
 |1xx, 2xx, 3xx, 4xx e 5xx|Corresponde a vários códigos internos que indicam o motivo pelo qual uma mensagem foi aprovada na autenticação implícita ou não teve autenticação, mas nenhuma ação foi aplicada.|
 |6xx|Significa que a mensagem foi reprovada na autenticação de email implícita e o domínio de envio é um dos domínios aceitos de sua organização (isso faz parte da falsificação self-to-self ou dentro da organização).|
 
@@ -257,9 +257,9 @@ Há várias maneiras diferentes de falsificar uma mensagem (confira [Diferenciar
 
 |**Tipo de falsificação**|**Categoria**|**Dica de segurança adicionada?**|**Aplica-se a**|
 |:-----|:-----|:-----|:-----|
-|Reprovação no DMARC (quarentena ou rejeição)  <br/> |HSPM (padrão); também pode ser SPM ou PHSH  <br/> |Não (ainda não)  <br/> |Todos os clientes do Office 365, Outlook.com  <br/> |
-|Self-to-self  <br/> |SPM  <br/> |Sim  <br/> |Todas as organizações do Office 365, Outlook.com  <br/> |
-|Entre domínios  <br/> |SPOOF  <br/> |Sim  <br/> |Clientes da Proteção Avançada contra Ameaças do Office 365 e E5  <br/> |
+|Reprovação no DMARC (quarentena ou rejeição)|HSPM (padrão); também pode ser SPM ou PHSH|Não (ainda não)|Todos os clientes do Office 365, Outlook.com|
+|Self-to-self|SPM|Sim|Todas as organizações do Office 365, Outlook.com|
+|Entre domínios|SPOOF|Sim|Clientes da Proteção Avançada contra Ameaças do Office 365 e E5|
 
 ### <a name="changing-your-anti-spoofing-settings"></a>Alterar suas configurações antifalsificação
 
@@ -319,8 +319,8 @@ Você só deverá desabilitar a proteção antifalsificação se tiver outro ser
 ```powershell
 $defaultAntiphishPolicy = Get-AntiphishiPolicy | ? {$_.IsDefault $true}
 Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnforcement $false
-
 ```
+
 > [!IMPORTANT]
 > Se o primeiro salto no caminho de email for o Office 365 e você estiver recebendo muitos emails legítimos marcados como falsificação, primeiro configure os remetentes com permissão para enviar e-mails falsificados para seu domínio (confira a seção *"Gerenciar remetentes legítimos que estão enviando emails não autenticados"*). Se você ainda está recebendo muitos falsos positivos (ou seja, mensagens legítimas marcadas como falsificação), NÃO recomendamos desabilitar a proteção antifalsificação. Em vez disso, recomendamos escolher a proteção Básica em vez de Alta. É melhor trabalhar com falsos positivos do que expor sua organização a emails falsificados, o que poderia acabar acarretando custos significativamente mais altos em longo prazo.
 
@@ -330,15 +330,15 @@ O Office 365 mantém o controle de quem está enviando emails não autenticados 
 
 No entanto, como administrador, você pode especificar quais remetentes têm permissão para enviar emails falsificados, substituindo a decisão do Office 365.
 
-**Método 1 ‒ se sua organização possui o domínio, configure a autenticação de email**
+#### <a name="method-1---if-your-organization-owns-the-domain-set-up-email-authentication"></a>Método 1 ‒ se sua organização possui o domínio, configure a autenticação de email
 
 Esse método pode ser usado para resolver o spoofing dentro da organização e o spoofing entre domínios, nos casos em que você possui ou interage com vários locatários. Também ajuda a resolver a falsificação entre domínios, em que você envia a outros clientes no Office 365 e também a terceiros hospedados em outros provedores.
 
 Para obter mais detalhes, confira [Clientes do Office 365](#customers-of-office-365).
 
-**Método 2 ‒ use a Inteligência contra Falsificação para configurar os remetentes permitidos de emails não autenticados**
+#### <a name="method-2---use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email"></a>Método 2 ‒ use a Inteligência contra Falsificação para configurar os remetentes permitidos de emails não autenticados
 
-Você também pode usar a [Inteligência contra Falsificação](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) para permitir que os remetentes transmitam mensagens não autenticadas para sua organização.
+Você também pode usar a [Inteligência contra Falsificação](learn-about-spoof-intelligence.md) para permitir que os remetentes transmitam mensagens não autenticadas para sua organização.
 
 Para domínios externos, o usuário falsificado é o domínio no endereço De, enquanto a infraestrutura de envio é o endereço IP de envio (dividido em /24 intervalos CIDR) ou o domínio organizacional do registro PTR (na captura de tela a seguir, o IP de envio pode ser 131.107.18.4, cujo registro PTR é outbound.mail.protection.outlook.com, e isso seria exibido como outlook.com para a infraestrutura de envio).
 
@@ -373,13 +373,13 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
 
 Agora isso permitirá que bing.com envie emails não autenticados de \*.outlook.com.
 
-**Método 3 ‒ crie uma entrada de permissão para o par emissor/destinatário**
+#### <a name="method-3---create-an-allow-entry-for-the-senderrecipient-pair"></a>Método 3 ‒ crie uma entrada de permissão para o par emissor/destinatário
 
 Você também pode optar por ignorar toda a filtragem de spam para determinado remetente. Para obter mais detalhes, confira [Como adicionar com segurança um remetente a uma lista de permissões no Office 365](https://blogs.msdn.microsoft.com/tzink/2017/11/29/how-to-securely-add-a-sender-to-an-allow-list-in-office-365/).
 
 Se você usar esse método, ele ignorará o spam e alguns dos filtros de phishing, mas não a filtragem de malware.
 
-**Método 4 ‒ entre em contato com o remetente e peça que ele configure a autenticação de email**
+#### <a name="method-4---contact-the-sender-and-ask-them-to-set-up-email-authentication"></a>Método 4 ‒ entre em contato com o remetente e peça que ele configure a autenticação de email
 
 Devido ao problema de spam e phishing, a Microsoft recomenda que todos os remetentes configurem a autenticação de email. Se você conhece um administrador do domínio de envio, entre em contato com ele e solicite que ele configure registros de autenticação de email para que você não precise adicionar nenhuma substituição. Para obter mais informações, confira [Administradores de domínios que não são clientes do Office 365](#administrators-of-domains-that-are-not-office-365-customers) mais adiante neste artigo.
 
@@ -654,7 +654,7 @@ A tecnologia antifalsificação da Microsoft foi implantada inicialmente nas org
 
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
-Você pode usar o [Suplemento para Relatar Mensagens para o Outlook](https://support.office.com/article/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2) ou, se não estiver instalado, [Enviar mensagens de spam, não spam e de phishing à Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Você pode usar o [Suplemento para Relatar Mensagens para o Outlook](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) ou, se não estiver instalado, [Enviar mensagens de spam, não spam e de phishing à Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
 
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>Sou um administrador de domínio que não sabe quem são todos os meus remetentes!
 
