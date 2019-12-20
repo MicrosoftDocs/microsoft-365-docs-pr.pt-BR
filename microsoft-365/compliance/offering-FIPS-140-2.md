@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4921fdaa2c6dc7199adb810f5320972f0c1ef8db
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: c87618648c4b34553312a91d5633164fee316e52
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859821"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804994"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Publicação 140-2 do FIPS (Federal Information Processing Standard)
 
@@ -32,7 +33,7 @@ A Microsoft mantém um compromisso ativo para atender aos requisitos 140-2, com 
 
 Para obter informações técnicas sobre módulos de criptografia do Microsoft Windows, a política de segurança para cada módulo e o catálogo de detalhes do certificado do CMVP, consulte o [Windows and Windows Server FIPS 140-2 Content](https://aka.ms/AA6ehud).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 Embora a atual orientação de implementação do CMVP FIPS 140-2 impede uma validação FIPS 140-2 para um serviço de nuvem propriamente dito; os provedores de serviços de nuvem podem optar por obter e operar os módulos de criptografia validados pelo FIPS 140 para os elementos computacionais que compõem o serviço na nuvem. Os serviços online da Microsoft que incluem componentes, que foram validados pelo FIPS 140-2, entre outros:
 
@@ -83,7 +84,7 @@ Estes são dois padrões de segurança separados com finalidades diferentes, mas
 - [Requisitos de segurança do FIPS pub 140-2 para módulos de criptografia](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [Programa de validação do módulo de criptografia do NIST](https://csrc.nist.gov/groups/STM/cmvp/index.html)
 - [Windows, Windows Server e FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

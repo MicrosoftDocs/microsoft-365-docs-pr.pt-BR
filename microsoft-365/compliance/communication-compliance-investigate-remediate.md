@@ -1,5 +1,6 @@
 ---
 title: Investigar e corrigir alertas de conformidade em comunicações (visualização)
+description: Investigue e corrija os alertas de conformidade de comunicação no Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,13 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Investigue e corrija os alertas de conformidade de comunicação no Microsoft 365.
-ms.openlocfilehash: 336ce22813b60a4543941b18e11acf525570bb26
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 322e74b846cc574b52708627d5f59dde3cfe9e80
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633680"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807380"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>Investigar e corrigir alertas de conformidade em comunicações (visualização)
 

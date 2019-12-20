@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 12af7c84a922e3db0b7d234dce6f4095ba062a64
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7e5d72b6a8992b8db91820c04b451979b474aeb9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39860031"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805414"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>Não há um Comitê sobre a instrução de sistemas de segurança nacional 1253 (CNSSI 1253)
 
@@ -36,7 +37,7 @@ O Azure governamental atualmente possui uma autorização de alto nível do FedR
   
 A conformidade do governo do Azure com os requisitos exigentes do CNSSI 1253 significa que o Azure pode oferecer aos clientes do setor público nos Estados Unidos uma rica variedade de serviços compatíveis com o CNSSI 1253, permitindo que eles se beneficiem com a economia de custos e com o rigoroso segurança da nuvem da Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 

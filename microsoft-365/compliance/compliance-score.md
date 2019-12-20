@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: f604f52fd66664aeb1b61fb873cfe40e8f48115c
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: c13b4e345f5ab9bee7a0edd134aea73c23d84036
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684739"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806654"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -108,16 +108,18 @@ Os modelos pré-configurados de Pontuação de conformidade são:
 
 1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-5. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-6. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+6. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+7. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
 8. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077) 
-8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
-9. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
-10. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
-11. [Lei de privacidade do consumidor da Califórnia (CCPA)-visualização](https://go.microsoft.com/fwlink/?linkid=2108871)
-12. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
+10. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
+11. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
+12. [Lei de privacidade do consumidor da Califórnia (CCPA)](https://go.microsoft.com/fwlink/?linkid=2108871) (visualização)
+13. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
+14. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 > [!NOTE]
 > Durante a visualização pública, acesse o Gerenciador de conformidade para criar e gerenciar seus modelos.

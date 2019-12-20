@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Use o novo recurso de importação inteligente no serviço de importação do Office 365 para filtrar os itens que realmente são importados para as caixas de correio de destino. A importação inteligente permite que você decida de forma proativa quais dados importar e o que deixar atrás. A importação inteligente também fornece informações sobre os dados que você está importando para o Office 365. '
-ms.openlocfilehash: 2e012159f7f278dc10db14b07531686b5d130fd9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e070c32814e8f5a34a90a12dfcd4148199731d66
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072625"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967344"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>Filtrar dados ao importar arquivos PST para o Office 365
 
@@ -49,7 +49,7 @@ O gráfico a seguir mostra o processo de importação inteligente e realça as t
     
   - [Usar o carregamento de rede para importar arquivos PST para o Office 365](use-network-upload-to-import-pst-files.md)
     
-  - [Usar o envio de unidade para importar arquivos PST para o Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md)
+  - [Usar o envio de unidade para importar os arquivos PST para o Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md)
     
 - Após criar um trabalho de importação usando o carregamento de rede, o status do trabalho de importação na página de importação no centro de conformidade do & de segurança é definido como **análise em andamento**, o que significa que o Office 365 está analisando os dados nos arquivos pst que você carregou. Clique ****![em atualizar](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar o status do trabalho de importação. 
     
@@ -59,21 +59,21 @@ O gráfico a seguir mostra o processo de importação inteligente e realça as t
 
 Depois de criar um trabalho de importação de PST, siga estas etapas para filtrar os dados antes de importá-los para o Office 365.
   
-1. Acesse [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador na sua organização do Office 365. 
+1. Vá para [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
-2. Clique em **importação**de **governança** \> de dados.
+2. Clique em **importação** \> de **governança** \> de informações importar **arquivos PST**.
     
-    Os trabalhos de importação de sua organização estão listados na página **importar** . Observe que o valor de **análise concluída** na coluna **status** indica os trabalhos de importação que foram analisados pelo Office 365 e que estão prontos para importação. 
+    Os trabalhos de importação de sua organização estão listados na página **importar arquivos PST** . Observe que o valor de **análise concluída** na coluna **status** indica os trabalhos de importação que foram analisados pelo Office 365 e que estão prontos para importação. 
     
     ![O status de conclusão da análise indica que o Office 365 analisou os dados nos arquivos PST](media/de5294f4-f0ba-4b92-a48a-a4b32b6da490.png)
   
 3. Clique em **pronto para importar para o Office 365** para o trabalho de importação que você deseja concluir. 
     
-    Uma página de sobrevôo é exibida com informações sobre os arquivos PST e outras informações sobre o trabalho de importação.
+    Uma página com submenu é exibida com informações sobre os arquivos PST e outras informações sobre o trabalho de importação.
     
 4. Clique em **importar para o Office 365**.
     
-    O **filtro em que sua página de dados** é exibida. Ele contém insights de dados sobre os dados nos arquivos PST para o trabalho de importação, incluindo informações sobre a idade dos dados. 
+    A página **Filtrar seus dados** é exibida. Ele contém insights de dados sobre os dados nos arquivos PST para o trabalho de importação, incluindo informações sobre a idade dos dados. 
     
     ![A página Filtrar seus dados mostra as informações de dados dos arquivos PST para o trabalho de importação](media/3b537ec0-25a4-45a4-96d5-a429e2a33128.png)
   
@@ -120,7 +120,7 @@ Depois de criar um trabalho de importação de PST, siga estas etapas para filtr
     
     b. Na página **importar dados para o Office 365** , clique em **importar dados** para iniciar a importação. Observe que a quantidade total de dados que serão importados é exibida. 
     
-6. Na página **importar** , clique em **Atualizar** ![atualização](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png). O status do trabalho de importação é exibido na coluna **status** . 
+6. Na página **importar arquivos PST** , clique em **Atualizar** ![atualização](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png). O status do trabalho de importação é exibido na coluna **status** . 
     
 7. Clique em importar o trabalho para exibir informações mais detalhadas, como o status de cada arquivo PST e as configurações de filtro que você configurou.
 

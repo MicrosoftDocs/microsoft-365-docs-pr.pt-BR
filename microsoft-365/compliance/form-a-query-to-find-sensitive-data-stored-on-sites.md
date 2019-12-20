@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com a prevenção de perda de dados (DLP) no SharePoint Online, você pode descobrir documentos que contêm dados confidenciais em todo o locatário. Após descobrir os documentos, você pode trabalhar com os proprietários do documento para proteger os dados. Este tópico pode ajudá-lo a formar uma consulta para procurar dados confidenciais.
-ms.openlocfilehash: 0cf5d0446d8f12560e8fd7b0948dc5b6ce2bbe0f
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: 66cf1f5c4072422c3de8572a5bf4b6f39755cff3
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684910"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823643"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>Criar uma consulta para encontrar dados confidenciais armazenados em sites
 
@@ -74,7 +74,7 @@ Os exemplos a seguir usam diferentes tipos confidenciais, propriedades e operado
 
 Nem todas as consultas são criadas da mesma forma. A tabela a seguir fornece exemplos de consultas que não funcionam com DLP no SharePoint e descreve o porquê.
   
-|**Consulta incompatível**|**Motivo**|
+|**Consulta incompatível**|**Reason**|
 |:-----|:-----|
 | `SensitiveType:"Credit Card Number|.."` <br/> |Você deve adicionar pelo menos um serviço.  <br/> |
 | `SensitiveType:"NotARule"` <br/> |"NotARule" não é um nome de tipo confidencial válido. Somente os nomes no [inventário de tipos de informações confidenciais](https://go.microsoft.com/fwlink/?LinkID=509999) funcionam em consultas de DLP.  <br/> |
@@ -88,7 +88,7 @@ Nem todas as consultas são criadas da mesma forma. A tabela a seguir fornece ex
 
 [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
   
-[Executar uma pesquisa de conteúdo no centro de conformidade &amp; de segurança do Office 365](run-a-content-search-in-the-security-and-compliance-center.md)
+[Executar uma Pesquisa de Conteúdo](content-search.md)
   
 [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
   

@@ -1,5 +1,6 @@
 ---
-title: Configurar políticas de supervisão no Office 365
+title: Configurar políticas de supervisão
+description: Configurar a supervisão de comunicação para o Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,15 +16,15 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Configurar a supervisão de comunicação para o Office 365
-ms.openlocfilehash: 694f35fd42fb534292130695efa12bacc114713c
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+titleSuffix: Office 365 Compliance
+ms.openlocfilehash: 67e7d1a8fe1ca2f64031cab9bdee72ac22c70886
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38684918"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806624"
 ---
-# <a name="configure-supervision-policies-for-office-365"></a>Configurar políticas de supervisão no Office 365
+# <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 
 > [!IMPORTANT]
 > Este tópico se aplica à configuração de políticas de supervisão em uma assinatura do Office 365. Se você quiser configurar a conformidade de comunicações para uma assinatura do Microsoft 365, confira [Configurar a conformidade de comunicações no Microsoft 365 (versão prévia)](communication-compliance-configure.md).

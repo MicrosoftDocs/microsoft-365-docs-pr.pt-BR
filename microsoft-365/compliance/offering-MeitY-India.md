@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b5fb48ebaf16d2f7c17645c347185326cde6eefa
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 5ec81552de43d2e67a4987b0efbaf5582be26e40
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859571"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804444"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>Ministério da tecnologia de informações e eletrônicos (MeitY)
 
@@ -38,10 +39,11 @@ Em novembro de 2017, a Microsoft tornou-se um dos primeiros provedores de servi�
 
 A capacitação de MeitY da Microsoft foi o resultado de uma auditoria rigorosa conduzida pela Directorate de análise de análise e teste de qualidade (STQC), uma organização governamental que oferece serviços de garantia de qualidade, usando uma estrutura de avaliação com base no trabalho da iniciativa de nuvem do MeghRaj. Por meio do Microsoft Azure, as organizações do setor público podem agora desenhar em uma ampla variedade de modelos de implantação e ofertas de serviços, incluindo a infraestrutura como serviço (IaaS), plataforma como serviço (PaaS), recuperação de desastres, DevOps e backup gerenciado.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Intune
+- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -58,7 +60,7 @@ Tornar os serviços do governo disponíveis para o cidadãos online é uma parte
 - [Ministério de eletrônicos e tecnologia de informações](https://meity.gov.in/)
 - [Iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Provedores de serviços de nuvem credenciados](https://meity.gov.in/content/gi-cloud-meghraj)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

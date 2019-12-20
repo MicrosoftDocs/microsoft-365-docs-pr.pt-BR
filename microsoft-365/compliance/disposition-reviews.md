@@ -1,7 +1,7 @@
 ---
 title: Visão geral das revisões de disposição
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: 22079fc92cabc902cd7afee7e187b7e186aa2328
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 55a6f52a92c23d8c7fc2464c846faf730617ef2f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071926"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806064"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 
@@ -116,7 +116,7 @@ Na página de **disposição pendente** , você pode exibir as desposições pen
   
 - A **disposição pendente** mostra itens que atingiram o final do período de retenção e exigem uma revisão de disposição. Após a revisão de cada item, decida se deseja aplicar um rótulo de retenção diferente a ele, estenda o período de retenção ou exclua-o permanentemente. Você pode selecionar vários itens.
     
-- A guia **itens descartados** mostra que as reposições foram aprovadas para exclusão durante uma revisão de disposição e agora estão em processo de exclusão permanente. Os itens que tiveram um rótulo de retenção diferente aplicado ou seu período de retenção estendido como parte de uma revisão não aparecerão aqui.
+- A guia **itens descartados** mostra que as desposições foram aprovadas para exclusão durante uma revisão de disposição e agora estão no processo de ser permanentemente excluída ou itens marcados como registros que foram excluídos. Os itens que tiveram um rótulo de retenção diferente aplicado ou seu período de retenção estendido como parte de uma revisão não aparecerão aqui.
 
 ![Guias de disposição](media/Retention-Disposition-tabs.png)
     

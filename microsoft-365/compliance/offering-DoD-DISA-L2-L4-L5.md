@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: d805c5dab7e8ebeb31ea94895356a6529bcd970d
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 2fa27680dcc9e0ee7fb495164683a291cc167d59
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859951"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805224"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -55,17 +56,17 @@ Com base em autorizações do FedRAMP, o suporte ao serviço de nuvem do DISA re
 
 O nível 2 de impacto cobre informações não controladas, dados que são autorizados para lançamento público. Ele também aborda outras informações não classificadas que, embora não sejam consideradas "de missão crítica", ainda exigem um nível mínimo de controle de acesso. Essa autorização permite que os clientes do governo norte-americano da empresa implantem informações não confidenciais e aplicativos básicos de defesa e sites em serviços de nuvem da Microsoft em escopo.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Serviços cobertos para o nível de impacto de DoD 5
 
 - [Governo do Azure para DoD](https://aka.ms/AzureCompliance)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-4"></a>Serviços cobertos para o nível 4 de impacto do DoD
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>Serviços cobertos para o nível 2 de impacto do DoD
 

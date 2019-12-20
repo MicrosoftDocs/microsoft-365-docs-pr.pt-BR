@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8d6314b7a2adf3f677c8343ddece9cb27bff073e
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7a402b880778a1644d63dfcdbe73ecc96f61f5be
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859241"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805534"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Autoridade de regulamentação Prudential australiana (APRA)
 
@@ -48,7 +49,7 @@ Ao confiar em nossa abordagem abrangente para a garantia de risco na nuvem, temo
 
 Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em conformidade com as regulamentações do APRA: [baixar uma lista de verificação de conformidade para instituições financeiras na Austrália](https://aka.ms/microsoftaprachecklistjun17)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -77,7 +78,7 @@ Sim. A legislação de privacidade geral (que se aplica a todos os setores, não
 - [Programa de Conformidade para Serviços Financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
 - [Conformidade de serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3ee932493aca94109381edde1b2df0aae342a4c2
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6b1b852ee79b377b5d67ada8a5a4de602a74e466
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859851"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805025"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conselho Federal de análise de instituições financeiras (FFIEC)
 
@@ -39,7 +40,7 @@ Para ajudar os clientes da instituição financeira a atender aos requisitos de 
 
 Para ajudá-lo a atender aos requisitos do FFIEC, os serviços de nuvem da Microsoft fornecem [relatórios de atestado de SOC](offering-SOC.md) produzidos por uma firma CPA independente. Por exemplo, o atestamento do tipo 2 do SOC 1 é baseado no AICPA SSAE 18 Standard (consulte AT-C seção 105) que substituiu a SAS 70 e é apropriado para relatar certos controles para relatórios financeiros. Os relatórios do SOC incluem a opinião do auditor sobre a eficácia dos controles da Microsoft em atingir os objetivos de controle relacionados durante o período de monitoramento especificado. As instituições financeiras podem usar essa auditoria formal ao obter obrigações de conformidade específicas de FFIEC para ativos implantados no Azure, no Power BI e no Office 365.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune

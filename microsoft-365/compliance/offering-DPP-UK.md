@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3adc0bcc75886476de9f088c1f539c63fe4e4be8
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b49a898c3a517b6c9468478ad7b7eddeeee1755c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859961"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805234"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>Parceria de produção digital (DPP) Reino Unido
 
@@ -32,7 +33,7 @@ O Microsoft Azure recebeu a DPP comprometida com a marca de segurança para tran
   
 Isso significa que os difundidores e outros clientes de mídia que usam o Azure podem ter certeza de que seu serviço robusto e de segurança pode ajudar a atender às demandas exclusivas do setor de transmissão, do desenvolvimento de programas à transmissão.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 
@@ -52,7 +53,7 @@ A marca de transmissão do Azure é válida por um ano e renovada anualmente.
 
 - [DPP confirmado no programa de segurança Guia do usuário da lista de verificação de transmissão](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
 - [NABA e DPP de transmissores para promover requisitos de segurança da CyberSource para fornecedores](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização do Office 365
+title: Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,14 +17,14 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão no Office 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: 801f97b658df08cd3c548c6aed99018a8613b473
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6da5d9bc180623778925697419f0ca39acee9185
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685006"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967764"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização do Office 365
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365
 
  No Office 365, os administradores podem criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente os itens da caixa de correio. O administrador faz isso criando uma política de retenção que é atribuída às caixas de correio e move itens para a caixa de correio de arquivo morto de um usuário depois de um determinado período de tempo e que também exclui itens da caixa de correio depois que eles atingem um determinado limite de idade. As regras reais que determinam quais itens são movidos ou excluídos e quando isso acontece é chamado de marcas de retenção. As marcas de retenção são vinculadas a uma política de retenção, que, por sua vez, é atribuída à caixa de correio de um usuário. Uma marca de retenção aplica configurações de retenção a mensagens e pastas individuais na caixa de correio de um usuário. Define por quanto tempo uma mensagem permanece na caixa de correio e qual ação é executada quando a mensagem atinge a idade de retenção especificada. Quando uma mensagem atinge sua idade de retenção, ela é movida para a caixa de correio de arquivo morto do usuário ou ela é excluída. 
   
@@ -64,7 +64,7 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
 2. Sign in to Office 365 using your global administrator account.
     
     
-3. No centro de conformidade & segurança, vá para **** \> **arquivo morto**de governança de dados.
+3. No centro de conformidade & segurança, vá para o **arquivo**de **governança** \> de informações.
     
     Uma lista das caixas de correio em sua organização é exibida e se a caixa de correio de arquivo morto correspondente está habilitada ou desabilitada. 
     
@@ -309,7 +309,7 @@ Na etapa 4, você precisa atribuir a nova política de retenção a caixas de co
     
 - A tabela a seguir fornece mais informações sobre cada marca de retenção que é adicionada à política de retenção personalizada que foi criada seguindo as etapas deste tópico.
     
-    |**Marca de retenção**|**O que essa marca faz**|**Interno ou personalizado?**|**Tipo**|
+    |**Marca de retenção**|**O que essa marca faz**|**Interno ou personalizado?**|**Type**|
     |:-----|:-----|:-----|:-----|
     |Mover para arquivo morto da Alpine House 3 anos  <br/> |Move itens que são 1095 dias (3 anos) de idade para a caixa de correio de arquivo morto.  <br/> |Personalizado (consulte [etapa 2: criar novas marcas de retenção para as políticas de arquivo morto e exclusão](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies))  <br/> |Marca de política padrão (arquivo morto); Essa marca é aplicada automaticamente à caixa de correio inteira.  <br/> |
     |Alpine House 7 ano excluir permanentemente  <br/> |Exclui permanentemente os itens na caixa de correio principal ou na caixa de correio de arquivo morto quando eles têm 7 anos de idade.  <br/> |Personalizado (consulte [etapa 2: criar novas marcas de retenção para as políticas de arquivo morto e exclusão](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies))  <br/> |Marca de política padrão (exclusão); Essa marca é aplicada automaticamente à caixa de correio inteira.  <br/> |

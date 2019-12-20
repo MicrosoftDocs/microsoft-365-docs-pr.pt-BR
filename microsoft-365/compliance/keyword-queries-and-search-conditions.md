@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar em caixas de correio do Exchange Online e em sites do SharePoint ou do OneDrive for Business usando a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança.  '
-ms.openlocfilehash: c4135e52f88f72cde171cbc6c897359cd8e13e05
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 5c5aafebf0dabfd43487c0c410088fe2a50aef35
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699681"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808496"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -50,7 +50,7 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
   
 |**Propriedade**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
-|Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*`|Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo.|
+|Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames:. pptx|Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo. O terceiro exemplo retorna todos os anexos com a extensão de arquivo PPTX.|
 |Cco|O campo Cco de uma mensagem de email. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Todos os exemplos retornam mensagens com Brenda Fernandes incluída no campo Cco.|
 |Categoria| As categorias a serem pesquisadas. As categorias podem ser definidas por usuários usando o Outlook ou o Outlook na Web (anteriormente conhecido como Outlook Web App). Os valores possíveis são:  <br/><br/>  azuis  <br/>  natureza  <br/>  laranja  <br/>  roxa  <br/>  vermelha  <br/>  amarelo|`category:"Red Category"`|Mensagens que foram atribuídas à categoria vermelho nas caixas de correio de origem. |
 |Cc|O campo CC de uma mensagem de email. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|Em ambos os exemplos, as mensagens com Pilar Fernandes especificadas no campo CC.|
@@ -192,7 +192,7 @@ Crie uma condição usando propriedades comuns ao pesquisar caixas de correio e 
 |Remetente/autor|Para email, a pessoa que enviou uma mensagem. Para documentos, a pessoa citada no campo autor de documentos do Office. Você pode digitar mais de um nome, separado por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador **OR**.|
 |Tamanho (em bytes)|Para emails e documentos, o tamanho do item (em bytes).|
 |Assunto/título|Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Como explicado anteriormente, a propriedade Title é Metadata especificado em documentos do Microsoft Office. Você pode digitar o nome de mais de um assunto/título, separados por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador **OR**.|
-|Marca de conformidade|Para emails e documentos, rótulos que foram atribuídos a mensagens e documentos automaticamente por políticas de rótulo ou rótulos que foram atribuídos manualmente pelos usuários. Os rótulos são usados para classificar emails e documentos para governança de dados e aplicar regras de retenção com base na classificação definida pelo rótulo. Você pode digitar parte do nome do rótulo e usar um caractere curinga ou digitar o nome completo do rótulo. Para obter mais informações, consulte [visão geral dos rótulos no Office 365](labels.md).|
+|Rótulo de conformidade|Para emails e documentos, rótulos de retenção que foram atribuídos a mensagens e documentos automaticamente por políticas de rótulo ou rótulos de retenção que foram atribuídos manualmente pelos usuários. Os rótulos de retenção são usados para classificar emails e documentos para controle de informações e aplicar regras de retenção com base nas configurações definidas pelo rótulo. Você pode digitar parte do nome do rótulo de retenção e usar um caractere curinga ou digitar o nome completo do rótulo. Para obter mais informações, consulte [visão geral dos rótulos de retenção](labels.md).|
 |||
   
 ### <a name="conditions-for-mail-properties"></a>Condições para propriedades de email
@@ -313,7 +313,6 @@ O exemplo retorna itens de email ou documentos que contêm a palavra-chave "rela
  `report AND (date<2016-04-01) AND (subjecttitle:"northwind") NOT (filetype="aspx")`
   
 #### <a name="example-3"></a>Exemplo 3
-<a name="conditionexamples"> </a>
 
 Este exemplo retorna mensagens de email ou reuniões de calendário que foram enviadas entre 12/1/2016 e 11/30/2016 e que contêm palavras que começam com "Phone" ou "smartphone".
   

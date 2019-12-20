@@ -11,13 +11,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: A Microsoft 365 vem pronto para usar os classificadores de aprendizado de máquina que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores prontos para usar.
-ms.openlocfilehash: 7e10bb94f84dd10a1ac22126106531d8ad309c47
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+description: A Microsoft 365 vem com uma série de para usar os classificadores de aprendizado de máquina que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores prontos para usar.
+ms.openlocfilehash: 6eaa3689dce1bfb37fdad6b1b22dcac3539bb31e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633850"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807410"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>Usando um classificador pronto para uso (visualização)
 
@@ -34,7 +34,7 @@ A Microsoft treinou e testou vários classificadores usando conjuntos de dados d
 > Antes de usar os classificadores pronto para usar no seu fluxo de trabalho de classificação e rotular, você deve testá-lo em um exemplo de conteúdo da sua organização que você se sente que é a categoria para verificar se suas previsões de classificação atendem às suas expectativas.
 
 > [!IMPORTANT]
-> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável e não são completos ou completos. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores a seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
+> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
 
 ## <a name="how-to-prepare-for-and-use-a-ready-to-use-classifier"></a>Como preparar e usar um classificador pronto para usar
 

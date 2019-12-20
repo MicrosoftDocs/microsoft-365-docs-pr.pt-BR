@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: c50122f390809e145af621ed6341d02ae9c3b8cf
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 556d3994241db65b70feec55ac0f96469f549361
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202352"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962248"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -78,7 +78,7 @@ As atualizações de Pontuação segura podem ser ativadas automaticamente para 
 
 2. Na barra de menus superior do portal de confiança do serviço, selecione **administrador** e, em seguida, escolha **configurações**.
 
-4. Na guia **Pontuação segura** , selecione o botão apropriado para escolher a configuração.
+4. Na guia **Pontuação segura** , selecione o botão apropriado para a configuração escolhida.
 
 **Observação:** Somente o administrador global pode ativar ou desativar as atualizações automáticas para todas as ações. O administrador do Gerenciador de conformidade pode ativar atualizações automáticas para ações individuais, mas não para todas as ações globalmente.
 
@@ -567,7 +567,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 ![Relatório do Excel de avaliação do Gerenciador de conformidade](media/compliance-manager-assessment-report.png)
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

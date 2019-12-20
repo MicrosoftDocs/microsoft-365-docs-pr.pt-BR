@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 267a506881e8eecdf2ded50e9858054c022dfae1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: f5627194ad21b73cae664c808d2bba9f4254d8b5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859971"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805244"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Complemento Defense Federal Acquisition regulamentação DFARS (em inglês)
 
@@ -32,7 +33,7 @@ Os serviços de nuvem do Microsoft governo ajudam os clientes da base industrial
   
 Saiba como acelerar sua implantação do DFARS com o plano de conformidade e segurança do Azure: [Baixe a matriz de responsabilidades do cliente do Azure-Blueprint DFARS](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 Serviços cobertos para o nível de impacto de DoD 5
 
@@ -78,4 +79,4 @@ Além disso, as ofertas da Microsoft fora do limite certificado por FedRAMP que 
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Informações não classificadas controladas (CUI)](https://www.archives.gov/cui/registry/category-list)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

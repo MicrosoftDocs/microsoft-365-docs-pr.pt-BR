@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: f8683fd3b3462a44856266ec0e3bef96829b032c
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 97cbc676f9de070d1532d1e56c96db0efcce8bd0
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633650"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807330"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -51,7 +51,7 @@ Os [grupos](working-with-compliance-manager.md#groups) são contêineres que per
 
 ## <a name="assessments"></a>Avaliações
 
-As [avaliações](working-with-compliance-manager.md#assessments) são contêineres que permitem organizar os controles de responsabilidades compartilhadas entre a Microsoft e sua organização para avaliar os riscos de segurança e conformidade do serviço de nuvem. As avaliações ajudam você a implementar proteções de proteção de dados especificadas por um padrão de conformidade e normas, regulamentos ou leis de proteção de dados aplicáveis. Eles ajudam a discernir sua postura de proteção e conformidade de dados contra o padrão do setor selecionado para o serviço de nuvem da Microsoft selecionado. As avaliações são concluídas pela implementação dos controles incluídos na avaliação que mapeiam para um padrão de certificação.
+As [avaliações](working-with-compliance-manager.md#assessments) são contêineres que permitem organizar os controles com base em responsabilidades compartilhadas entre a Microsoft e sua organização para avaliar os riscos de segurança e conformidade do serviço de nuvem. As avaliações ajudam você a implementar proteções de proteção de dados especificadas por um padrão de conformidade e normas, regulamentos ou leis de proteção de dados aplicáveis. Eles ajudam a discernir sua postura de proteção e conformidade de dados contra o padrão do setor selecionado para o serviço de nuvem da Microsoft selecionado. As avaliações são concluídas pela implementação dos controles incluídos na avaliação que mapeiam para um padrão de certificação.
 
 Por padrão, o Gerenciador de conformidade cria as seguintes Avaliações para sua organização:
 
@@ -124,7 +124,7 @@ Não há mais uma função de **acesso de convidado** padrão. Cada usuário dev
   
 ## <a name="manage-evidence"></a>Gerenciar evidências
 
-O Gerenciador de conformidade pode armazenar evidências de suas tarefas de implementação para executar testes e a validação de controles gerenciados pelo cliente. A evidência inclui documentos, planilhas, capturas de tela, imagens, scripts, arquivos de saída de script e outros arquivos. O Gerenciador de conformidade também recebe automaticamente a telemetria e cria um registro de evidência para itens de ação que estão integrados à pontuação segura. Todos os dados carregados como evidências no gerente de conformidade são armazenados nos Estados Unidos nos sites de armazenamento na nuvem da Microsoft. Esses dados são replicados nas regiões do Azure localizadas no sudeste asiático e na Europa Ocidental.
+O Gerenciador de conformidade pode armazenar evidências de suas tarefas de implementação em torno de testes e validação de controles gerenciados pelo cliente. A evidência inclui documentos, planilhas, capturas de tela, imagens, scripts, arquivos de saída de script e outros arquivos. O Gerenciador de conformidade também recebe automaticamente a telemetria e cria um registro de evidência para itens de ação que estão integrados à pontuação segura. Todos os dados carregados como evidências no gerente de conformidade são armazenados nos Estados Unidos nos sites de armazenamento na nuvem da Microsoft. Esses dados são replicados nas regiões do Azure localizadas no sudeste asiático e na Europa Ocidental.
 
 ## <a name="templates"></a>Modelos
 
@@ -134,16 +134,18 @@ Os modelos pré-configurados incluídos no Gerenciador de conformidade são:
 
 1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-5. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-6. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+6. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+7. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
 8. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077) 
-8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
-9. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
-10. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
-11. [Lei de privacidade do consumidor da Califórnia (CCPA)-visualização](https://go.microsoft.com/fwlink/?linkid=2108871)
-12. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
+10. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
+11. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
+12. [Lei de privacidade do consumidor da Califórnia (CCPA)](https://go.microsoft.com/fwlink/?linkid=2108871) (visualização)
+13. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
+14. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 ## <a name="compliance-score"></a>Pontuação de conformidade
 

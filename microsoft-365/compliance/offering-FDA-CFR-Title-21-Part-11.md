@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7e8d24aecb2343ed03a1d224b21060619426717f
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: adda0e14a5712a4943ee37e029b96aecb0cd7c58
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859871"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805044"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Título da CFR de comida e administração de drogas 21 parte 11
 
@@ -42,7 +43,7 @@ Os clientes podem solicitar acesso aos relatórios de conformidade, sujeitos a t
 
 Saiba como acelerar o título da sua FDA CFR 21 implantação: [baixar o guia de qualificação do Azure FDA 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 Embora não haja certificação para conformidade com o título da CFR 21 parte 11, os seguintes serviços de nuvem corporativa da Microsoft sofreram auditorias independentes, que podem ajudar os clientes em seus esforços de conformidade. Esses serviços incluem:
 

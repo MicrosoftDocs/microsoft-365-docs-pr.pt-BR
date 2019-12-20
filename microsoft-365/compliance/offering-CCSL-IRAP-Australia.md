@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 0b4c31408f14bfca45358086678cb2d4e4f7eaae
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4be943b83d1b2286a01731de87dd2b0af34cb322
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39860081"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805474"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Consultor programa de segurança de informações governamentais da Austrália (IRAP)
 
@@ -60,7 +61,7 @@ Como sempre, os controles adicionais de compensação podem ser implementados em
 
 A avaliação do IRAP dos serviços da Microsoft ajuda a garantir que os clientes do setor público no governo e seus parceiros que a Microsoft possuam controles de segurança adequados e eficazes em vigor para o processamento, o armazenamento e a transmissão de protegidos e as informações classificadas abaixo. Isso inclui a maioria dos dados governamentais, de saúde e de educação na Austrália.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -89,4 +90,4 @@ Comece com o [que é IRAP?](https://www.cyber.gov.au/irap/what-irap) e siga-o co
 - [Página da Austrália do Microsoft Service Trust Portal (STP)](https://aka.ms/au-irap)
 - [Guias de segurança e gateway da Austrália](https://docs.microsoft.com/azure/azure-australia)
 - [Serviços de nuvem certificados pela ASD](https://acsc.gov.au/infosec/irap/certified_clouds.htm)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 795a8b94c53aa94731d6c55786312b1baef6a685
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 1a98b2511e773d8c784e93338fb68850d4d3a779
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859981"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805254"
 ---
 # <a name="united-kingdom-cyber-essentials-plus"></a>Cyber Essentials do Reino Unido PLUS
 
@@ -47,7 +48,7 @@ A [certificação do Azure Cyber Essentials Plus](https://aka.ms/AzureCyberEPlus
 ## <a name="resources"></a>Recursos
 
 - [Esquema do Cyber Essentials: estrutura de garantia](https://www.cyberaware.gov.uk/cyberessentials/files/assurance-framework.pdf)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como os novos recursos de proteção de mensagens no Office 365 funcionam? Verifique se há uma resposta aqui.
-ms.openlocfilehash: f8b92e7156921548499ecbb1876787f63eeb3259
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 8f9621ea440bf089ebc8fa3e35b38ff636657555
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866413"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962558"
 ---
 # <a name="office-365-message-encryption-faq"></a>Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 
@@ -69,10 +69,10 @@ Os novos recursos da criptografia de mensagem do Office 365 são uma evolução 
 
 |**Funcionalidade**|**Versões anteriores do OME**|**IRM**|**Novos recursos do OME**|
 |:-----|:-----|:-----|:-----|
-|**Enviar um email criptografado**|Somente por meio de regras de fluxo de email do Exchange|Usuário final iniciado no Outlook para PC, Outlook para Mac ou Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado no Outlook para PC, Outlook para Mac ou Outlook na Web; ou por meio de regras de fluxo de emails|
+|**Enviar um email criptografado**|Somente por meio de regras de fluxo de email do Exchange|Usuário final iniciado pelo Outlook para Windows, Outlook para Mac ou Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado pelo Outlook para Windows, Outlook para Mac ou Outlook na Web; ou por meio de regras de fluxo de emails|
 |**Gerenciamento de direitos**|-|Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia, modelos padrão e personalizados|
 |**Tipo de destinatário suportado**|Somente destinatários externos|Somente destinatários internos|Destinatários internos e externos|
-|**Experiência para o destinatário**|Destinatários externos receberam uma mensagem HTML que eles baixaram e abriram em um navegador ou aplicativo móvel baixado.|Os destinatários internos receberam apenas emails criptografados no Outlook para PC, no Outlook para Mac e no Outlook na Web.|Destinatários internos e externos recebem emails no Outlook para PC, Outlook para Mac, Outlook na Web, Outlook para Android e Outlook para iOS, ou por meio de um portal da Web, independentemente de estarem ou não na mesma organização do Office 365 ou em qualquer escritório 365 departamento. O portal do OME não requer download separado.|
+|**Experiência para o destinatário**|Destinatários externos receberam uma mensagem HTML que eles baixaram e abriram em um navegador ou aplicativo móvel baixado.|Os destinatários internos receberam apenas emails criptografados no Outlook para Windows, no Outlook para Mac e no Outlook na Web.|Destinatários internos e externos recebem emails no Outlook para Windows, no Outlook para Mac, no Outlook na Web, no Outlook para Android e no Outlook para iOS ou por meio de um portal da Web, independentemente de estarem ou não na mesma organização do Office 365 ou em qualquer escritório 365 departamento. O portal do OME não requer download separado.|
 |**Traga seu próprio suporte de chave**|Não disponível|Não disponível| BYOK com suporte|
 
 ## <a name="how-do-i-enable-the-new-ome-capabilities-for-my-organization"></a>Como habilitar os novos recursos do OME para minha organização?
@@ -93,11 +93,11 @@ Os usuários locais podem enviar mensagens criptografadas usando regras de fluxo
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>Qual cliente de email preciso usar para criar uma mensagem criptografada do OME? Quais aplicativos têm suporte para o envio de mensagens protegidas?
 
-Você pode criar mensagens protegidas do Outlook 2016 e do Outlook 2013 para PC e Mac e do Outlook na Web.
+Você pode criar mensagens protegidas do Outlook 2016 e do Outlook 2013 para Windows e Mac e do Outlook na Web.
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>Quais clientes de email têm suporte para ler e responder a emails protegidos?
 
-Você pode ler e responder do Outlook para PC e Mac (2013 e 2016), Outlook na Web e Outlook Mobile (Android e iOS) se você for um usuário do Office 365. Você também pode usar o cliente de correio nativo do iOS se sua organização permitir. Se você for um usuário não-Office 365, poderá ler e responder a mensagens criptografadas na Web por meio do navegador da Web.
+Você pode ler e responder do Outlook para Windows e Mac (2013 e 2016), Outlook na Web e Outlook Mobile (Android e iOS) se você for um usuário do Office 365. Você também pode usar o cliente de correio nativo do iOS se sua organização permitir. Se você for um usuário não-Office 365, poderá ler e responder a mensagens criptografadas na Web por meio do navegador da Web.
   
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>Quais tipos de arquivo são suportados como anexos em emails protegidos? Os anexos herdam as políticas de proteção associadas a emails protegidos?
 
@@ -135,18 +135,6 @@ Os administradores podem configurar uma regra de fluxo de emails para remover a 
 
 Sim! Você pode configurar regras de fluxo de email no Exchange Online ou usando DLP no centro de &amp; conformidade de segurança.
   
-## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>Posso abrir mensagens criptografadas enviadas para uma caixa de correio compartilhada?
-
-Sim! As mensagens criptografadas têm suporte para uma caixa de correio compartilhada.
-
-- Os usuários podem abrir emails protegidos em uma caixa de correio compartilhada onde a caixa de correio compartilhada recebeu um email protegido como parte de um grupo de distribuição.
-
-- Os usuários podem exibir anexos que herdam a proteção de email quando usam o Outlook para Windows, o Outlook para Mac e o Outlook na Web.
-
-## <a name="is-delegated-access-supported"></a>Há suporte para o acesso delegado?
-
-Não neste momento.
-
 ## <a name="can-i-customize-encrypted-messages-with-my-company-branding"></a>Posso personalizar mensagens criptografadas com a identidade visual da minha empresa?
 
 Sim! Para obter informações sobre como personalizar mensagens de email e o portal do OME, consulte Adicionar a marca da sua organização às mensagens criptografadas. Confira [Adicionar a marca da sua organização às mensagens criptografadas](add-your-organization-brand-to-encrypted-messages.md).
@@ -162,3 +150,32 @@ Sim. Todas as mensagens de email criptografadas são detectáveis pelos recursos
 ## <a name="can-i-remove-encryption-from-email"></a>Posso remover a criptografia de email?
 
 Os administradores podem configurar uma regra de fluxo de emails para remover a criptografia de emails de saída. Não é possível remover a criptografia usando uma regra de fluxo de emails de mensagens de entrada.
+
+## <a name="is-delegated-access-supported"></a>Há suporte para o acesso delegado?
+
+Não neste momento.
+
+## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>Posso abrir mensagens criptografadas enviadas para uma caixa de correio compartilhada?
+
+Sim! As mensagens criptografadas têm suporte para uma caixa de correio compartilhada.
+
+- Os usuários podem abrir emails protegidos em um mMailbox compartilhado, onde a caixa de correio compartilhada recebeu um email protegido como parte de um grupo de distribuição.
+
+- Os usuários podem exibir anexos que herdam a proteção de email quando usam o Outlook para Windows, o Outlook para Mac e o Outlook na Web.
+
+A tabela a seguir lista os clientes com suporte para caixas de correio compartilhadas.
+
+| Plataforma | Ler email | Exibir anexos de email |
+|----------|-----------|------------------------|
+| Outlook na Web | Sim | Sim                |
+| Outlook para Windows| Sim | Sim                |
+| Outlook para Mac    | Sim | Sim                |
+| Outlook para Android| Sim | Não                 |
+| Outlook para iOS    | Sim | Não                 |
+|
+
+Há duas limitações conhecidas no momento:
+
+- Só há suporte para o acesso fornecido pela atribuição direta do usuário à caixa de correio compartilhada. Não há suporte para atribuição por meio de um grupo de segurança habilitado para email.
+
+- Não é possível abrir anexos de emails recebidos em dispositivos móveis usando o Outlook Mobile.

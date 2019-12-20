@@ -1,5 +1,5 @@
 ---
-title: Usar um exemplo de conector para arquivar dados do Twitter no Office 365 (versão prévia)
+title: Usar um exemplo de conector para arquivar dados do Twitter (versão prévia)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados do Twitter para o Office 365. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 86362193b0c64afa182c2f49ff27bd7e5f27935c
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 77f0a0615a177c0bfd6179a6a5ce1a58b024dcdc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615571"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807480"
 ---
-# <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>Usar um exemplo de conector para arquivar dados do Twitter no Office 365 (versão prévia)
+# <a name="use-a-sample-connector-to-archive-twitter-data-preview"></a>Usar um exemplo de conector para arquivar dados do Twitter (versão prévia)
 
 O recurso de conector de exemplo para arquivar dados do Twitter no Office 365 está em visualização.
 

@@ -1,5 +1,6 @@
 ---
-title: Conformidade de comunicação no Microsoft 365 (versão prévia)
+title: Conformidade de comunicação (visualização)
+description: Saiba mais sobre conformidade de comunicação no Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,13 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Saiba mais sobre conformidade de comunicação no Microsoft 365
-ms.openlocfilehash: 8c8e94209d2db575dd8338afa6f4c5c968033683
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 2e54a9d6e0cb74d7e58cda9869548214a7c69582
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633660"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807350"
 ---
 # <a name="communication-compliance-in-microsoft-365-preview"></a>Conformidade de comunicação no Microsoft 365 (versão prévia)
 
@@ -93,7 +93,7 @@ Novos painéis interativos para alertas, correspondências de política, ações
 
 As políticas de conformidade de comunicação verificam e capturam mensagens em vários canais de comunicação para ajudá-lo a analisar e corrigir problemas de conformidade rapidamente:
 
-- **Microsoft Teams**: comunicações de chat e anexos associados para canais do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) públicos e privados e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Agora, as políticas verificam automaticamente todos os canais e equipes do Microsoft Teams para usuários específicos definidos em uma política, eliminando a necessidade de manter uma lista de mapeamento separada para as atribuições do Microsoft Teams.
+- **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Agora, as políticas verificam automaticamente todos os canais e equipes do Microsoft Teams para usuários específicos definidos em uma política, eliminando a necessidade de manter uma lista de mapeamento separada para as atribuições do Microsoft Teams.
 - **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e relatórios de supervisão. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
 - **Skype for Business online**: as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
 - **Fontes de terceiros**: você pode examinar mensagens de [fontes de terceiros](archiving-third-party-data.md) para dados importados em caixas de correio em sua organização do Microsoft 365. A conformidade de comunicação oferece suporte a conexões com várias plataformas populares, incluindo Bloomberg imediato, Facebook, Twitter e outros.
@@ -111,6 +111,9 @@ Identificar e resolver problemas de conformidade com a conformidade de comunica�
 ### <a name="configure"></a>Configurar
 
 Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformidade e configura as políticas de conformidade de comunicação aplicáveis. Os modelos de política são uma ótima maneira de configurar rapidamente uma nova política de conformidade, mas também modificar e atualizar rapidamente as políticas conforme suas necessidades mudam. Por exemplo, você pode querer testar rapidamente uma política para a linguagem ofensiva e o antiassédio em comunicações para um pequeno grupo de usuários antes de configurar uma política para todos os usuários da sua organização.
+
+> [!Important]
+> Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. Para habilitar permissões para recursos de conformidade de comunicação, confira [tornar a conformidade de comunicação disponível em sua organização](communication-compliance-configure.md#step-2-make-communication-compliance-available-in-your-organization-required).
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
