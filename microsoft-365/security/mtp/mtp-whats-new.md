@@ -17,22 +17,22 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b4a8908dec501ecf6c0a7932e0f5662a752a7eef
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 786d6bacdadfeb52ae24363cfdeb4a3346fcf87f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910744"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806910"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="07a46-104">O que há de novo no Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="07a46-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="a47fd-104">O que há de novo no Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="a47fd-104">What's new in Microsoft 365 Security</span></span>
 
-<span data-ttu-id="07a46-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="07a46-105">**Applies to:**</span></span>
-- <span data-ttu-id="07a46-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="07a46-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="a47fd-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="a47fd-105">**Applies to:**</span></span>
+- <span data-ttu-id="a47fd-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="a47fd-106">Microsoft Threat Protection</span></span>
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-<span data-ttu-id="07a46-107">Este tópico abordará os recursos que estão disponíveis para o mercado (GA), na versão mais recente do Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="07a46-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="a47fd-107">Este tópico abordará os recursos que estão disponíveis para o mercado (GA), na versão mais recente do Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="a47fd-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
 
-<span data-ttu-id="07a46-108">Para obter mais informações sobre a visualização prévia de recursos, confira [Visualização prévia de recursos](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="07a46-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
+<span data-ttu-id="a47fd-108">Para obter mais informações sobre a visualização prévia de recursos, confira [Visualização prévia de recursos](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="a47fd-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
 
 

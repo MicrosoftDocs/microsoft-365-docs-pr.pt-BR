@@ -16,51 +16,51 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5c690d07af285b5232d383bb89071c3b64343772
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: edc952a0361ee8cfa6ed3df2eaf80f0fc4bf7fd5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910761"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808456"
 ---
-# <a name="approve-or-reject-pending-actions-from-automated-investigations"></a><span data-ttu-id="0d9ca-104">Aprovar ou rejeitar ações pendentes após a investigações automáticas</span><span class="sxs-lookup"><span data-stu-id="0d9ca-104">Approve or reject pending actions from automated investigations</span></span>
+# <a name="approve-or-reject-pending-actions-from-automated-investigations"></a><span data-ttu-id="a4552-104">Aprovar ou rejeitar ações pendentes após a investigações automáticas</span><span class="sxs-lookup"><span data-stu-id="a4552-104">Approve or reject pending actions from automated investigations</span></span>
 
-<span data-ttu-id="0d9ca-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="0d9ca-105">**Applies to:**</span></span>
-- <span data-ttu-id="0d9ca-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="0d9ca-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="a4552-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="a4552-105">**Applies to:**</span></span>
+- <span data-ttu-id="a4552-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="a4552-106">Microsoft Threat Protection</span></span>
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-<span data-ttu-id="0d9ca-107">Quando uma investigação automatizada é executada, pode resultar em uma ou mais [ações de correção ](mtp-action-center.md#remediation-actions) que exigem aprovação para prosseguir.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-107">When an automated investigation runs, it can result in one or more [remediation actions](mtp-action-center.md#remediation-actions) that require approval to proceed.</span></span> <span data-ttu-id="0d9ca-108">Por exemplo, um cluster de mensagens de email pode precisar ser excluído, ou talvez seja necessário remover um arquivo em quarentena.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-108">For example, a cluster of email messages might need to be deleted, or a quarantined file might need to be removed.</span></span> <span data-ttu-id="0d9ca-109">É importante aprovar (ou rejeitar) ações pendentes o mais rápido possível, para que suas investigações automatizadas possam prosseguir e ser concluídas a tempo.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-109">It's important to approve (or reject) pending actions as soon as possible so that your automated investigations can proceed and complete in a timely manner.</span></span> 
+<span data-ttu-id="a4552-107">Quando uma investigação automatizada é executada, pode resultar em uma ou mais [ações de correção ](mtp-action-center.md#remediation-actions) que exigem aprovação para prosseguir.</span><span class="sxs-lookup"><span data-stu-id="a4552-107">When an automated investigation runs, it can result in one or more [remediation actions](mtp-action-center.md#remediation-actions) that require approval to proceed.</span></span> <span data-ttu-id="a4552-108">Por exemplo, um cluster de mensagens de email pode precisar ser excluído, ou talvez seja necessário remover um arquivo em quarentena.</span><span class="sxs-lookup"><span data-stu-id="a4552-108">For example, a cluster of email messages might need to be deleted, or a quarantined file might need to be removed.</span></span> <span data-ttu-id="a4552-109">É importante aprovar (ou rejeitar) ações pendentes o mais rápido possível, para que suas investigações automatizadas possam prosseguir e ser concluídas a tempo.</span><span class="sxs-lookup"><span data-stu-id="a4552-109">It's important to approve (or reject) pending actions as soon as possible so that your automated investigations can proceed and complete in a timely manner.</span></span> 
 
-<span data-ttu-id="0d9ca-110">Ações pendentes podem ser revisadas e aprovadas usando um dos vários métodos abaixo:</span><span class="sxs-lookup"><span data-stu-id="0d9ca-110">Pending actions can be reviewed and approved by using one of several methods:</span></span>
-- [<span data-ttu-id="0d9ca-111">Usando a Central de Ações</span><span class="sxs-lookup"><span data-stu-id="0d9ca-111">Use the Action center</span></span>](#review-a-pending-action-in-the-action-center)
-- [<span data-ttu-id="0d9ca-112">Usando o modo de exibição detalhes da investigação</span><span class="sxs-lookup"><span data-stu-id="0d9ca-112">Use the investigation details view</span></span>](#review-a-pending-action-in-the-investigation-details-view)
+<span data-ttu-id="a4552-110">Ações pendentes podem ser revisadas e aprovadas usando um dos vários métodos abaixo:</span><span class="sxs-lookup"><span data-stu-id="a4552-110">Pending actions can be reviewed and approved by using one of several methods:</span></span>
+- [<span data-ttu-id="a4552-111">Usando a Central de Ações</span><span class="sxs-lookup"><span data-stu-id="a4552-111">Use the Action center</span></span>](#review-a-pending-action-in-the-action-center)
+- [<span data-ttu-id="a4552-112">Usando o modo de exibição detalhes da investigação</span><span class="sxs-lookup"><span data-stu-id="a4552-112">Use the investigation details view</span></span>](#review-a-pending-action-in-the-investigation-details-view)
 
 > [!NOTE]
-> <span data-ttu-id="0d9ca-113">Você deve ter [permissões apropriadas](mtp-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-113">You must have [appropriate permissions](mtp-action-center.md#required-permissions-for-action-center-tasks) to approve or reject remediation actions.</span></span>
+> <span data-ttu-id="a4552-113">Você deve ter [permissões apropriadas](mtp-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção.</span><span class="sxs-lookup"><span data-stu-id="a4552-113">You must have [appropriate permissions](mtp-action-center.md#required-permissions-for-action-center-tasks) to approve or reject remediation actions.</span></span>
 
-## <a name="review-a-pending-action-in-the-action-center"></a><span data-ttu-id="0d9ca-114">Revisar uma ação pendente na Central de Ações</span><span class="sxs-lookup"><span data-stu-id="0d9ca-114">Review a pending action in the Action center</span></span>
+## <a name="review-a-pending-action-in-the-action-center"></a><span data-ttu-id="a4552-114">Revisar uma ação pendente na Central de Ações</span><span class="sxs-lookup"><span data-stu-id="a4552-114">Review a pending action in the Action center</span></span>
 
-1. <span data-ttu-id="0d9ca-115">Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-115">Go to https://security.microsoft.com and sign in.</span></span> 
+1. <span data-ttu-id="a4552-115">Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre.</span><span class="sxs-lookup"><span data-stu-id="a4552-115">Go to [https://security.microsoft.com](https://security.microsoft.com) and sign in.</span></span> 
 
-2. <span data-ttu-id="0d9ca-116">No painel de navegação, escolha **Central de Ações**.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-116">In the navigation pane, choose **Action center**.</span></span> 
+2. <span data-ttu-id="a4552-116">No painel de navegação, escolha **Central de Ações**.</span><span class="sxs-lookup"><span data-stu-id="a4552-116">In the navigation pane, choose **Action center**.</span></span> 
 
-3. <span data-ttu-id="0d9ca-117">Em Central de Ações, na guia **Pendente**, selecione um item na lista.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-117">In the Action Center, on the **Pending** tab, select an item in the list.</span></span> 
+3. <span data-ttu-id="a4552-117">Em Central de Ações, na guia **Pendente**, selecione um item na lista.</span><span class="sxs-lookup"><span data-stu-id="a4552-117">In the Action Center, on the **Pending** tab, select an item in the list.</span></span> 
 
-    - <span data-ttu-id="0d9ca-118">Se você selecionar um item na coluna\*\*número da investigação \*\*, a página detalhes da investigação será aberta.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-118">If you select an item in the **Investigation number** column, the investigation details page opens.</span></span> <span data-ttu-id="0d9ca-119">Nessa página, você pode checar os resultados da investigação e aprovar ou rejeitar a ação recomendada.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-119">There, you can view the results of the investigation, and then either approve or reject the recommended action.</span></span>
+    - <span data-ttu-id="a4552-118">Se você selecionar um item na coluna\*\*número da investigação \*\*, a página detalhes da investigação será aberta.</span><span class="sxs-lookup"><span data-stu-id="a4552-118">If you select an item in the **Investigation number** column, the investigation details page opens.</span></span> <span data-ttu-id="a4552-119">Nessa página, você pode checar os resultados da investigação e aprovar ou rejeitar a ação recomendada.</span><span class="sxs-lookup"><span data-stu-id="a4552-119">There, you can view the results of the investigation, and then either approve or reject the recommended action.</span></span>
  
-    - <span data-ttu-id="0d9ca-120">Se você selecionar uma linha na lista, um submenu será aberto, onde serão mostradas informações sobre esse item.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-120">If you select a row in the list, a flyout opens, where you can view information about that item.</span></span> <br/>![Aprovar ou rejeitar uma ação](../images/air-actioncenter-itemselected.png)<br/><span data-ttu-id="0d9ca-122">Use os links para exibir um alerta ou uma investigação associada e aprovar ou rejeitar a ação.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-122">Use the links to view an associated alert or an investigation, and approve or reject the action.</span></span>
+    - <span data-ttu-id="a4552-120">Se você selecionar uma linha na lista, um submenu será aberto, onde serão mostradas informações sobre esse item.</span><span class="sxs-lookup"><span data-stu-id="a4552-120">If you select a row in the list, a flyout opens, where you can view information about that item.</span></span> <br/>![Aprovar ou rejeitar uma ação](../images/air-actioncenter-itemselected.png)<br/><span data-ttu-id="a4552-122">Use os links para exibir um alerta ou uma investigação associada e aprovar ou rejeitar a ação.</span><span class="sxs-lookup"><span data-stu-id="a4552-122">Use the links to view an associated alert or an investigation, and approve or reject the action.</span></span>
 
-## <a name="review-a-pending-action-in-the-investigation-details-view"></a><span data-ttu-id="0d9ca-123">Revisar uma ação pendente na exibição dos detalhes da investigação</span><span class="sxs-lookup"><span data-stu-id="0d9ca-123">Review a pending action in the investigation details view</span></span>
+## <a name="review-a-pending-action-in-the-investigation-details-view"></a><span data-ttu-id="a4552-123">Revisar uma ação pendente na exibição dos detalhes da investigação</span><span class="sxs-lookup"><span data-stu-id="a4552-123">Review a pending action in the investigation details view</span></span>
 
 ![Detalhes da investigação](../images/mtp-air-investdetails.png)
 
-1. <span data-ttu-id="0d9ca-125">Na página [detalhes da investigação](mtp-autoir-results.md), selecione a guia **Ações pendentes** (ou **Ações**). Os itens pendentes estarão listados aqui.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-125">On an [investigation details](mtp-autoir-results.md) page, select the **Pending actions** (or **Actions**) tab. Items that are pending approval are listed here.</span></span>
+1. <span data-ttu-id="a4552-125">Na página [detalhes da investigação](mtp-autoir-results.md), selecione a guia **Ações pendentes** (ou **Ações**). Os itens pendentes estarão listados aqui.</span><span class="sxs-lookup"><span data-stu-id="a4552-125">On an [investigation details](mtp-autoir-results.md) page, select the **Pending actions** (or **Actions**) tab. Items that are pending approval are listed here.</span></span>
 
-2. <span data-ttu-id="0d9ca-126">Selecione um item na lista e, em seguida, escolha **Aprovar** ou **Rejeitar**.</span><span class="sxs-lookup"><span data-stu-id="0d9ca-126">Select an item in the list, and then choose **Approve** or **Reject**.</span></span>
+2. <span data-ttu-id="a4552-126">Selecione um item na lista e, em seguida, escolha **Aprovar** ou **Rejeitar**.</span><span class="sxs-lookup"><span data-stu-id="a4552-126">Select an item in the list, and then choose **Approve** or **Reject**.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="0d9ca-127">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="0d9ca-127">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="a4552-127">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="a4552-127">Next steps</span></span>
 
-- [<span data-ttu-id="0d9ca-128">Saiba mais sobre a Central de Ações</span><span class="sxs-lookup"><span data-stu-id="0d9ca-128">Learn more about the Action center</span></span>](mtp-action-center.md)
-- [<span data-ttu-id="0d9ca-129">Saiba mais sobre incidentes</span><span class="sxs-lookup"><span data-stu-id="0d9ca-129">Learn more about OneDrive</span></span>](incidents-overview.md)
-- [<span data-ttu-id="0d9ca-130">Saiba mais sobre a caça avançada</span><span class="sxs-lookup"><span data-stu-id="0d9ca-130">Learn about hunting</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="a4552-128">Saiba mais sobre a Central de Ações</span><span class="sxs-lookup"><span data-stu-id="a4552-128">Learn more about the Action center</span></span>](mtp-action-center.md)
+- [<span data-ttu-id="a4552-129">Saiba mais sobre incidentes</span><span class="sxs-lookup"><span data-stu-id="a4552-129">Learn more about incidents</span></span>](incidents-overview.md)
+- [<span data-ttu-id="a4552-130">Saiba mais sobre a caça avançada</span><span class="sxs-lookup"><span data-stu-id="a4552-130">Learn about hunting</span></span>](advanced-hunting-overview.md)
