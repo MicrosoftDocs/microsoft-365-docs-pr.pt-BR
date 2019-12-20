@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f592644b0aa2853839dd83025a112d0fd3c563df
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: d34d7082150b4131634fb695ce6664ded50e6f9d
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962608"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823833"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos do administrador no portal de Administração
 
@@ -44,7 +44,7 @@ Other | Para problemas não cobertos por outras áreas
 
 **Quem escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu ambiente de área de trabalho gerenciada da Microsoft.** Quando você integra seu ambiente de área de trabalho gerenciada da Microsoft, você é solicitado a adicionar contatos para sua assistência técnica e segurança local. 
 
-Os contatos do administrador são necessários ao [Enviar uma solicitação de suporte](../working-with-managed-desktop/support.md). Você precisará ter um contato de administrador para a área de foco da solicitação de suporte. 
+Os contatos do administrador são necessários ao [Enviar uma solicitação de suporte](../service-description/support.md). Você precisará ter um contato de administrador para a área de foco da solicitação de suporte. 
 
 **Para adicionar contatos do administrador**
 

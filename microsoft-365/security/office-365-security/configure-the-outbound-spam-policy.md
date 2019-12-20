@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: 06c74b578d7c18ad2f193bcbd4a8f9cdb6794416
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 43939022dc365f5b28418d96ae1217e159312da1
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970867"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808436"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Configurar a política de spam de saída
 
@@ -61,11 +61,11 @@ Utilize o procedimento a seguir para editar a política de spam de saída padrã
 
    O administrador para o domínio, especificado usando esta configuração, será informado de que as mensagens de saída estão bloqueadas para este usuário.  Para ver a aparência dessa notificação, confira [exemplo de notificação quando um remetente estiver bloqueado enviando spam de saída](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md).
 
-   [Observação!] Um alerta do sistema também é gerado, indicando que o usuário foi restringido.  Para saber mais sobre o alerta e como recuperar o usuário, confira [remover um usuário do portal de usuários restritos depois de enviar email de spam](removing-user-from-restricted-users-portal-after-spam.md).
+   > [Observação!] Um alerta do sistema também é gerado, indicando que o usuário foi restringido.  Para saber mais sobre o alerta e como recuperar o usuário, confira [remover um usuário do portal de usuários restritos depois de enviar email de spam](removing-user-from-restricted-users-portal-after-spam.md).
 
 4. Expanda a seção **limites de destinatário** para especificar o número máximo de destinatários que um usuário pode enviar, por hora, para destinatários internos e externos junto com o número máximo por dia.
 
-    [Observação!] O número máximo de qualquer entrada é 10.000.  Para obter mais informações [, consulte recebendo e enviando limites no Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
+    > [Observação!] O número máximo de qualquer entrada é 10.000.  Para obter mais informações [, consulte recebendo e enviando limites no Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
 
 7. Especifique a **ação** a ser tomada quando um usuário exceder os limites especificados.  As ações possíveis são as seguintes:
     * **Impedir que o usuário envie email até o dia seguinte**.  Após o limite de envio ter sido excedido (interno, externo ou diário) um alerta será gerado para o administrador e o usuário não poderá enviar mais emails até o dia seguinte, com base na hora UTC. Não há como o administrador substituir esse bloco.

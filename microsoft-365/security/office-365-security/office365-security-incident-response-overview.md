@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Esta solução informa o que os ataques de cybersecurity mais comuns podem parecer no Office 365 e como respondê-los
-ms.openlocfilehash: d908b32a5c3cb01476ab9b7604861eb94c7a2745
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c55a5d561fec4219d29926036842836174b790da
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971589"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823823"
 ---
 # <a name="office-365-security-incident-response"></a>Resposta a incidentes de segurança do Office 365
 
@@ -47,15 +47,15 @@ Confira aqui mensalmente quando mais artigos forem adicionados com o tempo.
 
 - [Detectar e corrigir a concessão de autorização ilícita no Office 365](detect-and-remediate-illicit-consent-grants.md)
 
-- [Detectar e corrigir ataques de injeção a regras do Outlook e formulários personalizados no Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
+- [Detectar e Corrigir Ataques de Injeção a Regras do Outlook e Formulários Personalizados no Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
 ## <a name="incident-response-articles"></a>Artigos sobre resposta a incidentes
 
-- [Responder a uma Conta de Email Comprometida no Office 365](~/compliance/responding-to-a-compromised-email-account.md)
+- [Responder a uma Conta de Email Comprometida no Office 365](responding-to-a-compromised-email-account.md)
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
 
-Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [mapa de segurança do Office 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger seu locatário do Office 365.
+Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.
 
 - Tarefas a realizar nos primeiros 30 dias.  Estas têm efeito imediato e baixo impacto para seus usuários.
 

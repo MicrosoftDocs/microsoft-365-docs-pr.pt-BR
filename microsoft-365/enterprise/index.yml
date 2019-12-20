@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Documentação e recursos do Microsoft 365 Enterprise
+title: Microsoft 365 para documentação e recursos da empresa
 summary: Os melhores aplicativos de produtividade do setor com serviços de nuvem inteligentes que transformam a maneira como você trabalha.
 brand: m365
 metadata:
-  title: Documentação e recursos do Microsoft 365 Enterprise
-  description: Saiba mais sobre a documentação do produto e os recursos disponíveis para o Microsoft 365 Enterprise para profissionais de ti, profissionais de informação e parceiros.
+  title: Microsoft 365 para documentação e recursos da empresa
+  description: Saiba mais sobre a documentação do produto e os recursos disponíveis para o Microsoft 365 for Enterprise para profissionais de ti, profissionais de informação e parceiros.
   services: service
   ms.prod: microsoft-365-enterprise
   ms.service: O365-seccomp
@@ -13,15 +13,15 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: 945412e8e66fe558971ceacf3a57023b5bba6e5f
-  ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+  ms.openlocfilehash: d7c4eccccc47a9264cdd14fab2b7740789dd33b0
+  ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/03/2019
-  ms.locfileid: "39669529"
+  ms.lasthandoff: 12/19/2019
+  ms.locfileid: "40801666"
 highlightedContent:
   items:
-  - title: Saiba mais sobre o Microsoft 365 Enterprise
+  - title: Saiba mais sobre o Microsoft 365 para empresas
     itemType: get-started
     url: microsoft-365-overview.md
   - title: Acelere sua implantação com o FastTrack
@@ -31,8 +31,8 @@ highlightedContent:
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
 conceptualContent:
-  title: Obter ajuda com o Microsoft 365 Enterprise e outros recursos
-  summary: Explore orientações, recursos e serviços do Microsoft 365 Enterprise Deployment.
+  title: Obter ajuda com o Microsoft 365 para empresas e outros recursos
+  summary: Explore o Microsoft 365 for Enterprise Deployment Guidance, Features e Services.
   items:
   - title: Siga o mapa de implantação
     links:
@@ -76,7 +76,7 @@ conceptualContent:
     - url: migration-microsoft-365-enterprise-workload.md
       itemType: deploy
       text: Cliente e migração do Office e do Windows
-  - title: Gerenciar o Microsoft 365 Enterprise
+  - title: Gerenciar o Microsoft 365 para empresas
     links:
     - url: https://docs.microsoft.com/windows/deployment/update/
       itemType: how-to-guide

@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1803445dfd9b46fce23b0dcc9585ea543f1b0347
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 631b328168003668ed06e37d76177c327794ed18
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910690"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808656"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 O [esquema de busca avançada](advanced-hunting-overview.md) é formado por várias tabelas que fornecem informações sobre o evento ou informações sobre computadores e entidades. Para criar efetivamente consultas que abrangem várias tabelas, é necessário entender as tabelas e as colunas no esquema de busca avançado.
 
@@ -37,15 +37,15 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 
 | Nome da tabela | Descrição |
 |------------|-------------|
-| **[MachineInfo](advanced-hunting-machineinfo-table.md)** | Informações do computador, incluindo informações do sistema operacional |
-| **[MachineNetworkInfo](advanced-hunting-machinenetworkinfo-table.md)** | Propriedades de rede das máquinas, incluindo os adaptadores, os endereços IP e MAC, bem como redes e domínios conectados |
-| **[ProcessCreationEvents](advanced-hunting-processcreationevents-table.md)** | Criação de processos e eventos relacionados |
-| **[NetworkCommunicationEvents](advanced-hunting-networkcommunicationevents-table.md)** | Conexão de rede e eventos relacionados |
-| **[FileCreationEvents](advanced-hunting-filecreationevents-table.md)** | Criação de arquivos, modificação e outros eventos do sistema de arquivos |
-| **[RegistryEvents](advanced-hunting-registryevents-table.md)** | Criação e modificação de entradas do registro |
-| **[LogonEvents](advanced-hunting-logonevents-table.md)** | Entradas e outros eventos de autenticação |
-| **[ImageLoadEvents](advanced-hunting-imageloadevents-table.md)** | Carregamento de eventos DLL |
-| **[MiscEvents](advanced-hunting-miscevents-table.md)** | Vários tipos de evento, incluindo eventos disparados por controles de segurança como o Windows Defender Antivirus e proteção de exploração |
+| **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Informações do computador, incluindo informações do sistema operacional |
+| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Propriedades de rede das máquinas, incluindo os adaptadores, os endereços IP e MAC, bem como redes e domínios conectados |
+| **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Criação de processos e eventos relacionados |
+| **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Conexão de rede e eventos relacionados |
+| **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Criação de arquivos, modificação e outros eventos do sistema de arquivos |
+| **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Criação e modificação de entradas do registro |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Entradas e outros eventos de autenticação |
+| **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | Carregamento de eventos DLL |
+| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Vários tipos de evento, incluindo eventos disparados por controles de segurança como o Windows Defender Antivirus e proteção de exploração |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Eventos de email do Office 365, incluindo a entrega de email e eventos de bloqueio |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informações sobre arquivos anexados a emails do Office 365 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs nos emails do Office 365 |

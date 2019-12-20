@@ -1,5 +1,5 @@
 ---
-title: Envios de administradores no Office 365, envios do O365, problema do Office 365 spam, o O365 falso negativo, enviar phishing no Office 365, enviar email para verificação, email suspeito no Office 365, examinar um email, fazer com que a Microsoft examine o phishing, peça à Microsoft para spam, enviar email, enviar email, email do dodgy, email de ator ruim, email suspeito, não confiável
+title: Envios de administradores no Office 365, envios do O365, problema do Office 365 spam, o O365 falso negativo, enviar phishing no Office 365, enviar email para verificação, email suspeito no Office 365, examinar um email, fazer com que a Microsoft examine o phishing, peça à Microsoft para spam, enviar email, enviar emails, emails do dodgy, email de ator ruim, email suspeito, não confiável, relatar emails de phishing para a Microsoft, relatar emails de phishing para a Microsoft, relatar emails mal-intencionados para a Microsoft, relatar emails de golpes à Microsoft, relatar malwares em email para a Microsoft, spam email na caixa de entrada Office 365, vírus no email do Office 365
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como enviar emails suspeitos, emails de phishing suspeitos, spam e outras mensagens, URLs e arquivos potencialmente nocivos do seu locatário do Office 365 para a Microsoft para verificação.
-ms.openlocfilehash: 3d53c8270e84cd6f6298b9b39cc7e37262aed7b0
-ms.sourcegitcommit: 9c9044885eb9754ce69f2f08afdcc13c782ce2f9
+ms.openlocfilehash: 54cb42f8c02f2f41ad583d640a090509817911ee
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39915212"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808546"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Como enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para a verificação do Office 365
 

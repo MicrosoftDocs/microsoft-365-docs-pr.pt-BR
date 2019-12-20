@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: os cenários mais comuns de ameaças e ataques enfrentados pelas organizações para seus ambientes Microsoft 365 e as ações recomendadas para reduzir esses riscos.
-ms.openlocfilehash: 7a8e593a1e4280327b82802bb08a57370e4db652
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 3d2c7fc289930e3cc73deddcd43f25efc321a237
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030515"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801246"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Segurança da Microsoft 365 para responsáveis por decisões de negócios (BDMs)
 
@@ -25,7 +25,7 @@ Este artigo é organizado por prioridade de trabalho, começando com a proteçã
 
 [![Imagem em miniatura planilha recomendações de segurança do Microsoft 365 BDM](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-A Microsoft fornece a ferramenta de Pontuação segura no seu locatário para analisar automaticamente a postura de segurança com base em suas atividades regulares, atribuir uma pontuação e fornecer recomendações de melhoria de segurança. Antes de executar as ações recomendadas neste artigo, anote sua pontuação e recomendações atuais. As ações recomendadas neste artigo aumentarão sua pontuação. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. Confira a [Pontuação segura da Microsoft](mtp/microsoft-secure-score.md).
+A Microsoft fornece a ferramenta de Pontuação segura no seu locatário para analisar automaticamente a postura de segurança com base em suas atividades regulares, atribuir uma pontuação e fornecer recomendações de melhoria de segurança. Antes de executar as ações recomendadas neste artigo, anote sua pontuação e recomendações atuais. As ações recomendadas neste artigo aumentarão sua pontuação. O objetivo não é atingir a pontuação máxima, mas ter em mente as oportunidades de proteger seu ambiente de uma maneira que não afete negativamente a produtividade dos seus usuários. Confira a [Pontuação segura da Microsoft](mtp/microsoft-secure-score.md).
 
 Mais uma coisa antes de começarmos. . . Certifique-se de [ativar o log de auditoria do Office 365](../compliance/search-the-audit-log-in-security-and-compliance.md). Você precisará desses dados mais tarde, no caso de você precisar investigar um incidente ou uma violação. 
 
@@ -46,14 +46,14 @@ O diagrama a seguir ilustra esses recursos.
 Recomendações adicionais:
 - Certifique-se de que as contas que estão sincronizadas no local não estão atribuídas a funções de administrador para serviços em nuvem. Isso ajuda a evitar que um invasor Aproveite contas locais para obter acesso administrativo aos serviços em nuvem. 
 - Verifique se as contas de serviço não estão atribuídas a funções de administrador. Essas contas geralmente não são monitoradas e definidas com senhas que não expiram. Para começar, certifique-se de que as contas de serviços AADConnect e ADFS não sejam administradores globais por padrão.
-- Remover licenças de contas de administrador. A menos que haja um caso de usuário específico para atribuir licenças a contas de administrador específicas, remova as licenças dessas contas. 
+- Remover licenças de contas de administrador. A menos que haja um caso de uso específico para atribuir licenças a contas de administrador específicas, remova as licenças dessas contas. 
 
 ## <a name="reduce-the-surface-of-attack"></a>Reduzir a superfície de ataque
 
 A próxima área de foco está reduzindo a superfície de ataque. Isso pode ser feito com o mínimo de esforço e impacto para os seus usuários e serviços. Ao reduzir a área de superfície de ataque, os invasores têm menos meios de iniciar um ataque contra sua organização.
 
 Aqui estão alguns exemplos:
-- Desabilite os protocolos POP3, IMAP e SMTP. As organizações mais modernas não usam mais esses protocolos mais antigos. Você pode desabilitá-los com segurança e permitir apenas exceções, conforme necessário. 
+- Desabilite os protocolos POP3, IMAP e SMTP. As organizações mais modernas não usam mais esses protocolos mais antigos. Você pode desabilitá-los com segurança e permitir exceções apenas quando necessário. 
 - Reduza e mantenha o número de administradores globais no locatário para o mínimo necessário. Isso reduz diretamente a área de superfície de ataque para todos os aplicativos em nuvem. 
 - Desative os servidores e aplicativos que não são mais usados em seu ambiente. 
 - Implemente um processo para desabilitar e excluir contas que não são mais usadas. 

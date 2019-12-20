@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: Se um usuário que continuamente envia emails do Office 365 é classificado como spam, ele será impedido de enviar qualquer outra mensagem de email.
-ms.openlocfilehash: 7d900e154e60b49b3fcfe63552b6ad3288adfc82
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: c817add2581ffdbe709023dc3b348631defec169
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871737"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823813"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam
 
@@ -33,19 +33,19 @@ Se um usuário enviar emails continuamente classificados como spam do Office 365
 <a name="sectionSection0"> </a>
 
 Tempo estimado para conclusão: 5 minutos
-  
+
 Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
 
-O procedimento a seguir também pode ser realizado pelo PowerShell remoto. Use o cmdlet Get-BlockedSenderAddress para obter a lista de usuários restritos e remover-BlockedSenderAddress para remover a restrição. Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+O procedimento a seguir também pode ser realizado pelo PowerShell remoto. Use o cmdlet Get-BlockedSenderAddress para obter a lista de usuários restritos e remover-BlockedSenderAddress para remover a restrição. Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 ## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>Remover restrições de uma conta de email bloqueada do Office 365
 
 Você conclui essa tarefa no centro de conformidade & de segurança (SCC). [Vá para o centro de conformidade e de segurança](../../compliance/go-to-the-securitycompliance-center.md) para obter mais detalhes sobre o SCC. É necessário estar **no grupo de função gerenciamento** da organização ou **administrador** de segurança para executar essas funções. [Vá para permissões no centro de conformidade e de segurança](permissions-in-the-security-and-compliance-center.md) para obter mais detalhes sobre os grupos de funções SCC.
 
 1. Usando uma conta corporativa ou de estudante com privilégios de administrador global do Office 365, entre no centro de segurança e conformidade do Office 365 e na lista à esquerda, **expanda**gerenciamento de **ameaças, escolha revisão**e, em seguida **, escolha**usuários restritos.
-    
+
     > [!TIP]
-    > Para ir diretamente para a página **usuários restritos ** (conhecida anteriormente como central de ações) no centro &amp; de conformidade de segurança, use esta URL: > [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
+    > Para ir diretamente para a página **Usuários Restritos** (conhecida anteriormente como Central de Ações) no centro de &amp;Conformidade de Segurança, use esta URL: [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
 2. Esta página conterá a lista de usuários que foram impedidos de enviar emails.  Localize o usuário para o qual você deseja remover restrições e selecione **desbloquear**.
 
@@ -56,7 +56,7 @@ Você conclui essa tarefa no centro de conformidade & de segurança (SCC). [Vá 
 5. Clique em **Sim** para confirmar a alteração.
 
     > [!NOTE]
-    > Pode levar até 30 minutos para que as restrições sejam removidas. 
+    > Pode levar até 30 minutos para que as restrições sejam removidas.
 
 ## <a name="making-sure-admins-are-alerted-when-this-happens"></a>Garantindo que os administradores sejam alertados quando isso acontecer
 
@@ -79,7 +79,7 @@ Os comandos do PowerShell para usuários restritos são:
 
 ## <a name="for-more-information"></a>Para obter mais informações
 
-[Responder a uma conta de email comprometida](../../compliance/responding-to-a-compromised-email-account.md)
+[Responder a uma conta de email comprometida](responding-to-a-compromised-email-account.md)
 
 [Entender o usuário restrito de enviar alerta de emails](https://docs.microsoft.com/office365/securitycompliance/alert-policies)
 

@@ -3,7 +3,7 @@ title: Investigação de ameaças e recursos de resposta do Office 365 no Office
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 12/09/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Descubra como os recursos de inteligência de ameaças no Office 365 proteção avançada contra ameaças pode ajudá-lo a Pesquisar ameaças em sua organização, responder a malware, phishing e outros ataques que o Office 365 detectou em seu nome e Pesquisar ameaças indicadores.
-ms.openlocfilehash: 1e8a3cee67a3fdb56042bc83dac7b09367241bf3
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 45c12647b999e626cb620046aabc95fb4bfa8f4c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967994"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808116"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Investigação e resposta a ameaças do Office 365
 
@@ -37,9 +37,9 @@ Os recursos de investigação e resposta contra ameaças fornecem informações 
 Recursos de investigação e resposta contra ameaças no centro &amp; de conformidade de segurança, como um conjunto de ferramentas e fluxos de trabalho de resposta, incluindo o seguinte:
 - [Painel de ameaças](#threat-dashboard)
 - [Explorer](#threat-explorer)
-- [Incidente](#incidents)
+- [Incidentes](#incidents)
 - [Simulador de ataque](#attack-simulator)
-- [Investigação e resposta automatizadas](automated-investigation-response-office.md)
+- [Resposta e investigação automatizadas](automated-investigation-response-office.md)
 
 ### <a name="threat-dashboard"></a>Painel de ameaças
 
@@ -57,7 +57,7 @@ Use o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md)
   
 Para exibir e usar esse relatório, no centro de conformidade de &amp; segurança do Office 365, vá para **Gerenciador**de **Gerenciamento** \> de ameaças.
   
-### <a name="incidents"></a>Incidente
+### <a name="incidents"></a>Incidentes
 
 Use a lista incidentes (isso também é chamado de investigações) para ver uma lista de incidentes de segurança de vôo. Os incidentes são usados para rastrear ameaças como mensagens de email suspeitas e para realizar mais investigações e correções.
   
@@ -87,7 +87,7 @@ Os recursos de investigação e resposta contra ameaças do Office 365 estão in
 
 ## <a name="required-roles-and-permissions"></a>Funções e permissões necessárias
 
-O Office 365 proteção avançada contra ameaças usa o controle de acesso baseado em função. As permissões são atribuídas por meio de funções no Azure Active Directory, no centro de administração do Microsoft 365 ou no centro de conformidade & segurança do Office 365.
+O Office 365 proteção avançada contra ameaças usa o controle de acesso baseado em função. As permissões são atribuídas por determinadas funções no Azure Active Directory, no centro de administração do Microsoft 365 ou no centro de conformidade & segurança do Office 365.
 
 > [!TIP]
 > Embora algumas funções, como administrador de segurança, possam ser atribuídas no centro de conformidade & segurança do Office 365, considere o uso do centro de administração do Microsoft 365 ou do Azure Active Directory. Para obter informações sobre funções, grupos de funções e permissões, consulte os seguintes recursos:

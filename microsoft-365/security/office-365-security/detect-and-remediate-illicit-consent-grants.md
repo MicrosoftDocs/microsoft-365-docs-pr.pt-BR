@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Office 365.
-ms.openlocfilehash: 10c03fe0370732e9cb1a10a55767648ae0ddb80b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 46387f82a38c33debdc24a6825479bf3183f0283
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971719"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808426"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Detectar e corrigir a concessão de autorização ilícita no Office 365
 
@@ -101,7 +101,7 @@ A maneira mais simples de verificar o consentimento ilícito de concessão é ex
 
 3. Abra uma instância do PowerShell como administrador e abra a pasta para a qual você salvou o script.
 
-4. Conecte-se ao seu diretório usando o cmdlet [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) .
+4. Conecte-se ao seu diretório usando o cmdlet [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) .
 
 5. Execute este comando do PowerShell:
 
@@ -140,9 +140,9 @@ Após identificar um aplicativo com permissões ilícita, você tem várias mane
 
   - Clique em **remover** na busca detalhada.
 
-- Você pode revogar a concessão de consentimento OAuth com o PowerShell seguindo as etapas em [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0).
+- Você pode revogar a concessão de consentimento OAuth com o PowerShell seguindo as etapas em [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant).
 
-- Você pode revogar a atribuição da função de aplicativo de serviço com o PowerShell seguindo as etapas em [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0).
+- Você pode revogar a atribuição da função de aplicativo de serviço com o PowerShell seguindo as etapas em [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment).
 
 - Você também pode desabilitar a entrada para a conta afetada, o que, por sua vez, desabilitará o acesso do aplicativo aos dados dessa conta. Isso não é ideal para a produtividade do usuário final, mas se você estiver trabalhando para limitar o impacto rapidamente, pode ser uma remediação de curto prazo viável.
 
@@ -150,7 +150,7 @@ Após identificar um aplicativo com permissões ilícita, você tem várias mane
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
 
-Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [mapa de segurança do Office 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger seu locatário do Office 365.
+Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.
 
 - Tarefas a realizar nos primeiros 30 dias. Estas têm efeito imediato e baixo impacto para seus usuários.
 

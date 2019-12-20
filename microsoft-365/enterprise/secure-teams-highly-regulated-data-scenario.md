@@ -3,7 +3,7 @@ title: Teams para dados altamente regulamentados
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 11/12/2019
+ms.date: 12/13/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: fe397dbd091415b15bbc48d54bfa59c432437788
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: b35c4e8332b73b44042430651cbba9daa2c59c04
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39631261"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801416"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
@@ -38,29 +38,21 @@ Os elementos de configuração de uma equipe para dados altamente regulamentados
   - Impede que não membros do site solicitem acesso a ele.
 - Um rótulo de retenção do Office 365 para o site do SharePoint subjacente que é aplicado automaticamente a novos arquivos no site como uma maneira padrão de definir políticas de retenção.
 - Uma política de Prevenção contra Perda de Dados (DLP) que usa o rótulo de retenção e impede que os usuários compartilhem ou enviem arquivos para fora da organização.
-- Um rótulo de confidencialidade do Office 365 de ou sub-rótulo de um rótulo altamente regulamentado com criptografia habilitada e permissões de Coautor para o grupo da equipe do Office 365. Os usuários aplicam o rótulo ou sub-rótulo aos arquivos armazenados na seção de **Arquivos** da equipe na opção da barra de menus Confidencialidade do Word, Excel e PowerPoint.
+- Um rótulo de confidencialidade do Office 365 de ou sub-rótulo de um rótulo altamente regulamentado com criptografia habilitada e permissões de Coautor para o grupo da equipe do Office 365. Os usuários aplicam o rótulo ou sub-rótulo aos arquivos armazenados na seção **Arquivos** da equipe na opção da barra de menus **Sensibilidade** no Word, Excel e PowerPoint.
 
 Esta é a configuração resultante com um rótulo de confidencialidade.
 
 ![A configuração segura do cenário de equipe](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
+
+Para obter uma visão geral rápida, assista a este breve vídeo.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> Confira um resumo de uma página desse cenário no pôster [Teams para dados altamente regulados](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf).
 
 [![Pôster Teams para dados altamente regulamentados](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
 Você também pode baixar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) ou [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) e imprimir em papel carta, oficial ou tabloide (11 x 17).
-
-
-<!--
-
-[Quick-Learn test (vertical): PDF](./media/secure-teams-highly-regulated-data-scenario/Click-Through-Test.pdf)
-
-[Quick-Learn test: PowerPoint](./media/secure-teams-highly-regulated-data-scenario/Click-Through-Test.pptx)
-
-[Horizontal PDF (Quick Start)](./media/secure-teams-highly-regulated-data-scenario/Sideways.pdf)
-
---> 
-
 
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>Fase 1: Configurar uma equipe para dados altamente regulamentados
 

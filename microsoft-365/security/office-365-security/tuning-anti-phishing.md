@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como as mensagens de phishing foram recebidas e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: bbcd57f649485cb753e3917a073ffec2b94cba24
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 03f4df5f552dab48283f18ec367ee6979afd9c89
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073803"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823843"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Ajustar a proteção contra phishing no Office 365
 
@@ -23,7 +23,7 @@ Embora o Office 365 seja fornecido com uma variedade de recursos antiphishing ha
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>As primeiras coisas primeiro: lidar com as contas comprometidas e certifique-se de bloquear qualquer mensagem de phishing para obter
 
-Se a conta de um destinatário foi comprometida como resultado da mensagem de phishing, siga as etapas em [responder a uma conta de email comprometida no Office 365](../../compliance/responding-to-a-compromised-email-account.md).
+Se a conta de um destinatário foi comprometida como resultado da mensagem de phishing, siga as etapas em [responder a uma conta de email comprometida no Office 365](responding-to-a-compromised-email-account.md).
 
 Se sua assinatura incluir a proteção avançada contra ameaças (ATP), você poderá usar o [Office 365 Threat Intelligence](office-365-ti.md) para identificar outros usuários que também receberam a mensagem de phishing. Você tem opções adicionais para bloquear mensagens de phishing:
 
@@ -71,7 +71,7 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
   - [Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)
 
-  - [Usar o DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)
+  - [Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)
 
 - Sempre que possível, recomendamos que você envie emails para seu domínio diretamente para o Office 365. Em outras palavras, aponte o registro MX do seu domínio do Office 365 para o Office 365. O proteção do Exchange Online (EOP) é capaz de fornecer a melhor proteção para seus usuários de nuvem quando seus emails são entregues diretamente no Office 365. Se você precisar usar um sistema de higiene de email de terceiros na frente do EOP, verifique se você seguiu as orientações [aqui](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud).
 
