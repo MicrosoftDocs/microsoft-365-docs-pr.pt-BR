@@ -3,6 +3,7 @@ title: Exportar campos de relatório na descoberta eletrônica avançada do Offi
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Descreve todos os campos incluídos nos relatórios de exportação para descoberta eletrônica avançada.
-ms.openlocfilehash: 54287b4319a3fd7cf5be8aaf74d3a375253cba1f
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: cc585fcabefa9036d91162b6418c3e5e9c752378
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38685028"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805834"
 ---
 # <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Exportar campos de relatório na descoberta eletrônica avançada do Office 365
 

@@ -15,12 +15,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: 'Como usuário do Office 365, você pode gerenciar as mensagens de spam em quarentena de duas maneiras: responder às notificações de spam enviadas diretamente para você (se o administrador configurou esse recurso) ou usar o recurso Quarentena de spam, no &amp; Centro de Conformidade e Segurança.'
-ms.openlocfilehash: c912c19571cde31c39f4ca3f44c7628ba8b29526
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: bcc9b7ed52af0e9920506aa667e51daad7f82c80
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970457"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807996"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Localizar e liberar mensagens em quarentena como usuário do Office 365
 
@@ -36,7 +36,7 @@ Como usuário do Office 365, você pode gerenciar as mensagens que foram enviada
 2. No lado esquerdo, expanda **Gerenciamento de Ameaças**, escolha **Revisão** e escolha **Quarentena**.
 
     > [!TIP]
-    > Para acessar diretamente a página **Quarentena ** no Centro de &amp;Conformidade e Segurança, use a seguinte URL: > [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > Para acessar diretamente a página **Quarentena ** no Centro de Conformidade&amp;Segurança, use a seguinte URL: [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
 
 Por padrão, o Centro de &amp; Conformidade e Segurança exibe todas as mensagens de email que foram enviadas para a quarentena como spam. As mensagens são classificadas da mais recente à mais antiga, de acordo com a **Data** de recebimento da mensagem. **Remetente**, **Assunto**, e a data de vencimento (em **expiras** ) também são exibidos para cada mensagem. Para classificar um campo, clique no cabeçalho da coluna correspondente. clique no cabeçalho de uma coluna novamente para inverter a ordem da classificação. 
 

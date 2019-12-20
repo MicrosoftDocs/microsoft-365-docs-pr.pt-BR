@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: c3d3c8047e6814a56ec6470a9166fd0c13eb6839
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 0083eb91b49561c858cacc94a148e97c7463b754
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718630"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801356"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
@@ -48,7 +48,7 @@ O laboratório fornece um ambiente de laboratório virtual provisionado automati
 
 Além disso, o laboratório foi projetado para ser conectado aos testes do: 
 
-  - Microsoft 365 Enterprise E5
+  - Microsoft 365 E5
 
 Ou
   - Office 365 Enterprise E5

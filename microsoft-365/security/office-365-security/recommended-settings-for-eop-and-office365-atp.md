@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 60042d5903a9dadd178fe68b3a73a3a2b9148798
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4aff384d571444e5641d3bcff58df136d27c7624
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807966"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40832044"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -152,8 +152,8 @@ Os clientes do EOP obtêm anti-phishing básico como descrito anteriormente, mas
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
 |Usar links seguros de ATP nos aplicativos do Office 365, Office para iOS e Android|Habilitado|Habilitado|Isso se enquadra nas políticas de links seguros de ATP que se aplicam a toda a organização|
-Não rastrear quando os usuários clicarem em links seguros|Desabilitado|Desabilitado|Isso se enquadra nas políticas de links seguros de ATP que se aplicam a toda a organização|
-|Não permitir que os usuários cliquem por meio de links seguros para a URL original|Habilitado|Habilitado|Isso se enquadra nas políticas de links seguros de ATP que se aplicam a toda a organização|
+Não rastrear quando os usuários clicarem em links seguros|Desabilitado|Desabilitado|Isso é para as duas políticas que se aplicam a toda a organização e quaisquer políticas que se aplicam a destinatários específicos|
+|Não permitir que os usuários cliquem por meio de links seguros para a URL original|Habilitado|Habilitado|Isso é para as políticas que se aplicam a toda a organização e quaisquer políticas que se aplicam a destinatários específicos|
 |Ação para URLs potencialmente mal-intencionadas desconhecidas em mensagens|Habilitado|Habilitado||
 |Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos|Habilitado|Habilitado||
 |Aguarde a conclusão da verificação de URL antes de entregar a mensagem|Habilitado|Habilitado||
@@ -177,4 +177,4 @@ Não rastrear quando os usuários clicarem em links seguros|Desabilitado|Desabil
 
 - Use estes links para obter informações sobre como **Configurar** seu [serviço do EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)e **Configurar** a [proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). (Não se esqueça de ver as orientações úteis em '[proteger contra ameaças no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.)
 
-- As **linhas de base de segurança do Windows** podem ser encontradas [aqui](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) para opções de GPO/local e para segurança baseada no Intune, [aqui](https://docs.microsoft.com/intune/protect/security-baselines). Por fim, uma comparação entre a proteção avançada contra ameaças do Microsoft defender (ATP) e as linhas de base de segurança do Windows Intune estão [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines).
+- As **linhas de base de segurança do Windows** podem ser encontradas [aqui](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) para opções de GPO/local e para segurança baseada no Intune, [aqui](https://docs.microsoft.com/intune/protect/security-baselines). Por fim, uma comparação entre a proteção avançada contra ameaças do Microsoft defender (ATP) e as linhas de base de segurança do Windows Intune podem ser encontradas [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines).

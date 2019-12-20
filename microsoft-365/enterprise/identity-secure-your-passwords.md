@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você precisa de senhas fortes e gerenciáveis em toda a organização.
-ms.openlocfilehash: 375f4a678e85dccb544ffaf56f648e98609841d9
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 143f7727846316100e4133ccf4b34646645bfd7f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746507"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801736"
 ---
 # <a name="step-2-secure-your-passwords"></a>Etapa 2: proteger suas senhas
 
@@ -27,7 +27,7 @@ ms.locfileid: "37746507"
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>Evitar o uso de senhas ruins
 
-*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+*Isso é opcional e se aplica tanto à versão E3 quanto à versão E5 do Microsoft 365* 
 
 Todos os usuários devem usar as [Diretrizes de senhas da Microsoft](https://www.microsoft.com/research/publication/password-guidance/) para criar senhas de conta de usuário.
 
@@ -46,7 +46,7 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 <a name="identity-pw-reset"></a>
 ## <a name="simplify-password-resets"></a>Simplificar as redefinições de senha
 
-*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+*Isso é opcional e se aplica tanto à versão E3 quanto à versão E5 do Microsoft 365* 
 
 Nesta seção, você habilitará a redefinição de senha de autoatendimento (SSPR) para permitir que usuários redefinam ou desbloqueiem suas senhas ou contas. Para ser alertado sobre uso indevido ou abuso, você pode usar os relatórios detalhados que rastreiam quando usuários acessam o sistema, junto com as notificações. Você deve habilitar o write-back de senha antes que possa implantar as redefinições de senha.
 

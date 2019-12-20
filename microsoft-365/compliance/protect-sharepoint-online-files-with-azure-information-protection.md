@@ -18,17 +18,19 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Resumo: aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.'
-ms.openlocfilehash: 19fab529a9a8fb60afef1a419323d7544eeace88
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 99f6882c37337369fe082314af000f83bfef9aa5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668819"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803748"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Proteger arquivos do SharePoint Online com a Proteção de Informações do Azure
 
- **Resumo:** aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.
-  
+>[!Note]
+>A solução atual para arquivos em um site da equipe do SharePoint Online altamente confidencial usa rótulos de confidencialidade do Office 365. Confira [esse artigo](protect-sharepoint-online-files-with-sensitivity-label.md) para saber mais.
+>
+
 Use as etapas neste artigo para configurar a Proteção de Informações do Azure para fornecer as permissões para arquivos e a criptografia. Esses arquivos podem ser adicionados a uma biblioteca do SharePoint configurada para proteção altamente confidencial. Em alternativa, você pode abrir um arquivo diretamente do site e usar o cliente da Proteção de Informações do Azure para adicionar criptografia. A proteção de criptografia e permissões acompanha um arquivo mesmo quando ele é baixado do site. 
 
 Essas etapas são parte de uma solução maior de configuração da proteção altamente confidencial para sites do SharePoint e os arquivos dentro desses sites. Para saber mais, confira [Sites e arquivos seguros do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
@@ -49,9 +51,7 @@ Em seguida, configure a Proteção de Informações do Azure com uma nova polít
     
 2. Em uma guia separada do navegador, vá para o Portal do Azure ([https://portal.azure.com](https://portal.azure.com)).
     
-3. Se esta é a primeira vez que você configura a Proteção de Informações do Azure, confira estas [instruções](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
-
-4. No painel de lista, clique em **Todos os serviços**, digite **informações** e clique em **Proteção de Informações do Azure**.
+4. Na caixa de pesquisa, digite **informações**e, em seguida, clique em **Proteção de Informações do Azure**.
 
 5. Clique em **Rótulos**.
     
@@ -113,6 +113,6 @@ Há duas maneiras para conceder aos usuários externos o acesso aos arquivos pro
 
 [Proteger arquivos e sites do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
-[Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Adoção da nuvem e de soluções híbridas](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

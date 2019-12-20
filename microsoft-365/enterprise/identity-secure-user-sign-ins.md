@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você pode deixar as entradas dos usuários no Windows e no Microsoft 365 mais seguras.
-ms.openlocfilehash: 6f45d61694cabd10587ff13bd787fa42bdaeac01
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c1379cfdd65204a27c8147ade8c8c8704e441f1f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370188"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801726"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>Etapa 3: proteger e gerenciar as entradas do seu usuário
 
@@ -28,7 +28,7 @@ ms.locfileid: "37370188"
 <a name="identity-windows-hello"></a>
 ## <a name="use-windows-hello-for-business"></a>Usar o Windows Hello para Empresas
 
-*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+*Isso é opcional e se aplica tanto à versão E3 quanto à versão E5 do Microsoft 365* 
 
 O Windows Hello para Empresas no Windows 10 Enterprise substitui senhas com autenticação forte de dois fatores ao entrar em um dispositivo Windows. O recurso de dois fatores é um novo tipo de credencial de usuário vinculado a um dispositivo e a uma leitura biométrica ou a um PIN.
 
@@ -38,7 +38,7 @@ Para obter mais informações, consulte [Visão geral do Windows Hello para Empr
 <a name="identity-mfa"></a>
 ## <a name="set-up-azure-multi-factor-authentication"></a>Configurar a Autenticação Multifator do Microsoft Azure
 
-*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+*Isso é opcional e se aplica tanto à versão E3 quanto à versão E5 do Microsoft 365* 
 
 Nesta etapa, você configurará a MFA (Autenticação Multifator) para adicionar uma segunda camada de segurança a entradas e transações de usuários. A MFA exige um método de verificação adicional depois que os usuários tiverem digitado a senha corretamente. Sem a MFA, a senha é o único método de verificação. O problema de usar senhas é que muitas delas são facilmente adivinhadas por um invasor ou são compartilhadas inconscientemente com pessoas não confiáveis.
 

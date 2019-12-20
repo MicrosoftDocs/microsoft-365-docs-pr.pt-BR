@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: fb5e99f775c8e23b8ea522ca15b115a5c5d3aedf
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: fd3f73919a113389e9d423dbed11cf0074fb5833
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831882"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802056"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -54,7 +54,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Contas de administrador global dedicadas com MFA e PIM
 
-  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas fortes e as protegeu com a Autenticação Multifator (MFA) do Azure e com o Azure Active Directory Privileged Identity Management (PIM). O PIM está disponível apenas com o Microsoft 365 Enterprise E5.
+  Em vez de atribuir a função de administrador global para contas de usuários comuns, a Contoso criou três contas de administrador global dedicadas com senhas fortes e as protegeu com a Autenticação Multifator (MFA) do Azure e com o Azure Active Directory Privileged Identity Management (PIM). O PIM está disponível apenas com o Microsoft 365 E5.
 
   A entrada com uma conta de administrador global é realizada apenas para tarefas administrativas específicas, as senhas são conhecidas somente por funcionários designados e só podem ser usadas no horário configurado com o Azure AD PIM. 
 
@@ -117,7 +117,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Monitoramento de nuvem com o Microsoft Cloud App Security
 
-  A Contoso está usando o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para mapear o ambiente de nuvem, monitorar o uso e detectar ocorrências e eventos de segurança. O Microsoft Cloud App Security só está disponível no Microsoft 365 Enterprise E5.
+  A Contoso está usando o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para mapear o ambiente de nuvem, monitorar o uso e detectar ocorrências e eventos de segurança. O Microsoft Cloud App Security só está disponível no Microsoft 365 E5.
 
 - Gerenciamento de dispositivos com o Microsoft Intune
 

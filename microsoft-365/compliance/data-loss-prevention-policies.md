@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: b9035fde858d8040be14073f61d6c4e9629df53b
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e2fab1df550382f44e09629e5b82a079d6f6555f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "39266088"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806614"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -79,7 +79,9 @@ Por exemplo, você pode ter uma política DLP que ajuda a detectar a presença d
 Uma política DLP pode encontrar e proteger informações confidenciais no Office 365, não importa se essas informações estão armazenadas no Exchange Online, SharePoint Online, OneDrive for Business, ou Microsoft Teams. Você pode optar por proteger o conteúdo de emails do Exchange, mensagens do chat e de canal do Microsoft Teams e todas as bibliotecas do SharePoint ou do OneDrive, ou selecionar locais específicos para uma política.
   
 ![Opções para locais onde uma política DLP pode ser aplicada](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
-  
+
+ Se você optar por incluir grupos de distribuição específicos no Exchange, a política DLP será delimitada somente aos membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
+
 Se optar por incluir ou excluir sites específicos do SharePoint ou contas do OneDrive, uma política de DLP pode conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
   
 ### <a name="rules"></a>Regras
@@ -166,7 +168,9 @@ A notificação de email e a dica de política explicam a razão do conflito do 
 Esta é a aparência de uma dica de política em uma conta do OneDrive for Business.
   
 ![Dica de política para um documento em uma conta do OneDrive](media/f9834d35-94f0-4511-8555-0fe69855ce6d.png)
-  
+
+ Para saber mais sobre as notificações de usuário e as dicas de política em políticas DLP, confira [Usar notificações e dicas de política](use-notifications-and-policy-tips.md).
+
 #### <a name="incident-reports"></a>Relatórios de incidentes
 
 Quando uma regra é correspondida, você pode enviar um relatório de incidentes ao responsável pela conformidade (ou qualquer pessoa que você escolher) com detalhes sobre o evento. Esse relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo por último. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
@@ -221,7 +225,7 @@ Por exemplo, a política interna ** HIPAA (Lei de Seguro de Saúde) dos EUA** te
 
 Quando você cria regras em uma política, cada regra recebe uma prioridade na ordem em que ela é criada, ou seja, a regra criada primeiro tem a primeira prioridade, a regra criada em segundo lugar tem a segunda prioridade e assim por diante. 
   
-![Regras na ordem de prioridade](media/f7dc06bf-bc6f-485c-bcdb-606edbcf6565.png)
+![Regras na ordem de prioridade](media/dlp-rules-in-priority-order.png)
   
 Após configurar mais de uma política DLP, você pode alterar a prioridade de uma ou mais políticas. Para fazer isso, selecione uma política, clique em **Editar política**e use a lista **Prioridade** para especificar a prioridade.
 

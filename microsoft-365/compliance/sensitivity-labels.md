@@ -1,9 +1,9 @@
 ---
 title: Visão geral de rótulos de confidencialidade
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
-ms.date: 11/01/2019
+ms.date: 12/13/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para impor configurações de proteção, como criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: 5bc15b1ba18dbc52f9db554f8037cb59187b88fc
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: f411cf5ac91581526c54f718ee83d0beaaaa2d73
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "39232882"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802834"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -130,7 +130,7 @@ Com uma política de rótulos, você pode:
 
 - **Aplicar um rótulo padrão** a todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Esse rótulo padrão pode definir um nível de base de configurações de proteção que deve ser aplicado a todo o conteúdo.
 
-- **Exigir uma justificativa para alterar um rótulo.** Se o conteúdo estiver marcado como confidencial e o usuário quiser remover esse rótulo ou substituí-lo por uma classificação menor, como um rótulo denominado público, você pode exigir que o usuário forneça uma justificativa ao executar essa ação. Essas justificativas estarão disponíveis para que o administrador examine.
+- **Exigir uma justificativa para alterar um rótulo.** Se o conteúdo estiver marcado como confidencial e o usuário quiser remover esse rótulo ou substituí-lo por uma classificação menor, como um rótulo denominado público, você pode exigir que o usuário forneça uma justificativa ao executar essa ação. Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
     ![Prompt no qual os usuários inserem uma justificativa](media/Sensitivity-label-justification-required.png)
 

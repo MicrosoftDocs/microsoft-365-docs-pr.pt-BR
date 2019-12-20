@@ -1,5 +1,5 @@
 ---
-title: Cenários e cargas de trabalho do Microsoft 365 Enterprise
+title: Cenários e cargas de trabalho do Microsoft 365 para empresas
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/21/2019
@@ -11,25 +11,25 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 Enterprise.
-ms.openlocfilehash: 2fbc3b5063ab0ed675b9d1a3873877e5486a3d6c
-ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
+description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 para empresas.
+ms.openlocfilehash: ff0e4b06972ed53933eb7780759bfcd53e286353
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608592"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801896"
 ---
-# <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 Enterprise
+# <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 para empresas
 
-Para aproveitar os benefícios da criatividade e do trabalho em equipe do Microsoft 365 Enterprise, implante essas cargas de trabalho em sua infraestrutura de base:
+Para aproveitar os benefícios da criatividade e do trabalho em equipe do Microsoft 365 para empresas, implante essas cargas de trabalho em sua infraestrutura de base:
 
 - [Microsoft Teams](teams-workload.md)
 - [Exchange Online](exchangeonline-workload.md)
 - [SharePoint e OneDrive](sharepoint-online-onedrive-workload.md)
 
-Confira o artigo [migração](migration-microsoft-365-enterprise-workload.md) para obter um roteiro para migrar toda a sua organização para o Microsoft 365 Enterprise, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
+Confira o artigo [migração](migration-microsoft-365-enterprise-workload.md) para obter um roteiro para migrar toda a sua organização para o Microsoft 365 para empresas, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
 
-Os cenários usam recursos e serviços do Microsoft 365 Enterprise de forma integrada para atender às necessidades empresariais. 
+Os cenários usam recursos e serviços do Microsoft 365 para empresas de forma integrada para atender às necessidades empresariais. 
 
 É necessário garantir que seus funcionários trabalhem de forma produtiva e segura quando não estão conectados diretamente à sua intranet. Confira o cenário [Capacitar funcionários remotos](empower-people-to-work-remotely.md) para obter um roteiro para implantar os elementos da infraestrutura e conduzir o usuário remoto na adoção das principais cargas de trabalho, como o Teams e o Exchange Online.
 
@@ -45,9 +45,9 @@ Para proteger esses dados contra ameaças internas e externas, confira:
 
 Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
 
-Veja a seguir as cargas de trabalho e os cenários no guia de implantação geral do Microsoft 365 Enterprise:
+Veja a seguir os cenários e cargas de trabalho no guia de implantação geral do Microsoft 365 para empresas:
 
-![As cargas de trabalho e os cenários no guia de implantação geral do Microsoft 365 Enterprise](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+![Cenários e cargas de trabalho no guia de implantação geral do Microsoft 365 para empresas](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 Confira a [Biblioteca de Produtividade do Microsoft 365](https://aka.ms/productivitylibrary) https://aka.ms/productivitylibrary) para ver cenários adicionais. 
 
@@ -64,7 +64,7 @@ Confira a [Biblioteca de Produtividade do Microsoft 365](https://aka.ms/producti
 | Gerenciamento de dispositivo móvel | Os dispositivos podem ser registrados e gerenciados. |
 | Proteção de informações | Os recursos de proteção de informações do Microsoft 365 estão configurados e sua confidencialidade ou os rótulos de proteção de informações do Azure estão prontos para proteger documentos e emails. |
 
-Lembre-se de que esse processo é o ideal e pode levar algum tempo para planejar, configurar, testar e desenvolver um piloto, especialmente em grandes organizações com infraestrutura existente e diversos locais. Não é necessário completar todas essas fases em todos os locais para aproveitar mais rapidamente o valor empresarial do Microsoft 365 Enterprise. 
+Lembre-se de que esse processo é o ideal e pode levar algum tempo para planejar, configurar, testar e desenvolver um piloto, especialmente em grandes organizações com infraestrutura existente e diversos locais. Não é necessário completar todas essas fases em todos os locais para aproveitar mais rapidamente o valor empresarial do Microsoft 365 para empresas. 
 
 Estas estão algumas cargas de trabalho comuns para implantar imediatamente: 
 

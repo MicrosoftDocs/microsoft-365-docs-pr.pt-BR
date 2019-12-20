@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: cb728c4e6a88fc7bb47716a40addd01f9828208f
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: 775802f8aecf04668641c2e7d6b24e645a7c9f90
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "39622402"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823733"
 ---
 # <a name="data-classification-overview-preview"></a>Visão geral da classificação de dados (visualização)
 
@@ -59,6 +59,8 @@ Quando você aplica um rótulo de confidencialidade a um item ou através do Mic
 - a presença da marca ativa vários comportamentos de proteção, como uma marca d' água obrigatória ou a criptografia. Com a proteção de ponto de extremidade habilitada, você pode até mesmo impedir que um item saia de seu controle organizacional.
 
 Para obter mais informações sobre rótulos de confidencialidade, confira [Visão geral de rótulos de confidencialidade](sensitivity-labels.md)
+
+Os rótulos de confidencialidade devem ser habilitados para arquivos que estão no SharePoint e no OneDrive para que os dados correspondentes apareçam na página de classificação de dados. Para saber mais, confira [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
 
 O cartão de identificação de confidencialidade mostra o número de itens (email ou documento) por nível de confidencialidade.
 

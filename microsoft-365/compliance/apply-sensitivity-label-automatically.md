@@ -1,11 +1,11 @@
 ---
 title: Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.service: O365-seccomp
-ms.date: 11/01/2019
+ms.date: 12/13/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 3c5b52c89c9a5eb9e78e670bce0b5c3edec89cd1
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 77a0b3cdf88301677451fe7fe1bac58de2a40a5f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256708"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807836"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -33,7 +33,7 @@ A capacidade de aplicar rótulos de confidencialidade automaticamente ao conteú
 
 - Os usuários não precisam mais conhecer as políticas. Em vez disso, eles podem se concentrar no próprio trabalho.
 
-Para mais informações sobre os requisitos de licença, confira [Rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
+Para saber mais sobre os requisitos de licença, confira [Requisitos de assinatura e licenciamento de rótulos de confidencialidade](sensitivity-labels-office-apps.md#subscription-and-licensing-requirements-for-sensitivity-labels).
 
 As configurações de rotulagem automática estão disponíveis quando você cria um rótulo de confidencialidade no centro de conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de confidencialidade**.
 

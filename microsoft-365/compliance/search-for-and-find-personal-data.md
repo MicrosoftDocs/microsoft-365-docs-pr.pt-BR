@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como pesquisar e localizar dados pessoais no Office 365.
-ms.openlocfilehash: f553f29ac1327fa84c2d52f80379593c9291d610
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 75c6afaae18cddc0c8e63cac671ac1140e3fa303
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38709974"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802854"
 ---
 # <a name="search-for-and-find-personal-data"></a>Pesquisar e localizar dados pessoais
 
@@ -33,9 +33,7 @@ Artigo 4 – Definições
 
 Este artigo demonstra como localizar dados pessoais armazenados no SharePoint Online e no OneDrive for Business (que inclui os sites de todos os grupos do Office 365 e Microsoft Teams).
 
-A localização dos dados pessoais sujeitos ao RGPD depende do uso dos tipos de informações confidenciais no Office 365. Eles definem como o processo automatizado reconhecerá os tipos de informações específicas, como números de serviço de saúde e de cartões de crédito. No momento, não é possível usá-los para localizar dados em repouso nas caixas de correio do Exchange. Porém, os tipos de informações confidenciais podem ser usados com as políticas de prevenção contra perda de dados para localizar dados pessoais no email em trânsito.
-
-Portanto, mesmo que ainda não seja possível usar a Pesquisa de Conteúdo para localizar dados pessoais em repouso nas caixas de correio do Exchange Online, você pode usar os tipos de informações confidenciais que selecionar para o RGPD e localizar e proteger informações pessoais ao serem enviadas por email.
+A localização de dados pessoais sujeitos ao GDPR se baseia no uso de tipos de informações confidenciais no Office 365. Eles definem como o processo automatizado reconhece os tipos de informações específicas, como números de serviços de saúde e cartão de crédito. Você pode usar as políticas de prevenção contra perda de dados para localizar dados pessoais no email enquanto está em trânsito. Você pode usar os tipos de informações confidenciais que deseja para o RGPD localizar e proteger as informações pessoais conforme elas são enviadas por email. Confira também, [Solicitações de entidades de dados GDPR gerenciados com a ferramenta de caso DSR no Centro de Conformidade & Segurança](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool).
 
 ## <a name="use-content-search-to-find-personal-data"></a>Usar a Pesquisa de Conteúdo para localizar dados pessoais
 

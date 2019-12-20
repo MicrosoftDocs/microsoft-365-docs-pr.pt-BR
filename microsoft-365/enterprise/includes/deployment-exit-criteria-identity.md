@@ -1,4 +1,4 @@
-Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites) para obter outras recomendações de infraestrutura de identidade.
+Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites) para obter outras recomendações de infraestrutura de identidade.
 
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>Obrigatório: as contas de administrador global estarem protegidas 
@@ -14,7 +14,7 @@ Se necessário, a [Etapa 1](../identity-create-protect-global-admins.md#identity
 Use estas etapas para verificar se você protegeu suas contas de administrador global:
 
 1. Execute o comando a seguir do PowerShell do Azure Active Directory para Graph no prompt de comando do PowerShell. Você deverá ver apenas a lista de contas dedicadas de administrador global.
-   ```
+   ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
 2. Entre no Office 365 usando cada uma das contas da Etapa 1. Cada entrada deve exigir a Autenticação Multifator do Azure e a forma mais segura de autenticação secundária disponível em sua organização.
@@ -93,7 +93,7 @@ Se necessário, a [Etapa 3](../identity-secure-user-sign-ins.md#identity-mfa) po
 5.  Exclua a conta de usuário de teste.
 
 <a name="crit-identity-ident-prot"></a>
-### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>Opcional: o Azure AD Identity Protection estar ativado para proteger você contra o comprometimento de credenciais (Microsoft 365 Enterprise E5 apenas)
+### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>Opcional: a Proteção de Identidade do Azure AD ser ativada para proteger você contra o comprometimento de credenciais (Microsoft 365 Enterprise E5 apenas)
 
 Você ativou o Azure AD Identity Protection para:
 

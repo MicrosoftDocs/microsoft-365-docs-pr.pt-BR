@@ -1,7 +1,7 @@
 ---
 title: Número de identificação do imposto da UE
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação de imposto da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: adcd9be9b5f8775ad39010d771ff2ac214df1e17
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0ee76fa46bb22b2754098d053ab769b862fdd3f2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072659"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805844"
 ---
 # <a name="eu-tax-identification-number"></a>Número de identificação do imposto da UE
 
 Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação de imposto (TIN) da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
   
-## <a name="austria"></a>Áustria 
+## <a name="austria"></a>Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -86,7 +86,7 @@ st.nr.
   
 steuernummer
   
-## <a name="belgium"></a>Bélgica 
+## <a name="belgium"></a>Bélgica
 
 ### <a name="format"></a>Formatar
 
@@ -108,7 +108,7 @@ steuernummer
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -296,7 +296,7 @@ Oito dígitos e uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -363,7 +363,7 @@ Nove ou dez dígitos com uma barra invertida opcional:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -636,7 +636,7 @@ Nove dígitos para entidades
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -758,7 +758,7 @@ Nove dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -909,7 +909,7 @@ Sete dígitos seguidos de uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1124,7 +1124,7 @@ nodokļu identifikācija numurs
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1272,7 +1272,7 @@ Entidades nacionais e Maltês não-maltês: 9 dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1576,7 +1576,7 @@ número de identificação fiscal
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1632,7 +1632,7 @@ numărul de identificare Fiscală
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -2027,5 +2027,5 @@ arquivo de impostos não.
   
 ## <a name="see-also"></a>Confira também
 
-[O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
+[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 

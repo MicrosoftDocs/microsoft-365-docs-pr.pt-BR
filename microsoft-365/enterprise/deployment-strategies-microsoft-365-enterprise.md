@@ -1,5 +1,5 @@
 ---
-title: Estratégias de implantação da infraestrutura de base do Microsoft 365 Enterprise
+title: Estratégias de implantação da infraestrutura de base do Microsoft 365 para empresas
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
@@ -12,24 +12,24 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Conheça algumas maneiras de implantar as fases da infraestrutura de base para o Microsoft 365 Enterprise.
-ms.openlocfilehash: 0c700c10969142116cc73fc90e8fd283fa6fc6dc
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+description: Conheça algumas maneiras de implantar as fases da infraestrutura de base do Microsoft 365 para empresas.
+ms.openlocfilehash: 354ce1a30b91f602049143dc0e93fe01629e6b04
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369432"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801886"
 ---
-# <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 Enterprise
+# <a name="microsoft-365-for-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 para empresas
 
-Há várias maneiras de implantar as fases da [infraestrutura de base](deploy-foundation-infrastructure.md) do Microsoft 365 Enterprise e distribuir os respectivos recursos, software e serviços para os usuários. Para iniciar o gerenciamento de projeto desta ação, que pode ser grande e complexa a depender do tamanho da sua organização e da infraestrutura existente, considere as estratégias de implantação a seguir:
+Há várias maneiras de implantar as fases da [infraestrutura de base](deploy-foundation-infrastructure.md) do Microsoft 365 para empresas e distribuir os respectivos recursos, software e serviços para os usuários. Para iniciar o gerenciamento de projeto desta ação, que pode ser grande e complexa a depender do tamanho da sua organização e da infraestrutura existente, considere as estratégias de implantação a seguir:
 
 - Implantação em série
 - Implantação paralela com lançamento não sobreposto para o usuário
 - Implantação paralela com lançamento sobreposto para o usuário
 - Infraestrutura inicial e lançamento da configuração de ponta a ponta
 
-Use essas estratégias como ideias sobre como gerenciar o projeto em geral e por em prática mais rapidamente as vantagens do Microsoft 365 Enterprise.
+Use essas estratégias como ideias sobre como gerenciar o projeto em geral e obter mais rapidamente as vantagens do Microsoft 365 para empresas.
 
 >[!Note]
 >Este artigo contém pressuposições e simplificações para um modo consistente de descrever as estratégias de implantação. Essas estratégias são generalizadas e seu objetivo não é de impor qualquer cronograma específico nem se destinam para aplicação em todas as situações e organizações.
@@ -74,14 +74,14 @@ Com uma implantação em série, você lança totalmente uma fase, permitindo qu
 - Dependências de tecnologia do TI
 - Gestão de mudança nos negócios e resistência dos usuários finais
 
-Este gráfico de Gantt mostra uma implantação em série simplificada das etapas 2 a 6 da infraestrutura de base para o Microsoft 365 Enterprise.
+Este gráfico de Gantt mostra uma implantação em série simplificada das etapas 2 a 6 da infraestrutura de base para o Microsoft 365 para empresas.
 
 ![A implantação serial das fases 2-6 da infraestrutura de base](./media/deployment-strategies-microsoft-365-enterprise/serial.png) 
  
 Para simplificar a discussão e o exemplo, presume-se que cada fase e segmento de implantação de cada etapa duram o mesmo tempo.
 
 >[!Note]
->Fase 1: a fase de rede da infraestrutura de base do Microsoft 365 Enterprise é de responsabilidade exclusiva do TI. Os usuários colhem os benefícios de uma conectividade otimizada com os recursos de nuvem da Microsoft, mas não sofrem pressão para alcançá-los.
+>Fase 1: A fase de rede da infraestrutura de base do Microsoft 365 para empresas é de responsabilidade exclusiva do TI. Os usuários colhem os benefícios de uma conectividade otimizada com os recursos de nuvem da Microsoft, mas não sofrem pressão para alcançá-los.
 >
 
 Esta é uma experiência teste de usuário simplificada como um exemplo:
@@ -104,7 +104,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 O resultado é uma cadência de 90 dias entre lançamentos sucessivos para o usuário.
 
-A desvantagem dessa estratégia de implantação é que pode levar muito tempo para implantar totalmente a infraestrutura de base do Microsoft 365 Enterprise.
+A desvantagem dessa estratégia de implantação é que pode levar muito tempo para implantar totalmente a infraestrutura de base do Microsoft 365 para empresas.
 
 ### <a name="parallel-deployment-with-non-overlapping-user-rollout-parallel-1"></a>Implantação paralela com lançamento não sobreposto para o usuário (Paralelo 1)
 
@@ -134,7 +134,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 O resultado é uma cadência de 60 dias entre lançamentos sucessivos para o usuário.
 
-A vantagem dessa estratégia de implantação é que pode levar menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 Enterprise, sem forçar seu departamento de TI e os usuários a lidar com vários lançamentos simultâneos.
+A vantagem dessa estratégia de implantação é que pode levar menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 para empresas, sem que o departamento de TI e os usuários lidem com várias distribuições ao mesmo tempo.
 
 ### <a name="parallel-deployment-with-overlapping-user-rollout-parallel-2"></a>Implantação paralela com lançamento sobreposto para o usuário (Paralelo 2)
 
@@ -172,7 +172,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 O resultado é uma cadência de 30 dias entre lançamentos sucessivos para o usuário.
 
-A vantagem dessa estratégia de implantação é que pode levar menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 Enterprise, sem que os usuários lidem com vários lançamentos simultaneamente. No entanto, não há interrupção entre as fases sucessivas para os usuários.
+A vantagem dessa estratégia de implantação é que pode levar menos tempo para implantar totalmente a infraestrutura de base do Microsoft 365 para empresas, ainda sem que os usuários lidem com vários lançamentos simultaneamente. No entanto, não há interrupção entre as fases sucessivas para os usuários.
 
 ### <a name="up-front-infrastructure-and-rollout-of-the-end-to-end-configuration"></a>Infraestrutura inicial e lançamento da configuração de ponta a ponta
 
@@ -192,4 +192,4 @@ Após a conclusão do lançamento piloto, começa o lançamento para os usuário
 
 ## <a name="next-step"></a>Próxima etapa
 
-Iniciar a implantação do Microsoft 365 Enterprise com a [infraestrutura de base](deploy-foundation-infrastructure.md).
+Iniciar a implantação do Microsoft 365 para empresas com a [infraestrutura de base](deploy-foundation-infrastructure.md).

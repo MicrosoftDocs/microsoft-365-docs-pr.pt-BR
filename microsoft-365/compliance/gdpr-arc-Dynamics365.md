@@ -13,12 +13,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 055c19715ff5dcd28ae05489600a31b2f7904e72
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 828c4f7faaae1225d438a4d34b159d981b31b141
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749623"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806514"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Dynamics 365 para o RGPD
 
@@ -26,7 +27,7 @@ ms.locfileid: "38749623"
 
 Essa lista de verificação de prontidão de responsabilidade fornece uma maneira conveniente de acessar informações necessárias para dar suporte ao RGPD ao usar o Microsoft Dynamics 365. A lista de verificação é organizada usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança processadores de dados pessoais extraídos de:
 
-- Requisitos de técnicas de segurança da [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735).
+- [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) para requisitos de técnicas de segurança.
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de privacidade.
 
 Você pode gerenciar os itens nesta lista de verificação com o Gerente de Conformidade [[15](gdpr-arc-Dynamics365.md#15)] fazendo referência à ID de controle e ao Título do controle em *Controles gerenciados do cliente* no bloco RGPD.

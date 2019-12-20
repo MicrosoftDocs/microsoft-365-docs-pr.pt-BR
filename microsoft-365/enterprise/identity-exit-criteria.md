@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: 94343400482083b2e793ff218816f06cb982187e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 540d3c01ea368634cebafb2ec3dd5562fcb0b73c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627387"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801746"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
@@ -26,7 +26,7 @@ ms.locfileid: "38627387"
 
 Verifique se a sua infraestrutura de identidade atende aos seguintes critérios necessários e que você considerou os que são opcionais.
 
-Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites) para obter outras recomendações de infraestrutura de identidade.
+Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites) para obter outras recomendações de infraestrutura de identidade.
 
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>Obrigatório: as contas de administrador global estarem protegidas 
@@ -121,7 +121,7 @@ Se necessário, a [Etapa 3](identity-secure-user-sign-ins.md#identity-mfa) pode 
 5.  Exclua a conta de usuário de teste.
 
 <a name="crit-identity-ident-prot"></a>
-## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>Opcional: o Azure AD Identity Protection estar ativado para proteger você contra o comprometimento de credenciais (Microsoft 365 Enterprise E5 apenas)
+## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>Opcional: a Proteção de Identidade do Azure AD ser ativada para proteger você contra o comprometimento de credenciais (Microsoft 365 Enterprise E5 apenas)
 
 Você ativou o Azure AD Identity Protection para:
 

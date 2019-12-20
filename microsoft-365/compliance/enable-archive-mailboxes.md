@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Use o Centro de Conformidade e Segurança no Office 365 para permitir que as caixas de correio de arquivo morto ofereçam suporte à retenção de mensagens, à descoberta eletrônica e aos requisitos de retenção da sua organização.
-ms.openlocfilehash: 63c6986e3bf053f09ce4c4925735e920da3b5ed4
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 29c90b85b4f8d05664ea6d28f8997265b7e14b49
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793665"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967354"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Ative as caixas de correio de arquivo morto no Centro de Conformidade e Segurança
   
@@ -41,7 +41,7 @@ Você precisa ter atribuída a função de Destinatários de Email no Exchange O
     
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
     
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de dados** \> **Arquivo**.
+3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Arquivo**.
     
     A página **Arquivo** é exibida. A coluna **Caixa de correio de arquivo morto** indica se uma caixa de correio de arquivo morto está habilitada ou desabilitada para cada usuário. 
     
@@ -72,7 +72,7 @@ Para desabilitar uma caixa de correio de arquivo morto:
     
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
     
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de dados** \> **Arquivo**.
+3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Arquivo**.
     
     A página **Arquivo** é exibida. A coluna **Caixa de correio de arquivo morto** indica se uma caixa de correio de arquivo morto está habilitada ou desabilitada para cada usuário. 
     

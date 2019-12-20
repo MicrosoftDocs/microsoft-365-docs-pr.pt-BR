@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Adicione contas de usuários e grupos diretamente na nuvem ou sincronizando-as com o diretório local.
-ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 04564d86031642276e964f3a70fa2729f6b16c00
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370218"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801836"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Fase 4: adicionar suas contas de usuário
 
@@ -82,7 +82,7 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 <a name="identity-sync-health"></a>
 ## <a name="monitor-synchronization-health"></a>Monitorar a integridade da sincronização
 
-*Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
+*Isso é opcional e se aplica tanto à versão E3 quanto à versão E5 do Microsoft 365* 
 
 Nesta seção, você instalará um agente do Azure AD Connect Health em cada um dos seus controladores de domínio AD DS locais para monitorar sua infraestrutura de identidade e os serviços de sincronização fornecidos pelo Azure AD Connect. As informações de monitoramento são disponibilizadas em um portal do Azure AD Connect Health, onde você pode ver alertas, monitoramento de desempenho, análise de uso e outras informações.
 

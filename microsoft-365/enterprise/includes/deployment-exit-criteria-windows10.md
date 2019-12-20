@@ -71,19 +71,19 @@ Se necessário, a [Etapa 4](../windows10-enable-windows-analytics.md) pode ajud�
 <a name="crit-windows10-step5a"></a>
 ### <a name="required-you-are-using-windows-defender-antivirus-or-your-own-antimalware-solution"></a>Obrigatório: você está usando o Windows Defender Antivirus ou uma solução antimalware
 
-Você implantou o Windows Defender Antivirus ou sua própria solução antivírus para proteger seus dispositivos que executam o Windows 10 Enterprise contra softwares mal-intencionados. Se tiver implantado o Windows Defender Antivirus, você implementou um método de relatório, como o System Center Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de antivírus.
+Você implantou o Windows Defender Antivirus ou sua própria solução antivírus para proteger seus dispositivos que executam o Windows 10 Enterprise contra softwares mal-intencionados. Se tiver implantado o Windows Defender Antivirus, você implementou um método de relatório, como o Microsoft Endpoint Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de antivírus.
 
 Se necessário, a [Etapa 5](../windows10-enable-security-features.md#windows10-sec-av) pode ajudá-lo com esse requisito.
 
 <a name="crit-windows10-step5b"></a>
 ### <a name="required-you-are-using-windows-defender-exploit-guard"></a>Obrigatório: você está usando o Windows Defender Exploit Guard
 
-Você implantou o Windows Defender Exploit Guard para proteger seus dispositivos que executam o Windows 10 Enterprise contra invasões e implementou um método de relatório, como o System Center Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de invasão.
+Você implantou o Windows Defender Exploit Guard para proteger seus dispositivos que executam o Windows 10 Enterprise contra invasões e implementou um método de relatório, como o Configuration Manager ou o Microsoft Intune, para monitorar eventos e atividades de invasão.
 
 Se necessário, a [Etapa 5](../windows10-enable-security-features.md#windows10-sec-eg) pode ajudá-lo com esse requisito.
 
 <a name="crit-windows10-step5c"></a>
-### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>Obrigatório: você está usando a Proteção Avançada Contra Ameaças do Microsoft Defender (Microsoft 365 Enterprise E5 apenas)
+### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-e5-only"></a>Obrigatório: você está usando a Proteção Avançada Contra Ameaças do Microsoft Defender (Microsoft 365 Enterprise E5 apenas)
 
 Você implantou a Proteção Avançada contra Ameaças do Microsoft Defender (ATP) para detectar, investigar e responder a ameaças avançadas contra sua rede e dispositivos que executam o Windows 10 Enterprise. 
 

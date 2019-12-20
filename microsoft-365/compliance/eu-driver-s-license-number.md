@@ -1,7 +1,7 @@
 ---
 title: Número da carteira de motorista da UE
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de licença do driver da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: f1a95ecbaf6b6d1ac189290dd6d076cfd91ab30f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6df025caf8d06c617e09a3b53dc6c82d69aaf5a8
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072679"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805954"
 ---
 # <a name="eu-drivers-license-number"></a>Número da carteira de motorista da UE
 
 Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de licença do driver da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
   
-## <a name="austria"></a>Áustria 
+## <a name="austria"></a>Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -57,11 +57,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_austria_eu_driver's_license_number**|
+|**Keywords_austria_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/>  número da licença de dirigir  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
    
-## <a name="belgium"></a>Bélgica 
+## <a name="belgium"></a>Bélgica
 
 ### <a name="format"></a>Formatar
 
@@ -97,7 +97,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords__belgium_eu_driver's_license_number**|
+|**Keywords__belgium_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein- nr  <br/> fuehrerschein- Nr  <br/> fuehrerschein- nr  <br/> |
    
@@ -137,7 +137,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_bulgaria_eu_driver's_license_number**|
+|**Keywords_bulgaria_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> свидетелство за управление на мпс  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
    
@@ -177,7 +177,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_croatia_eu_driver's_license_number**|
+|**Keywords_croatia_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> vozačka dozvola  <br/> |
    
@@ -216,7 +216,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_cyprus_eu_driver's_license_number**|
+|**Keywords_cyprus_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> άδεια οδήγησης  <br/> |
    
@@ -262,7 +262,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_czech_republic_eu_driver's_license_number**|
+|**Keywords_czech_republic_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> řidičský prúkaz  <br/> |
    
@@ -302,7 +302,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_denmark_eu_driver's_license_number**|
+|**Keywords_denmark_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
    
@@ -345,7 +345,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_estonia_eu_driver's_license_number**|
+|**Keywords_estonia_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número da licença de dirigir  <br/> dlno #  <br/> permis de conduire  <br/> |
    
@@ -390,7 +390,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_finland_eu_driver's_license_number**|
+|**Keywords_finland_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> ajokortti  <br/> |
    
@@ -437,7 +437,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_greece_eu_driver's_license_number**|
+|**Keywords_greece_eu_driver ' s_license_number**|
 |:-----|
 |dlL #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
    
@@ -480,7 +480,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_hungary_eu_driver's_license_number**|
+|**Keywords_hungary_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> vezetoi engedely  <br/> |
    
@@ -523,7 +523,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_ireland_eu_driver's_license_number**|
+|**Keywords_ireland_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
    
@@ -570,7 +570,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_latvia_eu_driver's_license_number**|
+|**Keywords_latvia_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
    
@@ -609,7 +609,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_lithuania_eu_driver's_license_number**|
+|**Keywords_lithuania_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
    
@@ -648,7 +648,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_luxemburg_eu_driver's_license_number**|
+|**Keywords_luxemburg_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
    
@@ -697,7 +697,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_malta_eu_driver's_license_number**|
+|**Keywords_malta_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> liċenzja tas-sewqan  <br/> |
    
@@ -736,7 +736,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_netherlands_eu_driver's_license_number**|
+|**Keywords_netherlands_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
    
@@ -785,7 +785,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_poland_eu_driver's_license_number**|
+|**Keywords_poland_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> prawo jazdy  <br/> |
    
@@ -834,7 +834,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_portugal_eu_driver's_license_number**|
+|**Keywords_portugal_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> carteira de motorista  <br/> |
    
@@ -877,7 +877,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_romania_eu_driver's_license_number**|
+|**Keywords_romania_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> permé de conducere  <br/> |
    
@@ -920,7 +920,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_slovakia_eu_driver's_license_number**|
+|**Keywords_slovakia_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> vodičský preukaz  <br/> |
    
@@ -959,7 +959,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_slovenia_eu_driver's_license_number**|
+|**Keywords_slovenia_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
    
@@ -1002,7 +1002,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_spain_eu_driver's_license_number**|
+|**Keywords_spain_eu_driver ' s_license_number**|
 |:-----|
 |dlno #  <br/> distribuição #  <br/> drivers driver'lic.  <br/> licença de driver  <br/> driver license  <br/> drivers licence  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> driving licence  <br/> driving licence  <br/> número de licença de driver  <br/> número de carteira de motorista  <br/> número de licença de drivers  <br/> número de licença de drivers  <br/> número de licença do driver  <br/> número da carteira de motorista  <br/> número da licença de dirigir  <br/> número da licença de dirigir  <br/> permissão de condução  <br/> número de permissão de dirigir  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de Carnet de conducir  <br/> número Carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> El Carnet de conducir  <br/> carnet conducir  <br/> |
    
@@ -1047,7 +1047,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 | |
-|**Keywords_sweden_eu_driver's_license_number**|
+|**Keywords_sweden_eu_driver ' s_license_number**|
 |:-----|
 |distribuição #  <br/> driver license  <br/> número de carteira de motorista  <br/> licença de driver  <br/> drivers driver'lic.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> número da carteira de motorista  <br/> número de licença do driver  <br/> número da licença de dirigir  <br/> dlno #  <br/> körkort  <br/> |
    
@@ -1057,5 +1057,5 @@ Para obter detalhes, consulte a seção "Reino Unido Número da carteira de moto
   
 ## <a name="see-also"></a>Confira também
 
-[O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
+[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 
