@@ -3,6 +3,7 @@ title: Testar a análise de relevância na descoberta eletrônica avançada do O
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 09/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Saiba como usar a guia teste após o cálculo em lote na descoberta eletrônica avançada do Office 365 para testar, comparar e validar a qualidade geral do processamento.  '
-ms.openlocfilehash: 7d150b9f68cdcd3246fbd4d8f79e0972a81a4703
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cda959c77b2d51f85f1396eb27d16d2690321bb6
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073076"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802624"
 ---
 # <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Testar a análise de relevância na descoberta eletrônica avançada do Office 365
 

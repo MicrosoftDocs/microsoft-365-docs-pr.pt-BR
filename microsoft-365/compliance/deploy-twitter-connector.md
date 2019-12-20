@@ -1,5 +1,5 @@
 ---
-title: Implantar um conector para arquivar dados do Twitter no Office 365
+title: Implantar um conector para arquivar dados do Twitter
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar dados do Twitter para o Office 365. Depois que esses dados são importados para o Office 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados do Twitter da sua organização.
-ms.openlocfilehash: fda03e3e489b0ae9c754f2eba18bc60785bb3def
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 87faad6546d70b1e3893e2f5737af189ebb5f77b
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684895"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806144"
 ---
-# <a name="deploy-a-connector-to-archive-twitter-data-in-office-365"></a>Implantar um conector para arquivar dados do Twitter no Office 365
+# <a name="deploy-a-connector-to-archive-twitter-data"></a>Implantar um conector para arquivar dados do Twitter
 
 Este artigo contém o processo passo a passo para implantar um conector que usa o serviço de importação do Office 365 para importar dados da conta do Twitter da sua organização para o Office 365. Para obter uma visão geral de alto nível desse processo e uma lista de pré-requisitos necessários para implantar um conector do Twitter, consulte [usar um conector de exemplo para arquivar dados do Twitter no Office 365 (versão prévia)](archive-twitter-data-with-sample-connector.md). 
 
@@ -206,7 +206,7 @@ O aplicativo de desenvolvedor do Twitter agora está pronto para uso.
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security-and-compliance-center"></a>Etapa 7: configurar um conector personalizado no centro de conformidade e segurança
 
-1.  Vá para <https://protection.office.com> e, em seguida, clique em **arquivar importação \> \> de governança de dados dados de terceiros**.
+1.  Vá para <https://protection.office.com> e, em seguida, clique em **importação \> \> de governança de informações arquivar dados de terceiros**.
 
     ![Ir para arquivo morto de página de dados de terceiros no centro de conformidade e segurança](media/TCimage36.png)
 

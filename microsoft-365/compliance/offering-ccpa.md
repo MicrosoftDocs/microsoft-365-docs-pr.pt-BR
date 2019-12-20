@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 115b0499d481b29361c74db1dfa0481933616405
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b6f24cb1afcefc9ddbe468530855603e7ee0f484
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859411"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804184"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de privacidade e proteção de dados da Califórnia)
 
@@ -36,7 +37,7 @@ Para clientes comerciais que façam negócios na Califórnia, a Microsoft atuar�
 
 Conforme definido no OST, a Microsoft está em conformidade com todas as leis e regulamentos aplicáveis à sua provisão dos serviços online, o que inclui o CCPA.  
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Operações de desenvolvimento do Azure
@@ -96,4 +97,4 @@ O CCPA exige que as empresas regulamentadas coletem, transfiram e vendam informa
 - [Introdução ao guia do CCPA](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [Solicitações de entidades de dados e o RGPD](gdpr-data-subject-requests.md)
 - [Perguntas frequentes sobre a lei de privacidade do consumidor da Califórnia (CCPA)](ccpa-faq.md)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

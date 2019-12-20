@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1bc568d6db13dd91d0e16e29633dccc58e28fc2a
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 35e1887d37f3ca5840d595c7927ff4d6064e08d9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859471"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804234"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act de 2002 (SOX)
 
@@ -40,7 +41,7 @@ Na Microsoft, compartilhamos a responsabilidade de conformidade com nossos clien
 
 Saiba mais sobre como usar os relatórios de conformidade do Microsoft Azure ao lidar com as obrigações de conformidade SOX: [baixar as diretrizes do Azure para Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

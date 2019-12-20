@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8d28327e4627351c27140e954c2fa26571d1689d
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: cdaf19b59960745e32e00b6833cea5edfd6258a5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39860041"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805398"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 
@@ -40,7 +41,7 @@ Saiba mais sobre os benefícios da política de segurança do CJIS na nuvem da M
 
 Saiba como acelerar sua política de segurança do CJIS com o plano de conformidade e segurança do Azure: [Baixe as diretrizes de implementação do CJIS para os serviços de nuvem do Microsoft governo](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)

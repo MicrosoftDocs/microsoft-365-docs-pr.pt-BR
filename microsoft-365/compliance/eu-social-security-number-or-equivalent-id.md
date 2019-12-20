@@ -1,7 +1,7 @@
 ---
 title: Número de seguro social da UE ou ID equivalente
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o número de segurança social da UE ou o tipo de informação confidencial de ID equivalente. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: b42a8d927e18f813eb6ef6d1d55b2de15ea9dcd5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0666818dc892070f5c2f0c34abd8ca33d1253e33
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072664"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805924"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>Número de seguro social da UE ou ID equivalente
 
 Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o número de segurança social da UE (SSN) ou o tipo de informação confidencial de ID equivalente. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
   
-## <a name="austria"></a>Áustria 
+## <a name="austria"></a>Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -96,7 +96,7 @@ soziale sicherheit kein
   
 versicherungsnummer
   
-## <a name="belgium"></a>Bélgica 
+## <a name="belgium"></a>Bélgica
 
 ### <a name="format"></a>Formatar
 
@@ -673,5 +673,5 @@ identifikationsnumret #
   
 ## <a name="see-also"></a>Confira também
 
-[O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
+[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 

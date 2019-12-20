@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 51f242408e749e7d9bde60a9d462d4a9156f68fc
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 39ce4518e12b4446b339cbf7341a354bf5bd8876
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633580"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805964"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
@@ -35,15 +35,15 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 
 - Uma descrição do campo meta dados (na **coluna Descrição**).
 
-| Nome do campo | Nome do campo pesquisável | Nome do campo exportado | Nome do campo de exibição | Descrição |
-| :- |  :- |  :- |  :- |  :- |
+|Nome do campo|Nome do campo pesquisável|Nome do campo exportado|Nome do campo de exibição|Descrição|
+|:-|:-|:-|:-|:-|
 | ID de conteúdo do anexo | AttachmentContentId |  | ID de conteúdo do anexo | ID do conteúdo do anexo do item. |
 | Nomes de anexos | Attachmentnames | Attachment_Names | Nomes de anexos | Lista de nomes de anexos. |
 | Pontuação de privilégio de cliente advogado | AttorneyClientPrivilegeScore |  | Pontuação de privilégio de cliente advogado | Advogado-Pontuação de conteúdo do modelo de privilégio do cliente. |
 | Autor | Autor | Doc_authors | Autor | Autor dos metadados do documento. |
 | BCC | Cco | Email_bcc | BCC | Campo Cco para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
 | CC | Cc | Email_cc | CC | Campo CC para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
-| Rótulos de conformidade | ComplianceLabels | Compliance_labels | Rótulos de conformidade | Rótulos de conformidade aplicados no Office 365. |
+| Rótulos de conformidade | ComplianceLabels | Compliance_labels | Rótulos de conformidade |[Rótulos de retenção](labels.md) aplicados ao conteúdo no Office 365. |
 | Caminho composto | CompoundPath | Compound_path | Caminho composto | Caminho legível humana que descreve a fonte do item. |
 | Conteúdo | Conteúdo |  |  | Texto extraído do item. |
 | Corpo da conversa | Corpo da conversa |  | Corpo da conversa | Corpo da conversa do item. |

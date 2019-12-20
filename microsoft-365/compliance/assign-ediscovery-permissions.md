@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 067a54f6286df5a5ce6e5b02b7ea1d6964b16777
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 54a12334c4b63e1751d578dcd5a9c79d887d246d
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39603745"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823723"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -88,7 +88,7 @@ As seções a seguir descrevem cada uma das funções RBAC relacionadas à desco
 
 ### <a name="case-management"></a>Gerenciamento de casos
 
-Essa função permite que os usuários criem, editem, excluam e controlem o acesso a casos de descoberta eletrônica no centro de conformidade de & de segurança. Para obter mais informações, consulte [gerenciar casos de descoberta eletrônica no centro de conformidade de & de segurança](manage-ediscovery-cases.md). Como explicado anteriormente, um usuário deve ter a função de gerenciamento de casos atribuída antes que você possa usar o cmdlet **Add-eDiscoveryCaseAdmin** para torná-los um administrador de descoberta eletrônica. 
+Essa função permite que os usuários criem, editem, excluam e controlem o acesso a casos de descoberta eletrônica no centro de conformidade de & de segurança. Para obter mais informações, consulte [gerenciar casos de descoberta eletrônica no centro de conformidade de & de segurança](ediscovery-cases.md). Como explicado anteriormente, um usuário deve ter a função de gerenciamento de casos atribuída antes que você possa usar o cmdlet **Add-eDiscoveryCaseAdmin** para torná-los um administrador de descoberta eletrônica. 
 
 ### <a name="compliance-search"></a>Pesquisa de Conformidade
 

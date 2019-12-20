@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8ed1da925da40b439d449638887808aa9830d6e0
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 0fbe175d16a7b588e8c0cb3e7b5457459c314bdc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859351"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804034"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -37,7 +38,7 @@ Saiba como acelerar sua implantação do NIST cybersecurity Framework com o Gere
 - [Baixar a segurança do Azure e a estrutura de verificação de avaliação de risco do NIST CSF](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 no gerente de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 para o governo](https://aka.ms/d365-compliance-list)
@@ -102,7 +103,7 @@ A Microsoft fornece as ofertas mais abrangentes em comparação a outros provedo
 - [Ordem executiva presidencial para reforçar o cybersecurity de redes federais e infra-estrutura crítica](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

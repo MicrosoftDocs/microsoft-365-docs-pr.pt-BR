@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: e7b3dbad49fd57005dffd7e39e61906efdab771d
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: a7967a4bd12f98f3654f2b5006568c868a7e134f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859341"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804014"
 ---
 # <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
@@ -39,7 +40,7 @@ Os requisitos do NIST SP 800 – 171 são um subconjunto do NIST SP 800-53, o pa
 
 Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações de defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas DFARS do departamento de defesa dos EUA que exigem conformidade com a segurança requisitos do NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)

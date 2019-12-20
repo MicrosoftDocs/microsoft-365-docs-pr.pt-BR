@@ -3,6 +3,7 @@ title: Definir problemas e atribuir usuários na descoberta eletrônica avançad
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: a7dad3cce54a3162cedf3c14e521f5e8fe966acf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a56942eec8f43ba9fd6175807437e71701c29e39
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071302"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806094"
 ---
 # <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada do Office 365
 
@@ -51,7 +52,7 @@ Na descoberta eletrônica avançada, um ou mais problemas podem ser definidos em
   
 7. Em **usuários selecionados**, na lista suspensa ao lado do nome do usuário selecionado, selecione um dos seguintes modos de amostragem: 
     
-  - **Ativado**: os arquivos podem ser exibidos e marcados. Essa é a configuração padrão.
+  - **Ativado**: os arquivos podem ser exibidos e marcados. Esta é a configuração padrão.
     
   - **Idle**: os arquivos podem ser exibidos; Tagged é opcional.
     

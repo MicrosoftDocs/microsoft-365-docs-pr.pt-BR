@@ -3,6 +3,7 @@ title: Importar conteúdo não-Office 365 para análise de descoberta eletrônic
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Como as etapas para importar o conteúdo que não é armazenado no O365 em um blob do Azure para que ele possa ser analisado com o AeD
-ms.openlocfilehash: 1c971c9f95d03d05db76f80344adeb93b0a72c06
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aa14a54c20ac580c6412e8dc534ec44520abb3c8
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072577"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823783"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada
 
@@ -39,7 +40,7 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
     
 - Uma ocorrência de descoberta eletrônica existente
     
-- Todos os arquivos para carregamento são coletados em pastas onde há uma pasta por responsáveis e o nome das pastas está neste formato *alias @ nome_do_domínio* . O *alias @ nome_do_domínio* deve ser Users Office 365 alias and Domain. Você pode coletar todas as pastas *alias @ DomainName* em uma pasta raiz. A pasta raiz pode conter apenas as pastas *alias @ DomainName* , não deve haver arquivos soltos na pasta raiz 
+- Todos os arquivos para carregamento são coletados em pastas onde há uma pasta por responsáveis e o nome das pastas está nesse formato *alias@domainname* . O *alias@domainname* deve ser Users alias e Domain do Office 365. Você pode coletar todas as pastas de *alias@domainname* em uma pasta raiz. A pasta raiz pode conter apenas as pastas *alias@domainname* , não deve haver arquivos soltos na pasta raiz 
     
 - Uma conta que seja um Gerenciador de descoberta eletrônica ou administrador de descoberta eletrônica
     
@@ -47,7 +48,8 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
     
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Carregar conteúdo que não seja do Office 365 na descoberta eletrônica avançada
 
-1. Como um Gerenciador de descoberta eletrônica ou administrador de descoberta eletrônica, abra o **eDiscovery**e abra o caso em que os dados não-Office 365 serão carregados. Se você precisar criar uma ocorrência, consulte [gerenciar casos de descoberta eletrônica no centro de conformidade &amp; de segurança do Office 365](manage-ediscovery-cases.md)
+
+1. Como um Gerenciador de descoberta eletrônica ou administrador de descoberta eletrônica, abra o **eDiscovery**e abra o caso em que os dados não-Office 365 serão carregados. Se você precisar criar uma ocorrência, consulte [gerenciar casos de descoberta eletrônica no centro de conformidade &amp; de segurança do Office 365](ediscovery-cases.md)
     
 2. Clique em **alternar para descoberta eletrônica avançada**
     
@@ -76,7 +78,7 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
     Para obter mais informações sobre a sintaxe do Azcopy, consulte [transferir dados com o Azcopy no Windows](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy) . 
     
     > [!IMPORTANT]
-    > Deve haver uma pasta raiz por usuário e o nome da pasta deve estar no formato *alias @ DomainName* . 
+    > Deve haver uma pasta raiz por usuário e o nome da pasta deve estar no formato *alias@domainname* . 
   
 8. Depois que as pastas terminarem o carregamento, volte para a descoberta eletrônica avançada. O conteúdo das pastas carregadas agora está pronto para ser processado na descoberta eletrônica avançada. Selecione o contêiner e clique no botão processo. Para obter mais detalhes sobre o processamento de descoberta eletrônica avançado, confira [executar o módulo de processo e carregar dados na descoberta eletrônica avançada do Office 365](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
     
@@ -84,6 +86,4 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
     > Depois que o contêiner for processado com êxito na descoberta eletrônica avançada, você não poderá mais adicionar novo conteúdo ao armazenamento SAS no Azure. Se você coletar conteúdo adicional e quiser adicioná-lo ao caso da análise de descoberta eletrônica avançada, você deve criar um novo contêiner de **dados que não seja do Office 365** e repetir este procedimento. 
   
     > [!NOTE]
-    > Se o contêiner *não for processado com êxito devido a problemas de nomenclatura de pasta* e você corrigir os problemas, ainda será necessário criar um novo contêiner e reconectar e carregar novamente usando os procedimentos deste artigo. 
-  
-
+    > Se o contêiner *não for processado com êxito devido a problemas de nomenclatura de pasta* e você corrigir os problemas, ainda será necessário criar um novo contêiner e reconectar e carregar novamente usando os procedimentos deste artigo.

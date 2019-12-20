@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 08ae4841f2523d5b5df576906bdf04e798d8e60f
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 915e70065e6efb05424c710bb3e8a98902857c6c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859511"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804244"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Valores de Securities e Exchange Commission (seg) 17a-4 (f) Estados Unidos
 
@@ -39,10 +40,10 @@ Para avaliar o Azure e o Office 365 conformidade com a norma SEC 17a-4 (f), a Mi
 - **Azure**: [avaliação de conformidade da SEC 17a-4 (f): armazenamento do Microsoft Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset validado que o [armazenamento de blob imutável do Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) com a opção de bloqueio de política, quando usado para manter BLOBs baseados em tempo em um formato não apagável e não-regravável (Worm), atende aos requisitos de armazenamento imutáveis da regra SEC. Cada blob (registro) é protegido contra modificação, substituição ou exclusão até que o período de retenção necessário tenha expirado e todas as isenções legais associadas tenham sido liberadas. Fornecedores de software e parceiros com cargas de trabalho confidenciais agora podem confiar no armazenamento de BLOBs imutáveis do Azure como uma solução de nuvem do Onestop para retenção de registros e armazenamento imutável. As instituições financeiras agora podem criar seus próprios aplicativos aproveitando esses recursos, enquanto permanecem em conformidade.
 - **Office 365**: [use o Exchange Online para estar em conformidade com a SEC 17a-4](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4), Cohasset validada [que o Office 365 com bloqueio de preservação](https://docs.microsoft.com/office365/securitycompliance/retention-policies#locking-a-retention-policy) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os revendedores, armazenar dados de forma que os ajudem a cumprir os requisitos da SEC para retenção de registros. As políticas de retenção no Office 365 ajudam a preservar uma ampla variedade de dados, incluindo emails, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas globais ou granulares de retenção de mensagens para armazenar dados por um período definido e além de um formato não-regravável, não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -70,7 +71,7 @@ Visões gerais, tutoriais e outros recursos de uso para criar soluções do Azur
 
 ## <a name="resources"></a>Recursos
 
-- Arquivamento no Microsoft Office 365, retenção de dados e regra 17a-4
+- [Arquivamento no Microsoft Office 365, retenção de dados e regra 17a-4](https://www.microsoft.com/microsoft-365/blog/2015/11/10/office-365-exchange-online-archiving-now-meets-sec-rule-17a-4-requirements/)
 - [Conformidade com serviços financeiros da Microsoft](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
 - [Programa de conformidade Microsoft Business Cloud Services e serviços financeiros](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)

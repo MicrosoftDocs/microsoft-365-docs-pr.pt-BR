@@ -1,7 +1,7 @@
 ---
 title: Número do Passport da UE
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/16/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: 44ee6e7b46d79772bcd3aec0fd26265f58f6c4c6
-ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
+ms.openlocfilehash: 4afcf7b764eb8976e0588464515256f7cb1bdb8d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39662796"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805944"
 ---
 # <a name="eu-passport-number"></a>Número do Passport da UE
 
@@ -39,7 +39,7 @@ Uma combinação de uma letra, sete dígitos e um espaço:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -78,7 +78,7 @@ Duas letras e seguidas por seis dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -488,7 +488,7 @@ Duas letras ou dígitos seguidos por sete dígitos:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -570,7 +570,7 @@ Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -687,7 +687,7 @@ Nove letras ou dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -902,7 +902,7 @@ Uma combinação de letras e números de oito ou nove caracteres:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 

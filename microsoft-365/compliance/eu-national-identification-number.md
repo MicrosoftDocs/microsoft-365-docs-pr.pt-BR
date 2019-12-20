@@ -1,7 +1,7 @@
 ---
 title: Número de identificação nacional da UE
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação nacional da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: cbcacb3f85877f5a84238468fb52d612d90f5f0b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c00619ed649db53777fa3629deac0162a3589475
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072671"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805934"
 ---
 # <a name="eu-national-identification-number"></a>Número de identificação nacional da UE
 
 Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação nacional da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
   
-## <a name="austria"></a>Áustria 
+## <a name="austria"></a>Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -37,7 +37,7 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -71,7 +71,7 @@ national id
   
 personalausweis republik österreich
   
-## <a name="belgium"></a>Bélgica 
+## <a name="belgium"></a>Bélgica
 
 Para obter detalhes, consulte a seção "número nacional da Bélgica" em o [que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).
   
@@ -175,7 +175,7 @@ Dez dígitos sem espaços e delimitadores
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -676,7 +676,7 @@ kodas.
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -749,7 +749,7 @@ Sete dígitos seguidos de uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1108,7 +1108,7 @@ Sete dígitos seguidos de um caractere
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1182,5 +1182,5 @@ Para obter detalhes, consulte a seção "ID nacional da Suécia" em [o que os ti
   
 ## <a name="see-also"></a>Confira também
 
-[O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md)
+[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
 
