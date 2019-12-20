@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Se um novo funcionário ou outro usuário precisar acessar o conteúdo de uma caixa de correio inativa no Office 365, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente.
-ms.openlocfilehash: fe71825435dd3dbcc0e1db79591a78ead83218ba
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 8cd8477695523fc6d1f7e8f0a1c939e8700720ba
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685009"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802990"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Restaurar uma caixa de correio inativa no Office 365
 
@@ -74,7 +74,7 @@ Use o cmdlet **New-MailboxRestoreRequest** com os parâmetros _SourceMailbox_ e 
 
 ## <a name="restore-the-archive-from-an-inactive-mailbox"></a>Restaurar o arquivo morto de uma caixa de correio inativa
 
-Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, você também poderá restaurá-la à caixa de correio de arquivo morto de uma caixa de correio existente. Para restaurar o arquivo morto de uma caixa de correio inativa, adicione as opções _SourceIsArchive_ e _TargetIsAchive_ ao comando usado para restaurar uma caixa de correio inativa. 
+Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, você também poderá restaurá-la à caixa de correio de arquivo morto de uma caixa de correio existente. Para restaurar o arquivo morto de uma caixa de correio inativa, adicione as opções _SourceIsArchive_ e _TargetIsAchive_ ao comando usado para restaurar uma caixa de correio inativa.
   
 1. Criar uma variável que contém as propriedades da caixa de correio inativa.
 
@@ -82,7 +82,7 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
     $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
     ```
 
-    > [!IMPORTANT]
+    > [!NOTE]
     > No comando anterior, use o valor da propriedade **distinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa tenha o mesmo endereço SMTP principal. 
   
 2. Restaure o conteúdo do arquivo morto da caixa de correio inativa (arquivo fonte) para o arquivo morto de uma caixa de correio existente (arquivo de destino). Neste exemplo, o conteúdo do arquivo de origem é copiado para uma pasta chamada "arquivo morto de caixa de correio inativa" no arquivo morto da caixa de correio de destino.
@@ -93,7 +93,7 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
 
 ## <a name="more-information"></a>Mais informações
 
-- **Qual é a principal diferença entre a recuperação e a restauração de uma caixa de correio inativa?** Ao recuperar uma caixa de correio inativa, a caixa de correio é basicamente convertida para uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Após a recuperação, a caixa de correio inativa não existe mais e qualquer alteração feita no conteúdo da nova caixa de correio afetará o conteúdo que estava originalmente em retenção na caixa de correio inativa. Por outro lado, quando você restaura uma caixa de correio inativa, o conteúdo é simplesmente copiado para outra caixa de correio. A caixa de correio inativa é preservada e permanece como inativa. As alterações feitas no conteúdo da caixa de correio de destino não afetarão o conteúdo original mantido na caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando a [ferramenta de pesquisa de conteúdo](run-a-content-search-in-the-security-and-compliance-center.md) no centro de conformidade do & de segurança, seu conteúdo pode ser restaurado para outra caixa de correio ou pode ser recuperado ou excluído posteriormente.
+- **Qual é a principal diferença entre a recuperação e a restauração de uma caixa de correio inativa?** Ao recuperar uma caixa de correio inativa, a caixa de correio é basicamente convertida para uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Após a recuperação, a caixa de correio inativa não existe mais e qualquer alteração feita no conteúdo da nova caixa de correio afetará o conteúdo que estava originalmente em retenção na caixa de correio inativa. Por outro lado, quando você restaura uma caixa de correio inativa, o conteúdo é simplesmente copiado para outra caixa de correio. A caixa de correio inativa é preservada e permanece como inativa. As alterações feitas no conteúdo da caixa de correio de destino não afetarão o conteúdo original mantido na caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando a [ferramenta de pesquisa de conteúdo](content-search.md), seu conteúdo pode ser restaurado para outra caixa de correio ou pode ser recuperado ou excluído posteriormente.
 
 - **Como localizar caixas de correio inativas?** Para obter uma lista das caixas de correio inativas em sua organização e exibir informações que são úteis para restaurar uma caixa de correio inativa, você pode executar este comando.
 

@@ -3,6 +3,7 @@ title: Pesquisa e marcação
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: Na descoberta eletrônica avançada, o módulo de pesquisa e marcação permite pesquisar, Visualizar e organizar os documentos em seu caso. Atualmente, este módulo está no beta.
-ms.openlocfilehash: b3e660e6dca014323cfd06f10c14747751aeb386
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f5e192988519a9190aa53efef35a8e584e0987cc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073165"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802894"
 ---
 # <a name="search-and-tagging"></a>Pesquisa e marcação
 
@@ -31,7 +32,7 @@ Depois de processar documentos em um caso de descoberta eletrônica avançada (e
 
 A tabela a seguir lista as propriedades que você pode pesquisar usando uma consulta de palavra-chave KQL. Como alternativa, você pode usar um cartão de condição para na ferramenta de pesquisa de descoberta eletrônica avançada para adicionar uma condição (para propriedades selecionadas) a uma consulta de pesquisa.
 
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**caselabel** <br/> | O nome da marca criada/aplicada quando um documento é marcado. <br/> |
 |**custódia** <br/> | Os responsáveis associados a um documento; sujeito a limitações. <br/> |
@@ -55,8 +56,8 @@ A tabela a seguir lista as propriedades que você pode pesquisar usando uma cons
 |**title** <br/> | O título de um documento de site. <br/> |
 |**dominanttheme**\* <br/> | O tema dominante de um item. <br/> |
 |**themelist**\* <br/> | Temas associados a um item. <br/> |
-|**readpercentile_[issuenum]**\*\* <br/> | O percentil de leitura de um item, para o problema definido por [issuenum]. <br/> |
-|**relevancescore_[issuenum]**\*\* <br/> | A pontuação de relevância de um item, para o problema definido por [issuenum]. <br/> |
+|**readpercentile_ [issuenum]**\*\* <br/> | O percentil de leitura de um item, para o problema definido por [issuenum]. <br/> |
+|**relevancescore_ [issuenum]**\*\* <br/> | A pontuação de relevância de um item, para o problema definido por [issuenum]. <br/> |
 |**relevancetag_ [TagName]**\*\* <br/> | Se um item tiver sido marcado manualmente para relevância, a marca definida por [TagName]. <br/> |
 |||
 

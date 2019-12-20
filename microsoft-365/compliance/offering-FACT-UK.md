@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 378f03c5c579939abed84cfdea436845f37292af
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: a23cd042004747dd65f53da71817cf571a520de5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859891"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805144"
 ---
 # <a name="federation-against-copyright-theft-fact"></a>Federação contra roubo de direitos autorais (fato)
 
@@ -32,7 +33,7 @@ Com base no envio voluntário pela Microsoft para uma auditoria de fatos, o audi
 
 Saiba mais sobre os benefícios do fato na nuvem da Microsoft: [baixar o plano de fundo de fatos](https://aka.ms/fact-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 

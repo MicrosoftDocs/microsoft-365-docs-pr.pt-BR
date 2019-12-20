@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Use este tópico para saber mais sobre como configurar o gerenciamento de acesso privilegiado no Office 365
-ms.openlocfilehash: 46bfeaf0c73c4598fcdaa65d654201620396600c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5b7bf33f41bc722c557f2b515c5ab027bd401a2a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073430"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803758"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Configurando o gerenciamento de acesso privilegiado no Office 365
 
@@ -35,7 +35,7 @@ Siga estas etapas para configurar e usar o acesso privilegiado na sua organizaç
 
 - [Etapa 1: criar um grupo do aprovador](privileged-access-management-configuration.md#step1)
 
-    Antes de começar a usar o acesso de privilégio, determine quem precisa de autoridade de aprovação para solicitações de entrada para acesso a tarefas privilegiadas e privilegiadas. Qualquer usuário que faça parte do grupo aprovadores é capaz de aprovar as solicitações de acesso. Isso é habilitado através da criação de um grupo de segurança habilitado para email no Office 365.
+    Antes de começar a usar o acesso de privilégio, determine quem precisa de autoridade de aprovação para solicitações de entrada para acesso a tarefas privilegiadas e privilegiadas. Qualquer usuário que faça parte do grupo aprovadores é capaz de aprovar as solicitações de acesso. Esse grupo é habilitado pela criação de um grupo de segurança habilitado para email no Office 365.
 
 - [Etapa 2: habilitar o acesso privilegiado](privileged-access-management-configuration.md#step2)
 
@@ -52,7 +52,7 @@ Siga estas etapas para configurar e usar o acesso privilegiado na sua organizaç
 Depois que a aprovação for concedida, o usuário solicitante poderá executar a tarefa pretendida e o acesso privilegiado autorizará e executará a tarefa em nome do usuário. A aprovação permanece válida para a duração solicitada (a duração padrão é de 4 horas), durante a qual o solicitante pode executar a tarefa pretendida várias vezes. Todas essas execuções são registradas e disponibilizadas para auditoria de segurança e conformidade. 
 
 > [!NOTE]
-> Se você quiser usar o PowerShell de gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas em [conectar ao PowerShell do Exchange Online usando a autenticação multifator](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) para se conectar ao PowerShell do Exchange Online com seu Office 365 las. Você não precisa habilitar a autenticação multifator para sua organização do Office 365 para usar as etapas para habilitar o acesso privilegiado ao se conectar ao PowerShell do Exchange Online. A conexão com a autenticação multifator cria um token OAuth usado pelo acesso privilegiado para assinar suas solicitações.
+> Se você quiser usar o PowerShell de gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas em [Connect to Exchange Online PowerShell using Multifactor Authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to Connect to Exchange Online PowerShell com suas credenciais do Office 365. Você não precisa habilitar a autenticação multifator para sua organização do Office 365 para usar as etapas para habilitar o acesso privilegiado ao se conectar ao PowerShell do Exchange Online. A conexão com a autenticação multifator cria um token OAuth usado pelo acesso privilegiado para assinar suas solicitações.
 
 <a name="step1"> </a>
 
@@ -78,9 +78,9 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá para **configurações > segurança & privacidade** > **privilegiada**.
+2. No centro de administração, vá até **configurações > configurações > segurança &** > **acesso privilegiado**privacidade.
 
-3. Habilitar as **aprovações de controle de acesso privilegiado** .
+3. Habilite o controle **exigir aprovações para tarefas privilegiadas** .
 
 4. Atribua o grupo do aprovador que você criou na etapa 1 como o **grupo de aprovadores padrão**.
 

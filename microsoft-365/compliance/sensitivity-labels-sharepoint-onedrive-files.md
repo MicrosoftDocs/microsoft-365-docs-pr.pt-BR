@@ -1,7 +1,7 @@
 ---
 title: Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: c050aefb9feebbb3ff37a8504ba1b8385fb0ff49
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: c62db0d77ed805c607e79bf25cb9816a554cb6d2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684902"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802824"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -43,7 +43,7 @@ Agora, você também pode aplicar rótulos de confidencialidade ao Microsoft Tea
 
 Se necessário, você pode sair da visualização a qualquer momento.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses recursos funcionam apenas com [Rótulos de confidencialidade](sensitivity-labels.md). Se você usou os rótulos de proteção de informações do Azure, é possível convertê-los em rótulos de confidencialidade para habilitar esses recursos para novos arquivos que você carregar. [Saiba como](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -75,19 +75,24 @@ Para esta visualização, use o OneDrive Sync app versão 19.002.0121.0008 ou po
 
 ## <a name="prepare-the-sharepoint-online-management-shell-for-the-preview"></a>Preparar o Shell de gerenciamento do SharePoint Online para a visualização
 
-Antes de habilitar a visualização, verifique se você está executando o Shell de gerenciamento do SharePoint Online mais recente. Se você já tiver a versão mais recente, poderá prosseguir e habilitar a visualização.
+Antes de habilitar a visualização, verifique se você está executando o Shell de gerenciamento do SharePoint Online versão 16.0.19418.12000 ou superior. Se você já tiver a versão mais recente, poderá prosseguir e habilitar a visualização.
 
-Para preparar o Shell de gerenciamento do SharePoint Online para a visualização:
+1. Se você tiver instalado uma versão anterior do Shell de gerenciamento do SharePoint Online a partir da galeria do PowerShell, você pode atualizar o módulo executando o seguinte cmdlet.
 
-1. Se você instalou uma versão anterior do Shell de gerenciamento do SharePoint Online, vá para **Adicionar ou remover programas** e desinstalar o Shell de gerenciamento do SharePoint Online.
+    ```PowerShell
+    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
+    ```
 
-2. Em um navegador da Web, vá até a página centro de download e [Baixe o Shell de gerenciamento do SharePoint Online mais recente](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+2. Como alternativa, se você tiver instalado uma versão anterior do Shell de gerenciamento do SharePoint Online no centro de download da Microsoft, também poderá ir para **Adicionar ou remover programas** e desinstalar o Shell de gerenciamento do SharePoint Online.
 
-3. Selecione seu idioma e clique em **baixar**.
+3. Em um navegador da Web, vá até a página centro de download e [Baixe o Shell de gerenciamento do SharePoint Online mais recente](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-4. Escolha entre o arquivo x64 e x86. msi. Baixe o arquivo x64 se você executar a versão de 64 bits do Windows ou o arquivo x86, se você executar a versão de 32 bits. Se você não souber, confira [qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system).
+4. Selecione seu idioma e clique em **baixar**.
 
-5. Depois de baixar o arquivo, execute o arquivo e siga as etapas no assistente de instalação.
+5. Escolha entre o arquivo x64 e x86. msi. Baixe o arquivo x64 se você executar a versão de 64 bits do Windows ou o arquivo x86, se você executar a versão de 32 bits. Se não souber, confira [qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system)
+
+
+6. Depois de baixar o arquivo, execute o arquivo e siga as etapas no assistente de instalação.
 
 ## <a name="enable-the-preview-by-using-microsoft-powershell-opt-in"></a>Habilitar a visualização usando o Microsoft PowerShell (aceitar)
 

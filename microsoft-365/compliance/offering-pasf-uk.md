@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1cfd4b00c8c23aedb33ca832c37e0147d3beca0c
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 476d1b63cfba4c3c9d31fd38c4ad526ca167f7d7
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859291"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803984"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Facilidades seguras de polícia (PASF) Reino Unido
 
@@ -34,7 +35,7 @@ A Microsoft usa uma abordagem de defesa profunda e abrangente para segurança. N
 
 Essas certificações são respaldadas pelas medidas tomadas para proteger a segurança física de nossos data centers. Adotamos uma abordagem em camadas que começa com o modo como projetamos, criamos e operamos os datacenters para controlar estritamente o acesso físico às áreas nas quais os dados do cliente estão armazenados. Os datacenters gerenciados pela Microsoft têm amplos níveis de proteção com a aprovação do Access necessária no perímetro do recurso, no perímetro da construção, dentro do edifício e no centro do datacenter. Isso reduz o risco de usuários não autorizados obterem acesso físico a recursos de dados e datacenters.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)

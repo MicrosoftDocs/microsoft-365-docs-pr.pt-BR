@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como usar as ferramentas de fluxo de trabalho na pontuação de conformidade da Microsoft para ajudá-lo a gerenciar a conformidade da sua organização.
-ms.openlocfilehash: 9dc3eb41b1ad686e1c9e1f0a4cf2df66ccb3ffbe
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: 9c3871db720666319eb8a0523ff8150efd753f91
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38684745"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802126"
 ---
 # <a name="working-with-microsoft-compliance-score-preview"></a>Trabalhando com a pontuação de conformidade da Microsoft (visualização)
 
@@ -193,7 +193,7 @@ Nesta página, você pode exibir rapidamente informações importantes sobre cad
 
 ### <a name="default-assessments"></a>Avaliações padrão
 
-Por padrão, você verá a avaliação da linha de base de proteção de dados do Microsoft 365 na página avaliações. Se quiser adicionar mais Avaliações para cobrir outras regulamentações e padrões, você pode gerenciar avaliações no Gerenciador de conformidade. A pontuação de conformidade fornece mais de dez avaliações prontas, incluindo as de RGPD, CCPA, ISO 27001, ISO 27018, NIST 800-53, NIST 800-171, NIST CSF, CSA CCM, FFIEC, HIPAA/alta tecnologia e FedRAMP.
+Por padrão, você verá a avaliação da linha de base de proteção de dados do Microsoft 365 na página avaliações. A pontuação de conformidade também fornece várias avaliações prontas para uso ([exibir a lista completa](compliance-score.md#templates)). Se quiser adicionar mais Avaliações para cobrir normas e padrões adicionais, você pode fazer isso no Gerenciador de conformidade.
 
 ### <a name="managing-assessments"></a>Gerenciando avaliações
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Se um antigo funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho de um funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa no Office 365. Ao recuperar uma caixa de correio inativa, ela é convertida em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. '
-ms.openlocfilehash: 9caa5d8f8c44ee5a916129e7f181532c8c0dd1a2
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6589c8b75e7d17720848ed221e9625c77b867503
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685011"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803708"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Recuperar uma caixa de correio inativa no Office 365
 
@@ -45,9 +45,7 @@ Consulte a seção [mais informações](#more-information) para obter mais detal
     ```
 
     Use as informações retornadas por este comando para recuperar uma caixa de correio inativa específica.
-    
-- Para obter mais informações sobre caixas de correio inativas, consulte [inativa caixas de correio no Office 365](inactive-mailboxes-in-office-365.md).
-    
+
 ## <a name="recover-an-inactive-mailbox"></a>Recuperar uma caixa de correio inativa
 
 Use o cmdlet **New-Mailbox** com o parâmetro *InactiveMailbox* para recuperar uma caixa de correio inativa. 
@@ -101,5 +99,5 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Offi
 
     Se não houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio expirou e você pode recuperar a caixa de correio inativa executando o comando **New-Mailbox-InactiveMailbox** . Se houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio excluída de forma reversível não expirou e você precisa recuperar a caixa de correio restaurando a conta de usuário do Office 365. Consulte [excluir ou restaurar usuários](https://go.microsoft.com/fwlink/p/?LinkId=279162)
     
-- **Considere habilitar a caixa de correio de arquivo morto após recuperar uma caixa de correio inativa.** Isso permite que o usuário ou novo funcionário de retorno mova mensagens antigas para a caixa de correio de arquivo morto. E, quando a retenção expirar, a política de arquivamento que faz parte da política de retenção padrão do Exchange atribuída às caixas de correio do Exchange Online moverá itens que têm dois anos ou mais para a caixa de correio de arquivo morto. Se você não habilitar a caixa de correio de arquivo morto, os itens com mais de dois anos permanecerão na caixa de correio principal do usuário. Para obter mais informações, consulte [habilitar caixas de correio de arquivo morto no &amp; centro de conformidade de segurança do Office 365](enable-archive-mailboxes.md).
+- **Considere habilitar a caixa de correio de arquivo morto após recuperar uma caixa de correio inativa.** Isso permite que o usuário ou novo funcionário de retorno mova mensagens antigas para a caixa de correio de arquivo morto. E, quando a retenção expirar, a política de arquivamento que faz parte da política de retenção padrão do Exchange atribuída às caixas de correio do Exchange Online moverá itens que têm dois anos ou mais para a caixa de correio de arquivo morto. Se você não habilitar a caixa de correio de arquivo morto, os itens com mais de dois anos permanecerão na caixa de correio principal do usuário. Para obter mais informações, consulte [habilitar caixas de correio de arquivo morto](enable-archive-mailboxes.md).
  
