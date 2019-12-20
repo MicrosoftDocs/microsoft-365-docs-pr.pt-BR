@@ -17,19 +17,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 708ae0965eadd453ad4a8fd1dd7c29231cb07916
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 49574f17abee645943becc8403bef01951d31924
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910713"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806940"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Privacidade e segurança de dados da Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Ao usar a visualização prévia da Proteção contra Ameaças da Microsoft, você estará concordando com os termos a seguir:
 

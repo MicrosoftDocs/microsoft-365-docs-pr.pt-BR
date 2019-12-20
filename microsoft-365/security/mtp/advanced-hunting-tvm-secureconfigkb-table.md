@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 62c21545be31c7332fba28348b7159a0d46aa4b3
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: a3ae0a95af4a51d492c577e6a2ac1f2b96bba635
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910685"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806930"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A tabela `DeviceTvmSecureConfigurationAssessmentKB` no esquema de busca avançada contém informações sobre as diversas configurações seguras — por exemplo, se um dispositivo possui atualizações automáticas ativadas, verificado pela [Gerenciamento de Vulnerabilidades e Ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Também inclui informações de risco, benchmarks relacionados do setor e técnicas e táticas aplicáveis do MITRE ATT & CK. Use esta referência para criar consultas quer retiram informações desta tabela.
 

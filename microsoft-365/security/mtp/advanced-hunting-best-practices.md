@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ceb8679ccdd5c1fb41772a8b48d9474665922f39
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 871f659074c4f8386746e341db4d3500c5e80a31
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910688"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807000"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="optimize-query-performance"></a>Obter o melhor resultado possível numa consulta
 Aplique essas recomendações para obter resultados mais rapidamente e evitar tempos limite enquanto executa consultas complexas:
@@ -47,15 +47,15 @@ Aplique essas recomendações para obter resultados mais rapidamente e evitar te
 ### <a name="queries-with-process-ids"></a>Consultas com IDs de processo
 As IDs de processo (PIDs) são recicladas no Windows e reutilizadas para novos processos. Por si só, eles não servem como identificadores exclusivos para processos específicos.
 
-Para obter um identificador exclusivo para um processo em um computador específico, use a ID do processo juntamente com o tempo de criação do processo. Ao juntar ou resumir dados em um processo, inclua colunas para o identificador da máquina (`MachineId` ou `ComputerName`), a ID do processo (`ProcessId` ou `InitiatingProcessId`) e o tempo de criação do processo (`ProcessCreationTime` ou `InitiatingProcessCreationTime`)
+Para obter um identificador exclusivo para um processo em um computador específico, use a ID do processo juntamente com o tempo de criação do processo. Ao juntar ou resumir dados em um processo, inclua colunas para o identificador da máquina (`DeviceId` ou `DeviceName`), a ID do processo (`ProcessId` ou `InitiatingProcessId`) e o tempo de criação do processo (`ProcessCreationTime` ou `InitiatingProcessCreationTime`)
 
 O exemplo de consulta a seguir localiza processos que acessam mais de 10 endereços IP na porta 445 (SMB), possivelmente procurando por compartilhamentos de arquivos.
 
 Exemplo de consulta:
 ```
-NetworkCommunicationEvents
-| where RemotePort == 445 and EventTime > ago(12h) and InitiatingProcessId !in (0, 4)
-| summarize RemoteIPCount=dcount(RemoteIP) by ComputerName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
+DeviceNetworkEvents
+| where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
+| summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
 | where RemoteIPCount > 10
 ```
 
@@ -78,17 +78,17 @@ Os exemplos a seguir mostram várias maneiras de criar uma consulta que procura 
 
 ```
 // Non-durable query - do not use
-ProcessCreationEvents
+DeviceProcessEvents
 | where ProcessCommandLine == "net stop MpsSvc"
 | limit 10
 
 // Better query - filters on filename, does case-insensitive matches
-ProcessCreationEvents
-| where EventTime > ago(7d) and FileName in~ ("net.exe", "net1.exe") and ProcessCommandLine contains "stop" and ProcessCommandLine contains "MpsSvc" 
+DeviceProcessEvents
+| where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe") and ProcessCommandLine contains "stop" and ProcessCommandLine contains "MpsSvc" 
 
 // Best query also ignores quotes
-ProcessCreationEvents
-| where EventTime > ago(7d) and FileName in~ ("net.exe", "net1.exe")
+DeviceProcessEvents
+| where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe")
 | extend CanonicalCommandLine=replace("\"", "", ProcessCommandLine)
 | where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc" 
 ```

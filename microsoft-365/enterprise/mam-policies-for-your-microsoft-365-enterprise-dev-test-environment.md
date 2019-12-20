@@ -3,7 +3,7 @@ title: Políticas de conformidade de dispositivo para seu ambiente de teste do M
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/14/2018
+ms.date: 12/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,18 +12,18 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para adicionar políticas de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: c323779399f6f440e1f9104e6611023a18ffe59e
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: 8a746f99e16444527c44267eddbaec9f5e5156eb
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694098"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801626"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 Enterprise
 
 *Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
 
-Com as instruções deste artigo, você adiciona uma política de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 Enterprise.
+Com as instruções deste artigo, você adiciona uma política de conformidade de dispositivo do Intune para dispositivos Windows 10 e Office 365 ProPlus ao seu ambiente de teste do Microsoft 365 Enterprise.
 
 ![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
@@ -48,49 +48,46 @@ Nesta fase, você cria uma política de conformidade de dispositivo para disposi
     
 2. Em uma nova guia do navegador, abra o portal do Azure em [https://portal.azure.com](https://portal.azure.com).
 
-3. Na guia portal do Azure no navegador, no painel de navegação, clique em **todos os serviços**, digite **Intune**e clique em **Intune**.
+3. Na guia portal do Azure no navegador, digite **Intune** na caixa de pesquisa e clique em **Intune**.
     
-4. Se você vir uma mensagem de **Gerenciamento de dispositivo que ainda não tenha sido habilitada** na lâmina do **Microsoft Intune** , clique nela. Na folha **autoridade de gerenciamento de dispositivo móvel** , clique em **autoridade MDM do Intune**e, em seguida, clique em **escolher**. Atualize a guia do navegador.
+4. Se você vir uma mensagem de **Gerenciamento de dispositivo ainda não habilitada** no painel do **Microsoft Intune** , clique nela. No painel **autoridade de gerenciamento de dispositivo móvel** , clique em **autoridade MDM do Intune**e, em seguida, clique em **escolher**. Atualize a guia do navegador.
     
 5. No painel de navegação à esquerda, clique em **Grupos**.
     
-6. Na folha **grupos-todos os grupos** , clique em **+ novo grupo**.
+6. No painel **grupos-todos os grupos** , clique em **+ novo grupo**.
     
-7. Na folha **grupo** , selecione **Office 365** ou **segurança** para **tipo de grupo?**, digite **usuários do dispositivo gerenciados do Windows 10** em **nome**, selecione **atribuído** em **tipo de associação**e clique em **criar**. 
+7. No painel de **grupo** , selecione **Office 365** ou **segurança** para **tipo de grupo?**, digite **usuários do dispositivo gerenciados do Windows 10** em **nome**, selecione **atribuído** em **tipo de associação**e clique em **criar**. 
     
-8. Feche a folha **Grupo**.
+8. Clique em **Microsoft Intune**. No painel do **Microsoft Intune** , na lista **tarefas rápidas** , clique em **criar uma política de conformidade**.
     
-11. Feche a folha **grupos-todos os grupos** .
+9. No painel **perfis de política de conformidade** , clique em **criar política**.
     
-12. Na folha do **Microsoft Intune** , na lista **tarefas rápidas** , clique em **criar uma política de conformidade**.
+10. No painel **criar política** , em **nome**, digite **Windows 10**. Em **plataforma**, selecione **Windows 10 e posterior**, clique em **OK** no painel de **política de conformidade do Windows 10** e, em seguida, clique em **criar**. 
     
-13. Na folha **Perfis de Políticas de Conformidade**, clique em **Criar Política**.
+11. Clique em **perfis de política de conformidade**e, em seguida, clique no nome da política do **Windows 10** .
     
-14. Na folha **criar política** , em **nome**, digite **Windows 10**. Em **plataforma**, selecione **Windows 10 e posterior**, clique em **OK** na folha de **política de conformidade do Windows 10** e, em seguida, clique em **criar**. Feche a lâmina do **Windows 10** .
+12. No painel do **Windows 10** , clique em **atribuições**e, em seguida, clique em **Selecionar grupos para incluir**.
     
-15. Na folha **perfis de política de conformidade** , clique no nome da política do **Windows 10** .
+13. No painel **Selecionar grupos para incluir** , clique no grupo **usuários do dispositivo gerenciado do Windows 10** e clique em **selecionar**.
     
-16. Na folha **Windows 10** , clique em **atribuições**e clique em **Selecionar grupos para incluir**.
+14. Clique em **salvar**, clique em **Microsoft Intune-visão geral**e, em seguida, clique em **aplicativos cliente** no painel de navegação à esquerda.
     
-17. Na folha **Selecionar grupos para incluir** , clique no grupo **usuários do dispositivo gerenciado do Windows 10** e clique em **selecionar**.
-    
-18. Clique em **salvar**e feche a folha **Windows 10-atribuições** .
-    
-19. Feche a folha **Perfis de Políticas de Conformidade**.
-    
-20. Na folha do **Microsoft Intune** , clique em **aplicativos cliente** no painel de navegação à esquerda.
-    
-21. Na folha **aplicativos cliente** , clique em **aplicativos**e, em seguida, clique em **Adicionar**. 
+15. No painel **aplicativos cliente** , clique em **aplicativos**e, em seguida, clique em **Adicionar**. 
 
-22. Na folha **Adicionar aplicativo** , selecione **tipo de aplicativo**e, em seguida, selecione **Windows 10** no **pacote do Office 365**.
+16. No painel **Adicionar aplicativo** , selecione **tipo de aplicativo**e, em seguida, selecione **Windows 10** no **pacote do Office 365**.
 
-23. Clique em **Configurar pacote de aplicativos**e, em seguida, clique em **OK**.
+17. No painel **Adicionar aplicativo** , selecione **informações do pacote de aplicativos**.
+ 
+18. No painel de **informações do App Suite** , digite **Office 365 ProPlus** em **nome** e **Descrição**do pacote.
+Clique em OK.
 
-24. Clique em **informações do pacote de aplicativos**, digite aplicativos do **Office para Windows 10** no **nome do pacote**, **aplicativos do Office para Windows 10** descrição do **pacote**e clique em **OK**.
+19. No painel **Adicionar aplicativo** , selecione **Configurar pacote de aplicativos**e clique em **OK**.
 
-25. Clique **em configurações do pacote de aplicativos**, selecione **semestral** no **canal de atualização**e clique em **OK**.
+20. No painel **Adicionar aplicativo** , selecione **configurações de pacote de aplicativos**.
 
-26. Na folha **Adicionar aplicativo** , clique em **Adicionar**.
+21. Em **canal de atualização**, selecione **semestral**e clique em **OK**.
+
+22. No painel **Adicionar aplicativo** , clique em **Adicionar**.
 
 Agora você tem uma política de conformidade de dispositivo para testar os aplicativos selecionados na política de conformidade de dispositivo do **Windows 10** e para os membros do grupo de **usuários de dispositivos gerenciados do Windows 10** . Observe que a seleção do Office 365 como o tipo de grupo criará recursos adicionais. 
   

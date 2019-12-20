@@ -1,7 +1,7 @@
 ---
-title: Busca por outras ameaças no Microsoft 365
+title: Busca por ameaças no Microsoft 365
 description: Use os recursos de busca de ameaças no centro de segurança do Microsoft 365 para encontrar violações e outras ameaças de forma proativa
-keywords: segurança, malware, Microsoft 365, M365, central de segurança, caça, caça, Microsoft defender ATP, Office 365 ATP, Azure ATP, caça avançada
+keywords: segurança, malware, Microsoft 365, M365, proteção contra ameaças da Microsoft, MTP, centro de segurança, caça, busca de ameaças, cyberthreat caça, Microsoft defender ATP, Office 365 ATP, Azure ATP, caça avançada
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 12705fa525374af8870aedcd211d8e9dcdd17f9c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909417"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808736"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Busca por ameaças no Microsoft 365
 
@@ -35,5 +35,5 @@ Com recursos de busca de ameaças no centro de segurança do Microsoft 365, voc�
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
-- [Visão geral da proteção contra ameaças da Microsoft](microsoft-threat-protection.md)
-- [Ativar a proteção contra ameaças da Microsoft](mtp-enable.md)
+- [Visão geral da Proteção contra Ameaças da Microsoft](microsoft-threat-protection.md)
+- [Habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md)

@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9f6a4aa68826133bee0437116b2fbf3fde4e7e00
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 9368185fff037b8c3c2f5b70a178f2485fda3736
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910714"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808716"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A tabela `EmailAttachmentInfo` no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre anexos em emails e anexos processados na ATP do Office 365. Use essa referência para criar consultas que retornam informações dessa tabela.
 
@@ -35,7 +35,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
-| `EventTime` | datetime | A data e a hora em que o evento foi gravado |
+| `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `AttachmentId` | string | Identificador exclusivo de anexo de email |
 | `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Office 365 |
 | `SenderFromAddress` | string | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |

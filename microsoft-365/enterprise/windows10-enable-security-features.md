@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: c1c39745b2dc891b4dc079ecd657eaf0d883af23
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d7e71eda9cf0750ce44a978dca742b43f2101d63
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627455"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801256"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Etapa 5: implantar recursos de segurança do Windows 10 Enterprise
 
@@ -92,9 +92,9 @@ Você pode executar a solução de problemas básica ou, opcionalmente, fornecer
 
 <a name="windows10-sec-atp"></a>
 ## <a name="microsoft-defender-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Microsoft Defender
-O Microsoft defender ATP, disponível apenas com o plano Microsoft 365 Enterprise e5, é um serviço de segurança que permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em suas redes. Para obter mais informações sobre o Microsoft defender ATP, os requisitos mínimos e como você pode gerenciar esse recurso, consulte:
+O Microsoft defender ATP, disponível apenas com o Microsoft 365 E5 Plan, é um serviço de segurança que permite que os clientes corporativos detectem, investiguem e respondam a ameaças avançadas em suas redes. Para obter mais informações sobre o Microsoft defender ATP, os requisitos mínimos e como você pode gerenciar esse recurso, consulte:
 
-* [Microsoft defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
+* [Microsoft Defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [Requisitos mínimos](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/minimum-requirements-windows-defender-advanced-threat-protection)
 
 ### <a name="deployment-management-and-configuration"></a>Implantação, gerenciamento e configuração

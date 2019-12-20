@@ -1,5 +1,5 @@
 ---
-title: Visão geral do Microsoft 365 Enterprise
+title: Visão geral da Microsoft 365 para empresas
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -10,23 +10,23 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 Enterprise.
-ms.openlocfilehash: 67d7417af01b7c64094aa46350326f32e0f18534
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
+ms.openlocfilehash: 16efb061bbb8be4ff8cb5a93186d342fc55ca849
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831952"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801456"
 ---
-# <a name="microsoft-365-enterprise-overview"></a>Visão geral do Microsoft 365 Enterprise
+# <a name="microsoft-365-for-enterprise-overview"></a>Visão geral da Microsoft 365 para empresas
 
-O Microsoft 365 Enterprise é uma solução completa e inteligente que permite que todas as pessoas sejam criativas e trabalhem em conjunto com segurança. 
+O Microsoft 365 for Enterprise é uma solução completa e inteligente que permite que todas as pessoas sejam criativas e trabalhem em conjunto com segurança. 
 
-Embora projetado para grandes organizações, o Microsoft 365 Enterprise também pode ser usado para empresas de médio e pequeno porte que precisam dos recursos de segurança e produtividade mais avançados. 
+Embora projetado para grandes organizações, o Microsoft 365 for Enterprise também pode ser usado para empresas de médio e pequeno porte que precisam dos recursos mais avançados de segurança e produtividade. 
 
 ## <a name="components"></a>Componentes
 
-O Microsoft 365 Enterprise consiste em:
+O Microsoft 365 for Enterprise consiste em:
 
 |||
 |:-------|:-----|
@@ -37,7 +37,7 @@ O Microsoft 365 Enterprise consiste em:
 
 ## <a name="plans"></a>Planos
 
-O Microsoft 365 Enterprise está disponível em três planos.
+O Microsoft 365 para empresas está disponível em três planos.
 
 |||
 |:-------|:-----|
@@ -46,37 +46,37 @@ O Microsoft 365 Enterprise está disponível em três planos.
 | F1 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
 |||
 
-Se você tiver o Microsoft 365 Enterprise E3, também poderá obter estas [ofertas](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/):
+Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/):
 
 - Identidade & proteção contra ameaças
 - Proteção de informações & conformidade
 
-Essas ofertas contêm recursos adicionais que estão incluídos no Microsoft 365 Enterprise e5.
+Essas ofertas contêm recursos adicionais que estão incluídos no Microsoft 365 e5.
 
 Para obter mais informações, consulte [recursos e funcionalidades de cada plano](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
 ## <a name="get-the-big-picture"></a>Obter a visão geral
 
-O [cartaz do Microsoft 365 Enterprise](media/m365-poster/Microsoft365Enterprise.pdf) é um local central para você exibir:
+O [cartaz do Microsoft 365 for Enterprise](media/m365-poster/Microsoft365Enterprise.pdf) é um local central para você exibir:
 
-- Os benefícios do Microsoft 365 Enterprise e como os aplicativos e os serviços mapeiam para seus pilares de valor
-- Planos do Microsoft 365 Enterprise e quais componentes eles contêm 
-- Os principais componentes do local de trabalho moderno, que o Microsoft 365 Enterprise permite
+- Os benefícios do Microsoft 365 para empresas e como os aplicativos e serviços mapeiam para seus pilares de valor
+- Microsoft 365 para planos corporativos e quais componentes eles contêm 
+- Os principais componentes do local de trabalho moderno, que a Microsoft 365 para empresas permite
 - A [biblioteca de produtividade da Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e os cenários representativos de alguns departamentos de organização comuns
-- O roteiro de adoção que realça o guia de [implantação](deploy-microsoft-365-enterprise.md) do Microsoft 365 Enterprise
+- O roteiro de adoção que destaca o Microsoft 365 for Enterprise [Deployment Guide](deploy-microsoft-365-enterprise.md)
 
-[![Imagem para o pôster do Microsoft 365 Enterprise](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+[![Imagem do cartaz da Microsoft 365 para empresas](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
-## <a name="transition-your-entire-organization"></a>Transição para toda a organização
+## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 Enterprise, baixe o [pôster de transição](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 for Enterprise, baixe o [cartaz de transição](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Imagem do pôster sobre a Transição para o Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+Este cartaz de duas páginas é uma maneira rápida de inventariar sua infraestrutura existente e obter orientações para mudar para o produto ou serviço correspondente no Microsoft 365 for Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
 Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
@@ -96,13 +96,13 @@ Para obter um resumo visual das opções de atualização, migração e mover pa
 
 [![Imagem do pôster sobre o fim do suporte para clientes e servidores do Office 2010 e do Windows 7](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-Este cartaz de uma página é uma maneira rápida de entender os vários caminhos que você pode tomar para impedir que os produtos de cliente e servidor do Windows 7 e Office 2010 atinjam o fim do suporte, com caminhos e suporte preferidos no Microsoft 365 Enterprise realçado.
+Este cartaz de uma página é uma maneira rápida de entender os vários caminhos que você pode tomar para impedir que os produtos de cliente e servidor do Windows 7 e Office 2010 atinjam o fim do suporte, com caminhos e suporte preferidos no Microsoft 365 para empresas realçados.
 
 Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
 ## <a name="deploy"></a>Implantar
 
-Há três maneiras de implantar os produtos, recursos e componentes do Microsoft 365 Enterprise:
+Há três maneiras de implantar os produtos, recursos e componentes do Microsoft 365 para empresas:
 
 1. Em parceria com o FastTrack
   
@@ -110,17 +110,17 @@ Há três maneiras de implantar os produtos, recursos e componentes do Microsoft
   
 2. Com a ajuda dos serviços de consultoria da Microsoft ou de um [parceiro da Microsoft](https://partner.microsoft.com/).
 
-   Os consultores podem analisar sua infraestrutura atual e ajudá-lo a desenvolver um plano para incorporar todos os softwares e serviços do Microsoft 365 Enterprise.
+   Os consultores podem analisar sua infraestrutura atual e ajudá-lo a desenvolver um plano para incorporar todos os softwares e serviços do Microsoft 365 para empresas.
 
 3. Faça você mesmo
 
-   O [Guia de implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md) leva você passo a passo ao desenvolver as cargas de trabalho de infraestrutura e produtividade. 
+   O [Guia de implantação do Microsoft 365 for Enterprise](deploy-microsoft-365-enterprise.md) leva você a passo a passo a desenvolver as cargas de trabalho de infraestrutura e produtividade. 
 
 Para obter mais informações sobre a implantação, consulte How:
 
-- [Os clientes](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-enterprise) usam o Microsoft 365 Enterprise.
-- A [Microsoft](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) usa o Microsoft 365 Enterprise.
-- [A Contoso Corporation](contoso-overview.md), uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 Enterprise.
+- [Os clientes](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-for-enterprise) usam o Microsoft 365 para empresas.
+- A [Microsoft](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-for-enterprise) usa o Microsoft 365 para empresas.
+- [A Contoso Corporation](contoso-overview.md), uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 para empresas.
 
 ## <a name="additional-microsoft-365-solutions"></a>Soluções adicionais do Microsoft 365
 
@@ -146,8 +146,8 @@ Para obter mais informações sobre a implantação, consulte How:
 
 ## <a name="next-step"></a>Próxima etapa
 
-Se você estiver fazendo a implantação sozinho, inicie sua [jornada de implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md).
+Se você estiver fazendo a implantação sozinho, inicie sua [jornada de implantação do Microsoft 365 para empresas](deploy-microsoft-365-enterprise.md).
 
 ## <a name="see-also"></a>Confira também
 
-[Página do produto do Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)
+[Página do produto Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise)

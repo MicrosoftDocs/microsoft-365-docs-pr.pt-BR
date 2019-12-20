@@ -12,19 +12,23 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Saiba mais sobre o padrão e outras configurações para proteger dispositivos Windows 10. '
-ms.openlocfilehash: fef1bc3e19bada5785232047d37f4bc2393a974d
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 64f20433d5a4b78fc234a4ec3bec937ec30145c6
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715093"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805634"
 ---
 # <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
 

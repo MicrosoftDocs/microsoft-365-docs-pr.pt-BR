@@ -3,7 +3,7 @@ title: Registrar dispositivos iOS e Android em seu ambiente de teste do Microsof
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/11/2018
+ms.date: 12/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: Use este guia de laboratório de teste para registrar dispositivos no seu ambiente de teste do Microsoft 365 e gerenciá-los remotamente.
-ms.openlocfilehash: b98e184d3216a779fc495cf65b73d3a2b212e257
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: 98670e64045b36dcdafb46c6ff798b8be7fd6dc1
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694068"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801866"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Registrar dispositivos iOS e Android em seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -55,7 +55,7 @@ O Microsoft Intune fornece recursos de bloqueio e redefinição de senha remotos
 Para bloquear um dispositivo iOS ou Android remotamente:
 
 1. Entre no portal do Azure [https://portal.azure.com](https://portal.azure.com) com as credenciais de sua conta de administrador global.
-2. Clique em **todos os serviços**, digite **Intune**e clique em **Intune**.
+2. Na guia portal do Azure no navegador, digite **Intune** na caixa de pesquisa e clique em **Intune**.
 3. Clique em **dispositivos > todos os dispositivos**.
 4. Na lista de dispositivos, clique em um dispositivo iOS ou Android e, em seguida, clique na ação de **bloqueio remoto** .
 
@@ -63,7 +63,7 @@ Para bloquear um dispositivo iOS ou Android remotamente:
 Para redefinir a senha remotamente:
 
 1. Se necessário, entre no portal do Azure [https://portal.azure.com](https://portal.azure.com) com as credenciais de sua conta de administrador global.
-2. Clique em **todos os serviços**, digite **Intune**e clique em **Intune**.
+2. Na guia portal do Azure no navegador, digite **Intune** na caixa de pesquisa e clique em **Intune**.
 3. Clique em **dispositivos > todos os dispositivos**.
 4. Na lista de dispositivos que você gerencia, clique em um dispositivo iOS ou Android e escolha **... Mais**. Em seguida, escolha a ação de remover dispositivo de **senha** remoto.
 

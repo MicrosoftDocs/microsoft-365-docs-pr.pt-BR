@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 950dec4c0b0a2de2bdc60a73a12f6c7895189ea4
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: ca98e59ded0956455e3279caa9de2af4f4af86c9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910767"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808466"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
 

@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1f2deef2c9ffc26f604194ff2d27d5f094471021
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 3495414148edb5e3b6691e4545e0cf6587af7b4d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910731"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808706"
 ---
 # <a name="emailevents"></a>EmailEvents
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A tabela `EmailEvents` no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre eventos que envolvem o processamento de emails na ATP do Office 365. Use esta referência para criar consultas que retornam informações desta tabela.
 
@@ -35,7 +35,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
-| `EventTime` | datetime | A data e a hora em que o evento foi gravado |
+| `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `EmailId` | cadeia de caracteres | Identificador de email e destinatário exclusivos |
 | `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Office 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |

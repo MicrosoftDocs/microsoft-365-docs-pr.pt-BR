@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b17b5a3458458ff0c73c93fa184ef8ff6a064199
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: faa0e904ef2a07ccd209ef91630ce6fc8205e347
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38011992"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801189"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -41,7 +41,7 @@ O tempo de resposta inicial é o período de quando você envia sua solicitaçã
 Nível de severidade  | Situação do cliente |  Tempo de resposta inicial   | Resposta esperada do cliente
 --- | --- | --- | ---
 **Gravidade A – impacto crítico** |  **Impacto comercial crítico**<br><br>Os negócios do cliente têm perda significativa ou degradação de serviços e requer atenção imediata.<br><br>**Maior impacto de compatibilidade do aplicativo**<br><br>A empresa inteira do cliente está tendo impacto financeiro devido à falha ou à perda de funcionalidade crítica | Inicial: < 1 hora<br>Atualização: 60 minutos<br>24x7 disponível | Ao selecionar a gravidade A, você confirma que o problema tem impacto crítico nos negócios, com perda grave e degradação de serviços. <br><br>O problema exige uma resposta imediata e você confirma a operação 24x7 contínua todos os dias com a equipe da Microsoft até a resolução, caso contrário, a Microsoft pode, a critério, diminuir a gravidade para o nível B.<br><br> Você também garante que a Microsoft tenha suas informações de contato precisas. 
-**Gravidade B – impacto moderado** |  **Impacto moderado nos negócios**<br><br>Os negócios do cliente têm perda moderada ou degradação de serviços, mas o trabalho pode continuar razoavelmenteamente de maneira prejudicada.<br><br>**Impacto moderado de compatibilidade do aplicativo**<br><br>Um grupo de negócios específico não é mais produtivo devido ao comportamento de falha ou à perda de funcionalidade crítica. |  Inicial: < 4 horas<br>Atualização: 12 horas<br>Horário comercial (24x7 disponível) | Ao selecionar a gravidade B, você confirma que o problema tem um impacto moderado em sua empresa com perda e degradação de serviços, mas soluções alternativas permitem a continuidade de negócios, embora temporárias. <br><br>O problema exige uma resposta urgente. Se você escolher 24x7 ao enviar a solicitação de suporte, será possível confirmar uma operação 24x7 contínua todos os dias com a equipe da Microsoft até a resolução, caso contrário, a Microsoft poderá, a critério, diminuir a gravidade para o nível C. Se você escolheu suporte de horário comercial ao enviar um incidente de severidade B, a Microsoft entrará em contato com você somente durante o horário comercial.<br><br>Você também garante que a Microsoft tenha suas informações de contato precisas.
+**Gravidade B – impacto moderado** |  **Impacto moderado nos negócios**<br><br>Os negócios do cliente têm perda moderada ou degradação de serviços, mas o trabalho pode continuar razoavelmenteamente de maneira prejudicada.<br><br>**Impacto moderado de compatibilidade do aplicativo**<br><br>Um grupo de negócios específico não é mais produtivo devido ao comportamento de falha ou à perda de funcionalidade crítica. |  Inicial: < 4 horas<br>Atualização: 12 horas<br>Horário comercial (24x7 disponível) | Ao selecionar a gravidade B, você confirma que o problema tem um impacto moderado em sua empresa com perda e degradação de serviços, mas soluções alternativas permitem a continuidade de negócios, embora temporárias. <br><br>O problema exige uma resposta urgente. Se você escolher 24x7 ao enviar a solicitação de suporte, você deve confirmar uma operação 24x7 contínua todos os dias com a equipe da Microsoft até a resolução, caso contrário, a Microsoft poderá, a critério, diminuir a gravidade para o nível C. Se você escolheu suporte de horário comercial ao enviar um incidente de severidade B, a Microsoft entrará em contato com você somente durante o horário comercial.<br><br>Você também garante que a Microsoft tenha suas informações de contato precisas.
 **Severidade C – impacto mínimo** |   **Impacto mínimo nos negócios**<br><br> Os negócios do cliente estão funcionando com pequenos impedimentos de serviços.<br><br>**Impacto de compatibilidade do aplicativo secundário**<br><br>Usuários possivelmente não relacionados experimentam problemas de compatibilidade menores que não impedem a produtividade |    Inicial: < 8 horas<br>Atualização: 24 horas<br>Horário comercial  | Ao selecionar a gravidade C, você confirma que o problema tem um impacto mínimo em sua empresa com o menor impedimento de serviço.<br><br>Para um incidente de gravidade C, a Microsoft contatará você somente durante o horário comercial.<br><br>Você também garante que a Microsoft tenha suas informações de contato precisas
 
 Detalhes adicionais:
@@ -51,8 +51,15 @@ Detalhes adicionais:
 - **Compatibilidade de aplicativos** – para que um problema de compatibilidade de aplicativo seja considerado, deve haver um erro reproduzido, da mesma versão do aplicativo, entre a versão anterior e a atual do Windows ou Office. Para resolver problemas de compatibilidade de aplicativos, a Microsoft requer um ponto de contato do cliente para trabalhar com o. A pessoa deve trabalhar diretamente com nossa equipe de controle rápido para investigar e resolver o problema.
 - **Tempo de resposta do cliente** Se um cliente não puder atender aos requisitos de resposta esperados, a Microsoft fará o downgrade da solicitação por um nível de severidade, para um mínimo de severidade C. Se um cliente não responder às solicitações de ação, a Microsoft reduzirá e fechará a solicitação de suporte em 48 horas da última solicitação.
 
+## <a name="provide-feedback"></a>Faça comentários
 
-## <a name="providing-administrator-rights-to-specific-users"></a>Fornecer direitos de administrador a usuários específicos
+Agradecemos seus comentários e o usamos para melhorar a experiência de suporte do administrador.
+
+Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você poderá compartilhar seus comentários sobre sua experiência com esse problema específico. Para fazer isso, vá até a página **solicitações de suporte** no portal de administração. Selecione o tíquete específico. Na parte de baixo que aparece no lado direito, selecione a guia **comentários** e forneça as informações solicitadas. Tenha cuidado para não incluir informações pessoais no formulário de comentários. Para obter mais informações sobre privacidade, consulte a [política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
+
+![Formulário de comentários](images/feedback_form.png)
+
+## <a name="provide-administrator-rights-to-specific-users"></a>Fornecer direitos de administrador a usuários específicos
 
 Ao trabalhar com a equipe de suporte, talvez seja necessário fornecer direitos de administrador local a um usuário em um dispositivo para ajudar na solução de problemas. Para fazer isso, você já deve ter direitos de administrador global ou de administrador de dispositivo no Microsoft Intune para sua própria conta. Siga uma destas etapas, dependendo da sua situação:
 
@@ -62,4 +69,4 @@ Ao trabalhar com a equipe de suporte, talvez seja necessário fornecer direitos 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md). 
-- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [administrador de área de trabalho gerenciada da Microsoft Portal](https://aka.ms/mwaasportal).
+- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal).

@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 7d3923a3032653f9bfc4a59dc98fe06953975bac
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: d33844c1bd774f6b53dbbaa428762c4832fccb85
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967914"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806980"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Quando uma investigação automatizada ocorrer na Proteção Contra Ameaças da Microsoft, os detalhes dessa investigação estarão disponíveis durante e após o processo de investigação automática. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 

@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ed5dd99d2ac569353ed72ddf67d906dfe21e7cd0
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 7c6c92aeec6c1644472103a1aaf175eb813d5758
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910689"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808676"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A caça avançada baseia-se na [linguagem de consulta Kusto](https://docs.microsoft.com/azure/kusto/query/). Você pode usar a sintaxe e os operadores Kusto para construir consultas que localizem informações no [esquema](advanced-hunting-schema-tables.md) especificamente estruturadas para a pesquisa avançada. Para entender melhor esses conceitos, execute a primeira consulta.
 
@@ -37,16 +37,16 @@ na central de segurança do Microsoft 365, vá para **procurando** executar a pr
 
 ```
 // Finds PowerShell execution events that could involve a download.
-ProcessCreationEvents  
-| where EventTime > ago(7d)
+DeviceProcessEvents 
+| where Timestamp > ago(7d)
 | where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE") 
 | where ProcessCommandLine has "Net.WebClient"
         or ProcessCommandLine has "DownloadFile"
         or ProcessCommandLine has "Invoke-WebRequest"
         or ProcessCommandLine has "Invoke-Shellcode"
         or ProcessCommandLine contains "http:"
-| project EventTime, ComputerName, InitiatingProcessFileName, FileName, ProcessCommandLine
-| top 100 by EventTime
+| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+| top 100 by Timestamp
 ```
 
 Esta é a aparência do aspecto da pesquisa avançada.
@@ -57,15 +57,15 @@ A consulta começa com um pequeno comentário descrevendo o que é para isso. Is
 
 ```
 // Finds PowerShell execution events that could involve a download.
-ProcessCreationEvents
+DeviceProcessEvents
 ```
 
-A consulta em si geralmente começará com um nome de tabela seguido de uma série de elementos iniciados por um pipe (`|`). Neste exemplo, começamos adicionando com o nome da tabela `ProcessCreationEvents` e adicionar elementos de pipe conforme necessário.
+A consulta em si geralmente começará com um nome de tabela seguido de uma série de elementos iniciados por um pipe (`|`). Neste exemplo, começamos adicionando com o nome da tabela `DeviceProcessEvents` e adicionar elementos de pipe conforme necessário.
 
 O primeiro elemento canalizado é um filtro de tempo delimitado dentro dos últimos sete dias. Manter o intervalo de tempo tão estreito quanto possível garante que as consultas sejam executadas, retornem resultados gerenciáveis e não o tempo limite.
 
 ```
-| where EventTime > ago(7d)
+| where Timestamp > ago(7d)
 ```
 
 O intervalo de tempo é imediatamente seguido por uma pesquisa de arquivos que representam o aplicativo PowerShell.
@@ -87,8 +87,8 @@ Em seguida, a consulta procura linhas de comando que normalmente são usadas com
 Agora que a consulta identifique claramente os dados que você deseja localizar, você pode adicionar elementos que definem a aparência dos resultados. `project` retorna colunas específicas e `top` limita o número de resultados, tornando os resultados bem formatados e razoavelmente grandes e fáceis de processar.
 
 ```
-| project EventTime, ComputerName, InitiatingProcessFileName, FileName, ProcessCommandLine
-| top 100 by EventTime'
+| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+| top 100 by Timestamp'
 ```
 
 Clique **executar consulta** para ver os resultados. Você pode expandir o modo de exibição de tela para poder se concentrar em sua consulta de busca e nos resultados.

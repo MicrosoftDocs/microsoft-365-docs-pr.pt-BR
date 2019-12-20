@@ -17,19 +17,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b136dfcb11265e9ab19328d6ad0b3c515f7fc86f
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 28ecc159023bb9c86739b78c8a3a34e6d401b8ed
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910743"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806890"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Saiba mais sobre os requisitos de licenciamento, hardware e software, além de outras configurações para executar e usar a segurança do Microsoft 365.
 

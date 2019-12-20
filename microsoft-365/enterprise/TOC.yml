@@ -1,8 +1,8 @@
-- name: Documentação e recursos do Microsoft 365 Enterprise
+- name: Microsoft 365 para documentação e recursos da empresa
   href: index.yml
-- name: Visão geral do Microsoft 365 Enterprise
+- name: Visão geral da Microsoft 365 para empresas
   href: microsoft-365-overview.md
-- name: Implantar o Microsoft 365 Enterprise
+- name: Implantar o Microsoft 365 para empresas
   href: deploy-microsoft-365-enterprise.md
   items:
     - name: Implantar a infraestrutura de base
@@ -164,7 +164,7 @@
     - name: Estudo de caso da Contoso
       href: contoso-case-study.md
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: contoso-overview.md
         - name: Infraestrutura e necessidades de TI da Contoso
           href: contoso-infra-needs.md
@@ -186,7 +186,7 @@
           href: contoso-team-for-top-secret-project.md
         - name: Site do SharePoint para dados altamente controlados
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: Alterações no conteúdo de implantação do Microsoft 365 Enterprise
+    - name: Alterações no conteúdo de implantação do Microsoft 365 for Enterprise
       href: microsoft-365-deploment-guide-changes.md
 - name: Centro de Implantação do Computador
   href: desktop-deployment-center-home.md
@@ -217,11 +217,11 @@
       href: modern-desktop-deployment-and-management-lab.md
     - name: Encontre ajuda para sua implantação
       href: find-help-for-modern-desktop-deployment.md
-- name: Conformidade do Microsoft 365
+- name: Conformidade com o Microsoft 365
   href: ../compliance/index.yml
-- name: Segurança do Microsoft 365
+- name: Segurança da Microsoft 365
   href: ../security/index.yml
-- name: Gerenciamento de continuidade de negócios empresariais (EBCM) com serviços de nuvem
+- name: EBCM (Enterprise Business Continuity Management) com serviços em nuvem
   href: ebcm-understanding-ebcm-with-cloud-services.md
   items:
     - name: Responsabilidades de clientes e parceiros de nuvem EBCM

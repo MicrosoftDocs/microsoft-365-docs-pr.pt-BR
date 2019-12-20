@@ -17,19 +17,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET15
-ms.openlocfilehash: 236952a999579968d3ff86403d50507a4b12a4cb
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 435d46469c33f7fec1e591898ab0d46db1dbab94
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910746"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808596"
 ---
 # <a name="microsoft-365-security-preview-features"></a>Versões experimentais ou prévias de recursos de Segurança do Microsoft 365
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 As funções que compõe a Segurança do Microsoft 365 Security estão sendo constantemente atualizadas para incluir novos recursos e melhorias.
 

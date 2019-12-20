@@ -15,23 +15,23 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 03cd648a178d63b2b964e0136c105068f4d1c6ca
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 23942b1d39bacfab470d41fca1ea630ad7b80ea3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910723"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808696"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar proativamente os eventos na sua rede para localizar indicadores e entidades interessantes. O acesso flexível aos dados facilita a busca irrestrita por ameaças potenciais e conhecidas.
 
-No Centro de segurança do Microsoft 365, a busca avançada é compatível com consultas que examinam dados no Microsoft Defender ATP, abrangendo dados de dispositivos integrados e o Office 365 ATP, fornecendo dados de emails. Para usar a busca avançada, é necessário [habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md).
+No centro de segurança do Microsoft 365, a busca avançada oferece suporte a consultas que procuram dados do Microsoft defender ATP, abrangendo dados de dispositivos integrados e o Office 365 ATP, fornecendo dados de emails. Para usar a busca avançada, é necessário [habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 

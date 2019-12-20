@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 8c82c00bb785086da424072581252e6085937921
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: ea3201838e625969a239aee4339e0de605d95c55
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967904"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808606"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Investigação e resposta automatizadas (AIR) na Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="your-virtual-analyst"></a>Seu analista virtual
 

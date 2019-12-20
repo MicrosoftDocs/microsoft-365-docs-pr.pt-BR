@@ -13,12 +13,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba mais sobre contas de cobrança e como gerenciá-las.
-ms.openlocfilehash: 9ea96a0187a1f4bec9c71dc02478375a4c13b371
-ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
+ms.openlocfilehash: 9a5d7548608cb44befb271e63420e7eb84b2e399
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39837953"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805744"
 ---
 # <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
 
@@ -46,6 +46,15 @@ A tabela a seguir lista os termos importantes exibidos na página de detalhes de
 | ID de imposto | Se você estiver fora dos Estados Unidos, você deve fornecer um VAT ou equivalente local. Para obter mais informações, consulte [Tax Information](#tax-information). |
 | Contrato | Quando uma conta de cobrança é criada, seja por meio de uma compra direta ou de uma organização de licenciamento por volume, um signatário para a organização aceita ou assina um contrato que descreve os termos & condições da conta. Se aplicável, este modo de exibição lista o histórico de contratos. Se for necessário aceitar termos atualizados, um link para **aprovar contrato** será exibido. |
 | Perfis de cobrança | Um perfil de cobrança define as propriedades de sua fatura, como quem recebe a lista, como a cobrança é entregue, as condições de pagamento e um número de OC. Para distribuir cobrança em toda a sua organização, você pode criar vários perfis de cobrança e identificar o perfil de cobrança apropriado no momento da compra. Para obter mais informações sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, [gerencie perfis de cobrança](../billing-and-payments/manage-billing-profiles.md). |
+
+> [!NOTE] 
+> Se você quiser alterar o nome ou endereço de **vendido para** , mas não vir um link de **edição** , você deve [entrar em contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) com o suporte para alterá-lo. As solicitações para uma alteração de nome **vendidas** exigirão uma verificação de crédito. Ao entrar em contato com o suporte, tenha um dos seguintes documentos prontos:
+>
+> - Documento de anúncio externo que indica qualquer alteração no nome da empresa ou na estrutura corporativa
+> - Documento emitido pelo governo ou carta de registro
+> - Imprimir fora do registro da empresa local
+>
+> O suporte pode ajudar nas alterações de nome e endereço onde apenas o nome do cliente é alterado, mas a entidade permanece a mesma. A documentação fornecida deve indicar claramente que apenas o nome da entidade foi alterado. Se a alteração estiver relacionada a qualquer transação, como uma venda de negócios ou um divestiture ou "spinoff" de um cliente associado, entre em contato com o seu vendedor da Microsoft.
 
 ## <a name="shipping-addresses"></a>Endereços de envio
 

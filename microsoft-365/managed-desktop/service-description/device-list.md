@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f8d5b9321d8aad77ae25dcc7563a9e0db7dfc754
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+ms.openlocfilehash: 350b1afb4734902435ccdca1e9abee26901e446f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859321"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801296"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -47,6 +47,8 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
 | [HP EliteOne 800 G4 23.8 em AIO](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
 | [HP ProBook X360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV, câmera de infravermelho ou leitor de impressão digital necessário | 6 de junho de 2020 | 6 de junho de 2023 |
+| **\*[Estação de trabalho HP Z2 mini G4](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1)** | 256 GB/Intel i5/8 GB de RAM | SKU com 8QR48AV| 31 de janeiro de 2021 | 31 de janeiro de 2024 |
+|**\*[Estação de trabalho móvel HP ZBook 14U/15U G6](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS02AV, câmera de infravermelho necessária | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | [Ir para a superfície](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel 4415Y/8GB de RAM | Nenhum | 2 de agosto de 2020 | 2 de agosto de 2023 |
 | [Laptop de superfície 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | **\*[Laptop de superfície 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |

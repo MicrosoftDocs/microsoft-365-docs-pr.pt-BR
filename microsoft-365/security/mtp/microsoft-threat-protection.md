@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 01a81d5f4ac68d72095f86de93b727c60d28393f
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: a47ffecbf0ef1ac7dcfeef9d8cbe4e104de9ca2d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910201"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808576"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A proteção contra ameaças da Microsoft é um pacote unificado de defesa do Enterprise Defense que se integra nativamente ao ponto de extremidade, identidade, email e aplicativos para detectar, prevenir, investigar e responder automaticamente a ataques sofisticados.  
 
@@ -74,6 +74,6 @@ Os recursos entre produtos do Microsoft Threat Protection incluem:
 
 
 ## <a name="get-started"></a>Introdução
-Os clientes com uma licença Microsoft 365 E5 ou equivalente podem usar a proteção contra ameaças da Microsoft. Para começar, habilite o serviço na central de segurança do Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
+Os clientes com uma licença do Microsoft 365 E5 ou equivalente podem usar a Proteção contra Ameaças da Microsoft. Para começar, habilite o serviço na central de segurança do Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
 - [Requisitos de licenciamento](prerequisites.md#licensing-requirements)
-- [Ativar a proteção contra ameaças da Microsoft](mtp-enable.md)
+- [Habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md)

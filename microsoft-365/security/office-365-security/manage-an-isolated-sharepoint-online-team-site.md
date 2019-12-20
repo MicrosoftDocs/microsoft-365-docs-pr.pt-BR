@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 'Resumo: Gerencie seu site de equipe do SharePoint Online isolado com estes procedimentos.'
-ms.openlocfilehash: 1b033d8c08b4b263c854213ce7b2a9fc2c0baede
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 375ad078408b66e707e043976efd0a5cfb122be3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971729"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807976"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Gerenciar um site de equipe do SharePoint Online isolado
 
@@ -43,7 +43,7 @@ Se você estiver gerenciando contas de usuário e grupos através do Office 365,
     
 - Para o PowerShell, primeiro [Conecte-se ao módulo do PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Para adicionar uma conta de usuário a um grupo de acesso com seu nome de usuário principal (UPN), use o seguinte bloco de comando do PowerShell:
     
-```
+```powershell
 $userUPN="<UPN of the user account>"
 $grpName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -51,7 +51,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalN
 
 Para adicionar uma conta de usuário a um grupo de acesso com seu nome de exibição, use o seguinte bloco de comando do PowerShell:
 
-```
+```powershell
 $userDisplayName="<display name of the user account>"
 $grpName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $userDisplayName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -76,7 +76,7 @@ Se você estiver gerenciando contas de usuário e grupos através do Office 365,
 - Para o PowerShell, primeiro [Conecte-se ao módulo do PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
  Em seguida, use os seguintes comandos do PowerShell:
  
-```
+```powershell
 $newGroupName="<display name of the new group to add>"
 $siteGrpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $newGroupName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $siteGrpName }).ObjectID
@@ -101,7 +101,7 @@ Se você estiver gerenciando contas de usuário e grupos através do Office 365,
 - Para o PowerShell, primeiro [Conecte-se ao módulo do PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 Para remover uma conta de usuário de um grupo de acesso com seu UPN, use o seguinte bloco de comando do PowerShell:
     
-```
+```powershell
 $userUPN="<UPN of the user account>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -109,7 +109,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.UserPrincipalN
 
 Para remover uma conta de usuário de um grupo de acesso com seu nome de exibição, use o seguinte bloco de comando do PowerShell:
     
-```
+```powershell
 $userDisplayName="<display name of the user account>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -eq $userDisplayName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -134,7 +134,7 @@ Se você estiver gerenciando contas de usuário e grupos através do Office 365,
 - Para o PowerShell, primeiro [Conecte-se ao módulo do PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).    
 Para remover um grupo de um grupo de acesso usando seus nomes de exibição, use o seguinte bloco de comando do PowerShell:
     
-```
+```powershell
 $groupMemberName="<display name of the group to remove>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupMemberName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -146,7 +146,7 @@ Em alguns casos, um subconjunto das pessoas que trabalham dentro do site isolado
   
 Para criar uma subpasta documentos com permissões personalizadas, faça o seguinte:
   
-1. Entre no Office 365 com uma conta que seja membro do grupo de acesso de administradores para o site. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no Office 365 com uma conta que seja membro do grupo de acesso de administradores para o site. Para obter ajuda, confira [Como entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Vá para o site de equipe isolado e clique em **documentos**.
     

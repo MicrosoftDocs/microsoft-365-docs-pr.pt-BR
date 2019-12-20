@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2fee44c0d9c9ff30ca23ccef863e056cadee7de8
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: d03b278fbf029b08b476f20292315807a3f5e32a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910684"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808616"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Cada linha na tabela `DeviceTvmSecureConfigurationAssessment` contém um evento de avaliação para uma configuração de segurança específica de [Gerenciamento de Vulnerabilidades e Ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Use esta referência para verificar os últimos resultados da avaliação e determinar se os dispositivos são compatíveis.
 
@@ -35,8 +35,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
-| `MachineId` | string | Identificador exclusivo da máquina no serviço |
-| `ComputerName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
 | `Timestamp` | datetime | Data e hora em que o registro foi gerado |
 | `ConfigurationId` | string | Identificador exclusivo para uma configuração específica |
