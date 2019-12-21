@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de Laboratório de Teste para criar um ambiente de teste leve para testar o Microsoft 365 Enterprise.
-ms.openlocfilehash: 6f49982fe71196f3c147c1638b402ee63bb861c1
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 0bbb54ca054ce1f4f96a32c887fba60b982375de
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202302"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801646"
 ---
 # <a name="the-lightweight-base-configuration"></a>A configuração de base leve
 
@@ -43,13 +43,13 @@ Começaremos com uma assinatura de avaliação do Office 365 E5 e, em seguida, a
 
 Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro é necessário um nome de empresa fictícia e uma nova conta da Microsoft.
   
-1. Recomendamos que você use uma variante do nome de empresa Contoso para o nome da sua empresa, que é uma empresa fictícia usada no conteúdo de exemplo da Microsoft, mas não é necessário. Registre o seu nome de empresa fictícia aqui: ![](./media/Common-Images/TableLine.png)
+1. Recomendamos que você use uma variante do nome de empresa Contoso para o nome da sua empresa, que é uma empresa fictícia usada no conteúdo de exemplo da Microsoft, mas não é necessário. Registre o seu nome de empresa fictícia aqui: ![Linha](./media/Common-Images/TableLine.png)
     
 2. Para se inscrever em uma nova conta da Microsoft, acesse [https://outlook.com](https://outlook.com) e crie uma conta com um novo endereço e conta de email. Você usará essa conta para se inscrever no Office 365.
     
-  - Armazene o nome e sobrenome da sua nova conta aqui: ![](./media/Common-Images/TableLine.png)
+  - Armazene o nome e sobrenome da sua nova conta aqui: ![Linha](./media/Common-Images/TableLine.png)
     
-  - Armazene o novo endereço de conta de email aqui: ![](./media/Common-Images/TableLine.png)@outlook.com
+  - Armazene o novo endereço da conta de email aqui:  ![Linha](./media/Common-Images/TableLine.png)@outlook.com
     
 ### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Inscrever-se em uma assinatura de avaliação do Office 365 E5
 
@@ -58,8 +58,8 @@ Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro 
 2. Na página **Obrigado por escolher o Office 365 E5**, especifique o endereço de sua nova conta de email na etapa 1.
 3. Na etapa 2 do processo de assinatura de avaliação, digite as informações solicitadas e execute a verificação.
 4. Na etapa 3, digite o nome da organização e, em seguida, o nome da conta que será o administrador global da assinatura. 
-5. Para a etapa 4, armazene a URL da página de entrada aqui (selecione e copie): ![](./media/Common-Images/TableLine.png) 
-6. Armazene a ID de usuário aqui: ![](./media/Common-Images/TableLine.png).onmicrosoft.com  
+5. Para a etapa 4, armazene a URL da página de entrada aqui (selecione e copie):  ![Linha](./media/Common-Images/TableLine.png) 
+6. Armazene a ID de usuário aqui: ![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com  
    Armazene a senha que você digitou em um local seguro.
    Esse valor será chamado de **Nome de administrador global do Office 365**.
 8. Clique em **Ir para Configuração**.
@@ -119,11 +119,11 @@ Talvez você queira imprimir este artigo para registrar as informações especí
 
 Registre esses valores:
   
-- O nome do administrador global do Office 365: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (da etapa 6 da fase 1)
+- Nome do administrador global do Office 365: ![Linha](./media/Common-Images/TableLine.png)onmicrosoft.com (na etapa 6 da Fase 1)
     
     Também armazene a senha dessa conta em um local seguro.
     
-- O nome da organização de sua assinatura de avaliação: ![](./media/Common-Images/TableLine.png) (da etapa 4 da fase 1)
+- Nome da sua organização de assinatura de avaliação:  ![Linha](./media/Common-Images/TableLine.png) (na etapa 4 da Fase 1)
     
 - Para listar as contas do usuário 2, Usuário 3, Usuário 4 e Usuário 5, execute o seguinte comando no prompt do Módulo do Windows Azure Active Directory para Windows PowerShell:
     
@@ -133,13 +133,13 @@ Registre esses valores:
 
     Armazene os nomes de contas aqui:
     
-  - Nome da conta do Usuário 2: usuário2@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 2: usuário2@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do Usuário 3: usuário3@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 3: usuário3@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do Usuário 4: usuário4@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 4: usuário4@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do Usuário 5: usuário5@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 5: usuário5@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
     
     Também registre a senha em comum dessas contas em um local seguro.
    
