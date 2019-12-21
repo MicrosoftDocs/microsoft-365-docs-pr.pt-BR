@@ -3,7 +3,7 @@ title: Redefinição de senha do ambiente de teste do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/19/2019
+ms.date: 12/13/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e testar a redefinição de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 100db14b7940d68a185c3f6065df053aed7fbf73
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: 930c5b4a4ddcc4866a586ff444380ff6dcd66238
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757708"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801406"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Redefinição de senha do ambiente de teste do Microsoft 365
 
@@ -33,9 +33,9 @@ Este artigo descreve como você pode configurar e testar redefinições de senha
 
 1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Ativar write-back de senha.
-3.  Configurar e testar a redefinição de senha da conta Usuário 2.
+3.  Configure e teste a redefinição de senha da conta do Usuário 3.
     
-![Guias de Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
@@ -52,7 +52,6 @@ Esta configuração consiste em:
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
 - O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB do Active Directory Domain Services (AD DS) com o locatário do Azure AD de assinatura do Microsoft 365 ou do Office 365.
 
-
 ## <a name="phase-2-enable-password-writeback"></a>Fase 2: Ativar o write-back de senha
 
 Siga as instruções da [Fase 2 do Guia do laboratório de teste de write-back de senha](password-writeback-m365-ent-test-environment.md#phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain).
@@ -67,25 +66,26 @@ Primeiro, habilite a redefinição de senhas para as contas em um grupo específ
 
 1. Abra o [https://portal.azure.com](https://portal.azure.com) em uma instância privada do navegador e entre com as credenciais da conta de administrador global.
 2. No Portal do Azure, clique em **Azure Active Directory > Grupos > Novo grupo**.
-3. Defina **Tipo de grupo** como **Segurança**, **Nome do grupo** como **PWReset** e **Tipo de associação** como **Atribuído**; em seguida, clique em **Criar**.
-5. Clique no grupo **PWReset** na lista e, em seguida, clique em **Membros**.
-6. Clique em **Adicionar membros**, clique em **Usuário 2** e em **Selecionar**. Feche as páginas **PWReset** e **Grupo**.
-7. Na página do Azure Active Directory, clique em **Redefinição de senha**.
-8. Na página **Propriedades**, vá até a opção **Redefinição da Senha de Autoatendimento Habilitada** e escolha **Selecionado**.
-9. Em **Selecionar grupo**, selecione **PWReset** e clique em **Salvar**.
-10. Feche a instância privada do navegador.
+3. Defina o **Tipo de grupo** como **Segurança**, **Nome do grupo** como **PWReset** e o**Tipo de associação** como **Atribuído**. 
+4. Clique em **Membros**, localize e selecione **Usuário 3**, em seguida, clique em **Selecionar**e, logo depois, clique em **Criar**.
+5. Feche o painel de **Grupos**.
+6. No painel de Azure Active Directory, clique em**Redefinição de senha**na barra de navegação à esquerda.
+7. No painel **Redefinição de senha-Propriedades**, vá até a opção **Redefinição da Senha de Autoatendimento Habilitada** e escolha **Selecionado**.
+8. Clique **Selecionar grupo**, selecione o grupo **PWReset** e, em seguida, clique em **Selecionar > Salvar**.
+9. Feche a instância privada do navegador.
 
-Em seguida, teste a redefinição de senha na conta do Usuário 2.
+Em seguida, teste a redefinição de senha para a conta do Usuário 3.
 
-1. Abra outra instância privada do navegador e acesse [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
-2. Entre com as credenciais da conta do Usuário 2.
-3. Em **Não perca o acesso à sua conta**, defina o telefone de autenticação com um número de celular e o email de autenticação com uma conta de email pessoal ou de trabalho.
-4. Depois de verificar ambos, clique em **Parece bom** e feche a instância privada do navegador.
-5. Abra uma nova instância privada do navegador e vá para [https://aka.ms/sspr](https://aka.ms/sspr).
-6. Entre com as credenciais da conta do Usuário 2, digite os caracteres do CAPTCHA e clique em **Avançar**.
-8. Na **etapa de verificação 1**, clique em **Inserir o meu email alternativo** e em **Enviar email**. Quando receber o email, digite o código de verificação e clique em **Avançar**.
-9. Em **Retornar à sua conta**, digite uma nova senha para a conta do Usuário 2 e clique em **Concluir**. Anote a nova senha da conta do Usuário 2 e guarde-a em um local seguro.
-10. Em uma guia separada do mesmo navegador, acesse [https://portal.office.com](https://portal.office.com) e entre com o nome da conta do Usuário 2 e sua nova senha. Você verá a **home page do Microsoft Office**.
+1. Abra outra instância privada do navegador e vá para [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
+2. Entre usando as credenciais da conta do Usuário 3.
+3. Em **Mais informações**, clique em **Avançar**. 
+5. Em **Não perca o acesso à sua conta**, defina o telefone de autenticação com um número de celular e o email de autenticação com uma conta de email pessoal ou de trabalho.
+7. Depois de verificar ambos, clique em **Parece bom** e feche a instância privada do navegador.
+8. Abra uma nova instância privada do navegador e vá para [https://aka.ms/sspr](https://aka.ms/sspr).
+9. Digite o nome da conta do Usuário 3, digite os caracteres do CAPTCHA e clique em **Avançar**.
+10. Na **etapa de verificação 1**, clique em **Inserir o meu email alternativo** e em **Enviar email**. Quando receber o email, digite o código de verificação e clique em **Avançar**.
+11. No **Retornar à sua conta**, digite uma nova senha para a conta do Usuário 3 e clique em **Concluir**. Anote a senha alterada da conta do Usuário 3 e armazene-a em um local seguro.
+12. Em uma guia separada do mesmo navegador, vá para [https://portal.office.com](https://portal.office.com) e entre com o nome da conta do Usuário 3 e sua nova senha. Você verá a **home page do Microsoft Office**.
 
 Confira informações e links para configurar a redefinição de senhas em produção na etapa [Simplificar a redefinição de senhas](identity-secure-your-passwords.md#identity-pw-reset), na fase Identidade.
 
