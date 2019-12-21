@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 3739f9f0ab7a7faa9c0467b29cc6c401254e8f58
-ms.sourcegitcommit: aa878adee65a1cdf87d4cabda41ab35673957f40
+ms.openlocfilehash: b2e9670d700d8c09caf861f5a24b0570e0f74256
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590495"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "37746547"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -162,7 +162,7 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 ## <a name="high-risk-users-must-change-password"></a>Usuários de alto risco devem alterar a senha
 Para garantir que todas as contas comprometidas de usuários de alto risco sejam forçadas a executar uma alteração de senha ao entrar, você deve aplicar a política a seguir.
 
-Faça logon no [Portal do Microsoft Azure (http://portal.azure.com)](http://portal.azure.com/) com suas credenciais de administrador e, em seguida, navegue até **Azure AD Identity Protection > Política de Risco do Usuário**.
+Faça logon no [Portal do Microsoft Azure (https://portal.azure.com)](https://portal.azure.com/) com suas credenciais de administrador e, em seguida, navegue até **Azure AD Identity Protection > Política de Risco do Usuário**.
 
 **Atribuições**
 
@@ -225,13 +225,13 @@ As tabelas a seguir descrevem as configurações recomendadas:
 |Acessar|Solicitar PIN para acesso|Sim||
 ||Selecionar tipo|Numeric||
 ||Permitir PIN simples|Não||
-||Tamanho do PIN|6||
+||Tamanho do PIN|6 ||
 ||Permitir a impressão digital em vez do PIN|Sim||
 ||Desabilitar PIN do aplicativo quando o PIN do dispositivo for gerenciado|Sim||
 ||Exigir credenciais corporativas para acesso|Não||
 ||Verificar novamente o requisito de acesso após (minutos)|até||
 ||Bloquear captura de tela e Assistente do Android|Não|No iOS isso não é uma opção disponível|
-|Requisitos de segurança de entrada|Máximo de tentativas de PIN|0,5|Redefinir PIN|
+|Requisitos de segurança de entrada|Máximo de tentativas de PIN|5 |Redefinir PIN|
 ||Período de cortesia offline|720|Bloquear acesso|
 ||Intervalo offline (dias) antes do apagamento dos dados do aplicativo|90|Limpar dados|
 ||Dispositivos desbloqueados/com raiz| |Limpar dados|
@@ -280,7 +280,7 @@ Criar uma política para cada plataforma:
 - Windows 8,1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até o **Intune > o dispositivo de conformidade**. Selecione **criar política**.
+Para criar políticas de conformidade de dispositivos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até o **Intune > o dispositivo de conformidade**. Selecione **Criar política**.
 
 As configurações a seguir são recomendadas para o Windows 10.
 
@@ -308,10 +308,10 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 |Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
-||Tamanho mínimo da senha|6||
-||Máximo de minutos de inatividade antes que a senha seja necessária|15|Essa configuração tem suporte para o Android versões 4,0 e superior ou o KNOX 4,0 e superior. Para dispositivos iOS, ele é compatível com iOS 8,0 e superior|
+||Tamanho mínimo da senha|6 ||
+||Máximo de minutos de inatividade antes que a senha seja necessária|15 |Essa configuração tem suporte para o Android versões 4,0 e superior ou o KNOX 4,0 e superior. Para dispositivos iOS, ele é compatível com iOS 8,0 e superior|
 ||Vencimento da senha (dias)|41||
-||Número de senhas anteriores para evitar reutilização|0,5||
+||Número de senhas anteriores para evitar reutilização|5 ||
 ||Exigir senha quando o dispositivo retornar do estado ocioso (móvel e Holographic)|Precisa|Disponível para Windows 10 e posterior|
 |Criptografia|Criptografia do armazenamento de dados no dispositivo|Precisa||
 |Segurança do dispositivo|Firewall|Precisa||
@@ -322,7 +322,7 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 ||Assinatura antimalware do Windows Defender atualizada|Precisa||
 ||Proteção em tempo real|Precisa|Compatível apenas com a área de trabalho do Windows 10|
 
-**Microsoft defender ATP**
+**Microsoft Defender ATP**
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|

@@ -12,12 +12,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 66a3478ed625b3c7453992e04070d57beef173eb
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: c31107588e6d7841e93c3a1cd653790f3937c21e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749626"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808526"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Lista de verificação de preparação de responsabilidade para Microsoft Office 365
 
@@ -31,7 +32,7 @@ Além disso, os itens nesta lista de verificação em *5.* *Proteção de Dados 
 
 A lista de verificação e o Gerente de Conformidade são organizados usando os títulos e o número de referência (entre parênteses para cada tópico da lista de verificação) de um conjunto de controles de privacidade e segurança para processadores de dados pessoais extraídos de:
 
-- Requisitos de técnicas de segurança da [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735).
+- [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) para requisitos de técnicas de segurança.
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de privacidade.
 
 Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Office 365 implementa para oferecer suporte ao RGPD, que você pode baixar da [Central de Confiabilidade do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).

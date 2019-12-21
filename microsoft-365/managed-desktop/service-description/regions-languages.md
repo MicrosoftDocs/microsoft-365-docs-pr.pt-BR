@@ -1,23 +1,23 @@
 ---
-title: Regiões e idiomas suportados
+title: Regiões e idiomas com suporte
 description: Regiões e idiomas compatíveis com a área de trabalho gerenciada da Microsoft
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bdd11728b6b3b5ebaf0eea507906e4fc31adb7b5
-ms.sourcegitcommit: d9350b6465d1404d32bcba8f5fc5a203085e6b82
+ms.openlocfilehash: b517ab49681b7e9251cd5b577c9522db32aea4cb
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35786726"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "37422528"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Idiomas e regiões compatíveis com o Microsoft Managed desktop
 
 Este tópico fornece detalhes sobre regiões e idiomas suportados pela área de trabalho gerenciada da Microsoft. 
 
-- **Regiões:** Estados Unidos, Canadá (exceto Quebec), Reino Unido, Austrália e Nova Zelândia
+- **Regiões:** Estados Unidos, Canadá (exceto Quebec), Reino Unido, Bélgica, Luxemburgo, Holanda, Austrália e Nova Zelândia
 - **Idiomas:** O inglês é o único idioma suportado atualmente disponível para os usuários em dispositivos gerenciados. Isso se aplica às opções de suporte do [administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e do [usuário final](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support) . 
 
 No entanto, os clientes ainda podem usar dispositivos gerenciados fora das regiões listadas acima sem uma interrupção para o serviço de área de trabalho gerenciada da Microsoft. Por exemplo, um funcionário com base no Reino Unido pode trabalhar com segurança e receber atualizações em seus dispositivos gerenciados durante viagens Ásia, Europa ou América do Sul.
