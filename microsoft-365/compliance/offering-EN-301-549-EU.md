@@ -1,5 +1,5 @@
 ---
-title: 'Relatórios da Norma Europeia EN 301 549 '
+title: Padrões europeus EN 301 549
 description: O Microsoft Cloud abrange muitos serviços e está incluído em muitos relatórios de conformidade individuais.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
@@ -11,24 +11,25 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 33bd7c3626e29471495e9d7d7d251fc65c4e7892
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 3bb38720caaa27b0f8deba26046410c0d8f25d6c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859931"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805204"
 ---
-# <a name="european-standards-en-301-549-reports"></a>Relatórios de Normas Europeia EN 301 549 
+# <a name="european-standards-en-301-549"></a>Padrões europeus EN 301 549
 
 ## <a name="about-en-301-549"></a>Sobre a EN 301 549
 
-Os requisitos de acessibilidade adequados para aquisições públicas de produtos e serviços de tecnologias da informação e comunicação (ICT) estão estabelecidos na EN 301 549, que é um conjunto de normas para produtos e serviços de ICT, incluindo sites, software e dispositivos digitais. A EN 301 549 foi publicada em 2014 pelo Instituto Europeu de Normas de Telecomunicações (ETSI) em resposta a uma solicitação da Comissão Europeia e foi atualizada em 2018 com a versão 2.1.2. Ela se destina ao uso em aquisições por organizações governamentais e do setor público. A EN 301 549 incorpora as normas das WCAG 2.1 para acessibilidade da Web na cláusula 9.2.
+Os requisitos de acessibilidade adequados para produtos e serviços de tecnologias da informação e comunicação (ICT) estão estabelecidos na EN 301 549, que é um conjunto de normas para produtos e serviços de ICT, incluindo sites, software e dispositivos digitais. A EN 301 549 foi publicada em 2014 pelo Instituto Europeu de Normas de Telecomunicações (ETSI) em resposta a uma solicitação da Comissão Europeia e foi atualizada recentemente em novembro de 2019 com a versão 3.1.1. A EN 301 549 3.1.1 incorpora as normas das [WCAG](offering-WCAG-2-1.md) para acessibilidade na Web.
 
-Como a Microsoft é um importante provedor de serviços de software e nuvem para Estados e governos em todo o mundo, ela está comprometida em seguir todas as [normas internacionais e controles de conformidade](https://go.microsoft.com/fwlink/p/?linkid=2051708) relevantes. Ao cumprir essas amplas normas de acessibilidade, a Microsoft garante que todos os clientes, dentro e fora do governo, possam usar os serviços e produtos da Microsoft.
+A Microsoft é um importante provedor de serviços de nuvem e software para países europeus. Para ajudar os clientes a tomar decisões de compra, a Microsoft publica Relatórios de Conformidade de Acessibilidade (ACRs) descrevendo a amplitude de compatibilidade dos nossos produtos e serviços com os critérios da EN 301 549. As Informações fornecidas por esses relatórios podem ajudar os clientes da Microsoft a determinar se um determinado produto ou serviço atenderá às suas necessidades específicas.
 
 ## <a name="microsoft-and-en-301-549"></a>Microsoft e EN 301 549
 
-A adesão da Microsoft à norma EN 301 549 mostra seu compromisso com a acessibilidade para todos os clientes. A EN 301 549 é a norma de acessibilidade específica da Europa que complementa a Seção 508 (EUA) e as WCAG 2.1 (internacional).
+A Microsoft, ao levar em conta as normas da EN 301 549 no desenvolvimento de produtos e serviços, mostra o seu compromisso de tornar seus produtos e serviços acessíveis para todos os clientes.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
@@ -37,7 +38,7 @@ A adesão da Microsoft à norma EN 301 549 mostra seu compromisso com a acessibi
 - Dynamics 365 e Dynamics 365 U.S. Government
 - Intune
 - [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Office 365 U.S. Government Defense
+- Office 365 U.S. Government Defense
 - Windows Server 2016
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Relatórios de Conformidade de Acessibilidade da Microsoft
