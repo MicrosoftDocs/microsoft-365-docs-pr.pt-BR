@@ -2,30 +2,31 @@
 title: Solicitações de titulares dos dados ao suporte e aos Serviços profissionais da Microsoft sobre o RGPD e CCPA
 description: Como o suporte da Microsoft e os serviços profissionais cuidam das solicitações de entidades de dados para RGPD e CCPA
 keywords: Serviços profissionais, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
-author: robmazz
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: b54f3ceb056d182951ea7c2d8d21ffa2eeda2db3
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 60e567f5c5a0c63218b7e9d3aae19d127a1ae98e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "39268417"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806344"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de titulares dos dados ao suporte e aos Serviços profissionais da Microsoft sobre o RGPD e CCPA
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Introdução aos serviços profissionais da Microsoft
 
-Os Serviços profissionais da Microsoft incluem um grupo diverso de arquitetos, engenheiros, consultores técnicos e profissionais de suporte dedicados ao cumprimento da missão da Microsoft de capacitar os clientes a produzirem mais e conquistarem mais. Nossa equipe de Serviços profissionais tem mais de 21.000 consultores, orientadores digitais, suporte premier, engenheiros e profissionais de vendas trabalhando em 191 países, com suporte a 46 idiomas diferentes, gerenciando milhões de compromissos por mês e participando de interações com clientes e parceiros por meio de ferramentas locais, por telefone, na Web, na comunidade e automatizadas. A organização oferece uma ampla experiência no portfólio da Microsoft, utilizando uma ampla rede de parceiros, comunidades técnicas, ferramentas, diagnósticos e canais que nos conectam com nossos clientes corporativos.
+Os Serviços profissionais da Microsoft incluem um grupo diverso de arquitetos, engenheiros, consultores técnicos e profissionais de suporte dedicados ao cumprimento da missão da Microsoft de capacitar os clientes a produzirem mais e conquistarem mais. Nossa equipe de Serviços profissionais tem mais de 21.000 consultores, Orientadores Digitais, Suporte Premier, engenheiros e profissionais de vendas trabalhando em 191 países, com suporte a 46 idiomas diferentes, gerenciando milhões de compromissos por mês e participando de interações com clientes e parceiros por meio de ferramentas locais, por telefone, na Web, na comunidade e automatizadas. A organização oferece uma ampla experiência no portfólio da Microsoft, utilizando uma ampla rede de parceiros, comunidades técnicas, ferramentas, diagnósticos e canais que nos conectam com nossos clientes corporativos.
 
-Saiba mais sobre os Serviços Profissionais da Microsoft acessando a seção Serviços Profissionais da Microsoft na Central de Confiabilidade da Microsoft (<https://www.microsoft.com/trustcenter/professional-services>). Os Serviços profissionais da Microsoft levam a sério as suas obrigações no Regulamento Geral sobre a Proteção de Dados (RGPD). As informações neste documento foram projetadas para responder a perguntas de clientes sobre como as ofertas de suporte e consultoria responderão e auxiliarão clientes a responder a obrigações da Solicitação de Entidades de Dados (DSR) no RGPD.
+Para saber mais sobre os Serviços Profissionais da Microsoft, acesse a [webpage de Documentação de Segurança dos Serviços Profissionais da Microsoft](https://www.microsoft.com/en-us/professionalservices/overview). Os Serviços profissionais da Microsoft levam a sério as suas obrigações no Regulamento Geral sobre a Proteção de Dados (RGPD). As informações neste documento foram projetadas para responder a perguntas de clientes sobre como as ofertas de suporte e consultoria responderão e auxiliarão clientes a responder a obrigações da Solicitação de Entidades de Dados (DSR) no RGPD.
 
 ### <a name="introduction-to-dsrs"></a>Introdução às DSRs 
 
@@ -33,11 +34,11 @@ O RGPD fornece direitos às pessoas (conhecidas na regulamentação como *titula
 
 Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
-Este guia discute como localizar, acessar e atuar em dados pessoais que residem nos sistemas de TI da Microsoft que podem ter sido coletados para fornecer suporte e outras ofertas dos serviços profissionais.
+Este guia discute como localizar, acessar e atuar em dados pessoais que residem nos sistemas de TI da Microsoft que podem ter sido coletados para fornecer Suporte e outras ofertas dos Serviços Profissionais.
 
 Ao desenvolver uma resposta para as DSRs, é importante para os clientes da Microsoft entenderem que os dados de consultoria e de suporte são separados dos dados de cliente nos Serviços Online ou de outros dados que eles ou seus titulares de dados possam ter fornecido à Microsoft. As ferramentas e os processos fornecidos para Serviços Online, o Painel de Privacidade da Microsoft ou outros sistemas da Microsoft para resposta às DSRs da Microsoft não podem ser usados para responder a DSRs relativas aos dados pessoais mantidos pelo Suporte da Microsoft ou outros Serviços profissionais.
 
-Todas as solicitações precisam ser realizadas por meio de um representante do suporte, conforme descrito abaixo. Atualmente não há nenhuma ferramenta de autoatendimento para os clientes acessarem dados pessoais nas organizações de Serviços profissionais.
+Todas as solicitações precisam ser realizadas por meio de um representante do suporte, conforme descrito abaixo. Atualmente não há nenhuma ferramenta de autoatendimento para os clientes acessarem dados pessoais nas organizações de Serviços Profissionais.
 
 #### <a name="overview-of-the-processes-outlined-in-this-guide"></a>Visão geral dos processos descritos neste guia
 
@@ -81,7 +82,7 @@ Os dados pessoais de Contato do Cliente são parte do relacionamento de negócio
 
 Os clientes devem compreender que a DSR abrange apenas os dados pessoais do Contato do Cliente, e nenhuma alteração ou exclusão será feita em nenhum dos dados do cliente enviados como parte de interações (por exemplo, transcrições, descrições de casos, arquivos, produtos de trabalho), já que a Microsoft é o processador de dados. Além disso, para manter o registro histórico da interação, nenhuma mudança será feita em todas as interações encerradas, incluindo o registro de quem abriu uma interação.
 
-Ao ser consultado por um Contato do Cliente sobre uma DSR, a equipe da Microsoft encaminhará um contato do cliente para o [Suporte de Privacidade da Microsoft](https://go.microsoft.com/fwlink/?LinkId=321116). Este é o mecanismo de entrada principal da Microsoft para consultas e reclamações sobre privacidade. Ao receber uma consulta, a equipe de privacidade da Microsoft identificará que ela faz parte de uma conta comercial ou organizacional e responderá de acordo.
+Ao ser consultado por um Contato do Cliente sobre uma DSR, a equipe da Microsoft encaminhará um contato do cliente para o [Centro de Resposta de Privacidade](https://go.microsoft.com/fwlink/?LinkId=321116). Este é o mecanismo de entrada principal da Microsoft para consultas e reclamações sobre privacidade. Ao receber uma consulta, o Centro de Resposta de Privacidade identificará que isso faz parte de uma conta comercial ou organizacional e responderá de acordo.
 
 Para garantir a continuidade de negócios do cliente, a Microsoft também não processará uma DSR associada a uma interação até a confirmação de um contato substituto. Após a confirmação de um novo contato, a Microsoft trocará o contato antigo pelo novo em interações abertas.
 
@@ -89,7 +90,7 @@ Os clientes podem optar por fazer alterações em seus dados coletados durante a
 
 ***Exemplo apenas para fins ilustrativos***
 
-Davi é um administrador de TI de um cliente empresarial do Office 365, com uma interação de suporte aberta e duas interações fechadas. Agora, Davi está saindo da sua empresa e deseja excluir os seus dados. Davi entra em contato com a RPC, que o identifica como o administrador de TI. Davi fica sabendo que seu nome não pode ser excluído das interações anteriores (fechadas) nem de qualquer dado nas interações abertas. No entanto, a PRC substituirá Davi como contato no tíquete aberto atual caso ele indique um contato substituto. Davi avisa à Microsoft que Laura será o contato substituto e a Microsoft fará a alteração em todos os sistemas de suporte.
+Davi é um administrador de TI de um cliente empresarial do O365, com uma interação de suporte aberta e duas interações fechadas. Agora, Davi está saindo da sua empresa e deseja excluir os seus dados. Davi entra em contato com o Centro de Respostas de Privacidade, que o identifica como o administrador de TI. Davi fica sabendo que seu nome não pode ser excluído das interações anteriores (fechadas) nem de qualquer dado nas interações abertas. No entanto, o Centro de Respostas de Privacidade substituirá Davi como contato no tíquete aberto atual caso ele indique um contato substituto. Davi avisa à Microsoft que Laura será o contato substituto e a Microsoft fará a alteração em todos os sistemas de suporte.
 
 ## <a name="dsr-for-an-end-user-engaging-microsoft"></a>DSR para um usuário final de envolvimento da Microsoft
 
@@ -117,7 +118,7 @@ O primeiro passo para obter assistência da Microsoft na resposta a uma DSR é e
 
 Depois que o cliente encontrar os dados, o cliente, em seguida, poderá executar a ação específica para atender à solicitação do titular dos dados. A determinação do nível de descoberta com que o cliente precisa se envolver dependerá do que o cliente está tentando fazer.
 
-Quando a Microsoft auxilia um cliente com a solução de uma DSR, isso é uma função empresarial, e a solicitação é feita pelo canal de suporte normal, não por meio de uma solicitação à Equipe de Privacidade da Microsoft.
+Quando a Microsoft auxilia um cliente com a solução de uma DSR, isso é uma função empresarial, e a solicitação é feita pelo canal de suporte normal, não por meio de uma solicitação ao Centro de Respostas de Privacidade.
 
 Ao descobrir os dados relevantes e obter assistência da Microsoft, um cliente tem várias opções de abordagem da DSR:
 
@@ -166,12 +167,11 @@ Conforme um cliente investiga ou se prepara para excluir dados pessoais em respo
 
 Todos os dados da Microsoft têm uma política de retenção e exclusão aplicada a eles, que variam de acordo com o risco e outros fatores.
 
-Os clientes que solicitarem a exclusão universal dos dados pessoais de um titular dos dados em todos os sistemas de suporte pode fazê-lo por meio do TAM ou apresentando uma Solicitação de Suporte (SR) no SMC ou sistema equivalente. Você *deve* indicar que essa é uma solicitação para ajudá-lo com a DSR consoante o RGPD.
+Os clientes que solicitarem a exclusão universal dos dados pessoais de um titular dos dados em todos os sistemas de suporte pode fazê-lo por meio do TAM ou apresentando uma Solicitação de Suporte (SR) no SMC ou sistema equivalente. Você *deve* indicar que essa é uma solicitação para ajudá-lo com a DSR em RGPD.
 
 *Opção A — DSR de cliente de suporte em toda a Microsoft*. Para uma DSR de sistema cruzado, o cliente deve fornecer os dados pessoais que a Microsoft precisa para identificar os dados necessários (por exemplo, endereço de email, número de telefone). A Microsoft não irá correlacionar ou pesquisar registros e só pesquisará diretamente nos identificadores fornecidos pelo cliente. Quando dados forem encontrados, a Microsoft excluirá todas as interações e todos os dados associados.
 
-> [!IMPORTANT]
-> Observação importante:** isso pode resultar na perda de registros históricos importantes para a organização do cliente.
+> Observação Importante: isso pode resultar na perda de registros históricos importantes para a organização do cliente.
 
 *Opção B — Interações Específicas do Cliente*. Para interações específicas que o cliente tenha identificado e deseje excluir, não exclua tíquetes do SMC. Isso resultará em dados pessoais remanescentes em logs e sistemas downstream que podem não ser excluídos dentro do período de tempo necessário. Em vez disso, identifique o tíquete ou os dados pessoais dentro do tíquete que deve ser excluído e entre em contato com o Suporte da Microsoft para ajudá-lo a excluir esses dados.
 
@@ -200,7 +200,7 @@ Ele também suspeita que estava envolvido em uma conversa de chat com a equipe d
 
 Ele também sabe que os dados pessoais de Laura estão no banco de dados SQL. Como a VM do SQL foi movida para a DTM há menos de 90 dias, ele pede separadamente a seu TAM que ajude na exclusão imediata do banco de dados da DTM.
 
-Por fim, como ele sabe que os dados podem ter sido removidos do arquivo da DTM durante o suporte, ele pede que a Microsoft procure pelos dados de Laura nos sistemas de TI a partir do banco de dados SQL.
+Por fim, como ele sabe que os dados podem ter sido removidos do arquivo da DTM durante o suporte, ele pede que a Microsoft procure pelos dados pessoais de Laura nos sistemas de TI a partir do banco de dados SQL.
 
 O Suporte da Microsoft executa todas essas exclusões e, com base na solicitação do cliente, o TAM lhe fornece uma instrução de atestado de que os dados necessários foram excluídos.
 
@@ -212,7 +212,7 @@ O Suporte da Microsoft executa todas essas exclusões e, com base na solicitaç�
 
 Para as interações com os serviços de consultoria da Microsoft contratadas em que se aplica o adendo de proteção de dados de Serviços profissionais da Microsoft (<https://aka.ms/professionalservicesdpa>).
 
-A Microsoft é o controlador de dados dos Contatos do Cliente que trabalham com a equipe de interação. Esses indivíduos devem contatar o [Suporte da Privacidade da Microsoft](https://go.microsoft.com/fwlink/?LinkId=321116) para atender aos direitos do titular dos dados.
+A Microsoft é o controlador de dados dos Contatos do Cliente que trabalham com a equipe de interação. Esses indivíduos devem contatar o [Centro de Respostas de Privacidade](https://go.microsoft.com/fwlink/?LinkId=321116) para atender aos direitos do titular dos dados.
 
 A Microsoft é o processador de dados para uma DSR localizada nos dados fornecidos durante a interação de consultoria. O cliente deve entrar em contato com o gerente de interação para criar um plano para ajudá-lo a responder à DSR com base nos dados coletados e, depois, no tipo específico dos serviços de consultoria fornecidos. Na extensão em que a sua solicitação constitui um nível de esforço geralmente visto dentro de uma interação dos Serviços de Consultoria da Microsoft, pode haver a necessidade de um pedido de trabalho adicional. Além disso, os dados pessoais serão excluídos após cada interação de consultoria em um período de tempo dependente do tipo de interação de consultoria. O cliente pode solicitar a exclusão de dados mais cedo e solicitar um atestado de exclusão.
 
@@ -230,4 +230,4 @@ Se precisar excluir a conta de um usuário do Office 365 em resposta a uma solic
 
 ## <a name="other-consulting-services"></a>Outros serviços de consultoria
 
-O cliente que recebe outros Serviços profissionais através da Microsoft deve trabalhar com a equipe de interação para concluir todos os requisitos do RGPD. Se a equipe de interação não puder fornecer instruções claras sobre a execução de DSRs relativos ao RGPD, os clientes poderão pedir ajuda ao [Suporte de Privacidade da Microsoft](https://go.microsoft.com/fwlink/?LinkId=321116).
+O cliente que recebe outros Serviços Profissionais através da Microsoft deve trabalhar com a equipe de interação para atender a todos os requisitos do RGPD. Se a equipe de interação não puder fornecer instruções claras sobre o cumprimento do GDPR DSR, os clientes poderão pedir ajuda ao [Centro de Respostas de Privacidade](https://go.microsoft.com/fwlink/?LinkId=321116).
