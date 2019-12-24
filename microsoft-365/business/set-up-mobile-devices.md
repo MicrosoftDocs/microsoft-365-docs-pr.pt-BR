@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Instale o Office em um iPhone ou telefone Android, e seus arquivos de trabalho nos aplicativos do Office serão protegidos pelo Microsoft 365 Business.
-ms.openlocfilehash: d87ea714f578130d05be57d1f66270b306f37c7c
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 6dc116f9c0822d33e8d742d065c8485a0cf82c37
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831374"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850815"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Configurar dispositivos móveis para usuários do Microsoft 365 Business
 
@@ -39,9 +39,11 @@ O exemplo é do Outlook, mas se aplica a quaisquer outros aplicativos do Office 
 
 ## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
   
-Assista a um vídeo sobre como configurar os aplicativos do Office em dispositivos iOS com o Microsoft 365 Business.<br><br>
+Assista a um pequeno vídeo sobre como configurar os aplicativos do Office em dispositivos iOS com o Microsoft 365 Business.<br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
+
+Se você descobriu esse vídeo útil, confira a [série completa de treinamento para pequenas empresas e as novas no Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Vá para a **App Store** e, no campo de pesquisa, digite Microsoft Outlook.
   

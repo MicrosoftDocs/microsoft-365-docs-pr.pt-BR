@@ -23,14 +23,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967614"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850795"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
+
+Assista a um pequeno vídeo sobre a configuração do Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
+
+Se você descobriu esse vídeo útil, confira a [série completa de treinamento para pequenas empresas e as novas no Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 A maioria das etapas de configuração pode ser feita no assistente de configuração, mas as outras opções também são listadas.
 
@@ -50,14 +56,12 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
   
   Além das configurações de segurança no assistente de instalação, você pode aumentar a segurança adicionando as seguintes configurações:
 
-
 - **Proteção contra malware de email**
 - **Anti-phishing ATP**
 - **Arquivamento do Exchange Online**
 - **Proteção de informações do Azure (Plan1**)
 
-
-Para começar, veja [Configurar políticas avançadas de segurança](set-up-advanced-security.md).
+Para começar, consulte [Configurar políticas de segurança avançadas](set-up-advanced-security.md).
 
 Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de práticas recomendadas de segurança.
 
