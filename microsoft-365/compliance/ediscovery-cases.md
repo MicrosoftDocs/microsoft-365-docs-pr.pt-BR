@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada.
-ms.openlocfilehash: cf880e6f54f2ab91bae23c3ecf468f88627f3025
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: efd5d20d72794ff6f71d2b1c6858bee615b14f3a
+ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684979"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854056"
 ---
 # <a name="ediscovery-cases-in-the-security--compliance-center"></a>ocorrências de descoberta eletrônica no centro de conformidade & segurança
 
@@ -57,7 +57,10 @@ Use o fluxo de trabalho a seguir para configurar e usar casos de descoberta elet
 
 A primeira etapa é atribuir as permissões relacionadas à descoberta eletrônica apropriadas às pessoas para que você possa adicioná-las a um caso de descoberta eletrônica na etapa 2. Você precisa ser membro do grupo de função gerenciamento da organização (ou receber a função de gerenciamento de função) no centro de conformidade & segurança para atribuir permissões de descoberta eletrônica. A lista a seguir descreve os grupos de função relacionados à descoberta eletrônica no centro de conformidade de & de segurança. 
   
-- **Revisor.** Esse grupo de função tem as permissões mais restritivas relacionadas a Descoberta Eletrônica. O principal objetivo desse grupo de função é permitir que os membros exibam e acessem os dados de ocorrência na descoberta eletrônica avançada do Office 365. Os membros desse grupo só podem ver e abrir a lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de segurança e conformidade, ele pode clicar em **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada. Eles não podem criar casos, adicionar membros a uma ocorrência, criar isenções, criar pesquisas, Visualizar resultados de pesquisa, exportar resultados de pesquisa ou preparar resultados para descoberta eletrônica avançada. 
+- **Revisor.** Esse grupo de função tem as permissões mais restritivas relacionadas a Descoberta Eletrônica. O principal objetivo desse grupo de função é permitir que os membros exibam e acessem dados de ocorrência no [Office 365 descoberta eletrônica avançada](office-365-advanced-ediscovery.md) (também conhecido como *descoberta eletrônica avançada v1*). Os membros desse grupo só podem ver e abrir a lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de segurança e conformidade, ele pode clicar em **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada. Eles não podem criar casos, adicionar membros a uma ocorrência, criar isenções, criar pesquisas, Visualizar resultados de pesquisa, exportar resultados de pesquisa ou preparar resultados para descoberta eletrônica avançada. 
+
+   > [!NOTE]
+   > No momento, os usuários que são membros do grupo de funções revisor não podem acessar dados na [descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) (também conhecido como *descoberta eletrônica avançada v2*). Para adicionar membros a um caso na descoberta eletrônica avançada v2 para que eles possam revisar os dados do caso, um usuário deve ser membro do grupo de função Gerenciador de descoberta eletrônica.
     
 - **Gerenciador de descoberta eletrônica.** Os membros deste grupo de função podem criar e gerenciar ocorrências de Descoberta Eletrônica. Eles podem adicionar e remover membros, colocar os locais de conteúdo em espera, criar e editar pesquisas de conteúdo associadas a uma ocorrência, exportar os resultados de uma pesquisa de conteúdo e preparar resultados de pesquisa para análise na descoberta eletrônica avançada. Há dois subgrupos nesse grupo de funções. A diferença entre esses subgrupos está no escopo.
     
@@ -524,7 +527,7 @@ Quando você reabrir um caso, qualquer bloqueio que estava no lugar quando o cas
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
   |Número máximo de isenções de caso para uma organização  <br/> |10.000  <br/> |
-  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1,000  <br/> |
+  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1.000  <br/> |
   |Número máximo de sites do SharePoint e do OneDrive for Business em uma única retenção de caso  <br/> |100  <br/> |
    
 - **E os casos que foram criados na página de gerenciamento de casos na descoberta eletrônica avançada?** Você pode acessar uma lista de casos de descoberta eletrônica avançada mais antigas clicando no link na parte inferior da página de **descoberta eletrônica** no centro de conformidade de & de segurança. No entanto, para fazer qualquer trabalho em um caso mais antigo, você precisa entrar em contato com o suporte do Office 365 e solicitar que o caso seja movido para uma nova ocorrência de descoberta eletrônica no centro de conformidade de & de segurança. 
