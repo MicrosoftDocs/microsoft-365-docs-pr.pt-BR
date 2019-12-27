@@ -1,7 +1,7 @@
 ---
 title: Ativar a Proteção contra Ameaças da Microsoft no centro de segurança do Microsoft 365
 description: Saiba como habilitar a Proteção contra Ameaças da Microsoft e iniciar a integração do seu incidente de segurança e resposta.
-keywords: introdução, MTP, Proteção contra Ameaças da Microsoft, M365, segurança, local dos dados
+keywords: introdução, habilitar MTP, proteção contra ameaças da Microsoft, M365, segurança, local de dados, permissões necessárias, qualificação para licenças
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 7790e079d4b39b5d41961a26bb17009adb1bec1d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 842c3be031e96467c8b82e8cf482435e66124960
+ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808446"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "40881972"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -33,8 +33,10 @@ ms.locfileid: "40808446"
 
 A Proteção contra Ameaças da Microsoft unifica o processo de resposta a incidentes, integrando os principais recursos da Proteção Avançada contra Ameaças da Microsoft (ATP), da ATP do Office 365, do Microsoft Cloud App Security e da ATP do Azure. Essa experiência unificada adiciona recursos avançados que podem acessados no centro de segurança do Microsoft 365.
 
-## <a name="check-your-eligibility"></a>Verificar sua qualificação 
+## <a name="check-license-eligibility-and-required-permissions"></a>Verificar a qualificação de licenças e as permissões necessárias
 Os clientes com uma licença do Microsoft 365 E5 ou equivalente podem usar a Proteção contra Ameaças da Microsoft. Para obter mais informações [leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
+
+ Para poder ativar a proteção contra ameaças da Microsoft, você precisa ser um **administrador global** ou um **administrador de segurança** no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
 ## <a name="start-using-the-service"></a>Começar a usar o serviço
 A ativação do serviço de Proteção contra Ameaças da Microsoft agrega os dados de vários serviços integrados. Os dados serão processados e armazenados centralmente para identificar novas ideias e possibilitar fluxos de trabalho de resposta centralizados.
@@ -44,7 +46,7 @@ Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([security.m
 ![Imagem do menu do centro de segurança do Microsoft 365 sem os recursos da Proteção contra Ameaças da Microsoft](../images/mtp-off.png)
 *Centro de segurança do Microsoft 365 com a Proteção contra Ameaças da Microsoft desativada*
 
-Para ativar o serviço de Proteção contra Ameaças da Microsoft, vá para **Configurações** > ** Proteção contra Ameaças da Microsoft** > **Aceitar/Recusar** no centro de segurança do Microsoft 365. Será necessário ser um administrador global ou um administrador de segurança no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para executar esta tarefa.
+Para ativar o serviço de Proteção contra Ameaças da Microsoft, vá para **Configurações** > ** Proteção contra Ameaças da Microsoft** > **Aceitar/Recusar** no centro de segurança do Microsoft 365.
 
 Se o Microsoft Defender ATP tiver sido provisionado para sua organização, os dados serão armazenados e processados no mesmo local do data center que você selecionou para [os dados do Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Caso não tenha o Microsoft Defender ATP, será solicitado que você escolha um novo local de data center especificamente para a Proteção contra Ameaças da Microsoft. Será necessário fornecer o consentimento antes que os dados sejam compartilhados entre serviços e agregados.
 
