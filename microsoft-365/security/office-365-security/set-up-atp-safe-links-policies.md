@@ -5,7 +5,7 @@ author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.topic: article
-ms.date: 06/26/2019
+ms.date: 12/30/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 29e0c8d485d89498fe952d29d8b68f808c4aaaf3
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 3055a5330707b3654998fbdc937ead239742cb32
+ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970127"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910152"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -122,8 +122,8 @@ As opções de política padrão se aplicam a todas as pessoas em sua organizaç
 |Essa opção  |Faça isto  |
 |---------|---------|
 | **Bloquear as seguintes URLs** <br/>    | Permite que sua organização tenha uma lista personalizada de URLs bloqueadas automaticamente. Quando os usuários clicarem em uma URL nessa lista, serão levados a uma [página de aviso](atp-safe-links-warning-pages.md) que explica por que a URL é bloqueada. Para saber mais, confira [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP do Office 365](set-up-a-custom-blocked-urls-list-wtih-atp.md). |
-| **Office 365 ProPlus, Office para iOS e Android** <br/>    | Quando essa opção é selecionada, a proteção de links de segurança ATP é aplicada às URLs nos arquivos do Word, Excel e PowerPoint no Windows ou no Mac OS, documentos do Office em dispositivos iOS ou Android, Visio 2016 no Windows e nas versões Web dos aplicativos do Office (Word, PowerPoint, Excel e OneNote), contanto que o usuário tenha entrado no Office 365. |
-| **Não rastrear quando os usuários clicarem em links de ATP seguros** <br/>  | Quando essa opção é selecionada, clique em dados para URLs em documentos do Word, Excel, PowerPoint e Visio não são armazenados.  <br/> |
+| **Office 365 ProPlus, Office para iOS e Android** <br/>    | Quando essa opção é selecionada, a proteção de links de segurança ATP é aplicada às URLs nos arquivos do Word, Excel e PowerPoint no Windows ou no Mac OS, mensagens de email no Outlook, documentos do Office em dispositivos iOS ou Android, arquivos do Visio 2016 no Windows e arquivos abertos nas versões da Web do Aplicativos do Office (Word, PowerPoint, Excel, Outlook e OneNote), desde que o usuário tenha entrado no Office 365. |
+| **Não rastrear quando os usuários clicarem em links de ATP seguros** <br/>  | Quando essa opção é selecionada, clique em dados para URLs no Word, Excel, PowerPoint, documentos do Visio e mensagens de email do Outlook não são armazenados.  <br/> |
 |**Não permitir que os usuários cliquem através de links seguros de ATP para a URL original** <br/> |Quando essa opção é selecionada, os usuários não podem continuar após uma [página de aviso](atp-safe-links-warning-pages.md) para uma URL que é determinada como mal-intencionada.  <br/> |
 
 ### <a name="policies-that-apply-to-specific-email-recipients"></a>Políticas que se aplicam a destinatários de email específicos
