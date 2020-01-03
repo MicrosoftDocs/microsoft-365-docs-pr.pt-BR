@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 72f4e166c1e934ad0d1ebb9685aff12efc4031c0
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 107b4cfa79a83ec5703edd3b47d00c59da81f4b6
+ms.sourcegitcommit: 8b619cc0587d180322d0799fdad813cdd929d9dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970837"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "40929787"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -50,57 +50,69 @@ Para habilitar mais configurações personalizadas ou adicionar políticas perso
 
 3. Na seção **Ações em massa e spam**:
 
-  - Selecione uma ação para os tipos de **Spam**, **Spam de alta confiança**, **Email de phishing de alta confiança** e **Email de phishing** e **Emails em massa**. Os valores disponíveis são:
+   - Selecione uma ação para os tipos de **Spam**, **Spam de alta confiança**, **Email de phishing de alta confiança** e **Email de phishing** e **Emails em massa**. Os valores disponíveis são:
 
-    - **Mover mensagem para a pasta Lixo Eletrônico:** envia a mensagem para a pasta Lixo Eletrônico dos destinatários especificados. Esta é a ação padrão para spam, spam de alta confiança e em massa.<br/><br/>
+     - **Mover mensagem para a pasta Lixo Eletrônico**: envia a mensagem para a pasta Lixo Eletrônico dos destinatários especificados. Esta é a ação padrão para spam, spam de alta confiança e em massa.
 
-    > [!NOTE]
-    > Para essa ação funcionar com as caixas de correio locais, é necessário configurar duas regras de fluxo de email do Exchange (também conhecido como regras de transporte) nos seus servidores locais para detectar cabeçalhos de spam adicionados pelo EOP. Para obter mais detalhes, confira como [Garantir que o spam seja direcionado para a pasta Lixo Eletrônico de cada usuário](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Esta etapa é fundamental para clientes autônomos do EOP (Proteção do Exchange Online).
+       > [!NOTE]
+       > Para essa ação funcionar com as caixas de correio locais, é necessário configurar duas regras de fluxo de email do Exchange (também conhecido como regras de transporte) nos seus servidores locais para detectar cabeçalhos de spam adicionados pelo EOP. Para obter mais detalhes, confira como [Garantir que o spam seja direcionado para a pasta Lixo Eletrônico de cada usuário](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Esta etapa é fundamental para clientes autônomos da Proteção do Exchange Online (EOP).
 
-    - **Adicionar cabeçalho X:** envia a mensagem para os destinatários especificados, mas adiciona o texto cabeçalho X ao cabeçalho da mensagem para identificá-la como spam. Usando esse texto como um identificador, opcionalmente, você pode criar regras da caixa de entrada ou usar um dispositivo downstream para agir na mensagem. O texto do cabeçalho X padrão é **Esta mensagem parece ser spam**.<br/>Você pode personalizar o texto cabeçalho X usando a caixa de entrada **Adicionar este texto cabeçalho X**. Se você personalizar o texto do cabeçalho X, esteja ciente das seguintes condições:
+     - **Adicionar cabeçalho X**: envia a mensagem para os destinatários especificados, mas adiciona o texto cabeçalho X ao cabeçalho da mensagem para identificá-la como spam. Usando esse texto como um identificador, opcionalmente, você pode criar regras da caixa de entrada ou usar um dispositivo downstream para agir na mensagem. O texto do cabeçalho X padrão é **Esta mensagem parece ser spam**.
+     
+       Você pode personalizar o texto cabeçalho X usando a caixa de entrada **Adicionar este texto cabeçalho X**. Se você personalizar o texto do cabeçalho X, esteja ciente das seguintes condições:
 
-      - Se você especificar somente o cabeçalho no formato \< *cabeçalho*  \>, quando não houver espaços no \<  *cabeçalho*  \>, os dois pontos serão colocados no texto personalizado, seguidos pelo texto padrão. Por exemplo, se você especificar "Este-é-o-meu-cabeçalho-personalizado", o texto do cabeçalho X aparecerá como "Este-é-o-meu-cabeçalho-personalizado: esta mensagem parece ser spam".
+       - Se você especificar somente o cabeçalho no formato \< *cabeçalho*  \>, quando não houver espaços no \<  *cabeçalho*  \>, os dois pontos serão colocados no texto personalizado, seguidos pelo texto padrão. Por exemplo, se você especificar "Este-é-o-meu-cabeçalho-personalizado", o texto do cabeçalho X aparecerá como "Este-é-o-meu-cabeçalho-personalizado: esta mensagem parece ser spam".
 
-      - Se você incluir espaços no texto de cabeçalho personalizado, ou se você adicionar os dois pontos você mesmo (como "X Este é meu cabeçalho personalizado" ou "X-Este-é-meu-cabeçalho-personalizado:"), o texto do cabeçalho X volta para o padrão como "X-Isso-é-Spam: esta mensagem parece ser spam".
+       - Se você incluir espaços no texto de cabeçalho personalizado, ou se você adicionar os dois pontos você mesmo (como "X Este é meu cabeçalho personalizado" ou "X-Este-é-meu-cabeçalho-personalizado:"), o texto do cabeçalho X volta para o padrão como "X-Isso-é-Spam: esta mensagem parece ser spam".
 
-      - Você não pode especificar o texto do cabeçalho no formato \< *cabeçalho*  \>:\<  *valor*  \>. Se fizer isso, os valores antes e depois dos dois pontos serão ignorados e o texto X-cabeçalho padrão aparecerá: "X-Isto-É-Spam: esta mensagem parece ser spam".
+       - Você não pode especificar o texto do cabeçalho no formato \<*cabeçalho*\>:\<*valor*\>. Se fizer isso, os valores antes e depois dos dois pontos serão ignorados e o texto X-cabeçalho padrão aparecerá: "X-Isto-É-Spam: esta mensagem parece ser spam".
 
-      - Lembre-se de que os emails com esse cabeçalho X talvez ainda sejam movidos para a pasta Lixo eletrônico da caixa de correio devido a uma configuração de lixo eletrônico. Você pode alterar isso desabilitando esse recurso com Set-MailboxJunkEmailConfiguration.
+       - Lembre-se de que os emails com esse cabeçalho X talvez ainda sejam movidos para a pasta Lixo eletrônico da caixa de correio devido a uma configuração de lixo eletrônico. Você pode alterar isso desabilitando esse recurso com Set-MailboxJunkEmailConfiguration.
 
-    - **Preceder a linha do assunto com texto:** envia a mensagem para os destinatários pretendidos mas precede a linha do assunto com o texto especificado na caixa de entrada **Prefixar a linha do assunto com este texto**. Usando esse texto como um identificador, você pode, opcionalmente, criar regras para filtrar ou rotear as mensagens, conforme o necessário.
+   - **Preceder a linha do assunto com texto:** envia a mensagem para os destinatários pretendidos mas precede a linha do assunto com o texto especificado na caixa de entrada **Prefixar a linha do assunto com este texto**. Usando esse texto como um identificador, você pode, opcionalmente, criar regras para filtrar ou rotear as mensagens, conforme o necessário.
+    
+     > [!NOTE]
+     > A mensagem ainda será encaminhada para a pasta Lixo Eletrônico.
 
-    - **Redirecionar mensagem para endereço de email:** envia a mensagem para um endereço de email designado em vez de enviá-lo para os destinatários pretendidos. Especificar o endereço de "redirecionamento" na caixa de entrada **Redirecionar para este endereço de email**.
+   - **Redirecionar mensagem para endereço de email:** envia a mensagem para um endereço de email designado em vez de enviá-lo para os destinatários pretendidos. Especificar o endereço de "redirecionamento" na caixa de entrada **Redirecionar para este endereço de email**.
 
-    - **Excluir mensagem:** exclui a mensagem inteira, incluindo todos os anexos.
+   - **Excluir mensagem:** exclui a mensagem inteira, incluindo todos os anexos.
 
-    - **Mensagem em quarentena:** envia a mensagem para a quarentena em vez de para os destinatários pretendidos. Esta é a ação padrão para phishing. Se você selecionar essa opção, na caixa de entrada **Manter spam por (dias)**, especifique a quantidade de dias durante os quais a mensagem de spam ficará em quarentena. (Ela será automaticamente excluída após o tempo decorrido. O valor padrão é de 30 dias, que é o valor máximo. O valor mínimo é 1 dia).<br/><br/>DICA: para obter informações sobre como os administradores podem gerenciar mensagens de email residentes na quarentena no EAC, confira [Quarentena](quarantine.md) e [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md). >  Para saber mais sobre como configurar mensagens de notificação de spam para os usuários, confira [Configurar notificações de spam do usuário final no EOP](configure-end-user-spam-notifications-in-eop.md) ou [Configurar notificações de spam do usuário final no Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md).
+   - **Mensagem em quarentena:** envia a mensagem para a quarentena em vez de para os destinatários pretendidos. Esta é a ação padrão para phishing. Se você selecionar essa opção, na caixa de entrada **Manter spam por (dias)**, especifique a quantidade de dias durante os quais a mensagem de spam ficará em quarentena. (Ela será automaticamente excluída após o tempo decorrido. O valor padrão é de 30 dias, que é o valor máximo. O valor mínimo é 1 dia).
 
-  - Configure **Selecione o limite** para determinar como deseja tratar os emails em massa como spam, com base no BCL (Nível de reclamação em massa) da mensagem. Você pode escolher uma configuração de limite de 1 a 9, em que 1 indica a maior parte dos emails em massa como spam e 9 permite que a maior parte dos emails em massa sejam entregues. O serviço então executa a ação configurada; por exemplo, enviar a mensagem para a pasta Lixo Eletrônico do destinatário. Confira [Valores de nível de reclamação em massa](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) para obter mais detalhes.
+     > [!TIP]
+     > Para obter informações sobre como os administradores podem gerenciar mensagens de email na quarentena, confira [Quarentena](quarantine.md) e [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md). <br/><br/> Para saber mais sobre como configurar mensagens de notificação de spam para os usuários, confira [Configurar notificações de spam do usuário final no EOP](configure-end-user-spam-notifications-in-eop.md) ou [Configurar notificações de spam do usuário final no Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md).
+
+   - Configure **Selecione o limite** para determinar como deseja tratar os emails em massa como spam, com base no BCL (Nível de reclamação em massa) da mensagem. Você pode escolher uma configuração de limite de 1 a 9, em que 1 indica a maior parte dos emails em massa como spam e 9 permite que a maior parte dos emails em massa sejam entregues. O serviço então executa a ação configurada; por exemplo, enviar a mensagem para a pasta Lixo Eletrônico do destinatário. Confira [Valores de nível de reclamação em massa](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) para obter mais detalhes.
 
 4. Na página **Propriedades de spam**, você pode definir as opções de Modo de teste para a política, configurando:
 
-      - **Nenhuma** Não tomar ação de modo de teste na mensagem. É o padrão.
+   - **Nenhuma** Não tomar ação de modo de teste na mensagem. É o padrão.
 
-      - **Adicionar o texto de cabeçalho X de teste padrão** A seleção dessa opção envia a mensagem aos destinatários especificados, mas também adiciona um cabeçalho X especial à mensagem para identificá-la como uma correspondência de uma opção de filtragem de spam avançada específica.
+   - **Adicionar o texto de cabeçalho X de teste padrão** A seleção dessa opção envia a mensagem aos destinatários especificados, mas também adiciona um cabeçalho X especial à mensagem para identificá-la como uma correspondência de uma opção de filtragem de spam avançada específica.
 
-      - **Enviar uma mensagem de Cco para este endereço** A seleção dessa opção envia uma cópia oculta da mensagem ao endereço de email que você especificou na caixa de entrada. <br/><br/>Para obter mais informações sobre as opções de filtragem avançada de spam, incluindo descrições sobre cada opção e o texto do cabeçalho X que está associado a cada uma, confira [Opções de filtragem de spam avançadas](advanced-spam-filtering-asf-options.md).
+   - **Enviar uma mensagem de Cco para este endereço** A seleção dessa opção envia uma cópia oculta da mensagem ao endereço de email que você especificou na caixa de entrada. <br/><br/>Para obter mais informações sobre as opções de filtragem avançada de spam, incluindo descrições sobre cada opção e o texto do cabeçalho X que está associado a cada uma, confira [Opções de filtragem de spam avançadas](advanced-spam-filtering-asf-options.md).
 
 5. Somente em casos de políticas personalizadas, clique no item do menu **Aplicar para** e, em seguida, crie uma regra baseada na condição para especificar os usuários, grupos, e domínios aos quais se aplica esta política. É possível criar várias condições, se elas forem únicas.
 
-      - Para selecionar usuários, selecione **O destinatário é**. Na caixa de diálogo subsequente, selecione um ou mais remetentes da sua empresa na lista de seletor de usuários e então clique em **adicionar**. Para adicionar remetentes que não estão na lista, digite os seus endereços de email e então clique em **Verificar nomes**. Nessa caixa, também é possível usar caracteres curinga para vários endereços de email (por exemplo: \*@ _domainname_). Ao finalizar suas seleções, clique em **ok** para retornar a tela principal.
+   - Para selecionar usuários, selecione **O destinatário é**. Na caixa de diálogo subsequente, selecione um ou mais remetentes da sua empresa na lista de seletor de usuários e então clique em **adicionar**. Para adicionar remetentes que não estão na lista, digite os seus endereços de email e então clique em **Verificar nomes**. Nessa caixa, também é possível usar caracteres curinga para vários endereços de email (por exemplo: \*@ _domainname_). Ao finalizar suas seleções, clique em **ok** para retornar a tela principal.
 
-      - Para selecionar grupos, selecione **O destinatário é membro de**. Em seguida, na caixa de diálogo posterior, selecione ou especifique os grupos. Clique em **ok** para retornar à tela principal.
+   - Para selecionar grupos, selecione **O destinatário é membro de**. Em seguida, na caixa de diálogo posterior, selecione ou especifique os grupos. Clique em **ok** para retornar à tela principal.
 
-      - Para selecionar domínios, selecione **O domínio do destinatário é**. Em seguida, na caixa de diálogo posterior, adicione os domínios. Clique em **ok** para retornar à tela principal. <br/><br/>Você pode criar exceções dentro da regra. Por exemplo, você pode filtrar mensagens de todos os domínios, exceto para um determinado domínio. Clique em **Adicionar exceção** e, em seguida, crie suas condições de exceção da mesma forma que criou as demais condições.<br/><br/>A aplicação de uma política de spam a um grupo tem suporte apenas para **Grupos de segurança habilitados para email**.
+   - Para selecionar domínios, selecione **O domínio do destinatário é**. Em seguida, na caixa de diálogo posterior, adicione os domínios. Clique em **ok** para retornar à tela principal.
+
+     Você pode criar exceções dentro da regra. Por exemplo, você pode filtrar mensagens de todos os domínios, exceto para um determinado domínio. Clique em **Adicionar exceção** e, em seguida, crie suas condições de exceção da mesma forma que criou as demais condições.
+
+     A aplicação de uma política de spam a um grupo tem suporte apenas para **Grupos de segurança habilitados para email**.
 
 6. Clique em **Salvar**. Um resumo das configurações de política aparecerá no painel direito.
 
-A política padrão não pode ser desabilitada ou excluída e as políticas personalizadas sempre têm precedência sobre a política padrão. Nas políticas personalizadas, você pode marcar ou desmarcar as caixas de seleção na coluna **HABILITADO** para habilitá-las ou desabilitá-las. Por padrão, todas as políticas estão habilitadas. Para excluir uma política personalizada, selecione a política, clique no ícone ![Excluir ícone](../media/ITPro-EAC-DeleteIcon.gif) **Excluir** e depois confirme que você deseja excluir a política.
+Não é possível desabilitar ou excluir a política padrão, e as políticas personalizadas sempre têm precedência sobre a política padrão. Nas políticas personalizadas, você pode marcar ou desmarcar as caixas de seleção na coluna **HABILITADO** para habilitá-las ou desabilitá-las. Por padrão, todas as políticas estão habilitadas. Para excluir uma política personalizada, selecione-a, clique em **Excluir** ![Ícone Excluir](../media/ITPro-EAC-DeleteIcon.gif), e então confirme que você deseja excluir a política.
 
 > [!TIP]
 > Você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas clicando no ![Ícone de seta para cima](../media/ITPro-EAC-UpArrowIcon.gif) e ![Ícone de seta para baixo](../media/ITPro-EAC-DownArrowIcon.gif). A política que tem uma **PRIORIDADE** de **0** será executada primeiro, seguida por **1**, **2** e assim por diante.
 
-## <a name="use-remote-powershell-to-configure-spam-filter-policies"></a>Usar o PowerShell remoto para configurar políticas de filtro de spam
+## <a name="use-powershell-to-configure-spam-filter-policies"></a>Usar o PowerShell para configurar políticas de filtro de spam
 
 Você também pode configurar e aplicar políticas de filtro de conteúdo no PowerShell. Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para saber como usar o Windows PowerShell para se conectar à Proteção do Exchange Online, confira [Conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
@@ -120,7 +132,7 @@ Para garantir que o spam esteja sendo adequadamente detectado e tratado, você p
 
 Inclua o seguinte texto do GTUBE em uma mensagem de email em uma única linha, sem espaços ou quebras de linha:
 
-```
+```text
 XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 ```
 
@@ -136,21 +148,21 @@ As listas de permissões e bloqueios são configuradas como parte de uma políti
 
 1. Na seção **Listas de permissões**, você pode especificar as entradas, como remetentes ou domínios, que sempre serão entregues à caixa de entrada. Os emails dessas entradas não são processados pelo filtro de spam.
 
-      - Adicione remetentes confiáveis à Lista de permissões de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
+   - Adicione remetentes confiáveis à Lista de permissões de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
 
-      - Adicione domínios confiáveis à Lista de permissões de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
+   - Adicione domínios confiáveis à Lista de permissões de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
 
-> [!CAUTION]
-> Você não deve listar os domínios aceitos (domínios que você possui) ou domínios comuns, como Microsoft.com, office.com, etc. a uma Lista de permissões. Isso permite aos fraudadores enviar emails sem restrições para sua organização.
+   > [!CAUTION]
+   > Você não deve listar os domínios aceitos (domínios que você possui) ou domínios comuns, como Microsoft.com, office.com, etc. a uma Lista de permissões. Isso permite aos fraudadores enviar emails sem restrições para sua organização.
 
 2. Na página **Listas de Bloqueios**, você pode especificar as entradas, como remetentes ou domínios, que sempre serão marcadas como spam. O serviço aplicará a ação de spam de alta confiança configurada nos emails que corresponderem a essas entradas.
 
-      - Adicione remetentes indesejados à lista de Bloqueios de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
+   - Adicione remetentes indesejados à lista de Bloqueios de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
 
-      - Adicione domínios indesejados à lista de Bloqueio de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
+   - Adicione domínios indesejados à lista de Bloqueio de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
 
 > [!TIP]
->  Podem haver situações nas quais a sua organização pode não concordar com o veredicto fornecido pelo serviço. Nesse caso, talvez você queira manter a Lista de permissões ou bloqueio permanente. No entanto, se você pretende colocar um domínio na Lista de permissões por longos períodos de tempo, deve informar ao remetente para verificar se o domínio está autenticado e configurar o DMARC para rejeitá-lo, caso não esteja.
+> Podem haver situações nas quais a sua organização pode não concordar com o veredicto fornecido pelo serviço. Nesse caso, talvez você queira manter a Lista de permissões ou bloqueio permanente. No entanto, se você pretende colocar um domínio na Lista de permissões por longos períodos de tempo, deve informar ao remetente para verificar se o domínio está autenticado e configurar o DMARC para rejeitá-lo, caso não esteja.
 
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="sectionSection6"> </a>
