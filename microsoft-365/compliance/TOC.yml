@@ -120,7 +120,7 @@
           href: custom-sensitive-info-types.md
         - name: Criar tipos de informações confidenciais personalizados com classificação com base na correspondência exata de dados
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Criar um tipo de informação confidencial personalizado no centro de conformidade e segurança &
+        - name: Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
           href: create-a-custom-sensitive-information-type.md
         - name: Criar um tipo de informação confidencial personalizado usando o PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
@@ -1097,6 +1097,7 @@
             - name: G-Cloud (Reino Unido)
               href: offering-g-cloud-uk.md
             - name: IDW PS 951 (Alemanha)
+              href: 'https://www.idw.de/the-idw/about-the-idw'
             - name: IT Grundschutz Workbook (Alemanha)
               href: offering-it-grundschutz-workbook-germany.md
             - name: LOPD (Espanha)
