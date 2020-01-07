@@ -3,7 +3,7 @@ title: Enviar mensagens de spam, não spam e esquema de phishing à Microsoft pa
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 04/19/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'Você e seus usuários podem enviar mensagens de spam falsas negativas e falsos positivos para a Microsoft para análise. '
-ms.openlocfilehash: fb939c4166bc6c732f831dc767bffe1cfd7a2f7c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 316945ae026649b16ecfced62baef2ddc41db444
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073838"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959639"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>Enviar mensagens de spam, não spam e esquema de phishing à Microsoft para análise
 
@@ -58,8 +58,8 @@ Para enviar uma mensagem de spam ou golpe de phishing à Microsoft:
     
 3. Copie e cole a mensagem de spam ou golpe de phishing na nova mensagem como um anexo. 
     
-    > [!NOTE]
-    > Você pode anexar várias mensagens à nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing scam ou mensagens de lixo eletrônico. > deixe o corpo da nova mensagem vazio. 
+   > [!NOTE]
+   > • Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens golpes de phishing ou mensagens de lixo eletrônico. <br/><br/>• Deixe o corpo da nova mensagem vazio. <br/><br/>• Use formatos. msg (formato padrão do Outlook) ou. eml (o Outlook no formato da Web padrão) para as mensagens anexadas.
   
 4. Clique em **Enviar**.
     
@@ -72,7 +72,7 @@ Os administradores podem revisar mais informações de configuração de spam qu
   
 Você pode enviar mensagens que não são spam das seguintes maneiras:
   
-- Se você usar a ação **mover mensagem para a pasta lixo eletrônico** ao configurar seus filtros de conteúdo (essa é a ação padrão), os usuários poderão liberar mensagens falsas falsas no Outlook ou no Outlook na Web pasta lixo eletrônico (anteriormente conhecida como Outlook Web App) . 
+- Se você usar a ação **mover mensagem para a pasta lixo eletrônico** ao configurar seus filtros de conteúdo (essa é a ação padrão), os usuários poderão liberar mensagens falsas falsas em seus Outlook ou Outlook na Web pasta lixo eletrônico (anteriormente conhecida como Outlook Web App). 
     
   - Os usuários do Outlook podem liberar mensagens falsas, usando a opção de menu **não é lixo eletrônico** clique. No entanto, eles devem enviar a mensagem para a Microsoft por email, conforme mostrado no procedimento neste artigo. 
     
@@ -117,7 +117,7 @@ Depois de examinar essas informações, a equipe de spam pode fazer alterações
   
 A avaliação de spam é um processo contínuo que se aplica independentemente do idioma ou conjunto de caracteres de origem. Como uma mensagem de spam pode ser vaga ou mesmo falta de texto no corpo da mensagem ou assunto, a equipe de spam se baseia em outras características da mensagem para executar a filtragem. Isso significa que, após a equipe de spam marcar uma determinada mensagem como spam e fazer as alterações necessárias na sua base de regra, essa mensagem ficará bloqueada no futuro até que suas características sejam modificadas o suficiente para evitar os nossos filtros. Novas regras de spam são implantadas de forma contínua. Os intervalos de tempo para regras em envios individuais variam de acordo com a quantidade e a qualidade dos envios. Como as novas regras de spam são definidas globalmente para todos os clientes, nem todos os envios de spam individuais resultarão em uma nova regra de spam.
    
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 <a name="sectionSection4"> </a>
 
 [Proteção antispam e antimalware](anti-spam-and-anti-malware-protection.md)

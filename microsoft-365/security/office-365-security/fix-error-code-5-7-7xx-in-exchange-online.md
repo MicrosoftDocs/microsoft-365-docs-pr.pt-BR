@@ -3,7 +3,7 @@ title: Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no 
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 06/11/2019
+ms.date: ''
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: 9c95a8aa3f2dbc7b44524b4392090f7435d2800b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 69ee2b7d707ae88cca7aa5d4a5f39e8458f6925f
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970447"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959649"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 
@@ -27,42 +27,52 @@ Este tópico descreve o que você pode fazer se vir o código de status 550 5.7.
 
 ## <a name="57705-tenant-has-exceeded-threshold-restriction-what-you-need-to-know"></a>5.7.705: o locatário excedeu a restrição de limite: o que você precisa saber
 
-Os remetentes internos podem ver essa notificação sempre que você tenta enviar emails se o locatário foi comprometido. Isso geralmente occus quando a maior parte do tráfego de seu locatário foi detectada como suspeita e resultou em uma proibição na capacidade de envio para o locatário. Isso também pode ocorrer se seus usuários enviam uma grande quantidade de emails em massa do Office 365. Conforme mencionado na descrição do serviço, os clientes do Exchange Online que precisam enviar emails comerciais em massa legítimos (por exemplo, boletins informativos para clientes) devem usar provedores de terceiros especializados nesses serviços.
+Depois que os usuários (coletivamente, como a organização) enviam uma determinada quantidade de emails suspeitos através do serviço, todos os usuários podem ser impedidos de enviar emails até que o problema seja corrigido. Isso geralmente é o resultado de um compromisso (mais comum) ou o envio de muitas mensagens em massa. Os usuários receberão uma notificação de falha na entrega:
 
-Depois que os usuários coletivamente, como um locatário, enviarem uma determinada quantidade de mensagens suspeitas pelo serviço, todos os usuários podem ser impedidos de enviar qualquer email até que o problema seja corrigido. Os usuários receberão uma NDR (notificação de falha na entrega) que diz:
+`550 5.7.705 Access denied, tenant has exceeded threshold`
 
-- 550 5.7.705 acesso negado, o locatário excedeu o limite
+Em casos raros, isso também pode acontecer se você renovar sua assinatura após ela já ter expirado. Leva tempo para o serviço sincronizar as informações da nova assinatura (normalmente, não mais de um dia), mas sua organização pode ser impedida de enviar emails enquanto isso. A melhor maneira de evitar isso é garantir que sua assinatura não expire.
 
 ## <a name="57750-unregistered-domain-email-restriction-what-you-need-to-know"></a>5.7.750: restrição de email de domínio não registrado: o que você precisa saber
 
-O Office 365 permite que os locatários transmitam algumas mensagens por meio do Exchange Online Protection (EOP). Um exemplo com suporte é quando os usuários têm uma caixa de correio do Office 365 e alguém externo envia esses emails, mas o encaminhamento de emails é configurado para que ele volte para a caixa de correio externa do usuário. Isso é mais comum em ambientes educacionais em que os alunos querem aproveitar sua interface de email pessoal, mas ainda receber emails relacionados à escola. Outro exemplo é quando os clientes estão em um cenário híbrido e têm servidores locais que enviam emails do EOP.
+O Office 365 permite que os locatários transmitam algumas mensagens por meio do Exchange Online Protection (EOP). Por exemplo:
+
+- Uma caixa de correio do Office 365 recebe email de um remetente externo. O encaminhamento de emails é configurado na caixa de correio do Office 365, portanto, a mensagem retorna ao endereço de email externo do usuário. Este cenário é mais comum em ambientes educacionais em que os alunos querem usar suas contas de email pessoais para exibir mensagens relacionadas à escola.
+
+- Envrionments híbrido que tem servidores de email locais que enviam emails de saída por meio do EOP.
 
 ### <a name="problems-with-unregistered-domains"></a>Problemas com domínios não registrados
 
-O problema ocorre quando os servidores locais são comprometidos e acabam retransmitindo um grande volume de spam do EOP. Em quase todos os casos, os conectores corretos são configurados, mas o email é enviado de domínios não registrados, também conhecidos como desprovisionados,. O Office 365 permite uma quantidade razoável de emails provenientes de domínios não registrados, mas um domínio aceito deve ser configurado no centro de administração para cada domínio em que você pretende enviar.
+O problema ocorre quando os servidores de email no local estão comprometidos retransmitendo um grande volume de spam por meio do EOP. Em quase todos os casos, os conectores são configurados corretamente, mas o email é enviado de domínios não registrados (também conhecidos como desprovisionados). O Office 365 permite uma quantidade razoável de emails de domínios não registrados, mas você deve configurar todos os domínios que você usa para enviar email como um domínio aceito.
 
-Após o comprometimento, os locatários serão impedidos de enviar emails de saída para domínios não registrados. Os usuários receberão uma NDR (notificação de falha na entrega) que diz:
+Após o comprometimento, os locatários serão impedidos de enviar emails de saída para domínios não registrados. Os usuários receberão uma notificação de falha na entrega:
 
-- 550 o serviço 5.7.750 não está disponível. Cliente impedido de enviar de domínios não registrados
+`550 5.7.750 Service unavailable. Client blocked from sending from unregistered domains`
 
 ## <a name="how-to-unblocking-tenant-in-order-to-send-again"></a>Como desbloquear o locatário para enviar novamente
 
-Há várias coisas que você precisa fazer se o locatário for bloqueado para envio de email:
+Há várias coisas que você precisa fazer se seu locatário estiver bloqueado de enviar emails:
 
-1. Certifique-se de registrar todos os seus domínios no centro de administração do Microsoft 365. Mais informações podem ser encontradas [aqui](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Procure por conectores incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada em seu locatário do Office 365 para enviar spam. Você pode encontrar mais informações sobre como verificar seus conectores [aqui](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector).
+2. Procure por [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada na sua organização do Office 365 para enviar spam. Para exibir os conectores existentes, consulte [Validate Connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 
-3. Bloqueie seus servidores locais e certifique-se de que eles não estão comprometidos.
+3. Verifique se há usuários comprometidos conforme descrito em [respondendo a uma conta de email comprometida no Office 365](responding-to-a-compromised-email-account.md).
+
+4. [Habilitar a MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) de todos os administradores na sua organização do Office 365.
+
+5. Bloqueie seus servidores de email locais e verifique se eles não estão comprometidos.
 
    > [!TIP]
-   > Há muitos fatores envolvidos aqui, especialmente se forem servidores de terceiros. Independentemente disso, você precisará confirmar que todos os emails que deixam seus servidores são legítimos.
+   > Há vários fatores aqui, especialmente se você estiver usando servidores de terceiros. Independentemente disso, você precisará verificar se todos os seus emails de saída estão agora legítimos.
 
-4. Após concluir, você precisará ligar para o suporte da Microsoft e solicitar que o locatário seja desbloqueado para envio de domínios não registrados.  Fornecer o código de erro é útil, mas você precisará provar que seu ambiente está protegido e que o spam não será enviado novamente. É possível encontrar mais informações sobre como abrir um caso de suporte [aqui](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+6. Ligue para o suporte da Microsoft e peça para que o locatário não seja bloqueado para envio de domínios não registrados. O código de erro é útil, mas você precisará provar que seu ambiente foi protegido e que não é capaz de enviar spam. Para abrir um caso de suporte, confira [contatar o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Proteção antispam de emails do Office 365](anti-spam-protection.md)
+
+[Orientação de email em massa na seção limites de envio da descrição do serviço do Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
 
 [Notificações de falha na entrega de email no Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
 
