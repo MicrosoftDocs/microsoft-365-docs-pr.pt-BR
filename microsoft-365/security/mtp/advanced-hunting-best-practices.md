@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 871f659074c4f8386746e341db4d3500c5e80a31
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 97c5f5541e1c3293346a53d87b950121e85e6eae
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807000"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966859"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -52,7 +52,7 @@ Para obter um identificador exclusivo para um processo em um computador específ
 O exemplo de consulta a seguir localiza processos que acessam mais de 10 endereços IP na porta 445 (SMB), possivelmente procurando por compartilhamentos de arquivos.
 
 Exemplo de consulta:
-```
+```kusto
 DeviceNetworkEvents
 | where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
 | summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
@@ -76,7 +76,7 @@ Para criar consultas mais duráveis usando linhas de comando, aplique as seguint
 
 Os exemplos a seguir mostram várias maneiras de criar uma consulta que procura o arquivo *net. exe* para deter o serviço do Windows Defender firewall:
 
-```
+```kusto
 // Non-durable query - do not use
 DeviceProcessEvents
 | where ProcessCommandLine == "net stop MpsSvc"

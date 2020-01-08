@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da985621c1cee3fe5aa30d961380ef3f3d83de8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 86b082baf5af34449f9981b92ccd8ea01aba29df
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808746"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966860"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Busca por ameaças em dispositivos e emails
 
@@ -34,7 +34,7 @@ A [Busca avançada](advanced-hunting-overview.md) da Proteção contra Ameaças 
 ## <a name="obtain-user-accounts-from-email-addresses"></a>Adicionar contas de usuário a partir de endereços de email
 Ao criar consultas em [tabelas que abrangem dispositivos e emails](advanced-hunting-schema-tables.md), provavelmente será necessário obter nomes de contas de usuário dos endereços de email de remetentes ou destinatários. Para fazer isso, use o *host local* no endereço de email:
 
-```
+```kusto
 AccountName = tostring(split(SenderFromAddress, "@")[0])
 ```
 
@@ -45,7 +45,7 @@ Essa técnica de normalização é usada nos seguintes cenários.
 ### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a>Verificar se os arquivos de um remetente mal-intencionado conhecido estão nos seus dispositivos
 Supondo que você saiba de um endereço de email que envia arquivos mal-intencionados, é possível executar essa consulta para determinar se os arquivos desse remetente existem nos seus dispositivos. Por exemplo, você pode usar essa consulta para determinar o número de dispositivos afetados por uma campanha de distribuição de malware.
 
-```
+```kusto
 //Get prevalence of files sent by a malicious sender in your organization
 EmailAttachmentInfo
 | where SenderFromAddress =~ "MaliciousSender@example.com"
@@ -59,7 +59,7 @@ DeviceFileEvents
 ### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a>Analisar as tentativas de logon após o recebimento de emails mal-intencionados
 Essa consulta localiza os 10 logons mais recentes executados pelos destinatários de email em 30 minutos depois do recebimento de emails mal-intencionados conhecidos. Você pode usar essa consulta para verificar se as contas dos destinatários de email foram comprometidas.
 
-```
+```kusto
 //Find logons that occurred right after malicious email was received
 let MaliciousEmail=EmailEvents
 | where MalwareFilterVerdict == "Malware" 
@@ -76,7 +76,7 @@ DeviceLogonEvents
 ### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a>Analisar as atividades do PowerShell após o recebimento de emails mal-intencionados de remetentes conhecidos
 Os emails mal-intencionados geralmente contêm documentos e outros anexos especialmente criados que executam comandos do PowerShell para fornecer cargas adicionais. Se você estiver ciente de emails recebidos de um remetente mal-intencionado conhecido, poderá usar essa consulta para listar e revisar as atividades do PowerShell que ocorreram dentro de 30 minutos após o recebimento de um email do remetente.  
 
-```
+```kusto
 //Find PowerShell activities right after email was received from malicious sender
 let x=EmailEvents
 | where SenderFromAddress =~ "MaliciousSender@example.com"
