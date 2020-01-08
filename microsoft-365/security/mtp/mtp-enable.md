@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 842c3be031e96467c8b82e8cf482435e66124960
-ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
+ms.openlocfilehash: 781aca371315d1ffde4ca2718d8d371e865ccb29
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "40881972"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970849"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -67,7 +67,7 @@ Para compartilhar dados da ATP do Azure com a Proteção contra Ameaças da Micr
 ## <a name="turn-off-microsoft-threat-protection"></a>Desabilitar a Proteção contra Ameaças da Microsoft
 Para parar de usar o serviço de Proteção contra Ameaças da Microsoft, vá para **Configurações** > ** Proteção contra Ameaças da Microsoft** > **Aceitar/Recusar** no centro de segurança do Microsoft 365. Desmarque a opção **Ativar a Proteção contra Ameaças da Microsoft** e salve as alterações.
 
-Os dados serão excluídos permanentemente e os recursos correspondentes serão removidos do centro de segurança do Microsoft 365.
+Os dados serão excluídos permanentemente e os recursos correspondentes serão removidos da central de segurança do Microsoft 365.
 
 ## <a name="get-assistance"></a>Obter assistência
 

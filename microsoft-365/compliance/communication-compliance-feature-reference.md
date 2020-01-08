@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: dc654a877e12eed308b5f8be9fd001ef9093398d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ece7264eba56aa9b389b0dc3555d69e71cc30ad5
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807926"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959609"
 ---
 # <a name="communication-compliance-feature-reference-preview"></a>Referência de recurso de conformidade de comunicação (versão prévia)
 
@@ -29,8 +29,8 @@ ms.locfileid: "40807926"
 
 Você cria políticas de conformidade de comunicação para organizações do Microsoft 365 no centro de conformidade da Microsoft 365. Se você tiver uma organização do Office 365, [configurará políticas de supervisão](configure-supervision-policies.md) no centro de conformidade & segurança do Office 365. As políticas de conformidade de comunicação definem quais comunicações e usuários estão sujeitos a revisar em sua organização, definir quais condições personalizadas as comunicações devem atender e especificar quem deve fazer revisões. Os usuários incluídos no grupo de função **administrador de análise de supervisão** podem configurar políticas e qualquer pessoa que tenha essa função atribuída pode acessar a página conformidade de **comunicação** no centro de conformidade da Microsoft 365. Se necessário, você pode exportar o histórico de modificações para uma política para um arquivo. csv que também inclui o status de alertas pendentes de revisão, itens escalonados e itens resolvidos. As políticas não podem ser renomeadas e podem ser excluídas quando não forem mais necessárias.
 
-> [!NOTE]
-> Políticas de supervisão criadas no centro de segurança e conformidade do Office 365 para assinaturas 365 do Office não podem migrar para o Microsoft 365. Se você estiver migrando de uma assinatura do Office 365 para uma assinatura do Microsoft 365, será necessário criar novas políticas de conformidade de comunicação para substituir as políticas de supervisão existentes.
+>[!NOTE]
+>Políticas de supervisão criadas no centro de segurança e conformidade do Office 365 para assinaturas 365 do Office não podem migrar para o Microsoft 365. Se você estiver migrando de uma assinatura do Office 365 para uma assinatura do Microsoft 365, será necessário criar novas políticas de conformidade de comunicação para substituir as políticas de supervisão existentes.
 
 ## <a name="policy-templates"></a>Modelos de política
 
@@ -46,8 +46,8 @@ Os modelos de política são configurações de política predefinidas que você
 
 Antes de começar a usar a conformidade de comunicação, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos do Office 365, listas de distribuição baseados no Exchange e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da verificação com um grupo de exclusão específico ou uma lista de grupos.
 
-> [!IMPORTANT]
-> Os usuários cobertos por políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a conformidade de comunicação, pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+>[!IMPORTANT]
+>Os usuários cobertos por políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a conformidade de comunicação, pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ## <a name="reviewers"></a>Revisores
 
@@ -198,8 +198,8 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 </html>
 ```
 
-> [!NOTE]
-> A implementação de atributo HTML href nos modelos de notificação de conformidade de comunicação atualmente suporta apenas aspas simples em vez de aspas duplas para referências de URL.
+>[!NOTE]
+>A implementação de atributo HTML href nos modelos de notificação de conformidade de comunicação atualmente suporta apenas aspas simples em vez de aspas duplas para referências de URL.
 
 ## <a name="filters"></a>Filtros
 
@@ -232,8 +232,8 @@ Para políticas de conformidade de comunicação, os seguintes valores de polít
 | Limite | 4 atividades |
 | Janela | 60 minutos |
 
-> [!Note]
-> As configurações do gatilho de limite de política de alerta para atividades dão suporte ao valor mínimo de 3 ou superior para políticas de conformidade de comunicação.
+>[!Note]
+>As configurações do gatilho de limite de política de alerta para atividades dão suporte ao valor mínimo de 3 ou superior para políticas de conformidade de comunicação.
 
 Você pode alterar as configurações padrão para gatilhos no número de atividades, período para as atividades e para usuários específicos em políticas de alerta na página **políticas de alerta** no centro de conformidade & segurança do Office 365.
 
@@ -259,8 +259,8 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Isso pode ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada. As políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Históricos de auditoria detalhados de cada ação criar, editar e excluir são capturados por suas políticas de comunicação para fornecer provas de procedimentos de supervisão.
 
-> [!Important]
-> A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, consulte [habilitar a auditoria para suas políticas de conformidade de comunicação](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional).
+>[!Important]
+>A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, consulte [habilitar a auditoria para suas políticas de conformidade de comunicação](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional).
 
 Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Isso gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
 

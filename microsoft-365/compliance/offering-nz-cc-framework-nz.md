@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f0ed98386a33b84d109fb94093b3d03cefc127b
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: da5fbef7ed9ceb136f276e2d6baab0c94bba3c22
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803994"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959530"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considerações de segurança e privacidade da computação em nuvem governamental Nova Zelândia
 
@@ -39,7 +39,7 @@ Saiba como acelerar sua implantação do Microsoft CC Framework com nosso plano 
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
-- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
+- [Azure e Azure Government](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
@@ -62,10 +62,10 @@ Se sua agência for necessária para realizar a certificação e a capacitação
 - [Conformidade do Microsoft Azure no contexto de segurança e requisitos de privacidade da Nova Zelândia](https://aka.ms/azurecompliancenewzealand)
 - [Estratégia de ICT do governo de NZ 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Requisitos governamentais de NZ para a computação em nuvem](https://aka.ms/NZ-Cloud-Requirements)
-- [Computação em nuvem: considerações sobre segurança e privacidade de informações (ISPC)](https://aka.ms/NZ-Cloud-Computing-Considerations)
+- [Computação em nuvem: considerações sobre segurança e privacidade de informações (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Office 365: arquitetura de referência e integração do SEEMail](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (diretrizes adicionais do NZ da Microsoft sobre a adoção do serviço de nuvem)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade com o Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Respostas da Microsoft para "Cloud Computing IPSC"
 

@@ -14,20 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Aceite e use o modelo de detecção de privilégio de cliente advogado para usar a detecção baseada em aprendizado de máquina de conteúdo privilegiado ao examinar o conteúdo em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: a483941ba5d28527eb509f2e1bbd129434430244
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+description: Use o modelo de detecção de privilégio de cliente advogado para usar a detecção baseada em aprendizado de máquina de conteúdo privilegiado ao examinar o conteúdo em uma ocorrência de descoberta eletrônica avançada.
+ms.openlocfilehash: bf1b2112c47019c59f955ace21a25b099f91128f
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39603775"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970859"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>Configurar detecção de privilégio de cliente de advogado na descoberta eletrônica avançada
 
 Um aspecto importante e dispendioso da fase de análise de qualquer processo de descoberta eletrônica é a revisão de documentos para conteúdo privilegiado. A descoberta eletrônica avançada fornece detecção de conteúdo privilegiado com base em aprendizado de máquina para tornar esse processo mais eficiente. Esse recurso é chamado *detecção de privilégio de cliente de advogado*.
-
-> [!NOTE]
-> Você deve aceitar o modelo de detecção de privilégio de cliente advogado antes de poder usá-lo. Consulte a [etapa 1](#step-1-opt-in-to-attorney-client-privilege-detection) para obter instruções.
 
 ## <a name="how-does-it-work"></a>Como funciona?
 
@@ -53,11 +50,11 @@ Essas três propriedades também podem ser pesquisadas em um conjunto de revisã
 
 ## <a name="set-up-the-attorney-client-privilege-detection-model"></a>Configurar o modelo de detecção de privilégio de cliente advogado
 
-Para habilitar o modelo de detecção de privilégio de cliente advogado, sua organização deve aceitar e carregar uma lista de advogados.
+Para habilitar o modelo de detecção de privilégio de cliente advogado, sua organização precisa ativá-la e carregar uma lista de advogados.
 
-### <a name="step-1-opt-in-to-attorney-client-privilege-detection"></a>Etapa 1: aceitar a detecção de privilégio de cliente advogado
+### <a name="step-1-turn-on-attorney-client-privilege-detection"></a>Etapa 1: ativar a detecção de privilégio de cliente do advogado
 
-Conforme mencionado anteriormente, o modelo de detecção de privilégio de cliente advogado está em visualização. Portanto, uma pessoa em seu administrador de descoberta eletrônica da organização (membro do subgrupo administrador de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica) deve optar por disponibilizar o modelo em suas ocorrências de descoberta eletrônica avançada.
+Uma pessoa que é um administrador de descoberta eletrônica em sua organização (membro do subgrupo administrador de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica) deve disponibilizar o modelo em suas ocorrências de descoberta eletrônica avançada.
 
 1. No centro de conformidade & segurança, vá para **descoberta eletrônica avançada**de descoberta eletrônica >.
 

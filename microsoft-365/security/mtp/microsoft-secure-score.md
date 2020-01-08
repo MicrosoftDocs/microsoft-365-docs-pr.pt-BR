@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 943c32aa535a319829bd93bde190a5fead12ef08
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 8a471b08f9c7178c86d4f4bd7b7341b3555ffba7
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910510"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970909"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -60,21 +60,21 @@ Para ter permissão para acessar a pontuação segura da Microsoft, você deve r
 
 Com acesso de leitura e gravação, você pode fazer alterações e interagir diretamente com a pontuação segura. Você também pode atribuir acesso somente leitura a outros usuários.
 
-* CompanyAdministrator
-* SecurityAdministrator
-* ExchangeAdmin
-* SharePointAdmin
+* Administrador global
+* Administrador de segurança
+* Administrador do Exchange
+* Administrador do SharePoint
 
 ### <a name="read-only-roles"></a>Funções somente leitura
 
 Com acesso somente leitura, você não pode editar o status ou as anotações de uma ação de melhoria, editar zonas de pontuação ou editar comparações personalizadas.
 
-* HelpdeskAdmin
-* UserAccountAdmin
-* ServiceSupportAdmin
-* SecurityReader
-* SecurityOperator
-* GlobalReader
+* Administrador de assistência técnica
+* Administrador de usuários
+* Administrador de serviço
+* Leitor de segurança
+* Operador de segurança
+* Leitor global
 
 ### <a name="graph-api"></a>API do Graph
 
@@ -146,7 +146,7 @@ Por esses motivos, todas as ações de melhoria que não foram pontuadas ou exig
 
 Para padronizar pontos em várias experiências, cada ponto de ação de melhoria de Pontuação segura será atualizado para ter 10 pontos ou menos. É necessário ser mais consistente em todo o espectro de controles de segurança que temos hoje e aqueles que iremos adicionar no futuro. Embora essa seja uma alteração significativa e você veja os totais de pontos de projeção, não haverá mudanças na sua postura de segurança.  
 
-### <a name="preview-features"></a>Recursos de visualização
+### <a name="preview-features"></a>Visualização prévia de recursos
 
 Os seguintes recursos serão incluídos na versão prévia:
 

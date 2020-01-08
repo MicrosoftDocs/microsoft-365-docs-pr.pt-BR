@@ -1,5 +1,5 @@
 ---
-title: Atributos para políticas de barreira de informações
+title: Atributos das políticas de barreira de informações
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,21 +11,21 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use este artigo como referência para vários atributos que podem ser usados em políticas de barreira de informações.
-ms.openlocfilehash: 4198728d412062edced6238604b2b891da22aeac
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12acaa4fb8d6bcd6c660381b172703bd178af81f
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072733"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970779"
 ---
-# <a name="attributes-for-information-barrier-policies"></a>Atributos para políticas de barreira de informações
+# <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
 Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar o **Departamento** para definir segmentos de usuários por departamento em sua organização (supondo que nenhum único funcionário funcione para dois departamentos ao mesmo tempo). 
 
 Este artigo descreve como usar atributos com barreiras de informação e fornece uma lista de atributos que podem ser usados. Para saber mais sobre as barreiras de informação, confira os seguintes recursos:
 - [Barreiras de informações](information-barriers.md)
 - [Definir políticas para barreiras de informações no Microsoft Teams](information-barriers-policies.md)
-- [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md.md)
+- [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>Como usar atributos em políticas de barreira de informações
 
@@ -86,8 +86,8 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 |StreetAddress |StreetAddress |
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
-|Principal  |Principal  |
-|Correio   |WindowsEmailAddress    |
+|UserPrincipalName  |UserPrincipalName  |
+|Email   |WindowsEmailAddress    |
 |Descrição    |Descrição    |
 |Tattoo   |MemberOfGroup  |
 
@@ -95,7 +95,7 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 
 [Definir políticas para barreiras de informações no Microsoft Teams](information-barriers-policies.md)
 
-[Solucionando problemas de barreiras de informações](information-barriers-troubleshooting.md)
+[Solução de problemas de barreiras de informações](information-barriers-troubleshooting.md)
 
 [Barreiras de informações](information-barriers.md)
 

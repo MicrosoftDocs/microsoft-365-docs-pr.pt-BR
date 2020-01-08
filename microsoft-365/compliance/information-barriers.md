@@ -11,16 +11,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
-ms.openlocfilehash: 31de709e5ac834ad628110088b0dab80efe85950
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 352f101a443b015840b09b82626f7dbee9cfb79e
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38689994"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970829"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Os serviços de nuvem da Microsoft incluem recursos avançados de comunicação e colaboração. Mas suponha que você deseja restringir as comunicações entre dois grupos para evitar um conflito de interesse de ocorrer em sua organização. Ou, talvez você queira restringir as comunicações entre determinadas pessoas dentro da sua organização para proteger informações internas. A Microsoft 365 permite a comunicação e a colaboração entre grupos e organizações, portanto, há uma maneira de restringir as comunicações entre grupos específicos de usuários quando necessário? Com as barreiras de informação, você pode! 
 
@@ -83,5 +83,4 @@ Você deve estar familiarizado com os cmdlets do PowerShell para definir, valida
 
 - [Definir políticas para barreiras de informações](information-barriers-policies.md)
 
-- [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md.md) 
-
+- [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md) 

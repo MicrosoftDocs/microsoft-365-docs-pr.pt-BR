@@ -17,23 +17,23 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 67e7d1a8fe1ca2f64031cab9bdee72ac22c70886
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e7a46e2fcd15a77f6fe7f1b97adf5ed26e97e0e2
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806624"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959619"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 
-> [!IMPORTANT]
-> Este tópico se aplica à configuração de políticas de supervisão em uma assinatura do Office 365. Se você quiser configurar a conformidade de comunicações para uma assinatura do Microsoft 365, confira [Configurar a conformidade de comunicações no Microsoft 365 (versão prévia)](communication-compliance-configure.md).
+>[!IMPORTANT]
+>Este tópico se aplica à configuração de políticas de supervisão em uma assinatura do Office 365. Se você quiser configurar a conformidade de comunicações para uma assinatura do Microsoft 365, confira [Configurar a conformidade de comunicações no Microsoft 365 (versão prévia)](communication-compliance-configure.md).
 
 Use políticas de supervisão para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de supervisão podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de supervisão no Office 365](supervision-policies.md).
 
-> [!NOTE]
-> Os usuários monitorados pelas políticas de supervisão devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluída em uma assinatura do Office 365 Enterprise e5.
-> Se você não tem um plano Enterprise E5 existente e deseja tentar a supervisão, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+>[!NOTE]
+>Os usuários monitorados pelas políticas de supervisão devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluída em uma assinatura do Office 365 Enterprise e5.
+>Se você não tem um plano Enterprise E5 existente e deseja tentar a supervisão, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
   
 Siga estas etapas para configurar e usar a supervisão na sua organização do Office 365:
   
@@ -182,8 +182,8 @@ Depois de criar uma política de supervisão de comunicação, é uma boa ideia 
 1. Abra um cliente de email ou o Microsoft Teams conectado como um usuário supervisionado definido na política que você deseja testar.
 2. Envie um email ou chat do Microsoft Teams que atendam aos critérios definidos na política de supervisão. Pode ser uma palavra-chave, o tamanho do anexo, o domínio, etc. Certifique-se de determinar se as configurações condicionais configuradas na política são muito restritivas ou muito lenients.
 
-    > [!NOTE]
-    > Os emails sujeitos às políticas definidas são processados quase em tempo real e podem ser testados imediatamente após a configuração da política. Os chats no Microsoft Teams podem levar até 24 horas para processar totalmente em uma política. 
+    >[!NOTE]
+    >Os emails sujeitos às políticas definidas são processados quase em tempo real e podem ser testados imediatamente após a configuração da política. Os chats no Microsoft Teams podem levar até 24 horas para processar totalmente em uma política. 
 
 3. Faça logon em seu locatário do Office 365 como um revisor designado na política de supervisão de comunicação. Navegue até a **supervisão** > da*política* > personalizada**aberta** para exibir o relatório da política.
 

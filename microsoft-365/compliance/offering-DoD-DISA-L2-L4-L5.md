@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2fa27680dcc9e0ee7fb495164683a291cc167d59
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805224"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959550"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -61,12 +61,12 @@ O nível 2 de impacto cobre informações não controladas, dados que são autor
 ### <a name="covered-services-for-dod-impact-level-5"></a>Serviços cobertos para o nível de impacto de DoD 5
 
 - [Governo do Azure para DoD](https://aka.ms/AzureCompliance)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-4"></a>Serviços cobertos para o nível 4 de impacto do DoD
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>Serviços cobertos para o nível 2 de impacto do DoD
 
@@ -100,7 +100,7 @@ Além disso, as ofertas da Microsoft fora do limite certificado por FedRAMP que 
 ## <a name="resources"></a>Recursos
 
 - [Guia de requisitos de segurança de computação em nuvem DoD (SRG) e outros documentos](https://public.cyber.mil/dccs/dccs-documents/)
-- [Suporte ao serviço de nuvem do DISA](http://www.disa.mil/Computing/Cloud-Services/Cloud-Support)
+- [Suporte ao serviço de nuvem do DISA](https://storefront.disa.mil/kinetic/disa/service-catalog#/forms/cloud-service-support)
 - [Proteção de informações não classificadas controladas em sistemas de informações não federais e organizações](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)
 - [Estrutura NIST cybersecurity](https://www.nist.gov/cyberframework)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)

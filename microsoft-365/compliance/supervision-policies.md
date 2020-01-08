@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 1ae0b469e2edd6970f3384f2777bb9bdc5cad2a6
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bd9d86a5a5d96e8f7978f5c2482eb127b0379a09
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802664"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959520"
 ---
 # <a name="supervision-policies-in-office-365"></a>Políticas de supervisão no Office 365
 
@@ -68,8 +68,8 @@ Você cria políticas de supervisão no centro de conformidade. Essas políticas
 
 Antes de começar a usar a supervisão, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos do Office 365, listas de distribuição baseados no Exchange e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da supervisão com um grupo supervisionado ou uma lista de grupos.
 
-> [!IMPORTANT]
-> Os usuários monitorados pelas políticas de supervisão devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluída em uma assinatura do Office 365 Enterprise e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a supervisão, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+>[!IMPORTANT]
+>Os usuários monitorados pelas políticas de supervisão devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluída em uma assinatura do Office 365 Enterprise e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a supervisão, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ### <a name="reviewers"></a>Revisores
 
@@ -129,11 +129,11 @@ Configure os dicionários de palavras-chave personalizados (ou léxicos) para fo
 
 Monitorar mensagens de email enviadas ou recebidas em sua organização para uma linguagem ofensiva. O modelo usa uma combinação de aprendizado de máquina, inteligência artificial e palavras-chave para identificar o idioma das mensagens de email que podem violar as políticas antiassédio e do anti-intimidação. O modelo de linguagem ofensiva atualmente oferece suporte a palavras-chave em inglês e monitora o corpo de mensagens de email.
 
-> [!NOTE]
-> Crie uma [política de prevenção de perda de dados](create-test-tune-dlp-policy.md) com um [dicionário de palavras-chave personalizado](create-a-keyword-dictionary.md) de termos bloqueados se você precisar:
+>[!NOTE]
+>Crie uma [política de prevenção de perda de dados](create-test-tune-dlp-policy.md) com um [dicionário de palavras-chave personalizado](create-a-keyword-dictionary.md) de termos bloqueados se você precisar:
 >
-> - monitorar as comunicações do Microsoft Teams em sua organização para uma linguagem ofensiva
-> - impedir ou bloquear linguagem ofensiva em comunicações em sua organização
+>- monitorar as comunicações do Microsoft Teams em sua organização para uma linguagem ofensiva
+>- impedir ou bloquear linguagem ofensiva em comunicações em sua organização
 
 Observe que o modelo não fornece uma lista exaustiva de idiomas ofensivos. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar o modelo de acordo com sua vontade. Embora o modelo possa ajudar sua organização a monitorar a linguagem ofensiva, o modelo não se destina a fornecer o único meio de monitoramento ou a solução de tal idioma da sua organização. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas ao monitoramento e bloqueio da linguagem ofensiva.
 
@@ -235,8 +235,8 @@ Use os relatórios de supervisão para ver a atividade de análise no nível de 
 2. Vá para **painel** de **relatórios** \> ou **supervisão** para exibir o widget relatório de supervisão para obter um resumo da atividade atual de política de supervisão.
 3. Selecione o widget **supervisão** para abrir a página relatório detalhado.
 
-> [!NOTE]
-> Se você não conseguir acessar a página **relatórios** , verifique se você é membro do grupo de função de análise de supervisão, conforme descrito em [disponibilizar supervisão disponível em sua organização](configure-supervision-policies.md). A inclusão nesse grupo de função permite que você crie e gerencie políticas de supervisão e execute o relatório.
+>[!NOTE]
+>Se você não conseguir acessar a página **relatórios** , verifique se você é membro do grupo de função de análise de supervisão, conforme descrito em [disponibilizar supervisão disponível em sua organização](configure-supervision-policies.md). A inclusão nesse grupo de função permite que você crie e gerencie políticas de supervisão e execute o relatório.
   
 ### <a name="how-to-use-the-report"></a>Como usar o relatório
 
@@ -260,8 +260,8 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
 | **No âmbito** | O número total (diário) de mensagens do Exchange, do Microsoft Teams e de fontes de dados de terceiros verificados por uma política de supervisão |
 | **Resolvido** | O número total de mensagens do Exchange, do Microsoft Teams e de fontes de dados de terceiros classificadas como **resolvidas**|
 
-> [!NOTE]
-> As políticas de supervisão devem ser provisionadas antes de serem exibidas nos relatórios. Se as políticas forem excluídas, os dados históricos ainda serão exibidos. No entanto, eles são indicados como uma política não existente e a função de **exportação** não está disponível.
+>[!NOTE]
+>As políticas de supervisão devem ser provisionadas antes de serem exibidas nos relatórios. Se as políticas forem excluídas, os dados históricos ainda serão exibidos. No entanto, eles são indicados como uma política não existente e a função de **exportação** não está disponível.
 
 ## <a name="audit"></a>Faça
 
@@ -269,7 +269,7 @@ Em alguns casos, você deve fornecer informações para auditores regulamentares
 
 As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificados do Office 365:
 
-|**Atividades**|**Comandos associados**|
+|**Atividade**|**Comandos associados**|
 |:-----|:-----|
 | **Criar uma política** | [New-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | **Editar uma política** | [Set-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
@@ -288,4 +288,3 @@ Além das informações fornecidas nos logs e relatórios de supervisão, você 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
 Para configurar as políticas de supervisão para sua organização, consulte [Configure supervisão Policies](configure-supervision-policies.md).
-

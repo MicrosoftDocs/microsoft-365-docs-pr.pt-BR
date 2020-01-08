@@ -3,7 +3,7 @@ title: Rótulos de confidencialidade em aplicativos do Office
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: 12/09/2019
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: a904f1adde6ea8df6d7225ed368f77790b21161a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 092c8510acac5cafa6417f93eae19731db5df270
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802844"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970949"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Rótulos de confidencialidade em aplicativos do Office
 
@@ -40,7 +40,7 @@ Os usuários devem ter pelo menos uma das seguintes licenças atribuídas:
 
 - [Proteção de informações do Azure Premium P1](https://azure.microsoft.com/pricing/details/information-protection/) ou superior
 
-O cliente de rotulagem interno do Office oferece suporte a rótulos de sensibilidade com uma versão de assinatura do Office. O cliente não oferece suporte a versões autônomas, por exemplo, o Office 2016 ou o Office 2019.
+O cliente de rotulagem interno do Office oferece suporte a rótulos de confidencialidade com uma edição de assinatura do Office. Este cliente de rótulo não dá suporte a edições autônomas do Office, como o Office 2016 ou o Office 2019. Para usar rótulos de confidencialidade com essas edições do Office em computadores com Windows, instale o cliente de rotulação unificado de proteção de informações do Azure.
 
 Para usar o rótulo de confidencialidade automático ou recomendado, seus usuários precisam de uma das seguintes licenças:
 
@@ -48,31 +48,35 @@ Para usar o rótulo de confidencialidade automático ou recomendado, seus usuár
 
 - [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software) ou superior
 
-- [Proteção de informações do Azure P2](https://azure.microsoft.com/pricing/details/information-protection/) ou superior
+- [Proteção de Informações do Azure Premium P2](https://azure.microsoft.com/pricing/details/information-protection/)
 
 ## <a name="support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Suporte para recursos de rótulo de confidencialidade no Word, Excel e PowerPoint
 
-Para cada capacidade, a tabela a seguir lista a versão mínima necessária para esse aplicativo. TBD significa que você não pode usar esse recurso nessa plataforma.
+Para cada capacidade, a tabela a seguir lista a versão mínima necessária para esse aplicativo suportar rótulos de sensibilidade usando rotulação interna.
+
+Recursos adicionais estão disponíveis quando você instala o cliente de rotulação unificado de proteção de informações do Azure, que é executado somente em computadores Windows. Para obter esses detalhes, consulte [Compare the Labeling clients for Windows Computers](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
 
 |Funcionalidade                                                                                                        |Windows Desktop |Área de trabalho Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[Aplicar, alterar ou remover manualmente o rótulo](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | A definir                                                        |
+|[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | Em revisão                                                        |
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
-|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
+|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |
-  [Exigir que os usuários apliquem um rótulo a seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Visualização: na implantação do [Office Insider](https://office.com/insider)                                  | TBD | TBD | TBD | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
-|Suporte para [salvamento automático](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e protegidos | TBD | TBD | TBD | TBD | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
+  [Exigir que os usuários apliquem um rótulo a seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Visualização: no [Office Insider](https://office.com/insider)                                  | Em revisão | Em revisão | Em revisão | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
+|Suporte para [salvamento automático](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e protegidos | Em revisão | Em revisão | Em revisão | Em revisão | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
 ## <a name="support-for-sensitivity-label-capabilities-in-outlook"></a>Suporte para recursos de rótulo de confidencialidade no Outlook
 
-Para cada capacidade, a tabela a seguir lista a versão mínima necessária para esse aplicativo. TBD significa que você não pode usar esse recurso nessa plataforma.
+Para cada capacidade, a tabela a seguir lista a versão mínima necessária para esse aplicativo.
+
+Recursos adicionais estão disponíveis quando você instala o cliente de rotulação unificado de proteção de informações do Azure, que é executado somente em computadores Windows. Para obter esses detalhes, consulte [Compare the Labeling clients for Windows Computers](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
 
 |Funcionalidade                                                                                                        |Outlook na área de trabalho do Windows |Área de trabalho do Outlook no Mac  |Outlook no iOS |Outlook no Android |Outlook na Web |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
@@ -83,10 +87,10 @@ Para cada capacidade, a tabela a seguir lista a versão mínima necessária para
 |[Marcar o conteúdo](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Sim               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Sim               |
-|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | TBD                       | TBD                    | TBD           | TBD               | TBD               |
+|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
 |
-  [Exigir que os usuários apliquem um rótulo a seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | TBD                       | TBD                    | TBD           | TBD               | TBD               |
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | TBD                       | TBD                    | TBD           | TBD               | Visualização: na distribuição para [lançamento direcionado](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide) |
+  [Exigir que os usuários apliquem um rótulo a seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Visualização: na distribuição para [lançamento direcionado](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide) |
 |
 
 ## <a name="about-the-office-built-in-labeling-client"></a>Sobre o cliente de rotulação interno do Office

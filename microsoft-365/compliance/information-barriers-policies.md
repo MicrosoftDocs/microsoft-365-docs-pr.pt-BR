@@ -11,16 +11,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
-ms.openlocfilehash: 3d5dfbcb4410739d8d935b50a8e4ad069145e6a5
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 11195e588a983bb5617dd3f556734074bc0060b0
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38690087"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970839"
 ---
 # <a name="define-policies-for-information-barriers"></a>Definir políticas para barreiras de informações
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Com as barreiras de informação, você pode definir políticas projetadas para impedir que determinados segmentos de usuários se comuniquem entre si ou permitir que segmentos específicos se comuniquem apenas com determinados segmentos. As políticas de barreira de informações podem ajudar sua organização a manter a conformidade com normas e regulamentos relevantes do setor e evitar possíveis conflitos de interesse. Para saber mais, confira [barreiras de informação](information-barriers.md). 
 
@@ -43,7 +43,7 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 
 - O **aplicativo de política** é feito após a definição de todas as políticas de barreira de informações e você está pronto para aplicá-las em sua organização.
 
-## <a name="the-work-flow-at-a-glance"></a>O fluxo de trabalho em um relance
+## <a name="the-work-flow-at-a-glance"></a>Visão geral do fluxo de trabalho 
 
 |Fase    |O que está envolvido  |
 |---------|---------|
@@ -51,7 +51,7 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 |[Parte 1: segmentar usuários em sua organização](#part-1-segment-users)     |– Determinar quais políticas são necessárias<br/>-Criar uma lista de segmentos para definir<br/>– Identificar quais atributos usar<br/>-Definir segmentos em termos de filtros de política        |
 |[Parte 2: definir as políticas de barreira de informações](#part-2-define-information-barrier-policies)     |-Definir suas políticas (não se aplica ainda)<br/>-Escolha entre dois tipos (bloquear ou permitir) |
 |[Parte 3: aplicar políticas de barreira de informações](#part-3-apply-information-barrier-policies)     |-Definir políticas para status ativo<br/>– Executar o aplicativo de política<br/>-Exibir status da política         |
-|(Conforme necessário) [Editar um segmento ou uma política](information-barriers-edit-segments-policies.md.md)    |-Editar um segmento<br/>– Editar ou remover uma política<br/>– Execute novamente o aplicativo de política<br/>-Exibir status da política         |
+|(Conforme necessário) [Editar um segmento ou uma política](information-barriers-edit-segments-policies.md)    |-Editar um segmento<br/>– Editar ou remover uma política<br/>– Execute novamente o aplicativo de política<br/>-Exibir status da política         |
 |(Conforme necessário) [Solução de problemas](information-barriers-troubleshooting.md)|-Tomar medidas quando as coisas não estiverem funcionando conforme o esperado|
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -260,11 +260,11 @@ Os recursos estão disponíveis para ajudá-lo a gerenciar suas políticas de ba
 
 - Se algo der errado com as barreiras de informações, consulte [Solucionando problemas de barreiras de informações](information-barriers-troubleshooting.md).
 
-- Para impedir que as políticas sejam aplicadas, consulte [parar um aplicativo de política](information-barriers-edit-segments-policies.md.md#stop-a-policy-application).
+- Para impedir que as políticas sejam aplicadas, consulte [parar um aplicativo de política](information-barriers-edit-segments-policies.md#stop-a-policy-application).
 
-- Para remover uma política de barreira de informações, consulte [remover uma política](information-barriers-edit-segments-policies.md.md#remove-a-policy).
+- Para remover uma política de barreira de informações, consulte [remover uma política](information-barriers-edit-segments-policies.md#remove-a-policy).
 
-- Para fazer alterações em segmentos ou políticas, consulte [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md.md).
+- Para fazer alterações em segmentos ou políticas, consulte [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md).
 
 ## <a name="example-contosos-departments-segments-and-policies"></a>Exemplo: departamentos, segmentos e políticas da contoso
 
