@@ -1,6 +1,6 @@
 - name: Microsoft 365 para Campanhas
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: index.md
     - name: Obter Microsoft 365 para Campanhas
       href: get-microsoft-365-campaigns.md
@@ -8,7 +8,7 @@
       href: m365-campaigns-users.md
 - name: Configurar e entrar
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: microsoft-365-campaigns-setup-overview.md
     - name: Inscrever-se
       href: m365-campaigns-sign-up.md
@@ -16,11 +16,13 @@
       href: ../business/set-up.md?toc=/microsoft-365/campaigns/toc.json
     - name: Entrar
       href: m365-campaigns-sign-in.md
+    - name: Personalizar página de entrada
+      href: m365-customize-sign-in.md
     - name: Adicionar usuários
       href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json
 - name: Aumentar a capacidade de proteção
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: m365-campaigns-security-overview.md
     - name: Proteger contas administrativas
       href: m365-campaigns-protect-admin-accounts.md
