@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: cbfff7fc0905206a0302f7e1a458718637d934b7
-ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
+ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962300"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989526"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 
@@ -55,18 +55,20 @@ Há várias coisas que você precisa fazer se seu locatário estiver bloqueado d
 
 1. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Procure por [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada na sua organização do Office 365 para enviar spam. Para exibir os conectores existentes, consulte [Validate Connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
+2. [Habilitar a MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) de todos os administradores na sua organização do Office 365.
 
-3. Verifique se há usuários comprometidos conforme descrito em [respondendo a uma conta de email comprometida no Office 365](responding-to-a-compromised-email-account.md).
+3. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-4. [Habilitar a MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) de todos os administradores na sua organização do Office 365.
+4. Procure por [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada na sua organização do Office 365 para enviar spam. Para exibir os conectores existentes, consulte [Validate Connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 
-5. Bloqueie seus servidores de email locais e verifique se eles não estão comprometidos.
+5. Verifique se há usuários comprometidos conforme descrito em [respondendo a uma conta de email comprometida no Office 365](responding-to-a-compromised-email-account.md).
+
+6. Bloqueie seus servidores de email locais e verifique se eles não estão comprometidos.
 
    > [!TIP]
    > Há vários fatores aqui, especialmente se você estiver usando servidores de terceiros. Independentemente disso, você precisará verificar se todos os seus emails de saída estão agora legítimos.
 
-6. Ligue para o suporte da Microsoft e peça para que o locatário não seja bloqueado para envio de domínios não registrados. O código de erro é útil, mas você precisará provar que seu ambiente foi protegido e que não é capaz de enviar spam. Para abrir um caso de suporte, confira [contatar o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+7. Ligue para o suporte da Microsoft e peça para que o locatário não seja bloqueado para enviar emails novamente. O código de erro é útil, mas você precisará provar que seu ambiente foi protegido e que não é capaz de enviar spam. Para abrir um caso de suporte, confira [contatar o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 ## <a name="for-more-information"></a>Para obter mais informações
 

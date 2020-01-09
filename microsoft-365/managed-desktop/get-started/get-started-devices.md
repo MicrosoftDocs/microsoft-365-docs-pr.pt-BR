@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ae544592184b9de1b5a515ccd21af74185486d58
-ms.sourcegitcommit: f64397f3b144de36605da8d7116c46010765346d
+ms.openlocfilehash: 59cdb911c46fbb2ad5dd998810297a5502c8fa0c
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38697154"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989546"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Preparar usuários para o uso dos dispositivos
 
@@ -23,7 +23,7 @@ Para tornar isso ainda mais fácil, oferecemos um guia que conduz seus usuários
 ## <a name="to-prepare-the-guide"></a>Para preparar o guia
 
 1. Baixe a versão adequada para sua organização:
-- [Microsoft Managed desktop-introdução ao dispositivo (obter ajuda versão)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) – Use esta versão se os usuários finais usarem o sistema de suporte da Microsoft.
+- [Microsoft Managed desktop-introdução ao dispositivo (obter ajuda versão)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) – Use esta versão se os usuários finais usarem o sistema de suporte da Microsoft.
 - [Microsoft Managed desktop-introdução ao dispositivo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -Use esta versão se os usuários finais *não* usarão o sistema de suporte da Microsoft.
 2. Use qualquer aplicativo capaz de abrir arquivos PDF para preencher detalhes relevantes para a sua organização:
     - O nome da rede à qual os usuários devem se conectar para continuar a instalação (etapa 3 no guia)
@@ -33,9 +33,9 @@ Para tornar isso ainda mais fácil, oferecemos um guia que conduz seus usuários
 
 ## <a name="ready-to-use-guide"></a>"Guia pronto para usar"
 
-Também fornecemos uma versão mais genérica do guia para as organizações que não precisam personalizá-la. Há duas versões, uma para organizações que usam o sistema de suporte da Microsoft (o aplicativo Get Help), uma para aqueles que fornecem seu próprio suporte de usuário final interno.
+Também fornecemos uma versão mais genérica do guia para as organizações que não precisam personalizá-la. Há duas versões, uma para organizações que usam o sistema de suporte da Microsoft (o aplicativo Get Help), uma para aqueles que oferecem suporte alternativo para seus usuários. 
 
-- [Microsoft Managed desktop-introdução ao dispositivo (obter ajuda para uso da versão)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) – Use esta versão se os usuários finais usarem o sistema de suporte da Microsoft.
+- [Microsoft Managed desktop-introdução ao dispositivo (obter ajuda para uso da versão)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) – Use esta versão se os usuários finais usarem o sistema de suporte da Microsoft.
 - [Microsoft Managed desktop-introdução ao dispositivo (pronto para uso)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) -Use esta versão se os usuários finais *não* usarem o sistema de suporte da Microsoft.
 
 Neste ponto, você está pronto para prosseguir para a implantação de aplicativos:
