@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Para administradores: saiba mais sobre o serviço de importação no Centro de Conformidade e Segurança para importar dados de email (arquivos PST) em massa às caixas de correio de usuário no Exchange Online. Este tópico fornece perguntas frequentes e explica como funciona p processo de importação de PST.'
-ms.openlocfilehash: 309fde077cdf456ba33656c29f9e325aac1820e3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4e58be4e90429c2d39bbcf4c5ef362e659764d63
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807120"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995281"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>Visão geral da importação dos arquivos PST da sua organização para o Office 365
 
@@ -52,11 +52,11 @@ Esta é uma ilustração e uma descrição do processo de importação de PST co
     
 2. **Carregue ou copie os arquivos PST** - A próxima etapa depende se você estiver usando o carregamento de rede ou o envio de unidade para importar arquivos PST. Em ambos os casos, você usará a ferramenta e a chave do armazenamento seguro obtida na etapa anterior.
     
-    - **Carregamento de rede** A ferramenta AzCopy.exe (baixada na etapa 1) é usada para carregar e armazenar os arquivos PST em um local de Armazenamento do Azure na nuvem da Microsoft. O local de Armazenamento do Azure em que você carrega os arquivos PST está localizado no mesmo datacenter da Microsoft que a organização do Office 365 está.
+    - **Carregamento de rede:** a ferramenta AzCopy.exe (baixada na etapa 1) é usada para carregar e armazenar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft.  O local de Armazenamento do Azure em que você carrega os arquivos PST está localizado no mesmo datacenter da Microsoft que a organização do Office 365 está.
     
       Para carregá-los, os arquivos PST que você deseja importar para o Office 365 devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
     
-    - **Envio de unidades** A ferramenta WAImportExport.exe (baixada na etapa 1) é usada para copiar os arquivos PST para o disco rígido. Essa ferramenta criptografa o disco rígido com BitLocker e, em seguida, copia os PSTs para o disco rígido. Como o carregamento de rede, os arquivos PST que você deseja copiar para o disco rígido devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
+    - **Envio de unidades:** a ferramenta WAImportExport.exe (baixada na etapa 1) é usada para copiar os arquivos PST para o disco rígido. Essa ferramenta criptografa o disco rígido com BitLocker e, em seguida, copia os PSTs para o disco rígido. Como o carregamento de rede, os arquivos PST que você deseja copiar para o disco rígido devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
     
 3. **Criar um arquivo de mapeamento de importação de PST** - Depois de carregar os arquivos PST para o local de Armazenamento do Azure ou copiá-los para um disco rígido, a próxima etapa é criar um arquivo de valores separados por vírgula (CSV) que especifica para quais caixas de correio de usuário os arquivos PST serão importados (um arquivo PST pode ser importado para a caixa de correio principal do usuário ou para a caixa de correio de arquivo morto). O serviço de importação do Office 365 usará as informações para importar os arquivos PST. 
     

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: Saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Office 365.'
-ms.openlocfilehash: 4354e0c630066204811f98cce53d6b0f041b20ad
-ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
+ms.openlocfilehash: a66655fd03a379d56e31ca0960f433d659265edc
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854066"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995291"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-office-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Office 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "40854066"
   
 Estas são as instruções passo a passo necessárias para usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio do Office 365. Para perguntas frequentes sobre como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio do Office 365, consulte [Perguntas frequentes sobre como usar o carregamento de rede para importar arquivos PST](faqimporting-pst-files-to-office-365.md#using-network-upload-to-import-pst-files).
   
-[Etapa 1: Copiar a URL SAS e instalar o Azure AzCopy](#step-1-copy-the-sas-url-and-install-azure-azcopy)
+[Etapa 1: copiar a URL SAS e instalar o AzCopy](#step-1-copy-the-sas-url-and-install-azcopy)
 
 [Etapa 2: Carregar os arquivos PST no Office 365](#step-2-upload-your-pst-files-to-office-365)
 
@@ -57,39 +57,39 @@ Estas são as instruções passo a passo necessárias para usar o carregamento d
   - Você precisa ser um administrador global na sua organização do Office 365.
     
   > [!TIP]
-    > Considere a criação de um novo grupo de função no Exchange Online destinado especificamente a importar os arquivos PST para o Office 365. Para o nível mínimo de privilégios necessários para importar os arquivos PST, atribua as funções de Exportação Importação de Caixa de Correio e Destinatários de email ao novo grupo de função e, em seguida, adicione membros. 
+    > Considere a criação de um novo grupo de função no Exchange Online destinado especificamente a importar os arquivos PST para o Office 365. Para o nível mínimo de privilégios necessários para importar os arquivos PST, atribua as funções de Exportação Importação de Caixa de Correio e Destinatários de email ao novo grupo de função e, em seguida, adicione membros.
   
-- O único método com suporte para importar arquivos PST para o Office 365 é a ferramenta Azure AzCopy, conforme descrito neste tópico. Não é possível usar o Gerenciador de Armazenamento do Azure para carregar arquivos PST diretamente para a área de armazenamento do Azure.
+- O único método compatível para importar arquivos PST para o Office 365 é usar a ferramenta AzCopy, conforme descrito neste tópico. Não é possível usar o Gerenciador de Armazenamento do Azure para carregar arquivos PST diretamente para a área de armazenamento do Azure.
     
-- É necessário armazenar os arquivos PST que você deseja importar para o Office 365 em um servidor de arquivos ou uma pasta compartilhada na sua organização.  Na Etapa 2, execute a ferramenta AzCopy do Azure que carrega os arquivos PST armazenados em um servidor de arquivos ou numa pasta compartilhada com o Office 365.
+- É necessário armazenar os arquivos PST que você deseja importar para o Office 365 em um servidor de arquivos ou uma pasta compartilhada na sua organização.  Na Etapa 2, execute a ferramenta AzCopy para carregar os arquivos PST que são armazenados em um servidor de arquivos ou numa pasta compartilhada com o Office 365.
     
 - Arquivos PST muito grandes podem afetar o desempenho do processo de importação de PST. Portanto, recomendamos que os arquivos PST carregados para o local de armazenamento do Azure na etapa 2 não tenham mais de 20 GB.
 
-- Esse procedimento envolve copiar e salvar a cópia de uma URL que contenha a chave de acesso. Essa informação será usada na Etapa 2 para carregar os arquivos PST e, na Etapa 3, se desejar exibir uma lista dos arquivos PST carregados para o Office 365. Certifique-se de ter precauções para proteger esta URL, como você protegeria senhas ou outras informações relacionadas à segurança. Por exemplo, é possível salvá-la em um documento do Microsoft Word protegido por senha ou em uma unidade USB criptografada. Confira a seção [Mais informações](#more-information) para ver um exemplo dessa URL e chave combinadas. 
+- Esse procedimento envolve copiar e salvar a cópia de uma URL que contenha a chave de acesso. Essa informação será usada na Etapa 2 para carregar os arquivos PST e, na Etapa 3, se desejar exibir uma lista dos arquivos PST carregados para o Office 365. Certifique-se de ter precauções para proteger esta URL, como você protegeria senhas ou outras informações relacionadas à segurança. Por exemplo, é possível salvá-la em um documento do Microsoft Word protegido por senha ou em uma unidade USB criptografada. Confira a seção [Mais informações](#more-information) para ver um exemplo dessa URL e chave combinadas.
     
 - É possível importar arquivos PST para uma caixa de correio inativa no Office 365. Isso é feito especificando o GUID da caixa de correio inativa no `Mailbox` parâmetro no arquivo de mapeamento de importação de PST. Confira a Etapa 4, na guia **Instruções** deste tópico para mais informações. 
     
 - Em uma implantação híbrida do Exchange, você pode importar arquivos PST para uma caixa de correio de arquivo morto baseada na nuvem para um usuário cuja caixa de correio principal esteja no local. Para isso, faça o seguinte no arquivo de mapeamento de Importação de PST:
     
-  - Especifique o endereço de email para a caixa de correio local do usuário no `Mailbox` parâmetro. 
+  - Especifique o endereço de email para a caixa de correio local do usuário no `Mailbox` parâmetro.
     
-  - Especifique o valor **VERDADEIRO** no `IsArchive` parâmetro. 
+  - Especifique o valor **VERDADEIRO** no `IsArchive` parâmetro.
     
-    Consulte a [Etapa 4](#step-4-create-the-pst-import-mapping-file) para obter mais informações. 
+    Consulte a [Etapa 4](#step-4-create-the-pst-import-mapping-file) para obter mais informações.
     
-- Após a importação dos arquivos PST para uma caixa de correio do Office 365, a configuração de bloqueio de retenção para a caixa de correio é ativada com uma duração indefinida. Isso significa que a política de retenção atribuída à caixa de correio não será processada até que o bloqueio de retenção seja desativado ou que uma data para a desativação seja definida. Por que fazemos isso? Se as mensagens importadas para uma caixa de correio forem antigas, poderão ser excluídas permanentemente (eliminadas) porque o período de retenção expirou com base nas configurações de retenção definidas para a caixa de correio. Colocar a caixa de correio no bloqueio de retenção dará ao proprietário tempo de gerenciar essas mensagens importadas recentemente ou tempo para alterar as configurações de retenção da caixa de correio. Confira a seção [Mais informações](#more-information) neste tópico para obter sugestões sobre como gerenciar o bloqueio de retenção. 
+- Após a importação dos arquivos PST para uma caixa de correio do Office 365, a configuração de bloqueio de retenção para a caixa de correio é ativada com uma duração indefinida. Isso significa que a política de retenção atribuída à caixa de correio não será processada até que o bloqueio de retenção seja desativado ou que uma data para a desativação seja definida. Por que fazemos isso? Se as mensagens importadas para uma caixa de correio forem antigas, poderão ser excluídas permanentemente (eliminadas) porque o período de retenção expirou com base nas configurações de retenção definidas para a caixa de correio. Colocar a caixa de correio no bloqueio de retenção dará ao proprietário tempo de gerenciar essas mensagens importadas recentemente ou tempo para alterar as configurações de retenção da caixa de correio. Confira a seção [Mais informações](#more-information) neste tópico para obter sugestões sobre como gerenciar o bloqueio de retenção.
     
-- Por padrão, o tamanho máximo da mensagem que pode ser recebida por uma caixa de correio do Office 365 é 35 MB. Isso ocorre porque o valor padrão da *Propriedade MaxReceiveSize* de uma caixa de correio está definida como 35 MB. No entanto, o limite para o tamanho máximo de recebimento de mensagens no Office 365 é 150 MB. Portanto, se você importar um arquivo PST que contenha um item com mais de 35 MB, o serviço de importação do Office 365 altera automaticamente o valor da propriedade *MaxReceiveSize* na caixa de correio de destino para 150 MB. Isso permite que mensagens de até 150 MB sejam importadas para as caixas de correio dos usuários. 
+- Por padrão, o tamanho máximo da mensagem que pode ser recebida por uma caixa de correio do Office 365 é 35 MB. Isso ocorre porque o valor padrão da *Propriedade MaxReceiveSize* de uma caixa de correio está definida como 35 MB. No entanto, o limite para o tamanho máximo de recebimento de mensagens no Office 365 é 150 MB. Portanto, se você importar um arquivo PST que contenha um item com mais de 35 MB, o serviço de importação do Office 365 altera automaticamente o valor da propriedade *MaxReceiveSize* na caixa de correio de destino para 150 MB. Isso permite que mensagens de até 150 MB sejam importadas para as caixas de correio dos usuários.
     
     > [!TIP]
-    > Para identificar o tamanho de recebimento da mensagem de uma caixa de correio, execute esse comando no Exchange Online PowerShell:  `Get-Mailbox <user mailbox> | FL MaxReceiveSize`. 
+    > Para identificar o tamanho de recebimento da mensagem de uma caixa de correio, execute esse comando no Exchange Online PowerShell:  `Get-Mailbox <user mailbox> | FL MaxReceiveSize`.
 
-## <a name="step-1-copy-the-sas-url-and-install-azure-azcopy"></a>Etapa 1: Copiar a URL SAS e instalar o Azure AzCopy
+## <a name="step-1-copy-the-sas-url-and-install-azcopy"></a>Etapa 1: copiar a URL SAS e instalar o AzCopy
 
-A primeira etapa consiste em baixar e instalar a ferramenta Azure AzCopy, que é a ferramenta que será executada na Etapa 2 para carregar os arquivos PST para o Office 365. Você também pode copiar o URL da SAS para a sua organização. Essa URL é uma combinação da URL de rede para o local de armazenamento do Azure na nuvem da Microsoft para a sua organização e uma chave de Assinatura de Acesso Compartilhado (SAS). Essa chave fornece as permissões necessárias para carregar arquivos PST no local de armazenamento do Azure. Certifique-se de proteger a URL da SAS. Ela é exclusiva da sua organização e será usada na etapa 2.
+A primeira etapa consiste em baixar e instalar a ferramenta AzCopy, que é a ferramenta que será executada na Etapa 2 para carregar os arquivos PST para o Office 365. Você também pode copiar o URL da SAS para a sua organização. Essa URL é uma combinação da URL de rede para o local de armazenamento do Azure na nuvem da Microsoft para a sua organização e uma chave de Assinatura de Acesso Compartilhado (SAS). Essa chave fornece as permissões necessárias para carregar arquivos PST no local de armazenamento do Azure. Certifique-se de proteger a URL da SAS. Ela é exclusiva da sua organização e será usada na etapa 2.
 
 > [!IMPORTANT]
-> Para importar arquivos PST usando o método de carregamento de rede, recomendamos o uso da versão do Azure AzCopy que pode ser baixada na etapa 6B do procedimento a seguir.
+> Para importar arquivos PST usando o método de carregamento de rede e a sintaxe de comando documentados neste artigo, você deve usar a versão do AzCopy que pode ser baixada na etapa 6b do procedimento a seguir. Você também pode baixar a mesma versão do AzCopy [aqui](https://aka.ms/downloadazcopy). Não há suporte para uma versão diferente do AzCopy.
   
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
@@ -110,11 +110,11 @@ A primeira etapa consiste em baixar e instalar a ferramenta Azure AzCopy, que é
   
 6. Na página **Importar Dados**, execute as duas seguintes etapas: 
     
-    ![Copie a URL SAS e baixe a ferramenta Azure AzCopy na página Importar dados](media/74411014-ec4b-4e25-9065-404c934cce17.png)
+    ![Copie a URL SAS e baixe a ferramenta AzCopy na página Importar dados](media/74411014-ec4b-4e25-9065-404c934cce17.png)
   
     a. Na etapa 2, clique em **Mostrar URL SAS de carregamento de rede**. Quando a URL SAS for exibida, clique em **Copiar para área de transferência** e, em seguida, cole-a e salve-a em um arquivo para que possa ser acessado mais tarde.
     
-    b. Na etapa 3, clique em **Baixar Azure AzCopy** para baixar e instalar a ferramenta Azure AzCopy. Na janela pop-up, clique em **Executar** para instalar o AzCopy.. 
+    b. Na etapa 3, clique em **Baixa Azure AzCopy** para baixar e instalar a ferramenta AzCopy. Na janela pop-up, clique em **Executar** para instalar o AzCopy.. 
     
 > [!NOTE]
 > Você pode deixar a página ** Importar dados** aberta (caso precise copiar novamente a URL SAS) ou clicar em **Cancelar** para fechá-la. 
@@ -267,7 +267,7 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
     
     ![Clique em Validar para verificar se há erros no arquivo CSV](media/4680999d-5538-4059-b878-2736a5445037.png)
   
-    O arquivo CSV deve ser validado com êxito para criar um trabalho de importação de PST. Observe que o nome do arquivo é alterado para verde após ser validado com êxito. Se a validação falhar, clique no link **Exibir log**. Um relatório de erro de validação é aberto, com uma mensagem de erro para cada linha no arquivo que falhou. 
+    O arquivo CSV deve ser validado com êxito para criar um trabalho de importação de PST. O nome do arquivo é alterado para verde após verde após ser validado com êxito. Se a validação falhar, clique no link **Exibir log**. Um relatório de erro de validação é aberto, com uma mensagem de erro para cada linha no arquivo que falhou.
     
 9. Após validar o arquivo de mapeamento para Importação de PST com êxito, leia o documento de termos e condições e marque a caixa de seleção.
     
@@ -317,7 +317,7 @@ Esta é uma ilustração e uma descrição do processo de carregamento de rede p
   
 ![Fluxo de trabalho do processo de carregamento de rede para importar arquivos PST para o Office 365](media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
   
-1. **Baixar a ferramenta de importação de PST e a chave para o local privado de armazenamento do Azure** - A primeira etapa é baixar a ferramenta de linha de comando do Azure AzCopy e uma chave de acesso usada para carregar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft. Você obtém isso na página **Importar** no Centro de Conformidade e Segurança. A chave SAS (chamada de chave de assinatura de acesso seguro) fornece as permissões necessárias para carregar arquivos PST para um local de armazenamento do Azure particular e seguro. Essa chave de acesso é exclusiva à sua organização e ajuda a impedir o acesso não autorizado aos seus arquivos PST depois que eles são carregados na nuvem da Microsoft. Observe que importar arquivos PST para o Office 365 não exige que sua organização tenha uma assinatura separada do Azure. 
+1. **Baixar a ferramenta de importação de PST e a chave para o local privado de armazenamento do Azure:** a primeira etapa é baixar a ferramenta de linha de comando do AzCopy e uma chave de acesso usada para carregar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft. Você obtém isso na página **Importar** no Centro de Conformidade e Segurança. A chave SAS (chamada de chave de assinatura de acesso seguro) fornece as permissões necessárias para carregar arquivos PST para um local de armazenamento do Azure particular e seguro. Essa chave de acesso é exclusiva à sua organização e ajuda a impedir o acesso não autorizado aos seus arquivos PST depois que eles são carregados na nuvem da Microsoft. Observe que importar arquivos PST para o Office 365 não exige que sua organização tenha uma assinatura separada do Azure. 
     
 2. **Carregue os arquivos PST para o loca de armazenamento do Azure** - A próxima etapa é usar a ferramenta AzCopy. exe (baixada na etapa 1) para carregar e armazenar os arquivos PST em um local de armazenamento do Azure que resida no mesmo datacenter regional da Microsoft que o Office 365 da organização está localizado. Para carregá-los, os arquivos PST que você deseja importar para o Office 365 devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
     

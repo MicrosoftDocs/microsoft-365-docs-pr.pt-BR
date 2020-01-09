@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para aplicar configurações de proteção que incluem criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: f85d94b918c96ea6505b9b52d386e7f30a3fe77a
-ms.sourcegitcommit: 920bca353d16e9b1e5d4d268e0410ef179eced37
+ms.openlocfilehash: 91481bb1c1267b40ccd2596c06faf5005372ac39
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40948866"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989496"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -54,11 +54,11 @@ Em todos esses casos, os rótulos de confidencialidade no Office 365 podem ajud�
   
 Você cria rótulos de confidencialidade no centro de conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de confidencialidade**. Esses rótulos de confidencialidade podem ser usados pela Proteção de Informações do Azure, pelos aplicativos do Office e serviços do Office 365.
 
-Para clientes da Proteção de Informações do Azure, você pode usar seus rótulos de Proteção de Informações do Azure nos outros centros de administração e seus rótulos serão sincronizados com o portal do Azure, caso você opte por executar configurações adicionais ou avançadas. **Os rótulos de Proteção de Informações do Azure e os rótulos de confidencialidade do Office 365 são totalmente compatíveis entre si.** Isso significa, por exemplo, se você tiver um conteúdo marcado pela Proteção de Informações do Azure, não precisará reclassificar ou rotular novamente seu conteúdo.
+Para clientes da Proteção de Informações do Azure, você pode usar seus rótulos de Proteção de Informações do Azure nos outros centros de administração e seus rótulos serão sincronizados com o portal do Azure, caso você opte por executar configurações adicionais ou avançadas. Os rótulos de proteção de informações do Azure e os rótulos de confidencialidade do Office 365 são compatíveis entre si, por exemplo, se você tiver um conteúdo rotulado pela proteção de informações do Azure, não será necessário reclassificar ou rotular novamente o conteúdo.
 
 ## <a name="what-a-sensitivity-label-is"></a>O que é um rótulo de confidencialidade
 
-Atribuir um rótulo de confidencialidade a um documento ou email é simplesmente como ter uma marca:
+Quando você atribui um rótulo de confidencialidade a um documento ou email, é como um carimbo que aplicado ao conteúdo que é:
 
 - **Personalizável.** Você pode criar categorias para diferentes níveis de conteúdo confidencial em sua organização, como Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
 
@@ -153,7 +153,7 @@ Com uma política de rótulos, você pode:
 
 Depois de criar uma política de rótulos e atribuir rótulos de confidencialidade para usuários e grupos, essas pessoas podem ver os rótulos disponíveis nos aplicativos do Office em uma hora ou menos.
 
-Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, haverá no máximo 500 rótulos. No entanto, como prática recomendada para minimizar as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações de palavras reais provaram que a eficácia é reduzida quando os usuários têm mais de cinco rótulos principais e mais de cinco sub-rótulos por rótulo principal.
+Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, haverá no máximo 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações de palavras reais provaram que a eficácia é reduzida quando os usuários têm mais de cinco rótulos principais e mais de cinco sub-rótulos por rótulo principal.
 
 ### <a name="label-policy-priority-order-matters"></a>Prioridade das políticas de rótulos (a ordem é importante)
 
@@ -195,7 +195,7 @@ Os rótulos de confidencialidade aparecem na interface do usuário dos aplicativ
 
 - [Suporte para recursos de rótulo de confidencialidade no Outlook](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-outlook)
 
-Se você usar o cliente de etiquetagem unificado da Proteção de Informações do Azure para computadores com Windows, os recursos adicionais estarão disponíveis para os rótulos de confidencialidade. Para mais informações, confira [Comparar os clientes de rotulamento para computadores com Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers). 
+Se você usar o cliente de etiquetagem unificado da Proteção de Informações do Azure para computadores com Windows, os recursos adicionais estarão disponíveis para os rótulos de confidencialidade. Para mais informações, confira [Comparar os clientes de rotulamento para computadores com Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
 
 ### <a name="office-apps-on-windows"></a>Aplicativos do Office no Windows
 
@@ -240,10 +240,7 @@ Os usuários da Proteção de Informações do Azure podem classificar e rotular
 - Manter os rótulos existentes da Proteção de Informações do Azure em documentos e email.
 - Manter a configuração de rótulo da Proteção de Informações do Azure.
 
-Se você estiver usando os rótulos da Proteção de Informações do Azure porque o locatário ainda não está na [plataforma de rotulagem unificada](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), recomendamos que você evite criar novos rótulos em outros centros de administração até ativar a rotulagem unificada. Para obter mais informações sobre esse processo, confira [Como migrar os rótulos da Proteção de Informações do Azure para os rótulos de confidencialidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels). 
-
-> [!NOTE]
->  O gerenciamento de rótulos para os rótulos da Proteção de Informações do Azure no portal do Azure está sendo substituído em **31 de março de 2021**. Saiba mais em [aviso de reprovação](https://techcommunity.microsoft.com/t5/azure-information-protection/deprecation-notice-azure-information-protection-classic-client/ba-p/1092108) oficial.
+Se você estiver usando os rótulos da Proteção de Informações do Azure porque o locatário ainda não está na [plataforma de rotulagem unificada](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), recomendamos que você evite criar novos rótulos em outros centros de administração até ativar a rotulagem unificada. Para obter mais informações sobre esse processo, confira [Como migrar os rótulos da Proteção de Informações do Azure para os rótulos de confidencialidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="sensitivity-labels-and-the-azure-information-protection-client"></a>Rótulos de confidencialidade e cliente de Proteção de Informações do Azure
 
