@@ -199,23 +199,21 @@
           href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: Filtrar dados ao importar arquivos PST
           href: filter-data-when-importing-pst-files.md
-        - name: Usar o carregamento de rede para importar arquivos PST criptografados por RMS
-          href: use-network-upload-to-import-rms-encrypted-pst-files.md
         - name: Perguntas Frequentes sobre a importação de arquivos PST
           href: faqimporting-pst-files-to-office-365.md
-        - name: Arquivar dados de terceiros
-          href: archiving-third-party-data.md
-          items:
-            - name: Use um conector de exemplo para arquivar dados do Facebook
-              href: archive-facebook-data-with-sample-connector.md
-            - name: Usar um conector de exemplo para arquivar dados do Twitter
-              href: archive-twitter-data-with-sample-connector.md
-            - name: Configurar um conector para arquivar dados do LinkedIn
-              href: archive-linkedin-data.md
-            - name: Configurar um conector para arquivar dados do Instant Bloomberg
-              href: archive-instant-bloomberg-data.md
-            - name: Trabalhar com um parceiro para arquivar dados de terceiros
-              href: work-with-partner-to-archive-third-party-data.md
+    - name: Arquivar dados de terceiros
+      href: archiving-third-party-data.md
+      items:
+        - name: Configurar um conector para arquivar dados do Facebook
+          href: archive-facebook-data-with-sample-connector.md
+        - name: Configurar um conector para arquivar dados do Twitter
+          href: archive-twitter-data-with-sample-connector.md
+        - name: Configurar um conector para arquivar dados do LinkedIn
+          href: archive-linkedin-data.md
+        - name: Configurar um conector para arquivar dados do Instant Bloomberg
+          href: archive-instant-bloomberg-data.md
+        - name: Trabalhar com um parceiro para arquivar dados de terceiros
+          href: work-with-partner-to-archive-third-party-data.md
     - name: Armazenar dados
       items:
         - name: Habilitar caixas de correio de arquivamento
