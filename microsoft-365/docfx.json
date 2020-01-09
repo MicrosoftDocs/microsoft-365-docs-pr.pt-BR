@@ -23,7 +23,13 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/*.svg"
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf",
+          "**/*.ppt",
+          "**/*.pptx",
+          "**/*.xls",
+          "**/*.xlsx"
         ],
         "exclude": [
           "**/obj/**",
@@ -44,9 +50,26 @@
       "extendBreadcrumb": true,
       "bilingual_type": "hover over"
     },
-    "fileMetadata": {},
+    "contributors_to_exclude": [
+      "rjagiewich",
+      "traya1",
+      "v-raaba",
+      "rmca14",
+      "claydetels19"
+    ],
+    "fileMetadata": {
+      "titleSuffix": {
+        "compliance/**/*.md": "Microsoft 365 Compliance",
+        "security/mtp/**/*.md": "Microsoft 365 security",
+        "security/office-365-security/**/*.md": "Office 365",
+        "managed-desktop/**/*.md": "Microsoft Managed Desktop",
+        "enterprise/**/*.md": "Microsoft 365 Enterprise",
+        "campaigns/**/*.md": "Microsoft 365 for Campaigns",
+        "business/**/*.md": "Microsoft 365 Business"
+      }
+    },
     "template": [],
-    "dest": "microsoft-365-vsts",
+    "dest": "microsoft-365-docs",
     "markdownEngineName": "markdig"
   }
 }
