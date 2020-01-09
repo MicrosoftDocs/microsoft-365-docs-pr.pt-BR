@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 831efac29bb2e878585f97419dfd9dca67c67409
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989526"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995222"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 
@@ -39,7 +39,7 @@ O Office 365 permite que os locatários transmitam algumas mensagens por meio do
 
 - Uma caixa de correio do Office 365 recebe email de um remetente externo. O encaminhamento de emails é configurado na caixa de correio do Office 365, portanto, a mensagem retorna ao endereço de email externo do usuário. Este cenário é mais comum em ambientes educacionais em que os alunos querem usar suas contas de email pessoais para exibir mensagens relacionadas à escola.
 
-- Envrionments híbrido que tem servidores de email locais que enviam emails de saída por meio do EOP.
+- Ambientes híbridos que têm servidores de email locais que enviam emails de saída por meio de EOP.
 
 ### <a name="problems-with-unregistered-domains"></a>Problemas com domínios não registrados
 
@@ -57,7 +57,7 @@ Há várias coisas que você precisa fazer se seu locatário estiver bloqueado d
 
 2. [Habilitar a MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) de todos os administradores na sua organização do Office 365.
 
-3. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+3. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
 4. Procure por [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)incomuns. Os atores mal-intencionados geralmente criarão novos conectores de entrada na sua organização do Office 365 para enviar spam. Para exibir os conectores existentes, consulte [Validate Connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 

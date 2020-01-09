@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850795"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995241"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -36,7 +36,7 @@ Assista a um pequeno vídeo sobre a configuração do Microsoft 365 Business.<br
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Se você descobriu esse vídeo útil, confira a [série completa de treinamento para pequenas empresas e as novas no Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 A maioria das etapas de configuração pode ser feita no assistente de configuração, mas as outras opções também são listadas.
 
@@ -61,7 +61,7 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
 - **Arquivamento do Exchange Online**
 - **Proteção de informações do Azure (Plan1**)
 
-Para começar, consulte [Configurar políticas de segurança avançadas](set-up-advanced-security.md).
+Para começar, consulte [aumentar a proteção contra ameaças](increase-threat-protection.md) e [configurar recursos de conformidade](set-up-compliance.md).
 
 Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de práticas recomendadas de segurança.
 
@@ -91,4 +91,4 @@ Ao ingressar em um dispositivo Windows 10 no Azure AD, as políticas definidas p
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento de negócios da Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
