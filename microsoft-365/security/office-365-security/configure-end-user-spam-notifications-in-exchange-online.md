@@ -13,19 +13,19 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios.
-ms.openlocfilehash: 0b1b88a60ba1f14aa482dc8214739930b69cca05
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 8e77fbb619db776d7231f6e1f944f1237c1d601c
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909831"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021987"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam para o usuário final no Exchange Online
 
 > [!IMPORTANT]
 > Este tópico é para os clientes do Exchange Online que estão protegendo caixas de correio hospedadas em nuvem. Os clientes autônomos do Exchange Online Protection (EOP) que estão protegendo caixas de correio locais devem ler o seguinte tópico em vez disso: [configurar notificações de spam para o usuário final no EOP](configure-end-user-spam-notifications-in-eop.md). 
   
-Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios. Habilitar mensagens de notificação de spam do usuário final permite que os usuários finais gerenciem as suas próprias mensagens de spam em quarentena. As notificações de spam do usuário final não podem ser usadas com as políticas aplicadas a usuários ou grupos, ou a uma política com exceções.
+Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas personalizadas de filtro de spam. Habilitar mensagens de notificação de spam do usuário final permite que os usuários gerenciem suas próprias mensagens de spam em quarentena. 
   
 As notificações de spam do usuário final contém uma lista de todas as mensagens de spam em quarentena que o usuário final recebeu durante um período de tempo que você configurou (você pode especificar um valor entre 1 e 15 dias). Você também pode configurar o idioma no qual a mensagem de notificação será escrita.
   
@@ -90,7 +90,7 @@ Você também pode usar o centro de conformidade e segurança (SCC) para configu
     
    - Clique em **Salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
   

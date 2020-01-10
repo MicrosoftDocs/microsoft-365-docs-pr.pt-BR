@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: 'Como administrador, você pode exibir, liberar e relatar mensagens em quarentena falsas positivas no Office 365. Você pode configurar políticas para que o Office 365 Filtre mensagens e as envie para quarentena por vários motivos: porque elas foram identificadas como spam, em massa, phishing, malware ou porque corresponderam a uma regra de fluxo de emails. '
-ms.openlocfilehash: 615d88f63f738ca443b9ff377bb08fdaa97fe2dc
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b13b369383a44608bd74d8a92ea6eb40ce6284d0
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970929"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021857"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365
 
@@ -31,26 +31,15 @@ Por padrão, o Office 365 envia mensagens de phishing e mensagens contendo malwa
 
 Você deve ter permissões de administrador global (GA) no Office 365 ou ser um membro de um ou mais grupos de funções do centro de conformidade de & de segurança, para trabalhar com mensagens em quarentena ou arquivos em quarentena. Consulte [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center) para obter mais informações.
 
-> [!IMPORTANT]
-> Por padrão, as mensagens de spam, de massa e de phishing são mantidas em quarentena por 30 dias. As mensagens colocadas em quarentena porque corresponderam a uma regra de fluxo de emails são mantidas em quarentena por 7 dias. As mensagens de malware são mantidas em quarentena por 15 dias. Você pode personalizar o tempo de quarentena de spam nas configurações antispam no centro de conformidade de & de segurança. Quando o Office 365 exclui uma mensagem da quarentena, não é possível recuperá-la. Se desejar, você pode alterar o período de retenção para mensagens em quarentena nas políticas de filtro antispam. Para obter mais informações, consulte [configuração do período de retenção de quarentena](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime).
+## <a name="what-permissions-are-needed-to-access-administrator-quarantine"></a>Quais permissões são necessárias para acessar a quarentena do administrador?
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+As permissões para gerenciar a quarentena são controladas por associação nos grupos de funções do*centro de conformidade & segurança* . Para obter mais informações sobre grupos de função no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
-Embora a quarentena esteja no centro de conformidade & segurança, as permissões para gerenciar mensagens na quarentena são controladas por associação nos grupos de função do **Exchange Online** . Para obter mais informações sobre grupos de função no Exchange Online, consulte [Manage role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
+Os grupos de funções de conformidade de & de segurança que dão permissões para gerenciar a quarentena são:
 
-Os grupos de função do Exchange Online que dão permissões para gerenciar arquivos de quarentena são:
-
-- **Gerenciamento de organização**: administradores globais são membros automaticamente deste grupo.
+- **Administrador de quarentena**
 
 - **Administrador de segurança**
-
-- **Gerenciamento de Higienização**
-
-Os grupos de função do Exchange Online que dão permissões para exibir arquivos de quarentena são:
-
-- **View-Only Organization Management**
-
-- **Leitor de segurança**
 
 ## <a name="view-your-organizations-quarantined-messages"></a>Exibir as mensagens em quarentena da sua organização
 

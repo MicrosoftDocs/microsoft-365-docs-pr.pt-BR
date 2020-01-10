@@ -3,7 +3,7 @@ title: Colocar mensagens de email em quarentena no Office 365
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 6/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -16,23 +16,23 @@ ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar uma quarentena para mensagens de email de entrada no Office 365, onde as mensagens de email de entrada que foram filtradas como spam, em massa, emails de phishing e malware podem ser mantidas para revisão posterior.
-ms.openlocfilehash: 5590c9de9ff596c359910b5b1793004ae1913365
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f7669f69abb711d71362057f2019b0dd7e30443b
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073595"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021847"
 ---
 # <a name="quarantine-email-messages-in-office-365"></a>Colocar mensagens de email em quarentena no Office 365
 
-Você pode configurar a quarentena para mensagens de email de entrada no Office 365, em que as mensagens que foram filtradas como spam, emails em massa, emails de phishing, emails que contenham malware e email que correspondam a uma regra de fluxo de email especificado podem ser mantidas para revisão posterior.
+Você pode configurar a quarentena para mensagens de email de entrada no Office 365, em que as mensagens que foram filtradas como spam, emails em massa, emails de phishing, emails que contenham malware e email que correspondam a uma regra de fluxo de emails especificado (também conhecida como regra trasport) podem ser mantidas para uso posterior exame.
   
-Por padrão, as mensagens filtradas são enviadas para a pasta lixo eletrônico dos destinatários, exceto para emails que contenham malware enviado para quarentena por padrão. Como administrador, você pode configurar políticas de filtro de conteúdo para enviar todas as mensagens filtradas para quarentena. As diferentes ações que você pode realizar para mensagens filtradas por conteúdo dependem das [políticas de configuração de filtro de spam](configure-your-spam-filter-policies.md).
+Por padrão, as mensagens que foram filtradas para phishing, malware e regras de fluxo de email são enviadas para quarentena, enquanto as mensagens que foram filtradas como spam e emails em massa são enviadas para a pasta lixo eletrônico dos destinatários. Como administrador, você pode configurar as políticas de filtro de spam (também conhecidas como políticas de filtro de conteúdo) para enviar mensagens de spam e de email em massa para quarentena em vez disso. Para obter mais informações, consulte [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md).
   
 Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena. Os usuários podem trabalhar com apenas suas próprias mensagens filtradas em quarentena. Os administradores podem pesquisar e gerenciar mensagens em quarentena para todos os usuários.
 
 > [!NOTE]
-> Mensagens de phishing e mensagens colocadas em quarentena pela regra de fluxo de emails (também conhecida como regra de transporte) as ações só estão disponíveis na quarentena do administrador.
+> Mensagens de phishing de alta confiança e mensagens em quarentena por ações de regra de fluxo de emails estão disponíveis somente na quarentena do administrador. Os usuários podem acessar suas próprias mensagens de phishing, spam e email em massa. 
   
 Saiba mais sobre como trabalhar com mensagens em quarentena:
   
