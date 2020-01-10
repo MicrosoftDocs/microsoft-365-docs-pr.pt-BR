@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5ce06f582966f7209d4b539f9de41e8045b98519
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 0f54ee771f4358c5c99c3338366eb277013c15e3
+ms.sourcegitcommit: a2e9ab69f99f2069372ccfffd9ef2ffbd8568826
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970919"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41012174"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
@@ -148,6 +148,23 @@ Na guia **métricas & tendências** , há vários gráficos e gráficos para dar
 ## <a name="risk-awareness"></a>Reconhecimento de risco
 
 A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança; Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft, o que pode ajudar a reduzir o risco de ser violado. Nenhum serviço online é totalmente imune às brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
+
+## <a name="whats-coming"></a>O que está chegando?
+
+### <a name="mfa-improvement-action-updates"></a>Atualizações das ações de melhoria da MFA
+
+Para refletir a necessidade de que as empresas garantam o máximo de segurança durante a aplicação de políticas que funcionam com seus negócios, a pontuação segura da Microsoft é remover três ações de melhoria centralizada em relação à autenticação multifator e adição de dois.
+
+Os três que serão removidos:
+- Registrar todos os usuários para autenticação multifator
+- Exigir MFA para todos os usuários
+- Exigir MFA para funções privilegiadas do Azure AD
+
+Novas ações de melhoria:
+- Garantir que todos os usuários possam concluir a autenticação multifator para acesso seguro
+- Exigir MFA para funções administrativas
+
+ Essas novas ações de melhoria exigirão o registro de seus usuários ou administradores para a autenticação multifator (MFA) em seu diretório e o estabelecimento do conjunto certo de políticas que atendam às suas necessidades organizacionais. O objetivo principal é ter flexibilidade enquanto garante que todos os seus usuários e administradores podem autenticar com vários fatores ou solicitações de verificação de identidade baseadas em risco. Isso pode ter a forma de definir padrões de segurança que permitem que a Microsoft decida quando realizar o desafio de usuários para a MFA ou ter várias políticas que aplicam decisões com escopo.
 
 ## <a name="whats-new"></a>O que há de novo? 
 
