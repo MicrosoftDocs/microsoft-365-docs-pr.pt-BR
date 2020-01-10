@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: 831efac29bb2e878585f97419dfd9dca67c67409
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 4e82df78cfb83865142defb14cec0841ab29ba95
+ms.sourcegitcommit: 55cb11c2475f40d0f1c64cf45446bf383d7d5f86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995222"
+ms.locfileid: "41002971"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 
@@ -49,11 +49,11 @@ Após o comprometimento, os locatários serão impedidos de enviar emails de sa�
 
 `550 5.7.750 Service unavailable. Client blocked from sending from unregistered domains`
 
-## <a name="how-to-unblocking-tenant-in-order-to-send-again"></a>Como desbloquear o locatário para enviar novamente
+## <a name="unblocking-tenant-in-order-to-send-again"></a>Desbloqueando o locatário para enviar novamente
 
 Há várias coisas que você precisa fazer se seu locatário estiver bloqueado de enviar emails:
 
-1. Verifique se todos os seus domínios de email estão registrados. Para obter mais informações, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) e [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Altere a senha das suas contas de administrador. Se um locatário estiver bloqueado para envio, é mais provável que uma conta de administrador tenha sido comprometida. Alterar senhas é a primeira etapa para evitar que o invasor faça mais danos.
 
 2. [Habilitar a MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) de todos os administradores na sua organização do Office 365.
 
@@ -66,7 +66,7 @@ Há várias coisas que você precisa fazer se seu locatário estiver bloqueado d
 6. Bloqueie seus servidores de email locais e verifique se eles não estão comprometidos.
 
    > [!TIP]
-   > Há vários fatores aqui, especialmente se você estiver usando servidores de terceiros. Independentemente disso, você precisará verificar se todos os seus emails de saída estão agora legítimos.
+   > Há vários fatores aqui, especialmente se você estiver usando servidores de terceiros. Independentemente disso, você precisará verificar se seu email de saída não inclui spam.
 
 7. Ligue para o suporte da Microsoft e peça para que o locatário não seja bloqueado para enviar emails novamente. O código de erro é útil, mas você precisará provar que seu ambiente foi protegido e que não é capaz de enviar spam. Para abrir um caso de suporte, confira [contatar o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
