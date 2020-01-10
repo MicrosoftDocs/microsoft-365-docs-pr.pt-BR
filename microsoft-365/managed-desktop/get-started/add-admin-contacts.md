@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d34d7082150b4131634fb695ce6664ded50e6f9d
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 9233118a2112aae33a5b784b6495709cbd3345f5
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823833"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004916"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos do administrador no portal de Administração
 
@@ -25,7 +25,7 @@ Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os
 O portal de administração de área de trabalho gerenciada da Microsoft exige que as pessoas que acessam o portal tenham uma destas funções do Azure Active Directory (AD):
 - Administrador global
 - Administrador de serviço do Intune
-- Administrador de cobrança
+- Leitor global
 - Administrador de suporte de serviço
 
 O administrador global deve ser o para inscrever sua organização na área de trabalho gerenciada da Microsoft. Todas as cinco funções têm o mesmo acesso dentro do portal de administração para iniciar e exibir tarefas. Para obter mais informações sobre como atribuir essas funções no Azure AD, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). 
@@ -40,7 +40,7 @@ Pacote de aplicativos | Solucionando problemas de pacotes de aplicativos
 Dispositivos | Integridade do dispositivo, Solucionando problemas com dispositivos de área de trabalho gerenciada da Microsoft
 Segurança | Solucionando problemas de segurança com dispositivos de área de trabalho gerenciada da Microsoft
 Assistência técnica de ti | nos casos em que nossa equipe de suporte passa as permissões do usuário final para fora das áreas de suporte da área de trabalho gerenciada da Microsoft 
-Other | Para problemas não cobertos por outras áreas
+Outros | Para problemas não cobertos por outras áreas
 
 **Quem escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu ambiente de área de trabalho gerenciada da Microsoft.** Quando você integra seu ambiente de área de trabalho gerenciada da Microsoft, você é solicitado a adicionar contatos para sua assistência técnica e segurança local. 
 
