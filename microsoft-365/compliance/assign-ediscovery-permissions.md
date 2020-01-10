@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 434fe9f4876bb29df98de5575611069b0afc6860
-ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
+ms.openlocfilehash: 548af12811287dce3461e5ce7d5f1ffa905eef73
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854036"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004836"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -128,7 +128,7 @@ Essa função permite que os usuários acessem os dados de ocorrência na [desco
 
 ### <a name="rms-decrypt"></a>Descriptografia do RMS
 
-Essa função permite que os usuários descriptografem mensagens de email criptografadas por RMS ao exportar resultados de pesquisa ou preparar resultados de pesquisa para análise na descoberta eletrônica avançada. Para obter mais informações sobre como descriptografar resultados de pesquisa durante a exportação, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).
+Essa função permite aos usuários descriptografar mensagens de email protegidas por direitos ao exportar resultados de pesquisa ou preparar resultados de pesquisa para análise na descoberta eletrônica avançada. Para obter mais informações sobre como descriptografar resultados de pesquisa durante a exportação, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).
 
 ### <a name="search-and-purge"></a>Pesquisa e limpeza
 

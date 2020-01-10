@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b37ff9bf96ff641750acc9ac47ef9c27b566651c
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 140ccc3984dc09a794d822eb3ff02f139d87fcd5
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202342"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004806"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar os dados em um conjunto de revisão
 
@@ -27,7 +27,7 @@ Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um con
 
 ## <a name="creating-and-running-a-query-in-a-review-set"></a>Criando e executando uma consulta em um conjunto de revisão
 
-Para criar e executar uma consulta nos documentos em um conjunto de revisão, clique em **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, clique em uma consulta salva. 
+Para criar e executar uma consulta nos documentos em um conjunto de revisão, clique em **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, clique em uma consulta salva.
 
 ![Analisar consultas de definição](media/AeDReviewSetQueries.png)
 
