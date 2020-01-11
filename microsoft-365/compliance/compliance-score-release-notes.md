@@ -12,26 +12,36 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão e problemas conhecidos para a pontuação de conformidade da Microsoft (visualização), um recurso no centro de conformidade do M365 que ajuda a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: d46e8a621b6f4daa1275a78b5cc1e6917e0a997c
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: b1054a455b2d2c78cfa6131410941b1a36738a43
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793635"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021927"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Notas de versão da Pontuação de conformidade da Microsoft (visualização)
 
-A visualização pública da Pontuação de conformidade da Microsoft fornece acesso antecipado às futuras funcionalidades e atualizações.
+A visualização pública da Pontuação de conformidade da Microsoft fornece acesso antecipado às futuras funcionalidades e atualizações. Verifique esta página com frequência para saber o que há de novo.
 
 A pontuação de conformidade é um novo recurso do [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md) que calcula uma pontuação baseada em risco, medindo seu progresso em direção à conclusão de ações recomendadas que ajudam a reduzir os riscos de conformidade.
 
-## <a name="compliance-score-and-compliance-manager-relationship"></a>Pontuação de conformidade e relação do gerente de conformidade
+## <a name="whats-new"></a>Novidades
+
+### <a name="new-templates-for-assessments"></a>Novos modelos para avaliações
+
+Novos modelos pré-configurados para avaliações são lançados em produção para a pontuação de conformidade (visualização) à medida que eles se tornam disponíveis. Confira a [lista completa de modelos aqui](compliance-score.md#templates). Os modelos adicionados recentemente incluem:
+
+- ISO 27701:2019
+- IRAP/ISM do governo australiano (versão prévia)
+
+
+### <a name="compliance-score-relationship-to-compliance-manager"></a>Relação de Pontuação de conformidade com o Gerenciador de conformidade
 
 Muitas das funções de conformidade manipuladas no Gerenciador de conformidade agora podem ser feitas na pontuação de conformidade. No entanto, algumas funcionalidades ainda residem apenas no gerente de conformidade, e alguma funcionalidade anterior no Gerenciador de conformidade é alterada durante o período de visualização pública. 
 
 Mantenha esses pontos em mente ao trabalhar com a pontuação de conformidade e o gerente de conformidade durante a visualização pública:
 
-- **Gerenciando avaliações**: os usuários podem exibir avaliações e seus detalhes de status na pontuação de conformidade. No entanto, os usuários só podem executar tarefas de gerenciamento de avaliação no Gerenciador de conformidade ([instruções de exibição](working-with-compliance-manager.md#assessments)) e tarefas e são limitados ao seguinte:
+- **Gerenciando avaliações**: os usuários podem exibir avaliações e seus detalhes de status na pontuação de conformidade. No entanto, os usuários só podem executar tarefas de gerenciamento de avaliação no gerente de conformidade ([instruções de exibição](working-with-compliance-manager.md#assessments)) e as tarefas são limitadas ao seguinte:
     - Carregar novas avaliações, mas não modificar as avaliações existentes. Se você precisar modificar uma avaliação existente, será necessário carregar um novo modelo.
     - Avaliações de exportação
     - Avaliações de arquivamento
@@ -40,7 +50,7 @@ Mantenha esses pontos em mente ao trabalhar com a pontuação de conformidade e 
    - Os usuários devem acessar o Gerenciador de conformidade para criar novos modelos e exportar modelos existentes. 
    - Os modelos existentes não podem ser personalizados. Leia as instruções de [Gerenciamento de modelos no Gerenciador de conformidade](working-with-compliance-manager.md#templates).
    - Ao criar um modelo, você deve incluir as dimensões de **produto** e **certificação** para garantir que seu modelo seja exibido na pontuação de conformidade.
- - **Definir permissões**: Pontuação de conformidade os usuários que não receberam permissões anteriormente no Gerenciador de conformidade devem ter suas permissões definidas no centro de conformidade da Microsoft 365. Os usuários cujas funções foram definidas anteriormente no gerente de conformidade podem usar o mesmo nível de acesso ao trabalhar em Pontuação de conformidade.
+ - **Definir permissões**: Pontuação de conformidade os usuários que não receberam permissões anteriormente no Gerenciador de conformidade devem ter suas permissões definidas no centro de conformidade da Microsoft 365 ([saiba mais](compliance-score-setup.md#set-user-permissions-and-assign-roles)). Os usuários cujas funções foram definidas anteriormente no gerente de conformidade podem usar o mesmo nível de acesso ao trabalhar em Pontuação de conformidade.
 - **Transferência de dados**: as organizações com dados residentes no Gerenciador de conformidade verão os dados na pontuação de conformidade e vice-versa.
 - **Entrar no Gerenciador de conformidade da Pontuação de conformidade**: se um usuário estiver conectado à pontuação de conformidade e selecionar um link para acessar o Gerenciador de conformidade, o usuário não terá que entrar novamente. Após clicar no link, uma nova guia é aberta no navegador com uma caixa de diálogo. Na seção superior com o cabeçalho, "já é um cliente dos serviços de nuvem da Microsoft? Entre em sua conta, "Selecione o botão **entrar** para entrar automaticamente no Gerenciador de conformidade.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: f51c0648025b65be1030a84409dd3686fe616b1a
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: fe075c004c397baa2ed568a56c9d675cdd788857
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866353"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021967"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
@@ -101,7 +101,7 @@ Para demonstrar a detecção de TFN de uma maneira mais econômica, um email com
 
 ![Número de arquivo de imposto da Austrália que não passa checksum](media/DLP-create-test-tune-email-test1.png)
 
-Em comparação, um email com as palavras "número do arquivo de impostos" e um TFN válido que passa a soma de verificação acionará a política. Para o registro aqui, o TFN que estou usando foi obtido de um site que gera um TFNs válido, mas não autêntico. Há sites semelhantes que geram [números de cartão de crédito válidos, mas falsificados](https://www.fakecreditcardgenerator.net/). Esses sites são muito úteis porque um dos erros mais comuns ao testar uma política de DLP é usar um número falso que não é válido e não passará na soma de verificação (e, portanto, não acionará a política).
+Em comparação, um email com as palavras "número do arquivo de impostos" e um TFN válido que passa a soma de verificação acionará a política. Para o registro aqui, o TFN que estou usando foi obtido de um site que gera um TFNs válido, mas não autêntico. Esses sites são muito úteis porque um dos erros mais comuns ao testar uma política de DLP é usar um número falso que não é válido e não passará na soma de verificação (e, portanto, não acionará a política).
 
 ![Número de arquivo de imposto da Austrália que passa a soma de verificação](media/DLP-create-test-tune-email-test2.png)
 
@@ -177,7 +177,6 @@ O usuário pode relatar o falso positivo e o administrador pode examinar o motiv
 
 Este caso de licença do driver é um bom exemplo para se aprofundar no. O motivo pelo qual esse falso positivo ocorreu é que o tipo "licença do motorista australiano" será disparado por qualquer cadeia de caracteres de 9 dígitos (mesmo que seja parte de uma cadeia de 10 dígitos), em 300 caracteres de proximidade com as palavras-chave "Sydney NSW" (não diferencia maiúsculas de minúsculas). Portanto, ele é disparado pelo número de telefone e assinatura de email, somente porque o usuário está em Sydney.
 
-Curiosamente, se "Sydney, NSW" tem uma vírgula, a política de DLP não é disparada. Não tenho idéia de por que uma vírgula faz qualquer diferença aqui, nem por que outras cidades e Estados na Austrália não estão incluídos nas palavras-chave para o tipo de informação de licença do driver australiano, mas lá você vai. Então, o que podemos fazer? Há algumas opções.
 
 Uma opção é remover o tipo de informação de licença da Austrália do driver da política. Ele está lá porque faz parte do modelo de política de DLP, mas não é obrigado a usá-lo. Se você estiver interessado apenas em números de arquivo de impostos e não em licenças de driver, basta removê-lo. Por exemplo, você pode removê-lo da regra de volume baixo na política, mas deixá-lo na regra de alto volume para que as listas de várias licenças de drivers ainda sejam detectadas.
 
@@ -191,7 +190,7 @@ Além de alterar a contagem de instâncias, você também pode ajustar a precis�
 
 Por fim, se você deseja obter um pouco mais avançado, é possível personalizar qualquer tipo de informação confidencial – por exemplo, você pode remover "Sydney NSW" da lista de palavras-chave da [licença do motorista australiano](what-the-sensitive-information-types-look-for.md#australia-drivers-license-number), para eliminar o falso positivo acionado acima. Para saber como fazer isso usando o XML e o PowerShell, consulte este tópico sobre como [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md).
 
-## <a name="turn-off-a-dlp-policy"></a>Desativar uma política de DLP
+## <a name="turn-on-a-dlp-policy"></a>Ativar uma política de DLP
 
 Quando você estiver contente que sua política de DLP está detectando com precisão e eficácia tipos de informações confidenciais e que seus usuários finais estão prontos para lidar com as políticas em vigor, é possível habilitar a política.
 

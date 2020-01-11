@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como entrar, configurar permissões e entender seu painel para a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar avaliações de riscos.
-ms.openlocfilehash: 03bcc5663e3b57728eb4ba791bbcba9593e5afc7
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 79e93a102107433ed2b493a56381bc60ca544157
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831174"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021907"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Configuração da Pontuação de conformidade da Microsoft (versão prévia)
 
@@ -72,7 +72,7 @@ O painel de Pontuação de conformidade foi projetado para fornecer uma visão g
 
 ### <a name="overall-compliance-score"></a>Pontuação de conformidade geral
 
-Sua pontuação de conformidade, destacada em destaque na parte superior, mostra uma porcentagem com base nos pontos obtidos para a conclusão das ações de melhorias que lidam com os principais padrões e regulamentações de proteção de dados. 
+Sua pontuação de conformidade, destacada em destaque na parte superior, mostra uma porcentagem com base nos pontos obtidos para a conclusão das ações de melhorias que lidam com os principais padrões e regulamentações de proteção de dados.
 
 Quando você chegar à pontuação de conformidade pela primeira vez, sua pontuação inicial se baseará na linha de base de proteção de dados interna da Microsoft 365 — um conjunto de controles que inclui normas e padrões comuns do setor. Como a pontuação de conformidade verifica seu sistema de soluções existentes da Microsoft 365, ela fornece uma avaliação inicial da postura de conformidade com base nas configurações de privacidade e segurança atualmente habilitadas pela sua organização.
 
@@ -95,14 +95,14 @@ Esta seção oferece uma visão mais detalhada da sua pontuação de duas maneir
 
 ### <a name="filtering-your-dashboard-view"></a>Filtrando o modo de exibição do painel
 
-Você pode filtrar o modo de exibição do painel para ver apenas os itens relacionados a normas e padrões específicos, soluções, tipos de ações, grupos ou categorias de proteção de dados. Filtrar o modo de exibição dessa forma também filtrará a pontuação no painel, mostrando quantos pontos você alcançou do total de pontos possíveis com base nos critérios de filtro.
+Você pode filtrar o modo de exibição do painel para ver apenas os itens relacionados a normas e padrões específicos, soluções, tipo de ação, [grupos de avaliações que você configurou](working-with-compliance-manager.md#groups)ou categorias de proteção de dados. Filtrar o modo de exibição dessa forma também filtrará a pontuação no painel, mostrando quantos pontos você alcançou do total de pontos possíveis com base nos critérios de filtro.
 
 Para aplicar filtros:
 
 1. Selecione **filtro** no lado superior direito do painel.
 2. Selecione os critérios de filtro no painel **filtros** de submenu e selecione **aplicar**.
 
-Você verá sua pontuação ajustada em tempo real e só verá as ações de aprimoramento, soluções e informações de divisão de pontuação que correspondem aos critérios de filtro. Se você sair da Pontuação de conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
+Após a aplicação de um filtro, você verá sua pontuação ajustada em tempo real. A porcentagem de Pontuação de conformidade e as informações de divisão, e as ações e soluções de melhoria, agora pertencem apenas aos dados cobertos por seus critérios de filtro. Se você sair da Pontuação de conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
 
 Para remover filtros:
 

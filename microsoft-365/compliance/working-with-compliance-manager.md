@@ -11,13 +11,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 556d3994241db65b70feec55ac0f96469f549361
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos produtos da Microsoft.
+ms.openlocfilehash: 2bc7ccc4c6c236c0c730ac3fc651701d9a76bedf
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962248"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41022007"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -30,11 +30,11 @@ Acesse o Gerenciador de Conformidade no Portal de Confiança do Serviço. Qualqu
   
 1. Acesse [https://servicetrust.microsoft.com](https://servicetrust.microsoft.com/).
 
-2. Entre com sua conta de serviço Microsoft. Esta é a conta de usuário do Office 365, Microsoft 365 ou Azure Active Directory (Azure AD).
+2. Entre com sua conta de serviço Microsoft, que é a conta de usuário do Office 365, Microsoft 365 ou Azure Active Directory (Azure AD).
 
-3. No portal de confiança do serviço, selecione **Gerenciador de conformidade**. Esta é a versão de visualização do Gerenciador de conformidade. O **Gerenciador de conformidade (clássico)** é o link para a versão anterior do Gerenciador de conformidade.
+3. No portal de confiança do serviço, recomendamos a seleção do **Gerenciador de conformidade**, que é a versão de visualização com os recursos mais atuais. O **Gerenciador de conformidade (clássico)** leva você para a versão anterior do Gerenciador de conformidade.
 
-4. Quando o contrato de não divulgação for exibido, leia-o e selecione **aceitar** para continuar. Você deve concordar uma vez e, em seguida, o painel Gerenciador de conformidade é exibido.
+4. Quando o contrato de não divulgação for exibido, leia-o e selecione **concordar**, que exibe o painel do Gerenciador de conformidade.
 
 Para começar, uma avaliação ISO/IEC 27001:2103 para o Office 365 aparece por padrão para sua organização.
 
@@ -84,25 +84,40 @@ As atualizações de Pontuação segura podem ser ativadas automaticamente para 
 
 ## <a name="groups"></a>Grupos
 
-Os grupos permitem que você organize de forma lógica as avaliações e compartilhe tarefas comuns de informações e fluxo de trabalho entre avaliações que têm o mesmo ou controles relacionados gerenciados pelo cliente. Você pode agrupar avaliações por ano, padrão, serviço, equipe, divisão ou agências dentro de sua organização para ajudar a minimizar ações gerenciadas pelo cliente:
+Os grupos são contêineres que permitem organizar as avaliações e compartilhar informações comuns e tarefas de fluxo de trabalho entre avaliações que têm o mesmo ou controles relacionados gerenciados pelo cliente.
+
+Você pode agrupar avaliações de uma forma que seja lógica para você, como por ano, padrão, serviço ou baseado em equipes, divisões ou regiões da sua organização. Veja a seguir exemplos de dois grupos e suas avaliações subjacentes:
   
-- **O FFIEC é avaliações de 2019**
+- **O FFIEC é avaliações de 2020**
   - Office 365 + FFIEC é
   - Intune + FFIEC é
 - **As avaliações de privacidade e segurança de dados**
   - Office 365 + ISO 27001:2013
   - Office 365 + ISO 27018:2014
 
-Ao criar uma nova avaliação, você deve criar um novo grupo para a avaliação ou atribuir a avaliação a um grupo existente. Os grupos não podem ser criados como entidades autônomas. É recomendável que você determine uma estratégia de agrupamento para sua organização *antes* de adicionar novas avaliações. Por padrão, um grupo chamado "grupo padrão" está disponível para suas avaliações iniciais. Os grupos não têm propriedades de segurança. Todas as permissões são associadas a avaliações.
+> [!NOTE]
+> Recomendamos determinar uma estratégia de agrupamento para sua organização *antes* de adicionar novas avaliações. Por padrão, um grupo chamado "grupo padrão" está disponível para suas avaliações iniciais.
 
-Ao trabalhar com grupos, lembre-se:
+### <a name="how-to-create-a-group"></a>Como criar um grupo
+
+Os grupos não podem ser criados como entidades autônomas. Um grupo sempre deve conter pelo menos uma avaliação, portanto, para criar um grupo, você deve primeiro criar uma avaliação para colocar no grupo. Siga as etapas abaixo para criar um grupo:
+
+1. Crie uma nova avaliação selecionando **+ Add Assessment** próximo à parte superior do seu painel.
+2. No painel de submenu de **avaliação** , insira um título para a avaliação e selecione um modelo no menu suspenso.
+3. Em **Selecione um grupo ou adicione um novo grupo**, selecione **Adicionar um novo grupo** e insira o nome do grupo no campo abaixo.
+4. Para copiar informações de um grupo existente, alterne o deseja **copiar os dados de um grupo existente?** alterne para **ativado.** Selecione o grupo que você deseja copiar do menu suspenso abaixo e marque as caixas de seleção dos campos que deseja transferir para a nova avaliação em seu novo grupo.
+5. Selecione **Salvar**. Quando concluído, o painel de submenus é fechado e seu novo grupo é exibido automaticamente no painel.
+
+O que saber ao trabalhar com grupos:
   
-- Controles de avaliação relacionados em avaliações diferentes no mesmo grupo são atualizados automaticamente quando concluído.
-- Novos grupos podem copiar informações de um grupo existente quando você cria uma nova avaliação. Qualquer informação adicionada aos detalhes de implementação e o plano de teste e os campos de resposta de gerenciamento dos controles gerenciados pelo cliente de avaliações no grupo de que você está copiando são copiados para os mesmos controles gerenciados pelo cliente (ou relacionados) no novo Estimativa. Se você estiver adicionando uma nova avaliação a um grupo existente, as informações comuns de avaliações nesse grupo serão copiadas para a nova avaliação.
 - Os nomes de grupo (também chamados de *IDs de grupo*) devem ser exclusivos em sua organização.
-- Os grupos podem conter Avaliações para a mesma certificação/regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de serviço/certificação na nuvem. Por exemplo, um grupo não pode conter duas avaliações para o Office 365 e o NIST CSF. Um grupo pode conter várias avaliações para o mesmo serviço de nuvem somente se a certificação/regulamentação correspondente de cada um for diferente.
-- Após a adição de uma avaliação a um grupo de avaliação, o agrupamento não poderá ser alterado. Você pode renomear o grupo de avaliação, que altera o nome do agrupamento de avaliação para todas as avaliações associadas a esse grupo. Você pode criar uma avaliação e um novo grupo de avaliação e copiar informações de uma avaliação existente, o que efetivamente criará uma duplicata dessa avaliação em um grupo de avaliação diferente.
-- O arquivamento de uma avaliação interrompe a relação entre essa avaliação e o grupo. Quaisquer atualizações posteriores de outras avaliações relacionadas não serão mais refletidas na avaliação arquivada.
+- Os grupos não têm propriedades de segurança. Todas as permissões são associadas a avaliações.
+- Após adicionar uma avaliação a um grupo, o agrupamento não pode ser alterado. Você pode renomear o grupo de avaliação, que altera o nome do agrupamento de avaliação para todas as avaliações associadas a esse grupo.
+- Controles de avaliação relacionados em avaliações diferentes no mesmo grupo são atualizados automaticamente quando concluído.
+- Se você adicionar uma nova avaliação a um grupo existente, as informações comuns de avaliações nesse grupo serão copiadas para a nova avaliação.
+- Os grupos podem conter Avaliações para a mesma certificação ou regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de certificação de produto. Por exemplo, um grupo não pode conter duas avaliações para o Office 365 e o NIST CSF. Um grupo pode conter várias avaliações para o mesmo produto apenas se a certificação ou regulamentação correspondente de cada um for diferente.
+- Ocultar uma apuração interrompe a relação entre essa avaliação e o grupo. Qualquer atualização adicional para outras avaliações relacionadas não é mais refletida na avaliação oculta. ([Saiba como ocultar avaliações.](#hide-a-template-or-an-assessment))
+- Os grupos não podem ser excluídos.
 
 ## <a name="tenant-management"></a>Gerenciamento de locatário
 
@@ -567,7 +582,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 ![Relatório do Excel de avaliação do Gerenciador de conformidade](media/compliance-manager-assessment-report.png)
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

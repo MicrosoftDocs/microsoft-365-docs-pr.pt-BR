@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Encontre respostas para perguntas frequentes sobre a pontuação de conformidade da Microsoft, que ajuda as organizações a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: bc0ddfe71a3de2bbfa2c9c9a0fdc507a540daf90
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: ff53b2f3c7cde3dc9f78ccf13cb3fa8f75e7afa6
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "39625375"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021977"
 ---
 # <a name="microsoft-compliance-score-preview-frequently-asked-questions"></a>Perguntas frequentes sobre a pontuação de conformidade da Microsoft (visualização)
 
@@ -41,7 +41,7 @@ A pontuação de conformidade e o Gerenciador de conformidade compartilham o mes
 
 A pontuação de conformidade é útil para todos em sua organização que exercem uma função no monitoramento da conformidade e na realização de atividades para ajudar a cumprir os padrões normativos. Com a pontuação de conformidade, você não precisa estar familiarizado com regulamentos e padrões para ajudar a melhorar a proteção de dados da sua organização. A pontuação de conformidade é o local ideal para todos os usuários. A partir daqui, você pode ver sua pontuação de conformidade, saber quais ações recomendadas podem ajudar a minimizar riscos e, em muitos casos, iniciar diretamente nas soluções para executar essas ações.
 
-Por enquanto, o gerente de conformidade é o local onde os usuários podem gerenciar avaliações e criar modelos personalizados para criar avaliações. Saiba mais sobre [quais ações são compatíveis apenas com o Gerenciador de conformidade durante a](compliance-score-release-notes.md#compliance-score-and-compliance-manager-relationship) visualização pública.
+Por enquanto, o gerente de conformidade é o local onde os usuários podem gerenciar avaliações e criar modelos personalizados para criar avaliações. Saiba mais sobre [quais ações são compatíveis apenas com o Gerenciador de conformidade durante a](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager) visualização pública.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>Se eu tiver uma pontuação alta, isso significa que estou totalmente em conformidade?
 

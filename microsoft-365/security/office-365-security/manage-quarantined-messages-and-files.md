@@ -3,7 +3,7 @@ title: Gerenciar arquivos e mensagens em quarentena como um administrador no Off
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
-ms.date: 09/05/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: 'Como administrador, você pode exibir, liberar e relatar mensagens em quarentena falsas positivas no Office 365. Você pode configurar políticas para que o Office 365 Filtre mensagens e as envie para quarentena por vários motivos: porque elas foram identificadas como spam, em massa, phishing, malware ou porque corresponderam a uma regra de fluxo de emails. '
-ms.openlocfilehash: b13b369383a44608bd74d8a92ea6eb40ce6284d0
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 610a5e584f8731440150f643365b4d307b87adf2
+ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021857"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023325"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365
 
@@ -33,9 +33,11 @@ Você deve ter permissões de administrador global (GA) no Office 365 ou ser um 
 
 ## <a name="what-permissions-are-needed-to-access-administrator-quarantine"></a>Quais permissões são necessárias para acessar a quarentena do administrador?
 
-As permissões para gerenciar a quarentena são controladas por associação nos grupos de funções do*centro de conformidade & segurança* . Para obter mais informações sobre grupos de função no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
+As permissões para gerenciar a quarentena são controladas por associação nos grupos de funções do *centro de conformidade de & de segurança* (especificamente, a função de **quarentena** ). Para obter mais informações sobre funções e grupos de funções no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
-Os grupos de funções de conformidade de & de segurança que dão permissões para gerenciar a quarentena são:
+Os grupos de funções de conformidade de & de segurança que dão permissões para gerenciar a quarentena por padrão são:
+
+- **Gerenciamento de organização** (administradores globais)
 
 - **Administrador de quarentena**
 
