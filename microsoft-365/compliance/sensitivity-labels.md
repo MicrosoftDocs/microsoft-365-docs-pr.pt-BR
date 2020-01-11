@@ -3,7 +3,7 @@ title: Visão geral de rótulos de confidencialidade
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: 01/06/2020
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para aplicar configurações de proteção que incluem criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: 91481bb1c1267b40ccd2596c06faf5005372ac39
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 52f8966c5313dce0dc1f612556daa26e67137c72
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989496"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999565"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -102,9 +102,9 @@ Todas essas opções estão disponíveis quando você cria um rótulo de confide
 
 Quando você cria seus rótulos de confidencialidade no centro de administração, eles aparecem em uma lista na guia **Confidencialidade**, na página **Rótulos**. Nessa lista, a ordem dos rótulos é importante porque reflete sua prioridade. Você quer que seu rótulo de confidencialidade mais restritivo, como o Altamente Confidencial, apareça na **parte inferior** da lista, e que seu rótulo de confidencialidade menos restritivo, como o Público, apareça na **parte superior**.
 
-Você pode aplicar apenas um rótulo de confidencialidade a um documento ou email. Se você precisar que seus usuários forneçam uma justificativa para alterar o rótulo para uma classificação menor, a ordem dessa lista identifica as classificações inferiores.
+Você pode aplicar apenas um rótulo de confidencialidade a um documento ou email. Se você definir uma opção que exija que os usuários forneçam uma justificativa para alterar um rótulo para uma classificação inferior, a ordem desta lista identificará as classificações inferiores. No entanto, essa opção não se aplica aos sub-rótulos.
 
-A prioridade de rótulo também se aplica a sub-rótulos.
+Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sensitivity-label-automatically.md). Ao configurar rótulos para que sejam aplicados automaticamente ou como uma recomendação, várias correspondências podem resultar para mais de um rótulo. A ordem dos rótulos é usada para determinar qual rótulo será aplicado ou recomendado: o último rótulo confidencial é selecionado e, se aplicável, o último sub-rótulo.
 
 ![Opção para criar um sub-rótulo](media/Sensitivity-label-sublabel-options.png)
 
@@ -189,11 +189,7 @@ Eis o fluxo básico com o que o administrador, o usuário e o aplicativo do Offi
 
 ## <a name="where-sensitivity-labels-can-appear"></a>Onde rótulos de confidencialidade podem aparecer
 
-Os rótulos de confidencialidade aparecem na interface do usuário dos aplicativos do Office. Para exibir a disponibilidade atual para rotular internamente aplicativos e plataformas específicos, use as seguintes tabelas:
-
-- [Suporte para recursos de rótulo de confidencialidade no Word, Excel e PowerPoint](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint)
-
-- [Suporte para recursos de rótulo de confidencialidade no Outlook](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-outlook)
+Os rótulos de confidencialidade são exibidos na interface do usuário dos aplicativos do Office e podem ser selecionados no botão **Confidencialidade**, na guia Página Inicial da faixa de opções. Para exibir a disponibilidade atual de rotulamento interno para plataformas e aplicativos específicos, confira [Suporte para recursos de rótulos de confidencialidade em aplicativos](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
 Se você usar o cliente de etiquetagem unificado da Proteção de Informações do Azure para computadores com Windows, os recursos adicionais estarão disponíveis para os rótulos de confidencialidade. Para mais informações, confira [Comparar os clientes de rotulamento para computadores com Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
 
