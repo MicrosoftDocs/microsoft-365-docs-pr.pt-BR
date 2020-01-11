@@ -1,9 +1,9 @@
 ---
-title: Exibir relatórios para a proteção avançada contra ameaças do Office 365
+title: Exibir relatórios do Office 365 proteção avançada contra ameaças, relatórios de malware, relatórios de phishing, contas comprometidas, status de proteção de URL, relatórios de ameaças, ameaças de relatório
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 05/21/2019
+ms.date: 01/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
-description: Saiba como encontrar e usar relatórios para a proteção avançada contra ameaças do Office 365 no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 9ad177e96184913be61e098a1aafa294a123199b
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
+ms.openlocfilehash: a03fc9e14017255faf8c1c7f58cf2baa65823962
+ms.sourcegitcommit: 3401f90721e6f7c65152a31c5be1bb91bfe641c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866403"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022369"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -41,7 +41,27 @@ Leia este artigo para obter uma visão geral dos relatórios ATP e como usá-los
 
 O relatório de **status de proteção contra ameaças** é um modo de exibição único que reúne informações sobre conteúdo mal-intencionado e email mal-intencionado detectado e bloqueado pela [proteção do Exchange Online](exchange-online-protection-overview.md) (EOP) e pelo [Office 365 ATP](office-365-atp.md). Este relatório é útil para exibir detecções ao longo do tempo (até 90 dias) e permite que os administradores de segurança identifiquem tendências ou determinem se as políticas precisam de ajustes. 
 
-O relatório de status de proteção contra ameaças fornece uma contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero-hora (zap)](zero-hour-auto-purge.md)e recursos de ATP, como [links seguros de ATP](atp-safe-links.md), [anexos seguros de ATP](atp-safe-attachments.md)e [recursos de anti-phishing do ATP](atp-anti-phishing.md). 
+O relatório fornece uma contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero-hora (zap)](zero-hour-auto-purge.md)e recursos de ATP, como [links seguros de ATP](atp-safe-links.md), [anexos seguros de ATP](atp-safe-attachments.md)e [recursos de anti-phishing do ATP](atp-anti-phishing.md). 
+
+Filtros e divisões das informações permitem categorizações mais granulares das informações deste relatório. Especificamente, há um menu "dividir por" incluído para os modos de exibição de *email > Phish* e *email > malware*. Ele dividirá os dados em:
+
+| |  |
+|---------|---------|
+|Por tipo de detecção    | Qual política ajudou a atrair essas ameaças?         |
+|Por tecnologia de detecção     | Qual tecnologia subjacente da Microsoft capturou a ameaça?        |
+|Por status de entrega     | O que aconteceu com as mensagens de email detectadas como ameaças?         |
+| | |
+
+> [!TIP]
+> O email > Phish | Os modos de exibição de malware têm detalhamentos granulares para as tecnologias de detecção mostradas, com categorias como *reputação de arquivo gerado por ATP*, *arquivo acionamento*, *URL acionamento*, *antifalsificação: falha de DMARC*, por exemplo, útil para identificar exatamente qual recurso levou sua organização a detectar ameaças.
+
+![Proteção contra ameaças relatório de status menu suspenso mostrando ' dividir por '.](../media/tp-threatProtectStatRpt-BreakDownBy.png)
+
+Esses modos de exibição oferecem a opção de exportação, por meio de um clique de botão (em email > Phish, email > malware e > modos de exibição de malware). Os dados agregados exportados para o seu computador podem ser abertos no Excel.
+
+![Este gráfico mostra a exportação como uma opção no menu para o modo de exibição de malware, diretamente entre criar agendamento e relatório de solicitação.](../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+
+Os modos de exibição de visão geral e email exibirão informações em horas de processamento, e não em 24 horas (demanda re. velocidades maiores aqui foram um sinal claro)!
 
 > [!NOTE]
 > Um relatório de status de proteção contra ameaças está disponível para clientes que tenham o [Office 365 ATP](office-365-atp.md) ou o [Exchange Online Protection](exchange-online-protection-eop.md) (EOP); no entanto, as informações exibidas no relatório de status de proteção contra ameaças para clientes ATP provavelmente conterão dados diferentes do que os clientes do EOP podem ver. Por exemplo, o relatório de status de proteção contra ameaças para clientes ATP conterá informações sobre [arquivos mal-intencionados detectados no SharePoint Online, no onedrive ou no Microsoft Teams](atp-for-spo-odb-and-teams.md). Essas informações são específicas para a ATP, para que os clientes que tenham o EOP, mas não a ATP, não vejam esses detalhes no relatório de status de proteção contra ameaças.
@@ -61,7 +81,28 @@ Por padrão, o relatório de status de proteção contra ameaças mostra os dado
 Você também pode usar o menu **exibir dados por** para alterar quais informações são exibidas no relatório. 
   
 ![Opções de exibição do relatório de status de proteção contra ameaças ATP](../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
-  
+
+## <a name="url-protection-status-report"></a>Relatório de status de proteção de URL
+
+Este relatório é baseado em dados coletados e ameaças detectadas, por clique (enquanto a maioria dos outros relatórios relacionados a ameaças de email são por dados de mensagem). Este relatório foi projetado para mostrar ameaças provenientes de hiperlinks em mensagens de email e documentos, por clique. Há dois modos de exibição:
+
+|  |  |
+|---------|---------|
+|URL clique em ação de proteção   | Confira o número de URLs bloqueadas, bloqueadas, mas substituídas por um clique em um usuário, substituídas por um clique em um usuário, e permitidas.        |
+|URL clique por aplicativo     | Consulte o aplicativo no qual a URL foi clicada.        |
+|  |  |
+
+Na tabela detalhes, você poderá ver mais informações sobre o clique em tempo e informações do usuário. Por fim, tenha em mente que o relatório de status de proteção de URL mostra a proteção do recurso de links seguros de ATP, para que somente os clientes que tenham habilitados os links seguros de ATP vejam os dados refletidos nesse relatório.
+
+> [!NOTE]
+> Este é um *relatório de tendências de proteção*, o que significa que os dados representam tendências em um conjunto de dados maior. Os relatórios não estão disponíveis em tempo real aqui. Para URL em tempo real clique em dados, continue a usar o rastreamento de URL.
+
+## <a name="compromised-users-report"></a>Relatório de usuários comprometidos
+
+Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo ficasse. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
+
+![O relatório de usuários comprometidos como aparece no Office 365.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+
 ## <a name="atp-file-types-report"></a>Relatório de Tipos de Arquivo ATP
 
 O relatório de **tipos de arquivo ATP** mostra o tipo de arquivos detectados como mal-intencionados por [anexos seguros de ATP](atp-safe-attachments.md).
