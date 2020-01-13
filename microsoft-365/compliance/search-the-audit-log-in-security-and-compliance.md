@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 4a43573893ecc16539810cfcfe85c8df469d06dd
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 73ad56a335b02de090becdc55e34dc3e90bc4389
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634038"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41022017"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -65,7 +65,7 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Office 365.
 
-- Você (ou outro administrador) deve ativar primeiro o log de auditoria antes de começar a pesquisar no log de auditoria do Office 365. Para ativá-lo, clique em **Iniciar a gravação das atividades dos usuários e administradores** na página **Pesquisar log de auditoria** no Centro de Conformidade e Segurança. (Se você não vir esse link, a auditoria já está ativada na sua organização). Depois de ativá-lo, será exibida uma mensagem informando que o log de auditoria está sendo preparado e que você pode executar uma pesquisa dentro de algumas horas após concluir a preparação. Isso só precisa ser feito uma vez.
+- Você (ou outro administrador) deve ativar primeiro o log de auditoria antes de começar a pesquisar no log de auditoria do Office 365. Para ativá-lo, clique em **Ativar a auditoria** na página **Pesquisar log de auditoria** no Centro de Conformidade e Segurança. (Se você não vir esse link, a auditoria já está ativada na sua organização). Depois de ativá-lo, será exibida uma mensagem informando que o log de auditoria está sendo preparado e que você pode executar uma pesquisa dentro de algumas horas após concluir a preparação. Isso só precisa ser feito uma vez. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
   > [!NOTE]
   > Estamos em processo de ativar a auditoria por padrão. Até lá, ative-a conforme descrevemos anteriormente.
@@ -335,6 +335,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |(nenhum)|FileModifiedExtended|Isso está relacionado à atividade "Arquivo modificado" (FileModified). Um evento FileModifiedExtended é registrado em log quando a mesma pessoa modifica continuamente um arquivo por um longo período (até 3 horas). <br/><br/> O propósito de registrar eventos FileModifiedExtended em log é reduzir o número de eventos FileModified registrados quando um arquivo é modificado continuamente. Isso ajuda a reduzir o ruído de vários registros de FileModified para o que é essencialmente a mesma atividade do usuário e permite que você se concentre no evento FileModified inicial (e mais importante).|
 |Arquivo movido|FileMoved|O usuário move um documento de sua localização atual em um site até uma nova localização.|
 |(nenhum)|FilePreviewed|O usuário visualiza documentos em um site do SharePoint ou OneDrive for Business. Esses eventos geralmente ocorrem em grandes volumes com base em uma única atividade, como a exibição de uma galeria de imagens.|
+|Consulta de pesquisa realizada|SearchQueryPerformed|O usuário ou a conta do sistema realiza uma pesquisa no SharePoint ou OneDrive for Business. Alguns cenários comuns nos quais uma conta de serviço realiza uma consulta de pesquisa incluem a aplicação de uma política de retenção ou de bloqueio da Descoberta Eletrônica para sites e contas do OneDrive e quando os rótulos de retenção ou sensibilidade são automaticamente aplicados ao conteúdo do site. Em muitos desses casos, o nome da conta de serviço que está conectada no campo de Usuário do registro de auditoria é **app@sharepoint**. </br></br> **Dica:** os campos ApplicationDisplayName e EventData no registro de auditoria para a atividade de consulta de pesquisa realizada podem ajudá-lo a identificar o cenário ou serviço que acionou esse evento.|
 |Todas as versões secundárias do arquivo foram recicladas|FileVersionsAllMinorsRecycled|O usuário exclui todas as versões secundárias do histórico de versões de um arquivo. As versões excluídas são movidas para a lixeira do site.|
 |Todas as versões do arquivo foram recicladas|FileVersionsAllRecycled|O usuário exclui todas as versões do histórico de versões de um arquivo. As versões excluídas são movidas para a lixeira do site.|
 |Versão do arquivo reciclada|FileVersionRecycled|O usuário exclui uma versão do histórico de versões de um arquivo. A versão excluída é movida para a lixeira do site.|
@@ -814,8 +815,8 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Convite do Forms Pro enviado|ProInvitation|O usuário clica para ativar uma avaliação do Pro.|
 |Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza a configuração de um formulário. <br><br>A propriedade FormSettingName:string indica o nome e o novo valor da configuração.|
 |Configuração de usuário atualizada|UpdateUserSetting|O proprietário do formulário atualiza a configuração de um usuário. <br><br>A propriedade UserSettingName:string indica o nome e o novo valor da configuração|
-|Formulários listados|ListForms|O proprietário do formulário está exibindo uma lista de formulários. <br><br>A propriedade ViewType:string indica que exibição o proprietário do formulário está olhando: Todos os Formulários, Compartilhado Comigo ou Formulários de Grupo|
-|Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondedor estiver dentro da mesma organização que o proprietário do formulário.|
+|Formulários listados|ListForms|O proprietário do formulário está exibindo uma lista de formulários. <br><br>A propriedade ViewType:string indica qual exibição o proprietário do formulário está olhando: Todos os Formulários, Compartilhado Comigo ou Formulários de Grupo|
+|Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondente é da mesma organização que o proprietário do formulário.|
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
@@ -843,7 +844,7 @@ Aqui estão algumas dicas para pesquisar atividades de administração do Exchan
 
   - [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog)
 
-   Lembre-se de que as mesmas atividades de administradores do Exchange estão registradas no log de auditoria de administradores do Exchange e no log de auditoria do Office 365.
+   Lembre-se de que as mesmas atividades do administrador do Exchange estão registradas no log de auditoria do administrador do Exchange e no log de auditoria do Office 365.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
