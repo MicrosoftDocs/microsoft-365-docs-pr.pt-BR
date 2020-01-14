@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: ad9659799494a3aaad4a3436b263ebcfd2b56d1c
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959550"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112495"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -36,7 +36,7 @@ Os serviços de nuvem governamentais da Microsoft atendem aos requisitos exigent
 - Saiba mais sobre os benefícios do DoD DISA L2, L4, L5 na nuvem da Microsoft: [baixar o departamento de defesa do plano de fundo do Disa](https://aka.ms/disa-backgrounder)
 - Saiba como acelerar a sua implantação do DISA do nível DoD, L4 e L5 com nosso plano de conformidade e segurança do Azure: [baixar as implementações de controle de segurança do nível 5 do Azure DOD](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=e391da04-ae17-472c-9634-959c5ce6ba92&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD%20Blueprint)
 
-## <a name="dod-impact-level-5-provisional-authorization"></a>[Impacto de nível 5 autorização do DoD
+## <a name="dod-impact-level-5-provisional-authorization"></a>Autorização do nível 5 de impacto do DoD
 
 O suporte ao serviço de nuvem do DISA recebeu um nível 5 PA de impacto do DoD para o governo do Microsoft Azure para o DoD. DISA também recebeu a defesa do governo dos EUA do Office 365 um nível 5 PA de impacto do DoD. O nível de impacto 5 cobre informações não classificadas (CUI) controladas por lei, outras regulamentações governamentais ou a agência que possui as informações e precisa de um nível mais alto de proteção do que o nível 4 fornece. Ele também abrange sistemas de segurança nacional não classificados.
 

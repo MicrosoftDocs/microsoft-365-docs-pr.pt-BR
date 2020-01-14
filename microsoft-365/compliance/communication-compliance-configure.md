@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 101078adea821b5ddd3d525d26a7e9dbca1e1512
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 8627a46ee861751799e1175c7e030e1b28c6d935
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807370"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111875"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365-preview"></a>Configurar a conformidade em comunicações no Microsoft 365 (visualização)
 
@@ -42,7 +42,7 @@ Siga estas etapas para configurar e usar a conformidade de comunicação em sua 
 
 - **Etapa 2 (obrigatório)**: [tornar a conformidade de comunicação disponível em sua organização](#step-2-make-communication-compliance-available-in-your-organization-required)
 
-    Adicione a si mesmo à função de **administrador de análise de supervisão** para que você possa configurar políticas. Você também precisará criar um grupo com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** para pessoas ou grupos que terão medidas investigativas e de correção em mensagens com correspondências de política. Qualquer pessoa que tenha essas funções atribuídas pode acessar a página **conformidade de comunicação** no centro de conformidade da Microsoft 365. Se o email reviewable estiver hospedado no Exchange Online, cada revisor deverá ter [acesso ao PowerShell remoto para o Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+    Adicione a si mesmo à função de **administrador de análise de supervisão** para que você possa configurar políticas. Você também precisará criar um novo grupo com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** para pessoas ou grupos que terão medidas investigativas e de correção em mensagens com correspondências de política. Qualquer pessoa que tenha essas funções atribuídas pode acessar a página **conformidade de comunicação** no centro de conformidade da Microsoft 365. Se o email reviewable estiver hospedado no Exchange Online, cada revisor deverá ter [acesso ao PowerShell remoto para o Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 - **Etapa 3 (obrigatório)**: [Configurar uma política de conformidade de comunicação](#step-3-create-a-communication-compliance-policy-required)
 
@@ -88,15 +88,17 @@ Para tornar a **conformidade de comunicação** disponível como uma opção de 
 
 ### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
 
-1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador na sua organização do Office 365.
+1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
-2. No centro de conformidade da Microsoft 365, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
+2. No centro de segurança e conformidade do Microsoft Office 365, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
 
 3. Selecione **Criar**.
 
 4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
 
 5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para **administrador de análise de supervisão**, gerenciamento de **casos**e **revisão**e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+
+    ![Grupos de função de conformidade de comunicação necessária](media/communication-compliance-role-groups.png)
 
 6. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
 

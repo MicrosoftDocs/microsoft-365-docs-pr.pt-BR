@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: c0cef17acf0028472a9b92352afd51786a8ae25c
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: cb24c40cc2018fba6d1feb13ef0d6426abd2c49a
+ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970819"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41107900"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -59,7 +59,7 @@ As seções a seguir neste artigo fornecem orientações sobre cada recurso que 
 
 De acordo com o lançamento original em 1º de julho de 2017, a funcionalidade de bloqueio e descoberta & eletrônica in-loco no centro de administração do Exchange (Eat) está sendo desativada. A página de descoberta eletrônica in-loco & contém na Eat permissão para pesquisar, reter e exportar conteúdo do Exchange Online. A descoberta eletrônica in-loco também permite que você copie os resultados da pesquisa para uma caixa de correio de descoberta para que você ou outros gerentes de descoberta eletrônica possam revisar o conteúdo e disponibilizá-lo para solicitações legais, normativas e públicas.
 
-Becuase todos esses recursos (exceto para copiar os resultados da pesquisa para uma caixa de correio de descoberta) agora estão disponíveis na pesquisa de conteúdo, eDiscovery e ferramentas de descoberta eletrônica avançada no [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (com funcionalidade, confiabilidade e suporte aprimorados para uma ampla variedade de serviços da Microsoft 365), recomendamos que você comece a usar essas ferramentas o mais rápido possível. Para ajudá-lo na transição para essas outras ferramentas de descoberta eletrônica, a tabela abaixo lista as ferramentas que você pode usar em vez de descoberta eletrônica in-loco e bloqueio in-loco.
+Como todos esses recursos (exceto para copiar os resultados da pesquisa para uma caixa de correio de descoberta) estão disponíveis na pesquisa de conteúdo, no eDiscovery e nas ferramentas de descoberta eletrônica avançada no [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (com funcionalidade, confiabilidade e suporte aprimorados para uma ampla variedade de serviços da Microsoft 365), recomendamos que você comece a usar essas ferramentas o mais rápido possível. Para ajudá-lo na transição para essas outras ferramentas de descoberta eletrônica, a tabela abaixo lista as ferramentas que você pode usar em vez de descoberta eletrônica in-loco e bloqueio in-loco.
 
 ### <a name="scope-of-affected-organizations"></a>Escopo de organizações afetadas
     
@@ -114,7 +114,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <li>
 <p>Aplicando políticas para toda a organização </p>
 </li><li>
-<p>Aplicar políticas a locais de conteúdo específicos, como o Exchange Online, o SharePoint Online, o OneDrive for Business, o Skype for Business, o Microsoft Teams e os grupos do Office 365</p></li>
+<p>Aplicar políticas a locais de conteúdo específicos, como Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business, Microsoft Teams e grupos do Office 365</p></li>
 <li>
 <p>Aplicando políticas a usuários específicos</p></li></ul>
 <p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">visão geral das políticas de retenção</a>.</td>
@@ -268,7 +268,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></p></td>
-<td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e limpar o conteúdo. Você pode criar e executar uma pesquisa com os cmdlets <strong>New-ComplianceSearch</strong> e <strong>New-ComplianceSearch</strong> e, em seguida, pode limpar o conteúdo usando o comando <strong>New-ComplianceSearchAction-Purge e-PurgeType</strong> .</p>
+<td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e limpar o conteúdo. Você pode criar e executar uma pesquisa com os cmdlets <strong>New-ComplianceSearch</strong> e <strong>New-ComplianceSearch</strong> e, em seguida, pode limpar o conteúdo usando o comando <strong>New-ComplianceSearchAction-purga-PurgeType</strong> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Search for and Delete messages</span></a>.</p>
 </td>
 </tr>
 <tr class="odd">
@@ -299,7 +299,7 @@ Essas três APIs de serviços Web do Exchange são usadas pelo recurso de bloque
 
 ## <a name="advanced-ediscovery-v10"></a>Descoberta eletrônica avançada v 1.0
 
-O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica clicando em **alternar para a descoberta eletrônica avançada** está sendo desativada. Sua funcionalidade foi substituída pela nova solução de [descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
+O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica clicando em **alternar para a descoberta eletrônica avançada** está sendo desativada. Sua funcionalidade foi substituída pela nova [solução de descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
 
 A nova solução de descoberta eletrônica avançada no Microsoft 365 (também conhecida como *AutoDiscovery v 2.0*) fornece todos os recursos da solução original, mas agora inclui uma abordagem baseada em responsáveis de identificar conteúdo em outros serviços do Microsoft 365, coletar esse conteúdo e, em seguida, adicioná-lo a um conjunto de revisão em que os revisores podem aproveitar consultas de pesquisa rápida, marcação e recursos de análise para ajudar a analisar documentos relevantes. A descoberta eletrônica avançada agora inclui o processamento melhorado e os visualizadores nativos para tipos de arquivo da Microsoft e de terceiros, uma lista completa de tipos de arquivo é [aqui](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) e os campos de metadados suportados estão [aqui](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery). Além disso, a nova solução de descoberta eletrônica avançada fornece um recurso de gerenciamento poderoso que permite que você aplique isenções ao conteúdo em diferentes serviços, notifique os usuários das isenções e rastreie as respostas dos responsáveis, tudo em um caso de descoberta eletrônica avançada.
 

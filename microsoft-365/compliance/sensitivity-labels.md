@@ -15,18 +15,21 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para aplicar configurações de proteção que incluem criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: 52f8966c5313dce0dc1f612556daa26e67137c72
-ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
+ms.openlocfilehash: b69ae981ea8d988d399e325d2532a0a59e27ae20
+ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40999565"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023345"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
 Para realizar seus trabalhos, as pessoas em sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo deixa de estar protegido por um firewall – ele pode circular em qualquer lugar, entre dispositivos, aplicativos e serviços. E você quer que esse processo seja feito de modo seguro e protegido, atendendo às políticas de conformidade dos negócios da sua organização.
 
 Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, sem atrapalhar a produtividade e a capacidade de colaboração de seu pessoal.
+
+> [!NOTE]
+> Os rótulos de confidencialidade não estão disponíveis em organizações da Comunidade Governamental (GCC) dos EUA.
 
 Exemplo mostrando rótulos de confidencialidade:
 
@@ -104,7 +107,7 @@ Quando você cria seus rótulos de confidencialidade no centro de administraçã
 
 Você pode aplicar apenas um rótulo de confidencialidade a um documento ou email. Se você definir uma opção que exija que os usuários forneçam uma justificativa para alterar um rótulo para uma classificação inferior, a ordem desta lista identificará as classificações inferiores. No entanto, essa opção não se aplica aos sub-rótulos.
 
-Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sensitivity-label-automatically.md). Ao configurar rótulos para que sejam aplicados automaticamente ou como uma recomendação, várias correspondências podem resultar para mais de um rótulo. A ordem dos rótulos é usada para determinar qual rótulo será aplicado ou recomendado: o último rótulo confidencial é selecionado e, se aplicável, o último sub-rótulo.
+Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sensitivity-label-automatically.md). Ao configurar rótulos para que sejam aplicados automaticamente ou como uma recomendação, várias correspondências podem resultar em mais de um rótulo. A ordem dos rótulos é usada para determinar qual rótulo será aplicado ou recomendado: o último rótulo de confidencialidade é selecionado e, se aplicável, o último sub-rótulo.
 
 ![Opção para criar um sub-rótulo](media/Sensitivity-label-sublabel-options.png)
 

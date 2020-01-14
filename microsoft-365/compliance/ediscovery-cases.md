@@ -1,5 +1,5 @@
 ---
-title: ocorrências de descoberta eletrônica no centro de conformidade & segurança
+title: Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
-description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada.
-ms.openlocfilehash: efd5d20d72794ff6f71d2b1c6858bee615b14f3a
-ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
+description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
+ms.openlocfilehash: 3d5e67edf30f1b1f78e6c4992760c18d1493e108
+ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854056"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41107910"
 ---
-# <a name="ediscovery-cases-in-the-security--compliance-center"></a>ocorrências de descoberta eletrônica no centro de conformidade & segurança
+# <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
 Você pode usar casos de descoberta eletrônica no centro de conformidade no Office 365 e no Microsoft 365 para controlar quem pode criar, acessar e gerenciar casos de descoberta eletrônica em sua organização. Se sua organização tiver uma assinatura do Office 365 e5, você também poderá usar casos de descoberta eletrônica para analisar os resultados da pesquisa usando a descoberta eletrônica avançada do Office 365.
   
@@ -148,7 +148,7 @@ Após criar uma ocorrência, a próxima etapa é adicionar membros à ocorrênci
   
 ## <a name="step-4-place-content-locations-on-hold"></a>Etapa 4: colocar os locais de conteúdo em espera
 
-Você pode usar uma ocorrência de Descoberta Eletrônica para criar retenções e preservar conteúdo que possa ser relevante para a ocorrência. Você pode colocar uma retenção nas caixas de correio e nos sites do OneDrive for Business de pessoas que são responsáveis pelo caso. Você também pode colocar uma retenção na caixa de correio de grupo, site do SharePoint e no OneDrive for Business para um grupo do Office 365. Da mesma forma, você pode colocar uma retenção na caixa de correio e no site associados ao Microsoft Teams. Quando você coloca os locais de conteúdo em espera, o conteúdo é mantido até que você remova o bloqueio do local de conteúdo ou até que você exclua a isenção.
+Você pode usar uma ocorrência de Descoberta Eletrônica para criar retenções e preservar conteúdo que possa ser relevante para a ocorrência. Você pode colocar uma retenção nas caixas de correio e nos sites do OneDrive for Business de pessoas que são responsáveis pelo caso. Você também pode colocar uma retenção na caixa de correio de grupo, site do SharePoint e no OneDrive for Business para um grupo do Office 365. Da mesma forma, você pode colocar uma retenção nas caixas de correio e nos sites associados ao Microsoft Teams ou aos grupos do Yammer. Quando você coloca os locais de conteúdo em espera, o conteúdo é mantido até que você remova o bloqueio do local de conteúdo ou até que você exclua a isenção.
 
 > [!NOTE]
 > Depois que você coloca um local de conteúdo em espera, leva até 24 horas para que a retenção entre em vigor. 
@@ -186,14 +186,14 @@ Para criar uma retenção para um caso de descoberta eletrônica:
     
     ![Escolher os locais de conteúdo para colocar em espera](media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
   
-   a. **Email do Exchange.** Clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para um grupo do Office 365 ou uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
+   a. **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para uma equipe da Microsoft, um grupo do Yammer ou um grupo do Office 365. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
     
     > [!NOTE]
     > Ao clicar em **escolher usuários, grupos ou equipes** para especificar as caixas de correio que serão colocadas em espera, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a esta lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa. 
-  
-   b. **Sites do SharePoint.** Clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar sites do SharePoint e do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um grupo do Office 365 ou uma equipe da Microsoft. Clique em **escolher**e em **concluído**.
+
+   b. **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar o SharePoint e os sites do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, um grupo do Yammer ou um grupo do Office 365. Clique em **escolher**e em **concluído**.
     
-    Consulte a seção [mais informações](#more-information) para obter dicas sobre como colocar grupos do Office 365 e o Microsoft Teams em espera. 
+    Consulte a seção [mais informações](#more-information) para obter dicas sobre como colocar o Microsoft Teams, os grupos do Yammer e os grupos do Office 365 em espera. 
     
     > [!NOTE]
     > No caso raro em que o UPN (nome principal de usuário) de uma pessoa é alterado, a URL de sua conta do OneDrive também será alterada para incorporar o novo UPN. Se isso acontecer, você terá que modificar a retenção adicionando a nova URL do OneDrive do usuário e removendo a antiga. 
@@ -272,7 +272,7 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
     ![Locais, locais em espera](media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
   
-    - **Todos os locais.** Selecione essa opção para pesquisar em todos os locais de conteúdo da sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (que inclui as caixas de correio de todos os grupos do Office 365 e Microsoft Teams), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites de todos os grupos do Office 365 e Microsoft Teams) e todas as pastas públicas.
+    - **Todos os locais** -Selecione essa opção para pesquisar todos os locais de conteúdo em sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (que inclui as caixas de correio de todos os grupos do Microsoft Teams, do Yammer e do Office 365), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites para todos os Microsoft Teams, grupos do Yammer e grupos do Office 365) e todas as pastas públicas.
     
     - **Todos os locais em espera.** Selecione essa opção para pesquisar todos os locais de conteúdo que foram colocados em espera no caso. Se o caso contiver várias isenções, os locais de conteúdo de todas as isenções serão pesquisados quando você selecionar essa opção. Além disso, se um local de conteúdo foi colocado em um bloqueio baseado em consulta, somente os itens que estão em retenção serão pesquisados quando você executar a pesquisa de conteúdo que você está criando nesta etapa. Por exemplo, se um usuário foi colocado em um bloqueio de caso baseado em consulta que preserva os itens que foram enviados ou criados antes de uma data específica, somente esses itens seriam pesquisados usando os critérios de pesquisa da pesquisa de conteúdo. Isso é feito conectando-se à consulta de retenção de caso e à consulta de pesquisa de conteúdo por um operador **and** . Consulte a seção [mais informações](#more-information) no final deste artigo para obter mais detalhes sobre como pesquisar o conteúdo do caso. 
     
@@ -288,9 +288,9 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
       - Ao clicar em **escolher usuários, grupos ou equipes** para especificar as caixas de correio a serem pesquisadas, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar destinatários a essa lista, clique em **escolher usuários, grupos ou equipes**, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa, marque a caixa de seleção ao lado do nome e clique em **escolher**. 
     
-      - Você pode adicionar caixas de correio inativas, grupos do Office 365, Microsoft Teams e grupos de distribuição à lista de caixas de correio a serem pesquisadas. Não há suporte para grupos dinâmicos de distribuição. Se você adicionar grupos do Office 365 ou o Microsoft Teams, a caixa de correio de grupo ou equipe será pesquisada. As caixas de correio dos membros do grupo não são pesquisadas.
+      - Você pode adicionar caixas de correio inativas, Microsoft Teams, grupos do Yammer, grupos do Office 365 e grupos de distribuição à lista de caixas de correio a serem pesquisadas. Não há suporte para grupos dinâmicos de distribuição. Se você adicionar o Microsoft Teams, os grupos do Yammer ou os grupos do Office 365, a caixa de correio de grupo ou equipe será pesquisada; as caixas de correio dos membros do grupo não são pesquisadas.
     
-      - Para adicionar **sites, clique em escolher sites**, clique em **escolher sites** novamente e digite a URL de cada site que você deseja pesquisar. Você também pode adicionar a URL para o site do SharePoint para grupos do Office 365 e Microsoft Teams. 
+      - Para adicionar **sites, clique em escolher sites**, clique em **escolher sites** novamente e digite a URL de cada site que você deseja pesquisar. Você também pode adicionar a URL para o site do SharePoint para uma equipe da Microsoft, um grupo do Yammer ou um grupo do Office 365. 
     
 10. Depois de selecionar os locais de conteúdo para pesquisa, clique em **concluído** e, em seguida, clique em **salvar**.
     
@@ -519,6 +519,30 @@ Quando você reabrir um caso, qualquer bloqueio que estava no lugar quando o cas
     
     Quando o processo estiver concluído, o status da ocorrência será alterado para **ativo** na página de **descoberta eletrônica** . 
   
+## <a name="optional-step-11-delete-a-case"></a>Opcion Etapa 11: excluir uma ocorrência
+
+Você também pode excluir casos ativos e fechados. Quando você exclui um caso, todas as pesquisas e exportações no caso são excluídas e removidas da lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança. Não é possível abrir novamente um caso excluído. 
+
+Antes de poder excluir uma ocorrência (se ela está ativa ou fechada), você deve primeiro excluir *todas as* isenções associadas à ocorrência. Isso inclui a exclusão de isenções com o status **desativado**. 
+
+Para excluir uma retenção:
+
+1. Vá para a guia **isenções** , caso você queira excluir.
+
+2. Clique na isenção que você deseja excluir.
+
+3. Na página do menu suspenso, clique em **excluir isenção**.
+
+Para excluir uma ocorrência:
+
+1. No centro de conformidade & segurança **, clique em** \> **descoberta** eletrônica eletrônica para exibir a lista de casos em sua organização. 
+    
+2. Clique no nome do caso que você deseja excluir.
+
+3. Em **gerenciar status de caso** na página de submenu, clique em **excluir caso**.
+
+Se o caso que você está tentando excluir ainda contiver isenções, você receberá uma mensagem de erro. Você terá que excluir todas as suspensões associadas à ocorrência e, em seguida, tentar excluir a ocorrência novamente.
+
 ## <a name="more-information"></a>Mais informações
 
 - **Há limites para casos de descoberta eletrônica ou isenções associados a uma ocorrência de descoberta eletrônica?** A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e isenções de caso.
@@ -527,7 +551,7 @@ Quando você reabrir um caso, qualquer bloqueio que estava no lugar quando o cas
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
   |Número máximo de isenções de caso para uma organização  <br/> |10.000  <br/> |
-  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1.000  <br/> |
+  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1,000  <br/> |
   |Número máximo de sites do SharePoint e do OneDrive for Business em uma única retenção de caso  <br/> |100  <br/> |
    
 - **E os casos que foram criados na página de gerenciamento de casos na descoberta eletrônica avançada?** Você pode acessar uma lista de casos de descoberta eletrônica avançada mais antigas clicando no link na parte inferior da página de **descoberta eletrônica** no centro de conformidade de & de segurança. No entanto, para fazer qualquer trabalho em um caso mais antigo, você precisa entrar em contato com o suporte do Office 365 e solicitar que o caso seja movido para uma nova ocorrência de descoberta eletrônica no centro de conformidade de & de segurança. 
@@ -558,7 +582,7 @@ Quando você reabrir um caso, qualquer bloqueio que estava no lugar quando o cas
     
 - **Se uma caixa de correio, site do SharePoint ou uma conta do OneDrive que está em espera for movida para uma região diferente em um ambiente multigeográfico, a retenção ainda será aplicada?** Em todos os casos, o conteúdo em uma caixa de correio, site ou conta do OneDrive ainda será mantido. No entanto, as estatísticas de retenção não incluirão mais itens de um local de conteúdo que tenha sido movido para uma região diferente. Para incluir estatísticas de retenção para um local de conteúdo que tenha sido movido, você deve editar a isenção e atualizar a URL (ou o endereço SMTP de uma caixa de correio) para que o local do conteúdo seja novamente incluído nas estatísticas de retenção. 
     
-- **E como colocar uma retenção em grupos do Office 365 e no Microsoft Teams?** O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los em espera em um caso de descoberta eletrônica é semelhante. Lembre-se do seguinte ao colocar grupos do Office 365 e do Microsoft Teams em espera. 
+- **E como colocar uma retenção em grupos do Office 365 e no Microsoft Teams?** O Microsoft Teams é criado em grupos do Office 365. Portanto, colocá-los em espera em um caso de descoberta eletrônica é semelhante. Lembre-se do seguinte ao colocar grupos do Office 365 e do Microsoft Teams em espera. 
     
   - Para colocar o conteúdo localizado nos grupos do Office 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
     

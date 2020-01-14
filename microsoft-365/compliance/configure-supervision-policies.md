@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: e7a46e2fcd15a77f6fe7f1b97adf5ed26e97e0e2
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: a04d97cf887a14d89052d03ffdf3353f62cd612f
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959619"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111925"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 
@@ -123,7 +123,7 @@ Para fazer isso, você pode adicionar a si mesmo como um membro do grupo de fun�
 
 ### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
 
-1. Entre [https://protection.office.com](https://protection.office.com) usando as credenciais de uma conta de administrador na sua organização do Office 365.
+1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Office 365.
 
 2. No centro de segurança e conformidade do Office 365, acesse **permissões** e clique em Adicionar**+**().
 

@@ -1,7 +1,7 @@
 ---
 title: Visão geral de rótulos de retenção
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção no Office 365 podem ajudar você a tomar as ações certas sobre o conteúdo correto. Com os rótulos de retenção, você pode classificar dados em toda a sua organização para prover governança e impor regras de retenção baseadas nessa classificação. Também é possível usar rótulos de retenção para implementar o gerenciamento de registros no Office 365.
-ms.openlocfilehash: dcf350f34a30d27aa66d3e4395b2441694537bae
-ms.sourcegitcommit: 9a420b16aaa401a822ccfd9b133977ad8bd1024b
+ms.openlocfilehash: 9327e23a25143fa032ea9501a9d89ec6f47950bd
+ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39621104"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023365"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -55,7 +55,7 @@ Com os rótulos de retenção, você pode:
    - Os usuários não precisam mais conhecer as políticas de governança de dados; em vez disso, eles podem se concentrar no próprio trabalho.
 
   > [!NOTE]
-  > A capacidade de aplicar rótulos automaticamente requer uma licença do Office 365 Enterprise E5 para cada usuário que tem permissões para editar conteúdo que tenha sido rotulado automaticamente em um site ou caixa de correio. Os usuários que possuem apenas o acesso somente leitura não precisam de uma licença.
+  > A capacidade de aplicar rótulos automaticamente exige uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissões para editar o conteúdo que foi automaticamente rotulado em um site ou na caixa de correio é selecionada para rotular automaticamente. Os usuários que possuem apenas o acesso somente leitura ao conteúdo ou respondem a emails rotulados não precisam de uma essa licença.
       
 - **Implemente o gerenciamento de registros no Office 365**, inclusive em emails e documentos. Você pode usar um rótulo de retenção para classificar o conteúdo como registro. Quando isso acontece, o rótulo não pode ser alterado ou removido, e o conteúdo não pode ser editado ou excluído. 
 
