@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Onde encontrar ajuda e suporte para a implantação do seu Windows 10 e Office 365 ProPlus.
-ms.openlocfilehash: a6064fb49f6bdd44275a9038eeb8b264638ea618
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b7eb30e8a9b5b46635793e9c79e2609467d87848
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031016"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112535"
 ---
 # <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Encontre ajuda para a implantação do seu Windows 10 e Office 365 ProPlus 
 
@@ -49,12 +49,12 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Entrega de Aplicativos do Office e LOB</strong></p>
 <ul>
-<li><p>Configuração e implantação do <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, na qual especialistas do Microsoft FastTrack fornecem assistência com provisionamento de licenças de usuário, configurando instalação e configurações de atualização para Clique para Executar, e criando pacotes se sua organização usar o System Center Configuration Manager.</p></li>
+<li><p>Configuração e implantação do <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, na qual especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário, configurando instalação e configurações de atualização para Clique para Executar, e criando pacotes caso sua organização use o Microsoft Endpoint Configuration Manager.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="step 4" height="144" width="144" /></td>
-<td><p><strong>Arquivo de Usuário e Migração de Configurações</strong></p>
+<td><p><strong>Arquivo de usuário e Migração de configurações</strong></p>
 <ul>
 <li><p>A configuração e implementação do <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#onedrive-for-business">OneDrive</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e configuram as definições de cliente de sincronização do OneDrive. Para organizações com assinaturas elegíveis, o <a href="https://docs.microsoft.com/fasttrack/data-migration">FastTrack migrará dados para o OneDrive</a>.</p></li>
 </ul></td>
@@ -70,7 +70,7 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
 <td><p><strong>Implantação de Sistema Operacional e Atualizações de Recursos</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>, no qual os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e a configuração do Windows Autopilot para novos dispositivos, políticas MDM para seu Windows 10 e outros dispositivos móveis, incluindo a implantação de aplicativos; perfis de Wi-Fi e VPN; gerenciamento conjunto com o System Center Configuration Manager e muito mais.</p></li>
+<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>, no qual os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e a configuração do Windows Autopilot para novos dispositivos, políticas MDM para seu Windows 10 e outros dispositivos móveis, incluindo a implantação de aplicativos; perfis de Wi-Fi e VPN; gerenciamento conjunto com o Microsoft Endpoint Configuration Manager e muito mais.</p></li>
 </ul></td>
 </tr>
 <tr class="even">

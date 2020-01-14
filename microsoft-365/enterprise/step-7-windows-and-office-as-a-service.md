@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como se preparar para a manutenção do Windows e do Office em seu ambiente.
-ms.openlocfilehash: a1cc9cb66754ed86f982d90db0ccbcce16b5ffb1
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 28c66bbd723aaf4f3823e582e7b9b98daea69c27
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031496"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112245"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Etapa 7: Manutenção do Windows e do Office
 
@@ -37,7 +37,7 @@ ms.locfileid: "38031496"
 >A manutenção do Windows e do Office é a sétima etapa no nosso processo de implantação recomendado que aborda os aspectos de planejamento de preparação para atualizações semestrais dos recursos. Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-O Windows 10 e o Office 365 ProPlus apresentam novas opções de manutenção, modelos de suporte e linhas do tempo de atualizações. Essas alterações simplificam o processo para se manter atualizado com os recursos mais recentes. Com essas atualizações, há novas opções de configuração para habilitar os planos de manutenção que atendam às suas necessidades. Saiba como se preparar para as atualizações nos canais semestrais, as quais oferecem novos recursos e funcionalidades no Windows 10 e no Office 365 ProPlus, ao mesmo tempo que aprimoram novas funcionalidades no System Center Configuration Manager (Branch Atual).
+O Windows 10 e o Office 365 ProPlus apresentam novas opções de manutenção, modelos de suporte e linhas do tempo de atualizações. Essas alterações simplificam o processo para se manter atualizado com os recursos mais recentes. Com essas atualizações, há novas opções de configuração para habilitar os planos de manutenção que atendam às suas necessidades. Saiba como se preparar para as atualizações nos canais semestrais, as quais oferecem novos recursos e funcionalidades no Windows 10 e no Office 365 ProPlus, ao mesmo tempo em que tira o melhor proveito possível das novas funcionalidades do Microsoft Endpoint Configuration Manager (Branch Atual).
 
 [Como ajudar clientes a mudar para o Windows 10 e o Office 365 ProPlus](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
@@ -77,11 +77,11 @@ E uma última coisa. Como os builds do Office 365 ProPlus Insider refletirão as
 
 ### <a name="supporting-management-tools"></a>Suporte a ferramentas de gerenciamento
 
-Também pensamos em como simplificar a implantação das atualizações para você. O System Center Configuration Manager (Branch Atual) é atualizado frequentemente para oferecer suporte à distribuição dessas atualizações para o Windows e o Office e os novos recursos.
+Também pensamos em como descomplicar a implantação das atualizações para você. O Configuration Manager (Branch Atual) é atualizado frequentemente para oferecer suporte à distribuição dessas atualizações para o Windows e o Office e os novos recursos.
 
-[Implantar as atualizações do Windows 10 usando o System Center Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+[Implantar as atualizações do Windows 10 usando o Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Visão geral dos canais do Windows e do Office
 
@@ -117,7 +117,7 @@ Usando uma tecnologia chamada "Atualizações Expressas" no Windows e na compact
 
 [Atualizações de qualidade do Windows 10 explicadas e o final das atualizações de delta](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-10-quality-updates-explained-amp-the-end-of-delta/ba-p/214426)
 
-O Windows Update para Empresas e o Windows Server Update Services têm suporte para atualizações expressas há muito tempo, mas agora ampliamos esse suporte para o System Center Configuration Manager (Branch Atual) para que ele também possa usar as Atualizações Expressas.
+O Windows Update para Empresas e o Windows Server Update Services têm suporte para atualizações expressas há muito tempo, mas agora ampliamos esse suporte para o Microsoft Endpoint Configuration Manager (Branch Atual) para que ele também possa usar as Atualizações Expressas.
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-3.png)
 
@@ -133,7 +133,7 @@ Essas são as nossas considerações sobre as atualizações mensais. Agora vamo
 
 Como abordamos na preparação do dispositivo e do aplicativo, convém começar sua preparação para essas atualizações maiores usando as mesmas ferramentas de preparação que configuramos na Etapa 1 do processo de implantação.
 
-Para as ferramentas, você pode usar as configurações de política com o Windows Update para Empresas, o gerenciamento de atualizações de software por meio do System Center Configuration Manager (Branch Atual), o Windows Server Update Services (WSUS) ou as políticas de atualização definidas pelo Microsoft Intune. Se você estiver preocupado com a largura de banda, confira a Etapa 2: Preparação de Diretório e Rede, para saber mais sobre as opções para reduzir o tráfego de rede pela Otimização de Entrega e outras tecnologias de cache ponto a ponto.
+Quanto às ferramentas a utilizar, você pode usar as configurações de política com o Windows Update para Empresas, o gerenciamento de atualizações de software por meio do Microsoft Endpoint Configuration Manager (Branch Atual), o Windows Server Update Services (WSUS) ou as políticas de atualização definidas pelo Microsoft Intune. Se você estiver preocupado com a largura de banda, confira a Etapa 2: Preparação de Diretório e Rede, para saber mais sobre as opções para reduzir o tráfego de rede pela Otimização de Entrega e outras tecnologias de cache ponto a ponto.
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
@@ -143,7 +143,7 @@ Para as ferramentas, você pode usar as configurações de política com o Windo
 
 #### <a name="upgrade-task-sequences"></a>Atualizar as sequências de tarefas
 
-Instalar as atualizações de recursos maiores por meio de rotinas de gerenciamento de atualização de software é uma opção compatível, mas muitas organizações optarão por usar uma Sequência de tarefas de atualização com o System Center Configuration Manager (Branch Atual) ou o Kit de Ferramentas de Implantação da Microsoft.
+Instalar as atualizações dos recursos de maior porte por meio de rotinas de gerenciamento de atualização de software é uma opção compatível, mas muitas organizações optarão por usar uma Sequência de Tarefas de Atualização com o Microsoft Endpoint Configuration Manager (Branch Atual) ou o Kit de Ferramentas de Implantação da Microsoft.
 
 Uma sequência de tarefas permite que você crie verificações ou tarefas personalizadas ANTES de instalar a atualização de recursos e permite executar tarefas personalizadas APÓS a instalação da atualização ser concluída. As tarefas após a atualização podem incluir suspensão temporária de serviços se isso for necessário durante a atualização, instalação e substituição de driver, atualizações de aplicativo ou barra de tarefas e configurações de personalização inicial do Windows 10.
 
@@ -151,7 +151,7 @@ Uma sequência de tarefas permite que você crie verificações ou tarefas perso
 
 Se você já está usando as sequências de tarefas para migrar seus computadores com o Windows 7 para o Windows 10 e está habituado com essas ferramentas, este é um ótimo lugar para começar e exercer o máximo controle. Embora seja possível usar uma única sequência de tarefas para a atualização inteira, é muito comum que as organizações usem duas sequências de tarefas: uma para garantir que os computadores estejam prontos para a atualização, que silenciosamente prepara para as fases todos os arquivos de instalação necessários nos computadores de destino e um para fazer a atualização de fato. Esta abordagem garante que a produtividade do usuário seja menos afetada.
 
-[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Suporte de canal semestral para atualizações de recursos
 
