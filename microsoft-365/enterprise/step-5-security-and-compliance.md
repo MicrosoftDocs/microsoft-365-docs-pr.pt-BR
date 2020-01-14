@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as considerações importantes de conformidade e segurança do Windows e do Office.
-ms.openlocfilehash: 10fc9ca58d9b48f752bdfed860b805e4f5663d6a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b4ef8b4d4e5e6277ea129b5a9454983459266462
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031686"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112555"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Etapa 5: Considerações de segurança e conformidade
 
@@ -117,7 +117,7 @@ A **[Proteção contra Exploração](https://docs.microsoft.com/windows/security
 
 #### <a name="microsoft-intune"></a>Microsoft Intune
 
-O [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serve como um serviço de gerenciamento em nuvem para cenários móveis, inclusive dispositivos IOS, Android e Windows, e agora pode ser configurado para o gerenciamento conjunto de forma a complementar e ampliar os controles de cargas de trabalho específicas gerenciadas pelo System Center Configuration Manager. Uma vantagem aqui é que os dispositivos que acessam os recursos protegidos podem ser solicitados a inscrever-se no gerenciamento de dispositivos, mesmo nos dispositivos não gerenciados e que não entraram no domínio ou no Azure AD. Você também pode aproveitar a configuração granular e a aplicação de política de conformidade no nível do aplicativo e do sistema operacional. As políticas e as configurações de aplicativos podem ser configuradas de forma central e aplicadas no Office 365 ProPlus e em aplicativos da Store no Windows 10 usando o Microsoft Intune.
+O[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serve como um serviço de gerenciamento em nuvem para cenários móveis, inclusive dispositivos IOS, Android e Windows, e agora pode ser configurado para o gerenciamento conjunto de forma a complementar e ampliar os controles de cargas de trabalho específicas gerenciadas pelo Configuration Manager. Uma vantagem aqui é que os dispositivos que acessam os recursos protegidos podem ser solicitados a inscrever-se no gerenciamento de dispositivos, mesmo que sejam dispositivos não gerenciados e que não entraram no domínio ou no Azure AD. Você também pode aproveitar a configuração granular e a aplicação de política de conformidade a nível do aplicativo e do sistema operacional. As políticas e as configurações de aplicativos podem ser configuradas de forma central e aplicadas no Office 365 ProPlus e em aplicativos da Store no Windows 10 usando o Microsoft Intune.
 
 ## <a name="next-step"></a>Próxima etapa
 
