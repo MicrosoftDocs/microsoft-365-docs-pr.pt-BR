@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: db89e3b1f8b5b8073eab62e4b4d38087e1e73fa4
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: ea6cc92fe84cc39502e3db97361ff9d294fdfca2
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913042"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112655"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na área de trabalho gerenciada da Microsoft
 
@@ -32,7 +32,7 @@ Incluído na sua licença de área de trabalho gerenciada da Microsoft são vers
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>O que a Microsoft faz para dar suporte aos aplicativos que fornecemos
 
-A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos incluídos do Office 365 ProPlus. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para seu departamento. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
+A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos incluídos do Office 365 ProPlus. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
 
 ### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>O que você precisa fazer para dar suporte aos aplicativos que fornecemos
 
@@ -46,7 +46,7 @@ Ainda há algumas coisas que você precisa fazer com estes aplicativos:
 
 Obviamente, você provavelmente tem vários outros aplicativos necessários para suas operações de negócios. Eles podem ser implantados somente em dispositivos de área de trabalho gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode fazer com que ele seja empacotado por um fornecedor (que pode ser um fornecedor que não seja da Microsoft ou o Microsoft Consulting Services (MCS)) ou, se você tiver os meios, você pode empacotá-los por conta própria. Você adiciona esses pacotes ao portal de área de trabalho gerenciada da Microsoft e os atribui aos grupos do Azure Active Directory para acionar a implantação. 
 
-Se você atualmente implanta seus aplicativos usando o System Center Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais deles podem exigir algum ajuste .
+Se, no momento, você implantar seus aplicativos usando o Microsoft Endpoint Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais deles podem exigir alguns Just.
 
 
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Preparando seus próprios aplicativos para inclusão na área de trabalho gerenciada da Microsoft

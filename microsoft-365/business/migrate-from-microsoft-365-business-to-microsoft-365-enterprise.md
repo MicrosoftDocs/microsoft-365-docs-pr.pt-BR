@@ -1,5 +1,5 @@
 ---
-title: Migrar do Microsoft 365 Business para a Microsoft 365 E3
+title: Migrar do Microsoft 365 Business para o Microsoft 365 E3
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business para a Microsoft 365 E3.
-ms.openlocfilehash: dc715bbf4cef8a742a28a6452e83b6e8d2f7cdd8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 7d10889a446543a3e9126aaaa1e3fbe6861f87a4
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805614"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111865"
 ---
-# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business para a Microsoft 365 E3
+# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business para o Microsoft 365 E3
 
 O Microsoft 365 Business tem tudo o que você precisa para sua pequena empresa, combinando os melhores aplicativos de produtividade baseada na nuvem com gerenciamento de dispositivos simples e segurança que permitem que seus funcionários façam o melhor trabalho. Em alguns casos, no entanto, talvez você precise migrar sua assinatura de negócios do Microsoft 365 para a Microsoft 365 E3. 
 
@@ -74,10 +74,10 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Microsoft 3
 | Prevenção de perda de dados do Office 365, plano de proteção de informações do Azure 1  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Proteção de informações da janela para o Endpoint DLP    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | **Licença de acesso para cliente (direitos de CAL)**    | | |   
-| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, System Center Configuration Manager, gerenciamento de direitos do Windows)| |        ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, gerenciamento de direitos do Windows)| |       ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | **Conformidade**        | | | 
 | Arquivamento ilimitado de email | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Gerente de Conformidade    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Gerenciador de Conformidade    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Descoberta eletrônica    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Bloqueio in-loco e retenção de litígio | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Marcas de retenção e políticas de retenção do MRM (gerenciamento de registros de mensagens)  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 

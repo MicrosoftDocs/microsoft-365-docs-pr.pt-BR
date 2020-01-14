@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 08d10dae35023d3e1d9f1e98d36e52f283ec04fa
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: 27ed024c47ac671625563d8bf060017cb1757c4c
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38669672"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112685"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -27,7 +27,7 @@ O caminho mais simples para atualizar os computadores que estão executando o Wi
 
 Se você tiver computadores que executam o Windows 7 ou o Windows 8,1, recomendamos esse caminho se sua organização estiver implantando o Windows 10. Isso utiliza o programa de instalação do Windows (Setup. exe) para executar uma atualização in-loco, que preserva automaticamente todos os dados, configurações, aplicativos e drivers da versão do sistema operacional existente. Isso requer o menor esforço de ti, porque não há necessidade de nenhuma infraestrutura de implantação complexa.
 
-Siga estas etapas para configurar e implantar uma imagem do Windows 10 Enterprise usando o Configuration Manager como uma atualização in-loco.
+Siga estas etapas para configurar e implantar uma imagem do Windows 10 Enterprise usando o Gerenciador de configuração do Microsoft Endpoint como uma atualização in-loco.
 
 ## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>A implantação do Windows 10 com o pôster do Configuration Manager
 
@@ -45,7 +45,7 @@ Consulte [gerenciar atualizações do Windows com a preparação para atualizaç
 
 Em seguida, siga o guia para usar o Gerenciador de configuração (ramificação atual) para atualizar o sistema operacional Windows 7 ou posterior para o Windows 10. Como em qualquer implantação de alto risco, é recomendável fazer backup dos dados do usuário antes de prosseguir. O armazenamento em nuvem do OneDrive está pronto para ser usado para usuários licenciados da Microsoft 365 e pode ser usado para armazenar com segurança seus arquivos. Para obter mais informações, consulte o [Guia de início rápido do onedrive](https://aka.ms/ODfBquickstartguide). Para acessar essa página, você deve entrar como administrador de locatário ou administrador global em um Office 365 ou Microsoft 365 locatário.
 
-Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for Configuration Manager](https://aka.ms/supportforwin10sccm).
+Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10).
 
 **Para verificar a preparação para atualizar o Windows**
 
@@ -94,7 +94,7 @@ Para criar uma sequência de tarefas de atualização, execute as seguintes etap
 Após criar a sequência de tarefas de atualização, você precisará criar uma coleção que contenha os dispositivos que você irá atualizar.
 
 > [!NOTE]
-> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar conjuntos no Gerenciador de configurações](https://aka.ms/sccm-create-collections).
+> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar conjuntos no Gerenciador de configurações](https://docs.microsoft.com/configmgr/core/clients/manage/collections/create-collections).
 
 1. No console do Gerenciador de configurações, no espaço de trabalho **ativos e conformidade** , clique com o botão direito do mouse em **coleções de dispositivos**e selecione **criar coleção de dispositivos**. 
 2. No Assistente para criar coleção de dispositivos, na página **geral** , insira as seguintes configurações e selecione **Avançar**:
