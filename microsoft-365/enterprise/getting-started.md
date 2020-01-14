@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: 89aeb74eddad4b973854e9900800e1fbcf262f9e
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a9ad328f6a2548a24a981ee3b49665c3091277c9
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030966"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112525"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
@@ -63,9 +63,9 @@ Vamos começar dando uma olhada no que mudou e melhorou desde a sua última impl
 
 **Ambiente Pre-Boot Seguro:** firmware de 64 bits da UEFI substitui BIOS. Isso não só acelera o tempo de inicialização, é necessário ativar muitos dos recursos modernos de segurança no Windows 10. Apesar de o Windows 10 rodar em BIOS, UEFI é altamente recomendada. Se você não migrou do BIOS para UEFI e aproveitou os 64 bits, esse é o momento certo. Há ferramentas para ajudá-lo a mudar durante a atualização do Windows 10 ou depois dela.
 
-**Gerenciamento de dispositivos baseados em nuvem:** Serviços como o Microsoft Intune ajudam você a gerenciar seus dispositivos com Windows 10 da mesma forma que gerencia seus outros dispositivos móveis, tudo em um único lugar. O que torna o Microsoft Intune único é a habilidade de cogerenciar seus dispositivos com Windows 10 com o System Center Configuration Manager. Você pode usar o System Center Configuration Manager para ajudá-lo a mudar para o Windows 10 e, em seguida, adicionar o Microsoft Intune. Trabalhando juntos, o System Center Configuration Manager se torna a borda inteligente dentro de sua organização, conectado à nuvem inteligente da Microsoft. Isso permite que você gerencie os dispositivos de seus usuários com segurança onde quer que eles estejam, estejam conectados na nuvem de sua organização ou na nuvem pública.
+**Gerenciamento de dispositivos baseados em nuvem:** Serviços como o Microsoft Intune ajudam você a gerenciar seus dispositivos com Windows 10 da mesma forma que gerencia seus outros dispositivos móveis, tudo em um único lugar. O que torna o Microsoft Intune único é a habilidade de co-gerenciar seus dispositivos Windows 10 com o Microsoft Endpoint Configuration Manager. Você pode usar o Configuration Manager para ajudá-lo a mudar para o Windows 10 e, em seguida, adicionar o Microsoft Intune. Trabalhando juntos, o Microsoft Endpoint Configuration Manager se torna a borda inteligente dentro de sua organização, conectado à nuvem inteligente da Microsoft. Isso permite que você gerencie os dispositivos de seus usuários com segurança onde quer que eles estejam, estejam conectados na nuvem de sua organização ou na nuvem pública.
 
-[Cogerenciamento para dispositivos com o Windows 10](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview)
+[Cogerenciamento para dispositivos com o Windows 10](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)
 
 **Serviço de Implantação baseado em nuvem:** Conforme você adquire novos computadores, apresentamos um novo serviço de nuvem para ajudá-lo a implantar os dispositivos com Microsoft 365, chamado de serviço de implantação do Windows Autopilot. O Autopilot é integrado aos seus provedores de hardware e novos computadores são registrados automaticamente no Autopilot, permitindo que o novo computador seja enviado diretamente ao usuário final. Quando o computador é ligado pela primeira vez, ele é configurado rapidamente para a configuração desejada pela sua organização e personalizado para as necessidades específicas do usuário.
 
@@ -73,7 +73,7 @@ Vamos começar dando uma olhada no que mudou e melhorou desde a sua última impl
 
 **Implantações Clique para Executar:** Para provisionar aplicativos da área de trabalho do Office, o Office 365 ProPlus é a opção preferida. Isso lhe dá acesso às mais recentes inovações no Office conforme elas são desenvolvidas, para que você não tenha que esperar por anos para conseguir novos recursos. Você também usará uma nova instalação chamada Clique para Executar.
 
-Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Clique para Executar é mais rápido, mais leve e oferece suporte para atualizações em segundo plano para manter seus usuários ativos. Ele ainda é uma cópia local do Office e você pode continuar a usar suas ferramentas de implantação existentes, como o System Center Configuration Manager para provisionar e configurar os aplicativos.
+Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Clique para Executar é mais rápido, mais leve e oferece suporte para atualizações em segundo plano para manter seus usuários ativos. Ele ainda é uma cópia local do Office e você pode continuar a usar suas ferramentas de implantação existentes, como o Microsoft Endpoint Configuration Manager para provisionar e configurar os aplicativos.
 
 [Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
 
@@ -83,7 +83,7 @@ Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Cl
 
 Antes de começar, você deve criar um plano de alto nível e integrar os patrocinadores necessários. Nossa roda do processo de implantação descreve passos críticos para ajudá-lo a identificar os principais membros da equipe e recursos para gerenciar as seguintes áreas de implantação.
 
-**[Etapa 1: Preparação do Dispositivo e Aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você deve saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade. Para ajudar nisso, você pode aproveitar as ferramentas disponíveis em nosso serviço baseado em nuvem, o Desktop Analytics. O desktop Analytics permite que você aproveite a inteligência de compatibilidade e os dados de diagnóstico obtidos de milhões de computadores para avaliar os aplicativos e os drivers em execução no seu dispositivo, para que você possa estabelecer a prontidão da área de trabalho. Você pode até exportar uma lista de “Computadores prontos para implantação” do Desktop Analytics para o System Center Configuration Manager se você usá-lo, permitindo que você crie coleções orientadas por dados de computadores direcionados conforme eles ficam prontos.
+**[Etapa 1: Preparação do Dispositivo e Aplicativo](https://aka.ms/mdd1)** Para uma implantação bem-sucedida, primeiro você deve saber o que tem. Isso significa fazer um inventário de seus dispositivos e aplicativos e verificar a compatibilidade. Para ajudar nisso, você pode aproveitar as ferramentas disponíveis em nosso serviço baseado em nuvem, o Desktop Analytics. O desktop Analytics permite que você aproveite a inteligência de compatibilidade e os dados de diagnóstico obtidos de milhões de computadores para avaliar os aplicativos e os drivers em execução no seu dispositivo, para que você possa estabelecer a prontidão da área de trabalho. Você pode até mesmo exportar uma lista de “Computadores prontos para implantação” do Desktop Analytics para o Configuration Manager se você o estiver usando, permitindo a criação de coleções direcionadas por dados dos computadores de destino, à medida que esses computadores ficam prontos para a implantação.
 
 [Introdução ao Upgrade Readiness](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-readiness-get-started)
 
@@ -97,7 +97,7 @@ Antes de começar, você deve criar um plano de alto nível e integrar os patroc
 
 **[Etapa 4: Migração de arquivos e configurações do usuário](https://aka.ms/mdd4)** Essa é uma etapa crítica em qualquer substituição de computador ou ciclo de atualização: é necessário garantir que os arquivos, os dados e as configurações dos usuários sejam movidos com êxito e preservados durante a migração. Esta etapa abrange as opções disponíveis para migrações manuais ou automatizadas, incluindo opções conhecidas e novas.
 
-Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados de Usuários continua a ser uma ferramenta valiosa para automatizar este processo e permanece uma parte de migrações coordenadas usando o System Center Configuration Manager ou o Microsoft Deployment Toolkit. Mas mover todos esses dados na migração pode ser um afunilamento do tempo para a substituição do computador por causa da física envolvida na transferência de, às vezes, centenas de gigabytes por computador duas vezes – a primeira do computador existente, a segunda para o novo computador. Uma nova opção habilitada pelo OneDrive é Mover Pastas Conhecidas, usada para sincronizar documentos e imagens do usuário e arquivos da área de trabalho em escala, na nuvem e antes da implantação.
+Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados de Usuários continua a ser uma ferramenta valiosa para automatizar este processo e permanece uma parte de migrações coordenadas usando o Microsoft Endpoint Configuration Manager ou o Kit de Ferramentas de Implantação da Microsoft. Mas mover todos esses dados na migração pode ser um afunilamento do tempo para a substituição do computador por causa da física envolvida na transferência de, às vezes, centenas de gigabytes por computador duas vezes – a primeira do computador existente, a segunda para o novo computador. Uma nova opção habilitada pelo OneDrive é Mover Pastas Conhecidas, usada para sincronizar documentos e imagens do usuário e arquivos da área de trabalho em escala, na nuvem e antes da implantação.
 
 [Redirecionar e mover as pastas conhecidas do Windows para o OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)
 
@@ -107,7 +107,7 @@ Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados 
 
 **[Etapa 6: Implantação do sistema operacional e atualizações de recursos](https://aka.ms/mdd6)** Com tudo preparado, a próxima etapa é implantar as imagens do sistema operacional. Muito do trabalho pesado pode ser feito usando as sequências de tarefas e a infraestrutura do System Center Configuration Manager. A abordagem recomendada é implantar em fases, visando e implantando em um "grupo de adoção antecipada" em sua organização usando um conjunto representativo de hardware e aplicativos. Você pode usar os dados desses dispositivos e usuários e ter como destino cada vez mais computadores, de forma gradual.
 
-[Introdução à implantação do sistema operacional no System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
+[Introdução à implantação do sistema operacional no Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
 **[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)** Isso representa uma grande mudança na forma que você mantém o estado real do computador dos usuários. Com essa mudança para o Windows 10 e o Office 365 ProPlus, você pode passar a gerenciar o Windows e o Office como um serviço. Em vez de uma grande mudança de tecnologia em pequenos intervalos de anos, você estará trazendo novos recursos, experiências e proteções ao seu usuário. As atualizações de recursos semestrais oferecem novos recursos no outono e primavera de cada ano, enquanto as Atualizações de Qualidade cumulativas contêm segurança, confiabilidade e correção de bugs. Embora você possa optar por implantar o cliente do Office 2019, recomendamos que você mude para o Office 365 ProPlus. Isso segue um plano de serviço semelhante para o Windows para que seus usuários também recebam atualizações para os aplicativos do Office regularmente.
 
