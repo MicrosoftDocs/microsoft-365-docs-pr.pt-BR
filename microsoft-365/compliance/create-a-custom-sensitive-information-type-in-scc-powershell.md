@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informações confidenciais personalizado para DLP no Centro de Conformidade e Segurança.
-ms.openlocfilehash: b2dbc9bdef01c349e7c9dc7e3716c661775d2a81
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: d470d6c8184f87af1ad78aae2979c6b87ca81676
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "39266086"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122450"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Crie um tipo de informações confidenciais personalizado no PowerShell do Centro de Conformidade e Segurança
 
@@ -350,6 +350,8 @@ Observe que, no Centro de Conformidade &amp; Segurança, você usa o cmdlet **[N
   
 ## <a name="upload-your-rule-package"></a>Carregar o pacote de regras
 
+
+
 Para carregar o pacote de regras, siga as etapas:
   
 1. Salve-o como um arquivo .xml com codificação Unicode.
@@ -359,18 +361,21 @@ Para carregar o pacote de regras, siga as etapas:
 3. Use a seguinte sintaxe:
 
 ```powershell
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte)
+New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte) -ReadCount 0
 ```
 
     This example uploads the Unicode XML file named MyNewRulePack.xml from C:\My Documents.
 
 ```powershell
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\My Documents\MyNewRulePack.xml" -Encoding Byte)
+New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\My Documents\MyNewRulePack.xml" -Encoding Byte) -ReadCount 0
 ```
 
     For detailed syntax and parameter information, see [New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpsensitiveinformationtyperulepackage).
 
-5. Para confirmar que você criou um novo tipo de informação confidencial com êxito, execute uma destas etapas:
+> [!NOTE]
+> O limite para coleções de tipo personalizado de informações confidenciais é de 10.
+
+4. Para confirmar que você criou um novo tipo de informação confidencial com êxito, execute uma destas etapas:
 
   - Execute o cmdlet [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) para verificar se o novo pacote de regras está listado:
 

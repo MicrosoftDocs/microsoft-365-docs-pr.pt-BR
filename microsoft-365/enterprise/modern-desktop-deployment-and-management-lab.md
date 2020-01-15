@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 0083eb91b49561c858cacc94a148e97c7463b754
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1d95edce079f515572c977913da2ee432514f983
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801356"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112505"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
 Baixáveis e práticos, estes laboratórios se concentram na implantação do Windows 10 e do Office 365, juntamente com considerações de configuração e gerenciamento relacionadas após a implantação. Este treinamento é altamente recomendado para organizações que estão se preparando para o final da vida útil do Windows 7, mas também se aplica ao Windows 10 e Office 365 Plus ou Office 2019. Estão incluídos guias do Windows 10, Office 365 ProPlus, Enterprise Mobility + Security e produtos e serviços relacionados.
 
-Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda de Implementação do Desktop, abrangendo o System Center Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda da Implementação de Desktop, abrangendo o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
 Como parte do processo de [Implantação de Desktop](https://www.aka.ms/howtoshift) do Windows 10 e do Office 365 ProPlus, a criação de um ambiente de laboratório isolado ou em área restrita é o ponto de partida recomendado quando você começa a explorar as atualizações da ferramenta de implantação e a testar sua automação relacionada à implantação.
 
@@ -38,7 +38,7 @@ O laboratório fornece um ambiente de laboratório virtual provisionado automati
 
   - Windows 10 Enterprise, Versão 1909
   - Windows 7 Enterprise
-  - System Center Configuration Manager, versão 1902
+  - Microsoft Endpoint Configuration Manager, Versão 1902
   - Kit de Avaliação e Implantação do Windows para Windows 10, versão 1903
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V) 5.1
@@ -72,7 +72,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ### <a name="office-and-lob-app-delivery"></a>**Entrega de Aplicativos do Office e LOB**
 
-  - Implantação do Office 365 ProPlus usando o System Center Configuration Manager
+  - Implantação do Office 365 ProPlus usando o Microsoft Endpoint Configuration Manager
   - Implantação do Office 365 ProPlus usando o Microsoft Intune
   - Implantação e gerenciamento de aplicativo usando o Microsoft Intune
   - Instalação de autoatendimento e implantação do aplicativo usando o Microsoft Store para Empresas
@@ -126,7 +126,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 
-  - [Implantação do sistema operacional do System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Implantação de Sistema Operacional usando o Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Plano de implantação do Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as opções de implantação e atualizações de recursos do sistema operacional.
-ms.openlocfilehash: c789ac0d62fd0b8c915f21174cae2b81e49e0c97
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 7da7c9ade2be43e8c60726bafd69cc7939b7bddc
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031666"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112675"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Etapa 6: Implantação de sistema operacional e atualizações de recursos
 
@@ -49,13 +49,13 @@ A maioria das organizações usa o processo de geração de imagens de computado
 
 Caso opte pela captura de imagem, é melhor automatizar tanto quanto possível para garantir a melhor qualidade de imagem e um processo que possa ser repetido. Na maioria das implantações, também é recomendado usar a menor quantidade de personalização e de aplicativos pré-instalados possível na imagem do Windows antes de capturar. Isso é o que chamamos de abordagem de "imagem pequena" que pode economizar largura de banda geral na rede eliminando a quantidade de aplicativos na imagem. Começando com uma imagem pequena, você pode colocar aplicativos, idiomas e configurações necessários ajustados de forma dinâmica para os usuários.
 
-Durante o processo de criação e captura, ferramentas como o System Center Configuration Manager (Branch Atual) e o Kit de Ferramentas de Implantação da Microsoft usam a Ferramenta de Preparação do Sistema, ou Sysprep, juntamente com o comando "Generalize" para selar novamente a imagem antes de capturar a instalação do Windows 10 como uma imagem.
+Durante o processo de criação e captura, ferramentas como o Microsoft Endpoint Configuration Manager (Branch Atual) e o Kit de Ferramentas de Implantação da Microsoft usam a Ferramenta de Preparação do Sistema, ou Sysprep, juntamente com o comando "Generalize" para selar novamente a imagem antes de capturar a instalação do Windows 10 como uma imagem.
 
-A imagem capturada terá o formato de imagem do Windows, ou WIM, como mídia de instalação padrão do Windows. Quando tiver seu arquivo WIM personalizado, será possível usar outra sequência de tarefas como parte da implantação do sistema operacional no System Center Configuration Manager ou no Kit de Ferramentas de Implantação da Microsoft para realizar tarefas relacionadas à implantação, para aplicar tarefas de execução e imagem antes e depois da aplicação da imagem do Windows.
+A imagem capturada terá o formato de imagem do Windows, ou WIM, como mídia de instalação padrão do Windows. Quando tiver seu arquivo WIM personalizado, será possível usar outra sequência de tarefas como parte da implantação do sistema operacional no Microsoft Endpoint Configuration Manager ou no Kit de Ferramentas de Implantação da Microsoft para realizar tarefas relacionadas à implantação, para aplicar tarefas de execução e imagem antes e depois da aplicação da imagem do Windows.
 
 [Criar uma imagem de referência do Windows 10](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Criar uma sequência de tarefas para instalar um Sistema Operacional](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>Tipos de implantação
 
@@ -73,7 +73,7 @@ Todos os três cenários têm algo em comum, eles usam uma sequência de tarefas
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>Atualização no local usando automação de sequência de tarefas
 
-Além desses tipos de implantação, há uma nova opção disponível agora como uma Sequência de Tarefas do System Center Configuration Manager (Branch Atual) com Windows 10 e atualização no local usando a Sequência de Tarefas Atualizar.
+Além desses tipos de implantação, há uma nova opção disponível agora como uma Sequência de Tarefas do Microsoft Endpoint Configuration Manager (Branch Atual) com Windows 10, e atualização no local usando a Sequência de Tarefas Atualizar.
 
 As atualizações no local de uma versão anterior do Windows não precisam de uma sequência de tarefas, mas é uma abordagem recomendada ao implantar em escala empresarial. Uma atualização no local não permite a aplicação de uma imagem personalizada com aplicativos, mas você pode atualizar o install.wim padrão usando a manutenção offline. Por exemplo, você pode garantir que ele tenha as atualizações mais recentes do Windows aplicadas antes de executar as atualizações.
 
@@ -87,7 +87,7 @@ O cenário de atualização no local pode ser usado para migrar para o Windows 1
 
 [Executar uma atualização no local para o Windows 10 usando o Configuration Manager](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>Implantação em fases
 
@@ -95,11 +95,11 @@ Durante o planejamento da implantação, você segmentará os computadores como 
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
-### <a name="recommended-tools-system-center-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>Ferramentas Recomendadas: System Center Configuration Manager (Branch Atual) e o Kit de Ferramentas de Implantação da Microsoft
+### <a name="recommended-tools-microsoft-endpoint-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>Ferramentas Recomendadas: Microsoft Endpoint Configuration Manager (Branch Atual) e o Kit de Ferramentas de Implantação da Microsoft
 
 Independentemente do tipo de implantação escolhido, convém garantir que ele seja tão automatizado quanto possível para fins de previsibilidade e capacidade de repetição. A Microsoft oferece duas soluções para automatizar a implantação do sistema operacional usando sequência de tarefas automatizada:
 
-  - **[System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction)** (ConfigMgr) oferece recursos internos de implantação do sistema operacional para complementar os recursos de distribuição e gerenciamento de atualização de software. O ConfigMgr é amplamente usado por organização de todos os tamanhos e oferece suporte a todos os quatro tipos de implantação do Windows. De forma opcional, é possível integrar o ConfigMgr ao Microsoft Intune para adicionar outros recursos de implantação e gerenciamento de dispositivos.
+  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction)** (ConfigMgr) oferece recursos internos de implantação do sistema operacional para complementar os recursos de distribuição e gerenciamento de atualização de software. O ConfigMgr é amplamente usado por organização de todos os tamanhos e oferece suporte a todos os quatro tipos de implantação do Windows. De forma opcional, é possível integrar o ConfigMgr ao Microsoft Intune para adicionar outros recursos de implantação e gerenciamento de dispositivos.
 
   - E uma opção popular de implantação é o **[Kit de Ferramentas de Implantação da Microsoft](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)** (MDT) que normalmente é usado por organizações de pequeno e médio porte para implantação de sistema operacional. Isso requer muito pouca infraestrutura. O MDT se integra aos Windows Deployment Services (WDS) para inicialização de rede. Ele é compatível com todos os quatro tipos de implantação, assim como a instalação de aplicativos, drivers e configurações. E, claro, o MDT pode ser integrado ao Configuration Manager.
 
@@ -117,7 +117,7 @@ Em seguida, quando um usuário se conecta ao PC durante a configuração usando 
 
 ## <a name="windows-update-for-business-for-feature-updates"></a>Atualizações de recursos do Windows Update para Empresas
 
-O Windows Update para Empresas é um serviço gratuito que permite que profissionais de TI mantenham os dispositivos Windows 10 sempre atualizado, conectando-os diretamente ao serviço de atualização do Windows. O Windows Update para Empresas pode ser configurado na Política de grupo ou nas soluções MDM como Microsoft Intune e permite que profissionais de TI criem [anéis de implantação](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates) para validar os novos builds. Ele está integrado às ferramentas de gerenciamento existentes, como o WSUS (Windows Server Update Services), o System Center Configuration Manager (branch atual) e o Microsoft Intune. Além disso, o Windows Update para Empresas dá suporte à distribuição ponto a ponto para ajudar a otimizar a eficiência da largura de banda e reduzir o congestionamento da rede.
+O Windows Update para Empresas é um serviço gratuito que permite que profissionais de TI mantenham os dispositivos Windows 10 sempre atualizado, conectando-os diretamente ao serviço de atualização do Windows. O Windows Update para Empresas pode ser configurado na Política de grupo ou nas soluções MDM como Microsoft Intune e permite que profissionais de TI criem [anéis de implantação](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates) para validar os novos builds. Ele está integrado às ferramentas de gerenciamento existentes, como o WSUS (Windows Server Update Services), o Microsoft Endpoint Configuration Manager (Branch Atual) e o Microsoft Intune. Além disso, o Windows Update para Empresas dá suporte à distribuição ponto a ponto para ajudar a otimizar a eficiência da largura de banda e reduzir o congestionamento da rede.
 
 Para saber mais sobre o Windows Update para Empresas, examine a documentação a seguir:
 
