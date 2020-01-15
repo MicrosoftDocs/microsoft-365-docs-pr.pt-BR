@@ -1,7 +1,7 @@
 ---
 title: Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Cohasset Associates comprovou que, quando o Exchange Online e o Centro de Conformidade e Segurança são configurados conforme recomendado, eles atendem aos requisitos de armazenamento relevantes das normas 1.31(c)-(d) da CFTC, 4511 da FINRA e 17a-4 da SEC. A avaliação está disponível para baixar.
-ms.openlocfilehash: 60b8d27ed75afbfd6ffc5d8e254738ea62e0d21b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073030"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122420"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
 
@@ -65,7 +65,7 @@ O Bloqueio de Preservação pode ajudar na conformidade com os requisitos regula
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 
-Estamos cientes de algumas limitações do Exchange Online. Por isso, estamos trabalhando ativamente para resolvê-las e esperamos lançar o suporte para os seguintes cenários, em julho de 2019:
+No momento, há algumas limitações no Exchange Online:
 
 - A auditoria em nível de item não está disponível para caixas de correio de Grupo do Office 365.
 - As comunicações encadeadas não estão disponíveis para mensagens de canal e chat do Teams.
