@@ -14,17 +14,17 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: 0e901a162be61c7be2465a0054669ebc459e6f3f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b7f4ef60b4f9c82055dce42291b1abca504a8248
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031086"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112545"
 ---
 # <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
 
 <strong>Atualizar do Windows 7 para o Windows 10</strong>
-<p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o System Center Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </p>
+<p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o Microsoft Endpoint Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </p>
 
 <p>
 </p>
