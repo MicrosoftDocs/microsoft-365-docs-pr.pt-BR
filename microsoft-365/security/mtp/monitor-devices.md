@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 37e273a3e01177dec23b668ecb8a6301011ab88d
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: e6a12f361a824a9abf96b92e27ae99f0309c6d6b
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966899"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122440"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de dispositivos no centro de segurança do Microsoft 365
 
@@ -29,7 +29,7 @@ Obtenha alertas atualizados sobre a atividade de violação e outras ameaças em
 
 ### <a name="monitor-high-impact-alerts"></a>Monitorar alertas de alto impacto
 
-Cada alerta ATP do Microsoft defender tem uma severidade correspondente alta, média, baixa ou informativa que indica seu impacto em potencial para a sua rede, se for deixado autônomo.  
+Cada alerta ATP do Microsoft defender tem uma severidade correspondente (alta, média, baixa ou informativa) que indica seu impacto em potencial para a sua rede se não for deixado autônomo.  
 
 Use o cartão de **severidade de alerta de dispositivo** para se concentrar especificamente nos alertas que são mais graves e podem exigir resposta imediata. Neste cartão, você pode exibir mais informações no portal da central de segurança do Microsoft defender.
 
@@ -47,9 +47,9 @@ Neste cartão, você pode exibir mais informações no portal da central de segu
 
 ### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>Compreender os tipos de ameaças que acionam alertas
 
-O Microsoft defender ATP classifica cada alerta em uma categoria que representa um determinado estágio na cadeia de ataque ou um tipo de componente de ameaça. Por exemplo, as atividades de ameaça detectadas podem ser categorizadas no movimento lateral para indicar que a atividade envolvia uma tentativa de alcançar outros dispositivos na rede e que tenha sido provavelmente após os invasores terem um incorrido inicial. Quando detectada, um componente de ameaça pode ser classificado amplamente como malware ou mais especificamente como ransomware, roubo de credencial ou outros tipos de software mal-intencionado ou indesejado.
+O Microsoft defender ATP classifica cada alerta em uma categoria que representa um determinado estágio na cadeia de ataque ou um tipo de componente de ameaça. Por exemplo, uma atividade de ameaça detectada pode ser categorizada como "movimento lateral" para indicar que houve uma tentativa de acessar outros dispositivos na rede. A atividade também provavelmente ocorreu depois que os invasores obtiveram um destaque inicial. Quando detectada, um componente de ameaça pode ser classificado amplamente como um malware ou mais especificamente como ransomware, roubo de credencial ou outros tipos de software mal-intencionado ou indesejado.
 
-O cartão de **categorias de ameaça de dispositivo** mostra a distribuição de alertas nessas categorias. Você pode usar essas informações para identificar a atividade de ameaças, como tentativas de roubo de credenciais, que podem ter um impacto mais significativo em comparação às tentativas da engenharia social, por exemplo. Você também pode usar isso para monitorar ameaças potencialmente destrutivas, como ransomware.
+O cartão de **categorias de ameaça de dispositivo** mostra a distribuição de alertas nessas categorias. Você pode usar essas informações para identificar a atividade de ameaças, como tentativas de roubo de credenciais, que podem ter maior impacto em comparação às tentativas de engenharia social. Você também pode usar essas informações para monitorar ameaças potencialmente destrutivas, como ransomware.
 
 ![Cartão de categorias de ameaças de dispositivos](../images/device-threat-categories.png)
 
@@ -76,14 +76,14 @@ Observação: em alguns casos, as informações de classificação não estão d
 
 Além de classificar se um alerta é verdadeiro ou falso durante a resolução, sua equipe de segurança pode fornecer uma determinação, indicando o tipo de atividade normal ou mal-intencionada encontrada durante a validação do alerta.
 
-O cartão de **determinação de alerta de dispositivo** mostra a determinação oferecida para cada alerta, especificamente:
+O cartão de **determinação de alerta de dispositivo** mostra a determinação fornecida para cada alerta.
 
-* A **apt** é uma ameaça persistente avançada, indicando que a atividade detectada ou o componente de ameaça faz parte de uma violação sofisticada projetada para obter uma brecha na rede afetada  
-* Código ou arquivo mal-intencionado de **malware**
-* Atividade normal da **equipe de segurança** realizada pela equipe de segurança
-* Atividade de **teste de segurança** ou componentes projetados para simular ameaças reais e que devem disparar sensores de segurança e gerar alertas
-* Aplicativos de **software indesejados** e outros softwares que não são considerados mal intencionados, mas que, de outra forma, violam os padrões de uso aceitável
-* **Outras** determinam que não estão sob os tipos fornecidos
+* **Apt**: ameaça persistente avançada, indicando que a atividade detectada ou o componente de ameaça faz parte de uma violação sofisticada projetada para obter uma brecha na rede afetada  
+* **Malware**: arquivo ou código mal-intencionado
+* **Equipe de segurança**: atividade normal realizada pela equipe de segurança
+* **Teste de segurança**: atividade ou componentes projetados para simular ameaças reais e que devem disparar sensores de segurança e gerar alertas
+* **Software indesejado**: aplicativos e outros softwares que não são considerados mal-intencionados, mas que, de outra forma, violam os padrões de política ou de uso aceitáveis
+* **Outros**: qualquer outra determinação que não esteja nos tipos fornecidos
 
 Neste cartão, você pode exibir mais informações na central de segurança do Microsoft defender.
 
@@ -116,19 +116,19 @@ A **conformidade do dispositivo** mostra quantos dispositivos estão registrados
 
 ### <a name="discover-devices-with-malware-detections"></a>Descobrir dispositivos com detecções de malware
 
-As **detecções de malware de dispositivo** fornecem o número de dispositivos registrados do Intune com malware que não foram totalmente resolvidos devido às ações pendentes de uma reinicialização, de uma verificação completa ou de ações de usuário manual ou se a ação de correção não for concluída com êxito.
+As **detecções de malware de dispositivo** fornecem o número de dispositivos registrados pelo Intune com malware que não foram totalmente resolvidos. Isso pode ser devido a ações pendentes, a reinicialização, a uma verificação completa, ações manuais do usuário ou se a ação de correção não for concluída com êxito.
 
 ![Cartão de detecções de malware de dispositivo](../images/device-malware-detections.png)
 
 ### <a name="understand-the-types-of-malware-detected"></a>Compreender os tipos de malware detectados
 
-**Tipos de malware em dispositivos** mostra diferentes tipos de malware detectados em dispositivos registrados no Intune. Você pode investigar cada tipo na central de segurança do Microsoft 365.
+Os **tipos de malware nos dispositivos** mostram diferentes tipos de malware detectados em dispositivos registrados no Intune. Você pode investigar cada tipo na central de segurança do Microsoft 365.
 
 ![Tipos de malware no cartão de dispositivos](../images/types-of-malware-on-devices.png)
 
 ### <a name="understand-the-specific-malware-detected-on-your-devices"></a>Entender o malware específico detectado em seus dispositivos
 
-**Malware em dispositivos** fornece uma lista de malware específico detectado em seus dispositivos.
+**Malware em dispositivos** fornecem uma lista de malware específico detectado em seus dispositivos.
 
 ![Placa de malware em dispositivos](../images/malware-on-devices.png)
 
@@ -140,7 +140,7 @@ As **detecções de malware de dispositivo** fornecem o número de dispositivos 
 
 ### <a name="understand-which-users-have-devices-with-the-most-malware"></a>Entender quais usuários têm dispositivos com mais malware
 
-**Os usuários com detecções de malware** mostram aos usuários dispositivos com mais detecções de malware. na central de segurança do Microsoft 365, você pode ver quantos dispositivos são atribuídos a cada usuário e mais informações sobre cada dispositivo e o tipo de malware.
+**Os usuários com detecções de malware** mostram usuários com dispositivos com mais detecções de malware. Na central de segurança do Microsoft 365, você pode ver quantos dispositivos são atribuídos a cada usuário e mais informações sobre cada dispositivo e o tipo de malware.
 
 ![Usuários com cartão de detecção de malware](../images/users-with-malware-detections.png)
 
@@ -154,9 +154,9 @@ O cartão de **regras de redução da superfície de ataque** fornece uma visão
 
 A barra superior do cartão mostra o número total de dispositivos que estão nos seguintes modos de implantação:
 
-* Dispositivos de **modo de bloqueio** com pelo menos uma regra configurada para bloquear a atividade detectada
-* Dispositivos de **modo de auditoria** sem regras definidas para bloquear a atividade detectada, mas tem pelo menos uma regra definida para auditar a atividade detectada  
-* **Desligar** dispositivos com todas as regras ASR desativadas
+* **Modo de bloqueio**: dispositivos com pelo menos uma regra configurada para bloquear a atividade detectada
+* **Modo de auditoria**: dispositivos sem regras definidas para bloquear a atividade detectada, mas tem pelo menos um conjunto de regras para auditar a atividade detectada  
+* **Off**: dispositivos com todas as regras ASR desativados
 
 A parte inferior deste cartão mostra as configurações por regra em seus dispositivos. Cada barra indica o número de dispositivos que estão configurados para bloquear ou auditar a detecção ou a regra completamente desativada.
 
@@ -168,10 +168,10 @@ Para exibir informações detalhadas sobre detecções de regra ASR em sua rede,
 
 O gráfico na parte superior da página mostra as detecções com as detecções de empilhamento de tempo que foram bloqueadas ou auditadas. A tabela na parte inferior lista as detecções mais recentes. Use as seguintes informações na tabela para entender a natureza das detecções:
 
-* **Arquivo detectado** o arquivo, geralmente um script ou um documento, cujo conteúdo disparou a atividade de ataque suspeito
-* Nome da **regra** que descreve as atividades de ataque que a regra foi projetada para capturar. Leia sobre regras de ASR existentes
-* **Aplicativo de origem** o aplicativo que carregou ou executou o conteúdo que está disparando a atividade de ataque suspeito. Pode ser um aplicativo legítimo, como navegador da Web, um aplicativo do Office ou uma ferramenta do sistema, como o PowerShell
-* **Publisher** o fornecedor que lançou o aplicativo de origem
+* **Arquivo detectado**: o arquivo, geralmente um script ou um documento, cujo conteúdo disparou a atividade de ataque suspeito
+* **Regra**: nome que descreve as atividades de ataque que a regra foi projetada para capturar. Leia sobre regras de ASR existentes
+* **Aplicativo de origem**: o aplicativo que carregou ou executou o conteúdo que está disparando a atividade de ataque suspeita. Pode ser um aplicativo legítimo, como navegador da Web, um aplicativo do Office ou uma ferramenta do sistema, como o PowerShell
+* **Publisher**: o fornecedor que liberou o aplicativo de origem
 
 ### <a name="review-device-asr-rule-settings"></a>Examinar as configurações de regra ASR do dispositivo
 
@@ -212,6 +212,7 @@ MiscEvents
 ```
 
 #### <a name="check-files-for-exclusion"></a>Verificar arquivos para exclusão
+
 Antes de excluir um arquivo do ASR, recomendamos inspecionar o arquivo para determinar se ele não é mal-intencionado.
 
 Para revisar um arquivo, use a [página informações do arquivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-files) no centro de segurança do Microsoft defender. A página fornece informações de prevalência, bem como a taxa de detecção de antivírus do VirusTotal. Você também pode usar a página para enviar o arquivo para análise profunda.
