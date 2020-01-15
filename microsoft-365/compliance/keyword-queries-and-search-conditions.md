@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar em caixas de correio do Exchange Online e em sites do SharePoint ou do OneDrive for Business usando a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança.  '
-ms.openlocfilehash: d76f92de4b41c7f6f0494af36a7e1aee953b9896
-ms.sourcegitcommit: cbf934ef448fc428f5ed53b07cda7a5f72c89221
+ms.openlocfilehash: 2d3b69090d8b19d474e2049c2082516459d18148
+ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "40911469"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41123652"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -48,7 +48,7 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 > [!NOTE]
 > Ao pesquisar as propriedades de email, não é possível pesquisar itens em que a propriedade especificada está vazia ou em branco. Por exemplo, usando o par *Propriedade: Value* do **assunto: ""** para pesquisar mensagens de email com uma linha de assunto vazia retornará zero resultados. Isso também se aplica ao pesquisar Propriedades de site e de contato.
   
-|**Propriedade**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Property**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
 |Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames:. pptx|Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo. O terceiro exemplo retorna todos os anexos com a extensão de arquivo PPTX.|
 |Cco|O campo Cco de uma mensagem de email. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Todos os exemplos retornam mensagens com Brenda Fernandes incluída no campo Cco.|
@@ -79,7 +79,7 @@ A tabela a seguir lista algumas das propriedades do SharePoint e do OneDrive for
   
 Para obter uma lista completa das propriedades do SharePoint que podem ser pesquisadas, confira [visão geral das propriedades rastreadas e gerenciadas no SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=331599). As propriedades marcadas com um **Sim** na coluna **consultável** podem ser pesquisadas. 
   
-|**Propriedade**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Property**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`author:"Garth Fort"`|Todos os documentos criados por Paulo Araújo.|
 |ContentType|O tipo de conteúdo do SharePoint de um item, como item, documento ou vídeo.|`contenttype:document`|Todos os documentos seriam ser retornados.|
@@ -105,7 +105,7 @@ A tabela a seguir lista as propriedades de contato que estão indexadas e que vo
 > [!TIP]
 > Para pesquisar valores que contenham espaços ou caracteres especiais, use aspas duplas ("") para conter a frase; por exemplo, `businessaddress:"123 Main Street"`. 
   
-|**Propriedade**|**Descrição da propriedade**|
+|**Property**|**Descrição da propriedade**|
 |:-----|:-----|
 |BusinessAddress|O endereço na propriedade **endereço comercial** . A propriedade também é chamada de endereço **comercial** na página de propriedades do contato.|
 |BusinessPhone|O número de telefone em qualquer uma das propriedades do número de **telefone comercial** .|
@@ -328,6 +328,12 @@ Este exemplo retorna mensagens de email ou reuniões de calendário que foram en
   
  `phone* OR smartphone* AND (sent=2016-12-01..2016-11-30) AND ((kind="email") OR (kind="meetings"))`
   
+## <a name="special-characters"></a>Caracteres especiais
+
+Alguns caracteres especiais não estão incluídos no índice de pesquisa e, portanto, não podem ser pesquisados. Isso também inclui os caracteres especiais que representam operadores de pesquisa na consulta de pesquisa. Aqui está uma lista de caracteres especiais substituídos por um espaço em branco na consulta de pesquisa real ou causa um erro de pesquisa.
+
+`+ - = : ! @ # % ^ & ; _ / ? ( ) [ ] { }`
+
 ## <a name="searching-for-site-content-shared-with-external-users"></a>Pesquisar conteúdo de site compartilhado com usuários externos
 
 Você também pode usar o recurso de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar documentos armazenados em sites do SharePoint e do OneDrive for Business que foram compartilhados com pessoas de fora da sua organização. Isso pode ajudá-lo a identificar informações confidenciais ou proprietárias que estão sendo compartilhadas fora de sua organização. Você pode fazer isso usando a `ViewableByExternalUsers` Propriedade em uma consulta de palavra-chave. Essa propriedade retorna documentos ou sites que foram compartilhados com usuários externos usando um dos seguintes métodos de compartilhamento: 
@@ -400,21 +406,19 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 ## <a name="search-tips-and-tricks"></a>Dicas e truques de pesquisa
 
 - Pesquisas de palavra-chave não diferenciam maiúsculas de minúsculas. Por exemplo, **gato** e **GATO** retornam os mesmos resultados. 
-    
-- Os operadores Boolean **e**, **ou**, **não**, **Near**e **ONEAR** devem estar em maiúsculas. 
-    
-- Um espaço entre duas palavras-chave ou duas `property:value` expressões é o mesmo que usar o **e**o. Por exemplo, `from:"Sara Davis" subject:reorganization` retorna todas as mensagens enviadas por Sara Davis que contenham a palavra reorganization na linha de assunto. 
-    
-- Use a sintaxe que corresponde `property:value` ao formato. Os valores não diferenciam maiúsculas de minúsculas e não podem ter um espaço após o operador. Se houver um espaço, seu valor pretendido será uma pesquisa de texto completo. Por exemplo `to: pilarp` , pesquisa "pilarp" como uma palavra-chave, em vez de mensagens que foram enviadas para o pilarp. 
-    
-- Ao pesquisar uma propriedade de destinatário, como To, From, Cc ou Recipients, você pode usar um endereço SMTP, um alias ou um nome de exibição para indicar um destinatário. Por exemplo, você pode usar brendaf@contoso.com, brendaf ou "Brenda Fernandes".
-    
-- Você pode usar apenas pesquisas curinga de prefixo; por exemplo, **Cat\* ** ou **set\***. Pesquisas de sufixo (**\*Cat**), pesquisas de refixo (**\*c t**) e pesquisas de subcadeias (**\*Cat\***) não são suportadas. 
-    
-- Ao pesquisar uma propriedade, use aspas duplas ("") se o valor de pesquisa for composto por várias palavras. Por exemplo `subject:budget Q1` , retorna mensagens que contenham **orçamento** na linha de assunto e que contenham **Q1** em qualquer lugar na mensagem ou em qualquer uma das propriedades da mensagem. Usando `subject:"budget Q1"` retorna todas as mensagens que contêm o **orçamento T1** em qualquer lugar na linha de assunto. 
-    
-- Para excluir o conteúdo marcado com determinado valor de propriedade dos resultados de pesquisa, coloque um sinal de subtração (-) antes do nome da propriedade. Por exemplo, `-from:"Sara Davis"` exclui todas as mensagens enviadas por Sara Davis.
 
-- Alguns caracteres especiais não estão incluídos no índice de pesquisa e, portanto, não podem ser pesquisados, incluindo os operadores de pesquisa (+-=:) e os seguintes caracteres substituídos por um $null ou podem causar erros se pesquisados! @ #% ^ &; _ / ?
+- Os operadores Boolean **e**, **ou**, **não**, **Near**e **ONEAR** devem estar em maiúsculas. 
+
+- Um espaço entre duas palavras-chave ou duas `property:value` expressões é o mesmo que usar o **e**o. Por exemplo, `from:"Sara Davis" subject:reorganization` retorna todas as mensagens enviadas por Sara Davis que contenham a palavra reorganization na linha de assunto. 
+
+- Use a sintaxe que corresponde `property:value` ao formato. Os valores não diferenciam maiúsculas de minúsculas e não podem ter um espaço após o operador. Se houver um espaço, seu valor pretendido será uma pesquisa de texto completo. Por exemplo `to: pilarp` , pesquisa "pilarp" como uma palavra-chave, em vez de mensagens que foram enviadas para o pilarp. 
+
+- Ao pesquisar uma propriedade de destinatário, como To, From, Cc ou Recipients, você pode usar um endereço SMTP, um alias ou um nome de exibição para indicar um destinatário. Por exemplo, você pode usar brendaf@contoso.com, brendaf ou "Brenda Fernandes".
+
+- Você pode usar apenas pesquisas curinga de prefixo; por exemplo, **Cat\* ** ou **set\***. Pesquisas de sufixo (**\*Cat**), pesquisas de refixo (**\*c t**) e pesquisas de subcadeias (**\*Cat\***) não são suportadas.
+
+- Ao pesquisar uma propriedade, use aspas duplas ("") se o valor de pesquisa for composto por várias palavras. Por exemplo `subject:budget Q1` , retorna mensagens que contenham **orçamento** na linha de assunto e que contenham **Q1** em qualquer lugar na mensagem ou em qualquer uma das propriedades da mensagem. Usando `subject:"budget Q1"` retorna todas as mensagens que contêm o **orçamento T1** em qualquer lugar na linha de assunto.
+
+- Para excluir o conteúdo marcado com determinado valor de propriedade dos resultados de pesquisa, coloque um sinal de subtração (-) antes do nome da propriedade. Por exemplo, `-from:"Sara Davis"` exclui todas as mensagens enviadas por Sara Davis.
 
 - Você pode exportar itens com base no tipo de mensagem. Por exemplo, para exportar conversas do Skype e chats no Microsoft Teams, use `kind:im`a sintaxe. Para retornar apenas mensagens de email, você usaria `kind:email`o. Para retornar chats, reuniões e chamadas no Microsoft Teams, use `kind:microsoftteams`o.

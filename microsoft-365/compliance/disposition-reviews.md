@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: 55a6f52a92c23d8c7fc2464c846faf730617ef2f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: a48d47c6b02ebe20ba5fb48470a2efc88aa3dbc7
+ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806064"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41123662"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 
@@ -56,18 +56,22 @@ Uma análise de disposição pode incluir conteúdo em caixas de correio do Exch
   
 ![Página de desposições no centro de conformidade e segurança](media/Retention-Dispositions-v2-page.png)
 
+
 ## <a name="setting-up-the-disposition-review-by-creating-a-retention-label"></a>Configurando a análise de disposição criando um rótulo de retenção
 
 Este é o fluxo de trabalho básico para configurar uma revisão de disposição. Observe que esse fluxo mostra um rótulo de retenção sendo publicado e, em seguida, aplicado manualmente por um usuário; Como alternativa, um rótulo de retenção que dispara uma análise de disposição pode ser aplicado automaticamente ao conteúdo.
   
 ![Gráfico mostrando o fluxo de como o descarte funciona](media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
   
-Uma revisão de disposição é uma opção quando você cria um rótulo de retenção no Office 365. Observe que essa opção não está disponível em uma política de retenção, mas somente em um rótulo de retenção que é configurado para reter conteúdo.
+Uma revisão de disposição é uma opção quando você cria um rótulo de retenção no Office 365. Essa opção não está disponível em uma política de retenção, mas somente em um rótulo de retenção que é configurado para reter conteúdo.
   
 Para obter mais informações sobre rótulos de retenção, consulte [Overview of Retention Labels](labels.md).
   
 ![Configurações de retenção para um rótulo](media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
-  
+ 
+> [!NOTE]
+> Quando você especifica a opção **notifique estas pessoas quando há itens prontos para revisão**, especifique um usuário ou um grupo de segurança habilitado para email. Os grupos do Office 365 não têm suporte para essa opção.
+
 ## <a name="disposing-content"></a>Descartando conteúdo
 
 Quando um revisor é notificado por email que o conteúdo está pronto para revisão, eles podem ir até a página de **disposição** no &amp; centro de conformidade de segurança. Os revisores podem ver quantos itens de cada rótulo de retenção estão aguardando disposição e, em seguida, selecione um rótulo de retenção para ver todo o conteúdo com esse rótulo.
@@ -94,9 +98,15 @@ Observe também que todas as ações de disposição são auditadas. Para garant
   
 ## <a name="permissions-for-disposition"></a>Permissões para descarte
 
-Para obter acesso à página de **disposição** , os revisores devem ser membros da função de **Gerenciamento de descarte** e da função de logs de **auditoria somente para exibição** . Recomendamos a criação de um novo grupo de função chamado revisores de disposição, adição dessas duas funções a esse grupo de função e adição de membros ao grupo de funções. 
-  
-Para obter mais informações, consulte [conceder aos usuários acesso ao centro de &amp; conformidade de segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+Para obter acesso à página de **disposição** , os revisores devem ser membros da função de **Gerenciamento de descarte** e da função de logs de **auditoria somente para exibição** . Recomendamos criar um novo grupo de função chamado **revisores de disposição**e adicionar essas duas funções a esse grupo de função. 
+
+Específico para a função de **logs de auditoria somente para exibição** :
+
+- Como o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet do Exchange Online, você deve atribuir essa função aos usuários usando o [centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center), em vez de usar a página de **permissões** no centro de conformidade de segurança &. Para obter instruções, consulte [Manage role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
+
+- Os grupos do Office 365 não têm suporte para essa função. Em vez disso, atribua caixas de correio de usuário, usuários de email ou grupos de segurança habilitados para email.
+
+Para obter instruções para conceder aos usuários a função de **Gerenciamento de descarte** e criar sua nova função de **revisores de disposição** , consulte [dar aos &amp; usuários acesso ao centro de conformidade de segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
 ## <a name="how-long-until-disposed-content-is-permanently-deleted"></a>Quanto tempo até o conteúdo Descartado é excluído permanentemente
 
