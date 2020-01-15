@@ -3,7 +3,7 @@ title: Proteção antifalsificação no Office 365
 ms.author: tracyp
 author: MSFTtracyp
 manager: dansimp
-ms.date: 08/30/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: 5685fc29f97c9aa41e472926c4e1f26bfcfd1432
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 1bcf6b954c69297981eafecef192cab0e55a7684
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971989"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112735"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -113,31 +113,25 @@ Examinando os cabeçalhos de uma mensagem, um administrador ou até mesmo um usu
 
 A Microsoft diferencia dois tipos de mensagens de falsificação:
 
- **Falsificação dentro da organização**
+#### <a name="intra-org-spoofing"></a>Falsificação dentro da organização
 
 Também conhecida como falsificação self-to-self, ocorre quando o domínio no endereço De: é igual ou está alinhado ao domínio do destinatário (quando o domínio do destinatário é um dos [domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) de sua organização) ou quando o domínio no endereço De: faz parte da mesma organização.
 
 O exemplo a seguir tem remetente e destinatário do mesmo domínio (contoso.com). Espaços são inseridos no endereço de email para evitar a coleta de spambot na página):
 
-De: remetente @ contoso.com
-
-Para: destinatário @ contoso.com
+> De: remetente @ contoso.com <br/> Para: destinatário @ contoso.com
 
 No seguinte exemplo, os domínios de remetente e destinatário estão alinhados com o domínio organizacional (fabrikam.com):
 
-De: remetente @ foo.fabrikam.com
-
-Para: destinatário @ bar.fabrikam.com
+> De: remetente @ foo.fabrikam.com <br/> Para: destinatário @ bar.fabrikam.com
 
 No seguinte exemplo, os domínios de remetente e destinatário são diferentes (microsoft.com e bing.com), mas pertencem à mesma organização (ou seja, ambos fazem parte dos Domínios Aceitos da organização):
 
-De: remetente @ microsoft.com
-
-Para: destinatário @ bing.com
+> De: remetente @ microsoft.com <br/> Para: destinatário @ bing.com
 
 As mensagens reprovadas na falsificação dentro da organização contêm os seguintes valores nos cabeçalhos:
 
-X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11
+`X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11`
 
 CAT é a categoria da mensagem, normalmente carimbada como SPM (spam), mas ocasionalmente pode ser HSPM (spam de alta confiança) ou PHISH (phishing), dependendo de quais outros tipos de padrões ocorrem na mensagem.
 
@@ -145,13 +139,13 @@ SFTY é o nível de segurança da mensagem. O primeiro dígito (9) significa que
 
 Não há um código de razão específico de Autenticação Composta para falsificação dentro da organização. Ela será marcada mais tarde em 2018 (a linha do tempo ainda não está definida).
 
- **Falsificação entre domínios**
+#### <a name="cross-domain-spoofing"></a>Falsificação entre domínios
 
 Isso ocorre quando o domínio de envio no endereço De: é um domínio externo à organização receptora. Mensagens que são reprovadas na Autenticação Composta devido a falsificação entre domínios contêm os seguintes valores nos cabeçalhos:
 
-Authentication-Results: … compauth=fail reason=000/001
+`Authentication-Results: ... compauth=fail reason=000/001`
 
-X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22
+`X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22`
 
 Em ambos os casos, a seguinte dica de segurança vermelha está marcada na mensagem ou há um equivalente que é personalizado para o idioma da caixa de correio do destinatário:
 
@@ -171,74 +165,74 @@ A nova proteção antifalsificação depende da autenticação de email (SPF, DK
 
 Por exemplo, antes de a antifalsificação ser implantada, uma mensagem pode ter a seguinte aparência, sem nenhum registro SPF, nenhum registro DKIM e nenhum registro DMARC:
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=none
-  action=none header.from=example.com;
-From: sender @ example.com
+  action=none header.from=fabrikam.com;
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
+
 Após a antifalsificação, se você tiver o Office 365 Enterprise E5, EOP ou ATP, o valor de compauth será marcado:
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=none
-  action=none header.from=example.com; compauth=fail reason=001
-From: sender @ example.com
+  action=none header.from=fabrikam.com; compauth=fail reason=001
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
-
 ```
 
-Se example.com corrigiu isso configurando um registro SPF, mas não um registro DKIM, isso seria aprovado pela autenticação composta porque o domínio aprovado no SPF estava alinhado com o domínio no endereço De:
+Se fabrikam.com corrigiu isso configurando um registro SPF mas não um registro DKIM, isso seria aprovado pela autenticação composta porque o domínio aprovado no SPF estava alinhado com o domínio no endereço De:
 
-```
+```text
 Authentication-Results: spf=pass (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=bestguesspass
-  action=none header.from=example.com; compauth=pass reason=109
-From: sender @ example.com
+  action=none header.from=fabrikam.com; compauth=pass reason=109
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
 Ou, caso tenha sido configurado um registro DKIM, mas não um registro SPF, isso também será aprovado na autenticação composta porque o domínio na Assinatura DKIM aprovada estava alinhado com o domínio no endereço De:
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=pass
-  (signature was verified) header.d=outbound.example.com;
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=pass
+  (signature was verified) header.d=outbound.fabrikam.com;
   contoso.com; dmarc=bestguesspass action=none
-  header.from=example.com; compauth=pass reason=109
-From: sender @ example.com
+  header.from=fabrikam.com; compauth=pass reason=109
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
-No entanto, um phisher também pode configurar o SPF e o DKIM e assinar a mensagem com seu próprio domínio, mas especificar um domínio diferente no endereço De:. O SPF e o DKIM não exigem que o domínio se alinhe com o domínio no endereço De:. Portanto, a menos que example.com tenha publicado registros DMARC, isso não será marcado como uma falsificação usando DMARC:
+No entanto, um phisher também pode configurar o SPF e o DKIM e assinar a mensagem com seu próprio domínio, mas especificar um domínio diferente no endereço De:. Nem o SPF nem o DKIM exigem que o domínio se alinhe com o domínio no endereço De:. Portanto, a menos que fabrikam.com tenha publicado registros DMARC, isso não será marcado como uma falsificação usando DMARC:
 
-```
+```text
 Authentication-Results: spf=pass (sender IP is 5.6.7.8)
   smtp.mailfrom=maliciousDomain.com; contoso.com; dkim=pass
   (signature was verified) header.d=maliciousDomain.com;
-  contoso.com; dmarc=none action=none header.from=example.com;
-From: sender @ example.com
+  contoso.com; dmarc=none action=none header.from=fabrikam.com;
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
-No cliente de email (Outlook, Outlook na Web ou qualquer outro cliente de email), apenas o domínio De: é exibido, não o domínio no SPF ou DKIM. Isso pode induzir o usuário a pensar que a mensagem veio de example.com, mas na verdade, ela veio de maliciousDomain.com.
+No cliente de email (Outlook, Outlook na Web ou qualquer outro cliente de email), apenas o domínio De: é exibido, não o domínio no SPF ou DKIM. Isso pode induzir o usuário a pensar que a mensagem veio de fabrikam.com, quando na verdade, ela veio de maliciousDomain.com.
 
 ![A mensagem foi autenticada, mas o domínio De: não está alinhado com o que foi aprovado no SPF ou no DKIM](../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
 
 Por esse motivo, o Office 365 exige que o domínio no endereço De: se alinhe com o domínio na assinatura SPF ou DKIM e, se ele não se alinhar, que contenha alguns outros sinais internos que indiquem que a mensagem é legítima. Caso contrário, a mensagem será reprovada em compauth.
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 5.6.7.8)
   smtp.mailfrom=maliciousDomain.com; contoso.com; dkim=pass
   (signature was verified) header.d=maliciousDomain.com;
   contoso.com; dmarc=none action=none header.from=contoso.com;
   compauth=fail reason=001
 From: sender@contoso.com
-To: someone@example.com
+To: someone@fabrikam.com
 ```
 
 Portanto, a antifalsificação do Office 365 protege contra domínios sem autenticação e contra domínios que configuram a autenticação, mas não correspondem ao domínio no endereço De: porque ele é o que o usuário vê e acredita ser o remetente da mensagem. Isso vale para is domínios externos à sua organização e para os domínios dela.
@@ -322,7 +316,7 @@ Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnfor
 ```
 
 > [!IMPORTANT]
-> Se o primeiro salto no caminho de email for o Office 365 e você estiver recebendo muitos emails legítimos marcados como falsificação, primeiro configure os remetentes com permissão para enviar e-mails falsificados para seu domínio (confira a seção *"Gerenciar remetentes legítimos que estão enviando emails não autenticados"*). Se você ainda está recebendo muitos falsos positivos (ou seja, mensagens legítimas marcadas como falsificação), NÃO recomendamos desabilitar a proteção antifalsificação. Em vez disso, recomendamos escolher a proteção Básica em vez de Alta. É melhor trabalhar com falsos positivos do que expor sua organização a emails falsificados, o que poderia acabar acarretando custos significativamente mais altos em longo prazo.
+> Se o primeiro salto (hop) no caminho de email for o Office 365 e você estiver recebendo muitos emails legítimos marcados como falsificação, primeiro configure os remetentes com permissão para enviar e-mails falsificados para seu domínio (confira a seção ["Gerenciar remetentes legítimos que estão enviando emails não autenticados"](#managing-legitimate-senders-who-are-sending-unauthenticated-email)). Se você ainda está recebendo muitos falsos positivos (ou seja, mensagens legítimas marcadas como falsificação), NÃO recomendamos desabilitar a proteção antifalsificação. Em vez disso, recomendamos escolher a proteção Básica em vez de Alta. É melhor trabalhar com falsos positivos do que expor sua organização a emails falsificados, o que poderia acabar acarretando custos significativamente mais altos em longo prazo.
 
 ### <a name="managing-legitimate-senders-who-are-sending-unauthenticated-email"></a>Gerenciar remetentes legítimos que estão enviando emails não autenticados
 
@@ -350,9 +344,6 @@ Você também pode usar o PowerShell para permitir que um remetente específico 
 
 ```powershell
 $file = "C:\My Documents\Summary Spoofed Internal Domains and Senders.csv"
-```
-
-```powershell
 Get-PhishFilterPolicy -Detailed -SpoofAllowBlockList -SpoofType External | Export-CSV $file
 ```
 
@@ -443,12 +434,12 @@ Se você não tem certeza se seu domínio de recebimento foi ou não submetido a
 
 a) Primeiro, examine os cabeçalhos na mensagem do domínio do destinatário no cabeçalho Authentication-Results:
 
-```
+```text
 Authentication-Results: spf=fail (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; office365.contoso.net; dkim=fail
-  (body hash did not verify) header.d=simple.example.com;
+  smtp.mailfrom=fabrikam.com; office365.contoso.net; dkim=fail
+  (body hash did not verify) header.d=simple.fabrikam.com;
   office365.contoso.net; dmarc=none action=none
-  header.from=example.com; compauth=fail reason=001
+  header.from=fabrikam.com; compauth=fail reason=001
 ```
 
 O domínio do destinatário é encontrado no texto em negrito acima; neste caso, é office365.contoso.net. Isso pode ser diferente do destinatário no cabeçalho Para:
@@ -477,29 +468,28 @@ Lembre-se: você não deverá desabilitar a antifalsificação se o primeiro sal
 
 ### <a name="how-to-disable-anti-spoofing"></a>Como desabilitar a antifalsificação
 
-Se você já tiver criado uma política antiphishing, defina o parâmetro EnableAntispoofEnforcement como $false:
+Se você já tiver criado uma política antiphishing, defina o parâmetro *EnableAntispoofEnforcement* como $false:
 
-```
+```powershell
 $name = "<name of policy>"
 Set-AntiphishPolicy -Identity $name -EnableAntiSpoofEnforcement $false
-
 ```
 
 Se você não souber o nome da(s) política(s) a ser(em) desabilitada(s), poderá exibi-la(s):
 
-```
-Get-AntiphishPolicy | fl Name
+```powershell
+Get-AntiphishPolicy | Format-List Name
 ```
 
 Se não tiver políticas antiphishing, você poderá criar uma e desabilitá-la (mesmo que você não tenha uma política, a antifalsificação ainda será aplicada; mais adiante em 2018, uma política padrão será criada e você poderá então desabilitá-la em vez de criar uma). Você terá que fazer isso em várias etapas:
 
-```
+```powershell
 $org = Get-OrganizationConfig
 $name = "My first anti-phishing policy for " + $org.Name
 # Note: If the name is more than 64 characters, you will need to choose a smaller one
 ```
 
-```
+```powershell
 # Next, create a new anti-phishing policy with the default values
 New-AntiphishPolicy -Name $Name
 # Select the domains to scope it to
@@ -509,7 +499,6 @@ $domains = "domain1.com, domain2.com, domain3.com"
 New-AntiphishRule -Name $name -AntiphishPolicy -RecipientDomainIs $domains
 # Finally, scope the anti-phishing policy to the domains
 Set-AntiphishPolicy -Identity $name -EnableAntispoofEnforcement $false
-
 ```
 
 A desabilitação da antifalsificação está disponível apenas via cmdlet (mais tarde, ele estará disponível no Centro de Conformidade &amp; Segurança). Se você não tiver acesso ao PowerShell, crie um tíquete de suporte.
@@ -520,35 +509,20 @@ Lembre-se: isso só deve ser aplicado a domínios que passam por roteamento indi
 
 Há limitações na maneira como usuários individuais podem interagir com a dica de segurança antifalsificação. No entanto, há várias coisas que você pode fazer para resolver cenários comuns.
 
-### <a name="common-scenario-1---discussion-lists"></a>Cenário comum nº 1 ‒ Listas de discussão
+### <a name="common-scenario-discussion-lists"></a>Cenário comum: Listas de discussão
 
 Sabe-se que as listas de discussão têm problemas com a antifalsificação, devido à maneira como encaminham mensagens e modificam o conteúdo, mas mantêm o endereço De: original.
 
-Por exemplo, suponha que seu endereço de email seja usuario@contoso.com e você esteja interessado em Observação de Pássaros e participe da lista de discussão observacaodepassaros@example.com. Quando você envia uma mensagem para a lista de discussão, pode enviá-la desta maneira:
+Por exemplo, vamos supor que Gabriela Laureano(glaureano @ contoso.com) esteja interessada em observação de aves e aderiu à lista observadoresdepássaros@ fabrikam.com. Quando uma mensagem é enviada à lista de discussão, ela tem a seguinte aparência:
 
-**De:** Carlos Lima \<usuario @ contoso.com\>
+> **De:** Gabriela Laureano \<glaureano @ contoso.com\> <br/> **Para:** Lista de Discussão de Observação de Pássaros \<observadoresdepássaros @ fabrikam.com\> <br/> 
+**Assunto:** Excelente vista de galos azuis no topo do Monte. Rainier esta semana <br/><br/>Alguém quer conferir esta semana a vista do Monte Rainier?
 
-**Para:** Lista de Discussão de Observação de Pássaros \<observacaodepassaros @ example.com\>
+Quando a lista de emails recebe a mensagem, ela a formata, modificando o seu conteúdo e a reproduz para o restante dos membros da lista de discussão, composta de participantes de vários destinatários de email diferentes.
 
-**Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana
+> **De:** Gabriela Laureano \<glaureano @ contoso.com\> <br/> **Para:** Lista de Discussão de Observação de Pássaros \<observadoresdepássaros @ fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/> Alguém quer conferir esta semana a vista do Monte Rainier? <br/><br/> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
 
-Alguém quer conferir esta semana a vista do Monte Rainier?
-
-Quando a lista de email recebe a mensagem, a formata, modifica seu conteúdo e a reproduz para o restante dos membros da lista de discussão, composta de participantes de vários destinatários de email diferentes.
-
-**De:** Carlos Lima \<usuario @ contoso.com\>
-
-**Para:** Lista de Discussão de Observação de Pássaros \<observacaodepassaros @ example.com\>
-
-**Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana
-
-Alguém quer conferir esta semana a vista do Monte Rainier?
-
----
-
-Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
-
-No exemplo acima, a mensagem repetida tem o mesmo endereço De: (usuario @ contoso.com), mas a mensagem original foi modificada com a adição de uma marca à linha Assunto e um rodapé à parte inferior da mensagem. Esse tipo de modificação de mensagem é comum em listas de discussão e pode resultar em falsos positivos.
+No exemplo acima, a mensagem repetida tem o mesmo endereço De: (usuario @ contoso.com), mas a mensagem original foi modificada com a adição de uma marca à linha Assunto e de um rodapé à parte inferior da mensagem. Esse tipo de modificação de mensagem é comum em listas de discussão e pode resultar em falsos positivos.
 
 Se você ou alguém de sua organização for um administrador de lista de discussão, você poderá configurá-la para aprovação em verificações antifalsificação.
 
@@ -558,13 +532,13 @@ Se você ou alguém de sua organização for um administrador de lista de discus
 
 - Considere a instalação de atualizações em seu servidor de lista de discussão para dar suporte ao ARC. Veja [https://arc-spec.org](https://arc-spec.org/)
 
-Se você não é proprietário da propriedade da lista de discussão:
+Se você não for o proprietário da lista de endereços:
 
-- Você pode solicitar ao mantenedor da lista de discussão que implemente uma das opções acima (ele também deve configurar a autenticação de email para o domínio do qual a lista de discussão está sendo retransmitida)
+- Você pode solicitar que o mantenedor da lista de discussão implemente uma das opções acima (ele também deve configurar a autenticação de email para o domínio do qual a lista de discussão está sendo retransmitida)
 
-- Você pode criar regras de caixa de correio em seu cliente de email para mover mensagens para a Caixa de Entrada. Você também pode solicitar que os administradores de sua organização configurem regras de permissão ou substituições, conforme discutido na seção Gerenciar remetentes legítimos que estão enviando emails não autenticados
+- Você pode criar regras de caixa de correio em seu cliente de email para mover mensagens para a Caixa de Entrada. Você também pode solicitar que os administradores de sua organização configurem regras de permissão ou substituições, conforme discutido sobre o tópico na seção[Gerenciar remetentes legítimos que estão enviando emails não autenticados](#managing-legitimate-senders-who-are-sending-unauthenticated-email).
 
-- Você pode criar um tíquete de suporte com o Office 365 para criar uma substituição para a lista de distribuição a fim de tratá-la como legítima
+- Você pode criar um tíquete de suporte com o Office 365 para criar uma sobreposição de métodos (override) para a lista de distribuição a fim de tratá-la como legítima.
 
 ### <a name="other-scenarios"></a>Outros cenários
 
@@ -574,7 +548,7 @@ Se você não é proprietário da propriedade da lista de discussão:
 
 3. Além disso, se você souber quem é o remetente e tiver certeza de que ele não está sendo falsificado de forma mal-intencionada, poderá responder ao remetente para indicar que ele está enviando mensagens de um servidor de email que não está autenticado. Às vezes isso faz com que o remetente original entre em contato com o administrador de TI, que configurará os registros de autenticação de email necessários.
 
-Quando um número suficiente de remetentes responde aos proprietários do domínio que devem configurar registros de autenticação de email, isso os incentiva a agir. Embora a Microsoft também trabalhe com proprietários de domínio para publicar os registros necessários, é ainda mais eficaz quando usuários individuais solicitam isso.
+   Quando um número suficiente de remetentes responde aos proprietários do domínio que devem configurar registros de autenticação de email, isso os incentiva a agir. Embora a Microsoft também trabalhe com proprietários de domínio para publicar os registros necessários, é ainda mais eficaz quando usuários individuais solicitam isso.
 
 4. Opcionalmente, adicione o remetente à sua lista de Remetentes Confiáveis. No entanto, lembre-se de que, se um phisher falsificar essa conta, ela será entregue em sua caixa postal. Portanto, essa opção deve ser usada com moderação.
 
@@ -610,9 +584,11 @@ Se você é um administrador de domínio, mas não é cliente do Office 365:
 
 ### <a name="what-if-you-dont-know-who-sends-email-as-your-domain"></a>E se você não souber quem envia emails como seu domínio?
 
-Muitos domínios não publicam registros SPF porque não sabem quem são todos os seus remetentes. Não há problemas. Você não precisa saber quem são todos eles. Em vez disso, você deve começar publicando um registro SPF para aqueles que conhece, especialmente onde o tráfego corporativo está localizado, e publicar uma política de SPF neutra, ?all:
+Muitos domínios não publicam registros SPF porque não sabem quem são todos os seus remetentes. Não há problemas. Você não precisa saber quem são todos eles. Em vez disso, você deve começar publicando um registro SPF daqueles dos quais você tem conhecimento, especialmente onde o tráfego corporativo está localizado, e publicar uma política de SPF neutra, `?all`:
 
-example.com IN TXT "v=spf1 include:spf.example.com ?all"
+```text
+fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
+```
 
 A política de SPF neutra significa que qualquer email que saia de sua infraestrutura corporativa passará pela autenticação de email em todos os outros destinatários de email. O email proveniente de remetentes que você não conhece retornará ao nível neutro, o que é quase o mesmo que não publicar um registro SPF.
 
@@ -622,7 +598,7 @@ Após começar a usar um registro SPF com a política de fallback ?all, você po
 
 ### <a name="what-if-you-are-the-owner-of-a-mailing-list"></a>E se você for o proprietário de uma lista de discussão?
 
-Confira a seção [Cenário comum nº 1 ‒ Listas de discussão](#common-scenario-1---discussion-lists).
+Confira a seção[Cenário comum: Listas de discussão](#common-scenario-discussion-lists) sobre o tópico.
 
 ### <a name="what-if-you-are-an-infrastructure-provider-such-as-an-internet-service-provider-isp-email-service-provider-esp-or-cloud-hosting-service"></a>E se você for um provedor de infraestrutura, como um ISP (Provedor de Serviços de Internet), um ESP (Provedor de Serviços de Email) ou um serviço de hospedagem na nuvem?
 

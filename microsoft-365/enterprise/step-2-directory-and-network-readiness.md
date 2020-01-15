@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: c009a60849390cc9b796a56f66e63d44e12cdc68
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: cae32d7bd7791cdfb0acce564b2a7839d5314a19
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031556"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112605"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -79,7 +79,7 @@ Uma maneira de limitar o impacto do tráfego relacionado a documentos na rede é
 
 [Sobre o BITS](https://docs.microsoft.com/windows/desktop/bits/about-bits)
 
-Se usar o System Center Configuration Manager (Branch Atual), também poderá configurar os Pontos de Distribuição prontos para BITS ou habilitar o multicast com WDS.
+Se você usar o Microsoft Endpoint Configuration Manager (Branch Atual), também poderá configurar os Pontos de Distribuição prontos para BITS ou habilitar o multicast com WDS.
 
 A limitação de tráfego específico significa que o tráfego de rede normal será menos afetado pelos PCs baixando atualizações e aplicativos. Mas separar um determinado percentual de largura de banda para essas tarefas ajuda que a produtividade não seja afetada pela implantação do Windows ou do Office, e o processo continua em execução conforme necessário. Isso pode piorar o tempo de inatividade relacionado à implantação, impedindo o acesso de usuários aos PCs durante a execução da implantação.
 
@@ -89,7 +89,7 @@ Felizmente, há novas ferramentas para facilitar o gerenciamento do efeito na re
 
 ## <a name="scavenging-bandwidth"></a>Busca de largura de banda
 
-O Transporte em Segundo Plano com Latência Otimizada (LEDBAT), com suporte no Windows Server 2019 e no System Center Configuration Manager (Branch Atual), foi projetado para otimizar o tráfego de rede para os clientes do Windows.
+O Transporte em Segundo Plano com Latência Otimizada (LEDBAT), com suporte no Windows Server 2019 e no Microsoft Endpoint Configuration Manager (Branch Atual), foi projetado para otimizar o tráfego de rede para os clientes do Windows.
 
 [10 principais recursos de rede no Windows Server 2019: \#9 LEDBAT – Transporte em segundo plano com latência otimizada](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
 
@@ -101,15 +101,15 @@ Ao contrário do controle tradicional, o LEDBAT pode usar toda a largura de band
 
 As opções de ponto a ponto estão sendo cada vez mais usadas em migrações do Windows 10, para geração de imagens de computador, atualizações de software e personalização de usuário. Elas também são importantes para facilitar as atualizações entre compilações depois da implantação inicial do Windows 10. Aqui vamos ver diversos exemplos para ajudar a mover o tráfego relacionado ao Windows 10 e ao Office para longe do centro da rede, reduzindo a necessidade de abordagens de controle clássicas e permitindo que os PCs encontrem os arquivos de atualização necessários em pontos na rede local em vez de baixá-los de um ponto de distribuição ou da Internet.
 
-O **BranchCache** ajuda a baixar o conteúdo em ambientes distribuídos sem saturar a rede. São duas opções: modo de cache hospedado, que permite usar os servidores locais para armazenar conteúdo em cache, e modo de cache distribuído (um modo com suporte no System Center Configuration Manager), que permite aos clientes compartilhar o conteúdo já baixado entre eles.
+O **BranchCache** ajuda você a baixar o conteúdo em ambientes distribuídos sem saturar a rede. São oferecidas duas opções: Modo de Cache Hospedado, que permite usar os servidores locais para armazenar conteúdo em cache, e Modo de Cache Distribuído (um modo com suporte no Configuration Manager), que permite aos clientes compartilhar o conteúdo já baixado entre eles.
 
-**Cache Par** Os clientes com suporte no System Center Configuration Manager também podem utilizar o Cache Par. Isso permite que os computadores disponibilizados de maneira confiável na rede hospedem a origem para a distribuição de conteúdo. Não habilite isso em todos os computadores, mas apenas nos dispositivos com conexões de rede confiáveis como hosts (por exemplo, desktop, minitorre ou PCs em torre). O Cache Par pode funcionar até para tarefas de implantação em execução em fases do Windows PE durante a instalação.
+**Cache Par** Os clientes com suporte no Configuration Manager também podem utilizar o Cache Par. Isso permite que os computadores disponibilizados de maneira confiável na rede hospedem a origem para a distribuição de conteúdo. Não habilite isso em todos os computadores, mas apenas nos dispositivos com conexões de rede confiáveis como hosts (por exemplo, desktop, minitorre ou PCs em torre). O Cache Par pode funcionar até para tarefas de implantação em execução em fases do Windows PE durante a instalação.
 
 Observação: BranchCache e cache de mesmo nível são complementares e podem funcionar juntos no mesmo ambiente.
 
 [BranchCache versus Cache Par](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Ela está disponível desde as versões anteriores do Windows 10, mas foi recentemente integrada ao System Center Configuration Manager (Branch Atual). Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
+**Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Ela está disponível desde as versões mais antigas do Windows 10, mas foi recentemente integrada ao Microsoft Endpoint Configuration Manager (Branch Atual). Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
