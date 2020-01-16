@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 781aca371315d1ffde4ca2718d8d371e865ccb29
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b1832e2080c3178837f43cbfd45366fc4d48322d
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970849"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173817"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -41,7 +41,7 @@ Os clientes com uma licença do Microsoft 365 E5 ou equivalente podem usar a Pro
 ## <a name="start-using-the-service"></a>Começar a usar o serviço
 A ativação do serviço de Proteção contra Ameaças da Microsoft agrega os dados de vários serviços integrados. Os dados serão processados e armazenados centralmente para identificar novas ideias e possibilitar fluxos de trabalho de resposta centralizados.
 
-Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)) não mostra as opções de **Incidentes** e **Central de Ações** no menu.
+Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) não mostra os **incidentes** e as opções da **central de ações** no menu.
 
 ![Imagem do menu do centro de segurança do Microsoft 365 sem os recursos da Proteção contra Ameaças da Microsoft](../images/mtp-off.png)
 *Centro de segurança do Microsoft 365 com a Proteção contra Ameaças da Microsoft desativada*
@@ -71,7 +71,7 @@ Os dados serão excluídos permanentemente e os recursos correspondentes serão 
 
 ## <a name="get-assistance"></a>Obter assistência
 
-A equipe da Microsoft pode ajudar a provisionar ou desprovisionar o serviço e os recursos relacionados ao seu locatário. Para obter assistência, [contatar o suporte premier](https://go.microsoft.com/fwlink/?LinkID=733758).
+A equipe da Microsoft pode ajudar a provisionar ou desprovisionar o serviço e os recursos relacionados ao seu locatário. Para obter ajuda, selecione **precisa de ajuda?** no centro de segurança do Microsoft 365. Ao descrever suas preocupações, mencione "proteção contra ameaças da Microsoft".
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

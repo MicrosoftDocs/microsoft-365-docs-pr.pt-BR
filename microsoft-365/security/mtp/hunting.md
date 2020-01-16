@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 12705fa525374af8870aedcd211d8e9dcdd17f9c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e0f4c97a1c2963fc714420457208b40af688d86b
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808736"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173497"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Busca por ameaças no Microsoft 365
 

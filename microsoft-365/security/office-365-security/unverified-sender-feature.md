@@ -3,7 +3,7 @@ title: Remetente não verificado
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 07/11/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: 4c8b8a0711ab66607d0db5923c1115c436537bd0
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 65b9d1dd3eb1a764867103710448255be96cd183
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970927"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173507"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -44,25 +44,25 @@ Nem todas as mensagens que não são autenticadas são mal-intencionadas. No ent
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>Como gerenciar quais mensagens recebem o tratamento de remetentes não verificados 
 
-Se você for um cliente do Office 365, poderá gerenciar esse recurso através do centro de conformidade & segurança. 
+Se você for um cliente do Office 365, poderá gerenciar esse recurso através do centro de conformidade & segurança do Office 365.
 
-- No centro de conformidade & segurança do Office 365, os administradores globais ou de segurança podem ativar ou desativar o recurso, por meio da proteção antifalsificação na política de anti-phishing. Além disso, ele pode ser gerenciado por meio do cmdlet "Set-AntiPhishPolicy". Para obter mais detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
+- No centro de conformidade & segurança, os administradores globais ou de segurança podem ativar ou desativar o recurso, através da proteção contra falsificação na política de anti-golpes. Além disso, você pode usar o cmdlet **set-AntiPhishPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
     ![Edição de remetentes não autenticados na interface gráfica.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - Se um administrador identificou um falso positivo e um remetente não deve receber o tratamento de remetentes não verificados, uma das ações a seguir pode ser executada para adicionar o remetente à lista de permissões de falsificação de inteligência de falsificação:
 
-  - Adicionar o par de domínios por meio da compreensão de inteligência de falsificação. Para obter mais detalhes, consulte [Walkthrough: spoof Intelligence percepção](walkthrough-spoof-intelligence-insight.md).
+  - Adicionar o par de domínios por meio da compreensão de inteligência de falsificação. Para obter detalhes, consulte [Walkthrough: spoof Intelligence percepção](walkthrough-spoof-intelligence-insight.md).
 
-  - Adicione o par de domínios através do cmdlet PhishFilterPolicy. Para obter mais detalhes, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) e [set up Office 365 ATP anti-phishing and anti-phishing Policies](set-up-anti-phishing-policies.md).
+  - Adicione o par de domínios por meio do cmdlet **set-PhishFilterPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) e [set up Office 365 ATP anti-phishing and anti-phishing Policies](set-up-anti-phishing-policies.md).
 
-Além disso, não aplicamos o tratamento de remetente não verificado se ele foi entregue à caixa de entrada por meio de uma lista de permissões de administração, incluindo regras de transporte de email (ETRs), lista de domínios seguros (política antispam), lista de remetentes seguros ou um usuário tiver definido esse usuário como um "remetente seguro" em seu postal.
+Além disso, não aplicamos o tratamento de remetentes não verificados se a mensagem foi entregue à caixa de entrada via regras de fluxo de email (também conhecidas como regras de transporte), lista de domínios seguros (política antispam) ou lista de remetentes seguros.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a>Que critérios o Outlook.com e o Outlook na Web usam para adicionar as propriedades '? ' e ' via '?
 
-Para o '? ' na imagem do remetente: Outlook.com requer que a mensagem passe o SPF ou a autenticação do DKIM e receba uma passagem dMarc ou uma passagem de autenticação composta da Office 365 spoof Intelligence. Para obter mais detalhes, consulte [set up SPF in Office 365 para ajudar a impedir a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md) e [uso do DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
+Para o '? ' na imagem do remetente: Outlook.com requer que a mensagem passe o SPF ou a autenticação do DKIM e receba uma passagem dMarc ou uma passagem de autenticação composta da Office 365 spoof Intelligence. Para obter detalhes, consulte [set up SPF in Office 365 para ajudar a impedir a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md) e [uso do DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
 
 Para o via Tag: se o domínio no endereço de for diferente do domínio na assinatura do DKIM ou do email SMTP de, Outlook.com exibe o domínio em um desses dois campos (preferência à assinatura DKIM).
 
