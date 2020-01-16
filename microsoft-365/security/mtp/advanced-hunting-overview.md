@@ -1,7 +1,7 @@
 ---
 title: Visão geral sobre a busca avançada na Proteção contra Ameaças da Microsoft
 description: Saiba mais sobre as consultas avançadas de buscas no Microsoft 365 e sobre como usá-las para encontrar ameaças e deficiências na rede de forma proativa
-keywords: busca avançada, busca de ameaças, busca por ameaças cyber, pesquisa, consulta, telemetria, detecções personalizadas, esquema, data explorer, microsoft 365, Proteção contra Ameaças da Microsoft
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 23942b1d39bacfab470d41fca1ea630ad7b80ea3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 791eee143c80e00a3fdb1fa4dbde8bbf41612e9a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808696"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210346"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 

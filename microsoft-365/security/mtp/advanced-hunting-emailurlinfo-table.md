@@ -1,7 +1,7 @@
 ---
 title: Tabela EmailUrlInfo no esquema de busca avançada
 description: Saiba mais sobre URL ou informações de link na tabela EmailUrlInfo do esquema de busca avançada
-keywords: caça avançada, caça de ameaças, caça de ameaças cibernéticas, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailUrlInfo, mensagem de rede, url, link
+keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, EmailUrlInfo, ID da mensagem de rede, URL, link
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da9712d1f3465c28d2ba880997a52434723a297d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 42b7d1734c5925ba493f647268852637072fc4a3
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808666"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210326"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 

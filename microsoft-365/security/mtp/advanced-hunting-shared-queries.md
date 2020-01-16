@@ -1,7 +1,7 @@
 ---
 title: Utilize consultas compartilhadas na busca avançada da Proteção contra Ameaças da Microsoft
 description: Comece a rastrear ameaças imediatamente com consultas predefinidas e compartilhadas. Compartilhe suas consultas com o público em geral ou com a sua organização.
-keywords: busca avançada, busca de ameaças, busca por ameaças cibernéticas, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, repositório do github, minhas consultas, consultas compartilhadas
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, repositório do GitHub, minhas consultas, consultas compartilhadas
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: fb8addc7bc9e8ab01cc72bbdf02c12559d263196
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 64c9b07dad0f109698222d3f3f079a4f3318273a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808686"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210306"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Usar consultas compartilhadas na busca avançada
 

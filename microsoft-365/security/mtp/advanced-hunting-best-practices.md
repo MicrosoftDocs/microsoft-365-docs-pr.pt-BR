@@ -1,7 +1,7 @@
 ---
 title: Práticas recomendadas para busca avançada na Proteção contra Ameaças da Microsoft
 description: Aprenda a criar consultas de busca de ameaças rápidas, eficientes e sem erros ao usar a busca avançada
-keywords: busca avançada, busca de ameaças, busca por ameaças cibernéticas, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, evite o tempo limite, linhas de comando, id do processo
+keywords: caça avançada, busca de ameaças, busca de ameaças na CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, evite tempo limite, linhas de comando, ID de processo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 97c5f5541e1c3293346a53d87b950121e85e6eae
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: adb447916346ad83c95e64ef889d2986a106e776
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966859"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41209936"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 

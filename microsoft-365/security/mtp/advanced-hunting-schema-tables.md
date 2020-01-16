@@ -1,7 +1,7 @@
 ---
 title: Tabelas de dados no esquema de busca avançada da Proteção Contra Ameaças da Microsoft
 description: Aprenda sobre as tabelas no esquema de busca avançado para entender os dados nos quais você pode executar consultas de busca de ameaças.
-keywords: caça avançada, caça de ameaças, caça de ameaças cibernéticas, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, dados
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, dados
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 631b328168003668ed06e37d76177c327794ed18
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: aa2fbeebed10bcb1f0c4078a161be99d16d3b97b
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808656"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210316"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -46,6 +46,7 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Entradas e outros eventos de autenticação |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | Carregamento de eventos DLL |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Vários tipos de evento, incluindo eventos disparados por controles de segurança como o Windows Defender Antivirus e proteção de exploração |
+| **[DeviceFileCertificateInfoBeta](advanced-hunting-devicefilecertificateinfobeta-table.md)** | Informações de certificado de arquivos assinados obtidos de eventos de verificação de certificado em pontos de extremidade |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Eventos de email do Office 365, incluindo a entrega de email e eventos de bloqueio |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informações sobre arquivos anexados a emails do Office 365 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs nos emails do Office 365 |

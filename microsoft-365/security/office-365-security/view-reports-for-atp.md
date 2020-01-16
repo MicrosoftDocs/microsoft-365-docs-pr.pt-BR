@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
-ms.openlocfilehash: 1ddb5a549551e674fb257e4f78c81c5df1eb1a10
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 74ed1387af7792d8cb41d6f890deb89be07fc9fc
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112725"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210503"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -96,12 +96,6 @@ Na tabela detalhes, você poderá ver mais informações sobre o clique em tempo
 
 > [!NOTE]
 > Este é um *relatório de tendências de proteção*, o que significa que os dados representam tendências em um conjunto de dados maior. Os relatórios não estão disponíveis em tempo real aqui. Para URL em tempo real clique em dados, continue a usar o rastreamento de URL.
-
-## <a name="compromised-users-report"></a>Relatório de usuários comprometidos
-
-Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo ficasse. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
-
-![O relatório de usuários comprometidos como aparece no Office 365.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
 ## <a name="atp-file-types-report"></a>Relatório de Tipos de Arquivo ATP
 

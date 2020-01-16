@@ -1,7 +1,7 @@
 ---
 title: Tabela AlertEvents no esquema de busca avançada
 description: Aprenda sobre os eventos de geração de alerta na tabela AlertEvents do esquema de busca avançada
-keywords: caça avançada, caça de ameaças, caça de ameaças cibernéticas, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, alertevents, alerta, gravidade, categoria
+keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, alertevents, alerta, severidade, categoria
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ee14dcc1c2ae0a2bc6fa3c094d757441515f00de
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2d8c484f11e1384e1b98f05b907b043c33231f3f
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807010"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210076"
 ---
 # <a name="alertevents"></a>AlertEvents
 

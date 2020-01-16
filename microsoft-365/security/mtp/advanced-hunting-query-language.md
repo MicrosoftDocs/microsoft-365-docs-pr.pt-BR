@@ -1,7 +1,7 @@
 ---
 title: Conheça a linguagem de consulta de busca avançada no Microsoft Threat Protection
 description: Crie sua primeira consulta de busca de ameaças e saiba mais sobre os operadores comuns e outros aspectos da linguagem de consulta de busca avançada
-keywords: caça avançada, caça de ameaças, busca por ameaças cyber, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, kusto, operadores, tipos de dados
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b2b42c6a49a4422d73148b06e8379dcf1336e926
-ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
+ms.openlocfilehash: 36f2efb733e8403b30e0ecc406bb1ea2d6a6248e
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40999605"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210336"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 

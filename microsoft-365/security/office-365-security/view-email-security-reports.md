@@ -1,9 +1,9 @@
 ---
-title: Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança
+title: Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança, usuários comprometidos, criptografia, status de proteção contra ameaças, detecções de malware, malware superior, detecção de spam, email enviado e recebido, mensagens relatadas pelo usuário, relatórios de leitura, detecção, dados de segurança, informações de segurança
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/29/2019
+ms.date: 01/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 70eceb8d7afa227027b71d475aa22b2151f2dea6
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: c44944c8f392b2df8cfe4b9e1741ba4b7ea13382
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112295"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41209946"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança
 
@@ -29,7 +29,8 @@ Vários relatórios estão disponíveis no [centro de conformidade de &amp; segu
 ![Painel em que você vê como a proteção avançada contra ameaças está funcionando](../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 Os relatórios de segurança de email incluem o seguinte:
-- [Relatório de criptografia](#encryption-report) (novo!)
+- [Relatório de usuários comprometidos (**novo!**)](#compromised-users-report-new)
+- [Relatório de criptografia](#encryption-report)
 - [Relatório de Status da Proteção contra Ameaças](#threat-protection-status-report) 
 - [Relatório de detecções de malware](#malware-detections-report) 
 - [Relatório de malware superior](#top-malware-report)
@@ -38,10 +39,17 @@ Os relatórios de segurança de email incluem o seguinte:
 - [Relatório de detecções de spam](#spam-detections-report)
 - [Relatório de email enviado e recebido](#sent-and-received-email-report)
 - [Relatório de mensagens relatadas pelo usuário](#user-reported-messages-report)
-    
+
+
+## <a name="compromised-users-report-new"></a>Relatório de usuários comprometidos (**novo!**) 
+
+Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo ficasse. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
+
+![O relatório de usuários comprometidos como aparece no Office 365.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+
 ## <a name="encryption-report"></a>Relatório de criptografia
 
-(**Novo!**) O **relatório de criptografia** mostra informações sobre as mensagens de email que foram criptografadas, seja por meio das políticas da sua organização ou por meio de controles de usuário final. A equipe de segurança da sua organização pode usar informações neste relatório para identificar padrões e aplicar proativamente ou ajustar políticas para mensagens de email confidenciais.
+O **relatório de criptografia** mostra informações sobre as mensagens de email que foram criptografadas, seja por meio das políticas da sua organização ou por meio de controles de usuário final. A equipe de segurança da sua organização pode usar informações neste relatório para identificar padrões e aplicar proativamente ou ajustar políticas para mensagens de email confidenciais.
 
 Para exibir esse relatório, no centro de conformidade & de segurança, vá para **relatório de criptografia**de **painel** \> de **relatórios** \> .
 
