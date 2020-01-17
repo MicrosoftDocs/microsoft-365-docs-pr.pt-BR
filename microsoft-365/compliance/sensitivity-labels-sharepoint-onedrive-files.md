@@ -5,7 +5,7 @@ author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/01/2019
+ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: c62db0d77ed805c607e79bf25cb9816a554cb6d2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0e164afca97818d2082ddf4053df791317e29ac5
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802824"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41218581"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -39,35 +39,37 @@ Anteriormente, quando você aplicou rótulos de confidencialidade que incluíram
   - FileSensitivityLabelChanged
   - FileSensitivityLabelRemoved
 
-Agora, você também pode aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. [Saiba mais](sensitivity-labels-teams-groups-sites.md).
+Agora, você também pode aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. Para obter mais informações sobre essa visualização separada, confira [usar rótulos de sensibilidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
 
-Se necessário, você pode sair da visualização a qualquer momento.
+Você sempre tem a opção de cancelar essa visualização a qualquer momento.
 
 ## <a name="requirements"></a>Requirements
 
-Esses recursos funcionam apenas com [Rótulos de confidencialidade](sensitivity-labels.md). Se você usou os rótulos de proteção de informações do Azure, é possível convertê-los em rótulos de confidencialidade para habilitar esses recursos para novos arquivos que você carregar. [Saiba como](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
+Esses recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
-Para esta visualização, use o OneDrive Sync app versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Essas duas versões foram lançadas em 28 de janeiro de 2019 e foram lançadas atualmente para todos os toques. [Confira as notas de versão do onedrive](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Após habilitar essa visualização, os usuários que executam uma versão mais antiga do aplicativo de sincronização serão solicitados a atualizá-lo.
+Para esta visualização, use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Essas duas versões foram lançadas em 28 de janeiro de 2019 e foram lançadas atualmente para todos os toques. Para obter mais informações, consulte as [notas de versão do onedrive](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Após habilitar essa visualização, os usuários que executam uma versão mais antiga do aplicativo de sincronização são solicitados a atualizá-lo.
 
 ## <a name="limitations"></a>Limitações
 
-- Quando você habilita essa visualização, os usuários que aplicam um rótulo a um arquivo usando a área de trabalho do Office ou aplicativos móveis podem não conseguir salvar outras alterações que eles fazem no arquivo. Em vez disso, o aplicativo solicita que os usuários salvem como ou descartam alterações locais. Para evitar a perda de trabalho, execute uma destas ações:
-
-  - Para aplicar rótulos, use as versões Web dos aplicativos do Office.
-
-  - Feche um arquivo depois de aplicar um rótulo e reabra o arquivo para fazer outras alterações.
+- Quando você habilita essa visualização, os usuários que alteram um rótulo para um arquivo em uma pasta de sincronização do OneDrive podem não conseguir salvar outras alterações que eles fazem no arquivo.  Os usuários vêem um [círculo vermelho com um erro de ícone de cruz branco](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)e são solicitados a salvar novas alterações como uma cópia separada.  Além das alterações de rótulo que são iniciadas pelos usuários, o mesmo comportamento pode ocorrer se um administrador alterar as configurações de um rótulo publicado já aplicado aos arquivos baixados para o cliente de sincronização dos usuários.
+    
+    Para evitar a perda de trabalho nesses cenários, execute uma destas ações:
+    - Para aplicar rótulos, use as versões Web dos aplicativos do Office.
+    - Feche um arquivo depois de aplicar um rótulo e reabra o arquivo para fazer outras alterações.
 
 - O SharePoint não aplica automaticamente os novos rótulos aos arquivos existentes que você já criptografou usando os rótulos de proteção de informações do Azure. Em vez disso, para fazer com que os recursos funcionem depois de habilitar esta visualização, conclua estas tarefas:
+    
+    1. Certifique-se de ter migrado os rótulos de proteção de informações do Azure para os rótulos de confidencialidade e publicá-los no centro de conformidade do Microsoft 365 ou no centro de administração de rótulo equivalente.
+    
+    2. Baixe os arquivos e carregue-os no SharePoint.
 
-  - Converta os rótulos de proteção de informações do Azure em rótulos de confidencialidade.
+- O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem uma das seguintes configurações de criptografia:
+    - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem permissões**
+    - O **acesso do usuário ao conteúdo expira** é definido como um valor diferente de **nunca**.
 
-  - Baixe os arquivos e carregue-os no SharePoint.
+- Para um documento criptografado que concede permissões de edição para um usuário, a cópia não pode ser bloqueada nas versões Web dos aplicativos do Office.
 
-- O SharePoint não pode processar rótulos com permissões e rótulos personalizados com datas de expiração.
-
-- Quando os usuários têm permissões de edição, as versões Web dos aplicativos do Office permitem a cópia, independentemente da configuração de política de cópia no rótulo.
-
-- A revogação, o rastreamento e o relatório do RMS não têm suporte.
+- O site de acompanhamento de documentos da proteção de informações do Azure não é suportado.
 
 - Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria. Em vez disso, esses aplicativos continuam a abrir arquivos no modo de edição exclusivo.
 
@@ -85,11 +87,11 @@ Antes de habilitar a visualização, verifique se você está executando o Shell
 
 2. Como alternativa, se você tiver instalado uma versão anterior do Shell de gerenciamento do SharePoint Online no centro de download da Microsoft, também poderá ir para **Adicionar ou remover programas** e desinstalar o Shell de gerenciamento do SharePoint Online.
 
-3. Em um navegador da Web, vá até a página centro de download e [Baixe o Shell de gerenciamento do SharePoint Online mais recente](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+3. Em um navegador da Web, acesse a página do centro de download e [Baixe o Shell de gerenciamento do SharePoint Online mais recente](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-4. Selecione seu idioma e clique em **baixar**.
+4. Escolha o idioma e clique em **Salvar**.
 
-5. Escolha entre o arquivo x64 e x86. msi. Baixe o arquivo x64 se você executar a versão de 64 bits do Windows ou o arquivo x86, se você executar a versão de 32 bits. Se não souber, confira [qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system)
+5. Escolha entre o arquivo .msi x64 e x86. Baixe o arquivo x64 se você executar a versão de 64 bits do Windows ou o arquivo x86, se você executar a versão de 32 bits. Se não souber, confira [qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system)
 
 
 6. Depois de baixar o arquivo, execute o arquivo e siga as etapas no assistente de instalação.
