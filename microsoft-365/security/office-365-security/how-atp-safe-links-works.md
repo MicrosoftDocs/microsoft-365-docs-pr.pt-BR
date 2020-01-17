@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: O recurso de links seguros oferece verificação de horário de clique de hiperlinks em documentos do Office e em mensagens de email. Leia este artigo para saber como os links seguros de ATP funcionam.
-ms.openlocfilehash: bf6c2f0460bc285d0093019812e295c1cfe5ce66
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 56b9ce71ed0f695e2f9ee7d833ecbc980a94edd8
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970757"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230179"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Como funcionam os links seguros de ATP do Office 365
          
@@ -36,9 +36,7 @@ Em um nível alto, veja como a proteção de [links de segurança ATP](atp-safe-
 5. O usuário abre uma mensagem de email e clica em uma URL na mensagem de email.
     
 6. O recurso de links seguros de ATP verifica imediatamente a URL antes de abrir o site. A URL é identificada como bloqueada, mal-intencionada ou segura.
-    
-   - Se a URL for um site que está incluído em uma [lista de URLs "não reconfigurar" personalizada](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) para uma política que se aplica ao usuário, o site será aberto. 
-    
+        
    - Se a URL for um site incluído na [lista de URLs bloqueadas](set-up-a-custom-blocked-urls-list-wtih-atp.md)da organização, uma [página de aviso](atp-safe-links-warning-pages.md) será aberta. 
     
    - Se a URL for um site que foi determinado como mal-intencionado, uma [página de aviso](atp-safe-links-warning-pages.md) será aberta. 

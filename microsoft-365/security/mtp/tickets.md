@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e67ff2b28a6dec741b2ad7af5179dca226fb86ad
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 6cd8dd42bfd1947fa8bee7a69f1febad710c808a
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962568"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230209"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 
@@ -109,15 +109,19 @@ Defina as configurações de tabela "registros de aplicativos" como padrão:
 
 Vá para a tabela registros de aplicativos (menu > registro de aplicativo > OAuth de sistema) no ServiceNow e localize a entidade OAuth criada por você (nome que você atribuiu).
 
-### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Como validar o usuário de integração criado com a lista de verificação de instalação do conector de conformidade do & de segurança do Microsoft 365
-
-Vá para a tabela Users (menu > administração de usuário > usuários) no ServiceNow e localize o usuário de integração criado por você (nome que você atribuiu a ele).
+### <a name="logging-in-as-the-integration-user"></a>Como fazer logon como o usuário de integração
 
 Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o ServiceNow, certifique-se de usar o logon e a senha de usuário de integração que você criou nas etapas de instalação. Não use suas credenciais pessoais.
 
-### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>A instalação está concluída, mas não vê tíquetes e não pode ser compartilhada
+1. Vá para a página autorização no ServiceNow.
+2. Se você estiver conectado com suas credenciais pessoais, selecione o **não é possível** vincular no canto superior direito.
+3. Faça logon no ServiceNow como o usuário de integração que você criou anteriormente na lista de verificação de instalação.  
+4. Selecione **permitir** na página do servicenow que pergunta se o conector de segurança + conformidade pode se conectar à sua conta do servicenow.
+5. Prossiga com as etapas de configuração.
 
-Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de https://security.microsoft.com/ticketProvisioningprovisionamento em. Selecione **salvar** e retornar para a página inicial. Os cartões devem ser exibidos.
+### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Como validar o usuário de integração criado com a lista de verificação de instalação do conector de conformidade do & de segurança do Microsoft 365
+
+Vá para a tabela Users (menu > administração de usuário > usuários) no ServiceNow e localize o usuário de integração criado por você (nome que você atribuiu a ele).
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Sua empresa tem o logon único habilitado, o que impede que você se conecte ao ServiceNow através da central de segurança do Microsoft 365
 
@@ -135,3 +139,7 @@ Se sua empresa ativou o logon único e você recebe um erro ou o logon não é b
 
 1. Criar um usuário com privilégios de administrador de segurança no Azure Active Directory. O usuário precisa ter o mesmo nome e endereço de email do usuário de integração que você criou na lista de verificação de instalação. Você pode remover a função de administrador de segurança após o logon e a conexão ter sido concluída.
 2. Faça logon no centro de segurança do Microsoft 365 como este usuário e siga as etapas de configuração.
+
+### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>A instalação está concluída, mas não vê tíquetes e não pode ser compartilhada
+
+Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de https://security.microsoft.com/ticketProvisioningprovisionamento em. Selecione **salvar** e retornar para a página inicial. Os cartões devem ser exibidos.
