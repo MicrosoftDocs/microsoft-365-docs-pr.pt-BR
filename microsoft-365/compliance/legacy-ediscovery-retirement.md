@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: cb24c40cc2018fba6d1feb13ef0d6426abd2c49a
-ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
+ms.openlocfilehash: 08f568a82096efb143ff5c9fd87011a3d3029e42
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41107900"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210056"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -45,7 +45,7 @@ Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica 
    - [GetSearchableMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation)
 
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
-   
+
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
 
 - [Office 365 Advanced eDiscovery v 1.0](office-365-advanced-ediscovery.md), que é a primeira versão da descoberta eletrônica avançada que é acessada por meio de uma caixa de descoberta eletrônica no centro de conformidade & segurança do Office 365.
@@ -62,7 +62,7 @@ De acordo com o lançamento original em 1º de julho de 2017, a funcionalidade d
 Como todos esses recursos (exceto para copiar os resultados da pesquisa para uma caixa de correio de descoberta) estão disponíveis na pesquisa de conteúdo, no eDiscovery e nas ferramentas de descoberta eletrônica avançada no [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (com funcionalidade, confiabilidade e suporte aprimorados para uma ampla variedade de serviços da Microsoft 365), recomendamos que você comece a usar essas ferramentas o mais rápido possível. Para ajudá-lo na transição para essas outras ferramentas de descoberta eletrônica, a tabela abaixo lista as ferramentas que você pode usar em vez de descoberta eletrônica in-loco e bloqueio in-loco.
 
 ### <a name="scope-of-affected-organizations"></a>Escopo de organizações afetadas
-    
+
 - Organizações do Office 365 e do Microsoft 365 Enterprise
 
 - Organizações do Office 365 e Microsoft 365 Education
@@ -71,11 +71,10 @@ Como todos esses recursos (exceto para copiar os resultados da pesquisa para uma
 
 - Office 365 Alemanha
 
-
 ### <a name="timeline-for-retirement"></a>Linha do tempo para aposentadoria
-    
+
 - 1 de abril de 2020: você não poderá criar novas pesquisas e isenções, mas ainda poderá executar, editar e excluir pesquisas existentes de sua responsabilidade. O suporte da Microsoft não será mais & de descoberta eletrônica in-loco no Eat.
-    
+
 - 1º de julho de 2020: o & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocado em um modo somente leitura. Isso significa que você só poderá remover pesquisas e isenções existentes.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
@@ -87,7 +86,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Função</strong></th>
 <th><strong>Ferramenta alternativa</strong></th>
-<th><strong>Comentários</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -131,6 +130,11 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p>
 <p>Como alternativa, você pode exportar os resultados da pesquisa para arquivos PST e usar o serviço de importação do Microsoft 365 para importar os PSTs para uma caixa de correio de descoberta. Para instruções passo a passo, consulte usar o <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">carregamento de rede para importar arquivos pst para o Office 365</a>.
 </tr>
+<tr class="even">
+<td>Restaurar itens da pasta itens recuperáveis</td>
+  <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">Restore-RecoverableItems</td>
+  <td>Você pode restaurar itens excluídos permanentemente (também conhecidos como itens <i>excluídos por software</i> ) em caixas de correio, desde que o período de retenção do item excluído de um item não tenha expirado. Para obter mais informações, consulte <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">pasta itens recuperáveis no Exchange Online</a>.</td>
+</tr>
 </tbody>
 </table>
 
@@ -155,7 +159,7 @@ De acordo com o aviso original anunciado no dia 1º de julho de 2017 no centro d
 Como esses recursos agora estão disponíveis no [<span class="underline">centro de conformidade da Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) e no centro de segurança & conformidade do Office 365 com desempenho e escalabilidade aprimorados, você deve usar esses cmdlets aprimorados. Estes cmdlets incluem [<span class="underline"> \*-ComplianceCase</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase), [<span class="underline"> \*-ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch), [<span class="underline"> \*-CaseHoldPolicy</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy), [<span class="underline"> \*-CaseHoldRule</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule)e [<span class="underline"> \*-ComplianceSearchAction</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction).
 
 ### <a name="scope-of-affected-organizations"></a>Escopo de organizações afetadas
-    
+
 - Organizações do Office 365 e do Microsoft 365 Enterprise
 
 - Organizações do Office 365 e Microsoft 365 Education
@@ -165,9 +169,9 @@ Como esses recursos agora estão disponíveis no [<span class="underline">centro
 - Office 365 Alemanha
 
 ### <a name="timeline"></a>Linha do tempo
-    
+
 - 1 de abril de 2020: você não poderá usar o **New-MailboxSearch** para criar novas pesquisas de descoberta eletrônica in-loco e bloqueios in-loco, mas ainda poderá usar cmdlets para executar, editar e excluir pesquisas existentes e isenções por seu próprio risco. O suporte da Microsoft não fornecerá mais assistência para esses tipos de pesquisas e isenções.
-    
+
 - 1º de julho de 2020: como mencionado anteriormente, o & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocado em um modo somente leitura. Isso também significa que você não poderá usar os cmdlets **New-MailboxSearch**, **Start-MailboxSearch**ou **Set-MailboxSearch** . Você só poderá obter e remover pesquisas e isenções existentes.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
@@ -179,7 +183,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Função</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
-<th><strong>Comentários</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -239,7 +243,7 @@ O cmdlet **Search-Mailbox** no Exchange Online PowerShell está sendo desativado
 - Office 365 Alemanha
 
 ### <a name="timeline"></a>Linha do tempo
-    
+
 -  1 de abril de 2020: o cmdlet **Search-Mailbox** não estará mais disponível e o suporte da Microsoft não fornecerá mais assistência.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
@@ -251,7 +255,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Função</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
-<th><strong>Comentários</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -314,11 +318,11 @@ No momento, recomendamos que você comece a migrar seu fluxo de trabalho de desc
 - Office 365 Alemanha
 
 ### <a name="timeline"></a>Linha do tempo
-    
+
 - 1 de abril de 2020: você não poderá criar novos casos avançados de descoberta eletrônica v 1.0.
-    
-- 1º de julho de 2020: o suporte da Microsoft não oferecerá suporte. Consulte [este aviso](https://go.microsoft.com/fwlink/?linkid=2113221). Você não poderá adicionar novos dados (preparar resultados de pesquisa para descoberta eletrônica avançada) em qualquer caso. Você poderá continuar a trabalhar com dados em casos existentes por sua conta e risco.
+
+- 1º de julho de 2020: você não poderá adicionar novos dados (preparar resultados de pesquisa para descoberta eletrônica avançada) para qualquer caso. Você poderá continuar a trabalhar com dados em casos existentes por sua conta e risco. O suporte da Microsoft não fornecerá mais assistência. 
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
-    
+
 A [solução de descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) no centro de conformidade da Microsoft 365.
