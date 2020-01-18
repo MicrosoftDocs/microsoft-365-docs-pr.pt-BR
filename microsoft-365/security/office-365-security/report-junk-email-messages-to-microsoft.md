@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:'
-ms.openlocfilehash: f77f9298058897b60345651a35289f6be88a47a8
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: df4eb2ceea3233d014efe545ca5d9c7bd39a3624
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970287"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238408"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Relatar mensagens de Lixo Eletrônico à Microsoft
 
@@ -31,7 +31,7 @@ O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office 
 
 - De dentro de uma mensagem de email aberta
 
-O Suplemento de Relatórios de Lixo Eletrônico ajuda você a enviar relatórios para o serviço Microsoft Proteção do Exchange Online (EOP). Se a sua caixa de correio não estiver protegida pelo serviço, o envio de relatório de lixo eletrônico não afetará os filtros de spam. Os administradores podem saber mais sobre as configurações de spam que se aplicam a uma organização inteira em [como impedir que bons emails sejam marcados como spam no office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) ou [como reduzir emails de spam no Office 365](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
+O Suplemento de Relatórios de Lixo Eletrônico ajuda você a enviar relatórios para o serviço Microsoft Proteção do Exchange Online (EOP). Se a sua caixa de correio não estiver protegida pelo serviço, o envio de relatório de lixo eletrônico não afetará os filtros de spam. Os administradores podem saber mais sobre as configurações de spam que se aplicam a uma organização inteira em [como impedir que bons emails sejam marcados como spam no office 365](prevent-email-from-being-marked-as-spam.md) ou [como reduzir emails de spam no Office 365](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
 
 > [!TIP]
 > Você também pode enviar mensagens de spam diretamente para a Microsoft usando o endereço de email do [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e mensagens falsas positivas (não spam) usando o endereço de email do [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) . Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
@@ -73,6 +73,6 @@ A mensagem selecionada será enviada à Microsoft para análise e movida para a 
 
 [Solução de problemas e informações de suporte](troubleshooting-and-support-information.md)
 
-[Como impedir que bons emails sejam marcados como spam no Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Como impedir que emails reais sejam marcados como spam no Office 365](prevent-email-from-being-marked-as-spam.md)
 
 [Como reduzir emails de spam no Office 365](reduce-spam-email.md)

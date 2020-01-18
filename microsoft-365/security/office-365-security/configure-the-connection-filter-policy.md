@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para garantir que os emails enviados de pessoas confiáveis não sejam bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões, também conhecida como lista de remetentes confiáveis, dos endereços IP nos quais você confia. Você também pode criar uma lista de remetentes bloqueados.
-ms.openlocfilehash: d3151ab436c5d904897d518fa119d52a11db4850
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 70bd682fd9cb990f15314be3187e74f5fa4d562c
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971829"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238418"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Configurar a política do filtro de conexão
 
@@ -29,7 +29,7 @@ A maioria de nós tem amigos e parceiros de negócios, nos quais confiamos. Pode
 
 - Uma política de filtro de conexão a criação de uma lista de bloqueio pode ser considerada como capturar menos contas, ou não confiáveis, no filtro.
 
- Para saber mais sobre configurações de spam que se aplicam a toda a organização, confira [como impedir que bons emails sejam marcados como spam no office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) ou [como reduzir emails de spam no Office 365](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
+ Para saber mais sobre configurações de spam que se aplicam a toda a organização, confira [como impedir que bons emails sejam marcados como spam no office 365](prevent-email-from-being-marked-as-spam.md) ou [como reduzir emails de spam no Office 365](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
 
 > [!TIP]
 > Talvez você queira pausar e ler como criar [listas de permissões (ou remetentes confiáveis)](create-safe-sender-lists-in-office-365.md) e [listas de bloqueios](create-block-sender-lists-in-office-365.md).
@@ -149,7 +149,7 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 |:-----|
 |![O ícone pequeno do LinkedIn Learning](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Remetente seguro e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
 
@@ -157,6 +157,6 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 
 [Configuração da política de spam de saída](configure-the-outbound-spam-policy.md)
 
-[Como impedir que bons emails sejam marcados como spam no Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Como impedir que emails reais sejam marcados como spam no Office 365](prevent-email-from-being-marked-as-spam.md)
 
 [Como reduzir emails de spam no Office 365](reduce-spam-email.md)

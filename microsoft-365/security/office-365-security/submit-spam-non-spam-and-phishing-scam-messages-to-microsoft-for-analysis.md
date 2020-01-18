@@ -14,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'Você e seus usuários podem enviar mensagens de spam falsas negativas e falsos positivos para a Microsoft para análise. '
-ms.openlocfilehash: 316945ae026649b16ecfced62baef2ddc41db444
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 6ca4c99d5e8803fdf7f41ff00cc2a5e65ab38049
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959639"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238428"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>Enviar mensagens de spam, não spam e esquema de phishing à Microsoft para análise
 
@@ -68,7 +68,7 @@ Para enviar uma mensagem de spam ou golpe de phishing à Microsoft:
 
 Se uma mensagem foi identificada incorretamente como lixo eletrônico, você pode enviar a mensagem "falso positivo" para a equipe de análise de spam da Microsoft. Os analistas irão avaliar e analisar a mensagem. Dependendo dos resultados da análise, as regras de filtro de conteúdo de spam de todo o serviço podem ser ajustadas para permitir a mensagem.
   
-Os administradores podem revisar mais informações de configuração de spam que se aplicam a uma organização inteira. Veja [como ajudar a garantir que uma mensagem não seja marcada como spam](../../compliance/prevent-email-from-being-marked-as-spam.md). Essas informações são úteis se você tiver controle de nível de administrador e quiser impedir falsos positivos.
+Os administradores podem revisar mais informações de configuração de spam que se aplicam a uma organização inteira. Veja [como ajudar a garantir que uma mensagem não seja marcada como spam](prevent-email-from-being-marked-as-spam.md). Essas informações são úteis se você tiver controle de nível de administrador e quiser impedir falsos positivos.
   
 Você pode enviar mensagens que não são spam das seguintes maneiras:
   
@@ -122,7 +122,7 @@ A avaliação de spam é um processo contínuo que se aplica independentemente d
 
 [Proteção antispam e antimalware](anti-spam-and-anti-malware-protection.md)
   
-[Como ajudar a garantir que uma mensagem não é marcada como spam](../../compliance/prevent-email-from-being-marked-as-spam.md)
+[Como ajudar a garantir que uma mensagem não é marcada como spam](prevent-email-from-being-marked-as-spam.md)
   
 [Bloquear spam de email com o filtro de spam do Office 365 para evitar problemas de falsos negativos](reduce-spam-email.md)
   
