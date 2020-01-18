@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ccb529a738ebd326d1c5d5513c6e3236a9c58f8a
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: 65497522907a4bfc8e2e3d55ccd3a82cde9b8bb7
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230189"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233882"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -165,7 +165,7 @@ As seguintes ações de aprimoramento do Intune serão removidas:
 
 ### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Removendo ações de melhoria que não atendem às expectativas de medição confiável
 
-Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, estamos removendo a seguinte ação de aprimoramento.
+Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, estamos removendo as seguintes ações de aprimoramento.
 
 - Ativar a gravação de dados de auditoria
 - Descobrir aplicativos de ti de sombra arriscados e não compatíveis
@@ -182,7 +182,7 @@ Os três que serão removidos:
 - Exigir MFA para todos os usuários
 - Exigir MFA para funções privilegiadas do Azure AD
 
-Novas ações de melhoria:
+Novas ações de aprimoramento foram adicionadas:
 
 - Garantir que todos os usuários possam concluir a autenticação multifator para acesso seguro
 - Exigir MFA para funções administrativas
@@ -201,7 +201,7 @@ Para padronizar pontos em várias experiências, cada ponto de ação de melhori
 
 ### <a name="preview-features"></a>Visualização prévia de recursos
 
-Os seguintes recursos serão incluídos na versão prévia:
+Os seguintes recursos serão incluídos na [versão prévia](microsoft-secure-score-preview.md):
 
 * Todos os novos modos de exibição de métricas e tendências para discussões de nível de líder e CISO
 * Novas maneiras de acompanhar e avaliar a sua pontuação

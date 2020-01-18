@@ -65,6 +65,8 @@
     - name: Rótulos de confidencialidade
       href: sensitivity-labels.md
       items:
+        - name: Criar e publicar rótulos de sensibilidade
+          href: create-sensitivity-labels.md
         - name: Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade
           href: encryption-sensitivity-labels.md
         - name: Aplicar um rótulo de confidencialidade ao conteúdo automaticamente

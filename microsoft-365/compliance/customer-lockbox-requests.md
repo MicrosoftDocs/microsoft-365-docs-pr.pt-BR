@@ -1,7 +1,7 @@
 ---
 title: Solicitações do Sistema de Proteção de Dados do Cliente do Office 365
-ms.author: robmazz
-author: robmazz
+ms.author: krowley
+author: kccross
 manager: laurawi
 audience: Admin
 ms.topic: troubleshooting
@@ -15,17 +15,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: a19b8f7933cfae06c462d204148f53b441126f58
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: a9f7f6116d4667e294666afc71747a6fad1efb33
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38684888"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233762"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
-> [!NOTE]
-> Este artigo fornece orientações de implantação e configuração para um recurso atualmente disponível apenas para organizações que têm um Microsoft 365 e5, o Office 365 e5, a proteção de informações e conformidade ou a assinatura de complemento de conformidade avançada.
+Este artigo fornece orientações de implantação e configuração para um recurso atualmente disponível apenas para organizações que têm um Microsoft 365 e5, o Office 365 e5, a proteção de informações e conformidade ou a assinatura de complemento de conformidade avançada. O Lockbox do cliente oferece suporte a solicitações de acesso a dados no Exchange Online, no SharePoint Online e no OneDrive for Business. Para recomendar o suporte para outros serviços do Office 365, envie uma solicitação no [Office 365 UserVoice](https://office365.uservoice.com/).
 
 A Lockbox do cliente garante que a Microsoft não possa acessar seu conteúdo para executar uma operação de serviço sem a sua aprovação explícita. O Lockbox do cliente o coloca no fluxo de trabalho de aprovação para solicitações de acesso ao seu conteúdo.
 
@@ -35,65 +34,55 @@ Ocasionalmente, os engenheiros da Microsoft ajudam a solucionar problemas e corr
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/8fecf10b-1f03-4849-8b67-76d3d2a43f26?autoplay=false]
 
-> [!NOTE]
-> O Lockbox do cliente oferece suporte a solicitações de acesso a dados no Exchange Online, no SharePoint Online e no OneDrive for Business. Para recomendar o suporte para outros serviços do Office 365, envie uma solicitação no [Office 365 UserVoice](https://office365.uservoice.com/).
-
 ## <a name="customer-lockbox-workflow"></a>Fluxo de trabalho de lockbox do cliente
 
-As etapas a seguir descrevem o fluxo de trabalho típico quando uma solicitação de lockbox do cliente é iniciada por um engenheiro da Microsoft:
+As etapas a seguir descrevem o fluxo de trabalho típico quando um engenheiro da Microsoft inicia uma solicitação de lockbox do cliente:
 
-1. Alguém em uma organização tem um problema com sua caixa de correio do Office 365.
+1. Alguém em uma organização enfrenta um problema com sua caixa de correio do Office 365.
 
 2. Depois que o usuário solucionar o problema, mas não conseguir corrigi-lo, ele abrirá uma solicitação de suporte com o suporte da Microsoft.
 
-3. Um engenheiro de suporte revisa a solicitação de serviço e determina a necessidade de acessar o conteúdo do Exchange Online do cliente para reparar o problema.
+3. Um engenheiro de suporte da Microsoft revisa a solicitação de serviço e determina a necessidade de acessar o locatário da organização para reparar o problema no Exchange Online.
 
-4. O engenheiro de suporte faz logon na ferramenta de solicitação de lockbox do cliente e faz uma solicitação de acesso aos dados especificando o nome do locatário do cliente, o número da solicitação de serviço e a duração estimada para a qual o acesso aos dados é necessário.
+4. O engenheiro de suporte da Microsoft faz logon na ferramenta de solicitação de lockbox do cliente e faz uma solicitação de acesso a dados que inclui o nome do locatário da organização, o número da solicitação de serviço e o tempo estimado que o engenheiro precisa acessar para os dados.
 
-5. Depois que um gerente de suporte da Microsoft aprova a solicitação, o Lockbox do cliente envia o aprovador designado na organização do cliente uma notificação por email sobre a solicitação de acesso pendente da Microsoft.
+5. Depois que um gerente de suporte da Microsoft aprova a solicitação, o Lockbox do cliente envia o aprovador designado na organização uma notificação por email sobre a solicitação de acesso pendente da Microsoft.
 
     ![Exemplo de notificação de email de lockbox de cliente](media/CustomerLockbox1.png)
 
-   > [!NOTE]
-   > Qualquer pessoa que tenha atribuído a função de administrador do [Aprovador de acesso de lockbox do cliente](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) no centro de administração do Microsoft 365 pode aprovar as solicitações de lockbox do cliente.
+   Qualquer pessoa que tenha atribuído a função de administrador do [Aprovador de acesso de lockbox do cliente](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) no centro de administração do Microsoft 365 pode aprovar as solicitações de lockbox do cliente.
 
-7. O aprovador entra no centro de administração do Microsoft 365 e aprova a solicitação. Esta etapa dispara a criação de um registro de auditoria disponível pesquisando o log de auditoria do Office 365. Para obter mais informações, consulte a seção [solicitações de lockbox de cliente de auditoria](#auditing-customer-lockbox-requests) .
+6. O aprovador entra no centro de administração do Microsoft 365 e aprova a solicitação. Esta etapa dispara a criação de um registro de auditoria disponível pesquisando o log de auditoria do Office 365. Para obter mais informações, consulte [Auditing Customer Lockbox requests](#auditing-customer-lockbox-requests).
 
-   Se o cliente rejeitar a solicitação ou a solicitação não for aprovada dentro de 12 horas, a solicitação expirará e nenhum acesso será concedido ao engenheiro da Microsoft.
+   Se o cliente rejeitar a solicitação ou não aprovar a solicitação dentro de 12 horas, a solicitação expirará e nenhum acesso será concedido ao engenheiro da Microsoft.
 
    > [!IMPORTANT]
    > A Microsoft não inclui nenhum link em notificações por email de lockbox de clientes que exijam que você entre no Office 365.
 
-8. Depois que o cliente aprova a solicitação, o engenheiro da Microsoft recebe a mensagem de aprovação, faz logon no Exchange Online e corrige o problema do cliente. Os engenheiros da Microsoft têm a duração solicitada para corrigir o problema após o qual o acesso é automaticamente revogado.
+7. Após o aprovador da organização aprovar a solicitação, o engenheiro da Microsoft recebe a mensagem de aprovação, faz logon no locatário no Exchange Online e corrige o problema do cliente. Os engenheiros da Microsoft têm a duração solicitada para corrigir o problema após o qual o acesso é automaticamente revogado.
 
 > [!NOTE]
-> Todas as ações executadas por um engenheiro da Microsoft são registradas no log de auditoria do Office 365. Você pode pesquisar e revisar esse registro de auditoria e pode ser pesquisada e revisada.
+> Todas as ações executadas por um engenheiro da Microsoft são registradas no log de auditoria do Office 365. Você pode pesquisar e revisar esses registros de auditoria.
 
 ## <a name="turn-customer-lockbox-requests-on-or-off"></a>Ativar ou desativar solicitações de lockbox do cliente
 
-Um administrador do Office 365 pode ativar os controles de lockbox do cliente no centro de administração do Microsoft 365. Quando a Lockbox do cliente está ativada, a Microsoft é obrigada a obter aprovação de uma organização antes de acessar qualquer um de seus conteúdos.
+Você pode ativar os controles de lockbox de cliente no centro de administração do Microsoft 365. Quando você ativa o Lockbox do cliente, a Microsoft deve obter a aprovação da sua organização antes de acessar qualquer conteúdo do seu locatário.
 
-> [!NOTE]
-> Para executar o procedimento a seguir, você deve ser um administrador global em sua organização do Microsoft 365 ou do Office 365 ou receber a função de administrador do **Aprovador de acesso de lockbox do cliente** .
+1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, [https://admin.microsoft.com](https://admin.microsoft.com) acesse e entre.
 
-1. Acesse [https://admin.microsoft.com](https://admin.microsoft.com) e entre com sua conta corporativa ou de estudante.
-
-2. Clique em **configurações > segurança & privacidade**.
+2. Escolha **configurações > segurança & privacidade**.
 
     ![Editar as configurações de lockbox do cliente no centro de administração](media/CustomerLockbox2.png)
 
-3. No bloco de **Lockbox do cliente** , clique em **Editar**e, em seguida, mova a opção para **ativado** ou **desativado** para ativar ou desativar o recurso.
+3. No bloco de **Lockbox do cliente** , escolha **Editar**e, em seguida, mova a opção para **ativado** ou **desativado** para ativar ou desativar o recurso.
 
     ![Require approval for Customer Lockbox](media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>Aprovar ou negar uma solicitação de lockbox do cliente
 
-> [!NOTE]
-> Para executar o procedimento a seguir, você deve ser um administrador global em sua organização do Microsoft 365 ou do Office 365 ou receber a função de administrador do **Aprovador de acesso de lockbox do cliente** .
+1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, [https://admin.microsoft.com](https://admin.microsoft.com) acesse e entre.
 
-1. Acesse [https://admin.microsoft.com](https://admin.microsoft.com) e entre com sua conta corporativa ou de estudante.
-
-2. Clique em **suporte > solicitações de lockbox do cliente**.
+2. Escolha **suporte > solicitações de lockbox do cliente**.
 
     ![Clique em suporte e, em seguida, clique em solicitações de lockbox do cliente](media/CustomerLockbox5.png)
 
@@ -101,36 +90,33 @@ Um administrador do Office 365 pode ativar os controles de lockbox do cliente no
 
     ![Lista de solicitações de lockbox do cliente](media/CustomerLockbox6.png)
 
-3. Selecione uma solicitação de lockbox de cliente e clique em **aprovar** ou **negar**.
+3. Selecione uma solicitação de lockbox de cliente e, em seguida, escolha **aprovar** ou **negar**.
 
     ![Aprovar ou negar solicitações de lockbox do cliente](media/CustomerLockbox7.png)
 
-    É exibida uma mensagem de confirmação sobre a aprovação da solicitação de lockbox do cliente.
+    Uma mensagem de confirmação sobre a aprovação da solicitação de lockbox do cliente é exibida.
 
     ![Aprovar ou negar solicitações de lockbox do cliente](media/CustomerLockbox8.png)
 
-## <a name="auditing-customer-lockbox-requests"></a>Auditar solicitações de lockbox do cliente 
+## <a name="auditing-customer-lockbox-requests"></a>Auditar solicitações de lockbox do cliente
 
-Os registros de auditoria que correspondem às solicitações de lockbox do cliente são registrados no log de auditoria do Office 365 e podem ser acessados por meio da [ferramenta de pesquisa de log de auditoria](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) no centro de conformidade & segurança do Office 365. As ações relacionadas a um cliente que aceita ou nega uma solicitação de lockbox de cliente e ações executadas por engenheiros da Microsoft (quando as solicitações de acesso são aprovadas) são registradas no log de auditoria do Office 365. Você pode pesquisar e revisar esses registros de auditoria.
-
-> [!NOTE]
-> Você precisa receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria do Office 365. Para saber mais, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin).
+Os registros de auditoria que correspondem às solicitações de lockbox do cliente são registrados no log de auditoria do Office 365. Você pode acessar esses logs usando a [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade & segurança do Office 365. As ações relacionadas à aceitação ou negação de uma solicitação de lockbox de cliente e ações executadas por engenheiros da Microsoft (quando as solicitações de acesso são aprovadas) também são registradas no log de auditoria do Office 365. Você pode pesquisar e revisar esses registros de auditoria.
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>Pesquisar o log de auditoria para atividades relacionadas às solicitações de lockbox do cliente
 
-Confira aqui como criar uma consulta de pesquisa de log de auditoria para retornar registros de auditoria relacionados à Lockbox do cliente:
+Antes de poder usar o log de auditoria para rastrear solicitações de lockbox de cliente, há algumas etapas que você precisa seguir para configurar o log de auditoria. Para saber mais, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin). Após concluir a instalação, use estas etapas para criar uma consulta de pesquisa de log de auditoria para retornar registros de auditoria relacionados à Lockbox do cliente:
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
   
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
 
-3. No painel esquerdo do centro de conformidade & segurança, clique em Pesquisar **&** > **pesquisa de log de auditoria**.
+3. No painel esquerdo do centro de conformidade & segurança, escolha **Pesquisar &** > **pesquisa de log de auditoria**.
 
     A página **pesquisa de log de auditoria** é exibida.
 
     ![Página pesquisa de log de auditoria](media/auditlogsearch1.png)
   
-4. Configure os seguintes critérios de pesquisa:
+4. Configure os seguintes critérios de pesquisa: 
 
     a. **Atividades** -deixe este campo em branco para que a pesquisa retorne registros de auditoria de todas as atividades. Isso é necessário para retornar registros de auditoria relacionados às solicitações de lockbox do cliente e à atividade correspondente executada pelos engenheiros da Microsoft.
 
@@ -148,7 +134,7 @@ Confira aqui como criar uma consulta de pesquisa de log de auditoria para retorn
 
    - Para exibir registros de auditoria relacionados a um Aprovador em sua organização aprovar ou negar uma solicitação de lockbox de cliente: na caixa da coluna **atividade** , digite **set-AccessToCustomerDataRequest**.
 
-   - Para exibir registros de auditoria relacionados a um engenheiro da Microsoft executando ações em resposta a uma solicitação de lockbox de cliente aprovado: na caixa abaixo da coluna **usuário** , digite **operador da Microsoft**. Observe que a ação executada pelo engenheiro é exibida int a coluna **atividade** .
+   - Para exibir registros de auditoria relacionados a um engenheiro da Microsoft executando ações em resposta a uma solicitação de lockbox de cliente aprovado: na caixa abaixo da coluna **usuário** , digite **operador da Microsoft**. A coluna **atividade** exibe a ação executada pelo engenheiro.
 
       ![Filtro em "operador da Microsoft" para exibir registros de auditoria](media/CustomerLockbox10.png)
 
@@ -156,7 +142,7 @@ Confira aqui como criar uma consulta de pesquisa de log de auditoria para retorn
 
 ### <a name="audit-record-for-a-customer-lockbox-access-request"></a>Registro de auditoria para uma solicitação de acesso de lockbox do cliente
 
-Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockbox do cliente, um registro de auditoria é registrado no log de auditoria do Office 365. Este registro contém as informações a seguir. 
+Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockbox do cliente, um registro de auditoria é registrado no log de auditoria do Office 365. Este registro contém as informações a seguir.
 
 | Propriedade do registro de auditoria| Descrição|
 |:---------- |:----------|
@@ -175,7 +161,7 @@ A captura de tela a seguir mostra um exemplo de um registro de log de auditoria 
 
 ### <a name="audit-record-for-an-action-performed-by-a-microsoft-engineer"></a>Registro de auditoria para uma ação executada por um engenheiro da Microsoft
 
-Conforme explicado anteriormente, as ações executadas por um engenheiro da Microsoft depois que uma solicitação de lockbox de cliente é aprovada (e que pode resultar no acesso ao conteúdo do cliente) são registradas no log de auditoria. Esses registros contêm as informações a seguir.
+As ações executadas por um engenheiro da Microsoft depois que uma solicitação de lockbox do cliente é aprovada (e isso pode resultar em acessar o conteúdo do cliente) são registradas no log de auditoria. Esses registros contêm as informações a seguir.
 
 | Propriedade do registro de auditoria| Descrição|
 |:---------- |:----------|
@@ -184,7 +170,6 @@ Conforme explicado anteriormente, as ações executadas por um engenheiro da Mic
 | Usuário       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
 | Atividade   | Nome da atividade realizada pelo engenheiro da Microsoft.|
 | Item       | \<Empty\>                                             |
-
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6cd8dd42bfd1947fa8bee7a69f1febad710c808a
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: 0d47ce82b5138827c4ae1c1ea29c902a8cd77cc0
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230209"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233872"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 
@@ -107,7 +107,7 @@ Defina as configurações de tabela "registros de aplicativos" como padrão:
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>Como validar a entidade OAuth criada para o conector de conformidade de & de segurança do Microsoft 365
 
-Vá para a tabela registros de aplicativos (menu > registro de aplicativo > OAuth de sistema) no ServiceNow e localize a entidade OAuth criada por você (nome que você atribuiu).
+Vá para a tabela registros de aplicativos (**Menu > registro de aplicativo > OAuth de sistema**) no ServiceNow e localize a entidade OAuth criada por você, com o nome que você atribuiu a ela.
 
 ### <a name="logging-in-as-the-integration-user"></a>Como fazer logon como o usuário de integração
 
@@ -121,13 +121,13 @@ Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o 
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Como validar o usuário de integração criado com a lista de verificação de instalação do conector de conformidade do & de segurança do Microsoft 365
 
-Vá para a tabela Users (menu > administração de usuário > usuários) no ServiceNow e localize o usuário de integração criado por você (nome que você atribuiu a ele).
+Vá para a tabela usuários **(Menu > administração de usuário > usuários**) no ServiceNow e localize o usuário de integração criado por você, com o nome atribuído a ele.
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Sua empresa tem o logon único habilitado, o que impede que você se conecte ao ServiceNow através da central de segurança do Microsoft 365
 
 Se sua empresa ativou o logon único e você recebe um erro ou o logon não é bem-sucedido, siga uma das duas soluções.
 
-#### <a name="logging-into-servicenow-as-the-integration-user"></a>Fazendo logon no ServiceNow como o usuário de integração
+#### <a name="log-into-servicenow-as-the-integration-user"></a>Faça logon no ServiceNow como o usuário de integração
 
 1. Volte para a página autorização no ServiceNow.
 2. Selecione o **não é possível** vincular no canto superior direito.
@@ -142,4 +142,5 @@ Se sua empresa ativou o logon único e você recebe um erro ou o logon não é b
 
 ### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>A instalação está concluída, mas não vê tíquetes e não pode ser compartilhada
 
-Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de https://security.microsoft.com/ticketProvisioningprovisionamento em. Selecione **salvar** e retornar para a página inicial. Os cartões devem ser exibidos.
+Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de https://security.microsoft.com/ticketProvisioningprovisionamento em. Selecione **autorizar** e retornar para a página inicial. Os cartões devem ser exibidos.
+

@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 38706a53c978009fa3d890fdbcc759c2d1a57d3e
-  ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
+  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/03/2019
-  ms.locfileid: "39812829"
+  ms.lasthandoff: 01/18/2020
+  ms.locfileid: "41233662"
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business?
@@ -55,10 +55,10 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/business
       itemType: overview
       text: Página de parceiro
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-customer-pitch-deck
+    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx
       itemType: download
       text: Baralho de jarra (foco do cliente)
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-partner-pitch-deck
+    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx
       itemType: download
       text: Baralho com densidade (foco do parceiro)
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip

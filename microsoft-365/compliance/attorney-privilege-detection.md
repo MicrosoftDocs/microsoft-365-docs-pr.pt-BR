@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o modelo de detecção de privilégio de cliente advogado para usar a detecção baseada em aprendizado de máquina de conteúdo privilegiado ao examinar o conteúdo em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: bf1b2112c47019c59f955ace21a25b099f91128f
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: f4d5252a44183f5e2e38e4f4676c73d350befaf2
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970859"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233712"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>Configurar detecção de privilégio de cliente de advogado na descoberta eletrônica avançada
 
@@ -36,11 +36,11 @@ Quando a detecção de privilégio de cliente do advogado estiver habilitada, to
 
 O modelo produz as três seguintes propriedades para cada documento:
 
-- **AttorneyClientPrivilegeScore** – a probabilidade de que o documento seja legal por natureza; os valores da Pontuação estão entre **0** e **1**.
+- **AttorneyClientPrivilegeScore:** A probabilidade de o documento ser legal por natureza; os valores da Pontuação estão entre **0** e **1**.
 
-- **HasAttorney** – essa propriedade será definida como **true** se um dos participantes do documento estiver listado na lista advogado; caso contrário, o valor será **false**. O valor também será definido como **false** se sua organização não tiver carregado uma lista de advogados.
+- **HasAttorney:** Essa propriedade será definida como **true** se um dos participantes do documento estiver listado na lista advogado; caso contrário, o valor será **false**. O valor também será definido como **false** se sua organização não tiver carregado uma lista de advogados.
 
-- **Isprivilege** – essa propriedade será definida como **true** se o valor de **AttorneyClientPrivilegeScore** estiver acima do limite *ou* se o documento tiver um participante advogado; caso contrário, o valor é definido como **false**.
+- **Isprivilege:** Essa propriedade é definida como **true** se o valor de **AttorneyClientPrivilegeScore** estiver acima do limite *ou* se o documento tiver um participante advogado; caso contrário, o valor é definido como **false**.
 
 Essas propriedades (e seus valores correspondentes) são adicionadas aos metadados de arquivo dos documentos em um conjunto de revisão, conforme mostrado na captura de tela a seguir:
 
@@ -58,11 +58,11 @@ Uma pessoa que é um administrador de descoberta eletrônica em sua organizaçã
 
 1. No centro de conformidade & segurança, vá para **descoberta eletrônica avançada**de descoberta eletrônica >.
 
-2. Na home page de **descoberta eletrônica avançada** , no bloco **configurações** , selecione **configurar recursos experimentales**.
+2. Na home page de **descoberta eletrônica avançada** , no bloco **configurações** , clique em **Configurar definições globais de análise**.
 
    ![Selecione "configurar recursos experimentais"](media/AeDExperimentalFeatures.png)
 
-3. Na guia **recursos experimentales** , selecione **gerenciar definição de privilégio de cliente**.
+3. Na guia **configurações de análise** , selecione **gerenciar definição de privilégio de cliente do advogado**.
 
 4. Na página do submenu de **privilégio advogado-cliente** , use o botão de alternância para ativar o recurso e, em seguida, selecione **salvar**.
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 479aa8888a3a8e67c51cb7edf14747c840295a4f
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: d8de760fb4690af6675b67678b2441773993a8e5
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823713"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233912"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -37,7 +37,8 @@ Linha de base de segurança | A [linha de base de segurança da Microsoft](https
 Modelo de segurança recomendado para área de trabalho gerenciada da Microsoft | Um conjunto de alterações recomendadas à linha de base de segurança que otimizam a experiência do usuário.  Essas alterações são documentadas no [adendo de segurança](#security-addendum). As atualizações para o adendo de política ocorrem em uma base conforme necessário.  
 Implantação de atualização | Use o Windows Update para empresas para executar a implantação gradual de atualizações de software. Os administradores de ti não podem modificar as configurações das diretivas de grupo de implantação. Para obter mais informações sobre a implantação baseada em grupo, consulte [como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](updates.md).
 Dados de diagnóstico | Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários finais podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
-Conexões limitadas | Por padrão, as atualizações em conexões limitadas (como redes LTE) estão desativadas, embora cada usuário possa ativar o recurso de forma independente em **configurações > atualizações > opções avançadas**. Se você deseja permitir que todos os usuários habilitem atualizações em conexões limitadas, [envie uma solicitação de alteração](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support), o que ativará essa configuração para todos os dispositivos.
+Conexões limitadas | Por padrão, as atualizações em conexões limitadas (como redes LTE) estão desativadas, embora cada usuário possa ativar o recurso de forma independente em **configurações > atualizações > opções avançadas**. Se você deseja permitir que todos os usuários habilitem atualizações em conexões limitadas, [envie uma solicitação de alteração](../working-with-managed-desktop/admin-support.md), o que ativará essa configuração para todos os dispositivos.
+| Conformidade do dispositivo | Essas políticas são configuradas para todos os dispositivos de área de trabalho gerenciada da Microsoft. Um dispositivo é relatado como não compatível quando ele se desfere da configuração de segurança necessária.
 
  ## <a name="security-addendum"></a>Adendo de segurança
 
