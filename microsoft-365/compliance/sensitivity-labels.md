@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para aplicar configurações de proteção que incluem criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: b69ae981ea8d988d399e325d2532a0a59e27ae20
-ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
+ms.openlocfilehash: f416bcb32e9d8c14fee17d2dcecddac2aec20485
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023345"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238498"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Visão geral de rótulos de confidencialidade
 
@@ -154,7 +154,7 @@ Com uma política de rótulos, você pode:
 
     ![Link do Saiba mais no botão Confidencialidade na faixa de opções](media/Sensitivity-label-learn-more.png)
 
-Depois de criar uma política de rótulos e atribuir rótulos de confidencialidade para usuários e grupos, essas pessoas podem ver os rótulos disponíveis nos aplicativos do Office em uma hora ou menos.
+Depois de criar um política de rótulo que atribui rótulos de confidencialidade a usuários e grupos, aguarde 24 horas para que esses usuários vejam os rótulos em seus aplicativos do Office.
 
 Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, haverá no máximo 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações de palavras reais provaram que a eficácia é reduzida quando os usuários têm mais de cinco rótulos principais e mais de cinco sub-rótulos por rótulo principal.
 
@@ -178,7 +178,7 @@ Embora a prioridade seja importante para políticas de rótulos de confidenciali
 
 ## <a name="how-to-get-started-with-sensitivity-labels"></a>Como começar a usar os rótulos de confidencialidade
 
-A introdução aos rótulos de confidencialidade é um processo rápido:
+Comece a usar os rótulos de confidencialidade seguindo este processo:
 
 1. **Definir os rótulos.** Primeiro, você deseja estabelecer sua taxonomia para definir diferentes níveis de confidencialidade de conteúdo. Use os nomes ou termos comuns que fazem sentido para os seus usuários. Por exemplo, você pode começar com rótulos como Pessoal, Público, Geral, Confidencial e Altamente Confidencial. Você pode usar sub-rótulos para agrupar rótulos similares por categoria. Além disso, quando você cria um rótulo, é necessário ter uma dica de ferramenta que apareça nos aplicativos do Office quando um usuário passar o mouse sobre uma opção de rótulo na Faixa de Opções.
 
@@ -189,6 +189,8 @@ A introdução aos rótulos de confidencialidade é um processo rápido:
 Eis o fluxo básico com o que o administrador, o usuário e o aplicativo do Office fazem para os rótulos de confidencialidade funcionarem.
 
 ![Diagrama mostrando o fluxo de trabalho de rótulos de confidencialidade](media/Sensitivity-label-flow.png)
+
+Para obter informações sobre procedimentos, confira [Criar e configurar rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md).
 
 ## <a name="where-sensitivity-labels-can-appear"></a>Onde rótulos de confidencialidade podem aparecer
 

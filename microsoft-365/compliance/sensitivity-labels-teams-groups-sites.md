@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 4a8cf810ba29c2bb025b50e1529081a1a9ba6843
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: 0b5c4e8ef3611b417c59f7ac5b36f83a799e3397
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966889"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238438"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -148,7 +148,7 @@ Depois de criar e publicar um rótulo de confidencialidade, pode levar até 24 h
 
 3. Após essas 24 horas, use uma das contas de usuário especificadas na etapa 1 para criar uma equipe, um grupo do Office 365 ou um site do SharePoint com o rótulo que você criou na etapa 1.
 
-4. Se não houver erros durante a operação de criação da etapa 3, publique o rótulo para todos os usuários em seu locatário. Se houver erros, contate o suporte da Microsoft.
+4. Se não houver erros durante a operação de criação da etapa 3, publique o rótulo para todos os usuários em seu locatário. Se houver erros, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 **Modificar e excluir rótulos publicados:**
 
@@ -160,14 +160,14 @@ Se você modificar ou excluir um rótulo de confidencialidade incluído em uma o
 
 3. Após as 48 horas de espera, experimente criar uma equipe, grupo ou site e confirme se o rótulo não está mais visível.
 
-4. Se a etiqueta de confidencialidade não estiver visível, agora você pode modificá-la ou excluí-la com segurança. Se o rótulo ainda estiver visível, contate o suporte da Microsoft.
+4. Se a etiqueta de confidencialidade não estiver visível, agora você pode modificá-la ou excluí-la com segurança. Se o rótulo ainda estiver visível, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>Solucionar problemas de implantação de rótulo de confidencialidade
 
 ### <a name="labels-not-visible-after-publishing"></a>Rótulos não visíveis após a publicação
 Se você tiver problemas ao criar uma equipe ou grupo do Office 365 depois de habilitar essas configurações ou modificar a descrição de uma etiqueta de confidencialidade, salve o rótulo, aguarde algumas horas e, em seguida, tente criar a equipe ou o grupo novamente. Para saber mais, confira [Agendar a distribuição após criar ou alterar um rótulo de confidencialidade](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label).
 
-Se você ainda não conseguir ver a nova etiqueta de confidencialidade do SharePoint Online, contate o suporte da Microsoft.
+Se você ainda não conseguir ver o novo rótulo de confidencialidade do SharePoint Online, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 ### <a name="team-group-or-sharepoint-site-creation-errors"></a>Erros de criação de site de equipe, grupo ou SharePoint
 Se ocorrerem erros de criação durante a visualização pública, você tem duas opções:
