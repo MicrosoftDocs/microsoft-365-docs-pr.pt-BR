@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: 1bcf6b954c69297981eafecef192cab0e55a7684
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: cb978dd39e9645b8179490d498713137ab79af46
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112735"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233892"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -61,7 +61,7 @@ A mensagem acima veio da Microsoft, mas, ao mesmo tempo, os usuários estão aco
 
 Para impedir a falsificação, o setor de filtragem de email desenvolveu protocolos de autenticação de email, como [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) e [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email). O DMARC impede que falsificações examinem o remetente de uma mensagem. Ou seja, o remetente que os usuários veem em seus clientes de email (nos exemplos acima, são o service.outlook.com, o outlook.com e o accountprotection.microsoft.com). Além disso, os usuários também podem ver se o domínio já passou no SPF ou no DKIM, o que significa que o domínio foi autenticado e, portanto, não é falso. Para uma discussão mais completa, confira a seção "*Entender por que a autenticação de email nem sempre é suficiente para impedir a falsificação"* mais adiante neste artigo.
 
-No entanto, o problema é que os registros de autenticação de email são opcionais, não obrigatórios. Portanto, embora domínios com políticas de autenticação fortes, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação mais fracas ou nenhuma política são alvo de falsificação. Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas de autenticação de email fortes. Os 91% restantes podem ser falsificados por um phisher e, a menos que o filtro de email os detecte usando outra política, podem ser entregues a um usuário final e enganá-lo:
+No entanto, o problema é que os registros de autenticação de email são opcionais, não obrigatórios. Portanto, enquanto domínios com políticas de autenticação fortes, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação mais fracas ou nenhuma política, são alvos de falsificação. Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas de autenticação de emails fortes. Os 91% restantes podem ser falsificados por um phisher e, a menos que o filtro de email os detecte usando outra política, podem ser entregues a um usuário final e enganá-lo:
 
 ![Políticas do DMARC de empresas da lista Fortune 500](../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
