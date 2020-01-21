@@ -16,24 +16,10 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Plano de segurança e conformidade no Office 365
       href: plan-for-security-and-compliance.md
-- name: Gerenciar riscos internos
+- name: Gerenciar riscos insideres
   items:
     - name: Proteger acesso de usuário e de dispositivo
       href: protect-access-to-data-and-services.md
-    - name: Sistema de Proteção de Dados do Cliente
-      href: customer-lockbox-requests.md
-    - name: Gerenciamento de acesso privilegiado
-      items:
-        - name: Saiba mais sobre o gerenciamento de acesso privilegiado
-          href: privileged-access-management-overview.md
-        - name: Configurar o gerenciamento de acesso privilegiado
-          href: privileged-access-management-configuration.md
-    - name: Chave de Cliente
-      items:
-        - name: Controlar seus dados no Office 365 usando a Chave do Cliente
-          href: controlling-your-data-using-customer-key.md
-        - name: Criptografia de serviço com chave do cliente para perguntas frequentes do Office 365
-          href: service-encryption-with-customer-key-faq.md
     - name: Conformidade de comunicação (visualização)
       items:
         - name: Saiba mais sobre a conformidade em comunicações (visualização)
@@ -59,13 +45,27 @@
           href: information-barriers-troubleshooting.md
         - name: Editar políticas de barreira de informações
           href: information-barriers-edit-segments-policies.md
+    - name: Gerenciamento de acesso privilegiado
+      items:
+        - name: Saiba mais sobre o gerenciamento de acesso privilegiado
+          href: privileged-access-management-overview.md
+        - name: Configurar o gerenciamento de acesso privilegiado
+          href: privileged-access-management-configuration.md
+    - name: Chave de Cliente
+      items:
+        - name: Controlar seus dados no Office 365 usando a Chave do Cliente
+          href: controlling-your-data-using-customer-key.md
+        - name: Criptografia de serviço com chave do cliente para perguntas frequentes do Office 365
+          href: service-encryption-with-customer-key-faq.md
+    - name: Sistema de Proteção de Dados do Cliente
+      href: customer-lockbox-requests.md
 - name: Gerenciar a proteção de informações
   href: protect-information.md
   items:
     - name: Rótulos de confidencialidade
       href: sensitivity-labels.md
       items:
-        - name: Criar e publicar rótulos de sensibilidade
+        - name: Criar e publicar rótulos de confidencialidade
           href: create-sensitivity-labels.md
         - name: Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade
           href: encryption-sensitivity-labels.md
@@ -214,6 +214,8 @@
           href: archive-linkedin-data.md
         - name: Configurar um conector para arquivar dados do Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Configurar um conector para importar dados de RH
+          href: import-hr-data.md
         - name: Trabalhar com um parceiro para arquivar dados de terceiros
           href: work-with-partner-to-archive-third-party-data.md
     - name: Armazenar dados

@@ -1,5 +1,5 @@
 ---
-title: Usar um exemplo de conector para arquivar dados do Facebook (visualização)
+title: Configurar um conector para arquivar dados do Facebook
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,28 +10,22 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados de terceiros de fontes de dados, como páginas de negócios do Facebook, Twitter, páginas da empresa do LinkedIn e Bloomberg instantâneo. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 83b85408afcb4613705691d5bd5a3b72365cb11a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f942df5401c14e3067d664aab41e6cac14542bc0
+ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808176"
+ms.lasthandoff: 01/21/2020
+ms.locfileid: "41247604"
 ---
-# <a name="use-a-sample-connector-to-archive-facebook-data-preview"></a>Usar um exemplo de conector para arquivar dados do Facebook (visualização)
+# <a name="set-up-a-connector-to-archive-facebook-data"></a>Configurar um conector para arquivar dados do Facebook
 
-O recurso de conector de exemplo para arquivar dados do Facebook no Office 365 está em visualização.
-
-Use um conector de exemplo no centro de conformidade & segurança no Office 365 para importar e arquivar dados de páginas de negócios do Facebook para o Office 365. Depois de configurar e configurar um conector de exemplo, ele se conecta à página de negócios do Facebook (em uma base agendada), converte o conteúdo de itens do Facebook em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
+Use um conector de dados no centro de conformidade & segurança no Office 365 para importar e arquivar dados de páginas de negócios do Facebook para o Office 365. Após a configuração e a configuração de um conector, ele se conecta à página de negócios do Facebook (de acordo com o agendamento), converte o conteúdo de itens do Facebook em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
 
 Depois que os dados do Facebook são importados, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 para os dados do Facebook. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Facebook são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Facebook são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Facebook no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-> [!NOTE]
-> Neste momento, somente os conectores de amostra para páginas de negócios do Facebook e [Twitter](archive-twitter-data-with-sample-connector.md) estão disponíveis para visualização. Mais exemplos de conectores serão disponibilizados em breve.
-
-
 ## <a name="prerequisites-for-setting-up-a-connector-for-facebook-business-pages"></a>Pré-requisitos para configurar um conector para páginas de negócios do Facebook
 
-Conclua os pré-requisitos a seguir antes de configurar e configurar um conector de exemplo no centro de conformidade & segurança para importar e arquivar dados das páginas de negócios do Facebook da sua organização. 
+Conclua os pré-requisitos a seguir antes de configurar e configurar um conector no centro de conformidade & segurança para importar e arquivar dados das páginas de negócios de Facebook da sua organização. 
 
 - Você precisa de uma conta do Facebook para as páginas de negócios da sua organização (você precisa fazer logon nessa conta ao configurar o conector). Atualmente, você só pode arquivar dados de páginas de negócios do Facebook; Você não pode arquivar dados de perfis individuais do Facebook.
 
@@ -42,7 +36,7 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
     - [Inscreva-se para obter uma assinatura do Azure de pagamento conforme a ser acessado](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Office 365 não dá suporte aos conectores de amostra no centro de conformidade de segurança &.
+    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Office 365 não é compatível com os conectores no centro de conformidade do & de segurança.
 
 - Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação.
 

@@ -9,16 +9,16 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1d313720d2b9397b866898a55fb5ba2972234edb
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: b881e51f08e201f2870ea979e3f6c8181ab2ea02
+ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831634"
+ms.lasthandoff: 01/21/2020
+ms.locfileid: "41247594"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Visão geral do catálogo de soluções do Microsoft 365 (versão prévia)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Você está procurando uma maneira de começar rapidamente com tarefas de conformidade no Microsoft 365? Confira o novo [Catálogo de soluções do Microsoft 365](https://compliance.microsoft.com/solutioncatalog) para descobrir, aprender e rapidamente começar a usar soluções de gerenciamento de riscos e conformidade.
 
@@ -51,13 +51,14 @@ Aqui, você verá cartões para as seguintes soluções:
 
 ## <a name="insider-risk-management-section"></a>Seção Gerenciamento de riscos do insider
 
-A seção **Gerenciamento de riscos do insider** na Home Page mostra rapidamente como sua organização pode identificar, analisar e corrigir riscos internos antes que causem danos.
+A seção de **Gerenciamento de riscos do insider** na Home Page mostra rapidamente como sua organização pode identificar, analisar e tomar medidas sobre riscos internos antes que eles causem danos.
 
-![Seção Gerenciamento de riscos do catálogo de soluções do Microsoft 365](media/m365-solution-catalog-internal-risk-management.png)
+![Seção Gerenciamento de riscos do catálogo de soluções do Microsoft 365](media/m365-solution-catalog-insider-risk-management.png)
 
-A partir daqui, você pode ir para um cartão para a seguinte solução:
+Aqui, você verá cartões para as seguintes soluções:
 
-- [Conformidade de Comunicação](communication-compliance.md): minimiza os riscos de comunicação ajudando você a capturar automaticamente mensagens inadequadas, investigar possíveis violações de política e tomar medidas para corrigir.
+- [Conformidade de Comunicação](communication-compliance.md): minimiza os riscos de comunicação ajudando você a capturar automaticamente mensagens inadequadas, investigar possíveis violações de política e tomar medidas para minimizar os danos.
+- [Gerenciamento de risco do insider](insider-risk-management.md): detectar atividades arriscadas em toda a organização para ajudá-lo a identificar, investigar e realizar ações rapidamente em riscos e ameaças do insider.
 
 ## <a name="discovery--response-section"></a>Seção de resposta & de descoberta
 
@@ -95,6 +96,8 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 ## <a name="next-steps"></a>Próximas etapas
 
 - **Revise sua pontuação de conformidade da Microsoft**, uma pontuação personalizada e baseada em riscos para ajudá-lo a entender o estado de conformidade da sua organização com normas e padrões principais. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Pontuação de conformidade (visualização)](compliance-score.md).
+
+- **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
 
 - **Microsoft Information Protection**, saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
     - **Familiarize-se com e configure o Microsoft Cloud app Security**. Veja [início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).

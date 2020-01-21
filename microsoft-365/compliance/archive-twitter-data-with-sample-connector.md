@@ -1,5 +1,5 @@
 ---
-title: Usar um exemplo de conector para arquivar dados do Twitter (versão prévia)
+title: Configurar um conector para arquivar dados do Twitter
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,28 +10,22 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados do Twitter para o Office 365. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 77f0a0615a177c0bfd6179a6a5ce1a58b024dcdc
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 083c293e869cb35b428592717b7cf3810e7fea8c
+ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807480"
+ms.lasthandoff: 01/21/2020
+ms.locfileid: "41247554"
 ---
-# <a name="use-a-sample-connector-to-archive-twitter-data-preview"></a>Usar um exemplo de conector para arquivar dados do Twitter (versão prévia)
+# <a name="set-up-a-connector-to-archive-twitter-data"></a>Configurar um conector para arquivar dados do Twitter
 
-O recurso de conector de exemplo para arquivar dados do Twitter no Office 365 está em visualização.
+Use um conector no centro de conformidade & segurança no Office 365 para importar e arquivar dados do Twitter. Depois de configurar e configurar um conector, ele se conecta à conta do Twitter da sua organização (em uma base agendada), converte o conteúdo de um item em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
 
-Use um conector de exemplo no centro de conformidade & segurança no Office 365 para importar e arquivar dados do Twitter. Depois de configurar e configurar um conector de exemplo, ele se conecta à conta do Twitter da sua organização (em uma base agendada), converte o conteúdo de um item em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Office 365.
-
-Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, [conformidade de comunicação](communication-compliance.md)e políticas de retenção do Office 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. Usar um exemplo de conector para importar e arquivar dados do Twitter no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
-
-> [!NOTE]
-> Atualmente, somente os conectores de amostra para as [páginas de negócios](archive-facebook-data-with-sample-connector.md) do Twitter e do Facebook estão disponíveis para visualização. Mais exemplos de conectores serão disponibilizados em breve.
-
+Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Office 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, conformidade de comunicação e políticas de retenção do Office 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Twitter no Office 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-twitter"></a>Pré-requisitos para configurar um conector para o Twitter
 
-Conclua os pré-requisitos a seguir antes de configurar e configurar um conector de exemplo no centro de conformidade & segurança para importar e arquivar dados da conta do Twitter da sua organização. 
+Conclua os pré-requisitos a seguir antes de configurar e configurar um conector no centro de conformidade do & de segurança para importar e arquivar dados da conta do Twitter da sua organização. 
 
 - Você precisa de uma conta do Twitter para sua organização; Você precisa se conectar a essa conta ao configurar o conector.
 
@@ -42,7 +36,7 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
     - [Inscreva-se para obter uma assinatura do Azure de pagamento conforme a ser acessado](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Office 365 não dá suporte aos conectores de amostra no centro de conformidade de segurança &.
+    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Office 365 não é compatível com os conectores no centro de conformidade do & de segurança.
 
 - Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação.
 
@@ -50,7 +44,7 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
 
 ## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>Etapa 1: baixar o pacote de aplicativos do conector pré-criado do GitHub
 
-A primeira etapa é baixar o código-fonte para o aplicativo do conector de amostra do Twitter que usará uma API do Twitter para se conectar à sua conta do Twitter e extrair os dados para que você possa importá-lo para o Office 365.
+A primeira etapa é baixar o código-fonte para o aplicativo do conector Twitter que usará uma API do Twitter para se conectar à sua conta do Twitter e extrair os dados para que você possa importá-lo para o Office 365.
 
 1. Vá para [este site do GitHub](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases). 
 2. Na versão mais recente, selecione o arquivo **SampleConnector. zip** .
