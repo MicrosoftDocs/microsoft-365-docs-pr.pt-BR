@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de atividade dá o toque final na funcionalidade do recurso de classificação de dados, permitindo que você veja e filtre as ações que os usuários estão executando no conteúdo rotulado.
-ms.openlocfilehash: 272de0400e89f9829b3ead5d4523db27789c0c44
-ms.sourcegitcommit: 9d0a025ea9e265d515a034de0102eabcf47d11f5
+ms.openlocfilehash: ab80de0e1be3a164da8414ef3791fb9717bcc190
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "39268941"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233692"
 ---
 # <a name="view-activity-on-your-labeled-content-preview"></a>Exibir atividade do seu conteúdo rotulado (visualização)
 
@@ -38,6 +38,16 @@ Você pode filtrar os dados de acordo com:
 
 
 Você pode exibir os dados como uma lista ou como um gráfico de barras.
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Toda conta que acessa e usa o explorador de atividades deve ter uma licença atribuída a partir de uma destas assinaturas:
+
+- Microsoft 365 (E5)
+- Office 365 (E5)
+- Complemento de Conformidade Avançada (E5)
+- Complemento Avançado de Inteligência contra Ameaças (E5)
+- Complemento Proteção Avançada Contra Ameaças (E5)
 
 ## <a name="activity-type"></a>Tipo de atividade
 
