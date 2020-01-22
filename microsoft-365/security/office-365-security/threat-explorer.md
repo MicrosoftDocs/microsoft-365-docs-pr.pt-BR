@@ -14,12 +14,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 64ebfef5c0d5540acf74d0d6f5a864461e83f82f
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: ef605fcc7a76cb2432357856b814453b149a5296
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967934"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261875"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -27,7 +27,7 @@ Se sua organização tem a [proteção avançada contra ameaças do office 365](
 
 |Com o plano ATP 2, você vê:  |Com o plano ATP 1, você vê:  |
 |---------|---------|
-|![Explorador de ameaças](../media/threatmgmt-explorer.png)      |![Detecções em tempo real](../media/threatmgmt-realtimedetections.png)         |
+|![Explorador de ameaças](../media/threatmgmt-explorer.png)      |![Detecção em tempo real](../media/threatmgmt-realtimedetections.png)         |
 
 Com o Explorer (ou detecções em tempo real), você tem um relatório poderoso que permite que sua equipe de operações de segurança investigue e responda às ameaças de forma eficaz e eficiente. O relatório é semelhante à seguinte imagem: 
 
@@ -200,7 +200,7 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-## <a name="some-differences-between-threat-exporter-and-real-time-detections"></a>Algumas diferenças entre exportadores de ameaça e detecções em tempo real
+## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Algumas diferenças entre o Gerenciador de ameaças e as detecções em tempo real
 
  - O relatório de **detecções em tempo real** está disponível no Office 365 ATP Plan 1, enquanto o **Explorador de ameaças** está disponível no Office 365 ATP Plan 2.
  - O relatório de **detecções em tempo real** permite que você visualize detecções em tempo real. O **Gerenciador de ameaças** também faz isso, mas também permite que você exiba detalhes adicionais de um determinado ataque.
