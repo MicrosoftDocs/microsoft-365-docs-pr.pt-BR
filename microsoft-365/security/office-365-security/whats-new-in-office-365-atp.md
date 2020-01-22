@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a43576bc18d54e3a5c9b2f9ad918c1df3ee67615
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2ad99943869d3edc16316d90efb9bbfd70a6f18f
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807936"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260219"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -30,10 +30,6 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 > [!TIP]
 > Ainda não tem o Office 365 ATP? [Entre em contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644).
-
-## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP Plano 1 e Plano 2
-
-O Office 365 ATP está disponível em dois planos: Office 365 ATP Plan 1 e Office 365 ATP Plan 2. [Saiba mais](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="december-2019"></a>Dezembro de 2019
 
@@ -65,8 +61,14 @@ O Office 365 ATP está disponível em dois planos: Office 365 ATP Plan 1 e Offic
 
 - [Exibir dados sobre URLs de phishing e clicar em veredicto](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP plano 1 ou plano 2)
 
+## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP Plano 1 e Plano 2
+
+Você sabia que o Office 365 ATP está disponível em dois planos? Há o Office 365 ATP Plan 1 e o Office 365 ATP Plan 2. [Saiba mais sobre o que cada plano inclui](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+
 ## <a name="see-also"></a>Confira também
 
 [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Descrição do serviço ATP do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+[Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

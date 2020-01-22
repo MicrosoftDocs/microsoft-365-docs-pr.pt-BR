@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2366c7b9e3c95ee88753ffb7677a7031c8ac9786
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962318"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260099"
 ---
 # <a name="work-with-insights"></a>Trabalhar com insights
 
@@ -40,4 +40,9 @@ Saiba mais sobre o [uso de insights](usage-insights.md).
 ## <a name="reliability-insights"></a>Insights de confiabilidade
 Este modo de exibição fornece um resumo de integridade dos dispositivos gerenciados. Para exibir os dados de confiabilidade, selecione a guia **confiabilidade** .
 
-Saiba mais sobre o [insights de confiabilidade](reliability-insights.md)
+Saiba mais sobre o [insights de confiabilidade](reliability-insights.md).
+
+## <a name="battery-insights"></a>Insights de bateria
+Este modo de exibição mostra informações sobre o consumo de energia de aplicativos e a vida útil da bateria projetada para dispositivos no seu ambiente. Para exibir essas informações, selecione a guia **bateria** .
+
+Saiba mais sobre o [insights da bateria](battery-insights.md).

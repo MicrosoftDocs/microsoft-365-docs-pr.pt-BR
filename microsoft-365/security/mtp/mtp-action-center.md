@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: ca98e59ded0956455e3279caa9de2af4f4af86c9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 91f2ae9a9fef96a3fdfedf86481aa5f5f33cb724
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808466"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260209"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
 
@@ -70,6 +70,10 @@ A tabela a seguir lista as ações de correção com suporte no momento na Centr
     - Se a investigação se refere a conteúdo de email (por exemplo, a entidade é uma caixa de correio), detalhes de investigação abrirão no Centro de Conformidade e Segurança do Office 365 ([https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation)). 
 
     - Se a investigação envolve um dispositivo, detalhes de investigação abrirão na central de segurança ([https://security.microsoft.com](https://security.microsoft.com)). 
+
+
+> [!TIP]
+> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Permissões necessárias para tarefas da Central de ações
 

@@ -8,16 +8,25 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 8713b678432d71304649e05fba466659de0369ad
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634058"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260119"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os tópicos "atualizados" são aqueles que tiveram inclusões de material ou correções – correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="december-2019"></a>Dezembro de 2019
+Tópico novo ou alterado | Descrição
+--- | ---
+[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tópico atualizado
+[Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Tópico atualizado
+[Dispositivos arquivados do Microsoft Managed desktop](service-description/archived-device-list.md) | Tópico atualizado
+
+
 
 ## <a name="november-2019"></a>Novembro de 2019
 Tópico novo ou alterado | Descrição
