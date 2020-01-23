@@ -18,8 +18,24 @@
       href: plan-for-security-and-compliance.md
 - name: Gerenciar riscos insideres
   items:
-    - name: Proteger acesso de usuário e de dispositivo
-      href: protect-access-to-data-and-services.md
+    - name: Gerenciamento de risco do Insider (versão prévia)
+      items:
+        - name: Saiba mais sobre o gerenciamento de risco do Insider (versão prévia)
+          href: insider-risk-management.md
+        - name: Introdução ao gerenciamento de risco do Insider (visualização)
+          href: insider-risk-management-configure.md
+        - name: Criar e gerenciar políticas de risco do Insider (versão prévia)
+          href: insider-risk-management-policies.md
+        - name: Investigar alertas de risco do Insider (versão prévia)
+          href: insider-risk-management-alerts.md
+        - name: Executar ações em casos de risco do Insider (versão prévia)
+          href: insider-risk-management-cases.md
+        - name: Examinar dados com o Gerenciador de conteúdo de risco do Insider (versão prévia)
+          href: insider-risk-management-content-explorer.md
+        - name: Adicionar usuários a políticas de risco do Insider (versão prévia)
+          href: insider-risk-management-users.md
+        - name: Criar avisos de risco de Insider (versão prévia)
+          href: insider-risk-management-notices.md
     - name: Conformidade de comunicação (visualização)
       items:
         - name: Saiba mais sobre a conformidade em comunicações (visualização)
@@ -57,6 +73,8 @@
           href: controlling-your-data-using-customer-key.md
         - name: Criptografia de serviço com chave do cliente para perguntas frequentes do Office 365
           href: service-encryption-with-customer-key-faq.md
+    - name: Proteger acesso de usuário e de dispositivo
+      href: protect-access-to-data-and-services.md
     - name: Sistema de Proteção de Dados do Cliente
       href: customer-lockbox-requests.md
 - name: Gerenciar a proteção de informações
