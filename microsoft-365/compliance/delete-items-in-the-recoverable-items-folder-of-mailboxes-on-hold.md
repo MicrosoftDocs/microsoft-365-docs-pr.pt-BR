@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Office 365.'
-ms.openlocfilehash: 1954ac4db8b978b0b1c3cdc8cee080cc0f0e6c22
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+description: "Para administradores: excluir itens em um \n\npasta itens recuperáveis da er para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Office 365."
+ms.openlocfilehash: 6eeb3fecc531d4790330236f8b8857aa4344b371
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684976"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259669"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -45,17 +45,13 @@ A pasta itens recuperáveis para uma caixa de correio do Exchange Online existe 
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você precisa ter as duas funções de gerenciamento a seguir no Exchange Online para pesquisar e excluir mensagens da pasta itens recuperáveis na etapa 5.
-    
-  - **Pesquisa de caixa de correio** -essa função permite pesquisar caixas de correio em sua organização. Os administradores do Exchange não são atribuídos a essa função por padrão. Para atribuir a si mesmo esta função, adicione a si mesmo como membro do grupo de função gerenciamento de descoberta no Exchange Online. 
-    
-  - **Exportação de importação de caixa de correio** -essa função permite excluir mensagens da caixa de correio de um usuário. Por padrão, essa função não é atribuída a algum grupo de funções. Para excluir mensagens de caixas de correio dos usuários, você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. 
+- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções Gerente de Descoberta Eletrônica ou receber a função de gerenciamento de Pesquisa de Conformidade. Para excluir mensagens, você precisa ser membro do grupo de funções Gerenciamento da Organização ou receber a função de gerenciamento Pesquisa e Limpar. Para obter informações sobre como adicionar usuários a um grupo de funções, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
     
 - O procedimento descrito neste artigo não tem suporte para caixas de correio inativas. Isso ocorre porque você não pode aplicar novamente uma retenção (ou a política de retenção do Office 365) a uma caixa de correio inativa após removê-la. Quando você remove uma retenção de uma caixa de correio inativa, ela é alterada para uma caixa de correio normal excluída por software e será excluída permanentemente da sua organização depois de ser processada pelo assistente de pasta gerenciada.
     
 - Você não pode executar esse procedimento para uma caixa de correio que tenha sido atribuída a uma política de retenção do Office 365 que tenha sido bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção do Office 365 e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre as políticas de retenção de bloqueio, consulte [bloquear uma política de retenção](retention-policies.md#locking-a-retention-policy).
     
-- Se uma caixa de correio não for colocada em espera (ou não tiver a recuperação de item único habilitada), você poderá simplesmente excluir os itens da pasta itens recuperáveis. Para obter mais informações sobre como fazer isso, confira [Pesquisar e excluir mensagens ](https://go.microsoft.com/fwlink/?linkid=852453).
+- Se uma caixa de correio não for colocada em espera (ou não tiver a recuperação de item único habilitada), você poderá simplesmente excluir os itens da pasta itens recuperáveis. Para obter mais informações sobre como fazer isso, confira [Pesquisar e excluir mensagens de email em sua organização do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
   
 ## <a name="step-1-collect-information-about-the-mailbox"></a>Etapa 1: coletar informações sobre a caixa de correio
 
@@ -247,88 +243,35 @@ Após identificar o nome do caso de descoberta eletrônica e a retenção, vá *
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>Etapa 4: remover o atraso no bloqueio da caixa de correio
 
-Após qualquer tipo de retenção ser removido de uma caixa de correio, o valor da propriedade de caixa de correio *DelayHoldApplied* é definido como **true**. Isso ocorre na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção foi removida. Isso é chamado de *espera de atraso* e significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente da caixa de correio. (O objetivo de um atraso na espera é dar aos administradores uma oportunidade de Pesquisar ou recuperar itens de caixa de correio que serão removidos após a remoção de uma retenção.)  Quando um atraso de espera é colocado na caixa de correio, a caixa de correio ainda é considerada em espera por uma duração ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Office 365 tentará automaticamente remover o atraso de espera (definindo a propriedade *DelayHoldApplied* como **false**) para que a retenção seja realmente removida. 
+Após qualquer tipo de retenção ser removido de uma caixa de correio, o valor da propriedade de caixa de correio *DelayHoldApplied* ou *DelayReleaseHoldApplied* é definido como **true**. Isso ocorre na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção foi removida. Isso é chamado de *espera de atraso* e significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente da caixa de correio. (O objetivo de um atraso na espera é dar aos administradores uma oportunidade de Pesquisar ou recuperar itens de caixa de correio que serão removidos após a remoção de uma retenção.)  Quando um atraso de espera é colocado na caixa de correio, a caixa de correio ainda é considerada em espera por uma duração ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Office 365 tentará automaticamente remover o atraso de espera (definindo a propriedade *DelayHoldApplied* ou *DelayReleaseHoldApplied* como **false**) para que a retenção seja realmente removida. Para obter mais informações sobre uma espera de atraso, consulte a seção "Gerenciando caixas de correio em espera de atraso" em [como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
 
-Antes de poder excluir itens na etapa 5, você deve remover o atraso de retenção da caixa de correio. Primeiro, determine se a espera de atraso é aplicada à caixa de correio executando o seguinte comando no PowerShell do Exchange Online:
+Antes de poder excluir itens na etapa 5, você precisa remover um atraso de retenção da caixa de correio. Primeiro, determine se a espera de atraso é aplicada à caixa de correio executando o seguinte comando no PowerShell do Exchange Online:
 
 ```powershell
-Get-Mailbox <username> | FL DelayHoldApplied
+Get-Mailbox <username> | FL DelayHoldApplied,DelayReleaseHoldApplied
 ```
 
-Se o valor da propriedade *DelayHoldApplied* for definido como **false**, uma espera de atraso não foi colocada na caixa de correio. Você pode ir para a etapa 5 e excluir itens na pasta itens recuperáveis.
+Se o valor da propriedade *DelayHoldApplied* ou *DelayReleaseHoldApplied* for definido como **false**, uma espera de atraso não foi colocada na caixa de correio. Você pode ir para a etapa 5 e excluir itens na pasta itens recuperáveis.
 
-Se o valor da propriedade *DelayHoldApplied* for definido como **true**, execute o seguinte comando para remover o atraso de retenção:
+Se o valor da propriedade *DelayHoldApplied* ou *DelayReleaseHoldApplied* for definido como **true**, execute um dos seguintes comandos para remover o atraso de espera:
 
 ```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-Observe que você deve receber a função de retenção legal no Exchange Online para usar o parâmetro *RemoveDelayHoldApplied* .
+Ou
+
+```powershell
+Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
+```
+
+Observe que você deve receber a função de retenção legal no Exchange Online para usar o parâmetro *RemoveDelayHoldApplied* ou *RemoveDelayReleaseHoldApplied* .
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Etapa 5: excluir itens na pasta itens recuperáveis
 
-Agora, você está pronto para excluir itens na pasta itens recuperáveis usando o cmdlet [Search-Mailbox](https://go.microsoft.com/fwlink/?linkid=852595) no PowerShell do Exchange Online. Você tem três opções ao executar o cmdlet **Search-Mailbox** . 
-  
-- Copiar itens para uma caixa de correio de destino antes de excluí-los, de forma que você possa revisar os itens, se necessário, antes de excluí-los.
-    
-- Copiar itens para uma caixa de correio de destino e excluí-los no mesmo comando.
-    
-- Excluir itens sem copiá-los para uma caixa de correio de destino. 
-    
-Observe que os itens na pasta itens recuperáveis na caixa de correio de arquivo morto principal do usuário também serão excluídos quando você executar o cmdlet **Search-Mailbox** . Para evitar isso, você pode incluir a opção *DoNotIncludeArchive* E conforme mencionado anteriormente, se o arquivamento de expansão automática estiver habilitado para a caixa de correio, o cmdlet * * Search-Mailbox * * não excluirá itens em uma caixa de correio de arquivo auxiliar. Para obter mais informações sobre o arquivamento de expansão automática, consulte [Overview of Unlimited Archiving in Office 365](unlimited-archiving.md).
-  
-> [!NOTE]
-> Se você incluir uma consulta de pesquisa (usando o parâmetro *SearchQuery* ), o cmdlet **Search-Mailbox** retornará um máximo de 10.000 itens nos resultados da pesquisa. Portanto, se você incluir uma consulta de pesquisa, talvez seja necessário executar o comando **Search-Mailbox** várias vezes para excluir mais de 10.000 itens. 
-  
-Os exemplos a seguir mostram a sintaxe de comando de cada uma dessas opções. Estes exemplos usam o `-SearchQuery size>0` valor de parâmetro, que exclui todos os itens de todas as subpastas da pasta itens recuperáveis. Se você precisar excluir apenas os itens que correspondem a condições específicas, você também pode usar o parâmetro *SearchQuery* para especificar outras condições, como o assunto de uma mensagem ou um intervalo de datas. Confira os [outros exemplos de como usar o parâmetro SearchQuery a](#other-examples-of-using-the-searchquery-parameter) seguir. 
-  
-### <a name="example-1"></a>Exemplo 1
+Agora, você está pronto para excluir itens na pasta itens recuperáveis usando os cmdlets [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch) e [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction) no centro de conformidade de & de segurança. 
 
-Este exemplo copia todos os itens da pasta itens recuperáveis do usuário para uma pasta na caixa de correio de pesquisa de descoberta da sua organização. Isso permite que você revise os itens antes de excluí-los permanentemente.
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>"
-```
-
-No exemplo anterior, não é necessário copiar itens para a caixa de correio de pesquisa de descoberta. Você pode copiar mensagens para qualquer caixa de correio de destino. No entanto, para impedir o acesso a dados potencialmente confidenciais de caixa de correio, é recomendável copiar mensagens para uma caixa de correio que tenha acesso restrito a pessoal autorizado. Por padrão, o acesso à caixa de correio de pesquisa de descoberta padrão é restrito aos membros do grupo de função gerenciamento de descoberta no Exchange Online. 
-  
-### <a name="example-2"></a>Exemplo 2
-
-Este exemplo copia todos os itens da pasta itens recuperáveis do usuário para uma pasta na caixa de correio de pesquisa de descoberta da organização e, em seguida, exclui os itens da pasta itens recuperáveis do usuário.
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
-```
-
-### <a name="example-3"></a>Exemplo 3
-
-Este exemplo exclui todos os itens na pasta itens recuperáveis do usuário, sem copiá-los para uma caixa de correio de destino. 
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
-```
-
-### <a name="other-examples-of-using-the-searchquery-parameter"></a>Outros exemplos de uso do parâmetro SearchQuery
-
-Aqui estão alguns exemplos de como usar o parâmetro *SearchQuery* para localizar mensagens específicas. Se você usar o parâmetro *SearchQuery* para procurar itens específicos, considere copiar os resultados da pesquisa para uma caixa de correio de destino para que você possa revisar os resultados da pesquisa e, em seguida, revisar a consulta, se necessário, antes de excluir os resultados de uma pesquisa. 
-  
-Este exemplo retorna mensagens que contêm uma frase específica no campo Subject.
-  
-```powershell
-SearchQuery 'subject:"MAIL_BOX VALIDATION/UPGRADE!!!"' 
-```
-
-Este exemplo retorna mensagens que foram enviadas dentro do intervalo de datas especificado.
-  
-```powershell
-SearchQuery 'sent>=06/01/2016 AND sent<=09/01/2016'
-```
-
-Este exemplo retorna mensagens que foram enviadas para a pessoa especificada.
-
-```powershell
-SearchQuery 'to:garthf@alpinehouse.com'
-```
+Para fazer isso, confira [Pesquisar e excluir mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
 
 ### <a name="verify-that-items-were-deleted"></a>Verificar se os itens foram excluídos
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b14ef9970aa709ad5e23fdae467992497a1331e8
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 81b7a7c3db69d1c20f9a9cd8c6ea4a37b481ce59
+ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260129"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41269382"
 ---
 # <a name="battery-insights"></a>Insights de bateria
 Este modo de exibição fornece métricas de energia, bateria e uso do aplicativo para seus dispositivos de área de trabalho gerenciada da Microsoft. Para esses fins, um aplicativo é considerado "em uso" se estiver em execução e em foco.
@@ -43,8 +43,6 @@ Na área de **consumidores de energia superior** , você encontrará os aplicati
 - Outros
 
 "Outros" podem incluir consumo de energia por uma variedade de fontes, como atividade de disco, uso de banda larga móvel e energia perdida para resistência interna. 
-
-Os aplicativos exibidos em * * principais consumidores de energia "
 
 Você pode filtrar esse modo de exibição para mostrar apenas aplicativos de primeiro plano, aplicativos de segundo plano ou ambos, usando o menu no canto superior direito. Os aplicativos de primeiro plano são aqueles que tiveram a interação do usuário nos últimos 28 dias, como selecionar algo com um mouse.
 

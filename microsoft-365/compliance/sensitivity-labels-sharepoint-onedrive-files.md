@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 0e164afca97818d2082ddf4053df791317e29ac5
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: fea28683136ae72603b3e7a6954d7d6ecf0ffbe4
+ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41218581"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41263333"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
-Anteriormente, quando você aplicou rótulos de confidencialidade que incluíram criptografia para arquivos do Office armazenados no SharePoint e no OneDrive, o serviço não pôde processar o conteúdo desses arquivos. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. Essa visualização habilita estes recursos:
+Antes desta visualização, quando você aplicou rótulos de confidencialidade que incluíram criptografia para arquivos do Office armazenados no SharePoint e no OneDrive, o serviço não pôde processar o conteúdo desses arquivos. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. Essa visualização habilita esses recursos quando a criptografia foi aplicada com uma chave baseada na nuvem:
 
 - O SharePoint reconhece rótulos de confidencialidade aplicados a arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive. O SharePoint também impõe as configurações que correspondem a cada rótulo.
 
@@ -39,9 +39,16 @@ Anteriormente, quando você aplicou rótulos de confidencialidade que incluíram
   - FileSensitivityLabelChanged
   - FileSensitivityLabelRemoved
 
+> [!NOTE]
+> Se a criptografia não tiver sido aplicada com uma chave baseada na nuvem, mas uma chave local, uma topologia de gerenciamento de chave freqüentemente chamada de "conter sua própria chave" (HYOK), o comportamento do SharePoint não mudará com esta visualização. 
+
 Agora, você também pode aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. Para obter mais informações sobre essa visualização separada, confira [usar rótulos de sensibilidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
 
 Você sempre tem a opção de cancelar essa visualização a qualquer momento.
+
+Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
 ## <a name="requirements"></a>Requirements
 

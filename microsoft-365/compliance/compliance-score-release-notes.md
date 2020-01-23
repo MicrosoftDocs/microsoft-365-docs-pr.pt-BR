@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão e problemas conhecidos para a pontuação de conformidade da Microsoft (visualização), um recurso no centro de conformidade do M365 que ajuda a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: b1054a455b2d2c78cfa6131410941b1a36738a43
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 370c714c927d09a16272f8ab265c7b0c4e36381a
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021927"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261865"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Notas de versão da Pontuação de conformidade da Microsoft (visualização)
 
@@ -31,9 +31,11 @@ A pontuação de conformidade é um novo recurso do [centro de conformidade da M
 
 Novos modelos pré-configurados para avaliações são lançados em produção para a pontuação de conformidade (visualização) à medida que eles se tornam disponíveis. Confira a [lista completa de modelos aqui](compliance-score.md#templates). Os modelos adicionados recentemente incluem:
 
-- ISO 27701:2019
+- Lei de proteção de dados gerais do Brasil (LGPD)
 - IRAP/ISM do governo australiano (versão prévia)
-
+- ISO 27701:2019
+- SOC 1
+- SOC 2
 
 ### <a name="compliance-score-relationship-to-compliance-manager"></a>Relação de Pontuação de conformidade com o Gerenciador de conformidade
 

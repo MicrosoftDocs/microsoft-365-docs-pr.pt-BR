@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de para usar os classificadores de aprendizado de máquina que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores prontos para usar.
-ms.openlocfilehash: 6eaa3689dce1bfb37fdad6b1b22dcac3539bb31e
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: b94a49930cc2d460fb2db5ff4ff0f441f6c7b35a
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807410"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259427"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>Usando um classificador pronto para uso (visualização)
 
@@ -45,7 +45,7 @@ A Microsoft treinou e testou vários classificadores usando conjuntos de dados d
 
 2. Criar uma pasta dedicada do SharePoint Online; Aguarde pelo menos uma hora para a pasta a ser adicionada ao índice de pesquisa. Anote a URL da pasta.
 
-3. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra **o centro de conformidade** da Microsoft 365 ou a guia**de políticas de gerenciamento de registros (visualização)** > **** do **Centro** > de segurança da Microsoft 365.
+3. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra a guia de**políticas**  > **de gerenciamento de registros** > do **centro de conformidade da Microsoft 365**(visualização).
 
 4. Escolha `Auto-apply a label`.
 

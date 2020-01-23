@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: d7dfb40434ad3f6da0c728015f53580034ecfdfd
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 27720412ee8d2b03869b96a1ff9fce68b2fe6eb4
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021887"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261855"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -110,20 +110,23 @@ Você pode criar novos modelos copiando um modelo existente ou importando as inf
 
 Os modelos pré-configurados de Pontuação de conformidade são:
 
-1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
-2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
-4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-6. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-7. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
-8. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077) 
-9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
-10. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
-11. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
-12. [Lei de privacidade do consumidor da Califórnia (CCPA)](https://go.microsoft.com/fwlink/?linkid=2108871) (visualização)
-13. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
-14. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+1. [Lei de proteção de dados gerais do Brasil (LGPD)](https://go.microsoft.com/fwlink/?linkid=2115387)
+2. [Lei de privacidade do consumidor da Califórnia (CCPA)](https://go.microsoft.com/fwlink/?linkid=2108871) (visualização)
+3. [A matriz de controles de nuvem CSA (Cloud Security Alliance) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+4. [RGPD de União Européia](https://go.microsoft.com/fwlink/?linkid=2108870)
+5. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077)
+6. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
+7. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
+8. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
+9. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
+10. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
+11. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+12. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+13. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+14. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+15. [Estrutura NIST cybersecurity (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+16. [SOC 1](https://go.microsoft.com/fwlink/?linkid=2115184)
+17. [SOC 2](https://go.microsoft.com/fwlink/?linkid=2115184)
 
 > [!NOTE]
 > Durante a visualização pública, acesse o Gerenciador de conformidade para criar e gerenciar seus modelos.
