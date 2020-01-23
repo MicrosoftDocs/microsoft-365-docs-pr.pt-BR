@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 67cb8cd6a7320f0b2ff79566be4cf6c6fa3f67a6
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: efedbdd8230b5fac81b59ca51c0fe863ab4f0c2a
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "39233734"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260109"
 ---
 # <a name="compliance-offerings-isoiec-270012013-information-security-management-standards"></a>Ofertas de conformidade: padrões de gerenciamento de segurança de informações ISO/IEC 27001:2013
 
@@ -43,7 +44,8 @@ Saiba mais sobre os benefícios da ISO-Iec-27001 no Microsoft Cloud: [baixe o IS
 - Gráfico
 - Health Bot
 - Intune
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Área de Trabalho Gerenciada da Microsoft
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - [Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Alemanha
 - Mapa do serviço do OMS
@@ -60,7 +62,7 @@ Ciclo de auditoria: os serviços de nuvem da Microsoft são auditados pelo menos
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Certificados ISO 27001](https://go.microsoft.com/fwlink/p/?linkid=2078342)
+- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Área de Trabalho Gerenciada da Microsoft, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Certificados ISO 27001](https://go.microsoft.com/fwlink/p/?linkid=2078342)
 
 ### <a name="office-365"></a>Office 365
 
@@ -88,7 +90,7 @@ Ciclo de auditoria: os serviços de nuvem da Microsoft são auditados pelo menos
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Relatório de Avaliação de Auditoria ISO 27001 e 27018](https://go.microsoft.com/fwlink/p/?linkid=2078010)
+- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Área de Trabalho Gerenciada da Microsoft, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Relatório de Avaliação de Auditoria ISO 27001 e 27018](https://go.microsoft.com/fwlink/p/?linkid=2078010)
 - [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — SOA (Declaração de Aplicabilidade) ISO 27001 e 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
 ### <a name="office-365"></a>Office 365

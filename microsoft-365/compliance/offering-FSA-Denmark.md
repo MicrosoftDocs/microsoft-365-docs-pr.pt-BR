@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 89804f5f5f10d06879effd411cec4a7c52037620
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 02cde8915691565614e3d1d04a1fc57ed9a718cb
+ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859791"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41263323"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>Autoridade de Supervisão Financeira (FSA) da Dinamarca
 
@@ -36,7 +37,7 @@ Diretrizes publicadas pelo Ministério da Indústria, de Negócios e de Assuntos
 
 ## <a name="microsoft-and-the-fsa"></a>Microsoft e a FSA
 
-Para ajudar a orientar instituições financeiras na Dinamarca, considerando a terceirização de funções de negócios para a nuvem, a Microsoft publicou [Uma lista de verificação de conformidade para instituições financeiras na Dinamarca](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf /5fa5cdde-3219-4e95-946d-0c0d05494362). Ao analisar e concluir a lista de verificação, as organizações financeiras podem adotar os serviços de nuvem corporativos da Microsoft com a confiança de que estão cumprindo os requisitos regulatórios aplicáveis.
+Para ajudar a orientar instituições financeiras na Dinamarca, considerando a terceirização de funções de negócios para a nuvem, a Microsoft publicou [Uma lista de verificação de conformidade para instituições financeiras na Dinamarca](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf). Ao analisar e concluir a lista de verificação, as organizações financeiras podem adotar os serviços de nuvem corporativos da Microsoft com a confiança de que estão cumprindo os requisitos regulatórios aplicáveis.
 
 Quando as instituições financeiras dinamarquesas terceirizam atividades de negócios para a nuvem, elas devem estar em conformidade com os requisitos da Autoridade de Supervisão Financeira (FSA), dentro da ampla estrutura de políticas da Autoridade Bancária Europeia (EBA). Especificamente, esses requisitos se concentram em como contratos entre os serviços financeiros e os provedores de nuvem podem garantir o controle adequado das atividades terceirizadas.
 

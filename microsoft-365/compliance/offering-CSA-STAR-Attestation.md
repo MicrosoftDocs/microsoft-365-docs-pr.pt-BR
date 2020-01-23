@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b5f6ae8d7047ab36867938b65bf546a5ffb7b0a6
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6a76a557ef391462db09d9b0b3d409ba2b4a042c
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39860011"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260059"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>Atestado STAR do Cloud Security Alliance (CSA)
 
@@ -41,7 +42,8 @@ O Microsoft Azure e o Microsoft Intune receberam o Atestado STAR do CSA. O Atest
 - Segurança de aplicativos na nuvem
 - Gráfico
 - Intune
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Área de Trabalho Gerenciada da Microsoft
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365 
 - Power BI
 

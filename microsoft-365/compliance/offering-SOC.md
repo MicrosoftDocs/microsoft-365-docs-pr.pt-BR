@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 380e1b2fadc48c395fbd8c2b10c0d65a6ba01675
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: a5f68e235252208de664cc6dfdd62b6019d9abe6
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804254"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259979"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -52,7 +52,8 @@ Saiba mais sobre os benefícios do SOC 1, 2, 3 na nuvem da Microsoft: [Baixar o 
 - Dynamics 365 e Dynamics 365 U.S. Government [lista detalhada](https://aka.ms/d365-compliance-list)
 - Graph
 - Intune
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluso em um plano ou pacote do Office 365 ou do Dynamics 365
+- Área de Trabalho Gerenciada da Microsoft
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Office 365, Office 365 U.S. Government, e Office 365 U.S. Government Defense [lista detalhada](https://go.microsoft.com/fwlink/p/?LinkID=2077751); O Yammer alcançou um relatório do tipo 1 SOC 1
 - Office 365 Alemanha
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
@@ -66,7 +67,8 @@ Saiba mais sobre os benefícios do SOC 1, 2, 3 na nuvem da Microsoft: [Baixar o 
 - Cloud App Security
 - Gráfico
 - Intune
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Área de Trabalho Gerenciada da Microsoft
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Power BI
 - Stream

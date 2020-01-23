@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: f58322fe915c811ba2613bef98116f910abc03d1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 758e7d0f3e82afa6cfd4b90501bd84080d8f6303
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859681"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260009"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>Código de Conduta ISO/IEC 27017:2015 para Controles de Segurança de Informações
 
@@ -48,6 +49,7 @@ Saiba mais sobre os benefícios da ISO/IEC 27017 no Microsoft Cloud: [Baixe o in
 - Genomics
 - Graph
 - Intune
+- Área de Trabalho Gerenciada da Microsoft
 - Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense e Office 365 Germany
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
@@ -60,7 +62,7 @@ Os serviços de nuvem da Microsoft são auditados uma vez ao ano de acordo com o
 
 - [Certificado ISO 27017 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2078005)
 - [Relatório de avaliação da ISO 27017 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Declaração de Aplicabilidade da ISO 27017 do Azure](https://aka.ms/azureiso27017StatementofApplicability)
+- [Declaração de Aplicabilidade da ISO 27017 do Azure](https://aka.ms/AzureISO27017StatementofApplicability)
 - [Relatório de Avaliação de Auditoria da ISO 27001, 27018 e 27017 do Office 365](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1f4bfd1c219de2126bc6cb9443f3b899b99945c6
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 08f05939e6cd4ebdff81fb2fd2fda47bac05e882
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859691"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260029"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012
 
@@ -39,7 +40,8 @@ Saiba mais sobre os benefícios da ISO/IEC 22301 no Microsoft Cloud: [Baixe o in
 - Genômico
 - Graph
 - Intune
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Área de Trabalho Gerenciada da Microsoft
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - [Office 365 comercial, governamental e educacional](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
