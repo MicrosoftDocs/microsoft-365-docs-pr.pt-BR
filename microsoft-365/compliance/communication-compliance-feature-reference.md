@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 886ede889e1843c7f7e94b89aeffb89d59a0120a
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 64514c8c46cbc2ef35746e052e1ffb87831933c2
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111845"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515782"
 ---
 # <a name="communication-compliance-feature-reference-preview"></a>Referência de recurso de conformidade de comunicação (versão prévia)
 
@@ -84,6 +84,16 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
     - [Conector de dados personalizado](archiving-third-party-data.md)
 
 Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A seção de **fontes de terceiros** do assistente de política de conformidade de comunicação só exibe os conectores de terceiros atualmente configurados.
+
+## <a name="transitioning-from-supervision-in-office-365"></a>Transição de supervisão no Office 365
+
+As organizações que usam políticas de supervisão no Office 365 e planejando a transição para políticas de conformidade de comunicação no Microsoft 365 precisam compreender estes pontos importantes:
+
+- Ambas as soluções podem ser usadas lado a lado em sua organização, mas as políticas usadas em cada solução devem ter nomes de política exclusivos. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante um período de transição.
+- Mensagens salvas em supervisão no Office 365 as correspondências de política não podem ser movidas ou compartilhadas na conformidade de comunicação no Microsoft 365.
+- A solução de supervisão no Office 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Recomendamos a criação de novas políticas de conformidade de comunicação com as mesmas configurações que as políticas de supervisão existentes para usar os novos aprimoramentos de investigação e correção. Ao fazer a transição para conformidade de comunicação no Microsoft 365, você deve planejar a exportação de dados de relatórios da supervisão no Office 365 se tiver requisitos de política de retenção de conformidade interna.
+
+Para obter informações de aposentadoria para supervisão no Office 365, consulte o [mapa de 365 da Microsoft](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
 
 ## <a name="policy-settings"></a>Configurações de política
 
@@ -219,6 +229,7 @@ Os filtros de conformidade de comunicação permitem que você filtre e classifi
 | **Assunto/título** | O assunto da mensagem ou o título do chat. |
 | **Marcas** | As marcas atribuídas a uma mensagem, seja *questionável*, *compatível*ou *não compatível*. |
 | **Escalonado para** | O nome de usuário da pessoa incluída como parte de uma ação de escalonamento de mensagens. |
+| **Classificadores** | O nome de classificadores internos e personalizados que se aplicam à mensagem. Alguns exemplos incluem *idioma ofensivo*, *assédio dirigido*, *profanação*, *ameaça*e muito mais.
 
 ## <a name="alert-policies"></a>Políticas de alerta
 

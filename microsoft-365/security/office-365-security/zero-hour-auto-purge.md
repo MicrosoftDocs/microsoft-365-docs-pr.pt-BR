@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: A limpeza automática de zero horas (ZAP) é um recurso de proteção de email que detecta mensagens com spam ou malware que já foram entregues às caixas de entrada dos seus usuários e renderiza o conteúdo mal-intencionado inofensivo. Como o ZAP faz isso depende do tipo de conteúdo mal-intencionado detectado.
-ms.openlocfilehash: 87d0837b74606a57c7a4aaee3150f70449b09b81
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: b2e2fb8fb0786f921b7c5330e92df519b0877d30
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238378"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515892"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>Limpeza automática zero hora – proteção contra spam e malware
 
@@ -36,7 +36,7 @@ O ZAP está disponível com a proteção do Exchange Online padrão incluída em
 
 O Office 365 atualiza as assinaturas de malware e mecanismo antispam em tempo real diariamente. No entanto, os usuários ainda podem obter mensagens mal-intencionadas entregues às suas caixas de entrada por vários motivos, incluindo se o conteúdo é enarmado depois de ser entregue aos usuários. O ZAP aborda isso ao monitorar atualizações continuamente nas assinaturas de spam e malware do Office 365. ZAP pode localizar e remover mensagens entregues anteriormente que já estão nas caixas de entrada dos usuários.
 
-A ação ZAP é transparente para o usuário da caixa de correio; Eles não são notificados quando uma mensagem de email é movida. A mensagem não deve ser mais antiga que 2 dias.
+A ação ZAP é transparente para o usuário da caixa de correio; Eles não são notificados quando uma mensagem de email é movida. 
 
 As listas de permissões, [as regras de fluxo de emails](use-transport-rules-to-configure-bulk-email-filtering.md) (também conhecidas como regras de transporte) e as regras de usuário final ou filtros adicionais têm precedência sobre o zap.
 
@@ -67,8 +67,8 @@ ZAP não moverá nenhuma mensagem para quarentena, que está no processo de veri
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>Como ver se ZAP moveu a mensagem
 
-Para determinar se o ZAP moveu a mensagem, você pode usar o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report) ou o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md).
-
+Para determinar se o ZAP moveu a mensagem, você pode usar o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report) ou o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md). Observe que, como uma ação do sistema, ZAP não está conectado nos logs de auditoria de caixa de correio do Exchange. 
+ 
 ## <a name="disable-zap"></a>Desabilitar ZAP
 
 Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
@@ -114,6 +114,16 @@ Regras criadas por administradores (regras de fluxo de emails) ou regras de bloq
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rule"></a>E se uma mensagem for movida para outra pasta (por exemplo, regra de caixa de entrada)?
 
 ZAP ainda funciona nesse caso, a menos que a mensagem tenha sido excluída ou esteja em lixo eletrônico.
+
+### <a name="does-zap-change-the-email-header"></a>O ZAP altera o cabeçalho do email?
+
+Uma ação ZAP não faz qualquer alteração no cabeçalho de um email.
+
+### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Como o ZAP afeta caixas de correio em espera?
+
+ZAP não removerá mensagens de caixas de correio em espera e, portanto, não terá uma ação mover para quarentena em mensagens. As mensagens ainda serão movidas para a pasta lixo eletrônico, se especificado pela política. 
+
+[Clique aqui para obter mais informações sobre a retenção de caixa de correio.](https://docs.microsoft.com/exchange/policy-and-compliance/holds/holds?view=exchserver-2019)
 
 ## <a name="related-topics"></a>Tópicos Relacionados
 

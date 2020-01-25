@@ -15,12 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2d8c484f11e1384e1b98f05b907b043c33231f3f
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: f72658e552bcb7ce351eafa43ad950c0bc11cb69
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210076"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515822"
 ---
 # <a name="alertevents"></a>AlertEvents
 

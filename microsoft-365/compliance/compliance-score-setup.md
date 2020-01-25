@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como entrar, configurar permissões e entender seu painel para a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar avaliações de riscos.
-ms.openlocfilehash: 79e93a102107433ed2b493a56381bc60ca544157
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: d6ec9617ff97a254514370c863b02b2fb0415798
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021907"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515652"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Configuração da Pontuação de conformidade da Microsoft (versão prévia)
 
@@ -63,6 +63,38 @@ Para definir permissões no centro de conformidade da Microsoft 365:
 
 1. Vá para o [centro de conformidade da Microsoft 365](https://compliance.microsoft.com) e entre com sua conta de administrador global.
 2. Selecione **permissões** no painel de navegação à esquerda. A partir daqui, você pode exibir funções e atribuir permissões.
+
+## <a name="configure-automatic-secure-score-updates"></a>Configurar atualizações automáticas de Pontuação segura
+
+Por padrão, todos os novos locatários têm as atualizações automáticas de [Pontuação segura](../security/mtp/microsoft-secure-score.md) ativadas. Isso significa que todas as ações monitoradas por Pontuação segura atualizarão automaticamente o status da mesma ação na pontuação de conformidade.
+
+O administrador global pode gerenciar essa configuração para desativar as atualizações automáticas de todas as ações ou definir atualizações para ações individualmente.
+
+Durante a visualização pública, você precisará ir para o portal de confiança do serviço Microsoft (onde o Gerenciador de conformidade está localizado) para gerenciar as atualizações de Pontuação segura.
+
+Para gerenciar atualizações automáticas de Pontuação segura, siga estas etapas:
+
+1. Entre no portal de [confiança do serviço](https://servicetrust.microsoft.com) com sua conta de administrador global.
+
+2. Na barra de menus superior do portal de confiança do serviço, em **mais**, selecione **administrador** e, em seguida, escolha **configurações**.
+
+3. Na guia **Pontuação segura** , selecione o botão correspondente para **ativar todas as ações**, **desative todas as ações**ou **defina por ação.**
+
+Se você escolher **definir por ação,** siga estas etapas adicionais para ativar as atualizações de Pontuação segura para ações individuais:
+
+4. Selecione **Gerenciador de conformidade** no menu superior (Observação: não selecione "Gerenciador de conformidade (clássico)").
+
+5. Selecione **Gerenciamento de locatário** no canto superior direito da tela.
+
+6. No painel **ações do cliente** , encontre a ação pretendida com reticências (**...**) na coluna **ações afetadas** . Clique nas reticências e selecione **Editar.**
+
+7. Alterne a opção de alternância de **atualização contínua de Pontuação segura** para **ativado.**
+
+8. Selecione **salvar.** A monitoração contínua de Pontuação segura agora está ativada para essa ação.
+
+**Observação:** Somente o administrador global pode ativar ou desativar as atualizações automáticas para todas as ações. O administrador do Gerenciador de conformidade pode ativar atualizações automáticas para ações individuais, mas não para todas as ações globalmente.
+
+Leia mais sobre o [Gerenciamento de atualizações de Pontuação segura](compliance-manager-release-notes.md#secure-score).
 
 ## <a name="understand-the-compliance-score-dashboard"></a>Entender o painel de Pontuação de conformidade
 

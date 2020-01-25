@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: bf3666d4ad44b4fcf17ec93a1e425ffa0f12f766
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 7e882b19b69380d2787c9b1784ad3dadce5c1ce9
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259799"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515682"
 ---
 # <a name="insider-risk-management-policies-preview"></a>Políticas de gerenciamento de risco do Insider (versão prévia)
 
@@ -36,19 +36,25 @@ O **painel de políticas** permite ver rapidamente as políticas em sua organiza
 
 ## <a name="policy-templates"></a>Modelos de política
 
-Os modelos de gerenciamento de risco do insider são condições de política predefinidas que definem os tipos de indicadores de risco monitorados por uma política. Cada política deve ter um modelo atribuído no assistente de criação de política antes que a política seja criada. Os seguintes modelos estão disponíveis:
+Os modelos de gerenciamento de risco do insider são condições de política predefinidas que definem os tipos de indicadores de risco monitorados por uma política. Cada política deve ter um modelo atribuído no assistente de criação de política antes que a política seja criada. Ao criar uma nova política de risco de insider, você escolherá um dos modelos a seguir.
 
-- Como **parte do roubo de dados de funcionários**: quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo à demissão de emprego e datas de término. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
+### <a name="departing-employee-data-theft"></a>Como a parte do roubo de dados do funcionário
 
-    >[!IMPORTANT]
-    >Ao usar esse modelo, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de data de demissão e de término para os funcionários de sua organização. Consulte o tópico [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
+Quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo à demissão de emprego e datas de término. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
 
-- **Vazamentos de dados**: proteção de dados e prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Este modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal.
+>[!IMPORTANT]
+>Ao usar esse modelo, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de data de demissão e de término para os funcionários de sua organização. Consulte o tópico [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 
-    >[!IMPORTANT]
-    >Ao usar esse modelo, você deve configurar pelo menos uma política de prevenção de perda de dados (DLP) para definir informações confidenciais em sua organização. Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
+### <a name="data-leaks"></a>Vazamentos de dados
 
-- **Linguagem ofensiva no email**: detectar e realizar ações para impedir o comportamento ofensivo e abusivo é um componente essencial da prevenção de riscos. Os classificadores de idiomas ofensivos internos no Microsoft 365 podem examinar mensagens de email enviadas de caixas de correio do Exchange Online em sua organização para diferentes tipos de problemas de conformidade. Esses classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma em que o email provavelmente viola as políticas antiassédio. Use este modelo para criar rapidamente uma política que use esses classificadores para detectar automaticamente o conteúdo de mensagens de email que pode ser considerado abusivo ou ofensivo. O gerenciamento de risco do insider usa classificadores que verificam as mensagens de email enviadas para termos do idioma inglês e uma inversão para linguagem ofensiva.
+A proteção de dados e a prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Este modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal.
+
+>[!IMPORTANT]
+>Ao usar esse modelo, você deve configurar pelo menos uma política de prevenção de perda de dados (DLP) para definir informações confidenciais em sua organização. Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
+
+### <a name="offensive-language-in-email"></a>Idioma ofensivo no email
+
+Detectar e realizar ações para impedir o comportamento ofensivo e abusivo é um componente essencial da prevenção de riscos. Os classificadores de idiomas ofensivos internos no Microsoft 365 podem examinar mensagens de email enviadas de caixas de correio do Exchange Online em sua organização para diferentes tipos de problemas de conformidade. Esses classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma em que o email provavelmente viola as políticas antiassédio. Use este modelo para criar rapidamente uma política que use esses classificadores para detectar automaticamente o conteúdo de mensagens de email que pode ser considerado abusivo ou ofensivo. O gerenciamento de risco do insider usa classificadores que verificam as mensagens de email enviadas para termos do idioma inglês e uma inversão para linguagem ofensiva.
 
 ## <a name="monitoring-windows"></a>Monitorando janelas
 

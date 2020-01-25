@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar páginas de negócios do Facebook para o Microsoft 365. Depois que esses dados são importados para a Microsoft 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de Facebook da sua organização.
-ms.openlocfilehash: 1222a82e3a3b8415aa3fc98cd3c06376e491beb0
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: c13f055a9ca96d9b7cc1ec5791c476e6cda8e5f0
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269404"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515732"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Implantar um conector para arquivar dados de páginas de negócios do Facebook
 
@@ -60,15 +60,12 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    ![Copie o valor do segredo e salve-o](media/FBCimage9.png)
 
-10. Vá para **manifesto** e copie o identifieruris agora (que também é chamado de URI do aplicativo AAD) como realçado na captura de tela a seguir. Copie o URI do aplicativo AAD para um arquivo de texto ou outro local de armazenamento. Você pode usá-lo na etapa 6.
-
-    ![Vá para o manifesto e copie o URI do aplicativo AAD](media/FBCimage10.png)
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>Etapa 2: implantar o serviço Web do conector do GitHub em sua conta do Azure
 
-1. Vá para [este site do GitHub](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) e clique em **implantar no Azure**.
+1. Vá para [este site do GitHub](https://github.com/microsoft/m365-sample-connector-csharp-aspnet) e clique em **implantar no Azure**.
 
-    ![Clique em implantar no Azure](media/FBCimage11.png)
+    ![Clique em implantar no Azure](media/FBCGithubApp.png)
 
 2. Depois de clicar em **implantar no Azure**, você será redirecionado para um portal do Azure com uma página de modelo Personalizada. Preencha os detalhes **básico** e **configurações** e clique em **compra**.
 

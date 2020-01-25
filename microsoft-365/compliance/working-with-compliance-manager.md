@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos produtos da Microsoft.
-ms.openlocfilehash: 2bc7ccc4c6c236c0c730ac3fc651701d9a76bedf
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: db63f1b5cba2166ae8e4f922b84672677b52c4e9
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41022007"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515862"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -72,13 +72,25 @@ Para adicionar ou remover usuários das funções do Gerenciador de Conformidade
 
 ### <a name="controlling-automatic-secure-score-updates"></a>Controlar atualizações automáticas de Pontuação segura
 
-As atualizações de Pontuação segura podem ser ativadas automaticamente para todas as ações, podem ser desativadas para todas as ações ou podem ser definidas por ação individual.
+As atualizações de Pontuação segura podem ser ativadas automaticamente para todas as ações, desativadas para todas as ações ou definidas por ação individual seguindo estas etapas.
 
 1. Entre no portal de [confiança do serviço](https://servicetrust.microsoft.com) com sua conta de administrador global.
 
-2. Na barra de menus superior do portal de confiança do serviço, selecione **administrador** e, em seguida, escolha **configurações**.
+2. Na barra de menus superior do portal de confiança do serviço, em **mais**, selecione **administrador** e, em seguida, escolha **configurações**.
 
-4. Na guia **Pontuação segura** , selecione o botão apropriado para a configuração escolhida.
+3. Na guia **Pontuação segura** , selecione o botão correspondente para **ativar todas as ações**, **desative todas as ações**ou **defina por ação.**
+
+Se você escolher **definir por ação,** siga estas etapas adicionais para ativar as atualizações de Pontuação segura para ações individuais:
+
+4. Selecione **Gerenciador de conformidade** no menu superior (Observação: não selecione "Gerenciador de conformidade (clássico)").
+
+5. Selecione **Gerenciamento de locatário** no canto superior direito da tela.
+
+6. No painel **ações do cliente** , encontre a ação pretendida com reticências (**...**) na coluna **ações afetadas** . Clique nas reticências e selecione **Editar.**
+
+7. Alterne a opção de alternância de **atualização contínua de Pontuação segura** para **ativado.**
+
+8. Selecione **salvar.** A monitoração contínua de Pontuação segura agora está ativada para essa ação.
 
 **Observação:** Somente o administrador global pode ativar ou desativar as atualizações automáticas para todas as ações. O administrador do Gerenciador de conformidade pode ativar atualizações automáticas para ações individuais, mas não para todas as ações globalmente.
 
@@ -582,7 +594,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 ![Relatório do Excel de avaliação do Gerenciador de conformidade](media/compliance-manager-assessment-report.png)
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

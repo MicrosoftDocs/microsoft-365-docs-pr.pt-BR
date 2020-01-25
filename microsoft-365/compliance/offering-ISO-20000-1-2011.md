@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 705b59a5ae499a580086304abe91a9318bb36fcb
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4ae0df3ddc8eec28cc6f29bddd0a46a09d33b0dc
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859701"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260039"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:2011
 
@@ -37,6 +38,7 @@ Uma empresa independente de auditoria terceirizada realizou um exame rigoroso do
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo em nuvem
 - Intune
+- Área de Trabalho Gerenciada da Microsoft
 - Microsoft PowerApps
 - Microsoft Flow
 - Microsoft Graph
@@ -46,7 +48,7 @@ Uma empresa independente de auditoria terceirizada realizou um exame rigoroso do
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
-Documentação ISO 20000-1 2017 para Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Graph, Microsoft Genomics e Microsoft Datacenters
+Documentação ISO 20000-1 2017 para Azure, Intune, Área de Trabalho Gerenciada da Microsoft, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics e Datacenters da Microsoft
 
 - [Relatório da avaliação](https://go.microsoft.com/fwlink/p/?linkid=2077810)
 - [Certificado](https://go.microsoft.com/fwlink/p/?linkid=2077815)

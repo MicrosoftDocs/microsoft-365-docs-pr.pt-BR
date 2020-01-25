@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como proteger os computadores com Windows 10 após configurar o Microsoft 365 Business.
-ms.openlocfilehash: 47598ef0b5cba60a6d5e53973cc8b88584c62d05
-ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
+ms.openlocfilehash: 3c558132f1e370a19735a38f9caa09ddb8e1f9f4
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39837315"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515582"
 ---
 # <a name="secure-windows-10-computers"></a>Proteger computadores Windows 10
 
@@ -34,12 +34,12 @@ Assista a este vídeo para obter uma visão geral de como configurar políticas 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
 
-Se você descobriu esse vídeo útil, confira a [série completa de treinamento para pequenas empresas e as novas no Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="to-secure-your-windows-10-pcs"></a>Para proteger seus computadores com Windows 10
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando suas credenciais de administrador global. 
-2. Na barra de navegação esquerda, selecione **configuração** e, em **entrada e segurança**, escolha **proteger seus computadores com Windows 10**. Escolha **Exibir** para começar.
+2. Na barra de navegação esquerda, selecione **configuração** e, em seguida, em **entrada e segurança**, escolha **proteger seus computadores com Windows 10**. Escolha **Exibir** para começar.
 3. Na página **proteger seus computadores com Windows 10** , Leia todas as informações para entender o que você está ligando e o impacto do usuário.
 
     Na parte superior da página, escolha **introdução**.

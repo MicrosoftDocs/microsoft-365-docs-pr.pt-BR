@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso Pesquisar e limpar do Centro de Segurança e Conformidade do Office365 para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: 0c2b54b8e2d18a91075c577d65d7023e3b1d2c44
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 53ec50ddd42e1d17580f4b1581ef8d8fe02f97bf
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "39218856"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259969"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Pesquisar e excluir mensagens de e-mail em sua organização do Office 365
 
@@ -39,7 +39,7 @@ Você pode usar o recurso Pesquisa de Conteúdo no Office365 para pesquisar e ex
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre a adição de usuários a um grupo de funções, confira [Conceder acesso ao centro de segurança e conformidade ](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
     
 - Você tem que usar o Centro de Segurança e Conformidade do PowerShell para excluir mensagens. Consulte a[Etapa 2](#step-2-connect-to-security--compliance-center-powershell) para obter instruções sobre como se conectar.
     

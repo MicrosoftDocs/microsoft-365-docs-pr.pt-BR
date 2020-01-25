@@ -12,19 +12,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
-ms.openlocfilehash: a94b1051af383041a89fa136ae490875ea48782d
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 9fbc2b2beca3a667b09c1a4ba790651a364d1bf0
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793655"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515572"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade da Microsoft (visualização)
 
 > [!IMPORTANT]
 > A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O painel de Pontuação de conformidade exibe uma pontuação que mede seu progresso ao concluir ações de aperfeiçoamento nos controles. Seus pontos são acumulados ao concluir ações.
 
@@ -43,11 +43,13 @@ A pontuação de conformidade fornece uma pontuação pronta para uso com base n
 
 ## <a name="how-compliance-score-continuously-assesses-controls"></a>Como a pontuação de conformidade avalia os controles continuamente
 
-A pontuação de conformidade verifica automaticamente o ambiente Microsoft 365 e detecta as configurações do sistema, atualizando continuamente e automaticamente o status do controle técnico. Por exemplo, se você ativou a MFA (autenticação multifator) no portal do Azure AD, a pontuação de conformidade detecta a configuração e reflete isso nos detalhes da solução de acesso de controle. Por outro lado, se você não tiver ativado o MFA, os sinalizadores de Pontuação de conformidade que são uma ação recomendada para você realizar.
+A pontuação de conformidade verifica automaticamente o ambiente Microsoft 365 e detecta as configurações do sistema, atualizando continuamente e automaticamente o status do controle técnico. A pontuação de conformidade usa a pontuação segura como o mecanismo subjacente que realiza o monitoramento. [Saiba mais sobre a pontuação segura e como ela funciona](../security/mtp/microsoft-secure-score.md).
 
-A pontuação de conformidade atualiza seu status de controle a cada 24 horas. Depois de seguir uma recomendação para implementar um controle, você verá o status do controle atualizado no dia seguinte.
+Seu status de controle é atualizado no painel de Pontuação de conformidade a cada 24 horas. Depois de seguir uma recomendação para implementar um controle, você verá o status do controle atualizado no dia seguinte.
 
-Durante a visualização pública, a avaliação contínua está disponível para controles de parte, mas não todos.
+Por exemplo, se você ativar a MFA (autenticação multifator) no portal do Azure AD, a pontuação de conformidade detectará a configuração e refletirá isso nos detalhes da solução de acesso de controle. Por outro lado, se você não tiver ativado o MFA, os sinalizadores de Pontuação de conformidade que são uma ação recomendada para você realizar.
+
+Durante a visualização pública, a avaliação contínua está disponível para uma parte dos controles, mas não todos.
   
 ## <a name="control-types-and-points"></a>Tipos de controle e pontos
 
@@ -78,8 +80,8 @@ Cada controle tem um valor atribuído em Pontuação de conformidade com base no
 |:-----|:-----|
 | Obrigatórios preventivos | 27 |
 | Discricionários preventivos | 9  |
-| Detecção obrigatória | 3  |
-| Detecção arbitrária | 1  |
-| Obrigatório corretivo | 3  |
-| Condicionalmente | 1  |
+| Detecção obrigatória | 3D |
+| Detecção arbitrária | 1 |
+| Obrigatório corretivo | 3D |
+| Condicionalmente | 1 |
   
