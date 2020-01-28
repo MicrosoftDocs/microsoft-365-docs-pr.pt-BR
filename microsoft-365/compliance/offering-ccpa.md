@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6f24cb1afcefc9ddbe468530855603e7ee0f484
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 73c1d7be6da17ae29c6ea8423c879286714fe8f1
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804184"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558598"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de privacidade e proteção de dados da Califórnia)
 
@@ -51,7 +51,7 @@ Conforme definido no OST, a Microsoft está em conformidade com todas as leis e 
 
 Veja algumas etapas que você pode executar para se preparar para o CCPA:
 
-- Comece a aproveitar a avaliação RGPD no Gerenciador de conformidade como parte do seu programa de privacidade do CCPA.
+- Comece a aproveitar a avaliação do RGPD na [Pontuação de conformidade](compliance-score.md) como parte do seu programa de privacidade do CCPA.
 - Estabelecer um processo para responder de forma eficiente às solicitações de acesso de entidade de dados (DSARs) usando a ferramenta solicitações de entidades de dados.
 - Configure rótulos e políticas para descobrir, classificar & rotular e proteger dados confidenciais com o Microsoft Information Protection.
 - Use os recursos de criptografia de email para controlar ainda mais as informações confidenciais.
@@ -97,4 +97,4 @@ O CCPA exige que as empresas regulamentadas coletem, transfiram e vendam informa
 - [Introdução ao guia do CCPA](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [Solicitações de entidades de dados e o RGPD](gdpr-data-subject-requests.md)
 - [Perguntas frequentes sobre a lei de privacidade do consumidor da Califórnia (CCPA)](ccpa-faq.md)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

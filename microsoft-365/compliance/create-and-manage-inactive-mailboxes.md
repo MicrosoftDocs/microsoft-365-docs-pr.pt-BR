@@ -16,28 +16,28 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Office 365 aplicando uma política de retenção de bloqueio ou do Office 365 à caixa de correio e, em seguida, excluindo a conta de usuário do Office 365 correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: cf2484dad9e9fda105985e9291a16a5f8a83f5c3
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: b9ec4056e806211591cc4b6682b24b622302152b
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684932"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558368"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Criar e gerenciar caixas de correio inativas no Office 365
 
 O Office 365 torna possível manter o conteúdo de caixas de correio excluídas. Esse recurso é chamado de [caixas de correio inativas](inactive-mailboxes-in-office-365.md). As caixas de correio inativas permitem manter os emails de ex-funcionários dos funcionários depois de saírem da sua organização. Uma caixa de correio fica inativa quando uma retenção de litígio ou uma política de retenção do Office 365 (criada no centro de segurança e conformidade do Office 365 ou Microsoft 365) é aplicada à caixa de correio antes que a conta de usuário do Office 365 correspondente seja excluída. O conteúdo de uma caixa de correio inativa é mantido pela duração da retenção que foi colocada na caixa de correio antes de ser desativada. Isso permite que administradores, gerentes de conformidade e gerentes de registros usem a pesquisa de conteúdo para pesquisar e exportar o conteúdo de uma caixa de correio inativa. As caixas de correio inativas não podem receber emails e não são exibidas no catálogo de endereços compartilhados da sua organização ou em outras listas.
   
-> [!NOTE]
-> Adiamos o prazo de 1º de julho de 2017 para criar novos Bloqueios In-loco para tornar uma caixa de correio inativa. Mas no final deste ano ou no início do próximo, você não poderá criar novos Bloqueios In-loco no Exchange Online. Nesse momento, somente retenções de litígio e políticas de retenção do Office 365 poderão ser usadas para criar uma caixa de correio inativa. No entanto, as caixas de correio inativas existentes que estão com Bloqueio In-loco ainda terão suporte, e você poderá continuar a gerenciar Bloqueios In-loco em caixas de correio inativas. Isso inclui a alteração da duração de um Bloqueio In-loco e a exclusão permanente de uma caixa de correio inativa, removendo o Bloqueio In-loco. 
+> [!IMPORTANT]
+> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção de litígio e do Office 365 para criar uma caixa de correio inativa. A partir de 1º de abril de 2020 você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, Iniciando em 1º de julho de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
   
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Para tornar uma caixa de correio inativa, deve ser atribuída uma licença do Exchange Online Plan 2 para que uma retenção de litígio ou uma política de retenção do Office 365 possa ser aplicada à caixa de correio antes de ser excluída. As licenças do Exchange Online Plan 2 fazem parte de uma assinatura do Office 365 Enterprise E3 e e5. Se uma caixa de correio for atribuída a uma licença de quiosque do Exchange Online plano 1 ou do Exchange Online (que fazem parte de uma assinatura do Office 365 E1 e F1, respectivamente), você precisará atribuir uma licença de arquivamento do Exchange Online separada para que uma retenção possa ser aplicada à caixa de correio b efore ele é excluído. Para saber mais, confira [Arquivamento do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286153).
-    
+
 - As licenças associadas à caixa de correio do Exchange Online excluída estarão disponíveis após a exclusão da conta de usuário do Office 365 correspondente. Você pode [atribuir essas licenças a outro usuário](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). 
-    
+
 - Se uma retenção de litígio ou uma política de retenção do Office 365 (que é configurada para reter ou reter e excluir conteúdo) não for aplicada a uma caixa de correio antes de ser excluída, o conteúdo da caixa de correio não será mantido ou detectável. No entanto, a caixa de correio excluída pode ser recuperada em até 30 dias após a exclusão, mas a caixa de correio e seu conteúdo serão excluídos permanentemente após 30 dias, se não for recuperado.
-    
+
 - Para obter mais informações sobre retenção de litígio, consulte [bloqueio in-loco e retenção de litígio](https://go.microsoft.com/fwlink/p/?LinkId=846124). Para obter mais informações sobre as políticas de retenção do Office 365, consulte [visão geral das políticas de retenção no Office 365](retention-policies.md).
   
 ## <a name="create-an-inactive-mailbox"></a>Criar uma caixa de correio inativa
@@ -71,7 +71,7 @@ Depois que a caixa de correio é colocada em espera ou uma política de retenç�
 
 Para exibir uma lista das caixas de correio inativas em sua organização:
   
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador na sua organização do Office 365. 
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
 2. Clique em**retenção**de **governança** > de informações.
     

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 1d95edce079f515572c977913da2ee432514f983
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 435b8177fc97f9cd07ff78704605428e594e0dd8
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112505"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558578"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
@@ -56,7 +56,7 @@ Ou
 
 ## <a name="step-by-step-labs"></a>**Laboratórios passo a passo**
 
-Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento, incluindo:
+Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager (versão 1910).  
 
 ### <a name="device-and-app-readiness"></a>**Preparação de dispositivos e aplicativos**
 
@@ -116,9 +116,12 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
   - Gerenciamento de atualização do Office 365 ProPlus no Gerenciador de Configurações
   - Gerenciamento de dispositivo móvel aplicado ao Windows 10 usando o Microsoft Intune
 
+### <a name="new-windows-virtual-desktop"></a>**NOVO! Área de trabalho virtual do Windows**
+  - Área de trabalho virtual do Windows: preparar, implantar, otimizar 
+
 ### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Baixe o Kit de laboratório de implantação do Office e do Windows**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Use uma largura de banda ampla para baixar esse conteúdo para melhorar sua experiência de download e permitir de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível. O laboratório expira em 15 de fevereiro de 2020. Uma nova versão será publicada antes da expiração.*
+*Use uma largura de banda ampla para baixar esse conteúdo para melhorar a experiência de download e aguarde de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer o mínimo de 150 GB de espaço livre em disco e 16 GB de memória disponível. Para obter um desempenho ideal, é recomendável ter 32 GB de memória disponíveis. O laboratório expira em 18 de abril de 2020. Uma nova versão será publicada antes da expiração.*
 
 ## <a name="additional-guidance"></a>**Orientações adicionais**
 

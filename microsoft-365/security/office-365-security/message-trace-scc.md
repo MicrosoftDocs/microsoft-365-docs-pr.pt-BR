@@ -9,26 +9,23 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: fa10c4168720565770ec0a3bc4bb06486155c3cc
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: cf0b69d691b3071ee35119f67e389e49ccbb13ad
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970327"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558608"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
 ## <a name="overview"></a>Visão Geral
 
-O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
+Rastreamento de mensagens no centro de conformidade & segurança do Office 365 segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
+
+O rastreamento de mensagens no centro de conformidade & segurança aprimora o rastreamento de mensagem original que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
 
 > [!NOTE]
-> Para executar o rastreamento de mensagens, o administrador deve ser membro dos grupos de função de gerenciamento de organização, de conformidade ou de suporte técnico.
-
-O rastreamento de mensagens no centro de conformidade & segurança melhora no rastreamento de mensagens que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com suas mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
-
-> [!NOTE]
-> Somente as primeiras 50000 mensagens são exibidas nos resultados. O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) no Exchange Online PowerShell ou no Exchange Online Protection PowerShell retorna todas as mensagens nos resultados.
+> • Para executar um rastreamento de mensagem, você precisa ser membro dos grupos de função gerenciamento da organização, gerenciamento de conformidade ou suporte técnico. Para obter mais informações, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md). <br/><br/>• O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) no Exchange Online PowerShell ou no Exchange Online Protection PowerShell retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
@@ -63,7 +60,7 @@ Os valores padrão são **todos os remetentes** e **todos os destinatários**, m
 - **Para estas pessoas**: clique neste campo para selecionar um ou mais destinatários em sua organização.
 
 > [!NOTE]
-> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo `*@contoso.com`,), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo.<br/>Você pode colar vários remetentes ou listas de destinatários separados por ponto-`;`e-vírgula (). espaços (`\s`), retornos de`\r`carro () ou linhas de`\n`próximo ().
+> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo `*@contoso.com`,), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo. <br/><br/> Você pode colar vários remetentes ou listas de destinatários separados por ponto-`;`e-vírgula (). espaços (`\s`), retornos de`\r`carro () ou linhas de`\n`próximo ().
 
 ### <a name="time-range"></a>Intervalo de tempo
 
@@ -71,17 +68,17 @@ O valor padrão é **2 dias**, mas você pode especificar intervalos de data/hor
 
 - Por padrão, você seleciona o intervalo de tempo no modo de exibição **Slider** usando uma linha de tempo. Você só pode selecionar as configurações de dia ou hora exibidas. Tentar selecionar um valor entre-between ajustará a bolha de início/término à configuração mais próxima.
 
-   ![Um intervalo de tempo de controle deslizante em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
+  ![Um intervalo de tempo de controle deslizante em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
 
-   No entanto, você também pode alternar para o modo de exibição **personalizado** onde você pode especificar os valores de **data de início** e **data de término** (incluindo horas) e também pode selecionar o **fuso horário** para o intervalo de data/hora. Observe que a configuração de **fuso horário** se aplica às suas entradas de consulta e aos resultados de consulta.
+  No entanto, você também pode alternar para o modo de exibição **personalizado** onde você pode especificar os valores de **data de início** e **data de término** (incluindo horas) e também pode selecionar o **fuso horário** para o intervalo de data/hora. Observe que a configuração de **fuso horário** se aplica às suas entradas de consulta e aos resultados de consulta.
 
-   ![Um intervalo de tempo personalizado em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+  ![Um intervalo de tempo personalizado em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
-   Por 10 dias ou menos, os resultados estão disponíveis instantaneamente como um relatório de **Resumo** . Se você especificar um intervalo de tempo que é um pouco maior do que 10 dias, os resultados serão atrasados, já que estão disponíveis apenas como um arquivo CSV que pode ser baixado ( **Resumo avançado** ou relatórios **estendidos** ).
+  Por 10 dias ou menos, os resultados estão disponíveis instantaneamente como um relatório de **Resumo** . Se você especificar um intervalo de tempo que é um pouco maior do que 10 dias, os resultados serão atrasados, já que estão disponíveis apenas como um arquivo CSV que pode ser baixado ( **Resumo avançado** ou relatórios **estendidos** ).
 
-   Para obter mais informações sobre os diferentes tipos de relatórios, consulte a seção [escolher tipo de relatório](#choose-report-type) neste tópico.
+  Para obter mais informações sobre os diferentes tipos de relatórios, consulte a seção [escolher tipo de relatório](#choose-report-type) neste tópico.
 
-   **Observação**: o resumo avançado e os relatórios estendidos são preparados usando dados de rastreamento de mensagem arquivados e pode levar várias horas para que o relatório fique disponível para download. Dependendo de quantos outros administradores também tiverem enviado solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes de o processamento começar para sua solicitação em fila.
+  **Observação**: o resumo avançado e os relatórios estendidos são preparados usando dados de rastreamento de mensagem arquivados e pode levar várias horas para que o relatório fique disponível para download. Dependendo de quantos outros administradores também tiverem enviado solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes de o processamento começar para sua solicitação em fila.
 
 - Salvar uma consulta no modo de exibição **Slider** salva o intervalo de tempo relativo (por exemplo, 3 dias a partir de hoje). Salvar uma consulta no modo de exibição **personalizado** salva o intervalo de data/hora absoluto (por exemplo, 2018-05-06 13:00 a 2018-05-08 18:00).
 
@@ -129,9 +126,9 @@ Você pode arquivar os resultados pelo endereço IP do cliente para investigar o
 
 Os tipos de relatórios disponíveis são:
 
-- **Resumo**: disponível se o intervalo de tempo for inferior a 10 dias e não requer opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**.
+- **Resumo**: disponível se o intervalo de tempo for inferior a 10 dias e não requer opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**. O relatório retorna até 20000 resultados.
 
-- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com).
+- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com). O relatório de resumo avançado retorna até 50000 resultados. O relatório estendido retorna até 1000 resultados.
 
 **Observações**:
 

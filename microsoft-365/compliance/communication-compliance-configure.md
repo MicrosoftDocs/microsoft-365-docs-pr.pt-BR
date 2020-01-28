@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 8627a46ee861751799e1175c7e030e1b28c6d935
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: b230da002bb537f35934e38395758721cffe2b25
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111875"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558378"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365-preview"></a>Configurar a conformidade em comunicações no Microsoft 365 (visualização)
 

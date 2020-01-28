@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9b0448a3ed5cf36a909ebb14e0aadf2b8ac96610
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e6085446677e592425d5453aa350541590de1b9d
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804794"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558528"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) estrutura de segurança comum (CSF)
 
@@ -58,9 +58,9 @@ Comece a aproveitar as vantagens dos benefícios da nuvem para as soluções de 
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Acelere a conformidade com HIPAA/HITRUST ao usar o Office 365
 
-Use o Office 365 para gerenciar informações de integridade de forma segura e compatível com o Gerenciador de conformidade, que permite realizar avaliações de risco contra normas de integridade, como HIPAA e estruturas de controle de segurança como NIST CSF e NIST 800-53. Você pode seguir orientações passo a passo para saber como implementar e manter os controles de proteção de dados que ajudam você a cumprir as obrigações de conformidade de saúde.
+Use o Office 365 para gerenciar informações de integridade de forma segura e compatível com a pontuação de conformidade, que permite realizar avaliações de risco contra normas de integridade, como HIPAA e estruturas de controle de segurança como NIST CSF e NIST 800-53. Você pode seguir orientações passo a passo para saber como implementar e manter os controles de proteção de dados que ajudam você a cumprir as obrigações de conformidade de saúde.
 
-[Começar a usar o Gerenciador de conformidade](https://go.microsoft.com/fwlink/p/?linkid=862650)
+[Começar a usar a pontuação de conformidade](compliance-score.md)
 
 ## <a name="collaborate-with-microsoft-in-the-hitrust-shared-responsibility-program"></a>Colaborar com a Microsoft no programa de responsabilidade compartilhada do HITRUST
 
@@ -95,7 +95,7 @@ Quando você armazena seus dados em um SaaS como o Office 365, é uma responsabi
 
 **A Microsoft fornece orientações para que a minha organização implemente os controles apropriados ao usar o Office 365?**
 
-Sim, você pode encontrar as ações de cliente recomendadas no gerente de conformidade, soluções de nuvem entre a Microsoft que ajudam sua organização a atender a obrigações de conformidade complexas ao usar serviços de nuvem. Especificamente, para o HITRUST CSF, recomendamos que você realize avaliações de risco usando as avaliações NIST 800-53 e NIST CSF no gerente de conformidade. Nas avaliações, fornecemos orientações passo a passo e as soluções da Microsoft que você pode usar para implementar seus controles de proteção de dados. Você pode saber mais sobre o Gerenciador de conformidade neste [White Paper](https://resources.office.com/ww-landing-m365e-gdpr-compliance-manager-whitepaper.html?lcid=en-us).
+Sim, você pode encontrar as ações de cliente recomendadas em Pontuação de conformidade, soluções de nuvem entre a Microsoft que ajudam sua organização a atender obrigações de conformidade complexas ao usar serviços de nuvem. Especificamente, para o HITRUST CSF, recomendamos que você realize avaliações de risco usando as avaliações NIST 800-53 e NIST CSF em Pontuação de conformidade. Nas avaliações, fornecemos orientações passo a passo e as soluções da Microsoft que você pode usar para implementar seus controles de proteção de dados. Você pode saber mais sobre a pontuação de conformidade na [Pontuação de conformidade da Microsoft](compliance-score.md).
 
 **Como faço para entrar com a Microsoft?**
 
@@ -107,7 +107,7 @@ Faça logon na ferramenta HITRUST MyCSF® e preencha previamente sua avaliação
 - [HITRUST CSF 8,1](https://hitrustalliance.net/csf-license-agreement/)
 - [Entendendo e aproveitando o CSF](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [Saiba mais sobre o programa de responsabilidade compartilhada do HITRUST](https://go.microsoft.com/fwlink/p/?linkid=2100268)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

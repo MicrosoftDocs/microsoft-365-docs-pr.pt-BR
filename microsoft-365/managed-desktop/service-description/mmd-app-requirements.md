@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6b5f1d7cf8070808aecb57c7f5b2c16ec84b37d6
-ms.sourcegitcommit: 543ac29a15412a348b61db2297e7bcdcca842206
+ms.openlocfilehash: fd19764ab164373cee1de088ea402b3c46b61b81
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38020364"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558568"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
-<!--This topic is the target for aka.ms/app-req. This is aka link is used from EA agreeement for MMD. do not delete.-->
+<!--This topic is the target for aka.ms/app-req. This is aka link is used from EA agreement for MMD. do not delete.-->
 
 <!--Application addendum -->
  

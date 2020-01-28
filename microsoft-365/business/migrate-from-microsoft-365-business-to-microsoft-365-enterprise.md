@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business para a Microsoft 365 E3.
-ms.openlocfilehash: 7d10889a446543a3e9126aaaa1e3fbe6861f87a4
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1cf6aa741c7f0b427a434d472df7169ef37c5418
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111865"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558038"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business para o Microsoft 365 E3
 
@@ -77,7 +77,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Microsoft 3
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, gerenciamento de direitos do Windows)| |       ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | **Conformidade**        | | | 
 | Arquivamento ilimitado de email | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Gerenciador de Conformidade    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Pontuação de conformidade/gerente de conformidade   | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Descoberta eletrônica    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Bloqueio in-loco e retenção de litígio | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
 | Marcas de retenção e políticas de retenção do MRM (gerenciamento de registros de mensagens)  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 

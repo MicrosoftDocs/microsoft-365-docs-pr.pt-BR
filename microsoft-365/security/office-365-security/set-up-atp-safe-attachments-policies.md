@@ -15,12 +15,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
-ms.openlocfilehash: 0bafa8e21d3788871f9daf38aeeabd00abb97bec
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e38067230554b5d37f7dc4526e90ab4e63608900
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806714"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558618"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -93,6 +93,7 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
 |**Replace**|Remove anexos detectados de malware  <br/> Notifica os destinatários de que os anexos foram removidos  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens|Aumentar a visibilidade dos destinatários que os anexos foram removidos devido a um malware detectado|
 |**Entrega dinâmica**|Entrega mensagens imediatamente  <br/> Substitui anexos por um arquivo de espaço reservado até que a verificação seja concluída e, em seguida, anexa novamente os anexos se nenhum malware for detectado  <br/> Inclui recursos de visualização de anexos para a maioria dos arquivos PDFs e do Office durante a verificação  <br/> Envia mensagens com malware detectado para colocar em quarentena onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> [Saiba mais sobre a entrega dinâmica e a visualização com anexos seguros de ATP](dynamic-delivery-and-previewing.md) <br/> |Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados  <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
 |**Habilitar redirecionamento**|Aplica-se quando a opção monitorar, bloquear ou substituir é escolhida  <br/> Envia anexos a um endereço de email especificado, onde os administradores de segurança ou os analistas podem investigar|Permitir que os administradores de segurança e analistas pesquisem anexos suspeitos|
+|**Aplicar a seleção acima se a verificação de malware por anexos expirar ou ocorrer erro**|Aplica a ação configurada para anexos do unasfe aos anexos que não podem ser verificados (devido ao tempo limite ou erro)|
 
 ## <a name="next-steps"></a>Próximas etapas
 

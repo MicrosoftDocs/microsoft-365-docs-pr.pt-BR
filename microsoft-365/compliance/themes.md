@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 398ad007f62e340bd10114810d5efabbb329e00e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ebb8871ac64eaa5b397e4d64d6e25ac2dc602279
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073325"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558458"
 ---
 # <a name="themes"></a>Temas
 

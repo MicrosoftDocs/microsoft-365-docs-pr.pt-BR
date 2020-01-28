@@ -14,19 +14,19 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Depois que uma caixa de correio do Office 365 é desativada, você pode alterar a duração da política de retenção de bloqueio ou do Office 365 atribuída à caixa de correio inativa. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos.
-ms.openlocfilehash: 05f9b218098a48ca374e31fad1e9dc049e0062bc
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: e1c2515c155192739e771bd646753f24bac92a2d
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39630891"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558388"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Alterar a duração da retenção para uma caixa de correio inativa no Office 365
 
 Uma caixa de correio inativa é usada para manter o email de um funcionário anterior, depois que ele deixa sua organização. Uma caixa de correio fica inativa quando uma retenção de litígio, um bloqueio in-loco, uma política de retenção do Office 365 ou uma retenção associada a uma ocorrência de descoberta eletrônica é colocada na caixa de correio e a conta de usuário do Office 365 correspondente é excluída. O conteúdo de uma caixa de correio inativa é mantido pela duração da retenção que foi colocada na caixa de correio antes de ser desativada. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos. Quando a duração da retenção expira para um item na pasta itens recuperáveis, o item é excluído permanentemente (limpo) da caixa de correio inativa. Depois que uma caixa de correio for desativada, você poderá alterar a duração da política de retenção de espera ou do Office 365 atribuída à caixa de correio inativa.
   
 > [!IMPORTANT]
-> Adiamos o prazo de 1º de julho de 2017 para criar novos Bloqueios In-loco para tornar uma caixa de correio inativa. Mas no final deste ano ou no início do próximo, você não poderá criar novos Bloqueios In-loco no Exchange Online. Nesse momento, somente retenções de litígio e políticas de retenção do Office 365 poderão ser usadas para criar uma caixa de correio inativa. No entanto, as caixas de correio inativas existentes que estão com Bloqueio In-loco ainda terão suporte, e você poderá continuar a gerenciar Bloqueios In-loco em caixas de correio inativas. Isso inclui a alteração da duração de um Bloqueio In-loco e a exclusão permanente de uma caixa de correio inativa, removendo o Bloqueio In-loco. 
+> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção de litígio e do Office 365 para criar uma caixa de correio inativa. A partir de 1º de abril de 2020 você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, Iniciando em 1º de julho de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
   
 ## <a name="before-you-begin"></a>Antes de começar
 

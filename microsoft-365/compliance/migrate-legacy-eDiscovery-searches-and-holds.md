@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: eacbb5577c070ce463ad8e17ba6d0d19a1d8736c
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 3d0bba3c75bda77cbffbbd515215a10d579755be
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971285"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558558"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas de descoberta eletrônica herdadas e isenções para o centro de conformidade da Microsoft 365
 
@@ -75,7 +75,7 @@ A saída desses dois comandos será semelhante à seguinte:
 ![Exemplo de saída do PowerShell usando Get-MailboxSearch para uma pesquisa individual](media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> A duração do bloqueio in-loco neste exemplo está indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de descoberta eletrônica e investigação legal. Se a duração da retenção tiver um valor diferente de indefinido, o motivo provavelmente será que a retenção está sendo usada para reter o conteúdo em um cenário de retenção. Em vez de usar os cmdlets de descoberta eletrônica no PowerShell do centro de conformidade & segurança do Office 365 para cenários de retenção, recomendamos que você use [New-HoldCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-holdcompliancepolicy) e [New-HoldComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-holdcompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como excluir o conteúdo depois que o período de retenção expirar. Além disso, usar os cmdlets de retenção não exige que você associe o bloqueio de retenção a uma ocorrência de descoberta eletrônica.
+> A duração do bloqueio in-loco neste exemplo está indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de descoberta eletrônica e investigação legal. Se a duração da retenção tiver um valor diferente de indefinido, o motivo provavelmente será que a retenção está sendo usada para reter o conteúdo em um cenário de retenção. Em vez de usar os cmdlets de descoberta eletrônica no PowerShell do centro de conformidade & segurança do Office 365 para cenários de retenção, recomendamos que você use [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) e [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como excluir o conteúdo depois que o período de retenção expirar. Além disso, usar os cmdlets de retenção não exige que você associe o bloqueio de retenção a uma ocorrência de descoberta eletrônica.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Etapa 4: criar um caso no centro de conformidade da Microsoft 365
 

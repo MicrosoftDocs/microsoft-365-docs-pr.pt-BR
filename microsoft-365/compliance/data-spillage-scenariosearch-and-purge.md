@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Usar as ferramentas de descoberta eletrônica e de pesquisa do Office 365 para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: 2c34a632ce55003c9add88d2bced589dd1becf35
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 06c02a9d5f31f8b7d6845214c10a150b6cacf379
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259417"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558358"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -54,7 +54,7 @@ Veja como gerenciar um incidente de derramamento de dados:
     
 - Para criar uma ocorrência, você deve ser membro do grupo de função Gerenciador de descoberta eletrônica ou ser membro de um grupo de funções personalizado atribuído à função de gerenciamento de casos. Se você não for um membro, peça a um administrador do Office 365 para [adicioná-lo ao grupo de funções Gerenciador de descoberta eletrônica](assign-ediscovery-permissions.md).
     
-- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções Gerente de Descoberta Eletrônica ou receber a função de gerenciamento de Pesquisa de Conformidade. Para excluir mensagens, você precisa ser membro do grupo de funções Gerenciamento da Organização ou receber a função de gerenciamento Pesquisa e Limpar. Para obter informações sobre como adicionar usuários a um grupo de funções, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
+- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções Gerente de Descoberta Eletrônica ou receber a função de gerenciamento de Pesquisa de Conformidade. Para excluir mensagens, você precisa ser membro do grupo de funções Gerenciamento da Organização ou receber a função de gerenciamento Pesquisa e Limpar. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
     
 - Para pesquisar as atividades de descoberta eletrônica do log de auditoria do Office 365 na etapa 8, a auditoria deve estar ativada para sua organização. Você pode pesquisar atividades que foram realizadas nos últimos 90 dias. Para saber mais sobre como habilitar e usar a auditoria, confira a seção [Auditing The data derramamento Investigation Process](#auditing-the-data-spillage-investigation-process) na etapa 8. 
     
@@ -124,7 +124,7 @@ Você pode usar o rastreamento de mensagens no centro de segurança e conformida
     
 ## <a name="step-6-prepare-the-mailboxes"></a>Etapa 6: preparar as caixas de correio
 
-Após revisar e validar que os resultados da pesquisa contenham apenas as mensagens que devem ser excluídas, você precisará coletar uma lista dos endereços de email das caixas de correio afetadas a serem usadas na etapa 7 ao executar o comando **Search-Mailbox-DeleteContent** . Você também pode ter que preparar as caixas de correio antes de excluir permanentemente mensagens de email dependendo se a recuperação de item único está habilitada nas caixas de correio que contêm os dados derramados ou se alguma dessas caixas de correio está em espera.
+Depois de revisar e validar que os resultados da pesquisa contenham apenas as mensagens que devem ser excluídas, você precisará coletar uma lista dos endereços de email das caixas de correio afetadas a serem usadas na etapa 7 ao excluir os dados derramados. Você também pode ter que preparar as caixas de correio antes de excluir permanentemente mensagens de email dependendo se a recuperação de item único está habilitada nas caixas de correio que contêm os dados derramados ou se alguma dessas caixas de correio está em espera.
   
 ### <a name="get-a-list-of-addresses-of-mailboxes-with-spilled-data"></a>Obter uma lista de endereços de caixas de correio com dados derramados
 
@@ -168,9 +168,9 @@ Certifique-se de reverter a caixa de correio para as configurações anteriores 
 
 ## <a name="step-7-permanently-delete-the-spilled-data"></a>Etapa 7: excluir permanentemente os dados derramados
 
-Usando os locais da caixa de correio que você coletou e preparou na etapa 6 e a consulta de pesquisa que foi criada e refinada na etapa 3 para localizar mensagens de email que contêm os dados derramados, você pode excluir permanentemente os dados derramados.  Conforme explicado anteriormente, para excluir mensagens, você precisa ser membro do grupo de função gerenciamento da organização ou ter a função de gerenciamento de pesquisa e limpeza atribuída. Para obter informações sobre como adicionar usuários a um grupo de funções, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
+Usando os locais da caixa de correio que você coletou e preparou na etapa 6 e a consulta de pesquisa que foi criada e refinada na etapa 3 para localizar mensagens de email que contêm os dados derramados, você pode excluir permanentemente os dados derramados.  Conforme explicado anteriormente, para excluir mensagens, você precisa ser membro do grupo de função gerenciamento da organização ou ter a função de gerenciamento de pesquisa e limpeza atribuída. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
 
-Para excluir as mensagens derramadas, Confira as etapas 2 & 3 em [Pesquisar e excluir mensagens de email na sua organização do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)
+Para excluir as mensagens derramadas, Confira as etapas 2 & 3 em [Pesquisar e excluir mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>Etapa 8: verificar, fornecer uma prova de exclusão e auditoria
 
