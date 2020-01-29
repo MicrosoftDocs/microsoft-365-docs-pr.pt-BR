@@ -13,59 +13,62 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como enviar emails suspeitos, emails de phishing suspeitos, spam e outras mensagens, URLs e arquivos potencialmente nocivos do seu locatário do Office 365 para a Microsoft para verificação.
-ms.openlocfilehash: 54cb42f8c02f2f41ad583d640a090509817911ee
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c46017becfed546557fbf59c0dbbe12e9af53aa0
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808546"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573028"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Como enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para a verificação do Office 365
 
-Os administradores podem enviar emails usando ID de mensagem de arquivo ou rede, URLs e arquivos para verificação da Microsoft no Office 365. A seção de envios atualizados ainda inclui mensagens relatadas pelo usuário e estão disponíveis para todos os clientes que usam o EOP.
+Os administradores podem enviar emails usando ID de mensagem de arquivo ou rede, URLs e arquivos para verificação da Microsoft no Office 365.
+A seção de envios atualizados ainda inclui mensagens relatadas pelo usuário e estão disponíveis para todos os clientes que usam o EOP.
 
-Ao enviar um email, você receberá informações sobre qualquer política que possa ter permitido o email de entrada em seu locatário, bem como o exame de qualquer URL e anexo no email. As políticas que podem ter permitido um email incluem a lista de remetentes confiáveis de um usuário individual, bem como as políticas de nível de locatário, como regras ETR. 
+Ao enviar um email, você receberá informações sobre qualquer política que possa ter permitido o email de entrada em seu locatário, bem como o exame de qualquer URL e anexo no email. As políticas que podem ter permitido um email incluem a lista de remetentes confiáveis de um usuário individual, bem como políticas de nível de locatário, como regras de fluxo de emails do Exchange (também conhecidas como regras de transporte).
 
 ## <a name="how-to-direct-suspicious-content-to-microsoft-for-office-365-scanning"></a>Como direcionar conteúdo suspeito para a Microsoft para a verificação do Office 365
 
-Para enviar conteúdo à Microsoft, clique no botão **novo envio** no lado superior esquerdo da página envios. Um submenu no lado direito da página aparece com a opção de enviar um email, uma URL ou um arquivo. 
+Para enviar conteúdo à Microsoft, clique no botão **novo envio** no lado superior esquerdo da página envios. Um submenu no lado direito da página aparece com a opção de enviar um email, uma URL ou um arquivo.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Enviar um email questionável à Microsoft
+
 ![Exemplo de envio de email](../media/submission-flyout-email.PNG)
-1. Para enviar um email, selecione **email** e ESPECIFIQUE a **ID da mensagem da rede** de email ou carregue o arquivo de email. 
 
-2. Especifique o (s) destinatário (s) em relação ao qual você gostaria de executar a verificação de política. A verificação de política determinará se o email ignorou a verificação devido a políticas de nível de usuário ou locatário. 
+1. Para enviar um email, selecione **email** e ESPECIFIQUE a **ID da mensagem da rede** de email ou carregue o arquivo de email.
 
-3. Especifique se o email deve ter sido bloqueado ou não. Se o email tiver sido bloqueado, especifique se ele deve ter sido bloqueado como spam, phishing ou malware. Se você não tiver certeza de qual tipo pode ser, use a melhor Judgement.  
+2. Especifique o (s) destinatário (s) em relação ao qual você gostaria de executar a verificação de política. A verificação de política determinará se o email ignorou a verificação devido a políticas de nível de usuário ou locatário.
 
-* Se o filtro tiver sido ignorado devido às políticas após o envio, você verá informações sobre essa política.
+3. Especifique se o email deve ter sido bloqueado ou não. Se o email tiver sido bloqueado, especifique se ele deve ter sido bloqueado como spam, phishing ou malware. Se você não tiver certeza de qual tipo pode ser, use a melhor Judgement.
 
-* Se o filtro não tiver sido ignorado devido a uma ou mais políticas, a verificação será concluída em vários minutos. Você verá informações adicionais sobre o envio clicando no link status. Isso inclui os resultados da verificação de política e a veredicto de nova verificação. Observação isso não executa o email por meio da pilha de filtragem completa do Office 365 ATP novamente, mas executa uma verificação parcial com base em determinados atributos do email, da URL ou do arquivo. 
+   - Se o filtro tiver sido ignorado devido às políticas após o envio, você verá informações sobre essa política.
+
+   - Se o filtro não tiver sido ignorado devido a uma ou mais políticas, a verificação será concluída em vários minutos. Você verá informações adicionais sobre o envio clicando no link status. Isso inclui os resultados da verificação de política e a veredicto de nova verificação. Observação isso não executa o email por meio da pilha de filtragem completa do Office 365 ATP novamente, mas executa uma verificação parcial com base em determinados atributos do email, da URL ou do arquivo.
 
 4. Clique no botão **Enviar** .
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
+
 ![Exemplo de envio de email](../media/submission-url-flyout.png)
-1. Para enviar **uma URL de seleção de** URL do submenu. Digite a URL completa incluindo o protocolo (**https://**). 
 
-* Se você tiver selecionado o **deve ter sido filtrado**, especifique se a URL é phishing ou malware.
+1. Para enviar **uma URL de seleção de** URL do submenu. Digite a URL completa incluindo o protocolo (**https://**).
 
-2. Clique no botão **Enviar** . 
-
-
-### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito para a Microsoft
-![Exemplo de envio de email](../media/submission-file-flyout.PNG)
-1. Para enviar **um arquivo de seleção de** arquivo do submenu e carregar o arquivo que você deseja verificar. 
+   Se você tiver selecionado o **deve ter sido filtrado**, especifique se a URL é phishing ou malware.
 
 2. Clique no botão **Enviar** .
 
+### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito para a Microsoft
+
+![Exemplo de envio de email](../media/submission-file-flyout.PNG)
+
+1. Para enviar **um arquivo de seleção de** arquivo do submenu e carregar o arquivo que você deseja verificar.
+
+2. Clique no botão **Enviar** .
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Plano 2 de proteção avançada contra ameaças do Office 365](office-365-ti.md)
-  
-[Proteção contra ameaças no Office 365](protect-against-threats.md)
-  
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
-  
 
+[Proteção contra ameaças no Office 365](protect-against-threats.md)
+
+[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)

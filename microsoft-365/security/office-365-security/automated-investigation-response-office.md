@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d36215c83c926f96b23e930f888e5c8dca40dc60
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: fcb48da4b6f3777fa8c21ef514d5f591e342562e
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808476"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573038"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
@@ -37,7 +37,7 @@ Em um nível alto, o fluxo de ar funciona da seguinte maneira:
 |1     |Um [alerta](#alerts) é disparado por um evento do Office e um [Guia de segurança](#security-playbooks) inicia uma investigação automatizada para alertas selecionados. <br/><br/>Como alternativa, um analista de segurança pode [iniciar uma investigação automatizada manualmente](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer), a partir de um email do [Explorer](threat-explorer.md).        |
 |duas     |Enquanto uma investigação automatizada é executada, ela coleta dados adicionais sobre o email e as entidades relacionadas a esse email – arquivos, URLs e destinatários.  O escopo da investigação pode aumentar, pois novos alertas relacionados são acionados.         |
 |3D     |Durante e após uma investigação automatizada, [detalhes e resultados](#investigation-graph) estão disponíveis para exibição. Os resultados incluem [ações recomendadas](#recommended-actions) que podem ser tomadas para responder e corrigir quaisquer ameaças encontradas. Além disso, um [log](#playbook-log) de análise manual está disponível que controla todas as atividades de investigação.<br/><br/>Se sua organização estiver usando uma solução de relatórios personalizada ou uma solução de terceiros, você poderá [usar a API da atividade de gerenciamento do Office 365](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) para exibir informações sobre investigações e ameaças automatizadas.         |
-|quatro     |Sua equipe de operações de segurança revisa os resultados e recomendações da investigação e aprova ações de correção. No Office 365, as ações de correção são realizadas apenas após a aprovação da equipe de segurança da sua organização.         |
+|4      |Sua equipe de operações de segurança revisa os resultados e recomendações da investigação e aprova ações de correção. No Office 365, as ações de correção são realizadas apenas após a aprovação da equipe de segurança da sua organização.         |
 
 As seções a seguir fornecem mais detalhes sobre o AIR, incluindo detalhes sobre alertas, guias de segurança e detalhes de investigação. Além disso, dois exemplos de como o AIR funciona são incluídos neste artigo. Para começar a usar o AIR, consulte [investigar automaticamente e responder a ameaças no Office 365](office-365-air.md).
 
@@ -288,7 +288,7 @@ Quando uma investigação automatizada é executada ou concluída, você geralme
 
 Quando um usuário em sua organização envia uma mensagem de email e o relata à Microsoft usando o [suplemento de mensagem de relatório para o Outlook ou o Outlook Web App](enable-the-report-message-add-in.md), o relatório também é enviado para o seu sistema e fica visível no Explorer no modo de exibição relatado pelo usuário. Essa mensagem relatada pelo usuário agora dispara um alerta informativo baseado no sistema, que inicia automaticamente o guia estratégico de investigação.
 
-Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre eles:
+Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre elas:
 - Uma determinação sobre o tipo de ameaça que ela pode ser;
 - Quem o enviou;
 - De onde o email foi enviado (infraestrutura de envio);

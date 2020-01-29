@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: 65b9d1dd3eb1a764867103710448255be96cd183
-ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
+ms.openlocfilehash: b2f66e3aa275c01baf2b8bde3bcca2c3072b5443
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41173507"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572697"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 

@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a1dbb5708cad32a0e37ddc25c97c70a765580f86
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 4472f665faa658349813d9aaeb50596f2a868b35
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962518"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572267"
 ---
 # <a name="register-new-devices-yourself"></a>Registrar novos dispositivos sozinho
 
@@ -65,13 +65,12 @@ A área de trabalho gerenciada da Microsoft identifica cada dispositivo exclusiv
 Você precisará ter os dados nos arquivos CSV combinados em um único arquivo para concluir o registro. Veja um exemplo de script do PowerShell para facilitar:
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
-
 ### <a name="register-devices"></a>Registrar dispositivos
 
 O arquivo CSV deve estar em um formato específico para o registro. Se você coletou os dados nas etapas anteriores, o arquivo já deve estar no formato correto; Se você obtiver o arquivo de um fornecedor, talvez seja necessário ajustar o formato.
 
 >[!NOTE]
->Para sua conveniência, é possível baixar um [modelo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.xlsx) para esse arquivo CSV.
+>Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv).
 
 O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo um (fabricante, modelo, etc.), mas seus próprios dados para as outras linhas. Se você usar o modelo, abra-o em uma ferramenta de edição de texto, como o bloco de notas, e considere a possibilidade de deixar todos os dados na linha 1 apenas inserindo dados nas linhas 2 e abaixo. 
     

@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: ceda5765ca6450959c99222daf457cf7584401ba
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: eb7ff76ef51078e423201b41cf24780b822ba452
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074723"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572237"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Etapas para registrar dispositivos de Parceiros
 
@@ -25,7 +25,7 @@ Antes de concluir o registro de um cliente, primeiro você deve estabelecer uma 
 Para concluir o registro do cliente, primeiro crie um arquivo CSV.
 
 >[!NOTE]
->Para sua conveniência, é possível baixar um [modelo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.xlsx) para esta *versão de parceiro* do arquivo CSV.
+>Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv) para esta *versão do parceiro*.
 
 O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo um (fabricante, modelo, etc.), mas seus próprios dados para as outras linhas. Se você usar o modelo, abra-o em uma ferramenta de edição de texto, como o bloco de notas, e considere a possibilidade de deixar todos os dados na linha 1 apenas inserindo dados nas linhas 2 e abaixo. 
     

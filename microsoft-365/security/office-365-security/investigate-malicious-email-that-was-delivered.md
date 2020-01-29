@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
-ms.openlocfilehash: 57d419c291fdfed3a5d7237ae2021e9ef06723f5
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f2eadfaf23c4485e6b50b6550f0a884690a79548
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031896"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572978"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Encontre e investigue emails mal-intencionados que foram entregues no Office 365
 

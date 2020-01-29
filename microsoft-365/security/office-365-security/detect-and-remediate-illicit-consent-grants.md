@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Office 365.
-ms.openlocfilehash: 0f4569a4ef8496a07fc1dc52f500ee91a6590fdd
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: ae26656cdfcb6f17bbe4caa1016f6428f3bd655e
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989536"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572988"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Detectar e corrigir a concessão de autorização ilícita no Office 365
 

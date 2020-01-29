@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 995f0b273753d7b3a92b8c5acef6eb94d51458b3
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 43133ed638f91957307b832826c21ae81aa269b0
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872097"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572968"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -31,11 +31,11 @@ Existem várias ferramentas disponíveis destinadas a monitorar o uso e o transp
 
 Na ilustração:
 
--   Comece a usar os relatórios de prevenção contra perda de dados do Office 365 para monitorar dados pessoais no SharePoint Online, no OneDrive for Business e nos emails em trânsito. Eles fornecem um monitoramento mais detalhado de dados pessoais. No entanto, esses relatórios não incluem todos os serviços do Office 365.
+- Comece a usar os relatórios de prevenção contra perda de dados do Office 365 para monitorar dados pessoais no SharePoint Online, no OneDrive for Business e nos emails em trânsito. Eles fornecem um monitoramento mais detalhado de dados pessoais. No entanto, esses relatórios não incluem todos os serviços do Office 365.
 
--   Em seguida, use as políticas de alerta e os logs de auditoria para monitorar as atividades em todos os serviços do Office 365. Configure um monitoramento permanente ou pesquise os logs de auditoria para investigar incidentes. Os logs de auditoria do Office 365 atuam em todos os serviços desta plataforma: Sway, PowerBI, Descoberta Eletrônica, Dynamics 365, Microsoft Flow, Microsoft Teams, Atividade do administrador, OneDrive for Business, SharePoint Online, emails em trânsito e caixas de correio em repouso. As caixas de correio em repouso incluem as conversas do Skype.
+- Em seguida, use as políticas de alerta e os logs de auditoria para monitorar as atividades em todos os serviços do Office 365. Configure um monitoramento permanente ou pesquise os logs de auditoria para investigar incidentes. Os logs de auditoria do Office 365 atuam em todos os serviços desta plataforma: Sway, PowerBI, Descoberta Eletrônica, Dynamics 365, Microsoft Flow, Microsoft Teams, Atividade do administrador, OneDrive for Business, SharePoint Online, emails em trânsito e caixas de correio em repouso. As caixas de correio em repouso incluem as conversas do Skype.
 
--   Por fim, use o Microsoft Cloud App Security para monitorar os arquivos com dados confidenciais em outros provedores de SaaS. Em breve, adicionaremos a capacidade de usar tipos de informações confidenciais e rótulos unificados do Office 365 com o Cloud App Security, na Proteção de Informações do Azure e no Office. Você pode configurar políticas que se apliquem a todos os aplicativos SaaS ou a aplicativos específicos, como o Box. O Cloud App Security não descobre arquivos no Exchange Online, nem os arquivos anexados em emails.
+- Por fim, use o Microsoft Cloud App Security para monitorar os arquivos com dados confidenciais em outros provedores de SaaS. Em breve, adicionaremos a capacidade de usar tipos de informações confidenciais e rótulos unificados do Office 365 com o Cloud App Security, na Proteção de Informações do Azure e no Office. Você pode configurar políticas que se apliquem a todos os aplicativos SaaS ou a aplicativos específicos, como o Box. O Cloud App Security não descobre arquivos no Exchange Online, nem os arquivos anexados em emails.
 
 ## <a name="office-365-data-loss-prevention-reports"></a>Relatórios de prevenção contra perda de dados do Office 365
 
@@ -43,23 +43,23 @@ Após criar as políticas DLP (prevenção contra perda de dados), convém verif
 
 Você pode usar os relatórios DLP para:
 
--   Se concentrar em períodos de tempo específicos e entender os motivos para picos e tendências.
+- Se concentrar em períodos de tempo específicos e entender os motivos para picos e tendências.
 
--   Descobrir processos empresariais que violam as políticas DLP da organização.
+- Descobrir processos empresariais que violam as políticas DLP da organização.
 
--   Compreender qualquer impacto nos negócios das políticas de DLP.
+- Compreender qualquer impacto nos negócios das políticas de DLP.
 
--   Exiba as justificativas enviadas pelos usuários quando eles resolverem uma dica de política substituindo a política ou relatando um falso positivo.
+- Exiba as justificativas enviadas pelos usuários quando eles resolverem uma dica de política substituindo a política ou relatando um falso positivo.
 
--   Verificar a conformidade com uma determinada política DLP mostrando as correspondências dessa política.
+- Verificar a conformidade com uma determinada política DLP mostrando as correspondências dessa política.
 
--   Exibir uma lista de arquivos com dados confidenciais que correspondem às políticas DLP no painel de detalhes.
+- Exibir uma lista de arquivos com dados confidenciais que correspondem às políticas DLP no painel de detalhes.
 
 Além disso, você pode usar os relatórios de DLP para ajustar suas políticas DLP conforme as executa no modo de teste.
 
 Os relatórios DLP estão no centro de segurança e o no centro de conformidade. Navegue até Relatórios \> Exibir relatórios. Em prevenção de perda de dados (DLP), vá para correspondências de políticas e regras DLP ou substituições e falsos positivos DLP.
 
-Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://support.office.com/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
+Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports).
 
 ![Relatório mostrando correspondências de política DLP](../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -69,9 +69,9 @@ O log de auditoria inclui eventos das plataformas Exchange Online, SharePoint On
 
 O centro de conformidade e o centro de segurança oferecem duas maneiras de monitorar e gerar relatórios no log de auditoria do Office 365:
 
--   Configurar políticas de alerta, exibir alertas e monitorar tendências – Use as ferramentas painel de alerta e política de alerta no centro de conformidade ou no centro segurança.
+- Configurar políticas de alerta, exibir alertas e monitorar tendências – Use as ferramentas painel de alerta e política de alerta no centro de conformidade ou no centro segurança.
 
--   Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
+- Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
 As equipes de conformidade e segurança de informações podem usar essas ferramentas de forma proativa para revisar as atividades executadas por usuários finais e administradores em todos os serviços do Office 365. É possível configurar alertas automáticos a fim de enviar notificações por email, quando ocorrem determinadas atividades em conjuntos de sites específicos; por exemplo, quando o conteúdo é compartilhado de sites conhecidos por incluir informações relacionadas ao GDPR. Dessa forma, as equipes podem acompanhar os usuários para garantir que as políticas de segurança corporativa sejam cumpridas ou para fornecer treinamento adicional.
 
@@ -81,17 +81,17 @@ Existem soluções disponíveis, com quais é possível inscrever-se nos logs de
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
-- [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+- [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
 
-- [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (introdução)
+- [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (introdução)
 
-- [Ativar e desativar a Pesquisa de log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+- [Ativar e desativar a Pesquisa de log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
-- [Pesquisas o log de auditoria](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+- [Pesquisas o log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) (cmdlet)
 
-- [Propriedades detalhadas no log de auditoria do Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+- [Propriedades detalhadas no log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -111,9 +111,9 @@ A segunda política bloqueia os downloads de arquivos em dispositivos não geren
 
 Em breve, os seguintes tipos de atributos estarão disponíveis para o Cloud App Security:
 
--   Tipos de informações confidenciais do Office 365
+- Tipos de informações confidenciais do Office 365
 
--   Rótulos unificados no Office 365 e na Proteção de Informações do Azure
+- Rótulos unificados no Office 365 e na Proteção de Informações do Azure
 
 ### <a name="cloud-app-security-dashboard"></a>Painel do Cloud App Security
 
@@ -125,11 +125,11 @@ Observação: não deixe de habilitar a opção "Examinar automaticamente os arq
 
 Mais informações:
 
--   [Implantar o Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Implantar o Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
+- [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
--   [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Políticas de atividade e arquivo de exemplo para detectar o compartilhamento de dados pessoais
 
@@ -198,9 +198,9 @@ Alerta quando um arquivo que contém um número de cartão de crédito é compar
 
 Políticas semelhantes:
 
--   Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: endereço de email
+- Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: endereço de email
 
--   Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: número do passaporte
+- Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: número do passaporte
 
 ### <a name="detect-customer-or-hr-data-in-box-or-onedrive-for-business"></a>Detectar clientes ou dados de RH no Box ou no OneDrive for Business
 
@@ -208,9 +208,9 @@ Alerta quando um arquivo rotulado como "Dados do cliente" ou "Dados de RH" é ca
 
 Observações:
 
--   o monitoramento do Box exige configurar um conector com o SDK do conector de API.
+- o monitoramento do Box exige configurar um conector com o SDK do conector de API.
 
--   Essa política exige funcionalidades que estão atualmente em visualização privada.
+- Essa política exige funcionalidades que estão atualmente em visualização privada.
 
 <table>
 <thead>
@@ -267,6 +267,6 @@ Observações:
 
 Políticas semelhantes:
 
--   Detectar grandes downloads de dados do cliente ou de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
+- Detectar grandes downloads de dados do cliente ou de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
 
--   Detectar o compartilhamento de dados de clientes e de RH – alerta quando os arquivos com dados de clientes ou de RH são compartilhados.
+- Detectar o compartilhamento de dados de clientes e de RH – alerta quando os arquivos com dados de clientes ou de RH são compartilhados.
