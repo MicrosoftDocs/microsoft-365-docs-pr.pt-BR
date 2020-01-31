@@ -1,5 +1,7 @@
 ---
 title: Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: O RGPD fornece aos seus dados pessoais direitos específicos da UE (chamados de dados). esses direitos incluem a obtenção de cópias dele, a solicitação de alterações, a restrição do processamento dele, a exclusão ou o recebimento de um formato eletrônico. Uma solicitação formal por um assunto de dados para realizar uma ação em seus dados pessoais é chamada de solicitação de entidade de dados ou DSR. Você pode usar casos de DSR no centro de conformidade no Office 365 e no Microsoft 365 para gerenciar as investigações de DSR da sua organização.
-ms.openlocfilehash: 4b1e6eac17c95e3d0fe638711483802c829fdd56
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6d7770be686e62dc6afde368bcb4e821f72c2fff
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684948"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582930"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 
@@ -53,7 +55,7 @@ Usando a ferramenta de ocorrência de DSR, você pode:
     
 - Exportar dados em resposta a uma solicitação de exportação ou acesso DSR.
     
-- Excluir casos em que o processo de investigação de DSR estiver concluído. Isso remove todas as pesquisas e trabalhos de exportação associados ao caso.
+- Excluir ocorrências quando o processo de investigação quando o processo de investigação de DSR é concluído. Isso remove todas as pesquisas e trabalhos de exportação associados ao caso.
     
 Este é o processo de alto nível para usar a ferramenta de caso DSR para gerenciar investigações de DSR:
   

@@ -1,5 +1,7 @@
 ---
 title: Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 17c77f14267f988a071e201733ae54ad9c438547
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0b6776571f4abafaf8e050fa6c31311df452d90e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072786"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582910"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
 
@@ -108,7 +110,7 @@ Para acionar o processo de reindexação para lidar com itens parcialmente index
 
 A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
 
-Para obter mais informações, consulte:
+Para saber mais, confira:
 
 - [Trabalhar com erros de processamento](processing-data-for-case.md)
 

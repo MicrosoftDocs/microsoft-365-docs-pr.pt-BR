@@ -1,5 +1,7 @@
 ---
-title: Carregar dados que não sejam do Office 365 em um conjunto de revisão
+title: Carregar dados que não são do Office 365 em um conjunto de revisão
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Importe dados que não sejam do Office 365 para uma análise definida em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: 508346c3fe3a8f67addfed4ced08693daa2d49e7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d839457824420c32a7acd006ae4218008c11b25e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072830"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585680"
 ---
-# <a name="load-non-office-365-data-into-a-review-set"></a>Carregar dados que não sejam do Office 365 em um conjunto de revisão
+# <a name="load-non-office-365-data-into-a-review-set"></a>Carregar dados que não são do Office 365 em um conjunto de revisão
 
 Nem todos os documentos que você precisa analisar na descoberta eletrônica avançada estão localizados no Office 365. Com o recurso de importação de dados não-Office 365 na descoberta eletrônica avançada, você pode carregar documentos que não estão localizados no Office 365 para um conjunto de revisão. Este artigo mostra como trazer documentos não-Office 365 para a descoberta eletrônica avançada para análise.
 
@@ -40,7 +42,7 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
 - Dados não-Office 365 devem ser um tipo de arquivo com suporte da descoberta eletrônica avançada. Para saber mais, confira [tipos de arquivo com suporte na descoberta eletrônica avançada](supported-filetypes-ediscovery20.md).
 
-- Todos os arquivos carregados em um conjunto de revisão devem estar localizados em pastas, onde cada pasta é associada a um determinado local. Os nomes dessas pastas devem usar o seguinte formato de nomenclatura: *alias @ nome_do_domínio*. O alias @ nome_do_domínio deve ser o alias e o domínio do Office 365 do usuário. Você pode coletar todas as pastas alias @ DomainName em uma pasta raiz. A pasta raiz só pode conter as pastas alias @ DomainName. Não há suporte para arquivos soltos na pasta raiz.
+- Todos os arquivos carregados em um conjunto de revisão devem estar localizados em pastas, onde cada pasta é associada a um determinado local. Os nomes dessas pastas devem usar o seguinte formato de nome: *alias@domainname*. O alias@domainname deve ser o alias e o domínio do Office 365 do usuário. Você pode coletar todas as pastas de alias@domainname em uma pasta raiz. A pasta raiz pode conter apenas as pastas alias@domainname. Não há suporte para arquivos soltos na pasta raiz.
 
    A estrutura de pastas para os dados que não são do Office 365 que você deseja carregar seria semelhante ao exemplo a seguir:
 

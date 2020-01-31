@@ -1,5 +1,7 @@
 ---
 title: Gerenciar governança de informações
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o controle de informações no Microsoft 365.
-ms.openlocfilehash: 372dff82b69de8004db70c398870ec5f2e8e9f5c
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: b592223d532a67964b595cb7d402a05d0197be59
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38684768"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585590"
 ---
 # <a name="manage-information-governance"></a>Gerenciar governança de informações
 

@@ -1,5 +1,7 @@
 ---
 title: Gerenciar conjuntos de análise na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 62b6c178c56d8701cdcb2478b8101252d75486be
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 95c45034204e04a0b7fe6e0be5a9b3315c821b6c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072769"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582730"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>Gerenciar conjuntos de análise na descoberta eletrônica avançada
 
@@ -49,8 +51,8 @@ Há três maneiras diferentes de adicionar dados a uma análise definida em uma 
 
 ![Três maneiras de adicionar a um conjunto de revisão](media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
 
-1. [Adicionar resultados de pesquisa a um conjunto de revisão](add-data-to-review-set.md)
+1. [Adicionar os resultados da pesquisa a um conjunto de revisão](add-data-to-review-set.md)
 
-2. [Carregar dados que não sejam do Office 365 em um conjunto de revisão](load-non-office365-data.md)
+2. [Carregar dados que não são do Office 365 em um conjunto de revisão](load-non-office365-data.md)
 
 3. [Adicionar dados a um conjunto de revisão de outro conjunto de revisão](add-data-to-review-set-from-another-review-set.md)

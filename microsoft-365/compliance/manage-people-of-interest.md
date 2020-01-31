@@ -1,5 +1,7 @@
 ---
 title: Gerenciar pessoas de interesse em investigações de dados (prévia)
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: e374509dccd235ef689609acc1c4f99db6594d4c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 44ee6715c8bbe1254cead6b11930ca41be8864a2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072775"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582880"
 ---
 # <a name="manage-people-of-interest-in-data-investigations-preview"></a>Gerenciar pessoas de interesse em investigações de dados (prévia)
 

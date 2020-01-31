@@ -1,5 +1,7 @@
 ---
 title: Limites avançados de descoberta eletrônica
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os limites em vigor para a solução de descoberta eletrônica avançada no Microsoft 365. Isso inclui limites de caso, limites de indexação e limites de pesquisa ao usar a ferramenta de pesquisa para coletar dados de caso.
-ms.openlocfilehash: 622d2669457a2a1e84909aadae9b653ca37684ce
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b3e5dd1d80a60249ccc24d1af20f5e78f94f8421
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072714"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585710"
 ---
-# <a name="limits-in-advanced-ediscovery"></a>Limites na descoberta eletrônica avançada
+# <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
 Este artigo descreve os limites da solução de descoberta eletrônica avançada no Microsoft 365.
 
@@ -32,7 +34,7 @@ A tabela a seguir lista os limites para casos na descoberta eletrônica avançad
 |Número total de documentos que podem ser adicionados a um caso (para todos os conjuntos de revisão em um caso).  <br/> |1 milhão  <br/> |
 |Tamanho total do arquivo por conjunto de carga.  <br/> |100 GB  <br/> |
 |Quantidade total de dados carregados em um caso por dia.<br/> |2 TB <br/> |
-|Número máximo de conjuntos de cargas por caso.  <br/> |15 <br/> |
+|Número máximo de conjuntos de cargas por caso.  <br/> |15  <br/> |
 |Número máximo de conjuntos de revisão por caso.  <br/> |508 <br/> |
 |||
 

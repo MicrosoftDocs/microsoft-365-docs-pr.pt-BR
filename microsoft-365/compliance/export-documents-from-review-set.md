@@ -1,5 +1,7 @@
 ---
 title: Exportar documentos de um conjunto de revisão
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: cf8b11fa82398ab8cfa3981064741d0dbf349f71
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0448082ce6dcbcd9d1cee52557a78b2d7913a034
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072633"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41588351"
 ---
 # <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 
