@@ -1,5 +1,7 @@
 ---
 title: Número de identificação do imposto da UE
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação de imposto da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: 0ee76fa46bb22b2754098d053ab769b862fdd3f2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5467db921bd518eeeab18a36ee2de473f9017358
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805844"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41591012"
 ---
 # <a name="eu-tax-identification-number"></a>Número de identificação do imposto da UE
 
@@ -108,7 +110,7 @@ steuernummer
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -296,7 +298,7 @@ Oito dígitos e uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -363,7 +365,7 @@ Nove ou dez dígitos com uma barra invertida opcional:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -636,7 +638,7 @@ Nove dígitos para entidades
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -758,7 +760,7 @@ Nove dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -909,7 +911,7 @@ Sete dígitos seguidos de uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -1124,7 +1126,7 @@ nodokļu identifikācija numurs
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -1272,7 +1274,7 @@ Entidades nacionais e Maltês não-maltês: 9 dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -1576,7 +1578,7 @@ número de identificação fiscal
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -1632,7 +1634,7 @@ numărul de identificare Fiscală
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 

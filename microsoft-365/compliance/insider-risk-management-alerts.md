@@ -5,17 +5,19 @@ keywords: Microsoft 365, risco de insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b0b3a510b213eafd36b1ab8203f7a3831f5cdf14
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 80c5bb701c7805f673280d24903935c2951046b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259899"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41590792"
 ---
 # <a name="insider-risk-management-alerts-preview"></a>Alertas de gerenciamento de risco do Insider (versão prévia)
 

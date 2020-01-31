@@ -5,17 +5,19 @@ keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de ris
 localization_priority: Normal
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e6fd3dd08ff5170a3b0e2afcd97ec788c2aebd93
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: d87531d7a664ca359f7cbe6c05f26f574c44f833
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259851"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41590672"
 ---
 # <a name="insider-risk-management-cases-preview"></a>Casos de gerenciamento de risco do Insider (versão prévia)
 
@@ -72,7 +74,7 @@ O painel de **detalhes de caso** está disponível em todas as guias de gerencia
 A guia **alertas** resume os alertas atuais incluídos no caso. Novos alertas podem ser adicionados a um caso existente e eles serão adicionados à fila de **alerta** à medida que forem atribuídos. Os seguintes atributos de alerta são listados na fila:
 
 - Status
-- Gravidade
+- Severity
 - Tempo detectado
 
 Selecione um alerta na fila para exibir a página **detalhes do alerta** .
@@ -80,7 +82,7 @@ Selecione um alerta na fila para exibir a página **detalhes do alerta** .
 Use o controle de pesquisa para pesquisar os nomes de alerta para texto específico e use o filtro de alerta para classificar casos pelos seguintes atributos:
 
 - Status
-- Gravidade
+- Severity
 - Hora da detecção, data de início e data de término
 
 ### <a name="user-activity"></a>Atividades do usuário

@@ -5,17 +5,19 @@ keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de ris
 localization_priority: Normal
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7e882b19b69380d2787c9b1784ad3dadce5c1ce9
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 161118bb8ff8a5c79ee507d329e20bad1421d8fd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515682"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41590612"
 ---
 # <a name="insider-risk-management-policies-preview"></a>Políticas de gerenciamento de risco do Insider (versão prévia)
 
