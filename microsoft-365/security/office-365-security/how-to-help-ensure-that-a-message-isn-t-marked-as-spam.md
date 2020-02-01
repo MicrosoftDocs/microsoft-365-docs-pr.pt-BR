@@ -1,5 +1,7 @@
 ---
 title: Como ajudar a garantir que uma mensagem não seja marcada como spam
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
 description: Como um administrador do Exchange Online ou do Exchange Online Protection (EOP), você pode ajudar a garantir que uma mensagem de email que viaja pelo serviço não seja marcada como spam. Consulte a versão atualizada das dicas e procedimentos para fazer isso em impedir emails falsos positivos marcados como spam com uma lista de segura ou outras técnicas.
-ms.openlocfilehash: d47c4c4dfdc9570ef12ce060c8b08969c6d43cec
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: cb84df8eddc8914c562118166294e8a8f4aac714
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238518"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599158"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Como ajudar a garantir que uma mensagem não seja marcada como spam
 

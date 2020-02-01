@@ -1,5 +1,7 @@
 ---
-title: Corrigir a percepção do domínio do remetente
+title: insight de correção de domínio do remetente
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,14 +11,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre a correção do domínio do remetente no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: bda6482b2c9264337db9e95f84ff41ce08582363
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 1b154f4aecd5ada711b9177380d936cd888df425
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306145"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598818"
 ---
-# <a name="fix-sender-domain-insight"></a>Corrigir a percepção do domínio do remetente
+# <a name="fix-sender-domain-insight"></a>insight de correção de domínio do remetente
 
 O Office 365 requer mensagens de envio de ambientes de email locais internos para o Office 365 para atender a determinados critérios de segurança:
 
@@ -32,7 +34,7 @@ O Office 365 requer mensagens de envio de ambientes de email locais internos par
 
 As mensagens que não atenderem aos critérios não serão atribuídas à organização e poderão ser rejeitadas.
 
-A **solução de correção de domínio do remetente** mostra emails do seu ambiente local que não atendem aos critérios, ajuda a identificar máquinas potencialmente comprometidas e contas de usuário em seu ambiente de email local e ajuda você a realizar ações de correção.
+A **solução corrigir domínio do remetente** mostra emails do seu ambiente local que não atendem aos critérios, ajuda você a identificar máquinas potencialmente comprometidas e contas de usuário em seu ambiente de email local e ajuda a realizar ações de correção.
 
 ![A correção do domínio do remetente se aprofunda no painel de fluxo de emails no centro de conformidade de & de segurança](../media/sender-domain-insight-selected.png)
 

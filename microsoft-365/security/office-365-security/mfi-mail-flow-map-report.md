@@ -1,5 +1,7 @@
 ---
 title: Relatório de mapa de fluxo de email
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: a72cfed9bca57a0f3cecd13d83a6c87f05d40a1a
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 266626b46e3e1db559178c66a716a5a8ce347986
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306135"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598888"
 ---
 # <a name="mail-flow-map-report"></a>Relatório de mapa de fluxo de email
 
@@ -28,7 +30,7 @@ Por padrão, o mapa de fluxo de emails mostra o padrão de fluxo de emails de al
 
 ![Setas para a esquerda e para a direita no widget mapa de fluxo de emails](../media/mail-flow-map-widget.png)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Clicar no widget **mapa de fluxo de emails** o levará para o relatório de **mapa de fluxo de emails** . Aqui você pode ver o nível mais granular do relatório, você pode clicar em Exibir tabela de detalhes para ver os dados detalhados. Você também pode baixar o relatório detalhado clicando em solicitação de relatório.
 

@@ -8,6 +8,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: lomayor
 author: lomayor
 ms.localizationpriority: medium
@@ -15,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 36f2efb733e8403b30e0ecc406bb1ea2d6a6248e
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 586b887c9c5c1e4c19623c89dd08ed62ba0d4bb2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210336"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600338"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 

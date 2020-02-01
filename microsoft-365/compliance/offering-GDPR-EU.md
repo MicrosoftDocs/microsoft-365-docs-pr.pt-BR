@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3380ee774388700fd8eca255a805b5595f1c9cda
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 7b6489f146da3268190a5c56fda6a73ea0e0d151
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959599"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602338"
 ---
 # <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral de Proteção de Dados (GDPR)
 
@@ -37,7 +39,7 @@ Descubra as melhores práticas do programa de privacidade e como a Microsoft abo
 
 ### <a name="abrona-prepares-for-gdpr-with-microsoft-365"></a>Abrona se prepara para o GDPR com o Microsoft 365
 
-Veja como a Abrona, organização holandesa de assistência médica, está usando as tecnologias da Microsoft, como o Gerenciador de Conformidade e a Proteção de Informações do Azure, para se preparar para o GDPR.
+Veja como a Abrona, organização holandesa de assistência médica, está usando as tecnologias da Microsoft, como a Pontuação de Conformidade e a Proteção de Informações do Azure, para se preparar para o GDPR.
 
 [Assista agora](https://go.microsoft.com/fwlink/p/?linkid=2048705)
 
@@ -64,9 +66,9 @@ Saiba como o INAIL, cliente da Microsoft, usa a Proteção de Informações do A
 
 [Saiba mais](offering-iso-27701.md)
 
-### <a name="compliance-manager"></a>Gerenciador de Conformidade
+### <a name="compliance-score"></a>Pontuação de Conformidade
 
-Use o [Gerenciador de Conformidade](https://go.microsoft.com/fwlink/p/?linkid=2048390) para ajudar a executar avaliações contínuas de riscos, obter insights acionáveis e simplificar seus processos de conformidade.
+Use a [Pontuação de Conformidade](compliance-score.md) para ajudar a executar avaliações contínuas de riscos, obter insights acionáveis e simplificar seus processos de conformidade.
 
 ### <a name="microsoft-365-compliance-center"></a>Centro de conformidade do Microsoft 365
 

@@ -1,5 +1,7 @@
 ---
 title: Atributos das políticas de barreira de informações
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use este artigo como referência para vários atributos que podem ser usados em políticas de barreira de informações.
-ms.openlocfilehash: 12acaa4fb8d6bcd6c660381b172703bd178af81f
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: ff7b6e22370c086f6b685fce4de8b61396017bf9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970779"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600618"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
@@ -87,7 +89,7 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
 |UserPrincipalName  |UserPrincipalName  |
-|Email   |WindowsEmailAddress    |
+|Correio   |WindowsEmailAddress    |
 |Descrição    |Descrição    |
 |Tattoo   |MemberOfGroup  |
 

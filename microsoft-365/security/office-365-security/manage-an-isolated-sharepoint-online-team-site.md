@@ -1,5 +1,7 @@
 ---
 title: Gerenciar um site de equipe do SharePoint Online isolado
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 'Resumo: Gerencie seu site de equipe do SharePoint Online isolado com estes procedimentos.'
-ms.openlocfilehash: 375ad078408b66e707e043976efd0a5cfb122be3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 59c86c869ed38c3e64ff19974660cf96ec4c715e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807976"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598998"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Gerenciar um site de equipe do SharePoint Online isolado
 
@@ -146,7 +148,7 @@ Em alguns casos, um subconjunto das pessoas que trabalham dentro do site isolado
   
 Para criar uma subpasta documentos com permissões personalizadas, faça o seguinte:
   
-1. Entre no Office 365 com uma conta que seja membro do grupo de acesso de administradores para o site. Para obter ajuda, confira [Como entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no Office 365 com uma conta que seja membro do grupo de acesso de administradores para o site. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Vá para o site de equipe isolado e clique em **documentos**.
     

@@ -1,5 +1,7 @@
 ---
 title: Proteção do Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Veja algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP.
-ms.openlocfilehash: ae08ff17a3ef25f0b0903d02ffe396cd201bd06c
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 9c027d6c1ded10becd7c73dc3468270ff50edb55
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970517"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599338"
 ---
 # <a name="exchange-online-protection"></a>Proteção do Exchange Online
 

@@ -1,5 +1,7 @@
 ---
 title: Workshop do diretor de segurança de informações (CISO)
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: 9a6fc72cd905a99b555417269aa9f7ec84faef1f
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 7377eb0bedf86e69618a82a05a7f048cc9b1cde7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012416"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599648"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>Treinamento de workshop do diretor de segurança de informações (CISO)
 

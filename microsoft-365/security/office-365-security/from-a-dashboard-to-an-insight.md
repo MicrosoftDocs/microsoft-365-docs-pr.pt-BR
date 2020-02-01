@@ -1,5 +1,7 @@
 ---
 title: Passo a passo – de um painel para um insight
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Saiba como você pode ir de um painel para uma visão com as ações recomendadas no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 01e012a8049fcb92e2799dba7c20e3614622fa43
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ceb00301ca8c58072f6f34b19c633a0d11565e77
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072471"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599298"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Passo a passo – de um painel para um insight
 

@@ -1,5 +1,7 @@
 ---
 title: Recursos de criptografia gerenciada pelo cliente do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -11,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Resumo: entenda a resiliência de dados no Microsoft Office 365.'
-ms.openlocfilehash: f96e87199b4f09ecce5c4c5b49212d4320b5ce8c
-ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+ms.openlocfilehash: 1a5618d14c0a88c7e3643e441b874b7ac97e07de
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690077"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601828"
 ---
 # <a name="customer-managed-encryption-features-in-office-365"></a>Recursos de criptografia gerenciada pelo cliente no Office 365
 

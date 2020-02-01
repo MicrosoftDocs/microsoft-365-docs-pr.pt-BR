@@ -5,6 +5,8 @@ keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central 
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -15,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 65497522907a4bfc8e2e3d55ccd3a82cde9b8bb7
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: aeae243b4e363f69729ccdbd2bc3fc465ec1449b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233882"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600168"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 

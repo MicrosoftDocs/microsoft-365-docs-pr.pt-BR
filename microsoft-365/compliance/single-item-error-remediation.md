@@ -1,5 +1,7 @@
 ---
 title: Correção de erros de item único
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Você pode corrigir um erro de processamento em um documento em um conjunto de análise de descoberta eletrônica avançada sem precisar seguir o processo de correção de erro em massa.
-ms.openlocfilehash: 922c0e4b0ab30bae6507fac7e97080a5951ea750
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: c049ce4b5d3f8fc12a015a61ea927b744ae76eb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38684874"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601488"
 ---
 # <a name="single-item-error-remediation"></a>Correção de erros de item único
 

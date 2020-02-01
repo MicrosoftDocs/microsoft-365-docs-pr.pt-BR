@@ -1,5 +1,7 @@
 ---
 title: Editar políticas de barreira de informações
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como editar ou remover políticas para barreiras de informação.
-ms.openlocfilehash: 20a1dd62fa80469a7a31db9b5541064ae16b4e02
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: ef534f49c92abf1500b72b0d490ab9f22a48a680
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971279"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600608"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Editar (ou remover) políticas de barreira de informações
 

@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a15b787904149073394bfc08a3ae8faf119d7ac8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 045f6c177acd3f5feb0645fb56d25426632638e7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804604"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602188"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>Normas de tráfego internacional em braços (ITAR)
 
@@ -40,7 +42,7 @@ Os clientes que procuram os dados do ITAR regulamentados devem funcionar com sua
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -55,7 +57,7 @@ Entre em contato com seu representante de conta da Microsoft.
 - [Usando o governo do Azure com dados controlados pelo ITAR](https://aka.ms/azure-itar-guide)
 - [Governo do Azure](https://azure.microsoft.com/features/gov/)
 - [Office 365 governo dos EUA](https://products.office.com/government/office-365-web-services-for-government)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

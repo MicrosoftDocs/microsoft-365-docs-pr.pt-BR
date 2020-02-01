@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da5fbef7ed9ceb136f276e2d6baab0c94bba3c22
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 3142ce35cdc55e32cf5f40042967ba60de789dcc
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959530"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601878"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considerações de segurança e privacidade da computação em nuvem governamental Nova Zelândia
 
@@ -39,7 +41,7 @@ Saiba como acelerar sua implantação do Microsoft CC Framework com nosso plano 
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
-- [Azure e Azure Government](https://aka.ms/AzureCompliance)
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
@@ -65,7 +67,7 @@ Se sua agência for necessária para realizar a certificação e a capacitação
 - [Computação em nuvem: considerações sobre segurança e privacidade de informações (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Office 365: arquitetura de referência e integração do SEEMail](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (diretrizes adicionais do NZ da Microsoft sobre a adoção do serviço de nuvem)
-- [Conformidade com o Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Respostas da Microsoft para "Cloud Computing IPSC"
 

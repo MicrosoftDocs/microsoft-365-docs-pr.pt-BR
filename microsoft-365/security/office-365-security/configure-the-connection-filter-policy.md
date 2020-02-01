@@ -1,5 +1,7 @@
 ---
 title: Configurar a política de filtro de conexão, lista de permissões, lista de bloqueios
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para garantir que os emails enviados de pessoas confiáveis não sejam bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões, também conhecida como lista de remetentes confiáveis, dos endereços IP nos quais você confia. Você também pode criar uma lista de remetentes bloqueados.
-ms.openlocfilehash: 70bd682fd9cb990f15314be3187e74f5fa4d562c
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: 06915527af68df6a858ca8ed97612ab40178be84
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238418"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599588"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Configurar a política do filtro de conexão
 

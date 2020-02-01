@@ -1,5 +1,7 @@
 ---
 title: Configurar um conector para importar dados de RH
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: ba673f6328751a7eee10d5ab4097aa334c09f339
-ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
+ms.openlocfilehash: a907594120ebb2a6ed49c2dde3a83262f6cf1a62
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "41247620"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600688"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -27,7 +29,7 @@ Você pode configurar um conector de dados no centro de conformidade da Microsof
 
 - O usuário que cria o conector de RH na etapa 3 deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um novo grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
-- Você precisará determinar como recuperar ou exportar os dados do sistema de RH da sua organização (em uma base regular) e adicionar o arquivo CSV descrito na etapa 2. O script executado na etapa 4 carregará os dados de RH no arquivo CSV para a nuvem da Microsoft.
+- Você precisará determinar como recuperar ou exportar os dados do sistema de RH da sua organização (regularmente) e adicioná-los ao arquivo CSV descrito na etapa 2. O script executado na etapa 4 carregará os dados de RH no arquivo CSV para a nuvem da Microsoft.
 
 - O script de exemplo executado na etapa 4 carregará os dados de RH na nuvem da Microsoft para que possam ser usados por outras ferramentas da Microsoft, como a solução de gerenciamento de risco do insider. Este script de exemplo não tem suporte em nenhum programa ou serviço de suporte padrão da Microsoft. O script de exemplo é fornecido como está sem garantia de qualquer tipo. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todo o risco resultante do uso ou do desempenho do script de exemplo e da documentação permanece com você. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
 
@@ -64,7 +66,7 @@ A tabela a seguir descreve cada coluna no arquivo CSV:
 |**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Você deve usar o seguinte formato de data `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`:, que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 |||
 
-Depois de criar o arquivo CSV com os dados de RH necessários, armazene-o em um computador local ou em um local de rede que possa ser especificado quando você executar o script na etapa 4. Você também deve implementar uma estratégia de atualização para que o arquivo CSV sempre contenha as informações mais atuais, de forma que seja o que você executar o script, os dados de encerramento de funcionários mais atuais serão carregados para a nuvem da Microsoft.
+Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no computador local em que você executa o script na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados mais atuais de encerramento do funcionário serão carregados para a nuvem da Microsoft.
 
 ## <a name="step-3-create-the-hr-connector"></a>Etapa 3: criar o conector de RH
 
@@ -104,7 +106,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 ## <a name="step-4-run-the-sample-script-to-upload-your-hr-data"></a>Etapa 4: executar o script de exemplo para carregar seus dados de RH
 
-A última etapa na configuração de um conector de RH é executar um script de exemplo que irá carregar os dados de RH no arquivo CSV (que você criou na etapa 2) para a nuvem da Microsoft. Após executar o script, o conector de RH que você criou na etapa 3 pode acessar e importar os dados para a sua organização do Microsoft 365, onde pode ser acessado por outras ferramentas de conformidade, como a solução de gerenciamento de risco do insider. Depois de executar o script, considere agendar uma tarefa para executá-la automaticamente, de modo que os dados de encerramento de funcionários mais atuais sejam carregados para a nuvem da Microsoft. Confira [agendar o script para ser executado automaticamente](#optional-step-6-schedule-the-script-to-run-automatically).
+A última etapa na configuração de um conector de RH é executar um script de exemplo que irá carregar os dados de RH no arquivo CSV (que você criou na etapa 2) para a nuvem da Microsoft. Especificamente, o script carrega os dados para o conector de RH. Depois de executar o script, o conector de RH que você criou na etapa 3 importa os dados de RH para a sua organização do Microsoft 365, onde pode ser acessado por outras ferramentas de conformidade, como a solução de gerenciamento de risco do insider. Depois de executar o script, considere agendar uma tarefa para executá-la automaticamente, de modo que os dados de encerramento de funcionários mais atuais sejam carregados para a nuvem da Microsoft. Confira [agendar o script para ser executado automaticamente](#optional-step-6-schedule-the-script-to-run-automatically).
 
 1. Vá para [este site do GitHub](https://github.com/microsoft/m365-hrconnector-sample-scripts/blob/master/upload_termination_records.ps1) para acessar o script de exemplo.
 
@@ -132,7 +134,7 @@ A última etapa na configuração de um conector de RH é executar um script de 
    |`appId` |Esta é a ID do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. | 
    |`appSecret`|Este é o segredo do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
    |`jobId`|Esta é a ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
-   |`csvFilePath`|Este é o caminho do arquivo no computador local (aquele que você está usando para executar o script) para o arquivo CSV que você criou na etapa 2. Se o arquivo CSV estiver localizado em um local de rede compartilhado, você terá que especificar o caminho completo do arquivo para esse local. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
+   |`csvFilePath`|Este é o caminho do arquivo no computador local (aquele que você está usando para executar o script) para o arquivo CSV que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
    |||
    
    Veja um exemplo da sintaxe do script do conector de RH usando valores reais para cada parâmetro:

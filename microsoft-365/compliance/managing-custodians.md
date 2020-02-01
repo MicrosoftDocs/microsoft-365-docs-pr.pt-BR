@@ -1,5 +1,7 @@
 ---
 title: Trabalhar com os responsáveis na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A ferramenta de gerenciamento de responsáveis em descoberta eletrônica avançada permite que você gerencie o fluxo de trabalho em torno da identificação, preservação e coleta de dados associados às pessoas de interesse em um caso jurídico.
-ms.openlocfilehash: 5f112b5229e2a13b329559786ffe82bce798fa72
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fd796471ae4caeafbabc7b588dcf03b8cad80bc4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072772"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600488"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Trabalhar com os responsáveis na descoberta eletrônica avançada
 

@@ -3,6 +3,8 @@ title: Critérios de saída da infraestrutura de gerenciamento de dispositivo m�
 description: O Microsoft 365 Enterprise inclui gerenciamento de dispositivos móveis usando o Microsoft Intune. Revise os requisitos e pré-requisitos, configure o Intune usando seu recurso do Azure Active Directory, registre os dispositivos iOS, macOS, Android e Windows, implante aplicativos, crie um perfil de configuração, use uma política de conformidade e habilite o acesso condicional para dispositivos móveis gerenciamento de dispositivos com o Microsoft 365 Enterprise.
 keywords: Microsoft 365, Microsoft 365 Enterprise, documentação do Microsoft 365, gerenciamento de dispositivos móveis, Intune
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/03/2019
@@ -13,16 +15,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: e8f8f53224b334f92142e2c03ed05eaa9e38787a
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: daf7bcf6525f30b7b52065e4f6bf2ff335f4ea4b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37385718"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600878"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de gerenciamento de dispositivo móvel
 
-![Fase 5: gerenciamento de dispositivos móveis](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
+![Fase 5: gerenciamento de dispositivo móvel](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
 
 *Isso se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
@@ -40,4 +42,4 @@ Seus dispositivos estão registrados no Intune e configurados com as políticas 
 
 |||
 |:-------|:-----|
-|![Fase 6: Proteção de Informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Se você estiver seguindo as fases da implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será a [proteção de informações](infoprotect-infrastructure.md). |
+|![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Se você estiver seguindo as fases da implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será a [proteção de informações](infoprotect-infrastructure.md). |

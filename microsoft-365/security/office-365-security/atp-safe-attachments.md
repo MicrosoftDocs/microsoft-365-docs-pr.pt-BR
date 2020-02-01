@@ -1,5 +1,7 @@
 ---
 title: Anexos seguros de ATP do Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: O recurso de anexos seguros oferece verificação de horário de clique de anexos de email. Use anexos seguros para proteger sua organização contra arquivos mal-intencionados enviados ou recebidos por email.
-ms.openlocfilehash: 7f646895ec7345b96fb35ac1119788b14badc87d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c95287b3dd05cce28bad6761ca7e69ce9cc2f914
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971919"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599808"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Anexos seguros de ATP do Office 365
 

@@ -1,5 +1,7 @@
 ---
 title: Detalhes de referências técnicas sobre a criptografia no Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Veja detalhes técnicos sobre o encyption no Office 365.
-ms.openlocfilehash: b21409007b82490730aa48f403c30e542ead0316
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a1eaa10f35a70688bc26967b7344cd90b2ad8343
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684817"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601388"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Detalhes de referências técnicas sobre a criptografia no Office 365
 

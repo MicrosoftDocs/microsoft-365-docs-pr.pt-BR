@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d6b7c754db3b43e909871a5a60fa1ab155f2d01d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 46904323a1ec8f969355931f8b69a3ed0ebf4519
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806950"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600208"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Gerenciar incidentes na Proteção contra Ameaças da Microsoft
 

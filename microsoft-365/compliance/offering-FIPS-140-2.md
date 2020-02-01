@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c87618648c4b34553312a91d5633164fee316e52
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 700c5c9892d5cd04f3f56bf1f3d498cf5d2467af
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804994"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602388"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Publicação 140-2 do FIPS (Federal Information Processing Standard)
 
@@ -84,7 +86,7 @@ Estes são dois padrões de segurança separados com finalidades diferentes, mas
 - [Requisitos de segurança do FIPS pub 140-2 para módulos de criptografia](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [Programa de validação do módulo de criptografia do NIST](https://csrc.nist.gov/groups/STM/cmvp/index.html)
 - [Windows, Windows Server e FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

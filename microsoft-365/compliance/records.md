@@ -1,5 +1,7 @@
 ---
 title: Visão geral de registros
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: eb8abbb44629261065a9e368814ddeb8296ac0c8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 36482ea4a6bb9fb932d72b76dff5f0647d467a9b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803828"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601678"
 ---
 # <a name="overview-of-records"></a>Visão geral de registros
 
@@ -78,6 +80,10 @@ Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de r
 
 3. [Publicar](labels.md#how-retention-labels-work-with-retention-label-policies) ou [aplicar automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) o rótulo de retenção aos sites do SharePoint e/ou contas do OneDrive.
 
+> [!NOTE]
+> Declarar um item como um registro usando [rótulos de retenção](labels.md) requer uma licença do Office 365 Enterprise E5 ou equivalente para cada usuário que tenha permissões para editar o conteúdo nesse local. Os usuários que têm acesso somente leitura não precisam de uma licença.
+
+
 ### <a name="applying-a-retention-label-to-content"></a>Aplicando um rótulo de retenção ao conteúdo
 
 Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio pode aplicar um rótulo de registro a uma mensagem de email. Para conteúdo no SharePoint e OneDrive, qualquer usuário no grupo Membros padrão (o nível de permissão da Contribuição) poderá aplicar um rótulo de registro ao conteúdo. Somente um administrador do conjunto de sites pode alterar ou remover esse rótulo de registro depois de aplicado. Como explicado anteriormente, um rótulo de retenção que classifica o conteúdo como um registro pode ser aplicado automaticamente ao conteúdo.
@@ -105,7 +111,7 @@ O controle de versão do registro está disponível automaticamente para qualque
 ![Propriedade do status do registro no documento marcado como um registro](media/recordversioning8.png)
 
 > [!NOTE]
-> O controle de versão do registro requer uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissão para editar o conteúdo que foi declarado como um registro em um site do SharePoint ou em uma conta do OneDrive. Os usuários que têm acesso somente leitura não precisam de uma licença.
+> O controle de versão do registro requer uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissão para editar o conteúdo que foi declarado como um registro em um site do SharePoint ou em uma conta do OneDrive. Os usuários que têm acesso somente leitura não precisam desta licença.
 
 ### <a name="locking-and-unlocking-a-record"></a>Bloqueando e desbloqueando um registro
 

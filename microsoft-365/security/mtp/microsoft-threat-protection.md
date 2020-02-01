@@ -8,6 +8,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -15,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a47ffecbf0ef1ac7dcfeef9d8cbe4e104de9ca2d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 031fc4164307d9fa8c78f02c775b230f7eff5383
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808576"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600178"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 

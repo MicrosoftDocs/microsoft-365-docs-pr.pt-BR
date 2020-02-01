@@ -1,5 +1,7 @@
 ---
 title: Leitores de PDF compatíveis com o SharePoint que dão suporte aos serviços de gerenciamento de direitos de informação da Microsoft
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: dd197d58-5bf6-4d18-b9f8-d16db603fae2
 description: O Microsoft SharePoint 2013 oferece suporte à proteção de documentos PDF de gerenciamento de direitos de informação (IRM). Com esse suporte, os usuários podem carregar documentos PDF para bibliotecas protegidas por IRM e, após o download, os arquivos serão protegidos usando o Microsoft Office IRM.
-ms.openlocfilehash: ba65f78198ba9e973253d6dd97c1ab3ac02d2b9c
-ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+ms.openlocfilehash: 52089e44d41d9fd2562780deb0848a3a1a5705cd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38684853"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601438"
 ---
 # <a name="sharepoint-compatible-pdf-readers-that-support-microsoft-information-rights-management-services"></a>Leitores de PDF compatíveis com o SharePoint que dão suporte aos serviços de gerenciamento de direitos de informação da Microsoft
 
@@ -35,8 +37,8 @@ Para usar arquivos PDF em bibliotecas que o proprietário tenha protegido com o 
 |Windows 8.1  <br/> |Aplicativo de proteção de informações do Azure  <br/> Leitor Foxit  <br/> NitroPDF  <br/> |[Baixar o aplicativo de proteção de informações do Azure](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [Baixar o leitor do Foxit](https://go.microsoft.com/fwlink/?linkid=253210) <br/> [Baixar NitroPDF](https://www.gonitro.com/pdf-reader) <br/> |
 |Windows 10  <br/> |Aplicativo de proteção de informações do Azure  <br/> Leitor Foxit  <br/> NitroPDF  <br/> |[Baixar o aplicativo de proteção de informações do Azure](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [Baixar o leitor do Foxit](https://go.microsoft.com/fwlink/?linkid=253210) <br/> [Baixar NitroPDF](https://www.gonitro.com/pdf-reader) <br/> |
 |Android  <br/> |Aplicativo de proteção de informações do Azure  <br/> Foxit MobilePDF com RMS  <br/> |[Baixar o aplicativo de proteção de informações do Azure](https://go.microsoft.com/fwlink/?linkid=836827) <br/> [Comprar Foxit MobilePDF](https://play.google.com/store/apps/details?id=com.foxit.mobile.pdf.lite) <br/> |
-|Windows Phone  <br/> |N/D  <br/> |N/D  <br/> |
-|MacOS  <br/> |N/D  <br/> |N/D  <br/> |
+|Windows Phone  <br/> |Não disponível  <br/> |Não disponível  <br/> |
+|MacOS  <br/> |Não disponível  <br/> |Não disponível  <br/> |
 |EMITI  <br/> |Aplicativo de proteção de informações do Azure  <br/> Foxit MobilePDF com RMS  <br/> |[Baixar o aplicativo de proteção de informações do Azure](https://go.microsoft.com/fwlink/?linkid=836828) <br/> [Comprar Foxit MobilePDF](https://play.google.com/store/apps/details?id=com.foxit.mobile.pdf.lite) <br/> |
    
 

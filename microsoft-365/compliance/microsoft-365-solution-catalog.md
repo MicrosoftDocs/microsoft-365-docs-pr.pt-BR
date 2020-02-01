@@ -1,5 +1,7 @@
 ---
 title: Visão geral do catálogo de soluções do Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -9,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 54f66932f16e094b2ed970596c35e4754763aafc
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 57591d385ce05454151b9ed28c5d764096d9e95b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260070"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602738"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Visão geral do catálogo de soluções do Microsoft 365 (versão prévia)
 

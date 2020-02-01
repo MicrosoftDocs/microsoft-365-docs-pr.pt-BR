@@ -1,5 +1,7 @@
 ---
 title: Passo a passo – de um insight para um relatório detalhado
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
 ms.collection:
 - M365-security-compliance
 description: Veja como você pode mudar de uma visão detalhada para um relatório detalhado no centro &amp; de conformidade de segurança por meio de um exemplo de prevenção de perda de dados.
-ms.openlocfilehash: f6d080882686329bf3165e5f4cff94cb23b83f38
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 80ef8622abbf35304a9d61ff8730b12a2a6e09e1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072460"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599268"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>Passo a passo – de um insight para um relatório detalhado
 

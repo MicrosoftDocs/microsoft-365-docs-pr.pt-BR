@@ -1,5 +1,7 @@
 ---
 title: Insight de loop de email
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 description: Os administradores podem aprender sobre as informações de loop de email no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 58a843f20723fce8b19f9381a9e99b622c68cb45
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ca1c877bcfee686baf0f81edd58e20c87ffd7540
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073686"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598868"
 ---
 # <a name="mail-loop-insight"></a>Insight de loop de email
 

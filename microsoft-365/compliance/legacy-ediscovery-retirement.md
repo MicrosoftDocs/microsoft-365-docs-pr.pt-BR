@@ -1,5 +1,7 @@
 ---
 title: Aposentadoria de ferramentas de descoberta eletrônica herdadas
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,18 +12,18 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: 08f568a82096efb143ff5c9fd87011a3d3029e42
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 0ce85a1c73de38f0032f3e667add77a424d5486e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210056"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600558"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
 Nos anos, a Microsoft forneceu ferramentas de descoberta eletrônica que permitem pesquisar, Visualizar e exportar conteúdo de email do Exchange Online. No entanto, essas ferramentas não oferecem mais uma maneira eficaz de pesquisar conteúdo não-Exchange em outros serviços do Office 365, como o SharePoint Online e os grupos do Office 365. Para resolver isso, a Microsoft oferece outras ferramentas de descoberta eletrônica que ajudam você a pesquisar uma ampla variedade de conteúdo do Office 365. E trabalhamos muito para incorporar as funcionalidades mais atuais e poderosas de eDiscovery no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com). Isso permite que as organizações respondam a solicitações de documentos legais, internas e de outros serviços do Office 365, incluindo o Exchange Online.
 
-Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica no centro de conformidade da Microsoft 365, estamos desativando os seguintes recursos e funcionalidades relacionados à descoberta eletrônica relacionados à pesquisa de conteúdo de email:
+Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica no centro de conformidade da Microsoft 365, estamos desativando os seguintes recursos e funcionalidades relacionados à descoberta eletrônica relacionados à pesquisa de conteúdo de email no Exchange Online e no Office 365:
 
 - [Descoberta eletrônica in-loco](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) e [bloqueios in-loco](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) no centro de administração do Exchange.
 

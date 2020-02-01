@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET15
-ms.openlocfilehash: 435d46469c33f7fec1e591898ab0d46db1dbab94
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 7ad87bc8ce72175555864e314f3155b362748979
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808596"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600038"
 ---
 # <a name="microsoft-365-security-preview-features"></a>Versões experimentais ou prévias de recursos de Segurança do Microsoft 365
 

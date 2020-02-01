@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdaf19b59960745e32e00b6833cea5edfd6258a5
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 97f769b763b5698dd664dee4ae8659999a62b078
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805398"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602608"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 

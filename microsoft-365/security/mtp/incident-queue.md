@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1095b69f5e8fc4f69d1bdf3f6e68b99cbcdd9afa
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5ad616deb8717772a68b01147ed858f8e7f6ed7b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808636"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600248"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Priorizar Incidentes na Proteção contra Ameaças da Microsoft
 

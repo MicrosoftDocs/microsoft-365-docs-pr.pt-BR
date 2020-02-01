@@ -1,5 +1,7 @@
 ---
 title: Configurar permissões de filtragem para a Pesquisa de Conteúdo
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Use a filtragem de permissões de pesquisa de conteúdo para permitir que um gerente de descoberta eletrônica pesquise somente um subconjunto de caixas de correio e sites em sua organização do Office 365.
-ms.openlocfilehash: 97f01a7d0c91359251b4af2a26fe9c48aab7122e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 670dd2e5d0c88c520234cd7e71805cfa97ad9ec9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685013"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601758"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Configurar permissões de filtragem para a Pesquisa de Conteúdo
 
@@ -42,7 +44,7 @@ A filtragem de permissões de pesquisa é suportada pelo recurso de pesquisa de 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função gerenciamento da organização no centro de conformidade do & de segurança. Para obter mais informações, consulte [permissões no centro de conformidade de & de segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
+- Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função gerenciamento da organização no centro de conformidade do & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
     
 - Você precisa conectar o Windows PowerShell ao centro de conformidade & segurança e à sua organização do Exchange Online para usar os cmdlets de filtro de segurança de conformidade. Isso é necessário porque esses cmdlets exigem acesso às propriedades da caixa de correio, que é o motivo pelo qual você precisa se conectar ao Exchange Online. Veja as etapas na próxima seção. 
     
@@ -96,7 +98,7 @@ Caso você receba erros, verifique os seguintes requisitos:
 
 O **New-ComplianceSecurityFilter** é usado para criar um filtro de permissões de pesquisa. A tabela a seguir descreve os parâmetros para esse cmdlet. Todos os parâmetros são necessários para criar um filtro de segurança de conformidade. 
   
-|**Parâmetro**|**Description**|
+|**Parâmetro**|**Descrição**|
 |:-----|:-----|
 | _Action_ <br/> | O parâmetro _Action_ especifica o tipo de ação de pesquisa à qual o filtro é aplicado. As ações de pesquisa de conteúdo possíveis são:  <br/><br/> **Exportar:** O filtro é aplicado ao exportar os resultados da pesquisa.  <br/> **Visualização:** O filtro é aplicado durante a visualização dos resultados da pesquisa.  <br/> **Limpeza:** O filtro é aplicado ao limpar os resultados da pesquisa.  <br/> **Pesquisa:** O filtro é aplicado ao executar uma pesquisa.  <br/> **All:** O filtro é aplicado a todas as ações de pesquisa.  <br/> |
 | _FilterName_ <br/> |O parâmetro _FilterName_ especifica o nome do filtro de permissões. Esse nome é usado para identificar um filtro ao usar os cmdlets **Get-ComplianceSecurityFilter**, **Set-ComplianceSecurityFilter,** e **Remove-ComplianceSecurityFilter**.  <br/> |
@@ -220,7 +222,7 @@ O **Get-ComplianceSecurityFilter** é usado para retornar uma lista de filtros d
 
 O **set-ComplianceSecurityFilter** é usado para modificar um filtro de permissões de pesquisa existente. O único parâmetro Required é _FilterName_. 
   
-|**Parâmetro**|**Description**|
+|**Parâmetro**|**Descrição**|
 |:-----|:-----|
 | _Action_| O parâmetro _Action_ especifica o tipo de ação de pesquisa à qual o filtro é aplicado. As ações de pesquisa de conteúdo possíveis são: <br/><br/> **Exportar:** O filtro é aplicado ao exportar os resultados da pesquisa.  <br/> **Visualização:** O filtro é aplicado durante a visualização dos resultados da pesquisa.  <br/> **Limpeza:** O filtro é aplicado ao limpar os resultados da pesquisa.  <br/> **Pesquisa:** O filtro é aplicado ao executar uma pesquisa.  <br/> **All:** O filtro é aplicado a todas as ações de pesquisa.  <br/> |
 | _FilterName_|O parâmetro _FilterName_ especifica o nome do filtro de permissões. |

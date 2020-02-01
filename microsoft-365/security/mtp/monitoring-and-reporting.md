@@ -5,6 +5,8 @@ keywords: segurança, malware, Microsoft 365, M365, central de segurança, monit
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -12,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 5b2dee5916a793221e8030dd41c8c0ba33ea7a0d
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 44fceb38d03895573799fd8258ec18731ff5e50c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910128"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600098"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Monitorar e exibir relatórios no centro de segurança do Microsoft 365
 

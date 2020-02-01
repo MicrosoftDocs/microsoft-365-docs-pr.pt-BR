@@ -1,5 +1,7 @@
 ---
 title: Alertas de filas e filas
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender sobre alertas de fila e filas no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 66bd4116cfb84d15bbecafa269fcc2c7a88789d8
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: 1f3fb139890cbfc6705c3c3c65670b61727fadb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290541"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598848"
 ---
 # <a name="queue-alerts-and-queues"></a>Alertas de filas e filas
 

@@ -1,5 +1,7 @@
 ---
 title: Combater lixo eletrônico enviado ao Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia de filtragem antispam e antispam do Exchange Online Protection (EOP) está sendo aplicada nas plataformas de email da Microsoft para fornecer aos usuários as ferramentas e inovações mais recentes antispam e anti-phishing em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
-ms.openlocfilehash: 7c1b74d2ddb98d1250f80455163c5f0b8690b0de
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 888df6224007471db46b669ac4ffe33983057115
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032366"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599318"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Combater lixo eletrônico enviado ao Office 365
 

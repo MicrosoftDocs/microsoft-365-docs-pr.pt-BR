@@ -1,5 +1,7 @@
 ---
 title: Modos de Exibição de Campanhas no Office 365 ATP
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 2d43b73a613ad6399a151a6bda39f236c7c913e8
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 65ae346fc4ffdcc502c7f479d7d92753cdb5b5bc
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962756"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599758"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
 

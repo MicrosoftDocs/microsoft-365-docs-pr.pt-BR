@@ -1,5 +1,7 @@
 ---
 title: Recursos de proteção na proteção de informações do Azure distribuir para os locatários existentes do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: Para ajudar na etapa inicial de proteger suas informações, Iniciando em julho de 2018 todos os locatários qualificados de proteção de informações do Azure terão os recursos de proteção da proteção de informações do Azure ativados por padrão. Os recursos de proteção na proteção de informações do Azure eram conhecidos anteriormente no Office 365 como o gerenciamento de direitos ou o Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço mais alto, você agora terá uma partida para proteger as informações por meio da proteção de informações do Azure quando esses recursos forem distribuídos.
-ms.openlocfilehash: 760cce8d9089df5ef4cd05285af171d83b1cb9a1
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 6ff4ecb4dc9b0e2b0a4e8dd7a2d9573326afc6a8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871957"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599768"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Recursos de proteção na proteção de informações do Azure distribuir para os locatários existentes do Office 365
 

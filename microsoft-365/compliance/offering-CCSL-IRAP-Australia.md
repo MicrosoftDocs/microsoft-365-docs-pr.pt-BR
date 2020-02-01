@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4be943b83d1b2286a01731de87dd2b0af34cb322
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3cbc0008841456e91dd2ffe6a9e5c78fba0ba43d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805474"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602668"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Consultor programa de segurança de informações governamentais da Austrália (IRAP)
 
@@ -90,4 +92,4 @@ Comece com o [que é IRAP?](https://www.cyber.gov.au/irap/what-irap) e siga-o co
 - [Página da Austrália do Microsoft Service Trust Portal (STP)](https://aka.ms/au-irap)
 - [Guias de segurança e gateway da Austrália](https://docs.microsoft.com/azure/azure-australia)
 - [Serviços de nuvem certificados pela ASD](https://acsc.gov.au/infosec/irap/certified_clouds.htm)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

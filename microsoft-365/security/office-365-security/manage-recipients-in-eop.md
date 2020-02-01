@@ -1,5 +1,7 @@
 ---
 title: Gerenciar destinatários no EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 description: O Microsoft Proteção do Exchange Online (EOP) oferece várias maneiras de gerenciar seus destinatários de email. Como administrador, você pode executar determinadas tarefas de gerenciamento no centro de administração do Exchange (Eat) ou usar o Windows PowerShell remoto e verificar outras tarefas de gerenciamento executadas no centro de administração do Microsoft 365.
-ms.openlocfilehash: f1bac7d19b52d175589f63216b49ce3b0985307c
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: dc79299088beb23f856f0aa385fe7bd34c3e5709
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441468"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598948"
 ---
 # <a name="manage-recipients-in-eop"></a>Gerenciar destinatários no EOP
 

@@ -1,5 +1,7 @@
 ---
 title: Garantia de serviço no centro de conformidade & segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Baixe as auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e saiba como você pode estar em conformidade com ISO, HIPAA, FINRA e FedRAMP ao usar o Office 365.
-ms.openlocfilehash: e346b84d17c2ca95b6a51ff870b18d5ff408b87c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f883f625e872076146e75c01bde26d40f7e1a4d3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073761"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601518"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Garantia de serviço no centro de conformidade & segurança
 
@@ -47,9 +49,9 @@ Você também pode descobrir como o Office 365 pode ajudar os clientes a cumprir
  **Os membros de assinatura do O365** podem acessar a seção de garantia de serviço no centro de proteção do Office365 por padrão se o acesso baseado em funções de garantia de serviço não tiver sido implementado em sua assinatura. O serviço Assurance fornece relatórios e documentos que descrevem as práticas de segurança da Microsoft para dados do cliente armazenados no Office 365. Ele também fornece relatórios de auditoria de terceiros independentes no Office 365. 
   
 > [!NOTE]
-> Observação: se sua empresa tiver implementado o acesso baseado em funções de garantia de serviço em sua assinatura do Office 365 (que pode ser que sua organização tenha recebido acesso a relatórios personalizados), e você precisa acessar a garantia de serviço, mas não está incluído à esquerda painel do centro de conformidade & segurança, peça ao administrador do Office 365 para adicioná-lo ao grupo de funções de usuário de garantia de serviço na página **permissões** . Para obter mais informações, consulte integração de outros usuários ou grupos do serviço Assurance. 
+> Observação: se sua empresa tiver implementado o acesso baseado em funções de garantia de serviço em sua assinatura do Office 365 (que pode ser que sua organização tenha recebido acesso a relatórios personalizados), e você precisar acessar a garantia de serviço, mas não estiver incluído no painel esquerdo do centro de conformidade & conformidade, peça ao administrador do Office 365 para adicioná-lo ao grupo de funções de **usuário do serviço** Para obter mais informações, consulte integração de outros usuários ou grupos do serviço Assurance. 
   
- **Usuários provisionados pelo acesso baseado em funções de garantia de serviço** Se sua empresa tiver implementado o acesso baseado em funções de garantia de serviço, você poderá fornecer acesso de garantia de serviço a todos os profissionais de segurança e conformidade, incluindo segurança de informações, gerenciamento de riscos, conformidade e equipes de auditoria e pessoal no seu departamento. Para obter detalhes, consulte [onboard outros usuários ou grupos de garantia de serviço](service-assurance.md#addother).
+ **Usuários provisionados pelo acesso baseado em funções de garantia de serviço** Se sua empresa tiver implementado acesso baseado em funções de garantia de serviço, você poderá fornecer acesso de garantia de serviço a todos os funcionários de segurança e conformidade, incluindo segurança de informações, gerenciamento de riscos, conformidade e equipes de auditoria e pessoal em sua organização. Para obter detalhes, consulte [onboard outros usuários ou grupos de garantia de serviço](service-assurance.md#addother).
   
 A garantia de serviço pode ser acessada usando o centro de conformidade de & de segurança. Confira aqui como chegar lá.
   
@@ -120,7 +122,7 @@ Para acessar relatórios padrão que geralmente estão disponíveis em todas as 
     
     ![Usuário de garantia de serviço-adicionar](media/c8b1978e-9b6e-4200-860a-a1704f8e2355.png)
   
-3. Na próxima caixa de diálogo, procure e escolha pessoas ou grupos que precisam exibir relatórios de conformidade de garantia de serviço e recursos de confiança e, em seguida, selecione **Adicionar** para cada seleção feita e clique no **X** no canto superior direito do painel quando Você terminou. 
+3. Na próxima caixa de diálogo, procure e escolha pessoas ou grupos que precisam exibir relatórios de conformidade de garantia de serviço e recursos de confiança e, em seguida, selecione **Adicionar** para cada seleção que você fizer e clique no **X** no canto superior direito do painel quando terminar. 
     
     ![Usuário de garantia de serviço-escolha usuário](media/33f13ef6-1e10-4d49-af06-8e1ad5ffbfba.png)
   

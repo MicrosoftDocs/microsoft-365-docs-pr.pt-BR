@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 ms.localizationpriority: medium
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 9459b1b8ff431624045c5b57ade531288d41866e
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: da7216aa94455a4b431e540b976f8a1662378a58
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260179"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600068"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Investigação e resposta automatizadas (AIR) na Proteção contra Ameaças da Microsoft
 

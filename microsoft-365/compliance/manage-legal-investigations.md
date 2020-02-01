@@ -1,5 +1,7 @@
 ---
 title: Gerenciar investigações legais no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Use casos de descoberta eletrônica no centro de conformidade & segurança no Office 365 para gerenciar a investigação legal da sua organização. Se você tiver uma assinatura e5, poderá analisar mais dados de caso usando a análise de texto, aprendizado de máquinas e recursos de codificação de descoberta eletrônica avançada.
-ms.openlocfilehash: ce476c93e9c33d949c5615f872b8399a97420bba
-ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
+ms.openlocfilehash: f3d51fbd0df6d4bf4c88f5efef53a3c7f11e190c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "38684715"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600528"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Gerenciar investigações legais no Office 365
 
@@ -52,7 +54,7 @@ A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos r
 
 A descoberta eletrônica avançada requer uma assinatura E5 para sua organização do Office 365 ou do Microsoft 365. Como alternativa, os usuários com uma licença E3 exigem a assinatura de complemento de conformidade avançada para que você possa gerenciá-los como responsáveis em um caso de descoberta eletrônica avançada.
 
-Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrônica avançada. Para obter mais informações, consulte [visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
+Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrônica avançada. Para obter mais informações, confira [Visão geral da solução de Descoberta Eletrônica Avançada no Microsoft 365](overview-ediscovery-20.md).
 
 - [Criar uma ocorrência](create-new-ediscovery-case.md) para começar
 

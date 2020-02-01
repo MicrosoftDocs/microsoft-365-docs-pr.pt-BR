@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 26276567ec2a7f5bf7594ffdf91e7ead21135e17
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 8f0627a26446e681c99f51dda33d87729a5e960c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804314"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602048"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reservar o banco da Índia (RBI) e autoridade de desenvolvimento e regulamentação de seguros da Índia (IRDAi)
 
@@ -41,7 +43,7 @@ Quando as instituições financeiras indianas terceirizam as atividades de negó
 
 A lista de verificação da Microsoft ajuda as empresas financeiras na Índia que estão conduzindo avaliações de auditoria detalhada dos serviços de nuvem do Microsoft Business e incluem:
 
-- Visão geral do panorama normativo para o contexto.
+- Uma visão geral do panorama normativo para o contexto.
 - Uma lista de verificação que define os problemas a serem endereçados e mapeia os serviços do Microsoft Azure, Microsoft Dynamics 365 e Microsoft Office 365 contra essas obrigações regulamentares. A lista de verificação pode ser usada como uma ferramenta para medir a conformidade em relação a uma estrutura regulatória, fornecer uma estrutura interna para a documentação de conformidade e ajudar os clientes a realizar suas próprias avaliações de risco dos serviços de nuvem de negócios da Microsoft.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft

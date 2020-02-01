@@ -1,5 +1,7 @@
 ---
 title: Relatório de domínio não aceito
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 6d256eb99a573b3dc9a6e1bcd14bffdd0800081c
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 7872f454f10c8f8b7bb2f79fd62671e200463f7b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306165"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599208"
 ---
 # <a name="non-accepted-domain-report"></a>Relatório de domínio não aceito
 

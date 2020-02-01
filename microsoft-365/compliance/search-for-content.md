@@ -1,5 +1,7 @@
 ---
 title: Pesquisar conteúdo no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Use a ferramenta descoberta eletrônica de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e locais do OneDrive e conversas de mensagens instantâneas no Skype for Business.
-ms.openlocfilehash: 9978262223de059511a011358764069ef23d4340
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073395"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601538"
 ---
 # <a name="search-for-content-in-office-365"></a>Pesquisar conteúdo no Office 365
 
@@ -77,7 +79,7 @@ A pesquisa de conteúdo é fácil de usar, mas também é uma poderosa ferrament
 
 Às vezes, você precisa executar tarefas de pesquisa de conteúdo mais avançadas, complexas e repetitivas. Nesses casos, é mais fácil e rápido usar os comandos do PowerShell no centro de conformidade do & de segurança. Para ajudá-lo a simplificar isso, criamos vários scripts do PowerShell do centro de conformidade & central de segurança para ajudá-lo a concluir tarefas relacionadas à pesquisa de conteúdo complexo.
   
-- [Pesquisar caixa de correio e pastas de site específicas](use-content-search-for-targeted-collections.md) (chamado de *conjunto direcionado* ) quando você tiver certeza de que os itens que respondem a um caso estão localizados nessa pasta 
+- [Pesquisar pastas de caixa de correio e sites específicos](use-content-search-for-targeted-collections.md) (chamados de *coleção direcionadas* ) quando você tiver certeza de que os itens que respondem a um caso estão localizados nessa pasta 
     
 - [Pesquisar a caixa de correio e o local do onedrive](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) para obter uma lista de usuários 
     

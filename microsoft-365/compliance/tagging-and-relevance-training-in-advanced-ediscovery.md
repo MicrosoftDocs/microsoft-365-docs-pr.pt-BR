@@ -1,5 +1,7 @@
 ---
 title: Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância do Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: e214e8a8edba7472f93274f3a4f7a06a09e2a801
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: fa690857fabb6a732d329dc8a75896d9e1aa195d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802694"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601418"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
 

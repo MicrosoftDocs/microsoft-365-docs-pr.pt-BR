@@ -1,5 +1,7 @@
 ---
 title: O que os tipos de informações confidenciais procuram
+f1.keywords:
+- CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 80 inclui tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 9c3111069ff30784af5fe781200de5e770c79066
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: efd5d2f8003bd79620118a6a058576e5593699b1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38685032"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601208"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>O que os tipos de informações confidenciais procuram
 
@@ -1218,7 +1220,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Pessoa jurídica 
 - Pessoas jurídicas 
 - Status do Registro 
-- Negócios 
+- Negócio 
 - Empresa
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
@@ -5390,7 +5392,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
  
 - Cartão de identificação 
 - Certificado de Residente Alien 
-- ARCO 
+- ARC 
 - Certificado de Residente da Área de Taiwan 
 - TARC 
 - 居留證 

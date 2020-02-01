@@ -1,5 +1,7 @@
 ---
 title: Proteção antiphishing no Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.custom: TopSMBIssues
 ms.collection:
 - M365-security-compliance
 description: O Office 365 oferece uma variedade de proteção contra ataques de phishing por padrão e também por meio de ofertas adicionais, como o anti-phishing da ATP. Este tópico apresenta os recursos online que você pode usar para aprender sobre e implementar opções e estratégias anti-phishing no Office 365.
-ms.openlocfilehash: e5d80a62d8606f8e429c4c998c21547bf150b51c
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 254bc3f5b1dc07da9dce3012345477605fb738c0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971960"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599898"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Proteção antiphishing no Office 365
 

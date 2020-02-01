@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da8e7e473210c42cb5d95f2701779561c95b6bb3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2b7ad248299c12edfeed880ac731f2d23e9b1949
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804944"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602358"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>Programa de gerenciamento de riscos e autorização federal (FedRAMP)
 
@@ -70,7 +72,7 @@ Depois que um P-ATO é concedido, um CSP ainda exige uma autorização, um ATO d
 - Intune
 - [Office 365 e Office 365 U.S. Government](https://aka.ms/o365-compliance-framework)
 - Office 365 U.S. Government Defense
-- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - Microsoft Defender ATP
 
 > [!NOTE]
@@ -113,7 +115,7 @@ Sim. Você pode usar as certificações dos serviços de nuvem da Microsoft como
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Estrutura de avaliação de segurança do FedRAMP](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

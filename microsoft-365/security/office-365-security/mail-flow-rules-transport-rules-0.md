@@ -1,5 +1,7 @@
 ---
 title: Regras de fluxo de emails (regras de transporte) no Exchange Online Protection
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização do Office 365.
-ms.openlocfilehash: 604e2c7cb0b2cc34021e6708ae9f08769e8e6e91
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 42b55893a9884b547a0d2d36e901169153d290d7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970337"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599018"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regras de fluxo de emails (regras de transporte) no Exchange Online Protection
 
@@ -89,7 +91,7 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 |**Adiar a mensagem se o processamento de regra não for concluído**|_RuleErrorAction_|Você pode especificar como a mensagem deveria ser tratada se o processamento de regra não puder ser concluído. Por padrão, a regra será ignorada, mas você pode optar por reenviar a mensagem para processamento.|
 |**Corresponder endereço do remetente da mensagem**|_SenderAddressLocation_|Se a regra usa condições ou exceções que examinam o endereço de email do remetente, você pode procurar o valor no cabeçalho da mensagem, no envelope da mensagem ou em ambos.|
 |**Parar o processamento de mais regras**|_SenderAddressLocation_|Essa é uma ação para a regra, mas se parece com uma propriedade no EAC. Você pode optar por evitar a aplicação de regras adicionais a uma mensagem após uma regra processar uma mensagem.|
-|**Comentários**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
+|**Comments**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Como as regras de fluxo de emails são aplicadas a mensagens
 

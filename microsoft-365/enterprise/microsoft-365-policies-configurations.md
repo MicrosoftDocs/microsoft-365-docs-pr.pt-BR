@@ -6,6 +6,8 @@ manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/11/2018
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: eba186233efa5bebb980c4e16aafb0fe854910c9
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: af68a8e81cdaab1bbbd8887a7d586fcaefff1041
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031316"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600888"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
 
@@ -130,7 +132,7 @@ O Windows 10 e o Office 365 ProPlus são o ambiente de cliente recomendado para 
 
 A tabela a seguir resume nossas recomendações para usar esses recursos nas três camadas de proteção.
 
-|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlada|
+|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlado|
 |:-------------------|:-------|:--------|:---------------|
 |**Impor a MFA**|No risco de entrada médio ou acima|No risco de entrada baixo ou acima|Em todas as novas sessões|
 |**Impor alteração de senha**|Para usuários de alto risco|Para usuários de alto risco|Para usuários de alto risco|

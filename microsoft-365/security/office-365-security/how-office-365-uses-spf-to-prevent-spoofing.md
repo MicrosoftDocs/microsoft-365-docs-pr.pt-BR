@@ -1,5 +1,7 @@
 ---
 title: Como o Office 365 usa o SPF (estrutura de política de remetente) para evitar a falsificação
+f1.keywords:
+- CSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: Este artigo descreve como o Office 365 usa o registro TXT SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas do seu domínio personalizado. Isso se aplica a mensagens de saída enviadas do Office 365. As mensagens enviadas do Office 365 para um destinatário no Office 365 sempre passarão a SPF.'
-ms.openlocfilehash: a849be21aea5d6ab44af33a8271827da41094a2f
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: f02219b19af592f9ad27ea963cb07a260c09327f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970827"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599188"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Office 365 usa o SPF (estrutura de política de remetente) para evitar a falsificação
 

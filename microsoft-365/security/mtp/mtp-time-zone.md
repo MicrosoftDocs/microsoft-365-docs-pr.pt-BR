@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: lomayor
 author: lomayor
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 66546b689428b5663c71c82b72ec6cd008458c0d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9240010c6459123d19a38f5a2be40550ee73df39
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808556"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600028"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>Definir o fuso horário da Proteção contra Ameaças da Microsoft
 

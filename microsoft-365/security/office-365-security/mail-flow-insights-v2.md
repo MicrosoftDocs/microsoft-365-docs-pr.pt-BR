@@ -1,5 +1,7 @@
 ---
 title: Fluxo de emails no Centro de Conformidade e Segurança
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre o painel de fluxo de emails no centro de conformidade de & de segurança.
-ms.openlocfilehash: a8bc8dbc2dcd25e3b26b35221cadf9534f9f668b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0e87fde41c78f46aaac55602175a3716ba54fe7b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072394"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599038"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
@@ -30,7 +32,7 @@ As ideias, os relatórios e os widgets disponíveis no painel de fluxo de emails
 
 - [Percepção do domínio do remetente](mfi-sender-domain-insight.md)
 
-- [Notificação de falha na entrega](mfi-non-delivery-report.md)
+- [Relatório de falha na entrega](mfi-non-delivery-report.md)
 
 - [Relatório de domínio não aceito](mfi-non-accepted-domain-report.md)
 
@@ -42,7 +44,7 @@ As ideias, os relatórios e os widgets disponíveis no painel de fluxo de emails
 
 - [Insight de loop de email](mfi-mail-loop-insight.md)
 
-- [Insights de regras de fluxo de email – modo lento](mfi-slow-mail-flow-rules-insight.md)
+- [Insight de regras de fluxo de email – modo lento](mfi-slow-mail-flow-rules-insight.md)
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Permissões necessárias para exibir o painel de fluxo de emails
 

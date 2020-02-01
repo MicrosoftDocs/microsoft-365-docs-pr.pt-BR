@@ -1,5 +1,7 @@
 ---
 title: Usar o módulo de relevância na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: 'Saiba mais sobre o módulo de relevância na descoberta eletrônica avançada do Office 365, incluindo um fluxo de trabalho e diretrizes e etapas para treinamento e análise de arquivo.  '
-ms.openlocfilehash: 3303a85742876934899517940d0a671e404dea92
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5151c94d2b0bd1824abb499f6cb27bbfbc7618b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802276"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601298"
 ---
 # <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Usar o módulo de relevância na descoberta eletrônica avançada do Office 365
 

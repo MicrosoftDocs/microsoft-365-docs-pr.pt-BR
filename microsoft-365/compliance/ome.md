@@ -1,5 +1,7 @@
 ---
 title: Criptografia de Mensagem do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Com a criptografia de mensagem do Office 365, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. A criptografia de mensagens de email ajuda a garantir que somente os destinatários pretendidos possam exibir o conteúdo da mensagem.
-ms.openlocfilehash: f2bdd5d0508c96fbda2d49df8b29a0b8f9671a3a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 9da6084348a4bdc89f620eb894c9ffa113d64292
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684823"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601778"
 ---
 # <a name="office-365-message-encryption"></a>Criptografia de Mensagem do Office 365
 

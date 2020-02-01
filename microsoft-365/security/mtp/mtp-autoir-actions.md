@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 ms.localizationpriority: medium
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 35433eccf93c56a8f8bf66b50fa6728ff7585d8e
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 77770904454228f595e1772e5f6927f943af8294
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260199"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600108"
 ---
 # <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>Aprovar ou rejeitar ações pendentes após a investigações automáticas
 

@@ -1,5 +1,7 @@
 ---
 title: Definir a opção Ignorar texto para análise na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Saiba como definir a regra para ignorar texto específico ao usar os módulos de análise e de processo na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: cb010c1929241720a69bdc906eda4788786adda2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 7bda497f961ed762b1b077ad0631a0a6a94cdcc8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802714"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601498"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Definir a opção Ignorar texto para análise na descoberta eletrônica avançada do Office 365
 

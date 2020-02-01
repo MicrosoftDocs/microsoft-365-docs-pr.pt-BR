@@ -1,5 +1,7 @@
 ---
 title: Criar uma política de informações confidenciais para sua organização usando a Criptografia de Mensagem do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: 'Resumo: política de criptografia de mensagem do Office 365 para tipos de informações confidenciais.'
-ms.openlocfilehash: 8632a0419b443d2810afd3554da572ab2197ae2a
-ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
+ms.openlocfilehash: a3767fb0f9fe5e565c49db4f9da94d75a3cee8a7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38689991"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601788"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Criar uma política de informações confidenciais para sua organização usando a Criptografia de Mensagem do Office 365
 
@@ -32,7 +34,7 @@ Entre no centro de administração do Exchange (Eat) e vá para > **regras**de *
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Para criar a política usando regras de fluxo de email no PowerShell
 
-Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell). Use os cmdlets Set-IRMConfiguration e New-TransportRule para criar a política.
+Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell). Use os cmdlets Set-IRMConfiguration e New-TransportRule para criar a política.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>Regra de fluxo de emails de exemplo criada com o PowerShell
 

@@ -1,5 +1,7 @@
 ---
 title: Notificação de falha na entrega
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 19b3e40aee6af286a3b8ddb43cdb87a39e622b01
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: dbae97d572a6330e40308fa2016437c9329f93cc
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306155"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598858"
 ---
 # <a name="non-delivery-report"></a>Notificação de falha na entrega
 

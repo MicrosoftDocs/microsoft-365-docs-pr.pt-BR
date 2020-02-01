@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 ms.localizationpriority: medium
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: e70fa5f226b25df72514f75bb20873665d9021f6
-ms.sourcegitcommit: ca06ee52dec472d3827983d67b049847ec2fdfc1
+ms.openlocfilehash: 208cbb49afc2f4520fa44a4ef283194bcaff22be
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41256547"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600088"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 

@@ -1,5 +1,7 @@
 ---
 title: Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: A versão anterior da criptografia de mensagem do Office 365 depende do Microsoft Azure Rights Management (anteriormente conhecido como gerenciamento de direitos do Windows Azure Active Directory).
-ms.openlocfilehash: a6ba18982a65ff9687374b9e5dc370646817d96d
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be0fad248465927ee7cc59b31a36e65ce5c053db
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38684845"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601478"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
 
@@ -128,4 +130,4 @@ Depois de configurar sua organização para usar os novos recursos do OME, você
   
 [Detalhes de referências técnicas sobre a criptografia no Office 365](technical-reference-details-about-encryption.md)
   
-[O que é o Azure Rights Management?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+[ O que é o Azure Rights Management? ](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)

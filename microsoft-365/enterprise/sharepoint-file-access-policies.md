@@ -5,6 +5,8 @@ author: BrendaCarter
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.date: 06/07/2018
 ms.reviewer: martincoetzer
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 1d1f9dc70982a629126f82aaa6f62fed1cece08f
-ms.sourcegitcommit: bd487d36b04b8f8caf10900e8c5237f9ccf9e072
+ms.openlocfilehash: f0cd296157e1d4856c27d1dc547de045510e788b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37654010"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600758"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
@@ -51,7 +53,7 @@ A tabela a seguir lista as políticas que você precisa analisar e atualizar ou 
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online nas atribuições de aplicativos em nuvem|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Incluir o SharePoint Online na lista de aplicativos em nuvem|
 ||[Política de controle de acesso do SharePoint Online](#sharepoint-online-access-control-policies): permitir acesso somente ao navegador para sites específicos do SharePoint de dispositivos não gerenciados|Isso impede a edição e o download de arquivos. Usar o PowerShell para especificar sites|
-|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
 ||[Política de controle de acesso do SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online): bloquear o acesso a sites específicos do SharePoint de dispositivos não gerenciados|Usar o PowerShell para especificar sites|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint-online"></a>Usar restrições impostas pelo aplicativo no SharePoint Online

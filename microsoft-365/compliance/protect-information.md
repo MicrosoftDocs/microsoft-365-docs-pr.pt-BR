@@ -1,5 +1,7 @@
 ---
 title: Proteger informações
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: página de aterrissagem para proteção de informações
-ms.openlocfilehash: d02446468eec5c1c0ae4e627ccfd24d1b857f594
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f5153373d73ec542f2a21561ce32c37368ff02e4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684829"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601668"
 ---
 # <a name="protect-information"></a>Proteger informações
 

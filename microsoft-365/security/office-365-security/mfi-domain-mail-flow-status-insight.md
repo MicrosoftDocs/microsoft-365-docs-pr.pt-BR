@@ -1,5 +1,7 @@
 ---
-title: Visão superior do status do fluxo de emails do domínio
+title: Insight sobre o status do fluxo de mensagens dos principais domínios
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,14 +11,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre a visão geral do status do fluxo de email de domínio no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: b193eea87a76ad45e91c98511627b24b04d48fb5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1fb22ac1543c490dcbd316464803f5393003d503
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073360"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598878"
 ---
-# <a name="top-domain-mail-flow-status-insight"></a>Visão superior do status do fluxo de emails do domínio
+# <a name="top-domain-mail-flow-status-insight"></a>Insight sobre o status do fluxo de mensagens dos principais domínios
 
 A visão geral do **status do fluxo de email do domínio** oferece o status atual dos domínios da sua organização em termos de fluxo de emails. Essa percepção ajuda a identificar e solucionar problemas de domínios que estão enfrentando problemas de ***impacto de fluxo de emails*** (por exemplo, não é possível receber emails externos), especialmente expirações de domínio ou domínios com registros MX incorretos.
 

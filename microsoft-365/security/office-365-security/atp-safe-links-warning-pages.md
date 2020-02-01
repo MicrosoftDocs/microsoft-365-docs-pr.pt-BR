@@ -1,5 +1,7 @@
 ---
 title: Páginas de aviso de links seguros do Office 365 ATP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Obtenha uma visão geral das páginas de aviso que você pode ver quando a proteção avançada contra ameaças do Office 365 está no trabalho.
-ms.openlocfilehash: 2c14947f9d9b988eb4f5086500da0d4455f50a43
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c7c3db68cfb0bc8205c5796bda7ee46d5b0604dd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970947"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599848"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Páginas de aviso de links seguros do Office 365 ATP
 

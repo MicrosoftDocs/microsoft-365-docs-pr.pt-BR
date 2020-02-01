@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4c32f815e262abbe5d901f5c29323f83ef1b71d8
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 2f7faec3223ca707e166c229b48093193be09d1e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910742"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599968"
 ---
 # <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
 

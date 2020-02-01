@@ -1,5 +1,7 @@
 ---
 title: Permissões de recurso no EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: As permissões necessárias para realizar tarefas para gerenciar o Microsoft Proteção do Exchange Online (EOP) variam dependendo do recurso que você está gerenciando.
-ms.openlocfilehash: dcf56a5295f7964b2271331deb2e7f8c1ba1635e
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871847"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599308"
 ---
 # <a name="feature-permissions-in-eop"></a>Permissões de recurso no EOP
 
@@ -33,7 +35,7 @@ Para descobrir quais permissões são necessárias para gerenciar os recursos do
 |Antispam|Gerenciamento de Organização <br/><br/> Gerenciamento de Higienização|
 |Regras do fluxo de email|Gerenciamento de Organização <br/><br/> Gerenciamento de Registros|
 |Domínios|Gerenciamento de Organização <br/><br/> Gerenciamento de Organização Somente Exibição|
-|Proteção avançada contra ameaças (ATP)|Gerenciamento de Organização <br/><br/> Gerenciamento de Higienização|
+|Proteção Avançada contra Ameaças (ATP)|Gerenciamento de Organização <br/><br/> Gerenciamento de Higienização|
 |Office 365 conectores|Gerenciamento de Organização|
 |Rastreamento de mensagens|Gerenciamento de Organização <br/><br/> Gerenciamento de Organização Somente Exibição|
 |Configuração da organização|Gerenciamento de Organização|

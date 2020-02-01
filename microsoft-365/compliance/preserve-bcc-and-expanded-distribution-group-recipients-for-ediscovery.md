@@ -1,5 +1,7 @@
 ---
 title: Preservar destinatários Cco e de grupos de distribuição expandidos para Descoberta Eletrônica
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: Bloqueio in-loco, retenção de litígio e políticas de retenção do Office 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery.
-ms.openlocfilehash: 46ec9f39f4fe5629ca1854fab44304f30784dbf4
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: 3d128016e89a5e1eadeae4e2c189588c4b2951a3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38684870"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601748"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>Preservar destinatários Cco e de grupos de distribuição expandidos para Descoberta Eletrônica
   

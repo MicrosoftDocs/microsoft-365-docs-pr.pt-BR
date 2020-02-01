@@ -1,6 +1,8 @@
 ---
 title: Encontre e investigue emails mal-intencionados que foram entregues no Office 365
 keywords: TIMailData-inline, incidente de segurança, incidente, ATP PowerShell, malware de email, usuários comprometidos, golpes por email, malware de email, ler cabeçalhos de email, ler cabeçalhos, abrir cabeçalhos de email
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
-ms.openlocfilehash: f2eadfaf23c4485e6b50b6550f0a884690a79548
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 77a0c3e23413a31f2d87d5bf19216edec40a305c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572978"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599138"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Encontre e investigue emails mal-intencionados que foram entregues no Office 365
 

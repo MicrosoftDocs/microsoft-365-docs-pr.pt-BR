@@ -5,6 +5,8 @@ keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, documentaçã
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 685e653d7f0b8d31990724c58eccafe9a25ae6a5
-ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
+ms.openlocfilehash: 71cadaee5c9b4ddad83a02ed434afd6197fe8e00
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004926"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628117"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Office 365 para o GDPR e o CCPA
 
@@ -90,7 +92,7 @@ Uma maneira rápida de identificar os aplicativos do Office 365 que as pessoas n
 
 ## <a name="using-the-content-search-ediscovery-tool-to-respond-to-dsrs"></a>Usar a ferramenta Descoberta Eletrônica de Pesquisa de Conteúdo para responder às DSRs
 
-Ao procurar dados pessoais no maior conjunto de dados que a sua organização cria e armazena usando o Office 365, pode ser conveniente considerar, primeiramente, quais aplicativos as pessoas mais provavelmente usaram para criar os dados que você está procurando. A Microsoft estima que mais de 90% dos dados de uma organização que são armazenados no Office 365 são criados no Word, no Excel, no PowerPoint, no OneNote e no Outlook. Os documentos criados nesses aplicativos do Office, mesmo se comprados por meio do Office 365 ProPlus ou de uma licença perpétua do Office, provavelmente são armazenados em um site do SharePoint Online, em uma conta do OneDrive for Business de um usuário ou em uma caixa de correio do Exchange Online de um usuário. Isso significa que é possível usar a ferramenta Descoberta Eletrônica de Pesquisa de Conteúdo para pesquisar (e realizar outras ações relacionadas à DSR) em sites do SharePoint Online, em contas do OneDrive for Business e em caixas de correio do Exchange Online (incluindo os sites e as caixas de correio associados aos Grupos do Office 365, Microsoft Teams, Atribuições de EDU e StaffHub) para encontrar documentos e itens de caixa de correio que podem ser relevantes à DSR que você está investigando. Também é possível usar a ferramenta Pesquisa de Conteúdo para descobrir Dados do Cliente criados em outros aplicativos do Office 365.
+Ao procurar dados pessoais no maior conjunto de dados que a sua organização cria e armazena usando o Office 365, pode ser conveniente considerar, primeiramente, quais aplicativos as pessoas mais provavelmente usaram para criar os dados que você está procurando. A Microsoft estima que mais de 90% dos dados de uma organização que são armazenados no Office 365 são criados no Word, no Excel, no PowerPoint, no OneNote e no Outlook. Os documentos criados nesses aplicativos do Office, mesmo se comprados por meio do Office 365 ProPlus ou de uma licença perpétua do Office, provavelmente são armazenados em um site do SharePoint Online, em uma conta do OneDrive for Business de um usuário ou em uma caixa de correio do Exchange Online de um usuário. Isso significa que é possível usar a ferramenta Descoberta Eletrônica de Pesquisa de Conteúdo para pesquisar (e realizar outras ações relacionadas à DSR) em sites do SharePoint Online, em contas do OneDrive for Business e em caixas de correio do Exchange Online (incluindo os sites e as caixas de correio associados aos Grupos do Office 365, Microsoft Teams, Atribuições de EDU) para encontrar documentos e itens de caixa de correio que podem ser relevantes à DSR que você está investigando. Também é possível usar a ferramenta Pesquisa de Conteúdo para descobrir Dados do Cliente criados em outros aplicativos do Office 365.
 
 A tabela a seguir lista os aplicativos do Office 365 que as pessoas usam para criar Conteúdo Criado pelo Cliente e que pode ser descoberto usando a Pesquisa de Conteúdo. Esta seção do guia da DSR fornece orientação sobre como descobrir, acessar, exportar e excluir dados criados com esses aplicativos do Office 365.
 
@@ -631,9 +633,8 @@ Embora a maioria dos Dados do Cliente seja criada e produzida usando os aplicati
 | ![Ícone do Access](media/o365-access-64x64.png) <br> [Access](#access) | ![Ícone do Office](media/O365-DSR-Doc_image22.png) <br> [Aplicativo para empresas <br> do Office 365](#business-apps-for-office-365) | ![Ícone do Office](media/O365-DSR-Doc_image22.png) <br> [Educação](#education)|
 | ![Ícone de Fluxo](media/o365-flow-64x64.png) <br> [Fluxo](#flow) | ![Ícone do Forms](media/o365-forms-64x64.png) <br> [Forms](#forms) |![Ícone do Kaizala](media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
 | ![Ícone do Planner](media/o365-planner-64x64.png) <br> [Planner](#planner) |![Ícone do PowerApps](media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Ícone do Power BI](media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
-|![Ícone do Project](media/o365-project-64x64.png) <br> [Project](#project-online) |![Ícone do Publisher](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Ícone do StaffHub](media/o365-staffhub-64x64.png) <br> [StaffHub](#staffhub) |
-|![Ícone do Stream](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Ícone do Sway](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Ícone do quadro de comunicações](media/O365-DSR-Doc_image36.png) <br> [Quadro de comunicações](#whiteboard) |
-||![Ícone do Yammer](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
+|![Ícone do Project](media/o365-project-64x64.png) <br> [Project](#project-online) |![Ícone do Publisher](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Ícone do Stream](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Ícone do Sway](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Ícone do quadro de comunicações](media/O365-DSR-Doc_image36.png) <br> [Quadro de comunicações](#whiteboard) |
+|![Ícone do Yammer](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
 |||
 
 ### <a name="access"></a>Access
@@ -1164,33 +1165,6 @@ Você pode fornecer uma entidade de dados com o arquivo do Publisher real ou com
 #### <a name="delete"></a>Excluir
 
 Você pode excluir o conteúdo de uma publicação, excluir páginas inteiras ou excluir um arquivo inteiro do Publisher. Confira [Adicionar ou excluir páginas](https://support.office.com/article/add-or-delete-pages-daf71e39-86e0-4bbc-a186-d5ec70450b08).
-
-### <a name="staffhub"></a>StaffHub
-
-As seções a seguir explicam como usar a funcionalidade no aplicativo do Microsoft StaffHub para localizar, acessar, exportar e excluir dados pessoais.
-
-#### <a name="discover"></a>Descobrir
-
-A maioria dos dados no StaffHub está disponível para todos os gerentes e membros da equipe do StaffHub. Para revisar dados no StaffHub, peça que um gerente ou membro da equipe acesse <https://staffhub.office.com> a fim de procurar dados que sejam potencialmente relevantes à solicitação DSR ou peça que eles adicionem você como um membro da equipe para que seja possível revisar diretamente as informações do StaffHub em busca de dados potencialmente responsivos.
-
-#### <a name="access"></a>Acessar
-
-Depois que conteúdo relevante do StaffHub é encontrado, você pode exibir e fazer capturas de tela de dados relevantes que deseja fornecer ao titular dos dados de dentro do aplicativo ou baixá-los.
-
-- **Informações de agendamento:** A guia **Agendar** no StaffHub oferece um **Modo de Exibição Pessoas** e um **Modo de Exibição Turnos** que permite visualizar agendas diárias, semanais e mensais por membros da equipe ou turnos de trabalho. Essas visualizações podem ser impressas ou baixadas para o Excel, selecionando os três pontos (reticências) no canto superior esquerdo do aplicativo da Web StaffHub e clicando em **Exportar Agenda**. 
-- **Arquivos compartilhados:** todos os arquivos no StaffHub são armazenados no SharePoint Online e, portanto, podem ser descobertos, acessados e exportados usando a Pesquisa de Conteúdo conforme descrito anteriormente. Eles também podem ser visualizados no StaffHub sob a guia **Arquivos**.
-- **Mensagens:** atualmente, as mensagens podem ser acessadas seguindo as etapas sobre como acessar dados específicos do usuário no próximo item. No futuro, todas as mensagens no StaffHub serão armazenadas no Microsoft Teams, o que significa que você poderá usar a ferramenta Pesquisa de Conteúdo para acessá-las.
-- **Dados específicos do usuário:** os dados específicos do usuários consistem em configurações do usuário, feed de atividades do usuário e histórico de solicitações de deslocamento do usuário, nenhum dos quais pode ser visualizado por membros da equipe os administradores. Para acessar ou exportar dados específicos do usuário, peça à entidade de dados que faça logon em sua conta do StaffHub para obtê-los. Como alternativa, se a entidade de dados tiver saído da sua organização, você poderá obter esses dados fazendo com que seu administrador redefina a senha do usuário para a entidade de dados para permitir que você ou o administrador façam logon na conta.
-- **Kronos:** O StaffHub suporta conexões com o [Kronos](https://www.kronos.com/), que é uma ferramenta de gerenciamento de força de trabalho terceirizada. O StaffHub e o Kronos são processadores independentes e processam os dados da sua organização sob os termos individuais que você assinou com cada uma das partes. Se a sua DSR se referir a dados mantidos pelo Kronos, você precisará entrar em contato com o Kronos para obter ajuda com a DSR, e vice-versa.
-
-#### <a name="delete"></a>Excluir
-
-- A maioria do conteúdo de dados no aplicativo controlada no StaffHub pode ser excluída por um gerente da equipe no próprio aplicativo. Como declarado anteriormente na seção Descobrir do StaffHub, você pode adicionar a si mesmo a uma equipe como um gerente de equipe e excluir os dados.
-- Quando uma conta de usuário é excluída permanentemente, o StaffHub redige o nome, o número de telefone, o endereço de e-mail e a imagem de perfil do usuário, em até 30 dias, da conta que está sendo excluída.
-
-#### <a name="export"></a>Exportar
-
-Confira a seção [Acessar](#access-12) seção do StaffHub.
 
 ### <a name="stream"></a>Stream
 
@@ -1794,8 +1768,9 @@ A tabela a seguir lista as alterações ao guia DSR do Office 365 desde sua publ
 |18/09/2018 | [Quadro de comunicações](#whiteboard) |O Whiteboard Preview não está mais em visualização e foi lançado para disponibilidade geral. Portanto, a seção no Whiteboard Preview foi renomeada para "Whiteboard para PC, Surface Hub e outras plataformas;" os procedimentos para acesso, exportação e exclusão de dados foram removidos desta seção e substituídos por um link para o artigo de suporte do Whiteboard.|
 |11/08/2018 | [Workplace Analytics](#workplace-analytics) |Obter orientações passo a passo adicionais para a seção excluir sobre como remover um assunto de dados com o Workplace Analytics e como remover informações sobre um assunto de dados de um relatório do Workplace Analytics.|
 |11/12/2018| Todos| Corrigidos marcadores quebrados e links quebrados para tópicos externos.|
-|9/1/2019|[StaffHub](#staffhub)|Na seção Excluir, foi atualizada a descrição do que acontece quando uma conta de usuário é excluída permanentemente.|
+|9/1/2019| StaffHub |Na seção Excluir, foi atualizada a descrição do que acontece quando uma conta de usuário é excluída permanentemente.|
 |8/5/2019| [Publisher](#publisher)|Conteúdo adicional sobre como responder os DSRs para o Publisher.|
 |11/7/2019| [MyAnalytics](#myanalytics)|A capacidade de um administrador de usar a ferramenta de ocorrência de DSR no Centro de Conformidade e Segurança do Office 365 de exportar dados do MyAnalytics foi removida porque todos os usuários podem ver seus dados no aplicativo MyAnalytics. |
 |11/6/2019 |[Educação](#education)|Vinculado a novos tópicos sobre o uso de scripts do PowerShell para obter uma lista de classes para um aluno específico e, em seguida, exportar ou excluir seus dados.|
+|28/01/2020| Todos | Removido o StaffHub do documento, o StaffHub está desativado. |
 ||||

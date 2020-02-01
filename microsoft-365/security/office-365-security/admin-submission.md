@@ -1,5 +1,7 @@
 ---
 title: Envios de administradores no Office 365, envios do O365, problema do Office 365 spam, o O365 falso negativo, enviar phishing no Office 365, enviar email para verificação, email suspeito no Office 365, examinar um email, fazer com que a Microsoft examine o phishing, peça à Microsoft para spam, enviar email, enviar emails, emails do dodgy, email de ator ruim, email suspeito, não confiável, relatar emails de phishing para a Microsoft, relatar emails de phishing para a Microsoft, relatar emails mal-intencionados para a Microsoft, relatar emails de golpes à Microsoft, relatar malwares em email para a Microsoft, spam email na caixa de entrada Office 365, vírus no email do Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como enviar emails suspeitos, emails de phishing suspeitos, spam e outras mensagens, URLs e arquivos potencialmente nocivos do seu locatário do Office 365 para a Microsoft para verificação.
-ms.openlocfilehash: c46017becfed546557fbf59c0dbbe12e9af53aa0
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: a12981ee302ea72e112826104996fb775e4ac3fb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573028"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599978"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Como enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para a verificação do Office 365
 

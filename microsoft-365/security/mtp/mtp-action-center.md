@@ -7,6 +7,8 @@ ms.prod: M365-security-compliance
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 ms.localizationpriority: medium
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 91f2ae9a9fef96a3fdfedf86481aa5f5f33cb724
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: a0b86240e09838ff290bb9c3b4b53f5cce3e2995
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260209"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600118"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
 

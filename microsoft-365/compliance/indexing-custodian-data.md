@@ -1,5 +1,7 @@
 ---
 title: Indexação de dados custodiante avançados
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6259d839dd9a0ca196bae37afe374d1d8f21d53
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: 5ab54e84de7434a16bdf7eb7d04fad7b9af05440
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38684869"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600628"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Indexação de dados custodiante avançados
 

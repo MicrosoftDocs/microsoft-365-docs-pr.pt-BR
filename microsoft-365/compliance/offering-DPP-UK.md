@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b49a898c3a517b6c9468478ad7b7eddeeee1755c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d621017a125a43fc0fc9523e6ce8700b66077f2e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805234"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602528"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>Parceria de produção digital (DPP) Reino Unido
 
@@ -53,7 +55,7 @@ A marca de transmissão do Azure é válida por um ano e renovada anualmente.
 
 - [DPP confirmado no programa de segurança Guia do usuário da lista de verificação de transmissão](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
 - [NABA e DPP de transmissores para promover requisitos de segurança da CyberSource para fornecedores](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

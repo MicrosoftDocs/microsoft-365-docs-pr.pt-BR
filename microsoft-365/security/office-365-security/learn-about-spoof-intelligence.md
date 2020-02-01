@@ -1,5 +1,7 @@
 ---
 title: Saiba mais sobre a inteligência de falsificação
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Use a inteligência de spoof no &amp; centro de conformidade de segurança na página configurações antispam para examinar todos os remetentes que estão falsificando os domínios que fazem parte da sua organização ou falsificando domínios externos. A inteligência de falsificação está disponível como parte do Office 365 Enterprise E5 ou separadamente como parte da proteção avançada contra ameaças e proteção do Exchange Online.
-ms.openlocfilehash: 2f6a68446698747fe31261c7e892c50e6ec5c7f4
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 82b3759290e4cf0024aaf74a066354f46ea3a303
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989486"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599088"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>Saiba mais sobre a inteligência de falsificação
 

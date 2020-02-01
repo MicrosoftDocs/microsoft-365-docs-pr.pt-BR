@@ -1,5 +1,7 @@
 ---
 title: Tipos de arquivo com suporte em investigações de dados (versão prévia)
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 60e4baf2df94793b532fb4035a34ca3c7a5cd332
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 055104a5b7f60fe54b421e7236143aa9af08b57f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073100"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601428"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Tipos de arquivo com suporte em investigações de dados (versão prévia)
 
@@ -54,7 +56,7 @@ As investigações de dados (visualização) dão suporte a vários tipos de arq
 | application/x-Msaccess | Documento | Sim | Sim | Sim | Não | . mdb |
 | aplicativo/x-mspublisher | Documento | Sim | Sim | Sim | Não | . pub |
 | application/x-rar-compactado | Arquivo morto/contêiner | Não | Não | Não | Sim | . rar |
-| aplicativo/zip | Arquivo morto/contêiner | Não | Não | Não | Sim | . zip |
+| aplicativo/zip | Arquivo morto/contêiner | Não | Não | Não | Sim | .zip |
 | imagem/BMP | Image | Sim | Sim | Sim | Não | .bmp |
 | imagem/EMF | Image | Sim | Sim | Sim | Não | . EMF |
 | image/gif | Documento | Sim | Sim | Sim | Não | .gif |
@@ -63,7 +65,7 @@ As investigações de dados (visualização) dão suporte a vários tipos de arq
 | imagem/TIFF | Image | Sim | Sim | Sim | Não | . tif |
 | Image/vnd. dwg | Documento | Sim | Sim | Sim | Não | . dwg;. DXF |
 | imagem/WMF | Documento | Sim | Sim | Sim | Não | . wmf |
-| mensagem/RFC822 | Produtividade/colaboração | Não | Não | Não | Não | . eml |
+| mensagem/RFC822 | Produtividade/colaboração | Não | Não | Não | Não | .eml |
 | texto/CSV | Documento | Sim | Sim | Sim | Não | . csv |
 | texto/HTML | Documento | Sim | Sim | Sim | Não | . html;. shtml;. htm |
 | texto/simples | Documento | Sim | Sim | Sim | Não | . txt;. css;. con;. pl;. csv;. dat |

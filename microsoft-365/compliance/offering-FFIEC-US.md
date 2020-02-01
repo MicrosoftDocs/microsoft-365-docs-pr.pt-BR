@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6b1b852ee79b377b5d67ada8a5a4de602a74e466
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 74ce16a1cc98943ea808bbae08eccd54f8f21fad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805025"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602418"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conselho Federal de análise de instituições financeiras (FFIEC)
 
@@ -45,7 +47,7 @@ Para ajudá-lo a atender aos requisitos do FFIEC, os serviços de nuvem da Micro
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 

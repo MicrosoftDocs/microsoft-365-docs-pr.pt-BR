@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes gerais sobre o EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Aqui, respondemos às dúvidas gerais mais comuns sobre o Proteção do Exchange Online (EOP), o serviço de filtragem de email hospedado na nuvem da Microsoft. Para ver mais tópicos de perguntas frequentes, vá para os seguintes links:'
-ms.openlocfilehash: 131085f148e7a44bfad8cb253fa9b3f115c627bb
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 03fb070b2a40ad1e363138124eb0225e64fd5702
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871867"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599378"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 

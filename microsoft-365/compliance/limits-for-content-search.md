@@ -1,5 +1,7 @@
 ---
 title: Limites de pesquisa de conteúdo no centro de conformidade de & de segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: 'Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade & segurança no Office 365, como o número máximo de pesquisas simultâneas. '
-ms.openlocfilehash: 0574908468b5c2c94f1feb78c0845bc0a0e2afff
-ms.sourcegitcommit: cbf934ef448fc428f5ed53b07cda7a5f72c89221
+ms.openlocfilehash: a560e26b6a02e48ca50033acad554e3c7bb2ec6e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "40911459"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600548"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>Limites de pesquisa de conteúdo no centro de conformidade de & de segurança
 
@@ -39,8 +41,8 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |O número máximo de pesquisas de conteúdo que podem ser executadas ao mesmo tempo em sua organização.  <br/> |Sem limite  <br/> |
 |O número máximo de pesquisas de conteúdo que um único usuário pode iniciar ao mesmo tempo. Observe que esse limite é mais provável de hit quando o usuário tenta iniciar várias pesquisas usando o comando **Get-ComplianceSearch \| Start-ComplianceSearch** no PowerShell do centro de conformidade de segurança &.  <br/> |10   <br/> |
 |O número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo.  <br/> |100  <br/> |
-|O número máximo de itens encontrados em todas as caixas de correio de usuário que são exibidas na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |1.000  <br/> |
-|O número máximo de caixas de correio do usuário que podem ser visualizadas nos resultados da pesquisa. Se houver mais de 1000 caixas de correio que contenham conteúdo que corresponda à consulta de pesquisa, somente as primeiras caixas de correio de 1000 com a maioria dos resultados de pesquisa estarão disponíveis para visualização.  <br/> |1.000  <br/> |
+|O número máximo de itens encontrados em todas as caixas de correio de usuário que são exibidas na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |1,000  <br/> |
+|O número máximo de caixas de correio do usuário que podem ser visualizadas nos resultados da pesquisa. Se houver mais de 1000 caixas de correio que contenham conteúdo que corresponda à consulta de pesquisa, somente as primeiras caixas de correio de 1000 com a maioria dos resultados de pesquisa estarão disponíveis para visualização.  <br/> |1,000  <br/> |
 |O número máximo de itens encontrados em sites do SharePoint e do OneDrive for Business que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |200  <br/> |
 |O número máximo de sites (no SharePoint e no OneDrive for Business) que podem ser visualizados nos resultados da pesquisa. Se houver mais de 200 sites de total que contenham conteúdo que corresponda à consulta de pesquisa, somente os primeiros 200 sites com mais resultados de pesquisa estarão disponíveis para visualização.  <br/> |200  <br/> |
 |O número máximo de itens por caixa de correio de pasta pública que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo.  <br/> |100  <br/> |
@@ -48,7 +50,7 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |O número máximo de caixas de correio públicas que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham conteúdo que corresponda à consulta de pesquisa, somente as caixas de correio de pasta pública superior 500 com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
 |O número máximo de caracteres para a consulta de pesquisa (incluindo operadores e condições) para uma pesquisa de conteúdo.  <br/><br/> **Observação:** Esse limite entra em vigor depois que a consulta é expandida, o que significa que a consulta será expandida em relação a cada uma das palavras-chave. Por exemplo, se uma consulta de pesquisa tem 15 palavras-chave e parâmetros e condições adicionais, a consulta é expandida 15 vezes, cada uma com os outros parâmetros e condições na consulta. Portanto, mesmo que o número de caracteres na consulta de pesquisa possa estar abaixo do limite, é a consulta expandida que pode contribuir para exceder esse limite.  <br/> |**Caixas de correio:** 10.000  <br/> **Sites:** 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>1</sup> <br/> |
 |Número máximo de variantes retornadas ao usar um caractere curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o operador booliano **Near** ou **ONEAR** .  <br/> |10.000 <sup>2</sup> <br/> |
-|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo, `time*` `one*`, ou `set*`.  <br/> |3   <br/> |
+|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo, `time*` `one*`, ou `set*`.  <br/> |3D  <br/> |
 |O número máximo de caixas de correio em uma pesquisa de conteúdo que você pode excluir itens em uma ação de "pesquisa e limpeza" (usando o comando **New-ComplianceSearchAction-Purge** ). Se a pesquisa de conteúdo para a qual você está fazendo uma ação de limpeza tiver mais caixas de correio de origem do que esse limite, a ação de limpeza falhará. Para obter mais informações sobre pesquisa e limpeza, confira [Pesquisar e excluir mensagens de email em sua organização do Office 365](search-for-and-delete-messages-in-your-organization.md).  <br/> |50.000  <br/> |
    
 > [!NOTE]

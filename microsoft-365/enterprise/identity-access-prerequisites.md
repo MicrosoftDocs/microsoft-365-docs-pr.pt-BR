@@ -5,6 +5,8 @@ author: BrendaCarter
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
@@ -13,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 667dfe355aca61eff99a85c2a2c29ee0b57e74c5
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: c1af88f489072490777cc6f2c7edfc66fd038bdf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030956"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601018"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -80,13 +82,13 @@ Os clientes a seguir são recomendados quando uma política de documentos seguro
 
 |Plataforma|Word/Excel/PowerPoint|OneNote|Aplicativo OneDrive|Aplicativo do SharePoint|Cliente de sincronização do OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|Com suporte|Com suporte|N/D|N/D|Versão prévia<sup>*</sup>|
-|Windows 8.1|Com suporte|Com suporte|N/D|N/D|Versão prévia<sup>*</sup>|
-|Windows 10|Com suporte|Com suporte|N/D|N/D|Versão prévia<sup>*</sup>|
+|Windows 7|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
+|Windows 8.1|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
+|Windows 10|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
 |Windows Phone 10|Sem suporte|Sem suporte|Não Suportado|Não Suportado|Não Suportado|
 |Android|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |iOS|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
-|macOS|Visualização Pública|Visualização Pública|N/D|N/D|Sem suporte|
+|macOS|Visualização Pública|Visualização Pública|Não disponível|Não disponível|Sem suporte|
 |Linux|Sem suporte|Sem suporte|Sem suporte|Sem suporte|Sem suporte|
 
 <sup>*</sup>Saiba mais sobre como usar o acesso condicional com o [cliente de sincronização do onedrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).

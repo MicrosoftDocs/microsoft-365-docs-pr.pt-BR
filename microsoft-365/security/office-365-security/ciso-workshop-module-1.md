@@ -1,5 +1,7 @@
 ---
 title: 'Workshop do diretor de segurança de informações (CISO), módulo 1: Microsoft cybersecurity briefing'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: fa572e24a549be2f8f9a56d3f83e53d43a6c5294
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: e90c26575db04afffd5e5c2722b75a1c7235523d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517510"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599918"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>Módulo 1 do CISO Workshop: Microsoft cybersecurity
 

@@ -1,5 +1,7 @@
 ---
 title: Exibir documentos em um conjunto de revisão
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: e9d5b73307d371ac221b42a67368f358a37dde60
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aa61c9c2fd79625249384f12a2545f976fdae538
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073292"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601238"
 ---
 # <a name="view-documents-in-a-review-set"></a>Exibir documentos em um conjunto de revisão
 

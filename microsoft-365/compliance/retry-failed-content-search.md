@@ -1,5 +1,7 @@
 ---
 title: Repetir uma pesquisa de conteúdo para resolver um erro de localização de conteúdo
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use o botão repetir para resolver pesquisas de conteúdo que têm erros de local de conteúdo.
-ms.openlocfilehash: b35c2985efeafa3192a2404047fe62e28e04157e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: ce88749a887fea57e977e210de1eda40268cb832
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685007"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601618"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Repetir uma pesquisa de conteúdo para resolver um erro de localização de conteúdo
 

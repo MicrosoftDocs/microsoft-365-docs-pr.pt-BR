@@ -1,5 +1,7 @@
 ---
 title: Usando o explorador de conteúdo de classificação de dados (visualização)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 8a795e0582599dc3160f896a6361b773caa6c4e4
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 71ec7b4e27a6f125754e693ecb5239c66404a9ad
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823793"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628068"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>Usando o explorador de conteúdo de classificação de dados (visualização)
 
@@ -49,11 +51,11 @@ Um [rótulo de retenção](labels.md) permite definir por quanto tempo um item r
 
 Há duas funções que concedem acesso ao Explorador de conteúdo:
 
-- **Visualizador de Listas do Explorador de Conteúdo**: a associação nesta função permite que você veja cada item e seu local.
+- **Visualizador de Listas do Explorador de Conteúdo**: a associação neste grupo de função permite que você veja cada item e seu local.
 
-- **Visualizador de Conteúdos do Explorador de Conteúdo**: a associação nesta função permite exibir o conteúdo de cada item na lista.
+- **Visualizador de Conteúdos do Explorador de Conteúdo**: a associação neste grupo de função permite exibir o conteúdo de cada item na lista.
 
-A conta que você usa para acessar o Explorador de conteúdo deve estar em uma ou em ambas as funções. Essas são funções independentes e não cumulativas. Por exemplo, se você deseja conceder a uma conta a capacidade de exibir apenas os itens e seus locais, conceda direitos ao visualizador de Listas do Explorador de Conteúdo. Se você deseja que a mesma conta também possa exibir o conteúdo dos itens da lista, conceda também direitos ao visualizador de Conteúdos do Explorador de Conteúdo.
+A conta que você usa para acessar o Explorador de conteúdo deve estar em uma ou em ambas os grupos de funções. Esses são grupos de funções independentes e não são cumulativos. Por exemplo, se você deseja conceder a uma conta a capacidade de exibir apenas os itens e seus locais, conceda direitos ao visualizador de Listas do Explorador de Conteúdo. Se você deseja que a mesma conta também possa exibir o conteúdo dos itens da lista, conceda também direitos ao visualizador de Conteúdos do Explorador de Conteúdo.
 
 ### <a name="how-to-use-content-explorer"></a>Como usar o explorador de conteúdo
 

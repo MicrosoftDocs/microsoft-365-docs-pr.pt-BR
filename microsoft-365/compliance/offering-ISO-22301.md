@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 08f05939e6cd4ebdff81fb2fd2fda47bac05e882
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 0c3898fd808a588578cba29f7f40b8d5be183e1c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260029"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602258"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012
 
@@ -75,7 +77,7 @@ Sim. Se a sua empresa exige a certificação ISO 22301 para as implementações 
 - [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Descrição do Programa de Gerenciamento de Continuidade de Negócios do Microsoft Enterprise](https://go.microsoft.com/fwlink/p/?linkid=2092212)
-- [Gerenciador de Conformidade](https://go.microsoft.com/fwlink/p/?linkid=2092329)
+- [Pontuação de Conformidade](compliance-score.md)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta

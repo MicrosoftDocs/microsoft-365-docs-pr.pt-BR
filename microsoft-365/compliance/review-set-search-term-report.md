@@ -1,5 +1,7 @@
 ---
 title: Gerar relatório de termo de pesquisa para um conjunto de revisão
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: bb65745f92d1f77e6cc3224832c0a9871e567ca5
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: f3421c62f0c7ac519ad44fc05174cd76872551d3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558468"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601608"
 ---
 # <a name="generate-search-term-report-for-a-review-set"></a>Gerar relatório de termo de pesquisa para um conjunto de revisão
 

@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365'
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: e9c68e4fafb1e9537b403965b4360806938c6a6f
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: da047d21094854f15fdb39fc46fd046a1c4605ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370418"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600958"
 ---
 # <a name="step-7-configure-privileged-access-management-for-office-365"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365
 
@@ -42,10 +44,10 @@ Para saber mais, confira o tópico [Gerenciamento do acesso privilegiado no Offi
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de teste, consulte o [Guia de laboratório de teste de gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Para praticar essa configuração em um ambiente de laboratório de testes, confira o [Guia de laboratório de testes de gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
 |||
 
-Como um ponto de verificação provisório, confira os [Critérios de saída](infoprotect-exit-criteria.md#crit-infoprotect-step7) correspondentes desta etapa.
+Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step7) correspondente desta etapa.
 
 ## <a name="next-step"></a>Próxima etapa
 

@@ -1,5 +1,7 @@
 ---
 title: Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,20 +16,20 @@ search.appverid:
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: Use o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &. Você também pode configurar a lista de palavras-chave ao criar ou editar uma consulta de pesquisa para obter estatísticas aprimoradas que mostrem quantos itens corresponderam a cada palavra-chave ou frase de palavra-chave.
-ms.openlocfilehash: 558d8bd269d1c1d8bfcf3f15452a83de74f3e38d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 80a2abc2392a21439219d5bd5d462a4671a926a8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073290"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601248"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
 
-Depois de criar e executar uma pesquisa de conteúdo, você pode exibir estatísticas sobre os resultados estimados da pesquisa. Isso inclui um resumo dos resultados da pesquisa (semelhante ao resumo dos resultados de pesquisa estimados exibidos no painel de detalhes), as estatísticas de consulta, como o número de locais de conteúdo com itens que correspondem à consulta de pesquisa e o nome dos locais de conteúdo que possuem os itens mais coincidentes. Você pode exibir estatísticas para uma ou mais pesquisas de conteúdo. Isso permite que você compare rapidamente os resultados de várias pesquisas e tome decisões sobre a eficácia de suas consultas de pesquisa.
+Depois de criar e executar uma pesquisa de conteúdo, você pode exibir estatísticas sobre os resultados estimados da pesquisa. Isso inclui um resumo dos resultados da pesquisa (semelhante ao resumo dos resultados de pesquisa estimados exibidos no painel de detalhes), as estatísticas de consulta, como o número de locais de conteúdo com itens que correspondem à consulta de pesquisa e o nome dos locais de conteúdo que possuem os itens mais coincidentes. Você poderá exibir as estatísticas de uma ou mais pesquisas de conteúdo. Isso permite que você compare rapidamente os resultados de várias pesquisas e tome decisões sobre a eficácia de suas consultas de pesquisa.
   
 Além disso, você pode configurar as pesquisas novas e existentes para retornar as estatísticas de cada palavra-chave em uma consulta de pesquisa. Isso permite que você compare o número de resultados para cada palavra-chave em uma consulta e compare as estatísticas de palavra-chave de várias pesquisas.
   
-Você também pode baixar as estatísticas de pesquisa e as estatísticas de palavra-chave para um arquivo CSV. Isso permite que você use os recursos de filtragem e classificação no Excel para comparar resultados e preparar relatórios para seus resultados de pesquisa.
+Você também poderá baixar as estatísticas da pesquisa e as estatísticas da palavra-chave para um arquivo CSV. Isso permite usar os recursos de filtragem e classificação no Excel para comparar resultados e preparar relatórios para os resultados da pesquisa.
   
 ## <a name="get-statistics-for-content-searches"></a>Obter estatísticas para pesquisas de conteúdo
 
@@ -88,7 +90,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     **Principais locais**
     
-    Esta página exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo pesquisado. Os principais locais de 1.000 são exibidos. Se você exibir estatísticas para várias pesquisas, os principais locais de 1.000 para cada pesquisa são exibidos. Observe que um local de conteúdo não está incluído nesta página se ela não contiver nenhum item correspondente à consulta de pesquisa.
+    Esta página exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo pesquisado. Os primeiros 1.000 locais são exibidos. Se você exibir estatísticas para várias pesquisas, os principais locais de 1.000 para cada pesquisa são exibidos. Observe que um local de conteúdo não está incluído nesta página se ela não contiver nenhum item correspondente à consulta de pesquisa.
     
     ![Estatísticas sobre o número de itens encontrados nos locais de conteúdo que foram pesquisados](media/35a820b0-85d9-45d1-9a0c-c74bec803e67.png)
   

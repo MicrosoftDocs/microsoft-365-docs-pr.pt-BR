@@ -1,5 +1,7 @@
 ---
 title: Solução de problemas de barreiras de informações
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use este artigo como um guia para solucionar problemas de barreiras de informações.
-ms.openlocfilehash: 07c3c6fc12ec1b288ae9499715ddadb21764f6ef
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b4c9bb46bc1e3c13cdc8b46a95733558714a44df
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970799"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600588"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 

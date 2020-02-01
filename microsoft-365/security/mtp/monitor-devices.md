@@ -5,6 +5,8 @@ keywords: segurança, malware, Microsoft 365, M365, central de segurança, monit
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -12,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e6a12f361a824a9abf96b92e27ae99f0309c6d6b
-ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
+ms.openlocfilehash: cecc84c1df3ccba3eea75d29aa5f293909d5d51f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41122440"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600158"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de dispositivos no centro de segurança do Microsoft 365
 

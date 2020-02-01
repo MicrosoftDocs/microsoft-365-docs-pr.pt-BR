@@ -1,5 +1,7 @@
 ---
 title: Simulador de Ataque no Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode usar o simulador de ataques para executar cenários de ataque realistas em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real atinja sua empresa.
-ms.openlocfilehash: e5f304a7c706875216c58330b1225d341b2b59df
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 0bdb4a0ffac139f45d842025238d3780f41d594c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971929"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599818"
 ---
 # <a name="attack-simulator-in-office-365"></a>Simulador de Ataque no Office 365
 
@@ -137,7 +139,7 @@ Um ataque de senha de força bruta em relação a uma organização é geralment
 
 ## <a name="new-features-in-attack-simulator"></a>Novos recursos no simulador de ataques
 
-Novos recursos foram adicionados recentemente ao simulador de ataques. Entre eles:
+Novos recursos foram adicionados recentemente ao simulador de ataques. Entre elas:
 
 - Recursos avançados de relatórios. A capacidade de ver dados como o tempo mais rápido (ou mais lento) para abrir uma mensagem de email de simulação de ataque, o tempo mais rápido (ou mais lento) para clicar em um link na mensagem e mais visualizações.
 
@@ -145,7 +147,7 @@ Novos recursos foram adicionados recentemente ao simulador de ataques. Entre ele
 
 - Importação de destinatário de CSV. A capacidade de usar um arquivo. csv para importar sua lista de destinatários de destino em vez de usar o seletor de catálogo de endereços.
 
-Mais novos recursos serão disponibilizados em breve para o simulador de ataques. Entre eles:
+Mais novos recursos serão disponibilizados em breve para o simulador de ataques. Entre elas:
 
 - Simulação de phishing de carga de anexos. A capacidade de usar um anexo como a carga de simulação de phishing no lugar de uma URL.
 

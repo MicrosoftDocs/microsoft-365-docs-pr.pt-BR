@@ -1,5 +1,7 @@
 ---
 title: Configurar a política de spam de saída
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: 43939022dc365f5b28418d96ae1217e159312da1
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c17772db2a2961cade180a5c1e0403ae8450007f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808436"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599558"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Configurar a política de spam de saída
 
@@ -103,7 +105,7 @@ Utilize o procedimento a seguir para editar a política de spam de saída padrã
 
 8. Clique em **salvar**
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
 

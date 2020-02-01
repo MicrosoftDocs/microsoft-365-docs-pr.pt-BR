@@ -1,5 +1,7 @@
 ---
 title: Práticas recomendadas para configurar o EOP e o Office 365 ATP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas recomendadas para a EOP (Proteção do Exchange Online) a fim de evitar erros comuns de configuração e obter êxito.
-ms.openlocfilehash: 3146cb9a5141dfe87e9f31791c107be296121126
-ms.sourcegitcommit: e27fe0d97b9c446b1cc80561f7190d08c12d9e0c
+ms.openlocfilehash: 053b5f551be528e7eedb3c218bb1e49ab6b8be91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39262694"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599738"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Práticas recomendadas para configurar o EOP e o Office 365 ATP
 
@@ -55,7 +57,7 @@ Nome do recurso de segurança|Standard|Impede|Comentário|
 |Bloqueio de borda baseado em diretório (DBEB)|Habilitado|Habilitado|Tipo de domínio = autoritativo|
 |[Configurar a autenticação multifator para todas as contas de administrador](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 Solucionar problemas gerais e tendências usando os relatórios no centro de administração. Encontre um ponto de dados específico sobre uma mensagem usando a ferramenta de Rastreamento de Mensagem. Saiba mais sobre relatórios em [Relatórios e rastreamento de mensagem no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Saiba mais sobre a ferramenta de Rastreamento de Mensagem em [Trace an Email Message](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message).
 

@@ -1,5 +1,7 @@
 ---
 title: 'Workshop do diretor de segurança de informações (CISO), módulo 4a: estratégia de proteção contra ameaças'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: f136f8ccb12ac09048b0b6a9de22ebb37fcc40dd
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: 2c08570165f893950dc2588ab33b45be36a3816d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517570"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599688"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Módulo CISO Workshop 4a: estratégia de proteção contra ameaças
 

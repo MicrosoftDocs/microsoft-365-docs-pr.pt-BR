@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes sobre a proteção antispam
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP).
-ms.openlocfilehash: b782c58bc3694bd27024f9aa7cdb2316c6d2a48a
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 9be51b4967a558aec254262052d7c01446a7d643
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971959"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599868"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -183,7 +185,7 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
     O Hotmail usa um programa chamado Serviços de Dados de Rede Inteligente do Hotmail que permite que os remetentes verifiquem as reclamações enviadas pelos usuários finais. O SNDS é o portal principal para a solução de problemas de entrega ao Hotmail.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Proteção antispam de emails do Office 365](anti-spam-protection.md)
 

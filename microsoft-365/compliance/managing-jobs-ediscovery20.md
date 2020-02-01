@@ -1,5 +1,7 @@
 ---
 title: Gerenciar trabalhos na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 37e7712fcd8f499ad48434199aa3f87ea84f7f50
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: f829c6735bc8326a775a9d259da8b64aaa8b02ac
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962228"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600458"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Gerenciar trabalhos na descoberta eletrônica avançada
 

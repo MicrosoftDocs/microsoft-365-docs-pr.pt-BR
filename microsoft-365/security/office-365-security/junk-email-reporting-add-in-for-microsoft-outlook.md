@@ -1,5 +1,7 @@
 ---
 title: Suplemento para o Microsoft Outlook relatório de lixo eletrônico
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -12,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento Relatório de Lixo Eletrônico para o Microsoft Outlook permite que os usuários do Exchange Online e do Proteção do Exchange Online relatem o lixo eletrônico (spam) com facilidade para a análise da Microsoft a fim de ajudar a reduzir o número e o impacto de futuras mensagens de lixo eletrônico filtradas pelo serviço. Compatível com o Microsoft Outlook 2013, o Outlook 2010 ou o Outlook 2007 no Windows 7, Windows 8 ou Windows 10, o suplemento de relatório oferece os seguintes benefícios:'
-ms.openlocfilehash: f92f4308b14d8512eeef534124e4d5dde518c603
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ea616cd56fc1e5e7e98e627a8c99c8490c47f164
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072408"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599068"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Suplemento para o Microsoft Outlook relatório de lixo eletrônico
 

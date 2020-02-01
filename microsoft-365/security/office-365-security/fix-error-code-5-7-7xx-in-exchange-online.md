@@ -1,5 +1,7 @@
 ---
 title: Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como corrigir problemas de email com o código de erro 5.7.7 XX no Exchange Online (locatário bloqueado pelo envio de emails).
-ms.openlocfilehash: 4e82df78cfb83865142defb14cec0841ab29ba95
-ms.sourcegitcommit: 55cb11c2475f40d0f1c64cf45446bf383d7d5f86
+ms.openlocfilehash: e8e134793db946ddfc3ef09d0adc19b2a04df30b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002971"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599278"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online
 

@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
+f1.keywords:
+- NOCSH
 ms.author: greglin
-ms.openlocfilehash: 27ed024c47ac671625563d8bf060017cb1757c4c
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 0078931be23039dac3a323f4747494803d1acd4d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112685"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602848"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -29,7 +31,7 @@ Se você tiver computadores que executam o Windows 7 ou o Windows 8,1, recomenda
 
 Siga estas etapas para configurar e implantar uma imagem do Windows 10 Enterprise usando o Gerenciador de configuração do Microsoft Endpoint como uma atualização in-loco.
 
-## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>A implantação do Windows 10 com o pôster do Configuration Manager
+## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>Pôster de implantação do Windows 10 com o Gerenciador de Configurações
 
 O pôster do Gerenciador de configurações é uma página no modo paisagem (17x11). Clique na imagem abaixo para exibir um PDF no navegador. 
 

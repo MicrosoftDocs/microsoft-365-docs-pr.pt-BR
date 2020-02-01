@@ -1,5 +1,7 @@
 ---
 title: Visão geral das barreiras de informações
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
-ms.openlocfilehash: 352f101a443b015840b09b82626f7dbee9cfb79e
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 95d3268830fe506000416e2281a49325fb95efec
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970829"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600658"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 

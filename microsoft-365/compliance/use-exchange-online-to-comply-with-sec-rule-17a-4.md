@@ -1,5 +1,7 @@
 ---
 title: Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Cohasset Associates comprovou que, quando o Exchange Online e o Centro de Conformidade e Segurança são configurados conforme recomendado, eles atendem aos requisitos de armazenamento relevantes das normas 1.31(c)-(d) da CFTC, 4511 da FINRA e 17a-4 da SEC. A avaliação está disponível para baixar.
-ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
-ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
+ms.openlocfilehash: dc61521043d176781c2a6fbd9e1b283cc93eb270
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41122420"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628587"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
 
@@ -67,6 +69,8 @@ O Bloqueio de Preservação pode ajudar na conformidade com os requisitos regula
 
 No momento, há algumas limitações no Exchange Online:
 
-- A auditoria em nível de item não está disponível para caixas de correio de Grupo do Office 365.
 - As comunicações encadeadas não estão disponíveis para mensagens de canal e chat do Teams.
 - As curtidas não são retidas para mensagens de canal e chat do Teams.
+
+> [!NOTE]
+> A auditoria em nível de item já está disponível para caixas de correio para Grupo do Office 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).

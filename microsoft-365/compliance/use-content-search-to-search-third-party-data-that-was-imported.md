@@ -1,5 +1,7 @@
 ---
 title: Usar a pesquisa de conteúdo para pesquisar dados de terceiros importados para o Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Use a ferramenta de descoberta eletrônica de pesquisa de conteúdo para pesquisar itens importados para caixas de correio no Office 365 de uma fonte de dados de terceiros. Você pode criar uma consulta para pesquisar todos os itens importados ou criar uma consulta para Pesquisar tipos de dados específicos de terceiros. Este artigo lista os valores que podem ser usados em uma consulta de palavra-chave para pesquisar os tipos de dados de terceiros que podem ser importados para o Office 365.
-ms.openlocfilehash: 57a39049ae1df3707a96311c9138195b7cc4c83a
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 005290dc2dae203c4fddc1c78d3007306c613483
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684991"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601318"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-to-office-365"></a>Usar a pesquisa de conteúdo para pesquisar dados de terceiros importados para o Office 365
 

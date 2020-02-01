@@ -7,6 +7,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
@@ -17,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2175ca328678e271056ae75d1bcbb7dc70a2198d
-ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
+ms.openlocfilehash: d45be77abd404f87484d0f8390f09f1b9bc3b8ce
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "40881962"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599998"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 

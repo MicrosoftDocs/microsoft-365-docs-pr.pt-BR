@@ -1,5 +1,7 @@
 ---
 title: Evitar caracteres inválidos nas regras e política de filtro de spam
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Fornece ajuda para os administradores que têm caracteres inválidos na configuração antispam e estão em problemas ao tentar usar o centro de conformidade &amp; de segurança.
-ms.openlocfilehash: 5e6fa97a3f325b6fc6fdc449ba4a61282f67b644
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: f1841eb86583a48acecde0770f030b626323fa8e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866713"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599108"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>Evitar caracteres inválidos em suas regras de filtro de spam e política de filtro de spam 
 
@@ -52,7 +54,7 @@ Depois de identificar a política e as regras que contêm caracteres inválidos,
     ```  
 
   
- ## <a name="for-more-information"></a>Para saber mais
+ ## <a name="for-more-information"></a>Para obter mais informações
 
 [Gerenciamento de ameaças no centro &amp; de conformidade de segurança](protect-against-threats.md)
   

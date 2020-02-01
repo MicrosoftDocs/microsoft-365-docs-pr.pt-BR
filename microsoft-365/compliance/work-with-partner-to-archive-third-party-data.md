@@ -1,5 +1,7 @@
 ---
 title: Trabalhar com um parceiro para arquivar dados de terceiros no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Sua organização pode trabalhar com um parceiro da Microsoft para configurar um conector personalizado para importar dados de terceiros de fontes de dados como o Salesforce, o Yahoo Messenger ou o Yammer. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar os recursos de conformidade do Office 365, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 9a1767baadb237196161032166f78c06dc7e099b
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d17c79ed4d6fa662a3416e9952ac732a8d4d9d9f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685023"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601218"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Trabalhar com um parceiro para arquivar dados de terceiros no Office 365
 

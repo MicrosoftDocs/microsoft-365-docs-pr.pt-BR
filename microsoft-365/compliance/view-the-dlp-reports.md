@@ -1,5 +1,7 @@
 ---
 title: Exibir os relatórios de prevenção contra perda de dados
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os relatórios de DLP no Office 365, você pode exibir rapidamente o número de correspondências de política de DLP, substituições ou falsos positivos; Veja se eles estão em tendência de cima ou para baixo ao longo do tempo; filtrar o relatório de formas diferentes; e exiba detalhes adicionais selecionando um ponto em uma linha no gráfico.
-ms.openlocfilehash: 94569ef24814204263820fb5fdb7a8cb72da20e4
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 1605e2ebed9ada5903402ae5facdb40ce2f12c39
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684805"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601228"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Exibir os relatórios de prevenção contra perda de dados
 
@@ -31,7 +33,7 @@ Após criar as políticas de prevenção de perda de dados (DLP), convém verifi
     
   - Se concentrar em períodos de tempo específicos e entender os motivos para picos e tendências.
     
-  - Descubra os processos de negócios que violam as políticas de DLP da sua organização.
+  - Descobrir processos empresariais que violam as políticas DLP da organização.
     
   - Entenda qualquer impacto nos negócios das políticas de DLP observando quais ações estão sendo aplicadas ao conteúdo.
     
@@ -83,17 +85,17 @@ Para exibir relatórios de DLP no centro de conformidade & segurança, você pre
 
 ## <a name="find-the-cmdlets-for-the-dlp-reports"></a>Localizar os cmdlets dos relatórios de DLP
 
-Para usar a maioria dos cmdlets do centro de &amp; conformidade de segurança, você precisa:
+Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, você precisa:
   
-1. [Conectar ao &amp;Centro de Conformidade e Segurança do Office 365 usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Conectar-se ao Centro de Conformidade &amp; Segurança do Office 365 usando o PowerShell Remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. Use qualquer um destes [cmdlets do &amp; centro de conformidade de segurança do Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
     
-No entanto, os relatórios de DLP precisam de dados de recebimento no Office 365, incluindo o Exchange Online. Por esse motivo, os cmdlets dos relatórios DLP estão disponíveis no PowerShell do Exchange Online, e não no &amp; PowerShell do centro de conformidade de segurança. Portanto, para usar os cmdlets dos relatórios de DLP, você precisa:
+No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o Exchange Online. Por esse motivo, os cmdlets dos relatórios DLP estão disponíveis no PowerShell do Exchange Online, e não no &amp; PowerShell do centro de conformidade de segurança. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
-1. [Conectar-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
+1. [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
     
-2. Use qualquer um destes cmdlets para os relatórios de DLP:
+2. Usar qualquer um destes cmdlets para os relatórios DLP:
     
       - [Get-DlpDetectionsReport](https://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
     

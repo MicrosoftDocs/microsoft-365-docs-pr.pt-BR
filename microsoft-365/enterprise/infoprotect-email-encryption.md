@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 6: configurar criptografia de email'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: ef9da1d6aea20ef965b56006d91c4da3c0ad18ab
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 252a5f76197deb1034d200553308a281ef079957
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370428"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600918"
 ---
 # <a name="step-6-configure-email-encryption"></a>Etapa 6: configurar criptografia de email
 

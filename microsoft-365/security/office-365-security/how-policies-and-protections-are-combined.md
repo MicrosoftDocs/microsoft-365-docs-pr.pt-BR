@@ -2,6 +2,8 @@
 title: Como as políticas e proteções são combinadas quando os emails são sinalizados em vermelho
 description: Descreve quais políticas e proteções se aplicam quando o email encontra várias proteções e é verificado por várias formas de detecção. Quais políticas se aplicam e quais ações tomar, quando o email está marcado como malware, spam, spam de alta confiança, phishing e massa por EOP e/ou ATP.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, ATP, Microsoft defender ATP, Office 365 ATP, Azure ATP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
@@ -12,12 +14,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 4ca5333f4b07878f8c7d206b78cf884f4e4eec82
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c6b3fcc931aa396187eb81d0db495f77877f667b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807977"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599168"
 ---
 # <a name="what-policy-applies-when-multiple-protection-methods-and-detection-scans-run-on-your-email"></a>Qual política se aplica quando vários métodos de proteção e verificações de detecção são executados em seu email
 
@@ -32,8 +34,8 @@ As políticas abaixo se aplicam a _todas as organizações_.
 |1     | Malware      | MALW      | Política de malware   |
 |duas     | Phishing     | PHSH     | Configurar suas políticas de filtro de spam     |
 |3D     | Spam de alta confiança      | HSPM        | Configurar suas políticas de filtro de spam        |
-|quatro     | Spoofing        | SPOOF        | Política anti-phishing, inteligência de falsificação        |
-|0,5     | Spam         | SPM         | Configurar suas políticas de filtro de spam         |
+|4      | Spoofing        | SPOOF        | Política anti-phishing, inteligência de falsificação        |
+|5      | Spam         | SPM         | Configurar suas políticas de filtro de spam         |
 |6      | Em massa         | BULK        | Configurar suas políticas de filtro de spam         |
 
 Além disso, essas políticas se aplicam a _organizações com ATP_.

@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec81552de43d2e67a4987b0efbaf5582be26e40
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3b1f93b301ba4db44b7260ae588688acf648e345
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804444"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602138"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>Ministério da tecnologia de informações e eletrônicos (MeitY)
 
@@ -60,7 +62,7 @@ Tornar os serviços do governo disponíveis para o cidadãos online é uma parte
 - [Ministério de eletrônicos e tecnologia de informações](https://meity.gov.in/)
 - [Iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Provedores de serviços de nuvem credenciados](https://meity.gov.in/content/gi-cloud-meghraj)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

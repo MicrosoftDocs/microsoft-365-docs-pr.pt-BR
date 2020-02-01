@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: de28f982fe7615d0ca81af756af81b3c25fc9de1
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 962524f29b72d46500869f4f0059959a2b77ff3e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807686"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601858"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>Interações de títulos e do Exchange: SCI (conformidade e integridade dos sistemas regulamentares)
 
@@ -71,7 +73,7 @@ Organizações financeiras ou entidades SCI que estão sujeitas a essa regulamen
 - [Conformidade de serviços financeiros no Azure](https://aka.ms/FinServ-Compliance-Azure)
 - [Serviços financeiros da Microsoft](https://aka.ms/FinServ-Compliance)
 - [Regra da Microsoft e da SEC 17a-4](offering-SEC-17a-4.md)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

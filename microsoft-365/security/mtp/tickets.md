@@ -5,6 +5,8 @@ keywords: segurança, Microsoft 365, M365, Pontuação segura, central de segura
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -15,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0d47ce82b5138827c4ae1c1ea29c902a8cd77cc0
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 26e227b4b1e8047ca962ca9e65b139bacae55e03
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233872"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599988"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 

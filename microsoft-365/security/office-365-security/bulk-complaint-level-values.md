@@ -1,5 +1,7 @@
 ---
 title: Valores de nível de reclamação em massa, remetentes de email em massa, níveis de BCL, como a BCL funciona, classificações de BCL, antispam, cabeçalho antispam, filtragem de email em massa, emails em massa
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -14,14 +16,14 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os valores de nível de reclamar em massa (BCL) no Office 365.
-ms.openlocfilehash: 822c84ea9b36cfdae1d8faccf7e0c7d9f747c917
-ms.sourcegitcommit: 7830969c8fa41724359657910716f3ce312cc2cf
+ms.openlocfilehash: b0eb922323421834eae77b8c5430f1bd8f48c8ee
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37650113"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599718"
 ---
-# <a name="bulk-complaint-level-values"></a>Valores de nível de reclamação em massa
+# <a name="bulk-complaint-level-values"></a>Valores do nível de reclamação em massa
 
 Os emails em massa variam em seus padrões de envio, criação de conteúdo e práticas de aquisição de lista. Alguns são bons remetentes em massa que enviam mensagens desejadas com conteúdo relevante para seus assinantes. Essas mensagens geram poucas reclamações de destinatários. Outros remetentes em massa enviam mensagens não solicitadas que parecem muito parecidas com spam e geram muitas queixas de destinatários.
 

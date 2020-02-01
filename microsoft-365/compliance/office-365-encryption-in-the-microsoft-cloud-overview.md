@@ -1,5 +1,7 @@
 ---
 title: Criptografia no Microsoft Cloud
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: Uma visão geral da criptografia na nuvem da Microsoft.
-ms.openlocfilehash: 1ca3d1711589ab2d65a27a8d1eeb6da265ce727b
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11cce463cf953bd9f8ea0df61e3fe97b356608eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38689999"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601818"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Criptografia no Microsoft Cloud
 
@@ -40,8 +42,8 @@ O FIPS 140-2 é um padrão projetado especificamente para validar módulos de pr
 A Microsoft certifica os módulos de criptografia subjacente usados em nossos serviços em nuvem com cada nova versão do sistema operacional Windows:
 
 - Governo dos EUA do Azure e Azure
-- Dynamics 365 e Dynamics 365 governo dos EUA
-- Office 365, Office 365 governo dos EUA e Office 365 defesa do governo dos EUA
+- Dynamics 365 e Dynamics 365 U.S. Government
+- Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense
 
 A criptografia de dados do cliente do Office 365 em repouso é fornecida por várias tecnologias do lado do serviço, incluindo BitLocker, DKM, criptografia do serviço de armazenamento do Azure e criptografia de serviço no Exchange Online, Skype for Business, OneDrive for Business e SharePoint Modo. A criptografia de serviço do Office 365 inclui uma opção para usar chaves de criptografia gerenciadas pelo cliente armazenadas no Azure Key Vault. Essa opção de chave gerenciada pelo cliente, chamada de [chave do cliente do Office 365](https://support.office.com/article/f2cd475a-e592-46cf-80a3-1bfb0fa17697), está disponível para o Exchange Online, o SharePoint Online, o Skype for Business e o onedrive for Business.
 

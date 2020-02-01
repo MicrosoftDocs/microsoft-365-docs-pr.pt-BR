@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6d7bcb6beccc9059d3a7f75fc52b307648f314c2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d9d0c213fcca5b991b4912d5b9158e2d3836aff9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804224"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602018"
 ---
 # <a name="us-section-508"></a>Seção U.S. 508
 
@@ -25,7 +27,7 @@ ms.locfileid: "40804224"
 
 Os Estados Unidos da Congresso alteraram o Rehabilitation Act no 1998 e 2000 para exigir que as agências federais criem seus produtos eletrônicos e de tecnologia da informação (EIT), como software, hardware, conteúdo eletrônico e documentação de suporte, acessível para pessoas com deficiências. A seção 508 da equipe de força dos Estados Unidos Rehabilitation ato de 1973 (29 de código § 794d), conforme emendado, determina que as agências federais adquirir, manter e usar o EIT de uma maneira que garante que os funcionários federais com deficiências tenham acesso comparável e usem o, dados e EIT em relação a outros funcionários federais.
 
-A Microsoft é um grande provedor de softwares e serviços em nuvem para governos federais e estaduais dos EUA.  Para ajudar os clientes governamentais a tomar decisões de compras, a Microsoft publica relatórios de conformidade de acessibilidade descrevendo a extensão à qual nossos produtos e serviços dão suporte aos critérios da seção 508.  Essas informações podem ajudar os clientes da Microsoft a determinar se um produto ou serviço específico atenderá às suas necessidades específicas.
+A Microsoft é um grande provedor de softwares e serviços em nuvem para governos federais e estaduais dos EUA.  Para ajudar os clientes governamentais a tomar decisões de compras, a Microsoft publica relatórios de conformidade de acessibilidade descrevendo a extensão à qual nossos produtos e serviços dão suporte aos critérios da seção 508.  Essas informações podem ajudar os clientes da Microsoft a determinar se um determinado produto ou serviço atenderá às suas necessidades específicas.
 
 ## <a name="microsoft-and-us-section-508"></a>Seção da Microsoft e dos EUA 508
 
@@ -38,7 +40,7 @@ A consideração da Microsoft da seção 508 dos EUA no desenvolvimento de produ
 - Dynamics 365 e Dynamics 365 U.S. Government
 - Intune
 - [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Windows Server 2016
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Relatórios de Conformidade de Acessibilidade da Microsoft
@@ -51,7 +53,7 @@ Encontre os [relatórios de conformidade](https://go.microsoft.com/fwlink/p/?lin
 - [Centro de Acessibilidade do Office 365](https://go.microsoft.com/fwlink/p/?linkid=2051801): recursos do Office 365 para pessoas com deficiências.
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): suporte dedicado para clientes corporativos com questões de acessibilidade sobre nossos produtos e serviços ou conformidade.
 - [Programa de teste confiável DHS](https://go.microsoft.com/fwlink/?linkid=2052171): Obtenha informações sobre o programa de teste confiável do departamento de Homeland Security (DHS), no qual a Microsoft participa.
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

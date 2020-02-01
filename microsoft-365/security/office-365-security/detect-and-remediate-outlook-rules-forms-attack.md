@@ -1,5 +1,7 @@
 ---
 title: Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
-ms.openlocfilehash: d5f4a653463f4105df025bf29679465ca5335098
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c15eeb057d14cbb252bda0767a15e7c4788ece9f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970787"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599438"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Office 365
 
@@ -234,7 +236,7 @@ Os clientes com instalações do Exchange no local devem considerar o bloqueio d
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
 
-Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [mapa de segurança do Office 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger seu locatário do Office 365.
+Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.
 
 - Tarefas a realizar nos primeiros 30 dias. Estas têm efeito imediato e baixo impacto para seus usuários.
 

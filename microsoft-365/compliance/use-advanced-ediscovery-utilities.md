@@ -1,5 +1,7 @@
 ---
 title: Usar os utilitários de descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: 'Saiba mais sobre os utilitários na descoberta eletrônica avançada do Office 365, incluindo log de caso, dados claros, erros de processo, modificar relevância e análise de transparência.  '
-ms.openlocfilehash: fd7ed1afe4b9204665e58b393c79bbb47b7598e3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3952d1ec58b3f55f997079cec16f16ddb301ed89
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802326"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601328"
 ---
 # <a name="use-office-365-advanced-ediscovery-utilities"></a>Usar os utilitários de descoberta eletrônica avançada do Office 365
 

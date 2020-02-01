@@ -1,5 +1,7 @@
 ---
 title: Manter sua organização segura com os recursos de investigação e resposta contra ameaças do Office 365
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Saiba como os recursos de investigação e resposta do Office 365 podem ajudar sua organização a detectar invasões e ameaças, e reduzir rapidamente e recuperar contra ameaças.
-ms.openlocfilehash: f51a4de9b0bd1da43ccbd2d5e814f0fa6ef87459
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 2f709c555974444b8f2a09d87705043d65240090
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971779"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599098"
 ---
 # <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Manter sua organização segura com os recursos de investigação e resposta contra ameaças do Office 365
 

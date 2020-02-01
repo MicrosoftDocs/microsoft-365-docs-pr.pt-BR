@@ -1,5 +1,7 @@
 ---
 title: Localizar e liberar mensagens em quarentena como um administrador
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: Este tópico descreve como os administradores do Exchange Online e do Exchange Online Protection (EOP) podem localizar, liberar e relatar mensagens que estejam na quarentena do Centro de administração do Exchange (EAC).
-ms.openlocfilehash: 7d7288b85660c5569c748a3cb24a1d3cd027b72d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: d7ea57f1dc78b21dae713ca1b9861abafacfc53a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971749"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599388"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Localizar e liberar mensagens em quarentena como um administrador
 
@@ -67,7 +69,7 @@ No Centro de administração do Exchange (EAC), você pode filtrar itens da quar
    6. **Expira**: é possível selecionar que a mensagem será excluída da quarentena nas próximas 24 horas ( **hoje**), nas próximas 48 horas ( **próximos 2 dias**), na próxima semana (próximos **7 dias**) ou você pode selecionar um intervalo de tempo personalizado durante o qual a mensagem será excluída da quarentena.
 
       > [!IMPORTANT]
-      > Por padrão, as mensagens de spam em quarentena são mantidas em quarentena por 30 dias, enquanto as mensagens em quarentena que correspondem a uma regra de fluxo de emails são mantidas em quarentena por até 30 dias, com base no período de retenção definido na sua política de filtro de conteúdo padrão. Após esse período de tempo, o Office 365 exclui as mensagens e elas não podem ser recuperadas. O período de retenção para mensagens em quarentena que correspondem a uma regra de fluxo de emails não é configurável. No entanto, o período de retenção para mensagens de spam em quarentena pode ser reduzido através da configuração **Reter spam por (dias)** nas suas políticas de filtro de conteúdo. Para saber mais, confira [Configure your spam filter policies](configure-your-spam-filter-policies.md).
+      > Por padrão, as mensagens de spam em quarentena são mantidas em quarentena por 30 dias, enquanto as mensagens em quarentena que correspondem a uma regra de fluxo de emails são mantidas em quarentena por até 30 dias, com base no período de retenção definido na sua política de filtro de conteúdo padrão. Após esse período de tempo, o Office 365 exclui as mensagens e elas não podem ser recuperadas. O período de retenção para mensagens em quarentena que correspondem a uma regra de fluxo de emails não é configurável. No entanto, o período de retenção para mensagens de spam em quarentena pode ser reduzido através da configuração **Reter spam por (dias)** nas suas políticas de filtro de conteúdo. Para obter mais informações, consulte [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md).
 
    7. **Tipo** Você pode especificar se deseja pesquisar por mensagens em quarentena que foram identificadas como **spam**ou se deseja pesquisar mensagens que correspondam a uma regra de fluxo de emails (**regra de transporte**).
 
@@ -184,6 +186,6 @@ Se você clicar em **Atualizar** ![ícone](../media/ITPro-EAC-RefreshIcon.gif) d
 
 Se você clicar no ícone **Atualizar**![ícone](../media/ITPro-EAC-RefreshIcon.gif) de atualização para atualizar seus dados e, em seguida, clicar duas vezes na mensagem, verá que ela foi liberada para os destinatários pretendidos.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Quarantine FAQ](quarantine-faq.md)

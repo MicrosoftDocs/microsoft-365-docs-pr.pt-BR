@@ -1,5 +1,7 @@
 ---
 title: Política de mensagens e conformidade no EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 206e6311-f96d-4c81-8ef2-171bcad4caa5
 description: O Microsoft Proteção do Exchange Online oferece recursos de política e conformidade de mensagens que podem ajudar você a gerenciar seus dados de email.
-ms.openlocfilehash: adcc98e058e9c8e4fe57e5fe93e71dab398777b9
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 1a9161b0d9eda24cc1314576031064f121860006
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441458"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598908"
 ---
 # <a name="messaging-policy-and-compliance-in-eop"></a>Política de mensagens e conformidade no EOP
 

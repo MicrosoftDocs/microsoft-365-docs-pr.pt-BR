@@ -1,5 +1,7 @@
 ---
 title: Inteligência de fluxo de emails no Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -11,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores no Office 365 (também conhecido como inteligência de fluxo de emails).
-ms.openlocfilehash: ee02be439cd3bd9405aea7a94410af794808f259
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: ea4fb56f0e303d243af02edf01e5d85b957a6368
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971769"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599048"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Inteligência de fluxo de emails no Office 365
 

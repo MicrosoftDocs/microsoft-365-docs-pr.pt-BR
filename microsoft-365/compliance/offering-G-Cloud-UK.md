@@ -5,6 +5,8 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 91f3575934f9007d8570898047f96202f83dc087
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804854"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602348"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
@@ -45,7 +47,7 @@ Saiba como acelerar sua implantação do Reino Unido G-Cloud V6 com nosso plano 
 - Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Office 365: Exchange Online, SharePoint Online e Skype for Business Online
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
@@ -112,7 +114,7 @@ O [Portal de Confiança de Serviços](https://support.office.com/article/Get-sta
 - [Princípios de segurança G-Cloud](https://aka.ms/UK-G-Cloud)
 - [Mercado digital](https://www.digitalmarketplace.service.gov.uk/)
 - [Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

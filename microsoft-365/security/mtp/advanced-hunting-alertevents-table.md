@@ -8,6 +8,8 @@ ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: lomayor
 author: lomayor
 ms.localizationpriority: medium
@@ -16,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f72658e552bcb7ce351eafa43ad950c0bc11cb69
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 02a3f50019321f68390d3eb9b76576f4e6dfdd8a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515822"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602768"
 ---
 # <a name="alertevents"></a>AlertEvents
 

@@ -1,5 +1,7 @@
 ---
 title: Temas
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ba57a89365c2a76dec215f56d7ed0755f27be12d
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 4387c5e8fc199f0f8642041473d5f28f2f9b401b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191197"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601378"
 ---
 # <a name="themes"></a>Temas
 

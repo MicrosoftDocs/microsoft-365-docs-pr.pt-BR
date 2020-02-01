@@ -1,5 +1,7 @@
 ---
 title: Criar listas de remetentes seguros no Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam.
-ms.openlocfilehash: 02457a863445cf9544f75682aa2df3bf2b7e765a
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 4ac97192327cd9ced853ce63537375931f3f0ec3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572998"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599528"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
