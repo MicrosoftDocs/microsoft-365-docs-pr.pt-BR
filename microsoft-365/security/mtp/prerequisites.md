@@ -19,38 +19,40 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d45be77abd404f87484d0f8390f09f1b9bc3b8ce
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d3f24e8615f5b11b0853d7f1e36b49eb0cf2424f
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599998"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661917"
 ---
-# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="1b656-104">Pré-requisitos da proteção contra ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b656-104">Microsoft Threat Protection prerequisites</span></span>
+# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="4d88b-104">Pré-requisitos da proteção contra ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="4d88b-104">Microsoft Threat Protection prerequisites</span></span>
 
-<span data-ttu-id="1b656-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="1b656-105">**Applies to:**</span></span>
-- <span data-ttu-id="1b656-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b656-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="4d88b-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="4d88b-105">**Applies to:**</span></span>
+- <span data-ttu-id="4d88b-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="4d88b-106">Microsoft Threat Protection</span></span>
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-<span data-ttu-id="1b656-107">Saiba mais sobre os requisitos de licenciamento, hardware e software, além de outras configurações para executar e usar a segurança do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="1b656-107">Learn about the licensing, hardware and software requirements, and other configuration settings to run and use the Microsoft 365 security.</span></span>
+<span data-ttu-id="4d88b-107">Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar a proteção contra ameaças da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="4d88b-107">Learn about the licensing, hardware and software requirements, and other configuration settings to provision and use Microsoft Threat Protection.</span></span>
 
-## <a name="licensing-requirements"></a><span data-ttu-id="1b656-108">Requisitos de licença</span><span class="sxs-lookup"><span data-stu-id="1b656-108">Licensing requirements</span></span>
-<span data-ttu-id="1b656-109">A segurança do Microsoft 365 exige uma das seguintes licenças:</span><span class="sxs-lookup"><span data-stu-id="1b656-109">Microsoft 365 security requires one of the following licenses:</span></span>
+## <a name="licensing-requirements"></a><span data-ttu-id="4d88b-108">Requisitos de licença</span><span class="sxs-lookup"><span data-stu-id="4d88b-108">Licensing requirements</span></span>
+<span data-ttu-id="4d88b-109">Para usar a proteção contra ameaças da Microsoft, você precisa de uma das seguintes licenças ou combinações de licenças:</span><span class="sxs-lookup"><span data-stu-id="4d88b-109">To use Microsoft Threat Protection, you need one of the following licenses or combination of licenses:</span></span>
 
-- <span data-ttu-id="1b656-110">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="1b656-110">Microsoft 365 E5</span></span> 
-- <span data-ttu-id="1b656-111">Office 365 E5, Enterprise Mobility + Security E5, e Windows E5</span><span class="sxs-lookup"><span data-stu-id="1b656-111">Office 365 E5, Enterprise Mobility + Security E5, and Windows E5</span></span>
+- <span data-ttu-id="4d88b-110">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="4d88b-110">Microsoft 365 E5</span></span>
+- <span data-ttu-id="4d88b-111">Segurança do Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="4d88b-111">Microsoft 365 E5 Security</span></span>
+- <span data-ttu-id="4d88b-112">Office 365 E5, Enterprise Mobility + Security E5, e Windows E5</span><span class="sxs-lookup"><span data-stu-id="4d88b-112">Office 365 E5, Enterprise Mobility + Security E5, and Windows E5</span></span>
 
-<span data-ttu-id="1b656-112">Você pode adquirir essas licenças na [página do Microsoft 365 Enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="1b656-112">You can acquire these licenses from the [Microsoft 365 enterprise page](https://www.microsoft.com/en-us/microsoft-365/enterprise).</span></span>
+[<span data-ttu-id="4d88b-113">Exibir planos de serviços corporativos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4d88b-113">View Microsoft 365 Enterprise service plans</span></span>](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
 
-### <a name="check-your-existing--licenses"></a><span data-ttu-id="1b656-113">Verificar suas licenças existentes</span><span class="sxs-lookup"><span data-stu-id="1b656-113">Check your existing  licenses</span></span>
-<span data-ttu-id="1b656-114">Acesse o centro de administração do Microsoft 365 em [admin.microsoft.com](https://admin.microsoft.com/) para exibir suas licenças existentes.</span><span class="sxs-lookup"><span data-stu-id="1b656-114">Go to Microsoft 365 admin center at [admin.microsoft.com](https://admin.microsoft.com/) to view your existing licenses.</span></span> <span data-ttu-id="1b656-115">No Centro de administração, acesse **Cobrança** > **Licenças**.</span><span class="sxs-lookup"><span data-stu-id="1b656-115">In the admin center, go to **Billing** > **Licenses**.</span></span>
+### <a name="check-your-existing--licenses"></a><span data-ttu-id="4d88b-114">Verificar suas licenças existentes</span><span class="sxs-lookup"><span data-stu-id="4d88b-114">Check your existing  licenses</span></span>
+<span data-ttu-id="4d88b-115">Vá para o centro de administração do Microsoft 365 ([admin.Microsoft.com](https://admin.microsoft.com/)) para exibir suas licenças existentes.</span><span class="sxs-lookup"><span data-stu-id="4d88b-115">Go to Microsoft 365 admin center ([admin.microsoft.com](https://admin.microsoft.com/)) to view your existing licenses.</span></span> <span data-ttu-id="4d88b-116">No Centro de administração, acesse **Cobrança** > **Licenças**.</span><span class="sxs-lookup"><span data-stu-id="4d88b-116">In the admin center, go to **Billing** > **Licenses**.</span></span>
 
-<span data-ttu-id="1b656-116">É necessário atribuir a função do **Administrador de cobranças** ou do **Leitor global** [no Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para ver as informações de licenciamento.</span><span class="sxs-lookup"><span data-stu-id="1b656-116">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see licensing information.</span></span> <span data-ttu-id="1b656-117">Se tiver problemas de acesso, entre em contato com um administrador global.</span><span class="sxs-lookup"><span data-stu-id="1b656-117">If you encounter access problems, contact a global admin.</span></span>  
+>[!NOTE]
+> <span data-ttu-id="4d88b-117">Você precisa ser atribuído à função de **administrador de cobrança** ou **leitor global** [no Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para poder ver as informações de licença.</span><span class="sxs-lookup"><span data-stu-id="4d88b-117">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see license information.</span></span> <span data-ttu-id="4d88b-118">Se tiver problemas de acesso, entre em contato com um administrador global.</span><span class="sxs-lookup"><span data-stu-id="4d88b-118">If you encounter access problems, contact a global admin.</span></span>
 
-## <a name="browser-requirements"></a><span data-ttu-id="1b656-118">Requisitos de navegador</span><span class="sxs-lookup"><span data-stu-id="1b656-118">Browser requirements</span></span>
-<span data-ttu-id="1b656-119">O acesso à central de segurança do Microsoft 365 é feito por meio de um navegador.</span><span class="sxs-lookup"><span data-stu-id="1b656-119">Access to Microsoft 365 security center is done through a browser.</span></span> <span data-ttu-id="1b656-120">O Internet Explorer e o Microsoft Edge são compatíveis.</span><span class="sxs-lookup"><span data-stu-id="1b656-120">Internet Explorer and Microsoft Edge is supported.</span></span> <span data-ttu-id="1b656-121">Todos os navegadores compatíveis com o HTML5 também são compatíveis.</span><span class="sxs-lookup"><span data-stu-id="1b656-121">Any HTML5 compliant browsers are also supported.</span></span>
+## <a name="browser-requirements"></a><span data-ttu-id="4d88b-119">Requisitos de navegador</span><span class="sxs-lookup"><span data-stu-id="4d88b-119">Browser requirements</span></span>
+<span data-ttu-id="4d88b-120">Acessar a proteção contra ameaças da Microsoft na central de segurança do Microsoft 365 usando o Microsoft Edge, o Internet Explorer 11 ou qualquer navegador da Web compatível com HTML 5.</span><span class="sxs-lookup"><span data-stu-id="4d88b-120">Access Microsoft Threat Protection in the Microsoft 365 security center using Microsoft Edge, Internet Explorer 11, or any HTML 5 compliant web browser.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="1b656-122">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="1b656-122">Related topics</span></span>
-- [<span data-ttu-id="1b656-123">Visão geral da Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b656-123">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
-- [<span data-ttu-id="1b656-124">Habilitar a Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="1b656-124">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
+## <a name="related-topics"></a><span data-ttu-id="4d88b-121">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="4d88b-121">Related topics</span></span>
+- [<span data-ttu-id="4d88b-122">Visão geral da Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="4d88b-122">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
+- [<span data-ttu-id="4d88b-123">Habilitar a Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="4d88b-123">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
