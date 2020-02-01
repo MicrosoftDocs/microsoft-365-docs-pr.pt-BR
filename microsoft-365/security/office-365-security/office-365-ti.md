@@ -1,5 +1,7 @@
 ---
 title: Investigação de ameaças e recursos de resposta do Office 365 no Office 365 Advanced Threat Protection Plan 2
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Descubra como os recursos de inteligência de ameaças no Office 365 proteção avançada contra ameaças pode ajudá-lo a Pesquisar ameaças em sua organização, responder a malware, phishing e outros ataques que o Office 365 detectou em seu nome e Pesquisar ameaças indicadores.
-ms.openlocfilehash: 45c12647b999e626cb620046aabc95fb4bfa8f4c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2f95054d35edee7db419bc665b520b2b48dda447
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808116"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598748"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Investigação e resposta a ameaças do Office 365
 
@@ -97,10 +99,10 @@ O Office 365 proteção avançada contra ameaças usa o controle de acesso basea
 
 |Atividade |Funções e permissões |  
 |:-----|:-----|
-|Usar o painel de ameaças (ou o novo [painel de segurança](security-dashboard.md))<br/> <br/>Exibir informações sobre ameaças recentes ou atuais  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
-|Usar o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
-|Exibir incidentes (também conhecidos como investigações) <br/> Adicionar mensagens de email a um incidente  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 ().  |
-|Acionar ações de email em um incidente <br/> <br/> Localizar e excluir mensagens de email suspeitas  <br/> |Uma das seguintes opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** mais a função de **pesquisa e limpeza**<br/><br/>As funções de **administrador global** e **administrador de segurança** podem ser atribuídas no Azure Active[https://portal.azure.com](https://portal.azure.com)Directory () ou no centro de administração[https://admin.microsoft.com](https://admin.microsoft.com)do Microsoft 365 (). <br/><br/>A função de **pesquisa e limpeza** deve ser atribuída no centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 (). |
+|Usar o painel de ameaças (ou o novo [painel de segurança](security-dashboard.md))<br/> <br/>Exibir informações sobre ameaças recentes ou atuais  <br/> |Uma destas opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
+|Usar o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças  <br/> |Uma destas opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 (). |
+|Exibir incidentes (também conhecidos como investigações) <br/> Adicionar mensagens de email a um incidente  <br/> |Uma destas opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** <br/>- **Leitor de segurança** <br/> <br/>Essas funções podem ser atribuídas no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365 ().  |
+|Acionar ações de email em um incidente <br/> <br/> Localizar e excluir mensagens de email suspeitas  <br/> |Uma destas opções: <br/>- **Administrador global do Office 365**  <br/> - **Administrador de segurança** mais a função de **pesquisa e limpeza**<br/><br/>As funções de **administrador global** e **administrador de segurança** podem ser atribuídas no Azure Active[https://portal.azure.com](https://portal.azure.com)Directory () ou no centro de administração[https://admin.microsoft.com](https://admin.microsoft.com)do Microsoft 365 (). <br/><br/>A função de **pesquisa e limpeza** deve ser atribuída no centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 (). |
 |Integrar o Office 365 Advanced Threat Protection Plan 2 with Microsoft defender Advanced Threat Protection  <br/><br/> Integrar o Office 365 Advanced Threat Protection Plan 2 com um servidor SIEM  <br/> |O **administrador global do Office 365** ou a função de **administrador de segurança** atribuída no Azure Active Directory[https://portal.azure.com](https://portal.azure.com)() ou no centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com)Microsoft 365 ().<br/>--- **mais** ---<br/>Uma função apropriada atribuída em aplicativos adicionais (como a [central de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) ou seu servidor Siem)  |
    
     

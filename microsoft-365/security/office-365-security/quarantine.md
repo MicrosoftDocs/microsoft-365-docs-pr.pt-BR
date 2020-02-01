@@ -1,5 +1,7 @@
 ---
 title: Quarentena
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a quarentena hospedada para o Exchange Online e o Exchange Online Protection.
-ms.openlocfilehash: 8d35d198f60e5fbaef9bef4e924e8643251132d6
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: bcbd0db1c05834882c464fa28012b82a13929d7f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872067"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598648"
 ---
 # <a name="quarantine"></a>Quarentena
 

@@ -1,5 +1,7 @@
 ---
 title: Relatar mensagens de Lixo Eletrônico à Microsoft
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:'
-ms.openlocfilehash: df4eb2ceea3233d014efe545ca5d9c7bd39a3624
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: a2a427f13c329c4c72f718bb19ecc0dce06f8f91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238408"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598568"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Relatar mensagens de Lixo Eletrônico à Microsoft
 

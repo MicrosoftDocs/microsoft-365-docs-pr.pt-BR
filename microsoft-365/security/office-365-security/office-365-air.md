@@ -1,6 +1,8 @@
 ---
 title: Investigar e responder automaticamente a ameças no Office 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 3f13b1de2747dcb6672f56989ff73cdf485e49b6
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 9c17d7219e5dd15404b171fbd6707d00fd788f19
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967984"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598758"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Investigar e responder automaticamente a ameças no Office 365
 
@@ -30,7 +32,7 @@ Dependendo da sua assinatura, a [proteção avançada contra ameaças do Office 
 - Para obter uma visão geral de como ele funciona, consulte [investigação e resposta automatizadas no Office 365](automated-investigation-response-office.md).
 
 > [!TIP]
-> Você tem o Microsoft 365 E5 ou o Microsoft 365 E3 junto com a identidade & proteção contra ameaças? Considere a possibilidade de experimentar a [investigação e a resposta automatizadas (Air) na proteção contra ameaças da Microsoft](../mtp/mtp-autoir.md).
+> Você tem o Microsoft 365 E5 ou Microsoft 365 E3 juntamente com Proteção contra Identidade e Ameaças? Considere a possibilidade de experimentar a [investigação e a resposta automatizadas (Air) na proteção contra ameaças da Microsoft](../mtp/mtp-autoir.md).
 
 Com recursos de investigação e resposta automatizados, quando determinados alertas são acionados, um ou mais guias de segurança são iniciados e o processo de investigação automatizado é iniciado. Durante e após um processo de investigação automatizado, a equipe de segurança pode fazer o seguinte:
 
@@ -43,7 +45,7 @@ Com recursos de investigação e resposta automatizados, quando determinados ale
 
 ## <a name="view-details-of-an-investigation"></a>Exibir detalhes de uma investigação
 
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
 
 2. Siga um destes procedimentos:
 
@@ -65,7 +67,7 @@ Com recursos de investigação e resposta automatizados, quando determinados ale
 
 No Office 365, as investigações automatizadas normalmente resultam em uma ou mais ações recomendadas. No entanto, nenhuma ação será executada até que sejam aprovadas pela equipe de operações de segurança. Use o procedimento a seguir para revisar e aprovar ações.
 
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre. 
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre. 
 
 2. Vá para **** > **investigações**de gerenciamento de ameaças.
 
@@ -81,7 +83,7 @@ No Office 365, as investigações automatizadas normalmente resultam em uma ou m
 
 Determinados tipos de alertas disparam investigação automatizada no Office 365. Para saber mais, confira [alertas](automated-investigation-response-office.md#alerts). Use o procedimento a seguir para exibir detalhes sobre um alerta que está associado a uma investigação automatizada.
 
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
 
 2. Vá para **** > **investigações**de gerenciamento de ameaças.
 

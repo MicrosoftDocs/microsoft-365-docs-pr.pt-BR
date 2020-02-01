@@ -1,5 +1,7 @@
 ---
 title: Respondendo a uma conta de email comprometida no Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda a reconhecer e responder a uma conta de email comprometida no Office 365
-ms.openlocfilehash: 76ce2cd9b942403f5d25b7f356740cce6c2acad7
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 3aa8be9b53f2aa8f3fc6bf64744b36de5d912645
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971499"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598598"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Respondendo a uma conta de email comprometida no Office 365
 
@@ -56,9 +58,11 @@ Os usuários podem notar e relatar atividades incomuns em suas caixas de correio
 
 Se um usuário relatar algum dos sintomas acima, você deverá realizar uma investigação adicional. O Centro de Conformidade e Segurança do Microsoft 365 e o Portal do Azure oferecem ferramentas para ajudá-lo a investigar a atividade de uma conta de usuário que você suspeita estar comprometida.
 
-- Logs de Auditoria Unificada do Office 365 no Centro de Conformidade e Segurança - Revise todas as atividades para a conta suspeita, filtrando os resultados para o intervalo de datas desde imediatamente antes da atividade suspeita ocorrer até a data atual. Não filtre as atividades durante a pesquisa.
+- **Logs de Auditoria Unificada do Office 365 no Centro de Conformidade e Segurança** - Revise todas as atividades para a conta suspeita, filtrando os resultados para o intervalo de datas desde imediatamente antes da atividade suspeita ocorrer até a data atual. Não filtre as atividades durante a pesquisa.
 
-- Use os logs de entrada do Azure AD e outros relatórios de risco disponíveis no portal do Azure AD. Examine os valores nestas colunas:
+- **Logs de auditoria administrativa do Office 365 no EAC**: No Exchange Online, você pode usar o EAC (Centro de administração do Exchange) para procurar e exibir entradas no log de auditoria do administrador. O log de auditoria do administrador registra ações específicas, com base no cmdlet do PowerShell do Exchange Online, executadas por administradores e usuários que receberam privilégios administrativos. As entradas do log de auditoria do administrador fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados.
+
+- **Registros de entrada do Azure AD e outros relatórios de risco no portal do Azure AD**: examine os valores destas colunas:
 
   - Revise o endereço IP
 
@@ -92,7 +96,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 - Se a sua identidade local estiver federada com o Office 365, você deverá alterar sua senha no local e, em seguida, notificar o seu administrador sobre o comprometimento.
 
 > [!TIP]
-> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  Você pode aprender mais [aqui](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  É possível saber mais sobre o MFA[aqui ](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 

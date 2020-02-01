@@ -1,5 +1,7 @@
 ---
 title: Integração do SIEM com a proteção avançada contra ameaças do Office 365
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.date: 11/22/2019
 ms.collection:
 - M365-security-compliance
 description: Integre o servidor SIEM da sua organização com a proteção avançada contra ameaças do Office 365 e eventos de ameaça relacionados na API de gerenciamento de atividades do Office 365.
-ms.openlocfilehash: 93253982b9920cd133419e0fc61650cadfa9d192
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 8a870e02a37ea7f4961d0b8dc42a49cb59d2bace
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967924"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598278"
 ---
 # <a name="siem-integration-with-office-365-advanced-threat-protection"></a>Integração do SIEM com a proteção avançada contra ameaças do Office 365
 

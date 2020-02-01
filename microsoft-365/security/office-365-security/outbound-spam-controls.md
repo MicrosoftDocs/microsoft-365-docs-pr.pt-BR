@@ -1,5 +1,7 @@
 ---
 title: Controlar spam de saída no Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Se sua organização enviar muitas mensagens em massa marcadas como spam, você poderá ter impedido de enviar emails com o Office 365. Leia este artigo para saber mais sobre por que isso acontece e o que você pode fazer sobre ele.
-ms.openlocfilehash: 28677e2bbfad7f44595de1300e42b9c58ab99c2b
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e1b1e0f56398db774a9aabc56cdcde52ad17791a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031846"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598728"
 ---
 # <a name="control-outbound-spam-in-office-365"></a>Controlar spam de saída no Office 365
 

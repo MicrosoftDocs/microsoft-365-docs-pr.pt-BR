@@ -1,5 +1,7 @@
 ---
-title: Notificação de exemplo quando um remetente é bloqueado enviando spam de saída
+title: Notificação de exemplo de quando um remetente é bloqueado ao enviar spam de saída
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +16,14 @@ ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
 ms.collection:
 - M365-security-compliance
 description: 'Quando um remetente é bloqueado do serviço devido ao envio de spam de saída, o administrador de domínio especificado ao configurar a política de spam de saída receberá um email de notificação semelhante ao seguinte:'
-ms.openlocfilehash: badcd34bc35c8cc3cdd1cd06edefb87c6818e2e3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 537e97fe952ad9a5b2ca854c44fe6c53b642e3ac
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073755"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598498"
 ---
-# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>Notificação de exemplo quando um remetente é bloqueado enviando spam de saída
+# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>Notificação de exemplo de quando um remetente é bloqueado ao enviar spam de saída
 
 Quando um remetente é bloqueado do serviço devido ao envio de spam de saída, o administrador de domínio especificado ao [Configurar a política de spam de saída](configure-the-outbound-spam-policy.md) receberá um email de notificação semelhante ao seguinte: 
   
