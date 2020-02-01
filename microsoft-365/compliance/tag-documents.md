@@ -1,5 +1,7 @@
 ---
 title: Marcar documentos em evidência
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0996b91a44ec372cb8d1c3c377ef53fc8823dc8e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c77b842f5cbf5766fa3419fc692bc8d3cb0cd4a1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073097"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601408"
 ---
-# <a name="tag-documents-in-evidence"></a><span data-ttu-id="cd6cd-102">Marcar documentos em evidência</span><span class="sxs-lookup"><span data-stu-id="cd6cd-102">Tag documents in evidence</span></span>
+# <a name="tag-documents-in-evidence"></a><span data-ttu-id="cde97-102">Marcar documentos em evidência</span><span class="sxs-lookup"><span data-stu-id="cde97-102">Tag documents in evidence</span></span>
 
-<span data-ttu-id="cd6cd-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="cd6cd-103">Content coming soon.</span></span>
+<span data-ttu-id="cde97-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="cde97-103">Content coming soon.</span></span>
