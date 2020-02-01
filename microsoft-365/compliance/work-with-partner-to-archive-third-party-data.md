@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Sua organização pode trabalhar com um parceiro da Microsoft para configurar um conector personalizado para importar dados de terceiros de fontes de dados como o Salesforce, o Yahoo Messenger ou o Yammer. Isso permite que você arquive dados de fontes de dados de terceiros no Office 365 para que possa usar os recursos de conformidade do Office 365, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: d17c79ed4d6fa662a3416e9952ac732a8d4d9d9f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01188110b19dc4784920a5f18e673f92e064e034
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601218"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628598"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Trabalhar com um parceiro para arquivar dados de terceiros no Office 365
 
@@ -523,7 +523,7 @@ A etapa final é fornecer a seu parceiro as informações a seguir, para que ele
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
-- As credenciais de entrada (ID de usuário e senha do Office 365) da caixa de correio de dados de terceiros que você criou na etapa 2. Essas credenciais são necessárias para que o conector do parceiro possa acessar e importar itens para a caixa de correio do usuário e a caixa de correio de dados de terceiros.
+- As credenciais de logon (ID de usuário e senha do Office 365) da caixa de correio de dados de terceiros que você criou na etapa 2. Essas credenciais são necessárias para que o conector do parceiro possa acessar e importar itens para a caixa de correio do usuário e a caixa de correio de dados de terceiros.
  
 ## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>Etapa 5: registrar o conector de dados de terceiros no Azure Active Directory
 
@@ -533,7 +533,12 @@ Para permitir que um conector de dados de terceiros se conecte ao Office 365 usa
 
 Aqui estão as etapas para acessar e aceitar a solicitação de registro do conector:
 
-1. Vá até [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entre usando as credenciais de um administrador global do Office 365.<br/><br/>A caixa de diálogo a seguir é exibida. Você pode expandir os acentos para revisar as permissões que serão atribuídas ao conector.<br/><br/>![A caixa de diálogo de solicitação de permissões é exibida](media/O365-ThirdPartyDataConnector-OptIn1.png)
+1. Vá até [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entre usando as credenciais de um administrador global do Office 365.
+
+   A caixa de diálogo a seguir é exibida. Você pode expandir os acentos para revisar as permissões que serão atribuídas ao conector.
+
+   ![A caixa de diálogo de solicitação de permissões é exibida](media/O365-ThirdPartyDataConnector-OptIn1.png)
+
 2. Clique em **Aceitar**.
 
 Após aceitar a solicitação, o [portal do Azure](https://portal.azure.com) é exibido. Para exibir a lista de aplicativos da sua organização, clique em**aplicativos corporativos** **do Azure Active Directory** > . O conector de dados de terceiros do Office 365 está listado na folha **aplicativos empresariais** .

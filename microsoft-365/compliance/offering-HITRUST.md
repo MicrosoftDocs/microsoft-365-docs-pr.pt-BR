@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: aa93ea90748f4beeb7a6d2ad6f537b098f19376c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 734621d9017c21822043ff8c1beb82044ec8c860
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602298"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628094"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) estrutura de segurança comum (CSF)
 
@@ -56,7 +56,7 @@ A certificação HITRUST CSF do Azure e do Office 365 é válida por dois anos.
 
 Comece a aproveitar as vantagens dos benefícios da nuvem para as soluções de dados de integridade com o esquema de conformidade e segurança do Azure, os dados de saúde da HIPAA/HITRUST e o AI. Este Blueprint fornece ferramentas e orientações para começar a criar soluções do HIPAA/HITRUST hoje.
 
-[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://go.microsoft.com/fwlink/p/?linkid=2100613)
+[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Acelere a conformidade com HIPAA/HITRUST ao usar o Office 365
 
@@ -109,7 +109,7 @@ Faça logon na ferramenta HITRUST MyCSF® e preencha previamente sua avaliação
 - [HITRUST CSF 8,1](https://hitrustalliance.net/csf-license-agreement/)
 - [Entendendo e aproveitando o CSF](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [Saiba mais sobre o programa de responsabilidade compartilhada do HITRUST](https://go.microsoft.com/fwlink/p/?linkid=2100268)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
