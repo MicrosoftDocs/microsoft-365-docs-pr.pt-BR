@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 9f456c992cda6fcfafd1a0d5faa68dba42a894d8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f9f991dca27617717817564daa4a042e2eeb4bf0
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594095"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661898"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -101,7 +101,7 @@ A pessoa que comprar a assinatura por meio de compras de autoatendimento será c
 
 ### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>Quais recursos um administrador tem para compras de autoatendimento?
 
-Os administradores podem exibir todas as compras de autoatendimento feitas em sua organização no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. Se for necessário para sua organização, os administradores poderão desativar a compra de autoatendimento por produto através do PowerShell. Os administradores têm as mesmas políticas de gerenciamento de dados e acesso sobre os produtos comprados por meio de compras de autoatendimento ou de forma centralizada.
+Os administradores podem exibir todas as compras de autoatendimento feitas em sua organização no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. No centro de administração da plataforma de energia, os administradores também podem exibir a capacidade de compras de autoatendimento. Se for necessário para sua organização, os administradores poderão desativar a compra de autoatendimento por produto através do PowerShell. Os administradores têm as mesmas políticas de gerenciamento de dados e acesso sobre os produtos comprados por meio de compras de autoatendimento ou de forma centralizada.
 
 Os administradores também podem controlar se os usuários de sua organização podem fazer compras de autoatendimento. Para obter mais informações, consulte [usar AllowSelfServicePurchase para o módulo do MSCommerce PowerShell](allowselfservicepurchase-powershell.md).
 

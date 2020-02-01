@@ -1,7 +1,7 @@
 ---
 title: À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
 description: Encontre soluções e contorne problemas conhecidos da Proteção contra Ameaças da Microsoft
-keywords: À procura de soluções para a Proteção contra Ameaças da Microsoft, à procura de soluções para problemas, problemas
+keywords: solução de problemas da proteção contra ameaças da Microsoft, solução de problemas, ATP, problemas, complemento, página de configurações do Azure
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2f7faec3223ca707e166c229b48093193be09d1e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bbc7d5d434765b94b0b2707605be2edfbbc8e423
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599968"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661977"
 ---
 # <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
 
@@ -34,8 +34,8 @@ ms.locfileid: "41599968"
 Esta seção aborda os problemas que podem surgir quando você usa o serviço de Proteção contra Ameaças da Microsoft.
 
 
-## <a name="not-seeing-microsoft-threat-protection-content"></a>O conteúdo da Proteção contra Ameaças da Microsoft não está aparecendo
-Se funcionalidades, tais como, os Incidentes, a Central de Ações ou a Busca, não são mostradas na página de navegação no seu portal, será necessário verificar se o locatário tem a licença apropriada. 
+## <a name="i-dont-see-microsoft-threat-protection-content"></a>Não vejo o conteúdo da proteção contra ameaças da Microsoft
+Se você não vir recursos no painel de navegação, como incidentes, central de ações ou busca em seu portal, você precisará verificar se o seu locatário tem as licenças apropriadas. 
 
 Para obter mais informações, confira [Pré-requisitos](prerequisites.md).
 
@@ -45,6 +45,11 @@ Se você tiver o Azure ATP implantado em seu ambiente, mas não estiver vendo os
 Para obter mais informações, consulte [ integração da ATP do Azure](https://docs.microsoft.com/cloud-app-security/aatp-integration).
 
 ## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>A Proteção contra Ameaças da Microsoft está disponível para a nuvem governamental de comunidade dos EUA (GCC) ou para a GCC High (de alta confidencialidade)?
-No momento, ela não está disponível. 
+No momento, ela não está disponível.
 
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Onde está a página de configurações para ativar o serviço?
+Para ativar a proteção contra ameaças da Microsoft, acesse **configurações** do painel de navegação na central de segurança do Microsoft 365. Esse item de navegação só será visível se você tiver as [permissões e as licenças de pré-requisito](mtp-enable.md#check-license-eligibility-and-required-permissions).
+
+## <a name="can-i-use-an-add-on-instead-of-the-required-e5-licenses"></a>Posso usar um complemento em vez das licenças E5 necessárias?
+No momento, não há Complementos para a proteção contra ameaças da Microsoft. [Confira requisitos de licenciamento](prerequisites.md) 
 
