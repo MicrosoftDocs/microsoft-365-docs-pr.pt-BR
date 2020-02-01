@@ -1,5 +1,7 @@
 ---
 title: Visão geral da configuração
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -23,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Visão geral das etapas de configuração para o Microsoft 365 Business.
-ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 07cbd4fd187f78474783db848ac9b69068d2b44a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995241"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595056"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 

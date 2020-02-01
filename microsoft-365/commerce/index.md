@@ -6,16 +6,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: store
 author: TrudyHa
+f1.keywords:
+- NOCSH
 ms.author: TrudyHa
 ms.date: 5/29/2019
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.openlocfilehash: f25274c1cf06bf2900de3a45686156f33d3143aa
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 8363ef4459308ac33fb968b6929812deff61e934
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37889900"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594125"
 ---
 # <a name="manage-commercial-purchases-in-microsoft-365-admin-center"></a>Gerenciar compras comerciais no centro de administração do Microsoft 365
 

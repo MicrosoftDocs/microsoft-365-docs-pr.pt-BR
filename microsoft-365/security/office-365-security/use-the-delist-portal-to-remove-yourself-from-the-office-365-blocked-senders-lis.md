@@ -1,5 +1,7 @@
 ---
 title: Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
 description: Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Office 365? Se acha que não deve estar recebendo a mensagem de erro, use o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365.
-ms.openlocfilehash: da1c066c79acd6fb8b80796a0fc7f39d52337017
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: af528f7fed60130bec8ff53ad182df928d09faee
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238458"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598028"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
 

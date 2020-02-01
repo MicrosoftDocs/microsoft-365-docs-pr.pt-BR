@@ -1,5 +1,7 @@
 ---
 title: Excluir itens do local original
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como usar a nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para excluir itens de seus locais originais.
-ms.openlocfilehash: c121cda03a4f5143275074aa288ae1f0a5548bfc
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: 2efb57fa2e35cffd3cca5e8f44b648018f0daf1b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38684921"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595316"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>Excluir itens de seu local original (versão prévia)
 
@@ -76,7 +78,7 @@ No momento, quando você exclui itens de seu local de conteúdo original, os ite
 
 - **Caixas de correio:** Quando um item de caixa de correio é excluído por software, ele é movido para a pasta itens recuperáveis na caixa de correio. Esse comportamento é semelhante a quando um usuário exclui um item da pasta itens excluídos ou exclui permanentemente um item pressionando Shift + Delete. Neste ponto, o usuário pode recuperar o item até que o período de retenção do item excluído expire. No Office 365, o período de retenção do item excluído é de 14 dias por padrão, mas um administrador pode aumentar o período de retenção para 30 dias. Depois que o período de retenção expirar, o item será movido para uma pasta oculta (chamada de pasta de *limpezas* ). O item será removido permanentemente do Office 365 na próxima vez que a caixa de correio for processada. As caixas de correio são processadas uma vez a cada sete dias).
 
-- **Sites do SharePoint e do onedrive:** Quando um arquivo ou documento em um site é excluído de forma reversível, ele é movido para a lixeira do site (também chamada de lixeira de *primeiro estágio* ). O item permanece na lixeira por 93 dias (o período de retenção de itens excluídos para sites no Office 365). Durante o período de 93 dias, os itens excluídos ainda podem ser recuperados por um administrador de conjunto de sites no SharePoint ou pelo usuário ou administrador no OneDrive. Os itens também podem ser excluídos da lixeira de primeiro estágio. Quando isso acontece, os itens são movidos para a lixeira do conjunto de sites, que é chamado de lixeira de *segundo estágio* . O período de retenção é 93 dias para as lixeiras de primeiro estágio e de segundo estágio. Isso significa que a retenção da lixeira de segundo estágio começa quando o item é inicialmente excluído. Isso significa que o tempo de retenção máximo é de 93 dias para ambas as lixeiras. Se um item for excluído da lixeira de segundo estágio (seja manualmente por um administrador ou automaticamente quando o período de retenção expirar), ele não será mais acessível por um administrador.
+- **Sites do SharePoint e do onedrive:** Quando um arquivo ou documento em um site é excluído de forma reversível, ele é movido para a lixeira do site (também chamada de lixeira de *primeiro estágio* ). O item permanece na Lixeira por 93 (período de retenção de itens excluídos para sites no Office 365). Durante o período de 93 dias, os itens excluídos ainda podem ser recuperados por um administrador de conjunto de sites no SharePoint ou pelo usuário ou administrador no OneDrive. Os itens também podem ser excluídos da lixeira de primeiro estágio. Quando isso acontece, os itens são movidos para a lixeira do conjunto de sites, que é chamado de lixeira de *segundo estágio* . O período de retenção é 93 dias para as lixeiras de primeiro estágio e de segundo estágio. Isso significa que a retenção da lixeira de segundo estágio começa quando o item é inicialmente excluído. Isso significa que o tempo de retenção máximo é de 93 dias para ambas as lixeiras. Se um item for excluído da lixeira de segundo estágio (seja manualmente por um administrador ou automaticamente quando o período de retenção expirar), ele não será mais acessível por um administrador.
 
 ## <a name="what-happens-if-a-content-location-is-on-hold"></a>O que acontece se um local de conteúdo está em espera
 

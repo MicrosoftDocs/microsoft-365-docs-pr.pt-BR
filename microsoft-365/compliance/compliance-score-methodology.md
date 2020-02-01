@@ -1,5 +1,7 @@
 ---
 title: Cálculo da Pontuação de conformidade
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
-ms.openlocfilehash: 9fbc2b2beca3a667b09c1a4ba790651a364d1bf0
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 1ee9410e3b40a8180d768945a643d3e52c29046b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515572"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596238"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade da Microsoft (visualização)
 

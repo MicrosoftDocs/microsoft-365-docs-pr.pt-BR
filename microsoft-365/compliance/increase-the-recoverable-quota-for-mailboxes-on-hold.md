@@ -1,5 +1,7 @@
 ---
 title: Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: 'Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Office 365. '
-ms.openlocfilehash: 266437d77ba4f3a82fa69db6a997fd58748fa834
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 4b93c8be01e9d84fb2c2bf93ed67b2ea1b18e812
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684958"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597928"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
 
@@ -61,7 +63,7 @@ O restante deste tópico descreve os procedimentos passo a passo para criar uma 
 
 A primeira etapa é criar uma marca de retenção personalizada (chamada de marca de política de retenção ou RPT) para a pasta Itens Recuperáveis. Como explicado anteriormente, essa RPT move itens da pasta Itens Recuperáveis na caixa de correio principal do usuário para a pasta Itens Recuperáveis na caixa de correio de arquivo morto do usuário. Você precisa usar o PowerShell para criar um relatório para a pasta itens recuperáveis. Você não pode usar o Centro de Administração do Exchange (EAC). 
   
-1. [Conectar-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=517283)
+1. [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://go.microsoft.com/fwlink/p/?LinkId=517283)
     
 2. Execute o seguinte comando para criar um novo relatório para a pasta Itens Recuperáveis:  
     
@@ -84,7 +86,7 @@ A próxima etapa é criar uma nova política de retenção e adicionar marcas de
   
 Antes de criar a nova política de retenção, determine as marcas de retenção adicionais que você deseja adicionar. Confira a lista das marcas de retenção adicionadas à política MRM Padrão e informações sobre como criar novas marcas de retenção em:
   
-- [Política de retenção padrão no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=746954)
+- [Política de Retenção Padrão no Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
 - [Pastas padrão que suportam marcas de política de retenção](https://go.microsoft.com/fwlink/p/?LinkId=746957)
     

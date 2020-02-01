@@ -1,6 +1,8 @@
 ---
 title: Políticas de supervisão
 description: Saiba mais sobre as políticas de supervisão no Office 365
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: aaeb73553d023ac1664ba3bbff10d7edbb4dea54
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 2e060ab7c404ccf3538a8b250cbd03429c6e2a4d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515872"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597388"
 ---
 # <a name="supervision-policies-in-office-365"></a>Políticas de supervisão no Office 365
 

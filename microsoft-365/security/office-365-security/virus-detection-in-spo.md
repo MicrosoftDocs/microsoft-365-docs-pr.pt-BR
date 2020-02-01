@@ -1,5 +1,7 @@
 ---
 title: Detecção de vírus no SharePoint Online
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -16,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: O Office 365 pode ajudar a proteger seu ambiente contra malware, detectando vírus em arquivos que os usuários carregam no SharePoint Online. Os arquivos são verificados em busca de vírus após serem carregados. Se um arquivo for infectado, uma propriedade será definida para que os usuários não possam baixar ou sincronizar o arquivo.
-ms.openlocfilehash: fdf8fb61ab6923c20401bc8bf2a482ab7515568a
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 1a41c5bb00e7169878206be2db076af0b0745e30
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793685"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597998"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Detecção de vírus no SharePoint Online
 

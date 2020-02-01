@@ -1,5 +1,7 @@
 ---
 title: Adicionar ou remover membros de uma ocorrência
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 938c67bde705183201370d4843da2d6c5f03cc62
-ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
+ms.openlocfilehash: 6991cfaa0cc174d3cee7cc441ab12195719b7056
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854006"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594034"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>Adicionar ou remover membros de uma ocorrência
 

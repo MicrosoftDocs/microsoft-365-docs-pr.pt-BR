@@ -1,5 +1,7 @@
 ---
 title: Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: 98639bd23b3d7c99b91a193c2651ff2fad677eeb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fa04b83e9ec06b3b0d20d42d3d800040aa6178ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071973"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595388"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
@@ -76,7 +78,7 @@ Observe que as mensagens exclusivas também podem ser marcadas como duplicatas q
     
   - [Exportar pesquisa de conteúdo](export-search-results.md)
     
-  - [Exportar um relatório de Pesquisa de Conteúdo](export-a-content-search-report.md)
+  - [Exportar um relatório da Pesquisa de Conteúdo](export-a-content-search-report.md)
     
   - [Exportar resultados de pesquisa de descoberta eletrônica in-loco para um arquivo PST](https://go.microsoft.com/fwlink/p/?linkid=832671)
     

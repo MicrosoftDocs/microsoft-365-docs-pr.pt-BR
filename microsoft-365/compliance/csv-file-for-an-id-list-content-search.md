@@ -1,5 +1,7 @@
 ---
 title: Preparar um arquivo CSV para uma pesquisa de conteúdo de lista de ID no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: Use o arquivo Results. csv ou itens não indexados. csv de uma pesquisa de conteúdo existente para criar uma pesquisa de lista de ID que retorna mensagens de email específicas. Pesquisas de lista de ID normalmente são usadas para retornar itens de caixa de correio parcialmente indexados.
-ms.openlocfilehash: caeb1874b113c601135531a1913bdcdda424a3d8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 19128e182183b43edbc5957ac2aca5420b58cfe2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806534"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595518"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Preparar um arquivo CSV para uma pesquisa de conteúdo de lista de ID no Office 365
 

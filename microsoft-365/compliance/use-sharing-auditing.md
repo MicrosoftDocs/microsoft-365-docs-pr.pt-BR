@@ -1,5 +1,7 @@
 ---
 title: Compartilhamento de auditoria para localizar recursos compartilhados com usuários externos
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -18,12 +20,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 'O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business. Agora, os administradores podem usar a auditoria de compartilhamento no log de auditoria do Office 365 para identificar recursos compartilhados com usuários fora da sua organização. '
-ms.openlocfilehash: 8d473a3e3fb1c8e5e8753265c3982b27271ed39c
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: f979bd9a3b796fc3e9e84872df7e0b6071aefc03
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684906"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597278"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>Compartilhamento de auditoria para localizar recursos compartilhados com usuários externos
 
@@ -99,7 +101,7 @@ A primeira etapa é Pesquisar o log de auditoria do Office 365 para eventos de c
     
 3. No painel esquerdo do centro de conformidade & segurança, clique em ****  > **pesquisa de log de auditoria**de pesquisa.
     
-    A página **pesquisa de log de auditoria** é exibida. 
+    É exibida a página **Pesquisa de log de auditoria**. 
     
 4. Em **atividades**, clique em **compartilhar e acessar as atividades de solicitação** para pesquisar eventos relacionados ao compartilhamento. 
     

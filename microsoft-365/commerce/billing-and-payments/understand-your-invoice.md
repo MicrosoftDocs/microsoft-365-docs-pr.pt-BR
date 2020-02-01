@@ -1,5 +1,7 @@
 ---
 title: Entender sua fatura
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: 0319f8ce1cfc0fcfeec095e6dedccefdcb1a0a4d
-ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
+ms.openlocfilehash: bf6f26b2f3bbeb3ac22273eca98b223383b88924
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39837375"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594692"
 ---
 # <a name="understand-your-invoice"></a>Entender sua fatura
 

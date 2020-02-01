@@ -1,5 +1,7 @@
 ---
 title: Criar e publicar rótulos de confidencialidade
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.
-ms.openlocfilehash: bef9841da49e24a99a038e9df906d523fe40e044
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 3ce1f729853d514a85852221eb997c456a379dcd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259287"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595528"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -69,6 +71,9 @@ Para editar um rótulo existente, selecione-o e depois selecione **Editar rótul
 > Se você editar um rótulo que já foi publicado usando uma política de rótulo, etapas adicionais não serão necessárias quando você concluir o assistente. Por exemplo, não é necessário adicioná-lo a uma nova política de rótulos para que as alterações fiquem disponíveis para os mesmos usuários. No entanto, aguarde 24 horas para que as alterações sejam replicadas para usuários e serviços.
 
 Até que você publique seus rótulos, eles não estarão disponíveis para seleção em aplicativos ou em serviços. Para publicar os rótulos, eles dever ser [adicionados a uma política de rótulos](#publish-sensitivity-labels-by-creating-a-label-policy).
+
+> [!IMPORTANT]
+> Na guia **Rótulos**, não selecione a guia **Publicar rótulos** (ou o botão **Publicar rótulo** ao editar um rótulo), a menos que você precise criar uma nova política de rótulo. Você precisará de várias políticas de rótulo somente se os usuários precisarem de rótulos diferentes ou configuracoes de política diferentes. Tenha como objetivo ter o menor número de rótulos possível; não é incomum ter apenas uma politica de rótulo para a organização.
 
 ### <a name="additional-label-settings-with-office-365-security--compliance-center-powershell"></a>Configurações adicionais de rótulo com o PowerShell do Centro de Conformidade e Segurança do Office 365.
 

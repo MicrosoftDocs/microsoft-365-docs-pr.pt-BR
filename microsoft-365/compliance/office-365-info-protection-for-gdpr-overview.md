@@ -1,5 +1,7 @@
 ---
 title: Visão geral da Proteção de Informações do Office 365 para o GDPR
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -16,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Tenha uma visão geral da Proteção de Informações do Office 365 para o GDPR. Saiba como descobrir, classificar, proteger e monitorar dados pessoais.
-ms.openlocfilehash: c1d73baef939ec69a69e63d26b7a204c353ca95a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 079ff7b7dab099f289bbd0366bba00d5ecf55b80
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073450"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597858"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Visão geral da Proteção de Informações do Office 365 para o GDPR
 
@@ -41,13 +43,13 @@ A [Avaliação do GDPR](https://www.microsoft.com/cyberassessment/en/gdpr/uso365
 
 A primeira etapa para estar em conformidade com o GDPR é avaliar se ele se aplica à sua organização e, em caso afirmativo, até que ponto. Essa análise inclui entender os dados que a sua organização processa e onde estão localizados.
 
-### <a name="step-1--use-compliance-manager-to-view-the-regulation-requirements-and-track-your-progress"></a>Etapa 1: usar o Gerenciador de Conformidade para exibir as exigências regulatórias e acompanhar o progresso
+### <a name="step-1--use-compliance-score-to-view-the-regulation-requirements-and-track-your-progress"></a>Etapa 1: usar a Pontuação de Conformidade para exibir as exigências regulatórias e acompanhar o progresso
 
-O Gerenciador de Conformidade fornece ferramentas para acompanhar, implementar e gerenciar os controles de auditoria para ajudar sua organização a estar em conformidade com vários padrões, incluindo o GDPR.
+A Pontuação de Conformidade fornece ferramentas para acompanhar, implementar e gerenciar os controles de auditoria para ajudar sua organização a estar em conformidade com vários padrões, incluindo o GDPR.
 
-![Use o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](Media/Overview-image1.png)
+![Use a Pontuação de Conformidade e o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](Media/Overview-image1.png)
 
-Confira mais informações sobre como [Usar o Gerenciador de Conformidade no portal Service Trust](https://servicetrust.microsoft.com/ComplianceManager). 
+Para saber mais, consulte os [pontuação de conformidade](compliance-score.md).
 
 ### <a name="step-2--use-content-search-and-sensitive-information-types-to-find-personal-data"></a>Etapa 2: usar a Pesquisa de Conteúdo e os tipos de informações confidenciais para encontrar dados pessoais 
 

@@ -1,5 +1,7 @@
 ---
 title: Preparar dados para a descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,19 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Saiba como usar o centro de conformidade de &amp; segurança do Microsoft 365 para preparar dados do Office 365 para análise com a descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: 0429c957035068074a571c97cf430b27f9ad5904
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 6407b6f2a2bbe9bc69842057232ec01569ef64c8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803818"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597758"
 ---
 # <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Preparar dados para a descoberta eletrônica avançada do Office 365
 
 Este tópico descreve como carregar os resultados de uma pesquisa de conteúdo em um caso na descoberta eletrônica avançada. 
   
-> [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> [!IMPORTANT]
+> À medida que continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365 (também conhecida como *descoberta automática v 1.0*). Se você ainda estiver usando o eDiscovery v 1.0 avançado, faça a transição para o [eDiscovery v 2.0 avançado](overview-ediscovery-20.md) (também conhecido como *solução de descoberta eletrônica avançada no Microsoft 365*) assim que possível. A descoberta eletrônica avançada 2,0 contém uma funcionalidade semelhante à encontrada no Advanced eDiscovery v 1.0, mas também oferece muitos recursos novos, como gerenciamento de responsáveis, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a aposentadoria do Advanced eDiscovery v 1.0, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>Etapa 1: preparar os dados do Office 365 para descoberta eletrônica avançada
 

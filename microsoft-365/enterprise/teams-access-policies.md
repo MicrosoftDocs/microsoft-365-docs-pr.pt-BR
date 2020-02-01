@@ -5,6 +5,8 @@ author: MicrosoftHeidi
 manager: serdars
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: heidip
 ms.date: 10/31/2019
 ms.reviewer: anmorgan
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 645abf48297ddcf186d8971a422588d46f7b2fef
-ms.sourcegitcommit: 7c977771fc295ca1e4e9b16a6d05faee8edeadad
+ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913114"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596658"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos de equipes
 
@@ -67,7 +69,7 @@ Esta tabela lista as políticas que precisam ser revisitadas e links para cada p
 |        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua equipes e serviços dependentes nessa política.|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|O Microsoft Teams tem acesso de convidado e regras de acesso externo para considerar também, você aprenderá mais sobre eles posteriormente neste artigo. Inclua equipes e serviços dependentes nessa política.|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua equipes e serviços dependentes nessa política.|
-|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política.
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política.
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Arquitetura de serviços dependentes do teams

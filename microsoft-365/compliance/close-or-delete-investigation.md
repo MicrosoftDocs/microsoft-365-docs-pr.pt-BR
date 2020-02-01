@@ -1,5 +1,7 @@
 ---
 title: Fechar ou excluir uma investigação de dados
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3a888458dce090091fbba020d1fa17ec6d56e0f5
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: f979a111b6c0026d7be4d096203c47060081cc64
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633820"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595858"
 ---
 # <a name="close-or-delete-an-investigation"></a>Feche ou exclua uma investigação
 

@@ -1,5 +1,7 @@
 ---
 title: Controlar seus dados no Office 365 usando a Chave do Cliente
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Saiba como configurar a chave do cliente para o Office 365 para Exchange Online, Skype for Business, SharePoint Online e OneDrive for Business. Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos datacenters da Microsoft.
-ms.openlocfilehash: 500adf03469833784228e13e26d8272716acc56c
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 6d8673443fd08edfbe6d9f8b320429a6424d2a30
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684898"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595688"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>Controlar seus dados no Office 365 usando a Chave do Cliente
 

@@ -1,5 +1,7 @@
 ---
 title: Clonar uma Pesquisa de Conteúdo
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MED150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: Use o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente no centro de conformidade no Office 365 ou no Microsoft 365. Quando você clona uma pesquisa, uma nova pesquisa (com um novo nome) é criada e contém as mesmas propriedades da pesquisa original. Em seguida, você pode editar a nova pesquisa alterando a palavra-chave de consulta ou o intervalo de datas e, em seguida, execute-a.
-ms.openlocfilehash: 87d9c75dc0a2b58b95ad6f2aaeb6c55f178e515f
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 59fdaab7cf12bc0f5c4b08cbac1834803e5a8d98
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633840"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595878"
 ---
 # <a name="clone-a-content-search"></a>Clonar uma Pesquisa de Conteúdo
 
@@ -136,7 +138,7 @@ Para clonar uma pesquisa:
   
 ## <a name="step-2-edit-and-run-the-cloned-search-in-the-compliance-center"></a>Etapa 2: editar e executar a pesquisa clonada no centro de conformidade
 
-Depois de executar o script para clonar uma pesquisa de conteúdo existente, a próxima etapa é acessar o centro de conformidade para editar e executar a nova pesquisa. Conforme mencionado anteriormente, você pode editar uma pesquisa, alterando a consulta de pesquisa de palavra-chave e adicionando ou removendo condições de pesquisa. Para saber mais, veja:
+Depois de executar o script para clonar uma pesquisa de conteúdo existente, a próxima etapa é acessar o centro de conformidade para editar e executar a nova pesquisa. Conforme mencionado anteriormente, você pode editar uma pesquisa, alterando a consulta de pesquisa de palavra-chave e adicionando ou removendo condições de pesquisa. Para saber mais, confira:
   
 - [Pesquisa de Conteúdo no Office 365](content-search.md)
     

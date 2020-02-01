@@ -1,5 +1,7 @@
 ---
 title: Criptografia de serviço do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -11,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Resumo: entenda a resiliência de dados no Microsoft Office 365.'
-ms.openlocfilehash: 7fec40db9ce12b52d37f2003d7ee8db68739aa41
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e746db47003dc391ba8a0751a924ba21ac7b8136
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38689996"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597828"
 ---
 # <a name="office-365-service-encryption"></a>Criptografia de serviço do Office 365
 

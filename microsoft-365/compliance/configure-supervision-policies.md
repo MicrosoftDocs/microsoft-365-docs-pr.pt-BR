@@ -1,6 +1,8 @@
 ---
 title: Configurar políticas de supervisão
 description: Configurar a supervisão de comunicação para o Office 365
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: a04d97cf887a14d89052d03ffdf3353f62cd612f
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: d0bd5411e99471ff326906f65747ec7a6f841545
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111925"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596198"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 

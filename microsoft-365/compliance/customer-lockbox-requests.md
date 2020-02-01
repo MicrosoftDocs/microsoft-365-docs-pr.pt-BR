@@ -1,5 +1,7 @@
 ---
 title: Solicitações do Sistema de Proteção de Dados do Cliente do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: a9f7f6116d4667e294666afc71747a6fad1efb33
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 915f8570271835939f0086f6c19af41a42d4f0d0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233762"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595498"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -148,7 +150,7 @@ Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockb
 |:---------- |:----------|
 | Date       | A data e a hora em que a solicitação de lockbox do cliente foi aprovada ou negada.
 | Endereço IP | O endereço IP do computador que o aprovador usou para aprovar ou negar uma solicitação. |
-| Usuário       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
+| User       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
 | Atividade   | Set-AccessToCustomerDataRequest; Esta é a atividade de auditoria que é registrada quando você aprova ou nega uma solicitação de lockbox do cliente.                                |
 | Item       | O GUID da solicitação de lockbox do cliente                             |
 
@@ -167,7 +169,7 @@ As ações executadas por um engenheiro da Microsoft depois que uma solicitaçã
 |:---------- |:----------|
 | Date       | Data e hora em que a ação foi executada. Observe que a hora em que essa ação foi executada estará dentro de 4 horas após a aprovação da solicitação de lockbox do cliente.              |
 | Endereço IP | O endereço IP do engenheiro de máquina da Microsoft usado. |
-| Usuário       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
+| User       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
 | Atividade   | Nome da atividade realizada pelo engenheiro da Microsoft.|
 | Item       | \<Empty\>                                             |
 

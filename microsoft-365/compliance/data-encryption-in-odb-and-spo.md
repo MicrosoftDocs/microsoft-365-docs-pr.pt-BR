@@ -1,5 +1,7 @@
 ---
 title: Criptografia de dados no OneDrive for Business e no SharePoint Online
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -16,18 +18,18 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
-ms.openlocfilehash: a1ed9f511f77883428b23ff224956593763403e1
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e22412f43f8caf4ff12d3f6e4f56e08d9d77b4ae
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684899"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595438"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>Criptografia de dados no OneDrive for Business e no SharePoint Online
 
 Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
   
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O Office 365 é um ambiente altamente seguro, que fornece proteção ampla em várias camadas: segurança física de data center, segurança de rede, segurança de acesso, segurança de aplicativo e segurança de dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
   

@@ -1,5 +1,7 @@
 ---
 title: Noções básicas sobre alocação
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -12,12 +14,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: Saiba mais sobre o novo recurso de alocações.
-ms.openlocfilehash: fff63b3c61ad95696e7f7677a34154ad65e82259
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 22f7c35b1a5baf97fb72f541d57da28adeeffbe4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753570"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594682"
 ---
 # <a name="allotment-basics"></a>Noções básicas sobre alocação
 

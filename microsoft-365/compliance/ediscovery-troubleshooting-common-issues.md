@@ -1,5 +1,7 @@
 ---
 title: Solucionando problemas comuns de descoberta eletrônica
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 ms.assetid: ''
 description: Investigar, solucionar problemas e resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
-ms.openlocfilehash: 37e92e480759601f9dfe61430bdd647b20df051d
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: c8eb4a330ab565900a685959ab1291990a6119bb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684969"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595126"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -49,7 +51,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome  |RecipientType  |
    > |---------|---------|
    > |Alias, usuário     |MailUser         |
-   > |Alias, usuário     |Usuário         |
+   > |Alias, usuário     |User         |
 
 3. Se vários usuários forem retornados, localize e corrija o objeto conflitante.
 

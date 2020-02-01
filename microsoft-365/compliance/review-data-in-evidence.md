@@ -1,5 +1,7 @@
 ---
 title: Revise os dados em evidência
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 20ac1adb67014439110e355025b31753a4a6bcfe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 18d67983d4e5e934e606944c1502dd76331812a3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073747"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597628"
 ---
 # <a name="review-the-data-in-evidence"></a>Revise os dados em evidência
 

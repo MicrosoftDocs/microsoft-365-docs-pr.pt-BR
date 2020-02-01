@@ -1,5 +1,7 @@
 ---
 title: Número de identificação nacional da UE
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número de identificação nacional da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: c00619ed649db53777fa3629deac0162a3589475
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f001d23ec3d6d8a2b3aa9575d4a9d602c4315e13
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805934"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41592232"
 ---
 # <a name="eu-national-identification-number"></a>Número de identificação nacional da UE
 
@@ -37,7 +39,7 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -175,7 +177,7 @@ Dez dígitos sem espaços e delimitadores
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -676,7 +678,7 @@ kodas.
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -749,7 +751,7 @@ Sete dígitos seguidos de uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -1108,7 +1110,7 @@ Sete dígitos seguidos de um caractere
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 

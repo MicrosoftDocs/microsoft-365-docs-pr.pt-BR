@@ -1,5 +1,7 @@
 ---
 title: Criar alertas de atividade no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 description: Adicione e gerencie alertas de atividade no centro de conformidade e segurança para que o Office 365 envie notificações por email quando os usuários executarem atividades específicas no Office 365.
-ms.openlocfilehash: 0cfe3edfcfcad50d6d04a1ef009498c0e13c7842
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 31807199345f4cf2ed6a4226fc407cb10c856c23
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072101"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596178"
 ---
 # <a name="create-activity-alerts-in-the-office-365"></a>Criar alertas de atividade no Office 365
 
@@ -58,7 +60,7 @@ Você pode criar um alerta de atividade que lhe enviará uma notificação por e
     
     a. **Name** -digite um nome para o alerta. Os nomes de alerta devem ser exclusivos dentro da sua organização.
     
-    b. **Descrição** (Opcional)-descreva o alerta, como as atividades e os usuários que estão sendo controlados e os usuários para os quais as notificações de email são enviadas. As descrições fornecem uma maneira rápida e fácil de descrever a finalidade do alerta para outros administradores.
+    b. **Descrição** (opcional)-descrever o alerta, como as atividades e os usuários que estão sendo controlados e os usuários para os quais as notificações de email são enviadas. As descrições fornecem uma maneira rápida e fácil de descrever a finalidade do alerta para outros administradores.
     
     c. **Tipo de alerta** : Certifique-se de que a opção **personalizada** está selecionada. 
 
@@ -68,7 +70,7 @@ Você pode criar um alerta de atividade que lhe enviará uma notificação por e
     
      - **Usuários** – clique nesta caixa e selecione um ou mais usuários. Se os usuários nessa caixa executarem as atividades que você adicionou à caixa **atividades** , um alerta será enviado. Deixe a caixa **usuários** em branco para enviar um alerta quando qualquer usuário em sua organização executar as atividades especificadas pelo alerta. 
 
-    e. **Envie este alerta para** clicar em **Enviar este alerta**e clique na caixa **destinatários** e digite um nome para adicionar um usuário que receberá uma notificação por email quando um usuário (especificado na caixa **usuários** ) executar uma atividade (especificada no Caixa **atividades** ). Observe que você é adicionado à lista de destinatários por padrão. Você pode remover seu nome dessa lista.
+    e. **Envie este alerta para** clicar em **Enviar este alerta**e clique na caixa **destinatários** e digite um nome para adicionar um usuário que receberá uma notificação por email quando um usuário (especificado na caixa **usuários** ) executar uma atividade (especificada na caixa **atividades** ). Observe que você é adicionado à lista de destinatários por padrão. Você pode remover seu nome dessa lista.
     
 5. Clique em **salvar** para criar o alerta. 
     
@@ -111,7 +113,7 @@ Para ativar novamente um alerta de atividade, basta repetir estas etapas e clica
     |:-----|:-----|:-----|
     |Exibe um documento em um site.  <br/> |Arquivo acessado  <br/> |Atividades de arquivo e pasta  <br/> |
     |Edita ou altera um documento.  <br/> |Arquivo modificado  <br/> |Atividades de arquivo e pasta  <br/> |
-    |Compartilha um documento com um usuário fora da sua organização.  <br/> |Compartilhar arquivo, pasta ou site  <br/> And  <br/> Convite de compartilhamento criado  <br/> Para obter mais informações, consulte [usar a auditoria de compartilhamento no log de auditoria do Office 365](use-sharing-auditing.md).  <br/> |Compartilhamento e acesso às atividades de solicitação  <br/> |
+    |Compartilha um documento com um usuário fora da sua organização.  <br/> |Compartilhar arquivo, pasta ou site  <br/> And  <br/> Convite de compartilhamento criado  <br/> Para saber mais, veja [Usar a auditoria de compartilhamento no log de auditoria do Office 365](use-sharing-auditing.md).  <br/> |Atividades de compartilhamento e solicitação de acesso  <br/> |
     |Carrega ou baixa um documento.  <br/> |Arquivo carregado  <br/> E/ou  <br/> Arquivo baixado  <br/> |Atividades de arquivo e pasta  <br/> |
     |Altera as permissões de acesso para um site.  <br/> |Permissões de site modificadas  <br/> |Atividades de administração do site  <br/> |
 
@@ -120,7 +122,7 @@ Para ativar novamente um alerta de atividade, basta repetir estas etapas e clica
     |**Quando um usuário faz isso...**|**Criar um alerta para esta atividade**|**Grupo de atividade**|
     |:-----|:-----|:-----|
     |Exclui permanentemente (limpa) uma mensagem de email da caixa de correio.  <br/> |Mensagens limpas da caixa de correio  <br/> | Atividades de caixa de correio do Exchange  <br/> |
-    |Envia uma mensagem de email de uma caixa de correio compartilhada.  <br/> |Mensagem enviada usando permissões Enviar como  <br/> And  <br/> Mensagem enviada usando permissões Enviar em nome de  <br/> | Atividades de caixa de correio do Exchange  <br/> |
+    |Envia uma mensagem de email de uma caixa de correio compartilhada.  <br/> |Mensagem enviada com permissões Enviar Como  <br/> And  <br/> Mensagem enviada com permissões Enviar em Nome de  <br/> | Atividades de caixa de correio do Exchange  <br/> |
    
 - Você também pode usar os cmdlets **New-ActivityAlert** e **set-ActivityAlert** em segurança & o PowerShell do centro de conformidade para criar e editar alertas de atividade. Lembre-se dos seguintes pontos se você usar esses cmdlets para criar ou editar alertas de atividades: 
     

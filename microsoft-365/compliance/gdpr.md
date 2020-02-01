@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 0ead7cbabc87b7d852cf61fc414df65315c25e39
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749601"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596328"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -99,7 +102,7 @@ Como um processador de dados, a Microsoft garante que os clientes possam atender
 
 ### <a name="accountability-readiness-checklists-for-the-gdpr"></a>Listas de Verificação de Preparação de Responsabilidade para o RGPD
 
-Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de acessar as informações necessárias para dar suporte ao RGPD ao usar os produtos da Microsoft. Você pode gerenciar os itens nesta lista de verificação com o [Gerente de Conformidade](https://servicetrust.microsoft.com/ComplianceManager) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados pelo cliente no bloco do RGPD.
+Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de acessar as informações necessárias para dar suporte ao RGPD ao usar os produtos da Microsoft. Você pode gerenciar os itens nesta lista de verificação com a [Pontuação de Conformidade](compliance-score.md) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados pelo cliente no bloco do RGPD.
 
 ## <a name="learn-more"></a>Saiba mais
 

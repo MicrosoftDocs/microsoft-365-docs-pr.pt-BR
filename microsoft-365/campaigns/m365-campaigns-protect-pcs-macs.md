@@ -1,5 +1,7 @@
 ---
 title: Proteger PCs e Macs não gerenciados do Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Proteger contra phishing e outros ataques com o Microsoft 365 para campanhas.
-ms.openlocfilehash: 93bb36f115ee5f83e07ac9623c852fec4dbf205f
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 7cb09d0cadcc70b96c5f1404defa5d0387947ca8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753620"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594792"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Proteger PCs e Macs não gerenciados do Windows 10
 

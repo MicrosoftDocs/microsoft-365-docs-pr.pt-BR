@@ -1,5 +1,7 @@
 ---
 title: O que há de novo no centro de conformidade da Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: brendonb
 author: brendonb
 manager: laurawi
@@ -15,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 5d9a4dbd1339fdcf44d1169e5dedc4ea5e0a9f09
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 78c2d2da6c8925e86bcba6c498682b72c9292922
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515852"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597178"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 

@@ -1,5 +1,7 @@
 ---
 title: Criptografia no Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Com o Office 365, seu conteúdo é criptografado em repouso e em trânsito com a criptografia, protocolos e tecnologias mais fortes disponíveis. Obtenha uma visão geral da criptografia no Office 365.
-ms.openlocfilehash: e63eb239f37f5f68da05f90998baf5bf6201fb71
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b16c3c4e71a3898acff0d23848b2fba185836729
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684809"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593172"
 ---
 # <a name="encryption-in-office-365"></a>Criptografia no Office 365
 
@@ -59,7 +61,7 @@ O Office 365 fornece soluções gerenciadas pela Microsoft para criptografia de 
   
 Para saber mais, confira os seguintes recursos:
   
-- [O que é o Azure Rights Management?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+- [ O que é o Azure Rights Management? ](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
 - [Ativar o gerenciamento de direitos no centro de administração](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
 
@@ -81,4 +83,4 @@ Para saber mais, confira os seguintes recursos:
 
 [Planejar recursos de proteção de informações e segurança do Office 365](plan-for-security-and-compliance.md)
 
-[As 10 maneiras principais de proteger os planos de negócios do Office 365 e do Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)
+[10 principais formas de proteger planos corporativos do Office 365 e do Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)

@@ -1,5 +1,7 @@
 ---
 title: Criar e aplicar políticas de gerenciamento de informações
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -18,12 +20,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: As políticas de gerenciamento de informações permitem que sua organização controle o tempo de retenção de conteúdo, para auditar o que as pessoas fazem com o conteúdo e adicionar códigos de barras ou rótulos a documentos. Uma política pode ajudar a garantir a conformidade com normas legais e governamentais ou processos corporativos internos. Como administrador, você pode configurar uma política para controlar como controlar documentos e quanto tempo manter documentos.
-ms.openlocfilehash: d8572f570db7b0223bc2f08cd78875224897e02c
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: b61c18390dde2e5d2da92189acced42ea5ece64c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684907"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595608"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Criar e aplicar políticas de gerenciamento de informações
 

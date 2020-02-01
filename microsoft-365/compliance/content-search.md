@@ -1,5 +1,7 @@
 ---
 title: Pesquisa de Conteúdo no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,13 +18,13 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
-description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365 e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
-ms.openlocfilehash: d27bce246cabfafd343286fc40ea670bfe560b9e
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365, grupos do Yammer e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
+ms.openlocfilehash: 8de78da9328d7f8c0a76edab5703821bdb0e6099
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967514"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595718"
 ---
 # <a name="content-search-in-office-365"></a>Pesquisa de Conteúdo no Office 365
 
@@ -35,8 +37,10 @@ Use a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo no centro de
 - Conversas do Skype for Business
     
 - Microsoft Teams 
-    
+
 - Grupos do Office 365
+
+- Grupos do Yammer 
     
 Após a execução de uma Pesquisa de Conteúdo, o número de locais de conteúdo e um número estimado de resultados de pesquisa serão exibidos nas estatísticas de pesquisa. As estatísticas podem ser visualizadas prontamente, como os locais de conteúdo que têm mais itens que correspondem à consulta de pesquisa. Ao executar uma pesquisa, elas poderão ser visualizadas ou exportadas para um computador local.
 
@@ -81,9 +85,9 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
        - **Locais:** Escolha os locais de conteúdo a serem pesquisados.
     
-      - **Todos os locais:** Use essa opção para pesquisar todos os locais de conteúdo em sua organização. Isso inclui os emails em todas as caixas de correio do Exchange (incluindo todas as caixas de correio inativas, caixas de correio de todos os Grupos do Office 365, todas as caixas de correio do Microsoft Teams). Também inclui todas as conversas do Skype for Business, todos os sites do SharePoint e OneDrive for Business (incluindo os sites de todos os Grupos do Office 365 e Microsoft Teams) e itens em todas as pastas públicas do Exchange.
+      - **Todos os locais:** Use essa opção para pesquisar todos os locais de conteúdo em sua organização. Isso inclui e-mails em todas as caixas de correio do Exchange (incluindo todas as caixas de correio inativas e caixas de correio de todas as equipes da Microsoft, do Yammer e do Office 365), todas as conversas do Skype for Business, todos os sites do SharePoint e do OneDrive for Business (incluindo o sites para todos os grupos do Microsoft Teams, do Yammer e do Office 365), e itens em todas as pastas públicas do Exchange.
     
-      - **Locais específicos:** Use essa opção para pesquisar locais de conteúdo específicos. Você poderá pesquisar todos os locais de conteúdo de um serviço específico do Office 365 (por exemplo, pesquisar em todas as caixas de correio do Exchange ou pesquisar em todos os sites do SharePoint) ou pesquisar locais específicos em qualquer um dos serviços do Office 365 exibidos. 
+      - **Locais específicos:** Use essa opção para pesquisar locais de conteúdo específicos. Você poderá pesquisar todos os locais de conteúdo de um serviço específico do Office 365 (por exemplo, pesquisar em todas as caixas de correio do Exchange ou pesquisar conteúdo em todos os sites do SharePoint) ou pesquisar locais específicos em qualquer um dos serviços do Office 365 exibidos. 
     
         ![Interface do usuário para escolher locais de conteúdo para pesquisar](media/9a09708b-f8a2-4382-8c4e-2c610ec33c72.png)
   
@@ -91,8 +95,7 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
        > [!NOTE]
        > Quando você pesquisa todos os locais de caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados de uma pesquisa de conteúdo. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estarão disponíveis para visualização. Eles serão incluídos na exportação e no download dos resultados da pesquisa. Para obter mais informações, confira [Conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
-
-    
+   
 6. Depois de configurar a consulta de pesquisa, clique em **Salvar e executar**.
     
 7. Na página **Salvar pesquisa**, digite um nome para a pesquisa e uma descrição opcional que ajude a identificar a pesquisa. O nome da pesquisa deve ser exclusivo na organização. 
@@ -176,6 +179,8 @@ Consulte as seções a seguir para obter mais informações sobre pesquisas de c
 [Pesquisar contas do OneDrive](#searching-onedrive-accounts)
   
 [Pesquisar por Microsoft Teams e Grupos do Office 365 ](#searching-microsoft-teams-and-office-365-groups)
+
+[Pesquisar grupos do Yammer](#searching-yammer-groups)
   
 [Pesquisar caixas de correio inativas](#searching-inactive-mailboxes)
   
@@ -308,6 +313,25 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
 
 Observe que as condições estão logicamente associadas à consulta de palavra-chave pelo operador **E (AND)**. Isso significa que um item deve corresponder à consulta da palavra-chave e à condição da pesquisa para aparecer nos resultados da pesquisa. Para saber mais, consulte a seção “Diretrizes de condições de uso” em [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions).
   
+### <a name="searching-yammer-groups"></a>Pesquisar grupos do Yammer
+
+Você pode usar a propriedade de e-mail **ItemClass** ou o critério de pesquisa **Tipo** para pesquisar itens de conversa especificamente nos grupos do Yammer.
+
+  - Para usar a propriedade **ItemClass** como parte da consulta de pesquisa de palavra-chave, na caixa **palavras-chave** de uma consulta de pesquisa, você pode digitar uma (ou todas) as seguintes propriedades: pares de valores:
+
+     - ItemClass:IPM.Yammer.message
+     - ItemClass:IPM.Yammer.poll
+     - ItemClass:IPM.Yammer.praise
+     - ItemClass:IPM.Yammer.question
+  
+    Por exemplo, você pode usar a seguinte consulta de pesquisa para retornar mensagens do Yammer e itens de elogio do Yammer:
+
+    ![Usar a propriedade ItemClass para procurar itens do Yammer](media/YammerContentSearch1.png)
+  
+  - Como alternativa, você pode usar a condição de e-mail**Tipo** e selecionar **mensagens do Yammer** para retornar itens do Yammer. Por exemplo, a seguinte consulta de pesquisa retornará todos os itens de conversa do Yammer que contenham a palavra-chave "confidencial". 
+
+    ![Use o cartão de condição de tipo para pesquisar itens de conversa do Yammer](media/YammerContentSearch2.png)
+
 ### <a name="searching-inactive-mailboxes"></a>Pesquisar caixas de correio inativas
 
 Você pode pesquisar por caixas de correio inativas em uma pesquisa de conteúdo. Para ver uma lista das caixas de correio inativas na sua organização, execute o comando  `Get-Mailbox -InactiveMailboxOnly`no PowerShell do Exchange Online. Como alternativa, vá para **Governança de informações** \> **Retenção** no Centro de Conformidade e Segurança, e em seguida, clique em **Mais**![Reticências da Barra de Navegação](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **Caixas de correio inativas**.
@@ -321,7 +345,7 @@ Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas
 - Você pode usar o Centro de Conformidade & Segurança do PowerShell para criar uma pesquisa de conteúdo para pesquisar uma caixa de correio inativa. Para fazer isso, você precisa acrescentar um ponto (. ) ao endereço de email da caixa de correio inativa. Por exemplo, o comando a seguir cria uma pesquisa de conteúdo que pesquisa uma caixa de correio inativa com o endereço de email pavelb@contoso.onmicrosoft.com:
 
    ``` 
-   New-ComplianceSearch -name InactiveMailboxSearch -ExchangeLocation .pavelb@contoso.onmicrosoft.com -AllowNotFoundExchangeLocationsEnabled $true
+   New-ComplianceSearch -Name InactiveMailboxSearch -ExchangeLocation .pavelb@contoso.onmicrosoft.com -AllowNotFoundExchangeLocationsEnabled $true
    ```
 
 - Não é recomendável de forma alguma que você tenha uma caixa de correio ativa e uma inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atribuído atualmente a uma caixa de correio inativa, é recomendável recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma ativa (ou o arquivo de uma caixa de correio ativa) e excluir a caixa de correio inativa. Para obter mais informações, consulte um dos seguintes tópicos:

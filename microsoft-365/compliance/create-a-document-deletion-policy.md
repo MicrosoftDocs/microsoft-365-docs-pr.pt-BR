@@ -1,5 +1,7 @@
 ---
 title: Criar uma política de exclusão de documentos
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
-ms.openlocfilehash: e007e26ff30931b605bca0ac432d3cf0ac8b18ac
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9ada3f2756b627965c9f215c1111ff2fe72da1e7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806554"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596228"
 ---
 # <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 

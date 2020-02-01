@@ -1,5 +1,7 @@
 ---
 title: Exibir relatórios do Office 365 proteção avançada contra ameaças, relatórios de malware, relatórios de phishing, contas comprometidas, status de proteção de URL, relatórios de ameaças, ameaças de relatório
+f1.keywords:
+- CSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
-ms.openlocfilehash: 74ed1387af7792d8cb41d6f890deb89be07fc9fc
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: a1db932dda8b49d2d17805e605e11bc654c0e318
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210503"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598068"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 

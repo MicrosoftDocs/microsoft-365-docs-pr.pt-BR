@@ -1,5 +1,7 @@
 ---
 title: Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Muitas organizações já têm um processo para identificar e classificar informações confidenciais usando as propriedades de classificação no arquivo de classificação de infraestrutura (FCI) do Windows Server, as propriedades do documento no SharePoint ou as propriedades do documento aplicadas por um sistema de terceiros. Se essa for a sua organização, você pode criar uma política de DLP no Office 365 que reconhece as propriedades que foram aplicadas a documentos pelo FCI do Windows Server ou outro sistema, para que a política de DLP possa ser imposta em documentos do Office com FCI específico ou outros valores de propriedade.
-ms.openlocfilehash: 286a66968727737c906ba24ac900eacd7732276e
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 1ae70571817de1df3a48b38a44da1ed1e3695750
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38684865"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597698"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
@@ -129,7 +131,7 @@ Para detectar o conteúdo com essa propriedade em todos os lugares, convém soli
 > [!CAUTION]
 > A reindexação de um site pode gerar uma grande carga no sistema de pesquisa. Não reindexe o site, a menos que o cenário o exija absolutamente. 
   
-Para obter mais informações, consulte [manualmente solicitações de rastreamento e reindexação de um site, uma biblioteca ou uma lista](https://go.microsoft.com/fwlink/p/?LinkID=627457).
+Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://go.microsoft.com/fwlink/p/?LinkID=627457).
   
 ### <a name="re-index-a-site-optional"></a>Reindexar um site (opcional)
 
@@ -143,7 +145,7 @@ Para obter mais informações, consulte [manualmente solicitações de rastreame
     
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
     
-- [Enviar notificações e mostrar dicas de política para políticas de DLP](use-notifications-and-policy-tips.md)
+- [Enviar notificações e exibir dicas de políticas para as políticas DLP](use-notifications-and-policy-tips.md)
     
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     

@@ -1,5 +1,7 @@
 ---
 title: Usar regras de fluxo de email para configurar a filtragem de email em massa no Exchange Online Protection
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de email no Exchange Online Protection para filtragem de email em massa.
-ms.openlocfilehash: 4f53ee482567a3c76acb4ee8ca0ffb10f6f8cca0
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 5188ce077ce15ab7ad5d03e4aa2c172db6a80c37
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866743"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598038"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>Usar regras de fluxo de email para configurar a filtragem de email em massa no Exchange Online Protection
 
@@ -136,9 +138,9 @@ Se você quiser mais opções para filtrar mensagens em massa, você pode criar 
 
 ## <a name="for-more-information"></a>Para obter mais informações
 
-[Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+[Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
-[Valores de nível de reclamação em massa](bulk-complaint-level-values.md)
+[Valores do nível de reclamação em massa](bulk-complaint-level-values.md)
 
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
 

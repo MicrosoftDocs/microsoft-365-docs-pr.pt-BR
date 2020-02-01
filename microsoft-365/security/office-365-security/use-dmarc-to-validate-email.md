@@ -1,5 +1,7 @@
 ---
 title: Usar DMARC para validar emails no Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar uma autenticação de mensagem baseada em domínio, relatórios e conformidade (DMARC) para validar as mensagens enviadas da sua organização do Office 365.
-ms.openlocfilehash: f48ab1e231e0b46889f10fc14723111480f02d5c
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: 88daf311c5c3bdad396044b78476a134f3c814cb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038900"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598088"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Usar DMARC para validar emails no Office 365
 
@@ -77,7 +79,7 @@ O registro TXT DMARC da Microsoft tem a seguinte aparência:
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-A Microsoft envia seus relatórios de DMARC à [Agari](https://agari.com), uma terceirizada. A Agari coleta e analisa os relatórios de DMARC.
+A Microsoft envia seus relatórios de DMARC à [Agari](https://agari.com), uma terceirizada. A Agari coleta e analisa os relatórios de DMARC. Além disso, o Valimail oferece [serviços gratuitos de monitoramento DMARC para o Office 365](https://go.valimail.com/microsoft.html).
   
 ## <a name="implement-dmarc-for-inbound-mail"></a>Implementar DMARC para email de entrada
 <a name="implementDMARCinbound"> </a>

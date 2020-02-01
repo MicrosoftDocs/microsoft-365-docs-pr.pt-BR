@@ -1,5 +1,7 @@
 ---
 title: Visão geral do Gerenciador de conformidade da Microsoft
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 97cbc676f9de070d1532d1e56c96db0efcce8bd0
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 43d7e3a12c72573b46d6c8d2aff36eed97fd08ac
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807330"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595788"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -147,7 +149,7 @@ Os modelos pré-configurados incluídos no Gerenciador de conformidade são:
 13. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
 14. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
-## <a name="compliance-score"></a>Pontuação de conformidade
+## <a name="compliance-score"></a>Pontuação de Conformidade
 
 A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que ajuda você a entender a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
   

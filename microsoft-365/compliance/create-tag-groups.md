@@ -1,5 +1,7 @@
 ---
 title: Criar um novo caso na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7150bf2f45c1c2f2e623755972e11a3fbfce355e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 2cf0bafa45e96960b8d957d1b8905124223173ce
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684980"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595538"
 ---
 # <a name="create-tag-groups"></a>Criar grupos de marcas
 

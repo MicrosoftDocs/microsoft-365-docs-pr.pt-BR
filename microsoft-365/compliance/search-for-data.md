@@ -1,5 +1,7 @@
 ---
 title: Pesquisar dados em uma investigação
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bcd7f3f38f53ef22fc50823f3d2e3564af333431
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 62d42c29182a81cfa133c5d8863add56aba29be3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071798"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597548"
 ---
 # <a name="search-for-data-in-an-investigation"></a>Pesquisar dados em uma investigação
 
@@ -27,7 +29,7 @@ Na guia **Pesquisar** em uma investigação de dados, você pode pesquisar dados
 
 Após executar uma pesquisa, você pode exibir estatísticas sobre os itens retornados pela pesquisa, como os locais de conteúdo que tinham a maioria dos itens que corresponderam à consulta de pesquisa. Você também pode visualizar um subconjunto dos resultados. Depois de identificar o conjunto de documentos a serem investigados, você pode adicionar os resultados da pesquisa a um conjunto de evidências para processar e analisar ainda mais.
 
-## <a name="create-a-search"></a>Create a search
+## <a name="create-a-search"></a>Criar uma pesquisa
 
 1. Em uma investigação, clique na guia **pesquisas** e, em seguida, clique em **nova pesquisa**. 
 

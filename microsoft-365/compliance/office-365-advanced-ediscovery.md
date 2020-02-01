@@ -1,5 +1,7 @@
 ---
 title: Descoberta Eletrônica Avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,23 +15,26 @@ search.appverid:
 - MET150
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
 description: Saiba como a descoberta eletrônica avançada do Office 365 pode ajudá-lo a analisar os dados no Office 365, simplificar as revisões de documentos e tomar decisões de descoberta eletrônica eficiente.
-ms.openlocfilehash: 4c72444765f75a77d3b62dbd2675b0c277d3d6ba
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: a3a6291459005d60defe61a8bca40ce382b6d052
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803788"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597888"
 ---
 # <a name="office-365-advanced-ediscovery"></a>Descoberta Eletrônica Avançada do Office 365
 
-> [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> [!IMPORTANT]
+> À medida que continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365 (também conhecida como *descoberta automática v 1.0*). Se você ainda estiver usando o eDiscovery v 1.0 avançado, faça a transição para o [eDiscovery v 2.0 avançado](overview-ediscovery-20.md) (também conhecido como *solução de descoberta eletrônica avançada no Microsoft 365*) assim que possível. A descoberta eletrônica avançada 2,0 contém uma funcionalidade semelhante à encontrada no Advanced eDiscovery v 1.0, mas também oferece muitos recursos novos, como gerenciamento de responsáveis, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a aposentadoria do Advanced eDiscovery v 1.0, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
   
 Com a descoberta eletrônica avançada, você pode entender melhor seus dados do Office 365 e reduzir seus custos de descoberta eletrônica. A descoberta eletrônica avançada ajuda você a analisar dados não estruturados no Office 365, realizar uma revisão de documentos mais eficiente e tomar decisões para reduzir os dados da descoberta eletrônica. Você pode trabalhar com dados armazenados no Exchange Online, no SharePoint Online, no OneDrive for Business, no Skype for Business, nos grupos do Office 365 e no Microsoft Teams. Você pode realizar uma pesquisa de descoberta eletrônica no centro de segurança e conformidade para pesquisar conteúdo em grupos, caixas de correio e sites individuais e, em seguida, analisar os resultados da pesquisa com descoberta eletrônica avançada. Ao preparar resultados de pesquisa para análise na descoberta eletrônica avançada, o reconhecimento óptico de caracteres permite a extração de texto de imagens. Este recurso permite que os avançados recursos analíticos de descoberta eletrônica avançada sejam aplicados a arquivos de imagem.
   
 A descoberta eletrônica avançada simplifica e acelera o processo de revisão de documentos identificando informações redundantes com recursos como detecção de duplicatas e análise de threads de email. O recurso de relevância aplica a tecnologia de codificação de previsão para identificar documentos relevantes. A descoberta eletrônica avançada aprende com suas decisões de marcação em documentos de exemplo e aplica técnicas estatísticas e de aprendizado automático para calcular a relevância de cada documento no conjunto de dados. Isso permite que você se concentre em documentos importantes, tome decisões rápidas e fundamentadas sobre a estratégia de casos, a seleção de dados e a revisão de prioridades.
   
- **Por que a descoberta eletrônica avançada?** A descoberta eletrônica avançada do Office 365 cria o conjunto existente de recursos de descoberta eletrônica no Office 365. Por exemplo, você pode usar o recurso de pesquisa no centro de conformidade &amp; de segurança do Office 365 para executar uma pesquisa inicial de todas as fontes de conteúdo em sua organização para identificar e coletar os dados que podem ser relevantes para um caso jurídico específico. Em seguida, você pode executar a análise nesses dados aplicando a análise de texto, o Machine Learning e a relevância/previsão de codificação de descoberta eletrônica avançada. Isso pode ajudar sua organização a processar rapidamente milhares de mensagens de email, documentos e outros tipos de dados para localizar os itens que mais provavelmente são relevantes para um caso específico. O conjunto de dados reduzido pode ser exportado fora do Office 365 para análise adicional. 
+ **Por que a descoberta eletrônica avançada?** A descoberta eletrônica avançada do Office 365 cria o conjunto existente de recursos de descoberta eletrônica no Office 365. Por exemplo, você pode usar o recurso de pesquisa no centro de conformidade &amp; de segurança do Office 365 para executar uma pesquisa inicial de todas as fontes de conteúdo em sua organização para identificar e coletar os dados que podem ser relevantes para um caso jurídico específico. Em seguida, você pode executar a análise nesses dados aplicando a análise de texto, o Machine Learning e a relevância/previsão de codificação de descoberta eletrônica avançada. Isso pode ajudar sua organização a processar rapidamente milhares de mensagens de email, documentos e outros tipos de dados para localizar os itens que mais provavelmente são relevantes para um determinado 
+ 
+> [!NOTE]
+> A descoberta eletrônica avançada requer um Office 365 E3 com o complemento de conformidade avançada ou uma assinatura E5 para sua organização. Se você não tiver esse plano e quiser tentar a descoberta eletrônica avançada, poderá [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). situação. O conjunto de dados reduzido pode ser exportado fora do Office 365 para análise adicional. 
   
 ## <a name="get-started"></a>Introdução
 

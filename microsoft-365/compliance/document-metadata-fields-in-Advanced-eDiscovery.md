@@ -1,5 +1,7 @@
 ---
 title: Campos de metadados de documentos na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 7a5a767d22c6f3a5251a11bd201846135cfcf130
-ms.sourcegitcommit: ca4ce9e8c7e4b433608cd059857740ffd5a472c2
+ms.openlocfilehash: 399e89a577db68e0c31eceef921ef2ab1172352a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2019
-ms.locfileid: "40840150"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595186"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 

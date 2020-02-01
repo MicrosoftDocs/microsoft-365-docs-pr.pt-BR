@@ -1,5 +1,7 @@
 ---
 title: Inscreva-se no Microsoft 365 para campanhas
+f1.keywords:
+- NOCSH
 ms.author: supotter
 author: supotter
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: b6866a3c2291b00934b5808777f795e5b99faa34
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: fefba1ddbf5feead873e0367502bbe2bcc530efb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753600"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594762"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 

@@ -1,5 +1,7 @@
 ---
 title: Executar relatórios na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 694346eabf5368b1f9966ba370331993d800358a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9d459065878eceaf9f0fc8b6ebacb749ff4c4830
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802914"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597588"
 ---
 # <a name="run-reports-in-office-365-advanced-ediscovery"></a>Executar relatórios na descoberta eletrônica avançada do Office 365
 

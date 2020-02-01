@@ -1,5 +1,7 @@
 ---
 title: Criar, gerar relatórios sobre e excluir várias Pesquisas de Conteúdo
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Saiba como automatizar tarefas de pesquisa de conteúdo, como a criação de pesquisas e a execução de relatórios por meio de scripts do PowerShell no centro de conformidade de & de segurança no Office 365.
-ms.openlocfilehash: 43f6046521ef121f52b2a5abe26d2cd6a322d22c
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6c92d9dab093b802acc518aebb96ddf83cf54ea5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684983"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595568"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Criar, gerar relatórios sobre e excluir várias Pesquisas de Conteúdo
 
@@ -58,7 +60,7 @@ O arquivo de valor separado por vírgula (CSV) que você criou nesta etapa cont�
     
 2. Abra o arquivo. txt no Excel e use as informações da tabela a seguir para editar o arquivo com as informações de cada pesquisa. 
     
-    |**Parâmetro**|**Description**|
+    |**Parâmetro**|**Descrição**|
     |:-----|:-----|
     | `ExchangeLocation` <br/> |O endereço SMTP da caixa de correio do usuário.  <br/> |
     | `SharePointLocation` <br/> |A URL do site do OneDrive for Business do usuário ou a URL de qualquer site em sua organização. Para a URL dos sites do OneDrive for Business, use este formato ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `:. Por exemplo, `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
@@ -68,7 +70,7 @@ O arquivo de valor separado por vírgula (CSV) que você criou nesta etapa cont�
    
 3. Salve o arquivo do Excel como um arquivo CSV em uma pasta no computador local. O script criado na etapa 3 usará as informações neste arquivo CSV para criar as pesquisas. 
   
-## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Etapa 2: conectar-se ao PowerShell do centro de conformidade & segurança
+## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Etapa 2: Conectar-se ao Centro de Segurança e Conformidade usando o PowerShell
 
 A próxima etapa é conectar-se ao PowerShell do centro de conformidade & segurança para sua organização.
   

@@ -1,5 +1,7 @@
 ---
 title: Preparar resultados de pesquisa para Descoberta Eletrônica Avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,18 +17,21 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365 para análise adicional com a ferramenta de descoberta eletrônica avançada.
-ms.openlocfilehash: 244fae317964261ad1eeadbdca2d4dffeda0a23a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 115657a1ea8a603676ff168cce7653e56f5664ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073433"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597738"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Preparar resultados de pesquisa para Descoberta Eletrônica Avançada do Office 365
 
-Depois que uma pesquisa associada a um caso de descoberta eletrônica no centro de conformidade & segurança for executada com êxito, você poderá preparar os resultados da pesquisa para análise adicional com a descoberta eletrônica avançada do Office 365, que permite analisar conjuntos de dados grandes e não estruturados e Reduza a quantidade de dados relevantes para um caso jurídico. Os recursos avançados de descoberta eletrônica incluem:
+> [!IMPORTANT]
+> À medida que continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365 (também conhecida como *descoberta automática v 1.0*). Se você ainda estiver usando o eDiscovery v 1.0 avançado, faça a transição para o [eDiscovery v 2.0 avançado](overview-ediscovery-20.md) (também conhecido como *solução de descoberta eletrônica avançada no Microsoft 365*) assim que possível. A descoberta eletrônica avançada 2,0 contém uma funcionalidade semelhante à encontrada no Advanced eDiscovery v 1.0, mas também oferece muitos recursos novos, como gerenciamento de responsáveis, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a aposentadoria do Advanced eDiscovery v 1.0, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+
+Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no centro de conformidade do & de segurança for executada com êxito, você poderá preparar os resultados da pesquisa para análise adicional com a descoberta eletrônica avançada do Office 365, que permite analisar conjuntos de dados grandes e não estruturados e reduzir a quantidade de dados relevantes para um caso jurídico. Os recursos avançados de descoberta eletrônica incluem:
   
-- **Reconhecimento óptico de caracteres** : ao preparar os resultados de pesquisa para descoberta eletrônica avançada, a funcionalidade de reconhecimento óptico de caracteres (OCR) extrai automaticamente o texto de imagens e o inclui com os resultados de pesquisa que são carregados no no Descoberta eletrônica avançada para análise. O OCR tem suporte para arquivos soltos, anexos de email e imagens incorporadas. Isso permite que você aplique os recursos analíticos de texto de descoberta eletrônica avançada (quase duplicatas, threads de email, temas e codificação de previsão) ao conteúdo de texto em arquivos de imagem. O OCR de descoberta eletrônica avançada oferece suporte aos seguintes formatos de arquivos de imagem:
+- **Reconhecimento óptico de caracteres** : ao preparar os resultados de pesquisa para descoberta eletrônica avançada, a funcionalidade de reconhecimento óptico de caracteres (OCR) extrai automaticamente o texto de imagens e o inclui com os resultados de pesquisa que são carregados na descoberta eletrônica avançada para análise. O OCR tem suporte para arquivos soltos, anexos de email e imagens incorporadas. Isso permite que você aplique os recursos analíticos de texto de descoberta eletrônica avançada (quase duplicatas, threads de email, temas e codificação de previsão) ao conteúdo de texto em arquivos de imagem. O OCR de descoberta eletrônica avançada oferece suporte aos seguintes formatos de arquivos de imagem:
 
     - GIF
     - JPEG

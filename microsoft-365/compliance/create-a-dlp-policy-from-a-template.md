@@ -1,5 +1,7 @@
 ---
 title: Criar uma política de DLP a partir de um modelo
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: 2f7618f80f02865816a1f937b36c9f09b794b77d
-ms.sourcegitcommit: 8ad30e6c5cd77a72e5c1ce463c9f693132cc0b15
+ms.openlocfilehash: b101714190879e4bdd1090b05f94f1f36e5d8729
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "38684737"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595658"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Criar uma política DLP com base em um modelo
 
@@ -140,13 +142,13 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
      Depois de criar as políticas de DLP, você deve considerar a implementação gradual delas para avaliar o impacto e testar a eficácia delas antes de as impor completamente. Por exemplo, você não deseja que uma nova política de DLP bloqueie acidentalmente o acesso a milhares de documentos que as pessoas precisam para realizar o trabalho. 
     
-    Se você estiver criando políticas DLP com um grande impacto em potencial, recomendamos seguir esta sequência:
+    Se estiver criando políticas DLP com um grande impacto em potencial, é recomendável seguir esta sequência:
     
 17. Iniciar no modo de teste sem Dicas de Política e, em seguida, usar os relatórios de DLP para avaliar o impacto. Você pode usar relatórios de DLP para exibir o número, o local, o tipo e a gravidade das correspondências de política. Com base nos resultados, você pode ajustar as regras conforme necessário. No modo de teste, as políticas de DLP não afetarão a produtividade das pessoas que trabalham na sua organização. 
     
 18. Mover para o modo de teste com Dicas de Política e notificações para que você possa começar a ensinar os usuários sobre suas políticas de conformidade e prepará-los para as regras que serão aplicadas. Nesse estágio, você também pode pedir aos usuários para relatar falsos positivos para que você possa refinar as regras.
     
-19. Ative as políticas para que as regras sejam aplicadas e o conteúdo seja protegido. Continue a monitorar os relatórios de DLP e qualquer relatório de incidentes ou notificações para certificar-se de que os resultados sejam os desejados. 
+19. Ative as políticas para que as regras sejam aplicadas e o conteúdo seja protegido. Continue a monitorar os relatórios de DLP e qualquer relatório de incidente ou notificações para se certificar de que os resultados sejam os desejados. 
     
     ![Opções para usar o modo de teste e ativar a política](media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
   
@@ -184,7 +186,7 @@ Além disso, você pode desativar cada regra individualmente editando a polític
 
 - [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md)
     
-- [Enviar notificações e mostrar dicas de política para políticas de DLP](use-notifications-and-policy-tips.md)
+- [Enviar notificações e exibir dicas de políticas para as políticas DLP](use-notifications-and-policy-tips.md)
     
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
     

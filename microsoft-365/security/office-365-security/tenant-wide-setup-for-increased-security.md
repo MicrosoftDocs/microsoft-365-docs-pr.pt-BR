@@ -1,5 +1,7 @@
 ---
 title: Configure o locatário do Office 365 para aumentar a segurança
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Orienta você na configuração recomendada para definições de todos os locatários que afetam a segurança de seu ambiente do Office 365. Suas necessidades de segurança podem exigir mais ou menos segurança. Use estas recomendações como ponto de partida.
-ms.openlocfilehash: f5df416b71cd3b4885033786d83160644b6d7b1a
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 01cf10818c83171fbbf30b5ec7f08871f0b9b328
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971449"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598198"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>Configure o locatário do Office 365 para aumentar a segurança
 
@@ -126,6 +128,7 @@ Mais informações:
 
 Estes artigos e guias fornecem informações prescritivas adicionais para proteger seu ambiente do Office 365:
 
-- [Diretrizes de segurança da Microsoft para campanhas políticas, sem fins lucrativos e outras organizações Agile](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance) (você pode usar essas recomendações em qualquer ambiente, especialmente em ambientes de nuvem)
+- [Diretrizes de segurança da Microsoft para campanhas políticas, sem fins lucrativos e outras organizações Agile](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) (você pode usar essas recomendações em qualquer ambiente, especialmente em ambientes de nuvem)
+
 
 - [Políticas de segurança e configurações recomendadas para identidades e dispositivos](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations) (estas recomendações incluem ajuda para ambientes do AD FS)

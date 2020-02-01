@@ -1,5 +1,7 @@
 ---
 title: Usar o envio de unidade para importar arquivos PST da sua organização
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: 'Para administradores: saiba como importar em massa os arquivos PST da sua organização para as caixas de correio do Office 365 copiando arquivos PST para um disco rígido e, em seguida, enviá-los para a Microsoft. '
-ms.openlocfilehash: 79fc1b6cf9ad90a4a059ef7c9e4a747c1beb54c5
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5de4143f84a4c5beed0e408c302ce2ca1e39e17a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802336"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597358"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files-to-office-365"></a>Usar o envio de unidade para importar arquivos PST da sua organização para o Office 365
 
@@ -65,7 +67,7 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
   
 - Armazene os arquivos PST que pretende copiar no disco rígido, em um servidor de arquivos ou pasta compartilhada da organização. Na etapa 2, você executa a ferramenta de importação e exportação do Azure (ferramenta waimportexport. exe) que copia os arquivos PST armazenados nesse servidor de arquivos ou pasta compartilhada para o disco rígido.
 
-- Arquivos PST grandes podem impactar o desempenho do processo de importação de PST. Portanto, recomendamos que cada arquivo PST que você copiar para o disco rígido na etapa 2 não tenha mais de 20 GB.
+- Arquivos PST muito grandes podem afetar o desempenho do processo de importação de PST. Portanto, recomendamos que cada arquivo PST que você copiar para o disco rígido na etapa 2 não tenha mais de 20 GB.
     
 - Apenas unidades de estado sólido (SSDs) de 2,5 polegadas ou discos rígidos internos SATA II/III de 2,5 polegadas ou 3,5 polegadas têm suporte para uso com o serviço de importação do Office 365. Use discos rígidos de até 10 TB. Para trabalhos de importação, somente o primeiro volume de dados do disco rígido será processado. O volume de dados deve ser formatado com NTFS. Ao copiar dados para uma unidade de disco rígido, você pode anexá-los diretamente usando um conector de 2,5-polegadas ou de 2,5 polegadas ou 3,5-polegada SATA II/III, ou você pode anexá-lo externamente usando um adaptador USB II/III SSD de 2,5 polegadas ou 2,5 polegadas externo.
     
@@ -116,12 +118,12 @@ A primeira etapa é baixar a chave de armazenamento seguro e a ferramenta e que 
   
 1. Vá para [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
-2. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **importar** \> **arquivos PST de importação**de governança de informações.
+2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Importar** \> **Importar arquivos PST**.
     
     > [!NOTE]
     > Conforme mencionado anteriormente, você precisa ter recebido as permissões apropriadas para acessar a página de **importação** no centro de conformidade do & de segurança. 
   
-3. Na página **importar arquivos PST** , clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **novo trabalho de importação**.
+3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
 4. No assistente de importação de trabalho, digite um nome para o trabalho de importação de PST e clique em **Avançar**. Use letras minúsculas, números, hifens e sublinhados. Não é possível usar letras maiúsculas ou incluir espaços no nome.
     
@@ -149,7 +151,7 @@ A primeira etapa é baixar a chave de armazenamento seguro e a ferramenta e que 
 
 A etapa a seguir consiste em usar a ferramenta WAImportExport.exe para copiar arquivos PST no disco rígido. Com essa ferramenta, você criptografa o disco rígido com BitLocker, copia os arquivos PST no disco rígido e cria um arquivo de diário que armazena informações sobre o processo de cópia. Para concluir essa etapa, você deve colocar os arquivos PST em um compartilhamento de arquivos ou servidor de arquivos da organização. Esse local é conhecido como diretório de origem no procedimento a seguir. 
 
- Conforme mencionado anteriormente, cada arquivo PST que você copia para o disco rígido não deve ser maior do que 20 GB. Arquivos PST maiores que 20 GB podem impactar o desempenho do processo de importação de PST que você inicia na etapa 6.
+ Conforme mencionado anteriormente, cada arquivo PST que você copia para o disco rígido não deve ser maior do que 20 GB. Arquivos PST com mais de 20 GB podem afetar o desempenho do processo de importação de PST iniciado na etapa 6.
   
 > [!IMPORTANT]
 > Depois de executar a ferramenta WAImportExport.exe pela primeira vez em um disco rígido, use sintaxes diferentes nas próximas execuções. Esta sintaxe é explicada na etapa 4 deste procedimento para copiar os arquivos PST para a unidade de disco rígido. 
@@ -249,9 +251,9 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
   
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
-2. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **importar** \> **arquivos PST de importação**de governança de informações.
+2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Importar** \> **Importar arquivos PST**.
     
-3. Na página **importar arquivos PST** , clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **novo trabalho de importação**.
+3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
     > [!NOTE]
     > Conforme mencionado anteriormente, você precisa ter recebido as permissões apropriadas para acessar a página de **importação** no centro de conformidade do & de segurança. 
@@ -403,9 +405,9 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
 1. Vá para [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
     
-2. No painel esquerdo do centro de conformidade & segurança, clique em **governança de informações > importar > importar arquivos PST**.
+2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações> Importar > Importar arquivos PST**.
     
-3. Na página **importar arquivos PST** , clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **novo trabalho de importação**.
+3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
 4. No assistente de importação de trabalho, digite um nome para o trabalho de importação de PST e clique em **Avançar**. Use letras minúsculas, números, hifens e sublinhados. Não é possível usar letras maiúsculas ou incluir espaços no nome.
     
@@ -498,13 +500,13 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
   WAImportExport.exe PrepImport /j:PSTHDD1.jrn /id:driveship2 /srcdir:"\\FILESERVER1\PSTs\SecondBatch" /dstdir:"ingestiondata/" /blobtype:BlockBlob
     ```
 
-- Como explicado anteriormente, o serviço de importação do Office 365 ativa a configuração de retenção suspensa (para uma duração indefinida) após a importação de arquivos PST para uma caixa de correio. Isso significa que a propriedade *RentionHoldEnabled* é definida `True` para que a política de retenção atribuída à caixa de correio não seja processada. Isso dá ao proprietário da caixa de correio o tempo para gerenciar as novas mensagens importadas, impedindo que uma política de exclusão ou de arquivamento exclua ou arquive mensagens mais antigas. Veja algumas etapas que você pode executar para gerenciar essa retenção: 
+- Como explicado anteriormente, o serviço de importação do Office 365 ativa a configuração de retenção suspensa (para uma duração indefinida) após a importação dos arquivos PST para uma caixa de correio. Isso significa que a propriedade *RentionHoldEnabled* é definida `True` para que a política de retenção atribuída à caixa de correio não seja processada. Isso dá ao proprietário da caixa de correio o tempo para gerenciar as mensagens importadas recentemente, impedindo que uma política de exclusão ou arquivamento exclua ou arquive mensagens mais antigas. Veja algumas etapas que você pode executar para gerenciar essa retenção: 
     
-  - Após um determinado período de tempo, você pode desativar o bloqueio de retenção executando o `Set-Mailbox -RetentionHoldEnabled $false` comando. Para obter instruções, consulte [colocar uma caixa de correio em retenção](https://go.microsoft.com/fwlink/p/?LinkId=544749).
+  - Após um determinado período de tempo, você pode desativar o bloqueio de retenção executando o `Set-Mailbox -RetentionHoldEnabled $false` comando. Para obter mais detalhes, consulte [Retenção local de uma caixa de correio em retenção](https://go.microsoft.com/fwlink/p/?LinkId=544749).
     
-  - Você pode configurar a retenção para que ela esteja desativada em alguma data no futuro. Para fazer isso, execute o `Set-Mailbox -EndDateForRetentionHold <date>` comando. Por exemplo, supondo que a data de hoje seja 1º de junho de 2016 e você queira que a retenção tenha sido desativada em 30 dias, execute `Set-Mailbox -EndDateForRetentionHold 7/1/2016`o seguinte comando:. Neste cenário, você deixaria a propriedade *RentionHoldEnabled* definida como *true*. Para obter mais informações, consulte [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
+  - Você pode configurar a retenção para que ela seja desativada em alguma data no futuro. Para fazer isso, execute o `Set-Mailbox -EndDateForRetentionHold <date>` comando. Por exemplo, supondo que a data de hoje seja 1º de junho de 2016 e você queira que a retenção tenha sido desativada em 30 dias, execute `Set-Mailbox -EndDateForRetentionHold 7/1/2016`o seguinte comando:. Neste cenário, você deixaria a propriedade *RentionHoldEnabled* definida como *true*. Para obter mais informações, consulte [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
     
-  - Você pode alterar as configurações da política de retenção atribuída à caixa de correio para que os itens mais antigos que foram importados não sejam imediatamente excluídos ou movidos para a caixa de correio de arquivo morto do usuário. Por exemplo, você poderia estender a idade de retenção para uma política de exclusão ou arquivamento atribuída à caixa de correio. Neste cenário, você desativaria a retenção da caixa de correio depois de alterar as configurações da política de retenção. Para obter mais informações, consulte [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização do Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
+  - Você pode alterar as configurações da política de retenção atribuída à caixa de correio para que os itens mais antigos que foram importados não sejam excluídos ou movidos imediatamente para a caixa de correio de arquivo morto do usuário. Por exemplo, você pode aumentar o período de retenção para uma política de exclusão ou arquivamento atribuída à caixa de correio. Nesse cenário, você desabilitaria a retenção na caixa de correio depois de alterar as configurações da política de retenção. Para obter mais informações, consulte [Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
     
 
   

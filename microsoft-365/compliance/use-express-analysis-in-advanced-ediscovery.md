@@ -1,5 +1,7 @@
 ---
 title: Usar a análise expressa na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Saiba como executar o modo de análise expressa da descoberta eletrônica avançada do Office 365
-ms.openlocfilehash: f1b26e40c2ed3a3b468ada0d501fcafd20fefe2c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 41de4b0c4e4e57501fb2a0774c556e2556c3d496
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802306"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597308"
 ---
 # <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Usar a análise expressa na descoberta eletrônica avançada do Office 365
 

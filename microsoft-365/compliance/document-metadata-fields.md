@@ -1,5 +1,7 @@
 ---
 title: Documentar campos de metadados em investigações de dados (versão prévia)
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 41e551850b47bec88f6dd8353c6db02048255e74
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1edf55298981fe8c20a38c863229a7349d6b0862
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071909"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595176"
 ---
 # <a name="document-metadata-fields-in-data-investigations-preview"></a>Documentar campos de metadados em investigações de dados (versão prévia)
 

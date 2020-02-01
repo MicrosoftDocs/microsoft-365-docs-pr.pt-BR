@@ -1,5 +1,7 @@
 ---
 title: Diretiva 2 de serviços de pagamento e autenticação sólida de cliente para clientes comerciais
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 description: A partir de 14 de setembro de 2019, os bancos nos 31 países da área econômica européia são necessários para verificar a identidade da pessoa que fez uma compra online antes que o pagamento possa ser processado.
 keywords: política de serviços de pagamento 2, autenticação de cliente forte, autenticação multifator
-ms.openlocfilehash: 1e9272803fd592062676e3324d172560b6b2219b
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: f59808d3735f10b57ed5c0cd279b6703b24a44a4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646406"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594702"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Diretiva 2 de serviços de pagamento e autenticação sólida de cliente para clientes comerciais
 

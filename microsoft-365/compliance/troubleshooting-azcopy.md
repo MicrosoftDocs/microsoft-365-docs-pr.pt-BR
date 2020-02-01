@@ -1,5 +1,7 @@
 ---
 title: Solucionar problemas de AzCopy na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8033ad24d4e2fd742d5e66f75f6bca77d4796d1d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7a012ec742d99a5b2ba35800c90e8614b503b93c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073053"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597318"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Solucionar problemas de AzCopy na descoberta eletrônica avançada
 

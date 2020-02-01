@@ -1,5 +1,7 @@
 ---
 title: Comparação de versões do Office 365 Message Encryption (OME)
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Ajuda a explicar as diferenças entre as versões da criptografia de mensagem do Office 365.
-ms.openlocfilehash: 1d4016e3fa0576a52ef9627539ecd96416a53fae
-ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
+ms.openlocfilehash: 0f9db94763fa6434c354cacac2e0edd05596cafc
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "38684725"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597798"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 

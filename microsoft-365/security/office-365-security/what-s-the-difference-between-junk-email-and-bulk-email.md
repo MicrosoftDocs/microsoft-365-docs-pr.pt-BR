@@ -1,5 +1,7 @@
 ---
 title: Qual é a diferença entre lixo eletrônico e email em massa?
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: Os clientes às vezes askwhat a diferença entre lixo eletrônico e mensagens de email em massa? O objetivo deste tópico é explicar a diferença e fornecer informações sobre as diferentes opções disponíveis para o Exchange Online e o Exchange Online Protection (EOP).
-ms.openlocfilehash: ee684fb079b11fd345eae6e2c8f5980fcbca5cb0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a427fd7a37ec4a5b9828a0f78a32d6e5fd54d69b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073351"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597978"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Qual é a diferença entre lixo eletrônico e email em massa?
 

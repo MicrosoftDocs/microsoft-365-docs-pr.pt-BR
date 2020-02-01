@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
+f1.keywords:
+- NOCSH
 ms.author: greglin
-ms.openlocfilehash: 92a786f40c10170cf0eb5f91f765bad4dc044c97
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: a709971786dd85ff0f086c5c9d57c2d807391c65
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112665"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596618"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Fase 3: Windows 10 Enterprise
 

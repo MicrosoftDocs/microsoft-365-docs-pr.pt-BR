@@ -1,5 +1,7 @@
 ---
 title: Fechar sua conta
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -13,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: 905b3d1dfef44a6b1f78c5afe5f7673aec6b8894
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bbb3b56d72c0f67e7771c9a188df751aa3dd95ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809204"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594135"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 

@@ -1,5 +1,7 @@
 ---
-title: Create a search
+title: Criar uma pesquisa
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1aa4ce6e406e4b3a3b72b9d93f651416b1fc65f9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab57bcd3cd21d691e8c2dc669a55588dbcaa886b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072058"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595548"
 ---
-# <a name="create-a-search"></a>Create a search
+# <a name="create-a-search"></a>Criar uma pesquisa
 
 Na guia **pesquisas** do seu caso, você pode criar uma nova pesquisa clicando em **nova pesquisa** e seguindo o assistente.
 

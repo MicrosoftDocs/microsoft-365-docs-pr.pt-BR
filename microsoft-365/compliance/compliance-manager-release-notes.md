@@ -1,5 +1,7 @@
 ---
 title: Notas de versão do Gerenciador de conformidade da Microsoft
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: c988a727bc48a5b27146168a66a0831c9b57b216
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c3d0efbfcf58eb001d2df5832439c22c7cc662aa
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806684"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595778"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>Notas de versão do Gerenciador de conformidade (visualização)
 
@@ -42,7 +44,7 @@ Você pode usar a ferramenta atualizada do [Gerenciador de conformidade](https:/
 
 As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras versões do Gerenciador de conformidade.
 
-### <a name="compliance-score"></a>Pontuação de conformidade
+### <a name="compliance-score"></a>Pontuação de Conformidade
 
 - Para itens de ação marcados como **não no escopo**, a pontuação atribuída ao item de ação não é excluída do cálculo da Pontuação de conformidade. Itens de ação marcados **não no escopo** não aumentam a pontuação de conformidade.
 

@@ -1,5 +1,7 @@
 ---
 title: Configurar a autenticação multifator
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a autenticação multifator.
-ms.openlocfilehash: 8bd3d4e0c2a918d5b8dbf0c763444bb0a1cff466
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: b0594551b9efb907dfba374f781f21b8850f85d1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748352"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594836"
 ---
 # <a name="set-up-multifactor-authentication"></a>Configurar a autenticação multifator
 

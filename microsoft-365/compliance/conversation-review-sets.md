@@ -1,5 +1,7 @@
 ---
 title: Analisar conversas na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d03df51df3c6314dcec072b5c3b8573a36c279d0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 78997bfb6a3a77a03d95560d5f0c38eaae2dda4c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072156"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595668"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Analisar conversas na descoberta eletrônica avançada 
 
@@ -161,6 +163,6 @@ Para saber mais sobre como revisar os dados do caso na descoberta eletrônica av
 
 - [Exibir dados de caso](view-documents-in-review-set.md) 
 
-- [Analisar dados de ocorrências](analyzing-data-in-review-set.md)
+- [Analisar dados de ocorrência](analyzing-data-in-review-set.md)
 
 - [Exportar dados de ocorrência](exporting-data-ediscover20.md)

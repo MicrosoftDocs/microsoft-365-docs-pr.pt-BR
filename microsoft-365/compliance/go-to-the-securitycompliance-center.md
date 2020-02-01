@@ -1,5 +1,7 @@
 ---
 title: Ir para o Centro de Conformidade e Segurança do Office 365
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e696a40-b86b-4a20-afcc-559218b7b1b8
 description: Antes de poder usar o centro de conformidade & segurança, você precisará das permissões corretas. Sua conta corporativa ou de estudante deve receber a função de administrador global do Office 365 ou ter sido atribuída a um ou mais grupos de função de central de conformidade de & de segurança por um administrador global.
-ms.openlocfilehash: 7dc7afb00750586b34921cce347bcf459c2cf474
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0ac56ad7fb4123b8cd2bd11cdcca7ee90d8126b0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807110"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596518"
 ---
 # <a name="go-to-the-office-365-security--compliance-center"></a>Ir para o Centro de Conformidade e Segurança do Office 365
 

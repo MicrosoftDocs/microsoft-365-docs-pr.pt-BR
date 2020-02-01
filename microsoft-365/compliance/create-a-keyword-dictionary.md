@@ -1,5 +1,7 @@
 ---
 title: Criar um dicionário de palavras-chave
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Identificar informações confidenciais, às vezes, exige procurar palavras-chave, especialmente quando identificar o conteúdo genérico (como comunicações relacionadas à saúde) ou idioma inapropriado ou explícito. Embora você possa criar listas de palavra-chave nos tipos de informação confidencial, essas listas são limitadas no tamanho e exigem modificar XML para criá-los ou editá-los. Dicionários de palavras-chave fornecem um gerenciamento mais simples de palavras-chave em uma escala muito maior, com suporte até 100.000 termos por dicionário.
-ms.openlocfilehash: 73ca1e83f716af076f99b1bcb8fba4fbb6e69d9d
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 3677fc01ef226b57b7b33c630e79ea12f9fb0a5a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38684858"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595648"
 ---
 # <a name="create-a-keyword-dictionary"></a>Criar um dicionário de palavras-chave
 

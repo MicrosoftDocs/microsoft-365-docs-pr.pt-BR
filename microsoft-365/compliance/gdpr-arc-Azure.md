@@ -5,6 +5,8 @@ keywords: ARC Azure, Microsoft 365, Microsoft 365 Education, documentação do M
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 608e75dee25f73a1234a911bd5b9e4871412e59e
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 7c3be3d13e40c3a758edeb224aa2b8383908dd1f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676768"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594522"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Azure para o RGPD
 
@@ -31,7 +34,7 @@ Esta Lista de Verificação de Prontidão de Responsabilidade fornece uma maneir
 
 Você pode gerenciar os itens nesta lista de verificação com o Gerente de Conformidade [16] fazendo referência à ID de Controle e Título de Controle em Controles Gerenciados pelo Cliente no bloco RGPD. Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Azure implementa para oferecer suporte ao RGPD, que você pode baixar na [Central de Confiabilidade do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
-Essa estrutura de controle também é usada para organizar a apresentação dos [controles internos implementados pelo Microsoft Dynamics 365 para dar suporte ao RGPD](https://aka.ms/GDPRControls).
+Essa estrutura de controle também é usada para organizar a apresentação dos [controles internos implementados pelo Microsoft Dynamics 365 para dar suporte ao RGPD](https://aka.ms/gdprcontrols).
 
 Para obter mais documentação relacionada ao RGPD, visite [https://aka.ms/gdprgetstarted](https://aka.ms/gdprgetstarted).
 
@@ -143,7 +146,7 @@ Para obter mais documentação relacionada ao RGPD, visite [https://aka.ms/gdprg
 | 13 <a name="13"> </a> | [Declaração de Aplicabilidade do Microsoft Azure (All-Up) ISO/IEC 27001: 2013 ISMS](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 14 <a name="14"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.md)  |
 | 15 <a name="15"> </a> | [Privacidade e dados pessoais no Intune](https://review.docs.microsoft.com/intune/privacy-personal-data) |
-| 16 <a name="16"> </a> | [Conjunto completo de controles do RGPD do Azure para download](https://aka.ms/GDPRControls) ou com a [Ferramenta Gerenciador de Conformidade](https://servicetrust.microsoft.com/ComplianceManager) |
+| 16 <a name="16"> </a> | [Conjunto completo de controles do RGPD do Azure para download](https://aka.ms/GDPRControls) ou com a [Pontuação de Conformidade](compliance-score.md) |
 | 17 <a name="17"> </a> | [Informações de DPO da Microsoft](https://aka.ms/GDPRDPO) |
 
 ## <a name="learn-more"></a>Saiba mais

@@ -1,5 +1,7 @@
 ---
 title: Fechar ou excluir uma ocorrência
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: " "
-ms.openlocfilehash: 5d8950f2e6164781111465aee8d89eaff92ee958
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 15b6327809b3557c4d0d90b6c10dc5568ba47f43
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633830"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595868"
 ---
 # <a name="close-or-delete-a-case"></a>Fechar ou excluir uma ocorrência
 

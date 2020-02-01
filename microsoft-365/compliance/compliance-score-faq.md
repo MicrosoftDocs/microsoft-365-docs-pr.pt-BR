@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes sobre Pontuação de conformidade da Microsoft
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Encontre respostas para perguntas frequentes sobre a pontuação de conformidade da Microsoft, que ajuda as organizações a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: ff53b2f3c7cde3dc9f78ccf13cb3fa8f75e7afa6
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 81541c66f1bc1ec179faa0180b3135f9b623d319
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021977"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595768"
 ---
 # <a name="microsoft-compliance-score-preview-frequently-asked-questions"></a>Perguntas frequentes sobre a pontuação de conformidade da Microsoft (visualização)
 

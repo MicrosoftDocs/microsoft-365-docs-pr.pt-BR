@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes sobre a importação de arquivos PST para o Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: 'Perguntas frequentes para administradores sobre como usar o serviço de importação do Office 365 para importar os arquivos PST do Organizaiton para caixas de correio do Office 365. '
-ms.openlocfilehash: dabec373b11009d4a66842572c9dd9a034a177d0
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: dcbc496273a08ea133cc11bacbb62f55eee58917
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967334"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594582"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>Perguntas frequentes sobre a importação de arquivos PST para o Office 365
 
@@ -64,9 +66,9 @@ Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser im
   
  **Depois que eu carregar meus arquivos PST para a área de armazenamento do Azure, por quanto tempo eles serão mantidos no Azure até serem excluídos?**
   
-Quando você usar o método de carregamento de rede para importar arquivos PST, carregue-os para um contêiner de blobs chamado **ingestiondata**. Se não houver trabalhos de importação em andamento na página **importar arquivos PST** no centro de conformidade de & de segurança), todos os arquivos pst no contêiner do **ingestiondata** no Azure serão excluídos 30 dias após o trabalho de importação mais recente ter sido criado no centro de conformidade do & de segurança. Isso também significa que você precisar criar um novo trabalho de importação no Centro de Conformidade e Segurança (descrito na etapa 5 nas instruções de carregamento de rede) dentro de 30 dias do carregamento de arquivos PST para o Azure. 
+Quando você usar o método de carregamento de rede para importar arquivos PST, carregue-os para um contêiner de blobs chamado **ingestiondata**. Se não houver trabalhos de importação em andamento na página **Importar arquivos PST** no Centro de Conformidade e Segurança, todos os arquivos PST no contêiner **ingestiondata** no Azure serão excluídos 30 dias após a criação do trabalho de importação mais recente no Centro de Conformidade e Segurança. Isso também significa que você precisar criar um novo trabalho de importação no Centro de Conformidade e Segurança (descrito na etapa 5 nas instruções de carregamento de rede) dentro de 30 dias do carregamento de arquivos PST para o Azure. 
   
-Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa ser listado na página **importar arquivos PST** no centro de conformidade com segurança &, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação mais antigos. 
+Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
  **Quanto tempo é necessário para importar um arquivo PST para uma caixa de correio?**
   
@@ -158,7 +160,7 @@ Quando diferentes arquivos PST são importados para diferentes caixas de correio
   
 Todos os arquivos PST no local de armazenamento do Azure para sua organização (no contêiner de blob chamado **ingestiondata** ) são excluídos 30 dias após a criação do trabalho de importação mais recente na página **importar arquivos PST** no centro de conformidade do & de segurança. 
   
-Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa ser listado na página **importar arquivos PST** no centro de conformidade com segurança &, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação mais antigos. 
+Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
  **Qual versão do formato de arquivo PST é compatível com a importação para o Office 365?**
   

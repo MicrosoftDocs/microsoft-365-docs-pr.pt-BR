@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
+f1.keywords:
+- NOCSH
 ms.author: greglin
-ms.openlocfilehash: d7e71eda9cf0750ce44a978dca742b43f2101d63
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f854a4ec72c01f49f12774617188610d753e7b40
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801256"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596628"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Etapa 5: implantar recursos de segurança do Windows 10 Enterprise
 

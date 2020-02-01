@@ -1,5 +1,7 @@
 ---
 title: Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 3d5e67edf30f1b1f78e6c4992760c18d1493e108
-ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
+ms.openlocfilehash: f687f405b6b721ec3f3f1d94e11091c1023d1aea
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41107910"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595136"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 

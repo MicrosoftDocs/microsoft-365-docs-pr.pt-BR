@@ -1,5 +1,7 @@
 ---
 title: Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -19,18 +21,18 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança. '
-ms.openlocfilehash: 7a5baa37abbade64ac77ed288afbb5389ac2295f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fc15a4af41495641882c25b23c1a38459b896696
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073153"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597778"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365
 
 Uma pesquisa de conteúdo que você executa a partir do centro de conformidade & segurança no Office 365 inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa quando você executa uma pesquisa. Itens parcialmente indexados são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive for Business que por algum motivo não foram completamente indexados para pesquisa. No Exchange, um item parcialmente indexado normalmente contém um arquivo — de um tipo de arquivo que não pode ser indexado, que é anexado a uma mensagem de email. Veja algumas outras razões pelas quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executa uma pesquisa: 
   
-- O tipo de arquivo não é reconhecido ou não é suportado para indexação.
+- O tipo de arquivo não é reconhecido ou não tem suporte para indexação. 
     
 -  As mensagens têm um arquivo anexado sem um manipulador válido, como arquivos de imagem; Essa é a causa mais comum de itens de email parcialmente indexados. 
     
@@ -81,7 +83,7 @@ Tenha em mente o seguinte sobre itens parcialmente indexados:
     
 - Se a pesquisa de que você está exportando os resultados for uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, somente os itens não indexados de locais de conteúdo que contêm itens que correspondam aos critérios de pesquisa serão exportados. In other words, if no search results are found in a mailbox or site, then any unindexed items in that mailbox or site won't be exported. O motivo disso é que exportar itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
     
-    Para exportar itens parcialmente indexados de todos os locais de conteúdo para uma pesquisa, configure a pesquisa para retornar todos os itens (removendo palavras-chave da consulta de pesquisa) e exporte apenas itens parcialmente indexados ao exportar os resultados da pesquisa (clicando **somente em os itens que têm um formato não reconhecido, são criptografados ou não foram indexados por outros motivos** em **Opções de saída**.
+    Para exportar itens parcialmente indexados de todos os locais de conteúdo para uma pesquisa, configure a pesquisa para retornar todos os itens (removendo palavras-chave da consulta de pesquisa) e, em seguida, exporte apenas itens parcialmente indexados quando exportar os resultados da pesquisa (clicando **somente em itens que têm um formato não reconhecido, estão criptografados ou foram indexados por outros motivos** em **Opções de saída**
     
 - Se você optar por incluir todos os itens de caixa de correio nos resultados da pesquisa, ou se uma consulta de pesquisa não especificar nenhuma palavra-chave ou apenas especificar um intervalo de datas, os itens parcialmente indexados podem não ser copiados para o arquivo PST que contém os itens parcialmente indexados. Isso ocorre porque todos os itens, incluindo qualquer item parcialmente indexado, serão automaticamente incluídos nos resultados normais da pesquisa.
     

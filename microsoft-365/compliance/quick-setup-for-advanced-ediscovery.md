@@ -1,8 +1,11 @@
 ---
 title: Configuração rápida da Descoberta Eletrônica Avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,23 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Saiba como acessar a Descoberta Eletrônica Avançada do Office 365 pelo Centro de Conformidade e Segurança do Office 365 e analisar o fluxo de trabalho típico para usar a Descoberta Eletrônica avançada.  '
-ms.openlocfilehash: 6b73177a0bd98dfb0d9e2f9127e682911f82703f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6df2d68639f2be9f6ba38ea7211654058bc73035
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073399"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597668"
 ---
 # <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Configuração rápida da Descoberta Eletrônica Avançada do Office 365
 
+> [!IMPORTANT]
+> Como continuamos a investir em versões mais recentes da Descoberta Eletrônica Avançada, anunciamos a desativação da Descoberta Eletrônica Avançada do Office 365 (também conhecida como *Descoberta Eletrônica Avançada 1.0*). Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+
 Esta seção de configuração mostra a um gerente de Descoberta Eletrônica do Centro de Conformidade e Segurança &amp;do Microsoft 365 como começar a usar a Descoberta Eletrônica Avançada. Pressupõe-se um conhecimento prático de ambos.
-  
-> [!NOTE]
-> A Descoberta Eletrônica Avançada requer o Office 365 E3 com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tem esse plano e quer experimentar a Descoberta Eletrônica Avançada, [inscreva-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Como acessar um caso na Descoberta Eletrônica Avançada
 
-Você acessa a Descoberta Eletrônica Avançada no Centro de Conformidade e Segurança. Você precisa ser membro de um caso de Descoberta Eletrônica no Centro de Conformidade e Segurança para acessar o caso na Descoberta Eletrônica Avançada. Confira as instruções sobre como atribuir permissões de caso de Descoberta Eletrônica e adicionar usuários a um caso de Descoberta Eletrônica em [Gerenciar casos de Descoberta Eletrônica no Office 365](manage-ediscovery-cases.md). 
+
+Você acessa a Descoberta Eletrônica Avançada no Centro de Conformidade e Segurança. Você precisa ser membro de um caso de Descoberta Eletrônica no Centro de Conformidade e Segurança para acessar o caso na Descoberta Eletrônica Avançada. Confira as instruções sobre como atribuir permissões de caso de Descoberta Eletrônica e adicionar usuários a um caso de Descoberta Eletrônica em [Gerenciar casos de Descoberta Eletrônica no Office 365](ediscovery-cases.md). 
   
 Para ir a um caso na Descoberta Eletrônica Avançada: 
   

@@ -1,5 +1,7 @@
 ---
 title: Usando um classificador pronto para uso (visualização)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de para usar os classificadores de aprendizado de máquina que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores prontos para usar.
-ms.openlocfilehash: b94a49930cc2d460fb2db5ff4ff0f441f6c7b35a
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: c6659bc32131948c57ad0bf7c8e3a30fbce125d9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259427"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595888"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>Usando um classificador pronto para uso (visualização)
 

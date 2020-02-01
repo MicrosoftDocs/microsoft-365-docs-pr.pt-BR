@@ -1,5 +1,7 @@
 ---
 title: Visão geral da Microsoft 365 para empresas
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -11,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 16efb061bbb8be4ff8cb5a93186d342fc55ca849
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: b66289ab66770d75743ff5cee88eb2a47efe11b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801456"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596848"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral da Microsoft 365 para empresas
 
@@ -65,7 +67,7 @@ O [cartaz do Microsoft 365 for Enterprise](media/m365-poster/Microsoft365Enterpr
 - A [biblioteca de produtividade da Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e os cenários representativos de alguns departamentos de organização comuns
 - O roteiro de adoção que destaca o Microsoft 365 for Enterprise [Deployment Guide](deploy-microsoft-365-enterprise.md)
 
-[![Imagem do cartaz da Microsoft 365 para empresas](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+[![Imagem para o pôster do Microsoft 365 para empresas](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
 
@@ -76,7 +78,7 @@ Para obter uma visão melhor de como mover toda a organização para os produtos
 
 [![Imagem do pôster sobre a Transição para o Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Este cartaz de duas páginas é uma maneira rápida de inventariar sua infraestrutura existente e obter orientações para mudar para o produto ou serviço correspondente no Microsoft 365 for Enterprise. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 para empresas. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
 Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 

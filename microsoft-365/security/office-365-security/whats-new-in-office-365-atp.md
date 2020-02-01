@@ -6,6 +6,8 @@ search.appverid: met150
 ms.service: O365-seccomp
 ms.sitesec: library
 ms.pagetype: security
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 localization_priority: Normal
@@ -13,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f8848ec9b56bc6f44d0a895d7274deb285a64bc7
-ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
+ms.openlocfilehash: 98a658febe6c20904f82fb2f152bb6cc115cce49
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41263343"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597949"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 

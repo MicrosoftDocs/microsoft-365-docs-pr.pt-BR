@@ -1,5 +1,7 @@
 ---
 title: Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 32e5983532c89c6ada106ed32d8ef3eabd5dc569
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e33790d62adbac4f9b8d816041d28b9dfdf36095
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801378"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596738"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
 
@@ -31,10 +33,10 @@ Há duas fases para proteger as contas de administrador global no seu ambiente d
 1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Proteger sua conta de administrador global dedicado.
 
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
 

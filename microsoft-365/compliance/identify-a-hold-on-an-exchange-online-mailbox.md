@@ -1,5 +1,7 @@
 ---
 title: Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Office 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Office 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
-ms.openlocfilehash: dcdb79aa1c1cae83602a42e6c99136a2f85226a1
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: f45310547d41d8ec1092a3fecfaa0b50c4439559
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558008"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596498"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 

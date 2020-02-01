@@ -1,5 +1,7 @@
 ---
 title: Definir palavras-chave realçadas e opções avançadas na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Saiba como adicionar palavras-chave definidas pelo usuário à relevância para ajudar a identificar arquivos relevantes durante a marcação na descoberta eletrônica avançada do Office 365 e especificar os parâmetros de custo.  '
-ms.openlocfilehash: 967258c152c12692cc5eb51f6553317161efa695
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4b74730498b3cb08cd646d57845446ae91daeee9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806124"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595358"
 ---
 # <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Definir palavras-chave realçadas e opções avançadas na descoberta eletrônica avançada do Office 365
 

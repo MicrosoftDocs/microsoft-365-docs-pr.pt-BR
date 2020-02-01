@@ -1,5 +1,7 @@
 ---
 title: Solução de problemas e informações de suporte
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
 ms.collection:
 - M365-security-compliance
 description: Este tópico descreve as etapas de solução de problemas para os usuários finais e administradores e fornece informações sobre como contatar o suporte técnico para obter assistência.
-ms.openlocfilehash: a6a4b94db3e34442d326942641b10db15d104d71
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: efb71aab852b76b2b898419444bfea4144728514
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971619"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598168"
 ---
 # <a name="troubleshooting-and-support-information"></a>Solução de problemas e informações de suporte
 
@@ -84,7 +86,7 @@ Como administrador, você pode ter problemas com usuários usando o suplemento r
 
 Se você precisar de ajuda com a instalação, configuração ou desinstalação do suplemento, entre em contato com o suporte técnico usando o link nova solicitação de serviço na página suporte no centro de administração do Microsoft 365. Para opções adicionais, incluindo o envio de uma solicitação de serviço por meio de opções de telefone e de autoatendimento, consulte [ajuda e suporte para EOP](help-and-support-for-eop.md).
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Habilitar o suplemento de Mensagem de Relatório](enable-the-report-message-add-in.md)
 

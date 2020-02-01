@@ -1,5 +1,7 @@
 ---
 title: Tipos de arquivo com suporte na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Uma lista de tipos de arquivo com suporte no eDiscovery avançado da Microsoft 365. Isso inclui uma lista dos tipos de arquivo de imagem suportados pela funcionalidade de OCR na descoberta eletrônica avançada.
-ms.openlocfilehash: ff9fdc77226ee476de3fe89a980b2658720749bf
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191236"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597378"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na descoberta eletrônica avançada
 
@@ -173,7 +175,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | application/vnd. Oasis. OpenDocument. Text | Sim | Sim | Sim | Sim | Sim | . odt |
 ||||||||
 
-## <a name="other"></a>Other
+## <a name="other"></a>Outros
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |

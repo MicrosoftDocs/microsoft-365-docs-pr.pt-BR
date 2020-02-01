@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes sobre Criptografia de Mensagem do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como os novos recursos de proteção de mensagens no Office 365 funcionam? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 0afb27854e6e080963d7133fb32ecbd5532ae9b2
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 032aa1dacc89aea63cf15080efb80de61e9a6f22
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233842"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597808"
 ---
 # <a name="office-365-message-encryption-faq"></a>Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 

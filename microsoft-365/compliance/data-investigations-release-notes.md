@@ -1,5 +1,7 @@
 ---
 title: Notas de versão para investigações de dados (visualização) no Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 200b1c6c08d0fdb1c4af5da59fa75836b4b1fab3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 57605566a8847a3630e1c4656f98f71ebb414f86
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071996"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595408"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Notas de versão para investigações de dados (visualização) no Microsoft 365
 

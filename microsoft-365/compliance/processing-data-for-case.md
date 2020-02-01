@@ -1,5 +1,7 @@
 ---
 title: Trabalhar com erros de processamento na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d16343328e4d4ff0a67d2d3a1a9fac4219588746
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: ae5ce4946f4338c6471c525517e01aed71b484df
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38684890"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597708"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Trabalhar com erros de processamento na descoberta eletrônica avançada
 

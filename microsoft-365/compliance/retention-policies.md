@@ -1,5 +1,7 @@
 ---
 title: Visão geral de políticas de retenção
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 5bc131b98bbc0af5cdc9629e029c06f20a003d5f
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 20992f6b28e0f7765724fb4d35febe19639de40e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989596"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597678"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
-Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa:
+Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa para:
   
-- **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, pode exigir que você guarde determinados tipos de conteúdo por sete anos. 
+- **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, que pode exigir que você guarde determinados tipos de conteúdo por sete anos. 
     
 - **Reduzir seu risco em caso de litígio ou violação de segurança** excluindo definitivamente o conteúdo antigo que você não tem mais obrigação de guardar. 
     
@@ -100,7 +102,7 @@ Por padrão, quando alguém exclui uma mensagem de uma pasta diferente da pasta 
   
 Um processo avalia itens periodicamente na pasta Itens Recuperáveis. Se um item não corresponder às regras de pelo menos uma política de retenção, o item será excluído permanentemente (também chamado exclusão forçada) da pasta Itens Recuperáveis.
   
-Quando uma pessoa tenta alterar determinadas propriedades de um item de caixa de correio, como assunto, corpo, anexos, remetentes e destinatários ou a data de envio ou de recebimento de uma mensagem, uma cópia do item original é salva na pasta Itens Recuperáveis antes da confirmação da alteração. Essa ação acontecerá para todas as alterações subsequentes. No final do período de retenção, as cópias na pasta Itens Recuperáveis são excluídas permanentemente.
+Quando uma pessoa tenta alterar determinadas propriedades de um item de caixa de correio, como assunto, corpo, anexos, remetentes e destinatários, ou a data de envio ou de recebimento de uma mensagem, uma cópia do item original é salva na pasta Itens Recuperáveis antes da confirmação da alteração. Essa ação acontecerá para todas as alterações subsequentes. No final do período de retenção, as cópias na pasta Itens Recuperáveis são excluídas permanentemente.
   
 Se um usuário deixar a sua organização e a sua caixa de correio for incluída em uma política de retenção, a caixa de correio se tornará inativa quando a conta do Office 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tiver sido aplicada a essa caixa antes de ela se tornar inativa e fica disponível para uma pesquisa de Descoberta Eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md).
   
@@ -116,7 +118,7 @@ Depois que uma política de retenção é atribuída a uma caixa de correio ou p
 
 O controle de versão é um recurso de todas as bibliotecas de documentos no SharePoint Online e no OneDrive for Business. Por padrão, o controle de versão retém no mínimo 500 versões principais, embora você possa aumentar esse limite. Confira mais informações em [Habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37).
   
-Uma política de retenção (política de retenção que mantém o conteúdo, em vez de somente exclusão) mantém todas as versões de um documento em um conjunto de sites do SharePoint ou em uma conta do OneDrive. Sempre que um documento sujeito a uma política de retenção ou de bloqueio for editado, uma versão será copiada para a Biblioteca de Retenção para Preservação. Sempre que um documento sujeito a uma política de retenção ou de bloqueio for excluído, todas as versões serão copiadas para a Biblioteca de Retenção para Preservação se o controle de versão estiver habilitado. Cada versão de um documento na Biblioteca de Retenção para Preservação existe como um item separado com seu próprio período de retenção:
+Uma política de retenção (política de retenção que mantém o conteúdo, em vez de somente exclusão) mantém todas as versões de um documento em um conjunto de sites do SharePoint ou em uma conta do OneDrive. Quando um documento sujeito a uma política de retenção ou bloqueio for editado pela primeira vez, uma versão do documento original será copiada na biblioteca de retenção. Quando um documento sujeito a uma política de retenção ou de bloqueio for excluído, todas as versões serão copiadas para a Biblioteca de Retenção para Preservação se o controle de versão estiver habilitado. Cada versão de um documento na Biblioteca de Retenção para Preservação existe como um item separado com seu próprio período de retenção:
   
 - Se a política de retenção se basear em quando o conteúdo foi criado, cada versão terá a mesma data de expiração do documento original. O documento original e suas versões expirarão ao mesmo tempo.
     
@@ -193,7 +195,7 @@ Um dos recursos mais avançados de política de retenção é que, por padrão, 
     
 - Contas do OneDrive
     
-- Grupos do Office 365 (aplicável ao conteúdo da caixa de correio, site e documentos do grupo. Em breve, haverá suporte para conteúdo no Planner, Yammer, CRM Microsoft Teams, PowerBI, Stream, Exchange e sites de equipe do SharePoint
+- Grupos do Office 365 (aplicável ao conteúdo da caixa de correio do grupo e ao site do SharePoint associado.)
     
 - Pastas públicas do Exchange
     
@@ -397,7 +399,7 @@ Se você estava usando uma política de preservação, essa política foi automa
 
 Os membros da sua equipe de conformidade que criarão políticas de retenção precisam de permissões para o [Centro de Conformidade&amp; e Segurança](https://protection.office.com/). Por padrão, o administrador de locatário terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade ao [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você acesse a página **Permissões** do [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), edite o grupo de função **Administrador de Conformidade** e adicione membros a esse grupo de função. 
   
-Para saber mais, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
+Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
 
 Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A imposição da política não exige acesso ao conteúdo.
   

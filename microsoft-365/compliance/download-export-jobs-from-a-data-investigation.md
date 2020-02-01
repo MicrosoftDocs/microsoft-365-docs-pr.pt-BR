@@ -1,5 +1,7 @@
 ---
 title: Baixar trabalhos de exportação de uma investigação de dados
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Instale e use o Azure Storage Explorer para baixar documentos que foram exportados de evidências em uma investigação de dados.
-ms.openlocfilehash: af71cb43f91c940e4c5edb8ca7be39f4bca9b3be
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: a0e93d392e12ba548c8360a618abf909c89f2036
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684971"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595156"
 ---
 # <a name="download-export-jobs"></a>Baixar trabalhos de exportação
 

@@ -1,5 +1,7 @@
 ---
 title: Relatórios no Centro de Conformidade e Segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Use o centro de conformidade de & de segurança para obter vários relatórios para sua organização do SharePoint Online e do Exchange Online, além de relatórios do Azure Active Directory.  '
-ms.openlocfilehash: af0fbe34d24853a5c6aa3afff664477ce93c2a03
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 4d67818cbe0523d8823b265df53e7da5051163e6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684806"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597618"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>Relatórios no Centro de Conformidade e Segurança
 

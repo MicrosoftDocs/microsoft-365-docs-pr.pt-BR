@@ -1,5 +1,7 @@
 ---
 title: Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas. Uma coleção direcionada significa que você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.
-ms.openlocfilehash: 02cd78f9ebb02f7c41e0703ba4ddb78bfd184000
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 66929911cdb1692ea1ee2a8920dad349d50ec156
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684993"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597298"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
 

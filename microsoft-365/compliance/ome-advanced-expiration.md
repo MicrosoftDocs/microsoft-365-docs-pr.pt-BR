@@ -1,5 +1,7 @@
 ---
 title: Definir uma data de vencimento para o email criptografado, a Criptografia de Mensagem Avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Com os recursos avançados de criptografia de mensagens do Office 365 na parte superior da criptografia de mensagens do Office 365 (OME), você pode estender sua segurança de email Configurando uma data de validade por emails por meio de um modelo personalizado com marca.
-ms.openlocfilehash: 6790cc7103ad098419bde96b93738424626cd0cc
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 90f406ec72eeab0618184336b8b28de452a5e3c6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684825"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597818"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Definir uma data de vencimento para o email criptografado, a Criptografia de Mensagem Avançada do Office 365
 

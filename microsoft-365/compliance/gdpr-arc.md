@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 1bc2ac17d8548382dff721decba674952de977d6
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 111bafdb5d95792e8fda08007bccd7cd274b8832
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749620"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594481"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Suporte ao seu programa RGPD com listas de verificação de preparação para responsabilidade
 
@@ -36,7 +39,7 @@ Há um guia específico para quatro famílias de produtos e serviços da Microso
 - [Azure](gdpr-arc-Azure.md)
 - [Suporte e Serviços Profissionais da Microsoft](gdpr-arc-prof-services.md)
 
-Você pode gerenciar os itens nesta lista de verificação com o [Gerente de Conformidade](https://servicetrust.microsoft.com/ComplianceManager) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados do cliente no bloco RGPD.
+Você pode gerenciar os itens nesta lista de verificação com a[Pontuação de Conformidade](compliance-score.md) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados do cliente no bloco RGPD.
 
 As listas de verificação incluem as quatro categorias básicas de considerações para um programa de privacidade compatível com RGPD listados abaixo, juntamente com os requisitos de exemplo.
 

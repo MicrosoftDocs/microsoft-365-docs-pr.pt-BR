@@ -1,5 +1,7 @@
 ---
 title: Restaurar dispositivos com o Windows 10 para as configurações de fábrica
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Saiba como usar o Microsoft 365 Business para redefinir a fábrica de dispositivos Windows 10. '
-ms.openlocfilehash: 867b87b488ec13c7b84a9eb810a076fbb6da545d
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: b5039693640a17e531296d019117a9f40bf98a7f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715153"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593467"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica
 

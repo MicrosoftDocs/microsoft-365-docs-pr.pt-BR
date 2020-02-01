@@ -1,5 +1,7 @@
 ---
 title: Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança, usuários comprometidos, criptografia, status de proteção contra ameaças, detecções de malware, malware superior, detecção de spam, email enviado e recebido, mensagens relatadas pelo usuário, relatórios de leitura, detecção, dados de segurança, informações de segurança
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: c44944c8f392b2df8cfe4b9e1741ba4b7ea13382
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 59090e53389b4e95d8987989819e71be6fce61e2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41209946"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598108"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança
 

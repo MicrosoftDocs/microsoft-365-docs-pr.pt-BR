@@ -1,5 +1,7 @@
 ---
 title: Perguntas frequentes de compras de autoatendimento
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -13,17 +15,19 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: d8edca60687a269c062f44a23500b204b965863c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9f456c992cda6fcfafd1a0d5faa68dba42a894d8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806234"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594095"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
 > [!NOTE]
 > As informações neste artigo aplicam-se apenas às assinaturas da plataforma de alimentação da Microsoft (Power BI, aplicativos de energia e automatização de energia).
+
+As compras de autoatendimento estão agora disponíveis para a plataforma de energia nos Estados Unidos.
 
 ## <a name="general"></a>Geral
 
@@ -39,9 +43,9 @@ Desde 14 de janeiro de 2020, a aquisição de autoatendimento, assinatura e recu
 
 No mundo de hoje, os usuários finais e departamentos estão cada vez mais procurando e comprando soluções de tecnologia por conta própria. Recebemos várias solicitações desses clientes para habilitar a compra de autoatendimento de produtos de plataforma de energia. Estamos respondendo a essa necessidade do cliente, além de equilibrar as necessidades dos administradores de ti, que geralmente perdem a visibilidade e o controle quando as pessoas de sua organização adotam soluções de terceiros sem o seu conhecimento. Com o futuro recurso de autoatendimento para os produtos de plataforma de alimentação, os administradores de ti terão visibilidade completa de todas as compras de autoatendimento em sua organização, e as políticas de governança de dados definidas no nível organizacional serão acumuladas para assinaturas adquiridas por meio de autoatendimento. Os administradores também podem atribuir licenças existentes ou comprar assinaturas adicionais, de produtos de plataforma de energia através de contratos e preços existentes para usuários atribuídos a compras de autoatendimento. Depois de atribuir essas licenças de compra central, os administradores podem solicitar que os compradores cancelem suas assinaturas existentes. A Microsoft está explorando maneiras de simplificar e simplificar esse processo para administradores no futuro.
 
-### <a name="when-will-self-service-purchase-for-the-power-platform-products-be-available"></a>Quando a compra de autoatendimento para os produtos da plataforma de energia estará disponível?
+### <a name="which-power-platform-products-are-available-for-self-service-purchase"></a>Quais produtos de plataforma de alimentação estão disponíveis para compra de autoatendimento?
 
-A Microsoft está iniciando a compra de autoatendimento para o Power BI em 14 de janeiro de 2020, para os clientes nos Estados Unidos, com mercados adicionais ficando disponíveis nos próximos meses. Os aplicativos avançados e a automatização de energia serão adicionados nas semanas a seguir. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento.
+A Microsoft lançou a compra de autoatendimento para a plataforma de alimentação (Power BI, aplicativos de energia e automatização de energia) para os clientes nos Estados Unidos, com mercados adicionais se tornarem disponíveis nos próximos meses. Esse recurso não estará disponível para locatários nos EUA que sejam governamentais, sem fins lucrativos ou educacionais, neste momento.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>A compra de autoatendimento será habilitada para serviços além dos produtos de plataforma de energia?
 

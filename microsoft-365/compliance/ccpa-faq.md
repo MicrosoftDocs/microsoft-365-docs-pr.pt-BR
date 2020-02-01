@@ -5,18 +5,20 @@ keywords: Microsoft 365, conformidade, CCPA, RGPD
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 567c104fcb960cce3bd09cd636fed8814cdbeb4c
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: f4f6d33d9c8898899486c1c6ab08af5113c4a42a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39637647"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595948"
 ---
 # <a name="california-consumer-privacy-act-ccpa-frequently-asked-questions"></a>Perguntas frequentes sobre a lei de privacidade do consumidor da Califórnia (CCPA)
 
@@ -98,7 +100,7 @@ Como a Microsoft implementou o RGPD DSRs globalmente, estamos na posição excel
 
 **Quais são algumas ferramentas que podem ajudar a minha organização a começar a preparar para o CCPA?**
 
-- Comece a aproveitar a avaliação RGPD no Gerenciador de conformidade como parte do seu programa de privacidade do CCPA.
+- Comece a aproveitar a avaliação RGPD na Pontuação de conformidade como parte do seu programa de privacidade do CCPA.
 - Estabelecer um processo para responder com eficiência às solicitações de consumo.
 - Configure rótulos e políticas para descobrir, classificar & rotular e proteger dados confidenciais com o Microsoft Information Protection.
 - Use os recursos de criptografia de email para controlar ainda mais as informações confidenciais.

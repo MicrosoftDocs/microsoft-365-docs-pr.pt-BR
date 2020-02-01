@@ -1,5 +1,7 @@
 ---
 title: Alterar a duração da retenção para uma caixa de correio inativa no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Depois que uma caixa de correio do Office 365 é desativada, você pode alterar a duração da política de retenção de bloqueio ou do Office 365 atribuída à caixa de correio inativa. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos.
-ms.openlocfilehash: e1c2515c155192739e771bd646753f24bac92a2d
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: c50f7845377b6428a4cdce2bb7240a7ca973a8eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558388"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595938"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Alterar a duração da retenção para uma caixa de correio inativa no Office 365
 

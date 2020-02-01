@@ -1,5 +1,7 @@
 ---
 title: Descoberta eletrônica no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: O Office 365 oferece várias ferramentas de descoberta eletrônica diferentes que você pode usar para pesquisar e manter o conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites do SharePoint e do OneDrive for Business, grupos do Office 365 e conversas do Skype for Business.
-ms.openlocfilehash: 33d3ca2e86a1ee4a2c191e72198d80c4c52c69e9
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 2386fcc2115b7acb3c869d79d04987a88f10de26
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823753"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595116"
 ---
 # <a name="ediscovery-in-office-365"></a>Descoberta eletrônica no Office 365
 

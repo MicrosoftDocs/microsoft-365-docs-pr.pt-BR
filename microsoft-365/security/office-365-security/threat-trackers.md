@@ -1,5 +1,7 @@
 ---
 title: Rastreadores de ameaça-novidade e digno de sessão
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os rastreadores de ameaças, incluindo novos rastreadores dignos de importância, para ajudar sua organização a se manter informado sobre segurança.
-ms.openlocfilehash: 084d3c6de104c675a2af47984a2fcbffcf89447e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f2a68cfbbae0ce91716f69514e30136ac223bbf8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073801"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598178"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Rastreadores de ameaça-novidade e digno de sessão
 
@@ -34,7 +36,7 @@ Os rastreadores de ameaças são widgets informativos e modos de exibição que 
   
 ![Exemplo de controlador de ameaça mostrando campanhas de malware](../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
   
-A maioria das páginas de rastreador inclui os números de tendência atualizados periodicamente, widgets para ajudá-lo a entender quais são os problemas mais importantes ou que aumentaram o máximo e um link rápido na coluna **ações** que o leva ao Explorer, onde você pode exibir mais detalhes Information. 
+A maioria das páginas de rastreador inclui os números de tendência atualizados periodicamente, widgets para ajudá-lo a entender quais são os problemas mais importantes ou que aumentaram o máximo e um link rápido na coluna **ações** que o leva ao Explorer, onde você pode exibir informações mais detalhadas. 
   
 ![Exemplo de informações de campanha no Explorer](../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   

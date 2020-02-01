@@ -1,5 +1,7 @@
 ---
 title: Enviar notificações por email e mostrar dicas para políticas de DLP
+f1.keywords:
+- CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: 2de9ef48d98e5d702e3f96d90f05b83b0ec4e55a
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e3b83c72c8f18ad58fcedb6b8c4271bfebdf8c13
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38684904"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597348"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -91,7 +93,7 @@ Para cada regra de uma política de DLP, você pode:
   
 - Enviar a notificação para as pessoas que você escolher. Essas pessoas podem incluir o proprietário do conteúdo, a pessoa que modificou o conteúdo pela última vez, o proprietário do site em que o conteúdo está armazenado ou um usuário específico.
     
-- Personalizar o texto que está incluído na notificação usando HTML ou tokens. Confira a seção abaixo para obter mais informações.
+- Personalizar o texto que está incluído na notificação usando HTML ou tokens. Confira a seção abaixo para mais informações.
     
 > [!NOTE]
 >  As notificações por email podem ser enviadas somente para destinatários individuais, não grupos ou listas de distribuição. Apenas o novo conteúdo disparará uma notificação por email. A edição do conteúdo existente disparará dicas de política, mas não uma notificação por email. 

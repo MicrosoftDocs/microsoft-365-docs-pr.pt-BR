@@ -1,5 +1,7 @@
 ---
 title: Coletar dados para uma ocorrência na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: esclee
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4e0bc71071ecfe20a2141e72b1146e9688618faf
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: a6b86d9f86edc427e10c02a99e3cda3e5e79db66
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633600"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595848"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Coletar dados para uma ocorrência na descoberta eletrônica avançada
 

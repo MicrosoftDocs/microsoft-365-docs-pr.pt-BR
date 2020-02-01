@@ -1,5 +1,7 @@
 ---
 title: Atualização para o Microsoft 365 Business do Office 365 Business Premium
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Etapas que atualizam sua empresa do Office 365 Business Premium para a Microsoft 365 Business.
-ms.openlocfilehash: 61da9148ccb87654aa2391ff90c4f086a4cbbe24
-ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
+ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120132"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593670"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Atualização para o Microsoft 365 Business do Office 365 Business Premium
 

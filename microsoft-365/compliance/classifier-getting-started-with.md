@@ -1,5 +1,7 @@
 ---
 title: Introdução aos classificadores de treinamento (visualização)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: f37549a311af630ced0191b86f0be47b295f93ea
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4b4bfa996b1f68f9db8c206aaaec43878abf3f42
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807420"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595898"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 

@@ -1,5 +1,7 @@
 ---
 title: Proteger computadores Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como proteger os computadores com Windows 10 após configurar o Microsoft 365 Business.
-ms.openlocfilehash: 3c558132f1e370a19735a38f9caa09ddb8e1f9f4
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515582"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593457"
 ---
 # <a name="secure-windows-10-computers"></a>Proteger computadores Windows 10
 

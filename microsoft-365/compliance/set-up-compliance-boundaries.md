@@ -1,5 +1,7 @@
 ---
 title: Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Use limites de conformidade para criar limites lógicos em uma organização do Office 365 que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: 13f45ce55f23d91a81068031691436383ec87ba3
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: bd167246bc43cba20a444594a2309ac888c734fc
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38685003"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597468"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
 

@@ -7,16 +7,18 @@ ms.sitesec: library
 ms.pagetype: ''
 search.appverid: MET150
 author: trudyha
+f1.keywords:
+- NOCSH
 ms.author: TrudyHa
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: 047c93dd6dbeeb1e55bfc22b337f42870f34e104
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 6473fefc0db3b21b2bf6ed5820d2d48018b45264
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753550"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594672"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 

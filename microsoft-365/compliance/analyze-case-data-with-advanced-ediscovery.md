@@ -1,5 +1,7 @@
 ---
 title: Analisar dados de caso com a descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Obtenha uma visão geral do processo de análise, que permite definir parâmetros, opções de execução e exibir resultados, na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: deacec71fc22302c42784375b88ed3563cf3a4ce
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ff26d0ce28d725cb922c228ff4b6ddf9ab174757
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806134"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596118"
 ---
 # <a name="analyze-case-data-with-office-365-advanced-ediscovery"></a>Analisar dados de caso com a descoberta eletrônica avançada do Office 365
 

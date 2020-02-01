@@ -1,5 +1,7 @@
 ---
 title: Estatísticas de pesquisa
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: esclee
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fe4d1c92230bcc4e6e1136eeb43c99cc6d8297ca
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: df5ad2ce1d40421e43cdd5e8c3fd4dd5efe1c6f7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971290"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597538"
 ---
 # <a name="search-statistics"></a>Estatísticas de pesquisa
 

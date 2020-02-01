@@ -1,5 +1,7 @@
 ---
 title: Correção de erro ao processar dados de uma investigação
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c7bc6043722059b04d7fb99663a7dfb8815de697
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: aac2dc742af4491be8c7f30ed6e78c549a924f3e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38684810"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41592812"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Correção de erro ao processar dados de uma investigação
 

@@ -1,5 +1,7 @@
 ---
 title: Configurar detecção de privilégio de cliente de advogado na descoberta eletrônica avançada
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o modelo de detecção de privilégio de cliente advogado para usar a detecção baseada em aprendizado de máquina de conteúdo privilegiado ao examinar o conteúdo em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: f4d5252a44183f5e2e38e4f4676c73d350befaf2
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: b60fe72cf476b9a6cbbd5cae3ed1a1e541d6b313
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233712"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595958"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>Configurar detecção de privilégio de cliente de advogado na descoberta eletrônica avançada
 

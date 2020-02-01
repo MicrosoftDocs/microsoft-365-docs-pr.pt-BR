@@ -1,5 +1,7 @@
 ---
 title: BitLocker do Office 365 para criptografia
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: 'Resumo: informações sobre o BitLocker para criptografia na nuvem.'
-ms.openlocfilehash: bbe32f642f214d27c7f9f82c39b11237556d51bf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dce56b0d4dedfa77a988d3cb6f8de6411fc258eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37073468"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597878"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>BitLocker e Distributed Key Manager (DKM) para criptografia
 

@@ -1,5 +1,7 @@
 ---
 title: Gerenciador de ameaças e detecções em tempo real, novidade para o explorador de ameaças, alterações no explorador de ameaças, novidade para o Office 365, segurança, segurança na nuvem, novo para segurança na ATP, novos recursos de ATP
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 8b980273b92c92f58ddc31a5ae53d6f90eb1bee4
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 21fc170fc820fa0187c03ac07ddc8b8c771f54ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572727"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598238"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 

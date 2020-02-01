@@ -1,5 +1,7 @@
 ---
 title: Reprovando o aplicativo visualizador de criptografia de mensagens do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 ms.date: 6/29/2018
@@ -14,12 +16,12 @@ ms.assetid: 6336cabb-b06e-402f-9e85-8bb9eb4ce68f
 ms.collection:
 - M365-security-compliance
 description: No dia 15 de agosto de 2018, iremos remover o aplicativo móvel do Visualizador de criptografia de mensagens do Office 365 (OME) do Android e dos repositórios da Apple. O aplicativo móvel Office 365 Message Encryption Viewer era necessário para ler mensagens de email e anexos que foram criptografados com a versão anterior do OME em telefones Apple e Android. Além de remover o aplicativo OME Viewer, não estamos fazendo outras alterações na versão anterior do OME.
-ms.openlocfilehash: 3b5c92d4fa700a1ae8d7b104e33100301cf43506
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 791a882650cfa3ffd5caaafbb835c8f272f8665e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071956"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595266"
 ---
 # <a name="deprecating-office-365-message-encryption-viewer-app"></a>Reprovando o aplicativo visualizador de criptografia de mensagens do Office 365
 
