@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova versão da descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 0057b77b140d05093686029addc29e72e59cae11
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 30b69bbd80799b0f3e32b008ec1d4affc8be6605
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601768"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662007"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -84,8 +84,11 @@ Use a guia **pesquisas** para criar pesquisas para pesquisar as fontes de dados 
 Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, confira:
 
 - [Exibir documentos em um conjunto de revisão](view-documents-in-review-set.md)
+
 - [Consultar os dados em um conjunto de revisão](review-set-search.md)
+
 - [Marcar documentos em um conjunto de revisão](tagging-documents.md)
+
 - [Analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md)
 
 ## <a name="exporting-data-for-review-and-presentation"></a>Exportando dados para revisão e apresentação
@@ -99,3 +102,7 @@ Use a guia **trabalhos** para monitorar processos de execução longa para taref
 ## <a name="configuring-case-settings"></a>Configurando as configurações de caso
 
 Use a guia **configurações** para definir as configurações em todo o caso. Isso inclui adicionar membros a um caso, fechar ou excluir uma ocorrência e definir as configurações de pesquisa e análise.
+
+## <a name="advanced-ediscovery-reports"></a>Relatórios de descoberta eletrônica avançada
+
+Você pode usar os relatórios de descoberta eletrônica avançada na home page para ajudar sua organização a controlar a atividade e o status em todos os casos de descoberta eletrônica avançada. O recurso relatórios de descoberta eletrônica avançada agrega informações sobre casos, responsáveis, fontes de dados e comunicações. Você pode filtrar os dados do relatório com base em vários critérios e exportar as informações agregadas para um arquivo CSV para análise adicional.  Para obter mais informações, consulte [relatórios de descoberta eletrônica avançados](advanced-ediscovery-reports.md).

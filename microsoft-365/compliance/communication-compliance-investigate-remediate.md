@@ -1,5 +1,5 @@
 ---
-title: Investigar e corrigir alertas de conformidade em comunicações (visualização)
+title: Investigar e corrigir alertas de conformidade de comunicação
 description: Investigue e corrija os alertas de conformidade de comunicação no Microsoft 365.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 0bf47842945d904c30c8a034d2ed255a743332ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 31a38ac28d1b483d6b5cdce6fade82d252457641
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595818"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661947"
 ---
-# <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>Investigar e corrigir alertas de conformidade em comunicações (visualização)
+# <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade de comunicação
 
 Depois de configurar suas políticas de conformidade de comunicação, você começará a receber alertas no centro de conformidade da Microsoft 365 para problemas de mensagens que correspondam às suas condições de política. Siga as instruções do fluxo de trabalho aqui para investigar e corrigir problemas de alerta.
 
@@ -70,7 +70,7 @@ Para obter uma lista completa dos filtros e detalhes do campo, consulte [Filters
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>Usando a análise de duplicatas próxima e exata
 
-As políticas de conformidade de comunicação verificam e agrupam automaticamente duplicatas de mensagens próximas e exatas sem nenhuma etapa de configuração adicional. Isso permite corrigir rapidamente mensagens semelhantes, um por um ou um grupo, reduzindo a carga de investigação de mensagens para revisores. Como duplicatas são detectadas, os controles **próximos duplicatas** e/ou **Exact duplicatas** são exibidos na barra de ferramentas ação de correção.
+As políticas de conformidade de comunicação verificam e agrupam automaticamente duplicatas de mensagens próximas e exatas sem nenhuma etapa de configuração adicional. Este modo de exibição permite corrigir rapidamente mensagens semelhantes, um por um ou um grupo, reduzindo a carga de investigação de mensagens para revisores. Como duplicatas são detectadas, os controles **próximos duplicatas** e/ou **Exact duplicatas** são exibidos na barra de ferramentas ação de correção.
 
 #### <a name="to-remediate-duplicates"></a>Para corrigir duplicatas
 
@@ -116,5 +116,6 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
     - **Marcar como**: marcar a mensagem como *compatível*, *não compatível*ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
     - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado e selecione **Enviar para enviar** por email um lembrete para o funcionário que enviou a mensagem e para resolver o problema.
     - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados para enviar uma notificação por email solicitando revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
+    - **Criar uma ocorrência**: usando o controle **criar um caso** , você pode criar um novo [caso de descoberta eletrônica avançada](overview-ediscovery-20.md) para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso e o usuário que enviou a mensagem que corresponde à política será automaticamente atribuído como o responsável da ocorrência. Você não precisa de nenhuma permissão adicional para gerenciar o caso. Criar uma ocorrência não resolve ou cria uma nova marca para a mensagem.
 
 4. **Determinar se os detalhes da mensagem devem ser arquivados fora da conformidade de comunicação**: os detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o controle de **Download** automaticamente adiciona mensagens selecionadas a um. ZIP arquivo que pode ser salvo no armazenamento fora do Microsoft 365.

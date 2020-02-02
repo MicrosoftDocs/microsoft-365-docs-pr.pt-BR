@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: 8dafaf45df0d681880ef513c9feab6b833c99cb8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 267b2bc7a8bc65e3a816c2d3d88397589734b55d
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595226"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661927"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 
@@ -128,7 +128,7 @@ Na página de **disposição pendente** , você pode exibir as desposições pen
   
 - A **disposição pendente** mostra itens que atingiram o final do período de retenção e exigem uma revisão de disposição. Após a revisão de cada item, decida se deseja aplicar um rótulo de retenção diferente a ele, estenda o período de retenção ou exclua-o permanentemente. Você pode selecionar vários itens.
     
-- A guia **itens descartados** mostra que as desposições foram aprovadas para exclusão durante uma revisão de disposição e agora estão no processo de ser permanentemente excluída ou itens marcados como registros que foram excluídos. Os itens que tiveram um rótulo de retenção diferente aplicado ou seu período de retenção estendido como parte de uma revisão não aparecerão aqui.
+- A guia **itens descartados** mostra itens excluídos permanentemente que já foram transferidos por uma análise de disposição. Eles são exibidos aqui porque o processo de exclusão permanente pode levar vários dias, conforme indicado na seção acima. Itens que tiveram um rótulo de retenção diferente aplicado ou tiveram seu período de retenção estendido como parte de uma revisão, não aparecerão aqui.
 
 ![Guias de disposição](media/Retention-Disposition-tabs.png)
     

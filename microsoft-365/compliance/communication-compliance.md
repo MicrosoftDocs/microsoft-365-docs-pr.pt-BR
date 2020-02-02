@@ -1,5 +1,5 @@
 ---
-title: Conformidade de comunicação (visualização)
+title: Conformidade em comunicações
 description: Saiba mais sobre conformidade de comunicação no Microsoft 365
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 8aa7beeea621ccbb0014059766fe217c1a25e2a2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3dabe35b753e38ab51801c6f2bd51cc5ee588e9a
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595808"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661937"
 ---
-# <a name="communication-compliance-in-microsoft-365-preview"></a>Conformidade de comunicação no Microsoft 365 (versão prévia)
+# <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
 A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams ou comunicações de terceiros em sua organização e tomar ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 
@@ -102,7 +102,7 @@ As políticas de conformidade de comunicação verificam e capturam mensagens em
 
 Para saber mais sobre o suporte de canal de mensagens em políticas de conformidade de comunicação, confira [tipos de comunicação com suporte](communication-compliance-feature-reference.md#supported-communication-types).
 
-## <a name="workflow"></a>Fluxo de Trabalho
+## <a name="workflow"></a>Fluxo de trabalho
 
 A conformidade com comunicações ajuda você a lidar com pontos problemáticos comuns associados à conformidade com políticas internas e requisitos de conformidade normativa. Com modelos de política prioritárias e um fluxo de trabalho flexível, você pode usar o insights acionáveis para resolver rapidamente problemas de conformidade detectados.
 
@@ -114,8 +114,8 @@ Identificar e resolver problemas de conformidade com a conformidade de comunica�
 
 Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformidade e configura as políticas de conformidade de comunicação aplicáveis. Os modelos de política são uma ótima maneira de configurar rapidamente uma nova política de conformidade, mas também modificar e atualizar rapidamente as políticas conforme suas necessidades mudam. Por exemplo, você pode querer testar rapidamente uma política para a linguagem ofensiva e o antiassédio em comunicações para um pequeno grupo de usuários antes de configurar uma política para todos os usuários da sua organização.
 
-> [!Important]
-> Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. Para habilitar permissões para recursos de conformidade de comunicação, confira [tornar a conformidade de comunicação disponível em sua organização](communication-compliance-configure.md#step-2-make-communication-compliance-available-in-your-organization-required).
+>[!Important]
+>Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. Para habilitar permissões para recursos de conformidade de comunicação, confira [tornar a conformidade de comunicação disponível em sua organização](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance).
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
@@ -143,6 +143,7 @@ A próxima etapa é corrigir problemas de conformidade de comunicação que voc�
 - **Notificar o usuário**: frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
 - **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.
 - **Mark como um falso positivo**: as mensagens detectadas incorretamente como correspondências de políticas de conformidade irão, ocasionalmente, passar para o processo de revisão. Você pode marcar esses tipos de alerta como falsos positivos e resolver automaticamente o problema.
+- **Criar uma ocorrência**: nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 ### <a name="monitor"></a>Monitorar
 

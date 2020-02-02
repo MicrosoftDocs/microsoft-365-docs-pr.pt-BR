@@ -1,5 +1,5 @@
 ---
-title: Referência de recurso de conformidade de comunicação (versão prévia)
+title: Referência do recurso de conformidade de comunicação
 description: Referência de recurso para conformidade de comunicação no Microsoft 365. Saiba mais detalhes e especificações de cada um dos componentes de recurso.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b844003b2cf0da80588d9fe2622c3353a57d73b4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ff765d309e3f01dbc1c2ef7fa75ed3287c8a5c0a
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595828"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661957"
 ---
-# <a name="communication-compliance-feature-reference-preview"></a>Referência de recurso de conformidade de comunicação (versão prévia)
+# <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
 ## <a name="policies"></a>Políticas
 
@@ -67,14 +67,14 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
 
 - **Microsoft Teams**: comunicações de chat e anexos associados em canais do Microsoft Teams públicos e privados e chats individuais podem ser verificados. Team chats que correspondem às condições de conformidade de comunicação são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis nos relatórios de conformidade de comunicação. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
-    - **Para comunicações de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Isso é para relações de usuário/chat de um-para-um ou um-para-muitos.
+    - **Para comunicações de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
     - **Para comunicações de canal do teams:** Atribua cada grupo do Microsoft Team Channel ou Office 365 que você deseja verificar que contenha um usuário específico à política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Office 365, certifique-se de adicionar esses novos canais e grupos à política de conformidade de comunicação.
 
 - **Email do Exchange**: as caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para a verificação de mensagens. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente nos relatórios de conformidade de comunicação. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os [tipos de arquivo suportados para inspeções de conteúdo de regras de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
 - **Skype for Business online**: as comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. Conversas do Skype for Business online as condições de política de conformidade de comunicação são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis nos relatórios de conformidade de comunicação. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
 
-    - **Para comunicações de chat do Skype for Business online**: atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Isso é para relações de usuário/chat de um-para-um ou um-para-muitos.
+    - **Para comunicações de chat do Skype for Business online**: atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
 
 - **Fontes de terceiros**: você pode verificar comunicações de fontes de terceiros para dados importados em caixas de correio em sua organização do Microsoft 365. Os conectores dão suporte aos seguintes recursos de terceiros:
 
@@ -223,7 +223,7 @@ Os filtros de conformidade de comunicação permitem que você filtre e classifi
 | **Classe de arquivo** | A classe da mensagem com base no tipo de mensagem, a *mensagem* ou o *anexo*. |
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloonmberg, etc. |
-| **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Em geral, esse é o domínio de assinatura do Microsoft 365 por padrão. |
+| **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
 | **Recipient** | O usuário para o qual a mensagem foi enviada. |
 | **Remetente** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
@@ -270,19 +270,19 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 
 ## <a name="audit"></a>Faça
 
-Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Isso pode ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada. As políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Históricos de auditoria detalhados de cada ação criar, editar e excluir são capturados por suas políticas de comunicação para fornecer provas de procedimentos de supervisão.
+Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada. As políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Históricos de auditoria detalhados de cada ação criar, editar e excluir são capturados por suas políticas de comunicação para fornecer provas de procedimentos de supervisão.
 
 >[!Important]
->A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, consulte [habilitar a auditoria para suas políticas de conformidade de comunicação](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional).
+>A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, consulte [habilitar a auditoria para suas políticas de conformidade de comunicação](communication-compliance-configure.md#step-6-optional-enable-auditing-for-your-communication-compliance-policies).
 
-Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Isso gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
+Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Esta ação gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
 
 |**Field**|**Detalhes**|
 |:-----|:-----|
-| **CreationDate** | Quando a atividade foi realizada em uma política. |
+| **CreationDate** | A data em que a atividade foi realizada em uma política. |
 | **UserIds** | O usuário que realizou a atividade em uma política. |
 | **Operations** | As operações executadas na política. |
-| **AuditData** | Este é o campo de fonte de dados principal para todas as atividades de política. Todas as atividades são registradas e separadas por delimitadores vírgulas. |
+| **AuditData** | Este campo é a principal fonte de dados para todas as atividades de política. Todas as atividades são registradas e separadas por delimitadores vírgulas. |
 
 Você também pode exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) do PowerShell.
 

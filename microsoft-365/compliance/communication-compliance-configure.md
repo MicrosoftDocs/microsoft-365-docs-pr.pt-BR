@@ -1,5 +1,5 @@
 ---
-title: Configurar conformidade de comunicação (versão prévia)
+title: Configurar conformidade de comunicação
 description: Configurar políticas de conformidade de comunicação para configurar comunicações de funcionários para revisão.
 f1.keywords:
 - NOCSH
@@ -18,75 +18,34 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 24c87b8244b2dc53f58a07784c07231fb1588121
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9371429caedfe2081331fab1aebbe0e1ec761e81
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595838"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661967"
 ---
-# <a name="configure-communication-compliance-in-microsoft-365-preview"></a>Configurar a conformidade em comunicações no Microsoft 365 (visualização)
+# <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
-> [!IMPORTANT]
-> Este tópico se aplica à configuração da conformidade de comunicação em uma assinatura do Microsoft 365. Se você quiser configurar políticas de supervisão para uma assinatura do Office 365, consulte [Configure supervisão for Office 365](supervision-policies.md).
+>[!IMPORTANT]
+>Este tópico se aplica à configuração da conformidade de comunicação em uma assinatura do Microsoft 365. Se você quiser configurar políticas de supervisão para uma assinatura do Office 365, consulte [Configure supervisão for Office 365](supervision-policies.md).
 
 Use políticas de conformidade de comunicação para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md).
 
-> [!NOTE]
-> Os usuários monitorados por políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise e5.
-> Se você não tem um plano Enterprise E5 existente e deseja tentar a conformidade de comunicação, pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+## <a name="before-you-begin"></a>Antes de começar
+
+Antes de começar a conformidade com comunicações, você deve confirmar sua assinatura do Microsoft 365. Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Microsoft 365 e5.
+
+Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
   
-Siga estas etapas para configurar e usar a conformidade de comunicação em sua organização do Microsoft 365:
-  
-- **Etapa 1 (opcional)**: [configurar grupos para conformidade de comunicação](#step-1-set-up-groups-for-communication-compliance-optional) 
+Conclua estas etapas para configurar e usar a conformidade de comunicação em sua organização do Microsoft 365:
 
-    Antes de começar a usar a conformidade de comunicação, determine quem precisa de comunicações revisadas e quem realiza as revisões. Se você quiser começar com apenas alguns usuários para ver como funciona a conformidade de comunicação, você pode ignorar a configuração de grupos por enquanto.
+## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Etapa 1 (obrigatório): Habilitar permissões para conformidade de comunicação
 
-- **Etapa 2 (obrigatório)**: [tornar a conformidade de comunicação disponível em sua organização](#step-2-make-communication-compliance-available-in-your-organization-required)
+>[!Important]
+>Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
 
-    Adicione a si mesmo à função de **administrador de análise de supervisão** para que você possa configurar políticas. Você também precisará criar um novo grupo com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** para pessoas ou grupos que terão medidas investigativas e de correção em mensagens com correspondências de política. Qualquer pessoa que tenha essas funções atribuídas pode acessar a página **conformidade de comunicação** no centro de conformidade da Microsoft 365. Se o email reviewable estiver hospedado no Exchange Online, cada revisor deverá ter [acesso ao PowerShell remoto para o Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
-
-- **Etapa 3 (obrigatório)**: [Configurar uma política de conformidade de comunicação](#step-3-create-a-communication-compliance-policy-required)
-
-    Você cria políticas de conformidade de comunicação no centro de conformidade da Microsoft 365. Essas políticas definem quais comunicações estão sujeitas a análise em sua organização e especifica quem realiza as revisões. As comunicações incluem email, Microsoft Teams, Skype for Business e comunicações de plataforma de terceiros (como Facebook, Twitter, etc.).
-
-- **Etapa 4 (opcional)**: [criar modelos de aviso de funcionário](#step-4-create-employee-notice-templates-optional)
-
-    Criar modelos de aviso personalizados para enviar notificações por email aos funcionários como uma opção de correção para correspondências de política.
-
-- **Etapa 5 (opcional)**: [testar sua política de conformidade de comunicação](#step-5-test-your-communication-compliance-policy-optional)
-
-    Teste sua política de conformidade de comunicação para garantir que ela funcione conforme o desejado. É importante garantir que sua estratégia de conformidade esteja atendendo aos padrões.
-
-- **Etapa 6 (opcional)**: [habilitar a auditoria para suas políticas de conformidade de comunicação](#step-6-enable-auditing-for-your-communication-compliance-policies-optional)
-
-    Habilite a auditoria da sua organização para registrar atividades de gerenciamento para políticas de conformidade de comunicação.
-
-## <a name="step-1-set-up-groups-for-communication-compliance-optional"></a>Etapa 1: configurar grupos para conformidade de comunicação (opcional)
-
- Ao criar uma política de conformidade de comunicação, você define quem tem suas comunicações revisadas e quem realiza as revisões. Na política, você usará endereços de email para identificar pessoas ou grupos de pessoas. Para simplificar a configuração, você pode criar grupos para pessoas que tenham suas comunicações revisadas e grupos para pessoas que revisam essas comunicações. Se você estiver usando grupos, poderá precisar de vários. Por exemplo, se você quiser monitorar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não será supervisionado.
-
-Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização para políticas de conformidade de comunicação:
-
-| **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
-|:-----|:-----|:-----|
-|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Office 365 | Grupos dinâmicos de distribuição |
-| Revisores | Grupos de segurança habilitados para email  | Grupos de distribuição <br> Grupos dinâmicos de distribuição |
-  
-Quando você seleciona um grupo do Office 365 para usuários supervisionados, a política monitora o conteúdo da caixa de correio compartilhada do Office 365 e os canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política monitora caixas de correio de usuários individuais.
-
-Para obter mais informações sobre a configuração de grupos, consulte:
-
-- [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
-- [Gerenciar grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
-- [Visão geral dos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
-
-## <a name="step-2-make-communication-compliance-available-in-your-organization-required"></a>Etapa 2: tornar a conformidade de comunicação disponível em sua organização (obrigatório)
-
-> [!Important]
-> Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
-
-Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Além disso, para investigar e corrigir mensagens com correspondências de política, você deve criar um grupo para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** .
+Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Você deve criar um novo grupo de função para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** para investigar e corrigir mensagens com correspondências de política.
 
 ### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
 
@@ -108,7 +67,26 @@ Para tornar a **conformidade de comunicação** disponível como uma opção de 
 
 Para obter mais informações sobre grupos de funções e permissões, consulte [permissões no centro de conformidade](../security/office-365-security/protect-against-threats.md).
 
-## <a name="step-3-create-a-communication-compliance-policy-required"></a>Etapa 3: criar uma política de conformidade de comunicação (obrigatório)
+## <a name="step-2-optional-set-up-groups-for-communication-compliance"></a>Etapa 2 (opcional): configurar grupos para conformidade de comunicação
+
+ Ao criar uma política de conformidade de comunicação, você define quem tem suas comunicações revisadas e quem realiza as revisões. Na política, você usará endereços de email para identificar pessoas ou grupos de pessoas. Para simplificar a configuração, você pode criar grupos para pessoas que tenham suas comunicações revisadas e grupos para pessoas que revisam essas comunicações. Se você estiver usando grupos, poderá precisar de vários. Por exemplo, se você quiser monitorar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não será supervisionado.
+
+Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização para políticas de conformidade de comunicação:
+
+| **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
+|:-----|:-----|:-----|
+|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Office 365 | Grupos dinâmicos de distribuição |
+| Revisores | Grupos de segurança habilitados para email  | Grupos de distribuição <br> Grupos dinâmicos de distribuição |
+  
+Quando você seleciona um grupo do Office 365 para usuários supervisionados, a política monitora o conteúdo da caixa de correio compartilhada do Office 365 e os canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política monitora caixas de correio de usuários individuais.
+
+Para obter mais informações sobre a configuração de grupos, consulte:
+
+- [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
+- [Gerenciar grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
+- [Visão geral dos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
+
+## <a name="step-3-required-create-a-communication-compliance-policy"></a>Etapa 3 (obrigatório): criar uma política de conformidade de comunicação
   
 1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
@@ -142,7 +120,7 @@ Para obter mais informações sobre grupos de funções e permissões, consulte 
 
 6. A página **sua política foi criada** é exibida com diretrizes sobre quando a política será ativada e quais comunicações serão capturadas.
 
-## <a name="step-4-create-employee-notice-templates-optional"></a>Etapa 4: criar modelos de aviso de funcionário (opcional)
+## <a name="step-4-optional-create-employee-notice-templates"></a>Etapa 4 (opcional): criar modelos de aviso de funcionário
 
 Se você deseja ter a opção de responder a um alerta de política enviando um aviso de lembrete para o funcionário associado, você precisará criar pelo menos um modelo de aviso em sua organização. Os campos de modelo de aviso são editáveis antes de serem enviados como parte do processo de correção de alerta e a criação de um modelo de aviso personalizado para cada política de conformidade de comunicação é recomendada.
 
@@ -162,7 +140,7 @@ Se você deseja ter a opção de responder a um alerta de política enviando um 
 
 5. Selecione **salvar** para criar e salvar o modelo de aviso.
 
-## <a name="step-5-test-your-communication-compliance-policy-optional"></a>Etapa 5: testar sua política de conformidade de comunicação (opcional)
+## <a name="step-5-optional-test-your-communication-compliance-policy"></a>Etapa 5 (opcional): testar sua política de conformidade de comunicação
 
 Depois de criar uma política de conformidade de comunicação, é recomendável testá-la para garantir que as condições definidas estejam sendo aplicadas corretamente pela política. Você também pode querer [testar suas políticas de DLP (prevenção de perda de dados)](create-test-tune-dlp-policy.md) se suas políticas de conformidade de comunicação incluírem tipos de informações confidenciais. Certifique-se de que você dá às suas políticas tempo de ativação para que as comunicações que você deseja testar sejam capturadas.
 
@@ -178,11 +156,10 @@ Siga estas etapas para testar sua política de conformidade de comunicação:
 
 4. Corrija o alerta usando os controles de correção e verifique se o alerta foi resolvido corretamente.
 
-## <a name="step-6-enable-auditing-for-your-communication-compliance-policies-optional"></a>Etapa 6: habilitar a auditoria para suas políticas de conformidade de comunicação (opcional)
+## <a name="step-6-optional-enable-auditing-for-your-communication-compliance-policies"></a>Etapa 6 (opcional): habilitar a auditoria para suas políticas de conformidade de comunicação
 
-Depois de testar as políticas, convém habilitar a auditoria para que as atividades associadas ao gerenciamento de conformidade de comunicação sejam registradas. Isso pode ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada.
+Depois de testar as políticas, convém habilitar a auditoria para que as atividades associadas ao gerenciamento de conformidade de comunicação sejam registradas. Essa auditoria pode ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada.
 
 Quando a auditoria está habilitada, as políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Você pode usar o controle **Exportar atividades de revisão** na página principal de qualquer política para gerar um arquivo de auditoria ou exibir atividades de auditoria no log de auditoria unificada se a auditoria estiver habilitada.
 
-Para ativar a auditoria, clique em **iniciar a gravação da atividade de administrador e usuário** na página **pesquisa de log de auditoria** no centro de conformidade & segurança do Office 365. Se você não vir esse link, significa que a auditoria já está ativada na sua organização. Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Isso só precisa ser feito uma vez. Para obter mais informações sobre o log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).
-
+Para ativar a auditoria, clique em **iniciar a gravação da atividade de administrador e usuário** na página **pesquisa de log de auditoria** no centro de conformidade & segurança do Office 365. Se você não vir esse link, significa que a auditoria já está ativada na sua organização. Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa executar esta ação uma vez. Para obter mais informações sobre o log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).

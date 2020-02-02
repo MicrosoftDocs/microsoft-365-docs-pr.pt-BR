@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: Saiba mais sobre como reter o conteúdo de caixa de correio para funcionários antigos ao transformar a caixa de correio em uma caixa de correio inativa. Você pode fazer isso colocando a caixa de correio em retenção de litígio ou aplicando uma política de retenção do Office 365 à caixa de correio e, em seguida, removendo a conta do Office 365 correspondente.
-ms.openlocfilehash: 7b60ce92382c0b8111dcf4c1b8d9fb4c793717c6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75ede1ae199bdecfea2662a187c3965cc2b676d7
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597938"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661871"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Visão geral das caixas de correio inativas no Office 365
 
@@ -85,7 +85,7 @@ Por outro lado, quaisquer políticas de arquivamento (que são marcas de retenç
   
 ## <a name="creating-an-inactive-mailbox"></a>Criando uma caixa de correio inativa
 
-Para tornar uma caixa de correio inativa, ela deve receber uma licença do Exchange Online Plan 2 (ou uma licença do plano 1 do Exchange Online com uma licença complementar de arquivamento do Exchange Online) para que uma retenção de litígio ou uma política de retenção do Office 365 possa ser aplicada à caixa de correio antes de ser excluídos. Depois que a caixa de correio for excluída, qualquer licença do Exchange Online associada a ela estará disponível para ser atribuída a um novo usuário. Caixas de correio inativas não exigem licenças em andamento.
+Para tornar uma caixa de correio inativa, ela deve receber uma licença do Exchange Online Plan 2 (ou uma licença do plano 1 do Exchange Online com uma licença complementar de arquivamento do Exchange Online) para que uma retenção de litígio ou uma política de retenção do Office 365 possa ser aplicada à caixa de correio antes de ser excluídos. Depois que a caixa de correio for excluída, qualquer licença do Exchange Online associada a ela estará disponível para ser atribuída a um novo usuário.
   
 A tabela a seguir resume o processo para tornar uma caixa de correio inativa para cenários de retenção diferente. Para obter mais informações, consulte [gerenciar caixas de correio inativas no Office 365](create-and-manage-inactive-mailboxes.md).
   
