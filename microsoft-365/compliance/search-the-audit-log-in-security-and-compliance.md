@@ -1,5 +1,7 @@
 ---
 title: Pesquisar o log de auditoria no Centro de Conformidade e Segurança
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 6b73e6bbcd9dfee6e3c04ee5c44283633ffdbac4
-ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
+ms.openlocfilehash: 519fb739290e5a7ea61c8e27a1ef59edb4cac75f
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41265889"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661997"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -122,6 +124,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
   |Microsoft Project|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Aplicativos de energia|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Power BI|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Centro de Conformidade e Segurança|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |SharePoint Online e OneDrive for Business|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -335,7 +338,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |(nenhum)|FileModifiedExtended|Isso está relacionado à atividade "Arquivo modificado" (FileModified). Um evento FileModifiedExtended é registrado em log quando a mesma pessoa modifica continuamente um arquivo por um longo período (até 3 horas). <br/><br/> O propósito de registrar eventos FileModifiedExtended em log é reduzir o número de eventos FileModified registrados quando um arquivo é modificado continuamente. Isso ajuda a reduzir o ruído de vários registros de FileModified para o que é essencialmente a mesma atividade do usuário e permite que você se concentre no evento FileModified inicial (e mais importante).|
 |Arquivo movido|FileMoved|O usuário move um documento de sua localização atual em um site até uma nova localização.|
 |(nenhum)|FilePreviewed|O usuário visualiza documentos em um site do SharePoint ou OneDrive for Business. Esses eventos geralmente ocorrem em grandes volumes com base em uma única atividade, como a exibição de uma galeria de imagens.|
-|Consulta de pesquisa realizada|SearchQueryPerformed|O usuário ou a conta do sistema realiza uma pesquisa no SharePoint ou OneDrive for Business. Alguns cenários comuns nos quais uma conta de serviço realiza uma consulta de pesquisa incluem a aplicação de uma política de retenção ou de bloqueio da Descoberta Eletrônica para sites e contas do OneDrive e quando os rótulos de retenção ou sensibilidade são automaticamente aplicados ao conteúdo do site. Em muitos desses casos, o nome da conta de serviço que está conectada no campo de Usuário do registro de auditoria é **app@sharepoint**. </br></br> **Dica:** os campos ApplicationDisplayName e EventData no registro de auditoria para a atividade de consulta de pesquisa realizada podem ajudá-lo a identificar o cenário ou serviço que acionou esse evento.|
+|Consulta de pesquisa realizada|SearchQueryPerformed|O usuário ou a conta do sistema realiza uma pesquisa no SharePoint ou OneDrive for Business. Alguns cenários comuns nos quais uma conta de serviço realiza uma consulta de pesquisa incluem a aplicação de uma política de retenção ou de bloqueio da Descoberta Eletrônica para sites e contas do OneDrive e quando os rótulos de retenção ou sensibilidade são automaticamente aplicados ao conteúdo do site. Em muitos desses casos, o nome da conta de serviço que está conectada no campo de Usuário do registro de auditoria é **aplicativo\@sharepoint**. </br></br> **Dica:** os campos ApplicationDisplayName e EventData no registro de auditoria para a atividade de consulta de pesquisa realizada podem ajudá-lo a identificar o cenário ou serviço que acionou esse evento.|
 |Todas as versões secundárias do arquivo foram recicladas|FileVersionsAllMinorsRecycled|O usuário exclui todas as versões secundárias do histórico de versões de um arquivo. As versões excluídas são movidas para a lixeira do site.|
 |Todas as versões do arquivo foram recicladas|FileVersionsAllRecycled|O usuário exclui todas as versões do histórico de versões de um arquivo. As versões excluídas são movidas para a lixeira do site.|
 |Versão do arquivo reciclada|FileVersionRecycled|O usuário exclui uma versão do histórico de versões de um arquivo. A versão excluída é movida para a lixeira do site.|

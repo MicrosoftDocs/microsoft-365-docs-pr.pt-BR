@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 71ec7b4e27a6f125754e693ecb5239c66404a9ad
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: c2bf73a5e6b9076d9c5f42c40f0d1f2f33cd1ee8
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628068"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661897"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>Usando o explorador de conteúdo de classificação de dados (visualização)
 
@@ -51,11 +51,13 @@ Um [rótulo de retenção](labels.md) permite definir por quanto tempo um item r
 
 Há duas funções que concedem acesso ao Explorador de conteúdo:
 
-- **Visualizador de Listas do Explorador de Conteúdo**: a associação neste grupo de função permite que você veja cada item e seu local.
+- **Visualizador de Listas do Explorador de Conteúdo**: a associação neste grupo de função permite que você veja cada item e seu local. A função `data classification list viewer` foi predefinida para esse grupo de função.
 
-- **Visualizador de Conteúdos do Explorador de Conteúdo**: a associação neste grupo de função permite exibir o conteúdo de cada item na lista.
+- **Visualizador de Conteúdos do Explorador de Conteúdo**: a associação neste grupo de função permite exibir o conteúdo de cada item na lista. A função `data classification content viewer` foi predefinida para esse grupo de função.
 
 A conta que você usa para acessar o Explorador de conteúdo deve estar em uma ou em ambas os grupos de funções. Esses são grupos de funções independentes e não são cumulativos. Por exemplo, se você deseja conceder a uma conta a capacidade de exibir apenas os itens e seus locais, conceda direitos ao visualizador de Listas do Explorador de Conteúdo. Se você deseja que a mesma conta também possa exibir o conteúdo dos itens da lista, conceda também direitos ao visualizador de Conteúdos do Explorador de Conteúdo.
+
+Você também pode atribuir uma ou ambas as funções a um grupo de funções personalizada para ajustar o acesso ao Gerenciador de conteúdo.
 
 ### <a name="how-to-use-content-explorer"></a>Como usar o explorador de conteúdo
 
