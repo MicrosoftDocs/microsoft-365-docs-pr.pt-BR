@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: fd2b1fdbb0356cfc2cea080f15bf696d8073fc10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8a64b92e8191000be2767f498fbaee179c3b9e69
+ms.sourcegitcommit: 30ff011e5e8ba51c7ccc7e5fa9cd25aeca472acd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598638"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678927"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -65,7 +65,7 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
  
  Recomendamos que você **desative essas configurações para** os níveis padrão e estrito:
 
-|Nome do recurso de segurança|Comments|
+|Nome do recurso de segurança|Comentários|
 |---------|---------|
 |IncreaseScoreWithImageLinks||
 |IncreaseScoreWithNumericIps||
@@ -97,7 +97,7 @@ Há vários outros parâmetros na política antispam chamado filtro de spam avan
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
 |Resposta de detecção de malware|Não|Não|Se o malware for detectado em um anexo de email, a mensagem será colocada em quarentena e só poderá ser liberada por um administrador.|
-|"Filtro de tipo de anexo comum" para bloquear tipos de arquivo suspeitos|Habilitado|Habilitado||
+|"Filtro de tipos de anexo comuns" para bloquear tipos de arquivo suspeitos|Habilitado|Habilitado||
 |Limpeza automática de malware zero-hora|Habilitado|Habilitado||
 |Notificar remetentes internos da mensagem não entregue|Desabilitado|Desabilitado||
 |Notificar remetentes externos da mensagem não entregue|Desabilitado|Desabilitado||

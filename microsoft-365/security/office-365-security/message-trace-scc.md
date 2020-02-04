@@ -11,16 +11,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 461193bf7278a07de9bec1e3879fecc8fb6d91ea
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c9b22ef66fb1db762168812385420823788b4bfc
+ms.sourcegitcommit: 30ff011e5e8ba51c7ccc7e5fa9cd25aeca472acd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598918"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678931"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Rastreamento de mensagens no centro de conformidade & segurança do Office 365 segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
@@ -31,13 +31,9 @@ O rastreamento de mensagens no centro de conformidade & segurança aprimora o ra
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
-1. [Entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) com sua conta corporativa ou de estudante.
+1. Abra o centro de conformidade & segurança do Office <https://protection.office.com>365 em.
 
-2. Selecione o ícone do inicializador de aplicativos do ![Ícone inicializador de aplicativo do Office 365](../media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png) no canto superior esquerdo e escolha **Administrador**.
-
-3. No painel de navegação inferior esquerdo, expanda **centros de administração** e selecione **segurança & conformidade**.
-
-4. Na página **conformidade com segurança &** que é aberta, expanda **fluxo de email**e selecione **rastreamento de mensagens**.
+2. Expanda **fluxo de email**e selecione **rastreamento de mensagens**.
 
 ## <a name="message-trace-page"></a>Página rastreamento de mensagens
 
