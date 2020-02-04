@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 02/03/2020
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Com a criptografia de mensagem do Office 365, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. A criptografia de mensagens de email ajuda a garantir que somente os destinatários pretendidos possam exibir o conteúdo da mensagem.
-ms.openlocfilehash: 9da6084348a4bdc89f620eb894c9ffa113d64292
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 76d3688fbc30923e204b9cba338b61bc955b8f95
+ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601778"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680090"
 ---
 # <a name="office-365-message-encryption"></a>Criptografia de Mensagem do Office 365
 
@@ -30,12 +30,38 @@ As pessoas geralmente usam email para trocar informações importantes, como dad
 
 Com a criptografia de mensagem do Office 365, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. A criptografia de mensagem do Office 365 funciona com o Outlook.com, Yahoo!, Gmail e outros serviços de email. A criptografia de mensagens de email ajuda a garantir que somente os destinatários pretendidos possam exibir o conteúdo da mensagem.
 
+## <a name="important-updates-to-ome-to-enhance-email-authenticity---action-required"></a>Atualizações importantes para o OME para melhorar a autenticidade de email-ação necessária
+
+A partir de fevereiro de 2020, recuperamos melhorias no OME que aprimoram a autenticidade de email de emails do OME alterando os endereços de remetente usados pelo OME. Sem esses aprimoramentos, algumas organizações estavam rejeitando emails gerados pelo sistema de OME, como emails de código de passagem única e de portal, porque o endereço do remetente era do domínio messaging.onmicrosoft.com. Com essa alteração, esses emails gerados pelo sistema serão enviados dos domínios personalizados da sua organização em vez de onmicrosoft.com. Para implementar essa melhoria, você deve atualizar suas regras de fluxo de emails.
+
+Para o Exchange Online, você precisa atualizar cada regra de fluxo de emails que está procurando os endereços de email OME antigos, ou qualquer endereço de fora da sua organização, para procurar os novos endereços do OME. Como os emails do novo OME (código de passagem única e resposta do Portal) são provenientes do seu domínio personalizado, eles não estão mais qualificados como provenientes de fora da organização.
+
+Se você estiver usando soluções de terceiros que funcionam com o Exchange no local ou Exchange Online, será necessário atualizar todas as suas regras de OME antigas para refletir os novos endereços de email do OME. Por exemplo, se você tiver acessado os endereços de email anteriores do OME, precisará adicionar os novos emails à lista de emails de listas.
+
+### <a name="changes-to-ome-email-addresses"></a>Alterações em endereços de email do OME
+
+Endereço de remetente de código de passagem única:
+
+- Endereço antigo:``onetimepasscode@messaging.onmicrosoft.com``
+
+- Novo endereço:``onetimepasscode@<yourdomain.com>``
+
+OME respostas do portal do OME:
+
+- Endereço antigo:``omeportal@messaging.onmicrosoft.com``
+
+- Novo endereço:``omeportal@<yourdomain.com>``
+
+### <a name="errors-routing-mail-from-exchange-online-through-exchange-on-premises-to-external-recipients"></a>Erros de roteamento de email do Exchange Online por meio do Exchange local para destinatários externos
+
+Se você rotear emails do Exchange Online por meio do Exchange local para destinatários externos à sua organização, alguns sistemas de terceiros estão retornando erros do DMARC e não aceitando o email. Por exemplo, o Gmail retornará um erro DMARC se você encaminhar seu email dessa forma. Para contornar esse problema, encaminhe o email diretamente do Exchange Online para destinatários externos, ignorando o Exchange no local.
+
+## <a name="how-office-365-message-encryption-works"></a>Como funciona a criptografia de mensagens do Office 365
+
 O restante deste artigo se aplica aos novos recursos do OME.
 
 > [!NOTE]
 > Representantes com permissões de acesso total a uma caixa de correio podem ler mensagens criptografadas que são enviadas para a caixa de correio.
-
-## <a name="how-office-365-message-encryption-works"></a>Como funciona a criptografia de mensagens do Office 365
 
 A criptografia de mensagem do Office 365 é um serviço online desenvolvido no Microsoft Azure Rights Management (Azure RMS), que faz parte da proteção de informações do Azure. Isso inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a [opção não encaminhar](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)e a [opção somente criptografia](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
