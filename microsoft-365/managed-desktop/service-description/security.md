@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 6d3be89b52d71543687a02a1fd3fbae8bc1543f8
-ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
+ms.openlocfilehash: 3d5765de70b21036800d87cedd175ea4fd53b7ba
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243932"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774227"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
@@ -19,25 +19,12 @@ ms.locfileid: "36243932"
 
 O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a proteger os dispositivos e dados gerenciados. Especificamente: 
 
-- [Segurança de dados](#data-security) -tipos de dados coletados pela área de trabalho gerenciada da Microsoft e onde eles são armazenados com segurança
+
 - [Segurança do dispositivo](#device-security) – segurança e proteção nos dispositivos de área de trabalho gerenciada da Microsoft
 - [Gerenciamento de identidade e acesso](#identity-and-access-management) – Gerenciando o uso seguro de dispositivos por meio do Azure Active Directory Identity Services
 - [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
 - [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
-## <a name="data-security"></a>Segurança de dados
-
-Os dados coletados de locatários do cliente (que permite que os serviços e operações de ti da área de trabalho gerenciada da Microsoft) são armazenados em bancos de dados do Azure SQL no Microsoft locatário hospedado nos Estados Unidos da América.
-
-Para obter mais informações, consulte [segurança do Microsoft Azure](https://docs.microsoft.com/azure/security/azure-database-security-overview).
-
-Listadas abaixo estão os tipos de dados transmitidos do locatário:
-
-- Dados de atualização de dispositivo, uso e confiabilidade
-- Dados de implantação e confiabilidade de aplicativos
-- Atualização e dados de implantação de política de segurança
-- Usuários atribuídos a dispositivos
-- Logs de segurança de seu locatário relacionado às contas usadas pela área de trabalho gerenciada pela Microsoft para gerenciar o serviço
 
 
 
