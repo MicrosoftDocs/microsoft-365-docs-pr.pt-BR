@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 98a658febe6c20904f82fb2f152bb6cc115cce49
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc781d9f800b3db938b253775b31df118c21fd03
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597949"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784698"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -49,7 +49,7 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 - [Integrar com o office 365 ATP eventos de investigação e de resposta automatizados usando a API de atividade de gerenciamento do office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP plano 2)
 
-- [Exibir os cabeçalhos de email e baixar o corpo do email](investigate-malicious-email-that-was-delivered.md#view-the-email-headers-and-download-the-email-body) (plano de ATP do Office 365 ou plano 2)
+- [Exibir os cabeçalhos de email e baixar o corpo do email](investigate-malicious-email-that-was-delivered.md) (plano de ATP do Office 365 ou plano 2)
 
 ## <a name="august-2019"></a>Agosto de 2019
 
