@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 20992f6b28e0f7765724fb4d35febe19639de40e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1585be963b63e2e7f4c3efad972b7b262b4db3cc
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597678"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774217"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -56,7 +56,9 @@ Você cria e gerencia políticas de retenção na:
 
 - Página **Políticas** no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 - Página **Retenção** em **Governança de informações** no [Centro de Conformidade&amp; e Segurança do Office 365](https://protection.office.com/).
-  
+
+**Se você quiser a capacidade de revisar o conteúdo antes que ele seja permanentemente excluído,** considere usar [rótulos de retenção](labels.md), em vez de uma política de retenção. Ao criar um rótulo de retenção, você pode configurar uma [revisão de disposição](disposition-reviews.md) para revisar o conteúdo no final do seu período de retenção.
+
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>Como funciona uma política de retenção com conteúdo in-loco
 
 Quando você incluir um local como um site ou caixa de correio em uma política de retenção, o conteúdo permanecerá no local original. As pessoas podem continuar a trabalhar com seus documentos ou emails como se nada tivesse mudado. Mas, se elas editarem ou excluírem o conteúdo incluído na política, será mantida uma cópia do conteúdo conforme existia antes da aplicação da política.

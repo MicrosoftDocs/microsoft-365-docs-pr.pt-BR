@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 1: preparação de dispositivos e aplicativos'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: dad6b4092cbcedbc4674733af1459d28f9b1d50e
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112715"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774207"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
@@ -106,9 +108,9 @@ O inventário de software Configuration Manager é uma alternativa para usar as 
 Para saber mais, confira [Introdução ao inventário de software no Configuration Manager](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) e configurar os requisitos de plataforma em pacotes de aplicativos no [Pacotes e programas no Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 
-## <a name="desktop-app-assure"></a>Desktop App Assure
+## <a name="app-assure"></a>Garantia de Aplicativo
 
-Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 e no Office 365 ProPlus é a [Desktop App Assure](https://aka.ms/desktopappassure) programa disponível através do FastTrack Center. Por meio do Desktop App Assure, no caso de problemas com um aplicativo válido, um engenheiro da Microsoft trabalhará com você, sem nenhum custo adicional, para ajudar a corrigir a incompatibilidade do aplicativo.
+Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 e Office 365 ProPlus é o programa [Desktop App Assure](https://aka.ms/appassure) disponível através do FastTrack Center. No caso de problemas com um aplicativo válido, um engenheiro da Microsoft trabalha com você sem nenhum custo adicional através do App Assure para ajudar a corrigir a incompatibilidade do aplicativo.
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>Uso Contínuo de Ferramentas de Telemetria
 
