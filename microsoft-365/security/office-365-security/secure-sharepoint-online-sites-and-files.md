@@ -1,5 +1,7 @@
 ---
 title: Proteger sites e arquivos do SharePoint Online
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -19,12 +21,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Resumo: recomendações de configuração para proteger arquivos no SharePoint Online e no Office 365.'
-ms.openlocfilehash: c175e0e480670f9e5ce00a701704cedf1abeff26
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 29bd8ade5f32a2ba7e810d587d731d5036a372b6
+ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572347"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41830985"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Proteger sites e arquivos do SharePoint Online
 
@@ -158,7 +160,7 @@ Para as etapas de configuração de rótulos e políticas DLP de retenção nest
 
 Se for necessário para o seu cenário de segurança, você pode usar rótulos de confidencialidade para aplicar proteções que acompanham os arquivos onde quer que estejam. Os Rótulos de Proteção de Informações do Azure e os Rótulos de confidencialidade no Centro de conformidade do Microsoft 365 são os mesmos. Para esta solução, recomendamos que você use um rótulo de confidencialidade ou um sub-rótulo de Altamente Confidencial para criptografar e conceder permissões a arquivos que precisam ser protegidos com o mais alto nível de segurança.
 
-Lembre-se de que quando a criptografia de rótulo de confidencialidade é aplicada aos arquivos armazenados no Office 365, o serviço não pode processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. Políticas de DLP só funcionam com metadados (incluindo rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
+Se a sua organização ainda não [habilitou rótulos de sensibilidade para os arquivos do Office no SharePoint e no OneDrive (visualização pública)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files): Lembre-se de que, quando a criptografia de rótulo de confidencialidade for aplicada aos arquivos armazenados no Office 365, o serviço não poderá processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. Políticas de DLP só funcionam com metadados (incluindo rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
 
 Para saber mais, confira [Visão geral de rótulos de confidencialidade](../../compliance/sensitivity-labels.md).
 
