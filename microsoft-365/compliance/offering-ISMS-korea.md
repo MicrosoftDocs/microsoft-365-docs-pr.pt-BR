@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 5685acf9bd03503dcee5c4b40533265bf25e0ee3
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: bea6775580c4e4a7c9ab4cbf9b9368c312331038
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859711"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602278"
 ---
 # <a name="korea-information-security-management-system-k-isms"></a>Sistema de Gerenciamento de Segurança de Informações da Coreia (K-ISMS)
 

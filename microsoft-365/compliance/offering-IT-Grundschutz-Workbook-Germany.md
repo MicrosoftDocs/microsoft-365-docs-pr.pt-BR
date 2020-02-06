@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 306ac54b80ff7187b5377ad2b140df7b64028e69
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 63dcc6351b2ba0074bf71583577a34ddcc33ed94
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859661"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602208"
 ---
 # <a name="it-grundschutz-compliance-workbook"></a>Pasta de trabalho de conformidade da IT-Grundschutz
 

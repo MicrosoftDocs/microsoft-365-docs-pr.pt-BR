@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a2c2fa9fbd27e3519bc993c8e94be6d802cb91dc
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 99d4b1b07c86989bce0da08324014bda7a8a7d5d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859841"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602408"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Autoridade Supervisora do Mercado Financeiro (FINMA) da Suíça
 

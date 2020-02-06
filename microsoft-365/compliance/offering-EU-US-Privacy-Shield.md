@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6e9aea06e6479a0aa4ec83d35d1fc8c7704e8b0f
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 1ed1703ac30a9c7c8392ad61ec0d126d1e17c17e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859901"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602468"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>Estruturas do Escudo de Proteção da Privacidade UE-EUA e Suíça-EUA
 
@@ -79,7 +82,7 @@ O Escudo de Privacidade não é um mecanismo de conformidade do RGPD, é uma est
 
 **Como a Microsoft lida com as reclamações seguindo os parâmetros do Escudo de Proteção da Privacidade UE-EUA e Suíça-EUA?**
 
-Se você tiver uma reclamação relacionada ao Escudo de Proteção da Privacidade, informe-nos usando a seção [Como entrar em contato conosco](https://privacy.microsoft.com/privacystatement#mainhowtocontactusmodule) na [Declaração de Privacidade da Microsoft](https://privacy.microsoft.com/privacystatement). Se houver alguma reclamação que você não consiga resolver diretamente com a Microsoft, cooperamos com as DPAs da UE e seguimos os conselhos que eles fornecem. Fale conosco para ser direcionado para os contatos relevantes da DPA. Como explicado em mais detalhes nos [Princípios do Escudo de Proteção da Privacidade](https://www.privacyshield.gov/article?id=Requirements-of-Participation), é possível usufruir de uma opção de arbitragem vinculativa para tratar de reclamações não resolvidas por outros meios.
+Se você tiver uma reclamação relacionada ao Escudo de Proteção da Privacidade, informe-nos usando a seção [Como entrar em contato conosco](https://privacy.microsoft.com/PrivacyStatement#mainhowtocontactusmodule) na [Declaração de Privacidade da Microsoft](https://privacy.microsoft.com/privacystatement). Se houver alguma reclamação que você não consiga resolver diretamente com a Microsoft, cooperamos com as DPAs da UE e seguimos os conselhos que eles fornecem. Fale conosco para ser direcionado para os contatos relevantes da DPA. Como explicado em mais detalhes nos [Princípios do Escudo de Proteção da Privacidade](https://www.privacyshield.gov/article?id=Requirements-of-Participation), é possível usufruir de uma opção de arbitragem vinculativa para tratar de reclamações não resolvidas por outros meios.
 
 ## <a name="resources"></a>Recursos
 

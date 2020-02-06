@@ -5,24 +5,27 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 264f592357c9030865d3acd6dc138878bedf41bf
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: bfb71a88f836fc68967398e3f27bebd11854c1de
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39860051"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602628"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Parâmetros da Center for Internet Security (CIS)
 
 ## <a name="about-cis-benchmarks"></a>Sobre os Parâmetros da CIS
 
-A [Center for Internet Security](https://www.cisecurity.org/) é uma entidade sem fins lucrativos cuja missão é "identificar, desenvolver, validar, promover e manter soluções de práticas recomendadas para defesa cibernética". Ela recorre à experiência de profissionais de segurança cibernética e de TI de instituições governamentais, empresariais e acadêmicas de todo o mundo. Para desenvolver padrões e práticas recomendadas, inclusive as imagens protegidas, os controles e os parâmetros da CIS, eles seguem om modelo de tomada de decisão por consenso.  
+A [Center for Internet Security](https://www.cisecurity.org/) é uma entidade sem fins lucrativos cuja missão é "identificar, desenvolver, validar, promover e manter soluções de práticas recomendadas para defesa cibernética". Ela recorre à experiência de profissionais de segurança cibernética e de TI de instituições governamentais, empresariais e acadêmicas de todo o mundo. Para desenvolver padrões e práticas recomendadas, inclusive as imagens protegidas, os controles e os parâmetros da CIS, eles seguem um modelo de tomada de decisão por consenso.  
   
 [Os parâmetros da CIS](https://www.cisecurity.org/cis-benchmarks/) são práticas recomendadas e linhas de base de configuração para a configuração de um sistema com segurança. Cada uma das recomendações de diretrizes faz referência a um ou mais [controles de CIS](https://www.cisecurity.org/controls/) criados para ajudar as organizações a melhorar os recursos de defesa cibernética. Os controles da CIS fazem o mapeamento para muitas estruturas regulatórias e padrões estabelecidos, o que inclui a Estrutura de Segurança Cibernética (CSF) do NIST e o NIST SP 800-53, a série de padrões ISO 27000, PCI DSS, HIPAA e outros.  
   
@@ -77,7 +80,7 @@ Os parâmetros da CIS determinam o nível básico de segurança para todos que e
 
 **Com que frequência os Parâmetros da CIS são atualizados?**
 
-A versão dos Parâmetros da CIS muda de acordo com a comunidade de profissionais de TI que a desenvolveu e com o cronograma da versão da tecnologia que o parâmetro suporta. A CIS distribui relatórios mensais anunciando novos parâmetros e atualizações de parâmetros existentes. Para recebê-los, cadastre-se no [CIS Workbench](https://workbench.cisecurity.org/) (é gratuito) e marque Receber o boletim informativo em seu perfil.
+A versão dos Parâmetros da CIS muda de acordo com a comunidade de profissionais de TI que a desenvolveu e com o cronograma da versão da tecnologia que o parâmetro suporta. A CIS distribui relatórios mensais, anunciando novos parâmetros e atualizações de parâmetros existentes. Para recebê-los, cadastre-se no [CIS Workbench](https://workbench.cisecurity.org/) (é gratuito) e marque Receber o boletim informativo em seu perfil.
 
 **Quem contribuiu para o desenvolvimento dos Parâmetros da CIS da Microsoft?**
 

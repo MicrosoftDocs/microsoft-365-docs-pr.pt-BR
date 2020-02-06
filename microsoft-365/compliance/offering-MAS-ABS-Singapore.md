@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: e8755b89184b52b128e2f3c1060db6cf32e2f9e4
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 2dafb9d99e1042b1cd810d35ed726fad72c7116a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859611"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602178"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Autoridade Monetária de Singapura (MAS) e Associação de Bancos em Singapura (ABS)
 
@@ -24,15 +27,15 @@ ms.locfileid: "39859611"
 
 ### <a name="monetary-authority-of-singapore-mas"></a>Autoridade Monetária de Singapura (MAS)
 
-Em julho de 2016, a MAS, o único regulador bancário de Singapura e o banco central, emitiu suas [Diretrizes sobre o Gerenciamento de risco da terceirização](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines_Jul%202016.pdf). Nas diretrizes, a MAS estabeleceu suas expectativas em relação a terceirização de serviços de nuvem por instituições financeiras em Singapura, incluindo bancos, seguradoras e empresas fiduciárias. Ela foi o resultado de uma discussão iniciada em outubro de 2014 que abrangeu todo o setor e incluiu a participação da Microsoft.
+Em julho de 2016, a MAS, o único regulador bancário de Singapura e o banco central, emitiu suas [Diretrizes sobre o Gerenciamento de risco da terceirização](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines_Jul%202016.pdf). Nas diretrizes, a MAS estabeleceu suas expectativas em relação à terceirização de serviços de nuvem por instituições financeiras em Singapura, incluindo bancos, seguradoras e empresas fiduciárias. Ela foi o resultado de uma discussão iniciada em outubro de 2014 que abrangeu todo o setor e incluiu a participação da Microsoft.
 
 As Diretrizes da MAS simplificam substancialmente o processo de adoção de tecnologias, esclarecem as expectativas do regulador e abordam muitos dos conceitos errôneos que anteriormente retardavam a adoção de soluções em nuvem pelo setor financeiro.
 
-Além disso, as diretrizes são claras em relação ao suporte ao uso de serviços de nuvem — incluindo uma nuvem pública — pelas instituições financeiras e que a utilização desses serviços é vantajosa para elas. As diretrizes eliminaram a exigência que recaia sobre as instituições financeiras de terem que notificar a MAS antes de assumir compromissos importantes de terceirização material. Em vez disso, espera-se que as instituições regulamentadas pela MAS refinem sua abordagem baseada em risco ao avaliar a terceirização material e realizem uma autoavaliação de todos os acordos de terceirização tendo essas diretrizes como base. (Por enquanto, essas diretrizes não são juridicamente vinculativas, mas a MAS indicou que emitirá um aviso estatutário no futuro.)
+Além disso, as diretrizes são claras em relação ao suporte ao uso de serviços de nuvem — incluindo uma nuvem pública — pelas instituições financeiras e que a utilização desses serviços é vantajosa para elas. As diretrizes eliminaram a exigência que recaía sobre as instituições financeiras de terem que notificar a MAS antes de assumir compromissos importantes de terceirização material. Em vez disso, espera-se que as instituições regulamentadas pela MAS refinem sua abordagem baseada em risco ao avaliar a terceirização material e realizem uma autoavaliação de todos os acordos de terceirização tendo essas diretrizes como base. (Por enquanto, essas diretrizes não são juridicamente vinculativas, mas a MAS indicou que emitirá um aviso estatutário no futuro.)
 
 ### <a name="association-of-banks-in-singapore-abs"></a>Associação de Bancos em Singapura (ABS)
 
-Logo após o lançamento das Diretrizes da MAS sobre o Gerenciamento de risco da terceirização, a ABS, uma organização sem fins lucrativos que representa os interesses de bancos locais e estrangeiros que operam em Singapura (mas não outras instituições financeiras), introduziu um guia prático não vinculativo, o [Guia de implementação da computação em nuvem](https://abs.org.sg/docs/library/abs-cloud-computing-implementation-guide.pdf). Ele foi criado para ajudar os bancos a implementar disposições de terceirização seguindo as diretrizes da MAS.
+Logo após o lançamento das Diretrizes da MAS sobre o Gerenciamento de risco da terceirização, a ABS, uma organização sem fins lucrativos que representa os interesses de bancos locais e estrangeiros que operam em Singapura (mas não outras instituições financeiras), introduziu um guia prático não vinculativo, o [Guia de implementação da computação em nuvem](https://abs.org.sg/docs/library/abs-cloud-computing-implementation-guide.pdf). Ele foi criado para ajudar os bancos a implementar disposições de terceirização, seguindo as diretrizes da MAS.
 
 ## <a name="microsoft-mas-and-abs"></a>Microsoft MAS e ABS
 
@@ -53,7 +56,7 @@ Obtenha suporte prático para migrar dados e cargas de trabalho para o Microsoft
 
 Lista de verificação de conformidade para instituições financeiras em Singapura
 
-Este documento inclui uma visão geral do cenário regulatório apresentando os requisitos relevantes de Singapura e uma lista de verificação de conformidade que exibe os problemas regulatórios que precisam ser abordados, e mapeia os serviços de nuvem da Microsoft tendo esses problemas como base. Ao analisar e concluir a lista de verificação ponto a ponto, as instituições financeiras podem adotar os serviços de nuvem da Microsoft convictos de que estão cumprindo os requisitos relevantes em Singapura.
+Este documento inclui uma visão geral do cenário regulatório, apresentando os requisitos relevantes de Singapura e uma lista de verificação de conformidade que exibe os problemas regulatórios que precisam ser abordados, e mapeia os serviços de nuvem da Microsoft tendo esses problemas como base. Ao analisar e concluir a lista de verificação ponto a ponto, as instituições financeiras podem adotar os serviços de nuvem da Microsoft convictos de que estão cumprindo os requisitos relevantes em Singapura.
 
 Ao confiar em nossa abordagem abrangente à garantia de riscos na nuvem, acreditamos que as instituições financeiras de Singapura podem migrar para o Microsoft Cloud cumprindo com as Diretrizes da MAS e o Guia da ABS e, ao mesmo tempo, oferecer um perfil de gerenciamento de risco de segurança mais avançado do que muitas soluções locais.
 

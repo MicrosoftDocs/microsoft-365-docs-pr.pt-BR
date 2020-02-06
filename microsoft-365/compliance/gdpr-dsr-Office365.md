@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 71cadaee5c9b4ddad83a02ed434afd6197fe8e00
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 4e5ee52f9158df64e80f057adcfbf49c45f6dc31
+ms.sourcegitcommit: d4941dd0b598fb315e2c87083246ec3b26bbc032
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628117"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779026"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Office 365 para o GDPR e o CCPA
 
@@ -1581,61 +1581,18 @@ Não há suporte para a capacidade de restringir ou corrigir dados nos logs gera
 
 ### <a name="accessing-and-exporting-system-generated-logs"></a>Acessar e exportar logs gerados pelo sistema
 
-Os administradores podem acessar os logs gerados pelo sistema associados ao uso dos serviços e aplicativos do Office 365 por parte de um usuário específico. Para acessar e exportar logs gerados pelo sistema:
+O “direito de portabilidade de dados” permite que uma entidade de dados solicite uma cópia de seus dados pessoais em formato eletrônico (que é um “formato estruturado, comumente usado, legível por máquina e interoperável”) que pode ser transmitido para outro controlador de dados. O Azure dá suporte a isso ao habilitar a sua organização a exportar dados no formato nativo JSON para o contêiner de armazenamento especificado do Azure.
 
-1. Acesse o [Portal de Confiança do Serviço Microsoft](https://servicetrust.microsoft.com/) e entre usando as credenciais de um administrador global do Office 365.
+>[!IMPORTANT]
+>Você deve ser um administrador de locatários para exportar dados de usuário do locatário.
 
-2. Na lista suspensa **Privacidade** localizada na parte superior da página, clique em **Solicitação de Titular dos Dados**.
+#### <a name="azure-active-directory"></a>Azure Active Directory
 
-3. Na página **Solicitação de Titular dos Dados**, em **Logs Gerados pelo Sistema**, clique em **Exportação de Log de Dados**.
+Em relação aos dados do cliente, a Microsoft oferece um portal e experiências internas do produto que proporcionam ao administrador de locatários do cliente corporativo a capacidade de gerenciar solicitações de exportação de informações de identificação de um usuário final.
 
-    A janela **Exportação de Log de Dados** é exibida.  Uma lista de solicitações de exportação de dados enviadas por sua organização.
+#### <a name="service-specific-interfaces"></a>Interfaces específicas do serviço
 
-4. Para criar uma solicitação para um usuário, clique em **Criar Solicitação de Exportação de Dados**. 
-
-Depois de criar uma solicitação, ela será listada na página **Exportação de Log de Dados**, onde você poderá acompanhar seu status. Após a conclusão de uma solicitação, você poderá clicar em um link para acessar os logs gerados pelo sistema que serão exportados para o local de armazenamento do Azure de sua organização dentro de 30 dias após a criação da solicitação. Os dados são salvos em formatos de arquivo comuns que podem ser lidos por máquina, como JSON ou XML. Se você não tiver uma conta do Azure e um local de armazenamento do Azure, será preciso criar uma conta do Azure e/ou um local de armazenamento do Azure para a sua organização de modo que a ferramenta Exportação de Log de Dados possa exportar os logs gerados pelo sistema. Para saber mais, confira [Introdução a Armazenamento do Microsoft Azure](https://docs.microsoft.com/azure/storage/common/storage-introduction).
-
->[!NOTE]
->Quando você criar uma Solicitação de Exportação Dados, dados gerados pelo sistema para alguns aplicativos não serão exportados por meio da ferramenta de Exportação de Log de Dados. Para exportar dados para esses aplicativos, confira [Etapas adicionais para exportar dados de logs gerados pelo sistema ](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data).
-
-A seguir há um resumo do acesso e da exportação de logs de gerados pelo sistema usando a ferramenta de Exportação de Log de Dados:
-
-- **Quanto tempo a ferramenta Exportação de Log de Dados da Microsoft leva para concluir uma solicitação?:** Isso pode depender de vários fatores. Geralmente, ela deve ser concluída em um ou dois dias, mas pode levar até 30 dias.
-
-- **Em qual formato a saída estará?:** A saía será estruturada em arquivos legíveis por máquina, como XML, CSV ou JSON.
-
-- **Quem tem acesso à ferramenta de Exportação de Log de Dados para enviar solicitações de acesso a logs gerados pelo sistema?:** Os administradores globais do Office 365 terão acesso ao utilitário Gerenciador de Logs RGPD. 
-
-- **Quais dados a ferramenta Exportação de Log de Dados retorna?:** A ferramenta Exportação de Log de Dados retorna os logs gerados pelo sistema que a Microsoft armazena.  Os dados exportados vão abranger vários serviços da Microsoft, incluindo o Office 365, o Azure e o Dynamics.
-
-- **Como os dados são retornados ao usuário?:** Os dados serão exportados para o local de armazenamento do Azure da organização; caberá aos administradores em sua organização determinar como eles exibirão/retornarão esses dados aos usuários.
-
-- **Como serão os dados nos registros gerados pelo sistema?:** Exemplo de um registro de log gerado pelo sistema no formato JSON:
-
-   ```JSON
-   [{
-            "DateTime": "2017-04-28T12:09:29-07:00",
-             "AppName": "SharePoint",
-             "Action": "OpenFile",
-             "IP": "154.192.13.131",
-             "DevicePlatform": "Windows 1.0.1607"
-   }]
-   ```
-
->[!NOTE]
->Alguns recursos não permitirão a exportação ou a exclusão de logs gerados pelo sistema com informações pessoais para manter a integridade dessas informações por motivos de segurança e auditoria.
-
-Os dados de uso de produtos e serviços para alguns serviços mais frequentemente usados da Microsoft, como Exchange Online, SharePoint Online, Skype for Business, Yammer e Grupos do Office 365, também podem ser recuperados pesquisando o log de auditoria do Office 365 no Centro de Conformidade e Segurança.  Para saber mais, confira [Usar a ferramenta de pesquisa de log de auditoria do Office 365 nas investigações de DSR](#use-the-office-365-audit-log-search-tool-in-dsr-investigations) no Apêndice A. Usar o log de auditoria pode ser interessante para você, pois é possível atribuir permissões a outras pessoas na sua organização (como o responsável pela conformidade) para pesquisar o log de auditoria a fim de acessar esses dados.
-
-#### <a name="national-clouds"></a>Nuvens nacionais
-
-Um administrador de TI global precisa fazer o seguinte para exportar logs gerados pelo sistema nestas nuvens nacionais:
-
-- Office 365 Germany – [Acesse o Microsoft Service Trust Portal for Germany](https://aka.ms/MicrosoftSTPGermany) e conclua as etapas descritas acima.
-
-- Office 365 US Government: [acesse o portal de administração do Office 365](https://portal.office365.us) e envie uma solicitação ao Suporte da Microsoft.
-
-- Office 365 operado pela 21Vianet (China) – [Vá para o portal de administração do Office 365 operado pela 21Vianet](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage) e acesse **Comércio** > **Assinatura** > **Privacidade** > **GDPR** e insira as informações necessárias.
+A Microsoft oferece a capacidade de descobrir os dados dos clientes diretamente por APIs (interfaces de programação de aplicativos) preexistentes ou por IUs (interfaces de usuário) para serviços específicos. Os detalhes são descritos na documentação de referência dos respectivos serviços e descrevem as operações aplicáveis de CRUD (criar, ler, atualizar e excluir).
 
 ### <a name="deleting-system-generated-logs"></a>Excluir os logs gerados pelo sistema
 

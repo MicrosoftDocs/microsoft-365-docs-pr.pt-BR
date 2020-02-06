@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 206dbd57f5fc5c41c4238e13d9dca3072ef7d121
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 546e4b29f26ffdee8c876032fe83254fb5643fff
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859811"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602378"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>Centro de Sistemas de Informação da Indústria Financeira (FISC)
 
@@ -40,7 +43,7 @@ A Microsoft contratou um avaliador externo para validar se o Microsoft Azure, Dy
 
 As instituições financeiras podem se fiar na avaliação de conformidade dessas três áreas para os serviços de infraestrutura e plataforma Azure, Dynamics 365, Office 365 e Microsoft Cloud App Security que estão dentro do escopo.
 
-[Saiba mais sobre a validação de avaliadores externos e os links para os sites dos avaliadores (somente em japonês](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx).
+[Saiba mais sobre a validação de avaliadores externos e os links para os sites dos avaliadores (somente em japonês](https://cloudblogs.microsoft.com/industry-blog/ja-jp/financial-services/2018/05/11/fisc_v9/).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 

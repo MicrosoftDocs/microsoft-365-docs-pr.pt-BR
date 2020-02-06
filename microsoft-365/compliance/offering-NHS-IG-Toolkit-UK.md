@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 69cc897f749a591da9bdc69057bccf2dc96351da
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: af6e80bb61eb987c612349070b6ed4b7bbb89e5b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859531"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602088"
 ---
 # <a name="national-health-service-nhs-information-governance-ig-toolkit"></a>National Health Service (NHS) Information Governance (IG) Toolkit
 

@@ -5,18 +5,21 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 44f6423768049f80bbc7af3affc99294a8ad7ac1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6a3379043108340391764781f52b6a1bc3e05cf3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859381"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601928"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Boas Práticas Clínicas, Laboratoriais e de Manufatura (GxP)
 

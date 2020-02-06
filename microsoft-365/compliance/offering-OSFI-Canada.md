@@ -5,26 +5,29 @@ keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 9ca6323d5c5ffd019c7d79f283b98cb25816cf62
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: f4cb36cd208017881dd03a99d4e8c8adbbea65d4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859521"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602068"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Escritório do Superintendente de Instituições Financeiras (OSFI), Canadá
 
 ## <a name="about-the-osfi"></a>Sobre o OSFI
 
-O [Escritório de Superintendência de instituições Financeiras](http://www.osfi-bsif.gc.ca/Eng/Pages/default.aspx) (OSFI) é uma agência independente do governo do Canadá responsável pela regulamentação prudencial e pela supervisão de instituições financeiras e de planos de pensão regulados federalmente no Canadá.
+O [Escritório de Superintendência de instituições Financeiras](https://www.osfi-bsif.gc.ca/Eng/Pages/default.aspx) (OSFI) é uma agência independente do governo do Canadá responsável pela regulamentação prudencial e pela supervisão de instituições financeiras e de planos de pensão regulados federalmente no Canadá.
 
-Na sua função de supervisão, o OSFI publicou as Diretrizes B-10 para[Terceirização de Atividades, Funções e Processos de Negócios](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx). Tais diretrizes estabeleceram "práticas prudentes, procedimentos ou padrões" que as instituições financeiras reguladas federalmente devem seguir para avaliar e gerenciar o risco associado à terceirização do seus negócios para um provedor de serviços. Um memorando subsequente do OSFI, [Novos requerimentos de terceirização baseados em tecnologia](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx), relembrou às instituições que as diretrizes B-10 continuam válidas e que as expectativas do OSFI relativas aos acordos de terceirização de atividades importantes devem ser atendidas.
+Na sua função de supervisão, o OSFI publicou as Diretrizes B-10 para[Terceirização de Atividades, Funções e Processos de Negócios](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx). Tais diretrizes estabeleceram "práticas prudentes, procedimentos ou padrões" que as instituições financeiras reguladas federalmente devem seguir para avaliar e gerenciar o risco associado à terceirização do seus negócios para um provedor de serviços. Um memorando subsequente do OSFI, [Novos requerimentos de terceirização baseados em tecnologia](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx), relembrou às instituições que as diretrizes B-10 continuam válidas e que as expectativas do OSFI relativas aos acordos de terceirização de atividades importantes devem ser atendidas.
 
 Além disso, o uso de serviços de nuvem por instituições financeiras deve ser compatível com a [ Lei de Proteção às Informações Pessoais e Documentos Eletrônicos](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) e, em alguns casos, com as leis provinciais de privacidade de dados.
 
@@ -32,7 +35,7 @@ Além disso, o uso de serviços de nuvem por instituições financeiras deve ser
 
 Para ajudar a orientar as instituições financeiras do Canadá, considerando a terceirização de funções de negócios para a nuvem, a Microsoft publicou [Navegando através da nuvem: uma lista de verificação de conformidade para instituições financeiras canadenses](https://aka.ms/Azure-Canada-Compliance). Ao revisar e concluir a lista de verificação, as organizações financeiras podem adotar os serviços de nuvem do Microsoft Business com a confiança de que estão cumprindo os requisitos regulatórios aplicáveis.
 
-Quando as instituições financeiras canadenses terceirizam as atividades de negócios, elas devem agir em conformidade com as diretrizes B-10 para [Terceirização de Atividades, Funções e Processos de Negócios](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx) publicadas pelo escritório de Superintendência de Instituições Financeiras (OSFI), assim como com as leis de privacidade canadenses, incluindo a [ Lei de Proteção de Informações Pessoais e Documentos Eletrônicos ](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA).
+Quando as instituições financeiras canadenses terceirizam as atividades de negócios, elas devem agir em conformidade com as diretrizes B-10 para [Terceirização de Atividades, Funções e Processos de Negócios](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx) publicadas pelo escritório de Superintendência de Instituições Financeiras (OSFI), assim como com as leis de privacidade canadenses, incluindo a [ Lei de Proteção de Informações Pessoais e Documentos Eletrônicos ](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA).
 
 A lista de verificação da Microsoft ajuda as instituições financeiras do Canadá a realizar avaliações de auditoria detalhadas dos serviços corporativos de nuvem da Microsoft e inclui:
 
@@ -58,7 +61,7 @@ A lista de verificação da Microsoft ajuda as instituições financeiras do Can
 
 Não. Não há necessidade alguma de notificação prévia, consultoria ou aprovação. O uso da computação em nuvem pública é permitido, sujeito sempre à conformidade com os requisitos do OSFI.
 
-As [Diretrizes G-10 do OSFI](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)indicam que o OSFI espera que uma instituição financeira crie um programa de gerenciamento de riscos que se aplique a todas os seus contratos de terceirização, com redução de risco proporcional aos riscos associados. No entanto, somente as disposições de terceirização de atividades fundamentais devem ser documentadas por um contrato escrito que aborde as proteções identificadas nas diretrizes. A Parte 2 da[lista de verificação](https://aka.ms/Azure-Canada-Compliance)da Microsoft (página 53) mapeia isso em relação às seções nos documentos contratuais da Microsoft em que elas são abordadas.
+As [Diretrizes G-10 do OSFI](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)indicam que o OSFI espera que uma instituição financeira crie um programa de gerenciamento de riscos que se aplique a todas os seus contratos de terceirização, com redução de risco proporcional aos riscos associados. No entanto, somente as disposições de terceirização de atividades fundamentais devem ser documentadas por um contrato escrito que aborde as proteções identificadas nas diretrizes. A Parte 2 da[lista de verificação](https://aka.ms/Azure-Canada-Compliance)da Microsoft (página 53) mapeia isso em relação às seções nos documentos contratuais da Microsoft em que elas são abordadas.
 
 **Há termos obrigatórios que devem ser incluídos no contrato com o provedor de serviços de nuvem?**
 
