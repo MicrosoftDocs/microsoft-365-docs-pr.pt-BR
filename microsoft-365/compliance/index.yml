@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
-  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+  ms.openlocfilehash: e3c8b712931c4225bff0a989b9846957f9a6be79
+  ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "38689988"
+  ms.lasthandoff: 02/06/2020
+  ms.locfileid: "41800061"
 landingContent:
 - title: Gerenciar a proteção de informações
   linkLists:
@@ -65,12 +65,12 @@ landingContent:
     - text: Barreiras de informações
       url: information-barriers.md
     - text: Chave de Cliente
-      url: controlling-your-data-using-customer-key.md
+      url: customer-key-overview.md
 - title: Descobrir e responder
   linkLists:
   - linkListType: overview
     links:
-    - text: Advanced eDiscovery
+    - text: Descoberta Eletrônica Avançada
       url: overview-ediscovery-20.md
     - text: Gerenciar uma investigação de dados
       url: overview-data-investigations.md
@@ -82,7 +82,7 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Pontuação de conformidade
+    - text: Pontuação de Conformidade
       url: compliance-score.md
     - text: Plano de ação de conformidade do RGPD
       url: gdpr-action-plan.md

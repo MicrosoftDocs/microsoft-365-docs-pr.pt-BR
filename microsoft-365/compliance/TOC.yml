@@ -67,12 +67,6 @@
           href: privileged-access-management-overview.md
         - name: Configurar o gerenciamento de acesso privilegiado
           href: privileged-access-management-configuration.md
-    - name: Chave de Cliente
-      items:
-        - name: Controlar seus dados no Office 365 usando a Chave do Cliente
-          href: controlling-your-data-using-customer-key.md
-        - name: Criptografia de serviço com chave do cliente para perguntas frequentes do Office 365
-          href: service-encryption-with-customer-key-faq.md
     - name: Proteger acesso de usuário e de dispositivo
       href: protect-access-to-data-and-services.md
     - name: Sistema de Proteção de Dados do Cliente
@@ -85,7 +79,7 @@
       items:
         - name: Criar e publicar rótulos de confidencialidade
           href: create-sensitivity-labels.md
-        - name: Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade
+        - name: Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
           href: encryption-sensitivity-labels.md
         - name: Aplicar um rótulo de confidencialidade ao conteúdo automaticamente
           href: apply-sensitivity-label-automatically.md
@@ -150,6 +144,18 @@
           href: document-fingerprinting.md
         - name: Funções DLP para informações confidenciais
           href: what-the-dlp-functions-look-for.md
+    - name: Chave de Cliente
+      items:
+        - name: Criptografia de serviço com a chave do cliente no Office 365
+          href: customer-key-overview.md
+        - name: Configurar a chave do cliente para o Office 365
+          href: customer-key-set-up.md
+        - name: Gerenciar a chave do cliente para o Office 365
+          href: customer-key-manage.md
+        - name: Rolar ou girar uma chave do cliente ou uma chave de disponibilidade
+          href: customer-key-availability-key-roll.md
+        - name: Saiba mais sobre a chave de disponibilidade da chave de cliente do Office 365
+          href: customer-key-availability-key-understand.md
     - name: Criptografia de Email
       href: email-encryption.md
       items:
