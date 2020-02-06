@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Com o Office 365, seu conteúdo é criptografado em repouso e em trânsito com a criptografia, protocolos e tecnologias mais fortes disponíveis. Obtenha uma visão geral da criptografia no Office 365.
-ms.openlocfilehash: b16c3c4e71a3898acff0d23848b2fba185836729
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 782b7f3b64c6fdabd2e94a91de3d2ef67b1573f0
+ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593172"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800081"
 ---
 # <a name="encryption-in-office-365"></a>Criptografia no Office 365
 
@@ -51,7 +51,7 @@ Com o Office 365, várias camadas e tipos de criptografia funcionam juntos para 
   
 |**Tipos de conteúdo**|**Tecnologias de criptografia**|**Recursos para saber mais**|
 |:-----|:-----|:-----|
-|Arquivos em um dispositivo. Esses arquivos podem incluir mensagens de email salvas em uma pasta, documentos do Office salvos em um computador, Tablet ou telefone ou dados salvos na nuvem da Microsoft.  <br/> |BitLocker nos datacenters da Microsoft. O BitLocker também pode ser usado em máquinas clientes, como computadores e tablets do Windows  <br/> Gerenciador de chaves distribuídas (DKM) nos datacenters da Microsoft  <br/> Chave de Cliente do Office 365  <br/> |[Centro de ti do Windows: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Centro de confiança da Microsoft: criptografia](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [Série de controles de segurança na nuvem: Criptografando dados em repouso](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Como o Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md) <br/> [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md) <br/> |
+|Arquivos em um dispositivo. Esses arquivos podem incluir mensagens de email salvas em uma pasta, documentos do Office salvos em um computador, Tablet ou telefone ou dados salvos na nuvem da Microsoft.  <br/> |BitLocker nos datacenters da Microsoft. O BitLocker também pode ser usado em máquinas clientes, como computadores e tablets do Windows  <br/> Gerenciador de chaves distribuídas (DKM) nos datacenters da Microsoft  <br/> Chave de Cliente do Office 365  <br/> |[Centro de ti do Windows: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Centro de confiança da Microsoft: criptografia](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [Série de controles de segurança na nuvem: Criptografando dados em repouso](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Como o Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md) <br/> [Criptografia de serviço com a chave do cliente no Office 365](customer-key-overview.md) <br/> |
 |Arquivos em trânsito entre usuários. Esses arquivos podem incluir documentos do Office ou itens de lista do SharePoint compartilhados entre usuários.  <br/> |TLS para arquivos em trânsito  <br/> |[Criptografia de dados no OneDrive for Business e no SharePoint Online](data-encryption-in-odb-and-spo.md) <br/> [Skype for Business Online: segurança e arquivamento](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |Email em trânsito entre destinatários. Este email inclui email hospedado pelo Exchange Online.  <br/> |Criptografia de mensagem do Office 365 com o Azure Rights Management, S/MIME e TLS para email em trânsito  <br/> |[Criptografia de Mensagens do Office 365 (OME)](ome.md) <br/> [Criptografia de email no Office 365](email-encryption.md) <br/> [Como o Exchange Online usa o TLS para proteger conexões de email no Office 365](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
 
@@ -67,7 +67,7 @@ Para saber mais, confira os seguintes recursos:
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 
-- [Controlar seus dados no Office 365 usando a Chave do cliente](controlling-your-data-using-customer-key.md)
+- [Criptografia de serviço com a chave do cliente no Office 365](customer-key-overview.md)
 
 ## <a name="how-do-i"></a>Como...
 

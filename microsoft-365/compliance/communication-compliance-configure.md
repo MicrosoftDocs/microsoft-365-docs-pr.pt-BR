@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9371429caedfe2081331fab1aebbe0e1ec761e81
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 82ee16e84bc20b88e577cfd3e8b8187059536469
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661967"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784688"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -67,7 +67,14 @@ Para tornar a **conformidade de comunicação** disponível como uma opção de 
 
 Para obter mais informações sobre grupos de funções e permissões, consulte [permissões no centro de conformidade](../security/office-365-security/protect-against-threats.md).
 
-## <a name="step-2-optional-set-up-groups-for-communication-compliance"></a>Etapa 2 (opcional): configurar grupos para conformidade de comunicação
+## <a name="step-2-required-enable-the-office-365-audit-log"></a>Etapa 2 (obrigatório): habilitar o log de auditoria do Office 365
+
+A conformidade com comunicações requer logs de auditoria para mostrar alertas e rastrear ações de correção realizadas por revisores. Os logs de auditoria são um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada.
+
+Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar ou desativar a pesquisa de log de auditoria do Office 365](turn-audit-log-search-on-or-off.md). Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa executar esta ação uma vez. Para obter mais informações sobre o uso do log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).
+
+
+## <a name="step-3-optional-set-up-groups-for-communication-compliance"></a>Etapa 3 (opcional): configurar grupos para conformidade de comunicação
 
  Ao criar uma política de conformidade de comunicação, você define quem tem suas comunicações revisadas e quem realiza as revisões. Na política, você usará endereços de email para identificar pessoas ou grupos de pessoas. Para simplificar a configuração, você pode criar grupos para pessoas que tenham suas comunicações revisadas e grupos para pessoas que revisam essas comunicações. Se você estiver usando grupos, poderá precisar de vários. Por exemplo, se você quiser monitorar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não será supervisionado.
 
@@ -86,7 +93,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
 - [Gerenciar grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
 - [Visão geral dos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
 
-## <a name="step-3-required-create-a-communication-compliance-policy"></a>Etapa 3 (obrigatório): criar uma política de conformidade de comunicação
+## <a name="step-4-required-create-a-communication-compliance-policy"></a>Etapa 4 (obrigatório): criar uma política de conformidade de comunicação
   
 1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
@@ -120,7 +127,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
 
 6. A página **sua política foi criada** é exibida com diretrizes sobre quando a política será ativada e quais comunicações serão capturadas.
 
-## <a name="step-4-optional-create-employee-notice-templates"></a>Etapa 4 (opcional): criar modelos de aviso de funcionário
+## <a name="step-5-optional-create-employee-notice-templates"></a>Etapa 5 (opcional): criar modelos de aviso de funcionário
 
 Se você deseja ter a opção de responder a um alerta de política enviando um aviso de lembrete para o funcionário associado, você precisará criar pelo menos um modelo de aviso em sua organização. Os campos de modelo de aviso são editáveis antes de serem enviados como parte do processo de correção de alerta e a criação de um modelo de aviso personalizado para cada política de conformidade de comunicação é recomendada.
 
@@ -140,7 +147,7 @@ Se você deseja ter a opção de responder a um alerta de política enviando um 
 
 5. Selecione **salvar** para criar e salvar o modelo de aviso.
 
-## <a name="step-5-optional-test-your-communication-compliance-policy"></a>Etapa 5 (opcional): testar sua política de conformidade de comunicação
+## <a name="step-6-optional-test-your-communication-compliance-policy"></a>Etapa 6 (opcional): testar sua política de conformidade de comunicação
 
 Depois de criar uma política de conformidade de comunicação, é recomendável testá-la para garantir que as condições definidas estejam sendo aplicadas corretamente pela política. Você também pode querer [testar suas políticas de DLP (prevenção de perda de dados)](create-test-tune-dlp-policy.md) se suas políticas de conformidade de comunicação incluírem tipos de informações confidenciais. Certifique-se de que você dá às suas políticas tempo de ativação para que as comunicações que você deseja testar sejam capturadas.
 
@@ -155,11 +162,3 @@ Siga estas etapas para testar sua política de conformidade de comunicação:
 3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até **** > **alertas** de conformidade de comunicação para exibir os alertas de suas políticas.
 
 4. Corrija o alerta usando os controles de correção e verifique se o alerta foi resolvido corretamente.
-
-## <a name="step-6-optional-enable-auditing-for-your-communication-compliance-policies"></a>Etapa 6 (opcional): habilitar a auditoria para suas políticas de conformidade de comunicação
-
-Depois de testar as políticas, convém habilitar a auditoria para que as atividades associadas ao gerenciamento de conformidade de comunicação sejam registradas. Essa auditoria pode ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada.
-
-Quando a auditoria está habilitada, as políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Você pode usar o controle **Exportar atividades de revisão** na página principal de qualquer política para gerar um arquivo de auditoria ou exibir atividades de auditoria no log de auditoria unificada se a auditoria estiver habilitada.
-
-Para ativar a auditoria, clique em **iniciar a gravação da atividade de administrador e usuário** na página **pesquisa de log de auditoria** no centro de conformidade & segurança do Office 365. Se você não vir esse link, significa que a auditoria já está ativada na sua organização. Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa executar esta ação uma vez. Para obter mais informações sobre o log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).

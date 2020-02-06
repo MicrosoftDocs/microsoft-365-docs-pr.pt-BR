@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ff765d309e3f01dbc1c2ef7fa75ed3287c8a5c0a
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 02534cf9dcd342f0872e755aec622f8028b235f8
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661957"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784668"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -147,7 +147,7 @@ As condições escolhidas para a política se aplicam às comunicações de emai
 
 A tabela a seguir explica mais sobre cada condição.
   
-|**Condição**|**Como usar essa condição**|
+|**Condition**|**Como usar essa condição**|
 |:-----|:-----|
 | **O conteúdo corresponde a qualquer um desses classificadores** | Aplica-se à política quando os classificadores são incluídos ou excluídos em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados devem ser configurados separadamente antes de estarem disponíveis para essa condição. Somente um classificador pode ser definido como uma condição em uma política. Para obter mais informações sobre a configuração de classificadores, consulte [classificadores](classifier-getting-started-with.md). |
 | **O conteúdo contém qualquer um desses tipos de informações confidenciais** | Aplica-se à política quando qualquer tipo de informação confidencial é incluído ou excluído em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados podem ser configurados separadamente ou como parte do processo de atribuição de condição. Cada tipo de informação confidencial que você escolher será aplicado separadamente e apenas um desses tipos de informações confidenciais deverá ser aplicado à política a ser aplicada à mensagem. Para obter mais informações sobre tipos de informações confidenciais personalizadas, confira [tipos de informações confidenciais personalizados](custom-sensitive-info-types.md). |
@@ -225,7 +225,7 @@ Os filtros de conformidade de comunicação permitem que você filtre e classifi
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloonmberg, etc. |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
 | **Recipient** | O usuário para o qual a mensagem foi enviada. |
-| **Remetente** | A pessoa que enviou a mensagem. |
+| **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |
 | **Assunto/título** | O assunto da mensagem ou o título do chat. |
@@ -273,7 +273,7 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada. As políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Históricos de auditoria detalhados de cada ação criar, editar e excluir são capturados por suas políticas de comunicação para fornecer provas de procedimentos de supervisão.
 
 >[!Important]
->A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, consulte [habilitar a auditoria para suas políticas de conformidade de comunicação](communication-compliance-configure.md#step-6-optional-enable-auditing-for-your-communication-compliance-policies).
+>A auditoria deve estar habilitada para sua organização antes de eventos de conformidade de comunicação serem registrados. Para habilitar a auditoria, confira [habilitar o log de auditoria do Office 365](communication-compliance-configure.md#step-2-required-enable-the-office-365-audit-log).
 
 Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Esta ação gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
 
