@@ -11,16 +11,16 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba mais sobre a chave de disponibilidade usada para recuperar as chaves de cliente perdidas do Office 365.
-ms.openlocfilehash: b363d3b90c6ea783bd051bea6c44a94689b87ac1
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: a4d0bdecfeddb83ffbe47f397f2bda646138b081
+ms.sourcegitcommit: b22d6dea2768679428d512ea2bbbdf8748f71712
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804741"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845360"
 ---
 # <a name="learn-about-the-availability-key-for-office-365-customer-key"></a>Saiba mais sobre a chave de disponibilidade da chave de cliente do Office 365
 
-A chave de disponibilidade é uma chave raiz gerada automaticamente e provisionada quando você cria uma política de criptografia de dados. O Office 365 armazena e protege a chave de disponibilidade. A chave de disponibilidade é funcionalmente semelhante às duas chaves raiz que você fornece para a criptografia de serviço com a chave do cliente. A chave de disponibilidade quebra as chaves uma camada abaixo na hierarquia de chaves. Diferentemente das chaves que você fornece e gerencia no Azure Key Vault, não é possível acessar diretamente a chave de disponibilidade. Os serviços automatizados do Office 365 gerenciam a chave de disponibilidade usando os cmdlets do PowerShell. Esses cmdlets iniciam operações automatizadas que nunca envolvem acesso direto à chave de disponibilidade.
+A chave de disponibilidade é uma chave raiz gerada automaticamente e provisionada quando você cria uma política de criptografia de dados. O Office 365 armazena e protege a chave de disponibilidade. A chave de disponibilidade é funcionalmente parecida com as duas chaves raiz que você fornece para a criptografia de serviço com a chave do cliente. A chave de disponibilidade quebra as chaves uma camada abaixo na hierarquia de chaves. Diferentemente das chaves que você fornece e gerencia no Azure Key Vault, não é possível acessar diretamente a chave de disponibilidade. Os serviços automatizados do Office 365 gerenciam a chave de disponibilidade usando os cmdlets do PowerShell. Esses cmdlets iniciam operações automatizadas que nunca envolvem acesso direto à chave de disponibilidade.
 
 O objetivo principal da chave de disponibilidade é fornecer capacidade de recuperação da perda não antecipada de chaves raiz que você gerencia. A perda pode ser um resultado de mal gerenciamento ou ação mal-intencionada. Se você perder o controle das chaves raiz, entre em contato com o suporte da Microsoft e a Microsoft ajudará você durante o processo de recuperação usando a chave de disponibilidade. Você usará a chave de disponibilidade para migrar para uma nova política de criptografia de dados com novas chaves raiz que provisionar.
 
@@ -54,7 +54,7 @@ A Microsoft compartilha a responsabilidade da proteção de dados com você inst
 
 ### <a name="availability-key-secret-stores"></a>Repositórios de segredo de chave de disponibilidade
 
-A Microsoft protege as chaves de disponibilidade em repositórios de segredo internos, controlados pelo Access, semelhante ao cofre de chaves do Azure voltado para o cliente. Implementamos os controles de acesso para evitar que os administradores da Microsoft acessem diretamente os segredos contidos em. As operações de repositório secreto, incluindo rotação de chaves, exclusão e recuperação ocorrem por meio de comandos automatizados que nunca envolvem acesso direto à chave de disponibilidade. O acesso para ajustar esses comandos é limitado a engenheiros específicos e requer escalonamento de privilégio por meio de uma ferramenta interna, lockbox. A elevação de privilégio requer a aprovação do gerente e a justificativa antes de ser concedida. O Lockbox garante que o acesso seja vinculado à revogação do acesso automático após o tempo limite de expiração ou engenharia.
+A Microsoft protege as chaves de disponibilidade em repositórios de segredo internos, controlados pelo Access, como o Azure Key Vault voltado para o cliente. Implementamos os controles de acesso para evitar que os administradores da Microsoft acessem diretamente os segredos contidos em. As operações de repositório secreto, incluindo rotação de chaves, exclusão e recuperação ocorrem por meio de comandos automatizados que nunca envolvem acesso direto à chave de disponibilidade. O acesso para ajustar esses comandos é limitado a engenheiros específicos e requer escalonamento de privilégio por meio de uma ferramenta interna, lockbox. A elevação de privilégio requer a aprovação do gerente e a justificativa antes de ser concedida. O Lockbox garante que o acesso seja vinculado à revogação do acesso automático após o tempo limite de expiração ou engenharia.
 
 As chaves de disponibilidade **do Exchange Online e do Skype for Business** são armazenadas em um repositório secreto do Active Directory. O Active Directory do Exchange Online é composto por florestas de gerenciamento que roteiam o tráfego e as florestas de capacidade que contêm objetos, identidades e dados. As florestas de capacidade consistem em florestas de contas e florestas de recursos. As florestas de contas têm vários controladores de domínio de capacidade que são sincronizados entre si. As chaves de disponibilidade são armazenadas com segurança dentro desses controladores de domínio de capacidade. Esse local de armazenamento seguro é separado e isolado do repositório secreto de arquivos do SharePoint Online, do OneDrive for Business e do teams.
 
@@ -62,9 +62,9 @@ As chaves de disponibilidade de **arquivos do SharePoint Online, do onedrive for
 
 ### <a name="defense-in-depth"></a>Proteção em camadas
 
-A Microsoft emprega uma estratégia de proteção em camadas para impedir que os atores mal-intencionados afetem a confidencialidade, integridade ou disponibilidade dos dados do cliente armazenados na nuvem da Microsoft. Os controles preventivos e de detecção específicos são implementados para proteger a chave de disponibilidade como parte da estratégia de segurança abrangente.
+A Microsoft emprega uma estratégia de proteção em camadas para impedir que os atores mal-intencionados afetem a confidencialidade, integridade ou disponibilidade dos dados do cliente armazenados na nuvem da Microsoft. Os controles preventivos e de detecção específicos são implementados para proteger o repositório secreto e a chave de disponibilidade como parte da estratégia de segurança abrangente.
 
-O Office 365 foi criado para evitar o uso indevido da chave de disponibilidade. A camada de aplicativo é o único método pelo qual as teclas, incluindo a chave de disponibilidade, podem ser usadas para criptografar e descriptografar dados. Somente o código do serviço do Office 365 tem a capacidade de interpretar e percorrer a hierarquia da chave para atividades de criptografia e descriptografia. Se um administrador mal-intencionado da Microsoft fosse burlar os controles para extrair uma chave de disponibilidade do repositório secreto, a chave não poderá ser usada para acessar os dados do cliente. O isolamento lógico existe entre os locais de armazenamento das chaves do cliente, as chaves de disponibilidade, outras chaves hierárquicas e dados do cliente, o que reduz o risco de exposição dos dados no caso de um ou mais locais serem comprometidos.
+O Office 365 foi criado para evitar o uso indevido da chave de disponibilidade. A camada de aplicativo é o único método pelo qual as teclas, incluindo a chave de disponibilidade, podem ser usadas para criptografar e descriptografar dados. Somente o código do serviço do Office 365 tem a capacidade de interpretar e percorrer a hierarquia da chave para atividades de criptografia e descriptografia. Se um administrador mal-intencionado da Microsoft fosse burlar os controles para extrair uma chave de disponibilidade do repositório secreto, a chave não poderá ser usada para acessar os dados do cliente. O isolamento lógico existe entre os locais de armazenamento das chaves do cliente, as chaves de disponibilidade, outras chaves hierárquicas e dados do cliente. Esse isolamento reduz o risco de exposição dos dados no caso de um ou mais locais serem comprometidos. Cada camada na hierarquia criou recursos de detecção de invasão 24x7 para proteger dados e repositórios de segredos.
 
 Os controles de acesso são implementados para impedir o acesso não autorizado a sistemas internos, incluindo repositórios de segredo de chave de disponibilidade. Os engenheiros da Microsoft não têm acesso direto aos repositórios secretos de chave de disponibilidade. Para obter detalhes adicionais sobre controles de acesso, examine os [controles de acesso administrativo no Office 365](https://docs.microsoft.com/Office365/securitycompliance/office-365-administrative-access-controls-overview).
 
@@ -80,9 +80,11 @@ Se você perder o controle de suas chaves de cliente, a chave de disponibilidade
 
 ### <a name="recovery-procedure-for-exchange-online-and-skype-for-business"></a>Procedimento de recuperação do Exchange Online e do Skype for Business
 
-Se você perder o controle de suas chaves de cliente, a chave de disponibilidade ainda fornecerá acesso aos dados durante a recuperação. Para criptografar seus dados com novas chaves de cliente, crie novas chaves no Azure Key Vault, crie uma nova DEP, associe a nova DEP às suas novas chaves de cliente e, em seguida, instrua a DEP a criptografar as caixas de correio criptografadas atualmente com a DEP anterior para a qual as chaves foram perdidas ou compostas omised. Quando executada, a chave de disponibilidade descriptografará as caixas de correio que serão criptografadas com a nova política.
+Se você perder o controle de suas chaves de cliente, a chave de disponibilidade fornecerá a capacidade de recuperar seus dados e trazer seus recursos do Office 365 afetados novamente online. A chave de disponibilidade continua a proteger seus dados durante a recuperação. Em um nível alto, para recuperar totalmente da perda de teclas, você precisará criar um novo DEP e mover recursos impactados para a nova política.
 
-Esse processo pode levar até 72 horas, que é a duração padrão quando você altera uma DEP.
+Para criptografar seus dados com novas chaves de cliente, crie novas chaves no Azure Key Vault, crie uma nova DEP usando as novas chaves de cliente e, em seguida, atribua a nova DEP às caixas de correio atualmente criptografadas com a DEP anterior para a qual as chaves foram perdidas ou comprometidas.
+
+Esse processo de re-criptografia pode levar até 72 horas. Essa é a duração padrão quando você altera uma DEP.
   
 ### <a name="recovery-procedure-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>Procedimento de recuperação para os arquivos do SharePoint Online, do OneDrive for Business e do teams
 
@@ -92,7 +94,7 @@ Essa operação é proporcional ao número de sites em sua organização. Após 
 
 ## <a name="how-exchange-online-and-skype-for-business-use-the-availability-key"></a>Como o Exchange Online e o Skype for Business usam a chave de disponibilidade
 
-Quando você cria uma DEP com chave de cliente, o Office 365 gera uma chave de política de criptografia de dados (chave DEP) associada a essa DEP. O serviço criptografa a chave DEP três vezes: uma vez por cada chave do cliente e uma vez com a chave de disponibilidade. Somente as versões criptografadas da chave DEP são armazenadas, e uma chave DEP só pode ser descriptografada com as chaves do cliente ou a chave de disponibilidade. A chave DEP é usada para criptografar chaves de caixa de correio, que são usadas para criptografar caixas de correio individuais. 
+Quando você cria uma DEP com chave de cliente, o Office 365 gera uma chave de política de criptografia de dados (chave DEP) associada a essa DEP. O serviço criptografa a chave DEP três vezes: uma vez por cada chave do cliente e uma vez com a chave de disponibilidade. Somente as versões criptografadas da chave DEP são armazenadas, e uma chave DEP só pode ser descriptografada com as chaves do cliente ou a chave de disponibilidade. A chave DEP é usada para criptografar chaves de caixa de correio, que são usadas para criptografar caixas de correio individuais.
   
 O Office 365 segue esse processo para descriptografar e fornecer dados quando os clientes estão usando o serviço:
   
