@@ -20,92 +20,90 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: 'Resumo: Crie e configure sites de equipe do SharePoint Online para vários níveis de proteção de informações.'
-ms.openlocfilehash: 8aee0018db9035ca29037448e3d1200471589a7c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1f67dd1956059162902aefdb194e5e514d063778
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595286"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855250"
 ---
-# <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a><span data-ttu-id="bde0f-103">Implantar sites do SharePoint Online para três camadas de proteção</span><span class="sxs-lookup"><span data-stu-id="bde0f-103">Deploy SharePoint Online sites for three tiers of protection</span></span>
+# <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a><span data-ttu-id="1a7bf-103">Implantar sites do SharePoint Online para três camadas de proteção</span><span class="sxs-lookup"><span data-stu-id="1a7bf-103">Deploy SharePoint Online sites for three tiers of protection</span></span>
 
-<span data-ttu-id="bde0f-p101">Use as etapas neste artigo para projetar e implantar sites de equipe do SharePoint Online de linha de base, confidenciais e altamente confidenciais. Para obter mais informações sobre essas três camadas de proteção, consulte [Arquivos e sites do SharePoint Online seguros](../security/office-365-security/secure-sharepoint-online-sites-and-files.md).</span><span class="sxs-lookup"><span data-stu-id="bde0f-p101">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](../security/office-365-security/secure-sharepoint-online-sites-and-files.md).</span></span>
+<span data-ttu-id="1a7bf-p101">Use as etapas neste artigo para projetar e implantar sites de equipe do SharePoint Online de linha de base, confidenciais e altamente confidenciais. Para obter mais informações sobre essas três camadas de proteção, consulte [Arquivos e sites do SharePoint Online seguros](../security/office-365-security/secure-sharepoint-online-sites-and-files.md).</span><span class="sxs-lookup"><span data-stu-id="1a7bf-p101">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](../security/office-365-security/secure-sharepoint-online-sites-and-files.md).</span></span>
   
-## <a name="baseline-sharepoint-online-team-sites"></a><span data-ttu-id="bde0f-106">Sites de equipe do SharePoint Online de linha de base</span><span class="sxs-lookup"><span data-stu-id="bde0f-106">Baseline SharePoint Online team sites</span></span>
+## <a name="baseline-sharepoint-online-team-sites"></a><span data-ttu-id="1a7bf-106">Sites de equipe do SharePoint Online de linha de base</span><span class="sxs-lookup"><span data-stu-id="1a7bf-106">Baseline SharePoint Online team sites</span></span>
 
-<span data-ttu-id="bde0f-p102">A proteção de linha de base inclui os sites de equipe públicos e privados. Os sites de equipe públicos podem ser descobertos e acessados por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados somente por membros do grupo do Office 365 associado ao site de equipe. Esses dois tipos de sites de equipe permitem que os membros compartilhem o site com outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="bde0f-p102">Baseline protection includes both public and private team sites. Public team sites can be discovered and accessed by anybody in the organization. Private sites can only be discovered and accessed by members of the Office 365 group associated with the team site. Both of these types of team sites allow members to share the site with others.</span></span>
+<span data-ttu-id="1a7bf-p102">A proteção de linha de base inclui os sites de equipe públicos e privados. Os sites de equipe públicos podem ser descobertos e acessados por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados somente por membros do grupo do Office 365 associado ao site de equipe. Esses dois tipos de sites de equipe permitem que os membros compartilhem o site com outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-p102">Baseline protection includes both public and private team sites. Public team sites can be discovered and accessed by anybody in the organization. Private sites can only be discovered and accessed by members of the Office 365 group associated with the team site. Both of these types of team sites allow members to share the site with others.</span></span>
   
-### <a name="public"></a><span data-ttu-id="bde0f-111">Público</span><span class="sxs-lookup"><span data-stu-id="bde0f-111">Public</span></span>
+### <a name="public"></a><span data-ttu-id="1a7bf-111">Público</span><span class="sxs-lookup"><span data-stu-id="1a7bf-111">Public</span></span>
 
-<span data-ttu-id="bde0f-112">Para criar um site de equipe do SharePoint Online de linha de base com permissões e acesso público, siga [essas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="bde0f-112">To create a baseline SharePoint Online team site with public access and permissions, follow [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
+<span data-ttu-id="1a7bf-112">Para criar um site de equipe do SharePoint Online de linha de base com permissões e acesso público, siga [essas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="1a7bf-112">To create a baseline SharePoint Online team site with public access and permissions, follow [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
 
-<span data-ttu-id="bde0f-113">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="bde0f-113">Here is your resulting configuration.</span></span>
+<span data-ttu-id="1a7bf-113">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-113">Here is your resulting configuration.</span></span>
   
 ![Proteção de nível de linha de base para um site de equipe do SharePoint Online público.](media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
   
-### <a name="private"></a><span data-ttu-id="bde0f-115">Privado</span><span class="sxs-lookup"><span data-stu-id="bde0f-115">Private</span></span>
+### <a name="private"></a><span data-ttu-id="1a7bf-115">Privado</span><span class="sxs-lookup"><span data-stu-id="1a7bf-115">Private</span></span>
 
-<span data-ttu-id="bde0f-116">Para criar um site de equipe do SharePoint Online de linha de base com permissões e acesso privado, siga [essas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="bde0f-116">To create a baseline SharePoint Online team site with private access and permissions, follow [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
+<span data-ttu-id="1a7bf-116">Para criar um site de equipe do SharePoint Online de linha de base com permissões e acesso privado, siga [essas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="1a7bf-116">To create a baseline SharePoint Online team site with private access and permissions, follow [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
   
-<span data-ttu-id="bde0f-117">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="bde0f-117">Here is your resulting configuration.</span></span>
+<span data-ttu-id="1a7bf-117">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-117">Here is your resulting configuration.</span></span>
   
 ![Proteção de nível de linha de base para um site de equipe do SharePoint Online privado.](media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
   
-## <a name="sensitive-sharepoint-online-team-sites"></a><span data-ttu-id="bde0f-119">Sites confidenciais de equipe do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="bde0f-119">Sensitive SharePoint Online team sites</span></span>
+## <a name="sensitive-sharepoint-online-team-sites"></a><span data-ttu-id="1a7bf-119">Sites confidenciais de equipe do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="1a7bf-119">Sensitive SharePoint Online team sites</span></span>
 
-<span data-ttu-id="bde0f-120">Sites de equipe Confidenciais do SharePoint Online são iniciados como um site de equipe privado.</span><span class="sxs-lookup"><span data-stu-id="bde0f-120">A sensitive SharePoint Online team site starts as a private team site.</span></span>
+<span data-ttu-id="1a7bf-120">Sites de equipe Confidenciais do SharePoint Online são iniciados como um site de equipe privado.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-120">A sensitive SharePoint Online team site starts as a private team site.</span></span>
   
-<span data-ttu-id="bde0f-121">Primeiro, crie o site de equipe do SharePoint Online privado com [estas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="bde0f-121">First, create the private SharePoint Online team site with [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
+<span data-ttu-id="1a7bf-121">Primeiro, crie o site de equipe do SharePoint Online privado com [estas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="1a7bf-121">First, create the private SharePoint Online team site with [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
 
-<span data-ttu-id="bde0f-122">Em seguida, no novo site de equipe do SharePoint Online, configure as permissões adicionais com estas etapas.</span><span class="sxs-lookup"><span data-stu-id="bde0f-122">Next, from the new SharePoint Online team site, configure additional permission settings with these steps.</span></span>
+<span data-ttu-id="1a7bf-122">Em seguida, no novo site de equipe do SharePoint Online, configure as permissões adicionais com estas etapas.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-122">Next, from the new SharePoint Online team site, configure additional permission settings with these steps.</span></span>
 
-1.  <span data-ttu-id="bde0f-123">Na barra de ferramentas do site de equipe do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-123">In the tool bar of the SharePoint team site, click the settings icon, and then click **Site permissions**.</span></span>
-2.  <span data-ttu-id="bde0f-124">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-124">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
-3.  <span data-ttu-id="bde0f-125">Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-125">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
+1.  <span data-ttu-id="1a7bf-123">Na barra de ferramentas do site de equipe do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-123">In the tool bar of the SharePoint team site, click the settings icon, and then click **Site permissions**.</span></span>
+2.  <span data-ttu-id="1a7bf-124">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-124">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+3.  <span data-ttu-id="1a7bf-125">Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-125">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
 
-<span data-ttu-id="bde0f-126">Os resultados dessas configurações de permissão são:</span><span class="sxs-lookup"><span data-stu-id="bde0f-126">The results of these permission settings are:</span></span>
+<span data-ttu-id="1a7bf-126">Os resultados dessas configurações de permissão são:</span><span class="sxs-lookup"><span data-stu-id="1a7bf-126">The results of these permission settings are:</span></span>
 
-- <span data-ttu-id="bde0f-127">A capacidade dos membros de compartilhar com outros membros está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="bde0f-127">The ability for members to share with other members is disabled.</span></span>
-- <span data-ttu-id="bde0f-128">A capacidade de não membros solicitarem o acesso está habilitada.</span><span class="sxs-lookup"><span data-stu-id="bde0f-128">The ability for non-members to request access is enabled.</span></span>
+- <span data-ttu-id="1a7bf-127">A capacidade dos membros de compartilhar com outros membros está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-127">The ability for members to share with other members is disabled.</span></span>
+- <span data-ttu-id="1a7bf-128">A capacidade de não membros solicitarem o acesso está habilitada.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-128">The ability for non-members to request access is enabled.</span></span>
 
-<span data-ttu-id="bde0f-129">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="bde0f-129">Here is your resulting configuration.</span></span>
+<span data-ttu-id="1a7bf-129">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-129">Here is your resulting configuration.</span></span>
   
 ![Proteção de nível confidencial para um site de equipe isolado do SharePoint Online.](media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
   
-<span data-ttu-id="bde0f-131">Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.</span><span class="sxs-lookup"><span data-stu-id="bde0f-131">The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.</span></span>
+<span data-ttu-id="1a7bf-131">Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-131">The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.</span></span>
   
-## <a name="highly-confidential-sharepoint-online-team-sites"></a><span data-ttu-id="bde0f-132">Sites de equipe do SharePoint Online altamente confidenciais</span><span class="sxs-lookup"><span data-stu-id="bde0f-132">Highly confidential SharePoint Online team sites</span></span>
+## <a name="highly-confidential-sharepoint-online-team-sites"></a><span data-ttu-id="1a7bf-132">Sites de equipe do SharePoint Online altamente confidenciais</span><span class="sxs-lookup"><span data-stu-id="1a7bf-132">Highly confidential SharePoint Online team sites</span></span>
 
-<span data-ttu-id="bde0f-133">Um site de equipe do SharePoint Online altamente confidencial é um site de equipe privado com configurações de permissões adicionais.</span><span class="sxs-lookup"><span data-stu-id="bde0f-133">A highly confidential SharePoint Online team site is a private team site with additional permissions settings.</span></span>
+<span data-ttu-id="1a7bf-133">Um site de equipe do SharePoint Online altamente confidencial é um site de equipe privado com configurações de permissões adicionais.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-133">A highly confidential SharePoint Online team site is a private team site with additional permissions settings.</span></span>
 
-<span data-ttu-id="bde0f-134">Primeiro, crie o site de equipe do SharePoint Online privado com [estas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="bde0f-134">First, create the private SharePoint Online team site with [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
+<span data-ttu-id="1a7bf-134">Primeiro, crie o site de equipe do SharePoint Online privado com [estas instruções](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span><span class="sxs-lookup"><span data-stu-id="1a7bf-134">First, create the private SharePoint Online team site with [these instructions](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).</span></span>
 
-<span data-ttu-id="bde0f-135">Em seguida, no novo site de equipe do SharePoint Online, configure as permissões adicionais com estas etapas.</span><span class="sxs-lookup"><span data-stu-id="bde0f-135">Next, from the new SharePoint Online team site, configure additional permission settings with these steps.</span></span>
+<span data-ttu-id="1a7bf-135">Em seguida, no novo site de equipe do SharePoint Online, configure as permissões adicionais com estas etapas.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-135">Next, from the new SharePoint Online team site, configure additional permission settings with these steps.</span></span>
 
-1.  <span data-ttu-id="bde0f-136">Na barra de ferramentas do site de equipe do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-136">In the tool bar of the SharePoint team site, click the settings icon, and then click **Site permissions**.</span></span>
-2.  <span data-ttu-id="bde0f-137">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-137">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
-3.  <span data-ttu-id="bde0f-138">Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-138">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
-4. <span data-ttu-id="bde0f-139">Desative **Permitir solicitações de acesso** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="bde0f-139">Turn off **Allow access requests**, and then click **Save**.</span></span>
+1.  <span data-ttu-id="1a7bf-136">Na barra de ferramentas do site de equipe do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-136">In the tool bar of the SharePoint team site, click the settings icon, and then click **Site permissions**.</span></span>
+2.  <span data-ttu-id="1a7bf-137">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-137">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+3.  <span data-ttu-id="1a7bf-138">Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-138">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
+4. <span data-ttu-id="1a7bf-139">Desative **Permitir solicitações de acesso** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-139">Turn off **Allow access requests**, and then click **Save**.</span></span>
 
-<span data-ttu-id="bde0f-140">Os resultados dessas configurações de permissão são:</span><span class="sxs-lookup"><span data-stu-id="bde0f-140">The results of these permission settings are:</span></span>
+<span data-ttu-id="1a7bf-140">Os resultados dessas configurações de permissão são:</span><span class="sxs-lookup"><span data-stu-id="1a7bf-140">The results of these permission settings are:</span></span>
 
-- <span data-ttu-id="bde0f-141">A capacidade dos membros de compartilhar com outros membros está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="bde0f-141">The ability for members to share with other members is disabled.</span></span>
-- <span data-ttu-id="bde0f-142">A capacidade de não membros solicitarem o acesso está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="bde0f-142">The ability for non-members to request access is disabled.</span></span>
+- <span data-ttu-id="1a7bf-141">A capacidade dos membros de compartilhar com outros membros está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-141">The ability for members to share with other members is disabled.</span></span>
+- <span data-ttu-id="1a7bf-142">A capacidade de não membros solicitarem o acesso está desabilitada.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-142">The ability for non-members to request access is disabled.</span></span>
 
-<span data-ttu-id="bde0f-143">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="bde0f-143">Here is your resulting configuration.</span></span>
+<span data-ttu-id="1a7bf-143">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-143">Here is your resulting configuration.</span></span>
   
 ![Proteção com alto nível de confidencialidade para um site de equipe isolado do SharePoint Online.](media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
   
-<span data-ttu-id="bde0f-145">Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.</span><span class="sxs-lookup"><span data-stu-id="bde0f-145">The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.</span></span>
+<span data-ttu-id="1a7bf-145">Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.</span><span class="sxs-lookup"><span data-stu-id="1a7bf-145">The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.</span></span>
   
-## <a name="next-step"></a><span data-ttu-id="bde0f-146">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="bde0f-146">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="1a7bf-146">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="1a7bf-146">Next step</span></span>
 
-[<span data-ttu-id="bde0f-147">Proteger arquivos do SharePoint Online com DLP e rótulos do Office 365</span><span class="sxs-lookup"><span data-stu-id="bde0f-147">Protect SharePoint Online files with Office 365 labels and DLP</span></span>](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
+[<span data-ttu-id="1a7bf-147">Proteger arquivos do SharePoint Online com DLP e rótulos do Office 365</span><span class="sxs-lookup"><span data-stu-id="1a7bf-147">Protect SharePoint Online files with Office 365 labels and DLP</span></span>](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 
-## <a name="see-also"></a><span data-ttu-id="bde0f-148">Confira também</span><span class="sxs-lookup"><span data-stu-id="bde0f-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a7bf-148">Confira também</span><span class="sxs-lookup"><span data-stu-id="1a7bf-148">See also</span></span>
 
-[<span data-ttu-id="bde0f-149">Proteger arquivos e sites do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="bde0f-149">Secure SharePoint Online sites and files</span></span>](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
+[<span data-ttu-id="1a7bf-149">Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile</span><span class="sxs-lookup"><span data-stu-id="1a7bf-149">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
-[<span data-ttu-id="bde0f-150">Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile</span><span class="sxs-lookup"><span data-stu-id="bde0f-150">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
-  
-[<span data-ttu-id="bde0f-151">Adoção da nuvem e de soluções híbridas</span><span class="sxs-lookup"><span data-stu-id="bde0f-151">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[<span data-ttu-id="1a7bf-150">Adoção da nuvem e de soluções híbridas</span><span class="sxs-lookup"><span data-stu-id="1a7bf-150">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
