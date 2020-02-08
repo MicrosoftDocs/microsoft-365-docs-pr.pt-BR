@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8d4fc749faa340ceaca76983df03ccbc48c3126a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4aae95778a829203dc8d34fe1882528cf866b913
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601898"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851798"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -97,6 +97,10 @@ Os serviços de escopo de certificação do NIST CSF são arquivamento do Exchan
 
 A Microsoft fornece as ofertas mais abrangentes em comparação a outros provedores de serviços de nuvem. Para acompanhar nossas amplas ofertas de conformidade em regiões e indústrias, incluímos serviços no escopo de nossos esforços de garantia com base na demanda do mercado, comentários do cliente e ciclo de vida do produto. Se um serviço não estiver incluído no escopo atual de uma oferta de conformidade específica, sua organização tem a responsabilidade de avaliar os riscos com base em suas obrigações de conformidade e determinar a maneira como você processa os dados nesse serviço. Coletamos continuamente comentários de clientes e trabalhamos com reguladores e auditores para expandir nossa cobertura de conformidade para atender às suas necessidades de segurança e conformidade.
 
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+
+A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o modelo de CSF do [NIST](https://go.microsoft.com/fwlink/?linkid=2117917) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+
 ## <a name="resources"></a>Recursos
 
 - [Autorizações dos serviços em nuvem da Microsoft](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
@@ -105,7 +109,7 @@ A Microsoft fornece as ofertas mais abrangentes em comparação a outros provedo
 - [Ordem executiva presidencial para reforçar o cybersecurity de redes federais e infra-estrutura crítica](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

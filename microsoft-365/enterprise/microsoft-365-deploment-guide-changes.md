@@ -1,6 +1,8 @@
 ---
 title: Alterações no conteúdo de implantação do Microsoft 365 para empresas
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 12/18/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Veja o novo conteúdo e as alterações no conteúdo no Guia de Implantação do Microsoft 365.
-ms.openlocfilehash: 680b42c255053338d401e53b75ab7471a064c44d
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 73ce204352af92e1380b57b9a58e04323fb7a987
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111965"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855456"
 ---
 # <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>Alterações no conteúdo de implantação do Microsoft 365 para empresas
 
@@ -30,7 +32,6 @@ ms.locfileid: "41111965"
 
 ### <a name="updates-and-enhancements"></a>Atualizações e aprimoramentos
 
-- [Proteger sites e arquivos do SharePoint Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files) para usar os rótulos de confidencialidade
 -  Atualização do conjunto de [Guias de Laboratório de Teste](m365-enterprise-test-lab-guides.md) 
 
 ## <a name="november-2019"></a>Novembro de 2019

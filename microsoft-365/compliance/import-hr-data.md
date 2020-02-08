@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: a907594120ebb2a6ed49c2dde3a83262f6cf1a62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b70ea48a7784c6cfc9bff4131fdecab339d4d417
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600688"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862031"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -211,6 +211,6 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
    ![A nova tarefa é exibida na biblioteca do Agendador de tarefas](media/HRConnectorTaskSchedulerLibrary.png)
 
-   A última vez e a próxima vez que o script executado é agendada para ser executada é exibida. Você pode clicar duas vezes na tarefa para editá-la.
+   A última vez em que o script foi executado e a próxima vez em que ele está agendado para ser executado é exibida. Você pode clicar duas vezes na tarefa para editá-la.
 
    Você também pode verificar a última vez que o script foi executado na página de submenu do respectivo conector de RH no centro de conformidade.

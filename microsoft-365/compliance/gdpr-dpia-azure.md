@@ -5,6 +5,8 @@ keywords: AIPD, Microsoft 365, Microsoft 365 Education, documentação do Micros
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 039115af5bfb1ec114ab4409a6f6c5d49f2e00a9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 82c25e6212e87e0b4915591f26a976475689273b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807210"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594381"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-azure"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Azure
 
