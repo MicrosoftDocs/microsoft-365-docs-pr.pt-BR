@@ -1,5 +1,7 @@
 ---
 title: Aplicar proteção a dados pessoais no Office 365
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -17,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como usar políticas de prevenção de perda de dados (DLP) para proteger dados pessoais no Office 365.
-ms.openlocfilehash: e3f7bdc589b34da0aad8baabd5b54bcfd59f25b9
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: b529a6d58537c4effca3cf198dcf807a0680129d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256778"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596058"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Aplicar proteção a dados pessoais no Office 365
 
@@ -249,9 +251,9 @@ A ilustração apresenta os níveis de permissão, desde Controle total a Soment
 
 Mais informações:
 
--   [Compreender os níveis de permissão no SharePoint](https://support.office.com/pt-BR/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [Compreender os níveis de permissão no SharePoint](https://support.office.com/en-US/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
 
--   [Compreender os grupos do SharePoint](https://support.office.com/pt-BR/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [Compreender os grupos do SharePoint](https://support.office.com/en-US/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>Políticas de compartilhamento externo para bibliotecas do SharePoint e OneDrive for Business
 
@@ -303,7 +305,7 @@ Mais informações:
 
 -   [Gerenciar compartilhamento externo para o ambiente do SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
--   [Compartilhar sites ou documentos com pessoas de fora da organização](https://support.office.com/pt-BR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [Compartilhar sites ou documentos com pessoas de fora da organização](https://support.office.com/en-US/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
 ### <a name="site-level-device-access-policies"></a>Políticas de acesso de dispositivo no nível do site
 

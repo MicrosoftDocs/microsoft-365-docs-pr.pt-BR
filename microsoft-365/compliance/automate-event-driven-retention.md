@@ -1,5 +1,7 @@
 ---
 title: Automatizar retenção orientada a eventos
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este tópico explica como configurar os fluxos dos processos empresariais para automatizar a retenção por meio de eventos usando a API REST do Microsoft 365.
-ms.openlocfilehash: b2aadaf4e450167cf7bff864569652c05deb7298
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 46276e1a40df8c5491d569337a683666984be23a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807430"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596318"
 ---
 # <a name="automate-event-based-retention"></a>Automatizar retenção baseada em eventos
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2b7ad248299c12edfeed880ac731f2d23e9b1949
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 71be1e70a04881b937ee1f75d5fda6f03efdbd5f
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602358"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851858"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>Programa de gerenciamento de riscos e autorização federal (FedRAMP)
 
@@ -67,12 +67,12 @@ Depois que um P-ATO é concedido, um CSP ainda exige uma autorização, um ATO d
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
-- [Azure e Azure Governamental](https://go.microsoft.com/fwlink/p/?linkid=2095323)
+- [Azure e Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365 e Office 365 U.S. Government](https://aka.ms/o365-compliance-framework)
 - Office 365 U.S. Government Defense
-- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - Microsoft Defender ATP
 
 > [!NOTE]
@@ -99,7 +99,7 @@ O FISMA é uma legislação federal que exige que agências federais de US e seu
 
 **Para quem o FedRAMP se aplica?**
 
-"O FedRAMP é obrigatório para implantações de nuvem de agência federal e modelos de serviço nos níveis de impacto de risco baixo e moderado." Qualquer agência federal que queira contratar um CSP pode ser necessária para atender às especificações do FedRAMP. Além disso, as empresas que usam tecnologias de nuvem em produtos ou serviços usados pelo governo federal podem ser obrigadas a obter um ATO.
+' FedRAMP é obrigatório para implantações de nuvem e modelos de serviço de agência federal nos níveis de impacto de risco baixo e moderado. Qualquer agência federal que queira contratar um CSP pode ser necessária para atender às especificações do FedRAMP. Além disso, as empresas que usam tecnologias de nuvem em produtos ou serviços usados pelo governo federal podem ser obrigadas a obter um ATO.
 
 **Onde minha agência começa seu próprio esforço de conformidade?**
 
@@ -109,13 +109,17 @@ Para obter uma visão geral das etapas federais que as agências devem executar 
 
 Sim. Você pode usar as certificações dos serviços de nuvem da Microsoft como base para qualquer programa ou iniciativa que exija uma ATO de uma agência governamental federal. No entanto, você precisa obter suas próprias autorizações para componentes fora desses serviços.
 
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+
+A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo FedRAMP](https://go.microsoft.com/fwlink/?linkid=2118102) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+
 ## <a name="resources"></a>Recursos
 
 - [Programa de gerenciamento de riscos e autorização federal](https://www.fedramp.gov/)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Estrutura de avaliação de segurança do FedRAMP](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -1,7 +1,9 @@
 ---
-title: Gerenciamento de registros no Office 365
-ms.author: laurawi
-author: laurawi
+title: Gerenciamento de registros
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar a agenda de retenção específica da sua organização em um plano de arquivo para gerenciar a retenção, a declaração de registros e o descarte no suporte de todo o ciclo de vida do conteúdo.
-ms.openlocfilehash: 3057b5ab061bc5107acbde3c67ecde8a9edaffd7
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: dcc3e5666bcd438a046d535cf9fce88910b85ad7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "39233201"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597648"
 ---
 # <a name="records-management-in-microsoft-365"></a>Gerenciamento de registros no Office 365
 

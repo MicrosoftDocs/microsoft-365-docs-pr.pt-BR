@@ -1,5 +1,7 @@
 ---
 title: Usando o explorador de atividade de classificação de dados
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de atividade dá o toque final na funcionalidade do recurso de classificação de dados, permitindo que você veja e filtre as ações que os usuários estão executando no conteúdo rotulado.
-ms.openlocfilehash: ab80de0e1be3a164da8414ef3791fb9717bcc190
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 8af23cac590eb226890979719f938b8e79099bb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233692"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595468"
 ---
 # <a name="view-activity-on-your-labeled-content-preview"></a>Exibir atividade do seu conteúdo rotulado (visualização)
 
@@ -47,7 +49,6 @@ Toda conta que acessa e usa o explorador de atividades deve ter uma licença atr
 - Office 365 (E5)
 - Complemento de Conformidade Avançada (E5)
 - Complemento Avançado de Inteligência contra Ameaças (E5)
-- Complemento Proteção Avançada Contra Ameaças (E5)
 
 ## <a name="activity-type"></a>Tipo de atividade
 

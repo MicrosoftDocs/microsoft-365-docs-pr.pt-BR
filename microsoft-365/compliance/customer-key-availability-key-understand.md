@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba mais sobre a chave de disponibilidade usada para recuperar as chaves de cliente perdidas do Office 365.
-ms.openlocfilehash: a4d0bdecfeddb83ffbe47f397f2bda646138b081
-ms.sourcegitcommit: b22d6dea2768679428d512ea2bbbdf8748f71712
+ms.openlocfilehash: 72fbfd139b273d38a0cb017d7bbca3d87c16efb2
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845360"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862081"
 ---
 # <a name="learn-about-the-availability-key-for-office-365-customer-key"></a>Saiba mais sobre a chave de disponibilidade da chave de cliente do Office 365
 
@@ -94,7 +94,7 @@ Essa operação é proporcional ao número de sites em sua organização. Após 
 
 ## <a name="how-exchange-online-and-skype-for-business-use-the-availability-key"></a>Como o Exchange Online e o Skype for Business usam a chave de disponibilidade
 
-Quando você cria uma DEP com chave de cliente, o Office 365 gera uma chave de política de criptografia de dados (chave DEP) associada a essa DEP. O serviço criptografa a chave DEP três vezes: uma vez por cada chave do cliente e uma vez com a chave de disponibilidade. Somente as versões criptografadas da chave DEP são armazenadas, e uma chave DEP só pode ser descriptografada com as chaves do cliente ou a chave de disponibilidade. A chave DEP é usada para criptografar chaves de caixa de correio, que são usadas para criptografar caixas de correio individuais.
+Quando você cria uma DEP com chave de cliente, o Office 365 gera uma chave de política de criptografia de dados (chave DEP) associada a essa DEP. O serviço criptografa a chave DEP três vezes: uma vez por cada chave do cliente e uma vez com a chave de disponibilidade. Somente as versões criptografadas da chave DEP são armazenadas, e uma chave DEP só pode ser descriptografada com as chaves do cliente ou a chave de disponibilidade. A chave DEP é usada para criptografar chaves de caixa de correio, que criptografam caixas de correio individuais.
   
 O Office 365 segue esse processo para descriptografar e fornecer dados quando os clientes estão usando o serviço:
   
@@ -171,7 +171,7 @@ Sistemas automatizados no Office 365 processam todos os dados à medida que ele 
 
 ### <a name="exchange-online-and-skype-for-business-availability-key-logging"></a>Log de chave de disponibilidade do Exchange Online e do Skype for Business
 
-O Exchange Online e o Skype for Business usam automaticamente a chave de disponibilidade durante erros transitórios. Quando esse fallback ocorrer, o Office 365 publica os logs visíveis ao cliente que podem ser acessados no centro de segurança e conformidade. Um registro de log de auditoria para a operação de chave de disponibilidade é gerado sempre que esses serviços alternam para usar a chave de disponibilidade. Um novo tipo de registro chamado "criptografia de serviço de chave do cliente" com o tipo de atividade "fallback para chave de disponibilidade" permite que os administradores filtrem os resultados da pesquisa de [log de auditoria unificada](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para exibir registros chave de disponibilidade O registro de chave de disponibilidade é gerado somente quando a chave do cliente é usada para acessar os dados e não para chaves gerenciadas pelo serviço Microsoft.
+O Exchange Online e o Skype for Business usam automaticamente a chave de disponibilidade durante erros transitórios. Quando esse fallback ocorrer, o Office 365 publica os logs visíveis ao cliente que podem ser acessados no centro de segurança e conformidade. Um registro de log de auditoria para a operação de chave de disponibilidade é gerado sempre que esses serviços usam a chave de disponibilidade. Um novo tipo de registro chamado "criptografia de serviço de chave do cliente" com o tipo de atividade "fallback para chave de disponibilidade" permite que os administradores filtrem os resultados da pesquisa de [log de auditoria unificada](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para exibir registros chave de disponibilidade O registro de chave de disponibilidade é gerado somente quando a chave do cliente é usada para acessar os dados e não para chaves gerenciadas pelo serviço Microsoft.
 
 Registros de log incluem atributos como data, hora, atividade, ID da organização e ID da política de criptografia de dados. O registro está disponível como parte dos logs de auditoria unificada do Office 365 e é acessível na guia pesquisa de log de auditoria do centro de conformidade e segurança do Office 365.
 

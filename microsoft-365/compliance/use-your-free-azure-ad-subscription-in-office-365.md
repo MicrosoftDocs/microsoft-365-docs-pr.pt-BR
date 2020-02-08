@@ -1,5 +1,7 @@
 ---
 title: Usar sua assinatura gratuita do Azure Active Directory no Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga de sua organização para o Office 365.
-ms.openlocfilehash: bf958eebfbcc67d4b344452636b1a84396296f3a
-ms.sourcegitcommit: ab986f0d8cf074fae41e77bfdc2895c64fed9091
+ms.openlocfilehash: c8c8ec63a59e5f2e689046a2e2cd7079d529fa19
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "39218816"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601278"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Usar sua assinatura gratuita do Azure Active Directory no Office 365
 

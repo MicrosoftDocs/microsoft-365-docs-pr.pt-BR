@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 070ec3977768d131e4e4d9c2f493e630a1a707c9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a08932d4f16a17b35fef11cdcd8243c96060a4b5
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601888"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851778"
 ---
 # <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
@@ -40,7 +40,7 @@ Organizações de avaliação de terceiros credenciadas, Kratos SecureInfo e Coa
 
 Os requisitos do NIST SP 800 – 171 são um subconjunto do NIST SP 800-53, o padrão que o FedRAMP usa. Apêndice D do NIST SP 800 – 171 fornece um mapeamento direto de seus requisitos de segurança da CUI para os controles de segurança relevantes no NIST SP 800-53, para os quais os serviços de nuvem dentro do escopo já foram avaliados e autorizados no programa FedRAMP.
 
-Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações de defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas DFARS do departamento de defesa dos EUA que exigem conformidade com a segurança requisitos do NIST SP 800 – 171.
+Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações sobre defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas DFARS do departamento de defesa dos EUA que exigem conformidade com a segurança requisitos do NIST SP 800 – 171.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
@@ -63,6 +63,10 @@ Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituiç
 
 Sim. Os clientes da Microsoft podem usar os controles auditados descritos nos relatórios de organizações de avaliação de terceiros independentes (3PAO) em padrões do FedRAMP como parte de suas próprias análises de risco do FedRAMP e do NIST e seus esforços de qualificação. Esses relatórios atestam a eficácia dos controles que a Microsoft implementou em seus serviços em nuvem no escopo. Os clientes são responsáveis por garantir que as cargas de trabalho da CUI estejam em conformidade com as diretrizes do NIST SP 800 – 171.
 
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+
+A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo NIST pré-configurado 800-171](https://go.microsoft.com/fwlink/?linkid=2117526) para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+
 ## <a name="resources"></a>Recursos
 
 - [A certificação DoD da Microsoft atende aos requisitos do NIST 800 – 171](offering-DoD-DISA-L2-L4-L5.md)
@@ -71,7 +75,7 @@ Sim. Os clientes da Microsoft podem usar os controles auditados descritos nos re
 - [NIST 800-171 3,3 auditoria e responsabilidade com o Office 365 GCC High](https://info.summit7systems.com/blog/nist-3.3-audit-and-accountability-with-office-365)
 - [A estrutura do cybersecurity da Microsoft e do NIST](offering-nist-csf.md)
 - [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -1,5 +1,7 @@
 ---
 title: 'Criar tipos personalizados de informações confidenciais com Exact Data Match '
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match.
-ms.openlocfilehash: 90fde2475529200ab53411b5cb0c6d3c64de2fee
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 03af99b6e3a156b3d0e14bcadb75911253c837e3
+ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836721"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -72,10 +74,12 @@ Definição e configuração da classificação baseada em EDM envolve o salvame
 
 2. Estruture os dados confidenciais no arquivo .csv, de modo que a primeira linha inclui os nomes dos campos usados na classificação baseada em EDM. Você pode ter nomes de campo no arquivo .csv, como "CPF", "data de nascimento", "nome", "sobrenome" e assim por diante. Por exemplo, o arquivo .csv é chamado  *PatientRecords.csv*, e suas colunas incluem  *PatientID*, *Número de prontuário médico*, *Sobrenome*, *Nome*, *CPF*  e mais.
 
-3. Defina o esquema para o banco de dados de informações confidenciais no formato .xml (semelhante ao nosso exemplo a seguir). Nomeie esse esquema do arquivo edm.xml e configure-o para que cada coluna no banco de dados tenha uma linha que use a sintaxe \<Field name="" searchable=""/\>.
+3. Defina o esquema para o banco de dados de informações confidenciais no formato .xml (semelhante ao nosso exemplo a seguir). Nomeie esse esquema do arquivo **edm.xml** e configure-o para cada coluna no banco de dados, há uma linha que usa a sintaxe: 
 
-      - Use nomes de coluna para valores de *Nome do campo* .
-      - Use  *searchable="true"*  para até 5 campos pesquisáveis. Você deve designar pelo menos um campo como pesquisável.
+`\<Field name="" searchable=""/\>`.
+
+- Use nomes de coluna para valores de *Nome do campo* .
+- Use  *searchable="true"*  para até 5 campos pesquisáveis. Você deve designar pelo menos um campo como pesquisável.
 
 Por exemplo, o arquivo .xml a seguir define o esquema para um banco de dados de registros de paciente, com cinco campos especificados como pesquisáveis:  *PatientID*, *Número de prontuário médico*, *CPF*, *Telefone*e  *Data de nascimento*.
 
@@ -126,9 +130,9 @@ Agora que o esquema para o seu banco de dados de informações confidenciais est
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>Editando o esquema para classificação baseada em EDM
 
-Se você quiser fazer alterações em seu arquivo edm.xml, como alterar quais os campos usados para a classificação baseada em EDM, siga estas etapas:
+Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quais os campos usados para a classificação baseada em EDM, siga estas etapas:
 
-1. Edite o seu arquivo edm.xml (este é o arquivo discutido na seção [Definir o esquema](#define-the-schema-for-your-database-of-sensitive-information) deste artigo).
+1. Edite o seu arquivo **edm.xml** (este é o arquivo discutido na seção [Definir o esquema](#define-the-schema-for-your-database-of-sensitive-information)  deste artigo).
 
 2. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
@@ -184,7 +188,7 @@ Você será solicitado a confirmar da seguinte maneira:
 
 1. Crie um pacote de regras no formato .xml (com codificação Unicode), semelhante ao exemplo a seguir. (Você pode copiar, modificar e usar nosso exemplo.)
 
-Ao configurar o seu pacote de regras, certifique-se de referenciar corretamente o arquivo .csv e o arquivo edm.xml. Você pode copiar, modificar e usar nosso exemplo. Neste exemplo de xml, os seguintes campos precisam ser personalizados para criar seu tipo confidencial do EDM:
+Ao configurar o seu pacote de regras, certifique-se de referenciar corretamente o arquivo .csv e o arquivo **edm.xml**. Você pode copiar, modificar e usar nosso exemplo. Neste exemplo de xml, os seguintes campos precisam ser personalizados para criar seu tipo confidencial do EDM:
 
 - **RulePack id e ExactMatch id**: use [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) para gerar um GUID.
 
@@ -249,7 +253,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 Nesse ponto, você configurou a classificação baseada em EDM. A próxima etapa é indexar os dados confidenciais e carregá-los.
 
-Lembre-se do procedimento anterior onde o nosso esquema PatientRecords define cinco campos como pesquisáveis:  *PatientID*, *Número de prontuário médico*, *CPF*, *Telefone* e  *Data de nascimento*. O nosso pacto de regras de exemplo inclui esses campos e faz referência ao arquivo de esquema do banco de dados (edm.xml), com um item *ExactMatch*  por campo pesquisável. Considere o seguinte item ExactMatch:
+Lembre-se do procedimento anterior onde o nosso esquema PatientRecords define cinco campos como pesquisáveis:  *PatientID*, *Número de prontuário médico*, *CPF*, *Telefone* e  *Data de nascimento*. O nosso pacote de regras de exemplo inclui esses campos e faz referência ao arquivo de esquema do banco de dados (**edm.xml**), com um item  *ExactMatch*  por campo pesquisável. Considere o seguinte item ExactMatch:
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -287,18 +291,18 @@ Durante essa fase, você configura um grupo de segurança personalizado e uma co
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Configuração do grupo de segurança e conta de usuário
 
-1. Como um administrador global, acesse o centro de administração ([https://admin.microsoft.com](https://admin.microsoft.com/)) e [crie um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado EDM\_DataUploaders.
+1. Como um administrador global, acesse o centro de administração ([https://admin.microsoft.com](https://admin.microsoft.com/)) e [crie um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado  **EDM\_DataUploaders**.
 
-2. Adicione um ou mais usuários ao grupo de segurança *EDM\_DataUploaders* . (Esses usuários vão gerenciar o banco de dados de informações confidenciais.)
+2. Adicione um ou mais usuários ao grupo de segurança **EDM\_DataUploaders** . (Esses usuários vão gerenciar o banco de dados de informações confidenciais.)
 
 3. Certifique-se de que todos os usuários que estão gerenciando os dados confidenciais sejam um administrador local no computador usado para o agente de carregamento do EDM.
 
 #### <a name="set-up-the-edm-upload-agent"></a>Configurar o agente de carregamento do EDM
 
 >[!NOTE]
-> Antes de iniciar esse procedimento, certifique-se de que você é um membro do grupo de segurança *EDM\_DataUploaders*  e um administrador local no computador.
+> Antes de iniciar esse procedimento, certifique-se de que você é um membro do grupo de segurança **EDM\_DataUploaders**  e um administrador local no computador.
 
-1. Baixe e instale o [Agente de Carregamento do EDM](https://go.microsoft.com/fwlink/?linkid=2088639). Por padrão, o local de instalação deve ser C:\\Arquivos de Programa \\Microsoft\\EdmUploadAgent.
+1. Baixe e instale o [Agente de Carregamento do EDM](https://go.microsoft.com/fwlink/?linkid=2088639). Por padrão, o local de instalação deve ser  **C:\\Arquivos de Programa \\Microsoft\\EdmUploadAgent**.
 
 > [!TIP]
 > Para obter uma lista com os parâmetros de comando com suporte, execute o agente sem argumentos. Por exemplo, ‘EdmUploadAgent.exe’.
@@ -313,7 +317,7 @@ A próxima etapa é usar o agente de carregamento do EDM para indexar os dados c
 
 #### <a name="index-and-upload-the-sensitive-data"></a>Indexação e carregamento de dados confidenciais
 
-Salve o arquivo de dados confidenciais (lembre-se de que o nosso exemplo é *PatientRecords.csv*) para a unidade local no computador. (Salvamos nosso arquivo de exemplo *PatientRecords.csv*  em C:\\Edm\\Data.)
+Salve o arquivo de dados confidenciais (lembre-se de que o nosso exemplo é **PatientRecords.csv**) para a unidade local no computador. (Salvamos nosso arquivo de exemplo **PatientRecords.csv**  em  **C:\\Edm\\Data**.)
 
 Para indexar e carregar os dados confidenciais, execute o seguinte comando no prompt de comando do Windows:
 
@@ -327,13 +331,17 @@ Para indexar os dados confidenciais, execute o seguinte comando no prompt de com
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-Exemplo: **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
+por exemplo,
 
-Para indexar os dados indexados, execute o seguinte comando no prompt de comando do Windows:
+> **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
+
+Para carregar os dados indexados, execute o seguinte comando no prompt de comando do Windows:
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-Exemplo: **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
+por exemplo, 
+
+> **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
 
 Para verificar os dados confidenciais indexados, execute o seguinte comando no prompt de comando do Windows:
 

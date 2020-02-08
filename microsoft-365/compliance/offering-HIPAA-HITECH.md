@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec30692d5721c316c205cf8b561e59cd6e65e0b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d6f6dc2cc8cb9a36816fa843fcea969d65c94dac
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602308"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851888"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -70,7 +70,7 @@ Saiba mais sobre os benefícios da HIPAA e da alta tecnologia na nuvem da Micros
 
 Comece a aproveitar as vantagens dos benefícios da nuvem para as soluções de dados de integridade com o esquema de conformidade e segurança do Azure, os dados de saúde da HIPAA/HITRUST e o AI. Este Blueprint fornece ferramentas e orientações para começar a criar soluções do HIPAA/HITRUST hoje.
 
-[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://aka.ms/healthblueprint)
+[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -78,7 +78,7 @@ Comece a aproveitar as vantagens dos benefícios da nuvem para as soluções de 
 
 A Microsoft oferece às empresas qualificadas ou seus fornecedores um acordo que cobre os serviços do Microsoft em escopo.
 
-Para os serviços de nuvem da Microsoft: o [contrato de associação de negócios da HIPAA](https://aka.ms/BAA) está disponível por meio dos termos de serviços online por padrão para todos os clientes que estão cobertos por entidades ou empresas que estão em HIPAA. Consulte "serviços de nuvem no escopo da Microsoft" nessa página da Web para obter a lista de serviços de nuvem cobertos por este acordo.
+Para os serviços de nuvem da Microsoft: o [contrato de associação de negócios da HIPAA](https://aka.ms/BAA) está disponível por meio dos termos de serviços online por padrão para todos os clientes que estão cobertos por entidades ou empresas que estão em HIPAA. Consulte ' serviços em nuvem em escopo da Microsoft ' nesta página da Web para obter a lista de serviços de nuvem cobertos por este acordo.
 
 Para os serviços de serviços profissionais da Microsoft: a alteração da Associação de negócios do HIPAA está disponível para os serviços profissionais da Microsoft em uma solicitação para seu representante de serviços da Microsoft.
 
@@ -102,6 +102,10 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 - O [Guia prático para projetar soluções de integridade seguras usando o Microsoft Azure](https://aka.ms/azureindustrysecurity) ajuda a entender melhor o que é necessário para adotar um serviço de nuvem de forma segura.
 - [Atender aos requisitos de segurança e privacidade da HIPAA no Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) oferece uma breve visão geral dos requisitos normativos. Ele também fornece uma análise detalhada de como os serviços de nuvem da Microsoft foram criados com metodologias que mapeiam esses requisitos e orientações sobre como criar soluções prontas para conformidade.
 
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+
+A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o modelo do [Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) ou o [modelo HIPAA](https://go.microsoft.com/fwlink/?linkid=2118006) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+
 ## <a name="resources"></a>Recursos
 
 - [Regra HIPAA Omnibus](https://aka.ms/HIPAA-omnibus) (as regulamentações finais – modificando regras do HIPAA)
@@ -110,7 +114,7 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
 - [Diretrizes de implementação do Azure HIPAA](https://aka.ms/azure-hipaa-guide)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

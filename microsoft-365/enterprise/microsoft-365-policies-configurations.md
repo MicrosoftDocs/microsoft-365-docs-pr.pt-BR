@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: af68a8e81cdaab1bbbd8887a7d586fcaefff1041
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4b76ba16b74eeea26799bb383cd00e497c86d770
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600888"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855380"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
 
@@ -122,7 +122,7 @@ Esta orientação mostra como implementar um conjunto de políticas para protege
 
 - [Configure seu locatário do Office 365 para maior segurança](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): estas recomendações se aplicam à segurança de linha de base para seu locatário do Office 365.
 - [Mapa de segurança do Office 365: principais prioridades para os primeiros 30 dias, 90 dias e mais](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): estas recomendações incluem registro em log, governança de dados, acesso de administrador e proteção contra ameaças.
-- [Proteger sites e arquivos do SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files): este conjunto de artigos descreve como proteger arquivos e sites em níveis apropriados para proteção de linha de base, confidencial e altamente confidencial.
+
 
 ### <a name="windows-10-and-office-365-proplus"></a>Windows 10 e Office 365 ProPlus
 

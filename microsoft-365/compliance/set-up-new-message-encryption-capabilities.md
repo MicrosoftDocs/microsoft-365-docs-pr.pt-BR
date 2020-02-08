@@ -1,5 +1,7 @@
 ---
 title: Configurar novos recursos de Criptografia de Mensagens do Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Novos recursos de criptografia de mensagens do Office 365 criados no topo da proteção de informações do Azure, sua organização pode usar comunicações de email protegidas com pessoas dentro e fora da sua organização. Os novos recursos do OME funcionam com outras organizações do Office 365, Outlook.com, Gmail e outros serviços de email.
-ms.openlocfilehash: c772151250d30e62a3f2689df5cd853536af3ede
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 766e1d2ae054a5a5e91786a360177492ee9ba1b7
+ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "39218730"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680080"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>Configurar novos recursos de Criptografia de Mensagens do Office 365
 
@@ -84,7 +86,7 @@ Você pode verificar se o locatário do Office 365 está configurado corretament
      Seus resultados devem ser semelhantes a:
 
      ```text
-    Results : Acquiring RMS Templates ...
+     Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not
             Forward.
             Verifying encryption ...
@@ -95,7 +97,7 @@ Você pode verificar se o locatário do Office 365 está configurado corretament
                 - PASS: IRM verified successfully.
 
             OVERALL RESULT: PASS
-    ```
+     ```
 
    - O nome da sua organização do Office 365 substituirá *Contoso*.
 

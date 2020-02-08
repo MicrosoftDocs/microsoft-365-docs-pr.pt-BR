@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: e9d922b1ce537c85dbb24d884ca1560ad8e32459
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: ffd5bd81542e2d39a928789c8575178c1b9a7633
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38749633"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594421"
 ---
 # <a name="gdpr-breach-notification"></a>Notificação de falha de RGPD
 

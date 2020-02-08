@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0448082ce6dcbcd9d1cee52557a78b2d7913a034
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b6f467f938ce14aacb9553b11d51dc63431ab409
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588351"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862071"
 ---
 # <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 
@@ -45,7 +45,7 @@ Exportar permite que os usuários personalizem o conteúdo que está incluído n
 
 ### <a name="metadata-file"></a>Arquivo de metadados
 
-Isso pode ser considerado o "carregar arquivo" que contém metadados associados aos arquivos exportados. Para obter uma lista de campos disponíveis no arquivo de metadados, \[consulte\]link. Normalmente, esse arquivo pode ser ingerido<sup>por três ferramentas</sup> de terceiros para downstream.
+Isso pode ser considerado o "carregar arquivo" que contém metadados associados aos arquivos exportados. Para obter uma lista de campos exportados disponíveis no arquivo de metadados, confira [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md). Normalmente, esse arquivo pode ser ingerido por ferramentas de terceiros.
 
 ### <a name="tag-data"></a>Dados de marca
 
@@ -53,11 +53,11 @@ Esse conteúdo seria adicionado como campos no arquivo de metadados. Ele contém
 
 ### <a name="text-files"></a>Arquivos de texto
 
-Arquivos de texto podem ser gerados para cada arquivo exportado de um conjunto de revisão. Muitas vezes, esses arquivos são necessários para parceiros de serviço como parte da inclusão de dados em uma área de 3<sup>RD</sup> ferramentas de terceiros.
+Arquivos de texto podem ser gerados para cada arquivo exportado de um conjunto de revisão. Muitas vezes, esses arquivos são necessários para parceiros de serviço como parte da inclusão de dados em ferramentas de terceiros.
 
 ### <a name="redacted-files"></a>Arquivos reredigidos
 
-Se PDFs redigidos forem gerados durante a revisão, esses arquivos estarão disponíveis durante a exportação. Os usuários podem decidir se serão exportados apenas arquivos nativos ou para substituir os nativos que têm redaçãos com o gravado em PDFs.
+Se arquivos PDF redigidos forem gerados durante a revisão, esses arquivos estarão disponíveis durante a exportação. Você pode decidir se deseja exportar somente arquivos nativos ou substituir os arquivos nativos que requeram a redação com os arquivos PDF que contêm as redaçãos reais.
 
 ### <a name="export-location"></a>Local de exportação
 

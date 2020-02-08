@@ -5,6 +5,8 @@ keywords: Avaliação do impacto sobre a proteção de dados, AIPD, Dynamics 365
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: c6f01e5b82d0021c4698dfa7b4fddc5152c7d737
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: cc633dc261594607a87e7aae7da03e0a427a2492
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749613"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594411"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Avaliação de impacto de proteção de dados do GDPR
 

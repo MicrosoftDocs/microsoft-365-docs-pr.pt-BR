@@ -1,5 +1,7 @@
 ---
 title: Exibir a atividade de rótulos de documentos
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com o Explorador de Atividade de Rótulo no Centro de Conformidade e Segurança do Office 365, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
-ms.openlocfilehash: 9c34cde4d9dde96b8fb1251e9d2be449031cc58a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: eebe1938195740565f064bbac20608255aa5ef73
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802226"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597228"
 ---
 # <a name="view-label-activity-for-documents"></a>Exibir a atividade de rótulos de documentos
 

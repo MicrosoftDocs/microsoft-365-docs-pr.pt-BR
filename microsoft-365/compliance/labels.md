@@ -1,5 +1,7 @@
 ---
 title: Visão geral de rótulos de retenção
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção no Office 365 podem ajudar você a tomar as ações certas sobre o conteúdo correto. Com os rótulos de retenção, você pode classificar dados em toda a sua organização para prover governança e impor regras de retenção baseadas nessa classificação. Também é possível usar rótulos de retenção para implementar o gerenciamento de registros no Office 365.
-ms.openlocfilehash: 9327e23a25143fa032ea9501a9d89ec6f47950bd
-ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
+ms.openlocfilehash: 541c1727bfc1ca2132120aadff6330a1a9ac5c0a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023365"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585760"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -154,7 +156,7 @@ Se os rótulos não estiverem aparecendo no Outlook na Web, e você achar que de
    
 No Exchange, os rótulos de aplicação automática (para consultas e tipos de informações confidenciais) se aplicam somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens atualmente na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais podem ser aplicados somente a todas as caixas de correio; você não pode selecionar as caixas de correio específicas.
   
-As pastas públicas do Exchange e o Skype não suportam rótulos.
+As pastas públicas do Exchange e o Skype não aceitam rótulos.
   
 ## <a name="how-retention-labels-enforce-retention"></a>Como os rótulos de retenção impõem a retenção
 
@@ -164,7 +166,7 @@ Além disso, um rótulo de retenção tem duas opções de retenção, disponív
   
 - Disparar uma revisão de disposição ao final do período de retenção, de modo que os documentos do SharePoint e do OneDrive sejam revisados antes de serem excluídos. Para saber mais, confira [Visão geral das revisões de disposição](disposition-reviews.md).
     
-- Iniciar o período de retenção a partir do momento de aplicação do rótulo no conteúdo, em vez da idade do conteúdo ou da última modificação. Esta opção se aplica apenas ao conteúdo em sites do SharePoint e contas do OneDrive. Para um mail do Exchange, o período de retenção sempre é sempre baseado na data em que a mensagem foi enviada ou recebida, independentemente da opção que você escolher aqui.
+- Iniciar o período de retenção a partir do momento de aplicação do rótulo no conteúdo, em vez da idade do conteúdo ou da última modificação. Esta opção se aplica apenas ao conteúdo em sites do SharePoint e contas do OneDrive. Para um mail do Exchange, o período de retenção sempre é baseado na data em que a mensagem foi enviada ou recebida, independentemente da opção que você escolher aqui.
     
 ![Configurações de retenção com opções específicas aos rótulos](media/c49118c9-6279-4661-94db-deffa76e27ac.png)
   
@@ -270,7 +272,7 @@ Os rótulos de retenção de aplicação automática exigem uma assinatura do Of
 
 ### <a name="auto-apply-retention-labels-to-content-with-specific-types-of-sensitive-information"></a>Aplicar automaticamente rótulos de retenção a conteúdo com tipos específicos de informações confidenciais
 
-Ao criar rótulos de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política que quando cria uma política de prevenção de perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números do ITIN (Número de Identificação de Contribuinte Individual) dos EUA, SSN (CPF) e passaporte. Para saber mais sobre DLP, confira [Visão geral das políticas de prevenção de perda de dados](data-loss-prevention-policies.md).
+Ao criar rótulos de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política que quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números do ITIN (Número de Identificação de Contribuinte Individual) dos EUA, SSN (CPF) e passaporte. Para saber mais sobre DLP, confira [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md).
   
 ![Modelos de política com tipos de informações confidenciais](media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
   

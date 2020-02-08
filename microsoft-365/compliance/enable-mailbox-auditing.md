@@ -1,5 +1,7 @@
 ---
 title: Gerenciar a auditoria de caixa de correio
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: O registro em log de auditoria de caixa de correio é ativado por padrão no Office 365 (também chamado de auditoria de caixa de correio padrão ou de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: 059039205e82ea63b1dc14a8be5e768e9cdba069
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: db36e285878a5afb9c6efcc9b173188452f267fa
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515562"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862061"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
@@ -37,7 +39,7 @@ Estes são alguns benefícios da auditoria de caixa de correio ativada por padr�
 - Você tem uma política de auditoria de caixa de correio consistente em sua organização (pois você está auditando as mesmas ações para todas as caixas de correio).
 
 > [!NOTE]
->• O importante a ser lembrado sobre o lançamento da auditoria de caixa de correio por padrão é: não é necessário fazer nada para gerenciar a auditoria de caixa de correio. No entanto, para saber mais, personalizar a auditoria de caixa de correio nas configurações padrão ou desativá-la completamente, este tópico pode ajudá-lo. <br><br>• Somente eventos de auditoria de caixa de correio para usuários do E5 estão disponíveis em pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365. Para obter mais informações, consulte a seção [mais informações](#more-information) neste tópico.
+>• O importante a ser lembrado sobre o lançamento da auditoria de caixa de correio por padrão é: não é necessário fazer nada para gerenciar a auditoria de caixa de correio. No entanto, para saber mais, personalizar a auditoria de caixa de correio nas configurações padrão ou desativá-la completamente, este tópico pode ajudá-lo. <br><br>• Por padrão, somente eventos de auditoria de caixa de correio para usuários do E5 estão disponíveis em pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365. Para obter mais informações, consulte a seção [mais informações](#more-information) neste tópico.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>Verificar se a auditoria de caixa de correio está ativada por padrão
 
@@ -106,10 +108,12 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 |**ApplyRecord**|Um item é rotulado como um registro.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**Copy**|Uma mensagem foi copiada a outra pasta.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**Create**|Um item foi criado na pasta calendário, contatos, anotações ou tarefas na caixa de correio (por exemplo, uma nova solicitação de reunião é criada). Observe que a criação, o envio ou o recebimento de uma mensagem não é auditado. Criar pastas de caixa de correio também não é uma ação auditada.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Padrão**||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|Uma pasta da caixa de correio foi acessada. Esta ação também é registrada quando o administrador ou representante abrem a caixa de correio.<br/><br/> **Observação**: os registros de auditoria das ações de associação de pasta executadas pelos representantes são consolidados. Um registro de auditoria é gerado para o acesso a pastas individuais no período de 24 horas.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|Uma mensagem foi removida da pasta de Itens Recuperáveis.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**MailItemsAccessed**|Os dados de email são acessados por protocolos e clientes de email. Esse valor só está disponível para usuários de assinatura de complemento de conformidade E5 ou e5. Para obter detalhes, consulte [eventos de auditoria de alto valor](https://docs.microsoft.com/microsoft-365/compliance/advanced-audit#high-value-audit-events)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**MailboxLogin**|O usuário entrou em sua caixa de correio. |||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**MessageBind**|Uma mensagem foi exibida no painel de visualização ou aberta.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|**MessageBind**|Uma mensagem foi exibida no painel de visualização ou foi aberta por um administrador. **Observação**: embora esse valor seja aceito como uma ação de caixa de correio, essas ações não são registradas.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**ModifyFolderPermissions**|**Observação**: embora esse valor seja aceito como uma ação de caixa de correio, ele já está incluído na ação **UpdateFolderPermissions** e não é auditado separadamente. Em outras palavras, não use esse valor.||||
 |**Move**|Uma mensagem foi movida para outra pasta.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**MoveToDeletedItems**|Uma mensagem foi excluída e movida para a pasta Itens Excluídos.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
@@ -120,6 +124,7 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 |**SoftDelete**|Uma mensagem foi excluída permanentemente da pasta Itens Excluídos. Os itens excluídos temporariamente são movidos para a pasta Itens Recuperáveis.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**Update**|Uma mensagem ou suas propriedades foram alteradas.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateCalendarDelegation**|Uma delegação de calendário foi atribuída a uma caixa de correio. A delegação de calendário concede a outra pessoa na mesma organização permissões para gerenciar o calendário do proprietário da caixa de correio.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**UpdateComplianceTag**|Um rótulo de retenção diferente é aplicado a um item de email (um item pode ter apenas um rótulo de retenção atribuído a ele).|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**UpdateFolderPermissions**|Uma permissão da pasta foi alterada. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateInboxRules**|Uma regra de caixa de entrada foi adicionada, removida ou alterada. As regras de caixa de entrada são usadas para processar mensagens na caixa de entrada do usuário com base nas condições especificadas e realizar ações quando as condições de uma regra são atendidas, como mover uma mensagem para uma pasta especificada ou excluir uma mensagem.|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 
@@ -183,7 +188,7 @@ Para obter mais informações, consulte a seção [alterar ou restaurar ações 
 Para ver as ações de caixa de correio que estão sendo registradas no momento em caixas de correio de \<usuários\> ou caixas de correio compartilhadas, substitua mailboxidentity pela pelo nome, alias, endereço de email ou nome UPN da caixa de correio e execute um ou mais dos seguintes comandos no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Embora seja possível adicionar a `-GroupMailbox` opção aos seguintes comandos **Get-Mailbox** para caixas de correio de grupo do Office 365, não acredite nos valores que você vê. As ações de caixa de correio padrão e estática que são auditadas para caixas de correio de grupo do Office 365 são descritas na seção [ações de caixa de correio para caixas de correio de grupo do office 365](#mailbox-actions-for-office-365-group-mailboxes) anteriormente neste tópico.
+> Embora seja possível adicionar a `-GroupMailbox` opção aos seguintes comandos **Get-Mailbox** para caixas de correio de grupo do Office 365, não acredite nos valores retornados. As ações de caixa de correio padrão e estática que são auditadas para caixas de correio de grupo do Office 365 são descritas na seção [ações de caixa de correio para caixas de correio de grupo do office 365](#mailbox-actions-for-office-365-group-mailboxes) anteriormente neste tópico.
 
 #### <a name="owner-actions"></a>Ações do proprietário
 
@@ -334,9 +339,11 @@ O valor **true** indica que o log de auditoria de caixa de correio é ignorado p
 
 ## <a name="more-information"></a>Mais informações
 
-- Embora o registro em log de auditoria de caixa de correio ativado por padrão esteja habilitado para todas as organizações, somente os usuários com licenças E5 retornarão eventos de log de auditoria de caixa de correio nas [pesquisas de log de auditoria no centro de conformidade & segurança](search-the-audit-log-in-security-and-compliance.md) ou por meio da [API de atividade de gerenciamento 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)do
+- Embora o registro em log de auditoria de caixa de correio ativado por padrão esteja habilitado para todas as organizações, somente os usuários com licenças E5 retornarão eventos de log de auditoria de caixa de correio nas [pesquisas de log de auditoria no centro de conformidade & segurança](search-the-audit-log-in-security-and-compliance.md) ou por meio da [API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) **por**
 
   Para recuperar entradas de log de auditoria de caixa de correio para usuários sem licenças e5, você pode:
+
+  - Use pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365 **depois** de habilitar manualmente a auditoria de caixa de correio nas caixas de correio individuais.
 
   - Use os seguintes cmdlets no PowerShell do Exchange Online:
 

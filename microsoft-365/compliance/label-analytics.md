@@ -1,5 +1,7 @@
 ---
 title: Exibição do uso do rótulo com análises de rótulo
+f1.keywords:
+- CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Depois de criar seus rótulos de retenção e rótulos de sensibilidade, você desejará ver como eles estão sendo usados em seu locatário. Com a análise do rótulo no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365, você pode exibir rapidamente os rótulos mais usados e onde foram aplicados.
-ms.openlocfilehash: 45cebbe67a773b76289920554d4e39fcbce789cc
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: e67ab03f3fd551b5b23e5632a42248e7248c9c93
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38709980"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600578"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Exibição do uso do rótulo com análises de rótulo
 

@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 24217ed5782d14cc67277bc980e4a94b7bc904f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c761a62e901be065a588f1e4141b731831c4752
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601978"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851838"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de privacidade e proteção de dados da Califórnia)
 
 ## <a name="ccpa-overview"></a>Visão geral do CCPA
 
-O CCPA (The California Consumer Privacy Act) é a primeira lei abrangente de privacidade nos Estados Unidos. Ele fornece uma variedade de direitos de privacidade para consumidores da Califórnia.  As empresas regulamentadas pelo CCPA terão várias obrigações para esses consumidores, incluindo comunicados, regulamentação geral de proteção de dados (RGPD), como os direitos de assunto de dados do cliente (DSRs), uma "recusa" para determinadas transferências de dados e uma "aceitação" requisito para menores.
+O CCPA (The California Consumer Privacy Act) é a primeira lei abrangente de privacidade nos Estados Unidos. Ele fornece uma variedade de direitos de privacidade para consumidores da Califórnia.  As empresas regulamentadas pelo CCPA terão várias obrigações para esses consumidores, incluindo comunicados, regulamentação geral de proteção de dados (RGPD), como direitos de assunto de dados do cliente (DSRs), uma ' recusa ' para determinadas transferências de dados e um ' consentimento ' requisito para menores.
 
 O CCPA só se aplica às empresas que fazem negócios na Califórnia que satisfazem uma ou mais das seguintes opções: (1) ter uma receita anual bruta de mais de $25000000 ou (2) derivar mais de 50% de seu rendimento anual da venda do consumidor pessoal da Califórnia informações ou (3) comprar, vender ou compartilhar as informações pessoais de mais de 50.000 consumidores da Califórnia anualmente.
 
@@ -35,7 +35,7 @@ A Califórnia AG impedirá o CCPA e terá poder emitir multas de não conformida
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft e o CCPA
 
-Para clientes comerciais que façam negócios na Califórnia, a Microsoft atuará como um "provedor de serviços" com relação aos nossos serviços online e oferta de serviços profissionais.  Os termos dos termos dos serviços online (OST) e o adendo de proteção de dados dos serviços profissionais da Microsoft (MSDPA) já atendem aos requisitos de provedores de serviço no CCPA e são geralmente suficientes para permitir que os clientes continuem a transferir dados para nossos serviços online. Como tal, nenhuma alteração contratuais adicional é necessária para que os clientes possam confiar na Microsoft como um provedor de serviços no CCPA.
+Para clientes comerciais que façam negócios na Califórnia, a Microsoft atuará como um ' provedor de serviços ' em relação à nossa oferta de serviços profissionais e de serviços online.  Os termos dos termos dos serviços online (OST) e o adendo de proteção de dados dos serviços profissionais da Microsoft (MSDPA) já atendem aos requisitos de provedores de serviço no CCPA e são geralmente suficientes para permitir que os clientes continuem a transferir dados para nossos serviços online. Como tal, nenhuma alteração contratuais adicional é necessária para que os clientes possam confiar na Microsoft como um provedor de serviços no CCPA.
 
 Conforme definido no OST, a Microsoft está em conformidade com todas as leis e regulamentos aplicáveis à sua provisão dos serviços online, o que inclui o CCPA.  
 
@@ -72,10 +72,10 @@ Existem muitas diferenças. É mais fácil se concentrar nas similaridades, incl
 
 - Obrigações de transparência/divulgação,
 - Direitos de consumidor para acessar, excluir e receber uma cópia de dados,
-- Definição de "provedores de serviços" semelhante à forma como o RGPD define "processadores" com uma obrigação contratuais semelhante e
+- Definição de ' provedores de serviços ' semelhante à forma como o RGPD define ' processadores ' com uma obrigação contratuais semelhante e
 - Definição de "empresas" que abrange a definição RGPD de "controladores".
 
-A maior diferença no CCPA é o principal requisito para habilitar a recusa das vendas de dados a terceiros (com a "venda" amplamente definida para incluir o compartilhamento de dados para uma consideração valiosa).
+A maior diferença no CCPA é o requisito principal para habilitar uma recusa de vendas de dados para terceiros (com a "venda" amplamente definida para incluir o compartilhamento de dados para consideração valiosa).
 
 **Quais direitos as empresas precisam garantir segundo os termos do CCPA?**
 
@@ -93,10 +93,14 @@ O CCPA exige que as empresas regulamentadas coletem, transfiram e vendam informa
 - O CCPA introduz obrigações de consentimento pelos pais, consistentes com a COPPA (política de proteção de privacidade online) para crianças menores de 13 anos.
 - Para crianças entre 13 e 16 anos de idade, o CCPA impõe uma nova obrigação de obter consentimento de aceitação do filho.
 
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+
+A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo CCPA](https://go.microsoft.com/fwlink/?linkid=2118004) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+
 ## <a name="resources"></a>Recursos
 
 - [Cinco dicas para ajudá-lo a se preparar para a nova lei de privacidade do cliente da Califórnia](https://aka.ms/M365ComplianceBlog_RSA)
 - [Introdução ao guia do CCPA](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [Solicitações de entidades de dados e o RGPD](gdpr-data-subject-requests.md)
 - [Perguntas frequentes sobre a lei de privacidade do consumidor da Califórnia (CCPA)](ccpa-faq.md)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

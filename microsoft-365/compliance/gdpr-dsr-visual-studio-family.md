@@ -7,20 +7,23 @@ audience: itpro
 ms.prod: visual-studio-family
 ms.topic: article
 ms.date: 05/24/2018
-author: PoulChapman
-ms.author: olholder
-manager: pchapman
+author: robmazz
+f1.keywords:
+- NOCSH
+ms.author: robmazz
+manager: laurawi
 ms.collection:
 - GDPR
 - M365-security-compliance
 ms.workload:
 - multiple
-ms.openlocfilehash: 96cb6820e24a378351c82264929c3aec99e6d4f6
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 08c6bfbcfc571103939d0b824d5fda0fcb789bb6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "39624791"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596478"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de Titulares de Dados da Família do Visual Studio para o GDPR e CCPA
 

@@ -1,5 +1,7 @@
 ---
 title: Pesquisar e localizar dados pessoais
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -16,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como pesquisar e localizar dados pessoais no Office 365.
-ms.openlocfilehash: 75c6afaae18cddc0c8e63cac671ac1140e3fa303
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 31ff182c673b9a8d8f468b81c6cf5d30cf00733a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802854"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597558"
 ---
 # <a name="search-for-and-find-personal-data"></a>Pesquisar e localizar dados pessoais
 

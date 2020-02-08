@@ -1,7 +1,9 @@
 ---
 title: Exibir os relatórios de governança de dados
-ms.author: laurawi
-author: laurawi
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 6/8/2018
 audience: Admin
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os relatórios de governança de dados no Centro de Conformidade e Segurança do Office 365, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
-ms.openlocfilehash: 6d761931cea171afb84e25fa0900bec7c3a2f3c2
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: b07daf73cf1fca50f4d9831dfe6d96a59df928d0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813901"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597208"
 ---
 # <a name="view-the-data-governance-reports"></a>Exibir os relatórios de governança de dados
 
