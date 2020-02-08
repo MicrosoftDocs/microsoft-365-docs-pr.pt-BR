@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Resumo: aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.'
-ms.openlocfilehash: 32b87ec71ef0d1cde6f790f7e571b05b759ccf2a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a0a2a1e790711bf15db82068c00da5d614b498c4
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597688"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855446"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Proteger arquivos do SharePoint Online com a Proteção de Informações do Azure
 
@@ -113,8 +113,6 @@ Há duas maneiras para conceder aos usuários externos o acesso aos arquivos pro
 
 ## <a name="see-also"></a>Confira também
 
-[Proteger arquivos e sites do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
 [Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Adoção da nuvem e de soluções híbridas](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
