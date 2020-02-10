@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 016d0f9fdd0795ea709f168a0fc8ba027f029e8f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6791754e0d34ca2ca564a805269bb9fdc216d0ad
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602228"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851868"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem
 
@@ -102,12 +102,12 @@ Os serviços de suporte técnico comercial e de nuvem da Microsoft são auditado
 
 Este código de conduta aplica-se a CSPs que processam PII sob contratação de outras organizações. Na Microsoft, isso também se aplica ao suporte a esses CSPs.
 
-**Qual é a diferença entre "controladores de informações pessoais" e "processadores de informações pessoais"?**
+**Qual é a diferença entre ‘controladores de informações pessoais’ e ‘processadores de informações pessoais’?**
 
 No contexto da ISO/IEC 27018:
 
-- Os "controladores" controlam a coleta, manutenção, processamento ou uso de informações pessoais; incluem aqueles que as controlam em nome de outra empresa.
-- Os "processadores" processam informações em nome dos controladores; não tomam decisões sobre como usar as informações ou as finalidades do processamento. Ao fornecer serviços de nuvem empresarial, a Microsoft — como seu fornecedor — é um processador de informações.
+- Os ’controladores’ controlam a coleta, manutenção, processamento ou uso de informações pessoais; incluem aqueles que as controlam em nome de outra empresa.
+- Os ‘processadores’ processam informações em nome dos controladores; não tomam decisões sobre como usar as informações ou as finalidades do processamento. Ao fornecer serviços de nuvem empresarial, a Microsoft — como seu fornecedor — é um processador de informações.
 
 **Onde posso ver as informações de conformidade da Microsoft com o ISO/IEC 27018?**
 
@@ -120,6 +120,10 @@ No contexto da ISO/IEC 27018:
 Sim. Se a conformidade com a ISO/IEC 27018 for importante para a sua empresa e as implementações forem realizadas em qualquer um dos serviços de nuvem empresarial no escopo da Microsoft, use o atestado de conformidade da Microsoft com a ISO/IEC 27018 com a certificação da Microsoft para ISO/IEC 27001 em sua avaliação de conformidade.
 
 Contudo, você é responsável por contratar um avaliador para analisar a conformidade de sua implementação e pelos controles e processos dentro de sua organização.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de Conformidade](compliance-score-setup.md), use o [modelo ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 

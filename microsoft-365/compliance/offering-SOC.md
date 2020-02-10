@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57d4093712efbee7bcb4f27280b0ba64a50dbe41
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 5f11cb99d4bf235ba41e05d1bf79217f827fe8c2
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662017"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851878"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -128,6 +128,10 @@ Sim. Quando você faz a migração de seus aplicativos e dados para os serviços
 **Por onde começo a iniciativa de conformidade em minha empresa?**
 
 O [SOC Toolkit for Service Organizations](https://aka.ms/soc-toolkit)é um recurso conveniente para entender os processos de geração de relatórios do SOC e promover sua utilização pela organização.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de configurar [a Pontuação de Conformidade](compliance-score-setup.md), use o modelo pré-configurado [SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) e o modelo [SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919) para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 

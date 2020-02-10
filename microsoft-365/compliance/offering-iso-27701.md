@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4bc6663efe704205787e1c69d4e6dd06122419c3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5cd89e0f31d650e85de20b40e3870de0ef8c7cc3
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601908"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851828"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701
 
@@ -39,7 +39,7 @@ Esperar que os fornecedores certifiquem-se em relação ao PIMS será eficaz par
 
 ## <a name="too-many-regulatory-requirements-to-juggle"></a>Muitos requisitos regulamentares para manipular
 
-O ISO/IEC 27701 inclui um anexo que contém os controles operacionais do padrão que é mapeado em relação aos requisitos relevantes na GDPR para controladores e processadores. Esse mapeamento é apenas um exemplo de como as regulamentações de privacidade podem ser operacionalizadas na estrutura ISO. Conforme os mapeamentos adicionais com outras regulamentações tornarem-se disponíveis e forem validados, os controles operacionais do padrão poderão ser transferidos diretamente da análise regulatória para a implementação. Essa estrutura universal permite que as organizações operacionalizem de forma confiável os requisitos regulamentares relevantes sem “reinventar a roda”. Um projeto de software livre pendente está em andamento para permitir que a comunidade de privacidade mapeie outras regulamentações e valide os mapeamentos existentes. Fique atento aos comunicados.
+O ISO/IEC 27701 inclui um anexo que contém os controles operacionais do padrão que é mapeado em relação aos requisitos relevantes na GDPR para controladores e processadores. Esse mapeamento é apenas um exemplo de como as regulamentações de privacidade podem ser operacionalizadas na estrutura ISO. Conforme os mapeamentos adicionais com outras regulamentações tornarem-se disponíveis e forem validados, os controles operacionais do padrão poderão ser transferidos diretamente da análise regulatória para a implementação. Essa estrutura universal permite que as organizações operacionalizem de forma confiável os requisitos regulamentares relevantes sem ‘reinventar a roda’. Um projeto de software livre pendente está em andamento para permitir que a comunidade de privacidade mapeie outras regulamentações e valide os mapeamentos existentes. Fique atento aos comunicados.
 
 ## <a name="too-costly-to-audit-regulation-by-regulation"></a>Caro demais para auditar cada regulamentação
 
@@ -71,6 +71,10 @@ Independentemente do tamanho da sua organização e se for uma controladora ou p
 
 - [Certificação ISO/IEC 27701 do Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
 - [Relatório de avaliação de ISO/IEC 27701 do Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de Conformidade](compliance-score-setup.md), use o [modelo ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 
