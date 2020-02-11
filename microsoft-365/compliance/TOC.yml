@@ -202,6 +202,8 @@
           href: data-classification-content-explorer.md
         - name: Exibir atividade do rótulo (visualização)
           href: data-classification-activity-explorer.md
+        - name: Notas de versão da visualização pública de classificação de dados (visualização)
+          href: data-classification-pub-preview-relnotes.md
         - name: Introdução aos classificadores de treinamento (visualização)
           href: classifier-getting-started-with.md
         - name: Usando um classificador pronto para uso (visualização)
