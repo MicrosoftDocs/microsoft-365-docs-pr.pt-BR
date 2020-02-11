@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: ddf37ec091aace486b2e4f199cf31f3c720d93a1
-  ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+  ms.openlocfilehash: f55a1404a76b55aab6ed6c0b46874fcc80dbbf87
+  ms.sourcegitcommit: d718a3a3ad293ca533ba355047a461b3ab6d4aa3
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/14/2019
-  ms.locfileid: "38627057"
+  ms.lasthandoff: 02/10/2020
+  ms.locfileid: "41882876"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de ti
@@ -49,19 +49,19 @@ additionalContent:
       url: ./business/index.yml
     - title: Microsoft 365 Enterprise
       summary: Projetado para grandes organizações. Proteja sua empresa e transforme a maneira como você trabalha com aplicativos do Office, Windows 10 e Enterprise Mobility + Security.
-      url: ./enterprise/index.md
+      url: ./enterprise/index.yml
     - title: Microsoft 365 Education
       summary: Projetado para educadores para desbloquear a criatividade, promover o trabalho em equipe e fornecer uma experiência simples e segura em uma única solução acessível, criada para educação.
       url: https://docs.microsoft.com/education/
     - title: Conformidade com o Microsoft 365
       summary: Ajudar sua organização a controlar as informações, proteger contra os riscos e estar em conformidade com padrões legais ou normativos.
       url: ./compliance/index.yml
-    - title: Segurança da Microsoft 365
+    - title: Segurança do Microsoft 365
       summary: Saiba mais sobre os serviços e soluções de segurança robustos no Microsoft 365 Security para que você possa proteger melhor sua organização em superfícies de ataque.
       url: ./security/index.yml
     - title: Microsoft 365 para Campanhas
       summary: Mantenha sua campanha ou seus dados corporativos e comunicações seguros com essa configuração recomendada para o Microsoft 365 Business.
       url: ./campaigns/index.md
-    - title: NOVO – treinamento e certificação da Microsoft 365 no Microsoft Learn
-      summary: Novos caminhos de aprendizado para aumentar suas qualificações do Microsoft 365 e receber certificações.
-      url: https://docs.microsoft.com/learn/m365/
+    - title: Área de Trabalho Gerenciada da Microsoft
+      summary: A área de trabalho gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseado em nuvem pela Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de ti para se concentrar nas principais necessidades de negócios.
+      url: ./managed-desktop/index.yml
