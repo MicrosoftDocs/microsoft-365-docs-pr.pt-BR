@@ -172,14 +172,21 @@
             - name: Proteção antispam e antimalware
               href: ./office-365-security/anti-spam-and-anti-malware-protection.md
               items:
+                - name: Proteção antimalware
+                  href: ./office-365-security/anti-malware-protection.md
+                  items:
+                    - name: Perguntas frequentes sobre proteção antimalware
+                      href: ./office-365-security/anti-malware-protection-faq-eop.md
+                    - name: Configurar políticas antimalware
+                      href: ./office-365-security/configure-anti-malware-policies.md
+                    - name: Enviar malware e não malware para a Microsoft para análise
+                      href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                    - name: Detecção de vírus no SharePoint Online
+                      href: ./office-365-security/virus-detection-in-spo.md
                 - name: Opções avançadas de filtragem de spam
                   href: ./office-365-security/advanced-spam-filtering-asf-options.md
                 - name: Pool de entrega de alto risco para mensagens de saída
                   href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                - name: Perguntas frequentes sobre proteção antimalware
-                  href: ./office-365-security/anti-malware-protection-faq-eop.md
-                - name: Proteção antimalware
-                  href: ./office-365-security/anti-malware-protection.md
                 - name: Perguntas frequentes sobre a proteção antispam
                   href: ./office-365-security/anti-spam-protection-faq.md
                 - name: Evitar caracteres inválidos nas regras e política de filtro de spam
@@ -194,8 +201,6 @@
                   href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
                 - name: Combater lixo eletrônico enviado ao Office 365
                   href: ./office-365-security/fighting-junk-email.md
-                - name: Detecção de vírus no SharePoint Online
-                  href: ./office-365-security/virus-detection-in-spo.md
                 - name: Proteção anti-spam de email do Office 365
                   href: ./office-365-security/anti-spam-protection.md
                 - name: Como políticas e proteções são combinadas
@@ -214,8 +219,6 @@
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                 - name: Gerenciar listas seguras de remetentes para mensageiros em massa
                   href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
-                - name: Configurar políticas antimalware
-                  href: ./office-365-security/configure-anti-malware-policies.md
                 - name: Configurar políticas antispam
                   href: ./office-365-security/configure-the-anti-spam-policies.md
                 - name: Criar-listas-de-bloqueio-de-remetentes-no-office-365
@@ -240,8 +243,6 @@
                   href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                 - name: Envios do administrador no Office 365
                   href: ./office-365-security/admin-submission.md
-                - name: Enviar malware e não malware para a Microsoft para análise
-                  href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
                 - name: Cabeçalhos de mensagem antispam
