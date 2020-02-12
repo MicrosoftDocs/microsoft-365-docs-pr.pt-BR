@@ -1,5 +1,5 @@
 ---
-title: Visão geral do catálogo de soluções do Microsoft 365
+title: Catálogo de soluções do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -11,18 +11,16 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 57591d385ce05454151b9ed28c5d764096d9e95b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e147ac6ac17a9fdd395aa0b1a00bd8f630cd10c1
+ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602738"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41891974"
 ---
-# <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Visão geral do catálogo de soluções do Microsoft 365 (versão prévia)
+# <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
-## <a name="overview"></a>Visão Geral
-
-Você está procurando uma maneira de começar rapidamente com tarefas de conformidade no Microsoft 365? Confira o novo [Catálogo de soluções do Microsoft 365](https://compliance.microsoft.com/solutioncatalog) para descobrir, aprender e rapidamente começar a usar soluções de gerenciamento de riscos e conformidade.
+Você está procurando uma maneira de começar rapidamente com tarefas de conformidade no Microsoft 365? Confira o [Catálogo de soluções do Microsoft 365](https://compliance.microsoft.com/solutioncatalog) para descobrir, aprender e rapidamente começar a usar soluções de gerenciamento de riscos e conformidade.
 
 As soluções de conformidade no Microsoft 365 são conjuntos de recursos integrados que você pode usar para ajudá-lo a gerenciar cenários de conformidade de ponta a ponta. As ferramentas e os recursos de uma solução podem incluir uma combinação de políticas, alertas, relatórios e muito mais.
 
@@ -79,19 +77,17 @@ Aqui, você verá cartões para as seguintes soluções:
 
 ## <a name="how-do-i-get-this"></a>Como posso obter isso?
 
-- Se você ainda não tiver o novo catálogo de soluções do Microsoft 365, você o terá em breve. Estamos habilitando o catálogo de soluções para todas as assinaturas do Microsoft 365 em uma distribuição incremental.
-
-- Para visitar o catálogo de soluções do Microsoft 365, [https://compliance.microsoft.com](https://compliance.microsoft.com) acesse e entre como administrador global, administrador de conformidade ou administrador de dados de conformidade. Selecione **Catálogo** no painel de navegação no lado esquerdo da tela para abrir a home page do catálogo.
+Para visitar o catálogo de soluções do Microsoft 365, [https://compliance.microsoft.com](https://compliance.microsoft.com) acesse e entre como administrador global, administrador de conformidade ou administrador de dados de conformidade. Selecione **Catálogo** no painel de navegação no lado esquerdo da tela para abrir a home page do catálogo.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**Por que não vejo o novo catálogo de soluções do Microsoft 365 ainda?**
+**Por que não vejo o catálogo de soluções do Microsoft 365?**
 
-Primeiro, verifique se você tem as licenças e permissões apropriadas. Em seguida, entre [https://compliance.microsoft.com](https://compliance.microsoft.com) como administrador global, administrador de conformidade ou administrador de dados de conformidade. Se ainda não vir o novo catálogo de soluções no painel de navegação à esquerda, você o terá em breve.
+Primeiro, verifique se você tem as licenças e permissões apropriadas. Em seguida, entre [https://compliance.microsoft.com](https://compliance.microsoft.com) como administrador global, administrador de conformidade ou administrador de dados de conformidade.
 
 **Alguns dos recursos de conformidade listados na página catálogo de soluções não estão disponíveis no centro de conformidade da Microsoft 365. O que devo fazer?**
 
-Ainda estamos adicionando funcionalidade ao centro de conformidade da Microsoft 365 e ao catálogo de soluções. Se você não conseguir encontrar uma solução específica na área de navegação, ela estará acessível quando a solução estiver disponível em sua assinatura.
+Estamos sempre trabalhando para adicionar novas funcionalidades ao centro de conformidade do Microsoft 365 e ao catálogo de soluções. Se você não conseguir encontrar uma solução específica na área de navegação, ela estará acessível quando a solução estiver disponível em sua assinatura.
 
 Se você estiver procurando por uma solução de conformidade existente e ela ainda não estiver disponível no centro de conformidade da Microsoft 365, você sempre poderá acessar soluções no centro de segurança e conformidade do Office 365 existente [https://protection.office.com](https://protection.office.com), acessando. Como alternativa, você pode clicar na guia **mais recursos** , na navegação à esquerda do centro de conformidade da Microsoft 365, e selecionar o cartão central de segurança e conformidade do Office 365.  
 
@@ -99,12 +95,12 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 - **Revise sua pontuação de conformidade da Microsoft**, uma pontuação personalizada e baseada em riscos para ajudá-lo a entender o estado de conformidade da sua organização com normas e padrões principais. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Pontuação de conformidade (visualização)](compliance-score.md).
 
-- **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
+- **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do Insider (versão prévia)](insider-risk-management.md).
+
+- **Saiba mais e crie políticas de conformidade de comunicação** para identificar e corrigir rapidamente as violações de política de código de conduta corporativo. Consulte [conformidade de comunicação](communication-compliance.md).
 
 - **Microsoft Information Protection**, saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
     - **Familiarize-se com e configure o Microsoft Cloud app Security**. Veja [início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).
     - **Introdução aos classificadores**. Classificar conteúdo e, em seguida, rotulá-lo para que possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. Confira [introdução aos classificadores destreinados](classifier-getting-started-with.md).
-
-- **Saiba mais e crie políticas de conformidade de comunicação** para identificar e corrigir rapidamente as violações de política de código de conduta corporativo. Consulte [conformidade de comunicação no Microsoft 365](communication-compliance.md).
 
 - **Visite seu catálogo de soluções do Microsoft 365 com frequência**e Leia novas soluções para ajudá-lo com suas necessidades de conformidade. Entre em [https://compliance.microsoft.com](https://compliance.microsoft.com) e selecione **Catálogo** no painel de navegação esquerdo.

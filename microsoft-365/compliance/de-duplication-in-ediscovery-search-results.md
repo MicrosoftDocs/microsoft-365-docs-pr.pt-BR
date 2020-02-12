@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: fa04b83e9ec06b3b0d20d42d3d800040aa6178ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfd810d358a85c0cdfacab50fb512a8d2a9c8828
+ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595388"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41892034"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
@@ -34,11 +34,11 @@ Ao usar as ferramentas de descoberta eletrônica do Office 365 para exportar os 
 As ferramentas de descoberta eletrônica do Office 365 usam uma combinação das seguintes propriedades de email para determinar se uma mensagem é uma duplicata:
   
 - **InternetMessageId** -esta propriedade especifica o identificador de mensagem da Internet de uma mensagem de email, que é um identificador global exclusivo que se refere a uma versão específica de uma mensagem específica. Essa ID é gerada pelo programa cliente de email do remetente ou pelo sistema de email host que envia a mensagem. Se uma pessoa enviar uma mensagem para mais de um destinatário, a ID de mensagem da Internet será a mesma para cada instância da mensagem. Revisões subsequentes à mensagem original receberão um identificador de mensagem diferente. 
-    
-- **ConversationTopic** -propriedade especifica o assunto do thread de conversa de uma mensagem. O valor da propriedade **ConversationTopic** é a cadeia de caracteres que descreve o tópico geral da conversa. Uma conservação consiste em uma mensagem inicial e todas as mensagens enviadas em resposta à mensagem inicial. As mensagens dentro da mesma conversa têm o mesmo valor para a propriedade **ConversationTopic** . O valor dessa propriedade normalmente é a linha de assunto da mensagem inicial que gerou a conversa. 
-    
+
+- **ConversationTopic** -esta propriedade especifica o assunto do thread de conversa de uma mensagem. O valor da propriedade **ConversationTopic** é a cadeia de caracteres que descreve o tópico geral da conversa. Uma conservação consiste em uma mensagem inicial e todas as mensagens enviadas em resposta à mensagem inicial. As mensagens dentro da mesma conversa têm o mesmo valor para a propriedade **ConversationTopic** . O valor dessa propriedade normalmente é a linha de assunto da mensagem inicial que gerou a conversa. 
+
 - **BodyTagInfo** -esta é uma propriedade interna do repositório do Exchange. O valor dessa propriedade é calculado com a verificação de vários atributos no corpo da mensagem. Essa propriedade é usada para identificar as diferenças no corpo das mensagens. 
-    
+
 Durante o processo de exportação de descoberta eletrônica, essas três propriedades são comparadas a cada mensagem que corresponde aos critérios de pesquisa. Se essas propriedades forem idênticas para duas (ou mais) mensagens, essas mensagens serão determinadas como duplicatas e o resultado será que apenas uma cópia da mensagem será exportada se a eliminação de duplicação estiver habilitada. A mensagem exportada é conhecida como "item de origem". As informações sobre mensagens duplicadas são incluídas nos relatórios **Results. csv** e **manifest. xml** que estão incluídos nos resultados de pesquisa exportados. No arquivo **Results. csv** , uma mensagem duplicada é identificada por ter um valor na coluna **duplicar para item** . O valor desta coluna corresponde ao valor na coluna de **identidade do item** para a mensagem que foi exportada. 
   
 Os gráficos a seguir mostram como as mensagens duplicadas são exibidas nos relatórios **Results. csv** e **manifest. xml** exportados com os resultados da pesquisa. Esses relatórios não incluem as propriedades de email descritas anteriormente, que são usadas no algoritmo de eliminação de duplicação. Em vez disso, os relatórios incluem a propriedade de **identidade de item** atribuída a itens pelo repositório do Exchange. 
@@ -59,7 +59,7 @@ Há algumas limitações conhecidas do algoritmo de eliminação de duplicação
   
 Há uma situação em que o recurso de eliminação de duplicação pode identificar incorretamente uma mensagem como uma duplicata e não exportá-la (mas ainda a cite como uma duplicata nos relatórios de exportação). Essas são mensagens que um usuário edita, mas não envia. Por exemplo, digamos que um usuário selecione uma mensagem no Outlook, copie o conteúdo da mensagem e, em seguida, Cole-o em uma nova mensagem. Em seguida, o usuário altera uma das cópias removendo ou adicionando um anexo ou alterando a linha de assunto ou o próprio corpo. Se essas duas mensagens corresponderem à consulta de uma pesquisa de descoberta eletrônica, somente uma das mensagens será exportada se a eliminação de duplicação estiver habilitada quando os resultados da pesquisa forem exportados. Portanto, embora a mensagem original ou a mensagem copiada tenha sido alterada, nenhuma das mensagens revisadas foi enviada e, portanto, os valores das propriedades **InternetMessageId**, **ConversationTopic** e **BodyTagInfo** não foram atualizados. Mas, conforme explicado anteriormente, ambas as mensagens serão listadas nos relatórios de exportação 
   
-Observe que as mensagens exclusivas também podem ser marcadas como duplicatas quando o recurso de proteção de página de cópia de gravação estiver habilitado, como no caso de uma caixa de correio em retenção de litígio ou bloqueio in-loco. O recurso de cópia na gravação copia a mensagem original (e salva-a na pasta versões da pasta itens recuperáveis do usuário) antes que a revisão para o item original seja salva. Nesse caso, a cópia revisada e a mensagem original (na pasta itens recuperáveis) podem ser consideradas como mensagens duplicadas e, portanto, apenas uma delas seria exportada.
+As mensagens exclusivas também podem ser marcadas como duplicatas quando o recurso de proteção de página de cópia de gravação estiver habilitado, como no caso de uma caixa de correio em retenção de litígio ou bloqueio in-loco. O recurso de cópia na gravação copia a mensagem original (e salva-a na pasta versões da pasta itens recuperáveis do usuário) antes que a revisão para o item original seja salva. Nesse caso, a cópia revisada e a mensagem original (na pasta itens recuperáveis) podem ser consideradas como mensagens duplicadas e, portanto, apenas uma delas seria exportada.
   
 > [!IMPORTANT]
 > Se as limitações do algoritmo de eliminação de duplicação puderem afetar a qualidade dos resultados da pesquisa, você não deverá habilitar a eliminação de duplicação ao exportar itens. Se as situações descritas nesta seção forem improvável de ser um fator nos resultados da pesquisa e você quiser reduzir o número de itens que mais provavelmente serão duplicados, deverá considerar a possibilidade de habilitar a eliminação de duplicação. 
@@ -67,19 +67,19 @@ Observe que as mensagens exclusivas também podem ser marcadas como duplicatas q
 ## <a name="more-information"></a>Mais informações
 
 - As informações deste artigo se aplicam ao exportar os resultados da pesquisa usando uma das seguintes ferramentas de descoberta eletrônica:
-    
+
   - Pesquisa de conteúdo no centro de conformidade no Office 365
-    
+
   - Descoberta Eletrônica In-loco no Exchange Online
-    
+
   - A Central de Descoberta Eletrônica no SharePoint Online
-    
+
 - Para obter mais informações sobre como exportar resultados de pesquisa, consulte:
-    
+
   - [Exportar pesquisa de conteúdo](export-search-results.md)
-    
+
   - [Exportar um relatório da Pesquisa de Conteúdo](export-a-content-search-report.md)
-    
+
   - [Exportar resultados de pesquisa de descoberta eletrônica in-loco para um arquivo PST](https://go.microsoft.com/fwlink/p/?linkid=832671)
-    
+
   - [Exportar conteúdo e criar relatórios no Centro de Descoberta eletrônica](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
