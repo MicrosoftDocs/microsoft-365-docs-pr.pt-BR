@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: f9f991dca27617717817564daa4a042e2eeb4bf0
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 1a8cea3b11ecdc6e3ac6d382dc8ffe92c84e187a
+ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661898"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41932271"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
 > [!NOTE]
 > As informações neste artigo aplicam-se apenas às assinaturas da plataforma de alimentação da Microsoft (Power BI, aplicativos de energia e automatização de energia).
 
-As compras de autoatendimento estão agora disponíveis para a plataforma de energia nos Estados Unidos.
+As compras de autoatendimento estão agora disponíveis para a plataforma de energia nos Estados Unidos, Austrália, Canadá e Japão.
 
 ## <a name="general"></a>Geral
 

@@ -181,6 +181,8 @@
                       href: ./office-365-security/configure-anti-malware-policies.md
                     - name: Enviar malware e não malware para a Microsoft para análise
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                    - name: Recuperar de um ataque de ransomware
+                      href: ./office-365-security/recover-from-ransomware.md
                     - name: Detecção de vírus no SharePoint Online
                       href: ./office-365-security/virus-detection-in-spo.md
                 - name: Opções avançadas de filtragem de spam

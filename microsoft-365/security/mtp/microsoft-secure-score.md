@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: aeae243b4e363f69729ccdbd2bc3fc465ec1449b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b37b8f0aaa225dec9e522964b59871047081be9d
+ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600168"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41932301"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -134,6 +134,16 @@ Você pode exibir um gráfico da pontuação da sua organização ao longo do te
 
 A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança; Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft, o que pode ajudar a reduzir o risco de ser violado. Nenhum serviço online é totalmente imune às brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
 
+## <a name="whats-new"></a>O que há de novo?
+
+Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações.
+
+### <a name="removed-not-scored-improvement-actions"></a>Ações de melhoria "não classificadas" removidas
+
+Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis.  
+
+Por esses motivos, todas as ações de melhoria que não foram pontuadas foram removidas. Nenhuma ação é necessária em sua parte.
+
 ## <a name="whats-coming"></a>O que está chegando?
 
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
@@ -173,6 +183,11 @@ Para garantir que a pontuação segura da Microsoft seja significativa e que cad
 - Descobrir aplicativos de ti de sombra arriscados e não compatíveis
 - Examinar permissões & bloquear aplicativos OAuth arriscados conectados ao seu ambiente
 - Configurar o controle de versão em bibliotecas de documentos do SharePoint Online
+- Armazenar documentos de usuário no OneDrive for Business
+- Não permitir a delegação de caixa de correio
+- Permitir links de compartilhamento de convidados anônimos para sites e documentos
+- Configurar as políticas de anexo seguro do Office 365 ATP
+- Configurar links seguros do Office 365 para verificar URLs
 
 ### <a name="mfa-improvement-action-updates"></a>Atualizações das ações de melhoria da MFA
 
@@ -191,11 +206,11 @@ Novas ações de aprimoramento foram adicionadas:
 
  Essas novas ações de melhoria exigirão o registro de seus usuários ou administradores para a autenticação multifator (MFA) em seu diretório e o estabelecimento do conjunto certo de políticas que atendam às suas necessidades organizacionais. O objetivo principal é ter flexibilidade enquanto garante que todos os seus usuários e administradores podem autenticar com vários fatores ou solicitações de verificação de identidade baseadas em risco. Isso pode ter a forma de definir padrões de segurança que permitem que a Microsoft decida quando realizar o desafio de usuários para a MFA ou ter várias políticas que aplicam decisões com escopo.
 
-### <a name="removing-not-scored-and-review-improvement-actions"></a>Remover ações de melhoria de "não pontuadas" e "revisar"
+### <a name="removing-review-improvement-actions"></a>Removendo ações de melhoria de "revisão"
 
-Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis e as ações de análise de revisão não são medidas para o mesmo padrão como outras ações de aprimoramento.  
+Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. Revisar as ações de melhoria não são medidas para o mesmo padrão que outras ações de aprimoramento.  
 
-Por esses motivos, todas as ações de melhoria que não foram pontuadas ou exigiam uma cadência de revisão serão removidas temporariamente. Nenhuma ação é necessária em sua parte.
+Por esses motivos, todas as ações de melhoria que exigiram uma cadência de revisão serão removidas temporariamente. Nenhuma ação é necessária em sua parte.
 
 ### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
 
