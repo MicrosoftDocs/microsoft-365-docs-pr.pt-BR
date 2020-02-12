@@ -16,12 +16,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode usar o simulador de ataques para executar cenários de ataque realistas em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real atinja sua empresa.
-ms.openlocfilehash: 0bdb4a0ffac139f45d842025238d3780f41d594c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6fb88e6b79c0949c7ddc26eabda2bb04ea1fa3bf
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599818"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957406"
 ---
 # <a name="attack-simulator-in-office-365"></a>Simulador de Ataque no Office 365
 
@@ -31,7 +31,9 @@ ms.locfileid: "41599818"
 
 Três tipos de simulação de ataque estão disponíveis atualmente:
 
-- [Nome de exibição spear-phishing Attack](#display-name-spear-phishing-attack)
+- [Coleta de credenciais do spear-phishing Attack](#credential-harvest-spear-phishing-attack)
+
+- [Anexo de Spear-ataque de phishing](#attachment-spear-phishing-attack)
 
 - [Ataque de irrigação de senha](#password-spray-attack)
 
@@ -49,13 +51,15 @@ Verifique se você e sua organização atendem aos seguintes requisitos para o s
 
 - Você é um administrador global do Office 365 ou administrador de segurança
 
+- Campanhas de phishing coletam e processam eventos por um período de 30 dias, dados de campanha históricos estarão disponíveis por até 90 dias após a campanha ser iniciada.
+
 - A [autenticação multifator/acesso condicional](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) está ativada, por pelo menos a conta de administrador global do Office 365 e os administradores de segurança que usarão o simulador de ataques. (Idealmente, a autenticação multifator/acesso condicional está ativada para todos os usuários da sua organização.)
 
 - Sua organização tem o [plano de proteção avançada contra ameaças do Office 365](office-365-atp.md), com o simulador &amp; de ataques visível no centro de conformidade de segurança (vá para o \> **simulador de ataques**de **Gerenciamento de ameaças** )
 
     ![Gerenciamento de ameaças-simulador de ataques](../media/ThreatMgmt-AttackSimulator.png)
 
-## <a name="display-name-spear-phishing-attack"></a>Nome de exibição spear-phishing Attack
+## <a name="credential-harvest-spear-phishing-attack"></a>Coleta de credenciais do spear-phishing Attack
 
 Phishing é um termo genérico para um amplo conjunto de ataques de classe como um ataque de estilo de engenharia social. Esse ataque está voltado para o spear phishing, um ataque mais direcionado para um grupo específico de pessoas ou uma organização. Normalmente, um ataque personalizado com algum reconhecimento executado e usando um nome de exibição que irá gerar confiança no destinatário, como uma mensagem de email que parece ser proveniente de um executivo dentro da sua organização.
 
@@ -103,11 +107,25 @@ Você pode criar o editor de HTML avançado diretamente no próprio campo de **c
 
 11. Escolha **Avançar e** **concluir** para iniciar o ataque. A mensagem de email de spear phishing é entregue às caixas de correio dos destinatários de destino.
 
+## <a name="attachment-spear-phishing-attack"></a>Anexo de Spear-ataque de phishing
+
+Phishing é um termo genérico para um amplo conjunto de ataques de classe como um ataque de estilo de engenharia social. Esse ataque está voltado ao anexo de spear phishing, um ataque mais direcionado para um grupo específico de pessoas ou uma organização. Normalmente, um ataque personalizado com algum reconhecimento executado e usando um nome de exibição que irá gerar confiança no destinatário, como uma mensagem de email que parece ser proveniente de um executivo dentro da sua organização.
+
+Esse ataque se concentra em permitir que você manipule quem a mensagem parece ter originado alterando o nome de exibição e o endereço de origem, mas desta vez, em vez de oferecer uma URL para tentar e atrair o usuário final para clicar, oferecemos um anexo que estamos tentando obter usuário final para abrir o. 
+
+### <a name="to-simulate-a-attachment-spear-phishing-attack"></a>Para simular um ataque de spear-phishing de anexo
+
+1. Siga as etapas acima, tendo esse horário em que você clicou em **ataque de anexo** na página de aterrissagem.
+
+2. À medida que você avança no assistente, você vê duas opções para configurar. O **tipo de anexo**, damos suporte a dois tipos de anexo, **. docx** ou **. pdf**. O **nome do anexo**, use este campo para criar um nome de anexo significativo para a campanha.
+
 ## <a name="password-spray-attack"></a>Ataque de irrigação de senha
 
 Um ataque de irrigação de senha em uma organização é geralmente usado após um ator incorreto ter adquirido com êxito uma lista de usuários válidos do locatário. O ator ruim sabe sobre senhas comuns que as pessoas utilizam. Esse é um ataque amplamente usado, pois é um ataque barato que é executado e é mais difícil de detectar abordagens de força bruta.
 
 Esse ataque se concentra em permitir que você especifique uma senha comum para uma grande base de destino de usuários.
+
+**Observação importante** a execução do ataque de irrigação de senha contra contas de usuário finais que já têm autenticação multifator resultará em uma tentativa malsucedida para essas contas no relatório. Isso se deve ao fato de a autenticação multifator ser uma das principais mechanims para ajudar a proteger contra ataques de irrigação de senha, portanto, é esperado.
 
 ### <a name="to-simulate-a-password-spray-attack"></a>Para simular um ataque de irrigação de senha
 
@@ -125,6 +143,8 @@ Esse ataque se concentra em permitir que você especifique uma senha comum para 
 
 Um ataque de senha de força bruta em relação a uma organização é geralmente usado após um ator incorreto ter adquirido com êxito uma lista de usuários principais do locatário. Esse ataque se concentra em tentar um conjunto de senhas em uma única conta de usuário.
 
+**Observação importante** a execução de ataques de senha de força bruta contra contas de usuário finais que já têm autenticação multifator resultará em uma tentativa malsucedida para essas contas no relatório. Isso se deve ao fato de a autenticação multifator ser uma das principais mechanims para ajudar a proteger contra ataques de senha de força bruta, portanto, é esperado.
+
 ### <a name="to-simulate-a-brute-force-password-attack"></a>Para simular um ataque de senha de força bruta
 
 1. No [centro de &amp; conformidade de segurança](https://protection.office.com), escolha \> **simulador de ataque**de **Gerenciamento de ameaças** .
@@ -137,19 +157,7 @@ Um ataque de senha de força bruta em relação a uma organização é geralment
 
 5. Escolha **concluir** para iniciar o ataque.
 
-## <a name="new-features-in-attack-simulator"></a>Novos recursos no simulador de ataques
 
-Novos recursos foram adicionados recentemente ao simulador de ataques. Entre elas:
-
-- Recursos avançados de relatórios. A capacidade de ver dados como o tempo mais rápido (ou mais lento) para abrir uma mensagem de email de simulação de ataque, o tempo mais rápido (ou mais lento) para clicar em um link na mensagem e mais visualizações.
-
-- Editor de modelos de email. A capacidade de criar um modelo de email personalizado e reutilizável que você pode usar para simulações de ataque futuras.
-
-- Importação de destinatário de CSV. A capacidade de usar um arquivo. csv para importar sua lista de destinatários de destino em vez de usar o seletor de catálogo de endereços.
-
-Mais novos recursos serão disponibilizados em breve para o simulador de ataques. Entre elas:
-
-- Simulação de phishing de carga de anexos. A capacidade de usar um anexo como a carga de simulação de phishing no lugar de uma URL.
 
 Visite o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para ver o que está em desenvolvimento, o que está saindo e o que já foi iniciado.
 

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Office 365.
-ms.openlocfilehash: 72109b6522a750e4eb31f289352e4ee2abfa7d33
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0ff16d01c3fe0f150e5a39cec574bc80aead9661
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599448"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957146"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Detectar e corrigir a concessão de autorização ilícita no Office 365
 
@@ -39,11 +39,13 @@ Você precisa pesquisar o **log de auditoria** do Office 365 para encontrar sina
 
 1. Abra o **centro de conformidade e segurança** em seu locatário do Office 365.
 
-2. Navegue até o nó **pesquisar & investigação** e selecione pesquisa de **log de auditoria** .
+2. Navegue até **pesquisa** e selecione **pesquisa de log de auditoria**.
 
-3. Criar uma pesquisa (todas as atividades e todos os usuários) e filtrar os resultados de consentimento para o aplicativo e adicionar OAuth2PermissionGrant.
+3. Pesquisa (todas as atividades e todos os usuários) e insira a data de início e a data de término, se necessário, e clique em **Pesquisar**. 
 
-4. Examine as propriedades estendidas e verifique se IsAdminContent está definido como true.
+4. Filtre os resultados para obter o consentimento do aplicativo e adicione OAuth2PermissionGrant.
+
+5. Clique no resultado para ver os detalhes da atividade. Clique em **mais informações** para obter detalhes da atividade. Verifique se IsAdminContent está definido como true.
 
 > [!NOTE]
 > • Pode levar até 30 minutos ou até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. <br/><br/> • O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende da sua assinatura do Office 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).

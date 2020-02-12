@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b37b8f0aaa225dec9e522964b59871047081be9d
-ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
+ms.openlocfilehash: ec659a939064d34d3e0cc078a90cd343e495ae58
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41932301"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957366"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 

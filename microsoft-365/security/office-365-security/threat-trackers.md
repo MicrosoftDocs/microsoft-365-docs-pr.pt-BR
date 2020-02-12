@@ -16,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os rastreadores de ameaças, incluindo novos rastreadores dignos de importância, para ajudar sua organização a se manter informado sobre segurança.
-ms.openlocfilehash: f2a68cfbbae0ce91716f69514e30136ac223bbf8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75ade05f5512657a443f3c14c2745cc2cd3d78db
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598178"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957356"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Rastreadores de ameaça-novidade e digno de sessão
 
@@ -55,7 +55,7 @@ Normalmente, os rastreadores dignos de registro serão postados por apenas algum
   
 ### <a name="trending-trackers"></a>Rastreadores de tendências
 
-Os rastreadores de tendências (anteriormente chamados de campanhas) realçam novas ameaças que não foram vistas no email da sua organização na última semana.
+Os rastreadores de tendências (anteriormente chamados de campanhas) realçam novas ameaças recebidas no email da sua organização na última semana.
   
 ![Exemplo de widget campanhas de malware de tendências](../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
   
