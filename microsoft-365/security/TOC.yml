@@ -378,6 +378,8 @@
               href: ./office-365-security/office-365-air.md
             - name: Localizar e investigar email malicioso que foi entregue
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: Documentos seguros no Office 365 ATP
+              href: ./office-365-security/safe-docs.md
             - name: Explorador de Ameaças (e detecções em tempo real)
               href: ./office-365-security/threat-explorer.md
               items:
