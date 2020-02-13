@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: db05b598fb0dab3cac9420b33b0bd4e12b6b7e9a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602788"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957186"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas de descoberta eletrônica herdadas e isenções para o centro de conformidade da Microsoft 365
 
@@ -41,7 +41,7 @@ A primeira etapa é conectar-se ao PowerShell do centro de conformidade & segura
 ```powershell
 $UserCredential = Get-Credential
 $sccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
-Import-PSSession $Session -AllowClobber -DisableNameChecking
+Import-PSSession $sccSession -DisableNameChecking
 $exoSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
 Import-PSSession $exoSession -AllowClobber -DisableNameChecking
 ```
@@ -87,23 +87,19 @@ Para criar um bloqueio de descoberta eletrônica, você precisa criar um caso de
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
 
-![Exemplo de execução do comando New-ComplianceCase](media/MigrateLegacyeDiscovery3.png)
-
 ## <a name="step-5-create-the-ediscovery-hold"></a>Etapa 5: criar o bloqueio de descoberta eletrônica
 
 Depois que o caso é criado, você pode criar a isenção e associá-la ao caso que você criou na etapa anterior. É importante lembrar que você deve criar uma política de bloqueio de caso e uma regra de bloqueio de caso. Se a regra de bloqueio de caso não for criada após a criação da política de retenção de caso, a descoberta eletrônica não será criada e qualquer conteúdo não será colocado em espera.
 
-Execute os comandos a seguir para recriar a descoberta eletrônica suspensa que você deseja migrar. Estes exemplos usam as propriedades de bloqueio in-loco da etapa 3 que você deseja migrar.
+Execute os comandos a seguir para recriar a descoberta eletrônica suspensa que você deseja migrar. Estes exemplos usam as propriedades de bloqueio in-loco da etapa 3 que você deseja migrar. O primeiro comando cria uma nova política de bloqueio de caso e salva as propriedades em uma variável. O segundo comando cria a regra de bloqueio de caso correspondente.
 
 ```powershell
 $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLocation $search.SourceMailboxes
 ```
 
 ```powershell
-$rule = New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
+New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
-
-![Exemplo de uso de cmdlets do NewCaseHoldPolicy e do NewCaseHoldRule](media/MigrateLegacyeDiscovery4.png)
 
 ## <a name="step-6-verify-the-ediscovery-hold"></a>Etapa 6: verificar a retenção de descoberta eletrônica
 

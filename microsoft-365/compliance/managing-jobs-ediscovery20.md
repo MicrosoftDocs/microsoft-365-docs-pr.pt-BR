@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f829c6735bc8326a775a9d259da8b64aaa8b02ac
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 78767318a8799ec88e15452f70bceaa5466a9cbf
+ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600458"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41960327"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Gerenciar trabalhos na descoberta eletrônica avançada
 
@@ -32,7 +32,7 @@ Veja a seguir uma lista dos trabalhos (que geralmente são processos de longa du
 |Adicionando dados a um conjunto de revisão | Um usuário adiciona os resultados de uma pesquisa a um conjunto de revisão. Esse trabalho consiste em dois subtrabalhos: </br>• **GatheringItems** -uma lista de itens que correspondem à consulta de pesquisa (e a fonte de dados do Office 365 em que eles estão localizados) é gerada. </br>• **Ingestão & indexação** – os itens que correspondem à consulta de pesquisa são copiados para um local de armazenamento do Azure (em um processo chamado *ingestão*) e os itens no local de armazenamento do Azure são reindexados. Esse novo índice é usado ao consultar e analisar itens no conjunto de dados. </br></br>Para obter mais informações, consulte [Add Search Results to a Review Set](add-data-to-review-set.md). |
 |Adicionando dados a outro conjunto de revisão | Um usuário adiciona documentos de uma análise configurada para um conjunto de revisão diferente no mesmo caso. Para obter mais informações, consulte [Adicionar dados a um conjunto de revisão de outro conjunto de revisão](add-data-to-review-set-from-another-review-set.md).|
 |Adição de dados que não sejam do Office 365 a um conjunto de revisão | Um usuário carrega dados que não são do Office 365 em um conjunto de revisão. Os dados também são indexados durante esse processo. Por exemplo, os arquivos de um servidor de arquivos local ou de um computador cliente são carregados em um conjunto de revisão. Para obter mais informações, consulte [carregar dados não-Office 365 em um conjunto de revisão](load-non-office365-data.md).| 
-|Adicionando dados corrigidos a um conjunto de revisão | Dados com erros de processamento são corrigidos e carregados novamente em um conjunto de revisão. Para saber mais, confira:</br>• [Correção de erro ao processar dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [Correção de erro de item único](single-item-error-remediation.md)| 
+|Adicionando dados corrigidos a um conjunto de revisão | Dados com erros de processamento são corrigidos e carregados novamente em um conjunto de revisão. Para saber mais, veja:</br>• [Correção de erro ao processar dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [Correção de erro de item único](single-item-error-remediation.md)| 
 |Comparando conjuntos de carregamento | Um usuário examina as diferenças entre diferentes conjuntos de carga em um conjunto de revisão. Um conjunto de carga é uma instância de adição de dados a um conjunto de revisão. Por exemplo, se você adicionar os resultados de duas pesquisas diferentes ao mesmo conjunto de revisão, cada uma representaria um conjunto de carga. Para obter mais informações, consulte [Manage Load sets](manage-load-sets.md). |
 |Reconstrução de conversa|Quando um usuário adiciona os resultados de uma pesquisa a um conjunto de revisão de conversa, as conversas de mensagem instantânea (também chamadas de *conversa encadeadas*) em serviços como o Microsoft Teams são reconstruídas em um arquivo PDF. Esse trabalho também é acionado quando um usuário clica em **ação > criar PDFs de conversa** em um conjunto de revisão. Para obter mais informações, consulte [revisar conversas na descoberta eletrônica avançada](conversation-review-sets.md).
 |Convertendo documentos redigidos em PDF|Depois que um usuário anotar um documento em um conjunto de revisão e redigir uma parte dele, ele poderá optar por converter o documento redigido em um arquivo PDF. Isso garante que a parte redigida não será visível se o documento for exportado para apresentação. Para obter mais informações, consulte [exibir documentos em um conjunto de revisão](annotating-and-redacting-documents.md). |
@@ -55,6 +55,6 @@ A tabela a seguir descreve os diferentes Estados de status dos trabalhos.
 | Falha no envio | Falha no envio do trabalho.  Você deve tentar executar novamente a ação que disparou o trabalho. |
 | Em andamento | O trabalho está em andamento, você pode monitorar o andamento do trabalho na guia **trabalhos** . |
 | Foi | O trabalho foi concluído com êxito. A data e hora em que o trabalho foi concluído é exibida na coluna **concluído** da guia **trabalhos** . |
-| Parcialmente bem-sucedido | O trabalho foi parcialmente bem-sucedido. |
+| Parcialmente bem-sucedido | O trabalho foi parcialmente bem-sucedido. Esse status normalmente é retornado quando o trabalho não encontrou dados parcialmente indexados (também chamados de *dados não indexados*) em algumas das fontes de dados do responsáveis.  |
 | Falhou | O trabalho falhou.  Você deve tentar executar novamente a ação que disparou o trabalho. Se o trabalho falhar uma segunda vez, recomendamos que você entre em contato com o suporte da Microsoft e forneça as informações de suporte do trabalho. |
 |||

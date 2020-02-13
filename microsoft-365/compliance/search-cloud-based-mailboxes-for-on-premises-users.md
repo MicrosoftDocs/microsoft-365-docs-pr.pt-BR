@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados 1xN chats) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: d59af2e39d91bf107567016428102a5aba9cb724
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 042e34028023f1dd4f49804230fe99f2d042d0d6
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597568"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957136"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Pesquisando caixas de correio baseadas em nuvem para usuários locais no Office 365
 
@@ -97,7 +97,7 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
 
     - **Locais específicos:** Selecione essa opção e clique em **Modificar** \> escolher usuário, grupos ou equipes para pesquisar caixas de correio específicas. Conforme explicado anteriormente, o seletor de locais permite que você pesquise os usuários locais. 
     
-5. Salve e execute a pesquisa. Quaisquer resultados de pesquisa das caixas de correio baseadas em nuvem para usuários locais podem ser visualizados como qualquer outro resultado de pesquisa. Você também pode exportar os resultados da pesquisa (incluindo quaisquer dados de chat do Teams) para um arquivo PST. Para saber mais, confira: 
+5. Salve e execute a pesquisa. Quaisquer resultados de pesquisa das caixas de correio baseadas em nuvem para usuários locais podem ser visualizados como qualquer outro resultado de pesquisa. Você também pode exportar os resultados da pesquisa (incluindo quaisquer dados de chat do Teams) para um arquivo PST. Para saber mais, veja: 
 
     - [Create a search](content-search.md#create-a-search)
 
@@ -109,7 +109,7 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
 
 Você pode usar os cmdlets **New-ComplianceSearch** e **set-ComplianceSearch** no PowerShell do centro de conformidade & segurança para pesquisar a caixa de correio baseada em nuvem para usuários locais. Conforme explicado anteriormente, você não precisa enviar uma solicitação de suporte para usar o PowerShell para pesquisar dados de chat do teams para usuários locais. 
   
-1. [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Execute o seguinte comando do PowerShell para criar uma pesquisa de conteúdo que pesquisa as caixas de correio baseadas em nuvem de usuários locais.
 
@@ -137,9 +137,8 @@ Para obter mais informações sobre como usar esses cmdlets, consulte:
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, só é possível pesquisar, Visualizar e exportar conteúdo em caixas de correio baseadas em nuvem para usuários locais. Não há suporte para a colocação de uma caixa de correio baseada em nuvem para um usuário local em um bloqueio associado a um caso de descoberta eletrônica ou a atribuição de uma política de retenção do Office 365. 
+- No momento, você pode pesquisar, Visualizar e exportar conteúdo em caixas de correio baseadas em nuvem para usuários locais. Você também pode colocar uma caixa de correio baseada em nuvem para um usuário local em um bloqueio associado a uma ocorrência de descoberta eletrônica e aplicar uma política de retenção para bate-papos do teams ou mensagens de canal a caixas de correio baseadas em nuvem para usuários locais. No entanto, neste momento, você não pode aplicar uma política de retenção para outros locais de conteúdo (como caixas de correio do Exchange e sites do SharePoint) a caixas de correio baseadas em nuvem para usuários locais. 
 
-- O seletor de local de conteúdo para descoberta eletrônica exibe os usuários locais e permite que você os selecione. No entanto, conforme explicado anteriormente, a suspensão não será aplicada ao usuário local.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -157,7 +156,7 @@ Não. Quando você migrar a caixa de correio principal de um usuário local para
   
  **Posso aplicar uma política de retenção de descoberta eletrônica ou do Office 365 a usuários locais?**
   
-Não.
+Sim. Você pode aplicar as políticas de retenção e bloqueios de descoberta eletrônica para bate-papos do Teams e mensagens de canal para caixas de correio baseadas em nuvem para usuários locais.
   
  **A pesquisa de conteúdo pode localizar chats mais antigos de equipes para usuários locais antes do momento em que minha organização enviou a solicitação para habilitar esse recurso?**
   
