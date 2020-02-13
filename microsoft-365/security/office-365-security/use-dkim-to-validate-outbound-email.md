@@ -1,5 +1,7 @@
 ---
 title: Use DKIM para email em seu domínio personalizado no Office 365, 2048 bits, 1024 bits, etapas, Como funciona, SPF, DMARC
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: este artigo descreve como usar o DomainKeys Identified Mail (DKIM) com o Office 365 para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado.'
-ms.openlocfilehash: a6d45dbcb5015be1b688cad562a234c555d0ef66
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 496089ff46d66df3382895626831023610c706be
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572687"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957156"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Use o DKIM para validar emails enviados de seu domínio personalizado no Office 365
 
@@ -114,7 +116,7 @@ Para configurar o DKIM, execute estas etapas:
 
 Para cada domínio para o qual você deseja adicionar uma assinatura de DKIM no DNS, é preciso publicar dois registros CNAME.
 
-Execute os seguintes comandos:
+Execute os seguintes comandos para criar os registros do seletor:
 
 ```powershell
     New-DkimSigningConfig -DomainName <domain> -Enabled $false
@@ -126,8 +128,6 @@ Crie CNAMEs referenciados na saída Get-DkimSigningConfig
 ```powershell
     Set-DkimSigningConfig -Identity <domain> -Enabled $true
 ```
-
-Os registros CNAME no seu DNS apontarão para os registros DKIM TXT já criados que existem no DNS nos servidores DNS da Microsoft para o Office 365.
 
 O Office 365 executa a rotação de chaves automática usando os dois registros estabelecidos. Se você provisionou domínios personalizados em adição ao domínio inicial no Office 365, deve publicar dois registros CNAME para cada domínio adicional. Portanto, se você tem dois domínios, deve publicar dois registros CNAME adicionais e assim por diante.
 
@@ -177,6 +177,9 @@ Host name:          selector2._domainkey
 Points to address or value: selector2-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 ```
+
+> [!NOTE]
+> É importante criar o segundo registro, mas apenas um dos seletores pode estar disponível no momento da criação. Em essência, o segundo seletor pode apontar para um endereço que ainda não foi criado. Ainda recomendamos que você crie o segundo registro CNAME, pois a rotação de chaves será contínua e você não precisará executar as etapas manuais por conta própria.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain-in-office-365"></a>Habilitar a assinatura DKIM para o seu domínio personalizado no Office 365
 <a name="EnableDKIMinO365"> </a>

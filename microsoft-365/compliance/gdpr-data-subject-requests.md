@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 36
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,22 +14,19 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: f5ab5230cae7dcc31c487ecbc6a2bbdcbcaaa0dd
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: d2f9ac660c30b815d4ac381f347e1c1aa354ce0d
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "39268401"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916906"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados e o RGPD e CCPA
 
 O Regulamento Geral de Proteção de Dados (RGPD) introduz novas regras a organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. independentemente de onde você ou sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo do RGDP](gdpr.md).
 
-Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  A CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas".  <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1SI] 
-
-Neste documento, você poderá obter informações sobre como concluir as solicitações de entidades de dados (DSRs) em RGPD e CCPA usando produtos e serviços da Microsoft.
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". Neste documento, você poderá obter informações sobre como concluir as solicitações de entidades de dados (DSRs) em RGPD e CCPA usando produtos e serviços da Microsoft.
 
 - [Office 365](gdpr-dsr-Office365.md)
 - [Azure](gdpr-dsr-Azure.md)
@@ -50,9 +49,9 @@ Definições úteis para os termos do RGPD usados neste documento:
 
 O RGPD (Regulamento Geral sobre a Proteção de Dados) da União Europeia concede o direito às pessoas (conhecidas na regulamentação como entidades de dados) de gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecidos como controladores de dados ou apenas controladores). O RGPD fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador.
 
-A Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  
+A Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  
 
-Como um controlador você é obrigado a levar em consideração imediatamente cada DSR e fornecer uma resposta substantiva, basta executar a ação solicitada ou fornecer uma explicação sobre por que o DSR não pode ser acomodado pelo controlador. Um controlador deve consultar seus próprios consultores legais ou de conformidade quanto ao descarte apropriado de um determinado DSR.
+Como controlador, você é obrigado a levar em consideração imediatamente cada DSR e fornecer uma resposta substantiva, basta executar a ação solicitada ou fornecer uma explicação sobre por que o DSR não pode ser acomodado pelo controlador. Um controlador deve consultar seus próprios consultores legais ou de conformidade quanto ao descarte apropriado de um determinado DSR.
 
 Vários processos podem estar envolvidos em concluir um DSR, sujeito às regras de RGPD de conformidade da sua organização.
   
@@ -79,7 +78,7 @@ Os logs e os dados relacionados gerados pela Microsoft podem conter dados pessoa
 
 ### <a name="yammer-and-kaizala"></a>Yammer e Kaizala
 
-Excluir uma conta de usuário não removerá logs geradas pelo sistema para o Yammer e Kaizala. Para remover os dados desses aplicativos, siga um destes procedimentos:
+Excluir uma conta de usuário não removerá logs geradas pelo sistema para o Yammer e Kaizala. Para remover os dados desses aplicativos, siga um dos seguintes recursos:
 
 - [Gerenciar solicitações de entidades de dados do RGPD do Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
@@ -99,6 +98,12 @@ Em algumas circunstâncias, os usuários de sua organização podem acessar prod
 ### <a name="third-party-products"></a>Produtos de terceiros
 
 Para produtos e serviços de terceiros acessados por meio da autenticação de conta da Microsoft, as solicitações de assunto de dados devem ser direcionadas para a terceira parte aplicável.
+
+## <a name="data-subject-request-admin-tools"></a>Ferramentas de administração de Solicitações de Entidades de Dados
+
+- **Centro de Conformidade e Segurança**: os dados gerados pelo usuário são exportados pelo [Centro de Conformidade e Segurança](https://aka.ms/stpsecurityandcompliance) ou pelos recursos no aplicativo.
+- **Centro de Administração do Azure AD**: exclua um assunto de dados do Azure Active Directory e os serviços relacionados usando o [Centro de Administração do Microsoft Azure AD](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/Allusers/menuId/).
+- **Exportação de Log de Dados da Microsoft**: os logs gerados pelo sistema podem ser exportados por administradores de locatários usando a [Exportação de Log de Dados da Microsoft](https://aka.ms/MicrosoftGDPR).
 
 ## <a name="learn-more"></a>Saiba mais
 

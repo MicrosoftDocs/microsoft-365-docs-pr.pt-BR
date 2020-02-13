@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 341d3bf53ac11b2233749210b6a34aa7c4df0208
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: d10b47ccf85493f22d9ef5bdfa0e36e4e954c8a7
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855260"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957166"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -322,19 +322,15 @@ Por exemplo, se você possui uma marcação para materiais de marketing e sabe q
   
 Se você aplicar um rótulo de retenção padrão aos itens existentes na biblioteca, pasta ou conjunto de documentos:
   
-- Todos os itens na biblioteca, pasta ou conjunto de documentos terão o mesmo rótulo de retenção, **exceto** os itens que tiverem um rótulo de retenção explicitamente aplicado a eles. Itens rotulados explicitamente mantêm seu rótulo existente. Para saber mais, confira a seção abaixo sobre [Os princípios de retenção, ou o que tem precedência](#the-principles-of-retention-or-what-takes-precedence).
+- Todos os itens na biblioteca, pasta ou conjunto de documentos recebem automaticamente o mesmo rótulo de retenção, **exceto** os itens que tiveram um rótulo de retenção aplicado explicitamente a eles (como os registros). Itens rotulados explicitamente mantêm seu rótulo existente. Para saber mais, confira a seção abaixo sobre [Os princípios de retenção, ou o que tem precedência](#the-principles-of-retention-or-what-takes-precedence).
     
-- Se você alterar ou remover o rótulo de retenção padrão de uma biblioteca, pasta ou conjunto de documentos, ele também será alterado ou removido em todos os itens na biblioteca, pasta ou conjunto de documentos, **exceto** os itens com rótulos de retenção explícitos. 
+- Se você alterar ou remover o rótulo de retenção padrão de uma biblioteca, pasta ou conjunto de documentos, ele também será alterado ou removido em todos os itens na biblioteca, pasta ou conjunto de documentos, **exceto** os itens com rótulos de retenção explícitos (como os registros).
     
 - Se você mover um item com um rótulo de retenção padrão de uma biblioteca, pasta ou conjunto de documentos para outra biblioteca, pasta ou conjunto de documentos, o item manterá o rótulo de retenção padrão existente, mesmo se o novo local tiver um rótulo de retenção padrão diferente.
 
-- Se o rótulo de retenção padrão para uma biblioteca, pasta ou conjunto de documentos declarar o conteúdo como um registro (também chamado de *rótulo de registro*), as seguintes características se aplicam:
+**Registros:** Se você aplicar uma rótulo de registro padrão a uma biblioteca, pasta ou conjunto de documentos, um rótulo de registro será aplicado a todos os itens individuais nesses locais. Ao mover um novo item para um local com um rótulo de registro, esse item será rotulado como um registro. No entanto, se você alterar o rótulo de retenção padrão para um rótulo que não declara o conteúdo como um registro, essa ação **não** remover o rótulo do registro dos itens individuais. Esses itens mantêm o rótulo do registro. Somente um administrador do conjunto de sites pode remover ou alterar explicitamente o rótulo de retenção dos itens de registro.
 
-   - Se você alterar o rótulo de retenção padrão para um rótulo que não declara o conteúdo como um registro, os itens manterão o rótulo de registro padrão existente. O novo rótulo de retenção padrão não será aplicado a esses itens. Um administrador do conjunto de sites deve remover ou alterar explicitamente o rótulo de retenção.
-
-   - Se você remover o rótulo de retenção padrão que declara o conteúdo como um registro, então o rótulo do registro não será removido dos itens na biblioteca, pasta ou conjunto de documentos. Um administrador de conjuntos de sites deve remover explicitamente o rótulo de retenção.
-
-   Para saber mais sobre os rótulos de retenção que declaram o conteúdo como um registro, confira [Visão geral de registros](records.md).
+Para saber mais sobre os rótulos de retenção que declaram o conteúdo como um registro, confira [Visão geral de registros](records.md).
     
 ## <a name="applying-a-retention-label-to-email-by-using-rules"></a>Aplicar um rótulo de retenção ao email usando regras
 

@@ -15,20 +15,16 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ffd5bd81542e2d39a928789c8575178c1b9a7633
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e419dd362ec42f7f2acb8cda03688afe3ade37be
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594421"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916916"
 ---
 # <a name="gdpr-breach-notification"></a>Notificação de falha de RGPD
 
-O RGPD introduz novas regras a empresas, agências governamentais, organizações sem fins lucrativos e outras organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. O RGPD se aplica onde quer que você e sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo do RGDP](gdpr.md).<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrZgG] 
-
-Neste documento, você poderá obter informações sobre como concluir as notificações de violação no RGPD, usando produtos e serviços da Microsoft.
+O RGPD introduz novas regras a empresas, agências governamentais, organizações sem fins lucrativos e outras organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. O RGPD se aplica onde quer que você e sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo do RGDP](gdpr.md). Neste documento, você poderá obter informações sobre como concluir as notificações de violação no RGPD, usando produtos e serviços da Microsoft.
 
 ## <a name="what-constitute-a-breach-of-personal-data-under-the-gdpr"></a>O que constitui uma violação de dados pessoais no âmbito do RGPD?
 
@@ -73,12 +69,16 @@ Os detalhes relacionados a notificações de violação para produtos e serviço
     - *Notificação de Cliente*: o Microsoft Azure notifica os clientes e as autoridades normativas das violações de dados conforme necessário. As notificações dos clientes são oferecidas em não mais de 72 horas a partir do prazo, com exceção das seguintes circunstâncias:
 
         - A Microsoft acredita que o ato de executar uma notificação aumentará o risco para outros clientes.
-        - O cronograma de 72 horas pode deixar alguns detalhes do incidente disponíveis. Eles serão fornecidos para você à medida que a investigação prosseguir.
+        - O cronograma de 72 horas pode deixar alguns detalhes do incidente disponíveis. Estes detalhes serão fornecidos para você à medida que a investigação prosseguir.
 
         Mais detalhes podem ser encontrados na [Notificação do Cliente](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification).
 
 3. **[Suporte e Serviços Profissionais da Microsoft](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
     A natureza dos serviços profissionais significa que alguns incidentes de proteção de dados podem se enquadrar no domínio de responsabilidade do cliente. Quando o Microsoft Professional Services identifica um incidente de proteção de dados, ele acompanha o plano de resposta padrão do setor, conforme descrito em [Escopo e limites do processo de resposta a incidentes de proteção de dados](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process).
+
+## <a name="breach-notification-admin-tools"></a>Ferramentas administrativas de notificação de violação
+
+- **Defina os contatos de privacidade da sua organização**: os administradores de locatários podem usar o [Portal de Administração do Active Directory](https://go.microsoft.com/fwlink/p/?linkid=2052736) para definir o contato de privacidade da organização caso precise se comunicar com eles.
 
 ## <a name="learn-more"></a>Saiba mais
 

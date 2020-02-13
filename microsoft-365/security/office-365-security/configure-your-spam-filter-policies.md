@@ -1,5 +1,7 @@
 ---
 title: Configurar suas políticas de filtro de spam
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 107b4cfa79a83ec5703edd3b47d00c59da81f4b6
-ms.sourcegitcommit: 8b619cc0587d180322d0799fdad813cdd929d9dc
+ms.openlocfilehash: a645d00bd650cba06ca3751aa4fc3f48f9959e5b
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "40929787"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957196"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -138,7 +140,7 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 
 ## <a name="fine-tuning-your-spam-filter-policy-to-prevent-false-positives-and-false-negatives"></a>Otimizar sua política de filtro de spam para evitar falsos positivos e falsos negativos
 
-Você também pode habilitar as técnicas avançadas de filtragem de spam, caso queira adotar uma abordagem mais agressiva de filtragem de spam. Para obter configurações gerais de spam que se apliquem a toda organização, dê uma olhada no [Como impedir que os emails sejam marcados como spam no Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) ou [Bloquear spam de emails com o filtro de spam do Office 365 para evitar problemas de falsos negativos](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
+Você também pode habilitar as técnicas avançadas de filtragem de spam, caso queira adotar uma abordagem mais agressiva de filtragem de spam. Para obter configurações gerais de spam que se apliquem a toda organização, dê uma olhada no [Como impedir que os emails sejam marcados como spam no Office 365](prevent-email-from-being-marked-as-spam.md) ou [Bloquear spam de emails com o filtro de spam do Office 365 para evitar problemas de falsos negativos](reduce-spam-email.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
 
 ## <a name="allowblock-lists"></a>Listas de permissões/bloqueios
 
@@ -160,6 +162,9 @@ As listas de permissões e bloqueios são configuradas como parte de uma políti
    - Adicione remetentes indesejados à lista de Bloqueios de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
 
    - Adicione domínios indesejados à lista de Bloqueio de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
+   
+     > [!NOTE]
+     > Na política de filtro de spam, você pode bloquear domínios inteiros ou remetentes específicos, mas não pode usar caracteres curinga (\*). 
 
 > [!TIP]
 > Podem haver situações nas quais a sua organização pode não concordar com o veredicto fornecido pelo serviço. Nesse caso, talvez você queira manter a Lista de permissões ou bloqueio permanente. No entanto, se você pretende colocar um domínio na Lista de permissões por longos períodos de tempo, deve informar ao remetente para verificar se o domínio está autenticado e configurar o DMARC para rejeitá-lo, caso não esteja.
@@ -171,7 +176,7 @@ As listas de permissões e bloqueios são configuradas como parte de uma políti
 
 [Quarentena](quarantine.md)
 
-[Como impedir que emails reais sejam marcados como spam no Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Como impedir que emails reais sejam marcados como spam no Office 365](prevent-email-from-being-marked-as-spam.md)
 
 [Como reduzir emails de spam no Office 365](reduce-spam-email.md)
 

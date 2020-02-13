@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 111bafdb5d95792e8fda08007bccd7cd274b8832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bb4056b90afc8805d4e56b9b73c0c7d118d6f08c
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594481"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916886"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Suporte ao seu programa RGPD com listas de verificação de preparação para responsabilidade
 
@@ -28,9 +28,7 @@ O RGPD introduz novas regras a empresas, agências governamentais, organizaçõe
 
 ## <a name="accountability-readiness-checklists"></a>Listas de verificação de preparação de responsabilidade
 
-Esta lista de verificação de preparação de responsabilidade fornece uma maneira conveniente para acessar informações que podem ser necessárias para dar suporte ao RGPD ao usar os produtos e serviços da Microsoft. A lista de verificação lista as possíveis obrigações que você pode ter em RGPD e direciona você a informações que você pode usar para dar suporte à conformidade da sua organização. <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1RP] 
+Esta lista de verificação de preparação de responsabilidade fornece uma maneira conveniente para acessar informações que podem ser necessárias para dar suporte ao RGPD ao usar os produtos e serviços da Microsoft. A lista de verificação lista as possíveis obrigações que você pode ter em RGPD e direciona você a informações que você pode usar para dar suporte à conformidade da sua organização.
 
 Há um guia específico para quatro famílias de produtos e serviços da Microsoft:
 
@@ -65,6 +63,17 @@ As listas de verificação incluem as quatro categorias básicas de consideraç�
     - Noções básicas sobre a organização e o contexto  
     - Planejamento  
     - Políticas de segurança da informação
+
+## <a name="customer-agreements"></a>Contratos com os clientes
+
+- **Termos de Serviços Online**: você pode encontrar os compromissos contratuais da Microsoft com relação ao GDPR nos [Termos dos Serviços Online](https://go.microsoft.com/fwlink/p/?linkid=2052208).
+- **Termos do produto da Microsoft**: a Microsoft estende os [compromissos dos Termos do GDPR](https://go.microsoft.com/fwlink/p/?linkid=2052213) a todos os clientes de licenciamento por volume.
+- **Adendo de proteção de dados**: os serviços da Microsoft [estendem os compromissos](https://go.microsoft.com/fwlink/p/?linkid=2052215) aos clientes dos Serviços de Consultoria da Microsoft e outras pessoas.
+
+## <a name="gdpr-compliance-controls"></a>Controles de conformidade com o GDPR
+
+- **Usar a Pontuação de Conformidade**: analise e integre os controles que a Microsoft usa para dar suporte às obrigações no GDPR com a [Pontuação de Conformidade](compliance-score.md).
+- **Mapeamento de controle do GDPR**: acesse um [mapeamento abrangente](https://go.microsoft.com/fwlink/p/?linkid=2052220) dos controles da Microsoft para as obrigações do GDPR.
 
 ## <a name="learn-more"></a>Saiba mais
 
