@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: ITPro
 ms.prod: Microsoft-365-enterprise
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cec221e7695b939f79e71dc0b6ba1156ce724745
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 59e2c36e87232efcda29f9d5abe41b4c37a17a62
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071232"
 ---
 # <a name="microsoft-compliance-offerings"></a>Ofertas de conformidade da Microsoft
 
@@ -32,7 +32,7 @@ A Microsoft oferece um conjunto abrangente de ofertas de conformidade para ajuda
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./media/offering-global-icon.svg" alt="Global icon">
+                            <img src="../media/offering-global-icon.svg" alt="Global icon">
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ A Microsoft oferece um conjunto abrangente de ofertas de conformidade para ajuda
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./media/offering-government-icon.svg" alt="Government icon">
+                            <img src="../media/offering-government-icon.svg" alt="Government icon">
                         </div>
                     </div>
                     <div class="cardText">
@@ -94,7 +94,7 @@ A Microsoft oferece um conjunto abrangente de ofertas de conformidade para ajuda
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./media/offering-industry-icon.svg" alt="Industry icon">
+                            <img src="../media/offering-industry-icon.svg" alt="Industry icon">
                         </div>
                     </div>
                     <div class="cardText">
@@ -151,7 +151,7 @@ A Microsoft oferece um conjunto abrangente de ofertas de conformidade para ajuda
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./media/offering-region-icon.svg" alt="Regional icon">
+                            <img src="../media/offering-region-icon.svg" alt="Regional icon">
                         </div>
                     </div>
                     <div class="cardText">
