@@ -11,16 +11,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: c9b22ef66fb1db762168812385420823788b4bfc
-ms.sourcegitcommit: 30ff011e5e8ba51c7ccc7e5fa9cd25aeca472acd
+ms.openlocfilehash: ce0919a1190da06279081089810221e55a8f59b7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088594"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Rastreamento de mensagens no centro de conformidade & segurança do Office 365 segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
@@ -66,11 +66,11 @@ O valor padrão é **2 dias**, mas você pode especificar intervalos de data/hor
 
 - Por padrão, você seleciona o intervalo de tempo no modo de exibição **Slider** usando uma linha de tempo. Você só pode selecionar as configurações de dia ou hora exibidas. Tentar selecionar um valor entre-between ajustará a bolha de início/término à configuração mais próxima.
 
-  ![Um intervalo de tempo de controle deslizante em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
+  ![Um intervalo de tempo de controle deslizante em um novo rastreamento de mensagem no centro de conformidade & segurança](../../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
 
   No entanto, você também pode alternar para o modo de exibição **personalizado** onde você pode especificar os valores de **data de início** e **data de término** (incluindo horas) e também pode selecionar o **fuso horário** para o intervalo de data/hora. Observe que a configuração de **fuso horário** se aplica às suas entradas de consulta e aos resultados de consulta.
 
-  ![Um intervalo de tempo personalizado em um novo rastreamento de mensagem no centro de conformidade & segurança](../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+  ![Um intervalo de tempo personalizado em um novo rastreamento de mensagem no centro de conformidade & segurança](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
   Por 10 dias ou menos, os resultados estão disponíveis instantaneamente como um relatório de **Resumo** . Se você especificar um intervalo de tempo que é um pouco maior do que 10 dias, os resultados serão atrasados, já que estão disponíveis apenas como um arquivo CSV que pode ser baixado ( **Resumo avançado** ou relatórios **estendidos** ).
 
@@ -146,7 +146,7 @@ Os diferentes tipos de relatório retornam diferentes níveis de informações. 
 
 Após a execução do rastreamento de mensagens, os resultados serão listados, classificados por data/hora decrescente (mais recentes primeiro).
 
-![Resultados do relatório de resumo para rastreamento de mensagens no centro de conformidade & segurança](../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
+![Resultados do relatório de resumo para rastreamento de mensagens no centro de conformidade & segurança](../../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
 
 O relatório de Resumo contém as seguintes informações:
 
@@ -172,7 +172,7 @@ Você pode exportar os resultados depois de ter selecionado uma ou mais linhas c
 
 Registros de mensagens relacionados são registros que compartilhavam a mesma ID de mensagem. Lembre-se, mesmo uma única mensagem enviada entre duas pessoas podem gerar vários registros. O número de registros aumenta quando a mensagem é afetada por expansão de grupo de distribuição, encaminhamento, regras de fluxo de emails (também conhecidas como regras de transporte), etc.
 
-Após selecionar a caixa de seleção de uma linha, você pode encontrar registros relacionados para a mensagem clicando no botão **Localizar relacionado** exibido ou selecionando **mais opções** ![mais](../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **localizar registros relacionados para esta mensagem**.
+Após selecionar a caixa de seleção de uma linha, você pode encontrar registros relacionados para a mensagem clicando no botão **Localizar relacionado** exibido ou selecionando **mais opções** ![mais](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **localizar registros relacionados para esta mensagem**.
 
 Para obter mais informações sobre a ID da mensagem, consulte a seção ID da mensagem anteriormente neste tópico.
 
@@ -182,9 +182,9 @@ Na saída do relatório de resumo, é possível exibir detalhes sobre uma mensag
 
 - Selecione a linha (clique em qualquer lugar na linha, exceto a caixa de seleção).
 
-- Marque a caixa de seleção da linha e clique em **mais opções** ![mais](../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **Exibir detalhes da mensagem**.
+- Marque a caixa de seleção da linha e clique em **mais opções** ![mais](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **Exibir detalhes da mensagem**.
 
-   ![Detalhes depois de clicar duas vezes em uma linha no relatório de resumo Message Trace Results no centro de conformidade de segurança &](../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
+   ![Detalhes depois de clicar duas vezes em uma linha no relatório de resumo Message Trace Results no centro de conformidade de segurança &](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
 
 Os detalhes de rastreamento de mensagem contêm as seguintes informações adicionais que não estão presentes no relatório de Resumo:
 

@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: 'Resumo: implante um novo site de equipe do SharePoint Online isolado com as instruções passo a passo.'
-ms.openlocfilehash: c49b8d2d0c69f76f284061e21c8be31ee2204a54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 39cf33ce3314e2eb0cd313ff0382f50d7cb8487a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088780"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Implantar um site de equipe do SharePoint Online isolado
 
@@ -89,7 +89,7 @@ Você precisa criar os seguintes grupos de acesso no Azure AD:
   
 Aqui está a configuração resultante com os três grupos de acesso de site.
   
-![Os três grupos de acesso para sua implantação de um site isolado do SharePoint Online.](../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![Os três grupos de acesso para sua implantação de um site isolado do SharePoint Online.](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
 ### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Etapa 5. Adicionar as contas de usuário aos grupos de acesso
 
@@ -151,7 +151,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
 
 Aqui está a configuração resultante com os três grupos de acesso de site preenchidos com contas de usuário ou grupos.
   
-![Os três grupos de acesso preenchidos com contas de usuário.](../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
+![Os três grupos de acesso preenchidos com contas de usuário.](../../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Fase 2: criar e configurar o site de equipe isolado
 
@@ -221,7 +221,7 @@ Os resultados dessas configurações de permissão são:
     
 Aqui está a configuração resultante com os três grupos do SharePoint para o site configurado para usar os três grupos de acesso, que são preenchidos com contas de usuário ou grupos do Azure AD.
   
-![A configuração final do seu site isolado do SharePoint Online com grupos de acesso e contas de usuário.](../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
+![A configuração final do seu site isolado do SharePoint Online com grupos de acesso e contas de usuário.](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
   
 Você e os membros do site, por meio da Associação de grupo em um dos grupos de acesso, agora podem colaborar usando os recursos do site.
   
@@ -229,7 +229,7 @@ Você e os membros do site, por meio da Associação de grupo em um dos grupos d
 
 Quando você precisar alterar a associação de grupo de acesso ao site ou criar uma pasta de documentos com permissões personalizadas, consulte [gerenciar um site de equipe isolado do SharePoint Online](manage-an-isolated-sharepoint-online-team-site.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Sites de equipe do SharePoint Online isolados](isolated-sharepoint-online-team-sites.md)
   

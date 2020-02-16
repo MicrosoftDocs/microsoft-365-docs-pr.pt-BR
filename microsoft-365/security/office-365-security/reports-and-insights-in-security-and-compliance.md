@@ -17,12 +17,12 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: Obtenha uma visão geral de relatórios e ideias de avialable no centro de &amp; conformidade de segurança.
-ms.openlocfilehash: edbc4cd53b5cd830996220c875a1b48565a96c13
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3c205350ef57514c434ac75fae21c104a2c1706e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088140"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Relatórios inteligentes e insights no centro de conformidade de &amp; segurança do Office 365
 
@@ -32,7 +32,7 @@ Se você fizer parte da equipe de segurança do Office 365 da sua organização 
 
 Os recursos de monitoramento disponíveis no centro de &amp; conformidade de segurança do Office 365 incluem relatórios inteligentes e insights que permitem aos administradores de segurança e conformidade se concentrarem em problemas de alta prioridade, como ataques de segurança ou uma maior atividade suspeita. Em um painel, os relatórios inteligentes e insights se assemelham à imagem a seguir:
   
-![No centro de &amp; conformidade de segurança, escolha \> painel de relatórios](../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+![No centro de &amp; conformidade de segurança, escolha \> painel de relatórios](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
   
 Além de destacar áreas problemáticas, relatórios inteligentes e insights incluem recomendações e links para exibir e explorar dados e também realizar ações rápidas. Por exemplo, se a sua organização tiver inesperadamente uma grande quantidade de mensagens de email sendo marcadas como spam por usuários finais, você poderá ser aconselhado a revisitar suas políticas antispam para garantir que o nível certo de proteção esteja em vigor.
   
@@ -57,7 +57,7 @@ Uma ampla variedade de relatórios estão disponíveis no centro de &amp; confor
 |**Gerenciador de ameaças** (também chamado de Explorer) ou **detecções em tempo real** <br/> Malware suspeito detectado em emails e arquivos no Office 365  <br/> |No centro de &amp; conformidade de segurança, vá para **Threat Management** \> **Explorer** ou **detecções em tempo real**<br/> |[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md) <br/> |
 |**Proteção avançada contra ameaças e relatórios de segurança de email** <br/> Relatórios de segurança de email e proteção contra ameaças (incluindo malware, spam, phishing e relatórios de falsificação)  <br/> |No centro de &amp; conformidade de segurança, vá para **painel** de **relatórios** \> <br/> |[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md) <br/><br/> [Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança](view-email-security-reports.md) <br/> |
 |**Fluxo de mensagens** <br/> Informações sobre mensagens de email enviadas e recebidas, alertas recentes, principais remetentes e destinatários, relatórios de encaminhamento de email e muito mais  <br/> |No centro de &amp; conformidade de segurança, vá para \> **painel** de **fluxo de emails** <br/> |[Insights de fluxo de emails no Centro de Conformidade e Segurança](mail-flow-insights-v2.md)<br/> |
-|**Conformidade com o GDPR** <br/> Informações sobre a conformidade do RGPD, incluindo links para entidades de dados, tendências de &amp; rótulo e casos fechados ativos  <br/> |No centro de &amp; conformidade de segurança, vá para **painel de rgpd** de **privacidade** \> de dados <br/> |[Proteção de Informações do Office 365 para o RGPD](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) <br/> |
+|**Conformidade com o GDPR** <br/> Informações sobre a conformidade do RGPD, incluindo links para entidades de dados, tendências de &amp; rótulo e casos fechados ativos  <br/> |No centro de &amp; conformidade de segurança, vá para **painel de rgpd** de **privacidade** \> de dados <br/> |[Proteção de informações do Office 365 para o RGPD](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) <br/> |
 |**Log de auditoria** <br/> Informações sobre as atividades do Office 365, usuários, arquivos ou pastas e muito mais  <br/> |No centro de &amp; conformidade de segurança, vá **para &amp; investigação** \> de pesquisa **pesquisa de log de auditoria** <br/> |[Pesquisar o log de auditoria no Centro de Conformidade &amp; Segurança do Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**Relatórios de conformidade** <br/> Relatórios de FedRAMP, governança, risco e conformidade, relatórios de gerenciamento de segurança de informações ISO e organização de serviços controlam relatórios de auditoria e avaliação  <br/> |No centro de &amp; conformidade de segurança, vá para **relatórios de conformidade** de **garantia** \> de serviço <br/> |[Planejar a conformidade &amp; de segurança no Office 365](../../compliance/plan-for-security-and-compliance.md) <br/> |
   

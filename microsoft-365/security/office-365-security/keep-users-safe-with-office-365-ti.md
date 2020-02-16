@@ -16,12 +16,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Saiba como os recursos de investigação e resposta do Office 365 podem ajudar sua organização a detectar invasões e ameaças, e reduzir rapidamente e recuperar contra ameaças.
-ms.openlocfilehash: 2f709c555974444b8f2a09d87705043d65240090
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6734903198fa29cdd7ac4295feb6313479ecab50
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088660"
 ---
 # <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Manter sua organização segura com os recursos de investigação e resposta contra ameaças do Office 365
 
@@ -35,7 +35,7 @@ O [Gerenciador de ameaças](threat-explorer.md) (também chamado de Explorer) aj
 
 O Explorer também ajuda os administradores a navegar pelas relações entre usuários e emails. Sabe de um email específico que era ruim? Procure-o para ver quais usuários receberam o email, depois siga a série de eventos e veja o que os usuários já fizeram em vez.
 
-![Captura de tela do explorador de ameaças no Office 365, codificado em cores pela família de malware](../media/591338dd-252a-437d-b5f2-87aa42e74b0c.png)
+![Captura de tela do explorador de ameaças no Office 365, codificado em cores pela família de malware](../../media/591338dd-252a-437d-b5f2-87aa42e74b0c.png)
 
 ## <a name="quickly-mitigate-and-recover-from-threats"></a>Reduzir e recuperar rapidamente as ameaças
 
@@ -43,7 +43,7 @@ Depois que os administradores de segurança identificaram algo suspeito ou mal-i
 
  **Atualização:** A capacidade de excluir as mensagens de email (exclusão eletrônica ou de hardware) diretamente da estrutura de incidentes foi adicionada. Os administradores anteriores só podiam mover emails para a pasta de lixo eletrônico de um usuário, onde os usuários podem recuperar o item. Com os recursos de exclusão recém-lançado, agora você pode ter certeza de que um email mal-intencionado ou indesejado é removido permanentemente.
 
-![Captura de tela da lista de emails de correção de incidentes](../media/9d8452d3-d8d2-4b26-81f9-76396e08dd17.png)
+![Captura de tela da lista de emails de correção de incidentes](../../media/9d8452d3-d8d2-4b26-81f9-76396e08dd17.png)
 
 ## <a name="leverage-the-threat-telemetry-of-microsoft"></a>Aproveitar a telemetria de ameaças da Microsoft
 

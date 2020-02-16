@@ -16,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:'
-ms.openlocfilehash: a2a427f13c329c4c72f718bb19ecc0dce06f8f91
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3f8d07a2499fa3c8690393aa444e018b83c632b1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598568"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088233"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Relatar mensagens de Lixo Eletrônico à Microsoft
 
@@ -47,10 +47,10 @@ O Suplemento de Relatórios de Lixo Eletrônico ajuda você a enviar relatórios
 1. Clique com o botão direito do mouse nas mensagens que deseja relatar como lixo eletrônico.
 
 2. Selecione **Lixo Eletrônico** e clique em **Relatar lixo eletrônico**.
-    ![Reportar mensagens de lixo eletrônico da Caixa de Entrada](../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
+    ![Reportar mensagens de lixo eletrônico da Caixa de Entrada](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
 
 3. A caixa de diálogo **Suplemento de Relatório de lixo eletrônico da Microsoft** será aberta. Se você tiver certeza de que deseja enviar as mensagens que selecionou como lixo eletrônico, clique em **Sim**.
-    ![Confirme o relatório como lixo eletrônico](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
+    ![Confirme o relatório como lixo eletrônico](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
 
     > [!NOTE]
     > Se você não quiser receber essa mensagem de confirmação ao enviar mensagens de lixo eletrônico, marque **Não mostrar essa mensagem novamente**.
@@ -59,10 +59,10 @@ As mensagens selecionadas serão enviadas à Microsoft para análise e movidas p
 
 ### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>Para relatar uma mensagem de lixo eletrônico de dentro de uma mensagem de aberta
 
-1. De dentro de uma mensagem aberta, clique no botão **Relatar lixo eletrônico** na faixa de opções da mensagem. Por exemplo **, clique em** \> lixo eletrônico **relatar** ![lixo eletrônico de um lixo eletrônico de dentro de uma mensagem](../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
+1. De dentro de uma mensagem aberta, clique no botão **Relatar lixo eletrônico** na faixa de opções da mensagem. Por exemplo **, clique em** \> lixo eletrônico **relatar** ![lixo eletrônico de um lixo eletrônico de dentro de uma mensagem](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
 
 2. A caixa de diálogo **Suplemento de Relatório de lixo eletrônico da Microsoft** será aberta. Se você tiver certeza de que deseja enviar a mensagem selecionada como lixo eletrônico, clique em **Sim**.
-    ![Confirme o relatório como lixo eletrônico](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
+    ![Confirme o relatório como lixo eletrônico](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
 
     > [!NOTE]
     > Se você não quiser receber essa mensagem de confirmação ao enviar mensagens de lixo eletrônico, marque **Não mostrar essa mensagem novamente**.

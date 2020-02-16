@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores no Office 365 (também conhecido como inteligência de fluxo de emails).
-ms.openlocfilehash: ea4fb56f0e303d243af02edf01e5d85b957a6368
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 849493cefecb3344eaf7b6db73be3930138c236c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088650"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Inteligência de fluxo de emails no Office 365
 
@@ -72,9 +72,9 @@ Normalmente, esse erro significa que o Office 365 encontrou um erro de conexão 
 
     2. Selecione o conector com o valor **de do** **Office 365** e o valor **para para** o **servidor de email da sua organização** e execute uma das seguintes etapas:
 
-       - Exclua o conector clicando no ícone **excluir** ![remover](../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - Exclua o conector clicando no ícone **excluir** ![remover](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Desabilite o conector clicando em **Editar** ![ícone](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
+       - Desabilite o conector clicando em **Editar** ![ícone](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
 
   - Altere o domínio aceito no Office 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
