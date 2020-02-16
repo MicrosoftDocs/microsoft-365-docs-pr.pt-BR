@@ -20,12 +20,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: As políticas de gerenciamento de informações permitem que sua organização controle o tempo de retenção de conteúdo, para auditar o que as pessoas fazem com o conteúdo e adicionar códigos de barras ou rótulos a documentos. Uma política pode ajudar a garantir a conformidade com normas legais e governamentais ou processos corporativos internos. Como administrador, você pode configurar uma política para controlar como controlar documentos e quanto tempo manter documentos.
-ms.openlocfilehash: b61c18390dde2e5d2da92189acced42ea5ece64c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: eabbd2d6292de621b4c8e14d6d491f27b8fb24f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077500"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Criar e aplicar políticas de gerenciamento de informações
 
@@ -46,13 +46,13 @@ Confira mais informações em [introdução às políticas de gerenciamento de i
 
 Para garantir que uma política de informações seja aplicada a todos os documentos de um determinado tipo dentro de um conjunto de sites, considere a criação da política no nível do conjunto de sites e, posteriormente, aplique a política aos tipos de conteúdo. Eles são chamados de políticas de conjunto de sites. 
   
-1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
+1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
 2. Na página Configurações do site, em **modelos de política de tipo de conteúdo**da administração \> do conjunto de **sites** . 
   
-![Link do modelo de política de tipo de conteúdo na página Definições do site](media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
+![Link do modelo de política de tipo de conteúdo na página Definições do site](../media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
   
 3. Na página \> políticas **criar**. 
     
@@ -69,13 +69,13 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
   
  Você também pode adicionar uma política de gerenciamento de informações a um tipo de conteúdo específico às listas. Isso tem o efeito de aplicar a política somente aos itens dessa lista que estão usando o tipo de conteúdo. 
   
-1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
+1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
 2. Na página Configurações do site, em **tipos de conteúdo de site**de galerias \> do **Web designer** .
   
-![Link tipos de conteúdo do site na página Configurações do site](media/6f6fa51f-15d7-4782-b06f-a7b36e874cd3.png)
+![Link tipos de conteúdo do site na página Configurações do site](../media/6f6fa51f-15d7-4782-b06f-a7b36e874cd3.png)
   
 3. Na página Configurações de tipo de conteúdo do site, selecione o tipo de conteúdo ao qual você deseja adicionar uma política.
     
@@ -85,7 +85,7 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
     
 6. Nas próximas seções, selecione os recursos de política individuais que você deseja adicionar à política de gerenciamento de informações. 
   
-![Tipos de políticas de conteúdo](media/19fcb8a3-974b-40d3-a13f-b76088d122f8.png)
+![Tipos de políticas de conteúdo](../media/19fcb8a3-974b-40d3-a13f-b76088d122f8.png)
   
 7. Para especificar um período de retenção para documentos e itens sujeitos a esta política, escolha **habilitar retenção**e, em seguida, especifique o período de retenção e as ações que você deseja que ocorram quando os itens expirarem.
     
@@ -161,7 +161,7 @@ Você precisa de pelo menos a permissão gerenciar listas para alterar as config
     
 3. Em **permissões e configurações de política de gerenciamento de informações de gerenciamento** \> ****.
   
-![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
+![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](../media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
 4. Na página Configurações de política de gerenciamento de informações, certifique-se de que a fonte de retenção da lista ou biblioteca está definida como biblioteca e pastas. 
   
@@ -208,7 +208,7 @@ Se as políticas de gerenciamento de informações já tiverem sido criadas para
     
 3. Em **permissões e configurações de política de gerenciamento de informações de gerenciamento** \> ****.
   
-![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
+![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](../media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
 4. Verifique se a fonte de política está definida como **tipos de conteúdo**e em políticas de tipo de **conteúdo** selecione o tipo de conteúdo ao qual você deseja aplicar a política. 
     
@@ -237,13 +237,13 @@ Você pode definir uma política de gerenciamento de informações e, em seguida
 ### <a name="export-a-policy"></a>Exportar uma política
 <a name="__toc260646790"> </a>
 
-1. Na home page do conjunto de sites, escolha **configurações**![pequenas de configurações de engrenagem que tomaram o lugar das configurações do site. ](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
+1. Na home page do conjunto de sites, escolha **configurações**![pequenas de configurações de engrenagem que tomaram o lugar das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
 2. Na página Configurações do site, em **modelos de política de tipo de conteúdo**da administração \> do conjunto de **sites** . 
   
-![Link do modelo de política de tipo de conteúdo na página Definições do site](media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
+![Link do modelo de política de tipo de conteúdo na página Definições do site](../media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
   
 3. Escolha a política que você deseja exportar \> rolar para a \> **exportação**inferior.
     
@@ -256,7 +256,7 @@ Você pode definir uma política de gerenciamento de informações e, em seguida
 
 A importação de uma política de gerenciamento de informações permite que você a aplique a vários tipos de conteúdo no site ou nível de lista em um determinado conjunto de sites. Os benefícios de fazer isso são duplos: não é necessário redefinir e aplicar a política em cada tipo de conteúdo, e você pode gerenciar mais facilmente as modificações de política fazendo alterações na política em apenas um local.
   
-1. Na home page do conjunto de sites ao qual você deseja aplicar a política, escolha **configurações**![pequenas engrenagens que levaram o local das configurações do site. ](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
+1. Na home page do conjunto de sites ao qual você deseja aplicar a política, escolha **configurações**![pequenas engrenagens que levaram o local das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     

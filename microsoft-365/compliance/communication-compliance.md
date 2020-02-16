@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3dabe35b753e38ab51801c6f2bd51cc5ee588e9a
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661937"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078680"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -61,7 +61,7 @@ A conformidade com comunicações no Microsoft 365 baseia-se nos recursos das [p
 - Fluxos de trabalho de correção flexíveis
 - Informações acionáveis
 
-![Home Page de conformidade de comunicação](media/communication-compliance-home.png)
+![Home Page de conformidade de comunicação](../media/communication-compliance-home.png)
 
 ### <a name="intelligent-customizable-templates"></a>Modelos inteligentes personalizáveis
 
@@ -108,7 +108,7 @@ A conformidade com comunicações ajuda você a lidar com pontos problemáticos 
 
 Identificar e resolver problemas de conformidade com a conformidade de comunicação no Microsoft 365 usa o seguinte fluxo de trabalho:
 
-![Fluxo de trabalho de conformidade de comunicação](media/communication-compliance-workflow.png)
+![Fluxo de trabalho de conformidade de comunicação](../media/communication-compliance-workflow.png)
 
 ### <a name="configure"></a>Configurar
 
@@ -153,4 +153,4 @@ Manter o controle e o gerenciamento de problemas de conformidade identificados p
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
-Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configurar a conformidade de comunicação para o microsoft 365 (versão prévia)](communication-compliance-configure.md).
+Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configure Communication Compliance for Microsoft 365](communication-compliance-configure.md).

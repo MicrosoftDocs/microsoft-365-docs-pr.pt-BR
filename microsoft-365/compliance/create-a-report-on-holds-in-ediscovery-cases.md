@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Use o script neste artigo para gerar um relatório que contenha informações sobre todas as isenções associadas a ocorrências de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365.
-ms.openlocfilehash: 415e484938a74620f0e3578bd1e00735232164de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8c426ff06bb0b2bafdfa91b9098b321994d558d7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077699"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Criar um relatório sobre isenções em casos de descoberta eletrônica no Office 365
   
@@ -176,7 +176,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     
     Veja um exemplo de execução do script CaseHoldsReport. ps1. 
     
-    ![A saída após a execução do script CaseHoldsReport. ps1](media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
+    ![A saída após a execução do script CaseHoldsReport. ps1](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
   
 ## <a name="more-information"></a>Mais informações
 

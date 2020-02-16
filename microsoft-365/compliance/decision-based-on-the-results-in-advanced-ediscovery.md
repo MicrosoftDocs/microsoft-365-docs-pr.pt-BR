@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: 'Saiba como a guia decidir na descoberta eletrônica avançada do Office 365 fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de arquivos de caso. '
-ms.openlocfilehash: e60aff12e20a4f8accfbcda958c2d087fd732e88
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b0dd68c294b4555bcf7c9b2cb1c6db455af32e7d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076238"
 ---
 # <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Decisão com base nos resultados da descoberta eletrônica avançada do Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "41595378"
   
 ## <a name="using-the-decide-tab"></a>Usando a guia decidir
 
-![Decisão de Relevância](media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
+![Decisão de Relevância](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
 Essa guia inclui o seguinte:
   

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: c1f912deacd9e7a9b30cbc4665a259177aeebf65
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dff5e6c057df37c076e328d5203a1eb4e4b3207a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595738"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078508"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -39,7 +39,7 @@ Se você usa o [gerente de conformidade](compliance-manager-overview.md)no momen
 
 A página principal de Pontuação de conformidade é seu painel personalizado. Ele mostra sua pontuação atual, ajuda a ver o que precisa de atenção e orienta as ações para melhorar sua pontuação. Seu painel de Pontuação de conformidade terá a seguinte aparência:
 
-![Pontuação de conformidade-painel](media/compliance-score-dashboard.png "Painel de Pontuação de conformidade")
+![Pontuação de conformidade-painel](../media/compliance-score-dashboard.png "Painel de Pontuação de conformidade")
 
 ### <a name="simplified-compliance-management"></a>Gerenciamento de conformidade simplificado
 
@@ -75,7 +75,7 @@ Saiba mais sobre [como a pontuação de conformidade é calculada e continuament
 
 A pontuação de conformidade usa vários componentes para ajudá-lo a gerenciar suas atividades de conformidade. À medida que você usa a pontuação de conformidade para atribuir, testar e monitorar atividades de conformidade, é útil ter uma compreensão básica desses componentes-chave. Este diagrama mostra as relações entre elas:
 
-![Relações no Gerenciador de conformidade versão 3](media/compliance-manager-relationships.png "Componentes de Pontuação de conformidade")
+![Relações no Gerenciador de conformidade versão 3](../media/compliance-manager-relationships.png "Componentes de Pontuação de conformidade")
 
 ### <a name="controls"></a>Controles
 

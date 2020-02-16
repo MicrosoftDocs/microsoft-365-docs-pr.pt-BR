@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 78997bfb6a3a77a03d95560d5f0c38eaae2dda4c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01f2e6f9ceccd1903f62e8661f2cfc8f4cc2b47e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078103"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Analisar conversas na descoberta eletrônica avançada 
 
@@ -47,7 +47,7 @@ Aqui estão algumas definições para ajudá-lo a começar a usar a reconstruç�
 
 - **Conversa:** Representa um agrupamento de uma ou mais mensagens. Em diferentes aplicativos, as conversas podem ser representadas de diferentes maneiras. Em alguns aplicativos, há uma ação explícita que resulta da resposta a uma mensagem existente. As conversas são formadas explicitamente como resultado dessa ação do usuário. Por exemplo, aqui está uma captura de tela de uma conversa de canal no Microsoft Teams.
 
-   ![Conversa de canal do Microsoft Teams](media/threadedchat.png)
+   ![Conversa de canal do Microsoft Teams](../media/threadedchat.png)
 
    Em outros aplicativos (como mensagens de chat do 1xN no Microsoft Teams), não há uma cadeia de resposta formal e, em vez disso, as mensagens aparecem como "Rio simples de mensagens" em um único thread. Nesses tipos de aplicativos, as conversas são inferidas de um grupo de mensagens que ocorrem dentro de um determinado momento. Esse "Agrupamento de mensagens" (em vez de uma cadeia de resposta) representa a conversa "frente e para trás" sobre um tópico específico de interesse. 
 
@@ -71,7 +71,7 @@ Depois de revisar e finalizar a consulta de pesquisa, você pode adicionar os re
 
 Ao adicionar dados de conversas a um conjunto de revisão, você pode usar as opções de recuperação de conversa para expandir sua pesquisa e incluir mensagens contextuais. Após definir as opções de recuperação de conversa, as seguintes coisas podem ocorrer:
 
-  ![Recuperação de conversa](media/messagesandconversations.png)
+  ![Recuperação de conversa](../media/messagesandconversations.png)
   
 1. Usando uma consulta de intervalo de datas e palavras-chave, a pesquisa retornou uma ocorrência na *mensagem 3*. Esta mensagem faz parte de uma conversa maior, ilustrada por *CRC1*. 
   
@@ -99,13 +99,13 @@ Após o conteúdo ter sido processado e adicionado ao conjunto de revisão, voc�
 
 Em um conjunto de revisão padrão, as mensagens são processadas e exibidas como itens individuais, semelhante à forma como estão armazenadas em uma pasta de caixa de correio. Neste fluxo de trabalho, cada mensagem é processada como um item separado. Como resultado, o resumo segmentado e as opções de exportação não estão disponíveis em um conjunto de análise padrão. 
 
-  ![Conjunto de revisão padrão](media/standardrs.PNG)
+  ![Conjunto de revisão padrão](../media/standardrs.PNG)
 
 ### <a name="reviewing-conversations-in-a-conversation-review-set"></a>Analisar conversas em um conjunto de revisão de conversa
 
 Em um conjunto de revisão de conversa, as mensagens individuais são encadeadas e apresentadas como conversas. Isso permite que você revise e exporte conversas contextuais. 
 
-  ![Conjunto de revisão de conversa](media/ConversationRSOptions.PNG)
+  ![Conjunto de revisão de conversa](../media/ConversationRSOptions.PNG)
 
 As seções a seguir descrevem a revisão e exportação de conversas em um conjunto de análise de conversa.
 
@@ -134,7 +134,7 @@ Em um conjunto de revisão de conversa, você pode usar as seguintes opções pa
 
 Em um conjunto de revisão de conversa, você pode definir as seguintes opções para exportar conversas:
 
-![Exportar](media/export.png)
+![Exportar](../media/export.png)
 
 a. Opções de metadados
 

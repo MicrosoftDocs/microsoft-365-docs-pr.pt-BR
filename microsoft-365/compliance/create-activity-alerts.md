@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 description: Adicione e gerencie alertas de atividade no centro de conformidade e segurança para que o Office 365 envie notificações por email quando os usuários executarem atividades específicas no Office 365.
-ms.openlocfilehash: 31807199345f4cf2ed6a4226fc407cb10c856c23
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b83dec740b8b37d3c8a4132f114ee76178b2dd86
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077659"
 ---
 # <a name="create-activity-alerts-in-the-office-365"></a>Criar alertas de atividade no Office 365
 
@@ -49,12 +49,12 @@ Você pode criar um alerta de atividade que lhe enviará uma notificação por e
     
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
     
-3. Na página **alertas de atividade** , clique ![em Adicionar](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **novo**.
+3. Na página **alertas de atividade** , clique ![em Adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **novo**.
 
    A página de menu para criar um alerta de atividade é exibida.
 
     
-    ![Criar um alerta de atividade](media/53888bd5-9fa2-4398-8ccc-1a9dc72517ac.png)
+    ![Criar um alerta de atividade](../media/53888bd5-9fa2-4398-8ccc-1a9dc72517ac.png)
   
 4. Preencha os seguintes campos para criar um alerta de atividade:
     
@@ -76,7 +76,7 @@ Você pode criar um alerta de atividade que lhe enviará uma notificação por e
     
     O novo alerta é exibido na lista da página **alertas de atividade** . 
     
-    ![Uma lista de alertas é exibida na página alertas de atividade](media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
+    ![Uma lista de alertas é exibida na página alertas de atividade](../media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
   
     O status do alerta é definido como **ativado**. Observe que os destinatários que receberão uma notificação por email quando um alerta é enviado também são listados. 
   
@@ -100,7 +100,7 @@ Para ativar novamente um alerta de atividade, basta repetir estas etapas e clica
 
 - Veja um exemplo de notificação de email que é enviada aos usuários que são especificados no campo enviar este alerta para (e listados em **destinatários** da página **alertas de atividade** ) no centro de conformidade de segurança &. 
     
-    ![Exemplo de notificação de email enviada para um alerta de atividade](media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
+    ![Exemplo de notificação de email enviada para um alerta de atividade](../media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
   
 - Veja aqui algumas atividades comuns de documentos e emails para as quais você pode criar alertas de atividade. As tabelas descrevem a atividade, o nome da atividade para criar um alerta e o nome do grupo de atividade em que a atividade está listada na lista suspensa **atividades** . Para ver uma lista completa das atividades para as quais você pode criar alertas de atividade, consulte a seção "atividades auditadas" em [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md#audited-activities).
     

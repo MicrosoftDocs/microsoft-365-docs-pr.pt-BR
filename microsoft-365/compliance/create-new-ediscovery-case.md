@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7d507730e3e5301446889e52e4bbd5d85660da36
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 44bebc777b729984e9436ed7677e3da60145ac02
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596108"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077478"
 ---
 # <a name="create-a-new-case-in-advanced-ediscovery"></a>Criar um novo caso na descoberta eletrônica avançada  
 
@@ -49,4 +49,4 @@ ms.locfileid: "41596108"
 
     A guia **página inicial** do caso é exibida. Por exemplo, aqui está um novo caso chamado *investigação da Contoso*.
 
-    ![A guia página inicial de um novo caso na descoberta eletrônica avançada](media/newAeDcase.png)
+    ![A guia página inicial de um novo caso na descoberta eletrônica avançada](../media/newAeDcase.png)

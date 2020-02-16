@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Depois que uma caixa de correio do Office 365 é desativada, você pode alterar a duração da política de retenção de bloqueio ou do Office 365 atribuída à caixa de correio inativa. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos.
-ms.openlocfilehash: c50f7845377b6428a4cdce2bb7240a7ca973a8eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcfea972bd627da831e9927884669d2ed8ee5234
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078929"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Alterar a duração da retenção para uma caixa de correio inativa no Office 365
 
@@ -139,7 +139,7 @@ O resultado é que os itens da caixa de correio inativa são mantidos indefinida
 
 2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
     
-3. Selecione o bloqueio in-loco que você deseja alterar e, em seguida **** ![, selecione Editar](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)ícone de edição.
+3. Selecione o bloqueio in-loco que você deseja alterar e, em seguida **** ![, selecione Editar](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)ícone de edição.
     
 4. Na página Propriedades **de retenção de &amp; descoberta eletrônica in-loco** , selecione **bloqueio in-loco**. 
     
@@ -149,7 +149,7 @@ O resultado é que os itens da caixa de correio inativa são mantidos indefinida
     
     2. Selecione **especificar número de dias para reter itens em relação à data de recebimento** para reter itens por um período específico. Digite o número de dias para os quais você deseja armazenar itens. 
     
-    ![Captura de tela da alteração da duração de um Bloqueio In-loco](media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
+    ![Captura de tela da alteração da duração de um Bloqueio In-loco](../media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
   
 6. Selecione **Salvar**.
     

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Office 365 aplicando uma política de retenção de bloqueio ou do Office 365 à caixa de correio e, em seguida, excluindo a conta de usuário do Office 365 correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: b3b3eddc67c1f23dffdb8ecb45428b9c64c6d0e0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 845ed0307081390c976cf3ac27671a858d99d433
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077618"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Criar e gerenciar caixas de correio inativas no Office 365
 
@@ -77,13 +77,13 @@ Para exibir uma lista das caixas de correio inativas em sua organização:
     
 2. Clique em**retenção**de **governança** > de informações.
     
-3. Na página **retenção** , clique em **mais**![elipses](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)de barra de navegação e clique em **caixas de correio inativas**.
+3. Na página **retenção** , clique em **mais**![elipses](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)de barra de navegação e clique em **caixas de correio inativas**.
     
-    ![Na página retenção, clique em mais e em caixas de correio inativas para exibir uma lista de caixas de correio inativas](media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
+    ![Na página retenção, clique em mais e em caixas de correio inativas para exibir uma lista de caixas de correio inativas](../media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
   
     A página **caixas de correio inativas** é exibida. Observação o número total de caixas de correio inativas em sua organização é exibido. 
     
-    ![Uma lista de todas as caixas de correio inativas em sua organização é exibida](media/57d9d183-0c6c-4bd8-82e7-115f7b7b6de7.png)
+    ![Uma lista de todas as caixas de correio inativas em sua organização é exibida](../media/57d9d183-0c6c-4bd8-82e7-115f7b7b6de7.png)
   
 Como alternativa, você pode executar o seguinte comando no PowerShell do Exchange Online para exibir a lista de caixas de correio inativas.
 
@@ -91,7 +91,7 @@ Como alternativa, você pode executar o seguinte comando no PowerShell do Exchan
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
-Você pode clicar ![em exportar ícone](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) de resultados de pesquisa **Exportar** para exibir ou baixar um arquivo CSV que contém informações adicionais sobre as caixas de correio inativas em sua organização. 
+Você pode clicar ![em exportar ícone](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) de resultados de pesquisa **Exportar** para exibir ou baixar um arquivo CSV que contém informações adicionais sobre as caixas de correio inativas em sua organização. 
   
 Você também pode executar o seguinte comando para exportar a lista de caixas de correio inativas e outras informações para um arquivo CSV. Neste exemplo, o arquivo CSV é criado no diretório atual.
 

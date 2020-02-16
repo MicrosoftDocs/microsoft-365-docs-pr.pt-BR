@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: Use o arquivo Results. csv ou itens não indexados. csv de uma pesquisa de conteúdo existente para criar uma pesquisa de lista de ID que retorna mensagens de email específicas. Pesquisas de lista de ID normalmente são usadas para retornar itens de caixa de correio parcialmente indexados.
-ms.openlocfilehash: 19128e182183b43edbc5957ac2aca5420b58cfe2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97c69cd096e1ec2fa69082edef70cd41dfd229b0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077001"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Preparar um arquivo CSV para uma pesquisa de conteúdo de lista de ID no Office 365
 
@@ -29,7 +29,7 @@ Veja uma rápida visão geral do processo de criação de uma pesquisa de lista 
 
 1. Criar e executar uma pesquisa de conteúdo nova ou dirigida no centro de conformidade de & de segurança.
 
-2. Exporte os resultados da pesquisa de conteúdo ou exporte o relatório de pesquisa de conteúdo. Para saber mais, confira:
+2. Exporte os resultados da pesquisa de conteúdo ou exporte o relatório de pesquisa de conteúdo. Para saber mais, veja:
 
     - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
 
@@ -65,7 +65,7 @@ Observe que você pode usar um arquivo CSV de uma pesquisa que incluiu sites do 
 
     Veja um exemplo do arquivo CSV que está pronto para ser enviado para uma pesquisa de conteúdo de lista de ID.
 
-    ![Exemplo de um arquivo CSV para uma pesquisa de conteúdo direcionada](media/8371b8cb-1638-496e-9be1-fe1565757d67.png)
+    ![Exemplo de um arquivo CSV para uma pesquisa de conteúdo direcionada](../media/8371b8cb-1638-496e-9be1-fe1565757d67.png)
 
 6. Salve o arquivo CSV ou use **salvar como** para salvar o arquivo com outro nome de arquivo. Em ambos os casos, certifique-se de salvar o arquivo com o formato CSV.
 
@@ -78,9 +78,9 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 
 1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
 
-2. Na página de **pesquisa** , clique na seta ao lado ![de adicionar](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**e, em seguida, clique em **Pesquisar por lista de ID**.
+2. Na página de **pesquisa** , clique na seta ao lado ![de adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**e, em seguida, clique em **Pesquisar por lista de ID**.
 
-    ![Clique em Pesquisar pela lista de IDs na nova lista suspensa de pesquisa](media/e65f9942-09b2-4127-865e-e64029a590df.png)
+    ![Clique em Pesquisar pela lista de IDs na nova lista suspensa de pesquisa](../media/e65f9942-09b2-4127-865e-e64029a590df.png)
 
 3. No submenu de **lista Pesquisar por ID** , nomeie a pesquisa (e, opcionalmente, descreva-a) e clique em **procurar** e selecione o arquivo CSV que você preparou na etapa anterior.
 
@@ -90,7 +90,7 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 
     Veja um exemplo dos resultados estimados da pesquisa e a consulta que é gerada para uma pesquisa de lista de ID.
 
-    ![Consulta de pesquisa para uma pesquisa de conteúdo direcionada no painel de detalhes](media/dbd9e570-c04b-4056-a8a7-37e9916ec683.png)
+    ![Consulta de pesquisa para uma pesquisa de conteúdo direcionada no painel de detalhes](../media/dbd9e570-c04b-4056-a8a7-37e9916ec683.png)
 
     Observe que o número de itens estimados exibidos em estatísticas para a pesquisa de ID deve corresponder ao número de itens que você selecionou no arquivo CSV.
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba mais sobre a chave de disponibilidade usada para recuperar as chaves de cliente perdidas do Office 365.
-ms.openlocfilehash: 72fbfd139b273d38a0cb017d7bbca3d87c16efb2
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 86f602a59f436a6ce42df583c88c0403eb17e5ae
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862081"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076938"
 ---
 # <a name="learn-about-the-availability-key-for-office-365-customer-key"></a>Saiba mais sobre a chave de disponibilidade da chave de cliente do Office 365
 
@@ -175,11 +175,11 @@ O Exchange Online e o Skype for Business usam automaticamente a chave de disponi
 
 Registros de log incluem atributos como data, hora, atividade, ID da organização e ID da política de criptografia de dados. O registro está disponível como parte dos logs de auditoria unificada do Office 365 e é acessível na guia pesquisa de log de auditoria do centro de conformidade e segurança do Office 365.
 
-![Pesquisa de log de auditoria por eventos principais de disponibilidade](media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
+![Pesquisa de log de auditoria por eventos principais de disponibilidade](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
 
 Registros de chave de disponibilidade do Exchange Online e do Skype for Business use o [esquema comum](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) da atividade de gerenciamento do Office 365 com parâmetros personalizados adicionados: ID da política, ID da versão da chave de escopo e ID da solicitação.
 
-![Parâmetros personalizados de chave de disponibilidade](media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
+![Parâmetros personalizados de chave de disponibilidade](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
 
 ### <a name="sharepoint-online-onedrive-for-business-and-teams-files-availability-key-logging"></a>Log de chave de disponibilidade de arquivos do SharePoint Online, do OneDrive for Business e do teams
 
@@ -195,11 +195,11 @@ O Office 365 usa a chave de disponibilidade para quebrar a camada de chaves abai
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Codificações de criptografia usadas para criptografar chaves para o Exchange Online e o Skype for Business
 
-![Codificações de criptografia para a chave do cliente do Exchange Online](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Codificações de criptografia para a chave do cliente do Exchange Online](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-and-onedrive-for-business"></a>Codificações de criptografia usadas para criptografar chaves para o SharePoint Online e o OneDrive for Business
 
-![Codificações de criptografia para a chave do cliente do SharePoint Online](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![Codificações de criptografia para a chave do cliente do SharePoint Online](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>Artigos relacionados
 

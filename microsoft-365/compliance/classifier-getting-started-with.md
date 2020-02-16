@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: c0ac644f3435d81159156e175c01e1916b0aeaf3
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+ms.openlocfilehash: 75cf79e162c2e371821b4329fc1be949f0b3a81c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078798"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -74,7 +74,7 @@ A Microsoft 365 vem com seis classificadores prontos para usar:
 
 Eles aparecem no modo de exibição de classificação de dados do **Centro** > de conformidade da Microsoft 365 **(visualização)** > **classificadores estagiários** com o status de `Ready to use`.
 
-![classificadores-prontos para uso-classificadores](media/classifiers-ready-to-use-classifiers.png)
+![classificadores-prontos para uso-classificadores](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
 > Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo.  Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
@@ -83,7 +83,7 @@ Eles aparecem no modo de exibição de classificação de dados do **Centro** > 
 
 Os classificadores prontos para usar não precisam ser treinados, mas você precisa confirmar que eles identificarão os tipos de conteúdo para os quais você precisa antes de usá-los em soluções de conformidade. O teste de um classificador treinado segue esse fluxo.
 
-![processo de teste de fluxo um classificador pré-treinado](media/classifier-pre-trained-classifier-flow.png)
+![processo de teste de fluxo um classificador pré-treinado](../media/classifier-pre-trained-classifier-flow.png)
 
 ### <a name="understanding-trainable-classifiers"></a>Noções básicas sobre classificadores estagiários
 
@@ -96,7 +96,7 @@ Quando os classificadores prontos para usar não atendem às suas necessidades, 
 
 Criar e publicar um classificador treinado para uso em soluções de conformidade, como políticas de retenção e supervisão de comunicação, segue este fluxo. Para obter mais detalhes sobre como criar um classificador treinado, consulte [criando um classificador treinado](classifier-creating-a-trainable-classifier.md).
 
-![classificador de fluxo de processo de estagiário](media/classifier-trainable-classifier-flow.png)
+![classificador de fluxo de processo de estagiário](../media/classifier-trainable-classifier-flow.png)
 
 ## <a name="see-also"></a>Confira também
 

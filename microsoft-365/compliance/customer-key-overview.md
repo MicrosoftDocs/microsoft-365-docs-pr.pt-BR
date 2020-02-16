@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos datacenters da Microsoft.
-ms.openlocfilehash: ee62065542ea50091d73362dd8d05f2e4e7dc337
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: 6fd7167dd46f3a44d97a493830aef19e40f062e8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804743"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076910"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Criptografia de serviço com a chave do cliente no Office 365
 
@@ -71,11 +71,11 @@ A chave do cliente usa uma variedade de codificações de criptografia para crip
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Codificações de criptografia usadas para criptografar chaves para o Exchange Online e o Skype for Business
 
-![Codificações de criptografia para a chave do cliente do Exchange Online](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Codificações de criptografia para a chave do cliente do Exchange Online](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Codificações de criptografia usadas para criptografar chaves para os arquivos do SharePoint Online, do OneDrive for Business e do teams
 
-![Codificações de criptografia para a chave do cliente do SharePoint Online](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![Codificações de criptografia para a chave do cliente do SharePoint Online](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 31a38ac28d1b483d6b5cdce6fade82d252457641
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: fc1a9cb77cc642ead4af120383b807808e695c22
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078709"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade de comunicação
 
@@ -66,7 +66,7 @@ Para obter uma lista completa dos filtros e detalhes do campo, consulte [Filters
 
 8. Se quiser salvar os filtros selecionados como uma consulta de filtro, selecione **salvar o controle de consulta** após ter configurado pelo menos um valor de filtro. Insira um nome para a consulta de filtro e selecione **salvar**. Este filtro está disponível para ser usado apenas para essa política e está listado na seção **consultas de filtro salvas** da página de detalhes de **filtros** .
 
-    ![Controles de detalhe de filtro de conformidade de comunicação](media/communication-compliance-filter-detail-controls.png)
+    ![Controles de detalhe de filtro de conformidade de comunicação](../media/communication-compliance-filter-detail-controls.png)
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>Usando a análise de duplicatas próxima e exata
 
@@ -90,7 +90,7 @@ As políticas de conformidade de comunicação verificam e agrupam automaticamen
 
 8. Selecione **fechar** após concluir as ações de correção nas mensagens.
 
-    ![Controles de duplicatas de conformidade exata de comunicação](media/communication-compliance-duplicates-controls.png)
+    ![Controles de duplicatas de conformidade exata de comunicação](../media/communication-compliance-duplicates-controls.png)
 
 ## <a name="remediate-alerts"></a>Corrigir alertas
 
@@ -98,7 +98,7 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
 
 1. **Examinar a mensagem noções básicas**: às vezes, é óbvio da origem ou do assunto que uma mensagem pode ser corrigida imediatamente. Pode ser que a mensagem seja falsa ou incorretamente correspondente a uma política e deve ser resolvida como um falso positivo. Selecione o controle **falso positivo** para resolver imediatamente o alerta e remover da fila de alerta pendente. Nas informações de origem ou do remetente, talvez você já saiba como a mensagem deve ser encaminhada ou tratada nessas circunstâncias. Considere usar a **marca como** ou **escalonar** controles para atribuir uma marca a mensagens aplicáveis ou para enviar mensagens a um revisor designado.
 
-    ![Controles de correção de conformidade de comunicação](media/communication-compliance-remediation-controls.png)
+    ![Controles de correção de conformidade de comunicação](../media/communication-compliance-remediation-controls.png)
 
 2. **Examine os detalhes da mensagem**: após revisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar ações de correção adicionais. Selecione uma mensagem para exibir as informações completas de cabeçalho e corpo da mensagem. Vários modos de exibição diferentes estão disponíveis para ajudá-lo a decidir o curso de ação adequado:
 
@@ -107,7 +107,7 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
     - **Modo de anotações**: este modo de exibição permite que os revisores adicionem anotações diretamente na mensagem que são salvas no modo de exibição da mensagem.
     - **Histórico do usuário**: o modo de exibição de histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que está enviando a mensagem.
 
-    ![Controles de exibição de mensagens de conformidade de comunicação](media/communication-compliance-message-views.png)
+    ![Controles de exibição de mensagens de conformidade de comunicação](../media/communication-compliance-message-views.png)
 
 3. Escolha **uma ação de correção**: agora que você analisou os detalhes da mensagem para o alerta, é possível escolher várias ações de correção:
 

@@ -14,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
-ms.openlocfilehash: 9ada3f2756b627965c9f215c1111ff2fe72da1e7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0144b12c05fcd4c8f973ee7e6b6df373f5b609a5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077856"
 ---
 # <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 
@@ -32,19 +32,19 @@ Com uma política de exclusão de documentos, você pode reduzir o risco de form
   
 Depois de criar uma política de exclusão de documentos, você poderá atribuí-la a um modelo de conjunto de sites, de forma que a política esteja disponível para todos os conjuntos de sites criados a partir desse modelo. Você pode ainda atribuir uma política a um conjunto específico de sites, que substitui qualquer política que possa ter sido atribuída ao modelo para esse conjunto de sites.
   
-![Página inicial do Centro de Políticas de Exclusão de Documentos](media/IP-Document-Deletion-Policy-Center-home-page.png)
+![Página inicial do Centro de Políticas de Exclusão de Documentos](../media/IP-Document-Deletion-Policy-Center-home-page.png)
   
 ## <a name="policy-templates"></a>Modelos de política
 
 Você pode criar uma política de exclusão do documento do zero ou pode usar uma das políticas de amostra. A Central de Política de Conformidade inclui políticas de amostra que você pode usar como estão, ou como ponto de partida e, em seguida, renomeá-las ou modificá-las.
   
-![Amostra de políticas de exclusão de documentos](media/IP-Sample-deletion-policies.png)
+![Amostra de políticas de exclusão de documentos](../media/IP-Sample-deletion-policies.png)
   
 ## <a name="examples-of-how-to-use-document-deletion-policies"></a>Exemplos
 
 Um conjunto de sites ou um modelo de conjunto de sites pode conter uma ou mais políticas associadas a ele, e cada uma dessas políticas pode conter uma ou mais regras. No entanto, pode haver apenas uma política ativa por site e pode haver apenas uma regra de exclusão ativa a qualquer momento para as bibliotecas no site.
   
-![Diagrama mostrando a relação entre as políticas](media/IP-Two-policies-four-rules.png)
+![Diagrama mostrando a relação entre as políticas](../media/IP-Two-policies-four-rules.png)
   
 Além disso, você pode selecionar uma política como obrigatória ou padrão, e poderá selecionar uma regra de exclusão como uma regra padrão: 
   
@@ -68,7 +68,7 @@ Talvez você queira impor uma política de exclusão de documentos a uma ampla v
     
 Neste exemplo, a regra de exclusão padrão será aplicada a todas as bibliotecas em todos os conjuntos de sites criados a partir do modelo, e os proprietários do site não poderão recusar a política. Essa é a maneira mais simples de impor de forma ampla e rígida uma política de exclusão de documentos.
   
-![Diagrama mostrando uma única política obrigatória](media/IP-Example-1-doc-deletion-policies.png)
+![Diagrama mostrando uma única política obrigatória](../media/IP-Example-1-doc-deletion-policies.png)
   
 ### <a name="example-2-apply-a-single-policy-with-several-rules-to-a-site-collection-template"></a>Exemplo 2: aplicar uma única política com várias regras a um modelo de conjunto de sites
 
@@ -84,7 +84,7 @@ Ao mesmo tempo, você ainda pode criar e gerenciar centralmente as políticas. T
     
 Os proprietários do site podem selecionar uma das regras de exclusão alternativas, recusar a política ou fazer nada e ficarem sujeitos à política e à regra padrão.
   
-![Diagrama mostrando uma única política com diversas regras](media/IP-Example-2-doc-deletion-policies.png)
+![Diagrama mostrando uma única política com diversas regras](../media/IP-Example-2-doc-deletion-policies.png)
   
 ### <a name="example-3-apply-several-policies-with-one-or-more-rules-to-a-site-collection"></a>Exemplo 3: aplicar várias políticas com uma ou mais regras para um conjunto de sites
 
@@ -104,7 +104,7 @@ Para configurar este cenário, você pode:
     
 Além disso, as políticas e regras são ajustadas a um conjunto de sites específico, onde proprietários do site podem interromper a herança selecionando a política e a regra que melhor se aplique ao site.
   
-![Diagrama mostrando diversas políticas e regras](media/IP-Example-3-doc-deletion-policies.png)
+![Diagrama mostrando diversas políticas e regras](../media/IP-Example-3-doc-deletion-policies.png)
   
 ## <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 
@@ -114,7 +114,7 @@ Além disso, as políticas e regras são ajustadas a um conjunto de sites espec�
     
 2. Escolha **políticas de exclusão**.
     
-    ![Opção Políticas de Exclusão](media/IP-Deletion-Policies-option.png)
+    ![Opção Políticas de Exclusão](../media/IP-Deletion-Policies-option.png)
   
 3. Escolha **novo item**.
     
@@ -132,7 +132,7 @@ Além disso, as políticas e regras são ajustadas a um conjunto de sites espec�
     
   - Escolha se a regra será uma regra padrão. A primeira regra criada será automaticamente definida como a regra padrão. Uma regra padrão será automaticamente aplicada a todas as bibliotecas nos sites que usam a política.
     
-![Nova página de regra de exclusão](media/IP-New-deletion-rule.png)
+![Nova página de regra de exclusão](../media/IP-New-deletion-rule.png)
   
 7. Clique em **Salvar**.
     
@@ -143,7 +143,7 @@ Além disso, as políticas e regras são ajustadas a um conjunto de sites espec�
     > [!NOTE]
     > Se você excluir uma regra e a política não contiver uma regra padrão, nenhuma regra será aplicada a essa política, em outras palavras, nenhum documento será excluído. 
   
-![Confirmar remoção de regra de mensagem de política](media/IP-Remove-rule-from-policy-message.png)
+![Confirmar remoção de regra de mensagem de política](../media/IP-Remove-rule-from-policy-message.png)
   
 ## <a name="assign-the-document-deletion-policy-to-a-site-collection-template"></a>Atribuir a política de exclusão de documentos a um modelo de conjunto de sites
 
@@ -155,7 +155,7 @@ Atribuindo uma política a um modelo de conjunto de sites, você disponibiliza a
     
 2. Escolha **Atribuições de políticas para modelos**.
     
-    ![Atribuição de Políticas para opção de Modelos](media/IP-Policy-Assignments-for-Templates-option.png)
+    ![Atribuição de Políticas para opção de Modelos](../media/IP-Policy-Assignments-for-Templates-option.png)
   
 3. Escolha **novo item**.
     
@@ -168,7 +168,7 @@ Atribuindo uma política a um modelo de conjunto de sites, você disponibiliza a
     > [!NOTE]
     > Quando você atribuir uma política a um modelo de conjunto de sites, essa política estará disponível a conjuntos de sites existentes criados a partir desse modelo e para conjuntos de sites criados no futuro. 
   
-![Escolha uma página modelo exibindo a opção do OneDrive](media/IP-Choose-a-template.png)
+![Escolha uma página modelo exibindo a opção do OneDrive](../media/IP-Choose-a-template.png)
   
 5. Clique em **Salvar**.
     
@@ -177,7 +177,7 @@ Atribuindo uma política a um modelo de conjunto de sites, você disponibiliza a
   
 6. Escolha **Gerenciar políticas atribuídas**, selecione as políticas que deseja atribuir e escolha se uma política será a padrão. Quando você definir uma política padrão, todos os sites atribuídos automaticamente à política terão a política ativa sem que seja exigida uma ação do proprietário do site.
     
-    ![Adicione e gerencie páginas de políticas](media/IP-Add-and-manage-policies-page.png)
+    ![Adicione e gerencie páginas de políticas](../media/IP-Add-and-manage-policies-page.png)
   
 7. Clique em **Salvar**.
     
@@ -197,7 +197,7 @@ Ao atribuir uma política a um conjunto de sites específico, você disponibiliz
     
 2. Escolha **Atribuições de políticas para conjuntos de sites**.
     
-    ![Atribuições de Políticas para opções de Conjuntos de Sites](media/IP-Policy-Assignments-for-Site-Collections-option.png)
+    ![Atribuições de Políticas para opções de Conjuntos de Sites](../media/IP-Policy-Assignments-for-Site-Collections-option.png)
   
 3. Escolha **novo item**.
     
@@ -206,11 +206,11 @@ Ao atribuir uma política a um conjunto de sites específico, você disponibiliz
     > [!NOTE]
     > Cada conjunto de sites pode ter apenas um conjunto de políticas atribuído a ele. Se você vir um erro dizendo que este conjunto de sites já tem políticas atribuídas a ele, escolha **Cancelar** \> **atribuir ao conjunto de sites** e selecione um conjunto de sites para exibir e gerenciar o conjunto de políticas que já estão atribuídas. 
   
-![Escolha uma página de conjuntos de sites](media/IP-Choose-a-site-collection-page.png)
+![Escolha uma página de conjuntos de sites](../media/IP-Choose-a-site-collection-page.png)
   
 5. Escolha **Gerenciar políticas atribuídas**, selecione as políticas que deseja atribuir e escolha se uma política será a padrão. Quando você definir uma política padrão, todos os sites atribuídos automaticamente à política terão a política ativa sem que seja exigida uma ação do proprietário do site.
     
-    ![Adicione e gerencie páginas de políticas](media/IP-Add-and-manage-policies-page.png)
+    ![Adicione e gerencie páginas de políticas](../media/IP-Add-and-manage-policies-page.png)
   
 6. Clique em **Salvar**.
     
@@ -230,7 +230,7 @@ Quando você excluir uma atribuição, as políticas atribuídas não se aplicar
     
 3. Selecione o item de atribuição e clique em **Excluir item**.
     
-    ![Exclua o comando Item para atribuição de política](media/IP-Delete-policy-assignment.png)
+    ![Exclua o comando Item para atribuição de política](../media/IP-Delete-policy-assignment.png)
   
 ## <a name="delete-a-policy"></a>Excluir uma política
 
@@ -240,17 +240,17 @@ Não é possível excluir uma política que está sendo usada. Antes de poder ex
     
 2. Escolha * * políticas de exclusão * *.
     
-    ![Opção Políticas de Exclusão](media/IP-Deletion-Policies-option.png)
+    ![Opção Políticas de Exclusão](../media/IP-Deletion-Policies-option.png)
   
 3. Selecione a política.
     
 4. Na guia \> **** \> itens da faixa de opções, **remova a política**.
     
-    ![Botão Remover Política na Faixa de Opções](media/IP-Remove-Policy-button-on-Ribbon.png)
+    ![Botão Remover Política na Faixa de Opções](../media/IP-Remove-Policy-button-on-Ribbon.png)
   
 5. Se a política estiver em uso, será perguntado se você deseja remover a política de todos os conjuntos de sites em que ele está sendo usado. Se tiver certeza, escolha **OK**.
     
-    ![Exclua a mensagem de confirmação de política](media/IP-Delete-policy-confirmation.png)
+    ![Exclua a mensagem de confirmação de política](../media/IP-Delete-policy-confirmation.png)
   
 ## <a name="see-also"></a>Confira também
 

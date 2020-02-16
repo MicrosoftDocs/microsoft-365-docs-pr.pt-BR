@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ef84380e17757f96bdf66307595c92d85a335930
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 007a7517cb0ea3c810d667cbfa88c0da1755b0d8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077459"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>Criar uma nova investigação em investigações de dados (prévia)
 
@@ -49,4 +49,4 @@ ms.locfileid: "41596158"
 
     A guia **página inicial** da investigação é exibida. Por exemplo, aqui está uma nova investigação chamada *crítica: documento de impostos e vazamento de dados de finanças*.
 
-    ![A guia início de uma nova investigação em investigações de dados](media/NewDataInvestigations.png)
+    ![A guia início de uma nova investigação em investigações de dados](../media/NewDataInvestigations.png)

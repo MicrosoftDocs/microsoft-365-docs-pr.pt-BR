@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: defd5c8eba1202020fc8d3e3225c6ef4a425a331
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 818a0db46d0c2a763c1c90b585a6d7a0fd403b94
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077127"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
@@ -59,23 +59,23 @@ As políticas de DLP do Exchange Online podem ser gerenciadas por meio do centro
 
 O Office 365 fornece uma variedade de [modelos de política de DLP](what-the-dlp-policy-templates-include.md) que você pode usar para criar políticas de DLP. Digamos que você seja um negócio australiano. Você pode filtrar os modelos de política para exibir apenas aqueles que são relevantes para a Austrália, que se enquadram nas categorias gerais de finanças, médicos e saúde e privacidade.
 
-![Opção para escolher o país ou a região](media/DLP-create-test-tune-choose-country.png)
+![Opção para escolher o país ou a região](../media/DLP-create-test-tune-choose-country.png)
 
 Para esta demonstração, eu escolheria dados de informações de identificação pessoal (PII) australiano, que inclui os tipos de informações do número de arquivo de impostos australiano (TFN) e número da carteira de motorista.
 
-![Opção para escolher um modelo de política](media/DLP-create-test-tune-choose-policy-template.png)
+![Opção para escolher um modelo de política](../media/DLP-create-test-tune-choose-policy-template.png)
 
 Dê um nome à sua nova política de DLP. O nome padrão corresponderá ao modelo de política de DLP, mas você deverá escolher um nome mais descritivo próprio, porque várias políticas podem ser criadas a partir do mesmo modelo.
 
-![Opção para nomear a política](media/DLP-create-test-tune-name-policy.png)
+![Opção para nomear a política](../media/DLP-create-test-tune-name-policy.png)
 
 Escolha os locais aos quais a política será aplicada. As políticas de DLP podem ser aplicadas ao Exchange Online, SharePoint Online e OneDrive for Business. Vou deixar essa política configurada para aplicar a todos os locais.
 
-![Opção para escolher todos os locais](media/DLP-create-test-tune-choose-locations.png)
+![Opção para escolher todos os locais](../media/DLP-create-test-tune-choose-locations.png)
 
 Na primeira etapa de **configurações de política** , aceite os padrões por enquanto. Há muita personalização que você pode fazer em políticas de DLP, mas os padrões são um local fino para iniciar.
 
-![Opções para personalizar o tipo de conteúdo a ser protegido](media/DLP-create-test-tune-default-customization-settings.png)
+![Opções para personalizar o tipo de conteúdo a ser protegido](../media/DLP-create-test-tune-default-customization-settings.png)
 
 Após clicar **em Avançar** , você verá uma página de **configurações de política** adicional com mais opções de personalização. Para uma política que você está apenas testando, aqui está onde você pode começar a fazer alguns ajustes.
 
@@ -83,11 +83,11 @@ Após clicar **em Avançar** , você verá uma página de **configurações de p
 - Também reduzi o número de instâncias de 10 para 1, para que essa política detecte qualquer compartilhamento de dados PII australianos, e não apenas o compartilhamento em massa dos dados.
 - Também adicionei outro destinatário ao email do relatório de incidentes.
 
-![Configurações de política adicionais](media/DLP-create-test-tune-more-policy-settings.png)
+![Configurações de política adicionais](../media/DLP-create-test-tune-more-policy-settings.png)
 
 Por fim, configurei essa política para ser executada no modo de teste inicialmente. Observe também há uma opção aqui para desabilitar as dicas de política no modo de teste. Isso dá a você a flexibilidade de ter dicas de política habilitadas na política, mas decida se deseja mostrá-las ou suprime-las durante o teste.
 
-![Opção para testar a política primeiro](media/DLP-create-test-tune-test-mode.png)
+![Opção para testar a política primeiro](../media/DLP-create-test-tune-test-mode.png)
 
 Na tela última revisão, clique em **criar** para concluir a criação da política.
 
@@ -97,19 +97,19 @@ Sua nova política de DLP começará a ser aplicada em cerca de 1 hora. Você po
 
 Por exemplo, a política de DLP que criei para este artigo detectará os números de arquivo de impostos australianos (TFN). De acordo com a documentação, a correspondência é baseada nos critérios a seguir.
 
-![Documentação do número de arquivo de imposto da Austrália](media/DLP-create-test-tune-Australia-Tax-File-Number-doc.png)
+![Documentação do número de arquivo de imposto da Austrália](../media/DLP-create-test-tune-Australia-Tax-File-Number-doc.png)
  
 Para demonstrar a detecção de TFN de uma maneira mais econômica, um email com as palavras "número do arquivo de impostos" e uma cadeia de 9 dígitos na proximidade será Sail por meio de qualquer problema. O motivo pelo qual a política de DLP não é acionada é que a cadeia de caracteres de 9 dígitos deve passar a soma de verificação que indica que é um TFN válido e não apenas uma cadeia de caracteres inofensiva de números.
 
-![Número de arquivo de imposto da Austrália que não passa checksum](media/DLP-create-test-tune-email-test1.png)
+![Número de arquivo de imposto da Austrália que não passa checksum](../media/DLP-create-test-tune-email-test1.png)
 
 Em comparação, um email com as palavras "número do arquivo de impostos" e um TFN válido que passa a soma de verificação acionará a política. Para o registro aqui, o TFN que estou usando foi obtido de um site que gera um TFNs válido, mas não autêntico. Esses sites são muito úteis porque um dos erros mais comuns ao testar uma política de DLP é usar um número falso que não é válido e não passará na soma de verificação (e, portanto, não acionará a política).
 
-![Número de arquivo de imposto da Austrália que passa a soma de verificação](media/DLP-create-test-tune-email-test2.png)
+![Número de arquivo de imposto da Austrália que passa a soma de verificação](../media/DLP-create-test-tune-email-test2.png)
 
 O email de relatório de incidentes inclui o tipo de informações confidenciais que foram detectadas, quantas instâncias foram detectadas e o nível de confiança da detecção.
 
-![Relatório de incidentes mostrando o número de arquivo de impostos detectado](media/DLP-create-test-tune-email-incident-report.png)
+![Relatório de incidentes mostrando o número de arquivo de impostos detectado](../media/DLP-create-test-tune-email-incident-report.png)
 
 Se você deixar sua política de DLP no modo de teste e analisar os emails de relatório de incidentes, você pode começar a se familiarizar com a precisão da política de DLP e como ela será aplicada. Além dos relatórios de incidentes, você pode [usar os relatórios de DLP](view-the-dlp-reports.md) para ver uma exibição agregada de correspondências de política em seu locatário.
 
@@ -119,15 +119,15 @@ Se você deixar sua política de DLP no modo de teste e analisar os emails de re
 
 No centro de conformidade & segurança, você pode editar uma política existente para ajustar o comportamento.
 
-![Opção para editar a política](media/DLP-create-test-tune-edit-policy.png)
+![Opção para editar a política](../media/DLP-create-test-tune-edit-policy.png)
  
 Você pode ajustar as configurações de local para que a política seja aplicada somente a cargas de trabalho específicas ou a sites e contas específicos.
 
-![Opções para escolher locais específicos](media/DLP-create-test-tune-edit-locations.png)
+![Opções para escolher locais específicos](../media/DLP-create-test-tune-edit-locations.png)
 
 Você também pode ajustar as configurações de política e editar as regras para atender melhor às suas necessidades.
 
-![Opção para editar regra](media/DLP-create-test-tune-edit-rule.png)
+![Opção para editar regra](../media/DLP-create-test-tune-edit-rule.png)
 
 Ao editar uma regra em uma política de DLP, você pode alterar:
 
@@ -137,29 +137,29 @@ Ao editar uma regra em uma política de DLP, você pode alterar:
 - User Overrides, que determina se os usuários podem optar por continuar com seus emails ou compartilhamento de arquivos.
 - Relatórios de incidentes para notificar os administradores.
 
-![Opções para editar partes de uma regra](media/DLP-create-test-tune-editing-options.png)
+![Opções para editar partes de uma regra](../media/DLP-create-test-tune-editing-options.png)
 
 Para esta demonstração, adicionei notificações de usuário à política (seja cuidadoso ao fazê-lo sem o treinamento adequado do usuário) e permitia que os usuários substituam a política por uma justificativa comercial ou sinalizando-a como falso positivo. Observe que você também pode personalizar o texto de dica de política e email se quiser incluir informações adicionais sobre as políticas da sua organização ou solicitar que os usuários entrem em contato com o suporte caso tenham dúvidas.
 
-![Opções para notificações e substituições de usuários](media/DLP-create-test-tune-user-notifications.png)
+![Opções para notificações e substituições de usuários](../media/DLP-create-test-tune-user-notifications.png)
 
 A política contém duas regras para manipulação de alto volume e volume baixo, portanto, não deixe de editar as duas com as ações desejadas. Essa é uma oportunidade para tratar casos de forma diferente dependendo de suas características. Por exemplo, você pode permitir substituições para violações de volume baixo, mas não permitir substituições de altas violações de volume.
 
-![Uma regra para alto volume e uma regra para baixo volume](media/DLP-create-test-tune-two-rules.png)
+![Uma regra para alto volume e uma regra para baixo volume](../media/DLP-create-test-tune-two-rules.png)
 
 Além disso, se você quiser bloquear ou restringir o acesso ao conteúdo que está violando a política, precisará configurar uma ação na regra para fazê-lo.
 
-![Opção para restringir o acesso ao conteúdo](media/DLP-create-test-tune-restrict-access-action.png)
+![Opção para restringir o acesso ao conteúdo](../media/DLP-create-test-tune-restrict-access-action.png)
 
 Após salvar essas alterações nas configurações de política, também preciso retornar à página de configurações principal da política e habilitar a opção para mostrar dicas de política aos usuários enquanto a política estiver no modo de teste. Essa é uma maneira eficaz de apresentar políticas de DLP aos seus usuários finais e do treinamento de conscientização do usuário, sem o risco de muitos falsos positivos que impactam sua produtividade.
 
-![Opção para mostrar dicas de política no modo de teste](media/DLP-create-test-tune-show-policy-tips.png)
+![Opção para mostrar dicas de política no modo de teste](../media/DLP-create-test-tune-show-policy-tips.png)
 
 No lado do servidor (ou no lado da nuvem, se preferir), a alteração pode não ter efeito imediato, devido a vários intervalos de processamento. Se você estiver fazendo uma alteração na política de DLP que exibirá as novas dicas de política para um usuário, o usuário poderá não ver as alterações serão efetivadas imediatamente no cliente do Outlook, que verifica as alterações de política a cada 24 horas. Se você quiser acelerar as coisas para teste, você pode usar essa correção de registro para [limpar o último carimbo de data/hora da chave PolicyNudges](https://support.microsoft.com/en-au/help/2823261/changes-to-a-data-loss-prevention-policy-don-t-take-effect-in-outlook?__hstc=18650278.46377037dc0a82baa8a30f0ef07a7b2f.1538687978676.1538693509953.1540315763430.3&__hssc=18650278.1.1540315763430&__hsfp=3446956451). O Outlook baixará as informações mais recentes da política na próxima vez que você reiniciar e começar a redigir uma mensagem de email.
 
 Se você tiver dicas de política habilitadas, o usuário começará a ver as dicas no Outlook e poderá relatar falsos positivos quando elas ocorrerem.
 
-![Dica de política com opção para relatar falso positivo](media/DLP-create-test-tune-policy-tip-in-outlook.png)
+![Dica de política com opção para relatar falso positivo](../media/DLP-create-test-tune-policy-tip-in-outlook.png)
 
 ## <a name="investigate-false-positives"></a>Investigar falsos positivos
 
@@ -167,26 +167,26 @@ Os modelos de política de DLP não são perfeitos diretamente. É provável que
 
 Veja um exemplo de falso positivo. Este email é bastante inofensivo. O usuário está fornecendo seu número de telefone celular para alguém e incluindo sua assinatura de email.
 
-![Email mostrando informações falsas positivas](media/DLP-create-test-tune-false-positive-email.png)
+![Email mostrando informações falsas positivas](../media/DLP-create-test-tune-false-positive-email.png)
  
 No entanto, o usuário vê uma dica de política avisando que o email contém informações confidenciais, especificamente, o número da carteira de motorista da Austrália.
 
-![Opção para relatar falso positivo na dica de política](media/DLP-create-test-tune-policy-tip-closeup.png)
+![Opção para relatar falso positivo na dica de política](../media/DLP-create-test-tune-policy-tip-closeup.png)
 
 O usuário pode relatar o falso positivo e o administrador pode examinar o motivo pelo qual ele ocorreu. No email de relatório de incidentes, o email é sinalizado como falso positivo.
 
-![Relatório de incidentes mostrando falso positivo](media/DLP-create-test-tune-false-positive-incident-report.png)
+![Relatório de incidentes mostrando falso positivo](../media/DLP-create-test-tune-false-positive-incident-report.png)
 
 Este caso de licença do driver é um bom exemplo para se aprofundar no. O motivo pelo qual esse falso positivo ocorreu é que o tipo "licença do motorista australiano" será disparado por qualquer cadeia de caracteres de 9 dígitos (mesmo que seja parte de uma cadeia de 10 dígitos), em 300 caracteres de proximidade com as palavras-chave "Sydney NSW" (não diferencia maiúsculas de minúsculas). Portanto, ele é disparado pelo número de telefone e assinatura de email, somente porque o usuário está em Sydney.
 
 
 Uma opção é remover o tipo de informação de licença da Austrália do driver da política. Ele está lá porque faz parte do modelo de política de DLP, mas não é obrigado a usá-lo. Se você estiver interessado apenas em números de arquivo de impostos e não em licenças de driver, basta removê-lo. Por exemplo, você pode removê-lo da regra de volume baixo na política, mas deixá-lo na regra de alto volume para que as listas de várias licenças de drivers ainda sejam detectadas.
 
-![Opção para excluir o tipo de informação confidencial da regra](media/DLP-create-test-tune-delete-low-volume-rule.png)
+![Opção para excluir o tipo de informação confidencial da regra](../media/DLP-create-test-tune-delete-low-volume-rule.png)
  
 Outra opção é simplesmente aumentar a contagem de instância, para que um volume baixo de licenças do driver seja detectado apenas quando houver várias instâncias.
 
-![Opção para editar a contagem de instâncias](media/DLP-create-test-tune-edit-instance-count.png)
+![Opção para editar a contagem de instâncias](../media/DLP-create-test-tune-edit-instance-count.png)
 
 Além de alterar a contagem de instâncias, você também pode ajustar a precisão da correspondência (ou nível de confiança). Se seu tipo de informação confidencial tiver vários padrões, você poderá ajustar a precisão da correspondência em sua regra, para que sua regra corresponda apenas a padrões específicos. Por exemplo, para ajudar a reduzir falsos positivos, você pode definir a precisão da correspondência de sua regra para que ela corresponda apenas ao padrão com o nível de maior confiança. Entender como o nível de confiança é calculado é um pouco complicado (e além do escopo desta postagem), mas aqui está uma boa explicação de [como usar o nível de confiança para ajustar suas regras](data-loss-prevention-policies.md#match-accuracy).
 
@@ -196,21 +196,21 @@ Por fim, se você deseja obter um pouco mais avançado, é possível personaliza
 
 Quando você estiver contente que sua política de DLP está detectando com precisão e eficácia tipos de informações confidenciais e que seus usuários finais estão prontos para lidar com as políticas em vigor, é possível habilitar a política.
 
-![Opção para ativar a política](media/DLP-create-test-tune-turn-on-policy.png)
+![Opção para ativar a política](../media/DLP-create-test-tune-turn-on-policy.png)
  
 Se você estiver esperando para ver quando a política entrará em vigor, [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e execute o [cmdlet Get-DlpCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) para ver o DistributionStatus.
 
-![Executando o cmdlet no PowerShell](media/DLP-create-test-tune-PowerShell.png)
+![Executando o cmdlet no PowerShell](../media/DLP-create-test-tune-PowerShell.png)
 
 Após ativar a política de DLP, você deve executar alguns testes finais próprios para garantir que as ações de política esperadas estejam ocorrendo. Se você estiver tentando testar itens como dados de cartão de crédito, há sites online com informações sobre como gerar o exemplo de cartão de crédito ou outras informações pessoais que passarão somas de verificação e dispararão suas políticas.
 
 As políticas que permitem que o usuário substitua essa opção ao usuário como parte da dica de política.
 
-![Dica de política que permite a substituição do usuário](media/DLP-create-test-tune-override-option.png)
+![Dica de política que permite a substituição do usuário](../media/DLP-create-test-tune-override-option.png)
 
 As políticas que restringem o conteúdo apresentarão o aviso ao usuário como parte da dica de política e impedirão o envio do email.
 
-![Dica de política de que o conteúdo é restrito](media/DLP-create-test-tune-restrict-warning.png)
+![Dica de política de que o conteúdo é restrito](../media/DLP-create-test-tune-restrict-warning.png)
 
 ## <a name="summary"></a>Resumo
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Usar as ferramentas de descoberta eletrônica e de pesquisa do Office 365 para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: 3efeb183ca0629ea642eb21f14e31401d8618eea
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c143095ecd26d2a9c8f2271b9d28f75b1c71502c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076291"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -37,7 +37,7 @@ Este documento fornece uma lista de instruções sobre como remover permanenteme
 
 Veja como gerenciar um incidente de derramamento de dados:
 
-![O fluxo de trabalho de 8 etapas para gerenciar incidentes de derramamento de dados](media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
+![O fluxo de trabalho de 8 etapas para gerenciar incidentes de derramamento de dados](../media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
   
 [Opcion Etapa 1: gerenciar quem pode acessar o caso e definir limites de conformidade](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries)<br/>
 [Etapa 2: criar uma ocorrência de descoberta eletrônica](#step-2-create-an-ediscovery-case)<br/>
@@ -100,7 +100,7 @@ Afer você verificou os resultados da pesquisa, talvez queira compartilhar suas 
  
       A página Exportar relatório é exibida.
 
-    ![Selecione a pesquisa e clique em mais > relatório de exportação na página do menu suspenso](media/O365-eDiscoverySolutions-DataSpillage-ExportReport1.png)
+    ![Selecione a pesquisa e clique em mais > relatório de exportação na página do menu suspenso](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport1.png)
     
 3. Selecione **todos os itens, incluindo aqueles que têm formato não reconhecido, estão criptografados ou não foram indexados por outros motivos** e clique em **gerar relatório**.
 
@@ -108,7 +108,7 @@ Afer você verificou os resultados da pesquisa, talvez queira compartilhar suas 
 
 5. Clique no trabalho de exportação e, em seguida, clique em **baixar** relatório na página do menu suspenso.
  
-    ![Na página Exportar, clique em exportar e em "baixar relatório"](media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
+    ![Na página Exportar, clique em exportar e em "baixar relatório"](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
 
 O relatório de **Resumo de exportação** contém o número de locais encontrados com resultados e o tamanho dos resultados da pesquisa. Você pode usá-lo para comparar com o relatório gerado após a exclusão e fornecer uma prova de exclusão. O relatório de **resultados** contém um resumo mais detalhado dos resultados da pesquisa, incluindo o assunto, o remetente, os destinatários, se o email foi lido, as datas e o tamanho de cada mensagem. Se qualquer um dos detalhes neste relatório contiver os dados reais derramados, certifique-se de excluir permanentemente o arquivo Results. csv quando a investigação estiver concluída.
 
@@ -142,7 +142,7 @@ Há duas maneiras de coletar uma lista de endereços de email de caixas de corre
     
 4. Na lista suspensa **tipo** , clique em **locais principais**.
     
-    ![Obter uma lista de caixas de correio que contenham resultados de pesquisa na página locais principais nas estatísticas de pesquisa](media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
+    ![Obter uma lista de caixas de correio que contenham resultados de pesquisa na página locais principais nas estatísticas de pesquisa](../media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
 
     Uma lista de caixas de correio que contêm resultados de pesquisa é exibida. O número de itens em cada caixa de correio que corresponde à consulta de pesquisa também é exibido.
     
@@ -190,11 +190,11 @@ Se as palavras-chave na consulta de pesquisa que você criou e usou na etapa 3 c
     
 2. Na página do menu suspenso, clique em **excluir**.
 
-    ![Selecione a pesquisa e clique em excluir na página do menu suspenso](media/O365-eDiscoverySolutions-DataSpillage-DeleteSearch.png)
+    ![Selecione a pesquisa e clique em excluir na página do menu suspenso](../media/O365-eDiscoverySolutions-DataSpillage-DeleteSearch.png)
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Auditar o processo de investigação de derramamento de dados
 
-Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction-Purge** executado na etapa 7 para excluir os dados derramados. Para saber mais, confira:
+Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction-Purge** executado na etapa 7 para excluir os dados derramados. Para saber mais, veja:
 
 - [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 
