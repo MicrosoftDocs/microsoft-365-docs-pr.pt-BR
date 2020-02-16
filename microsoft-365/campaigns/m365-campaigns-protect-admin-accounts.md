@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como configurar e proteger suas contas de administrador.
-ms.openlocfilehash: 6160f7458dc9a4c343c48f07d87776529c4f1326
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b74d9d2d69549bcaa476a346ba2a61fc24e0b3f3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594816"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080561"
 ---
 # <a name="protect-your-administrator-accounts"></a>Proteger suas contas de administrador
 
@@ -48,18 +48,18 @@ Para criar contas de administração adicionais:
 
  1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">centro de administração</a> e, em seguida, escolha usuários **ativos** do **usuário** \> no painel de navegação esquerdo.
 
-    ![Escolha usuários e, em seguida, usuários ativos no painel de navegação esquerdo](media/Activeusers.png)
+    ![Escolha usuários e, em seguida, usuários ativos no painel de navegação esquerdo](../media/Activeusers.png)
 
 2. Na página **usuários ativos** , selecione **Adicionar um usuário** na parte superior da página e, no painel **novo usuário** , insira o nome e outras informações.
 3. Expanda a seção **funções** e escolha **administrador global** para conceder acesso de administrador global ao usuário. Você também pode escolher **administrador personalizado** e escolher qualquer uma das funções que são exibidas.
 
     Insira um email alternativo na caixa de texto **endereço de email alternativo** . Você pode usar esse endereço para recuperar suas informações de senha, caso tenha bloqueado. Para administradores globais, um demonstrativo de cobrança também será enviado para esse endereço.
 
-    ![Escolha a função de administrador](media/adminroles.png)
+    ![Escolha a função de administrador](../media/adminroles.png)
     
 4. Na seção **licenças de produto** , mova o seletor para o **Microsoft 365 Business** para fora e a **opção** **criar usuário sem licença de produto** . ****
 
-    ![Escolha a licença de produto](media/productlicense.png)
+    ![Escolha a licença de produto](../media/productlicense.png)
 
 ## <a name="create-an-emergency-admin-account"></a>Criar uma conta de administrador de emergência
 

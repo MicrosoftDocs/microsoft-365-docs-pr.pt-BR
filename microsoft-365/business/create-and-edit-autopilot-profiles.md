@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Saiba como criar, editar, excluir ou remover perfis do AutoPilot.
-ms.openlocfilehash: 35967cb1f6e2cdeea9d7c42a529526410fa8b586
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 28f5b679d58711d11d9af26dffb7022024b72c79
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065868"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Criar e editar os perfis do AutoPilot
 
@@ -44,7 +44,7 @@ Um perfil aplica-se a um dispositivo ou a um grupo de dispositivos,
     
 3. Na página **Criar perfil** , digite um nome para o perfil que o ajuda a identificá-lo, por exemplo, marketing. Ative a configuração desejada e, em seguida, escolha **salvar**. Para obter mais informações sobre as configurações de perfil do AutoPilot, consulte [sobre as configurações de perfil do AutoPilot](autopilot-profile-settings.md).
     
-    ![Enter name and turn on settings in the Create profile panel.](media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
+    ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>Aplicar perfil a um dispositivo
 
@@ -54,7 +54,7 @@ Depois de criar um perfil, você pode aplicá-lo a um dispositivo ou a um grupo 
     
 2. Marque a caixa de seleção ao lado de um nome de dispositivo e, no painel **dispositivo** , escolha um perfil na lista \> suspensa **perfil atribuído** **salvar**.
     
-    ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
+    ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
 ## <a name="edit-delete-or-remove-a-profile"></a>Editar, excluir ou remover um perfil
 

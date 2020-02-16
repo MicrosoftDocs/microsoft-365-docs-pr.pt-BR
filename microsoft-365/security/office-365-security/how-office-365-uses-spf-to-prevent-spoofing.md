@@ -16,12 +16,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: Este artigo descreve como o Office 365 usa o registro TXT SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas do seu domínio personalizado. Isso se aplica a mensagens de saída enviadas do Office 365. As mensagens enviadas do Office 365 para um destinatário no Office 365 sempre passarão a SPF.'
-ms.openlocfilehash: f02219b19af592f9ad27ea963cb07a260c09327f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e2863c0b8a66fa511c4ce842dc8026e880594292
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085981"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Office 365 usa o SPF (estrutura de política de remetente) para evitar a falsificação
 
@@ -78,7 +78,7 @@ Os exemplos a seguir mostram como o SPF funciona em diferentes situações. Nest
 
 O SPF funciona melhor quando o caminho do remetente para o destinatário é direto, por exemplo:
 
-![Diagrama que mostra como o SPF autentica o email quando ele é enviado diretamente de um servidor para outro.](../media/835c20a7-ed4c-49c4-91fe-b8ebb3e452a1.jpg)
+![Diagrama que mostra como o SPF autentica o email quando ele é enviado diretamente de um servidor para outro.](../../media/835c20a7-ed4c-49c4-91fe-b8ebb3e452a1.jpg)
 
 Quando woodgrovebank.com recebe a mensagem, se o endereço IP 1 está no registro TXT SPF para contoso.com, a mensagem passa na verificação do SPF e é autenticada.
 
@@ -87,7 +87,7 @@ Quando woodgrovebank.com recebe a mensagem, se o endereço IP 1 está no registr
 
 Suponha que um agente de phishing encontre uma maneira de falsificar contoso.com:
 
-![Diagrama que mostra como o SPF autentica o email quando ele é enviado de um servidor falso.](../media/235dac3d-cdc5-466e-86e0-37b5979de198.jpg)
+![Diagrama que mostra como o SPF autentica o email quando ele é enviado de um servidor falso.](../../media/235dac3d-cdc5-466e-86e0-37b5979de198.jpg)
 
 Como o endereço IP 12 não está no registro TXT SPF de contoso.com, a mensagem falha na verificação do SPF, e o destinatário pode optar por marcá-la como spam.
 
@@ -96,7 +96,7 @@ Como o endereço IP 12 não está no registro TXT SPF de contoso.com, a mensagem
 
 Uma desvantagem do SPF é que ele não funciona quando um email é encaminhado. Por exemplo, suponha que o usuário em woodgrovebank.com configurou uma regra de encaminhamento para enviar todos os e-mails para uma conta do outlook.com:
 
-![Diagrama que mostra como o SPF não consegue autenticar o email quando a mensagem é encaminhada.](../media/6e92acd6-463e-4a1b-8327-fb1cf861f356.jpg)
+![Diagrama que mostra como o SPF não consegue autenticar o email quando a mensagem é encaminhada.](../../media/6e92acd6-463e-4a1b-8327-fb1cf861f356.jpg)
 
 A mensagem passa originalmente na verificação do SPF em woodgrovebank.com, mas falha na verificação do SPF em outlook.com, pois o IP 25 não está no registro TXT SPF de contoso.com. O domínio outlook.com pode marcar a mensagem como spam. Para contornar esse problema, use o SPF em conjunto com outros métodos de autenticação de email, como DKIM e DMARC.
 

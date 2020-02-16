@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: Saiba como exibir, editar e gerenciar cronogramas para relatórios no centro de conformidade &amp; de segurança.
-ms.openlocfilehash: 38fd211a20c86fffc564c8b4fbe86e963da7fe05
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5ae6a37a04604ca814348ac42d80a57e3e171b6b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598928"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082861"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>Gerenciar agendas para vários relatórios no centro &amp; de conformidade de segurança
 
@@ -30,7 +30,7 @@ No centro de &amp; conformidade de segurança, vários [relatórios e informaç�
 > [!IMPORTANT]
 > Verifique se você tem as permissões necessárias [atribuídas no centro de conformidade de &amp; segurança do Office 365](permissions-in-the-security-and-compliance-center.md). Em geral, os administradores globais do Office 365, administradores de segurança e leitores de segurança podem acessar relatórios &amp; no centro de conformidade de segurança. 
   
-![No centro de &amp; conformidade de segurança, escolha \> relatórios gerenciar agendas](../media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
+![No centro de &amp; conformidade de segurança, escolha \> relatórios gerenciar agendas](../../media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
 
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade & segurança.
 

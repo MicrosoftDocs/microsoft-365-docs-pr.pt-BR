@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business para a Microsoft 365 E3.
-ms.openlocfilehash: 02adda0c2c59d2994b0c6197dd76c6cc893ad9f0
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: cd6b9b14e9bc1ed03635be12873fb90592efe527
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41627977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065312"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business para o Microsoft 365 E3
 
@@ -53,35 +53,35 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Microsoft 3
 | Aplicativos do Office *  | [Office 365 Business](#office-365-business)   | Office 365 ProPlus | 
 | **Aplicativos de produtividade em nuvem**       | | | 
 | Exchange Online e Outlook   | limite de armazenamento de 50 GB por caixa de correio e arquivamento ilimitado do Exchange Online   | limite de armazenamento de 100 GB por caixa de correio e arquivamento ilimitado do Exchange Online | 
-| Teams | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Teams | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | OneDrive for Business | limite de armazenamento de 1 TB por usuário   | Ilimitado | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Gerenciador de clientes do Outlook, MileIQ  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | | 
-| **Proteção contra ameaças**     | | | 
+| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Gerenciador de clientes do Outlook, MileIQ  | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | | 
+| **Proteção contra Ameaças**     | | | 
 | Recursos de redução de superfície de ataque | [Confira esta lista](#threat-protection) | Gerenciamento corporativo de isolamento baseado em hardware para o Microsoft Edge | 
-| Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](./media/check-mark.png)  | Não está incluído, mas pode ser adicionado em | 
+| Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](../media/check-mark.png) | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**       | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|    ![Incluído no Microsoft 365 Business](./media/check-mark.png) | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Descoberta do Cloud app, integridade do Azure AD Connect  |   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Logon único (SSO) de aplicativos do Azure AD Office 365:10 aplicativos por usuário (Galeria de aplicativos SaaS como Salesforce) * | ![Incluído no Microsoft 365 Business](./media/check-mark.png) | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do proxy de aplicativo do Azure AD e aplicativos não-Galeria usando modelos de integração de aplicativos de autoatendimento)  |   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|    ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Descoberta do Cloud app, integridade do Azure AD Connect  |   | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Logon único (SSO) de aplicativos do Azure AD Office 365:10 aplicativos por usuário (Galeria de aplicativos SaaS como Salesforce) * | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do proxy de aplicativo do Azure AD e aplicativos não-Galeria usando modelos de integração de aplicativos de autoatendimento)  |   | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | **Gerenciamento de dispositivos e aplicativos**     | | | 
-| Microsoft Intune, piloto automático do Windows|  ![Incluído no Microsoft 365 Business](./media/check-mark.png) | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-|Acesso à área de trabalho virtual (VDA)   |  |    ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-|Área de trabalho virtual do Windows (WVD)  | ![Incluído no Microsoft 365 Business](./media/check-mark.png) |     ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-|Ativação de computador compartilhado (SCA)   | ![Incluído no Microsoft 365 Business](./media/check-mark.png) |     ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Pacote de otimização de área de trabalho da Microsoft    | |     ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Microsoft Intune, piloto automático do Windows|  ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+|Acesso à área de trabalho virtual (VDA)   |  |    ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+|Área de trabalho virtual do Windows (WVD)  | ![Incluído no Microsoft 365 Business](../media/check-mark.png) |    ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+|Ativação de computador compartilhado (SCA)   | ![Incluído no Microsoft 365 Business](../media/check-mark.png) |    ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Pacote de otimização de área de trabalho da Microsoft    | |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | **Proteção de informações**        | | | 
-| Prevenção de perda de dados do Office 365, plano de proteção de informações do Azure 1  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Proteção de informações da janela para o Endpoint DLP    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Prevenção de perda de dados do Office 365, plano de proteção de informações do Azure 1  | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Proteção de informações da janela para o Endpoint DLP    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | **Licença de acesso para cliente (direitos de CAL)**    | | |   
-| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, gerenciamento de direitos do Windows)| |       ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, gerenciamento de direitos do Windows)| |       ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | **Conformidade**        | | | 
-| Arquivamento ilimitado de email | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Pontuação de conformidade/gerente de conformidade   | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Descoberta eletrônica    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Bloqueio in-loco e retenção de litígio | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
-| Marcas de retenção e políticas de retenção do MRM (gerenciamento de registros de mensagens)  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído no Microsoft 365 E3](./media/check-mark.png) | 
+| Arquivamento ilimitado de email | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Pontuação de conformidade/gerente de conformidade   | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Descoberta eletrônica    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Bloqueio in-loco e retenção de litígio | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Marcas de retenção e políticas de retenção do MRM (gerenciamento de registros de mensagens)  | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 ||||
 
 \*Os usuários aos quais foram atribuídos acesso aos aplicativos SaaS podem obter acesso SSO para até 10 aplicativos. Os administradores podem configurar o SSO e alterar o acesso de usuário para aplicativos SaaS diferentes, mas o acesso SSO só é permitido para 10 aplicativos por usuário por vez. Todos os aplicativos do Office 365 são contados como um único aplicativo.

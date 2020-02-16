@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar um cronograma para um relatório no centro de conformidade de &amp; segurança.
-ms.openlocfilehash: 743bb0cd71fb4a5c6ce9b875c797ad3ca54d0485
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a7a4d0b6bef3f800a53e4f980ccd689e011a9ea
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083452"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Criar um cronograma para um relatório no centro de &amp; conformidade de segurança
 
@@ -55,7 +55,7 @@ No centro de &amp; conformidade de segurança, vários [relatórios e informaç�
     
 3. No canto superior esquerdo do relatório, escolha **+ criar agendamento**. 
     
-    ![Criar agendamento](../media/atpfiletypes-createschedule.png)
+    ![Criar agendamento](../../media/atpfiletypes-createschedule.png)
 
     (Observação: nem todos os relatórios têm o botão **+ criar agenda** .)
   
@@ -63,7 +63,7 @@ No centro de &amp; conformidade de segurança, vários [relatórios e informaç�
     
 4. Mantenha as configurações padrão e escolha **criar agenda**ou escolha **Personalizar agendamento**.
     
-    ![Você pode usar as configurações padrão ou personalizar um agendamento de relatório](../media/04fac327-8f73-4711-8319-58c11880fd96.png)
+    ![Você pode usar as configurações padrão ou personalizar um agendamento de relatório](../../media/04fac327-8f73-4711-8319-58c11880fd96.png)
   
     Se você optar por personalizar seu cronograma de relatório, poderá especificar a frequência do relatório, o endereço de email de um remetente e o endereço de email de um destinatário. 
     

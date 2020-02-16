@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Visão geral da configuração do Microsoft 365 para campanhas
-ms.openlocfilehash: cca8866241a3759c022a362d39f7b208dff72580
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d2dac24488e5d29b0e888ba09f5359cba6b1f614
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594169"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080470"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Configurar o Microsoft 365 para campanhas
 
@@ -38,7 +38,7 @@ Este artigo descreve o processo de configuração do Microsoft 365 para campanha
 ## <a name="admins-set-up-microsoft-365-for-campaigns"></a>Administradores: configurar o Microsoft 365 para campanhas
 O diagrama a seguir descreve como os administradores configuram o Microsoft 365 para campanhas.
 
-![Etapas para configurar o Microsoft 365 para campanhas](media/M365-democracy-SetUpProcess.png)
+![Etapas para configurar o Microsoft 365 para campanhas](../media/M365-democracy-SetUpProcess.png)
 
 Para campanhas qualificadas para preços especiais, comece [solicitando um convite da Microsoft](https://m365forcampaigns.microsoft.com/)e, em seguida, inscrevendo-se no [Microsoft 365 para campanhas](m365-campaigns-sign-up.md). Para concluir a instalação, [Execute o assistente de configuração](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para definir as configurações principais.
 
@@ -51,7 +51,7 @@ Para todas as organizações, aumente a proteção de segurança: [proteger as c
  
 Os usuários precisarão de alguns minutos para configurar dispositivos para trabalhar com esse ambiente. Para os principais usuários (aqueles que são os alvos de maior valor para hackers), você pode configurar e pré-configurar novos dispositivos. Isso ajuda a começar a usar as credenciais do Microsoft 365. 
 
-![Processo de configuração do dispositivo de usuário](media/m365-democracy-user-device-setup.png)
+![Processo de configuração do dispositivo de usuário](../media/m365-democracy-user-device-setup.png)
   
 Para configurar os dispositivos do usuário: 
 1. Cada usuário [configura seus dispositivos móveis](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json). 

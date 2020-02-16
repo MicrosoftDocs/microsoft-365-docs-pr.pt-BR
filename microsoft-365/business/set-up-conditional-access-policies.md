@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como configurar políticas de acesso condicional para campanhas do Microsoft 365.
-ms.openlocfilehash: 335fbd7e771b1595e1846529daed76e5ddd3a8f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1ef90bd77da43ded624d85cef9c7a33beec74345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593376"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064592"
 ---
 # <a name="set-up-conditional-access-policies"></a>Configurar políticas de acesso condicional
 
@@ -52,7 +52,7 @@ Para obter mais informações sobre essas políticas, consulte [o que são polí
 1. Vá para [portal do Azure](https://portal.azure.com)e navegue até **acesso condicional** **do Azure Active Directory** \> .
     
     As políticas de linha de base são listadas na página. <br/> <br/>
-    ![Página que lista as políticas de linha de base para acesso condicional.](media/baslinepolicies.png)
+    ![Página que lista as políticas de linha de base para acesso condicional.](../media/baslinepolicies.png)
 1. Consulte as seguintes instruções específicas para cada política:
 
   - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)

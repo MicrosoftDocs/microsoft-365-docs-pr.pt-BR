@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business do Office 365 E3.
-ms.openlocfilehash: 210f3ebf76da49349dfb6d61d0b8ce88d15d3734
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 54320ed60825a28147542094b19761889a70ae9f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593700"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065575"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Migrando do Office 365 E3 para a Microsoft 365 Business 
 
@@ -44,25 +44,25 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Office 365 
 | Aplicativos do Office<sup>1</sup>   | Office 365 Business   | Office 365 ProPlus | 
 | **Aplicativos de produtividade em nuvem**       | | | 
 | Exchange Online e Outlook   | limite de armazenamento de 50 GB por caixa de correio e arquivamento ilimitado do Exchange Online   | limite de armazenamento de 100 GB por caixa de correio e arquivamento ilimitado do Exchange Online | 
-| Teams | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído com o Office 365 E3](./media/check-mark.png) | 
+| Teams | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | OneDrive for Business | limite de armazenamento de 1 TB por usuário   | Ilimitado | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído com o Office 365 E3](./media/check-mark.png) | 
-| StaffHub  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | ![Incluído com o Office 365 E3](./media/check-mark.png) | 
-| Gerenciador de clientes do Outlook, MileIQ  | ![Incluído no Microsoft 365 Business](./media/check-mark.png)   | | 
-| **Proteção contra ameaças**     | | | 
-| Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](./media/check-mark.png)  | Não está incluído, mas pode ser adicionado em | 
+| Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
+| StaffHub  | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
+| Gerenciador de clientes do Outlook, MileIQ  | ![Incluído no Microsoft 365 Business](../media/check-mark.png)  | | 
+| **Proteção contra Ameaças**     | | | 
+| Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](../media/check-mark.png) | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**       | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|    ![Incluído no Microsoft 365 Business](./media/check-mark.png) |  | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|    ![Incluído no Microsoft 365 Business](../media/check-mark.png)    |  | 
 | **Gerenciamento de dispositivos e aplicativos**     | | |
-| Microsoft Intune, piloto automático do Windows|  ![Incluído no Microsoft 365 Business](./media/check-mark.png) |  |
-| Ativação de computador compartilhado|   ![Incluído no Microsoft 365 Business](./media/check-mark.png) | ![Incluído com o Office 365 E3](./media/check-mark.png)| 
-| Atualizar direitos para o Windows 10 pro de licenças do Win 7/8.1 pro|     ![Incluído no Microsoft 365 Business](./media/check-mark.png) || 
+| Microsoft Intune, piloto automático do Windows|  ![Incluído no Microsoft 365 Business](../media/check-mark.png)    |  |
+| Ativação de computador compartilhado|   ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png)| 
+| Atualizar direitos para o Windows 10 pro de licenças do Win 7/8.1 pro|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    || 
 | **Proteção de informações**        | | |
-|Prevenção de perda de dados do Office 365|   ![Incluído no Microsoft 365 Business](./media/check-mark.png)|![Incluído com o Office 365 E3](./media/check-mark.png)|
-|Plano de proteção de informações do Azure 1, imposição do BitLocker|![Incluído no Microsoft 365 Business](./media/check-mark.png)||
-|Plano de proteção de informações do Azure 1, rótulos de confidencialidade|![Incluído no Microsoft 365 Business](./media/check-mark.png)||
+|Prevenção de perda de dados do Office 365|   ![Incluído no Microsoft 365 Business](../media/check-mark.png)|![Incluído com o Office 365 E3](../media/check-mark.png)|
+|Plano de proteção de informações do Azure 1, imposição do BitLocker|![Incluído no Microsoft 365 Business](../media/check-mark.png)||
+|Plano de proteção de informações do Azure 1, rótulos de confidencialidade|![Incluído no Microsoft 365 Business](../media/check-mark.png)||
 |**Licença de acesso para cliente (direitos de CAL)**|||
-|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Incluído com o Office 365 E3](./media/check-mark.png)|
+|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Incluído com o Office 365 E3](../media/check-mark.png)|
 
 <sup>1</sup> a versão Microsoft 365 Business dos aplicativos do Office não inclui ativação por volume através da política de grupo, telemetria de aplicativos, controles de atualização, comparação de planilhas e consultas de Business Intelligence.
 

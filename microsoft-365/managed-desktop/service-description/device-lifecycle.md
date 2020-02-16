@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 431b28635f856ebd50e1de4129c00149e1e7c78d
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 2d6dffad4b4d96e065dd5163ea702c91c27520fb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085813"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto do Microsoft Managed desktop
 
@@ -33,7 +33,7 @@ Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicion
 
 A sequência inteira é descrita nesta ilustração:
 
-![linha do tempo do ciclo de vida: Iniciando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse período, a janela de certificação termina e em algum momento o dispositivo é integrado. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos é iniciado. A partir do momento em que o dispositivo é integrado, ele tem um período de 3 anos de uso até que seja removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](images/non-dark1-edits.PNG)
+![linha do tempo do ciclo de vida: Iniciando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse período, a janela de certificação termina e em algum momento o dispositivo é integrado. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos é iniciado. A partir do momento em que o dispositivo é integrado, ele tem um período de 3 anos de uso até que seja removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](../../media/non-dark1-edits.PNG)
 
 Os produtos permanecem no catálogo por até 24 meses, mas os <em>dispositivos</em> permanecem sob gerenciamento por 3 anos com base em suas datas de registro individuais. Efetivamente, cada produto tem três datas importantes, mas cada dispositivo tem apenas um. Para produtos, todas as três datas são calculadas com base na <em>data de aprovação</em>e, portanto, publicamos essas datas após a aprovação, de modo que você possa sempre olhar em frente e planejar adequadamente para o ciclo de vida inteiro do produto.
 
@@ -58,7 +58,7 @@ Esta tabela mostra datas de exemplo para *dispositivos*teóricos:
 
 O ciclo de vida do produto é iniciado quando um fabricante lança o produto publicamente:
 
-![linha do tempo do ciclo de vida mostrando o período de lançamento e avaliação](images/non-dark3-edits.PNG)
+![linha do tempo do ciclo de vida mostrando o período de lançamento e avaliação](../../media/non-dark3-edits.PNG)
 
 Durante esse estágio, a equipe de engenharia de área de trabalho gerenciada da Microsoft faz a avaliação e a certificação de um produto. A equipe avalia itens como confiabilidade e desempenho com o Windows, conformidade com uma linha de base de hardware, informações do mercado e disponibilidade de estoque e canal, entre outras coisas. Esse processo geralmente leva aproximadamente 6 semanas.
   
@@ -71,7 +71,7 @@ No final desta fase, a área de trabalho gerenciada da Microsoft adiciona o prod
 
 Esse período é o principal da disponibilidade do produto:
 
-![linha do tempo do ciclo de vida mostrando a disponibilidade principal](images/non-dark4-edits.PNG)
+![linha do tempo do ciclo de vida mostrando a disponibilidade principal](../../media/non-dark4-edits.PNG)
 
 Todos os dispositivos registrados durante esse período recebem o total de três anos de suporte da área de trabalho gerenciada da Microsoft (conforme mostrado na linha do tempo azul). Este período dura até uma data de término definida como 24 meses a partir da data de disponibilidade geral.
 
@@ -84,7 +84,7 @@ O período de cortesia do produto é um período de três anos após a disponibi
 Se você comprou recentemente vários dispositivos aprovados antes de se inscrever com a área de trabalho gerenciada da Microsoft, ainda poderá registrá-los, mas não receberá um total de três anos de gerenciamento. Em vez disso, eles ficarão fora de conformidade na data de aposentadoria, independentemente de quando eles estiverem registrados. Nos bastidores, a área de trabalho gerenciada da Microsoft tratará esses dispositivos como se estivessem registrados no último dia da disponibilidade principal. Nesta ilustração, você pode ver esse cenário observando que o dispositivo azul e verde termina no mesmo dia, apesar da diferença de um ano no registro:
 
 
-![linha do tempo do ciclo de vida mostrando período de carência](images/non-dark2-edits.PNG)
+![linha do tempo do ciclo de vida mostrando período de carência](../../media/non-dark2-edits.PNG)
 
 O exemplo de laptop da Fabrikam da tabela anterior ilustra essa situação: 
 

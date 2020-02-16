@@ -1,5 +1,7 @@
 ---
 title: Criar um site de comunicações
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar um site de comunicações para sua campanha.
-ms.openlocfilehash: e8f7730d1ec407bf24a819df7366d9bedd78d390
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 5c6590ae8e8fbe0dd1cc024c53f3a2a109aa918c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748272"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056362"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>Criar um site de comunicações para sua campanha
 
@@ -42,12 +44,12 @@ Inclua os seguintes elementos no site de comunicações:
 4. Adicionar eventos de campanha a uma **Web Part de eventos** para que todos possam ver o que está chegando.
 5. Adicionar fotos que as pessoas podem usar ou compartilhar com uma **Web Part da Galeria de imagens**.
 
-![Diagrama de uma página de comunicações do SharePoint com espaço para elementos comuns que uma campanha precisaria](media/m365-democracy-comms-site.png)
+![Diagrama de uma página de comunicações do SharePoint com espaço para elementos comuns que uma campanha precisaria](../media/m365-democracy-comms-site.png)
 
 ## <a name="infographic-create-a-communications-site-infographic"></a>Infográfico: criar um site de comunicação infográfico 
 Os links a seguir para PowerPoint e PDF podem ser baixados e impressos no formato tablóide (também conhecido como razão, 11 x 17 ou a3).
 
-[![Imagem do site de comunicações infográfico](media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
+[![Imagem do site de comunicações infográfico](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
 [PDF](downloads/M365CampaignsCreateCommunicationSite.pdf) | do[PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsCreateCommunicationSite.pptx)
 

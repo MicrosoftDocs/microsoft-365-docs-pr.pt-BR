@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 description: Você pode usar o Proteção do Exchange Online (EOP) para criar grupos habilitados para email para uma organização do Exchange. Você também pode usar o EOP para definir ou atualizar propriedades de grupo que especificam associação, endereços de email e outros aspectos de grupos.
-ms.openlocfilehash: ae4e0a8c39c97720cb51c0f5d7b69547258b11b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ad07066906f78703c568850afbfa5dfa8d8cc3c1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598988"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082880"
 ---
 # <a name="manage-groups-in-eop"></a>Gerenciar grupos no EOP
 
@@ -55,7 +55,7 @@ Você pode criar dois tipos de grupos para sua organização do Exchange:
 
 1. No Eat, vá para **grupos**de **destinatários** \> .
 
-2. Clique em **novo** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, clique em **grupo de distribuição** ou grupo de **segurança**, dependendo de suas necessidades.
+2. Clique em **novo** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, clique em **grupo de distribuição** ou grupo de **segurança**, dependendo de suas necessidades.
 
 3. Na página **novo grupo de distribuição** ou **novo grupo de segurança** , defina as seguintes configurações:
 
@@ -65,12 +65,12 @@ Você pode criar dois tipos de grupos para sua organização do Exchange:
 
    - **Descrição**: digite uma descrição do grupo para que as pessoas saibam a finalidade do grupo.
 
-   - **Proprietários**: por padrão, a pessoa que cria o grupo é o proprietário. Você pode adicionar um proprietário escolhendo **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição. Todos os grupos devem ter no mínimo um proprietário.
+   - **Proprietários**: por padrão, a pessoa que cria o grupo é o proprietário. Você pode adicionar um proprietário escolhendo **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição. Todos os grupos devem ter no mínimo um proprietário.
 
      > [!NOTE]
      > Os proprietários do grupo não precisam ser membros do grupo.
 
-   - **Membros**: Use esta seção para adicionar membros do grupo e especificar se a aprovação é necessária para que as pessoas ingressem ou saiam do grupo. Para adicionar membros ao grupo, clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição.
+   - **Membros**: Use esta seção para adicionar membros do grupo e especificar se a aprovação é necessária para que as pessoas ingressem ou saiam do grupo. Para adicionar membros ao grupo, clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição.
 
 4. Clique em **OK** para retornar à página original.
 
@@ -82,9 +82,9 @@ Você pode criar dois tipos de grupos para sua organização do Exchange:
 
 2. Execute uma das seguintes etapas:
 
-   - Para editar um grupo: na lista de grupos, clique no grupo que você deseja exibir ou alterar e, em seguida, clique em **Editar** ![ícone](../media/ITPro-EAC-EditIcon.gif)de edição. Você pode atualizar as configurações gerais, adicionar ou remover proprietários de grupo e adicionar ou remover membros do grupo, conforme necessário.
+   - Para editar um grupo: na lista de grupos, clique no grupo que você deseja exibir ou alterar e, em seguida, clique em **Editar** ![ícone](../../media/ITPro-EAC-EditIcon.gif)de edição. Você pode atualizar as configurações gerais, adicionar ou remover proprietários de grupo e adicionar ou remover membros do grupo, conforme necessário.
 
-   - Para remover um grupo: selecione o grupo e clique em **remover** ![ícone](../media/ITPro-EAC-RemoveIcon.gif)de remoção.
+   - Para remover um grupo: selecione o grupo e clique em **remover** ![ícone](../../media/ITPro-EAC-RemoveIcon.gif)de remoção.
 
 3. Ao terminar de fazer as alterações, clique em **Salvar**.
 

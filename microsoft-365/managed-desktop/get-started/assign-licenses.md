@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a2be9f588c2fa6d1106d0f4efa523adb304d68ca
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 8b12ec5f3b7d33f171790224a22ab55b33382187
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012436"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085860"
 ---
 # <a name="assign-licenses"></a>Atribuir licenças
 
@@ -24,11 +24,11 @@ Se você tiver dificuldade com a atribuição de licença, entre em contato com 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
 
-1. [Adicionar e verificar contatos de administrador no portal de administração](add-admin-contacts.md)
+1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. Atribuir licenças (este tópico)
-4. [Implantar o portal da empresa do Intune](company-portal.md)
-5. [Habilitar roaming de estado corporativo](enterprise-state-roaming.md)
+4. [Implantar o Portal da Empresa do Intune](company-portal.md)
+5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
 6. [Configurar dispositivos](set-up-devices.md)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
 8. [Implantar aplicativos](deploy-apps.md)

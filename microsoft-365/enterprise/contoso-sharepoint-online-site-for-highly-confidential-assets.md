@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: c0b9e36f90e64e1d1c7f7ea2c4b1b4b65e60b95c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a1ffb336e85eb6eb850b53ed14adf947b56642cc
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601128"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068259"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint para ativos digitais altamente confidenciais da Contoso Corporation
 
@@ -67,7 +67,7 @@ Os administradores da Contoso criaram um novo subrótulo de confidencialidade do
 
 Aqui está a configuração resultante do site de equipe de **pesquisa** para ativos altamente confidenciais.
 
-![A configuração resultante do site de equipe de pesquisa para ativos altamente confidenciais](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
+![A configuração resultante do site de equipe de pesquisa para ativos altamente confidenciais](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
 
 Arquivos em pastas do site de **pesquisa** são protegidos por:
 
@@ -77,7 +77,7 @@ Arquivos em pastas do site de **pesquisa** são protegidos por:
 
 Aqui está um exemplo de um arquivo armazenado no site de **pesquisa** com o subrótulo de confidencialidade das **equipes de pesquisa** atribuído.
 
-![A configuração resultante do site de equipe de pesquisa para ativos altamente confidenciais](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
+![A configuração resultante do site de equipe de pesquisa para ativos altamente confidenciais](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
 
 
 ## <a name="step-4-migrated-the-on-premises-sharepoint-research-data"></a>Etapa 4: migrar os dados de pesquisa do SharePoint local

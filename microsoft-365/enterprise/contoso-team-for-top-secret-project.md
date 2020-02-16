@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso usou uma equipe para dados altamente regulamentados de um projeto de segredo superior para desenvolver um novo pacote de produtos e serviços.'
-ms.openlocfilehash: 794fb5cfb6f3011724d37a6a3c42c39dacacc270
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 58d381751db3e94f35a0c1b8f7a14c191918e754
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597068"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068018"
 ---
 # <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Equipe para um projeto confidencial da Contoso Corporation
 
@@ -68,7 +68,7 @@ Os administradores da Contoso criaram um novo rótulo de sensibilidade do Office
 
 Veja a seguir a configuração resultante da equipe do projeto 2X.
 
-![A configuração resultante da equipe do projeto 2X](./media/contoso-team-for-highly-confidential-assets/final-config.png)
+![A configuração resultante da equipe do projeto 2X](../media/contoso-team-for-highly-confidential-assets/final-config.png)
  
 Arquivos na seção Documents do projeto subjacente o site do SharePoint é protegido por:
 
@@ -79,7 +79,7 @@ Arquivos na seção Documents do projeto subjacente o site do SharePoint é prot
 
 Aqui está um exemplo de um arquivo armazenado no site subjacente do projeto 2 com o rótulo de retenção altamente regulamentado e o rótulo de sensibilidade do projeto 2X atribuído.
 
-![Um exemplo de um arquivo armazenado no site subjacente do projeto 2](./media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
+![Um exemplo de um arquivo armazenado no site subjacente do projeto 2](../media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
  
 ## <a name="step-4-trained-project-2x-team-members"></a>Etapa 4: projeto treinado 2 membros da equipe
 

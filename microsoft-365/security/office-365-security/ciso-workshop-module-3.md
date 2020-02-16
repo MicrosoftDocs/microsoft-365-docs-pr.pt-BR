@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: 97ba2b0319f8a34bd6fe1cbdf597b85281810855
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4f264bead74f6a087fc0cac93df18d02121fbe4c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599698"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083520"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>Módulo 3 do CISO Workshop: Identity e zero Trust User Access
 
 Saiba como avançar zero confiança com sua identidade e sua estratégia de acesso de usuário para proteger melhor os dados corporativos dentro e fora do perímetro da rede.
 
-- Baixar PDF Resumo: [módulo 3: identidade e zero acesso de usuário de confiança](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pdf)
-- Baixe o resumo do PowerPoint: [módulo 3: gerenciamento de identidades e acesso](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pptx)
+- Baixar PDF Resumo: [módulo 3: identidade e zero acesso de usuário de confiança](../../media/ciso-workshop-3-identity-and-zero-trust-user-access.pdf)
+- Baixe o resumo do PowerPoint: [módulo 3: gerenciamento de identidades e acesso](../../media/ciso-workshop-3-identity-and-zero-trust-user-access.pptx)
 
 ## <a name="part-1-identity-and-zero-trust-history-933"></a>Parte 1: histórico de confiança de identidade e zero (9:33)
 

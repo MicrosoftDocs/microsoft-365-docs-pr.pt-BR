@@ -16,12 +16,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir o SCL de mensagens na proteção do Exchange Online.
-ms.openlocfilehash: 4befc3c371118416b6d07f151eb2c346f8520608
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 10440d5ac8cd57388f4550f21ca72ce7aa1a2745
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081970"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Usar regras de fluxo de emails para definir o SCL (nível de confiança de spam) em mensagens
 
@@ -39,14 +39,14 @@ Você pode criar uma regra de fluxo de emails (também conhecida como regra de t
 
 1. No centro de administração do Exchange (Eat), escolha \> **regras**de **fluxo de emails** .
 
-2. Escolha **novo**![ícone](../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, selecione **criar uma nova regra**.
+2. Escolha **novo**![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, selecione **criar uma nova regra**.
 
 3. Especifique um nome para a regra.
 
 4. Escolha **mais opções**e, em **aplicar esta regra se**, especifique uma condição que disparará a ação que será definida para esta regra (que é definir o valor de SCL).
 
    Por exemplo, você pode definir que **o remetente** \> **é interno/externo**e, em seguida, na caixa de diálogo **selecionar local do remetente** , selecione **dentro da organização**e escolha **OK**.<br/>
-   ![Selecione o local do remetente](../media/EOP-ETR-SetSCL-1.jpg)
+   ![Selecione o local do remetente](../../media/EOP-ETR-SetSCL-1.jpg)
 
 5. Em **Execute a ação a seguir**, selecione **Modificar as propriedades da mensagem** \> **definir o SCL (nível de confiança de spam)**.
 

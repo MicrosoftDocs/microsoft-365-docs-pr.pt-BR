@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Saiba mais sobre os Estados de dispositivos no Microsoft 365 Business.
-ms.openlocfilehash: 02b4eebac62a48e3ddd53d362db2d60067ac05eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 26b218cb7b6a14f17e33d34a2e712b06ac814c0c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593962"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065748"
 ---
 # <a name="device-states"></a>Estados do dispositivo
 
 Os dispositivos na lista **Ações do dispositivo** (página inicial do administrador \> **Ações do dispositivo**) podem ter os estados a seguir.
   
-![In the Device actions list, you can see the Devices states.](media/a621c47e-45d9-4e1a-beb9-c03254d40c1d.png)
+![In the Device actions list, you can see the Devices states.](../media/a621c47e-45d9-4e1a-beb9-c03254d40c1d.png)
   
 |**Status**|**Descrição**|
 |:-----|:-----|

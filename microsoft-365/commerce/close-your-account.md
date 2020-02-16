@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: bbb3b56d72c0f67e7771c9a188df751aa3dd95ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3a193aea92ff384d53ce320a98cd9043d990b678
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080378"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 

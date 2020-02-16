@@ -16,12 +16,12 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: Para ajudar na etapa inicial de proteger suas informações, Iniciando em julho de 2018 todos os locatários qualificados de proteção de informações do Azure terão os recursos de proteção da proteção de informações do Azure ativados por padrão. Os recursos de proteção na proteção de informações do Azure eram conhecidos anteriormente no Office 365 como o gerenciamento de direitos ou o Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço mais alto, você agora terá uma partida para proteger as informações por meio da proteção de informações do Azure quando esses recursos forem distribuídos.
-ms.openlocfilehash: 6ff4ecb4dc9b0e2b0a4e8dd7a2d9573326afc6a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de3b233d4baac380608d3a209c2ffea274c20d5b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083561"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Recursos de proteção na proteção de informações do Azure distribuir para os locatários existentes do Office 365
 
@@ -41,7 +41,7 @@ A partir de 1º de julho de 2018, a Microsoft habilitará o recurso de proteçã
 
 Os administradores de locatários podem verificar o status de proteção no portal do administrador do Office 365.
 
-![Captura de tela que mostra que o gerenciamento de direitos no Office 365 está ativado.](../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
+![Captura de tela que mostra que o gerenciamento de direitos no Office 365 está ativado.](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
 
 ## <a name="why-are-we-making-this-change"></a>Por que estamos fazendo essa alteração?
 
@@ -85,6 +85,6 @@ Para recusar a próxima alteração, conclua estas etapas:
 
 Após a habilitação, contanto que você não tenha optado por sair, é possível começar a usar a nova versão da criptografia de mensagem do Office 365 que foi anunciada no [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) e aproveita os recursos de criptografia e proteção da proteção de informações do Azure.
 
-![Captura de tela que mostra uma mensagem protegida do OME no Outlook na Web.](../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
+![Captura de tela que mostra uma mensagem protegida do OME no Outlook na Web.](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
 
 Para obter mais informações sobre os novos aprimoramentos, confira [criptografia de mensagem do Office 365](../../compliance/ome.md).

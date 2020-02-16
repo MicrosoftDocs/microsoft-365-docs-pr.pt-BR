@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Saiba como adicionar novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business.
-ms.openlocfilehash: 932b969d089dd223426e35c5bea4efde4409ad48
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a7893a8b070b37b7643a4d4e7de3e8ef2ec704f2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593284"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068568"
 ---
 # <a name="add-more-users-to-microsoft-365-business"></a>Adicionar mais usuários ao Microsoft 365 Business
 
@@ -51,11 +51,11 @@ Para adicionar um usuário:
   
     Você pode inserir mais informações em **informações de contato**, escolher como definir a senha em configuração de **senha** e atribuir funções em **funções**.
       
-    ![Inserir informações do usuário no novo cartão de usuário](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
+    ![Inserir informações do usuário no novo cartão de usuário](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
     Na seção licenças de produto, **defina a configuração**de licença de produto do **Microsoft 365 Business** .
       
-    ![Definir a configuração da licença como na posição](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
+    ![Definir a configuração da licença como na posição](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
 Para obter mais informações sobre como adicionar usuários, consulte [Adicionar usuários individualmente ou em massa](https://docs.microsoft.com/office365/admin/add-users/add-users).
   

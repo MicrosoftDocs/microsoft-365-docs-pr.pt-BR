@@ -15,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Você pode criar uma regra de fluxo de email do Exchange para impedir que os usuários enviem mensagens de email para a Microsoft para análise e usá-las em seus próprios processos de segurança
-ms.openlocfilehash: 530cc12fd83650f319da3f65e961c925a1de7409
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae8655416840dc326344e2c2aea7c67486389492
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598049"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084370"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft
 
@@ -38,7 +38,7 @@ Para obter informações sobre os atalhos de teclado que podem se aplicar aos pr
 
 1. No EAC, navegue até **Fluxo de email** \> **Regras**.
 
-2. Clique em ![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
+2. Clique em ![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
 
 3. Dê um nome à regra e então clique em **Mais opções**.
 
@@ -46,11 +46,11 @@ Para obter informações sobre os atalhos de teclado que podem se aplicar aos pr
 
 5. Na caixa **especificar palavras ou frases** , siga estas etapas:
 
-   - Tipo `abuse@messaging.microsoft.com`, clique **em Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição `junk@office365.microsoft.com` , digite e clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição. Esses endereços de email são usados para enviar mensagens de falso negativo para a Microsoft.
+   - Tipo `abuse@messaging.microsoft.com`, clique **em Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição `junk@office365.microsoft.com` , digite e clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição. Esses endereços de email são usados para enviar mensagens de falso negativo para a Microsoft.
 
-   - Digite `phish@office365.microsoft.com` e, em seguida, clique](../media/ITPro-EAC-AddIcon.gif)em **Adicionar** ![ícone de adição. Esse endereço de email é usado para enviar mensagens de phishing perdidas para a Microsoft.
+   - Digite `phish@office365.microsoft.com` e, em seguida, clique](../../media/ITPro-EAC-AddIcon.gif)em **Adicionar** ![ícone de adição. Esse endereço de email é usado para enviar mensagens de phishing perdidas para a Microsoft.
 
-   - Tipo `false_positive@messaging.microsoft.com`, clique **em Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição `not_junk@office365.microsoft.com`, digite e clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição. Esses endereços de email são usados para enviar mensagens de falso positivo para a Microsoft.
+   - Tipo `false_positive@messaging.microsoft.com`, clique **em Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição `not_junk@office365.microsoft.com`, digite e clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição. Esses endereços de email são usados para enviar mensagens de falso positivo para a Microsoft.
 
    - Clique em **OK**.
 

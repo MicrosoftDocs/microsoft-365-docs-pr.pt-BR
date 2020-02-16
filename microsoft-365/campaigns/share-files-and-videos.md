@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Compartilhe arquivos e vídeos dentro da sua campanha com o Microsoft Teams e o SharePoint.
-ms.openlocfilehash: bd6fae6c728cee50efcb5094edd6c75f6bdf3b11
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b67b6f834fd9333814f1807567776644dd2826e7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594722"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080408"
 ---
 # <a name="share-files-and-videos"></a>Compartilhar arquivos e vídeos
 
 Quando você precisa controlar quem pode exibir e quem pode editar seus arquivos, você precisa armazenar os arquivos em um local seguro, onde você pode certificar-se de que as permissões são aplicadas corretamente. Você pode usar o Microsoft Teams para armazenar seus arquivos e, em seguida, compartilhar os arquivos dentro ou fora da sua campanha usando o Microsoft Teams ou enviando links do SharePoint. Enviar um link em vez de um anexo de email significa que você sabe quem está exibindo e modificando os arquivos e não pode ser exibido ou modificado sem sua permissão. 
 
-![Diagrama de uma janela do Microsoft Teams, mostrando a guia arquivos e obter link no menu](media/m365-democracy-teams-sharefiles.png)
+![Diagrama de uma janela do Microsoft Teams, mostrando a guia arquivos e obter link no menu](../media/m365-democracy-teams-sharefiles.png)
 
 Com seus arquivos no Microsoft Teams e no SharePoint, você também pode trabalhar nos arquivos juntos e revisar as alterações de cada um. Use o Microsoft Teams para compartilhar arquivos dentro de uma campanha política. Se você precisar compartilhar externamente com pessoas de fora da campanha, você pode adicioná-los como convidados a uma equipe ou enviá-los para um link do SharePoint seguro.
 
@@ -68,4 +68,4 @@ Para criar e compartilhar vídeos, siga estas etapas.
 
 Baixe um infográfico em [PDF](https://go.microsoft.com/fwlink/?linkid=2079435) ou [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) para obter uma visão geral rápida das maneiras de compartilhar seus arquivos.
 
-[![Uma ilustração do compartilhamento de arquivos com diferentes usuários](media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)
+[![Uma ilustração do compartilhamento de arquivos com diferentes usuários](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)

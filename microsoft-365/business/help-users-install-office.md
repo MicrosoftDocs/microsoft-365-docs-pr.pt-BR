@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Ajudar os usuários a instalar os aplicativos do Office.
-ms.openlocfilehash: 86a32f5f7a9fbd78a56fc934c4668970f8cdc719
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593912"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065706"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Ajudar os usuários a instalar o Office em dispositivos Windows 10
 
-[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Você pode instalar o Office de modo rápido e fácil no Windows 10 PCs a partir do centro de administração do Microsoft 365 Business.
   
@@ -59,7 +59,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 4. No **link usuários de email para baixar o painel do Office** , selecione os usuários que você deseja enviar por email e, em seguida, **envie por email os usuários selecionados**.
 
     
-      :::image type="content" source="media/sendemailtousers.png" alt-text="Selecione os usuários para enviar emails com o link de download do Office.":::
+      :::image type="content" source="../media/sendemailtousers.png" alt-text="Selecione os usuários para enviar emails com o link de download do Office.":::
 
 ## <a name="see-also"></a>Confira também
 

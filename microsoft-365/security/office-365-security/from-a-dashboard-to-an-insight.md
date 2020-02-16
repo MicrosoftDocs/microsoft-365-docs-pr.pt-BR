@@ -17,12 +17,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Saiba como você pode ir de um painel para uma visão com as ações recomendadas no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: ceb00301ca8c58072f6f34b19c633a0d11565e77
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8f6a75e02f00cbc62e4907ea3a0ff54c72110a21
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083135"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Passo a passo – de um painel para um insight
 
@@ -34,15 +34,15 @@ Esta é uma das várias orientações passo a passo para &amp; o centro de confo
 
 Vamos passar pelo fluxo de um painel para um relatório para uma compreensão e ação. (Este é um exemplo rápido de [inteligência de falsificação](learn-about-spoof-intelligence.md) ). 
   
-1. Começamos com o painel de segurança no [centro de &amp; conformidade de segurança](https://protection.office.com). (Vá para o **painel**de **Gerenciamento** \> de ameaças.)<br>![No centro de &amp; conformidade de segurança, escolha painel \> de gerenciamento de ameaças](../media/05a38660-eb13-4960-a266-11809c453d95.png)<br>
+1. Começamos com o painel de segurança no [centro de &amp; conformidade de segurança](https://protection.office.com). (Vá para o **painel**de **Gerenciamento** \> de ameaças.)<br>![No centro de &amp; conformidade de segurança, escolha painel \> de gerenciamento de ameaças](../../media/05a38660-eb13-4960-a266-11809c453d95.png)<br>
   
-2. Na linha **insights** , observamos uma visão indicando que precisamos revisar alguns domínios que podem ser suspeitos. (Na linha **insights** , clique em **pares de domínio**).<br>![A linha insights menciona possíveis preocupações de falsificação](../media/dd1d0cb3-3201-45d7-b41d-18a0944fe85d.png)<br>
+2. Na linha **insights** , observamos uma visão indicando que precisamos revisar alguns domínios que podem ser suspeitos. (Na linha **insights** , clique em **pares de domínio**).<br>![A linha insights menciona possíveis preocupações de falsificação](../../media/dd1d0cb3-3201-45d7-b41d-18a0944fe85d.png)<br>
   
-3. Obtemos uma lista de atividades relacionadas à inteligência de falsificação. Essas são as instâncias nas quais as mensagens de email são enviadas e parecem ter vindo da nossa organização, mas, na verdade, foram enviadas de outra organização. O objetivo é determinar se as mensagens falsificadas são autorizadas ou não.<br>![Informações sobre spoof Intelligence](../media/a2e2b4fd-0c1e-499f-8401-cf3089da82fa.png)<br>Na lista, podemos classificar as informações por contagem de mensagens, data em que a falsificação foi detectada pela última vez e muito mais. (Clique em cabeçalhos de coluna, como **contagem de mensagens** ou **última visualização** para ver como a classificação funciona.) 
+3. Obtemos uma lista de atividades relacionadas à inteligência de falsificação. Essas são as instâncias nas quais as mensagens de email são enviadas e parecem ter vindo da nossa organização, mas, na verdade, foram enviadas de outra organização. O objetivo é determinar se as mensagens falsificadas são autorizadas ou não.<br>![Informações sobre spoof Intelligence](../../media/a2e2b4fd-0c1e-499f-8401-cf3089da82fa.png)<br>Na lista, podemos classificar as informações por contagem de mensagens, data em que a falsificação foi detectada pela última vez e muito mais. (Clique em cabeçalhos de coluna, como **contagem de mensagens** ou **última visualização** para ver como a classificação funciona.) 
     
-4. Selecionar um item na lista abre um painel de detalhes onde podemos ver informações adicionais, incluindo mensagens de email semelhantes que foram detectadas. (Clique em um item na lista e revise as informações e recomendações.)<br>![Selecionar um item abre um painel de detalhes](../media/7ad1faa5-6ca2-474e-a609-eb275e0a8e59.png)<br>
+4. Selecionar um item na lista abre um painel de detalhes onde podemos ver informações adicionais, incluindo mensagens de email semelhantes que foram detectadas. (Clique em um item na lista e revise as informações e recomendações.)<br>![Selecionar um item abre um painel de detalhes](../../media/7ad1faa5-6ca2-474e-a609-eb275e0a8e59.png)<br>
   
-5. Observe que, na parte superior do painel, temos a opção de adicionar o remetente à lista de remetentes permitidos da nossa organização. (Não selecione **Adicionar à lista de permissões de remetente ' AllowedtoSpoof '** até ter certeza de que deseja fazer isso. [Saiba mais sobre a inteligência de falsificação](learn-about-spoof-intelligence.md).)<br>![Você pode autorizar um remetente](../media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
+5. Observe que, na parte superior do painel, temos a opção de adicionar o remetente à lista de remetentes permitidos da nossa organização. (Não selecione **Adicionar à lista de permissões de remetente ' AllowedtoSpoof '** até ter certeza de que deseja fazer isso. [Saiba mais sobre a inteligência de falsificação](learn-about-spoof-intelligence.md).)<br>![Você pode autorizar um remetente](../../media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
   
 Dessa forma, podemos mudar de um painel para o insights e as ações recomendadas.
   

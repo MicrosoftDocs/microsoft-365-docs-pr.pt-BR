@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: a353e39b824bae702fa015b0c7d3dd7e6416454c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5491486c2bf8da1ee38fcd986d5ecd682d57c82e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065593"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Introdução ao Microsoft 365 Business
 
@@ -57,7 +57,7 @@ O Microsoft 365 Business é destinado a até 300 licenças. Se você precisar de
   
 O diagrama a seguir descreve como os administradores configuram o Microsoft 365 Business. Ele também descreve as etapas para preparar os computadores com Windows para Microsoft 365 Business. Você também pode adicionar novos dispositivos no centro de administração de negócios do Microsoft 365 com o [Windows AutoPilot](add-autopilot-devices-and-profile.md). Você pode usar o AutoPilot para configurar e pré-configurar novos dispositivos para que eles estejam prontos para uso produtivo assim que um usuário entrar com suas credenciais de negócios do Microsoft 365.
   
-![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
 Assista a este vídeo para obter uma visão geral da instalação do Microsoft 365 Business.<br><br>
 

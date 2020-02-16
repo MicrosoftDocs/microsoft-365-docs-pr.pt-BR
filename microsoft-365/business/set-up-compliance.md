@@ -1,5 +1,7 @@
 ---
 title: Aumentar a proteção contra ameaças para o Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e rotular dados confidenciais.
-ms.openlocfilehash: 6fae95e8c5e6d133e3163dbdfd3c09cfede11382
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715113"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064687"
 ---
 # <a name="set-up-compliance-features"></a>Configurar recursos de conformidade
 
@@ -68,6 +70,6 @@ Para instalar manualmente o cliente AIP:
 1. Baixe o **AzinfoProtection_UL. exe** do [centro de download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53018).
  
 2. Você pode verificar se a instalação funcionou exibindo um documento do Word e certificando-se de que a opção de **sensibilidade** esteja disponível na guia **página inicial** .
-<br/>![Menu suspenso proteção de guia em um documento do Word.](media/word-sensitivity.png)
+<br/>![Menu suspenso proteção de guia em um documento do Word.](../media/word-sensitivity.png)
 
 Para obter mais informações, consulte [instalar o cliente](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

@@ -1,5 +1,7 @@
 ---
 title: 'Infográfico: ajudar a proteger sua campanha'
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,16 +23,16 @@ search.appverid:
 - MET150
 - MOE150
 description: O que você pode fazer para ajudar a proteger sua campanha de ataques digitais.
-ms.openlocfilehash: ed41ecdbf1fb6284f79cda0468bc50dbba086e63
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 214637afe53280e51dbc4bde9e8766e7091b2fd6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909277"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080538"
 ---
 # <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>Infográfico: ajudar a proteger você e sua campanha de ameaças digitais 
 Os links a seguir para PowerPoint e PDF podem ser baixados e impressos no formato tablóide (também conhecido como razão, 11 x 17 ou a3).
 
-[![Imagem para proteger sua ajuda a proteger o gráfico de informações de campanha](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+[![Imagem para proteger sua ajuda a proteger o gráfico de informações de campanha](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | do[PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)

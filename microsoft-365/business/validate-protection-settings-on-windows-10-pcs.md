@@ -1,5 +1,7 @@
 ---
 title: Validar as configurações de proteção de aplicativo em computadores Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como validar as configurações de proteção do Microsoft 365 Business app em dispositivos Windows 10.
-ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 577921f7f33eafbbe652dcf825a145d89f1ff556
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057154"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validar as configurações de proteção de aplicativo em computadores Windows 10
 
@@ -36,11 +38,11 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
   
 1. After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
     
-    ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
+    ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
 2. Na página **gerenciado pelo** \<nome\> do locatário, você pode ver as **informações de conexão** que incluem um **endereço de servidor de gerenciamento** como aquele mostrado na figura a seguir. 
     
-    ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
+    ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
  **Verificar se você não pode colar dados da empresa em um aplicativo não gerenciado**
   
@@ -52,7 +54,7 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
     
     Você receberá um erro afirmando que o aplicativo não pode acessar o conteúdo.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     No entanto, você pode colar o mesmo conteúdo no Word 2016.
     
@@ -68,11 +70,11 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
     
 4. Na página **Acessar trabalho ou escola**, escolha a **Conta corporativa ou de estudante** e escolha **Informações**.
     
-    ![Clique ou toque em informações na caixa de diálogo de conta corporativa ou de estudante.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
+    ![Clique ou toque em informações na caixa de diálogo de conta corporativa ou de estudante.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
 5. Na página **trabalho ou escola do Access** , você pode ver as **informações de conexão** que incluem um **endereço de servidor de gerenciamento** como aquele mostrado na figura a seguir e inclui as palavras *WIP* e *Mam* no. 
     
-    ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
+    ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
  **Verificar se você não pode colar dados da empresa em um aplicativo não gerenciado**
   
@@ -84,7 +86,7 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
     
     Você receberá um erro informando que o aplicativo não pode acessar o conteúdo.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     No entanto, você pode colar o mesmo conteúdo no Word 2016.
     

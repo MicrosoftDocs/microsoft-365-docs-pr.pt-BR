@@ -17,12 +17,12 @@ ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
 description: Veja como funciona a nova compreensão de inteligência de falsificação.
-ms.openlocfilehash: 38bf75a2ebeabd41aace42c6116d37ecbe28a2de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 940203bc86339e4cc749565be355d717be9e914d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084342"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>Passo a passo: informações sobre spoof Intelligence
 
@@ -50,7 +50,7 @@ Esta é uma das várias orientações passo a passo para &amp; o centro de confo
 
 A percepção do painel mostra as informações como esta.
   
-![Captura de tela do spoof Intelligence percepção](../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
+![Captura de tela do spoof Intelligence percepção](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
   
 Esta percepção tem dois modos:
   
@@ -82,7 +82,7 @@ A página de **informações sobre spoof Intelligence** aparece mostrando uma li
     
 2. Selecione um item na tabela para abrir um painel de detalhes que contenha informações avançadas sobre o par de domínio, incluindo por que detectamos isso, o que você precisa fazer, um resumo de domínio, dados de WhoIs sobre o remetente e emails semelhantes que vimos no seu locatário do mesmo remetente. A partir daqui, você também pode optar por adicionar ou remover o par de domínio da lista de remetentes confiáveis do **AllowedToSpoof** . 
   
-![Captura de tela de um domínio no painel de detalhes do spoof Intelligence Insight](../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
+![Captura de tela de um domínio no painel de detalhes do spoof Intelligence Insight](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
   
 ## <a name="add-or-remove-a-domain-from-the-allowedtospoof-safe-sender-list"></a>Adicionar ou remover um domínio da lista de remetentes confiáveis do AllowedToSpoof
 

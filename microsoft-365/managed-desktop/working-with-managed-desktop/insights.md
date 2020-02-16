@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: fedd3a98ef176855c4831bbd055522c073c22d7b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085681"
 ---
 # <a name="work-with-insights"></a>Trabalhar com insights
 
@@ -26,7 +26,7 @@ Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 
 Para acessar esses modos de exibição no centro de administração do Microsoft 365, selecione **Exibir detalhes** na área **relatórios** :
 
-![Centro de administração com área de relatórios no canto superior direito, incluindo o cartão de relatórios de dispositivos e o link "Exibir detalhes".](images/insights_overview.png)
+![Centro de administração com área de relatórios no canto superior direito, incluindo o cartão de relatórios de dispositivos e o link "Exibir detalhes".](../../media/insights_overview.png)
 
 
 

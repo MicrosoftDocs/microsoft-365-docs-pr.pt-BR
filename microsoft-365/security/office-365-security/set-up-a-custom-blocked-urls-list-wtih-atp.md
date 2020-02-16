@@ -17,12 +17,12 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar uma lista de URLs bloqueadas para sua organização usando a proteção avançada contra ameaças do Office 365. As URLs bloqueadas serão aplicadas a mensagens de email e documentos do Office de acordo com as políticas de links seguros de ATP.
-ms.openlocfilehash: bb5eb8572aee11be1c4264863b572f014b281985
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5205fbd5ccc873513eed4e367119084516e92bf2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088081"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP do Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "41598398"
 
 Com a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), sua organização pode ter uma lista personalizada de endereços de sites (URLs) bloqueadas. Quando uma URL é bloqueada, as pessoas que clicam em links para a URL bloqueada são levadas para uma [página de aviso](atp-safe-links-warning-pages.md) que se assemelha à seguinte imagem: 
   
-![Este site é bloqueado](../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+![Este site é bloqueado](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
   
 A lista de URLs bloqueadas é definida pela equipe de segurança do Office 365 da sua organização e essa lista se aplica a todos na organização que estão cobertos por políticas de links seguros do Office 365 ATP. 
   
@@ -58,7 +58,7 @@ Para editar (ou definir) políticas ATP, você deve receber uma das funções de
     
 2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **links seguros**de **política** \> .
     
-3. Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).<br/>![Clique em Editar para editar a política padrão para proteção de links seguros](../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>Isso permite que você exiba a lista de URLs bloqueadas. Em primeiro lugar, talvez você não tenha URLs listadas aqui.<br/>![Lista de URLs bloqueadas na política de links seguros padrão](../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
+3. Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).<br/>![Clique em Editar para editar a política padrão para proteção de links seguros](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>Isso permite que você exiba a lista de URLs bloqueadas. Em primeiro lugar, talvez você não tenha URLs listadas aqui.<br/>![Lista de URLs bloqueadas na política de links seguros padrão](../../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
   
 4. Selecione a caixa **Insira uma URL válida** , digite uma URL e, em seguida, escolha o sinal**+** de mais (). 
 

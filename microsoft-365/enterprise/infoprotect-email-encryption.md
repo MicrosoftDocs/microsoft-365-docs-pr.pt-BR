@@ -16,18 +16,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: 252a5f76197deb1034d200553308a281ef079957
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d678c109f42901be2413c2b33e362d6796be96b7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600918"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067168"
 ---
 # <a name="step-6-configure-email-encryption"></a>Etapa 6: configurar criptografia de email
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Há três tipos de criptografia de email no Microsoft 365.
 
@@ -42,7 +42,7 @@ Há três tipos de criptografia de email no Microsoft 365.
 
 Com o OME, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. O OME funciona com o Outlook.com, o Yahoo!, o Gmail e outros serviços de email. A criptografia de mensagens de email ajuda a garantir que apenas destinatários pretendidos possam exibir a mensagem.
 
-![Criptografia OME de mensagens de email](./media/infoprotect-email-encryption/ome-encryption.png)
+![Criptografia OME de mensagens de email](../media/infoprotect-email-encryption/ome-encryption.png)
 
 Você configura regras de transporte que definem as condições de criptografia. Quando um usuário envia uma mensagem que corresponde a uma regra, a criptografia é aplicada automaticamente.
 
@@ -56,7 +56,7 @@ O IRM no Microsoft 365 ajuda você a proteger suas informações com criptografi
 
 As políticas de IRM são configuradas no Microsoft 365 e podem ser aplicadas a documentos no SharePoint Online e mensagens de email. Um email protegido por IRM inclui as configurações de política aplicadas aplicadas e viajar com ela. 
 
-![Proteção do IRM de mensagens de email](./media/infoprotect-email-encryption/irm-protection.png)
+![Proteção do IRM de mensagens de email](../media/infoprotect-email-encryption/irm-protection.png)
 
 Quando o destinatário abre o email com a política incluída, as configurações de política são usadas para descriptografar a mensagem e determinar o que o destinatário pode fazer com ele. 
 
@@ -66,7 +66,7 @@ Confira mais informações em [Gerenciamento de Direitos de Informação no Exch
 
 O S/MIME é uma solução de proteção baseada em email digital baseada em certificado que permite criptografar e assinar digitalmente uma mensagem. A criptografia de mensagem ajuda a garantir que somente o destinatário pretendido poderá abrir e ler a mensagem. Uma assinatura digital ajuda o destinatário a validar a identidade do remetente e a determinar que apenas o remetente poderia enviá-lo.
 
-![Proteção S/MIME de mensagens de email](./media/infoprotect-email-encryption/smime-protection.png)
+![Proteção S/MIME de mensagens de email](../media/infoprotect-email-encryption/smime-protection.png)
 
 O S/MIME pode ser usado para emails para outras caixas de correio em sua assinatura do Microsoft 365 ou para usuários externos.
 Tanto a criptografia de mensagens quanto as assinaturas digitais são possibilitadas por meio do uso de certificados digitais que contenham as chaves pública e privada para criptografar ou descriptografar mensagens e criar e verificar assinaturas digitais.
@@ -81,4 +81,4 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![Etapa 7](./media/stepnumbers/Step7.png)|[Configurar o gerenciamento de acesso privilegiado do Office 365](infoprotect-configure-privileged-access-management.md)|
+|![Etapa 7](../media/stepnumbers/Step7.png)|[Configurar o gerenciamento de acesso privilegiado do Office 365](infoprotect-configure-privileged-access-management.md)|

@@ -1,5 +1,7 @@
 ---
 title: Validar as configurações de proteção de aplicativo em computadores Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como validar as configurações de proteção do Microsoft 365 Business app em dispositivos Windows 10.
-ms.openlocfilehash: b8793ab7f77bbc7f608f237e2455f6fd12c3bb26
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 1762382aec00a80e006cf38b66c28d02c0c25989
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056622"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção do dispositivo em computadores com Windows 10
 
@@ -37,23 +39,23 @@ Depois de [configurar as políticas de dispositivos](protection-settings-for-win
   
 1. Vá para **configurações** \> **atualização &amp; de segurança** \> do **Windows Update** \> **Opções de reinicialização** e confirme se todas as configurações estão acinzentadas. 
     
-    ![Todas as opções de reinicialização ficam esmaecidas.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Todas as opções de reinicialização ficam esmaecidas.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
 2. Vá para **configurações** \> **avançadas** de **atualização &amp; de segurança** \> do **Windows Update** \> e confirme se todas as configurações estão acinzentadas. 
     
-    ![As opções avançadas do Windows estão esmaecidas.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![As opções avançadas do Windows estão esmaecidas.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Vá até **configurações** \> **atualização &amp; de segurança** \> do **Windows Update** \> **Opções** \> avançadas **escolha como as atualizações são entregues**.
     
     Confirme que você pode ver a mensagem (em vermelho) que algumas configurações estão ocultas ou gerenciadas pela sua organização, e todas as opções estão acinzentadas.
     
-    ![Escolha a página como as atualizações são entregues indica que as configurações estão ocultas ou gerenciadas pela sua organização.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
+    ![Escolha a página como as atualizações são entregues indica que as configurações estão ocultas ou gerenciadas pela sua organização.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. Para abrir a central de segurança do Windows Defender, vá para **configurações** \> de segurança \> de ** &amp; atualização** do **Windows Defender** \> clique em **abrir a central** \> ** &amp; ** de segurança do Windows Defender proteção \> contra ** &amp; ameaças**de vírus. 
     
 5. Verifique se todas as opções estão acinzentadas. 
     
-    ![As configurações de proteção contra vírus e ameaças são esmaecidas.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![As configurações de proteção contra vírus e ameaças são esmaecidas.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Tópicos Relacionados
 

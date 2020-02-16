@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Etapas que atualizam sua empresa do Office 365 Business Premium para a Microsoft 365 Business.
-ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e17ac2658c7276ba4a77de371847343866815c42
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065252"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Atualização para o Microsoft 365 Business do Office 365 Business Premium
 
@@ -51,11 +51,11 @@ Compre suas licenças seguindo estas etapas no [novo centro de administração](
 1. Entre no centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 2. Vá para o painel de navegação e selecione produtos de **cobrança** \> **& Services**. Encontre sua assinatura do Office 365 e selecione-a para exibir os detalhes. 
 
-    ![Uma captura de tela mostra como localizar e selecionar sua assinatura no centro de administração.](media/FindYourSubscription.png)
+    ![Uma captura de tela mostra como localizar e selecionar sua assinatura no centro de administração.](../media/FindYourSubscription.png)
 
 3. Na próxima página, selecione **Atualizar**. 
 
-      ![Uma captura de tela mostra onde selecionar a atualização no centro de administração.](media/SelectUpgrade.png)
+      ![Uma captura de tela mostra onde selecionar a atualização no centro de administração.](../media/SelectUpgrade.png)
 
   > [!NOTE]
   > Se você vir uma mensagem informando que **a atualização de sua assinatura não é suportada com o licenciamento baseado em grupo no Azure Active Directory**, você pode ignorá-la com segurança, a menos que tenha uma organização muito grande. As organizações que selecionaram essa opção saberão que estão usando o licenciamento baseado em grupo.
