@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: f55a1404a76b55aab6ed6c0b46874fcc80dbbf87
-  ms.sourcegitcommit: d718a3a3ad293ca533ba355047a461b3ab6d4aa3
+  ms.openlocfilehash: 412cc9059aa3f533643ea37295a513ead1a05ed7
+  ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/10/2020
-  ms.locfileid: "41882876"
+  ms.lasthandoff: 02/15/2020
+  ms.locfileid: "42085360"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de ti
@@ -27,7 +27,7 @@ highlightedContent:
   - title: Treinamento para usuários finais
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: Treinamento para pequenas empresas
+  - title: Configurar sua empresa na nuvem
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
   - title: Guias de laboratório de teste para profissionais de ti
@@ -44,6 +44,9 @@ additionalContent:
   - title: Obter ajuda com o Microsoft 365
     summary: Selecione um cartão para saber mais sobre o Microsoft 365.
     items:
+    - title: Centro de administração do Microsoft 365
+      summary: Configurar e gerenciar o Office 365 e o Microsoft 365 para negócios e Enteprise subspcriptions.
+      url: https://docs.microsoft.com/office365/admin/admin-home/
     - title: Microsoft 365 Business
       summary: Projetado para empresas de pequeno e médio porte. Execute sua empresa com a versão mais recente do Windows e aplicativos do Office, como Excel e Outlook. Aproveite a proteção e segurança de dados que se estende para todos os seus dispositivos de negócios.
       url: ./business/index.yml
@@ -56,7 +59,7 @@ additionalContent:
     - title: Conformidade com o Microsoft 365
       summary: Ajudar sua organização a controlar as informações, proteger contra os riscos e estar em conformidade com padrões legais ou normativos.
       url: ./compliance/index.yml
-    - title: Segurança do Microsoft 365
+    - title: Segurança da Microsoft 365
       summary: Saiba mais sobre os serviços e soluções de segurança robustos no Microsoft 365 Security para que você possa proteger melhor sua organização em superfícies de ataque.
       url: ./security/index.yml
     - title: Microsoft 365 para Campanhas
