@@ -16,45 +16,45 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Saiba como definir configurações avançadas, incluindo duplicatas, threads de email e temas, para o processo de análise na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: 2c2a104b834d8da9d0d10f93980b4f2cbb6294c8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f2f882f5c5b2bbaf3144d3979455387a4471280c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081259"
 ---
-# <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a><span data-ttu-id="eac14-103">Definir configurações avançadas de análise na descoberta eletrônica avançada do Office 365</span><span class="sxs-lookup"><span data-stu-id="eac14-103">Set Analyze advanced settings in Office 365 Advanced eDiscovery</span></span>
+# <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a><span data-ttu-id="50b4e-103">Definir configurações avançadas de análise na descoberta eletrônica avançada do Office 365</span><span class="sxs-lookup"><span data-stu-id="50b4e-103">Set Analyze advanced settings in Office 365 Advanced eDiscovery</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="eac14-p101">A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="eac14-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="50b4e-p101">A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="50b4e-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
-<span data-ttu-id="eac14-106">A descoberta eletrônica avançada fornece parâmetros avançados padrão para analisar configurações de módulo.</span><span class="sxs-lookup"><span data-stu-id="eac14-106">Advanced eDiscovery provides default advanced parameters for Analyze module settings.</span></span> <span data-ttu-id="eac14-107">O procedimento a seguir descreve as configurações que podem ser especificadas.</span><span class="sxs-lookup"><span data-stu-id="eac14-107">The following procedure describes settings that can be specified.</span></span>
+<span data-ttu-id="50b4e-106">A descoberta eletrônica avançada fornece parâmetros avançados padrão para analisar configurações de módulo.</span><span class="sxs-lookup"><span data-stu-id="50b4e-106">Advanced eDiscovery provides default advanced parameters for Analyze module settings.</span></span> <span data-ttu-id="50b4e-107">O procedimento a seguir descreve as configurações que podem ser especificadas.</span><span class="sxs-lookup"><span data-stu-id="50b4e-107">The following procedure describes settings that can be specified.</span></span>
   
-1. <span data-ttu-id="eac14-108">Na guia **preparar \> configuração \> de análise** , clique em **Configurações avançadas** (na parte inferior da página).</span><span class="sxs-lookup"><span data-stu-id="eac14-108">In the **Prepare \> Analyze \> Setup** tab, click **Advanced settings** (at the bottom of the page).</span></span> <span data-ttu-id="eac14-109">O painel a seguir é exibido.</span><span class="sxs-lookup"><span data-stu-id="eac14-109">The following panel is displayed.</span></span> 
+1. <span data-ttu-id="50b4e-108">Na guia **preparar \> configuração \> de análise** , clique em **Configurações avançadas** (na parte inferior da página).</span><span class="sxs-lookup"><span data-stu-id="50b4e-108">In the **Prepare \> Analyze \> Setup** tab, click **Advanced settings** (at the bottom of the page).</span></span> <span data-ttu-id="50b4e-109">O painel a seguir é exibido.</span><span class="sxs-lookup"><span data-stu-id="50b4e-109">The following panel is displayed.</span></span> 
     
-    ![Definir as configurações avançadas de análise](media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
+    ![Definir as configurações avançadas de análise](../media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
   
-2. <span data-ttu-id="eac14-111">Em **parâmetros Near-Duplicate e threads de email**, selecione valores para os seguintes, conforme necessário:</span><span class="sxs-lookup"><span data-stu-id="eac14-111">In **Near-duplicates and Email threads parameters**, select values for the following as necessary:</span></span>
+2. <span data-ttu-id="50b4e-111">Em **parâmetros Near-Duplicate e threads de email**, selecione valores para os seguintes, conforme necessário:</span><span class="sxs-lookup"><span data-stu-id="50b4e-111">In **Near-duplicates and Email threads parameters**, select values for the following as necessary:</span></span>
     
-  - <span data-ttu-id="eac14-112">**Número mínimo de palavras**: o número mínimo de palavras, abaixo do qual um arquivo não é enviado para análise quase duplicada.</span><span class="sxs-lookup"><span data-stu-id="eac14-112">**Minimum number of words**: Minimum number for words, below which a file is not submitted for Near-duplicate analysis.</span></span> 
+  - <span data-ttu-id="50b4e-112">**Número mínimo de palavras**: o número mínimo de palavras, abaixo do qual um arquivo não é enviado para análise quase duplicada.</span><span class="sxs-lookup"><span data-stu-id="50b4e-112">**Minimum number of words**: Minimum number for words, below which a file is not submitted for Near-duplicate analysis.</span></span> 
     
-  - <span data-ttu-id="eac14-113">**Número máximo de palavras**: número máximo de palavras, acima do qual um arquivo não é enviado para análise quase duplicada.</span><span class="sxs-lookup"><span data-stu-id="eac14-113">**Maximum number of words**: Maximum number for words, above which a file is not submitted for Near-duplicate analysis.</span></span>
+  - <span data-ttu-id="50b4e-113">**Número máximo de palavras**: número máximo de palavras, acima do qual um arquivo não é enviado para análise quase duplicada.</span><span class="sxs-lookup"><span data-stu-id="50b4e-113">**Maximum number of words**: Maximum number for words, above which a file is not submitted for Near-duplicate analysis.</span></span>
     
-  - <span data-ttu-id="eac14-114">**Similaridade de email**: nível mínimo de aparência de dois emails a serem considerados semelhantes.</span><span class="sxs-lookup"><span data-stu-id="eac14-114">**Email similarity**: Minimal level of resemblance for two emails to be considered similar.</span></span> <span data-ttu-id="eac14-115">O valor é sempre igual ou maior que a similaridade de documentos.</span><span class="sxs-lookup"><span data-stu-id="eac14-115">Value is always equal to, or larger than document similarity.</span></span> <span data-ttu-id="eac14-116">O padrão é 90%.</span><span class="sxs-lookup"><span data-stu-id="eac14-116">Default is 90%.</span></span>
+  - <span data-ttu-id="50b4e-114">**Similaridade de email**: nível mínimo de aparência de dois emails a serem considerados semelhantes.</span><span class="sxs-lookup"><span data-stu-id="50b4e-114">**Email similarity**: Minimal level of resemblance for two emails to be considered similar.</span></span> <span data-ttu-id="50b4e-115">O valor é sempre igual ou maior que a similaridade de documentos.</span><span class="sxs-lookup"><span data-stu-id="50b4e-115">Value is always equal to, or larger than document similarity.</span></span> <span data-ttu-id="50b4e-116">O padrão é 90%.</span><span class="sxs-lookup"><span data-stu-id="50b4e-116">Default is 90%.</span></span>
     
-3. <span data-ttu-id="eac14-117">Em **parâmetros de temas**, marque a caixa de seleção **incluir números na análise de temas** para incluir números no processamento de temas durante a análise.</span><span class="sxs-lookup"><span data-stu-id="eac14-117">In **Themes parameters**, select the **Include numbers in theme analysis** check box to include numbers in the processing of Themes during Analyze.</span></span> 
+3. <span data-ttu-id="50b4e-117">Em **parâmetros de temas**, marque a caixa de seleção **incluir números na análise de temas** para incluir números no processamento de temas durante a análise.</span><span class="sxs-lookup"><span data-stu-id="50b4e-117">In **Themes parameters**, select the **Include numbers in theme analysis** check box to include numbers in the processing of Themes during Analyze.</span></span> 
     
-4. <span data-ttu-id="eac14-118">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="eac14-118">Click **Save**.</span></span> 
+4. <span data-ttu-id="50b4e-118">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="50b4e-118">Click **Save**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="eac14-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="eac14-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50b4e-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="50b4e-119">See also</span></span>
 
-[<span data-ttu-id="eac14-120">Descoberta Eletrônica Avançada do Office 365</span><span class="sxs-lookup"><span data-stu-id="eac14-120">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
+[<span data-ttu-id="50b4e-120">Descoberta Eletrônica Avançada do Office 365</span><span class="sxs-lookup"><span data-stu-id="50b4e-120">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
   
-[<span data-ttu-id="eac14-121">Noções básicas sobre a similaridade de documentos</span><span class="sxs-lookup"><span data-stu-id="eac14-121">Understanding document similarity</span></span>](understand-document-similarity-in-advanced-ediscovery.md)
+[<span data-ttu-id="50b4e-121">Noções básicas sobre a similaridade de documentos</span><span class="sxs-lookup"><span data-stu-id="50b4e-121">Understanding document similarity</span></span>](understand-document-similarity-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="eac14-122">Configuração das opções de análise</span><span class="sxs-lookup"><span data-stu-id="eac14-122">Setting Analyze options</span></span>](set-analyze-options-in-advanced-ediscovery.md)
+[<span data-ttu-id="50b4e-122">Configuração das opções de análise</span><span class="sxs-lookup"><span data-stu-id="50b4e-122">Setting Analyze options</span></span>](set-analyze-options-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="eac14-123">Configuração ignorar texto</span><span class="sxs-lookup"><span data-stu-id="eac14-123">Setting ignore text</span></span>](set-ignore-text-in-advanced-ediscovery.md)
+[<span data-ttu-id="50b4e-123">Configuração ignorar texto</span><span class="sxs-lookup"><span data-stu-id="50b4e-123">Setting ignore text</span></span>](set-ignore-text-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="eac14-124">Exibindo resultados de análise</span><span class="sxs-lookup"><span data-stu-id="eac14-124">Viewing Analyze results</span></span>](view-analyze-results-in-advanced-ediscovery.md)
+[<span data-ttu-id="50b4e-124">Exibindo resultados de análise</span><span class="sxs-lookup"><span data-stu-id="50b4e-124">Viewing Analyze results</span></span>](view-analyze-results-in-advanced-ediscovery.md)
 
