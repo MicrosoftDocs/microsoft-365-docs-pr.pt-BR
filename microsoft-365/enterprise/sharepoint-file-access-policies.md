@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f0cd296157e1d4856c27d1dc547de045510e788b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d11b2682b9699e61a4c9ecfa47eb73de87de5e4f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600758"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084191"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
@@ -35,7 +35,7 @@ Além de implementar essas orientações, não deixe de configurar os sites do S
 
 O diagrama a seguir ilustra o conjunto de políticas recomendadas para proteger arquivos no SharePoint Online e no OneDrive for Business. Ele indica quais políticas devem ser atualizadas ou recém-criadas para adicionar proteção para o SharePoint Online e o OneDrive for Business.
 
-![Resumo das políticas do SharePoint Online e do OneDrive](../images/identity-access-ruleset-sharepoint.png)
+![Resumo das políticas do SharePoint Online e do OneDrive](../media/identity-access-ruleset-sharepoint.png)
 
 Se você tiver incluído o SharePoint Online quando criou as políticas comuns, só precisará criar as novas políticas. Ao configurar regras de acesso condicional, o SharePoint Online inclui o OneDrive for Business.
 
@@ -77,7 +77,7 @@ Consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou con
 
 A ilustração a seguir fornece um exemplo de como as políticas de acesso de dispositivo do SharePoint protegem o acesso a sites.
 
-![Como as políticas de acesso de dispositivo do SharePoint protegem sites](../images/SharePoint-rules-scenario.png)
+![Como as políticas de acesso de dispositivo do SharePoint protegem sites](../media/SharePoint-rules-scenario.png)
 
 Na ilustração:
 

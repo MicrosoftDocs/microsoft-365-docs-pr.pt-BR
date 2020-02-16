@@ -15,16 +15,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: daf7bcf6525f30b7b52065e4f6bf2ff335f4ea4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3e8013426983584783488e6f937f8ba5b02d7a1a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066778"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de gerenciamento de dispositivo móvel
 
-![Fase 5: gerenciamento de dispositivo móvel](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
+![Fase 5: gerenciamento de dispositivo móvel](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
 
 *Isso se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
@@ -42,4 +42,4 @@ Seus dispositivos estão registrados no Intune e configurados com as políticas 
 
 |||
 |:-------|:-----|
-|![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Se você estiver seguindo as fases da implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será a [proteção de informações](infoprotect-infrastructure.md). |
+|![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Se você estiver seguindo as fases da implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase será a [proteção de informações](infoprotect-infrastructure.md). |

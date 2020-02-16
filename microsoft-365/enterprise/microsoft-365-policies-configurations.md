@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4b76ba16b74eeea26799bb383cd00e497c86d770
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 8d7adda0ded3a118676a67d0446a5744233468f3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855380"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066829"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
 
@@ -59,25 +59,25 @@ Cada setor também tem seu próprio conjunto de normas especializadas. Em vez de
 - **Proteção confidencial**: alguns clientes têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou podem exigir que todos os dados sejam protegidos em um nível mais alto. Você pode aplicar mais proteção a todos ou conjuntos de dados específicos em seu ambiente do Office 365. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança.  
 - **Altamente regulamentado**: algumas organizações podem ter uma pequena quantidade de dados altamente classificados, segredos de comércio consititutes ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
 
-![Cone de segurança-todos os clientes > alguns clientes > clientes específicos. Aplicativo amplo para aplicativos específicos](../images/M365-idquality-threetiers.png)
+![Cone de segurança-todos os clientes > alguns clientes > clientes específicos. Aplicativo amplo para aplicativos específicos](../media/M365-idquality-threetiers.png)
 
 Esta orientação mostra como implementar a proteção de identidades e dispositivos para cada uma dessas camadas de proteção. Use estas orientações como ponto de partida para sua organização e ajuste as políticas para atender aos requisitos específicos da sua organização.
 
 É importante usar níveis consistentes de proteção nos dados, identidades e dispositivos. Por exemplo, se você implementar este guia, certifique-se de proteger seus dados em níveis comparáveis. Esses modelos de arquitetura mostram quais recursos são comparáveis.
 
 **Proteção de identidade e dispositivo para o Office 365**<br/>
-![Miniatura do pôster "proteção de identidade e dispositivo para o Office 365"](../images/O365_Identity_device_protection_thumb.png)<br/>
+![Miniatura do pôster "proteção de identidade e dispositivo para o Office 365"](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=55032)
 
 **Soluções para proteção de arquivos do Office 365**<br/>
-![Miniatura do pôster "soluções de proteção de arquivo no Office 365"](../images/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
+![Miniatura do pôster "soluções de proteção de arquivo no Office 365"](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
 ## <a name="security-and-productivity-trade-offs"></a>Vantagens e desvantagens de produtividade e segurança
 
 Implementar qualquer estratégia de segurança exige variações entre segurança e produtividade. É útil avaliar como cada decisão afeta o equilíbrio de segurança, funcionalidade e facilidade de uso.
 
-![Segurança Tríade balanceamento de segurança, funcionalidade e facilidade de uso.](media/policies-configurations/security-triad.png)
+![Segurança Tríade balanceamento de segurança, funcionalidade e facilidade de uso.](../media/policies-configurations/security-triad.png)
 
 As recomendações fornecidas são baseadas nos seguintes princípios:
 
