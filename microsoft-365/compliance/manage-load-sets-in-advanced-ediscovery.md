@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c2cd721e9e4e584494414645d367588087877d61
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 658b5263bdfb918d36a184832e41af01b9b63e31
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582890"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071638"
 ---
 # <a name="manage-load-sets"></a>Gerenciar conjuntos de carregamento
 

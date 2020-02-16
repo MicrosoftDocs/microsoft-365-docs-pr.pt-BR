@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c77b842f5cbf5766fa3419fc692bc8d3cb0cd4a1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a81589b0ecb5022bed19b2c42288ab5464cbddf4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069588"
 ---
 # <a name="tag-documents-in-evidence"></a>Marcar documentos em evidência
 

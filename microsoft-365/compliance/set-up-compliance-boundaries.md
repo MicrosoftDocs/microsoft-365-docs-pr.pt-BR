@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Use limites de conformidade para criar limites lógicos em uma organização do Office 365 que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: bd167246bc43cba20a444594a2309ac888c734fc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9ca390dfc96307e6323e897e762813719f2b3ac0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069721"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
 
@@ -31,7 +31,7 @@ Os limites de conformidade criam limites lógicos em uma organização do Office
   
 Usamos o exemplo na ilustração a seguir para explicar como os limites de conformidade funcionam.
   
-![Limites de conformidade consistem em filtros de permissão de pesquisa que controlam o acesso a agências e grupos de funções de administrador que controlam o acesso a casos de descoberta eletrônica](media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
+![Limites de conformidade consistem em filtros de permissão de pesquisa que controlam o acesso a agências e grupos de funções de administrador que controlam o acesso a casos de descoberta eletrônica](../media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
   
 Neste exemplo, a contoso LTD é uma organização do Office 365 que consiste em duas subsidiárias, Fourth Coffee e Coho Winery. A empresa exige que os gerentes e investigadores de eDiscovery só possam Pesquisar nas caixas de correio do Exchange, contas do OneDrive e sites do SharePoint em sua agência. Além disso, os gerentes e investigadores de descoberta eletrônica só podem ver ocorrências de descoberta eletrônica em suas agências, e eles só podem acessar os casos dos quais eles são membros. Veja aqui como os limites de conformidade atendem a esses requisitos.
   
@@ -162,9 +162,9 @@ Para criar um caso e atribuir Membros:
     
 2. Na lista de ocorrências de descoberta eletrônica, clique no nome do caso que você criou.
     
-3. Na página **gerenciar esse** submenu de caso, em **gerenciar grupos**de função ![, clique](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) em Adicionar ícone **Adicionar**.
+3. Na página **gerenciar esse** submenu de caso, em **gerenciar grupos**de função ![, clique](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) em Adicionar ícone **Adicionar**.
     
-    ![Adicionar um grupo de função como membro de uma ocorrência de descoberta eletrônica](media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
+    ![Adicionar um grupo de função como membro de uma ocorrência de descoberta eletrônica](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
 4. Na lista de grupos de função, selecione um dos grupos de função que você criou na etapa 3 e clique em **Adicionar**.
     

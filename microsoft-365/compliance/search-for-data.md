@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 62d42c29182a81cfa133c5d8863add56aba29be3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1ccd922c0829155110e633fa45253c56b9006111
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069878"
 ---
 # <a name="search-for-data-in-an-investigation"></a>Pesquisar dados em uma investigação
 

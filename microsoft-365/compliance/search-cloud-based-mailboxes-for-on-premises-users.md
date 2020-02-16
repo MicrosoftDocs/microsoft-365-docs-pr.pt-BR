@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados 1xN chats) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: 042e34028023f1dd4f49804230fe99f2d042d0d6
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 40439c338e00e7ae94ff82ec4be1af78a250acd6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070000"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Pesquisando caixas de correio baseadas em nuvem para usuários locais no Office 365
 
@@ -47,7 +47,7 @@ Se um usuário habilitado para o Microsoft Teams tem uma caixa de correio local 
   
 O gráfico a seguir mostra o fluxo de trabalho de como os dados de chat do Microsoft Teams para usuários locais estão disponíveis para pesquisa, visualização e exportação.
   
-![Armazenamento baseado em nuvem para usuários locais no Microsoft Teams](media/895845f8-2ceb-47ed-96c9-5ab7f1aea916.png)
+![Armazenamento baseado em nuvem para usuários locais no Microsoft Teams](../media/895845f8-2ceb-47ed-96c9-5ab7f1aea916.png)
   
 Além desse novo recurso, você ainda pode usar a pesquisa de conteúdo para pesquisar, Visualizar e exportar o conteúdo do teams no site do SharePoint baseado na nuvem e na caixa de correio do Exchange associada a todos os dados de chat do Microsoft Team e do 1xN Teams na caixa de correio do Exchange Online para usuários baseados em nuvem.
 
@@ -71,7 +71,7 @@ Depois que esse recurso é implantado na sua organização do Office 365, as seg
   
 - A caixa de seleção **adicionar conteúdo do aplicativo do Office para usuários locais** é adicionada sob os **locais** na pesquisa de conteúdo. 
     
-    ![A caixa de seleção "adicionar conteúdo de aplicativo do Office para usuários locais" é adicionada à IU de pesquisa de conteúdo](media/599e751e-17bd-408d-a18c-127538de6e85.png)
+    ![A caixa de seleção "adicionar conteúdo de aplicativo do Office para usuários locais" é adicionada à IU de pesquisa de conteúdo](../media/599e751e-17bd-408d-a18c-127538de6e85.png)
   
 - Os usuários locais são exibidos no seletor de locais de conteúdo que você usa para selecionar caixas de correio de usuário para pesquisa. 
 
@@ -81,7 +81,7 @@ Após a habilitação do recurso, você pode usar a pesquisa de conteúdo no cen
   
 1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo** de pesquisa
     
-2. Na página de **pesquisa** , clique ![em Adicionar](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**.
+2. Na página de **pesquisa** , clique ![em Adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**.
     
     Como explicado anteriormente, a caixa de seleção **adicionar conteúdo do aplicativo do Office para usuários locais** é exibida em **locais**. Ela está selecionada por padrão.
     

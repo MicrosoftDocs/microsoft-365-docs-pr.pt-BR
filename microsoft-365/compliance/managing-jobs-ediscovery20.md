@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 78767318a8799ec88e15452f70bceaa5466a9cbf
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+description: Trabalhos de descoberta eletrônica avançados ajudam a acompanhar o status de processos de longa execução relacionados à execução de várias tarefas avançadas de descoberta eletrônica.
+ms.openlocfilehash: eca2eff32b54f783c6c983a8a20237db2faf2240
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960327"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071568"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Gerenciar trabalhos na descoberta eletrônica avançada
 
@@ -40,7 +40,7 @@ Veja a seguir uma lista dos trabalhos (que geralmente são processos de longa du
 |Preparando dados para exportação | Um usuário exporta documentos de um conjunto de revisão. Quando o processo de exportação é concluído, ele pode baixar os dados exportados para um computador local. Para obter mais informações, consulte [exportar dados de caso](exporting-data-ediscover20.md). | 
 |Preparando para a resolução de erros |Quando um usuário seleciona um arquivo e cria uma nova correção de erro no modo de exibição de erro na guia **processamento** de um caso, a primeira etapa no processo é carregar o arquivo que tem o erro de processamento para um local de armazenamento do Azure na nuvem da Microsoft. Este trabalho acompanha o andamento do processo de carregamento. Para obter mais informações sobre o fluxo de trabalho de correção de erro, consulte [Error remediation When Processing data](error-remediation.md). | 
 |Preparando visualização de pesquisa | Depois que um usuário cria e executa uma nova pesquisa (ou executa uma pesquisa existente), a ferramenta de pesquisa prepara um subconjunto de itens de exemplo (que correspondem à consulta de pesquisa) que pode ser visualizado. A visualização dos resultados da pesquisa o ajuda a determinar a eficácia da pesquisa.  Para obter mais informações, consulte [coletar dados por um caso](collecting-data-for-ediscovery.md#view-search-results-and-statistics). | 
-|Reindexar dados de responsáveis | Quando você adiciona um responsáveis a um caso, todos os itens parcialmente indexados nas fontes de dados selecionadas do responsáveis são reindexados por um processo chamado *indexação avançada*. Esse trabalho também é acionado quando você clica em **Atualizar índice** no modo de exibição de índice na guia **processamento** de uma ocorrência. Para saber mais, confira [indexação avançada de dados de responsáveis](indexing-custodian-data.md).
+|Reindexar dados de responsáveis | Quando você adiciona um responsáveis a um caso, todos os itens parcialmente indexados nas fontes de dados selecionadas do responsáveis são reindexados por um processo chamado *indexação avançada*. Esse trabalho também é acionado quando você clica em **Atualizar índice** na guia **processamento** de um caso e quando você atualiza o índice para um determinado profissional na página do menu de propriedades do responsáveis. Para saber mais, confira [indexação avançada de dados de responsáveis](indexing-custodian-data.md).
 |Executando o Analytics | Um usuário analisa dados em um conjunto de revisão, executando ferramentas avançadas de análise de descoberta eletrônica, como detecção de duplicidades, análise de threads de email e análise de temas. Para obter mais informações, consulte [analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md). | 
 |Marcando documentos | Esse trabalho é acionado quando um usuário clica em **Iniciar trabalho de marcação** no **painel de marcação** ao revisar documentos em um conjunto de revisão. Um usuário pode iniciar esse trabalho depois de marcar documentos em um conjunto de revisão e, em seguida, selecioná-los em massa no painel Exibir documento. Para obter mais informações, consulte [marcas de formatação em documentos em um conjunto de revisão](tagging-documents.md). | 
 |||

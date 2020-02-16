@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: cde55f9dd3a1a9aacc48ba816cd0ef00472dad56
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 5636e2e6186107bee3a0116d203910bc7b766990
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661737"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068998"
 ---
 # <a name="view-documents-in-a-review-set"></a>Exibir documentos em um conjunto de revisão
 
@@ -36,14 +36,14 @@ A descoberta eletrônica avançada exibe o conteúdo por vários visualizadores,
 Este painel pode ser ativado/desativado para exibir vários metadados associados ao documento. Embora a grade de resultados de pesquisa possa ser personalizada para exibir metadados específicos, há situações nas quais rolar horizontalmente pode ser difícil durante a análise de dados. O painel metadados de arquivo permite que um usuário alterne em um modo de exibição no visualizador.
 
 ![Painel metadados de arquivo
-](media/Reviewimage2.png)
+](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>Modo de exibição nativo
 
 O visualizador nativo exibe o modo de exibição mais avançado de um documento. Ele oferece suporte a centenas de tipos de arquivo e deve exibir a experiência nativa mais verdadeira possível. Para arquivos do Microsoft Office, o visualizador usa a versão Web de aplicativos do Office para exibir conteúdo como comentários de documento, fórmulas do Excel, linhas/colunas ocultas e anotações do PowerPoint.
 
 ![Modo de exibição nativo
-](media/Reviewimage3.png)
+](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>Exibição de texto
 
@@ -56,10 +56,10 @@ O Visualizador de texto fornece um modo de exibição do texto extraído de um a
   - O modo de exibição de comparação fornece um modo de exibição de comparação que realça diferenças textuais ao exibir documentos próximos duplicados
 
 ![Exibição de texto
-](media/Reviewimage4.png)
+](../media/Reviewimage4.png)
 
 ![Exibição de comparação
-](media/Reviewimage5.png)
+](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>Modo de anotações
 
@@ -86,7 +86,7 @@ O modo de anotações fornece recursos que permitem que os usuários apliquem ma
   - Pesquisa: o usuário pode pesquisar dentro de um documento e navegar até os vários acertos no documento
     
     ![Modo de anotações
-    ](media/Reviewimage1.png)
+    ](../media/Reviewimage1.png)
 
 ## <a name="dashboard-view"></a>Exibição de painel 
 O modo de exibição painel permite visualizar e resumir os dados na grade de resultados da pesquisa. Nesse modo de exibição, você pode criar widgets personalizados para tornar a análise e o relatório de seu conjunto de análise intuitivo e fácil. Depois de criar seus widgets, você pode interagir com eles para obter contagens de itens ou criar uma pesquisa. 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância do Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: fa690857fabb6a732d329dc8a75896d9e1aa195d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0565fa29f79a5269631539939c749a9ad93a029c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069551"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
 
@@ -36,7 +36,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
 
 1. Na guia **marca \> de relevância** , o painel de marcação é exibido por padrão no painel esquerdo e os arquivos de exemplo são exibidos, um de cada vez para marcação. 
     
-    ![Painel Marca de Relevância](media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
+    ![Painel Marca de Relevância](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
   
     Na guia **marca** , o nome de exibição do arquivo é mostrado. Pode ser o caminho, o assunto do email, o título ou o nome definido pelo usuário. A ID, o caminho do arquivo ou o caminho do texto podem ser copiados clicando com o botão direito do mouse no caminho do arquivo. 
     
@@ -58,7 +58,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
     
     Opcionalmente, na guia **marca** , clique em **configurações de marca** para definir as seguintes opções: 
     
-    ![Configurações de marca de relevância](media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
+    ![Configurações de marca de relevância](../media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
   
   - **Marca em massa**: Use esta opção para atribuir vários problemas para um arquivo selecionando **todos** para definir a marca do arquivo selecionado para todos os problemas (substituições já marcadas) ou selecionando **o restante** para aplicar a marca aos outros problemas não marcados. A opção selecionada permanecerá em vigor para todos os casos deste usuário até ser alterada por esse usuário (a definição é por usuário para todos os casos do usuário). 
     
@@ -80,7 +80,7 @@ A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo 
   
 1. Na guia **marca \> de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
     
-    ![Lista de arquivos de exemplo de Marca de Relevância](media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
+    ![Lista de arquivos de exemplo de Marca de Relevância](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
   
 2. Selecione um exemplo ou número de arquivo específico inserindo ou selecionando seu número nas caixas de **exemplo** ou de **arquivo** . 
     

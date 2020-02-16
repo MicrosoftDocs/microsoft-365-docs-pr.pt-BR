@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: Use o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &. Você também pode configurar a lista de palavras-chave ao criar ou editar uma consulta de pesquisa para obter estatísticas aprimoradas que mostrem quantos itens corresponderam a cada palavra-chave ou frase de palavra-chave.
-ms.openlocfilehash: 80a2abc2392a21439219d5bd5d462a4671a926a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 07a13ab2f183cfa9349f827cf410e417c0944869
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068914"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
 
@@ -37,9 +37,9 @@ Para exibir estatísticas para pesquisas de conteúdo:
   
 1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
     
-2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, clique em **Pesquisar**![estatísticas da](media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)pesquisa de estatísticas.
+2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, clique em **Pesquisar**![estatísticas da](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)pesquisa de estatísticas.
     
-    ![Selecionar várias pesquisas e clicar em estatísticas de pesquisa](media/1195c6c3-2e00-469d-8c29-85c1c7ebe6c7.png)
+    ![Selecionar várias pesquisas e clicar em estatísticas de pesquisa](../media/1195c6c3-2e00-469d-8c29-85c1c7ebe6c7.png)
   
 3. Na página **Estatísticas de pesquisa** , clique em um dos seguintes links para exibir estatísticas sobre as pesquisas selecionadas. 
     
@@ -47,7 +47,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     Esta página exibe estatísticas semelhantes às exibidas no painel de detalhes na página de **pesquisa de conteúdo** . As estatísticas de todas as pesquisas selecionadas são exibidas. Observe que você também pode executar novamente as pesquisas selecionadas nesta página para atualizar as estatísticas. 
     
-    ![Resumo das estatísticas das pesquisas selecionadas](media/abb663eb-b3d6-4f4c-a99f-55d20b0848af.png)
+    ![Resumo das estatísticas das pesquisas selecionadas](../media/abb663eb-b3d6-4f4c-a99f-55d20b0848af.png)
   
     a.  O nome da pesquisa de conteúdo. Conforme mencionado anteriormente, você pode exibir e comparar as estatísticas de várias pesquisas.
     
@@ -63,7 +63,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     Esta página exibe estatísticas sobre a consulta de pesquisa.
     
-    ![Estatísticas de consulta de pesquisa para as pesquisas selecionadas](media/dc817526-dfb9-43d3-a14c-4c58077eb7bb.png)
+    ![Estatísticas de consulta de pesquisa para as pesquisas selecionadas](../media/dc817526-dfb9-43d3-a14c-4c58077eb7bb.png)
   
     a. O nome da pesquisa de conteúdo para a qual a linha contém as estatísticas de consulta.
     
@@ -92,7 +92,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     Esta página exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo pesquisado. Os primeiros 1.000 locais são exibidos. Se você exibir estatísticas para várias pesquisas, os principais locais de 1.000 para cada pesquisa são exibidos. Observe que um local de conteúdo não está incluído nesta página se ela não contiver nenhum item correspondente à consulta de pesquisa.
     
-    ![Estatísticas sobre o número de itens encontrados nos locais de conteúdo que foram pesquisados](media/35a820b0-85d9-45d1-9a0c-c74bec803e67.png)
+    ![Estatísticas sobre o número de itens encontrados nos locais de conteúdo que foram pesquisados](../media/35a820b0-85d9-45d1-9a0c-c74bec803e67.png)
   
     a. O nome do local do conteúdo.
     
@@ -109,11 +109,11 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave 
   
 1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
     
-2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida **** ![, clique em](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
+2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida **** ![, clique em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
     
 3. Clique em **consulta** e faça o seguinte: 
     
-    ![Clique na caixa de seleção Mostrar lista de palavras-chave e digite uma palavra-chave em cada linha](media/73ef46dd-3d5c-415d-b5e7-c3559caaafe2.png)
+    ![Clique na caixa de seleção Mostrar lista de palavras-chave e digite uma palavra-chave em cada linha](../media/73ef46dd-3d5c-415d-b5e7-c3559caaafe2.png)
   
     a. Clique na caixa de seleção **Mostrar lista de palavras-chave** . 
     
@@ -121,11 +121,11 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave 
     
 4. Após adicionar as palavras-chave que você deseja pesquisar e obter as estatísticas, clique em **Pesquisar** para executar a pesquisa revisada. 
     
-5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida **** ![, clique no botão](media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)Pesquisar estatísticas da pesquisa de estatísticas. Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
+5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida **** ![, clique no botão](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)Pesquisar estatísticas da pesquisa de estatísticas. Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
     
 6. Na página **Estatísticas de pesquisa** , clique em **consulta** para exibir as estatísticas de palavra-chave das pesquisas selecionadas. 
     
-    ![As estatísticas de cada palavra-chave para as pesquisas selecionadas são exibidas](media/e7910fa9-af93-4df9-92d0-e1e3e089e14f.png)
+    ![As estatísticas de cada palavra-chave para as pesquisas selecionadas são exibidas](../media/e7910fa9-af93-4df9-92d0-e1e3e089e14f.png)
   
     Conforme mostrado na captura de tela anterior, as estatísticas de cada palavra-chave são exibidas; Isso inclui: 
     

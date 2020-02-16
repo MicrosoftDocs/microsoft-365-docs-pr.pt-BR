@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 0b6776571f4abafaf8e050fa6c31311df452d90e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Gerencie os responsáveis em um caso de descoberta eletrônica avançada.
+ms.openlocfilehash: f52c32c2eb65a03369064954ac1af6f881ab556f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582910"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071591"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
 
 A guia responsáveis em descoberta eletrônica avançada contém uma lista de todos os responsáveis que foram adicionados ao caso. Depois de adicionar os responsáveis a um caso, os detalhes sobre cada um são coletados automaticamente do Azure Active Directory e são exibidos na descoberta eletrônica avançada.
 
-![Gerenciar responsáveis](media/CustodianDetails.PNG)
+![Gerenciar responsáveis](../media/CustodianDetails.PNG)
 
 ## <a name="view-custodian-details"></a>Exibir detalhes do responsáveis
 
@@ -37,7 +37,7 @@ Para exibir os detalhes sobre um responsáveis, clique no responsáveis da lista
 
   - **Nome para exibição** : o nome exibido no catálogo de endereços para os responsáveis. Isso geralmente é a combinação do nome do responsáveis, da inicial do meio e do sobrenome.
   
-   - **Mail/SMTP** -o endereço SMTP principal para os responsáveis, por exemplo, brianj@contoso.onmicrosoft.com. Observe que o nome principal do usuário (UPN) do responsáveis também está listado.
+   - **Mail/SMTP** -o endereço SMTP principal para os responsáveis, por exemplo, brianj@contoso.onmicrosoft.com. O nome principal do usuário (UPN) do responsáveis também está listado.
 
   - **Título** -o cargo do profissional.
 
@@ -51,7 +51,7 @@ Para exibir os detalhes sobre um responsáveis, clique no responsáveis da lista
 
   - **State** -o estado ou província no endereço do responsáveis.
 
-  - **País/região** -o país/região onde o responsáveis está localizado.
+  - **País/região** -o país/região em que os responsáveis estão localizados.
 
   - **Office** – o local do escritório no local de trabalho do responsáveis.
 
@@ -82,7 +82,7 @@ Para atualizar as fontes de dados associadas a um responsáveis:
   
 3. Selecione um responsáveis na lista e clique em **Editar** na página do menu suspenso.
 
-    ![Editar fontes de dados](media/EditCustodianDataSource.PNG)
+    ![Editar fontes de dados](../media/EditCustodianDataSource.PNG)
   
 4. Clique em escolher a guia **fontes de dados** para alterar as configurações da caixa de correio do Exchange e da conta do onedrive do responsáveis, clique em **escolher fontes de dados**.
   
@@ -92,11 +92,11 @@ Para atualizar as fontes de dados associadas a um responsáveis:
   
 6. Clique em **colocar custodial isenções** para habilitar ou desabilitar a retenção para os responsáveis.
 
-## <a name="resolve-custodian-processing-errors"></a>Resolver erros de processamento de responsáveis
+## <a name="re-index-custodian-data"></a>Reindexar dados de responsáveis
 
 Na maioria dos fluxos de trabalho de descoberta eletrônica para investigações legais, um subconjunto dos dados de um dos responsáveis é pesquisado depois que os responsáveis são adicionados a um caso jurídico. Por causa de tamanhos de arquivo muito grandes ou possíveis corrupção de dados, alguns itens nas fontes de dados associados a um membro podem ser parcialmente indexados. Usando a capacidade de [indexação avançada](indexing-custodian-data.md) na descoberta eletrônica avançada, os itens parcialmente indexados podem ser corrigidos automaticamente pela reindexação desses itens sob demanda.
 
-Quando um Objecté adicionado a uma ocorrência, os dados localizados nas fontes de dados associadas ao responsáveis são automaticamente re-indexado (pelo processo de indexação avançado). Isso significa que você pode deixar os dados no local em vez de precisar baixar e corrigi-los e, em seguida, procurá-los offline). No entanto, durante o ciclo de vida de um caso jurídico, novas fontes de dados podem ser associadas a um. Nesse caso, é possível reindexar os dados dos responsáveis executando novamente o processo de indexação avançada para corrigir quaisquer itens parcialmente indexados e atualizar o índice para os dados do responsáveis.
+Quando um Objecté adicionado a uma ocorrência, os dados localizados nas fontes de dados associadas ao responsáveis são automaticamente re-indexado (pelo processo de indexação avançado). Isso significa que você pode deixar os dados no local em vez de precisar baixar e corrigi-los e, em seguida, procurá-los offline). No entanto, durante o ciclo de vida de um caso jurídico, novas fontes de dados podem ser associadas a um. Nesse caso, você pode reindexar os dados dos responsáveis executando novamente o processo de indexação avançada para corrigir todos os itens parcialmente indexados e atualizar o índice para os dados do responsáveis.
 
 Para acionar o processo de reindexação para lidar com itens parcialmente indexados:
 
@@ -110,7 +110,7 @@ Para acionar o processo de reindexação para lidar com itens parcialmente index
 
 A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
 
-Para saber mais, confira:
+Para saber mais, veja:
 
 - [Trabalhar com erros de processamento](processing-data-for-case.md)
 
@@ -136,7 +136,7 @@ Para liberar um responsáveis:
 
 5. Clique em **Sim** para confirmar que você deseja liberar os responsáveis. 
 
-    Observe que o status desse usuário na guia **responsáveis** é definido como **liberado** e o status de **retenção** na página do submenu é alterado para **false**. 
+    O status desse usuário na guia **responsáveis** é definido como **liberado** e o **status de retenção** na página do submenu é alterado para **false**. 
 
 > [!NOTE]
 > Os responsáveis podem estar simultaneamente envolvidos em vários casos jurídicos. Quando um dos responsáveis é liberado de uma ocorrência, as isenções e notificações em outras questões não serão afetadas.
@@ -145,4 +145,4 @@ Para liberar um responsáveis:
 
 Você pode usar o editor em massa para editar vários responsáveis ao mesmo tempo. Para fazer isso, basta selecionar dois ou mais responsáveis na guia **responsáveis** para exibir o editor em massa e clicar em uma das tarefas.
 
-![Página de submenu para editar as configurações de vários responsáveis](media/AeDBulkEditCustodians.png)
+![Página de submenu para editar as configurações de vários responsáveis](../media/AeDBulkEditCustodians.png)

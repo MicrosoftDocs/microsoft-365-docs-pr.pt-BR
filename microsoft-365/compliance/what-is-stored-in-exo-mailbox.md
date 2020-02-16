@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os dados produzidos por aplicativos baseados em nuvem no Office 365 são armazenados na caixa de correio do Exchange Online de um usuário no Microsoft Cloud.
-ms.openlocfilehash: f9db94eebf855a2d8dcfee8897ca6171eabbc400
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5e263acaca21e8cdf9c338f0aaa56846a8a929ef
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068728"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Conteúdo armazenado em caixas de correio do Exchange Online
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Como administrador do Office 365, você pode revogar determinados emails que foram criptografados com a criptografia de mensagem avançada do Office 365.
-ms.openlocfilehash: 9d694c200df161c0a52884ded14d29908376a9b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6cbe0704d6e84282d71c37c72a45712c30f3ac61
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070028"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Revogar email criptografado pelo a Criptografia de Mensagem Avançada do Office 365
 
@@ -41,7 +41,7 @@ Se um destinatário recebe uma experiência baseada em links ou uma experiência
 
 Depois que um email é revogado, o destinatário recebe um erro quando acessa o email criptografado por meio do portal de criptografia de mensagem do Office 365: "a mensagem foi revogada pelo remetente".
 
-![Captura de tela que mostra um email criptografado revogado.](media/revoked-encrypted-email.png)
+![Captura de tela que mostra um email criptografado revogado.](../media/revoked-encrypted-email.png)
 
 ## <a name="how-to-revoke-an-encrypted-email"></a>Como revogar um email criptografado
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fdde59b04c7f52f163028aa7ba4759e226fccb55
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 07a722101aaf9a3413e5821459ea9a980a8b76fe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071278"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Título da CFR de comida e administração de drogas 21 parte 11
 
@@ -50,9 +50,10 @@ Saiba como acelerar o título da sua FDA CFR 21 implantação: [baixar o guia de
 Embora não haja certificação para conformidade com o título da CFR 21 parte 11, os seguintes serviços de nuvem corporativa da Microsoft sofreram auditorias independentes, que podem ajudar os clientes em seus esforços de conformidade. Esses serviços incluem:
 
 - Azure: serviços de nuvem, armazenamento, Gerenciador de tráfego, máquinas virtuais e rede virtual
+- Azure DevOps
 - Intune
 - [Dynamics 365 e Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 e Office 365 U.S. Government
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -72,7 +73,7 @@ Os controles auditados implementados pela Microsoft ajudam a garantir a confiden
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [Portal de Confiança de Serviços](https://aka.ms/stphelp) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados dos serviços de nuvem da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança do Serviço](https://aka.ms/stphelp) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados dos serviços de nuvem da Microsoft com seus próprios requisitos legais e normativos.
 
 **Posso usar a conformidade da Microsoft no processo de certificação para minha organização?**
 
@@ -89,7 +90,7 @@ A Microsoft garante que os serviços de nuvem corporativa atendam aos termos def
 - [Orientação da FDA para o setor parte 11: registros eletrônicos e assinaturas](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Diretrizes de qualificação para o Azure](https://aka.ms/azurefda21cfrpart11qualguide)
 - [Diretrizes de qualificação para o Office 365](https://aka.ms/o365-qualification-guideline)
-- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
 description: 'Saiba mais sobre como localizar os resultados de um módulo de processo executado na descoberta eletrônica avançada do Office 365, incluindo o status da tarefa e o resumo do processo.  '
-ms.openlocfilehash: 2c492b9c8dfa2b6851620c434f1a5b4bbddc2e4e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 95e5e8f5ddc24bf0b8bf38800289abd233c655ad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068821"
 ---
 # <a name="view-process-module-results-in-office-365-advanced-ediscovery"></a>Exibir resultados do módulo de processo na descoberta eletrônica avançada do Office 365
 
@@ -34,7 +34,7 @@ Depois que o **processo** de **preparação** \> é iniciado, você pode exibir 
 
 Nos **resultados**do **processo** \> de **preparação** \> , a página mostra o status atual (se o processo estiver em execução no momento) ou o status da tarefa de status do último processo, conforme mostrado no exemplo a seguir.
   
-![Status da tarefa do módulo de processamento](media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
+![Status da tarefa do módulo de processamento](../media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
   
 As tarefas exibidas podem variar dependendo das opções de processo selecionadas. 
   
@@ -82,7 +82,7 @@ Os painéis apresentam uma exibição gráfica das estatísticas de arquivo impo
     
     Se a marcação de arquivos **previamente marcados** falhou, isso também é observado. 
     
-![Resumo do módulo de processamento](media/2086a691-9e3d-4117-beb2-a5c3a9a4cc94.png)
+![Resumo do módulo de processamento](../media/2086a691-9e3d-4117-beb2-a5c3a9a4cc94.png)
   
 ## <a name="process-summary-accumulated-and-last-charts"></a>Resumo do processo acumulado e últimos gráficos
 
@@ -106,7 +106,7 @@ A barra direita, processada, inclui:
 
 Em preparar \> resultados \> \> do processo últimos erros de processo, os detalhes dos erros na última sessão ou ação executada são exibidos.
   
-![Erros do módulo de processamento](media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
+![Erros do módulo de processamento](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   
 ## <a name="see-also"></a>Confira também
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: 'Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada do Office 365, incluindo as definições das opções de tarefa exibidas.  '
-ms.openlocfilehash: 9e06770135afd62a39115c9365a698df4493bd72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069170"
 ---
 # <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Exibir resultados de análise na descoberta eletrônica avançada do Office 365
 
@@ -34,7 +34,7 @@ Na descoberta eletrônica avançada, o andamento e os resultados do processo de 
 
 Em **preparar \> o \> status \> da tarefa de análise de resultados**, o status é exibido durante e após analisar a execução do processo. 
   
-![Status de tarefa de análise](media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
+![Status de tarefa de análise](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   
 As tarefas exibidas podem variar dependendo das opções selecionadas. 
   
@@ -73,7 +73,7 @@ Os resultados da mensagem de **email** exibem o número de cópias inclusivas, i
     
 Os resultados de **anexos** exibem o número de anexos, de acordo com esse tipo como exclusivo e duplicado. 
   
-![Quase duplicatas e threads de email](media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
+![Quase duplicatas e threads de email](../media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
   
 ## <a name="see-also"></a>Confira também
 

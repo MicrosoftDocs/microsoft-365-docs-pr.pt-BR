@@ -1,5 +1,7 @@
 ---
 title: Gerenciar um incidente de derramamento de dados no Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve o uso da nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para gerenciar um incidente de derramamento de dados.
-ms.openlocfilehash: 53193d3bd915562037a6409766e9be9d42d272c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072019"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Gerenciar um incidente de derramamento de dados no Microsoft 365
 
@@ -39,7 +41,7 @@ Você é informado de um incidente de derramamento de dados em que um funcionár
 > [!IMPORTANT]
 > Embora você possa remover permanentemente os dados derramados dentro de sua própria organização, nenhum dado derramado fora da sua organização não pode ser removido com esses recursos.
 
-## <a name="workflow"></a>Fluxo de Trabalho
+## <a name="workflow"></a>Fluxo de trabalho
 
 Este é o fluxo de trabalho para usar investigações de dados (visualização) para gerenciar um incidente de derramamento de dados:
 
@@ -106,11 +108,11 @@ Depois de executar a pesquisa, você pode Visualizar amostras de resultados de p
 
 Na investigação, vá para a guia **evidência** e clique no conjunto de evidências que você criou na etapa anterior. Após o trabalho de processamento ser concluído e os resultados da pesquisa serem adicionados à evidência, você pode revisar documentos individuais em seu formato nativo, formato de texto ou um formato Near-Native. Você pode criar consultas adicionais para restringir a lista de documentos e marcar documentos para indicar resultados de sua investigação. Para obter mais informações, consulte [Review data in Evidence](review-data-in-evidence.md)
 
-Para agrupar documentos e obter mais assistência para revisão, clique em **gerenciar evidência**. No bloco de **análise** , clique em **analisar**. Isso executa análises avançadas, como detecção de duplicidades, encadeamento de emails e análise de temas. Para obter mais informações, consulte:
+Para agrupar documentos e obter mais assistência para revisão, clique em **gerenciar evidência**. No bloco de **análise** , clique em **analisar**. Isso executa análises avançadas, como detecção de duplicidades, encadeamento de emails e análise de temas. Para saber mais, veja:
 
 - [Executar análise para investigar mais rápido](run-analytics-to-investigate-faster.md)
-- [Detecção de duplicata próxima](near-duplicates.md)
-- [Conversa de email](email-threading.md)
+- [Próximo detecção duplicada](near-duplicates.md)
+- [Threading de emails](email-threading.md)
 - [Temas](themes.md)
 
 Para determinar quais usuários estão envolvidos no derramamento de dados, você pode criar uma consulta no conjunto de evidências e, em seguida, usar as condições remetente/autor e destinatários. Isso cria uma lista de todos os remetentes, destinatários e autores encontrados nos dados coletados que foram adicionados à evidência. Certifique-se de examinar a lista para determinar se há usuários externos. Para obter mais informações sobre como usar condições para restringir os resultados da pesquisa, consulte [Search Conditions](keyword-queries-and-search-conditions.md#search-conditions).
@@ -125,7 +127,7 @@ Para excluir itens de seus locais originais:
  
 2. Clique em **ação** e em **excluir itens de locais originais**.
 
-   ![Clique em ação e em excluir itens de locais originais](media/DataInvestigationsDeleteItems1.png)
+   ![Clique em ação e em excluir itens de locais originais](../media/DataInvestigationsDeleteItems1.png)
 
 3. Na página do menu suspenso, verifique o número de itens e documentos filhos relacionados que serão excluídos e clique em **excluir**.
 

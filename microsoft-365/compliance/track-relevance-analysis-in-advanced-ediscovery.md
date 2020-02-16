@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 description: 'Saiba como exibir e interpretar os resultados e o status de treinamento de relevância para problemas de caso na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 5fa9fe49f1a644f2a64321c1ec106b11c487c885
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 224a817e662462d0c51650e7bd364e717dbfbd62
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069468"
 ---
 # <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Rastrear a análise de relevância na descoberta eletrônica avançada do Office 365
 
@@ -44,7 +44,7 @@ Na descoberta eletrônica avançada, a guia controle de relevância exibe a vali
     
     No exemplo, uma avaliação concluída com êxito para um problema é exibida, indicada pelo indicador de progresso de cor preenchido e pela marca de execução. A marcação está em andamento, mas o caso ainda é considerado instável (o status de estabilidade também é mostrado em uma dica de ferramenta). A recomendação de próxima etapa é "treinamento". 
     
-    ![Etapa 1 do treinamento do Controle de Relevância](media/a00fe607-680a-48eb-9d61-4565319f7ab6.png)
+    ![Etapa 1 do treinamento do Controle de Relevância](../media/a00fe607-680a-48eb-9d61-4565319f7ab6.png)
   
     O modo de exibição expandido exibe informações e opções adicionais. A margem de erro atual exibida é a margem de erro da recuperação no estado atual de avaliação, dado os arquivos de avaliação existentes (já marcados).
     
@@ -55,7 +55,7 @@ Na descoberta eletrônica avançada, a guia controle de relevância exibe a vali
     
     No **** \> **controle**de relevância, o indicador de progresso de treinamento e a dica de ferramenta indicam o número estimado de amostras adicionais necessárias para alcançar a estabilidade. Esta estimativa fornece uma diretriz para o treinamento adicional necessário.
     
-    ![Treinamento do controle de relevância](media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
+    ![Treinamento do controle de relevância](../media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
   
 2. Quando tiver terminado a marcação e se precisar continuar o treinamento, clique em **treinamento**. Outro conjunto de exemplos de arquivos é gerado a partir do conjunto de arquivos carregado para obter treinamento adicional. Em seguida, você retorna à guia marca para marcar e treinar mais arquivos.
     
@@ -100,13 +100,13 @@ Se houver inconsistências na marcação de arquivos, ela poderá afetar a anál
 
 Na guia **controle \> de relevância** , expanda a linha de um problema e ao lado de **resultados detalhados**, clique em **Exibir**. Os painéis de resultados detalhados são exibidos, conforme mostrado e descrito abaixo.
   
-![Resultados detalhado do treinamento de relevância](media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
+![Resultados detalhado do treinamento de relevância](../media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
   
 ### <a name="tagging-summary"></a>Resumo de marcação
 
  No exemplo mostrado abaixo, o **Resumo de marcação** exibe os totais para cada um dos processos de marcação de avaliação, treinamento e arquivo de verificação. 
   
-![Resumo de marcação de controle de relevância](media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
+![Resumo de marcação de controle de relevância](../media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
   
 ### <a name="keywords"></a>Palavras-chave
 
@@ -120,7 +120,7 @@ A lista de descoberta eletrônica avançada de palavras-chave pode ser usada par
 
 O painel **andamento do treinamento** inclui um gráfico de progresso de treinamento e um indicador de qualidade, conforme mostrado no exemplo abaixo. 
   
-![Progresso do treinamento do Controle de Relevância](media/8a5089f5-a162-4246-ae09-bc1921859860.png)
+![Progresso do treinamento do Controle de Relevância](../media/8a5089f5-a162-4246-ae09-bc1921859860.png)
   
  **Indicador de qualidade de treinamento**: exibe a classificação da consistência de marcação da seguinte maneira:
   
@@ -156,7 +156,7 @@ O painel **resultados do cálculo em lotes** inclui o número de arquivos que fo
 
 O painel **Estatísticas de treinamento** exibe as estatísticas e os gráficos com base nos resultados do treinamento de relevância de descoberta eletrônica avançada. 
   
-![Estatística do treinamento do controle de relevância](media/9a07740e-20d3-49fb-b9b9-84265e0a1836.png)
+![Estatística do treinamento do controle de relevância](../media/9a07740e-20d3-49fb-b9b9-84265e0a1836.png)
   
 Este modo de exibição mostra o seguinte:
   

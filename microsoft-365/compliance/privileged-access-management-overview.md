@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Use este tópico para saber mais sobre o gerenciamento de acesso privilegiado no Office 365
-ms.openlocfilehash: 29436c9f647de2844f95f05e66b3b6c05527352b
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 8d1b6bbda57cbe51167c87a29e140e6b5f871bca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070943"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Gerenciamento de acesso privilegiado no Office 365
 
@@ -37,7 +37,7 @@ Para obter uma visão geral rápida do fluxo de trabalho integrado de gerenciame
 
 O gerenciamento de acesso privilegiado complementa outras proteções de recursos de dados e acesso dentro da arquitetura de segurança do Office 365. A inclusão de gerenciamento de acesso privilegiado como parte de uma abordagem integrada e em camadas à segurança fornece um modelo de segurança que maximiza a proteção de informações confidenciais e definições de configuração do Office 365. Conforme mostrado no diagrama, o gerenciamento de acesso privilegiado se baseia na proteção fornecida com a criptografia nativa dos dados do Office 365 e o modelo de segurança de controle de acesso baseado em função dos serviços do Office 365. Quando usado com o [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure), esses dois recursos fornecem controle de acesso com acesso just-in-time em escopos diferentes.
 
-![Proteção em camadas no Office 365](media/pam-layered-protection.png)
+![Proteção em camadas no Office 365](../media/pam-layered-protection.png)
 
 O gerenciamento de acesso privilegiado no Office 365 é definido e escopo no nível da **tarefa** , enquanto o gerenciamento de identidade privilegiada do Azure ad aplica proteção no nível da **função** com a capacidade de executar várias tarefas. O gerenciamento de identidade privilegiada do Azure AD permite principalmente o gerenciamento de acessos para funções do AD e grupos de função, enquanto o gerenciamento de acesso privilegiado no Office 365 aplica-se apenas no nível da tarefa.
 
@@ -53,25 +53,25 @@ Cada um dos fluxos de processo a seguir descreve a arquitetura de acesso privile
 
 Quando você configura uma política de acesso privilegiada com o [centro de administração do Microsoft 365](https://admin.microsoft.com) ou o PowerShell de gerenciamento do Exchange, você define a política e os processos de recurso de acesso privilegiado e os atributos de política no substrato do Office 365. As atividades são registradas no centro de segurança e conformidade do Office 365. A política agora está habilitada e pronta para lidar com solicitações de entrada para aprovações.
 
-![Etapa 1: criação de política](media/pam-step1-policy-creation.jpg)
+![Etapa 1: criação de política](../media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>Etapa 2: solicitação de acesso
 
 No [centro de administração do Microsoft 365](https://admin.microsoft.com) ou com o PowerShell de gerenciamento do Exchange, os usuários podem solicitar acesso a tarefas privilegiadas ou privilegiadas. O recurso de acesso privilegiado envia a solicitação para o substrato do Office 365 para processamento com a política de acesso de privilégio configurada e registra a atividade nos logs do centro de conformidade e segurança do Office 365.
 
-![Etapa 2: solicitação de acesso](media/pam-step2-access-request.jpg)
+![Etapa 2: solicitação de acesso](../media/pam-step2-access-request.jpg)
 
 ### <a name="step-3-access-approval"></a>Etapa 3: aprovação do acesso
 
 Uma solicitação de aprovação é gerada e a notificação de solicitação pendente é enviada por email aos aprovadores. Se for aprovada, a solicitação de acesso privilegiado será processada como uma aprovação e a tarefa estará pronta para ser concluída. Se negado, a tarefa é bloqueada e nenhum acesso é concedido ao solicitante. O solicitante é notificado sobre a aprovação da solicitação ou a negação via mensagem de email.
 
-![Etapa 3: aprovação do acesso](media/pam-step3-access-approval.jpg)
+![Etapa 3: aprovação do acesso](../media/pam-step3-access-approval.jpg)
 
 ### <a name="step-4-access-processing"></a>Etapa 4: processamento de acesso
 
 Para uma solicitação aprovada, a tarefa é processada pelo runspace de gerenciamento do Exchange. A aprovação é verificada em relação à política de acesso privilegiado e processada pelo substrato do Office 365. Todas as atividades da tarefa são registradas no centro de segurança e conformidade do Office 365.
 
-![Etapa 4: processamento de acesso](media/pam-step4-access-processing.jpg)
+![Etapa 4: processamento de acesso](../media/pam-step4-access-processing.jpg)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

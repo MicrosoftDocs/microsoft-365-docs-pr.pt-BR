@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A descoberta eletrônica avançada facilita o gerenciamento do fluxo de trabalho de notificação de retenção legal para notificar os responsáveis pelas investigações legais.
-ms.openlocfilehash: ffad61d5bc00202f7f72f6f9021b4f62e81fef96
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ca3e5a8e500f6a8e5a5483ccc3efd070c05c5cd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582740"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071578"
 ---
 # <a name="work-with-communications-in-advanced-ediscovery"></a>Trabalhar com comunicações na descoberta eletrônica avançada
 

@@ -17,18 +17,18 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Muitas organizações já têm um processo para identificar e classificar informações confidenciais usando as propriedades de classificação no arquivo de classificação de infraestrutura (FCI) do Windows Server, as propriedades do documento no SharePoint ou as propriedades do documento aplicadas por um sistema de terceiros. Se essa for a sua organização, você pode criar uma política de DLP no Office 365 que reconhece as propriedades que foram aplicadas a documentos pelo FCI do Windows Server ou outro sistema, para que a política de DLP possa ser imposta em documentos do Office com FCI específico ou outros valores de propriedade.
-ms.openlocfilehash: 1ae70571817de1df3a48b38a44da1ed1e3695750
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfcbc30af3a3dac304dc57551e6246ec9e6554c0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597698"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070593"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
 No Office 365, você pode usar uma política de prevenção (DLP) contra perda de dados para identificar, monitorar e proteger informações confidenciais. Muitas organizações já têm um processo para identificar e classificar informações confidenciais usando as propriedades de classificação no arquivo de classificação de infraestrutura (FCI) do Windows Server, as propriedades do documento no SharePoint ou as propriedades do documento aplicadas por um sistema de terceiros. Se essa for a sua organização, você pode criar uma política de DLP no Office 365 que reconhece as propriedades que foram aplicadas a documentos pelo FCI do Windows Server ou outro sistema, para que a política de DLP possa ser imposta em documentos do Office com FCI específico ou outros valores de propriedade.
   
-![Diagrama mostrando o Office 365 e o sistema de classificação externa](media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
+![Diagrama mostrando o Office 365 e o sistema de classificação externa](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
   
 Por exemplo, sua organização pode usar o FCI do Windows Server para identificar documentos com informações de identificação pessoal (PII), como cadastros de pessoas físicas e, em seguida, classificar o documento, definindo a propriedade **Informações de Identificação Pessoal** como **Alta**, **Moderada**, **Baixa**, **Pública** ou **Não PII** com base no tipo e número de ocorrências de PII localizadas no documento. No Office 365, você pode criar uma política de DLP que identifica documentos que têm essa propriedade definida como valores específicos, como **Alta** e **Média** e depois executa uma ação como o bloqueio do acesso a esses arquivos. A mesma política pode ter outra regra que executa uma ação diferente se a propriedade for definida como **Baixa**, como o envio de uma notificação por email. Dessa forma, a DLP no Office 365 integra-se com o Windows Server FCI e pode ajudar a proteger os documentos do Office carregados ou compartilhados para o Office 365 a partir de servidores de arquivos baseados no Windows Server.
   
@@ -58,11 +58,11 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
     
 3. No painel de navegação à esquerda, escolha **Pesquisar** \> na página \> **Administração da pesquisa** **gerenciar esquema de pesquisa**.
     
-    ![página de administração de pesquisa no centro de administração do SharePoint](media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
+    ![página de administração de pesquisa no centro de administração do SharePoint](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
   
 4. Na \> página **propriedades gerenciadas** **nova propriedade gerenciada**.
     
-    ![Página de propriedades gerenciadas com o botão Nova Propriedade Gerenciada realçado](media/b161c764-414c-4037-83ed-503a49fb4410.png)
+    ![Página de propriedades gerenciadas com o botão Nova Propriedade Gerenciada realçado](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
 5. Insira um nome e uma descrição para a propriedade. Esse nome é o que aparecerá em suas políticas de DLP.
     
@@ -74,7 +74,7 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
     
 9. Na caixa \> de diálogo **seleção de propriedade rastreada** , localize e selecione a propriedade rastreada que corresponde à propriedade FCI do Windows Server, ou outra propriedade que você usará em \> sua política de DLP **OK**.
     
-    ![caixa de diálogo de seleção da propriedade rastreada](media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
+    ![caixa de diálogo de seleção da propriedade rastreada](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
   
 10. Na parte inferior da página \> , **OK**.
     
@@ -96,7 +96,7 @@ Observe que as **Propriedades de documento de condição contêm qualquer um des
   
 Para obter mais informações sobre esses cmdlets, consulte [cmdlets &amp; do centro de conformidade de segurança do Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
   
-1. [Conectar ao &amp;Centro de Conformidade e Segurança do Office 365 usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Conectar-se ao Centro de Conformidade &amp; Segurança do Office 365 usando o PowerShell Remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. Crie a política usando `New-DlpCompliancePolicy`o.
 
@@ -120,7 +120,7 @@ Quando você terminar, a política deverá ter duas novas regras que usem as **P
   
 Uma regra bloqueia o acesso ao conteúdo em que a propriedade **Informações de identificação pessoal** é igual a **Alta** ou **Moderada**. Uma segunda regra envia uma notificação sobre o conteúdo em que a propriedade **Informações de identificação pessoal** é igual a **Baixa**.
   
-![Caixa de diálogo de nova política de DLP mostrando duas regras recém-criadas](media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
+![Caixa de diálogo de nova política de DLP mostrando duas regras recém-criadas](../media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
   
 ## <a name="after-you-create-the-dlp-policy"></a>Depois de criar a política de DLP
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: cd60b16f6d0f968c0c87f3e44ee2f643c90ebb10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1dc0a98208d553a4ea94703b98f982dd8e19167f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071069"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Visão geral das investigações de dados (prévia) no Microsoft 365
 
@@ -37,7 +37,7 @@ Para acessar e conduzir uma investigação de dados, você precisa ser membro do
 
 As seções a seguir descrevem cada etapa no fluxo de trabalho interno em investigações de dados (prévia). A captura de tela a seguir mostra a guia **início** de uma investigação chamada *alto risco: vazamento de documentos financeiros*. 
 
-![Fluxo de trabalho na ferramenta de investigações de dados](media/DataInvestigationsWorkflow.png)
+![Fluxo de trabalho na ferramenta de investigações de dados](../media/DataInvestigationsWorkflow.png)
 
 ## <a name="search-for-sensitive-malicious-or-misplaced-data"></a>Procurar dados confidenciais, mal-intencionados ou colocados no local errado
 
@@ -47,7 +47,7 @@ Use a guia **pesquisas** para criar pesquisas para localizar os dados do Office 
 
 Use a guia **evidência** para investigar os dados que você coletou do serviço em tempo real, que neste caso é o Office 365. Os dados no conjunto de evidências é um instantâneo dos resultados de pesquisa coletados. Quando você adiciona resultados de pesquisa como evidência, um processo é disparado para extrair arquivos, metadados e texto. Quando esse processo é concluído, a ferramenta de investigações de dados cria um novo índice de todos os dados e o adiciona a um conjunto de evidências. Para qualquer investigação sensível ao tempo, isso permite que você contenha rapidamente o ambiente, excluindo os dados localizados nos locais de conteúdo originais (no Live Service) ao investigar as evidências coletadas em um ambiente em quarentena. Depois que a evidência é coletada, você pode executar mais consultas para restringir os dados por intervalo de tempo, tipos de arquivo, proprietários de dados e outros tipos de condições. Por exemplo, usando as condições autor, remetente e destinatário, você pode identificar rapidamente aqueles que estavam envolvidos no despejo dos dados e se qualquer um dos dados derramados foi compartilhado com pessoas de fora da sua organização.
 
-Você também pode executar a análise avançada nas evidências coletadas. Isso pode fornecer temas gerais e organizar evidências por threads de email, duplicatas exatas e quase duplicatas para facilitar sua investigação. Você pode revisar documentos no modo de exibição de texto extraído ou no formato de arquivo nativo e marcá-los com resultados de investigação. Para saber mais, confira:
+Você também pode executar a análise avançada nas evidências coletadas. Isso pode fornecer temas gerais e organizar evidências por threads de email, duplicatas exatas e quase duplicatas para facilitar sua investigação. Você pode revisar documentos no modo de exibição de texto extraído ou no formato de arquivo nativo e marcá-los com resultados de investigação. Para saber mais, veja:
 
   - [Revisar dados em evidência](review-data-in-evidence.md)
 

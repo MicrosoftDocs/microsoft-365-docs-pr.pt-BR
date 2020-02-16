@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Você pode ativar o recurso de pesquisa de log de auditoria no centro de conformidade de & de segurança. Se você mudar de ideia, poderá desativar se estiver desligado a qualquer momento. Quando a pesquisa de log de auditoria está desativada, os administradores não podem pesquisar o log de auditoria do Office 365 para atividades de usuário e administrador em sua organização.
-ms.openlocfilehash: dfa637bfe6df0e4643d96a921a604ea5d0deba9b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4e5a8c3236da9d2cf6e9392b8a9a29d064b0ce0d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069411"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Ativar e desativar a Pesquisa de log de auditoria do Office 365
 
@@ -53,7 +53,7 @@ Você pode usar o centro de conformidade & segurança ou o PowerShell para ativa
 
 2. Clique em **ativar a auditoria**.
     
-    ![Clique em ativar auditoria](media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
+    ![Clique em ativar auditoria](../media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
   
     A faixa é atualizada para dizer que o log de auditoria está sendo preparado e que você pode pesquisar a atividade de usuário e administrador em algumas horas.
     

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 18d67983d4e5e934e606944c1502dd76331812a3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dffbc68714470e65557c58ded710ae53d64a3868
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070078"
 ---
 # <a name="review-the-data-in-evidence"></a>Revise os dados em evidência
 
@@ -48,14 +48,14 @@ Este modo de exibição exibe várias propriedades de metadados associadas ao do
 
 Veja um exemplo dos metadados de arquivo para um documento. Para obter mais informações sobre os campos de metadados, consulte [Document Metadata Fields in data investigações (Preview)](document-metadata-fields.md).
 
-![Painel metadados de arquivo](media/Reviewimage2.png)
+![Painel metadados de arquivo](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>Modo de exibição nativo
 
 O visualizador nativo exibe o modo de exibição mais preciso de um documento no formato nativo. O modo de exibição nativo é suportado para centenas de tipos de arquivo e deve exibir documentos na experiência nativa verdadeiramente mais verdadeira possível. Para arquivos do Microsoft Office, o visualizador nativo usa a versão da Web dos aplicativos do Office. Isso permite que você exiba conteúdo como comentários em diferentes documentos do Office, fórmulas e linhas/colunas ocultas no Excel e o modo de anotações no PowerPoint.
 
 ![Modo de exibição nativo
-](media/Reviewimage3.png)
+](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>Exibição de texto
 
@@ -70,12 +70,12 @@ O Visualizador de texto fornece um modo de exibição do texto extraído de um a
 **Exemplo de contador de linha e realce de ocorrência de pesquisa em texto e ScrollBar**
 
 ![Exibição de texto
-](media/Reviewimage4.png)
+](../media/Reviewimage4.png)
 
 **Exemplo da exibição de comparação**
 
 ![Exibição de comparação
-](media/Reviewimage5.png)
+](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>Modo de anotações
 
@@ -101,7 +101,7 @@ O modo de anotações também fornece a seguinte funcionalidade de navegação:
 
 **Exemplo de exibição de anotações**
 
-![Modo de anotações](media/Reviewimage1.png)
+![Modo de anotações](../media/Reviewimage1.png)
 
 > [!NOTE]
 > As anotações são aplicadas a uma cópia do documento que foi adicionado ao conjunto de evidências. Os documentos originais no serviço ativo não estão anotados.

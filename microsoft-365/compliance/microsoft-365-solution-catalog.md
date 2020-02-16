@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e147ac6ac17a9fdd395aa0b1a00bd8f630cd10c1
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: 31ebd472a5ed33ab6046b9831e02c095d52721a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41891974"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071322"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -30,17 +30,17 @@ Leia este artigo para familiarizar-se com o novo catálogo de soluções no cent
 
 O catálogo de soluções é organizado em seções que contêm cartões de informações para cada solução de conformidade disponível na sua assinatura do Microsoft 365. Cada seção contém cartões para soluções agrupadas por área de conformidade.
 
-![Home Page do catálogo de soluções 365 da Microsoft](media/m365-solution-catalog-home.png)
+![Home Page do catálogo de soluções 365 da Microsoft](../media/m365-solution-catalog-home.png)
 
 Ao selecionar **Exibir** para um cartão de solução, você verá informações detalhadas sobre a solução de conformidade e como começar. Essas informações incluem uma visão geral, requisitos de configuração, recursos de aprendizado, controles que permitem que você fixe o cartão ao painel de navegação e uma opção para compartilhar a solução como um link, email ou mensagem do Microsoft Teams.
 
-![Solução de conformidade de comunicação do Microsoft 365](media/m365-solution-catalog-communication-compliance.png)
+![Solução de conformidade de comunicação do Microsoft 365](../media/m365-solution-catalog-communication-compliance.png)
 
 ## <a name="information-protection--governance-section"></a>Seção de governança de & de proteção de informações
 
 A seção de **governança de & de proteção de informações** mostra rapidamente como você pode usar as soluções de conformidade da Microsoft 365 para proteger e controlar os dados em sua organização.
 
-![Seção de governança e proteção de informações do catálogo de soluções da Microsoft 365](media/m365-solution-catalog-information-protection-governance.png)
+![Seção de governança e proteção de informações do catálogo de soluções da Microsoft 365](../media/m365-solution-catalog-information-protection-governance.png)
 
 Aqui, você verá cartões para as seguintes soluções:
 
@@ -53,7 +53,7 @@ Aqui, você verá cartões para as seguintes soluções:
 
 A seção de **Gerenciamento de riscos do insider** na Home Page mostra rapidamente como sua organização pode identificar, analisar e tomar medidas sobre riscos internos antes que eles causem danos.
 
-![Seção Gerenciamento de riscos do catálogo de soluções do Microsoft 365](media/m365-solution-catalog-insider-risk-management.png)
+![Seção Gerenciamento de riscos do catálogo de soluções do Microsoft 365](../media/m365-solution-catalog-insider-risk-management.png)
 
 Aqui, você verá cartões para as seguintes soluções:
 
@@ -64,7 +64,7 @@ Aqui, você verá cartões para as seguintes soluções:
 
 A seção **descoberta & resposta** da página inicial mostra rapidamente como sua organização pode encontrar, investigar e responder rapidamente aos problemas de conformidade com os dados relevantes.
 
-![Seção descoberta e resposta do catálogo de soluções do Microsoft 365](media/m365-solution-catalog-discovery-response.png)
+![Seção descoberta e resposta do catálogo de soluções do Microsoft 365](../media/m365-solution-catalog-discovery-response.png)
 
 Aqui, você verá cartões para as seguintes soluções:
 

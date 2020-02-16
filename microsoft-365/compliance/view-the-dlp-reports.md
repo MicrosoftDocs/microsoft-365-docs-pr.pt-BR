@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os relatórios de DLP no Office 365, você pode exibir rapidamente o número de correspondências de política de DLP, substituições ou falsos positivos; Veja se eles estão em tendência de cima ou para baixo ao longo do tempo; filtrar o relatório de formas diferentes; e exiba detalhes adicionais selecionando um ponto em uma linha no gráfico.
-ms.openlocfilehash: 1605e2ebed9ada5903402ae5facdb40ce2f12c39
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c00047680f684e3845c4383face09c2cee579721
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068739"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Exibir os relatórios de prevenção contra perda de dados
 
@@ -59,19 +59,19 @@ Todos os relatórios DLP podem mostrar dados do período de tempo de quatro mese
   
 Você &amp; pode encontrar esses relatórios no **painel** **relatórios** \> do centro \> de conformidade de segurança.
   
-![Relatório de correspondências de política DLP](media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
+![Relatório de correspondências de política DLP](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
 ## <a name="view-the-justification-submitted-by-a-user-for-an-override"></a>Exibir a justificativa enviada por um usuário para uma substituição
 
 Se sua política de DLP permitir que os usuários o substituam, você poderá usar o falso positivo e substituir relatório para exibir o texto enviado por usuários na dica de política.
   
-![Campo de justificativa em detalhes do relatório falso positivo e substituição do DLP](media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
+![Campo de justificativa em detalhes do relatório falso positivo e substituição do DLP](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
   
 ## <a name="take-action-on-insights-and-recommendations"></a>Executar ações em ideias e recomendações
 
 Os relatórios podem mostrar ideias e recomendações onde você pode clicar no ícone de aviso vermelho para ver detalhes sobre possíveis problemas e realizar ações corretivas possíveis.
   
-![Clicando em um ícone do insights para ver detalhes e ações a serem tomadas](media/51782036-7299-4960-8175-75c2b1637159.png)
+![Clicando em um ícone do insights para ver detalhes e ações a serem tomadas](../media/51782036-7299-4960-8175-75c2b1637159.png)
   
 ## <a name="permissions-for-dlp-reports"></a>Permissões para relatórios de DLP
 
