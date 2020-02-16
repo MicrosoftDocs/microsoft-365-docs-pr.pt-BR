@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: ab574e4d33d84774ef63f73297447ea66a74430b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01676fab3ed69120a35687d1c6939cb466b8d672
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082910"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>Gerenciar permissões do grupo de funções de administrador no EOP
 
@@ -38,9 +38,9 @@ No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de 
 
 ## <a name="use-the-eac-to-assign-members-to-admin-role-groups"></a>Usar o EAC para atribuir membros a grupos de funções de administração
 
-1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções ao qual você deseja adicionar o usuário ou usuários e, em seguida, clique](../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
+1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções ao qual você deseja adicionar o usuário ou usuários e, em seguida, clique](../../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
 
-2. Em membros, clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição. A janela Selecionar Membros será exibida.
+2. Em membros, clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição. A janela Selecionar Membros será exibida.
 
 3. Procure o usuário ou usuários que você deseja adicionar ou selecione-os na lista.
 
@@ -53,9 +53,9 @@ No Microsoft Proteção do Exchange Online (EOP), é possível usar o Centro de 
 
 ## <a name="use-the-eac-to-remove-members-from-admin-role-groups"></a>Usar o EAC para remover membros de grupos de funções de administração
 
-1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções do qual você deseja remover um usuário ou usuários e, em seguida, clique](../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
+1. No Eat, vá para **funções de administrador**de **permissões** \> , clique no grupo de funções do qual você deseja remover um usuário ou usuários e, em seguida, clique](../../media/ITPro-EAC-EditIcon.gif)em **Editar** ![ícone de edição.
 
-2. Em membros, selecione o usuário ou usuários que você deseja remover e clique em **remover** ![Remover ícone](../media/ITPro-EAC-RemoveIcon.gif).
+2. Em membros, selecione o usuário ou usuários que você deseja remover e clique em **remover** ![Remover ícone](../../media/ITPro-EAC-RemoveIcon.gif).
 
 3. Clique em **Salvar** para salvar a alteração no grupo e retornar à página **Funções de Administração**. Para verificar se você removeu o usuário do grupo de funções de administrador, verifique se o membro não está mais sendo exibido em Membros no painel de detalhes do grupo de funções selecionado.
 

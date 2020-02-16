@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre a correção do domínio do remetente no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 1b154f4aecd5ada711b9177380d936cd888df425
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2db1b971ef39f8b207b349ca53237ff87cc9193e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082550"
 ---
 # <a name="fix-sender-domain-insight"></a>insight de correção de domínio do remetente
 
@@ -36,15 +36,15 @@ As mensagens que não atenderem aos critérios não serão atribuídas à organi
 
 A **solução corrigir domínio do remetente** mostra emails do seu ambiente local que não atendem aos critérios, ajuda você a identificar máquinas potencialmente comprometidas e contas de usuário em seu ambiente de email local e ajuda a realizar ações de correção.
 
-![A correção do domínio do remetente se aprofunda no painel de fluxo de emails no centro de conformidade de & de segurança](../media/sender-domain-insight-selected.png)
+![A correção do domínio do remetente se aprofunda no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/sender-domain-insight-selected.png)
 
 Ao clicar em **Exibir detalhes**, você será levado para outro widget com mais detalhes, conforme mostrado no diagrama a seguir:
 
-![O widget detalhes na visão corrigir domínio do remetente](../media/sender-domain-view-details.png)
+![O widget detalhes na visão corrigir domínio do remetente](../../media/sender-domain-view-details.png)
 
 Você verá o conector de entrada usado para entregar as mensagens ao Office 365. Você também pode clicar em **Exibir IDs de mensagem de amostra** para ver os detalhes das mensagens que foram enviadas de seu ambiente de email local. Como essas mensagens foram rejeitadas pelo Office 365, não é possível usar o rastreamento de mensagens, mas você pode usar as IDs de mensagem de exemplo para rastrear as mensagens no seu ambiente de email local.
 
-![Exibir IDs de mensagem de exemplo na solução corrigir domínio do remetente](../media/sender-domain-view-sample-message-ids.png)
+![Exibir IDs de mensagem de exemplo na solução corrigir domínio do remetente](../../media/sender-domain-view-sample-message-ids.png)
 
 ## <a name="see-also"></a>Confira também
 

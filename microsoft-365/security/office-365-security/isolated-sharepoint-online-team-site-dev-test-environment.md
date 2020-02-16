@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: 'Resumo: Configure um site de equipe do SharePoint Online isolado do restante da organização no seu ambiente de desenvolvimento/teste do Office 365.'
-ms.openlocfilehash: 49443a5dd6b2c93e6bd7817c09747d49b163cabd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fc56a151d00eba3a6c0131ae1692febe69e76122
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599118"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082990"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Site de equipe do SharePoint Online isolado no seu ambiente de desenvolvimento/teste
 
@@ -142,7 +142,7 @@ A Figura 1 mostra os grupos de acesso e sua associação.
 
 **Figura 1**
 
-![Os grupos do Office 365 e seus membros para um site de grupo do SharePoint Online isolado](../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
+![Os grupos do Office 365 e seus membros para um site de grupo do SharePoint Online isolado](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
 ## <a name="phase-3-create-a-new-projectx-sharepoint-online-team-site-and-isolate-it"></a>Fase 3: criar um novo site de equipe do projeto x SharePoint Online e isolá-lo
 
@@ -208,7 +208,7 @@ A Figura 2 mostra os grupos do SharePoint e suas associações.
 
 **Figura 2**
 
-![Os grupos do SharePoint Online e seus membros para um site de grupo do SharePoint Online isolado](../media/595abff4-64f9-49de-a37a-c70c6856936b.png)
+![Os grupos do SharePoint Online e seus membros para um site de grupo do SharePoint Online isolado](../../media/595abff4-64f9-49de-a37a-c70c6856936b.png)
 
 Agora, vamos demonstrar o acesso usando a conta de usuário do designer de cliente potencial:
 

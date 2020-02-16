@@ -15,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de email no Exchange Online Protection para filtragem de email em massa.
-ms.openlocfilehash: 5188ce077ce15ab7ad5d03e4aa2c172db6a80c37
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081810"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>Usar regras de fluxo de email para configurar a filtragem de email em massa no Exchange Online Protection
 
@@ -36,11 +36,11 @@ Se você quiser mais opções para filtrar mensagens em massa, você pode criar 
 
 1. No Centro de administração do Exchange (EAC), acesse **Fluxo de emails** \> **Regras**.
 
-2. Clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif) de adição e selecione **criar uma nova regra**.
+2. Clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione **criar uma nova regra**.
 
 3. Especifique um nome para a regra.
 
-4. Clique em **mais opções** ![ícone](../media/ITPro-EAC-MoreOptionsIcon.png)de mais opções. Em **aplicar esta regra se**, selecione **o assunto ou o** \> **assunto ou o corpo corresponde a esses padrões de texto**.
+4. Clique em **mais opções** ![ícone](../../media/ITPro-EAC-MoreOptionsIcon.png)de mais opções. Em **aplicar esta regra se**, selecione **o assunto ou o** \> **assunto ou o corpo corresponde a esses padrões de texto**.
 
 5. Na caixa de diálogo **especificar palavras ou frases** , adicione as seguintes expressões regulares comumente encontradas em emails em massa, uma de cada vez, e clique em **OK** quando tiver concluído:
 
@@ -88,7 +88,7 @@ Se você quiser mais opções para filtrar mensagens em massa, você pode criar 
 
 1. No EAC, vá para **Fluxo de emails** \> **Regras**.
 
-2. Clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif) de adição e selecione **criar uma nova regra**.
+2. Clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione **criar uma nova regra**.
 
 3. Especifique um nome para a regra.
 

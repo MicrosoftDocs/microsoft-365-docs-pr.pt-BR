@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Estenda a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams para permitir a colaboração mais segura para sua organização.
-ms.openlocfilehash: a21654ed8045b9adb6c09a730ada3ae458cf1609
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3105a9443ddab483bc5ac4037e5260b354d64de9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599838"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086613"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
 
@@ -35,15 +35,15 @@ As pessoas costumam compartilhar arquivos e colaborar usando o SharePoint, o One
 
 Quando um arquivo no SharePoint Online, OneDrive for Business e Microsoft Teams é identificado como mal-intencionado, a ATP se integra diretamente aos repositórios de arquivos para bloquear esse arquivo. A imagem a seguir mostra um exemplo de um arquivo mal-intencionado detectado em uma biblioteca.
 
-![Arquivos no OneDrive for Business com um detectado como mal-intencionado](../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
+![Arquivos no OneDrive for Business com um detectado como mal-intencionado](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
 Embora o arquivo bloqueado ainda esteja listado na biblioteca de documentos e aplicativos da Web, móveis ou da área de trabalho, o arquivo bloqueado não pode ser aberto, copiado, movido ou compartilhado. No entanto, as pessoas podem excluir um arquivo bloqueado. Veja um exemplo do que parece com o dispositivo móvel de um usuário:
 
-![Excluir um arquivo bloqueado do OneDrive for Business do aplicativo móvel do OneDrive](../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
+![Excluir um arquivo bloqueado do OneDrive for Business do aplicativo móvel do OneDrive](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
 Dependendo de como o Office 365 estiver configurado, as pessoas podem ou não ter a capacidade de baixar um arquivo bloqueado. Veja a seguir como baixar um arquivo bloqueado no dispositivo móvel de um usuário:
 
-![Baixar um arquivo bloqueado no OneDrive for Business](../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
+![Baixar um arquivo bloqueado no OneDrive for Business](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
 Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 

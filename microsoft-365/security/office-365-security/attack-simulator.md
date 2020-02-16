@@ -16,12 +16,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode usar o simulador de ataques para executar cenários de ataque realistas em sua organização. Isso pode ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real atinja sua empresa.
-ms.openlocfilehash: 6fb88e6b79c0949c7ddc26eabda2bb04ea1fa3bf
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 93a2601322fd33024c1310e1df69ad1dea2f07b7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957406"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083653"
 ---
 # <a name="attack-simulator-in-office-365"></a>Simulador de Ataque no Office 365
 
@@ -57,7 +57,7 @@ Verifique se você e sua organização atendem aos seguintes requisitos para o s
 
 - Sua organização tem o [plano de proteção avançada contra ameaças do Office 365](office-365-atp.md), com o simulador &amp; de ataques visível no centro de conformidade de segurança (vá para o \> **simulador de ataques**de **Gerenciamento de ameaças** )
 
-    ![Gerenciamento de ameaças-simulador de ataques](../media/ThreatMgmt-AttackSimulator.png)
+    ![Gerenciamento de ameaças-simulador de ataques](../../media/ThreatMgmt-AttackSimulator.png)
 
 ## <a name="credential-harvest-spear-phishing-attack"></a>Coleta de credenciais do spear-phishing Attack
 
@@ -67,7 +67,7 @@ Esse ataque se concentra em permitir que você manipule quem a mensagem parece t
 
 ### <a name="to-simulate-a-spear-phishing-attack"></a>Para simular um ataque de spear-phishing
 
-![Redigir corpo de email](../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
+![Redigir corpo de email](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
 Você pode criar o editor de HTML avançado diretamente no próprio campo de **corpo de email** ou trabalhar com o código-fonte HTML.
 
@@ -75,15 +75,15 @@ Você pode criar o editor de HTML avançado diretamente no próprio campo de **c
 
 2. Especifique um nome de campanha significativo para o ataque ou selecione um modelo.
 
-   ![Página de início de phishing](../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
+   ![Página de início de phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
 3. Especifique os destinatários de destino. Podem ser indivíduos ou grupos em sua organização. Cada destinatário de destino deve ter uma caixa de correio do Exchange Online para que o ataque seja bem-sucedido.
 
-   ![Seleção de destinatário](../media/faf8c2e0-6175-4cd7-8265-0c8e727f4d0f.jpg)
+   ![Seleção de destinatário](../../media/faf8c2e0-6175-4cd7-8265-0c8e727f4d0f.jpg)
 
 4. Configure os detalhes de email de phishing.
 
-   ![Configurar detalhes de email](../media/f043608f-f8ce-4aae-be28-86e8ecc524a9.jpg)
+   ![Configurar detalhes de email](../../media/f043608f-f8ce-4aae-be28-86e8ecc524a9.jpg)
 
    A formatação HTML pode ser complexa ou básica quanto às necessidades de sua campanha. Como o formato de email é HTML, você pode inserir imagens e texto para aprimorar o believability. Você tem controle sobre qual será a aparência da mensagem recebida no cliente de recebimento de email.
 

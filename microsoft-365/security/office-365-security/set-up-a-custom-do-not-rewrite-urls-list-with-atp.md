@@ -17,12 +17,12 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de links seguros de ATP, você pode incluir uma lista de URLs que não reconfigura para permitir que algumas pessoas em sua organização visitem sites que você inclui na sua lista.
-ms.openlocfilehash: 3a2fd98adc1eee36a984ac09b80546ae6b98e31d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1983e0ff2ea85092af483d4f7a563681a6441152
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598368"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082201"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando os links seguros de ATP do Office 365
 
@@ -54,7 +54,7 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 2. Na navegação à esquerda, em **links seguros**da **política** \> de **Gerenciamento** \> de ameaças.
 
-3. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal **+** de adição ()) para criar uma nova política. (Como alternativa, você pode editar uma política existente.)<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal **+** de adição ()) para criar uma nova política. (Como alternativa, você pode editar uma política existente.)<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
 4. Especifique um nome e uma descrição para a política.
 

@@ -17,12 +17,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Descubra como os recursos de inteligência de ameaças no Office 365 proteção avançada contra ameaças pode ajudá-lo a Pesquisar ameaças em sua organização, responder a malware, phishing e outros ataques que o Office 365 detectou em seu nome e Pesquisar ameaças indicadores.
-ms.openlocfilehash: 2f95054d35edee7db419bc665b520b2b48dda447
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4bd23dcafeed2faf04979b2c757d5517073a210d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082464"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Investigação e resposta a ameaças do Office 365
 
@@ -47,7 +47,7 @@ Recursos de investigação e resposta contra ameaças no centro &amp; de conform
 
 Use o painel de ameaças (isso também é conhecido como [painel de segurança](security-dashboard.md)) para ver rapidamente quais ameaças foram tratadas e como uma maneira visual de relatar os responsáveis pelas decisões de negócios como os serviços do Office 365 estão protegendo sua empresa.
   
-![Painel de ameaças](../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
+![Painel de ameaças](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
 Para exibir e usar esse painel, no centro de conformidade de &amp; segurança do Office 365, vá para o **painel** **Gerenciamento** \> de ameaças.
   
@@ -55,7 +55,7 @@ Para exibir e usar esse painel, no centro de conformidade de &amp; segurança do
 
 Use o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças, confira o volume de ataques ao longo do tempo e analise os dados por famílias de ameaças, infraestrutura de atacante e muito mais. O Gerenciador de ameaças (também mencionado como Explorer) é o local inicial para o fluxo de trabalho de investigação de qualquer analista de segurança.
   
-![Explorador de ameaças](../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
+![Explorador de ameaças](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
 Para exibir e usar esse relatório, no centro de conformidade de &amp; segurança do Office 365, vá para **Gerenciador**de **Gerenciamento** \> de ameaças.
   
@@ -63,11 +63,11 @@ Para exibir e usar esse relatório, no centro de conformidade de &amp; seguranç
 
 Use a lista incidentes (isso também é chamado de investigações) para ver uma lista de incidentes de segurança de vôo. Os incidentes são usados para rastrear ameaças como mensagens de email suspeitas e para realizar mais investigações e correções.
   
-![Lista de incidentes de ameaça atuais no Office 365](../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
+![Lista de incidentes de ameaça atuais no Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
   
 Para exibir a lista de incidentes atuais para sua organização, no centro de &amp; conformidade de segurança, vá para **incidentes**de **análise** \> de **Gerenciamento** \> de ameaças.
   
-![No centro de &amp; conformidade de segurança, escolha análise \> de gerenciamento de ameaças](../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![No centro de &amp; conformidade de segurança, escolha análise \> de gerenciamento de ameaças](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>Simulador de ataque
 
@@ -81,7 +81,7 @@ Use recursos automatizados de investigação e resposta (AIR) para economizar te
 
 Como parte da oferta do plano de proteção avançada contra ameaças do Office 365, os analistas de segurança podem examinar detalhes sobre uma ameaça conhecida. Isso é útil para determinar se há medidas/etapas preventivas adicionais que podem ser tomadas para manter os usuários seguros.
   
-![Tendências de segurança mostrando informações sobre ameaças recentes](../media/11e7d40d-139b-4c56-8d52-c091c8654151.png) 
+![Tendências de segurança mostrando informações sobre ameaças recentes](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png) 
   
 ## <a name="how-do-we-get-these-capabilities"></a>Como obtemos esses recursos?
 

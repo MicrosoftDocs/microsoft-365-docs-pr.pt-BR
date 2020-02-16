@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: faa0e904ef2a07ccd209ef91630ce6fc8205e347
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085701"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -57,7 +57,7 @@ Agradecemos seus comentários e o usamos para melhorar a experiência de suporte
 
 Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você poderá compartilhar seus comentários sobre sua experiência com esse problema específico. Para fazer isso, vá até a página **solicitações de suporte** no portal de administração. Selecione o tíquete específico. Na parte de baixo que aparece no lado direito, selecione a guia **comentários** e forneça as informações solicitadas. Tenha cuidado para não incluir informações pessoais no formulário de comentários. Para obter mais informações sobre privacidade, consulte a [política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
 
-![Formulário de comentários](images/feedback_form.png)
+![Formulário de comentários](../../media/feedback_form.png)
 
 ## <a name="provide-administrator-rights-to-specific-users"></a>Fornecer direitos de administrador a usuários específicos
 

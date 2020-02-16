@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: 07/01/2019
+ms.date: 02/14/2020
 audience: Admin
 ms.topic: conceptual
 f1_keywords:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem saber mais sobre as permissões disponíveis no centro de conformidade & segurança do Office 365.
-ms.openlocfilehash: 209e871ee9df4bd40568bc647b4bae838ddace73
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2676115e9675bbfe184b4e0fbe43bdc03689c4d9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088282"
 ---
 # <a name="permissions-in-the-office-365-security--compliance-center"></a>Permissões no Centro de Conformidade e Segurança do Office 365
 
@@ -30,7 +30,7 @@ O centro de conformidade & segurança do Office 365 permite que você conceda pe
 
 As permissões no centro de conformidade & segurança são baseadas no modelo de permissões RBAC (controle de acesso baseado em função). Este é o mesmo modelo de permissões que é usado pelo Exchange, portanto, se você estiver familiarizado com o Exchange, conceder permissões no centro de conformidade de & de segurança serão muito semelhantes. No entanto, é importante lembrar que os grupos de funções e os grupos de funções do centro de conformidade de & de segurança do Exchange não compartilham associações ou permissões. Eles não são os mesmos, visto que ambos possuem um grupo de funções de Gerenciamento de Organização. As permissões que concedem e os membros dos grupos de função são diferentes. Há uma lista de grupos de funções do centro de conformidade de & de segurança abaixo.
 
-![Página de permissões no Centro de Conformidade e Segurança do Office 365](../media/992c20ca-e82e-497c-9c8d-6fab212deb80.png)
+![Página de permissões no Centro de Conformidade e Segurança do Office 365](../../media/992c20ca-e82e-497c-9c8d-6fab212deb80.png)
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>Relação de membros, funções e grupos de função
 
@@ -40,7 +40,7 @@ Um **grupo de função** é um conjunto de funções que permite que as pessoas 
 
 O centro de conformidade do & de segurança inclui grupos de função padrão para as tarefas e funções mais comuns às quais você precisará atribuir pessoas. Recomendamos simplesmente adicionar usuários individuais como **Membros** aos grupos de função padrão.
 
-![Diagrama que mostra a relação de grupos de funções para membros e funções](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![Diagrama que mostra a relação de grupos de funções para membros e funções](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 Você pode editar ou excluir os grupos de função existentes, mas não recomendamos isso. Em vez de editar um grupo de função padrão, você pode copiá-lo, modificá-lo e salvá-lo com um nome diferente.
 
@@ -98,7 +98,6 @@ Observe que as funções a seguir não são atribuídas ao grupo de funções Ge
 |:-----|:-----|:-----|
 |**Logs de auditoria**|Ative e configure a auditoria para a organização do Office 365, exiba os relatórios de auditoria da organização e exporte esses relatórios para um arquivo.|Gerenciamento de Organização <br/><br/> Gerenciamento de Registros <br/><br/> Administrador de Segurança|
 |**Gerenciamento de casos**|Criar, editar, excluir e controlar o acesso a ocorrências de descoberta eletrônica.|Administrador de Conformidade <br/><br/> Gerente de Descoberta Eletrônica <br/><br/> Gerenciamento de Organização|
-|**Investigador de dados**|Realizar pesquisas em caixas de correio, sites do SharePoint Online e locais do OneDrive for Business.|Exportar <br/><br/> Descriptografia do RMS <br/><br/> Custodian <br/><br/> Comunicação <br/><br/> Revisão <br/><br/> Visualização <br/><br/> Pesquisa de Conformidade <br/><br/> Gerenciamento de investigação de dados|
 |**Comunicação**|Gerencie todas as comunicações com os responsáveis identificados em uma ocorrência de descoberta eletrônica avançada.  Criar notificações de bloqueio, reter lembretes e escalonamentos para gerenciamento. Rastreie a confirmação de bloqueio de responsáveis e gerencie o acesso ao portal do responsáveis que é usado por cada pessoa em um caso para rastrear as comunicações para os casos em que foram identificados como um responsáveis.|Gerente de Descoberta Eletrônica|
 |**Administrador de Conformidade**|Exibir e editar configurações e relatórios de recursos de conformidade.|Administrador de Conformidade <br/><br/> Administrador de dados de conformidade <br/><br/> Gerenciamento de Organização|
 |**Pesquisa de Conformidade**|Realizar pesquisas nas caixas de correio e obter uma estimativa dos resultados.|Administrador de Conformidade <br/><br/> Administrador de dados de conformidade <br/><br/> Gerente de Descoberta Eletrônica <br/><br/> Gerenciamento de Organização <br/><br/> Operador de segurança|

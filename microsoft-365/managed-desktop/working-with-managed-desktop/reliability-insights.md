@@ -6,19 +6,19 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1f642d2790af5f4ec83dd1bbe57a9be249d095d1
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: b7f56a64f1846676f458f7b3ddb210e84b9ca8f7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962328"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085661"
 ---
 # <a name="reliability-insights"></a>Insights de confiabilidade
 
 Este modo de exibição fornece um resumo de integridade dos dispositivos gerenciados. Para exibir os dados de confiabilidade, selecione a guia **confiabilidade** .
 
 
-![Painel de confiabilidade: confiabilidade entre dispositivos no canto superior esquerdo, confiabilidade através do gráfico de tempo no canto superior direito, principais problemas na parte inferior. Botões de ajuda e comentários no canto inferior direito.](images/insights_reliability.png)
+![Painel de confiabilidade: confiabilidade entre dispositivos no canto superior esquerdo, confiabilidade através do gráfico de tempo no canto superior direito, principais problemas na parte inferior. Botões de ajuda e comentários no canto inferior direito.](../../media/insights_reliability.png)
 
 A seção **confiabilidade entre dispositivos** oferece um resumo de integridade rápida de sua implantação nos últimos 14 dias, relatando a porcentagem de dispositivos considerados como "saudáveis" e o tempo médio observado desde a última falha relatada. 
 

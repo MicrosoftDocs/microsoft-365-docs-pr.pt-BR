@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 04c146a90cacccee831edd8a825bff0139963e16
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85c616c717a85f9a6a47e63a48621a8703b487aa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088157"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
@@ -44,7 +44,7 @@ Para exibir o painel de segurança, no [centro de conformidade &amp; de seguran�
 
 O widget Resumo de gerenciamento de ameaças informa rapidamente como sua organização foi protegida contra ameaças nos últimos sete (7) dias.
 
-![Painel de segurança-widget Resumo de gerenciamento de ameaças](../media/SecDash-ThreatMgmtSummary.png)
+![Painel de segurança-widget Resumo de gerenciamento de ameaças](../../media/SecDash-ThreatMgmtSummary.png)
 
 As informações que você verá no Resumo de gerenciamento de ameaças depende do que a assinatura inclui. A tabela a seguir descreve quais informações estão incluídas para o Office 365 E3 e o Office 365 e5.
 
@@ -59,7 +59,7 @@ Para exibir ou acessar o widget Resumo de gerenciamento de ameaças, você deve 
 
 O widget status de proteção contra ameaças mostra a eficácia da proteção contra ameaças com uma visão detalhada e de tendências de phishing e malware. 
 
-![Widget status de proteção contra ameaças](../media/tpswidget.png)
+![Widget status de proteção contra ameaças](../../media/tpswidget.png)
 
 Os detalhes dependem de sua assinatura do Office 365 incluir o [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
@@ -75,7 +75,7 @@ Para exibir ou acessar o widget status de proteção contra ameaças, você deve
  
 O widget global Weekly detecções de ameaças mostra quantas ameaças foram detectadas nas mensagens de email nos últimos sete (7) dias.
 
-![Widget global semanal de detecções de ameaças](../media/globalweeklythreatdetections.png)
+![Widget global semanal de detecções de ameaças](../../media/globalweeklythreatdetections.png)
 
 As métricas são calculadas conforme descrito na tabela a seguir:
 
@@ -90,13 +90,13 @@ As métricas são calculadas conforme descrito na tabela a seguir:
 
 Os widgets de malware mostram detalhes sobre tendências de malware e tipos de família de malware nos últimos sete (7) dias.
 
-![Tendências de malware e tipos de família](../media/malwarewidgetatpe5.png)
+![Tendências de malware e tipos de família](../../media/malwarewidgetatpe5.png)
  
 ## <a name="insights"></a>Informações
 
 Insights não apenas os principais problemas de superfície que você deve examinar, também incluem recomendações e ações a serem consideradas. 
 
-![Ideias inteligentes](../media/smartinsights.png)
+![Ideias inteligentes](../../media/smartinsights.png)
 
 Por exemplo, você pode ver que as mensagens de email de phishing estão sendo entregues, pois alguns usuários desabilitaram suas opções de lixo eletrônico. Para saber mais sobre como as ideias funcionam, confira [relatórios e insights no centro de conformidade de &amp; segurança do Office 365](reports-and-insights-in-security-and-compliance.md).
   
@@ -104,14 +104,14 @@ Por exemplo, você pode ver que as mensagens de email de phishing estão sendo e
 
 Se a assinatura de sua organização incluir o [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. A equipe de segurança da sua organização pode usar as informações desta seção para entender campanhas emergentes, investigar ameaças e gerenciar incidentes. 
   
-![A inteligência de ameaças ajuda você a entender ataques direcionados a sua organização](../media/threatintelwidget.png)
+![A inteligência de ameaças ajuda você a entender ataques direcionados a sua organização](../../media/threatintelwidget.png)
   
   
 ## <a name="trends"></a>Tendências
 
 Próximo à parte inferior do painel de segurança está uma seção de **tendências** , que resume as tendências de fluxo de emails da sua organização. Os relatórios fornecem informações sobre emails categorizados como spam, malware, tentativas de phishing e bons emails. Clique em um bloco para exibir informações mais detalhadas no relatório. 
   
-![A seção tendências resume as tendências de fluxo de emails da organização](../media/trends.png)
+![A seção tendências resume as tendências de fluxo de emails da organização](../../media/trends.png)
   
 E, se a assinatura do Office 365 da sua organização incluir o [office 365 Advanced Threat Protection Plan 2](office-365-ti.md), você também terá um relatório **recente de alertas de gerenciamento de ameaças** nesta seção que permite que sua equipe de segurança exiba e execute ações sobre alertas de segurança de alta prioridade. 
 

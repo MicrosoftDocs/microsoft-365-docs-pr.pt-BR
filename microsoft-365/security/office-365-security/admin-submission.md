@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como enviar emails suspeitos, emails de phishing suspeitos, spam e outras mensagens, URLs e arquivos potencialmente nocivos do seu locatário do Office 365 para a Microsoft para verificação.
-ms.openlocfilehash: a12981ee302ea72e112826104996fb775e4ac3fb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b123aef485628728df9db27875117b47295975ad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083613"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Como enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para a verificação do Office 365
 
@@ -35,7 +35,7 @@ Para enviar conteúdo à Microsoft, clique no botão **novo envio** no lado supe
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Enviar um email questionável à Microsoft
 
-![Exemplo de envio de email](../media/submission-flyout-email.PNG)
+![Exemplo de envio de email](../../media/submission-flyout-email.PNG)
 
 1. Para enviar um email, selecione **email** e ESPECIFIQUE a **ID da mensagem da rede** de email ou carregue o arquivo de email.
 
@@ -51,7 +51,7 @@ Para enviar conteúdo à Microsoft, clique no botão **novo envio** no lado supe
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
-![Exemplo de envio de email](../media/submission-url-flyout.png)
+![Exemplo de envio de email](../../media/submission-url-flyout.png)
 
 1. Para enviar **uma URL de seleção de** URL do submenu. Digite a URL completa incluindo o protocolo (**https://**).
 
@@ -61,7 +61,7 @@ Para enviar conteúdo à Microsoft, clique no botão **novo envio** no lado supe
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito para a Microsoft
 
-![Exemplo de envio de email](../media/submission-file-flyout.PNG)
+![Exemplo de envio de email](../../media/submission-file-flyout.PNG)
 
 1. Para enviar **um arquivo de seleção de** arquivo do submenu e carregar o arquivo que você deseja verificar.
 

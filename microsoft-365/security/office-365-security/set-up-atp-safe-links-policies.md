@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 4ae3b75ce13b783bc8a373202a0ae42bb14d7cfc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f06b2b895899973d071df384b53a090b766fd77f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598358"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082221"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -71,7 +71,7 @@ Quando você tiver a [proteção avançada contra ameaças do Office 365](office
     
 2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **links seguros**de ** \> política** .
     
-3. Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).<br/>![Clique em Editar para editar a política padrão para proteção de links seguros](../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
+3. Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).<br/>![Clique em Editar para editar a política padrão para proteção de links seguros](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
   
 4. Na seção **bloquear as seguintes URLs** , especifique uma ou mais URLs que você deseja impedir que as pessoas em sua organização visitem. (Consulte [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP](set-up-a-custom-blocked-urls-list-wtih-atp.md).)
     
@@ -89,7 +89,7 @@ Depois de revisar (ou editar) a política de links seguros padrão ATP que se ap
     
 3. Escolha **links seguros**.
     
-4. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal **+** de adição ()).<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+4. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal **+** de adição ()).<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
   
 5. Especifique o nome, a descrição e as configurações da política.<br/>**Exemplo:** Para configurar uma política chamada "sem cliques diretos" que não permite que as pessoas de um determinado grupo em sua organização cliquem em um site específico sem proteção de links de ATP seguro, você pode especificar as seguintes configurações recomendadas: 
     

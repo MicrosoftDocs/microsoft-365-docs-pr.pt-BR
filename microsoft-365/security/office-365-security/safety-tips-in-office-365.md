@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: Apresenta dicas de segurança para mensagens de email filtradas pelo EOP e pelo filtro de spam do Office 365.
-ms.openlocfilehash: 244b2ceb8ccf5e2e49b56fdebd370f75033f652b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1fddb38be711a9d43e85adea34fe14eb9e7a85ef
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082314"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Dicas de segurança em mensagens de email no Office 365
 
@@ -32,25 +32,25 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
 
 - Email suspeito (dica de segurança vermelha).
 
-    ![Captura de tela que mostra uma dica de segurança vermelha.](../media/5078a0be-e556-44a1-b169-09d780d26898.png)
+    ![Captura de tela que mostra uma dica de segurança vermelha.](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
 
     Uma dica de segurança vermelha em um email significa que a mensagem recebida contém algo suspeito, como um golpe de phishing. Recomendamos que você exclua esse tipo de mensagem de email da caixa de entrada sem abri-la.
 
 - Spam (dica de segurança amarela).
 
-    ![Captura de tela que mostra uma dica de segurança amarela.](../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
+    ![Captura de tela que mostra uma dica de segurança amarela.](../../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
 
     Uma dica de segurança amarela em um email significa que a mensagem foi marcada como spam. Se você não reconhece e confia no remetente da mensagem, não baixe nenhum anexo ou imagem e não clique em nenhum link da mensagem. No Outlook na Web, você pode clicar em **não é spam** na barra amarela de um item de lixo eletrônico para mover a mensagem para sua caixa de entrada. Se a dica de segurança amarela aparecer em uma mensagem que foi entregue na caixa de entrada, é provável que você tenha desabilitado a movimentação de spam para a pasta lixo eletrônico.
 
 - Email seguro (dica de segurança verde).
 
-    ![Captura de tela que mostra uma dica de segurança verde.](../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
+    ![Captura de tela que mostra uma dica de segurança verde.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
     Além de mensagens não seguras, também Informaremos sobre mensagens válidas de remetentes que confiamos com uma dica de segurança verde. Uma dica de segurança verde em um email significa que verificamos o remetente da mensagem e verificamos se ela é segura. A Microsoft mantém esta lista de remetentes confiáveis que inclui organizações financeiras e outras que são freqüentemente falsificadas ou representadas.
 
 - Emails não filtrados (dica de segurança cinza).
 
-    ![Captura de tela que mostra uma dica de segurança cinza.](../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
+    ![Captura de tela que mostra uma dica de segurança cinza.](../../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
 
     Também avisaremos quando ignoramos a verificação de um email porque ele é proveniente de um remetente em sua lista de remetentes confiáveis ou se existe uma regra de fluxo de emails para ignorar a filtragem.
 

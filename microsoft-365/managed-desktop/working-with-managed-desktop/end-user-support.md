@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c53813a96772389f8ae180663ca3131701e47365
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 687b587da033b3c6cc8e027221043dd6c52e15c3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084981"
 ---
 # <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
 
@@ -24,7 +24,7 @@ Há duas maneiras de que os usuários em sua organização possam obter ajuda co
 
 O método preferencial para fornecer suporte aos seus usuários é **obter ajuda**, uma interface fácil de usar incorporada ao dispositivo de usuário final.  
 
-![Ícone obter ajuda do aplicativo](images/get-help.png)
+![Ícone obter ajuda do aplicativo](../../media/get-help.png)
 
 Este é um aplicativo que é instalado em todos os dispositivos de área de trabalho gerenciada da Microsoft e está fixado na barra de tarefas. 
 

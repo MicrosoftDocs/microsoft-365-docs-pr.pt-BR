@@ -15,12 +15,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Você pode configurar as notificações de spam para o usuário final para a política de filtro de spam padrão para toda a empresa ou para políticas de filtro de spam personalizadas que são aplicadas a domínios.
-ms.openlocfilehash: f7ef916eea8d9c926f53ef073874dfb299cb92f8
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: cc3054715fdc5cbe72bc6655462b61eb8a9db5d3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957386"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086460"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Configurar notificações de spam para o usuário final no Exchange Online
 
@@ -70,7 +70,7 @@ Para obter informações sobre os atalhos de teclado que podem se aplicar aos pr
   
  **Dica:** Se você quiser testar as notificações de spam do usuário final enviando-as a um conjunto limitado de usuários antes de implementá-las totalmente, crie uma política de filtro de spam personalizada que permite as notificações de spam do usuário final para os domínios nos quais os usuários residem. Em seguida, no Eat, em **regras de \> fluxo de emails**, crie uma regra de fluxo de emails (também conhecida como regra de transporte) para bloquear mensagens de Quarantine@messaging.microsoft.com (o endereço de email que envia notificações) com exceções para os usuários que você deseja receber as notificações. A imagem a seguir é um exemplo de criação de uma exceção de dois usuários (SaraD e AlbertoD) do domínio Contoso.com: 
   
-![Regra de transporte para testar notificações de spam do usuário final](../media/EOP-ESN-testspecificusers.jpg)
+![Regra de transporte para testar notificações de spam do usuário final](../../media/EOP-ESN-testspecificusers.jpg)
   
 ## <a name="use-the-scc-to-configure-end-user-spam-notifications"></a>Usar o SCC para configurar notificações de spam para o usuário final
 
@@ -92,7 +92,7 @@ Você também pode usar o centro de conformidade e segurança (SCC) para configu
     
    - Clique em **Salvar**. Um resumo das configurações de política de filtro de spam, incluindo as configurações de notificação de spam do usuário final, aparece no painel.
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md)
   

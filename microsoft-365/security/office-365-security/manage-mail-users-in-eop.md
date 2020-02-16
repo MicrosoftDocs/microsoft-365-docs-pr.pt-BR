@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: A definição de usuários de email é uma parte importante do gerenciamento do serviço Exchange Online Protection (EOP).
-ms.openlocfilehash: 53d47452979c42273fd485fa89642eea881bb21a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088580"
 ---
 # <a name="manage-mail-users-in-eop"></a>Gerenciar usuários de email no EOP
 
@@ -108,7 +108,7 @@ Esta seção oferece informações sobre a adição e o gerenciamento de usuári
 
 ### <a name="use-the-eac-to-edit-or-remove-a-mail-user"></a>Usar o Eat para editar ou remover um usuário de email
 
-- No EAC, acesse **Destinatários** \> **Contatos**. Na lista de usuários, clique no usuário que você deseja exibir ou alterar e selecione **Editar** ![ícone](../media/ITPro-EAC-EditIcon.gif) de edição para atualizar as configurações do usuário, conforme necessário. Você pode alterar o nome, o alias ou as informações de contato do usuário, e pode registrar informações detalhadas sobre a função do usuário na organização. Você também pode selecionar um usuário e, em **** ![seguida, escolher](../media/ITPro-EAC-RemoveIcon.gif) Remover ícone para excluí-lo.
+- No EAC, acesse **Destinatários** \> **Contatos**. Na lista de usuários, clique no usuário que você deseja exibir ou alterar e selecione **Editar** ![ícone](../../media/ITPro-EAC-EditIcon.gif) de edição para atualizar as configurações do usuário, conforme necessário. Você pode alterar o nome, o alias ou as informações de contato do usuário, e pode registrar informações detalhadas sobre a função do usuário na organização. Você também pode selecionar um usuário e, em **** ![seguida, escolher](../../media/ITPro-EAC-RemoveIcon.gif) Remover ícone para excluí-lo.
 
 ## <a name="use-exchange-online-protection-powershell-to-manage-mail-users"></a>Usar o Exchange Online Protection PowerShell para gerenciar usuários de email
 

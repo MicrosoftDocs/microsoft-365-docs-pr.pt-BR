@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os princípios de segurança e as recomendações para modernização de segurança em sua organização.
-ms.openlocfilehash: 38f7a1af7592801a97fd8b5156dcbfaa1c5ebfdf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f187c00a7ce55bbcfe66171bbcc1668f431e3b25
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083510"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>Módulo do CISO Workshop 4B: estratégia de proteção contra ameaças 
 
 Este módulo revisa a evolução e a trajetória dos centros de operações de segurança da Microsoft (SOC), alimentados por trilhões de sinais no gráfico de segurança inteligente da Microsoft.
 
-- Baixar PDF Resumo: [módulo 4B: estratégia de proteção contra ameaças](../media/ciso-workshop-4b-threat-protection-strategy.pdf)
+- Baixar PDF Resumo: [módulo 4B: estratégia de proteção contra ameaças](../../media/ciso-workshop-4b-threat-protection-strategy.pdf)
 - Baixe o resumo do PowerPoint: [módulo 4B: estratégia de proteção contra ameaças](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4b-threat-protection-strategy.pptx)
 
 ## <a name="introduction-threat-protection-strategy-detect-respond-recover-338"></a>Introdução: estratégia de proteção contra ameaças (Detect-responder-recuperação) (3:38)

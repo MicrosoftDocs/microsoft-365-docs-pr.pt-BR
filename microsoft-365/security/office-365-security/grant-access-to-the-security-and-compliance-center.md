@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Os usuários precisam receber permissões no centro de conformidade & segurança do Office 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
-ms.openlocfilehash: 625fe036e8f8b00201abd0f5cb6a8f0003c597f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cccf44a64d20dc1304dbc5145d6ae50441cfacef
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085960"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365
 
@@ -49,9 +49,9 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 3. No centro de conformidade & segurança, acesse **permissões**.
 
-4. Na lista, escolha o grupo de funções ao qual você deseja adicionar o usuário e clique em **Editar** ![ícone](../media/O365-MDM-CreatePolicy-EditIcon.gif)de edição.
+4. Na lista, escolha o grupo de funções ao qual você deseja adicionar o usuário e clique em **Editar** ![ícone](../../media/O365-MDM-CreatePolicy-EditIcon.gif)de edição.
 
-5. Na página de propriedades do grupo de funções, em **Membros**, clique em](../media/ITPro-EAC-AddIcon.gif) **Adicionar**![ícone de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
+5. Na página de propriedades do grupo de funções, em **Membros**, clique em](../../media/ITPro-EAC-AddIcon.gif) **Adicionar**![ícone de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
 
 6. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar\> ** e em **OK**.
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Para impedir que mensagens de phishing acessem sua caixa de correio, o Outlook.com e o Outlook na Web verificam se o remetente é quem dizem eles e marcam mensagens suspeitas como lixo eletrônico.
-ms.openlocfilehash: a6ae80adb9ddae2c675e75d747dda27f09a404fb
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 513a45594dd41db56abe143ea6edca7074539d2f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957246"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081991"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -40,7 +40,7 @@ O Outlook mostra indicadores quando o remetente de uma mensagem não pode ser id
 
 Quando o Office 365 não pode verificar a identidade do remetente usando técnicas de autenticação de email, um '? ' é exibido na imagem do remetente.
 
-![A mensagem não passou na verificação](../media/message-did-not-pass-verification.jpg)
+![A mensagem não passou na verificação](../../media/message-did-not-pass-verification.jpg)
 
 Nem todas as mensagens que não são autenticadas são mal-intencionadas. No entanto, você deve ter cuidado para interagir com mensagens que não são autenticadas se você não reconhece o remetente. Ou, se você reconhece um remetente que normalmente não tem um '? ' na imagem do remetente, mas, repentinamente, você começa a vê-lo, que pode ser um sinal de que o remetente está sendo falsificado.
 
@@ -50,7 +50,7 @@ Se você for um cliente do Office 365, poderá gerenciar esse recurso através d
 
 - No centro de conformidade & segurança, os administradores globais ou de segurança podem ativar ou desativar o recurso, através da proteção contra falsificação na política de anti-golpes. Além disso, você pode usar o cmdlet **set-AntiPhishPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
-    ![Edição de remetentes não autenticados na interface gráfica.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
+    ![Edição de remetentes não autenticados na interface gráfica.](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - Se um administrador identificou um falso positivo e um remetente não deve receber o tratamento de remetentes não verificados, uma das ações a seguir pode ser executada para adicionar o remetente à lista de permissões de falsificação de inteligência de falsificação:
 

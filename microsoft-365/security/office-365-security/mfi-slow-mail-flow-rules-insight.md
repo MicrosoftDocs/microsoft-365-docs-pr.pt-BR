@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 description: Os administradores podem saber mais sobre as regras de fluxo de email lentos no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 706b9b53e710252308817913718edd92e416e96c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d5317f2d45aacb91e51131bc5b8aa6e67d3ae4c7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088342"
 ---
 # <a name="slow-mail-flow-rules-insight"></a>Insights de regras de fluxo de email – modo lento
 
@@ -31,11 +31,11 @@ Regras de fluxo de emails ineficientes (também conhecidas como regras de transp
 
 As informações ajudarão você a identificar e ajustar as regras de fluxo de emails para ajudar a reduzir os atrasos de fluxo de emails.
 
-![Uma visão mais lenta das regras de fluxo de emails no painel de fluxo de emails no centro de conformidade do & de segurança](../media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
+![Uma visão mais lenta das regras de fluxo de emails no painel de fluxo de emails no centro de conformidade do & de segurança](../../media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
 
 Quando você clica em **Exibir detalhes**, um painel flutuante aparece onde você pode revisar a regra. No painel de submenu, também é possível clicar em **Exibir mensagens de amostra** para ver quais tipos de mensagens são impactados pela regra.
 
-![Painel de submenu depois de clicar em Exibir detalhes em uma visão geral de regras de fluxo de emails no painel de fluxo de emails](../media/2cbd43b7-1f21-4338-a70c-7b50de5c69cd.png)
+![Painel de submenu depois de clicar em Exibir detalhes em uma visão geral de regras de fluxo de emails no painel de fluxo de emails](../../media/2cbd43b7-1f21-4338-a70c-7b50de5c69cd.png)
 
 ## <a name="see-also"></a>Confira também
 

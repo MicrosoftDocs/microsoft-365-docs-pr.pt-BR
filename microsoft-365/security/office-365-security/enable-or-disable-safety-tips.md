@@ -16,12 +16,12 @@ ms.assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7
 ms.collection:
 - M365-security-compliance
 description: Informa aos administradores do Office 365 e do EOP como habilitar e desabilitar dicas de segurança em mensagens de email.
-ms.openlocfilehash: 6b94d34b6cf8bebc0aa4032f255b874fb7d4affb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae8a3bc9811aa54b0c5ae4cc8a0e2eb9aa80aef0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086233"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Ativar ou desativar as dicas de segurança no Office 365
 
@@ -48,15 +48,15 @@ Neste tópico:
 
 4. Na página **política** , escolha **anti-spam**.
 
-    ![Esta captura de tela mostra como acessar a página configurações antispam no centro de conformidade de &amp; segurança.](../media/b8eb2ee3-2eb1-4ea2-b138-f6d7fb2e23de.png)
+    ![Esta captura de tela mostra como acessar a página configurações antispam no centro de conformidade de &amp; segurança.](../../media/b8eb2ee3-2eb1-4ea2-b138-f6d7fb2e23de.png)
 
 5. Na página **configurações antispam,** escolha a guia **personalizado** .
 
-    ![Esta captura de tela mostra a localização da guia personalizada na página configurações antispam no centro de conformidade de &amp; segurança.](../media/1d688d23-e6f3-4de5-84a7-e8ce31786193.png)
+    ![Esta captura de tela mostra a localização da guia personalizada na página configurações antispam no centro de conformidade de &amp; segurança.](../../media/1d688d23-e6f3-4de5-84a7-e8ce31786193.png)
 
 6. Se necessário, escolha a opção **configurações personalizadas** para ativar as configurações personalizadas. Se a opção configurações personalizadas estiver definida como **desativada**, você não poderá modificar as políticas de filtro de spam.
 
-    ![Esta captura de tela mostra as configurações de política de filtro antispam personalizadas desativadas.](../media/94f900ad-b556-4a31-a3ac-acfcd72e71b8.png)
+    ![Esta captura de tela mostra as configurações de política de filtro antispam personalizadas desativadas.](../../media/94f900ad-b556-4a31-a3ac-acfcd72e71b8.png)
 
 7. Expanda a política de spam que você deseja modificar e, em seguida, escolha **Editar política**. Por exemplo, escolha a seta para baixo ao lado de **política padrão de filtro de spam**. Ou, se quiser, você pode criar uma nova política escolhendo **Adicionar uma política**.
 

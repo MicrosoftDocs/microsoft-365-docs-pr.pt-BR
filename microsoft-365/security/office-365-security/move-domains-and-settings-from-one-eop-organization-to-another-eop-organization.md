@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: A alteração de requisitos comerciais, às vezes, pode exigir a divisão de uma organização (locatário) Microsoft Proteção do Exchange Online (EOP) em duas organizações separadas, mesclando duas organizações em uma ou movendo os domínios e as configurações de EOP de uma organização para outra.
-ms.openlocfilehash: cfd83b8558ed4cec3a48b536437e0a0dbe75aeaa
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c7d5c7ddc8391c70a555279c530cc2bf19e66ca2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088320"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Mover domínios e configurações de uma organização do EOP para outra organização do EOP
 
@@ -28,7 +28,7 @@ A alteração de requisitos comerciais, às vezes, pode exigir a divisão de uma
 
 No exemplo a seguir, a Contoso, Ltd. foi mesclada com a Contoso Suites. A imagem a seguir mostra o processo de mover domínios, usuários de email e grupos e configurações da organização de origem EOP (contoso.onmicrosoft.com) para organização de destino EOP (contososuites.onmicrosoft.com):
 
-![Mova configurações e domínios EOP](../media/EOP-Move-domains-and-settings.jpg)
+![Mova configurações e domínios EOP](../../media/EOP-Move-domains-and-settings.jpg)
 
 O desafio de mover domínios de uma organização para outra é que um domínio verificado não pode existir em duas organizações ao mesmo tempo. As etapas a seguir ajudam você a contornar isso.
 

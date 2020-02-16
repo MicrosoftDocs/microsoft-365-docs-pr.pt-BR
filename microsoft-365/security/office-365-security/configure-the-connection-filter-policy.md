@@ -16,12 +16,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para garantir que os emails enviados de pessoas confiáveis não sejam bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões, também conhecida como lista de remetentes confiáveis, dos endereços IP nos quais você confia. Você também pode criar uma lista de remetentes bloqueados.
-ms.openlocfilehash: 06915527af68df6a858ca8ed97612ab40178be84
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: db0d7acc6189f29b247c1dc4004311d2843d139b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086280"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Configurar a política do filtro de conexão
 
@@ -60,7 +60,7 @@ Crie uma Lista de IP Permitidos ou uma Lista de IP Bloqueados editando a políti
 
 2. Clique no item de menu **Filtragem de conexão** e crie as listas que quiser: uma Lista de IP Permitidos, uma Lista de IP Bloqueados ou ambas.
 
-   Para criar estas listas, clique em ![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif). Na caixa de diálogo posterior, especifique a faixa de endereço ou endereço IP, e então clique em **ok**. Repita este processo para adicionar mais endereços. (Você também pode editar ou remover endereços IP após eles terem sido adicionados.)
+   Para criar estas listas, clique em ![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif). Na caixa de diálogo posterior, especifique a faixa de endereço ou endereço IP, e então clique em **ok**. Repita este processo para adicionar mais endereços. (Você também pode editar ou remover endereços IP após eles terem sido adicionados.)
 
    Especifique endereços IP IPV4 no formato nnn. nnn. nnn. nnn em que NNN é um número de 0 a 255. Também é possível especificar intervalos CIDR (Roteamento entre Domínios sem Classificação) no formato nnn.nnn.nnn.nnn/rr em que rr é um número de 24 a 32. Para especificar intervalos fora do intervalo de 24 a 32, consulte a próxima seção, [considerações adicionais ao configurar listas de IP permitidos](#additional-considerations-when-configuring-ip-allow-lists).
 
@@ -83,13 +83,13 @@ Para criar essa regra de fluxo de emails, execute as etapas a seguir.
 
 1. No EAC, navegue até **Fluxo de email** \> **Regras**.
 
-2. Clique em ![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
+2. Clique em ![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
 
 3. Dê um nome à regra e então clique em **Mais opções**.
 
 4. Em **Aplicar esta regra se**, selecione **O remetente** e então selecione **endereço IP em qualquer uma destas faixas ou correspondências exatas**.
 
-5. Em **especificar endereços IP**, especifique o intervalo de endereços IP, clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, clique em **OK**.
+5. Em **especificar endereços IP**, especifique o intervalo de endereços IP, clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif)de adição e, em seguida, clique em **OK**.
 
 6. Na caixa **Faça o seguinte**, defina a ação, escolhendo **Modificar as propriedades da mensagem** e depois **definir o nível de confiança de spam (SCL)**. Na caixa **especificar SCL** , selecione **Ignorar filtragem de spam**, e clique em **ok**.
 
@@ -109,19 +109,19 @@ Para fazer isso, execute as seguintes etapas:
 
 1. No EAC, navegue até **Fluxo de email** \> **Regras**.
 
-2. Clique em ![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
+2. Clique em ![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e em seguida, selecione **Criar uma nova regra**.
 
 3. Dê um nome à regra e então clique em **Mais opções**.
 
 4. Em **Aplicar esta regra se**, selecione **O remetente** e então selecione **endereço IP em qualquer uma destas faixas ou correspondências exatas**.
 
-5. Na caixa **especificar endereços IP** , especifique o endereço IP ou o intervalo de endereços IP que você digitou na lista de permissões **** ![de IP,](../media/ITPro-EAC-AddIcon.gif)clique em Adicionar ícone de adição e, em seguida, clique em **OK**.
+5. Na caixa **especificar endereços IP** , especifique o endereço IP ou o intervalo de endereços IP que você digitou na lista de permissões **** ![de IP,](../../media/ITPro-EAC-AddIcon.gif)clique em Adicionar ícone de adição e, em seguida, clique em **OK**.
 
 6. Em **faça o seguinte**, defina a ação escolhendo **modificar as propriedades da mensagem** e, em seguida, **defina o nível de confiança de spam (SCL)**. Na caixa **especificar SCL** , selecione **0**e clique em **OK**.
 
 7. Clique em **Adicionar exceção**e em **exceto se**, selecione **o remetente** e escolha **domínio é**.
 
-8. Na caixa **especificar domínio** , digite o domínio para o qual você deseja ignorar a filtragem de spam, como **contosob.com**. Clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif) de adição para movê-lo para a lista de frases. Repita esta etapa se você deseja adicionar mais domínios como exceções e clique em **ok** após ter finalizado.
+8. Na caixa **especificar domínio** , digite o domínio para o qual você deseja ignorar a filtragem de spam, como **contosob.com**. Clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.gif) de adição para movê-lo para a lista de frases. Repita esta etapa se você deseja adicionar mais domínios como exceções e clique em **ok** após ter finalizado.
 
 9. Se desejar, você pode optar por auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras opções. Recomendamos testar a regra por um período antes de aplicá-la. [Procedimentos para regras de fluxo de emails no Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) contém mais informações sobre essas seleções.
 
@@ -149,7 +149,7 @@ Se você encontrar qualquer um desses cenários, poderá criar uma regra de flux
 
 ||
 |:-----|
-|![O ícone pequeno do LinkedIn Learning](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
+|![O ícone pequeno do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
 
 ## <a name="for-more-information"></a>Para obter mais informações
 

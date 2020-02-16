@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Se você quiser ter certeza de que recebeu emails de um remetente específico, porque confia neles e suas mensagens, é possível ajustar a lista de permissões em uma política de filtro de spam.
-ms.openlocfilehash: 80bffdb1e673f4d22dc5d3ebc01732fcb587600f
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 727c0eec837627bdf7da05411f619f7705425fe7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957256"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083421"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -63,12 +63,12 @@ A ação na regra deve seguir este padrão:
 
 2. Adicione um cabeçalho X para dizer o que a regra faz. No exemplo abaixo, você pode adicionar um cabeçalho `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`simples. Se você tiver mais de um domínio nesta regra, você pode alterar o texto do cabeçalho conforme apropriado. **Quando uma mensagem ignora a filtragem devido a uma regra de fluxo de emails, ela carimba SFV: skn no cabeçalho X-Forefront-antispam-Report** (**se ele estiver em uma lista de permissões de IP, ele também carimba IPV: Cal**). Isso ajudará na solução de problemas.
 
-![GUI para ignorar a filtragem de spam.](../media/1-AllowList-SkipFilteringFromContoso.png)
+![GUI para ignorar a filtragem de spam.](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
 > [!CAUTION]
 > Não configure regras de fluxo de email somente com *o domínio do remetente* como uma condição para ignorar a filtragem de spam. Esse método aumenta significativamente os spammers de risco podem falsificar o domínio de envio (ou representar o endereço de email completo) ignorar todos os filtros de spam, verificações de autenticação de remetentes e a mensagem chegará à caixa de entrada de uma pessoa.
 
-![Como definir o SCL como menos um.](../media/2-AllowList-SetsSCLMinus1.png)
+![Como definir o SCL como menos um.](../../media/2-AllowList-SetsSCLMinus1.png)
 
 Não adicione domínios que você possui ou domínios populares (por exemplo, `microsoft.com`) à regra de fluxo de emails como uma condição. Isso é considerado de alto risco, pois cria oportunidades de atores incorretos para enviar emails que seriam filtrados de outra forma.
 

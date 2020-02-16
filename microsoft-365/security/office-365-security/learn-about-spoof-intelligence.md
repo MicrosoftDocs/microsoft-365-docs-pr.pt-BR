@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Use a inteligência de spoof no &amp; centro de conformidade de segurança na página configurações antispam para examinar todos os remetentes que estão falsificando os domínios que fazem parte da sua organização ou falsificando domínios externos. A inteligência de falsificação está disponível como parte do Office 365 Enterprise E5 ou separadamente como parte da proteção avançada contra ameaças e proteção do Exchange Online.
-ms.openlocfilehash: 82b3759290e4cf0024aaf74a066354f46ea3a303
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e3ef4399ab79e894e8013169eee6d1949c2489c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082941"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>Saiba mais sobre a inteligência de falsificação
 
@@ -79,7 +79,7 @@ Você pode revisar os remetentes que estão falsificando seu domínio ou domíni
 
 3. No centro de &amp; conformidade de segurança, expanda **anti-spam**de **política** \> de **Gerenciamento** \> de ameaças.
 
-    ![Captura de tela mostrando o acesso à página antispam](../media/0a098e68-5ecf-40d7-984f-d15fcc1f958d.jpg)
+    ![Captura de tela mostrando o acesso à página antispam](../../media/0a098e68-5ecf-40d7-984f-d15fcc1f958d.jpg)
 
 4. Na página **configurações antispam** no painel direito, role para baixo e expanda política de **inteligência de fraude**.
 
@@ -89,7 +89,7 @@ Você pode revisar os remetentes que estão falsificando seu domínio ou domíni
 
     Se você já examinou os remetentes e deseja alterar algumas de suas escolhas anteriores, você pode escolher **mostrar a mim que eu já analisei** em vez disso. Em ambos os casos, o painel a seguir é exibido.
 
-    ![Captura de tela mostrando o acesso à guia remetentes falsificados](../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+    ![Captura de tela mostrando o acesso à guia remetentes falsificados](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
     Cada usuário falsificado é exibido em uma linha separada para que você possa optar por permitir ou impedir que o remetente falsifique individualmente cada usuário.
 
@@ -97,7 +97,7 @@ Você pode revisar os remetentes que estão falsificando seu domínio ou domíni
 
     Para definir a política para domínios que você não possui, selecione a guia **domínios externos** . Altere qualquer remetente para **Sim** na coluna **permitido para falsificar** para permitir que o remetente envie emails não autenticados para sua organização. Como alternativa, se você acha que o Office 365 cometeu um erro ao permitir que o remetente envie emails falsificados, altere a coluna **permitido para falsificar** para **não**.
 
-    ![Captura de tela mostrando se um remetente tem permissão para falsificar](../media/5dbef9cf-103f-49cd-9638-4b0083d6baa7.jpg)
+    ![Captura de tela mostrando se um remetente tem permissão para falsificar](../../media/5dbef9cf-103f-49cd-9638-4b0083d6baa7.jpg)
 
 6. Escolha **salvar** para salvar as alterações.
 
@@ -128,7 +128,7 @@ Embora a política antifalsificação apareça na política anti-phishing no cen
 
 6. Em seguida, configure as ações a serem executadas quando uma mensagem for detectada como uma falsificação entre domínios. O comportamento padrão é mover a mensagem para a pasta lixo eletrônico do destinatário. A outra opção é enviar a mensagem para a quarentena. Para obter mais informações sobre o gerenciamento de mensagens enviadas para quarentena, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
 
-    ![Captura de tela mostrando opções de edição de política contra falsificação](../media/7a868dff-2c4b-46b9-88ca-f2d523ca2307.jpg)
+    ![Captura de tela mostrando opções de edição de política contra falsificação](../../media/7a868dff-2c4b-46b9-88ca-f2d523ca2307.jpg)
 
 7. Faça sua escolha e, em seguida, escolha **salvar**.
 
