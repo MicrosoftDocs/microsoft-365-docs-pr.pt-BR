@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados usando a descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 7a6d175016053cd963b03cae91ff43f9c4b3336c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c704b338600c715193829e442e1bd6ba7c780455
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596288"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079038"
 ---
 # <a name="build-search-queries"></a>Criar consultas de pesquisa
 
 Ao criar consultas de pesquisa, você pode usar palavras-chave para localizar conteúdo e condições específicas para restringir o escopo da pesquisa para retornar itens que sejam mais relevantes para sua investigação legal.
 
-![Usar palavras-chave e condições para restringir os resultados de uma pesquisa](media/SearchQueryBox.png)
+![Usar palavras-chave e condições para restringir os resultados de uma pesquisa](../media/SearchQueryBox.png)
 
 ## <a name="keyword-searches"></a>Pesquisas de palavra-chave
 
@@ -35,7 +35,7 @@ Digite uma consulta de palavra-chave na caixa **palavras-** chave na consulta de
     
 Como alternativa, você pode marcar a caixa de seleção **Mostrar lista de palavras-chave** e a frase de palavra-chave ou palavra-chave digite em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (que é representado como *c:s* na sintaxe da consulta de pesquisa) que é semelhante em funcionalidade ao operador **or** na consulta de pesquisa criada. Isso significa que os itens que contêm qualquer palavra-chave em qualquer linha estão nos resultados da pesquisa.
 
-![Use a lista de palavras-chave para obter estatísticas sobre cada palavra-chave na consulta](media/KeywordListSearch.png)
+![Use a lista de palavras-chave para obter estatísticas sobre cada palavra-chave na consulta](../media/KeywordListSearch.png)
 
 Por que usar a lista de palavras-chave? Você pode obter estatísticas que mostram quantos itens correspondem a cada palavra-chave na lista de palavras-chave. Isso pode ajudá-lo a identificar rapidamente as palavras-chave mais (e menos) em vigor. Você também pode usar uma frase de palavra-chave (entre parênteses) em uma linha na lista de palavras-chave. Para obter mais informações sobre estatísticas de pesquisa, confira [Estatísticas de pesquisa](search-statistics.md).
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Saiba como usar a guia teste após o cálculo em lote na descoberta eletrônica avançada do Office 365 para testar, comparar e validar a qualidade geral do processamento.  '
-ms.openlocfilehash: 0931e0ea6aabfb9fbeca04973f17395d4f245f41
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e07d02a0eff1e07cacbce5debd27d4057fe40db2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597368"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080920"
 ---
 # <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Testar a análise de relevância na descoberta eletrônica avançada do Office 365
 
@@ -46,7 +46,7 @@ Esse teste fornece estatísticas e uma comparação entre o conjunto de revisão
     
 2. Na guia **teste** , clique em **novo teste**. A caixa de diálogo **criar teste** é exibida, conforme mostrado no exemplo a seguir. 
     
-    ![Resultados de “Test the Rest” de relevância](media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
+    ![Resultados de “Test the Rest” de relevância](../media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
   
 3. Em **nome do teste**e **Descrição**, digite o nome e a descrição.
     
@@ -66,7 +66,7 @@ Esse teste fornece estatísticas e uma comparação entre o conjunto de revisão
     
 11. Na guia teste, você pode clicar em **exibir resultados** para ver os resultados do teste. Um exemplo é mostrado na figura a seguir. 
     
-    ![Resultados do “Test the rest”](media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
+    ![Resultados do “Test the rest”](../media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
   
 Na figura acima, a seção **parâmetros de exemplo** da tabela contém detalhes sobre o número de arquivos no exemplo marcado pelo especialista e o número de arquivos relevantes encontrados nesse exemplo. 
   

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: Na descoberta eletrônica avançada, o módulo de pesquisa e marcação permite pesquisar, Visualizar e organizar os documentos em seu caso. Atualmente, este módulo está no beta.
-ms.openlocfilehash: d79b702471b7a7234a7f0d147eb4f50bfc56a4c7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a3597cf0abad7095de7a7c6857052f269d202598
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081389"
 ---
 # <a name="search-and-tagging"></a>Pesquisa e marcação
 
@@ -69,7 +69,7 @@ A tabela a seguir lista as propriedades que você pode pesquisar usando uma cons
 
 Como alternativa, você pode usar um cartão de condição na ferramenta de pesquisa de descoberta eletrônica avançada para adicionar uma condição (para propriedades selecionadas) a uma consulta de pesquisa. A captura de tela a seguir mostra as condições que podem ser adicionadas a uma consulta. A coluna **grupo** indica se a propriedade se aplica a emails, documentos de site ou ambos (indicados pelo valor *comum*). Essa coluna também identifica as propriedades pesquisáveis que estão disponíveis após a execução do módulo de relevância.
 
-![Condições de pesquisa na ferramenta de pesquisa de descoberta eletrônica avançada](media/AeDSearchConditions.png)
+![Condições de pesquisa na ferramenta de pesquisa de descoberta eletrônica avançada](../media/AeDSearchConditions.png)
 
 Para obter mais informações sobre propriedades pesquisáveis, consulte [keyword queries and Search Conditions](keyword-queries-and-search-conditions.md).
   

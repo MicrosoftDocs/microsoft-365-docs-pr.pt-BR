@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Adicione os resultados de uma pesquisa associada a uma ocorrência de descoberta eletrônica avançada. Os itens são copiados do local original e copiados para um local de armazenamento do Azure fornecido pela Microsoft. Os itens também são reindexados e a descoberta eletrônica avançada executará o OCR (reconhecimento óptico de caracteres) em arquivos de imagem e carregará o texto da imagem para revisão e análise.
-ms.openlocfilehash: 748de7f3cb3fec5a37cb205e0d480701b4cded2e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5e4eaa5e83bbca3a80abe0026f3880ce8d3c85c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080139"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 
@@ -37,11 +37,11 @@ Quando você adiciona os resultados de uma pesquisa a um conjunto de revisão (o
 
 Para adicionar dados a um conjunto de revisão, clique em uma pesquisa na guia **pesquisas** e, em seguida, clique em **Adicionar resultados para revisão definida** na página do menu suspenso.
 
-![Adicionando dados a um conjunto de revisão](media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
+![Adicionando dados a um conjunto de revisão](../media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
 
 Você pode adicionar a um conjunto de revisão existente ou criar um novo conjunto de revisão.  Se estiver adicionando a um novo conjunto de revisão, especifique o nome e clique em **Adicionar**.
 
-![Selecione um conjunto de revisão](media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
+![Selecione um conjunto de revisão](../media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
 
 A adição de dados a um conjunto de revisão é um processo de execução demorada. Esse processo inclui a coleta de itens das fontes de dados originais no Office 365 (por exemplo, de caixas de correio e sites), copiando-os para o local de armazenamento do Azure (esse processo de cópia também é chamado de *inclusão*) e, em seguida, indexando novamente os itens. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **pesquisas** monitorando o status na coluna **Adicionar dados para revisão** . Depois que o processamento do conjunto de revisão estiver concluído, clique na guia **revisar conjuntos** no caso e clique no conjunto de revisão para iniciar o processo de filtragem, revisão, marcação e exportação de dados no conjunto de revisão.
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
-ms.openlocfilehash: d404bc8f72d2b1784c4d796a636556b7a5413b4d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4366a9fa5c42a8f4505163e0987da1decf727564
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079888"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Aplicar o gerenciamento de direitos de informação (IRM) a uma lista ou biblioteca
 
@@ -47,13 +47,13 @@ Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a 
 ## <a name="apply-irm-to-a-list-or-library"></a>Aplicar o IRM a uma lista ou biblioteca
 <a name="__toc256598179"> </a>
 
-![Configurações de gerenciamento de direitos de informação](media/1b708102-9c90-42b0-b255-ef0e72d0be88.png)
+![Configurações de gerenciamento de direitos de informação](../media/1b708102-9c90-42b0-b255-ef0e72d0be88.png)
   
 1. Vá para a lista ou biblioteca para a qual você deseja configurar o IRM.
     
 2. Na faixa de opções, clique na guia **biblioteca** e, em seguida, clique em **configurações da biblioteca**. (Se você estiver trabalhando em uma lista, clique na guia **lista** e, em seguida, clique em **configurações de lista**).
     
-    ![Botões de configurações da biblioteca do SharePoint na faixa de opções](media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
+    ![Botões de configurações da biblioteca do SharePoint na faixa de opções](../media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
   
 3. Em **permissões e gerenciamento**, clique em **Gerenciamento de direitos de informação**. Se o link de gerenciamento de direitos de informação não aparecer, o IRM pode não estar habilitado para seu site. Entre em contato com o administrador do servidor para ver se é possível habilitar o IRM para seu site. O link de gerenciamento de direitos de informação não aparece para bibliotecas de imagens.
     

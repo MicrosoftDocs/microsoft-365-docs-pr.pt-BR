@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: 'Revise as etapas para configurar opções para o processo de análise na descoberta eletrônica avançada do Office 365, incluindo duplicatas, threads de email e temas.  '
-ms.openlocfilehash: e9acb30d991bd2ee0acba5a9ddde619272788ceb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c32a63ee538522a5314a74be6248f253f70f279e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081148"
 ---
 # <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Definir opções de análise na descoberta eletrônica avançada do Office 365
 
@@ -34,7 +34,7 @@ Em descoberta eletrônica avançada, defina as opções de análise antes de exe
 
 Abra \> **a configuração**de **análise de preparação \> ** . A janela a seguir é exibida.
   
-![Definir Opções de Análise](media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
+![Definir Opções de Análise](../media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
  **Threads quase duplicados e email** Marque esta caixa se você deseja executar a análise. Ele é selecionado por padrão. 
   
@@ -51,11 +51,11 @@ Abra \> **a configuração**de **análise de preparação \> ** . A janela a seg
     
     Por exemplo, se a palavra sugerida for "computador" e você tiver especificado "2" como o "número máximo de temas", a descoberta eletrônica avançada tentará gerar dois temas relacionados à palavra "computador". Os dois temas podem ser "software de computador" e "hardware de computador", por exemplo. 
     
-    ![Adicionar tema sugerido](media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
+    ![Adicionar tema sugerido](../media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
   
 1. Para exibir, adicionar ou editar temas sugeridos, clique em **Modificar**.
     
-2. No painel **temas sugeridos** , clique no ícone **Adicionar** ![ícone](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) de adição para adicionar um tema. No painel **Adicionar tema sugerido** , adicione as palavras, separadas por vírgulas. 
+2. No painel **temas sugeridos** , clique no ícone **Adicionar** ![ícone](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) de adição para adicionar um tema. No painel **Adicionar tema sugerido** , adicione as palavras, separadas por vírgulas. 
     
 3. Em **número de temas**, selecione um valor para determinar o número de temas que a descoberta eletrônica avançada tentará gerar para essas palavras (o padrão é 1 tema).
     

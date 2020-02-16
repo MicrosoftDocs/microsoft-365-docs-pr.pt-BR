@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Talvez seja necessário informar os responsáveis pela obrigação de preservar as informações armazenadas eletronicamente como parte da investigação legal. A descoberta eletrônica avançada permite que você gerencie facilmente o processo de notificação de espera.
-ms.openlocfilehash: f1a2d4eb03f84df12611115670d52568d6b13d80
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 703034088b03badae309961c2abda9db80425b99
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594064"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080268"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Confirmar uma notificação de retenção
 
@@ -52,4 +52,4 @@ Com base na configuração de sua notificação de retenção legal, seus respon
 
 Além das notificações por email, cada um dos responsáveis terá acesso a um portal de conformidade exclusivo. Por meio do portal, cada um pode exibir, acessar e confirmar suas notificações de espera ativas.
 
-![Portal de conformidade para um responsáveis](media/CustodianPortal.jpg)
+![Portal de conformidade para um responsáveis](../media/CustodianPortal.jpg)

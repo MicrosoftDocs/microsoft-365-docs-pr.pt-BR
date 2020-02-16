@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 736117f62877bd0b33ae1007f00d5a32680963fb
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: c3bd87f6a6b06cf6fc75705073df5a95a1025a31
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079940"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>Relatórios de descoberta eletrônica avançada (visualização)
 
@@ -51,11 +51,11 @@ Para acessar os relatórios de descoberta eletrônica avançados:
   
    Na home page da **descoberta eletrônica avançada** , as guias de ocorrência, responsáveis, fonte de dados e relatório de comunicações são exibidas na parte superior da página. 
   
-   ![Relatórios de descoberta eletrônica avançada na Home Page](media/report-home.png)
+   ![Relatórios de descoberta eletrônica avançada na Home Page](../media/report-home.png)
 
 5. Para exibir um relatório, clique em uma guia de relatório e, se necessário, você pode executar uma das seguintes ações:
 
-   ![Você pode filtrar ou baixar dados de relatório](media/AeDReportsFilterDownload.png)
+   ![Você pode filtrar ou baixar dados de relatório](../media/AeDReportsFilterDownload.png)
 
    a. Clique em **filtro** para restringir os dados do relatório. Você pode filtrar por diferentes propriedades de cada relatório.
   
@@ -97,7 +97,7 @@ Você pode usar um caso de descoberta eletrônica avançada para criar isençõe
 |Coluna        |Descrição|
 | -------------|-------------|
 |ID do caso |O identificador exclusivo de cada caso. |
-|Workload |Indica o tipo de local de conteúdo colocado em espera (por exemplo, Exchange ou SharePoint).
+|Carga de trabalho |Indica o tipo de local de conteúdo colocado em espera (por exemplo, Exchange ou SharePoint).
 |Nome do local |Indica o endereço SMTP (para caixas de correio do Exchange) ou a URL (para sites do SharePoint) do local do conteúdo. | 
 |ID do responsáveis |Se a fonte de dados pertencer a um responsável, esta coluna mostrará o identificador exclusivo para os responsáveis em um determinado caso. Esta coluna será nula para locais não custodial.|
 |Nome do responsáveis |O nome dos responsáveis no Active Directory.| 

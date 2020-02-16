@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Saiba como definir a regra para ignorar texto específico ao usar os módulos de análise e de processo na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 7bda497f961ed762b1b077ad0631a0a6a94cdcc8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 440393061fef9b5a3c946322307fcafd034be81c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081118"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Definir a opção Ignorar texto para análise na descoberta eletrônica avançada do Office 365
 
@@ -107,7 +107,7 @@ As expressões regulares têm suporte para uso ao definir o texto de ignorar. A 
     
 2. Na caixa de diálogo **Adicionar ignorar texto** , no campo **nome** , digite um nome para a regra de ignorar texto. 
     
-    ![Adicionar texto ignorado](media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
+    ![Adicionar texto ignorado](../media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
   
 3. Na caixa de **texto** , digite o texto a ser ignorado. O campo de texto permite um número ilimitado de caracteres. 
     
@@ -122,7 +122,7 @@ As expressões regulares têm suporte para uso ao definir o texto de ignorar. A 
     
 7. Clique em **OK** para salvar a regra de ignorar texto. A regra de ignorar texto definida é exibida. 
     
-    ![Definir nome de texto ignorado](media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
+    ![Definir nome de texto ignorado](../media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
   
 ## <a name="see-also"></a>Confira também
 

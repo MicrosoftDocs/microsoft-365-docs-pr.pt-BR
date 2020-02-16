@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: 'Revise como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados próximos duplicados, funciona na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: c11359681de4d1e078cde8ebf603396c9a71e3b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5c777579e876e54032ce5872291a2791e2c3b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597328"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080758"
 ---
 # <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Entender a similaridade de documentos na descoberta eletrônica avançada do Office 365
 
@@ -44,11 +44,11 @@ No entanto, o documento F1 pode se parecer com o documento F3 em um nível de ap
   
 Os níveis de semelhança são ilustrados da seguinte maneira:
   
-![Similaridade de documentos](media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
+![Similaridade de documentos](../media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
   
 Suponha que outro documento, x1, agora seja inserido. A semelhança entre X1 e E3 é de 87%. Da mesma forma, a semelhança entre X1 e F1 é de 92%. Como resultado, EquiSet-1, EquiSet-2 e X1 agora são combinados em um conjunto de ND.
   
-![Similaridade de documentos](media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
+![Similaridade de documentos](../media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
   
 > [!NOTE]
 > Se houver dois documentos atribuídos a um conjunto de ND, eles permanecerão juntos no mesmo conjunto de ND, mesmo se os documentos adicionais forem adicionados ao conjunto ou se os conjuntos forem mesclados. 

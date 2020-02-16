@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: a57fd1f1e079424f1494acc4b8944534c30359b2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: dafc745d985c93e4665db469442b0b6dc2eda070
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081068"
 ---
 # <a name="supervision-policies-in-office-365"></a>Políticas de supervisão no Office 365
 
@@ -42,7 +42,7 @@ Para obter uma visão geral rápida das políticas de supervisão, consulte o [v
 
 Para saber mais sobre aprimoramentos e disponibilidade de recursos de supervisão, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-Deseja experimentar a nova experiência de conformidade de comunicação no Microsoft 365? Confira os novos e aprimorados recursos disponíveis em [conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md).
+Deseja experimentar a nova experiência de conformidade de comunicação no Microsoft 365? Confira os novos e aprimorados recursos disponíveis em [conformidade de comunicação no Microsoft 365](communication-compliance.md).
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Transição de supervisão no Office 365
 

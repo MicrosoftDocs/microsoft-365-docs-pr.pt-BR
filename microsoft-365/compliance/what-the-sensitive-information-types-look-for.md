@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 80 inclui tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: efd5d2f8003bd79620118a6a058576e5593699b1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 517ff6ae711d61b783e837aebeeb991dfaa53daa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084330"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>O que os tipos de informações confidenciais procuram
 
@@ -6117,92 +6117,40 @@ Não
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
-- A função Func_us_date encontra uma data no formato de data à direita.
-- A função Func_us_address localiza um endereço no formato correto.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_unformatted_ssn localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
-- A função Func_us_date encontra uma data no formato de data à direita.
-- A função Func_us_address localiza um endereço no formato correto.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_randomized_formatted_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
-- A função Func_us_date encontra uma data no formato de data à direita.
-- A função Func_us_address localiza um endereço no formato correto.
 
 Uma política de DLP tem 55% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_randomized_unformatted_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
-- A função Func_us_date encontra uma data no formato de data à direita.
-- A função Func_us_address localiza um endereço no formato correto.
 
-Uma política de DLP é de 40% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_ssn localiza conteúdo que corresponde ao padrão.
-- A função Func_unformatted_ssn não localiza conteúdo que corresponde ao padrão.
-- A função Func_randomized_unformatted_ssn não localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_ssn não é encontrada.
- 
-Ou
-
-- A função Func_randomized_formatted_ssn localiza conteúdo que corresponde ao padrão.
-- A função Func_unformatted_ssn não localiza conteúdo que corresponde ao padrão.
-- A função Func_randomized_unformatted_ssn não localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_ssn não é encontrada.
 
 ```xml
 <!-- U.S. Social Security Number (SSN) -->
   <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_ssn" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
+        <Match idRef="Keyword_ssn" />
       </Pattern>
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_unformatted_ssn" />
         <Match idRef="Keyword_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
       </Pattern>
       <Pattern confidenceLevel="65">
         <IdMatch idRef="Func_randomized_formatted_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_ssn" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
+        <Match idRef="Keyword_ssn" />
       </Pattern>
       <Pattern confidenceLevel="55">
         <IdMatch idRef="Func_randomized_unformatted_ssn" />
         <Match idRef="Keyword_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
       </Pattern>
-      <Pattern confidenceLevel="40">
-        <IdMatch idRef="Func_ssn" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Func_unformatted_ssn" />
-          <Match idRef="Func_randomized_unformatted_ssn" />
-          <Match idRef="Keyword_ssn" />
-        </Any>
-      </Pattern>
-      <Pattern confidenceLevel="40">
-        <IdMatch idRef="Func_randomized_formatted_ssn" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Func_unformatted_ssn" />
-          <Match idRef="Func_randomized_unformatted_ssn" />
-          <Match idRef="Keyword_ssn" />
-        </Any>
-      </Pattern>
-    </Entity>
+  </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave

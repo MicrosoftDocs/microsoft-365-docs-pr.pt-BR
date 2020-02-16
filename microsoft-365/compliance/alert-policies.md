@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões. Em seguida, você pode exibir e gerenciar os alertas gerados quando os usuários realizam atividades que correspondam às condições de uma política de alerta.
-ms.openlocfilehash: 025bf927b194a7faa6357dbabc12a424fe3f3124
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a5ac38f30d42ceff67f982c6c9ac9b03507d34cb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079994"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -37,7 +37,7 @@ As políticas de alerta criam e expandem a funcionalidade dos alertas de ativida
 
 Veja aqui uma rápida visão geral de como as políticas de alerta funcionam e os alertas que são disparados quando a atividade de usuário ou administrador corresponde às condições de uma política de alerta.
 
-![Visão geral de como as políticas de alerta funcionam](media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
+![Visão geral de como as políticas de alerta funcionam](../media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
 
 1. Um administrador de sua organização cria, configura e ativa uma política de alerta usando a página **políticas de alerta** no centro de conformidade e segurança. Você também pode criar políticas de alerta usando o cmdlet **New-ProtectionAlert** no PowerShell do centro de conformidade e segurança &. Para criar políticas de alerta, você precisa receber a função Gerenciar alertas ou a função de configuração da organização no centro de segurança e conformidade.
 
@@ -53,7 +53,7 @@ Uma política de alerta consiste em um conjunto de regras e condições que defi
 
 Para exibir e criar políticas de alerta, vá [https://protection.office.com](https://protection.office.com) para e selecione **alertas** \> **políticas de alerta**.
 
-![No centro de segurança e conformidade, selecione alertas e, em seguida, selecione políticas de alerta para exibir e criar políticas de alerta](media/09ebd451-8e84-44e1-aefc-63e70bba4d97.png)
+![No centro de segurança e conformidade, selecione alertas e, em seguida, selecione políticas de alerta para exibir e criar políticas de alerta](../media/09ebd451-8e84-44e1-aefc-63e70bba4d97.png)
 
 Uma política de alerta consiste nas configurações e condições a seguir.
 
@@ -66,7 +66,7 @@ Uma política de alerta consiste nas configurações e condições a seguir.
 
 - **Quando o alerta é disparado** , você pode definir uma configuração que define a frequência com que uma atividade pode ocorrer antes de um alerta ser acionado. Isso permite que você configure uma política para gerar um alerta sempre que uma atividade corresponder às condições da política, quando um determinado limite for excedido ou quando a ocorrência da atividade que o alerta estiver rastreando se tornar incomum para sua organização.
 
-    ![Configurar como os alertas são acionados, com base em quando a atividade ocorre, um limite ou atividade incomum para sua organização](media/97ee1ed2-e7a9-47a2-a980-5f9f63872c65.png)
+    ![Configurar como os alertas são acionados, com base em quando a atividade ocorre, um limite ou atividade incomum para sua organização](../media/97ee1ed2-e7a9-47a2-a980-5f9f63872c65.png)
 
     Se você selecionar a configuração com base em atividade incomum, o Office 365 estabelece um valor de linha de base que define a frequência normal para a atividade selecionada. Leva até sete dias para estabelecer essa linha de base, durante a qual os alertas não serão gerados. Depois que a linha de base é estabelecida, um alerta é disparado quando a frequência da atividade rastreada pela política de alerta excede muito o valor da linha de base. Para atividades relacionadas à auditoria (como atividades de arquivo e pasta), você pode estabelecer uma linha de base com base em um único usuário ou com base em todos os usuários em sua organização; para atividades relacionadas a malware, você pode estabelecer uma linha de base com base em uma única família de malware, um único destinatário ou todas as mensagens em sua organização.
 
@@ -141,7 +141,7 @@ Quando uma atividade realizada pelos usuários em sua organização corresponde 
 
 Para exibir alertas, vá para [https://protection.office.com](https://protection.office.com) **e selecione** \> alertas **exibir alertas**.
 
-![Na segurança e conformidade, selecione alertas e, em seguida, selecione exibir alertas para exibir alertas](media/ec5ea59b-bf61-459f-8b65-970ab4bb8bcc.png)
+![Na segurança e conformidade, selecione alertas e, em seguida, selecione exibir alertas para exibir alertas](../media/ec5ea59b-bf61-459f-8b65-970ab4bb8bcc.png)
 
 Você pode usar os filtros a seguir para exibir um subconjunto de todos os alertas da página **exibir alertas** .
 
@@ -177,33 +177,33 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, confira
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Logs de auditoria|||||||
 |Gerenciamento de casos|||||||
-|Administrador de Conformidade|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Administrador de Conformidade|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Pesquisa de Conformidade|||||||
 |Gerenciamento de dispositivo|||||||
 |Gerenciamento de descarte|||||||
-|Gerenciamento de conformidade de DLP||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
+|Gerenciamento de conformidade de DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
 |Exportar|||||||
 |Retenção|||||||
-|Gerenciar Alertas||||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configuração da organização||||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Gerenciar Alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Configuração da organização||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Visualização|||||||
-|Gerenciamento de registros|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
-|Gerenciamento de retenção|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|Gerenciamento de registros|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|Gerenciamento de retenção|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
 |Revisão|||||||
 |Descriptografia do RMS|||||||
-|Gerenciamento de função||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|Gerenciamento de função||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |Pesquisa e limpeza|||||||
-|Administrador de Segurança||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Leitor de segurança||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)
+|Administrador de Segurança||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Leitor de segurança||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)
 |Exibição da garantia de serviço|||||||
 |Administrador de análise de supervisão|||||||
 |Logs de auditoria somente para exibição|||||||
 |Gerenciamento de dispositivos somente exibição|||||||
-|Somente exibição Gerenciamento de conformidade DLP||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
-|Somente exibição Gerenciar alertas||||||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Destinatários Somente para Exibição|||  ![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
-|Gerenciamento de registros somente de exibição|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
-|Gerenciamento de retenção somente para exibição|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|Somente exibição Gerenciamento de conformidade DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
+|Somente exibição Gerenciar alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Destinatários Somente para Exibição|||  ![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
+|Gerenciamento de registros somente de exibição|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|Gerenciamento de retenção somente para exibição|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
 |||||||
 
 **Dica:** Para exibir as funções atribuídas a cada um dos grupos de função padrão, execute os seguintes comandos no PowerShell do centro de conformidade & segurança:
@@ -250,11 +250,11 @@ As organizações que têm o Microsoft Cloud app Security como parte de uma assi
 
 Para exibir apenas os alertas de segurança do Cloud app no centro de segurança e conformidade, use o filtro de **origem** e selecione **Cloud app Security**.
 
-![Usar o filtro de origem para exibir somente os alertas de segurança do aplicativo na nuvem](media/FilterCASAlerts.png)
+![Usar o filtro de origem para exibir somente os alertas de segurança do aplicativo na nuvem](../media/FilterCASAlerts.png)
 
 Semelhante a um alerta disparado por uma política de alerta no centro de segurança e conformidade, você pode selecionar um alerta de segurança do Cloud app para exibir uma página de submenu com detalhes sobre o alerta. O alerta inclui um link para exibir os detalhes e gerenciar o alerta no portal do Cloud app Security e um link para a política de segurança de aplicativo na nuvem correspondente que disparou o alerta. Consulte [monitorar alertas no Cloud app Security](https://docs.microsoft.com/cloud-app-security/monitor-alerts).
 
-![Detalhes do alerta contêm links para o portal do Cloud app Security](media/CASAlertDetail.png)
+![Detalhes do alerta contêm links para o portal do Cloud app Security](../media/CASAlertDetail.png)
 
 > [!IMPORTANT]
 > Alterar o status de um alerta do Cloud app Security no centro de segurança e conformidade não atualizará o status de resolução para o mesmo alerta no portal do Cloud app Security. Por exemplo, se você marcar o status do alerta como **resolvido** no centro de segurança e conformidade, o status do alerta no portal de segurança do aplicativo na nuvem não será alterado. Para resolver ou descartar um alerta de segurança do aplicativo na nuvem, gerencie o alerta no portal do Cloud app Security.

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use o botão repetir para resolver pesquisas de conteúdo que têm erros de local de conteúdo.
-ms.openlocfilehash: ce88749a887fea57e977e210de1eda40268cb832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6eb08c006f206e3ad7850d67e541f6fc3f496441
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081569"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Repetir uma pesquisa de conteúdo para resolver um erro de localização de conteúdo
 
@@ -46,7 +46,7 @@ Ao pesquisar um grande número de caixas de correio, a pesquisa é distribuída 
 
 A reinicialização da pesquisa geralmente resultará em erros semelhantes em servidores diferentes. Em vez de reiniciar a pesquisa, clique no botão **repetir** que é exibido na parte superior da página de resultados da pesquisa.
 
-![Clique no botão repetir para resolver erros de localização de conteúdo](media/retrycontentsearch3.png)
+![Clique no botão repetir para resolver erros de localização de conteúdo](../media/retrycontentsearch3.png)
 
 Isso resultará na repetição da pesquisa apenas para as caixas de correio que falharam. Quando você repetir a pesquisa, os outros resultados retornados com êxito serão mantidos.
 

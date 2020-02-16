@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: e3b83c72c8f18ad58fcedb6b8c4271bfebdf8c13
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 676581a5cfdf7308cf6c5cd71083dedae34836fb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083949"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
 Você pode usar uma política de prevenção contra perda de dados (DLP) para identificar, monitorar e proteger informações confidenciais no Office 365. Você deseja que as pessoas em sua organização que trabalhem com essas informações confidenciais permaneçam em conformidade com suas políticas de DLP, mas não convém bloqueá-las desnecessariamente da realização de seus trabalhos. É aí que as notificações por email e as dicas de política podem ajudar.
   
-![Barra de mensagem mostra a dica de política no Excel 2016](media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
+![Barra de mensagem mostra a dica de política no Excel 2016](../media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
   
 Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP — por exemplo, conteúdo como uma pasta de trabalho do Excel em um site do OneDrive for Business que contém informações de identificação pessoal (PII) e é compartilhado com um usuário externo.
   
@@ -44,7 +44,7 @@ No centro de conformidade de &amp; segurança do Office 365, ao criar uma polít
     
   - Para email no Outlook na Web e no Outlook 2013 e posterior, a dica de política aparece na parte superior de uma mensagem acima dos destinatários enquanto a mensagem está sendo redigida.
     
-  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em **** ![seguida, escolher o](media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) ícone painel de informações de informações no canto superior direito da página para abrir o painel de detalhes. 
+  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em **** ![seguida, escolher o](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) ícone painel de informações de informações no canto superior direito da página para abrir o painel de detalhes. 
     
   - Para documentos do Excel, PowerPoint e Word que são armazenados em um site do onedrive for Business ou site do SharePoint Online incluído na política de DLP, a dica de política é exibida na barra de mensagens e no modo de exibição Backstage ( \> **informações**do menu de **arquivo** ).
     
@@ -58,7 +58,7 @@ Quando você cria uma política de DLP, as notificações por email e as dicas d
     
 3. Na navegação \> à &amp; esquerda centro \> de conformidade de segurança \> **política** \> de **prevenção contra perda de dados** **+ criar uma política**.
     
-    ![Botão criar uma política](media/b1e48a08-92e2-47ca-abdc-4341694ddc7c.png)
+    ![Botão criar uma política](../media/b1e48a08-92e2-47ca-abdc-4341694ddc7c.png)
   
 4. Escolha o modelo de política de DLP que protege os tipos de informações confidenciais que \> você precisa **seguir**.
     
@@ -82,7 +82,7 @@ Quando você cria uma política de DLP, as notificações por email e as dicas d
     
 9. No editor de regras, em **notificações do usuário**, altere o status para.
     
-    ![Seção notificações de usuário do editor de regras](media/47705927-c60b-4054-a072-ab914f33d15d.png)
+    ![Seção notificações de usuário do editor de regras](../media/47705927-c60b-4054-a072-ab914f33d15d.png)
 
 > [!NOTE]
 > As políticas de DLP aplicam-se a todos os documentos que correspondem à política, independentemente de esses documentos serem novos ou existentes. No entanto, uma notificação de email só é gerada quando o novo conteúdo corresponde a uma política de DLP existente. O conteúdo existente é protegido, mas não gerará uma notificação de usuário por email.
@@ -98,13 +98,13 @@ Para cada regra de uma política de DLP, você pode:
 > [!NOTE]
 >  As notificações por email podem ser enviadas somente para destinatários individuais, não grupos ou listas de distribuição. Apenas o novo conteúdo disparará uma notificação por email. A edição do conteúdo existente disparará dicas de política, mas não uma notificação por email. 
   
-![Opções de notificação por email](media/4e7b9500-2a78-44e6-9067-09f4bfd50301.png)
+![Opções de notificação por email](../media/4e7b9500-2a78-44e6-9067-09f4bfd50301.png)
   
 ### <a name="default-email-notification"></a>Notificação de email padrão
 
 As notificações têm uma linha de assunto que começa com a ação executada, como "notificação", "mensagem bloqueada" para email ou "acesso bloqueado" para documentos. Se a notificação for sobre um documento, o corpo da mensagem de notificação inclui um link que o leva para o site em que o documento está armazenado e abre a dica de política para o documento, onde você pode resolver problemas (consulte a seção abaixo sobre dicas de política). Se a notificação é sobre uma mensagem, a notificação inclui como um anexo a mensagem que corresponde a uma política de DLP.
   
-![Mensagem de notificação](media/35813d40-5fd8-425f-9624-55655e74fa6b.png)
+![Mensagem de notificação](../media/35813d40-5fd8-425f-9624-55655e74fa6b.png)
   
 Por padrão, as notificações exibem um texto semelhante ao seguinte para um item em um site. O texto de notificação é configurado separadamente para cada regra, para que o texto exibido seja diferente dependendo da regra que for correspondida.
 
@@ -126,7 +126,7 @@ Você também pode usar os tokens a seguir para ajudar a personalizar a notifica
 |%% ContentURL%%  <br/> |A URL do documento no site do SharePoint Online ou do OneDrive for Business.  <br/> |
 |%%MatchedConditions%%  <br/> |As condições que foram atendidas pelo conteúdo. Use este token para informar pessoas de possíveis problemas com o conteúdo.  <br/> |
    
-![Mensagem de notificação mostrando onde os tokens aparecem](media/cd3f36b3-40db-4f30-99e4-190750bd1955.png)
+![Mensagem de notificação mostrando onde os tokens aparecem](../media/cd3f36b3-40db-4f30-99e4-190750bd1955.png)
   
 ## <a name="options-for-configuring-policy-tips"></a>Opções para configurar dicas de política
 
@@ -140,7 +140,7 @@ Para cada regra de uma política de DLP, você pode configurar as dicas de polí
     
   - Permitir que a pessoa relate falsos positivos e substitua a política de DLP. Essas informações também são registradas em log para fins de relatório, para que você possa usar falsos positivos para ajustar suas regras.
     
-![Opções de dica de política](media/0d2f2c68-028a-4900-afe6-1d9fce5303ef.png)
+![Opções de dica de política](../media/0d2f2c68-028a-4900-afe6-1d9fce5303ef.png)
   
 Por exemplo, você pode ter uma política de DLP aplicada a sites do OneDrive for Business que detecta informações de identificação pessoal (PII) e esta política tem três regras:
   
@@ -166,15 +166,15 @@ Quando um documento em um site do OneDrive for Business ou do SharePoint Online 
     
 2. Se a regra bloquear o acesso ao documento, o ícone de bloqueado aparece.
     
-![Ícones de dica de política em documentos em uma conta do OneDrive](media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
+![Ícones de dica de política em documentos em uma conta do OneDrive](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
   
-Para executar uma ação em um documento, você pode selecionar um \> item escolha o ícone](media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) do painel de informações de **informações** ![no canto superior direito da página para abrir a \> **dica de política de exibição**do painel de detalhes.
+Para executar uma ação em um documento, você pode selecionar um \> item escolha o ícone](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) do painel de informações de **informações** ![no canto superior direito da página para abrir a \> **dica de política de exibição**do painel de detalhes.
   
 A dica de política lista os problemas com o conteúdo e se as dicas de política forem configuradas com essas opções, você pode escolher **Resolver** e então **Substituir** a dica de política ou **Relatar** um falso positivo. 
   
-![Painel de informações mostrando dica de política](media/0a191e70-80f0-4702-90f4-7a5b7aabcaab.png)
+![Painel de informações mostrando dica de política](../media/0a191e70-80f0-4702-90f4-7a5b7aabcaab.png)
   
-![Dica de política com opção para substituir](media/e250bff9-41d5-4ce4-82ea-1dc2d043fab1.png)
+![Dica de política com opção para substituir](../media/e250bff9-41d5-4ce4-82ea-1dc2d043fab1.png)
   
 As políticas de DLP são sincronizadas para sites e o conteúdo é avaliado em comparação com elas de forma periódica e assíncrona, portanto, pode haver um pequeno atraso entre a hora em que você criar a política de DLP e a hora em que você começar a receber dicas de política. Pode haver um atraso semelhante ao resolver ou substituir uma dica de política em relação a quando o ícone do documento no site desaparece.
   
@@ -196,17 +196,17 @@ Você pode personalizar o texto para dicas de política separadamente da notific
 
 Ao redigir um novo email no Outlook na Web e no Outlook 2013 e posterior, você verá uma dica de política se adicionar conteúdo que corresponda a uma regra em uma política de DLP e essa regra usar dicas de política. A dica de política é exibida na parte superior da mensagem, acima dos destinatários, enquanto a mensagem está sendo redigida.
   
-![Dica de política na parte superior de uma mensagem que está sendo composta](media/9b3b6b74-17c5-4562-82d5-d17ecaaa8d95.png)
+![Dica de política na parte superior de uma mensagem que está sendo composta](../media/9b3b6b74-17c5-4562-82d5-d17ecaaa8d95.png)
   
 Dicas de política funcionam se as informações confidenciais aparecem no corpo da mensagem, na linha de assunto ou até mesmo em um anexo de mensagem, conforme mostrado aqui.
   
-![Dica de política mostrando que um anexo está em conflito com uma política de DLP](media/59ae6655-215f-47d9-ad1d-39c0d1e61740.png)
+![Dica de política mostrando que um anexo está em conflito com uma política de DLP](../media/59ae6655-215f-47d9-ad1d-39c0d1e61740.png)
   
 Se as dicas de política estiverem configuradas para permitir substituição, você poderá escolher **Mostrar detalhes** \> **substituir** \> Insira uma justificativa de negócios \> ou relatar uma **substituição**falsa positiva.
   
-![Dica de política na mensagem expandida para mostrar a opção substituir](media/28bfb997-48a6-41f0-8682-d5e62488458a.png)
+![Dica de política na mensagem expandida para mostrar a opção substituir](../media/28bfb997-48a6-41f0-8682-d5e62488458a.png)
   
-![Caixa de diálogo dica de política onde você pode substituir a dica de política](media/f97e836c-04bd-44b4-aec6-ed9526ea31f8.png)
+![Caixa de diálogo dica de política onde você pode substituir a dica de política](../media/f97e836c-04bd-44b4-aec6-ed9526ea31f8.png)
   
 Observe que, quando você adiciona informações confidenciais a um email, pode haver latência entre quando as informações confidenciais são adicionadas e quando a dica de política é exibida.
 
@@ -251,15 +251,15 @@ Dependendo de como você configurar as dicas de política na política de DLP, a
   
 As dicas de política são exibidas na barra de mensagens.
   
-![Barra de mensagem mostra a dica de política no Excel 2016](media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
+![Barra de mensagem mostra a dica de política no Excel 2016](../media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
   
 As dicas de política também aparecem no modo de exibição Backstage (na guia **Arquivo**). 
   
-![O Backstage mostra a dica de política no Excel 2016](media/44c561f6-8f3f-4878-b1b0-b7543f8a4120.png)
+![O Backstage mostra a dica de política no Excel 2016](../media/44c561f6-8f3f-4878-b1b0-b7543f8a4120.png)
   
 Se as dicas de política na política de DLP forem configuradas com essas opções, você pode escolher **Resolver** para **Substituir** uma dica de política ou **Relatar** um falso positivo. 
   
-![Opções sobre dicas de política no Backstage no Excel 2016](media/5b3857ba-907e-456e-ae43-888b594c049c.png)
+![Opções sobre dicas de política no Backstage no Excel 2016](../media/5b3857ba-907e-456e-ae43-888b594c049c.png)
   
 Em cada um desses programas da área de trabalho do Office, as pessoas podem optar por desativar as dicas de política. Se estiverem desativadas, as dicas de política que são simples notificações não aparecerão no modo de exibição Backstage ou Barra de mensagens (na guia **Arquivo**). Entretanto, as dicas de política sobre bloqueio e substituição ainda serão exibidas e ainda receberão a notificação de email. Além disso, desativar dicas de política não isenta o documento de quaisquer políticas de DLP que foram aplicadas a ele. 
   

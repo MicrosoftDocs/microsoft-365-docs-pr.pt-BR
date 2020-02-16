@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Como administrador global do Office 365, você pode aplicar a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
-ms.openlocfilehash: b4712edd86099b1c382ef02ca54520b68a54614e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 23b6cd205c4ae3a0ca08aab2209e0152a3f78b63
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079969"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
 
@@ -71,7 +71,7 @@ Use o Windows PowerShell para modificar um modelo de identidade visual por vez. 
 
 2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
 
-![Partes de email personalizáveis](media/ome-template-breakout.png)
+![Partes de email personalizáveis](../media/ome-template-breakout.png)
 
 |**Para personalizar este recurso da experiência com criptografia**|**Use estes comandos**|
 |:-----|:-----|
@@ -162,7 +162,7 @@ Para obter informações sobre como criar uma regra de fluxo de email do Exchang
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
 
-4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como identidade visual do departamento de vendas.
 

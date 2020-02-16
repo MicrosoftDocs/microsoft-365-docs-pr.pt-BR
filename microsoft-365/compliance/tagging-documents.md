@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: be4c86a5df7e0964744f6b5d7551382916e7ed2d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cd622430df4a636a9529a4d10ddc90057548a810
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080948"
 ---
 # <a name="tag-documents-in-a-review-set"></a>Marcar documentos em um conjunto de revisão
 
@@ -47,11 +47,11 @@ A descoberta eletrônica avançada fornece dois tipos de marcas:
 
 Além dos tipos de marca, a estrutura de como as marcas são organização no painel de marcas pode ser usada para tornar os documentos de marcação mais intuitivos. As marcas são agrupadas por seções. revisar definir pesquisa oferece suporte à capacidade de Pesquisar por marca e seção de marca. Isso significa que você pode criar uma análise definir pesquisa para recuperar documentos marcados com qualquer marca em uma seção.
 
-![Seções de marcas no painel de marcas](media/Tagtypes.png)
+![Seções de marcas no painel de marcas](../media/Tagtypes.png)
 
 As marcas podem ser organizadas com o aninhamento de uma seção. Por exemplo, se a intenção é identificar e marcar conteúdo privilegiado, o aninhamento pode ser usado para tornar claro que um usuário pode marcar um documento como "privilegiado" e selecionar o tipo de privilégio, verificando a marca aninhada apropriada.
 
-![Marcas aninhadas em uma seção tag](media/Nestingtags.png)
+![Marcas aninhadas em uma seção tag](../media/Nestingtags.png)
 
 ## <a name="applying-tags"></a>Aplicando marcas
 
@@ -61,7 +61,7 @@ Há várias maneiras de aplicar uma marca ao conteúdo.
 
 Ao exibir um documento em um conjunto de revisão, você pode exibir as marcas que uma revisão pode usar clicando em **painel de codificação**.
 
-![Clique no painel de marcas para exibir o painel de marcas](media/Singledoctag.png)
+![Clique no painel de marcas para exibir o painel de marcas](../media/Singledoctag.png)
 
 Isso permitirá que você aplique marcas ao documento exibido no visualizador.
 
@@ -69,7 +69,7 @@ Isso permitirá que você aplique marcas ao documento exibido no visualizador.
 
 A marcação em massa pode ser feita selecionando vários arquivos na grade de resultados e, em seguida, usando as marcas no **painel de codificação** , semelhante a marcação de documentos únicos. A desmarcação em massa pode ser feita selecionando marcas duas vezes; o primeiro clique irá aplicar a marca e a segunda será garantir que a marca seja desmarcada para todos os arquivos selecionados.
 
-![Uma captura de tela de uma descrição de telefone de célula gerada automaticamente](media/Bulktag.png)
+![Uma captura de tela de uma descrição de telefone de célula gerada automaticamente](../media/Bulktag.png)
 
 > [!NOTE]
 > Quando a marcação em massa, o painel de marcação exibirá uma contagem de arquivos que estão marcados para cada marca no painel.
@@ -88,4 +88,4 @@ Por exemplo, veja como exibir o painel de **codificação** ao usar o documento 
 
 3. Para marcar todos os documentos, selecione todos os documentos no painel **família** de documentos, clique em **documentos de código**e escolha as marcas a serem aplicadas a toda a família de documentos.
 
-![Uma captura de tela de uma descrição de postagem de mídia social gerada automaticamente](media/Relatedtag.png)
+![Uma captura de tela de uma descrição de postagem de mídia social gerada automaticamente](../media/Relatedtag.png)

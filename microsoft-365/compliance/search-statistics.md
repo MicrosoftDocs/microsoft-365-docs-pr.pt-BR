@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 665ffe5fea6fa6996b405198524ef7dfb51e162f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c59b36e3594d653f188742890ea849e2595a648
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601738"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081359"
 ---
 # <a name="search-statistics"></a>Estatísticas de pesquisa
 
 Uma maneira eficaz de validar seus resultados de pesquisa ao investigar um incidente de dados é exibir as estatísticas sobre seus resultados de pesquisa para garantir que eles se alinhem às suas expectativas. Quando uma pesquisa de conclusão é executada, as seguintes estatísticas de alto nível são exibidas em **status** na página do submenu detalhes da pesquisa:
 
-![Pesquisar statisics na página de submenu detalhes da pesquisa](media/SearchDetailsFlyout.png)
+![Pesquisar statisics na página de submenu detalhes da pesquisa](../media/SearchDetailsFlyout.png)
 
 - O número estimado e o tamanho dos itens que correspondem aos critérios de pesquisa.
 
@@ -37,7 +37,7 @@ Uma maneira eficaz de validar seus resultados de pesquisa ao investigar um incid
 
 Para exibir estatísticas mais detalhadas, clique em **estatísticas** na página do submenu detalhes da pesquisa. Na página **Estatísticas de pesquisa** , você pode exibir o resumo da pesquisa, o local principal que continha itens que corresponderam aos resultados da pesquisa e estatísticas detalhadas sobre a consulta de pesquisa.
 
-![Lista suspensa de estatísticas de pesquisa](media/SearchStatisticsDropDownList.png)
+![Lista suspensa de estatísticas de pesquisa](../media/SearchStatisticsDropDownList.png)
 
 ## <a name="summary"></a>Resumo
 

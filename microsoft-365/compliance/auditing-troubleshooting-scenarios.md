@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Você pode usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo fez logon com êxito na sua organização.
-ms.openlocfilehash: b453cccb0486ab923de720edb5a6a877395b9b7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079125"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria do Office 365 para investigar problemas comuns de suporte
 
@@ -49,7 +49,7 @@ Esta seção descreve as noções básicas para criar e executar pesquisas de lo
     
     É exibida a página **Pesquisa de log de auditoria**. 
     
-    ![Configure critérios e selecione Pesquisar para executar a pesquisa](media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Configure critérios e selecione Pesquisar para executar a pesquisa](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
   
 4. Você pode configurar os seguintes critérios de pesquisa. Cada cenário de solução de problemas neste artigo recomenda orientações específicas para configurar esses campos.
     
@@ -106,11 +106,11 @@ Confira aqui como configurar uma consulta de pesquisa de log de auditoria para e
 
 Depois de executar a pesquisa, selecione **filtrar resultados** na página de resultados da pesquisa. Na caixa em cabeçalho da coluna **atividade** , digite **Set-Mailbox** para que apenas os registros de auditoria relacionados ao cmdlet **Set-Mailbox** sejam exibidos.
 
-![Filtrando os resultados de uma pesquisa de log de auditoria](media/emailforwarding1.png)
+![Filtrando os resultados de uma pesquisa de log de auditoria](../media/emailforwarding1.png)
 
 Neste ponto, você precisa examinar os detalhes de cada registro de auditoria para determinar se a atividade está relacionada ao encaminhamento de email. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**. A captura de tela e as descrições a seguir realçam as informações que indicam que o encaminhamento de emails foi definido na caixa de correio.
 
-![Informações detalhadas do registro de auditoria](media/emailforwarding2.png)
+![Informações detalhadas do registro de auditoria](../media/emailforwarding2.png)
 
 a. No campo **ObjectID** , o alias da caixa de correio para o qual o encaminhamento de email foi definido é exibido. Essa caixa de correio também é exibida na coluna **Item** na página de resultados da pesquisa.
 
@@ -152,11 +152,11 @@ Depois de executar a pesquisa, você pode filtrar os resultados da pesquisa para
 
 **Exemplo de campo AffectedItems para item excluído por software**
 
-![Registro de auditoria para item excluído por software](media/softdeleteditem.png)
+![Registro de auditoria para item excluído por software](../media/softdeleteditem.png)
 
 **Exemplo de campo AffectedItems para item excluído por hardware**
 
-![Registro de auditoria para item de email excluído por hardware](media/harddeleteditem.png)
+![Registro de auditoria para item de email excluído por hardware](../media/harddeleteditem.png)
 
 ### <a name="recover-deleted-email-items"></a>Recuperar itens de email excluídos
 
@@ -186,7 +186,7 @@ Confira aqui como configurar uma consulta de pesquisa de log de auditoria para e
 
 Depois de executar a pesquisa, todos os registros de auditoria dessa atividade serão exibidos nos resultados da pesquisa. Selecione um registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**. As informações sobre as configurações da regra de caixa de entrada são exibidas no campo **parâmetros** . As descrições e capturas de tela a seguir destacam as informações sobre regras de caixa de entrada.
 
-![Registro de auditoria para nova regra de caixa de entrada](media/NewInboxRuleRecord.png)
+![Registro de auditoria para nova regra de caixa de entrada](../media/NewInboxRuleRecord.png)
 
 a. No campo **ObjectID** , o nome completo da regra de caixa de entrada é exibido. Esse nome inclui o alias da caixa de correio do usuário (por exemplo, em inglês) e o nome da regra de caixa de entrada (por exemplo, "mover mensagens do administrador").
 
@@ -207,7 +207,7 @@ Esse comportamento é devido ao design. O Azure Active Directory (Azure AD), o s
 
 Veja um exemplo e descrições das propriedades relevantes em um registro de auditoria para um evento **conectado pelo usuário** que é um resultado de autenticação de passagem. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**.
 
-![Exemplo de registro de auditoria para autenticação pass-thru bem-sucedida](media/PassThroughAuth1.png)
+![Exemplo de registro de auditoria para autenticação pass-thru bem-sucedida](../media/PassThroughAuth1.png)
 
    a. Este campo indica que o usuário que tentou acessar um recurso em sua organização não foi encontrado no Azure AD da sua organização.
 
@@ -232,7 +232,7 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
 - Pesquisar o log de auditoria para atividades realizadas pelo usuário externo identificado no registro de auditoria do **usuário conectado** . Digite o UPN para o usuário externo na caixa **usuários** e use um intervalo de datas, se for relevante para o seu cenário. Por exemplo, você pode criar uma pesquisa usando os seguintes critérios de pesquisa:
 
-   ![Pesquisar todas as atividades realizadas pelo usuário externo](media/PassThroughAuth2.png)
+   ![Pesquisar todas as atividades realizadas pelo usuário externo](../media/PassThroughAuth2.png)
 
     Além das atividades de **logon do usuário** , outros registros de auditoria podem ser retornados, por exemplo, que indicam um usuário na sua organização recursos compartilhados com o usuário externo e se o usuário externo acesso, modificou ou baixou um documento que foi compartilhado com eles.
 

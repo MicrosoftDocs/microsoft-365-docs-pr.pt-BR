@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Saiba como executar o modo de análise expressa da descoberta eletrônica avançada do Office 365
-ms.openlocfilehash: 41de4b0c4e4e57501fb2a0774c556e2556c3d496
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 49e8f04b893f0a15563cf091c728352a97c4141f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080719"
 ---
 # <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Usar a análise expressa na descoberta eletrônica avançada do Office 365
 
@@ -36,7 +36,7 @@ Você pode usar a análise expressa para calcular quase duplicatas e threads de 
 
 1. Na guia **análise expressa** (1), selecione um contêiner para habilitar os botões * * Express Analysis * * (2) e **Advanced Settings** . 
     
-    ![Captura de tela da página de análise expressa](media/60009974-5d1f-4971-8ebe-e5ec74e7fd2a.jpg)
+    ![Captura de tela da página de análise expressa](../media/60009974-5d1f-4971-8ebe-e5ec74e7fd2a.jpg)
   
 2. Em **analisar parâmetros**:
     
@@ -62,7 +62,7 @@ Você pode usar a análise expressa para calcular quase duplicatas e threads de 
     
     Na página **status da tarefa** , você pode expandir as guias **processo**, **analisar** e **Exportar** para exibir detalhes sobre a execução expressa. 
     
-    ![Captura de tela da página de status da tarefa de análise de descoberta eletrônica avançada](media/bf30ab02-9828-4a6d-a485-0babc2c49ae5.jpg)
+    ![Captura de tela da página de status da tarefa de análise de descoberta eletrônica avançada](../media/bf30ab02-9828-4a6d-a485-0babc2c49ae5.jpg)
   
 5. Escolha a página de **Resumo de análise expressa** para listar informações detalhadas sobre a execução. 
     
@@ -86,7 +86,7 @@ Opcionalmente, você pode definir **Configurações avançadas** para alterar os
     
     Por exemplo, se a palavra sugerida for "computador" e você tiver especificado "2" como o "número máximo de temas", a descoberta eletrônica avançada tentará gerar dois temas relacionados à palavra "computador". Os dois temas podem ser "software de computador" e "hardware de computador", por exemplo.
     
-    ![Adicionar tema sugerido](media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
+    ![Adicionar tema sugerido](../media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
   
   - **Modo** Na lista suspensa, selecione uma opção de **temas** : 
     
@@ -104,18 +104,18 @@ Opcionalmente, você pode definir **Configurações avançadas** para alterar os
     
   - Para exportar resultados para novos arquivos que você adicionou a um caso existente, continue com seu lote atual. Para criar uma sessão no lote, selecione o mesmo número de lote e clique em **criar sessão de exportação** você pode usar essa opção para exportar os mesmos parâmetros que o lote anterior, de forma incremental. 
     
-  - Para exportar para um novo lote, clique em **Adicionar** ![ícone](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) de adição e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
+  - Para exportar para um novo lote, clique em **Adicionar** ![ícone](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) de adição e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
     
-  - Para editar um nome de lote ou descrição, selecione o nome **em lote de exportação**, clique em](media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) **Editar** ![ícone de edição e modifique os campos.
+  - Para editar um nome de lote ou descrição, selecione o nome **em lote de exportação**, clique em](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) **Editar** ![ícone de edição e modifique os campos.
     
     > [!NOTE]
     > Depois de executar sessões para um lote de exportação, elas não podem ser excluídas. Além disso, apenas alguns parâmetros podem ser editados depois que a primeira sessão é executada. 
   
-  - Para criar um lote de exportação duplicado, escolha o **lote** ![de exportação duplicado crie](media/3f6d5f59-e842-4946-a493-473528af0119.jpg) um ícone de lote de exportação duplicado e insira um nome e uma descrição para o lote duplicado no painel. 
+  - Para criar um lote de exportação duplicado, escolha o **lote** ![de exportação duplicado crie](../media/3f6d5f59-e842-4946-a493-473528af0119.jpg) um ícone de lote de exportação duplicado e insira um nome e uma descrição para o lote duplicado no painel. 
     
-  - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
+  - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
     
-  - Para exibir o histórico de um lote, escolha **** ![o ícone](media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
+  - Para exibir o histórico de um lote, escolha **** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
     
 2. Em definir p **opulation:** selecione **incluir somente os arquivos acima da classificação de recorte de relevância** e/ou **refinar lote de exportação** se quiser ajustar as configurações para o lote de exportação. Se você selecionar **incluir apenas arquivos acima da Pontuação de recorte de relevância**, o **problema** será habilitado, e se a pontuação de relevância do arquivo for maior do que a pontuação de recorte do problema selecionado, o arquivo será exportado. O arquivo será exportado, a menos que seja excluído pelo filtro " **para revisão** . Se você selecionar **refinar lote de exportação**, os botões **de opção de eliminação de duplicação** e **filtro por "para revisão"** estão habilitados. Se **você escolher a eliminação da duplicação**, os arquivos duplicados serão filtrados de acordo com a política definida: [nível de caso (padrão): de cada conjunto de arquivos duplicados em todo o caso, todos exceto um arquivo serão eliminados. Nível do responsáveis: de cada conjunto de arquivos duplicados do mesmo mesmo, todos os arquivos, exceto um, serão eliminados de duplicação. Um registro de todos os arquivos duplicados está disponível na saída para exportação. Se você escolher **Filtrar por "para revisão"** , selecione **Modificar em metadados** para inserir as configurações de campo **"para revisão"**. Selecione **incluir arquivos de entrada**para incluir arquivos de origem no conteúdo do pacote. Você pode desmarcar essa opção para acelerar o processo de exportação. Observe que os arquivos nativos serão exportados em qualquer caso.
     

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 6778666e1ef0e5900a2afcc2949bdc9579c21fd1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e9179878d085840fcfb93dacc79ac3f776f1f041
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081088"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada do Office 365
 
@@ -42,7 +42,7 @@ Todos os arquivos importados devem ser adicionados a uma carga a ser processada 
   
 1. Na guia **configuração \> de relevância de relevância** , selecione **cargas**.
     
-    ![Guia Cargas de Configuração de Relevância](media/278aac7f-655f-462f-852a-6baa5d818768.png)
+    ![Guia Cargas de Configuração de Relevância](../media/278aac7f-655f-462f-852a-6baa5d818768.png)
   
 2. **Incluir arquivos**: selecione uma opção para os arquivos a serem incluídos. Por padrão, a adição de arquivos à carga atual baseia-se na população "todos os arquivos".
     

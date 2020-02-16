@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: As marcas inteligentes permitem que você aplique os recursos de aprendizado da máquina ao revisar o conteúdo em uma ocorrência de descoberta eletrônica avançada. Use grupos de marcas inteligentes para exibir os resultados dos modelos de detecção de aprendizagem de máquina, como o modelo de privilégio de cliente advogado.
-ms.openlocfilehash: 9b3e1310baa06f53a3ee1dab5c371fb67d6ab95c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3d3852a13410a3aa57932e19031cc5d00ce52a96
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081078"
 ---
 # <a name="set-up-smart-tags-in-advanced-ediscovery"></a>Configurar marcas inteligentes na descoberta eletrônica avançada
 

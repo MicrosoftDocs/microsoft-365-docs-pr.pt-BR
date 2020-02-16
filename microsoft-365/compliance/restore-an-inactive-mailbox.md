@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Se um novo funcionário ou outro usuário precisar acessar o conteúdo de uma caixa de correio inativa no Office 365, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente.
-ms.openlocfilehash: 7a12d34c175340a51ddaf39cdfffc945a0add203
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1fdf86c17d557ef27373001cb63f710168269a19
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081589"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Restaurar uma caixa de correio inativa no Office 365
 
@@ -125,8 +125,8 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
 
     **Hierarquia de pastas na caixa de correio de destino quando o parâmetro TargetRootFolder não é usado**
 
-    ![Captura de tela quando o parâmetro TargetRootFolder não é usado](media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
+    ![Captura de tela quando o parâmetro TargetRootFolder não é usado](../media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
   
     **Hierarquia de pastas na caixa de correio de destino quando o parâmetro TargetRootFolder é usado**
 
-    ![Captura de tela quando o parâmetro TargetRootFolder é usado](media/300da592-7323-48db-b8a4-07012259d113.png)
+    ![Captura de tela quando o parâmetro TargetRootFolder é usado](../media/300da592-7323-48db-b8a4-07012259d113.png)

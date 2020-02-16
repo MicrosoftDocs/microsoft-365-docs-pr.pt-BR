@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector nativo para importar dados de uma página da empresa do LinkedIn para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a conformidade dos dados de terceiros da sua organização.
-ms.openlocfilehash: c8e39577a6eaba3ad865b1617683c2baa9260759
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b42584efb0c99b97c14059ed7d860013f085262c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079620"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Configurar um conector para arquivar dados do LinkedIn
 
@@ -45,13 +45,13 @@ Depois que os dados da página da empresa do LinkedIn são armazenados em uma ca
 
    A página de entrada do LinkedIn é exibida.
 
-   ![Página de entrada do LinkedIn](media/LinkedInSigninPage.png)
+   ![Página de entrada do LinkedIn](../media/LinkedInSigninPage.png)
 
 5. Na página de entrada do LinkedIn, insira o endereço de email (ou número de telefone) e a senha da conta do LinkedIn associada à página da empresa que você deseja arquivar e clique em **entrar**.
 
    Uma página de assistente é exibida com uma lista de todas as páginas da empresa do LinkedIn associadas à conta na qual você entrou no. Um conector só pode ser configurado para uma página da empresa. Se sua organização tiver várias páginas da empresa do LinkedIn, você precisará criar um conector para cada uma delas.
 
-   ![Uma página com uma lista de páginas da empresa do LinkedIn é exibida](media/LinkedInSelectCompanyPage.png)
+   ![Uma página com uma lista de páginas da empresa do LinkedIn é exibida](../media/LinkedInSelectCompanyPage.png)
 
 6. Selecione a página da empresa da qual você deseja arquivar itens e clique em **Avançar**.
 

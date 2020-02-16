@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: cf69f76fd461c718bccb560f91bf31c2e30aea39
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0b6c42f594ef10c868051d81b0a7ea4b7ff84e00
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601288"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080608"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>Usar o módulo de relevância para analisar dados em evidência
 
 Em investigações de dados (prévia), o módulo de relevância inclui o treinamento de relevância e a revisão de arquivos relacionados a uma investigação. O fluxo de trabalho de relevância é mostrado e descrito da seguinte maneira:
   
-![Fluxo de trabalho de relevância](media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
+![Fluxo de trabalho de relevância](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
 - **Ciclos de avaliação e controle**:
     
