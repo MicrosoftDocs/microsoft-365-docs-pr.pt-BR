@@ -16,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 173249af0625b24337d3115bde808fd5817b6ae9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5d3167e79c43eedc9bb5e5f17caca13cae91bc71
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074378"
 ---
-# <a name="export-data-from-an-investigation"></a><span data-ttu-id="47d87-102">Exportar dados de uma investigação</span><span class="sxs-lookup"><span data-stu-id="47d87-102">Export data from an investigation</span></span>
+# <a name="export-data-from-an-investigation"></a><span data-ttu-id="0c13b-102">Exportar dados de uma investigação</span><span class="sxs-lookup"><span data-stu-id="0c13b-102">Export data from an investigation</span></span>
 
-<span data-ttu-id="47d87-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="47d87-103">Content coming soon.</span></span>
+<span data-ttu-id="0c13b-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="0c13b-103">Content coming soon.</span></span>
