@@ -12,18 +12,18 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: e5e3e4fb48a0eb2af1978cbd5a687c67c72bea0c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ba5804d3065dcb01d85d457df7555a642d6f2839
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085590"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Etapa 3: implantar o Windows 10 Enterprise para novos dispositivos com o Windows AutoPilot
 
 *Este artigo aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Se você tiver novos computadores com Windows 10, você pode usar o Windows AutoPilot para personalizar a experiência (OOBE) da sua organização e implantar um novo sistema com aplicativos e configurações já configurados. Não há imagens para implantar, nenhum driver a ser injetado e nenhuma infraestrutura para gerenciar. Os usuários podem passar pelo processo de implantação de forma independente, sem a necessidade de consultar o administrador de ti.
 
@@ -33,7 +33,7 @@ Você pode configurar e pré-configurar novos dispositivos Windows 10 e colocá-
 
 O pôster do Windows AutoPilot é duas páginas no modo retrato (11x17). Clique na imagem abaixo para exibir um PDF no navegador. 
 
-[![Pôster Implantar o Windows 10 com Piloto Automático](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
+[![Pôster Implantar o Windows 10 com Piloto Automático](../media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
 
 Você também pode fazer o download deste pôster em formato [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) ou do [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx).
 
@@ -114,4 +114,4 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![Etapa 4](./media/stepnumbers/Step4.png)| [Monitorar a integridade e a conformidade do dispositivo](windows10-enable-windows-analytics.md) |
+|![Etapa 4](../media/stepnumbers/Step4.png)| [Monitorar a integridade e a conformidade do dispositivo](windows10-enable-windows-analytics.md) |

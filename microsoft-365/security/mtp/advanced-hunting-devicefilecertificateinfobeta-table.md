@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ffff2802b52fb48bd7fc88fc0d3eac425380502e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c1d6b9170f0cc236f2656ce2adb596c31d9ee2bd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602828"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087520"
 ---
 # <a name="devicefilecertificateinfobeta"></a>DeviceFileCertificateInfoBeta
 
@@ -38,17 +38,17 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `IsSigned` | booliano | Indica se o arquivo está assinado |
-| `SignatureType` | string | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou lidas de um arquivo de catálogo externo |
-| `Signer` | string | Informações sobre o signatário do arquivo |
-| `SignerHash` | string | Valor de hash exclusivo que identifica o signatário |
-| `Issuer` | string | Informações sobre a CA (autoridade de certificação emissora) |
-| `IssuerHash` | string | Valor de hash exclusivo que identifica a CA (autoridade de certificação) de emissão |
-| `CertificateSerialNumber` | string | Identificador para o certificado que é exclusivo da autoridade de certificação (CA) de emissão |
-| `CrlDistributionPointUrls` | string |  Matriz JSON que lista as URLs de compartilhamentos de rede que contêm certificados e CRLs (listas de certificados revogados) |
+| `SignatureType` | cadeia de caracteres | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou lidas de um arquivo de catálogo externo |
+| `Signer` | cadeia de caracteres | Informações sobre o signatário do arquivo |
+| `SignerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica o signatário |
+| `Issuer` | cadeia de caracteres | Informações sobre a CA (autoridade de certificação emissora) |
+| `IssuerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica a CA (autoridade de certificação) de emissão |
+| `CertificateSerialNumber` | cadeia de caracteres | Identificador para o certificado que é exclusivo da autoridade de certificação (CA) de emissão |
+| `CrlDistributionPointUrls` | cadeia de caracteres |  Matriz JSON que lista as URLs de compartilhamentos de rede que contêm certificados e CRLs (listas de certificados revogados) |
 | `CertificateCreationTime` | datetime | Data e hora em que o certificado foi criado |
 | `CertificateExpirationTime` | datetime | Data e hora em que o certificado está definido para expirar |
 | `CertificateCountersignatureTime` | datetime | Data e hora em que o certificado foi assinado por ocasião |

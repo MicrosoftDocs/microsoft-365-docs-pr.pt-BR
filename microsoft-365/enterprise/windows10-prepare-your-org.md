@@ -12,18 +12,18 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: josephd
-ms.openlocfilehash: 69ff4846e3daeef39310aa63961e0b3f5ccb9875
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9b83082a4dc859c10db03608de2edebdbb633cbe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085520"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Etapa 1: preparar sua organização para o Windows 10 Enterprise
 
 *Este artigo aplica-se às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Antes de atualizar seus dispositivos para o Windows 10 Enterprise, considere o seguinte:
 
@@ -50,9 +50,9 @@ Use o valor apropriado na tabela abaixo ao configurar a política de gerenciamen
 | Nível | Dados coletados | Valor |
 |:--- |:--- |:--- |
 | Segurança | Somente dados de segurança. | ,0 |
-| Básica | Dados de segurança e dados básicos de sistema e de qualidade. | 1 |
-| Metarquivo | Dados de segurança, dados básicos de sistema e de qualidade, e ideias aprimoradas e dados avançados de confiabilidade. | duas |
-| Completo | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3D |
+| Básica | Dados de segurança e dados básicos de sistema e de qualidade. | 1  |
+| Metarquivo | Dados de segurança, dados básicos de sistema e de qualidade, e ideias aprimoradas e dados avançados de confiabilidade. | 2  |
+| Completo | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3  |
 
 Você pode habilitar os dados de diagnóstico através de qualquer um destes métodos:
 
@@ -69,7 +69,7 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![Etapa 2](./media/stepnumbers/Step2.png)| [Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) |
+|![Etapa 2](../media/stepnumbers/Step2.png)| [Implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) |
 
 
 

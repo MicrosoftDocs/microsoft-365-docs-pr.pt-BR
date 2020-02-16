@@ -11,12 +11,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595036"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057142"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 
@@ -29,33 +29,33 @@ Se você tiver uma assinatura CSP do Microsoft 365 Business Preview, siga este g
 
     As assinaturas da empresa serão listadas.
 
-    ![Assinaturas do cliente no Partner Center](images/pc_customer_subscriptions_1.png)
+    ![Assinaturas do cliente no Partner Center](../../media/pc_customer_subscriptions_1.png)
     
 3. Na página **assinaturas** da empresa, selecione **Adicionar assinatura**.
 4. Na página **nova assinatura** , selecione **pequena empresa** e, em seguida, selecione **Microsoft 365 Business** na lista.
 5. Adicione o número de licenças e então selecione **Próximo: Revisão** para revisar a assinatura e então escolha **Enviar**.
 
-    ![Examine a nova assinatura do Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
+    ![Examine a nova assinatura do Microsoft 365 Business](../../media/pc_customer_reviewnewsubscription.png)
 
     As **Assinaturas baseadas em licença** mostrarão **Microsoft 365 Business Preview** e **Microsoft 365 Business**. Você suspenderá a assinatura de visualização em seguida.
 
 6. Selecione **Microsoft 365 Business Preview**.
 7. Na página **Microsoft 365 Business Preview** , selecione **suspenso** para suspender a assinatura de visualização.
 
-    ![Suspender a assinatura do Microsoft 365 Business Preview](images/pc_customer_m365bpreview_suspend.png)
+    ![Suspender a assinatura do Microsoft 365 Business Preview](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Selecione **Enviar** para confirmar.
 
     Na página **assinaturas** , confirme se o status do **Microsoft 365 Business Preview** mostra **suspenso**.
 
-    ![Confirmar se o status da assinatura de versão prévia é suspensa](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![Confirmar se o status da assinatura de versão prévia é suspensa](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Opcionalmente, você também pode validar o contrato de licença. Para fazer isso, execute estas etapas:
     1. Selecione **Usuários e licenças** da página **Assinaturas** da empresa.
     2. Na página **usuários e licenças** , selecione um usuário.
     3. Na página do usuário, marque a seção **atribuir licenças** e confirme se ela mostra o **Microsoft 365 Business**.
 
-        ![Confirmar se a licença do Microsoft 365 Business foi atribuída ao usuário](images/pc_customer_userslicenses_m365b_validate.png)
+        ![Confirmar se a licença do Microsoft 365 Business foi atribuída ao usuário](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Impacto nos clientes e usuários durante e após a transição
 

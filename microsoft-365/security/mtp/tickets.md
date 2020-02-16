@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 26e227b4b1e8047ca962ca9e65b139bacae55e03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599988"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086910"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 
@@ -61,7 +61,7 @@ Quando você cria uma permissão do ServiceNow no centro de segurança do Micros
 
 Navegue até a home page do centro de segurança do Microsoft 365 para ver o cartão de conexão do ServiceNow.
 
-![Você usa o ServiceNow](../images/do-you-use-servicenow-250.png)
+![Você usa o ServiceNow](../../media/do-you-use-servicenow-250.png)
 
 Selecione "conectar ao ServiceNow" para ir para a página de configuração do ServiceNow. Siga as instruções para autorizar o aplicativo conector 365 da Microsoft.
 
@@ -74,7 +74,7 @@ Após ter seguido as orientações e autorizar a conexão, veja o status da cone
 
 Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da Pontuação segura da Microsoft. Vá para qualquer ação de melhoria na pontuação segura no portal da central de segurança do Microsoft 365 e selecione o ícone "compartilhar". Uma das opções de DropDown é o ServiceNow.
 
-![Compartilhamento do ServiceNow em Pontuação segura](../images/servicenow-share.png)
+![Compartilhamento do ServiceNow em Pontuação segura](../../media/servicenow-share.png)
 
 Uma tarefa é gerada onde você pode definir a prioridade e editar o nome, a descrição ou a data de conclusão. Após todos os campos obrigatórios serem preenchidos, envie a tarefa para o ServiceNow.
 
@@ -84,7 +84,7 @@ A tarefa está visível no ServiceNow como uma solicitação de alteração de c
 
 Depois que o gerenciamento de alterações e as permissões de gerenciamento de incidentes tiverem sido criados, eles serão exibidos em cartões na home page do centro de segurança do Microsoft 365. A partir desses cartões, você pode criar um tíquete, exibir todos os tíquetes ou gerenciar a configuração do ServiceNow.
 
-![Tíquetes de gerenciamento de alterações do ServiceNow](../images/change-management-375.png)  ![Tíquetes de gerenciamento de incidentes do ServiceNow](../images/incident-management-375.png)
+![Tíquetes de gerenciamento de alterações do ServiceNow](../../media/change-management-375.png)  ![Tíquetes de gerenciamento de incidentes do ServiceNow](../../media/incident-management-375.png)
 
 Para reprovisionar ou gerenciar sua integração do ServiceNow no centro de segurança do Microsoft 365, selecione **gerenciar a configuração do servicenow** em qualquer um dos cartões. A partir daí, remova a conexão atual do ServiceNow e personalize os nomes de estado de tíquete.
 

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: cecc84c1df3ccba3eea75d29aa5f293909d5d51f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: af7ed71f2257578e4d4fb063b27cb81ed9802b1a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087739"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de dispositivos no centro de segurança do Microsoft 365
 
@@ -35,7 +35,7 @@ Cada alerta ATP do Microsoft defender tem uma severidade correspondente (alta, m
 
 Use o cartão de **severidade de alerta de dispositivo** para se concentrar especificamente nos alertas que são mais graves e podem exigir resposta imediata. Neste cartão, você pode exibir mais informações no portal da central de segurança do Microsoft defender.
 
-![Cartão de severidade de alertas de dispositivo](../images/device-alerts-severity.png)
+![Cartão de severidade de alertas de dispositivo](../../media/device-alerts-severity.png)
 
 ### <a name="understand-sources-of-alerts"></a>Entender fontes de alertas
 
@@ -43,7 +43,7 @@ O Microsoft defender ATP aproveita dados de uma ampla variedade de sensores de s
 
 O cartão de fontes de **detecção de alerta de dispositivo** mostra a distribuição de alertas por fonte. Este cartão pode ajudá-lo a controlar atividades relacionadas a determinadas fontes, particularmente suas fontes personalizadas. Você também pode usá-lo para se concentrar nos alertas provenientes de sensores que não estão configurados para bloquear automaticamente atividades ou componentes mal-intencionados.
 
-![Cartão de fontes de detecção de alerta de dispositivo](../images/device-alert-detection-sources.png)
+![Cartão de fontes de detecção de alerta de dispositivo](../../media/device-alert-detection-sources.png)
 
 Neste cartão, você pode exibir mais informações no portal da central de segurança do Microsoft defender.
 
@@ -53,13 +53,13 @@ O Microsoft defender ATP classifica cada alerta em uma categoria que representa 
 
 O cartão de **categorias de ameaça de dispositivo** mostra a distribuição de alertas nessas categorias. Você pode usar essas informações para identificar a atividade de ameaças, como tentativas de roubo de credenciais, que podem ter maior impacto em comparação às tentativas de engenharia social. Você também pode usar essas informações para monitorar ameaças potencialmente destrutivas, como ransomware.
 
-![Cartão de categorias de ameaças de dispositivos](../images/device-threat-categories.png)
+![Cartão de categorias de ameaças de dispositivos](../../media/device-threat-categories.png)
 
 ### <a name="monitor-active-alerts"></a>Monitorar alertas ativos
 
 O cartão de **status de alerta de dispositivo** indica o número de alertas que não foram resolvidos e podem exigir atenção. Neste cartão, você pode exibir mais informações no portal da central de segurança do Microsoft defender.
 
-![Cartão de status de alerta de dispositivos](../images/device-alert-status.png)
+![Cartão de status de alerta de dispositivos](../../media/device-alert-status.png)
 
 ### <a name="monitor-classification-of-resolved-alerts"></a>Monitorar a classificação de alertas resolvidos
 
@@ -72,7 +72,7 @@ O cartão de **classificação de alerta de dispositivo** mostra se seus alertas
 
 Observação: em alguns casos, as informações de classificação não estão disponíveis para determinados alertas.
 
-![Cartão de classificação de alerta de dispositivo](../images/device-alert-classification.png)
+![Cartão de classificação de alerta de dispositivo](../../media/device-alert-classification.png)
 
 ### <a name="monitor-determination-of-resolved-alerts"></a>Monitorar a determinação dos alertas resolvidos
 
@@ -89,13 +89,13 @@ O cartão de **determinação de alerta de dispositivo** mostra a determinação
 
 Neste cartão, você pode exibir mais informações na central de segurança do Microsoft defender.
 
-![Cartão de determinação de alerta do dispositivo](../images/device-alert-determination.png)
+![Cartão de determinação de alerta do dispositivo](../../media/device-alert-determination.png)
 
 ### <a name="understand-which-devices-are-at-risk"></a>Entender quais dispositivos estão em risco
 
 **Proteção de dispositivo** mostra o nível de risco para dispositivos. O nível de risco é baseado em fatores como o tipo e a gravidade de alertas no dispositivo.
 
-![Cartão de proteção de dispositivos](../images/device-protection.png)
+![Cartão de proteção de dispositivos](../../media/device-protection.png)
 
 ## <a name="monitor-and-report-status-of-intune-managed-devices"></a>Monitorar e relatar o status dos dispositivos gerenciados pelo Intune
 
@@ -114,43 +114,43 @@ Os dados do dispositivo registrados do Intune incluem:
 
 A **conformidade do dispositivo** mostra quantos dispositivos estão registrados no Intune em conformidade com as políticas de configuração.
 
-![Cartão de conformidade do dispositivo](../images/device-compliance.png)
+![Cartão de conformidade do dispositivo](../../media/device-compliance.png)
 
 ### <a name="discover-devices-with-malware-detections"></a>Descobrir dispositivos com detecções de malware
 
 As **detecções de malware de dispositivo** fornecem o número de dispositivos registrados pelo Intune com malware que não foram totalmente resolvidos. Isso pode ser devido a ações pendentes, a reinicialização, a uma verificação completa, ações manuais do usuário ou se a ação de correção não for concluída com êxito.
 
-![Cartão de detecções de malware de dispositivo](../images/device-malware-detections.png)
+![Cartão de detecções de malware de dispositivo](../../media/device-malware-detections.png)
 
 ### <a name="understand-the-types-of-malware-detected"></a>Compreender os tipos de malware detectados
 
 Os **tipos de malware nos dispositivos** mostram diferentes tipos de malware detectados em dispositivos registrados no Intune. Você pode investigar cada tipo na central de segurança do Microsoft 365.
 
-![Tipos de malware no cartão de dispositivos](../images/types-of-malware-on-devices.png)
+![Tipos de malware no cartão de dispositivos](../../media/types-of-malware-on-devices.png)
 
 ### <a name="understand-the-specific-malware-detected-on-your-devices"></a>Entender o malware específico detectado em seus dispositivos
 
 **Malware em dispositivos** fornecem uma lista de malware específico detectado em seus dispositivos.
 
-![Placa de malware em dispositivos](../images/malware-on-devices.png)
+![Placa de malware em dispositivos](../../media/malware-on-devices.png)
 
 ### <a name="understand-which-devices-have-the-most-malware"></a>Entender quais dispositivos têm mais malware
 
 **Dispositivos com detecções de malware** mostram quais dispositivos têm a maior quantidade de detecções de malware. no centro de segurança do Microsoft 365, você pode investigar se o malware está ativo, quem usa o dispositivo e seu status de gerenciamento no Intune.
 
-![Dispositivos com cartão de detecções de malware](../images/devices-with-malware-detections.png)
+![Dispositivos com cartão de detecções de malware](../../media/devices-with-malware-detections.png)
 
 ### <a name="understand-which-users-have-devices-with-the-most-malware"></a>Entender quais usuários têm dispositivos com mais malware
 
 **Os usuários com detecções de malware** mostram usuários com dispositivos com mais detecções de malware. Na central de segurança do Microsoft 365, você pode ver quantos dispositivos são atribuídos a cada usuário e mais informações sobre cada dispositivo e o tipo de malware.
 
-![Usuários com cartão de detecção de malware](../images/users-with-malware-detections.png)
+![Usuários com cartão de detecção de malware](../../media/users-with-malware-detections.png)
 
 ## <a name="monitor-and-manage-asr-rule-deployment-and-detections"></a>Monitorar e gerenciar a implantação e as detecções de regras ASR
 
 [As regras de redução da superfície de ataque (ASR)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) ajudam a evitar ações e aplicativos normalmente usados por malware de busca de exploração para infectar dispositivos. Essas regras controlam quando e como os executáveis podem ser executados. Por exemplo, você pode impedir que JavaScript ou VBScript inicie um executável baixado, bloqueie as chamadas da API Win32 de macros do Office ou bloqueie processos executados a partir de unidades USB.
 
-![Cartão de redução de superfície de ataque](../images/attack-surface-reduction-rules.png)
+![Cartão de redução de superfície de ataque](../../media/attack-surface-reduction-rules.png)
 
 O cartão de **regras de redução da superfície de ataque** fornece uma visão geral da implantação de regras nos seus dispositivos.
 
@@ -166,7 +166,7 @@ A parte inferior deste cartão mostra as configurações por regra em seus dispo
 
 Para exibir informações detalhadas sobre detecções de regra ASR em sua rede, selecione **Exibir detecções** no cartão de **regras de redução de superfície de ataque** . A guia **detecções** da página relatório detalhado será aberta.
 
-![Guia detecções](../images/detections-tab.png)
+![Guia detecções](../../media/detections-tab.png)
 
 O gráfico na parte superior da página mostra as detecções com as detecções de empilhamento de tempo que foram bloqueadas ou auditadas. A tabela na parte inferior lista as detecções mais recentes. Use as seguintes informações na tabela para entender a natureza das detecções:
 
@@ -179,7 +179,7 @@ O gráfico na parte superior da página mostra as detecções com as detecções
 
 Na página relatório de **regras de redução da superfície de ataque** , vá para a guia **configuração** para analisar as configurações de regra para dispositivos individuais. Selecione um dispositivo para obter informações detalhadas sobre se cada regra está no modo de bloqueio, modo de auditoria ou desativada inteiramente.
 
-![Guia Configuração](../images/configuration-tab.png)
+![Guia Configuração](../../media/configuration-tab.png)
 
 O Microsoft Intune fornece funcionalidade de gerenciamento para suas regras ASR. Se você quiser atualizar suas configurações, selecione **começar** em **configurar dispositivos** na guia para abrir o gerenciamento de dispositivos no Intune.
 
@@ -192,7 +192,7 @@ As exclusões são gerenciadas no Microsoft Intune, mas o centro de segurança d
 >[!NOTE]  
 >A ferramenta analisa as detecções por todas as regras de redução da superfície de ataque, mas [apenas algumas regras dão suporte a exclusões](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-asr).
 
-![Adicionar guia exclusões](../images/add-exclusions-tab.png)
+![Adicionar guia exclusões](../../media/add-exclusions-tab.png)
 
 A tabela lista todos os nomes de arquivo detectados por suas regras de redução de superfície de ataque. Você pode selecionar arquivos para revisar o impacto da exclusão deles:
 

@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca9b752f55ebe3fecec4f312bc89b45d99cf0d7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067440"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Políticas para permitir acesso B2B e de convidado externo
 Este artigo descreve como ajustar as políticas comuns de acesso de dispositivo e identidades recomendadas para permitir o acesso de contas de B2B (convidados e usuários externos). Este guia é baseado nas [políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md).
@@ -33,7 +33,7 @@ O fornecimento de um caminho para que os usuários B2B autentiquem com seu locat
 
 O diagrama a seguir ilustra as políticas comuns de acesso de dispositivo e identidades e indica (com um ícone de lápis) quais políticas serão adicionadas ou atualizadas para proteger o acesso externo e convidado. 
 
-![Resumo das atualizações de política para proteger o acesso de convidados](../images/identity-access-ruleset-guest.png)
+![Resumo das atualizações de política para proteger o acesso de convidados](../media/identity-access-ruleset-guest.png)
 
 A tabela a seguir lista as políticas que você precisa atualizar ou criar novas. O link de políticas comuns para as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) .
 
@@ -45,7 +45,7 @@ A tabela a seguir lista as políticas que você precisa atualizar ou criar novas
 
 Para incluir ou excluir convidados e usuários externos nas regras de acesso condicional, clique na guia incluir ou excluir e marque **todos os convidados e usuários externos**.
 
-![captura de tela de controles para excluir convidados](../images/identity-access-exclude-guests-ui.png)
+![captura de tela de controles para excluir convidados](../media/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>Mais informações
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ebe2d0267f3be1a157494babef6443a5c5101e46
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2a3a635b7fd189d380b4323fcf2dc09447e12efe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087940"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 

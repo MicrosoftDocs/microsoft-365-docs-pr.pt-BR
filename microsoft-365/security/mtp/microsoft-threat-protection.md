@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 031fc4164307d9fa8c78f02c775b230f7eff5383
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c165ec5869f8f53c28fb28414a04d73033a5772
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087592"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
@@ -48,13 +48,13 @@ A camada exclusiva de produtos cruzados do Microsoft Threat Protection aumenta o
 - Automatizar a resposta para comprometer ao acionar a auto-recuperação de ativos impactados por meio da correção automatizada
 - Permitir que as equipes de segurança realizem uma busca detalhada e eficaz de ameaças nos dados do Office e do ponto de extremidade
 
-![Imagem da página de visão geral do incidente](../images/overview-incident.png) <br>
+![Imagem da página de visão geral do incidente](../../media/overview-incident.png) <br>
 Incidente entre produtos (visão geral)
 
-![Imagem da fila de alertas](../images/incident-list.png)<br>
+![Imagem da fila de alertas](../../media/incident-list.png)<br>
 Todos os alertas relacionados nos produtos do pacote que foram correlacionados em um único incidente (modo de exibição de alertas)
 
-![Imagem da fila de incidentes](../images/advanced-hunting.png)<br>
+![Imagem da fila de incidentes](../../media/advanced-hunting.png)<br>
 Busca baseada em consulta na parte superior dos dados brutos de email e ponto de extremidade
 
 

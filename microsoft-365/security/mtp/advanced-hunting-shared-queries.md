@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6e5dd8d1d80d08ed808bc607fcc7aba8a390a9ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6f6468117f73d6cf7079ce50e8ea951422bfc073
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087413"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Usar consultas compartilhadas na busca avançada
 
@@ -33,7 +33,7 @@ ms.locfileid: "41600308"
 
 [Buscas avançadas](advanced-hunting-overview.md) consultas podem ser compartilhadas entre usuários na mesma organização. Você também pode encontrar consultas compartilhadas publicamente no GitHub. Essas consultas permitem que você pesquise rapidamente cenários de busca específica de ameaças sem ter que escrever consultas do zero.
 
-![Imagem de consultas compartilhadas](../images/advanced-hunting-shared-queries.png)
+![Imagem de consultas compartilhadas](../../media/advanced-hunting-shared-queries.png)
 
 ## <a name="save-modify-and-share-a-query"></a>Salvar, modificar e compartilhar uma consulta
 Você pode salvar uma consulta nova ou existente para que ela possa ser acessada ou apenas por você ou então compartilhada com outros usuários em sua organização. 
@@ -44,7 +44,7 @@ Você pode salvar uma consulta nova ou existente para que ela possa ser acessada
     
 3. Digite um nome para a consulta. 
 
-   ![Imagem de salvamento de uma consulta](../images/advanced-hunting-save-query.png)
+   ![Imagem de salvamento de uma consulta](../../media/advanced-hunting-save-query.png)
 
 4. Selecione a pasta em que você deseja salvar a consulta.
     - **Consultas compartilhadas** — compartilhadas com todos os usuários da organização
@@ -55,7 +55,7 @@ Você pode salvar uma consulta nova ou existente para que ela possa ser acessada
 ## <a name="delete-or-rename-a-query"></a>Excluir ou renomear uma consulta
 1. Clique com o botão direito do mouse em uma consulta que você deseja renomear ou excluir.
 
-    ![Imagem da exclusão de consulta](../images/advanced_hunting_delete_rename.png)
+    ![Imagem da exclusão de consulta](../../media/advanced_hunting_delete_rename.png)
 
 2. Selecione **Exclua** e confirme a exclusão. Ou selecione **Renomear** e forneça um novo nome para a consulta.
 

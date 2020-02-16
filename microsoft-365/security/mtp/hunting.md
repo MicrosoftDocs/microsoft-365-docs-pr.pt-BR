@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 9f647ba306215d20d6fb1d0c7dbfd8d3b96fb909
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7e41190d3cad9328e678ff47b0e0bf0d38adb7c9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087711"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Busca por ameaças no Microsoft 365
 
@@ -28,7 +28,7 @@ Com recursos de busca de ameaças no centro de segurança do Microsoft 365, voc�
 - Microsoft defender ATP — [busca por ameaças a dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
 - Azure ATP – procurar [ameaças a identidades](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)
 
-![Página de busca](../images/hunt.png)
+![Página de busca](../../media/hunt.png)
 
 
 ## <a name="hunt-with-microsoft-threat-protection"></a>Caça com a proteção contra ameaças da Microsoft

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET15
-ms.openlocfilehash: 7ad87bc8ce72175555864e314f3155b362748979
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3a21bf3166191a0a3ef2caf2f78fe0734711961f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083590"
 ---
 # <a name="microsoft-365-security-preview-features"></a>Versões experimentais ou prévias de recursos de Segurança do Microsoft 365
 
