@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como exigir a MFA e configurar as políticas de acesso condicional para o Microsoft 365 Business.
-ms.openlocfilehash: b65cccf9931da4701157f26ffece7a7c90689094
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7898ded24bb66545b903ab98f3c7aa78d95860f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594856"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056395"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifator e configurar políticas de acesso condicional
 
@@ -58,13 +58,13 @@ Para exigir que todos os usuários entrem com uma segunda forma de ID:
 2. Na página configuração, escolha **Exibir** no cartão de **entrada tornar login** .
 
 
-    ![Crie um cartão de logon mais seguro.](media/setupmfa.png)
+    ![Crie um cartão de logon mais seguro.](../media/setupmfa.png)
 3. Na página tornar o login mais seguro, escolha **introdução**.
  
 4. No painel de segurança reforçar a entrada, marque as caixas de seleção ao lado de **exigir autenticação multifator para administradores** e **exigir que os usuários se registrem para a autenticação multifator e bloquear o acesso se o risco for detectado**.
     Certifique-se de excluir a conta de administrador de [emergência](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) ou de "quebra-vidro" do requisito da MFA na caixa **localizar usuários** .
     
-    ![Fortaleça a página de segurança de entrada.](media/requiremfa.png)
+    ![Fortaleça a página de segurança de entrada.](../media/requiremfa.png)
 
 5. Escolha **criar política** na parte inferior da página.
 
@@ -74,7 +74,7 @@ Para exigir que todos os usuários entrem com uma segunda forma de ID:
     
     As políticas de linha de base estão listadas na página e você pode ver que **exigir MFA para administradores** e **proteção do usuário final** já está habilitada após a conclusão das etapas em [exigir MFA](#require-mfa).
 
-    ![Página que lista as políticas de linha de base para acesso condicional.](media/casettings.png)
+    ![Página que lista as políticas de linha de base para acesso condicional.](../media/casettings.png)
 2. Consulte as seguintes instruções específicas para cada política:
 
     - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)

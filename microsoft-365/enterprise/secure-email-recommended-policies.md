@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: e8c2b10f3e1dd88703b15c326dedb164a686cfca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: aea95dae0165eb23331b2fa24d5fc752df3f4345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084301"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
@@ -34,7 +34,7 @@ Essas recomendações exigem que seus usuários usem clientes de email modernos,
 
 O diagrama a seguir ilustra as políticas comuns de acesso de dispositivo e identidades e indica quais políticas precisam ser atualizadas para proteger o email. Observe a adição de uma nova regra para o Exchange Online bloquear clientes ActiveSync. Isso força o uso do Outlook Mobile.
 
-![Resumo das atualizações de política para proteção de email](../images/identity-access-ruleset-mail.png)
+![Resumo das atualizações de política para proteção de email](../media/identity-access-ruleset-mail.png)
 
 Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada regra vincula as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) .
 

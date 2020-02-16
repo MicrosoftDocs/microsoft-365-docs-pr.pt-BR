@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business.
-ms.openlocfilehash: 0a7aafdda384624767e06c0b39c5a58784ac0a0a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593732"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065633"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Visão geral do Microsoft 365 Business
 
@@ -63,7 +63,7 @@ Seus dados corporativos podem ser comprometidos de várias maneiras. Você e seu
 
 O Microsoft 365 Business ajuda a proteger seus dados em cada uma dessas instâncias. Os recursos de segurança que protegem seus dados corporativos são detalhados na figura a seguir.
 
-![Uma figura que mostra como o M365B protege sua empresa.](media/m365businessvalueadd.png)
+![Uma figura que mostra como o M365B protege sua empresa.](../media/m365businessvalueadd.png)
 
 ## <a name="how-your-data-and-devices-are-protected"></a>Como os dados e dispositivos são protegidos
 

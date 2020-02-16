@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c72e340092bbd366277114a56aae7574d43dab5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085072"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos de equipes
 
@@ -45,7 +45,7 @@ Você não precisa habilitar os serviços dependentes para começar a usar o Mic
 
 O diagrama a seguir ilustra o conjunto de políticas recomendadas para proteger o chat, os grupos e o conteúdo no Microsoft Teams. O ícone de lápis indica quais políticas precisam ser revisitadas para garantir que as equipes e os serviços dependentes estejam incluídos na atribuição de aplicativos em nuvem.
 
-![Um diagrama mostrando como usar o Microsoft Teams em vários dispositivos.](../images/identity-access-ruleset-teams.png)
+![Um diagrama mostrando como usar o Microsoft Teams em vários dispositivos.](../media/identity-access-ruleset-teams.png)
 
 Estes são os serviços dependentes a serem incluídos na atribuição de aplicativos de nuvem para o Teams:
 
@@ -76,7 +76,7 @@ Esta tabela lista as políticas que precisam ser revisitadas e links para cada p
 
 Para referência, o diagrama a seguir ilustra a equipe de serviços que se baseia no. Para obter mais informações e ilustrações adicionais, consulte [Microsoft Teams e serviços de produtividade relacionados no microsoft 365 para arquitetos de ti](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects).
 
-![Diagrama mostrando dependências do teams no SharePoint Online, no OneDrive for Business e no Exchange.](../images/identity-access-logical-architecture-teams.png)
+![Diagrama mostrando dependências do teams no SharePoint Online, no OneDrive for Business e no Exchange.](../media/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>Habilitando o acesso externo e de convidados para o Teams
 

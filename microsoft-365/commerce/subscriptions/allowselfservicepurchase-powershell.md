@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba como usar o cmdlet do AllowSelfServicePurchase PowerShell para ativar ou desativar a compra de autoatendimento.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5149a07daeedae3c28bc4326b92bb20881faebe2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0e9f9e3ee87f62b903e4bf7069f31319253de62d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080338"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Usar o AllowSelfServicePurchase para o módulo MSCommerce PowerShell
 
@@ -33,7 +33,7 @@ Você pode usar o módulo do PowerShell do **MSCommerce** para:
 - Exibir uma lista de produtos aplicáveis e se a compra de autoatendimento está habilitada ou desabilitada
 - Exibir ou modificar a configuração atual de um produto específico para habilitá-lo ou desabilitá-lo
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Para usar o módulo **MSCommerce** do PowerShell, você precisa:
 

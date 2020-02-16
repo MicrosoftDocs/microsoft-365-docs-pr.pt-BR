@@ -12,16 +12,16 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 964756a1fadba89f644a0d04c1d35d2945b78c6c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9a53759eafbedc6b48d2a6266b4b52777112941d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085560"
 ---
 # <a name="step-4-monitor-device-health-and-compliance"></a>Etapa 4: Monitorar a integridade e a conformidade do dispositivo
 
-![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 O Windows Analytics usa dados de diagnóstico para fornecer informações ricas e acionáveis para ajudá-lo a obter ideias profundas sobre a eficiência operacional e a integridade de dispositivos Windows 10 em seu ambiente.
 
@@ -35,4 +35,4 @@ Como ponto de verificação provisório, é possível conferir os [Critérios de
 
 |||
 |:-------|:-----|
-|![Etapa 5](./media/stepnumbers/Step5.png)| [Implantar recursos de segurança do Windows 10 Enterprise](windows10-enable-security-features.md) |
+|![Etapa 5](../media/stepnumbers/Step5.png)| [Implantar recursos de segurança do Windows 10 Enterprise](windows10-enable-security-features.md) |

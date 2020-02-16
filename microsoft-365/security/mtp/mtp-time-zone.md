@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9240010c6459123d19a38f5a2be40550ee73df39
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d6fd2c5cb6e22ae3aab2853a035fb41bee69f670
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086960"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>Definir o fuso horário da Proteção contra Ameaças da Microsoft
 

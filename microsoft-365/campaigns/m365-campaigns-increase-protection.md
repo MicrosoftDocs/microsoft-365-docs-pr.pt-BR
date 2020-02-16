@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365 Business
-ms.openlocfilehash: 3cfb8d0a38fc797ec25fb0e4e33409e225646ef2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2dfccc7041c5fa32fb56d2ef2b113e9a3c883392
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080620"
 ---
 # <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
 
@@ -48,7 +48,7 @@ O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware, m
     
 3. Clique duas vezes na política padrão para editar a política em toda a empresa.
     
-4. Clique em **configurações**.
+4. Clique em **Configurações**.
     
 5. Em **filtro tipos de anexo comuns**, selecione **ativado**. Os tipos de arquivo bloqueados são listados na janela diretamente abaixo desse controle.  Certifique-se de adicionar estes tipos de filetype:
    - Ade, ADP, Ani, Bas, bat, CHM, cmd, com, CPL, CRT, HLP, HT, HTA, inf, ins, ISP, Job, js, jse, lnk, o mdb, o MDE, o registro, o MSC, o (a) msp, o. exe, o, o, o VB, vbe, vbs,  <br/> Você pode adicionar ou excluir tipos de arquivo posteriormente, se necessário.
@@ -89,7 +89,7 @@ Para criar uma regra de transporte de emails:
 |Faça o seguinte. . .  <br/> |Notificar o destinatário com uma mensagem  <br/> |
 |Fornecer texto da mensagem  <br/> |Não abra esses tipos de arquivos de pessoas que você não sabe porque eles podem conter macros com código mal-intencionado.  <br/> |
    
-Para saber mais, confira:
+Para saber mais, veja:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
@@ -160,24 +160,24 @@ Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Pol
   
 ## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>Proteção contra anexos mal-intencionados, arquivos e links com a proteção avançada contra ameaças (ATP)
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](../business/media/m365admincenterchanging.png)
+![Faixa que aponta para https://aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)
 
 Primeiro, verifique se a nova visualização do centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> administração está ativada no centro de administração. Ative a alternância ao lado do texto **o novo centro de administração**.
 
-   ![A nova visualização do centro de administração.](media/previewon.png)
+   ![A nova visualização do centro de administração.](../media/previewon.png)
 
 Se você ainda não vir a página de **instalação** com cartões no seu locatário, consulte como concluir essas etapas no centro de conformidade &amp; de segurança do Office 365. Confira [set up ATP Safe Attachments no centro de conformidade de & de segurança](#set-up-atp-safe-attachments-in-the-security--compliance-center) e [Configurar links de ATP seguros no centro de conformidade de & de segurança](#set-up-atp-safe-links-in-the-security--compliance-center).
 
 1.  No painel de navegação esquerdo, escolha **configuração**.
 2. Na página **configuração** , escolha **Exibir** no cartão **aumentar a proteção contra ameaças avançadas** .</br></br>
-    ![Escolha Exibir na barra de aumento de proteção contra ameaças avançadas.](media/startatp.png) 
+    ![Escolha Exibir na barra de aumento de proteção contra ameaças avançadas.](../media/startatp.png) 
 
 3. Na página **aumentar a proteção contra ameaças avançadas** , escolha **introdução**.
 4. No painel que é aberto, marque as caixas de seleção ao lado de **links e anexos em email**, **examinar arquivos no SharePoint, no onedrive e no Microsoft Teams**e **examinar links no Office Desktop e aplicativos do Office Online** em **itens de varredura de conteúdo mal-intencionado**.
 
       - Em **links e anexos em email**, digite todos os usuários ou os usuários específicos cujo email você deseja verificar.
 
-    ![Marque todas as caixas de seleção em aumentar a proteção contra ameaças avançadas.](media/setatp.png)
+    ![Marque todas as caixas de seleção em aumentar a proteção contra ameaças avançadas.](../media/setatp.png)
 5. Escolha **criar políticas** para ativar os anexos seguros ATP e links seguros de ATP.
 
 ### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>Configurar anexos seguros de ATP no centro de conformidade de & de segurança
@@ -263,7 +263,7 @@ Você deve receber a função de logs de auditoria no Exchange Online para ativa
 1. Para ativar a pesquisa de log de auditoria, vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e, em seguida, escolha **conformidade** em **centros de administração** no painel de navegação esquerdo. 
 2. Na página de **conformidade do Microsoft 365** , escolha **mais recursos**e, em seguida, **abra** no cartão centro de ** &amp; segurança do Office 365** .
 
-    ![Escolha abrir no Office 365 Security & carros de conformidade.](media/gotosecandcomp.png)
+    ![Escolha abrir no Office 365 Security & carros de conformidade.](../media/gotosecandcomp.png)
 3. Na página segurança e conformidade, escolha **Pesquisar** e, em seguida, **pesquisa log de auditoria**.
 1. Na parte superior da página **pesquisa de log de auditoria** , escolha **ativar a auditoria**.
 
@@ -276,14 +276,14 @@ Após o recurso ser ativado, você pode pesquisar arquivos, pastas e muitas ativ
 2. No centro de administração do SharePoint, vá para **compartilhamento**de **políticas** \> .
 3. Na página **compartilhamento** , em **links de arquivo e pasta**, selecione **pessoas específicas**e, em **Configurações avançadas para links "qualquer pessoa"**, selecione **estes links devem expirar dentro de vários dias**e digite 14 (ou outro número de dias em que você deseja restringir o tempo de vida do link).
 
-    ![Escolha pessoas específicas e defina o término do link como 14 dias.](media/anyonelinks.png)
+    ![Escolha pessoas específicas e defina o término do link como 14 dias.](../media/anyonelinks.png)
 
 ## <a name="activity-alerts"></a>Alertas de atividade
 
 Você pode usar os alertas de atividade para rastrear as atividades de administrador e de usuário e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar itens personalizados. Para obter mais informações, consulte [políticas de alerta](https://docs.microsoft.com/office365/securitycompliance/alert-policies). Por exemplo, se você armazenar um arquivo importante no SharePoint que você não deseja que todos compartilhem externamente, você pode criar uma notificação que o alertará se alguém o compartilhar.
 
 A figura a seguir mostra as políticas padrão incluídas no Microsoft 365 Business. <br/><br/>
-    ![Políticas de alerta padrão incluídas no Microsoft 365 Business.](media/alertpolicies.png)
+    ![Políticas de alerta padrão incluídas no Microsoft 365 Business.](../media/alertpolicies.png)
 
 ## <a name="disable-or-manage-calendar-sharing"></a>Desabilitar ou gerenciar o compartilhamento de calendário
 
@@ -296,10 +296,10 @@ Você pode impedir que as pessoas em sua organização compartilhem seus calend�
 3. Escolha **salvar alterações** na parte inferior da página.
 
     A figura a seguir mostra o compartilhamento de calendários não permitido. </br></br>
-    ![Captura de tela mostrando o compartilhamento de calendário externo como não permitido.](media/nocalendarsharing.png)
+    ![Captura de tela mostrando o compartilhamento de calendário externo como não permitido.](../media/nocalendarsharing.png)
 
     A figura a seguir mostra as configurações quando o compartilhamento de calendário é permitido com um link de email com apenas informações de disponibilidade.
 
-   ![Captura de tela do compartilhamento de disponibilidade do calendário com qualquer pessoa.](media/sharefreebusy.png)
+   ![Captura de tela do compartilhamento de disponibilidade do calendário com qualquer pessoa.](../media/sharefreebusy.png)
 
 Se os usuários tiverem permissão para compartilhar seus calendários, confira [estas instruções](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5) sobre como compartilhar do Outlook na Web.

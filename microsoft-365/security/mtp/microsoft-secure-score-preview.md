@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3fe8a390e92e56a98d16a4cbc647a74b38c248ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1039232750e52b3c03cbe7c8190498382c795708
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087560"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
@@ -100,7 +100,7 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
-![Home Page](../media/secure-score/secure-score-homepage.png)
+![Home Page](../../media/secure-score/secure-score-homepage.png)
 de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
@@ -115,7 +115,7 @@ A classificação baseia-se no número de outros pontos restantes para atingir, 
 
 Quando você seleciona uma ação de aprimoramento específica, um submenu de página inteira aparece.  
 
-![Exemplo](../media/secure-score/secure-score-improvement-action.png)
+![Exemplo](../../media/secure-score/secure-score-improvement-action.png)
 de submenu de ação de melhoria*Figura 2: exemplo de submenu de ação de melhoria*
 
 Para concluir a ação, você tem algumas opções:

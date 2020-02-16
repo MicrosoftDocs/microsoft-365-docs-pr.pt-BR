@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 1a8cea3b11ecdc6e3ac6d382dc8ffe92c84e187a
-ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
+ms.openlocfilehash: a9e49f5b9b518711f72c9b9a29e690c55acf3861
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41932271"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080299"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -85,7 +85,7 @@ Os compradores de autoatendimento podem gerenciar suas compras no modo de exibi�
 
 **Veja o centro de administração do Microsoft 365 limitado para compradores de autoatendimento:**
 
-![Captura de tela do centro de administração do Microsoft 365.](../media/MACBillingProductsServicesSelfServicePurchaseIW.png)
+![Captura de tela do centro de administração do Microsoft 365.](../../media/MACBillingProductsServicesSelfServicePurchaseIW.png)
 
 ## <a name="pricing"></a>Preços
 

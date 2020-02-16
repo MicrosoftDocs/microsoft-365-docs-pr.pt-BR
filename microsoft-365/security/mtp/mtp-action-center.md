@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: a0b86240e09838ff290bb9c3b4b53f5cce3e2995
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5f31c9cb5272248ae8250f73d054ca599b83edc2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600118"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083770"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
 
@@ -34,7 +34,7 @@ ms.locfileid: "41600118"
 
 ## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
 
-![Central de Ações](../images/air-actioncenter.png)
+![Central de Ações](../../media/air-actioncenter.png)
 
 Use a Central de ações para ver os resultados de investigações atuais e anteriores nos dispositivos e caixas de correio da sua organização. Dependendo do tipo de ameaça e [veredito resultante](mtp-autoir-results.md#remediation-actions-following-automated-investigation), as ações de correção ocorrem automaticamente ou mediante aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
 
@@ -65,9 +65,9 @@ A tabela a seguir lista as ações de correção com suporte no momento na Centr
 
     - A guia **Histórico** lista investigações anteriores e ações de correção que foram executadas automaticamente. Você pode exibir dados do dia, semana, mês ou seis meses anteriores.
 
-4. Para mostrar somente as colunas que você deseja ver, selecione **Personalizar colunas**.<br/>![Central de ações em Proteção contra Ameaças da Microsoft](../images/mtp-action-center.png)
+4. Para mostrar somente as colunas que você deseja ver, selecione **Personalizar colunas**.<br/>![Central de ações em Proteção contra Ameaças da Microsoft](../../media/mtp-action-center.png)
 
-5. Selecione um item na lista para exibir mais detalhes sobre uma investigação. A visualização de detalhes da investigação abrirá.<br/>![Detalhes da investigação](../images/mtp-air-investdetails.png)
+5. Selecione um item na lista para exibir mais detalhes sobre uma investigação. A visualização de detalhes da investigação abrirá.<br/>![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
     - Se a investigação se refere a conteúdo de email (por exemplo, a entidade é uma caixa de correio), detalhes de investigação abrirão no Centro de Conformidade e Segurança do Office 365 ([https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation)). 
 

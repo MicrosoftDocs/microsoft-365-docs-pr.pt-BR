@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 586b887c9c5c1e4c19623c89dd08ed62ba0d4bb2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: acc515d046b1ebd2ff7c5dd9c52b363fe99f0b9e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087451"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -53,7 +53,7 @@ DeviceProcessEvents
 
 Esta é a aparência do aspecto da pesquisa avançada.
 
-![Imagem da consulta caça avançada do Microsoft defender ATP](../images/advanced-hunting-query-example.png)
+![Imagem da consulta caça avançada do Microsoft defender ATP](../../media/advanced-hunting-query-example.png)
 
 A consulta começa com um pequeno comentário descrevendo o que é para isso. Isso ajudará se você decidir salvar sua consulta mais tarde e compartilhá-la com outras pessoas em sua organização.
 
@@ -130,7 +130,7 @@ Os dados em tabelas de caça avançada geralmente são classificados nos seguint
 
 A seção **introdução** fornece algumas consultas simples usando operadores usados com frequência. Tente executar essas consultas e faça pequenas modificações nelas.
 
-![Imagem da janela de caça avançada](../images/advanced-hunting-get-started.png)
+![Imagem da janela de caça avançada](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
 >Além das amostras básicas de consulta, você também pode acessar [consultas compartilhadas](advanced-hunting-shared-queries.md) para cenários específicos de busca de ameaças. Explore as consultas compartilhadas, no lado esquerdo da página ou no repositório de consultas do GitHub.

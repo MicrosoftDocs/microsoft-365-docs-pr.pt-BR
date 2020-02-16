@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 77770904454228f595e1772e5f6927f943af8294
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fa572e71ec5b6613e5db7751e0341ea94fb9bf5f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600108"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087531"
 ---
 # <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>Aprovar ou rejeitar ações pendentes após a investigações automáticas
 
@@ -54,11 +54,11 @@ Ações pendentes podem ser revisadas e aprovadas usando um dos vários métodos
 
     - Se você selecionar um item na coluna**número da investigação **, a página detalhes da investigação será aberta. Nessa página, você pode checar os resultados da investigação e aprovar ou rejeitar a ação recomendada.
  
-    - Se você selecionar uma linha na lista, um submenu será aberto, onde serão mostradas informações sobre esse item. <br/>![Aprovar ou rejeitar uma ação](../images/air-actioncenter-itemselected.png)<br/>Use os links para exibir um alerta ou uma investigação associada e aprovar ou rejeitar a ação.
+    - Se você selecionar uma linha na lista, um submenu será aberto, onde serão mostradas informações sobre esse item. <br/>![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)<br/>Use os links para exibir um alerta ou uma investigação associada e aprovar ou rejeitar a ação.
 
 ## <a name="review-a-pending-action-in-the-investigation-details-view"></a>Revisar uma ação pendente na exibição dos detalhes da investigação
 
-![Detalhes da investigação](../images/mtp-air-investdetails.png)
+![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
 1. Na página [detalhes da investigação](mtp-autoir-results.md), selecione a guia **Ações pendentes** (ou **Ações**). Os itens pendentes estarão listados aqui.
 

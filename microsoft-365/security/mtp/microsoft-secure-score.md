@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ec659a939064d34d3e0cc078a90cd343e495ae58
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 6a0caa80d89ad40c3a2e2b0caa55c8dc2027a06d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087250"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -97,7 +97,7 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
-![Home Page](../media/secure-score/homepage-original.png)
+![Home Page](../../media/secure-score/homepage-original.png)
 de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
@@ -122,7 +122,7 @@ Quando você seleciona uma ação de aprimoramento específica, uma saída é ex
 
 4. Selecione **revisar** porque a ação de aprimoramento exige que você examine regularmente uma parte do seu ambiente para ganhar e manter pontos. Por exemplo, as regras de encaminhamento de caixa de correio devem ser revisadas semanalmente para garantir que os dados não sejam vazadas da sua rede. Você não precisa fazer alterações, mas será necessário executar uma ação. Se você examinar as regras regularmente, receberá os pontos. Caso contrário, a pontuação será reduzida.
 
-![Exemplo de ação de melhoria da Pontuação de segurança](../media/secure-score/secure-score1x450.png) ![Exemplo de ação de melhoria de análise de pontos de segurança](../media/secure-score/secure-score2x450.png)
+![Exemplo de ação de melhoria da Pontuação de segurança](../../media/secure-score/secure-score1x450.png) ![Exemplo de ação de melhoria de análise de pontos de segurança](../../media/secure-score/secure-score2x450.png)
 
 *Figuras 2 & 3: aprimorar submenus de ação*
 
@@ -140,7 +140,7 @@ Para tornar a pontuação segura da Microsoft um melhor representante da postura
 
 ### <a name="removed-not-scored-improvement-actions"></a>Ações de melhoria "não classificadas" removidas
 
-Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis.  
+Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. A pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis.  
 
 Por esses motivos, todas as ações de melhoria que não foram pontuadas foram removidas. Nenhuma ação é necessária em sua parte.
 
@@ -210,11 +210,7 @@ Novas ações de aprimoramento foram adicionadas:
 
 Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. Revisar as ações de melhoria não são medidas para o mesmo padrão que outras ações de aprimoramento.  
 
-Por esses motivos, todas as ações de melhoria que exigiram uma cadência de revisão serão removidas temporariamente. Nenhuma ação é necessária em sua parte.
-
-### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
-
-Para padronizar pontos em várias experiências, cada ponto de ação de melhoria de Pontuação segura será atualizado para ter 10 pontos ou menos. É necessário ser mais consistente em todo o espectro de controles de segurança que temos hoje e aqueles que iremos adicionar no futuro. Embora essa seja uma alteração significativa e você veja os totais de pontos de projeção, não haverá mudanças na sua postura de segurança.  
+Por esses motivos, todas as ações de melhoria que exigiram uma cadência de revisão serão removidas temporariamente. Nenhuma ação é necessária em sua parte. 
 
 ### <a name="preview-features"></a>Visualização prévia de recursos
 
@@ -225,6 +221,7 @@ Os seguintes recursos serão incluídos na [versão prévia](microsoft-secure-sc
 * Melhor controle e monitoramento para regressões de Pontuação
 * Filtrar, marcar, Pesquisar e agrupar suas ações de aperfeiçoamento
 * Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
+* Simplificação do sistema de pontos
 * E muito mais!
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião

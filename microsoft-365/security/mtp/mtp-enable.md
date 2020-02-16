@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a85680e323c7a8fba6f2d74d5cc00c58c2013d23
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 8f966060ebc9a30166647b397b93f2b45356df74
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662047"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083712"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -45,7 +45,7 @@ A proteção contra ameaças da Microsoft agrega dados dos vários serviços int
 
 Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) não mostra os **incidentes** e as opções da **central de ações** no painel de navegação.
 
-![Imagem do painel de navegação do centro de segurança do Microsoft 365 sem](../images/mtp-off.png)
+![Imagem do painel de navegação do centro de segurança do Microsoft 365 sem](../../media/mtp-off.png)
 o Microsoft Threat Protection recursos*Microsoft 365 Security Center com a proteção contra ameaças da Microsoft desativada*
 
 Para ativar a proteção contra ameaças da Microsoft, selecione **configurações** no painel de navegação. Na **[página Configurações](https://security.microsoft.com/settings)**, vá para**aceitação/** aceitação de **proteção** > contra ameaças da Microsoft.
@@ -65,7 +65,7 @@ Depois que o serviço é provisionado, ele adiciona:
 - Uma central de ações para gerenciar [investigações e respostas automatizadas](mtp-autoir.md)
 - Recursos de [Busca avançada](advanced-hunting-overview.md) para as páginas de **Busca** existentes
 
-![Imagem do painel de navegação do centro de segurança do Microsoft 365 com](../images/mtp-on.png)
+![Imagem do painel de navegação do centro de segurança do Microsoft 365 com](../../media/mtp-on.png)
 o Microsoft Threat Protection apresenta a*central de segurança da Microsoft 365 com gerenciamento de incidentes e outros recursos de proteção contra ameaças da Microsoft*
 
 ### <a name="getting-azure-atp-data"></a>Obter dados da ATP do Azure

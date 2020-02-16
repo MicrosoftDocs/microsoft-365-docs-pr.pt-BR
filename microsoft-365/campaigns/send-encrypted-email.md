@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: 1a450a9891d47a136798432fdb919349fb82e097
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 559998326caedaf3352741ad9083940f79b1a614
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594732"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080449"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografar ou rotular seus emails confidenciais
 
@@ -43,7 +43,7 @@ Antes de enviar emails com informações confidenciais ou confidenciais, conside
 - **Criptografia:** Você pode criptografar seu email para proteger a privacidade das informações no email. Quando você criptografa uma mensagem de email, ela é convertida de texto sem formatação legível em texto Cypher embaralhado. Somente o destinatário que tem a chave privada que corresponde à chave pública usada para criptografar a mensagem pode decifrar a mensagem para leitura. No entanto, qualquer destinatário sem a chave privada correspondente vê o texto indecifrável. O administrador pode definir regras para criptografar automaticamente as mensagens que atendem a determinados critérios. Por exemplo, o administrador pode criar uma regra que criptografe todas as mensagens enviadas fora da sua organização ou todas as mensagens que mencionam palavras ou frases específicas. Qualquer regra de criptografia será aplicada automaticamente.
 - **Rótulos de sensibilidade:** Sua campanha também pode configurar rótulos de confidencialidade que você pode aplicar aos seus arquivos e email para mantê-los em conformidade com as políticas de proteção de informações da sua campanha. Quando você define um rótulo, o rótulo persiste com seu email, mesmo quando ele é enviado por exemplo, aparecendo como um cabeçalho para sua mensagem.
 
-![Diagrama de um email com textos explicativos para rótulos e criptografia](media/m365-campaign-email-encrypt.png)
+![Diagrama de um email com textos explicativos para rótulos e criptografia](../media/m365-campaign-email-encrypt.png)
 
 
 ## <a name="set-it-up"></a>Configuração

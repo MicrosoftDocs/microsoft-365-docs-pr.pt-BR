@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0450bf5e37775ed721b307fed1034556ab73a08a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1b6411d04c2ecc8c646072e4da61dea1c470db5a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086970"
 ---
 # <a name="manage-access-to-microsoft-threat-protection"></a>Gerenciar o acesso à Proteção contra Ameaças da Microsoft
 

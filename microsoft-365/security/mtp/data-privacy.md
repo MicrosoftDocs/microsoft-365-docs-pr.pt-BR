@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d439321bd2c4ea2251f2d9069b814b1c63013f28
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f6b97bc0a88eb7a43fc62590edec35a78bf8347d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087310"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Privacidade e segurança de dados da Proteção contra Ameaças da Microsoft
 

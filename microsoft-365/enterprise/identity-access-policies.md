@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: dad6c2f8d85c81b67da1aa3425c73e5991b3829b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 272e8a76cdb3a1555f561bd56e63422f14394904
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596948"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067392"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -31,7 +31,7 @@ Este guia discute como implantar as políticas recomendadas em um ambiente provi
 
 O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qual camada de proteção cada política se aplica e se as políticas se aplicam a PCs ou telefones e tablets ou a ambas as categorias de dispositivos. Também indica onde essas políticas estão configuradas.
 
-![Políticas comuns para configurar a identidade e o acesso ao dispositivo](../images/Identity_device_access_policies_byplan.png)
+![Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/Identity_device_access_policies_byplan.png)
 
 
 O restante deste artigo descreve como configurar essas políticas. 
@@ -62,13 +62,13 @@ Uma prática recomendada é criar um grupo do Azure AD para exclusão de acesso 
 
 O diagrama a seguir fornece um exemplo de atribuição e exclusões do usuário.
 
-![Exemplo de atribuição e exclusões de usuário para regras MFA](../images/identity-access-policies-assignment.png)
+![Exemplo de atribuição e exclusões de usuário para regras MFA](../media/identity-access-policies-assignment.png)
 
 Na ilustração, a "equipe de" projeto de segredo principal X "é atribuída uma política de acesso condicional que requer MFA *sempre*. Seja criterioso ao aplicar níveis mais altos de proteção aos usuários. Os membros desta equipe de projeto serão solicitados a fornecer duas formas de autenticação sempre que fizerem logon, mesmo que não estejam exibindo conteúdo altamente regulamentado.  
 
 Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Office 365. Isso é importante principalmente para a implantação da AIP (Proteção de Informações do Azure) ao proteger documentos no SharePoint Online.
 
-![Captura de tela para criar grupos do Office 365](../images/identity-device-AAD-groups.png)
+![Captura de tela para criar grupos do Office 365](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Exigir a MFA com base no risco de entrada
@@ -84,7 +84,7 @@ Para criar uma nova política de acesso condicional:
 
 4. Escolha **Nova política**.
 
-![Política de AC de linha de base](./media/secure-email/CA-EXO-policy-1.png)
+![Política de AC de linha de base](../media/secure-email/CA-EXO-policy-1.png)
 
  As tabelas a seguir descrevem as configurações de política de acesso condicional a serem implementadas para essa política.
 
@@ -307,7 +307,7 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
+|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
 ||Tamanho mínimo da senha|6 ||

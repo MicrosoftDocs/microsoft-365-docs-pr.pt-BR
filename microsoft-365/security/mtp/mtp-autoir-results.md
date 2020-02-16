@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 208cbb49afc2f4520fa44a4ef283194bcaff22be
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 08aa1f0c252d931ab1abf078b1c0cfcf7d9b43a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083742"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 
@@ -34,7 +34,7 @@ ms.locfileid: "41600088"
 
 Quando uma investigação automatizada ocorrer na Proteção Contra Ameaças da Microsoft, os detalhes dessa investigação estarão disponíveis durante e após o processo de investigação automática. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
-![Detalhes da investigação](../images/mtp-air-investdetails.png)
+![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
 ## <a name="open-the-investigation-details-view"></a>Abrir a exibição de detalhes da investigação
 
@@ -60,7 +60,7 @@ Use uma página de detalhes do incidente para exibir informações detalhadas so
 
 2. No painel de navegação, escolha **Incidentes**. 
 
-3. Selecione um item na lista para abrir a exibição de detalhes do incidente.<br/>![Detalhes do incidente](../images/mtp-incidentdetails-tabs.png)
+3. Selecione um item na lista para abrir a exibição de detalhes do incidente.<br/>![Detalhes do incidente](../../media/mtp-incidentdetails-tabs.png)
 
 4. Na guia **Investigações**, selecione uma investigação na lista.
 
@@ -68,7 +68,7 @@ Use uma página de detalhes do incidente para exibir informações detalhadas so
 
 Use o modo de exibição de detalhes da investigação para ver as atividades antigas, atuais e pendentes referentes a uma investigação. A exibição de detalhes de investigação se parece com a seguinte imagem:
 
-![Detalhes da investigação](../images/mtp-air-investdetails.png)
+![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
 Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação**, **Alertas**, **Dispositivos**, **Identidades**, **Principais descobertas**, **Entidades**,**Log** e **Ações pendentes**, descritas na tabela a seguir.
 
