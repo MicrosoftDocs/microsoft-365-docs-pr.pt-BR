@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3be5e4054e34cabb61505d48524feb2dbbfd0e44
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4db0b40d485c4c1107bdcb0d49616cadb15b1915
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600568"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072139"
 ---
 # <a name="load-non-office-365-data-into-evidence"></a>Carregar dados que não sejam do Office 365 em evidência
 
@@ -52,11 +52,11 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
 
 2. Clique no botão **carregar arquivos** para iniciar o assistente de importação de dados não-Office 365.
 
-![Carregar arquivos](media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
+![Carregar arquivos](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
 
 3. A primeira etapa no assistente simplesmente prepara um blob do Azure seguro para os arquivos a serem carregados.  Após a conclusão da preparação, clique no botão **próximo: carregar arquivos** .
 
-![Preparar a importação de dados não-Office 365](media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
+![Preparar a importação de dados não-Office 365](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
  
 4. Na etapa **carregar arquivos** , especifique o **caminho para o local dos arquivos**, onde os dados não-Office 365 que você planeja importar estão localizados.  Definir o local correto garante que o comando AzCopy seja atualizado corretamente.
 
@@ -65,11 +65,11 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
 
 5. Copie o comando predefinido clicando no link **copiar para a área de transferência** . Inicie um prompt de comando do Windows, Cole o comando e pressione Enter.  Os arquivos serão carregados para o armazenamento de blob do Azure seguro para a próxima etapa.
 
-![Carregar arquivos para importação de dados não-Office 365](media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
+![Carregar arquivos para importação de dados não-Office 365](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
-![Usar o AzCopy para importar dados que não sejam do Office 365](media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
+![Usar o AzCopy para importar dados que não sejam do Office 365](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
 6. Por fim, volte para a segurança & conformidade e clique no botão **próximo: processar arquivos** .  Isso inicia o processamento, extração de texto e indexação de arquivos carregados.  Você pode acompanhar o progresso do processamento aqui ou na guia **trabalhos** .  Após a conclusão, os novos arquivos estarão disponíveis no conjunto de evidências.  Após a conclusão do processamento, você pode ignorar o assistente.
 
-![Arquivos de processo de importação não-Office 365](media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
+![Arquivos de processo de importação não-Office 365](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
 

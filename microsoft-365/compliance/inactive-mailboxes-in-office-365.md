@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: Saiba mais sobre como reter o conteúdo de caixa de correio para funcionários antigos ao transformar a caixa de correio em uma caixa de correio inativa. Você pode fazer isso colocando a caixa de correio em retenção de litígio ou aplicando uma política de retenção do Office 365 à caixa de correio e, em seguida, removendo a conta do Office 365 correspondente.
-ms.openlocfilehash: 75ede1ae199bdecfea2662a187c3965cc2b676d7
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: b5c6730a30ac0efba8f00abc01c0b2c26bf9e562
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072898"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Visão geral das caixas de correio inativas no Office 365
 

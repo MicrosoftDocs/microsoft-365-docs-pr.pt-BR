@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 6cc0cb0a709463be0e624162555dd221564b4dd3
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 7ae834e7f93c381cf6d386131e3a5c671e2bc529
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074967"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
@@ -91,11 +91,11 @@ Para obter mais informações sobre permissões de descoberta eletrônica, consu
     
 3. No centro de conformidade & segurança, clique em **permissões**e siga um destes procedimentos com base nas permissões de descoberta eletrônica que você deseja atribuir.
     
-    - Para atribuir permissões de revisor, selecione o grupo de função **revisor** e, em seguida, ao lado de **Membros**, clique em **Editar**. Clique **em escolher Membros**, **** clique em Editar ![, clique](media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar ao grupo de funções revisor e clique em **Adicionar**.
+    - Para atribuir permissões de revisor, selecione o grupo de função **revisor** e, em seguida, ao lado de **Membros**, clique em **Editar**. Clique **em escolher Membros**, **** clique em Editar ![, clique](../media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar ao grupo de funções revisor e clique em **Adicionar**.
     
-    - Para atribuir permissões de gerente de descoberta eletrônica, selecione o grupo de funções **Gerenciador de descoberta eletrônica** e, em seguida, ao lado de **Gerenciador de descoberta eletrônica**, clique em **Editar** Clique **em escolher o Gerenciador de descoberta eletrônica**, ![clique em](media/ITPro-EAC-AddIcon.gif) **Editar**, em Adicionar ícone * * Adicionar * *, selecione o usuário que você deseja adicionar como um Gerenciador de descoberta eletrônica e clique em **Adicionar**.
+    - Para atribuir permissões de gerente de descoberta eletrônica, selecione o grupo de funções **Gerenciador de descoberta eletrônica** e, em seguida, ao lado de **Gerenciador de descoberta eletrônica**, clique em **Editar** Clique **em escolher o Gerenciador de descoberta eletrônica**, ![clique em](../media/ITPro-EAC-AddIcon.gif) **Editar**, em Adicionar ícone * * Adicionar * *, selecione o usuário que você deseja adicionar como um Gerenciador de descoberta eletrônica e clique em **Adicionar**.
     
-    - Para atribuir permissões de administrador de descoberta eletrônica, selecione o grupo de função **Gerenciador de descoberta eletrônica** e ao lado de **administrador de descoberta eletrônica**, clique em **Editar**. Clique em **escolher administrador de descoberta eletrônica**, em ![ **Editar**,](media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar como administrador de descoberta eletrônica e clique em **Adicionar**.
+    - Para atribuir permissões de administrador de descoberta eletrônica, selecione o grupo de função **Gerenciador de descoberta eletrônica** e ao lado de **administrador de descoberta eletrônica**, clique em **Editar**. Clique em **escolher administrador de descoberta eletrônica**, em ![ **Editar**,](../media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar como administrador de descoberta eletrônica e clique em **Adicionar**.
     
 4. Depois de adicionar todos os usuários, clique em **concluído**, clique em **salvar** para salvar as alterações no grupo de função e, em seguida, clique em **Fechar**.
 
@@ -107,11 +107,11 @@ A próxima etapa é criar uma ocorrência de descoberta eletrônica. Você deve 
     
 2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
     
-3. No centro de conformidade & segurança, clique em **descoberta** ![eletrônica de **descoberta eletrônica** \> e, em seguida, clique em Adicionar ícone](media/ITPro-EAC-AddIcon.gif) **criar uma ocorrência**.
+3. No centro de conformidade & segurança, clique em **descoberta** ![eletrônica de **descoberta eletrônica** \> e, em seguida, clique em Adicionar ícone](../media/ITPro-EAC-AddIcon.gif) **criar uma ocorrência**.
     
 4. Na página **nova ocorrência** , dê um nome à caixa, digite uma descrição opcional e clique em **salvar**. O nome da ocorrência deve ser exclusivo em sua organização.
     
-    ![Criar uma ocorrência](media/7f78f83b-1525-4c77-9888-4b6bda1e148d.png)
+    ![Criar uma ocorrência](../media/7f78f83b-1525-4c77-9888-4b6bda1e148d.png)
   
     O novo caso é exibido na lista de casos na página de **descoberta eletrônica** . Você pode passar o cursor do mouse sobre um nome de caso para exibir informações sobre o caso, incluindo o status da ocorrência (**ativa** ou **fechada**), a descrição do caso (que foi criada na etapa anterior) e quando o caso foi alterado por último e quem a alterou.
     
@@ -128,11 +128,11 @@ Após criar uma ocorrência, a próxima etapa é adicionar membros à ocorrênci
     
     A página **gerenciar esse** submenu de caso é exibida. 
     
-    ![Gerenciar uma página de submenu de caso](media/11f35ceb-6c98-4580-a3bc-ad688e9c7af9.png)
+    ![Gerenciar uma página de submenu de caso](../media/11f35ceb-6c98-4580-a3bc-ad688e9c7af9.png)
   
-3. Em **gerenciar Membros**, clique ![em Adicionar](media/ITPro-EAC-AddIcon.gif) ícone **Adicionar** para adicionar membros à ocorrência. 
+3. Em **gerenciar Membros**, clique ![em Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **Adicionar** para adicionar membros à ocorrência. 
     
-    Você também pode optar por adicionar um grupo de funções ao caso. Em **gerenciar grupos de função**, ![clique em](media/ITPro-EAC-AddIcon.gif) adicionar ícone **Adicionar**.
+    Você também pode optar por adicionar um grupo de funções ao caso. Em **gerenciar grupos de função**, ![clique em](../media/ITPro-EAC-AddIcon.gif) adicionar ícone **Adicionar**.
     
     > [!NOTE]
     > Grupos de função controle quem pode atribuir membros a uma ocorrência de descoberta eletrônica. Isso significa que você só pode atribuir os grupos de função que você é membro de um caso.
@@ -172,13 +172,13 @@ Para criar uma retenção para um caso de descoberta eletrônica:
     
 3. Na **Home** Page do caso, clique na guia **reter** . 
     
-    ![Clique na guia reter](media/3fef2db4-36de-4517-a34d-82f47b82d9bf.png)
+    ![Clique na guia reter](../media/3fef2db4-36de-4517-a34d-82f47b82d9bf.png)
   
-4. Na página **reter** , clique em ![adicionar ícone](media/ITPro-EAC-AddIcon.gif) **criar**.
+4. Na página **reter** , clique em ![adicionar ícone](../media/ITPro-EAC-AddIcon.gif) **criar**.
     
 5. Na página **nomear sua suspensão** , dê um nome à isenção. O nome da retenção deve ser exclusivo na sua organização. 
     
-    ![Forneça um nome exclusivo para o controle](media/7e15ea63-abd1-4f14-a29c-7ecfb9571d2c.png)
+    ![Forneça um nome exclusivo para o controle](../media/7e15ea63-abd1-4f14-a29c-7ecfb9571d2c.png)
   
 6. Opcion Na caixa **Descrição** , adicione uma descrição da isenção. 
     
@@ -186,7 +186,7 @@ Para criar uma retenção para um caso de descoberta eletrônica:
     
 8. Escolha os locais de conteúdo que você deseja colocar em espera. Você pode colocar caixas de correio, sites e pastas públicas em espera.
     
-    ![Escolher os locais de conteúdo para colocar em espera](media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
+    ![Escolher os locais de conteúdo para colocar em espera](../media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
   
    a. **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para uma equipe da Microsoft, um grupo do Yammer ou um grupo do Office 365. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
     
@@ -200,18 +200,18 @@ Para criar uma retenção para um caso de descoberta eletrônica:
     > [!NOTE]
     > No caso raro em que o UPN (nome principal de usuário) de uma pessoa é alterado, a URL de sua conta do OneDrive também será alterada para incorporar o novo UPN. Se isso acontecer, você terá que modificar a retenção adicionando a nova URL do OneDrive do usuário e removendo a antiga. 
   
-   c. **Pastas públicas do Exchange.** Mova o ![controle](media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) de alternância de alternância para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
+   c. **Pastas públicas do Exchange.** Mova o ![controle](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) de alternância de alternância para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
     
 9. Quando você terminar de adicionar locais de conteúdo à isenção, clique em **Avançar**.
     
 10. Para criar uma retenção baseada em consulta com condições, conclua o seguinte. Caso contrário, clique em **Avançar**
     
-    ![Criar uma retenção baseada em consulta com condições](media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
+    ![Criar uma retenção baseada em consulta com condições](../media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
   
     
        a. Na caixa em **palavras-chave**, digite uma consulta de pesquisa na caixa para que apenas o conteúdo que atende aos critérios de pesquisa seja colocado em espera. Você pode especificar palavras-chave, propriedades de mensagem ou propriedades do documento, como nomes de arquivo. Você também pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou ou** **não**. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será colocado em espera.
     
-    b. Clique ![em Adicionar](media/ITPro-EAC-AddIcon.gif) ícone **Adicionar condições** para adicionar uma ou mais condições para restringir a consulta de pesquisa para a isenção. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você cria a retenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou de site criados dentro do intervalo de datas sejam colocados em espera. Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam satisfazer a consulta de palavra-chave e a condição a ser colocada em espera.
+    b. Clique ![em Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **Adicionar condições** para adicionar uma ou mais condições para restringir a consulta de pesquisa para a isenção. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você cria a retenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou de site criados dentro do intervalo de datas sejam colocados em espera. Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador **AND**. Isso significa que os itens precisam satisfazer a consulta de palavra-chave e a condição a ser colocada em espera.
 
     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).
     
@@ -223,7 +223,7 @@ Para criar uma retenção para um caso de descoberta eletrônica:
 
 Após um tempo, as informações sobre a nova retenção são exibidas no painel de detalhes na página de **isenções** da isenção selecionada. Essas informações incluem o número de caixas de correio e sites em espera e estatísticas sobre o conteúdo que foi colocado em espera, como o número total e o tamanho de itens colocados em retenção e a última vez que as estatísticas de retenção foram calculadas. Essas estatísticas de isenção ajudam você a identificar quanto conteúdo relacionado à ocorrência de descoberta eletrônica está sendo mantido. 
   
-![Estatísticas de retenção](media/575cfe0a-9210-4ae4-8df8-65665d66712e.png)
+![Estatísticas de retenção](../media/575cfe0a-9210-4ae4-8df8-65665d66712e.png)
   
 Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
   
@@ -231,7 +231,7 @@ Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
     
 - O número de itens em retenção também inclui itens não indexados encontrados nos locais de conteúdo. Se você criar uma retenção baseada em consulta, todos os itens não indexados nos locais de conteúdo são colocados em espera. Isso inclui itens não indexados que não correspondem aos critérios de pesquisa de um bloqueio baseado em consulta e itens não indexados que podem ficar fora de uma condição de intervalo de datas. Isso é diferente do que acontece quando você executa uma pesquisa de conteúdo, na qual os itens não indexados que não correspondem à consulta de pesquisa ou são excluídos por uma condição de intervalo de datas não são incluídos nos resultados da pesquisa. Para obter mais informações sobre itens não indexados, confira [itens parcialmente indexados na pesquisa de conteúdo no Office 365](partially-indexed-items-in-content-search.md).
     
-- Você pode obter as estatísticas de retenção mais recentes clicando em **atualizar estatísticas** para executar novamente uma estimativa de pesquisa que calcula o número atual de itens em retenção. Se necessário, clique em **Atualizar**![ícone](media/O365-MDM-Policy-RefreshIcon.gif) de atualização na barra de ferramentas para atualizar as estatísticas de retenção no painel de detalhes. 
+- Você pode obter as estatísticas de retenção mais recentes clicando em **atualizar estatísticas** para executar novamente uma estimativa de pesquisa que calcula o número atual de itens em retenção. Se necessário, clique em **Atualizar**![ícone](../media/O365-MDM-Policy-RefreshIcon.gif) de atualização na barra de ferramentas para atualizar as estatísticas de retenção no painel de detalhes. 
     
 - É normal para o número de itens em espera aumentar ao longo do tempo, pois os usuários cuja caixa de correio ou site está em espera geralmente estão enviando ou recebendo novas mensagens de email e criando novos documentos do SharePoint e do OneDrive for Business.
     
@@ -248,19 +248,19 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
 3. Na **Home** Page do caso, clique na guia **Pesquisar** . 
     
-    ![Guia Pesquisar](media/2e15fe32-1a2e-4588-ad0b-5d96f77cece9.png)
+    ![Guia Pesquisar](../media/2e15fe32-1a2e-4588-ad0b-5d96f77cece9.png)
   
-4. Na página de **pesquisa** , clique ![em Adicionar](media/ITPro-EAC-AddIcon.gif) ícone **nova pesquisa**. 
+4. Na página de **pesquisa** , clique ![em Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **nova pesquisa**. 
     
 5. Na página **Nova pesquisa**, você pode adicionar palavras-chave e condições para criar a consulta de pesquisa. 
     
-    ![Nova pesquisa](media/0e9954e7-c0ea-4e05-820b-e4b81dc5f81d.png)
+    ![Nova pesquisa](../media/0e9954e7-c0ea-4e05-820b-e4b81dc5f81d.png)
   
 6. Você pode especificar palavras-chave, propriedades de mensagem, como datas de envio e recebimento, ou propriedades do documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, **não**, **Near**ou **ONEAR**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa. 
     
 7. Você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e a palavra-chave tipo a em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas pelo operador **or** na consulta de pesquisa criada. 
     
-    ![Lista de palavras-chave](media/29cceb5d-2817-4fc4-b91a-ced1c5824a17.png)
+    ![Lista de palavras-chave](../media/29cceb5d-2817-4fc4-b91a-ced1c5824a17.png)
   
     Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para Resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
     
@@ -272,7 +272,7 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
 9. Em **locais: locais em espera**, escolha os locais de conteúdo que você deseja pesquisar. Você pode pesquisar caixas de correio, sites e pastas públicas na mesma pesquisa.
     
-    ![Locais, locais em espera](media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
+    ![Locais, locais em espera](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
   
     - **Todos os locais** -Selecione essa opção para pesquisar todos os locais de conteúdo em sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (que inclui as caixas de correio de todos os grupos do Microsoft Teams, do Yammer e do Office 365), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites para todos os Microsoft Teams, grupos do Yammer e grupos do Office 365) e todas as pastas públicas.
     
@@ -280,7 +280,7 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
     - **Locais específicos.** Selecione essa opção para selecionar as caixas de correio e os sites que você deseja pesquisar. Quando você seleciona essa opção e clica em **Modificar**, uma lista de locais é exibida. Você pode optar por pesquisar qualquer um ou todos os usuários, grupos, equipes ou locais de sites.
     
-      ![Selecionar locais específicos](media/97469b15-7be1-4aee-be27-f8343636152c.png)
+      ![Selecionar locais específicos](../media/97469b15-7be1-4aee-be27-f8343636152c.png)
   
       Você também pode optar por pesquisar todas as pastas públicas em sua organização, mas se você selecionar essa opção e pesquisar qualquer local de conteúdo em espera, qualquer consulta de um bloqueio de caso baseado em consulta não será aplicada à consulta de pesquisa. Em outras palavras, todo o conteúdo em um local é pesquisado, e não apenas o conteúdo que é preservado por um bloqueio de caso baseado em consulta.
     
@@ -304,7 +304,7 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
     A pesquisa começa. Após um tempo, uma estimativa dos resultados da pesquisa é exibida no painel de detalhes. A previsão inclui o tamanho total e o número de itens que correspondem aos critérios de pesquisa. A estimativa de pesquisa também inclui o número de itens não indexados nos locais de conteúdo que foram pesquisados. O número de itens não indexados que não atendem aos critérios de pesquisa será incluído nas estatísticas de pesquisa exibidas no painel de detalhes. Se um item não indexado corresponder à consulta de pesquisa (porque outras propriedades de mensagem ou de documento atendem aos critérios de pesquisa), ela não será incluída no número estimado de itens não indexados. Se um item não indexado for excluído pelos critérios de pesquisa, ele também não será incluído na estimativa de itens não indexados.
     
-  Após a conclusão da pesquisa, você poderá visualizar os resultados. Se necessário, clique em **Atualizar**![ícone](media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar as informações no painel de detalhes. 
+  Após a conclusão da pesquisa, você poderá visualizar os resultados. Se necessário, clique em **Atualizar**![ícone](../media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar as informações no painel de detalhes. 
     
 ## <a name="step-6-export-the-results-of-a-content-search-associated-with-a-case"></a>Etapa 6: exportar os resultados de uma pesquisa de conteúdo associada a uma ocorrência
 
@@ -320,11 +320,11 @@ Você pode exportar os resultados de uma [única pesquisa associada a um caso](#
     
 3. Na **Home** Page do caso, clique em **Pesquisar**.
     
-4. Na lista de pesquisas do caso, clique na pesquisa para a qual você deseja exportar os resultados da pesquisa, clique ![em exportar resultados](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) da pesquisa **e, em seguida, selecione** **Exportar resultados** na lista suspensa. 
+4. Na lista de pesquisas do caso, clique na pesquisa para a qual você deseja exportar os resultados da pesquisa, clique ![em exportar resultados](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) da pesquisa **e, em seguida, selecione** **Exportar resultados** na lista suspensa. 
     
     A página **Exportar resultados** é exibida. 
     
-    ![Exportar página de resultados](media/ab0bb46d-310b-4374-8644-717146df6676.png)
+    ![Exportar página de resultados](../media/ab0bb46d-310b-4374-8644-717146df6676.png)
   
     O fluxo de trabalho para exportar os resultados de uma Pesquisa de Conteúdo associada a uma ocorrência é o mesmo que o usado para exportar os resultados da pesquisa para uma pesquisa na página **Pesquisa de Conteúdo**. Para obter instruções detalhadas, confira [Exportar resultados de pesquisa de conteúdo](export-search-results.md).
     
@@ -333,9 +333,9 @@ Você pode exportar os resultados de uma [única pesquisa associada a um caso](#
   
 5. Clique na guia **Exportar** para exibir a lista de trabalhos de exportação que existem para esse caso. 
     
-    ![Guia exportar](media/1b84c45e-4ec9-4ecd-9e07-eaf8fc4cc307.png)
+    ![Guia exportar](../media/1b84c45e-4ec9-4ecd-9e07-eaf8fc4cc307.png)
   
-    Talvez seja necessário clicar em **Atualizar**![ícone](media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar a lista de trabalhos de exportação para que ele mostre o trabalho de exportação que você criou. Os trabalhos de exportação têm o mesmo nome da pesquisa de conteúdo correspondente com **_Export** acrescentados ao final do nome da pesquisa. 
+    Talvez seja necessário clicar em **Atualizar**![ícone](../media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar a lista de trabalhos de exportação para que ele mostre o trabalho de exportação que você criou. Os trabalhos de exportação têm o mesmo nome da pesquisa de conteúdo correspondente com **_Export** acrescentados ao final do nome da pesquisa. 
     
 6. Clique no trabalho de exportação que você acabou de criar para exibir informações de status no painel de detalhes. Essas informações incluem a porcentagem de itens que foram transferidos para uma área de armazenamento do Azure na nuvem da Microsoft.
     
@@ -361,10 +361,10 @@ Como alternativa para exportar os resultados de uma única pesquisa de conteúdo
   
 5. Depois de selecionar as pesquisas, a página **ações em massa** será exibida. 
     
-    ![Na página ações em massa, clique em exportar resultados](media/f34e3707-a9c1-494f-91a4-da1165aa730a.png)
+    ![Na página ações em massa, clique em exportar resultados](../media/f34e3707-a9c1-494f-91a4-da1165aa730a.png)
   
     
-6. Clique ![em exportar resultados da](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **Exportar resultados**.
+6. Clique ![em exportar resultados da](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **Exportar resultados**.
 
 7. Na página **Exportar resultados** , atribua um nome exclusivo à exportação, selecione opções de saída e escolha como o conteúdo será exportado. Clique em **Exportar**.
     
@@ -375,9 +375,9 @@ Como alternativa para exportar os resultados de uma única pesquisa de conteúdo
   
 8. Depois de iniciar a exportação, clique na guia **Exportar** para exibir a lista de trabalhos de exportação para esse caso. 
     
-    ![Guia exportar, várias pesquisas](media/b9505e1b-559f-4a8c-96b3-a3f734753926.png)
+    ![Guia exportar, várias pesquisas](../media/b9505e1b-559f-4a8c-96b3-a3f734753926.png)
   
-    Talvez seja necessário clicar em **Atualizar** ![ícone](media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar a lista de trabalhos de exportação para exibir o trabalho de exportação que você criou. As pesquisas que foram incluídas no trabalho de exportação são listadas na coluna **pesquisas** . 
+    Talvez seja necessário clicar em **Atualizar** ![ícone](../media/O365-MDM-Policy-RefreshIcon.gif) de atualização para atualizar a lista de trabalhos de exportação para exibir o trabalho de exportação que você criou. As pesquisas que foram incluídas no trabalho de exportação são listadas na coluna **pesquisas** . 
     
 8. Clique no trabalho de exportação que você acabou de criar para exibir informações de status no painel de detalhes. Essas informações incluem a porcentagem de itens que foram transferidos para uma área de armazenamento do Azure na nuvem da Microsoft.
     
@@ -416,9 +416,9 @@ Quando você prepara os resultados da pesquisa para descoberta eletrônica avan�
     
 3. Na **Home** Page do caso, clique em **Pesquisar**e selecione a pesquisa.
     
-4. No painel de detalhes, clique ![em exportar ícone](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) de resultados de pesquisa **mais**e clique em **preparar para descoberta eletrônica avançada**.
+4. No painel de detalhes, clique ![em exportar ícone](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) de resultados de pesquisa **mais**e clique em **preparar para descoberta eletrônica avançada**.
     
-    ![Preparar os resultados para descoberta eletrônica avançada](media/b6548ff0-a6e9-42b1-9ae4-5c15146f5690.png)
+    ![Preparar os resultados para descoberta eletrônica avançada](../media/b6548ff0-a6e9-42b1-9ae4-5c15146f5690.png)
   
 5. Na página **preparar para descoberta eletrônica avançada** , opte por preparar uma das seguintes opções: 
     
@@ -448,11 +448,11 @@ Para ir a um caso na Descoberta Eletrônica Avançada:
     
 3. Na **Home** Page do caso, clique em **alternar para descoberta eletrônica avançada**.
     
-    ![Selecione alternar para descoberta eletrônica avançada](media/d7e31558-e79c-4782-b841-2b735568a576.png)
+    ![Selecione alternar para descoberta eletrônica avançada](../media/d7e31558-e79c-4782-b841-2b735568a576.png)
   
     A barra de progresso **conectando-se à descoberta eletrônica avançada** é exibida. Quando você estiver conectado à descoberta eletrônica avançada, uma lista de contêineres será exibida na página. 
     
-    ![Barra de progresso do eDiscorvery avançado](media/4a84273d-765b-44b8-9006-c20e810ea393.png)
+    ![Barra de progresso do eDiscorvery avançado](../media/4a84273d-765b-44b8-9006-c20e810ea393.png)
   
     Esses contêineres representam os resultados de pesquisa que você preparou para análise na descoberta eletrônica avançada na etapa 7. O nome do contêiner tem o mesmo nome que a pesquisa de conteúdo no caso do centro de conformidade & segurança. Os contêineres na lista são aqueles que você preparou. Se um usuário diferente preparou resultados de pesquisa para descoberta eletrônica avançada, os contêineres correspondentes não serão incluídos na lista.
     
@@ -483,7 +483,7 @@ Para fechar uma ocorrência:
     
     A página **gerenciar esse** submenu de caso é exibida. 
     
-3. Em **gerenciar o status**de caso ![, clique em Remover](media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) o **caso de fechamento**do botão de inspeção.
+3. Em **gerenciar o status**de caso ![, clique em Remover](../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) o **caso de fechamento**do botão de inspeção.
     
     Um aviso é exibido dizendo que as suspensões associadas ao caso serão desativadas.
     
@@ -493,7 +493,7 @@ Para fechar uma ocorrência:
     
 5. Feche a página **gerenciar este caso** . 
     
-6. Na página **descoberta eletrônica** , clique ![em atualizar](media/O365-MDM-Policy-RefreshIcon.gif) ícone **Atualizar** para atualizar o status da ocorrência fechada. Pode levar até 60 minutos para que o processo de fechamento seja concluído. 
+6. Na página **descoberta eletrônica** , clique ![em atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) ícone **Atualizar** para atualizar o status da ocorrência fechada. Pode levar até 60 minutos para que o processo de fechamento seja concluído. 
     
     Quando o processo estiver concluído, o status da ocorrência será alterado para **fechado** na página de **descoberta eletrônica** . Clique no nome do caso novamente para exibir a página **gerenciar este caso** , que contém informações sobre quando o caso foi fechado e quem o fechou. 
      
@@ -517,7 +517,7 @@ Quando você reabrir um caso, qualquer bloqueio que estava no lugar quando o cas
     
 5. Feche a página **gerenciar este caso** . 
     
-6. Na página **descoberta eletrônica** , clique ![em atualizar](media/O365-MDM-Policy-RefreshIcon.gif) ícone **Atualizar** para atualizar o status do caso reaberto. Pode levar até 60 minutos para que o processo de reabertura seja concluído. 
+6. Na página **descoberta eletrônica** , clique ![em atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) ícone **Atualizar** para atualizar o status do caso reaberto. Pode levar até 60 minutos para que o processo de reabertura seja concluído. 
     
     Quando o processo estiver concluído, o status da ocorrência será alterado para **ativo** na página de **descoberta eletrônica** . 
   
@@ -553,7 +553,7 @@ Se o caso que você está tentando excluir ainda contiver isenções, você rece
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
   |Número máximo de isenções de caso para uma organização  <br/> |10.000  <br/> |
-  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1.000  <br/> |
+  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1,000  <br/> |
   |Número máximo de sites do SharePoint e do OneDrive for Business em uma única retenção de caso  <br/> |100  <br/> |
    
 - **E os casos que foram criados na página de gerenciamento de casos na descoberta eletrônica avançada?** Você pode acessar uma lista de casos de descoberta eletrônica avançada mais antigas clicando no link na parte inferior da página de **descoberta eletrônica** no centro de conformidade de & de segurança. No entanto, para fazer qualquer trabalho em um caso mais antigo, você precisa entrar em contato com o suporte do Office 365 e solicitar que o caso seja movido para uma nova ocorrência de descoberta eletrônica no centro de conformidade de & de segurança. 

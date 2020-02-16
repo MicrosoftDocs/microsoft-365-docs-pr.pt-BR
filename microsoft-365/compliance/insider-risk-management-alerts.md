@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 80c5bb701c7805f673280d24903935c2951046b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d1946bb3667fbdde6e7d2c3fbc70f8f546890e27
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072878"
 ---
 # <a name="insider-risk-management-alerts-preview"></a>Alertas de gerenciamento de risco do Insider (versão prévia)
 
@@ -34,7 +34,7 @@ O painel de **alerta** de risco do insider permite que você visualize e execute
     - Tempo médio para resolver alertas de severidade média, listados em horas, dias ou meses.
     - Tempo médio para resolver alertas de severidade Baixa, listados em horas, dias ou meses.
 
-![Painel de alerta de gerenciamento de risco do insider](media/insider-risk-alerts-dashboard.png)
+![Painel de alerta de gerenciamento de risco do insider](../media/insider-risk-alerts-dashboard.png)
 
 ## <a name="alert-status-and-severity"></a>Status e severidade do alerta
 

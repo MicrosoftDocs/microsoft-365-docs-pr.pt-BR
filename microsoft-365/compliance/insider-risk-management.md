@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0da96fe4148ffc30ac8e2f7854157675786cd321
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a3401b80469fa6d22d973204703a6b012ebb11b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072719"
 ---
 # <a name="insider-risk-management-in-microsoft-365-preview"></a>Gerenciamento de risco do insider no Microsoft 365 (versão prévia)
 
@@ -56,7 +56,7 @@ O gerenciamento de riscos do insider ajuda você a identificar, investigar e rea
 
 A identificação e a resolução de problemas de conformidade e atividades de riscos internos no Microsoft 365 usa o seguinte fluxo de trabalho:
 
-![Fluxo de trabalho de gerenciamento de risco](media/insider-risk-workflow.png)
+![Fluxo de trabalho de gerenciamento de risco](../media/insider-risk-workflow.png)
 
 ### <a name="policies"></a>Políticas
 
@@ -70,7 +70,7 @@ Você pode selecionar um dos seguintes [modelos de política](insider-risk-manag
 
 Confira mais informações em [políticas de gerenciamento de risco do insider](insider-risk-management-policies.md).
 
-![Painel de política de gerenciamento de risco do insider](media/insider-risk-policy-dashboard.png)
+![Painel de política de gerenciamento de risco do insider](../media/insider-risk-policy-dashboard.png)
 
 ### <a name="alerts"></a>Alertas
 
@@ -84,7 +84,7 @@ Os alertas são gerados automaticamente pelos indicadores de risco que correspon
 
 Confira mais informações em [alertas de gerenciamento de risco do insider](insider-risk-management-alerts.md).
 
-![Painel de alerta de gerenciamento de risco do insider](media/insider-risk-alerts-dashboard.png)
+![Painel de alerta de gerenciamento de risco do insider](../media/insider-risk-alerts-dashboard.png)
 
 ### <a name="triage"></a>Triagem
 
@@ -92,7 +92,7 @@ Novas atividades que precisam de investigação geram automaticamente alertas qu
 
 Os alertas são resolvidos abrindo um novo caso, atribuindo o alerta a um caso existente ou descartando o alerta. Usando filtros de alerta, é fácil identificar rapidamente os alertas por status, severidade ou tempo detectado. Como parte do processo de triagem, os revisores podem exibir detalhes de alerta para a correspondência de política, exibir a atividade do usuário associada à correspondência, ver a gravidade do alerta e revisar as informações do perfil de usuário.
 
-![Triagem de gerenciamento de risco do insider](media/insider-risk-triage.png)
+![Triagem de gerenciamento de risco do insider](../media/insider-risk-triage.png)
 
 ### <a name="investigate"></a>Investigar
 
@@ -106,7 +106,7 @@ Selecionar um caso no painel de casos abre o caso de investigação e análise. 
 
 Confira mais informações em [casos de gerenciamento de risco do insider](insider-risk-management-cases.md).
 
-![Investigação de gerenciamento de risco do insider](media/insider-risk-investigate.png)
+![Investigação de gerenciamento de risco do insider](../media/insider-risk-investigate.png)
 
 ### <a name="action"></a>Action
 

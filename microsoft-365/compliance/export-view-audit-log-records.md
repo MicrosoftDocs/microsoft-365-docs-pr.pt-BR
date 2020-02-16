@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Depois de exportar e baixar os resultados de uma pesquisa de log de auditoria do Office 365 para um arquivo CSV, você pode usar o recurso transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON da coluna AuditData em sua própria coluna. Isso pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
-ms.openlocfilehash: de116db76597c6eb7966541c3cc0f34f91c06c70
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 00e89d0834461e73ee0bd8a238e3ff7480de118e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594602"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074050"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Exportar, configurar e exibir registros de log de auditoria
 
@@ -36,7 +36,7 @@ A primeira etapa é Pesquisar o log de auditoria e, em seguida, exportar os resu
     
 2. Clique em **Exportar resultados** e selecione **baixar todos os resultados**. 
     
-   ![Clique em baixar todos os resultados](media/ExportAuditSearchResults.png)
+   ![Clique em baixar todos os resultados](../media/ExportAuditSearchResults.png)
 
    Essa opção para exportar todos os registros de auditoria da pesquisa de log de auditoria que você executou na etapa 1 e baixa os dados brutos do log de auditoria para um arquivo CSV. 
 
@@ -44,7 +44,7 @@ A primeira etapa é Pesquisar o log de auditoria e, em seguida, exportar os resu
 
 3. Clique em **salvar > salvar como** e salve o arquivo CSV no computador local. Leva um tempo para baixar vários resultados de pesquisa. Normalmente, esse é o caso da pesquisa de todas as atividades ou de um intervalo de datas abrangente. Uma mensagem na parte inferior do Windows é exibida quando o arquivo CSV termina de ser baixado.
  
-   ![Mensagem exibida quando o download do arquivo CSV é concluído](media/ExportAuditSearchResultsFinish.png)
+   ![Mensagem exibida quando o download do arquivo CSV é concluído](../media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
   > É possível baixar no máximo 50 mil entradas para um arquivo CSV de uma única pesquisa de logs de auditoria. Se 50 mil entradas forem baixadas para o arquivo CSV, você poderá supor que existem provavelmente mais de 50 mil eventos que corresponderam aos critérios de pesquisa. Para exportar mais do que esse limite, tente usar um intervalo de datas para reduzir o número de registros de log de auditoria. Talvez seja necessário executar várias pesquisas com intervalos de datas menores para exportar mais de 50 mil entradas.
@@ -57,29 +57,29 @@ A próxima etapa é usar o recurso transformação JSON no editor do Power Query
     
 2.  Na guia **dados** , no grupo **obter & transformar dados de transformação** , clique em **do texto/CSV**.
 
-    ![Na guia dados, clique em do texto/CSV](media/JSONTransformOpenCSVFile.png)
+    ![Na guia dados, clique em do texto/CSV](../media/JSONTransformOpenCSVFile.png)
 
 3. Abra o arquivo CSV que você baixou na etapa 1.
     
 4. Na janela exibida, clique em **transformar dados**.
 
-   ![Clique em transformar dados](media/JSONOpenPowerQuery.png)
+   ![Clique em transformar dados](../media/JSONOpenPowerQuery.png)
 
 O arquivo CSV é aberto no **Editor de consultas**. Há quatro colunas: **CreationDate**, **userids**, **operações**e **AuditData**. A coluna **AuditData** é um objeto JSON que contém várias propriedades. A próxima etapa é criar uma coluna para cada propriedade no objeto JSON.
     
 5. Clique com o botão direito do mouse no título na coluna **AuditData** , clique em **transformar**e em **JSON**. 
  
-   ![Clique com o botão direito do mouse na coluna AuditData, clique em transformar e selecione JSON](media/JSONTransform.png)
+   ![Clique com o botão direito do mouse na coluna AuditData, clique em transformar e selecione JSON](../media/JSONTransform.png)
 
 6. No canto superior direito da coluna **AuditData** , clique no ícone expandir.
     
-   ![Na coluna AuditData, clique no ícone de expansão](media/JSONTransformExpandIcon.png)
+   ![Na coluna AuditData, clique no ícone de expansão](../media/JSONTransformExpandIcon.png)
 
    Uma lista parcial das propriedades nos objetos JSON na coluna **AuditData** é exibida.
 
 7. Clique em **carregar mais** para exibir todas as propriedades nos objetos JSON na coluna **AuditData** .
 
-   ![Clique em carregar mais para exibir todas as propriedades no objeto JSON](media/JSONTransformLoadJSONProperties.png)
+   ![Clique em carregar mais para exibir todas as propriedades no objeto JSON](../media/JSONTransformLoadJSONProperties.png)
 
    Você pode desmarcar a caixa de seleção ao lado de qualquer propriedade que você não deseja incluir. A eliminação de colunas que não são úteis para sua investigação é uma boa maneira de reduzir a quantidade de dados exibidos no log de auditoria. 
 

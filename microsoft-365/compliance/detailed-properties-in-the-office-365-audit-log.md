@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Descrições das propriedades adicionais incluídas em um registro de log de auditoria do Office 365.
-ms.openlocfilehash: d479a063cd6a97fd2f099130a8c9e183e0663798
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: fc6a237b881f7154219fcbff464825d1cec63f0c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862051"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075488"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Propriedades detalhadas no log de auditoria do Office 365
 
@@ -97,4 +97,4 @@ A tabela a seguir descreve as propriedades que são incluídas (dependendo do se
 
 As propriedades descritas acima também são exibidas quando você clica em **mais informações** ao exibir os detalhes de um evento específico. 
   
-![Clique em Mais informações para exibir as propriedades detalhadas do registro de eventos do log de auditoria](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+![Clique em Mais informações para exibir as propriedades detalhadas do registro de eventos do log de auditoria](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)

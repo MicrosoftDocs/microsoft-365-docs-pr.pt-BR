@@ -1,5 +1,7 @@
 ---
 title: Correção de erros durante o processamento de dados
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 66c515ff083d8b71a9ec4851986639063858514d
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: 5421ba811e401bdd191aee0ddbff21a1286dc9fe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "38684731"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074568"
 ---
 # <a name="error-remediation-when-processing-data"></a>Correção de erros durante o processamento de dados
 
@@ -34,7 +36,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
 1. Na guia **processamento** da caixa de descoberta eletrônica avançada, selecione **erros** no menu suspenso **Exibir** e, em seguida, selecione um conjunto de revisão ou o caso inteiro no menu suspenso **escopo** . Esta seção exibe todos os erros do caso ou erro de um conjunto de revisão específico.
 
-   ![Correção de erro](media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
+   ![Correção de erro](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
 2. Selecione os erros que você deseja corrigir clicando no botão de opção ao lado do tipo de erro ou tipo de arquivo.  No exemplo a seguir, estamos corrigindo um arquivo protegido por senha.
 
@@ -42,11 +44,11 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
     O fluxo de trabalho de correção de erro é iniciado com um estágio de preparação em que os arquivos com erros são copiados para um local de armazenamento do Azure fornecido pela Microsoft para que você possa baixá-los para o computador local para correção.
 
-    ![Preparando correção de erro](media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
+    ![Preparando correção de erro](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
 
 4. Após a conclusão da preparação, clique em **Avançar: baixar arquivos** para continuar com o download.
 
-    ![Baixar arquivos](media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
+    ![Baixar arquivos](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
 5. Para baixar arquivos, especifique o **caminho de destino para download**. Este é o caminho para a pasta pai no computador local em que o arquivo será baixado.  O caminho padrão,%USERPROFILE%\Downloads\errors, aponta para a pasta downloads do usuário conectado. Você pode alterar esse caminho, se desejado. Se você alterar, recomendamos que você use um caminho de arquivo local para o melhor desempenho. Não use um caminho de rede remoto. Por exemplo, você poderia usar o caminho **C:\Remediation**. 
 
@@ -54,7 +56,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
 6. Copie o comando predefinido clicando em **copiar para área de transferência**. Abra um prompt de comando do Windows, Cole o comando AzCopy e pressione **Enter**.  
 
-    ![Preparar para correção de erros](media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)    
+    ![Preparar para correção de erros](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)    
 
     > [!NOTE]
     > Você deve usar o AzCopy v 8.1 para usar com êxito o comando fornecido na página **baixar arquivos** . Você também deve usar o AzCopy v 8.1 para carregar os arquivos na etapa 10. Para instalar esta versão do AzCopy, confira [transferir dados com o AzCopy v 8.1 no Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy). Se o comando AzCopy fornecido falhar, confira [solucionar problemas de AzCopy na descoberta eletrônica avançada](troubleshooting-azcopy.md).
@@ -82,7 +84,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
 8. Retorne à descoberta eletrônica avançada e o assistente de correção de erros e clique em **Avançar: carregar arquivos**.  Isso é movido para a próxima página onde você pode carregar os arquivos.
 
-    ![Carregar arquivos](media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
+    ![Carregar arquivos](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
 9. Especifique a pasta pai onde os arquivos corrigidos estão localizados na caixa de texto **caminho para o local de arquivos** . Novamente, a pasta pai deve ter a mesma estrutura de subpasta que foi criada quando você baixou os arquivos.
 
@@ -90,7 +92,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
 10. Copie o comando predefinido clicando em **copiar para área de transferência**. Abra um prompt de comando do Windows, Cole o comando AzCopy e pressione **Enter**. carregar os arquivos.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6. png](media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![ff2ff691-629f-4065-9b37-5333f937daf6. png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. Depois de executar o comando AzCopy, clique em **Avançar: processar arquivos**.
 

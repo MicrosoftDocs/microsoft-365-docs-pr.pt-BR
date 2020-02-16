@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Essa recomendação orientada por informações ajuda sua organização a manter o conteúdo confidencial seguro quando ele é armazenado e compartilhado no Office 365, informando quando há uma lacuna possível na cobertura da política de DLP. Você verá essa recomendação na home page do centro de conformidade de &amp; segurança, se seus documentos contiverem qualquer um dos cinco tipos de informações confidenciais mais comuns, mas não estiverem protegidos por uma política de DLP.
-ms.openlocfilehash: 3bbdbd230e9ae28136bcd89df46f0e9c10cb80fb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7fb99942a2288a2545123d44ebdfde89b449edc3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073191"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>Introdução às recomendações de política DLP
 
@@ -26,7 +26,7 @@ Essa recomendação orientada por informações ajuda sua organização a manter
   
 Você pode usar esse widget para criar rapidamente uma política de DLP personalizada com apenas um clique ou dois, e depois de criar essa política de DLP, ela é totalmente personalizável. Observe que, se você não vir a recomendação primeiro, tente clicar **+ mais** na parte inferior da seção **recomendada para você** . 
   
-![Widget chamado informações confidenciais desprotegidas](media/91bc04d2-6eff-4294-8b73-b2d56d26ffc4.png)
+![Widget chamado informações confidenciais desprotegidas](../media/91bc04d2-6eff-4294-8b73-b2d56d26ffc4.png)
   
 ## <a name="create-the-recommended-dlp-policy"></a>Criar a política de DLP recomendada
 
@@ -48,7 +48,7 @@ Você também pode optar por ter a política de DLP:
     
 Se você quiser alterar essas opções mais tarde, poderá editar a política de DLP após sua criação. Por exemplo, você pode tornar a política mais restritiva até mesmo impedindo que as pessoas compartilhem conteúdo que contém informações confidenciais no primeiro lugar-Confira a próxima seção.
   
-![Configurações do widget chamado informações confidenciais desprotegidas](media/b6106cbd-1bed-4582-aaef-b678de470c9b.png)
+![Configurações do widget chamado informações confidenciais desprotegidas](../media/b6106cbd-1bed-4582-aaef-b678de470c9b.png)
   
 ## <a name="edit-the-recommended-dlp-policy"></a>Editar a política DLP recomendada
 
@@ -56,7 +56,7 @@ Após usar o widget para criar uma política de DLP, a política aparecerá em *
   
 Por padrão, a política é chamada de **política recomendada pelo sistema para compartilhar informações confidenciais**. Essa política é totalmente personalizável, o mesmo que qualquer política de DLP que você criar a partir do zero. Por exemplo, se você optou por não ativar relatórios de incidentes e dicas de política ao usar o widget, sempre é possível editar a política e ativar essas opções a qualquer momento.
   
-![Política recomendada de sistema para compartilhamento de informações confidenciais](media/2fc49f25-ec25-4433-add4-d60f73888f13.png)
+![Política recomendada de sistema para compartilhamento de informações confidenciais](../media/2fc49f25-ec25-4433-add4-d60f73888f13.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>Quando o widget não aparece
 

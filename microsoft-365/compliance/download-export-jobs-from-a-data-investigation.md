@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Instale e use o Azure Storage Explorer para baixar documentos que foram exportados de evidências em uma investigação de dados.
-ms.openlocfilehash: a0e93d392e12ba548c8360a618abf909c89f2036
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1f528101140a97df0161638be14e503a05b18f2c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595156"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074928"
 ---
 # <a name="download-export-jobs"></a>Baixar trabalhos de exportação
 
@@ -43,7 +43,7 @@ A próxima etapa é obter a URL de assinatura de acesso compartilhado (SAS) gera
 
 3. Na página do menu suspenso, em **locais**, copie a URL SAS que é exibida. Se necessário, você pode salvá-lo em um arquivo para que possa acessá-lo na etapa 3.
  
-   ![Copiar a URL SAS exibida em locais](media/eDiscoExportJob.png)
+   ![Copiar a URL SAS exibida em locais](../media/eDiscoExportJob.png)
 
 ## <a name="step-3-connect-to-the-azure-storage-location"></a>Etapa 3: conectar-se ao local de armazenamento do Azure
 
@@ -53,15 +53,15 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
 2. Clique no ícone **adicionar conta** . Como alternativa, você pode clicar com o botão direito do mouse em **contas de armazenamento**.
 
-   ![Clique no ícone Adicionar conta](media/AzureStorageConnect.png)
+   ![Clique no ícone Adicionar conta](../media/AzureStorageConnect.png)
 
 3.  Na página **conectar ao Azure Storage** , clique em **usar um URI de assinatura de acesso compartilhado (SAS)** e, em seguida, clique em **Avançar**.
 
-    ![Clique em usar um URI de assinatura de acesso compartilhado (SAS) e clique em avançar](media/AzureStorageConnect2.png)
+    ![Clique em usar um URI de assinatura de acesso compartilhado (SAS) e clique em avançar](../media/AzureStorageConnect2.png)
 
 4.  Na página **anexar com URI SAS** , clique na caixa URI e cole a URL SAS obtida na etapa 2. 
 
-    ![Colar a URL SAS na caixa URI](media/AzureStorageConnect3.png)
+    ![Colar a URL SAS na caixa URI](../media/AzureStorageConnect3.png)
 
     Observe que uma parte da URL SAS é exibida na caixa **nome para exibição** . Ele será usado como o nome de exibição do contêiner que é criado nas contas de **armazenamento** depois que você se conecta ao local de armazenamento. Esse nome consiste na identificação da investigação dos dados e em um identificador exclusivo. Você pode manter o nome de exibição padrão ou alterá-lo. Se você alterá-lo, o nome para exibição deverá ser exclusivo.
 
@@ -69,13 +69,13 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
     A página de **Resumo de conexão** é exibida.
    
-    ![Clique em conectar na página Resumo de conexão para se conectar ao local de armazenamento do Azure](media/AzureStorageConnect4.png)
+    ![Clique em conectar na página Resumo de conexão para se conectar ao local de armazenamento do Azure](../media/AzureStorageConnect4.png)
 
 6. Na página **Resumo da conexão** , revise as informações de conexão e clique em **conectar**. 
 
     O **nó contêineres blob** (em **contas** > **de armazenamento (contêineres anexados)** \> é aberto. 
 
-    ![Exportar trabalhos no nó contêineres de BLOBs](media/AzureStorageConnect5.png)
+    ![Exportar trabalhos no nó contêineres de BLOBs](../media/AzureStorageConnect5.png)
 
     Ele contém um contêiner nomeado com o nome de exibição da etapa 4. Este contêiner contém uma pasta para cada trabalho de exportação que você criou. Essas pastas são nomeadas com uma ID que corresponde à ID do trabalho de exportação. Você pode encontrar essas IDs de exportação (e o nome da exportação) em **informações de suporte** na página de menu para cada um dos **dados de preparação do trabalho de exportação** listados na guia **trabalhos** .
 
@@ -83,7 +83,7 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
    Uma lista de pastas e relatórios de exportação é exibida.
    
-    ![A pasta de exportação contém arquivos exportados e relatórios de exportação](media/AzureStorageConnect6.png)
+    ![A pasta de exportação contém arquivos exportados e relatórios de exportação](../media/AzureStorageConnect6.png)
 
    A pasta de trabalho de exportação contém os itens a seguir. Os itens reais na pasta de exportação são determinados pelas opções de exportação configuradas quando o trabalho de exportação foi criado. Para obter mais informações, consulte [exportar documentos de um conjunto de revisão](export-documents-from-review-set.md).
 
@@ -107,7 +107,7 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
     O explorador de armazenamento do Azure inicia o processo de exportação. O status do download dos itens exportados é exibido no painel de **atividades** . Uma mensagem é exibida quando o download é concluído.
 
-    ![Uma mensagem é exibida quando o download é concluído](media/AzureStorageConnect8.png)
+    ![Uma mensagem é exibida quando o download é concluído](../media/AzureStorageConnect8.png)
 
 > [!NOTE]
 > Em vez de baixar todo o trabalho de exportação, você pode selecionar itens específicos para baixar. E, em vez de baixar itens, você pode clicar duas vezes em um item para exibi-lo.

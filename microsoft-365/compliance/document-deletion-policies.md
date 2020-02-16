@@ -14,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
-ms.openlocfilehash: ac2bdfcd262a673af1078b2ed0a274fcd0b9d3b9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 60bf7808daad3eaead99ef64ea24be0bcfd9be0e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595206"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075183"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Visão geral das políticas de exclusão de documentos
 
@@ -40,7 +40,7 @@ As políticas de exclusão de documentos são poderosas, mas flexíveis — por 
     
 Você cria e gerencia políticas de exclusão de documentos usando o centro de políticas de exclusão de documentos. Como alternativa, você pode criar a central de políticas manualmente [criando o conjunto de sites](https://go.microsoft.com/fwlink/p/?LinkID=404342) e escolhendo **central de políticas de conformidade** na guia **empresa** . Cada locatário pode ter apenas uma central de política de exclusão de documentos. 
   
-![Página inicial do Centro de Políticas de Exclusão de Documentos](media/IP-Document-Deletion-Policy-Center-home-page.png)
+![Página inicial do Centro de Políticas de Exclusão de Documentos](../media/IP-Document-Deletion-Policy-Center-home-page.png)
   
 ## <a name="when-to-use-document-deletion-policies"></a>Quando usar as políticas de exclusão de documentos
 
@@ -56,7 +56,7 @@ Cada tipo de política funciona melhor para um tipo específico de site ou dados
   
 As políticas de exclusão de documentos não substituem as políticas de gerenciamento de registros ou de gerenciamento de informações, que funcionam melhor com dados estruturados e tipos de conteúdo. Em vez disso, você deverá usar políticas de exclusão de documentos quando precisar gerenciar amplamente a exclusão automática de dados não estruturados, como sites do OneDrive for Business e sites de equipe.
   
-![Diagrama mostrando opções de retenção para conteúdos de site](media/IP-Retention-policies-for-site-content.png)
+![Diagrama mostrando opções de retenção para conteúdos de site](../media/IP-Retention-policies-for-site-content.png)
   
 Se você aplicar uma política de exclusão de documentos a um site que já usa políticas de tipo de conteúdo ou de gerenciamento de informações para uma lista ou biblioteca, essas políticas serão ignoradas enquanto a política de exclusão de documentos estiver em vigor. Isso significa que você deverá fazer um plano para que um site use somente políticas feitas para conteúdos estruturados ou não estruturados, e não ambos. Para obter mais informações sobre como as políticas de exclusão de documentos substituem outras políticas, consulte [Apply or remove a document deletion policy for a site](apply-or-remove-a-document-deletion-policy-for-a-site.md).
   
@@ -74,13 +74,13 @@ Uma política de exclusão de documentos contém uma ou mais regras de exclusão
     
 Se uma política contiver mais do que uma regra, os proprietários de sites podem selecionar a regra que melhor se aplique ao seu conteúdo.
   
-![Nova página de regra de exclusão](media/IP-New-deletion-rule.png)
+![Nova página de regra de exclusão](../media/IP-New-deletion-rule.png)
   
 ## <a name="policies-and-assignments"></a>Políticas e atribuições
 
 Depois de criar uma política de exclusão de documentos, você pode atribuí-la a um modelo de conjunto de sites — por exemplo, você pode atribuir uma política ao modelo do OneDrive for Business para que ela inclua todos os sites do OneDrive de cada usuário. Quando você atribui uma política a um modelo de conjunto de sites, isso se aplica a todos os conjuntos de sites já criados a partir desse modelo, além de quaisquer conjuntos de sites criados a partir desse modelo no futuro.
   
-![Escolha uma página modelo exibindo a opção do OneDrive](media/IP-Choose-a-template.png)
+![Escolha uma página modelo exibindo a opção do OneDrive](../media/IP-Choose-a-template.png)
   
 Você pode ainda atribuir uma política a um conjunto específico de sites, fazer isso substitui quaisquer políticas que tenham sido atribuídas a esse modelo de conjunto de sites. Por exemplo, você pode atribuir políticas ao modelo Site de Equipe, mas depois substituí-las aplicando um conjunto de políticas diferente a um conjunto de sites específico criado a partir daquele modelo.
   
@@ -106,7 +106,7 @@ O relacionamento básico é o seguinte:
   
 Um conjunto de sites ou um modelo de conjunto de sites pode conter uma ou mais políticas associadas a ele, e cada uma dessas políticas pode conter uma ou mais regras. No entanto, pode haver apenas uma política ativa por site e pode haver apenas uma regra de exclusão ativa a qualquer momento para as bibliotecas no site.
   
-![Diagrama mostrando a relação entre as políticas](media/IP-Two-policies-four-rules.png)
+![Diagrama mostrando a relação entre as políticas](../media/IP-Two-policies-four-rules.png)
   
 ## <a name="document-deletion-policies-are-inherited"></a>As políticas de exclusão de documentos são herdadas
 

@@ -13,12 +13,12 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Use a ferramenta de coleção PST da Microsoft para pesquisar a rede da sua organização para obter um inventário de arquivos PST espalhados por toda a organização. Após localizar arquivos PST, você pode usar a ferramenta de coleção PST para copiá-los em um local central para que possa importá-los para o Office 365.
-ms.openlocfilehash: 59c4222966bba4e72e73135aa57fb45e0362f765
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 736e317318f860936450b7412bc465fc7c9d59e1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594552"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073910"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Usar a ferramenta de coleção PST para localizar, copiar e excluir arquivos PST em sua organização
 
@@ -33,7 +33,7 @@ Outra coisa que você pode fazer com a ferramenta de coleção PST é impedir qu
 
 Veja uma rápida visão geral do processo de usar a ferramenta de coleção PST para localizar, controlar, coletar e excluir arquivos PST em sua organização.
   
-![Visão geral do processo da ferramenta de coleção PST](media/67a29f27-f83c-4f0a-9df4-7ed92d3086fe.png)
+![Visão geral do processo da ferramenta de coleção PST](../media/67a29f27-f83c-4f0a-9df4-7ed92d3086fe.png)
   
 1. **[Etapa 1: localizar arquivos pst em sua rede](#step-1-find-pst-files-on-your-network)** -quando você executar a ferramenta para localizar arquivos PST, especifique um local, como uma unidade organizacional que contenha objetos do Active Directory para computadores cliente e servidor. Você também pode pesquisar máquinas específicas ou compartilhamentos de arquivos de rede. Quando você executa a ferramenta, um agente de coleção "leve" é instalado nos computadores de destino. Este agente pesquisa os arquivos PST no computador de destino e, em seguida, envia informações de volta para a ferramenta de coleção PST sobre qualquer arquivo PST localizado. A ferramenta cria arquivos de log que contêm informações sobre os arquivos PST encontrados nos locais especificados. Esses arquivos são usados quando você executa a ferramenta nas etapas posteriores. 
     
@@ -240,7 +240,7 @@ Depois que os arquivos PST encontrados e coletados tiverem sido importados para 
     
     |Parâmetro * * * *|****Descrição****|Exemplos * * * *|
     |:-----|:-----|:-----|
-    | `DataSource` <br/> |Especifica o tipo de dados a serem pesquisados. No momento, você pode usar a ferramenta de coleção PST para procurar arquivos PST. ![espaçador](media/b078d05c-3aee-4b9f-8805-6a8a9d8970ee.png)           <br/> | `-DataSource Pst` <br/> |
+    | `DataSource` <br/> |Especifica o tipo de dados a serem pesquisados. No momento, você pode usar a ferramenta de coleção PST para procurar arquivos PST. ![espaçador](../media/b078d05c-3aee-4b9f-8805-6a8a9d8970ee.png)           <br/> | `-DataSource Pst` <br/> |
     | `Mode` <br/> |Especifica o tipo de operação que a ferramenta executará. Use o valor `Delete` para excluir os arquivos pst que foram encontrados quando você executou a ferramenta no modo localizar.  <br/> | `-Mode Delete` <br/> |
     | `JobName` <br/> |Especifica o nome de um trabalho da coleção PST existente. É necessário usar esse mesmo nome de trabalho que você usou ao executar a ferramenta no modo de localização e no modo de coleta na etapa 1 e etapa 3. Esse nome de trabalho também é adicionado ao nome do arquivo de log que é criado quando você executa a ferramenta no modo de exclusão.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |Especifica a pasta que contém o arquivo de configuração. XML que foi criado quando você executou a ferramenta no modo de coleta. Use o mesmo valor que você usou para esse parâmetro na etapa 3.  <br/> | `-ConfigurationLocation "c:\users\admin\ desktop\PSTCollection\Configuration"` <br/> |

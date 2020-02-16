@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: b70ea48a7784c6cfc9bff4131fdecab339d4d417
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 4b01571d5a56d53861481dac6cb399e227ca0db6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072991"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -86,7 +86,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 5. Na página **mapeamento de arquivo** , digite os três nomes de cabeçalho de coluna (também chamados de *parâmetros* do arquivo CSV que você criou na etapa 2 em cada uma das caixas apropriadas. Os nomes não diferenciam maiúsculas de minúsculas. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do exemplo no arquivo CSV de exemplo mostrado na etapa 2.
 
-   ![Os nomes de título de coluna correspondem àqueles no arquivo CSV](media/HRConnectorWizard3.png)
+   ![Os nomes de título de coluna correspondem àqueles no arquivo CSV](../media/HRConnectorWizard3.png)
 
 6. Na página **revisão** , revise suas configurações e clique em **concluir** para criar o conector.
 
@@ -98,7 +98,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 8. Clique no conector de RH que você acabou de criar para exibir a página de submenu, que contém propriedades e outras informações sobre o conector. 
 
-   ![Página de menu do novo conector de RH](media/HRConnectorWizard7.png)
+   ![Página de menu do novo conector de RH](../media/HRConnectorWizard7.png)
 
    Se ainda não tiver feito isso, você poderá copiar os valores para a **ID do aplicativo do Azure** e a **ID do trabalho do conector**. Você precisará deles para executar o script na próxima etapa. Você também pode baixar o script da página do menu de atalho (ou baixá-lo usando o link na próxima etapa.)
 
@@ -153,11 +153,11 @@ Depois de criar o conector de RH e executar o script para carregar seus dados de
 
 2. Clique na guia **conectores** e selecione o conector de RH para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
 
-   ![Página de submenu do conector de RH com propriedades e status](media/HRConnectorFlyout1.png)
+   ![Página de submenu do conector de RH com propriedades e status](../media/HRConnectorFlyout1.png)
 
 3. Em **andamento**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft. 
 
-   ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](media/HRConnectorLogFile.png)
+   ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](../media/HRConnectorLogFile.png)
 
    O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver 4 linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
@@ -193,7 +193,7 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
 7. Selecione a guia **ações** , clique em **novo**e faça o seguinte:
 
-   ![Configurações de ação para criar uma nova tarefa agendada para o script do conector de RH](media/HRConnectorScheduleTask1.png)
+   ![Configurações de ação para criar uma nova tarefa agendada para o script do conector de RH](../media/HRConnectorScheduleTask1.png)
 
    a. Na lista suspensa **ação** , verifique se **Iniciar um programa** está selecionado.
 
@@ -209,7 +209,7 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
    A nova tarefa é exibida na biblioteca do Agendador de tarefas.
 
-   ![A nova tarefa é exibida na biblioteca do Agendador de tarefas](media/HRConnectorTaskSchedulerLibrary.png)
+   ![A nova tarefa é exibida na biblioteca do Agendador de tarefas](../media/HRConnectorTaskSchedulerLibrary.png)
 
    A última vez em que o script foi executado e a próxima vez em que ele está agendado para ser executado é exibida. Você pode clicar duas vezes na tarefa para editá-la.
 

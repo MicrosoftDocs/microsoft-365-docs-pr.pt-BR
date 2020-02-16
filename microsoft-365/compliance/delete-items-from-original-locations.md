@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como usar a nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para excluir itens de seus locais originais.
-ms.openlocfilehash: 2efb57fa2e35cffd3cca5e8f44b648018f0daf1b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0232a822af0427fcfa669fa1e86558ca54996202
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075830"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>Excluir itens de seu local original (versão prévia)
 
@@ -52,22 +52,22 @@ Execute as seguintes etapas para excluir itens do local original:
  
 2. Clique em **ação** e em **excluir itens de locais originais**.
 
-   ![Clique em ação e em excluir itens de locais originais](media/DataInvestigationsDeleteItems1.png)
+   ![Clique em ação e em excluir itens de locais originais](../media/DataInvestigationsDeleteItems1.png)
 
 3. Na página do menu suspenso, verifique o número de itens e documentos filhos relacionados que serão excluídos e clique em **excluir**.
 
-   ![A página de menu suspenso exibe o número de itens e quaisquer documentos anexados selecionados para exclusão](media/DataInvestigationsDeleteItems2.png)
+   ![A página de menu suspenso exibe o número de itens e quaisquer documentos anexados selecionados para exclusão](../media/DataInvestigationsDeleteItems2.png)
 
    > [!NOTE]
    > Na captura de tela anterior, o número de itens indica o número de itens selecionados para exclusão. O número de documentos indica o número total de itens, incluindo os arquivos anexados a um item pai. Por exemplo, se você selecionar uma mensagem de email e essa mensagem tiver um documento do Word anexado, o número de itens e documentos exibidos em **documentos selecionados só** será **1 itens (2 documentos)**.
 
 Você pode acompanhar o progresso do trabalho **excluir itens de locais originais** na guia **trabalhos** . Clique no trabalho para exibir a página de menu suspenso.
 
-![Página de submenu para excluir itens do trabalho de locais originais](media/DataInvestigationsDeleteItems3.png)
+![Página de submenu para excluir itens do trabalho de locais originais](../media/DataInvestigationsDeleteItems3.png)
 
 Quando os itens no trabalho são excluídos, o status do trabalho é definido como **bem-sucedido**. A hora e a data do trabalho concluído também são exibidas.
 
-![Trabalho de excluir itens concluído](media/DataInvestigationsDeleteItems4.png)
+![Trabalho de excluir itens concluído](../media/DataInvestigationsDeleteItems4.png)
 
 > [!NOTE]
 > Você pode receber um status **parcialmente bem-sucedido** para o trabalho **excluir itens de locais originais** . Há várias situações que resultam nesse status de trabalho. Para obter mais informações, consulte a seção [exclusões parcialmente bem-sucedidas](#partially-successful-deletions) neste artigo.

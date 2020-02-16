@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b6f467f938ce14aacb9553b11d51dc63431ab409
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 9a732258e787de3407731f0fdfc98ed07653df71
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074348"
 ---
 # <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 
@@ -37,7 +37,7 @@ O download oferece uma maneira simples de baixar o conteúdo de uma revisão def
 
 Para baixar o conteúdo de um conjunto de revisão, comece selecionando os arquivos que você deseja baixar e, em seguida, selecione "download" no menu ações.
 
-![Captura de tela de uma descrição de computador gerada automaticamente](media/eDiscoDownload.png)
+![Captura de tela de uma descrição de computador gerada automaticamente](../media/eDiscoDownload.png)
 
 ## <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 

@@ -1,5 +1,7 @@
 ---
 title: Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: Itens parcialmente indexados (também chamadas de itens não indexados) são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive que, por algum motivo, não foram completamente indexados para pesquisa de conteúdo. Neste artigo, você pode aprender por que os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados, identificar erros de pesquisa para itens parcialmente indexados e usar um script do PowerShell para determinar a exposição da sua organização a emails parcialmente indexados itens.
-ms.openlocfilehash: 4e1430fe80c01b1cc9e67777c6955790ea1c6540
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: b67b7d5cfedd37315a9f8bc9027e03b820598846
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38684954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072331"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365
 
@@ -49,7 +51,7 @@ Após executar uma pesquisa de conteúdo no centro de conformidade de & de segur
 
 Para entender a exposição da sua organização a itens parcialmente indexados, você pode executar uma pesquisa de todo o conteúdo em todas as caixas de correio (usando uma consulta de palavra-chave em branco). No exemplo a seguir, há itens totalmente indexados de 56.208 (4.830 MB) e 470 (316 MB) parcialmente indexados.
   
-![Exemplo de estatísticas de pesquisa mostrando itens parcialmente indexados](media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
+![Exemplo de estatísticas de pesquisa mostrando itens parcialmente indexados](../media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
   
 Você pode determinar a porcentagem de itens parcialmente indexados usando os seguintes cálculos.
   
@@ -74,7 +76,7 @@ Portanto, no exemplo anterior, 6,54% do tamanho total dos itens de caixa de corr
 
 Em casos em que você precisa examinar itens parcialmente para validar que eles não contêm informações relevantes, é possível [exportar um relatório de pesquisa de conteúdo](export-a-content-search-report.md) que contenha informações sobre itens parcialmente indexados. Ao exportar um relatório de pesquisa de conteúdo, certifique-se de escolher uma das opções de exportação que inclui itens parcialmente indexados. 
   
-![Escolha a segunda ou terceira opção para exportar itens parcialmente indexados](media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
+![Escolha a segunda ou terceira opção para exportar itens parcialmente indexados](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
   
 Quando você exporta resultados de pesquisa de conteúdo ou um relatório de pesquisa de conteúdo usando uma destas opções, a exportação inclui um relatório chamado itens não indexados. csv. Este relatório inclui a maioria das mesmas informações que o arquivo ResultsLog. csv; no entanto, o arquivo items. CSV não indexado também inclui dois campos relacionados a itens parcialmente indexados: **marcas de erro** e **Propriedades de erro**. Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação para um determinado impacto em sua investigação. Se isso acontecer, você poderá executar uma pesquisa de conteúdo direcionado e recuperar e exportar mensagens de email específicas e documentos do SharePoint ou do OneDrive para que possa examiná-las para determinar se elas são relevantes para a investigação. Para obter instruções passo a passo, consulte [preparar um arquivo CSV para uma pesquisa de conteúdo direcionado no Office 365](csv-file-for-an-id-list-content-search.md).
   
@@ -164,7 +166,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
   
 ```
 
-2. [Conecte-se ao PowerShell do centro de conformidade & segurança](https://go.microsoft.com/fwlink/p/?linkid=627084).
+2. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/p/?linkid=627084).
     
 3. Em segurança & centro de conformidade do PowerShell, vá para a pasta onde você salvou o script na etapa 1 e execute o script; por exemplo:
 
@@ -174,7 +176,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
 
 Aqui está um exemplo de saída retornada pelo script.
   
-![Exemplo de saída do script que gera um relatório sobre a exposição da sua organização para itens de email parcialmente indexados](media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
+![Exemplo de saída do script que gera um relatório sobre a exposição da sua organização para itens de email parcialmente indexados](../media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
   
 Observe o seguinte:
   

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 78f0b53c1f66adb9c1c8534bbf4b1e1915f6ba0d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595346"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075879"
 ---
 # <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada do Office 365
 
@@ -33,11 +33,11 @@ Na descoberta eletrônica avançada, um ou mais problemas podem ser definidos em
 
 1. Na \> guia **configuração \> de relevância de relevância** selecione **problemas**.
     
-    ![Problemas de instalação de relevância](media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
+    ![Problemas de instalação de relevância](../media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
   
 2. Para adicionar um problema, clique no ícone * * + * *. A caixa de diálogo **Adicionar problema** é exibida. 
     
-    ![Problema de adição de instalação de Relevância](media/c8e94982-139a-472a-b85d-282f2d742046.png)
+    ![Problema de adição de instalação de Relevância](../media/c8e94982-139a-472a-b85d-282f2d742046.png)
   
     Para editar um problema, clique no ícone **Editar** . 
     

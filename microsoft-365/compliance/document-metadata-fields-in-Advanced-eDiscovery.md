@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 399e89a577db68e0c31eceef921ef2ab1172352a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae268c1368933c729177d6083294e7e7a8735958
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074918"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 

@@ -16,12 +16,12 @@ ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
 description: Se você ainda não tiver movido a sua organização do Office 365 para os novos recursos do OME, mas já tiver implantado o OME, as informações neste artigo se aplicam à sua organização. A Microsoft recomenda que você faça um plano para migrar para os novos recursos do OME assim que for razoável para sua organização. Para obter instruções, consulte Configurar novos recursos de criptografia de mensagem do Office 365 criados com base na proteção de informações do Azure. Se quiser saber mais sobre como os novos recursos funcionam primeiro, confira criptografia de mensagem do Office 365. O restante deste artigo refere-se ao comportamento OME antes do lançamento dos novos recursos do OME.
-ms.openlocfilehash: cb5315c99b586f250ecd2e5ee51ee6f4534e8bff
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 29bebb89bf8fcfed25e5348789d80d244a044b6f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585720"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072220"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
@@ -53,7 +53,7 @@ Quando alguém envia uma mensagem de email no Exchange Online que corresponde a 
   
 O diagrama a seguir resume a passagem de uma mensagem de email pelo processo de criptografia e de descriptografia.
   
-![Diagrama mostrando o caminho de um email criptografado](media/O365-Office365MessageEncryption-Concept.png)
+![Diagrama mostrando o caminho de um email criptografado](../media/O365-Office365MessageEncryption-Concept.png)
   
 Para obter mais informações, consulte [Service Information for Legacy Office 365 Message Encryption antes do lançamento dos novos recursos do ome](legacy-information-for-message-encryption.md#LegacyServiceInfo).
   
@@ -87,7 +87,7 @@ Você também pode reverter para a aparência padrão a qualquer momento.
   
 O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anexo de email:
   
-![Exemplo da página de exibição de mensagem criptografada](media/TA-OME-3attachment2.jpg)
+![Exemplo da página de exibição de mensagem criptografada](../media/TA-OME-3attachment2.jpg)
   
  **Para personalizar as mensagens de email de criptografia e o portal de criptografia com a marca da sua organização**
   

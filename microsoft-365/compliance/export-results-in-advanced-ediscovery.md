@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada do Office 365, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
-ms.openlocfilehash: ae25c0aac64a437f902ec5533453a05b8bdb5be6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9194bc9dc44587fb03798c2107c408d2afb2ae70
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588311"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074266"
 ---
 # <a name="export-results-in-office-365-advanced-ediscovery"></a>Exportar resultados na descoberta eletrônica avançada do Office 365
 
@@ -68,18 +68,18 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
     
     - Para exportar resultados para novos arquivos que você adicionou a um caso existente, continue com seu lote atual. Para criar uma sessão no lote, selecione o mesmo número de lote e clique em **criar sessão de exportação** você pode usar essa opção para exportar os mesmos parâmetros que o lote anterior, de forma incremental. 
     
-    - Para exportar para um novo lote, clique em **Adicionar** ![ícone](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)de adição e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
+    - Para exportar para um novo lote, clique em **Adicionar** ![ícone](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)de adição e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
     
-    - Para editar um nome de lote ou descrição, selecione o nome **em lote de exportação**, clique em](media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) **Editar** ![ícone de edição e modifique os campos.
+    - Para editar um nome de lote ou descrição, selecione o nome **em lote de exportação**, clique em](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) **Editar** ![ícone de edição e modifique os campos.
     
       > [!NOTE]
       > Depois de executar sessões para um lote de exportação, elas não podem ser excluídas. Além disso, apenas alguns parâmetros podem ser editados depois que a primeira sessão é executada. 
   
-    - Para criar um lote de exportação duplicado, escolha o **lote** ![de exportação duplicado crie](media/3f6d5f59-e842-4946-a493-473528af0119.jpg) um ícone de lote de exportação duplicado e insira um nome e uma descrição para o lote duplicado no painel. 
+    - Para criar um lote de exportação duplicado, escolha o **lote** ![de exportação duplicado crie](../media/3f6d5f59-e842-4946-a493-473528af0119.jpg) um ícone de lote de exportação duplicado e insira um nome e uma descrição para o lote duplicado no painel. 
     
-    - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
+    - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
     
-    - Para exibir o histórico de um lote, escolha **** ![o ícone](media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
+    - Para exibir o histórico de um lote, escolha **** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
     
 2. Em **população**, selecione **incluir somente os arquivos acima da classificação de recorte de relevância** e/ou **refinar lote de exportação** se quiser ajustar as configurações para o lote de exportação. 
     
@@ -111,7 +111,7 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
   
 6. Clique em **Modificar** para definir as configurações de campo "para revisão". 
     
-    ![Configurar as definições de campo de revisão para um lote de exportação](media/39451aba-f6fe-4a01-8ed0-0be6a6ce889a.png)
+    ![Configurar as definições de campo de revisão para um lote de exportação](../media/39451aba-f6fe-4a01-8ed0-0be6a6ce889a.png)
   
    - Em **configurações do campo de revisão**, na lista suspensa **selecionar cenário** , selecione o cenário e o escopo da revisão. As configurações são exibidas com base na seleção.
     
@@ -159,13 +159,13 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
     
 9. Na janela **baixar arquivos** , clique em **copiar para área de transferência** para copiar a chave de exportação. 
     
-    ![Baixar arquivos](media/99cf2c13-4954-479f-9741-80d7458c1a15.png)
+    ![Baixar arquivos](../media/99cf2c13-4954-479f-9741-80d7458c1a15.png)
   
 10. Clique em **Fechar**. 
     
     A ferramenta de exportação de descoberta eletrônica é iniciada.
     
-    ![Ferramenta de exportação de Descoberta Eletrônica](media/705756ca-ee97-4d24-b70f-8b23513f6d11.gif)
+    ![Ferramenta de exportação de Descoberta Eletrônica](../media/705756ca-ee97-4d24-b70f-8b23513f6d11.gif)
   
 11. Na **ferramenta de exportação de descoberta eletrônica**:
     

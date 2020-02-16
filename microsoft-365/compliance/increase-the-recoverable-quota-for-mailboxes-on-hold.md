@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: 'Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Office 365. '
-ms.openlocfilehash: 4b93c8be01e9d84fb2c2bf93ed67b2ea1b18e812
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 37d0e783f3b3a5157fe4a7a9b7d512b09c05d32c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597928"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072910"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
 
@@ -96,15 +96,15 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
   
 ### <a name="use-the-eac-to-create-a-retention-policy"></a>Usar o EAC para criar uma política de retenção
   
-1. No Eat, vá para **políticas de retenção**de **Gerenciamento** \> de conformidade e clique em **Adicionar** ![ícone](media/ITPro-EAC-AddIcon.gif)de adição.
+1. No Eat, vá para **políticas de retenção**de **Gerenciamento** \> de conformidade e clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição.
     
 2. Na página **Nova política de retenção**, em **Nome**, digite um nome que descreva o propósito da política de retenção, por exemplo, **MRM Policy for Mailboxes on Hold**.  
     
-3. Em **marcas de retenção**, **** ![clique em Adicionar](media/ITPro-EAC-AddIcon.gif)ícone de adição.
+3. Em **marcas de retenção**, **** ![clique em Adicionar](../media/ITPro-EAC-AddIcon.gif)ícone de adição.
     
 4. Na lista de marcas de retenção, selecione o relatório de itens recuperáveis que você criou na Etapa 1 e clique em **Adicionar**.
     
-    ![Selecione a marca de retenção personalizada Itens Recuperáveis](media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
+    ![Selecione a marca de retenção personalizada Itens Recuperáveis](../media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
   
 5. Selecione marcas de retenção adicionais para adicionar à política de retenção. Por exemplo, convém adicionar as mesmas marcas que são incluídas na Política de MRM Padrão.
     
@@ -114,7 +114,7 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
     
     Observe que as marcas de retenção vinculadas à política de retenção são exibidas no painel de detalhes.
     
-    ![Marcas de retenção vinculadas à política de retenção são exibidas no painel de detalhes](media/dad1c8f4-9928-4d6d-991a-6f6c5194eceb.png)
+    ![Marcas de retenção vinculadas à política de retenção são exibidas no painel de detalhes](../media/dad1c8f4-9928-4d6d-991a-6f6c5194eceb.png)
   
 ### <a name="use-exchange-online-powershell-to-create-a-retention-policy"></a>Usar o PowerShell do Exchange Online para criar uma política de retenção
   
@@ -139,7 +139,7 @@ A última etapa é aplicar a nova política de retenção que você criou na Eta
   
 1. Acesse **Destinatários** \> **Caixas de Correio**.
     
-2. No modo de exibição de lista, selecione a caixa de correio à qual você deseja aplicar a política de **** ![retenção e clique](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)em Editar ícone de edição.
+2. No modo de exibição de lista, selecione a caixa de correio à qual você deseja aplicar a política de **** ![retenção e clique](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)em Editar ícone de edição.
     
 3. Na página **Caixa de Correio do Usuário**, clique em **Recursos de caixa de correio**.
     

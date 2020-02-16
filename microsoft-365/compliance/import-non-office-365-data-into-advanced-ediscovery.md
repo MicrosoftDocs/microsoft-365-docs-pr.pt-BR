@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Como as etapas para importar o conteúdo que não é armazenado no O365 em um blob do Azure para que ele possa ser analisado com o AeD
-ms.openlocfilehash: 8417382bc37b5bb3515e893ff2043019525b3f72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7a06bff3abe70e58ab08edcc456bc167229b05f2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072978"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada
 

@@ -14,12 +14,12 @@ mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Para os relatórios de conformidade normativa do Office 365, Azure e Dynamics 365 online, para ver auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e como é possível ser compatível com ISO, HIPAA, NIST, FINRA, RGPD e FedRAMP quando você usa esses serviços online.
-ms.openlocfilehash: d8347a20543664a1de86001709f068bf39b1cb5d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 865b16dfc5e1878a9bc51f8d84ef8c0128f39298
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073140"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Introdução ao portal de confiança do serviço Microsoft
 
@@ -56,7 +56,7 @@ Ao se inscrever em uma avaliação gratuita ou uma assinatura, você deve habili
 
 Os recursos e o conteúdo do portal de confiança do serviço podem ser acessados no menu principal.
   
-![Menu do portal de confiança do serviço](media/STPMenus1.png)
+![Menu do portal de confiança do serviço](../media/STPMenus1.png)
 
 As seções a seguir descrevem cada item no menu principal.
   
@@ -64,7 +64,7 @@ As seções a seguir descrevem cada item no menu principal.
 
 O link do **portal de confiança do serviço** exibe a Home Page. Ele oferece uma maneira rápida de retornar à Home Page.
 
-### <a name="compliance-manager"></a>Gerenciador de Conformidade
+### <a name="compliance-manager"></a>Gerente de Conformidade
 
 O Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Office 365, o Dynamics 365 e o Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Dependendo da versão do Gerenciador de conformidade que você deseja usar, consulte os seguintes artigos para obter mais informações:
 
@@ -112,7 +112,7 @@ Este novo recurso permite salvar (ou *fixar*) documentos para que você possa ac
 
 Vá para **mais > administrador** para acessar funções administrativas que estão disponíveis somente para a conta de administrador global. Essa opção estará visível somente quando você estiver conectado como um administrador global. Há duas opções no menu suspenso **administrador** :
   
-- **Configurações:** Essa página permite atribuir acesso baseado em função (conhecido como *funções de usuário*) ao Gerenciador de conformidade.  Para saber mais, confira:
+- **Configurações:** Essa página permite atribuir acesso baseado em função (conhecido como *funções de usuário*) ao Gerenciador de conformidade.  Para saber mais, veja:
    
   - [Permissões no Gerenciador de conformidade (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control)
    
@@ -126,13 +126,13 @@ Vá para **mais > administrador** para acessar funções administrativas que est
 
 Clique na lupa no canto superior direito da página do portal de confiança do serviço para expandir a caixa, insira seus termos de pesquisa e pressione **Enter**. A página de **pesquisa** é exibida, com o termo de pesquisa exibido na caixa de pesquisa e os resultados da pesquisa listados abaixo.
   
-![Portal de Confiança do Serviço – pesquisa em documentos com filtro aplicado](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+![Portal de Confiança do Serviço – pesquisa em documentos com filtro aplicado](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
 
 Por padrão, a pesquisa retorna resultados de documento. Você pode filtrar os resultados usando as listas suspensas para aprimorar a lista de documentos exibidos. Você pode usar vários filtros para restringir a lista de documentos. Os filtros incluem os serviços de nuvem específicos, categorias de práticas de conformidade ou segurança, regiões e setores. Clique no link nome do documento para baixar o documento.
   
 Para listar os controles de avaliações no gerente de conformidade relacionados aos termos de pesquisa, clique em **Gerenciador de conformidade**. Os resultados da pesquisa mostram a data em que a avaliação foi criada, o nome do agrupamento de avaliação, o serviço do Microsoft Cloud aplicável e se o controle é gerenciado pela Microsoft ou pelo cliente. Clique no nome do controle para exibir o controle na avaliação no Gerenciador de conformidade.
   
-![Portal de Confiança do Serviço – pesquisa em controles de gerenciamento de conformidade](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+![Portal de Confiança do Serviço – pesquisa em controles de gerenciamento de conformidade](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
   
 > [!NOTE]
 > Os relatórios e documentos do portal de confiança do serviço estão disponíveis para download por pelo menos 12 meses após a publicação ou até que uma nova versão do documento fique disponível.
@@ -161,7 +161,7 @@ Para acessar esses pacotes de início, acesse **portal de confiança do serviço
 
 O portal de confiança do serviço permite que você visualize o conteúdo da página em diferentes idiomas. Para alterar o idioma da página, basta clicar no ícone de Globo no canto inferior esquerdo da página e selecionar o idioma de sua escolha. 
   
-![Portal de Confiança do Serviço – opções de conteúdo localizado](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+![Portal de Confiança do Serviço – opções de conteúdo localizado](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
 ## <a name="feedback"></a>Feedback
 
@@ -169,4 +169,4 @@ Podemos ajudá-lo com perguntas sobre o portal de confiança do serviço ou os e
   
 Seus comentários são importantes para nós. Clique no botão de comentários na parte inferior da página para nos enviar comentários sobre o que você fez ou não gostou, ou sugestões que você pode ter para melhorar nossos produtos ou recursos de produto.
   
-![Que tipo de comentários você tem](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)
+![Que tipo de comentários você tem](../media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)

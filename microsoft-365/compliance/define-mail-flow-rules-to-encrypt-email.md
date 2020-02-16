@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar regras de fluxo de emails (regras de transporte) para criptografar e descriptografar mensagens usando a criptografia de mensagem do Office 365.
-ms.openlocfilehash: a2f37bff8fa3fd45999a44341cfdb077b4f43e62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 80bdd479ec09f0ecefd2758e2b8012a1a7351d6c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595336"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075868"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Definir regras de fluxo de e-mail para criptografar mensagens de e-mail no Office 365
 
@@ -48,7 +48,7 @@ Você pode definir regras de fluxo de email para acionar a criptografia de mensa
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
 
-4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como criptografar email para DrToniRamos@hotmail.com.
 
@@ -82,7 +82,7 @@ Você pode definir regras de fluxo de email para acionar a criptografia de mensa
 
 4. No EAC, vá para **Fluxo de emails** \> **Regras**.
 
-5. Na lista de regras de fluxo de emails, selecione a regra que você deseja modificar para usar os novos recursos do ome **** ![e, em](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)seguida, escolha Editar ícone de edição.
+5. Na lista de regras de fluxo de emails, selecione a regra que você deseja modificar para usar os novos recursos do ome **** ![e, em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)seguida, escolha Editar ícone de edição.
 
 6. Para habilitar a criptografia usando os novos recursos do OME, em **faça o seguinte**, escolha **Modificar a segurança da mensagem** e, em seguida, escolha **aplicar a criptografia de mensagens e a proteção de direitos do Office 365**. Selecione um modelo do RMS na lista, escolha **salvar** e, em seguida, escolha **OK**.
 
@@ -106,7 +106,7 @@ Se você ainda não tiver movido sua organização do Office 365 para os novos r
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
 
-4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como criptografar email para DrToniRamos@hotmail.com.
 
@@ -164,7 +164,7 @@ Quando os usuários de email enviam mensagens criptografadas, os destinatários 
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
 
-4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como remover criptografia de emails de entrada.
 

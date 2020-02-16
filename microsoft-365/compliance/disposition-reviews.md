@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: d308dcc58bbacf118374bbabdebf27c35ad2d73a
-ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
+ms.openlocfilehash: ee9ea34ee8527558af4d249364b539d3fa1f2fdd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075362"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 
@@ -56,20 +56,20 @@ Ao criar um rótulo de retenção no centro de conformidade da Microsoft 365, no
   
 Uma análise de disposição pode incluir conteúdo em caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e grupos do Office 365. O conteúdo que está aguardando uma revisão de disposição nesses locais é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo.
   
-![Página de desposições no centro de conformidade e segurança](media/Retention-Dispositions-v2-page.png)
+![Página de desposições no centro de conformidade e segurança](../media/Retention-Dispositions-v2-page.png)
 
 
 ## <a name="setting-up-the-disposition-review-by-creating-a-retention-label"></a>Configurando a análise de disposição criando um rótulo de retenção
 
 Este é o fluxo de trabalho básico para configurar uma revisão de disposição. Observe que esse fluxo mostra um rótulo de retenção sendo publicado e, em seguida, aplicado manualmente por um usuário; Como alternativa, um rótulo de retenção que dispara uma análise de disposição pode ser aplicado automaticamente ao conteúdo.
   
-![Gráfico mostrando o fluxo de como o descarte funciona](media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
+![Gráfico mostrando o fluxo de como o descarte funciona](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
   
 Uma revisão de disposição é uma opção quando você cria um rótulo de retenção no Office 365. Essa opção não está disponível em uma política de retenção, mas somente em um rótulo de retenção que é configurado para reter conteúdo.
   
 Para obter mais informações sobre rótulos de retenção, consulte [Overview of Retention Labels](labels.md).
   
-![Configurações de retenção para um rótulo](media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
+![Configurações de retenção para um rótulo](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
 > [!NOTE]
 > Quando você especificar a opção **notifique essas pessoas quando houver itens prontos para revisão**, especifique um usuário. Os grupos do Office 365 não têm suporte para essa opção.
@@ -80,7 +80,7 @@ Quando um revisor é notificado por email que o conteúdo está pronto para revi
 
 Depois que você selecionar um rótulo de retenção, a próxima página mostrará todas as desposições pendentes para esse rótulo.
 
-![Opções de disposição](media/Retention-Disposition-options-v2.png)
+![Opções de disposição](../media/Retention-Disposition-options-v2.png)
 
 O revisor pode então: 
   
@@ -128,18 +128,18 @@ Na página de **disposição pendente** , você pode exibir as desposições pen
     
 - A guia **itens descartados** mostra itens excluídos permanentemente que já foram transferidos por uma análise de disposição. Eles são exibidos aqui porque o processo de exclusão permanente pode levar vários dias, conforme indicado na seção acima. Itens que tiveram um rótulo de retenção diferente aplicado ou tiveram seu período de retenção estendido como parte de uma revisão, não aparecerão aqui.
 
-![Guias de disposição](media/Retention-Disposition-tabs.png)
+![Guias de disposição](../media/Retention-Disposition-tabs.png)
     
 ### <a name="filter-the-disposition-views"></a>Filtrar as exibições de disposição
 
 Você pode filtrar esses modos de exibição por rótulo de retenção ou intervalo de tempo. Para desposições pendentes, o intervalo de tempo é baseado na data de expiração. Para itens descartados, o intervalo de tempo é baseado na data de exclusão.
   
-![Opções de filtro de disposição](media/Retention-filter-options.png)
+![Opções de filtro de disposição](../media/Retention-filter-options.png)
 
 ### <a name="export-the-disposition-items"></a>Exportar os itens de disposição
 
 Além disso, você pode exportar os itens em um modo de exibição como um arquivo. csv que pode ser aberto no Excel.
   
-![Dados de disposição exportados no Excel](media/08e3bc09-b132-47b4-a051-a590b697e725.png)
+![Dados de disposição exportados no Excel](../media/08e3bc09-b132-47b4-a051-a590b697e725.png)
   
 
