@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 700c5c9892d5cd04f3f56bf1f3d498cf5d2467af
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1a1e8b19ff214d29dc8a309cce4f79de92cf8155
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071288"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Publicação 140-2 do FIPS (Federal Information Processing Standard)
 
@@ -39,7 +39,7 @@ Para obter informações técnicas sobre módulos de criptografia do Microsoft W
 
 Embora a atual orientação de implementação do CMVP FIPS 140-2 impede uma validação FIPS 140-2 para um serviço de nuvem propriamente dito; os provedores de serviços de nuvem podem optar por obter e operar os módulos de criptografia validados pelo FIPS 140 para os elementos computacionais que compõem o serviço na nuvem. Os serviços online da Microsoft que incluem componentes, que foram validados pelo FIPS 140-2, entre outros:
 
-- [Azure e Azure Governamental](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
+- [Azure e Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
 - [Dynamics 365 e Dynamics 365 governamental](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
 - [Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
 
