@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f79fcebf220f1aee98ba97c537ff80b65b6e3881
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a9ff7e38a99a5fe5bd8da5301bec5e19bc015cf3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582850"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072779"
 ---
 # <a name="insider-risk-management-users-preview"></a>Usuários de gerenciamento de risco do Insider (versão prévia)
 
@@ -29,7 +29,7 @@ Os usuários de gerenciamento de risco do insider são funcionários em sua orga
 - **Violações confirmadas**: o número de ocorrências resolvidas como *violação de política confirmada* para o usuário.
 - **Caso**: o caso ativo atual do usuário.
 
-![Painel usuários de gerenciamento de risco do insider](media/insider-risk-users-dashboard.png)
+![Painel usuários de gerenciamento de risco do insider](../media/insider-risk-users-dashboard.png)
 
 ## <a name="view-user-details"></a>Exibir detalhes do usuário
 

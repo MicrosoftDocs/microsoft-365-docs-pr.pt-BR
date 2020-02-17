@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d87531d7a664ca359f7cbe6c05f26f574c44f833
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 02f665f966b929ac8a83acfcdf5be6a5818a64d3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072828"
 ---
 # <a name="insider-risk-management-cases-preview"></a>Casos de gerenciamento de risco do Insider (versão prévia)
 
@@ -41,7 +41,7 @@ A fila de casos lista todos os casos ativos e fechados para sua organização, a
 - **Última atualização**: o tempo decorrido desde que houve uma observação de caso adicionada ou alteração no estado de caso.
 - **Última atualização**: o nome do analista de gerenciamento de risco do insider ou do investigador que atualizou pela última vez o caso.
 
-![Painel de casos de gerenciamento de risco do insider](media/insider-risk-cases-dashboard.png)
+![Painel de casos de gerenciamento de risco do insider](../media/insider-risk-cases-dashboard.png)
 
 Use o controle de **pesquisa** para pesquisar nomes de caso para texto específico e use o filtro de caso para classificar casos pelos seguintes atributos:
 
@@ -67,7 +67,7 @@ O painel de **detalhes de caso** está disponível em todas as guias de gerencia
 - **Alertas confirmados**: lista de alertas para o usuário confirmado para o caso.
 - **Conteúdo em risco**: lista de conteúdo, classificada por fontes e tipos de conteúdo. Por exemplo, para o conteúdo de alerta de caso no SharePoint Online, você pode ver nomes de pastas ou arquivos listados que estão associados à atividade de risco para alertas no caso.
 
-![Detalhes do caso de gerenciamento de risco do insider](media/insider-risk-case-details.png)
+![Detalhes do caso de gerenciamento de risco do insider](../media/insider-risk-case-details.png)
 
 ### <a name="alerts"></a>Alertas
 
@@ -89,7 +89,7 @@ Use o controle de pesquisa para pesquisar os nomes de alerta para texto específ
 
 A guia **atividade do usuário** é uma das ferramentas mais poderosas para análise de riscos internos e investigação de casos na solução de gerenciamento de risco do insider. Esta guia é estruturada para habilitar a revisão rápida de um caso, incluindo uma linha do tempo histórica de todos os alertas, todos os detalhes dos alertas, a pontuação de risco atual para o usuário no caso e os controles para executar a ação efetiva para conter os riscos no caso.
 
-![Atividade do usuário de gerenciamento de risco do insider](media/insider-risk-user-activities.png)
+![Atividade do usuário de gerenciamento de risco do insider](../media/insider-risk-user-activities.png)
 
 1. **Filtros de data e hora da janela**: por padrão, os últimos seis meses de alertas confirmados no caso são exibidos no gráfico de atividade do usuário. Você pode filtrar facilmente o modo de exibição de gráfico com os controles Slider em ambas as extremidades da janela do gráfico ou definindo datas de início e de término específicas no controle de filtro de gráfico.
 2. **Atividade e detalhes de alerta de risco**: as atividades de risco são exibidas visualmente como bolhas coloridas no gráfico de atividades do usuário. As bolhas são criadas para diferentes categorias de risco e o tamanho da bolha é proporcional ao número de atividades de risco para a categoria. Selecione uma bolha para exibir os detalhes de cada atividade de risco. Os detalhes incluem:
@@ -107,7 +107,7 @@ A guia **Gerenciador de conteúdo** permite que analistas de risco e investigado
 
 O Gerenciador de conteúdo é uma poderosa ferramenta com recursos básicos e avançados de pesquisa e filtragem. Para saber mais sobre como usar o Gerenciador de conteúdo, confira [Insider Risk Management Content Explorer](insider-risk-management-content-explorer.md).
 
-![Gerenciador de conteúdo de caso de gerenciamento de risco](media/insider-risk-content-explorer.png)
+![Gerenciador de conteúdo de caso de gerenciamento de risco](../media/insider-risk-content-explorer.png)
 
 ### <a name="case-notes"></a>Anotações de caso
 
