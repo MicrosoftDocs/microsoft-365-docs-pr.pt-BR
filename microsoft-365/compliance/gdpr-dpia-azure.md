@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 82c25e6212e87e0b4915591f26a976475689273b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cb2b9251a7b4fdaa987a803075f0040b93b2f59a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594381"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073358"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-azure"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Azure
 

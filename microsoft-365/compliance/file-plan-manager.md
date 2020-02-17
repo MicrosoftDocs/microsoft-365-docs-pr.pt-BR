@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: d102d264fd3aeed20eb952caa6df8c73fe5c51b8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bad2e592359cb3e1f63e3fa020914ad49a65a471
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074095"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
@@ -29,7 +29,7 @@ O gerenciador de plano de arquivos fornece recursos avançados de gerenciamento 
 
 Para acessar o Gerenciador de planos de arquivos no centro de segurança e conformidade, acesse **Gerenciamento de registros** > **Plano de arquivos**.
 
-![Página de plano de arquivo](media/file-plan-page.png)
+![Página de plano de arquivo](../media/file-plan-page.png)
 
 ## <a name="accessing-file-plan-manager"></a>Acessar o gerenciador de planos de arquivo
 
@@ -89,7 +89,7 @@ Na guia **Rótulos ** do plano de arquivo, as seguintes informações e recursos
     - Excluir automaticamente
     - Revisão obrigatória (também conhecida como revisão de descarte)
 
-![Configurações de rótulos no plano de arquivo](media/file-plan-label-columns.png)
+![Configurações de rótulos no plano de arquivo](../media/file-plan-label-columns.png)
 
 ### <a name="retention-label-file-plan-descriptors-columns"></a>Colunas dos descritores de planos de arquivo do rótulo de retenção
 
@@ -99,11 +99,11 @@ Para começar, o gerenciador de planos de arquivo fornece alguns valores prontos
 
 Aqui está uma visão geral da etapa de descritores de plano de arquivo ao criar ou editar um rótulo de retenção.
 
-![Descritores de plano de arquivo](media/file-plan-descriptors.png)
+![Descritores de plano de arquivo](../media/file-plan-descriptors.png)
 
 Aqui está uma visão das colunas dos descritores dos planos de arquivo na guia **Rótulos** do gerenciador de planos de arquivo.
 
-![file-plan-descriptors-on-labels-tab.png](media/file-plan-descriptors-on-labels-tab.png)
+![file-plan-descriptors-on-labels-tab.png](../media/file-plan-descriptors-on-labels-tab.png)
 
 ## <a name="export-all-existing-retention-labels-to-analyze-andor-perform-offline-reviews"></a>Exportar todos os rótulos de retenção existentes para analisar e/ou executar revisões offline
 
@@ -111,11 +111,11 @@ No gerenciador de planos de arquivo, você pode exportar os detalhes de todos os
 
 Para exportar todos os rótulos de retenção: acesse a página **Plano de arquivo**, **Ações dos planos de arquivo**\> **Exportar rótulos**.
 
-![Opção para exportar o plano de arquivo](media/file-plan-export-labels-option.png)
+![Opção para exportar o plano de arquivo](../media/file-plan-export-labels-option.png)
 
 Um arquivo *.csv que contém todos os rótulos de retenção existentes será aberto.
 
-![Arquivo CSV mostrando todas as etiquetas de retenção](media/file-plan-csv-file.png)
+![Arquivo CSV mostrando todas as etiquetas de retenção](../media/file-plan-csv-file.png)
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>Importar rótulos de retenção ao seu plano de arquivo
 
@@ -125,13 +125,13 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
 
 1. Na página **Plano de arquivo**, acesse **Importar rótulos das** > **Ações dos planos de arquivo**.
 
-   ![Opção para importar plano de arquivo](media/file-plan-import-labels-option.png)
+   ![Opção para importar plano de arquivo](../media/file-plan-import-labels-option.png)
 
-   ![Opção para baixar um modelo de plano de arquivo em branco](media/file-plan-blank-template-option.png)
+   ![Opção para baixar um modelo de plano de arquivo em branco](../media/file-plan-blank-template-option.png)
 
 2. Baixe um modelo em branco para importar novos rótulos de retenção. Como alternativa, você pode começar com o arquivo .csv que é exportado ao exportar os rótulos de retenção existentes na sua organização.
 
-   ![Modelo de plano de arquivo em branco aberto no Excel](media/file-plan-blank-template.png)
+   ![Modelo de plano de arquivo em branco aberto no Excel](../media/file-plan-blank-template.png)
 
 3. Preencher o modelo. A seguir, são descritas as propriedades e os valores válidos para cada propriedade no modelo de planos de arquivo.<br/>
 
@@ -159,16 +159,16 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
 
    Veja um exemplo do modelo que contém as informações sobre rótulos de retenção.
 
-   ![Modelo de planos de arquivo com as informações preenchidas](media/file-plan-filled-out-template.png)
+   ![Modelo de planos de arquivo com as informações preenchidas](../media/file-plan-filled-out-template.png)
 
 4. Na etapa 3 na página do assistente da importação de planos de arquivo, clique em **Procurar arquivos** para carregar o modelo preenchido. 
 
    O gerenciador do plano de arquivos validará as entradas e exibirá as estatísticas de importação.
 
-   ![Estatísticas de importação de planos de arquivo](media/file-plan-import-statistics.png)
+   ![Estatísticas de importação de planos de arquivo](../media/file-plan-import-statistics.png)
 
    Caso haja um erro de validação, a importação dos planos de arquivos continuarão validando todas as entradas no arquivo de importação e exibirão todos os erros referentes aos números de linha/fila no arquivo de importação, copie os resultados do erro exibidos para que você possa retornar facilmente ao arquivo de importação e corrigir os erros.
 
 5. Quando a importação estiver concluída, retorne ao gerenciador de plano de arquivos para associar os novos rótulos de retenção a políticas novas ou existentes.
 
-   ![Opção para publicar rótulos](media/file-plan-publish-labels-option.png)
+   ![Opção para publicar rótulos](../media/file-plan-publish-labels-option.png)

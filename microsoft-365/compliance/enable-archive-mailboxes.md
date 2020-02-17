@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Use o Centro de Conformidade e Segurança no Office 365 para permitir que as caixas de correio de arquivo morto ofereçam suporte à retenção de mensagens, à descoberta eletrônica e aos requisitos de retenção da sua organização.
-ms.openlocfilehash: dfbbb3fa238f7b04fab6742f3eb0c041f39c72d0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 36a5f2003232d55fd82965773b38a26c4fa29b33
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593254"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074718"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Ative as caixas de correio de arquivo morto no Centro de Conformidade e Segurança
   
@@ -49,7 +49,7 @@ Você precisa ter atribuída a função de Destinatários de Email no Exchange O
     
 4. Na lista de caixas de correio, selecione o usuário para o qual você deseja habilitar a caixa de correio de arquivo morto.
     
-    ![Clique em Habilitar, no painel de detalhes do usuário selecionado, para habilitar a caixa de correio de arquivo morto.](media/8b53cdec-d5c9-4c28-af11-611f95c37b34.png)
+    ![Clique em Habilitar, no painel de detalhes do usuário selecionado, para habilitar a caixa de correio de arquivo morto.](../media/8b53cdec-d5c9-4c28-af11-611f95c37b34.png)
   
 5. No painel de detalhes do usuário selecionado, clique em **Habilitar**. 
     
@@ -57,7 +57,7 @@ Você precisa ter atribuída a função de Destinatários de Email no Exchange O
     
 6. Clique em **Sim** para habilitar a caixa de correio de arquivo morto. 
     
-    A criação da caixa de correio de arquivo morto pode demorar alguns instantes. Quando criada, **Caixa de correio de arquivo morto: habilitada** é exibido no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes. 
+    A criação da caixa de correio de arquivo morto pode demorar alguns instantes. Quando criada, **Caixa de correio de arquivo morto: habilitada** é exibido no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes. 
     
 > [!TIP]
 > Você também pode habilitar caixas de correio de arquivo morto selecionando vários usuários com caixas de correio de arquivo morto desabilitadas (use as teclas Shift ou Ctrl). Depois de selecionar várias caixas de correio, clique em **Habilitar** no painel de detalhes. 
@@ -86,7 +86,7 @@ Para desabilitar uma caixa de correio de arquivo morto:
     
 6. Clique em **Sim** para desabilitar a caixa de correio de arquivo morto. 
     
-    Pode levar alguns instantes para desabilitar a caixa de correio de arquivo morto. Quando desabilitada, é exibido**Caixa de correio de arquivo morto: desabilitada** no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes. 
+    Pode levar alguns instantes para desabilitar a caixa de correio de arquivo morto. Quando desabilitada, é exibido**Caixa de correio de arquivo morto: desabilitada** no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes. 
     
 > [!TIP]
 > Você também pode desabilitar em massa as caixas de correio de arquivo morto selecionando vários usuários com caixas de correio de arquivo morto habilitadas (use as teclas Shift ou Ctrl). Depois de selecionar várias caixas de correio, clique em **Desabilitar** no painel de detalhes. 

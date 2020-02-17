@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: 32bb9510d789b56bc48b133dee4abd948009e3a9
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.openlocfilehash: 5e2a1e328888a6aadf5c3057bbe7882ac0f72fbe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079198"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -59,11 +59,11 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
 
     É exibida a página **Pesquisa de log de auditoria**.
 
-    ![A página de pesquisa de log de auditoria](media/AuditLogRetentionPolicy1.png)
+    ![A página de pesquisa de log de auditoria](../media/AuditLogRetentionPolicy1.png)
 
 3. Clique em **Nova política de retenção** e preencha os seguintes campo na página do submenu:
 
-    ![Página do submenu da política de retenção de log de auditoria](media/AuditLogRetentionPolicy2.png)
+    ![Página do submenu da política de retenção de log de auditoria](../media/AuditLogRetentionPolicy2.png)
 
    a. **Nome:** o nome da política de retenção de log de auditoria.  Este nome deve ser exclusivo em sua organização.
    

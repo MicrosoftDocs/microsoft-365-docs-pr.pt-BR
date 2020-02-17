@@ -229,7 +229,7 @@ Você e os membros do site, por meio da Associação de grupo em um dos grupos d
 
 Quando você precisar alterar a associação de grupo de acesso ao site ou criar uma pasta de documentos com permissões personalizadas, consulte [gerenciar um site de equipe isolado do SharePoint Online](manage-an-isolated-sharepoint-online-team-site.md).
   
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 [Sites de equipe do SharePoint Online isolados](isolated-sharepoint-online-team-sites.md)
   

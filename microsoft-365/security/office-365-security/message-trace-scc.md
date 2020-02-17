@@ -20,7 +20,7 @@ ms.locfileid: "42088594"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Rastreamento de mensagens no centro de conformidade & segurança do Office 365 segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 

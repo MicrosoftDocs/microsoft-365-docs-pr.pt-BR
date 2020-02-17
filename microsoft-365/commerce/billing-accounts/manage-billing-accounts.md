@@ -81,7 +81,7 @@ As empresas nesses países podem fornecer o número de IVA:
 
 :::row:::
     :::column:::
-- Áustria
+- Áustria 
 - Bélgica
 - Bulgária
 - Croácia

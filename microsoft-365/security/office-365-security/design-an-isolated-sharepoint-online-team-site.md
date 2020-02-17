@@ -134,7 +134,7 @@ Como todas as contas de usuário nas equipes de pesquisa, engenharia e projetos 
 
 Quando estiver pronto para criar e configurar um site isolado em produção, consulte [implantar um site de equipe isolado do SharePoint Online](deploy-an-isolated-sharepoint-online-team-site.md).
   
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 [Sites de equipe do SharePoint Online isolados](isolated-sharepoint-online-team-sites.md)
   

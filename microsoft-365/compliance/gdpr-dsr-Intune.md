@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 1e5323682d5c3b2da03e4a3d176c3b3bacb4e19f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ed49de0254fb834f84816236c2925791076f423
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594320"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073338"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de Entidades de Dados para o RGPD e CCPA
 

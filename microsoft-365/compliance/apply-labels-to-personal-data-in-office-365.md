@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como usar os rótulos do Office como parte do seu plano de proteção do GDPR.
-ms.openlocfilehash: 7561daccb400fd5364e8c1ed948924f7975af5a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 179b71e9fa41b5e3e602dfe78848e9d1afc4699e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079781"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Aplicar rótulos a dados pessoais no Office 365
 
@@ -41,7 +41,7 @@ Neste momento, usar a proteção de informações do Azure para aplicar a cripto
 
 Rótulos de retenção podem ser aplicados a email no Exchange Online e esses rótulos funcionam com a prevenção contra a perda de dados do Office 365.  
 
-![Rótulos do Office 365 e rótulos da Proteção de Informações do Azure](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
+![Rótulos do Office 365 e rótulos da Proteção de Informações do Azure](../media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
 
 Na ilustração:
@@ -55,7 +55,7 @@ Na ilustração:
 
 A ilustração a seguir mostra como os rótulos de retenção e os tipos de informações confidenciais podem ser usados em políticas de rotulação, de prevenção contra perda de dados e nas políticas do Cloud App Security.
 
-![Rótulos do Office e tipos de informações confidenciais](Media/Apply-labels-to-personal-data-in-Office-365-image2.png)
+![Rótulos do Office e tipos de informações confidenciais](../media/Apply-labels-to-personal-data-in-Office-365-image2.png)
 
 Para maior acessibilidade, a tabela a seguir fornece os mesmos exemplos da ilustração.
 
@@ -196,7 +196,7 @@ Criar rótulos e políticas no centro de segurança ou no centro de conformidade
 
 A ilustração a seguir mostra como criar um rótulo de aplicação automática para o Rótulo dados do cliente.
 
-![Criar e aplicar um rótulo para dados do cliente](Media/Apply-labels-to-personal-data-in-Office-365-image3.png)
+![Criar e aplicar um rótulo para dados do cliente](../media/Apply-labels-to-personal-data-in-Office-365-image3.png)
 
 Na ilustração:
 
