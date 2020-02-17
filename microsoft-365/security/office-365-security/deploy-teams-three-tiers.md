@@ -1,5 +1,7 @@
 ---
 title: Implantar equipes para três camadas de proteção para arquivos
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,85 +19,85 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Crie e configure equipes com o Microsoft Teams para vários níveis de proteção de informações para arquivos.
-ms.openlocfilehash: 3b90a1b084f7cd7e56d1d6448d74a7d2c2469a4d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971819"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083314"
 ---
-# <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a><span data-ttu-id="f336b-103">Implantar equipes para três camadas de proteção para arquivos</span><span class="sxs-lookup"><span data-stu-id="f336b-103">Deploy teams for three tiers of protection for files</span></span>
+# <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a><span data-ttu-id="b6349-103">Implantar equipes para três camadas de proteção para arquivos</span><span class="sxs-lookup"><span data-stu-id="b6349-103">Deploy teams for three tiers of protection for files</span></span>
 
-<span data-ttu-id="f336b-104">Use as etapas neste artigo para projetar e implantar equipes de linha de base, confidenciais e altamente confidenciais.</span><span class="sxs-lookup"><span data-stu-id="f336b-104">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential teams.</span></span> <span data-ttu-id="f336b-105">Para obter mais informações sobre essas três camadas de proteção, confira [Proteção de arquivos no Microsoft Teams](secure-files-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="f336b-105">For more information about these three tiers of protection, see [Secure files in Microsoft Teams](secure-files-in-teams.md).</span></span>
+<span data-ttu-id="b6349-104">Use as etapas neste artigo para projetar e implantar equipes de linha de base, confidenciais e altamente confidenciais.</span><span class="sxs-lookup"><span data-stu-id="b6349-104">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential teams.</span></span> <span data-ttu-id="b6349-105">Para obter mais informações sobre essas três camadas de proteção, confira [Proteção de arquivos no Microsoft Teams](secure-files-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="b6349-105">For more information about these three tiers of protection, see [Secure files in Microsoft Teams](secure-files-in-teams.md).</span></span>
 
-## <a name="baseline-teams"></a><span data-ttu-id="f336b-106">Equipes de linha de base</span><span class="sxs-lookup"><span data-stu-id="f336b-106">Baseline teams</span></span>
+## <a name="baseline-teams"></a><span data-ttu-id="b6349-106">Equipes de linha de base</span><span class="sxs-lookup"><span data-stu-id="b6349-106">Baseline teams</span></span>
 
-<span data-ttu-id="f336b-107">A proteção de linha de base inclui as equipes públicas e privadas.</span><span class="sxs-lookup"><span data-stu-id="f336b-107">Baseline protection includes both public and private teams.</span></span> <span data-ttu-id="f336b-108">As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização.</span><span class="sxs-lookup"><span data-stu-id="f336b-108">Public teams can be discovered and accessed by anybody in the organization.</span></span> <span data-ttu-id="f336b-109">Os sites privados podem ser descobertos e acessados somente por membros do grupo do Office 365 associado à equipe.</span><span class="sxs-lookup"><span data-stu-id="f336b-109">Private sites can only be discovered and accessed by members of the Office 365 group associated with the team.</span></span> <span data-ttu-id="f336b-110">Ambos os tipos de equipes permitem aos membros compartilhar o site com outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="f336b-110">Both of these types of teams allow members to share the site with others.</span></span>
+<span data-ttu-id="b6349-107">A proteção de linha de base inclui as equipes públicas e privadas.</span><span class="sxs-lookup"><span data-stu-id="b6349-107">Baseline protection includes both public and private teams.</span></span> <span data-ttu-id="b6349-108">As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização.</span><span class="sxs-lookup"><span data-stu-id="b6349-108">Public teams can be discovered and accessed by anybody in the organization.</span></span> <span data-ttu-id="b6349-109">Os sites privados podem ser descobertos e acessados somente por membros do grupo do Office 365 associado à equipe.</span><span class="sxs-lookup"><span data-stu-id="b6349-109">Private sites can only be discovered and accessed by members of the Office 365 group associated with the team.</span></span> <span data-ttu-id="b6349-110">Ambos os tipos de equipes permitem aos membros compartilhar o site com outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="b6349-110">Both of these types of teams allow members to share the site with others.</span></span>
 
-### <a name="public"></a><span data-ttu-id="f336b-111">Público</span><span class="sxs-lookup"><span data-stu-id="f336b-111">Public</span></span>
+### <a name="public"></a><span data-ttu-id="b6349-111">Público</span><span class="sxs-lookup"><span data-stu-id="b6349-111">Public</span></span>
 
-<span data-ttu-id="f336b-112">Siga as instruções [neste artigo](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) para criar uma equipe de base com acesso e permissões públicas.</span><span class="sxs-lookup"><span data-stu-id="f336b-112">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline team with public access and permissions.</span></span>
+<span data-ttu-id="b6349-112">Siga as instruções [neste artigo](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) para criar uma equipe de base com acesso e permissões públicas.</span><span class="sxs-lookup"><span data-stu-id="b6349-112">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with public access and permissions.</span></span>
 
-<span data-ttu-id="f336b-113">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="f336b-113">Here is your resulting configuration.</span></span>
+<span data-ttu-id="b6349-113">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="b6349-113">Here is your resulting configuration.</span></span>
 
-![Proteção de nível de linha de base para uma equipe pública.](../media/baseline-public-team.png)
+![Proteção de nível de linha de base para uma equipe pública.](../../media/baseline-public-team.png)
 
-### <a name="private"></a><span data-ttu-id="f336b-115">Privado</span><span class="sxs-lookup"><span data-stu-id="f336b-115">Private</span></span>
+### <a name="private"></a><span data-ttu-id="b6349-115">Privado</span><span class="sxs-lookup"><span data-stu-id="b6349-115">Private</span></span>
 
-<span data-ttu-id="f336b-116">Siga as instruções [neste artigo](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) para criar uma equipe de base com acesso e permissões privadas.</span><span class="sxs-lookup"><span data-stu-id="f336b-116">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline team with private access and permissions.</span></span>
+<span data-ttu-id="b6349-116">Siga as instruções [neste artigo](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) para criar uma equipe de base com acesso e permissões privadas.</span><span class="sxs-lookup"><span data-stu-id="b6349-116">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with private access and permissions.</span></span>
 
-<span data-ttu-id="f336b-117">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="f336b-117">Here is your resulting configuration.</span></span>
+<span data-ttu-id="b6349-117">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="b6349-117">Here is your resulting configuration.</span></span>
 
-![Proteção de nível de linha de base para uma equipe privada.](../media/baseline-private-team.png)
+![Proteção de nível de linha de base para uma equipe privada.](../../media/baseline-private-team.png)
 
-## <a name="sensitive-teams"></a><span data-ttu-id="f336b-119">Dados confidenciais</span><span class="sxs-lookup"><span data-stu-id="f336b-119">Sensitive teams</span></span>
+## <a name="sensitive-teams"></a><span data-ttu-id="b6349-119">Dados confidenciais</span><span class="sxs-lookup"><span data-stu-id="b6349-119">Sensitive teams</span></span>
 
-<span data-ttu-id="f336b-120">Para uma equipe confidencial, comece [criando uma equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="f336b-120">For a sensitive team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
+<span data-ttu-id="b6349-120">Para uma equipe confidencial, comece [criando uma equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="b6349-120">For a sensitive team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
 
-<span data-ttu-id="f336b-121">Em seguida, configure o site subjacente do SharePoint para evitar o compartilhamento por membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="f336b-121">Next, you configure the underlying SharePoint site to prevent sharing by team members.</span></span>
+<span data-ttu-id="b6349-121">Em seguida, configure o site subjacente do SharePoint para evitar o compartilhamento por membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="b6349-121">Next, you configure the underlying SharePoint site to prevent sharing by team members.</span></span>
 
-1. <span data-ttu-id="f336b-122">Na barra de ferramentas da equipe, clique em **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="f336b-122">In the tool bar for the team, click **Files**.</span></span>
+1. <span data-ttu-id="b6349-122">Na barra de ferramentas da equipe, clique em **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="b6349-122">In the tool bar for the team, click **Files**.</span></span>
 
-2. <span data-ttu-id="f336b-123">Clique nas reticências e em **Abrir no SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="f336b-123">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
+2. <span data-ttu-id="b6349-123">Clique nas reticências e em **Abrir no SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="b6349-123">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
 
-3. <span data-ttu-id="f336b-124">Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="f336b-124">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
+3. <span data-ttu-id="b6349-124">Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="b6349-124">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
 
-4. <span data-ttu-id="f336b-125">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="f336b-125">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+4. <span data-ttu-id="b6349-125">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="b6349-125">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
 
-5. <span data-ttu-id="f336b-126">Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="f336b-126">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
+5. <span data-ttu-id="b6349-126">Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b6349-126">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
 
-<span data-ttu-id="f336b-127">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="f336b-127">Here is your resulting configuration.</span></span>
+<span data-ttu-id="b6349-127">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="b6349-127">Here is your resulting configuration.</span></span>
 
-![Proteção confidencial para uma equipe.](../media/sensitive-team.png)
+![Proteção confidencial para uma equipe.](../../media/sensitive-team.png)
 
-## <a name="highly-confidential-teams"></a><span data-ttu-id="f336b-129">Equipes altamente confidenciais</span><span class="sxs-lookup"><span data-stu-id="f336b-129">Highly confidential teams</span></span>
+## <a name="highly-confidential-teams"></a><span data-ttu-id="b6349-129">Equipes altamente confidenciais</span><span class="sxs-lookup"><span data-stu-id="b6349-129">Highly confidential teams</span></span>
 
-<span data-ttu-id="f336b-130">Com uma equipe altamente confidencial, comece [criando uma equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="f336b-130">With a highly confidential team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
+<span data-ttu-id="b6349-130">Com uma equipe altamente confidencial, comece [criando uma equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="b6349-130">With a highly confidential team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
 
-<span data-ttu-id="f336b-131">Em seguida, configure o site subjacente do SharePoint para evitar compartilhamentos por membros da equipe e solicitações de acesso por não membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="f336b-131">Next, you configure the underlying SharePoint site to prevent sharing by team members and the requesting of access by non-members of the team.</span></span>
+<span data-ttu-id="b6349-131">Em seguida, configure o site subjacente do SharePoint para evitar compartilhamentos por membros da equipe e solicitações de acesso por não membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="b6349-131">Next, you configure the underlying SharePoint site to prevent sharing by team members and the requesting of access by non-members of the team.</span></span>
 
-1. <span data-ttu-id="f336b-132">Na barra de ferramentas da equipe, clique em **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="f336b-132">In the tool bar for the team, click **Files**.</span></span>
+1. <span data-ttu-id="b6349-132">Na barra de ferramentas da equipe, clique em **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="b6349-132">In the tool bar for the team, click **Files**.</span></span>
 
-2. <span data-ttu-id="f336b-133">Clique nas reticências e em **Abrir no SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="f336b-133">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
+2. <span data-ttu-id="b6349-133">Clique nas reticências e em **Abrir no SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="b6349-133">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
 
-3. <span data-ttu-id="f336b-134">Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="f336b-134">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
+3. <span data-ttu-id="b6349-134">Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.</span><span class="sxs-lookup"><span data-stu-id="b6349-134">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
 
-4. <span data-ttu-id="f336b-135">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="f336b-135">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+4. <span data-ttu-id="b6349-135">No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.</span><span class="sxs-lookup"><span data-stu-id="b6349-135">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
 
-5. <span data-ttu-id="f336b-136">Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.</span><span class="sxs-lookup"><span data-stu-id="f336b-136">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
+5. <span data-ttu-id="b6349-136">Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.</span><span class="sxs-lookup"><span data-stu-id="b6349-136">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
 
-6. <span data-ttu-id="f336b-137">Desative **Permitir solicitações de acesso** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="f336b-137">Turn off **Allow access requests**, and then click **Save**.</span></span>
+6. <span data-ttu-id="b6349-137">Desative **Permitir solicitações de acesso** e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b6349-137">Turn off **Allow access requests**, and then click **Save**.</span></span>
 
-<span data-ttu-id="f336b-138">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="f336b-138">Here is your resulting configuration.</span></span>
+<span data-ttu-id="b6349-138">Esta é a configuração resultante.</span><span class="sxs-lookup"><span data-stu-id="b6349-138">Here is your resulting configuration.</span></span>
 
-![Proteção altamente confidencial para uma equipe.](../media/highly-confidential-team.png)
+![Proteção altamente confidencial para uma equipe.](../../media/highly-confidential-team.png)
 
-## <a name="next-step"></a><span data-ttu-id="f336b-140">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="f336b-140">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="b6349-140">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="b6349-140">Next step</span></span>
 
-[<span data-ttu-id="f336b-141">Proteger arquivos em equipes com rótulos de retenção e DLP</span><span class="sxs-lookup"><span data-stu-id="f336b-141">Protect files in teams with retention labels and DLP</span></span>](deploy-teams-retention-DLP.md)
+[<span data-ttu-id="b6349-141">Proteger arquivos em equipes com rótulos de retenção e DLP</span><span class="sxs-lookup"><span data-stu-id="b6349-141">Protect files in teams with retention labels and DLP</span></span>](deploy-teams-retention-DLP.md)
 
-## <a name="see-also"></a><span data-ttu-id="f336b-142">Confira também</span><span class="sxs-lookup"><span data-stu-id="f336b-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6349-142">Confira também</span><span class="sxs-lookup"><span data-stu-id="b6349-142">See also</span></span>
 
-[<span data-ttu-id="f336b-143">Proteger arquivos no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f336b-143">Secure files in Microsoft Teams</span></span>](secure-files-in-teams.md)
+[<span data-ttu-id="b6349-143">Proteger arquivos no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b6349-143">Secure files in Microsoft Teams</span></span>](secure-files-in-teams.md)
 
-[<span data-ttu-id="f336b-144">Adoção da nuvem e de soluções híbridas</span><span class="sxs-lookup"><span data-stu-id="f336b-144">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[<span data-ttu-id="b6349-144">Adoção da nuvem e de soluções híbridas</span><span class="sxs-lookup"><span data-stu-id="b6349-144">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
