@@ -1,5 +1,7 @@
 ---
 title: Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.'
-ms.openlocfilehash: a5bce86ef7bce79d58628b78d95e02484051c389
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083480"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
@@ -185,11 +187,11 @@ Use estas etapas para verificar se a associação de grupo dinâmico e o licenci
 
 Grave esses valores para trabalhar com as assinaturas de avaliação do Office 365 e do EMS para o ambiente de desenvolvimento/de teste:
 
-- Nome da sua organização de assinatura de avaliação:  ![Sublinhado](../media/Common-Images/TableLine.png)
+- Nome da sua organização de assinatura de avaliação:  ![Sublinhado](../../media/Common-Images/TableLine.png)
 
   Por exemplo, para o nome de domínio de assinatura de avaliação contoso.onmicrosoft.com, o nome da organização é "contoso".
 
-- O nome do administrador global do Office 365: ![Sublinhado](../media/Common-Images/TableLine.png).onmicrosoft.com
+- O nome do administrador global do Office 365: ![Sublinhado](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   Grave a senha dessa conta e a senha inicial comum das outras contas de usuário em um local seguro.
 

@@ -30,7 +30,7 @@ Por padrão, o mapa de fluxo de emails mostra o padrão de fluxo de emails de al
 
 ![Setas para a esquerda e para a direita no widget mapa de fluxo de emails](../../media/mail-flow-map-widget.png)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Clicar no widget **mapa de fluxo de emails** o levará para o relatório de **mapa de fluxo de emails** . Aqui você pode ver o nível mais granular do relatório, você pode clicar em Exibir tabela de detalhes para ver os dados detalhados. Você também pode baixar o relatório detalhado clicando em solicitação de relatório.
 

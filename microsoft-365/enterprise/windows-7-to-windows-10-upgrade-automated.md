@@ -1,5 +1,7 @@
 ---
 title: Atualizações automatizadas do Windows 7 para o Windows 10
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 7bca0a185bccbec1ee857b17817debfd7f06feb0
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 727f165dc941eeb429e865fc8321499af6f23512
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085610"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
 A partir de 14 de janeiro de 2020, atualizações de segurança ou suporte para PCs com Windows 7 não serão mais fornecidos. Com apenas alguns meses restantes para a mudança do Windows 7 para o Windows 10 e com várias opções para implantar, uma pergunta comum na Comunidade de TI é: "Qual é a maneira mais rápida de se mover do Windows 7 para o Windows 10?" A resposta curta é executar atualizações in-loco para computadores existentes e fazendo isso você pode reduzir o foco em vários aspectos do processo de implantação da área de trabalho.
 
-<center><img src="media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
+<center><img src="../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
 Usando as atualizações in-loco, vários processos de implantação de área de trabalho são reduzidos drasticamente no escopo, especialmente:
 
@@ -68,7 +70,7 @@ As opções de implantação de atualização são abordadas na [Implantação d
 
   - Além de tudo o que você precisa configurar para alcançar um estado pronto para empresas
 
-![](media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
+![](../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
 
 Os motivos mais comuns pelos quais as atualizações podem não ser concluídas ou não podem incluir desafios com:
 

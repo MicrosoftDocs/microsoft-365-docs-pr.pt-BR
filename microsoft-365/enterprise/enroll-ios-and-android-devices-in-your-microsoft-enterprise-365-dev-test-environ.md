@@ -76,7 +76,7 @@ Para experimentação adicional, confira [ações de dispositivo disponíveis](h
 
 Explore recursos de [Gerenciamento de dispositivos móveis](m365-enterprise-test-lab-guides.md#mobile-device-management) e recursos adicionais em seu ambiente de teste.
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 [Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md)
   

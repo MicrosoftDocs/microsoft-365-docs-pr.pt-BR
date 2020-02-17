@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 4: configurar a Proteção de Informações do Windows'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreender e implantar a Proteção de Informações do Windows no Microsoft 365.
-ms.openlocfilehash: 23c3298545a288b459fd3bb858bb7c1d1714ee75
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 655ff33c3fd1bba822937618d801db76b7881977
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627377"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067158"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Etapa 4: configurar a Proteção de Informações do Windows
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Com mais dispositivos pessoais sendo usados para o trabalho, há um risco maior de aplicativos e dispositivos vazarem dados da organização privada. Por exemplo, um funcionário inadvertidamente envia uma imagem de um plano de marketing para um produto futuro para um site de mídia social ou salva um arquivo contendo informações altamente confidenciais em seu armazenamento em nuvem pública. 
 
@@ -49,6 +51,6 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![Etapa 5](./media/stepnumbers/Step5.png)|[Configurar a Prevenção de Perda de Dados do Office 365](infoprotect-data-loss-prevention.md)|
+|![Etapa 5](../media/stepnumbers/Step5.png)|[Configurar a Prevenção de Perda de Dados do Office 365](infoprotect-data-loss-prevention.md)|
 
 

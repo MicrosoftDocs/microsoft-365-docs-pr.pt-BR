@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: O Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft fornece ferramentas para monitorar, implementar e gerenciar os controles para ajudar sua organização a alcançar a conformidade de acordo com os padrões de segurança e proteção de dados do setor (como RGPD, ISO 27001 e 27018, e HIPAA) quando comparados aos serviços em nuvem da Microsoft, como o Microsoft Azure e o Office 365. O Gerenciador de Conformidade ajuda quem supervisiona a estratégia de privacidade e proteção de dados da sua organização a gerenciar o processo de avaliação de risco e conformidade.
-ms.openlocfilehash: 52f6cbfb6e1c711b8b6bebec36bea965a9dc6e62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 363b95294a9d06b425edcbb5c587f2f89878926b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602898"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071653"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Gerenciador de conformidade da Microsoft (Clássico)
 
@@ -68,7 +68,7 @@ Uma Avaliação tem vários componentes, que são:
     
     Aqui está um exemplo de três controles gerenciados pela Microsoft na família de controle **Segurança** de uma Avaliação do Office 365 e do RGPD. 
 
-    ![Detalhes dos controles gerenciados pela Microsoft no Gerenciador de Conformidade](media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
+    ![Detalhes dos controles gerenciados pela Microsoft no Gerenciador de Conformidade](../media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
   
   a. Especifica as seguintes informações de certificação ou regulamentação mapeadas pelo controle gerenciado pela Microsoft.
 
@@ -100,17 +100,17 @@ A tabela a seguir descreve cada permissão do Gerenciador de Conformidade e o qu
   
 ||**Leitor do Gerenciador de Conformidade**|**Colaborador do Gerenciador de Conformidade**|**Consultor do Gerenciador de Conformidade**|**Administrador do Gerenciador de Conformidade**|**Administrador do Portal**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Ler dados** – os usuários podem ler, mas não podem editar os dados.  <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|
-|**Editar dados** – os usuários podem editar todos os campos, exceto os campos Resultado e Data do teste.  <br/> ||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Editar resultados do teste** – os usuários podem editar os campos Resultado e Data do teste.  <br/> ||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Gerenciar avaliações** – os usuários podem criar, arquivar e excluir as Avaliações.  <br/> |||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Gerenciar usuários** – os usuários podem adicionar outros usuários em sua organização nas funções de Leitor, Colaborador, Consultor e Administrador. Somente os usuários com a função de Administrador Global na organização podem adicionar ou remover os usuários da função de Administrador do Portal.<br/> ||||<br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Ler dados** – os usuários podem ler, mas não podem editar os dados.  <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|
+|**Editar dados** – os usuários podem editar todos os campos, exceto os campos Resultado e Data do teste.  <br/> ||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Editar resultados do teste** – os usuários podem editar os campos Resultado e Data do teste.  <br/> ||<br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Gerenciar avaliações** – os usuários podem criar, arquivar e excluir as Avaliações.  <br/> |||<br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Gerenciar usuários** – os usuários podem adicionar outros usuários em sua organização nas funções de Leitor, Colaborador, Consultor e Administrador. Somente os usuários com a função de Administrador Global na organização podem adicionar ou remover os usuários da função de Administrador do Portal.<br/> ||||<br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
    
 ## <a name="understanding-the-compliance-score"></a>Noções básicas sobre a Pontuação de Conformidade
 
 No Painel, o Gerenciador de Conformidade exibe uma pontuação total das avaliações do Office 365 no canto superior direito do bloco. Esta é a Pontuação de Conformidade total geral da Avaliação e representa o acúmulo de pontos recebidos de cada avaliação de controle que foi marcada como Implementada e Testada na Avaliação. Ao adicionar uma Avaliação, você verá que a Pontuação de Conformidade já está a caminho da conclusão porque os pontos para os controles gerenciados pela Microsoft que foram implementados pela Microsoft e testados por terceiros independentes já estão aplicados.
   
-![Painel do Gerenciador de Conformidade – pontuação total de conformidade](media/756091aa-1afd-4aff-93ab-c6f6824f2add.png)
+![Painel do Gerenciador de Conformidade – pontuação total de conformidade](../media/756091aa-1afd-4aff-93ab-c6f6824f2add.png)
   
 Os pontos restantes vêm da avaliação bem-sucedida do controle do cliente, desde a implementação e teste dos controles gerenciados pelo cliente, cada um com um valor específico que contribui para a pontuação geral de conformidade. 
   
@@ -118,11 +118,11 @@ Cada Avaliação exibe uma Pontuação de Conformidade com base em risco para aj
   
 Por exemplo, o controle de avaliação do Gerenciamento de acesso do usuário mostrado abaixo tem uma classificação de risco de gravidade muito alta e exibe um valor atribuído de 10.
   
-![Gerenciador de Conformidade – avaliação de controle de gravidade alta – pontuação 10](media/174ecb2c-aaed-436e-9950-74da7dadf5db.png)
+![Gerenciador de Conformidade – avaliação de controle de gravidade alta – pontuação 10](../media/174ecb2c-aaed-436e-9950-74da7dadf5db.png)
   
  Em comparação, o controle de avaliação de Backup de informações mostrado abaixo tem uma classificação de risco de gravidade baixa e exibe um valor atribuído de 3. 
   
-![Gerenciador de Conformidade – avaliação de controle de gravidade baixa – pontuação 3](media/11749f20-5f22-40c2-bbc1-eaccbf29e2ae.png)
+![Gerenciador de Conformidade – avaliação de controle de gravidade baixa – pontuação 3](../media/11749f20-5f22-40c2-bbc1-eaccbf29e2ae.png)
   
 O Gerenciador de Conformidade atribui uma classificação de severidade padrão para cada controle. As classificações de risco são calculadas com base nos seguintes critérios:
   
@@ -140,17 +140,17 @@ O mais importante é que a Pontuação de Conformidade pode ajudar a priorizar e
   
 Por exemplo, na imagem abaixo vemos que a Avaliação de RGPD no Office 365 atualmente está com 46% concluído, com 51 de 111 avaliações de controle concluídas para uma Pontuação total de conformidade de 289 em um máximo de 600.
   
-![Gerenciador de Conformidade – resumo da avaliação](media/595eedae-e3e0-4d1f-8cf5-7c1c9f4fd1e8.png)
+![Gerenciador de Conformidade – resumo da avaliação](../media/595eedae-e3e0-4d1f-8cf5-7c1c9f4fd1e8.png)
   
 Na avaliação, o controle GDPR 7.5.5 está relacionado a 5 outros controles (7.4.1, 7.4.3, 7.4.4, 7.4.8 e 7.4.9), cada um com uma pontuação de classificação de risco de severidade de moderada a alta - 6 ou 8). Por meio do filtro de avaliação, marcamos todos esses controles, tornando-os visíveis no modo de exibição de avaliação e podemos ver abaixo que nenhum deles foi avaliado. 
   
-![Gerenciador de Conformidade – modo de exibição de Avaliação – controles de filtro, nenhum avaliado](media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) Como esses 6 controles estão relacionados, a conclusão de qualquer um deles causará a sincronização dos resultados do teste entre os controles relacionados dentro da avaliação (da mesma forma que ocorre com qualquer controle relacionado em uma avaliação que esteja no mesmo grupo de avaliação). Após a conclusão da implementação e do teste do controle RGPD 7.5.5, a área de detalhes de controle é atualizada para mostrar que todos os 6 controles foram avaliados, com um aumento correspondente no número de controles avaliados para 57 e 51% avaliados, e uma mudança na Pontuação de Conformidade total de +40. 
+![Gerenciador de Conformidade – modo de exibição de Avaliação – controles de filtro, nenhum avaliado](../media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) Como esses 6 controles estão relacionados, a conclusão de qualquer um deles causará a sincronização dos resultados do teste entre os controles relacionados dentro da avaliação (da mesma forma que ocorre com qualquer controle relacionado em uma avaliação que esteja no mesmo grupo de avaliação). Após a conclusão da implementação e do teste do controle RGPD 7.5.5, a área de detalhes de controle é atualizada para mostrar que todos os 6 controles foram avaliados, com um aumento correspondente no número de controles avaliados para 57 e 51% avaliados, e uma mudança na Pontuação de Conformidade total de +40. 
   
-![Modo de exibição de Avaliação do Gerenciador de Conformidade – resultados de controle sincronizados](media/e9da2b30-053a-4d40-ace9-ae1b39cdaf66.jpg)
+![Modo de exibição de Avaliação do Gerenciador de Conformidade – resultados de controle sincronizados](../media/e9da2b30-053a-4d40-ace9-ae1b39cdaf66.jpg)
   
 Essa caixa de diálogo de atualização de confirmação será exibida se você tentar alterar o Status de implementação de um controle relacionado de maneira que afete os outros controles relacionados.
   
-![Avaliação do Gerenciador de Conformidade – caixa de diálogo de confirmação de atualização de controles relacionados](media/8be25bd2-1aee-455f-8aa4-10b1184ca4c3.png)
+![Avaliação do Gerenciador de Conformidade – caixa de diálogo de confirmação de atualização de controles relacionados](../media/8be25bd2-1aee-455f-8aa4-10b1184ca4c3.png)
   
 > [!NOTE]
 > Atualmente, apenas as Avaliações de serviços em nuvem do Office 365 incluem uma Pontuação de Conformidade. As Avaliações do Azure e Dynamics mostram um status de avaliação. 
@@ -166,7 +166,7 @@ As Avaliações no Gerenciador de Conformidade são baseadas no modelo de respon
   
 Como se vê na Avaliação de RGPD do Office 365 abaixo, tanto a Microsoft como os clientes são responsáveis por executar diversas Ações projetadas para atender aos requisitos do padrão ou da regulamentação em avaliação. Para racionalizar e compreender o necessário. Ações em uma variedade de padrões e regulamentos, o Gerenciador de Conformidade trata todos os padrões e regulamentos como se fossem estruturas de controle. Desse modo, as Ações realizadas pela Microsoft e pelos clientes para cada Avaliação envolvem a implementação e a validação de diversos controles.
   
-![Gerenciador de Conformidade – avaliação do RGPD](media/123f8126-85b8-4baa-9c4e-c6295cf4a5ca.png)
+![Gerenciador de Conformidade – avaliação do RGPD](../media/123f8126-85b8-4baa-9c4e-c6295cf4a5ca.png)
   
 Aqui está o fluxo de trabalho básico de uma Ação típica:
   
@@ -202,7 +202,7 @@ O Gerenciador de Conformidade usa uma metodologia de pontuação com base em ris
     
 - Os gatilhos externos do controle
     
-![Gerenciador de Conformidade – Metodologia de pontuação de conformidade](media/e48764c4-828e-44b0-8636-fb3c352f2bac.png)
+![Gerenciador de Conformidade – Metodologia de pontuação de conformidade](../media/e48764c4-828e-44b0-8636-fb3c352f2bac.png)
   
  ### <a name="essence-of-the-control"></a>Essência do controle
   
@@ -322,23 +322,23 @@ Como explicado anteriormente, a principal vantagem de usar grupos é que, quando
   
 Como um exemplo disso, considere esses dois controles de avaliação relacionados, cada um relacionado à criptografia de dados em redes públicas, controle 6.10.1.2 na avaliação RGPD – Office 365 e controle SC-13 na avaliação Office 365 – NIST 800–53. Esses são os controles de avaliação relacionados, em duas avaliações diferentes, ambas no Grupo Padrão. Inicialmente, nenhuma avaliação concluiu as avaliações de controle do cliente, conforme exibido no Painel do Gerenciador de Conformidade que mostra uma dessas duas Avaliações.
   
-![Painel do Gerenciador de Conformidade – avaliações agrupadas – antes](media/dc0126a3-415c-4fbe-a020-1806dd1caebd.png)
+![Painel do Gerenciador de Conformidade – avaliações agrupadas – antes](../media/dc0126a3-415c-4fbe-a020-1806dd1caebd.png)
   
 Ao clicar na avaliação **Office 365 – RGPD** e usar os controles de filtro para exibir o controle RGPD 6.10.1.2, podemos ver que o controle NIST 800-53 SC-13 está listado como um controle relacionado.
   
-![Avaliação do Gerenciador de Conformidade – controles compartilhados](media/aafb106e-0abc-4918-8038-de11cf326dfe.png)
+![Avaliação do Gerenciador de Conformidade – controles compartilhados](../media/aafb106e-0abc-4918-8038-de11cf326dfe.png)
   
  Aqui mostramos a conclusão da implementação e testes do controle RGPD 6.10.1.2. 
   
-![Avaliação do Gerenciador de Conformidade do controle RGPD 6.10.1.2 – aprovada](media/ee9e83b6-9d51-4b3b-85eb-96bec0fef2e1.png)
+![Avaliação do Gerenciador de Conformidade do controle RGPD 6.10.1.2 – aprovada](../media/ee9e83b6-9d51-4b3b-85eb-96bec0fef2e1.png)
   
 Ao navegar até o controle relacionado na avaliação agrupada, podemos ver que NIST 800-53 SC-13 também foi marcada como concluída com a mesma data e hora, sem a necessidade de implementação adicional ou teste.
   
-![Avaliação do Gerenciador de Conformidade – NIST 800-53 SC(13) concluída](media/b5933592-db5a-4fdd-9be2-bba777646a88.png)
+![Avaliação do Gerenciador de Conformidade – NIST 800-53 SC(13) concluída](../media/b5933592-db5a-4fdd-9be2-bba777646a88.png)
   
 Novamente no Painel, podemos ver que cada avaliação tem uma avaliação de controle concluída e que a Pontuação total de conformidade de cada avaliação aumentou em oito (o valor de pontuação de conformidade do controle compartilhado).
   
-![Painel do Gerenciador de Conformidade – andamento da sincronização da avaliação agrupada](media/727f1203-b98d-4a03-a7af-e9236f4c5534.png)
+![Painel do Gerenciador de Conformidade – andamento da sincronização da avaliação agrupada](../media/727f1203-b98d-4a03-a7af-e9236f4c5534.png)
 
 ## <a name="administrative-functions"></a>Funções administrativas
 
@@ -351,7 +351,7 @@ Há funções administrativas específicas disponíveis apenas para a conta de a
 
 Cada função do Gerenciador de Conformidade tem permissões ligeiramente diferentes. Você pode exibir as permissões atribuídas a cada função, conferir quais usuários estão em quais funções e adicionar ou remover usuários dessa função no Portal de Confiança do Serviço, selecionando o item de menu **Administração** e, em seguida, escolhendo **Configurações **. 
   
-![Menu Administrador do STP – opção Configurações selecionada](media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
+![Menu Administrador do STP – opção Configurações selecionada](../media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
 Para adicionar ou remover usuários das funções do Gerenciador de Conformidade.
   
@@ -367,11 +367,11 @@ Para adicionar ou remover usuários das funções do Gerenciador de Conformidade
     
 6. Para adicionar usuários a essa função, clique em **Adicionar**. Na caixa de diálogo **Adicionar Usuários**, clique no campo do usuário. Você pode percorrer a lista de usuários disponíveis ou começar a digitar o nome de usuário para filtrar a lista com base no termo de pesquisa. Clique no usuário para adicionar essa conta à lista **Adicionar Usuários** que será provisionada com essa função. Se você quiser adicionar vários usuários ao mesmo tempo, comece a digitar um nome de usuário para filtrar a lista e, em seguida, clique no usuário para adicioná-lo à lista. Clique em **Salvar** para provisionar a função selecionada a esses usuários. 
     
-    ![Gerenciador de Conformidade – provisionar funções – adicionar usuários](media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
+    ![Gerenciador de Conformidade – provisionar funções – adicionar usuários](../media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
   
 7. Para remover os usuários dessa função, selecione-os e clique em **Excluir**. 
     
-    ![Gerenciador de Conformidade – provisionar funções – remover usuário](media/17004def-604f-471d-a54d-f678fcc01c1e.png)
+    ![Gerenciador de Conformidade – provisionar funções – remover usuário](../media/17004def-604f-471d-a54d-f678fcc01c1e.png)
  
 ## <a name="user-privacy-settings"></a>Configurações de privacidade do usuário
 
@@ -385,7 +385,7 @@ Determinadas regulamentações exigem que uma organização deve ser capaz de ex
 
 - [Excluir o histórico de dados do usuário](#delete-user-data-history)
     
-![Administrador do Gerenciador de Conformidade – funções de Configurações de Privacidade do Usuário](media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
+![Administrador do Gerenciador de Conformidade – funções de Configurações de Privacidade do Usuário](../media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
   
 ### <a name="search-for-a-user"></a>Procurar um usuário
 
@@ -463,13 +463,13 @@ Isso configura os itens de ação de controle como "Não atribuídos" para todos
 
 O Gerenciador de Conformidade fornece ferramentas para atribuir, controlar e registrar as atividades relacionadas à avaliação e conformidade, e ajuda sua organização a cruzar as barreiras de equipe para alcançar as metas de conformidade da sua organização.
   
-![Painel do Gerenciador de Conformidade – Menu superior – Menu do administrador atualizado](media/134d7577-cd70-4124-bcfd-d3feb248952b.png)
+![Painel do Gerenciador de Conformidade – Menu superior – Menu do administrador atualizado](../media/134d7577-cd70-4124-bcfd-d3feb248952b.png)
 
 ## <a name="accessing-compliance-manager"></a>Como acessar o Gerenciador de Conformidade
 
 Acesse o Gerenciador de Conformidade no Portal de Confiança do Serviço. Qualquer pessoa com uma conta Microsoft ou uma conta organizacional do Azure Active Directory pode acessar o Gerenciador de Conformidade.
   
-![Gerenciador de Conformidade – acessar o Gerenciador de Conformidade do menu STP](media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
+![Gerenciador de Conformidade – acessar o Gerenciador de Conformidade do menu STP](../media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
   
 1. Acesse [https://servicetrust.microsoft.com](https://servicetrust.microsoft.com/).
     
@@ -481,15 +481,15 @@ Acesse o Gerenciador de Conformidade no Portal de Confiança do Serviço. Qualqu
 
     Para começar, adicionamos as Avaliações a seguir por padrão:
     
-    ![As Avaliações padrão no Gerenciador de Conformidade](media/8c59b45a-706a-4362-a7ba-2cb782931bf7.png)
+    ![As Avaliações padrão no Gerenciador de Conformidade](../media/8c59b45a-706a-4362-a7ba-2cb782931bf7.png)
     
-5. Clique no ![ícone de Ajuda do Gerenciador de Conformidade](media/c1b3092f-6ac7-43ab-b1c4-63a54598450c.png) **Ajuda** para fazer um tour rápido no Gerenciador de Conformidade. 
+5. Clique no ![ícone de Ajuda do Gerenciador de Conformidade](../media/c1b3092f-6ac7-43ab-b1c4-63a54598450c.png) **Ajuda** para fazer um tour rápido no Gerenciador de Conformidade. 
   
 ## <a name="viewing-action-items"></a>Exibir os itens de ação
 
 O Gerenciador de Conformidade oferece uma visão conveniente de todos os itens de ação de avaliação dos controle atribuídos, permitindo que você tome ações rápidas e fáceis sobre eles. É possível exibir todos os itens de ação ou escolher aqueles que correspondam a uma certificação específica clicando na guia associada a essa avaliação. Por exemplo, na imagem abaixo, a guia RGPD foi selecionada e ela exibe controles relacionados à avaliação de RGPD.
   
-![Gerenciador de Conformidade – Itens de Ação listam várias guias RGPD selecionadas](media/ba960f5c-becb-4d95-a000-d08ec77b7b46.png)
+![Gerenciador de Conformidade – Itens de Ação listam várias guias RGPD selecionadas](../media/ba960f5c-becb-4d95-a000-d08ec77b7b46.png)
   
 Para exibir seus itens de ação:
   
@@ -503,7 +503,7 @@ Para exibir seus itens de ação:
 
 Para adicionar uma avaliação ao Gerenciador de Conformidade:
   
-1. No painel Gerenciador de Conformidade, clique em ![Ícone Adicionar](media/ITPro-EAC-AddIcon.gif) **Adicionar Avaliação**. 
+1. No painel Gerenciador de Conformidade, clique em ![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) **Adicionar Avaliação**. 
     
 2. Na janela **Adicionar uma Avaliação**, você pode criar um novo grupo ao qual adicionará a avaliação ou pode adicioná-la a um grupo existente (o grupo interno é denominado "Grupo inicial"). Dependendo da opção escolhida, digite o nome do novo grupo ou selecione um grupo existente na lista suspensa. Para saber mais, confira [Agrupamento de avaliações](#grouping-assessments).
     
@@ -523,7 +523,7 @@ Para adicionar uma avaliação ao Gerenciador de Conformidade:
     
 6. Clique no menu **Ações** para ver seus itens de ações atribuídas, renomear o grupo de avaliação, exportar o relatório de avaliação ou arquivar a avaliação. 
     
-    ![Gerenciador de Conformidade – bloco Avaliação](media/abf35c11-9757-45c1-aa14-91178f67a18c.png)
+    ![Gerenciador de Conformidade – bloco Avaliação](../media/abf35c11-9757-45c1-aa14-91178f67a18c.png)
 
 ## <a name="copying-information-from-existing-assessments"></a>Copiar informações de avaliações existentes
 
@@ -543,7 +543,7 @@ De modo semelhantes, as informações de controles gerenciados pelo cliente comp
 
 1. Localize o bloco Avaliação correspondente à Avaliação que deseja exibir e clique no nome de avaliação para abri-la e exibir os controles gerenciados da Microsoft e do cliente associados à Avaliação, incluindo uma lista dos serviços em nuvem que estão no escopo da Avaliação. Aqui está um exemplo da Avaliação do Office 365 e RGPD.
     
-    ![Modo de exibição da Avaliação do Gerenciador de Conformidade – tela inteira com textos explicativos](media/169a02eb-e805-412d-b9e7-89561aa7ad1d.png)
+    ![Modo de exibição da Avaliação do Gerenciador de Conformidade – tela inteira com textos explicativos](../media/169a02eb-e805-412d-b9e7-89561aa7ad1d.png)
   
 1. Esta seção mostra as informações do resumo da Avaliação, incluindo o nome de agrupamento, o produto, o nome e o número de controles da Avaliação
     
@@ -563,19 +563,19 @@ Inicialmente, o criador de uma Avaliação é o único Usuário da Avaliação. 
   
 Aqui está uma lista de tarefas a executar usando os recursos do fluxo de trabalho do Gerenciador de Conformidade.
   
-![Fluxo de trabalho da avaliação do Gerenciador de Conformidade com textos explicativos](media/9e5ae34d-b55e-4452-a021-e0e5b10218f5.png)
+![Fluxo de trabalho da avaliação do Gerenciador de Conformidade com textos explicativos](../media/9e5ae34d-b55e-4452-a021-e0e5b10218f5.png)
   
 1. **Use as opções de filtragem para encontrar os controles de avaliação específicos** – o Gerenciador de Conformidade fornece **Opções de filtro**, que proporcionam critérios de seleção altamente precisos para exibir os controles de avaliação, ajudando a visar com precisão as áreas de destino específicas dos esforços de conformidade. 
     
-    Clique no ícone de funil no lado direito da página para mostrar ou ocultar os controles das **Opções de Filtro **. Esses controles permitem especificar critérios de filtro, e somente os controles de avaliação que atenderem a esses critério serão exibidos abaixo. ![Controles de filtragem de Avaliações do Gerenciador de Conformidade](media/d44e1b4b-d928-4778-8a3a-6231edde9ca0.png)
+    Clique no ícone de funil no lado direito da página para mostrar ou ocultar os controles das **Opções de Filtro **. Esses controles permitem especificar critérios de filtro, e somente os controles de avaliação que atenderem a esses critério serão exibidos abaixo. ![Controles de filtragem de Avaliações do Gerenciador de Conformidade](../media/d44e1b4b-d928-4778-8a3a-6231edde9ca0.png)
   
     - **Artigos** – filtra o nome do artigo e retorna os controles de avaliação associados a esse artigo. Por exemplo, se você digitar “Artigo (5)”, uma lista de seleção de artigos cujos nomes incluem essa cadeia de caracteres será retornada, ou seja, Artigo (5)(1)(a), Artigo (5)(1)(b), Artigo (5)(1)(c), etc. Se você selecionar o Artigo (5)(1)(c), os controles associados ao Artigo (5)(1)(c) serão retornados. Esse é um campo de seleção múltipla que usa um operador OR com vários valores. Por exemplo, se você escolher o Artigo (5)(1)(a) e depois adicionar o Artigo (5)(1)(c), o filtro retornará controles associados ao Artigo (5)(1)(a) ou ao Artigo (5)(1)(c). 
     
-      ![Modo de exibição de avaliação do Gerenciador de Conformidade – Filtro de nome do artigo](media/8b0507a0-589d-484a-bc60-80a3debe3ddb.png)
+      ![Modo de exibição de avaliação do Gerenciador de Conformidade – Filtro de nome do artigo](../media/8b0507a0-589d-484a-bc60-80a3debe3ddb.png)
   
     - **Controles** – retorna a lista de controles cujos nomes se encaixam no filtro, por exemplo, digitar em 7.3 retorna uma lista de seleção de itens como 7.3.1, 7.3.4, 7.3.5, etc. Esse campo de seleções múltiplas usa um operador OR com vários valores; por exemplo, se você selecionar 7.3.1 e depois adicionar 7.3.4, o filtro retornará controles associados a 7.3.1 ou a 7.3.4. 
     
-      ![Modo de exibição de avaliação do Gerenciador de Conformidade – Controles de filtro de seleção múltipla](media/c4fc25e8-2376-4f2d-b605-f9c3d90413bf.png)
+      ![Modo de exibição de avaliação do Gerenciador de Conformidade – Controles de filtro de seleção múltipla](../media/c4fc25e8-2376-4f2d-b605-f9c3d90413bf.png)
   
     - **Usuários atribuídos** – retorna a lista de controles atribuídos ao usuário selecionado. 
     
@@ -585,7 +585,7 @@ Aqui está uma lista de tarefas a executar usando os recursos do fluxo de trabal
     
     Conforme você aplica as condições de filtragem, o modo de exibição dos controles aplicáveis é alterado para corresponder às condições dessa filtragem. Expanda as seções das famílias de controles para mostrar os detalhes dos controles abaixo. 
     
-    ![Modo de exibição de avaliação do Gerenciador de Conformidade – resultados de Filtrar Artigo](media/e6485d45-d47f-4b25-8b1c-b3c2ee4a8328.png)
+    ![Modo de exibição de avaliação do Gerenciador de Conformidade – resultados de Filtrar Artigo](../media/e6485d45-d47f-4b25-8b1c-b3c2ee4a8328.png)
   
 2. Se nenhum resultado for mostrado após a seleção dos filtros desejados, isso significa que não existem controles que correspondam às condições especificadas no filtro. Por exemplo, se você selecionar um determinado **Usuário Atribuído** e, em seguida, escolher um nome de **Controle** que correspondem ao controle atribuído ao usuário, nenhuma avaliação será exibida na página abaixo. 
     
@@ -670,17 +670,17 @@ Ao exibir uma avaliação arquivada, nenhum dos controles normalmente editáveis
 
 ## <a name="using-search"></a>Usar a pesquisa
 
-![Portal de Confiança do Serviço – campo de entrada de Pesquisa](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
+![Portal de Confiança do Serviço – campo de entrada de Pesquisa](../media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
   
 Clique na lupa no canto superior direito da página para expandir o campo de entrada de Pesquisa, digite os termos da pesquisa e pressione Enter. O controle de pesquisa exibirá o termo de pesquisa no campo de entrada do painel de pesquisa e os resultados da pesquisa aparecerão abaixo.
   
 Por padrão, a Pesquisa retorna resultados de Documentos e você pode usar os Filtros nas listas suspensas para refinar a lista de documentos exibidos, para adicionar ou remover resultados de pesquisa no modo de exibição. É possível usar vários atributos de filtro ao mesmo tempo para restringir os documentos retornados para o serviços em nuvem específico, categorias de práticas de conformidade ou segurança, regiões do mundo ou setores. Clique no link do nome do documento para baixar o documento.
   
-![Portal de Confiança do Serviço – pesquisa em documentos com filtro aplicado](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+![Portal de Confiança do Serviço – pesquisa em documentos com filtro aplicado](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
   
 Clique no link Gerenciador de Conformidade para exibir os resultados de Pesquisa para controles de gerenciamento do Gerenciador de Conformidade. Os resultados da pesquisa listados mostram a data em que a avaliação foi criada, o nome da do agrupamento de avaliação, o serviço de nuvem aplicável, e se os controles são da Microsoft ou gerenciados pelo cliente.
   
-![Portal de Confiança do Serviço – pesquisa em controles de gerenciamento de conformidade](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+![Portal de Confiança do Serviço – pesquisa em controles de gerenciamento de conformidade](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
   
 > [!NOTE]
 > Os relatórios e documentos do Portal de Confiança do Serviço ficam disponíveis para baixar durante pelo menos doze meses após a publicação ou até uma nova versão do documento ficar disponível. 
@@ -689,7 +689,7 @@ Clique no link Gerenciador de Conformidade para exibir os resultados de Pesquisa
 
 O Portal de Confiança do Serviço permite visualizar o conteúdo da página em diferentes idiomas. Para alterar o idioma da página, clique no ícone de globo no canto inferior esquerdo da página e selecione o idioma. 
   
-![Portal de Confiança do Serviço – opções de conteúdo localizado](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+![Portal de Confiança do Serviço – opções de conteúdo localizado](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
 
 ## <a name="change-log-for-customer-managed-controls"></a>Alterar log para Controles gerenciados pelo cliente

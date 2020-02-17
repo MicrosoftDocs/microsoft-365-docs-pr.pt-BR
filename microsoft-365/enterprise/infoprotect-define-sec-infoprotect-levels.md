@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 1: Definir os níveis de proteção e segurança de informações'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar os níveis de proteção e segurança de informações para sua organização.
-ms.openlocfilehash: 7f1f8a2099da8d99b1b7267e245a80d2143bb0ca
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: d3ba5f490b7aa80c9149a0451059914c78b8f2f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067208"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>Etapa 1: Definir os níveis de proteção e segurança de informações
 
 *Esta etapa é obrigatória e se aplica para as versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Nesta etapa, você definirá os níveis de segurança e proteção para a sua organização. Por exemplo, seu departamento de vendas pode exigir apenas um baixo nível de segurança. Entretanto, seu departamento de pesquisa e sua propriedade intelectual altamente valiosa pode exigir um alto nível de segurança que criptografa arquivos e limita o acesso somente à equipe de pesquisa.
 
@@ -42,4 +44,4 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![Etapa 2](./media/stepnumbers/Step2.png)|[Configurar classificações de ambiente](infoprotect-configure-classification.md)|
+|![Etapa 2](../media/stepnumbers/Step2.png)|[Configurar classificações de ambiente](infoprotect-configure-classification.md)|

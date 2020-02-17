@@ -1,5 +1,7 @@
 ---
 title: Sincronização de hash de senha para ambiente de teste do Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e demonstrar a sincronização de hash de senha e a entrada para o ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: ef08fcf59602d7812875015971d00a34526576d6
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: a0a498aea84bacb61de257150801328834724981
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066377"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Sincronização de hash de senha para ambiente de teste do Microsoft 365
 
@@ -29,7 +31,7 @@ ms.locfileid: "39202452"
 
 Muitas organizações usam o Azure Ad Connect e a sincronização de hash de senha para sincronizar o conjunto de contas na própria floresta do Active Directory Domain Services (AD DS) com o conjunto de contas no locatário do Azure AD de sua assinatura do Microsoft 365 ou do Office 365. Este artigo descreve como adicionar a sincronização de hash de senha a seu ambiente de teste do Microsoft 365, resultando na seguinte configuração:
   
-![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
 Há duas fases para configurar esse ambiente de teste:
   
@@ -37,13 +39,13 @@ Há duas fases para configurar esse ambiente de teste:
 2. Instale e configure o Azure AD Connect na APP1.
     
 > [!TIP]
-> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Fase 1 – Criar o ambiente de teste corporativo simulado do Microsoft 365
 
 Siga as instruções da [configuração base corporativa simulada do Microsoft 365](simulated-ent-base-configuration-microsoft-365-enterprise.md). Aqui está a configuração resultante.
   
-![A configuração base corporativa simulada](media/password-hash-sync-m365-ent-test-environment/Phase1.png)
+![A configuração base corporativa simulada](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
   
 Esta configuração consiste em: 
   
@@ -60,7 +62,7 @@ Em seguida, adicione o domínio **testlab.**\<domínio público> da sua assinatu
 
 Esta é a configuração resultante.
   
-![O registro do seu nome de domínio testlab](media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![O registro do seu nome de domínio testlab](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
 Esta configuração consiste em:
 
@@ -127,7 +129,7 @@ Observe que, embora o Usuário1 tenha permissões de administrador de domínio p
 
 Esta é a configuração resultante.
 
-![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
 Esta configuração consiste em: 
   

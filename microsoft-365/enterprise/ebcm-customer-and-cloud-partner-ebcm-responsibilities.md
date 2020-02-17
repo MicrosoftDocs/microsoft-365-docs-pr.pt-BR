@@ -1,6 +1,8 @@
 ---
 title: Responsabilidades do parceiro de nuvem e do cliente sobre a continuidade de negócios corporativos
 author: chrfox
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 manager: laurawi
 ms.date: ''
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda o que a Microsoft faz durante um incidente de serviço para que você possa preparar melhor seus planos de continuidade de negócios.
-ms.openlocfilehash: 02ab818a6b26fc6b9902747f6c0211545d4b4704
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 3d4a1d6c3a69be4cb3051125d5527b1f0b25b375
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067658"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Responsabilidades do parceiro de nuvem e do cliente sobre o gerenciamento da continuidade de negócios corporativos
 
@@ -53,7 +55,7 @@ A Microsoft mantém vários canais para comunicações de status de serviço que
  
 O fornecimento de acesso aos serviços online da Microsoft 365 é uma parceria entre a sua organização e a Microsoft. O gráfico a seguir resume o equilíbrio de responsabilidade da Microsoft e do cliente durante um incidente de serviço e durante as operações regulares.
 
-![equilíbrio de responsabilidades do cliente e da Microsoft](media/ebcm/responsibilities.png)
+![equilíbrio de responsabilidades do cliente e da Microsoft](../media/ebcm/responsibilities.png)
 
 ## <a name="your-environment---service-continuity"></a>Seu ambiente – continuidade do serviço
 Ao pensar no seu plano de continuidade, tome cuidado com os eventos que possam afetar sua organização e a capacidade geral de se comunicar. Em um alto nível, há três fatores que podem afetar sua empresa.
@@ -69,6 +71,6 @@ A Microsoft publica os [princípios de conectividade de rede](https://docs.micro
 Muitas soluções de colaboração dependem de sistemas, como a WAN (rede de longa distância) da empresa. Como sua organização responderia, caso esses sistemas não estivessem disponíveis?
 Esse gráfico representa os problemas que podem afetar mais de uma área. A tabela a seguir fornece exemplos a considerar
 
-![venn-diagram](media/ebcm/venn-diagram.png)
+![venn-diagram](../media/ebcm/venn-diagram.png)
 
 Seus planos de continuidade devem considerar todas essas áreas. Por exemplo, se você quiser que os usuários estejam na rede corporativa e uma tempestade de neve ocorrer, como os usuários terão acesso aos principais recursos? Se a neve impedir o acesso ao escritório e houver a necessidade de que os engenheiros de serviço se conectem à rede corporativa, existe uma política que impõe que eles estejam em posse de seus laptops corporativos em suas residências?

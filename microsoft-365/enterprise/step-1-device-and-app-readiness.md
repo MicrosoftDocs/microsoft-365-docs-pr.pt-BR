@@ -15,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: abeb6bbfcc5a8de869263f5a4aa922a6642a92f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085450"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
 <td><p><strong>Etapa 1: Preparação de Dispositivos e Aplicativos</strong></p>
 <p>Comece o seu projeto de implantação do desktop com um inventário dos seus dispositivos e aplicativos, priorize o que precisa para prosseguir, teste os aplicativos e dispositivos priorizados e corrija o que for necessário para se preparar para a implantação.</p></td>
-<td><a href="https://aka.ms/ddev1" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev1" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -71,15 +71,15 @@ A Preparação de Dispositivo e aplicativos é composta de quatro etapas: 1. Inv
 
 O Desktop Analytics usa um processo sem agentes para inventariar os computadores e aplicativos na sua área de trabalho. Ele também fornece relatórios sobre sites da Internet, aplicativos e locais da intranet altamente visitados, ajudando a realizar testes de compatibilidade posteriormente.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
 
 ### <a name="2-prioritize"></a>2\. Priorizar
 
 Com o inventário realizado, o Desktop Analytics ajuda a identificar e priorizar os aplicativos e hardware mais comumente usados na sua organização e também foca no desbloqueio do máximo de computadores possível para implantação.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
 Fornecendo também orientações para ajudar a avaliar as atualizações necessárias para resolver problemas durante a próxima etapa: o teste.
 
@@ -91,13 +91,13 @@ Você pode usar o Desktop Analytics para avaliar os problemas de compatibilidade
 
 Além disso, para ajudar na mudança para o Office 365 ProPlus, você pode usar o [Readiness Toolkit for Office](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) para testar a compatibilidade dos seus suplementos e macros do Microsoft Visual Basic for Applications (VBA).
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
 ### <a name="4-remediation"></a>4\. Corrigir
 
 A fase final da preparação de dispositivos e aplicativos é para "corrigir". Aqui o seu objetivo será coletar os softwares necessários ou os pacotes de driver, que serão usados para substituir ou atualizar as versões mais antigas como parte do processo de implantação.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
 
 Conforme remedia problemas da lista, você verá que mais e mais PCs ficam "Prontos para implantação". Isso significa que os drivers e os aplicativos nos computadores estão listados como compatíveis com a versão de destino para implantação do Windows 10.
 

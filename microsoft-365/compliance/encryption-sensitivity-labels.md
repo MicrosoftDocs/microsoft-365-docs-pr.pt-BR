@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: e27e130e96086dd37dd1cf5f49c30ebc764a8958
-ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
+ms.openlocfilehash: 17cea4f80ac1dee75c10c2beef63be06141c89d5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41830945"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074586"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -63,7 +63,7 @@ Quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-
 
 Configurar as opções de criptografia:
 
-![Opções de rótulo de confidencialidade para criptografia](media/encrytion-options-sensitivity-label.png)
+![Opções de rótulo de confidencialidade para criptografia](../media/encrytion-options-sensitivity-label.png)
 
 
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>O que acontece com a criptografia existente quando um rótulo é aplicado
@@ -111,7 +111,7 @@ Como alternativa, se você tiver um rótulo de confidencialidade denominado **Co
 
 Optar por atribuir permissões agora ou permitir que os usuários atribuam permissões: 
 
-![Opção para adicionar permissões definidas por usuários ou administradores](media/sensitivity-label-user-or-admin-defined-permissions.png)
+![Opção para adicionar permissões definidas por usuários ou administradores](../media/sensitivity-label-user-or-admin-defined-permissions.png)
 
 
 ## <a name="assign-permissions-now"></a>Atribuir permissões agora
@@ -124,7 +124,7 @@ Use as opções abaixo para controlar quem pode acessar os emails ou documentos 
 
 Configurações de controle de acesso para conteúdo criptografado:
 
-![Configurações de permissões de administrador definidas](media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
+![Configurações de permissões de administrador definidas](../media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
 
 ### <a name="rights-management-use-license-for-offline-access"></a>Licença de uso de Gerenciamento de Direitos para acesso offline
 
@@ -146,7 +146,7 @@ Você pode conceder permissões a pessoas específicas para que somente elas pos
 
 Atribuindo permissões:
 
-![Opções para atribuir permissões para usuários](media/Sensitivity-Assign-permissions-settings.png)
+![Opções para atribuir permissões para usuários](../media/Sensitivity-Assign-permissions-settings.png)
 
 #### <a name="add-users-or-groups"></a>Adicionar usuários ou grupos
 
@@ -179,13 +179,13 @@ Quando você escolhe quais permissões atribuir para os usuários ou grupos, voc
 
 Para saber mais sobre cada permissão específica, confira [Direitos de uso e descrições](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
 
-![Opções para escolher permissões predefinidas ou personalizadas](media/Sensitivity-Choose-permissions-settings.png)
+![Opções para escolher permissões predefinidas ou personalizadas](../media/Sensitivity-Choose-permissions-settings.png)
 
 Observe que o mesmo rótulo pode atribuir permissões diferentes a usuários diferentes. Por exemplo, um rótulo único pode definir alguns usuários como Revisores e um usuário diferente como Co-Autor, como mostrado na captura de tela a seguir.
 
 Para fazer isso, adicione usuários ou grupos, atribua-lhes permissões e salve essas configurações. Depois repita essas etapas, adicionando usuários e atribuindo-lhes permissões, salvando as configurações a cada vez. Você pode repetir essa configuração quantas vezes for necessário para definir permissões diferentes para usuários diferentes.
 
-![Usuários diferentes com permissões diferentes](media/Sensitivity-Multiple-users-permissions.png)
+![Usuários diferentes com permissões diferentes](../media/Sensitivity-Multiple-users-permissions.png)
 
 #### <a name="rights-management-issuer-user-applying-the-sensitivity-label-always-has-full-control"></a>O emissor do Gerenciamento de Direitos (usuário que aplica o rótulo de confidencialidade) sempre tem o Controle Total
 
@@ -207,7 +207,9 @@ Você pode usar essas opções para permitir que os usuários atribuam permissõ
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos. 
     > [!NOTE]
-    > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rotulagem interna, o suporte está sendo implantado atualmente na [visualização do Windows e do Mac](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint). Se essa opção estiver selecionada, mas não tiver suporte para o aplicativo de um usuário, esse rótulo não será exibido para o usuário.
+    > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rotulagem interna, o suporte está atualmente na [visualização do Windows e do Mac](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint). 
+    > 
+    > Se essa opção estiver selecionada, mas não for compatível com o aplicativo de um usuário, o rótulo não será exibido para o usuário ou (está sendo implantado atualmente na visualização do iOS e Android); o rótulo será exibido por consistência, mas não poderá ser aplicado com uma mensagem de explicação aos usuários.
 
 Quando houver suporte para as opções, use a tabela a seguir para identificar quais usuários verão o rótulo de confidencialidade:
 
@@ -222,13 +224,13 @@ Um rótulo de sensibilidade que permite aos usuários atribuir permissões a con
 
 Configurar as permissões atribuídas ao usuários:
 
-![Configurações de criptografia para permissões definidas pelo usuário](media/sensitivity-encryption-settings-for-user-defined-permissions.png)
+![Configurações de criptografia para permissões definidas pelo usuário](../media/sensitivity-encryption-settings-for-user-defined-permissions.png)
 
 ### <a name="outlook-restrictions"></a>Restrições do Outlook
 
 No Outlook, quando um usuário aplica um rótulo de sensibilidade que permite atribuir permissões a uma mensagem, as restrições são as mesmas da opção Não Encaminhar. O usuário verá o nome e a descrição do rótulo na parte superior da mensagem, o que indica que o conteúdo é protegido. Diferentemente do Word, do PowerPoint e do Excel (confira a [ próxima seção](#word-powerpoint-and-excel-permissions)), os usuários não são solicitados a selecionar permissões específicas.
 
-![Rótulo de confidencialidade aplicado a uma mensagem no Outlook](media/sensitivity-label-outlook-protection-applied.png)
+![Rótulo de confidencialidade aplicado a uma mensagem no Outlook](../media/sensitivity-label-outlook-protection-applied.png)
 
 Quando a opção Não Encaminhar for aplicada a um email, tal email será criptografado e os destinatários deverão ser autenticados. Subsequentemente, os destinatários não podem encaminhar, imprimir ou copiar esse email. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
 
@@ -244,7 +246,7 @@ Por exemplo, com o cliente de rotulagem unificada da Proteção de Informações
 - Selecione usuários, grupos ou organizações. Isso pode incluir pessoas tanto de dentro quanto de fora de sua organização.
 - Defina uma data de vencimento, após a qual os usuários selecionados não poderão acessar o conteúdo. Para saber mais, confira a seção acima [Licença de uso do Gerenciamento de Direitos para acesso online](#rights-management-use-license-for-offline-access).
 
-![Opções para o usuário proteger com permissões personalizadas](media/sensitivity-aip-custom-permissions-dialog.png)
+![Opções para o usuário proteger com permissões personalizadas](../media/sensitivity-aip-custom-permissions-dialog.png)
 
 Para rotulagem interna, os usuários visualizam a mesma caixa de diálogo se selecionarem o seguinte:
 

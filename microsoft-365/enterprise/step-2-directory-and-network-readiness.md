@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 2: Diretório e preparação de rede'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,25 +15,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: cae32d7bd7791cdfb0acce564b2a7839d5314a19
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 985212cc240d91ac04f9def1b7a53c42889d826f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085382"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
 Assegure-se de que seu diretório e sua rede estejam configurados e prontos para oferecer suporte à troca para o Windows 10 e o Office 365 ProPlus. Isso exigirá que os serviços do Azure Active Directory estejam estabelecidos para os usuários e que a rede deve ter a capacidade de lidar com o tráfego normal e a movimentação de grandes quantidades de dados em potencial quando os PCs são atualizados e arquivos, configurações e aplicativos do usuário são restaurados.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
 <td><p><strong>Etapa 2: Diretório e preparação de rede</strong></p>
 <p>Os serviços conectados à nuvem do Office 365 ProPlus e as novas opções de implantação como o Windows Autopilot requerem o Azure Active Directory. Sua rede e conectividade também são áreas importantes para planejar ao mudar imagens, aplicativos, drivers e arquivos relacionados do Windows para seus PCs. Saiba como as novas ferramentas e opções de implantação reduzem e simplificam o tráfego de rede.</p></td>
-<td><a href="https://aka.ms/ddev2" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -85,7 +87,7 @@ A limitação de tráfego específico significa que o tráfego de rede normal se
 
 Felizmente, há novas ferramentas para facilitar o gerenciamento do efeito na rede de uma grande implantação de área de trabalho, incluindo LEDBAT para otimizar a largura de banda disponível e as opções ponto a ponto (P2P) para mover o tráfego de implantação para longe do centro da rede e para fora do perímetro
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
 
 ## <a name="scavenging-bandwidth"></a>Busca de largura de banda
 
@@ -95,7 +97,7 @@ O Transporte em Segundo Plano com Latência Otimizada (LEDBAT), com suporte no W
 
 Ao contrário do controle tradicional, o LEDBAT pode usar toda a largura de banda disponível como tarefa em segundo plano, liberando largura de banda instantaneamente quando solicitado por outro tráfego. Diferentemente do BITS, não há atraso, tudo é automatizado, sem a necessidade de ajuste ou programação manual, e tudo é configurado no servidor. Isso possibilita grandes ganhos de desempenho em potencial.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
 
 ## <a name="peer-to-peer-options"></a>Opções ponto a ponto
 
@@ -111,7 +113,7 @@ Observação: BranchCache e cache de mesmo nível são complementares e podem fu
 
 **Otimização de Entrega** A Otimização de Entrega é outra tecnologia de cache ponto a ponto, que fornece controles baseados na rede para as implantações. A Otimização de Entrega do Windows 10 serve para atualizar aplicativos UWP internos, para instalar aplicativos da Microsoft Store e para as atualizações de software que usam atualizações expressas. Ela está disponível desde as versões mais antigas do Windows 10, mas foi recentemente integrada ao Microsoft Endpoint Configuration Manager (Branch Atual). Desde a versão 1803 do Windows 10, as novas opções de configuração permitem definir, de maneira independente, os limites de largura de banda para atualizações em segundo plano e trabalhos de primeiro plano, como a instalação de um aplicativo da loja. A Otimização de Entrega do Windows agora também dá suporte ao Office 365 ProPlus durante as atualizações de cliente, disponíveis em todos os canais de atualização de cliente do Office 365. O suporte para a Otimização de Entrega do Windows durante a instalação inicial do Office 365 será disponibilizada em breve.  
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
 **Considerações adicionais sobre o Office 365 ProPlus**
 
@@ -123,11 +125,11 @@ Além de aprimorar a Otimização de Entrega, veja a seguir três itens que ajud
 
 **Arquivos de Dados do Outlook** O Outlook geralmente está configurado para armazenar localmente em cache toda a caixa de correio do usuário para uso offline. Em qualquer implantação do Windows, exceto em uma atualização in-loco, são necessários os Arquivos de dados do Outlook dos usuários para recriá-los por conta própria após a atualização. Este é um processo automatizado, mas com limites de caixas de correio do Outlook normalmente definidos em até 100 GB, um novo armazenamento local em cache de toda a caixa de correio de todos os usuários indica muita transferência de dados. Para reduzir a carga da rede, considere a possibilidade de usar a Política de Grupo para reduzir a configuração de “Email para manter offline”. No Office 365 ProPlus ou Office 2016, o valor padrão para o Outlook está definido como 12 meses. Para reduzir o impacto na rede, considere configurar o cache offline para ter uma duração entre 1 a 6 meses. Alterar essa configuração não afetará o tamanho da caixa de correio online, e toda a caixa de correio ainda pode ser pesquisada pelo Outlook quando estiver online.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
 **Arquivos sob Demanda do OneDrive e Mudança de Pastas Conhecidas** O OneDrive é uma ótima maneira de sincronizar e proteger os arquivos do usuário de computadores e de outros dispositivos na nuvem. Com a Mudança de Pastas Conhecidas, você pode impor a sincronização de arquivos da Área de trabalho do usuário, de Documentos e das Pastas de imagens para o OneDrive, tornando esses arquivos disponíveis ao entrar em um novo dispositivo ou em um computador com imagem refeita. Entretanto, lembre-se de que, devido ao tamanho absoluto e ao número de arquivos mantidos na Área de trabalho, nas pastas Documentos e Imagens, é importante planejar bem a implementação das políticas que habilitam e impõem o OneDrive em seus computadores. Uma opção é usar os controles de Rede de Política de Grupo para limitar a largura de banda usada pelo serviço de sincronização do OneDrive.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
 
 [Movimentação de pastas conhecidas da instalação](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 

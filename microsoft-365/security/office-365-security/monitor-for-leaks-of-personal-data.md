@@ -1,5 +1,7 @@
 ---
 title: Monitorar o vazamento de dados pessoais
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -16,18 +18,18 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 43133ed638f91957307b832826c21ae81aa269b0
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 617f0fde0e4b15a014658ba0fc3cf2def4b88d81
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088372"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
 Existem várias ferramentas disponíveis destinadas a monitorar o uso e o transporte de dados pessoais. Este tópico descreve três ferramentas muito úteis.
 
-![Ferramentas para monitorar o uso e o transporte de dados pessoais](../media/Monitor-for-leaks-of-personal-data-image1.png)
+![Ferramentas para monitorar o uso e o transporte de dados pessoais](../../media/Monitor-for-leaks-of-personal-data-image1.png)
 
 Na ilustração:
 
@@ -61,7 +63,7 @@ Os relatórios DLP estão no centro de segurança e o no centro de conformidade.
 
 Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports).
 
-![Relatório mostrando correspondências de política DLP](../media/Monitor-for-leaks-of-personal-data-image2.png)
+![Relatório mostrando correspondências de política DLP](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
 ## <a name="office-365-audit-log-and-alert-policies"></a>Log de auditoria e políticas de alerta do Office 365
 
@@ -103,7 +105,7 @@ Para entender melhor o ambiente de nuvem, o recurso de investigação do Cloud A
 
 Por exemplo, a ilustração a seguir mostra duas políticas do Cloud App Security que podem ajudar com o GDPR.
 
-![Exemplos de políticas do Cloud App Security](../media/Monitor-for-leaks-of-personal-data-image3.png)
+![Exemplos de políticas do Cloud App Security](../../media/Monitor-for-leaks-of-personal-data-image3.png)
 
 A primeira política alerta quando os arquivos escolhidos, que incluem expressões personalizadas ou atributos de PII predefinidos, são compartilhados fora da organização nos aplicativos SaaS.
 
@@ -121,7 +123,7 @@ Se ainda não começou a usar o Cloud App Security, o primeiro passo é iniciá-
 
 Observação: não deixe de habilitar a opção "Examinar automaticamente os arquivos com rótulos de classificação da Proteção de Informações do Azure" (nas Configurações Gerais) quando começar a usar o Cloud App Security ou antes de atribuir rótulos. Depois de configurar o Cloud App Security, ele não examinará os arquivos existentes novamente até eles serem modificados.
 
-![Painel mostrando informações sobre alertas](../media/Monitor-for-leaks-of-personal-data-image4.png)
+![Painel mostrando informações sobre alertas](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 Mais informações:
 

@@ -1,5 +1,7 @@
 ---
 title: Encontre ajuda para a implantação do seu Windows 10 e Office 365 ProPlus
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Onde encontrar ajuda e suporte para a implantação do seu Windows 10 e Office 365 ProPlus.
-ms.openlocfilehash: b7eb30e8a9b5b46635793e9c79e2609467d87848
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: c581cbfc7fdb537fddf10b20d697a42a8e564bcf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067526"
 ---
 # <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Encontre ajuda para a implantação do seu Windows 10 e Office 365 ProPlus 
 
@@ -30,7 +32,7 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 
 <table>
 <tr class="even">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="step 1" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="step 1" height="144" width="144" /></td>
 <td><p><strong>Preparação de Dispositivos e Aplicativos</strong></p>
 <ul>
 <li><p><a href="https://aka.ms/MDAcustomerform">Avaliação de Área de Trabalho Moderna</a>, onde um parceiro qualificado na sua região fornece à sua organização uma compatibilidade profunda entre aplicativos e dispositivos e avaliação de prontidão de atualização usando as ferramentas e procedimentos mais recentes da Microsoft.</p>
@@ -39,49 +41,49 @@ Abaixo está um mapa dos serviços disponíveis alinhados com o processo de [Imp
 </tr>
 <tbody>
 <tr class="odd">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="step 2" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="step 2" height="144" width="144" /></td>
 <td><p><strong>Preparação de Rede e Diretório</strong></p>
 <ul>
 <li><p><a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#core">Integração principal</a>, onde os especialistas da Microsoft FastTrack oferecem integração de identidade entre os seus serviços de diretório atuais e o Azure Active Directory. Isto é necessário para o Office 365 ProPlus, o Microsoft Intune, o OneDrive e outros serviços de nuvem do Office 365 e EMS como parte do processo de implantação do computador.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Entrega de Aplicativos do Office e LOB</strong></p>
 <ul>
 <li><p>Configuração e implantação do <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, na qual especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário, configurando instalação e configurações de atualização para Clique para Executar, e criando pacotes caso sua organização use o Microsoft Endpoint Configuration Manager.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="step 4" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="step 4" height="144" width="144" /></td>
 <td><p><strong>Arquivo de usuário e Migração de configurações</strong></p>
 <ul>
 <li><p>A configuração e implementação do <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#onedrive-for-business">OneDrive</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e configuram as definições de cliente de sincronização do OneDrive. Para organizações com assinaturas elegíveis, o <a href="https://docs.microsoft.com/fasttrack/data-migration">FastTrack migrará dados para o OneDrive</a>.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="step 5" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="step 5" height="144" width="144" /></td>
 <td><p><strong>Considerações de Segurança e Conformidade</strong></p>
 <ul>
 <li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Azure AD Premium</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com serviços de habilitação para melhorar a sua segurança e os níveis de proteção à informação conforme você adota o Microsoft 365. Estes serviços incluem a Autenticação Multifator do Azure, Redefinição de Senha Automática, Acesso Condicional do Azure Active Directory e muito mais. Para a segurança de dispositivos e endpoint, o Microsoft FastTrack também pode ajudar com o provisionamento e políticas do <a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
 <td><p><strong>Implantação de Sistema Operacional e Atualizações de Recursos</strong></p>
 <ul>
 <li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>, no qual os especialistas do Microsoft FastTrack fornecem assistência com o provisionamento de licenças de usuário e a configuração do Windows Autopilot para novos dispositivos, políticas MDM para seu Windows 10 e outros dispositivos móveis, incluindo a implantação de aplicativos; perfis de Wi-Fi e VPN; gerenciamento conjunto com o Microsoft Endpoint Configuration Manager e muito mais.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="step 7" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="step 7" height="144" width="144" /></td>
 <td><p><strong>Office e Windows como um Serviço</strong></p>
 <ul>
 <li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune</a>, onde os especialistas do Microsoft FastTrack fornecem assistência com a configuração de políticas de atualização para o Windows 10 e o Office 365 ProPlus. <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a>, onde o Microsoft FastTrack pode também fornecer orientações sobre como configurar os anéis de implantação para que permaneçam atualizado.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="step 8" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="step 8" height="144" width="144" /></td>
 <td><p><strong>Treinamento e Comunicações de Usuários</strong></p>
 <ul>
 <li><p><a href="https://www.microsoft.com/microsoft-365/success/productivitylibrary/quickly-and-easily-transform-new-devices?rtc=2">Biblioteca de Produtividade</a>, um conjunto de recursos online da Microsoft para a comunicação e treinamento do usuário final no Microsoft 365.</p></li>

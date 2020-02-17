@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão para a visualização pública de classificação de dados.
-ms.openlocfilehash: fecf643d12cf544c16570c173b15bb1e0dc043f0
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: 1beae92089833327cedf6090690530d9e5457a37
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076358"
 ---
 # <a name="data-classification-public-preview-release-notes-preview"></a>Notas de versão de visualização pública de classificação de dados (visualização)
 
@@ -40,7 +40,7 @@ Você observará que uma pequena dica de ferramenta é exibida quando você deta
 
 ## <a name="seeing-guids-instead-of-label-names"></a>Vendo GUIDs em vez de nomes de rótulos
 
-Os clientes de visualização particular viram instâncias em que a exclusão de um rótulo que tem o conteúdo já foi carimbada com resultados em nomes de etiquetas que resolvem um GUID de 32 bits no Gerenciador de conteúdo e o explorador de atividades, em vez do nome do rótulo. 
+Os clientes de visualização particular viram instâncias em que os rótulos migrados ou a exclusão de um rótulo cujo conteúdo já foi carimbado com resultados em nomes de rótulos resolvendo como um GUID de 32 bits no explorador de conteúdo e no explorador de atividades, em vez do nome do rótulo. 
 
 ## <a name="rendering-of-encrypted-documents"></a>Processamento de documentos criptografados
 

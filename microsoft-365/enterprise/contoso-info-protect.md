@@ -1,6 +1,8 @@
 ---
 title: Proteção de Informações da Contoso Corporation
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/02/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: d6167896c3e42c5fef373de7c5be7123467936f4
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068400"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -85,7 +87,7 @@ Juntamente com sua infraestrutura de gerenciamento de identidade e dispositivo m
 
 Este é o conjunto de políticas resultantes da proteção de informações da Contoso.
 
-![Políticas de Acesso Condicional do Dispositivo, do Exchange Online e do SharePoint ](./media/contoso-info-protect/contoso-info-protect-fig1.png)
+![Políticas de Acesso Condicional do Dispositivo, do Exchange Online e do SharePoint ](../media/contoso-info-protect/contoso-info-protect-fig1.png)
 
 >[!Note]
 >A Contoso também configurou políticas de Acesso condicional adicionais para identidade e entrada.  Confira, [Identidade da Contoso Corporation](contoso-identity.md#conditional-access-policies-for-identity-and-device-access).
@@ -113,7 +115,7 @@ A tabela a seguir mapeia os níveis de dados da Contoso para os recursos de prot
 
 Estas são as configurações resultantes da proteção de informações da Contoso.
 
-![Configurações resultantes da proteção de informações da Contoso](./media/contoso-info-protect/contoso-info-protect-fig2.png)
+![Configurações resultantes da proteção de informações da Contoso](../media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>Próxima etapa
 

@@ -1,6 +1,8 @@
 ---
 title: Sistema de rede para a Contoso Corporation
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda a infraestrutura de rede da Contoso e como ela usa sua tecnologia SD-WAN para obter o melhor desempenho de rede dos serviços em nuvem do Microsoft 365 Enterprise.
-ms.openlocfilehash: 87584660805608c45b36e13804ca1dab6b8e7d17
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 20279ac0aed1b7ad86e1fc8e1d78a412230eba52
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673167"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068328"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Sistema de rede para a Contoso Corporation
 
@@ -46,7 +48,7 @@ Os elementos de rede da Contoso que vinculam seus escritórios em todo o mundo s
 
 A figura 1 mostra a infraestrutura de rede da Contoso e suas conexões com a Internet.
 
-![Rede da Contoso](./media/contoso-networking/contoso-networking-fig1.png)
+![Rede da Contoso](../media/contoso-networking/contoso-networking-fig1.png)
  
 **Figura 1: Rede da Contoso**
 
@@ -81,7 +83,7 @@ A Contoso projetou sua infraestrutura de aplicativos de negócios e intranet de 
 
 A Figura 2 mostra a porcentagem do tráfego de rede ao acessar os servidores na intranet da Contoso.
 
-![Infraestrutura da Contoso para aplicativos internos](./media/contoso-networking/contoso-networking-fig2.png)
+![Infraestrutura da Contoso para aplicativos internos](../media/contoso-networking/contoso-networking-fig2.png)
  
 **Figura 2: Infraestrutura da Contoso para aplicativos internos**
 

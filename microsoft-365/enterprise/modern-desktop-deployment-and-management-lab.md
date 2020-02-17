@@ -1,5 +1,7 @@
 ---
 title: Kit de laboratório de implantação do Office e do Windows
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 435b8177fc97f9cd07ff78704605428e594e0dd8
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 44335889432d1c5998b76836c9d8f0201a62dc67
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066738"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 

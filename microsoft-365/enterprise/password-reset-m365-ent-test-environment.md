@@ -1,5 +1,7 @@
 ---
 title: Redefinição de senha do ambiente de teste do Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e testar a redefinição de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 930c5b4a4ddcc4866a586ff444380ff6dcd66238
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c8d5ed0c7feac98afd3230a305f4ab1f850ca7f8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801406"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066137"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Redefinição de senha do ambiente de teste do Microsoft 365
 
@@ -35,16 +37,16 @@ Este artigo descreve como você pode configurar e testar redefinições de senha
 2.  Ativar write-back de senha.
 3.  Configure e teste a redefinição de senha da conta do Usuário 3.
     
-![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
 Primeiro, siga as instruções em [sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md). Aqui está sua configuração resultante.
   
-![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
+![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 Esta configuração consiste em: 
   

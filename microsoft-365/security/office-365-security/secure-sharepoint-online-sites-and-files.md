@@ -21,12 +21,13 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Resumo: recomendações de configuração para proteger arquivos no SharePoint Online e no Office 365.'
-ms.openlocfilehash: 29bd8ade5f32a2ba7e810d587d731d5036a372b6
-ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 542cf1c899b0eee21b458cd8e9dd5fb8363cf1e9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41830985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082282"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Proteger sites e arquivos do SharePoint Online
 
@@ -50,7 +51,7 @@ Para obter mais informações sobre essas camadas e recursos recomendados para c
 
 As recomendações para sites de equipe do SharePoint Online traçam uma variedade de recursos do Microsoft 365. A ilustração a seguir mostra as configurações recomendadas para quatro sites de equipe do SharePoint Online.
 
-![Configuração recomendada para sites do SharePoint](../media/SharePoint-site-configurations.png)
+![Configuração recomendada para sites do SharePoint](../../media/SharePoint-site-configurations.png)
 
 Conforme ilustrado:
 
@@ -140,7 +141,7 @@ O uso dos rótulos de retenção é recomendado para ambientes que lidam com dad
 
 - Pessoas na sua organização podem aplicar manualmente um rótulo ao conteúdo no Outlook na Web, Outlook 2010 e posteriores, OneDrive for Business, SharePoint Online e grupos do Office 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando, portanto podem classificá-lo e aplicar a política DLP apropriada.
 
-![Configuração recomendada para sites do SharePoint](../media/7fed0126-ab4a-4480-922c-681970642339.png)
+![Configuração recomendada para sites do SharePoint](../../media/7fed0126-ab4a-4480-922c-681970642339.png)
 
 Conforme ilustrado, essa solução inclui a criação dos seguintes rótulos de retenção:
 

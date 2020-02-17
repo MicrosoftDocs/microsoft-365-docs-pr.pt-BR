@@ -1,5 +1,7 @@
 ---
 title: Write-back de senha do ambiente de teste do Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: fe91232d4c5a07035e6daff9f1bf88a1426ee6ad
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: 8ff6c8c7d2eae735a2572bae1c437502602cfd0b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39631271"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066045"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
@@ -36,16 +38,16 @@ Há duas etapas para fazer a configuração:
 1.  Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
 2.  Habilitar o write-back de senha para o domínio TESTLAB AD DS.
     
-![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
 Primeiro, siga as instruções em [sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md). Aqui está sua configuração resultante.
   
-![Empresa simulada com ambiente de teste de sincronização de hash de senha](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
+![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 Esta configuração consiste em: 
   
@@ -122,7 +124,7 @@ Agora você está pronto para testar o write-back de senha para os usuários em 
 
 Esta é a configuração resultante:
 
-![A empresa simulada com ambiente de teste de autenticação de passagem](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
+![A empresa simulada com ambiente de teste de autenticação de passagem](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
 
 Esta configuração consiste em:
 

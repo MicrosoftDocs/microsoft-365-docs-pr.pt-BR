@@ -1,5 +1,7 @@
 ---
 title: Configuração de base leve
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de Laboratório de Teste para criar um ambiente de teste leve para testar o Microsoft 365 Enterprise.
-ms.openlocfilehash: 0bbb54ca054ce1f4f96a32c887fba60b982375de
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801646"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067070"
 ---
 # <a name="the-lightweight-base-configuration"></a>A configuração de base leve
 
@@ -28,14 +30,14 @@ ms.locfileid: "40801646"
 
 Este artigo fornece instruções passo a passo para criar um ambiente simplificado com a assinatura do Microsoft 365 E5 e um computador com o Windows 10 Enterprise. 
 
-![O ambiente de teste leve do Microsoft 3656 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+![O ambiente de teste leve do Microsoft 3656 Enterprise](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 Use o ambiente resultante para testar os recursos e as funcionalidades do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
 
-![Guias de laboratório de teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias de laboratório de teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
 
 ## <a name="phase-1-create-your-office-365-e5-subscription"></a>Fase 1: criar uma assinatura do Office 365 E5
 
@@ -43,13 +45,13 @@ Começaremos com uma assinatura de avaliação do Office 365 E5 e, em seguida, a
 
 Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro é necessário um nome de empresa fictícia e uma nova conta da Microsoft.
   
-1. Recomendamos que você use uma variante do nome de empresa Contoso para o nome da sua empresa, que é uma empresa fictícia usada no conteúdo de exemplo da Microsoft, mas não é necessário. Registre o seu nome de empresa fictícia aqui: ![Linha](./media/Common-Images/TableLine.png)
+1. Recomendamos que você use uma variante do nome de empresa Contoso para o nome da sua empresa, que é uma empresa fictícia usada no conteúdo de exemplo da Microsoft, mas não é necessário. Registre o seu nome de empresa fictícia aqui: ![Linha](../media/Common-Images/TableLine.png)
     
 2. Para se inscrever em uma nova conta da Microsoft, acesse [https://outlook.com](https://outlook.com) e crie uma conta com um novo endereço e conta de email. Você usará essa conta para se inscrever no Office 365.
     
-  - Armazene o nome e sobrenome da sua nova conta aqui: ![Linha](./media/Common-Images/TableLine.png)
+  - Armazene o nome e sobrenome da sua nova conta aqui: ![Linha](../media/Common-Images/TableLine.png)
     
-  - Armazene o novo endereço da conta de email aqui:  ![Linha](./media/Common-Images/TableLine.png)@outlook.com
+  - Armazene o novo endereço da conta de email aqui:  ![Linha](../media/Common-Images/TableLine.png)@outlook.com
     
 ### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Inscrever-se em uma assinatura de avaliação do Office 365 E5
 
@@ -58,8 +60,8 @@ Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro 
 2. Na página **Obrigado por escolher o Office 365 E5**, especifique o endereço de sua nova conta de email na etapa 1.
 3. Na etapa 2 do processo de assinatura de avaliação, digite as informações solicitadas e execute a verificação.
 4. Na etapa 3, digite o nome da organização e, em seguida, o nome da conta que será o administrador global da assinatura. 
-5. Para a etapa 4, armazene a URL da página de entrada aqui (selecione e copie):  ![Linha](./media/Common-Images/TableLine.png) 
-6. Armazene a ID de usuário aqui: ![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com  
+5. Para a etapa 4, armazene a URL da página de entrada aqui (selecione e copie):  ![Linha](../media/Common-Images/TableLine.png) 
+6. Armazene a ID de usuário aqui: ![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com  
    Armazene a senha que você digitou em um local seguro.
    Esse valor será chamado de **Nome de administrador global do Office 365**.
 8. Clique em **Ir para Configuração**.
@@ -119,11 +121,11 @@ Talvez você queira imprimir este artigo para registrar as informações especí
 
 Registre esses valores:
   
-- Nome do administrador global do Office 365: ![Linha](./media/Common-Images/TableLine.png)onmicrosoft.com (na etapa 6 da Fase 1)
+- Nome do administrador global do Office 365: ![Linha](../media/Common-Images/TableLine.png)onmicrosoft.com (na etapa 6 da Fase 1)
     
     Também armazene a senha dessa conta em um local seguro.
     
-- Nome da sua organização de assinatura de avaliação:  ![Linha](./media/Common-Images/TableLine.png) (na etapa 4 da Fase 1)
+- Nome da sua organização de assinatura de avaliação:  ![Linha](../media/Common-Images/TableLine.png) (na etapa 4 da Fase 1)
     
 - Para listar as contas do usuário 2, Usuário 3, Usuário 4 e Usuário 5, execute o seguinte comando no prompt do Módulo do Windows Azure Active Directory para Windows PowerShell:
     
@@ -133,13 +135,13 @@ Registre esses valores:
 
     Armazene os nomes de contas aqui:
     
-  - Nome da conta do usuário 2: usuário2@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 2: usuário2@![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do usuário 3: usuário3@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 3: usuário3@![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do usuário 4: usuário4@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 4: usuário4@![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Nome da conta do usuário 5: usuário5@![Linha](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Nome da conta do usuário 5: usuário5@![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com
     
     Também registre a senha em comum dessas contas em um local seguro.
    
@@ -190,7 +192,7 @@ Seu ambiente de teste agora tem:
     
 Essa é a configuração resultante, que adiciona o Microsoft 365 E5, incluindo o Office 365 e o Enterprise Security + Management (EMS).
   
-![Fase 3 do ambiente de teste do Microsoft 365 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
+![Fase 3 do ambiente de teste do Microsoft 365 Enterprise](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
 ## <a name="phase-4-create-a-windows-10-enterprise-computer"></a>Fase 4: criar um computador com o Windows 10 Enterprise
 
@@ -301,7 +303,7 @@ Em seguida, instale o Office 365 ProPlus no computador WIN10.
     
 Este é o ambiente resultante.
 
-![Fase 5 do ambiente de teste do Microsoft 365 Enterprise](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+![Fase 5 do ambiente de teste do Microsoft 365 Enterprise](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 Isso inclui o computador WIN10 que tem:
 

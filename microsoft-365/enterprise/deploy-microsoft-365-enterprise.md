@@ -1,6 +1,8 @@
 ---
 title: Implantar o Microsoft 365 para empresas
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/19/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: 4181a5efeb7ba63812703ae5eb81667240314e9a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e4660ff6e7fc9646b2e28181afff4df2811acdd1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801916"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067949"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Implantar o Microsoft 365 para empresas
 
@@ -65,7 +67,7 @@ Para implantar o Microsoft 365 para empresas sozinho, você pode:
 
 Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.
 
-![Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 As cargas de trabalho e os cenários operam acima da infraestrutura de base. Entretanto, você não precisa ter todas as fases da infraestrutura de base prontas para começar a usar cargas de trabalho para produtividade e colaboração.
 
@@ -83,13 +85,13 @@ Com as TLGs, você pode aprender sozinho, demonstrar, personalizar ou criar uma 
 
 Para saber mais, confira [Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md).
 
-![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 ## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, confira o pôster [Fazer a Transição da Organização para o Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, confira o pôster [Fazer a Transição da Organização para o Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
-[![Pôster sobre a Transição da Organização para o Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Pôster sobre a Transição da Organização para o Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes para migrar para o produto ou serviço correspondente no Microsoft 365 para empresas. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 

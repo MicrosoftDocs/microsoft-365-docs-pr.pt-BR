@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 5: Configurar a Prevenção de Perda de Dados do Office 365'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreender e implantar a Prevenção de Perda de Dados do Office 365 no Microsoft 365.
-ms.openlocfilehash: 43ebfb39202e407fe6dc7bb4c8e0fe8f906f7a6d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067218"
 ---
 # <a name="step-5-configure-office-365-data-loss-prevention"></a>Etapa 5: Configurar a Prevenção de Perda de Dados do Office 365
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Com políticas de prevenção de perda de dados (DLP) na Central de Conformidade e Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente informações confidenciais no Microsoft 365. Com políticas de DLP, você pode:
 
@@ -58,6 +60,6 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![Etapa 6](./media/stepnumbers/Step6.png)|[Configurar criptografia de email](infoprotect-email-encryption.md)|
+|![Etapa 6](../media/stepnumbers/Step6.png)|[Configurar criptografia de email](infoprotect-email-encryption.md)|
 
 

@@ -1,5 +1,7 @@
 ---
 title: 'Fase 2: Critérios de saída da infraestrutura de identidade'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: 540d3c01ea368634cebafb2ec3dd5562fcb0b73c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801746"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067298"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
-![Fase 2 – Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Fase 2 – Identidade](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 Verifique se a sua infraestrutura de identidade atende aos seguintes critérios necessários e que você considerou os que são opcionais.
 
@@ -292,5 +294,5 @@ Sua infraestrutura de identidade na nuvem do Microsoft 365 usa autenticação fo
 
 |||
 |:-------|:-----|
-|![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Se você está seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase é [Windows 10 Enterprise](windows10-infrastructure.md). |
+|![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Se você está seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase é [Windows 10 Enterprise](windows10-infrastructure.md). |
 

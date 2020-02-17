@@ -1,5 +1,7 @@
 ---
 title: 'Fase 3: critérios de saída da infraestrutura do Windows 10 Enterprise'
+f1.keywords:
+- NOCSH
 ms.author: greglin
 author: greg-lindsay
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para o Windows 10 Enterprise.
-ms.openlocfilehash: d51392572c78edb1a21f5edc3229057b9af3f514
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 42d8ec912a70aecef49672682c25f5e42c4bbe21
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801216"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085550"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Fase 3: critérios de saída da infraestrutura do Windows 10 Enterprise
 
-![Fase 3: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Verifique se a infraestrutura do Windows 10 Enterprise atende aos seguintes critérios necessários e que você considerou aqueles que são opcionais.
 
@@ -125,4 +127,4 @@ Sua infraestrutura do Windows 10 Enterprise está pronta para ser instalada em n
 
 |||
 |:-------|:-----|
-|![Fase 4: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Se você está seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase é [Office 365 ProPlus](office365proplus-infrastructure.md). |
+|![Fase 4: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Se você está seguindo as fases para a implantação de ponta a ponta do Microsoft 365 Enterprise, sua próxima fase é [Office 365 ProPlus](office365proplus-infrastructure.md). |

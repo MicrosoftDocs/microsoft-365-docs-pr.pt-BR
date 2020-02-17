@@ -24,7 +24,7 @@ ms.locfileid: "42088310"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Investigar e responder automaticamente a ameças no Office 365
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Dependendo da sua assinatura, a [proteção avançada contra ameaças do Office 365](office-365-atp.md) pode incluir recursos de investigação e resposta automatizados que podem economizar tempo e esforço da equipe de operações de segurança em lidar com alertas e ameaças.
 

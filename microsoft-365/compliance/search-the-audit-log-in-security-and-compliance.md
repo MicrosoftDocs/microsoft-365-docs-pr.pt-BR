@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 81bcf62d810e9649bcb0a464e765b71490a4752d
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 43cc0317bfce749affc41efe987fe905e1edae5d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862121"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069896"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -113,25 +113,25 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
 
   |**Serviço do Office 365**|**30 minutos**|**24 horas**|
   |:-----|:-----:|:-----:|
-  |Proteção Avançada contra Ameaças e Inteligência contra Ameaças|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |Azure Active Directory (eventos de administração)||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |Prevenção contra Perda de Dados|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Dynamics 365 CRM|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Descoberta eletrônica|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Exchange Online|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Power Automate|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Project|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Stream|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Teams|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Aplicativos de energia|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Power BI|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Centro de Conformidade e Segurança|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |SharePoint Online e OneDrive for Business|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Sway||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |Workplace Analytics|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Yammer||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Forms|![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Proteção Avançada contra Ameaças e Inteligência contra Ameaças|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Azure Active Directory (eventos de administração)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Prevenção contra Perda de Dados|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Dynamics 365 CRM|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Descoberta eletrônica|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Exchange Online|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Project|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Stream|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Teams|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Aplicativos de energia|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power BI|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Centro de Conformidade e Segurança|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Sway||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Workplace Analytics|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Yammer||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Forms|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   ||||
 
 - O Azure Active Directory (Azure AD) é o serviço de diretório do Office 365. O log de auditoria unificado contém atividades de usuários, grupos, aplicativos, domínios e atividades de diretórios realizadas no Microsoft 365 ou no portal de gerenciamento do Azure. Para obter uma lista completa de eventos do Azure AD, confira [Eventos de Relatório de Auditoria do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=616549).
@@ -163,7 +163,7 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
     É exibida a página **Pesquisa de log de auditoria**.
 
-    ![Configure os critérios e clique em Pesquisar para executar o relatório](media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Configure os critérios e clique em Pesquisar para executar o relatório](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
 
     > [!NOTE]
     > Você primeiro precisa ativar o log de auditoria para poder executar uma pesquisa de log de auditoria. Se o link **Iniciar gravação de atividade de usuários e administradores** for exibido, clique nele para ativar a auditoria. Se você não vir esse link, significa que a auditoria já está ativada na sua organização.
@@ -195,13 +195,13 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
    Os resultados da pesquisa são carregados e, depois de alguns momentos, são exibidos em **Resultados**. Quando a pesquisa estiver concluída, o número de resultados encontrados será exibido. Um máximo de 5.000 eventos serão exibidos no painel **Resultados** em incrementos de 150 eventos. Se mais de 5.000 eventos atenderem aos critérios de pesquisa, os 5.000 mais recentes serão exibidos.
 
-   ![O número de resultados é exibido após a conclusão da pesquisa](media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
+   ![O número de resultados é exibido após a conclusão da pesquisa](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
 #### <a name="tips-for-searching-the-audit-log"></a>Dicas para pesquisar o log de auditoria
 
 - É possível selecionar atividades específicas para procurar clicando no nome da atividade. Também é possível procurar todas as atividades em um grupo (como **Atividades de arquivos e pastas**) clicando no nome do grupo. Se uma atividade estiver selecionada, você poderá clicar nela para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave digitada.
 
-  ![Clique no nome do grupo de atividade para selecionar todas as atividades](media/3cde97cb-6f35-47c0-8612-ecd9c6ac36a3.png)
+  ![Clique no nome do grupo de atividade para selecionar todas as atividades](../media/3cde97cb-6f35-47c0-8612-ecd9c6ac36a3.png)
 
 - É necessário selecionar **Mostrar resultados para todas as atividades**, na lista **Atividades** para exibir eventos do log de auditoria de administradores do Exchange. Os eventos desse log de auditoria exibem um nome de cmdlet (por exemplo, **Set-Mailbox**) na coluna **Atividade** dos resultados. Para obter mais informações, clique na guia **Atividades auditadas** neste tópico e, em seguida, clique em **Atividades de administração do Exchange**.
 
@@ -239,7 +239,7 @@ Os resultados contêm as seguintes informações sobre cada evento retornado pel
 
 É possível visualizar mais detalhes sobre o evento clicando no registro de evento na lista de resultados da pesquisa. É exibida uma página **Detalhes** que contém as propriedades detalhadas do registro do evento. As propriedades exibidas dependem do serviço do Office 365 em que o evento ocorre. Para exibir esses detalhes, clique em **Mais informações**. Para obter descrições, confira [Propriedades detalhadas no log de auditoria do Office 365](detailed-properties-in-the-office-365-audit-log.md).
 
-![Clique em Mais informações para exibir as propriedades detalhadas do registro de eventos do log de auditoria](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+![Clique em Mais informações para exibir as propriedades detalhadas do registro de eventos do log de auditoria](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
 
 ### <a name="step-3-filter-the-search-results"></a>Etapa 3: Filtrar os resultados da pesquisa
 
@@ -255,7 +255,7 @@ Para filtrar os resultados:
 
 3. Clique em uma das caixas sob um cabeçalho de coluna e digite uma palavra ou frase, dependendo da coluna na qual você está filtrando. Os resultados serão reajustados dinamicamente para exibir os eventos que correspondem ao seu filtro.
 
-   ![Digite uma palavra no filtro para exibir os eventos que correspondam ao filtro](media/542dc323-a997-402c-934b-cc5e218e50bc.png)
+   ![Digite uma palavra no filtro para exibir os eventos que correspondam ao filtro](../media/542dc323-a997-402c-934b-cc5e218e50bc.png)
 
 4. Para limpar um filtro, clique em **X** na caixa de filtro ou clique em **Ocultar filtragem**.
 
@@ -330,7 +330,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Arquivo excluído da Lixeira|FileDeletedFirstStageRecycleBin|O usuário exclui um arquivo da lixeira de um site.|
 |Arquivo excluído da Lixeira de segundo estágio|FileDeletedSecondStageRecycleBin|O usuário exclui um arquivo da lixeira de segundo estágio de um site.|
 |Rótulos de política de conformidade excluídos|ComplianceRecordDelete|Um documento que foi classificado como um registro foi excluído. Um documento é considerado um registro quando uma etiqueta de retenção que classifica o conteúdo como um registro é aplicada ao documento.|
-|Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento classificado com um rótulo de sensibilidade que tem uma prioridade mais alta do que o rótulo de sensibilidade aplicada ao site para o qual o documento foi carregado. <br/><br/> Esse evento não será disparado se o rótulo de sensibilidade aplicado a um site tiver uma prioridade mais alta do que o rótulo de sensibilidade aplicada a um documento carregado no site. Para obter mais informações sobre a prioridade de rótulos de sensibilidade, confira a seção "prioridade de rótulo” em [Visão geral de rótulos de sensibilidade.](sensitivity-labels.md#label-priority-order-matters).|
+|Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento classificado com um rótulo de sensibilidade que tem uma prioridade mais alta do que o rótulo de sensibilidade aplicada ao site para o qual o documento foi carregado. <br/><br/> Esse evento não será disparado se o rótulo de sensibilidade aplicado a um site tiver uma prioridade mais alta do que o rótulo de sensibilidade aplicada a um documento carregado no site. Para obter mais informações sobre a prioridade de rótulos de confidencialidade, confira a seção "Prioridade de rótulo” em [Visão geral de rótulos de confidencialidade.](sensitivity-labels.md#label-priority-order-matters).|
 |Malware detectado no arquivo|FileMalwareDetected|O mecanismo de antivírus do SharePoint detecta malwares em um arquivo.|
 |Check-out de arquivo descartado|FileCheckOutDiscarded|O usuário descarta (ou desfaz) um arquivo em check-out. Isso significa que todas as alterações que ele tiver feito nesse arquivo durante o estado de check-out serão descartados, e não salvas na versão do documento localizada na biblioteca de documentos.|
 |Arquivo baixado|FileDownloaded|O usuário baixa um documento de um site.|
@@ -744,7 +744,7 @@ A tabela a seguir lista as atividades de usuários e de administradores no Micro
 
 Se a sua organização estiver usando o [aplicativo Patients ](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) do Microsoft Teams, você poderá pesquisar o log de auditoria para atividades relacionadas ao uso do aplicativo Patients. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Patients, um grupo de atividades adicionais para essas atividades estará disponível na lista seletora**Atividades**.
 
-![Atividades do Microsoft Teams Healthcare na lista seletora Atividades](media/TeamsHealthcareAuditActivities.png)
+![Atividades do Microsoft Teams Healthcare na lista seletora Atividades](../media/TeamsHealthcareAuditActivities.png)
 
 Para obter uma descrição das atividades do aplicativos Patients, confira [Logs de auditoria para aplicativo Patients](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit).
 
@@ -835,7 +835,7 @@ Aqui estão algumas dicas para pesquisar atividades de administração do Exchan
 
 - Para exibir eventos do log de auditoria de administradores do Exchange, filtre os resultados da pesquisa e digite um **-** (traço) na caixa de filtro **Atividade**. São mostrados os nomes de cmdlets, que são exibidos na coluna **Atividade** para eventos de administradores do Exchange. Em seguida, você pode classificar os nomes de cmdlets em ordem alfabética.
 
-  ![Digite um traço na caixa Atividades para filtrar os eventos de administração do Exchange](media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
+  ![Digite um traço na caixa Atividades para filtrar os eventos de administração do Exchange](../media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
 
 - Para obter informações sobre qual cmdlet foi executado, quais parâmetros e valores de parâmetros foram usados e quais objetos foram afetados, você pode exportar os resultados da pesquisa selecionando a opção **Baixar todos os resultados**. Para saber mais, confira [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
 

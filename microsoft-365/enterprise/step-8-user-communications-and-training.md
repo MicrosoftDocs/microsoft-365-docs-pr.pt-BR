@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 8: Treinamento e comunicações de usuários'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como preparar seus usuários finais para o Windows 10 e o Office 365 ProPlus com o uso de comunicações e treinamento.
-ms.openlocfilehash: 46a9a21fe60d2cf16f0e24483c5e6ab261714b23
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033656"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085100"
 ---
 # <a name="step-8-user-communications-and-training"></a>Etapa 8: Treinamento e comunicações de usuários
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>Etapa 8: Treinamento e comunicações de usuários</strong></p>
 <p>Certifique-se de que os usuários sejam informados sobre as novas experiências e novas maneiras de trabalhar à medida que você atualiza os computadores para o Windows 10 e o Office 365 ProPlus. Saiba como aproveitar a ajuda de adoção do usuário com o Microsoft FastTrack, materiais de treinamento e modelos de comunicação, bem como novas maneiras de monitorar o uso e a aceitação do usuário.</p></td>
-<td><a href="https://aka.ms/ddev8" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -47,7 +49,7 @@ Começando pelo Office, se você estiver implantando o Office 365 ProPlus pela p
 
 Os modelos detalhados de comunicação e treinamento estão disponíveis para esses e outros aplicativos locais ou baseados em navegador, como o Teams e o Planner.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
 
 Também fornecemos instruções para novos recursos no aplicativo como anexar arquivos vinculados do OneDrive no Outlook ou usar as novas transições de slides do Morph e recursos do Designer no PowerPoint.
 
@@ -77,7 +79,7 @@ A implantação em fases usando anéis de implantação é o conceito de começa
 
 Os anéis de implantação devem ser criados em conjunto com as unidades de negócios e seus gerentes. Você deverá considerar datas e horários críticos ao implantar ou fazer alterações. Sem um planejamento cuidadoso e a adoção dos participantes, será difícil conseguir que os usuários se integrem e fiquem à vontade com as mudanças.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
 
 ### <a name="phase-1-the-it-team-and-early-adopter-insiders"></a>Fase 1: A equipe de TI e os usuários pioneiros 
 
@@ -117,7 +119,7 @@ Esses componentes e serviços em conjunto podem ser ajustados durante a fase pil
 
 Com a expansão do piloto, convém documentar e publicar perguntas frequentes e conteúdo de autoatendimento para ajudar a reduzir proativamente os tíquetes de suporte e as atividades de assistência técnica.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
 
 ### <a name="phase-3-and-beyond-broad-production-deployment"></a>Fase 3 e além: Ampliar a implantação de produção 
 

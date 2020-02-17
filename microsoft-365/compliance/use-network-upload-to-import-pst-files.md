@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: Saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Office 365.'
-ms.openlocfilehash: 2db98c36091e6cc5be2eb5fa451b76a66f8ac49f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4420c2a684b020053bab88a14f46a73a795bd37d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069275"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-office-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Office 365
 
@@ -100,7 +100,7 @@ A primeira etapa consiste em baixar e instalar a ferramenta AzCopy, que é a fer
     > [!NOTE]
     > É preciso ter as permissões apropriadas para acessar a página **Importar** no Centro de Conformidade de & Segurança. Confira a seção **Antes de começar** para mais informações. 
     
-3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
+3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](../media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
     O assistente de importação de trabalho será exibido.
     
@@ -108,11 +108,11 @@ A primeira etapa consiste em baixar e instalar a ferramenta AzCopy, que é a fer
     
 5. Na página **Você deseja carregar ou enviar dados?**, clique em **Carregar dados** e, em seguida, clique em **Avançar**.
     
-    ![Clique em Carregar dados para criar um trabalho de importação de carregamento de rede](media/e59f9dc3-ccde-44ff-ac38-c4e39d76ae85.png)
+    ![Clique em Carregar dados para criar um trabalho de importação de carregamento de rede](../media/e59f9dc3-ccde-44ff-ac38-c4e39d76ae85.png)
   
 6. Na página **Importar Dados**, execute as duas seguintes etapas: 
     
-    ![Copie a URL SAS e baixe a ferramenta AzCopy na página Importar dados](media/74411014-ec4b-4e25-9065-404c934cce17.png)
+    ![Copie a URL SAS e baixe a ferramenta AzCopy na página Importar dados](../media/74411014-ec4b-4e25-9065-404c934cce17.png)
   
     a. Na etapa 2, clique em **Mostrar URL SAS de carregamento de rede**. Quando a URL SAS for exibida, clique em **Copiar para área de transferência** e, em seguida, cole-a e salve-a em um arquivo para que possa ser acessado mais tarde.
     
@@ -181,7 +181,7 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
 2. Inicie o Gerenciador de armazenamento do Microsoft Azure, clique com o botão direito do mouse em **Contas de Armazenamento** no painel esquerdo e clique em **Conectar-se ao Armazenamento do Azure**.
     
-    ![Clique com o botão direito em Contas de Armazenamento em Conectar-se ao Armazenamento do Azure](media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
+    ![Clique com o botão direito em Contas de Armazenamento em Conectar-se ao Armazenamento do Azure](../media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
   
 3. Clique em **Usar uma assinatura de acesso (SAS) URI ou uma cadeia de conexão** e clique em **Avançar**.
     
@@ -191,11 +191,11 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
     O contêiner**ingestiondata** será aberto. Ela contém os arquivos PST carregados na etapa 2. O contêiner **ingestiondata** está localizado em uma **Conta de Armazenamento** \> **(SAS-Serviços Anexados)**\> **Contêineres de Blob**. 
     
-    ![O Gerenciador de Armazenamento do Azure exibe uma lista dos arquivos PST que você carregou](media/12376fed-13a5-4a09-8fe6-e819e011b334.png)
+    ![O Gerenciador de Armazenamento do Azure exibe uma lista dos arquivos PST que você carregou](../media/12376fed-13a5-4a09-8fe6-e819e011b334.png)
   
 6. Ao terminar de usar o Gerenciador de Armazenamento do Azure, clique com botão direito em **ingestiondata** e, em seguida, clique em **Desanexar** para desconectar-se da sua área de armazenamento do Azure. Caso contrário, você receberá uma mensagem de erro na próxima vez que tentar anexar. 
     
-    ![Clique com o botão direito em ingestão e clique em Desanexar para desconectar da sua área de armazenamento do Azure](media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
+    ![Clique com o botão direito em ingestão e clique em Desanexar para desconectar da sua área de armazenamento do Azure](../media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
   
 ## <a name="step-4-create-the-pst-import-mapping-file"></a>Etapa 4: Criar o arquivo de mapeamento para Importação de PST
 
@@ -247,7 +247,7 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
     
 2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações> Importar > Importar arquivos PST**.
     
-3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
+3. Na página **Importar arquivos PST**, clique em ![Adicionar Ícone](../media/ITPro-EAC-AddIcon.gif) **Novo trabalho de importação**.
     
     **Observação:** É preciso ter as permissões apropriadas para acessar a página **Importar** no Centro de Conformidade de & Segurança para criar um novo trabalho de importação. Confira a seção **Antes de começar** para mais informações. 
     
@@ -255,19 +255,19 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
     
 5. Na página **Você deseja carregar ou enviar dados?**, clique em **Carregar dados** e, em seguida, clique em **Avançar**.
     
-    ![Clique em Carregar dados para criar um trabalho de importação de carregamento de rede](media/e59f9dc3-ccde-44ff-ac38-c4e39d76ae85.png)
+    ![Clique em Carregar dados para criar um trabalho de importação de carregamento de rede](../media/e59f9dc3-ccde-44ff-ac38-c4e39d76ae85.png)
   
 6. Na etapa 4 n página **Importar Dados**, marque as caixas de seleção **Eu acabei de carregar os meus arquivos** e **Eu tenho acesso aos arquivos de mapeamento** e, em seguida, clique em **Avançar**. 
     
-    ![Clique nas duas caixas de seleção na etapa 4](media/9f2427e8-3af2-4e27-95e6-a9f08430d3d8.png)
+    ![Clique nas duas caixas de seleção na etapa 4](../media/9f2427e8-3af2-4e27-95e6-a9f08430d3d8.png)
   
 7. Na página **Selecionar o arquivo de mapeamento**, clique em **Selecionar arquivo de mapeamento** para enviar o arquivo de mapeamento de Importação PST que você criou na Etapa 4. 
     
-    ![Clique em Selecionar arquivo de mapeamento para enviar o arquivo CSV que você criou para o trabalho de importação](media/d30b1d73-80bb-491e-a642-a21673d06889.png)
+    ![Clique em Selecionar arquivo de mapeamento para enviar o arquivo CSV que você criou para o trabalho de importação](../media/d30b1d73-80bb-491e-a642-a21673d06889.png)
   
 8. Após o nome do arquivo CSV aparecer em **Nome do arquivo de mapeamento**, clique em **Validar** para verificar se há erros no arquivo CSV. 
     
-    ![Clique em Validar para verificar se há erros no arquivo CSV](media/4680999d-5538-4059-b878-2736a5445037.png)
+    ![Clique em Validar para verificar se há erros no arquivo CSV](../media/4680999d-5538-4059-b878-2736a5445037.png)
   
     O arquivo CSV deve ser validado com êxito para criar um trabalho de importação de PST. O nome do arquivo é alterado para verde após verde após ser validado com êxito. Se a validação falhar, clique no link **Exibir log**. Um relatório de erro de validação é aberto, com uma mensagem de erro para cada linha no arquivo que falhou.
     
@@ -277,7 +277,7 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
     
     Uma página de status com submenu é exibida, com o status da **Análise em andamento** e o novo trabalho de importação é exibido na lista da página **Importar arquivos PST**. 
     
-11. Clique em **Atualizar** ![Ícone Atualizar](media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações de status exibidas na coluna**Status**.  Quando a análise estiver concluída e os dados estiverem prontos para serem importados, o status será alterado para**Análise concluída**.
+11. Clique em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações de status exibidas na coluna**Status**.  Quando a análise estiver concluída e os dados estiverem prontos para serem importados, o status será alterado para**Análise concluída**.
     
     Você pode clicar no trabalho de importação para exibir a página de status com submenu, que contém informações mais detalhadas sobre o trabalho de importação, como o status de cada arquivo PST listado no arquivo de mapeamento.
  
@@ -287,7 +287,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Office 365 analisa os d
   
 1. Na página **Importar arquivos PST** no Centro de Conformidade & de Segurança, clique em **Pronto para importar para o Office 365** para o trabalho de importação que você criou na Etapa 5. 
     
-    ![Clique em Pronto para importar para o Office 365 ao lado do trabalho de importação criado](media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
+    ![Clique em Pronto para importar para o Office 365 ao lado do trabalho de importação criado](../media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
   
     Uma página com submenu é exibida com informações sobre os arquivos PST e outras informações sobre o trabalho de importação.
     
@@ -295,7 +295,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Office 365 analisa os d
     
     A página **Filtrar seus dados** é exibida. Ela contém as informações sobre dados resultantes da análise realizada nos arquivos PST do Office 365, incluindo informações sobre a idade dos dados. Neste ponto, você tem a opção de filtrar os dados que serão importados ou importar todos os dados como estão. 
     
-    ![Você pode cortar os dados dos arquivos PST ou importá-los](media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
+    ![Você pode cortar os dados dos arquivos PST ou importá-los](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
   
 3. Siga um destes procedimentos:
     
@@ -309,7 +309,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Office 365 analisa os d
     
 4. Se optar por importar todos os dados, clique em **Importar dados** para iniciar o trabalho de importação. 
     
-    O status do trabalho de importação é exibido na página **Importar arquivos PST**. Clique no ![Ícone Atualizar](media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. 
+    O status do trabalho de importação é exibido na página **Importar arquivos PST**. Clique no ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. 
 
 ## <a name="how-the-import-process-works"></a>Como o processo de importação funciona
   
@@ -317,7 +317,7 @@ Você pode usar a opção de carregamento de rede e o serviço de importação d
   
 Esta é uma ilustração e uma descrição do processo de carregamento de rede para importar arquivos PST para caixas de correio no Office 365.
   
-![Fluxo de trabalho do processo de carregamento de rede para importar arquivos PST para o Office 365](media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
+![Fluxo de trabalho do processo de carregamento de rede para importar arquivos PST para o Office 365](../media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
   
 1. **Baixar a ferramenta de importação de PST e a chave para o local privado de armazenamento do Azure:** a primeira etapa é baixar a ferramenta de linha de comando do AzCopy e uma chave de acesso usada para carregar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft. Você obtém isso na página **Importar** no Centro de Conformidade e Segurança. A chave SAS (chamada de chave de assinatura de acesso seguro) fornece as permissões necessárias para carregar arquivos PST para um local de armazenamento do Azure particular e seguro. Essa chave de acesso é exclusiva à sua organização e ajuda a impedir o acesso não autorizado aos seus arquivos PST depois que eles são carregados na nuvem da Microsoft. Observe que importar arquivos PST para o Office 365 não exige que sua organização tenha uma assinatura separada do Azure. 
     

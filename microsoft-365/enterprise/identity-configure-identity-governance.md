@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 7: Configurar o controle de identidade'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreender e configurar o controle de identidade para o locatário do Azure AD.
-ms.openlocfilehash: d9a9a63f46230a07b35052a3b02231f7b5315d9e
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 5b7b1c91735611046133a0247ae028ed090106fd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302918"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067348"
 ---
 # <a name="step-6-configure-identity-governance"></a>Etapa 6: configurar o controle de identidade
 
-![Fase 2 – Identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Fase 2 – Identidade](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 O controle de identidades é sobre proteção, monitoramento e auditoria do acesso a ativos essenciais enquanto garante a produtividade dos funcionários. Por exemplo, com o controle de identidade, você pode garantir que os usuários certos tenham o acesso apropriado aos recursos necessários e determinar se esse acesso muda com o tempo.
 

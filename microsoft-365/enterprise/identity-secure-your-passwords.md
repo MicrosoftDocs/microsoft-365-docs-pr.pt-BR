@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 2: proteger suas senhas'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você precisa de senhas fortes e gerenciáveis em toda a organização.
-ms.openlocfilehash: 143f7727846316100e4133ccf4b34646645bfd7f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801736"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067278"
 ---
 # <a name="step-2-secure-your-passwords"></a>Etapa 2: proteger suas senhas
 
-![Fase 2-identidade](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Fase 2-identidade](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>Evitar o uso de senhas ruins
@@ -54,7 +56,7 @@ Confira as[instruções para implantar redefinição de senha](https://docs.micr
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia de laboratório de teste: redefinição de senha](password-reset-m365-ent-test-environment.md) |
+|![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia de laboratório de teste: redefinição de senha](password-reset-m365-ent-test-environment.md) |
 |||
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-pw-reset) para esta seção.
@@ -73,7 +75,7 @@ Confira as [instruções para configurar o SSO Contínuo do Azure Active Directo
 
 |||
 |:-------|:-----|
-|![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Logon Único Contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md) |
+|![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Logon Único Contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md) |
 |||
 
 Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-sso) para esta seção.
@@ -98,4 +100,4 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 |||
 |:-------|:-----|
-|![Etapa 3](./media/stepnumbers/Step3.png)| [Proteger e gerenciar as entradas do seu usuário](identity-secure-user-sign-ins.md) |
+|![Etapa 3](../media/stepnumbers/Step3.png)| [Proteger e gerenciar as entradas do seu usuário](identity-secure-user-sign-ins.md) |

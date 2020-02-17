@@ -1,5 +1,7 @@
 ---
 title: Introdução - Implantação do Computador
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: a9ad328f6a2548a24a981ee3b49665c3091277c9
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 62d18f23df55783c8b1f0c01f9f803a1d4bca0f0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067468"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
-![](media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
+![](../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
 <td><p><strong>Introdução: Orientações sobre pessoas, processos e tecnologia</strong></p>
 <p>Descubra os benefícios do Windows 10 e Office 365 ProPlus, alterações e considerações importantes em relação a implantações anteriores, além das práticas recomendadas para garantir uma transição suave para o Windows 10 e o Office 365 ProPlus.</p></td>
-<td><a href="https://aka.ms/ddev0" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -111,7 +113,7 @@ Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados 
 
 **[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)** Isso representa uma grande mudança na forma que você mantém o estado real do computador dos usuários. Com essa mudança para o Windows 10 e o Office 365 ProPlus, você pode passar a gerenciar o Windows e o Office como um serviço. Em vez de uma grande mudança de tecnologia em pequenos intervalos de anos, você estará trazendo novos recursos, experiências e proteções ao seu usuário. As atualizações de recursos semestrais oferecem novos recursos no outono e primavera de cada ano, enquanto as Atualizações de Qualidade cumulativas contêm segurança, confiabilidade e correção de bugs. Embora você possa optar por implantar o cliente do Office 2019, recomendamos que você mude para o Office 365 ProPlus. Isso segue um plano de serviço semelhante para o Windows para que seus usuários também recebam atualizações para os aplicativos do Office regularmente.
 
-![](media/getting-started-media/getting-started-media-2.png)
+![](../media/getting-started-media/getting-started-media-2.png)
 
 [Visão geral do Windows como serviço](https://docs.microsoft.com/windows/deployment/update/waas-overview)
 [Visão geral do Office como serviço](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)

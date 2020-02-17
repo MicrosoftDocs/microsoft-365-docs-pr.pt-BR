@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 06fe15af513a737ac7669a3115891b7b731d7458
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 76c1199fa3842428900db197f15728c116f778b9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076372"
 ---
 # <a name="data-classification-overview-preview"></a>Visão geral da classificação de dados (visualização)
 
@@ -41,11 +41,11 @@ O Microsoft 365 vem com várias definições de tipos de informações confidenc
 
 O cartão do tipo de informações confidenciais mostra os principais tipos de informações confidenciais que foram encontrados e rotulados em toda a organização.
 
-![principais tipos de informações confidenciais ](media/data-classification-sens-info-types-card.png)
+![principais tipos de informações confidenciais ](../media/data-classification-sens-info-types-card.png)
 
 Para saber quantos itens estão em uma determinada categoria de classificação, passe o mouse sobre a barra para determinar a categoria.
 
-![detalhe do hover exibindo os principais tipos de informações confidenciais  ](media/data-classification-sens-info-types-hover.png)
+![detalhe do hover exibindo os principais tipos de informações confidenciais  ](../media/data-classification-sens-info-types-hover.png)
 
 > [!NOTE]
 > Se o cartão exibir a mensagem «não foram encontrados dados com informações confidenciais». Isso significa que não há nenhum item em sua organização que tenha sido classificado como sendo um tipo de informação confidencial ou nenhum item que tenha sido rastreado. Para começar a usar os rótulos, confira:
@@ -60,13 +60,13 @@ Quando você aplica um rótulo de confidencialidade a um item ou através do Mic
 - uma marca que indica o valor do item para a sua organização, inserida no documento, e o acompanhará onde quer que esse item vá
 - a presença da marca ativa vários comportamentos de proteção, como uma marca d' água obrigatória ou a criptografia. Com a proteção de ponto de extremidade habilitada, você pode até mesmo impedir que um item saia de seu controle organizacional.
 
-Para obter mais informações sobre rótulos de confidencialidade, confira [Visão geral de rótulos de confidencialidade](sensitivity-labels.md)
+Para obter mais informações sobre rótulos de confidencialidade, confira: [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
 
 Os rótulos de confidencialidade devem ser habilitados para arquivos que estão no SharePoint e no OneDrive para que os dados correspondentes apareçam na página de classificação de dados. Para saber mais, confira [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
 
 O cartão de identificação de confidencialidade mostra o número de itens (email ou documento) por nível de confidencialidade.
 
-![Captura da tela do espaço reservado que mostra a análise de conteúdo por classificação de rótulo de confidencialidade](media/data-classification-top-sensitivity-labels-applied.png)
+![Captura da tela do espaço reservado que mostra a análise de conteúdo por classificação de rótulo de confidencialidade](../media/data-classification-top-sensitivity-labels-applied.png)
 
 > [!NOTE]
 > Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar a usar os rótulos, confira:
@@ -78,7 +78,7 @@ Os rótulos de retenção são usados para manejar a disposição do conteúdo d
 
 O cartão dos principais rótulos de retenção aplicados mostra quantos itens têm um determinado rótulo de retenção.
 
-![Captura de tela do espaço reservado mostrando os principais rótulos de retenção aplicados](media/data-classification-top-retention-labels-applied.png)
+![Captura de tela do espaço reservado mostrando os principais rótulos de retenção aplicados](../media/data-classification-top-retention-labels-applied.png)
 
 > [!NOTE]
 > Se este cartão exibir a mensagem "Nenhum rótulo de retenção detectado", isso significa que você não criou ou publicou qualquer rótulo de retenção ou que nenhum conteúdo teve qualquer rótulo de retenção aplicado.   Para começar a usar os rótulos de retenção, confira:

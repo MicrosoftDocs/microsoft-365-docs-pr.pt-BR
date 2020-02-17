@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 1585be963b63e2e7f4c3efad972b7b262b4db3cc
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: 3dbc3e221849cd9b5cde1d1f97e50ccf043c336d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070107"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -87,7 +87,7 @@ Observe que o usuário recebe um erro se tentar excluir uma biblioteca, lista, p
   
 Depois que uma política de retenção é atribuída a uma conta do OneDrive ou site do SharePoint, o conteúdo pode seguir um destes dois caminhos:
 
-![Diagrama do ciclo de vida de conteúdo no SharePoint e no OneDrive](media/Retention_Diagram_of_retention_flow_in_sites.png)
+![Diagrama do ciclo de vida de conteúdo no SharePoint e no OneDrive](../media/Retention_Diagram_of_retention_flow_in_sites.png)
   
 1. **Se o conteúdo for modificado ou excluído** durante o período de retenção, uma cópia do conteúdo original existente na ocasião em que a política de retenção foi atribuída será criada na Biblioteca de Retenção para Preservação. Lá, um trabalho de temporizador é executado periodicamente e identifica itens cujo período de retenção expirou, e esses itens são movidos para a lixeira de segundo estágio, onde serão excluídos permanentemente após 93 dias. A lixeira de segundo estágio não está visível para os usuários finais (somente a lixeira de primeiro estágio está), mas os administradores de conjunto de sites podem exibir e restaurar o conteúdo de lá.
 
@@ -110,7 +110,7 @@ Se um usuário deixar a sua organização e a sua caixa de correio for incluída
   
 Depois que uma política de retenção é atribuída a uma caixa de correio ou pasta pública, o conteúdo pode seguir um destes dois caminhos:
 
-![Diagrama de fluxo de retenção em emails e pastas públicas](media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
+![Diagrama de fluxo de retenção em emails e pastas públicas](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
 
 1. **Se o item for modificado ou excluído permanentemente** pelo usuário (usando SHIFT + DELETE ou excluído de Itens Excluídos) durante o período de retenção, o item será movido (ou copiado, no caso de edição) para a pasta Itens Recuperáveis. Lá, um processo é executado periodicamente e identifica itens cujo período de retenção tenha expirado, e esses itens são permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, que pode ser estendida para até 30 dias.
     
@@ -139,7 +139,7 @@ Da mesma forma, se você desejar reter o conteúdo em uma caixa de correio por s
   
 Você pode escolher se deseja que o conteúdo seja excluído permanentemente no final do período de retenção. Uma política de retenção também pode excluir o conteúdo antigo sem retê-lo. Confira a próxima seção.
   
-![Página de configurações de Retenção](media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
+![Página de configurações de Retenção](../media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
   
 ## <a name="deleting-content-thats-older-than-a-specific-age"></a>Como excluir conteúdo mais antigo que uma idade específica
 
@@ -147,19 +147,19 @@ Uma política de retenção pode reter e excluir o conteúdo ou excluir o conte�
   
 Se sua política de retenção excluir conteúdo, será importante entender que o período de tempo especificado para uma política de retenção é calculado pelo tempo em que o documento foi criado ou modificado, e não a partir do momento em que a política foi atribuída.
   
-![Configurações de exclusão](media/042f9571-96f4-458f-8f38-fad3ed68ed31.png)
+![Configurações de exclusão](../media/042f9571-96f4-458f-8f38-fad3ed68ed31.png)
   
 Por exemplo, suponha que você crie uma política de retenção que exclui conteúdo após três anos e, em seguida, atribui essa política a todas as contas do OneDrive, que incluem uma grande quantidade de conteúdo criado há quatro ou cinco anos. Nesse caso, muito conteúdo será excluído logo após atribuir a política de retenção pela primeira vez. Por esse motivo **uma política de retenção que exclui conteúdo pode ter um impacto considerável sobre o conteúdo**. 
   
 Portanto, quando atribuir uma política de retenção a um conjunto de sites pela primeira vez, primeiro considere a idade do conteúdo e de que modo a política poderá afetá-los. Você também poderá informar os usuários sobre a nova política antes de atribuí-la, para que eles tenham tempo de avaliar o possível impacto. Observe esse aviso que é exibido quando você revisa as configurações da política de retenção antes de criá-la.
   
-![Aviso sobre exclusão de conteúdo](media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
+![Aviso sobre exclusão de conteúdo](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
 ## <a name="advanced-settings-that-apply-a-policy-only-to-content-that-meets-certain-conditions"></a>Configurações avançadas que aplicam uma política apenas ao conteúdo que atenda a determinadas condições
 
 Uma política de retenção pode ser aplicada a todo o conteúdo nos locais em que inclui ou você pode aplicar uma política de retenção apenas ao conteúdo que inclui palavras-chave específicas ou [tipos específicos de informações confidenciais](what-the-sensitive-information-types-look-for.md).
   
-![Opções avançadas de retenção](media/e8d9dd42-c062-4e8b-a2ca-bffe3ea298e0.png)
+![Opções avançadas de retenção](../media/e8d9dd42-c062-4e8b-a2ca-bffe3ea298e0.png)
   
 ### <a name="retain-content-that-contains-specific-keywords"></a>Reter conteúdo que inclui palavras-chave específicas
 
@@ -169,13 +169,13 @@ O suporte à adição de propriedades pesquisáveis (por exemplo, **assunto:**) 
   
 A retenção com base em consulta usa o índice de pesquisa para identificar conteúdo.
   
-![Editor de consultas](media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
+![Editor de consultas](../media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
   
 ### <a name="retain-content-that-contains-sensitive-information"></a>Reter conteúdo com informações confidenciais
 
 Você também pode aplicar uma política de retenção apenas ao conteúdo que inclui [tipos específicos de informações confidenciais](what-the-sensitive-information-types-look-for.md). Por exemplo, você pode optar por aplicar exigências de retenção exclusivas somente ao conteúdo com informações de identificação pessoal (PII) como números de identificação de contribuinte, números de CPF ou números de passaporte.
   
-![Página Tipos de informações confidenciais](media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
+![Página Tipos de informações confidenciais](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
 Observações:
   
@@ -201,7 +201,7 @@ Um dos recursos mais avançados de política de retenção é que, por padrão, 
     
 - Pastas públicas do Exchange
     
-![Opção Todos os locais](media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
+![Opção Todos os locais](../media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
   
 Outros recursos importantes de uma política de retenção no âmbito da organização incluem:
   
@@ -215,7 +215,7 @@ Ao escolher locais, você pode facilmente incluir ou excluir um local inteiro, c
   
 Como uma política no âmbito da organização, se uma política for aplicada a qualquer combinação de locais inteiros, não haverá um limite para o número de caixas de correio ou sites que essa política poderá incluir. Por exemplo, se uma política incluir todos os emails do Exchange e sites do SharePoint, todos os sites e caixas de correio serão incluídas, independentemente da quantidade. E para o Exchange, as caixas de correio criadas após a aplicação da política herdarão a política automaticamente.
  
-![Página Escolher locais](media/6ac0c2d6-1abf-4690-b3f6-9ca506887ba3.png)
+![Página Escolher locais](../media/6ac0c2d6-1abf-4690-b3f6-9ca506887ba3.png)
   
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
@@ -235,7 +235,7 @@ Ao contrário de email do Exchange, você não pode ativar ou desativar o status
   
 Ao escolher usuários do Skype for Business, você pode incluir rapidamente todos os usuários, selecionando a caixa de **Nome** no cabeçalho da coluna. No entanto, é importante compreender que cada usuário é como uma inclusão específica na política. Portanto, se mais de 1.000 usuários forem incluídos, os limites indicados na seção anterior serão aplicáveis. Aqui, selecionar todos os usuários do Skype não é o mesmo como se uma política no âmbito da organização fosse capaz de incluir todos os usuários do Skype por padrão. 
   
-![Página Escolher usuários do Skype](media/f1742493-741a-4142-a564-d7d41ab0236a.png)
+![Página Escolher usuários do Skype](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
 Observe que o **Histórico da Conversa**, uma pasta no Outlook, é um recurso que não tem nada a ver com o arquivamento do Skype. **Histórico da Conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
 
@@ -250,7 +250,7 @@ As mensagens do canal e do chat do Teams não são afetadas pelas políticas de 
   
 Depois que uma política de retenção é atribuída a uma equipe, chat e canal, as mensagens podem seguir um destes dois caminhos:
 
-![Diagrama do fluxo de retenção para mensagens do chat e do canal do Teams](media/TeamsRetentionLifecycle.png)
+![Diagrama do fluxo de retenção para mensagens do chat e do canal do Teams](../media/TeamsRetentionLifecycle.png)
 
 1. **Se uma mensagem do chat ou do canal for modificada ou excluída** pelo usuário durante o período de retenção, a mensagem será movida (ou copiada, no caso de edição) para a pasta SubstrateHolds (que é uma pasta oculta em todas as caixas de correio de usuários ou grupos) e será armazenada nessa pasta até que o período de retenção expire. As mensagens são excluídas permanentemente no dia do término do período de retenção.
 
@@ -278,7 +278,7 @@ Em uma equipe do Teams, arquivos compartilhados em chat são armazenados na cont
   
 Uma política de retenção que se aplica ao Teams pode usar [Bloqueio de Preservação](#locking-a-retention-policy).
   
-![Os locais do Teams para chat e mensagens de canal](media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
+![Os locais do Teams para chat e mensagens de canal](../media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
   
 > [!NOTE]
 > Se você criar políticas de retenção para os locais do Skype ou Teams em sua organização, uma dessas políticas será exibida como a política de pasta padrão quando um usuário exibir as propriedades de uma pasta de caixa de correio no cliente da área de trabalho do Outlook. Esse é um problema de exibição incorreta no Outlook e [um problema conhecido](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). O que deve ser exibido como a política de pasta padrão é a política de retenção da caixa de correio aplicada à pasta. A política de retenção do Skype ou Teams não é aplicada à caixa de correio do usuário.  
@@ -309,23 +309,23 @@ Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Of
 
 Em segundo lugar, para exibir uma lista de suas políticas de retenção e encontrar o nome da política que você quer bloquear, execute `Get-RetentionCompliancePolicy`.
 
-![Lista de políticas de retenção no PowerShell](media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+![Lista de políticas de retenção no PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
 Em terceiro lugar, para colocar um bloqueio de preservação na política de retenção, execute `Set-RetentionCompliancePolicy` com o parâmetro `RestrictiveRetention` definido como verdadeiro. Por exemplo:
 
 `Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
 
-![Parâmetro RestrictiveRetention no PowerShell](media/retention-policy-preservation-lock-restrictiveretention.PNG)
+![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
 
 Depois de executar esse cmdlet, você pode ver um prompt de confirmação. Escolha **Sim para todos**.
 
-![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
 O Bloqueio de Preservação agora está localizado na política de retenção. Se executar `Get-RetentionCompliancePolicy`, o parâmetro `RestrictiveRetention` é definido como verdadeiro. Por exemplo:
 
 `Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
 
-![Bloquear a política com todos os parâmetros mostrados no PowerShell](media/retention-policy-preservation-lock-locked-policy.PNG)
+![Bloquear a política com todos os parâmetros mostrados no PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
   
 ## <a name="releasing-a-retention-policy"></a>Como liberar uma política de retenção
 
@@ -337,7 +337,7 @@ O período de cortesia de 30 dias no SharePoint e no OneDrive corresponde à ret
 
 É possível ou até mesmo provável que o conteúdo tenha várias políticas de retenção aplicadas a ele, cada uma com uma ação diferente (manter, excluir ou ambas) e o período de retenção. O que tem precedência? No nível mais alto, esteja certo de que o conteúdo retido por uma política não pode ser excluído permanentemente por outra política.
   
-![Diagrama dos princípios de retenção](media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
+![Diagrama dos princípios de retenção](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 Para entender como as diferentes políticas de retenção são aplicadas ao conteúdo, lembre-se destes princípios de retenção:
   

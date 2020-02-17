@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 2: Configurar classificações de ambiente'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar várias maneiras para classificar os dados em sua organização.
-ms.openlocfilehash: e1f0a6b9bdc4b6844037e7e873ed321942e8258e
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067248"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Etapa 2: Configurar classificações de ambiente
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Nesta etapa, você trabalha com as equipes de conformidade e jurídica para definir um esquema de classificação dos dados da sua organização.
 
@@ -100,7 +102,7 @@ Confira um exemplo de esquema de classificação que inclui os dados pessoais pa
 
 |||
 |:-------|:-----|
-|![Guias de laboratório de teste da Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Classificação de dados](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
+|![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Classificação de dados](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 Como um ponto de verificação provisório, confira o [Critério de saída](infoprotect-exit-criteria.md#crit-infoprotect-step2) correspondente desta etapa.
@@ -109,5 +111,5 @@ Como um ponto de verificação provisório, confira o [Critério de saída](info
 
 |||
 |:-------|:-----|
-|![Etapa 3](./media/stepnumbers/Step3.png)|[Configurar mais segurança no Office 365](infoprotect-configure-increased-security-office-365.md)|
+|![Etapa 3](../media/stepnumbers/Step3.png)|[Configurar mais segurança no Office 365](infoprotect-configure-increased-security-office-365.md)|
 

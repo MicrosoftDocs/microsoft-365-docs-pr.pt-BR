@@ -25,7 +25,7 @@ ms.locfileid: "42088157"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O [Centro &amp; de conformidade de segurança](../../compliance/go-to-the-securitycompliance-center.md) permite que sua organização gerencie a proteção e a conformidade dos dados. Supondo que você tenha as permissões necessárias, o painel de segurança permite que você revise o status da proteção contra ameaças, bem como o modo de exibição e agir nos alertas de segurança. 
   

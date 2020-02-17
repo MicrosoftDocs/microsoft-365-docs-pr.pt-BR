@@ -1,5 +1,7 @@
 ---
 title: 'Fase 4: Office 365 ProPlus'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Etapas para implantar a infraestrutura do Office 365 ProPlus para o Microsoft 365 Enterprise.
-ms.openlocfilehash: f41990055a97a2853622529e7cc28ccf096eef69
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 2b3ac311863249720a2dc1fba00ead9ebf6ac8e5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831892"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066433"
 ---
 # <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
 
-![Fase 4: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon.png)
+![Fase 4: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon.png)
 
 *Estes critérios aplicam-se às versões E3 e E5 do Microsoft 365 Enterprise e Microsoft 365 Education*
 
@@ -63,7 +65,7 @@ Com base no seu plano de implantação, escolha como deseja implantar:
 
 Muitas organizações usarão uma combinação dessas opções para diferentes usuários. Por exemplo, uma organização pode usar o Configuration Manager para implantar o Office para a maioria de seus usuários, mas permitir que um pequeno grupo de funcionários que não estejam conectados à rede interna com frequência instalem o Office por conta própria. 
 
-Se sua organização usar o Configuration Manager, é recomendável atualizar para o Branch Atual e obter a versão mais recente. Para saber mais, confira [Qual branch do Configuration Manager devo usar?](https://docs.microsoft.com/sccm/core/understand/which-branch-should-i-use)
+Se sua organização usar o Configuration Manager, é recomendável atualizar para o Branch Atual e obter a versão mais recente. Para saber mais, confira [Qual branch do Configuration Manager devo usar?](https://docs.microsoft.com/configmgr/core/understand/which-branch-should-i-use)
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Como a Microsoft desenvolve o Microsoft 365 Enterprise
 
@@ -73,7 +75,7 @@ Saiba como os especialistas da Microsoft estão [implantando e gerenciando as at
 
 Veja como a Contoso Corporation, uma empresa multinacional fictícia mas representativa, [implantou o Office 365 ProPlus](contoso-o365pp.md).
 
-![A Contoso Corporation](./media/contoso-overview/contoso-icon.png)
+![A Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Próxima etapa
 
