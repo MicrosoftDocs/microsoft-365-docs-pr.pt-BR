@@ -10,16 +10,24 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9a5d163d14dda6aed50a39a27ae9a03ffbed526c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c021654c99faf3104766dc05fe466ce9537d656
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091354"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
 
 Este tópico lista os tópicos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os tópicos "atualizados" são aqueles que tiveram inclusões de material ou correções – correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="january-2020"></a>Janeiro de 2020
+Tópico novo ou alterado | Descrição
+--- | ---
+[Preparar usuários para o uso dos dispositivos](get-started/get-started-devices.md)| Tópico atualizado
+[Adicionar e verificar contatos do administrador no portal de Administração](get-started/add-admin-contacts.md) | Tópico atualizado
+[Configuração do dispositivo](service-description/device-policies.md) | Tópico atualizado
+
 
 ## <a name="december-2019"></a>Dezembro de 2019
 Tópico novo ou alterado | Descrição
