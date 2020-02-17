@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este tópico explica como configurar os fluxos dos processos empresariais para automatizar a retenção por meio de eventos usando a API REST do Microsoft 365.
-ms.openlocfilehash: 46276e1a40df8c5491d569337a683666984be23a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 692671ca5e7d956cb168ac0de2e409e7023cfd04
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596318"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079053"
 ---
 # <a name="automate-event-based-retention"></a>Automatizar retenção baseada em eventos
 
@@ -121,13 +121,13 @@ Além disso, o período de retenção deve ser calculado para cada um desses fun
 
 O diagrama abaixo mostra como pode haver diversos rótulos associados a um único evento. Aqui estão todos os arquivos sob o rótulo de Indenização do trabalhador e todos os arquivos sob o rótulo de Benefícios dos funcionários estão ambos associados a um único evento, que é o funcionário deixando a organização. Cada um desses arquivos tem diferentes relógios de retenção. Portanto, quando um funcionário deixa a organização, esses arquivos dentro de cada etiqueta têm um período de retenção diferente. Disparar todos esses relógios diferentes para cada tipo de arquivo ou rótulo para cada funcionário é uma tarefa bastante desafiadora. Imagine fazer isso para vários funcionários.
 
-![Diagrama de tipo de evento, eventos e rótulos](media/automate-event-driven-retention-event-diagram-employee-leaving.png)
+![Diagrama de tipo de evento, eventos e rótulos](../media/automate-event-driven-retention-event-diagram-employee-leaving.png)
 
 Portanto, um processo automatizado para acionar esses diferentes relógios de retenção para vários funcionários economizaria tempo, seria isento de erros e extremamente eficiente.
 
 **Como configurar a retenção automatizada baseada em eventos para este cenário:**
 
-![Diagrama de funções e ações para o cenário de saída do funcionário da organização](media/automate-event-driven-retention-employee-termination-diagram.png)
+![Diagrama de funções e ações para o cenário de saída do funcionário da organização](../media/automate-event-driven-retention-employee-termination-diagram.png)
 
   - O administrador criar pastas de funcionários para o Conjunto de documentos, como Sara Melo, Diogo Martins.
 
@@ -151,9 +151,9 @@ Portanto, um processo automatizado para acionar esses diferentes relógios de re
 
 Etapa 1 – Criar um fluxo para criar um evento usando a API REST do Microsoft 365
 
-![Usando o Flow para criar um evento](media/automate-event-driven-retention-flow-1.png)
+![Usando o Flow para criar um evento](../media/automate-event-driven-retention-flow-1.png)
 
-![Usando um fluxo para chamar a API REST](media/automate-event-driven-retention-flow-2.png)
+![Usando um fluxo para chamar a API REST](../media/automate-event-driven-retention-flow-2.png)
 
 ##### <a name="create-an-event"></a>Criar um evento
 
@@ -423,7 +423,7 @@ Um sistema de CRM (gerenciamento de relacionamento com o cliente) pode trabalhar
 
 **Como configurar a retenção automatizada baseada em eventos para este cenário:**
 
-![Diagrama de funções e tarefas para o cenário de expiração de contrato](media/automate-event-driven-retention-contract-expiration.png)
+![Diagrama de funções e tarefas para o cenário de expiração de contrato](../media/automate-event-driven-retention-contract-expiration.png)
 
   - O administrador cria uma biblioteca do SharePoint com várias pastas para cada tipo de contrato.
 
@@ -451,7 +451,7 @@ Um sistema de ERP (Planejamento de Recursos Empresariais) pode trabalhar com o M
 
 **Como configurar a retenção automatizada baseada em eventos para este cenário:**
 
-![Diagrama de funções e tarefas para o cenário de ciclo de vida do produto](media/automate-event-driven-retention-product-lifecycle-expiration.png)
+![Diagrama de funções e tarefas para o cenário de ciclo de vida do produto](../media/automate-event-driven-retention-product-lifecycle-expiration.png)
 
   - O administrador cria pastas de produtos no Conjunto de documentos, como Produto 1, Produto 2 e assim por diante.
 

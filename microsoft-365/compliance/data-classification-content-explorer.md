@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: c2bf73a5e6b9076d9c5f42c40f0d1f2f33cd1ee8
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 2d9be42c00940bf9d37d1fdeb9b15b071aa412ac
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076419"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>Usando o explorador de conteúdo de classificação de dados (visualização)
 
@@ -45,7 +45,7 @@ Os rótulos de confidencialidade devem ser habilitados para arquivos que estão 
 
 Um [rótulo de retenção](labels.md) permite definir por quanto tempo um item rotulado será mantido e as etapas a serem seguidas antes de excluí-lo. Ele pode ser aplicado manualmente ou automaticamente através de políticas. Eles podem ajudar a sua organização a se manter em conformidade com as determinações regulamentares e legais.
 
-![captura de tela do explorador de conteúdo](media/data-classification-content-explorer-1.png)
+![captura de tela do explorador de conteúdo](../media/data-classification-content-explorer-1.png)
 
 ### <a name="permissions"></a>Permissões
 

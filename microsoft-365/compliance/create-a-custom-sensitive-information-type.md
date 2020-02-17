@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP na interface gráfica do usuário, no Centro de Conformidade e Segurança.
-ms.openlocfilehash: 7f7c4c787bff6fa9d4c644b5640d05b9320686ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 726f21416a3e83a9c3024d810c4335ea263b3c20
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077997"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
@@ -69,7 +69,7 @@ Aqui está um cenário: você deseja um tipo personalizado de informação confi
 
 1. No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais** e clique em **Criar**.
 
-    ![Local dos tipos de informações confidenciais e botão Criar](media/scc-cust-sens-info-type-new.png)
+    ![Local dos tipos de informações confidenciais e botão Criar](../media/scc-cust-sens-info-type-new.png)
 
 2. Na página **Escolher um nome e uma descrição** que é aberta, insira os seguintes valores:
 
@@ -77,7 +77,7 @@ Aqui está um cenário: você deseja um tipo personalizado de informação confi
 
   - **Descrição** detectar os números de nove dígitos de ID de funcionário da Contoso.
 
-    ![Página de nome e descrição](media/scc-cust-sens-info-type-new-name-desc.png)
+    ![Página de nome e descrição](../media/scc-cust-sens-info-type-new-name-desc.png)
 
     Quando terminar, clique em **Avançar**.
 
@@ -101,17 +101,17 @@ Aqui está um cenário: você deseja um tipo personalizado de informação confi
 
     - Mantenha o valor padrão de 300 para a **Proximidade de caracteres**.
 
-    ![Requisitos para a página correspondente](media/scc-cust-sens-info-type-new-reqs.png)
+    ![Requisitos para a página correspondente](../media/scc-cust-sens-info-type-new-reqs.png)
 
     Quando terminar, clique em **Avançar**.
 
 4. Na página **Examinar e finalizar** que é aberta, examine as configurações e clique em **Concluir**.
 
-    ![Examine e finalizar a página](media/scc-cust-sens-info-type-new-review.png)
+    ![Examine e finalizar a página](../media/scc-cust-sens-info-type-new-review.png)
 
 5. A próxima página incentiva você a testar o novo tipo personalizado de informação confidencial clicando em **Sim**. Para saber mais, confira [Tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#test-custom-sensitive-information-types-in-the-security--compliance-center). Para testar a regra mais tarde, clique em **Não**.
 
-    ![Página de recomendações de teste](media/scc-cust-sens-info-type-new-test.png)
+    ![Página de recomendações de teste](../media/scc-cust-sens-info-type-new-test.png)
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -131,7 +131,7 @@ Para confirmar que você criou um novo tipo de informação confidencial com êx
 
 No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais**, selecione os tipos de informações confidenciais personalizados que você deseja modificar e clique em **Editar**.
 
-  ![Local dos tipos de informações confidenciais e botão Editar](media/scc-cust-sens-info-type-edit.png)
+  ![Local dos tipos de informações confidenciais e botão Editar](../media/scc-cust-sens-info-type-edit.png)
 
 Aqui estão disponíveis as mesmas opções oferecidas quando você criou o tipo de informação confidencial personalizado no Centro de Conformidade e Segurança. Para saber mais, confira [Criar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#create-custom-sensitive-information-types-in-the-security--compliance-center).
 
@@ -155,7 +155,7 @@ Para confirmar que você modificou um tipo de informação confidencial com êxi
 
 2. No submenu que é aberto, clique em **Excluir** (ou **Excluir tipos de informações confidenciais** se você tiver selecionado mais de um).
 
-    ![Local dos tipos de informações confidenciais e botão Excluir](media/scc-cust-sens-info-type-delete.png)
+    ![Local dos tipos de informações confidenciais e botão Excluir](../media/scc-cust-sens-info-type-delete.png)
 
 3. Na mensagem de aviso exibida, clique em **Sim**.
 
@@ -169,14 +169,14 @@ Para verificar se você removeu um tipo personalizado de informação confidenci
 
 2. Selecione um ou mais tipos de informações confidenciais personalizados para testar. No submenu suspenso que é aberto, clique em **Testar tipo** (ou **Testar tipos de informações confidenciais** se você tiver selecionado mais de um).
 
-    ![Local dos tipos de informações confidenciais e botão de tipo de Teste](media/scc-cust-sens-info-type-test.png)
+    ![Local dos tipos de informações confidenciais e botão de tipo de Teste](../media/scc-cust-sens-info-type-test.png)
 
 3. Na página **Carregar arquivo para teste** que se abre, carregue um documento para teste arrastando e soltando um arquivo, ou então clicando em **Procurar** e selecionando um arquivo.
 
-    ![Carregar arquivos na página de teste](media/scc-cust-sens-info-type-test-upload.png)
+    ![Carregar arquivos na página de teste](../media/scc-cust-sens-info-type-test-upload.png)
 
 4. Clique no botão **Testar** para testar o documento em busca de correspondências de padrão no arquivo.
 
 5. Na página **Resultados da correspondência**, clique em **Concluir**.
 
-    ![Resultados da correspondência](media/scc-cust-sens-info-type-test-results.png)
+    ![Resultados da correspondência](../media/scc-cust-sens-info-type-test-results.png)

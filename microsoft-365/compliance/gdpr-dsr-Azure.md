@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d54867ad5a469fb429d3edbe012aab9288d76e0f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 53cf720694a52ea18e73a49817418abb489d8c72
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073387"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure para o GDPR e o CCPA
 
@@ -95,15 +95,15 @@ Isso é especialmente útil se você quiser localizar ou alterar dados pessoais 
 
 2. Selecione **Azure Active Directory**.
 
-     ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
+     ![Selecione Todos os serviços](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Selecione **Usuários**.
 
-     ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
+     ![Selecione usuários](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. No painel **Todos os usuários**, selecione um usuário na lista e, em seguida, no painel do usuário selecionado, selecione **Perfil** para visualizar as informações de perfil do usuário que possam conter dados pessoais.
 
-    ![Selecione perfil](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Selecione perfil](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Se você precisa adicionar ou alterar as informações do perfil do usuário, selecione **Editar** na barra de comandos e selecione **Salvar** depois de fazer as alterações.
 
@@ -143,19 +143,19 @@ Você pode corrigir, atualizar ou excluir informações de identificação sobre
 
 2. Selecione **Azure Active Directory**.
 
-    ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
+    ![Selecione Todos os serviços](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Selecione **Usuários**.
 
-    ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
+    ![Selecione usuários](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. No painel **Todos os usuários**, selecione um usuário na lista e, em seguida, no painel do usuário selecionado, selecione **Perfil** para visualizar as informações do perfil do usuário que precisam ser corrigidas ou atualizadas.
 
-    ![Selecione perfil](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Selecione perfil](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Corrija ou atualize as informações do perfil do usuário, incluindo as informações de trabalho, selecionando **Editar** na barra de comandos e selecione  **Salvar** depois de fazer as alterações.
 
-    ![Selecione perfil](media/gdpr-azure-dsr-azure-edit-user-profile.png)
+    ![Selecione perfil](../media/gdpr-azure-dsr-azure-edit-user-profile.png)
 
 #### <a name="service-specific-interfaces"></a>Interfaces específicas de serviços
 
@@ -192,26 +192,26 @@ Veja a seguir o processo detalhado para excluir usuários de locatários.
 
 2. Selecione **Azure Active Directory**.
 
-    ![Selecione Todos os serviços](media/gdpr-azure-dsr-azure-portal.png)
+    ![Selecione Todos os serviços](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Selecione **Usuários**.
 
-    ![Selecione usuários](media/gdpr-azure-dsr-azure-all-users.png)
+    ![Selecione usuários](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. Marque a caixa ao lado do usuário que você deseja excluir, selecione **Excluir usuário**e selecione **Sim** na caixa que confirma se você deseja excluir o usuário.
 
-    ![Gerenciamento de usuários](media/gdpr-azure-dsr-azure-selected-user.png)
+    ![Gerenciamento de usuários](../media/gdpr-azure-dsr-azure-selected-user.png)
 
 5. No painel  **Todos os usuários** , selecione **Usuários excluídos**.
 
-    ![Visualizar perfil do usuário](media/gdpr-azure-dsr-azure-deleted-user.png)
+    ![Visualizar perfil do usuário](../media/gdpr-azure-dsr-azure-deleted-user.png)
 
 4. Selecione o mesmo usuário novamente, selecione  **Excluir permanentemente** na barra de comandos e selecione  **Sim**  na caixa perguntando se você tem certeza.
 
 >[!IMPORTANT]  
 >Lembre-se que, ao clicar em **Sim**, você exclui permanente e irrevogavelmente o usuário, todos os dados associados e os logs gerados pelo sistema. Se você fizer isso por engano, será necessário adicioná-lo manualmente ao locatário. Os dados associados e os logs gerados pelo sistema não podem ser recuperados.
 
-   ![Exibir informações comerciais do usuário](media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
+   ![Exibir informações comerciais do usuário](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
 #### <a name="service-specific-interfaces"></a>Interfaces específicas do serviço
 
@@ -287,15 +287,15 @@ Veja a seguir o processo detalhado para exportar os dados de seu locatário.
 
 1. Abra o portal do Azure, selecione **Todos os serviços**, digite *Política* para filtrar e selecione **Política**.
 
-     ![Filtro Todos os serviços ](media/gdpr-azure-dsr-azure-policy.png)
+     ![Filtro Todos os serviços ](../media/gdpr-azure-dsr-azure-policy.png)
 
 2. Na folha **Política**, selecione **Privacidade do usuário**, selecione **Gerenciar Solicitações de Usuário**e selecione **Adicionar solicitação de exportação**.
 
-    ![Adicionar solicitação de exportação ](media/gdpr-azure-dsr-azure-add-export-request.png)
+    ![Adicionar solicitação de exportação ](../media/gdpr-azure-dsr-azure-add-export-request.png)
 
 3. Preencha a **Solicitação de exportação de dados**:
 
-    ![Nova solicitação de exportação de dados](media/gdpr-azure-dsr-azure-export-data-request.png)
+    ![Nova solicitação de exportação de dados](../media/gdpr-azure-dsr-azure-export-data-request.png)
 
 - **Usuário.** Digite o endereço de email do usuário do Azure Active Directory que solicitou a exportação.
 - **Assinatura.** Selecione a conta que você usa para relatar o uso de recursos e cobrar pelos serviços. Esse também é o local de sua conta de armazenamento do Azure.

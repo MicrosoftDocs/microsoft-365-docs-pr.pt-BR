@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: ff4a236a56fc2e8259204e7a0202d67176d44964
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b2b78c6b028dc34040019f5087f1f8773eed768d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079668"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -39,7 +39,7 @@ Para saber mais sobre os requisitos de licença, confira [Requisitos de assinatu
 
 As configurações de rotulagem automática estão disponíveis quando você cria um rótulo de confidencialidade no centro de conformidade do Microsoft 365, no centro de segurança do Microsoft 365 ou no Centro de Conformidade e Segurança do Office 365 em **Classificação** > **Rótulos de confidencialidade**.
 
-![Opções de rotulagem automática para rótulos de confidencialidade](media/Sensitivity-labels-Auto-labeling-options.png)
+![Opções de rotulagem automática para rótulos de confidencialidade](../media/Sensitivity-labels-Auto-labeling-options.png)
 
 ## <a name="apply-a-sensitivity-label-automatically-based-on-conditions"></a>Aplicar um rótulo de confidencialidade automaticamente com base em condições
 
@@ -47,7 +47,7 @@ Um dos recursos mais poderosos dos rótulos de confidencialidade é a capacidade
 
 Você pode optar por aplicar rótulos de confidencialidade automaticamente ao conteúdo sempre que ele inclui tipos específicos de informações confidenciais. Quando configura um rótulo de confidencialidade para ser aplicado automaticamente, você vê a mesma lista de tipos de informações confidenciais quando cria uma política de prevenção contra perda de dados (DLP). Assim, você pode, por exemplo, aplicar automaticamente um rótulo Altamente Confidencial a qualquer conteúdo que inclua PII (informações de identificação pessoal) dos clientes, como números de cartão de crédito ou de seguro social.
 
-![Opções de contagem de instâncias e precisão de correspondência](media/Sensitivity-labels-instance-count-match-accuracy.png)
+![Opções de contagem de instâncias e precisão de correspondência](../media/Sensitivity-labels-instance-count-match-accuracy.png)
 
 Depois de escolher os tipos de informações confidenciais, você pode refinar sua condição alterando a contagem de instâncias ou a precisão da correspondência. Para mais informações, confira [Ajustar as regras para torná-las mais fáceis ou mais difíceis de combinar](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
 
@@ -55,7 +55,7 @@ Além disso, você pode escolher se uma condição deve detectar todos os tipos 
 
 Quando um rótulo de confidencialidade é aplicado automaticamente, o usuário vê uma notificação no aplicativo do Office. Ele pode escolher **OK** ou ignorar a notificação.
 
-![Notificação informando que o documento tem um rótulo aplicado automaticamente](media/sensitivity-labels-msg-doc-was-auto-labeled.PNG)
+![Notificação informando que o documento tem um rótulo aplicado automaticamente](../media/sensitivity-labels-msg-doc-was-auto-labeled.PNG)
 
 ## <a name="recommend-that-the-user-apply-a-sensitivity-label"></a>Recomendar ao usuário que ele aplique um rótulo de confidencialidade
 
@@ -63,11 +63,11 @@ Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com ess
 
 Os rótulos recomendados têm suporte no Word, PowerPoint e Excel (e exigem que o cliente de rotulagem unificado da Proteção de Informações do Azure esteja instalado).
 
-![Opção para recomendar um rótulo de confidencialidade a usuários](media/Sensitivity-labels-Recommended-label-option.png)
+![Opção para recomendar um rótulo de confidencialidade a usuários](../media/Sensitivity-labels-Recommended-label-option.png)
 
 Veja o exemplo de um aviso ao configurar uma condição para aplicar um rótulo como uma ação recomendada, com uma dica de política personalizada. Você poderá escolher o texto que será exibido na dica de política.
 
-![Aviso para aplicar um rótulo recomendado](media/Sensitivity-label-Prompt-for-required-label.png)
+![Aviso para aplicar um rótulo recomendado](../media/Sensitivity-label-Prompt-for-required-label.png)
 
 ## <a name="how-automatic-or-recommended-labels-are-applied"></a>Como aplicar rótulos automáticos ou recomendados
 

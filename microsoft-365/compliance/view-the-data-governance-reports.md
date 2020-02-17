@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os relatórios de governança de dados no Centro de Conformidade e Segurança do Office 365, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
-ms.openlocfilehash: b07daf73cf1fca50f4d9831dfe6d96a59df928d0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4236f76a651550504bfcb46057517077704d4b2f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068780"
 ---
 # <a name="view-the-data-governance-reports"></a>Exibir os relatórios de governança de dados
 
@@ -38,10 +38,10 @@ Todos esses relatórios mostram conteúdo rotulado do Exchange, SharePoint e One
   
 Você pode encontrar esses relatórios no Centro de Conformidade &amp; Segurança \> **Governança de Informações** \> **Painel**.
   
-![Gráfico mostrando tendências de rótulo nos últimos 90 dias](media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
+![Gráfico mostrando tendências de rótulo nos últimos 90 dias](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
 Você pode filtrar os relatórios de governança de dados por data (até 90 dias) e o local (Exchange, SharePoint e OneDrive for Business). Os dados mais recentes podem levar até 24 horas para aparecer nos relatórios.
   
-![Filtros para relatórios de governança de dados](media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
+![Filtros para relatórios de governança de dados](../media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
   
 

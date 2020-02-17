@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: 'Resumo: Crie e configure sites de equipe do SharePoint Online para vários níveis de proteção de informações.'
-ms.openlocfilehash: 1f67dd1956059162902aefdb194e5e514d063778
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 1827c4a19cfd31a236dfbd58e454c610cae14477
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075501"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Implantar sites do SharePoint Online para três camadas de proteção
 
@@ -41,7 +41,7 @@ Para criar um site de equipe do SharePoint Online de linha de base com permissõ
 
 Esta é a configuração resultante.
   
-![Proteção de nível de linha de base para um site de equipe do SharePoint Online público.](media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
+![Proteção de nível de linha de base para um site de equipe do SharePoint Online público.](../media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
   
 ### <a name="private"></a>Privado
 
@@ -49,7 +49,7 @@ Para criar um site de equipe do SharePoint Online de linha de base com permissõ
   
 Esta é a configuração resultante.
   
-![Proteção de nível de linha de base para um site de equipe do SharePoint Online privado.](media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
+![Proteção de nível de linha de base para um site de equipe do SharePoint Online privado.](../media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
   
 ## <a name="sensitive-sharepoint-online-team-sites"></a>Sites confidenciais de equipe do SharePoint Online
 
@@ -70,7 +70,7 @@ Os resultados dessas configurações de permissão são:
 
 Esta é a configuração resultante.
   
-![Proteção de nível confidencial para um site de equipe isolado do SharePoint Online.](media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
+![Proteção de nível confidencial para um site de equipe isolado do SharePoint Online.](../media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
   
 Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.
   
@@ -94,7 +94,7 @@ Os resultados dessas configurações de permissão são:
 
 Esta é a configuração resultante.
   
-![Proteção com alto nível de confidencialidade para um site de equipe isolado do SharePoint Online.](media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
+![Proteção com alto nível de confidencialidade para um site de equipe isolado do SharePoint Online.](../media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
   
 Os membros do site, por meio da associação de grupo em um dos grupos de acesso, agora podem colaborar com segurança nos recursos do site.
   

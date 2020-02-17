@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: 36482ea4a6bb9fb932d72b76dff5f0647d467a9b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 87bed90f4c9bf27eb960a2018b6a641ff3e06993
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081634"
 ---
 # <a name="overview-of-records"></a>Visão geral de registros
 
@@ -62,7 +62,7 @@ Lembre-se do seguinte sobre os registros:
 
     Se um usuário tentar excluir um registro no SharePoint, verá um erro informando que o item não foi excluído e permanecerá na biblioteca.
 
-    ![Mensagem informando que o item não foi excluído do SharePoint](media/d0020726-1593-4a96-b07c-89b275e75c49.png)
+    ![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
     Se um usuário tentar excluir um registro no OneDrive, o item é movido para a biblioteca de Retenção para Preservação, conforme descrito em [Como funciona a política de retenção com conteúdo in-loco](retention-policies.md#content-in-onedrive-accounts-and-sharepoint-sites).
 
@@ -76,7 +76,7 @@ Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de r
 
 2. Na página **Configurações de rótulo** no Assistente, escolha a opção para definir o rótulo de retenção para declarar o conteúdo como um registro.<br/>
 
-   ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](media/recordversioning6.png)
+   ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](../media/recordversioning6.png)
 
 3. [Publicar](labels.md#how-retention-labels-work-with-retention-label-policies) ou [aplicar automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) o rótulo de retenção aos sites do SharePoint e/ou contas do OneDrive.
 
@@ -91,7 +91,7 @@ Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio 
 Veja aqui como fica quando um rótulo de registro é aplicado a um documento em um site do SharePoint ou em uma conta do OneDrive.
 <br/><br/>
 
-![Painel de detalhes do documento marcado como um registro](media/recordversioning7.png)
+![Painel de detalhes do documento marcado como um registro](../media/recordversioning7.png)
 
 ## <a name="record-versioning"></a>Controle de versão do registro
 
@@ -108,7 +108,7 @@ Para usar o controle de versão do registro, a primeira etapa é usar o centro d
 O controle de versão do registro está disponível automaticamente para qualquer documento que tenha um rótulo de retenção que declare o item como um registro. Quando um usuário exibe as propriedades do documento através do painel de detalhes, eles alternam o **Status do registro** de **Bloqueado** para **Desbloqueado**. Esse único clique cria um registro na pasta Registros na biblioteca de Retenção para Preservação, onde reside pelo restante do período de retenção. Enquanto o documento estiver desbloqueado, qualquer usuário com permissões poderá editar o arquivo. No entanto, os usuários não podem excluir o arquivo, porque ele é considerado um registro declarado. Depois de fazer as alterações necessárias, o usuário poderá alternar o **Status do registro** de **Desbloqueado** para **Bloqueado**, para que o documento seja novamente declarado um registro e não possa ser editado.
 <br/><br/>
 
-![Propriedade do status do registro no documento marcado como um registro](media/recordversioning8.png)
+![Propriedade do status do registro no documento marcado como um registro](../media/recordversioning8.png)
 
 > [!NOTE]
 > O controle de versão do registro requer uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissão para editar o conteúdo que foi declarado como um registro em um site do SharePoint ou em uma conta do OneDrive. Os usuários que têm acesso somente leitura não precisam desta licença.
@@ -118,7 +118,7 @@ O controle de versão do registro está disponível automaticamente para qualque
 Depois que um rótulo de registro é atribuído a um documento, qualquer usuário no grupo Membros padrão (o nível de permissão da Contribuição) poderá desbloquear um registro ou bloquear um registro desbloqueado.
 <br/><br/>
 
-![O status do registro mostra que o documento de registro está desbloqueado](media/recordversioning9.png)
+![O status do registro mostra que o documento de registro está desbloqueado](../media/recordversioning9.png)
 
 Quando um usuário desbloqueia um registro, as seguintes ações ocorrem:
 
@@ -139,7 +139,7 @@ Quando um usuário bloqueia um registro, o documento original não poderá ser e
 Sempre que um usuário desbloqueia um registro, a versão mais recente é copiada para a pasta Registros na biblioteca de Retenção para Preservação, e essa versão contém o valor de **Registro** no campo **Comentários** do histórico da versão.
 <br/><br/>
 
-![Registro mostrado na biblioteca de Retenção para Preservação](media/recordversioning10.png)
+![Registro mostrado na biblioteca de Retenção para Preservação](../media/recordversioning10.png)
 
 Para exibir o histórico da versão, escolha um documento na biblioteca de documentos e clique em **Histórico da Versão** no menu do item.
 
@@ -148,11 +148,11 @@ Para exibir o histórico da versão, escolha um documento na biblioteca de docum
 Os registros são armazenados na pasta Registros na biblioteca de Retenção para Preservação no site de nível superior do conjunto de sites. Na barra de navegação à esquerda no site de nível superior, escolha **Conteúdos do site** \> **Biblioteca de Retenção para Preservação**.
 <br/><br/>
 
-![Biblioteca de Retenção para Preservação](media/recordversioning11.png)
+![Biblioteca de Retenção para Preservação](../media/recordversioning11.png)
 
 <br/><br/>
 
-![A pasta Registros na biblioteca de Retenção para Preservação](media/recordversioning12.png)
+![A pasta Registros na biblioteca de Retenção para Preservação](../media/recordversioning12.png)
 
 A biblioteca de Retenção para Preservação está visível somente para administradores de conjuntos de sites. Além disso, a biblioteca de Retenção para Preservação não existe por padrão. Ela é criada apenas quando o conteúdo sujeito a um rótulo ou política de retenção é excluído pela primeira vez do conjunto de sites.
 
@@ -161,6 +161,6 @@ A biblioteca de Retenção para Preservação está visível somente para admini
 As ações de bloqueio e desbloqueio de registros são registradas no log de auditoria do Office 365. Você pode pesquisar pelas atividades específicas **Status do registro alterado para bloqueado** e **Status do registro alterado para desbloqueado**, que estão localizadas na seção **Atividades de arquivo e página** na lista suspensa de **Atividades** na página de **Pesquisa de log de auditoria** no centro de conformidade e segurança.
 <br/><br/>
 
-![Pesquisar o log de auditoria para eventos de controle de versão do registro](media/recordversioning13.png)
+![Pesquisar o log de auditoria para eventos de controle de versão do registro](../media/recordversioning13.png)
 
 Para obter mais informações sobre a pesquisa desses eventos, confira a seção "Atividades de arquivo e página" em [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).

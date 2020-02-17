@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match.
-ms.openlocfilehash: 03af99b6e3a156b3d0e14bcadb75911253c837e3
-ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
+ms.openlocfilehash: 044801416c7db4ddec8936a496862c432a63acde
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836721"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077589"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -38,7 +38,7 @@ Mas e se você quiser um tipo personalizado de informações confidenciais que u
 - lidar com as informações confidenciais com mais segurança; e
 - ser usado com vários serviços de nuvem da Microsoft.
 
-![Classificação baseada em EDM](media/EDMClassification.png)
+![Classificação baseada em EDM](../media/EDMClassification.png)
 
 A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente ou semanalmente, e pode conter até 10 milhões linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou políticas de arquivo do [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/data-protection-policies).
 
@@ -473,7 +473,7 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 9. Na seção **Nome** , especifique um nome e uma descrição para a regra.
 
-10. Na seção **Condições** , na lista **Adicionar uma condição** , escolha **Conteúdo contém tipo confidencial**.<br/>![Conteúdo tem tipos de informações confidenciais](media/edm-dlp-newrule-conditions.png)<br/>
+10. Na seção **Condições** , na lista **Adicionar uma condição** , escolha **Conteúdo contém tipo confidencial**.<br/>![Conteúdo tem tipos de informações confidenciais](../media/edm-dlp-newrule-conditions.png)<br/>
 
 11. Pesquise o tipo de informação confidencial que você criou ao configurar o pacote de regras e, em seguida, escolha **+ Adicionar**.  
     Em seguida, escolha **Concluído**.

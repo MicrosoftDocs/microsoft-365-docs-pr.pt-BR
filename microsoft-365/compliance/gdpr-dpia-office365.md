@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4143377ccff499f28dbdd1f74a1886060aa426ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0216cceb5f246104ec07f587a0de5aee51457821
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073348"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Office 365 
 

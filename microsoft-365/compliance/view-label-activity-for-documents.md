@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com o Explorador de Atividade de Rótulo no Centro de Conformidade e Segurança do Office 365, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
-ms.openlocfilehash: eebe1938195740565f064bbac20608255aa5ef73
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f1bb6f7a79759a9b2d36b5af334ced89e5b2b28a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068862"
 ---
 # <a name="view-label-activity-for-documents"></a>Exibir a atividade de rótulos de documentos
 
@@ -44,7 +44,7 @@ Você pode encontrar o Explorador de Atividade de Rótulo no Centro de Conformid
   
 Observe que no Gerenciador de Atividade de Rótulo exige uma assinatura do Office 365 Enterprise E5.
   
-![Explorador de Atividade de Rótulo](media/671ca0cd-1457-40b4-9917-b663360afd95.png)
+![Explorador de Atividade de Rótulo](../media/671ca0cd-1457-40b4-9917-b663360afd95.png)
   
 ## <a name="view-label-activities-for-files-or-folders"></a>Exibir atividades de rótulo para arquivos ou pastas
 
@@ -52,7 +52,7 @@ Na parte superior do Gerenciador de Atividade de Rótulo, você pode optar por e
   
 Talvez você queira ver a atividade do rótulo para pastas porque, se rotular uma pasta, todos os arquivos nessa pasta também recebem esse rótulo (exceto os arquivos que tiveram um rótulo explicitamente aplicado a eles). Portanto, rotular pastas pode afetar vários arquivos. Para saber mais, confira [Aplicar um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do SharePoint](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
   
-![Menu suspenso mostrando as atividades do rótulo para arquivos e pastas](media/11030584-f52d-49eb-86f3-7ead16a3b704.png)
+![Menu suspenso mostrando as atividades do rótulo para arquivos e pastas](../media/11030584-f52d-49eb-86f3-7ead16a3b704.png)
   
 ### <a name="label-activities"></a>Atividades do rótulo
 
@@ -62,12 +62,12 @@ Talvez você queira ver a atividade do rótulo para pastas porque, se rotular um
 
  As **Alterações do rótulo** incluem as ações de possivelmente perigosas de **remover** ou **alterar** um rótulo. Você pode usar esse modo de exibição para ver rapidamente essas ações arriscadas e o usuário as que executou. Na lista atividades abaixo do gráfico, selecione um arquivo e, em seguida, clique em um link para esse arquivo no painel de detalhes à direita. 
   
-![Painel de detalhes para atividade de rótulos](media/eb580fd4-b5be-4fda-9ba5-c1256777310d.png)
+![Painel de detalhes para atividade de rótulos](../media/eb580fd4-b5be-4fda-9ba5-c1256777310d.png)
   
 ## <a name="filter-label-activity"></a>Filtrar atividade do rótulo
 
 Você pode filtrar rapidamente os dados para ver todas as atividades de rótulo para um rótulo, arquivo ou usuário específico. Você também pode filtrar a atividade de rótulo por local (SharePoint ou OneDrive for Business) e se o rótulo foi aplicado manual ou automaticamente.
   
-![Filtros para atividade do rótulo](media/9de92985-120f-48b4-96a7-ef7ec8a71ff0.png)
+![Filtros para atividade do rótulo](../media/9de92985-120f-48b4-96a7-ef7ec8a71ff0.png)
   
 

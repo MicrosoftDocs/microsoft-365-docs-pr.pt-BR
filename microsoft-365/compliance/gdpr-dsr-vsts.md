@@ -17,12 +17,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: a803dfd8d917ff0c2753b5ee87d9d619bc2f6222
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ae98f6e396bdca0f1f1a4d6d360cf062878ba73
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073268"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure DevOps Services para o RGPD e CCPA
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informações confidenciais personalizado para DLP no Centro de Conformidade e Segurança.
-ms.openlocfilehash: eba95bdb0bf442e143a3f7f3b701e8f46d641655
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 05f43149485bb368f1082180031913293be6d8e7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078159"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Crie um tipo de informações confidenciais personalizado no PowerShell do Centro de Conformidade e Segurança
 
@@ -135,7 +135,7 @@ Uma regra define uma ou mais entidades (tipos de informações confidenciais) e 
 
 Aqui está o cenário mais simples. Você quer que sua política DLP identifique conteúdo que inclua a ID de funcionário da sua organização, com o formato de um número de nove dígitos. Assim, o padrão faz referência a uma expressão regular contida na regra que identifica números de nove dígitos. Qualquer conteúdo que contiver um número de nove dígitos corresponderá a esse padrão.
   
-![Diagrama de entidade com um padrão](media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
+![Diagrama de entidade com um padrão](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
   
 No entanto, embora seja simples, esse padrão poderá identificar muitos falsos positivos combinando conteúdo que contém qualquer número de nove dígitos que não seja necessariamente uma ID de funcionário.
   
@@ -145,7 +145,7 @@ Por esse motivo, é mais comum definir uma entidade usando mais de um padrão, e
   
 Por exemplo, para aumentar as chances de identificar o conteúdo com uma ID de funcionário, você poderá definir outro padrão que também identifica a data de contratação ou definir outro padrão que identifica a data de contratação e uma palavra-chave (como "ID do funcionário"), além do número de nove dígitos.
   
-![Diagrama de entidade com vários padrões](media/c8dc2c9d-00c6-4ebc-889a-53b41a90024a.png)
+![Diagrama de entidade com vários padrões](../media/c8dc2c9d-00c6-4ebc-889a-53b41a90024a.png)
   
 Observe alguns aspectos importantes dessa estrutura:
   
@@ -162,7 +162,7 @@ Uma entidade é um tipo de informação confidencial, como um número de cartão
   
 Em seguida, gere um GUID para a sua entidade. Há várias maneiras de gerar GUIDs, mas você pode fazer isso facilmente no PowerShell digitando [guid]::NewGuid(). Mais tarde, você também adicionará a GUID de entidade à seção de cadeias de caracteres localizadas.
   
-![Marcação XML mostrando os elementos Rules e Entity](media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
+![Marcação XML mostrando os elementos Rules e Entity](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
 ## <a name="what-pattern-do-you-want-to-match-pattern-element-idmatch-element-regex-element"></a>Que padrão você deseja corresponder? [elemento Pattern, elemento IdMatch, elemento Regex]
 
@@ -170,11 +170,11 @@ O padrão contém a lista do que o tipo de informação confidencial está procu
   
 O que todos os padrões abaixo têm em comum é que eles fazem referência à mesma expressão regular, que procura um número de nove dígitos (\d{9}) delimitado por espaço em branco (\s)... (\s). Essa expressão regular é referenciada pelo elemento IdMatch e é o requisito comum de todos os padrões que procuram a entidade ID do funcionário. IdMatch é o identificador que o padrão está tentando corresponder, como número de cartão de crédito ou ID do funcionário ou número da previdência social. Um elemento Pattern deve ter exatamente um elemento IdMatch.
   
-![Marcação XML mostrando vários elementos Pattern fazendo referência a um único elemento Regex](media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
+![Marcação XML mostrando vários elementos Pattern fazendo referência a um único elemento Regex](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
   
 Quando satisfeito, um padrão retorna uma contagem e um nível de confiança, que você pode usar nas condições da sua política DLP. Quando você adiciona uma condição para detectar um tipo de informação confidencial a uma política DLP, você pode editar a contagem e o nível de confiança como mostrado aqui. O nível de confiança (também chamado de precisão de correspondência) é explicado mais adiante neste tópico.
   
-![Contagem de instâncias e opções de precisão de correspondência](media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
+![Contagem de instâncias e opções de precisão de correspondência](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
 Ao criar sua expressão regular, lembre-se de que há possíveis problemas a serem considerados. Por exemplo, se você escrever e carregar uma expressão regular que identifica conteúdo demais, isso poderá afetar o desempenho. Para saber mais sobre esses possíveis problemas, confira a seção posterior [Possíveis problemas de validação a serem considerados](#potential-validation-issues-to-be-aware-of).
   
@@ -186,7 +186,7 @@ Um padrão pode incluir vários elementos Match; eles podem ser incluídos diret
   
 Você pode usar o atributo opcional minCount para especificar quantas instâncias de uma correspondência precisam ser encontradas para cada um dos elementos Match. Por exemplo, você pode especificar que um padrão apenas será satisfeito quando pelo menos duas palavras-chave de uma lista de palavra-chave forem encontradas.
   
-![Marcação XML mostrando o elemento Match com o atributo minOccurs](media/607f6b5e-2c7d-43a5-a131-a649f122e15a.png)
+![Marcação XML mostrando o elemento Match com o atributo minOccurs](../media/607f6b5e-2c7d-43a5-a131-a649f122e15a.png)
   
 ### <a name="keywords-keyword-group-and-term-elements-matchstyle-and-casesensitive-attributes"></a>Palavras-chave [elementos Keyword, Group e Term, atributos matchStyle e caseSensitive]
 
@@ -200,7 +200,7 @@ Palavras-chave são incluídas como uma lista de elementos Term em um elemento G
     
 Por fim, você pode usar o atributo caseSensitive do elemento Term para especificar que o conteúdo deve corresponder à palavra-chave exatamente, incluindo letras minúsculas e maiúsculas.
   
-![Marcação XML mostrando elementos Match fazendo referência a palavras-chave](media/e729ba27-dec6-46f4-9242-584c6c12fd85.png)
+![Marcação XML mostrando elementos Match fazendo referência a palavras-chave](../media/e729ba27-dec6-46f4-9242-584c6c12fd85.png)
   
 ### <a name="regular-expressions-regex-element"></a>Expressões regulares [elemento Regex]
 
@@ -214,7 +214,7 @@ Por exemplo, um crachá de ID do funcionário tem uma data de contratação; por
   
 Para saber mais, confira [O que as funções DLP procuram](what-the-dlp-functions-look-for.md).
   
-![Marcação XML mostrando elementos Match fazendo referência a funções internas](media/dac6eae3-9c52-4537-b984-f9f127cc9c33.png)
+![Marcação XML mostrando elementos Match fazendo referência a funções internas](../media/dac6eae3-9c52-4537-b984-f9f127cc9c33.png)
   
 ## <a name="different-combinations-of-evidence-any-element-minmatches-and-maxmatches-attributes"></a>Diferentes combinações de evidências [elemento Any, atributos minMatches e maxMatches]
 
@@ -276,15 +276,15 @@ Neste exemplo, um padrão é definido para revisão salarial usando pelo menos t
 
 O seu tipo de informação confidencial está procurando um padrão que represente uma ID de funcionário e, como parte desse padrão, ele também está à procura de evidências comprobatórias, como uma palavra-chave como "ID". Faz sentido que, quanto mais próxima essa evidência estiver, mais provavelmente o padrão será uma ID de funcionário real. Você pode determinar a proximidade outras evidências do padrão com a entidade usando o atributo necessário patternsProximity do elemento Entity.
   
-![Marcação XML mostrando o atributo patternsProximity](media/e97eb7dc-b897-4e11-9325-91c742d9839b.png)
+![Marcação XML mostrando o atributo patternsProximity](../media/e97eb7dc-b897-4e11-9325-91c742d9839b.png)
   
 Para cada padrão na entidade, o valor do atributo patternsProximity define a distância (em caracteres Unicode) do local de IdMatch para todas as outras correspondências especificadas para esse padrão. A janela de proximidade é ancorada pela localização de IdMatch e se estende à esquerda e à direita de IdMatch.
   
-![Janela de diagrama de proximidade](media/b593dfd1-5eef-4d79-8726-a28923f7c31e.png)
+![Janela de diagrama de proximidade](../media/b593dfd1-5eef-4d79-8726-a28923f7c31e.png)
   
 O exemplo abaixo ilustra como a janela de proximidade afeta a correspondência de padrões em que o elemento IdMatch para a entidade personalizada ID do funcionário exige pelo menos uma correspondência comprobatória da palavra-chave ou data. Apenas ID1 tem correspondência porque, para ID2 e ID3, nenhuma ou apenas evidência comprobatória parcial foi localizada dentro da janela de proximidade.
   
-![Diagrama da janela de proximidade e evidências comprobatórias](media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
+![Diagrama da janela de proximidade e evidências comprobatórias](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
   
 Observe que, para email, o corpo da mensagem e cada anexo são tratados como itens separados. Isso significa que a janela de proximidade não se estende para além do final de cada um desses itens. Para cada item (anexo ou corpo), o idMatch e as evidências comprobatórias precisam residir nesse item.
   
@@ -294,7 +294,7 @@ Quanto mais evidências um padrão exigir, mais confiança você terá que uma e
   
 O elemento Pattern tem um atributo confidenceLevel obrigatório. Você pode pensar no valor de confidenceLevel (um inteiro entre 1 e 100) como uma ID exclusiva para cada padrão em uma entidade; os padrões em uma entidade devem ter níveis de confiança diferentes que você atribui. O valor preciso do inteiro não importa: basta escolher números que façam sentido para sua equipe de conformidade. Depois de carregar seu tipo personalizado de informações confidenciais e criar uma política DLP, você poderá fazer referência a esses níveis de confiança nas condições das regras que você criar.
   
-![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
+![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
 Além do atributo confidenceLevel para cada Pattern, a Entity tem um atributo recommendedConfidence, o atributo de confiança recomendada pode ser visto como o nível de confiança padrão para a regra. Quando você cria uma regra em uma política DLP, se você não especificar um nível de confiança para a regra usar, ela será correspondida com base no nível de confiança recomendado para a entidade.
   
@@ -302,11 +302,11 @@ Além do atributo confidenceLevel para cada Pattern, a Entity tem um atributo re
 
 Se a sua equipe de conformidade usa o Centro de Conformidade e Segurança do Office 365 para criar políticas DLP em localidades e idiomas diferentes, você pode fornecer versões localizadas do nome e da descrição do seu tipo personalizado de informações confidenciais. Quando sua equipe de conformidade usa o Office 365 em um idioma compatível, ela pode ver o nome localizado na interface do usuário.
   
-![Contagem de instâncias e opções de precisão de correspondência](media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
+![Contagem de instâncias e opções de precisão de correspondência](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
 O elemento Rules deve conter um elemento LocalizedStrings, que contém um elemento Resource que faz referência à GUID da sua entidade personalizada. Por sua vez, cada elemento Resource contém um ou mais elementos Name e Description, cada um utilizando o atributo langcode para fornecer uma cadeia de caracteres localizada para um idioma específico.
   
-![Marcação XML mostrando o conteúdo do elemento LocalizedStrings](media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
+![Marcação XML mostrando o conteúdo do elemento LocalizedStrings](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
   
 Observe que você utiliza cadeias de caracteres localizadas apenas para o modo como o seu tipo personalizado de informações confidenciais é exibido na interface de usuário do Centro de Conformidade e Segurança. Não é possível usar cadeias de caracteres localizadas para fornecer diferentes versões localizadas de uma lista de palavra-chave ou expressão regular.
   
@@ -342,7 +342,7 @@ O elemento Version também é importante. Ao carregar seu pacote de regras pela 
 
 Ao concluir, seu elemento RulePack deve ter esta aparência.
   
-![Marcação XML mostrando o elementos RulePack](media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
+![Marcação XML mostrando o elementos RulePack](../media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
   
 ## <a name="changes-for-exchange-online"></a>Mudanças para o Exchange Online
 

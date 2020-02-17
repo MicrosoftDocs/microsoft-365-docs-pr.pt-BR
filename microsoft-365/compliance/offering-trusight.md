@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 651a4b1b098afd996da92c9026a8be8f748e686b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c6f175a140b3744e4bf47dff7b542414c659c4fe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071208"
 ---
 # <a name="trusight"></a>TruSight
 
