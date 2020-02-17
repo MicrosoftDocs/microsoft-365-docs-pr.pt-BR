@@ -50,9 +50,9 @@ Use o valor apropriado na tabela abaixo ao configurar a política de gerenciamen
 | Nível | Dados coletados | Valor |
 |:--- |:--- |:--- |
 | Segurança | Somente dados de segurança. | ,0 |
-| Básica | Dados de segurança e dados básicos de sistema e de qualidade. | 1  |
-| Metarquivo | Dados de segurança, dados básicos de sistema e de qualidade, e ideias aprimoradas e dados avançados de confiabilidade. | 2  |
-| Completo | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3  |
+| Básica | Dados de segurança e dados básicos de sistema e de qualidade. | 1 |
+| Metarquivo | Dados de segurança, dados básicos de sistema e de qualidade, e ideias aprimoradas e dados avançados de confiabilidade. | duas |
+| Completo | Dados de segurança, dados básicos de sistema e de qualidade, informações aprimoradas e dados de confiabilidade avançados e dados de diagnóstico completo. | 3D |
 
 Você pode habilitar os dados de diagnóstico através de qualquer um destes métodos:
 
