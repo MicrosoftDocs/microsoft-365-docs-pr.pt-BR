@@ -1,6 +1,8 @@
 ---
 title: Capacitar funcionários remotos
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/24/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Configure a infraestrutura e os recursos de segurança que permitem que seus funcionários trabalhem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 2544820b577b81062550a8c0a84513f2a8c28668
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: b86071b7e5a6101c328b43177e965856f74995d5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831962"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067691"
 ---
 # <a name="empower-remote-workers"></a>Capacitar funcionários remotos
 
@@ -70,9 +72,9 @@ Para atender a esses critérios para funcionários remotos, use os seguintes rec
 
 As fases a seguir o ajudarão a implantar o recurso do Microsoft 365 Enterprise para permitir o acesso remoto e impulsionar a adoção de funcionários remotos. Se você já tiver implantado os elementos dessas fases, certifique-se de que eles atendam aos requisitos descritos antes de passar para o próximo elemento.
 
-<a name="poster"></a>Para ver um resumo de uma página desse cenário, consulte o pôster [Capacitar funcionários remotos](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
+<a name="poster"></a>Para ver um resumo de uma página desse cenário, consulte o pôster [Capacitar funcionários remotos](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
 
-[![Pôster Capacitar funcionários remotos](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+[![Pôster Capacitar funcionários remotos](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
 
 Você também pode baixar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) ou [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) e imprimir em papel carta, oficial ou tabloide (11 x 17).
 
@@ -94,7 +96,7 @@ Para a [Fase 2: identidade](identity-infrastructure.md), implante o seguinte par
 
 Esta é a configuração resultante com os elementos de identidade realçados.
 
-![Elementos de identidade para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-id-phase.png)
+![Elementos de identidade para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-id-phase.png)
  
 Para a [Fase 3: Windows 10 Enterprise](windows10-infrastructure.md), implante:
 
@@ -103,13 +105,13 @@ Para a [Fase 3: Windows 10 Enterprise](windows10-infrastructure.md), implante:
 
 Esta é a configuração resultante com dispositivos do Windows 10 Enterprise.
 
-![Elementos do Windows 10 Enterprise para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
+![Elementos do Windows 10 Enterprise para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
 Para a [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md), implante a infraestrutura para instalar o Office 365 ProPlus ou atualizar seu pacote do Office instalado no momento, como o Office 2010 ou o Office 2013, para o Office 365 ProPlus nos dispositivos da sua organização. Isso dará aos seus usuários a melhor segurança e experiências colaborativas.
 
 Esta é a configuração que resulta da instalação do Office 365 ProPlus nos dispositivos.
 
-![Elementos do Office 365 ProPlus para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![Elementos do Office 365 ProPlus para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 Para a [Fase 5: gerenciamento de dispositivos móveis](mobility-infrastructure.md), implante o gerenciamento de dispositivos e aplicativos do Intune para:
 
@@ -119,7 +121,7 @@ Para a [Fase 5: gerenciamento de dispositivos móveis](mobility-infrastructure.m
 
 Esta é a configuração resultante com as políticas e dispositivos registrados do Intune realçados.
 
-![Elementos de gerenciamento de dispositivos móveis para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
+![Elementos de gerenciamento de dispositivos móveis para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
  
 Para a [Fase 6: proteção de informações](infoprotect-infrastructure.md), crie e configure a proteção para seus ativos digitais com:
 
@@ -128,13 +130,13 @@ Para a [Fase 6: proteção de informações](infoprotect-infrastructure.md), cri
 
 Esta é a configuração resultante com políticas DLP e rótulos de confidencialidade realçados.
 
-![Elementos de proteção de informações para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
+![Elementos de proteção de informações para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
  
 Para acessar os aplicativos locais, você pode usar o [Proxy de Aplicativo do Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy), que requer um ambiente de identidade híbrido.
 
 Esta é a configuração resultante com os componentes de proxy de aplicativo realçados.
 
-![Elementos de proxy de aplicativo para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
+![Elementos de proxy de aplicativo para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
  
 ### <a name="step-2-workloads-for-remote-workers"></a>Etapa 2: cargas de trabalho para funcionários remotos
 
@@ -146,7 +148,7 @@ Para o [SharePoint e o OneDrive](sharepoint-online-onedrive-workload.md), implan
 
 Esta é a configuração resultante com as cargas de trabalho realçadas.
 
-![Cargas de trabalho do Microsoft 365 para funcionários remotos](./media/empower-people-to-work-remotely/remote-workers-workloads.png)
+![Cargas de trabalho do Microsoft 365 para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-workloads.png)
  
 ### <a name="deployment-results"></a>Resultados da implantação
 
@@ -165,11 +167,11 @@ Quando estiver offline (não conectado à Internet), seus funcionários remotos 
 
 Esta é a configuração resultante para funcionários remotos da sua organização se você usar a identidade híbrida.
 
-![Configuração final de uma organização com identidade híbrida](./media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
+![Configuração final de uma organização com identidade híbrida](../media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
  
 Esta é a configuração resultante para funcionários remotos sua organização, caso você use a identidade somente na nuvem.
 
-![Configuração final de uma organização com identidade somente na nuvem](./media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
+![Configuração final de uma organização com identidade somente na nuvem](../media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
 
 ## <a name="phase-2-drive-user-adoption-for-remote-workers"></a>Fase 2: orientar a adoção do usuário para funcionários remotos
 

@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: a645d00bd650cba06ca3751aa4fc3f48f9959e5b
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 6cf4d84b72e774f734f198b09285bba2c68bc4df
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957196"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086270"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -109,10 +109,10 @@ Para habilitar mais configurações personalizadas ou adicionar políticas perso
 
 6. Clique em **Salvar**. Um resumo das configurações de política aparecerá no painel direito.
 
-Não é possível desabilitar ou excluir a política padrão, e as políticas personalizadas sempre têm precedência sobre a política padrão. Nas políticas personalizadas, você pode marcar ou desmarcar as caixas de seleção na coluna **HABILITADO** para habilitá-las ou desabilitá-las. Por padrão, todas as políticas estão habilitadas. Para excluir uma política personalizada, selecione-a, clique em **Excluir** ![Ícone Excluir](../media/ITPro-EAC-DeleteIcon.gif), e então confirme que você deseja excluir a política.
+Não é possível desabilitar ou excluir a política padrão, e as políticas personalizadas sempre têm precedência sobre a política padrão. Nas políticas personalizadas, você pode marcar ou desmarcar as caixas de seleção na coluna **HABILITADO** para habilitá-las ou desabilitá-las. Por padrão, todas as políticas estão habilitadas. Para excluir uma política personalizada, selecione-a, clique em **Excluir** ![Ícone Excluir](../../media/ITPro-EAC-DeleteIcon.gif), e então confirme que você deseja excluir a política.
 
 > [!TIP]
-> Você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas clicando no ![Ícone de seta para cima](../media/ITPro-EAC-UpArrowIcon.gif) e ![Ícone de seta para baixo](../media/ITPro-EAC-DownArrowIcon.gif). A política que tem uma **PRIORIDADE** de **0** será executada primeiro, seguida por **1**, **2** e assim por diante.
+> Você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas clicando no ![Ícone de seta para cima](../../media/ITPro-EAC-UpArrowIcon.gif) e ![Ícone de seta para baixo](../../media/ITPro-EAC-DownArrowIcon.gif). A política que tem uma **PRIORIDADE** de **0** será executada primeiro, seguida por **1**, **2** e assim por diante.
 
 ## <a name="use-powershell-to-configure-spam-filter-policies"></a>Usar o PowerShell para configurar políticas de filtro de spam
 
@@ -150,18 +150,18 @@ As listas de permissões e bloqueios são configuradas como parte de uma políti
 
 1. Na seção **Listas de permissões**, você pode especificar as entradas, como remetentes ou domínios, que sempre serão entregues à caixa de entrada. Os emails dessas entradas não são processados pelo filtro de spam.
 
-   - Adicione remetentes confiáveis à Lista de permissões de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
+   - Adicione remetentes confiáveis à Lista de permissões de remetentes. Clique em **Editar**![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
 
-   - Adicione domínios confiáveis à Lista de permissões de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
+   - Adicione domínios confiáveis à Lista de permissões de domínios. Clique em **Editar**![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja permitir. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de permissões**.
 
    > [!CAUTION]
    > Você não deve listar os domínios aceitos (domínios que você possui) ou domínios comuns, como Microsoft.com, office.com, etc. a uma Lista de permissões. Isso permite aos fraudadores enviar emails sem restrições para sua organização.
 
 2. Na página **Listas de Bloqueios**, você pode especificar as entradas, como remetentes ou domínios, que sempre serão marcadas como spam. O serviço aplicará a ação de spam de alta confiança configurada nos emails que corresponderem a essas entradas.
 
-   - Adicione remetentes indesejados à lista de Bloqueios de remetentes. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
+   - Adicione remetentes indesejados à lista de Bloqueios de remetentes. Clique em **Editar**![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os endereços dos remetentes que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
 
-   - Adicione domínios indesejados à lista de Bloqueio de domínios. Clique em **Editar**![Ícone Adicionar](../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
+   - Adicione domínios indesejados à lista de Bloqueio de domínios. Clique em **Editar**![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif) e, na caixa de diálogo de seleção, adicione os domínios que deseja bloquear. Você pode separar várias entradas usando ponto-e-vírgula ou uma nova linha. Clique em **Salvar** para retornar à página **Listas de bloqueios**.
    
      > [!NOTE]
      > Na política de filtro de spam, você pode bloquear domínios inteiros ou remetentes específicos, mas não pode usar caracteres curinga (\*). 

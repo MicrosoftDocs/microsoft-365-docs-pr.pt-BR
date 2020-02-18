@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Tenha uma visão geral da Proteção de Informações do Office 365 para o GDPR. Saiba como descobrir, classificar, proteger e monitorar dados pessoais.
-ms.openlocfilehash: 079ff7b7dab099f289bbd0366bba00d5ecf55b80
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dbb420cce572b2e03260f9f5b1be63e65504276b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597858"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071150"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Visão geral da Proteção de Informações do Office 365 para o GDPR
 
@@ -47,7 +47,7 @@ A primeira etapa para estar em conformidade com o GDPR é avaliar se ele se apli
 
 A Pontuação de Conformidade fornece ferramentas para acompanhar, implementar e gerenciar os controles de auditoria para ajudar sua organização a estar em conformidade com vários padrões, incluindo o GDPR.
 
-![Use a Pontuação de Conformidade e o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](Media/Overview-image1.png)
+![Use a Pontuação de Conformidade e o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](../media/Overview-image1.png)
 
 Para saber mais, consulte os [pontuação de conformidade](compliance-score.md).
 
@@ -59,7 +59,7 @@ Descubra os dados pessoais em seu ambiente que estão sujeitos ao GDPR. Use a Pe
 
 - Otimizar os tipos de dados confidenciais e outras consultas para localizar todos os dados pessoais em seu ambiente.
 
-![Use a Pesquisa de Conteúdo e os tipos de informações confidenciais para encontrar dados pessoais](Media/Overview-image2.png)
+![Use a Pesquisa de Conteúdo e os tipos de informações confidenciais para encontrar dados pessoais](../media/Overview-image2.png)
 
 Os tipos de informações confidenciais definem como o processo automatizado reconhecerá os tipos de informações específicas, como os números de serviço de saúde e de cartões de crédito. Este artigo inclui um conjunto que você pode usar como ponto de partida. Vários outros tipos de informações confidenciais chegarão em breve para os dados pessoais de países da UE.
 
@@ -69,7 +69,7 @@ Para mais informações, confira [Pesquisar e encontrar dados pessoais](search-f
 
 Alguns dos recursos usados para a proteção de informações do Office 365 também podem ser usados para proteger dados confidenciais em outros aplicativos SaaS.
 
-![Classificar, proteger e monitorar dados pessoais](Media/Overview-image3.png)
+![Classificar, proteger e monitorar dados pessoais](../media/Overview-image3.png)
 
 Esta ilustração é descrita pelo restante desta seção (etapas 3 a 5).
 

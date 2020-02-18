@@ -1,5 +1,7 @@
 ---
 title: Proteção antifalsificação no Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTtracyp
 manager: dansimp
@@ -16,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: cb978dd39e9645b8179490d498713137ab79af46
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 007686f8d210124948a42b2c254fc58332cdd3de
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233892"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086995"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -41,13 +43,13 @@ As mensagens falsificadas têm duas implicações negativas para os usuários da
 
 Primeiro, uma mensagem falsificada pode induzir o usuário a clicar em um link e fornecer as credenciais, baixar malware ou responder a uma mensagem com conteúdo confidencial (essa última situação é conhecida como Comprometimento de Email Empresarial). Por exemplo, a seguir está uma mensagem de phishing com o remetente falsificado msoutlook94@service.outlook.com:
 
-![Mensagem de phishing se passando por service.outlook.com](../media/1a441f21-8ef7-41c7-90c0-847272dc5350.jpg)
+![Mensagem de phishing se passando por service.outlook.com](../../media/1a441f21-8ef7-41c7-90c0-847272dc5350.jpg)
 
 O exemplo acima não veio realmente de service.outlook.com. Em vez disso, foi falsificado pelo phisher para parecer que veio. Está tentando enganar um usuário para clicar no link na mensagem.
 
 O próximo exemplo está falsificando contoso.com:
 
-![Mensagem de phishing ‒ comprometimento de email empresarial](../media/da15adaa-708b-4e73-8165-482fc9182090.jpg)
+![Mensagem de phishing ‒ comprometimento de email empresarial](../../media/da15adaa-708b-4e73-8165-482fc9182090.jpg)
 
 A mensagem parece legítima, mas na verdade é uma falsificação. Essa mensagem de phishing é um tipo de Comprometimento de Email Empresarial, que é uma subcategoria de phishing.
 
@@ -55,7 +57,7 @@ A mensagem parece legítima, mas na verdade é uma falsificação. Essa mensagem
 
 Em segundo lugar, as mensagens falsificadas criam incerteza para os usuários que sabem da existência de mensagens de phishing, mas não conseguem distinguir entre uma mensagem real e uma falsificada. Por exemplo, a seguir há uma redefinição de senha real do endereço de email da conta de Segurança da Microsoft:
 
-![Redefinição de senha da Microsoft legítima](../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
+![Redefinição de senha da Microsoft legítima](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
 
 A mensagem acima veio da Microsoft, mas, ao mesmo tempo, os usuários estão acostumados a receber mensagens de phishing que podem enganá-los para clicar em um link e fornecer credenciais, baixar malware ou responder a uma mensagem com conteúdo confidencial. Como é difícil distinguir entre uma redefinição de senha real e uma falsa, muitos usuários ignoram essas mensagens, as relatam como spam ou desnecessariamente à Microsoft como tentativas de phishing perdidas.
 
@@ -63,7 +65,7 @@ Para impedir a falsificação, o setor de filtragem de email desenvolveu protoco
 
 No entanto, o problema é que os registros de autenticação de email são opcionais, não obrigatórios. Portanto, enquanto domínios com políticas de autenticação fortes, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação mais fracas ou nenhuma política, são alvos de falsificação. Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas de autenticação de emails fortes. Os 91% restantes podem ser falsificados por um phisher e, a menos que o filtro de email os detecte usando outra política, podem ser entregues a um usuário final e enganá-lo:
 
-![Políticas do DMARC de empresas da lista Fortune 500](../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
+![Políticas do DMARC de empresas da lista Fortune 500](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
 A proporção de pequenas e médias empresas que não fazem parte da lista Fortune 500 e que publicam políticas de autenticação de email fortes é menor, sendo ainda menor para domínios fora da América do Norte e da Europa Ocidental.
 
@@ -149,7 +151,7 @@ Isso ocorre quando o domínio de envio no endereço De: é um domínio externo �
 
 Em ambos os casos, a seguinte dica de segurança vermelha está marcada na mensagem ou há um equivalente que é personalizado para o idioma da caixa de correio do destinatário:
 
-![Dica de segurança vermelha ‒ detecção de fraudes](../media/a366156a-14e8-4c14-bfe5-2031b21936f8.jpg)
+![Dica de segurança vermelha ‒ detecção de fraudes](../../media/a366156a-14e8-4c14-bfe5-2031b21936f8.jpg)
 
 É apenas observando o endereço De: e sabendo qual é o email do destinatário ou inspecionando os cabeçalhos de email que você pode diferenciar entre falsificação dentro da organização e entre domínios.
 
@@ -221,7 +223,7 @@ To: receiver @ contoso.com
 
 No cliente de email (Outlook, Outlook na Web ou qualquer outro cliente de email), apenas o domínio De: é exibido, não o domínio no SPF ou DKIM. Isso pode induzir o usuário a pensar que a mensagem veio de fabrikam.com, quando na verdade, ela veio de maliciousDomain.com.
 
-![A mensagem foi autenticada, mas o domínio De: não está alinhado com o que foi aprovado no SPF ou no DKIM](../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
+![A mensagem foi autenticada, mas o domínio De: não está alinhado com o que foi aprovado no SPF ou no DKIM](../../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
 
 Por esse motivo, o Office 365 exige que o domínio no endereço De: se alinhe com o domínio na assinatura SPF ou DKIM e, se ele não se alinhar, que contenha alguns outros sinais internos que indiquem que a mensagem é legítima. Caso contrário, a mensagem será reprovada em compauth.
 
@@ -259,17 +261,17 @@ Há várias maneiras diferentes de falsificar uma mensagem (confira [Diferenciar
 
 Para criar ou atualizar suas configurações antifalsificação (entre domínios), navegue até as configurações Antiphishing \> Antifalsificação na guia Política do Gerenciamento de Ameaças \> no Centro de Conformidade &amp; Segurança. Se você nunca tiver criado uma configuração antiphishing, será necessário criar uma:
 
-![Antiphishing ‒ criar uma nova política](../media/9337ec91-270e-4fa7-9dfa-a51a2d1eb95e.jpg)
+![Antiphishing ‒ criar uma nova política](../../media/9337ec91-270e-4fa7-9dfa-a51a2d1eb95e.jpg)
 
 Se já tiver criado uma, você poderá selecioná-la para modificá-la:
 
-![Antiphishing ‒ modificar uma política existente](../media/75457a7c-882e-4984-80d1-21a12b42c53a.jpg)
+![Antiphishing ‒ modificar uma política existente](../../media/75457a7c-882e-4984-80d1-21a12b42c53a.jpg)
 
 Selecione a política que você acabou de criar e siga as etapas descritas em [Saiba mais sobre a falsificação de informações](learn-about-spoof-intelligence.md).
 
-![Habilitar ou desabilitar a antifalsificação](../media/c49e2147-c954-443c-9144-1cbd139e1166.jpg)
+![Habilitar ou desabilitar a antifalsificação](../../media/c49e2147-c954-443c-9144-1cbd139e1166.jpg)
 
-![Habilitar ou desabilitar dicas de segurança de antifalsificação](../media/eec7c407-31fc-4f73-8325-307d82d1fb53.jpg)
+![Habilitar ou desabilitar dicas de segurança de antifalsificação](../../media/eec7c407-31fc-4f73-8325-307d82d1fb53.jpg)
 
 Para criar uma nova política usando o PowerShell:
 
@@ -295,11 +297,11 @@ Set-AntiphishPolicy -Identity $name <fill in rest of parameters>
 
 Mais adiante em 2018,em vez de você ter que criar uma política padrão, ela será criada para você com escopo para todos os destinatários de sua organização. Assim, você não precisará especificá-la manualmente (as capturas de tela a seguir estão sujeitas a alterações antes da implementação final).
 
-![Política antiphishing padrão](../media/1f27a0bf-e202-4e12-bbac-24baf013c8f9.jpg)
+![Política antiphishing padrão](../../media/1f27a0bf-e202-4e12-bbac-24baf013c8f9.jpg)
 
 Diferentemente de uma política que você cria, não é possível excluir a política padrão, modificar sua prioridade ou escolher quais usuários, domínios ou grupos estão no escopo para ela.
 
-![Detalhes da política antiphishing padrão](../media/30c21ceb-df52-4c93-aa65-f44a55dc1009.jpg)
+![Detalhes da política antiphishing padrão](../../media/30c21ceb-df52-4c93-aa65-f44a55dc1009.jpg)
 
 Para configurar sua proteção padrão usando o PowerShell:
 
@@ -338,7 +340,7 @@ Para domínios externos, o usuário falsificado é o domínio no endereço De, e
 
 Para permitir que esse remetente envie emails não autenticados, altere **No** para **Yes**.
 
-![Configurar remetentes permitidos pela antifalsificação](../media/d4334921-d820-4334-8217-788279701e94.jpg)
+![Configurar remetentes permitidos pela antifalsificação](../../media/d4334921-d820-4334-8217-788279701e94.jpg)
 
 Você também pode usar o PowerShell para permitir que um remetente específico falsifique seu domínio:
 
@@ -347,13 +349,13 @@ $file = "C:\My Documents\Summary Spoofed Internal Domains and Senders.csv"
 Get-PhishFilterPolicy -Detailed -SpoofAllowBlockList -SpoofType External | Export-CSV $file
 ```
 
-![Obter remetentes falsificados do PowerShell](../media/0e27ffcf-a5db-4c43-a19b-fa62326d5118.jpg)
+![Obter remetentes falsificados do PowerShell](../../media/0e27ffcf-a5db-4c43-a19b-fa62326d5118.jpg)
 
 Na imagem anterior, foram adicionadas quebras de linha para ajustar a captura de tela. Normalmente, todos os valores apareceriam em uma única linha.
 
 Edite o arquivo, procure a linha que corresponde a outlook.com e bing.com e altere a entrada AllowedToSpoof de No para Yes:
 
-![Definir spoof allow como Yes no PowerShell](../media/62340452-62d3-4958-9ce9-afe5275a870d.jpg)
+![Definir spoof allow como Yes no PowerShell](../../media/62340452-62d3-4958-9ce9-afe5275a870d.jpg)
 
 Salve o arquivo e execute:
 
@@ -380,7 +382,7 @@ Embora inicialmente possa ser difícil enviar domínios para autenticação, com
 
 Depois que a política antifalsificação estiver habilitada, você poderá usar os recursos de resposta e investigação de ameaça para obter o número de mensagens marcadas como phishing. Para fazer isso, vá até o Centro de Conformidade &amp; Segurança, em Gerenciamento de Ameaças \> Explorer, defina a Exibição como Phish e agrupe por Domínio de Remetente ou Status de Proteção:
 
-![Exibir quantas mensagens estão marcadas como phishing](../media/de25009a-44d4-4c5f-94ba-9c75cd9c64b3.jpg)
+![Exibir quantas mensagens estão marcadas como phishing](../../media/de25009a-44d4-4c5f-94ba-9c75cd9c64b3.jpg)
 
 Você pode interagir com vários relatórios para ver quantas foram marcadas como phishing, inclusive mensagens marcadas como FALSAS. Para saber mais, confira [Introdução à resposta e investigação de ameaças do Office 365](office-365-ti.md).
 
@@ -388,7 +390,7 @@ Você ainda não pode separar as mensagens que foram marcadas devido à falsific
 
 A captura de tela a seguir é uma proposta da aparência que esses dados terão, mas eles poderão mudar quando forem lançados:
 
-![Exibir relatórios de phishing por tipo de detecção](../media/dd25d63f-152c-4c55-a07b-184ecda2de81.jpg)
+![Exibir relatórios de phishing por tipo de detecção](../../media/dd25d63f-152c-4c55-a07b-184ecda2de81.jpg)
 
 Para clientes não ATP e E5, esses relatórios estarão disponíveis mais tarde nos relatórios de TPS (Status de Proteção contra Ameaças), mas serão atrasados em pelo menos 24 horas. Essa página será atualizada à medida que eles forem integrados ao Centro de Conformidade &amp; Segurança.
 
@@ -398,9 +400,9 @@ Depois que o Office 365 atualizar suas configurações para permitir que você a
 
 No momento esse recurso está em desenvolvimento. À medida que mais detalhes forem definidos, essa página será atualizada com capturas de tela do Centro de Segurança e Conformidade e com exemplos do PowerShell.
 
-![Relatório "What If" para habilitar a antifalsificação](../media/fdd085ae-02c1-4327-a063-bfe9a32ff1eb.jpg)
+![Relatório "What If" para habilitar a antifalsificação](../../media/fdd085ae-02c1-4327-a063-bfe9a32ff1eb.jpg)
 
-![Possível experiência do usuário para permitir um remetente falsificado](../media/53f9f73e-fb01-47f3-9a6d-850c1aef5efe.jpg)
+![Possível experiência do usuário para permitir um remetente falsificado](../../media/53f9f73e-fb01-47f3-9a6d-850c1aef5efe.jpg)
 
 ### <a name="legitimate-scenarios-to-disable-anti-spoofing"></a>Cenários legítimos para desabilitar a antifalsificação
 
@@ -410,23 +412,23 @@ Por esse motivo, é melhor trabalhar com falsos positivos antifalsificação do 
 
 No entanto, há um cenário legítimo em que a antifalsificação deve ser desabilitada. É quando há produtos adicionais de filtragem de mensagens no roteamento de mensagens, e o Office 365 não é o primeiro salto no caminho de email:
 
-![O registro MX do cliente não aponta para o Office 365](../media/62127c16-cfb8-4880-9cad-3c12d827c67e.jpg)
+![O registro MX do cliente não aponta para o Office 365](../../media/62127c16-cfb8-4880-9cad-3c12d827c67e.jpg)
 
 O outro servidor pode ser um servidor de correio local do Exchange, um dispositivo de filtragem de email, como o Ironport, ou outro serviço hospedado na nuvem.
 
 Se o registro MX do domínio do destinatário não apontar para o Office 365, não será necessário desabilitar a antifalsificação porque o Office 365 procura o registro MX do domínio de recebimento e suprime a antifalsificação se ela aponta para outro serviço. Se você não sabe se seu domínio tem outro servidor diante dele, poderá usar um site como o MX Toolbox para pesquisar o registro MX. Ele poderá dizer algo como:
 
-![O registro indica que o domínio não aponta para o Office 365](../media/d868bb9f-3462-49aa-baea-9447a3ce4877.jpg)
+![O registro indica que o domínio não aponta para o Office 365](../../media/d868bb9f-3462-49aa-baea-9447a3ce4877.jpg)
 
 Esse domínio tem um registro MX que não aponta para o Office 365. Portanto, o Office 365 não aplicaria a imposição antifalsificação.
 
 No entanto, se o registro MX do domínio do destinatário *apontar* para o Office 365, mesmo que haja outro serviço diante do Office 365, você deverá desabilitar a antifalsificação. O exemplo mais comum é com o uso de uma reescrita de destinatário:
 
-![Diagrama de roteamento para reescrita do destinatário](../media/070d90d1-50a0-42e4-9fd3-920bc99a7cad.jpg)
+![Diagrama de roteamento para reescrita do destinatário](../../media/070d90d1-50a0-42e4-9fd3-920bc99a7cad.jpg)
 
 O registro MX do domínio contoso.com aponta para o servidor local, enquanto o registro MX do domínio @office365.contoso.net aponta para o Office 365 porque contém \*.protection.outlook.com ou \*.eo.outlook.com no registro MX:
 
-![O registro MX aponta para o Office 365. Portanto, provavelmente será necessária a reescrita do destinatário](../media/4101ad51-ef92-4907-b466-b41d14d344ca.jpg)
+![O registro MX aponta para o Office 365. Portanto, provavelmente será necessária a reescrita do destinatário](../../media/4101ad51-ef92-4907-b466-b41d14d344ca.jpg)
 
 Diferencie quando o registro MX de um domínio de destinatário não aponta para o Office 365 e quando ele foi submetido a uma reescrita de destinatário. É importante saber a diferença entre esses dois casos.
 
@@ -452,11 +454,11 @@ Se não contiver esses valores, isso indicará que o MX não aponta para o Offic
 
 Para esse exemplo específico, o seguinte item informa que contoso.com, o domínio que parece ser do destinatário, já que era o cabeçalho Para:, tem um registro MX que aponta para um servidor local:
 
-![O registro MX aponta para o servidor local](../media/2444144a-9a90-4319-96b2-d115041f669f.jpg)
+![O registro MX aponta para o servidor local](../../media/2444144a-9a90-4319-96b2-d115041f669f.jpg)
 
 No entanto, o destinatário real é office365.contoso.net, cujo registro MX aponta para o Office 365:
 
-![O MX aponta para o Office 365; deve ser executada a reescrita do destinatário](../media/10cf3245-9b50-475a-b655-d8a51f99d812.jpg)
+![O MX aponta para o Office 365; deve ser executada a reescrita do destinatário](../../media/10cf3245-9b50-475a-b655-d8a51f99d812.jpg)
 
 Portanto, essa mensagem provavelmente foi submetida à reescrita de destinatário.
 

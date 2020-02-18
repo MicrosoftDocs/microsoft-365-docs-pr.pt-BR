@@ -1,6 +1,8 @@
 ---
 title: Estratégias de implantação da infraestrutura de base do Microsoft 365 para empresas
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/24/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Conheça algumas maneiras de implantar as fases da infraestrutura de base do Microsoft 365 para empresas.
-ms.openlocfilehash: 354ce1a30b91f602049143dc0e93fe01629e6b04
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 765bba743485c13c65cd6377abe01f80f2df4c23
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801886"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067778"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 para empresas
 
@@ -51,7 +53,7 @@ O conjunto de usuários do lançamento piloto não é o mesmo que o do lançamen
 
 Este artigo usa o gráfico a seguir para representar essas definições: 
 
-![Os gráficos para mostrar as definições de distribuição piloto e de usuário](./media/deployment-strategies-microsoft-365-enterprise/definitions.png) 
+![Os gráficos para mostrar as definições de distribuição piloto e de usuário](../media/deployment-strategies-microsoft-365-enterprise/definitions.png) 
 
 O sombreamento do gráfico de porcentagem para os usuários indica o lançamento de 0% a 100% em sua organização, usando uma abordagem metódica ou estruturada como grupos, departamentos ou regiões.
 
@@ -76,7 +78,7 @@ Com uma implantação em série, você lança totalmente uma fase, permitindo qu
 
 Este gráfico de Gantt mostra uma implantação em série simplificada das etapas 2 a 6 da infraestrutura de base para o Microsoft 365 para empresas.
 
-![A implantação serial das fases 2-6 da infraestrutura de base](./media/deployment-strategies-microsoft-365-enterprise/serial.png) 
+![A implantação serial das fases 2-6 da infraestrutura de base](../media/deployment-strategies-microsoft-365-enterprise/serial.png) 
  
 Para simplificar a discussão e o exemplo, presume-se que cada fase e segmento de implantação de cada etapa duram o mesmo tempo.
 
@@ -110,7 +112,7 @@ A desvantagem dessa estratégia de implantação é que pode levar muito tempo p
 
 Para essa estratégia de implantação, o lançamento piloto da fase seguinte começa durante a última parte do lançamento para o usuário da fase atual. Esta é a implantação das etapas 2 a 6 quando o lançamento piloto ocorre enquanto o lançamento para o usuário da fase anterior está se encerrando.
 
-![A implantação paralela das fases 2-6 com distribuição de usuário não sobrepostas. ](./media/deployment-strategies-microsoft-365-enterprise/parallel1.png) 
+![A implantação paralela das fases 2-6 com distribuição de usuário não sobrepostas. ](../media/deployment-strategies-microsoft-365-enterprise/parallel1.png) 
  
 O resultado final é que o lançamento para o usuário da fase atual se encerra em sua organização antes de começar a seguinte. Os usuários que não fazem parte do lançamento piloto não lidam com os lançamentos de várias fases ao mesmo tempo, mas os lançamentos piloto acontecem em paralelo aos lançamentos para o usuário.
 
@@ -145,7 +147,7 @@ Para essa estratégia de implantação, inicie:
 
 Esta é uma comparação simplificada entre as diversas estratégias de implantação.
 
-![A implantação paralela das fases 2-6 com distribuição de usuário sobrepostas. ](./media/deployment-strategies-microsoft-365-enterprise/parallel2.png) 
+![A implantação paralela das fases 2-6 com distribuição de usuário sobrepostas. ](../media/deployment-strategies-microsoft-365-enterprise/parallel2.png) 
 
 O resultado final é que:
 
@@ -178,7 +180,7 @@ A vantagem dessa estratégia de implantação é que pode levar menos tempo para
 
 Para empresas menores com a capacidade de compactar as etapas 2 a 6 em um único segmento de implantação, a implantação resultante tem esta aparência:
  
-![Infraestrutura frontal e implantação da configuração de ponta a ponta](./media/deployment-strategies-microsoft-365-enterprise/up-front.png) 
+![Infraestrutura frontal e implantação da configuração de ponta a ponta](../media/deployment-strategies-microsoft-365-enterprise/up-front.png) 
 
 O departamento de TI configura a infraestrutura das fases 2 a 6 e faz o lançamento para os usuários piloto para verificar a funcionalidade de ponta a ponta. Por exemplo, os usuários piloto recebem todas essas funcionalidades ao mesmo tempo:
 

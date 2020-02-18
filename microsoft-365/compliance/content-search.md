@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365, grupos do Yammer e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
-ms.openlocfilehash: 8de78da9328d7f8c0a76edab5703821bdb0e6099
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d9fdf5359538209d0793211632979fae1b332d13
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595718"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078344"
 ---
 # <a name="content-search-in-office-365"></a>Pesquisa de Conteúdo no Office 365
 
@@ -52,9 +52,9 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
 2. Clique em **Pesquisar** \> **Pesquisa de conteúdo**.
     
-3. Na página de **Pesquisa**, clique na seta ao lado do ![ícone Adicionar](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Nova pesquisa**. 
+3. Na página de **Pesquisa**, clique na seta ao lado do ![ícone Adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Nova pesquisa**. 
     
-    ![A Nova lista suspensa de pesquisa](media/76b25861-55c5-4f50-9d48-9e2be2d0d078.png)
+    ![A Nova lista suspensa de pesquisa](../media/76b25861-55c5-4f50-9d48-9e2be2d0d078.png)
   
     Você pode escolher uma das seguintes opções:
     
@@ -70,7 +70,7 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
 5. Em **Consulta de pesquisa**, especifique o seguinte:
     
-    ![Especifique palavras-chave, condições e locais a serem pesquisados](media/1e6de9dd-eac9-4e2a-819d-9740cf6c9106.png)
+    ![Especifique palavras-chave, condições e locais a serem pesquisados](../media/1e6de9dd-eac9-4e2a-819d-9740cf6c9106.png)
   
    - **Palavras-chave a pesquisar:** Digite uma consulta de pesquisa na caixa de **Palavras-chave**. Você pode especificar palavras-chave, propriedades de mensagem como datas enviadas e recebidas, ou ainda, propriedades do documento como nomes de arquivos ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
     
@@ -89,7 +89,7 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
       - **Locais específicos:** Use essa opção para pesquisar locais de conteúdo específicos. Você poderá pesquisar todos os locais de conteúdo de um serviço específico do Office 365 (por exemplo, pesquisar em todas as caixas de correio do Exchange ou pesquisar conteúdo em todos os sites do SharePoint) ou pesquisar locais específicos em qualquer um dos serviços do Office 365 exibidos. 
     
-        ![Interface do usuário para escolher locais de conteúdo para pesquisar](media/9a09708b-f8a2-4382-8c4e-2c610ec33c72.png)
+        ![Interface do usuário para escolher locais de conteúdo para pesquisar](../media/9a09708b-f8a2-4382-8c4e-2c610ec33c72.png)
   
          Também é possível adicionar grupos de distribuição à lista de caixas de correio do Exchange para pesquisar. Para grupos de distribuição, as caixas de correio dos membros do grupo são pesquisadas. Não há suporte para grupos dinâmicos de distribuição.
     
@@ -106,13 +106,13 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
 Para acessar a pesquisa de conteúdo novamente ou acessar outras pesquisas de conteúdo listadas na página **Pesquisa de conteúdo**, selecione a pesquisa e clique em **Abrir**. 
   
-Para limpar os resultados ou criar outra pesquisa, clique em ![Adicionar ícone](media/O365-MDM-CreatePolicy-AddIcon.gif) **Nova pesquisa**. 
+Para limpar os resultados ou criar outra pesquisa, clique em ![Adicionar ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif) **Nova pesquisa**. 
   
 ## <a name="preview-search-results"></a>Visualização de resultados de pesquisa
 
 Há dois parâmetros de configuração para visualizar os resultados de pesquisa. Após executar uma nova pesquisa ou abrir uma pesquisa existente, clique em **Resultados individuais** para exibir as seguintes configurações de visualização: 
   
-![Visualizar configurações de resultados de pesquisa](media/83519477-1c85-4442-8886-481f186fd758.png)
+![Visualizar configurações de resultados de pesquisa](../media/83519477-1c85-4442-8886-481f186fd758.png)
   
 1. **Visualizar resultados automaticamente:** Essa configuração exibe os resultados após a execução de uma pesquisa.
     
@@ -157,7 +157,7 @@ Exportar resultados de pesquisa:
   
 1. Na página **Pesquisa de conteúdo**, clique na pesquisa para a qual você deseja atualizar os resultados. 
     
-2. Na página do submenu, clique em ![Exportar ícone de resultados de pesquisa](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Mais** e em seguida, clique em **Exportar resultados**. Também é possível exportar um relatório de resultados de pesquisa.
+2. Na página do submenu, clique em ![Exportar ícone de resultados de pesquisa](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Mais** e em seguida, clique em **Exportar resultados**. Também é possível exportar um relatório de resultados de pesquisa.
     
 3. Complete as seções na página do submenu **Exportar resultados**. Use a barra de rolagem para exibir todas as opções de exportação. 
     
@@ -217,21 +217,21 @@ Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta 
     
     **Incorreto**
     
-    ![A maneira incorreta de formatar uma lista de palavras-chave (colando a lista na caixa de palavra-chave)](media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
+    ![A maneira incorreta de formatar uma lista de palavras-chave (colando a lista na caixa de palavra-chave)](../media/fb54e3df-232a-439a-b3d7-27a60ec76a4c.png)
   
     **Correto**
     
-    ![A maneira correta de formatar uma lista de palavras-chave (selecionando a caixa de seleção e, em seguida, colando a lista)](media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
+    ![A maneira correta de formatar uma lista de palavras-chave (selecionando a caixa de seleção e, em seguida, colando a lista)](../media/5d511a7b-c1f9-499c-bffe-e075bfc9adec.png)
   
 - Você também pode preparar uma lista de palavras-chave ou frases de palavra-chave em um arquivo do Excel ou em um arquivo de texto simples e, em seguida, copiar e colar a lista na lista de palavras-chave. Para fazer isso, é preciso selecionar a caixa de seleção **Mostrar lista de palavras-chave**. Em seguida, clique na primeira linha da lista de palavras-chave e cole a sua lista. Cada linha do Excel ou do arquivo de texto é colada em uma linha separada na lista de palavras-chave. 
     
 - Depois de criar uma consulta usando a lista de palavras-chave, é uma boa ideia verificar a sintaxe da consulta de pesquisa para que a consulta de pesquisa seja a desejada. Na consulta de pesquisa exibida em **Consulta** no painel de detalhes, as palavras-chave são separadas pelo texto **(c:s)**. Isso indica que as palavras-chave estão conectadas por um operador lógico semelhante em funcionalidade ao operador **OU**. Da mesma forma, se a consulta de pesquisa incluir condições, as palavras-chave e as condições serão separadas pelo texto **(c:c)**. Isso indica que as palavras-chave estão conectadas por um operador lógico semelhante em funcionalidade ao operador **E**. Veja um exemplo de consulta de pesquisa (exibido no painel de Detalhes) que resulta ao usar a lista de palavras-chave e uma condição. 
     
-    ![Exemplo de consulta que é criada ao usar a lista de palavras-chave e uma condição](media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
+    ![Exemplo de consulta que é criada ao usar a lista de palavras-chave e uma condição](../media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
 - Ao executar uma pesquisa de conteúdo, o Office 365 verifica automaticamente a consulta de pesquisa para caracteres sem suporte e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte geralmente estão ocultos e costumam causar um erro de pesquisa ou retornam resultados inesperados. Para obter mais informações sobre os caracteres sem suporte que estão marcados, confira [Verifique se há erros na consulta da Pesquisa de Conteúdo](check-your-content-search-query-for-errors.md).
     
-- Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa. 
+- Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa. 
   
 ### <a name="searching-onedrive-accounts"></a>Pesquisar contas do OneDrive
 
@@ -299,17 +299,17 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
 
   Nos resultados da pesquisa, os resumos de reuniões são identificados como **Reunião** no **Campo de tipo** e os resumos de chamadas são identificados como **Chamada**. Além disso, as conversas que fazem parte de um canal do Teams e chats 1xN são identificadas como **Mensagens instantâneas ** no campo de **Tipo**.
   
-  ![As reuniões, chamadas e chats 1xN do Teams são identificados no campo de Tipo](media/O365-ContentSearch-Teams-MessageKind.png)
+  ![As reuniões, chamadas e chats 1xN do Teams são identificados no campo de Tipo](../media/O365-ContentSearch-Teams-MessageKind.png)
 
 - Você pode usar a propriedade de email **Tipo**ou a condição de pesquisa **Tipo de mensagem** para pesquisar especificamente por conteúdo no Teams. 
   
   - Para usar a propriedade **Tipo** como parte da consulta de pesquisa de palavras-chave, na caixa **Palavras-chave** de uma consulta de pesquisa, digite `kind:microsoftteams`.
 
-    ![Use o termo tipo:microsoftteams na caixa Palavras-chave](media/O365-ContentSearch-Teams-Keywords.png)
+    ![Use o termo tipo:microsoftteams na caixa Palavras-chave](../media/O365-ContentSearch-Teams-Keywords.png)
   
   - Para utilizar uma condição de pesquisa, adicione a condição de **Tipo de mensagem** e use o valor `microsoftteams`. 
 
-    ![Utilize a condição de Tipo de mensagem com o valor microsoftteams.](media/O365-ContentSearch-Teams-MessageKindCondition.png)
+    ![Utilize a condição de Tipo de mensagem com o valor microsoftteams.](../media/O365-ContentSearch-Teams-MessageKindCondition.png)
 
 Observe que as condições estão logicamente associadas à consulta de palavra-chave pelo operador **E (AND)**. Isso significa que um item deve corresponder à consulta da palavra-chave e à condição da pesquisa para aparecer nos resultados da pesquisa. Para saber mais, consulte a seção “Diretrizes de condições de uso” em [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions).
   
@@ -326,15 +326,15 @@ Você pode usar a propriedade de e-mail **ItemClass** ou o critério de pesquisa
   
     Por exemplo, você pode usar a seguinte consulta de pesquisa para retornar mensagens do Yammer e itens de elogio do Yammer:
 
-    ![Usar a propriedade ItemClass para procurar itens do Yammer](media/YammerContentSearch1.png)
+    ![Usar a propriedade ItemClass para procurar itens do Yammer](../media/YammerContentSearch1.png)
   
   - Como alternativa, você pode usar a condição de e-mail**Tipo** e selecionar **mensagens do Yammer** para retornar itens do Yammer. Por exemplo, a seguinte consulta de pesquisa retornará todos os itens de conversa do Yammer que contenham a palavra-chave "confidencial". 
 
-    ![Use o cartão de condição de tipo para pesquisar itens de conversa do Yammer](media/YammerContentSearch2.png)
+    ![Use o cartão de condição de tipo para pesquisar itens de conversa do Yammer](../media/YammerContentSearch2.png)
 
 ### <a name="searching-inactive-mailboxes"></a>Pesquisar caixas de correio inativas
 
-Você pode pesquisar por caixas de correio inativas em uma pesquisa de conteúdo. Para ver uma lista das caixas de correio inativas na sua organização, execute o comando  `Get-Mailbox -InactiveMailboxOnly`no PowerShell do Exchange Online. Como alternativa, vá para **Governança de informações** \> **Retenção** no Centro de Conformidade e Segurança, e em seguida, clique em **Mais**![Reticências da Barra de Navegação](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **Caixas de correio inativas**.
+Você pode pesquisar por caixas de correio inativas em uma pesquisa de conteúdo. Para ver uma lista das caixas de correio inativas na sua organização, execute o comando  `Get-Mailbox -InactiveMailboxOnly`no PowerShell do Exchange Online. Como alternativa, vá para **Governança de informações** \> **Retenção** no Centro de Conformidade e Segurança, e em seguida, clique em **Mais**![Reticências da Barra de Navegação](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **Caixas de correio inativas**.
   
 Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas de correio inativas.
 

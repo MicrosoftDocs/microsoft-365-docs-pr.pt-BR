@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 7fd19d9d8f84bd6463d61aec68dbd86c4fc627c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 297ccd3e17f6c5a747e18a46747e6f2c23311df0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069758"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -54,9 +54,9 @@ Essas imagens são exibidas:
 
 Por exemplo:
 
-![Um rótulo de confidencialidade ao criar um site de equipe do SharePoint](media/sensitivity-label-new-team-site.png)
+![Um rótulo de confidencialidade ao criar um site de equipe do SharePoint](../media/sensitivity-label-new-team-site.png)
 
-![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](media/sensitivity-label-word.png)
+![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](../media/sensitivity-label-word.png)
 
 ## <a name="enable-this-preview"></a>Habilitar esta visualização
 
@@ -124,7 +124,7 @@ Depois de habilitar a visualização, use as etapas a seguir para criar ou edita
     - Acesso de convidados: você pode controlar se os convidados podem ser adicionados a um grupo. [Saiba mais sobre como gerenciar o acesso de convidados em grupos do Office 365](/office365/admin/create-groups/manage-guest-access-in-groups)
     - Dispositivos não gerenciados: essa configuração permite bloquear ou limitar o acesso ao conteúdo do SharePoint de dispositivos que não são híbridos ao AD ou compatíveis com o Intune. Se você selecionar dispositivos não gerenciados, deverá ir para o Azure AD para concluir a configuração da política. Para mais informações, confira [Controlar o acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices).
     
-    ![Guia configurações de site e grupo](media/edit-sensitivity-label-site-group.png)
+    ![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group.png)
 
 > [!IMPORTANT]
 > Somente as configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Outras configurações, como a criptografia e a marcação de conteúdo, não são aplicadas a todo o conteúdo na equipe, grupo ou site.
@@ -184,11 +184,11 @@ Os usuários podem selecionar os rótulos de confidencialidade ao criar novas eq
 
 [Saiba mais sobre Rótulos de confidencialidade](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
 
-![A configuração de privacidade ao criar uma nova equipe](media/privacy-setting-new-team.png)
+![A configuração de privacidade ao criar uma nova equipe](../media/privacy-setting-new-team.png)
 
 Depois de criar a equipe, o rótulo de confidencialidade aparecerá no canto superior direito de todos os canais.
 
-![O rótulo de confidencialidade aparece na equipe](media/privacy-setting-teams.png)
+![O rótulo de confidencialidade aparece na equipe](../media/privacy-setting-teams.png)
 
 O serviço aplica automaticamente o mesmo rótulo de confidencialidade ao grupo do Office 365 e ao site de equipe do SharePoint conectado.
 
@@ -196,7 +196,7 @@ O serviço aplica automaticamente o mesmo rótulo de confidencialidade ao grupo 
 
 No Outlook na Web, a nova caixa de **confidencialidade** contém rótulos publicados. Se os usuários quiserem mais informações, eles poderão clicar no ícone ajuda para ler detalhes sobre os rótulos disponíveis e políticas associadas.
 
-![Criando um grupo e selecionando uma opção em Confidencialidade](media/sensitivity-label-new-group.png)
+![Criando um grupo e selecionando uma opção em Confidencialidade](../media/sensitivity-label-new-group.png)
 
 ## <a name="apply-a-sensitivity-label-to-a-new-site"></a>Aplicar um rótulo de confidencialidade a um novo site
 
@@ -206,17 +206,17 @@ Saiba como [Criar um site no novo centro de administração do SharePoint](/shar
 
 Quando os usuários criam sites modernos de comunicação e equipe, um rótulo de confidencialidade já estará selecionado por padrão. Os usuários podem selecionar o ícone de ajuda para saber mais sobre os rótulos.
 
-![Criando um site e selecionando uma opção de confidencialidade](media/sensitivity-label-new-communication-site.png)
+![Criando um site e selecionando uma opção de confidencialidade](../media/sensitivity-label-new-communication-site.png)
 
 Quando os usuários acessam o site, eles podem ver o nome do rótulo e as políticas aplicadas.
 
-![Um site com uma etiqueta de confidencialidade aplicada](media/sensitivity-label-site.png)
+![Um site com uma etiqueta de confidencialidade aplicada](../media/sensitivity-label-site.png)
 
 ## <a name="manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>Gerenciar rótulos de confidencialidade no centro de administração do SharePoint
 
 Para exibir e editar os rótulos, use a página de sites ativas no novo centro de administração do SharePoint.
 
-![A coluna Confidencialidade na página sites ativos](media/manage-site-sensitivity-labels.png)
+![A coluna Confidencialidade na página sites ativos](../media/manage-site-sensitivity-labels.png)
 
 [Saiba mais sobre como gerenciar sites no novo centro de administração do SharePoint](/sharepoint/manage-sites-in-new-admin-center).
 

@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
-ms.openlocfilehash: b285b51ca20e2822be9d8193d33e634418adbeb3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 36edcbc7106710ff62bc1a176fb76a17fd7076a6
+ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081619"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42101241"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -31,6 +31,160 @@ Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteú
 
 > [!TIP]
 > Para se manter atualizado sobre as atualizações de recursos mais recentes no centro de conformidade do Microsoft 365, confira [o que há de novo no centro de conformidade da microsoft 365](whats-new.md).
+
+## <a name="january-2020"></a>Janeiro de 2020
+
+### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
+
+[Relatórios de descoberta eletrônica avançada (visualização)](advanced-ediscovery-reports.md) (novo)<br>Detalhes sobre relatórios de toda a organização agregados em casos, responsáveis, fontes de dados e comunicação.
+
+[Painel de descoberta eletrônica avançado para conjuntos de revisão (visualização)](advanced-ediscovery-dashboard.md) (novo)<br>Detalhes sobre a nova funcionalidade de análise para identificar tendências ou estatísticas importantes em um conjunto de revisão.
+
+### <a name="auditing"></a>Auditoria
+
+[Gerenciar auditoria de caixa de correio](enable-mailbox-auditing.md#more-information) (atualizado)<br>Esclarecido que apenas eventos de auditoria de caixa de correio para usuários do E5 estão disponíveis em pesquisas de log de auditoria no centro de conformidade & segurança do Office 365 ou usando a API de atividade de gerenciamento do Office 365. Também detalhes para usar cmdlets do Exchange Online para recuperar logs de auditoria de caixa de correio para usuários sem licenças e5.
+
+[Pesquisar o log de auditoria no centro de conformidade de & de segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities) (atualizado)<br>Foi adicionada uma descrição para a atividade "consulta de pesquisa executada" na tabela de atividades de arquivo e pasta do SharePoint.
+
+### <a name="compliance-offerings"></a>Ofertas de conformidade
+
+[Estrutura de garantia de informações do ENISA](offering-enisa.md) (nova)<br>Nova oferta descrevendo a conformidade do ENISA da Microsoft.
+
+Artigos atualizados para esclarecer o suporte para a área de trabalho gerenciada da Microsoft:<br>
+[Atestado STAR do Cloud Security Alliance (CSA)](offering-CSA-STAR-Attestation.md)<br>
+[Certificação STAR do Cloud Security Alliance (CSA)](offering-CSA-Star-Certification.md)<br>
+[Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:2011](offering-ISO-20000-1-2011.md)<br>
+[Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012](offering-ISO-22301.md)<br>
+[Padrões de gerenciamento de segurança de informações ISO/IEC 27001:2013](offering-ISO-27001.md)<br>
+[Código de Conduta ISO/IEC 27017:2015 para Controles de Segurança de Informações](offering-ISO-27017.md)<br>
+[Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem](offering-ISO-27018.md)<br>
+[PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701](offering-iso-27701.md)<br>
+[Padrões dos Sistemas de Gestão da Qualidade ISO 9001:2015](offering-ISO-9001.md)<br>
+[Service Organization Controls (SOC)](offering-SOC.md)
+
+### <a name="compliance-score-and-compliance-manager"></a>Pontuação de Conformidade e Gerenciador de Conformidade
+
+[Pontuação de conformidade da Microsoft (visualização)](compliance-score.md) (atualizado)<br>Várias atualizações, incluindo informações sobre modelos pré-configurados para o Brasil LGPD, SOC 1 e SOC 2; Descrição de grupos aprimorada; novo link na parte superior do artigo para exibir rapidamente o que há de novo na pontuação de conformidade.
+
+[Cálculo da Pontuação de conformidade da Microsoft (visualização)](compliance-score-methodology.md#how-compliance-score-continuously-assesses-controls) (atualizado)<br>Esclarecida que a pontuação segura atende à funcionalidade de monitoramento contínuo da Pontuação de conformidade.
+
+[Notas de versão da Pontuação de conformidade da Microsoft (visualização)](compliance-score-release-notes.md) (atualizadas)<br>Reprojetado para exibir as informações de novidades na parte superior do artigo (especialmente novos modelos para avaliações).
+
+[Configuração da Pontuação de conformidade da Microsoft (visualização)](compliance-score-setup.md) (atualizada)<br>Foi adicionada uma nova seção sobre como configurar as atualizações automáticas de Pontuação segura e orientações aprimoradas sobre a filtragem do painel de visualização por grupos.
+
+[Trabalhar com o Microsoft Compliance Manager (versão prévia)](working-with-compliance-manager.md) (atualizado)<br>Orientações aprimoradas para criar e trabalhar com grupos e novas instruções para habilitar atualizações de Pontuação de segurança no nível por ação.
+
+### <a name="content-search-and-core-ediscovery"></a>Pesquisa de conteúdo e descoberta eletrônica principal
+
+[Aposentadoria de ferramentas de descoberta eletrônica herdadas](legacy-ediscovery-retirement.md) (novo)<br>Informações detalhadas sobre a aposentadoria de descoberta eletrônica in-loco, bloqueio in-loco e o cmdlet Search-Mailbox no Exchange Online e a aposentadoria do Office 365 Advanced eDiscovery v 1.0.
+
+[Migrar pesquisas de descoberta eletrônica herdadas e segura para o centro de conformidade da Microsoft 365](migrate-legacy-eDiscovery-searches-and-holds.md) (novo)<br>Orientações sobre como migrar pesquisas de descoberta eletrônica in-loco e bloqueios do centro de administração do Exchange para o centro de conformidade do Microsoft 365.
+
+[Usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md) (novo)<br>Detalhes sobre a configuração da nova versão da borda para exportar os resultados da pesquisa.
+
+[Consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo](keyword-queries-and-search-conditions.md#special-characters) (atualizado)<br>Foi adicionada uma seção sobre caracteres especiais em uma consulta de pesquisa.
+
+[Gerenciar ocorrências de descoberta eletrônica](ediscovery-cases.md#optional-step-11-delete-a-case) (atualizado)<br>Adicionada uma nova etapa opcional sobre como excluir ocorrências e o ponto-chave que *todas as* suspensões associadas ao caso devem ser *excluídos* para que o caso possa ser excluído.
+
+[Pesquisar e excluir mensagens de email](search-for-and-delete-messages-in-your-organization.md#step-3-delete-the-message) (atualizado)<br>Devido à próxima aposentadoria do cmdlet Search-Mailbox, substituído **Search-Mailbox-DeleteContent** por **New-ComplianceSearchAction-Purge** na etapa para excluir o item. Em breve, a adição de um script de exemplo que faz loops do comando PURGE para resolver o limite de limpeza de 10 itens do cmdlet New-ComplianceSearchAction.
+
+### <a name="data-connectors"></a>Conectores de dados
+
+[Configurar um conector para importar dados de RH](import-hr-data.md) (novo)<br>Detalhes sobre a configuração de um conector de dados de recursos humanos (RH) para importar dados de RH. O dá suporte à nova solução de gerenciamento de risco do insider.
+
+[Arquivar dados de terceiros](archiving-third-party-data.md) (atualizados)<br>Os conectores de dados para o Facebook, o Instant Bloomberg, o LinkedIn e o Twitter agora são lançados oficialmente para a disponibilidade geral.
+
+### <a name="insider-risk-management-preview"></a>Gerenciamento de risco do Insider (versão prévia)
+
+Novos artigos para dar suporte à versão prévia da solução de gerenciamento de risco do insider.<br>
+[Gerenciamento de risco do insider no Microsoft 365 (versão prévia)](insider-risk-management.md)<br>
+[Introdução ao gerenciamento de risco do Insider (visualização)](insider-risk-management-configure.md)<br>
+[Políticas de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-policies.md)<br>
+[Alertas de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-alerts.md)<br>
+[Casos de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-cases.md)<br>
+[Gerenciador de conteúdo de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-content-explorer.md)<br>
+[Usuários de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-users.md)<br>
+[Modelos de aviso de gerenciamento de risco do Insider (versão prévia)](insider-risk-management-notices.md)<br>
+
+### <a name="mrm-in-exchange-online"></a>MRM no Exchange Online
+
+[Colocar uma caixa de correio em retenção suspensa](https://docs.microsoft.com/en-us/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (atualizado)<br>Adicionada nova seção comparando as propriedades de caixa de correio ElcProcessingDisabled e RetentionHoldEnabled e como elas afetam o processamento do assistente de pasta gerenciada.
+
+### <a name="records-management"></a>Gerenciamento de registros
+
+[Visão geral das revisões de descarte](disposition-reviews.md#permissions-for-disposition) (atualizadas)<br>Resolvido um problema de suporte de longa duração, esclarecendo que a função de logs de auditoria somente para exibição deve ser atribuída no centro de administração do Exchange.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+[Criar e configurar rótulos de sensibilidade e suas políticas](create-sensitivity-labels.md) (novo)<br>Etapas e fluxo recomendado para criar/configurar/publicar rótulos de sensibilidade. Além disso, detalhes sobre configurações adicionais que exigem o PowerShell, incluindo um exemplo de configuração de um rótulo para idiomas diferentes.
+
+[Saiba mais sobre rótulos de sensibilidade](sensitivity-labels.md) (atualizado)<br>Anteriormente, "visão geral dos rótulos de confidencialidade", este artigo foi revisado para fornecer uma melhor experiência de leitura, capturas de tela atualizadas, esclarecimentos de subrótulos e marcações visuais e redefine as expectativas para aguardar até 24 horas em vez de "dentro de uma hora".
+
+[Usar rótulos de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md#change-site-and-group-settings-for-a-label) (atualizado)<br>Por feedback do cliente, adicionadas instruções passo a passo explícitas do PowerShell sobre como alterar as configurações de site e de grupo de um rótulo.
+
+[Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md) (atualizado)<br>Várias atualizações, incluindo um vídeo incorporado, esclarecimentos de limitações e informações sobre como o comportamento do SharePoint não se alteram se estiver usando "manter sua própria chave" (HYOK).
+
+[Usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) (atualizado)<br>Foram adicionadas informações sobre como alterar o canal de atualização do Office e inscrever-se em visualizações privadas se quiser testar novos recursos.
+
+[Problemas conhecidos com rótulos de confidencialidade no Office](https://support.office.com/en-us/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc) (atualizado)<br>Adição de novos problemas, incluindo como os rótulos de confidencialidade que não se aplicam criptografia podem ser removidos com a inspeção de documentos e problemas com marcações visuais, se forem substituídos pelo cliente de proteção de informações do Azure (clássico).
+
+## <a name="december-2019"></a>Dezembro de 2019
+
+### <a name="communication-compliance-and-supervision-policies"></a>Políticas de supervisão e conformidade de comunicação
+
+[Políticas de supervisão e referência de recursos de conformidade de comunicação no Office 365](supervision-policies.md) (atualizado) [](communication-compliance-feature-reference.md)<br>Esclarecido que os valores de pesquisa para mensagens e anexos devem ser separados por vírgula em vez de separados por linha nos assistentes de política.
+
+### <a name="compliance-offerings"></a>Ofertas de conformidade
+
+[Interações de títulos e do Exchange: integridade e conformidade dos sistemas da regulamentação (SCI)](offering-sec-reg-sci.md) (novo)<br>Artigo sobre a nova oferta descrevendo a conformidade de SCI da Microsoft para o Azure.
+
+[Controle de organização de serviço (SOC)](offering-SOC.md#frequently-asked-questions) (atualizado)<br>Resposta de perguntas frequentes alterada para o processo de certificação para esclarecer informações sobre auditorias e certificações da Microsoft.
+
+### <a name="compliance-score-and-compliance-manager"></a>Pontuação de Conformidade e Gerenciador de Conformidade
+
+[Pontuação de conformidade da Microsoft (visualização)](compliance-score.md#templates) e [gerente de conformidade da Microsoft](compliance-manager-overview.md#templates) (atualizado)<br>Foram adicionados links de referência para dois modelos recém-lançado na pontuação de conformidade e o gerente de conformidade: ISO 27701:2019 e IRAP/Australian governamental (versão prévia).
+
+### <a name="content-search-and-core-ediscovery-cases"></a>Pesquisa de conteúdo e casos de descoberta eletrônica principais
+
+[Pesquisa de conteúdo no Office 365](content-search.md#searching-yammer-groups) e [gerenciar ocorrências de descoberta eletrônica](ediscovery-cases.md#step-5-create-and-run-a-content-search-associated-with-a-case) (atualizado)<br>Agora você pode usar a pesquisa de conteúdo e a pesquisa de descoberta eletrônica para localizar conteúdo nos grupos do Yammer.
+
+### <a name="pst-import-service"></a>Serviço de importação de PST
+
+[Usar o carregamento de rede para importar arquivos pst da sua organização para o Office 365](use-network-upload-to-import-pst-files.md#before-you-begin) (atualizado)<br>Foram adicionadas recomendações de que os arquivos PST carregados para o local de armazenamento do Azure não têm mais de 20 GB para evitar a limitação de desempenho.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+[Saiba mais sobre rótulos de sensibilidade](sensitivity-labels.md#what-label-policies-can-do) (atualizado)<br>Por comentários do cliente, esclarecemos que o texto de justificativa fornecido pelos usuários não acesse a análise de rótulo para revisão de administração, mas se o cliente de rotulação unificado de proteção de informações do Azure estiver instalado, ele vai para a proteção de informações do Azure análises.
+
+[Usar rótulos de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md) (atualizado)<br>Várias atualizações, incluindo a correção para o requisito de módulo do Azure AD PowerShell e como instalá-lo/atualizá-lo (por comentários do cliente), novos comandos para sincronizar rótulos, novas orientações e avisos para gerenciamento de etiquetas, solução de problemas adicional e como recusar a visualização.
+
+[Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md) (atualizado)<br>Por comentários dos clientes, detalhes esclarecidos para instalar e atualizar o Shell de gerenciamento do SharePoint Online.
+
+[Usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md) (atualizado)<br>Esclarecimentos para desabilitar o cliente de rotulação unificada de proteção de informações do Azure e como converter modelos de proteção para rótulos de confidencialidade.
+
+## <a name="november-2019"></a>Novembro de 2019
+
+### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
+
+[Correção de erro de item único](single-item-error-remediation.md) (novo)<br>Descreve a nova funcionalidade que permite que os gerentes de descoberta eletrônica exibam os metadados do arquivo com um erro de processamento e corrija o erro diretamente no conjunto de revisão.
+
+### <a name="compliance-score"></a>Pontuação de Conformidade
+
+[Pontuação de conformidade da Microsoft (visualização) perguntas frequentes](compliance-score-faq.md) (novo)<br>Perguntas e respostas sobre a pontuação de conformidade, incluindo acesso e configuração, relação com o Gerenciador de conformidade e pontuação segura e uso com produtos que não são da Microsoft.
+
+[Trabalhar com o Microsoft Compliance Manager (prévia)](working-with-compliance-manager.md) e [notas de versão para o gerente de conformidade (versão prévia](compliance-manager-release-notes.md#secure-score) ) (atualizado)<br>Foi adicionado esclarecimento nos artigos a seguir sobre como a integração total com a pontuação segura demora cerca de uma semana quando as organizações implantam o Microsoft 365 ou o Office 365.
+
+### <a name="content-search"></a>Pesquisa de conteúdo
+
+[Usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md) (novo)<br>Instruções sobre como habilitar o suporte do ClickOnce no Edge (que não está mais habilitado por padrão) para que você possa exportar os resultados da pesquisa usando o navegador de borda.
+
+### <a name="holds"></a>Bloqueios
+
+[Como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold) (atualizado)<br>Adicionados detalhes sobre a propriedade de caixa de correio ' DelayReleaseHoldApplied ' que é definida como true quando uma retenção é removida de uma caixa de correio.
+
+### <a name="supervision-in-office-365"></a>Supervisão no Office 365
+
+[Configurar políticas de supervisão no Office 365](configure-supervision-policies.md#step-2-make-supervision-available-in-your-organization-required) (atualizado)<br>Orientações da etapa 2 atualizadas para a nova experiência do usuário e permissões de função esclarecidas.
 
 ## <a name="october-2019"></a>Outubro de 2019
 

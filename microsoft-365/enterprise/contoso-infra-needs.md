@@ -1,6 +1,8 @@
 ---
 title: Infraestrutura de TI e necessidades comerciais da Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda a estrutura básica da infraestrutura de TI local da Contoso e de que forma suas necessidades comerciais foram atendidas pelo Microsoft 365 Enterprise.
-ms.openlocfilehash: d98f401ae4a39e3e04b5840e8f76c1e3e1b1a24d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068378"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Infraestrutura de TI e necessidades comerciais da Contoso
 
@@ -30,7 +32,7 @@ A Contoso usa principalmente a infraestrutura de TI local centralizada, com data
 
 A Figura 1 mostra um escritório da sede com datacenters de aplicativo, uma DMZ e a Internet.
 
-![Infraestrutura de TI da Contoso](./media/contoso-infra-needs/contoso-infra-needs-fig1.png)
+![Infraestrutura de TI da Contoso](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
 **Figura 1: Atual infraestrutura de TI da Contoso**
  

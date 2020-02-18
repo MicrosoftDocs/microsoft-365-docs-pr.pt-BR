@@ -1,5 +1,7 @@
 ---
 title: Visão geral da retenção controlada por eventos
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de retenção, você pode basear um período de retenção no momento que um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo. A retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros.
-ms.openlocfilehash: 109b6104f2a06559beae0148b581854f44e6394a
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: da5e10735e8980199a829ac50d096052abe93d14
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989566"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074475"
 ---
 # <a name="overview-of-event-driven-retention"></a>Visão geral da retenção controlada por eventos
 
@@ -47,9 +49,9 @@ Um rótulo baseado em um evento tem os mesmos recursos que qualquer rótulo no O
 
 Para usar a retenção controlada por eventos, é importante compreender a relação entre tipos de evento, rótulos, eventos e IDs de ativo, conforme ilustrado aqui. Veja uma explicação após o diagrama.
   
-![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
+![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
   
-![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
+![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
 1. Crie rótulos para tipos diferentes de conteúdo e associe-os a um tipo de evento. Por exemplo, rótulos para tipos diferentes de arquivos e registros de produtos são associados a um tipo de evento chamado Tempo de vida do produto, pois esses registros devem ser retidos por 10 anos a partir do momento em que o produto atinge o final da vida útil.
     
@@ -73,7 +75,7 @@ Por fim, lembre-se de que cada rótulo tem suas próprias configurações de ret
 
 Este é o fluxo de trabalho de nível superior para retenção controlada por eventos. Consulte etapas mais detalhadas abaixo.
   
-![Diagrama de fluxo de trabalho para configurar a retenção controlada por eventos](media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
+![Diagrama de fluxo de trabalho para configurar a retenção controlada por eventos](../media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
   
 > [!TIP]
 > Consulte [Gerenciar o ciclo de vida dos documentos do SharePoint com rótulos de retenção](auto-apply-retention-labels-scenario.md) para obter um cenário detalhado sobre como usar as propriedades gerenciadas no SharePont para aplicar automaticamente os rótulos de retenção e implementar a retenção voltada para o evento.
@@ -92,7 +94,7 @@ Saiba também que a retenção controlada por eventos exige configurações de r
     
 - Excluem o conteúdo automaticamente, ou acionam uma revisão de disposição ao final do período de retenção.
     
-![Opção para basear um rótulo em um evento](media/a4902281-5196-4194-9737-f30231d95861.png)
+![Opção para basear um rótulo em um evento](../media/a4902281-5196-4194-9737-f30231d95861.png)
   
 ### <a name="step-2-choose-an-event-type-for-that-label"></a>Etapa 2: Escolher um tipo de evento para esse rótulo
 
@@ -102,13 +104,13 @@ Por exemplo, se você criar um evento chamado Tempo de vida do produto, criará 
   
 Observe que após escolher um tipo de evento e criar o rótulo, o tipo de evento não pode ser alterado.
   
-![Opções para criar ou escolher um tipo de evento](media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
+![Opções para criar ou escolher um tipo de evento](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
 ### <a name="step-3-publish-or-auto-apply-the-label"></a>Etapa 3: Publicar ou aplicar automaticamente o rótulo
 
 Assim como qualquer rótulo, você precisa publicar ou aplicar automaticamente um rótulo com base em eventos, para que ele seja aplicado manual ou automaticamente ao conteúdo. Você pode fazer isso na página **Rótulos de** > **retenção** de classificação.
   
-![Opções para publicar ou aplicar automaticamente um rótulo](media/options-to-publish-auto-apply-retention-label.png)
+![Opções para publicar ou aplicar automaticamente um rótulo](../media/options-to-publish-auto-apply-retention-label.png)
 
 ### <a name="step-4-enter-an-asset-id"></a>Etapa 4: Inserir uma ID de ativo
 
@@ -122,7 +124,7 @@ Após a aplicação de um rótulo controlado por evento ao conteúdo, você pode
     
 Compreenda que a ID de ativo é simplesmente outra propriedade do documento no SharePoint e no OneDrive for Business. Talvez sua organização já use outras propriedades e IDs de documento para classificar o conteúdo. Se este for o caso, você também pode usar essas propriedades e valores ao criar um evento; consulte a Etapa 6 abaixo. O importante é que sua organização deve usar uma combinação de propriedade e valor nas propriedades do documento para associar esse item a um tipo de evento.
   
-![Caixa de texto para inserir uma ID de ativo](media/6d31628e-7162-4370-a8d7-de704aafa350.png)
+![Caixa de texto para inserir uma ID de ativo](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
 ### <a name="step-5-create-an-event"></a>Etapa 5: Criar um evento
 
@@ -132,7 +134,7 @@ Quando uma instância específica desse tipo de evento ocorrer, por exemplo, um 
 
 Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo na Etapa 2. Por exemplo, Tempo de vida de produto. Somente o conteúdo com rótulos desse tipo de evento aplicados terão o período de retenção acionado.
   
-![Opção em Configurações de evento para escolher um tipo de evento](media/11663591-5628-419e-9537-61eb8f5c741f.png)
+![Opção em Configurações de evento para escolher um tipo de evento](../media/11663591-5628-419e-9537-61eb8f5c741f.png)
   
 ### <a name="step-7-enter-keywords-or-an-asset-id"></a>Etapa 7: Inserir palavras-chave ou IDs de ativo
 
@@ -146,7 +148,7 @@ Para itens do Exchange, você pode incluir palavras-chave. Refine a consulta usa
   
 Por fim, escolha a data de ocorrência do evento; essa data é usada como o início do período de retenção. Após a criação de um evento, essa data de evento é sincronizada com todo o conteúdo que tem um rótulo desse tipo de evento, ID de ativo e palavras-chave. Como ocorre com qualquer rótulo, essa sincronização pode demorar até sete dias.
   
-![Página Configurações de evento](media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
+![Página Configurações de evento](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
   
 ## <a name="use-content-search-to-find-all-content-with-a-specific-label-or-asset-id"></a>Usar a Pesquisa de Conteúdo para localizar todo o conteúdo com um rótulo ou ID de ativo específicos
 

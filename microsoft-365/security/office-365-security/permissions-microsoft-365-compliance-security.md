@@ -1,5 +1,7 @@
 ---
 title: Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
-ms.openlocfilehash: 070e9bb1f7bf070a1b95995c2010b79dee7cbc9b
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 6553020c215b3ffad0707a699414a6939ef368ca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082421"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
@@ -27,7 +29,7 @@ Sua organização precisa gerenciar cenários de segurança e conformidade que a
 
 Depois que o administrador global atribuir essas funções de administrador, os administradores têm acesso aos recursos e dados que abrangem todos os serviços no Microsoft 365, como a central de segurança da Microsoft 365, o centro de conformidade da Microsoft 365, o Azure, o Office 365 e o Enterprise Mobility + Security.
 
-![Página de permissões no centro de segurança do Microsoft 365](../media/m365-security-permissions-page.png)
+![Página de permissões no centro de segurança do Microsoft 365](../../media/m365-security-permissions-page.png)
 
 ## <a name="what-the-microsoft-365-roles-are"></a>Quais são as funções do Microsoft 365
 
@@ -128,13 +130,13 @@ No centro de conformidade do Microsoft 365 e no centro de segurança do Microsof
 
 Para saber mais informações, consulte [Exibir e atribuir funções de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-![Vincular permissões no Azure Active Directory](../media/permissions-manage-in-azure-ad-link.png)
+![Vincular permissões no Azure Active Directory](../../media/permissions-manage-in-azure-ad-link.png)
 
 ## <a name="managing-roles-in-a-service-instead-of-azure-active-directory"></a>Gerenciamento de funções em um serviço, em vez do Azure Active Directory
 
 As funções que aparecem no centro de conformidade do Microsoft 365 e no centro de segurança da Microsoft 365 também são exibidas nos serviços que têm permissões. Por exemplo, você pode ver essas funções no Centro de Conformidade e Segurança do Office 365.
 
-![Funções no Centro de Conformidade e Segurança do Office 365](../media/m365-roles-in-o365-scc.png)
+![Funções no Centro de Conformidade e Segurança do Office 365](../../media/m365-roles-in-o365-scc.png)
 
 ### <a name="breaking-inheritance"></a>Interrompendo herança
 

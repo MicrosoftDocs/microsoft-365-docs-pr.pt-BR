@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Saiba como acessar a Descoberta Eletrônica Avançada do Office 365 pelo Centro de Conformidade e Segurança do Office 365 e analisar o fluxo de trabalho típico para usar a Descoberta Eletrônica avançada.  '
-ms.openlocfilehash: 6df2d68639f2be9f6ba38ea7211654058bc73035
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e1af09caf57509bf472a766c9d9124ea969acc4e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070289"
 ---
 # <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Configuração rápida da Descoberta Eletrônica Avançada do Office 365
 
@@ -51,7 +51,7 @@ Para ir a um caso na Descoberta Eletrônica Avançada:
 
 O diagrama a seguir ilustra o fluxo de trabalho comum para gerenciar e usar os casos de Descoberta Eletrônica no Centro de Conformidade e Segurança e na Descoberta Eletrônica Avançada. 
   
-![Diagrama que mostra o fluxo de trabalho de Descoberta Eletrônica Avançada do Office 365 de quatro fases na instalação, inclusive a configuração de usuários e casos, identificação dos dados de caso, exportação e processamento, além das fases de análise e exportação para o computador local.](media/76589ccc-789d-4581-b3a8-98d339b05979.png)
+![Diagrama que mostra o fluxo de trabalho de Descoberta Eletrônica Avançada do Office 365 de quatro fases na instalação, inclusive a configuração de usuários e casos, identificação dos dados de caso, exportação e processamento, além das fases de análise e exportação para o computador local.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
 Esta seção de configuração descreve as quatro primeiras etapas do fluxo de trabalho. Confira a descrição das etapas do fluxo de trabalho a seguir.
   

@@ -1,5 +1,7 @@
 ---
 title: 'Etapa 4: Configurar o bypass de tráfego'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure os navegadores da web e os dispositivos de borda para executar bypass de tráfego dos locais confiáveis do Office 365.
-ms.openlocfilehash: 32aa2216856d5a519fddb55701be745a9dacbd87
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066678"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Etapa 4: Configurar o bypass de tráfego
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
-![Fase 1 – Rede](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Fase 1 – Rede](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 Como o tráfego geral da Internet pode ser arriscado, as redes de organizações típicas reforçam a segurança com dispositivos de borda, como servidores proxy, Interrupção e Inspeção de SSL, dispositivos de inspeção de pacotes e sistemas de prevenção de perda de dados. Leia sobre alguns dos problemas com dispositivos de interceptação de rede em [Usar soluções ou dispositivos de rede de terceiros em tráfego do Office 365](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365).
 
@@ -46,7 +48,7 @@ A Microsoft recomenda que você:
 
 Estas são as recomendações da sua infraestrutura de rede.
 
-![Recomendações para otimizar o tráfego local](./media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
+![Recomendações para otimizar o tráfego local](../media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
 
 Os dispositivos de borda incluem firewalls, Interrupção e Inspeção de SSL, dispositivos de inspeção de pacotes e sistemas de prevenção de perda de dados. Para configurar e atualizar as configurações de dispositivos de borda, é possível usar um script ou uma chamada REST para consumir uma lista estruturada de pontos de extremidade do serviço Web de pontos de extremidade do Office 365. Para obter mais informações, confira [Serviço Web de URL e Endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
 
@@ -59,7 +61,7 @@ Como um ponto de verificação provisório, é possível ver os [critérios de s
 
 |||
 |:-------|:-----|
-|![Etapa 5](./media/stepnumbers/Step5.png)|[Otimizar o desempenho do serviço entre o cliente e o Office 365](networking-optimize-tcp-performance.md) |
+|![Etapa 5](../media/stepnumbers/Step5.png)|[Otimizar o desempenho do serviço entre o cliente e o Office 365](networking-optimize-tcp-performance.md) |
 
 
 

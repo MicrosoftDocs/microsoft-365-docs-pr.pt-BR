@@ -1,5 +1,7 @@
 ---
 title: Proteger arquivos em equipes com rótulos de retenção e DLP
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: 'Resumo: aplique rótulos de retenção e políticas DLP (prevenção contra perda de dados) a arquivos em equipes com vários níveis de proteção de informações.'
-ms.openlocfilehash: 89320a074d5d52062268a7585081849ac42d2025
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 94d8a02d0ea88fa8a05cd6a2c95a2db866d72fad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925729"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083383"
 ---
 # <a name="protect-files-in-teams-with-retention-labels-and-dlp"></a>Proteger arquivos em equipes com rótulos de retenção e DLP
 
@@ -114,7 +116,7 @@ Use estas etapas para aplicar os rótulos de retenção às pastas de documentos
     
 Esta é a configuração resultante.
   
-![Rótulos de retenção para os quatro tipos de sites subjacentes do SharePoint.](../media/retention-labels.png)
+![Rótulos de retenção para os quatro tipos de sites subjacentes do SharePoint.](../../media/retention-labels.png)
   
 ## <a name="dlp-policies-for-your-underlying-sharepoint-sites"></a>Políticas DLP para os sites subjacentes do SharePoint
 
@@ -165,7 +167,7 @@ Use estas etapas para configurar uma política DLP que notifique os usuários qu
     
 Estas são as configurações resultantes para equipes confidenciais.
   
-![Política DLP para equipe confidencial usando o rótulo de retenção Confidencial](../media/retention-labels-sensitive-dlp.png)
+![Política DLP para equipe confidencial usando o rótulo de retenção Confidencial](../../media/retention-labels-sensitive-dlp.png)
   
 Depois, siga estas etapas para configurar uma política DLP que impeça os usuários de compartilhar um documento em um site subjacente do SharePoint fora da organização.
   
@@ -211,7 +213,7 @@ Depois, siga estas etapas para configurar uma política DLP que impeça os usuá
     
 Esta é a configuração resultante para a equipe de alta confidencialidade.
   
-![Política DLP para uma equipe de alta confidencialidade usando o rótulo de retenção Altamente Confidencial](../media/retention-labels-highly-confidential-dlp.png)
+![Política DLP para uma equipe de alta confidencialidade usando o rótulo de retenção Altamente Confidencial](../../media/retention-labels-highly-confidential-dlp.png)
   
 ## <a name="next-step"></a>Próxima etapa
 
