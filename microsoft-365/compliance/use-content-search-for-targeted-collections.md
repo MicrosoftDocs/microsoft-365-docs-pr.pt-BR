@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas. Uma coleção direcionada significa que você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.
-ms.openlocfilehash: 66929911cdb1692ea1ee2a8920dad349d50ec156
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b8afe9e65aa65c697d9c5cefbeaf89638c1782d4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080789"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
 
@@ -201,7 +201,7 @@ Se você estiver obtendo IDs de pasta de caixa de correio, o script se conecta a
   
 Veja um exemplo de saída retornada pelo script para pastas de caixa de correio.
   
-![Exemplo da lista de pastas de caixa de correio e IDs de pasta retornada pelo script](media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
+![Exemplo da lista de pastas de caixa de correio e IDs de pasta retornada pelo script](../media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
   
 O exemplo na etapa 2 mostra a consulta usada para pesquisar a subpasta de limpezas na pasta itens recuperáveis do usuário.
   
@@ -211,7 +211,7 @@ Se você estiver obtendo o caminho da propriedade **documentlink** de sites do S
   
 Veja um exemplo de saída retornada pelo script para pastas de site.
   
-![Exemplo da lista de nomes de documentlink para pastas de site retornadas pelo script](media/519e8347-7365-4067-af78-96c465dc3d15.png)
+![Exemplo da lista de nomes de documentlink para pastas de site retornadas pelo script](../media/519e8347-7365-4067-af78-96c465dc3d15.png)
   
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>Etapa 2: usar uma ID de pasta ou documentlink para executar uma coleção direcionada
 
@@ -221,7 +221,7 @@ Após executar o script para coletar uma lista de IDs de pasta ou documentlinks 
     
 2. Entre no Office 365 usando a conta e as credenciais que você usou para executar o script na etapa 1.
     
-3. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ícone](media/O365-MDM-CreatePolicy-AddIcon.gif)de adição.
+3. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif)de adição.
     
 4. Na página **Nova pesquisa**, digite um nome para a Pesquisa de Conteúdo. O nome deve ser exclusivo em sua organização. 
     
@@ -239,7 +239,7 @@ Após executar o script para coletar uma lista de IDs de pasta ou documentlinks 
     
     Por exemplo, a consulta na captura de tela a seguir pesquisará qualquer item na subpasta de limpezas na pasta itens recuperáveis do usuário (o valor `folderid` da propriedade da subpasta de limpezas é mostrado na captura de tela na etapa 1):
     
-    ![Cole o FolderId ou documentlink na caixa palavra-chave da consulta de pesquisa](media/84057516-b663-48a4-a78f-8032a8f8da80.png)
+    ![Cole o FolderId ou documentlink na caixa palavra-chave da consulta de pesquisa](../media/84057516-b663-48a4-a78f-8032a8f8da80.png)
   
 8. Clique em **Pesquisar** para iniciar a pesquisa de coleção direcionada. 
   

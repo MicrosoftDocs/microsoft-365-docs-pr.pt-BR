@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0631754fc7003f0c562b4551649b9622030ac45a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c71f3a31c49c92a24d449fae151b858645ad2df6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081538"
 ---
 # <a name="run-analytics-to-investigate-faster"></a>Executar análise para investigar mais rápido
 

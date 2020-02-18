@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Saiba como usar o centro de conformidade de &amp; segurança do Office 365 para acessar a descoberta eletrônica avançada do Office 365 e executar o módulo de processo para um caso.  '
-ms.openlocfilehash: e99071246e6c63292bf3ca1fbca0a0fd25eab5a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 13b665c377022997ef4e60bc883993a86d8b9f75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081510"
 ---
 # <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada do Office 365
 
@@ -49,7 +49,7 @@ Execute as etapas a seguir para executar o processo.
     
 4. Na **configuração** **preparar** \> **processo** \> , selecione um contêiner na lista de contêineres disponíveis.
     
-    ![Clique em processar para adicionar os resultados da pesquisa ao caso](media/50bdc55c-d378-4881-b302-31ef785fa359.png)
+    ![Clique em processar para adicionar os resultados da pesquisa ao caso](../media/50bdc55c-d378-4881-b302-31ef785fa359.png)
   
 5. Clique em **Configurações avançadas...** se você deseja adicionar o contêiner como arquivos semente ou como arquivos previamente marcados. 
     
@@ -57,7 +57,7 @@ Execute as etapas a seguir para executar o processo.
     
     Use arquivos previamente marcados para automatizar o treinamento de relevância. Você deve marcar pelo menos 1.500 arquivos e manter a proporção de arquivos que não são relevantes o mesmo que o da coleção adicionado à relevância. Esses arquivos devem ser marcados manualmente e você deve ter certeza na qualidade da marcação.
     
-    ![Captura de tela da página de configurações avançadas para processar arquivos em lotes](media/3c25cb78-4484-41e5-bd34-3753c7ab6cf2.jpg)
+    ![Captura de tela da página de configurações avançadas para processar arquivos em lotes](../media/3c25cb78-4484-41e5-bd34-3753c7ab6cf2.jpg)
   
   - Na seção **propagação** : 
     

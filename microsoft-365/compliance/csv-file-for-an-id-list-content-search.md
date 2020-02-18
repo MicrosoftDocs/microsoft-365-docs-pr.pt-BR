@@ -29,7 +29,7 @@ Veja uma rápida visão geral do processo de criação de uma pesquisa de lista 
 
 1. Criar e executar uma pesquisa de conteúdo nova ou dirigida no centro de conformidade de & de segurança.
 
-2. Exporte os resultados da pesquisa de conteúdo ou exporte o relatório de pesquisa de conteúdo. Para saber mais, veja:
+2. Exporte os resultados da pesquisa de conteúdo ou exporte o relatório de pesquisa de conteúdo. Para saber mais, confira:
 
     - [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
 

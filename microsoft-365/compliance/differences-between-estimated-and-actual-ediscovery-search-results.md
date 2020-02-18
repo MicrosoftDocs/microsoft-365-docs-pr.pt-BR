@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 'Entenda por que os resultados de pesquisa estimados e reais podem variar nas pesquisas executadas com as ferramentas de descoberta eletrônica no Office 365. '
-ms.openlocfilehash: 10c948dbfc7f147011e3ab917828b5b281602fa8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4b14e3aca51737b0a7c15b5219fda38c57ecad9d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595246"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075441"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results-in-office-365"></a>Diferenças entre resultados de pesquisa de descoberta eletrônica estimados e reais no Office 365
 
@@ -35,21 +35,21 @@ Este tópico se aplica a pesquisas que podem ser executadas usando uma das segui
    
 Quando você executa uma pesquisa de descoberta eletrônica, a ferramenta que você está usando retorna uma estimativa do número de itens (e seu tamanho total) que atendem aos critérios de pesquisa. Por exemplo, quando você executa uma pesquisa no centro de conformidade & segurança, os resultados estimados da pesquisa são exibidos no painel de detalhes para a pesquisa selecionada.
   
-![Estimativa dos resultados exibidos no painel de detalhes da pesquisa selecionada](media/74e4ce83-40be-41a9-b60f-5ad447e79fe4.png)
+![Estimativa dos resultados exibidos no painel de detalhes da pesquisa selecionada](../media/74e4ce83-40be-41a9-b60f-5ad447e79fe4.png)
   
 Esta é a mesma estimativa do tamanho total e do número de itens que é exibido na ferramenta de exportação de descoberta eletrônica quando você exporta os resultados para um computador local e no relatório de Resumo de exportação que é baixado com os resultados da pesquisa.
   
 **Resultados estimados na ferramenta de exportação de descoberta eletrônica**
 
-![Resultados estimados na ferramenta de exportação de Descoberta Eletrônica](media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
+![Resultados estimados na ferramenta de exportação de Descoberta Eletrônica](../media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
   
 **Resultados estimados no relatório de Resumo de exportação**
 
-![Os resultados estimados da pesquisa estão incluídos no relatório de resumo de exportação](media/44b579da-86c2-4f33-81b5-84d604003eda.png)
+![Os resultados estimados da pesquisa estão incluídos no relatório de resumo de exportação](../media/44b579da-86c2-4f33-81b5-84d604003eda.png)
   
 No entanto, como você observará na captura de tela anterior do relatório de Resumo de exportação, o tamanho e o número dos resultados de pesquisa reais que são realmente baixados são diferentes dos de tamanho e número de resultados de pesquisa estimados. 
   
-![Diferença entre resultados de pesquisa estimados e baixados](media/84aef318-230f-430d-9d9e-02f21342d364.png)
+![Diferença entre resultados de pesquisa estimados e baixados](../media/84aef318-230f-430d-9d9e-02f21342d364.png)
   
 Aqui estão alguns motivos para estas diferenças:
   

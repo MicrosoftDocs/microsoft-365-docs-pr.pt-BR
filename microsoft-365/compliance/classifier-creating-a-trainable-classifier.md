@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use classificadores treinados quando um dos classificadores de caixa pronto para usar não atender às suas necessidades. Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este tópico mostra como criar um classificador personalizado.
-ms.openlocfilehash: f11da4c36c9d6ed1667d5bed4a7d3e59c2cb21a9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bbf2fac4e912e6619f3fe1c9a328aa61782cb640
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595908"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078842"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Criar um classificador treinado (visualização)
 
@@ -29,7 +29,7 @@ Para saber mais sobre os diferentes tipos de classificadores, confira [introduç
 
 Esta linha do tempo reflete uma implantação de amostra.
 
-![Estagiário-classificador-linha do tempo](media/trainable-classifier-deployment-timeline_border.png)
+![Estagiário-classificador-linha do tempo](../media/trainable-classifier-deployment-timeline_border.png)
 
 > [!TIP]
 > O consentimento é obrigatório pela primeira vez para os classificadores treináveis. O Microsoft 365 leva 12 dias para concluir a avaliação da linha de base do conteúdo da sua organização. Entre em contato com seu administrador global para iniciar o processo de consentimento.
@@ -80,7 +80,7 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 10. Agora você pode exibir a página de detalhes escolhendo o classificador.
 
 
-![classificador de estagiário pronto para teste](media/classifier-trainable-ready-to-test-detail.png)
+![classificador de estagiário pronto para teste](../media/classifier-trainable-ready-to-test-detail.png)
 
 11. Colete pelo menos 200 itens de conteúdo de teste. A Microsoft recomenda 10.000 para obter os melhores resultados. Eles devem ser uma mistura de itens que são positivos fortes, negativos fortes e outros que são um pouco menos óbvios em sua natureza. Consulte, [extensões de nome de arquivo rastreado padrão e tipos de arquivo analisados no SharePoint Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) para os tipos de arquivo com suporte.
 
@@ -100,13 +100,13 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 
 16. Quando o classificador treinado termina de processar seus arquivos de teste, o status da página de detalhes será alterado `Ready to review`para. Se você precisar aumentar o tamanho da amostra de teste, `Add items to test` escolha e permitir que o classificador treinado processe os itens adicionais.
 
-![Pronto para revisar captura de tela](media/classifier-trainable-ready-to-review-detail.png)
+![Pronto para revisar captura de tela](../media/classifier-trainable-ready-to-review-detail.png)
 
 17. Escolha `Tested items to review` Tab para revisar itens.
 
 18. A Microsoft 365 apresentará 30 itens por vez. Examine-os e, `We predict this item is "Relevant". Do you agree?` na caixa, `Yes` escolha `No` ou `Not sure, skip to next item`ou. A precisão do modelo é atualizada automaticamente após cada 30 itens.
 
-![caixa examinar itens](media/classifier-trainable-review-detail.png)
+![caixa examinar itens](../media/classifier-trainable-review-detail.png)
 
 19. Revise *pelo menos* 200 itens.
 
@@ -114,7 +114,7 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 
 20. Continue a revisar até que a precisão alcance pelo menos 70 `Publish the classifier` % e `Ready to use`o status é.
 
-![precisão e pronto para publicar](media/classifier-trainable-review-ready-to-publish.png)
+![precisão e pronto para publicar](../media/classifier-trainable-review-ready-to-publish.png)
 
 21. Publicar o classificador.
 

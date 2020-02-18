@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4005b1e379b138f4eb22bb5c11e1f278185dc65e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97c1acdb515e278c40ca25d47e2d9fd24c23d51f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070048"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar os dados em um conjunto de revisão
 
@@ -31,7 +31,7 @@ Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um con
 
 Para criar e executar uma consulta nos documentos em um conjunto de revisão, clique em **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, clique em uma consulta salva.
 
-![Analisar consultas de definição](media/AeDReviewSetQueries.png)
+![Analisar consultas de definição](../media/AeDReviewSetQueries.png)
 
 ## <a name="building-a-review-set-query"></a>Criar uma consulta de conjunto de revisão
 
@@ -59,7 +59,7 @@ Além de cartões de condição, você pode usar um idioma de consulta do tipo K
 
 Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. Isso ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
 
-![Examinar filtros de conjunto](media/AeDReviewSetFilters.png)
+![Examinar filtros de conjunto](../media/AeDReviewSetFilters.png)
 
 Os filtros diferem das consultas de duas maneiras significativas:
 

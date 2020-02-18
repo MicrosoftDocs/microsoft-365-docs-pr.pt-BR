@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
-ms.openlocfilehash: b1bd09777bd934cccf7f1247ed72201bcc4a081f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5789244314a945937791d360962ad398f87f9bd4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074020"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -267,11 +267,11 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
     Para exportar itens parcialmente indexados de todos os locais de conteúdo para uma pesquisa, configure a pesquisa para retornar todos os itens (removendo palavras-chave da consulta de pesquisa) e exporte apenas itens parcialmente indexados quando exportar os resultados da pesquisa.
     
-    ![Usar a terceira opção de exportação para exportar apenas itens não indexados](media/5d7be338-a0e5-425f-8ba5-92769c24bf75.png)
+    ![Usar a terceira opção de exportação para exportar apenas itens não indexados](../media/5d7be338-a0e5-425f-8ba5-92769c24bf75.png)
   
 - Ao exportar resultados de pesquisa de sites do SharePoint ou do OneDrive for Business, a capacidade de exportar itens não indexados também depende da opção de exportação selecionada e se um site pesquisado contém um item indexado que corresponde aos critérios de pesquisa. Por exemplo, se você pesquisar sites específicos do SharePoint ou do OneDrive for Business e nenhum resultado de pesquisa for localizado, nenhum item não indexado desses sites será exportado se você escolher a segunda opção de exportação para exportar itens indexados e não indexados. Se um item indexado de um site corresponder aos critérios de pesquisa, todos os itens não indexados desse site serão exportados durante a exportação de itens indexados e não indexados. A ilustração a seguir descreve as opções de exportação baseadas no fato de um site conter um item indexado que corresponda aos critérios de pesquisa.
     
-    ![Escolha a opção exportar com base em se um site contém um item indexado que corresponde aos critérios de pesquisa](media/94f78786-c6bb-42fb-96b3-7ea3998bcd39.png)
+    ![Escolha a opção exportar com base em se um site contém um item indexado que corresponde aos critérios de pesquisa](../media/94f78786-c6bb-42fb-96b3-7ea3998bcd39.png)
 
     
     a. Somente os itens indexados que correspondem aos critérios de pesquisa são exportados. Nenhum item parcialmente indexado é exportado.

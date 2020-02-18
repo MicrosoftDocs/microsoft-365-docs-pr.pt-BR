@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar em caixas de correio do Exchange Online e em sites do SharePoint ou do OneDrive for Business usando a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança.  '
-ms.openlocfilehash: e8a0da1815b7ddda889217d027a3aabae4420c56
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: aad4ff401ee66db2f88bf5476cfaab8fce4ad821
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585910"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072370"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -85,7 +85,7 @@ Para obter uma lista completa das propriedades do SharePoint que podem ser pesqu
 |:-----|:-----|:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`author:"Garth Fort"`|Todos os documentos criados por Paulo Araújo.|
 |ContentType|O tipo de conteúdo do SharePoint de um item, como item, documento ou vídeo.|`contenttype:document`|Todos os documentos seriam ser retornados.|
-|Created|A data em que um item foi criado.|`created\>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
+|Criado em|A data em que um item foi criado.|`created\>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
 |CreatedBy|A pessoa que criou ou carregou um item. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`createdby:"Garth Fort"`|Todos os itens criados ou carregados por Paulo Araújo.|
 |DetectedLanguage|O idioma de um item.|`detectedlanguage:english`|Todos os itens em inglês.|
 |DocumentLink|O caminho (URL) de uma pasta específica em um site do SharePoint ou do OneDrive for Business. Se você usar essa propriedade, certifique-se de Pesquisar o site no qual a pasta especificada está localizada.  <br/> Para retornar itens localizados em subpastas da pasta que você especificar para a propriedade documentlink, você precisa adicionar/\* à URL da pasta especificada; por exemplo,`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Para obter mais informações sobre como Pesquisar a propriedade documentlink e usar um script para obter as URLs do documentlink para pastas em um site específico, consulte [usar a pesquisa de conteúdo no Office 365 para coleções direcionadas](use-content-search-for-targeted-collections.md).|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens na pasta especificada do OneDrive for Business. O segundo exemplo retorna documentos na pasta de site especificada (e todas as subpastas) que contenham a palavra "confidencial" no nome do arquivo.|
@@ -222,7 +222,7 @@ Crie uma condição usando as propriedades do documento ao pesquisar documentos 
 |:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original.|
 |Cargo|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento.|
-|Created|A data em que um documento foi criado.|
+|Criado em|A data em que um documento foi criado.|
 |Última modificação|A data em que um documento foi alterado pela última vez.|
 |Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension.|
 |||
@@ -271,9 +271,9 @@ Lembre-se do seguinte ao usar condições de pesquisa.
     
 - Como explicado anteriormente, algumas propriedades de condição permitem digitar vários valores. Cada valor é logicamente conectado pelo operador **OR**. Isso faz com que a mesma lógica tenha várias instâncias da mesma condição, em que cada uma tem um único valor. As ilustrações a seguir mostram um exemplo de uma única condição com vários valores e um exemplo de várias condições (para a mesma propriedade) com um único valor. Os dois exemplos resultam na mesma consulta:`(filetype="docx") OR (filetype="pptx") OR (filetype="xlsx")`
     
-    ![Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.](media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
+    ![Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.](../media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
   
-    ![Vários critérios de pesquisa para a mesma propriedade](media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
+    ![Vários critérios de pesquisa para a mesma propriedade](../media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
   
 > [!TIP]
 > Se uma condição aceita vários valores, recomendamos que você use uma única condição e especifique vários valores (separados por vírgulas ou ponto-e-vírgula). Isso ajuda a garantir que a lógica de consulta aplicada seja o que você deseja. 
@@ -288,7 +288,7 @@ Este exemplo retorna documentos em sites do SharePoint e do OneDrive for Busines
   
  **GUI**
   
-![Primeiro exemplo de critérios de pesquisa](media/099515ba-d4ee-474e-af25-3aa48816b87b.gif)
+![Primeiro exemplo de critérios de pesquisa](../media/099515ba-d4ee-474e-af25-3aa48816b87b.gif)
   
  **Sintaxe de consulta de pesquisa**
   
@@ -304,7 +304,7 @@ O exemplo retorna itens de email ou documentos que contêm a palavra-chave "rela
   
  **GUI**
   
-![Segundo exemplo de critérios de pesquisa](media/fe07d495-df81-42da-8106-3cdb409c6e7f.gif)
+![Segundo exemplo de critérios de pesquisa](../media/fe07d495-df81-42da-8106-3cdb409c6e7f.gif)
   
  **Sintaxe de consulta de pesquisa**
   
@@ -320,7 +320,7 @@ Este exemplo retorna mensagens de email ou reuniões de calendário que foram en
   
  **GUI**
   
-![Terceiro exemplo de critérios de pesquisa](media/973d45fc-0923-43d6-9d0a-25e4a625f057.gif)
+![Terceiro exemplo de critérios de pesquisa](../media/973d45fc-0923-43d6-9d0a-25e4a625f057.gif)
   
  **Sintaxe de consulta de pesquisa**
   
@@ -379,7 +379,7 @@ Como explicado anteriormente, você pode usar `SharedWithUsersOWSUser` a proprie
   
 Os documentos devem ser compartilhados explicitamente com um usuário específico para serem retornados nos resultados da pesquisa ao `SharedWithUsersOWSUser` usar a propriedade. Por exemplo, quando uma pessoa compartilha um documento em sua conta do OneDrive, ela tem a opção de compartilhá-la com qualquer pessoa (dentro ou fora da organização), compartilhá-la somente com pessoas dentro da organização ou compartilhá-la com uma pessoa específica. Aqui está uma captura de tela da janela de **compartilhamento** no onedrive, que mostra as três opções de compartilhamento. 
   
-![Somente os arquivos compartilhados com pessoas específicas serão retornados por uma consulta de pesquisa que usa a propriedade SharedWithUsersOWSUser](media/469a4b61-68bd-4ab0-b612-ab6302973886.png)
+![Somente os arquivos compartilhados com pessoas específicas serão retornados por uma consulta de pesquisa que usa a propriedade SharedWithUsersOWSUser](../media/469a4b61-68bd-4ab0-b612-ab6302973886.png)
   
 Somente os documentos que são compartilhados usando a terceira opção (compartilhada com **pessoas específicas**) serão retornados por uma consulta de pesquisa que usa a `SharedWithUsersOWSUser` propriedade. 
 
