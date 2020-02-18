@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 43cc0317bfce749affc41efe987fe905e1edae5d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e4e09360e4f07935867b03b3436a5581bb671774
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069896"
+ms.locfileid: "42091364"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -109,7 +109,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
 
 - Se quiser baixar dados programaticamente do log de auditoria do Office 365, recomendamos que você use a API de Atividades de Gerenciamento do Office 365 em vez de usar um script do PowerShell. A API de Atividades de Gerenciamento do Office 365 é um serviço Web REST que você pode usar para desenvolver soluções de monitoramento de operações, segurança e conformidade para sua organização. Para mais informações, confira [referência da API de Atividade de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference).
 
-- Pode levar de 30 minutos a 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados de pesquisa. A tabela a seguir mostra o tempo necessário para os vários serviços do Office 365.
+- Pode levar de 30 minutos a 24 horas após a ocorrência de um evento para que o registro do log de auditoria seja retornado nos resultados de uma pesquisa de log de auditoria. A tabela a seguir mostra o tempo necessário para os vários serviços do Office 365.
 
   |**Serviço do Office 365**|**30 minutos**|**24 horas**|
   |:-----|:-----:|:-----:|
@@ -117,14 +117,14 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria do Offi
   |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Azure Active Directory (eventos de administração)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Prevenção contra Perda de Dados|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Dynamics 365 CRM|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Dynamics 365 CRM||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Descoberta eletrônica|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Exchange Online|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Power Automate|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Microsoft Project|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Aplicativos de energia|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Aplicativos de energia||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Power BI|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Centro de Conformidade e Segurança|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
