@@ -75,8 +75,11 @@
   href: protect-information.md
   items:
     - name: Rótulos de confidencialidade
-      href: sensitivity-labels.md
       items:
+        - name: Saiba mais sobre rótulos de confidencialidade
+          href: sensitivity-labels.md
+        - name: Introdução ao rótulos de confidencialidade
+          href: get-started-with-sensitivity-labels.md
         - name: Criar e publicar rótulos de confidencialidade
           href: create-sensitivity-labels.md
         - name: Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
@@ -89,7 +92,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Rótulos de confidencialidade em aplicativos do Office
+        - name: Usar rótulos de confidencialidade nos aplicativos do Office
           href: sensitivity-labels-office-apps.md
     - name: Prevenção de perda de dados (DLP)
       href: data-loss-prevention-policies.md
