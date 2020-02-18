@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 127e2c9a04977bf6e902a1ce669fa9e4248e3ef2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 65a0e6dc2857a51b10d1fa3b6674ccf24dbc4799
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080058"
 ---
 # <a name="advanced-ediscovery-dashboard-for-review-sets-preview"></a>Painel de descoberta eletrônica avançado para conjuntos de revisão (visualização)
 
@@ -37,15 +37,15 @@ Para alguns casos na descoberta eletrônica avançada, você pode ter um grande 
   
 4. Na lista suspensa de **resultados individuais** , clique em **modo de exibição de perfil de pesquisa**. 
 
-   ![DashbordPivot](media/dashboardpivot.png)
+   ![DashbordPivot](../media/dashboardpivot.png)
 
    A página de **exibição do perfil de pesquisa** é exibida; na primeira vez que você exibir esta página, três widgets padrão serão exibidos.
 
-   ![Painel](media/dashboardonly.png)
+   ![Painel](../media/dashboardonly.png)
   
 5. Clique no **widget novo** e selecione um dos seguintes itens:
 
-   ![Nova lista suspensa de widget](media/NewWidgetDropdownBox.png)
+   ![Nova lista suspensa de widget](../media/NewWidgetDropdownBox.png)
 
    - **Escolha na biblioteca:** Exibe uma biblioteca de widgets padrão. Você clica em um widget e, em seguida, clica em **Adicionar** para adicioná-lo aos widgets na página de **exibição do perfil de pesquisa** .
   
@@ -53,7 +53,7 @@ Para alguns casos na descoberta eletrônica avançada, você pode ter um grande 
 
 6. Para criar um widget personalizado, faça o seguinte na página **Adicionar** submenu do widget:
 
-   ![Criar widget](media/addwidget.png)
+   ![Criar widget](../media/addwidget.png)
 
     a. Digite um nome para o widget, que é exibido na barra de título do widget. É necessário nomear um widget, mas é útil identificar os dados do widget.
 
@@ -67,17 +67,17 @@ Para alguns casos na descoberta eletrônica avançada, você pode ter um grande 
 
 1. Clique em **...** na barra de título do widget e, em seguida, clique em **aplicar condição**.
 
-   ![Painel](media/searchprofilehome.png)
+   ![Painel](../media/searchprofilehome.png)
 
 2. Na página do menu suspenso, clique em um elemento na chave do widget ou no gráfico de widget para criar um filtro.
 
-   ![Createfilter](media/applyconditionfilter.png)
+   ![Createfilter](../media/applyconditionfilter.png)
 
 3. Repita as etapas 1-2 para outros widgets vários widgets. 
 
 4. Quando tiver concluído, clique em **salvar como consulta** para salvar suas condições como uma nova consulta de pesquisa para o conjunto de análise.
 
-   ![Consulta](media/savequery.png)
+   ![Consulta](../media/savequery.png)
 
 5. Feche o **modo de exibição perfil de pesquisa** para retornar ao modo de exibição resultados da pesquisa.
 

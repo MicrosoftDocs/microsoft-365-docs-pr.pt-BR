@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Baixe as auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e saiba como você pode estar em conformidade com ISO, HIPAA, FINRA e FedRAMP ao usar o Office 365.
-ms.openlocfilehash: f883f625e872076146e75c01bde26d40f7e1a4d3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 823722fe49349a11e828ca56978240e662c8435c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081278"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Garantia de serviço no centro de conformidade & segurança
 
@@ -71,7 +71,7 @@ Quando você acessa a garantia de serviço pela primeira vez, a primeira etapa �
   
 1. Após acessar a garantia de serviço, selecione **configurações** e a página Configurações de região e da indústria exibidas, conforme mostrado na captura de tela a seguir. 
     
-    ![Mostra a página Configurações do centro de proteção.](media/101716e8-9c0a-4839-a2c0-f6aacf64eb9d.png)
+    ![Mostra a página Configurações do centro de proteção.](../media/101716e8-9c0a-4839-a2c0-f6aacf64eb9d.png)
   
 2. Na página **configurações** , selecione a seta para baixo ao lado de **região** e verifique as regiões apropriadas para sua organização. 
     
@@ -86,15 +86,15 @@ Para revisar e baixar conteúdo, selecione uma opção no painel de navegação:
   
 - **Relatórios de conformidade** para exibir auditorias independentes e avaliações do Office 365 e outros serviços de nuvem da Microsoft, conforme mostrado na captura de tela a seguir. 
     
-    ![Mostra a página de garantia de serviço: relatórios de conformidade de serviço.](media/149f2181-a558-4963-85e5-8d5ebc7cdac8.png)
+    ![Mostra a página de garantia de serviço: relatórios de conformidade de serviço.](../media/149f2181-a558-4963-85e5-8d5ebc7cdac8.png)
   
 - **Confiar em documentos** para exibir informações sobre como a Microsoft opera o Office 365 conforme mostrado na captura de tela a seguir. 
     
-    ![Mostra a página de garantia de serviço: documentos de confiança fornecidos pela Microsoft](media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
+    ![Mostra a página de garantia de serviço: documentos de confiança fornecidos pela Microsoft](../media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
   
 - **Controles auditados** para exibir informações sobre como os controles do Office 365 atendem aos requisitos de segurança, conformidade e privacidade, conforme mostrado na captura de tela a seguir. 
     
-    ![Mostra a tela de controles auditados do serviço de garantia.](media/4baf252b-603d-45e0-af12-32616154df65.png)
+    ![Mostra a tela de controles auditados do serviço de garantia.](../media/4baf252b-603d-45e0-af12-32616154df65.png)
   
 Selecione o relatório que você deseja baixar e selecione **salvar** para baixá-lo em seu computador. Para controles auditados, selecione o relatório desejado e, em seguida, selecione **baixar**. A tabela abaixo descreve os relatórios que você pode encontrar em cada página de garantia de serviço. 
   
@@ -116,15 +116,15 @@ Para acessar relatórios padrão que geralmente estão disponíveis em todas as 
   
 1. No centro de conformidade & segurança, selecione **permissões** no painel esquerdo, conforme mostrado na captura de tela a seguir. 
     
-    ![Menu &amp; de permissões de conformidade de segurança](media/8b479ad4-5c91-4e4c-a1db-372d50526db6.png)
+    ![Menu &amp; de permissões de conformidade de segurança](../media/8b479ad4-5c91-4e4c-a1db-372d50526db6.png)
   
 2. No painel direito, selecione **usuário de garantia de serviço**e, em seguida, selecione **Editar grupo de função**e, na seção **Membros** , selecione **Editar** para adicionar membros à função de usuário de garantia de serviço, conforme mostrado na captura de tela a seguir. 
     
-    ![Usuário de garantia de serviço-adicionar](media/c8b1978e-9b6e-4200-860a-a1704f8e2355.png)
+    ![Usuário de garantia de serviço-adicionar](../media/c8b1978e-9b6e-4200-860a-a1704f8e2355.png)
   
 3. Na próxima caixa de diálogo, procure e escolha pessoas ou grupos que precisam exibir relatórios de conformidade de garantia de serviço e recursos de confiança e, em seguida, selecione **Adicionar** para cada seleção que você fizer e clique no **X** no canto superior direito do painel quando terminar. 
     
-    ![Usuário de garantia de serviço-escolha usuário](media/33f13ef6-1e10-4d49-af06-8e1ad5ffbfba.png)
+    ![Usuário de garantia de serviço-escolha usuário](../media/33f13ef6-1e10-4d49-af06-8e1ad5ffbfba.png)
   
 4. Todos os usuários ou grupos adicionados à função de usuário de garantia de serviço agora podem encontrar os relatórios de garantia de serviço e download e outros documentos no centro de conformidade e segurança &.
     

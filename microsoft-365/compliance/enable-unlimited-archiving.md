@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: 'Para administradores: saiba como habilitar o arquivamento de expansão automática no Office 365, que fornece aos usuários um armazenamento ilimitado para suas caixas de correio do Exchange Online. Você pode habilitar o arquivamento de expansão automática para toda a sua organização ou apenas para usuários específicos.'
-ms.openlocfilehash: d37243c65770ff7bbcce4cbe4cfd593b68b7a869
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a0ca31372d99f0727a6da48be4d8276a533fbe3f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593202"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074679"
 ---
 # <a name="enable-unlimited-archiving-in-office-365--admin-help"></a>Habilitar o arquivamento ilimitado no Office 365 — ajuda do administrador
 
@@ -102,7 +102,7 @@ Tenha em mente as seguintes coisas depois de habilitar o arquivamento de expans�
     
 - Da mesma forma, os valores das propriedades de caixa de correio *ArchiveQuota* e *ArchiveWarningQuota* não são alterados quando você habilita o arquivamento de expansão automática. Na verdade, quando você habilita o arquivamento de expansão automática para uma caixa de correio ** de usuário e a propriedade `True`AutoExpandingArchiveEnabled é definida como, as propriedades *ArchiveQuota* e *ArchiveWarningQuota* são ignoradas. Veja um exemplo dessas propriedades de caixa de correio após o arquivamento de expansão automática estar habilitado para a caixa de correio de um usuário. 
     
-    ![As propriedades ArchiveQuota e ArchiveWarningQuota são ignoradas após você habilitar o arquivamento de expansão automática](media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
+    ![As propriedades ArchiveQuota e ArchiveWarningQuota são ignoradas após você habilitar o arquivamento de expansão automática](../media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
 
   
 ## <a name="more-information"></a>Mais informações

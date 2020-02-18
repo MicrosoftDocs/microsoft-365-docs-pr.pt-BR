@@ -194,7 +194,7 @@ Se as palavras-chave na consulta de pesquisa que você criou e usou na etapa 3 c
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Auditar o processo de investigação de derramamento de dados
 
-Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction-Purge** executado na etapa 7 para excluir os dados derramados. Para saber mais, veja:
+Você pode pesquisar o log de auditoria do Office 365 para as atividades de descoberta eletrônica que foram realizadas durante a investigação. Você também pode pesquisar o log de auditoria para retornar os registros de auditoria para o comando **New-ComplianceSearchAction-Purge** executado na etapa 7 para excluir os dados derramados. Para saber mais, confira:
 
 - [Pesquisas o log de auditoria](search-the-audit-log-in-security-and-compliance.md)
 

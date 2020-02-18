@@ -108,7 +108,7 @@ Depois de executar a pesquisa, você pode Visualizar amostras de resultados de p
 
 Na investigação, vá para a guia **evidência** e clique no conjunto de evidências que você criou na etapa anterior. Após o trabalho de processamento ser concluído e os resultados da pesquisa serem adicionados à evidência, você pode revisar documentos individuais em seu formato nativo, formato de texto ou um formato Near-Native. Você pode criar consultas adicionais para restringir a lista de documentos e marcar documentos para indicar resultados de sua investigação. Para obter mais informações, consulte [Review data in Evidence](review-data-in-evidence.md)
 
-Para agrupar documentos e obter mais assistência para revisão, clique em **gerenciar evidência**. No bloco de **análise** , clique em **analisar**. Isso executa análises avançadas, como detecção de duplicidades, encadeamento de emails e análise de temas. Para saber mais, veja:
+Para agrupar documentos e obter mais assistência para revisão, clique em **gerenciar evidência**. No bloco de **análise** , clique em **analisar**. Isso executa análises avançadas, como detecção de duplicidades, encadeamento de emails e análise de temas. Para saber mais, confira:
 
 - [Executar análise para investigar mais rápido](run-analytics-to-investigate-faster.md)
 - [Próximo detecção duplicada](near-duplicates.md)

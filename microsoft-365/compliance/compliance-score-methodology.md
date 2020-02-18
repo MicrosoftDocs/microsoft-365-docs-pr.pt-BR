@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
-ms.openlocfilehash: 1ee9410e3b40a8180d768945a643d3e52c29046b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ca8615f8c15264104faa71d155d2656cd788bd53
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078628"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade da Microsoft (visualização)
 
 > [!IMPORTANT]
 > A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O painel de Pontuação de conformidade exibe uma pontuação que mede seu progresso ao concluir ações de aperfeiçoamento nos controles. Seus pontos são acumulados ao concluir ações.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Use o editor de pesquisa em massa no centro de segurança e conformidade no Office 365 ou no Microsoft 365 para alterar rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas de conteúdo.
-ms.openlocfilehash: 40d3a6c04a57f368a4f53ae0bbc543b049b26d52
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5d1fd8a877ffb6c2012567583e46e561fb09836f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596268"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078962"
 ---
 # <a name="bulk-edit-content-searches"></a>Edição em massa de pesquisas de conteúdo
 
@@ -30,13 +30,13 @@ Para obter mais informações sobre como usar a ferramenta de estatísticas de p
 
 1. Vá para [https://protection.office.com](https://protection.office.com)e selecione pesquisa de **** \> **conteúdo**de pesquisa.
     
-2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, selecione o botão ![](media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)editor de pesquisa em massa do **Editor de pesquisa em massa** .
+2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, selecione o botão ![](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)editor de pesquisa em massa do **Editor de pesquisa em massa** .
     
-    ![Selecionar uma ou mais pesquisas e selecionar editor de pesquisa em massa](media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
+    ![Selecionar uma ou mais pesquisas e selecionar editor de pesquisa em massa](../media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
   
     As informações a seguir são exibidas na página **consultas** do editor de pesquisa em massa. 
     
-    ![A página do editor de pesquisa em massa exibe as consultas para as pesquisas selecionadas](media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
+    ![A página do editor de pesquisa em massa exibe as consultas para as pesquisas selecionadas](../media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
   
     a. A coluna de **pesquisa** exibe o nome da pesquisa de conteúdo. Conforme mencionado anteriormente, você pode editar a consulta para várias pesquisas. 
     
@@ -71,7 +71,7 @@ Veja algumas dicas para editar consultas usando o editor de pesquisa em massa:
     
     As informações a seguir são exibidas na página **locais** do editor de pesquisa em massa. 
     
-    ![Selecione habilitar editor de local em massa e, em seguida, selecione locais para adicionar ou remover locais de conteúdo](media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
+    ![Selecione habilitar editor de local em massa e, em seguida, selecione locais para adicionar ou remover locais de conteúdo](../media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
   
     a. **Caixas de correio para pesquisa** Esta seção exibe uma coluna para cada pesquisa de conteúdo selecionada e uma linha para cada caixa de correio incluída na pesquisa. Uma marca de seleção indica que a caixa de correio está incluída na pesquisa. Você pode adicionar caixas de correio a uma pesquisa digitando o endereço de email da caixa de correio em uma linha em branco e, em seguida, marcando a caixa de seleção para a pesquisa de conteúdo à qual deseja adicioná-lo. Ou você pode remover uma caixa de correio de uma pesquisa desmarcando a caixa de seleção.
     

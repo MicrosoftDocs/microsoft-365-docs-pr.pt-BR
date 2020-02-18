@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Importe dados que não sejam do Office 365 para uma análise definida em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: d839457824420c32a7acd006ae4218008c11b25e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae5effafd8a208d3c03ce40e03c9da2b0ea6b8d1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585680"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072199"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>Carregar dados que não são do Office 365 em um conjunto de revisão
 
@@ -52,7 +52,7 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
    Onde abraham.mcmahon@contoso.com, jewell.gordon@contoso.com e staci.gonzalez@contoso.com são os endereços SMTP dos responsáveis no caso.
 
-   ![Estrutura de pastas de carregamento de dados não-Office 365](media/3f2dde84-294e-48ea-b44b-7437bd25284c.png)
+   ![Estrutura de pastas de carregamento de dados não-Office 365](../media/3f2dde84-294e-48ea-b44b-7437bd25284c.png)
 
 - Uma conta atribuída ao grupo de função Gerenciador de descoberta eletrônica (e adicionada como administrador de descoberta eletrônica).
 
@@ -69,17 +69,17 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
 4. Clique em **carregar arquivos** para iniciar o assistente de importação de dados não-Office 365.
 
-   ![Carregar arquivos](media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
+   ![Carregar arquivos](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
 
    A primeira etapa do assistente prepara um local de armazenamento do Azure seguro fornecido pela Microsoft para carregar os arquivos.  Quando a preparação estiver concluída, o botão **Avançar: carregar arquivos** se tornará ativo.
 
-   ![Importação não-Office 365: preparar](media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
+   ![Importação não-Office 365: preparar](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
  
 5. Clique em **Avançar: carregar arquivos**.
 
 6. Na página **carregar arquivos** , faça o seguinte:
 
-   ![Importação não-Office 365: carregar arquivos](media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
+   ![Importação não-Office 365: carregar arquivos](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
    a. Na caixa **caminho para o local dos arquivos** , verifique ou digite o local da pasta raiz onde você armazenou os dados que não são do Office 365 que você deseja carregar. Por exemplo, para o local dos arquivos de exemplo mostrados na **seção antes de começar**, digite **%USERPROFILE\Downloads\nonO365**. Fornecer o local correto garante que o comando AzCopy exibido em caixa abaixo do caminho seja atualizado corretamente.
 
@@ -87,7 +87,7 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
 7. Inicie um prompt de comando do Windows, Cole o comando copiado na etapa anterior e pressione **Enter** para iniciar o comando AzCopy.  Depois de iniciar o comando, os arquivos que não são do Office 365 serão carregados no local de armazenamento do Azure que foi preparado na etapa 4.
 
-   ![Importação não-Office 365: AzCopy](media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
+   ![Importação não-Office 365: AzCopy](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
    > [!NOTE]
    > Conforme mencionado anteriormente, você deve usar o AzCopy v 8.1 para usar com êxito o comando fornecido na página **carregar arquivos** . Se o comando AzCopy fornecido falhar, confira [solucionar problemas de AzCopy na descoberta eletrônica avançada](troubleshooting-azcopy.md).
@@ -96,6 +96,6 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
 9. Acompanhe o progresso do processamento de arquivos que não são do Office 365 na página **arquivos de processo** ou na guia **trabalhos** , exibindo um trabalho chamado **adicionando dados que não sejam 365 do Office a um conjunto de revisão**.  Depois que o trabalho for concluído, os novos arquivos estarão disponíveis no conjunto de revisão.
 
-   ![Importação não-Office 365: processar arquivos](media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
+   ![Importação não-Office 365: processar arquivos](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
 
 10. Depois que o processamento for concluído, você poderá fechar o assistente.

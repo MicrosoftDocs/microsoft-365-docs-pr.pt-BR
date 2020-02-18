@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos produtos da Microsoft.
-ms.openlocfilehash: 645d2bca907d81e32d8262051fd159dd52ba3039
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a0cdabdc37779ee2f7624242eeb177f3d35b87da
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083819"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
 
@@ -50,7 +50,7 @@ Depois que o administrador atribuir funções do Gerenciador de conformidade a o
 
 Cada função do gerente de conformidade tem permissões levemente diferentes. Você pode exibir as permissões atribuídas a cada função, ver quais usuários estão em quais funções e adicionar ou remover usuários dessa função através do portal de confiança do serviço. Selecione o item de menu **administrador** e escolha **configurações** para exibir.
   
-![Menu de administração de STP: configurações selecionadas](media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
+![Menu de administração de STP: configurações selecionadas](../media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
 Para adicionar ou remover usuários das funções do Gerenciador de Conformidade.
   
@@ -66,11 +66,11 @@ Para adicionar ou remover usuários das funções do Gerenciador de Conformidade
 
 6. Para adicionar usuários a essa função, selecione **Adicionar**. Na caixa de diálogo **Adicionar usuários** , selecione o campo usuário. Você pode rolar pela lista de usuários disponíveis ou começar a digitar o nome do usuário para filtrar a lista com base no seu termo de pesquisa. Selecione o usuário para adicionar essa conta à lista de **Adicionar usuários** fornecida com essa função. Se quiser adicionar vários usuários simultaneamente, comece a digitar um nome de usuário para filtrar a lista e, em seguida, selecione o usuário a ser adicionado à lista. Selecione **salvar** para provisionar a função selecionada para esses usuários. 
 
-    ![Gerenciador de conformidade — adicionar usuários](media/compliance-manager-add-users.png)
+    ![Gerenciador de conformidade — adicionar usuários](../media/compliance-manager-add-users.png)
   
 7. Para remover usuários dessa função, selecione os usuários e selecione **excluir**.
 
-    ![Gerenciador de conformidade — excluir usuários](media/compliance-manager-delete-users.png)
+    ![Gerenciador de conformidade — excluir usuários](../media/compliance-manager-delete-users.png)
 
 ### <a name="controlling-automatic-secure-score-updates"></a>Controlar atualizações automáticas de Pontuação segura
 
@@ -178,7 +178,7 @@ Não é possível editar o nome de um proprietário, mas você pode modificar a 
 
 A área ações do cliente mostra todas as ações do cliente para todos os modelos e avaliações no Gerenciador de conformidade (visualização).
 
-![Gerenciador de conformidade — adicionar usuários](media/compliance-manager-customer-actions.png "Ações do cliente do Gerenciador de conformidade")
+![Gerenciador de conformidade — adicionar usuários](../media/compliance-manager-customer-actions.png "Ações do cliente do Gerenciador de conformidade")
 
 Rapidamente, você pode ver o título de uma ação, proprietário, categoria, imposição e pontuação, e determinar se ele está integrado à pontuação segura. Você pode expandir uma ação e selecionar **ler mais** para ler a descrição da ação e acessar todos os links na descrição. Você também pode usar essa interface para habilitar e desabilitar a integração de Pontuação segura em uma base por ação e para adicionar ações personalizadas. As ações com recursos de integração de Pontuação segura têm reticências (...) ao lado delas (Observe que as ações personalizadas também têm reticências ao lado delas).
 
@@ -266,15 +266,15 @@ Ao criar uma avaliação, você tem a opção de copiar informações de um grup
 
 Veja um exemplo da avaliação do Office 365 e ISO 27001. O primeiro modo de exibição ilustra o novo modo de exibição itens de ação no Gerenciador de conformidade (visualização).
 
-![Exibição de itens de ação do gerente de conformidade](media/compliance-manager-action-items.png)
+![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-action-items.png)
 
 As ações são listadas em ordem alfabética e cada ação é atribuída a uma pontuação e um proprietário. Selecione o link **ler mais** para ler os detalhes de cada ação. 
 
-![Exibição de itens de ação do gerente de conformidade](media/compliance-manager-actions-read-more.png)
+![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-actions-read-more.png)
 
 Selecione o link **revisar** para gerenciar, atribuir, implementar e testar a ação. Veja a seguir um exemplo de ação.
 
-![Exibição de ação do Gerenciador de conformidade](media/compliance-manager-action.png)
+![Exibição de ação do Gerenciador de conformidade](../media/compliance-manager-action.png)
 
 Nas versões anteriores do Gerenciador de conformidade, o fluxo de trabalho para implementar os requisitos foi executado no nível de controle. Um responsável pela conformidade atribuiria um controle a alguém para implementar o controle. Houve duas desvantagens a isso:
 
@@ -295,7 +295,7 @@ No Gerenciador de conformidade (visualização), o processo de fluxo de trabalho
 
 O Gerenciador de conformidade (visualização) também inclui a tabela dinâmica baseada em controle encontrada em versões anteriores. Selecione o painel de **informações de controles** para exibi-lo. Você pode exibir informações de controles na avaliação e no nível do modelo. Veja a seguir um exemplo do painel de informações de controles para avaliações.
 
-![Exibição de informações de controles do Gerenciador de conformidade](media/compliance-manager-controls-info.png)
+![Exibição de informações de controles do Gerenciador de conformidade](../media/compliance-manager-controls-info.png)
 
 Para avaliações, o painel de informações de controles é exibido:
 
@@ -311,7 +311,7 @@ Para avaliações, o painel de informações de controles é exibido:
     - **Suas ações** exibe as ações do cliente que você pode executar para satisfazer alguns ou todos os requisitos do controle. Muitos controles têm várias ações associadas a eles, e todas as ações associadas a um controle são exibidas aqui. As ações aqui têm a mesma interface do usuário listadas no painel Ações.
     - **Microsoft Actions** exibe a lista de controles da estrutura interna da Microsoft que se aplicam ao controle de certificação selecionado. Para cada controle interno, selecione **implementado** para ver os detalhes de implementação e teste da Microsoft, juntamente com o resultado do teste e a data de teste, conforme mostrado abaixo.
 
-![Modo de exibição de ação da Microsoft do gerente de conformidade](media/compliance-manager-microsoft-action.png)
+![Modo de exibição de ação da Microsoft do gerente de conformidade](../media/compliance-manager-microsoft-action.png)
 
 ### <a name="export-an-assessment"></a>Exportar uma avaliação
 
@@ -329,7 +329,7 @@ O relatório de avaliação é baixado como um arquivo do Excel na sessão do na
 
 Quando você termina com um modelo ou avaliação e não precisa mais dele para fins de conformidade, é possível ocultá-lo em seu modo de exibição. Quando um modelo ou avaliação estiver oculto, ele será removido do modo de exibição padrão e você deverá selecionar a caixa de seleção **incluir oculto** para exibi-la.
 
-![Exibição de modelo oculto do Gerenciador de conformidade](media/compliance-manager-hidden-template.png "Modelo oculto do Gerenciador de conformidade")
+![Exibição de modelo oculto do Gerenciador de conformidade](../media/compliance-manager-hidden-template.png "Modelo oculto do Gerenciador de conformidade")
 
 > [!IMPORTANT]
 > As avaliações ocultas não retêm seus links para documentos de evidência carregados. É altamente recomendável que você exporte a avaliação antes de ocultá-la para manter links para os documentos de evidência no relatório.
@@ -367,7 +367,7 @@ Controles e ações são os dados dinâmicos principais usados no Gerenciador de
 
 Os controles podem ser exibidos no painel de informações de controles. Os controles representam os requisitos de um padrão, certificação, regulamentação ou estrutura. Para mapear esses requisitos entre vários padrões, regulamentações, etc., e para associá-los a ações, tudo é tratado como se fosse uma estrutura de controle. Por exemplo, como uma estrutura de controle, as regulamentações, como HIPAA, foram divididas por seção e os controles HIPAA no gerente de conformidade usam o mesmo esquema de numeração que essas seções, conforme mostrado abaixo:
 
-![Detalhes dos controles da Microsoft sobre o Gerenciador de conformidade](media/compliance-manager-control-details.png)
+![Detalhes dos controles da Microsoft sobre o Gerenciador de conformidade](../media/compliance-manager-control-details.png)
 
 Há três tipos de controles:
 
@@ -403,7 +403,7 @@ Essa função permite que uma organização remova as dependências ativas ou pe
 
 Um modelo é o objeto base no Gerenciador de conformidade (visualização) associado a um produto e uma certificação (por exemplo, padrão, regulamento, estrutura de controle, etc.). Os modelos podem ser exibidos e adicionados a partir do painel modelos.
 
-![Painel de modelo do Microsoft Gerenciador de conformidade](media/compliance-manager-template-dashboard.png)
+![Painel de modelo do Microsoft Gerenciador de conformidade](../media/compliance-manager-template-dashboard.png)
  
 O painel exibe cada modelo, juntamente com a certificação e o produto associados ao modelo, as datas em que o modelo foi criado e modificado pela última vez, o número de controles gerenciados pelo cliente e pela Microsoft, a pontuação de conformidade máxima para o Modelo e o status do modelo (por exemplo, aprovado, aprovação pendente, importado).
 
@@ -594,7 +594,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 2. Selecione o grupo e a avaliação nos menus suspensos da avaliação que você deseja exportar.
 3. Selecione exportar. A exportação de avaliação é baixada como um arquivo do Excel.
 
-![Relatório do Excel de avaliação do Gerenciador de conformidade](media/compliance-manager-assessment-report.png)
+![Relatório do Excel de avaliação do Gerenciador de conformidade](../media/compliance-manager-assessment-report.png)
 
 ## <a name="permissions"></a>Permissões
 

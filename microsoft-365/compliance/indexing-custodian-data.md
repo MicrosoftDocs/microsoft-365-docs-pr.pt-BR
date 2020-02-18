@@ -41,7 +41,7 @@ Para saber mais sobre o processamento de suporte no Office 365 e itens parcialme
 
 Após a conclusão do processo de indexação avançada, você pode entender a eficácia da reprocessamento.  No modo de exibição de resultados de indexação avançados na guia **processamento** para um caso, o gráfico lista o número de itens adicionados ao *índice híbrido*.  O índice híbrido é onde a descoberta eletrônica avançada armazena o conteúdo reprocessado.
 
-Este modo de exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para saber mais, veja:
+Este modo de exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para saber mais, confira:
 
 - [Correção de erros durante o processamento de dados](error-remediation.md)
 

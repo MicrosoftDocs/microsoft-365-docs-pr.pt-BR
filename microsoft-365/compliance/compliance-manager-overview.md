@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 43d7e3a12c72573b46d6c8d2aff36eed97fd08ac
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4d79b0480462510927f0b1b4c8b5da7132cffec8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078659"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -45,7 +45,7 @@ O Gerenciador de conformidade usa vários componentes para ajudá-lo com suas at
 
 O diagrama mostra as relações entre os principais componentes do Gerenciador de conformidade:
 
-![Relações no Gerenciador de conformidade versão 3](media/compliance-manager-relationships.png)
+![Relações no Gerenciador de conformidade versão 3](../media/compliance-manager-relationships.png)
 
 ## <a name="groups"></a>Grupos
 
@@ -77,7 +77,7 @@ Os [controles](working-with-compliance-manager.md#controls-and-actions) são con
 - **ID do artigo**: Este campo é somente para avaliações do rgpd e especifica o número de artigo correspondente do rgpd.
 - **Descrição**: texto de controle da certificação ou regulamentação correspondente. Devido a restrições de direitos autorais, um link para informações relevantes é listado para padrões ISO.
 
-![Controles no Gerenciador de conformidade versão 3](media/compliance-manager-controls.png)
+![Controles no Gerenciador de conformidade versão 3](../media/compliance-manager-controls.png)
 
 Há três tipos de controles no Gerenciador de conformidade, **controles gerenciados pela Microsoft**, **controles gerenciados pelo cliente**e **controles de gerenciamento compartilhados**
 

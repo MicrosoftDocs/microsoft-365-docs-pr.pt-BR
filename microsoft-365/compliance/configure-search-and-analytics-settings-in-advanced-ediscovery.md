@@ -83,7 +83,7 @@ Há situações em que certos textos reduzirão a qualidade da análise, como av
 
 ## <a name="optical-character-recognition-ocr"></a>Reconhecimento óptico de caracteres (OCR)
 
-Quando essa configuração estiver ativada, o OCR será executado em arquivos de imagem adicionados aos conjuntos de revisão para que o texto da imagem possa ser revisado, pesquisado, marcado e analisado. Você pode exibir o texto extraído no Visualizador de texto do arquivo de imagem selecionado no conjunto de revisão. Para saber mais, veja:
+Quando essa configuração estiver ativada, o OCR será executado em arquivos de imagem adicionados aos conjuntos de revisão para que o texto da imagem possa ser revisado, pesquisado, marcado e analisado. Você pode exibir o texto extraído no Visualizador de texto do arquivo de imagem selecionado no conjunto de revisão. Para saber mais, confira:
 
 - [Adicionar os resultados da pesquisa a um conjunto de revisão](add-data-to-review-set.md#optical-character-recognition)
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o modelo de detecção de privilégio de cliente advogado para usar a detecção baseada em aprendizado de máquina de conteúdo privilegiado ao examinar o conteúdo em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: b60fe72cf476b9a6cbbd5cae3ed1a1e541d6b313
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8fb635e429af2ae4d796e9c847a34d949d8dd6d9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079228"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>Configurar detecção de privilégio de cliente de advogado na descoberta eletrônica avançada
 
@@ -46,7 +46,7 @@ O modelo produz as três seguintes propriedades para cada documento:
 
 Essas propriedades (e seus valores correspondentes) são adicionadas aos metadados de arquivo dos documentos em um conjunto de revisão, conforme mostrado na captura de tela a seguir:
 
-![Propriedades de privilégio de cliente do advogado mostrados nos metadados do arquivo](media/AeDAttorneyClientPrivilegeMetadata.png)
+![Propriedades de privilégio de cliente do advogado mostrados nos metadados do arquivo](../media/AeDAttorneyClientPrivilegeMetadata.png)
 
 Essas três propriedades também podem ser pesquisadas em um conjunto de revisão. Para obter mais informações, consulte [consultar os dados em um conjunto de revisão](review-set-search.md).
 
@@ -62,7 +62,7 @@ Uma pessoa que é um administrador de descoberta eletrônica em sua organizaçã
 
 2. Na home page de **descoberta eletrônica avançada** , no bloco **configurações** , clique em **Configurar definições globais de análise**.
 
-   ![Selecione "configurar recursos experimentais"](media/AeDExperimentalFeatures.png)
+   ![Selecione "configurar recursos experimentais"](../media/AeDExperimentalFeatures.png)
 
 3. Na guia **configurações de análise** , selecione **gerenciar definição de privilégio de cliente do advogado**.
 
@@ -80,7 +80,7 @@ Para carregar uma lista de advogados para uso pelo modelo de detecção de privi
 
    A página de **privilégio advogado-cliente** é exibida, e a opção de **detecção de privilégio advogado-cliente** é ativada.
 
-   ![Página de submenu de privilégio de cliente do advogado](media/AeDUploadAttorneyList.png)
+   ![Página de submenu de privilégio de cliente do advogado](../media/AeDUploadAttorneyList.png)
 
 3. Selecione **procurar** e, em seguida, localize e selecione o arquivo. csv que você criou na etapa 1.
 
@@ -98,13 +98,13 @@ Uma das principais maneiras de ver os resultados da detecção de privilégio de
  
 2. Em **marcas**, selecione a ação ao lado de **Adicionar grupo** e selecione **Adicionar grupo de marcas inteligentes**.
 
-   ![Selecione "Adicionar grupo de marcas inteligentes"](media/AeDCreateSmartTag.png)
+   ![Selecione "Adicionar grupo de marcas inteligentes"](../media/AeDCreateSmartTag.png)
 
 3. Na página **escolha um modelo para a marca inteligente** , escolha **selecionar** próximo a **advogado-privilégio de cliente**.
 
    Um grupo de marcas chamado **privilégio advogado-cliente** é exibido. Ele contém duas marcas filhas chamadas **positiva** e **negativas**, que correspondem aos resultados possíveis produzidos pelo modelo.
 
-   ![Grupo de marcas inteligentes de privilégio de cliente advogado](media/AeDAttorneyClientSmartTagGroup.png)
+   ![Grupo de marcas inteligentes de privilégio de cliente advogado](../media/AeDAttorneyClientSmartTagGroup.png)
 
 3. Renomeie o grupo de marcas e as marcas conforme apropriado para sua revisão. Por exemplo, você pode renomear **positivo** como **privilegiado** e **negativo** para **não privilegiado**.
 
@@ -126,8 +126,8 @@ Se o modelo determinar que um documento não contém conteúdo legal ou que não
 
 Por exemplo, as capturas de tela a seguir mostram dois documentos. O primeiro contém conteúdo que é legal e tem um participante encontrado na lista de advogados. O segundo não contém e, portanto, não exibe nenhum rótulo.
 
-![Documento com rótulos de conteúdo legal e advogado](media/AeDTaggingPanelLegalContentAttorney.png)
+![Documento com rótulos de conteúdo legal e advogado](../media/AeDTaggingPanelLegalContentAttorney.png)
 
-![Documento sem rótulos](media/AeDTaggingPanelNegative.png)
+![Documento sem rótulos](../media/AeDTaggingPanelNegative.png)
 
 Após revisar um documento para ver se ele contém conteúdo privilegiado, você pode marcar o documento com a marca apropriada.

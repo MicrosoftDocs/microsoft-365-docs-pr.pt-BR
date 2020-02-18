@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: bfd810d358a85c0cdfacab50fb512a8d2a9c8828
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: f3a0291c2c611814e35528e87f5a3897c4e8ba59
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41892034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076259"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
@@ -45,11 +45,11 @@ Os gráficos a seguir mostram como as mensagens duplicadas são exibidas nos rel
   
  ### <a name="resultscsv-report-viewed-in-excel"></a>Relatório Results. csv (exibido no Excel)
   
-![Exibindo informações sobre itens duplicados no relatório Results. csv](media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![Exibindo informações sobre itens duplicados no relatório Results. csv](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
  ### <a name="manifestxml-report-viewed-in-excel"></a>Relatório manifest. XML (exibido no Excel)
   
-![Exibindo informações sobre itens duplicados no relatório manifest. xml](media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![Exibindo informações sobre itens duplicados no relatório manifest. xml](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 Além disso, outras propriedades de mensagens duplicadas são incluídas nos relatórios de exportação. Isso inclui a caixa de correio na qual a mensagem duplicada está localizada, se a mensagem foi enviada a um grupo de distribuição e se a mensagem era CC ou Cco para outro usuário.
   

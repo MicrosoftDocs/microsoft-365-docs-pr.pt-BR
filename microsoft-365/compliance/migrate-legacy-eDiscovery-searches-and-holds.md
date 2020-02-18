@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: f53d9cbf719b0e16749c9ea1dcae2533f8c48e50
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091375"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas de descoberta eletrônica herdadas e isenções para o centro de conformidade da Microsoft 365
 
@@ -58,7 +58,7 @@ Get-MailboxSearch
 
 A saída do cmdlet será semelhante à seguinte:
 
-![Exemplo de Get-MailboxSearch do PowerShell](media/MigrateLegacyeDiscovery1.png)
+![Exemplo de Get-MailboxSearch do PowerShell](../media/MigrateLegacyeDiscovery1.png)
 
 ## <a name="step-3-get-information-about-the-in-place-ediscovery-searches-and-in-place-holds-you-want-to-migrate"></a>Etapa 3: obter informações sobre as pesquisas de descoberta eletrônica in-loco e bloqueios in-loco que você deseja migrar
 
@@ -74,18 +74,19 @@ $search | FL
 
 A saída desses dois comandos será semelhante à seguinte:
 
-![Exemplo de saída do PowerShell usando Get-MailboxSearch para uma pesquisa individual](media/MigrateLegacyeDiscovery2.png)
+![Exemplo de saída do PowerShell usando Get-MailboxSearch para uma pesquisa individual](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
 > A duração do bloqueio in-loco neste exemplo está indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de descoberta eletrônica e investigação legal. Se a duração da retenção tiver um valor diferente de indefinido, o motivo provavelmente será que a retenção está sendo usada para reter o conteúdo em um cenário de retenção. Em vez de usar os cmdlets de descoberta eletrônica no PowerShell do centro de conformidade & segurança do Office 365 para cenários de retenção, recomendamos que você use [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) e [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como excluir o conteúdo depois que o período de retenção expirar. Além disso, usar os cmdlets de retenção não exige que você associe o bloqueio de retenção a uma ocorrência de descoberta eletrônica.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Etapa 4: criar um caso no centro de conformidade da Microsoft 365
 
-Para criar um bloqueio de descoberta eletrônica, você precisa criar um caso de descoberta eletrônica para associar a isenção. O exemplo a seguir cria uma ocorrência de descoberta eletrônica usando um nome de sua escolha. Armazenaremos as propriedades do novo caso em uma variável para uso posterior. Você pode exibir essas propriedades executando o `$case | FL` comando após criar o caso.
+Para criar um bloqueio de descoberta eletrônica, você precisa criar uma ocorrência de descoberta eletrônica para associar a isenção. O exemplo a seguir cria uma ocorrência de descoberta eletrônica usando um nome de sua escolha. Armazenaremos as propriedades do novo caso em uma variável para uso posterior. Você pode exibir essas propriedades executando o `$case | FL` comando após criar o caso.
 
 ```powershell
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
+![Exemplo de execução do comando New-ComplianceCase](../media/MigrateLegacyeDiscovery3.png)
 
 ## <a name="step-5-create-the-ediscovery-hold"></a>Etapa 5: criar o bloqueio de descoberta eletrônica
 
@@ -101,9 +102,11 @@ $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLo
 New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
 
+![Exemplo de uso de cmdlets do NewCaseHoldPolicy e do NewCaseHoldRule](../media/MigrateLegacyeDiscovery4.png)
+
 ## <a name="step-6-verify-the-ediscovery-hold"></a>Etapa 6: verificar a retenção de descoberta eletrônica
 
-Para garantir que não houve problemas na criação da isenção, é bom verificar se o status da distribuição de retenção foi bem-sucedido. Distribuição significa que a retenção foi aplicada a todos os locais de conteúdo especificados no parâmetro *ExchangeLocation* na etapa anterior. Para fazer isso, você pode executar o cmdlet **Get-CaseHoldPolicy** . Como as propriedades salvas na variável *$Policy* que você criou na etapa anterior não são automaticamente atualizadas na variável, é necessário executar novamente o cmdlet para verificar se a distribuição foi bem-sucedida. Pode levar entre 5 minutos e 24 horas para que as políticas de bloqueio de caso sejam distribuídas com êxito.
+Para garantir que não houve problemas na criação da isenção, é bom verificar se o status da distribuição de retenção foi bem-sucedido. Distribuição significa que a retenção foi aplicada a todos os locais de conteúdo especificados no parâmetro *ExchangeLocation* na etapa anterior. Para fazer isso, você pode executar o cmdlet **Get-CaseHoldPolicy** . Como as propriedades salvas na variável *$Policy* que você criou na etapa anterior não são atualizadas automaticamente na variável, é necessário executar novamente o cmdlet para verificar se a distribuição foi bem-sucedida. Pode levar entre 5 minutos e 24 horas para que as políticas de bloqueio de caso sejam distribuídas com êxito.
 
 Execute o seguinte comando para verificar se a descoberta eletrônica foi distribuída com êxito.
 
@@ -113,7 +116,7 @@ Get-CaseHoldPolicy -Identity $policy.Identity | Select name, DistributionStatus
 
 O valor de **Success** para a propriedade *DistributionStatus* indica que a retenção foi colocada com êxito nos locais de conteúdo. Se a distribuição ainda não estiver concluída, um valor de **Pending** será exibido.
 
-![Exemplo de Get-CaseHoldPolicy do PowerShell](media/MigrateLegacyeDiscovery5.png)
+![Exemplo de Get-CaseHoldPolicy do PowerShell](../media/MigrateLegacyeDiscovery5.png)
 
 ## <a name="step-7-create-the-search"></a>Etapa 7: criar a pesquisa
 
@@ -123,21 +126,21 @@ A última etapa é recriar a pesquisa que você identificou na etapa 3 e associ�
 New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxes -ContentMatchQuery $search.SearchQuery -Case $case.name
 ```
 
-![Exemplo do PowerShell New-ComplianceSearch](media/MigrateLegacyeDiscovery6.png)
+![Exemplo do PowerShell New-ComplianceSearch](../media/MigrateLegacyeDiscovery6.png)
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Etapa 8: verificar a ocorrência, a retenção e a pesquisa no centro de conformidade da Microsoft 365
 
 Para certificar-se de que tudo está configurado corretamente, vá para o centro de conformidade da [https://compliance.microsoft.com](https://compliance.microsoft.com)Microsoft 365 em e clique em **descoberta eletrônica > Core**.
 
-![EDiscovery do centro de conformidade da Microsoft 365](media/MigrateLegacyeDiscovery7.png)
+![EDiscovery do centro de conformidade da Microsoft 365](../media/MigrateLegacyeDiscovery7.png)
 
 O caso que você criou na etapa 3 está listado na página de **descoberta eletrônica principal** . Abra o caso e, em seguida, observe a suspensão que você criou na etapa 4, listada na guia **isenções** . Você pode clicar na isenção para ver os detalhes, incluindo o número de caixas de correio em que a retenção é aplicada e o status da distribuição.
 
-![bloqueios de descoberta eletrônica no centro de conformidade da Microsoft 365](media/MigrateLegacyeDiscovery8.png)
+![bloqueios de descoberta eletrônica no centro de conformidade da Microsoft 365](../media/MigrateLegacyeDiscovery8.png)
 
 A pesquisa criada na etapa 7 está listada na guia **pesquisas** da ocorrência de descoberta eletrônica.
 
-![pesquisa de ocorrência de descoberta eletrônica no centro de conformidade da Microsoft 365](media/MigrateLegacyeDiscovery9.png)
+![pesquisa de ocorrência de descoberta eletrônica no centro de conformidade da Microsoft 365](../media/MigrateLegacyeDiscovery9.png)
 
 Se você migrar uma pesquisa de descoberta eletrônica in-loco, mas não associá-la a uma ocorrência de descoberta eletrônica, ela será listada na página de pesquisa de conteúdo no centro de conformidade da Microsoft 365.
 

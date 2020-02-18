@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
 description: Com frequência, as organizações estão sujeitas a regulamentações de conformidade, legais ou outras que exigem que elas retenham documentos por um determinado período. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais. Por esse motivo, sua organização pode ter criado uma política de exclusão de documentos para seu site. Por exemplo, pode ser necessário que documentos comerciais gerais sejam excluídos cinco anos após sua criação.
-ms.openlocfilehash: 67bbe3339b492e5199799a21e5b3b249a3a98c08
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f04b693a68da36b37524fe5c1fd2e00fab6c2bc6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596068"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079818"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>Aplicar ou remover uma política de exclusão de documentos de um site
 
@@ -64,7 +64,7 @@ Sua organização pode atribuir políticas diferentes a conjuntos de sites difer
     
 Essa lista é somente para exibição, para que o proprietário de conjunto de sites veja todas as políticas e regras disponíveis. Para aplicar uma política, consulte a próxima seção.
   
-![Exibição das políticas de exclusão de documentos atribuídas a um conjunto de sites](media/f2c0433b-2bb5-407d-a364-ae07c9627176.png)
+![Exibição das políticas de exclusão de documentos atribuídas a um conjunto de sites](../media/f2c0433b-2bb5-407d-a364-ae07c9627176.png)
   
 ## <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>Aplicar ou remover uma política de exclusão de documentos de um site
 
@@ -83,13 +83,13 @@ Como proprietário do site ou proprietário de conjunto de sites, sua organizaç
     
     Somente uma política e uma regra poderão estar ativas em um site ao mesmo tempo. Sua organização pode oferecer várias opções de políticas e de regras ou somente uma política ou uma regra.
     
-    ![Selecionar opção de política](media/f7c7c055-fca7-4a4f-bb97-63e35a65beac.png)
+    ![Selecionar opção de política](../media/f7c7c055-fca7-4a4f-bb97-63e35a65beac.png)
   
   - **Para recusar uma política** Escolha **recusar: no note excluir** \> **salvar**.
     
     Como proprietário do site, você pode recusar uma política de exclusão de documentos se determinar que a política não se aplica ao conteúdo do seu site. No entanto, não é possível recusar uma política que tenha sido marcada como **obrigatória**.
     
-    ![Opção recusar](media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
+    ![Opção recusar](../media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
   
 ## <a name="document-deletion-policies-override-other-policies"></a>As políticas de exclusão de documentos substituem outras políticas
 
@@ -113,7 +113,7 @@ Se o seu site estava usando políticas de tipo de conteúdo e agora você vê es
     
 2. Em **modelos de política de tipo de conteúdo**da administração \> do **site** .
     
-    ![Aviso no site em que as políticas de exclusão de documentos estão sendo usadas](media/4cc3d703-9aff-4695-9670-f78c291c0010.png)
+    ![Aviso no site em que as políticas de exclusão de documentos estão sendo usadas](../media/4cc3d703-9aff-4695-9670-f78c291c0010.png)
   
 ### <a name="determine-if-information-management-policies-are-being-ignored"></a>Determinar se as políticas de gerenciamento de informações estão sendo ignoradas
 
@@ -121,7 +121,7 @@ Se o seu site estava usando políticas de gerenciamento de informações e agora
   
 - Para uma lista ou biblioteca, nas **configurações** \> da \> biblioteca de \> guias da **biblioteca** de faixa de **opções em configurações de política de gerenciamento de informações** **de gerenciamento** \> e permissões.
     
-    ![Aviso no site em que as políticas de exclusão de documentos estão sendo usadas](media/3f043057-a741-4cd8-a165-6d139b986064.png)
+    ![Aviso no site em que as políticas de exclusão de documentos estão sendo usadas](../media/3f043057-a741-4cd8-a165-6d139b986064.png)
   
 ## <a name="see-also"></a>Confira também
 

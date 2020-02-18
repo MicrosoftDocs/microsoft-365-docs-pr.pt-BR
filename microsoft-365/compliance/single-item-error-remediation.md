@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Você pode corrigir um erro de processamento em um documento em um conjunto de análise de descoberta eletrônica avançada sem precisar seguir o processo de correção de erro em massa.
-ms.openlocfilehash: c049ce4b5d3f8fc12a015a61ea927b744ae76eb3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3c50f9dcd1448ee36edd0e82e5b2c2879c11d6b5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601488"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069627"
 ---
 # <a name="single-item-error-remediation"></a>Correção de erros de item único
 
@@ -31,21 +31,21 @@ A correção de erros oferece aos usuários avançados a capacidade de corrigir 
 
 Os documentos com erros de processamento em um conjunto de revisão agora são identificados (com uma faixa). Você pode corrigir ou ignorar o erro. A captura de tela a seguir mostra a faixa de erro de processamento para um documento do Word em um conjunto de revisão protegido por senha. Observe também que você pode exibir os metadados de arquivo de documentos com erros de processamento.
 
-![Faixa exibida para documento com erro de processamento](media/SIERimage1.png)
+![Faixa exibida para documento com erro de processamento](../media/SIERimage1.png)
 
 Você também pode pesquisar documentos que têm erros de processamento usando a condição de **status de processamento** ao [consultar os documentos em um conjunto de revisão](review-set-search.md).
 
-![Usar a condição de status de processamento para pesquisar documentos de erro](media/SIERimage2.png)
+![Usar a condição de status de processamento para pesquisar documentos de erro](../media/SIERimage2.png)
 
 ### <a name="ignore-errors"></a>Ignorar erros
 
 Você pode ignorar um erro de processamento clicando em **ignorar** na faixa de erro de processamento. Quando você ignorar um erro, o documento será removido do [fluxo de trabalho de correção de erros em massa](error-remediation-when-processing-data-in-advanced-ediscovery.md). Depois que um erro é ignorado, a faixa de documentos muda de cor e indica que o erro de processamento foi ignorado. A qualquer momento, você pode reverter a decisão de ignorar o erro clicando em **reverter**.
 
-![Clique em ignorar para ignorar o erro de processamento](media/SIERimage3.png)
+![Clique em ignorar para ignorar o erro de processamento](../media/SIERimage3.png)
 
 Você também pode pesquisar todos os documentos que tiveram um erro de processamento ignorado usando a condição de erro de *processamento ignorado* ao consultar documentos em um conjunto de revisão.
 
-![Usar a condição de erros de processamento ignorado para pesquisar documentos de erro ignorados](media/SIERimage4.png)
+![Usar a condição de erros de processamento ignorado para pesquisar documentos de erro ignorados](../media/SIERimage4.png)
 
 ## <a name="remediate-a-document-with-errors"></a>Corrigir um documento com erros
 
@@ -55,26 +55,26 @@ Para corrigir um único documento, siga estas etapas:
 
 1. Clique em **baixar** > o**original** para baixar uma cópia do arquivo para um computador local.
 
-   ![Baixar o documento com o erro de processamento](media/SIERimage5.png)
+   ![Baixar o documento com o erro de processamento](../media/SIERimage5.png)
 
 2. Corrigir o erro no arquivo offline. Para arquivos criptografados que exijam software de descriptografia, para remover a proteção por senha, forneça a senha e salve o arquivo ou use um decifrador de senha. Depois de corrigir o arquivo, vá para a próxima etapa.
 
 3. No conjunto de revisão, selecione o arquivo com o erro de processamento que você corrigiu e clique em **correção**.
 
-   ![Clique em correção na faixa do documento com o erro de processamento](media/SIERimage6.png)
+   ![Clique em correção na faixa do documento com o erro de processamento](../media/SIERimage6.png)
 
 
 4. Clique em **procurar**, vá para o local do arquivo corrigido no computador local e selecione o arquivo.
 
-   ![Clique em procurar e selecione o arquivo corrigido no computador local](media/SIERimage7.png)
+   ![Clique em procurar e selecione o arquivo corrigido no computador local](../media/SIERimage7.png)
 
     Depois de selecionar o arquivo corrigido, ele é carregado automaticamente para o conjunto de revisão. Você pode acompanhar o status de processamento do arquivo.
 
-    ![O status do processo de correção é exibido](media/SIERimage8.png)
+    ![O status do processo de correção é exibido](../media/SIERimage8.png)
 
    Depois que o processamento for concluído, você poderá exibir o documento corrigido.
 
-    ![Você pode exibir o arquivo corrigido no formato nativo no conjunto de revisão](media/SIERimage9.png)
+    ![Você pode exibir o arquivo corrigido no formato nativo no conjunto de revisão](../media/SIERimage9.png)
 
 Para obter mais informações sobre o que acontece quando um documento é corrigido, consulte [o que acontece quando os arquivos são corrigidos](error-remediation.md#what-happens-when-files-are-remediated).
 

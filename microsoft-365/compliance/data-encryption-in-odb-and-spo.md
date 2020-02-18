@@ -29,7 +29,7 @@ ms.locfileid: "42076348"
 
 Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
   
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O Office 365 é um ambiente altamente seguro, que fornece proteção ampla em várias camadas: segurança física de data center, segurança de rede, segurança de acesso, segurança de aplicativo e segurança de dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
   

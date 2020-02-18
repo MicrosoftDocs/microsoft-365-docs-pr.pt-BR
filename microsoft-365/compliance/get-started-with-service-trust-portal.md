@@ -112,7 +112,7 @@ Este novo recurso permite salvar (ou *fixar*) documentos para que você possa ac
 
 Vá para **mais > administrador** para acessar funções administrativas que estão disponíveis somente para a conta de administrador global. Essa opção estará visível somente quando você estiver conectado como um administrador global. Há duas opções no menu suspenso **administrador** :
   
-- **Configurações:** Essa página permite atribuir acesso baseado em função (conhecido como *funções de usuário*) ao Gerenciador de conformidade.  Para saber mais, veja:
+- **Configurações:** Essa página permite atribuir acesso baseado em função (conhecido como *funções de usuário*) ao Gerenciador de conformidade.  Para saber mais, confira:
    
   - [Permissões no Gerenciador de conformidade (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control)
    
@@ -163,7 +163,7 @@ O portal de confiança do serviço permite que você visualize o conteúdo da p�
   
 ![Portal de Confiança do Serviço – opções de conteúdo localizado](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
-## <a name="feedback"></a>Feedback
+## <a name="feedback"></a>Comentários
 
 Podemos ajudá-lo com perguntas sobre o portal de confiança do serviço ou os erros que você enfrenta ao usar o Portal. Você também pode entrar em contato conosco com perguntas e comentários sobre relatórios de conformidade do portal de confiança do serviço e recursos de confiança usando o link feedback na parte inferior das páginas do STP.
   

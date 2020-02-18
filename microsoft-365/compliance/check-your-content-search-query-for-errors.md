@@ -13,18 +13,18 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: Verifique a pesquisa de palavras-chave em busca de erros e erros de digitação, como caracteres não suportados e operadores booleanos minúsculos, antes de executar a pesquisa. Se encontrarmos um erro, sugeriremos uma consulta revisada.
-ms.openlocfilehash: ff7574629a87062e0a0da36541844179dfe25001
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 65b8ea1d9c1d474b2068afc0df5b6e261f56fa69
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595918"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078899"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>Verifique se há erros na sua consulta da Pesquisa de Conteúdo
 
 Ao criar ou editar uma pesquisa de conteúdo, você pode fazer com que o Office 365 Verifique sua consulta em busca de caracteres não suportados e operadores booleanos em minúsculas. Como? Basta clicar em **verificar erros de digitação** na página consulta de uma pesquisa de conteúdo. 
   
-![Clique em "verificar erros de ortografia" para verificar se há caracteres não suportados na consulta de pesquisa.](media/e5314306-cfb2-481d-9b5c-13ce658156e7.png)
+![Clique em "verificar erros de ortografia" para verificar se há caracteres não suportados na consulta de pesquisa.](../media/e5314306-cfb2-481d-9b5c-13ce658156e7.png)
   
 Aqui está uma lista de caracteres não suportados que verificamos. Os caracteres sem suporte são geralmente ocultos e geralmente causam um erro de pesquisa ou retornam resultados indesejados.
   
@@ -40,7 +40,7 @@ Aqui está uma lista de caracteres não suportados que verificamos. Os caractere
 
 Se forem encontrados caracteres sem suporte na consulta, será exibida uma mensagem de aviso dizendo que os caracteres não suportados foram encontrados e sugerem uma alternativa. Você terá a opção de manter a consulta original ou substituí-la pela consulta revisada sugerida. Veja um exemplo da mensagem de aviso exibida depois que você clica em **verificar se há erros de ortografia** para a consulta de pesquisa na captura de tela anterior. Observe que a consulta original contém aspas inteligentes e operadores booleanos minúsculos. 
   
-![Uma mensagem de aviso é exibida com uma revisão sugerida para a consulta](media/23214b30-8e52-412c-bd80-63fb1b3ed52d.png)
+![Uma mensagem de aviso é exibida com uma revisão sugerida para a consulta](../media/23214b30-8e52-412c-bd80-63fb1b3ed52d.png)
   
 ## <a name="how-to-prevent-unsupported-characters-in-your-search-queries"></a>Como impedir que caracteres não suportados em suas consultas de pesquisa
 

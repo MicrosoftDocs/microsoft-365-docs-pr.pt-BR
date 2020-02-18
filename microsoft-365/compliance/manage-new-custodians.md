@@ -110,7 +110,7 @@ Para acionar o processo de reindexação para lidar com itens parcialmente index
 
 A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
 
-Para saber mais, veja:
+Para saber mais, confira:
 
 - [Trabalhar com erros de processamento](processing-data-for-case.md)
 

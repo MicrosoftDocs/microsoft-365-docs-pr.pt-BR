@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: f3421c62f0c7ac519ad44fc05174cd76872551d3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d9c12777669eeb9e723602db20e0827b278c0d9e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081558"
 ---
 # <a name="generate-search-term-report-for-a-review-set"></a>Gerar relatório de termo de pesquisa para um conjunto de revisão
 

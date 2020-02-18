@@ -17,12 +17,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: Antes de criar a primeira política de DLP (prevenção contra perda de dados), a DLP está ajudando a proteger suas informações confidenciais com uma política padrão. Essa política padrão e sua recomendação (mostrado abaixo) ajudam a manter seu conteúdo confidencial seguro, notificando-o quando emails ou documentos contendo um número de cartão de crédito foram compartilhados com alguém de fora da sua organização.
-ms.openlocfilehash: 3ac2fef32c7ba20d906ec96e2510971c94ef2652
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 687cfb50568310aa29f06da6bfbbc644d3edc853
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073100"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>Introdução à política DLP padrão
 
@@ -30,7 +30,7 @@ Antes de criar a primeira política de DLP (prevenção contra perda de dados), 
   
 Você pode usar esse widget para exibir rapidamente quando e quantas informações confidenciais foram compartilhadas e, em seguida, refinar a política de DLP padrão em apenas um clique ou dois. Você também pode editar a política de DLP padrão a qualquer momento, pois ela é totalmente personalizável. Observe que, se você não vir a recomendação primeiro, tente clicar **+ mais** na parte inferior da seção **recomendada para você** . 
   
-![Widget chamado proteger mais conteúdo compartilhado](media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
+![Widget chamado proteger mais conteúdo compartilhado](../media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
   
 ## <a name="view-the-report-and-refine-the-default-dlp-policy"></a>Exibir o relatório e refinar a política de DLP padrão
 
@@ -58,7 +58,7 @@ Para obter mais informações sobre relatórios de incidentes ou restringir o ac
   
 Se você quiser alterar essas opções mais tarde, poderá editar a política de DLP padrão a qualquer momento-consulte a próxima seção.
   
-![Configurações para widget chamado proteger mais conteúdo compartilhado](media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
+![Configurações para widget chamado proteger mais conteúdo compartilhado](../media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
   
 ## <a name="edit-the-default-dlp-policy"></a>Editar a política de DLP padrão
 
@@ -66,7 +66,7 @@ Essa política é chamada de **política padrão de DLP do Office 365** e aparec
   
 Essa política é totalmente personalizável, o mesmo que qualquer política de DLP que você criar a partir do zero. Você também pode desativar ou excluir a política, para que os usuários não recebam mais dicas de política ou notificações por email.
   
-![Política de DLP chamada política padrão de DLP do Office 365](media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
+![Política de DLP chamada política padrão de DLP do Office 365](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>Quando o widget não aparece
 

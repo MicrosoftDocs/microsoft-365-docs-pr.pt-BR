@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7a012ec742d99a5b2ba35800c90e8614b503b93c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3153fc92cfae6e2feba122cc895e787c9b573ef7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597318"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080889"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Solucionar problemas de AzCopy na descoberta eletrônica avançada
 
 Ao carregar dados não-Office 365 ou documentos para correção de erros na descoberta eletrônica avançada, a interface do usuário fornece um comando do AzCopy do Azure que contém parâmetros com o local onde os arquivos que você deseja carregar estão armazenados e o armazenamento do Azure local para o qual os arquivos serão carregados. Para carregar seus documentos, copie esse comando e execute-o em um prompt de comando no computador local.  A captura de tela a seguir mostra um exemplo de um comando do AzCopy:
 
-![Carregar arquivos que não são do Office 365](media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
+![Carregar arquivos que não são do Office 365](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
 Normalmente, o comando fornecido funciona quando você o executa. No entanto, pode haver casos em que o comando exibido não seja executado com êxito. Veja alguns motivos possíveis.
 

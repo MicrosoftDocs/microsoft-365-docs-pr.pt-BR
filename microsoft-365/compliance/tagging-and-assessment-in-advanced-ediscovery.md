@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: 'Revise as etapas para executar o treinamento de avaliação, incluindo arquivos de marcação e análise dos resultados da avaliação na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: b2eecb76416728f7319396f5c97054d0219b66e1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 93780d42cd42ced692a81f5cfd739bcd8713c2c2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081013"
 ---
 # <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Marcação e avaliação na descoberta eletrônica avançada do Office 365
 
@@ -36,7 +36,7 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
     
     Por exemplo, neste procedimento, um conjunto de avaliação de amostra de 500 arquivos é criado e a guia **marca** é exibida, que contém o painel de marcação, o conteúdo do arquivo exibido e outras opções de marcação. 
     
-    ![Guia Marca de Relevância para Avaliação](media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
+    ![Guia Marca de Relevância para Avaliação](../media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
   
 2. Revise cada arquivo no exemplo, determine a relevância do arquivo para cada problema de caso e marque o arquivo usando os botões relevância (R), não relevante (NR) e pular no painel **painel de marcação** . 
     
@@ -47,14 +47,14 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
     
     A margem de erro atual de avaliação e a riqueza são calculadas e exibidas na guia **controle de relevância** , com detalhes expandidos por problema, conforme mostrado abaixo. Mais detalhes sobre esta caixa de diálogo são descritos na seção posterior "resultados da análise de avaliações". 
     
-    ![Controle de relevância - avaliação](media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
+    ![Controle de relevância - avaliação](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
   
     > [!TIP]
     > Por padrão, recomendamos que você prossiga para a próxima etapa padrão quando o indicador de progresso da avaliação do problema tiver sido concluído, indicando que o exemplo de avaliação foi revisado e que os arquivos relevantes suficientes foram marcados. > caso contrário, se você quiser exibir os resultados da guia **rastrear** e controlar a margem de erro e a próxima etapa, clique em **Modificar** adjacente à **próxima etapa**, selecione **continuar avaliação**e clique em **OK**. 
   
 1. Clique em **Modificar** à direita da caixa de seleção de **avaliação** para exibir e especificar os parâmetros de avaliação por problema. Uma caixa de diálogo de **nível de avaliação** para cada problema é exibida, conforme mostrado no exemplo a seguir: 
     
-    ![Problema de caso de nível de avaliação](media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
+    ![Problema de caso de nível de avaliação](../media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
   
     Os seguintes parâmetros para o problema são calculados e exibidos na caixa de diálogo **nível de avaliação** : 
     
@@ -72,7 +72,7 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
     
 3. Clique em **avançado** na caixa de diálogo **nível de avaliação** para ver os seguintes parâmetros e detalhes adicionais: 
     
-    ![Exibição avançada de problema de caso de nível de avaliação](media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
+    ![Exibição avançada de problema de caso de nível de avaliação](../media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
   
     **Riqueza estimada**: riqueza estimada de acordo com os resultados da avaliação atual
     
@@ -92,7 +92,7 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
     
     Quando há vários problemas, após todos os problemas terem sido revisados ou ajustados, um **nível de avaliação: Resumo** é exibido, conforme mostrado no exemplo a seguir. 
     
-    ![Resumo do nível de análise](media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
+    ![Resumo do nível de análise](../media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
   
     Após a conclusão bem-sucedida da avaliação, prossiga para o próximo estágio no treinamento de relevância.
     

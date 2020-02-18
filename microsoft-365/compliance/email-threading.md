@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a3a4c1e257723ed6ba01f365dd54cba35267ef09
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 423b3a4ebb00473a45122cf89d2810e6d7c1fc2d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595076"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074698"
 ---
 # <a name="email-threading"></a>Threading de emails
 

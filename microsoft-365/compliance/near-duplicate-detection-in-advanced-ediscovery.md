@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8162cae8b69d420ffe87eda137be02688da778b0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e1a9ffe264925911f475732ffd98a43fa533e458
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071308"
 ---
 # <a name="near-duplicate-detection"></a>Detecção de duplicata próxima
 

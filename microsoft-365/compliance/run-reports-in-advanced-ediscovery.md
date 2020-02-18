@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 9d459065878eceaf9f0fc8b6ebacb749ff4c4830
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069979"
 ---
 # <a name="run-reports-in-office-365-advanced-ediscovery"></a>Executar relatórios na descoberta eletrônica avançada do Office 365
 
@@ -36,7 +36,7 @@ Você pode baixar um arquivo. csv com um relatório para o processo selecionado.
   
 1. Na guia **relatórios** , selecione uma opção na lista **nome do relatório** . Selecione entre três opções de **nome de relatório** : **decisão de relevância**, **lista de temas** ou **arquivos marcados**.
     
-    ![Relatórios de análise de Descoberta Eletrônica](media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
+    ![Relatórios de análise de Descoberta Eletrônica](../media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
   
 2. Os parâmetros disponíveis e as opções de classificação e filtragem podem ser definidos, dependendo do relatório selecionado. 
     

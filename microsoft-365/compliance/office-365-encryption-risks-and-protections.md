@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: 'Resumo: entenda a resiliência de dados no Microsoft Office 365.'
-ms.openlocfilehash: aeb6ba0a779bb0301919f781c5669e19263ee1bb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bb4d9ff99c3f9b463071abb5bd717342b3ca3fb4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601808"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071138"
 ---
 # <a name="encryption-risks-and-protections"></a>Riscos e proteções de criptografia
 

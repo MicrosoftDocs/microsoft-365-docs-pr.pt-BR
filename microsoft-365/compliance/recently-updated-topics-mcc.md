@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
-ms.openlocfilehash: 40ad0249b834eb187fecc34df3e2785e84201eee
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b285b51ca20e2822be9d8193d33e634418adbeb3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601648"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081619"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -117,13 +117,13 @@ Foram adicionadas novas orientações aos artigos a seguir sobre o CCPA (The Cal
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-[Aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md) (atualizado)<br>Foram removidas as informações sobre o suporte futuro para o rótulo recomendado no Outlook. Foram removidas informações de licenciamento duplicadas. Agora aponta para informações autoritativas em [Rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
+[Aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md) (atualizado)<br>Foram removidas as informações sobre o suporte futuro para o rótulo recomendado no Outlook. Foram removidas informações de licenciamento duplicadas. Agora aponta para informações autoritativas em [usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
 
 [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md) (novo)<br>Orientações sobre como preparar o SharePoint e o OneDrive para a aplicação de rótulos de confidencialidade ao conteúdo armazenado nesses locais.
 
 [Visão geral dos rótulos de sensibilidade](sensitivity-labels.md) (atualizado)<br>Adição de mais detalhes sobre o suporte para aplicativos do Office na Web, Microsoft Teams, Office 365 grupos, sites do SharePoint e arquivos do Office no SharePoint e no OneDrive.
 
-[Rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md) (atualizado)<br>Várias atualizações, incluindo detalhes sobre aplicativos com suporte recentemente, requisitos de assinatura e licenciamento e interação entre modelos definidos pelo administrador (como os da criptografia de mensagem do Office 365 e rótulos de confidencialidade).
+[Usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md) (atualizado)<br>Várias atualizações, incluindo detalhes sobre aplicativos com suporte recentemente, requisitos de assinatura e licenciamento e interação entre modelos definidos pelo administrador (como os da criptografia de mensagem do Office 365 e rótulos de confidencialidade).
 
 [Usar rótulos de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md) (novo)<br>Detalhes sobre como configurar e aplicar rótulos de sensibilidade no Microsoft Teams, grupos do Office 365 e sites do SharePoint.
 

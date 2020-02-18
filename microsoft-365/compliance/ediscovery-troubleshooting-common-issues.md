@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: ''
 description: Investigar, solucionar problemas e resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
-ms.openlocfilehash: c8eb4a330ab565900a685959ab1291990a6119bb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ff22ae11a21aef3909e58e03c8fefcf21db6435
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595126"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074799"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -51,7 +51,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome  |RecipientType  |
    > |---------|---------|
    > |Alias, usuário     |MailUser         |
-   > |Alias, usuário     |User         |
+   > |Alias, usuário     |Usuário         |
 
 3. Se vários usuários forem retornados, localize e corrija o objeto conflitante.
 
@@ -60,7 +60,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
 Uma pesquisa de descoberta eletrônica ou conteúdo pode resultar no seguinte erro:
 >Esta pesquisa foi concluída com erros (#).  Você gostaria de repetir a pesquisa nos locais com falha?
 
-![Falha na captura de tela de erro de local específico da pesquisa]( media/edisc-tshoot-specific-location-search-fails.png)
+![Falha na captura de tela de erro de local específico da pesquisa](../media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>Resolução
 
@@ -136,7 +136,7 @@ Ao exportar os resultados da pesquisa de descoberta eletrônica ou de pesquisa d
 
 Ao executar uma pesquisa de descoberta eletrônica, se a pesquisa falhar continuamente com um erro semelhante a "erro interno do servidor (500)", você pode precisar executar novamente a pesquisa em locais de caixa de correio específicos.
 
-![Captura de tela do erro do servidor interno 500](media/edisc-tshoot-error-500.png)
+![Captura de tela do erro do servidor interno 500](../media/edisc-tshoot-error-500.png)
 
 ### <a name="resolution"></a>Resolução
 

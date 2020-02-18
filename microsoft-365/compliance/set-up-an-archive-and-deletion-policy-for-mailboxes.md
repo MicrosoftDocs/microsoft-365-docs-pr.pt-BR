@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão no Office 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: 23732306abccbbdff654577ff120df8b79b78e6d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 53da9c027895421edaa99ebc18d17eafc0dbc679
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081174"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365
 
@@ -81,11 +81,11 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
     
 6. Clique em **Sim** para fechar a mensagem de aviso e iniciar o processo para habilitar a caixa de correio de arquivo morto para cada caixa de correio selecionada. 
     
-7. Quando o processo estiver concluído, clique **** ![em atualizar](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar a lista na página **arquivo morto** . 
+7. Quando o processo estiver concluído, clique **** ![em atualizar](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar a lista na página **arquivo morto** . 
     
     A caixa de correio de arquivo morto está habilitada para todos os usuários em sua organização.
     
-    ![A lista de caixas de correio com a caixa de correio de arquivo morto habilitada](media/61a7cb97-1bed-4808-aa5f-b6b761cfa8de.png)
+    ![A lista de caixas de correio com a caixa de correio de arquivo morto habilitada](../media/61a7cb97-1bed-4808-aa5f-b6b761cfa8de.png)
   
 8. Deixe o centro de conformidade & segurança aberto. Você o usará na próxima etapa.
     
@@ -105,7 +105,7 @@ Para criar novas marcas de retenção, você usará o centro de administração 
     
 2. No painel de navegação esquerdo do centro de administração do Microsoft 365, clique em **centros de administração**e, em seguida, clique em **Exchange**.
     
-    ![A captura de tela mostra o centro de administração do Microsoft 365 com a opção centros de administração expandida e o Exchange selecionado.](media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
+    ![A captura de tela mostra o centro de administração do Microsoft 365 com a opção centros de administração expandida e o Exchange selecionado.](../media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
   
 3. No Eat, vá para **marcas de retenção** de **Gerenciamento** \> de conformidade
     
@@ -115,11 +115,11 @@ Para criar novas marcas de retenção, você usará o centro de administração 
   
 Primeiro, você criará uma marca de política padrão de arquivo morto personalizada (DPT) que moverá itens para a caixa de correio de arquivo morto após 3 anos. 
   
-1. Na página **marcas de retenção** , clique em Nova **marca**![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
+1. Na página **marcas de retenção** , clique em Nova **marca**![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
     
 2. Na página **nova marca aplicada automaticamente à caixa de correio inteira (padrão)** , preencha os seguintes campos: 
     
-    ![Configurações para criar uma nova marca de política padrão de arquivo morto](media/41c0a43c-9c72-44e0-8947-da0831896432.png)
+    ![Configurações para criar uma nova marca de política padrão de arquivo morto](../media/41c0a43c-9c72-44e0-8947-da0831896432.png)
   
 1. **Nome** Digite um nome para a nova marca de retenção. 
     
@@ -137,11 +137,11 @@ Primeiro, você criará uma marca de política padrão de arquivo morto personal
   
 Em seguida, você criará outro DPT personalizado, mas ele será uma política de exclusão que exclui permanentemente os itens após 7 anos.
   
-1. Na página **marcas de retenção** , clique em Nova **marca**![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
+1. Na página **marcas de retenção** , clique em Nova **marca**![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
     
 2. Na página **nova marca aplicada automaticamente à caixa de correio inteira (padrão)** , preencha os seguintes campos: 
     
-    ![Configurações para criar uma nova marca de política padrão de exclusão](media/f1f0ff62-eec9-4824-8e7c-d93dcfb09a79.png)
+    ![Configurações para criar uma nova marca de política padrão de exclusão](../media/f1f0ff62-eec9-4824-8e7c-d93dcfb09a79.png)
   
 1. **Nome** Digite um nome para a nova marca de retenção. 
     
@@ -159,11 +159,11 @@ Em seguida, você criará outro DPT personalizado, mas ele será uma política d
   
 A última marca de retenção que você criará é uma marca de política de retenção personalizada (RPT) para a pasta itens excluídos. Essa marca excluirá itens na pasta itens excluídos após 5 anos e fornecerá um período de recuperação quando os usuários puderem usar a ferramenta recuperar itens excluídos para recuperar um item.
   
-1. Na página **marcas de retenção** , clique em Nova **marca** ![novo](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente a uma pasta padrão**. 
+1. Na página **marcas de retenção** , clique em Nova **marca** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente a uma pasta padrão**. 
     
 2. Na página **nova marca aplicada automaticamente a uma pasta padrão** , preencha os seguintes campos: 
     
-    ![Configurações para criar uma nova marca de política de retenção para a pasta itens excluídos](media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
+    ![Configurações para criar uma nova marca de política de retenção para a pasta itens excluídos](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
   
 1. **Nome** Digite um nome para a nova marca de retenção. 
     
@@ -185,17 +185,17 @@ Após criar as marcas de retenção personalizadas, a próxima etapa é criar um
   
 1. No Eat, vá para **políticas de retenção**de **Gerenciamento** \> de conformidade.
     
-2. Na página **políticas de retenção** , clique em **novo** ![ícone](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo.
+2. Na página **políticas de retenção** , clique em **novo** ![ícone](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo.
     
 3. Na caixa **nome** , digite um nome para a nova política de retenção; por exemplo, **política de arquivo morto e exclusão da Alpine Ski**. 
     
-4. Em **marcas de retenção**, **** ![clique em Adicionar](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo ícone.
+4. Em **marcas de retenção**, **** ![clique em Adicionar](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo ícone.
     
     É exibida uma lista das marcas de retenção em sua organização. Observação as marcas personalizadas que você criou na etapa 2 são exibidas.
     
 5. Adicione as 9 marcas de retenção realçadas na captura de tela a seguir (essas marcas são descritas em mais detalhes na seção [mais informações](#more-information) ). Para adicionar uma marca de retenção, selecione-a e clique em **Adicionar**. 
     
-    ![Adicionar marcas de retenção à nova política de retenção](media/d8e87176-0716-4238-9e6a-7c4af35541dc.png)
+    ![Adicionar marcas de retenção à nova política de retenção](../media/d8e87176-0716-4238-9e6a-7c4af35541dc.png)
   
     > [!TIP]
     > Você pode selecionar várias marcas de retenção mantendo pressionada a tecla **Ctrl** e clicando em cada marca. 
@@ -206,7 +206,7 @@ Após criar as marcas de retenção personalizadas, a próxima etapa é criar um
     
     A nova política de retenção é exibida na lista. Selecione-o para exibir as marcas de retenção vinculadas a ela no painel de detalhes.
     
-    ![A nova política de retenção e a lista de marcas de retenção vinculadas](media/63bc45e6-110b-4dc9-a85f-8eb1961a8258.png)
+    ![A nova política de retenção e a lista de marcas de retenção vinculadas](../media/63bc45e6-110b-4dc9-a85f-8eb1961a8258.png)
   
 ## <a name="step-4-assign-the-new-retention-policy-to-user-mailboxes"></a>Etapa 4: atribuir a nova política de retenção a caixas de correio do usuário
 
@@ -228,7 +228,7 @@ Quando uma nova caixa de correio é criada, uma política de retenção chamada 
     
 7. Para verificar se a nova política de retenção foi atribuída às caixas de correio, você pode fazer o seguinte: selecione uma caixa de correio na página caixas de correio e clique em Editar. 
     
-1. Selecione uma caixa de correio na página **caixas de correio** e clique em **Editar** ![editar](media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png). 
+1. Selecione uma caixa de correio na página **caixas de correio** e clique em **Editar** ![editar](../media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png). 
     
 2. Na página de propriedades da caixa de correio do usuário selecionado, clique em **recursos da caixa de correio**.
     

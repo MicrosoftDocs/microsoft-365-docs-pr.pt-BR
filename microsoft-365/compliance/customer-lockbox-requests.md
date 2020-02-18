@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 915f8570271835939f0086f6c19af41a42d4f0d0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8906fde608e6e6c26604450eed063915e4617d29
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076797"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -50,7 +50,7 @@ As etapas a seguir descrevem o fluxo de trabalho típico quando um engenheiro da
 
 5. Depois que um gerente de suporte da Microsoft aprova a solicitação, o Lockbox do cliente envia o aprovador designado na organização uma notificação por email sobre a solicitação de acesso pendente da Microsoft.
 
-    ![Exemplo de notificação de email de lockbox de cliente](media/CustomerLockbox1.png)
+    ![Exemplo de notificação de email de lockbox de cliente](../media/CustomerLockbox1.png)
 
    Qualquer pessoa que tenha atribuído a função de administrador do [Aprovador de acesso de lockbox do cliente](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) no centro de administração do Microsoft 365 pode aprovar as solicitações de lockbox do cliente.
 
@@ -74,11 +74,11 @@ Você pode ativar os controles de lockbox de cliente no centro de administraçã
 
 2. Escolha **configurações > segurança & privacidade**.
 
-    ![Editar as configurações de lockbox do cliente no centro de administração](media/CustomerLockbox2.png)
+    ![Editar as configurações de lockbox do cliente no centro de administração](../media/CustomerLockbox2.png)
 
 3. No bloco de **Lockbox do cliente** , escolha **Editar**e, em seguida, mova a opção para **ativado** ou **desativado** para ativar ou desativar o recurso.
 
-    ![Require approval for Customer Lockbox](media/CustomerLockbox4.png)
+    ![Require approval for Customer Lockbox](../media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>Aprovar ou negar uma solicitação de lockbox do cliente
 
@@ -86,19 +86,19 @@ Você pode ativar os controles de lockbox de cliente no centro de administraçã
 
 2. Escolha **suporte > solicitações de lockbox do cliente**.
 
-    ![Clique em suporte e, em seguida, clique em solicitações de lockbox do cliente](media/CustomerLockbox5.png)
+    ![Clique em suporte e, em seguida, clique em solicitações de lockbox do cliente](../media/CustomerLockbox5.png)
 
     Uma lista de solicitações de lockbox do cliente é exibida.
 
-    ![Lista de solicitações de lockbox do cliente](media/CustomerLockbox6.png)
+    ![Lista de solicitações de lockbox do cliente](../media/CustomerLockbox6.png)
 
 3. Selecione uma solicitação de lockbox de cliente e, em seguida, escolha **aprovar** ou **negar**.
 
-    ![Aprovar ou negar solicitações de lockbox do cliente](media/CustomerLockbox7.png)
+    ![Aprovar ou negar solicitações de lockbox do cliente](../media/CustomerLockbox7.png)
 
     Uma mensagem de confirmação sobre a aprovação da solicitação de lockbox do cliente é exibida.
 
-    ![Aprovar ou negar solicitações de lockbox do cliente](media/CustomerLockbox8.png)
+    ![Aprovar ou negar solicitações de lockbox do cliente](../media/CustomerLockbox8.png)
 
 ## <a name="auditing-customer-lockbox-requests"></a>Auditar solicitações de lockbox do cliente
 
@@ -116,7 +116,7 @@ Antes de poder usar o log de auditoria para rastrear solicitações de lockbox d
 
     A página **pesquisa de log de auditoria** é exibida.
 
-    ![Página pesquisa de log de auditoria](media/auditlogsearch1.png)
+    ![Página pesquisa de log de auditoria](../media/auditlogsearch1.png)
   
 4. Configure os seguintes critérios de pesquisa: 
 
@@ -138,7 +138,7 @@ Antes de poder usar o log de auditoria para rastrear solicitações de lockbox d
 
    - Para exibir registros de auditoria relacionados a um engenheiro da Microsoft executando ações em resposta a uma solicitação de lockbox de cliente aprovado: na caixa abaixo da coluna **usuário** , digite **operador da Microsoft**. A coluna **atividade** exibe a ação executada pelo engenheiro.
 
-      ![Filtro em "operador da Microsoft" para exibir registros de auditoria](media/CustomerLockbox10.png)
+      ![Filtro em "operador da Microsoft" para exibir registros de auditoria](../media/CustomerLockbox10.png)
 
 7. Na lista de resultados, clique em um registro de auditoria para exibi-lo.
 
@@ -150,13 +150,13 @@ Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockb
 |:---------- |:----------|
 | Date       | A data e a hora em que a solicitação de lockbox do cliente foi aprovada ou negada.
 | Endereço IP | O endereço IP do computador que o aprovador usou para aprovar ou negar uma solicitação. |
-| User       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
+| Usuário       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
 | Atividade   | Set-AccessToCustomerDataRequest; Esta é a atividade de auditoria que é registrada quando você aprova ou nega uma solicitação de lockbox do cliente.                                |
 | Item       | O GUID da solicitação de lockbox do cliente                             |
 
 A captura de tela a seguir mostra um exemplo de um registro de log de auditoria que corresponde a uma solicitação de lockbox de cliente aprovado. Se uma solicitação de lockbox do cliente tiver sido negada, o valor do parâmetro **ApprovalDecision** seria **negado**.
 
-![Registro de auditoria para uma solicitação de lockbox de cliente aprovada](media/CustomerLockbox9.png)
+![Registro de auditoria para uma solicitação de lockbox de cliente aprovada](../media/CustomerLockbox9.png)
 
 > [!TIP]
 > Para exibir informações mais detalhadas em um registro de auditoria, clique em **mais informações**.
@@ -169,7 +169,7 @@ As ações executadas por um engenheiro da Microsoft depois que uma solicitaçã
 |:---------- |:----------|
 | Date       | Data e hora em que a ação foi executada. Observe que a hora em que essa ação foi executada estará dentro de 4 horas após a aprovação da solicitação de lockbox do cliente.              |
 | Endereço IP | O endereço IP do engenheiro de máquina da Microsoft usado. |
-| User       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
+| Usuário       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
 | Atividade   | Nome da atividade realizada pelo engenheiro da Microsoft.|
 | Item       | \<Empty\>                                             |
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: df5ad2ce1d40421e43cdd5e8c3fd4dd5efe1c6f7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b7975f5d288348177cbb6edec8002b4ed49de327
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069868"
 ---
 # <a name="search-statistics"></a>Estatísticas de pesquisa
 

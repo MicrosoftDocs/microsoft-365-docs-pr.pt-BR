@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 0ba8defac50c4037f8a7100b5e4d0808eb0af362
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 234748b8390dcbc5742961c2f10a19a284e01f1c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595988"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079608"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -61,9 +61,9 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
     
 4. Na página do submenu **Gerenciador de descoberta eletrônica** , siga um destes procedimentos com base nas permissões de descoberta eletrônica que você deseja atribuir. 
   
-    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , selecione o hiperlink **escolher Gerenciador de descoberta eletrônica** e ![selecione Adicionar](media/ITPro-EAC-AddIcon.gif) ícone **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha Gerenciador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do Gerenciador de descoberta eletrônica.
+    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , selecione o hiperlink **escolher Gerenciador de descoberta eletrônica** e ![selecione Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha Gerenciador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do Gerenciador de descoberta eletrônica.
   
-    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher administrador de descoberta eletrônica** , **em administradores de descoberta eletrônica**, selecione **escolher administrador de descoberta eletrônica**, selecione ![ **Editar**e, em seguida, selecione Adicionar ícone](media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e, em seguida, **adicione**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do administrador de descoberta eletrônica.
+    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher administrador de descoberta eletrônica** , **em administradores de descoberta eletrônica**, selecione **escolher administrador de descoberta eletrônica**, selecione ![ **Editar**e, em seguida, selecione Adicionar ícone](../media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e, em seguida, **adicione**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do administrador de descoberta eletrônica.
       
 > [!NOTE]
 > Você também pode usar o cmdlet **Add-eDiscoveryCaseAdmin** para tornar um usuário um administrador de descoberta eletrônica. No entanto, o usuário deve ter a função de gerenciamento de casos atribuída para que você possa usar este cmdlet para torná-los um administrador de descoberta eletrônica. Para obter mais informações, consulte [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217). 
@@ -76,14 +76,14 @@ A tabela a seguir lista as funções RBAC relacionadas à descoberta eletrônica
     
 |**Função**|**Administrador de Conformidade**|**Administrador & do Gerenciador de descoberta eletrônica**|**Organization Management**|**Revisor**|
 |:-----|:-----:|:-----:|:-----:|:-----:|
-|Gerenciamento de casos <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Pesquisa de Conformidade <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Exportar <br/> | <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|Retenção <br/>  |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Visualização <br/>  | <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|Revisão <br/>  | <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
-|Descriptografia do RMS <br/>  ||![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
-|Pesquisa e limpeza <br/> | <br/> | <br/> |![Marca de seleção](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
+|Gerenciamento de casos <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|Pesquisa de Conformidade <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|Exportar <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Retenção <br/>  |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|Visualização <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Revisão <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
+|Descriptografia do RMS <br/>  ||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
+|Pesquisa e limpeza <br/> | <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
 ||||
   
 As seções a seguir descrevem cada uma das funções RBAC relacionadas à descoberta eletrônica listadas na tabela anterior.
