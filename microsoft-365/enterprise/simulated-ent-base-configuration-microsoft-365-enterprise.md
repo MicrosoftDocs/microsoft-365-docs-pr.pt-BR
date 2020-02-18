@@ -24,90 +24,90 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42084100"
 ---
-# <a name="the-simulated-enterprise-base-configuration"></a><span data-ttu-id="b1232-103">A configuração base corporativa simulada</span><span class="sxs-lookup"><span data-stu-id="b1232-103">The simulated enterprise base configuration</span></span>
+# <a name="the-simulated-enterprise-base-configuration"></a><span data-ttu-id="a9393-103">A configuração base corporativa simulada</span><span class="sxs-lookup"><span data-stu-id="a9393-103">The simulated enterprise base configuration</span></span>
 
-<span data-ttu-id="b1232-104">*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*</span><span class="sxs-lookup"><span data-stu-id="b1232-104">*This Test Lab Guide can be used for both Microsoft 365 Enterprise and Office 365 Enterprise test environments.*</span></span>
+<span data-ttu-id="a9393-104">*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*</span><span class="sxs-lookup"><span data-stu-id="a9393-104">*This Test Lab Guide can be used for both Microsoft 365 Enterprise and Office 365 Enterprise test environments.*</span></span>
 
-<span data-ttu-id="b1232-105">Este artigo fornece instruções passo a passo para criar um ambiente simplificado do Microsoft 365 Enterprise, que inclui:</span><span class="sxs-lookup"><span data-stu-id="b1232-105">This article provides you with step-by-step instructions to create a simplified environment for Microsoft 365 Enterprise that includes:</span></span>
+<span data-ttu-id="a9393-105">Este artigo fornece instruções passo a passo para criar um ambiente simplificado do Microsoft 365 Enterprise, que inclui:</span><span class="sxs-lookup"><span data-stu-id="a9393-105">This article provides you with step-by-step instructions to create a simplified environment for Microsoft 365 Enterprise that includes:</span></span>
 
-- <span data-ttu-id="b1232-106">Uma assinatura de avaliação ou assinatura paga do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="b1232-106">A Microsoft 365 E5 trial or paid subscription.</span></span>
-- <span data-ttu-id="b1232-107">Uma intranet de organização simplificada conectada à Internet, composta por três máquinas virtuais em uma Rede Virtual do Microsoft Azure (DC1 APP1 e CLIENT1).</span><span class="sxs-lookup"><span data-stu-id="b1232-107">A simplified organization intranet connected to the Internet, consisting of three virtual machines on an Azure virtual network (DC1, APP1, and CLIENT1).</span></span>
+- <span data-ttu-id="a9393-106">Uma assinatura de avaliação ou assinatura paga do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="a9393-106">A Microsoft 365 E5 trial or paid subscription.</span></span>
+- <span data-ttu-id="a9393-107">Uma intranet de organização simplificada conectada à Internet, composta por três máquinas virtuais em uma Rede Virtual do Microsoft Azure (DC1 APP1 e CLIENT1).</span><span class="sxs-lookup"><span data-stu-id="a9393-107">A simplified organization intranet connected to the Internet, consisting of three virtual machines on an Azure virtual network (DC1, APP1, and CLIENT1).</span></span>
  
 ![A configuração base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-<span data-ttu-id="b1232-109">Você pode usar o ambiente resultante para testar os recursos e a funcionalidade do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) com os [Guias de laboratório de teste](m365-enterprise-test-lab-guides.md) adicionais ou por sua própria conta.</span><span class="sxs-lookup"><span data-stu-id="b1232-109">You can use the resulting environment to test the features and functionality of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) with additional [Test Lab Guides](m365-enterprise-test-lab-guides.md) or on your own.</span></span>
+<span data-ttu-id="a9393-109">Você pode usar o ambiente resultante para testar os recursos e a funcionalidade do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) com os [Guias de laboratório de teste](m365-enterprise-test-lab-guides.md) adicionais ou por sua própria conta.</span><span class="sxs-lookup"><span data-stu-id="a9393-109">You can use the resulting environment to test the features and functionality of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) with additional [Test Lab Guides](m365-enterprise-test-lab-guides.md) or on your own.</span></span>
 
 ![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> <span data-ttu-id="b1232-111">Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="b1232-111">Click [here](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="a9393-111">Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="a9393-111">Click [here](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
 
-## <a name="phase-1-create-a-simulated-intranet"></a><span data-ttu-id="b1232-112">Fase 1: criar uma intranet simulada</span><span class="sxs-lookup"><span data-stu-id="b1232-112">Phase 1: Create a simulated intranet</span></span>
+## <a name="phase-1-create-a-simulated-intranet"></a><span data-ttu-id="a9393-112">Fase 1: criar uma intranet simulada</span><span class="sxs-lookup"><span data-stu-id="a9393-112">Phase 1: Create a simulated intranet</span></span>
 
-<span data-ttu-id="b1232-113">Nesta fase, você cria uma intranet simulada nos serviços de infraestrutura do Azure, que inclui um controlador de domínio dos Serviços de Domínio do Active Directory (AD DS), um servidor de aplicativos e um computador cliente.</span><span class="sxs-lookup"><span data-stu-id="b1232-113">In this phase, you build a simulated intranet in Azure infrastructure services that includes an Active Directory Domain Services (AD DS) domain controller, an application server, and a client computer.</span></span> 
+<span data-ttu-id="a9393-113">Nesta fase, você cria uma intranet simulada nos serviços de infraestrutura do Azure, que inclui um controlador de domínio dos Serviços de Domínio do Active Directory (AD DS), um servidor de aplicativos e um computador cliente.</span><span class="sxs-lookup"><span data-stu-id="a9393-113">In this phase, you build a simulated intranet in Azure infrastructure services that includes an Active Directory Domain Services (AD DS) domain controller, an application server, and a client computer.</span></span> 
 
-<span data-ttu-id="b1232-114">Você usará esses computadores em outros [Guias de laboratório de teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para configurar e demonstrar a identidade híbrida e outros recursos.</span><span class="sxs-lookup"><span data-stu-id="b1232-114">You'll use these computers in additional [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) to configure and demonstrate hybrid identity and other capabilities.</span></span>
+<span data-ttu-id="a9393-114">Você usará esses computadores em outros [Guias de laboratório de teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para configurar e demonstrar a identidade híbrida e outros recursos.</span><span class="sxs-lookup"><span data-stu-id="a9393-114">You'll use these computers in additional [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) to configure and demonstrate hybrid identity and other capabilities.</span></span>
 
-### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a><span data-ttu-id="b1232-115">Método 1: criar sua intranet simulada com um modelo do Azure Resource Manager</span><span class="sxs-lookup"><span data-stu-id="b1232-115">Method 1: Build your simulated intranet with an Azure Resource Manager template</span></span>
+### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a><span data-ttu-id="a9393-115">Método 1: criar sua intranet simulada com um modelo do Azure Resource Manager</span><span class="sxs-lookup"><span data-stu-id="a9393-115">Method 1: Build your simulated intranet with an Azure Resource Manager template</span></span>
 
-<span data-ttu-id="b1232-p101">Nesse método, você usa um modelo do Azure Resource Manager (ARM) para criar uma intranet simulada. Os modelos do ARM contêm todas as instruções para criar a infraestrutura de rede do Azure, as máquinas virtuais e suas configurações.</span><span class="sxs-lookup"><span data-stu-id="b1232-p101">In this method, you use an Azure Resource Manager (ARM) template to build out the simulated intranet. ARM templates contain all of the instructions to create the Azure networking infrastructure, the virtual machines, and their configuration.</span></span>
+<span data-ttu-id="a9393-p101">Nesse método, você usa um modelo do Azure Resource Manager (ARM) para criar uma intranet simulada. Os modelos do ARM contêm todas as instruções para criar a infraestrutura de rede do Azure, as máquinas virtuais e suas configurações.</span><span class="sxs-lookup"><span data-stu-id="a9393-p101">In this method, you use an Azure Resource Manager (ARM) template to build out the simulated intranet. ARM templates contain all of the instructions to create the Azure networking infrastructure, the virtual machines, and their configuration.</span></span>
 
-<span data-ttu-id="b1232-118">Antes de implantar o modelo, leia toda a [página LEIAME do modelo](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) e tenha as seguintes informações em mãos:</span><span class="sxs-lookup"><span data-stu-id="b1232-118">Prior to deploying the template, read through the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) and have the following information ready:</span></span>
+<span data-ttu-id="a9393-118">Antes de implantar o modelo, leia toda a [página LEIAME do modelo](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) e tenha as seguintes informações em mãos:</span><span class="sxs-lookup"><span data-stu-id="a9393-118">Prior to deploying the template, read through the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) and have the following information ready:</span></span>
 
-- <span data-ttu-id="b1232-p102">O nome de domínio público DNS do seu ambiente de teste (testlab.\<seu domínio público>). Será preciso inserir esse nome no **campo Nome de domínio** da página **Implantação personalizada**.</span><span class="sxs-lookup"><span data-stu-id="b1232-p102">The public DNS domain name of your test environment (testlab.\<your public domain>). You’ll need to enter this name in the **Domain Name field** of the **Custom deployment** page.</span></span>
-- <span data-ttu-id="b1232-p103">Um prefixo de rótulo DNS para as URLs dos endereços IP públicos de suas máquinas virtuais. Você precisará inserir esse rótulo no campo **Prefixo do rótulo DNS** da página **Implantação personalizada**.</span><span class="sxs-lookup"><span data-stu-id="b1232-p103">A DNS label prefix for the URLs of the public IP addresses of your virtual machines. You’ll need to enter this label in the **Dns Label Prefix** field of the **Custom deployment** page.</span></span>
+- <span data-ttu-id="a9393-p102">O nome de domínio público DNS do seu ambiente de teste (testlab.\<seu domínio público>). Será preciso inserir esse nome no **campo Nome de domínio** da página **Implantação personalizada**.</span><span class="sxs-lookup"><span data-stu-id="a9393-p102">The public DNS domain name of your test environment (testlab.\<your public domain>). You’ll need to enter this name in the **Domain Name field** of the **Custom deployment** page.</span></span>
+- <span data-ttu-id="a9393-p103">Um prefixo de rótulo DNS para as URLs dos endereços IP públicos de suas máquinas virtuais. Você precisará inserir esse rótulo no campo **Prefixo do rótulo DNS** da página **Implantação personalizada**.</span><span class="sxs-lookup"><span data-stu-id="a9393-p103">A DNS label prefix for the URLs of the public IP addresses of your virtual machines. You’ll need to enter this label in the **Dns Label Prefix** field of the **Custom deployment** page.</span></span>
 
-<span data-ttu-id="b1232-123">Depois de ler todas as instruções, clique em **Implantar no Azure** na [página LEIAME do modelo](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) para começar.</span><span class="sxs-lookup"><span data-stu-id="b1232-123">After reading through the instructions, click **Deploy to Azure** on the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) to get started.</span></span>
+<span data-ttu-id="a9393-123">Depois de ler todas as instruções, clique em **Implantar no Azure** na [página LEIAME do modelo](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) para começar.</span><span class="sxs-lookup"><span data-stu-id="a9393-123">After reading through the instructions, click **Deploy to Azure** on the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) to get started.</span></span>
 
 >[!Note]
-><span data-ttu-id="b1232-124">A intranet simulada criada pelo modelo do ARM requer uma assinatura paga do Azure.</span><span class="sxs-lookup"><span data-stu-id="b1232-124">The simulated intranet built by the ARM template requires a paid Azure subscription.</span></span>
+><span data-ttu-id="a9393-124">A intranet simulada criada pelo modelo do ARM requer uma assinatura paga do Azure.</span><span class="sxs-lookup"><span data-stu-id="a9393-124">The simulated intranet built by the ARM template requires a paid Azure subscription.</span></span>
 >
 
-<span data-ttu-id="b1232-125">Esta é sua configuração após a conclusão do modelo.</span><span class="sxs-lookup"><span data-stu-id="b1232-125">Here is your configuration after the template is complete.</span></span>
+<span data-ttu-id="a9393-125">Esta é sua configuração após a conclusão do modelo.</span><span class="sxs-lookup"><span data-stu-id="a9393-125">Here is your configuration after the template is complete.</span></span>
 
 ![A intranet simulada nos serviços de infraestrutura do Azure](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
-### <a name="method-2-build-your-simulated-intranet-with-azure-powershell"></a><span data-ttu-id="b1232-127">Método 2: criar sua intranet simulada com o Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="b1232-127">Method 2: Build your simulated intranet with Azure PowerShell</span></span>
+### <a name="method-2-build-your-simulated-intranet-with-azure-powershell"></a><span data-ttu-id="a9393-127">Método 2: criar sua intranet simulada com o Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="a9393-127">Method 2: Build your simulated intranet with Azure PowerShell</span></span>
 
-<span data-ttu-id="b1232-128">Nesse método, use o módulo do Windows PowerShell e do Azure PowerShell para criar a infraestrutura de rede, as máquinas virtuais e suas configurações.</span><span class="sxs-lookup"><span data-stu-id="b1232-128">In this method, you use Windows PowerShell and the Azure PowerShell module to build out the networking infrastructure, the virtual machines, and their configuration.</span></span>
+<span data-ttu-id="a9393-128">Nesse método, use o módulo do Windows PowerShell e do Azure PowerShell para criar a infraestrutura de rede, as máquinas virtuais e suas configurações.</span><span class="sxs-lookup"><span data-stu-id="a9393-128">In this method, you use Windows PowerShell and the Azure PowerShell module to build out the networking infrastructure, the virtual machines, and their configuration.</span></span>
 
-<span data-ttu-id="b1232-p104">Use esse método caso deseje obter a experiência de criação de elementos de infraestrutura do Azure uma etapa por vez com o PowerShell. Assim, é possível personalizar os blocos de comando do PowerShell para sua própria implantação de outras máquinas virtuais no Azure.</span><span class="sxs-lookup"><span data-stu-id="b1232-p104">Use this method if you want to get experience creating elements of Azure infrastructure one step at a time with PowerShell. You can then customize the PowerShell command blocks for your own deployment of other virtual machines in Azure.</span></span>
+<span data-ttu-id="a9393-p104">Use esse método caso deseje obter a experiência de criação de elementos de infraestrutura do Azure uma etapa por vez com o PowerShell. Assim, é possível personalizar os blocos de comando do PowerShell para sua própria implantação de outras máquinas virtuais no Azure.</span><span class="sxs-lookup"><span data-stu-id="a9393-p104">Use this method if you want to get experience creating elements of Azure infrastructure one step at a time with PowerShell. You can then customize the PowerShell command blocks for your own deployment of other virtual machines in Azure.</span></span>
 
-#### <a name="step-1-create-dc1"></a><span data-ttu-id="b1232-131">Etapa 1: criar DC1</span><span class="sxs-lookup"><span data-stu-id="b1232-131">Step 1: Create DC1</span></span>
+#### <a name="step-1-create-dc1"></a><span data-ttu-id="a9393-131">Etapa 1: criar DC1</span><span class="sxs-lookup"><span data-stu-id="a9393-131">Step 1: Create DC1</span></span>
 
-<span data-ttu-id="b1232-132">Nessa etapa, criamos uma rede virtual do Azure e adicionamos a DC1, uma máquina virtual que se trata de um controlador de domínio para um domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="b1232-132">In this step, we create an Azure virtual network and add DC1, a virtual machine that is a domain controller for an AD DS domain.</span></span>
+<span data-ttu-id="a9393-132">Nessa etapa, criamos uma rede virtual do Azure e adicionamos a DC1, uma máquina virtual que se trata de um controlador de domínio para um domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="a9393-132">In this step, we create an Azure virtual network and add DC1, a virtual machine that is a domain controller for an AD DS domain.</span></span>
 
-<span data-ttu-id="b1232-133">Primeiro, inicie o prompt de comando do Windows PowerShell no computador local.</span><span class="sxs-lookup"><span data-stu-id="b1232-133">First, start a Windows PowerShell command prompt on your local computer.</span></span>
+<span data-ttu-id="a9393-133">Primeiro, inicie o prompt de comando do Windows PowerShell no computador local.</span><span class="sxs-lookup"><span data-stu-id="a9393-133">First, start a Windows PowerShell command prompt on your local computer.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b1232-p105">O comando a seguir define o uso da versão mais recente do Azure PowerShell. Confira [Introdução aos cmdlets do Azure PowerShell](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span><span class="sxs-lookup"><span data-stu-id="b1232-p105">The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span></span> 
+> <span data-ttu-id="a9393-p105">O comando a seguir define o uso da versão mais recente do Azure PowerShell. Confira [Introdução aos cmdlets do Azure PowerShell](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span><span class="sxs-lookup"><span data-stu-id="a9393-p105">The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span></span> 
   
-<span data-ttu-id="b1232-136">Entre na sua conta do Azure usando o comando a seguir.</span><span class="sxs-lookup"><span data-stu-id="b1232-136">Sign in to your Azure account with the following command.</span></span>
+<span data-ttu-id="a9393-136">Entre na sua conta do Azure usando o comando a seguir.</span><span class="sxs-lookup"><span data-stu-id="a9393-136">Sign in to your Azure account with the following command.</span></span>
   
 ```powershell
 Connect-AzAccount
 ```
 
-<span data-ttu-id="b1232-137">Para obter o nome de sua assinatura, use este comando.</span><span class="sxs-lookup"><span data-stu-id="b1232-137">Get your subscription name using the following command.</span></span>
+<span data-ttu-id="a9393-137">Para obter o nome de sua assinatura, use este comando.</span><span class="sxs-lookup"><span data-stu-id="a9393-137">Get your subscription name using the following command.</span></span>
   
 ```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-<span data-ttu-id="b1232-p106">Configure a assinatura do Azure. Substitua tudo o que está entre aspas, inclusive os caracteres < e >, pelo nome correto.</span><span class="sxs-lookup"><span data-stu-id="b1232-p106">Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct name.</span></span>
+<span data-ttu-id="a9393-p106">Configure a assinatura do Azure. Substitua tudo o que está entre aspas, inclusive os caracteres < e >, pelo nome correto.</span><span class="sxs-lookup"><span data-stu-id="a9393-p106">Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct name.</span></span>
   
 ```powershell
 $subscr="<subscription name>"
 Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 ```
 
-<span data-ttu-id="b1232-p107">Depois, crie um novo grupo de recursos para o laboratório de testes simulado. Para determinar um nome de grupo de recursos exclusivo, use este comando para relacionar os grupos de recurso existentes.</span><span class="sxs-lookup"><span data-stu-id="b1232-p107">Next, create a new resource group for your simulated enterprise test lab. To determine a unique resource group name, use this command to list your existing resource groups.</span></span>
+<span data-ttu-id="a9393-p107">Depois, crie um novo grupo de recursos para o laboratório de testes simulado. Para determinar um nome de grupo de recursos exclusivo, use este comando para relacionar os grupos de recurso existentes.</span><span class="sxs-lookup"><span data-stu-id="a9393-p107">Next, create a new resource group for your simulated enterprise test lab. To determine a unique resource group name, use this command to list your existing resource groups.</span></span>
   
 ```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-<span data-ttu-id="b1232-p108">Crie um novo grupo de recursos com estes comandos. Substitua tudo o que está entre aspas, incluindo os caracteres < e >, pelos nomes corretos.</span><span class="sxs-lookup"><span data-stu-id="b1232-p108">Create your new resource group with these commands. Replace everything within the quotes, including the < and > characters, with the correct names.</span></span>
+<span data-ttu-id="a9393-p108">Crie um novo grupo de recursos com estes comandos. Substitua tudo o que está entre aspas, incluindo os caracteres < e >, pelos nomes corretos.</span><span class="sxs-lookup"><span data-stu-id="a9393-p108">Create your new resource group with these commands. Replace everything within the quotes, including the < and > characters, with the correct names.</span></span>
   
 ```powershell
 $rgName="<resource group name>"
@@ -115,7 +115,7 @@ $locName="<location name, such as West US>"
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
-<span data-ttu-id="b1232-p109">Em seguida, crie a rede virtual do TestLab que hospedará a sub-rede da rede corporativa do ambiente corporativo simulado e a protegerá com um grupo de segurança de rede. Preencha o nome do grupo de recursos e execute esses comandos no prompt de comando do PowerShell, no computador local.</span><span class="sxs-lookup"><span data-stu-id="b1232-p109">Next, you create the TestLab virtual network that will host the Corpnet subnet of the simulated enterprise environment and protect it with a network security group. Fill in the name of your resource group and run these commands at the PowerShell command prompt on your local computer.</span></span>
+<span data-ttu-id="a9393-p109">Em seguida, crie a rede virtual do TestLab que hospedará a sub-rede da rede corporativa do ambiente corporativo simulado e a protegerá com um grupo de segurança de rede. Preencha o nome do grupo de recursos e execute esses comandos no prompt de comando do PowerShell, no computador local.</span><span class="sxs-lookup"><span data-stu-id="a9393-p109">Next, you create the TestLab virtual network that will host the Corpnet subnet of the simulated enterprise environment and protect it with a network security group. Fill in the name of your resource group and run these commands at the PowerShell command prompt on your local computer.</span></span>
   
 ```powershell
 $rgName="<name of your new resource group>"
@@ -130,9 +130,9 @@ Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPre
 $vnet | Set-AzVirtualNetwork
 ```
 
-<span data-ttu-id="b1232-146">Em seguida, crie a máquina virtual DC1 e configure-a como um controle de domínio para o **testlab.**\<seu domínio público> domínio AD DS e um servidor DNS para as máquinas virtuais da rede virtual TestLab.</span><span class="sxs-lookup"><span data-stu-id="b1232-146">Next, you create the DC1 virtual machine and configure it as a domain controller for the **testlab.**\<your public domain> AD DS domain and a DNS server for the virtual machines of the TestLab virtual network.</span></span> <span data-ttu-id="b1232-147">Por exemplo, se seu nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC 1 será um controlador de domínio para o domínio do **<span>testlab</span>.contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="b1232-147">For example, if your public domain name is **<span>contoso</span>.com**, the DC1 virtual machine will be a domain controller for the **<span>testlab</span>.contoso.com** domain.</span></span>
+<span data-ttu-id="a9393-146">Em seguida, crie a máquina virtual DC1 e configure-a como um controle de domínio para o **testlab.**\<seu domínio público> domínio AD DS e um servidor DNS para as máquinas virtuais da rede virtual TestLab.</span><span class="sxs-lookup"><span data-stu-id="a9393-146">Next, you create the DC1 virtual machine and configure it as a domain controller for the **testlab.**\<your public domain> AD DS domain and a DNS server for the virtual machines of the TestLab virtual network.</span></span> <span data-ttu-id="a9393-147">Por exemplo, se seu nome de domínio público for **<span>contoso</span>.com**, a máquina virtual DC 1 será um controlador de domínio para o domínio do **<span>testlab</span>.contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="a9393-147">For example, if your public domain name is **<span>contoso</span>.com**, the DC1 virtual machine will be a domain controller for the **<span>testlab</span>.contoso.com** domain.</span></span>
   
-<span data-ttu-id="b1232-148">Para criar uma máquina virtual como DC1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando do PowerShell, no computador local.</span><span class="sxs-lookup"><span data-stu-id="b1232-148">To create an Azure virtual machine for DC1, fill in the name of your resource group and run these commands at the PowerShell command prompt on your local computer.</span></span>
+<span data-ttu-id="a9393-148">Para criar uma máquina virtual como DC1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando do PowerShell, no computador local.</span><span class="sxs-lookup"><span data-stu-id="a9393-148">To create an Azure virtual machine for DC1, fill in the name of your resource group and run these commands at the PowerShell command prompt on your local computer.</span></span>
   
 ```powershell
 $rgName="<resource group name>"
@@ -152,66 +152,66 @@ $vm=Add-AzVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -Managed
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-<span data-ttu-id="b1232-p111">Será solicitado que você insira um nome de usuário e uma senha para a conta de administrador local na DC1. Use uma senha forte e armazene ambos, a senha e o nome, em um local seguro.</span><span class="sxs-lookup"><span data-stu-id="b1232-p111">You will be prompted for a user name and password for the local administrator account on DC1. Use a strong password and record both the name and password in a secure location.</span></span>
+<span data-ttu-id="a9393-p111">Será solicitado que você insira um nome de usuário e uma senha para a conta de administrador local na DC1. Use uma senha forte e armazene ambos, a senha e o nome, em um local seguro.</span><span class="sxs-lookup"><span data-stu-id="a9393-p111">You will be prompted for a user name and password for the local administrator account on DC1. Use a strong password and record both the name and password in a secure location.</span></span>
   
-<span data-ttu-id="b1232-151">Em seguida, conecte-se à máquina virtual DC1.</span><span class="sxs-lookup"><span data-stu-id="b1232-151">Next, connect to the DC1 virtual machine.</span></span>
+<span data-ttu-id="a9393-151">Em seguida, conecte-se à máquina virtual DC1.</span><span class="sxs-lookup"><span data-stu-id="a9393-151">Next, connect to the DC1 virtual machine.</span></span>
   
-1. <span data-ttu-id="b1232-152">No [portal do Azure](https://portal.azure.com), clique em **Grupos de Recursos >** [nome do novo grupo de recursos] **> DC1 > Conectar**.</span><span class="sxs-lookup"><span data-stu-id="b1232-152">In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.</span></span>
+1. <span data-ttu-id="a9393-152">No [portal do Azure](https://portal.azure.com), clique em **Grupos de Recursos >** [nome do novo grupo de recursos] **> DC1 > Conectar**.</span><span class="sxs-lookup"><span data-stu-id="a9393-152">In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.</span></span>
     
-2. <span data-ttu-id="b1232-p112">No painel aberto, clique em **Baixar o arquivo RDP**. Abra o arquivo DC1.rdp que foi baixado e clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="b1232-p112">In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.</span></span>
+2. <span data-ttu-id="a9393-p112">No painel aberto, clique em **Baixar o arquivo RDP**. Abra o arquivo DC1.rdp que foi baixado e clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="a9393-p112">In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.</span></span>
     
-3. <span data-ttu-id="b1232-155">Especifique o nome da conta de administrador local na DC1:</span><span class="sxs-lookup"><span data-stu-id="b1232-155">Specify the DC1 local administrator account name:</span></span>
+3. <span data-ttu-id="a9393-155">Especifique o nome da conta de administrador local na DC1:</span><span class="sxs-lookup"><span data-stu-id="a9393-155">Specify the DC1 local administrator account name:</span></span>
     
-   - <span data-ttu-id="b1232-156">No Windows 7:</span><span class="sxs-lookup"><span data-stu-id="b1232-156">For Windows 7:</span></span>
+   - <span data-ttu-id="a9393-156">No Windows 7:</span><span class="sxs-lookup"><span data-stu-id="a9393-156">For Windows 7:</span></span>
     
-     <span data-ttu-id="b1232-p113">Na caixa de diálogo **Segurança do Windows**, clique em **Usar outra conta**. Em **Nome de usuário**, digite **DC1\\**[nome da conta de administrador local].</span><span class="sxs-lookup"><span data-stu-id="b1232-p113">In the **Windows Security** dialog box, click **Use another account**. In **User name**, type **DC1\\**[Local administrator account name].</span></span>
+     <span data-ttu-id="a9393-p113">Na caixa de diálogo **Segurança do Windows**, clique em **Usar outra conta**. Em **Nome de usuário**, digite **DC1\\**[nome da conta de administrador local].</span><span class="sxs-lookup"><span data-stu-id="a9393-p113">In the **Windows Security** dialog box, click **Use another account**. In **User name**, type **DC1\\**[Local administrator account name].</span></span>
     
-   - <span data-ttu-id="b1232-159">No Windows 8 ou Windows 10:</span><span class="sxs-lookup"><span data-stu-id="b1232-159">For Windows 8 or Windows 10:</span></span>
+   - <span data-ttu-id="a9393-159">No Windows 8 ou Windows 10:</span><span class="sxs-lookup"><span data-stu-id="a9393-159">For Windows 8 or Windows 10:</span></span>
     
-     <span data-ttu-id="b1232-p114">Na caixa de diálogo **Segurança do Windows**, clique em **Mais opções** e, então, clique em **Usar uma conta diferente**. Em **Nome de usuário**, digite **DC1\\**[nome da conta de administrador local].</span><span class="sxs-lookup"><span data-stu-id="b1232-p114">In the **Windows Security** dialog box, click **More choices**, and then click **Use a different account**. In **User name**, type **DC1\\**[Local administrator account name].</span></span>
+     <span data-ttu-id="a9393-p114">Na caixa de diálogo **Segurança do Windows**, clique em **Mais opções** e, então, clique em **Usar uma conta diferente**. Em **Nome de usuário**, digite **DC1\\**[nome da conta de administrador local].</span><span class="sxs-lookup"><span data-stu-id="a9393-p114">In the **Windows Security** dialog box, click **More choices**, and then click **Use a different account**. In **User name**, type **DC1\\**[Local administrator account name].</span></span>
     
-4. <span data-ttu-id="b1232-162">Em **Senha**, digite a senha da conta de administrador local e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b1232-162">In **Password**, type the password of the local administrator account, and then click **OK**.</span></span>
+4. <span data-ttu-id="a9393-162">Em **Senha**, digite a senha da conta de administrador local e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a9393-162">In **Password**, type the password of the local administrator account, and then click **OK**.</span></span>
     
-5. <span data-ttu-id="b1232-163">Quando solicitado, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="b1232-163">When prompted, click **Yes**.</span></span>
+5. <span data-ttu-id="a9393-163">Quando solicitado, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="a9393-163">When prompted, click **Yes**.</span></span>
     
-<span data-ttu-id="b1232-164">Em seguida, adicione um disco de dados extra como um novo volume com a letra de unidade F:, com este comando, em um prompt de comando do Windows PowerShell de nível de administrador no DC1.</span><span class="sxs-lookup"><span data-stu-id="b1232-164">Next, add an extra data disk as a new volume with the drive letter F: with this command at an administrator-level Windows PowerShell command prompt on DC1.</span></span>
+<span data-ttu-id="a9393-164">Em seguida, adicione um disco de dados extra como um novo volume com a letra de unidade F:, com este comando, em um prompt de comando do Windows PowerShell de nível de administrador no DC1.</span><span class="sxs-lookup"><span data-stu-id="a9393-164">Next, add an extra data disk as a new volume with the drive letter F: with this command at an administrator-level Windows PowerShell command prompt on DC1.</span></span>
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
-<span data-ttu-id="b1232-p115">Em seguida, configure a DC1 como um controlador de domínio e servidor DNS do domínio **testlab.**\<domínio público>. Especifique o nome de domínio público, remova os caracteres \< e >, e execute os seguintes comandos, em um prompt de comando do Windows PowerShell em nível de administrador, na DC1.</span><span class="sxs-lookup"><span data-stu-id="b1232-p115">Next, configure DC1 as a domain controller and DNS server for the **testlab.**\<your public domain> domain. Specify your public domain name, remove the \< and > characters, and then run these commands at an administrator-level Windows PowerShell command prompt on DC1.</span></span>
+<span data-ttu-id="a9393-p115">Em seguida, configure a DC1 como um controlador de domínio e servidor DNS do domínio **testlab.**\<domínio público>. Especifique o nome de domínio público, remova os caracteres \< e >, e execute os seguintes comandos, em um prompt de comando do Windows PowerShell em nível de administrador, na DC1.</span><span class="sxs-lookup"><span data-stu-id="a9393-p115">Next, configure DC1 as a domain controller and DNS server for the **testlab.**\<your public domain> domain. Specify your public domain name, remove the \< and > characters, and then run these commands at an administrator-level Windows PowerShell command prompt on DC1.</span></span>
   
 ```powershell
 $yourDomain="<your public domain>"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSForest -DomainName testlab.$yourDomain -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs"
 ```
-<span data-ttu-id="b1232-p116">Será preciso especificar uma senha de administrador no modo de segurança. Armazene essa senha em um local seguro.</span><span class="sxs-lookup"><span data-stu-id="b1232-p116">You will need to specify a safe mode administrator password. Store this password in a secure location.</span></span>
+<span data-ttu-id="a9393-p116">Será preciso especificar uma senha de administrador no modo de segurança. Armazene essa senha em um local seguro.</span><span class="sxs-lookup"><span data-stu-id="a9393-p116">You will need to specify a safe mode administrator password. Store this password in a secure location.</span></span>
   
-<span data-ttu-id="b1232-169">Esses comandos podem levar alguns minutos para serem concluídos.</span><span class="sxs-lookup"><span data-stu-id="b1232-169">Note that these commands can take a few minutes to complete.</span></span>
+<span data-ttu-id="a9393-169">Esses comandos podem levar alguns minutos para serem concluídos.</span><span class="sxs-lookup"><span data-stu-id="a9393-169">Note that these commands can take a few minutes to complete.</span></span>
   
-<span data-ttu-id="b1232-170">Após a reinicialização da DC1, reconecte-se à máquina virtual DC1.</span><span class="sxs-lookup"><span data-stu-id="b1232-170">After DC1 restarts, reconnect to the DC1 virtual machine.</span></span>
+<span data-ttu-id="a9393-170">Após a reinicialização da DC1, reconecte-se à máquina virtual DC1.</span><span class="sxs-lookup"><span data-stu-id="a9393-170">After DC1 restarts, reconnect to the DC1 virtual machine.</span></span>
   
-1. <span data-ttu-id="b1232-171">No [portal do Azure](https://portal.azure.com), clique em **Grupos de Recursos >** [nome do seu grupo de recursos] **> DC1 > Conectar**.</span><span class="sxs-lookup"><span data-stu-id="b1232-171">In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [your resource group name] **> DC1 > Connect**.</span></span>
+1. <span data-ttu-id="a9393-171">No [portal do Azure](https://portal.azure.com), clique em **Grupos de Recursos >** [nome do seu grupo de recursos] **> DC1 > Conectar**.</span><span class="sxs-lookup"><span data-stu-id="a9393-171">In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [your resource group name] **> DC1 > Connect**.</span></span>
     
-2. <span data-ttu-id="b1232-172">Execute o arquivo DC1.rdp que foi baixado e clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="b1232-172">Run the DC1.rdp file that is downloaded, and then click **Connect**.</span></span>
+2. <span data-ttu-id="a9393-172">Execute o arquivo DC1.rdp que foi baixado e clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="a9393-172">Run the DC1.rdp file that is downloaded, and then click **Connect**.</span></span>
     
-3. <span data-ttu-id="b1232-p117">Em **Segurança do Windows**, clique em **Usar outra conta**. Em **Nome de usuário**, digite **TestLab\\**[Nome da conta do administrador local].</span><span class="sxs-lookup"><span data-stu-id="b1232-p117">In **Windows Security**, click **Use another account**. In **User name**, type **TESTLAB\\**[Local administrator account name].</span></span>
+3. <span data-ttu-id="a9393-p117">Em **Segurança do Windows**, clique em **Usar outra conta**. Em **Nome de usuário**, digite **TestLab\\**[Nome da conta do administrador local].</span><span class="sxs-lookup"><span data-stu-id="a9393-p117">In **Windows Security**, click **Use another account**. In **User name**, type **TESTLAB\\**[Local administrator account name].</span></span>
     
-4. <span data-ttu-id="b1232-175">Em **Senha**, digite a senha da conta de administrador local e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b1232-175">In **Password**, type the password of the local administrator account, and then click **OK**.</span></span>
+4. <span data-ttu-id="a9393-175">Em **Senha**, digite a senha da conta de administrador local e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a9393-175">In **Password**, type the password of the local administrator account, and then click **OK**.</span></span>
     
-5. <span data-ttu-id="b1232-176">Quando solicitado, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="b1232-176">When prompted, click **Yes**.</span></span>
+5. <span data-ttu-id="a9393-176">Quando solicitado, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="a9393-176">When prompted, click **Yes**.</span></span>
     
-<span data-ttu-id="b1232-p118">Em seguida, crie uma conta de usuário no Active Directory que será usada quando entrar nos computadores membros do domínio TestLab. Execute este comando em um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="b1232-p118">Next, create a user account in Active Directory that will be used when logging in to TESTLAB domain member computers. Run this command at an administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-p118">Em seguida, crie uma conta de usuário no Active Directory que será usada quando entrar nos computadores membros do domínio TestLab. Execute este comando em um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="a9393-p118">Next, create a user account in Active Directory that will be used when logging in to TESTLAB domain member computers. Run this command at an administrator-level Windows PowerShell command prompt.</span></span>
   
 ```powershell
 New-ADUser -SamAccountName User1 -AccountPassword (read-host "Set user password" -assecurestring) -name "User1" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 
-<span data-ttu-id="b1232-p119">Este comando o solicita a fornecer a senha da conta Usuário1. Como essa conta será usada para conexões de área de trabalho remota para todos os computadores membros do domínio do TestLab, escolha uma senha forte. Registre a senha da conta Usuário1 e armazene-a em local seguro.</span><span class="sxs-lookup"><span data-stu-id="b1232-p119">Note that this command prompts you to supply the User1 account password. Because this account will be used for remote desktop connections for all TESTLAB domain member computers, choose a strong password. Record the User1 account password and store it in a secured location.</span></span>
+<span data-ttu-id="a9393-p119">Este comando o solicita a fornecer a senha da conta Usuário1. Como essa conta será usada para conexões de área de trabalho remota para todos os computadores membros do domínio do TestLab, escolha uma senha forte. Registre a senha da conta Usuário1 e armazene-a em local seguro.</span><span class="sxs-lookup"><span data-stu-id="a9393-p119">Note that this command prompts you to supply the User1 account password. Because this account will be used for remote desktop connections for all TESTLAB domain member computers, choose a strong password. Record the User1 account password and store it in a secured location.</span></span>
   
-<span data-ttu-id="b1232-p120">Em seguida, configure a nova conta Usuário1 como um administrador de domínio, corporativo e de esquema. Execute este comando no prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="b1232-p120">Next, configure the new User1 account as a domain, enterprise, and schema administrator. Run this command at the administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-p120">Em seguida, configure a nova conta Usuário1 como um administrador de domínio, corporativo e de esquema. Execute este comando no prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="a9393-p120">Next, configure the new User1 account as a domain, enterprise, and schema administrator. Run this command at the administrator-level Windows PowerShell command prompt.</span></span>
   
 ```powershell
 $yourDomain="<your public domain>"
@@ -222,23 +222,23 @@ $groupNames=@("Domain Admins","Enterprise Admins","Schema Admins")
 ForEach ($name in $groupNames) {Add-ADPrincipalGroupMembership -Identity $userSID -MemberOf (Get-ADGroup -Identity $name).SID.Value}
 ```
 
-<span data-ttu-id="b1232-184">Encerre a sessão da Área de Trabalho Remota com a DC1 e reconecte-se usando a conta \\Usuário1 do TestLab.</span><span class="sxs-lookup"><span data-stu-id="b1232-184">Close the Remote Desktop session with DC1 and then reconnect using the TESTLAB\\User1 account.</span></span>
+<span data-ttu-id="a9393-184">Encerre a sessão da Área de Trabalho Remota com a DC1 e reconecte-se usando a conta \\Usuário1 do TestLab.</span><span class="sxs-lookup"><span data-stu-id="a9393-184">Close the Remote Desktop session with DC1 and then reconnect using the TESTLAB\\User1 account.</span></span>
   
-<span data-ttu-id="b1232-185">Em seguida, para permitir o tráfego da ferramenta Ping, execute este comando no prompt de comando de nível de administrador do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-185">Next, to allow traffic for the Ping tool, run this command at an administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-185">Em seguida, para permitir o tráfego da ferramenta Ping, execute este comando no prompt de comando de nível de administrador do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-185">Next, to allow traffic for the Ping tool, run this command at an administrator-level Windows PowerShell command prompt.</span></span>
   
 ```powershell
 Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv4-In)" -enabled True
 ```
 
-<span data-ttu-id="b1232-186">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="b1232-186">This is your current configuration.</span></span>
+<span data-ttu-id="a9393-186">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="a9393-186">This is your current configuration.</span></span>
   
 ![Etapa 1 da configuração da base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase1.png)
   
-#### <a name="step-2-configure-app1"></a><span data-ttu-id="b1232-188">Etapa 2: configurar o APP1</span><span class="sxs-lookup"><span data-stu-id="b1232-188">Step 2: Configure APP1</span></span>
+#### <a name="step-2-configure-app1"></a><span data-ttu-id="a9393-188">Etapa 2: configurar o APP1</span><span class="sxs-lookup"><span data-stu-id="a9393-188">Step 2: Configure APP1</span></span>
 
-<span data-ttu-id="b1232-189">Nessa etapa, você cria e configura o APP1, que se trata de um servidor de aplicativos que inicialmente fornece serviços de compartilhamento de arquivos e da Web.</span><span class="sxs-lookup"><span data-stu-id="b1232-189">In this step, you create and configure APP1, which is an application server that initially provides web and file sharing services.</span></span>
+<span data-ttu-id="a9393-189">Nessa etapa, você cria e configura o APP1, que se trata de um servidor de aplicativos que inicialmente fornece serviços de compartilhamento de arquivos e da Web.</span><span class="sxs-lookup"><span data-stu-id="a9393-189">In this step, you create and configure APP1, which is an application server that initially provides web and file sharing services.</span></span>
 
-<span data-ttu-id="b1232-190">Para criar uma Máquina Virtual do Microsoft Azure para a APP1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando, no computador local.</span><span class="sxs-lookup"><span data-stu-id="b1232-190">To create an Azure Virtual Machine for APP1, fill in the name of your resource group and run these commands at the  command prompt on your local computer.</span></span>
+<span data-ttu-id="a9393-190">Para criar uma Máquina Virtual do Microsoft Azure para a APP1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando, no computador local.</span><span class="sxs-lookup"><span data-stu-id="a9393-190">To create an Azure Virtual Machine for APP1, fill in the name of your resource group and run these commands at the  command prompt on your local computer.</span></span>
   
 ```powershell
 $rgName="<resource group name>"
@@ -255,11 +255,11 @@ $vm=Set-AzVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromI
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-<span data-ttu-id="b1232-191">Em seguida, conecte-se à máquina virtual APP1 usando o nome da conta e a senha do administrador local APP1 e depois abra um prompt de comando do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-191">Next, connect to the APP1 virtual machine using the APP1 local administrator account name and password, and then open a Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-191">Em seguida, conecte-se à máquina virtual APP1 usando o nome da conta e a senha do administrador local APP1 e depois abra um prompt de comando do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-191">Next, connect to the APP1 virtual machine using the APP1 local administrator account name and password, and then open a Windows PowerShell command prompt.</span></span>
   
-<span data-ttu-id="b1232-192">Para verificar a comunicação da rede e a resolução de nome entre a APP1 e a DC1, execute o comando da ferramenta **Ping dc1.testlab.**\<nome do domínio público> e verifique se há quatro respostas.</span><span class="sxs-lookup"><span data-stu-id="b1232-192">To check name resolution and network communication between APP1 and DC1, run the **ping dc1.testlab.**\<your public domain name> command and verify that there are four replies.</span></span>
+<span data-ttu-id="a9393-192">Para verificar a comunicação da rede e a resolução de nome entre a APP1 e a DC1, execute o comando da ferramenta **Ping dc1.testlab.**\<nome do domínio público> e verifique se há quatro respostas.</span><span class="sxs-lookup"><span data-stu-id="a9393-192">To check name resolution and network communication between APP1 and DC1, run the **ping dc1.testlab.**\<your public domain name> command and verify that there are four replies.</span></span>
   
-<span data-ttu-id="b1232-193">Em seguida, adicione a máquina virtual APP1 ao domínio TestLab com estes comandos, no prompt do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-193">Next, join the APP1 virtual machine to the TESTLAB domain with these commands at the Windows PowerShell prompt.</span></span>
+<span data-ttu-id="a9393-193">Em seguida, adicione a máquina virtual APP1 ao domínio TestLab com estes comandos, no prompt do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-193">Next, join the APP1 virtual machine to the TESTLAB domain with these commands at the Windows PowerShell prompt.</span></span>
   
 ```powershell
 $yourDomain="<your public domain name>"
@@ -267,17 +267,17 @@ Add-Computer -DomainName ("testlab." + $yourDomain)
 Restart-Computer
 ```
 
-<span data-ttu-id="b1232-194">Você deve fornecer as credenciais de conta de domínio do \\Usuário1 do TestLab, depois de executar o comando **Add-Computer**.</span><span class="sxs-lookup"><span data-stu-id="b1232-194">Note that you must supply the TESTLAB\\User1 domain account credentials after running the **Add-Computer** command.</span></span>
+<span data-ttu-id="a9393-194">Você deve fornecer as credenciais de conta de domínio do \\Usuário1 do TestLab, depois de executar o comando **Add-Computer**.</span><span class="sxs-lookup"><span data-stu-id="a9393-194">Note that you must supply the TESTLAB\\User1 domain account credentials after running the **Add-Computer** command.</span></span>
   
-<span data-ttu-id="b1232-195">Depois de reiniciar a APP1, conecte-se a ele usando a conta \\Usuário1 do TestLab e abra um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="b1232-195">After APP1 restarts, connect to it using the TESTLAB\\User1 account, and then open an administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-195">Depois de reiniciar a APP1, conecte-se a ele usando a conta \\Usuário1 do TestLab e abra um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="a9393-195">After APP1 restarts, connect to it using the TESTLAB\\User1 account, and then open an administrator-level Windows PowerShell command prompt.</span></span>
   
-<span data-ttu-id="b1232-196">Em seguida, transforme a APP1 em um servidor Web usando este comando, em um prompt de comando do Windows PowerShell na APP1.</span><span class="sxs-lookup"><span data-stu-id="b1232-196">Next, make APP1 a web server with this command at an administrator-level Windows PowerShell command prompt on APP1.</span></span>
+<span data-ttu-id="a9393-196">Em seguida, transforme a APP1 em um servidor Web usando este comando, em um prompt de comando do Windows PowerShell na APP1.</span><span class="sxs-lookup"><span data-stu-id="a9393-196">Next, make APP1 a web server with this command at an administrator-level Windows PowerShell command prompt on APP1.</span></span>
   
 ```powershell
 Install-WindowsFeature Web-WebServer -IncludeManagementTools
 ```
 
-<span data-ttu-id="b1232-197">Em seguida, crie uma pasta compartilhada e um arquivo de texto dentro da pasta da APP1 com estes comandos no PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-197">Next, create a shared folder and a text file within the folder on APP1 with these PowerShell commands.</span></span>
+<span data-ttu-id="a9393-197">Em seguida, crie uma pasta compartilhada e um arquivo de texto dentro da pasta da APP1 com estes comandos no PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-197">Next, create a shared folder and a text file within the folder on APP1 with these PowerShell commands.</span></span>
   
 ```powershell
 New-Item -path c:\files -type directory
@@ -285,18 +285,18 @@ Write-Output "This is a shared file." | out-file c:\files\example.txt
 New-SmbShare -name files -path c:\files -changeaccess TESTLAB\User1
 ```
 
-<span data-ttu-id="b1232-198">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="b1232-198">This is your current configuration.</span></span>
+<span data-ttu-id="a9393-198">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="a9393-198">This is your current configuration.</span></span>
   
 ![Etapa 2 da configuração da base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase2.png)
   
-#### <a name="step-3-configure-client1"></a><span data-ttu-id="b1232-200">Etapa 3: configurar o CLIENT1</span><span class="sxs-lookup"><span data-stu-id="b1232-200">Step 3: Configure CLIENT1</span></span>
+#### <a name="step-3-configure-client1"></a><span data-ttu-id="a9393-200">Etapa 3: configurar o CLIENT1</span><span class="sxs-lookup"><span data-stu-id="a9393-200">Step 3: Configure CLIENT1</span></span>
 
-<span data-ttu-id="b1232-201">Nessa etapa, você cria e configura o CLIENT1, que atua como um laptop, tablet ou computador típico na intranet.</span><span class="sxs-lookup"><span data-stu-id="b1232-201">In this step, you create and configure CLIENT1, which acts as a typical laptop, tablet, or desktop computer on the intranet.</span></span>
+<span data-ttu-id="a9393-201">Nessa etapa, você cria e configura o CLIENT1, que atua como um laptop, tablet ou computador típico na intranet.</span><span class="sxs-lookup"><span data-stu-id="a9393-201">In this step, you create and configure CLIENT1, which acts as a typical laptop, tablet, or desktop computer on the intranet.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="b1232-p121">O seguinte conjunto de comandos cria a CLIENT1 executando o Windows Server 2016 Datacenter, o que pode ser feito em todos os tipos de assinaturas do Azure. Se você tiver uma assinatura do Azure baseada em Visual Studio, será possível criar a CLIENT1 executando o Windows 10 no [Portal do Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="b1232-p121">The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have a Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com).</span></span> 
+> <span data-ttu-id="a9393-p121">O seguinte conjunto de comandos cria a CLIENT1 executando o Windows Server 2016 Datacenter, o que pode ser feito em todos os tipos de assinaturas do Azure. Se você tiver uma assinatura do Azure baseada em Visual Studio, será possível criar a CLIENT1 executando o Windows 10 no [Portal do Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="a9393-p121">The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have a Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com).</span></span> 
   
-<span data-ttu-id="b1232-204">Para criar uma Máquina Virtual do Microsoft Azure para CLIENT1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando, no computador local.</span><span class="sxs-lookup"><span data-stu-id="b1232-204">To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group and run these commands at the  command prompt on your local computer.</span></span>
+<span data-ttu-id="a9393-204">Para criar uma Máquina Virtual do Microsoft Azure para CLIENT1, preencha o nome do grupo de recursos e execute estes comandos no prompt de comando, no computador local.</span><span class="sxs-lookup"><span data-stu-id="a9393-204">To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group and run these commands at the  command prompt on your local computer.</span></span>
   
 ```powershell
 $rgName="<resource group name>"
@@ -313,11 +313,11 @@ $vm=Set-AzVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption Fr
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-<span data-ttu-id="b1232-205">Em seguida, conecte-se à máquina virtual CLIENT1 usando o nome da conta e a senha do administrador local da CLIENT1 e depois abra um prompt de comando de nível de administrador no Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-205">Next, connect to the CLIENT1 virtual machine using the CLIENT1 local administrator account name and password, and then open an administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-205">Em seguida, conecte-se à máquina virtual CLIENT1 usando o nome da conta e a senha do administrador local da CLIENT1 e depois abra um prompt de comando de nível de administrador no Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-205">Next, connect to the CLIENT1 virtual machine using the CLIENT1 local administrator account name and password, and then open an administrator-level Windows PowerShell command prompt.</span></span>
   
-<span data-ttu-id="b1232-206">Para verificar a comunicação da rede e a resolução de nome entre a CLIENT1 e a DC1, execute o comando da ferramenta **Ping dc1.testlab.**\<nome do domínio público>, em um prompt de comando do Windows PowerShell, e verifique se há quatro respostas.</span><span class="sxs-lookup"><span data-stu-id="b1232-206">To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.testlab.**\<your public domain name> command at a Windows PowerShell command prompt and verify that there are four replies.</span></span>
+<span data-ttu-id="a9393-206">Para verificar a comunicação da rede e a resolução de nome entre a CLIENT1 e a DC1, execute o comando da ferramenta **Ping dc1.testlab.**\<nome do domínio público>, em um prompt de comando do Windows PowerShell, e verifique se há quatro respostas.</span><span class="sxs-lookup"><span data-stu-id="a9393-206">To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.testlab.**\<your public domain name> command at a Windows PowerShell command prompt and verify that there are four replies.</span></span>
   
-<span data-ttu-id="b1232-207">Em seguida, adicione a máquina virtual do CLIENT1 ao domínio TestLab com estes comandos, no prompt do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1232-207">Next, join the CLIENT1 virtual machine to the TESTLAB domain with these commands at the Windows PowerShell prompt.</span></span>
+<span data-ttu-id="a9393-207">Em seguida, adicione a máquina virtual do CLIENT1 ao domínio TestLab com estes comandos, no prompt do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9393-207">Next, join the CLIENT1 virtual machine to the TESTLAB domain with these commands at the Windows PowerShell prompt.</span></span>
   
 ```powershell
 $yourDomain="<your public domain name>"
@@ -325,92 +325,92 @@ Add-Computer -DomainName ("testlab." + $yourDomain)
 Restart-Computer
 ```
 
-<span data-ttu-id="b1232-208">Você deve fornecer as credenciais de conta de domínio \\Usuário1 do TestLab, depois de executar o comando **Add-Computer**.</span><span class="sxs-lookup"><span data-stu-id="b1232-208">Note that you must supply your TESTLAB\\User1 domain account credentials after running the **Add-Computer** command.</span></span>
+<span data-ttu-id="a9393-208">Você deve fornecer as credenciais de conta de domínio \\Usuário1 do TestLab, depois de executar o comando **Add-Computer**.</span><span class="sxs-lookup"><span data-stu-id="a9393-208">Note that you must supply your TESTLAB\\User1 domain account credentials after running the **Add-Computer** command.</span></span>
   
-<span data-ttu-id="b1232-209">Depois de reiniciar a CLIENT1, conecte-se a ela usando o nome da conta e a senha do \\Usuário1 do TestLab e abra um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="b1232-209">After CLIENT1 restarts, connect to it using the TESTLAB\\User1 account name and password, and then open an administrator-level Windows PowerShell command prompt.</span></span>
+<span data-ttu-id="a9393-209">Depois de reiniciar a CLIENT1, conecte-se a ela usando o nome da conta e a senha do \\Usuário1 do TestLab e abra um prompt de comando do Windows PowerShell em nível de administrador.</span><span class="sxs-lookup"><span data-stu-id="a9393-209">After CLIENT1 restarts, connect to it using the TESTLAB\\User1 account name and password, and then open an administrator-level Windows PowerShell command prompt.</span></span>
   
-<span data-ttu-id="b1232-210">Após esse procedimento, verifique se você consegue acessar os recursos de compartilhamento de arquivo e da Web no APP1 a partir do CLIENT1.</span><span class="sxs-lookup"><span data-stu-id="b1232-210">Next, verify that you can access web and file share resources on APP1 from CLIENT1.</span></span>
+<span data-ttu-id="a9393-210">Após esse procedimento, verifique se você consegue acessar os recursos de compartilhamento de arquivo e da Web no APP1 a partir do CLIENT1.</span><span class="sxs-lookup"><span data-stu-id="a9393-210">Next, verify that you can access web and file share resources on APP1 from CLIENT1.</span></span>
   
-1. <span data-ttu-id="b1232-211">No Gerenciador do servidor, na árvore do painel, clique em **Servidor Local**.</span><span class="sxs-lookup"><span data-stu-id="b1232-211">In Server Manager, in the tree pane, click **Local Server**.</span></span>
+1. <span data-ttu-id="a9393-211">No Gerenciador do servidor, na árvore do painel, clique em **Servidor Local**.</span><span class="sxs-lookup"><span data-stu-id="a9393-211">In Server Manager, in the tree pane, click **Local Server**.</span></span>
     
-2. <span data-ttu-id="b1232-212">Em **Propriedades do CLIENT1**, clique em **Ativar** ao lado da **Configuração de Segurança Aprimorada do IE**.</span><span class="sxs-lookup"><span data-stu-id="b1232-212">In **Properties for CLIENT1**, click **On** next to **IE Enhanced Security Configuration**.</span></span>
+2. <span data-ttu-id="a9393-212">Em **Propriedades do CLIENT1**, clique em **Ativar** ao lado da **Configuração de Segurança Aprimorada do IE**.</span><span class="sxs-lookup"><span data-stu-id="a9393-212">In **Properties for CLIENT1**, click **On** next to **IE Enhanced Security Configuration**.</span></span>
     
-3. <span data-ttu-id="b1232-213">Na **Configuração de Segurança Aprimorada do Internet Explorer**, clique em **Desativar** para **Administradores** e **Usurários** e, então, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b1232-213">In **Internet Explorer Enhanced Security Configuration**, click **Off** for **Administrators** and **Users**, and then click **OK**.</span></span>
+3. <span data-ttu-id="a9393-213">Na **Configuração de Segurança Aprimorada do Internet Explorer**, clique em **Desativar** para **Administradores** e **Usurários** e, então, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a9393-213">In **Internet Explorer Enhanced Security Configuration**, click **Off** for **Administrators** and **Users**, and then click **OK**.</span></span>
     
-4. <span data-ttu-id="b1232-214">Na tela Inicial, clique em **Internet Explorer** e, então, em**OK**.</span><span class="sxs-lookup"><span data-stu-id="b1232-214">From the Start screen, click **Internet Explorer**, and then click **OK**.</span></span>
+4. <span data-ttu-id="a9393-214">Na tela Inicial, clique em **Internet Explorer** e, então, em**OK**.</span><span class="sxs-lookup"><span data-stu-id="a9393-214">From the Start screen, click **Internet Explorer**, and then click **OK**.</span></span>
     
-5. <span data-ttu-id="b1232-p122">Na barra de endereços, digite **http<span>://</span>app1.testab.**\<nome de domínio público>**/** e pressione Enter. Você verá uma página padrão da Web sobre Serviços de Informações da Internet para APP1.</span><span class="sxs-lookup"><span data-stu-id="b1232-p122">In the Address bar, type **http<span>://</span>app1.testab.**\<your public domain name>**/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.</span></span>
+5. <span data-ttu-id="a9393-p122">Na barra de endereços, digite **http<span>://</span>app1.testab.**\<nome de domínio público>**/** e pressione Enter. Você verá uma página padrão da Web sobre Serviços de Informações da Internet para APP1.</span><span class="sxs-lookup"><span data-stu-id="a9393-p122">In the Address bar, type **http<span>://</span>app1.testab.**\<your public domain name>**/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.</span></span>
     
-6. <span data-ttu-id="b1232-217">Na barra de tarefas da área de trabalho, clique no ícone do Explorador de Arquivos.</span><span class="sxs-lookup"><span data-stu-id="b1232-217">From the desktop taskbar, click the File Explorer icon.</span></span>
+6. <span data-ttu-id="a9393-217">Na barra de tarefas da área de trabalho, clique no ícone do Explorador de Arquivos.</span><span class="sxs-lookup"><span data-stu-id="a9393-217">From the desktop taskbar, click the File Explorer icon.</span></span>
     
-7. <span data-ttu-id="b1232-p123">Na barra de endereços, digite **\\\\app1\\Files** e pressione Enter. Você verá uma janela de pasta com o conteúdo da pasta compartilhada de arquivos.</span><span class="sxs-lookup"><span data-stu-id="b1232-p123">In the address bar, type **\\\\app1\\Files**, and then press ENTER. You should see a folder window with the contents of the Files shared folder.</span></span>
+7. <span data-ttu-id="a9393-p123">Na barra de endereços, digite **\\\\app1\\Files** e pressione Enter. Você verá uma janela de pasta com o conteúdo da pasta compartilhada de arquivos.</span><span class="sxs-lookup"><span data-stu-id="a9393-p123">In the address bar, type **\\\\app1\\Files**, and then press ENTER. You should see a folder window with the contents of the Files shared folder.</span></span>
     
-8. <span data-ttu-id="b1232-p124">Na janela da pasta compartilhada **Arquivos**, clique duas vezes no arquivo **Example.txt**. Você verá o conteúdo do arquivo Example.txt.</span><span class="sxs-lookup"><span data-stu-id="b1232-p124">In the **Files** shared folder window, double-click the **Example.txt** file. You should see the contents of the Example.txt file.</span></span>
+8. <span data-ttu-id="a9393-p124">Na janela da pasta compartilhada **Arquivos**, clique duas vezes no arquivo **Example.txt**. Você verá o conteúdo do arquivo Example.txt.</span><span class="sxs-lookup"><span data-stu-id="a9393-p124">In the **Files** shared folder window, double-click the **Example.txt** file. You should see the contents of the Example.txt file.</span></span>
     
-9. <span data-ttu-id="b1232-222">Feche o \*\*Bloco de notas do Example.txt \*\* e a janela da pasta compartilhada **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="b1232-222">Close the **example.txt - Notepad** and the **Files** shared folder windows.</span></span>
+9. <span data-ttu-id="a9393-222">Feche o \*\*Bloco de notas do Example.txt \*\* e a janela da pasta compartilhada **Arquivos**.</span><span class="sxs-lookup"><span data-stu-id="a9393-222">Close the **example.txt - Notepad** and the **Files** shared folder windows.</span></span>
     
-<span data-ttu-id="b1232-223">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="b1232-223">This is your current configuration.</span></span>
+<span data-ttu-id="a9393-223">Essa é sua configuração atual.</span><span class="sxs-lookup"><span data-stu-id="a9393-223">This is your current configuration.</span></span>
   
 ![Etapa 3 da configuração da base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 
-## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a><span data-ttu-id="b1232-225">Fase 2: criar sua assinatura do Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="b1232-225">Phase 2: Create your Microsoft 365 E5 subscription</span></span>
+## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a><span data-ttu-id="a9393-225">Fase 2: criar sua assinatura do Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="a9393-225">Phase 2: Create your Microsoft 365 E5 subscription</span></span>
 
-<span data-ttu-id="b1232-p125">Nesta fase, você criará uma nova assinatura do Microsoft 365 E5 que usa um novo locatário do Azure AD, que é separado da sua assinatura de produção. É possível fazer isso de duas formas:</span><span class="sxs-lookup"><span data-stu-id="b1232-p125">In this phase, you create a new Microsoft 365 E5 subscription that uses a new Azure AD tenant, one that is separate from your production subscription. You can do this in two ways:</span></span>
+<span data-ttu-id="a9393-p125">Nesta fase, você criará uma nova assinatura do Microsoft 365 E5 que usa um novo locatário do Azure AD, que é separado da sua assinatura de produção. É possível fazer isso de duas formas:</span><span class="sxs-lookup"><span data-stu-id="a9393-p125">In this phase, you create a new Microsoft 365 E5 subscription that uses a new Azure AD tenant, one that is separate from your production subscription. You can do this in two ways:</span></span>
 
-- <span data-ttu-id="b1232-228">Use uma assinatura de avaliação do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="b1232-228">Use a trial subscription of Microsoft 365 E5.</span></span> 
+- <span data-ttu-id="a9393-228">Use uma assinatura de avaliação do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="a9393-228">Use a trial subscription of Microsoft 365 E5.</span></span> 
 
-  <span data-ttu-id="b1232-p126">A assinatura de avaliação do Microsoft 365 E5 é de 30 dias e pode ser facilmente estendida por até 60 dias. Quando essa assinatura expira, você deve convertê-la em uma assinatura paga ou criar uma nova assinatura de avaliação. Criar uma nova assinatura de avaliação significa abrir mão de sua configuração, o que pode incluir cenários complexos.</span><span class="sxs-lookup"><span data-stu-id="b1232-p126">The Microsoft 365 E5 trial subscription is 30 days, which can be easily extended to 60 days. When the trial subscription expires, you must either convert it to a paid subscription or create a new trial subscription. Creating new trial subscriptions means you will leave your configuration, which could include complex scenarios, behind.</span></span>  
+  <span data-ttu-id="a9393-p126">A assinatura de avaliação do Microsoft 365 E5 é de 30 dias e pode ser facilmente estendida por até 60 dias. Quando essa assinatura expira, você deve convertê-la em uma assinatura paga ou criar uma nova assinatura de avaliação. Criar uma nova assinatura de avaliação significa abrir mão de sua configuração, o que pode incluir cenários complexos.</span><span class="sxs-lookup"><span data-stu-id="a9393-p126">The Microsoft 365 E5 trial subscription is 30 days, which can be easily extended to 60 days. When the trial subscription expires, you must either convert it to a paid subscription or create a new trial subscription. Creating new trial subscriptions means you will leave your configuration, which could include complex scenarios, behind.</span></span>  
 
-- <span data-ttu-id="b1232-232">Use uma assinatura de produção separada do Microsoft 365 E5 com uma pequena quantidade de licenças.</span><span class="sxs-lookup"><span data-stu-id="b1232-232">Use a separate production subscription of Microsoft 365 E5 with a small number of licenses.</span></span>
+- <span data-ttu-id="a9393-232">Use uma assinatura de produção separada do Microsoft 365 E5 com uma pequena quantidade de licenças.</span><span class="sxs-lookup"><span data-stu-id="a9393-232">Use a separate production subscription of Microsoft 365 E5 with a small number of licenses.</span></span>
 
-  <span data-ttu-id="b1232-p127">Isso representa um custo adicional, mas garante um ambiente de teste funcional para testar recursos, configurações e cenários que não expiram. Você pode usar o mesmo ambiente de teste a longo prazo para validação de conceitos, demonstração aos colegas, também para desenvolvimento, gerenciamento e teste de aplicativos. Este e o método recomendado.</span><span class="sxs-lookup"><span data-stu-id="b1232-p127">This is an additional cost, but ensures that you have a working test environment to try features, configurations, and scenarios that does not expire. You can use the same test environment over the long term for proofs of concept, demonstration to peers and management, and application development and testing. This is the recommended method.</span></span>
+  <span data-ttu-id="a9393-p127">Isso representa um custo adicional, mas garante um ambiente de teste funcional para testar recursos, configurações e cenários que não expiram. Você pode usar o mesmo ambiente de teste a longo prazo para validação de conceitos, demonstração aos colegas, também para desenvolvimento, gerenciamento e teste de aplicativos. Este e o método recomendado.</span><span class="sxs-lookup"><span data-stu-id="a9393-p127">This is an additional cost, but ensures that you have a working test environment to try features, configurations, and scenarios that does not expire. You can use the same test environment over the long term for proofs of concept, demonstration to peers and management, and application development and testing. This is the recommended method.</span></span>
 
-### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a><span data-ttu-id="b1232-236">Inscrever-se em uma assinatura de avaliação do Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="b1232-236">Sign up for an Office 365 E5 trial subscription</span></span>
+### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a><span data-ttu-id="a9393-236">Inscrever-se em uma assinatura de avaliação do Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="a9393-236">Sign up for an Office 365 E5 trial subscription</span></span>
 
-<span data-ttu-id="b1232-237">Conectar-se ao CLIENT1 com a conta CORP\Usuário1 do portal do Azure.</span><span class="sxs-lookup"><span data-stu-id="b1232-237">Connect to CLIENT1 with the CORP\User1 account from the Azure portal.</span></span>
+<span data-ttu-id="a9393-237">Conectar-se ao CLIENT1 com a conta CORP\Usuário1 do portal do Azure.</span><span class="sxs-lookup"><span data-stu-id="a9393-237">Connect to CLIENT1 with the CORP\User1 account from the Azure portal.</span></span>
 
-<span data-ttu-id="b1232-238">Para criar uma nova assinatura de avaliação do Office 365 E5, siga as instruções na [Fase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="b1232-238">To create a new Office 365 E5 trial subscription, perform the instructions in [Phase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
+<span data-ttu-id="a9393-238">Para criar uma nova assinatura de avaliação do Office 365 E5, siga as instruções na [Fase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="a9393-238">To create a new Office 365 E5 trial subscription, perform the instructions in [Phase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
 
-<span data-ttu-id="b1232-239">Para configurar sua nova assinatura de avaliação do Office 365 E5, siga as instruções na [Fase 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="b1232-239">To configure your new Office 365 E5 trial subscription, perform the instructions in [Phase 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
+<span data-ttu-id="a9393-239">Para configurar sua nova assinatura de avaliação do Office 365 E5, siga as instruções na [Fase 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="a9393-239">To configure your new Office 365 E5 trial subscription, perform the instructions in [Phase 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
 
-#### <a name="using-an-office-365-e5-test-environment"></a><span data-ttu-id="b1232-240">Usando um ambiente de teste do Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="b1232-240">Using an Office 365 E5 test environment</span></span>
+#### <a name="using-an-office-365-e5-test-environment"></a><span data-ttu-id="a9393-240">Usando um ambiente de teste do Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="a9393-240">Using an Office 365 E5 test environment</span></span>
 
-<span data-ttu-id="b1232-241">Se você quiser apenas um ambiente de teste do Office 365, você pode parar aqui.</span><span class="sxs-lookup"><span data-stu-id="b1232-241">If all you need is an Office 365 test environment, you can stop here.</span></span> 
+<span data-ttu-id="a9393-241">Se você quiser apenas um ambiente de teste do Office 365, você pode parar aqui.</span><span class="sxs-lookup"><span data-stu-id="a9393-241">If all you need is an Office 365 test environment, you can stop here.</span></span> 
 
-<span data-ttu-id="b1232-242">Confira [Guias de Laboratório de Testes do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para Guias de Laboratório de Testes adicionais que se aplicam ao Office 365 e ao Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b1232-242">See [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) for additional Test Lab Guides that apply to both Office 365 and Microsoft 365.</span></span>
+<span data-ttu-id="a9393-242">Confira [Guias de Laboratório de Testes do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md) para Guias de Laboratório de Testes adicionais que se aplicam ao Office 365 e ao Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="a9393-242">See [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) for additional Test Lab Guides that apply to both Office 365 and Microsoft 365.</span></span>
 
-### <a name="add-a-microsoft-365-e5-trial-subscription"></a><span data-ttu-id="b1232-243">Adicionar uma assinatura de avaliação do Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="b1232-243">Add a Microsoft 365 E5 trial subscription</span></span>
+### <a name="add-a-microsoft-365-e5-trial-subscription"></a><span data-ttu-id="a9393-243">Adicionar uma assinatura de avaliação do Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="a9393-243">Add a Microsoft 365 E5 trial subscription</span></span>
 
-<span data-ttu-id="b1232-244">Para uma assinatura de avaliação do Microsoft 365 E5 e configurar suas contas de usuários com licenças, siga as instruções na [Fase 3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="b1232-244">To a Microsoft 365 E5 trial subscription and configure your users accounts with licenses, perform the instructions in [Phase 3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
+<span data-ttu-id="a9393-244">Para uma assinatura de avaliação do Microsoft 365 E5 e configurar suas contas de usuários com licenças, siga as instruções na [Fase 3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) do Guia de Laboratório de Teste da configuração de base leve.</span><span class="sxs-lookup"><span data-stu-id="a9393-244">To a Microsoft 365 E5 trial subscription and configure your users accounts with licenses, perform the instructions in [Phase 3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) of the lightweight base configuration Test Lab Guide.</span></span>
 
   
-## <a name="results"></a><span data-ttu-id="b1232-245">Resultados</span><span class="sxs-lookup"><span data-stu-id="b1232-245">Results</span></span>
+## <a name="results"></a><span data-ttu-id="a9393-245">Resultados</span><span class="sxs-lookup"><span data-stu-id="a9393-245">Results</span></span>
 
-<span data-ttu-id="b1232-246">Seu ambiente de teste agora tem:</span><span class="sxs-lookup"><span data-stu-id="b1232-246">Your test environment now has:</span></span>
+<span data-ttu-id="a9393-246">Seu ambiente de teste agora tem:</span><span class="sxs-lookup"><span data-stu-id="a9393-246">Your test environment now has:</span></span>
   
-- <span data-ttu-id="b1232-247">Assinatura de avaliação do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="b1232-247">Microsoft 365 E5 trial subscription.</span></span>
-- <span data-ttu-id="b1232-248">Todas as suas contas de usuário apropriadas estão habilitadas para usar o Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="b1232-248">All your appropriate user accounts are enabled to use Microsoft 365 E5.</span></span>
-- <span data-ttu-id="b1232-249">Uma intranet simulada e simplificada.</span><span class="sxs-lookup"><span data-stu-id="b1232-249">A simulated and simplified intranet.</span></span>
+- <span data-ttu-id="a9393-247">Assinatura de avaliação do Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="a9393-247">Microsoft 365 E5 trial subscription.</span></span>
+- <span data-ttu-id="a9393-248">Todas as suas contas de usuário apropriadas estão habilitadas para usar o Microsoft 365 E5.</span><span class="sxs-lookup"><span data-stu-id="a9393-248">All your appropriate user accounts are enabled to use Microsoft 365 E5.</span></span>
+- <span data-ttu-id="a9393-249">Uma intranet simulada e simplificada.</span><span class="sxs-lookup"><span data-stu-id="a9393-249">A simulated and simplified intranet.</span></span>
     
-<span data-ttu-id="b1232-250">Esta é sua configuração final.</span><span class="sxs-lookup"><span data-stu-id="b1232-250">This is your final configuration.</span></span>
+<span data-ttu-id="a9393-250">Esta é sua configuração final.</span><span class="sxs-lookup"><span data-stu-id="a9393-250">This is your final configuration.</span></span>
   
 ![Fase 2 da configuração base corporativa simulada](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
-<span data-ttu-id="b1232-252">Agora você está pronto para experimentar os recursos adicionais do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="b1232-252">You are now ready to experiment with additional features of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
+<span data-ttu-id="a9393-252">Agora você está pronto para experimentar os recursos adicionais do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="a9393-252">You are now ready to experiment with additional features of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
   
-## <a name="next-steps"></a><span data-ttu-id="b1232-253">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="b1232-253">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="a9393-253">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="a9393-253">Next steps</span></span>
 
-<span data-ttu-id="b1232-254">Explore esses conjuntos adicionais de guias de laboratório de teste:</span><span class="sxs-lookup"><span data-stu-id="b1232-254">Explore these additional sets of Test Lab Guides:</span></span>
+<span data-ttu-id="a9393-254">Explore esses conjuntos adicionais de guias de laboratório de teste:</span><span class="sxs-lookup"><span data-stu-id="a9393-254">Explore these additional sets of Test Lab Guides:</span></span>
   
-- [<span data-ttu-id="b1232-255">Identidade</span><span class="sxs-lookup"><span data-stu-id="b1232-255">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
-- [<span data-ttu-id="b1232-256">Gerenciamento de dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="b1232-256">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
-- [<span data-ttu-id="b1232-257">Proteção de informações</span><span class="sxs-lookup"><span data-stu-id="b1232-257">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
+- [<span data-ttu-id="a9393-255">Identidade</span><span class="sxs-lookup"><span data-stu-id="a9393-255">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
+- [<span data-ttu-id="a9393-256">Gerenciamento de dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="a9393-256">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
+- [<span data-ttu-id="a9393-257">Proteção de informações</span><span class="sxs-lookup"><span data-stu-id="a9393-257">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
 
-## <a name="see-also"></a><span data-ttu-id="b1232-258">Confira também</span><span class="sxs-lookup"><span data-stu-id="b1232-258">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9393-258">Confira também</span><span class="sxs-lookup"><span data-stu-id="a9393-258">See also</span></span>
 
-[<span data-ttu-id="b1232-259">Guias do Laboratório de Teste do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="b1232-259">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="a9393-259">Guias do Laboratório de Teste do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="a9393-259">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="b1232-260">Implantar o Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="b1232-260">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="a9393-260">Implantar o Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="a9393-260">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="b1232-261">Documentação do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="b1232-261">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="a9393-261">Documentação do Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="a9393-261">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
