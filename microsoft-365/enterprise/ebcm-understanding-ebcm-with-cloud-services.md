@@ -1,6 +1,8 @@
 ---
 title: Entendendo o gerenciamento de continuidade de negócios empresariais com serviços de nuvem
 author: chrfox
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 manager: laurawi
 ms.date: ''
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como planejar e implementar a continuidade de negócios parece diferente quando os serviços de nuvem fazem parte da sua oferta de TI.
-ms.openlocfilehash: 86ceac67b90acfbb90a35d9a528a89d619668722
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: ced840852aeef9949d005e431125ad2d659cba33
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831832"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596998"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gerenciamento de continuidade de negócios empresariais (EBCM) com serviços de nuvem
 

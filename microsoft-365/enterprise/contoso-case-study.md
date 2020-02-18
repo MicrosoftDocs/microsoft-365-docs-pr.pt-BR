@@ -1,6 +1,8 @@
 ---
 title: Microsoft 365 Enterprise para a Contoso Corporation
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 11/18/2019
@@ -13,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 Enterprise.
-ms.openlocfilehash: 08f2adfac801ad317fc9aeb812685c2ca061eb3c
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 8a9727f806783c72a77a941274e4a1b042c430ca
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699691"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601138"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise para a Contoso Corporation
 

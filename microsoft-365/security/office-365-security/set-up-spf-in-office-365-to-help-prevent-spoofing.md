@@ -1,5 +1,7 @@
 ---
 title: Configurar o SPF no Office 365 para ajudar a evitar falsificações
+f1.keywords:
+- CSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: 'Resumo: Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365. Usar a SPF ajuda a validar emails de saída enviados do seu domínio personalizado.'
-ms.openlocfilehash: 218334385308a86d25309503924d2f64111f731b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 0480e23d00671f0fdfc4795f3844047e02a69122
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971369"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598328"
 ---
 # <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>Configurar o SPF no Office 365 para ajudar a evitar falsificações
 
@@ -64,7 +66,7 @@ Reúna essas informações:
    |3|Somente Exchange Online dedicado|Incomum|ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com|
    |4|Office 365 Alemanha, Microsoft Cloud Alemanha apenas|Incomum|include:spf.protection.outlook.de|
    |5|Sistema de email de terceiros|Incomum|incluir:\<nome do domínio\>  <br/> Onde o nome de domínio é o nome de domínio do sistema de email de terceiros.|
-   |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum| Use um destes procedimentos para cada sistema de email adicional:  <br/>  ip4:\<_endereço IP_\>  <br/>  ip6:\<_endereço IP_\>  <br/>  incluir:\<_nome de domínio_\>  <br/>  Onde o valor do \<_endereço IP_\> for o endereço IP do outro sistema de email e o \<_nome de domínio_\> for o nome de domínio de outro sistema de email que envia emails em nome de seu domínio.|
+   |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum| Use um destes procedimentos para cada sistema de email adicional: <br> ip4:\<_endereço IP_\>  <br/>  ip6:\<_endereço IP_\>  <br/>  incluir:\<_nome de domínio_\>  <br/>  Onde o valor do \<_endereço IP_\> for o endereço IP do outro sistema de email e o \<_nome de domínio_\> for o nome de domínio de outro sistema de email que envia emails em nome de seu domínio.|
    |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|\<_regra de imposição_\>  <br/> Isso pode ser um dos vários valores. Recomendamos que se use **-all**.|
 
 2. Se ainda não tiver feito isso, crie seu registro TXT SPF usando a sintaxe da tabela:
@@ -81,7 +83,7 @@ Reúna essas informações:
 
    Se você já implementou no Office 365 e configurou seus registros TXT SPF para o seu domínio personalizado e estiver migrando para o Office 365 Germany, será preciso atualizar o registro TXT SPF. Para fazer isso, altere **include:spf.protection.outlook.com** para **include.spf.protection.outlook.de**.
 
-3. Depois que você formar seu registro TXT SPF, precisará atualizar o registro no DNS. Você só pode ter um registro TXT SPF para um domínio. Se em vez de adicionar um novo registro, você precisa atualizar o registro existente. Vá para [Criar registros de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide) e clique no link do seu host DNS.
+3. Depois que você formar seu registro TXT SPF, precisará atualizar o registro no DNS. Você só pode ter um registro TXT SPF para um domínio. Se em vez de adicionar um novo registro, você precisa atualizar o registro existente. Vá para [Criar registros de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) e clique no link do seu host DNS.
 
 4. Testar o registro do SPF TXT.
 
