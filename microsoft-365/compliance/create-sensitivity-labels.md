@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.
-ms.openlocfilehash: 73df1928a89218a419a9d774a7830ecad4aceb6d
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 8018c18e976d0e6f9904923471bb07c8bb3cbc40
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091294"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -36,7 +36,7 @@ Os membros da sua equipe de conformidade que forem criar rótulos de confidencia
 
 Por padrão, seu administrador de locatário tem acesso a esses centros de administração e poderá fornecer acesso aos agentes de conformidade e a outras pessoas sem fornecer a eles todas as permissões de um administrador de locatários. Para permitir que se delegue esse acesso limitado de administrador, vá para a página **Permissões** de um desses centros de administração e, em seguida, adicione membros ao grupo de funções **Administrador de Conformidade de Dados**, **Administrador de Conformidade** ou ** Administrator de Segurança**.
 
-Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Como alternativa, você pode criar um novo grupo de funções e adicionar as funções**administrador de rótulo de sensibilidade** ou **configuração da organização** a esse grupo. Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços.
 
