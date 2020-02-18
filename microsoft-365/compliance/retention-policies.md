@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 3dbc3e221849cd9b5cde1d1f97e50ccf043c336d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: dd9cc9624cc58f481e8d8d491493efc22b095d5b
+ms.sourcegitcommit: b78a7a578dce1868b40675b7f7e6b0e16131704c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070107"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42093431"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -201,8 +201,9 @@ Um dos recursos mais avançados de política de retenção é que, por padrão, 
     
 - Pastas públicas do Exchange
     
+
 ![Opção Todos os locais](../media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
-  
+
 Outros recursos importantes de uma política de retenção no âmbito da organização incluem:
   
 - Não há um limite para o número de caixas de correio ou sites que essa política pode incluir.
