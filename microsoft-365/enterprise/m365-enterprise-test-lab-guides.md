@@ -1,5 +1,7 @@
 ---
 title: Guias do Laboratório de Teste do Microsoft 365 para empresas
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,115 +17,115 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de Laboratório de Teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 para empresas.
-ms.openlocfilehash: 42cc3b5572352a4bf83b50e964fd04dd527506cd
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4190eb4619f4732310786b5a7dde6bb590a969c1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801636"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067048"
 ---
-# <a name="microsoft-365-for-enterprise-test-lab-guides"></a><span data-ttu-id="5f35a-103">Guias do Laboratório de Teste do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="5f35a-103">Microsoft 365 Enterprise Test Lab Guides</span></span>
+# <a name="microsoft-365-for-enterprise-test-lab-guides"></a><span data-ttu-id="e2ba3-103">Guias do Laboratório de Teste do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="e2ba3-103">Microsoft 365 for enterprise Test Lab Guides</span></span>
 
-<span data-ttu-id="5f35a-104">*Isso se aplica ao Microsoft 365 para empresas e ao Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="5f35a-104">*This applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="e2ba3-104">*Isso se aplica ao Microsoft 365 para empresas e ao Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="e2ba3-104">*This applies to both Microsoft 365 for enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="5f35a-p101">Os TLGs (Guias de Laboratório de Teste) ajudam a aprender rapidamente sobre os produtos da Microsoft. Eles fornecem instruções dirigidas para configurar os ambientes de testes representativos, mas simplificados. Você pode usar esses ambientes para demonstração, personalização ou criação de provas complexas de conceito durante a vigência de uma assinatura de avaliação ou paga.</span><span class="sxs-lookup"><span data-stu-id="5f35a-p101">Test Lab Guides (TLGs) help you quickly learn about Microsoft products. They provide prescriptive instructions to configure simplified but representative test environments. You can use these environments for demonstration, customization, or creation of complex proofs of concept for the duration of a trial or paid subscription.</span></span> 
+<span data-ttu-id="e2ba3-p101">Os TLGs (Guias de Laboratório de Teste) ajudam a aprender rapidamente sobre os produtos da Microsoft. Eles fornecem instruções dirigidas para configurar os ambientes de testes representativos, mas simplificados. Você pode usar esses ambientes para demonstração, personalização ou criação de provas complexas de conceito durante a vigência de uma assinatura de avaliação ou paga.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-p101">Test Lab Guides (TLGs) help you quickly learn about Microsoft products. They provide prescriptive instructions to configure simplified but representative test environments. You can use these environments for demonstration, customization, or creation of complex proofs of concept for the duration of a trial or paid subscription.</span></span> 
 
-<span data-ttu-id="5f35a-p102">Os TLGs foram projetados para serem modulares. Eles se complementam para criar várias configurações que correspondem melhor às suas necessidades de configuração de teste ou aprendizado. A experiência prática no estilo "criei por conta própria e funciona" ajuda você a entender os requisitos de implantação de um novo produto ou cenário para poder planejar melhor sua hospedagem em produção.</span><span class="sxs-lookup"><span data-stu-id="5f35a-p102">TLGs are designed to be modular. They build upon each other to create multiple configurations that more closely match your learning or test configuration needs. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or scenario so you can better plan for hosting it in production.</span></span>
+<span data-ttu-id="e2ba3-p102">Os TLGs foram projetados para serem modulares. Eles se complementam para criar várias configurações que correspondem melhor às suas necessidades de configuração de teste ou aprendizado. A experiência prática no estilo "criei por conta própria e funciona" ajuda você a entender os requisitos de implantação de um novo produto ou cenário para poder planejar melhor sua hospedagem em produção.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-p102">TLGs are designed to be modular. They build upon each other to create multiple configurations that more closely match your learning or test configuration needs. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or scenario so you can better plan for hosting it in production.</span></span>
 
-<span data-ttu-id="5f35a-111">Você também pode usar os TLGs para criar ambientes representativos de desenvolvimento e teste de aplicativos, conhecidos como ambientes de desenvolvimento/teste.</span><span class="sxs-lookup"><span data-stu-id="5f35a-111">You can also use TLGs to create representative environments for development and testing of applications, also known as dev/test environments.</span></span>
+<span data-ttu-id="e2ba3-111">Você também pode usar os TLGs para criar ambientes representativos de desenvolvimento e teste de aplicativos, conhecidos como ambientes de desenvolvimento/teste.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-111">You can also use TLGs to create representative environments for development and testing of applications, also known as dev/test environments.</span></span>
   
-![Guias do Laboratório de Teste do Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-<span data-ttu-id="5f35a-113">Clique [aqui](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.</span><span class="sxs-lookup"><span data-stu-id="5f35a-113">Click [here](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+<span data-ttu-id="e2ba3-113">Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-113">Click [here](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 for enterprise Test Lab Guide stack.</span></span>
 
-<span data-ttu-id="5f35a-114">[![A pilha da Guia do Laboratório de Teste do Microsoft 365 para empresas](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span><span class="sxs-lookup"><span data-stu-id="5f35a-114">[![The Microsoft 365 Enterprise Test Lab Guide stack](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span></span>
+<span data-ttu-id="e2ba3-114">[![A pilha da Guia do Laboratório de Teste do Microsoft 365 para empresas](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span><span class="sxs-lookup"><span data-stu-id="e2ba3-114">[![The Microsoft 365 for enterprise Test Lab Guide stack](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span></span>
 
-## <a name="base-configuration"></a><span data-ttu-id="5f35a-115">Configuração base</span><span class="sxs-lookup"><span data-stu-id="5f35a-115">Base configuration</span></span>
+## <a name="base-configuration"></a><span data-ttu-id="e2ba3-115">Configuração base</span><span class="sxs-lookup"><span data-stu-id="e2ba3-115">Base configuration</span></span>
 
-<span data-ttu-id="5f35a-p103">Primeiro, crie um ambiente de teste para o [Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/) que inclua o Office 365 E5, o Enterprise Mobility+Security (EMS) E5 e o Windows 10 Enterprise. Você pode criar dois tipos diferentes de configurações básicas:</span><span class="sxs-lookup"><span data-stu-id="5f35a-p103">First, you create a test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) that includes Office 365 E5, Enterprise Mobility + Security (EMS) E5, and Windows 10 Enterprise. You can create two different types of base configurations:</span></span>
+<span data-ttu-id="e2ba3-p103">Primeiro, crie um ambiente de teste para o [Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/) que inclua o Office 365 E5, o Enterprise Mobility+Security (EMS) E5 e o Windows 10 Enterprise. Você pode criar dois tipos diferentes de configurações básicas:</span><span class="sxs-lookup"><span data-stu-id="e2ba3-p103">First, you create a test environment for [Microsoft 365 for enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) that includes Office 365 E5, Enterprise Mobility + Security (EMS) E5, and Windows 10 Enterprise. You can create two different types of base configurations:</span></span>
 
-- <span data-ttu-id="5f35a-118">Use a [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 para empresas em um ambiente exclusivamente em nuvem, que não inclui nenhum componente local.</span><span class="sxs-lookup"><span data-stu-id="5f35a-118">Use the [lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a cloud-only environment, which does not include any on-premises components.</span></span>
+- <span data-ttu-id="e2ba3-118">Use a [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 para empresas em um ambiente exclusivamente em nuvem, que não inclui nenhum componente local.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-118">Use the [lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 for enterprise features and capabilities in a cloud-only environment, which does not include any on-premises components.</span></span>
 
-- <span data-ttu-id="5f35a-119">Use a [configuração básica corporativa simulada](simulated-ent-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 para empresas em um ambiente exclusivamente em nuvem híbrida, que usa componentes locais como o domínio dos Serviços de Domínio do Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="5f35a-119">Use the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a hybrid cloud environment, which uses on-premises components such as an Active Directory Domain Services (AD DS) domain.</span></span>
+- <span data-ttu-id="e2ba3-119">Use a [configuração básica corporativa simulada](simulated-ent-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 para empresas em um ambiente exclusivamente em nuvem híbrida, que usa componentes locais como o domínio dos Serviços de Domínio do Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="e2ba3-119">Use the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 for enterprise features and capabilities in a hybrid cloud environment, which uses on-premises components such as an Active Directory Domain Services (AD DS) domain.</span></span>
 
-<span data-ttu-id="5f35a-120">Você também pode criar ambientes de teste do Office 365 E5, não adicionando a licença da Microsoft 365 E5 ao seu ambiente de avaliação ou produção.</span><span class="sxs-lookup"><span data-stu-id="5f35a-120">You can also create test environments for Office 365 E5 by not adding the Microsoft 365 E5 license to your trial or production test environment.</span></span>
+<span data-ttu-id="e2ba3-120">Você também pode criar ambientes de teste do Office 365 E5, não adicionando a licença da Microsoft 365 E5 ao seu ambiente de avaliação ou produção.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-120">You can also create test environments for Office 365 E5 by not adding the Microsoft 365 E5 license to your trial or production test environment.</span></span>
     
-## <a name="identity"></a><span data-ttu-id="5f35a-121">Identidade</span><span class="sxs-lookup"><span data-stu-id="5f35a-121">Identity</span></span>
+## <a name="identity"></a><span data-ttu-id="e2ba3-121">Identidade</span><span class="sxs-lookup"><span data-stu-id="e2ba3-121">Identity</span></span>
 
-<span data-ttu-id="5f35a-122">Para demonstrar recursos e capacidades relacionados à identidade, confira:</span><span class="sxs-lookup"><span data-stu-id="5f35a-122">To demonstrate identity-related features and capabilities, see:</span></span>
+<span data-ttu-id="e2ba3-122">Para demonstrar recursos e capacidades relacionados à identidade, confira:</span><span class="sxs-lookup"><span data-stu-id="e2ba3-122">To demonstrate identity-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="5f35a-123">Sincronização de hash de senha</span><span class="sxs-lookup"><span data-stu-id="5f35a-123">Password hash synchronization</span></span>](password-hash-sync-m365-ent-test-environment.md)
+- [<span data-ttu-id="e2ba3-123">Sincronização de hash de senha</span><span class="sxs-lookup"><span data-stu-id="e2ba3-123">Password hash synchronization</span></span>](password-hash-sync-m365-ent-test-environment.md)
   
-   <span data-ttu-id="5f35a-124">Habilite e teste a sincronização de diretório baseado em hash de senha de um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="5f35a-124">Enable and test password hash-based directory synchronization from an AD DS domain controller.</span></span>
+   <span data-ttu-id="e2ba3-124">Habilite e teste a sincronização de diretório baseado em hash de senha de um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-124">Enable and test password hash-based directory synchronization from an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="5f35a-125">Autenticação de passagem</span><span class="sxs-lookup"><span data-stu-id="5f35a-125">Pass-through authentication</span></span>](pass-through-auth-m365-ent-test-environment.md)
+- [<span data-ttu-id="e2ba3-125">Autenticação de passagem</span><span class="sxs-lookup"><span data-stu-id="e2ba3-125">Pass-through authentication</span></span>](pass-through-auth-m365-ent-test-environment.md)
   
-   <span data-ttu-id="5f35a-126">Habilite e teste a autenticação de passagem para um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="5f35a-126">Enable and test pass-through authentication to an AD DS domain controller.</span></span>
+   <span data-ttu-id="e2ba3-126">Habilite e teste a autenticação de passagem para um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-126">Enable and test pass-through authentication to an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="5f35a-127">Autenticação federada</span><span class="sxs-lookup"><span data-stu-id="5f35a-127">Federated authentication</span></span>](federated-identity-for-your-office-365-dev-test-environment.md)
+- [<span data-ttu-id="e2ba3-127">Autenticação federada</span><span class="sxs-lookup"><span data-stu-id="e2ba3-127">Federated authentication</span></span>](federated-identity-for-your-office-365-dev-test-environment.md)
   
-   <span data-ttu-id="5f35a-128">Habilite e teste a autenticação federada para um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="5f35a-128">Enable and test federated authentication to an AD DS domain controller.</span></span>
+   <span data-ttu-id="e2ba3-128">Habilite e teste a autenticação federada para um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-128">Enable and test federated authentication to an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="5f35a-129">Logon único contínuo do Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="5f35a-129">Azure AD Seamless Single Sign-on</span></span>](single-sign-on-m365-ent-test-environment.md)
+- [<span data-ttu-id="e2ba3-129">Logon único contínuo do Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="e2ba3-129">Azure AD Seamless Single Sign-on</span></span>](single-sign-on-m365-ent-test-environment.md)
   
-   <span data-ttu-id="5f35a-130">Habilite e teste o Logon Único Contínuo (SSO) do Azure AD com um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="5f35a-130">Enable and test Azure AD Seamless Single Sign-on (SSO) with an AD DS domain controller.</span></span>
+   <span data-ttu-id="e2ba3-130">Habilite e teste o Logon Único Contínuo (SSO) do Azure AD com um controlador de domínio do AD DS.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-130">Enable and test Azure AD Seamless Single Sign-on (SSO) with an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="5f35a-131">Autenticação multifator</span><span class="sxs-lookup"><span data-stu-id="5f35a-131">Multi-factor authentication</span></span>](multi-factor-authentication-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e2ba3-131">Autenticação multifator</span><span class="sxs-lookup"><span data-stu-id="e2ba3-131">Multi-factor authentication</span></span>](multi-factor-authentication-microsoft-365-test-environment.md)
   
-   <span data-ttu-id="5f35a-132">Habilite e teste a autenticação multifator com base em smartphone para uma conta de usuário específica.</span><span class="sxs-lookup"><span data-stu-id="5f35a-132">Enable and test smart phone-based multi-factor authentication for a specific user account.</span></span>
+   <span data-ttu-id="e2ba3-132">Habilite e teste a autenticação multifator com base em smartphone para uma conta de usuário específica.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-132">Enable and test smart phone-based multi-factor authentication for a specific user account.</span></span>
 
-- [<span data-ttu-id="5f35a-133">Proteger contas de administradores globais</span><span class="sxs-lookup"><span data-stu-id="5f35a-133">Protect global administrator accounts</span></span>](protect-global-administrator-accounts-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e2ba3-133">Proteger contas de administradores globais</span><span class="sxs-lookup"><span data-stu-id="e2ba3-133">Protect global administrator accounts</span></span>](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   <span data-ttu-id="5f35a-134">Bloqueie suas contas globais de administrador com políticas de acesso condicional.</span><span class="sxs-lookup"><span data-stu-id="5f35a-134">Lock down your global administrator accounts with conditional access policies.</span></span>
+   <span data-ttu-id="e2ba3-134">Bloqueie suas contas globais de administrador com políticas de acesso condicional.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-134">Lock down your global administrator accounts with conditional access policies.</span></span>
 
-- [<span data-ttu-id="5f35a-135">Senha write-back</span><span class="sxs-lookup"><span data-stu-id="5f35a-135">Password writeback</span></span>](password-writeback-m365-ent-test-environment.md)
+- [<span data-ttu-id="e2ba3-135">Senha write-back</span><span class="sxs-lookup"><span data-stu-id="e2ba3-135">Password writeback</span></span>](password-writeback-m365-ent-test-environment.md)
 
-   <span data-ttu-id="5f35a-136">Use senha write-back para alternar a senha na sua conta de usuário do AD DS do Azure AD.</span><span class="sxs-lookup"><span data-stu-id="5f35a-136">Use password writeback to change the password on your AD DS user account from Azure AD.</span></span>
+   <span data-ttu-id="e2ba3-136">Use senha write-back para alternar a senha na sua conta de usuário do AD DS do Azure AD.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-136">Use password writeback to change the password on your AD DS user account from Azure AD.</span></span>
 
-- [<span data-ttu-id="5f35a-137">Redefinição de senha</span><span class="sxs-lookup"><span data-stu-id="5f35a-137">Password reset</span></span>](password-reset-m365-ent-test-environment.md)
+- [<span data-ttu-id="e2ba3-137">Redefinição de senha</span><span class="sxs-lookup"><span data-stu-id="e2ba3-137">Password reset</span></span>](password-reset-m365-ent-test-environment.md)
 
-   <span data-ttu-id="5f35a-138">Use SSPR (Redefinição de senha de autoatendimento) para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="5f35a-138">Use self-service password reset (SSPR) to reset your password.</span></span>
+   <span data-ttu-id="e2ba3-138">Use SSPR (Redefinição de senha de autoatendimento) para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-138">Use self-service password reset (SSPR) to reset your password.</span></span>
 
-- [<span data-ttu-id="5f35a-139">Licenciamento automático e associação de grupo</span><span class="sxs-lookup"><span data-stu-id="5f35a-139">Automatic licensing and group membership</span></span>](automate-licenses-group-membership-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e2ba3-139">Licenciamento automático e associação de grupo</span><span class="sxs-lookup"><span data-stu-id="e2ba3-139">Automatic licensing and group membership</span></span>](automate-licenses-group-membership-microsoft-365-test-environment.md)
 
-   <span data-ttu-id="5f35a-140">Faça com que administrar novas contas seja mais fácil do que nunca com o licenciamento automático e associação dinâmica a grupos.</span><span class="sxs-lookup"><span data-stu-id="5f35a-140">Make administering new accounts easier than ever with automatic licensing and dynamic group membership.</span></span>
+   <span data-ttu-id="e2ba3-140">Faça com que administrar novas contas seja mais fácil do que nunca com o licenciamento automático e associação dinâmica a grupos.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-140">Make administering new accounts easier than ever with automatic licensing and dynamic group membership.</span></span>
 
-- [<span data-ttu-id="5f35a-141">Azure AD Identity Protection</span><span class="sxs-lookup"><span data-stu-id="5f35a-141">Azure AD Identity Protection</span></span>](azure-ad-identity-protection-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e2ba3-141">Azure AD Identity Protection</span><span class="sxs-lookup"><span data-stu-id="e2ba3-141">Azure AD Identity Protection</span></span>](azure-ad-identity-protection-microsoft-365-test-environment.md)
 
-   <span data-ttu-id="5f35a-142">Verifique a existência de vulnerabilidades na sua conta de usuário atual.</span><span class="sxs-lookup"><span data-stu-id="5f35a-142">Scan your current user accounts for vulnerabilities.</span></span>
+   <span data-ttu-id="e2ba3-142">Verifique a existência de vulnerabilidades na sua conta de usuário atual.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-142">Scan your current user accounts for vulnerabilities.</span></span>
 
-- [<span data-ttu-id="5f35a-143">Acesso a identidades e dispositivos</span><span class="sxs-lookup"><span data-stu-id="5f35a-143">Identity and device access</span></span>](identity-device-access-m365-test-environment.md)
+- [<span data-ttu-id="e2ba3-143">Acesso a identidades e dispositivos</span><span class="sxs-lookup"><span data-stu-id="e2ba3-143">Identity and device access</span></span>](identity-device-access-m365-test-environment.md)
 
-   <span data-ttu-id="5f35a-144">Crie um ambiente para testar configurações recomendadas de acesso a identidades e dispositivos e políticas de acesso condicional.</span><span class="sxs-lookup"><span data-stu-id="5f35a-144">Create an environment to test recommended identity and device access configurations and conditional access policies.</span></span>
+   <span data-ttu-id="e2ba3-144">Crie um ambiente para testar configurações recomendadas de acesso a identidades e dispositivos e políticas de acesso condicional.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-144">Create an environment to test recommended identity and device access configurations and conditional access policies.</span></span>
 
 
-## <a name="mobile-device-management"></a><span data-ttu-id="5f35a-145">Gerenciamento de dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="5f35a-145">Mobile device management</span></span>
+## <a name="mobile-device-management"></a><span data-ttu-id="e2ba3-145">Gerenciamento de dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="e2ba3-145">Mobile device management</span></span>
 
-<span data-ttu-id="5f35a-146">Para demonstrar recursos relacionados ao gerenciamento de dispositivo móvel, confira:</span><span class="sxs-lookup"><span data-stu-id="5f35a-146">To demonstrate mobile device management-related features and capabilities, see:</span></span>
+<span data-ttu-id="e2ba3-146">Para demonstrar recursos relacionados ao gerenciamento de dispositivo móvel, confira:</span><span class="sxs-lookup"><span data-stu-id="e2ba3-146">To demonstrate mobile device management-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="5f35a-147">Políticas de conformidade do dispositivo</span><span class="sxs-lookup"><span data-stu-id="5f35a-147">Device compliance policies</span></span>](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e2ba3-147">Políticas de conformidade do dispositivo</span><span class="sxs-lookup"><span data-stu-id="e2ba3-147">Device compliance policies</span></span>](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="5f35a-148">Criar uma política de conformidade do dispositivo e um grupo de usuários para dispositivos com Windows 10.</span><span class="sxs-lookup"><span data-stu-id="5f35a-148">Create a user group and a device compliance policy for Windows 10 devices.</span></span>
+   <span data-ttu-id="e2ba3-148">Criar uma política de conformidade do dispositivo e um grupo de usuários para dispositivos com Windows 10.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-148">Create a user group and a device compliance policy for Windows 10 devices.</span></span>
     
-- [<span data-ttu-id="5f35a-149">Registrar dispositivos iOS e Android</span><span class="sxs-lookup"><span data-stu-id="5f35a-149">Enroll iOS and Android devices</span></span>](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+- [<span data-ttu-id="e2ba3-149">Registrar dispositivos iOS e Android</span><span class="sxs-lookup"><span data-stu-id="e2ba3-149">Enroll iOS and Android devices</span></span>](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
-   <span data-ttu-id="5f35a-150">Registre os dispositivos iOS ou Android e gerencie-os remotamente.</span><span class="sxs-lookup"><span data-stu-id="5f35a-150">Enroll iOS or Android devices and manage them remotely.</span></span>
+   <span data-ttu-id="e2ba3-150">Registre os dispositivos iOS ou Android e gerencie-os remotamente.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-150">Enroll iOS or Android devices and manage them remotely.</span></span>
 
 
-## <a name="information-protection"></a><span data-ttu-id="5f35a-151">Proteção de informações</span><span class="sxs-lookup"><span data-stu-id="5f35a-151">Information protection</span></span>
+## <a name="information-protection"></a><span data-ttu-id="e2ba3-151">Proteção de informações</span><span class="sxs-lookup"><span data-stu-id="e2ba3-151">Information protection</span></span>
 
-<span data-ttu-id="5f35a-152">Para demonstrar recursos e capacidades relacionados à proteção da informação, confira:</span><span class="sxs-lookup"><span data-stu-id="5f35a-152">To demonstrate information protection-related features and capabilities, see:</span></span>
+<span data-ttu-id="e2ba3-152">Para demonstrar recursos e capacidades relacionados à proteção da informação, confira:</span><span class="sxs-lookup"><span data-stu-id="e2ba3-152">To demonstrate information protection-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="5f35a-153">Segurança ampliada do Office 365</span><span class="sxs-lookup"><span data-stu-id="5f35a-153">Increased Office 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e2ba3-153">Segurança ampliada do Office 365</span><span class="sxs-lookup"><span data-stu-id="e2ba3-153">Increased Office 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="5f35a-154">Configure definições de segurança ampliada no Office 365 e investigue ferramentas internas de segurança.</span><span class="sxs-lookup"><span data-stu-id="5f35a-154">Configure settings for increased Office 365 security and investigate built-in security tools.</span></span>
+   <span data-ttu-id="e2ba3-154">Configure definições de segurança ampliada no Office 365 e investigue ferramentas internas de segurança.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-154">Configure settings for increased Office 365 security and investigate built-in security tools.</span></span>
   
-- [<span data-ttu-id="5f35a-155">Classificação de dados</span><span class="sxs-lookup"><span data-stu-id="5f35a-155">Data classification</span></span>](data-classification-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e2ba3-155">Classificação de dados</span><span class="sxs-lookup"><span data-stu-id="e2ba3-155">Data classification</span></span>](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="5f35a-156">Configure e aplique rótulos do Office 365 a um documento em um site de equipe do SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="5f35a-156">Configure and apply Office 365 labels to a document in a SharePoint Online team site.</span></span>
+   <span data-ttu-id="e2ba3-156">Configure e aplique rótulos do Office 365 a um documento em um site de equipe do SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-156">Configure and apply Office 365 labels to a document in a SharePoint Online team site.</span></span>
     
-- [<span data-ttu-id="5f35a-157">Gerenciamento de acesso privilegiado</span><span class="sxs-lookup"><span data-stu-id="5f35a-157">Privileged access management</span></span>](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e2ba3-157">Gerenciamento de acesso privilegiado</span><span class="sxs-lookup"><span data-stu-id="e2ba3-157">Privileged access management</span></span>](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="5f35a-158">Configure o gerenciamento de acesso privilegiado com acesso just-in-time para tarefas elevadas e privilegiadas na sua organização do Office 365.</span><span class="sxs-lookup"><span data-stu-id="5f35a-158">Configure privileged access management for just-in-time access to elevated and privileged tasks in your Office 365 organization.</span></span>
+   <span data-ttu-id="e2ba3-158">Configure o gerenciamento de acesso privilegiado com acesso just-in-time para tarefas elevadas e privilegiadas na sua organização do Office 365.</span><span class="sxs-lookup"><span data-stu-id="e2ba3-158">Configure privileged access management for just-in-time access to elevated and privileged tasks in your Office 365 organization.</span></span>
 
 
