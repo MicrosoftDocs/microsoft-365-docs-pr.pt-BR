@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: 17cea4f80ac1dee75c10c2beef63be06141c89d5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 102d1da2ec5f49e26a634611f4f640a083d167ff
+ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074586"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42101261"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -44,15 +44,15 @@ Por fim, como administrador, quando você configura um rótulo de confidencialid
 
 As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no centro de conformidade do Microsoft 365, centro de segurança do Microsoft 365 ou Centro de Conformidade e Segurança do Office 365.
 
-## <a name="how-encryption-works"></a>Como funciona a criptografia
+## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
 A criptografia usa o serviço Azure Rights Management (Azure RMS) da Proteção de Informações do Azure. Esta solução de proteção usa política de criptografia, identidade e autorização. Para saber mais, confira [O que é o Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) na documentação da Proteção de Informações do Azure. 
 
 Quando você usa essa solução de criptografia, o **recurso de superusuário** garante que as pessoas e os serviços autorizados possam sempre ler e inspecionar os dados criptografados para a sua organização. Se necessário, a criptografia poderá ser removida ou alterada. Para saber mais, confira [Configurar os superusuários para a Proteção de Informações do Azure, serviços de descoberta ou recuperação de dados](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
-## <a name="configuring-a-label-for-encryption"></a>Configurar um rótulo para criptografia
+## <a name="how-to-configure-a-label-for-encryption"></a>Como configurar um rótulo para criptografia
 
-Quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels), na página **Criptografia** do assistente, você pode selecionar uma das seguintes opções:
+[Crie ou edite um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels), e na página **Criptografia** do assistente, você pode selecionar uma das seguintes opções:
 
 - **Nenhuma**: a configuração padrão para um novo rótulo. Nenhuma nova criptografia é aplicada.
 - **Aplicar**: ativa a criptografia e, em seguida, você especifica as configurações de criptografia.
@@ -98,7 +98,7 @@ Quando uma mensagem de email é criptografada por qualquer método, todos os doc
 
 Os documentos que já estão criptografados e depois são adicionados como anexos sempre preservam a criptografia original. 
 
-## <a name="how-to-configure-encryption-settings-for-a-sensitivity-label"></a>Como definir as configurações de criptografia do rótulo de confidencialidade
+## <a name="configure-encryption-settings"></a>Definir configurações da criptografia
 
 Quando você seleciona **Aplicar** na página **Criptografia** do assistente para criar ou editar um rótulo de confidencialidade, escolha se deseja:
 
