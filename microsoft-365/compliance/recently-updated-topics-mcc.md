@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
-ms.openlocfilehash: 36edcbc7106710ff62bc1a176fb76a17fd7076a6
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: ad9b6865b0afe5b49c2b02d3ee9adba4d62ef9eb
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101241"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106814"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -108,7 +108,7 @@ Novos artigos para dar suporte à versão prévia da solução de gerenciamento 
 
 ### <a name="mrm-in-exchange-online"></a>MRM no Exchange Online
 
-[Colocar uma caixa de correio em retenção suspensa](https://docs.microsoft.com/en-us/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (atualizado)<br>Adicionada nova seção comparando as propriedades de caixa de correio ElcProcessingDisabled e RetentionHoldEnabled e como elas afetam o processamento do assistente de pasta gerenciada.
+[Colocar uma caixa de correio em retenção suspensa](https://docs.microsoft.com/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (atualizado)<br>Adicionada nova seção comparando as propriedades de caixa de correio ElcProcessingDisabled e RetentionHoldEnabled e como elas afetam o processamento do assistente de pasta gerenciada.
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
