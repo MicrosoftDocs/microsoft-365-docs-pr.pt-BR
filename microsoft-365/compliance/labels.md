@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 27f680bf2acf844618f133b074faf6f5ec3f7e90
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 162b9fed66fa3135829f422ccd04a396ddf7e632
+ms.sourcegitcommit: b78a7a578dce1868b40675b7f7e6b0e16131704c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072447"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42093450"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -44,9 +44,11 @@ Com os rótulos de retenção, você pode:
     
 - **Aplique automaticamente os rótulos de retenção ao conteúdo** que corresponder a condições específicas, por exemplo, quando o conteúdo apresenta: 
     
-  - Tipos específicos de informações confidenciais.
+    - Tipos específicos de informações confidenciais.
     
-  - Palavras-chave específicas que correspondem a uma consulta criada por você.
+    - Palavras-chave específicas que correspondem a uma consulta criada por você.
+    
+    - Correspondências padrão para um classificador treinável.
     
   A capacidade de aplicar rótulos de retenção automaticamente ao conteúdo é importante porque:
     
@@ -57,13 +59,13 @@ Com os rótulos de retenção, você pode:
    - Os usuários não precisam mais conhecer as políticas de governança de dados; em vez disso, eles podem se concentrar no próprio trabalho.
 
   > [!NOTE]
-  > A capacidade de aplicar rótulos automaticamente exige uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissões para editar o conteúdo que foi automaticamente rotulado em um site ou na caixa de correio é selecionada para rotular automaticamente. Os usuários que possuem apenas o acesso somente leitura ao conteúdo ou respondem a emails rotulados não precisam de uma essa licença.
+  > A capacidade de aplicar rótulos automaticamente requer uma licença do Office 365 Enterprise E5 para cada usuário que tem permissões para editar conteúdo que tenha sido rotulado automaticamente em um site ou na caixa de correio é selecionado para rotular automaticamente. Os usuários que simplesmente têm acesso somente leitura ao conteúdo ou responder a emails rotulados não exigem essa licença.
       
 - **Implemente o gerenciamento de registros no Office 365**, inclusive em emails e documentos. Você pode usar um rótulo de retenção para classificar o conteúdo como registro. Quando isso acontece, o rótulo não pode ser alterado ou removido, e o conteúdo não pode ser editado ou excluído. 
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que chegarem naquele local herdem o rótulo de retenção padrão.  
     
-Você cria rótulos de retenção no centro de conformidade do Microsoft 365, na central de segurança do Microsoft 365 ou na Central de Conformidade e Segurança do Office 365. Na barra de navegação à esquerda, escolha **Classificação** > **Rótulo de retenção** > **Criar um rótulo**.
+Você cria rótulos de retenção no centro de conformidade do Microsoft 365, na central de segurança do Microsoft 365 ou na Central de Conformidade e Segurança do Office 365.
 
 ## <a name="how-retention-labels-work-with-retention-label-policies"></a>Como os rótulos de retenção funcionam com políticas de rótulos de retenção
 
@@ -258,14 +260,17 @@ Os rótulos de retenção de aplicação automática são excelentes porque:
     
 Você pode optar por aplicar os rótulos de retenção automaticamente ao conteúdo quando esse conteúdo apresentar:
   
-- Tipos específicos de informações confidenciais.
+- [Tipos específicos de informações confidenciais](#auto-apply-retention-labels-to-content-with-specific-types-of-sensitive-information)
     
-- Palavras-chave específicas que correspondem a uma consulta criada por você.
+- [Palavras-chave específicas que correspondem a uma consulta criada por você](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
+
+- [Uma correspondência de classificadores treináveis](#auto-apply-labels-to-content-by-using-trainable-classifers)
     
-![Página Escolher condição para aplicação automática de rótulo](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
+![Escolha a página de condição para aplicação automática de rótulo](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
+A aplicação automática de rótulos de retenção configuradas para as duas primeiras opções requer uma assinatura do Office 365 Enterprise E5. Se você usar a opção de classificadores treináveis, esse recurso tem [requisitos adicionais de licenciamento](classifier-getting-started-with.md#licensing-requirements).
 
-Os rótulos de retenção de aplicação automática exigem uma assinatura do Office 365 Enterprise E5 e que pode levar até sete dias para que esses rótulos de retenção sejam aplicados a todo o conteúdo que atenda às condições, conforme descrito acima.
+Pode levar até sete dias para que os rótulos de retenção sejam aplicados automaticamente a todo o conteúdo que corresponde às condições que você configurou.
   
 > [!TIP]
 > Confira [Gerenciar o ciclo de vida dos documentos do SharePoint com rótulos de retenção](auto-apply-retention-labels-scenario.md) para obter um cenário detalhado sobre como usar as propriedades gerenciadas no SharePont para aplicar automaticamente os rótulos de retenção e implementar a retenção voltada para o evento.
@@ -309,6 +314,17 @@ Consultas de exemplos:
     - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement E contenttype:contract
 
 ![Editor de consultas](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
+
+
+### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
+
+Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **idiomas ofensivos**, **currículo**, **SourceCode**, **assédio**, **profanação**e **ameaças**.
+
+Para aplicar um rótulo automaticamente usando essa opção, as caixas de correio e sites do SharePoint Online devem ter pelo menos 10 MB de dados.
+
+Para obter mais informações sobre os classificadores treináveis, confira [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md).
+
+Para obter uma configuração de exemplo, confira [como preparar e usar um classificador pronto para uso](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-ready-to-use-classifier).
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>Aplicar um rótulo de retenção padrão a todo o conteúdo em uma biblioteca do SharePoint, pasta ou conjunto de documentos
 
