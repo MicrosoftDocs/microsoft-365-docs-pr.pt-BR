@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: a9e49f5b9b518711f72c9b9a29e690c55acf3861
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b5289f4c9b7ea8c723dab8bf4bf97b83fef5b34c
+ms.sourcegitcommit: 290d95f9ba118336cb136f34313de265b97e869e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080299"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155620"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
 > [!NOTE]
 > As informações neste artigo aplicam-se apenas às assinaturas da plataforma de alimentação da Microsoft (Power BI, aplicativos de energia e automatização de energia).
 
-As compras de autoatendimento estão agora disponíveis para a plataforma de energia nos Estados Unidos, Austrália, Canadá e Japão.
+As compras de autoatendimento estão agora disponíveis para a plataforma de energia em vários países.
 
 ## <a name="general"></a>Geral
 
@@ -146,3 +146,9 @@ Os usuários válidos continuarão a ter o uso completo da compra de autoatendim
 ### <a name="whats-the-role-of-microsofts-partners-in-self-service-purchases"></a>Qual é a função dos parceiros da Microsoft em compras de autoatendimento?
 
 Parceiros com privilégios de administração delegada podem ver compras de autoatendimento no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>, assim como um administrador. Os parceiros podem ajudar a oferecer suporte a uma organização que deseja centralizar produtos comprados por compras de autoatendimento. Além disso, os parceiros podem oferecer soluções para estender os recursos de uma compra de autoatendimento.
+
+## <a name="country-availability"></a>Disponibilidade do país
+
+### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>Em quais países posso fazer uma compra de autoatendimento?
+
+As compras de autoatendimento estão disponíveis nos seguintes países: Austrália, Canadá, Japão e Estados Unidos.
