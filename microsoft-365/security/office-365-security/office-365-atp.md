@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: 7210cc2cfbb060ee6afe9042a5c8934ff6f53576
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9d7b2561c40e1322b7f15e72c48755268c119f24
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598738"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106834"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
@@ -101,7 +101,7 @@ O Office 365 ATP Plano 2 inclui uma melhor investigação de [ameaças e ferrame
 
 - O **[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)** (também chamado de Explorador) é um relatório em tempo real que permite identificar e analisar ameaças recentes. Você pode configurar o Explorador para mostrar dados de períodos personalizados.
 
-- O **[Simulador de Ataques](attack-simulator.md)** permite que você execute cenários de ataque realistas em sua organização para identificar as vulnerabilidades. As simulações de tipos de ataque atuais estão disponíveis, incluindo um [ataque de nome para exibição e spear-phishing](attack-simulator.md#display-name-spear-phishing-attack), um [ataque de pulverização de senha](attack-simulator.md#password-spray-attack), um [ataque de senha de força bruta](attack-simulator.md#brute-force-password-attack), e mais.
+- O **[Simulador de Ataques](attack-simulator.md)** permite que você execute cenários de ataque realistas em sua organização para identificar as vulnerabilidades. As simulações de tipos de ataque atuais estão disponíveis, incluindo um [ataque de coleta para spear-phishing credenciada](attack-simulator.md#credential-harvest-spear-phishing-attack), um [ataque de pulverização de senha](attack-simulator.md#password-spray-attack), um [ataque de senha de força bruta](attack-simulator.md#brute-force-password-attack) e muito mais.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Poupe tempo com investigação e resposta automatizadas
 

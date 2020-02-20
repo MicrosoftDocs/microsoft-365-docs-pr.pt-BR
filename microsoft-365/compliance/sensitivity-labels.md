@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Com os rótulos de confidencialidade, você pode classificar e ajudar a proteger seu conteúdo confidencial, garantindo ao mesmo tempo que a produtividade e a capacidade de colaboração de seu pessoal não sejam prejudicadas. Você pode usar rótulos de confidencialidade para aplicar configurações de proteção que incluem criptografia ou marcas d'água em conteúdo rotulado.
-ms.openlocfilehash: fa04fdc2713cbba090ec56972cd87e6cbdc4387b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
+ms.openlocfilehash: 92bfb768cf044b6a4837e5dab6936c2d77424a25
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081410"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106824"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
 Para realizar seus trabalhos, as pessoas em sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo deixa de estar protegido por um firewall, podendo circular em qualquer lugar, entre dispositivos, aplicativos e serviços. E quando em roaming, é importante que esse processo seja feito de modo seguro e protegido, atendendo às políticas de conformidade dos negócios da organização.
 
-Com rótulos de confidencialidade, você pode classificar e ajudar a proteger os dados da sua organização, sem atrapalhar a produtividade e a capacidade de colaboração de seu pessoal.
+Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft permitem a classificação e proteção dos dados da sua organização, enquanto garante que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas.
 
 Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na guia **Página Inicial** na faixa de opções. Neste exemplo, o rótulo aplicado exibe na barra de status:
 
@@ -100,7 +100,11 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     Para obter mais informações sobre as configurações de**ponto de extremidade de prevenção contra perda de dados **, quando você cria ou edita um rótulo de confidencialidade, incluindo pré-requisitos importantes, consulte [Como a proteção de informações do Windows protege arquivos com um rótulo de confidencialidade](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
 
-- **Aplique o rótulo automaticamente ao conteúdo que contém informações confidenciais. ** Você pode escolher quais tipos de informações confidenciais que você deseja rotuladas e o rótulo pode ser aplicado automaticamente ou você pode solicitar aos usuários a aplicarem o rótulo recomendável. Se você recomendar um rótulo, o prompt exibe qualquer texto que você escolher. Por exemplo:
+- **Proteja o conteúdo em contêineres, como sites e grupos**, ao optar pela visualização do [uso de rótulos de confidencialidade no Microsoft Teams, em grupos do Office 365 e em sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
+    
+    As opções de configuração para **Configurações de site e grupo** não são exibidas até você optar pela visualização. Lembre-se de que essa configuração de rótulo não resulta na rotulação automática de documentos. Em vez disso, as configurações de rótulo protegem o conteúdo controlando o acesso ao contêiner onde os documentos estão armazenados. Essas configurações incluem o nível de privacidade, se um proprietário de grupo do Office 365 pode adicionar convidados ao grupo e o nível de acesso concedido a um dispositivo não gerenciado.
+
+- **Aplique o rótulo automaticamente nos aplicativos do Office ou recomende um rótulo.** Escolha quais tipos de informações confidenciais deseja rotular, e o rótulo poderá ser aplicado automaticamente ou será solicitado aos usuários que apliquem o rótulo recomendado. Caso recomende um rótulo, um texto de alerta escolhido por você será exibido. Por exemplo:
     
     ![Solicitar confirmação antes de atribuir a um rótulo necessário](../media/Sensitivity-label-Prompt-for-required-label.png)
     
