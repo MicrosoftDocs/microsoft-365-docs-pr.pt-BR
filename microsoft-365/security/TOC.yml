@@ -67,9 +67,11 @@
               items:
                 - name: Visão geral do AIR
                   href: mtp/mtp-autoir.md
-                - name: Ir para a Central de ações
+                - name: Exibir ações de correção
+                  href: mtp/mtp-remediation-actions.md
+                - name: Visite a central de ações
                   href: mtp/mtp-action-center.md
-                - name: Exibir resultados do AIR
+                - name: Exibir resultados da investigação
                   href: mtp/mtp-autoir-results.md
                 - name: Aprovar ou rejeitar ações pendentes
                   href: mtp/mtp-autoir-actions.md
@@ -364,6 +366,20 @@
               href: ./office-365-security/campaigns.md
             - name: Noções básicas sobre ataques mais recentes à análise de ameaças
               href: ./mtp/latest-attack-campaigns.md
+            - name: Investigação e resposta automatizadas
+              items:
+                - name: Visão geral do AIR
+                  href: ./office-365-security/office-365-air.md
+                - name: Exibir detalhes e resultados de uma investigação
+                  href: ./office-365-security/air-view-investigation-results.md
+                - name: Exibir e aprovar ações de correção
+                  href: ./office-365-security/air-remediation-actions.md
+                - name: Integrar o AIR com uma solução de relatório personalizada ou de terceiros
+                  href: ./office-365-security/air-custom-reporting.md
+            - name: Detectar e resolver rapidamente contas de usuário comprometidas
+              href: ./office-365-security/address-compromised-users-quickly.md
+            - name: Investigue e corrija emails mal-intencionados
+              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Exibir e ler relatórios de ATP
               href: ./office-365-security/view-reports-for-atp.md
             - name: O que significam as páginas de avisos de Links seguros da ATP
@@ -372,12 +388,6 @@
               href: ./office-365-security/threat-trackers.md
             - name: Usar Simulador de Ataque no Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Mantenha os usuários seguros com investigação e resposta de ameaças
-              href: ./office-365-security/keep-users-safe-with-office-365-ti.md
-            - name: Investigar e responder automaticamente a ameças no Office 365
-              href: ./office-365-security/office-365-air.md
-            - name: Localizar e investigar email malicioso que foi entregue
-              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Documentos seguros no Office 365 ATP
               href: ./office-365-security/safe-docs.md
             - name: Explorador de Ameaças (e detecções em tempo real)
@@ -393,6 +403,8 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Como a ATP funciona
               items:
+                - name: Como funciona a investigação e a resposta automatizadas
+                  href: ./office-365-security/automated-investigation-response-office.md
                 - name: Como funcionam os Links Seguros da ATP
                   href: ./office-365-security/how-atp-safe-links-works.md
                 - name: Como funcionam os Anexos Seguros da ATP
@@ -403,8 +415,6 @@
                   href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Como funciona a investigação e resposta a ameaças
                   href: ./office-365-security/office-365-ti.md
-                - name: Como funciona a Investigação e Resposta Automatizadas
-                  href: ./office-365-security/automated-investigation-response-office.md
         - name: Gerenciamento de incidentes de segurança
           items:
             - name: Resposta a incidentes de segurança do Office 365
