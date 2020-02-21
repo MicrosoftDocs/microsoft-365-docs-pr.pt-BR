@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 76c1199fa3842428900db197f15728c116f778b9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bec44dea9059c779a567a3ff222cc41360de9321
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076372"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175795"
 ---
-# <a name="data-classification-overview-preview"></a>Visão geral da classificação de dados (visualização)
+# <a name="know-your-data---data-classification-overview-preview"></a>Conheça seus dados - visão geral da classificação de dados (visualização)
 
 Como administrador de conformidade ou administrador do Microsoft 365, você pode avaliar e marcar o conteúdo da sua organização para controlar o seu destino, protegê-lo independentemente de onde ele estiver e garantir que ele seja preservado e excluído de acordo com as necessidades da sua organização. Isso é feito através da aplicação de [rótulos de confidencialidade](sensitivity-labels.md), [rótoulos de retenção](labels.md) classificação de tipos de informações confidenciais. Há várias maneiras de fazer a descoberta, a avaliação e a marcação, mas o resultado final é que você pode acabar tendo um número muito grande de documentos e emails marcados e classificados com um ou ambos os rótulos. Depois de criar seus rótulos de retenção e rótulos de confidencialidade, você vai querer saber como eles estão sendo usados em seu locatário e o que está sendo feito com esses itens. A página classificação de dados dá visibilidade ao corpo do conteúdo, especificamente:
 

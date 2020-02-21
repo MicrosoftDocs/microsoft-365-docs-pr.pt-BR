@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: e06e7f6330a36c8f98042fcce472b7baf6ef16ff
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.openlocfilehash: 79c7e24349d3b6603e82946fda4a3c1f0c0ae6ff
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960237"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170511"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
 A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 oferece às organizações a visibilidade de vários tipos de atividades auditadas em vários serviços do Microsoft 365. Agora, com o lançamento da Auditoria Avançada no Microsoft 365, estamos adicionando novos recursos de auditoria que podem ajudar sua organização nas investigações forenses e de conformidade.
 
 > [!NOTE]
-> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 ou Microsoft 365 Enterprise E5. Além disso, uma assinatura complementar de Conformidade do Microsoft 365 E5 pode ser atribuída aos usuários quando o licenciamento por usuário é necessário para os recursos de Auditoria Avançada, assim como o caso de retenção a longo prazo de logs de auditoria e eventos de auditoria de alto valor.
+> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 ou Microsoft 365 Enterprise E5. Além disso, uma assinatura de complemento do Microsoft 365 E5 Compliance pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações.
 
 Este artigo fornece uma visão geral desses recursos de Auditoria Avançada.
 
@@ -49,9 +49,9 @@ Todos os registros de auditoria gerados em outros serviços que não são cobert
 
 Você também pode especificar por quanto tempo deseja manter registros de auditoria que correspondam à política e a um nível de prioridade, para que políticas específicas tenham prioridade sobre outras políticas. Observe também que qualquer política de retenção de log de auditoria personalizada terá precedência sobre a política de retenção de auditoria padrão, caso você precise reter registros de auditoria do Exchange, SharePoint ou Azure Active Directory por menos de um ano para alguns ou todos os usuários em sua organização. Para saber mais, confira [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md).
 
-## <a name="high-value-audit-events"></a>Eventos de auditoria de alto valor
+## <a name="access-to-crucial-events-for-investigations"></a>Acesso aos eventos cruciais de investigações
 
-Eventos de auditoria relacionados à segurança e conformidade de alto valor são aqueles que podem ajudá-lo a investigar possíveis violações ou outras investigações forenses. O primeiro evento de alto valor que estamos lançando é o evento de auditoria de caixa de correio *MailItemsAccessed*. Este evento é acionado quando os dados de email são acessados ​​por protocolos e clientes de email. O evento MailItemsAccessed pode ajudar os investigadores a identificar violações de dados e determinar o escopo das mensagens que podem ter sido comprometidas. Se um invasor obtiver acesso às mensagens de email, o evento MailItemsAccessed será acionado mesmo se não houver sinal explícito de que foi realmente lido (em outras palavras, o tipo de acesso, como via associação ou sincronização, é registrado no registro de auditoria).
+Eventos cruciais de auditoria relacionados à segurança e conformidade são aqueles que podem ajudá-lo a investigar possíveis violações ou outras investigações forenses. O primeiro evento de alto valor que estamos lançando é o evento de auditoria de caixa de correio *MailItemsAccessed*. Este evento é acionado quando os dados de email são acessados ​​por protocolos e clientes de email. O evento MailItemsAccessed pode ajudar os investigadores a identificar violações de dados e determinar o escopo das mensagens que podem ter sido comprometidas. Se um invasor obtiver acesso às mensagens de email, o evento MailItemsAccessed será acionado mesmo se não houver sinal explícito de que foi realmente lido (em outras palavras, o tipo de acesso, como via associação ou sincronização, é registrado no registro de auditoria).
 
 A nova ação da caixa de correio MailItemsAccessed substitui o MessageBind no log de auditoria da caixa de correio do Exchange Online e fornece os seguintes aprimoramentos:
 
