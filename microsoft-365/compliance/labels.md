@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 162b9fed66fa3135829f422ccd04a396ddf7e632
-ms.sourcegitcommit: b78a7a578dce1868b40675b7f7e6b0e16131704c
+ms.openlocfilehash: 0675601a888d19e6faaeb75169691909b071b92d
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42093450"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179202"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -342,7 +342,7 @@ Se você aplicar um rótulo de retenção padrão aos itens existentes na biblio
     
 - Se você alterar ou remover o rótulo de retenção padrão de uma biblioteca, pasta ou conjunto de documentos, ele também será alterado ou removido em todos os itens na biblioteca, pasta ou conjunto de documentos, **exceto** os itens com rótulos de retenção explícitos (como os registros).
     
-- Se você mover um item com um rótulo de retenção padrão de uma biblioteca, pasta ou conjunto de documentos para outra biblioteca, pasta ou conjunto de documentos, o item manterá o rótulo de retenção padrão existente, mesmo se o novo local tiver um rótulo de retenção padrão diferente.
+- Se você mover um item com um rótulo de retenção padrão de um conjunto de sites, biblioteca, pasta ou conjunto de documentos para outro conjunto de sites, biblioteca, pasta ou conjunto de documentos, o item manterá o rótulo de retenção padrão existente, mesmo se o novo local tiver um rótulo de retenção padrão diferente. Se o item não tiver um rótulo antes de ser movido, ele assumirá o rótulo de retenção padrão do novo local.
 
 **Registros:** Se você aplicar uma rótulo de registro padrão a uma biblioteca, pasta ou conjunto de documentos, um rótulo de registro será aplicado a todos os itens individuais nesses locais. Ao mover um novo item para um local com um rótulo de registro, esse item será rotulado como um registro. No entanto, se você alterar o rótulo de retenção padrão para um rótulo que não declara o conteúdo como um registro, essa ação **não** remover o rótulo do registro dos itens individuais. Esses itens mantêm o rótulo do registro. Somente um administrador do conjunto de sites pode remover ou alterar explicitamente o rótulo de retenção dos itens de registro.
 
