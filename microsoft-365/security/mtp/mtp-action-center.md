@@ -18,19 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5f31c9cb5272248ae8250f73d054ca599b83edc2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c838db1b3792bda719102f18a7c473192a7f9481
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083770"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175704"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
 
@@ -47,11 +45,6 @@ Sua equipe de operações de segurança pode operar de maneira mais eficaz e efi
 
 ## <a name="remediation-actions"></a>Ações de correção
 
-A tabela a seguir lista as ações de correção com suporte no momento na Central de ações: 
-
-|Ações de correção de pontos de extremidade  |Ações de correção de email  |
-|---------|---------|
-|Arquivo de quarentena<br/>Remover chave do registro<br/>Finalizar processo <br/>Parar serviço <br/>Remover chave do registro <br/>Desabilitar o driver <br/>Remover tarefa agendada      |Exclusão reversível de mensagens de emails ou clusters<br/>Bloquear URL (hora do clique)<br/>Desativar o encaminhamento de emails externo          |
 
 ## <a name="go-to-the-action-center"></a>Ir para a Central de ações
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 056685cbd49e6fb247a92357b3483b479d705c90
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 434f62d5ddfc8bc75c54de422aafc8c6325c4086
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085721"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170591"
 ---
 # <a name="battery-insights"></a>Insights de bateria
 Este modo de exibição fornece métricas de energia, bateria e uso do aplicativo para seus dispositivos de área de trabalho gerenciada da Microsoft. Para esses fins, um aplicativo é considerado "em uso" se estiver em execução e em foco.
@@ -33,7 +33,7 @@ A tabela fornece a duração prevista da bateria (em horas), a duração média 
 
 ## <a name="top-energy-consumers"></a>Principais consumidores de energia
 
-Na área de **consumidores de energia superior** , você encontrará os aplicativos em seu ambiente que consomem mais energia em milliWatt-hours (MWh). Os aplicativos mostrados são por dispositivo específico, que você seleciona na seção **vida útil da bateria prevista** para a esquerda. Por exemplo, para ver o consumo por aplicativo para seus dispositivos do catálogo de superfície 2 do Microsft, selecione essa linha na área de vida da bateria. Se você não selecionar nenhum modelo, os dados de consumo do aplicativo mostrados serão para todos os aplicativos que têm dados para o coletivamente.
+Na área de **consumidores de energia superior** , você encontrará os aplicativos em seu ambiente que consomem mais energia em milliWatt-hours (MWh). Os aplicativos mostrados são por dispositivo específico, que você seleciona na seção **vida útil da bateria prevista** para a esquerda. Por exemplo, para ver o consumo por aplicativo para seus dispositivos do catálogo de superfície 2 da Microsoft, selecione essa linha na área de vida da bateria. Se você não selecionar nenhum modelo, os dados de consumo do aplicativo mostrados serão para todos os aplicativos que têm dados para o coletivamente.
 
  Para cada aplicativo, os segmentos coloridos mostram a distribuição do uso de energia do aplicativo entre estas categorias:
 
