@@ -13,19 +13,17 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: e3c8b712931c4225bff0a989b9846957f9a6be79
-  ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+  ms.openlocfilehash: 4e118d0aac0164370f7d7c2d403f15276268f8bf
+  ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/06/2020
-  ms.locfileid: "41800061"
+  ms.lasthandoff: 02/21/2020
+  ms.locfileid: "42179222"
 landingContent:
 - title: Gerenciar a proteção de informações
   linkLists:
   - linkListType: overview
     links:
-    - text: Proteger informações
-      url: protect-information.md
     - text: Rótulos de confidencialidade
       url: sensitivity-labels.md
     - text: Prevenção de perda de dados (DLP)
@@ -38,32 +36,36 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Gerenciar registros no Microsoft 365
+    - text: Rótulos de retenção
+      url: labels.md
+    - text: Diretivas de retenção
+      url: retention-policies.md
+    - text: Gerenciamento de registros
       url: records-management.md
     - text: Gerente de planejamento de arquivos
       url: file-plan-manager.md
-    - text: Rótulos de retenção
-      url: labels.md
     - text: Retenção baseada em eventos
       url: event-driven-retention.md
-    - text: Caixas de correio inativas
-      url: inactive-mailboxes-in-office-365.md
-    - text: Exibir relatórios de governança de dados
+    - text: Importação de PST
+      url: importing-pst-files-to-office-365.md
+    - text: Conectores de dados de terceiros
+      url: archiving-third-party-data.md
+    - text: Relatórios de governança de dados
       url: view-the-data-governance-reports.md
-- title: Gerenciar riscos internos
+- title: Gerenciar riscos insideres
   linkLists:
   - linkListType: overview
     links:
-    - text: Proteger acesso de usuário e de dispositivo
-      url: protect-access-to-data-and-services.md
-    - text: Gerenciamento de acesso privilegiado
-      url: privileged-access-management-overview.md
-    - text: Sistema de Proteção de Dados do Cliente
-      url: customer-lockbox-requests.md
+    - text: Gerenciamento de risco do insider
+      url: insider-risk-management.md
     - text: Conformidade em comunicações
       url: communication-compliance.md
     - text: Barreiras de informações
       url: information-barriers.md
+    - text: Gerenciamento de acesso privilegiado
+      url: privileged-access-management-overview.md
+    - text: Sistema de Proteção de Dados do Cliente
+      url: customer-lockbox-requests.md
     - text: Chave de Cliente
       url: customer-key-overview.md
 - title: Descobrir e responder
@@ -72,11 +74,13 @@ landingContent:
     links:
     - text: Descoberta Eletrônica Avançada
       url: overview-ediscovery-20.md
-    - text: Gerenciar uma investigação de dados
-      url: overview-data-investigations.md
-    - text: Procurar conteúdo
+    - text: Descoberta eletrônica principal
+      url: ediscovery-cases.md
+    - text: Pesquisa de conteúdo
       url: search-for-content.md
-    - text: Pesquisar o log de auditoria
+    - text: Investigações de dados (versão prévia)
+      url: overview-data-investigations.md
+    - text: Auditoria
       url: search-the-audit-log-in-security-and-compliance.md
 - title: Introdução à conformidade normativa
   linkLists:

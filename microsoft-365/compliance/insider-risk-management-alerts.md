@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d1946bb3667fbdde6e7d2c3fbc70f8f546890e27
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eef600b2fc325454ad7a4d36019a4e762409c8b9
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072878"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179212"
 ---
-# <a name="insider-risk-management-alerts-preview"></a>Alertas de gerenciamento de risco do Insider (versão prévia)
+# <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de risco do insider
 
 Alertas de gerenciamento de risco do insider são gerados automaticamente pelos indicadores de risco definidos nas políticas de gerenciamento de risco do insider Esses alertas fornecem aos analistas de conformidade e investigadores uma visão de todos os status do risco atual e permitem que sua organização faça a triagem e execute ações para riscos descobertos.
 
@@ -29,7 +29,7 @@ O painel de **alerta** de risco do insider permite que você visualize e execute
 
 - **Alertas a serem revisados**: o número total de alertas que precisam de revisão e análise estão listados, incluindo uma divisão por severidade de alerta.
 - **Abrir alertas nos últimos 30 dias**: o número total de alertas criados por uma política corresponde aos últimos 30 dias, classificados por níveis de severidade de alerta alto, médio e baixo.
-- **Tempo médio para alertas resolvidos**: um resumo das estatísticas úteis de alerta:
+- **Tempo médio para resolver alertas**: um resumo das estatísticas úteis de alerta:
     - Tempo médio para resolver alertas de alta gravidade, listados em horas, dias ou meses.
     - Tempo médio para resolver alertas de severidade média, listados em horas, dias ou meses.
     - Tempo médio para resolver alertas de severidade Baixa, listados em horas, dias ou meses.

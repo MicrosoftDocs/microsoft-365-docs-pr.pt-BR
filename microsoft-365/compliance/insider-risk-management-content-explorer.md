@@ -1,5 +1,5 @@
 ---
-title: Gerenciador de conteúdo de gerenciamento de risco do Insider (versão prévia)
+title: Gerenciador de conteúdo de gerenciamento de risco do insider
 description: Saiba mais sobre o Gerenciador de conteúdo de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a8c1c77bdfa3236ce8f2222fd21a7fba0535f149
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 68a472e4e6b7556fc1b738a49b3c82dcf4804842
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590642"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179072"
 ---
-# <a name="insider-risk-management-content-explorer-preview"></a>Gerenciador de conteúdo de gerenciamento de risco do Insider (versão prévia)
+# <a name="insider-risk-management-content-explorer"></a>Gerenciador de conteúdo de gerenciamento de risco do insider
 
 O Gerenciador de conteúdo do insider Management permite que analistas de risco e investigadores examinem o contexto e os detalhes das comunicações capturadas em alertas. Para todos os alertas, as cópias de dados e arquivos de mensagens são arquivadas como um instantâneo no momento dos itens, mantendo os arquivos e mensagens originais nas fontes de armazenamento. A cópia de dados e mensagens é transparente para o funcionário associado ao alerta e ao proprietário do conteúdo. As configurações de permissão e os direitos de acesso dos dados são mantidos para o conteúdo copiado e as mensagens e os analistas de risco e os investigadores precisam dessas permissões e direitos se precisarem abrir e exibir os arquivos. Cada arquivo e mensagem recebe automaticamente uma ID de arquivo exclusiva no caso de gerenciamento de risco do insider para fins de gerenciamento.
 
@@ -56,14 +56,14 @@ Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o 
 | **Received** | A data em que uma mensagem de email foi recebida pelo destinatário. Essa propriedade é igual à propriedade de email Received. |
 | **Destinatários** | Todos os campos de destinatários em uma mensagem de email. Esses campos são para, CC e Cco. |
 | **ID do representante** | Identificador numérico de cada conjunto de duplicatas exatas. |
-| **Remetente** | O remetente de uma mensagem de email. |
+| **Sender** | O remetente de uma mensagem de email. |
 | **Remetente/autor** | Para email, a pessoa que enviou uma mensagem. Para documentos, a pessoa citada no campo autor de documentos do Office. Você pode digitar mais de um nome, separado por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
 | **Sent** | A data em que uma mensagem de email foi enviada pelo remetente. Essa propriedade é igual à propriedade de email Sent. |
 | **Tamanho** | Para emails e documentos, o tamanho do item (em bytes). |
 | **Subject** | O texto na linha de assunto de uma mensagem de email. |
 | **Assunto/título** | Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Como explicado anteriormente, a propriedade Title é Metadata especificado em documentos do Microsoft Office. Você pode digitar o nome de mais de um assunto/título, separados por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
 | **Lista de temas** | Lista de temas conforme calculado para análise. |
-| **Title** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
+| **Título** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
 | **To** | O destinatário de uma mensagem de email no campo para. |
 
 ## <a name="advanced-search-conditions"></a>Condições de pesquisa avançada
@@ -125,7 +125,7 @@ A tabela a seguir lista as condições de propriedade da mensagem de email dispo
 | **Participante** | Todos os campos de pessoas em uma mensagem de email. Esses campos são de, para, CC e Cco. |
 | **Received** | A data em que uma mensagem de email foi recebida pelo destinatário. |
 | **Domínios de destinatário** | Lista de todos os domínios de destinatários de uma mensagem. |
-| **Remetente** | Campo remetente (de) para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
+| **Sender** | Campo remetente (de) para tipos de mensagem.  Format é **DisplayName \<SmtpAddress>**. |
 | **Domínio do remetente** | Domínio do remetente. |
 | **Subject** | O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está pesquisando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma correspondência exata. Por exemplo, se você procurar `subject:"Quarterly Financials"`, seus resultados incluirão mensagens com o assunto "Finanças trimestralmente 2018". |
 | **To** | O campo Para de uma mensagem de email. |
@@ -168,6 +168,6 @@ A tabela a seguir lista as condições de propriedade dos documentos disponívei
 | **ID do representante** | Identificador numérico de cada conjunto de duplicatas exatas. |
 | **Marcas** | Marcas aplicadas em um conjunto de revisão. |
 | **Lista de temas** | Lista de temas conforme calculado para análise. |
-| **Title** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
+| **Título** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
 | **Foi corrigido** | True se o item foi corrigido, caso contrário, false. |
 | **Contagem de palavras** | O número de palavras em um arquivo. |

@@ -12,16 +12,16 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5a3401b80469fa6d22d973204703a6b012ebb11b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: cc0c698b5c27b41548b646d03d9f94a2f8671eea
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072719"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179182"
 ---
-# <a name="insider-risk-management-in-microsoft-365-preview"></a>Gerenciamento de risco do insider no Microsoft 365 (versão prévia)
+# <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
-O gerenciamento de riscos do Insider é uma solução de risco interno no Microsoft 365 que ajuda a minimizar os riscos internos, permitindo que você detecte, investigue e execute ações em atividades arriscadas em sua organização. As políticas personalizadas permitem que você detecte e execute ações em atividades de risco maliciosos e inadvertidas em sua organização, incluindo casos de escalonamento para outras soluções de investigação da Microsoft 365, se necessário. Os analistas de risco em sua organização podem tomar as ações apropriadas rapidamente para garantir que os usuários estejam em conformidade com os padrões de conformidade da sua organização.
+O gerenciamento de riscos do Insider é uma solução no Microsoft 365 que ajuda a minimizar riscos internos, permitindo que você detecte, investigue e execute ações em atividades arriscadas em sua organização. As políticas personalizadas permitem que você detecte e execute ações em atividades de risco maliciosos e inadvertidas em sua organização, incluindo casos de escalonamento para a descoberta eletrônica avançada da Microsoft, se necessário. Os analistas de risco em sua organização podem tomar as ações apropriadas rapidamente para garantir que os usuários estejam em conformidade com os padrões de conformidade da sua organização.
 
 Assista ao vídeo abaixo para saber como o gerenciamento de riscos do insider pode ajudar sua organização a impedir, detectar e conter riscos enquanto prioriza seus valores de organização, cultura e experiência do funcionário:
 <br>
@@ -66,7 +66,7 @@ Você pode selecionar um dos seguintes [modelos de política](insider-risk-manag
 
 - Como a parte do roubo de dados do funcionário
 - Vazamentos de dados
-- Linguagem ofensiva em comunicação
+- Idioma ofensivo no email
 
 Confira mais informações em [políticas de gerenciamento de risco do insider](insider-risk-management-policies.md).
 

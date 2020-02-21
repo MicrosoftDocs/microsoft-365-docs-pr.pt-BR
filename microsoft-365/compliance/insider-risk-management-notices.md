@@ -1,5 +1,5 @@
 ---
-title: Modelos de aviso de gerenciamento de risco do Insider (versão prévia)
+title: Modelos de aviso de gerenciamento de risco do insider
 description: Saiba mais sobre modelos de aviso de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9e114f0292b4513176cff70afa25f69532e35d86
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 92844691cba4adf39c7b4eee30de97ccff9d0890
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072798"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179082"
 ---
-# <a name="insider-risk-management-notice-templates-preview"></a>Modelos de aviso de gerenciamento de risco do Insider (versão prévia)
+# <a name="insider-risk-management-notice-templates"></a>Modelos de aviso de gerenciamento de risco do insider
 
 Os modelos de aviso de gerenciamento de risco do insider permitem que você envie mensagens de email para os funcionários quando suas atividades geram uma correspondência de política e alerta. Na maioria dos casos, as ações de funcionários que geram alertas são o resultado de erros ou atividades inadvertidas sem intenção mal. Os avisos servem como lembretes simples para que os funcionários tenham mais cuidado ou que forneçam links ou informações para treinamento de atualizações ou recursos de política corporativa. Os avisos podem ser uma parte importante do seu programa de treinamento de conformidade interno e podem ajudar a criar uma trilha de auditoria documentada para funcionários com atividades recorrentes de riscos.
 

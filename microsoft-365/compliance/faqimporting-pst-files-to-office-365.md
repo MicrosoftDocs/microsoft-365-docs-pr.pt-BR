@@ -15,13 +15,13 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
-description: 'Perguntas frequentes para administradores sobre como usar o serviço de importação do Office 365 para importar os arquivos PST do Organizaiton para caixas de correio do Office 365. '
-ms.openlocfilehash: dcbc496273a08ea133cc11bacbb62f55eee58917
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 'Perguntas frequentes para administradores sobre como usar o serviço de importação do Office 365 para importar arquivos PST da sua organização para caixas de correio do Office 365. '
+ms.openlocfilehash: 31df33ffe2c69478f0304bd27b49254995d8b89c
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594582"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170481"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>Perguntas frequentes sobre a importação de arquivos PST para o Office 365
 
@@ -50,13 +50,16 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
   
  **Onde o carregamento de rede está disponível?**
   
-O carregamento de rede está disponível atualmente nos Estados Unidos, Canadá, Brasil, Reino Unido, França, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia e Austrália. Network upload will be available in more regions soon.
+O carregamento de rede está disponível atualmente nestas áreas: Estados Unidos, Canadá, Brasil, Reino Unido, França, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia e Austrália. Network upload will be available in more regions soon.
+
+> [!NOTE]
+> No momento, o carregamento de rede de arquivos PST não está disponível na Alemanha e na Suíça. Este FAQ será atualizado quando o carregamento de rede estiver disponível nesses países.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
 Using network upload to import PST files is free.
   
-Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no centro de administração do Microsoft 365. Embora um trabalho de importação ainda possa estar listado na página **Importar dados para o Office 365**, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
+Isso também significa que depois que os arquivos PST forem excluídos da área de Armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no centro de administração do Microsoft 365. Embora um trabalho de importação ainda possa estar listado na página **Importar dados para o Office 365**, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
  **Qual versão do formato de arquivo PST é compatível com a importação para o Office 365?**
   
@@ -64,15 +67,15 @@ Há duas versões do formato de arquivo PST: ANSI e Unicode. Recomendamos import
   
 Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser importados para o Office 365.
   
- **Depois que eu carregar meus arquivos PST para a área de armazenamento do Azure, por quanto tempo eles serão mantidos no Azure até serem excluídos?**
+ **Depois de carregar meus arquivos PST para a área de Armazenamento do Azure, quanto tempo eles serão mantidos no Azure até serem excluídos?**
   
 Quando você usar o método de carregamento de rede para importar arquivos PST, carregue-os para um contêiner de blobs chamado **ingestiondata**. Se não houver trabalhos de importação em andamento na página **Importar arquivos PST** no Centro de Conformidade e Segurança, todos os arquivos PST no contêiner **ingestiondata** no Azure serão excluídos 30 dias após a criação do trabalho de importação mais recente no Centro de Conformidade e Segurança. Isso também significa que você precisar criar um novo trabalho de importação no Centro de Conformidade e Segurança (descrito na etapa 5 nas instruções de carregamento de rede) dentro de 30 dias do carregamento de arquivos PST para o Azure. 
   
-Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
+Isso também significa que depois que os arquivos PST forem excluídos da área de Armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
  **Quanto tempo é necessário para importar um arquivo PST para uma caixa de correio?**
   
-Depende da capacidade da sua rede, mas normalmente cada terabyte (TB) leva várias horas para ser carregado para a área de armazenamento do Azure da sua organização. Após copiar os arquivos PST para a área de armazenamento do Azure, um arquivo PST é importado para uma caixa de correio do Office 365 a uma taxa de pelo menos 24 GB por dia. Se essa taxa não atender às suas necessidades, considere a possibilidade de usar outros métodos para migrar dados de email para o Office 365. Para saber mais, confira o artigo [Formas de migrar várias contas de email para o Office 365](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842).
+Isso depende da capacidade da sua rede, mas normalmente cada terabyte (TB) leva várias horas para ser carregado para a área de Armazenamento do Azure da sua organização. Após copiar os arquivos PST para a área de Armazenamento do Azure, um arquivo PST é importado para uma caixa de correio do Office 365 a uma taxa de pelo menos 24 GB por dia. Se essa taxa não atender às suas necessidades, considere a possibilidade de usar outros métodos para migrar dados de email para o Office 365. Para saber mais, confira o artigo [Formas de migrar várias contas de email para o Office 365](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842).
   
 Quando diferentes arquivos PST são importados para diferentes caixas de correio de destino, o processo de importação ocorre em paralelo; em outras palavras, cada par PST/caixa de correio é importado simultaneamente. Da mesma maneira, quando vários arquivos PST são importados para a mesma caixa de correio, eles são importados simultaneamente.
   
@@ -122,6 +125,9 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
  **Onde o envio de unidade está disponível?**
   
 No momento, o envio de unidades está disponível nas seguintes regiões: Austrália, Brasil, Canadá, Estados Unidos, Europa, Índia, Japão, Leste Asiático, Sudeste Asiático, Reino Unido e República da Coreia. O envio de unidades estará disponível para mais regiões em breve.
+
+> [!NOTE]
+> No momento, a entrega da unidade para importar arquivos PST não está disponível na Alemanha e na Suíça. Estas perguntas frequentes serão atualizadas quando a entrega de unidades estiver disponível nesses países.
   
  **Quais contratos de licenciamento comercial dão suporte ao envio de unidade?**
   
@@ -148,19 +154,19 @@ Isso depende de alguns pontos, como da sua proximidade com o data center da Micr
   
  **Depois que meu disco rígido chegar ao data center da Microsoft, quanto tempo será necessário para carregar meus arquivos PST para o Azure?**
   
-Depois que seu disco rígido for recebido no data center da Microsoft, serão necessários de 7 a 10 dias úteis para carregar os arquivos PST na área de armazenamento do Microsoft Azure da sua organização. Os arquivos PST serão carregados para um contêiner de blob do Azure chamado **ingestiondata**. 
+Depois que a unidade de disco rígido for recebida no Data Center da Microsoft, levará entre 7 e 10 dias úteis para carregar os arquivos PST para a área de armazenamento do Azure para sua organização. Os arquivos PST serão carregados para um contêiner de blob do Azure chamado **ingestiondata**. 
   
  **Quanto tempo é necessário para importar um arquivo PST para uma caixa de correio?**
   
-Depois que os arquivos PST forem carregados na área de armazenamento do Azure, o Office 365 analisará os dados nos arquivos PST (de forma segura) para identificar a idade dos itens e os diferentes tipos de mensagens incluídos nos arquivos PST. Quando esta análise for concluída, você terá a opção de importar todos os dados nos arquivos PST ou configurar filtros para controlar quais dados serão importados. Depois de iniciar o trabalho de importação, um arquivo PST será importado para uma caixa de correio do Office 365 a uma taxa de pelo menos 24 GB por dia. Se essa taxa não atender às suas necessidades, considere a possibilidade de usar outros métodos para importar dados de email para o Office 365. Para saber mais, confira o artigo [Formas de migrar várias contas de email para o Office 365](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842).
+Depois que os arquivos PST forem carregados na área de Armazenamento do Azure, o Office 365 analisará os dados nos arquivos PST (de forma segura) para identificar a idade dos itens e os diferentes tipos de mensagens incluídos nos arquivos PST. Quando esta análise for concluída, você terá a opção de importar todos os dados nos arquivos PST ou configurar filtros para controlar quais dados serão importados. Depois de iniciar o trabalho de importação, um arquivo PST será importado para uma caixa de correio do Office 365 a uma taxa de pelo menos 24 GB por dia. Se essa taxa não atender às suas necessidades, considere a possibilidade de usar outros métodos para importar dados de email para o Office 365. Para saber mais, confira o artigo [Formas de migrar várias contas de email para o Office 365](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842).
   
 Quando diferentes arquivos PST são importados para diferentes caixas de correio de destino, o processo de importação ocorre em paralelo; em outras palavras, cada par PST/caixa de correio é importado simultaneamente. Da mesma maneira, quando vários arquivos PST são importados para a mesma caixa de correio, eles são importados simultaneamente.
   
  **Depois que a Microsoft carregar meus arquivos PST para o Azure, por quanto tempo eles serão mantidos no Azure até serem excluídos?**
   
-Todos os arquivos PST no local de armazenamento do Azure para sua organização (no contêiner de blob chamado **ingestiondata** ) são excluídos 30 dias após a criação do trabalho de importação mais recente na página **importar arquivos PST** no centro de conformidade do & de segurança. 
+Todos os arquivos PST no local de armazenamento do Azure para sua organização (no contêiner de blob chamado **ingestiondata**) são excluídos 30 dias após a criação do trabalho de importação mais recente na página **importar arquivos PST** no centro de conformidade do & de segurança. 
   
-Isso também significa que depois que os arquivos PST forem excluídos da área de armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
+Isso também significa que depois que os arquivos PST forem excluídos da área de Armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
  **Qual versão do formato de arquivo PST é compatível com a importação para o Office 365?**
   

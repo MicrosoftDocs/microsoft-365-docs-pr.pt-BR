@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 31ebd472a5ed33ab6046b9831e02c095d52721a2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3c44d5ffd401645fbac1f1f122024e41597b0207
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071322"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179142"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -95,7 +95,7 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 - **Revise sua pontuação de conformidade da Microsoft**, uma pontuação personalizada e baseada em riscos para ajudá-lo a entender o estado de conformidade da sua organização com normas e padrões principais. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Pontuação de conformidade (visualização)](compliance-score.md).
 
-- **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do Insider (versão prévia)](insider-risk-management.md).
+- **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
 
 - **Saiba mais e crie políticas de conformidade de comunicação** para identificar e corrigir rapidamente as violações de política de código de conduta corporativo. Consulte [conformidade de comunicação](communication-compliance.md).
 

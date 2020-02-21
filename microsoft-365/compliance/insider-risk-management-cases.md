@@ -1,5 +1,5 @@
 ---
-title: Casos de gerenciamento de risco do Insider (versão prévia)
+title: Casos de gerenciamento de risco do insider
 description: Saiba mais sobre os casos de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 02f665f966b929ac8a83acfcdf5be6a5818a64d3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6b5132cad5725e46a49b9010868ede423321f307
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072828"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179172"
 ---
-# <a name="insider-risk-management-cases-preview"></a>Casos de gerenciamento de risco do Insider (versão prévia)
+# <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 
 Os casos são o coração do gerenciamento de risco do insider e permitem que você investigue profundamente e execute ações geradas pelos indicadores de risco definidos em suas políticas. Os casos são criados manualmente a partir de alertas nas situações em que a ação adicional é necessária para lidar com um problema relacionado à conformidade de um funcionário. Cada caso é delimitado a um único funcionário, e vários alertas para o funcionário podem ser adicionados a um caso existente ou a um novo caso. Após investigar os detalhes de um caso, você pode executar uma ação enviando ao funcionário um aviso, resolvendo o caso como benigno ou encaminhar para uma investigação de dados ou de funcionários.
 
@@ -96,7 +96,7 @@ A guia **atividade do usuário** é uma das ferramentas mais poderosas para aná
     - **Data** da atividade de risco.
     - A **categoria atividade de risco**. Por exemplo, *emails com anexos enviados fora da organização* ou *arquivo (s) baixados do SharePoint Online*.
     - **Pontuação de risco** para o alerta. Esta pontuação é a pontuação numérica do nível de severidade de risco de alerta.
-    - Número de **arquivos** ou **emails** associados ao alerta. Os links para cada arquivo ou email associado à atividade de risco também estão disponíveis.
+    - Número de eventos associados ao alerta. Os links para cada arquivo ou email associado à atividade de risco também estão disponíveis.
 3. **Legenda da atividade do risco**: na parte inferior do gráfico de atividade do usuário, uma legenda codificada por cores ajuda a determinar rapidamente a categoria de risco para cada alerta.
 4. **Cronologia da atividade de risco**: o cronograma completo de todos os alertas de risco associados ao caso está listado, incluindo todos os detalhes disponíveis na bolha de alerta correspondente.
 5. **Ações de caso**: as opções para resolver o caso estão na barra de ferramentas ação de caso. Você pode resolver uma ocorrência, enviar um aviso por email ao funcionário ou escalonar o caso de uma investigação de dados ou de funcionário.

@@ -1,5 +1,5 @@
 ---
-title: Políticas de gerenciamento de risco do Insider (versão prévia)
+title: Políticas de gerenciamento de risco do insider
 description: Saiba mais sobre as políticas de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: ac029959470d92fff9c0c5e942cd667f659e307d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5e81c9ff65db6ecd4a1ac1995c8a592f4377ae1c
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072818"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179092"
 ---
-# <a name="insider-risk-management-policies-preview"></a>Políticas de gerenciamento de risco do Insider (versão prévia)
+# <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
 As políticas de gerenciamento de risco do insider determinam quais funcionários estão no escopo e quais tipos de indicadores de risco estão configurados para alertas. Você pode criar rapidamente uma política que se aplica a todos os usuários em sua organização ou definir usuários individuais ou grupos para gerenciamento em uma política. As políticas dão suporte a prioridades de conteúdo para concentrar as condições de política em várias ou em Microsoft Teams, sites do SharePoint, tipos de confidencialidade de dados e rótulos de dados. Usando modelos, eles incluem indicadores de risco específicos e quanto peso são atribuídos dentro de uma política, determinando efetivamente o peso de cada gatilho de alerta na política. Políticas o Windows permite que você defina o intervalo de tempo para aplicar a política às atividades de alerta e é usado para determinar a duração da política após a ativação. O limite máximo de políticas é de cinco políticas ativas ao mesmo tempo. No entanto, é possível configurar políticas adicionais e ativar e desativar políticas, conforme necessário.
 
@@ -58,14 +58,51 @@ A proteção de dados e a prevenção de vazamentos de dados é um desafio const
 
 Detectar e realizar ações para impedir o comportamento ofensivo e abusivo é um componente essencial da prevenção de riscos. Os classificadores de idiomas ofensivos internos no Microsoft 365 podem examinar mensagens de email enviadas de caixas de correio do Exchange Online em sua organização para diferentes tipos de problemas de conformidade. Esses classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma em que o email provavelmente viola as políticas antiassédio. Use este modelo para criar rapidamente uma política que use esses classificadores para detectar automaticamente o conteúdo de mensagens de email que pode ser considerado abusivo ou ofensivo. O gerenciamento de risco do insider usa classificadores que verificam as mensagens de email enviadas para termos do idioma inglês e uma inversão para linguagem ofensiva.
 
-## <a name="monitoring-windows"></a>Monitorando janelas
+## <a name="policy-settings"></a>Configurações de política
 
-As janelas de monitoramento de diretivas permitem definir períodos de tempo que disparam a ativação de política com base em eventos e atividades para os modelos de política de gerenciamento de risco do insider Dependendo do modelo de política escolhido, as seguintes janelas de monitoramento estarão disponíveis:
+As configurações de risco do insider são aplicadas a todas as políticas de gerenciamento de risco do Insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são definidas usando o controle de configurações de risco do **Insider* localizado na parte superior de todas as guias de gerenciamento de risco do insider Essas configurações controlam a privacidade, indicadores, monitoramento de janelas e detecções inteligentes.
 
-- **TimeSpan no escopo**: disponível para todos os modelos de política, o *TimeSpan no escopo* é o número definido de dias que a janela é ativada **após** um evento de acionamento. A janela é ativada por 1 a 30 dias após a ocorrência de um evento de acionamento para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de risco do insider e definiu o *TimeSpan no escopo* como 30 dias. Vários meses passaram desde que você configurou a política e um evento de acionamento ocorre para um dos usuários incluídos na política. O evento de acionamento ativa o *TimeSpan no escopo* e a política fica ativa para esse usuário por 30 dias após o evento de acionamento ter ocorrido.
-- **TimeSpan histórico**: disponível para todos os modelos de política, o *TimeSpan histórico* é o número definido de dias que a janela é ativada **antes** de um evento de acionamento. A janela é ativada para 0 a 180 dias antes da ocorrência de um evento de acionamento para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de risco do insider e definiu a *TimeSpan histórica* como 90 dias. Vários meses passaram desde que você configurou a política e um evento de acionamento ocorre para um dos usuários incluídos na política. O evento de acionamento ativa o *TimeSpan histórico* e a política reúne as atividades históricas para esse usuário por 90 dias antes do evento de acionamento.
-- **Janela de término futuro**: você verá essa configuração na visualização do público, mas ela não é aplicada a nenhuma política e será removida para o lançamento de produção desta solução.
-- **Última janela de rescisão**: você verá essa configuração na visualização do público, mas ela não é aplicada a nenhuma política e será removida para o lançamento de produção desta solução.
+### <a name="privacy"></a>Privacidade
+
+A proteção da privacidade dos usuários que têm correspondências de política é importante e pode ajudar a promover o Objectivity em análises de investigação e análise de dados para alertas de risco do insider. Para usuários com correspondências de política de risco do Insider, você pode escolher uma das seguintes configurações:
+
+- **Mostrar versões anonimato de nomes de**usuário: os nomes de usuários são anônimos para impedir que administradores, investigadores de dados e revisores vejam quem está associado a alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um psuedonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de risco do insider. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário no alerta de risco do insider e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
+- **Não mostrar versões anonimato de nomes de usernames**: os nomes de usernames são exibidos para todas as correspondências de política atuais e anteriores para alertas e casos. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas e casos de gerenciamento de risco do insider.
+
+### <a name="indicators"></a>Indicadores
+
+Os modelos de política de risco do insider definem o tipo de atividades de risco que você deseja detectar e investigar. Cada modelo de política é baseado em indicadores específicos que correspondem a atividades e alertas de risco específicos são acionados por políticas quando os usuários executam atividades relacionadas a esses indicadores. Em alguns casos, talvez você queira limitar os indicadores aplicados às políticas de risco do insider em sua organização. Você pode desativar os indicadores para áreas específicas desabilitando-os de todas as políticas de risco do insider.
+
+Para definir os indicadores habilitados em todas as políticas, navegue até > **indicadores** de **configurações de risco do insider**e selecione um ou mais indicadores. Os indicadores selecionados na página de configurações de **indicadores** não podem ser configurados individualmente ao criar ou editar uma política de risco Insider no assistente de política.
+
+>[!IMPORTANT]
+>Para receber alertas para atividades arriscadas definidas em suas políticas, você deve selecionar um ou mais indicadores antes de configurar uma política de risco de insider.
+
+### <a name="policy-timeframes"></a>Cronogramas de política
+
+Os cronogramas de política permitem definir períodos de revisão passados e futuros que são disparados após as correspondências de política com base em eventos e atividades para os modelos de política de gerenciamento de risco do insider. Dependendo do modelo de política escolhido, os seguintes cronogramas de política estão disponíveis:
+
+- **Janela de ativação**: disponível para todos os modelos de política, a *janela de ativação* é o número definido de dias que a janela é ativada **após** um evento de acionamento. A janela é ativada por 1 a 30 dias após a ocorrência de um evento de acionamento para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de risco do insider e definiu a *janela de ativação* para 30 dias. Vários meses passaram desde que você configurou a política e um evento de acionamento ocorre para um dos usuários incluídos na política. O evento de acionamento ativa a *janela de ativação* e a política fica ativa para esse usuário por 30 dias após o evento de acionamento ter ocorrido.
+- **Detecção de atividade passada**: disponível para todos os modelos de política, a *detecção de atividade passada* é o número definido de dias que a janela é ativada **antes** de um evento de acionamento. A janela é ativada para 0 a 180 dias antes da ocorrência de um evento de acionamento para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de risco do insider e definiu a *detecção de atividades passadas* para 90 dias. Vários meses passaram desde que você configurou a política e um evento de acionamento ocorre para um dos usuários incluídos na política. O evento de acionamento ativa a *detecção de atividade passada* e a política reúne as atividades históricas para esse usuário por 90 dias antes do evento de acionamento.
+
+### <a name="intelligent-detections"></a>Detecções inteligentes
+
+As configurações inteligentes de detecção ajudam a refinar o modo como a detecção de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a serem ignorados ou você deseja impor um nível de detecção de arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de correspondências de política relatadas. Use estas configurações para controlar exclusões de tipo de arquivo, limites de volume de arquivo e sensibilidade à detecção de linguagem ofensiva.
+
+#### <a name="anomaly-detections"></a>Detecções de anomalias
+
+As detecções anômalas incluem configurações de exclusões de tipo de arquivo e limites de volume de arquivo.
+
+- **Exclusões de tipo de arquivo**: para excluir tipos de arquivo específicos de todas as políticas de gerenciamento de risco do Insider, insira as extensões de tipo de arquivo separadas por vírgulas. Por exemplo, para excluir determinados tipos de arquivos de música de correspondências de política, você pode inserir *AAC, mp3, WAV, WMA* no campo de **exclusões de tipo de arquivo** . Arquivos com essas extensões seriam ignorados por todas as políticas de gerenciamento de risco do insider.
+- **Limite de corte de volume de arquivo**: para definir um nível mínimo de arquivo antes que os alertas de atividade sejam relatados nas políticas de risco do Insider, insira o número de arquivos. Por exemplo, você digitaria ' 10 ' se não quiser gerar alertas de risco do insider quando um usuário baixar 10 arquivos ou menos, mesmo que as suas políticas considerem essa anomalia.
+
+#### <a name="offensive-language-detections"></a>Detecções de idiomas ofensivos
+
+Para ajustar a sensibilidade do classificador de idiomas ofensivo para políticas usando o *idioma ofensivo no modelo de email* , escolha uma das seguintes configurações:
+
+- Baixo: o nível mais baixo de sensibilidade com a mais ampla variedade de idiomas de detecção e de **insuficiência**ofensivas. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é elevada.
+- **Médio**: o nível de sensibilidade de nível médio com um intervalo balanceado para detectar a linguagem e o inofensivos. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é média.
+- **Alta**: o nível mais alto de sensibilidade com um intervalo estreito para detectar a linguagem e o indutos ofensivos. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é baixa.
 
 ## <a name="create-a-new-policy"></a>Criar uma nova política
 
@@ -75,7 +112,7 @@ Conclua as seguintes etapas para criar uma nova política:
 
 1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **políticas** .
 2. Selecione **criar política** para abrir o assistente de política
-3. Na página **nova política de riscos de insider** , preencha os seguintes campos:
+3. Na página **nomear sua política e escolher um modelo** , preencha os seguintes campos:
     - **Nome (obrigatório)**: Insira um nome amigável para a política
     - **Descrição (opcional)**: Insira uma descrição para a política.
     - **Escolher modelo de política (obrigatório)**: selecione um dos [modelos de política](insider-risk-management-policies.md#policy-templates) para definir os tipos de indicadores de risco são monitorados pela política.
@@ -84,14 +121,14 @@ Conclua as seguintes etapas para criar uma nova política:
     >Se você selecionar o modelo *vazamentos de dados* , precisará configurar pelo menos uma política DLP que será atribuída posteriormente no assistente. Se você selecionar o modelo de *roubo de dados do funcionário de parte* , precisará configurar o conector de RH para usar os recursos de detecção de sinal completo do modelo de política.
 
 4. Selecione **Avançar** para continuar.
-5. Na página **usuários** , selecione **Adicionar usuário ou grupo** para definir quais usuários estão incluídos nas caixas de seleção política ou **todos os usuários e grupos habilitados para email** . Selecione **Avançar** para continuar.
-6. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir as fontes para priorizar as atividades de usuário arriscadas:
-    - Sites do SharePoint: selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
-    - Tipo de informação confidencial: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
-    - Rótulos de sensibilidade: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
+5. Na página **escolher usuários e grupos** , selecione **escolher usuários ou grupos** para definir quais usuários estão incluídos na política ou selecione a caixa de seleção **todos os usuários e grupos habilitados para email** . Selecione **Avançar** para continuar.
+6. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir pontuações de risco mais altos à atividade detectada com base em onde o conteúdo relacionado está localizado, quais informações confidenciais estão incluídas e quais rótulos de confidencialidade são aplicados:
+    - Sites do SharePoint: selecione **escolher sites do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - Tipo de informação confidencial: selecione **escolher tipos de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - Rótulos de sensibilidade: selecione **escolher rótulos de sensibilidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
-8. Na página **escolher indicadores de alerta** , você verá os indicadores incluídos no modelo que você escolheu para essa política. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
-9. Na página **selecionar janela de monitoramento** , você definirá as [condições da janela de monitoramento](insider-risk-management-policies.md#monitoring-windows) para a política. Configure as janelas de monitoramento conforme apropriado.
+8. Na página **indicadores de alerta** , você verá os indicadores definidos na página de > **indicadores** de **configurações de risco do insider**. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
+9. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que você configurou nas configurações de risco do insider. Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
 10. Selecione **Avançar** para continuar.
 11. Na página **revisão** , revise as configurações escolhidas para a política. Selecione **Editar** para alterar qualquer um dos valores da política ou selecione **Enviar** para criar e ativar a política.
 
@@ -108,14 +145,14 @@ Conclua as seguintes etapas para gerenciar uma política existente:
     - **Nome**: o nome amigável da política
     - **Selecione o guia estratégico**: o modelo usado para definir os tipos de indicadores de risco monitorados pela política.
 5. Insira uma nova descrição para a política no campo **Descrição** . Selecione **Avançar** para continuar.
-6. Na página **usuários** , selecione **Adicionar usuário ou grupo** para definir quais usuários estão incluídos nas caixas de seleção política ou **todos os usuários e grupos habilitados para email** . Selecione **Avançar** para continuar
+6. Na página **escolher usuários e grupos** , selecione **escolher usuários ou grupos** para definir quais usuários estão incluídos na política ou selecione a caixa de seleção **todos os usuários e grupos habilitados para email** . Selecione **Avançar** para continuar
 7. Na página **especificar qual conteúdo priorizar (opcional)** , atualize as fontes para priorizar as atividades arriscadas do usuário:
-    - Sites do SharePoint: selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
-    - Tipo de informação confidencial: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
-    - Rótulos de sensibilidade: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
+    - Sites do SharePoint: selecione **escolher sites do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - Tipo de informação confidencial: selecione **escolher tipos de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - Rótulos de sensibilidade: selecione **escolher rótulos de sensibilidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 8. Selecione **Avançar** para continuar.
-9. Na página **escolher indicadores de alerta** , você verá os indicadores incluídos no modelo que você escolheu para essa política. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
-10. Na página **selecionar janela de monitoramento** , você definirá as [condições da janela de monitoramento](insider-risk-management-policies.md#monitoring-windows) para a política. Configure as janelas de monitoramento conforme apropriado.
+9. Na página **indicadores de alerta** , você verá os indicadores definidos na página de > **indicadores** de **configurações de risco do insider**. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
+10. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que você configurou nas configurações de risco do insider. Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
 11. Na página **revisão** , revise as configurações escolhidas para a política. Selecione **Editar** para alterar qualquer um dos valores da política ou selecione **Enviar** para atualizar e ative as alterações na política.
 
 ## <a name="delete-a-policy"></a>Excluir uma política

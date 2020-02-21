@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d733c73f1c418af2f9c12b67927838875b707aa1
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078680"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179232"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -36,6 +36,8 @@ As políticas de conformidade de comunicação no Microsoft 365 ajudam a superar
 - Aplicação de regulamentações e risco de multas
 
 Em algumas organizações, pode haver uma separação de tarefas entre o suporte de ti e o grupo de gerenciamento de conformidade. A Microsoft 365 oferece suporte à separação entre a configuração de conformidade de comunicação e a configuração de políticas para a verificação de comunicações. Por exemplo, o grupo de ti de uma organização pode ser responsável por configurar permissões e grupos de função para dar suporte a políticas de conformidade de comunicação configuradas e gerenciadas pela equipe de conformidade da organização.
+
+Para obter uma visão geral rápida da conformidade de comunicação, confira o artigo [detectar Workplace assédio e responder com conformidade de comunicação no microsoft 365](https://youtu.be/z33ji7a7Zho) video no [canal Microsoft mecânica](https://www.youtube.com/user/OfficeGarageSeries).
 
 ## <a name="scenarios-for-communication-compliance"></a>Cenários de conformidade de comunicação
 

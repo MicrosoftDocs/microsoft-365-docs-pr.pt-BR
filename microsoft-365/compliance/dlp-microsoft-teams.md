@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 30436659b8b1bd336823e8dc6be06c8fbc8e08e3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2c530279dde03f357386f11b9e9af5d68be5ee7f
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075247"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170551"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
@@ -31,7 +31,12 @@ Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Lic
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Visão geral da DLP para o Microsoft Teams
 
-Recentemente, os recursos de DLP ( [prevenção contra perda de dados](data-loss-prevention-policies.md) ) foram estendidos para incluir mensagens de chat e de canal do Microsoft Teams. Se sua organização tem DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal do Microsoft Teams ou em uma sessão de chat. Estes são alguns exemplos de como essa proteção funciona:
+Recentemente, os recursos de DLP ( [prevenção contra perda de dados](data-loss-prevention-policies.md) ) foram estendidos para incluir mensagens de chat e de canal do Microsoft Teams.
+
+> [!NOTE]
+> A DLP não é suportada, neste momento, para mensagens de canal privado.
+
+Se sua organização tem DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal do Microsoft Teams ou em uma sessão de chat. Estes são alguns exemplos de como essa proteção funciona:
 
 - **Exemplo 1: protegendo informações confidenciais em mensagens**. Suponha que alguém tente compartilhar informações confidenciais em um chat de equipes ou canal com convidados (usuários externos). Se você tiver uma política de DLP definida para evitar isso, as mensagens com informações confidenciais enviadas a usuários externos serão excluídas. Isso ocorre automaticamente e, em segundos, de acordo com o modo como sua política de DLP é configurada.
 
@@ -50,7 +55,7 @@ Nesse caso, o remetente tentou compartilhar um número de segurança social em u
 
 ![Opções para resolver mensagem bloqueada](../media/dlp-teams-blockedmessage-possibleactions.png)
 
-Em sua organização, você pode optar por permitir que os usuários substituam uma política de DLP. E, ao configurar suas políticas de DLP, você pode usar as dicas de política padrão ou [personalizar dicas de política](#to-customize-policy-tips) para sua organização. 
+Em sua organização, você pode optar por permitir que os usuários substituam uma política de DLP. E, ao configurar suas políticas de DLP, você pode usar as dicas de política padrão ou [personalizar dicas de política](#to-customize-policy-tips) para sua organização.
 
 Retornando ao nosso exemplo, em que um remetente compartilhou um número de seguro social em um canal do Teams, aqui está o que o destinatário viu:
 
@@ -64,7 +69,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
 
-2. Escolha > **política**de **prevenção contra perda de dados**. 
+2. Escolha > **política**de **prevenção contra perda de dados**.
 
 3. Selecione uma política e ao lado de **configurações de política**, escolha **Editar**.
 
@@ -72,7 +77,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 5. Na guia **notificações do usuário** , selecione **Personalizar o texto do email** e/ou **Personalizar as opções de texto de dica de política** .<br/>![Personalizar notificações de usuário e dicas de política](../media/dlp-teams-editrule-usernotifications.png)<br/>  
 
-6. Especifique o texto que você deseja usar para notificações por email e/ou dicas de política e, em seguida, escolha **salvar**. 
+6. Especifique o texto que você deseja usar para notificações por email e/ou dicas de política e, em seguida, escolha **salvar**.
 
 7. Na guia **configurações de política** , escolha **salvar**.
 
@@ -84,7 +89,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
 
-2. Escolha > **política**de **prevenção contra perda de dados**. 
+2. Escolha > **política**de **prevenção contra perda de dados**.
 
 3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal**, tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
 
@@ -102,11 +107,11 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
 
-2. Escolha > **** política > de **prevenção contra perda de dados****+ criar uma política**. 
+2. Escolha > **** política > de **prevenção contra perda de dados****+ criar uma política**.
 
 3. Escolha um [modelo](data-loss-prevention-policies.md#dlp-policy-templates)e, em seguida, escolha **Avançar**.<br/>No nosso exemplo, escolhemos o modelo de dados de informações de identificação pessoal dos EUA.<br/>![Modelo de privacidade para política de DLP](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
-4. Na guia **nomear sua política** , especifique um nome e uma descrição para a política e, em seguida, escolha **Avançar**. 
+4. Na guia **nomear sua política** , especifique um nome e uma descrição para a política e, em seguida, escolha **Avançar**.
 
 5. Na guia **escolher locais** , mantenha a configuração padrão de todos os locais ou selecione **deixe-me escolher locais específicos**e, em seguida, escolha **Avançar**.<br/>Se você escolher locais específicos, selecione-os para a política de DLP e, em seguida, escolha **Avançar**.<br/>![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
@@ -120,7 +125,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 8. Na guia **configurações de política** , em **você deseja ativar a política ou testar as tarefas primeiro?**, escolha se deseja ativar a política, [testá-la primeiro](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)ou mantê-la desativada por enquanto e, em seguida, escolha **Avançar**.<br/>![Especificar se a política será ativada](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
-9. Na guia **examinar suas configurações** , revise as configurações da nova política. Escolha **Editar** para fazer alterações. Quando tiver terminado, escolha **criar**. 
+9. Na guia **examinar suas configurações** , revise as configurações da nova política. Escolha **Editar** para fazer alterações. Quando tiver terminado, escolha **criar**.
 
 Aguarde aproximadamente uma hora para que sua nova política funcione de forma em seu data center e sincronize com as contas de usuário.
 
