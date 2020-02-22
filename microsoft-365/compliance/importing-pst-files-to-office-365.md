@@ -18,12 +18,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Para administradores: saiba mais sobre o serviço de importação no Centro de Conformidade e Segurança para importar dados de email (arquivos PST) em massa às caixas de correio de usuário no Exchange Online. Este tópico fornece perguntas frequentes e explica como funciona p processo de importação de PST.'
-ms.openlocfilehash: 82e1ccc41d2df5986b54054d8fb98350608c642e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 94681af376d7c9ae32bdd2cbbb2a28da464712c1
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072941"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170541"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>Visão geral da importação dos arquivos PST da sua organização para o Office 365
 
@@ -145,7 +145,10 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
   
  **Onde o carregamento de rede está disponível?**
   
-O carregamento de rede está disponível nos Estados Unidos, Canadá, Brasil, Reino Unido, Europa, Índia, Leste Asiático, Sudeste Asiático, Japão, República da Coreia e Austrália. O carregamento de rede estará disponível para mais regiões em breve.
+O carregamento de rede está disponível nessas regiões: Estados Unidos, Canadá, Brasil, Reino Unido, Europa, Índia, Leste Asiático, Sudeste Asiático, Japão, República da Coreia e Austrália. O carregamento de rede estará disponível em mais regiões em breve.
+
+> [!NOTE]
+> No momento, não é possível carregar os arquivos PST na Alemanha e na Suíça. Estas Perguntas Mais Frequentes serão atualizadas quando o carregamento de rede estiver disponível nestes países.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
@@ -215,6 +218,9 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
  **Onde o envio de unidade está disponível?**
   
 No momento, o envio de unidades está disponível nas seguintes regiões: Austrália, Brasil, Canadá, Estados Unidos, Europa, Índia, Japão, Leste Asiático, Sudeste Asiático, Reino Unido e República da Coreia. O envio de unidades estará disponível para mais regiões em breve.
+
+> [!NOTE]
+> No momento, não é possível carregar os arquivos PST na Alemanha e na Suíça. Estas Perguntas Mais Frequentes serão atualizadas quando o carregamento de rede estiver disponível nestes países.
   
  **Quais contratos de licenciamento comercial dão suporte ao envio de unidade?**
   
