@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 8f781687047f39d4d038e293e50c9caad83d051a
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 436d70934e32f8609d35532188ac71cbd590c345
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179242"
+ms.locfileid: "42228577"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
@@ -132,28 +132,6 @@ Como outro exemplo, suponha que você esteja exibindo dados sobre mensagens de e
 ![Iniciando uma investigação de malware no Explorer](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 Semelhante aos guias estratégicos acionados por um alerta, as investigações automáticas disparadas de um modo de exibição no Explorer incluem uma investigação raiz, etapas para identificar e correlacionar ameaças e ações recomendadas para atenuar essas ameaças.
-
-## <a name="how-to-get-air"></a>Como obter o AIR
-
-O Office 365 AIR está incluído nas seguintes assinaturas:
-
-- Microsoft 365 E5
-- Office 365 E5
-- Proteção contra Ameaças da Microsoft
-- Plano 2 de proteção avançada contra ameaças do Office 365
-
-Se você não tiver nenhuma dessas assinaturas, [inicie uma avaliação gratuita](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
-
-Para saber mais sobre a disponibilidade de recursos, visite a [disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
-
-## <a name="required-permissions-to-use-air-capabilities"></a>Permissões necessárias para usar os recursos de ar
-
-As permissões são concedidas por determinadas funções, como aquelas descritas na tabela a seguir: 
-
-|Tarefa |Função (ões) necessária |
-|--|--|
-|Para configurar os recursos de ar |Uma das seguintes funções: <br/>- **Administrador global**<br/>- **Administrador de segurança** <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Administrador global** <br/>- **Administrador de segurança**<br/>- **Leitor de segurança** <br/>---e---<br/>- **Pesquisa e limpeza** (esta função é atribuída somente no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)
 
 ## <a name="next-steps"></a>Próximas etapas
 

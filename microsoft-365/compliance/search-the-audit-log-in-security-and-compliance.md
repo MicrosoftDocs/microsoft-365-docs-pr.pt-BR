@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: e4e09360e4f07935867b03b3436a5581bb671774
-ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
+ms.openlocfilehash: 417496d5c72c03207f61b4652970b103663e615b
+ms.sourcegitcommit: ff2f521afdd60a16b2db8ff77b537f345c0e0f7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42091364"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42219182"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -62,6 +62,8 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 - Atividade de usuários e administradores do Microsoft Power Apps
 
 - Atividade de usuários e administradores do Microsoft Forms
+
+- Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -309,7 +311,7 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades do Yammer](#yammer-activities)|
 |[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
-|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)|||
+|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)||
 ||||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
@@ -330,7 +332,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Arquivo excluído da Lixeira|FileDeletedFirstStageRecycleBin|O usuário exclui um arquivo da lixeira de um site.|
 |Arquivo excluído da Lixeira de segundo estágio|FileDeletedSecondStageRecycleBin|O usuário exclui um arquivo da lixeira de segundo estágio de um site.|
 |Rótulos de política de conformidade excluídos|ComplianceRecordDelete|Um documento que foi classificado como um registro foi excluído. Um documento é considerado um registro quando uma etiqueta de retenção que classifica o conteúdo como um registro é aplicada ao documento.|
-|Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento classificado com um rótulo de sensibilidade que tem uma prioridade mais alta do que o rótulo de sensibilidade aplicada ao site para o qual o documento foi carregado. <br/><br/> Esse evento não será disparado se o rótulo de sensibilidade aplicado a um site tiver uma prioridade mais alta do que o rótulo de sensibilidade aplicada a um documento carregado no site. Para obter mais informações sobre a prioridade de rótulos de confidencialidade, confira a seção "Prioridade de rótulo” em [Visão geral de rótulos de confidencialidade.](sensitivity-labels.md#label-priority-order-matters).|
+|Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento em um site protegido com um rótulo de sensibilidade e o documento possui um rótulo de confidencialidade menor que o site. <br/><br/> Esse evento não será acionado se o rótulo de sensibilidade aplicado ao site que tiver uma prioridade mais alta do que o rótulo de sensibilidade aplicado a um documento carregado no site. Para obter mais informações sobre a prioridade dos rótulos de sensibilidade, consulte [Prioridade de rótulo (questões do pedido)](sensitivity-labels.md#label-priority-order-matters).|
 |Malware detectado no arquivo|FileMalwareDetected|O mecanismo de antivírus do SharePoint detecta malwares em um arquivo.|
 |Check-out de arquivo descartado|FileCheckOutDiscarded|O usuário descarta (ou desfaz) um arquivo em check-out. Isso significa que todas as alterações que ele tiver feito nesse arquivo durante o estado de check-out serão descartados, e não salvas na versão do documento localizada na biblioteca de documentos.|
 |Arquivo baixado|FileDownloaded|O usuário baixa um documento de um site.|
@@ -350,6 +352,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Exibição sinalizada pelo cliente|ClientViewSignaled|Um cliente do usuário (por exemplo, site ou aplicativo móvel) sinalizou que a página indicada foi exibida pelo usuário. Essa atividade geralmente é registrada após um evento PagePrefetched para uma página. <br/><br/>**OBSERVAÇÃO**: Como os eventos ClientViewSignaled são sinalizados pelo cliente, em vez do servidor, é possível que ele não seja registrado pelo servidor e, portanto, pode não aparecer no log de auditoria. Também é possível que as informações do registro de auditoria não sejam confiáveis. No entanto, como a identidade do usuário é validada por um token usado para criar o sinal, a identidade do usuário listada no registro de auditoria correspondente é precisa. |
 |(nenhum)|PagePrefetched|O cliente do usuário (por exemplo, site ou aplicativo móvel) solicitou a página indicada para ajudar a melhorar o desempenho se o usuário navegar por ela. Este evento é registrado para indicar que o conteúdo da página foi servido ao cliente do usuário. Esse evento não é um indício definitivo de que o usuário navegou pela página. <br/><br/> Quando o conteúdo da página é renderizado pelo cliente (conforme a solicitação do usuário), um evento ClientViewSignaled deve ser gerado. Nem todos os clientes oferecem suporte para indicar uma pré-busca e, portanto, algumas atividades pré-buscadas podem ser registradas como eventos PageViewed.|
 ||||
+
 
 ### <a name="folder-activities"></a>Atividades de pasta
 
@@ -822,6 +825,18 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondente é da mesma organização que o proprietário do formulário.|
 ||||
 
+### <a name="sensitivity-label-activities"></a>Atividades de rótulo de sensibilidade 
+
+A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos sites do SharePoint Online e do Teams.
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Rótulo de sensibilidade aplicado ao site|SensitivityLabelApplied|Um rótulo de sensibilidade foi aplicado a um site do SharePoint ou do Teams.|
+|Rótulo de sensibilidade removido do site|SensitivityLabelRemoved|Um rótulo de sensibilidade foi removido de um site do SharePoint ou do Teams.|
+|Rótulo de sensibilidade aplicado ao site|FileSensitivityLabelApplied|Um rótulo de sensibilidade foi aplicado a um documento usando o Office na Web.|
+|Rótulo de sensibilidade alterado aplicado ao arquivo|FileSensitivityLabelChanged|Um rótulo de sensibilidade diferente foi aplicado a um documento usando o Office na Web.|
+|Rótulo de sensibilidade removido do site|FileSensitivityLabelRemoved|Um rótulo de sensibilidade foi removido de um documento usando o Office na Web.|
+
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
 
 O log de auditoria de administradores do Exchange (que está habilitado por padrão no Office 365) registra um evento no log de auditoria do Office 365 quando um administrador (ou um usuário que recebeu permissões administrativas) faz uma alteração na sua organização do Exchange Online. As alterações feitas usando o centro de administração do Exchange ou executando um cmdlet no PowerShell do Exchange Online são registradas no log de auditoria de administradores do Exchange. Os cmdlets que começam com os verbos **Obter-**, **Pesquisar**, ou **Testar –** não estão registrados no log de auditoria do Office 365. Para obter informações mais detalhadas sobre o log de auditoria de administradores do Exchange, confira [Log de auditoria de administradores](https://go.microsoft.com/fwlink/p/?LinkID=619225).
@@ -848,6 +863,7 @@ Aqui estão algumas dicas para pesquisar atividades de administração do Exchan
   - [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog)
 
    Lembre-se de que as mesmas atividades do administrador do Exchange estão registradas no log de auditoria do administrador do Exchange e no log de auditoria do Office 365.
+
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

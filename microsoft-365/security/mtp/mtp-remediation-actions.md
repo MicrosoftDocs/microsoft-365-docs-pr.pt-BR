@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 73bb90a0537df8e6f23e4e0e50a748aebda3a487
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 65ace4bda091b3e000d25a984b706f26fe9c8696
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175895"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225479"
 ---
 # <a name="remediation-actions-in-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Ações de correção em recursos de investigação e resposta automatizados no Microsoft Threat Protection
 
@@ -36,7 +36,7 @@ A tabela a seguir resume as ações de correção que atualmente têm suporte na
 
 |Ações de correção de pontos de extremidade  |Ações de correção de email  |
 |---------|---------|
-|Arquivo de quarentena<br/>Remover chave do registro<br/>Finalizar processo <br/>Parar serviço <br/>Remover chave do registro <br/>Desabilitar o driver <br/>Remover tarefa agendada      |Exclusão reversível de mensagens de emails ou clusters<br/>Bloquear URL (hora do clique)<br/>Desativar o encaminhamento de emails externo          |
+|Arquivo de quarentena<br/>Remover chave do registro<br/>Finalizar processo <br/>Parar serviço <br/>Desabilitar o driver <br/>Remover tarefa agendada      |Exclusão reversível de mensagens de emails ou clusters<br/>Bloquear URL (hora do clique)<br/>Desativar o encaminhamento de emails externo          |
 
 Ações de correção, se estão aguardando aprovação ou já estão concluídas, podem ser exibidas na [central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 
