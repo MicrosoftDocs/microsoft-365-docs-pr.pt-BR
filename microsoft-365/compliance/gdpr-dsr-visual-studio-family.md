@@ -18,12 +18,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 08c6bfbcfc571103939d0b824d5fda0fcb789bb6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 159e7a69f0714b93913c36d745641485d7c80798
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596478"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225504"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de Titulares de Dados da Família do Visual Studio para o GDPR e CCPA
 
@@ -47,7 +47,7 @@ Os Termos de Licença de Software da Microsoft que acompanha os produtos, a [Dec
 
 Na condição de processadora de dados de acordo com o RGPD, a Microsoft coleta dados de que precisamos de usuários para fornecer experiências para e aprimorar o Visual Studio e o Visual Studio para Mac e as extensões da Microsoft para eles e o Visual Studio Code. Há duas categorias de dados: logs gerados pelo sistema e dados de clientes. Os dados de clientes incluem dados interativos e transacionais identificáveis do usuário de que esses produtos precisam para executar o serviço que oferecem. Por exemplo, para fornecer aos usuários experiências personalizadas, como configurações de roaming, precisamos coletar informações de conta do usuário e dados de configurações. Os logs gerados pelo sistema são dados de diagnóstico que são usados para ajudar a identificar e solucionar problemas e aprimorar nossos produtos e serviços, e que também podem conter informações identificáveis sobre usuários finais, como nome de usuário. Os logs gerados pelo sistema são mantidos por não mais que 18 meses. Por exemplo, os logs gerados pelo sistema são agregados para cada dia do uso do produto e incluem a data de uso, o produto usado (por exemplo, "Visual Studio 2017"), a ação que você realizou (por exemplo, "vs/core/packagecostsummary/solutionload") e o número de vezes que a ação foi realizada, como mostra este exemplo:
 
-```
+```Log
 {Time":"2/23/2018 12:00:00 AM","AppName":"Visual Studio 2017","Action":"vs/core/packagecostsummary/solutionload","Target":"1 times",
 "DevicePlatform":"Windows 10 Enterprise","IP":null,"InputMethod":null,
 "SearchTerm":null,"SearchResult":null}

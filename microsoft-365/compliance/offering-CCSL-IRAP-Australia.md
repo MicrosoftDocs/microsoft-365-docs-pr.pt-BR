@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 87bb8faa13f34fbe299b6de82bdd9099eaaff5aa
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 98b669a216b5c3a875cb1a42fd0cc97fb6112f1b
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851848"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222103"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Consultor programa de segurança de informações governamentais da Austrália (IRAP)
 
@@ -86,9 +86,9 @@ Comece com o [que é IRAP?](https://www.cyber.gov.au/irap/what-irap) e siga-o co
 - [Quem fornece treinamento do IRAP?](https://acsc.gov.au/infosec/irap/training.htm)
 - [Informações sobre requisitos de conformidade e não conformidade](https://acsc.gov.au/infosec/irap/compliance.htm)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo IRAP](https://go.microsoft.com/fwlink/?linkid=2117913) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o [modelo IRAP](https://go.microsoft.com/fwlink/?linkid=2117913) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 
@@ -96,4 +96,4 @@ A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Página da Austrália do Microsoft Service Trust Portal (STP)](https://aka.ms/au-irap)
 - [Guias de segurança e gateway da Austrália](https://docs.microsoft.com/azure/azure-australia)
 - [Serviços de nuvem certificados pela ASD](https://acsc.gov.au/infosec/irap/certified_clouds.htm)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

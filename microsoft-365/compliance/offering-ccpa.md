@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c761a62e901be065a588f1e4141b731831c4752
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: de9fcad3b1d54247114974ce4432068c136fdb2a
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851838"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222023"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de privacidade e proteção de dados da Califórnia)
 
@@ -93,9 +93,9 @@ O CCPA exige que as empresas regulamentadas coletem, transfiram e vendam informa
 - O CCPA introduz obrigações de consentimento pelos pais, consistentes com a COPPA (política de proteção de privacidade online) para crianças menores de 13 anos.
 - Para crianças entre 13 e 16 anos de idade, o CCPA impõe uma nova obrigação de obter consentimento de aceitação do filho.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo CCPA](https://go.microsoft.com/fwlink/?linkid=2118004) pré-configurado para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o [modelo CCPA](https://go.microsoft.com/fwlink/?linkid=2118004) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 
@@ -103,4 +103,4 @@ A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Introdução ao guia do CCPA](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [Solicitações de entidades de dados e o RGPD](gdpr-data-subject-requests.md)
 - [Perguntas frequentes sobre a lei de privacidade do consumidor da Califórnia (CCPA)](ccpa-faq.md)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

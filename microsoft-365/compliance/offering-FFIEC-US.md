@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c77793d7676e836e7b445bd9b638a835bb7051ff
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 6dcdfd7ec2230de3eec7ccc0db08f7f4a637263d
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851818"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222063"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conselho Federal de análise de instituições financeiras (FFIEC)
 
@@ -59,9 +59,9 @@ Relatórios de atestado do Microsoft Azure e Office 365 SOC.
 
 Para ajudá-lo a atender a essas obrigações, a Microsoft fornece as especificações sobre nossa conformidade com os padrões do SOC, conforme descrito acima. No entanto, em última análise, você pode determinar se nossos serviços estão em conformidade com as leis e regulamentos específicos aplicáveis à sua instituição. O FFIEC também aconselha que "os usuários de relatórios de auditoria ou revisões não devem depender exclusivamente das informações contidas no relatório para verificar o ambiente de controle interno do TSP. Eles devem usar procedimentos adicionais de verificação e monitoramento, conforme discutido mais completamente no [livreto tecnologia de terceirização](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) do manual de exames de ti da FFIEC. "
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o modelo do [Office 365 do FFIEC](https://go.microsoft.com/fwlink/?linkid=2117912) pré-configurado e o modelo do [FFIEC Intune](https://go.microsoft.com/fwlink/?linkid=2118101) para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo do [Office 365 do FFIEC](https://go.microsoft.com/fwlink/?linkid=2117912) pré-configurado e o [modelo FFIEC Intune](https://go.microsoft.com/fwlink/?linkid=2118101) no menu suspenso **modelo** para ajudar sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 

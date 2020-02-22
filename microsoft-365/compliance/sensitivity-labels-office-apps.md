@@ -1,5 +1,5 @@
 ---
-title: Usar rótulos de confidencialidade nos aplicativos do Office
+title: Usar rótulos de confidencialidade em aplicativos do Office
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 596580a413778e54a3aaeb04bae8f5f164a96c14
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: 5ca3d7b68f931b7596bc61a587d5e4199aa5f70f
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101231"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225499"
 ---
-# <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade nos aplicativos do Office
+# <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
 Quando você [publicou](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) rótulos de sensibilidade do centro de conformidade da Microsoft 365 ou do centro de rotulação equivalente, eles começarão a aparecer em aplicativos do Office para que os usuários classifiquem e protejam os dados à medida que são criados ou editados.
 
@@ -123,10 +123,15 @@ Se você precisar converter modelos de proteção existentes para rótulos, use 
 
 Os usuários podem aplicar apenas um rótulo por vez para cada documento ou email.
 
-Quando você rotula uma mensagem de email que tem anexos, os anexos não herdam o rótulo:
+Quando você rotula uma mensagem de email que tem anexos, os anexos não herdam o rótulo com uma exceção:
 
-- Se os anexos tiverem um rótulo, eles manterão esse rótulo aplicado separadamente.
-- Se os anexos não tiverem um rótulo, os anexos permanecerão sem um rótulo. No entanto, se o rótulo do email aplicar proteção, essa proteção será aplicada aos anexos do Office.
+- O anexo é um documento do Office com um rótulo que não aplica criptografia e o rótulo que você aplica à mensagem de email aplica criptografia. Nesse caso, o documento do Office enviado por email herda o rótulo do email com suas configurações de criptografia.
+
+Caso contrário: 
+
+- Se os anexos tiverem um rótulo, eles manterão o rótulo aplicado originalmente.
+- Se os anexos forem criptografados sem um rótulo, a criptografia permanecerá mas não serão rotuladas.
+- Se os anexos não tiverem um rótulo, eles permanecerão sem rótulo.
 
 ## <a name="sensitivity-label-compatibility"></a>Compatibilidade de rótulo de confidencialidade
 

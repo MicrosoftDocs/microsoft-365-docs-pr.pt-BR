@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a08932d4f16a17b35fef11cdcd8243c96060a4b5
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: e90d5e47c6aa5ac6c2813f150e8136b93214fa3d
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851778"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42221993"
 ---
 # <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
@@ -63,9 +63,9 @@ Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituiç
 
 Sim. Os clientes da Microsoft podem usar os controles auditados descritos nos relatórios de organizações de avaliação de terceiros independentes (3PAO) em padrões do FedRAMP como parte de suas próprias análises de risco do FedRAMP e do NIST e seus esforços de qualificação. Esses relatórios atestam a eficácia dos controles que a Microsoft implementou em seus serviços em nuvem no escopo. Os clientes são responsáveis por garantir que as cargas de trabalho da CUI estejam em conformidade com as diretrizes do NIST SP 800 – 171.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Usar a pontuação de conformidade da Microsoft para avaliar o risco
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso de visualização no centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), use o [modelo NIST pré-configurado 800-171](https://go.microsoft.com/fwlink/?linkid=2117526) para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo do [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2117526) pré-configurado no menu suspenso **modelo** para ajudar sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 
@@ -75,7 +75,7 @@ A [Pontuação de conformidade da Microsoft](compliance-score.md) é um recurso 
 - [NIST 800-171 3,3 auditoria e responsabilidade com o Office 365 GCC High](https://info.summit7systems.com/blog/nist-3.3-audit-and-accountability-with-office-365)
 - [A estrutura do cybersecurity da Microsoft e do NIST](offering-nist-csf.md)
 - [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
