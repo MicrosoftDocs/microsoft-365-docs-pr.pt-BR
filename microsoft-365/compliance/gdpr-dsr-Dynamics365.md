@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fee4e0472a6d9b08bdab4c5340097d4222aac1d9
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+ms.openlocfilehash: 1eeed6c1dfef1765089a5998200c93be595a719a
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722012"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225519"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de entidades de dados do Dynamics 365 para o RGPD e CCPA
 
@@ -82,10 +82,9 @@ A classificação correta dos dados do cliente é a base para trabalhar com dado
 
 A Microsoft fornece recursos que podem ajudá-lo a responder às solicitações de direitos de entidade de dados e, assim, a acessar os dados do cliente. No entanto, é sua responsabilidade garantir que os dados pessoais sejam localizados e classificados adequadamente.
 
-O ***Dynamics 365 for Customer Engagement*** fornece vários métodos para você pesquisar por dados pessoais em registros, como: Pesquisa de Localização Avançada, Pesquisa de Relevância e Pesquisa por Registros. Todas essas funções permitem identificar (localizar) dados pessoais.
+O ***Dynamics 365 para o Customer Engagement*** fornece vários métodos para você procurar dados pessoais em registros como: Pesquisa Avançada de Pesquisa e Pesquisa de Registros. Todas essas funções permitem identificar (localizar) dados pessoais.
 
 - [Pesquisa de Localização Avançada](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
-- [Pesquisa de Relevância](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results), que pode ser salva para referência futura usando os painéis
 - [Pesquisa por Registros](https://docs.microsoft.com/dynamics365/customer-engagement/basics/search-records) entre vários tipos de registro
 
 No Dynamics 365 for Marketing, você tem os seguintes recursos adicionais:
