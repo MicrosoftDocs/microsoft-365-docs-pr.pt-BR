@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 417496d5c72c03207f61b4652970b103663e615b
-ms.sourcegitcommit: ff2f521afdd60a16b2db8ff77b537f345c0e0f7e
+ms.openlocfilehash: fe91f43d088242336d7e77e5422093979d34193b
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/21/2020
-ms.locfileid: "42219182"
+ms.locfileid: "42228587"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -725,7 +725,7 @@ A tabela a seguir lista as atividades de usuários e de administradores no Micro
 |Bot adicionado à equipe|BotAddedToTeam|Um usuário adiciona um bot a uma equipe.|
 |Canal adicionado|ChannelAdded|Um usuário adiciona um canal a uma equipe.|
 |Conector adicionado|ConnectorAdded|Um usuário adiciona um conector a um canal.|
-|Membros adicionados à equipe|MemberAdded|Um proprietário da equipe adiciona membros à uma equipe.|
+|Membros adicionados|MemberAdded|O proprietário de uma equipe adiciona membros a uma equipe ou a um chat em grupo.|
 |Guia adicionada|TabAdded|Um usuário adiciona uma guia a um canal.|
 |Configuração de canal alterada|ChannelSettingChanged|A operação ChannelSettingChanged é registrada em log quando as seguintes atividades são realizadas por um membro da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses abaixo) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria. <br/><br/>• Altera o nome de um canal de equipe (**Nome do canal**). <br/><br/>• Altera a descrição de um canal de equipe (**Descrição do canal**).|
 |Configuração da organização alterada|TeamsTenantSettingChanged|A operação TeamsTenantSettingChanged é registrada em log quando as seguintes atividades são executadas por um administrador global (usando o centro de administração do Microsoft 365). Observe que essas atividades afetam as configurações do Microsoft Teams em toda a organização. Para obter mais informações, confira [Configurações do administrador para Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2). <br/> Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses abaixo) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria. <br/><br/>• Habilita ou desabilita o Microsoft Teams da organização (**Microsoft Teams**). <br/><br/>• Habilita ou desabilita a interoperabilidade entre o Microsoft Teams e o Skype for Business da organização (**Interoperabilidade do Skype for Business**). <br/><br/>• Habilita ou desabilita o modo de exibição de organograma em clientes do Microsoft Teams (Modo de exibição de organograma **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões particulares (** Agendamento de reunião particular **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões de canal (Agendamento de reunião de canal**). <br/><br/>• Habilita ou desabilita a chamada de vídeo em reuniões do Teams (vídeo para reuniões do Skype **). <br/><br/>• Habilita ou desabilita o compartilhamento de tela nas reuniões da organização do Microsoft Teams (** Compartilhamento de tela das reuniões do Skype **). <br/><br/>• Ativa ou desativa a capacidade de adicionar imagens animadas (chamadas Giphys) a conversas do Teams (Imagens animadas**). <br/><br/>• Altera a configuração de classificação de conteúdo da organização (**Classificação de conteúdo**). A classificação de conteúdo restringe o tipo de imagem animada que pode ser exibido em conversas. <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens personalizáveis (chamadas memes personalizados) da Internet a conversas da equipe (imagens personalizáveis da Internet **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens editáveis (chamadas adesivos) a conversas de equipe (** Imagens editáveis **).<br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de usar bots em conversas e canais do Microsoft Teams (bots de toda a organização**). <br/><br/>• Habilita bots específicos para o Microsoft Teams. Isso não inclui o T-Bot, que é o bot de ajuda do Teams, que está disponível quando os bots estão habilitados para a organização (**Bots individuais**). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar extensões ou guias (**Extensões ou guias**). <br/><br/>• Habilita ou desabilita o carregamento lateral de bots proprietários do Microsoft Teams (**Carregamento lateral de bots**). <br/><br/>• Habilita ou desabilita a capacidade dos usuários de enviar mensagens de email a um canal do Microsoft Teams (**Email do canal**).|
@@ -736,7 +736,7 @@ A tabela a seguir lista as atividades de usuários e de administradores no Micro
 |Equipe excluída|TeamDeleted|Um proprietário de equipe exclui uma equipe.|
 |Bot removido da equipe|BotRemovedFromTeam|Um usuário remove um bot de uma equipe.|
 |Conector removido|ConnectorRemoved|Um usuário remove um conector de um canal.|
-|Membros removidos da equipe|MemberRemoved|Um proprietário remove membros de uma equipe.|
+|Membros removidos|MemberRemoved|O proprietário de uma equipe remove membros de uma equipe ou de um chat em grupo.|
 |Guia removida|TabRemoved|Um usuário remove uma guia de um canal.|
 |Conector atualizado|ConnectorUpdated|Um usuário modificou um conector em um canal.|
 |Guia atualizada|TabUpdated|Usuário modificou uma guia no canal.|
@@ -836,6 +836,7 @@ A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos 
 |Rótulo de sensibilidade aplicado ao site|FileSensitivityLabelApplied|Um rótulo de sensibilidade foi aplicado a um documento usando o Office na Web.|
 |Rótulo de sensibilidade alterado aplicado ao arquivo|FileSensitivityLabelChanged|Um rótulo de sensibilidade diferente foi aplicado a um documento usando o Office na Web.|
 |Rótulo de sensibilidade removido do site|FileSensitivityLabelRemoved|Um rótulo de sensibilidade foi removido de um documento usando o Office na Web.|
+||||
 
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
 
