@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 02/24/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: 9d7b2561c40e1322b7f15e72c48755268c119f24
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 712fdf6935fa69bfb2079858d6384eee270776e6
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106834"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261028"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
@@ -39,7 +39,7 @@ A Proteção Avançada contra Ameaças do Office 365 (ATP) protege sua organiza�
 
 - **[Recursos de investigação e resposta de ameaças](#use-threat-investigation-and-response-capabilities)**: use as ferramentas de ponta para investigar, compreender, simular e prevenir ameaças.
 
-- **[Recursos de investigação e resposta automatizadas](#save-time-with-automated-investigation-and-response)**: poupe tempo e esforço, investigando e reduzindo as ameaças.
+- **[Recursos de investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)**: poupe tempo e esforço, investigando e reduzindo as ameaças.
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP Plano 1 e Plano 2
 
@@ -47,7 +47,7 @@ A tabela a seguir resume o que está incluído em cada plano.
 
 |Plano 1 do Office 365 ATP  |Plano 2 do Office 365 ATP|
 |---------|---------|
-|Capacidade de configuração, proteção e detecção:<br/>- [Anexos seguros](atp-safe-attachments.md)<br/>- [Links seguros](atp-safe-links.md)<br/>- [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Proteção avançada contra phishing](atp-anti-phishing.md)<br/>- [Detecção em tempo real](threat-explorer.md)     |Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:<br/>- [Rastreadores de ameaças](threat-trackers.md)<br/>- [Explorador de ameaças](threat-explorer.md)<br/>- [Resposta e investigação automatizadas](automated-investigation-response-office.md)<br/>- [Simulador de ataque](attack-simulator.md)|
+|Capacidade de configuração, proteção e detecção:<br/>- [Anexos seguros](atp-safe-attachments.md)<br/>- [Links seguros](atp-safe-links.md)<br/>- [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Proteção avançada contra phishing](atp-anti-phishing.md)<br/>- [Detecção em tempo real](threat-explorer.md)     |Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:<br/>- [Rastreadores de ameaças](threat-trackers.md)<br/>- [Explorador de ameaças](threat-explorer.md)<br/>- [Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [Simulador de ataque](attack-simulator.md)|
 
 - O plano 2 do Office 365 ATP está incluído no Office 365 e5, no Office 365 a5 e no Microsoft 365 e5.
 
@@ -56,9 +56,6 @@ A tabela a seguir resume o que está incluído em cada plano.
 - A ATP do plano 1 do Office 365 e a ATP do plano 2 do Office 365 estão disponíveis cada uma como um complemento para determinadas assinaturas. Para saber mais, confira [Disponibilidade de recursos em planos da ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - Se sua assinatura atual não incluir o Office 365 ATP, entre em [contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644) e veja como o ATP pode funcionar para sua organização.
-
-> [!TIP]
-> Você tem o Microsoft 365 E5 ou Microsoft 365 E3 juntamente com Proteção contra Identidade e Ameaças? Considere tentar [Proteção contra ameaças da Microsoft](../mtp/microsoft-threat-protection.md).
 
 ## <a name="configure-atp-policies"></a>Configurar políticas de ATP
 
@@ -105,7 +102,7 @@ O Office 365 ATP Plano 2 inclui uma melhor investigação de [ameaças e ferrame
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Poupe tempo com investigação e resposta automatizadas
 
-(**NOVO!**) Ao investigar um ataque cibernético potencial, o tempo é essencial. Quanto antes você puder identificar e reduzir as ameaças, melhor será sua organização. A[Resposta automatizada a investigação](automated-investigation-response-office.md)(AIR) inclui um conjunto de medidas de segurança que podem ser iniciadas automaticamente quando um alerta é acionado, ou pode ser iniciadas manualmente a partir de um modo de exibição no Explorador. O AIR pode economizar tempo e esforço da equipe de operações de segurança na redução de ameaças de maneira eficaz e eficiente. Para saber mais, consulte [AIR no Office 365](automated-investigation-response-office.md).
+(**NOVO!**) Ao investigar um ataque cibernético potencial, o tempo é essencial. Quanto antes você puder identificar e reduzir as ameaças, melhor será sua organização. A[Resposta automatizada a investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)(AIR) inclui um conjunto de medidas de segurança que podem ser iniciadas automaticamente quando um alerta é acionado, ou pode ser iniciadas manualmente a partir de um modo de exibição no Explorador. O AIR pode economizar tempo e esforço da equipe de operações de segurança na redução de ameaças de maneira eficaz e eficiente. Para saber mais, consulte [AIR no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air).
 
 ## <a name="permissions-required-to-use-atp-features"></a>Permissões necessárias para usar os recursos de ATP
 
