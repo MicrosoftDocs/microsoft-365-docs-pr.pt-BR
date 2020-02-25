@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: acc515d046b1ebd2ff7c5dd9c52b363fe99f0b9e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eda9b893057afd54a644f0091bf4e1b421bd5439
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087451"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234690"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 A caça avançada baseia-se na [linguagem de consulta Kusto](https://docs.microsoft.com/azure/kusto/query/). Você pode usar a sintaxe e os operadores Kusto para construir consultas que localizem informações no [esquema](advanced-hunting-schema-tables.md) especificamente estruturadas para a pesquisa avançada. Para entender melhor esses conceitos, execute a primeira consulta.
 

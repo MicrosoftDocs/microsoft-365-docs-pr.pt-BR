@@ -1,5 +1,5 @@
 ---
-title: Exibir os detalhes e resultados de uma investigação automatizada
+title: Detalhes e resultados de uma investigação automatizada
 description: Durante e após uma investigação automática, você pode exibir os resultados e as principais descobertas
 keywords: automatização, investigação, resultados, análise, detalhes, correção, autoair
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 062dd86de49eb3dfe47566aa8d7269780cf9995c
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 6b3bc068e5da99e02a64463891e32d137c448d64
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175714"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261058"
 ---
-# <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
+# <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -80,24 +80,9 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 |Log    |Fornece uma exibição detalhada de todas as etapas realizadas durante a investigação, juntamente com o status.|
 |Ações pendentes    |Lista os itens que exigem aprovação para prosseguir.|
 
-## <a name="remediation-actions-following-automated-investigation"></a>Ações de correção após a investigação automática
-
-Quando uma investigação automatizada for concluída, um veredito será feito para cada evidência envolvida, e as ações de correção serão identificadas. Em alguns casos, as ações de correção são executadas automaticamente, em outros casos, as ações de correção aguardam aprovação. A tabela a seguir lista os possíveis verditos e resultados:
-
-|Verdito    |Área   |Resultados|
-|------|------|------|
-|Mal-intencionado  |Dispositivos (pontos de extremidade)    |As ações de correção são tomadas automaticamente|
-|Mal-intencionado  |Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
-|Suspeito |Conteúdo de dispositivos ou emails |As ações de correção recomendadas estão aguardando aprovação|
-|Limpar  |Conteúdo de dispositivos ou emails   |Nenhuma ação de correção é necessária|
-
-[Revisar uma ação pendente na Central de Ações](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
-
-> [!TIP]
-> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
-
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Obter uma visão geral das permissões da central de Ações](mtp-action-center.md#required-permissions-for-action-center-tasks)
+
 - [Aprovar ou rejeitar ações relacionadas a investigações e respostas automatizadas](mtp-autoir-actions.md)
 

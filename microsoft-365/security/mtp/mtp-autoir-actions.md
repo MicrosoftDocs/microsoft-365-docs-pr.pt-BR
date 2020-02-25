@@ -1,5 +1,5 @@
 ---
-title: Aprovar ou rejeitar ações pendentes após a investigação automática
+title: Aprovar ou rejeitar ações pendentes após uma investigação automatizada
 description: Use a Central de Ações para gerenciar ações relacionadas a investigações e respostas automáticas
 keywords: ação, central, investigação e resposta automáticas, automação, investigação, resposta, correção
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5118f7fddaee0fa768675597dee862eb75e4ed96
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225489"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261978"
 ---
-# <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>Aprovar ou rejeitar ações pendentes após a investigações automáticas
+# <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Aprovar ou rejeitar ações pendentes após uma investigação automatizada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -35,9 +35,7 @@ Quando uma investigação automatizada é executada, pode resultar em uma ou mai
 > [!TIP]
 > Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
 
-Ações pendentes podem ser revisadas e aprovadas usando um dos vários métodos abaixo:
-- [Usando a Central de Ações](#review-a-pending-action-in-the-action-center)
-- [Usando o modo de exibição detalhes da investigação](#review-a-pending-action-in-the-investigation-details-view)
+Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](#review-a-pending-action-in-the-action-center) ou o [modo de exibição detalhes da investigação](#review-a-pending-action-in-the-investigation-details-view).
 
 > [!NOTE]
 > Você deve ter [permissões apropriadas](mtp-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção.
@@ -65,5 +63,7 @@ Ações pendentes podem ser revisadas e aprovadas usando um dos vários métodos
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Saiba mais sobre a Central de Ações](mtp-action-center.md)
+
 - [Saiba mais sobre incidentes](incidents-overview.md)
+
 - [Saiba mais sobre a caça avançada](advanced-hunting-overview.md)

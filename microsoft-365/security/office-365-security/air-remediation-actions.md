@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: e75ef1523247cbddcf6cb28d69a889db1de8e42f
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 433813ed1a801117a88da696392030db5091b54b
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228527"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261048"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Ações de correção após uma investigação automatizada no Office 365
 
-## <a name="remediation-actions-overview"></a>Visão geral das ações de correção
+## <a name="remediation-actions"></a>Ações de correção
 
 Os [recursos de investigação e resposta automatizados](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) na proteção avançada contra ameaças do Office 365 incluem determinadas ações de correção. Sempre que uma investigação automatizada estiver em execução ou concluída, você verá, em geral, uma ou mais ações de correção que exigem aprovação da equipe de operações de segurança para continuar. A tabela a seguir resume as ações de correção disponíveis atualmente na proteção avançada contra ameaças do Office 365. 
 
@@ -52,6 +52,8 @@ Ao exibir os [detalhes de uma investigação](air-view-investigation-results.md)
  - **Aprovar** permite que a correção seja iniciada.
  - **Rejeitar** não realiza mais nenhuma ação
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="next-steps"></a>Próximas etapas
 
-[Saiba mais sobre a investigação e a resposta automatizadas no Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Saiba mais sobre o guia de segurança de usuário comprometido](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly)
+
+- [Exibir seus relatórios de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)

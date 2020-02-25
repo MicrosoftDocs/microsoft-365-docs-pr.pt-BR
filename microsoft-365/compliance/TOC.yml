@@ -209,7 +209,7 @@
           href: data-classification-pub-preview-relnotes.md
         - name: Introdução aos classificadores de treinamento (visualização)
           href: classifier-getting-started-with.md
-        - name: Usando um classificador pronto para uso (visualização)
+        - name: Usando um classificador interno (visualização)
           href: classifier-using-a-ready-to-use-classifier.md
         - name: Criando e treinando um classificador (visualização)
           href: classifier-creating-a-trainable-classifier.md

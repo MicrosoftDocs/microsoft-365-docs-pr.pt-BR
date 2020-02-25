@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 83a4b7b52508002ad9bc5c27e1ebf68677808444
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0bbcef72fa305819c9f8e0813cfcdfd6c2b0fff3
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087930"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234720"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Busca por ameaças em dispositivos e emails
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 A [Busca avançada](advanced-hunting-overview.md) da Proteção contra Ameaças da Microsoft permite procurar proativamente por ameaças em dispositivos Windows e emails do Office 365. Aqui estão alguns cenários de busca e exemplos de consultas que podem ajudá-lo a explorar como é possível criar consultas que abrangem dispositivos e emails.
 
