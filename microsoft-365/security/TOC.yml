@@ -20,7 +20,7 @@
               href: ./office-365-security/ciso-workshop-module-4b.md
             - name: Módulo 5 - Proteção de informações
               href: ./office-365-security/ciso-workshop-module-5.md
-    - name: Configurações de identidade e de acesso ao dispositivo
+    - name: Identidade e configurações de acesso ao dispositivo
       href: ../enterprise/microsoft-365-policies-configurations.md
       items:
         - name: Trabalho de pré-requisito
@@ -41,13 +41,13 @@
           items:
             - name: O que é a Proteção contra Ameaças da Microsoft?
               href: mtp/microsoft-threat-protection.md
-            - name: O que há de novo no Microsoft Threat Protection
+            - name: Novidades da Proteção contra Ameaças da Microsoft
               href: mtp/whats-new.md
             - name: Centro de segurança do Microsoft 365
               href: mtp/overview-security-center.md
             - name: Pré-requisitos
               href: mtp/prerequisites.md
-            - name: Segurança e privacidade dos dados
+            - name: Segurança e privacidade de dados
               href: mtp/data-privacy.md
             - name: Solucionar problemas
               href: ./mtp/troubleshoot.md
@@ -71,25 +71,25 @@
                   href: mtp/mtp-autoir.md
                 - name: Ações de correção
                   href: mtp/mtp-remediation-actions.md
-                - name: A central de ações
+                - name: A Central de Ações
                   href: mtp/mtp-action-center.md
-                - name: Exibir resultados e detalhes da investigação automatizada
+                - name: Exibir detalhes e resultados de investigação automatizada
                   href: mtp/mtp-autoir-results.md
                 - name: Aprovar ou rejeitar ações pendentes
                   href: mtp/mtp-autoir-actions.md
-                - name: Relatar falsos positivos/negativos
+                - name: Relatório falso positivo/negativos
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Busca avançada
               items:
                 - name: Procurando no Microsoft 365
                   href: mtp/hunting.md
-                - name: Visão geral da busca avançada
+                - name: Visão geral da caça avançada
                   href: mtp/advanced-hunting-overview.md
                 - name: Aprender a linguagem de consulta
                   href: mtp/advanced-hunting-query-language.md
                 - name: Usar consultas compartilhadas
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Procurar dispositivos e emails
+                - name: Caça a dispositivos e emails
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Compreender o esquema
                   href: mtp/advanced-hunting-schema-tables.md
@@ -136,7 +136,7 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Classificação de Segurança (visualização)
                   href: mtp/microsoft-secure-score-preview.md
-                - name: O que está chegando
+                - name: O que estar por vir.
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Relatórios
               items:
@@ -150,9 +150,9 @@
                   href: mtp/monitor-devices.md
                 - name: Monitoramento e relatório de aplicativo
                   href: mtp/monitor-apps.md
-            - name: Configurações de & de permissões
+            - name: Configurações e permissões
               items:
-                - name: Gerenciar o acesso
+                - name: Gerenciar Acesso
                   href: mtp/mtp-permissions.md
                 - name: Definir fuso horário
                   href: mtp/mtp-time-zone.md
@@ -368,21 +368,21 @@
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Modos de exibição de campanha
               href: ./office-365-security/campaigns.md
-            - name: Noções básicas sobre ataques mais recentes à análise de ameaças
+            - name: Entender os ataques mais recentes com a análise de ameaças
               href: ./mtp/latest-attack-campaigns.md
             - name: Investigação e resposta automatizadas
               items:
                 - name: Visão geral do AIR
                   href: ./office-365-security/office-365-air.md
-                - name: Exibir resultados e detalhes da investigação automatizada
+                - name: Exibir detalhes e resultados de investigação automatizada
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: Aprovar ou rejeitar ações pendentes
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Integrar o AIR com uma solução personalizada ou solução de terceiros
+                - name: Integrar o AIR com uma solução personalizada ou uma solução de terceiros
                   href: ./office-365-security/air-custom-reporting.md
-            - name: Detectar e resolver rapidamente contas de usuário comprometidas
+            - name: Detectar e endereçar rapidamente contas comprometidas de usuários
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: Investigue e corrija emails mal-intencionados
+            - name: Investigar e corrigir emails mal-intencionados
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Exibir e ler relatórios de ATP
               href: ./office-365-security/view-reports-for-atp.md
@@ -407,7 +407,7 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Como a ATP funciona
               items:
-                - name: Como funciona a investigação e a resposta automatizadas
+                - name: Como funciona a Investigação e Resposta Automatizadas
                   href: ./office-365-security/automated-investigation-response-office.md
                 - name: Como funcionam os Links Seguros da ATP
                   href: ./office-365-security/how-atp-safe-links-works.md
@@ -446,7 +446,7 @@
                   href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
                 - name: Relatório de clientes de autenticação SMTP
                   href: ./office-365-security/mfi-smtp-auth-clients-report.md
-                - name: insight de correção de domínio do remetente
+                - name: Insight de correção de domínio do remetente
                   href: ./office-365-security/mfi-sender-domain-insight.md
                 - name: Notificação de falha na entrega
                   href: ./office-365-security/mfi-non-delivery-report.md
