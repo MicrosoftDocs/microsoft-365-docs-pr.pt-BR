@@ -1,5 +1,5 @@
 ---
-title: Investigação e resposta automatizadas do Office 365
+title: Investigação e resposta automatizadas (AIR) no Office 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -15,16 +15,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 7bfa07880a302f77769ee15e9108db21dac2519c
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 3a362f7d15a9cc8e1f5784ec03c8c04d3d77886d
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228558"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42262008"
 ---
-# <a name="office-365-automated-investigation-and-response"></a>Investigação e resposta automatizadas do Office 365
+# <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
 [Proteção avançada contra ameaças do Office 365](office-365-atp.md) O plano 2 inclui recursos avançados de investigação e resposta (AIR), que podem economizar tempo e esforço da equipe de operações de segurança. Quando determinados alertas são acionados, um ou mais guias estratégicos de segurança iniciam e o processo de investigação automatizado é iniciado. Isso permite que sua equipe de operações de segurança se concentre nas tarefas de alta prioridade sem perder a visão dos alertas disparados. 
+
+## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
 Em um nível alto, o fluxo de ar funciona da seguinte maneira:
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: fedd3a98ef176855c4831bbd055522c073c22d7b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: dd50e5d7291589d12261396aac62e4d07b06909f
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085681"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250421"
 ---
 # <a name="work-with-insights"></a>Trabalhar com insights
 
@@ -23,6 +23,10 @@ Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 - Quais aplicativos são mais usados e durante quais horários?
 - Quais aplicativos estão causando problemas ao travar ou desligar muito?
 - Como as operações de área de trabalho gerenciada da Microsoft atenuam ou resolvem esses problemas?
+- Quais aplicativos estão consumindo mais energia?
+- Qual é a vida prevista de meus dispositivos da bateria?
+- Qual é o status atual das atualizações de segurança em dispositivos?
+- Quanto tempo levava até 95% dos dispositivos para obter o atual com a atualização de segurança mais recente?
 
 Para acessar esses modos de exibição no centro de administração do Microsoft 365, selecione **Exibir detalhes** na área **relatórios** :
 
@@ -46,3 +50,9 @@ Saiba mais sobre o [insights de confiabilidade](reliability-insights.md).
 Este modo de exibição mostra informações sobre o consumo de energia de aplicativos e a vida útil da bateria projetada para dispositivos no seu ambiente. Para exibir essas informações, selecione a guia **bateria** .
 
 Saiba mais sobre o [insights da bateria](battery-insights.md).
+
+## <a name="windows-security-update-insights"></a>Informações de atualização de segurança do Windows
+
+Este modo de exibição mostra informações sobre o status das atualizações de segurança para os dispositivos de área de trabalho gerenciada da Microsoft. Para exibir essas informações, selecione a guia **udates de segurança do Windows** .
+
+Saiba mais sobre as [informações de atualização de segurança](security-update-insights.md).

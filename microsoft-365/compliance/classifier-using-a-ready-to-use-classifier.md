@@ -1,5 +1,5 @@
 ---
-title: Usando um classificador pronto para uso (visualização)
+title: Usando um classificador interno (visualização)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -13,15 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: A Microsoft 365 vem com uma série de para usar os classificadores de aprendizado de máquina que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores prontos para usar.
-ms.openlocfilehash: 8f3df8e7851bf453add162df4088e11dc7745cee
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
+ms.openlocfilehash: 2157e06da251b1f02b6a4623c573d350d838aff0
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078788"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266727"
 ---
-# <a name="using-a-ready-to-use-classifier-preview"></a>Usando um classificador pronto para uso (visualização)
+# <a name="using-a-built-in-classifier-preview"></a>Usando um classificador interno (visualização)
 
 A Microsoft treinou e testou vários classificadores usando conjuntos de dados de amostra muito grandes, que podem ajudar a identificar determinadas categorias de conteúdo. Confira introdução [aos classificadores estagiários (visualização)](classifier-getting-started-with.md). Esses classificadores aparecem no `Ready to use` grupo por padrão.
 
@@ -33,14 +33,14 @@ A Microsoft treinou e testou vários classificadores usando conjuntos de dados d
 - **Ameaça**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade,
 
 > [!NOTE]
-> Antes de usar os classificadores pronto para usar no seu fluxo de trabalho de classificação e rotular, você deve testá-lo em um exemplo de conteúdo da sua organização que você se sente que é a categoria para verificar se suas previsões de classificação atendem às suas expectativas.
+> Antes de usar classificadores internos em seu fluxo de trabalho de classificação e rotulação, você deve testá-lo em uma amostra do conteúdo da sua organização que você sente que se sinta à categoria para verificar se suas previsões de classificação atendem às suas expectativas.
 
 > [!IMPORTANT]
 > Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
 
-## <a name="how-to-prepare-for-and-use-a-ready-to-use-classifier"></a>Como preparar e usar um classificador pronto para usar
+## <a name="how-to-prepare-for-and-use-a-built-in-classifier"></a>Como preparar e usar um classificador interno
 
-1. Coletar itens de conteúdo de teste descartáveis que você sente que pertencem à categoria do classificador pronto para usar (correspondências positivas) e aqueles que não devem ser incluídos (correspondências negativas) na categoria que você está testando.
+1. Coletar itens de conteúdo de teste descartáveis que você sente que pertencem à categoria do classificador interno (correspondências positivas) e aqueles que não devem ser incluídos (correspondências negativas) na categoria que você está testando.
 
 > [!IMPORTANT]
 > Os itens de exemplo não devem ser criptografados e devem estar em inglês.
@@ -65,7 +65,7 @@ A Microsoft treinou e testou vários classificadores usando conjuntos de dados d
 
 10. Escolha seu classificador na lista, neste caso`Source Code`
 
-11. Nomeie a política, por exemplo, "código-fonte pronto para usar o teste do classificador".
+11. Nomeie a política, por exemplo, "teste de classificador interno de código-fonte".
 
 12. Escolha `Let me choose specific locations`.
 

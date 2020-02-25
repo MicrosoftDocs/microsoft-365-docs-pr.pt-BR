@@ -1,0 +1,275 @@
+---
+title: Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: overview
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+- GEA150
+ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
+description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra do Office 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
+ms.openlocfilehash: 22b4108db8ecff1af14706ceede746bec8743d54
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42237861"
+---
+# <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
+
+::: moniker range="o365-21vianet"
+
+ **Observação** Este artigo se aplica ao Office 365 operado pela 21Vianet na China. É para organizações que desejam permitir que um parceiro da 21Vianet administre sua assinatura do Office 365 para eles. 
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro para assessoria de assinaturas como parceiro de registro ao comprar o Office 365 ou em outra ocasião. Se você não estiver trabalhando com um parceiro no momento, você também pode encontrar um no site do [Microsoft Pinpoint](https://pinpoint.microsoft.com) . 
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+O parceiro escolhido depende dos serviços do Office 365 em uso e do país ou região onde você irá usar esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro para assessoria de assinaturas como parceiro de registro ao comprar o Office 365 ou em outra ocasião. Se você não estiver trabalhando com um parceiro no momento, você também pode encontrar um no site do [Microsoft Pinpoint](https://pinpoint.microsoft.com) . 
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+O parceiro escolhido depende dos serviços do Office 365 em uso e do país ou região onde você irá usar esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+Como administrador do Office 365, você pode criar ou editar usuários, redefinir senhas de usuário, gerenciar licenças de usuário, gerenciar domínios e atribuir permissões de administrador a outros usuários em sua organização, entre outras coisas. No entanto, se quiser que outra pessoa realize essas tarefas administrativas, você pode delegar essa função a um parceiro autorizado da 21Vianet criando um relacionamento de parceiro.
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+## <a name="add-a-partner-at-the-time-of-purchase"></a>Adicionar um parceiro na ocasião da compra
+
+> [!NOTE]
+> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
+
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
+    
+2. Selecione o produto que você deseja comprar e selecione **comprar**.
+  
+3. Para adicionar um novo parceiro, expanda **precisa de ajuda com seu pedido?** e selecione **obter assistência de um parceiro da Microsoft**.<br>
+Siga as etapas na página provedores para pesquisar ou para obter correspondência com um parceiro.
+    
+4. Se você já tiver um parceiro, na segunda etapa do assistente de check-out, no painel direito, em informações do parceiro, selecione **Adicionar**.
+
+5. Digite a ID de Parceiro Microsoft do parceiro que você está adicionando. Para obtê-la, contate o parceiro.
+
+6. Conclua o restante do assistente para finalizar a compra das suas assinaturas. 
+    
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+## <a name="add-a-partner-at-the-time-of-purchase"></a>Adicionar um parceiro na ocasião da compra
+
+1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041), vá para a página **serviços de compra** de **cobrança** \> .
+    
+2. Selecione o produto que você deseja comprar e selecione **comprar**.
+  
+3. Para adicionar um novo parceiro, expanda **precisa de ajuda com seu pedido?** e selecione **obter assistência de um parceiro da Microsoft**.<br>
+Siga as etapas na página provedores para pesquisar ou para obter correspondência com um parceiro.
+    
+4. Se você já tiver um parceiro, na segunda etapa do assistente de check-out, no painel direito, em informações do parceiro, selecione **Adicionar**.
+
+5. Digite a ID de Parceiro Microsoft do parceiro que você está adicionando. Para obtê-la, contate o parceiro.
+
+6. Conclua o restante do assistente para finalizar a compra das suas assinaturas. 
+    
+::: moniker-end
+
+
+## <a name="add-a-partner-to-an-existing-subscription"></a>Adicionar um parceiro a uma assinatura existente
+
+::: moniker range="o365-worldwide"
+
+> [!NOTE]
+> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+    
+2. Se você tiver mais de uma assinatura, selecione a assinatura que deseja editar.
+  
+3. Na página assinatura, selecione a guia **parceiro** e, em seguida, digite a ID de rede do parceiro para o parceiro que você está adicionando você pode obter a ID de parceiro da Microsoft do parceiro solicitando ao parceiro.
+    
+4. Selecione **Adicionar**.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+    
+2. Se você tiver mais de uma assinatura, selecione a assinatura que deseja editar.
+  
+3. À direita, sob o custo da assinatura, escolha **mais ações** > **Adicionar parceiro de registro**.
+
+4. Digite a ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
+
+5. A ID do parceiro é exibida na página **Assinaturas**.
+    
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+Esse processo é iniciado pelo seu parceiro autorizado. O parceiro envia um email para lhe perguntar se você deseja conceder permissão para atuar como um parceiro de registro. 
+  
+Para aceitar esta oferta
+  
+1. Leia os termos do parceiro no email.
+    
+2. Para autorizar o contrato, selecione o link, que vai para uma página de autorização no Office 365.
+    
+3. Em **relacionamentos de parceiros**, selecione **Sim** para autorizar o parceiro a ser o administrador delegado e, em seguida, selecione **Avançar**.
+    
+4. Se a oferta de parceria de parceiro vier com uma assinatura de avaliação ou uma oferta de compra, crie sua conta de avaliação ou assinatura.
+    
+::: moniker-end
+
+## <a name="change-the-partner-for-a-subscription"></a>Mudar de parceiro para uma assinatura
+
+::: moniker range="o365-worldwide"
+
+> [!NOTE]
+> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+    
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+  
+4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
+  
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+  
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+  
+4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.   
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+  
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+  
+4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.   
+
+::: moniker-end
+
+
+## <a name="view-your-partner-relationships"></a>Exibir suas relações de parceiros
+
+- No centro de administração, vá para a página Definições de<a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">parceiros</a> de **configurações** > . Seus parceiros estão listados nesta página. 
+  
+  Se você não tiver um parceiro, verá uma mensagem dizendo "não há nada aqui".
+  
+## <a name="delete-a-partner-from-a-subscription"></a>Excluir um parceiro de uma assinatura
+
+::: moniker range="o365-worldwide"
+
+> [!NOTE]
+> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
+
+1.  No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+    
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+    
+6. Na página **Informações do parceiro**, desmarque a caixa **ID de parceiro** e selecione **Enviar**.
+    
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+    
+6. Na página **Informações do parceiro**, desmarque a caixa **ID de parceiro** e selecione **Enviar**. 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+
+2. Se você tiver várias assinaturas, selecione o nome da assinatura que deseja editar.
+    
+3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
+    
+6. Na página **Informações do parceiro**, desmarque a caixa **ID de parceiro** e selecione **Enviar**.
+
+::: moniker-end
+
+  
+## <a name="remove-a-reseller-relationship"></a>Remover um relacionamento de revendedor
+
+::: moniker range="o365-worldwide"
+
+Você não pode remover uma relação de revendedor.
+  
+Se você estiver removendo um relacionamento de revendedor, a opção **excluir** estará acinzentada, e você precisará solicitar que seu parceiro de revendedor siga estas instruções: [remover um relacionamento de revendedor com parceiro](https://docs.microsoft.com/partner-center/remove-a-relationship).
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+Você não pode remover uma relação de revendedor.
+  
+Se você estiver removendo um relacionamento de revendedor, a opção **excluir** estará acinzentada, e você precisará solicitar que seu parceiro de revendedor siga estas instruções: [remover um relacionamento de revendedor com parceiro](https://docs.microsoft.com/partner-center/remove-a-relationship).
+  
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+Você não pode remover uma relação de revendedor.
+  
+Se você estiver removendo um relacionamento de revendedor, a opção **excluir** estará acinzentada, e você precisará solicitar que seu parceiro de revendedor siga estas instruções: [remover um relacionamento de revendedor com parceiro](https://docs.microsoft.com/partner-center/remove-a-relationship).
+  
+::: moniker-end
+
+## <a name="related-articles"></a>Artigos relacionados
+
+[Encontre seu parceiro ou revendedor do Office 365](../manage/find-your-partner-or-reseller.md)

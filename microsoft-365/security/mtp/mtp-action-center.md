@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 05356cb9ef17d8c8355896e76185ff9498882069
-ms.sourcegitcommit: ff2f521afdd60a16b2db8ff77b537f345c0e0f7e
+ms.openlocfilehash: a8f4cd9d3b970d6216e05fa6ff78699558c82600
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42219172"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42262018"
 ---
-# <a name="go-to-the-action-center-to-view-remediation-actions"></a>Vá para a Central de ações para exibir as ações de correção
+# <a name="the-action-center"></a>A central de ações
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
+Use a Central de ações para ver os resultados de investigações atuais e anteriores nos dispositivos e caixas de correio da sua organização. Dependendo do tipo de ameaça e veredicto resultante, as [ações de correção](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
 
 ![Central de Ações](../../media/air-actioncenter.png)
 
-Use a Central de ações para ver os resultados de investigações atuais e anteriores nos dispositivos e caixas de correio da sua organização. Dependendo do tipo de ameaça e [veredito resultante](mtp-autoir-results.md#remediation-actions-following-automated-investigation), as ações de correção ocorrem automaticamente ou mediante aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
+## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
 
 A Central de ações fornece uma experiência de "painel único" para tarefas, como:
 - Aprovar ações de correção pendentes;
@@ -63,7 +63,6 @@ Sua equipe de operações de segurança pode operar de maneira mais eficaz e efi
 
     - Se a investigação envolve um dispositivo, detalhes de investigação abrirão na central de segurança ([https://security.microsoft.com](https://security.microsoft.com)). 
 
-
 > [!TIP]
 > Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
 
@@ -82,6 +81,8 @@ Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter
 ## <a name="next-steps"></a>Próximas etapas 
 
 - [Saiba mais sobre incidentes em Proteção contra Ameaças da Microsoft](incidents-overview.md)
+
 - [Exibir os resultados de uma investigação automatizada](mtp-autoir-results.md)
+
 - [Saiba mais sobre a caça na Proteção contra Ameaças da Microsoft](advanced-hunting-overview.md)
 

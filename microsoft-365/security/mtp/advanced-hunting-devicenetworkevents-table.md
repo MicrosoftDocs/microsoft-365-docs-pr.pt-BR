@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 43110a119e8a38cd893a4a5cba41467fa39d7825
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2e7999fef43adb372947d9edf92b84ac67f347fe
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600418"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235000"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 A `DeviceNetworkEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre conexões de rede e eventos relacionados. Use essa referência para criar consultas que retornam informações dessa tabela.
 
@@ -38,34 +38,34 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `ActionType` | string | Tipo de atividade que disparou o evento |
 | `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
 | `RemotePort` | int | Porta TCP no dispositivo remoto que estava sendo conectado ao |
-| `RemoteUrl` | string | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
+| `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `LocalIP` | cadeia de caracteres | Endereço IP atribuído ao computador local usado durante a comunicação |
 | `LocalPort` | int | Porta TCP no computador local usado durante a comunicação |
-| `Protocol` | string | Protocolo IP usado, se TCP ou UDP |
-| `LocalIPType` | string | Tipo de endereço IP, por exemplo público, privado, reservado, auto-retorno, Teredo, FourToSixMapping e transmissão |
-| `RemoteIPType` | string | Tipo de endereço IP, por exemplo público, privado, reservado, auto-retorno, Teredo, FourToSixMapping e transmissão |
-| `InitiatingProcessSHA1` | string | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
+| `Protocol` | cadeia de caracteres | Protocolo IP usado, se TCP ou UDP |
+| `LocalIPType` | cadeia de caracteres | Tipo de endereço IP, por exemplo público, privado, reservado, auto-retorno, Teredo, FourToSixMapping e transmissão |
+| `RemoteIPType` | cadeia de caracteres | Tipo de endereço IP, por exemplo público, privado, reservado, auto-retorno, Teredo, FourToSixMapping e transmissão |
+| `InitiatingProcessSHA1` | cadeia de caracteres | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessMD5` | cadeia de caracteres | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessFileName` | cadeia de caracteres | Nome do processo que iniciou o evento |
 | `InitiatingProcessId` | int | ID de processo (PID) do processo que iniciou o evento |
-| `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
+| `InitiatingProcessCommandLine` | cadeia de caracteres | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
-| `InitiatingProcessFolderPath` | string | Pasta que contém o processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessParentFileName` | string | Nome do processo pai que gerou o processo responsável pelo evento |
+| `InitiatingProcessFolderPath` | cadeia de caracteres | Pasta que contém o processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessParentFileName` | cadeia de caracteres | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentId` | int | ID de processo (PID) do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
-| `InitiatingProcessAccountDomain` | string | Domínio da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountName` | string | Nome de usuário da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se foram iniciados a partir de um download da Internet. Estes níveis de integridade influenciam permissões para recursos |
-| `InitiatingProcessTokenElevation` | string | Tipo de token que indica a presença ou ausência de elevação de privilégio do controle de acesso do usuário (UAC) aplicada ao processo que iniciou o evento |
+| `InitiatingProcessAccountDomain` | cadeia de caracteres | Domínio da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessAccountName` | cadeia de caracteres | Nome de usuário da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessAccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se foram iniciados a partir de um download da Internet. Estes níveis de integridade influenciam permissões para recursos |
+| `InitiatingProcessTokenElevation` | cadeia de caracteres | Tipo de token que indica a presença ou ausência de elevação de privilégio do controle de acesso do usuário (UAC) aplicada ao processo que iniciou o evento |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
-| `AppGuardContainerId` | string | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
+| `AppGuardContainerId` | cadeia de caracteres | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Buscar proativamente por ameaças](advanced-hunting-overview.md)

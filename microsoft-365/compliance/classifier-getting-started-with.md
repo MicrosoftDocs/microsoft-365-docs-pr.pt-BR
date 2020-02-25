@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 75cf79e162c2e371821b4329fc1be949f0b3a81c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7ebd991fe70401b91c14673bcff8aabbdabbda6a
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078798"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266873"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -44,6 +44,8 @@ Os rótulos de confidencialidade e retenção podem ser automaticamente aplicado
 
 Esse método de classificação é especialmente adequado ao conteúdo que não é facilmente identificado pelos métodos de correspondência de padrões manuais ou automatizados. Esse método de classificação é mais sobre o treinamento de um classificador para identificar um item com base no que o item é, não por elementos que estão no item (correspondência de padrão). Um classificador aprende como identificar um tipo de conteúdo observando centenas de exemplos do conteúdo que você está interessado em classificar. Comece por alimentar exemplos de ti que são definitivamente na categoria. Depois de processar esses, você o testará dando um mix de exemplos de correspondência e de não correspondência. Em seguida, o classificador faz previsões como se um determinado item está na categoria que você está criando. Em seguida, você confirma seus resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão de suas previsões. Quando você publica o classificador treinado, ele classifica itens em locais como o SharePoint Online, o Exchange e o OneDrive e classifica o conteúdo.
 
+<!-- add link in the below note to sensitivity label topic when carolb provides -->
+
 > [!IMPORTANT]
 > Os dois tipos de classificadores estão disponíveis como uma condição para [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e [conformidade de comunicação](communication-compliance.md).
 
@@ -56,14 +58,14 @@ Os classificadores estagiários são um recurso de conformidade do Microsoft 365
 
 ## <a name="types-of-classifiers"></a>Tipos de classificadores
 
-Há pronto para usar classificadores e classificadores estagiários. Obter um classificador treinado para um estado de publicação requer um investimento de tempo para treiná-lo. Para ajudá-lo a começar a usar classificadores, a Microsoft 365 vem com alguns classificadores prontos para usar.
+Há classificadores internos e classificadores estagiários. Obter um classificador treinado para um estado de publicação requer um investimento de tempo para treiná-lo. Para ajudá-lo a começar a usar classificadores, a Microsoft 365 vem com alguns classificadores internos.
 
 > [!NOTE]
-> Antes de usar qualquer classificador para usar em seu fluxo de trabalho de classificação e rotular, você deve testá-lo em uma amostra do conteúdo da sua organização que você deseja que se sinta à categoria para verificar se suas previsões de classificação atendem às suas expectativas.
+> Antes de usar um classificador interno em seu fluxo de trabalho de classificação e rotulação, você deve testá-lo em uma amostra do conteúdo da sua organização que você deseja que se sinta à categoria para verificar se suas previsões de classificação atendem às suas expectativas.
 
-### <a name="understanding-ready-to-use-classifiers"></a>Noções básicas sobre os classificadores prontos para usar
+### <a name="understanding-built-in-classifiers"></a>Noções básicas sobre classificadores internos
 
-A Microsoft 365 vem com seis classificadores prontos para usar:
+A Microsoft 365 vem com seis classificadores internos:
 
 - **Linguagem ofensiva**: detecta itens de texto que contêm obscenidades, slurs, taunts e expressões disfarçadas (que são expressões que têm o mesmo significado de um termo mais ofensivo).
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato.
@@ -79,15 +81,15 @@ Eles aparecem no modo de exibição de classificação de dados do **Centro** > 
 > [!IMPORTANT]
 > Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo.  Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
 
-#### <a name="process-flow-for-using-ready-to-use-classifiers"></a>Fluxo do processo para usar classificadores prontos para usar
+#### <a name="process-flow-for-using-built-in-classifiers"></a>Fluxo do processo para usar classificadores internos
 
-Os classificadores prontos para usar não precisam ser treinados, mas você precisa confirmar que eles identificarão os tipos de conteúdo para os quais você precisa antes de usá-los em soluções de conformidade. O teste de um classificador treinado segue esse fluxo.
+Classificadores internos não precisam ser treinados, mas você precisa confirmar que eles identificarão os tipos de conteúdo que você precisa para antes de usá-los em soluções de conformidade. O teste de um classificador treinado segue esse fluxo.
 
 ![processo de teste de fluxo um classificador pré-treinado](../media/classifier-pre-trained-classifier-flow.png)
 
 ### <a name="understanding-trainable-classifiers"></a>Noções básicas sobre classificadores estagiários
 
-Quando os classificadores prontos para usar não atendem às suas necessidades, você pode criar e treinar seus próprios classificadores. Há muito mais trabalho envolvido na criação de suas próprias, mas eles serão muito mais adequados às suas necessidades de organizações. Para obter mais detalhes sobre como usar um classificador pré-treinado, consulte [usando um classificador pronto para usar](classifier-using-a-ready-to-use-classifier.md)
+Quando os classificadores internos não atendem às suas necessidades, você pode criar e treinar seus próprios classificadores. Há muito mais trabalho envolvido na criação de suas próprias, mas eles serão muito mais adequados às suas necessidades de organizações. Para obter mais detalhes sobre como usar um classificador pré-treinado, consulte [usando um classificador interno](classifier-using-a-ready-to-use-classifier.md)
 
 > [!IMPORTANT]
 > Somente o usuário que cria um classificador treinado pode treinar e revisar previsões feitas por esse classificador.
