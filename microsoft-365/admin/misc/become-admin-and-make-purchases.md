@@ -1,0 +1,94 @@
+---
+title: Tornar-se o administrador e comprar o Office 365 para sua organização
+f1.keywords:
+- NOCSH
+ms.author: pebaum
+author: pebaum
+manager: mnirkhe
+ms.date: 2/14/2018
+audience: Admin
+ms.topic: get-started-article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+search.appverid:
+- MET150
+- MOE150
+ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
+description: 'Saiba como se tornar o administrador e obter a assinatura do Office 365 para sua organização. '
+ms.openlocfilehash: 6fd85f79b32d0a51a5069cfbb55ca58e7cdb1b36
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42251441"
+---
+# <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a><span data-ttu-id="b9fff-103">Tornar-se o administrador e comprar o Office 365 para sua organização</span><span class="sxs-lookup"><span data-stu-id="b9fff-103">Become the admin and purchase Office 365 for your organization</span></span>
+
+<span data-ttu-id="b9fff-104">A Microsoft facilita para as pessoas da sua organização se inscreverem e usarem ferramentas de produtividade e serviços sem terem que esperar que o departamento de TI faça a implantação formal.</span><span class="sxs-lookup"><span data-stu-id="b9fff-104">Microsoft makes it simple for people in your organization to sign up and use productivity tools and services without waiting for formal deployment by your IT department.</span></span>
+  
+<span data-ttu-id="b9fff-p101">Sua organização pode permitir que as pessoas continuem a usar esses serviços "como são". Mas, se as pessoas se inscreveram para o Reuniões do Skype como um desses serviços, você pode destacar um administrador para atualizar e obter uma solução de reunião mais completa com o Skype for Business e os aplicativos do Office, espaço de armazenamento e compartilhamento, e muito mais.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p101">Your organization can let people continue to use these services "as is." But if people signed up for Skype Meetings as one of those services, you can assign an admin to upgrade and get a more complete meeting solution with Skype for Business and Office applications, file storage and sharing, and more.</span></span>
+  
+## <a name="why-become-the-admin-and-buy-office-365-for-your-organization"></a><span data-ttu-id="b9fff-107">Por que tornar-se administrador e comprar o Office 365 para sua organização?</span><span class="sxs-lookup"><span data-stu-id="b9fff-107">Why become the admin and buy Office 365 for your organization?</span></span>
+
+<span data-ttu-id="b9fff-p102">Quando um funcionário se inscreve para o Reuniões do Skype com uma conta corporativa, ele não pode gerenciar o serviço. E ele recebe somente os recursos mais básicos: reuniões ilimitadas, mas apenas com no máximo dez participantes (após 60 dias, o número máximo de participantes é três).</span><span class="sxs-lookup"><span data-stu-id="b9fff-p102">When an employee signs up for Skype Meetings with their work account, they can't manage the service. And they get only the most basic features: they can have unlimited meetings but only with 10 or fewer participants (after 60 days, the maximum participants is three people).</span></span> 
+  
+<span data-ttu-id="b9fff-p103">Quando você configura um administrador para o serviço e compra o Office 365 para seus usuários, eles recebem recursos mais avançados. E você obtém a capacidade de gerenciar os serviços, permitindo impor políticas e adicionar novos usuários.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p103">When you set up an admin for the service and buy Office 365 for your users, they get more advanced features. And you get the ability to manage the services, so you can enforce policies and add new users.</span></span>
+  
+<span data-ttu-id="b9fff-112">Como bônus, você obtém suporte por telefone 24 horas por dia, sete dias por semana.</span><span class="sxs-lookup"><span data-stu-id="b9fff-112">As a bonus, you get 24/7 phone support.</span></span>
+  
+## <a name="how-to-become-the-admin"></a><span data-ttu-id="b9fff-113">Como se tornar o administrador</span><span class="sxs-lookup"><span data-stu-id="b9fff-113">How to become the admin</span></span>
+
+<span data-ttu-id="b9fff-p104">Para se tornar o administrador, comprove ser o proprietário do domínio com o qual as pessoas se inscreveram (como contoso.com). Em seguida, atualize para o Office 365 para todos os usuários da empresa que já estejam usando o Reuniões do Skype. Um assistente de instalação orienta você pelas etapas.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p104">To become the admin, you'll first prove that you own the domain that people signed up with (like contoso.com). Then you'll upgrade to Office 365 for everyone in the company who is already using Skype Meetings. A wizard walks you through the steps.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="b9fff-p105">Tornar-se o administrador e atualizar para o Office 365 fazem parte do mesmo processo. Você não pode atualizar sem primeiro se tornar administrador, e não é possível gerenciar serviços como administrador, a menos que você também atualize para o Office 365.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p105">Becoming the admin and upgrading to Office 365 are part of the same process. You can't upgrade without first becoming the admin, and you can't manage the services as an admin unless you also upgrade to Office 365.</span></span> 
+  
+ <span data-ttu-id="b9fff-119">**Por que pedimos para você provar que é o proprietário do domínio?**</span><span class="sxs-lookup"><span data-stu-id="b9fff-119">**Why do we ask you to prove that you own the domain?**</span></span> <span data-ttu-id="b9fff-120">Porque todos os usuários que se inscrevem com um endereço de email no mesmo domínio (digamos, diogo@contoso.com e sara@contoso.com) estão agrupados pelo nome de domínio.</span><span class="sxs-lookup"><span data-stu-id="b9fff-120">Because everyone who signs up with an email address on the same domain (say, rob@contoso.com and sara@contoso.com) is grouped together by the domain name.</span></span> <span data-ttu-id="b9fff-121">Decidimos que grupo cada pessoa pertence à parte de domínio de seus endereços de email (como contoso.com), para que as pessoas da mesma organização possam trabalhar em conjunto.</span><span class="sxs-lookup"><span data-stu-id="b9fff-121">We decide what group each person belongs to by the domain portion of their email addresses (like contoso.com), so people from the same organization can work together.</span></span> <span data-ttu-id="b9fff-122">Como pertencem ao mesmo grupo, podem colaborar entre si.</span><span class="sxs-lookup"><span data-stu-id="b9fff-122">Because they belong to the same group, they can collaborate with each other.</span></span>
+  
+<span data-ttu-id="b9fff-p107">Para se tornar o administrador do grupo, verifique se você é o proprietário do domínio no qual todos em sua organização estão agrupados. Se você tem autoridade para comprovar a propriedade do domínio (ao entrar onde o domínio é gerenciado), faz sentido que você possa gerenciar os serviços do Office 365 para as pessoas que usam esse domínio.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p107">To become the admin for the group, you verify that you own the domain that everyone in your organization is grouped under. If you have the authority to prove domain ownership (by signing in where the domain is managed), it makes sense that you can manage Office 365 services for people using that domain.</span></span>
+  
+<span data-ttu-id="b9fff-125">Depois de se tornar o administrador, você poderá adicionar novos usuários ou impor políticas, se desejar.</span><span class="sxs-lookup"><span data-stu-id="b9fff-125">After you become the admin, you can also add new users or enforce policies, if you like.</span></span>
+  
+## <a name="overview-of-the-steps"></a><span data-ttu-id="b9fff-126">Visão geral das etapas</span><span class="sxs-lookup"><span data-stu-id="b9fff-126">Overview of the steps</span></span>
+
+![Visão geral das fases envolvidas para se tornar um administrador e comprar o Office 365.](../media/1ee46aff-dccb-4bfd-abb3-811a616009af.png)
+  
+<span data-ttu-id="b9fff-128">Um assistente orienta você ao longo do processo, mas aqui está um resumo de cada etapa.</span><span class="sxs-lookup"><span data-stu-id="b9fff-128">A wizard guides you through the process, but here's a summary of each step.</span></span>
+  
+|||
+|:-----|:-----|
+|![Number one in a pink circle](../media/a4da261d-2516-48c5-b58a-9c452b9086b8.png)|<span data-ttu-id="b9fff-130">**Inscrever-se** Antes de se tornar o administrador, você já deverá estar conectado no Reuniões do Skype com seu endereço de email corporativo.</span><span class="sxs-lookup"><span data-stu-id="b9fff-130">**Sign up** Before you can become the admin, you must already be signed up for Skype Meetings with your work email address.</span></span>  <br/> |
+|![Number two in a pink circle.](../media/de3c1ab4-4f01-4026-b1ba-3265bdb32a89.png)|<span data-ttu-id="b9fff-132">**Executar o assistente** Depois de se inscrever, execute o assistente seguindo um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="b9fff-132">**Run the wizard** After you've signed up, run the wizard by doing one of the following:</span></span>  <br/>  <span data-ttu-id="b9fff-133">Execute o assistente **tornar-se o administrador** que aparece depois de selecionar **administrador** no inicializador de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="b9fff-133">Run the **Become the admin** wizard that appears after selecting **Admin** in the app launcher .</span></span>  <br/>  <span data-ttu-id="b9fff-134">OU</span><span class="sxs-lookup"><span data-stu-id="b9fff-134">OR</span></span>  <br/>  <span data-ttu-id="b9fff-135">Escolha **atualizar para o Office 365** em reuniões do Skype e selecione a assinatura do Office 365 para a qual você deseja atualizar.</span><span class="sxs-lookup"><span data-stu-id="b9fff-135">Choose to **Upgrade to Office 365** in Skype Meetings, and then select the Office 365 subscription you want to upgrade to.</span></span>  <br/> |
+|![Number three in a pink circle.](../media/60fa378c-6ac1-4cbd-a782-2fa7ca619dc6.png)|<span data-ttu-id="b9fff-p108">**Confirmar a propriedade do domínio** Em seguida, você verificará junto ao Office 365 que você possui ou gerencia o nome de domínio (por exemplo, contoso.com) que está associado aos endereços de email da sua organização. Somente o proprietário do nome do domínio tem autoridade para fazer isso.  </span><span class="sxs-lookup"><span data-stu-id="b9fff-p108">**Verify domain ownership** Next, you'll verify to Office 365 that you own or manage the domain name (like contoso.com) that's associated with your organization's email addresses. Only the owner of the domain name has the authority to do this.  </span></span><br/> |
+|![Number 4 in a pink circle.](../media/1a0ff2ce-0942-405a-94e3-9bfeb1e5059e.png)|<span data-ttu-id="b9fff-140">**Comprar licenças** Na última etapa do assistente, você comprará licenças do Office 365 para cada pessoa em sua organização que se inscreveu para o Reuniões do Skype com os próprios emails corporativos.</span><span class="sxs-lookup"><span data-stu-id="b9fff-140">**Buy licenses** In the last step in the wizard, you'll buy Office 365 licenses for each person within your organization who's signed up for Skype Meetings with their work email.</span></span>  <br/> <span data-ttu-id="b9fff-141">Por exemplo, se dois usuários se inscreveram para o Reuniões do Skype com os emails corporativos deles, você precisará comprar duas licenças, uma para cada.</span><span class="sxs-lookup"><span data-stu-id="b9fff-141">For example, if two users have signed up for Skype Meetings with their work email, you'll need to buy two licenses—one for each of them.</span></span>  <br/> <span data-ttu-id="b9fff-142">> [!NOTE]> Você não poderá gerenciar o Office 365 enquanto não comprar as licenças.</span><span class="sxs-lookup"><span data-stu-id="b9fff-142">> [!NOTE]> You can't manage Office 365 until after you've bought the licenses.</span></span>           |
+
+## <a name="your-office-365-subscription"></a><span data-ttu-id="b9fff-143">Sua assinatura do Office 365</span><span class="sxs-lookup"><span data-stu-id="b9fff-143">Your Office 365 subscription</span></span>
+
+<span data-ttu-id="b9fff-p109">Depois de verificar o domínio e ter comprado as licenças, sua organização será atualizada para o Office 365. Isso também transfere (para a assinatura paga) as configurações pessoais da assinatura de Reuniões do Skype em uso pelos usuários individuais.</span><span class="sxs-lookup"><span data-stu-id="b9fff-p109">After you've verified the domain and bought licenses, your organization is upgraded to Office 365. This also transfers (to the paid subscription) the personal settings from the Skype Meetings subscription that individual users were using.</span></span>
+  
+<span data-ttu-id="b9fff-146">A assinatura do Office 365 para a qual sua organização será atualizada depende de qual assistente foi usado:</span><span class="sxs-lookup"><span data-stu-id="b9fff-146">The Office 365 subscription that your organization is upgraded to depends on which wizard you used:</span></span>
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="b9fff-147">**Como o assistente foi iniciado**</span><span class="sxs-lookup"><span data-stu-id="b9fff-147">**How the wizard was launched**</span></span> <br/> |<span data-ttu-id="b9fff-148">**Opções de assinatura**</span><span class="sxs-lookup"><span data-stu-id="b9fff-148">**Subscription options**</span></span> <br/> |
+|<span data-ttu-id="b9fff-149">Usando o bloco Administrador no inicializador de aplicativos</span><span class="sxs-lookup"><span data-stu-id="b9fff-149">By using the Admin tile in the app launcher</span></span>  <br/> |<span data-ttu-id="b9fff-150">Office 365 Business Essentials</span><span class="sxs-lookup"><span data-stu-id="b9fff-150">Office 365 Business Essentials</span></span>  <br/> |
+|<span data-ttu-id="b9fff-151">Escolhendo **Atualizar para o Office 365** no Reuniões do Skype</span><span class="sxs-lookup"><span data-stu-id="b9fff-151">By choosing **Upgrade to Office 365** in Skype Meetings</span></span>  <br/> |<span data-ttu-id="b9fff-152">Office 365 Business Essentials ou Office 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="b9fff-152">Office 365 Business Essentials or Office 365 Business Premium</span></span>  <br/> |
+   
+## <a name="whats-next"></a><span data-ttu-id="b9fff-153">E agora?</span><span class="sxs-lookup"><span data-stu-id="b9fff-153">What's next?</span></span>
+
+<span data-ttu-id="b9fff-154">Agora que você é o administrador, convém fazer o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b9fff-154">Now that you're the admin, you may want to do the following:</span></span>
+  
+|<span data-ttu-id="b9fff-155">\*\*\*\*Tarefa\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="b9fff-155">\*\*\*\*Task\*\*\*\*</span></span>|<span data-ttu-id="b9fff-156">\*\*\*\*Detalhes\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="b9fff-156">\*\*\*\*Details\*\*\*\*</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="b9fff-157">Adicionar ou remover licenças</span><span class="sxs-lookup"><span data-stu-id="b9fff-157">Add or remove licenses</span></span>  <br/> |<span data-ttu-id="b9fff-158">Você pode [adicionar mais licenças](../../commerce/licenses/buy-licenses.md) para usuários que não estão usando o Office 365 ainda ou [remover licenças de usuários](../manage/remove-licenses-from-users.md) que não deseja usar a assinatura do Office 365 da sua organização.</span><span class="sxs-lookup"><span data-stu-id="b9fff-158">You can [add more licenses](../../commerce/licenses/buy-licenses.md) for users who aren't using Office 365 yet, or [remove licenses from users](../manage/remove-licenses-from-users.md) that you don't want using your organization's Office 365 subscription.</span></span>  <br/> |
+|<span data-ttu-id="b9fff-159">Entre em contato com outras pessoas que já se inscreveram</span><span class="sxs-lookup"><span data-stu-id="b9fff-159">Contact others who already signed up</span></span>  <br/> |<span data-ttu-id="b9fff-p110">Comunique-se com outros usuários e informe que você está gerenciando a assinatura do Office 365 e que ela foi atualizada. [Siga estas etapas](../add-users/add-users.md) para ver uma lista de **Usuários Ativos** e os endereços de email.  </span><span class="sxs-lookup"><span data-stu-id="b9fff-p110">Reach out to the other users and let them know that you're managing their Office 365 subscription and that they've been upgraded. [Follow these steps](../add-users/add-users.md) to see a list of **Active Users** and their email addresses.  </span></span><br/> |
+|<span data-ttu-id="b9fff-162">Começar a usar o Office 365</span><span class="sxs-lookup"><span data-stu-id="b9fff-162">Start using Office 365</span></span>  <br/> |<span data-ttu-id="b9fff-p111">Visite a [Central de informações do Office 365](https://support.office.com/learn/office365-for-business) e aprenda a entrar, verificar emails, compartilhar documentos e muito mais. Você e seus usuários podem usar este site para começar a usar o Office 365.  </span><span class="sxs-lookup"><span data-stu-id="b9fff-p111">Visit the [Office 365 Learning Center](https://support.office.com/learn/office365-for-business) and learn how to sign in, check email, share documents, and more. You and your users can use this site to get started with Office 365.  </span></span><br/> |
+|<span data-ttu-id="b9fff-165">Gerenciar a assinatura do Office 365</span><span class="sxs-lookup"><span data-stu-id="b9fff-165">Manage your Office 365 subscription</span></span>  <br/> |<span data-ttu-id="b9fff-166">Visite o [centro de ajuda de administração do Office 365](../admin-home.md) e aprenda tarefas administrativas comuns, como adicionar e remover usuários, redefinir senhas e configurar dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="b9fff-166">Visit [Office 365 Admin help center](../admin-home.md) and learn common administrative tasks like adding and removing users, resetting passwords, and setting up mobile devices.</span></span>  <br/> |
+
+## <a name="still-need-help"></a><span data-ttu-id="b9fff-167">Ainda precisa de ajuda?</span><span class="sxs-lookup"><span data-stu-id="b9fff-167">Still need help?</span></span>
+
+[<span data-ttu-id="b9fff-168">Chamar o suporte da Microsoft</span><span class="sxs-lookup"><span data-stu-id="b9fff-168">Call Microsoft support</span></span>](../contact-support-for-business-products.md)
