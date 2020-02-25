@@ -1,0 +1,70 @@
+---
+title: Diferença entre o assistente de instalação do Office 365 e a página de configuração
+f1.keywords:
+- NOCSH
+ms.author: v-sharos
+author: shars
+manager: mnirkhe
+audience: Admin
+ms.topic: get-started-article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+- Adm_O365_Setup
+search.appverid:
+- MET150
+- MOE150
+- BEA160
+description: Saiba a diferença entre o assistente de instalação do Office 365 e a página de configuração.
+ms.openlocfilehash: 3aecfc14071bda7948c24a2e161461558f8efd8d
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42251358"
+---
+# <a name="difference-between-the-office-365-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação do Office 365 e a página de configuração
+
+O Office 365 fornece duas experiências de instalação: 
+
+- Configuração inicial usando o assistente de configuração
+- Instalação contínua e avançada usando a página de **configuração**
+
+O assistente de configuração fornece uma orientação passo a passo para configurar a configuração básica do Office 365. Depois de concluir a configuração inicial, você pode ir para a página de **configuração** para concluir a configuração e configuração dos serviços que vêm com suas assinaturas.
+
+## <a name="use-the-setup-wizard-to-complete-initial-setup-tasks"></a>Usar o assistente de configuração para concluir as tarefas de configuração inicial
+
+Para configurar sua conta, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **configuração** no painel de navegação esquerdo e selecione **configuração interativa** na página **configuração** .
+
+![Iniciar o assistente de instalação comercial do Office 365](../media/o365b-guided-setup.png)
+
+O assistente de instalação orienta você durante as seguintes etapas:
+
+1. Instale os aplicativos do Office 365 em seu computador.
+
+2. Escolha e verifique seu domínio, como contoso.com.
+
+3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar os aplicativos do Office 365.
+
+4. Conecte seu domínio.
+
+## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>Use a página de configuração para concluir e gerenciar sua configuração
+
+Para acessar a página de **configuração** no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **Configurar** no painel de navegação. Com base em produtos que você comprou, os recursos que você configurou e sua função de administrador, tarefas e informações relacionadas de dentro do Office 365 são mostradas aqui.
+
+Você verá a lista completa das tarefas de configuração organizadas em categorias lógicas, incluindo as que você concluiu no assistente de configuração.
+
+![Página de instalação do Office 365 for Business](../media/o365b-setup-page.png)
+
+Escolha **Exibir** para qualquer tarefa para obter informações instantâneas, como descrição de tarefas, impacto do usuário, pré-requisitos, esforço para implementar e estatísticas de segurança e adoção para ajudá-lo a entender as conseqüências e o impacto antes de prosseguir.
+
+Você também verá o status da tarefa (**iniciado**, **não iniciado ainda**ou **concluído**). Se você estiver multitarefa, trabalhando em tarefas por vários dias ou se houver vários administradores trabalhando em tarefas, você poderá controlar a conclusão conferindo-se em uma rápida quais tarefas foram concluídas e quais ainda precisam de atenção. 
+
+Para acessar artigos abrangentes sobre os recursos que você está configurando, selecione qualquer um dos mais links de **saiba mais** . O conjunto de tarefas é sempre aqui, portanto, você pode retornar à página de **configuração** a qualquer momento para explorar os recursos.
+
+Quando estiver pronto para concluir uma tarefa, selecione **introdução** para percorrer o processo de configuração. Após concluir uma tarefa, o botão **introdução** é alterado para um botão **gerenciar** , permitindo que você gerencie a tarefa, conforme necessário.
+
+![Exibição de tarefa mostrando informações gerais](../media/o365b-at-a-glance.png)

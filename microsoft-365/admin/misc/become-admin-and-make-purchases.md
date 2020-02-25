@@ -1,0 +1,94 @@
+---
+title: Tornar-se o administrador e comprar o Office 365 para sua organização
+f1.keywords:
+- NOCSH
+ms.author: pebaum
+author: pebaum
+manager: mnirkhe
+ms.date: 2/14/2018
+audience: Admin
+ms.topic: get-started-article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+search.appverid:
+- MET150
+- MOE150
+ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
+description: 'Saiba como se tornar o administrador e obter a assinatura do Office 365 para sua organização. '
+ms.openlocfilehash: 6fd85f79b32d0a51a5069cfbb55ca58e7cdb1b36
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42251441"
+---
+# <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a>Tornar-se o administrador e comprar o Office 365 para sua organização
+
+A Microsoft facilita para as pessoas da sua organização se inscreverem e usarem ferramentas de produtividade e serviços sem terem que esperar que o departamento de TI faça a implantação formal.
+  
+Sua organização pode permitir que as pessoas continuem a usar esses serviços "como são". Mas, se as pessoas se inscreveram para o Reuniões do Skype como um desses serviços, você pode destacar um administrador para atualizar e obter uma solução de reunião mais completa com o Skype for Business e os aplicativos do Office, espaço de armazenamento e compartilhamento, e muito mais.
+  
+## <a name="why-become-the-admin-and-buy-office-365-for-your-organization"></a>Por que tornar-se administrador e comprar o Office 365 para sua organização?
+
+Quando um funcionário se inscreve para o Reuniões do Skype com uma conta corporativa, ele não pode gerenciar o serviço. E ele recebe somente os recursos mais básicos: reuniões ilimitadas, mas apenas com no máximo dez participantes (após 60 dias, o número máximo de participantes é três). 
+  
+Quando você configura um administrador para o serviço e compra o Office 365 para seus usuários, eles recebem recursos mais avançados. E você obtém a capacidade de gerenciar os serviços, permitindo impor políticas e adicionar novos usuários.
+  
+Como bônus, você obtém suporte por telefone 24 horas por dia, sete dias por semana.
+  
+## <a name="how-to-become-the-admin"></a>Como se tornar o administrador
+
+Para se tornar o administrador, comprove ser o proprietário do domínio com o qual as pessoas se inscreveram (como contoso.com). Em seguida, atualize para o Office 365 para todos os usuários da empresa que já estejam usando o Reuniões do Skype. Um assistente de instalação orienta você pelas etapas.
+  
+> [!NOTE]
+> Tornar-se o administrador e atualizar para o Office 365 fazem parte do mesmo processo. Você não pode atualizar sem primeiro se tornar administrador, e não é possível gerenciar serviços como administrador, a menos que você também atualize para o Office 365. 
+  
+ **Por que pedimos para você provar que é o proprietário do domínio?** Porque todos os usuários que se inscrevem com um endereço de email no mesmo domínio (digamos, diogo@contoso.com e sara@contoso.com) estão agrupados pelo nome de domínio. Decidimos que grupo cada pessoa pertence à parte de domínio de seus endereços de email (como contoso.com), para que as pessoas da mesma organização possam trabalhar em conjunto. Como pertencem ao mesmo grupo, podem colaborar entre si.
+  
+Para se tornar o administrador do grupo, verifique se você é o proprietário do domínio no qual todos em sua organização estão agrupados. Se você tem autoridade para comprovar a propriedade do domínio (ao entrar onde o domínio é gerenciado), faz sentido que você possa gerenciar os serviços do Office 365 para as pessoas que usam esse domínio.
+  
+Depois de se tornar o administrador, você poderá adicionar novos usuários ou impor políticas, se desejar.
+  
+## <a name="overview-of-the-steps"></a>Visão geral das etapas
+
+![Visão geral das fases envolvidas para se tornar um administrador e comprar o Office 365.](../media/1ee46aff-dccb-4bfd-abb3-811a616009af.png)
+  
+Um assistente orienta você ao longo do processo, mas aqui está um resumo de cada etapa.
+  
+|||
+|:-----|:-----|
+|![Number one in a pink circle](../media/a4da261d-2516-48c5-b58a-9c452b9086b8.png)|**Inscrever-se** Antes de se tornar o administrador, você já deverá estar conectado no Reuniões do Skype com seu endereço de email corporativo.  <br/> |
+|![Number two in a pink circle.](../media/de3c1ab4-4f01-4026-b1ba-3265bdb32a89.png)|**Executar o assistente** Depois de se inscrever, execute o assistente seguindo um destes procedimentos:  <br/>  Execute o assistente **tornar-se o administrador** que aparece depois de selecionar **administrador** no inicializador de aplicativos.  <br/>  OU  <br/>  Escolha **atualizar para o Office 365** em reuniões do Skype e selecione a assinatura do Office 365 para a qual você deseja atualizar.  <br/> |
+|![Number three in a pink circle.](../media/60fa378c-6ac1-4cbd-a782-2fa7ca619dc6.png)|**Confirmar a propriedade do domínio** Em seguida, você verificará junto ao Office 365 que você possui ou gerencia o nome de domínio (por exemplo, contoso.com) que está associado aos endereços de email da sua organização. Somente o proprietário do nome do domínio tem autoridade para fazer isso.  <br/> |
+|![Number 4 in a pink circle.](../media/1a0ff2ce-0942-405a-94e3-9bfeb1e5059e.png)|**Comprar licenças** Na última etapa do assistente, você comprará licenças do Office 365 para cada pessoa em sua organização que se inscreveu para o Reuniões do Skype com os próprios emails corporativos.  <br/> Por exemplo, se dois usuários se inscreveram para o Reuniões do Skype com os emails corporativos deles, você precisará comprar duas licenças, uma para cada.  <br/> > [!NOTE]> Você não poderá gerenciar o Office 365 enquanto não comprar as licenças.           |
+
+## <a name="your-office-365-subscription"></a>Sua assinatura do Office 365
+
+Depois de verificar o domínio e ter comprado as licenças, sua organização será atualizada para o Office 365. Isso também transfere (para a assinatura paga) as configurações pessoais da assinatura de Reuniões do Skype em uso pelos usuários individuais.
+  
+A assinatura do Office 365 para a qual sua organização será atualizada depende de qual assistente foi usado:
+  
+|||
+|:-----|:-----|
+|**Como o assistente foi iniciado** <br/> |**Opções de assinatura** <br/> |
+|Usando o bloco Administrador no inicializador de aplicativos  <br/> |Office 365 Business Essentials  <br/> |
+|Escolhendo **Atualizar para o Office 365** no Reuniões do Skype  <br/> |Office 365 Business Essentials ou Office 365 Business Premium  <br/> |
+   
+## <a name="whats-next"></a>E agora?
+
+Agora que você é o administrador, convém fazer o seguinte:
+  
+|****Tarefa****|****Detalhes****|
+|:-----|:-----|
+|Adicionar ou remover licenças  <br/> |Você pode [adicionar mais licenças](../../commerce/licenses/buy-licenses.md) para usuários que não estão usando o Office 365 ainda ou [remover licenças de usuários](../manage/remove-licenses-from-users.md) que não deseja usar a assinatura do Office 365 da sua organização.  <br/> |
+|Entre em contato com outras pessoas que já se inscreveram  <br/> |Comunique-se com outros usuários e informe que você está gerenciando a assinatura do Office 365 e que ela foi atualizada. [Siga estas etapas](../add-users/add-users.md) para ver uma lista de **Usuários Ativos** e os endereços de email.  <br/> |
+|Começar a usar o Office 365  <br/> |Visite a [Central de informações do Office 365](https://support.office.com/learn/office365-for-business) e aprenda a entrar, verificar emails, compartilhar documentos e muito mais. Você e seus usuários podem usar este site para começar a usar o Office 365.  <br/> |
+|Gerenciar a assinatura do Office 365  <br/> |Visite o [centro de ajuda de administração do Office 365](../admin-home.md) e aprenda tarefas administrativas comuns, como adicionar e remover usuários, redefinir senhas e configurar dispositivos móveis.  <br/> |
+
+## <a name="still-need-help"></a>Ainda precisa de ajuda?
+
+[Chamar o suporte da Microsoft](../contact-support-for-business-products.md)
