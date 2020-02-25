@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c3137c25de9f8fe941f62e5c53b1006c5009e222
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085701"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266087"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
 
@@ -59,12 +59,7 @@ Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você p
 
 ![Formulário de comentários](../../media/feedback_form.png)
 
-## <a name="provide-administrator-rights-to-specific-users"></a>Fornecer direitos de administrador a usuários específicos
 
-Ao trabalhar com a equipe de suporte, talvez seja necessário fornecer direitos de administrador local a um usuário em um dispositivo para ajudar na solução de problemas. Para fazer isso, você já deve ter direitos de administrador global ou de administrador de dispositivo no Microsoft Intune para sua própria conta. Siga uma destas etapas, dependendo da sua situação:
-
-- Se os seus usuários estiverem sincronizados a partir da conta do Active Directory local, execute a **rede local do .net/Add "Contoso\username"** em um prompt de comando com privilégios elevados.
-- Se os seus usuários forem criados no Azure Active Directory, execute a **rede local do .net/Add "AzureAD\UserUpn"** em um prompt de comando com privilégios elevados.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md). 

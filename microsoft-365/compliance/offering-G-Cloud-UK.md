@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 27f664f9657e88db1dab86f765be36458b4090d9
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602348"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236881"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
@@ -64,17 +64,17 @@ Para confirmar que os serviços de nuvem da Microsoft mantêm sua conformidade c
 
 ### <a name="dynamics-365"></a>Dynamics 365
 
-- [Ambiente de risco de nuvem do Dynamics 365 UK G](https://aka.ms/Dynamics365UKGCloudRiskEnvironment)
+- [Ambiente de risco de nuvem do Dynamics 365 UK G](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ### <a name="intune"></a>Intune
 
-- [Ambiente de risco da nuvem do Intune G no Reino Unido](https://aka.ms/IntuneUKGCloudRiskEnvironment)
+- [Ambiente de risco da nuvem do Intune G no Reino Unido](https://go.microsoft.com/fwlink/?linkid=2099702)
 - [Risco residual de nuvem do Intune G no Reino Unido](https://aka.ms/IntuneUKGCloudResidualRisk)
 - [Resumo de avaliação da segurança na nuvem do Azure UK G](https://aka.ms/IntuneUKGCloudSecurityAssessmentSummary)
 
 ### <a name="office-365"></a>Office 365
 
-- [Ambiente de risco de nuvem do Office 365 UK G](https://aka.ms/Office365UKGCloudRiskEnvironment)
+- [Ambiente de risco de nuvem do Office 365 UK G](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ## <a name="accelerate-your-deployment-of-uk-g-cloud-solutions-on-azure"></a>Acelere a implantação das soluções de nuvem G-Cloud no Azure
 
@@ -105,7 +105,7 @@ Além dos datacenters UK, os serviços de nuvem da Microsoft têm data centers e
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [Portal de Confiança de Serviços](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança do Serviço](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
 
 ## <a name="resources"></a>Recursos
 

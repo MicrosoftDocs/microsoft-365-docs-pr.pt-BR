@@ -1,5 +1,5 @@
 ---
-title: Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft
+title: Recursos de investigação e resposta automatizados no Microsoft Threat Protection
 description: Obter uma visão geral dos recursos de investigação e resposta automatizados na Proteção contra Ameaça da Microsoft
 keywords: automatizado, investigação, alerta, gatilho, ação, correção
 search.appverid: met150
@@ -18,23 +18,21 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: da7216aa94455a4b431e540b976f8a1662378a58
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f54ec3c0b318acaf6c81d26f32cfde5e87585a13
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600068"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261988"
 ---
-# <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Investigação e resposta automatizadas (AIR) na Proteção contra Ameaças da Microsoft
+# <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Recursos de investigação e resposta automatizados (AIR) na proteção contra ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+À medida que os alertas de segurança são disparados, cabe à sua equipe de operações de segurança examinar esses alertas e executar etapas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Os recursos de investigação e resposta automatizada (AIR) no Microsoft Threat Protection podem ajudar. O AIR é como ter um analista virtual em seu centro de operações de segurança.
 
 ## <a name="your-virtual-analyst"></a>Seu analista virtual
-
-À medida que os alertas de segurança são disparados, cabe à sua equipe de operações de segurança examinar esses alertas e executar etapas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. 
 
 Imagine ter um analista virtual em sua equipe de operações de segurança do Nível 1 / Nível 2. O analista virtual imita as etapas ideais que as operações de segurança poderiam executar para investigar e corrigir ameaças. O assistente virtual pode funcionar 24 horas e assumir uma carga significativa de investigações e correções de ameaças. Esse assistente virtual pode reduzir significativamente o tempo de resposta, liberando sua equipe de operações de segurança para outros projetos estratégicos importantes. Se esse cenário parece ficção científica, não é! Esse analista virtual faz parte do seu pacote de Proteção contra Ameaças da Microsoft e seu nome é *investigação e resposta automatizadas* (AIR).
 
@@ -73,6 +71,7 @@ Enquanto uma investigação está em execução, quaisquer outros alertas relaci
 |Requisitos de assinatura |-Microsoft 365 E5 ou Microsoft 365 E3 juntamente com Proteção contra Identidade e Ameaças<br/>- Confira [planos do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview#plans)|
 |Requisitos de rede |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) habilitado<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) (MCAS) configurado<br/>- [MCAS integrado ao Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Requisitos de máquina do Windows |- Windows 10, versão 1709 ou posterior instalado (Confira[Informações sobre a versão do Windows 10](https://docs.microsoft.com/windows/release-information/))<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) configurado <br/>- [Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) configurado |
+|Proteção para arquivos de conteúdo de email e do Office |[Proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) configurada |
 |Permissões |- Para *configurar* a AIR, você deve ter a função de **Administrador Global** ou **Administrador de Segurança**, atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)).<br/><br/>Para *usar* os recursos da AIR, confira [Permissões necessárias para as tarefas da Central de ações](mtp-action-center.md#required-permissions-for-action-center-tasks). |
 
 ## <a name="next-steps"></a>Próximas etapas

@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 63e07ffd58a7add7f7f72aad20b6389cd22d2ca7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de674da4230697e953c88d812b0edac8cb7904e5
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602748"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250471"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
 
@@ -23,7 +23,7 @@ ms.locfileid: "41602748"
 
 <!--Update management -->
 
-A área de trabalho gerenciada da Microsoft conecta todos os dispositivos a uma infraestrutura moderna baseada em nuvem. Manter atualizado o Windows, o Office, os drivers, o firmware e a Microsoft Store para aplicativos de negócios é um equilíbrio de velocidade e estabilidade. Os grupos de implantação serão usados para garantir que as atualizações e as políticas do sistema operacional sejam distribuídas de forma segura. 
+A área de trabalho gerenciada da Microsoft conecta todos os dispositivos a uma infraestrutura moderna baseada em nuvem. Manter atualizado o Windows, o Office, os drivers, o firmware e a Microsoft Store para aplicativos de negócios é um equilíbrio de velocidade e estabilidade. Os grupos de implantação serão usados para garantir que as atualizações e as políticas do sistema operacional sejam distribuídas de forma segura. Para saber mais sobre isso, confira o [processo de mudança e liberação da área de trabalho gerenciada da Microsoft em](https://www.microsoft.com/videoplayer/embed/RE4mWqP)vídeo.
 
 As atualizações lançadas pela Microsoft são cumulativas e são categorizadas como qualidade ou atualizações de recursos.
 Para obter mais informações, consulte [Windows Update for Business: Update Types](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb#update-types). 
