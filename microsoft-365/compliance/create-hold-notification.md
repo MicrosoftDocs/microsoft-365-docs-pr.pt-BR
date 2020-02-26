@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 3b047e9c3a56a6c03368c79c2c5a4622b396b6b0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Use a guia comunicações em um caso de descoberta eletrônica avançada para gerenciar o fluxo de trabalho de notificação do responsáveis.
+ms.openlocfilehash: b4d3c4c3ed132914ebe46b03eb65d24e073ee687
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077528"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280229"
 ---
 # <a name="create-a-legal-hold-notice"></a>Criar um aviso de retenção legal
 
@@ -33,18 +33,18 @@ O artigo descreve as etapas no fluxo de trabalho de notificação de retenção.
 
 ## <a name="step-1-specify-communication-details"></a>Etapa 1: especificar detalhes de comunicação
 
-A primeira etapa é especificar os detalhes apropriados para avisos de retenção legal ou outras comunicações do mesmo. 
+A primeira etapa é especificar os detalhes apropriados para avisos de retenção legal ou outras comunicações do mesmo.
 
 ![Página de comunicação de nome](../media/NameCommunication.PNG)
 
 1. No centro de conformidade de & de segurança, acesse **descoberta eletrônica avançada > eDiscovery** para exibir a lista de casos em sua organização.
-   
-2. Clique na guia **comunicações** e, em seguida, clique em **nova comunicação**.
-   
+
+2. Selecione um caso, clique na guia **comunicações** e, em seguida, clique em **nova comunicação**.
+
 3. Na página **comunicação de nome** , especifique os seguintes detalhes de comunicação (obrigatório).
 
     - **Name**: Este é o nome da comunicação.
-    
+
     - **Responsável pela emissão**: a lista suspensa exibe uma lista de membros de caso. Cada aviso enviado aos responsáveis será enviado em nome do responsável pela emissão especificado.
 
 4. Clique em **Avançar**.
@@ -68,7 +68,7 @@ Para criar o conteúdo do portal:
 
 ## <a name="step-3-set-the-required-notifications"></a>Etapa 3: definir as notificações necessárias
 
-Após definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho em torno do envio e gerenciamento do processo de notificação. Notificações são mensagens de email enviadas para notificação e acompanhamento de responsáveis. Todos os responsáveis adicionados à comunicação receberão a mesma notificação. 
+Após definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho em torno do envio e gerenciamento do processo de notificação. Notificações são mensagens de email enviadas para notificar e acompanhar os responsáveis. Todos os responsáveis adicionados à comunicação receberão a mesma notificação. 
 
 Para configurar e enviar um aviso de espera, você deve incluir notificações de emissão, reemissão e lançamento.
 
@@ -79,33 +79,33 @@ Depois que a comunicação é criada, a **notificação de emissão** é iniciad
 Para criar uma notificação de emissão:
 
 1. No bloco de **publicação** , clique em **Editar**.
-   
+
 2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
-   
+
 3. Especifique o **assunto** para o aviso (obrigatório).
-   
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). Observe que o conteúdo do portal definido na etapa 2 é adicionado ao final do aviso de emissão. 
-   
-5. Clique em **Salvar** 
 
-### <a name="re-issuance-notification"></a>Notificação de reemissão 
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de emissão. 
 
-Como o caso progride, os responsáveis podem ser necessários para preservar dados adicionais ou menos do que foram instruídos anteriormente. Depois de atualizar o conteúdo do aviso de espera, a notificação de reemissão alerta os responsáveis sobre as alterações às obrigações de preservação.
-
-Para criar uma notificação de reemissão: 
-
-1. No bloco **reemitir** , clique em **Editar**.
-   
-2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
-   
-3. Especifique o **assunto** para o aviso (obrigatório).
-   
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). Observe que o conteúdo do portal definido na etapa 2 é adicionado ao final do aviso de reemissão.
-   
 5. Clique em **Salvar**.
 
->[!Note]
->Se uma notificação de retenção for modificada, a notificação de reemissão será enviada automaticamente a todos os responsáveis atribuídos ao aviso. Após a notificação ser enviada, os responsáveis serão solicitados a reconfirmar seu aviso de isenção. Se você tiver configurado os fluxos de trabalho de lembretes ou de escalonamento, eles também serão reiniciados. 
+### <a name="re-issuance-notification"></a>Notificação de reemissão
+
+Como o caso progride, os responsáveis podem ser necessários para preservar dados adicionais ou menos do que foram instruídos anteriormente. Depois que você atualizar o conteúdo do portal, a notificação de reemissão será enviada e alertará os responsáveis por todas as suas obrigações de preservação.
+
+Para criar uma notificação de reemissão:
+
+1. No bloco **reemitir** , clique em **Editar**.
+
+2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
+
+3. Especifique o **assunto** para o aviso (obrigatório).
+
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de reemissão.
+
+5. Clique em **Salvar**.
+
+> [!NOTE]
+> Se o conteúdo do portal for modificado (na página **definir conteúdo do portal** no assistente **Editar comunicação** ), a notificação de reemissão será automaticamente enviada a todos os responsáveis atribuídos ao aviso. Após a notificação ser enviada, os responsáveis serão solicitados a reconfirmar seu aviso de isenção. Se você tiver configurado os fluxos de trabalho de lembretes ou de escalonamento, eles também serão reiniciados. Para obter mais informações sobre o que outros eventos de gerenciamento de caso disparam comunicações, consulte [eventos que disparam notificações](#events-that-trigger-notifications).
 
 ### <a name="release-notification"></a>Notificação de lançamento
 
@@ -114,14 +114,14 @@ Após uma questão ser resolvida ou se um usuário não está mais sujeito a pre
 Para criar uma notificação de lançamento: 
 
 1. No bloco de **versão** , clique em **Editar**.
-   
+
 2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
-   
+
 3. Especifique o **assunto** para o aviso (obrigatório).
-   
+
 4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório).
-   
-5. Clique em **salvar** e vá para a próxima etapa. 
+
+5. Clique em **salvar** e vá para a próxima etapa.
 
 ## <a name="optional-step-4-set-the-optional-notifications"></a>Opcion Etapa 4: definir as notificações opcionais
 
@@ -131,47 +131,47 @@ Opcionalmente, você pode simplificar o fluxo de trabalho para acompanhar os res
 
 ### <a name="reminders"></a>Lembretes
 
-Depois de enviar uma notificação de espera, você pode acompanhar os responsáveis por não responder, definindo um fluxo de trabalho de lembrete. 
+Depois de enviar uma notificação de espera, você pode acompanhar os responsáveis por não responder, definindo um fluxo de trabalho de lembrete.
 
 Para agendar lembretes:
 
 1. No bloco **lembrete** , clique em **Editar**.
-   
+
 2. Habilite o fluxo de trabalho de **lembrete** ativando o **status** de alternância (obrigatório).
-   
-3. Especifique o **intervalo de lembretes (em dias)** (obrigatório). Este é o número de dias de espera antes de enviar as notificações de lembrete inicial e de acompanhamento. Por exemplo, se você definir o intervalo de lembretes como 7 dias, o primeiro lembrete será enviado 7 dias após a notificação de retenção ser emitida inicialmente. Todos os lembretes subsequentes também serão enviados a cada 7 dias.
-   
-4. Especifique o **número de lembretes** (obrigatório). Este campo especifica o número de lembretes a serem enviados para os responsáveis pela resposta. Por exemplo, se você definir o número de lembretes como 3, um dos responsáveis receberá um máximo de 3 lembretes. Depois que os responsáveis confirmarem a notificação de espera, os lembretes não serão mais enviados para esse usuário.
-   
+
+3. Especifique o **intervalo de lembretes (em dias)** (obrigatório). Este é o número de dias de espera antes de enviar as notificações de lembrete inicial e de acompanhamento. Por exemplo, se você definir o intervalo de lembretes para sete dias, o primeiro lembrete será enviado sete dias após a notificação de retenção ser emitida inicialmente. Todos os lembretes subsequentes também serão enviados a cada sete dias.
+
+4. Especifique o **número de lembretes** (obrigatório). Este campo especifica o número de lembretes a serem enviados para os responsáveis por não responder. Por exemplo, se você definir o número de lembretes como 3, um dos responsáveis receberá um máximo de três lembretes. Depois que os responsáveis confirmarem a notificação de espera, os lembretes não serão mais enviados para esse usuário.
+
 5. Especifique o **assunto** para o aviso (obrigatório). 
-   
-6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). Observe que o conteúdo do portal definido na etapa 2 é adicionado ao final do aviso de lembrete.
-   
+
+6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de lembrete.
+
 7. Clique em **salvar** e vá para a próxima etapa.
 
-### <a name="escalations"></a>Escalonamentos 
+### <a name="escalations"></a>Escalonamentos
 
 Em algumas situações, talvez você precise de outras maneiras de acompanhar os responsáveis por não responder. Se um responsáveis não confirmar uma notificação de bloqueio após receber o número especificado de lembretes, a equipe jurídica poderá especificar um fluxo de trabalho para enviar automaticamente um aviso de escalonamento para os responsáveis e seu gerente.
 
 Para agendar escalonamentos:
 
 1. No bloco **escalonamento** , clique em **Editar**.
-   
-2. Habilite o fluxo de trabalho de **escalonamento** ativando a alternância de **status** .
-   
-3. Especifique o **intervalo de escalonamento (em dias)** (obrigatório). 
-   
-4. Especifique o **número de escalas** (obrigatório). Este campo especifica a quantidade de escalonamentos a ser enviada para os responsáveis pela resposta. Por exemplo, se você definir o número de escalonamentos como 3, um aviso de escalonamento será enviado aos responsáveis e seu gerente no máximo três vezes. Depois que os responsáveis confirmarem a notificação de espera, os escalonamentos não serão mais enviados. 
-   
-5. Especifique o **assunto** para o aviso (obrigatório). 
-   
-6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). Observe que o conteúdo do portal definido na etapa 2 é adicionado ao final do aviso de escalonamento.
-   
-7. Clique em **salvar** e vá para a próxima etapa.
-   
-## <a name="step-5-assign-custodians"></a>Etapa 5: atribuir os responsáveis 
 
-Depois de finalizar o conteúdo para notificações, selecione os responsáveis que você gostaria de enviar as notificações. 
+2. Habilite o fluxo de trabalho de **escalonamento** ativando a alternância de **status** .
+
+3. Especifique o **intervalo de escalonamento (em dias)** (obrigatório).
+
+4. Especifique o **número de escalas** (obrigatório). Este campo especifica a quantidade de escalonamentos a ser enviada para os responsáveis por não responder. Por exemplo, se você definir o número de escalonamentos como 3, um aviso de escalonamento será enviado aos responsáveis e seu gerente no máximo três vezes. Depois que os responsáveis confirmarem a notificação de espera, os escalonamentos não serão mais enviados.
+
+5. Especifique o **assunto** para o aviso (obrigatório). 
+
+6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo de portal que você definiu na etapa 2 é adicionado ao final do aviso de escalonamento.
+
+7. Clique em **salvar** e vá para a próxima etapa.
+
+## <a name="step-5-assign-custodians-to-receive-notifications"></a>Etapa 5: atribuir os responsáveis a receber notificações
+
+Depois de finalizar o conteúdo para notificações, selecione os responsáveis para os quais você gostaria de enviar notificações. 
 
 ![Selecionar página de responsáveis](../media/SelectCustodians.PNG)
 
@@ -180,12 +180,25 @@ Para adicionar os responsáveis:
 1. Atribua os responsáveis à comunicação clicando na caixa de seleção ao lado do nome.
 
     Depois que a comunicação for criada, o fluxo de trabalho de notificação será aplicado automaticamente aos responsáveis selecionados.
-   
+
 2. Clique em **Avançar** para revisar as configurações e detalhes de comunicação.
- 
+
 >[!NOTE]
 >Você só pode adicionar os responsáveis que foram adicionados ao caso e não foram enviados outra notificação no caso.
 
 ## <a name="step-6-review-settings"></a>Etapa 6: revisar as configurações
 
 Após revisar as configurações e clicar em **Enviar** para concluir a comunicação, o sistema iniciará automaticamente o fluxo de trabalho de comunicação enviando o aviso de emissão.
+
+## <a name="events-that-trigger-notifications"></a>Eventos que disparam notificações
+
+A tabela a seguir descreve os eventos no processo de gerenciamento de casos que são acionados quando os diferentes tipos de notificações são enviados para os responsáveis.
+
+|Tipo de comunicação|Gatilho |
+|:---------|:---------|
+|Notificações de emissão|A criação inicial da notificação. Você também pode reenviar manualmente uma notificação de retenção. |
+|Notificações de reemissão|Atualizando o conteúdo do portal na página **definir conteúdo do portal** no Assistente para **Editar comunicação** .|
+|Avisos de lançamento|Os responsáveis são liberados do caso.|
+|Lembretes|O intervalo e o número de lembretes configurados para o lembrete.|
+|Escalonamentos|O intervalo e o número de lembretes configurados para o escalonamento.|
+|||

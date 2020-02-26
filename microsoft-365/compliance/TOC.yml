@@ -698,27 +698,30 @@
           href: manage-jobs.md
 - name: Gerenciar políticas de alerta e auditoria
   items:
-    - name: Pesquisar o log de auditoria
-      href: search-the-audit-log-in-security-and-compliance.md
+    - name: Auditoria unificada
+      items:
+        - name: Pesquisar o log de auditoria
+          href: search-the-audit-log-in-security-and-compliance.md
+        - name: Ativar ou desativar a pesquisa de log de auditoria
+          href: turn-audit-log-search-on-or-off.md
+        - name: Propriedades detalhadas no log de auditoria
+          href: detailed-properties-in-the-office-365-audit-log.md
+        - name: 'Exportar, configurar e exibir registros de log de auditoria'
+          href: export-view-audit-log-records.md
+        - name: Use o log de auditoria para investigar problemas comuns
+          href: auditing-troubleshooting-scenarios.md
+        - name: Usar a auditoria de compartilhamento no log de auditoria
+          href: use-sharing-auditing.md
+        - name: Procurar atividades de descoberta eletrônica no log de auditoria
+          href: search-for-ediscovery-activities-in-the-audit-log.md
+    - name: Auditoria de caixa de correio
+      href: enable-mailbox-auditing.md
     - name: Auditoria avançada
       href: advanced-audit.md
-    - name: Ativar ou desativar a pesquisa de log de auditoria
-      href: turn-audit-log-search-on-or-off.md
-    - name: Gerenciar a auditoria de caixa de correio
-      href: enable-mailbox-auditing.md
-    - name: Gerenciar políticas de retenção de log de auditoria
-      href: audit-log-retention-policies.md
-    - name: Propriedades detalhadas no log de auditoria
-      href: detailed-properties-in-the-office-365-audit-log.md
-    - name: 'Exportar, configurar e exibir registros de log de auditoria'
-      href: export-view-audit-log-records.md
-    - name: Use o log de auditoria para investigar problemas comuns
-      href: auditing-troubleshooting-scenarios.md
-    - name: Usar a auditoria de compartilhamento no log de auditoria
-      href: use-sharing-auditing.md
-    - name: Procurar atividades de descoberta eletrônica no log de auditoria
-      href: search-for-ediscovery-activities-in-the-audit-log.md
-    - name: Gerenciar políticas de alerta
+      items:
+        - name: Gerenciar políticas de retenção de log de auditoria
+          href: audit-log-retention-policies.md
+    - name: Políticas de alerta
       href: alert-policies.md
 - name: Gerenciar riscos de conformidade.
   items:

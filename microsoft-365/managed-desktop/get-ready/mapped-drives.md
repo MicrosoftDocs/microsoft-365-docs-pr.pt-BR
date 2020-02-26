@@ -1,19 +1,20 @@
 ---
-title: Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft
+title: Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
 description: Etapas importantes para garantir
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: e4c2dbe8f1cae12aa1b10c6cd43f295a9a6062d0
-ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
+ms.openlocfilehash: 8bdbbefb1fc3bfff324787eedb497afe781184f0
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100707"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280169"
 ---
-#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Preparar unidades mapeadas para a área de trabalho gerenciada da Microsoft
+#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
 
 Muitos ambientes corporativos têm requisitos herdados para unidades mapeadas para permitir que seus usuários ou equipes compartilhem e armazenem arquivos ou para aplicativos locais. A Microsoft não recomenda o uso de unidades mapeadas com a área de trabalho gerenciada da Microsoft. Em vez disso, recomendamos modernizar as soluções de acesso de arquivos do yor da seguinte maneira:
   

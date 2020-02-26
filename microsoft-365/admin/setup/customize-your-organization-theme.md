@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Office 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: b59efa21195c0c7bed12c98b9d360d84451b3d35
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 729f029f58a19ed819b194deff526fc9b44757c5
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237797"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280179"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>Personalizar o tema do Office 365 da sua organização
 
@@ -43,7 +43,7 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
   - **Usar uma imagem de logotipo personalizada**: escolha se deseja usar uma imagem de uma URL ou carregar uma imagem. Se você usar uma URL, certifique-se de que a URL usa HTTPS e tenha 200 x 30 pixels de qualquer formato de qualquer tamanho. Você pode carregar um logotipo abaixo de 10 KB 200 x 30 pixels no formato JPG, PNG, GIF ou SVG.
 
     > [!NOTE]
-    > Para que o logotipo apareça no aplicativo móvel do SharePoint, use somente imagens SVG. As imagens carregadas em qualquer outro formato não são exibidas no aplicativo. 
+    > Para que o logotipo apareça no aplicativo móvel do SharePoint, use somente imagens SVG. As imagens carregadas em qualquer outro formato não são exibidas no aplicativo. Os logotipos não são clicados no aplicativo móvel do SharePoint.
     
   - **Tornar o logotipo clicado**: você pode usar o logotipo na barra de navegação como um link para qualquer recurso da empresa. Você pode digitar a URL para o logotipo aqui, começando com http://ou https://. Isso é opcional.
     
@@ -62,7 +62,7 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
       
   - **Mostrar o nome de usuário**: escolha se deseja mostrar o nome completo de um usuário no ponto de entrada para o gerente de contas no canto superior direito da página quando o usuário está conectado. Por padrão, os usuários verão sua foto ou suas iniciais se uma foto ainda não tiver sido carregada.
     
-4. Selecione **salvar alterações**.
+4. Selecione **Salvar alterações**.
     
 Você verá seu novo tema no centro de administração imediatamente e após um pequeno atraso, verá-o em todo o Office 365, incluindo as páginas do Outlook e do SharePoint. É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página do tema e selecionar **remover temas personalizados**.
   
