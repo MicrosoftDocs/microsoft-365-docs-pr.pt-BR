@@ -6,7 +6,7 @@
       href: microsoft-365-business-overview.md
     - name: Obter o Microsoft 365 Business
       href: sign-up.md
-    - name: Pré-requisitos para proteção de dados
+    - name: Pré-requisitos da proteção de dados
       href: pre-requisites-for-data-protection.md
     - name: Configurar
       items:
@@ -14,70 +14,70 @@
           href: set-up-overview.md
         - name: Configurar o Microsoft 365 Business
           href: set-up.md
-        - name: Proteger computadores Windows 10
+        - name: Proteger computadores com Windows 10
           href: secure-win-10-pcs.md
-        - name: Fazer o upgrade para a Atualização do Windows Pro para Criadores
+        - name: Atualizar para a Atualização do Windows Pro Creators
           href: upgrade-to-windows-pro-creators-update.md
-        - name: Preparar para implantação do cliente do Office
+        - name: Preparar implementar o cliente do Office
           href: prepare-for-office-client-deployment.md
-        - name: Ajude os usuários a instalar o Office
+        - name: Ajude os usuários a instalarem o Office
           href: help-users-install-office.md
-        - name: Acessar recursos locais
+        - name: Acesse os recursos locais
           items:
-            - name: Permitir que dispositivos Windows 10 ingressados no domínio sejam gerenciados
+            - name: Habilite o gerenciamento dos dispositivos do Windows 10 ingressados no domínio
               href: manage-windows-devices.md
-            - name: Acessar recursos de um dispositivo associado ao Azure AD
+            - name: Acesse os recursos de um dispositivo associado ao Azure AD
               href: access-resources.md
-    - name: Configuração de dispositivo do usuário
+    - name: Configuração do dispositivo do usuário
       items:
         - name: Configurar dispositivos móveis
           href: set-up-mobile-devices.md
-        - name: Configurar dispositivos do Windows
+        - name: Configure os dispositivos do Windows
           href: set-up-windows-devices.md
     - name: Proteja sua empresa
       href: security-features.md
       items:
-        - name: Configurar o MFA
+        - name: Configure o MFA
           href: /Office365/Admin/security-and-compliance/set-up-multi-factor-authentication?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
-        - name: Aumentar proteção contra ameaças
+        - name: Aumente a proteção contra ameaças
           href: increase-threat-protection.md
-        - name: Configurar recursos de conformidade
+        - name: Configure os recursos de conformidade
           href: set-up-compliance.md
-    - name: Gerenciar Usuários
+    - name: Gerencie os usuários
       items:
-        - name: Adicionar usuários
+        - name: Adicione usuários
           href: add-users-m365b.md
-        - name: Remover um funcionário
+        - name: Remova um funcionário
           href: /Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
-    - name: Gerenciar Dispositivos
+    - name: Gerenciar os dispositivos
       items:
-        - name: Exibir e editar políticas e dispositivos
+        - name: Visualize e edite políticas e dispositivos
           href: view-policies-and-devices.md
-        - name: Remover dados da empresa
+        - name: Remova dados da empresa
           href: remove-company-data.md
-        - name: Restaurar dispositivos para as configurações de fábrica
+        - name: Restaure os dispositivos das configurações de fábrica
           href: reset-devices-to-factory-settings.md
-        - name: Mapear os recursos de proteção para as configurações do Intune
+        - name: Mapeie os recursos de proteção das configurações do Intune
           href: map-protection-features-to-intune-settings.md
-        - name: Configurações de proteção de aplicativos para Android e iOS
+        - name: Configurações de proteção dos aplicativos para Android e iOS
           href: app-protection-settings-for-android-and-ios.md
           items:
-            - name: Validar as configurações em Android ou iOS
+            - name: Valide as configurações em Android ou iOS
               href: validate-settings-on-android-or-ios.md
         - name: Configurações de proteção de dispositivos em computadores com Windows 10
           href: protection-settings-for-windows-10-pcs.md
           items:
-            - name: "Validar as configurações em computadores com Windows\_10"
+            - name: "Valide as configurações em computadores com Windows\_10"
               href: validate-settings-on-windows-10-pcs.md
         - name: Configurações de proteção de aplicativos em computadores com Windows 10
           href: protection-settings-for-windows-10-devices.md
-    - name: Migrar para o Microsoft 365 Business
+    - name: Migre para o Microsoft 365 Business
       items:
-        - name: Migrar do Office 365 Business Premium
+        - name: Migre do Office 365 Business Premium
           href: migrate-to-microsoft-365-business.md
-        - name: Migrar do Office 365 E3
+        - name: Migre do Office 365 E3
           href: migrate-from-e3.md
-        - name: Migrar para o Microsoft 365 Enterprise
+        - name: Migre para o Microsoft 365 Enterprise
           href: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
     - name: Cobrança
       items:
@@ -89,11 +89,11 @@
           href: /Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
     - name: Autopilot
       items:
-        - name: Adicionar perfil e dispositivos do Autopilot
+        - name: Adicione o perfil e dispositivos do Autopilot
           href: add-autopilot-devices-and-profile.md
-        - name: Criar e editar os perfis do AutoPilot
+        - name: Crie e edite os perfis do AutoPilot
           href: create-and-edit-autopilot-profiles.md
-        - name: Criar e editar os dispositivos do AutoPilot
+        - name: Crie e edite os dispositivos do AutoPilot
           href: create-and-edit-autopilot-devices.md
         - name: Configurações do perfil do AutoPilot
           href: autopilot-profile-settings.md

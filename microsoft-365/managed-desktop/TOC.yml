@@ -1,16 +1,16 @@
-- name: Área de Trabalho Gerenciada da Microsoft
+- name: Área de trabalho gerenciada da Microsoft
   href: index.yml
   items:
-    - name: O que é a Área de Trabalho Gerenciada da Microsoft?
+    - name: O que é a Área de trabalho gerenciada da Microsoft?
       href: intro/index.md
       items:
         - name: Funções e responsabilidades
           href: intro/roles-and-responsibilities.md
-        - name: Tecnologias na Área de Trabalho Gerenciada da Microsoft
+        - name: Tecnologias na Área de trabalho gerenciada da Microsoft
           href: intro/technologies.md
-        - name: Área de Trabalho e ITIL Gerenciados da Microsoft
+        - name: Área de trabalho e ITIL gerenciados da Microsoft
           href: MMD-and-ITSM.md
-    - name: Descrição do serviço da Área de Trabalho Gerenciada da Microsoft
+    - name: Descrição do serviço da Área de trabalho gerenciada da Microsoft
       href: service-description/index.md
       items:
         - name: Regiões e idiomas com suporte
@@ -28,7 +28,7 @@
           href: service-description/device-policies.md
         - name: Segurança
           href: service-description/security.md
-        - name: Updates
+        - name: Atualizações
           href: service-description/updates.md
         - name: Suporte
           href: service-description/support.md
@@ -38,82 +38,82 @@
           href: service-description/mmd-app-requirements.md
         - name: Mudanças de serviço e comunicação
           href: service-description/servicechanges.md
-        - name: Exceções para o plano de serviço
+        - name: Exceções ao plano de serviço
           href: service-description/customizing.md
-    - name: Preparar-se para inscrição na Área de Trabalho Gerenciada da Microsoft
+    - name: Prepare-se para a inscrição na Área de trabalho gerenciada da Microsoft
       href: get-ready/index.md
       items:
-        - name: Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+        - name: Pré-requisitos da Área de trabalho gerenciada da Microsoft
           href: get-ready/prerequisites.md
-        - name: Preparar rede
+        - name: Prepare a rede
           href: get-ready/network.md
-        - name: Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft
+        - name: Prepare o acesso aos recursos locais da Área de trabalho gerenciada da Microsoft
           href: get-ready/authentication.md
-        - name: Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
+        - name: Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
           href: get-ready/mapped-drives.md
-        - name: Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft
+        - name: Prepare certificados e perfis de rede da Área de trabalho gerenciada da Microsoft
           href: get-ready/certs-wifi-lan.md
-        - name: Preparar aplicativos
+        - name: Prepare os aplicativos
           href: get-ready/apps.md
           items:
-            - name: Trabalhar com Serviços de Consultoria da Microsoft
+            - name: Trabalhar com Serviços de consultoria da Microsoft
               href: get-ready/apps-MCS.md
-    - name: Introdução à Área de Trabalho Gerenciada da Microsoft
+    - name: Introdução à Área de trabalho gerenciada da Microsoft
       href: get-started/index.md
       items:
-        - name: Adicionar e verificar contatos do administrador no portal de Administração
+        - name: Adicione e verifique contatos do administrador no portal do Administrador
           href: get-started/add-admin-contacts.md
-        - name: Ajustar o acesso condicional
+        - name: Ajuste o acesso condicional
           href: get-started/conditional-access.md
-        - name: Atribuir licenças
+        - name: Atribua licenças
           href: get-started/assign-licenses.md
-        - name: Implantar o Portal da Empresa do Intune
+        - name: Implante o Portal da empresa do Intune
           href: get-started/company-portal.md
-        - name: Habilitar Roaming de Estado da Empresa
+        - name: Habilite o roaming do estado da empresa
           href: get-started/enterprise-state-roaming.md
-        - name: Configurar dispositivos
+        - name: Configure os dispositivos
           href: get-started/set-up-devices.md
           items:
-            - name: Registrar novos dispositivos sozinho
+            - name: Registre novos dispositivos por conta própria
               href: get-started/register-devices-self.md
               items:
-                - name: Etapas para registrar dispositivos de Parceiros
+                - name: Etapas para registrar dispositivos de parceiros
                   href: get-started/register-devices-partner.md
-            - name: Registrar dispositivos existentes sozinho
+            - name: Registre dispositivos existentes por conta própria
               href: get-started/register-reused-devices-self.md
-        - name: Preparar usuários para o uso dos dispositivos
+        - name: Prepare usuários para usarem os dispositivos
           href: get-started/get-started-devices.md
-        - name: Implantar aplicativos
+        - name: Implante os aplicativos
           href: get-started/deploy-apps.md
           items:
             - name: Microsoft Project e Microsoft Visio
               href: get-started/project-visio.md
-    - name: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
+    - name: Trabalhe com a Área de trabalho gerenciada da Microsoft
       href: working-with-managed-desktop/index.md
       items:
-        - name: Trabalhar com insights
+        - name: Trabalhe com percepções
           href: working-with-managed-desktop/insights.md
           items:
-            - name: Informações de uso
+            - name: Percepções de uso
               href: working-with-managed-desktop/usage-insights.md
-            - name: Insights de confiabilidade
+            - name: Percepções de confiabilidade
               href: working-with-managed-desktop/reliability-insights.md
-            - name: Insights de bateria
+            - name: Percepções da bateria
               href: working-with-managed-desktop/battery-insights.md
-            - name: Informações de atualização de segurança do Windows
+            - name: Percepções de atualização da segurança do Windows
               href: working-with-managed-desktop/security-update-insights.md
-        - name: Suporte para administrador
+        - name: Suporte do administrador
           href: working-with-managed-desktop/admin-support.md
-        - name: Suporte ao usuário final
+        - name: Suporte do usuário final
           href: working-with-managed-desktop/end-user-support.md
         - name: Gerenciar aplicativos
           href: working-with-managed-desktop/manage-apps.md
-        - name: Configurações que podem ser alteradas
+        - name: Configurações configuráveis
           href: working-with-managed-desktop/config-setting-overview.md
           items:
-            - name: Referência de configurações que podem ser alteradas
+            - name: Referência das configurações configuráveis
               href: working-with-managed-desktop/config-setting-ref.md
-            - name: Implantar configurações que podem ser alteradas
+            - name: Implantar configurações configuráveis
               href: working-with-managed-desktop/config-setting-deploy.md
-    - name: Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft
+    - name: Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
       href: change-history-managed-desktop.md
