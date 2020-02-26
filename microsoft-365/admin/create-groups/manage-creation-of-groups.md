@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Saiba como controlar quais usuários podem criar grupos do Office 365.
-ms.openlocfilehash: 1f0d3109d1102c740a9be0b670e618eac982e6e2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a211cb3b69348a4d4a401a3c318fe019d8fd257f
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237052"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277188"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Gerenciar quem pode criar Grupos do Office 365
 
@@ -120,14 +120,20 @@ Como prática recomendada, convém estar  *sempre*  atualizado: desinstale a ver
 2. Clique com o botão direito do mouse em **Windows PowerShell** e selecione **Executar como administrador**.
     
     ![Abra o PowerShell como "Executar como administrador".](../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
+    
+3. Defina a política para RemoteSigned usando [Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy).
+    
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
   
-2. Verifique o módulo instalado:
+4. Verifique o módulo instalado:
     
     ```
     Get-InstalledModule -Name "AzureAD*"
     ```
 
-3. Para desinstalar a versão anterior do AzureADPreview ou do AzureAD, execute o seguinte comando:
+5. Para desinstalar a versão anterior do AzureADPreview ou do AzureAD, execute o seguinte comando:
   
     ```
     Uninstall-Module AzureADPreview
@@ -139,7 +145,7 @@ Como prática recomendada, convém estar  *sempre*  atualizado: desinstale a ver
     Uninstall-Module AzureAD
     ```
 
-4. To install the latest version of AzureADPreview, run this command:
+6. To install the latest version of AzureADPreview, run this command:
   
     ```
     Install-Module AzureADPreview

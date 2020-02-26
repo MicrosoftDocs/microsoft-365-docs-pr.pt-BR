@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário do Office 365 e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 4351658f2637b86c9b3233f55916d8e0ac0f8cfb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
+ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250622"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42278757"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -32,7 +32,7 @@ A Implantação Centralizada é a forma recomendada e com recursos mais avançad
 A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
 Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Office 365 ProPlus (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. O diretório da sua assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizada do office 365](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker).
@@ -82,9 +82,9 @@ Se não quiser usar o relatório de ativações, você pode pedir a um usuário 
 Encontre ajuda para o Office 365 ProPlus em [Dicas de solução de problemas para o Office 365 ProPlus](https://go.microsoft.com/fwlink/p/?linkid=846339).
 
 
-### <a name="exchange-requirements"></a>Requisitos do Exchange
+### <a name="exchange-online-requirements"></a>Requisitos do Exchange Online
 
-O Microsoft Exchange armazena manifestos de suplementos no locatário da organização. O administrador que implanta suplementos e os usuários que recebem esses suplementos devem usar uma versão do Exchange Server compatível com a autenticação OAuth. Por padrão, as implantações Multilocatários e Dedicadas VNext do Exchange são compatíveis com OAuth. As implantações locais híbridas e herdadas dedicadas do Exchange podem ser configuradas para oferecer suporte ao OAuth. No entanto, essa não é a configuração padrão.
+O Microsoft Exchange armazena os manifestos do suplemento no locatário da sua organização. Os suplementos de implantação de administrador e os usuários que recebem esses suplementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth. Por padrão, o multilocatário do Exchange e implantações do 
   
 Fale com o administrador do Exchange da sua organização para saber qual configuração está sendo usada. Para verificar a conectividade por usuário do OAuth, use o cmdlet do PowerShell [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351). 
 
