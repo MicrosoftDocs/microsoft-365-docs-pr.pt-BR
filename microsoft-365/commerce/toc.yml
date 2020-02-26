@@ -1,16 +1,16 @@
-- name: Gerenciar compras e cobrança comercial
+- name: Gerenciar compras e cobranças comerciais
   href: index.md
   expanded: true
   items:
     - name: Gerenciar assinaturas
       items:
-        - name: Gerenciar aplicativos de terceiros
+        - name: Aplicativos de terceiros
           href: manage-saas-apps.md
         - name: Atualizar assinaturas
           href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
-        - name: Gerenciar compras de autoatendimento (usuários)
+        - name: Gerenciar compras de autoatendimento (Usuários)
           href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
-        - name: Gerenciar compras de autoatendimento (administrador)
+        - name: Gerenciar compras de autoatendimento (Administrador)
           href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
     - name: Gerenciar licenças
       items:
@@ -18,19 +18,19 @@
           href: /microsoft-365/commerce/licenses/buy-licenses
         - name: Atribuir licenças
           href: /microsoft-365/admin/manage/assign-licenses-to-users
-        - name: Cancelar a atribuição de licenças
+        - name: Cancelar licenças
           href: /microsoft-365/admin/manage/remove-licenses-from-users
         - name: Remover licenças da assinatura
           href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
     - name: Faturas e pagamentos
       items:
-        - name: Entender sua fatura
+        - name: Entenda sua fatura
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
-        - name: Gerenciar métodos de pagamento
+        - name: Gerenciar formas de pagamento
           href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
         - name: Gerenciar perfis de cobrança
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
-        - name: Política de serviços de pagamento 2 e autenticação de cliente forte
+        - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
           href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: Contas de cobrança
       items:
