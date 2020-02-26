@@ -153,7 +153,7 @@
 ## Office 365 operado pela 21Vianet
 ### [Sobre o Office 365 operado pela 21Vianet](services-in-china/services-in-china.md)
 ### [Comprar ou experimentar assinaturas](services-in-china/buy-or-try-subscriptions.md)
-### [Baixar o aplicativo do Office para iOS para Office 365 operado pela 21Vianet](services-in-china/download-office-app-for-iOS.md)
+### [Baixar o aplicativo do Office para iOS e para Office 365 operado pela 21Vianet](services-in-china/download-office-app-for-iOS.md)
 ### [Exibir sua fatura ou obter um Fapiao](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Solicitar um Fapiao](services-in-china/apply-for-a-fapiao.md)
 ### [Paridade de proteção de informações do Azure](services-in-china/parity-between-azure-information-protection.md)
