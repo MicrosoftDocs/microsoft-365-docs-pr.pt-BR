@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Centro de ajuda do Microsoft 365 para administradores e profissionais de ti
+title: Centro de ajuda do Microsoft 365 para administradores e profissionais de TI
 summary: Explore os recursos de ajuda e treinamento do Microsoft 365.
 brand: m365
 metadata:
-  title: Centro de ajuda do Microsoft 365 para administradores e profissionais de ti
-  description: Configurar, implantar e gerenciar o Microsoft 365 para dar suporte à sua organização, pequenas empresas, campanhas ou educadores e estudantes
+  title: Centro de ajuda do Microsoft 365 para administradores e profissionais de TI
+  description: Configurar, implantar e gerenciar o Microsoft 365 para oferecer suporte à sua organização, pequenas empresas, campanhas ou educadores e alunos
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.topic: hub-page
@@ -15,25 +15,25 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 0575321bf9ed7953389e5a6a8be6b8c21479326a
   ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 02/24/2020
   ms.locfileid: "42250461"
 highlightedContent:
   items:
-  - title: Treinamento para administradores e profissionais de ti
+  - title: Treinamento para administradores e profissionais de TI
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
   - title: Treinamento para usuários finais
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: Configurar sua empresa na nuvem
+  - title: Configurar seus negócios na nuvem
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
   - title: Guias de laboratório de teste para profissionais de ti
     itemType: how-to-guide
     url: ./enterprise/m365-enterprise-test-lab-guides.md
-  - title: Comunidade de 365 técnico da Microsoft
+  - title: Comunidade técnica do Microsoft 365
     itemType: get-started
     url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
   - title: Recursos para desenvolvedores
@@ -45,26 +45,26 @@ additionalContent:
     summary: Selecione um cartão para saber mais sobre o Microsoft 365.
     items:
     - title: Centro de administração do Microsoft 365
-      summary: Configurar e gerenciar o Office 365 e o Microsoft 365 para negócios e Enteprise subspcriptions.
+      summary: Configure e gerencie seu Office 365 e Microsoft 365 para assinaturas comerciais e corporativas.
       url: ./admin/admin-home.md
     - title: Microsoft 365 Business
-      summary: Projetado para empresas de pequeno e médio porte. Execute sua empresa com a versão mais recente do Windows e aplicativos do Office, como Excel e Outlook. Aproveite a proteção e segurança de dados que se estende para todos os seus dispositivos de negócios.
+      summary: Projetado para empresas de pequeno e médio porte. Administre sua empresa com as versões mais recentes dos aplicativos do Windows e do Office como Excel e Outlook. Aproveite a proteção de dados e a segurança que se estende a todos os seus dispositivos de negócios.
       url: ./business/index.yml
     - title: Microsoft 365 Enterprise
-      summary: Projetado para grandes organizações. Proteja sua empresa e transforme a maneira como você trabalha com aplicativos do Office, Windows 10 e Enterprise Mobility + Security.
+      summary: Projetado para grandes organizações. Proteja sua empresa e transforme a maneira como você trabalha com os aplicativos do Office, o Windows 10 e o Enterprise Mobility + Security.
       url: ./enterprise/index.yml
     - title: Microsoft 365 Education
-      summary: Projetado para educadores para desbloquear a criatividade, promover o trabalho em equipe e fornecer uma experiência simples e segura em uma única solução acessível, criada para educação.
+      summary: Projetado para educadores para desbloquear a criatividade, além de promover o trabalho em equipe e fornecer uma experiência simples e segura em uma única solução acessível, criada para fins educacionais.
       url: https://docs.microsoft.com/education/
     - title: Conformidade com o Microsoft 365
-      summary: Ajudar sua organização a controlar as informações, proteger contra os riscos e estar em conformidade com padrões legais ou normativos.
+      summary: Ajude sua organização a controlar informações, proteger-se contra riscos e obedecer a padrões legais ou regulatórios.
       url: ./compliance/index.yml
-    - title: Segurança da Microsoft 365
-      summary: Saiba mais sobre os serviços e soluções de segurança robustos no Microsoft 365 Security para que você possa proteger melhor sua organização em superfícies de ataque.
+    - title: Segurança do Microsoft 365
+      summary: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque.
       url: ./security/index.yml
     - title: Microsoft 365 para Campanhas
-      summary: Mantenha sua campanha ou seus dados corporativos e comunicações seguros com essa configuração recomendada para o Microsoft 365 Business.
+      summary: Mantenha seus dados e comunicações de campanha ou comerciais em segurança com esta configuração recomendada para o Microsoft 365 Business.
       url: ./campaigns/index.md
     - title: Área de Trabalho Gerenciada da Microsoft
-      summary: A área de trabalho gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseado em nuvem pela Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de ti para se concentrar nas principais necessidades de negócios.
+      summary: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
       url: ./managed-desktop/index.yml
