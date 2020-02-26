@@ -6,9 +6,7 @@
       "build_output_subfolder": "Microsoft-365-docs",
       "locale": "pt-BR",
       "monikers": [],
-      "moniker_ranges": [
-        "=o365-worldwide || =o365-21vianet || =o365-germany"
-      ],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
