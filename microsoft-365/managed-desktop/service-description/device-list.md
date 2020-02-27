@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: d1838a15566c6d985d437f84f1691c600ff6ce41
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: c781d86c13165ac51dfee57b1c2cf3e9e536d3d5
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278747"
+ms.locfileid: "42284352"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -35,24 +35,24 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 |----------|----------------|---------------------------|----------------|--------------------|
 | [Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 22 de maio de 2020  | 22 de maio de 2023 |
 | [Dell Latitude 5300](https://www.dell.com/en-us/work/shop/laptops/13-5300/spd/latitude-13-5300-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
-| [Dell Latitude 5300 2-in-1](https://www.dell.com/en-us/work/shop/laptops/13-5300-2-in-1/spd/latitude-13-5300-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
+| **\*[Dell Latitude 5300 2-in-1](https://www.dell.com/en-us/work/shop/laptops/13-5300-2-in-1/spd/latitude-13-5300-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
 | [Dell Latitude 5400](https://www.dell.com/en-us/work/shop/laptops/14-5400/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
 | [Dell Latitude 5500](https://www.dell.com/en-us/work/shop/laptops/15-5500/spd/latitude-15-5500-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
 | [Dell Latitude 7200 2-in-1](https://www.dell.com/en-us/work/shop/laptops/12-7200-2-in-1/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
 | [Dell Latitude 7300](https://www.dell.com/en-us/work/shop/laptops/13-7300/spd/latitude-13-7300-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
 | [Dell Latitude 7400](https://www.dell.com/en-us/work/shop/laptops/new-14/spd/latitude-14-7400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| [Dell Latitude 7400 2-in-1](https://www.dell.com/en-us/work/shop/laptops/14-2-in-1/spd/latitude-14-7400-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
+| **\*[Dell Latitude 7400 2-in-1](https://www.dell.com/en-us/work/shop/laptops/14-2-in-1/spd/latitude-14-7400-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
 | [HP EliteBook 830/840/850 G6 Notebook PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | [HP EliteBook X360 830 G6 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | **\*[Tablet com HP elite X2 G4](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1)** | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV | 31 de julho de 2021 | 31 de julho de 2024 |
 | **\*[HP EliteBook X360 1030 G4 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g4-notebook-pc)** | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV | 28 de fevereiro de 2021 | 28 de fevereiro de 2024 |
-| [HP EliteBook X360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | 23 de outubro de 2020 | 23 de outubro de 2023 |
+| **\*[HP EliteBook X360 1040 G6](http://www.hp.com/go/elitebookx360-1040)** | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
 | [HP EliteOne 800 G4 23.8 em AIO](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | 18 de julho de 2020 | 18 de julho de 2023 |
 | [HP ProBook X360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV, câmera de infravermelho ou leitor de impressão digital necessário | 6 de junho de 2020 | 6 de junho de 2023 |
-| **\*[Estação de trabalho HP Z2 mini G4](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1)** | 256 GB/Intel i5/8 GB de RAM | SKU com 8QR48AV| 31 de janeiro de 2021 | 31 de janeiro de 2024 |
-|**\*[Estação de trabalho móvel HP ZBook 14U/15U G6](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS02AV, câmera de infravermelho necessária | 30 de novembro de 2020 | 30 de novembro de 2023 |
+| [Estação de trabalho HP Z2 mini G4](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8 GB de RAM | SKU com 8QR48AV| 31 de janeiro de 2021 | 31 de janeiro de 2024 |
+|[Estação de trabalho móvel HP ZBook 14U/15U G6](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS02AV, câmera de infravermelho necessária | 30 de novembro de 2020 | 30 de novembro de 2023 |
 | [Ir para a superfície](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel 4415Y/8GB de RAM | Nenhum | 2 de agosto de 2020 | 2 de agosto de 2023 |
 | [Laptop de superfície 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | **\*[Laptop de superfície 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |

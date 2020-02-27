@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: b94a09757cf6e7126a6b7cc73ac5cc0930d1ea2e
-ms.sourcegitcommit: 08f9af6cd98e2de4bb634b90f5630e6a66676497
+ms.openlocfilehash: b385e5cae1f78f300655dd5c3a0dbf584dc69256
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157373"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288489"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -151,4 +151,4 @@ Parceiros com privilégios de administração delegada podem ver compras de auto
 
 ### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>Em quais países posso fazer uma compra de autoatendimento?
 
-As compras de autoatendimento estão disponíveis nos seguintes países: Austrália, Canadá, França, Alemanha, Japão, Reino Unido e Estados Unidos.
+As compras de autoatendimento estão disponíveis nos seguintes países: Austrália, Áustria, Bélgica, Bulgária, Canadá, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Grécia, Hungria, Islândia, Irlanda, Itália, Japão, Letônia, Lituânia, Luxemburgo, Malta, Holanda, Noruega, Polônia, Portugal, Romênia, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ba50572405da05359594fea85fdba2d28f3b141b
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: c99ef0634c5858e458b9aa4aa622a7ab55c32088
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235220"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288539"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 
@@ -36,11 +36,11 @@ ms.locfileid: "42235220"
 Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar a proteção contra ameaças da Microsoft.
 
 ## <a name="licensing-requirements"></a>Requisitos de licença
-Para usar a proteção contra ameaças da Microsoft, você precisa de uma das seguintes licenças ou combinações de licenças:
+Para usar a proteção contra ameaças da Microsoft, você precisa de *uma* das seguintes licenças ou combinações de licenças:
 
 - Microsoft 365 E5
 - Segurança do Microsoft 365 E5
-- Office 365 E5, Enterprise Mobility + Security E5, e Windows E5
+- Office 365 E5 e "Enterprise Mobility + Security E5 (EMS E5)" e Windows e5
 
 [Exibir planos de serviços corporativos do Microsoft 365](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
 

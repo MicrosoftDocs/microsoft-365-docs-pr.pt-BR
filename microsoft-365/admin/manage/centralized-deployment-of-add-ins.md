@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário do Office 365 e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: 09487e0ff495f4b561e7a27eecf2c99fd4da10af
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278757"
+ms.locfileid: "42284382"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -84,7 +84,7 @@ Encontre ajuda para o Office 365 ProPlus em [Dicas de solução de problemas par
 
 ### <a name="exchange-online-requirements"></a>Requisitos do Exchange Online
 
-O Microsoft Exchange armazena os manifestos do suplemento no locatário da sua organização. Os suplementos de implantação de administrador e os usuários que recebem esses suplementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth. Por padrão, o multilocatário do Exchange e implantações do 
+O Microsoft Exchange armazena os manifestos do suplemento no locatário da sua organização. Os suplementos de implantação de administrador e os usuários que recebem esses suplementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth.
   
 Fale com o administrador do Exchange da sua organização para saber qual configuração está sendo usada. Para verificar a conectividade por usuário do OAuth, use o cmdlet do PowerShell [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351). 
 

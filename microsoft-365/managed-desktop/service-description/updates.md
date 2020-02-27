@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: de674da4230697e953c88d812b0edac8cb7904e5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0acbb82001d8856639f5b67daa99323f333e26ad
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250471"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42284372"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Windows Update for Business: Update Typ
 
 O Microsoft Managed desktop usa quatro grupos do Azure AD para gerenciar atualizações:
 
-- **Teste**: usado para validar as alterações da política de área de trabalho gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações enviadas para o locatário. Não deve haver usuários finais no grupo de teste. O grupo de teste é isento de qualquer contrato de nível de serviço estabelecido e suporte ao usuário final. Esse grupo está disponível para ser usado para validar a compatibilidade de aplicativos com a nova política ou sistema operacional trava.  
+- **Teste**: usado para validar as alterações da política de área de trabalho gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações enviadas para o locatário. Não deve haver usuários finais no grupo de teste. O grupo de teste é isento de qualquer contrato de nível de serviço estabelecido e suporte ao usuário final. Esse grupo está disponível para ser usado para validar a compatibilidade de aplicativos com novas alterações de política ou sistema operacional.  
 - **Primeiro**: contém os pioneiros e dispositivos de software que podem estar sujeitos às atualizações de pré-lançamento. Os dispositivos desse grupo podem sofrer interrupções se houver cenários que não foram cobertos durante o teste no anel de teste.
 - **Rápido**: prioriza a velocidade em relação à estabilidade. Útil para detectar problemas de qualidade antes que sejam oferecidos ao grupo amplo. Esse grupo serve como uma próxima camada de validação, mas geralmente é mais estável do que o teste e os primeiros grupos. 
 - **Amplo**: o último grupo deve ter as atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade sobre a velocidade na implantação. O teste de aplicativos deve ser feito aqui, pois o ambiente é mais estável. 

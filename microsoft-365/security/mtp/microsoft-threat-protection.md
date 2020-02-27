@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ef68143d185b6b716b8b5c8213b1e4f3ea1a5abd
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 62901a08b8e040266a94967170674336eb1035c8
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235070"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288589"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
@@ -34,6 +34,17 @@ ms.locfileid: "42235070"
 A proteção contra ameaças da Microsoft é um pacote unificado de defesa do Enterprise Defense que se integra nativamente ao ponto de extremidade, identidade, email e aplicativos para detectar, prevenir, investigar e responder automaticamente a ataques sofisticados.  
 
 Com a solução integrada de proteção contra ameaças da Microsoft, os profissionais de segurança podem unir os sinais de ameaça de que cada um desses produtos recebe e determinam o escopo completo e o impacto da ameaça; como ele entrou no ambiente, o que ele é afetado e como ele está afetando a organização no momento. A proteção contra ameaças da Microsoft realiza ações automáticas para impedir ou interromper o ataque e a AutoCorreção de caixas de correio, pontos de extremidade e identidades de usuários afetados.  
+
+
+<center><h2>Serviços de proteção contra ameaças da Microsoft</center></h2>
+<table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Proteção avançada contra ameaças do Microsoft defender</b></center></a></td>
+<td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Proteção avançada contra ameaças do Office 365</b></center></a></td>
+<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Proteção avançada contra ameaças do Azure</b></a></center></td>
+<td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Segurança do aplicativo do Microsoft Cloud</b></a></center></td>
+</tr>
+</table>
+<br>
+
 
 
 O pacote de proteção contra ameaças da Microsoft protege: 
@@ -65,17 +76,8 @@ Os recursos entre produtos do Microsoft Threat Protection incluem:
 - **Auto-recuperação de dispositivos comprometidos, identidades de usuário e caixas de correio** -a proteção contra ameaças da Microsoft usa ações automáticas e guias estratégicos para corrigir os ativos impactados de volta a um estado seguro. A proteção contra ameaças da Microsoft aproveita os recursos de correção automática dos produtos do pacote para garantir que todos os ativos afetados relacionados a um incidente sejam corrigidos automaticamente quando possível.
 - **Busca de ameaças entre produtos** -as equipes de segurança podem aproveitar o conhecimento organizacional exclusivo para procurar sinais de comprometimento criando suas próprias consultas personalizadas sobre os dados brutos coletados pelos vários produtos de proteção. A proteção contra ameaças da Microsoft fornece acesso baseado em consulta para 30 dias de sinais brutos históricos e dados de alerta em todos os dados do Endpoint e do Office 365 ATP. 
 
-<center><h2>Serviços de proteção contra ameaças da Microsoft</center></h2>
-<table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Proteção avançada contra ameaças do Microsoft defender</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Proteção avançada contra ameaças do Office 365</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Proteção avançada contra ameaças do Azure</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Segurança do aplicativo do Microsoft Cloud</b></a></center></td>
-</tr>
-</table>
-<br>
-
 
 ## <a name="get-started"></a>Introdução
-Os clientes com uma licença do Microsoft 365 E5 ou equivalente podem usar a Proteção contra Ameaças da Microsoft. Para começar, habilite o serviço na central de segurança do Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
+Os requisitos de licenciamento de proteção contra ameaças da Microsoft devem ser atendidos para que você possa habilitar o serviço no centro de segurança do Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
 - [Requisitos de licenciamento](prerequisites.md#licensing-requirements)
 - [Habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md)
