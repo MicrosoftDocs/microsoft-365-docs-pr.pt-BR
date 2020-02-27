@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 380c424acbcb609944ebfc3ea775ca31ac02bfe8
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 0dc9173c03d93ebe79544f8d417842b407025054
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266737"
+ms.locfileid: "42277218"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -795,6 +795,9 @@ A tabela a seguir lista as atividades de usuários e administradores no Microsof
 
 Onde indicado abaixo nas descrições, algumas operações contêm parâmetros adicionais de atividade.
 
+> [!NOTE]
+> Se uma atividade do Forms for realizada por um coautor ou um respondente anônimo, ela será registrada um pouco diferente. Para saber mais, confira a seção [Atividades do Forms realizadas por coautores e respondentes anônimos](#forms-activities-performed-by-co-authors-and-anonymous-responders).
+
 |**Nome amigável**|**Operação**|**Descrição**|
 |:-----|:-----|:-----|
 |Comentário criado|CreateComment|O proprietário do formulário adiciona um comentário ou pontuação a um teste.|
@@ -826,7 +829,23 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondente é da mesma organização que o proprietário do formulário.|
 ||||
 
-### <a name="sensitivity-label-activities"></a>Atividades de rótulo de sensibilidade 
+#### <a name="forms-activities-performed-by-co-authors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos
+
+O Forms oferece suporte à colaboração quando os formulários estão sendo projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor*. Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário. 
+
+A tabela a seguir descreve as atividades e informações de auditoria no registro de auditoria para atividades executadas por coautores e respondentes anônimos.
+
+|**Tipo de atividade**|**Usuário interno ou externo**|**ID de usuário que está conectado**|**Organização conectada**|**Tipo de usuário do Forms**|
+|:-----|:-----|:-----|:-----|:-----|
+|Atividades de coautoria|Interno|UPN|Organização do proprietário do formulário|Coautoria|
+|Atividades de coautoria|Externo|UPN<br>|Organização do coautor<br>|Coautoria|
+|Atividades de coautoria|Externo|`urn:forms:coauthor#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário<br>|Coautoria|
+|Atividades de resposta|Externo|UPN<br>|Organização do respondente<br>|Respondente|
+|Atividades de resposta|Externo|`urn:forms:external#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID do usuário é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário|Respondente|
+|Atividades de resposta|Anônimo|`urn:forms:anonymous#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID do usuário é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário|Respondente|
+||||
+
+### <a name="sensitivity-label-activities"></a>Atividades de rótulo de sensibilidade
 
 A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos sites do SharePoint Online e do Teams.
 
