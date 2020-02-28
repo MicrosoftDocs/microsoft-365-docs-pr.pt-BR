@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 611876b7e403c8d877c602d21967675adef2d061
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 350e1906e4d645c444d772b1ade9a2ff9c850992
+ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288551"
+ms.locfileid: "42313796"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
 Ao criar rótulos de confidencialidade no [Centro de conformidade do Microsoft 365](https://protection.office.com/), você pode aplicá-los aos seguintes contêineres: Microsoft Teams, grupos do Office 365 e sites do SharePoint. Use as configurações de rótulo para controlar as seguintes opções para esses contêineres:
 
-- Privacidade dos sites de equipes conectadas ao grupo do Office 365 (públicas ou privadas)
+- Privacidade (pública ou privada) dos sites de equipes conectados a grupos do Office 365
 - Acesso de usuários externos
 - Acesso de dispositivos não gerenciados 
 
