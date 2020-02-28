@@ -2,43 +2,77 @@
   href: index.md
   expanded: true
   items:
+    - name: Experimentar ou comprar
+      items:
+        - name: Inscreva-se para uma avaliação do Office 365
+          href: sign-up-for-office-365-trial.md
+        - name: Experimente ou compre o Microsoft 365
+          href: try-or-buy-microsoft-365.md
+        - name: Prorrogar a avaliação
+          href: extend-your-trial.md
+        - name: Comprar outras assinaturas
+          href: buy-another-subscription.md
+        - name: Comprar ou editar um suplemento
+          href: buy-or-edit-an-add-on.md
+        - name: Adicionar espaço de armazenamento
+          href: add-storage-space.md
     - name: Gerenciar assinaturas
       items:
-        - name: Aplicativos de terceiros
-          href: manage-saas-apps.md
         - name: Atualizar assinaturas
-          href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
+          href: subscriptions/upgrade-to-different-plan.md
+        - name: Cancelar sua assinatura
+          href: subscriptions/cancel-your-subscription.md
+        - name: Reativar sua assinatura
+          href: subscriptions/reactivate-your-subscription.md
+        - name: Renovar sua assinatura
+          href: subscriptions/renew-your-subscription.md
+        - name: E se a minha assinatura expirar?
+          href: subscriptions/what-if-my-subscription-expires.md
+        - name: Gerenciar aplicativos de terceiros
+          href: manage-saas-apps.md
         - name: Gerenciar compras de autoatendimento (Usuários)
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
+          href: subscriptions/manage-self-service-purchases-users.md
         - name: Gerenciar compras de autoatendimento (Administrador)
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
+          href: subscriptions/manage-self-service-purchases-admins.md
     - name: Gerenciar licenças
       items:
         - name: Comprar licenças
-          href: /microsoft-365/commerce/licenses/buy-licenses
+          href: licenses/buy-licenses.md
         - name: Atribuir licenças
-          href: /microsoft-365/admin/manage/assign-licenses-to-users
+          href: ../admin/manage/assign-licenses-to-users.md
         - name: Cancelar licenças
-          href: /microsoft-365/admin/manage/remove-licenses-from-users
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: Remover licenças da assinatura
-          href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
-    - name: Faturas e pagamentos
+          href: licenses/remove-licenses-from-subscription.md
+        - name: Entenda as assinaturas e licenças
+          href: licenses/subscriptions-and-licenses.md
+    - name: Contas e pagamentos
       items:
-        - name: Entenda sua fatura
-          href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
-        - name: Gerenciar formas de pagamento
-          href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
+        - name: Exibir a fatura
+          href: billing-and-payments/view-your-bill-or-invoice.md
+        - name: Entenda a sua fatura
+          href: billing-and-payments/understand-your-invoice.md
+        - name: Gerenciar métodos de pagamento
+          href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+        - name: Pagar por sua assinatura
+          href: billing-and-payments/pay-for-your-subscription.md
+        - name: Alterar sua forma de pagamento
+          href: billing-and-payments/change-payment-method.md
+        - name: Alterar a frequência de pagamento
+          href: billing-and-payments/change-payment-frequency.md
         - name: Gerenciar perfis de cobrança
-          href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
+          href: billing-and-payments/manage-billing-profiles.md
+        - name: Alterar os endereços para cobrança
+          href: billing-and-payments/change-your-billing-addresses.md
         - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
-          href: /microsoft-365/commerce/billing-and-payments/psd2
+          href: billing-and-payments/psd2.md
     - name: Contas de cobrança
       items:
         - name: Gerenciar contas de cobrança
-          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
+          href: manage-billing-accounts.md
         - name: Associar um locatário à minha conta de cobrança
-          href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
-    - name: Gerenciar relações com meus parceiros
+          href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+    - name: Gerenciar relacionamentos com meus parceiros
       href: manage-partners.md
     - name: Fechar sua conta
       href: close-your-account.md

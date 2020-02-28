@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 0675601a888d19e6faaeb75169691909b071b92d
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 5dcd97400067645c48f02a31061721644bae553c
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179202"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277438"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -324,7 +324,7 @@ Para aplicar um rótulo automaticamente usando essa opção, as caixas de correi
 
 Para obter mais informações sobre os classificadores treináveis, confira [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md).
 
-Para obter uma configuração de exemplo, confira [como preparar e usar um classificador pronto para uso](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-ready-to-use-classifier).
+Para um exemplo de configuração, consulte [Como preparar e usar um classificador interno](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-built-in-classifier).
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>Aplicar um rótulo de retenção padrão a todo o conteúdo em uma biblioteca do SharePoint, pasta ou conjunto de documentos
 

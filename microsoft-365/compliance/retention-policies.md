@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: aa0c4667ab85945cd849f94fbfb1fda693e108bd
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 9ecc74610c0d150dd511a8e24fb66037768587a4
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106866"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280199"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -275,7 +275,7 @@ Estamos trabalhando continuamente na otimização da funcionalidade de retençã
    > [!NOTE]
    > Antes, uma política de retenção não podia excluir o conteúdo do Teams em menos de 30 dias, mas removemos essa limitação. Agora, o período de retenção do conteúdo do Teams pode ser personalizado, sendo no mínimo de um dia. Se o período de retenção for de um dia, as mensagens serão excluídas permanentemente três dias após o término do período de retenção.
     
-Em uma equipe do Teams, arquivos compartilhados em chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Arquivos carregados em canais são armazenados no site do SharePoint da equipe do Teams. Portanto, para manter ou excluir arquivos em uma equipe do Teams, você precisa criar uma política de retenção que se aplique especificamente aos locais do SharePoint e do OneDrive. Para aplicar uma política aos arquivos apenas para uma equipe específica, escolha o site do SharePoint da equipe do Teams e as contas do OneDrive dos usuários na equipe do Teams.
+No Teams, os arquivos compartilhados no chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Os arquivos carregados nos canais são armazenados no site do SharePoint da equipe. Portanto, para manter ou excluir arquivos no Teams, você precisa criar uma política de retenção que se aplique aos locais do OneDrive e Grupos do Office 365. Se você deseja aplicar uma política aos arquivos compartilhados no Teams de apenas um usuário ou equipe específica, poderá escolher os locais do OneDrive ou Grupos do Office 365 e incluir o usuário ou equipe específica.
   
 Uma política de retenção que se aplica ao Teams pode usar [Bloqueio de Preservação](#locking-a-retention-policy).
   
@@ -402,7 +402,7 @@ Se você estava usando uma política de preservação, essa política foi automa
 
 Os membros da sua equipe de conformidade que criarão políticas de retenção precisam de permissões para o [Centro de Conformidade&amp; e Segurança](https://protection.office.com/). Por padrão, o administrador de locatário terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade ao [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você acesse a página **Permissões** do [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), edite o grupo de função **Administrador de Conformidade** e adicione membros a esse grupo de função. 
   
-Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
+Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
 
 Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A imposição da política não exige acesso ao conteúdo.
   
