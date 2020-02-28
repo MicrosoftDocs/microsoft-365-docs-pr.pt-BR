@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f7c2a19a58dd616e2516ea70492f4f65ab211441
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: 960a09c89c855861e3db0402f40dd558b27527ac
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916876"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322550"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -56,15 +56,11 @@ As seguintes tarefas estão envolvidas para atender aos padrões RGPD. Siga os l
 
 Conforme mencionado acima, o plano de ação recomendado para o RGPD e as Listas de Verificação de Preparação de Responsabilidade fornece um guia para implementar ou avaliar a conformidade com o RGPD usando produtos e serviços da Microsoft.
 
-## <a name="the-gdpr-in-action"></a>O RGPD na prática
-
-Esta seção fornece uma estrutura de tópicos e os pontos a serem considerados para concluir as tarefas do RGPD mencionadas acima. A conclusão dessas tarefas pode variar dependendo da configuração da Microsoft.
-
-### <a name="data-subject-request-dsr"></a>Solicitação do Titular de Dados (DSR)
+## <a name="data-subject-request-dsr"></a>Solicitação do Titular de Dados (DSR)
 
 O GDPR concede a indivíduos (ou a entidades de dados) certos direitos relacionados ao processamento de seus dados pessoais, incluindo o direito de corrigir dados incorretos, apagar dados ou restringir seu processamento, receber seus dados e atender a uma solicitação para transmitir seus dados a outro controlador. O controlador é responsável por fornecer uma resposta adequada e consistente com o RGPD. Para obter detalhes técnicos, confira [Solicitações do titular de dados](gdpr-data-subject-requests.md).  
 
-#### <a name="dsr-faqs"></a>FAQs do DSR
+### <a name="dsr-faqs"></a>FAQs do DSR
 
 **Quais ações serão necessárias para concluir um DSR?**
 
@@ -105,11 +101,11 @@ Você pode encontrar uma série de artigos relacionados a RGPD. Produzidos pela 
 
 Os serviços online oferecem uma série de recursos para permitir que você, como controlador, responda à solicitação de um titular de dados. Os serviços online corporativos e os controles administrativos da Microsoft ajudam você a agir em dados pessoais em reação às solicitações de direitos dos titulares dos dados, o que permite descobrir, acessar, corrigir, restringir, excluir e exportar dados pessoais que residem nos dados gerenciados pelo controlador armazenados na nuvem da Microsoft. Os serviços online também fornecem dados em formato legível por máquina, caso você precise.
 
-### <a name="data-protection-impact-assessment"></a>Avaliações do Impacto sobre a Proteção dos Dados
+## <a name="data-protection-impact-assessment"></a>Avaliações do Impacto sobre a Proteção dos Dados
 
 O RGPD exige que os controladores preparem uma [Avaliação de Impacto de Proteção de Dados](gdpr-data-protection-impact-assessments.md) (DPIA) para operações que "provavelmente resultariam em alto risco para os direitos e a liberdade de pessoas físicas". Não há nada inerente aos produtos e serviços da Microsoft que precisem da criação de um DPIA. Em vez disso, depende dos detalhes da sua configuração da Microsoft. Uma lista de detalhes que devem ser considerados no Office pode ser encontrada no [Conteúdo de DPIA](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)
 
-#### <a name="dpia-faqs"></a>Perguntas frequentes sobre DPIA
+### <a name="dpia-faqs"></a>Perguntas frequentes sobre DPIA
 
 **Quando executar um DPIA?**
 
@@ -142,11 +138,11 @@ Essas análises de privacidade tendem a ser granulares – um serviço específi
 
 A Microsoft, como processador, tem o dever de ajudar os controladores a assegurar a conformidade com os requisitos para DPIA estabelecidos no RGPD. Para dar suporte aos nossos clientes, as seções relevantes de DPIAs da Microsoft foram abstraídas e serão fornecidas por meio desta seção em atualizações futuras, com a intenção de permitir que os controladores que dependem de serviços da Microsoft aproveitem os resumos para criar suas próprias DPIAs.
 
-### <a name="breach-notification"></a>Notificação de falha
+## <a name="breach-notification"></a>Notificação de falha
 
 O RGPD impõe requisitos de notificação para controladores e processadores de dados para uma violação de dados pessoais. Como um processador de dados, a Microsoft garante que os clientes possam atender aos requisitos de notificação de violação do RGPD. Os controladores de dados são responsáveis por avaliar os riscos de privacidade de dados e determinar se uma violação exige uma notificação de DPA do cliente. A Microsoft fornece as informações necessárias para a avaliação. Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](gdpr-breach-notification.md).
 
-#### <a name="breach-notification-faqs"></a>Perguntas frequentes sobre notificação de falha
+### <a name="breach-notification-faqs"></a>Perguntas frequentes sobre notificação de falha
 
 **O que constitui uma violação de dados pessoais no âmbito do RGPD?**
 
@@ -179,7 +175,7 @@ Para dar suporte em caso de uma violação de dados pessoais, a Microsoft tem:
 
 A Microsoft tem políticas e procedimentos em vigor para notificá-lo imediatamente. Para atender aos seus requisitos de notificação ao DPA, forneceremos uma descrição do processo que utilizamos para determinar se uma violação de dados pessoais ocorreu, uma descrição da natureza da violação e uma descrição das medidas tomadas para mitigar essa violação.
 
-### <a name="accountability-readiness-checklists-for-the-gdpr"></a>Listas de Verificação de Preparação de Responsabilidade para o RGPD
+## <a name="accountability-readiness-checklists-for-the-gdpr"></a>Listas de Verificação de Preparação de Responsabilidade para o RGPD
 
 Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de acessar as informações necessárias para dar suporte ao RGPD ao usar os produtos da Microsoft. Você pode gerenciar os itens nesta lista de verificação com a [Pontuação de Conformidade](compliance-score.md) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados pelo cliente no bloco do RGPD.
 

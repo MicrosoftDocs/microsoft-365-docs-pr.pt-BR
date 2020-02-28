@@ -65,7 +65,7 @@
       items:
         - name: Saiba mais sobre o gerenciamento de acesso privilegiado
           href: privileged-access-management-overview.md
-        - name: Configurar o gerenciamento de acesso privilegiado
+        - name: Introdução ao gerenciamento de acesso privilegiado
           href: privileged-access-management-configuration.md
     - name: Proteger acesso de usuário e de dispositivo
       href: protect-access-to-data-and-services.md
@@ -621,14 +621,15 @@
         - name: Preservar destinatários de grupo de distribuição Cco e expandido
           href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gerenciar investigações de dados
-  href: overview-data-investigations.md
   items:
+    - name: Visão geral das investigações de dados
+      href: overview-data-investigations.md
     - name: Gerenciar um incidente de derramamento de dados
       href: manage-data-spillage-incidents.md
+    - name: Atribuir permissões para investigações de dados
+      href: data-investigations-permissions.md
     - name: Criar uma nova investigação
       href: create-new-investigation.md
-    - name: Atribuir permissões para investigações de dados
-      href: permissions.md
     - name: Pesquisar dados em uma investigação
       href: search-for-data.md
       items:

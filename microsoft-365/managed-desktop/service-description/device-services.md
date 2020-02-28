@@ -7,18 +7,18 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 57ad4573712f0a407f8576c1a9ef7e19155bb0e1
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b20c3b3be7c4582c7adbfae183698c2725de4e7f
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982482"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328083"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Serviços de dispositivo de área de trabalho gerenciado da Microsoft
 
 Este tópico lista os serviços e as limitações de serviço dos dispositivos de área de trabalho gerenciada da Microsoft.
 
-## <a name="device-services"></a>Serviços de dispositivos
+## <a name="device-services"></a>Serviços do dispositivo
 
 A Microsoft fornecerá esses serviços para os dispositivos de área de trabalho gerenciada da Microsoft. Para obter informações sobre dispositivos de programas de área de trabalho gerenciado da Microsoft, consulte [Microsoft Managed desktop Devices](device-list.md).
 
@@ -26,7 +26,7 @@ A Microsoft fornecerá esses serviços para os dispositivos de área de trabalho
  --- | ---
 Suporte | Os agentes de suporte responderão perguntas diretamente relacionadas à funcionalidade do dispositivo e a diagnosticar problemas de dispositivos.
 Inventariar | Todos os dispositivos são rastreados no portal de administração de área de trabalho gerenciada da Microsoft para inventário e acompanhamento de status.
-Firmware/atualizações de driver | Por padrão, os dispositivos de área de trabalho gerenciada da Microsoft recebem firmware e atualizações de driver do Windows Update. Nem todos os parceiros de hardware implantam suas atualizações por meio do Windows Update; essas atualizações podem ser solicitadas separadamente.
+Firmware/atualizações de driver | Por padrão, os dispositivos de área de trabalho gerenciada da Microsoft recebem firmware e atualizações de driver do Windows Update. Nem todos os parceiros de hardware implantam suas atualizações por meio do Windows Update. As atualizações não publicadas como automáticas exigem uma exceção e devem ser implantadas pelo cliente.
 Acessórios | Os acessórios que acompanham o dispositivo são cobertos pelos mesmos serviços que o próprio dispositivo, mas os termos de garantia podem ser diferentes. Consulte os termos de garantia escolhidos ao selecionar seus dispositivos. 
 Configuração do dispositivo    | Os dispositivos serão pré-configurados com a versão atual do Windows e receberão seus aplicativos e configurações por meio da nuvem. 
 

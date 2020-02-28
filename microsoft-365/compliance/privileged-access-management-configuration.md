@@ -1,5 +1,5 @@
 ---
-title: Configurando o gerenciamento de acesso privilegiado no Office 365
+title: Introdução ao gerenciamento de acesso privilegiado
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Solutions
 ms.assetid: ''
-description: Use este tópico para saber mais sobre como configurar o gerenciamento de acesso privilegiado no Office 365
-ms.openlocfilehash: 36a473369ba539230bc4bbb2a630d74830844fc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Use este tópico para saber mais sobre como configurar o gerenciamento de acesso privilegiado.
+ms.openlocfilehash: bb1589252ab7a5f7a512db92666827dd9d3cc2d3
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601728"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322520"
 ---
-# <a name="configuring-privileged-access-management-in-office-365"></a>Configurando o gerenciamento de acesso privilegiado no Office 365
+# <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 
 >[!IMPORTANT]
 >Este tópico aborda as diretrizes de implantação e configuração dos recursos disponíveis atualmente no Office 365 E5 e nas SKUs de conformidade avançada.
@@ -279,7 +279,7 @@ Se ele não for mais necessário em sua organização, você poderá excluir uma
 
 5. Selecione a política que você deseja excluir e, em seguida, selecione **remover política**.
 
-6. Selecione **fechar**.
+6. Selecione **Fechar**.
 
 ### <a name="in-exchange-management-powershell"></a>No PowerShell de gerenciamento do Exchange
 

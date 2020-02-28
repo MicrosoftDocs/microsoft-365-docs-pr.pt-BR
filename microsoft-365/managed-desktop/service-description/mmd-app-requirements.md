@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1ca08e84bf27a64ba7515b6f4c0307c94621601c
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280099"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328063"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -59,5 +59,5 @@ Segurança:
 
 A área de trabalho gerenciada da Microsoft suporta apenas drivers de dispositivos que estão disponíveis por meio do Windows Update ou da caixa de entrada instalada com o dispositivo gerenciado da Microsoft. 
 
-Se um aplicativo exigir que um ou mais drivers específicos sejam executados, será considerado um aplicativo restrito e exigirá a implantação do para a área de trabalho gerenciada da Microsoft. 
+Se um aplicativo exigir que um ou mais drivers específicos sejam executados, será considerado um aplicativo restrito e exigirá uma exceção antes de ser implantado na área de trabalho gerenciada da Microsoft. 
 
