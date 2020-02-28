@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: ef4b5c9768687864427a0805039a35958c476142
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: 5a9ebf1cb2333f4aa7ca98ce36171ad5fce8dad2
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278767"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328114"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -155,7 +155,10 @@ Quando você atribui permissões, pode escolher:
 - Todos em sua organização (todos os membros locatários). Esta configuração exclui contas de convidados.
 - Todos os usuários autenticados. Verifique se você entendeu os [requisitos e limitações](#requirements-and-limitations-for-add-any-authenticated-users) dessa configurações antes de selecioná-la.
 - Qualquer usuário específico ou grupo de segurança, grupo de distribuição, grupo do Office 365 ou grupo de distribuição dinâmico habilitado para email. 
-- Qualquer endereço de email ou domínio fora da sua organização, como gmail.com, hotmail.com ou outlook.com. 
+- Qualquer endereço de email ou domínio. Use esta opção para especificar todos os usuários em outra organização que usa o Azure AD, inserindo qualquer nome de domínio dessa organização. Você também pode usar essa opção para provedores sociais, inserindo o nome de domínio, como **gmail.com**, **hotmail.com** ou **outlook.com**.
+
+> [!NOTE]
+> Se você especificar um domínio de uma organização que usa o Azure AD, não será possível restringir o acesso a esse domínio específico. Em vez disso, todos os domínios verificados no Azure AD são incluídos automaticamente para o locatário que possui o nome de domínio especificado por você.
 
 Quando você escolhe todos os membros locatários e pesquisa o diretório, os usuários ou grupos devem ter um endereço de email.
 
@@ -163,7 +166,7 @@ Como prática recomendada, use grupos em vez de usuários. Essa estratégia mant
 
 ##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>Requisitos e limitações para **Adicionar todos os usuários autenticados**
 
-Essa configuração não restringe as pessoas que podem acessar o conteúdo que o rótulo criptografa, ainda criptografando o conteúdo e fornecendo opções para restringir a maneira como o conteúdo pode ser usado (permissões) e acessado (expiração e acesso offline). No entanto, o aplicativo que está abrindo o conteúdo criptografado deve ser capaz de oferecer suporte à autenticação que está sendo usada. Por esse motivo, provedores de identidade federados, como o Google, e a autenticação única de senha funcionam somente para email e apenas quando você usa o Exchange Online e os novos recursos da Criptografia de Mensagem do Office 365. As contas da Microsoft podem ser usadas com aplicativos do Office 365 e com o [visualizador da Proteção de Informações do Azure](https://portal.azurerms.com/#/download).
+Essa configuração não restringe as pessoas que podem acessar o conteúdo que o rótulo criptografa, ainda criptografando o conteúdo e fornecendo opções para restringir a maneira como o conteúdo pode ser usado (permissões) e acessado (expiração e acesso offline). No entanto, o aplicativo que está abrindo o conteúdo criptografado deve ser capaz de oferecer suporte à autenticação que está sendo usada. Por esse motivo, os provedores sociais federados, como o Google, e a autenticação de senha única funcionam apenas para email e somente quando você usa o Exchange Online. As contas da Microsoft podem ser usadas com aplicativos do Office 365 e com o [visualizador da Proteção de Informações do Azure](https://portal.azurerms.com/#/download).
 
 Alguns cenários comuns para a configuração de todos os usuários autenticados:
 - Você não se importa em quem vê o conteúdo, mas deseja restringir a maneira como ele é usado. Por exemplo, você não deseja que o conteúdo seja editado, copiado ou impresso.
@@ -175,9 +178,9 @@ Alguns cenários comuns para a configuração de todos os usuários autenticados
 Quando você escolhe quais permissões atribuir para os usuários ou grupos, você pode selecionar:
 
 - Um [nível de permissões predefinidas](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) com um grupo predefinido de direitos, como co-autor ou revisor.
-- Um grupo de direitos personalizados, no qual você escolhe as permissões que desejar.
+- Permissões personalizadas, em que você escolhe um ou mais direitos de uso.
 
-Para saber mais sobre cada permissão específica, confira [Direitos de uso e descrições](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
+Para obter mais informações sobre como selecionar as permissões apropriadas, confira [Descrições e os direitos de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
 
 ![Opções para escolher permissões predefinidas ou personalizadas](../media/Sensitivity-Choose-permissions-settings.png)
 
@@ -255,6 +258,97 @@ Para rotulagem interna, os usuários visualizam a mesma caixa de diálogo se sel
 - Mac: guia **Revisar** > **Proteção** > **Permissões** > **Acesso Restrito**
 
 
+## <a name="example-configurations-for-the-encryption-settings"></a>Exemplos de configurações para as configurações de criptografia
+
+Para cada exemplo a seguir, faça a configuração na página **Criptografia** do assistente ao [criar ou editar rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels). Primeiro, certifique-se que a opção **Criptografia** está definida como **Aplicar**:
+
+![Aplicar opção de criptografia no assistente de rótulo de confidencialidade](../media/apply-encryption-option.png)
+
+### <a name="example-1-label-that-applies-do-not-forward-to-send-an-encrypted-email-to-a-gmail-account"></a>Exemplo 1: Rótulo que aplica Não Encaminhar para enviar um email criptografado para uma conta do Gmail
+
+Esse rótulo está disponível apenas no Outlook e Outlook na Web e você deve usar o Exchange Online. Instrua os usuários a selecionar esse rótulo quando precisarem enviar um email criptografado para pessoas que usam uma conta do Gmail (ou qualquer outra conta de email fora da sua organização). 
+
+Os usuários digitam o endereço de email do Gmail na caixa **Para**.  Em seguida, eles selecionam o rótulo e a opção Não Encaminhar é adicionada automaticamente ao email. O resultado é que os destinatários não podem encaminhar o email, imprimi-lo, copiá-lo ou salvá-lo fora da caixa de correio usando a opção **Salvar Como**. 
+
+1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione**Permitir que os usuários atribuam permissões ao aplicar o rótulo**.
+
+3. Marque a caixa de seleção: **No Outlook, impor restrições equivalentes à opção Não Encaminhar**.
+
+4. Se selecionad0, desmarque a caixa de seleção: **No Word, PowerPoint e Excel, solicite aos usuários que especifiquem permissões**.
+
+5. Selecione **Próximo** e conclua o assistente.
+
+
+### <a name="example-2-label-that-restricts-read-only-permission-to-all-users-in-another-organization"></a>Exemplo 2: Rótulo que restringe a permissão somente leitura para todos os usuários em outra organização
+
+Esse rótulo é adequado para compartilhar documentos muito confidenciais como somente leitura e os documentos que sempre exigem uma conexão com a Internet para visualizá-los.
+
+Esse rótulo não é adequado para emails.
+
+1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione **Atribuir permissões agora**.
+
+3. Para **Permitir acesso offline**, selecione **Nunca**.
+
+4. Selecione **Atribuir permissões**.
+
+3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios**.
+
+4. Na caixa de texto, insira o nome de um domínio da outra organização, por exemplo, **fabrikam.com**. Em seguida, selecione **OK**.
+
+5. Selecione **Escolher permissões em existentes ou personalizadas**.
+
+6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione **Visualizador** e, em seguida, selecione **Salvar**.
+
+6. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
+
+7. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
+
+
+### <a name="example-3-add-external-users-to-an-existing-label-that-encrypts-content"></a>Exemplo 3: Adicionar usuários externos a um rótulo existente que criptografa conteúdo
+
+Os novos usuários que você adicionar poderão abrir documentos e emails que já foram protegidos com esse rótulo. As permissões que você concede a esses usuários podem ser diferentes das permissões que os usuários existentes possuem.
+
+1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** verifique se a opção **Atribuir permissões agora** está selecionada.
+
+2. Selecione **Atribuir permissões**.
+
+3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios**.
+
+4. Na caixa de texto, insira o endereço de email do primeiro usuário (ou grupo) a ser adicionado e, em seguida, selecione **Adicionar**.
+
+5. Selecione **Escolher permissões em existentes ou personalizadas**.
+
+6. No painel **Escolher permissões em existentes ou personalizadas**, selecione as permissões para esse usuário (ou grupo) e, em seguida, selecione **Salvar**.
+
+7. Volte para o painel **Atribuir permissões**, repita as etapas de 3 a 6 para cada usuário (ou grupo) que você deseja adicionar a esse rótulo. Em seguida, clique em **Salvar**.
+
+8. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
+
+
+### <a name="example-4-label-that-encrypts-content-but-doesnt-restrict-who-can-access-it"></a>Exemplo 4: Rótulo que criptografa o conteúdo, mas não restringe quem pode acessá-lo
+
+Essa configuração tem a vantagem de que você não precisa especificar usuários, grupos ou domínios para criptografar um email ou documento. O conteúdo ainda será criptografado e você ainda poderá especificar os direitos de uso, uma data de vencimento e o acesso offline. 
+
+Use essa configuração somente quando não precisar restringir quem pode abrir o documento protegido ou o email. [Mais informações sobre essa configuração](#requirements-and-limitations-for-add-any-authenticated-users)
+
+1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** verifique se a opção **Atribuir permissões agora** está selecionada.
+
+2. Defina as configurações para **O acesso do usuário ao conteúdo expira** e **Permitir acesso offline**, conforme necessário.
+
+3. Selecione **Atribuir permissões**.
+
+4. No painel **Atribuir permissões**, selecione **Adicionar todos os usuários autenticados**. 
+    
+    Para **Usuários e grupos**, você vê **AuthenticatedUsers** adicionado automaticamente. Você não pode alterar esse valor, só excluí-lo, o que cancela a seleção **Adicionar todos os usuários autenticados**.
+
+5. Selecione **Escolher permissões em existentes ou personalizadas**.
+
+6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione as permissões de **Visualizador** desejadas e, em seguida, selecione **Salvar**.
+
+7. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
+
+8. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
+
 ## <a name="considerations-for-encrypted-content"></a>Considerações para o conteúdo criptografado
 
 Criptografar seus documentos e emails mais confidenciais ajuda a garantir que somente pessoas autorizadas possam acessar esses dados. No entanto, há algumas coisas a se considerar:
@@ -291,9 +385,9 @@ Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de
 
 ### <a name="configure-exchange-for-azure-information-protection"></a>Configurar o Exchange para a Proteção de Informações do Azure
 
-O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários podem aplicar rótulos no Outlook para proteger seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não conseguirá obter a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
+O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários possam aplicar rótulos no Outlook para criptografar seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não obtém a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
  
-Por exemplo, usuários não podem exibir emails protegidos em celulares ou com o Outlook na Web, os emails protegidos não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para a proteção do Gerenciamento de Direitos. 
+Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos. 
 
 Para garantir que Exchange possa dar suporte a esses cenários adicionais, confira o seguinte:
 
