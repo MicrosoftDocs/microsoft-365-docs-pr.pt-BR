@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1c53eded5e50d480cdce2ccbcb61f732bc899041
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4f456b44ed0d7b3fb83a20d9c66ab49ff8af4946
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078769"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333658"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -45,7 +45,7 @@ Conclua estas etapas para configurar e usar a conformidade de comunicação em s
 >[!Important]
 >Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
 
-Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Você deve criar um novo grupo de função para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**e as funções de **revisão** para investigar e corrigir mensagens com correspondências de política.
+Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Você deve criar um novo grupo de função para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**, o **administrador de conformidade**e as funções de **revisão** para investigar e corrigir mensagens com correspondências de política.
 
 ### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
 
@@ -57,9 +57,9 @@ Para tornar a **conformidade de comunicação** disponível como uma opção de 
 
 4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
 
-5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para **administrador de análise de supervisão**, gerenciamento de **casos**e **revisão**e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para **administrador de análise de supervisão**, gerenciamento de **casos**, **administrador de conformidade**e **revisão**e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
 
-    ![Grupos de função de conformidade de comunicação necessária](../media/communication-compliance-role-groups.png)
+    ![Grupos de função de conformidade de comunicação necessária](../media/communication-compliance-role-groups-1.png)
 
 6. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
 

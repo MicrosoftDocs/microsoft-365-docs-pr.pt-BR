@@ -12,13 +12,13 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos datacenters da Microsoft.
-ms.openlocfilehash: 6fd7167dd46f3a44d97a493830aef19e40f062e8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft.
+ms.openlocfilehash: 0910374051073cb67ee4d2a4fac0a88871a2fd73
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076910"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333648"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Criptografia de serviço com a chave do cliente no Office 365
 

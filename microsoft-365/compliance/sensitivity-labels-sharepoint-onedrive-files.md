@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 5d9b5a493b44ef4453906f1601481a6aa89c3884
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 89925858ac749ac6f50b7a049a372cf2f7912698
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288529"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341244"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -56,7 +56,7 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -77,8 +77,10 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
     2. Baixe os arquivos e carregue-os no SharePoint.
 
 - O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem uma das seguintes configurações de criptografia:
-    - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem permissões**
+    - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e a caixa de seleção **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem permissões** está selecionado. Essa configuração às vezes é chamada de "permissões definidas pelo usuário".
     - O **acesso do usuário ao conteúdo expira** é definido como um valor diferente de **nunca**.
+    
+    Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos aos usuários no Office na Web. Além disso, os novos recursos desta visualização não podem ser usados com documentos rotulados que já possuem essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
 
 - Para um documento criptografado que concede permissões de edição para um usuário, a cópia não pode ser bloqueada nas versões Web dos aplicativos do Office.
 
@@ -100,7 +102,7 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 
 Antes de habilitar a visualização, verifique se você está executando o Shell de gerenciamento do SharePoint Online versão 16.0.19418.12000 ou superior. Se você já tiver a versão mais recente, poderá prosseguir e habilitar a visualização.
 
-1. Se você tiver instalado uma versão anterior do Shell de gerenciamento do SharePoint Online a partir da galeria do PowerShell, você pode atualizar o módulo executando o seguinte cmdlet.
+1. Se você tiver instalado uma versão anterior do Shell de Gerenciamento do SharePoint Online na galeria do PowerShell, poderá atualizar o módulo executando o cmdlet a seguir.
 
     ```PowerShell
     Update-Module -Name Microsoft.Online.SharePoint.PowerShell
