@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 7e217f5fcb7f93e91ec0ed3ab6d4a806597fbfb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 56ffbcc638ecfe304ff71273ec2ce00abd05ddca
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237398"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341225"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover seus métodos de pagamento
 
@@ -42,6 +42,8 @@ Você só pode gerenciar os métodos de pagamento que você adicionou.
 > A opção de pagamento com uma conta bancária não está disponível em alguns países ou regiões.
 >
 > Você deve usar um cartão de crédito emitido do mesmo país do seu locatário.
+
+**A interface que você vê não corresponde à descrita neste artigo?** Em caso afirmativo, consulte [Manage Payment Methods](manage-payment-methods.md).
 
 ## <a name="add-a-payment-method"></a>Adicionar um método de pagamento
 

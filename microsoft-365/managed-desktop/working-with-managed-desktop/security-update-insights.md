@@ -1,19 +1,19 @@
 ---
-title: Informações de atualização de segurança do Windows
+title: Percepções de atualização da segurança do Windows
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 600491fbdd70315385587eb8cb443a1696c3bee6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251527"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341262"
 ---
-# <a name="windows-security-update-insights"></a>Informações de atualização de segurança do Windows
+# <a name="windows-security-update-insights"></a>Percepções de atualização da segurança do Windows
 Este modo de exibição fornece uma visão geral do status das atualizações de segurança para seus dispositivos de área de trabalho gerenciada da Microsoft. 
 
 Para exibir os dados de uso, selecione a guia <strong>atualizações de segurança do Windows</strong> .
@@ -28,7 +28,7 @@ Categorizamos a atividade do dispositivo no contexto do Windows Update com estes
 
 - <strong>Ativo:</strong> Dispositivos que atenderam aos critérios de uso mínimo (seis horas, dois contínuos) para a versão mais recente da atualização de segurança e fizeram check-in com o Microsoft Intune pelo menos a cada cinco dias
 - <strong>Sincronizado:</strong> Dispositivos com check-in no Intune nos últimos 28 dias
-- <strong>Fora de sincronização</strong> – dispositivos que <i>não</i> sofreram check-in com o Intune nos últimos 28 dias
+- <strong>Fora de sincronização:</strong> Dispositivos que <i>não</i> fizeram check-in com o Intune nos últimos 28 dias
 
 
 
