@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 350e1906e4d645c444d772b1ade9a2ff9c850992
-ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
+ms.openlocfilehash: 477b168435d36170a1506adff021ee4cb5ab5162
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42313796"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333708"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -87,7 +87,7 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 > 
 > Da mesma forma, se você criar um rótulo e não ativar essas configurações de site e grupo, o rótulo ainda estará disponível quando os usuários criarem equipes, grupos e sites, mas apenas o nome do rótulo será aplicado.
 
-Se seu rótulo ainda não estiver publicado, publique-o agora [adicionando-o a uma política de rótulo](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+Se o seu rótulo de confidencialidade ainda não estiver publicado, publique-o agora [adicionando-o a uma política de rótulo de confidencialidade](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy). Os usuários aos quais tenha sido atribuída uma política de rótulo de confidencialidade que inclua esse rótulo poderão selecioná-lo para sites e grupos.
 
 ## <a name="sensitivity-label-management"></a>Gerenciamento de rótulo de confidencialidade
 
