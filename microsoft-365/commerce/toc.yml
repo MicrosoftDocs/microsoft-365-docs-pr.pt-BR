@@ -1,5 +1,5 @@
-- name: Gerenciar compras e cobranças comerciais
-  href: index.md
+- name: Gerenciar assinaturas comerciais
+  href: index.yml
   expanded: true
   items:
     - name: Experimentar ou comprar
@@ -10,7 +10,7 @@
           href: try-or-buy-microsoft-365.md
         - name: Prorrogar a avaliação
           href: extend-your-trial.md
-        - name: Comprar outras assinaturas
+        - name: Comprar outra assinatura
           href: buy-another-subscription.md
         - name: Comprar ou editar um suplemento
           href: buy-or-edit-an-add-on.md
@@ -20,12 +20,12 @@
       items:
         - name: Atualizar assinaturas
           href: subscriptions/upgrade-to-different-plan.md
-        - name: Cancelar sua assinatura
-          href: subscriptions/cancel-your-subscription.md
-        - name: Reativar sua assinatura
-          href: subscriptions/reactivate-your-subscription.md
         - name: Renovar sua assinatura
           href: subscriptions/renew-your-subscription.md
+        - name: Reativar sua assinatura
+          href: subscriptions/reactivate-your-subscription.md
+        - name: Cancelar sua assinatura
+          href: subscriptions/cancel-your-subscription.md
         - name: E se a minha assinatura expirar?
           href: subscriptions/what-if-my-subscription-expires.md
         - name: Gerenciar aplicativos de terceiros
@@ -38,12 +38,12 @@
       items:
         - name: Comprar licenças
           href: licenses/buy-licenses.md
-        - name: Atribuir licenças
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: Cancelar licenças
-          href: ../admin/manage/remove-licenses-from-users.md
         - name: Remover licenças da assinatura
           href: licenses/remove-licenses-from-subscription.md
+        - name: Atribuir licenças aos usuários
+          href: ../admin/manage/assign-licenses-to-users.md
+        - name: Cancelar a atribuição de licenças dos usuários`
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: Entenda as assinaturas e licenças
           href: licenses/subscriptions-and-licenses.md
     - name: Contas e pagamentos
@@ -76,3 +76,5 @@
       href: manage-partners.md
     - name: Fechar sua conta
       href: close-your-account.md
+    - name: Contatar o suporte
+      href: ../admin/contact-support-for-business-products.md
