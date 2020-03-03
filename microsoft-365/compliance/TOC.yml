@@ -218,8 +218,9 @@
     - name: Gerenciar governança de informações
       href: manage-information-governance.md
     - name: Importar dados
-      href: importing-pst-files-to-office-365.md
       items:
+        - name: Visão geral da importação de arquivos PST
+          href: importing-pst-files-to-office-365.md
         - name: Usar o carregamento de rede para importar arquivos PST
           href: use-network-upload-to-import-pst-files.md
         - name: Usar a entrega de unidade para importar arquivos PST
@@ -231,8 +232,9 @@
         - name: Perguntas Frequentes sobre a importação de arquivos PST
           href: faqimporting-pst-files-to-office-365.md
     - name: Arquivar dados de terceiros
-      href: archiving-third-party-data.md
       items:
+        - name: Visão geral do arquivamento de dados de terceiros
+          href: archiving-third-party-data.md
         - name: Configurar um conector para arquivar dados do Facebook
           href: archive-facebook-data-with-sample-connector.md
         - name: Configurar um conector para arquivar dados do Twitter
@@ -276,8 +278,9 @@
     - name: Descartar dados
       href: disposition-reviews.md
     - name: Gerenciar caixas de correio inativas
-      href: inactive-mailboxes-in-office-365.md
       items:
+        - name: Visão geral das caixas de correio inativas
+          href: inactive-mailboxes-in-office-365.md
         - name: Criar e gerenciar caixas de correio inativas
           href: create-and-manage-inactive-mailboxes.md
         - name: Alterar a duração do bloqueio para uma caixa de correio inativa
@@ -718,10 +721,13 @@
     - name: Auditoria de caixa de correio
       href: enable-mailbox-auditing.md
     - name: Auditoria avançada
-      href: advanced-audit.md
       items:
+        - name: Visão geral da auditoria avançada
+          href: advanced-audit.md
         - name: Gerenciar políticas de retenção de log de auditoria
           href: audit-log-retention-policies.md
+        - name: Usar a auditoria avançada para investigar contas comprometidas
+          href: mailitemsaccessed-forensics-investigations.md
     - name: Políticas de alerta
       href: alert-policies.md
 - name: Gerenciar riscos de conformidade.
