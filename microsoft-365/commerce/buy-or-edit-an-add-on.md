@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Saiba como adquirir um complemento para adicionar mais funcionalidades à sua assinatura do Office 365 para empresas. Você também pode atualizar e remover um complemento.
 ms.custom: okr_SMB
-ms.openlocfilehash: 717290306eb981018739604d9491da9ab3372d70
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 78113fcfdfce03ae09318e062847cedd1938760a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237359"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354802"
 ---
 # <a name="buy-or-edit-an-add-on-for-office-365-for-business"></a>Comprar ou editar um complemento do Office 365 para empresas
 
@@ -69,7 +69,7 @@ Várias dos planos do Office 365 para empresas possuem complementos que você po
 
 3. No canto inferior esquerdo dos detalhes da assinatura **, selecione** \> Complementos **comprar Complementos**..
 
-    ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. Na página **serviços de compra** , passe o mouse ou toque na assinatura complementar que você deseja comprar e selecione **comprar agora**.
 
@@ -91,7 +91,7 @@ Várias dos planos do Office 365 para empresas possuem complementos que você po
 
 3. No canto inferior esquerdo dos detalhes da assinatura **, selecione** \> Complementos **comprar Complementos**..
 
-    ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. Na página **serviços de compra** , passe o mouse ou toque na assinatura complementar que você deseja comprar e selecione **comprar agora**.
 
@@ -143,14 +143,14 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 
 4. Selecione o link **Alterar quantidade** para o complemento que você deseja atualizar. 
 
-    ![Link de suplementos e link para alterar quantidade.](../admin/media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
+    ![Link de suplementos e link para alterar quantidade.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
 5. Insira o número de licenças de usuário necessárias na caixa e selecione **Enviar**.
 
     > [!TIP]
     > Você também pode usar a seta para cima e a seta para baixo para alterar a quantidade de licenças de usuário ou inserir apenas o número desejado na caixa.
   
-    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../admin/media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
+    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 ::: moniker-end
 
@@ -166,14 +166,14 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 
 4. Selecione o link **Alterar quantidade** para o complemento que você deseja atualizar. 
 
-    ![Link de suplementos e link para alterar quantidade.](../admin/media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
+    ![Link de suplementos e link para alterar quantidade.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
 5. Insira o número de licenças de usuário necessárias na caixa e selecione **Enviar**.
 
     > [!TIP]
     > Você também pode usar a seta para cima e a seta para baixo para alterar a quantidade de licenças de usuário ou inserir apenas o número desejado na caixa.
   
-    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../admin/media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
+    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 
 ::: moniker-end
@@ -201,7 +201,7 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
     > [!TIP]
     > Você também pode usar as setas para cima e para baixo para alterar a quantidade de licenças ou apenas inserir o número desejado na caixa.
   
-    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../admin/media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
+    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 ::: moniker-end
 
@@ -216,7 +216,7 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
     > [!TIP]
     > Você também pode usar as setas para cima e para baixo para alterar a quantidade de licenças ou apenas inserir o número desejado na caixa.
   
-    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../admin/media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
+    ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 ::: moniker-end
 

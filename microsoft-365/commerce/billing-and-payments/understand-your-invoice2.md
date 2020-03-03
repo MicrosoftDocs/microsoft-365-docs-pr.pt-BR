@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar as informações sobre encargos, cobrança e pagamento em sua fatura do Office 365 para empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 2cb95b49136c186158d3b8ba3fe868d2c863e0de
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 624480cdc810d5e764cad2a8e569ca60d14dc3ea
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237373"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354682"
 ---
 # <a name="understand-your-invoice-for-office-365-for-business"></a>Entenda sua fatura do Office 365 para empresas
 
@@ -37,11 +37,11 @@ A cada mês, você receberá um email informando que o novo demonstrativo de cob
   
 A fatura contém duas páginas. A página 1 contém o resumo e informações gerais sobre a fatura, o pedido, o valor devido, a forma de pagamento e como contatar o suporte.
   
-![Page 1 of a sample invoice.](../../admin/media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
+![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
 A página 2 contém detalhes sobre as atividades de cobrança de cada assinatura.
   
-![Page 2 of a sample invoice.](../../admin/media/808195cb-b1d2-4492-a748-29671ccecdd2.png)
+![Page 2 of a sample invoice.](../../media/808195cb-b1d2-4492-a748-29671ccecdd2.png)
   
 Para ver descrições sobre os campos e termos incluídos na fatura, confira o tópico [Glossário de Campos da Fatura](#invoice-field-glossary) mais adiante neste artigo.
   
@@ -66,7 +66,7 @@ A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados 
 > [!NOTE]
 > O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
   
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |Preço anual|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança anual durante a compra da assinatura, o preço anual da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
 |Período de Cobrança|Um período de cobrança é o período de tempo decorrido desde a data da última fatura. Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço.|

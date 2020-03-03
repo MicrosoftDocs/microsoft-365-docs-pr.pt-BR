@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71b145a42d873c7c6b2345a7da31d072493e7594
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4710e4ecdb8e17f3601cd375db461e8357a4aded
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237936"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356672"
 ---
 # <a name="contact-support-for-saint-pierre-and-miquelon"></a>Entrar em contato com o suporte para Saint Pierre e Miquelon
 

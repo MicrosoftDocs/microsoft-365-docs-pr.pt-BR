@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fa1a454d8e6f4f8e9d44baa5479dfee30d531365
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 72a834f8b79cb67f4752bacfe659d9567c7f7520
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250907"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357792"
 ---
 # <a name="contact-support-for-madagascar"></a>Contatar o suporte para Madagascar
 

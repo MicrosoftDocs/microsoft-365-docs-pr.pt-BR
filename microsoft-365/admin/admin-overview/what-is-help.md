@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Saiba mais sobre as maneiras como você pode obter ajuda usando o centro de administração do Microsoft 365.
-ms.openlocfilehash: 4aa2d46121aa1a817381592a02bbb9b875207427
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2d75add5b34a760358523de6e6f10553c1984abe
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237097"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352972"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -43,7 +43,7 @@ Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.co
                     <a href="what-is-help.md#integrated-help">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -62,7 +62,7 @@ Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.co
                     <a href="what-is-help.md#modern-self-help-powered-by-ai">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -81,7 +81,7 @@ Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.co
                     <a href="what-is-help.md#guides-and-articles">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -98,7 +98,7 @@ Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.co
 ## <a name="integrated-help"></a>Ajuda integrada
 A ajuda está integrada em todo o centro de administração e, portanto, está correta quando você precisa. Na parte superior de muitas páginas, você encontrará o texto de ajuda embutida que fornece uma visão geral informativa da tarefa em mãos, bem como links para artigos que permitem encontrar rapidamente a documentação oficial para um aprendizado mais aprofundado.
 
-![Página de grupos mostrando ajuda embutida e links para artigos](../media/integrated-help.png)
+![Página de grupos mostrando ajuda embutida e links para artigos](../../media/integrated-help.png)
 
 ## <a name="modern-self-help-powered-by-ai"></a>Auto-ajuda moderna alimentada pelo AI
 
@@ -106,7 +106,7 @@ Selecionar o botão "precisa de ajuda" no centro de administração do Microsoft
 
 Ou, para os horários em que você não sabe como fazer algo em sua situação específica, use o assistente de suporte. Atualmente, essa experiência só está disponível em inglês. Basta usar a opção de alternância na parte superior do painel "precisa de ajuda" para ativá-la. O assistente de suporte fornece uma interface de conversa para obter ajuda. Insira sua consulta, e o chatbot fará perguntas de esclarecimento para obter a resposta certa para a sua situação específica. Pense nisso como seu auxiliar virtual para descobrir soluções e concluir tarefas.
 
-![Auto-ajuda moderna](../media/help-options.png)
+![Auto-ajuda moderna](../../media/help-options.png)
 
 É claro que às vezes, as perguntas são melhores para os seres humanos. Se nossa auto-ajuda moderna não tiver a resposta, você sempre terá a opção de entrar em contato com nossos agentes de suporte.
 

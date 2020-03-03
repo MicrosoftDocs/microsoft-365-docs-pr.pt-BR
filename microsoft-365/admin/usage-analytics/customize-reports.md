@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Saiba como personalizar relatórios no navegador e no Power BI desktop.
-ms.openlocfilehash: 5fc3b399638b2f1e9b1b2726fbf58e22eda33e01
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 6e4bb6cf977607ca6e3b3f57240ac89dbd530e4f
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237887"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355152"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Personalizar os relatórios na análise de uso do Microsoft 365
 
@@ -42,19 +42,19 @@ Este exemplo mostra como modificar a guia de **ativação** dentro do relatório
   
 1. No relatório de **ativação/licenciamento** , clique na guia **ativação** .
     
-2. Insira o modo de edição clicando no botão **Editar** na parte superior através do ![botão mais página no botão Power bi](../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
+2. Insira o modo de edição clicando no botão **Editar** na parte superior através do ![botão mais página no botão Power bi](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
     
-    ![Click Edit report on the top right navigation](../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
+    ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
 3. No canto superior direito, clique em **duplicar esta página**.
     
-    ![Choose Duplicate this page](../media/b2d18dcd-6b82-4ce7-ab79-1b24e3721309.png)
+    ![Choose Duplicate this page](../../media/b2d18dcd-6b82-4ce7-ab79-1b24e3721309.png)
   
 4. No canto inferior direito, clique em qualquer um dos gráficos de barras mostrando a contagem de ativação de usuários com base no sistema operacional, como Android, iOS, Mac, etc.
     
 5. Na área **visualizações** para a direita, para remover a **contagem de Mac** do Visual, clique no **X** ao lado dela.
 
-    ![Remover contagem de Mac](../media/ce3d8358-df57-4f64-bd25-ac5be7fc8713.png)    
+    ![Remover contagem de Mac](../../media/ce3d8358-df57-4f64-bd25-ac5be7fc8713.png)    
     
 ### <a name="create-a-new-visual"></a>Criar um novo visual
 
@@ -62,13 +62,13 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
   
 1. Vá para o relatório de **uso do produto** usando a barra de navegação esquerda e clique na guia do **Yammer** .
     
-2. Alterne para o modo de edição clicando ![no botão mais página no Power bi](../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) e **Editar**. 
+2. Alterne para o modo de edição clicando ![no botão mais página no Power bi](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) e **Editar**. 
     
-3. Na parte inferior da página, clique em ![O botão Adicionar página no Power BI](../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) para criar uma nova página.
+3. Na parte inferior da página, clique em ![O botão Adicionar página no Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) para criar uma nova página.
   
 4. Na área **visualizações** à direita, clique no **gráfico de barras empilhadas** (linha superior, primeiro à esquerda).
 
-    ![Selecionar gráfico de barras](../media/214c3fed-6eae-43e6-83fb-708a2d74406e.png)
+    ![Selecionar gráfico de barras](../../media/214c3fed-6eae-43e6-83fb-708a2d74406e.png)
     
 5. Clique na parte inferior direita dessa visualização e arraste para ampliá-la.
 
@@ -76,7 +76,7 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
 
 7. Arraste **MonthName** para a área de campos, diretamente abaixo do cabeçalho **Eixo** na área **Visualizações**.
  
-    ![Arrastar nome do mês](../media/bff99987-8c4b-4618-89fd-47df557b0ed7.png)
+    ![Arrastar nome do mês](../../media/bff99987-8c4b-4618-89fd-47df557b0ed7.png)
     
 8. Na área **Campos** à direita, expanda a tabela **TenantProductUsage**.
 
@@ -86,9 +86,9 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
 
 11. Na área **Tipo de filtro** que aparece, selecione a caixa de seleção **Yammer**.
 
-    ![Caixa de seleção selecionar Yammer](../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
+    ![Caixa de seleção selecionar Yammer](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Logo abaixo da lista de visualizações, **clique no ícone Format** Icon ![Format no Power bi Visualizaions](../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png).
+12. Logo abaixo da lista de visualizações, **clique no ícone Format** Icon ![Format no Power bi Visualizaions](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png).
 
 13. Expanda o título e altere o valor do **Título do Texto** para **Usuários do Yammer pela primeira vez por mês**.
     
@@ -112,7 +112,7 @@ Você pode começar conectando-se diretamente com as APIs de relatório ODATA da
     
     **Observação:** As APIs de relatórios estão em visualização e estão sujeitas a alterações até que entrem em produção. 
   
-    ![OData feed URL for Power BI desktop](../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
+    ![OData feed URL for Power BI desktop](../../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
   
 3. Digite suas credenciais de administrador do Microsoft 365 (organização ou escola) para se autenticar no Microsoft 365 quando solicitado.
     
@@ -124,7 +124,7 @@ Você pode começar conectando-se diretamente com as APIs de relatório ODATA da
     
     Isso baixará os dados em sua Área de trabalho do Power BI. Salve este arquivo e então você poderá começar a criar os relatórios de que precisa.
     
-    ![Valores de ODATA disponíveis na API de relatórios](../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
+    ![Valores de ODATA disponíveis na API de relatórios](../../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
   
 ### <a name="use-the-microsoft-365-usage-analytics-template"></a>Usar o modelo de análise de uso do Microsoft 365
 
@@ -136,7 +136,7 @@ Você pode baixar o arquivo de modelo do Power BI no centro de download da Micro
     
 2. Digite o valor da ID do locatário na caixa de diálogo.
     
-    ![Enter your tenant ID to open the pbit file](../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
+    ![Enter your tenant ID to open the pbit file](../../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
   
 3. Digite suas credenciais de administrador para se autenticar no Microsoft 365 quando solicitado.
     

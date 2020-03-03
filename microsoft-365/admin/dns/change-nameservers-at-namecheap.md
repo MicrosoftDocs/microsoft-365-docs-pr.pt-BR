@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Saiba como configurar seu domínio personalizado do Office 365 com o Namecheap se quiser que o Office 365 gerencie seus registros DNS. '
-ms.openlocfilehash: caf0a484b82ecf10f2835ae8fd5dea98c16e61c3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3a26f2acb9bb52d05974f050b265dd3e1a0fc0cb
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237432"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351802"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-namecheap"></a>Alterar os nameservers para configurar o Office 365 com o Namecheap
 
@@ -38,63 +38,63 @@ Siga essas instruções se desejar que o Office 365 gerencie os registros DNS do
 
 1. Para começar, vá até a sua página de domínios no Namecheap usando [este link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). Você será solicitado a entrar e continuar.
     
-    ![Namecheap-BP-configure-1-1](../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
+    ![Namecheap-BP-configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
 2. Na página de **aterrissagem** , em **conta**, escolha **lista de domínios** na lista suspensa. 
     
-    ![Namecheap-BP-configure-1-2](../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
+    ![Namecheap-BP-configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
 3. Na página **lista de domínios** , localize o nome do domínio que você deseja editar e, em seguida, selecione **gerenciar**.
     
-    ![Namecheap-BP-configure-1-3](../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
+    ![Namecheap-BP-configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
 4. Selecione **DNS avançado**.
     
-    ![Namecheap-BP-configure-1-4](../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
+    ![Namecheap-BP-configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
 5. Na seção **registros de host** , selecione **Adicionar novo registro**.
     
-    ![Namecheap-BP-configure-1-5](../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
+    ![Namecheap-BP-configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Na lista suspensa **tipo** , selecione **registro txt**.
     
     > [!NOTE]
     > O menu suspenso **tipo** aparece automaticamente quando você seleciona **Adicionar novo registro**.
   
-    ![Namecheap-BP-Verify-1-1](../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
+    ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
-7. In the boxes for the new record, type or copy and paste the values from the following table.
+7. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
     (Escolha o valor **TTL** na lista suspensa.) 
     
 |**Tipo**|**Host**|**Valor**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|TXT  <br/> |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
+|TXT  <br/> |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
    
-   ![Namecheap-BP-Verify-1-2](../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
+   ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
 8. Selecione o controle **salvar alterações** (marca de seleção). 
     
-    ![Namecheap-BP-Verify-1-3](../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png)
+    ![Namecheap-BP-Verify-1-3](../../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png)
   
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Office 365 e solicite que o Office 365 procure o registro.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
   
-1. No centro de administração, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
     
-2. Na página **domínios** , selecione o domínio que você está verificando. 
+2. Na página **Domínios**, clique no domínio que você está verificando. 
     
     
   
-3. Na página **configuração** , selecione **Iniciar configuração**.
+3. Na página **Configuração**, clique em **Iniciar configuração**.
     
     
   
-4. Na página **verificar domínio** , selecione **verificar**.
+4. Na página **Verificar domínio**, marque **Verificar**.
     
     
   
@@ -113,23 +113,23 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
   
 1. Para começar, vá até a sua página de domínios no Namecheap usando [este link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). Você será solicitado a entrar e continuar.
     
-    ![Namecheap-BP-configure-1-1](../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
+    ![Namecheap-BP-configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
 2. Na página de **aterrissagem** , em **conta**, escolha **lista de domínios** na lista suspensa. 
     
-    ![Namecheap-BP-configure-1-2](../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
+    ![Namecheap-BP-configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
 3. Na página **lista de domínios** , localize o nome do domínio que você deseja editar e, em seguida, selecione **gerenciar**.
     
-    ![Namecheap-BP-configure-1-3](../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
+    ![Namecheap-BP-configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
 4. Selecione **domínio**.
     
-    ![Namecheap-BP-redelegar-1-1](../media/59588406-794e-4ae4-8526-35e3111b5791.png)
+    ![Namecheap-BP-redelegar-1-1](../../media/59588406-794e-4ae4-8526-35e3111b5791.png)
   
 5. Encontre a seção **nameservers** e, em seguida, selecione **personalizado** na lista suspensa **Namecheap padrão** . 
     
-    ![Namecheap-BP-redelegar-1-2](../media/7df56295-fdb3-472f-9442-13f780c2c93e.png)
+    ![Namecheap-BP-redelegar-1-2](../../media/7df56295-fdb3-472f-9442-13f780c2c93e.png)
   
 6. Dependendo se já existem ou não nameservers listados na página exibida agora, continue com um dos dois procedimentos a seguir.
     
@@ -138,7 +138,7 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
 
 1. Selecione **Adicionar nameserver** duas vezes para adicionar duas novas linhas.
     
-    ![Namecheap-BP-redelegar-1-3-1](../media/e8816bf5-bb59-49d5-bfca-43e502242dc3.png)
+    ![Namecheap-BP-redelegar-1-3-1](../../media/e8816bf5-bb59-49d5-bfca-43e502242dc3.png)
   
 2. Nas caixas **nameserver** , digite ou copie e cole os valores da tabela a seguir.
     
@@ -149,11 +149,11 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
 |**Nameserver 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Nameserver 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Namecheap-BP-redelegar-1-3-2](../media/21d681b7-4f96-4e96-ac27-9534c388537c.png)
+   ![Namecheap-BP-redelegar-1-3-2](../../media/21d681b7-4f96-4e96-ac27-9534c388537c.png)
   
 3. Selecione o controle **salvar** (marca de seleção). 
     
-    ![Namecheap-BP-redelegar-1-5](../media/07aaf1e5-c24f-4c51-bfe0-f99868b3bf35.png)
+    ![Namecheap-BP-redelegar-1-5](../../media/07aaf1e5-c24f-4c51-bfe0-f99868b3bf35.png)
   
 > [!NOTE]
 > As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, os seus emails e outros serviços do Office 365 serão todos configurados para funcionar com seu domínio. 
@@ -165,11 +165,11 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
   
 1. Se houver outros nameservers listados nas caixas **nameserver** , exclua cada um selecionando-o e pressionando a tecla **delete** no teclado. 
     
-    ![Namecheap-BP-redelegar-1-4](../media/3270603a-c4f4-40b7-acad-733d56e2f53c.png)
+    ![Namecheap-BP-redelegar-1-4](../../media/3270603a-c4f4-40b7-acad-733d56e2f53c.png)
   
 2. Selecione **Adicionar nameserver** duas vezes para adicionar duas novas linhas. 
     
-    ![Namecheap-BP-redelegar-1-3-1](../media/e8816bf5-bb59-49d5-bfca-43e502242dc3.png)
+    ![Namecheap-BP-redelegar-1-3-1](../../media/e8816bf5-bb59-49d5-bfca-43e502242dc3.png)
   
 3. Nas caixas **nameserver** , digite ou copie e cole os valores da tabela a seguir.
  
@@ -181,11 +181,11 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
 |**Nameserver 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Nameserver 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Namecheap-BP-redelegar-1-3-2](../media/21d681b7-4f96-4e96-ac27-9534c388537c.png)
+   ![Namecheap-BP-redelegar-1-3-2](../../media/21d681b7-4f96-4e96-ac27-9534c388537c.png)
   
 4. Selecione o controle **salvar** (marca de seleção). 
     
-    ![Namecheap-BP-redelegar-1-5](../media/07aaf1e5-c24f-4c51-bfe0-f99868b3bf35.png)
+    ![Namecheap-BP-redelegar-1-5](../../media/07aaf1e5-c24f-4c51-bfe0-f99868b3bf35.png)
   
 > [!NOTE]
 > As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, os seus emails e outros serviços do Office 365 serão todos configurados para funcionar com seu domínio.

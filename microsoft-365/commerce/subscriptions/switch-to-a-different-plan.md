@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Office 365 for Business.
-ms.openlocfilehash: 22b1d187c18743a467e9e13abbb5d2635b62da40
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251502"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354462"
 ---
 # <a name="switch-to-a-different-office-365-for-business-plan"></a>Migrar para outro plano do Office 365 para empresas
 
@@ -95,4 +95,4 @@ Se você quiser mudar para um plano com menos serviços, poderá mudar de [plano
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Contate o suporte para ajudá-lo a trocar de plano
 
-![](../../admin/media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [Suporte para chamadas](../../admin/contact-support-for-business-products.md) telefônicas
+![](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [Suporte para chamadas](../../admin/contact-support-for-business-products.md) telefônicas

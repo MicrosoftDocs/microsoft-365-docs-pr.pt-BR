@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Saiba como reativar sua assinatura do Office 365 quando ela expirar ou se a Microsoft desativá-la, ou você a cancelar no meio.
-ms.openlocfilehash: 7b902e210e39f41f6753958c5b6453c85a242f6c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4bd5a0b9c8013117b07c69ad222447bdfd56af3a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237225"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354602"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -67,7 +67,7 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 2. Encontre a assinatura que você deseja reativar e, em seguida, selecione **reativar**.
 
-    ![Close de um cartão de assinatura que diz a desabilitação e redução da funcionalidade com um botão reativar.](../../admin/media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![Close de um cartão de assinatura que diz a desabilitação e redução da funcionalidade com um botão reativar.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     Se você não vir **reativar** como uma ação disponível, [ligue](../../admin/contact-support-for-business-products.md) para o suporte para reativar sua assinatura.
 
@@ -88,7 +88,7 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 2. Encontre a assinatura que você deseja reativar e, em seguida, selecione **reativar**.
 
-    ![Close de um cartão de assinatura que diz a desabilitação e redução da funcionalidade com um botão reativar.](../../admin/media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![Close de um cartão de assinatura que diz a desabilitação e redução da funcionalidade com um botão reativar.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     Se você não vir **reativar** como uma ação disponível, [ligue](../../admin/contact-support-for-business-products.md) para o suporte para reativar sua assinatura.
 

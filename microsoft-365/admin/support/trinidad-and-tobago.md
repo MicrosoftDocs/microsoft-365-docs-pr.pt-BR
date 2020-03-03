@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bc0d81e63a9a90dc9114adfd36a93de3c0e20944
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: e50734f4eba003567cbc63294dd17a68d85ff681
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251479"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355922"
 ---
 # <a name="contact-support-for-trinidad-amp-tobago"></a>Contatar o suporte para &amp; Trinidad Tobago
 

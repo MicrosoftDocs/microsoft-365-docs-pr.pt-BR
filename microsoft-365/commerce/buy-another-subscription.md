@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: 'Saiba como comprar outra assinatura do Office 365 for Business para sua organização quando você já tiver uma assinatura. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 5f134d69c83e3c3fbb62dbb794e40e22d544ad1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a322be8ee76e37259d4a2cddf9ed2d75c379576
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237366"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354642"
 ---
 # <a name="buy-another-office-365-for-business-subscription"></a>Comprar outra assinatura do Office 365 para empresas
 
@@ -66,11 +66,11 @@ Após adquirir uma nova assinatura, você precisará atribuir aos usuários que 
 
     Você verá as assinaturas disponíveis para sua organização. Todas as assinaturas que você já comprou são identificadas como esta.
 
-    ![Faixa que mostra que uma assinatura já foi adquirida para esta organização.](../admin/media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
+    ![Faixa que mostra que uma assinatura já foi adquirida para esta organização.](../media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
   
 3. Passe o mouse ou toque na assinatura que você deseja comprar e selecione **comprar agora**.
 
-    ![Compre agora na página de serviços de compra do centro de administração do Microsoft 365.](../admin/media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
+    ![Compre agora na página de serviços de compra do centro de administração do Microsoft 365.](../media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
   
 4. Insira o número de licenças de usuário necessárias, escolha se deseja pagar a cada mês ou pelo ano inteiro e, em seguida, selecione **Adicionar ao carrinho**.
 
@@ -92,11 +92,11 @@ Após adquirir uma nova assinatura, você precisará atribuir aos usuários que 
 
     Você verá as assinaturas disponíveis para sua organização. Todas as assinaturas que você já comprou são identificadas como esta.
 
-    ![Faixa que mostra que uma assinatura já foi adquirida para esta organização.](../admin/media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
+    ![Faixa que mostra que uma assinatura já foi adquirida para esta organização.](../media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
   
 3. Passe o mouse ou toque na assinatura que você deseja comprar e selecione **comprar agora**.
 
-    ![Compre agora na página de serviços de compra do centro de administração do Microsoft 365.](../admin/media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
+    ![Compre agora na página de serviços de compra do centro de administração do Microsoft 365.](../media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
   
 4. Insira o número de licenças de usuário necessárias, escolha se deseja pagar a cada mês ou pelo ano inteiro e, em seguida, selecione **Adicionar ao carrinho**.
 

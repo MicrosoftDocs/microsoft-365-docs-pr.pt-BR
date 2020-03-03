@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para grupos do Office 365.
-ms.openlocfilehash: 50ea076e22680a444cb9acf04466a7e7d052bb7a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 11e2907462d325e4ad421914ae5a0deb5013e695
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237060"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352712"
 ---
 # <a name="office-365-groups-naming-policy"></a>Política de nomenclatura de grupos do Office 365
 
@@ -125,7 +125,7 @@ Para configurar uma política de nomenclatura:
 5. Escolha entre **atributo** e **cadeia de caracteres** para cada linha e, em seguida, especifique o atributo ou a cadeia de caracteres.
 6. Após adicionar os prefixos e sufixos necessários, clique em **salvar**.
 
-![Captura de tela das configurações de política de nomenclatura de grupos no Azure Active Directory](../media/groups-naming-policy-azure.png)
+![Captura de tela das configurações de política de nomenclatura de grupos no Azure Active Directory](../../media/groups-naming-policy-azure.png)
 
 ## <a name="naming-policy-experiences-across-office-365-apps"></a>Experiências de política de nomenclatura nos aplicativos do Office 365
 
@@ -135,7 +135,7 @@ Os aplicativos do Office 365 foram atualizados para mostrar uma visualização d
 
 O Outlook na Web (anteriormente conhecido como Outlook Web App ou OWA) mostra o nome decorado da política de nomenclatura quando o usuário digita um nome de grupo ou alias de grupo. Quando um usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é exibida na interface do usuário, juntamente com a palavra bloqueada, para que o usuário possa removê-la. Os instantâneos de experiência da Web do Outlook são mostrados abaixo.
 
-![Exibição lado a lado da política de nomeação de grupo em grupos do Office 365](../media/1a21657a-c542-4d9e-ac7d-887ac542a9d9.png)
+![Exibição lado a lado da política de nomeação de grupo em grupos do Office 365](../../media/1a21657a-c542-4d9e-ac7d-887ac542a9d9.png)
 
 ## <a name="outlook-desktop"></a>Área de trabalho do Outlook
 
@@ -145,19 +145,19 @@ Os grupos criados na área de trabalho do Outlook são compatíveis com a polít
 
 O Microsoft Teams mostra o nome decorado da política de nomenclatura quando o usuário digita um nome de equipe. Quando um usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é exibida junto com a palavra bloqueada para que o usuário possa removê-la.
 
-![Exemplo de política de nomeação de grupo no Microsoft Teams bloqueado](../media/7c904546-5853-4642-949a-a55dbb004eca.png)
+![Exemplo de política de nomeação de grupo no Microsoft Teams bloqueado](../../media/7c904546-5853-4642-949a-a55dbb004eca.png)
 
 ## <a name="sharepoint"></a>SharePoint
 
 O SharePoint mostra o nome da política de nomenclatura quando o usuário digita um nome de site ou endereço de email de grupo. Quando um usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é exibida, juntamente com a palavra bloqueada para que o usuário possa removê-la.
 
-![Política de nomeação de grupo-site do SharePoint bloqueado](../media/cf0d6158-fd32-4a93-ac24-2e037102c42c.png)
+![Política de nomeação de grupo-site do SharePoint bloqueado](../../media/cf0d6158-fd32-4a93-ac24-2e037102c42c.png)
 
 ## <a name="microsoft-stream"></a>Microsoft Stream
 
 O Microsoft Stream mostra o nome decorado da política de nomenclatura quando o usuário digita um nome de grupo ou alias de email de grupo. Quando um usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é exibida com o texto bloqueado, para que o usuário possa removê-la.
 
-![Exemplo de política de nomeação de grupo bloqueado para o Microsoft Stream](../media/9748f52a-3814-41a6-9ac1-4e8cd4c91011.png)
+![Exemplo de política de nomeação de grupo bloqueado para o Microsoft Stream](../../media/9748f52a-3814-41a6-9ac1-4e8cd4c91011.png)
 
 ## <a name="outlook-ios-and-android-app"></a>Aplicativo do Outlook iOS e Android
 
@@ -167,13 +167,13 @@ Os grupos criados nos aplicativos do Outlook são compatíveis com a política d
 
 O Planner é compatível com a política de nomeação. O Planner mostra a visualização da política de nomenclatura ao inserir o nome do plano. Quando um usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é mostrada na criação do plano, portanto, o usuário pode remover a palavra bloqueada.
 
-![Política de nomeação de grupo-criar novo plano de exemplo bloqueado](../media/ea692b44-3a56-4e6d-bcb8-8444fe5bbc4f.png)
+![Política de nomeação de grupo-criar novo plano de exemplo bloqueado](../../media/ea692b44-3a56-4e6d-bcb8-8444fe5bbc4f.png)
 
 ## <a name="dynamics-365-for-customer-engagement"></a>Dynamics 365 para o envolvimento do cliente
 
 O Dynamics 365 for Customer Engagement é compatível com a política de nomenclatura. O Dynamics 365 mostra o nome decorado da política de nomenclatura quando o usuário digita um nome de grupo ou alias de email de grupo. Quando o usuário insere uma palavra bloqueada personalizada, uma mensagem de erro é exibida com o texto bloqueado, para que o usuário possa removê-la.
 
-![Dynamics 365](../media/8190331c-6779-42bd-a6b3-f7007428c8ae.png)
+![Dynamics 365](../../media/8190331c-6779-42bd-a6b3-f7007428c8ae.png)
 
 ## <a name="school-data-sync-sds"></a>O School Data Sync (SDS)
 

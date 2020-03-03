@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
 ms.custom: okr_SMB
-ms.openlocfilehash: e8871e5d10d86f7e0f45dc34dd824bae6fb2c007
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a63b0b17333ad12846ba8bac2c83b2d8dfc67a8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237093"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352822"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -52,13 +52,13 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
 2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Office 365 Business.
 
-    ![The Subscriptions page that shows which subscription you have as well as its status.](../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
+    ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
 3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 
-    ![A página assinaturas do centro de administração mostrando uma lista de várias assinaturas agrupadas por seu status.](../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
+    ![A página assinaturas do centro de administração mostrando uma lista de várias assinaturas agrupadas por seu status.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
     > Se você tiver assinaturas que expiraram ou foram desabilitadas, elas serão listadas com base em seu estado atual.
@@ -71,13 +71,13 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
 2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Office 365 Business.
 
-    ![The Subscriptions page that shows which subscription you have as well as its status.](../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
+    ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
 3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 
-    ![A página assinaturas do centro de administração mostrando uma lista de várias assinaturas agrupadas por seu status.](../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
+    ![A página assinaturas do centro de administração mostrando uma lista de várias assinaturas agrupadas por seu status.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
     > Se você tiver assinaturas que expiraram ou foram desabilitadas, elas serão listadas com base em seu estado atual.

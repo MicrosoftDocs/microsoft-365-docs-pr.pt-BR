@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: b793ffdd-effa-43d0-849a-b1ca2e899f38
 description: 'Obtenha o relatório de uso do dispositivo Yammer para saber quais dispositivos seus usuários estão usando o Yammer. '
-ms.openlocfilehash: 5202fd2ebe3e99182ecf7cd2d9bee77be0573cde
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 42fc4b1f9a4d782c50eabd892f6a49d1c474be01
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237172"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353372"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Relatórios do Microsoft 365 no centro de administração-relatório de uso de dispositivos do Yammer
 
@@ -50,9 +50,9 @@ O relatório de uso do dispositivo contém as informações a seguir.
     
 - Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas.
     
-- Você pode visualizar o gráfico **Usuários** para ver o número de usuários por dia por tipo de dispositivo.<br/>![Exibição de usuários no gráfico de uso de dispositivos do Yammer](../media/ecfba1ec-fbea-4491-88da-1fb19b4d5629.png)<br/>![Relatório de uso do dispositivo Yammer mostrando o modo de exibição usuários](../media/f396865a-ad6e-4f8b-a145-cc3865b352f4.png)
+- Você pode visualizar o gráfico **Usuários** para ver o número de usuários por dia por tipo de dispositivo.<br/>![Exibição de usuários no gráfico de uso de dispositivos do Yammer](../../media/ecfba1ec-fbea-4491-88da-1fb19b4d5629.png)<br/>![Relatório de uso do dispositivo Yammer mostrando o modo de exibição usuários](../../media/f396865a-ad6e-4f8b-a145-cc3865b352f4.png)
   
-- Você pode visualizar o gráfico **Distribuição** para ver o número de usuários por tipo de dispositivo.<br/>![Modo de exibição de distribuição no relatório de uso de dispositivos do Yammer](../media/7a0b152e-2d2b-4d23-8dc2-046be53b724f.png)<br/>![Relatório de uso de dispositivos do Yammer](../media/780c351d-7a1d-451d-8c16-4c454ef58aa8.png)
+- Você pode visualizar o gráfico **Distribuição** para ver o número de usuários por tipo de dispositivo.<br/>![Modo de exibição de distribuição no relatório de uso de dispositivos do Yammer](../../media/7a0b152e-2d2b-4d23-8dc2-046be53b724f.png)<br/>![Relatório de uso de dispositivos do Yammer](../../media/780c351d-7a1d-451d-8c16-4c454ef58aa8.png)
   
 - A tabela **Detalhes** sob o gráfico mostra um detalhamento do uso do dispositivo Yammer no nível de cada usuário. 
     

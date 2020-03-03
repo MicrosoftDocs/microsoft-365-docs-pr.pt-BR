@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Obtenha o relatório de atividades do Yammer e saiba mais sobre o número de usuários que usam o Yammer para postar, como ou ler uma mensagem.
-ms.openlocfilehash: 0b6e7feb1d80ddc56c9ea172fa3c7e91ea0903b3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: e4e51707aa487486e2d41d5d8bd4e84294c36ef2
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237179"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353512"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>Relatórios do Office 365 no centro de administração-relatório de atividades do Yammer
 
@@ -44,7 +44,7 @@ Como o Microsoft 365 admin, o painel **relatórios** mostra dados sobre o uso do
 
 Você pode observar a atividade do Yammer do usuário examinando os gráficos Atividade e Usuários.
   
-![Relatório de atividades do Yammer](../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
+![Relatório de atividades do Yammer](../../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
   
 O relatório de atividade contém as informações a seguir.
   
@@ -54,13 +54,13 @@ O relatório de atividade contém as informações a seguir.
     
 - O gráfico **Atividade** permite que você entenda a tendência da quantidade de atividade do Yammer ocorrendo em sua organização. Você pode entender a divisão de mensagens postadas, lidas ou curtidas. 
     
-    ![Exibição de atividade no relatório de atividades do Yammer](../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
+    ![Exibição de atividade no relatório de atividades do Yammer](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
   
   - No gráfico **Atividade**, o eixo Y é a contagem de atividades de mensagens postadas, lidas ou curtidas. 
     
 - Você pode ver o gráfico **Usuário** para entender a tendência da quantidade de usuários exclusivos que estão gerando as atividades do Yammer. Você pode examinar a tendência de usuários postando, lendo ou curtindo mensagens do Yammer. 
     
-    ![Exibição de usuários no relatório de atividades do Yammer](../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
+    ![Exibição de usuários no relatório de atividades do Yammer](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
   
   - No gráfico de atividades **Usuários**, o eixo Y é o usuário postando, lendo ou curtindo mensagens do Yammer. 
     
@@ -68,7 +68,7 @@ O relatório de atividade contém as informações a seguir.
     
 - Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **atividade** , selecione **Postado**, **leitura**ou **curtido** para ver apenas as informações relacionadas a cada uma delas. 
     
-    ![Opções postas, de leitura e curtidas](../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
+    ![Opções postas, de leitura e curtidas](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
   
     Ao alterar essa seleção, as informações da tabela não mudam.
     
@@ -76,7 +76,7 @@ O relatório de atividade contém as informações a seguir.
     
     Você pode usar o menu para filtrar e classificar os dados.
     
-    ![Opções de menu para relatórios do Yammer](../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
+    ![Opções de menu para relatórios do Yammer](../../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
   
     Você também pode adicionar e remover colunas. As colunas disponíveis são:
     

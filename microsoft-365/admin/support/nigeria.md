@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d55163e1affefc4115c055a4f156c90754cca3b4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 90eceea91f08b255dbd827103a2e26c179b4d516
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42238766"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357152"
 ---
 # <a name="contact-support-for-nigeria"></a>Contatar o suporte para Nigéria
 

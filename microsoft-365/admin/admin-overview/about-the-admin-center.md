@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: 17082c887fa9818bdefa809d57d43cf7c16e153c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2e84e1d0631403a1f5a40f80886bdae46ada166b
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237116"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353082"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 

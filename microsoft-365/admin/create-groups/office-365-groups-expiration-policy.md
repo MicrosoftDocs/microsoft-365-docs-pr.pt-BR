@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Office 365.
-ms.openlocfilehash: 5a7a9f9a67e8436a8d4120551e306a68a015bcb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237038"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352582"
 ---
 # <a name="office-365-group-expiration-policy"></a>Política de Expiração de Grupo do Office 365
 
@@ -66,7 +66,7 @@ Se o grupo não tiver um proprietário, os emails de expiração serão direcion
 
 Você pode definir a política para todos os seus grupos, apenas grupos selecionados ou desativá-lo completamente selecionando **nenhum**. Observe que, no momento, não é possível ter políticas diferentes para grupos diferentes.
 
-![Captura de tela de configurações de expiração de grupos no Azure Active Directory](../media/azure-groups-expiration-settings.png)
+![Captura de tela de configurações de expiração de grupos no Azure Active Directory](../../media/azure-groups-expiration-settings.png)
 
 ## <a name="how-expiry-works-with-the-retention-policy"></a>Como a expiração funciona com a política de retenção
 

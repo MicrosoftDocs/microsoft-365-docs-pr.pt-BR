@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Office 365 e dados seguros. '
-ms.openlocfilehash: a59ad66f6c188695e6794bd259668b97669f2217
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f29f24e0f9cf583e768000cff2d6081eb9df6d87
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237127"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353112"
 ---
 # <a name="remove-a-former-employee-from-office-365"></a>Remover um ex-funcionário do Office 365
   
@@ -211,7 +211,7 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
     
 4. Selecione o usuário e, em **dispositivos móveis**, selecione **Exibir detalhes**. 
     
-5. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados**![apagar dispositivo](../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)e, em seguida, selecione **Bloquear**. 
+5. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados**![apagar dispositivo](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)e, em seguida, selecione **Bloquear**. 
     
 6. Selecione **Salvar**. 
     

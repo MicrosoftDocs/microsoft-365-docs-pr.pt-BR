@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 56ffbcc638ecfe304ff71273ec2ce00abd05ddca
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 894b1cbf9033521c6978f54d0483fe61c3d6114d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341225"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354932"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover seus métodos de pagamento
 
@@ -172,11 +172,11 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha a assinatura que deseja pagar com o novo cartão de crédito ou conta bancária e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**e, em seguida, selecione **novo cartão de crédito** ou **nova conta bancária**.
 
-    ![O menu suspenso que mostra as novas opções de cartão de crédito e nova conta bancária.](../../admin/media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
+    ![O menu suspenso que mostra as novas opções de cartão de crédito e nova conta bancária.](../../media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
   
 4. Insira as informações para o novo cartão de crédito ou conta bancária e, em seguida, selecione **Enviar**.
 
@@ -203,11 +203,11 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha a assinatura que deseja pagar com o novo cartão de crédito ou conta bancária e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**e, em seguida, selecione **novo cartão de crédito** ou **nova conta bancária**.
 
-    ![O menu suspenso que mostra as novas opções de cartão de crédito e nova conta bancária.](../../admin/media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
+    ![O menu suspenso que mostra as novas opções de cartão de crédito e nova conta bancária.](../../media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
   
 4. Insira as informações para o novo cartão de crédito ou conta bancária e, em seguida, selecione **Enviar**.
 
@@ -230,17 +230,17 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
     > [!NOTE]
     > Se outro administrador comprou a assinatura, não será possível atualizar as informações do cartão de crédito ou da conta bancária dessa assinatura. Se o cartão de crédito estiver prestes a expirar e o outro administrador não puder atualizá-lo, você poderá impedir a interrupção do serviço se adicionar um cartão de crédito ou uma nova conta bancária diferente para a assinatura.
   
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**. Selecione o cartão de crédito ou conta bancária que você deseja atualizar e, em seguida, selecione **Editar detalhes**.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. Atualize suas informações de cartão de crédito ou conta bancária (nome no cartão de crédito ou conta bancária, endereço de cobrança. número de telefone ou data de expiração, conforme necessário, selecione **Enviar**.
 
 5. Uma mensagem de confirmação é exibida. Se isso não ocorrer, confira o tópico [Solucionando problemas com cartões de crédito e contas bancárias](#troubleshooting-credit-cards-and-bank-accounts).
 
-    ![A mensagem de confirmação: "seu método de pagamento foi atualizado com êxito."](../../admin/media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
+    ![A mensagem de confirmação: "seu método de pagamento foi atualizado com êxito."](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
 ::: moniker-end
 
@@ -258,17 +258,17 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
     > [!NOTE]
     > Se outro administrador comprou a assinatura, não será possível atualizar as informações do cartão de crédito ou da conta bancária dessa assinatura. Se o cartão de crédito estiver prestes a expirar e o outro administrador não puder atualizá-lo, você poderá impedir a interrupção do serviço se adicionar um cartão de crédito ou uma nova conta bancária diferente para a assinatura.
   
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**. Selecione o cartão de crédito ou conta bancária que você deseja atualizar e, em seguida, selecione **Editar detalhes**.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. Atualize suas informações de cartão de crédito ou conta bancária (nome no cartão de crédito ou conta bancária, endereço de cobrança. número de telefone ou data de expiração, conforme necessário, selecione **Enviar**.
 
 5. Uma mensagem de confirmação é exibida. Se isso não ocorrer, confira o tópico [Solucionando problemas com cartões de crédito e contas bancárias](#troubleshooting-credit-cards-and-bank-accounts).
 
-    ![A mensagem de confirmação: "seu método de pagamento foi atualizado com êxito."](../../admin/media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
+    ![A mensagem de confirmação: "seu método de pagamento foi atualizado com êxito."](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
 ::: moniker-end
 
@@ -279,20 +279,20 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha qualquer assinatura e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**.
 
 4. Selecione o cartão de crédito ou a conta bancária e, em seguida, selecione **remover**.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 5. Selecione **remover** novamente para excluir o cartão de crédito ou a conta bancária.
 
-    ![Os botões remover e cancelar.](../../admin/media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
+    ![Os botões remover e cancelar.](../../media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
   
     > [!NOTE]
-    > Você não poderá remover um cartão de crédito ou uma conta bancária se ele estiver sendo usado para pagar uma assinatura. Se você tentar, você verá uma mensagem como esta: ![a mensagem de erro exibida se você tentar remover um método de pagamento atualmente usado para pagar uma assinatura ativa.](../../admin/media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
+    > Você não poderá remover um cartão de crédito ou uma conta bancária se ele estiver sendo usado para pagar uma assinatura. Se você tentar, você verá uma mensagem como esta: ![a mensagem de erro exibida se você tentar remover um método de pagamento atualmente usado para pagar uma assinatura ativa.](../../media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
     > Para remover o cartão de crédito ou a conta bancária, selecione **voltar** e siga as etapas deste artigo para alterar o cartão de crédito ou a conta bancária que você usa para pagar para a assinatura. Em seguida, tente remover o cartão ou a conta novamente.
 
 ::: moniker-end
@@ -304,20 +304,20 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha qualquer assinatura e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecionar um método de pagamento**.
 
 4. Selecione o cartão de crédito ou a conta bancária e, em seguida, selecione **remover**.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
 
 5. Selecione **remover** novamente para excluir o cartão de crédito ou a conta bancária.
 
-    ![Os botões remover e cancelar.](../../admin/media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
+    ![Os botões remover e cancelar.](../../media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
   
     > [!NOTE]
-    > Você não poderá remover um cartão de crédito ou uma conta bancária se ele estiver sendo usado para pagar uma assinatura. Se você tentar, você verá uma mensagem como esta: ![a mensagem de erro exibida se você tentar remover um método de pagamento atualmente usado para pagar uma assinatura ativa.](../../admin/media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
+    > Você não poderá remover um cartão de crédito ou uma conta bancária se ele estiver sendo usado para pagar uma assinatura. Se você tentar, você verá uma mensagem como esta: ![a mensagem de erro exibida se você tentar remover um método de pagamento atualmente usado para pagar uma assinatura ativa.](../../media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
     > Para remover o cartão de crédito ou a conta bancária, selecione **voltar** e siga as etapas deste artigo para alterar o cartão de crédito ou a conta bancária que você usa para pagar para a assinatura. Em seguida, tente remover o cartão ou a conta novamente.
 
 ::: moniker-end
@@ -329,11 +329,11 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha a assinatura que deseja pagar com o novo cartão de crédito ou conta bancária e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecione um método de pagamento** e selecione o cartão de crédito ou conta bancária que você deseja usar.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. Selecione **Enviar**. Se o cartão de crédito ou conta bancária que você deseja usar ainda não estiver listado, escolha **novo cartão de crédito** ou **nova conta bancária** para adicioná-lo.
 
@@ -346,11 +346,11 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 
 2. Escolha a assinatura que deseja pagar com o novo cartão de crédito ou conta bancária e, em seguida, selecione **atualizar detalhes de pagamento**.
 
-    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![A seção de método de pagamento da página de assinatura que mostra o link atualizar detalhes de pagamento.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. Selecione a seta suspensa em **Adicionar ou selecione um método de pagamento** e selecione o cartão de crédito ou conta bancária que você deseja usar.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. Selecione **Enviar**. Se o cartão de crédito ou conta bancária que você deseja usar ainda não estiver listado, escolha **novo cartão de crédito** ou **nova conta bancária** para adicioná-lo.
 

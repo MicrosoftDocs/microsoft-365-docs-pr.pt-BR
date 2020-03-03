@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Saiba como preservar os arquivos e emails de um funcionário quando a pessoa deixa sua organização.
-ms.openlocfilehash: 92e863e3b849f6a89e6d67d805fdb5024879999f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3c7a63852ad20fc005f7a0f4e3f909474bda2a3c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237140"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353192"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Obter acesso e realizar backup dos dados de um ex-usuário
 
@@ -143,15 +143,15 @@ Para salvar as mensagens de email, calendário, tarefas e contatos do funcionár
     
 2. No Outlook, selecione **arquivo**.
     
-    ![Esta é a aparência da faixa de opções no Outlook 2016.](../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
+    ![Esta é a aparência da faixa de opções no Outlook 2016.](../../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
   
 3. Selecione **abrir &amp; exportar** \> **importar/exportar**.
     
-    ![Comando importar/exportar no modo de exibição Backstage](../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
+    ![Comando importar/exportar no modo de exibição Backstage](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
 4. Selecione **exportar para um arquivo**e, em seguida, selecione **Avançar**.
     
-    ![Exportar para uma opção de arquivo no assistente de importação e exportação](../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
+    ![Exportar para uma opção de arquivo no assistente de importação e exportação](../../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
   
 5. Selecione **arquivo de dados do Outlook (. pst)** e, em seguida, selecione **Avançar**.
     
@@ -160,7 +160,7 @@ Para salvar as mensagens de email, calendário, tarefas e contatos do funcionár
     > [!NOTE]
     > Você pode exportar uma conta por vez. Se você quiser exportar várias contas, após uma conta ser exportada, repita essas etapas. 
   
-    ![Caixa de diálogo Exportar arquivo de dados do Outlook com a pasta principal selecionada e incluir subpastas verificadas](../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
+    ![Caixa de diálogo Exportar arquivo de dados do Outlook com a pasta principal selecionada e incluir subpastas verificadas](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
 7. Selecione **Avançar**.
     
@@ -195,7 +195,7 @@ Para dar acesso às mensagens de email, calendário, tarefas e contatos do antig
     
 2. Selecione **importar de outro programa ou arquivo**e, em seguida, selecione **Avançar**.
     
-    ![Assistente de importação e exportação](../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
+    ![Assistente de importação e exportação](../../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
   
 3. Selecione **arquivo de dados do Outlook (. pst)** e selecione **Avançar**.
     

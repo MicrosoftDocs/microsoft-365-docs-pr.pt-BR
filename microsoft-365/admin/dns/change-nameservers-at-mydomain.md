@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
 description: Saiba como você pode configurar o Office 365 para gerenciar os registros DNS do seu domínio personalizado em mydomain.
-ms.openlocfilehash: 05681fb48cc4c06aa44421029739a71ef6e59871
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 90f1469bdf2f281be14e2a9e15a9fe7ac4a8cbee
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237438"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351612"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-mydomain"></a>Alterar os nameservers para configurar o Office 365 com a MyDomain
 
@@ -42,40 +42,40 @@ Antes de usar o seu domínio com o Office 365, precisamos verificar se você é 
   
 1. Para começar, vá até a sua página de domínios em MeuDomínio usando [este link](https://www.mydomain.com/controlpanel). Você será solicitado a fazer logon primeiro.
     
-2. Na seção **meus favoritos** , selecione **domínio central**.
+2. Na seção **Meus Favoritos**, clique em **Central de domínio**.
     
-3. Em **domínio**, selecione o nome do domínio que você deseja editar.
+3. Na opção **Domínio**, clique no nome do domínio que quer editar.
     
-4. Na linha **visão geral** , selecione **DNS**.
+4. Na linha **Visão geral**, clique em **DNS**.
     
-5. From the **Modify** drop-down list, choose **TXT/SPF Record**.
+5. Na lista suspensa **Modificar**, clique em **Registro TXT/SPF**.
     
-6. Under **Content**, in the box for the new record, type or copy and paste the value from the following table.
+6. Em **Content**, na caixa do novo registro, digite ou copie e cole os valores da tabela a seguir.
     
 ||
 |:-----|
 |**Conteúdo** <br/> |
-|MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |
+|MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Selecione **Adicionar**.
+7. Clique em **Adicionar**.
     
 8. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Office 365 e solicite que o Office 365 procure o registro.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
   
-1. No centro de administração, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
     
-2. Na página **domínios** , selecione o domínio que você está verificando. 
+2. Na página **Domínios**, clique no domínio que você está verificando. 
     
-3. Na página **configuração** , selecione **Iniciar configuração**.
+3. Na página **Configuração**, clique em **Iniciar configuração**.
     
-4. Na página **verificar domínio** , selecione **verificar**.
+4. Na página **Verificar domínio**, clique em **Verificar**.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Se você estiver tendo problemas com o fluxo de emails ou com outros problemas após adicionar registros DNS, consulte [Localizar e corrigir problemas após adicionar seu domínio ou registros DNS no Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas após alterar o nome de domínio ou registros DNS no Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Alterar os registros de nameserver (NS) de seu domínio
 
@@ -89,17 +89,17 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
   
 1. Para começar, vá até a sua página de domínios em MeuDomínio usando [este link](https://www.mydomain.com/controlpanel). Você será solicitado a fazer logon primeiro.
     
-2. Na seção **meus favoritos** , selecione **domínio central**.
+2. Na seção **Meus Favoritos**, clique em **Central de domínio**.
     
-3. Em **domínio**, selecione o nome do domínio que você deseja editar.
+3. Na opção **Domínio**, clique no nome do domínio que quer editar.
     
 4. Na linha **visão geral** , selecione **nameservers**.
     
-    ![Mydomain-BP-redelegar-1-1](../media/49e91235-44b5-46d6-a82e-8f11329db3d6.png)
+    ![Mydomain-BP-redelegar-1-1](../../media/49e91235-44b5-46d6-a82e-8f11329db3d6.png)
   
 5. Na seção **Update Name Servers**, selecione **Use different name servers**.
     
-    ![Mydomain-BP-redelegar-1-2-1](../media/f869fb26-54dc-4b66-8378-a78a79b582bd.png)
+    ![Mydomain-BP-redelegar-1-2-1](../../media/f869fb26-54dc-4b66-8378-a78a79b582bd.png)
   
 6. Dependendo se já existem ou não nameservers listados na página exibida agora, continue com um dos dois procedimentos a seguir.
     
@@ -107,7 +107,7 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
 
 - Se os nameservers corretos já estiverem listados, ignore esta etapa.
     
-    ![Mydomain-BP-redelegar-1-2-2](../media/601f6a46-15bd-4a92-b792-ac628ff86628.png)
+    ![Mydomain-BP-redelegar-1-2-2](../../media/601f6a46-15bd-4a92-b792-ac628ff86628.png)
   
 ### <a name="if-the-correct-nameservers-are-not-already-listed"></a>Se os nameservers corretos NÃO ESTIVEREM listados
 
@@ -116,11 +116,11 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
   
 1. Exclua os nameservers existentes selecionado cada entrada no campo **Nameserver:** e, em seguida, pressione a tecla **Delete** no seu teclado. 
     
-    ![Mydomain-BP-redelegar-1-3-1](../media/5024cd27-a2b1-42a2-99e4-5ceb5e6eddb9.png)
+    ![Mydomain-BP-redelegar-1-3-1](../../media/5024cd27-a2b1-42a2-99e4-5ceb5e6eddb9.png)
   
 2. Selecione **adicionar mais** duas vezes para adicionar duas novas linhas de nameserver. 
     
-    ![Mydomain-BP-redelegar-1-3-2](../media/19307893-2f73-4e4d-9221-a5870e09ab48.png)
+    ![Mydomain-BP-redelegar-1-3-2](../../media/19307893-2f73-4e4d-9221-a5870e09ab48.png)
   
 3. Nas caixas dos registros, digite ou copie e cole os valores de nameserver da tabela a seguir.
     
@@ -131,11 +131,11 @@ Para concluir a configuração do domínio com o Office 365, altere os registros
 |**Nameserver 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Nameserver 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Mydomain-BP-redelegar-1-4](../media/7427e99c-49c7-4a2e-a5bf-66fc46900cd1.png)
+   ![Mydomain-BP-redelegar-1-4](../../media/7427e99c-49c7-4a2e-a5bf-66fc46900cd1.png)
   
 4. Selecione **Salvar**.
     
-    ![Mydomain-BP-redelegar-1-5](../media/48473816-b881-47f0-9344-74622efa3bf8.png)
+    ![Mydomain-BP-redelegar-1-5](../../media/48473816-b881-47f0-9344-74622efa3bf8.png)
   
 > [!NOTE]
 > As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, os seus emails e outros serviços do Office 365 serão todos configurados para funcionar com seu domínio. 

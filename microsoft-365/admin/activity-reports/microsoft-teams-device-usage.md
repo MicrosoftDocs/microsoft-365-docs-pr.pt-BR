@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização obtendo o relatório de uso do aplicativo Microsoft Teams nos relatórios do Office 365.
-ms.openlocfilehash: 1b337c7e6d7668c708bdd93185e8d0b034a29981
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 872cde92ccd66f4de5199a5035eaaa83b79f0cc0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237210"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353652"
 ---
 # <a name="office-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Office 365 no centro de administração-uso de dispositivos do Microsoft Teams
 
@@ -45,7 +45,7 @@ O painel de **relatórios** do Office 365 mostra a visão geral das atividades e
 
 Você pode ver detalhes de uso do aplicativo do Microsoft Teams examinando os gráficos **Usuários** e **Distribuição**. 
   
-![Office 365 reports - Microsoft Teams app usage](../media/de35c4de-76b4-4109-a806-66774665499b.png)
+![Office 365 reports - Microsoft Teams app usage](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
   
 |||
 |:-----|:-----|
@@ -54,9 +54,9 @@ Você pode ver detalhes de uso do aplicativo do Microsoft Teams examinando os gr
 |3.  <br/> |O modo de exibição **Usuários** mostra o número de usuários exclusivos diariamente por aplicativo.  <br/> |
 |4.  <br/> |O modo de exibição **Distribuição** mostra o número de usuários exclusivos por aplicativo no intervalo de tempo selecionado.  <br/> |
 |5.  <br/> | No gráfico **Usuários**, o eixo Y representa o número de usuários por aplicativo.  <br/>  No gráfico **Distribuição**, o eixo Y representa o número de usuários que estão usando o aplicativo especificado.  <br/>  O eixo X nos gráficos representa o intervalo de datas selecionado para esse relatório específico.  <br/> |
-|6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **usuários** , selecione **Windows**, **Mac**, **chamadas**, **Web**, **telefone Android**ou **Windows Phone** para ver apenas as informações relacionadas a cada uma delas. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> ![Você pode filtrar gráficos de uso do aplicativo do Microsoft Teams selecionando o tipo de aplicativo.](../media/64ee1cb1-ca80-4964-8234-7fc671135c3d.png)|
+|6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **usuários** , selecione **Windows**, **Mac**, **chamadas**, **Web**, **telefone Android**ou **Windows Phone** para ver apenas as informações relacionadas a cada uma delas. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> ![Você pode filtrar gráficos de uso do aplicativo do Microsoft Teams selecionando o tipo de aplicativo.](../../media/64ee1cb1-ca80-4964-8234-7fc671135c3d.png)|
 |7.  <br/> | A lista de grupos mostrada é determinada pelo conjunto de todos os grupos que existiram (que não foram excluídos) no mais amplo período de relatório (180 dias). A contagem de atividades variará de acordo com a seleção de data.  <br/> Observação: Talvez você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/> **Nome de usuário** é o endereço de email do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo.  <br/> **Data da última atividade (UTC)** se refere à data da última atividade que o usuário participou em uma atividade do Microsoft Teams em um aplicativo.  <br/> **Excluídos** indica se a equipe foi excluída. Se a equipe foi excluída, mas teve atividade no período do relatório, ela é exibida na grade com a exclusão definida como true.  <br/> **Data de exclusão** é a data em que a equipe foi excluída.  <br/> **Windows** estará selecionado se o usuário estava ativo no aplicativo Windows durante o intervalo de tempo especificado.  <br/> **Mac** estará selecionado se o usuário estava ativo em um aplicativo Mac durante o intervalo de tempo especificado.  <br/> **Web** estará selecionado se o usuário estava ativo em um aplicativo Web durante o intervalo de tempo especificado.  <br/> **iOS** estará selecionado se o usuário estava ativo em um aplicativo iOS durante o intervalo de tempo especificado.  <br/> **Telefone Android** estará selecionado se o usuário estava ativo em um aplicativo para telefone Android durante o intervalo de tempo especificado.  <br/> **Telefone Windows** estará selecionado se o usuário estava ativo em um aplicativo para Windows Phone durante o intervalo de tempo especificado.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
-|8.  <br/> |Selecione **colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams uapp usage report - choose columns](../media/333f3077-696d-4829-b0a7-1046b3822222.png)|
+|8.  <br/> |Selecione **colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams uapp usage report - choose columns](../../media/333f3077-696d-4829-b0a7-1046b3822222.png)|
 |9.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    

@@ -28,12 +28,12 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Saiba como adicionar e reduzir o armazenamento de arquivos em sua assinatura do Office 365. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e no OneDrive.
-ms.openlocfilehash: 9bf87715cb5acbcc5c6dd34ccd023d5aa5ce6c2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 64e98ff830b592b12e25620e4c2e89e09a161a3e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237404"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354842"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -118,14 +118,14 @@ Se você ainda não comprou o armazenamento adicional para sua assinatura, é po
 
 2. Na página **assinaturas** , escolha a assinatura à qual você deseja adicionar o espaço de armazenamento e, em seguida, **selecione Complementos**.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > Se você **não vir Complementos e se**sua assinatura foi adquirida por meio de um parceiro, selecione o centro de **serviços de licenciamento por volume (VLSC)**.
   
 3. Selecione **comprar Complementos**.
 
-    ![Comprar Complementos link na página assinaturas do centro de administração.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![Comprar Complementos link na página assinaturas do centro de administração.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. Na página **comprar serviços** , passe o mouse ou toque no **armazenamento de arquivos Extra do Office 365**e selecione **comprar agora**.
   
@@ -143,14 +143,14 @@ Se você ainda não comprou o armazenamento adicional para sua assinatura, é po
 
 2. Na página **assinaturas** , escolha a assinatura à qual você deseja adicionar o espaço de armazenamento e, em seguida, **selecione Complementos**.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > Se você **não vir Complementos e se**sua assinatura foi adquirida por meio de um parceiro, selecione o centro de **serviços de licenciamento por volume (VLSC)**.
   
 3. Selecione **comprar Complementos**.
 
-    ![Comprar Complementos link na página assinaturas do centro de administração.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![Comprar Complementos link na página assinaturas do centro de administração.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. Na página **comprar serviços** , passe o mouse ou toque no **armazenamento de arquivos Extra do Office 365**e selecione **comprar agora**.
   
@@ -189,20 +189,20 @@ Se você já comprou o armazenamento de arquivos extra por meio do complemento d
 
 2. Na página **assinaturas** , selecione **Complementos**.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > Se você **não vir Complementos e se**sua assinatura foi adquirida por meio de um parceiro, selecione o centro de **serviços de licenciamento por volume (VLSC)**.
   
 3. Em **armazenamento de arquivos extra do Office 365**, selecione **Alterar quantidade**.
 
-    ![Link Alterar quantidade.](../admin/media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
+    ![Link Alterar quantidade.](../media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
   
 4. No painel direito, insira o número total de gigabytes necessários e, em seguida, selecione **Enviar**.
 
     Por exemplo, se você tem atualmente 200 GB de armazenamento adicional, mas precisa apenas de 100 GB, digite **100** na caixa.
 
-5. Selecione **fechar**.
+5. Selecione **Fechar**.
 
 ::: moniker-end
 
@@ -212,20 +212,20 @@ Se você já comprou o armazenamento de arquivos extra por meio do complemento d
 
 2. Na página **assinaturas** , selecione **Complementos**.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > Se você **não vir Complementos e se**sua assinatura foi adquirida por meio de um parceiro, selecione o centro de **serviços de licenciamento por volume (VLSC)**.
   
 3. Em **armazenamento de arquivos extra do Office 365**, selecione **Alterar quantidade**.
 
-    ![Link Alterar quantidade.](../admin/media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
+    ![Link Alterar quantidade.](../media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
   
 4. No painel direito, insira o número total de gigabytes necessários e, em seguida, selecione **Enviar**.
 
     Por exemplo, se você tem atualmente 200 GB de armazenamento adicional, mas precisa apenas de 100 GB, digite **100** na caixa.
 
-5. Selecione **fechar**.
+5. Selecione **Fechar**.
 
 ::: moniker-end
 

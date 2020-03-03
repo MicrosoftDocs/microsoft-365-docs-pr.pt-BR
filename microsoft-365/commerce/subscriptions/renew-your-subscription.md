@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Saiba como renovar sua assinatura do Office 365 para empresas usando uma chave de produto e ative ou desative a cobrança recorrente. '
-ms.openlocfilehash: f9b80fa6cc28edbea955575016824532239ec2f9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251455"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354572"
 ---
 # <a name="renew-office-365-for-business"></a>Renovar o Office 365 para empresas
 
@@ -80,7 +80,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
  
 3. Para ativar a **cobrança recorrente**, alterne o botão para **Ativar**.
 
-    ![Close de um cartão de assinatura com cobrança recorrente ativada.](../../admin/media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![Close de um cartão de assinatura com cobrança recorrente ativada.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
     Você pode desativar a **cobrança recorrente** alternando o recurso de alternância para **desativado**.
 
@@ -103,7 +103,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
  
 3. Para ativar a **cobrança recorrente**, alterne o botão para **Ativar**.
 
-    ![Close de um cartão de assinatura com cobrança recorrente ativada.](../../admin/media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![Close de um cartão de assinatura com cobrança recorrente ativada.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
     Você pode desativar a **cobrança recorrente** alternando o recurso de alternância para **desativado**.
 

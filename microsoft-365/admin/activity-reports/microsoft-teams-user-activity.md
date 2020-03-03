@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obtenha informações sobre a atividade do teams em sua organização.
-ms.openlocfilehash: 47e12c1cb1b475807ef40e68e09d57db6f01e291
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 53c3da2d563363c7c463abc62f7cdf4b478ccecc
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237208"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353722"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams
 
@@ -41,7 +41,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
   
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Interpretar o relatório de atividade de usuários do Microsoft Teams
 
-Você pode observar a atividade de usuários do Microsoft Teams examinando os gráficos **Atividade** e **Usuários**.<br/>![Microsoft 365 Reports-atividade de usuário do Microsoft Teams.](../media/40359f81-25f7-416d-bb1e-37289133ef6b.png)
+Você pode observar a atividade de usuários do Microsoft Teams examinando os gráficos **Atividade** e **Usuários**.<br/>![Microsoft 365 Reports-atividade de usuário do Microsoft Teams.](../../media/40359f81-25f7-416d-bb1e-37289133ef6b.png)
   
 |||
 |:-----|:-----|
@@ -50,9 +50,9 @@ Você pode observar a atividade de usuários do Microsoft Teams examinando os gr
 |3.  <br/> |O modo de exibição **Atividade** mostra o número de atividades do Microsoft Teams por tipo de atividade. Os tipos de atividade são número de mensagens de chat da equipe, mensagens de chat particular, chamadas ou reuniões.  <br/> |
 |4.  <br/> |Os modo de exibição **Usuários** mostra o número de usuários por tipo de atividade. Os tipos de atividade são número de mensagens de chat da equipe, mensagens de chat particular, chamadas ou reuniões.  <br/> |
 |5.  <br/> | No gráfico **Atividades**, o eixo Y representa a contagem de atividade especificada.  <br/>  No gráfico **Arquivos**, o eixo Y representa o número de usuários que fazem parte dos gráficos de equipe, conversas particulares, chamadas ou reuniões.  <br/>  O eixo X nos gráficos representa o intervalo de datas selecionado para esse relatório específico.  <br/> |
-|6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **atividade** , selecione **mensagens de canal**, **mensagens de chat**, **chamadas**ou **reuniões** para ver apenas as informações relacionadas a cada uma delas. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> ![Filtrar os gráficos de atividades do Microsoft Teams](../media/c819c4ea-6e9a-4411-a0dd-9f800d64ce38.png)|
+|6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **atividade** , selecione **mensagens de canal**, **mensagens de chat**, **chamadas**ou **reuniões** para ver apenas as informações relacionadas a cada uma delas. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> ![Filtrar os gráficos de atividades do Microsoft Teams](../../media/c819c4ea-6e9a-4411-a0dd-9f800d64ce38.png)|
 |7.  <br/> | A lista de grupos mostrada é determinada pelo conjunto de todos os grupos que existiram (que não foram excluídos) no mais amplo período de relatório (180 dias). A contagem de atividades variará de acordo com a seleção de data.  <br/> Observação: Talvez você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/>**Nome de usuário** é o endereço de email do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo.  <br/> **Data da última atividade (UTC)** se refere à data da última atividade que o usuário participou em uma atividade do Microsoft Teams.  <br/> **Mensagens do canal** é o número de mensagens exclusivas que o usuário publicou em um chat de equipe durante o período de tempo especificado.  <br/> **Mensagens de chat** é o número de mensagens exclusivas que o usuário publicou em um chat particular durante o período de tempo especificado.  <br/> **Chamadas** é o número de chamadas das quais o usuário participou durante o período especificado.  <br/> **Reuniões** é o número de reuniões online das quais o usuário participou durante o período especificado.  <br/> **Outra atividade** é o número de outras atividades da equipe por usuário.  <br/> **Excluídos** indica se a equipe foi excluída. Se a equipe foi excluída, mas teve atividade no período do relatório, ela é exibida na grade com a exclusão definida como true.  <br/> **Data de exclusão** é a data em que a equipe foi excluída.  <br/> **Produto atribuído** é a lista de produtos atribuídos ao usuário.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
-|8.  <br/> |Selecione **colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams user activity report - choose columns](../media/eb5fbcee-e371-4d36-a0c6-fa54732311ec.png)|
+|8.  <br/> |Selecione **colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams user activity report - choose columns](../../media/eb5fbcee-e371-4d36-a0c6-fa54732311ec.png)|
 |9.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    

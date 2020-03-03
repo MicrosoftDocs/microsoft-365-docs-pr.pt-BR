@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar o Office 365 para empresas ou a assinatura de avaliação ou pagamento da Microsoft 365.
-ms.openlocfilehash: d3590f224757265af3107566023413d276443c46
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 58c545257895de8da4256cea4826029916b66961
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237228"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354592"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -64,7 +64,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
 3. No menu **mais ações** , selecione **cancelar assinatura**.
 
-    ![Feche o menu mais ações.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Feche o menu mais ações.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. Revise as datas importantes, forneça comentários sobre o motivo pelo qual você está cancelando e selecione **cancelar assinatura**.
 
@@ -80,7 +80,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
 3. No menu **mais ações** , selecione **cancelar assinatura**.
 
-    ![Feche o menu mais ações.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Feche o menu mais ações.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. Revise as datas importantes, forneça comentários sobre o motivo pelo qual você está cancelando e selecione **cancelar assinatura**.
 

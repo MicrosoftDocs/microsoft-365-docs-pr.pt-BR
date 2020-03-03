@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d5a311a81a71cf89e01a980a219d9db4821e46c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fdb2ef333479bb87b49fd68ca24dbae33629ab88
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42238763"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357082"
 ---
 # <a name="contact-support-for-pakistan"></a>Contatar o suporte para Paquistão
 

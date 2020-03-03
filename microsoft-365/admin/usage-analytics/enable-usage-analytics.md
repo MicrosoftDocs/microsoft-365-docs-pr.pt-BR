@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como iniciar a coleta de dados para o seu locatário usando o aplicativo de modelo de análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: 651a820916f65a1695b7300772b1d2ce8aee92bb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 249fadce15ca2e4c979d6e1930ff0d14ccd9bc08
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237652"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355002"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar análise de uso do Microsoft 365
 
@@ -70,7 +70,7 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global**,
   
 3. Na guia **aplicativos** , digite Microsoft 365 na caixa de pesquisa e selecione \> análise de **uso do Microsoft 365** **agora**.
 
-    [![Selecionar obter agora](../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    [![Selecionar obter agora](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
     
 4.  Depois que o aplicativo é instalado. Clique no bloco para abri-lo.
 
@@ -80,7 +80,7 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global**,
     
 7. Na tela seguinte, selecione **oAuth2** como o **método** \> de autenticação **entrar**. Se você escolher qualquer outro método de autenticação, a conexão com o aplicativo de modelo irá falhar.
     
-    ![Choose oAuth2 as authentication method](../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
+    ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
   
 8. Depois que o aplicativo de modelo é instanciado, o painel de análise de uso do Microsoft 365 estará disponível no Power BI na Web. O carregamento inicial do painel levará entre 2 e 30 minutos.
   
@@ -94,4 +94,4 @@ Para tornar anônimos os dados coletados para todos os relatórios, você deve s
     
 2. Selecione **relatórios**e, em seguida, escolha **Exibir identificadores anônimos**. Essa configuração é aplicada tanto para os relatórios de uso quanto para o aplicativo de modelo.
   
-3. Selecione **salvar alterações**.
+3. Selecione **Salvar alterações**.

@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Obtenha o aplicativo de administração do Microsoft 365 e saiba como gerenciar sua organização online do seu telefone ou Tablet.
-ms.openlocfilehash: 6f81da66ff8d60f1adc249c1e21542b0174050d6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237114"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353032"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Sobre o aplicativo móvel do Microsoft 365 admin
 
 Você é um administrador que geralmente está em trânsito? Em seguida, confira o [aplicativo Microsoft 365 admin](https://go.microsoft.com/fwlink/?LinkID=627216). Você pode usar o aplicativo para gerenciar sua organização online do seu telefone ou Tablet. Você pode obter o aplicativo na Apple Store e no Google Play. <br> 
 
-![Captura de tela da home page do aplicativo móvel do administrador, exibindo pesquisa, mensagens, integridade e links rápidos.](../media/admin-mobile-app-darkbg.png)
+![Captura de tela da home page do aplicativo móvel do administrador, exibindo pesquisa, mensagens, integridade e links rápidos.](../../media/admin-mobile-app-darkbg.png)
 
 O aplicativo de administração é um aplicativo rico em recursos que tem mais de 80 recursos para ajudá-lo a gerenciar sua organização quando você não consegue acessar um computador. Veja a seguir uma lista de apenas algumas das tarefas que você pode fazer com o aplicativo:
 
@@ -42,7 +42,7 @@ O aplicativo de administração é um aplicativo rico em recursos que tem mais d
 - Redefinir a senha de um usuário
 - Atribuir licenças
 - Adicionar ou remover associações de grupo
-- Adicionar usuários 
+- Adicione usuários 
 
 E, se você é alguém responsável por mais de uma organização online, você entra em vários organizações expandidas e alterna rapidamente entre eles. 
   

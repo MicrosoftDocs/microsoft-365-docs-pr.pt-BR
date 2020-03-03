@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Troque assinaturas do Office 365 para empresas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: 5fe50cbc0a11c4fe9976be07bfb0ab752bae5bba
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251452"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354702"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Trocar os planos do Office 365 para negócios manualmente
 
@@ -74,7 +74,7 @@ Certifique-se de comprar uma assinatura para a mesma organização em que os usu
 
    **A nova assinatura do Office 365 for Business com licenças disponíveis**
 
-    ![A página de assinatura mostrando o número de licenças para a nova assinatura.](../../admin/media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
+    ![A página de assinatura mostrando o número de licenças para a nova assinatura.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
   
 3. **Verifique se você tem licenças suficientes para cada usuário**
 
@@ -115,7 +115,7 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
     > [!TIP]
     > Para limitar quais serviços estão disponíveis para o usuário, alterne as opções para a posição **desativado** dos serviços que você deseja remover para esse usuário. Por exemplo, se você deseja que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alterar o recurso de alternância para o serviço Skype for Business online para a posição **desativado** .
   
-    ![Definição de atribuições de licença para um usuário.](../../admin/media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
+    ![Definição de atribuições de licença para um usuário.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 5. Alterne a opção para a posição **desativado** para as licenças que este usuário não precisa mais.
 
@@ -141,7 +141,7 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
     > - Para limitar quais serviços estão disponíveis para o usuário, mude para alternar para a posição **desativado** dos serviços que você deseja remover para esse usuário. Por exemplo, se você deseja que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alterar o recurso de alternância para o serviço Skype for Business online para a posição **desativado** .
     > - Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas.
   
-    ![Definição de atribuições de licença para um usuário.](../../admin/media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
+    ![Definição de atribuições de licença para um usuário.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar**.
 

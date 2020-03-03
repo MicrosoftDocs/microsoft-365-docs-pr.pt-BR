@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 150619b5176e804d4f8f4285445720c5958839f3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f9d9a243176e624da496591dffeca537d4bd89b0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237934"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356642"
 ---
 # <a name="contact-support-for-samoa"></a>Contatar o suporte para Samoa
 
