@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6f94f47d9e97359bd74625999d989477fabd51de
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 127b4b6ac85d13b37c738c253918019592088501
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237689"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356212"
 ---
-# <a name="contact-support-for-sri-lanka"></a><span data-ttu-id="92fd8-103">Contatar o suporte para Sri Lanka</span><span class="sxs-lookup"><span data-stu-id="92fd8-103">Contact support for Sri Lanka</span></span>
+# <a name="contact-support-for-sri-lanka"></a><span data-ttu-id="b736f-103">Contatar o suporte para Sri Lanka</span><span class="sxs-lookup"><span data-stu-id="b736f-103">Contact support for Sri Lanka</span></span>
 
-<span data-ttu-id="92fd8-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="92fd8-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="b736f-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="b736f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="92fd8-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="92fd8-105">Phone number</span></span>
-<span data-ttu-id="92fd8-106">2423 254</span><span class="sxs-lookup"><span data-stu-id="92fd8-106">2423 254</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b736f-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="b736f-105">Phone number</span></span>
+<span data-ttu-id="b736f-106">2423 254</span><span class="sxs-lookup"><span data-stu-id="b736f-106">2423 254</span></span>
 
-## <a name="hours"></a><span data-ttu-id="92fd8-107">Horas</span><span class="sxs-lookup"><span data-stu-id="92fd8-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="92fd8-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="92fd8-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b736f-107">Horas</span><span class="sxs-lookup"><span data-stu-id="b736f-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b736f-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="b736f-108">Billing Support:</span></span>
 
-<span data-ttu-id="92fd8-109">Inglês: Seg-Sex 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="92fd8-109">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="b736f-109">Inglês: Seg-Sex 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="b736f-109">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="92fd8-110">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="92fd8-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b736f-110">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="b736f-110">Technical Support:</span></span>
 
-<span data-ttu-id="92fd8-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="92fd8-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b736f-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="b736f-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="92fd8-112">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="92fd8-112">Local call charges apply</span></span>
+<span data-ttu-id="b736f-112">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="b736f-112">Local call charges apply</span></span>

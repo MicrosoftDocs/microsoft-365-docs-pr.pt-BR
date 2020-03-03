@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f755737304e9cb1fdc849424a99eb2a76a9bac05
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 57961d011c93a86189435e93cf1b37bd253be061
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250910"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357892"
 ---
-# <a name="contact-support-for-lithuania"></a><span data-ttu-id="1cb66-103">Contatar o suporte para a Lituânia</span><span class="sxs-lookup"><span data-stu-id="1cb66-103">Contact support for Lithuania</span></span>
+# <a name="contact-support-for-lithuania"></a><span data-ttu-id="0a395-103">Contatar o suporte para a Lituânia</span><span class="sxs-lookup"><span data-stu-id="0a395-103">Contact support for Lithuania</span></span>
 
-<span data-ttu-id="1cb66-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1cb66-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="0a395-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="0a395-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1cb66-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="1cb66-105">Phone number</span></span>
-<span data-ttu-id="1cb66-106">8800 30 960</span><span class="sxs-lookup"><span data-stu-id="1cb66-106">8800 30 960</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0a395-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="0a395-105">Phone number</span></span>
+<span data-ttu-id="0a395-106">8800 30 960</span><span class="sxs-lookup"><span data-stu-id="0a395-106">8800 30 960</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1cb66-107">Horas</span><span class="sxs-lookup"><span data-stu-id="1cb66-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1cb66-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="1cb66-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0a395-107">Horas</span><span class="sxs-lookup"><span data-stu-id="0a395-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0a395-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="0a395-108">Billing Support:</span></span>
 
-<span data-ttu-id="1cb66-109">Inglês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="1cb66-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0a395-109">Inglês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="0a395-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1cb66-110">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="1cb66-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0a395-110">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="0a395-110">Technical Support:</span></span>
 
-<span data-ttu-id="1cb66-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="1cb66-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0a395-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="0a395-111">English: 24 hours a day, 7 days a week</span></span>

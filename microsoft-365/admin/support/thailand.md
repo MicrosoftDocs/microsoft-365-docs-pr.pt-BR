@@ -12,29 +12,29 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e6102d2448665197da100b9af40fb3dfc691cb02
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f53de8922ce7a8af778cb88bfb8f19eea1eb2ea3
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250730"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355982"
 ---
-# <a name="contact-support-for-thailand"></a><span data-ttu-id="9e45d-103">Contatar o suporte para a Tailândia</span><span class="sxs-lookup"><span data-stu-id="9e45d-103">Contact support for Thailand</span></span>
+# <a name="contact-support-for-thailand"></a><span data-ttu-id="2afbc-103">Contatar o suporte para a Tailândia</span><span class="sxs-lookup"><span data-stu-id="2afbc-103">Contact support for Thailand</span></span>
 
-<span data-ttu-id="9e45d-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="9e45d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="2afbc-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="2afbc-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9e45d-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="9e45d-105">Phone number</span></span>
-<span data-ttu-id="9e45d-106">001 800 441 2619</span><span class="sxs-lookup"><span data-stu-id="9e45d-106">001 800 441 2619</span></span>
+## <a name="phone-number"></a><span data-ttu-id="2afbc-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="2afbc-105">Phone number</span></span>
+<span data-ttu-id="2afbc-106">001 800 441 2619</span><span class="sxs-lookup"><span data-stu-id="2afbc-106">001 800 441 2619</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9e45d-107">Horas</span><span class="sxs-lookup"><span data-stu-id="9e45d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9e45d-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="9e45d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="2afbc-107">Horas</span><span class="sxs-lookup"><span data-stu-id="2afbc-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="2afbc-108">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="2afbc-108">Billing Support:</span></span>
 
-<span data-ttu-id="9e45d-109">Tailandês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="9e45d-109">Thai: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="2afbc-109">Tailandês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="2afbc-109">Thai: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="9e45d-110">Inglês: Seg-Sex 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="9e45d-110">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="2afbc-110">Inglês: Seg-Sex 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="2afbc-110">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9e45d-111">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="9e45d-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="2afbc-111">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="2afbc-111">Technical Support:</span></span>
 
-<span data-ttu-id="9e45d-112">Tailandês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="9e45d-112">Thai: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="2afbc-112">Tailandês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="2afbc-112">Thai: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="9e45d-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="9e45d-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="2afbc-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="2afbc-113">English: 24 hours a day, 7 days a week</span></span>

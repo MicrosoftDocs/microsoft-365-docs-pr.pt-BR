@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d017e8f93b2b4f6599e2c366b142f11f746f478d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c477bdbd855c7962732b8aa8583da959a56975e2
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250892"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357464"
 ---
-# <a name="contact-support-for-namibia"></a><span data-ttu-id="03747-103">Contatar o suporte para a Namíbia</span><span class="sxs-lookup"><span data-stu-id="03747-103">Contact support for Namibia</span></span>
+# <a name="contact-support-for-namibia"></a><span data-ttu-id="5c175-103">Contatar o suporte para a Namíbia</span><span class="sxs-lookup"><span data-stu-id="5c175-103">Contact support for Namibia</span></span>
 
-<span data-ttu-id="03747-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="03747-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="5c175-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="5c175-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="03747-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="03747-105">Phone number</span></span>
-<span data-ttu-id="03747-106">061 292 5016</span><span class="sxs-lookup"><span data-stu-id="03747-106">061 292 5016</span></span>
+## <a name="phone-number"></a><span data-ttu-id="5c175-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="5c175-105">Phone number</span></span>
+<span data-ttu-id="5c175-106">061 292 5016</span><span class="sxs-lookup"><span data-stu-id="5c175-106">061 292 5016</span></span>
 
-<span data-ttu-id="03747-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="03747-107">Select option 9</span></span>
+<span data-ttu-id="5c175-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="5c175-107">Select option 9</span></span>
 
-<span data-ttu-id="03747-108">Insira o código 7705</span><span class="sxs-lookup"><span data-stu-id="03747-108">Enter code 7705</span></span>
+<span data-ttu-id="5c175-108">Insira o código 7705</span><span class="sxs-lookup"><span data-stu-id="5c175-108">Enter code 7705</span></span>
 
-## <a name="hours"></a><span data-ttu-id="03747-109">Horas</span><span class="sxs-lookup"><span data-stu-id="03747-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="03747-110">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="03747-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="5c175-109">Horas</span><span class="sxs-lookup"><span data-stu-id="5c175-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="5c175-110">Suporte para cobrança:</span><span class="sxs-lookup"><span data-stu-id="5c175-110">Billing Support:</span></span>
 
-<span data-ttu-id="03747-111">Inglês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="03747-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="5c175-111">Inglês: Seg-Sex 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="5c175-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="03747-112">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="03747-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="5c175-112">Suporte técnico:</span><span class="sxs-lookup"><span data-stu-id="5c175-112">Technical Support:</span></span>
 
-<span data-ttu-id="03747-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="03747-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="5c175-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="5c175-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="03747-114">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="03747-114">Local call charges apply</span></span>
+<span data-ttu-id="5c175-114">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="5c175-114">Local call charges apply</span></span>
