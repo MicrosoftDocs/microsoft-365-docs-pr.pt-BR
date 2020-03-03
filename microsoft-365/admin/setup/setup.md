@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Saiba como configurar o Office 365 Business Premium, o Office 365 Business Essentials, o Office 365 Business ou o Office 365 Education.
-ms.openlocfilehash: 28847b1b2773a0f725a5ac1a99dfc2a807f66b82
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 303e736bb3296eba5ddb7ca7e9da8f86ebdc0217
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237788"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360442"
 ---
 # <a name="set-up-office-365-for-business"></a>Configurar o Office 365 para empresas
 
@@ -168,7 +168,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet, entre no [https://po
 
 1. Selecione **Email**.
 
-2. Na barra de navegação do Outlook, selecione **Configurações** Configurações ![: atualizar seu perfil, instalar o software e conectá-lo à nuvem](../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **Opções**.
+2. Na barra de navegação do Outlook, selecione **Configurações** Configurações ![: atualizar seu perfil, instalar o software e conectá-lo à nuvem](../../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **Opções**.
 
 3. No painel esquerdo, selecione **Email**e, em **Contas**, selecione **Contas conectadas**.
 

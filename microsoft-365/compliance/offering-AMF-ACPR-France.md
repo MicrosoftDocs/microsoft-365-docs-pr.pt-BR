@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cfd0c127b7cea626d6e2ed571f8ed1913370c1db
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 04b14f913a9b513ee5235223315daa2611395854
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602708"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363027"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Autoridade Financeira (AMF) e Autoridade Prudencial (ACPR) da França
 
 ## <a name="about-the-amf-and-acpr"></a>Sobre a AMF e a ACPR
 
-A [Autoridade Financeira](https://www.amf-france.org/en_US/?langSwitch=true) ([Autorité des Marchés Financiers, AMF](https://amf-france.org/)) e a [Autoridade Prudencial](https://acpr.banque-france.fr/en/page-sommaire/about-acpr) ([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/)) são os principais reguladores financeiros da França. Na condição de regulador do mercado de ações, a AMF é responsável pela supervisão dos mercados financeiros e sociedades de investimento. A ACPR, uma autoridade administrativa independente do banco central, o [Banque de France](https://www.banque-france.fr/), supervisiona os setores bancário e de seguros.  
+A [Autoridade Financeira](https://www.amf-france.org/en) ([Autorité des Marchés Financiers, AMF](https://www.amf-france.org/)) e a [Autoridade Prudencial](https://acpr.banque-france.fr/en/page-sommaire/about-acpr) ([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/)) são os principais reguladores financeiros da França. Na condição de regulador do mercado de ações, a AMF é responsável pela supervisão dos mercados financeiros e sociedades de investimento. A ACPR, uma autoridade administrativa independente do banco central, o [Banque de France](https://www.banque-france.fr/), supervisiona os setores bancário e de seguros.  
   
 A AMF e a ACPR atuam em conjunto com a Autoridade Bancária Europeia (EBA), "uma autoridade independente da UE, que trabalha para garantir uma regulamentação e supervisão prudente, eficaz e consistente em todo o setor bancário europeu". Para isso, a EBA definiu uma abordagem abrangente ao uso da computação em nuvem por instituições financeiras na UE, [Recomendações para a terceirização de provedores de serviços de nuvem](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf ).  
   

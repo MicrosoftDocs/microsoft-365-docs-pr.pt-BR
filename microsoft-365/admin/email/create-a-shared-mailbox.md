@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 270894da77d9ddf2b35187d8409cd2fd878b0e6d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2ceec37928eafab0c4f02382dd24aa3fa91aa9cd
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250673"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362296"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -64,17 +64,17 @@ Antes de criar uma caixa de correio compartilhada, não deixe de ler [Sobre caix
     
 3. Na página **Caixas de correio compartilhadas**, selecione **+ Adicionar uma caixa de correio**. Digite um nome para a caixa de correio compartilhada. Em seguida, o assistente escolhe o endereço de email, mas você pode editá-lo.
     
-    ![Nomeie sua caixa de correio compartilhada.](../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
+    ![Nomeie sua caixa de correio compartilhada.](../../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
   
 4. Selecione **Adicionar**. Pode levar alguns minutos até que você possa adicionar membros.
 
 5. Em **Próximas etapas**, selecione **Adicionar membros a esta caixa de correio**. Os membros são as pessoas que poderão visualizar o email de entrada nesta caixa de correio compartilhada e as respostas enviadas.
 
-   ![Selecionar Adicionar Membros](../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
+   ![Selecionar Adicionar Membros](../../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
 
 6. Selecione o botão **+Adicionar membros**. Marque a caixa de seleção ao lado da pessoa à qual pretende permitir o uso da caixa de correio compartilhada e clique em **Salvar**.
 
-   ![Atribuir membros à caixa de correio compartilhada](../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
+   ![Atribuir membros à caixa de correio compartilhada](../../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
 
 7. Selecione **Fechar**.
 
@@ -95,7 +95,7 @@ Mas e se um administrador simplesmente redefinir a senha da conta de usuário da
 
 2. Na lista de contas de usuários, localize a conta da caixa de correio compartilhada (por exemplo, altere o filtro para **Usuários não licenciados**).
 
-3. Selecione o usuário para abrir o painel propriedades e, em seguida, selecione o ícone **Bloquear este usuário** ![Captura de tela do ícone Bloquear este usuário](../media/block-user-icon.png).
+3. Selecione o usuário para abrir o painel propriedades e, em seguida, selecione o ícone **Bloquear este usuário** ![Captura de tela do ícone Bloquear este usuário](../../media/block-user-icon.png).
 
    **Observação**: Se a conta já estiver bloqueada, a mensagem **Entrada bloqueada** aparecerá na parte superior e o ícone exibirá **Desbloquear este usuário**.
 

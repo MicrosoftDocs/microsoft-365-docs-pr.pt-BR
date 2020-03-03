@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: e684467ff1fd60427fe78971da704b74acc6a500
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 88953317bea2b96c04c291dd028a4e9131b9a83e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250571"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361656"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Aprenda a configurar a Caixa de Entrada Destaques para todos ou usuários específicos da sua organização. '
-ms.openlocfilehash: 6762bf4e81254e962171ddc80027273542288f34
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 29f412b82121b8955c2ddabb5d152bbe6b2255e0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251375"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360872"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Configurar a Caixa de Entrada Destaques para todos na sua organização
 
@@ -52,7 +52,7 @@ Get-OrganizationConfig
 
 4. Procure **FocusedInboxOn** para ver a configuração atual: 
     
-    ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
+    ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Execute o cmdlet a seguir para desativar a Caixa de Entrada Destaques.
     
@@ -74,11 +74,11 @@ Get-OrganizationConfig
 
 Os usuários verão o modo de exibição Destaques somente após fechar e reiniciar o Outlook. Depois disso, eles verão uma dica na interface do usuário do programa mostrando a opção de usar a nova Caixa de Entrada Destaques.
   
-![Uma imagem da aparência da Caixa de Entrada Destaques quando um usuário abre pela primeira vez o Outlook na Web.](../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
+![Uma imagem da aparência da Caixa de Entrada Destaques quando um usuário abre pela primeira vez o Outlook na Web.](../../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
   
 Se estiver migrando do Email secundário para a Caixa de Entrada Destaques, eles poderão decidir habilitá-la ("Experimente") ou ignorar o recurso. Se o usuário tiver vários clientes (compatíveis), eles poderão ativar/desativar a Caixa de Entrada Destaques individualmente em cada um deles. A dica tem esta aparência:
   
-![Imagem mostrando a aparência da Caixa de Entrada Destaques quando ela é implantada para os usuários e o Outlook é reaberto.](../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
+![Imagem mostrando a aparência da Caixa de Entrada Destaques quando ela é implantada para os usuários e o Outlook é reaberto.](../../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
   
 Quando um usuário decide começar a usar a Caixa de Entrada Destaques, o Email secundário é desabilitado automaticamente. A pasta Email secundário é convertida em uma pasta padrão, que permite ao usuário renomeá-la ou excluí-la.
   
@@ -98,7 +98,7 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 
 4. Procure FocusedInboxOn para ver a configuração atual:
     
-    ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
+    ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Execute o cmdlet a seguir para desativar a Caixa de Entrada Destaques.
     
@@ -116,13 +116,13 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
     
-2. Navegue até **Regras de** \> **fluxo de mensagens**. Clique em ![Ícone Adicionar EAC](../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif) e clique em **Criar uma nova regra...**. 
+2. Navegue até **Regras de** \> **fluxo de mensagens**. Clique em ![Ícone Adicionar EAC](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif) e clique em **Criar uma nova regra...**. 
     
 3. Quando concluir a criação da nova regra, clique em **Salvar** para iniciá-la. 
     
     A imagem a seguir mostra um exemplo em que todas as mensagens com o assunto "Departamento da Folha de Pagamento" são entregues na Caixa de Entrada Destaques.
     
-    ![folha de pagamento focusedinbox](../media/focusedinbox-transport-rule.PNG)
+    ![folha de pagamento focusedinbox](../../media/focusedinbox-transport-rule.PNG)
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use o PowerShell para criar uma regra de transporte para direcionar mensagens de e-mail ao modo de exibição Destaques para todos os usuários
 

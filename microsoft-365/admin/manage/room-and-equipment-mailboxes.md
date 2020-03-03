@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Criar uma caixa de correio de sala ou equipamento para que todos na sua organização possam reservá-la para reuniões ou eventos usando o Outlook. '
-ms.openlocfilehash: b9f1ce531cb8ce94238b3dd35f2bfdc214d7693f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1690eba40b71972c18f28e02baf0a39d6557651a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250577"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361856"
 ---
 # <a name="room-and-equipment-mailboxes"></a>Caixas de correio de equipamentos e salas
 
@@ -40,21 +40,21 @@ Para usar caixas de correio de sala ou equipamento, abra o Outlook em seu comput
   
 1. Abra o **Outlook** em seu computador. 
     
-2. Na guia **Página Inicial**, escolha **Novos Itens** \> **Reunião**.<br/>![Para agendar uma reunião, na guia Página Inicial, no grupo Novo, escolha Novos Itens e depois Reunião.](../media/ffd575a8-1036-4d67-b839-73941fc60276.png)<br/>Ou, em seu calendário, basta escolher **Nova Reunião**.
+2. Na guia **Página Inicial**, escolha **Novos Itens** \> **Reunião**.<br/>![Para agendar uma reunião, na guia Página Inicial, no grupo Novo, escolha Novos Itens e depois Reunião.](../../media/ffd575a8-1036-4d67-b839-73941fc60276.png)<br/>Ou, em seu calendário, basta escolher **Nova Reunião**.
     
-3. No campo Para, digite o nome da sala de conferência ou equipamento que você deseja reservar, além dos participantes que deseja convidar.<br/>Ou então, clique em **Para** e clique duas vezes na sala de conferência ou no equipamento na lista. Selecione **OK**.<br/>![Reservar uma caixa de correio de sala no Outlook](../media/4588c806-9fb9-46c9-b2d8-34caa943e28e.png)
+3. No campo Para, digite o nome da sala de conferência ou equipamento que você deseja reservar, além dos participantes que deseja convidar.<br/>Ou então, clique em **Para** e clique duas vezes na sala de conferência ou no equipamento na lista. Selecione **OK**.<br/>![Reservar uma caixa de correio de sala no Outlook](../../media/4588c806-9fb9-46c9-b2d8-34caa943e28e.png)
   
 4. Na linha **Assunto**, digite o objetivo da reserva ou reunião. 
     
 5. Altere o valor de **Local** ou deixe-o como está. 
     
-6. Altere a **Hora de início** e a **Hora de término**. Ou marque **o dia inteiro**. Para fazer com que a reunião ou reserva seja repetida, selecione, **Recorrência** na parte superior.<br/>![Reservar horário de reunião](../media/4b72a0a6-4da2-449e-909e-85ea79f78e2c.png)
+6. Altere a **Hora de início** e a **Hora de término**. Ou marque **o dia inteiro**. Para fazer com que a reunião ou reserva seja repetida, selecione, **Recorrência** na parte superior.<br/>![Reservar horário de reunião](../../media/4b72a0a6-4da2-449e-909e-85ea79f78e2c.png)
   
 7. Digite uma mensagem para descrever o propósito e anexe arquivos, se necessário.
     
 8. Para permitir que outras pessoas ingressem online ou liguem para a reunião, selecione **Reunião do Skype**.
     
-9. Para garantir que a sala, o equipamento e as pessoas que você convidou estejam disponíveis, clique em **Assistente de Agendamento** na parte superior. Selecione um horário disponível no calendário.<br/> ![Verificar se o equipamento de sala está disponível](../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png)<br/>Dica: No calendário do agendamento, azul significa que a sala ou o equipamento está reservado ou ocupado. Selecione a área em branco ou livre no calendário. 
+9. Para garantir que a sala, o equipamento e as pessoas que você convidou estejam disponíveis, clique em **Assistente de Agendamento** na parte superior. Selecione um horário disponível no calendário.<br/> ![Verificar se o equipamento de sala está disponível](../../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png)<br/>Dica: No calendário do agendamento, azul significa que a sala ou o equipamento está reservado ou ocupado. Selecione a área em branco ou livre no calendário. 
   
 10. Quando concluir, selecione **enviar**.
     
@@ -66,7 +66,7 @@ Para configurar uma caixa de correio de sala ou equipamento, acesse o centro de 
   
 2. Selecione **Adicionar**.
     
-3. Preencha os campos de sala ou equipamento:<br/>![Adicionar uma caixa de correio de sala no Office 365](../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
+3. Preencha os campos de sala ou equipamento:<br/>![Adicionar uma caixa de correio de sala no Office 365](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
   
   - **Sala** ou **Equipamento**: o tipo de caixa de correio que você deseja criar.
     

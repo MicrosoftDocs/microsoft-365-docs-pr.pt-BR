@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas em sua organização estão usando os serviços do Office 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: 6962d8ed9632ae2e819f1ea1d0e0950d82ef7ad7
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 490f7722d0bb8eb93d0d6e0ff18b7364cca5185c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236990"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353962"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Relatórios de atividades no centro de administração do Microsoft 365
 
@@ -58,7 +58,7 @@ Assista a este vídeo para obter uma visão geral: sobre como você pode usar os
 ::: moniker-end
 
    
-2. Escolha **Selecionar um relatório**, na parte superior do painel, para escolher em uma lista de todos os relatórios disponíveis. Como alternativa, escolha um widget de informações imediatas sobre a atividade de um serviço (email, OneDrive, etc.) para saber mais. <br/>![O painel de uso do Office 365](../media/usage-report-dashboard.png)
+2. Escolha **Selecionar um relatório**, na parte superior do painel, para escolher em uma lista de todos os relatórios disponíveis. Como alternativa, escolha um widget de informações imediatas sobre a atividade de um serviço (email, OneDrive, etc.) para saber mais. <br/>![O painel de uso do Office 365](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>Quem pode ver os relatórios?
 
@@ -164,7 +164,7 @@ Se quiser ocultar informações de nível do usuário ao gerar seus relatórios,
   
 A sua lista de usuários terá a seguinte aparência:
   
-![Relatórios do Office 365 – lista de usuários anônimos](../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
+![Relatórios do Office 365 – lista de usuários anônimos](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
 Levará alguns minutos para que essas alterações entrem em vigor nos relatórios do Painel de relatórios. Isso também se aplica à API de relatórios.
   
