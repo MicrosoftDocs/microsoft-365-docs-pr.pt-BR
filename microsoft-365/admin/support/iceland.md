@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e16cfbc476f355fbcba94e4ea3223ad7b25da6e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2a415505cb23f2021d48f0147874008b5db6553d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250953"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358402"
 ---
 # <a name="contact-support-for-iceland"></a>Contatar o suporte da Islândia
 

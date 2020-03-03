@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1e4f7a56708643c588a257d0b50d94a388e72b74
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 247c06296cf5d959d69260987b3f0541e4695e01
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237729"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359312"
 ---
 # <a name="contact-support-for-cte-divoire"></a>Contatar o suporte para Côte d' Ivoire
 

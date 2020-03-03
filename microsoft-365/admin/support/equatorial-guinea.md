@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7ee047e2fc7e05947f6bb78dce722f1f07a6218b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4cc0b85858cb0d119ac2882701c50cdf3d418fa0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250988"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359052"
 ---
 # <a name="contact-support-for-equatorial-guinea"></a>Contatar o suporte para a Guiné Equatorial
 

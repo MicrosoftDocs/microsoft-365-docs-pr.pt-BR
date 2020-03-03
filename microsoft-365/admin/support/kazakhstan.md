@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4ecb71a2cb8001a5a6c4d9340a883f273d6fc6c3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4380c2716781c545443307658aa2a2eb7db439a6
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250928"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358132"
 ---
 # <a name="contact-support-for-kazakhstan"></a>Contatar o suporte para Cazaquistão
 

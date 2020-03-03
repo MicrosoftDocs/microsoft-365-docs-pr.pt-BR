@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 584578b7fe0c739e042bf0e6d42900cc54a2bc7e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1696edd8375adbec9eaf16de6a5c8d76c3cd7a6f
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250989"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359072"
 ---
 # <a name="contact-support-for-el-salvador"></a>Contatar o suporte para El Salvador
 

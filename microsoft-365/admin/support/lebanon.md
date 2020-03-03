@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d11b284ad3025fb321ab353f78f29c7aa3e84f7f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3a87ba7de72b91b33bcfd5b0da6ffb8557b061ae
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42238812"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358022"
 ---
 # <a name="contact-support-for-lebanon"></a>Contatar o suporte para o Líbano
 
