@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 2d4940003c791e50926eff46aaf6a299e60fb9aa
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d6c2eab340f4401fb31e4d9e814fbd326573569a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250591"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361796"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options-in-office-365"></a>Configurar as opções dos programas Padrão ou Direcionado no Office 365
 
@@ -39,7 +39,7 @@ Com o Office 365, você recebe novas atualizações de produtos e recursos assim
 
 Qualquer nova versão é testada e validada pela equipe de recursos e, em seguida, por toda a equipe de recursos do Office 365, seguida por toda a Microsoft. Depois de testes internos e validação, a próxima etapa é um **lançamento direcionado** (conhecido anteriormente como Primeiro Lançamento) para clientes que aceitarem. Em cada anel de lançamento, a Microsoft coleta comentários e valida mais a qualidade ao monitorar métricas de utilização importantes. Esta série de processos progressivos de validação serve para garantir que a versão mundial seja o mais robusta possível. As versões são ilustradas na figura a seguir. 
   
-![Liberar toques de validação para o Office 365](../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
+![Liberar toques de validação para o Office 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
 Para atualizações significativas, os clientes do Office são inicialmente notificados pelo [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Como uma atualização está mais próxima de ser implantada, ela é comunicada através do [centro de mensagens do Office 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter).
 

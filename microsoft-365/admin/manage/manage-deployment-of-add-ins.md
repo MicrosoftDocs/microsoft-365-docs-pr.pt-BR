@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: acb6febf03e40b37b167113666b3577e0b9fb61e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b2fe57bd2b3b51ac5097723613c608580da06bea
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250600"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361946"
 ---
 # <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos do Office 365 no Centro de administração do Microsoft 365
 
@@ -250,7 +250,7 @@ Agora que você implantou o suplemento, os usuários finais podem começar a us�
   
 Se o suplemento suportar comandos de suplemento, os comandos serão exibidos na faixa de opções do Office. No exemplo a seguir, a **citação de pesquisa** de comando aparece para o suplemento de **citações** . 
 
-![Faixa de opções do Office com citações de pesquisa](../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+![Faixa de opções do Office com citações de pesquisa](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
 Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se você quiser exibir todos os suplementos implantados, poderá exibi-los por meio **de meus**suplementos. 
   
@@ -260,11 +260,11 @@ Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se 
     
 2. Selecione a guia **Administração gerenciada** na janela suplementos do Office. 
     
-3. Clique duas vezes no suplemento que você implantou anteriormente (neste exemplo, **citações** ). <br/>![Guia Administração gerenciada da página de suplementos do Office](../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+3. Clique duas vezes no suplemento que você implantou anteriormente (neste exemplo, **citações** ). <br/>![Guia Administração gerenciada da página de suplementos do Office](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
 ### <a name="in-outlook"></a>No Outlook
 
-1. Na faixa de opções **página inicial** , selecione **obter suplementos**.<br/>![Botão armazenar no Outlook](../media/getaddinsicon.png)
+1. Na faixa de opções **página inicial** , selecione **obter suplementos**.<br/>![Botão armazenar no Outlook](../../media/getaddinsicon.png)
   
 2. Selecione **Administração gerenciada** no painel de navegação esquerdo.
 

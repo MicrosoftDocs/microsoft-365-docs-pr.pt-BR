@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Office 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: 729f029f58a19ed819b194deff526fc9b44757c5
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 9d83abb919cfb9f6ea3c804d9c5d934614f35285
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280179"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360632"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>Personalizar o tema do Office 365 da sua organização
 
 Saiba como personalizar seu tema no centro de administração do Microsoft 365. Como administrador da sua assinatura do Office 365 para empresas, você pode alterar o tema padrão que aparece na barra de navegação superior para todos na organização. Você pode adicionar o logotipo da empresa e alterar as cores para que correspondam ao restante da marca. Você pode até mesmo adicionar um link de destino para que os usuários naveguem quando selecionam o logotipo. Você pode ver aqui o tema padrão e o resultado do tema personalizado no Office 365.
   
-![Tema padrão do Office 365 e tema personalizado do Office 365](../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
+![Tema padrão do Office 365 e tema personalizado do Office 365](../../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>Personalizar seu tema no centro de administração
 

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra do Office 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: 22b4108db8ecff1af14706ceede746bec8743d54
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2afe5adebe1c0a47cae896d19219b97b70e453a4
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237861"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361576"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -120,7 +120,7 @@ Siga as etapas na página provedores para pesquisar ou para obter correspondênc
   
 3. Na página assinatura, selecione a guia **parceiro** e, em seguida, digite a ID de rede do parceiro para o parceiro que você está adicionando você pode obter a ID de parceiro da Microsoft do parceiro solicitando ao parceiro.
     
-4. Selecione **Adicionar**.
+4. Clique em **Adicionar**.
 
 ::: moniker-end
 

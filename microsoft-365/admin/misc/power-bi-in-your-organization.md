@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Saiba mais sobre o Power BI e como os usuários em sua organização podem usar esse serviço Business Analytics.
-ms.openlocfilehash: 56a6dd1c90b8dcb810e74c36b5e7f93ab6a0eb2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4d89594812486d06629d614ab0c59fba09dcdad8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251421"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361332"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI em sua organização
 
@@ -102,7 +102,7 @@ Se um locatário for criado pela Microsoft, você poderá solicitá-lo e gerenci
     
 4. Selecione o ícone do inicializador de aplicativos no canto superior esquerdo e escolha **Administrador**.
     
-    ![The Office 365 app launcher with the Admin app highlighted](../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![The Office 365 app launcher with the Admin app highlighted](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 5. Leia as instruções na página **se tornar o administrador** e, em seguida **, selecione Sim, quero ser o administrador**.
     
@@ -180,7 +180,7 @@ Se um usuário se inscrever no Power BI, mas você não quiser mais que ele tenh
     
 3. Na guia **licenças e aplicativos** , desmarque a caixa de seleção **Microsoft Power bi** .
     
-4. Selecione **salvar alterações**.
+4. Selecione **Salvar alterações**.
 
 ::: moniker-end
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Saiba como configurar uma conta de email no Outlook para Windows e Mac e sobre como instalar aplicativos do Office e acessar emails online.
-ms.openlocfilehash: 87a1bd45f763b4a802b083eb4936d67c50a92df3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251416"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361232"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Configurar o Outlook para ler emails
 
@@ -64,7 +64,7 @@ Leia o [artigo completo](https://support.office.com/article/6e27792a-9267-4aa4-8
 
 Depois de entrar no Office 365, selecione **Outlook**.
   
-![A página inicial do Office 365 com o aplicativo Outlook realçado](../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![A página inicial do Office 365 com o aplicativo Outlook realçado](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
 Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
   

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8bcfd7229a6e27b2e68523754c2b29c1bb9c3cdc
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: b19c48161d5d0f43c2beb207dd0ee2db8bfb1470
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266097"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372019"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -145,6 +145,65 @@ Para saber mais sobre as alterações planejadas, confira [o que está acontecen
 Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. A pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis.  
 
 Por esses motivos, todas as ações de melhoria que não foram pontuadas foram removidas. Nenhuma ação é necessária em sua parte.
+
+### <a name="removed-device-improvement-actions"></a>Ações de melhoria de dispositivo removidas
+
+Após uma avaliação da categoria dispositivo de Pontuação segura da Microsoft de ações de melhoria, foi determinado que essas ações atualmente avaliam o estado da política e não o estado de configuração dos dispositivos. Como a configuração está diretamente ligada à postura de segurança, as ações de dispositivo existentes foram determinadas para não representar totalmente a postura organizacional.  Iremos remover as ações atuais na categoria do dispositivo à medida que trabalhamos para fornecer um conjunto de recomendações que usam diretamente dados de diagnóstico para representar uma postura de segurança de dispositivos.
+
+As seguintes ações aprimoradas foram removidas:
+
+- Habilitar o gerenciamento de dispositivos móveis do Microsoft Intune
+- Criar uma política de conformidade do Microsoft Intune para Android
+- Criar uma política de conformidade do Microsoft Intune para Android para trabalho
+- Criar uma política de proteção de aplicativos do Microsoft Intune para Android
+- Criar uma política de proteção de aplicativos do Microsoft Intune para iOS
+- Marcar dispositivos sem política de conformidade do Microsoft Intune atribuída como não compatível
+- Criar uma política de conformidade do Microsoft Intune para iOS
+- Criar uma política de conformidade do Microsoft Intune para o macOS
+- Criar uma política de conformidade do Microsoft Intune para o Windows
+- Criar um perfil de configuração do Microsoft Intune para Android
+- Criar um perfil de configuração do Microsoft Intune para Android para trabalho
+- Criar um perfil de configuração do Microsoft Intune para o macOS
+- Criar um perfil de configuração do Microsoft Intune para iOS
+- Criar um perfil de configuração do Microsoft Intune para Windows
+- Habilitar a detecção avançada do jailbreak no Microsoft Intune
+- Exigir que todos os dispositivos sejam corrigidos, ter antivírus e firewalls habilitados
+- Habilitar a integração ATP do Windows Defender no Microsoft Intune
+- Criar uma política de proteção de informações do Windows do Microsoft Intune
+- Exigir que todos os dispositivos tenham configurações de segurança avançadas
+- Examinar o relatório de dispositivos bloqueados semanalmente
+
+### <a name="removed-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Ações de melhoria removidas que não atendem às expectativas de medição confiável
+
+Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, removemos as seguintes ações de aprimoramento:
+
+- Ativar a gravação de dados de auditoria
+- Descobrir aplicativos de ti de sombra arriscados e não compatíveis
+- Examinar permissões & bloquear aplicativos OAuth arriscados conectados ao seu ambiente
+- Configurar o controle de versão em bibliotecas de documentos do SharePoint Online
+
+### <a name="mfa-improvement-action-updates"></a>Atualizações das ações de melhoria da MFA
+
+Para refletir a necessidade de que as empresas garantam o máximo de segurança durante a aplicação de políticas que funcionam com seus negócios, a pontuação segura da Microsoft removeu três ações de melhoria centralizada em relação à autenticação multifator e a adição de duas.
+
+Ações de melhoria removidas:
+
+- Registrar todos os usuários para autenticação multifator
+- Exigir MFA para todos os usuários
+- Exigir MFA para funções privilegiadas do Azure AD
+
+Ações aprimoradas foram adicionadas:
+
+- Garantir que todos os usuários possam concluir a autenticação multifator para acesso seguro
+- Exigir MFA para funções administrativas
+
+ Essas novas ações de melhoria exigem o registro de seus usuários ou administradores para autenticação multifator (MFA) em seu diretório e o estabelecimento do conjunto certo de políticas que atendam às suas necessidades organizacionais. O objetivo principal é ter flexibilidade enquanto garante que todos os seus usuários e administradores podem autenticar com vários fatores ou solicitações de verificação de identidade baseadas em risco. Isso pode ter a forma de ter várias políticas que aplicam decisões com escopo ou definir padrões de segurança (chegando a 16 de março) que permitem que a Microsoft decida quando desafiar os usuários para a MFA.
+
+### <a name="removed-review-improvement-actions"></a>Foram removidas ações de melhoria de "análise"
+
+Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. Revisar as ações de melhoria não são medidas para o mesmo padrão que outras ações de aprimoramento.  
+
+Por esses motivos, todas as ações de melhoria que exigiram uma cadência de revisão foram temporariamente removidas. Nenhuma ação é necessária em sua parte.
 
 ### <a name="preview-features"></a>Visualização prévia de recursos
 

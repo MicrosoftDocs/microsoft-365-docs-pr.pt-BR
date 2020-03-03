@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Saiba mais sobre os aplicativos integrados e como ativá-los para permitir que aplicativos de terceiros acessem as informações dos usuários do Office 365.
-ms.openlocfilehash: 932a99ec2c65b14e903ccffb86d291dac20ddfcf
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3c7c92e16b375fc374563e87ea2f6166c7384a29
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237846"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361382"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
 
@@ -48,11 +48,11 @@ Quando o recurso Aplicativos Integrados está ativado e um aplicativo é usado, 
 
 Existem dois tipos de permissões que são usados durante o uso do recurso Aplicativos Integrados no Office 365: permissões de usuário e permissões de administrador. Por exemplo, quando sua organização está habilitada para Aplicativos Integrados e um usuário usa um aplicativo de terceiros, o aplicativo pode solicitar a permissão do usuário para ler os detalhes do perfil do usuário, editar ou excluir seus arquivos, ler itens contidos em conjuntos de sites e enviar emails em nome desse usuário.
 
-![Permissões de usuário de aplicativos integrados](../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
+![Permissões de usuário de aplicativos integrados](../../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
 
 Se um administrador registrar um aplicativo para todos os usuários em uma organização, ele deverá ter permissão para permitir que o aplicativo acesse informações e recursos na organização. Depois disso, quando outros usuários na organização usarem esse aplicativo, não será pedida a sua permissão. Quando um administrador registra um aplicativo, esse administrador precisa ter certeza de que ele confia no fornecedor daquele aplicativo. Para obter mais detalhes sobre como registrar um aplicativo, consulte [Adicionar, Atualizar e Remover um Aplicativo](https://go.microsoft.com/fwlink/p/?LinkID=518600).
 
-![Permissões de administrador de aplicativos integrados](../media/e24aa504-bf10-446c-a9d5-45a6f2655187.gif)
+![Permissões de administrador de aplicativos integrados](../../media/e24aa504-bf10-446c-a9d5-45a6f2655187.gif)
 
 Se o recurso Aplicativos Integrados estiver desativado, os aplicativos que já foram instalados e têm permissão para acessar informações não serão desinstalados, e as permissões não serão removidas. Mesmo com o recurso Aplicativos Integrados desativado, administradores ainda podem registrar aplicativos para disponibilizá-los aos usuários e permitir que esses aplicativos acessem as informações do usuário. Para detalhes sobre como remover um aplicativo registrado e suas permissões, consulte [Adicionar, Atualizar e Remover um Aplicativo](https://go.microsoft.com/fwlink/?LinkID=518600&amp;clcid=0x409).
 

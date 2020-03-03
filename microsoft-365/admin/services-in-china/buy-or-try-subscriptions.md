@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
 description: Saiba como experimentar uma assinatura do Office 365 ou comprá-la imediatamente, adicionar assinaturas ou obter Complementos para uma conta existente do Office 365 operada pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: b08a26752a5195208d562067ab8e26e4aa8cb2f8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0781430eaf2ccfeed7c31665029d514be9cc5f2e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237818"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360832"
 ---
 # <a name="buy-or-try-subscriptions-for-office-365-operated-by-21vianet"></a>Comprar ou experimentar assinaturas do Office 365 operado pela 21Vianet
 
@@ -48,11 +48,11 @@ Você pode comprar uma assinatura imediatamente ou pode experimentar o Office 36
 
 2. Se já não estiver na página inicial, selecione **Office 365** no canto superior esquerdo.
 
-    ![Botão para navegar até a Página Inicial do Office 365](../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
+    ![Botão para navegar até a Página Inicial do Office 365](../../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
 
 3. No canto superior direito da página, na barra de navegação, selecione **Comprar**.
 
-    ![Botão para comprar sua versão de avaliação do Office 365](../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
+    ![Botão para comprar sua versão de avaliação do Office 365](../../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
 
 4. Na página **Comprar assinaturas**, você verá os diferentes planos que podem ser adquiridos. O plano que você está experimentando é identificado pela faixa **Em Avaliação**.
 

@@ -18,12 +18,12 @@ search.appverid:
 - FRP150
 ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Saiba mais sobre o novo centro de administração do Microsoft 365.
-ms.openlocfilehash: 1506dc63c2ba1e7e8926985b3c5e1cd7d6a11b52
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3cd2fcff839213d843d6474ba826d06c5f2bf504
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251444"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361596"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>Sobre o novo centro de administração do Microsoft 365
 
@@ -50,9 +50,9 @@ Adoraríamos que você participasse do novo centro de administração do Microso
     
 ### <a name="switch-to-the-new-admin-center-and-back-again"></a>Alterne para o novo centro de administração e volte novamente
 
-- Quando o novo centro de administração do Microsoft 365 estiver disponível para você, você poderá optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Se você sair do centro de administração, vamos lembrar sua seleção e você entrará novamente no novo centro de administração. <br/><br/>![O novo centro de administração alterna para o centro de administração antigo](media/admin-center-toggle-off.png) 
+- Quando o novo centro de administração do Microsoft 365 estiver disponível para você, você poderá optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Se você sair do centro de administração, vamos lembrar sua seleção e você entrará novamente no novo centro de administração. <br/><br/>![O novo centro de administração alterna para o centro de administração antigo](../media/admin-center-toggle-off.png) 
   
-- Volte para o centro de administração antigo da página inicial, desativando a **opção de desativar**. <br/><br/>![A nova ativação do centro de administração está ativada](media/admin-center-toggle-on.png)
+- Volte para o centro de administração antigo da página inicial, desativando a **opção de desativar**. <br/><br/>![A nova ativação do centro de administração está ativada](../media/admin-center-toggle-on.png)
 
 Enquanto estiver no novo centro de administração, você poderá fornecer comentários da Microsoft sobre sua experiência selecionando **enviar comentários** ao lado do botão **precisa de ajuda?** na parte inferior de cada página. Diga-nos o que você gosta e o que poderíamos fazer melhor. Além disso, você pode receber pesquisas de pop-up de tempo para fazer perguntas sobre suas impressões gerais ou uma experiência específica que foi lançada recentemente. Você também pode fazer comentários no final deste artigo selecionando **estas informações foram úteis?**
   

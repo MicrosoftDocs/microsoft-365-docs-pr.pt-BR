@@ -19,36 +19,39 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 73f76dee8a59229138f906e593a84220c7f70aee
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 73c4c9864713432d318b0b3cec9fbaf395deff45
+ms.sourcegitcommit: 0df099d2e1028bbba8b6371dc5fcd021dddc902b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235210"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374138"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-
-
 A Proteção contra Ameaças da Microsoft unifica o processo de resposta a incidentes, integrando os principais recursos da Proteção Avançada contra Ameaças da Microsoft (ATP), da ATP do Office 365, do Microsoft Cloud App Security e da ATP do Azure. Essa experiência unificada adiciona recursos avançados que podem acessados no centro de segurança do Microsoft 365.
 
-## <a name="check-license-eligibility-and-required-permissions"></a>Verificar a qualificação de licenças e as permissões necessárias
-Os clientes com o Microsoft 365 e5, a Microsoft 365 E5 Security ou uma combinação equivalente de licenças podem usar a proteção contra ameaças da Microsoft. Para obter mais informações [leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
+Para obter a melhor proteção e otimizar a proteção contra ameaças da Microsoft, recomendamos implantar todos os serviços compatíveis em sua rede. Para obter mais informações, [Leia sobre a implantação de serviços com suporte](deploy-supported-services.md).
 
-Você deve ser um **administrador global** ou um **administrador de segurança** no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para ativar a proteção contra ameaças da Microsoft.
+## <a name="check-license-eligibility-and-required-permissions"></a>Verificar a qualificação de licenças e as permissões necessárias
+Uma licença de segurança do Microsoft 365 e5, E5 Security, a5 ou a5 ou uma combinação válida de licenças oferece acesso a serviços com suporte e o direito de usar a proteção contra ameaças da Microsoft na central de segurança da Microsoft 365.
+
+Para obter informações detalhadas sobre licenciamento, [Leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
+
+### <a name="check-your-role"></a>Verificar sua função
+Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar a proteção contra ameaças da Microsoft. [Exibir suas funções no Azure AD](https://docs.microsoft.com//azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="start-using-the-service"></a>Começar a usar o serviço
 A proteção contra ameaças da Microsoft agrega dados dos vários serviços integrados. Ele processará e armazenará dados centralmente para identificar novas insights e tornar os fluxos de trabalho de resposta centralizados possíveis.
 
-Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) não mostra os **incidentes** e as opções da **central de ações** no painel de navegação.
+Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) mostra a página de boas-vindas da proteção contra ameaças da Microsoft ao selecionar **incidentes**, a **central de ações**ou a **busca** no painel de navegação. Essas opções de navegação não são mostradas se você não estiver qualificado para usar a proteção contra ameaças da Microsoft.
 
-![Imagem do painel de navegação do centro de segurança do Microsoft 365 sem](../../media/mtp-off.png)
-o Microsoft Threat Protection recursos*Microsoft 365 Security Center com a proteção contra ameaças da Microsoft desativada*
+![Imagem da página de boas-vindas da proteção contra ameaças da Microsoft mostra se a proteção](../../media/mtp-welcome.png)
+contra ameaças da Microsoft não foi ativada na*página de boas-vindas do Microsoft 365 Security Center*
 
-Para ativar a proteção contra ameaças da Microsoft, selecione **configurações** no painel de navegação. Na **[página Configurações](https://security.microsoft.com/settings)**, vá para**aceitação/** aceitação de **proteção** > contra ameaças da Microsoft.
+Para ativar a proteção contra ameaças da Microsoft, basta concluir o processo na página de boas-vindas. Você também pode ativar a proteção contra ameaças da Microsoft acessando **configurações** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) no painel de navegação e selecionando **proteção contra ameaças da Microsoft**.
 
 >[!NOTE]
 >Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.
@@ -63,7 +66,7 @@ Depois que o serviço é provisionado, ele adiciona:
 
 - [Gerenciamento de incidentes](incidents-overview.md)
 - Uma central de ações para gerenciar [investigações e respostas automatizadas](mtp-autoir.md)
-- Recursos de [Busca avançada](advanced-hunting-overview.md) para as páginas de **Busca** existentes
+- Recursos [avançados de busca](advanced-hunting-overview.md)
 
 ![Imagem do painel de navegação do centro de segurança do Microsoft 365 com](../../media/mtp-on.png)
 o Microsoft Threat Protection apresenta a*central de segurança da Microsoft 365 com gerenciamento de incidentes e outros recursos de proteção contra ameaças da Microsoft*
@@ -75,7 +78,7 @@ Para compartilhar dados da ATP do Azure com a Proteção contra Ameaças da Micr
 ## <a name="turn-off-microsoft-threat-protection"></a>Desabilitar a Proteção contra Ameaças da Microsoft
 Para parar de usar o serviço de Proteção contra Ameaças da Microsoft, vá para **Configurações** > ** Proteção contra Ameaças da Microsoft** > **Aceitar/Recusar** no centro de segurança do Microsoft 365. Desmarque a opção **Ativar a Proteção contra Ameaças da Microsoft** e salve as alterações.
 
-Os dados serão excluídos permanentemente e os recursos correspondentes serão removidos da central de segurança do Microsoft 365.
+Os recursos correspondentes serão removidos da central de segurança do Microsoft 365.
 
 ## <a name="get-assistance"></a>Obter assistência
 
@@ -85,6 +88,7 @@ A equipe de suporte da Microsoft pode ajudar a provisionar ou desprovisionar o s
 
 - [Visão geral da Proteção contra Ameaças da Microsoft](microsoft-threat-protection.md)
 - [Requisitos de licenciamento e outros pré-requisitos](prerequisites.md)
+- [Implantar serviços com suporte](deploy-supported-services.md)
 - [Visão geral do Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Visão geral da ATP do Office 365](../office-365-security/office-365-atp.md)
 - [Visão geral do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)

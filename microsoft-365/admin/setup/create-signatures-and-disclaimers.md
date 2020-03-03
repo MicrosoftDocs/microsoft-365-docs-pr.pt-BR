@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Saiba como adicionar assinatura de email, isenção de responsabilidade legal ou declaração de divulgação a todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: 3d95e92c4994a99ab3426133580d70453a2f83eb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251367"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360662"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e isenções para toda a organização
 
@@ -62,7 +62,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 ::: moniker-end
 
-1. Selecione o inicializador ![de aplicativos no ícone do inicializador](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)de aplicativos no Office 365 e selecione **administrador**.
+1. Selecione o inicializador ![de aplicativos no ícone do inicializador](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)de aplicativos no Office 365 e selecione **administrador**.
    
     Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
     

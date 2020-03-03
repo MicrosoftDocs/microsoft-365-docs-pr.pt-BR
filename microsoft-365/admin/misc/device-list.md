@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: Saiba como criar um arquivo CSV para o AutoPilo Tin Microsoft 365 Business.
-ms.openlocfilehash: cd317bd5edaa3fdaea8a704f79a269387e8fe1c1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 56d8fb234a1b526192468309c93c638694b92c6e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251431"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361352"
 ---
 # <a name="device-list-csv-file"></a>Arquivo CSV de lista de dispositivos
 

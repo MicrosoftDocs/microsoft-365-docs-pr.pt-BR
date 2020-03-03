@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Saiba como criar, editar ou excluir um grupo de segurança.
-ms.openlocfilehash: 26b431a65035f2546bb44af2ecf31bfd327e53b6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f51c21261a83e1a0034a67f9f1580dd297a3d583
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250669"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362276"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Criar, editar ou excluir um grupo de segurança no centro de administração do Microsoft 365
 
@@ -135,7 +135,7 @@ Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#grou
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Grupos do Exchange Online e do SharePoint Online
 
-Se você quiser criar grupos de usuários para que possa enviar emails ao mesmo tempo, é possível fazer isso no centro de administração do Exchange em **grupos**de **destinatários** \> do **Exchange** \> **admin** \> . Em seguida, ****![selecione novo](../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)adicionar e selecione o tipo de grupo que você deseja criar: 
+Se você quiser criar grupos de usuários para que possa enviar emails ao mesmo tempo, é possível fazer isso no centro de administração do Exchange em **grupos**de **destinatários** \> do **Exchange** \> **admin** \> . Em seguida, ****![selecione novo](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)adicionar e selecione o tipo de grupo que você deseja criar: 
   
 - **Grupo de distribuição**: usado para distribuir mensagens para um grupo de usuários. Também é chamado de *grupo de distribuição habilitado para email*ou, no Office 365, uma *lista de distribuição*. Para obter mais informações, consulte [Gerenciar grupos de distribuição](https://technet.microsoft.com/library/bb124513.aspx).
     

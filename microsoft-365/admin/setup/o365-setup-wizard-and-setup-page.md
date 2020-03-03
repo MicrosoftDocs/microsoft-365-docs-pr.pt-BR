@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba a diferença entre o assistente de instalação do Office 365 e a página de configuração.
-ms.openlocfilehash: 3aecfc14071bda7948c24a2e161461558f8efd8d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0873e37b849785feb7c70271b97b148f3cea8bd9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251358"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360452"
 ---
 # <a name="difference-between-the-office-365-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação do Office 365 e a página de configuração
 
@@ -39,7 +39,7 @@ O assistente de configuração fornece uma orientação passo a passo para confi
 
 Para configurar sua conta, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **configuração** no painel de navegação esquerdo e selecione **configuração interativa** na página **configuração** .
 
-![Iniciar o assistente de instalação comercial do Office 365](../media/o365b-guided-setup.png)
+![Iniciar o assistente de instalação comercial do Office 365](../../media/o365b-guided-setup.png)
 
 O assistente de instalação orienta você durante as seguintes etapas:
 
@@ -57,7 +57,7 @@ Para acessar a página de **configuração** no [centro de administração](http
 
 Você verá a lista completa das tarefas de configuração organizadas em categorias lógicas, incluindo as que você concluiu no assistente de configuração.
 
-![Página de instalação do Office 365 for Business](../media/o365b-setup-page.png)
+![Página de instalação do Office 365 for Business](../../media/o365b-setup-page.png)
 
 Escolha **Exibir** para qualquer tarefa para obter informações instantâneas, como descrição de tarefas, impacto do usuário, pré-requisitos, esforço para implementar e estatísticas de segurança e adoção para ajudá-lo a entender as conseqüências e o impacto antes de prosseguir.
 
@@ -67,4 +67,4 @@ Para acessar artigos abrangentes sobre os recursos que você está configurando,
 
 Quando estiver pronto para concluir uma tarefa, selecione **introdução** para percorrer o processo de configuração. Após concluir uma tarefa, o botão **introdução** é alterado para um botão **gerenciar** , permitindo que você gerencie a tarefa, conforme necessário.
 
-![Exibição de tarefa mostrando informações gerais](../media/o365b-at-a-glance.png)
+![Exibição de tarefa mostrando informações gerais](../../media/o365b-at-a-glance.png)

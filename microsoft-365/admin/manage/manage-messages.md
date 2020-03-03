@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Saiba como gerenciar mensagens do centro de mensagens para ajudar no gerenciamento de alterações.
-ms.openlocfilehash: f2c7c5324fe77d1d3dc13a235d7a2f391b09a603
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 5b1772eb86acb937d532990830f9220f197c1c00
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250596"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361926"
 ---
 # <a name="manage-messages-in-message-center"></a>Gerenciar mensagens no centro de mensagens
 
@@ -51,7 +51,7 @@ Use o menu suspenso **filtro** para selecionar um modo de exibição filtrado de
 
 Você pode selecionar qualquer título de coluna para classificar mensagens em ordem crescente ou decrescente. Por exemplo, neste diagrama, as mensagens são classificadas em **ato por** Data.
 
-![Exibição da central de mensagens classificada por ato de data](../media/message-center-filter-act-by.png)
+![Exibição da central de mensagens classificada por ato de data](../../media/message-center-filter-act-by.png)
 
 ::: moniker-end
 
@@ -61,7 +61,7 @@ Use o menu suspenso **visualizações** para selecionar um modo de exibição fi
  
 Você pode selecionar qualquer título de coluna para classificar mensagens em ordem crescente ou decrescente. Por exemplo, nesta ilustração, as mensagens são classificadas em **ato por** Data.
 
-![Exibição da central de mensagens classificada por ato de data](../media/message-center-old-admin-center1.png)
+![Exibição da central de mensagens classificada por ato de data](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ Use o menu suspenso **visualizações** para selecionar um modo de exibição fi
  
 Você pode selecionar qualquer título de coluna para classificar mensagens em ordem crescente ou decrescente. Por exemplo, nesta ilustração, as mensagens são classificadas em **ato por** Data.
 
-![Exibição da central de mensagens classificada por ato de data](../media/message-center-old-admin-center1.png)
+![Exibição da central de mensagens classificada por ato de data](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 

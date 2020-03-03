@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 863d644a2dc3b7f756c61b8a9c3063a8545c1fb0
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 03a8e68248458f5dfa1d7192a5c2771b46723129
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251405"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361312"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -84,7 +84,7 @@ Você pode acessar a experiência no Microsoft 365 admin Home escolhendo **relat
 
 Home Page de produtividade da ti fornece a pontuação atual e o histórico de uma base de porcentagem, principal insights para áreas em cada categoria de Pontuação complementadas por benchmarks. 
 
-![Home Page de Pontuação de produtividade](../media/pslanding.png)
+![Home Page de Pontuação de produtividade](../../media/pslanding.png)
 
 1. a**Pontuação de produtividade** é listada em uma base de porcentagem, <numerator> / <denominator> bem como no formato, para que você também possa ver seus pontos absolutos (numerador) e os pontos máximos possíveis  
 1. Essa tabela dinâmica permite que você selecione a categoria de pontuação na qual você deseja se concentrar. Na visualização, você só pode exibir a **experiência do funcionário**, mas a seleção será expandida em breve para incluir **experiência tecnológica**. 
@@ -113,7 +113,7 @@ Além disso, todos os insights contêm os seguintes elementos:
 
 ### <a name="area-detail-page--collaborating-on-content"></a>Página de detalhes da área – colaboração no conteúdo 
 
-![Collaborationg na página de conteúdo.](../media/pscollab.png)
+![Collaborationg na página de conteúdo.](../../media/pscollab.png)
 
 A colaboração na página de conteúdo contém a principal percepção da Home Page de Pontuação de produtividade. Ele tem os seguintes componentes:
 
@@ -134,7 +134,7 @@ Os tipos de arquivo considerados como colaboração são Word/Excel/PowerPoint/O
 
 ### <a name="area-detail-page--working-anywhere"></a>Página de detalhes da área – trabalhando em qualquer lugar 
 
-![Página trabalhar em qualquer lugar.](../media/psflexibility.png)
+![Página trabalhar em qualquer lugar.](../../media/psflexibility.png)
 
 A página trabalho em qualquer lugar quantifica os usuários (como um percentual e um valor absoluto) que usavam pelo menos um aplicativo de produtividade em duas ou mais plataformas, que são desktop, celular e Web. Os usuários recebem pontos mais altos para usar mais aplicativos e plataformas. Os aplicativos que estão sendo considerados como Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. A base das idéias são usuários habilitados para o Office 365 ProPlus, Exchange, Yammer, Skype ou Teams.
 
@@ -147,7 +147,7 @@ A página trabalho em qualquer lugar quantifica os usuários (como um percentual
 
 Para promover a ação, cada informação de apoio tem ações embutidas que podem ajudar a transformar sua experiência de funcionários, algumas das quais podem ser alterações de configuração ou campanhas de conscientização. Clicar nessas chamadas é aberta nas opções do painel ações recomendadas que você pode considerar. No momento, as ações no **conteúdo colaborativo** estão habilitadas.
 
-![Colaborar em documentos do Office.](../media/psactions1.png)
+![Colaborar em documentos do Office.](../../media/psactions1.png)
 
 1. O **modo de exibição de ações** vai para um painel listando todas as ações relacionadas à colaboração no conteúdo.
 1. **Incentive os usuários a colaborar** vão para uma lista de vídeos instrutivos sobre colaboração com tópicos como coautoria e @mentions. 
@@ -156,7 +156,7 @@ Para promover a ação, cada informação de apoio tem ações embutidas que pod
 
 Selecionar qualquer um dos botões de ação abre o painel **ações recomendadas** à direita que tem um resumo de cada ação e um link para as páginas de documentação.
 
-![Painel de ações recomendadas.](../media/psacttions2.png)
+![Painel de ações recomendadas.](../../media/psacttions2.png)
 
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: d3abaa4fef1a50ab5aad4762e688efe451d0a4cf
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 68e5061b7238d456ee0397a50eff37f07214d13f
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237825"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361112"
 ---
 # <a name="top-10-ways-to-secure-office-365-and-microsoft-365-business-plans"></a>10 principais formas de proteger planos corporativos do Office 365 e do Microsoft 365
 
@@ -33,22 +33,22 @@ Se você é uma organização pequena ou média, usando um dos planos de negóci
   
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço. 
   
-||**Task**|**Office 365 Business Premium**|**Microsoft 365 Business**|
+||**Tarefa**|**Office 365 Business Premium**|**Microsoft 365 Business**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |[Configurar autenticações multifatoriais](secure-your-business-data.md#setup) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|duas  <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3D  <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|quatro  <br/> |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|0,5  <br/> |[Proteger contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|6   <br/> |[Parar o encaminhamento automático para email](secure-your-business-data.md#forwarding) <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|7   <br/> |[Usar a criptografia de mensagem do Office](secure-your-business-data.md#encryption) <br/> ||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|8   <br/> |[Proteger seu email contra ataques de phishing](secure-your-business-data.md#phishing) <br/> ||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|9   <br/> |[Proteger contra anexos e arquivos mal-intencionados com anexos seguros de ATP](secure-your-business-data.md#atp) <br/> ||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|10   <br/> |[Proteger contra ataques de phishing com links seguros de ATP](secure-your-business-data.md#phishingatp) <br/> ||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|1  <br/> |[Configurar autenticações multifatoriais](secure-your-business-data.md#setup) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|duas  <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3D  <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|quatro  <br/> |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|0,5  <br/> |[Proteger contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|6  <br/> |[Parar o encaminhamento automático para email](secure-your-business-data.md#forwarding) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|178  <br/> |[Usar a criptografia de mensagem do Office](secure-your-business-data.md#encryption) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|8  <br/> |[Proteger seu email contra ataques de phishing](secure-your-business-data.md#phishing) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|241  <br/> |[Proteger contra anexos e arquivos mal-intencionados com anexos seguros de ATP](secure-your-business-data.md#atp) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|10   <br/> |[Proteger contra ataques de phishing com links seguros de ATP](secure-your-business-data.md#phishingatp) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
    
 Antes de começar, verifique sua pontuação de segurança do [microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) na central de segurança do Microsoft 365. A partir de um painel centralizado, você pode monitorar e aprimorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365. Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou endereçar recomendações com aplicativos ou software de terceiros. Com informações adicionais e mais visibilidade de um conjunto mais amplo de produtos e serviços da Microsoft, você pode se sentir com o relatório de confiança sobre a integridade de segurança da sua organização.
   
-![Captura de tela da Pontuação segura da Microsoft](../media/secure-score.png)
+![Captura de tela da Pontuação segura da Microsoft](../../media/secure-score.png)
   
 ## <a name="1-set-up-multi-factor-authentication"></a>1: configurar a autenticação multifator
 <a name="setup"> </a>
@@ -210,11 +210,11 @@ Sua organização pode ter configurado opções adicionais que aplicam um rótul
 
 No Outlook para computador, selecione **Opções** no email e, em seguida, escolha **permissões**. 
   
-![Criptografia de mensagem de email no Outlook](../media/08e90a7e-a2d2-41a4-bae9-0a46b4ce639a.png)
+![Criptografia de mensagem de email no Outlook](../../media/08e90a7e-a2d2-41a4-bae9-0a46b4ce639a.png)
   
 No Outlook.com, selecione **proteger** no email. A proteção padrão **não é encaminhada**. Para alterar isso para criptografar, selecione **alterar permissões** \> **criptografar**. 
   
-![Criptografia de mensagem de email no Outlook.com](../media/329ccf50-f6b1-4fb8-b249-60b907a82b7e.png)
+![Criptografia de mensagem de email no Outlook.com](../../media/329ccf50-f6b1-4fb8-b249-60b907a82b7e.png)
   
 ### <a name="to-receive-encrypted-email"></a>Para receber emails criptografados
 
@@ -231,7 +231,7 @@ Se você configurou um ou mais domínios personalizados para o seu ambiente do O
   
 Recomendamos que você comece a usar essa proteção criando uma política para proteger seus usuários mais importantes e seu domínio personalizado. 
   
-![Criar uma política anti-phishing do ATP](../media/security-and-compliance-center.png)
+![Criar uma política anti-phishing do ATP](../../media/security-and-compliance-center.png)
   
 Para criar uma política anti-phishing do ATP, exiba um [vídeo de treinamento curto](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)ou conclua as seguintes etapas:
   

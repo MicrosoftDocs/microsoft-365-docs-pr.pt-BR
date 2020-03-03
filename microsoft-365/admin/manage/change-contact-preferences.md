@@ -16,12 +16,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: Atualize as informações de contato da sua organização e escolha o tipo de comunicações relacionadas ao produto do Office 365 que você deseja receber.
-ms.openlocfilehash: 11c9c40b4821f7ada68afb2b89b6c8a267ce148f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 435848f1a5d594dc5cf2f1658ac4f6f89dc7af44
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250608"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362026"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Alterar suas preferências de contato para comunicações da Microsoft
 

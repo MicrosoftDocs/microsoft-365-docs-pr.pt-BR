@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: eef600b2fc325454ad7a4d36019a4e762409c8b9
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 74e84fc00e5fe633f0d70315cea9ad1329e2f639
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179212"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372009"
 ---
 # <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de risco do insider
 
@@ -35,6 +35,9 @@ O painel de **alerta** de risco do insider permite que você visualize e execute
     - Tempo médio para resolver alertas de severidade Baixa, listados em horas, dias ou meses.
 
 ![Painel de alerta de gerenciamento de risco do insider](../media/insider-risk-alerts-dashboard.png)
+
+>[!NOTE]
+>O gerenciamento de riscos Insider usa a limitação de alerta interna para ajudar a proteger e otimizar a investigação de riscos e a experiência de análise. Essa limitação protege contra problemas que podem resultar em uma sobrecarga de alertas de política, como conectores de dados configurados incorretamente ou políticas de DLP. Como resultado, pode haver um atraso na exibição de novos alertas para um usuário.
 
 ## <a name="alert-status-and-severity"></a>Status e severidade do alerta
 

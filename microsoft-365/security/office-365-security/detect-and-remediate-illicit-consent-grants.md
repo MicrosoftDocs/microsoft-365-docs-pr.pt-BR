@@ -2,9 +2,9 @@
 title: Detectar e corrigir a concessão de autorização ilícita no Office 365
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyp
+manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Office 365.
-ms.openlocfilehash: 0ff16d01c3fe0f150e5a39cec574bc80aead9661
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: e11518b0b16b7ee922f18b0ef771d36f608e41b7
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957146"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363047"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Detectar e corrigir a concessão de autorização ilícita no Office 365
 
@@ -79,7 +79,7 @@ Você pode pesquisar os aplicativos aos quais qualquer usuário individual conce
 
 5. Selecione **aplicativos**.
 
-Isso mostrará os aplicativos atribuídos ao usuário e as permissões que o applcations tem.
+Isso mostrará os aplicativos atribuídos ao usuário e as permissões que os aplicativos têm.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>Etapas para que os usuários enumerem o acesso ao aplicativo
 
@@ -102,7 +102,7 @@ A maneira mais simples de verificar o consentimento ilícito de concessão é ex
 
 1. Entre no computador em que você executará o script com direitos de administrador local.
 
-2. Baixe ou copie o script [Get-AzureADPSPermissions. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) do GitHub para uma pasta a partir da qual você irá executar o scruipt. Essa será a mesma pasta para a qual o arquivo de saída "Permissions. csv" será gravado.
+2. Baixe ou copie o script [Get-AzureADPSPermissions. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) do GitHub para uma pasta a partir da qual você executará o script. Essa será a mesma pasta para a qual o arquivo de saída "Permissions. csv" será gravado.
 
 3. Abra uma instância do PowerShell como administrador e abra a pasta para a qual você salvou o script.
 

@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Saiba como usar o OneDrive e um site de equipe para armazenamento e compartilhamento de arquivos.
-ms.openlocfilehash: ec55e54fb15113589d7c9b68add511d2cfa9bc97
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: be3c845710fdf5531b1a3d91b9579c55cdc4d203
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251351"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360492"
 ---
 # <a name="set-up-office-365-file-storage-and-sharing"></a>Configurar o compartilhamento e o armazenamento de arquivos do Office 365
 
@@ -52,7 +52,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 O OneDrive e os sites de equipe fornecem acesso em qualquer lugar para você e seus funcionários.
   
-![Um diagrama que mostra como os produtos do Office 365 podem usar o OneDrive ou sites de equipe](../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Um diagrama que mostra como os produtos do Office 365 podem usar o OneDrive ou sites de equipe](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
 Aqui estão as recomendações para o que armazenar em cada local quando você usa o OneDrive e sites de equipe juntos:
   
@@ -81,7 +81,7 @@ Veja como cada pessoa em sua equipe pode configurar o OneDrive e compartilhar ar
 
 3. No OneDrive, os membros da equipe podem armazenar seus próprios arquivos relacionados aos negócios. Você pode compartilhar arquivos individuais ou uma pasta inteira. Escolha um arquivo ou pasta, clique com o botão direito do mouse e escolha **compartilhar**.
 
-    ![Compartilhar uma pasta](../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
+    ![Compartilhar uma pasta](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
   
 4. Na página **Enviar Link** , mantenha a seleção padrão **qualquer pessoa com o link pode exibir e editar**.
 
@@ -89,15 +89,15 @@ Veja como cada pessoa em sua equipe pode configurar o OneDrive e compartilhar ar
 
     Se você quiser sua própria cópia do email que será enviado, adicione seu endereço de email à lista.
 
-    ![Caixa de diálogo compartilhar um link mostrando a exibição da digitação e seleção de um nome.](../media/877e6587-db9d-4903-a87b-11e570eee926.png)
+    ![Caixa de diálogo compartilhar um link mostrando a exibição da digitação e seleção de um nome.](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
   
 5. Quando você terminar de inserir quem deseja compartilhar, selecione **Enviar**. O email é imediatamente enviado para as pessoas que você convidar.
 
-    ![Compartilhar um link, mostrando a lista de nomes](../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
+    ![Compartilhar um link, mostrando a lista de nomes](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
 6. Veja como é a aparência do email. 
 
-    ![Email com link para compartilhar a pasta do OneDrive](../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
+    ![Email com link para compartilhar a pasta do OneDrive](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
   
 ### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>Carregar arquivos em um site de equipe para colaboração online
 
@@ -138,15 +138,15 @@ Veja aqui como sincronizar os arquivos que estão no site de equipe com sua áre
   
 4. Se você receber um prompt **Configurar o onedrive** , entre com sua conta corporativa ou de estudante.
 
-    ![Tela de configuração do OneDrive](../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
+    ![Tela de configuração do OneDrive](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
   
 5. Se você ainda não tiver sincronizado o OneDrive, poderá ver a **sua tela de pastas do onedrive** . Verifique se o caminho em **sua pasta do onedrive está aqui**. Escolha **alterar local** se quiser usar um caminho diferente e, em seguida, selecione **Avançar**.
 
-    ![Alterar sua pasta local nesta tela](../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
+    ![Alterar sua pasta local nesta tela](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
 6. Os arquivos em seus sites de equipe aparecerão no painel esquerdo do explorador de arquivos com o nome da sua organização. Os arquivos no OneDrive aparecerão em "OneDrive- \<nome da organização\>"
 
-    ![Veja o que foi sincronizado em sua pasta local](../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
+    ![Veja o que foi sincronizado em sua pasta local](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
 7. Teste a sincronização abrindo um arquivo na pasta da equipe em seu computador. Faça uma alteração e, em seguida, escolha **Salvar**.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário do Office 365 e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 09487e0ff495f4b561e7a27eecf2c99fd4da10af
-ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
+ms.openlocfilehash: 78d87c5539daa77c2babb7ffa36967c5f27e3c10
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42284382"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362126"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -32,7 +32,7 @@ A Implantação Centralizada é a forma recomendada e com recursos mais avançad
 A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
 Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Office 365 ProPlus (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. O diretório da sua assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizada do office 365](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker).
@@ -77,7 +77,7 @@ A maneira mais simples de detectar se um usuário tem o Office 365 ProPlus insta
   
 Se não quiser usar o relatório de ativações, você pode pedir a um usuário para abrir um aplicativo do Office, como o Word, em sua máquina e, em seguida, escolher **conta**de **arquivo** \> . Em **Informações do Produto** deve haver **Produto de Assinatura** e **Microsoft Office 365 ProPlus**, como mostra a imagem a seguir.
 
-![Informações de produto em um aplicativo do Office](../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
+![Informações de produto em um aplicativo do Office](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
   
 Encontre ajuda para o Office 365 ProPlus em [Dicas de solução de problemas para o Office 365 ProPlus](https://go.microsoft.com/fwlink/p/?linkid=846339).
 
@@ -140,18 +140,18 @@ A implantação centralizada oferece suporte a atribuições para usuários indi
    
 Examine o exemplo a seguir em que Sara, Maria Eduarda e o grupo do Departamento de Vendas são atribuídos a um suplemento. Como o Departamento de Vendas da Costa Oeste é um grupo aninhado, Humberto e Fábio não estão atribuídos a um suplemento.
   
-![Diagrama do departamento de vendas](../media/683094bb-1160-4cce-810d-26ef7264c592.png)
+![Diagrama do departamento de vendas](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
 
    
 ### <a name="find-out-if-a-group-contains-nested-groups"></a>Determinar se um grupo contém grupos aninhados
 
 A maneira mais fácil de detectar se um grupo contém grupos aninhados é exibir o cartão de visita do grupo no Outlook. Se você inserir o nome do grupo no campo **para** de um email e selecionar o nome do grupo quando ele resolver, ele mostrará se ele contém usuários ou grupos aninhados. No exemplo abaixo, a guia **Membros** do cartão de visita do Outlook para o Grupo de Teste não mostra usuários nem grupos, apenas dois subgrupos. 
   
-![Guia Membros do cartão de visita do Outlook](../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![Guia Membros do cartão de visita do Outlook](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
   
 É possível fazer a consulta inversa resolvendo o grupo para ver se ele é membro de algum grupo. No exemplo abaixo, na guia **Associação** do cartão de visita do Outlook, é possível ver que o Subgrupo 1 é membro do Grupo de Teste. 
   
-![Guia Membros do cartão de visita do Outlook](../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
+![Guia Membros do cartão de visita do Outlook](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
   
 Se preferir, use a API do Graph do Azure Active Directory para executar consultas para localizar a lista de grupos dentro de um grupo. Para saber mais, veja [Operações em grupos | Referência da API do Graph](https://go.microsoft.com/fwlink/p/?linkid=846342).
   

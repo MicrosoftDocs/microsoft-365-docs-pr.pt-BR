@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 27d0b1ee6ff85a90ce923d168b7286e7887759c3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a706a7acef50b0310ae57ba0831c64a229b57875
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251335"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360212"
 ---
 # <a name="contact-support-for-anguilla"></a>Entrar em contato com o suporte do Anguilla
 

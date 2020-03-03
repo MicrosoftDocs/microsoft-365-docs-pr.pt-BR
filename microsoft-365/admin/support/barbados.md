@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f94069ceb5df656630d04c6e49e9657e4ad19536
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f9d11557ac9d09f7605fe9a54e4935ff84e401f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251321"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360112"
 ---
 # <a name="contact-support-for-barbados"></a>Contatar o suporte para Barbados
 

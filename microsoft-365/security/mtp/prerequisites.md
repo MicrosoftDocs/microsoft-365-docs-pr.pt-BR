@@ -1,7 +1,7 @@
 ---
 title: Pré-requisitos da proteção contra ameaças da Microsoft
 description: Saiba mais sobre os requisitos de licenciamento, hardware e software, além de outras configurações para proteção contra ameaças da Microsoft
-keywords: requisitos, pré-requisitos, hardware, software, navegador, MTP, M365, licença
+keywords: requisitos, pré-requisitos, hardware, software, navegador, MTP, M365, licença, e5, a5, EMS, compra
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,19 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c99ef0634c5858e458b9aa4aa622a7ab55c32088
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: ef26a2ebc25d7f55e7dc22347d85767dab970536
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288539"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372049"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-
 
 Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar a proteção contra ameaças da Microsoft.
 
@@ -41,8 +39,13 @@ Para usar a proteção contra ameaças da Microsoft, você precisa de *uma* das 
 - Microsoft 365 E5
 - Segurança do Microsoft 365 E5
 - Office 365 E5 e "Enterprise Mobility + Security E5 (EMS E5)" e Windows e5
+- Microsoft 365 A5
+- Segurança 365 A5 da Microsoft
+- Office 365 a5 e "Enterprise Mobility + Security a5 (EMS a5)" e Windows a5
 
-[Exibir planos de serviços corporativos do Microsoft 365](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
+Para obter mais informações, [consulte o Microsoft 365 Enterprise Service Plans](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).
+
+> Ainda não tem licença? [Experimentar ou comprar uma assinatura do Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>Verificar suas licenças existentes
 Vá para o centro de administração do Microsoft 365 ([admin.Microsoft.com](https://admin.microsoft.com/)) para exibir suas licenças existentes. No Centro de administração, acesse **Cobrança** > **Licenças**.

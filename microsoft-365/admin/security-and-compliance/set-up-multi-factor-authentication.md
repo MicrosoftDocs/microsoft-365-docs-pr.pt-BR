@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Aprenda a usar padrões de segurança para configurar a autenticação multifator para usuários do Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: cb2205e5f5b7df4f6e7d8f7263a91fb2f0f4d3e2
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341253"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361042"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -80,7 +80,7 @@ Todos os aplicativos cliente do Office 2016 oferecem suporte à MFA por meio do 
 
 2. Marque a caixa **Habilitar autenticação moderna**, no painel da **Autenticação moderna**. 
 
-    ![Painel de autenticação moderna com a caixa de seleção Habilitar marcada.](../media/enablemodernauth.png)
+    ![Painel de autenticação moderna com a caixa de seleção Habilitar marcada.](../../media/enablemodernauth.png)
     
 ## <a name="enable-multi-factor-authentication-for-your-organization"></a>Ativar a autenticação multifator da sua organização
     

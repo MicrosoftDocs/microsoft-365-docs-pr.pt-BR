@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Encontre como transferir dados manualmente entre duas contas do Office 365 quando você alterou o plano ou o nome da empresa ou combinou várias assinaturas em uma.
-ms.openlocfilehash: 004dd586c207678157afdb418e54f3c3b5353304
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 91f9d7b17a0296931393a89ff95d70628400c61a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250627"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362146"
 ---
 # <a name="transfer-data-manually-between-two-office-365-accounts"></a>Transferir dados manualmente entre duas contas do Office 365
 
@@ -59,7 +59,7 @@ Se você estiver transferindo dados do Office 365 para o Office 365 médio Busin
   
 Para o Office 365 Enterprise e o Office 365 Midsize Business:
   
-|**Localização**|**Objetivo**|
+|**Location**|**Objetivo**|
 |:-----|:-----|
 |**Configurações de serviço** do **administrador** \> **do Office 365** \> <br/> |Selecione cada guia para configurações de email, sites, Lync, software do usuário, senhas, Comunidade, gerenciamento de direitos e dispositivos móveis.  <br/> |
 |**Administração** \> do **Exchange** <br/> | Configurações do Exchange Online  <br/> |
@@ -68,7 +68,7 @@ Para o Office 365 Enterprise e o Office 365 Midsize Business:
 
 Para o Office 365 Small Business
   
-|**Localização**|**Objetivo**|
+|**Location**|**Objetivo**|
 |:-----|:-----|
 |**Administração** \> **gerenciar configurações de toda a organização** <br/> |Configurações administrativas  <br/> |
 

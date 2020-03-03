@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Saiba como importar contatos, calendários, emails do Gmail ou outro provedor de email para o Office 365. '
-ms.openlocfilehash: 6281e3b48249a67d3cf2754ebcfcaa9bc1789ef6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2b2f4441772a9d373316ff14f06bcdeb61e5840d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237793"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360702"
 ---
 # <a name="migrate-email-and-contacts-to-office-365"></a>Migrar emails e contatos para o Office 365
 
@@ -69,7 +69,7 @@ Se você quiser apenas contatos, siga estas etapas:
     
 Para iniciar o processo, abra o Outlook e escolha **arquivo** \> **abrir &amp; exportar** \> **importar/exportar**.
   
-![Menu arquivo no Outlook 2016](../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Abrir &amp; comando Exportar no Outlook 2016](../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Botão importar/exportar no Outlook 2016](../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
+![Menu arquivo no Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Abrir &amp; comando Exportar no Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Botão importar/exportar no Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
 ## <a name="see-other-email-accounts-in-outlook"></a>Confira outras contas de email no Outlook
 
@@ -83,7 +83,7 @@ Adicione uma conta, como sua conta do Gmail privado, ao Outlook.
     
 Precisa de etapas mais detalhadas? Consulte [Adicionar uma conta](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   
-[![Captura de tela mostrando a página informações de conta do Outlook no modo de exibição Backstage.](../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
+[![Captura de tela mostrando a página informações de conta do Outlook no modo de exibição Backstage.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-office-365"></a>Várias caixas de correio: os administradores podem importar email, contatos e calendários em massa para o Office 365
 
