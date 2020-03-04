@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode aplicar rótulos ao Microsoft Teams, grupos do Office 365 e sites do SharePoint.
-ms.openlocfilehash: 477b168435d36170a1506adff021ee4cb5ab5162
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 1e08df688a62d6c15ef0100b5379e62482ed7b50
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333708"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372029"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -52,15 +52,20 @@ Depois de habilitar e configurar essa visualização, os usuários também podem
 
 1. Como esse recurso usa a funcionalidade do Azure AD, siga as instruções na documentação do Azure AD para habilitar a visualização: [Atribuir rótulos de confidencialidade aos grupos do Office 365 no Azure Active Directory (visualização)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-2. Em uma sessão do PowerShell, conecte-se ao Centro de Conformidade e Segurança usando uma conta corporativa ou de estudante com privilégios de administrador global. Para mais instruções, confira [Conectar-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
-
-3. Execute os seguintes comandos para sincronizar seus rótulos com o Azure AD, para que eles possam ser usados com grupos do Office 365:
+2. Em uma sessão do PowerShell, conecte-se ao Centro de Conformidade e Segurança usando uma conta corporativa ou de estudante com privilégios de administrador global. Por exemplo:
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
+    ```
+    
+    Para mais instruções, confira [Conectar-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+
+3. Execute o seguinte comando para sincronizar seus rótulos de confidencialidade com o Azure AD, para que eles possam ser usados com grupos do Office 365:
+    
+    ```powershell
     Execute-AzureAdLabelSync
     ```
 
