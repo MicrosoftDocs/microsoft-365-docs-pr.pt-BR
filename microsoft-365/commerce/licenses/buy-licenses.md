@@ -1,5 +1,5 @@
 ---
-title: Comprar licenças para a sua assinatura do Office 365 for Business
+title: Gerenciar licenças de assinatura
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,28 +24,34 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
-description: Saiba como adicionar mais licenças à sua assinatura do Office 365 para empresas.
-ms.openlocfilehash: 9967ec9fc0e5f76d8b54f4875ac5944903b24da1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como adicionar e remover licenças para sua assinatura do Office 365 for Business.
+ms.openlocfilehash: 2f9c6b58a478b18fa1844c33689a8a4974a5917a
+ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237351"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42410038"
 ---
-# <a name="buy-licenses-for-your-office-365-for-business-subscription"></a>Comprar licenças para a sua assinatura do Office 365 for Business
+# <a name="manage-subscription-licenses"></a>Gerenciar licenças de assinatura
+
+Você pode adicionar ou remover licenças de suas assinaturas usando estas etapas.
+
+Você não pode remover uma licença de uma assinatura se ela estiver atribuída a um usuário. Se você deseja remover uma licença atualmente atribuída a alguém, será necessário [remover as licenças dos usuários](../../admin/manage/remove-licenses-from-users.md) antes de poder remover a licença da assinatura.
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
 > Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
+## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>O que você precisa saber sobre comprar licenças para sua assinatura comercial
+
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
-2. Na página **produtos & serviços** , localize a assinatura à qual você deseja adicionar licenças e, em seguida, selecione **Adicionar/remover licenças**.
+2. Na página **produtos & serviços** , localize a assinatura à qual você deseja adicionar ou remover licenças e, em seguida, selecione **Adicionar/remover licenças**.
 
     [Não está vendo o link para Adicionar/Remover licenças?](#what-if-i-dont-see-the-addremove-licenses-link)
 
-3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar alteração**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
+3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar alteração**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105. Se você quiser remover 5 deles, digite 95.
 
 Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
 
@@ -55,11 +61,11 @@ Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usu�
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
 
-2. Na página **assinaturas** , selecione a assinatura à qual você deseja adicionar licenças e, em seguida, selecione **Adicionar/remover licenças**.
+2. Na página **assinaturas** , selecione a assinatura à qual você deseja adicionar ou remover licenças e, em seguida, selecione **Adicionar/remover licenças**.
 
     [Não está vendo o link para Adicionar/Remover licenças?](#what-if-i-dont-see-the-addremove-licenses-link)
 
-3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar** \> **fechar**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
+3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar** \> **fechar**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105. Se você quiser remover 5 deles, digite 95.
 
 Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
 
@@ -69,11 +75,11 @@ Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usu�
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
 
-2. Na página **assinaturas** , selecione a assinatura à qual você deseja adicionar licenças e, em seguida, selecione **Adicionar/remover licenças**.
+2. Na página **assinaturas** , selecione a assinatura à qual você deseja adicionar ou remover licenças e, em seguida, selecione **Adicionar/remover licenças**.
 
     [Não está vendo o link para Adicionar/Remover licenças?](#what-if-i-dont-see-the-addremove-licenses-link)
 
-3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar** \> **fechar**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
+3. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar** \> **fechar**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105. Se você quiser remover 5 deles, digite 95.
 
 Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
 
@@ -85,13 +91,13 @@ Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças
 
 |Reason  |Descrição  |Solução  |
 |---------|---------|---------|
-|Uma verificação de crédito está pendente. |Se uma verificação de crédito estiver pendente, você verá a mensagem "Verificação de crédito pendente" e não poderá comprar licenças até que ela seja concluída.  | Verifique novamente mais tarde para ver se a verificação de crédito foi concluída. Geralmente, as verificações de crédito levam até dois dias úteis para serem concluídas.<br>Depois que a verificação de crédito for concluída, você deverá conferir o link **Adicionar/Remover licenças** na seção **Usuários**. Em caso afirmativo, vá para [comprar licenças para sua assinatura do Office 365 for Business](#buy-licenses-for-your-office-365-for-business-subscription). |
+|Uma verificação de crédito está pendente. |Se uma verificação de crédito estiver pendente, você verá a mensagem "Verificação de crédito pendente" e não poderá comprar licenças até que ela seja concluída.  | Verifique novamente mais tarde para ver se a verificação de crédito foi concluída. Geralmente, as verificações de crédito levam até dois dias úteis para serem concluídas.<br>Depois que a verificação de crédito for concluída, você deverá conferir o link **Adicionar/Remover licenças** na seção **Usuários**. Em caso afirmativo, vá para [gerenciar licenças de assinatura](#manage-subscription-licenses). |
 |Você ativou a assinatura usando uma chave do produto (Product Key).| Se a assinatura foi adquirida e ativada usando uma chave do produto (Product Key) de 25 caracteres, você verá o texto "Pré-paga".  |Confira [adicionar licenças a uma assinatura paga para usar uma chave do produto (Product Key](add-licenses-using-product-key.md)). |
 |Você comprou sua assinatura por meio de um parceiro. | Se a assinatura foi adquirida por meio de um parceiro, você verá o link do Centro de Serviços de Licenciamento por Volume (VLSC). | Confira [adicionar licenças a uma assinatura adquirida por meio do centro de serviços de licenciamento por volume](add-licenses-bought-through-vlsc.md). |
 |Você comprou sua assinatura por meio de um revendedor.|| Se a assinatura foi adquirida por meio de um parceiro CSP (Provedor de Soluções na Nuvem da Microsoft), você deve falar com ele para comprar mais licenças.        |
 |Você tem uma assinatura de avaliação. |Uma versão de avaliação do Office 365 exibe o texto "Avaliação". | Você deve primeiro comprar sua assinatura de avaliação e, em seguida, pode adicionar mais licenças. Veja [comprar uma assinatura do Office 365 for Business em sua avaliação gratuita](../buy-a-subscription-from-your-free-trial.md).|
 
-## <a name="what-you-need-to-know-about-buying-licenses-for-your-office-365-for-business-subscription"></a>O que você precisa saber sobre a compra de licenças da sua assinatura do Office 365 para empresas
+## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>O que você precisa saber sobre comprar licenças para sua assinatura comercial
 
 ### <a name="buying-licenses"></a>Licenças de compra
 
@@ -117,10 +123,10 @@ Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças
 
 [Entenda as assinaturas e licenças](subscriptions-and-licenses.md)
 
-[Atribuir licenças a usuários](../../admin/manage/assign-licenses-to-users.md)
+[Comprar licenças para sua assinatura](buy-licenses.md)
 
 [Comprar outra assinatura](../buy-another-subscription.md)
 
-[Comprar ou editar um suplemento](../buy-or-edit-an-add-on.md)
+[Atribuir licenças a usuários](../../admin/manage/assign-licenses-to-users.md)
 
 [Gerenciar licenças de usuário do Yammer](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)

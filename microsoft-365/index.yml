@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 0575321bf9ed7953389e5a6a8be6b8c21479326a
-  ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
-  ms.translationtype: HT
+  ms.openlocfilehash: 11eba274c5386bcf1b98c2d741078e035a02f150
+  ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+  ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/24/2020
-  ms.locfileid: "42250461"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "42410018"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de TI
@@ -45,7 +45,7 @@ additionalContent:
     summary: Selecione um cartão para saber mais sobre o Microsoft 365.
     items:
     - title: Centro de administração do Microsoft 365
-      summary: Configure e gerencie seu Office 365 e Microsoft 365 para assinaturas comerciais e corporativas.
+      summary: Configurar e gerenciar o Office 365 e os serviços do Microsoft 365 para sua organização.
       url: ./admin/admin-home.md
     - title: Microsoft 365 Business
       summary: Projetado para empresas de pequeno e médio porte. Administre sua empresa com as versões mais recentes dos aplicativos do Windows e do Office como Excel e Outlook. Aproveite a proteção de dados e a segurança que se estende a todos os seus dispositivos de negócios.
