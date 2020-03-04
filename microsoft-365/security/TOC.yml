@@ -55,6 +55,8 @@
               href: ./mtp/troubleshoot.md
         - name: Guias de instruções
           items:
+            - name: Implantar serviços com suporte
+              href: mtp/deploy-supported-services.md
             - name: Habilitar a Proteção contra Ameaças da Microsoft
               href: mtp/mtp-enable.md
             - name: Incidentes
