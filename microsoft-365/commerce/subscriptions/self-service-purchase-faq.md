@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: b385e5cae1f78f300655dd5c3a0dbf584dc69256
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: d08fd843c87806356759c9d0c66a41d136667d19
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288489"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400958"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -151,4 +151,4 @@ Parceiros com privilégios de administração delegada podem ver compras de auto
 
 ### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>Em quais países posso fazer uma compra de autoatendimento?
 
-As compras de autoatendimento estão disponíveis nos seguintes países: Austrália, Áustria, Bélgica, Bulgária, Canadá, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Grécia, Hungria, Islândia, Irlanda, Itália, Japão, Letônia, Lituânia, Luxemburgo, Malta, Holanda, Noruega, Polônia, Portugal, Romênia, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
+As compras de autoatendimento estão disponíveis nos seguintes países: Afeganistão, Ilhas Åland, Albânia, Argélia, Samoa Americana, Andorra, Angola, Anguilla, Antártica, Antígua e Barbuda, Argentina, Armênia, Aruba, Austrália, Áustria, Azerbaijão, Bahamas , Bahrein, Bangladesh, Barbados, Belarus, Bélgica, Bulgária, Belize, Benin, Bermuda, Butão, Bolívia, Bonaire, Santo Eustáquio e Saba, Bósnia e Herzegovina, Botsuana, Bouvet Island, Brasil, território britânico Oceano Índico, Ilhas Virgens Britânicas, Brunei, Burquina Faso, burundinês, cabo verde, Camboja, Camarões, Canadá, Ilhas Cayman, República Centro-Africana, Chade, Chile, China, Ilha Christmas, Ilhas Cocos (Keeling), Colômbia, Comores, Congo, Congo e República Democrática do, Ilhas Cook, Costa Rica, Côte d' Ivoire, Croácia, Chipre, Curaçao, República Tcheca, Dinamarca, Djibuti, Dominica, República Dominicana, Equador, Egito,, El Salvador, Guiné Equatorial, Eritreia, Estônia, Etiópia, Ilhas Malvinas, Ilhas Faroés, Fiji, Finlândia, França, Guiana francesa, Polinésia francesa, francês Territórios do Sul, Gabon, Gâmbia, Geórgia, Alemanha, Gana, Gibraltar, Groenlândia, Grécia, Granada, Guadeloupe, Guam, Guatemala, Guernsey, Guiné, Guiné-Bissau, Guiana, Haiti, Heard Island e Ilhas McDonald, Honduras, Hong Kong SAR, Hungria, Islândia , Indonésia, Iraque, Irlanda, ilha de homem, Israel, Itália, Jamaica, Japão, Jersey, Jordânia, Cazaquistão, Quênia, Kiribati, Coréia, Kosovo, Kuwait, Quirguistão, Laos, Letônia, Líbano, Lesoto, Libéria, Líbia, Liechtenstein, Lituânia, Luxemburgo, RAE de Macau, Madagascar, Malawi, Malásia, Maldivas, Mali, Malta, Ilhas Marshall, Martinica, Mauritânia, Maurício, Mayotte, México, Micronésia, Moldávia, Mônaco, Mongólia, Montenegro, Montserrat, Marrocos, Moçambique, Myanmar, Namíbia, Nauru, Nepal, Holanda , Nova Caledônia, Nova Zelândia, Nicarágua, Níger, Nigéria, Niue, Ilha Norfolk, nordeste Macedônia, Ilhas Marianas do Norte, Noruega, Omã, Paquistão, Palau, Autoridade Palestina, Panamá, Papua Nova Guiné, Paraguai, Peru, Filipinas, Ilhas Pitcairn, Polônia, Portugal, Porto Rico, Catar, Réunion, Romênia, Rússia, Ruanda, Saint Barthélemy, Saint Kitts e Névis, Saint Lúcia, Saint Martins, Saint Pierre e Miquelon, Saint Vicente e Granadinas, Samoa, San Marino, São Cristóvão e Príncipe,, Sérvia, seichelense, Serra Leoa, Cingapura, Santo Maarten, Eslováquia, Eslovênia, Ilhas Salomão, Somália, África do Sul, Ilhas Geórgia do Sul e Sandwich do Sul, Sul Sudão, Espanha, Sri Lanka, Santa Helena, ascensão, Tristão da Cunha, Suriname, Svalbard e Jan Mayen, Suazilândia, Suécia, Suíça, Taiwan, Tadjiquistão, Tanzânia, Tailândia, Timor Leste, Togo, Tokelau, Tonga, Trinidad e Tobago, Tunísia, Turquia, Turcomenistão, Ilhas Turks e Caicos, Tuvalu, Ilhas de virgens norte-americanas, Ilhas Virgens americanas, Uganda, Ucrânia, Emirados Árabes Unidos, Reino Unido, Estados Unidos, Uruguai, Uzbequistão, Vanuatu, cidade do Vaticano, Venezuela, Vietnã, Wallis e Futuna, Iêmen, Zâmbia, Zimbábue.

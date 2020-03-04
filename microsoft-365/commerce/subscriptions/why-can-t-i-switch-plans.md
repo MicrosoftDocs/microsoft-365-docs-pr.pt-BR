@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Compreenda os motivos pelos quais às vezes os planos de mudança precisa ser feito manualmente ou chamando o suporte.
-ms.openlocfilehash: d7c076a5ce003f7d5ce5317f4330857e632e53ad
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a78ce8614dcc7382543bfda5bdfdfb025b6e5077
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237554"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409616"
 ---
 # <a name="why-cant-i-switch-office-365-for-business-plans"></a>Por que não posso mudar de plano do Office 365 para empresas?
 
@@ -41,12 +41,12 @@ Se você não vir o botão **mudar** de plano, seu plano não poderá ser altern
   
 ::: moniker range="o365-worldwide"
 
- **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../subscriptions-and-billing.md) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
+ **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../index.yml) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../subscriptions-and-billing.md) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
+ **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../index.yml) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
 
 ::: moniker-end
 

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: e142adcc9b1858355414c28b7e94116a6505f1b9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080519"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409656"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
@@ -84,13 +84,10 @@ Se você já tem uma assinatura existente do Office 365 for Business, por exempl
 4. Sobre **como esta aparência?** Insira o número de usuários que você tem e escolha **Avançar**. Você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
 5. Na página **como você deseja pagar?** , insira sua forma de pagamento e escolha **fazer pedido**.
 
-Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) à equipe de campanha. 
+Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](../admin/manage/assign-licenses-to-users.md) à equipe de campanha.
 
 
 ## <a name="whats-next"></a>E agora?
 - [Configure o microsoft 365](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para concluir o Microsoft 365 para campanhas configuradas. 
 - [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) ao seu plano. Inclua o candidato da campanha, todos os funcionários seniores da campanha e qualquer pessoa que tenha acesso a informações confidenciais de campanha ou de terceiros.
 - [Aumentar a proteção da sua campanha](m365-campaigns-security-overview.md)
-
-
-

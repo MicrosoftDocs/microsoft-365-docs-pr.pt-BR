@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: 2e84e1d0631403a1f5a40f80886bdae46ada166b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: cee2be9f4d1a0029e48f7c83619bafd00c42c044
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353082"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409466"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -78,19 +78,19 @@ Aqui estão os recursos e configurações que você encontrará na navegação e
 |**Usuários** <br/> |Crie e gerencie usuários em sua organização, como funcionários ou alunos. Você também pode definir o nível de permissão deles ou redefinir suas senhas.  <br/> |
 |**Grupos** <br/> |Crie e gerencie grupos em sua organização, como um grupo, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada do Office 365. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
 |**Resources** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](https://support.office.com/article/3a3d7ab9-5d21-41f1-b4bd-5200071dd539.aspx).  <br/> |
-|**Cobrança** <br/> |Exiba, compre ou cancele assinaturas da sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/subscriptions-and-billing.md).  <br/> |
+|**Cobrança** <br/> |Exiba, compre ou cancele assinaturas da sua organização. Exiba demonstrativos de cobrança anteriores ou exiba o número de licenças atribuídas aos usuários individuais. Saiba como [gerenciar cobranças](../../commerce/index.yml).  <br/> |
 |**Suporte** <br/> | Exiba solicitações de serviço existentes ou crie novos. Saiba mais em [Contatar suporte para produtos comerciais – Ajuda para Administradores](../contact-support-for-business-products.md). |
 |**Settings** <br/> |Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar seu centro de administração.  <br/> |
 |**Configurar** <br/> |Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office. |
 |**Relatórios** <br/> |Veja rapidamente como a sua organização está usando o Office 365 com relatórios detalhados sobre o uso de email, ativações do Office e muito mais. Saiba como usar os novos [relatórios de atividades](../activity-reports/activity-reports.md).  <br/> |
 |**Integridade** <br/> |Exiba o serviço de integridade num relance. Você também pode conferir mais detalhes e o histórico do serviço de integridade. Confira [Como verificar a integridade do serviço](https://support.office.com/article/932AD3AD-533C-418A-B938-6E44E8BC33B0).  <br/> Use o Centro de mensagens para controlar as alterações futuras nos recursos e serviços. Nele, postamos anúncios com informações que ajudam você a se planejar para mudanças e a entender como elas podem afetar os usuários. Obtenha mais detalhes em [Centro de mensagens no Office 365](../manage/message-center.md).  <br/> |
-|**Centros de administração** <br/> |Abra centros de administração do Exchange, Skype for Business, SharePoint e Azure AD, separadamente. Todos os centros de administração possuem todas as configurações disponíveis para seu respectivo serviço.  <br/> Por exemplo, no Centro de administração do Exchange, configure e gerencie emails, calendários, grupos de distribuição e muito mais. No Centro de administração do SharePoint, crie e gerencie conjuntos de sites, configurações do site e o OneDrive for Business. No Centro de administração do Skype for Business, configure as notificações de mensagens instantâneas, conferência discada e presença online.  <br/> Saiba mais sobre o [Centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807) e o [SharePoint Admin Center](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a.aspx).<br/> **Observação:** Os centros de administração disponíveis pra você dependem do seu plano e região.           |
+|**Centros de administração** <br/> |Abra centros de administração do Exchange, Skype for Business, SharePoint e Azure AD, separadamente. Todos os centros de administração possuem todas as configurações disponíveis para seu respectivo serviço.  <br/> Por exemplo, no Centro de administração do Exchange, configure e gerencie emails, calendários, grupos de distribuição e muito mais. No Centro de administração do SharePoint, crie e gerencie conjuntos de sites, configurações do site e o OneDrive for Business. No Centro de administração do Skype for Business, configure as notificações de mensagens instantâneas, conferência discada e presença online.  <br/> Saiba mais sobre o [Centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807) e o [SharePoint Admin Center](https://docs.microsoft.com/sharepoint/sharepoint-online).<br/> **Observação:** Os centros de administração disponíveis pra você dependem do seu plano e região.           |
    
 ## <a name="common-tasks-in-the-admin-center"></a>Tarefas comuns no centro de administração
 
 - Gerenciar usuários: [Adicionar usuários individualmente](../add-users/add-users.md), [Excluir ou restaurar usuários](../add-users/delete-a-user.md) ou [Redefinir senha de um usuário](../add-users/reset-passwords.md).
 
-- Obtenha ajuda sobre cobrança: [Cobrança](../../commerce/subscriptions-and-billing.md)
+- Obtenha ajuda sobre cobrança: [Cobrança](../../commerce/index.yml)
 
 - Ver relatórios de atividades: [Relatórios de Atividades](../activity-reports/activity-reports.md)
 

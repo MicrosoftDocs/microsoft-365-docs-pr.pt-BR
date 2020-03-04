@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b20c3b3be7c4582c7adbfae183698c2725de4e7f
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: cb138d14a35324840d78000b55a2f4376c3869b5
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328083"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400868"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Serviços de dispositivo de área de trabalho gerenciado da Microsoft
 

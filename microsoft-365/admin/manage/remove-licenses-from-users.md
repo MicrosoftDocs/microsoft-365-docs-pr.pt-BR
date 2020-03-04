@@ -1,5 +1,5 @@
 ---
-title: Cancelar licenças de usuários
+title: Cancelar a atribuição de licenças de usuários
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Saiba como remover licenças de contas de usuário.
-ms.openlocfilehash: bd14b7c62672d08e608b476e9c5982ac4b5ce070
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 031a29f9e005c5acc2fdf2aa5f24268268d180ab
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250579"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400928"
 ---
-# <a name="unassign-licenses-from-users"></a>Cancelar licenças de usuários
+# <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
 ::: moniker range="o365-worldwide"
 Você pode remover ou cancelar a atribuição de licenças de usuários na página **usuários ativos** ou na página **licenças** . O método a ser usado depende se você deseja cancelar a atribuição de licenças de produto de usuários específicos ou cancelar a atribuição de licenças de usuários de produtos específicos.
@@ -148,9 +148,11 @@ Quando você usa a página **licenças** para cancelar a atribuição de licenç
 
 - Você também pode [excluir contas de usuários](../add-users/delete-a-user.md) que receberam licenças para tornar suas licenças disponíveis para outros usuários. Quando você exclui uma conta de usuário, a licença fica disponível imediatamente para ser atribuída a outra pessoa.
 
-- Quando uma licença é removida de um usuário, os dados associados a essa conta são mantidos por 30 dias. Após o período de cortesia de 30 dias, os dados são excluídos e não podem ser recuperados. Arquivos salvos no OneDrive ou no SharePoint Online não são excluídos. Para mais informações, consulte [retenção e exclusão do onedrive](https://docs.microsoft.com/onedrive/retention-and-deletion)
+- Quando uma licença é removida de um usuário, os dados associados a essa conta são mantidos por 30 dias. Após o período de cortesia de 30 dias, os dados são excluídos e não podem ser recuperados.
 
-   Além disso, a caixa de correio do usuário não pode mais ser pesquisada usando uma ferramenta de descoberta eletrônica, como pesquisa de conteúdo ou descoberta eletrônica avançada, quando a licença é removida. Para obter mais informações, consulte a seção "pesquisando caixas de correio desconectadas ou deslicenciadas" na [pesquisa de conteúdo no Office 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
+- Observe que os arquivos salvos no OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração do Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, consulte [retenção e exclusão do onedrive](https://docs.microsoft.com/onedrive/retention-and-deletion).
+
+- Além disso, a caixa de correio do usuário não pode mais ser pesquisada usando uma ferramenta de descoberta eletrônica, como pesquisa de conteúdo ou descoberta eletrônica avançada, quando a licença é removida. Para obter mais informações, consulte a seção "pesquisando caixas de correio desconectadas ou deslicenciadas" na [pesquisa de conteúdo no Office 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
 
 - Se você tiver uma assinatura corporativa, como o Office 365 Enterprise E3, o Exchange Online permite preservar os dados da caixa de correio de uma conta de usuário excluída usando [caixas de correio inativas](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365). Para obter mais informações, consulte [criar e gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
 

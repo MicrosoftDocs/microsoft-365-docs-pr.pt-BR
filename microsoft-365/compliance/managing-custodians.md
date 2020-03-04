@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A ferramenta de gerenciamento de responsáveis em descoberta eletrônica avançada permite que você gerencie o fluxo de trabalho em torno da identificação, preservação e coleta de dados associados às pessoas de interesse em um caso jurídico.
-ms.openlocfilehash: fd796471ae4caeafbabc7b588dcf03b8cad80bc4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8ac1c67b4ddc3395bccb5ab699ce7df63f331d
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600488"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400908"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Trabalhar com os responsáveis na descoberta eletrônica avançada
 
 Quando uma organização responde a uma investigação legal, o fluxo de trabalho em torno da identificação, preservação e coleta de conteúdo potencialmente relevante é baseado nas pessoas da organização que são os responsáveis por dados relevantes. Na descoberta eletrônica, esses indivíduos são chamados de *responsáveis por dados de dados* (ou apenas *responsáveis*) e são definidos como "pessoas com controle administrativo de um documento ou arquivo eletrônico". Por exemplo, os responsáveis por uma mensagem de email podem ser o proprietário da caixa de correio que contém a mensagem relevante.  
 
-Quando uma investigação começa, a equipe de descoberta eletrônica deve identificar rapidamente todos os responsáveis e fontes de dados relevantes relacionados ao caso. Com o tempo, a lista de responsáveis e suas fontes de dados podem aumentar ou decreasser. Como resultado, as organizações devem manter um processo controlado em torno da identificação, preservação e coleta de conteúdo do custodial ao longo do ciclo de vida de uma ocorrência.
+Quando uma investigação começa, a equipe de descoberta eletrônica deve identificar rapidamente todos os responsáveis e fontes de dados relevantes relacionados ao caso. Com o tempo, a lista de responsáveis e suas fontes de dados podem aumentar ou diminuir. Como resultado, as organizações devem manter um processo controlado em torno da identificação, preservação e coleta de conteúdo do custodial ao longo do ciclo de vida de uma ocorrência.
 
 Em um caso de descoberta eletrônica avançada, as equipes jurídicas podem adicionar pessoas em sua organização como responsáveis e identificar e preservar automaticamente as fontes de dados do custodial, como caixas de correio do Exchange, contas do OneDrive e sites do SharePoint e do Microsoft Teams. Usando a ferramenta de gerenciamento de responsáveis interna na descoberta eletrônica avançada, as organizações podem proteger as informações armazenadas eletronicamente de forma inadvertida (ou intencional). Isso permite eliminar o processo demorado e sujeito a erros de ter que executar manualmente os processos de retenção legal. 
 

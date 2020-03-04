@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 894b1cbf9033521c6978f54d0483fe61c3d6114d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 49f1c0847ef53bea9a16a6aedb20f7d3a96d6e2c
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354932"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409696"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover seus métodos de pagamento
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: 676581a5cfdf7308cf6c5cd71083dedae34836fb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: adf9d41fd528b2146ae3b3ee6f61390d61deaabe
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083949"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409576"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -50,7 +50,7 @@ No centro de conformidade de &amp; segurança do Office 365, ao criar uma polít
     
 ## <a name="add-user-notifications-to-a-dlp-policy"></a>Adicionar notificações de usuário a uma política de DLP
 
-Quando você cria uma política de DLP, as notificações por email e as dicas de política fazem parte da seção **notificações do usuário** . 
+Ao criar uma política de DLP, você pode habilitar as **notificações do usuário**. Quando habilitada, o Microsoft 365 envia notificações por email e dicas de política. Você pode personalizar quem os emails de notificação são enviados para o, o texto de email e o texto de dica de política.
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     

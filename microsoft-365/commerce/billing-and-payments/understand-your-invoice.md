@@ -1,5 +1,5 @@
 ---
-title: Entender sua fatura
+title: Entenda a sua fatura
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: bf6f26b2f3bbeb3ac22273eca98b223383b88924
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0ccf8484ba5f8badd29e1a8a54e1b570dd1e0548
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594692"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409706"
 ---
-# <a name="understand-your-invoice"></a>Entender sua fatura
+# <a name="understand-your-invoice"></a>Entenda a sua fatura
 
 A fatura fornece um resumo de seus encargos e instruções para pagamento. Você pode [exibir sua fatura online](#view-your-online-invoice) no centro de administração do Microsoft 365. Você também pode baixá-lo no formato de documento portátil (. pdf) para enviar por email.
 
-Se você tiver uma assinatura do Office 365, confira [exibir sua fatura do Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
+Se você tiver uma assinatura do Office 365, confira [exibir sua fatura do Office 365 para empresas](view-your-bill-or-invoice.md).
 
 ## <a name="understand-the-invoice-header"></a>Entender o cabeçalho da fatura
 
@@ -112,4 +112,4 @@ As faturas estão disponíveis online. Um link para sua fatura online está disp
 
 Se você tiver dúvidas ou precisar de ajuda com seus créditos do Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">crie uma solicitação de suporte com o suporte do Azure</a>.
 
-Se você tiver dúvidas ou precisar de ajuda com sua fatura no centro de administração do Microsoft 365, [entre em contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Se você tiver dúvidas ou precisar de ajuda com sua fatura no centro de administração do Microsoft 365, [entre em contato com o suporte para produtos de negócios](../../admin/contact-support-for-business-products.md).

@@ -14,14 +14,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendimento feitas por usuários em sua organização.
-ms.openlocfilehash: f3ccd1f8ab5f2f9fc78e2920182155ef7f6f16e3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080328"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409626"
 ---
-# <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (administrador)
+# <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
 Como administrador, você pode ver compras de autoatendimento feitas por pessoas em sua organização. Você pode ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. Se for necessário para sua organização, você poderá desativar a compras de autoatendimento por produto através do PowerShell. Você tem as mesmas políticas de gerenciamento e de acesso a dados sobre produtos comprados por autoatendimento ou de forma centralizada.
 
@@ -76,7 +76,7 @@ Você pode atribuir licenças existentes ou comprar assinaturas adicionais por m
 
 5. Siga as etapas em [Exibir quem possui licenças para uma assinatura adquirida por autoatendimento](#view-who-has-licenses-for-a-self-service-purchase-subscription) para exportar uma lista de usuários para referência na etapa 6.
 
-6. Atribuir licenças a todas as pessoas que têm uma licença na outra assinatura. Para ver as etapas completas, confira [atribuir licenças aos usuários](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+6. Atribuir licenças a todas as pessoas que têm uma licença na outra assinatura. Para ver as etapas completas, confira [atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
 
 7. Entre em contato com a pessoa que comprou a assinatura de compras de autoatendimento e peça que ela seja cancelada.
 
@@ -84,4 +84,4 @@ Você pode atribuir licenças existentes ou comprar assinaturas adicionais por m
 
 Para perguntas comuns sobre compras de autoatendimento, consulte [perguntas frequentes sobre compras de autoatendimento](self-service-purchase-faq.md).
 
-Se você tiver dúvidas ou precisar de ajuda com compras de autoatendimento, [entre em contato com o suporte](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Se você tiver dúvidas ou precisar de ajuda com compras de autoatendimento, [entre em contato com o suporte](../../admin/contact-support-for-business-products.md).

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 7ae834e7f93c381cf6d386131e3a5c671e2bc529
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 22547a69b78e8ca8497dd2e2a6ae5d77f913a08f
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074967"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409736"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
@@ -77,9 +77,6 @@ A primeira etapa é atribuir as permissões relacionadas à descoberta eletrôni
     - Acessar dados de caso na descoberta eletrônica avançada para qualquer caso na organização.
     
     Consulte a seção [More information](#more-information) para conhecer os motivos pelos quais convém ter um Administrador de Descoberta Eletrônica em sua organização. 
-    
-> [!IMPORTANT]
-> Se uma pessoa não for membro de um destes grupos de função relacionados à descoberta eletrônica ou se não for um membro de um grupo de função atribuído à função revisor, você não poderá adicioná-los como um membro de uma ocorrência de descoberta eletrônica. 
 
 Para obter mais informações sobre permissões de descoberta eletrônica, consulte [atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
   
@@ -117,28 +114,27 @@ A próxima etapa é criar uma ocorrência de descoberta eletrônica. Você deve 
     
     > [!TIP]
     > Depois de criar um novo caso, você pode renomeá-lo a qualquer momento. Basta clicar no nome do caso na página de **descoberta eletrônica** . Na página **gerenciar este** submenu de caso, altere o nome exibido na caixa em **nome**e salve a alteração. 
-  
 ## <a name="step-3-add-members-to-a-case"></a>Etapa 3: adicionar membros a uma ocorrência
 
-Após criar uma ocorrência, a próxima etapa é adicionar membros à ocorrência. Como explicado anteriormente, somente usuários que são membros dos grupos de função revisor ou Gerenciador de descoberta eletrônica podem ser adicionados como membros da ocorrência. O Gerenciador de descoberta eletrônica que criou o caso é automaticamente adicionado como um membro.
+Após criar uma ocorrência, a próxima etapa é adicionar membros à ocorrência. O Gerenciador de descoberta eletrônica que criou o caso é automaticamente adicionado como um membro. Como explicado anteriormente, os membros precisam atribuir as permissões de descoberta eletrônica apropriadas para que eles possam acessar o caso após você adicioná-los.
   
 1. No centro de conformidade & segurança **, clique em** \> **descoberta** eletrônica eletrônica para exibir a lista de casos em sua organização. 
-    
+
 2. Clique no nome do caso para o qual você deseja adicionar membros.
-    
+
     A página **gerenciar esse** submenu de caso é exibida. 
-    
+
     ![Gerenciar uma página de submenu de caso](../media/11f35ceb-6c98-4580-a3bc-ad688e9c7af9.png)
   
 3. Em **gerenciar Membros**, clique ![em Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **Adicionar** para adicionar membros à ocorrência. 
-    
+
     Você também pode optar por adicionar um grupo de funções ao caso. Em **gerenciar grupos de função**, ![clique em](../media/ITPro-EAC-AddIcon.gif) adicionar ícone **Adicionar**.
-    
+
     > [!NOTE]
     > Grupos de função controle quem pode atribuir membros a uma ocorrência de descoberta eletrônica. Isso significa que você só pode atribuir os grupos de função que você é membro de um caso.
-    
+
 4. Na lista de pessoas ou grupos de funções que podem ser adicionados como membros do caso, clique na caixa de seleção ao lado dos nomes das pessoas ou grupos de função que você deseja adicionar.
-    
+
     > [!TIP]
     > Se você tiver uma lista grande de pessoas que podem ser adicionadas como membros, use a caixa **Pesquisar** para procurar uma pessoa específica na lista. 
   
@@ -154,7 +150,7 @@ Você pode usar uma ocorrência de Descoberta Eletrônica para criar retenções
 
 > [!NOTE]
 > Depois que você coloca um local de conteúdo em espera, leva até 24 horas para que a retenção entre em vigor. 
->   
+
 Ao criar uma isenção, você tem as seguintes opções para fazer o escopo do conteúdo mantido nos locais de conteúdo especificado:
   
 - Você cria uma retenção infinita onde todo o conteúdo é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta, onde somente o conteúdo que corresponde a uma consulta de pesquisa é colocado em espera.
