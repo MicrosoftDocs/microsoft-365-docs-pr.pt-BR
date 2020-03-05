@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: 92bfb768cf044b6a4837e5dab6936c2d77424a25
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 3b8e5e39ef6e2cb2e452fbf1764d53bd51ad24d8
+ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106824"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42415676"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -146,9 +146,9 @@ Com uma política de rótulos, você pode:
 
 - **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados em todos os grupos de segurança habilitados por email, grupos do Office 365, ou grupos dinâmicos de distribuição.
 
-- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. 
+- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica aos recipientes, se você tiver [habilitado os rótulos de confidencialidade do Microsoft Teams, do Office 365 Groups e de sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. 
 
-- **Exigir uma justificativa para alterar um rótulo.** Se o conteúdo estiver marcado como confidencial e um usuário tentar remover esse rótulo ou substituí-lo por uma classificação menor, como um rótulo denominado público, você pode exigir que o usuário forneça uma justificativa para executar essa ação. Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
+- **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo que tenha um número de pedido menor, você poderá solicitar que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
     ![Prompt no qual os usuários inserem uma justificativa](../media/Sensitivity-label-justification-required.png)
 
