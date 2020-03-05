@@ -23,17 +23,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Saiba como configurar o Microsoft 365 Business.
-ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Descubra as etapas de configuração para o Microsoft 365 Business, incluindo a adição de um domínio e usuários, a configuração de políticas de segurança e muito mais.
+ms.openlocfilehash: 4535a32b579b91b6c2bb0e64ec95904be6c08fce
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594260"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417287"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business no assistente de instalação
 
@@ -45,7 +46,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Adicionar o domínio, os usuários e as políticas de configuração
 
-[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de sua propriedade ou comprar um durante a [inscrição](sign-up.md).
 
@@ -57,7 +58,7 @@ Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de 
 
 2. Escolha **ir para a configuração** para iniciar o assistente.
 
-    ![Selecione ir para a configuração.](media/gotosetupinadmincenter.png)
+    ![Selecione ir para a configuração.](../media/gotosetupinadmincenter.png)
 
 3. Na página **instalar aplicativos do Office** , você pode, opcionalmente, instalar os aplicativos no seu próprio computador.
     
@@ -66,14 +67,14 @@ Ao comprar o Microsoft 365 Business, você tem a opção de usar um domínio de 
     > [!IMPORTANT]
     > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** . Em vez disso, vá para [Adicionar usuários](#add-users-and-assign-licenses) .
 
-    ![Captura de tela da página personalizar sua sessão de entrada.](media/adddomain.png)
+    ![Captura de tela da página personalizar sua sessão de entrada.](../media/adddomain.png)
 
     
 4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifica se você é o proprietário do domínio. Se você souber seu host de domínio, consulte também as [instruções específicas do host](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
     Se o seu provedor de hospedagem for o GoDaddy ou outro host habilitado com o [domínio Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e você será solicitado a entrar novamente e permitir que a Microsoft autentique em seu nome.
 
-    ![Na página Confirmar acesso do GoDaddy, selecione autorizar.](media/godaddyauth.png)
+    ![Na página Confirmar acesso do GoDaddy, selecione autorizar.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Adicionar usuários e atribuir licenças
 
@@ -83,7 +84,7 @@ Você pode adicionar usuários no assistente, mas você também pode [Adicionar 
 
 Todos os usuários adicionados ao assistente recebem automaticamente uma licença de negócios do Microsoft 365.
 
-![Captura de tela da página Adicionar novos usuários no assistente](media/addnewuserspage.png)
+![Captura de tela da página Adicionar novos usuários no assistente](../media/addnewuserspage.png)
 
 1. Se sua assinatura do Microsoft 365 Business tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
 
@@ -101,7 +102,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
     - Se você tiver registros DNS existentes, por exemplo, um site existente, mas seu host DNS estiver habilitado para [conexão de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), escolha **adicionar registros para mim**. Na página **escolha seus serviços online** , aceite todos os padrões e escolha **Avançar**e escolha **autorizar** na página do seu host DNS.
     - Se você tiver registros DNS existentes com outros hosts DNS (não habilitados para conexão de domínio), será necessário gerenciar seus próprios registros DNS para garantir que os serviços existentes permaneçam conectados. Confira [noções básicas sobre domínios](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
 
-        ![Página ativar registros.](media/activaterecords.png)
+        ![Página ativar registros.](../media/activaterecords.png)
 
 2. Siga as etapas do assistente e email e outros serviços serão configurados para você.
 
@@ -111,14 +112,14 @@ As políticas configuradas no assistente são aplicadas automaticamente a um [gr
 
 1. Com o **aumento da proteção contra ameaças avançadas da Cyber**, é recomendável que você aceite os padrões para permitir a [proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) examinar arquivos e links em aplicativos do Office.
 
-    ![Captura de tela da página aumentar proteção.](media/increasetreatprotection.png)
+    ![Captura de tela da página aumentar proteção.](../media/increasetreatprotection.png)
 
 
 2. Na página **evitar vazamentos de dados confidenciais** , aceite os padrões para ativar a prevenção de perda de dados (DLP) do Office 365 para rastrear dados confidenciais em aplicativos do Office e impedir o compartilhamento acidental desses fora da sua organização.
 
 3. Na página **proteger dados no Office para celular** , deixe gerenciamento de aplicativo móvel, expanda as configurações e revise-as e selecione **criar política de gerenciamento de aplicativo móvel**.
 
-    ![Captura de tela de proteger dados no Office para páginas móveis.](media/protectdatainmobile.png)
+    ![Captura de tela de proteger dados no Office para páginas móveis.](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Proteger computadores com Windows 10

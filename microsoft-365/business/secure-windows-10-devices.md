@@ -19,18 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: 'Saiba mais sobre o padrão e outras configurações para proteger dispositivos Windows 10. '
-ms.openlocfilehash: 9560bb4e299dba8f92d435a64670261b0e7e0290
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba mais sobre como definir as configurações da política de dispositivo padrão que qualquer dispositivo Windows 10 receberá ao entrar em sua conta corporativa ou de estudante.
+ms.openlocfilehash: 6c9dcd308db2fa41bad5f907b3c5a35577ac61f1
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593436"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417237"
 ---
 # <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
 
@@ -42,7 +43,7 @@ Todas as configurações são **Ativadas** por padrão. As configurações a seg
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Desligar a tela do dispositivo quando ele ficar ocioso durante este período  <br/> |Garante que os dados da empresa estejam protegidos se um usuário ficar ocioso. Um usuário pode estar trabalhando em um local público, como um café, e se distanciar ou distrair por um momento, deixando seu dispositivo vulnerável a olhares aleatórios. Essa configuração permite que você controle quanto tempo o usuário pode ficar ocioso antes que a tela seja desligada.  <br/> |

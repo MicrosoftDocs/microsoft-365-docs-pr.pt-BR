@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 89925858ac749ac6f50b7a049a372cf2f7912698
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 0f7c2c59327874d279872d4fd9bb7d0b9d6eb863
+ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341244"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42410028"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -87,8 +87,6 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 - O site de acompanhamento de documentos da proteção de informações do Azure não é suportado.
 
 - Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria. Em vez disso, esses aplicativos continuam a abrir arquivos no modo de edição exclusivo.
-
-- Se um rótulo incluir criptografia, o Microsoft Cloud app Security não poderá ler as informações de rótulo dos arquivos no SharePoint.
 
 - Se um documento rotulado for carregado no SharePoint e a criptografia aplicada usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Exemplos de cenários incluem o Microsoft Cloud app Security e um arquivo enviado para o Teams por email.
 
