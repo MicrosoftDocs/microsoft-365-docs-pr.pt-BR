@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
 ms.openlocfilehash: 3b8e5e39ef6e2cb2e452fbf1764d53bd51ad24d8
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42415676"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543117"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
