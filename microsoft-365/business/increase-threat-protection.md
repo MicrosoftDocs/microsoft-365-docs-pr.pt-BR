@@ -1,5 +1,7 @@
 ---
 title: Aumentar a proteção contra ameaças para o Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -14,18 +16,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais.
-ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
+ms.openlocfilehash: 9d7bae60091c87fa0246a697f2a49e1cbc6e2f06
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704066"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550348"
 ---
-# <a name="increase-threat-protection"></a>Aumentar proteção contra ameaças
+# <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
 Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 365 para proteção contra phishing, malware e outras ameaças. Essas recomendações são apropriadas para organizações com uma necessidade maior de segurança, como escritórios de advocacia e clínicas de assistência médica.
 
@@ -147,7 +150,7 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
 |Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *Ana<span><span>Maria @contoso. com*. Se o email for enviado por um domínio representado: escolher **mensagem de quarentena**.  <br/> |
 |Inteligência de caixa de correio  <br/> |Por padrão, a inteligência de caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe esta configuração **em** para obter os melhores resultados.  <br/> |
 |Adicionar domínios e remetentes confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
-|Aplicado a  <br/> |Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **concluído**.  <br/> |
+|Aplicado a  <br/> |Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Proteger contra anexos e arquivos mal-intencionados com anexos seguros de ATP
 

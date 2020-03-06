@@ -18,18 +18,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Saiba mais sobre as configurações disponíveis para proteger os arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
-ms.openlocfilehash: 5f137354b51a0151e57e5e109b1ebbb043c68f60
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba mais sobre as configurações disponíveis no Microsoft 365 Business para proteger arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
+ms.openlocfilehash: 244e4773f1efa9548dd2126e03a007aefb840b40
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593547"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550158"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou roubado
 
@@ -41,7 +42,7 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado para o número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão excluídos automaticamente.  <br/> |
 |Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **ativada**, o único local de salvamento disponível para os arquivos de trabalho é o onedrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da sua empresa.  <br/> |

@@ -17,18 +17,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Saiba como usar o Windows AutoPilot para configurar novos dispositivos Windows 10 para sua empresa.
-ms.openlocfilehash: e5774b1e2079a5249e0f6e9e7142de19268253b5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como usar o Windows AutoPilot para configurar novos dispositivos Windows 10 para sua empresa para que eles estejam prontos para uso do funcionário.
+ms.openlocfilehash: 8449d5a3672a20b0cd1ba61bbda863073138c04c
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068510"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550378"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot
 

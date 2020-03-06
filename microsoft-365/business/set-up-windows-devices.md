@@ -19,21 +19,22 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Saiba como configurar dispositivos do Windows que executam o Windows 10 pro para usuários do Microsoft 365 Business. '
-ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como configurar dispositivos do Windows que executam o Windows 10 pro para usuários do Microsoft 365 Business, permitindo o gerenciamento centralizado e os controles de segurança.
+ms.openlocfilehash: 62d909b1e5658131f9381d1a800a70fad6e16cab
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42090604"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550008"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Configurar dispositivos Windows para usuários do Microsoft 365 Business
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Pré-requisitos para configurar dispositivos Windows para usuários do Microsoft 365 Business
 
 Antes de configurar dispositivos Windows para usuários do Microsoft 365 Business, verifique se todos os dispositivos Windows estão executando o Windows 10 Pro, versão 1703 (Atualização para Criadores). O Windows 10 Pro é um pré-requisito para a implantação do Windows 10 Business, que é um conjunto de serviços de nuvem e recursos de gerenciamento de dispositivos que complementam o Windows 10 Pro e permitem o gerenciamento centralizado e os controles de segurança do Microsoft 365 Business.
   
@@ -125,6 +126,6 @@ Verifique se seu Azure AD ingressado em dispositivos Windows 10 foram atualizado
 
 Para configurar seus dispositivos móveis, confira [Configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md). Para definir políticas de proteção de dispositivos ou proteção de aplicativos, confira [Gerenciar o Microsoft 365 Business](manage.md).
   
-## <a name="see-also"></a>Confira também
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
 
 [Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

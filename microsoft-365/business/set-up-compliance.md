@@ -16,20 +16,21 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Configurar recursos de conformidade para evitar a perda de dados e rotular dados confidenciais.
-ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Configurar recursos de conformidade para evitar a perda de dados e ajudar a manter a segurança de informações confidenciais de seus clientes.
+ms.openlocfilehash: 4c8efc4ca96f2db7bc4d1592ad3fdc85dfb6b3b5
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064687"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550048"
 ---
-# <a name="set-up-compliance-features"></a>Configurar recursos de conformidade
+# <a name="set-up-compliance-features"></a>Configure os recursos de conformidade
 
-Seu Microsoft 365 Business vem com recursos para proteger seus dados e dispositivos, e ajudar você a manter seu e as informações confidenciais de seus clientes seguras.
+O Microsoft 365 Business vem com recursos para proteger seus dados e dispositivos e ajudar você a manter a segurança de informações confidenciais de seus clientes.
 
 ## <a name="set-up-dlp-features"></a>Configurar recursos de DLP
 

@@ -1,5 +1,7 @@
 ---
 title: Pré-requisitos para a proteção de dados em dispositivos com o Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -13,23 +15,24 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Conheça os pré-requisitos para configurar sua organização com o Microsoft 365 Business.
-ms.openlocfilehash: 874a85859e315ef17e10fdd8094860e1e6bf2560
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+description: Saiba mais sobre os requisitos para configurar sua organização com o Microsoft 365 Business e proteger dados de trabalho nos dispositivos dos seus usuários.
+ms.openlocfilehash: 9e35e3b1cd4f0df1c5852b0fec407a99c9bcf4f4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640532"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550178"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Pré-requisitos para a proteção de dados em dispositivos com o Microsoft 365 Business
 
 A primeira etapa para configurar sua organização com o Microsoft 365 Business é garantir que você possa atender aos pré-requisitos.
   
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-business"></a>Requisitos para configurar sua organização com o Microsoft 365 Business
 
 - Os dispositivos Windows devem estar executando o Windows 7 Professional, o Windows 8 Pro ou o Windows 8,1 pro.
     

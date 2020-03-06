@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4f456b44ed0d7b3fb83a20d9c66ab49ff8af4946
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 3e3f16339d25c8cc592e937e30a446ed7e7cd333
+ms.sourcegitcommit: 0d7f27982fe9e18a4df423da23b86e0b15e77c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333658"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42542535"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -113,7 +113,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
     Se você optar por usar o assistente de política para criar uma política personalizada, você irá:
 
     - Forneça um nome e uma descrição para a política. Os nomes de política não podem ser alterados depois que a política é criada.
-    - Escolha os usuários ou grupos para supervisionar, incluindo todos os usuários em sua organização, usuários e grupos específicos ou outros usuários e grupos que você gostaria de excluir. -
+    - Escolha os usuários ou grupos para supervisionar, incluindo todos os usuários em sua organização, usuários e grupos específicos ou outros usuários e grupos que você gostaria de excluir.
     - Escolha os revisores da política. Os revisores podem ser usuários individuais ou [grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group). Todos os revisores devem ter caixas de correio hospedadas no Exchange Online.
     - Escolha os canais de comunicação a serem verificados, incluindo o Exchange, o Microsoft Teams ou o Skype for Business. Você também pode optar por verificar fontes de terceiros se tiver configurado um conector no Microsoft 365.
     - Escolha a direção de comunicação para monitorar, incluindo comunicações de entrada, de saída ou internas.

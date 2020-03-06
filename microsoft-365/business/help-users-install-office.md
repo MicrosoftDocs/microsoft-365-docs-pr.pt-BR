@@ -20,17 +20,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Ajudar os usuários a instalar os aplicativos do Office.
-ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Ajudar os usuários a instalar os aplicativos do Office em dispositivos Windows 10 e a instalar facilmente o Office em computadores com Windows 10 a partir do centro de administração de negócios do 365 da Microsoft.
+ms.openlocfilehash: 5df9a1a8236942a34031daf06e38acbe923339e4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065706"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550368"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Ajudar os usuários a instalar o Office em dispositivos Windows 10
 
@@ -61,6 +62,6 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
     
       :::image type="content" source="../media/sendemailtousers.png" alt-text="Selecione os usuários para enviar emails com o link de download do Office.":::
 
-## <a name="see-also"></a>Confira também
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
 
 [Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

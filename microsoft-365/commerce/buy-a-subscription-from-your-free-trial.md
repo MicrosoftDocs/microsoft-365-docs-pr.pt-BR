@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Compre uma assinatura do Office 365 para empresas. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
-ms.openlocfilehash: fcd38783082f9b86c4e1b99b1eec06d948e8e4b4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: faac769a89824964315c84da507adcf18d8cfeac
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237367"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42549798"
 ---
 # <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Comprar a versão de avaliação do Office 365 for Business
 
@@ -41,14 +41,14 @@ Você experimentou o Office 365 e agora está pronto para comprá-lo. Você tem 
 - [Comprar o mesmo plano da avaliação](#buy-the-same-plan-as-your-trial)
 - [Comprar um plano diferente da avaliação](#buy-a-different-plan-than-your-trial)
 
+> [!NOTE]
+> Ao final do período de avaliação gratuita, sua assinatura de avaliação será convertida automaticamente em uma assinatura paga. A assinatura paga será por padrão o plano no qual você está inscrito. Você ainda pode comprar um plano diferente seguindo as etapas descritas em [comprar um plano diferente do que a](#buy-a-different-plan-than-your-trial) seção de avaliação abaixo.
+
 ## <a name="buy-the-same-plan-as-your-trial"></a>Comprar o mesmo plano da avaliação
 
 É fácil e, ao comprar o mesmo plano de assinatura que o de sua versão de avaliação, você não precisa se preocupar em perder seus dados, contas e configuração.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
@@ -94,7 +94,7 @@ Você experimentou o Office 365 e agora está pronto para comprá-lo. Você tem 
 
 ## <a name="buy-a-different-plan-than-your-trial"></a>Comprar um plano diferente da avaliação
 
-Se comprar um tipo de assinatura diferente daquele de sua avaliação, você precisará reatribuir as licenças de usuário do plano de avaliação para o novo plano (antes que o período de cortesia de 90 dias termine, depois que seu plano de avaliação expirar) para manter seus dados, contas e configuração.
+Se você adquirir um tipo diferente de assinatura do que a sua avaliação, terá que reatribuir suas licenças de usuário do seu plano de avaliação para o novo plano (antes de o período de cortesia de 90 dias terminar após o plano de avaliação expirar) para manter seus dados, contas e configuração.
 
 ::: moniker range="o365-worldwide"
 

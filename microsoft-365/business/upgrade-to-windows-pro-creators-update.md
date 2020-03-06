@@ -1,5 +1,7 @@
 ---
 title: Atualizar dispositivos do Windows para o Windows 10 pro
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -17,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Saiba como atualizar dispositivos do Windows para o Windows 10 pro. '
-ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
-ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
+description: Descubra como você pode atualizar seus dispositivos Windows para o Windows 10 pro a fim de utilizar os recursos de rede de negócios e segurança mais avançados.
+ms.openlocfilehash: 541169571fb9f58c7f75f610546ec250ffd40afb
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41265849"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42549928"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Atualizar dispositivos do Windows para o Windows 10 pro
 
@@ -56,6 +59,6 @@ Confira [configurar dispositivos Windows para usuários do Microsoft 365 Busines
   
 Confira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para concluir a configuração dos dispositivos Android e Ios. 
   
-## <a name="see-also"></a>Confira também
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
 
 [Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

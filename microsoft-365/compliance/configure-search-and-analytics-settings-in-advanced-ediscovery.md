@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Definir configurações de descoberta eletrônica avançadas que se aplicam a todas as análises definidas em uma ocorrência. Isso inclui configurações para análise e OCR.
 ms.openlocfilehash: 9a7568fac91fa9c021d05b255fc0a145002e7f29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078310"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550453"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Definir configurações de pesquisa e análise
 

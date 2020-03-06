@@ -19,18 +19,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Saiba mais sobre as políticas de proteção que podem ajudar a proteger o acesso a aplicativos do Office de dispositivos móveis.
-ms.openlocfilehash: 39d28a3a78fb06d0020c484b1782b544f6a8c656
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba mais sobre as políticas de proteção que permitem gerenciar como os usuários acessam aplicativos do Office e arquivos de trabalho de dispositivos móveis.
+ms.openlocfilehash: 21e83114664d06aaeb27b08d9f4e2153eea02030
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593812"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550308"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Gerenciar como os usuários acessam documentos do Office em dispositivos móveis
 
@@ -42,7 +43,7 @@ As configurações a seguir estão disponíveis para gerenciar como os usuários
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração estiver **ativada**, os usuários devem fornecer outra forma de autenticação, além de seu nome de usuário e senha, antes de poderem usar os aplicativos do Office em seus dispositivos móveis.  <br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
 |Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Essa configuração determina quanto tempo um usuário pode ficar ocioso antes que seja solicitado a entrar novamente.  <br/> |
