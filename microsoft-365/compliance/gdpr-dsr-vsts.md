@@ -17,12 +17,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4ae98f6e396bdca0f1f1a4d6d360cf062878ba73
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a43c2e874092de70535c0150f10870b8a071aafc
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073268"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557971"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure DevOps Services para o RGPD e CCPA
 
@@ -67,7 +67,7 @@ A Microsoft se compromete a garantir que seus dados do Azure DevOps Services per
 ## <a name="see-also"></a>Confira também
 
 - [Compromissos da Microsoft sobre o RGPD para com os clientes dos nossos produtos de software empresarial disponibilizados de maneira geral](https://docs.microsoft.com/legal/gdpr)
-- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Painel de Privacidade da Microsoft](https://account.microsoft.com/privacy)
 - [Centro de Resposta Privacidade da Microsoft](https://aka.ms/userprivacysite)

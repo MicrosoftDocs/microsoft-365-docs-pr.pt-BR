@@ -16,12 +16,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 0bd09751ae3da311b753906b9c341a52a93b14f6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2b8bfa67a8af8686627e239b06c1025c3e8f3137
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596378"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557941"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Proteção de informações para o RGPD com recursos do Microsoft 365
 
@@ -60,4 +60,5 @@ A proteção contra ameaças está integrada a todos os serviços do Microsoft 3
 - [Proteção contra Ameaças do Windows](https://docs.microsoft.com/windows/security/threat-protection/). Saiba mais sobre a Proteção contra Ameaças do Windows Defender e outros recursos no Windows 10.
 
 ## <a name="learn-more"></a>Saiba mais
-[Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+
+[Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

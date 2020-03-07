@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: 'Revise como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados próximos duplicados, funciona na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: b5c777579e876e54032ce5872291a2791e2c3b09
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e15eb119a569c7cd296f9d3546969848808652da
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080758"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557661"
 ---
-# <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Entender a similaridade de documentos na descoberta eletrônica avançada do Office 365
+# <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Entender a similaridade de documentos na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -57,7 +57,7 @@ Após a mesclagem dos conjuntos, o documento dinâmico pode ser alterado quando 
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Configuração das opções de análise](set-analyze-options-in-advanced-ediscovery.md)
   

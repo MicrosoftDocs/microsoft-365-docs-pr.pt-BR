@@ -18,14 +18,16 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Use limites de conformidade para criar limites lógicos em uma organização do Office 365 que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: 9ca390dfc96307e6323e897e762813719f2b3ac0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 247c2649029d3029bb14ca9873a553f2ef8c356c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069721"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557732"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
+
+As orientações deste artigo podem ser aplicadas ao usar a descoberta eletrônica principal ou a descoberta eletrônica avançada para gerenciar investigações.
 
 Os limites de conformidade criam limites lógicos em uma organização do Office 365 que controlam os locais de conteúdo do usuário (como caixas de correio, sites do SharePoint e contas do OneDrive) que os gerentes de descoberta eletrônica podem pesquisar. Além disso, os limites de conformidade controlam quem pode acessar os casos de descoberta eletrônica usados para gerenciar os recursos jurídicos, humanos ou outras investigações em sua organização. A necessidade de limites de conformidade é geralmente necessária para as empresas multinacionais que precisam respeitar as normas e as regulamentações geográficas e para governos, que geralmente são divididas em diferentes agências. No Office 365, os limites de conformidade o ajudam a atender a esses requisitos ao executar pesquisas de conteúdo e gerenciar investigações com ocorrências de descoberta eletrônica.
   
@@ -157,29 +159,29 @@ A etapa final é criar uma ocorrência de descoberta eletrônica no centro de co
 - Quando um membro do grupo de função atribuído a uma ocorrência executar uma pesquisa associada ao caso, eles só poderão pesquisar os locais de conteúdo dentro da agência (que é definido pelo filtro de permissões de pesquisa que você criou na etapa 4.)
 
 Para criar um caso e atribuir Membros:
-    
-1. Vá para a página de **descoberta eletrônica** no centro de conformidade & segurança e crie uma ocorrência. 
-    
+
+1. Vá para a página de **descoberta eletrônica** ou **descoberta eletrônica avançada** no centro de conformidade de & de segurança e crie uma ocorrência. 
+
 2. Na lista de ocorrências de descoberta eletrônica, clique no nome do caso que você criou.
-    
+
 3. Na página **gerenciar esse** submenu de caso, em **gerenciar grupos**de função ![, clique](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) em Adicionar ícone **Adicionar**.
-    
+
     ![Adicionar um grupo de função como membro de uma ocorrência de descoberta eletrônica](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
 4. Na lista de grupos de função, selecione um dos grupos de função que você criou na etapa 3 e clique em **Adicionar**.
-    
+
 5. Clique em **salvar** no submenu **gerenciar este caso** para salvar a alteração. 
 
 ## <a name="compliance-boundary-limitations"></a>Limitações de limite de conformidade
 
 Tenha em mente as seguintes limitações ao gerenciar casos de descoberta eletrônica e investigações que usam limites de conformidade.
   
-- Ao criar e executar uma pesquisa de conteúdo, você pode selecionar locais de conteúdo fora da sua agência. No entanto, por causa do filtro de permissões de pesquisa, o conteúdo desses locais não é incluído nos resultados da pesquisa.
-    
+- Ao criar e executar uma pesquisa, você pode selecionar locais de conteúdo que estão fora da sua agência. No entanto, por causa do filtro de permissões de pesquisa, o conteúdo desses locais não é incluído nos resultados da pesquisa.
+
 - Os limites de conformidade não se aplicam a isenções em casos de descoberta eletrônica. Isso significa que um gerente de descoberta eletrônica em uma agência pode colocar um usuário em uma agência diferente em espera. No entanto, o limite de conformidade será imposto se o Gerenciador de descoberta eletrônica Pesquisar nos locais de conteúdo do usuário que foi colocado em espera. Isso significa que o Gerenciador de descoberta eletrônica não poderá pesquisar os locais de conteúdo do usuário, mesmo que eles possam colocar o usuário em espera.
-    
+
     Além disso, as estatísticas de retenção só serão aplicadas aos locais de conteúdo na agência.
-    
+
 - Os filtros de permissão de pesquisa não são aplicados às pastas públicas do Exchange.
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Pesquisando e exportando conteúdo em ambientes multigeográfico

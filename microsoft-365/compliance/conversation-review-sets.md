@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 01f2e6f9ceccd1903f62e8661f2cfc8f4cc2b47e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ca8389bf6a7622d4db98bdf7422aea85942e8978
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078103"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556769"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Analisar conversas na descoberta eletrônica avançada 
 
@@ -79,8 +79,6 @@ Ao adicionar dados de conversas a um conjunto de revisão, você pode usar as op
   
 3. Depois que os itens tiverem sido adicionados ao conjunto de revisão, você poderá revisar todas as mensagens individuais do *CRC1*. 
 
-
-
 Para habilitar a recuperação de conversas:
   
 1. Na guia **pesquisas** da caixa de descoberta eletrônica avançada, selecione uma pesquisa e, em seguida, clique em **Adicionar a revisão definida** na página do menu suspenso.
@@ -91,7 +89,7 @@ Para habilitar a recuperação de conversas:
   
 4. Após a conclusão do trabalho de **adição à revisão** do trabalho na guia **trabalhos** , você poderá começar a revisar as conversas.
 
-## <a name="step-4-review-conversations-in-the-review-set"></a>Etapa 4: examinar as conversas no conjunto de revisão
+## <a name="step-4-review-and-export-conversations-in-a-review-set"></a>Etapa 4: revisar e exportar conversas em um conjunto de revisão
 
 Após o conteúdo ter sido processado e adicionado ao conjunto de revisão, você pode começar a revisar os dados no conjunto de revisão. Os recursos de revisão são diferentes dependendo se o conteúdo foi adicionado a um conjunto de revisão padrão ou um conjunto de revisão de conversa. 
 
@@ -129,7 +127,6 @@ Em um conjunto de revisão de conversa, você pode usar as seguintes opções pa
 
 - **Executar a conversão de conversa novamente:** Quando as mensagens são adicionadas a um conjunto de revisão de conversa, um trabalho de conversão é executado automaticamente para criar os modos de exibição de resumo e anotações encadeados. Se o trabalho de reconstrução da conversa falhar, você poderá executar novamente esse trabalho clicando em **ação > criar PDFs de conversa** no conjunto de revisão.
 
-
 #### <a name="exporting-conversations"></a>Exportando conversas
 
 Em um conjunto de revisão de conversa, você pode definir as seguintes opções para exportar conversas:
@@ -161,7 +158,7 @@ c. Outras opções
 
 Para saber mais sobre como revisar os dados do caso na descoberta eletrônica avançada, consulte os seguintes artigos:
 
-- [Exibir dados de caso](view-documents-in-review-set.md) 
+- [Exibir dados de caso](view-documents-in-review-set.md)
 
 - [Analisar dados de ocorrência](analyzing-data-in-review-set.md)
 

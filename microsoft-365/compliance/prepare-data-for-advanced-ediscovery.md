@@ -16,19 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Saiba como usar o centro de conformidade de &amp; segurança do Microsoft 365 para preparar dados do Office 365 para análise com a descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: 028cdb48e5ece2509d175a363c19beb6c2fafa19
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 44ccb6250e28e0fa75f6d1a037236a100fca102c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071028"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557861"
 ---
-# <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Preparar dados para a descoberta eletrônica avançada do Office 365
+# <a name="prepare-data-for-advanced-ediscovery-classic"></a>Preparar dados para descoberta eletrônica avançada (clássico)
 
-Este tópico descreve como carregar os resultados de uma pesquisa de conteúdo em um caso na descoberta eletrônica avançada. 
+Este tópico descreve como carregar os resultados de uma pesquisa de conteúdo em um caso na descoberta eletrônica avançada (clássico). 
   
 > [!IMPORTANT]
-> Como continuamos a investir em versões mais recentes da Descoberta Eletrônica Avançada, anunciamos a desativação da Descoberta Eletrônica Avançada do Office 365 (também conhecida como *Descoberta Eletrônica Avançada 1.0*). Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
+> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>Etapa 1: preparar os dados do Office 365 para descoberta eletrônica avançada
 
@@ -67,7 +67,7 @@ Após os resultados da pesquisa do centro &amp; de conformidade de segurança se
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Configurar usuários e casos](set-up-users-and-cases-in-advanced-ediscovery.md)
   

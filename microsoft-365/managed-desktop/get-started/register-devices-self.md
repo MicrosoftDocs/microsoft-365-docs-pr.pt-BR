@@ -1,5 +1,5 @@
 ---
-title: Registrar novos dispositivos sozinho
+title: Registre novos dispositivos por conta própria
 description: Registre os dispositivos de modo que eles possam ser gerenciados pela área de trabalho gerenciada da Microsoft
 ms.prod: w10
 author: jaimeo
@@ -7,14 +7,14 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: e41003a7137b864b52f823debcd72c72ca55045d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1d4ca01e7b791dafc952b62a5f5dd59263b31546
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085030"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557549"
 ---
-# <a name="register-new-devices-yourself"></a>Registrar novos dispositivos sozinho
+# <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
 A área de trabalho gerenciada da Microsoft pode funcionar com dispositivos novos ou você pode reutilizar os dispositivos que você já tem (o que exigirá que você os Insira novamente). Você pode registrar dispositivos usando a área de trabalho gerenciada da Microsoft no portal do Azure.
 
@@ -72,7 +72,7 @@ Você precisará ter os dados nos arquivos CSV combinados em um único arquivo p
 O arquivo CSV deve estar em um formato específico para o registro. Se você coletou os dados nas etapas anteriores, o arquivo já deve estar no formato correto; Se você obtiver o arquivo de um fornecedor, talvez seja necessário ajustar o formato.
 
 >[!NOTE]
->Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv).
+>Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv).
 
 O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo um (fabricante, modelo, etc.), mas seus próprios dados para as outras linhas. Se você usar o modelo, abra-o em uma ferramenta de edição de texto, como o bloco de notas, e considere a possibilidade de deixar todos os dados na linha 1 apenas inserindo dados nas linhas 2 e abaixo. 
     

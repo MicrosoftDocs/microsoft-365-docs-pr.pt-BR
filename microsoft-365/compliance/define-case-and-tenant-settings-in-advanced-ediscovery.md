@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 2d482c7409c546042488ba4f0c7cc74571152e86
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3f206feaa48f13db48552fb7d1be1445609edeae
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595368"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556939"
 ---
-# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Definir configurações de caso e de locatário na descoberta eletrônica avançada do Office 365
+# <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>Definir configurações de caso e de locatário em descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -90,7 +90,7 @@ A exibição pode ser atualizada clicando no ícone **Atualizar** abaixo das inf
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Usando utilitários](use-advanced-ediscovery-utilities.md)
 

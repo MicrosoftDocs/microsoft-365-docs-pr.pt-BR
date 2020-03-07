@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: 'Revise as etapas para configurar opções para o processo de análise na descoberta eletrônica avançada do Office 365, incluindo duplicatas, threads de email e temas.  '
-ms.openlocfilehash: c32a63ee538522a5314a74be6248f253f70f279e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8897099d7531b48f7c6618c106eeb6f051dac546
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081148"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557781"
 ---
-# <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Definir opções de análise na descoberta eletrônica avançada do Office 365
+# <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Definir opções de análise na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -78,7 +78,7 @@ Após definir essas opções, clique em **analisar** para executar. [Exibir resu
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

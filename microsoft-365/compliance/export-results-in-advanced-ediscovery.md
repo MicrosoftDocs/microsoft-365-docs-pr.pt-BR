@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada do Office 365, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
-ms.openlocfilehash: 9194bc9dc44587fb03798c2107c408d2afb2ae70
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e439753b427a4e4a90e219912f8d3c1fcf4cfff3
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074266"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558192"
 ---
-# <a name="export-results-in-office-365-advanced-ediscovery"></a>Exportar resultados na descoberta eletrônica avançada do Office 365
+# <a name="export-results-in-advanced-ediscovery-classic"></a>Exportar resultados na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -194,7 +194,7 @@ A tabela a seguir lista os arquivos de saída que são gerados quando você exec
    
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exibindo histórico de lotes e exportando resultados passados](view-batch-history-and-export-past-results.md)
   

@@ -1,5 +1,7 @@
 ---
 title: Exportar dados de caso na descoberta eletrônica avançada do Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Entenda as diretrizes para exportar dados de ocorrência de descoberta eletrônica e resultados para revisão usando o processo de exportação na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 22713d38bf93f32a59646d6b0105f6c0cece69bd
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ced09e872ab1cf7f3f5a798a916357cb8016b797
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805804"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558212"
 ---
-# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Exportar dados de caso na descoberta eletrônica avançada do Office 365
+# <a name="export-case-data-in-advanced-ediscovery-classic"></a>Exportar dados de caso na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -37,7 +39,7 @@ O processo de exportação em descoberta eletrônica avançada permite a exporta
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exportação de resultados](export-results-in-advanced-ediscovery.md)
   

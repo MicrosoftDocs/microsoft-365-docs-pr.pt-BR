@@ -17,17 +17,17 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365 para análise adicional com a ferramenta de descoberta eletrônica avançada.
-ms.openlocfilehash: 3ba115cf45aa3be7b9cb43b3a261687e073edba2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 01a09da78198c31ff88b0e539ae9b149b2fbdd02
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071000"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557851"
 ---
-# <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Preparar resultados de pesquisa para Descoberta Eletrônica Avançada do Office 365
+# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Preparar resultados de pesquisa para descoberta eletrônica avançada (clássico)
 
 > [!IMPORTANT]
-> Como continuamos a investir em versões mais recentes da Descoberta Eletrônica Avançada, anunciamos a desativação da Descoberta Eletrônica Avançada do Office 365 (também conhecida como *Descoberta Eletrônica Avançada 1.0*). Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
 
 Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no centro de conformidade do & de segurança for executada com êxito, você poderá preparar os resultados da pesquisa para análise adicional com a descoberta eletrônica avançada do Office 365, que permite analisar conjuntos de dados grandes e não estruturados e reduzir a quantidade de dados relevantes para um caso jurídico. Os recursos avançados de descoberta eletrônica incluem:
   
@@ -110,7 +110,7 @@ Quando a preparação é concluída, a próxima etapa é usar a descoberta eletr
     
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois que os resultados de uma pesquisa de descoberta eletrônica são adicionados a um caso, a próxima etapa é usar as ferramentas de descoberta eletrônica avançadas para analisar os dados e identificar o conteúdo que responde a um caso jurídico específico. Para obter informações sobre como usar a descoberta eletrônica avançada, confira a [descoberta eletrônica avançada do Office 365](office-365-advanced-ediscovery.md).
+Depois que os resultados de uma pesquisa de descoberta eletrônica são adicionados a um caso, a próxima etapa é usar as ferramentas de descoberta eletrônica avançadas para analisar os dados e identificar o conteúdo que responde a um caso jurídico específico. Para obter informações sobre como usar a descoberta eletrônica avançada, consulte [descoberta eletrônica avançada (clássico)](office-365-advanced-ediscovery.md).
   
 ## <a name="more-information"></a>Mais informações
 

@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e419dd362ec42f7f2acb8cda03688afe3ade37be
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: 4cf6bb62034708b6ba21fb060949de6f1ac19066
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916916"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558081"
 ---
 # <a name="gdpr-breach-notification"></a>Notificação de falha de RGPD
 
@@ -82,4 +82,4 @@ Os detalhes relacionados a notificações de violação para produtos e serviço
 
 ## <a name="learn-more"></a>Saiba mais
 
-- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

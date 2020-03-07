@@ -18,12 +18,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 159e7a69f0714b93913c36d745641485d7c80798
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 81dfd4b0c0724e2ab40113c1d134e0932c215c8f
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225504"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557981"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de Titulares de Dados da Família do Visual Studio para o GDPR e CCPA
 
@@ -217,7 +217,7 @@ Ocasionalmente, nós convidamos clientes para enviar comentários sobre esses pr
 ## <a name="learn-more"></a>Saiba mais
 
 - [Compromissos da Microsoft sobre o RGPD para com os clientes dos nossos produtos de software empresarial disponibilizados de maneira geral](https://docs.microsoft.com/legal/gdpr)
-- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Painel de Privacidade da Microsoft](https://account.microsoft.com/privacy)
 - [Centro de Resposta Privacidade da Microsoft](https://aka.ms/userprivacysite)

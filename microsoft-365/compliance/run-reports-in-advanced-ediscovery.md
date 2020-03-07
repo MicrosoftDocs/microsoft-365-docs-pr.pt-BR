@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1ca01fc0ab77ec0a727029c3f8ef680a56f9c5c6
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069979"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557831"
 ---
-# <a name="run-reports-in-office-365-advanced-ediscovery"></a>Executar relatórios na descoberta eletrônica avançada do Office 365
+# <a name="run-reports-in-advanced-ediscovery-classic"></a>Executar relatórios na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -44,5 +44,4 @@ Você pode baixar um arquivo. csv com um relatório para o processo selecionado.
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
-
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)

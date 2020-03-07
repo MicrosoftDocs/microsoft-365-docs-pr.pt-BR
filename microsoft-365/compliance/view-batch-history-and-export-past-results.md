@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: 'Saiba como exibir informações detalhadas para as sessões de lote de exportação selecionadas e como desfazer a última sessão de exportação na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: a13faf7a0c81eb22498239b5ac9f26cce52387f6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: de7366e1eb43c276899ecf35339c0443fad4879d
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069098"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557609"
 ---
-# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Exibir histórico de lote e exportar resultados passados na descoberta eletrônica avançada do Office 365
+# <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>Exibir histórico de lote e exportar resultados passados em descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -62,7 +62,7 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exportação de resultados](export-results-in-advanced-ediscovery.md)
 

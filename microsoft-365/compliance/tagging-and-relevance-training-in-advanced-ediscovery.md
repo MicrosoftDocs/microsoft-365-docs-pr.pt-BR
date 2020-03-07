@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância do Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 0565fa29f79a5269631539939c749a9ad93a029c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6362aef6f4e0e17b39429dfeebca796d58d2d13e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069551"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557711"
 ---
-# <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
+# <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -100,7 +100,7 @@ A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo 
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

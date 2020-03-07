@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 description: 'Saiba como exibir e interpretar os resultados e o status de treinamento de relevância para problemas de caso na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 224a817e662462d0c51650e7bd364e717dbfbd62
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9c15bd285848d1906243137bfba451b19900b28e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069468"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557671"
 ---
-# <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Rastrear a análise de relevância na descoberta eletrônica avançada do Office 365
+# <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Rastrear a análise de relevância na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -172,7 +172,7 @@ Este modo de exibição mostra o seguinte:
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

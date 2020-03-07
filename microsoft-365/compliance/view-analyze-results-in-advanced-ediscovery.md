@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: 'Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada do Office 365, incluindo as definições das opções de tarefa exibidas.  '
-ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069170"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557619"
 ---
-# <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Exibir resultados de análise na descoberta eletrônica avançada do Office 365
+# <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Exibir resultados de análise na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -77,7 +77,7 @@ Os resultados de **anexos** exibem o número de anexos, de acordo com esse tipo 
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Como as etapas para importar o conteúdo que não é armazenado no O365 em um blob do Azure para que ele possa ser analisado com o AeD
-ms.openlocfilehash: 7a06bff3abe70e58ab08edcc456bc167229b05f2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 529eb21117ed2cdfbb7f02caf058dbc6863d2d9b
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072978"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557891"
 ---
-# <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada
+# <a name="import-non-office-365-content-for-advanced-ediscovery-classic-analysis"></a>Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada (clássico)
 
 Nem todos os documentos que você pode precisar analisar com a descoberta eletrônica avançada do Office 365 residirão no Office 365. Com o recurso de importação de conteúdo não-Office 365 na descoberta eletrônica avançada, é possível carregar documentos que não estão no Office 365 (exceto arquivos PST) em um caso vinculado, BLOB de armazenamento do Azure e analisá-los com a descoberta eletrônica avançada. Este procedimento mostra como trazer documentos não-Office 365 para a descoberta eletrônica avançada para análise.
   

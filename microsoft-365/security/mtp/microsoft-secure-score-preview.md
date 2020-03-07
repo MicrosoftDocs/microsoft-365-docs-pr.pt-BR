@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1039232750e52b3c03cbe7c8190498382c795708
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d4c71b2f3c575f21ee2693c3d371c263813c2324
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087560"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558242"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
@@ -92,11 +92,11 @@ Para acessar a API do Graph, você precisa ter um dos seguintes escopos, além d
 
 Para ajudá-lo a obter mais rapidamente as informações de que você precisa, as ações de melhoria da Microsoft são organizadas em grupos:
 
-* Identity (contas do Azure AD & funções, com o Azure ATP disponível em breve)
+* Identidade (contas do Azure AD & funções)
 * Dados (proteção de informações da Microsoft)
-* Dispositivo (dispositivos ATP do Microsoft defender)
+* Dispositivo (sem ações de melhoria por enquanto)
 * Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
-* Infraestrutura (recursos do Azure)
+* Infraestrutura (sem ações de melhoria por enquanto)
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 

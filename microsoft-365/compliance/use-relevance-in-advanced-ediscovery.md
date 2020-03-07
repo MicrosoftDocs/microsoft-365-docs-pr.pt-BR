@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: 'Saiba mais sobre o módulo de relevância na descoberta eletrônica avançada do Office 365, incluindo um fluxo de trabalho e diretrizes e etapas para treinamento e análise de arquivo.  '
-ms.openlocfilehash: 0b160a5b251f4be7d23ef24a79164b824fe65b7f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5cb20d140e9369d6eccccb6936740030e6b5ca41
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080708"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557629"
 ---
-# <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Usar o módulo de relevância na descoberta eletrônica avançada do Office 365
+# <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>Usar o módulo de relevância na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -133,7 +133,7 @@ Embora a descoberta eletrônica avançada orienta você durante o processo, com 
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

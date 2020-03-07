@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5c7c15b765a0c129e8a58533951b6569b8766b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075879"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556969"
 ---
-# <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada do Office 365
+# <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -76,7 +76,7 @@ Os problemas podem ser excluídos (ou seja, removidos do banco de dados) imediat
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como configurar carregamentos para adicionar os arquivos importados](set-up-loads-to-add-imported-files.md)
   

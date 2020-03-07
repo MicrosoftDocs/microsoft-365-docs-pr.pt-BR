@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ea6cc92fe84cc39502e3db97361ff9d294fdfca2
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: adb6423d5c014b5f02fc272f9653abebc14cf543
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112655"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557569"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na área de trabalho gerenciada da Microsoft
 
@@ -23,7 +23,7 @@ ms.locfileid: "41112655"
 
 A Microsoft inclui certos aplicativos-chave, juntamente com a licença do Microsoft 365 E3 ou E5 necessária para participar da área de trabalho gerenciada da Microsoft. No entanto, mesmo que forneçamos esses aplicativos, você ainda tem determinadas responsabilidades e ações para concluir.
 
-Você também pode implantar aplicativos adicionais não-Microsoft nos seus usuários finais para autoatendimento por meio do portal da empresa ou uma instalação de segundo plano necessária, tudo usando o pipeline de implantação do Microsoft Intune. Se você tiver o conhecimento, poderá migrar os aplicativos que precisa sozinho; Se não houver distribuidores de serviços de consultoria da Microsoft (MCS) ou não da Microsoft, você poderá ajudá-lo com um projeto de pacote e migração. Para obter mais informações sobre como trabalhar com MCS, confira [trabalhar com serviços de consultoria da Microsoft](apps-MCS.md).
+Você também pode implantar aplicativos adicionais não-Microsoft nos seus usuários finais para autoatendimento por meio do portal da empresa ou uma instalação de segundo plano necessária, tudo usando o pipeline de implantação do Microsoft Intune. Se você tiver o conhecimento, poderá migrar os aplicativos que precisa sozinho; Como alternativa, os fornecedores MCS (serviços de consultoria da Microsoft) ou não da Microsoft ficarão satisfeitos para ajudá-lo com um projeto de pacote e migração. Para obter mais informações sobre como trabalhar com MCS, confira [trabalhar com serviços de consultoria da Microsoft](apps-MCS.md).
 
 
 ## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
@@ -44,7 +44,7 @@ Ainda há algumas coisas que você precisa fazer com estes aplicativos:
 
 ## <a name="apps-you-provide"></a>Aplicativos que você fornece
 
-Obviamente, você provavelmente tem vários outros aplicativos necessários para suas operações de negócios. Eles podem ser implantados somente em dispositivos de área de trabalho gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode fazer com que ele seja empacotado por um fornecedor (que pode ser um fornecedor que não seja da Microsoft ou o Microsoft Consulting Services (MCS)) ou, se você tiver os meios, você pode empacotá-los por conta própria. Você adiciona esses pacotes ao portal de área de trabalho gerenciada da Microsoft e os atribui aos grupos do Azure Active Directory para acionar a implantação. 
+Obviamente, você provavelmente tem vários outros aplicativos necessários para suas operações de negócios. Eles só podem ser implantados em dispositivos de área de trabalho gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode fazer com que ele seja empacotado por um fornecedor (que pode ser um fornecedor que não seja da Microsoft ou o Microsoft Consulting Services (MCS)) ou, se você tiver os meios, você pode empacotá-los por conta própria. Você adiciona esses pacotes ao portal de área de trabalho gerenciada da Microsoft e os atribui aos grupos do Azure Active Directory para acionar a implantação. 
 
 Se, no momento, você implantar seus aplicativos usando o Microsoft Endpoint Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais deles podem exigir alguns Just.
 

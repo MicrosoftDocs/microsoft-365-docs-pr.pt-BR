@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fbc2ad99433e2bf296e2891b6f3e85e22b6af6df
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0f9cb386ce57d6581ade5caa05e029511100d9b3
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079928"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556779"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>Analisar dados em um conjunto de revisão na descoberta eletrônica avançada
 
@@ -57,12 +57,18 @@ Para exibir um relatório de análise para um conjunto de análise:
 
 3. Clique em **Exibir relatório**.
 
-O relatório tem quatro componentes da análise:
+O relatório tem sete componentes da análise:
 
-- **Divisão** -quantas mensagens de email, anexos e documentos soltos foram encontrados no conjunto de revisão.
+- **População de destino:** O número de mensagens de email, anexos e documentos soltos encontrados no conjunto de revisão.
 
-- **Documentos (exceto anexos)** : Quantos documentos soltos foram dinâmicos, únicos duplicatas próximas de uma tabela dinâmica ou uma duplicata exata de outro documento.
+- **Documentos (exceto anexos):** O número de documentos soltos que são dinâmicos, exclusivos ou duplicados próximos de uma tabela dinâmica ou uma duplicata exata de outro documento.
 
-- **Emails** -quantas mensagens de email foram inclusivas, cópias inclusivas, inclusive minuses ou nenhuma das opções acima.
+- **Emails:** O número de mensagens de email inclusive, as cópias inclusivas, inclusive minuses ou nenhuma das opções acima.
 
-- **Attachments** -quantos anexos de email são exclusivos ou duplicados de outro anexo de email no conjunto de revisão.
+- **Anexos:** O número de anexos de email exclusivos ou duplicados de outro anexo de email no conjunto de revisão.
+
+- **Número de arquivos por tipo:** O número de arquivos, identificado pela extensão do arquivo.
+
+- **Documentos por origem:** Um resumo do conteúdo pela fonte de dados original.
+
+- **Documentos agregados por processo:** Um resumo do conteúdo por análise configurar processos. 

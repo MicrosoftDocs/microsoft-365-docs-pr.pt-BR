@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: Saiba como o Microsoft 365 Business pode ajudá-lo com o processo de regulamentação geral de proteção de dados (RGPD).
-ms.openlocfilehash: 1d3b3485625996c0840a630c1b903c866bd01dbe
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a2df3fb52536cd2caca247332bc1c54fbdbe668
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251403"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556959"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>RGPD simplificado: um guia para sua pequena empresa
 
@@ -157,7 +157,8 @@ Para se preparar para o RGPD, aqui estão algumas sugestões para as próximas e
   
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da central de confiabilidade da Microsoft do RGPD](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+[Visão geral da central de confiabilidade da Microsoft do RGPD](https://www.microsoft.com/trust-center/privacy/gdpr-overview
+)
   
 O blog oficial da Microsoft: [compromisso da Microsoft com a rgpd](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/)
   

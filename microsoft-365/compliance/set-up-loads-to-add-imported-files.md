@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: e9179878d085840fcfb93dacc79ac3f776f1f041
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3dd302e107b10726dd0110dfcb19bf59a3703add
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081088"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557761"
 ---
-# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada do Office 365
+# <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -138,7 +138,7 @@ As cargas sem interrupção e a funcionalidade de atualização variam da seguin
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como definir problemas e atribuir usuários](define-issues-and-assign-users.md)
   

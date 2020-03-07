@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Saiba como executar o modo de análise expressa da descoberta eletrônica avançada do Office 365
-ms.openlocfilehash: 49e8f04b893f0a15563cf091c728352a97c4141f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d4b8e1fa5e8251f5ede2d9a3003c756decac3b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080719"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557639"
 ---
-# <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Usar a análise expressa na descoberta eletrônica avançada do Office 365
+# <a name="use-express-analysis-in-advanced-ediscovery-classic"></a>Usar a análise expressa na descoberta eletrônica avançada (clássica) 
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -132,5 +132,5 @@ Escolha **OK**para salvar as configurações avançadas, **Restaurar padrões** 
 ## <a name="see-also"></a>Confira também
 <a name="BK_AdvancedSettings"> </a>
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
 

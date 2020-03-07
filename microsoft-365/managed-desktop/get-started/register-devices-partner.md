@@ -1,5 +1,5 @@
 ---
-title: Etapas para registrar dispositivos de Parceiros
+title: Etapas para registrar dispositivos de parceiros
 description: Como os parceiros podem registrar dispositivos para que possam ser gerenciados pela área de trabalho gerenciada da Microsoft
 ms.prod: w10
 author: jaimeo
@@ -7,14 +7,14 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a9a2a0ccb1e0830d674f4b1b1ef5495fafb38ca3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc446281e8a791b59a9ac97592ff6a53dcde310c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596548"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557559"
 ---
-# <a name="steps-for-partners-to-register-devices"></a>Etapas para registrar dispositivos de Parceiros
+# <a name="steps-for-partners-to-register-devices"></a>Etapas para registrar dispositivos de parceiros
 
 
 Este tópico descreve as etapas dos parceiros a serem seguidas para registrar dispositivos. O processo de registro de seus próprios dispositivos está documentado em [registrar dispositivos na área de trabalho gerenciada da Microsoft](register-devices-self.md).
@@ -27,7 +27,7 @@ Antes de concluir o registro de um cliente, primeiro você deve estabelecer uma 
 Para concluir o registro do cliente, primeiro crie um arquivo CSV.
 
 >[!NOTE]
->Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv) para esta *versão do parceiro*.
+>Para sua conveniência, você pode baixar um [arquivo CSV de exemplo](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv) para esta *versão do parceiro*.
 
 O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo um (fabricante, modelo, etc.), mas seus próprios dados para as outras linhas. Se você usar o modelo, abra-o em uma ferramenta de edição de texto, como o bloco de notas, e considere a possibilidade de deixar todos os dados na linha 1 apenas inserindo dados nas linhas 2 e abaixo. 
     

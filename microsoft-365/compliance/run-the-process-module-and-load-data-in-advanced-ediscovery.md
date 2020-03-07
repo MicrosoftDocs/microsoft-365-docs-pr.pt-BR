@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Saiba como usar o centro de conformidade de &amp; segurança do Office 365 para acessar a descoberta eletrônica avançada do Office 365 e executar o módulo de processo para um caso.  '
-ms.openlocfilehash: 13b665c377022997ef4e60bc883993a86d8b9f75
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 60da3fd66ce33443e991ece2dc756c7d1ab0d14a
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081510"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557821"
 ---
-# <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada do Office 365
+# <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -83,7 +83,7 @@ Se você adicionar à ocorrência, então poderá processar novamente.
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exibir resultados do módulo de processo](view-process-module-results-in-advanced-ediscovery.md)
 

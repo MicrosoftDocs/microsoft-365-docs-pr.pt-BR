@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 042e95d19ef44eef8dfdfef24a996606c9d0e00c
-ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
+ms.openlocfilehash: 1f92267e9f0e7ed720983ebe58e524485a130506
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42552027"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557580"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -36,7 +36,7 @@ E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365
 
 ### <a name="insider-risk-management-is-officially-released"></a>O gerenciamento de riscos do Insider é oficialmente lançado
 
-Rolo de tambor, por... O gerenciamento de riscos do insider agora está disponível para organizações com as seguintes assinaturas:
+Rolo de tambor, por...<br>O gerenciamento de riscos do insider agora está disponível para organizações com as seguintes assinaturas:
 
 - [Microsoft 365 E5](https://go.microsoft.com/fwlink/?linkid=2120431) (pago ou avaliação)
 - Assinatura do Microsoft 365 Enterprise E3 com o [complemento de conformidade da Microsoft E5](https://go.microsoft.com/fwlink/?linkid=2120432)
@@ -47,7 +47,7 @@ Como sempre, deixe o feedback ao usar a solução para que possamos continuar a 
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
-Essa nova solução traz todos os recursos de gerenciamento de registros em uma única guarda. Os destaques incluem a introdução de controle de versão de registros para o SharePoint e o OneDrive e a prova de alienação de registros.
+Essa nova solução traz todos os recursos de gerenciamento de registros em um único guarda. Os destaques incluem a introdução de controle de versão de registros para o SharePoint e o OneDrive e a prova de alienação de registros.
 
 ![Página de gerenciamento de registros no centro de conformidade do Microsoft 365](../media/mcc-records-management-page.png)
 
@@ -55,7 +55,7 @@ Essa nova solução traz todos os recursos de gerenciamento de registros em uma 
 
 ### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>Destaque da solução: conectores de dados para Facebook e Twitter
 
-Os conectores de dados foram [lançados no mês passado](#just-launched) e estamos procurando por sua ajuda para testar os seguintes conectores para validar seus trabalhos conforme o esperado.
+Os conectores de dados foram [lançados no mês passado](#just-launched) e estamos procurando sua ajuda no teste dos seguintes conectores.
 
 - [Páginas de negócios do Facebook](archive-facebook-data-with-sample-connector.md). Importa e arquiva dados de páginas de negócios do Facebook para o Microsoft 365. Benéfico para soluções de conformidade, como gerenciamento de registros e eDiscovery.
 - [Twitter](archive-twitter-data-with-sample-connector.md). Importa e arquiva dados do Twitter para o Microsoft 365. Benéfico para soluções de conformidade, como gerenciamento de registros e eDiscovery.

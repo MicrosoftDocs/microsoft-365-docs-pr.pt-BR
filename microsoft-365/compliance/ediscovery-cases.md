@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 22547a69b78e8ca8497dd2e2a6ae5d77f913a08f
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 92894e430faaf9d5c1a758f81c5abfeb5236e643
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409736"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557731"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
@@ -59,7 +59,7 @@ Use o fluxo de trabalho a seguir para configurar e usar casos de descoberta elet
 
 A primeira etapa é atribuir as permissões relacionadas à descoberta eletrônica apropriadas às pessoas para que você possa adicioná-las a um caso de descoberta eletrônica na etapa 2. Você precisa ser membro do grupo de função gerenciamento da organização (ou receber a função de gerenciamento de função) no centro de conformidade & segurança para atribuir permissões de descoberta eletrônica. A lista a seguir descreve os grupos de função relacionados à descoberta eletrônica no centro de conformidade de & de segurança. 
   
-- **Revisor.** Esse grupo de função tem as permissões mais restritivas relacionadas a Descoberta Eletrônica. O principal objetivo desse grupo de função é permitir que os membros exibam e acessem dados de ocorrência no [Office 365 descoberta eletrônica avançada](office-365-advanced-ediscovery.md) (também conhecido como *descoberta eletrônica avançada v1*). Os membros desse grupo só podem ver e abrir a lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de segurança e conformidade, ele pode clicar em **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada. Eles não podem criar casos, adicionar membros a uma ocorrência, criar isenções, criar pesquisas, Visualizar resultados de pesquisa, exportar resultados de pesquisa ou preparar resultados para descoberta eletrônica avançada. 
+- **Revisor.** Esse grupo de função tem as permissões mais restritivas relacionadas a Descoberta Eletrônica. O principal objetivo desse grupo de função é permitir que os membros exibam e acessem dados de caso em [descoberta eletrônica avançada (clássico)](office-365-advanced-ediscovery.md) (também conhecido como *descoberta eletrônica avançada v1*). Os membros desse grupo só podem ver e abrir a lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de segurança e conformidade, ele pode clicar em **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada. Eles não podem criar casos, adicionar membros a uma ocorrência, criar isenções, criar pesquisas, Visualizar resultados de pesquisa, exportar resultados de pesquisa ou preparar resultados para descoberta eletrônica avançada. 
 
    > [!NOTE]
    > No momento, os usuários que são membros do grupo de funções revisor não podem acessar dados na [descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) (também conhecido como *descoberta eletrônica avançada v2*). Para adicionar membros a um caso na descoberta eletrônica avançada v2 para que eles possam revisar os dados do caso, um usuário deve ser membro do grupo de função Gerenciador de descoberta eletrônica.

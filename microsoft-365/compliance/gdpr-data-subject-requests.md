@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d2f9ac660c30b815d4ac381f347e1c1aa354ce0d
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: fc5f4f8752d17595cfafaa39626f0d36675d7c82
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916906"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558051"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados e o RGPD e CCPA
 
@@ -107,4 +107,4 @@ Para produtos e serviços de terceiros acessados por meio da autenticação de c
 
 ## <a name="learn-more"></a>Saiba mais
 
-- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

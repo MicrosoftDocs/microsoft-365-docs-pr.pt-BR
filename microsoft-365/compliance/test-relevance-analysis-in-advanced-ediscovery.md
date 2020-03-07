@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Saiba como usar a guia teste após o cálculo em lote na descoberta eletrônica avançada do Office 365 para testar, comparar e validar a qualidade geral do processamento.  '
-ms.openlocfilehash: e07d02a0eff1e07cacbce5debd27d4057fe40db2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c65c10878bdc057a1c53c4370f6a6750e1fe8e9d
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080920"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557681"
 ---
-# <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Testar a análise de relevância na descoberta eletrônica avançada do Office 365
+# <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Testar análise de relevância na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -112,7 +112,7 @@ O teste "testar a fatia" executa testes semelhantes ao teste "testar o REST", ma
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

@@ -1,7 +1,7 @@
 ---
 title: Portais de segurança e centros de administração da Microsoft
 description: Encontre o centro de administração da Microsoft ou o portal para gerenciar vários serviços relacionados à segurança do Microsoft 365
-keywords: segurança, portais, Microsoft 365, M365, central de segurança, centro de administração, URL, link, MTP, Azure ATP, Office 365 ATP, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, OATP, AATP
+keywords: segurança, portais, Microsoft 365, M365, central de segurança, centro de administração, URL, link, MTP, Microsoft defender ATP, centro de segurança do Microsoft defender, Azure ATP, Office 365 ATP, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, OATP, AATP, Cloud app Security, Azure AD, segurança & central de conformidade
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -14,15 +14,15 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 24bfd07b4b7baf9082ef99691fb1048e1f0b655e
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42336907"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558232"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
-Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
+Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
 
 > [!TIP] 
 > Para acessar vários portais relevantes do centro de segurança do Microsoft 365, selecione **mais recursos** no painel de navegação.

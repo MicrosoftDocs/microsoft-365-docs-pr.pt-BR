@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: 'Saiba mais sobre os utilitários na descoberta eletrônica avançada do Office 365, incluindo log de caso, dados claros, erros de processo, modificar relevância e análise de transparência.  '
-ms.openlocfilehash: 3952d1ec58b3f55f997079cec16f16ddb301ed89
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ce8eb00382bd6ff0514dfef99d18a8e4b2679cec
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601328"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557651"
 ---
-# <a name="use-office-365-advanced-ediscovery-utilities"></a>Usar os utilitários de descoberta eletrônica avançada do Office 365
+# <a name="use-advanced-ediscovery-classic-utilities"></a>Usar utilitários de descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -109,7 +109,7 @@ Em um cenário de caso de vários problemas, um relatório de análise de transp
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Definindo configurações de caso e de locatário](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 

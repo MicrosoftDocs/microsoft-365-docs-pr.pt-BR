@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: 'Revise as etapas para executar o treinamento de avaliação, incluindo arquivos de marcação e análise dos resultados da avaliação na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: 93780d42cd42ced692a81f5cfd739bcd8713c2c2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 04f88a5efbd48c222c8c7033d94ae41634a06d99
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081013"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557721"
 ---
-# <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Marcação e avaliação na descoberta eletrônica avançada do Office 365
+# <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Marcação e avaliação na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -125,7 +125,7 @@ Na ausência de estabilização com base Estatistica, haverá resultados com um 
   
 ## <a name="see-also"></a>Confira também
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   
