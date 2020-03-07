@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 7d672dd8a84107d8d4561ae8982114abc4e01af9
-ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
+ms.openlocfilehash: bdde2552d2c5ccd790740e1f9077e5d26391e920
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370480"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551832"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
 A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 oferece às organizações a visibilidade de vários tipos de atividades auditadas em vários serviços do Microsoft 365. Agora, com o lançamento da Auditoria Avançada no Microsoft 365, estamos adicionando novos recursos de auditoria que podem ajudar sua organização nas investigações forenses e de conformidade.
 
 > [!NOTE]
-> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 ou Microsoft 365 Enterprise E5. Além disso, uma assinatura de complemento do Microsoft 365 E5 Compliance pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações.
+> A Auditoria Avançada está disponível para organizações que têm uma assinatura do Office 365 E5 ou Microsoft 365 Enterprise E5. Além disso, uma licença de complemento do Microsoft 365 E5 Compliance pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações.
 
 Este artigo fornece uma visão geral desses recursos de Auditoria Avançada.
 

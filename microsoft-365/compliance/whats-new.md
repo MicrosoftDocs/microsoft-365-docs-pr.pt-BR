@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 2140b2b529ccec9a4d081a2e7b6ea1fdb7fb900f
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 042e95d19ef44eef8dfdfef24a996606c9d0e00c
+ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106804"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42552027"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -31,6 +31,36 @@ Estamos adicionando novos recursos para o centro de [conformidade da Microsoft 3
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="february-2020"></a>Fevereiro de 2020
+
+### <a name="insider-risk-management-is-officially-released"></a>O gerenciamento de riscos do Insider é oficialmente lançado
+
+Rolo de tambor, por... O gerenciamento de riscos do insider agora está disponível para organizações com as seguintes assinaturas:
+
+- [Microsoft 365 E5](https://go.microsoft.com/fwlink/?linkid=2120431) (pago ou avaliação)
+- Assinatura do Microsoft 365 Enterprise E3 com o [complemento de conformidade da Microsoft E5](https://go.microsoft.com/fwlink/?linkid=2120432)
+
+A volta que fizemos algumas melhorias desde o lançamento da versão prévia, incluindo [novos grupos de função](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) e [configurações de toda a solução](insider-risk-management-configure.md#step-4-required-configure-insider-risk-settings).
+
+Como sempre, deixe o feedback ao usar a solução para que possamos continuar a fazer melhorias.
+
+### <a name="records-management"></a>Gerenciamento de registros
+
+Essa nova solução traz todos os recursos de gerenciamento de registros em uma única guarda. Os destaques incluem a introdução de controle de versão de registros para o SharePoint e o OneDrive e a prova de alienação de registros.
+
+![Página de gerenciamento de registros no centro de conformidade do Microsoft 365](../media/mcc-records-management-page.png)
+
+[Saiba mais sobre o gerenciamento de registros](records-management.md)
+
+### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>Destaque da solução: conectores de dados para Facebook e Twitter
+
+Os conectores de dados foram [lançados no mês passado](#just-launched) e estamos procurando por sua ajuda para testar os seguintes conectores para validar seus trabalhos conforme o esperado.
+
+- [Páginas de negócios do Facebook](archive-facebook-data-with-sample-connector.md). Importa e arquiva dados de páginas de negócios do Facebook para o Microsoft 365. Benéfico para soluções de conformidade, como gerenciamento de registros e eDiscovery.
+- [Twitter](archive-twitter-data-with-sample-connector.md). Importa e arquiva dados do Twitter para o Microsoft 365. Benéfico para soluções de conformidade, como gerenciamento de registros e eDiscovery.
+
+À medida que você configura e valida esses conectores, deixe-nos comentários sobre o que deu certo, o que não foi e o que podemos fazer para melhorar a experiência.
 
 ## <a name="january-2020"></a>Janeiro de 2020
 
