@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
 description: Leia as recomendações para a configuração do treinamento em relevância na Descoberta Eletrônica Avançada do Office 365 para classificar arquivos por relevância e gerar resultados analíticos.
-ms.openlocfilehash: 1a88d554d06b575f3efb0d01534008b6c35032e1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 49c7614eb1fec4e61fb374fb637093fd6e860619
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600498"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557881"
 ---
-# <a name="manage-relevance-setup-in-office-365-advanced-ediscovery"></a>Gerenciar a configuração de relevância na Descoberta Eletrônica Avançada do Office 365
+# <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Gerenciar a configuração da Relevância na Descoberta Eletrônica Avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -71,9 +71,9 @@ Os parâmetros descritos nesta seção estão disponíveis na Descoberta Eletrô
     
 Após os parâmetros serem definidos, o revisor/especialista pode começar o treinamento dos arquivos na guia **Relevância**. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como definir problemas e atribuir usuários](define-issues-and-assign-users.md)
   
