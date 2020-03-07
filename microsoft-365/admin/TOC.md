@@ -48,7 +48,7 @@
 #### [Sobre as caixas de correio compartilhadas](email/about-shared-mailboxes.md)
 #### [Criar uma caixa de correio compartilhada](email/create-a-shared-mailbox.md)
 #### [Configurar uma caixa de correio compartilhada](email/configure-a-shared-mailbox.md)
-#### [Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](email/convert-user-mailbox-to-shared-mailbox.md).
+#### [Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](email/convert-user-mailbox-to-shared-mailbox.md)
 #### [Remover a licença de uma caixa de correio compartilhada](email/remove-license-from-shared-mailbox.md)
 #### [Solucionar problemas com caixas de correio compartilhadas](email/resolve-issues-with-shared-mailboxes.md)
 ### [Alterar endereço de email](email/change-email-address.md)
@@ -131,6 +131,7 @@
 ## Office 365 operado pela 21Vianet
 ### [Sobre o Office 365 operado pela 21Vianet](services-in-china/services-in-china.md)
 ### [Comprar ou experimentar assinaturas](services-in-china/buy-or-try-subscriptions.md)
+### [Baixar o aplicativo do Office para Android para Office 365 operado pela 21Vianet](services-in-china/download-office-app-for-Android.md)
 ### [Baixar o aplicativo do Office para iOS e para Office 365 operado pela 21Vianet](services-in-china/download-office-app-for-iOS.md)
 ### [Exibir sua fatura ou obter um Fapiao](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Solicitar um Fapiao](services-in-china/apply-for-a-fapiao.md)
