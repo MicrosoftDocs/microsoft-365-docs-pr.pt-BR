@@ -18,19 +18,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Saiba mais sobre os vários Estados de dispositivos na lista de ações de dispositivos no Home Page do administrador no Microsoft 365 Business.
-ms.openlocfilehash: cb1e5172a6e2d0bfc5748fe982024ead26e8cd62
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: bed1610814ca0d60adb4b4b3d0018e3e7e6d763f
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417307"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560811"
 ---
 # <a name="device-states"></a>Estados do dispositivo
 

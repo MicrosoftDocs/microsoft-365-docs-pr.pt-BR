@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Após concluir a configuração do Office 365 Message Encryption (OME), você pode personalizar a configuração de sua implantação de várias maneiras. Por exemplo, você pode configurar se deseja habilitar códigos de passagem única, exibir o botão proteger no Outlook na Web e muito mais. As tarefas deste artigo descrevem como.
-ms.openlocfilehash: fa328abc36ffa0d22bb2c96114b3bbb3dfa12ed3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 102d57681e049bf803b377fea97cc0fdb11affb2
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600508"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42562047"
 ---
 # <a name="manage-office-365-message-encryption"></a>Gerenciar a Criptografia de Mensagens do Office 365
 
@@ -173,27 +173,15 @@ Para obter mais informações sobre como o Office 365 implementa a criptografia 
    Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
-## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>Garantir que todos os destinatários externos usem o portal do OME para ler emails criptografados — somente criptografia de mensagem avançada do Office 365
+## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail"></a>Garantir que todos os destinatários externos usem o portal do OME para ler emails criptografados
 
-Se você tiver a criptografia de mensagem avançada do Office 365, poderá usar modelos de identidade visual personalizados para forçar os destinatários a receber emails de conteúdo adicional que os direcionam a ler emails criptografados no portal do OME, em vez de usar o Outlook ou o Outlook na Web. Você pode querer fazer isso se você usar deseja ter maior controle sobre como os destinatários usam o email que eles recebem. Por exemplo, se os destinatários externos exibem email no portal da Web, você pode definir uma data de expiração para o email e pode revogar o email. Esses recursos só são compatíveis com o portal do OME. Você pode usar a opção criptografar e a opção não encaminhar ao criar regras de fluxo de emails.
+Você pode usar modelos de identidade visual personalizados para forçar os destinatários a receber emails de conteúdo adicional que os direcionam a ler emails criptografados no portal do OME, em vez de usar o Outlook ou o Outlook na Web. Você pode querer fazer isso se você usar deseja ter maior controle sobre como os destinatários usam o email que eles recebem. Por exemplo, se os destinatários externos exibem email no portal da Web, você pode definir uma data de expiração para o email e pode revogar o email. Esses recursos só são compatíveis com o portal do OME. Você pode usar a opção criptografar e a opção não encaminhar ao criar regras de fluxo de emails.
 
-### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>Criar um modelo personalizado para forçar todos os destinatários externos a usar o portal do OME e para que os emails criptografados sejam revogávels e expirarem em 7 dias
+### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>Usar um modelo personalizado para forçar todos os destinatários externos a usar o portal do OME e emails criptografados
 
 1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Execute o cmdlet New-OMEConfiguration:
-
-   ```powershell
-   New-OMEConfiguration -Identity "<template name>" -ExternalMailExpiryInDays 7
-   ```
-
-   em `template name` que é o nome que você deseja usar para o modelo de identidade visual personalizada de criptografia de mensagem do Office 365. Por exemplo,
-
-   ```powershell
-   New-OMEConfiguration -Identity "<One week expiration>" -ExternalMailExpiryInDays 7
-   ```
-
-3. Execute o cmdlet New-TransportRule:
+2. Execute o cmdlet New-TransportRule:
 
    ```powershell
    New-TransportRule -name "<mail flow rule name>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "<option name>" -ApplyRightsProtectionCustomizationTemplate "<template name>"
@@ -205,18 +193,18 @@ Se você tiver a criptografia de mensagem avançada do Office 365, poderá usar 
 
    - `option name`é `Encrypt` ou `Do Not Forward`.
 
-   - `template name`é o nome que você deu ao modelo de identidade visual personalizado, `One week expiration`por exemplo.
+   - `template name`é o nome que você deu ao modelo de identidade visual personalizado, `OME Configuration`por exemplo.
 
-   Para criptografar todos os emails externos com o modelo "expiração de uma semana" e aplicar a opção somente criptografia:
+   Para criptografar todos os emails externos com o modelo "venda de uma semana" e aplicar a opção somente criptografia:
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
-   Para criptografar todos os emails externos com o modelo "expiração de uma semana" e aplicar a opção não encaminhar:
+   Para criptografar todos os emails externos com o modelo "configuração do OME" e aplicar a opção não encaminhar:
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
 ## <a name="customize-the-appearance-of-email-messages-and-the-ome-portal"></a>Personalizar a aparência de mensagens de email e o portal do OME

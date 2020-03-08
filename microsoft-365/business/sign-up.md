@@ -20,17 +20,17 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 description: Saiba o que o Microsoft 365 Business inclui e obtenha orientações passo a passo sobre como inscrever-se no Microsoft 365 Business.
-ms.openlocfilehash: 003bf332a9183a5e062a294297a30c9b7d19fdb9
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 85e9ff3585e1e4bbadc6c34699f75d77486f58ea
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547822"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560732"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Inscreva-se no Microsoft 365 Business
 

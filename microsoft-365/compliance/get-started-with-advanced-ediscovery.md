@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: b351524f1bcaa54360d9f7422c0955c5c4a35254
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 2819fdd2f3b98ca82535aa0f08830bb37744c3f7
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557901"
+ms.locfileid: "42561661"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à descoberta eletrônica avançada
 
@@ -94,7 +94,7 @@ Para obter mais informações sobre permissões de descoberta eletrônica e uma 
 
 ## <a name="step-3-configure-global-settings-for-advanced-ediscovery"></a>Etapa 3: definir as configurações globais para descoberta eletrônica avançada
 
-A última etapa a ser concluída antes que as pessoas da sua organização comecem a criar e usar casos é definir as configurações globais que se aplicam a todos os casos em sua organização. Neste momento, a única configuração global disponível é a *detecção de privilégio de cliente advogado* (mais configurações globais estarão disponíveis no futuro). Essa configuração permite que o modelo de privilégio de cliente advogado seja executado quando você analisar dados em um conjunto de revisão. O modelo usa o Machine Learning para determinar a probabilidade de que um documento contenha conteúdo legal de natureza. Também compara os participantes de documentos com uma lista de advogados (que você envia ao configurar o modelo) para determinar se um documento tem pelo menos um participante que seja um advogado.
+A última etapa a ser concluída antes que as pessoas da sua organização comecem a criar e usar casos é definir as configurações globais que se aplicam a todos os casos em sua organização. Neste momento, a única configuração global é a *detecção de privilégio de cliente advogado* (mais configurações globais estarão disponíveis no futuro). Essa configuração permite que o modelo de privilégio de cliente advogado seja executado quando você analisar dados em um conjunto de revisão. O modelo usa o Machine Learning para determinar a probabilidade de que um documento contenha conteúdo legal de natureza. Também compara os participantes de documentos com uma lista de advogados (que você envia ao configurar o modelo) para determinar se um documento tem pelo menos um participante que seja um advogado.
 
 Para obter mais informações sobre como configurar e usar o modelo de detecção de privilégio de cliente advogado, consulte [Configurar detecção de privilégio de cliente do advogado na descoberta eletrônica avançada](attorney-privilege-detection.md).
 

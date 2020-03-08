@@ -21,18 +21,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business, como configurá-lo e como preparar os dispositivos e os computadores dos usuários para garantir que eles estejam protegidos pelo Microsoft 365 Business.
-ms.openlocfilehash: f6fd73762c0b57777c19d32886f758875e2e7e6a
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 220fb747e2bc501f3f6d46d967b30d2e5fd79a4a
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547702"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561431"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Introdução ao Microsoft 365 Business
 
@@ -106,7 +106,7 @@ Se você mantiver um Active Directory local que contenha alguns recursos locais 
     
 - Como um administrador de negócios do Microsoft 365, você tem acesso à nossa equipe de suporte ao cliente: ** [contatar o suporte para produtos de negócios-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Documentação e recursos do Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   

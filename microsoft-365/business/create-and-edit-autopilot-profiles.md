@@ -19,19 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Saiba como criar um perfil do AutoPilot e aplicá-lo a um dispositivo, bem como editar ou excluir um perfil ou remover um perfil de um dispositivo.
-ms.openlocfilehash: 6a8057969242d839ebbb4cbef8d26dd3f1858c59
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: 58c16b68c66dce7541a02ecd0d2466babe8cc338
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417327"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560711"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Crie e edite os perfis do AutoPilot
 

@@ -20,19 +20,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Saiba como remover dados da empresa de dispositivos gerenciados por meio de políticas de proteção, bem como redefinir dispositivos Windows 10 para suas configurações de fábrica.
-ms.openlocfilehash: f5c9bba6004632964ca01ba2f65e88dafb0ed719
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 97c9751d020d7f2aecb1e64718721c1ca25189e1
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550328"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561511"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Gerenciar dispositivos protegidos com o Microsoft 365 Business
 

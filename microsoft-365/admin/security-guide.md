@@ -11,17 +11,17 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.custom:
 - SMB_SuccessCenter
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as ameaças de segurança que sua empresa enfrenta e como os seus funcionários podem proteger seus dados, contas e dispositivos.
-ms.openlocfilehash: 0997f6bab379ccc5ff68d5bf890419772fd4aaaf
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: 86711cd32878917931a1eb1f67e7c08f7ed8ba57
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417277"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561591"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>Gráfico de informações de segurança para pequenas empresas
 

@@ -1,9 +1,11 @@
 ---
 title: Fazer a transição de uma assinatura de CSP do Microsoft 365 Business 
-description: Descubra como você pode fazer a transição de uma assinatura de CSP do Microsoft 365 Business da versão prévia para GA. 
+description: Descubra como você pode fazer a transição de uma assinatura do Microsoft 365 Business CSP da versão prévia para a disponibilidade geral (GA).
 author: jasongroce
 f1.keywords:
 - NOCSH
+ms.custom:
+- seo-marvel-mar
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
@@ -11,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 77b7b474a5ad17db58e283ea61b074c959905d1b
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42057142"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560771"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 

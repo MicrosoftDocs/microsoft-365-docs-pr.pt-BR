@@ -17,18 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Descubra como usar o Microsoft 365 Business para remover dados da empresa que seus usuários têm em seus dispositivos ou PCs Windows.
-ms.openlocfilehash: 81b6e16f3824863fcc87003cf9d07ad33e5f2873
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: 1cfcf836f71cb81015d28a848611678252731b9c
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417347"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561311"
 ---
 # <a name="remove-company-data-from-devices"></a>Remover dados da empresa de dispositivos
 

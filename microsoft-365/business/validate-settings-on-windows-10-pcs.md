@@ -19,18 +19,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Saiba como verificar se as configurações do Microsoft 365 Business app Protection foram efetivadas nos dispositivos Windows 10 dos usuários.
-ms.openlocfilehash: 1b661b41a8042e81f653463cbd32fc6bf6428b53
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549948"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560671"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção do dispositivo em computadores com Windows 10
 

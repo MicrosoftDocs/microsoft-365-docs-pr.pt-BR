@@ -21,19 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Saiba como criar uma política de gerenciamento de aplicativos e proteger arquivos de trabalho nos dispositivos do Windows 10 pessoais de seus usuários.
-ms.openlocfilehash: ce389980ceb8bd889214404b0c48769380044bcf
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: bbfb07302f2d77f7e66301723d176cf053f79cc1
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550198"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561331"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Definir configurações de proteção de aplicativo para dispositivos Windows 10
 
