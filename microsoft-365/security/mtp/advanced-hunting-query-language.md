@@ -1,7 +1,7 @@
 ---
 title: Conheça a linguagem de consulta de busca avançada no Microsoft Threat Protection
 description: Crie sua primeira consulta de busca de ameaças e saiba mais sobre os operadores comuns e outros aspectos da linguagem de consulta de busca avançada
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados, PowerShell baixar, exemplo de consulta
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,83 +17,96 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: eda9b893057afd54a644f0091bf4e1b421bd5439
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 7f2cf7f62060774343354467d27b76456f6581fc
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234690"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "42567021"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-
-
 A caça avançada baseia-se na [linguagem de consulta Kusto](https://docs.microsoft.com/azure/kusto/query/). Você pode usar a sintaxe e os operadores Kusto para construir consultas que localizem informações no [esquema](advanced-hunting-schema-tables.md) especificamente estruturadas para a pesquisa avançada. Para entender melhor esses conceitos, execute a primeira consulta.
 
 ## <a name="try-your-first-query"></a>Experimente a primeira consulta
 
-na central de segurança do Microsoft 365, vá para **procurando** executar a primeira consulta. Use o seguinte exemplo:
+No centro de segurança do Microsoft 365, vá para a **busca** para executar a primeira consulta. Use o seguinte exemplo:
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents 
+// Finds PowerShell execution events that could involve a download
+union DeviceProcessEvents, DeviceNetworkEvents
 | where Timestamp > ago(7d)
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE") 
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
 Esta é a aparência do aspecto da pesquisa avançada.
 
-![Imagem da consulta caça avançada do Microsoft defender ATP](../../media/advanced-hunting-query-example.png)
+![Imagem da consulta de busca avançada da proteção contra ameaças da Microsoft](../../media/advanced-hunting-query-example.png)
 
-A consulta começa com um pequeno comentário descrevendo o que é para isso. Isso ajudará se você decidir salvar sua consulta mais tarde e compartilhá-la com outras pessoas em sua organização.
+Um breve comentário foi adicionado ao início da consulta para descrever o que ele é. Isso ajudará se você decidir salvar a consulta mais tarde e compartilhá-la com outras pessoas em sua organização. 
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents
+// Finds PowerShell execution events that could involve a download
 ```
 
-A consulta em si geralmente começará com um nome de tabela seguido de uma série de elementos iniciados por um pipe (`|`). Neste exemplo, começamos adicionando com o nome da tabela `DeviceProcessEvents` e adicionar elementos de pipe conforme necessário.
+A consulta em si geralmente começará com um nome de tabela seguido de uma série de elementos iniciados por um pipe (`|`). Neste exemplo, começamos criando uma União de duas tabelas `DeviceProcessEvents` e `DeviceNetworkEvents`, e adicionar elementos canalizados, conforme necessário.
 
-O primeiro elemento canalizado é um filtro de tempo delimitado dentro dos últimos sete dias. Manter o intervalo de tempo tão estreito quanto possível garante que as consultas sejam executadas, retornem resultados gerenciáveis e não o tempo limite.
+```kusto
+union DeviceProcessEvents, DeviceNetworkEvents
+```
+O primeiro elemento canalizado é um filtro de tempo com escopo para os sete dias anteriores. Manter o intervalo de tempo tão estreito quanto possível garante que as consultas sejam executadas, retornem resultados gerenciáveis e não o tempo limite.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
-O intervalo de tempo é imediatamente seguido por uma pesquisa de arquivos que representam o aplicativo PowerShell.
+O intervalo de tempo é imediatamente seguido por uma pesquisa por nomes de arquivo de processo que representam o aplicativo PowerShell.
 
-```kusto
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE")
+```
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
-Em seguida, a consulta procura linhas de comando que normalmente são usadas com o PowerShell para baixar arquivos.
+Posteriormente, a consulta procura por cadeias de caracteres em linhas de comando que normalmente são usadas para baixar arquivos usando o PowerShell.
 
 ```kusto
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
 ```
-
-Agora que a consulta identifique claramente os dados que você deseja localizar, você pode adicionar elementos que definem a aparência dos resultados. `project` retorna colunas específicas e `top` limita o número de resultados, tornando os resultados bem formatados e razoavelmente grandes e fáceis de processar.
+Agora que a consulta identifique claramente os dados que você deseja localizar, você pode adicionar elementos que definem a aparência dos resultados. `project`retorna colunas específicas e `top` limita o número de resultados, ajudando a garantir que os resultados sejam bem formatados e razoavelmente grandes e fáceis de processar.
 
 ```kusto
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Clique **executar consulta** para ver os resultados. Você pode expandir o modo de exibição de tela para poder se concentrar em sua consulta de busca e nos resultados.
+Clique **executar consulta** para ver os resultados. Selecione o ícone de expansão no canto superior direito do editor de consulta para se concentrar na consulta de busca e nos resultados.
+
+![Imagem do controle de expansão no editor de consulta de busca avançada](../../media/advanced-hunting-expand.png)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>Conheça operadores de consulta comuns para a caça avançada
 
