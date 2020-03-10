@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: ''
+ms.date: 3/05/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: eea03384b77dbcea29196c9f8142f748af0bf5be
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 3e9dd5c02b3502eab2d3abfe5d65b5baebe18cda
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557579"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "42569162"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -36,7 +36,7 @@ Quando estiver pronto para começar a proteger os dados da sua organização usa
 
 1. **Crie os rótulos.** Crie e nomeie seus rótulos de confidencialidade de acordo com a taxonomia de classificação da sua organização para diferentes níveis de confidencialidade de conteúdo. Use os nomes ou termos comuns que fazem sentido para os seus usuários. Se você ainda não tiver uma taxonomia estabelecida, considere começar com nomes de rótulos como Pessoal, Público, Geral, Confidencial e Altamente Confidencial. Em seguida, você pode usar sub-rótulos para agrupar rótulos similares por categoria. Ao criar um rótulo, use o texto de dica de ferramenta para ajudar os usuários a selecionar o rótulo apropriado.
     
-    Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de dados e taxonomia de rótulos de confidencialidade", no [Portal de Confiança do Serviço](https://aka.ms/DataClassificationWhitepaper).
+    Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de dados e taxonomia de rótulos de confidencialidade", no [Portal de confiança do serviço](https://aka.ms/DataClassificationWhitepaper).
 
 2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode querer que um conteúdo de menor confidencialidade (como um rótulo “Geral”) tenha apenas um cabeçalho ou rodapé aplicado, enquanto um conteúdo de maior confidencialidade (como um rótulo “Confidencial”) deve ter uma marca d’água, criptografia e proteção de ponto de extremidade aplicado a ele.
 
