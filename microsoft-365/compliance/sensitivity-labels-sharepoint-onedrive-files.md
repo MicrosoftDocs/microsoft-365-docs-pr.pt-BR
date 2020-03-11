@@ -17,22 +17,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 0f7c2c59327874d279872d4fd9bb7d0b9d6eb863
-ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+ms.openlocfilehash: ba65624d0c7a67eb4a5be55a7f3e08c217039e83
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42410028"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583138"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
 Antes desta visualização, quando você aplicou rótulos de confidencialidade que incluíram criptografia para arquivos do Office armazenados no SharePoint e no OneDrive, o serviço não pôde processar o conteúdo desses arquivos. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. Essa visualização habilita esses recursos para arquivos novos e alterados que têm um rótulo de confidencialidade aplicado que inclui a criptografia com uma chave baseada na nuvem:
 
-- O SharePoint reconhece rótulos de confidencialidade aplicados aos arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive: enquanto o arquivo é armazenado no SharePoint, a criptografia da proteção de informações do Azure é removida para que o conteúdo do arquivo possa ser processado e as configurações de criptografia do rótulo serão reaplicadas quando o arquivo for baixado. Para obter informações sobre como os documentos são protegidos antes de serem baixados, consulte [criptografia de dados no onedrive for Business e no SharePoint Online](data-encryption-in-odb-and-spo.md).
- 
-- Para o SharePoint descriptografar o arquivo no carregamento, o usuário que carrega o arquivo rotulado e criptografado deve ter direitos de uso para, pelo menos, exibir o arquivo. O SharePoint não descriptografa arquivos que o usuário não pode abrir fora do SharePoint.
+- O SharePoint reconhece rótulos de confidencialidade aplicados aos arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive: enquanto o arquivo é armazenado no SharePoint, a criptografia da proteção de informações do Azure é removida para que o conteúdo do arquivo possa ser processado. Para obter informações sobre como os documentos são protegidos enquanto estão armazenados no SharePoint, consulte [criptografia de dados no onedrive for Business e no SharePoint Online](data-encryption-in-odb-and-spo.md).
 
-- Quando você baixa ou acessa o arquivo do SharePoint ou do OneDrive, o rótulo de confidencialidade e qualquer configuração de criptografia são reaplicados com o arquivo, e essas configurações continuam sendo aplicadas sempre que o arquivo for salvo.
+- Quando você baixa ou acessa esse arquivo do SharePoint ou do OneDrive, o rótulo de confidencialidade e todas as configurações de criptografia do rótulo são reaplicadas com o arquivo e essas configurações permanecem impostas sempre que o arquivo é salvo. Devido a esse comportamento, certifique-se de fornecer orientação do usuário para usar rótulos exclusivamente para proteger documentos. Para obter mais informações, consulte [Opções de gerenciamento de direitos de informação (rim) e rótulos de sensibilidade](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels).
+
+- Para o SharePoint remover a criptografia do arquivo no carregamento, o usuário que carrega o arquivo rotulado e criptografado deve ter direitos de uso para, pelo menos, exibir o arquivo. O SharePoint não removerá a criptografia de arquivos se o usuário não puder abri-lo fora do SharePoint.
 
 - Use o Office na Web (Word, Excel, PowerPoint) para abrir e editar arquivos do Office com rótulos de confidencialidade que aplicam criptografia. As permissões que foram atribuídas com a criptografia são aplicadas. Com o Word na Web, você também pode usar o rotulamento automático ao editar esses documentos.
 
@@ -89,6 +89,8 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 - Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria. Em vez disso, esses aplicativos continuam a abrir arquivos no modo de edição exclusivo.
 
 - Se um documento rotulado for carregado no SharePoint e a criptografia aplicada usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Exemplos de cenários incluem o Microsoft Cloud app Security e um arquivo enviado para o Teams por email.
+
+- Os usuários podem enfrentar problemas de salvamento após entrar offline ou em um modo de suspensão ao invés de usar o Office para a Web, eles usam a área de trabalho e os aplicativos móveis para Word, Excel ou PowerPoint. Para esses usuários, quando retomarem sua sessão de aplicativo do Office e tentarem salvar as alterações, eles verão uma mensagem de falha de carregamento com uma opção para salvar uma cópia em vez de salvar o arquivo original. 
 
 - Documentos que foram criptografados das seguintes maneiras não podem ser abertos no Office na Web:
     - Criptografia que usa uma chave local ("conter sua própria chave" ou HYOK)

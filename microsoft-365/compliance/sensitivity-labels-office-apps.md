@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 759c944bc72c39d1fd118dcb1b3515b5ede79687
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 41d4231b163d85b55ed0cd68ffb551f67d30827a
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42548183"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583148"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -118,6 +118,34 @@ Para obter informações sobre quais recursos são compatíveis com os clientes 
 [Modelos de proteção](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)definidos pelo administrador, como aqueles que você define para a criptografia de mensagem do Office 365, não são visíveis em aplicativos do Office quando você está usando rotulação interna. Essa experiência simplificada reflete que não é necessário selecionar um modelo de proteção, porque as mesmas configurações estão incluídas com rótulos de confidencialidade com criptografia habilitada.
 
 Se você precisar converter modelos de proteção existentes para rótulos, use o portal do Azure e as seguintes instruções: [para converter modelos em rótulos](https://docs.microsoft.com/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels).
+
+## <a name="information-rights-management-irm-options-and-sensitivity-labels"></a>Opções de gerenciamento de direitos de informação (IRM) e rótulos de confidencialidade
+
+Os rótulos de confidencialidade configurados para aplicar criptografia removem a complexidade dos usuários para especificar suas próprias configurações de criptografia. Em muitos aplicativos do Office, essas configurações de criptografia individuais ainda podem ser configuradas manualmente por usuários usando as opções de gerenciamento de direitos de informação (IRM). Por exemplo, para aplicativos do Windows:
+
+- Para um documento: **arquivo** > de**proteção** > de**informações** > de arquivo**restringir o acesso**
+- para um email: na guia **opções** > **criptografar** 
+  
+Quando o usuário rotula inicialmente um documento ou um email, eles podem sempre substituir suas definições de configuração de rótulo por suas próprias configurações de criptografia. Por exemplo:
+
+- Um usuário aplica o rótulo **confidencial \ todos os funcionários** a um documento e esse rótulo é configurado para aplicar as configurações de criptografia para todos os usuários da organização. Esse usuário define manualmente as configurações de IRM para restringir o acesso a um usuário fora da sua organização. O resultado final é um documento rotulado como **confidencial \ todos os funcionários** e criptografados, mas os usuários de sua organização não podem abri-lo conforme o esperado.
+
+- Um usuário aplica somente o rótulo **confidencial \ destinatários** a um email, e este email é configurado para aplicar a configuração de criptografia de **não encaminhar**. Esse usuário configura manualmente as configurações de IRM para que o email seja irrestrito. O resultado final é o email pode ser encaminhado por destinatários, apesar de ter o rótulo **confidencial \ somente destinatários** .
+
+- Um usuário aplica o rótulo **geral** a um documento, e esse rótulo não é configurado para aplicar criptografia. Esse usuário configura manualmente as configurações de IRM para restringir o acesso ao documento. O resultado final é um documento rotulado como **geral** , mas também aplica criptografia para que alguns usuários não possam abri-lo conforme o esperado.
+
+Se o documento ou o email já estiver rotulado, um usuário poderá realizar qualquer uma dessas ações se o conteúdo ainda não estiver criptografado ou se ele tiver o [uso direito](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) de exportação ou controle total. 
+
+Para obter uma experiência de rótulo mais consistente com relatórios significativos, forneça rótulos e orientações apropriados para que os usuários apliquem rótulos exclusivamente. Por exemplo:
+
+- Para casos de exceção em que os usuários devem atribuir suas próprias permissões, forneça rótulos que [permitem que os usuários atribuam suas próprias permissões](encryption-sensitivity-labels.md#let-users-assign-permissions). 
+
+- Em vez de usuários removendo manualmente a criptografia depois de selecionar um rótulo que aplica criptografia, forneça uma alternativa de subrótulo quando os usuários precisarem de um rótulo com a mesma classificação, mas sem criptografia. Como:
+    - **Confidencial \ todos os funcionários**
+    - **Confidencial \ qualquer pessoa (sem criptografia)**
+
+> [!NOTE]
+> Se os usuários removerem manualmente a criptografia de um documento rotulado armazenado no SharePoint ou no OneDrive e você tiver [habilitado rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md), a criptografia de rótulo será restaurada automaticamente na próxima vez que o documento for acessado ou baixado. 
 
 ## <a name="apply-sensitivity-labels-to-files-emails-and-attachments"></a>Aplicar rótulos de confidencialidade a arquivos, emails e anexos
 

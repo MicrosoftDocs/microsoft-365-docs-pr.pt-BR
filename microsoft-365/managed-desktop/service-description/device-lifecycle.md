@@ -5,16 +5,16 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 2d6dffad4b4d96e065dd5163ea702c91c27520fb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b65724a1eee35149d473fb69ff646b5ef5751b2c
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085813"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583168"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto do Microsoft Managed desktop
 
-Benefícios do Microsoft Managed desktop os usuários finais garantem que eles sempre usem dispositivos que oferecem os melhores desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a área de trabalho gerenciada da Microsoft mantém um pequeno catálogo de [dispositivos aprovados](device-list.md)continuamente atualizados. 
+Os usuários finais da área de trabalho gerenciada da Microsoft garantem que eles sempre usem dispositivos que oferecem os melhores desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a área de trabalho gerenciada da Microsoft mantém um pequeno catálogo de [dispositivos aprovados](device-list.md)continuamente atualizados. 
  
 Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicionados e removidos do catálogo aprovado. 
 
@@ -31,7 +31,7 @@ Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicion
 - [Descontinuação de produto](#product-retirement)
 
 
-A sequência inteira é descrita nesta ilustração:
+Esta ilustração mostra a sequência inteira:
 
 ![linha do tempo do ciclo de vida: Iniciando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse período, a janela de certificação termina e em algum momento o dispositivo é integrado. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos é iniciado. A partir do momento em que o dispositivo é integrado, ele tem um período de 3 anos de uso até que seja removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](../../media/non-dark1-edits.PNG)
 
@@ -40,7 +40,7 @@ Os produtos permanecem no catálogo por até 24 meses, mas os <em>dispositivos</
 Esta tabela mostra as datas de exemplo de um produto teórico:
 
 
-|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
+|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da elegibilidade  |
 |---------|---------|---------|---------|
 |Laptop da Fabrikam    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
 |Laptop adatum   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
@@ -64,7 +64,7 @@ Durante esse estágio, a equipe de engenharia de área de trabalho gerenciada da
   
 A área de trabalho gerenciada da Microsoft só avaliará dispositivos de certificação nos primeiros 6 meses de disponibilidade. Isso garante que estamos sempre concentrando nossos esforços na última geração de hardware.
  
-No final desta fase, a área de trabalho gerenciada da Microsoft adiciona o produto à [lista aprovada](device-list.md), liberando com eficiência o produto para as registradoras do cliente. Independentemente da data em que um dispositivo é certificado, sua **data de aprovação** é de back-data para a data de disponibilidade geral dos produtos. 
+No final desta fase, a área de trabalho gerenciada da Microsoft adiciona o produto à [lista aprovada](device-list.md), liberando com eficiência o produto para as registradoras do cliente. Independentemente da data em que um dispositivo é certificado, sua **data de aprovação** é de back-data para a data de disponibilidade geral do produto. 
 
 
 ## <a name="product-primary-availability-period"></a>Período de disponibilidade principal do produto
@@ -88,7 +88,7 @@ Se você comprou recentemente vários dispositivos aprovados antes de se inscrev
 
 O exemplo de laptop da Fabrikam da tabela anterior ilustra essa situação: 
 
-|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da eligiblity  |
+|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da elegibilidade  |
 |---------|---------|---------|---------|
 |Laptop da Fabrikam    | 6/1/2017 | 6/1/2019 | 6/1/2022 |
 
@@ -105,21 +105,10 @@ A aposentadoria do produto é a fase final do ciclo de vida. Nesta fase, nenhum 
 
 Um dispositivo está fora de conformidade quando a janela permitida para o gerenciamento de área de trabalho gerenciada da Microsoft tiver decorrido. Isso ocorre quando o dispositivo alcança três anos de gerenciamento ou quando esse tipo de produto é removido do catálogo de dispositivos, o que ocorrer primeiro. Você deve sempre direcionar seus ciclos de compras de forma que novos dispositivos sejam implantados antes de os dispositivos atuais ficar fora de conformidade.
 
-A equipe de área de trabalho gerenciada da Microsoft sabe que os ciclos de compras são longos e planejados em relação aos orçamentos de longa duração. Para garantir que você esteja sempre ciente do estado de sua população de dispositivos, fornecemos um [site](https://aka.ms/mmdportal) que lista todos os dispositivos sob gerenciamento, sua data de aposentadoria futura e um status que indica sua conformidade. Isso significa que você sempre tem as últimas informações sobre a idade do dispositivo e pode aproveitar o relatório em qualquer ciclo de planejamento de compras. 
+A equipe de área de trabalho gerenciada da Microsoft sabe que os ciclos de compras são longos e planejados em relação aos orçamentos de longa duração. Para garantir que você esteja sempre ciente do estado de sua população de dispositivos, fornecemos um [site](https://aka.ms/mmdportal) que lista todos os dispositivos sob gerenciamento, sua idade e um status que indica sua conformidade. Isso significa que você sempre tem as últimas informações sobre a idade do dispositivo e pode usar o relatório em qualquer ciclo de planejamento de compras. 
 
 
-Além disso, também executaremos as seguintes ações automatizadas para garantir que novos dispositivos sejam implantados no momento:
 
-
-|Linha do tempo  |Action  |
-|---------|---------|
-|T-90     | Sinalizaremos este dispositivo como **expirar em breve**, com um marcador amarelo no site de inventário de dispositivos.  |
-|T-60     | Sinalizaremos esse dispositivo como **expiração** com um marcador vermelho no site de inventário de dispositivos.       |
-|T-30     | Postaremos uma mensagem no portal de administração dizendo que os dispositivos estão saindo de acordo com a conformidade.       |
-|,0     |  Ajustaremos o portal de administração para dizer que os dispositivos agora expiraram os administradores de redirecionar para a lista de dispositivos primeiro.       |
-|T + 30     |  Reduziremos a funcionalidade do portal de Administração até que novos dispositivos sejam implantados.       |
-|T + 60     |  Reduziremos a funcionalidade do portal de Administração até que novos dispositivos sejam implantados.       |
-|T + 90     |  Removemos o dispositivo do gerenciamento. Neste ponto, o dispositivo é unicamente sua própria responsabilidade e você não deve mais considerá-lo seguro nem até hoje. Além disso, o dispositivo estará em um estado desconhecido, pois cada provedor de serviços de configuração controla suas próprias configurações.|
 
 
 

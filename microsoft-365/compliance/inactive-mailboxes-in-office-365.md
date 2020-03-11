@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: Saiba mais sobre como reter o conteúdo de caixa de correio para funcionários antigos ao transformar a caixa de correio em uma caixa de correio inativa. Você pode fazer isso colocando a caixa de correio em retenção de litígio ou aplicando uma política de retenção do Office 365 à caixa de correio e, em seguida, removendo a conta do Office 365 correspondente.
-ms.openlocfilehash: b5c6730a30ac0efba8f00abc01c0b2c26bf9e562
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 958572fc922f3bef140773369124b1c45147ad16
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072898"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583038"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Visão geral das caixas de correio inativas no Office 365
 
@@ -70,13 +70,21 @@ Você pode considerar a criação de uma política de retenção Office 365 espe
 Se uma retenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança for colocada em uma caixa de correio e a conta de caixa de correio ou do usuário do Office 365 for excluída, a caixa de correio se tornará uma caixa de correio inativa. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. Além disso, você não pode criar um bloqueio de descoberta eletrônica baseado em tempo. Isso significa que o conteúdo em uma caixa de correio inativa é mantido para sempre ou até que a retenção seja removida e a caixa de correio inativa seja excluída. Therefore, we recommend using a Litigation Hold or an Office 365 retention policy for inactive mailboxes.
   
 Para obter mais informações sobre ocorrências de descoberta eletrônica e isenções, consulte [casos de descoberta eletrônica](ediscovery-cases.md).
-  
+
 ## <a name="inactive-mailboxes-and-office-365-labels"></a>Caixas de correio inativas e rótulos do Office 365
 
 Rótulos em Office 365 ajudarão-lo classificar dados de email na sua organização para um governança e impor regras de retenção com base nessa classificação. Um rótulo pode ser aplicado a um item de email manualmente por usuários ou automaticamente por administradores e um item de email só pode ter um rótulo único atribuído a ele. Se um único item de email na caixa de correio de um usuário tiver um rótulo atribuído a ele (e se estiver configurado para reter ou reter e excluir o item) e a caixa de correio ou a conta do Office 365 do usuário for excluída, a caixa de correio se tornará uma caixa de correio inativa. Semelhante ao isenções casos de eDiscovery, não recomendamos o uso de rótulos para tornar uma caixa de correio inativa. Em vez disso, recomendamos que você use um litígio ou uma política de retenção Office 365. No caso de rótulos, você pode não perceber que um rótulo foi aplicado a um item de email e, em seguida, tornar uma caixa de correio inativa inativa ao excluir a conta do usuário. 
   
 Para obter mais informações sobre rótulos, consulte [Visão geral dos rótulos no Office 365](labels.md).
   
+## <a name="inactive-mailboxes-and-auto-expanding-archives"></a>Caixas de correio inativas e arquivos de expansão automática
+
+Uma caixa de correio inativa configurada com um arquivo morto de expansão automática não pode ser recuperada ou restaurada. Em situações em que é necessário recuperar dados de uma caixa de correio inativa com um arquivo de expansão automática, recomendamos que você use a ferramenta de pesquisa de conteúdo para exportar os dados da caixa de correio e, em seguida, importá-los para outra caixa de correio. Para obter instruções detalhadas de pesquisa de uma caixa de correio inativa e exportar os resultados da pesquisa, consulte:
+
+- [Pesquisa de Conteúdo no Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)
+
+- [Exportar resultados de pesquisa de conteúdo](https://docs.microsoft.com/microsoft-365/compliance/export-search-results)
+
 ## <a name="inactive-mailboxes-and-exchange-mrm-retention-policies"></a>Caixas de correio inativas e políticas de retenção de MRM do Exchange
 
 Se uma política de retenção do Exchange (o recurso Gerenciamento de registros de mensagens ou MRM, no Exchange Online ) foi aplicada à caixa de correio quando ela foi feita inativa, quaisquer políticas de exclusão (que são configuradas com uma ação de retenção **Excluir** as marcas de retenção) continuarão a serem processados na caixa de correio inativa. Isso significa que os itens que estão marcados com uma política de exclusão serão movidos para a pasta itens recuperáveis quando o período de retenção expira. Os itens são removidos da caixa de correio inativa quando a duração da retenção expira. Se um período de retenção não for especificado para a caixa de correio inativa, itens na pasta recuperar itens serão mantidos indefinidamente. 
