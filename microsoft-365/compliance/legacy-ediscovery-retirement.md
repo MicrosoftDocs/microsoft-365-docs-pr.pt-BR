@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: 0ce85a1c73de38f0032f3e667add77a424d5486e
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 92b6648b603286871956db64631d334df2384112
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543193"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42605293"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -278,6 +278,13 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </td>
 </tr>
 <tr class="odd">
+<td>Excluir email em massa de uma caixa de correio</td>
+<td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Configurar uma política de arquivo morto e exclusão para caixas de correio</span></a></p>
+<p></p></td>
+<td><p>Os administradores podem criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente os itens da caixa de correio.</p>
+</td>
+</tr>
+<tr class="even">
 <td>Copiar os resultados da pesquisa para uma caixa de correio de descoberta</td>
 <td> </td>
 <td>Não há substituição direta para essa funcionalidade, pois ela não fornece acesso a todos os serviços do Microsoft 365. Consulte as perguntas frequentes na seção <strong>cmdlets *-MailboxSearch</strong> para obter soluções alternativas. </td>

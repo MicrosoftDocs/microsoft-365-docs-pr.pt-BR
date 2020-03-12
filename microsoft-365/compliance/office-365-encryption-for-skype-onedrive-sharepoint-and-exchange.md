@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - SPO_Content
 description: 'Resumo: uma descrição da criptografia para o Skype, o OneDrive, o SharePoint e o Exchange Online.'
-ms.openlocfilehash: cffaab87049f466794706ad6537e663e43d5de91
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4a8dbc2fbe204b09b30eee4ed7ce2136d0ec69f9
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601838"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604158"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia do Office 365 para o Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
 
@@ -76,7 +76,7 @@ Itens de lista são partes menores de dados do cliente que são criados ad-hoc o
 
 No OneDrive for Business e no SharePoint Online, há dois cenários em que os dados entram e saem dos data centers.
 
-- A **comunicação do cliente com a comunicação do servidor com o** onedrive for Business pela Internet usa conexões SSL/TLS. Todas as conexões SSL são estabelecidas por meio de chaves de 2.048 bits.
+- A **comunicação do cliente com a comunicação do servidor com o** SharePoint Online e o onedrive for Business pela Internet usa conexões TLS.
 - **Movimentação de dados entre data centers** -o principal motivo para mover dados entre data centers é para replicação geográfica para permitir a recuperação de desastres. Por exemplo, os logs de transação e os deltas de armazenamento de blobs do SQL Server passam por esse pipe. Embora esses dados já sejam transmitidos por meio de uma rede privada, eles estarão ainda mais protegidos com a melhor criptografia do mercado.
 
 ## <a name="exchange-online"></a>Exchange Online

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como os novos recursos de proteção de mensagens no Office 365 funcionam? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 032aa1dacc89aea63cf15080efb80de61e9a6f22
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8d0b65ad60365154f8a35c5afe0b71b5a50d29a8
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597808"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42605286"
 ---
 # <a name="office-365-message-encryption-faq"></a>Perguntas frequentes sobre Criptografia de Mensagem do Office 365
 
@@ -115,7 +115,8 @@ Sim! Você pode habilitar a criptografia para anexos em PDF para suas organizaç
 Set-IRMConfiguration -EnablePdfEncryption $true
 ```
 
-A criptografia de PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. As mensagens herdam a proteção OME da política de prevenção de perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Se um Outlook ou Outlook no usuário da Web anexar um anexo de PDF desprotegido a uma mensagem protegida, a mensagem herdará a proteção da mensagem. Os usuários só podem abrir os anexos criptografados em aplicativos que dão suporte a PDFs protegidos (por exemplo, o portal do OME e o Visualizador de proteção de informações do Azure).
+A criptografia de PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Para todos os clientes do Outlook, mensagens e anexos PDF desprotegidos herdam a proteção do OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Além disso, se um usuário do Outlook anexar um documento do PDF desprotegido e aplica proteção à mensagem, a mensagem herdará a proteção da mensagem. Os usuários só podem abrir os anexos criptografados em aplicativos que dão suporte a PDFs protegidos (por exemplo, o portal do OME e o Visualizador de proteção de informações do Azure).
+
   
 ## <a name="are-onedrive-for-business-attachments-supported"></a>Há suporte para anexos do OneDrive for Business?
 
@@ -161,7 +162,7 @@ Não neste momento.
 
 Sim! As mensagens criptografadas têm suporte para uma caixa de correio compartilhada.
 
-- Os usuários podem abrir emails protegidos em um mMailbox compartilhado, onde a caixa de correio compartilhada recebeu um email protegido como parte de um grupo de distribuição.
+- Os usuários podem abrir emails protegidos em uma caixa de correio compartilhada onde a caixa de correio compartilhada recebeu um email protegido como parte de um grupo de distribuição.
 
 - Os usuários podem exibir anexos que herdam a proteção de email quando usam o Outlook para Windows, o Outlook para Mac e o Outlook na Web.
 

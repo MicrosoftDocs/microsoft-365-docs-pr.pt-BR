@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3e3f16339d25c8cc592e937e30a446ed7e7cd333
-ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
+ms.openlocfilehash: 69b3bbbbca98c3ef9e16f1cca4d67122ae14af3f
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42542535"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604198"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -34,7 +34,7 @@ Use políticas de conformidade de comunicação para capturar comunicações de 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Antes de começar a conformidade com comunicações, você deve confirmar sua assinatura do Microsoft 365. Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Microsoft 365 e5.
+Antes de começar a conformidade com comunicações, você deve confirmar sua assinatura do Microsoft 365. Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise E5 ou ser incluído em um Microsoft assinatura 365 e5.
 
 Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
   
@@ -159,6 +159,6 @@ Siga estas etapas para testar sua política de conformidade de comunicação:
     > [!NOTE]
     > As comunicações em todos os canais de origem podem levar até 24 horas para serem processadas completamente em uma política.
 
-3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até **** > **alertas** de conformidade de comunicação para exibir os alertas de suas políticas.
+3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até **Communication compliance** > **alertas** de conformidade de comunicação para exibir os alertas de suas políticas.
 
 4. Corrija o alerta usando os controles de correção e verifique se o alerta foi resolvido corretamente.

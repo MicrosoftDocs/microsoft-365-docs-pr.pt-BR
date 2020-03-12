@@ -21,20 +21,20 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Saiba como compartilhar sites e arquivos com pessoas de fora da organização. '
-ms.openlocfilehash: cb6faf14806f950f4b9a355e9f0fcdb660ec1d82
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 83b111153389bf75a92bcc32af9563bf7432bf8a
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250566"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42603988"
 ---
 # <a name="share-sites-and-files-externally"></a>Compartilhar sites e arquivos externamente
 
 Para colaborar com pessoas de fora da sua organização, você pode compartilhar sites inteiros ou arquivos específicos externamente. Caso queira ir diretamente para a configuração do compartilhamento, escolha o cenário desejado a habilitar:
 
 - [Colaborar com convidados em um documento](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
-- [Colaborar com convidados em um site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
-- [Colaborar com convidados em uma equipe](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+- [Colaborar com convidados em um site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
+- [Colaborar com convidados em uma equipe](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
   
 ## <a name="deciding-how-to-share-your-content"></a>Decidindo como compartilhar seu conteúdo
 

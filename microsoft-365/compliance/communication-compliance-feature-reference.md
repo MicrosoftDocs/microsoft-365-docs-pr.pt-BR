@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5861348bb7c447c878f7f203acfd39fdf4c0a5f8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 733abf925c80f90527b67660b84aea3e0482e906
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078758"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543750"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -65,14 +65,14 @@ Quando você seleciona um grupo do Office 365 para usuários supervisionados, a 
 
 Com as políticas de conformidade de comunicação, você pode optar por examinar mensagens em uma ou mais das seguintes plataformas de comunicação como um grupo ou como fontes autônomas. As comunicações capturadas entre essas plataformas são mantidas por sete anos para cada política por padrão, mesmo que os usuários saiam da sua organização e suas caixas de correio sejam excluídas.
 
-- **Microsoft Teams**: comunicações de chat e anexos associados em canais do Microsoft Teams públicos e privados e chats individuais podem ser verificados. Team chats que correspondem às condições de conformidade de comunicação são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis nos relatórios de conformidade de comunicação. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
+- **Microsoft Teams**: comunicações de chat e anexos associados em canais do Microsoft Teams públicos e privados e chats individuais podem ser verificados. Conversas de chat e anexos do Team as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
     - **Para comunicações de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
     - **Para comunicações de canal do teams:** Atribua cada grupo do Microsoft Team Channel ou Office 365 que você deseja verificar que contenha um usuário específico à política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Office 365, certifique-se de adicionar esses novos canais e grupos à política de conformidade de comunicação.
 
-- **Email do Exchange**: as caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para a verificação de mensagens. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente nos relatórios de conformidade de comunicação. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os [tipos de arquivo suportados para inspeções de conteúdo de regras de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
+- **Email do Exchange**: as caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para a verificação de mensagens. Mensagens de email e anexos do Exchange as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os [tipos de arquivo suportados para inspeções de conteúdo de regras de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
-- **Skype for Business online**: as comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. Conversas do Skype for Business online as condições de política de conformidade de comunicação são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis nos relatórios de conformidade de comunicação. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
+- **Skype for Business online**: as comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. Conversas do Skype for Business online as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
 
     - **Para comunicações de chat do Skype for Business online**: atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
 
@@ -286,16 +286,16 @@ Para exibir as atividades de política de conformidade de comunicação, selecio
 
 Você também pode exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) do PowerShell.
 
-Por exemplo, o exemplo a seguir retorna as atividades para todas as atividades de análise de supervisão (políticas e regras) e lista informações detalhadas de cada:
+Por exemplo, o exemplo a seguir retorna as atividades de todas as atividades de análise de supervisão (políticas e regras):
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -Operations SupervisoryReviewTag
 ```
 
 Este exemplo retorna as atividades de atualização para suas políticas de conformidade de comunicação:
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
 ```
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?

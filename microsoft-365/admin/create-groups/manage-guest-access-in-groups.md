@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Office 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: 02a951b1fbf43c22f12a89663a0aee279b191088
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e4d71919fa5ebfb97a6bab8013fc6bc54ac071a4
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352612"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42603998"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Office 365
 
@@ -43,8 +43,8 @@ Depois de aprovado, o usuário convidado é adicionado ao diretório e ao grupo.
 
 O acesso de convidados em grupos é geralmente usado como parte de um cenário mais amplo que inclui o SharePoint ou o Teams. Esses serviços têm suas próprias configurações de compartilhamento de convidados. Para obter instruções completas sobre como configurar o compartilhamento de convidados entre grupos, SharePoint e equipes, consulte:
 
-- [Colaborar com convidados em um site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
-- [Colaborar com convidados em uma equipe](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+- [Colaborar com convidados em um site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
+- [Colaborar com convidados em uma equipe](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
 
 ## <a name="manage-groups-guest-access"></a>Gerenciar o acesso de convidados a grupos
 

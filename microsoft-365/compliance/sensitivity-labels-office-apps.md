@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 41d4231b163d85b55ed0cd68ffb551f67d30827a
-ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
+ms.openlocfilehash: 858d2be23dcb3c3f2b0794e735ed8ca61d67b74d
+ms.sourcegitcommit: 794f2f416a258157cb44d962b5be6a348ee20fea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583148"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42593999"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -136,7 +136,7 @@ Quando o usuário rotula inicialmente um documento ou um email, eles podem sempr
 
 Se o documento ou o email já estiver rotulado, um usuário poderá realizar qualquer uma dessas ações se o conteúdo ainda não estiver criptografado ou se ele tiver o [uso direito](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) de exportação ou controle total. 
 
-Para obter uma experiência de rótulo mais consistente com relatórios significativos, forneça rótulos e orientações apropriados para que os usuários apliquem rótulos exclusivamente. Por exemplo:
+Para obter uma experiência de rótulo mais consistente com relatórios significativos, forneça rótulos e orientações apropriados para que os usuários apliquem apenas rótulos para proteger documentos. Por exemplo:
 
 - Para casos de exceção em que os usuários devem atribuir suas próprias permissões, forneça rótulos que [permitem que os usuários atribuam suas próprias permissões](encryption-sensitivity-labels.md#let-users-assign-permissions). 
 
