@@ -15,16 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como planejar e implementar a continuidade de negócios parece diferente quando os serviços de nuvem fazem parte da sua oferta de TI.
-ms.openlocfilehash: ced840852aeef9949d005e431125ad2d659cba33
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2236304647275f5e2b7ddde3af1804ba749254b0
+ms.sourcegitcommit: 0b2c41dad19da5f0513097c36a4ff32a5868836c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596998"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42588714"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gerenciamento de continuidade de negócios empresariais (EBCM) com serviços de nuvem
 
-Como parte da transformação digital das suas organizações, você precisa reavaliar e atualizar seus planos de recuperação de desastres e de continuidade de negócios de modo que eles levem em consideração o processo de negócios que depende dos serviços de nuvem do Microsoft 365. Os serviços de nuvem do Microsoft 365, como o Exchange Online, o SharePoint Online e o OneDrive for Business, são projetados e operados para serem altamente resilientes. Mesmo com essa resiliência, ainda ocorrem incidentes de serviço. Quando isso acontecer, sua organização deve estar preparada e ter uma estratégia de continuidade de negócios bem definida.
+Como parte da transformação digital das suas organizações, você precisa reavaliar e atualizar seus planos de recuperação de desastres e de continuidade de negócios de modo que eles levem em consideração o processo de negócios que depende dos serviços de nuvem do Microsoft 365. Os serviços de nuvem do Microsoft 365, como o Exchange Online, o SharePoint Online e o OneDrive for Business, são projetados e operados para serem altamente resilientes.
+
+> [!NOTE]
+> Para saber mais sobre o plano EBCM da Microsoft no [white paper Enterprise Business Continuity Management Program](https://go.microsoft.com/fwlink/?linkid=2121521). O logon é obrigatório.
+
+Mesmo com essa resiliência, ainda ocorrem incidentes de serviço. Quando isso acontecer, sua organização deve estar preparada e ter uma estratégia de continuidade de negócios bem definida.
 
 Caso ainda não tenha atualizado seus planos, essa série de tópicos ajuda você a planejar sua estratégia de modo que possam ocorrer falhas no serviço, mas que eles tenham um estado conhecido. Esses tópicos destacam as principais considerações para melhorar a prontidão da continuidade.
 

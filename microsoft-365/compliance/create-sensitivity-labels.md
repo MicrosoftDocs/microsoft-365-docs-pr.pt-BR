@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: d2300a54583c0b2d12de86e3dbb5f3116daf6460
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: b3f998ec7f52403c4b3676fb08976aacdc1f7d0f
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543115"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583128"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -154,6 +154,23 @@ Usando esse cmdlet, você pode especificar [configurações avançadas](https://
 
 Você também pode usar esse cmdlet para adicionar e remover rótulos de e para uma política de rótulo.
 
+## <a name="removing-and-deleting-labels"></a>Remover e excluir rótulos
+
+Em um ambiente de produção, é improvável que você precise remover ou excluir rótulos de confidencialidade de uma política de rótulo. É mais provável que você precise fazer uma dessas ações durante uma fase de testes inicial. Certifique-se de entender o que acontece ao fazer qualquer uma dessas ações.
+
+É menos arriscado remover um rótulo de uma política de rótulo do que eliminá-lo, e sempre será possível adicioná-lo novamente, se necessário:
+
+- Ao remover um rótulo de uma política de rótulo para que ele não seja mais publicado para os usuários especificados originalmente, da próxima vez que a política for atualizada, os usuários não o verão mais no aplicativo do Office. No entanto, se o rótulo foi aplicado a documentos ou emails, ele não é removido desse conteúdo. Qualquer criptografia aplicada pelo rótulo permanecerá e o modelo de proteção subjacente permanecerá publicado. 
+
+- Para rótulos removidos mas que foram previamente aplicados ao conteúdo, os usuários que usam rótulos internos para Word, Excel e PowerPoint, ainda verão o nome do rótulo aplicado na barra de status. Da mesma forma, os rótulos removidos que foram aplicados aos sites do SharePoint ainda exibem o nome do rótulo na coluna **Confidencialidade**.
+
+Em comparação, ao excluir um rótulo:
+
+- Se uma criptografia foi aplicada pelo rótulo, o modelo de proteção subjacente é arquivado para que o conteúdo previamente protegido ainda possa ser aberto. Devido a esse modelo de proteção arquivado, não será possível criar uma novo rótulo com o mesmo nome. Embora seja possível excluir um modelo de proteção usando o [PowerShell](https://docs.microsoft.com/powershell/module/aipservice/remove-aipservicetemplate), não faça isso, a menos que tenha certeza de que não precisará abrir conteúdos criptografados com o modelo arquivado.
+
+- Para aplicativos da área de trabalho: as informações do rótulo nos metadados permanecem, mas como não será mais possível usar uma ID de rótulo para mapeamento de nomes, os usuários não verão o nome do rótulo aplicado (por exemplo, na barra de status), então os usuários assumirão que o conteúdo não foi rotulado. Se uma criptografia foi aplicada pelo rótulo, a criptografia permanecerá e quando o conteúdo for aberto, os usuários ainda verão o nome e a descrição do modelo de proteção agora arquivado.
+
+- Para o Office na Web: os usuários não verão o nome do rótulo na barra de status ou na coluna **Confidencialidade**. As informações do rótulo nos metadados permanecem somente se o ele não tiver aplicado criptografia. Se uma criptografia foi aplicada pelo rótulo e você habilitou [rótulos de confidencialidade para o SharePoint e o Onedrive](sensitivity-labels-sharepoint-onedrive-files.md), as informações do rótulo nos metadados serão removidos e a criptografia será removida. 
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint e Microsoft Teams e nos grupos do Office 365.
-ms.openlocfilehash: 934999f3c1b55c738ebc30eb9b87c65c5cc08376
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: b1bac1cbe094a1e56c05dd7fd1aa5377f0a85ce5
+ms.sourcegitcommit: 62eac95c27295ba285e28cec5acf815314fbfd00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550418"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601348"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar códigos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -329,4 +329,8 @@ Se você ainda não conseguir ver o novo rótulo de confidencialidade do SharePo
 
 ### <a name="team-group-or-sharepoint-site-creation-errors"></a>Erros de criação de equipe, grupo ou site do SharePoint
 Se ocorrerem erros de criação durante a visualização pública, você poderá desativar os rótulos de confidencialidade do Microsoft Teams, grupos do Office 365 e sites do SharePoint usando as mesmas instruções em [Habilitar o suporte ao rótulo de confidencialidade no PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar a visualização, na etapa 5, desabilite o recurso usando o `$setting["EnableMIPLabels"] = "False"`.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+Consulte a gravação do seminário on-line e as perguntas respondidas para [Usar rótulos de sensibilidade nos sites Microsoft Teams, O365 Groups e SharePoint Online](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-sensitivity-labels-with-microsoft-teams-o365-groups-and/ba-p/1221885#M1380).
 

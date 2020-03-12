@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
-description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga de sua organização para o Office 365.
-ms.openlocfilehash: b8487b245001ffc73b975ed8f756b83e7093b1e7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga da sua organização ao Office 365.
+ms.openlocfilehash: fe3829d349e5721ebdcf0688c1f5b2bd3c9f7f45
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069209"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604088"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Usar sua assinatura gratuita do Azure Active Directory no Office 365
 
@@ -29,7 +29,7 @@ Se sua organização tiver uma assinatura paga do Office 365, do Microsoft Dynam
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Use uma sessão de navegação privada (não uma sessão normal) para acessar o portal do Azure (na etapa 1 abaixo) porque isso impedirá que a credencial com a qual você fez logon passe para o Azure. Para abrir uma sessão de Navegação InPrivate no Internet Explorer ou uma sessão de navegação particular no Mozilla FireFox, pressione Ctrl+Shift+P. Para abrir uma sessão de navegação anônima no Google Chrome (chamada de janela anônima), pressione Ctrl+Shift+N.
+Use uma sessão de navegação privada (não uma sessão regular) para acessar o portal do Azure (na etapa 1 abaixo), pois isso impedirá que a credencial com a qual você está conectado no momento seja passada ao Azure. Para abrir uma sessão de Navegação InPrivate no Microsoft Edge, Internet Explorer ou Mozilla FireFox, basta pressionar CTRL+SHIFT+P. Para abrir uma sessão de navegação privada no Google Chrome (chamada janela anônima), pressione CTRL+SHIFT+N.
 
 ## <a name="access-azure-active-directory"></a>Acessar o Azure Active Directory
 

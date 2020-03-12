@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 9ecc74610c0d150dd511a8e24fb66037768587a4
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: f373accc35684c055af8d58907e39aa7a0f4b4f4
+ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280199"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42586719"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -94,7 +94,8 @@ Depois que uma política de retenção é atribuída a uma conta do OneDrive ou 
     > [!NOTE]
     > Alteramos recentemente como o conteúdo é excluído da Biblioteca de Retenção para Preservação. Para ajudar a evitar a perda de dados acidental, não excluímos mais permanentemente o conteúdo da biblioteca de Retenção para Preservação. Em vez disso, excluímos permanentemente somente o conteúdo da lixeira, portanto, todo o conteúdo da Biblioteca de Retenção para Preservação agora passará pela lixeira de segundo estágio.
     
-2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. Observe que a lixeira não é indexada e, portanto, pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. A Lixeira é reconheci 
+3. da, embora as pesquisas não localizem conteúdo nela. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
     
 ### <a name="content-in-mailboxes-and-public-folders"></a>Conteúdo em caixas de correio e pastas públicas
 
@@ -106,8 +107,6 @@ Um processo avalia itens periodicamente na pasta Itens Recuperáveis. Se um item
   
 Quando uma pessoa tenta alterar determinadas propriedades de um item de caixa de correio, como assunto, corpo, anexos, remetentes e destinatários, ou a data de envio ou de recebimento de uma mensagem, uma cópia do item original é salva na pasta Itens Recuperáveis antes da confirmação da alteração. Essa ação acontecerá para todas as alterações subsequentes. No final do período de retenção, as cópias na pasta Itens Recuperáveis são excluídas permanentemente.
   
-Se um usuário deixar a sua organização e a sua caixa de correio for incluída em uma política de retenção, a caixa de correio se tornará inativa quando a conta do Office 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tiver sido aplicada a essa caixa antes de ela se tornar inativa e fica disponível para uma pesquisa de Descoberta Eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md).
-  
 Depois que uma política de retenção é atribuída a uma caixa de correio ou pasta pública, o conteúdo pode seguir um destes dois caminhos:
 
 ![Diagrama de fluxo de retenção em emails e pastas públicas](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
@@ -115,7 +114,21 @@ Depois que uma política de retenção é atribuída a uma caixa de correio ou p
 1. **Se o item for modificado ou excluído permanentemente** pelo usuário (usando SHIFT + DELETE ou excluído de Itens Excluídos) durante o período de retenção, o item será movido (ou copiado, no caso de edição) para a pasta Itens Recuperáveis. Lá, um processo é executado periodicamente e identifica itens cujo período de retenção tenha expirado, e esses itens são permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, que pode ser estendida para até 30 dias.
     
 2. **Se o item não for modificado ou excluído** durante o período de retenção, o mesmo processo será executado periodicamente em todas as pastas na caixa de correio, identificando itens cujo período de retenção expirou. Esses itens são então permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias. 
-    
+
+### <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização
+
+**Exchange** 
+
+Se um usuário sair da organização e a caixa de correio dele estiver incluída em uma política de retenção, essa caixa de correio se tornará inativa quando a conta do Office 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tenha sido aplicada a essa caixa antes dela se tornar inativa, e ele fica disponível para uma pesquisa de descoberta eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md).
+
+**OneDrive**
+
+Se um usuário sair da organização, quaisquer arquivos sujeitos a uma política de retenção ou que contenham rótulos de retenção permanecerão pela duração da política ou do rótulo.  Durante esse período, todo o acesso à compartilhamentos continua a funcionar. Quando o período de retenção expira, o conteúdo é movido para a Lixeira de Conjuntos de Sites e não pode ser acessado por ninguém, exceto pelo administrador. Se um documento for marcado por uma política de retenção como um registro, ele não será excluído até que o período de retenção termine, após o qual o conteúdo será permanentemente excluído.
+
+**SharePoint**
+
+Quando um usuário sai organização, qualquer conteúdo criado por ele não será afetado porque o SharePoint é considerado um ambiente colaborativo, ao contrário da caixa de correio ou da conta OneDrive de um usuário.
+
 ## <a name="how-a-retention-policy-works-with-document-versions-in-a-site-collection"></a>Como funciona uma política de retenção com versões de documento em um conjunto de sites
 
 O controle de versão é um recurso de todas as bibliotecas de documentos no SharePoint Online e no OneDrive for Business. Por padrão, o controle de versão retém no mínimo 500 versões principais, embora você possa aumentar esse limite. Confira mais informações em [Habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37).
@@ -240,6 +253,16 @@ Ao selecionar **escolher usuários**, você pode incluir rapidamente todos os us
   
 Observe que o **Histórico da Conversa**, uma pasta no Outlook, é um recurso que não tem nada a ver com o arquivamento do Skype. **Histórico da Conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
 
+### <a name="sharepoint-locations"></a>Locais do SharePoint 
+
+A política de retenção pode reter conteúdo em sites de comunicação do SharePoint, sites de equipe que não estão conectados por grupos do Office 365 e sites clássicos. Os sites de equipes conectados por grupos do Office 365 não têm suporte com esta opção, em vez disso, use os locais de **grupos do Office 365**.
+
+Caso especifique sites que não têm suporte, eles serão ignorados pela política de retenção.
+
+Ao especificar os locais para os sites do SharePoint, não será preciso ter permissões para acessar o site e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites devem ser indexados e os especificados por você, serão verificados no final do assistente.
+
+Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site.
+
 ### <a name="teams-locations"></a>Locais do Teams
 
 Você pode usar uma política de retenção para manter as conversas e as mensagens de canal em Teams. As conversas do Teams são armazenadas em uma pasta oculta na caixa de correio de cada usuário incluído na conversa e as mensagens de canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio de grupo para a equipe. No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, é altamente recomendável usar a localização para reter e excluir dados do Teams. Usar o local do Teams excluirá permanentemente os dados de caixa de correio do Exchange e o serviço de chat subjacente fornecido pelo Azure. Para saber mais, confira [Visão geral de segurança e conformidade no Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=871258).
@@ -293,7 +316,7 @@ Além disso, não é possível usar o local do Exchange para incluir ou excluir 
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>Como excluir tipos específicos de itens do Exchange de uma política de retenção
 Usando o PowerShell, você poderá excluir tipos específicos de itens do Exchange de uma política de retenção. Por exemplo, você poderá excluir mensagens de caixa postal, conversas de mensagens instantâneas e outro conteúdo do Skype for Business Online nas caixas de correio. Você também pode excluir o calendário, as anotações e os itens de tarefas. Esse recurso está disponível apenas usando o PowerShell; não está disponível na interface de usuário quando você cria uma política de retenção.
   
-Para fazer isso, use o parâmetro `ExcludedItemClasses` dos cmdlets `New-RetentionComplianceRule` e `Set-RetentionComplianceRule`. Para saber mais sobre o PowerShell, confira a seção abaixo [Encontre os cmdlets do PowerShell para políticas de retenção](#find-the-powershell-cmdlets-for-retention-policies).
+Para fazer isso, use o parâmetro `ExcludedItemClasses` dos cmdlets `New-RetentionComplianceRule` e `Set-RetentionComplianceRule`.
 
 ## <a name="locking-a-retention-policy"></a>Como bloquear uma política de retenção
 Algumas organizações talvez precisem cumprir regras definidas por órgãos regulamentadores, como a Regra 17a-4 do Securities and Exchange Commission (SEC), que exige que após uma política de retenção ser ativada, ela não pode ser desativada ou se tornar menos restritiva. Com o Bloqueio de Preservação, você pode bloquear a política para que ninguém, nem o administrador, possa desativar a política ou torná-la menos restritiva.
@@ -314,7 +337,7 @@ Em segundo lugar, para exibir uma lista de suas políticas de retenção e encon
 
 Em terceiro lugar, para colocar um bloqueio de preservação na política de retenção, execute `Set-RetentionCompliancePolicy` com o parâmetro `RestrictiveRetention` definido como verdadeiro. Por exemplo:
 
-`Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
+`Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true`
 
 ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
 
@@ -324,7 +347,7 @@ Depois de executar esse cmdlet, você pode ver um prompt de confirmação. Escol
 
 O Bloqueio de Preservação agora está localizado na política de retenção. Se executar `Get-RetentionCompliancePolicy`, o parâmetro `RestrictiveRetention` é definido como verdadeiro. Por exemplo:
 
-`Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
+`Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl`
 
 ![Bloquear a política com todos os parâmetros mostrados no PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
   
@@ -405,15 +428,7 @@ Os membros da sua equipe de conformidade que criarão políticas de retenção p
 Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
 
 Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A imposição da política não exige acesso ao conteúdo.
-  
-## <a name="find-the-powershell-cmdlets-for-retention-policies"></a>Localizar os cmdlets do PowerShell para políticas de retenção
 
-Para usar os cmdlets de política de retenção, você precisará:
-  
-1. [Conectar ao &amp;Centro de Conformidade e Segurança do Office 365 usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
-    
-2. Use esses [cmdlets do &amp;Centro de Conformidade e Segurança do Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
-    
 ## <a name="more-information"></a>Mais informações
 
 - [Visão geral de rótulos](labels.md)
