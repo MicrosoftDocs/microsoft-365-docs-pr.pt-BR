@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: 3/05/2020
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 3e9dd5c02b3502eab2d3abfe5d65b5baebe18cda
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 6707a61ae2fd9f7dddb7aa63927a53f1795b5127
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "42569162"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583118"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -55,6 +55,9 @@ Por padrão, seu administrador de locatário tem acesso a esses centros de admin
 Como alternativa, você pode criar um novo grupo de funções e adicionar as funções **administrador de rótulo de confidencialidade** ou **configuração da organização** a esse grupo. Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços.
+
+> [!NOTE]
+> **O leitor de rótulo de sensibilidade** é uma nova função que está sendo distribuída atualmente aos locatários do e que tem suporte inicial para os cmdlets de rotulamento do PowerShell, e posteriores para as centrais de rotulação de administradores.
 
 ## <a name="common-scenarios-for-sensitivity-labels"></a>Cenários comuns para rótulos de confidencialidade
 

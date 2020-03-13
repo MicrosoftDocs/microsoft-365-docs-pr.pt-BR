@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: 87bed90f4c9bf27eb960a2018b6a641ff3e06993
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e92ec8be90d27696538f46e5609f6dc039200136
+ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081634"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42586718"
 ---
 # <a name="overview-of-records"></a>Visão geral de registros
 
@@ -70,7 +70,7 @@ Lembre-se do seguinte sobre os registros:
 
 ## <a name="using-retention-labels-to-declare-records"></a>Usando rótulos de retenção para declarar registros
 
-Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de retenção para classificar o conteúdo como um registro. Para declarar o conteúdo como um registro, você precisará fazer o seguinte:
+Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de retenção para classificar o conteúdo como um registro. Para declarar o conteúdo como um registro, siga estas etapas:
 
 1. Criar uma política de retenção. No centro de conformidade do Microsoft 365, vá para **Gerenciamento de Registros** \> **Plano de Arquivo**. Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.
 
@@ -115,7 +115,7 @@ O controle de versão do registro está disponível automaticamente para qualque
 
 ### <a name="locking-and-unlocking-a-record"></a>Bloqueando e desbloqueando um registro
 
-Depois que um rótulo de registro é atribuído a um documento, qualquer usuário no grupo Membros padrão (o nível de permissão da Contribuição) poderá desbloquear um registro ou bloquear um registro desbloqueado.
+Depois que um rótulo de registro é atribuído a um documento, qualquer usuário com permissões de colaboração ou um nível de permissão mais estreito poderá desbloquear um registro ou bloquear um registro desbloqueado.
 <br/><br/>
 
 ![O status do registro mostra que o documento de registro está desbloqueado](../media/recordversioning9.png)
