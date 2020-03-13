@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Saiba como usar o IRM do SharePoint Online por meio do Microsoft Azure Active Directory Rights Management Services (RMS) para proteger listas e bibliotecas de documentos do SharePoint.
-ms.openlocfilehash: f5aae2ba78997a8277989dcc3b5e68e00f0bfcb4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3705c08b64ffbf719dbce91396c86976db14fea0
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069599"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610613"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -68,7 +68,10 @@ O SharePoint Online oferece suporte à criptografia dos seguintes tipos de arqui
 - Formatos do Office Open XML para os seguintes programas do Microsoft Office: Word, Excel e PowerPoint
     
 - O formato XML Paper Specification (XPS)
-    
+ 
+> [!NOTE]
+> A proteção de IRM não pode ser aplicada a documentos protegidos (como arquivos PDF assinados digitalmente), pois o SharePoint precisa abrir o documento durante o carregamento. 
+
 ## <a name="next-steps"></a>Próximas etapas
 <a name="__toc220831191"> </a>
 
@@ -77,4 +80,3 @@ Depois de habilitar o IRM para o SharePoint Online, você pode começar a aplica
 O novo cliente de sincronização do OneDrive para Windows agora oferece suporte à sincronização de bibliotecas de documentos do SharePoint protegidas por IRM e locais do OneDrive (desde que a configuração de IRM da biblioteca não esteja definida para expirar direitos de acesso de documento). Para obter mais informações ou para começar a implantar o novo cliente de sincronização, consulte [implantar o novo cliente de sincronização do onedrive para Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
   
 [Início da página](#introduction)  
-

@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: 'Resumo: implante um novo site de equipe do SharePoint Online isolado com as instruções passo a passo.'
-ms.openlocfilehash: 39cf33ce3314e2eb0cd313ff0382f50d7cb8487a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 07867b4646926468f808f8f34086cf9267d7ab7b
+ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088780"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42612611"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Implantar um site de equipe do SharePoint Online isolado
 
@@ -72,13 +72,13 @@ Você precisa criar os seguintes grupos de acesso no Azure AD:
     
 4. Na folha **novo grupo** :
     
-  - Selecione **Segurança** em **Tipo de grupo**.
-    
-  - Digite o nome do grupo em **nome**.
-    
-  - Digite uma descrição do grupo em **Descrição do grupo**.
-    
-  - Escolha **Atribuído** em **Tipo de Associação**.
+    - Selecione **Segurança** em **Tipo de grupo**.
+
+    - Digite o nome do grupo em **nome**.
+
+    - Digite uma descrição do grupo em **Descrição do grupo**.
+
+    - Escolha **Atribuído** em **Tipo de Associação**.
     
 5. Clique em **Criar** e, em seguida, feche a folha **Grupo**.
     
@@ -155,59 +155,63 @@ Aqui está a configuração resultante com os três grupos de acesso de site pre
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Fase 2: criar e configurar o site de equipe isolado
 
-Nesta fase, você cria o site do SharePoint Online isolado e configura as permissões para os níveis de permissão padrão do SharePoint Online para usar seus novos grupos de acesso baseados no Azure AD.
+Nesta fase, você cria o site do SharePoint Online isolado e configura as permissões para os níveis de permissão padrão do SharePoint Online para usar seus novos grupos de acesso baseados no Azure AD. Por padrão, os novos sites de equipe incluem um grupo do Office 365 e outros recursos relacionados, mas neste caso, criaremos um site de equipe sem um grupo do Office 365. Isso permite manter as permissões completamente no SharePoint.
   
 Primeiro, crie o site de equipe do SharePoint Online com estas etapas.
   
-1. Entre no centro de administração com uma conta que também será usada para administrar o site de equipe do SharePoint Online (um administrador do SharePoint Online). Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no centro de administração do Microsoft 365 com uma conta que também será usada para administrar o site de equipe do SharePoint Online (um administrador do SharePoint Online). Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+
+2. No centro de administração do Microsoft 365, em **centros de administração**, clique em **SharePoint**.
+
+3. No centro de administração do SharePoint, expanda **sites** e clique em **sites ativos**.
+
+4. Clique em **criar**e, em seguida, escolha **outras opções**.
+
+5. Na lista **escolher um modelo** , escolha **site de equipe**.
+   
+6. Em **nome do site**, digite um nome para o site de equipe. 
     
-2. Na lista de blocos, clique em **SharePoint**.
-    
-3. Na nova guia **SharePoint** do navegador, clique em **+ Criar site**.
-    
-4. Na página **Criar um site**, clique em **Site de equipe**.
-    
-5. Em **nome do site**, digite um nome para o site de equipe. 
-    
-6. Em **Descrição do site de equipe,** digite uma descrição opcional do objetivo do site.
-    
-7. Em **Configurações de privacidade**, selecione **Privado – somente membros podem acessar esse site** e clique em **Avançar**.
-    
-8. No painel **Quem você deseja adicionar?**, clique em **Concluir**.
+7. Em **administrador principal**, digite a conta com a qual você está conectado.
+ 
+8. Clique em **Concluir**.
     
 Em seguida, no novo site de equipe do SharePoint Online, configure as permissões.
   
-1. Na barra de ferramentas, clique no ícone Configurações e, em seguida, clique em **Permissões do site**.
+1. Na barra de ferramentas, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
+
+2. Em **compartilhamento de sites**, clique em **alterar como os membros podem compartilhar**.
+
+3. Escolha os **únicos proprietários de site que podem compartilhar arquivos, pastas e o site**.
+
+4. Defina **Permitir solicitações de acesso** para **desativado**.
+
+5. Clique em **Salvar**.
     
-2. No painel **Permissões do site**, clique em **Configurações de permissões avançadas**.
+6. No painel **permissões** , clique em **configurações de permissões avançadas**.
     
-3. Na nova guia **Permissões** do navegador, clique em **Configurações de Solicitação de Acesso**.
+7. Na guia **permissões** do navegador, clique em ** \<nome do site> Membros** na lista.
     
-4. Na caixa de diálogo **Configurações de Solicitações de Acesso**, desmarque **Permitir que os membros compartilhem o site e arquivos e pastas individuais** e **Permitir solicitações de acesso** (para que todas as três caixas de seleção sejam desmarcadas) e, depois, clique em **OK**.
+8. Em **Pessoas e Grupos**, clique em **Novo**.
     
-5. Na guia **permissões** do navegador, clique em ** \<nome do site> Membros** na lista.
+9. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso de membros do site, selecione-o e clique em **compartilhar**.
     
-6. Em **Pessoas e Grupos**, clique em **Novo**.
+10. Clique no botão Voltar de seu navegador.
     
-7. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso de membros do site, selecione-o e clique em **compartilhar**.
+11. Clique em ** \<nome do site> proprietários** da lista.
     
-8. Clique no botão Voltar de seu navegador.
+12. Em **Pessoas e Grupos**, clique em **Novo**.
     
-9. Clique em ** \<nome do site> proprietários** da lista.
+13. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso de administradores de site, selecione-o e clique em **compartilhar**.
     
-10. Em **Pessoas e Grupos**, clique em **Novo**.
+14. Clique no botão Voltar de seu navegador.
     
-11. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso de administradores de site, selecione-o e clique em **compartilhar**.
+15. Clique em ** \<nome do site> visitantes** na lista.
     
-12. Clique no botão Voltar de seu navegador.
+16. Em **Pessoas e Grupos**, clique em **Novo**.
     
-13. Clique em ** \<nome do site> visitantes** na lista.
+17. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso visualizadores de sites, selecione-o e clique em **compartilhar**.
     
-14. Em **Pessoas e Grupos**, clique em **Novo**.
-    
-15. Na caixa de diálogo **compartilhar** , digite o nome do grupo de acesso visualizadores de sites, selecione-o e clique em **compartilhar**.
-    
-16. Feche a guia **Permissões** do navegador.
+18. Feche a guia **Permissões** do navegador.
     
 Os resultados dessas configurações de permissão são:
   

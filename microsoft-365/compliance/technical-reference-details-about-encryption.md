@@ -15,13 +15,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
-description: Veja detalhes técnicos sobre o encyption no Office 365.
-ms.openlocfilehash: a1eaa10f35a70688bc26967b7344cd90b2ad8343
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Exibir detalhes técnicos sobre criptografia no Office 365.
+ms.openlocfilehash: afd02ba6480e692bf16bf6dd94f192a5889590ee
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601388"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610578"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Detalhes de referências técnicas sobre a criptografia no Office 365
 
@@ -53,6 +53,8 @@ O TLS e o SSL, que veio antes do TLS, são protocolos de criptografia que proteg
 - TLS versão 1.0 (TLS 1.0)
     
  O suporte a TLS 1,0 e TLS 1,1 será substituído em 31 de outubro de 2018. Consulte [preterindo o suporte para TLS 1,0 e 1,1 e o que isso significa](technical-reference-details-about-encryption.md#TLS11and12deprecation) para obter mais informações. 
+ 
+ O TLS versão 1,3 (TLS 1,3) atualmente não tem suporte.
   
 ## <a name="deprecating-support-for-tls-10-and-11-and-what-this-means-for-you"></a>Substituição do suporte para TLS 1,0 e 1,1 e o que isso significa para você
 <a name="TLS11and12deprecation"> </a>
@@ -65,7 +67,10 @@ O TLS 1,0 e o TLS 1,1 serão oficialmente preteridos nas datas abaixo:
 - 1º de junho de 2020 para clientes nos ambientes de todo o mundo e GCC.
 - 15 de janeiro de 2020 para clientes nos ambientes GCC High e DoD soberana. 
 
+Você deve certificar-se de que todas as combinações de servidor de cliente e navegador de servidor usem o TLS 1,2 e os naipes de codificação modernos para manter uma conexão segura com os serviços do Office 365. Talvez seja necessário atualizar determinadas combinações de servidor de cliente e de servidor. Para obter informações sobre como isso impacta, consulte [preparando-se para o uso obrigatório de TLS 1,2 no Office 365](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365).
+
 Você deve certificar-se de que todas as combinações de servidor de cliente e navegador de servidor usem TLS 1,2 (ou uma versão posterior) para manter a conexão com os serviços do Office 365. Talvez seja necessário atualizar determinadas combinações de servidor de cliente e de servidor. Para obter informações sobre como isso impacta, consulte [preparando-se para o uso obrigatório de TLS 1,2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
+
   
 ## <a name="deprecating-support-for-3des"></a>Substituição do suporte a 3DES
 <a name="TLS11and12deprecation"> </a>
@@ -83,7 +88,7 @@ A partir de junho de 2016, o Office 365 não aceita mais um certificado SHA-1 pa
 Um conjunto de codificações é uma coleção de algoritmos de criptografia que o TLS usa para estabelecer conexões seguras. Os pacotes de codificação com suporte do Office 365 estão listados na tabela a seguir em ordem de força com o pacote de codificação mais forte listado primeiro. Quando o Office 365 recebe uma solicitação de conexão, primeiro ele tenta se conectar usando o conjunto de codificações de nível superior e, caso não consiga, tenta o segundo conjunto da lista e assim por diante até o final da lista. Quando o Office 365 envia uma solicitação de conexão para outro servidor, ou para um cliente, o servidor ou o cliente deve escolher o conjunto de codificações ou se o TLS será usado.
 
 > [!IMPORTANT]
-> Lembre-se de que as versões do TLS estão obsoletas e que *não devem ser usadas* como versões mais recentes disponíveis. Em outras palavras, em qualquer lugar em que estejam listadas que o TLS 1,0, 1,1 e 1,2 têm suporte, escolha a versão *mais recente* (TLS 1,2).
+> Lembre-se de que as versões do TLS estão obsoletas e que *não devem ser usadas* como versões mais recentes disponíveis. Em outras palavras, em qualquer lugar em que estejam listadas que o TLS 1,0, 1,1 e 1,2 têm suporte, escolha a versão *mais recente* suportada (TLS 1,2). Não há suporte para TLS no momento. Se os serviços herdados não exigirem o TLS 1,0 ou 1,1, considere desabilitá-los. 
   
 |**Protocolos**|**Nome do conjunto de codificações**|**Algoritmo/intensidade de troca de chave**|**Suporte perfeito a sigilo total**|**Algoritmo de autenticação/intensidade**|**Codificação/força**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -99,7 +104,7 @@ Um conjunto de codificações é uma coleção de algoritmos de criptografia que
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Não  <br/> |RSA/112  <br/> |AES/128  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Pacotes de criptografia TLS no Windows 10 v1607](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
+[Pacotes de criptografia TLS no Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
 
 [Criptografia no Office 365](encryption.md)
   
@@ -109,4 +114,5 @@ Um conjunto de codificações é uma coleção de algoritmos de criptografia que
   
 [Aprimoramentos de criptografia TLS/SSL (Windows IT Center)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
   
+ [Preparando o TLS 1,2 no Office 365 e no Office 365 GCC](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)
 

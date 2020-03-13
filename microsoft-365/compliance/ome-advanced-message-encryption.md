@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: A criptografia de mensagem avançada no Office 365 ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores façam muito mais com mensagens protegidas.
-ms.openlocfilehash: 580803d7b15608ebb0852896cdbd9a43ee5a2ff4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 99dacc928c8549157ff0d9d1d9a7c07fc33c2600
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601798"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610598"
 ---
 # <a name="office-365-advanced-message-encryption"></a>Criptografia de Mensagem Avançada do 365 Office
 
@@ -45,4 +45,4 @@ Com a criptografia de mensagem avançada, você não está limitado a um único 
 
 [Revogar emails criptografados pela criptografia de mensagem avançada do Office 365](revoke-ome-encrypted-mail.md). Controle emails confidenciais compartilhados fora da organização e aprimore a proteção revogando o acesso por meio de um portal da Web seguro para emails criptografados.  
 
-Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar um modelo de identidade visual personalizado, o Office 365 aplica um invólucro ao email que se ajusta à regra de fluxo de emails para a qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem pelo portal. Em outras palavras, email com um modelo de identidade visual personalizado aplicado. Para obter mais informações e um exemplo, consulte o guia em [garantir que todos os destinatários externos usem o portal do ome para ler emails criptografados, somente a criptografia de mensagem avançada do Office 365](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only).
+Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar um modelo de identidade visual personalizado, o Office 365 aplica um invólucro ao email que se ajusta à regra de fluxo de emails para a qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem pelo portal. Em outras palavras, email com um modelo de identidade visual personalizado aplicado. Para obter mais informações e um exemplo, consulte o guia em [garantir que todos os destinatários externos usem o portal do ome para ler emails criptografados](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail).

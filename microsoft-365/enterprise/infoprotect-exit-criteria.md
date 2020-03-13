@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Examinar os critérios da infraestrutura e dos serviços com base na proteção de informações a fim de garantir que sua configuração atenda aos requisitos do Microsoft 365 Enterprise.
 ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067108"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544160"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de proteção de informações
 
