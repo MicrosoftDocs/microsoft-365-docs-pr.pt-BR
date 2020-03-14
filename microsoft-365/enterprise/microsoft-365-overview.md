@@ -1,5 +1,5 @@
 ---
-title: Visão geral da Microsoft 365 para empresas
+title: Visão geral do Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,13 +14,13 @@ ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
 ms.openlocfilehash: 035c7bc2086b4f70dacc31c3489a4a8adc8fb3dd
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066878"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633299"
 ---
-# <a name="microsoft-365-for-enterprise-overview"></a>Visão geral da Microsoft 365 para empresas
+# <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
 O Microsoft 365 for Enterprise é uma solução completa e inteligente que permite que todas as pessoas sejam criativas e trabalhem em conjunto com segurança. 
 

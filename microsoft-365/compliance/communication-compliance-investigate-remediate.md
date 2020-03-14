@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: fc1a9cb77cc642ead4af120383b807808e695c22
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fb185239ee670c9fa4bd4add5bd36140db2f7706
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078709"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632852"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade de comunicação
 
@@ -39,8 +39,8 @@ A primeira etapa para investigar problemas detectados por suas políticas é exa
     - Itens resolvidos listados pelo nome da política.
     - Escalonamentos listados pelo nome da política.
     - Os usuários com a maioria das correspondências de política são listados do máximo para o menor número de correspondências.
-- **Guia alertas**: Navegue até **** > **alertas** de conformidade de comunicação para exibir alertas agrupados pela política de conformidade de comunicação correspondente. Este modo de exibição permite ver rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas ordenados por severidade.  Para iniciar ações de correção, expanda uma política para selecionar um alerta específico e para iniciar a página detalhes do alerta.
-- **Guia políticas**: Navegue até **** > **políticas** de conformidade de comunicação para exibir as políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365. Cada política listada inclui a contagem de alertas que precisam de revisão. Selecionar uma política exibe todos os alertas pendentes para correspondências com a política, selecione um alerta específico para iniciar a página de detalhes da política e para iniciar ações de correção.
+- **Guia alertas**: Navegue até **Communication compliance** > **alertas** de conformidade de comunicação para exibir alertas agrupados pela política de conformidade de comunicação correspondente. Este modo de exibição permite ver rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas ordenados por severidade.  Para iniciar ações de correção, expanda uma política para selecionar um alerta específico e para iniciar a página detalhes do alerta.
+- **Guia políticas**: Navegue até **Communication compliance** > **políticas** de conformidade de comunicação para exibir as políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365. Cada política listada inclui a contagem de alertas que precisam de revisão. Selecionar uma política exibe todos os alertas pendentes para correspondências com a política, selecione um alerta específico para iniciar a página de detalhes da política e para iniciar ações de correção.
 
 ### <a name="using-filters"></a>Usando filtros
 
@@ -115,7 +115,7 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
     - **Falso positivo**: você sempre pode resolver uma mensagem como falso positivo em qualquer ponto durante o fluxo de trabalho de revisão de mensagens. A mensagem não pode ser reaberta e todas as mensagens falsas positivas são exibidas na guia **resolvido** .
     - **Marcar como**: marcar a mensagem como *compatível*, *não compatível*ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
     - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado e selecione **Enviar para enviar** por email um lembrete para o funcionário que enviou a mensagem e para resolver o problema.
-    - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados para enviar uma notificação por email solicitando revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
+    - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados na política de conformidade de comunicação para enviar uma notificação por email solicitando uma revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
     - **Criar uma ocorrência**: usando o controle **criar um caso** , você pode criar um novo [caso de descoberta eletrônica avançada](overview-ediscovery-20.md) para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso e o usuário que enviou a mensagem que corresponde à política será automaticamente atribuído como o responsável da ocorrência. Você não precisa de nenhuma permissão adicional para gerenciar o caso. Criar uma ocorrência não resolve ou cria uma nova marca para a mensagem.
 
 4. **Determinar se os detalhes da mensagem devem ser arquivados fora da conformidade de comunicação**: os detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o controle de **Download** automaticamente adiciona mensagens selecionadas a um. ZIP arquivo que pode ser salvo no armazenamento fora do Microsoft 365.

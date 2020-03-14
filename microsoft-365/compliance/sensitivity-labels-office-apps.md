@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.openlocfilehash: 858d2be23dcb3c3f2b0794e735ed8ca61d67b74d
-ms.sourcegitcommit: 794f2f416a258157cb44d962b5be6a348ee20fea
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42593999"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634209"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 

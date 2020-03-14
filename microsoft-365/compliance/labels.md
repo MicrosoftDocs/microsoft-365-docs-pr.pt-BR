@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 5dcd97400067645c48f02a31061721644bae553c
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: 4052cf691e9123e3d840d5fa6759ff7f032b67c2
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277438"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634299"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -58,9 +58,6 @@ Com os rótulos de retenção, você pode:
     
    - Os usuários não precisam mais conhecer as políticas de governança de dados; em vez disso, eles podem se concentrar no próprio trabalho.
 
-  > [!NOTE]
-  > A capacidade de aplicar rótulos automaticamente requer uma licença do Office 365 Enterprise E5 para cada usuário que tem permissões para editar conteúdo que tenha sido rotulado automaticamente em um site ou na caixa de correio é selecionado para rotular automaticamente. Os usuários que simplesmente têm acesso somente leitura ao conteúdo ou responder a emails rotulados não exigem essa licença.
-      
 - **Implemente o gerenciamento de registros no Office 365**, inclusive em emails e documentos. Você pode usar um rótulo de retenção para classificar o conteúdo como registro. Quando isso acontece, o rótulo não pode ser alterado ou removido, e o conteúdo não pode ser editado ou excluído. 
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que chegarem naquele local herdem o rótulo de retenção padrão.  
@@ -268,8 +265,6 @@ Você pode optar por aplicar os rótulos de retenção automaticamente ao conte�
     
 ![Escolha a página de condição para aplicação automática de rótulo](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
-A aplicação automática de rótulos de retenção configuradas para as duas primeiras opções requer uma assinatura do Office 365 Enterprise E5. Se você usar a opção de classificadores treináveis, esse recurso tem [requisitos adicionais de licenciamento](classifier-getting-started-with.md#licensing-requirements).
-
 Pode levar até sete dias para que os rótulos de retenção sejam aplicados automaticamente a todo o conteúdo que corresponde às condições que você configurou.
   
 > [!TIP]
@@ -318,7 +313,9 @@ Consultas de exemplos:
 
 ### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
-Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **idiomas ofensivos**, **currículo**, **SourceCode**, **assédio**, **profanação**e **ameaças**.
+Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **palavras ofensivas**, **currículos**, **SourceCode**, **assédio**, **profanação** e **ameaças**:
+
+![Escolha classificador treinável](../media/retention-label-classifers.png)
 
 Para aplicar um rótulo automaticamente usando essa opção, as caixas de correio e sites do SharePoint Online devem ter pelo menos 10 MB de dados.
 
@@ -328,7 +325,7 @@ Para um exemplo de configuração, consulte [Como preparar e usar um classificad
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>Aplicar um rótulo de retenção padrão a todo o conteúdo em uma biblioteca do SharePoint, pasta ou conjunto de documentos
 
-Além de permitir que as pessoas apliquem um rótulo de retenção a documentos individuais, também é possível aplicar um rótulo de retenção padrão a uma biblioteca, pasta ou conjunto de documentos do SharePoint, para que todos os documentos nesse local recebam o rótulo de retenção padrão. (Rótulos padrão são um recurso E5).
+Além de permitir que as pessoas apliquem um rótulo de retenção a documentos individuais, você também pode aplicar um rótulo de retenção padrão a uma biblioteca, pasta ou conjunto de documentos do SharePoint, para que todos os documentos nesse local recebam o rótulo de retenção padrão.
   
 Para uma biblioteca de documentos, isso é feito na página **Configurações da biblioteca** de uma biblioteca de documentos. Ao escolher o rótulo de retenção padrão, você também pode optar por aplicá-lo a todos os itens existentes na biblioteca. 
   

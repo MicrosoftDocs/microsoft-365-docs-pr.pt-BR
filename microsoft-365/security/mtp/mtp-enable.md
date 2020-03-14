@@ -20,11 +20,11 @@ search.appverid:
 - MOE150
 - MET150
 ms.openlocfilehash: fa970b28939ad43bf6a2717e603013277bc9130f
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569174"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633899"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 

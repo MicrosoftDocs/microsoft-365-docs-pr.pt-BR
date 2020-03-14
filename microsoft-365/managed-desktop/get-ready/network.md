@@ -10,11 +10,11 @@ ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 141bd55a0619fb2f007b5f9173310a1e2fe5bab1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596558"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633149"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
@@ -39,9 +39,9 @@ O Microsoft Managed desktop usa o portal do Azure para hospedar seu console Web.
 
 Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada para qualquer coisa que nosso serviço seja executado na API do cliente. Você deve garantir que essa URL esteja sempre acessível em sua rede corporativa.
 
-Serviço Microsoft  | URLs necessárias na lista de permissões 
+Serviço da Microsoft  | URLs necessárias na lista de permissões 
 --- | --- | ---
-Área de Trabalho Gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
+Área de trabalho gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
 Obter ajuda | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 Assistência rápida | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
 Assistente de Recuperação e Suporte da Microsoft para o Office 365 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
@@ -51,7 +51,7 @@ Assistente de Recuperação e Suporte da Microsoft para o Office 365 | \*. apiba
 
 Há URLs de vários produtos da Microsoft que precisam estar na lista de permissões para que os dispositivos de área de trabalho gerenciada da Microsoft possam se comunicar com esses serviços da Microsoft. Use os links para ver a lista completa de cada produto. 
 
-Serviço Microsoft | Origem da documentação-URLs necessárias na lista de permissões
+Serviço da Microsoft | Origem da documentação-URLs necessárias na lista de permissões
 --- | ---
 Windows 10 Enterprise incluindo Windows Update para empresas | [Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
 Otimização de entrega | [Configurar a otimização de entrega para as atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)

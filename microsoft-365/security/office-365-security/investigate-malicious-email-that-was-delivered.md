@@ -1,5 +1,5 @@
 ---
-title: 'Encontre e investigue emails mal-intencionados que foram fornecidos no Office 365, correção, reparação, correção '
+title: Encontre e investigue emails mal-intencionados que foram entregues no Office 365, correção, solução, correção, proteção contra ameaças, Gerenciador de ameaças, proteção
 keywords: TIMailData-inline, incidente de segurança, incidente, ATP PowerShell, malware de email, usuários comprometidos, golpes por email, malware de email, ler cabeçalhos de email, ler cabeçalhos, abrir cabeçalhos de email
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
-ms.openlocfilehash: 1cb7c418e9c4ae5f2223748d512e8718f81b010c
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 178bdbfd97bea654959cf71da560a80e686a5fde
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409746"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632912"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Investigue e corrija emails mal-intencionados que foram entregues no Office 365
 
@@ -57,9 +57,12 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 
 O Gerenciador de ameaças é um poderoso relatório que pode atender a vários propósitos, como localizar e excluir mensagens, identificar o endereço IP de um remetente de email mal-intencionado ou iniciar um incidente para investigação adicional. O procedimento a seguir enfoca o uso do Explorer para localizar e excluir emails mal-intencionados das caixas de correio do destinatário.
 
+> [!NOTE]
+> Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma "ação de entrega" definida para incluir "removido por ZAP". Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
+
 1. **Navegue até Gerenciador de ameaças**: Vá [https://protection.office.com](https://protection.office.com) para e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro &amp; de conformidade de segurança.
 
-2. No início rápido da navegação à esquerda, escolha **** \> **Gerenciador**de gerenciamento de ameaças.
+2. No início rápido da navegação à esquerda, escolha **Threat management** \> **Gerenciador**de gerenciamento de ameaças.
 
     ![Explorer com ação de entrega e campos de local de entrega.](../../media/ThreatExFields.PNG)
 

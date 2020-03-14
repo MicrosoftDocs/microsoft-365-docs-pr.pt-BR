@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: None
 description: Saiba como editar ou remover políticas para barreiras de informação.
 ms.openlocfilehash: ef534f49c92abf1500b72b0d490ab9f22a48a680
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600608"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634839"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Editar (ou remover) políticas de barreira de informações
 

@@ -17,11 +17,11 @@ search.appverid:
 - MOE150
 description: Você pode usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo fez logon com êxito na sua organização.
 ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079125"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634479"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria do Office 365 para investigar problemas comuns de suporte
 

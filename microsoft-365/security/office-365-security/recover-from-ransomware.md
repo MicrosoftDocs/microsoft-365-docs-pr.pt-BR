@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores do Office 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: 04cfd2f2417b0c2e084a88f9ee156521339b18c4
-ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
+ms.openlocfilehash: aa606ea3bf3f549645fe26a4aa95066568132243
+ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41932363"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42640013"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Recuperar de um ataque de ransomware no Office 365
 
@@ -74,15 +74,11 @@ Após concluir a etapa anterior para remover a carga de ransomware do seu ambien
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Etapa 5: recuperar seus arquivos no OneDrive for Business
 
-O OneDrive for Business permitirá que você recupere todos os arquivos armazenados nele. Você tem duas opções:
-
-- Use o [site do onedrive](https://support.office.com/article/159cad6d-d76e-4981-88ef-de6e96c93893).
-
-- Se um grande número de arquivos tiver sido afetado, você poderá criar uma solicitação de suporte para uma "restauração do conjunto de sites". Essa solicitação pode restaurar arquivos de até 14 dias no passado.
+Arquivos Restore in OneDrive for Business permite restaurar todo o OneDrive para um ponto anterior no tempo nos últimos 30 dias. Para obter mais informações, consulte [Restore Your onedrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
 ## <a name="step-6-recover-deleted-email"></a>Etapa 6: recuperar emails excluídos
 
-No caso raro em que o ransomware excluiu todos os seus emails, provavelmente você poderá recuperar os itens excluídos. Para saber mais, veja:
+No caso raro em que o ransomware excluiu todos os seus emails, provavelmente você poderá recuperar os itens excluídos. Para saber mais, confira:
 
 - [Recuperar mensagens excluídas na caixa de correio de um usuário](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 

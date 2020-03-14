@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: f373accc35684c055af8d58907e39aa7a0f4b4f4
-ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
+ms.openlocfilehash: e7e6de977e8fad231ecb544a95f15caca5e56d13
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586719"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634689"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -94,8 +94,7 @@ Depois que uma política de retenção é atribuída a uma conta do OneDrive ou 
     > [!NOTE]
     > Alteramos recentemente como o conteúdo é excluído da Biblioteca de Retenção para Preservação. Para ajudar a evitar a perda de dados acidental, não excluímos mais permanentemente o conteúdo da biblioteca de Retenção para Preservação. Em vez disso, excluímos permanentemente somente o conteúdo da lixeira, portanto, todo o conteúdo da Biblioteca de Retenção para Preservação agora passará pela lixeira de segundo estágio.
     
-2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. A Lixeira é reconheci 
-3. da, embora as pesquisas não localizem conteúdo nela. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. A lixeira não é usada e, portanto, as pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
     
 ### <a name="content-in-mailboxes-and-public-folders"></a>Conteúdo em caixas de correio e pastas públicas
 

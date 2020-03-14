@@ -13,11 +13,11 @@ f1.keywords:
 - NOCSH
 ms.author: greglin
 ms.openlocfilehash: 5407370933c2a99781adf4ca58d3fa905328ed04
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085570"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632999"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Etapa 5: implantar recursos de segurança do Windows 10 Enterprise
 
@@ -65,7 +65,7 @@ Você pode obter relatórios usando uma ferramenta de configuração, como o Mic
 * [Relatório sobre proteção antivírus do Windows Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/report-monitor-windows-defender-antivirus)
 * [Visão geral do portal ATP do Microsoft defender](https://go.microsoft.com/fwlink/?linkid=861596)
 
-### <a name="troubleshooting"></a>Solução de problemas
+### <a name="troubleshooting"></a>Solução de Problemas
 Para obter informações sobre como solucionar problemas básicos de erros e códigos de eventos, consulte [revisar logs de eventos e códigos de erro para solucionar problemas com o Windows Defender AV](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus).
 
 Você também pode enviar problemas (como falsos positivos) usando o sistema de envio de inteligência de segurança do Windows Defender. Para saber como, confira [Enviar problemas para a Microsoft](https://www.microsoft.com/wdsi/filesubmission).
@@ -88,7 +88,7 @@ Você pode obter relatórios usando uma ferramenta de configuração, como o Con
 * [Exibir eventos do Windows Defender Exploit Guard](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
 * [Visão geral do portal ATP do Microsoft defender](https://go.microsoft.com/fwlink/?linkid=861596)
 
-### <a name="troubleshooting"></a>Solução de problemas
+### <a name="troubleshooting"></a>Solução de Problemas
 Você pode executar a solução de problemas básica ou, opcionalmente, fornecer os arquivos. cab da Microsoft e enviar problemas (como falsos positivos) usando o sistema de envio de inteligência de segurança do Windows Defender. Para saber como, confira [Enviar problemas para a Microsoft](https://www.microsoft.com/wdsi/filesubmission).
 
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre as ferramentas e outros produtos, consulte:
 * [Usar APIs](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/exposed-apis-windows-defender-advanced-threat-protection)
 * [Criar relatórios do Power BI](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/powerbi-reports-windows-defender-advanced-threat-protection)
 
-### <a name="troubleshooting"></a>Solução de problemas
+### <a name="troubleshooting"></a>Solução de Problemas
 Você pode encontrar problemas durante a integração ou com o uso do produto. Para obter mais informações sobre como solucionar problemas, consulte:
 * [Solucionando problemas de integração](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
 * [Solucionando problemas do Microsoft defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)

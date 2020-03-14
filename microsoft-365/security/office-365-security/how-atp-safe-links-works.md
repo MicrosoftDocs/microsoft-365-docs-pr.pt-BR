@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: O recurso de links seguros oferece verificação de horário de clique de hiperlinks em documentos do Office e em mensagens de email. Leia este artigo para saber como os links seguros de ATP funcionam.
 ms.openlocfilehash: c87eef2afbb3a694d9906de0c6c43bfeb576782b
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333678"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633969"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Como funcionam os links seguros de ATP do Office 365
 > [!IMPORTANT] 

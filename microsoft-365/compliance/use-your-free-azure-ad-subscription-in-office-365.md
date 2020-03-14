@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga da sua organização ao Office 365.
-ms.openlocfilehash: fe3829d349e5721ebdcf0688c1f5b2bd3c9f7f45
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 40ed5808f6e921a3649af408ee078dba64167bb3
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604088"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610588"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Usar sua assinatura gratuita do Azure Active Directory no Office 365
 
@@ -29,7 +29,11 @@ Se sua organização tiver uma assinatura paga do Office 365, do Microsoft Dynam
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Use uma sessão de navegação privada (não uma sessão regular) para acessar o portal do Azure (na etapa 1 abaixo), pois isso impedirá que a credencial com a qual você está conectado no momento seja passada ao Azure. Para abrir uma sessão de Navegação InPrivate no Microsoft Edge, Internet Explorer ou Mozilla FireFox, basta pressionar CTRL+SHIFT+P. Para abrir uma sessão de navegação privada no Google Chrome (chamada janela anônima), pressione CTRL+SHIFT+N.
+Use uma sessão de navegação privada (não uma sessão normal) para acessar o portal do Azure (na etapa 1 abaixo) porque isso impedirá que a credencial com a qual você efetuou logon passe para o Azure. Para abrir uma sessão de navegação privada:
+
+- No Microsoft Edge (versão herdada), no Internet Explorer ou no Mozilla FireFox, pressione `CTRL+SHIFT+P`.
+
+- No Microsoft Edge (versão mais recente) ou no Google Chrome, pressione `CTRL+SHIFT+N`.
 
 ## <a name="access-azure-active-directory"></a>Acessar o Azure Active Directory
 

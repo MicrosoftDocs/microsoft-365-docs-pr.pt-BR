@@ -17,13 +17,13 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 ms.openlocfilehash: 8d7adda0ded3a118676a67d0446a5744233468f3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066829"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633259"
 ---
-# <a name="identity-and-device-access-configurations"></a>Configurações de identidade e de acesso ao dispositivo
+# <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
 Esta série de artigos descreve como configurar o acesso seguro aos serviços em nuvem por meio de produtos de EMS (Enterprise Mobility + Security) implementando um ambiente e uma configuração recomendados, incluindo um conjunto prescrito de políticas de acesso condicional e recursos relacionados. O EMS é um componente principal do Microsoft 365. Você pode usar estas diretrizes para proteger o acesso a todos os serviços integrados ao Azure Active Directory, incluindo os serviços do Office 365, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
 
@@ -132,7 +132,7 @@ O Windows 10 e o Office 365 ProPlus são o ambiente de cliente recomendado para 
 
 A tabela a seguir resume nossas recomendações para usar esses recursos nas três camadas de proteção.
 
-|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlado|
+|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlada|
 |:-------------------|:-------|:--------|:---------------|
 |**Impor a MFA**|No risco de entrada médio ou acima|No risco de entrada baixo ou acima|Em todas as novas sessões|
 |**Impor alteração de senha**|Para usuários de alto risco|Para usuários de alto risco|Para usuários de alto risco|

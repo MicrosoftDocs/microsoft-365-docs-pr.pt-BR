@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
 ms.openlocfilehash: 2157e06da251b1f02b6a4623c573d350d838aff0
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266727"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634459"
 ---
 # <a name="using-a-built-in-classifier-preview"></a>Usando um classificador interno (visualização)
 

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 06dc88e395ea31d40a4163565d7894a2720cb469
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081769"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634249"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>Gerenciar conjuntos de análise na descoberta eletrônica avançada
 

@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: "Para administradores: excluir itens em um \n\npasta itens recuperáveis da er para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Office 365."
 ms.openlocfilehash: 5c8614c0faf8ea0f807b09cb24ccd3409dd7facb
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409646"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635059"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 

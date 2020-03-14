@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 69b3bbbbca98c3ef9e16f1cca4d67122ae14af3f
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 027189a10e34687833e6a266d5fe4382a1e14e3a
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604198"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632892"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -107,7 +107,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
 
     - Confirme ou atualize o nome da política. Os nomes de política não podem ser alterados depois que a política é criada.
     - Escolha os usuários ou grupos para supervisionar, incluindo a escolha de usuários ou grupos que você gostaria de excluir.
-    - Escolha os revisores da política. Os revisores podem ser usuários individuais ou [grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group). Todos os revisores devem ter caixas de correio hospedadas no Exchange Online.
+    - Escolha os revisores da política. Os revisores podem ser usuários individuais ou [grupos de segurança habilitados para email](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group). Todos os revisores devem ter caixas de correio hospedadas no Exchange Online. Os revisores adicionados aqui são os revisores que você pode escolher ao escalonar um alerta no fluxo de trabalho de investigação e correção.
     - Escolha um campo condição limitada, geralmente um tipo de informação confidencial ou um dicionário de palavras-chave para aplicar à política.
 
     Se você optar por usar o assistente de política para criar uma política personalizada, você irá:

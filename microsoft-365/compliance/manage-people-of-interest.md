@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 44ee6715c8bbe1254cead6b11930ca41be8864a2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582880"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634709"
 ---
 # <a name="manage-people-of-interest-in-data-investigations-preview"></a>Gerenciar pessoas de interesse em investigações de dados (prévia)
 

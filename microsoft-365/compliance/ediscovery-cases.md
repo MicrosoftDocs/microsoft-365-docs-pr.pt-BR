@@ -19,11 +19,11 @@ search.appverid:
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
 ms.openlocfilehash: 92894e430faaf9d5c1a758f81c5abfeb5236e643
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557731"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634949"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
@@ -88,7 +88,7 @@ Para obter mais informações sobre permissões de descoberta eletrônica, consu
     
 3. No centro de conformidade & segurança, clique em **permissões**e siga um destes procedimentos com base nas permissões de descoberta eletrônica que você deseja atribuir.
     
-    - Para atribuir permissões de revisor, selecione o grupo de função **revisor** e, em seguida, ao lado de **Membros**, clique em **Editar**. Clique **em escolher Membros**, **** clique em Editar ![, clique](../media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar ao grupo de funções revisor e clique em **Adicionar**.
+    - Para atribuir permissões de revisor, selecione o grupo de função **revisor** e, em seguida, ao lado de **Membros**, clique em **Editar**. Clique **em escolher Membros**, **Edit**clique em Editar ![, clique](../media/ITPro-EAC-AddIcon.gif) em Adicionar ícone **Adicionar**, selecione o usuário que você deseja adicionar ao grupo de funções revisor e clique em **Adicionar**.
     
     - Para atribuir permissões de gerente de descoberta eletrônica, selecione o grupo de funções **Gerenciador de descoberta eletrônica** e, em seguida, ao lado de **Gerenciador de descoberta eletrônica**, clique em **Editar** Clique **em escolher o Gerenciador de descoberta eletrônica**, ![clique em](../media/ITPro-EAC-AddIcon.gif) **Editar**, em Adicionar ícone * * Adicionar * *, selecione o usuário que você deseja adicionar como um Gerenciador de descoberta eletrônica e clique em **Adicionar**.
     

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Office 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: 9d83abb919cfb9f6ea3c804d9c5d934614f35285
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: fc50519190abe1b827bd3a5f93a6a82f8c22f0b6
+ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360632"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42640023"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>Personalizar o tema do Office 365 da sua organização
 
@@ -34,37 +34,41 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>Personalizar seu tema no centro de administração
 
-1. No centro de administração, vá para as **** \> **configurações**de configurações e, em seguida, escolha a guia **perfil da organização** .
+1. No centro de administração, vá para as **Settings** \> **configurações**de configurações e, em seguida, escolha a guia **perfil da organização** .
 
 2. Na guia **perfil da organização** , escolha **temas personalizados**.
 
 3. No painel **temas alfandegários** , altere os elementos de tema desejados para sua organização:
     
-  - **Usar uma imagem de logotipo personalizada**: escolha se deseja usar uma imagem de uma URL ou carregar uma imagem. Se você usar uma URL, certifique-se de que a URL usa HTTPS e tenha 200 x 30 pixels de qualquer formato de qualquer tamanho. Você pode carregar um logotipo abaixo de 10 KB 200 x 30 pixels no formato JPG, PNG, GIF ou SVG.
+    - **Usar uma imagem de logotipo personalizada**: escolha se deseja usar uma imagem de uma URL ou carregar uma imagem. Se você usar uma URL, certifique-se de que a URL usa HTTPS e tenha 200 x 30 pixels de qualquer formato de qualquer tamanho. Você pode carregar um logotipo abaixo de 10 KB 200 x 30 pixels no formato JPG, PNG, GIF ou SVG.
 
-    > [!NOTE]
-    > Para que o logotipo apareça no aplicativo móvel do SharePoint, use somente imagens SVG. As imagens carregadas em qualquer outro formato não são exibidas no aplicativo. Os logotipos não são clicados no aplicativo móvel do SharePoint.
-    
-  - **Tornar o logotipo clicado**: você pode usar o logotipo na barra de navegação como um link para qualquer recurso da empresa. Você pode digitar a URL para o logotipo aqui, começando com http://ou https://. Isso é opcional.
-    
-  - **Selecionar imagem de plano de fundo**: selecione a imagem e carregue seu próprio jpg, png ou GIF com uma resolução de 1366 x 50 pixels, não maior que 15 KB. Esta imagem de tela de fundo aparece na barra de navegação superior em cada página.
-    
-    > [!NOTE]
-    > As imagens que contêm texto podem não ser exibidas como esperado. Os elementos internos que são exibidos à direita e à esquerda da barra de navegação podem variar entre os serviços e seu texto pode ficar escondido por esses elementos. Devido à natureza dinâmica da barra de navegação, no momento não é possível fornecer orientações sobre enchimento de imagem, o que resulta em uma experiência inconsistente. 
-    
-  - **Cor da barra de navegação**: selecione uma cor a ser usada para o plano de fundo da barra de navegação. Ela é exibida na parte superior de cada página.
-    
-  - **Texto e ícones**: Selecione uma cor para usar para o texto e ícones na barra de navegação superior.
-    
-  - **Cor de ênfase**: selecione uma cor a ser usada para o botão da barra de navegação cor e destaques da página, como botões e texto em determinados aplicativos.
+      > [!NOTE]
+      > Para que o logotipo apareça no aplicativo móvel do SharePoint, use somente imagens SVG. As imagens carregadas em qualquer outro formato não são exibidas no aplicativo. Os logotipos não são clicados no aplicativo móvel do SharePoint.
 
-   - **Impedir que os usuários substituam o tema**: inverter esta opção para impedir que os usuários escolham seu próprio tema da nossa seleção de temas. Isso não impede que os usuários sejam capazes de definir um tema de alto contraste.
-      
-  - **Mostrar o nome de usuário**: escolha se deseja mostrar o nome completo de um usuário no ponto de entrada para o gerente de contas no canto superior direito da página quando o usuário está conectado. Por padrão, os usuários verão sua foto ou suas iniciais se uma foto ainda não tiver sido carregada.
+    - **Tornar o logotipo clicado**: você pode usar o logotipo na barra de navegação como um link para qualquer recurso da empresa. Você pode digitar a URL para o logotipo aqui, começando com http://ou https://. Isso é opcional.
+
+    - **Selecionar imagem de plano de fundo**: selecione a imagem e carregue seu próprio jpg, png ou GIF com uma resolução de 1366 x 50 pixels, não maior que 15 KB. Esta imagem de tela de fundo aparece na barra de navegação superior em cada página.
+
+      > [!NOTE]
+      > As imagens que contêm texto podem não ser exibidas como esperado. Os elementos internos que são exibidos à direita e à esquerda da barra de navegação podem variar entre os serviços e seu texto pode ficar escondido por esses elementos. Devido à natureza dinâmica da barra de navegação, no momento não é possível fornecer orientações sobre enchimento de imagem, o que resulta em uma experiência inconsistente. 
+
+    - **Cor da barra de navegação**: selecione uma cor a ser usada para o plano de fundo da barra de navegação. Ela é exibida na parte superior de cada página.
+
+    - **Texto e ícones**: Selecione uma cor para usar para o texto e ícones na barra de navegação superior.
+
+    - **Cor de ênfase**: selecione uma cor a ser usada para o botão da barra de navegação cor e destaques da página, como botões e texto em determinados aplicativos.
+
+     - **Impedir que os usuários substituam o tema**: inverter esta opção para impedir que os usuários escolham seu próprio tema da nossa seleção de temas. Isso não impede que os usuários sejam capazes de definir um tema de alto contraste.
+
+    - **Mostrar o nome de usuário**: escolha se deseja mostrar o nome completo de um usuário no ponto de entrada para o gerente de contas no canto superior direito da página quando o usuário está conectado. Por padrão, os usuários verão sua foto ou suas iniciais se uma foto ainda não tiver sido carregada.
     
 4. Selecione **Salvar alterações**.
     
-Você verá seu novo tema no centro de administração imediatamente e após um pequeno atraso, verá-o em todo o Office 365, incluindo as páginas do Outlook e do SharePoint. É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página do tema e selecionar **remover temas personalizados**.
+Você verá seu novo tema no centro de administração imediatamente e após um atraso curto, verá-o em todo o Office 365, incluindo páginas no Outlook, SharePoint e aplicativos móveis do SharePoint para iOS e Android. A imagem a seguir realça os elementos de temas que você pode personalizar para aplicativos móveis do SharePoint.
+
+![Tema padrão do Office 365 e tema personalizado do Office 365 para aplicativos móveis do SharePoint]()
+
+É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página do tema e selecionar **remover temas personalizados**.
   
 ## <a name="best-practices"></a>Práticas Recomendadas
 

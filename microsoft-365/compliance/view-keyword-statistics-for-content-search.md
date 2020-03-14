@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: Use o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &. Você também pode configurar a lista de palavras-chave ao criar ou editar uma consulta de pesquisa para obter estatísticas aprimoradas que mostrem quantos itens corresponderam a cada palavra-chave ou frase de palavra-chave.
 ms.openlocfilehash: 07a13ab2f183cfa9349f827cf410e417c0944869
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068914"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634119"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
 
@@ -35,7 +35,7 @@ Você também poderá baixar as estatísticas da pesquisa e as estatísticas da 
 
 Para exibir estatísticas para pesquisas de conteúdo:
   
-1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
+1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
     
 2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, clique em **Pesquisar**![estatísticas da](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)pesquisa de estatísticas.
     
@@ -107,9 +107,9 @@ Como explicado anteriormente, a página **consultas** mostra a consulta de pesqu
 
 Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave para uma pesquisa de conteúdo:
   
-1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
+1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
     
-2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida **** ![, clique em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
+2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida **Edit** ![, clique em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
     
 3. Clique em **consulta** e faça o seguinte: 
     
@@ -121,7 +121,7 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave 
     
 4. Após adicionar as palavras-chave que você deseja pesquisar e obter as estatísticas, clique em **Pesquisar** para executar a pesquisa revisada. 
     
-5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida **** ![, clique no botão](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)Pesquisar estatísticas da pesquisa de estatísticas. Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
+5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida **Search statistics** ![, clique no botão](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)Pesquisar estatísticas da pesquisa de estatísticas. Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
     
 6. Na página **Estatísticas de pesquisa** , clique em **consulta** para exibir as estatísticas de palavra-chave das pesquisas selecionadas. 
     

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo descreve a nova versão da descoberta eletrônica avançada no Microsoft 365.
 ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557903"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634279"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 

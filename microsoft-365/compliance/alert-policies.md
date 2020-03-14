@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões. Em seguida, você pode exibir e gerenciar os alertas gerados quando os usuários realizam atividades que correspondam às condições de uma política de alerta.
 ms.openlocfilehash: a5ac38f30d42ceff67f982c6c9ac9b03507d34cb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079994"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634509"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -49,7 +49,7 @@ Veja aqui uma rápida visão geral de como as políticas de alerta funcionam e o
 
 ## <a name="alert-policy-settings"></a>Configurações de política de alerta
 
-Uma política de alerta consiste em um conjunto de regras e condições que definem o usuário ou a atividade de administrador que gera um alerta, uma lista de usuários que disparam o alerta se eles executarem a atividade e um limite que define quantas vezes a atividade deve ocorrer antes de um alerta  é disparado. Você também categoriza a política e a atribui a um nível de severidade. Essas duas configurações ajudam você a gerenciar políticas de alerta (e os alertas disparados quando as condições de política são correspondidas), pois você pode filtrar essas configurações ao gerenciar políticas e exibir alertas no centro de segurança e conformidade. Por exemplo, você pode exibir alertas que correspondam às condições da mesma categoria ou exibir alertas com o mesmo nível de severidade.
+Uma política de alerta consiste em um conjunto de regras e condições que definem o usuário ou a atividade de administrador que gera um alerta, uma lista de usuários que disparam o alerta se eles executarem a atividade e um limite que define quantas vezes a atividade deve ocorrer antes de um alerta é disparado. Você também categoriza a política e a atribui a um nível de severidade. Essas duas configurações ajudam você a gerenciar políticas de alerta (e os alertas disparados quando as condições de política são correspondidas), pois você pode filtrar essas configurações ao gerenciar políticas e exibir alertas no centro de segurança e conformidade. Por exemplo, você pode exibir alertas que correspondam às condições da mesma categoria ou exibir alertas com o mesmo nível de severidade.
 
 Para exibir e criar políticas de alerta, vá [https://protection.office.com](https://protection.office.com) para e selecione **alertas** \> **políticas de alerta**.
 
@@ -182,7 +182,7 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, confira
 |Gerenciamento de dispositivo|||||||
 |Gerenciamento de descarte|||||||
 |Gerenciamento de conformidade de DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
-|Exportar|||||||
+|Exportação|||||||
 |Retenção|||||||
 |Gerenciar Alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Configuração da organização||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|

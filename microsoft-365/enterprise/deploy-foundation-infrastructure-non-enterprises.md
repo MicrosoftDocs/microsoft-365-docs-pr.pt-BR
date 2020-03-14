@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra as fases simplificadas da infraestrutura de base do Microsoft 365 para empresas para organizações não empresariais.
-ms.openlocfilehash: 2620b210c40d5c838cf1a4be4fcd67bf3de03d29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
+ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068042"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42612641"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Infraestrutura de base não empresarial do Microsoft 365 para empresas
 
@@ -73,7 +73,7 @@ Se a sua organização exigir alta segurança e você tiver o Microsoft 365 E5, 
 
 Se você tiver um domínio do AD DS no local, continue usando esses grupos no Microsoft 365 para empresas como grupos no Azure AD.
 
-Se você não tiver um domínio do AD DS no local, crie grupos de segurança no Azure AD usando esses níveis de segurança.
+Se você não tem um domínio do AD DS no local, crie grupos de segurança no Azure AD usando esses níveis de segurança.
 
 | Nível de segurança | Descrição | Exemplos |
 |:-------|:-----|:-----|
@@ -113,7 +113,7 @@ Esta é a lista de políticas de Acesso Condicional do Azure AD a ser habilitada
 | Política de Acesso Condicional do Azure AD | Grupos aos quais se aplica |
 |:------|:-----|
 | Política de linha de base: exigir MFA para administradores | Esta política se aplica a funções administrativas, portanto, nenhum grupo precisa ser especificado. Esta política precisa ser ativada. Todas as políticas subsequentes precisam ser criadas e ativadas. |
-| Bloquear clientes que não oferecem suporte à autenticação moderna | Selecione "Todos os usuários" nas configurações de política. |
+| Bloquear clientes que não oferecem suporte à autenticação moderna | Selecione “Todos os usuários” nas configurações de política. |
 | Exigir MFA quando o risco de logon é médio ou alto (requer o Microsoft 365 E5) | LINHA DE BASE |
 | Exigir MFA quando o risco de logon é baixo, médio ou alto (requer o Microsoft 365 E5) | CONFIDENCIAL |
 | Sempre exigir MFA | ALTAMENTE REGULAMENTADO |
@@ -126,7 +126,7 @@ Aqui está a política de risco do usuário do Azure AD Identity Protection (req
 
 | Política de risco do usuário do Azure AD Identity Protection | Grupos aos quais se aplica |
 |:------|:-----|
-| Usuários de alto risco devem alterar suas senhas | Selecione "Todos os usuários" nas configurações de política. |
+| Usuários de alto risco devem alterar suas senhas | Selecione “Todos os usuários” nas configurações de política. |
 |||
 
 Confira [Políticas comuns de acesso a identidades e dispositivos](identity-access-policies.md) para obter instruções.
@@ -292,7 +292,7 @@ O primeiro passo para uma estratégia de proteção da informação é determina
 
   Os exemplos incluem informações financeiras e jurídicas e dados de pesquisa e desenvolvimento para novos produtos ou serviços.
 
-- Altamente controlado
+- Altamente controlada
 
   Exemplos incluem informações de identificação pessoal de clientes e parceiros e planos estratégicos ou propriedade intelectual da sua organização.
 
@@ -371,7 +371,7 @@ O funcionário existente já deve ser adicionado aos grupos de grupo de trabalho
 
 Você pode adicionar uma conta de usuário a vários grupos do Azure AD no centro de administração do Microsoft 365. Nas propriedades da conta do usuário, clique em **gerenciar grupos > Adicionar associações**.
 
-Caso pretenda usar o PowerShell, confira [esta pasta de trabalho](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx)do Excel para baixá-la, que gera os comandos do PowerShell com base em uma conta de usuário especificada e os nomes dos grupos selecionados.
+Caso pretenda usar o PowerShell, confira [esta pasta de trabalho](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx)do Excel para baixá-la, que gera os comandos do PowerShell com base em uma conta de usuário especificada e os nomes dos grupos selecionados.
 
 ### <a name="new-employee-with-a-cloud-only-user-account"></a>Novo funcionário com conta de usuário somente na nuvem
 

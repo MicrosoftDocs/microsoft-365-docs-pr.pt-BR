@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Adicione contas de usuários e grupos diretamente na nuvem ou sincronizando-as com o diretório local.
 ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544000"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633099"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Fase 4: adicionar suas contas de usuário
 

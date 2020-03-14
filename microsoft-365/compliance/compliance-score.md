@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
 ms.openlocfilehash: dff5e6c057df37c076e328d5203a1eb4e4b3207a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078508"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635109"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -119,7 +119,7 @@ Os modelos pré-configurados de Pontuação de conformidade são:
 5. [Folheto de segurança de informações do FFIEC Financial Federals (Conselho de análise de instituições financeiras)](https://go.microsoft.com/fwlink/?linkid=2109077)
 6. [FedRAMP moderado](https://go.microsoft.com/fwlink/?linkid=2108869)
 7. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / de[alta tecnologia](https://go.microsoft.com/fwlink/?linkid=2109079)
-8. [](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
+8. [IRAP](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
 9. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 10. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
 11. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)

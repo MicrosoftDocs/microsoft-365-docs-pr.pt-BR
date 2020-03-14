@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Você pode deixar as entradas dos usuários no Windows e no Microsoft 365 mais seguras.
 ms.openlocfilehash: c541f5b74fe3ea6e94b002212f21ec8645e8e87e
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544010"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633509"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>Etapa 3: proteger e gerenciar as entradas do seu usuário
 

@@ -1,5 +1,5 @@
 ---
-title: Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+title: Pré-requisitos da Área de trabalho gerenciada da Microsoft
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -7,13 +7,13 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: b729712a188c105fdf8a38e208124c2ef4c27a33
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085870"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632959"
 ---
-# <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de Trabalho Gerenciada da Microsoft
+# <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de trabalho gerenciada da Microsoft
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/prereq-azure); do not delete.-->
 <!--from Prerequisites -->

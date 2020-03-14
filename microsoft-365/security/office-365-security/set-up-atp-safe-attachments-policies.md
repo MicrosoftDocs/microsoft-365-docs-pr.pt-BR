@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
-ms.openlocfilehash: ad90ffb4e3503021923470238626d6025e9820fb
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: c5001823979c19ec68cd15a10bf7c2d7e54cae1d
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957176"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637314"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -45,11 +45,13 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função de gerenciamento de organização do Exchange Online (o administrador global do Office 365 é atribuído a essa função por padrão) ou as funções de gerenciamento de higiene e administrador de segurança do Exchange Online. Para obter mais detalhes, consulte a seguinte tabela:
 
-  |Role|Onde/como a atribuição|
-  |---------|---------|
+  |||
+  |---|---|
+  |**Função**|**Onde/como a atribuição**|
   |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
   |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
   |Gerenciamento de organização do Exchange Online, gerenciamento de higiene do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+  |
 
   Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -87,15 +89,17 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
 
 À medida que você configura as políticas de anexos seguros de ATP, você escolhe entre várias opções, incluindo monitor, bloqueio, substituição, entrega dinâmica e assim por diante. Caso você esteja se perguntando o que essas opções fazem, a tabela a seguir resume cada e seu efeito.
 
+||||
+|---|---|---|
 |**Opção**|**Effect**|**Use quando quiser:**|
-|:-----|:-----|:-----|
-|**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desative a verificação para remetentes, scanners, faxes ou hosts inteligentes internos que só enviarão anexos conhecidos e bons  <br/> Evitar atrasos desnecessários no roteamento de email interno  <br/> **Essa opção não é recomendada para a maioria dos usuários. Ele permite que você ative a verificação de anexos seguros de ATP para um pequeno grupo de remetentes internos.**|
+|**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desative a verificação de scanners, faxes ou hosts inteligentes que enviam apenas anexos conhecidos e bons  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Não recomendamos esta opção para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para um pequeno grupo de remetentes confiáveis.**|
 |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado|Veja onde o malware detectado entra em sua organização|
 |**Bloquear**|Impede que mensagens com anexos de malware detectados continuem  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> Bloqueia automaticamente mensagens e anexos futuros|Proteger sua organização de ataques repetidos usando os mesmos anexos de malware|
 |**Replace**|Remove anexos detectados de malware  <br/> Notifica os destinatários de que os anexos foram removidos  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens|Aumentar a visibilidade dos destinatários que os anexos foram removidos devido a um malware detectado|
 |**Entrega dinâmica**|Entrega mensagens imediatamente  <br/> Substitui anexos por um arquivo de espaço reservado até que a verificação seja concluída e, em seguida, anexa novamente os anexos se nenhum malware for detectado  <br/> Inclui recursos de visualização de anexos para a maioria dos arquivos PDFs e do Office durante a verificação  <br/> Envia mensagens com malware detectado para colocar em quarentena onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> [Saiba mais sobre a entrega dinâmica e a visualização com anexos seguros de ATP](dynamic-delivery-and-previewing.md) <br/> |Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados  <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
 |**Habilitar redirecionamento**|Aplica-se quando a opção monitorar, bloquear ou substituir é escolhida  <br/> Envia anexos a um endereço de email especificado, onde os administradores de segurança ou os analistas podem investigar|Permitir que os administradores de segurança e analistas pesquisem anexos suspeitos|
 |**Aplicar a seleção acima se a verificação de malware por anexos expirar ou ocorrer erro**|Aplica a ação configurada para anexos do unasfe aos anexos que não podem ser verificados (devido ao tempo limite ou erro)|
+|
 
 ## <a name="next-steps"></a>Próximas etapas
 

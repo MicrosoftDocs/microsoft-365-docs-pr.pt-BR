@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 350f4f9007bf6f09836080af65802a9757532dcc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 40eab14dff8d0c51a35bfbc7a04365a5a025e207
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083530"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637324"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
 
@@ -60,9 +60,9 @@ Os modos de exibição de campanha estão disponíveis no [centro de conformidad
 
 Você também pode acessar o modo de exibição campanhas de:
 
-- **** \> **** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **campanhas**
+- **Threat management** \> **Explorer** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **campanhas**
 
-- **** \> **** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **todas as** \> **campanhas** de email
+- **Threat management** \> **Explorer** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **todas as** \> **campanhas** de email
 
 > [!TIP]
 > Caso não veja nenhum dado da campanha, experimente alterar o intervalo de datas.
@@ -125,24 +125,24 @@ O diagrama contém as seguintes informações:
 
 - **Domínios do remetente**
 
-- **Filtrar veredictos**: os valores aqui estão relacionados aos veredictos do filtro antiphishing e antispam disponíveis, como descrito em [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md). Os valores disponíveis são descritos na tabela a seguir:
+- **Verdicts de filtro**: os valores aqui estão relacionados à verdicts de filtragem phishing e spam disponível, conforme descrito em [cabeçalhos de mensagem antispam](anti-spam-message-headers.md). Os valores disponíveis são descritos na tabela a seguir:
 
   |Valor|Veredicto de filtro de spam|Descrição|
   |:-----|:-----|:-----|
-  | **Permitido**|`SFV:SKN` <br/><br/> `SFV:SKI`|A mensagem foi marcada como não spam e/ou a filtragem ignorada antes de ser avaliada pelo filtro de spam (por exemplo, por uma regra de fluxo de emails, também conhecida como regra de transporte).<br/><br/>A mensagem ignorou a filtragem de spam por outros motivos (por exemplo, o remetente e o destinatário parecem estar na mesma organização).|
-  |**Blocked**|`SFV:SKS`|A mensagem foi marcada como spam antes de ser avaliada pelo filtro de spam (por exemplo, por uma regra de fluxo de emails).|
-  |**Detectado**|`SFV:SPM`|A mensagem foi marcada como spam pelo filtro de spam.|
-  |**Não detectado**|`SFV:NSPM`|A mensagem foi marcada como não spam pelo filtro de spam.|
+  | **Permitido**|`SFV:SKN` <br/><br/> `SFV:SKI`|A mensagem foi marcada como não spam e/ou a filtragem ignorada antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails, também conhecida como regra de transporte).<br/><br/>A mensagem ignorou a filtragem de spam por outros motivos (por exemplo, o remetente e o destinatário parecem estar na mesma organização).|
+  |**Blocked**|`SFV:SKS`|A mensagem foi marcada como spam antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails).|
+  |**Detectado**|`SFV:SPM`|A mensagem foi marcada como spam por filtragem de spam.|
+  |**Não detectado**|`SFV:NSPM`|A mensagem foi marcada como não spam por filtragem de spam.|
   |**Solta**|`SFV:SKQ`|A mensagem ignorou a filtragem de spam porque foi liberada da quarentena.|
-  |**Permissão de locatário**<sup>\*</sup>|`SFV:SKA`|A mensagem ignorou a filtragem de spam devido à configuração de política de filtro de spam (por exemplo, o remetente ou domínio estava na lista de **permissões de remetente** ).|
-  |**Bloco de locatário**<sup>\*\*</sup>|`SFV:SKA`|A mensagem foi bloqueada por filtragem de spam devido à configuração de política de filtro de spam (por exemplo, o remetente ou domínio estava na lista de **bloqueios de remetentes** ).|
+  |**Permissão de locatário**<sup>\*</sup>|`SFV:SKA`|A mensagem ignorou a filtragem de spam devido às configurações de política antispam (por exemplo, o remetente estava na lista de remetentes permitidos ou na lista de domínios permitidos).|
+  |**Bloco de locatário**<sup>\*\*</sup>|`SFV:SKA`|A mensagem foi bloqueada por filtragem de spam devido às configurações de política antispam (por exemplo, o remetente estava na lista de remetentes permitidos ou na lista de domínios permitidos).|
   |**Usuário permitir**<sup>\*</sup>|`SFV:SFE`|A mensagem ignorou a filtragem de spam porque o remetente estava na lista de remetentes confiáveis do usuário no Outlook.|
   |**Bloco de usuário**<sup>\*\*</sup>|`SFV:BLK`|A mensagem foi bloqueada por filtragem de spam porque o remetente estava na lista de remetentes bloqueados de um usuário no Outlook.|
-  |**ZAP**|n/d|A [limpeza automática de zero horas (zap)](zero-hour-auto-purge.md) levou à mensagem entregue de acordo com sua configuração de política de filtro de spam (movida para a pasta lixo eletrônico ou colocada em quarentena).|
+  |**ZAP**|n/d|A [limpeza automática de zero horas (zap)](zero-hour-auto-purge.md) levou à mensagem entregue de acordo com suas configurações de política antispam (movidas para a pasta lixo eletrônico ou colocada em quarentena).|
 
-  <sup>\*</sup>Revise suas definições de configuração de política de filtro de spam, pois a mensagem permitida provavelmente teria sido bloqueada pelo serviço.
+  <sup>\*</sup>Revise suas políticas antispam, pois a mensagem permitida provavelmente teria sido bloqueada pelo serviço.
 
-  <sup>\*\*</sup>Revise suas definições de configuração de política de filtro de spam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
+  <sup>\*\*</sup>Revise suas políticas antispam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
 
 - **Locais de entrega**: Você provavelmente desejará investigar as mensagens que foram realmente entregues aos destinatários (na pasta Caixa de Entrada ou Lixo Eletrônico), mesmo se os usuários não clicarem na URL do payload na mensagem. Você também pode remover as mensagens em quarentena da quarentena. Para obter mais informações, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
 

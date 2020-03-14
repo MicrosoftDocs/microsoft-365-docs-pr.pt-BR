@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
 ms.openlocfilehash: c3833b656eb00eeb5a8c5e78fbdb7ae4ff9c2321
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354832"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633409"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 

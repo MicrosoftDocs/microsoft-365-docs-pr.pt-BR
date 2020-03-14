@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 para empresas.
 ms.openlocfilehash: 692deeee652a4d27b8cc46a8e02890cccb8bb311
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067838"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633139"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 para empresas
 

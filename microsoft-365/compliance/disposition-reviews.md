@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
 ms.openlocfilehash: ee9ea34ee8527558af4d249364b539d3fa1f2fdd
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075362"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634969"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 

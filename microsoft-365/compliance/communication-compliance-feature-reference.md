@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 - MOE150
 ms.openlocfilehash: 733abf925c80f90527b67660b84aea3e0482e906
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543750"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635159"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 

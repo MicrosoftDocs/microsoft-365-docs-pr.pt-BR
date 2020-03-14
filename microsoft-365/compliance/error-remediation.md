@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 524378ecb7ec7cd8285e7d1ccda5667aa6081f30
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074400"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634889"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Correção de erro ao processar dados de uma investigação
 

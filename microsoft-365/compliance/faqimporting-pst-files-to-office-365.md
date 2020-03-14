@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: 'Perguntas frequentes para administradores sobre como usar o serviço de importação do Office 365 para importar arquivos PST da sua organização para caixas de correio do Office 365. '
 ms.openlocfilehash: 31df33ffe2c69478f0304bd27b49254995d8b89c
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170481"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634429"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>Perguntas frequentes sobre a importação de arquivos PST para o Office 365
 
@@ -53,7 +53,7 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
 O carregamento de rede está disponível atualmente nestas áreas: Estados Unidos, Canadá, Brasil, Reino Unido, França, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia e Austrália. Network upload will be available in more regions soon.
 
 > [!NOTE]
-> No momento, o carregamento de rede de arquivos PST não está disponível na Alemanha e na Suíça. Este FAQ será atualizado quando o carregamento de rede estiver disponível nesses países.
+> No momento, não é possível carregar os arquivos PST na Alemanha e na Suíça. Estas Perguntas Mais Frequentes serão atualizadas quando o carregamento de rede estiver disponível nestes países.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
@@ -127,7 +127,7 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
 No momento, o envio de unidades está disponível nas seguintes regiões: Austrália, Brasil, Canadá, Estados Unidos, Europa, Índia, Japão, Leste Asiático, Sudeste Asiático, Reino Unido e República da Coreia. O envio de unidades estará disponível para mais regiões em breve.
 
 > [!NOTE]
-> No momento, a entrega da unidade para importar arquivos PST não está disponível na Alemanha e na Suíça. Estas perguntas frequentes serão atualizadas quando a entrega de unidades estiver disponível nesses países.
+> No momento, não é possível carregar os arquivos PST na Alemanha e na Suíça. Estas Perguntas Mais Frequentes serão atualizadas quando o carregamento de rede estiver disponível nestes países.
   
  **Quais contratos de licenciamento comercial dão suporte ao envio de unidade?**
   

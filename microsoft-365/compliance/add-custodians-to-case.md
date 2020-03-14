@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: f77a2967c6b789d28a95516594b1bdd5d8b9f3c6
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543600"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634599"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 

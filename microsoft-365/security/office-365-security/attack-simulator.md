@@ -16,12 +16,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Use o simulador de ataques para executar ataques simulados de phishing e senha na sua organização do Office 365 E5 ou ATP plano 2, que pode ajudá-lo a identificar usuários vulneráveis antes que um ataque real atinja sua empresa.
-ms.openlocfilehash: 5e924ebe43a6d7fd1af460b304e862207baffb61
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: 95b7af302a5dcc1987040c23a7dde867e2d09292
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612631"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637334"
 ---
 # <a name="attack-simulator-in-office-365-atp"></a>Simulador de ataque no Office 365 ATP
 
@@ -186,7 +186,7 @@ Se você for usar um dos modelos internos ou criar a mensagem de email diretamen
      - <http://portal.salarytoolint.net>
 
      > [!NOTE]
-     > <ul><li>Todas as URLs são intencionalmente http, não HTTPS.</li><li>Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.</li><li>Você deve selecionar uma URL. Para campanhas de **spear phishing (Attachment)** , você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um link **e** um anexo).</li></ul>
+     > <ul><li>Todas as URLs são intencionalmente http, não HTTPS.</li><li>Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.</li><li>Você deve selecionar uma URL. Para campanhas de <b>spear phishing (Attachment)</b> , você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um link <b>e</b> um anexo).</li></ul>
 
    - **Tipo de anexo**: essa configuração só está disponível em campanhas de **spear phishing (Attachment)** . Clique na lista suspensa e selecione **. DOCX** ou **. PDF** na lista.
 
@@ -220,7 +220,7 @@ Um *ataque de senha* tenta adivinhar senhas para contas de usuário em uma organ
 
 No simulador de ataques, dois tipos diferentes de campanhas de ataque por senha estão disponíveis para você testar a complexidade das senhas de seus usuários:
 
-- **Senha de força bruta (ataque de dicionário)**: um ataque de *força bruta** ou de *dicionário* usa um arquivo de dicionário grande de senhas em uma conta de usuário, com a esperança de que um deles funcionará (muitas senhas em uma conta). Bloqueios de senha incorretos ajudam a evitar ataques de senha forçada.
+- **Senha de força bruta (ataque de dicionário)**: um ataque de *força bruta* ou de *dicionário* usa um arquivo de dicionário grande de senhas em uma conta de usuário, com a esperança de que um deles funcionará (muitas senhas em uma conta). Bloqueios de senha incorretos ajudam a evitar ataques de senha forçada.
 
   Para o ataque de dicionário, você pode especificar uma ou várias senhas para tentar (inseridas manualmente ou em um arquivo carregado) e pode especificar um ou vários usuários.
 

@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
 ms.openlocfilehash: 3fc16e92e912676d7aedc861ffe8306d68388c95
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078648"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635139"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>Notas de versão do Gerenciador de conformidade (visualização)
 
@@ -78,7 +78,7 @@ As seções a seguir abordam problemas conhecidos a serem resolvidos em futuras 
 - Os modelos arquivados são editáveis e não devem ser editáveis.
 - Os modelos bloqueados permitem a criação da avaliação quando não deveriam. Bloquear um modelo é destinado a impedir que ele seja usado para criar avaliações.
 
-### <a name="export"></a>Exportar
+### <a name="export"></a>Exportação
 
 - O modelo exportar para JSON falha quando o status do modelo é definido como **importado** ou com **aprovação pendente**.
 

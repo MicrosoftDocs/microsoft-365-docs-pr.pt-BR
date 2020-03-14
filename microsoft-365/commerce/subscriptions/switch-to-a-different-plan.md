@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Office 365 for Business.
 ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354462"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633399"
 ---
 # <a name="switch-to-a-different-office-365-for-business-plan"></a>Migrar para outro plano do Office 365 para empresas
 

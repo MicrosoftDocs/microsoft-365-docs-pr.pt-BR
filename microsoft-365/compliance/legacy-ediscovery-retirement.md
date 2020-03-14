@@ -13,11 +13,11 @@ ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
 ms.openlocfilehash: 92b6648b603286871956db64631d334df2384112
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42605293"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634829"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -71,7 +71,7 @@ Como todos esses recursos (exceto para copiar os resultados da pesquisa para uma
 
 - Organizações do Office 365 e do Microsoft 365 governamentais; Isso inclui GCC, GCC alta e DoD
 
-- Office 365 Alemanha
+- Office 365 Germany
 
 ### <a name="timeline-for-retirement"></a>Linha do tempo para aposentadoria
 
@@ -168,7 +168,7 @@ Como esses recursos agora estão disponíveis no [<span class="underline">centro
 
 - Organizações do Office 365 e do Microsoft 365 governamentais; Isso inclui GCC, GCC alta e DoD
 
-- Office 365 Alemanha
+- Office 365 Germany
 
 ### <a name="timeline"></a>Linha do tempo
 
@@ -242,7 +242,7 @@ O cmdlet **Search-Mailbox** no Exchange Online PowerShell está sendo desativado
 
 - Organizações do Office 365 e do Microsoft 365 governamentais; Isso inclui GCC, GCC alta e DoD
 
-- Office 365 Alemanha
+- Office 365 Germany
 
 ### <a name="timeline"></a>Linha do tempo
 
@@ -304,7 +304,7 @@ Essas três APIs de serviços Web do Exchange são usadas pelo recurso de bloque
 
 - Organizações do Office 365 e do Microsoft 365 governamentais; Isso inclui GCC, GCC alta e DoD
 
-- Office 365 Alemanha
+- Office 365 Germany
 
 ### <a name="timeline"></a>Linha do tempo
 
@@ -324,7 +324,7 @@ No momento, recomendamos que você comece a migrar seu fluxo de trabalho de desc
 
 - Organizações do Office 365 e Microsoft 365 Education
 
-- Office 365 Alemanha
+- Office 365 Germany
 
 ### <a name="timeline"></a>Linha do tempo
 

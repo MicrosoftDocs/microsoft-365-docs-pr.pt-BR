@@ -16,11 +16,11 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Durante e após uma investigação automatizada no Office 365, você pode exibir os resultados e as principais descobertas.
 ms.openlocfilehash: 638559efe5f7028a647b466c030a339c677601ce
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179252"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633839"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Detalhes e resultados de uma investigação automatizada no Office 365
 
@@ -34,7 +34,7 @@ Quando uma [investigação automatizada](office-365-air.md) ocorre na [proteçã
 
     - Vá para o**painel**de **Gerenciamento** > de ameaças. Isso leva você para o [painel de segurança](security-dashboard.md). Os widgets do AIR aparecem na parte superior do [painel de segurança](security-dashboard.md). Selecione um widget, como o **Resumo de investigações**.
 
-    - Vá para **** > **investigações**de gerenciamento de ameaças. 
+    - Vá para **Threat management** > **investigações**de gerenciamento de ameaças. 
 
     Qualquer um dos métodos o leva a uma lista de investigações.
 
@@ -52,7 +52,7 @@ Determinados tipos de alertas disparam investigação automatizada no Office 365
 
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
 
-2. Vá para **** > **investigações**de gerenciamento de ameaças.
+2. Vá para **Threat management** > **investigações**de gerenciamento de ameaças.
 
 3. Na lista de investigações, selecione um item na coluna **ID** . 
 

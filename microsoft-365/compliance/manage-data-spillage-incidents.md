@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo descreve o uso da nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para gerenciar um incidente de derramamento de dados.
 ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543362"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634289"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Gerenciar um incidente de derramamento de dados no Microsoft 365
 

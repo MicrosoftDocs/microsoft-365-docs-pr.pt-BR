@@ -15,11 +15,11 @@ search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba como pesquisar o log de auditoria do Office 365 em busca de eventos registrados quando os administradores de conformidade executam tarefas de pesquisa de conteúdo e casos de descoberta eletrônica no centro de conformidade de & de segurança.
 ms.openlocfilehash: ef9c40debb8c28f0d017423d29016ca4f52b7a17
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601528"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634149"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Pesquisar atividades de descoberta eletrônica no log de auditoria do Office 365
 

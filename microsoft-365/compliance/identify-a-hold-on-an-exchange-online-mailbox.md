@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Office 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Office 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
 ms.openlocfilehash: f45310547d41d8ec1092a3fecfaa0b50c4439559
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596498"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634859"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -73,7 +73,7 @@ A tabela a seguir descreve como identificar diferentes tipos de isenções com b
 
 |Tipo de bloqueio  |Valor de exemplo  |Como identificar a isenção  |
 |---------|---------|---------|
-|Retenção de litígio     |    `True`     |     A retenção de litígio está habilitada para uma caixa ** de correio quando a propriedade `True`LitigationHoldEnabled é definida como.    |
+|Retenção de litígio     |    `True`     |     A retenção de litígio está habilitada para uma caixa *LitigationHoldEnabled* de correio quando a propriedade `True`LitigationHoldEnabled é definida como.    |
 |retenção de descoberta eletrônica     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   A *Propriedade InPlaceHolds* contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. É possível dizer que esse é um bloqueio de descoberta eletrônica porque o GUID `UniH` começa com o prefixo (que denota uma retenção unificada).      |
 |Bloqueio In-loco     |     `c0ba3ce811b6432a8751430937152491` <br/> ou <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     A propriedade *InPlaceHolds* contém o GUID do bloqueio in-loco colocado na caixa de correio. Você pode dizer que isso é um bloqueio in-loco, pois o GUID não começa com um prefixo ou começa com o `cld` prefixo.     |
 |Política de retenção do Office 365 aplicada especificamente à caixa de correio     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> ou <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     A propriedade InPlaceHolds contém GUIDs de qualquer política de retenção de local específica que é aplicada à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa `mbx` com o `skp` ou o prefixo. O `skp` prefixo indica que a política de retenção é aplicada às conversas do Skype for Business na caixa de correio do usuário.    |
