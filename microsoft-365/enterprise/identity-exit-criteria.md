@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura e os serviços baseados em identidade.
-ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 433dec5e84c88dc6422619293f435f2d7199ea2e
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544060"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637284"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Critérios de saída da infraestrutura de identidade
 
