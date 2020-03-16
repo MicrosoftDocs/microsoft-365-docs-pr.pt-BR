@@ -16,22 +16,22 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: ae268c1368933c729177d6083294e7e7a8735958
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 78cfba97c14259ec40abc17e17676263b37fcedf
+ms.sourcegitcommit: 9231cbea48374fca3aeeb1f267dcdcd270fd9f42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074918"
+ms.lasthandoff: 03/15/2020
+ms.locfileid: "42651835"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
 A tabela a seguir lista os campos de metadados para documentos em uma revisão definida em um caso na descoberta eletrônica avançada. A tabela fornece as seguintes informações:
 
-- Nome do **campo** e **nome do campo de exibição:** o nome do campo de metadados e o nome do campo que é exibido ao exibir os metadados de arquivo de um documento selecionado em um conjunto de revisão. Observe que alguns campos de metadados não estão incluídos ao exibir os metadados de arquivo de um documento. Esses campos são realçados com um asterisco (*).
+- Nome do **campo** e **nome do campo de exibição:** o nome do campo de metadados e o nome do campo que é exibido ao exibir os metadados de arquivo de um documento selecionado em um conjunto de revisão. Alguns campos de metadados não estão incluídos ao exibir os metadados de arquivo de um documento. Esses campos são realçados com um asterisco (*).
 
 - **Nome do campo pesquisável:** O nome da propriedade que você pode pesquisar ao executar uma consulta de [conjunto de revisão](review-set-search.md). Uma célula em branco significa que você não pode pesquisar o campo em uma consulta de conjunto de revisão.
 
--  **Nome do campo exportado:** O nome do campo de metadados que incluiu quando os documentos são exportados.  Uma célula em branco significa que o campo não está incluído nos metadados exportados.
+- **Nome do campo exportado:** O nome do campo de metadados que incluiu quando os documentos são exportados.  Uma célula em branco significa que o campo não está incluído nos metadados exportados.
 
 - **Descrição:** Uma descrição do campo de metadados.
 
@@ -77,7 +77,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Segurança de email|EmailSecurity|Email_security|Configuração de segurança da mensagem: **0** -nenhum; **1** -assinado; **2** -criptografado; **3** -criptografado e assinado.|
 |Confidencialidade de email|EmailSensitivity|email_sensitivity|Configuração de sensibilidade da mensagem: **0** -nenhum; **1** pessoal; **2** -privado; **3** -CompanyConfidential.|
 |Conjunto de emails|Emailset|Email_set|ID de grupo para todas as mensagens no mesmo conjunto de email.|
-|EmailThread*||Email_thread|Posição da mensagem dentro do conjunto de emails; consiste em IDs de nó da raiz para a mensagem atual; , separado por pontos.|
+|EmailThread*||Email_thread|Posição da mensagem dentro do conjunto de emails; consiste em IDs de nó da raiz para a mensagem atual e separadas por pontos (.).|
 |Tipo de conteúdo extraído||Extracted_content_type|Tipo de conteúdo extraído, na forma de tipo MIME; por exemplo, **image/jpeg**|
 |ExtractedTextLength*||Extracted_text_length|Número de caracteres no texto extraído.|
 |Pontos de relevância da família-problema de caso 1 *||Family_relevance_score_case_issue_1|Pontuação de relevância da família caso o problema 1 de relevância.|
@@ -93,14 +93,14 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Tem anexo|HasAttachment|Email_has_attachment|Indica se a mensagem tem ou não anexos.|
 |O advogado é|HasAttorney||**True** quando pelo menos um dos participantes é encontrado na lista advogado; caso contrário, o valor será **false**.|
 |HasText||Has_text|Indica se o item tem ou não texto; os valores possíveis são **true** e **false**.|
-|ID Imutável|Imutávelid|Immutable_ID|ID imutável, conforme armazenado no Office 365.|
+|ID Imutável||Immutable_ID|Essa ID é usada para identificar exclusivamente um documento dentro de um conjunto de revisão. Este campo não pode ser usado em um conjunto de análise de pesquisa e a ID não pode ser usada para acessar um documento em seu local nativo.|
 |Tipo inclusivo|Inclusivtype|Inclusive_type|Tipo inclusivo calculado para análise: **0** -não inclusivo; **1** -inclusive; **2** – menos inclusivo; cópia **3** incluindo.|
 |Em responder à ID||In_reply_to_ID|Em resposta à ID da mensagem.|
 |É representante|Isrepresentativo|Is_representative|Um documento em cada conjunto de duplicatas exatas é marcado como representante.|
 |Classe de item|ItemClass|Item_class|Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
 |ID de carregamento|Loadid|Load_ID|A ID do conjunto de carga no qual o item foi adicionado a um conjunto de revisão.|
-|Locais|Locais|Locais|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
+|Local|Local|Local|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
 |Nome do local|LocationName|Location_name|Cadeia de caracteres que identifica a origem do item. Para o Exchange, este será o endereço SMTP da caixa de correio; para o SharePoint e o OneDrive, a URL do conjunto de sites.|
 |Marcado como representante|MarkAsRepresentative||Um documento de cada conjunto de duplicatas exatas é marcado como representante.|
 |Marcado como o problema de caso anterior à marca 1 *||Marked_as_pre_tagged_Case_issue_1|Marcado como problema de caso de marca 1 de relevância.|
@@ -111,8 +111,8 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Extensão nativa|NativeExtension|Native_extension|Extensão nativa do item.|
 |Nome do arquivo nativo|NativeFileName|Native_file_name|Nome do arquivo nativo do item.|
 |NativeMD5||Native_MD5|Hash MD5 do fluxo de arquivos.|
-|Classificação ND/ET: excluindo anexos|NdEtSortExclAttach|ND_ET_sort_excl_attach|Concatenação de conjunto de emails e ND definidos para classificação eficiente no momento da revisão; **D** é adicionado como um prefixo a nd **sets e e** é adicionado aos conjuntos de emails.|
-|Classificação ND/ET: incluindo anexos|NdEtSortInclAttach|ND_ET_sort_incl_attach|Concatenação de conjunto de emails e ND definidos para classificação eficiente no momento da revisão; **D** é adicionado como um prefixo a nd **sets e e** é adicionado aos conjuntos de emails. Cada email dentro de um conjunto de emails é seguido por seus anexos apropriados.|
+|Classificação ND/ET: excluindo anexos|NdEtSortExclAttach|ND_ET_sort_excl_attach|Concatenação do conjunto de threads de email (ET) definido e conjunto Near-Duplicate (ND). Este campo é usado para classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e um **E** é prefixado para conjuntos et.|
+|Classificação ND/ET: incluindo anexos|NdEtSortInclAttach|ND_ET_sort_incl_attach|Concatenação de um conjunto de threads de email (ET) definido e conjunto Near-Duplicate (ND). Este campo é usado para classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e um **E** é prefixado para conjuntos et. Cada item de email em um conjunto ET é seguido pelos seus anexos apropriados.|
 |A pontuação de relevância normalizada problema de caso 1||Normalized_relevance_score_case_issue_1|Pontuação de relevância normalizada o problema de caso 1 de relevância.|
 |Autores do O365||O365_authors|Autor do SharePoint.|
 |O365 criado por||O365_created_by|Criado pelo SharePoint.|
@@ -149,7 +149,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Assunto|Assunto|Email_subject|Assunto da mensagem.|
 |Assunto/título|SubjectTitle||Campo calculado composto pelo assunto ou título do item.|
 |Marcado por problema de caso 1||Tagged_by_Case_issue_1|Usuário que marcou este documento para o problema de caso 1, em relevância.|
-|Marcações|Marcações|Marcações|Marcas aplicadas em um conjunto de revisão.|
+|Marcas|Marcas|Marcas|Marcas aplicadas em um conjunto de revisão.|
 |Lista de temas|Themelist|Themes_list|Lista de temas conforme calculado para análise.|
 |Cargo|Cargo|Doc_title|Título dos metadados do documento.|
 |To|To|Email_to|Campo para para tipos de mensagem. Format é **DisplayName\<SmtpAddress>**|
