@@ -11,36 +11,35 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
-description: Você precisa habilitar o suporte do ClickOnce para usar o Microsoft Edge para exportar os resultados da pesquisa da pesquisa de conteúdo e da descoberta eletrônica no centro de segurança e conformidade.
-ms.openlocfilehash: db70b4cdbc57f519db3b6b962eb8aa43585ba335
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Você precisa habilitar o suporte do ClickOnce para usar a versão mais recente do Microsoft Edge para baixar os resultados da pesquisa da pesquisa de conteúdo e da descoberta eletrônica no centro de segurança e conformidade.
+ms.openlocfilehash: 80924b124521b24ffabf1e0273802265cd715500
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078542"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710340"
 ---
 # <a name="use-the-office-365-ediscovery-export-tool-in-microsoft-edge"></a>Usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge
 
-Como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para continuar a usar a ferramenta de exportação de descoberta eletrônica do Microsoft Office 365 para baixar os resultados de pesquisa de descoberta eletrônica ou pesquisa de conteúdo, você precisa usar [o Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) ou habilitar o suporte do ClickOnce no Microsoft Edge.
+Como resultado de alterações recentes na versão mais recente do Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para continuar a usar a ferramenta de exportação de descoberta eletrônica do Microsoft Office 365 para baixar os resultados de pesquisa de descoberta eletrônica ou pesquisa de conteúdo, você precisa usar o [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) ou habilitar o suporte do ClickOnce na versão mais recente do Microsoft Edge.
 
-## <a name="how-to-enable-clickonce-support-in-microsoft-edge"></a>Como habilitar o suporte do ClickOnce no Microsoft Edge
+## <a name="enable-clickonce-support-in-microsoft-edge"></a>Habilitar o suporte do ClickOnce no Microsoft Edge
 
-1. No Microsoft Edge, navegue até **edge://flags/#edge-Once**.
+1. No Microsoft Edge, vá para **edge://flags/#edge-Click-Once**.
 
 2. Se o valor existente for definido como **padrão** ou **desabilitado** na lista suspensa, altere-o para **habilitado**.
-    
+
    ![](../media/ClickOnceimage1.png)
 
 3. Role para baixo até a parte inferior da janela do navegador e clique em **reiniciar** para reiniciar a borda.
 
    ![](../media/ClickOnceimage2.png)
 
-**Observação:** As organizações podem usar a política de grupo para desabilitar o suporte do ClickOnce. Para verificar se há uma política organizacional para o suporte do ClickOnce, navegue até **Edge://Policy**. A captura de tela a seguir mostra que o ClickOnce está habilitado em toda a organização. Se esse valor de política for definido como **false**, você precisará entrar em contato com um administrador na sua organização.
+**Observação:** As organizações podem usar a política de grupo para desabilitar o suporte do ClickOnce. Para verificar se há uma política organizacional para o suporte do ClickOnce, acesse **Edge://Policy**. A captura de tela a seguir mostra que o ClickOnce está habilitado em toda a organização. Se esse valor de política for definido como **false**, você precisará entrar em contato com um administrador na sua organização.
 
 ![](../media/ClickOnceimage3.png)
 
-## <a name="install-and-run-the-office-365-ediscovery-export-tool"></a>Instalar e executar a ferramenta de exportação de descoberta eletrônica do Office 365
+## <a name="install-and-run-the-ediscovery-export-tool"></a>Instalar e executar a ferramenta de exportação de descoberta eletrônica
 
 1. Clique em **baixar resultados** na página de menu suspenso de uma exportação na pesquisa de conteúdo ou em um caso de descoberta eletrônica.
 

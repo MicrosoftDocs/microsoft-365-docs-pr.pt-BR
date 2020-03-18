@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use este artigo como um guia para solucionar problemas de barreiras de informações.
-ms.openlocfilehash: b4c9bb46bc1e3c13cdc8b46a95733558714a44df
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c601ddedf3acc816181f287c74f8f4df207a6b5
+ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600588"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42692658"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
@@ -171,11 +171,46 @@ Certifique-se de que sua organização não tenha [diretivas de catálogo de end
 
 3. [Exibir o status de contas de usuário, segmentos, políticas ou aplicativos de política](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application).
 
+## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>Problema: política de barreira de informações não aplicada a todos os usuários designados
+
+Depois de definir os segmentos, definir as políticas de barreira de informações e tentar aplicar essas políticas, você poderá achar que a política está se aplicando a alguns destinatários, mas não a outros.
+Ao executar o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet, procure o texto de saída como este.
+
+> Ladrões`<application guid>`
+>
+> Total de destinatários: 81527
+>
+> Destinatários com falha: 2
+>
+> Categoria de falha: nenhum
+>
+> Status: concluir
+
+### <a name="what-to-do"></a>O que fazer
+
+1. Pesquisar no log de auditoria para `<application guid>`. Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
+
+```powershell
+$DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
+```
+
+2. Verifique a saída detalhada do log de auditoria para os valores dos campos `"UserId"` e `"ErrorDetails"` . Isso fornecerá o motivo da falha. Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
+
+```powershell
+   $DetailedLogs[1] |fl
+```
+ Por exemplo:
+
+> "UserId": Usuário1
+> 
+>"ErrorDetails": "status: IBPolicyConflict. Erro: o segmento IB "Segment ID1" e o segmento IB "Segment ID2" tem conflito e não pode ser atribuído ao destinatário. 
+
+3. Normalmente, você verá que um usuário foi incluído em mais de um segmento. Você pode corrigir isso atualizando o `-UserGroupFilter` valor em `OrganizationSegments`.
+
+4. Reaplique as políticas de barreira de informações usando estes procedimentos [políticas de barreiras de informação](information-barriers-policies.md#part-3-apply-information-barrier-policies).
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Definir políticas para barreiras de informações no Microsoft Teams](information-barriers-policies.md)
 
 [Barreiras de informações](information-barriers.md)
-
-
-

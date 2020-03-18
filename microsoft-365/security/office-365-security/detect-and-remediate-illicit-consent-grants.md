@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Office 365.
-ms.openlocfilehash: e11518b0b16b7ee922f18b0ef771d36f608e41b7
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 171dbf586a869e9c85bb1e10b6beb7a2f4e5f425
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363047"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710520"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Detectar e corrigir a concessão de autorização ilícita no Office 365
 
@@ -29,7 +29,12 @@ ms.locfileid: "42363047"
 
 ## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>O que é o ataque de concessão de consentimento ilícito no Office 365?
 
-Em um ataque de concessão de consentimento ilícito, o invasor cria um aplicativo registrado pelo Azure que solicita acesso a dados, como informações de contato, email ou documentos. O invasor, então, vaza um usuário final para conceder a ele o consentimento de acessar seus dados através de um ataque de phishing ou injetando código ilícito em um site confiável. Depois que o aplicativo ilícito tiver sido concedido, ele terá acesso de nível de conta aos dados sem a necessidade de uma conta organizacional. Etapas de correção normais, como redefinir senhas para contas violadas ou exigir a autenticação multifator (MFA) em contas, não são eficazes contra esse tipo de ataque, já que são aplicativos de terceiros e são externos à organização. Esses ataques aproveitam um modelo de interação que pressupõe que a entidade que está chamando as informações é automação e não é um homem.
+Em um ataque de concessão de consentimento ilícito, o invasor cria um aplicativo registrado pelo Azure que solicita acesso a dados, como informações de contato, email ou documentos. O invasor, então, vaza um usuário final para conceder a ele o consentimento de acessar seus dados através de um ataque de phishing ou injetando código ilícito em um site confiável. Depois que o aplicativo ilícito tiver sido concedido, ele terá acesso de nível de conta aos dados sem a necessidade de uma conta organizacional. Etapas de correção normais, como redefinir senhas para contas violadas ou exigir a autenticação multifator (MFA) em contas, não são eficazes contra esse tipo de ataque, já que são aplicativos de terceiros e são externos à organização. 
+
+Esses ataques aproveitam um modelo de interação que pressupõe que a entidade que está chamando as informações é automação e não é um homem.
+
+> [!IMPORTANT]
+> Você suspeita que está tendo problemas com o consentimento ilícito-subsídios de um aplicativo, agora? O Microsoft Cloud app Security (MCAS) tem ferramentas para detectar, investigar e corrigir seus aplicativos OAuth. Este artigo do MCAS tem um tutorial que descreve como [analisar aplicativos OAuth arriscados](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth). Você também pode definir [as políticas de aplicativo OAuth](https://docs.microsoft.com/cloud-app-security/app-permission-policy) para investigar as permissões solicitadas pelo aplicativo, quais usuários estão autorizando esses aplicativos e, amplamente, aprovar ou proibir essas solicitações de permissões.
 
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>O que um invasor de concessão de consentimento ilícito parece no Office 365?
 
@@ -48,7 +53,7 @@ Você precisa pesquisar o **log de auditoria** do Office 365 para encontrar sina
 5. Clique no resultado para ver os detalhes da atividade. Clique em **mais informações** para obter detalhes da atividade. Verifique se IsAdminContent está definido como true.
 
 > [!NOTE]
-> • Pode levar até 30 minutos ou até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. <br/><br/> • O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende da sua assinatura do Office 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).
+> * Pode levar de 30 minutos até 24 horas para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa após a ocorrência de um evento. <br/><br/> O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende da sua assinatura do Office 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).
 Se esse valor for true, ele indicará que alguém com acesso de administrador global pode ter concedido acesso amplo aos dados. Se isso for inesperado, execute etapas para [confirmar um ataque](#how-to-confirm-an-attack).
 
 ## <a name="how-to-confirm-an-attack"></a>Como confirmar um ataque
@@ -98,7 +103,7 @@ A maneira mais simples de verificar o consentimento ilícito de concessão é ex
 - Administrador local no computador a partir do qual o irá executar os scripts.
 
 > [!IMPORTANT]
-> É altamente recomendável que você exija a autenticação multifator em sua conta administrativa. Esse script oferece suporte à autenticação da MFA.
+> É ***altamente recomendável*** que você exija a autenticação multifator em sua conta administrativa. Esse script oferece suporte à autenticação da MFA.
 
 1. Entre no computador em que você executará o script com direitos de administrador local.
 

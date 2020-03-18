@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 4b01571d5a56d53861481dac6cb399e227ca0db6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 53c1a44ad1e27d2d1002680faee56ae88e3e0921
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072991"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710540"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -35,7 +35,7 @@ Você pode configurar um conector de dados no centro de conformidade da Microsof
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Etapa 1: criar um aplicativo no Azure Active Directory
 
-A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (AAD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3.  A criação deste aplicativo permitirá que o AAD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo AAD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores desse processo.
+A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (AAD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3. A criação deste aplicativo permitirá que o AAD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo AAD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
 
 - ID do aplicativo AAD (também chamado de *ID do aplicativo* ou ID do *cliente*)
 
@@ -43,7 +43,7 @@ A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directo
 
 - ID do locatário (também chamado de *ID de diretório*)
 
-Para obter instruções detalhadas para a criação de um aplicativo no AAD, consulte [Creating a AAD Application](https://docs.microsoft.com/azure/kusto/management/access-control/how-to-provision-aad-app)
+Para obter instruções detalhadas sobre a criação de um aplicativo no AAD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-2-prepare-a-csv-file-with-your-hr-data"></a>Etapa 2: preparar um arquivo CSV com seus dados de RH
 
@@ -159,7 +159,7 @@ Depois de criar o conector de RH e executar o script para carregar seus dados de
 
    ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](../media/HRConnectorLogFile.png)
 
-   O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver 4 linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
+   O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
 Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
 
