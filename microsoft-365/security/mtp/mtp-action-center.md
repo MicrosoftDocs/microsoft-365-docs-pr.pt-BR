@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: a8f4cd9d3b970d6216e05fa6ff78699558c82600
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a42646c423c08298a619e8bd559cd819ba3c47db
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633979"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857458"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -49,7 +49,7 @@ Sua equipe de operações de segurança pode operar de maneira mais eficaz e efi
 
 2. No painel de navegação, escolha **Central de ações**. 
 
-3. Na Central de ações, você verá duas guias: **Pendente** e **Histórico**.
+3. Na central de ações, você verá duas guias: **pendentes** e **histórico**.
 
     - A guia **Pendente** lista as investigações que exigem revisão e aprovação de alguém na sua equipe de operações de segurança para continuar. Certifique-se de revisar e executar ações em itens pendentes que você vê aqui.
 
@@ -72,11 +72,11 @@ Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter
 
 |Ação de correção |Funções e permissões necessárias |
 |--|----|
-|Correção do Microsoft Defender ATP (dispositivos) |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>Função de **Ações de correção ativa** atribuídas ao Microsoft defender ATP <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Correção do Office 365 ATP (conteúdo e email do Office)  |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>Função **Pesquisar e Limpar** atribuída ao Centro de Conformidade e Segurança do Office 365 ([https://protection.office.com](https://protection.office.com)) <br/><br/>**IMPORTANTE**: Se você tiver a função de Administrador de Segurança atribuída somente no Centro de Conformidade e Segurança do Office 365, não será possível acessar os recursos da Central de ações ou da Proteção contra Ameaças da Microsoft. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Correção do Microsoft Defender ATP (dispositivos) |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>Função de Ações de correção ativa atribuídas ao Microsoft defender ATP <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
+|Correção do Office 365 ATP (conteúdo e email do Office)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>Função Pesquisar e Limpar atribuída ao Centro de Conformidade e Segurança do Office 365 ([https://protection.office.com](https://protection.office.com)) <br/><br/>**IMPORTANTE**: Se você tiver a função de Administrador de Segurança atribuída somente no Centro de Conformidade e Segurança do Office 365, não será possível acessar os recursos da Central de ações ou da Proteção contra Ameaças da Microsoft. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
-> Os usuários que têm a função **Administrador Global** atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como uma prática recomendada, sua organização deve limitar o número de pessoas que têm a função de Administrador Global atribuída. É recomendável usar o **Administrador de Segurança**, **Ações de correção ativa** e as funções **Pesquisar e Limpar**, listadas acima, para permissões da Central de ações.
+> Os usuários que têm a função Administrador Global atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como uma prática recomendada, sua organização deve limitar o número de pessoas que têm a função de Administrador Global atribuída. É recomendável usar o Administrador de Segurança, Ações de correção ativa e as funções Pesquisar e Limpar, listadas acima, para permissões da Central de ações.
 
 ## <a name="next-steps"></a>Próximas etapas 
 

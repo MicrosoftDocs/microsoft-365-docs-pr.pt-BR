@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Office 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: c012d7a8484026d04bbe216ff28715e9df0de15c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: efbd49daa28b5d15989e1531929cb2d9355aeb8f
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362206"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857422"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Remover um domínio do Office 365
 
@@ -114,11 +114,11 @@ Você também pode usar o PowerShell para mover os usuários para outro domínio
 
 ::: moniker range="o365-germany"
 
-1. Vá para **** \> **usuários ativos**do usuário e selecione seu nome na lista.
+1. Vá para **Users** \> **usuários ativos**do usuário e selecione seu nome na lista.
 
 2. Na seção **nome de usuário/email** , selecione **Editar**e, em seguida, escolha um domínio diferente.
 
-3. Selecione **definir como fechamento de** > **salvamento** > **** principal.
+3. Selecione **definir como fechamento de** > **salvamento** > **Close**principal.
   
 4. Na parte superior **, selecione o**nome da conta e, em seguida, selecione sair.
 
@@ -130,11 +130,11 @@ Você também pode usar o PowerShell para mover os usuários para outro domínio
 
 ::: moniker range="o365-21vianet"
 
-1. Vá para **** \> **usuários ativos**do usuário e selecione seu nome na lista.
+1. Vá para **Users** \> **usuários ativos**do usuário e selecione seu nome na lista.
 
 2. Na seção **nome de usuário/email** , selecione **Editar**e, em seguida, escolha um domínio diferente.
 
-3. Selecione **definir como fechamento de** > **salvamento** > **** principal.
+3. Selecione **definir como fechamento de** > **salvamento** > **Close**principal.
   
 4. Na parte superior **, selecione o**nome da conta e, em seguida, selecione sair.
 
@@ -229,7 +229,7 @@ Ainda não funciona? É possível que seja necessário remover seu domínio manu
 
 [Perguntas frequentes sobre domínios](../setup/domains-faq.md)
 
-[Obter ajuda com os domínios do Office 365](get-help-with-domains.md)
+[Obter ajuda com os domínios do Office 365](get-help-with-domains.yml)
 
 [Migrar para outro plano do Office 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

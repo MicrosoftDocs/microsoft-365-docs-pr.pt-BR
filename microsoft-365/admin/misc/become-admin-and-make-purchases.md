@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Saiba como se tornar o administrador e obter a assinatura do Office 365 para sua organização. '
-ms.openlocfilehash: d646b2e0ead1a4d911b4c9335660e2998ab5292a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7b213d2a2e987a4e12cb410372e540ca715528a1
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361546"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857410"
 ---
 # <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a>Tornar-se o administrador e comprar o Office 365 para sua organização
 
@@ -87,7 +87,7 @@ Agora que você é o administrador, convém fazer o seguinte:
 |Adicionar ou remover licenças  <br/> |Você pode [adicionar mais licenças](../../commerce/licenses/buy-licenses.md) para usuários que não estão usando o Office 365 ainda ou [remover licenças de usuários](../manage/remove-licenses-from-users.md) que não deseja usar a assinatura do Office 365 da sua organização.  <br/> |
 |Entre em contato com outras pessoas que já se inscreveram  <br/> |Comunique-se com outros usuários e informe que você está gerenciando a assinatura do Office 365 e que ela foi atualizada. [Siga estas etapas](../add-users/add-users.md) para ver uma lista de **Usuários Ativos** e os endereços de email.  <br/> |
 |Começar a usar o Office 365  <br/> |Visite a [Central de informações do Office 365](https://support.office.com/learn/office365-for-business) e aprenda a entrar, verificar emails, compartilhar documentos e muito mais. Você e seus usuários podem usar este site para começar a usar o Office 365.  <br/> |
-|Gerenciar a assinatura do Office 365  <br/> |Visite o [centro de ajuda de administração do Office 365](../admin-home.md) e aprenda tarefas administrativas comuns, como adicionar e remover usuários, redefinir senhas e configurar dispositivos móveis.  <br/> |
+|Gerenciar a assinatura do Office 365  <br/> |Visite o [centro de ajuda de administração do Office 365](../admin-home.yml) e aprenda tarefas administrativas comuns, como adicionar e remover usuários, redefinir senhas e configurar dispositivos móveis.  <br/> |
 
 ## <a name="still-need-help"></a>Ainda precisa de ajuda?
 
