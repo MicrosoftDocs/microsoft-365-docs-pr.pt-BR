@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Microsoft 365 Administrator documation
+summary: Saiba mais sobre os recursos disponíveis para os administradores do Microsoft 365.
+metadata:
+  title: Microsoft 365 Administrator documation
+  description: Saiba mais sobre os recursos disponíveis para os administradores do Microsoft 365.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/05/2020
+  ms.openlocfilehash: 9baffa7688223c57c5ef863d9d39beed7bc38f62
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857504"
+landingContent:
+- title: Sobre o centro de administração
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o centro de administração
+      url: admin-overview/admin-overview.md
+  - linkListType: whats-new
+    links:
+    - text: Obter novos recursos
+      url: manage/stay-on-top-of-updates.md
+- title: Introdução
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Planejar a sua configuração
+      url: setup/plan-your-setup.md
+    - text: Configurar o Office 365
+      url: setup/setup.md
+    - text: Adicionar um domínio ao Office 365
+      url: setup/add-domain.md
+    - text: Migrar emails e contatos para o Office 365
+      url: setup/migrate-email-and-contacts-admin.md
+    - text: Configurar o compartilhamento e o armazenamento de arquivos do Office 365
+      url: setup/set-up-file-storage-and-sharing.md
+    - text: Adicionar usuários
+      url: add-users/add-users.md
+    - text: Configurar a autenticação multifator
+      url: security-and-compliance/set-up-multi-factor-authentication.md
+- title: Solução de problemas
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Corrigir problemas de instalação do Office
+      url: https://support.office.com/article/troubleshoot-installing-office-35ff2def-e0b2-4dac-9784-4cf212c1f6c2
+    - text: Corrigir problemas do Outlook e do Office 365 com o Assistente de Recuperação e Suporte da Microsoft
+      url: https://support.office.com/article/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f
+    - text: Corrigir problemas de e-mail
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+    - text: Corrigir problemas de sincronização do OneDrive for Business
+      url: https://go.microsoft.com/fwlink/?linkid=866431
+- title: Assinar
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Comprar uma assinatura da sua avaliação gratuita
+      url: https://docs.microsoft.com/microsoft-365/commerce/buy-a-subscription-from-your-free-trial
+    - text: Cancelar sua assinatura
+      url: https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription?
+- title: Saiba mais
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Documentação do Microsoft Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Documentação empresarial do Office 365
+      url: https://docs.microsoft.com/Office365/Enterprise
+    - text: Centro de Treinamento do Office 365
+      url: https://support.office.com/office-training-center
+    - text: Introdução ao Microsoft 365
+      url: https://docs.microsoft.com/en-us/learn/m365/
