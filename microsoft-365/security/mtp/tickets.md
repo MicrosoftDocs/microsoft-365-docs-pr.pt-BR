@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 904c1a019c55cabce6856a7caaca73d08d6db3f7
+ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086910"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42836875"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 
@@ -90,7 +90,7 @@ Para reprovisionar ou gerenciar sua integração do ServiceNow no centro de segu
 
 Com as permissões do ServiceNow visíveis no centro de segurança do Microsoft 365, suas tarefas residem em um local onde elas podem ser rastreadas e aplicadas junto com seus outros itens do painel de segurança.
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 ### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>Você recebe um erro na primeira etapa da lista de verificação de instalação (criação de OAuth)
 
@@ -141,6 +141,10 @@ Se sua empresa ativou o logon único e você recebe um erro ou o logon não é b
 
 1. Criar um usuário com privilégios de administrador de segurança no Azure Active Directory. O usuário precisa ter o mesmo nome e endereço de email do usuário de integração que você criou na lista de verificação de instalação. Você pode remover a função de administrador de segurança após o logon e a conexão ter sido concluída.
 2. Faça logon no centro de segurança do Microsoft 365 como este usuário e siga as etapas de configuração.
+
+### <a name="ip-filtering"></a>Filtragem de IP
+
+Se você habilitou a filtragem de IP, talvez seja necessário permitir explicitamente endereços IP. Consulte [controle de acesso de endereço IP](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/login/task/t_AccessControl.html) para obter informações sobre como permitir intervalos IP no ServiceNow. Consulte [Azure IP Ranges and Service Tags-Public Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519) para obter uma lista de endereços IP para permitir.
 
 ### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>A instalação está concluída, mas não vê tíquetes e não pode ser compartilhada
 

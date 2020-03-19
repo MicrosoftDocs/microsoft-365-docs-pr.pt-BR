@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 9422330cb4999e4391f92e39807e2d2367366972
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 505487e079ea198c6575fd76e2e59a60ead19940
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599368"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857340"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
@@ -48,9 +48,9 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Envios de spam e não spam por meio do Outlook na Web relatório de lixo eletrônico|Você pode enviar spam e mensagens não spam para a Microsoft via Outlook no relatório de lixo eletrônico da Web. Para saber mais, confira [relatar spam e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).  <br/><br/> Este recurso está disponível atualmente para o Outlook nos clientes da Web cujas caixas de correio do Exchange Server 2013 SP1 ou posterior estão sendo filtradas pelo EOP. Os clientes do Exchange Online Outlook na Web também terão essa funcionalidade em um futuro próximo.|
 |Notificações da quarentena de spam para usuário final|Os usuários finais podem liberar suas próprias mensagens em quarentena de spam e, opcionalmente, liberá-las como não sendo lixo eletrônico via mensagens de notificação de spam de usuário final. Esses emails de notificação devem ser configurados e habilitados por um administrador, conforme descrito em [Configure End-User spam Notifications in Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md) ou [Configure End-User spam Notifications in EOP](configure-end-user-spam-notifications-in-eop.md).|
 |Frequência de notificação de quarentena de spam do usuário final|Essa frequência é de 3 dias por padrão, mas pode ser configurada para um intervalo de 1 a 15 dias.|
-|A capacidade dos administradores de configurar o idioma das notificações de quarentena de spam do usuário final|Disponível para usuários finais e administradores. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
-|Acessar e gerenciar mensagens em quarentena pela página da Web|Disponível para usuários finais e administradores. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
-|A capacidade de pesquisar a quarentena|A capacidade de pesquisar a quarentena por mensagens de spam específicas está disponível para administradores e usuários finais. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
+|A capacidade dos administradores de configurar o idioma das notificações de quarentena de spam do usuário final|Disponível para usuários finais e administradores. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
+|Acessar e gerenciar mensagens em quarentena pela página da Web|Disponível para usuários finais e administradores. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
+|A capacidade de pesquisar a quarentena|A capacidade de pesquisar a quarentena por mensagens de spam específicas está disponível para administradores e usuários finais. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md) ou [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).|
 |Exibir os cabeçalhos da mensagem de spam em quarentena no centro de administração do Exchange|Após a exibição do cabeçalho da mensagem em quarentena, você também pode copiar o texto do cabeçalho da mensagem e colá-o no [Analisador de Cabeçalhos de Mensagens](https://testconnectivity.microsoft.com/?tabid=mha) que fornece informações sobre o que aconteceu com a mensagem.|
 |**Proteção antimalware**||
 |Proteção antimalware de múltiplos mecanismos|Vários mecanismos antimalware ajudam a proteger automaticamente nossos clientes o tempo todo.|

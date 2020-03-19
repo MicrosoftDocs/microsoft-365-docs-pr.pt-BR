@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Office 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: fc50519190abe1b827bd3a5f93a6a82f8c22f0b6
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: c553e5254246bd81d435b4ebc2be2e975dd80a9d
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42640023"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826320"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>Personalizar o tema do Office 365 da sua organização
 
@@ -64,9 +64,9 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
     
 4. Selecione **Salvar alterações**.
     
-Você verá seu novo tema no centro de administração imediatamente e após um atraso curto, verá-o em todo o Office 365, incluindo páginas no Outlook, SharePoint e aplicativos móveis do SharePoint para iOS e Android. A imagem a seguir realça os elementos de temas que você pode personalizar para aplicativos móveis do SharePoint.
+Você verá seu novo tema no centro de administração imediatamente e após um pequeno atraso, verá-o em todo o Office 365, incluindo páginas no Outlook, SharePoint, [aplicativo móvel do SharePoint para IOS](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)e [aplicativo móvel do SharePoint para Android](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). Confira o gráfico a seguir para obter um exemplo de onde você personaliza as alterações do tema no centro de administração.
 
-![Tema padrão do Office 365 e tema personalizado do Office 365 para aplicativos móveis do SharePoint]()
+![M365-admin-locatário-Theme-conceptual](../../media/m365-admin-tenant-theme-conceptual.png)
 
 É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página do tema e selecionar **remover temas personalizados**.
   

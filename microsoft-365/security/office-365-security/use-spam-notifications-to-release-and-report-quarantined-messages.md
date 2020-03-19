@@ -1,11 +1,11 @@
 ---
-title: Usar notificações de spam do usuário para liberar e reportar mensagens em quarentena no Office 365spam
+title: Notificações de spam do usuário final no Office 36
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 03/14/2019
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,39 +17,33 @@ search.appverid:
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
-description: Se seu administrador habilitar as notificações para usuários, você receberá uma mensagem de notificação que lista as mensagens enviadas para sua caixa de correio que foram identificadas como spam, massa ou mensagens de phishing. Você pode liberar ou relatar mensagens depois de ser notificado.
-ms.openlocfilehash: 51fcdefc08987b153d045994927f56df3b670fd0
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+description: Quando um administrador habilita as notificações de spam para o usuário final em políticas antispam, os destinatários da mensagem receberão notificações periódicas sobre suas mensagens em quarentena.
+ms.openlocfilehash: 67dbf311c37ae61c007b78110522033d79c0b161
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722032"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857138"
 ---
-# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a>Usar notificações de spam do usuário para liberar e reportar mensagens em quarentena no Office 365spam
+# <a name="end-user-spam-notifications-in-office-365"></a>Notificações de spam do usuário final no Office 365
 
-Se seu administrador habilitar notificações de spam para usuários, você receberá uma mensagem de notificação que lista as mensagens endereçadas à sua caixa de correio que foram identificadas como spam, em massa ou Phish e em quarentena.
+A quarentena contém mensagens potencialmente perigosas ou indesejadas nas organizações do Office 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) independentes sem caixas de correio do Exchange Online. Para obter mais informações, consulte [Quarantine in Office 365](quarantine-email-messages.md).
 
-> [!TIP]
-> Se você é um administrador e deseja habilitar esse recurso, você pode escolher a opção ao [modificar uma política antispam padrão](configure-your-spam-filter-policies.md).
+Por padrão, as notificações de spam do usuário final estão desabilitadas em políticas antispam. Quando um administrador [habilita as notificações de spam para o usuário final](configure-your-spam-filter-policies.md), os destinatários das mensagens receberão notificações periódicas sobre suas mensagens que foram colocadas em quarentena como spam, emails em massa ou (em abril de 2020) phishing.
 
-A mensagem recebida inclui o número de mensagens de spam em quarentena que você tem e a data e a hora (no UTC ou horário coordenado universal) da última mensagem na lista. A lista inclui o seguinte para cada mensagem:
+> [!NOTE]
+> Em outubro de 2019, removemos a capacidade de liberar mensagens em quarentena diretamente de notificações de spam do usuário final. Em vez disso, os usuários agora podem ir para o centro de conformidade & segurança do Office 365 para liberar as mensagens em quarentena (seja diretamente ou clicando em **revisar** na notificação). Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md). <br/><br/> As mensagens que foram colocadas em quarentena como phishing de alta confiança, malware ou por regras de fluxo de emails (também conhecidas como regras de transporte) só estão disponíveis para administradores. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador no Office 365](find-and-release-quarantined-messages-as-an-administrator.md).
 
-- **Remetente** O nome de envio e o endereço de email da mensagem em quarentena.
+Uma notificação de spam do usuário final contém as seguintes informações para cada mensagem em quarentena:
 
-- **Assunto** O texto da linha do assunto da mensagem em quarentena.
+- **Remetente**: o nome de envio e o endereço de email da mensagem em quarentena.
 
-- **Data** A data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
+- **Assunto**: o texto da linha de assunto da mensagem em quarentena.
 
-Estas são as ações que você pode realizar com uma mensagem em quarentena:
+- **Date**: a data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
 
-- **Bloquear remetente** se quiser que o Office 365 adicione o remetente à sua lista de remetentes bloqueados.
+- **Remetente do bloco**: clique neste link para adicionar o remetente à sua lista de remetentes bloqueados.
 
-- **Versão** se a mensagem não for spam e se você quiser que o Office 365 envie a mensagem para sua caixa de correio.
+- **Revisão**: clique neste link para ir para a quarentena no centro de conformidade & segurança, onde você pode liberar, excluir ou relatar suas mensagens em quarentena.
 
-- **Revise** para navegar até o portal de quarentena no centro de segurança e conformidade se você quiser realizar outras ações, como visualizar ou liberar.
-
-Esteja ciente do seguinte:
-
-- Malware e mensagens de phishing de alta confiança e mensagens colocadas em quarentena porque corresponderam a uma regra de fluxo de emails não estão incluídas nas notificações de spam do usuário. 
-
-- Você só pode liberar uma mensagem e relatá-la como falso positivo (e não como lixo eletrônico) uma vez.
+![Exemplo de notificação de spam do usuário final](../../media/end-user-spam-notification.png)

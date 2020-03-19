@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 11eba274c5386bcf1b98c2d741078e035a02f150
-  ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "42410018"
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857316"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de TI
@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Centro de administração do Microsoft 365
       summary: Configurar e gerenciar o Office 365 e os serviços do Microsoft 365 para sua organização.
-      url: ./admin/admin-home.md
+      url: ./admin/admin-home.yml
     - title: Microsoft 365 Business
       summary: Projetado para empresas de pequeno e médio porte. Administre sua empresa com as versões mais recentes dos aplicativos do Windows e do Office como Excel e Outlook. Aproveite a proteção de dados e a segurança que se estende a todos os seus dispositivos de negócios.
       url: ./business/index.yml

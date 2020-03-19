@@ -17,27 +17,27 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso Pesquisar e limpar do Centro de Segurança e Conformidade do Office365 para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: 27340bf832feee0dc7b5222f187816b0dfa1bb59
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 9e3825fbbe3c058e6f8fff48511e4e450b3e54e9
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634159"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710510"
 ---
-# <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Pesquisar e excluir mensagens de e-mail em sua organização do Office 365
+# <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
 **Este artigo é para os administradores. Você está tentando encontrar itens na sua caixa de correio que deseja excluir? Consulte [Localizar uma mensagem ou um item com a Pesquisa Instantânea](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**|
    
 Você pode usar o recurso Pesquisa de Conteúdo no Office365 para pesquisar e excluir uma mensagem de email de todas as caixas de correio da sua organização. Isso pode ajudar você a encontrar e remover um email potencialmente nocivo ou de alto risco, como por exemplo:
   
 - Mensagens que contenham anexos perigosos ou vírus
-    
+
 - Mensagens de phishing
-    
+
 - Mensagens que contêm dados confidenciais
-    
+
 > [!CAUTION]
-> Pesquisar e limpar é um recurso poderoso que permite a qualquer pessoa com as permissões necessárias excluir mensagens de email de caixas de correio em sua organização. 
+> Pesquisar e limpar é um recurso poderoso que permite a qualquer pessoa com as permissões necessárias excluir mensagens de email de caixas de correio em sua organização.
   
 ## <a name="before-you-begin"></a>Antes de começar
 

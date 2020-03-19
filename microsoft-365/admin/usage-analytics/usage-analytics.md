@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obtenha uma visão geral de como sua organização está adotando os serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 8770d3f49c50ffcab46c1aba302320a49cff8312
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 0481f894a4841488b20af90cd7c00619d2ad5c98
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633419"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826376"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 ---
-A análise de uso do Microsoft 365 também está disponível para a Comunidade do governo dos EUA da Microsoft 365.
+A análise de uso do Microsoft 365 ainda não está disponível para a Comunidade do governo dos EUA da Microsoft 365.
  
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Visão geral da análise de uso do Microsoft 365
 
@@ -51,7 +51,7 @@ Este resumo permite que você entenda rapidamente os padrões de uso no Office e
 
 ![Imagem do resumo executivo de uso do Microsoft 365.](../../media/office365usage-exec-summary.png)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O relatório de visão geral do Microsoft 365 contém os seguintes relatórios. Você pode exibi-las escolhendo a guia na parte superior da página de relatório. Todos os valores do mês mostrados na seção superior do relatório referem-se ao último mês completo.
 

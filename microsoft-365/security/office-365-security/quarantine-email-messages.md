@@ -17,31 +17,30 @@ search.appverid:
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
-description: Você pode configurar uma quarentena para mensagens de email de entrada no Office 365, onde as mensagens de email de entrada que foram filtradas como spam, em massa, emails de phishing e malware podem ser mantidas para revisão posterior.
-ms.openlocfilehash: 280421457662dd30cdcc3c7985feaad7ba0d16f2
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+description: A quarentena no Office 365 contém mensagens potencialmente perigosas ou indesejadas. Administradores e usuários finais podem acessar a quarentena.
+ms.openlocfilehash: 9c82ba9821c42fe6c3dd78dbcecf63327d176e93
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957426"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857304"
 ---
-# <a name="quarantine-email-messages-in-office-365"></a>Colocar mensagens de email em quarentena no Office 365
+# <a name="quarantine-in-office-365"></a>Quarentena no Office 365
 
-Você pode configurar a quarentena para mensagens de email de entrada no Office 365, em que as mensagens que foram filtradas como spam, emails em massa, emails de phishing, emails que contenham malware e email que correspondam a uma regra de fluxo de emails especificado (também conhecida como regra trasport) podem ser mantidas para uso posterior exame.
-  
-Por padrão, as mensagens que foram filtradas para phishing, malware e regras de fluxo de email são enviadas para quarentena, enquanto as mensagens que foram filtradas como spam e emails em massa são enviadas para a pasta lixo eletrônico dos destinatários. Como administrador, você pode configurar as políticas de filtro de spam (também conhecidas como políticas de filtro de conteúdo) para enviar mensagens de spam e de email em massa para quarentena em vez disso. Para obter mais informações, consulte [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md).
-  
-Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena. Os usuários podem trabalhar com apenas suas próprias mensagens filtradas em quarentena. Os administradores podem pesquisar e gerenciar mensagens em quarentena para todos os usuários.
+Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena estará disponível para armazenar mensagens potencialmente perigosas ou indesejadas.
 
-> [!NOTE]
-> Malware, mensagens de phishing de alta confiança e mensagens em quarentena por ações de regra de fluxo de emails estão disponíveis somente na quarentena de administração. Os usuários podem acessar suas próprias mensagens de phishing, spam e email em massa. 
-  
-Saiba mais sobre como trabalhar com mensagens em quarentena:
-  
-- [Gerenciar mensagens em quarentena como um administrador](manage-quarantined-messages-and-files.md)
+As políticas Antimalware automaticamente colocarão uma mensagem em quarentena se *qualquer* anexo tiver malware. Para obter mais informações, consulte [Configure anti-malware Policies in Office 365](configure-anti-malware-policies.md).
 
-- [Localizar e liberar mensagens em quarentena como um usuário final](find-and-release-quarantined-messages-as-a-user.md)
+Por padrão, o anti-spam policia as mensagens de phishing e entrega mensagens de email em massa e spam para a pasta lixo eletrônico do usuário. No entanto, você também pode criar e personalizar políticas antispam para colocar em quarentena spam e mensagens de email em massa. Para obter mais informações, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
 
-- [Usar notificações de spam do usuário para liberar e relatar mensagens de spam em quarentena](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena:
 
-- [Quarantine FAQ](quarantine-faq.md)
+- Os administradores podem trabalhar com todos os tipos de mensagens em quarentena para todos os usuários. Somente os administradores podem trabalhar com mensagens colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md).
+
+- Os usuários podem trabalhar com mensagens em quarentena onde eles são um destinatário se a mensagem foi colocada em quarentena como spam, email em massa ou (a partir de abril de 2020). Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md).
+
+  Para impedir que os usuários gerenciem suas próprias mensagens de phishing em quarentena, os administradores podem configurar uma ação diferente para a veredicto de filtragem de **email de phishing** em políticas antispam. Para obter mais informações, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
+
+- Administradores e usuários podem relatar falsos positivos para a Microsoft em quarentena.
+
+Para obter mais informações sobre, quarentena, consulte [perguntas frequentes sobre quarentena](quarantine-faq.md).

@@ -24,29 +24,29 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: 'Encontre respostas para suas principais perguntas de cobrança para a assinatura do Office 365 para empresas. '
-ms.openlocfilehash: 5f889c9f402d059dc068e987eb4384a58d0e4fe2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Encontre respostas para suas principais perguntas de cobrança para sua assinatura de negócios.
+ms.openlocfilehash: 661339518f43531f656ee9960d7f005fd1398023
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237375"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826296"
 ---
-# <a name="top-billing-questions-for-office-365-for-business"></a>Principais perguntas sobre cobrança para o Office 365 for Business
+# <a name="top-billing-questions-for-business-subscriptions"></a>Principais perguntas de cobrança para assinaturas de negócios
 
 Você tem dúvidas sobre o demonstrativo de facturação? Aqui estão as respostas para as principais perguntas de cobrança.
   
-Se você não conseguir encontrar uma resposta para a sua pergunta ou se tiver um problema com sua conta, [entre em contato](../../admin/contact-support-for-business-products.md) com o suporte para obter assistência. 
+Se você não conseguir encontrar uma resposta para a sua pergunta ou se tiver um problema com sua conta, [entre em contato](../../admin/contact-support-for-business-products.md) com o suporte para obter assistência.
   
 ::: moniker range="o365-worldwide"
 
-Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura do Office 365 para empresas](understand-your-invoice2.md).
+Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura](understand-your-invoice2.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura do Office 365 para empresas](understand-your-invoice2.md).
+Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura](understand-your-invoice2.md).
 
 ::: moniker-end
 
@@ -57,13 +57,13 @@ Se você precisar de ajuda para interpretar os encargos exibidos na sua cobranç
 O suporte à cobrança é fornecido em inglês, de segunda a sexta, das 6 horas à hora do Pacífico (UTC-8) e de 5 a 9 P.M. na Austrália (UTC + 8).
   
 - Nos Estados Unidos, ligue para 1 (800) 865-9408.
-    
+
 - Na Austrália, ligue para 1 (800) 197-503.
-    
+
 - No Canadá, ligue para 1 (800) 865-9408.
-    
+
 - No Reino Unido, ligue para 0 (800) 032-6417.
-    
+
 Para obter mais números de telefone de contato por país ou região, confira [contatar o suporte para produtos de negócios](../../admin/contact-support-for-business-products.md).
   
 ::: moniker-end
@@ -73,7 +73,7 @@ Para obter mais números de telefone de contato por país ou região, confira [c
 O suporte à cobrança é fornecido em alemão e inglês, de segunda a sexta, de 9 A.M. às 5 P.M. (UTC + 1).
   
 - Na Alemanha, ligue para 0800 589 2330.
-    
+
 Para obter mais números de telefone de contato por país ou região, [entre em contato com o suporte para produtos de negócios](../../admin/contact-support-for-business-products.md).
   
 ::: moniker-end
@@ -87,31 +87,31 @@ Para perguntas sobre o Office 365 operado pela 21Vianet, [entre em contato com o
 ::: moniker range="o365-worldwide"
 ## <a name="how-do-i-update-my-credit-card-or-bank-account-information"></a>Como faço para atualizar minhas informações de cartão de crédito ou conta bancária?
 
-Confira [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Office 365 para empresas](add-update-or-remove-credit-card-or-bank-account.md).
+Consulte [Manage Payment Methods](manage-payment-methods.md).
   
 > [!NOTE]
-> O pagamento por meio de conta bancária não está disponível em alguns países ou regiões. 
+> O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="how-do-i-update-my-credit-card-or-bank-account-information"></a>Como faço para atualizar minhas informações de cartão de crédito ou conta bancária?
 
-Confira [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Office 365 para empresas](add-update-or-remove-credit-card-or-bank-account.md).
+Consulte [Manage Payment Methods](manage-payment-methods.md).
   
 > [!NOTE]
-> O pagamento por meio de conta bancária não está disponível em alguns países ou regiões. 
+> O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
   
 ::: moniker-end
 
 ## <a name="can-i-change-the-method-i-use-to-pay-for-my-subscription"></a>Posso alterar o método que uso para pagar pela minha assinatura?
 
-Sim. Confira [alterar sua forma de pagamento para o Office 365 for Business] Change-Payment-method.md).
+Sim. Confira [alterar sua forma de pagamento](change-payment-method.md).
   
 ::: moniker range="o365-worldwide"
 ## <a name="can-i-change-how-frequently-i-pay-for-my-subscription"></a>Posso mudar a frequência com que eu pago por minha assinatura?
 
-Sim, mas você precisará [chamar o suporte](../../admin/contact-support-for-business-products.md) para obter assistência. 
+Sim, mas você precisará [chamar o suporte](../../admin/contact-support-for-business-products.md) para obter assistência.
 
 ::: moniker-end
 
@@ -121,11 +121,11 @@ Sim, mas você precisará [chamar o suporte](../../admin/contact-support-for-bus
 Sim. Para obter sua instrução de cobrança como um anexo de email, use as seguintes etapas:
   
 1. No centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">notificações de cobrança</a> ou selecione **notificações de cobrança**de **cobrança** \> .
-    
+
 2. Em **Deseja receber o demonstrativo como um anexo de email?**, alterne o botão para a posição **Ativado**.
-    
+
     Para deixar de receber o demonstrativo por email a qualquer momento, alterne o botão para a posição **Desativado**.
-    
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -134,11 +134,11 @@ Sim. Para obter sua instrução de cobrança como um anexo de email, use as segu
 Sim. Para obter sua instrução de cobrança como um anexo de email, use as seguintes etapas:
   
 1. No Centro de Administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Notificações de cobrança</a>.
-    
+
 2. Em **Deseja receber o demonstrativo como um anexo de email?**, alterne o botão para a posição **Ativado**.
-    
+
     Para deixar de receber o demonstrativo por email a qualquer momento, alterne o botão para a posição **Desativado**.
-    
+
 ::: moniker-end
 
 ## <a name="how-do-i-cancel-a-subscription"></a>Como cancelo uma assinatura?
@@ -151,13 +151,13 @@ O total que é exibido na página de faturas é o saldo da fatura-o total da dat
   
 ::: moniker range="o365-worldwide"
 
-Confira [exibir sua cobrança ou fatura do Office 365 para empresas](view-your-bill-or-invoice.md).
+Confira [exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Confira [exibir sua cobrança ou fatura do Office 365 para empresas](view-your-bill-or-invoice.md).
+Confira [exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
 
 ::: moniker-end
 
@@ -167,32 +167,31 @@ Confira [exibir sua cobrança ou obter Fapiaos no Office 365 operado pela 21vian
 
 ::: moniker-end
 
-  
 ::: moniker range="o365-worldwide"
 ## <a name="what-taxes-will-i-be-charged"></a>Quais são os impostos que serei cobrados?
 
-Veja [qual é o imposto que serei cobrado para o Office 365?](what-tax-will-i-be-charged.md) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região. 
+Veja [qual é o imposto que serei cobrado?](tax-information.md#what-tax-will-i-be-charged) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="what-taxes-will-i-be-charged"></a>Quais são os impostos que serei cobrados?
 
-Veja [qual é o imposto que serei cobrado para o Office 365?](what-tax-will-i-be-charged.md) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região. 
+Veja [qual é o imposto que serei cobrado?](tax-information.md#what-tax-will-i-be-charged) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região.
   
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 ## <a name="how-do-i-apply-for-tax-exempt-status"></a>Como posso aplicar o status de isenção de imposto?
 
-Você pode [aplicar o status de isenção de imposto para o Office 365 for Business](apply-for-tax-exempt-status.md) fornecendo a documentação adequada ao suporte. 
+Você pode [aplicar o status de isenção de imposto](tax-information.md#apply-for-tax-exempt-status) fornecendo a documentação adequada ao suporte.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="how-do-i-apply-for-tax-exempt-status"></a>Como posso aplicar o status de isenção de imposto?
 
-Você pode [aplicar o status de isenção de imposto para o Office 365 for Business](apply-for-tax-exempt-status.md) fornecendo a documentação adequada ao suporte. 
+Você pode [aplicar o status de isenção de imposto](tax-information.md#apply-for-tax-exempt-status) fornecendo a documentação adequada ao suporte.
   
 ::: moniker-end
 
@@ -204,7 +203,7 @@ Você pode [aplicar o status de isenção de imposto para o Office 365 for Busin
   
 2. Para imprimir ou salvar uma cópia em PDF da lista, selecione **baixar PDF de fatura**e, em seguida, imprimir o PDF.
 
-Para saber mais, confira [exibir sua cobrança ou fatura do Office 365 para empresas](view-your-bill-or-invoice.md).
+Para saber mais, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 ::: moniker-end
 
@@ -214,7 +213,7 @@ Para saber mais, confira [exibir sua cobrança ou fatura do Office 365 para empr
   
 2. Para imprimir ou salvar uma cópia em PDF da lista, selecione **baixar PDF de fatura**e, em seguida, imprimir o PDF.
 
-Para saber mais, confira [exibir sua cobrança ou fatura do Office 365 para empresas](view-your-bill-or-invoice.md).
+Para saber mais, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 ::: moniker-end
 
@@ -230,4 +229,4 @@ Para saber mais, confira [exibir sua cobrança ou obter Fapiaos no Office 365 op
 
 ## <a name="why-dont-i-see-any-bills"></a>Por que não vejo nenhuma fatura?
 
-Se você tiver apenas assinaturas de avaliação ou se usou uma chave de produto pré-paga que comprou em uma loja de varejo ou de um parceiro do Office 365, não terá nenhuma fatura.
+Se você tiver apenas assinaturas de avaliação ou se usou uma chave de produto pré-paga que comprou em uma loja de varejo ou de um parceiro, não terá nenhuma fatura.

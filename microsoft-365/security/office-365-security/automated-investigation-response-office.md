@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 341d950f81d0d74deab901f0e5af24a559c0f342
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 420143a6a2888900cdc128b22f7b0bcb05adad27
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633819"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826398"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
@@ -30,7 +30,7 @@ Este artigo fornece uma visão geral do AIR. Quando estiver pronto para começar
 
 ## <a name="at-a-high-level"></a>Em um nível alto
 
-À medida que os alertas são disparados, os guias de segurança entram em vigor. Dependendo da situação, um processo de [investigação automatizado](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) pode começar. Durante e após uma investigação automatizada, [ações de correção](air-remediation-actions.md) são recomendadas. Nenhuma ação é executada automaticamente no Office 365 proteção avançada contra ameaças. Sua equipe de operações de segurança é revisada e, em seguida, [aprova ou rejeita cada ação de correção](air-remediation-actions.md#approve-or-reject-pending-actions)e, quando isso é feito, cada investigação é concluída. Todas essas atividades são rastreadas e visíveis no centro de conformidade & segurança do Office 365 (consulte [Exibir detalhes de uma investigação](air-view-investigation-results.md#view-details-of-an-investigation)).
+À medida que os alertas são disparados, os guias de segurança entram em vigor. Dependendo da situação, um processo de [investigação automatizado](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) pode começar. Durante e após uma investigação automatizada, [ações de correção](air-remediation-actions.md) são recomendadas. Nenhuma ação é executada automaticamente no Office 365 proteção avançada contra ameaças. Sua equipe de operações de segurança é revisada e, em seguida, [aprova ou rejeita cada ação de correção](air-review-approve-pending-completed-actions.md)e, quando isso é feito, cada investigação é concluída. Todas essas atividades são rastreadas e visíveis no centro de conformidade & segurança do Office 365 (consulte [Exibir detalhes de uma investigação](air-view-investigation-results.md#view-details-of-an-investigation)).
 
 As seções a seguir fornecem mais detalhes sobre alertas, guias de segurança e exemplos de ar em ação.
 

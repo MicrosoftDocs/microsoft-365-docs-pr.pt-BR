@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba mais sobre contas de cobrança e como gerenciá-las.
-ms.openlocfilehash: 1470549bf77a6f58fb2c023ef7b85bd41ac10ee9
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: ce7b9d2a2cc35261c7e6e3f5547574ea9c49e658
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280239"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826262"
 ---
 # <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
 
@@ -42,14 +42,14 @@ A tabela a seguir lista os termos importantes exibidos na página de detalhes de
 
 | Nome do campo | Descrição |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Endereço vendido para | A entidade legal responsável pelo pagamento e identificada na fatura. O endereço fornecido aqui é usado para determinar sua taxa de imposto, a menos que você opte por fornecer um endereço de envio alternativo durante sua compra. Para obter mais informações, consulte [Tax Information](#tax-information). |
+| Endereço vendido para | A entidade legal responsável pelo pagamento e identificada na fatura. O endereço fornecido aqui é usado para determinar sua taxa de imposto, a menos que você opte por fornecer um endereço de envio alternativo durante sua compra. Para obter mais informações, consulte [Tax Information](billing-and-payments/tax-information.md). |
 | Segmento | Um campo somente leitura que identifica o segmento comercial de sua organização (comercial, educação, governo ou sem fins lucrativos). |
 | Status da conta | Um campo somente leitura que especifica o status de sua conta comercial com a Microsoft. |
-| ID de imposto | Se você estiver fora dos Estados Unidos, você deve fornecer um VAT ou equivalente local. Para obter mais informações, consulte [Tax Information](#tax-information). |
+| ID de imposto | Se você estiver fora dos Estados Unidos, você deve fornecer um VAT ou equivalente local. Para obter mais informações, consulte [Tax Information](billing-and-payments/tax-information.md). |
 | Contrato | Quando uma conta de cobrança é criada, seja por meio de uma compra direta ou de uma organização de licenciamento por volume, um signatário para a organização aceita ou assina um contrato que descreve os termos & condições da conta. Se aplicável, este modo de exibição lista o histórico de contratos. Se for necessário aceitar termos atualizados, um link para **aprovar contrato** será exibido. |
 | Perfis de cobrança | Um perfil de cobrança define as propriedades de sua fatura, como quem recebe a lista, como a cobrança é entregue, as condições de pagamento e um número de OC. Para distribuir cobrança em toda a sua organização, você pode criar vários perfis de cobrança e identificar o perfil de cobrança apropriado no momento da compra. Para obter mais informações sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, [gerencie perfis de cobrança](billing-and-payments/manage-billing-profiles.md). |
 
-> [!NOTE] 
+> [!NOTE]
 > Se você quiser alterar o nome ou endereço de **vendido para** , mas não vir um link de **edição** , você deve [entrar em contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) com o suporte para alterá-lo. As solicitações para uma alteração de nome **vendidas** exigirão uma verificação de crédito. Ao entrar em contato com o suporte, tenha um dos seguintes documentos prontos:
 >
 > - Documento de anúncio externo que indica qualquer alteração no nome da empresa ou na estrutura corporativa
@@ -73,88 +73,8 @@ Você pode fornecer a outras pessoas acesso à conta de cobrança no centro de a
 > [!Note]
 > As funções de conta de cobrança só se aplicam às contas de cobrança e não se aplicam a outros cenários do centro de administração do Microsoft 365.
 
-## <a name="tax-information"></a>Informações sobre impostos
+## <a name="related-articles"></a>Artigos relacionados
 
-Os impostos para compras do centro de administração do Microsoft 365 que você faz através da Microsoft são determinados pelo endereço comercial ou, se for diferente, pelo seu endereço de entrega. Se estiver nos Estados Unidos, você deve fornecer um número de identificação de empregador Federal (FEIN).
+[Informações sobre impostos](billing-and-payments/tax-information.md)
 
-As empresas nesses países podem fornecer o número de IVA:
-
-:::row:::
-    :::column:::
-- Áustria
-- Bélgica
-- Bulgária
-- Croácia
-- Chipre
-- República Tcheca
-- Dinamarca
-- Estônia
-- Finlândia
-- França
-- Alemanha
-- Grécia
-- Hungria
-- Irlanda
-- Itália
-- Letônia
-    :::column-end:::
-    :::column:::
-- Liechtenstein
-- Lituânia
-- Luxemburgo
-- Malta
-- Mônaco
-- Países Baixos
-- Noruega
-- Polônia
-- Portugal
-- Romênia
-- Eslováquia
-- África do Sul
-- Espanha
-- Suécia
-- Suíça
-- Reino Unido
-    :::column-end:::
-:::row-end:::
-
-Esses países podem fornecer o número de IVA ou o equivalente local em suas informações de conta de cobrança.
-
-|Comercial| Identificador de imposto |
-|------|----------------|
-| Austrália | ABN (opcional) |
-| Brasil | CNPJ (obrigatório) |
-| Índia | GSTIN (opcional), ID de panorâmica (obrigatório) |
-| Ilha de Man | ID de IVA (opcional) |
-| Nova Zelândia | Número de registro de GST (opcional) |
-| Mônaco | ID de IVA (opcional) |
-| Taiwan | ID de IVA (opcional) |
-
-> [!Note]
-> Se você precisar entrar em contato com o suporte, peça que o FEIN, o número de IVA ou o equivalente local estejam prontos para dar ao agente de suporte.
-
-## <a name="tax-exempt-status"></a>Status de isenção de imposto
-
-Se você estiver qualificado para status de isenção de impostos em seu mercado, [inicie uma solicitação de serviço](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) para estabelecer o status de isenção de imposto para sua organização.
-
-Prepare a seguinte documentação:
-
-|País ou localidade | Documentação |
-|------------------|----------------|
-| Estados Unidos | Certificado de isenção de impostos sobre vendas |
-| Canadá | Certificado de isenção (ou carta equivalente de autorização) |
-| Irlanda | Certificado de isenção de imposto 13B/56A|
-| Organizações internacionais que mantêm a isenção de impostos | Confirmação de carta/certificação de autoridades fiscais locais |
-| Porto Rico | Certificado de compras exentas |
-
-## <a name="calculate-taxes"></a>Calcular impostos
-
-Os impostos sobre vendas são calculados em relação ao preço unitário e, em seguida, agregados.
-
-Por exemplo:
-
->*(preço unitário X taxa de imposto) X quantidade = total de imposto sobre vendas*
-
-- ou -
-
->($1.29 X 0, 95) X 100 = $12.25
+[Gerenciar perfis de cobrança](billing-and-payments/manage-billing-profiles.md)
