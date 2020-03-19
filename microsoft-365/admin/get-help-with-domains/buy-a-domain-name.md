@@ -22,103 +22,103 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio no Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 8b2b23e2e699723d54ecb7ca2807296641178664
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250650"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857434"
 ---
-# <a name="buy-a-domain-name-in-office-365"></a><span data-ttu-id="3381b-103">Comprar um nome de domínio no Office 365</span><span class="sxs-lookup"><span data-stu-id="3381b-103">Buy a domain name in Office 365</span></span>
+# <a name="buy-a-domain-name-in-office-365"></a><span data-ttu-id="5f859-103">Comprar um nome de domínio no Office 365</span><span class="sxs-lookup"><span data-stu-id="5f859-103">Buy a domain name in Office 365</span></span>
 
- <span data-ttu-id="3381b-104">*Para adicionar, modificar ou remover domínios, você **deve** ser um **administrador global** de um [plano comercial ou empresarial](https://products.office.com/business/office). Essas alterações afetam todo o locatário, *os administradores personalizados* ou *os usuários regulares* não poderão fazer essas alterações.*</span><span class="sxs-lookup"><span data-stu-id="3381b-104">*To Add, modify or remove domains you **must** be a **Global Administrator** of a [business or enterprise plan](https://products.office.com/business/office). These changes affect the whole tenant, *Customized administrators* or *regular users* won't be able to make these changes.*</span></span>  
+ <span data-ttu-id="5f859-104">*Para adicionar, modificar ou remover domínios, você **deve** ser um **administrador global** de um [plano comercial ou empresarial](https://products.office.com/business/office). Essas alterações afetam todo o locatário, *os administradores personalizados* ou *os usuários regulares* não poderão fazer essas alterações.*</span><span class="sxs-lookup"><span data-stu-id="5f859-104">*To Add, modify or remove domains you **must** be a **Global Administrator** of a [business or enterprise plan](https://products.office.com/business/office). These changes affect the whole tenant, *Customized administrators* or *regular users* won't be able to make these changes.*</span></span>  
 
- <span data-ttu-id="3381b-105">Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="3381b-105">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="5f859-105">Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="5f859-105">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a><span data-ttu-id="3381b-106">Entrar e acessar os domínios \> \> de configurações comprar um domínio</span><span class="sxs-lookup"><span data-stu-id="3381b-106">Sign in and go to Settings \> Domains \> Buy a domain</span></span>
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a><span data-ttu-id="5f859-106">Entrar e acessar os domínios \> \> de configurações comprar um domínio</span><span class="sxs-lookup"><span data-stu-id="5f859-106">Sign in and go to Settings \> Domains \> Buy a domain</span></span>
 
-1. <span data-ttu-id="3381b-107">No centro de administração, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .</span><span class="sxs-lookup"><span data-stu-id="3381b-107">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="5f859-107">No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.</span><span class="sxs-lookup"><span data-stu-id="5f859-107">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
     
-3. <span data-ttu-id="3381b-108">Na página **domínios** , selecione **comprar domínio**.</span><span class="sxs-lookup"><span data-stu-id="3381b-108">On the **Domains** page, select **Buy domain**.</span></span>
+3. <span data-ttu-id="5f859-108">Na página **domínios** , selecione **comprar domínio**.</span><span class="sxs-lookup"><span data-stu-id="5f859-108">On the **Domains** page, select **Buy domain**.</span></span>
     
-<span data-ttu-id="3381b-109">Escolha um entre os domínios de nível superior para seu domínio.</span><span class="sxs-lookup"><span data-stu-id="3381b-109">You can choose from the following top level domains for your domain.</span></span>
+<span data-ttu-id="5f859-109">Escolha um entre os domínios de nível superior para seu domínio.</span><span class="sxs-lookup"><span data-stu-id="5f859-109">You can choose from the following top level domains for your domain.</span></span>
   
-- <span data-ttu-id="3381b-110">. biz</span><span class="sxs-lookup"><span data-stu-id="3381b-110">.biz</span></span>
+- <span data-ttu-id="5f859-110">. biz</span><span class="sxs-lookup"><span data-stu-id="5f859-110">.biz</span></span>
     
-- <span data-ttu-id="3381b-111">. com</span><span class="sxs-lookup"><span data-stu-id="3381b-111">.com</span></span>
+- <span data-ttu-id="5f859-111">. com</span><span class="sxs-lookup"><span data-stu-id="5f859-111">.com</span></span>
     
-- <span data-ttu-id="3381b-112">. info</span><span class="sxs-lookup"><span data-stu-id="3381b-112">.info</span></span>
+- <span data-ttu-id="5f859-112">. info</span><span class="sxs-lookup"><span data-stu-id="5f859-112">.info</span></span>
     
-- <span data-ttu-id="3381b-113">. me</span><span class="sxs-lookup"><span data-stu-id="3381b-113">.me</span></span>
+- <span data-ttu-id="5f859-113">. me</span><span class="sxs-lookup"><span data-stu-id="5f859-113">.me</span></span>
     
-- <span data-ttu-id="3381b-114">.mobi</span><span class="sxs-lookup"><span data-stu-id="3381b-114">.mobi</span></span>
+- <span data-ttu-id="5f859-114">.mobi</span><span class="sxs-lookup"><span data-stu-id="5f859-114">.mobi</span></span>
     
-- <span data-ttu-id="3381b-115">.net</span><span class="sxs-lookup"><span data-stu-id="3381b-115">.net</span></span>
+- <span data-ttu-id="5f859-115">.net</span><span class="sxs-lookup"><span data-stu-id="5f859-115">.net</span></span>
     
-- <span data-ttu-id="3381b-116">. org</span><span class="sxs-lookup"><span data-stu-id="3381b-116">.org</span></span>
+- <span data-ttu-id="5f859-116">. org</span><span class="sxs-lookup"><span data-stu-id="5f859-116">.org</span></span>
     
-- <span data-ttu-id="3381b-117">. TV</span><span class="sxs-lookup"><span data-stu-id="3381b-117">.tv</span></span>
+- <span data-ttu-id="5f859-117">. TV</span><span class="sxs-lookup"><span data-stu-id="5f859-117">.tv</span></span>
     
-- <span data-ttu-id="3381b-118">. co.uk</span><span class="sxs-lookup"><span data-stu-id="3381b-118">.co.uk</span></span>
+- <span data-ttu-id="5f859-118">. co.uk</span><span class="sxs-lookup"><span data-stu-id="5f859-118">.co.uk</span></span>
     
-- <span data-ttu-id="3381b-119">org.uk</span><span class="sxs-lookup"><span data-stu-id="3381b-119">org.uk</span></span>
+- <span data-ttu-id="5f859-119">org.uk</span><span class="sxs-lookup"><span data-stu-id="5f859-119">org.uk</span></span>
     
 
 > [!NOTE]
-> <span data-ttu-id="3381b-120">Ao selecionar **comprar domínio**, você pode ser redirecionado para o site do seu parceiro da Microsoft se o locatário for comprado/gerenciado por meio de um parceiro da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3381b-120">When you select **Buy domain**, you may be redirected to your Microsoft partner's website if the tenant is purchased/managed through a Microsoft partner.</span></span>
+> <span data-ttu-id="5f859-120">Ao selecionar **comprar domínio**, você pode ser redirecionado para o site do seu parceiro da Microsoft se o locatário for comprado/gerenciado por meio de um parceiro da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="5f859-120">When you select **Buy domain**, you may be redirected to your Microsoft partner's website if the tenant is purchased/managed through a Microsoft partner.</span></span>
 
-### <a name="domain-privacy"></a><span data-ttu-id="3381b-121">Privacidade do domínio</span><span class="sxs-lookup"><span data-stu-id="3381b-121">Domain Privacy</span></span>
-<span data-ttu-id="3381b-122">Oferecemos uma assinatura de privacidade de domínio livre com a compra de um domínio.</span><span class="sxs-lookup"><span data-stu-id="3381b-122">We offer a free Domain Privacy Subscription with the purchase of a domain.</span></span> <span data-ttu-id="3381b-123">Isso mantém suas informações de contato anexadas ao registro do seu domínio com o ICANN privado.</span><span class="sxs-lookup"><span data-stu-id="3381b-123">This keeps your contact information attached to the registration of your domain with ICANN private.</span></span> [<span data-ttu-id="3381b-124">Saiba Mais.</span><span class="sxs-lookup"><span data-stu-id="3381b-124">Learn more.</span></span>](https://whois.icann.org/en/privacy-and-proxy-services)
+### <a name="domain-privacy"></a><span data-ttu-id="5f859-121">Privacidade do domínio</span><span class="sxs-lookup"><span data-stu-id="5f859-121">Domain Privacy</span></span>
+<span data-ttu-id="5f859-122">Oferecemos uma assinatura de privacidade de domínio livre com a compra de um domínio.</span><span class="sxs-lookup"><span data-stu-id="5f859-122">We offer a free Domain Privacy Subscription with the purchase of a domain.</span></span> <span data-ttu-id="5f859-123">Isso mantém suas informações de contato anexadas ao registro do seu domínio com o ICANN privado.</span><span class="sxs-lookup"><span data-stu-id="5f859-123">This keeps your contact information attached to the registration of your domain with ICANN private.</span></span> [<span data-ttu-id="5f859-124">Saiba Mais.</span><span class="sxs-lookup"><span data-stu-id="5f859-124">Learn more.</span></span>](https://whois.icann.org/en/privacy-and-proxy-services)
   
-### <a name="buy-a-domain-from-another-domain-registrar"></a><span data-ttu-id="3381b-125">Comprar um domínio de outro registrador de domínio</span><span class="sxs-lookup"><span data-stu-id="3381b-125">Buy a domain from another domain registrar</span></span>
-<span data-ttu-id="3381b-126">Se você quiser comprar um domínio de um registrador de domínios diferente de [GoDaddy](https://www.godaddy.com), recomendamos que você use um abaixo que ofereça suporte à instalação automática (conexão de domínio).</span><span class="sxs-lookup"><span data-stu-id="3381b-126">If you want to buy a domain from a domain registrar other than [GoDaddy](https://www.godaddy.com), we recommend you use one below that supports automatic setup (Domain Connect).</span></span> 
+### <a name="buy-a-domain-from-another-domain-registrar"></a><span data-ttu-id="5f859-125">Comprar um domínio de outro registrador de domínio</span><span class="sxs-lookup"><span data-stu-id="5f859-125">Buy a domain from another domain registrar</span></span>
+<span data-ttu-id="5f859-126">Se você quiser comprar um domínio de um registrador de domínios diferente de [GoDaddy](https://www.godaddy.com), recomendamos que você use um abaixo que ofereça suporte à instalação automática (conexão de domínio).</span><span class="sxs-lookup"><span data-stu-id="5f859-126">If you want to buy a domain from a domain registrar other than [GoDaddy](https://www.godaddy.com), we recommend you use one below that supports automatic setup (Domain Connect).</span></span> 
   
-- [<span data-ttu-id="3381b-127">1&amp;1 IONOS</span><span class="sxs-lookup"><span data-stu-id="3381b-127">1&amp;1 IONOS</span></span>](https://www.1and1.com/)
-- [<span data-ttu-id="3381b-128">WordPress</span><span class="sxs-lookup"><span data-stu-id="3381b-128">WordPress</span></span>](https://www.wordpress.com) 
+- [<span data-ttu-id="5f859-127">1&amp;1 IONOS</span><span class="sxs-lookup"><span data-stu-id="5f859-127">1&amp;1 IONOS</span></span>](https://www.1and1.com/)
+- [<span data-ttu-id="5f859-128">WordPress</span><span class="sxs-lookup"><span data-stu-id="5f859-128">WordPress</span></span>](https://www.wordpress.com) 
 
    
-### <a name="transfer-your-domain-to-a-different-domain-registrar"></a><span data-ttu-id="3381b-129">Transferir seu domínio para um registrador de domínio diferente</span><span class="sxs-lookup"><span data-stu-id="3381b-129">Transfer your domain to a different domain registrar</span></span>
+### <a name="transfer-your-domain-to-a-different-domain-registrar"></a><span data-ttu-id="5f859-129">Transferir seu domínio para um registrador de domínio diferente</span><span class="sxs-lookup"><span data-stu-id="5f859-129">Transfer your domain to a different domain registrar</span></span>
 
-<span data-ttu-id="3381b-p102">Se o seu domínio é gerenciado por um provedor que não oferece suporte a todos os registros DNS necessários, você pode transferi-lo para outro registrador. Ao transferir um domínio, você altera o destinatário dos pagamentos para renovar e manter seu nome de domínio.</span><span class="sxs-lookup"><span data-stu-id="3381b-p102">If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.</span></span>
+<span data-ttu-id="5f859-p102">Se o seu domínio é gerenciado por um provedor que não oferece suporte a todos os registros DNS necessários, você pode transferi-lo para outro registrador. Ao transferir um domínio, você altera o destinatário dos pagamentos para renovar e manter seu nome de domínio.</span><span class="sxs-lookup"><span data-stu-id="5f859-p102">If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.</span></span>
   
-<span data-ttu-id="3381b-p103">Solicite a transferência ao registrador para onde você deseja mover seu domínio. Procure no site deles uma opção como **Transferir DNS**. Não se esqueça de que, depois que fizerem as alterações, pode levar alguns dias até que a atualização seja efetivada na Internet.</span><span class="sxs-lookup"><span data-stu-id="3381b-p103">Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.</span></span>
+<span data-ttu-id="5f859-p103">Solicite a transferência ao registrador para onde você deseja mover seu domínio. Procure no site deles uma opção como **Transferir DNS**. Não se esqueça de que, depois que fizerem as alterações, pode levar alguns dias até que a atualização seja efetivada na Internet.</span><span class="sxs-lookup"><span data-stu-id="5f859-p103">Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.</span></span>
  
 
 
 
 ::: moniker range="o365-21vianet"
-## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a><span data-ttu-id="3381b-135">Como comprar um domínio para o Office 365 operado pela 21Vianet</span><span class="sxs-lookup"><span data-stu-id="3381b-135">How to buy a domain for Office 365 operated by 21Vianet</span></span>
+## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a><span data-ttu-id="5f859-135">Como comprar um domínio para o Office 365 operado pela 21Vianet</span><span class="sxs-lookup"><span data-stu-id="5f859-135">How to buy a domain for Office 365 operated by 21Vianet</span></span>
 
 
 
-<span data-ttu-id="3381b-p104">Se você ainda não tem seu próprio domínio, é possível comprar um online facilmente em um registrador, um revendedor de domínios ou, até mesmo, com seu provedor de Internet atual. Você obtém um nome de domínio quando se inscreve no Office 365 operado pela 21Vianet, por exemplo, contoso.partner.onmschina.cn, mas talvez você queira usar um nome de domínio personalizado, como fourthcoffee.com.</span><span class="sxs-lookup"><span data-stu-id="3381b-p104">If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.</span></span>
+<span data-ttu-id="5f859-p104">Se você ainda não tem seu próprio domínio, é possível comprar um online facilmente em um registrador, um revendedor de domínios ou, até mesmo, com seu provedor de Internet atual. Você obtém um nome de domínio quando se inscreve no Office 365 operado pela 21Vianet, por exemplo, contoso.partner.onmschina.cn, mas talvez você queira usar um nome de domínio personalizado, como fourthcoffee.com.</span><span class="sxs-lookup"><span data-stu-id="5f859-p104">If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.</span></span>
   
-<span data-ttu-id="3381b-139">Para configurar um domínio no Office 365, você deve possuir um domínio e alterar alguns dos registros de DNS desse domínio.</span><span class="sxs-lookup"><span data-stu-id="3381b-139">To set up a domain in Office 365, you must own a domain and change some of the DNS records for your domain.</span></span>
+<span data-ttu-id="5f859-139">Para configurar um domínio no Office 365, você deve possuir um domínio e alterar alguns dos registros de DNS desse domínio.</span><span class="sxs-lookup"><span data-stu-id="5f859-139">To set up a domain in Office 365, you must own a domain and change some of the DNS records for your domain.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="3381b-p105">Alguns registradores de domínio ou provedores de hospedagem de DNS não permitem a criação de todos os registros DNS necessários para o Office 365. Os registradores listados aqui oferecem suporte a todos os registros necessários. Se você está pensando em usar outro provedor de hospedagem, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77).</span><span class="sxs-lookup"><span data-stu-id="3381b-p105">Some domain registrars or DNS hosting providers do not allow creating all the DNS records required by Office 365. The following list of hosting providers supports all the needed records. If you're thinking of using a different hosting provider, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77).</span></span> 
+> <span data-ttu-id="5f859-p105">Alguns registradores de domínio ou provedores de hospedagem de DNS não permitem a criação de todos os registros DNS necessários para o Office 365. Os registradores listados aqui oferecem suporte a todos os registros necessários. Se você está pensando em usar outro provedor de hospedagem, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77).</span><span class="sxs-lookup"><span data-stu-id="5f859-p105">Some domain registrars or DNS hosting providers do not allow creating all the DNS records required by Office 365. The following list of hosting providers supports all the needed records. If you're thinking of using a different hosting provider, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77).</span></span> 
   
-<span data-ttu-id="3381b-143">Depois que você registrar seu domínio (com um registrador de domínio), entre no Office 365 como administrador e configure seu domínio para poder usá-lo com seu endereço de email e outros serviços.</span><span class="sxs-lookup"><span data-stu-id="3381b-143">After you register your domain (at a domain registrar), you sign in to Office 365 as an admin and set up your domain so you can use it with your email address and other services..</span></span>
+<span data-ttu-id="5f859-143">Depois que você registrar seu domínio (com um registrador de domínio), entre no Office 365 como administrador e configure seu domínio para poder usá-lo com seu endereço de email e outros serviços.</span><span class="sxs-lookup"><span data-stu-id="5f859-143">After you register your domain (at a domain registrar), you sign in to Office 365 as an admin and set up your domain so you can use it with your email address and other services..</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3381b-144">The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015.</span><span class="sxs-lookup"><span data-stu-id="3381b-144">The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015.</span></span> 
+> <span data-ttu-id="5f859-144">The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015.</span><span class="sxs-lookup"><span data-stu-id="5f859-144">The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015.</span></span> 
 
-## <a name="domain-registrars-that-support-all-dns-records-required-for-office-365"></a><span data-ttu-id="3381b-145">Registradores de domínio que oferecem suporte a todos os registros DNS necessários para o Office 365</span><span class="sxs-lookup"><span data-stu-id="3381b-145">Domain registrars that support all DNS records required for Office 365</span></span>
+## <a name="domain-registrars-that-support-all-dns-records-required-for-office-365"></a><span data-ttu-id="5f859-145">Registradores de domínio que oferecem suporte a todos os registros DNS necessários para o Office 365</span><span class="sxs-lookup"><span data-stu-id="5f859-145">Domain registrars that support all DNS records required for Office 365</span></span>
 
-- [<span data-ttu-id="3381b-146">Oray</span><span class="sxs-lookup"><span data-stu-id="3381b-146">Oray</span></span>](https://oray.com/)
+- [<span data-ttu-id="5f859-146">Oray</span><span class="sxs-lookup"><span data-stu-id="5f859-146">Oray</span></span>](https://oray.com/)
     
-- [<span data-ttu-id="3381b-147">HiChina</span><span class="sxs-lookup"><span data-stu-id="3381b-147">HiChina</span></span>](https://www.hichina.com/)
+- [<span data-ttu-id="5f859-147">HiChina</span><span class="sxs-lookup"><span data-stu-id="5f859-147">HiChina</span></span>](https://www.hichina.com/)
     
-- [<span data-ttu-id="3381b-148">east.net</span><span class="sxs-lookup"><span data-stu-id="3381b-148">east.net</span></span>](http://www.east.net/)
+- [<span data-ttu-id="5f859-148">east.net</span><span class="sxs-lookup"><span data-stu-id="5f859-148">east.net</span></span>](http://www.east.net/)
     
-- [<span data-ttu-id="3381b-149">BIZCN</span><span class="sxs-lookup"><span data-stu-id="3381b-149">BIZCN</span></span>](https://www.bizcn.com/)
+- [<span data-ttu-id="5f859-149">BIZCN</span><span class="sxs-lookup"><span data-stu-id="5f859-149">BIZCN</span></span>](https://www.bizcn.com/)
     
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="3381b-150">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="3381b-150">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="5f859-150">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="5f859-150">Related articles</span></span>
 
-[<span data-ttu-id="3381b-151">Adicionar um domínio ao Office 365</span><span class="sxs-lookup"><span data-stu-id="3381b-151">Add a domain to Office 365</span></span>](../setup/add-domain.md)
+[<span data-ttu-id="5f859-151">Adicionar um domínio ao Office 365</span><span class="sxs-lookup"><span data-stu-id="5f859-151">Add a domain to Office 365</span></span>](../setup/add-domain.md)
 
-[<span data-ttu-id="3381b-152">Perguntas frequentes sobre domínios</span><span class="sxs-lookup"><span data-stu-id="3381b-152">Domains FAQ</span></span>](../setup/domains-faq.md)
+[<span data-ttu-id="5f859-152">Perguntas frequentes sobre domínios</span><span class="sxs-lookup"><span data-stu-id="5f859-152">Domains FAQ</span></span>](../setup/domains-faq.md)
 
-[<span data-ttu-id="3381b-153">Obter ajuda com os domínios do Office 365</span><span class="sxs-lookup"><span data-stu-id="3381b-153">Get help with Office 365 domains</span></span>](get-help-with-domains.md)
+[<span data-ttu-id="5f859-153">Obter ajuda com os domínios do Office 365</span><span class="sxs-lookup"><span data-stu-id="5f859-153">Get help with Office 365 domains</span></span>](get-help-with-domains.yml)
