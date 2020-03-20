@@ -372,15 +372,15 @@
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Modos de exibição de campanha
               href: ./office-365-security/campaigns.md
-            - name: Entender os ataques mais recentes com a análise de ameaças
-              href: ./mtp/latest-attack-campaigns.md
             - name: Investigação e resposta automatizadas
               items:
                 - name: Visão geral do AIR
                   href: ./office-365-security/office-365-air.md
-                - name: Exibir detalhes e resultados de investigação automatizada
+                - name: Ações de correção
+                  href: ./office-365-security/air-remediation-actions.md
+                - name: Exiba os detalhes e resultados de uma investigação automatizada
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Aprovar ou rejeitar ações pendentes
+                - name: Revise e aprove (ou rejeite) as ações pendentes
                   href: ./office-365-security/air-remediation-actions.md
                 - name: Integrar o AIR com uma solução personalizada ou uma solução de terceiros
                   href: ./office-365-security/air-custom-reporting.md
@@ -390,6 +390,8 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Exibir e ler relatórios de ATP
               href: ./office-365-security/view-reports-for-atp.md
+            - name: Entenda os ataques mais recentes com a análise de ameaças
+              href: ./mtp/latest-attack-campaigns.md
             - name: O que significam as páginas de avisos de Links seguros da ATP
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Usar Rastreadores de Ameaças
