@@ -381,7 +381,7 @@
                 - name: Exiba os detalhes e resultados de uma investigação automatizada
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: Revise e aprove (ou rejeite) as ações pendentes
-                  href: ./office-365-security/air-remediation-actions.md
+                  href: ./office-365-security/air-review-approve-pending-completed-actions.md
                 - name: Integrar o AIR com uma solução personalizada ou uma solução de terceiros
                   href: ./office-365-security/air-custom-reporting.md
             - name: Detectar e endereçar rapidamente contas comprometidas de usuários
