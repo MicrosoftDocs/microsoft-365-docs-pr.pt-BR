@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 6cf4d84b72e774f734f198b09285bba2c68bc4df
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0fa597887a75ff71d768d4df0b1ac4f17fe9ef13
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086270"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857352"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Configurar suas políticas de filtro de spam
 As configurações de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam. As configurações de política de filtro de spam são aplicadas apenas a mensagens de entrada e existem dois tipos:
@@ -83,7 +83,7 @@ Para habilitar mais configurações personalizadas ou adicionar políticas perso
    - **Mensagem em quarentena:** envia a mensagem para a quarentena em vez de para os destinatários pretendidos. Esta é a ação padrão para phishing. Se você selecionar essa opção, na caixa de entrada **Manter spam por (dias)**, especifique a quantidade de dias durante os quais a mensagem de spam ficará em quarentena. (Ela será automaticamente excluída após o tempo decorrido. O valor padrão é de 30 dias, que é o valor máximo. O valor mínimo é 1 dia).
 
      > [!TIP]
-     > Para obter informações sobre como os administradores podem gerenciar mensagens de email na quarentena, confira [Quarentena](quarantine.md) e [Localizar e liberar mensagens em quarentena como um administrador](find-and-release-quarantined-messages-as-an-administrator.md). <br/><br/> Para saber mais sobre como configurar mensagens de notificação de spam para os usuários, confira [Configurar notificações de spam do usuário final no EOP](configure-end-user-spam-notifications-in-eop.md) ou [Configurar notificações de spam do usuário final no Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md).
+     > Para obter informações sobre como os administradores podem gerenciar mensagens de e-mail na quarentena, consulte [Quarentena](quarantine.md) e [Gerenciar mensagens e arquivos em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md) <br/><br/> Para saber mais sobre como configurar mensagens de notificação de spam para os usuários, confira [Configurar notificações de spam do usuário final no EOP](configure-end-user-spam-notifications-in-eop.md) ou [Configurar notificações de spam do usuário final no Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md).
 
    - Configure **Selecione o limite** para determinar como deseja tratar os emails em massa como spam, com base no BCL (Nível de reclamação em massa) da mensagem. Você pode escolher uma configuração de limite de 1 a 9, em que 1 indica a maior parte dos emails em massa como spam e 9 permite que a maior parte dos emails em massa sejam entregues. O serviço então executa a ação configurada; por exemplo, enviar a mensagem para a pasta Lixo Eletrônico do destinatário. Confira [Valores de nível de reclamação em massa](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) para obter mais detalhes.
 

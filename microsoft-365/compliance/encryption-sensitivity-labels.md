@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: a8418a85c6d936fbe49deb2f11caacf67a2ce407
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3f59a6038da8600923f5fcc0d18f1de5ab5dc06c
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634909"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826232"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -59,7 +59,7 @@ Quando você usa essa solução de criptografia, o **recurso de superusuário** 
 - **Remover**: remove a criptografia se o documento ou email estiver criptografado.
 
 > [!NOTE]
-> A opção **Remover** só tem suporte no cliente de rotulagem unificada da Proteção de Informações do Azure. Quando você usa a rotulagem interna, um rótulo com esta opção fica visível nos aplicativos do Office e, se selecionado, o comportamento de criptografia é o mesmo que em **Nenhuma**.
+> A opção **Remover** só tem suporte no cliente de rotulagem unificada da Proteção de Informações do Azure. Quando você usa a rotulagem interna, um rótulo com esta opção fica visível nos aplicativos do Office e, se selecionado, o comportamento de criptografia é o mesmo que em **Nenhum**.
 
 Configurar as opções de criptografia:
 

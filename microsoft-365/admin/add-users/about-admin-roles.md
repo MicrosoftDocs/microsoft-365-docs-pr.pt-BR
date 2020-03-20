@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: b0aa799112fb2b714f369237958b583dfb8e8baa
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 446af9ad49649487f4df1982613f8e84fdf39910
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632969"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857186"
 ---
 # <a name="about-admin-roles"></a>Sobre as funções de administrador
 
@@ -78,10 +78,10 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Leitor global    |   Atribua a função leitor global aos usuários que precisam exibir os recursos e as configurações do administrador no centro de administração que o administrador global pode exibir. O administrador leitor global não pode editar as configurações.   |
 |Administrador de grupos     |   Atribua a função de administrador grupos aos usuários que precisam gerenciar todas as configurações de grupos em todos os centros de administração, incluindo o centro de administração do Microsoft 365 e o portal do Azure Active Directory. <br><br> Os administradores de grupos podem:<br> - Criar, editar, excluir e restaurar grupos do Office 365 <br> - Criar e atualizar políticas de criação, expiração e nomeação de grupos <br> - Criar, editar, excluir e restaurar grupos de segurança do Azure Active Directory| 
 |Administrador de help desk     |   Atribua a função de administrador de help desk aos usuários que precisam fazer o seguinte:<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br> <br> **Observação**: o administrador de help desk só pode ajudar usuários não administradores e usuários atribuídos a essas funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens e leitor de relatórios.      |
-|Administrador de aplicativos do Office    |   Atribua a função de administrador de aplicativos do Office aos usuários que precisam fazer o seguinte: <br> - Use o serviço de política de nuvem do Office para criar e gerenciar políticas baseadas em nuvem para o Office <br> - Criar e gerenciar solicitações de serviço <br> – Gerenciar o conteúdo de Novidades que os usuários veem em seus aplicativos do Office   <br> - Monitorar a integridade do serviço  |
+|Administrador de aplicativos do Office    |   Atribua a função de administrador de aplicativos do Office aos usuários que precisam fazer o seguinte: <br> - Use o serviço de política de nuvem do Office para criar e gerenciar políticas baseadas em nuvem para o Office <br> - Criar e gerenciar solicitações de serviço <br> – Gerenciar o conteúdo Novidades que os usuários veem em seus aplicativos do Office   <br> - Monitorar a integridade do serviço  |
 |Administrador de serviço    |   Atribua a função de administrador de serviço como uma função adicional aos administradores ou usuários cuja função não incluem as tarefas abaixo, mas ainda precisam fazer o seguinte: <br> - Abrir e gerenciar solicitações de serviço <br> - Exibir e compartilhar postagens do centro de mensagens   |
 |Administrador do SharePoint    |   Atribua a função de administrador do SharePoint aos usuários que precisam acessar e gerenciar o centro de administração do SharePoint Online. <br><br>Os administradores do SharePoint também podem: <br> - Criar e excluir sites <br> - Gerenciar conjuntos de sites e configurações globais do SharePoint   |
-|Administrador de equipes    |   Atribua a função de administrador de equipes aos usuários que precisam acessar e gerenciar o centro de administração de equipes. <br><br>Os administradores de equipe também podem: <br> - Gerenciar reuniões <br> - Gerenciar pontes de conferência <br> - Gerenciar todas as configurações de toda a organização, inclusive federação, atualizar equipes e configurações de cliente de equipes   |
+|Administrador do serviço do Teams    |   Atribua a função de administrador do serviço do Teams aos usuários que precisam acessar e gerenciar o centro de administração do Teams. <br><br>Os administradores do serviço do Teams também podem: <br> - Gerenciar reuniões <br> - Gerenciar pontes de conferência <br> - Gerenciar todas as configurações de toda a organização, inclusive federação, atualizar equipes e configurações de cliente de equipes   |
 |Administrador de usuários     |    Atribua a função de administrador de usuários aos usuários que precisam fazer o seguinte para todos os usuários: <br> - Adicionar usuários ou grupos <br> - Atribuir licenças <br> - Gerenciar a maioria das propriedades dos usuários <br> - Criar e gerenciar exibições de usuário <br> - Atualizar políticas de expiração de senha <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br><br>  O administrador do usuário também pode realizar as seguintes ações para os usuários que não são administradores e para os usuários com as seguintes funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens, leitor de relatórios: <br> - Gerenciar nomes de usuários<br> - Excluir e restaurar usuários<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Atualizar teclas de dispositivo (FIDO)   |
 
 ### <a name="all-roles"></a>Todas as funções

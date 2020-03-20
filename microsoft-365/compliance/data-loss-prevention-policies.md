@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: 722afcb7bdebb6004d9a7ab365ac6038fe1d31a4
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 574a3376aa54311db3edc581e0a3e602cb1ac383
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635089"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826286"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -179,6 +179,8 @@ Esta é a aparência de uma dica de política em uma conta do OneDrive for Busin
 Quando uma regra é correspondida, você pode enviar um relatório de incidentes ao responsável pela conformidade (ou qualquer pessoa que você escolher) com detalhes sobre o evento. Esse relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo por último. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
   
 ![Página para configurar relatórios de incidente](../media/31c6da0e-981c-415e-91bf-d94ca391a893.png)
+
+O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No SharePoint Online e no OneDrive for Business, o DLP verifica os itens existentes, bem como os novos, e gera um relatório de incidente sempre que uma correspondência é encontrada. No Exchange Online, o DLP verifica apenas as novas mensagens de e-mail e gera um relatório se houver uma correspondência de política. O DLP ***não*** verifica ou combina os itens de e-mail existentes anteriormente que são armazenados em uma caixa de correio ou arquivo morto.
   
 ## <a name="grouping-and-logical-operators"></a>Agrupamento e operadores lógicos
 

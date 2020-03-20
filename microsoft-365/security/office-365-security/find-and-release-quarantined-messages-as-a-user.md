@@ -2,10 +2,10 @@
 title: Localizar e liberar mensagens em quarentena como usuário do Office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 05/19/2018
+ms.date: ''
 audience: Consumer/IW
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,104 +16,164 @@ search.appverid:
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
-description: 'Como usuário do Office 365, você pode gerenciar as mensagens de spam em quarentena de duas maneiras: responder às notificações de spam enviadas diretamente para você (se o administrador configurou esse recurso) ou usar o recurso Quarentena de spam, no &amp; Centro de Conformidade e Segurança.'
-ms.openlocfilehash: 277af18d2061e8bd13386ab96e37d982d68e0b52
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Como usuário do Office 365, você pode exibir, liberar e excluir suas mensagens em quarentena (mensagens em que você é um destinatário e a filtragem de spam em quarentena colocou a mensagem como spam ou e-mail em massa). Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e de segurança.
+ms.openlocfilehash: e74358d57b96c8655fbf6a3f7f0b6eedb5e65ede
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599288"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857328"
 ---
-# <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Localizar e liberar mensagens em quarentena como usuário do Office 365
+# <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Localize e libere mensagens em quarentena como usuário do Office 365
 
-Como usuário do Office 365, você pode gerenciar as mensagens que foram enviadas para a quarentena, em vez de enviá-las para você em uma destas maneiras: [, ](use-spam-notifications-to-release-and-report-quarantined-messages.md)responder às notificações de spam enviadas diretamente para você (se o administrador configurou isso)&amp; ou usar o Centro de Conformidade e Segurança.
+A quarentena mantém mensagens potencialmente perigosas ou indesejadas nas organizações do Office 365 com caixas de correio do Exchange Online ou de organizações autônomas do Exchange Online Protection (EOP) sem as caixas de correio do Exchange Online. Para obter mais informações, consulte [Quarentena no Office 365](quarantine-email-messages.md).
 
-> [!NOTE]
-> Se você é o administrador, pode [gerenciar mensagens em quarentena](manage-quarantined-messages-and-files.md) para outras pessoas da organização.
+Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em que você é um destinatário, e a mensagem foi colocada em quarentena como spam, e-mail em massa ou (a partir de abril de 2020) phishing. Você também pode relatar falsos positivos à Microsoft.
 
-## <a name="view-messages-that-were-sent-to-quarantine-instead-of-to-you"></a>Exibir mensagens que foram enviadas para a quarentena, em vez de serem enviadas para você
+Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e de segurança.
 
-1. Entre no Office 365 e [vá para o Centro de Conformidade e Segurança](../../compliance/go-to-the-securitycompliance-center.md), usando uma conta corporativa ou de estudante.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-2. No lado esquerdo, expanda **Gerenciamento de Ameaças**, escolha **Revisão** e escolha **Quarentena**.
+- Para abrir o Centro de Conformidade e Segurança do Office 365, vá para <https://protection.office.com>. Para abrir a página Quarentena imediatamente, vá para <https://protection.office.com/quarantine>.
 
-    > [!TIP]
-    > Para acessar diretamente a página **Quarentena ** no Centro de Conformidade&amp;Segurança, use a seguinte URL: [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+- Os administradores conseguem configurar pelo tempo que as mensagens forem mantidas em quarentena antes de serem excluídas permanentemente (políticas anti-spam). As mensagens que saíram da quarentena se tornam irrecuperáveis. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
-Por padrão, o Centro de &amp; Conformidade e Segurança exibe todas as mensagens de email que foram enviadas para a quarentena como spam. As mensagens são classificadas da mais recente à mais antiga, de acordo com a **Data** de recebimento da mensagem. **Remetente**, **Assunto**, e a data de vencimento (em **expiras** ) também são exibidos para cada mensagem. Para classificar um campo, clique no cabeçalho da coluna correspondente. clique no cabeçalho de uma coluna novamente para inverter a ordem da classificação. 
+- Os administradores também podem [habilitar as notificações de spam do usuário final](configure-your-spam-filter-policies.md) na políticas anti-spam. A partir de outubro de 2019, você não poderá mais liberar mensagens em quarentena diretamente dessas notificações. Você pode clicar em **Revisão** na notificação, o que o levará à Quarentena no Centro de conformidade e segurança. Para obter mais informações, consulte [Notificações de spam do usuário final no Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-Você pode exibir uma lista de todas as mensagens em quarentena ou pesquisar mensagens específicas por meio de filtragem. Nosso sistema permite realizar operações em massa com até 100 itens, portanto a filtragem também pode ajudar a reduzir o conjunto de resultados, se você tiver mais do que essa quantidade de itens. Para filtrar rapidamente as mensagens por um único motivo de quarentena, escolha uma opção na lista suspensa. As opções são:
+- As mensagens que foram colocadas em quarentena por regras de phishing, malware ou fluxo de mensagens de alta confiança (também conhecidas como regras de transporte) estão disponíveis apenas aos administradores. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador no Office 365](find-and-release-quarantined-messages-as-an-administrator.md).
 
-- Email identificado como spam. Essas mensagens em quarentena são mostradas por padrão.
+- Você só pode liberar uma mensagem e relatá-la como falso positivo (e não como lixo eletrônico) uma vez.
 
-- Email identificado como email em massa.
+## <a name="view-your-quarantined-messages"></a>Visualizar suas mensagens em quarentena
 
-Depois de localizar uma mensagem específica em quarentena, clique nela para exibir os detalhes e realizar ações. Você pode liberar a mensagem para a Caixa de Entrada, visualizar, baixar ou excluir imediatamente a mensagem da quarentena.
+1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
 
-> [!NOTE]
-> É necessário ter permissões de administrador do Office 365 para tratar as mensagens em quarentena que foram enviadas para outros usuários.
+2. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. Os valores padrão são marcados com um asterisco (<sup>\*</sup>):
 
-## <a name="to-filter-and-find-quarantined-messages"></a>Para filtrar e localizar mensagens em quarentena:
+   - **Recebido**<sup>\*</sup>
 
-Caso tenha muitos itens em quarentena, filtre-os para reduzi-los a uma quantidade mais fácil de gerenciar.
+   - **Remetente**<sup>\*</sup>
 
-1. Na página **Quarentena**, escolha se deseja exibir mensagens em quarentena nas modalidades **Spam** ou **Em massa**.
+   - **Assunto**<sup>\*</sup>
 
-2. Em **Classificar resultados por**, defina os filtros adequados para escolher uma combinação de condições (no momento, não é possível usar caracteres curinga). Entre as várias condições disponíveis, estão as seguintes:
+   - **Motivo da quarentena**<sup>\*</sup>
 
-   - **ID de Mensagem**: Use esse recurso para selecionar uma mensagem específica se souber a identificação da mensagem.
+   - **Lançado?**<sup>\*</sup>
 
-     Por exemplo, se uma mensagem específica é enviada por, ou destinada a, um usuário em sua organização, mas ela nunca chega ao seu destino, você pode procurar a mensagem, utilizando um recurso de rastreamento de mensagens.(consulte [Rastreamento de mensagens no Centro de Conformidade e Segurança](message-trace-scc.md)). Se você descobrir que a mensagem foi enviada para a quarentena, talvez porque ela corresponde a uma regra ou foi identificada como spam, é possível encontrá-la facilmente na quarentena especificando sua ID de Mensagem. Certifique-se de incluir a cadeia de caracteres de ID de Mensagem completa. Isso pode incluir colchetes angulares\<(\>), por exemplo:
+   - **Tipo de política**<sup>\*</sup>
 
-     `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`
+   - **Expira**<sup>\*</sup>
 
-   - **Endereço de email do remetente**: escolha essa opção para filtrar por um único endereço de email de remetente.
+   - **Recipiente**
 
-   - **Endereço de email do destinatário**: escolha essa opção para filtrar por um único endereço de email de destinatário.
+   - **ID da mensagem**
 
-   - **Assunto**: insira o assunto do endereço de email que você deseja localizar.
+   - **Nome da política**
 
-   - **Intervalo de datas**: escolha essa opção para filtrar pela data em que a mensagem foi enviada à quarentena. É possível especificar a data ou o intervalo de datas, inclusive o horário.
+   - **Tamanho**
 
-   - **Data de validade**: para filtrar a data de validade, escolha **Filtro avançado**. Você pode selecionar mensagens que serão excluídas da quarentena dentro de 24 horas ( **Hoje **), nas próximas 48 horas ( **Próximos 2 dias**), na próxima semana ( **Próximos 7 dias **), ou escolha um intervalo de tempo personalizado.
+   - **Direção**
 
-     > [!IMPORTANT]
-     > Por padrão, as mensagens de spam ou de email em massa são mantidas na quarentena por 30 dias. No entanto, esse período é configurável, e o administrador pode ter definido um período de retenção em quarentena diferente. Quando o Office 365 exclui uma mensagem da quarentena, não é possível recuperá-la.
+   Quando você terminar, clique em **Salvar**, ou clique em **Definido como padrão**.
 
-## <a name="view-details-for-a-specific-message"></a>Exibir os detalhes de uma mensagem específica
+3. Para filtrar os resultados, clique em **Filtro**. Os filtros disponíveis são:
 
-Depois de selecionar uma mensagem, você verá um resumo das propriedades da mensagem em um painel, no lado direito da página.
+   - **Hora que expira**: filtre as mensagens assim que elas saírem da quarentena:
 
-- **ID de Mensagem**: identificador exclusivo da mensagem.
+     - **Hoje**
 
-- **Endereço do Remetente**: a pessoa que enviou a mensagem.
+     - **Próximos 2 dias**
 
-- **Recebida:**: data em que a mensagem foi recebida.
+     - **Próximas 7 semanas**
 
-- **Assunto: **: o texto da linha de assunto da mensagem.
+     - **Personalizado**: Insira uma **Data de início** e uma **Data de término**.
 
-- **Motivo da quarentena**: mostra se a mensagem foi identificada como **Spam** ou **Em massa**.
+   - **Hora recebida**: Insira uma **Data de início** e uma **Data de término**.
 
-- **Expira em**: data em que a mensagem será excluída da quarentena.
+   - **Motivo da quarentena**:
 
-- **Liberação para**: todos os endereços de email (se houver) para os quais a mensagem foi liberada.
+     - **Em massa**
 
-- **Sem liberação para**: Todos os endereços de email (se houver) para os quais a mensagem não foi liberada. Você pode optar por **Liberar ** caso pretenda liberar a mensagem para a Caixa de Entrada.(Saiba mais sobre a liberação de mensagens na próxima seção).
+     - **Spam**
 
-Para obter mais detalhes sobre a mensagem, escolha uma das seguintes opções:
+     - **Phish** (Em abril de 2020)
 
-- **Exibir cabeçalho da mensagem**: escolha para ver o texto do cabeçalho da mensagem. Para analisar o cabeçalho em detalhes, copie o respectivo texto para a área de transferência; em seguida, escolha **Analisador de Cabeçalho de Mensagens da Microsoft** para ir até o Analisador de Conectividade Remota. (Se não quiser sair do Office 365 para realizar esta tarefa, clique com o botão direito do mouse e escolha Abrir em uma nova guia). Cole o cabeçalho da mensagem na página, na seção do Analisador de Cabeçalho de Mensagem, e escolha Analisar cabeçalhos.
+   Para limpar o filtro, clique em **Limpar**. Para ocultar o submenu do filtro, clique novamente em **Filtro**.
 
-- **Visualizar mensagem**: permite exibir versões brutas ou em HTML do texto do corpo da mensagem. No modo de exibição de HTML.
+4. Use **Classificar resultados por** (o botão **ID da mensagem** por padrão) e um valor correspondente para localizar mensagens específicas. Os curingas não possuem suporte. Você pode pesquisar pelos seguintes valores:
 
-## <a name="manage-your-quarantined-messages"></a>Gerenciar as mensagens em quarentena
+   - **ID da mensagem**: o identificador globalmente exclusivo da mensagem. Se você selecionar uma mensagem na lista, o valor da **ID da mensagem** será exibido no painel **Detalhes** que é exibido. Os administradores podem usar [Rastreamento da mensagem](message-trace-scc.md) para localizar mensagens e seus valores da ID da mensagem correspondentes.
 
-Depois de selecionar uma mensagem ou um grupo de mensagens, há várias opções disponíveis para gerenciar mensagens em quarentena.
+   - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
 
-- Não tomar nenhuma medida. Se optar por não fazer nada, o Office 365 excluirá automaticamente a mensagem, após a data de expiração. Lembre-se: quando o Office 365 exclui uma mensagem da quarentena, não é possível recuperá-la.
+   - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 
-- **Liberar mensagem**: Libere uma mensagem ou um conjunto de mensagens em quarentena para que elas sejam enviadas para a Caixa de Entrada. Quando libera uma mensagem, você tem a opção de relatá-la à Microsoft para análise.
+   - **Assunto**: use todo o assunto da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
-    Se optar por relatar uma mensagem, fato referido também como "relatar mensagem como falso positivo", ela será relatada à Equipe de Análise de Spam da Microsoft. A equipe avalia e analisa mensagens identificadas como falsos positivos e, dependendo dos resultados da análise, é possível ajustar as regras de filtro de conteúdo de spam de todo o serviço para permitir o envio dessas mensagens.
+   Depois de ter inserido os critérios da pesquisa, clique em ![Atualizar botão](../media/scc-quarantine-refresh.png) **Atualizar** para filtrar os resultados.
 
-- **Remover da quarentena**: Exclui a mensagem imediatamente da quarentena, sem liberá-la para a Caixa de Entrada.
+Depois de encontrar uma mensagem específica em quarentena, selecione a mensagem para exibir detalhes sobre ela e execute uma ação (por exemplo: exibir, liberar, fazer download ou excluir a mensagem).
+
+### <a name="export-message-results"></a>Exporte os resultados da mensagem 
+
+1. Selecione as mensagens que você está interessado e clique em **Exportar resultados**.
+
+2. Clique em **Sim** na mensagem de confirmação que avisa para manter a janela do navegador aberta.
+
+3. Quando a exportação estiver pronta, você poderá nomear e escolher o local de download do arquivo .csv.
+
+### <a name="view-quarantined-message-details"></a>Exiba detalhes da mensagem em quarentena
+
+Quando você clica em uma mensagem de e-mail na lista, os seguintes detalhes de mensagem são exibidos no painel de submenu **Detalhes**:
+
+- **ID da mensagem**: o identificador globalmente exclusivo da mensagem.
+
+- **Endereço do remetente**.
+
+- **Recebido**: a data e a hora em que a mensagem foi recebida.
+
+- **Assunto**
+
+- **Motivo da quarentena**: mostra se uma mensagem foi identificada como **Spam**, **Em massa** ou (desde abril de 2020) **Phish**.
+
+- **Destinatários**: se a mensagem contiver vários destinatários, você precisará clicar em **Visualizar mensagem** ou **Exibir o cabeçalho da mensagem** para visualizar a lista completa dos destinatários.
+
+- **Expira**: a data/hora em que a mensagem será excluída de forma automática e permanente da quarentena.
+
+- **Liberação para**: todos os endereços de e-mail (se houver) para os quais a mensagem foi liberada.
+
+- **Sem liberação para**: todos os endereços de e-mail (se houver) para os quais a mensagem não foi liberada.
+
+### <a name="take-action-on-quarantined-email"></a>Tomar medidas quanto aos e-mails em quarentena
+
+Depois de selecionar uma mensagem, você tem opções para o que fazer com as mensagens no painel de submenu **Detalhes**:
+
+- **Mensagem de liberação**: no painel de submenu que é exibido, escolha se quer o **Relatório de mensagens do Microsoft para ser analisado**. Essa opção é selecionada por padrão e relata a mensagem em quarentena incorreta à Microsoft como um falso positivo.
+
+  Quando terminar, clique em **Liberar mensagens**.
+
+- **Exibir cabeçalho da mensagem**: escolha este link para visualizar o texto do cabeçalho da mensagem. Para analisar os valores e campos de cabeçalho em detalhes, copie o texto do cabeçalho da mensagem para a área de transferência e escolha **Analisador de cabeçalho das mensagens da Microsoft** para acessar o Analisador de conectividade remota (clique com o botão direito do mouse e escolha **Abrir em uma nova guia** se não quiser sair do Office 365 para concluir essa tarefa). Cole o cabeçalho da mensagem na página na seção Analisador do cabeçalho da mensagem e escolha **Analisar cabeçalhos**:
+
+- **Visualizar mensagem**: no painel de submenu que é exibido, escolha uma das seguintes opções:
+
+  - **Visualização da fonte**: mostra a versão HTML do corpo da mensagem com todos os links desabilitados.
+  
+  - **Visualização do texto**: mostra o corpo da mensagem em texto sem formatação.
+
+- **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
+
+- **Remover da quarentena**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída.
+
+Quando terminar, clique em **Fechar**.
+
+Se você não liberar ou remover a mensagem, ela será excluída após o término do período de retenção da quarentena padrão.
+
+#### <a name="take-action-on-multiple-quarantined-email-messages"></a>Tome medidas em várias mensagens quanto aos e-mails em quarentena
+
+Quando você seleciona várias mensagens que estão em quarentena na lista (até 100), o painel de submenu **Ações em massa** é exibido em que você pode realizar as seguintes ações:
+
+- **Mensagens de lançamento**: as opções são as mesmas de quando você libera uma única mensagem, mas não é possível clicar em **Liberar mensagens para destinatários específicos**; você só pode clicar em **Mensagem de lançamento a todos os destinatários** ou **Liberar mensagens para outras pessoas**.
+
+- **Excluir mensagens**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída sem ser enviada aos destinatários originais.
+
+Quando terminar, clique em **Fechar**.
