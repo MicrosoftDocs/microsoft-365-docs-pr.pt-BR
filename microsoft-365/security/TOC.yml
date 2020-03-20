@@ -68,9 +68,13 @@
                 - name: Priorizar incidentes
                   href: mtp/incident-queue.md
                 - name: Investigar incidentes
-                  href: mtp/investigate-incidents.md
-                - name: Gerenciar incidentes
-                  href: mtp/manage-incidents.md
+                  items:
+                    - name: Investigar incidentes
+                      href: mtp/investigate-incidents.md
+                    - name: Gerenciar incidentes
+                      href: mtp/manage-incidents.md
+                    - name: Página do perfil da máquina
+                      href: mtp/machine-profile.md
             - name: Investigação e resposta automatizadas
               items:
                 - name: Visão geral do AIR
@@ -554,9 +558,6 @@
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
                 - name: Quarentena
                   href: ./office-365-security/quarantine.md
-                  items:
-                    - name: Localizar e liberar mensagens em quarentena como um administrador
-                      href: ./office-365-security/find-and-release-quarantined-messages-as-an-administrator.md
                 - name: Solução de problemas e informações de suporte
                   href: ./office-365-security/troubleshooting-and-support-information.md
                   items:
