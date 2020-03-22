@@ -1,9 +1,8 @@
 ---
-title: Visão geral dos Grupos do Office 365 para administradores
+title: Visão geral dos grupos do Office 365 para administradores
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
-ms.author: v-teflor
+f1.keywords: NOCSH
+ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
@@ -19,14 +18,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Office 365.
-ms.openlocfilehash: e7a65c41d4ecdbc91e163d9a84241ae549a2f9ec
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2257af16106e47b490beebd6d48e566bb3c07ca6
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237034"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894486"
 ---
-# <a name="overview-of-office-365-groups-for-administrators"></a>Visão geral dos Grupos do Office 365 para administradores
+# <a name="overview-of-office-365-groups-for-administrators"></a>Visão geral dos grupos do Office 365 para administradores
 
 O Office 365 groups é o serviço de associação de base que orienta todo o trabalho em equipe no Microsoft 365. Com grupos do Office 365, você pode dar a um grupo de pessoas acesso a uma coleção de recursos de colaboração para que as pessoas compartilhem. Esses recursos incluem:
 
@@ -39,17 +38,17 @@ O Office 365 groups é o serviço de associação de base que orienta todo o tra
 - Uma equipe (se o grupo foi criado no Teams)
 - Roteiro (se você tiver o Project para a Web)
 
-Com um grupo do Office 365, você não precisa atribuir permissões manualmente a cada um desses recursos, pois adicionar membros ao grupo fornece automaticamente as permissões necessárias para as ferramentas que o grupo oferece.
+Com um grupo do Office 365, você não precisa atribuir permissões manualmente a cada um desses recursos, pois adicionar pessoas ao grupo fornece automaticamente as permissões necessárias para as ferramentas que o grupo fornece.
 
-Qualquer usuário do Office 365 pode criar um grupo, a menos que você [limite a criação de grupos a um conjunto específico de pessoas](manage-creation-of-groups.md). Observe que, se você limitar a criação de grupo, os usuários que não puderem criar grupos não poderão criar sites, planejadores ou equipes do SharePoint. Esses serviços precisam ser capazes de criar um grupo usando o contexto do usuário. Os usuários ainda podem participar de atividades de grupo, como criar tarefas no Planner ou responder a conversas no Outlook, desde que sejam membros do grupo.
+Qualquer usuário do Office 365 pode criar um grupo, a menos que você [limite a criação de grupos a um conjunto específico de pessoas](manage-creation-of-groups.md). Observe que, se você limitar a criação de grupo, os usuários que não puderem criar grupos não poderão criar sites, planejadores ou equipes do SharePoint. Esses serviços exigem que as pessoas os criem para poder criar um grupo. Os usuários ainda podem participar de atividades de grupo, como a criação de tarefas no Planner ou o uso do teams chat, contanto que sejam membros do grupo.
 
 Os grupos têm as seguintes funções:
 
 - **Proprietários** -os proprietários do grupo podem adicionar ou remover membros e ter permissões exclusivas como a capacidade de excluir conversas da caixa de entrada compartilhada ou alterar configurações diferentes sobre o grupo. Os proprietários do grupo podem renomear o grupo, atualizar a descrição ou a imagem e muito mais.
-- **Membros** -os membros podem acessar tudo no grupo, mas não podem alterar as configurações de grupo.
-- **Convidados** -grupos convidados são membros de fora da sua organização. Por padrão, os membros do grupo podem convidar convidados para ingressar no seu grupo, embora você possa [controlar essa configuração](manage-guest-access-in-groups.md).
+- **Membros** -os membros podem acessar tudo no grupo, mas não podem alterar as configurações de grupo. Por padrão, os membros do grupo podem convidar convidados para ingressar no seu grupo, embora você possa [controlar essa configuração](manage-guest-access-in-groups.md).
+- **Convidados** -grupos convidados são membros de fora da sua organização.
 
-Somente os administradores globais de gerenciamento de usuários e administradores podem criar e gerenciar grupos no centro de administração. Não é possível ser um administrador delegado (por exemplo, um consultor que é administrador em nome de outra pessoa).
+Somente administradores globais, administradores de usuários e administradores de grupos podem criar e gerenciar grupos no centro de administração do Microsoft 365. Não é possível ser um administrador delegado (por exemplo, um consultor que é administrador em nome de outra pessoa).
 
 Como administrador, você pode:
 
@@ -59,7 +58,7 @@ Como administrador, você pode:
 - [Gerenciar o acesso de convidados aos grupos](manage-guest-access-in-groups.md)
 - [Recuperar um grupo excluído](restore-deleted-group.md) (dentro de 30 dias de exclusão)
 
-Se preferir um modo mais automatizado de gerenciar o ciclo de vida de seus grupos do Office 365, você pode usar as políticas de expiração para expirar grupos em um intervalo de tempo específico. Os proprietários do grupo receberão um email 30, 15 e 1 dia antes da expiração do grupo, permitindo que eles renovem facilmente o grupo se ainda forem necessários. Confira: [política de expiração de grupo do Office 365](office-365-groups-expiration-policy.md).
+Se preferir um modo mais automatizado de gerenciar o ciclo de vida de seus grupos do Office 365, você poderá usar as políticas de expiração para expirar grupos em um intervalo de tempo específico. Os proprietários do grupo receberão um email 30, 15 e 1 dia antes da expiração do grupo, permitindo que eles renovem facilmente o grupo se ainda forem necessários. Confira: [política de expiração de grupo do Office 365](office-365-groups-expiration-policy.md).
 
 Você pode administrar seus grupos no centro de administração do Microsoft 365 ou [usando o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
 
@@ -79,7 +78,7 @@ Os seguintes limites se aplicam aos grupos do Office 365:
 |Armazenamento de arquivos|1 terabyte + 10 GB por usuário inscrito + qualquer armazenamento adicional adquirido. Você pode adquirir uma quantidade ilimitada de armazenamento adicional.|
 |Tamanho da caixa de correio de grupo|50 GB|
 
-Atualmente, o número máximo padrão de Grupos do Office 365 que uma organização do Office 365 pode ter é 500.000, mas pode ser aumentado sob demanda. Para obter mais informações sobre os limites de grupos do Office 365, consulte [office 365 groups-ajuda para administradores](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx)
+O número máximo padrão de grupos do Office 365 que uma organização do Office 365 pode ter é 500.000, mas pode ser aumentado por solicitação. Para obter mais informações sobre os limites de grupos do Office 365, consulte [office 365 groups-ajuda para administradores](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx).
 
 Gerenciar seus grupos do Office 365 é mais eficaz quando você tem informações acionáveis sobre o uso de grupos. O centro de administração do Microsoft 365 tem uma ferramenta de relatório que pode permitir que você veja coisas como o uso de armazenamento, quantos grupos ativos você tem e até mesmo como seus usuários estão usando os grupos. Confira: [Office 365 Reports no centro de administração](../activity-reports/office-365-groups.md) para obter mais informações.
 
@@ -88,7 +87,7 @@ Gerenciar seus grupos do Office 365 é mais eficaz quando você tem informaçõe
 Qualquer assinatura do Office 365 que tenha o Exchange Online e o SharePoint Online oferecerá suporte a grupos. Isso inclui os planos Business Essentials e Business Premium e os planos Enterprise E1, E3 e e5. O grupo assume o licenciamento da pessoa que cria o grupo (também conhecido como o "organizador" do grupo). Contanto que o organizador tenha a licença adequada para qualquer recurso que você deseja que o grupo tenha, essa licença será envidará para o grupo.
 
 > [!NOTE]
-> Para obter mais detalhes sobre as famílias e os planos de serviço do Office 365, verifique [as opções de plano do office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+> Para obter mais detalhes sobre os planos e as famílias de serviços do Office 365, confira [Opções de plano do office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
 
 Se você tiver um plano somente do Exchange, ainda poderá obter os recursos de caixa de entrada compartilhada e calendário compartilhado do grupo no Outlook, mas não obterá a biblioteca de documentos, o Planner ou qualquer um dos outros recursos.
 

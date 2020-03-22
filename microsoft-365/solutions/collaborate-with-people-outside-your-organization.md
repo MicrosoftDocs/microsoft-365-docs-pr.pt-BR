@@ -10,14 +10,23 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft 365 para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: eb6bbdc4dd0520f240edbdebde6851ec917cd0d9
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 80b5aacbf73a7845913acdcc6ada2321e49f77cd
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604318"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894948"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
+
+Os recursos de compartilhamento externo no Microsoft 365 oferecem uma oportunidade para que as pessoas em sua organização colaborem com parceiros, fornecedores, clientes e outros que não tenham uma conta no seu diretório. Você pode compartilhar equipes ou sites inteiros com pessoas de fora da sua organização ou apenas arquivos individuais.
+
+Colaborar com pessoas de fora da sua organização consiste em dois componentes principais:
+
+- **Habilitar compartilhamento** : Configure os controles de compartilhamento no Azure Active Directory, nas equipes, nos grupos do Office 365 e no SharePoint para permitir o nível de compartilhamento que você deseja para sua organização.
+- **Habilitar segurança adicional** -embora os recursos de compartilhamento básicos possam ser configurados para exigir que pessoas de fora da sua organização autentiquem, a Microsoft 365 fornece vários recursos de segurança e conformidade adicionais para ajudá-lo a proteger seus dados e manter suas políticas de governança ao compartilhar externamente.
+
+## <a name="enable-sharing"></a>Habilitar o compartilhamento
 
 Por padrão, no Microsoft 365, o compartilhamento com pessoas de fora da sua organização é habilitado para o SharePoint e o OneDrive, mas desabilitado para o Teams. Muitos cenários de compartilhamento externo do SharePoint e do OneDrive funcionam sem nenhuma configuração adicional. Para confirmar as configurações de um cenário que você está usando ou habilitar um novo, escolha uma das seguintes opções:
 
@@ -27,7 +36,7 @@ Por padrão, no Microsoft 365, o compartilhamento com pessoas de fora da sua org
 
 Para obter uma visão abrangente das configurações de compartilhamento de convidados disponíveis no Microsoft 365, consulte [referência de configurações de compartilhamento de convidados da Microsoft 365](microsoft-365-guest-settings.md).
 
-## <a name="secure-your-environment"></a>Proteger seu ambiente
+## <a name="enable-additional-security"></a>Habilitar segurança adicional
 
 Depois de habilitar o cenário que você deseja usar para compartilhar com pessoas de fora da sua organização, considere as proteções adicionais para ajudar a proteger o conteúdo de um compartilhamento inadequado ou intencionalmente intencionado.
 

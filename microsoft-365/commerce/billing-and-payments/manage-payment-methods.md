@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 61c6d0b4fb21762eaeee96d8923eda7702fc70bb
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 997b957bb28d32402e17eb855bc891ed07e5f27f
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341560"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894836"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -35,6 +35,15 @@ Ao comprar produtos ou serviços de negócios da Microsoft, você pode usar um m
 > A opção de pagamento com uma conta bancária não está disponível em alguns países ou regiões.
 >
 > Você deve usar um método de pagamento emitido do mesmo país do seu locatário.
+
+## <a name="add-a-payment-method"></a>Adicionar um método de pagamento
+
+A adição de um método de pagamento não associa nenhuma assinatura a ela. Para atribuir uma única assinatura ao método de pagamento, confira [alterar um método de pagamento para uma única assinatura](#change-a-payment-method-for-a-single-subscription). Para substituir todas as assinaturas que usam outra forma de pagamento com a nova, confira [substituir um método de pagamento](#replace-a-payment-method).
+
+1. No centro de administração, vá **para a página** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">métodos de pagamento</a> de faturas **& pagamentos** > .
+2. Selecione **Adicionar um método de pagamento**.
+3. Na página **Método de pagamento**, escolha um método de pagamento do menu suspenso.
+4. Insira as informações para o novo cartão ou conta bancária e, em seguida, selecione **Adicionar**.
 
 ## <a name="update-payment-method-details"></a>Detalhes da atualização de método de pagamento
 
@@ -97,7 +106,7 @@ Se um método de pagamento estiver anexado a qualquer assinatura ou perfil de co
 5. Para adicionar um novo método de pagamento, selecione **Adicionar método de pagamento**.
 6. Escolha o tipo de método de pagamento que você deseja adicionar, insira as informações da conta e, em seguida, selecione **salvar**.
 7. A nova forma de pagamento já está selecionada na lista suspensa. Selecione **Avançar**.
-8. Selecione **excluir**.
+8. Selecione **Excluir**.
 
 ## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de métodos de pagamento
 

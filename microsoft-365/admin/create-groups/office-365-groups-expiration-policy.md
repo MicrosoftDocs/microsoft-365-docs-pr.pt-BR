@@ -1,8 +1,7 @@
 ---
 title: Política de Expiração de Grupo do Office 365
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -19,18 +18,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Office 365.
-ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352582"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894510"
 ---
-# <a name="office-365-group-expiration-policy"></a>Política de Expiração de Grupo do Office 365
+# <a name="office-365-group-expiration-policy"></a>Política de expiração de grupo do Office 365
 
 Com o aumento no uso de grupos do Office 365, os administradores e usuários precisam de uma maneira de limpar os grupos não utilizados. As políticas de expiração podem ajudar a remover grupos inativos do sistema e tornar as coisas mais claras.
 
-Quando um grupo expira, todos os seus serviços associados (a caixa de correio, o Planner, o site do SharePoint etc.) também são excluídos.
+Quando um grupo expira, todos os seus serviços associados (a caixa de correio, o Planner, o site do SharePoint, a equipe, etc.) também são excluídos.
 
 Quando um grupo expira, ele é "excluído de forma reversível", o que significa que ele ainda pode ser recuperado por até 30 dias.
 
@@ -44,7 +43,7 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 > [!IMPORTANT]
 > Quando você altera a política de expiração, o serviço recalcula a data de expiração de cada grupo. Ele sempre inicia a contagem a partir da data em que o grupo foi criado e, em seguida, aplica a nova política de expiração.
 
-É importante saber que a expiração está desativada por padrão. Os administradores terão que habilitá-lo para o locatário se desejarem usá-lo.
+É importante saber que a expiração está desativada por padrão. Os administradores terão que habilitá-lo para sua organização se desejarem usá-lo.
 
 > [!NOTE]
 > Configurar e usar a política de expiração para grupos do Office 365 requer que você tenha, mas não necessariamente, atribui licenças do Azure AD Premium para os membros de todos os grupos aos quais a política de expiração é aplicada. Para obter mais informações, consulte [Getting Started with Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).

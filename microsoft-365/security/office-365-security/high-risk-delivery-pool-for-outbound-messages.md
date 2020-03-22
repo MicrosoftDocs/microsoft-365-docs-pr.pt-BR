@@ -2,10 +2,10 @@
 title: Pool de entrega de alto risco para mensagens de saída
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/24/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,42 +15,41 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: Quando o sistema de email de um cliente é comprometido por malware ou um ataque de spam mal-intencionado e está enviando spam de saída por meio do serviço de filtragem hospedado, isso pode resultar em endereços IP dos servidores de data center do Office 365 listados no bloco de terceiros contém.
-ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba como o pool de entrega de alto risco é usado para proteger a reputação de servidores de email nos datacenters do Office 365.
+ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599228"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895354"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a>Pool de entrega de alto risco para mensagens de saída
+# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a>Pool de entrega de alto risco para mensagens de saída no Office 365
 
-Quando o sistema de email de um cliente é comprometido por malware ou um ataque de spam mal-intencionado e está enviando spam de saída por meio do serviço de filtragem hospedado, isso pode resultar em endereços IP dos servidores de data center do Office 365 listados no bloco de terceiros contém. Servidores de destino que não usam o serviço de filtragem hospedado, mas usam essas listas de bloqueio, rejeitam todos os emails enviados de qualquer um dos endereços IP de filtragem hospedado que foram adicionados a essas listas. Para evitar isso, todas as mensagens de saída que excedem o limite de spam são enviadas por meio de um pool de entrega de alto risco. Esse pool de emails de saída secundário só é usado para enviar mensagens que podem ter baixa qualidade. Isso ajuda a proteger o restante da rede de enviar mensagens que são mais prováveis no bloqueio do endereço IP de envio.
-  
-O uso de um pool de entrega de alto risco dedicado ajuda a garantir que o pool de saída normal só esteja enviando mensagens conhecidas por uma alta qualidade. O uso desse pool IP secundário ajuda a reduzir a probabilidade de o pool de saída de IP normal ser adicionado a uma lista de bloqueados. A possibilidade de um pool de entrega de alto risco ser colocado em uma lista bloqueada continua a ser um risco. Isso é por desígnio.
-  
-Mensagens em que o domínio de envio não tem registro de endereço (um registro), que fornece o endereço IP do domínio, e nenhum registro MX, que ajuda a direcionar o email aos servidores que devem receber o email de um domínio específico no DNS, são sempre roteados através do pool de entrega de alto risco independentemente da disposição de spam.
-  
-## <a name="understanding-delivery-status-notification-dsn-messages"></a>Noções básicas sobre mensagens de notificação de status de entrega (DSN)
+Servidores de email nos datacenters do Office 365 podem ser temporariamente culpados no envio de spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída através do Office 365 ou contas comprometidas do Office 365. Esses cenários podem resultar no endereço IP dos servidores de datacenters do Office 365 afetados que aparecem nas listas de bloqueios de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
 
-O pool de entrega de alto risco de saída gerencia a entrega de todas as mensagens "devolvidas" ou "com falha" (DSN).
-  
-As possíveis causas para um surto nas mensagens DSN incluem o seguinte:
-  
-- Uma campanha de falsificação que afete um dos clientes que utilizam o serviço
-    
-- Um ataque de coleta de diretório
-    
-- Um ataque de spam
-    
-- Um servidor SMTP invasor
-    
-Todos esses problemas podem resultar em um aumento repentino no número de mensagens DSN processadas pelo serviço. Muitas vezes, essas mensagens DSN parecem ser spam para outros serviços e servidores de email.
-  
-## <a name="for-more-information"></a>Para obter mais informações
+Para evitar isso, todas as mensagens de saída dos servidores de datacenter do Office 365 que são determinados como spam ou que excedem os limites de envio do [serviço](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) ou [as políticas de spam de saída](configure-the-outbound-spam-policy.md) são enviadas através do pool de entrega de _alto risco_.
 
-[Configuração da política de spam de saída](configure-the-outbound-spam-policy.md)
-  
-[Perguntas frequentes sobre a proteção antispam](anti-spam-protection-faq.md)
-  
+O pool de entrega de alto risco é um pool de endereços IP secundário para email de saída que só é usado para enviar mensagens de "baixa qualidade" (por exemplo, spam e [dispersão](backscatter-messages-and-eop.md)). O uso do pool de entrega de alto risco ajuda a evitar que o pool de endereços IP normal para email de saída envie spam. O pool de endereços IP normal para email de saída mantém a reputação de enviar mensagens de "alta qualidade", o que reduz a probabilidade de que esse endereço IP apareça em listas de bloqueios de IP.
 
+A possibilidade real de que os endereços IP no pool de entrega de alto risco sejam colocados em listas de bloqueios de IP permaneça, mas isso ocorre por design. A entrega aos destinatários pretendidos não é garantida, pois muitas organizações de email não aceitarão mensagens do pool de entrega de alto risco.
+
+Para obter mais informações, consulte [controlar spam de saída no Office 365](outbound-spam-controls.md).
+
+> [!NOTE]
+> Mensagens em que o domínio de email de origem não tem um registro A e nenhum registro MX definido no DNS público sempre é roteado através do pool de entrega de alto risco, independentemente da disposição de spam ou de limite de envio.
+
+## <a name="bounce-messages"></a>Mensagens de devolução
+
+O pool de entrega de alto risco de saída gerencia a entrega de todas as notificações de falha na entrega (também conhecidas como NDRs, mensagens de devolução, notificações de status de entrega ou DSNs).
+
+As possíveis causas para uma sobrecarga nos NDRs incluem:
+
+- Uma campanha de falsificação que afeta um dos clientes que usam o serviço.
+
+- Um ataque de coleta de diretório.
+
+- Um ataque de spam.
+
+- Um servidor de emails não autorizados.
+
+Todos esses problemas podem resultar em um aumento repentino no número de NDRs que estão sendo processados pelo serviço. Muitas vezes, esses NDRs parecem ser spam para outros servidores de email e serviços (também conhecidos como _[dispersão](backscatter-messages-and-eop.md)_).

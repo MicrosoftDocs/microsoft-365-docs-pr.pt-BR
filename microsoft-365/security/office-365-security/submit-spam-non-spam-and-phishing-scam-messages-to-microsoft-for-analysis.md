@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'Você e seus usuários podem enviar mensagens de spam falsas negativas e falsos positivos para a Microsoft para análise. '
-ms.openlocfilehash: 7b53f74be78bc1203189815c6a7adf3337decd21
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 27e0698d1ad7d05adfa69e18e9b5b21edb74b1eb
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856864"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893641"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>Enviar mensagens de spam, não spam e esquema de phishing à Microsoft para análise
 
@@ -36,7 +36,7 @@ Os administradores podem enviar emails, URLs e anexos para a Microsoft para aná
 
 Se você receber uma mensagem que passou pelos filtros de spam que devem ser classificados como lixo eletrônico ou golpes de phishing, você pode enviar a mensagem "falso negativo" para a análise de spam da Microsoft e as equipes de análise de phishing da Microsoft, conforme apropriado. Os analistas revisarão a mensagem e a adicionarão aos filtros de todo o serviço se atenderem aos critérios de classificação.
 
-Para obter mais configurações de spam que se apliquem a toda a organização, consulte [Bloquear email spam com o filtro de spam do Office 365 para evitar problemas falsos negativos](reduce-spam-email.md). Este artigo contém dicas para ajudar a evitar falsos negativos.
+Para obter mais configurações de spam que se apliquem a toda a organização, consulte [anti-spam Protection in Office 365](anti-spam-protection.md). Este artigo contém dicas para ajudar a evitar falsos negativos.
 
 Você pode enviar mensagens de lixo eletrônico das seguintes maneiras:
 
@@ -59,16 +59,16 @@ Para enviar uma mensagem de spam ou golpe de phishing à Microsoft:
 3. Copie e cole a mensagem de spam ou golpe de phishing na nova mensagem como um anexo.
 
    > [!NOTE]
-   > • Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens golpes de phishing ou mensagens de lixo eletrônico. <br/><br/>• Deixe o corpo da nova mensagem vazio. <br/><br/>• Use formatos. msg (formato padrão do Outlook) ou. eml (o Outlook no formato da Web padrão) para as mensagens anexadas.
+   > * Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens golpes de phishing ou mensagens de lixo eletrônico. <br/><br/>* Deixe o corpo da nova mensagem vazio. <br/><br/>* Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.
 
 4. Clique em **Enviar**.
 
 ## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>Envie mensagens que foram marcadas como lixo eletrônico, mas deveriam ter sido permitidas
 
 Se uma mensagem foi identificada incorretamente como lixo eletrônico, você pode enviar a mensagem "falso positivo" para a equipe de análise de spam da Microsoft. Os analistas irão avaliar e analisar a mensagem. Dependendo dos resultados da análise, as regras de filtro de conteúdo de spam de todo o serviço podem ser ajustadas para permitir a mensagem.
-  
-Os administradores podem revisar mais informações de configuração de spam que se aplicam a uma organização inteira. Veja [como ajudar a garantir que uma mensagem não seja marcada como spam](prevent-email-from-being-marked-as-spam.md). Essas informações são úteis se você tiver controle de nível de administrador e quiser impedir falsos positivos.
-  
+
+Os administradores podem revisar mais informações de configuração de spam que se aplicam a uma organização inteira. Consulte [criar listas de remetentes confiáveis no Office 365](create-safe-sender-lists-in-office-365.md). Essas informações são úteis se você tiver controle de nível de administrador e quiser impedir falsos positivos.
+
 Você pode enviar mensagens que não são spam das seguintes maneiras:
 
 - Se você usar a ação **mover mensagem para a pasta lixo eletrônico** ao configurar seus filtros de conteúdo (essa é a ação padrão), os usuários poderão liberar mensagens falsas falsas em seus Outlook ou Outlook na Web pasta lixo eletrônico (anteriormente conhecida como Outlook Web App).
@@ -114,14 +114,3 @@ Depois de examinar essas informações, a equipe de spam pode fazer alterações
 [Vídeo da equipe de spam do Microsoft Exchange](https://youtu.be/-TpX_-GMC7o?hd=1)
 
 A avaliação de spam é um processo contínuo que se aplica independentemente do idioma ou conjunto de caracteres de origem. Como uma mensagem de spam pode ser vaga ou mesmo falta de texto no corpo da mensagem ou assunto, a equipe de spam se baseia em outras características da mensagem para executar a filtragem. Isso significa que, após a equipe de spam marcar uma determinada mensagem como spam e fazer as alterações necessárias na sua base de regra, essa mensagem ficará bloqueada no futuro até que suas características sejam modificadas o suficiente para evitar os nossos filtros. Novas regras de spam são implantadas de forma contínua. Os intervalos de tempo para regras em envios individuais variam de acordo com a quantidade e a qualidade dos envios. Como as novas regras de spam são definidas globalmente para todos os clientes, nem todos os envios de spam individuais resultarão em uma nova regra de spam.
-
-## <a name="for-more-information"></a>Para obter mais informações
-
-[Proteção antispam e antimalware](anti-spam-and-anti-malware-protection.md)
-  
-[Como ajudar a garantir que uma mensagem não é marcada como spam](prevent-email-from-being-marked-as-spam.md)
-  
-[Bloquear spam de email com o filtro de spam do Office 365 para evitar problemas de falsos negativos](reduce-spam-email.md)
-  
-
-[Bloquear spam de email com o filtro de spam do Office 365 para evitar problemas de falsos negativos](reduce-spam-email.md)

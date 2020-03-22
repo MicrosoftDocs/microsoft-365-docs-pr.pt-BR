@@ -1,11 +1,11 @@
 ---
-title: Configurar a política de spam de saída
+title: Configurar a filtragem de spam de saída
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/02/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,99 +16,481 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: 0fa5ec23eee6144864f16b52d452d02f38b554d7
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: e788310ae8fd3c0da7f1a39fbba2dc0d6e369d30
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957336"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893873"
 ---
-# <a name="configure-the-outbound-spam-policy"></a>Configurar a política de spam de saída
+# <a name="configure-outbound-spam-filtering-in-office-365"></a>Configurar a filtragem de spam de saída no Office 365
 
-A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados. Semelhante à filtragem de entrada, a filtragem de spam de saída é composta por filtragem de conexão e filtragem de conteúdo e permite que alguns controles específicos manipulem mensagens de saída. Tipos de configurações de política de filtro de spam de saída:
+Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, mensagens de email de saída enviadas por meio do EOP são verificadas automaticamente quanto ao spam e incomuns atividade de envio.
 
-- Padrão: a política de filtro de spam de saída padrão é usada para definir configurações de filtro de spam de saída para toda a empresa. Essa política não pode ser renomeada e está sempre ativa.
+O spam de saída de um usuário em sua organização normalmente indica uma conta comprometida. Mensagens de saída suspeitas são marcadas como spam (independentemente do nível de confiança de spam ou SCL) e são roteadas através do [pool de entrega de alto risco](high-risk-delivery-pool-for-outbound-messages.md) para ajudar a proteger a reputação do serviço (ou seja, manter os servidores de email de origem do Office 365 fora das listas de bloqueios de IP). Os administradores são notificados automaticamente sobre atividade de email de saída suspeita e usuários bloqueados por meio de [políticas de alerta](../../compliance/alert-policies.md).
 
-- Personalizado: as políticas de filtro de spam de saída personalizadas podem ser detalhadas e aplicadas a usuários, grupos ou domínios específicos em sua organização. As políticas personalizadas sempre têm precedência sobre a política padrão. Você pode alterar a ordem na qual suas políticas personalizadas são executadas, alterando a prioridade de cada política personalizada; no entanto, somente a política de maior prioridade (ou seja, número mais próximo a 0) será aplicada se o usuário corresponder a várias políticas.
+O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, consulte [proteção antispam no Office 365](anti-spam-protection.md).
+
+Os administradores podem exibir, editar e configurar (mas não excluir) a política de spam de saída padrão. Para maior granularidade, você também pode criar políticas personalizadas de spam de saída que se aplicam a usuários, grupos ou domínios específicos em sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
+
+Você pode configurar políticas de spam de saída no centro de conformidade & segurança do Office 365 ou no PowerShell (PowerShell do Exchange Online para clientes do Office 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP).
+
+## <a name="outbound-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Políticas de spam de saída no centro de conformidade & segurança do Office 365 versus Exchange Online PowerShell ou Exchange Online Protection PowerShell
+
+Os elementos básicos de uma política de spam de saída no EOP são:
+
+- **A política de filtro de spam de saída**: especifica as ações para verdicts de filtragem de spam de saída e as opções de notificação.
+
+- **A regra de filtro de spam de saída**: especifica a prioridade e os filtros de destinatário (aos quais a política se aplica) para uma política de filtro de spam de saída.
+
+A diferença entre esses dois elementos não é óbvia quando você gerencia políticas de spam de saída no centro de conformidade de & de segurança:
+
+- Ao criar uma política de spam de saída no centro de conformidade de & de segurança, você está realmente criando uma regra de filtro de spam de saída e a política de filtro de spam de saída associada ao mesmo tempo usando o mesmo nome para ambos.
+
+- Quando você modifica uma política de spam de saída no centro de conformidade de & de segurança, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de filtro de spam de saída. Todas as outras configurações modificam a política de filtro de spam de saída associada.
+
+- Quando você remove uma política de spam de saída do centro de conformidade & segurança, a regra de filtro de spam de saída e a política de filtro de spam de saída associada são removidas.
+
+No PowerShell do Exchange Online ou autônomo do Exchange Online Protection, a diferença entre políticas de filtro de spam de saída e regras de filtro de spam de saída é aparente. Você gerencia as políticas de filtro de spam de ** \*** saída usando os cmdlets-HostedContentFilterPolicy e gerencia as regras de filtro de spam de saída usando os ** \*cmdlets-HostedContentFilterRule** .
+
+- No PowerShell, você cria primeiro a política de filtro de spam de saída e, em seguida, cria a regra de filtro de spam de saída que identifica a política à qual a regra se aplica.
+
+- No PowerShell, você modifica as configurações da política de filtro de spam de saída e a regra de filtro de spam de saída separadamente.
+
+- Quando você remove uma política de filtro de spam de saída do PowerShell, a regra de filtro de spam de saída correspondente não é removida automaticamente e vice-versa.
+
+### <a name="default-outbound-spam-policy"></a>Política de spam de saída padrão
+
+Todas as organizações têm uma política interna de spam de saída chamada Default que tem estas propriedades:
+
+- A política de filtro de spam de saída chamada default é aplicada a todos os destinatários na organização, mesmo que não haja nenhuma regra de filtro de spam de saída (filtros de destinatário) associada à política.
+
+- A política chamada padrão tem o valor de prioridade personalizado **mais baixo** que não é possível modificar (a política é sempre aplicada por último). Qualquer política personalizada que você criar sempre terá uma prioridade maior do que a política chamada padrão.
+
+- A política chamada default é a política padrão (a propriedade **IsDefault** tem o valor `True`) e não é possível excluir a política padrão.
+
+Para aumentar a eficácia da filtragem de spam de saída, você pode criar políticas personalizadas de spam de saída com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
-<a name="sectionSection0"> </a>
 
-- Tempo estimado para conclusão: 5 minutos
+- Abra o centro de conformidade & segurança em <https://protection.office.com/>. Para ir diretamente para a página **configurações antispam** , use <https://protection.office.com/antispam>.
 
-- Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver quais são as permissões necessárias, confira a Entrada antispam, no tópico [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
+- Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell autônomo do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você também pode fazer os procedimentos neste tópico no PowerShell remoto. Use o cmdlet [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) para analisar suas configurações e o cmdlet [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) para editar as configurações de política de spam de saída.
+- Você precisa receber permissões para poder executar estes procedimentos. Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas de spam de saída, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
-  Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para obter as configurações recomendadas para políticas de spam de saída, confira [configurações de política de filtro de spam de saída do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings).
 
-## <a name="use-the-security--compliance-center-scc-to-edit-the-default-outbound-spam-policy"></a>Usar o centro de conformidade do & de segurança (SCC) para editar a política de spam de saída padrão
+- As [políticas de alerta](../../compliance/alert-policies.md) padrão denominadas limite de envio de **emails excedidos**, os **padrões de envio de emails suspeitos detectados**e o **usuário impedido de enviar emails** já enviar notificações por email aos membros do grupo **TenantAdmins** (**administradores globais**) sobre atividade de email de saída incomum e usuários bloqueados devido ao spam de saída. Para obter mais informações, consulte [verify the Alert Settings for Restricted Users](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users). Recomendamos que você use essas políticas de alerta em vez das opções de notificação em políticas de spam de saída.
 
-Utilize o procedimento a seguir para editar a política de spam de saída padrão.
+## <a name="use-the-security--compliance-center-to-create-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para criar políticas de spam de saída
 
-### <a name="to-configure-the-default-outbound-spam-policy"></a>Para configurar a política de spam de saída padrão.
+Criar uma política de spam de saída personalizada no centro de conformidade de & de segurança cria a regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No SCC, navegue até **anti-spam** da **política** \> de **Gerenciamento** \> de ameaças
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
 
-2. Expanda a seção **política de filtro de spam de saída (AlwaysOn)** e clique em **Editar política**.
+2. Na página **configurações antispam** , clique em **criar uma política de saída**.
 
-3. Expanda a seção **notificações** e marque as seguintes caixas de seleção referentes a mensagens de saída e, em seguida, selecione **adicionar pessoas** para adicionar um endereço de email ou endereços associados na caixa de diálogo que o acompanha. (elas podem ser listas de distribuição se resolverem como destinos SMTP válidos):
+3. Na **política de filtro de spam de saída** , retire-o, defina as seguintes configurações:
 
-   - **Envie uma cópia de todas as mensagens de email de saída suspeitas para o endereço ou endereços de email a seguir**: são mensagens marcadas como spam pelo filtro (independentemente da classificação de SCL). Eles não são rejeitados pelo filtro, mas são roteados através do pool de entrega de risco mais alto. Separe com ponto e vírgula os diversos endereços. Observe que os destinatários especificados receberão as mensagens como um Endereço CCO (com cópia oculta) (os campos de e para são o remetente e o destinatário originais).
+   - **Name**: Insira um nome exclusivo e descritivo para a política.
 
-   - **Envie uma notificação para o seguinte endereço de email quando um remetente estiver bloqueado enviando spam de saída**: Separe vários endereços com ponto e vírgula.
+   - **Descrição**: Insira uma descrição opcional para a política.
 
-   Quando uma quantidade significativa de spam ou outras anomalias de envio são detectadas de um usuário específico, o usuário está restrito a enviar mensagens de email e uma notificação é enviada para os endereços de email especificados.
+4. Opcion Expanda a seção **notificações** para configurar usuários adicionais que devem receber cópias e notificações de mensagens de email de saída suspeitas:
 
-   O administrador para o domínio, especificado usando esta configuração, será informado de que as mensagens de saída estão bloqueadas para este usuário.  Para ver a aparência dessa notificação, confira [exemplo de notificação quando um remetente estiver bloqueado enviando spam de saída](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md).
+   - **Enviar uma cópia de mensagens de email de saída suspeitas para pessoas específicas**: essa configuração adiciona os usuários especificados como destinatários Cco às mensagens de saída suspeitas. Para habilitar essa configuração:
 
-   > [!NOTE]
-   > Um alerta do sistema também é gerado, indicando que o usuário foi restringido. Para saber mais sobre o alerta e como recuperar o usuário, consulte [removendo um usuário do portal de usuários restritos após enviar email de spam](removing-user-from-restricted-users-portal-after-spam.md).
+     a. Marque a caixa de seleção para habilitar a configuração.
 
-4. Expanda a seção **limites de destinatário** para especificar o número máximo de destinatários que um usuário pode enviar, por hora, para destinatários internos e externos junto com o número máximo por dia.
+     b. Clique em **adicionar pessoas**. No submenu **Adicionar ou remover destinatários** que aparece:
 
-   > [!NOTE]
-   > O número máximo de qualquer entrada é 10000. Para obter mais informações [, consulte recebendo e enviando limites no Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
+     c. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto-e-vírgula (;) ou um destinatário por linha.
 
-7. Especifique a **ação** a ser tomada quando um usuário exceder os limites especificados.  As ações possíveis são as seguintes:
+     d. Clique em ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
 
-   - **Impedir que o usuário envie email até o dia seguinte**.  Após o limite de envio ter sido excedido (interno, externo ou diário) um alerta será gerado para o administrador e o usuário não poderá enviar mais emails até o dia seguinte, com base na hora UTC. Não há como o administrador substituir esse bloco.
+        Repita essas etapas quantas vezes forem necessárias.
 
-   - **Impedir que o usuário envie emails**.  Após o limite de envio ter sido excedido (interno, externo ou diário) um alerta será gerado para o administrador e o usuário não poderá enviar mais emails até que o administrador remova a restrição.  Nesses casos, o usuário será listado na [página usuários restritos](removing-user-from-restricted-users-portal-after-spam.md).  Após a remoção da lista, o usuário não será restringido novamente nesse dia.
+        Os destinatários adicionados aparecem na seção **lista de destinatários** do submenu. Para excluir um destinatário, clique ![no botão](../../media/scc-remove-icon.png)remover.
 
-   - **Sem ação/alerta apenas**. Após o limite de envio ter sido excedido (interno, externo ou diário) um alerta será gerado para o administrador, mas nenhuma ação será tomada para restringir o usuário.
+     e. Quando concluir, clique em **Salvar**.
 
-6. Expanda a seção **aplica-se a** e crie uma regra baseada em condição para especificar os usuários, grupos e domínios aos quais aplicar essa política. É possível criar várias condições, se elas forem únicas.  Observação: os usuários devem atender a todas as condições quando várias condições forem especificadas.  
+     Para desabilitar essa configuração, desmarque a caixa de seleção.
 
-   - Para selecionar usuários, selecione **o remetente é**. Na caixa de diálogo subsequente, selecione um ou mais remetentes da sua empresa na lista de seletor de usuários e então clique em adicionar. Para adicionar remetentes que não estão na lista, digite os seus endereços de email e então clique em Verificar nomes. Ao finalizar suas seleções, clique em ok para retornar a tela principal.
+   - **Notificar pessoas específicas se um remetente estiver bloqueado devido ao envio de spam de saída**:
 
-   - Para selecionar grupos, selecione **o remetente é um membro**. Em seguida, na caixa de diálogo posterior, selecione ou especifique os grupos. Clique em ok para retornar à tela principal.
+     > [!NOTE]
+     > A [política de alerta](../../compliance/alert-policies.md) padrão chamada **usuário Restricted do envio de emails** já envia notificações por email para os membros do grupo **TenantAdmins** (**administradores globais**) quando os usuários são bloqueados devido a exceder os limites na seção **limites de destinatários** . Recomendamos que você use a política de alerta em vez da configuração da política de spam de saída para notificar os administradores e outros usuários. Para obter instruções, consulte [verificar as configurações de alerta para usuários restritos](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).
 
-   - Para selecionar domínios, selecione **o domínio do remetente**. Em seguida, na caixa de diálogo posterior, adicione os domínios. Clique em ok para retornar à tela principal.
+     Para habilitar essa configuração:
 
-   Você pode criar exceções dentro da regra. Por exemplo, você pode filtrar mensagens de todos os domínios, exceto para um determinado domínio. Clique em Adicionar exceção e, em seguida, crie suas condições de exceção da mesma forma que criou as demais condições.
+     a. Marque a caixa de seleção para habilitar a configuração.
 
-   A aplicação de uma política de spam de saída a um grupo só é suportada para grupos de segurança habilitados para email.
+     b. Clique em **adicionar pessoas**. No submenu **Adicionar ou remover destinatários** que aparece:
 
-7. Clique em **salvar**.
+     c. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto-e-vírgula (;) ou um destinatário por linha.
 
-## <a name="to-create-a-custom-policy-for-a-specific-set-of-users"></a>Para criar uma política personalizada para um conjunto específico de usuários
+     d. Clique em ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
 
-1. No SCC, navegue até **anti-spam** da **política** \> de **Gerenciamento** \> de ameaças
+        Repita essas etapas quantas vezes forem necessárias.
 
-2. Clique no botão **criar uma política de saída** .
+        Os destinatários adicionados aparecem na seção **lista de destinatários** do submenu. Para excluir um destinatário, clique ![no botão](../../media/scc-remove-icon.png)remover.
 
-3. Expanda a seção **notificações** e marque as seguintes caixas de seleção referentes a mensagens de saída e, em seguida, selecione **adicionar pessoas** para adicionar um endereço de email ou endereços associados na caixa de diálogo que o acompanha.
+     e. Quando concluir, clique em **Salvar**.
 
-4. Expanda a seção **limites do destinatário** para especificar o número máximo de destinatários que um usuário pode enviar, por hora, para destinatários internos e externos e o número máximo por dia.
+     Para desabilitar essa configuração, desmarque a caixa de seleção.
 
-7. Especifique a **ação** a ser tomada quando um usuário exceder os limites especificados.
+5. Opcion Expanda a seção **limites de destinatário** para configurar os limites e as ações de mensagens de email de saída suspeitas:]
+   - **Número máximo de destinatários por usuário**
 
-6. Expanda a seção **aplica-se a** e crie uma regra baseada em condição para especificar os usuários, grupos e domínios aos quais aplicar essa política. É possível criar várias condições, se elas forem únicas.  
+     Um valor válido é de 0 a 10000. O valor padrão é 0, o que significa que os padrões de serviço são usados. Para obter mais informações, consulte [enviando limites nas opções do Office 365](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).
 
-8. Clique em **salvar**
+     - **Limite por hora externo**: o número máximo de destinatários externos por hora.
 
-## <a name="for-more-information"></a>Para saber mais
+     - **Limite por hora interno**: o número máximo de destinatários internos por hora.
+
+     - **Limite diário**: o número total máximo de destinatários por dia.
+
+   - **Ação quando um usuário exceder os limites acima**: Configure a ação a ser tomada quando qualquer um dos **limites de destinatário** for excedido. Para todas as ações, os destinatários especificados na política de alerta do usuário que está **impedido de enviar emails** (e, na agora, **pessoas de notificar-se um remetente está bloqueado devido ao envio de spam** de saída na política de spam receber notificações por email.
+
+     - **Impedir que o usuário envie email até o dia seguinte**: Este é o valor padrão. As notificações por email são enviadas e o usuário não poderá enviar mais mensagens até o dia seguinte, com base na hora UTC. Não há como o administrador substituir esse bloco.
+
+       - O alerta de atividade chamado **usuário impedido de enviar email** notifica os administradores (por email e na página **exibir alertas** ).
+
+       - Qualquer destinatário especificado em **notificar pessoas específicas se um remetente estiver bloqueado devido ao envio** da configuração de spam de saída na política também é notificado.
+
+       - O usuário não poderá enviar mais mensagens até o dia seguinte, com base na hora UTC. Não há como o administrador substituir esse bloco.
+
+     - **Impedir que o usuário envie emails**: as notificações por email são enviadas, o usuário é adicionado ao portal **[<https://sip.protection.office.com/restrictedusers> Restricted Users]** no centro de conformidade do & de segurança e o usuário não pode enviar emails até que sejam removidos do portal de **usuários restritos** por um administrador. Depois que um administrador remover o usuário da lista, o usuário não será restringido novamente nesse dia. Para obter instruções, consulte [removendo um usuário do portal de usuários restritos após o envio de email de spam](removing-user-from-restricted-users-portal-after-spam.md).
+
+     - **Nenhuma ação, somente alerta**: as notificações por email são enviadas.
+
+6. Precisam Expanda a seção **aplicado a** para identificar os remetentes internos aos quais a política se aplica.
+
+    Você só pode usar uma condição ou uma exceção uma vez, mas pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou uso de exceção ou lógica (por exemplo, _ \<sender1\> _ ou _ \<sender2\>_). Condições ou uso de exceções diferentes ou lógicas (por exemplo, _ \<sender1\> _ e _ \<membro do\>grupo 1_).
+
+    É mais fácil clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Você pode clicar ![no botão](../../media/scc-remove-icon.png) remover para remover as condições que você não deseja configurar.
+
+    - **O domínio do remetente é**: especifica remetentes em um ou mais dos domínios aceitos configurados no Office 365. Clique na caixa **Adicionar uma marca** para ver e selecionar um domínio. Clique novamente na caixa **Adicionar uma marca** para selecionar domínios adicionais se mais de um domínio estiver disponível.
+
+    - O **remetente é**: especifica um ou mais usuários em sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar outros remetentes.
+
+    - **O remetente é um membro de**: especifica um ou mais grupos na sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar outros remetentes.
+
+    - **Exceto se**: para adicionar exceções à regra, clique em **Adicionar uma condição** três vezes para ver todas as exceções disponíveis. As configurações e o comportamento são exatamente semelhantes às condições.
+
+7. Quando concluir, clique em **Salvar**.
+
+## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para exibir políticas de spam de saída
+
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+
+2. Na página **configurações antispam** , clique em ![expandir ícone](../../media/scc-expand-icon.png) para expandir uma política de spam de saída:
+
+   - A política padrão denominada **política de filtro de spam de saída**.
+
+   - Uma política personalizada que você criou onde o valor na coluna **tipo** é a **política de spam de saída personalizada**.
+
+3. As configurações de política são exibidas nos detalhes da política expandida que aparecem ou você pode clicar em **Editar política**.
+
+## <a name="use-the-security--compliance-center-to-modify-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para modificar políticas de spam de saída
+
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+
+2. Na página **configurações antispam** , clique em ![expandir ícone](../../media/scc-expand-icon.png) para expandir uma política de spam de saída:
+
+   - A política padrão denominada **política de filtro de spam de saída**.
+
+   - Uma política personalizada que você criou onde o valor na coluna **tipo** é a **política de spam de saída personalizada**.
+
+3. Clique em **Editar política**.
+
+Para políticas de spam de saída personalizadas, as configurações disponíveis no submenu que aparecem são idênticas àquelas descritas na seção [usar o centro de conformidade de & de segurança para criar políticas de spam de saída](#use-the-security--compliance-center-to-create-outbound-spam-policies) .
+
+Para a política de spam de saída padrão chamada **política de filtro de spam de saída**, a seção **aplicado à** não está disponível (a política se aplica a todos) e não é possível renomear a política.
+
+Para habilitar ou desabilitar uma política, defina a ordem de prioridade da política ou configure as notificações de quarentena do usuário final, consulte as seções a seguir.
+
+### <a name="enable-or-disable-outbound-spam-policies"></a>Habilitar ou desabilitar políticas de spam de saída
+
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+
+2. Na página **configurações antispam** ![, clique em expandir](../../media/scc-expand-icon.png) ícone para expandir uma política personalizada que você criou (o valor na coluna **tipo** é a política de **spam de saída personalizada**).
+
+3. Nos detalhes da política expandida que aparecem, observe o valor na coluna **em** .
+
+   Mova a alternância para a esquerda para desabilitar a política: ![Desativar](../../media/scc-toggle-off.png)
+
+   Mova a opção para a direita para habilitar a política: ![Ativar/desativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+
+Não é possível desabilitar a política de spam de saída padrão.
+
+### <a name="set-the-priority-of-custom-outbound-spam-policies"></a>Definir a prioridade das políticas personalizadas de spam de saída
+
+Por padrão, as políticas de spam de saída recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma prioridade mais alta para a política (0 é a maior) e as políticas são processadas em ordem de prioridade (as políticas de prioridade mais alta são processadas antes das políticas de prioridade mais baixa). Duas políticas podem ter a mesma prioridade.
+
+As políticas de spam de saída personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0). A política de spam de saída padrão chamada **política de filtro de spam de saída** tem o valor de prioridade **mais baixo**e não pode ser alterada.
+
+Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **prioridade** no centro de conformidade do & de segurança).
+
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+
+2. Na página **configurações antispam** , encontre as políticas nas quais o valor na coluna **tipo** é a política de **spam de saída personalizada**. Observe os valores na coluna **prioridade** :
+
+   - A política de spam de saída personalizada com a prioridade mais alta ![tem o ícone](../../media/ITPro-EAC-DownArrowIcon.png) de seta para baixo **0**.
+
+   - A política de spam de saída personalizada com a prioridade mais baixa ![tem o ícone](../../media/ITPro-EAC-UpArrowIcon.png) de seta para cima **n** ( ![por exemplo](../../media/ITPro-EAC-UpArrowIcon.png) , ícone de seta para cima **3**).
+
+   - Se você tiver três ou mais políticas de spam de saída personalizadas, as políticas entre a prioridade mais alta e ![a mais baixa](../../media/ITPro-EAC-UpArrowIcon.png)![terão valores para](../../media/ITPro-EAC-DownArrowIcon.png) cima ícone de seta para baixo ícone **n** (por exemplo ![, seta para cima ícone de seta](../../media/ITPro-EAC-UpArrowIcon.png)![para baixo](../../media/ITPro-EAC-DownArrowIcon.png) **2**).
+
+3. Click ![Ícone de seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) ou ![Ícone de seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) para mover a política de spam de saída personalizada para cima ou para baixo na lista de prioridades.
+
+## <a name="use-the-security--compliance-center-to-remove-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para remover políticas de spam de saída
+
+1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+
+2. Na página **configurações antispam** ![, clique em expandir](../../media/scc-expand-icon.png) ícone para expandir a política personalizada que você deseja excluir (a coluna **tipo** é **personalizada spam de saída**).
+
+3. Nos detalhes da política expandida que aparecem, clique em **excluir política**.
+
+4. Clique em **Sim** na caixa de diálogo de aviso que aparece.
+
+Não é possível remover a política padrão.
+
+## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-outbound-spam-policies"></a>Usar o PowerShell do Exchange Online ou do Exchange Online Protection para configurar políticas de spam de saída
+
+### <a name="use-powershell-to-create-outbound-spam-policies"></a>Usar o PowerShell para criar políticas de spam de saída
+
+A criação de uma política de spam de saída no PowerShell é um processo de duas etapas:
+
+1. Criar a política de filtro de spam de saída.
+
+2. Crie a regra de filtro de spam de saída que especifica a política de filtro de spam de saída à qual a regra se aplica.
+
+ **Observações**:
+
+- Você pode criar uma nova regra de filtro de spam de saída e atribuir uma diretiva de filtro de spam de saída não associada existente a ela. Uma regra de filtro de spam de saída não pode ser associada a mais de uma política de filtro de spam de saída.
+
+- Você pode definir as seguintes configurações em novas políticas de filtro de spam de saída no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:
+
+  - Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-HostedOutboundSpamFilterRule** ).
+
+  - Definir a prioridade da política durante a criação (_Priority_ _ \<número\>_ de prioridade) no cmdlet **New-HostedOutboundSpamFilterRule** ).
+
+- Uma nova política de filtro de spam de saída que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra de filtro de spam.
+
+#### <a name="step-1-use-powershell-to-create-an-outbound-spam-filter-policy"></a>Etapa 1: usar o PowerShell para criar uma política de filtro de spam de saída
+
+Para criar uma política de filtro de spam de saída, use esta sintaxe:
+
+```PowerShell
+New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Additional Settings>
+```
+
+Este exemplo cria uma nova política de filtro de spam de saída chamada contoso executivos com as seguintes configurações:
+
+- Os limites de taxa de destinatários são restritos a valores menores que o padrão. Para obter mais informações, consulte [enviando limites nas opções do Office 365](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).
+
+- Depois que um dos limites é alcançado, o usuário é impedido de enviar mensagens.
+
+```PowerShell
+New-HostedOutboundSpamFilterPolicy -Name "Contoso Executives" -RecipientLimitExternalPerHour 400 -RecipientLimitInternalPerHour 800 -RecipientLimitPerDay 800 -ActionWhenThresholdReached BlockUser
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterpolicy).
+
+#### <a name="step-2-use-powershell-to-create-an-outbound-spam-filter-rule"></a>Etapa 2: usar o PowerShell para criar uma regra de filtro de spam de saída
+
+Para criar uma regra de filtro de spam de saída, use esta sintaxe:
+
+```PowerShell
+New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"]
+```
+
+Este exemplo cria uma nova regra de filtro de spam de saída chamada contoso executivos com estas configurações:
+
+- A política de filtro de spam de saída chamada contoso executivos está associada à regra.
+
+- A regra se aplica aos membros do grupo chamado contoso executivos Group.
+
+```PowerShell
+New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterrule).
+
+### <a name="use-powershell-to-view-outbound-spam-filter-policies"></a>Usar o PowerShell para exibir políticas de filtro de spam de saída
+
+Para retornar uma lista resumida de todas as políticas de filtro de spam de saída, execute este comando:
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy
+```
+
+Para retornar informações detalhadas sobre uma política de filtro de spam de saída específica, use a seguinte sintaxe:
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" | Format-List [<Specific properties to view>]
+```
+
+Este exemplo retorna todos os valores de propriedade da política de filtro de spam de saída chamada executivos.
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy -Identity "Executives" | Format-List
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy).
+
+### <a name="use-powershell-to-view-outbound-spam-filter-rules"></a>Usar o PowerShell para exibir regras de filtro de spam de saída
+
+Para exibir as regras de filtro de spam de saída existentes, use a seguinte sintaxe:
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+```
+
+Para retornar uma lista resumida de todas as regras de filtro de spam de saída, execute este comando:
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule
+```
+
+Para filtrar a lista por regras habilitadas ou desabilitadas, execute os seguintes comandos:
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -State Disabled
+```
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -State Enabled
+```
+
+Para retornar informações detalhadas sobre uma regra de filtro de spam de saída específica, use esta sintaxe:
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -Identity "<RuleName>" | Format-List [<Specific properties to view>]
+```
+
+Este exemplo retorna todos os valores de propriedade da regra de filtro de spam de saída chamada contoso executivos.
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterrule).
+
+### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>Usar o PowerShell para modificar as políticas de filtro de spam de saída
+
+As mesmas configurações estão disponíveis quando você modifica uma política de filtro de malware no PowerShell quando cria a política, conforme descrito na seção [etapa 1: usar o PowerShell para criar uma política de filtro de spam de saída](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) , anteriormente neste tópico.
+
+**Observação**: não é possível renomear uma política de filtro de spam de saída (o cmdlet **set-HostedOutboundSpamFilterPolicy** não tem nenhum parâmetro _Name_ ). Ao renomear uma política de spam de saída no centro de conformidade & segurança, você estará apenas renomeando a _regra_de filtro de spam de saída.
+
+Para modificar uma política de filtro de spam de saída, use esta sintaxe:
+
+```PowerShell
+Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy).
+
+### <a name="use-powershell-to-modify-outbound-spam-filter-rules"></a>Usar o PowerShell para modificar as regras de filtro de spam de saída
+
+A única configuração que não está disponível quando você modifica uma regra de filtro de spam de saída no PowerShell é o parâmetro _habilitado_ que permite criar uma regra desabilitada. Para habilitar ou desabilitar regras de filtro de spam de saída existentes, consulte a próxima seção.
+
+Caso contrário, nenhuma configuração adicional estará disponível quando você modificar uma regra de filtro de spam de saída no PowerShell. As mesmas configurações estão disponíveis quando você cria uma regra, conforme descrito na seção [etapa 2: usar o PowerShell para criar uma regra de filtro de spam de saída](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) , anteriormente neste tópico.
+
+Para modificar uma regra de filtro de spam de saída, use esta sintaxe:
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" <Settings>
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterrule).
+
+### <a name="use-powershell-to-enable-or-disable-outbound-spam-filter-rules"></a>Usar o PowerShell para habilitar ou desabilitar as regras de filtro de spam de saída
+
+Habilitar ou desabilitar uma regra de filtro de spam de saída no PowerShell habilita ou desabilita toda a política de spam de saída (a regra de filtro de spam de saída e a política de filtro de spam de saída atribuída). Você não pode habilitar ou desabilitar a política de spam de saída padrão (sempre é sempre aplicada a todos os destinatários).
+
+Para habilitar ou desabilitar uma regra de filtro de spam de saída no PowerShell, use esta sintaxe:
+
+```PowerShell
+<Enable-HostedOutboundSpamFilterRule | Disable-HostedOutboundSpamFilterRule> -Identity "<RuleName>"
+```
+
+Este exemplo desabilita a regra de filtro de spam de saída chamada departamento de marketing.
+
+```PowerShell
+Disable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+Este exemplo ativa a mesma regra.
+
+```PowerShell
+Enable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedoutboundspamfilterrule) e [Disable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedoutboundspamfilterrule).
+
+### <a name="use-powershell-to-set-the-priority-of-outbound-spam-filter-rules"></a>Usar o PowerShell para definir a prioridade das regras de filtro de spam de saída
+
+O valor de maior prioridade que você pode definir em uma regra é 0. O valor mais baixo que você pode definir depende do número de regras. Por exemplo, se você tiver cinco regras, poderá usar os valores de prioridade de 0 a 4. Alterar a prioridade de uma regra existente pode ter um efeito em cascata em outras regras. Por exemplo, se você tiver cinco regras personalizadas (prioridades de 0 a 4) e alterar a prioridade de uma regra para 2, a regra existente com prioridade 2 será alterada para prioridade 3 e a regra com prioridade 3 será alterada para prioridade 4.
+
+Para definir a prioridade de uma regra de filtro de spam de saída no PowerShell, use a seguinte sintaxe:
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" -Priority <Number>
+```
+
+Este exemplo define a prioridade da regra chamada departamento de marketing como 2. Todas as regras existentes com prioridade inferior ou igual a 2 são reduzidas por 1 (seus números de prioridade aumentam em 1).
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
+```
+
+**Observações**:
+
+- Para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-HostedOutboundSpamFilterRule** .
+
+- A política de filtro de spam padrão de saída não tem uma regra de filtro de spam correspondente e sempre tem o valor de prioridade não modificável **mais baixo**.
+
+### <a name="use-powershell-to-remove-outbound-spam-filter-policies"></a>Usar o PowerShell para remover as políticas de filtro de spam de saída
+
+Quando você usa o PowerShell para remover uma política de filtro de spam de saída, a regra de filtro de spam de saída correspondente não é removida.
+
+Para remover uma política de filtro de spam de saída no PowerShell, use esta sintaxe:
+
+```PowerShell
+Remove-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>"
+```
+
+Este exemplo remove a política de filtro de spam de saída chamada departamento de marketing.
+
+```PowerShell
+Remove-HostedOutboundSpamFilterPolicy -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterpolicy).
+
+### <a name="use-powershell-to-remove-outbound-spam-filter-rules"></a>Usar o PowerShell para remover as regras de filtro de spam de saída
+
+Quando você usa o PowerShell para remover uma regra de filtro de spam de saída, a política de filtro de spam de saída correspondente não é removida.
+
+Para remover uma regra de filtro de spam de saída no PowerShell, use esta sintaxe:
+
+```PowerShell
+Remove-HostedOutboundSpamFilterRule -Identity "<PolicyName>"
+```
+
+Este exemplo remove a regra de filtro de spam de saída chamada departamento de marketing.
+
+```PowerShell
+Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterrule).
+
+
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
 

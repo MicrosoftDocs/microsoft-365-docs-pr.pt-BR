@@ -16,12 +16,12 @@ ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
 description: Estes artigos ajudam os remetentes externos a melhorar sua reputação e aumentar a capacidade de entregar emails aos usuários no Office 365. Eles também fornecem algumas informações sobre como é possível relatar lixo eletrônico e tentativas de phishing, mesmo que você não seja um usuário do Office 365.
-ms.openlocfilehash: f6a0860c505453811e6e637941d90a91fd5b40f7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2c806509baaba54792f4076b42004d2d0bb35367
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598408"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893617"
 ---
 # <a name="sending-mail-to-office-365"></a>Enviar email para o Office 365
 
@@ -33,5 +33,5 @@ Se você não for um cliente do Office 365, mas estiver tentando enviar emails p
 |:-----|:-----|
 |Serviços que fornecemos aos administradores de sistemas de email que estão enviando emails individuais e em massa para os clientes do Office 365.|[Serviços para não clientes enviando emails para o Office 365](services-for-non-customers.md)|
 |Como corrigir problemas que chegam aos clientes no Office 365 por email. Práticas recomendadas para o envio de email em massa para destinatários do Office 365.|[Solução de problemas de email enviados para o Office 365](troubleshooting-mail-sent-to-office-365.md)|
-|Como o Office 365 impede que o lixo eletrônico, incluindo phishing e spoofing email, sejam enviados para nossos clientes.|[Combater lixo eletrônico enviado ao Office 365](fighting-junk-email.md)|
+|Como o Office 365 impede que o lixo eletrônico, incluindo phishing e spoofing email, sejam enviados para nossos clientes.|[Proteção antispam no Office 365](anti-spam-protection.md)|
 |Como você, um administrador enviando emails para os clientes do Office 365, pode evitar que os emails sejam bloqueados ao aderir às políticas antispam. Este é o material legal que você precisa saber.|[Referência: políticas, práticas e diretrizes](reference-policies-practices-and-guidelines.md)|

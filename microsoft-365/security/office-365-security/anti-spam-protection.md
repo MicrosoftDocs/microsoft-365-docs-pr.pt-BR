@@ -1,11 +1,11 @@
 ---
-title: Proteção anti-spam de email do Office 365
+title: Proteção antispam
 f1.keywords:
 - NOCSH
-ms.author: krowley
-author: kccross
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 6/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,79 +16,99 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Office 365. Obtendo muito spam no Office 365? Você pode personalizar suas configurações de política antispam e filtros de spam.
-ms.openlocfilehash: b7ffb29d09a357cc0a2e407d1a66f29273fc950f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Office 365. Obtendo muito spam no Office 365? Você pode personalizar suas configurações de filtro de spam e antispam.
+ms.openlocfilehash: 5558bfa29427df4df12a83bc8b30adaf6001b9c3
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633829"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894065"
 ---
-# <a name="office-365-email-anti-spam-protection"></a>Proteção anti-spam de email do Office 365
-
-Você está preocupado com muito spam no Office 365? Criamos vários filtros de spam no serviço do Office 365 ou do Exchange Online Protection (EOP), para que seu email fique protegido do momento em que você recebe a primeira mensagem. Para ajudar a evitar spam no Office 365, talvez você queira alterar uma configuração de proteção para lidar com um problema específico em sua organização, digamos que você esteja recebendo muitos spams de um remetente específico, por exemplo, ou simplesmente ajustar suas configurações para que elas sejam adaptado para atender melhor às necessidades da sua organização. Para fazer isso, você pode alterar as configurações antispam no centro de conformidade de segurança &amp; do Office 365.
-
-Este artigo destina-se aos administradores do Office 365. Se você não é um administrador, mas é um usuário do Office 365 e deseja saber como lidar com o spam recebido, este não é o artigo que você está procurando. Em vez disso, se você usar o Outlook para PC ou o Outlook para Mac, comece com [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). Se você usar o Outlook na Web, comece com [saiba mais sobre lixo eletrônico e phishing](https://support.office.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31).
-
-## <a name="these-options-help-you-prevent-spam-in-office-365"></a>Essas opções ajudam a evitar spam no Office 365
-
- **Filtragem de conexão**: quando você usa a filtragem de conexão, o Office 365 verifica a reputação do remetente antes de permitir que uma mensagem seja acessada. Você pode criar uma lista de permissões ou uma lista de remetentes confiáveis para certificar-se de receber todas as mensagens enviadas por um endereço IP ou intervalo de endereços IP específico. Você também pode criar uma lista de endereços IP a partir da qual bloquear mensagens, chamada lista de bloqueios. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md). Se você estiver preocupado com o spam no Office 365, use a filtragem de conexão para ajudar a evitar spam.
-
-Para os clientes que têm o Office 365 Enterprise E5 ou adquirir licenças de proteção avançada contra ameaças (ATP), a filtragem de conexão é usada pelo spoof Intelligence para criar listas de permissões e bloqueios de remetentes que estão falsificando seu domínio. Para obter mais informações, consulte [saiba mais sobre o spoof Intelligence](learn-about-spoof-intelligence.md).
-
- **Filtragem de spam**: o Office 365 verifica se há características de mensagens consistentes com spam usando a filtragem de spam. Você pode alterar as ações a serem executadas em mensagens identificadas como spam e escolher se é para filtrar mensagens escritas em idiomas específicos ou enviadas de determinados países ou regiões. Também pode ativar as opções avançadas de filtragem de spam, caso queira adotar uma abordagem mais agressiva de filtragem de spam. Além disso, é possível configurar notificações de spam para usuários finais, para informá-los quando mensagens destinadas a eles forem enviadas para a quarentena. (Enviar mensagens para a quarentena é uma das ações configuráveis). A partir dessas notificações, os usuários finais podem liberar falsos positivos e relatá-los para a Microsoft para análise. Para obter mais informações, consulte [Configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md). Para ajudar a evitar spam no Office 365, use a filtragem de spam, se você estiver preocupado com muito spam no Office 365, use a filtragem de conexão para ajudar a evitar spam.
+# <a name="anti-spam-protection-in-office-365"></a>Proteção antispam no Office 365
 
 > [!NOTE]
-> Para clientes autônomos do EOP: por padrão, os filtros de spam do EOP enviam mensagens detectadas por spam para a pasta lixo eletrônico de cada destinatário. No entanto, para garantir que a ação **mover mensagem para a pasta lixo eletrônico** funcione com caixas de correio locais, você deve configurar duas regras de fluxo de mensagens do Exchange (também conhecidas como regras de transporte) em seus servidores locais para detectar cabeçalhos de spam adicionados pelo EOP. Para obter detalhes, consulte [Garantir que o spam seja direcionado para a pasta Lixo Eletrônico de cada usuário](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+> Este tópico destina-se aos administradores do Office 365. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.office.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31).
 
-## <a name="extra-information-if-you-receive-too-much-spam-in-office-365"></a>Informações adicionais se você receber muito spam no Office 365
+Se você é um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, suas mensagens de email são automaticamente protegidas contra spam (lixo eletrônico) por EOP.
 
-O vídeo a seguir fornece uma visão geral da configuração da filtragem de spam no EOP.
+O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia antispam e anti-phishing do EOP é aplicada em nossas plataformas de email para fornecer aos usuários as últimas ferramentas antispam e anti-phishing e as inovações em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/608be94c-d763-4c47-af94-99e7cb277713?autoplay=false]
+Como o uso de email cresceu, isso tem abuso de email. O lixo eletrônico não monitorado pode obstruir as caixas de entrada e redes, impactar a satisfação do usuário e dificultar a eficácia de comunicações de email legítimas. É por isso que a Microsoft continua a investir em tecnologias antispam. Em suma, ele começa com a contém e filtra o lixo eletrônico.
 
-Para obter mais detalhes, consulte o tópico [configurar suas políticas de filtro de spam](configure-your-spam-filter-policies.md) .
+## <a name="anti-spam-technologies-in-eop"></a>Tecnologias antispam no EOP
 
-## <a name="check-your-outgoing-messages-to-prevent-spam-in-office-365"></a>Verifique suas mensagens de saída para impedir spam no Office 365
+Para ajudar a reduzir o lixo eletrônico, o EOP inclui proteção de lixo eletrônico que usa tecnologias de filtragem de spam proprietárias para identificar e separar lixo eletrônico de emails legítimos. EOP filtragem de spam aprende de ameaças conhecidas contra spam e phishing e comentários de usuários da nossa plataforma de consumidores, Outlook.com. Comentários contínuos dos usuários do EOP no programa de classificação de lixo eletrônico ajuda a garantir que as tecnologias do EOP sejam continuamente treinadas e aprimoradas.
 
- **Filtragem de saída**: o Office 365 também verifica se os usuários não enviam spam. Por exemplo, o computador de um usuário pode ser infectado com malware que faz com que ele envie mensagens de spam e, portanto, criamos proteção contra isso chamado *filtragem de saída*. Não é possível desativar a filtragem de saída, mas é possível definir as configurações descritas em [Configure the Outbound Spam Policy](configure-the-outbound-spam-policy.md). Se você estiver preocupado com muito spam no Office 365, use a filtragem de saída para ajudar a evitar spam no Exchange Online.
+As configurações antispam no EOP são feitas das seguintes tecnologias:
 
-## <a name="beyond-the-basics-more-ways-to-prevent-spam-in-office-365"></a>Além do básico: outras maneiras de evitar spam no Office 365
+- **Filtragem de conexão**: identifica servidores de origem de email bons e ruins no início da conexão de email de entrada por meio da lista de IPs permitidos, da lista de IPs bloqueados e da *lista segura* (uma lista dinâmica, mas não editável de remetentes confiáveis mantidos pela Microsoft). Você define essas configurações na política de filtro de conexão. Saiba mais em [Configurar filtragem de conexão no Office 365](configure-the-connection-filter-policy.md).
 
- **Regras de fluxo de email**: se você quiser ir além da filtragem de spam interna e criar regras personalizadas com base em suas políticas de negócios, _[as regras de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)_ (também conhecidas como _regras de transporte_) são outro filtro que ajuda a evitar spam no Office 365. Por exemplo, você pode usar regras de fluxo de email para definir o valor do nível de confiança de spam (SCL) para mensagens que correspondem a condições específicas, conforme descrito em [usar regras de fluxo de emails para definir o SCL (nível de confiança de spam) em mensagens](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+  > [!NOTE]
+  > O spoof Intelligence usa a filtragem de conexão para criar listas de permissões e bloqueios de remetentes que estão falsificando seu domínio de email. Para obter mais informações, consulte [saiba mais sobre o spoof Intelligence no Office 365](learn-about-spoof-intelligence.md).
 
- **Autenticação de email**: técnicas que usam o DNS (sistema de nomes de domínio) para adicionar informações verificáveis a mensagens de email sobre o remetente de uma mensagem de email são chamadas de autenticação de email. Os administradores do Office 365 mais avançados podem fazer uso desses métodos de autenticação de email:
+- **Filtragem de spam (filtragem de conteúdo)**: o EOP usa a filtragem de spam verdicts **spam**, **spam de alta confiança**, **email em massa**, **email de phishing** e email de **phishing de alta confiança** para classificar mensagens. É possível configurar as ações a serem executadas com base nesses verdicts, e você pode configurar as opções de notificação de usuário final para mensagens que foram colocadas em quarentena em vez de entregues. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
-- **Estrutura de política de remetente (SPF)**: o SPF valida a origem de mensagens de email, verificando o endereço IP do remetente em relação ao proprietário supostamente do domínio de envio. Para obter uma introdução rápida à SPF e para configurá-la rapidamente, veja [Configurar a SPF no Office 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
+  > [!NOTE]
+  > Por padrão, a filtragem de spam é configurada para enviar mensagens que foram marcadas como spam para a pasta lixo eletrônico do destinatário. No entanto, em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar duas regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização do Exchange local para reconhecer os cabeçalhos de spam do EOP que são adicionados às mensagens. Para obter detalhes, consulte [Configurar o EOP autônomo para fornecer spam à pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
-- **DomainKeys identificated mail (DKIM)**: DKIM permite anexar uma assinatura digital a mensagens de email no cabeçalho da mensagem de emails enviados. Sistemas de email que recebem emails de seu domínio usam essa assinatura digital para determinar se os emails de entrada recebidos são legítimos. Para obter informações sobre o DKIM e o Office 365, consulte [use DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
+- **Filtragem de spam de saída**: o EOP também verifica se os usuários não enviam spam, seja no conteúdo da mensagem de saída ou excedem os limites de mensagens de saída. Para obter mais informações, consulte [Configure Outbound spam Filtering in Office 365](configure-the-outbound-spam-policy.md).
 
-- **Autenticação de mensagens baseadas em domínio, relatórios e conformidade (DMARC)**: o DMARC ajuda a receber sistemas de email determinam o que fazer com as mensagens que falham no SPF ou no DKIM verifica e fornece outro nível de confiança para seus parceiros de email. Para obter informações sobre como configurar o DMARC, confira [usar o DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md).
+- **Spoof Intelligence**: para obter mais informações, consulte [saiba mais sobre o spoof intelligence no Office 365](learn-about-spoof-intelligence.md).
 
-Se você estiver preocupado com spam, phishing e falsificação no Office 365, use SPF, DKIM e DMARC juntos para ajudar a evitar spam e falsificação indesejada.
+## <a name="manage-errors-in-spam-filtering"></a>Gerenciar erros na filtragem de spam
 
- **Configurações gerenciadas pelo usuário final**: se você estiver procurando informações sobre como os usuários finais podem gerenciar suas próprias configurações de spam, confira [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) (para usuários do Microsoft Outlook) ou [saiba mais sobre lixo eletrônico e phishing](https://support.microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31) (para Outlook nos usuários da Web). Se você estiver usando o EOP para proteger caixas de correio locais, certifique-se de usar a sincronização de diretório para garantir que essas configurações sejam sincronizadas com o serviço. Para saber mais sobre como configurar a sincronização de diretório, consulte "Usar a sincronização de diretório para gerenciar usuários de email" em [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).
+É possível que boas mensagens possam ser identificadas como spam (também conhecidos como falsos positivos) ou que o spam possa ser entregue na caixa de entrada. Você pode usar as sugestões nas seções a seguir para descobrir o que aconteceu e ajudar a evitar que isso aconteça no futuro.
 
-## <a name="for-more-information"></a>Para obter mais informações
+Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos cenários:
 
-[Blog: por que spam e phishing são obtidos através do Office 365?](https://blogs.msdn.microsoft.com/tzink/2014/09/12/why-does-spam-and-phishing-get-through-office-365-and-what-can-be-done-about-it/)
+- Sempre envie mensagens incorretamente classificadas para a Microsoft. Os administradores podem usar o [Gerenciador de envios](admin-submission.md)ou os usuários podem relatar mensagens usando o [suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
-[Perguntas frequentes sobre a proteção antispam](anti-spam-protection-faq.md)
+- **Examinar os cabeçalhos de mensagens**antispam: esses valores informarão por que uma mensagem foi marcada como spam ou por que ela ignorou a filtragem de spam. Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
 
-[Impedir falsos positivos marcados como spam usando uma lista confiável ou outras técnicas](prevent-email-from-being-marked-as-spam.md)
+- **Aponte seu registro MX para o Office 365**: para que o EOP forneça a melhor proteção, sempre recomendamos que você tenha emails entregues primeiro ao Office 365. Para obter instruções, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
-[Como configurar a filtragem de spam do Office 365 para ajudar a bloquear mensagens de lixo eletrônico](reduce-spam-email.md)
+  Se o registro MX apontar para algum outro local (por exemplo, uma solução antispam de terceiros ou um dispositivo), é difícil para o EOP fornecer uma filtragem de spam precisa. Neste cenário, você precisa configurar a filtragem avançada para conectores (também conhecido como _lista de ignorados_). Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-[Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+- **Usar autenticação de email**: se você for um domínio de email, poderá usar o DNS para ajudar a garantir que as mensagens de remetentes desse domínio sejam legítimas. Para ajudar a evitar spam e falsificação indesejada no EOP, use todos os seguintes métodos de autenticação de email:
 
-[Cabeçalhos de mensagem antispam](anti-spam-message-headers.md)
+  - **SPF**: a estrutura da política do remetente verifica o endereço IP de origem da mensagem em relação ao proprietário do domínio de envio. Para obter uma introdução rápida à SPF e para configurá-la rapidamente, veja [Configurar a SPF no Office 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-[Mnsagens backscatter e EOP](backscatter-messages-and-eop.md)
+  - **DKIM**: DomainKeys identificado mail adiciona uma assinatura digital ao cabeçalho da mensagem de mensagens enviadas do seu domínio. Para saber mais, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
 
-## <a name="more-resources"></a>Mais recursos
+  - **DMARC**: autenticação, geração de relatórios e conformidade de mensagens baseadas em domínio ajuda os sistemas de email de destino a determinar o que fazer com as mensagens que falham no SPF ou no DKIM verifica e fornece outro nível de confiança para seus parceiros de email. Para obter mais informações, consulte [usar o DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md).
 
-[Obter ajuda de fóruns da comunidade do Office 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
+- **Verifique as configurações de email em massa**: o limite de nível de conformidade em massa (BCL) configurado em políticas antispam determina se o email em massa (também conhecido como _email cinza_) está marcado como spam. A configuração somente do PowerShell _MarkAsSpamBulkMail_ que está ativada por padrão também contribui para os resultados. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
-[Administradores: Entrar e criar uma solicitação de serviço](https://portal.office.com/AdminPortal/Home?ref=support)
+### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Impedir a entrega de spam para a caixa de entrada
 
-[Suporte do AContact para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/Office365/Admin/contact-support-for-business-products)
+- **Verifique suas configurações de organização**: Tome as configurações que permitem que as mensagens ignorem a filtragem de spam (por exemplo, se você adicionar seu próprio domínio à lista de domínios permitidos em políticas antispam). Para nossas configurações recomendadas, consulte [configurações recomendadas para o EOP e o office 365 ATP Security](recommended-settings-for-eop-and-office365-atp.md) e [criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
+
+- **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela é habilitada por padrão, mas se não houver mensagens marcadas como lixo eletrônico não podem ser movidas para a pasta lixo eletrônico. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+
+- **Use as listas de remetentes bloqueados disponíveis**: para saber mais, confira [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md).
+
+- **Cancelar assinatura de email em massa** Se a mensagem foi algo de que o usuário se inscreveu (boletins informativos, comunicados de produto etc.) e contém um link de cancelamento de assinatura de uma fonte respeitável, peça para que ele simplesmente cancele a assinatura.
+
+- **EOP autônomo: criar regras de fluxo de emails no Exchange local para filtragem de spam do EOP verdicts**: em ambientes autônomos do EOP onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar as regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir os EOP de filtragem de spam do veredicto, de forma Para obter detalhes, consulte [Configurar o EOP autônomo para fornecer spam à pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+
+### <a name="prevent-good-email-from-being-identified-as-spam"></a>Impedir que bons emails sejam identificados como spam
+
+Veja algumas etapas que você pode executar para ajudar a evitar positivos falsos:
+
+- **Verifique as configurações do filtro de lixo eletrônico do Outlook do usuário**:
+
+  - **Verifique se o filtro de lixo eletrônico do Outlook está desabilitado**: quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática**, o Outlook não tenta classificar massages como spam.  Quando ele é definido como **baixo** ou **alto**, o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico, para que você possa obter falsos positivos. Observe que a Microsoft parou de produzir atualizações de definição de spam para os filtros SmartScreen no Exchange e no Outlook em novembro de 2016. As definições existentes de spam do SmartScreen foram deixadas no local, mas sua eficácia provavelmente será prejudicada ao longo do tempo.
+
+  - **Verifique se a configuração ' somente listas de confiança ' do Outlook está desabilitada**: quando essa configuração está habilitada, somente as mensagens de remetentes na lista de remetentes confiáveis do usuário ou na lista de destinatários confiáveis são entregues na caixa de entrada; os emails de todas as outras pessoas são automaticamente movidos para a pasta lixo eletrônico.
+
+  Para obter mais informações sobre essas configurações, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+
+- **Use as listas de remetentes seguros disponíveis**: para saber mais, confira [criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
+
+- **Verifique se os usuários estão dentro dos limites de envio e recebimento** , conforme descrito em [recebendo e enviando limites](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) na descrição do serviço do Exchange Online.
+
+- **EOP autônomo: usar a sincronização de diretórios**: se você usar o EOP autônomo para ajudar a proteger sua organização local do Exchange, você deve sincronizar as configurações de usuário com o serviço usando a sincronização de diretórios. Isso garante que as listas de Remetentes confiáveis dos seus usuários sejam respeitadas pelo EOP. Para obter mais informações, consulte [Usar a sincronização de diretório para gerenciar usuários de e-mail](manage-mail-users-in-eop.md#use-directory-synchronization-to-manage-mail-users).
+
+## <a name="anti-spam-legislation"></a>Legislação antispam
+
+Na Microsoft, acreditamos que o desenvolvimento de novas tecnologias e autoregulamentação requer o suporte da política governamental efetiva e estruturas legais. A proliferação mundial de spam tem spurred vários órgãos legislativos para regulamentar emails comerciais. Muitos países agora têm leis de combate de spam em vigor. Os Estados Unidos têm leis federais e estaduais que regem o spam, e essa abordagem complementar está ajudando a curtailr spam e, ao mesmo tempo, permitindo o e-commerce legítimo para o Prosper. O Act CAN-SPAM expande as ferramentas disponíveis para moderar mensagens de email fraudulentas e enganosas.

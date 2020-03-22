@@ -17,12 +17,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Use este artigo como guia para configurar seus recursos de proteção contra ameaças agora.
-ms.openlocfilehash: 96d5c85a5511ec67991283fbc164bb07d2ab34e9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: da920083b521e905633473efbabc5930ad7a6770
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598678"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895306"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Proteção contra ameaças no Office 365
 
@@ -31,7 +31,7 @@ O Office 365 inclui vários recursos de proteção contra ameaças. Este é um g
 > [!IMPORTANT]
 > **As configurações iniciais recomendadas são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades específicas da sua organização**. Aguarde aproximadamente 30 minutos para que as políticas ou as alterações funcionem da mesma forma por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -111,7 +111,7 @@ Para saber mais, confira [configurar as políticas de anexos seguros do Microsof
 
 Para configurar [links de ATP seguros](atp-safe-links.md), revise e edite sua política padrão e adicione uma política para usuários específicos.
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha **** > **política** > de gerenciamento de ameaça**links seguros de ATP**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management** > **política** > de gerenciamento de ameaça**links seguros de ATP**.
 
 2. Clique duas vezes na política **padrão** .
 
@@ -189,7 +189,7 @@ A [proteção](anti-spam-protection.md) antispam está disponível em assinatura
 
 4. Clique em **Salvar**.
 
-Para saber mais sobre suas opções de política antispam, consulte [Configure the anti-spam Policies](configure-the-anti-spam-policies.md).
+Para saber mais sobre suas opções de política antispam, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="part-5---additional-settings-to-configure"></a>Parte 5-configurações adicionais a serem definidas
 

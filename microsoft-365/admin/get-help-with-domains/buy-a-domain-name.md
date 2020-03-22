@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio no Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 5ffb5f9268dcd8b38245e0b85c7d790b46628766
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857434"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894462"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Comprar um nome de domínio no Office 365
 
@@ -121,4 +121,6 @@ Depois que você registrar seu domínio (com um registrador de domínio), entre 
 
 [Perguntas frequentes sobre domínios](../setup/domains-faq.md)
 
-[Obter ajuda com os domínios do Office 365](get-help-with-domains.yml)
+[Obter ajuda com os domínios do Office 365](get-help-with-domains.md)
+
+[Atualizar registros DNS para manter seu site com seu provedor de hospedagem atual](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider) 

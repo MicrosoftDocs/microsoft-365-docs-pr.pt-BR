@@ -1,8 +1,7 @@
 ---
 title: Adicionar ou remover membros de grupos do Office 365
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -21,25 +20,19 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Saiba como adicionar um membro a um grupo, remover membro do grupo e gerenciar o status do proprietário do grupo no centro de administração do Microsoft 365.
-ms.openlocfilehash: b2c6e33be368dc08893d27ef291bb801b784bb98
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 5c708b88f2e4a2b4aa1aa84fd7d7700ab6545f87
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237071"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894706"
 ---
 # <a name="add-or-remove-members-from-office-365-groups-using-the-admin-center"></a>Adicionar ou remover membros de grupos do Office 365 usando o centro de administração
 
-::: moniker range="o365-worldwide"
+No Office 365, os membros do grupo normalmente criam seus próprios grupos, adicionam-se a grupos que desejam participar ou são convidados por proprietários de grupo. Se a propriedade de grupo for alterada ou se você determinar que um membro deve ser adicionado ou removido, como administrador, você também pode fazer essa alteração. Somente um administrador global, administrador do Exchange, administrador de grupos ou administrador de usuários pode fazer essas alterações. [O que é um grupo do Office 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page. 
-
-::: moniker-end
-
-No Office 365, os usuários geralmente criam seus próprios grupos, adicionam-se a grupos aos quais desejam participar ou são convidados por proprietários de outros grupos. Você poderá fazer alterações de propriedade ou determinar se um membro deve ser adicionado ou removido do grupo. Somente um administrador global, administrador do Exchange, administrador de grupos ou administrador de usuários pode fazer essas alterações. [O que é um grupo do Office 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
-  
- **Dica**: se você não for um administrador, você pode [Adicionar ou remover membros usando o Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
+> [!TIP]
+> Se você não for um administrador, poderá [Adicionar ou remover membros usando o Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Adicionar um membro a um grupo no centro de administração
 
@@ -178,7 +171,7 @@ No Office 365, os usuários geralmente criam seus próprios grupos, adicionam-se
 
 ::: moniker-end
 
-## <a name="manage-group-owner-status"></a>Gerenciar status de proprietário de grupo
+## <a name="manage-group-owner-status"></a>Gerenciar o status do proprietário do grupo
 
 Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, um grupo pode ter vários proprietários, para dar suporte de backup ou por outros motivos. Os membros podem ser promovidos ao status de proprietários, e os proprietários podem ser rebaixados ao status de membros.
   

@@ -1,12 +1,10 @@
 ---
 title: Gerenciar o acesso de convidados nos grupos do Office 365
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 12/18/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Office 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: 3314746e4d12c318eaae8fbfa34c2ed0b4d31aed
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: e76718ccb20843b252c939be48653c61c7c1f0a9
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610602"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894498"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Office 365
 
@@ -50,11 +48,9 @@ O acesso de convidados em grupos é geralmente usado como parte de um cenário m
 
 Se quiser habilitar ou desabilitar o acesso de convidados em grupos, você pode fazer isso no centro de administração do Microsoft 365.
 
-1. No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">&</a> de suplementos.
-
-2. Selecione **grupos do Office 365**.
+1. No centro de administração, vá para as **Settings** \> **configurações** de configurações e selecione **grupos do Office 365**.
   
-3. Na página **grupos do Office 365** , escolha se você deseja permitir que pessoas de fora da sua organização acessem os recursos do grupo ou permitir que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos.
+2. Na página **grupos do Office 365** , escolha se você deseja permitir que pessoas de fora da sua organização acessem os recursos do grupo ou permitir que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos.
 
 ## <a name="add-guests-to-an-office-365-group-from-the-admin-center"></a>Adicionar convidados a um grupo do Office 365 a partir do centro de administração
 
@@ -62,7 +58,7 @@ Se o convidado já existir no seu diretório, você poderá adicioná-lo aos seu
   
 1. No centro de administração, vá para**a página grupos** de **grupos** > .
   
-2. Selecione o grupo ao qual você deseja adicionar o convidado e selecione **Exibir todos e gerenciar Membros** na guia **Membros** . 
+2. Clique no grupo ao qual você deseja adicionar o convidado e selecione **Exibir todos e gerenciar Membros** na guia **Membros** . 
   
 4. Selecione **adicionar membros**e escolha o nome do convidado que você deseja adicionar.
     
@@ -76,7 +72,7 @@ Se quiser editar as informações de um convidado, você poderá [Adicionar ou a
 
 Se você quiser permitir o acesso de convidados à maioria dos grupos, mas tiver algumas situações em que você deseja impedir o acesso de convidados, poderá bloquear o acesso de convidados para grupos individuais usando o Microsoft PowerShell.
 
-Você deve usar a versão de visualização do [PowerShell do Azure Active Directory para Graph (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidados em nível de Grupo:
+Você deve usar a versão de visualização do [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidados em nível de Grupo:
 
 - Caso ainda não tenha instalado uma versão do módulo Azure AD PowerShell antes, confira [instalando o módulo Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module) e siga as instruções para instalar a versão de visualização pública.
 

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ea91fc29a0fa768113ff3ca8d8129a0ee56ab5f5
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 5fe9be7e85288e720b2ba3e5854cf34ec2263ee7
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633989"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895424"
 ---
 # <a name="microsoft-secure-score"></a>Classificação de Segurança da Microsoft
 
@@ -140,13 +140,41 @@ Para tornar a pontuação segura da Microsoft um melhor representante da postura
 
 Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
-### <a name="removed-not-scored-improvement-actions"></a>Ações de melhoria "não classificadas" removidas
+### <a name="march-2020"></a>Março de 2020
+
+#### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Padrões de segurança de suporte para ações de melhoria do Azure AD
+
+A pontuação segura da Microsoft atualizará as ações de aperfeiçoamento para suportar os [padrões de segurança no Azure ad](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da sua organização com configurações de segurança pré-configuradas para ataques comuns.
+
+Isso afetará as seguintes ações de melhoria:
+
+- Garantir que todos os usuários possam concluir a autenticação multifator para acesso seguro
+- Exigir MFA para funções administrativas
+- Habilitar política para bloquear autenticação herdada
+
+#### <a name="removed-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a>Ações de melhoria removidas que não atendem às expectativas para uma medição confiável ou não oferecem uma representação útil de postura de segurança
+
+Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, estamos removendo as seguintes ações de aprimoramento.
+
+- Armazenar documentos de usuário no OneDrive for Business
+- Configurar as políticas de anexo seguro do Office 365 ATP
+- Configurar links seguros do Office 365 para verificar URLs
+- Não permitir a delegação de caixa de correio
+- Permitir links de compartilhamento de convidados anônimos para sites e documentos
+- Ativar console do Cloud app Security
+- Configurar tempo de expiração para links de compartilhamento externos
+- Ativar a gravação de dados de auditoria
+- Descobrir aplicativos de ti de sombra arriscados e não compatíveis
+- Examinar permissões & bloquear aplicativos OAuth arriscados conectados ao seu ambiente
+- Configurar o controle de versão em bibliotecas de documentos do SharePoint Online
+
+#### <a name="removed-not-scored-improvement-actions"></a>Ações de melhoria "não classificadas" removidas
 
 Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. A pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis.  
 
 Por esses motivos, todas as ações de melhoria que não foram pontuadas foram removidas. Nenhuma ação é necessária em sua parte.
 
-### <a name="removed-device-improvement-actions"></a>Ações de melhoria de dispositivo removidas
+#### <a name="removed-device-improvement-actions"></a>Ações de melhoria de dispositivo removidas
 
 Após uma avaliação da categoria dispositivo de Pontuação segura da Microsoft de ações de melhoria, foi determinado que essas ações atualmente avaliam o estado da política e não o estado de configuração dos dispositivos. Como a configuração está diretamente ligada à postura de segurança, as ações de dispositivo existentes foram determinadas para não representar totalmente a postura organizacional.  Iremos remover as ações atuais na categoria do dispositivo à medida que trabalhamos para fornecer um conjunto de recomendações que usam diretamente dados de diagnóstico para representar uma postura de segurança de dispositivos.
 
@@ -173,16 +201,7 @@ As seguintes ações aprimoradas foram removidas:
 - Exigir que todos os dispositivos tenham configurações de segurança avançadas
 - Examinar o relatório de dispositivos bloqueados semanalmente
 
-### <a name="removed-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Ações de melhoria removidas que não atendem às expectativas de medição confiável
-
-Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, removemos as seguintes ações de aprimoramento:
-
-- Ativar a gravação de dados de auditoria
-- Descobrir aplicativos de ti de sombra arriscados e não compatíveis
-- Examinar permissões & bloquear aplicativos OAuth arriscados conectados ao seu ambiente
-- Configurar o controle de versão em bibliotecas de documentos do SharePoint Online
-
-### <a name="mfa-improvement-action-updates"></a>Atualizações das ações de melhoria da MFA
+#### <a name="mfa-improvement-action-updates"></a>Atualizações das ações de melhoria da MFA
 
 Para refletir a necessidade de que as empresas garantam o máximo de segurança durante a aplicação de políticas que funcionam com seus negócios, a pontuação segura da Microsoft removeu três ações de melhoria centralizada em relação à autenticação multifator e a adição de duas.
 
@@ -199,7 +218,7 @@ Ações aprimoradas foram adicionadas:
 
  Essas novas ações de melhoria exigem o registro de seus usuários ou administradores para autenticação multifator (MFA) em seu diretório e o estabelecimento do conjunto certo de políticas que atendam às suas necessidades organizacionais. O objetivo principal é ter flexibilidade enquanto garante que todos os seus usuários e administradores podem autenticar com vários fatores ou solicitações de verificação de identidade baseadas em risco. Isso pode ter a forma de ter várias políticas que aplicam decisões com escopo ou definir padrões de segurança (chegando a 16 de março) que permitem que a Microsoft decida quando desafiar os usuários para a MFA.
 
-### <a name="removed-review-improvement-actions"></a>Foram removidas ações de melhoria de "análise"
+#### <a name="removed-review-improvement-actions"></a>Foram removidas ações de melhoria de "análise"
 
 Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. Revisar as ações de melhoria não são medidas para o mesmo padrão que outras ações de aprimoramento.  
 

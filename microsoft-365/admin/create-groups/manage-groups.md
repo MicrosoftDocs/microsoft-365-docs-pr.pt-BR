@@ -1,8 +1,7 @@
 ---
 title: Gerenciar o grupo do Office 365 no centro de administração
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,154 +19,90 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como gerenciar grupos do Office 365, incluindo adição de membros do grupo remover, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
-ms.openlocfilehash: ed965cab10899624d85763b3f91f20b2df508c0e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 189a41c5049110100b548ca6f906b1324aeb1431
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237044"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894522"
 ---
 # <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo do Office 365 no centro de administração do Microsoft 365
 
 Depois de [criar um grupo do Office 365](create-groups.md) e adicionar membros do grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros. 
 
-## <a name="edit-a-group-name"></a>Editar um nome de grupo
+## <a name="edit-the-group-name-or-description"></a>Editar o nome ou a descrição do grupo
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> e marque a caixa de seleção para o grupo que você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Selecione **Editar nome**.
+2. Selecione o grupo que você deseja editar e clique em **Editar nome e descrição**.
 
-3. No painel **Editar detalhes** , insira um novo nome para o grupo e, em seguida, selecione **salvar**.
+3. Atualize o nome e a descrição e, em seguida, selecione **salvar**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo que você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Ao lado de **nome**, selecione **Editar**.
+2. Selecione o grupo que você deseja editar e clique em **Editar nome e descrição**.
 
-3. No painel **Editar detalhes** , insira um novo nome para o grupo e, em seguida, selecione **salvar**.
+3. Atualize o nome e a descrição e, em seguida, selecione **salvar**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo que você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Ao lado de **nome**, selecione **Editar**.
+2. Selecione o grupo que você deseja editar e clique em **Editar nome e descrição**.
 
-3. No painel **Editar detalhes** , insira um novo nome para o grupo e, em seguida, selecione **salvar**.
+3. Atualize o nome e a descrição e, em seguida, selecione **salvar**.
 
 ::: moniker-end
 
-
-## <a name="edit-a-group-description"></a>Editar uma descrição de grupo
+## <a name="manage-group-owners-and-members"></a>Gerenciar proprietários e membros do grupo
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> e marque a caixa de seleção para o grupo cuja descrição você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Selecione **Editar Descrição**.
+2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. No painel **Editar detalhes** , insira uma nova descrição para o grupo e, em seguida, selecione **salvar**.
+3. Na guia **Membros** , escolha se você deseja gerenciar proprietários ou membros.
+
+4. Escolha **Adicionar** para adicionar alguém ou clique em **X** para remover alguém.
+
+5. Clique em **Fechar**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cuja descrição você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Próximo a **Descrição**, selecione **Editar**.
+2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. No painel **Editar detalhes** , insira uma nova descrição para o grupo e, em seguida, selecione **salvar**.
+3. Na guia **Membros** , escolha se você deseja gerenciar proprietários ou membros.
 
-::: moniker-end
+4. Escolha **Adicionar** para adicionar alguém ou clique em **X** para remover alguém.
 
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cuja descrição você deseja alterar.
-
-2. Próximo a **Descrição**, selecione **Editar**.
-
-3. No painel **Editar detalhes** , insira uma nova descrição para o grupo e, em seguida, selecione **salvar**.
-
-::: moniker-end
-
-
-## <a name="manage-group-owners"></a>Gerenciar proprietários de grupo
-
-::: moniker range="o365-worldwide"
-
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
-
-2. Selecione o nome do grupo que você deseja gerenciar para abrir o painel de configurações.
-
-3. Na guia **Membros** , em **proprietários**, selecione **Exibir todos e gerenciar proprietários**e siga um destes procedimentos:
-
-    - Para adicionar um proprietário, selecione **Adicionar proprietários** e pesquise ou selecione um proprietário e, em seguida, selecione **salvar**. 
-    - Para remover um proprietário, procure ou selecione um proprietário de grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**. 
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cujos proprietários você deseja alterar.
-
-2. Ao lado de **proprietários**, selecione **Editar**e siga um destes procedimentos:
-
-    - Para adicionar um proprietário, selecione **Adicionar proprietários** e pesquise ou selecione um proprietário e, em seguida, selecione **salvar**. 
-    - Para remover um proprietário, procure ou selecione um proprietário de grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**. 
+5. Clique em **Fechar**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cujos proprietários você deseja alterar.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Ao lado de **proprietários**, selecione **Editar**e siga um destes procedimentos:
+2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-    - Para adicionar um proprietário, selecione **Adicionar proprietários** e pesquise ou selecione um proprietário e, em seguida, selecione **salvar**. 
-    - Para remover um proprietário, procure ou selecione um proprietário de grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**. 
+3. Na guia **Membros** , escolha se você deseja gerenciar proprietários ou membros.
 
-::: moniker-end
+4. Escolha **Adicionar** para adicionar alguém ou clique em **X** para remover alguém.
 
-## <a name="manage-group-members"></a>Gerenciar membros do grupo
-
-::: moniker range="o365-worldwide"
-
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
-
-2. Selecione o nome do grupo para o qual você deseja gerenciar Membros para abrir o painel de configurações.
-
-3. Na guia **Membros** , em **Membros**, selecione **Exibir todos e gerenciar Membros**e siga um destes procedimentos:
-
-    - Para adicionar um membro, selecione **adicionar membros**, Pesquisar ou selecionar um membro e, em seguida, selecione **salvar**. 
-    - Para remover um membro, procure ou selecione um membro do grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**. 
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cujos membros você deseja alterar.
-
-2. Ao lado de **Membros**, selecione **Editar**e siga um destes procedimentos:
-
-    - Para adicionar um membro, selecione **adicionar membros**, Pesquisar ou selecionar um membro e, em seguida, selecione **salvar**. 
-    - Para remover um membro, procure ou selecione um membro do grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o nome do grupo cujos membros você deseja alterar.
-
-2. Ao lado de **Membros**, selecione **Editar**e siga um destes procedimentos:
-
-    - Para adicionar um membro, selecione **adicionar membros**, Pesquisar ou selecionar um membro e, em seguida, selecione **salvar**. 
-    - Para remover um membro, procure ou selecione um membro do grupo, selecione o **X** ao lado do nome da pessoa e, em seguida, selecione **salvar**.  
+5. Clique em **Fechar**.
 
 ::: moniker-end
 
@@ -181,11 +116,13 @@ Os membros do grupo podem optar por receber esses emails escolhendo parar de seg
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> e selecione o nome do grupo que você deseja alterar. 
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Na guia **configurações** , selecione **enviar cópias de conversas de grupo e eventos para agrupar Membros** se você quiser que os Membros recebam cópias de mensagens de grupo e itens de calendário em sua própria caixa de entrada.
+2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. Selecione **Salvar**.
+3. Na guia **configurações** , selecione **enviar cópias de conversas de grupo e eventos para agrupar Membros** se você quiser que os Membros recebam cópias de mensagens de grupo e itens de calendário em sua própria caixa de entrada.
+
+4. Selecione **Salvar**.
 
 ::: moniker-end
 
@@ -219,9 +156,11 @@ Essa opção é ótima se você deseja ter um endereço de email da empresa, com
  
 ::: moniker range="o365-worldwide"
 
-1. Atualize sua página do centro de administração para que o novo grupo seja exibido.
+1. No centro de administração, expanda **grupos**e clique em **grupos**.
 
-2. Na lista grupos do centro de administração, selecione o nome do grupo que você deseja alterar e, na guia **configurações** , selecione **permitir que remetentes externos enviem esse grupo por email**.
+2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
+
+3. Na lista grupos do centro de administração, selecione o nome do grupo que você deseja alterar e, na guia **configurações** , selecione **permitir que remetentes externos enviem esse grupo por email**.
     
 4. Selecione **Salvar**.
 
