@@ -2,8 +2,8 @@
 title: Proteção antifalsificação no Office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTtracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: 007686f8d210124948a42b2c254fc58332cdd3de
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9e1a4cf31c2565eeb6be53b5c43bda0154f9ea6f
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086995"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894133"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -89,10 +89,9 @@ Para ver o comunicado geral da Microsoft, confira [Um mar de phishing, parte 2 �
 
 Embora o SPF, o DKIM e o DMARC sejam úteis por si só, não comunicam um status de autenticação suficiente caso uma mensagem não tenha registros de autenticação explícitos. Portanto, a Microsoft desenvolveu um algoritmo que combina vários sinais em um único valor chamado Autenticação Composta, abreviada como compauth. Os clientes no Office 365 têm valores compartilhados marcados no cabeçalho *Authentication-Results* nos cabeçalhos das mensagens.
 
-```
+```text
 Authentication-Results:
   compauth=<fail|pass|softpass|none> reason=<yyy>
-
 ```
 
 |**Resultado de CompAuth**|**Descrição**|
@@ -259,7 +258,7 @@ Há várias maneiras diferentes de falsificar uma mensagem (confira [Diferenciar
 
 ### <a name="changing-your-anti-spoofing-settings"></a>Alterar suas configurações antifalsificação
 
-Para criar ou atualizar suas configurações antifalsificação (entre domínios), navegue até as configurações Antiphishing \> Antifalsificação na guia Política do Gerenciamento de Ameaças \> no Centro de Conformidade &amp; Segurança. Se você nunca tiver criado uma configuração antiphishing, será necessário criar uma:
+Para criar ou atualizar suas configurações antifalsificação (entre domínios), navegue até as configurações Antiphishing \> Antifalsificação na guia Política do gerenciamento de ameaças \> no Centro de Conformidade e segurança. Se você nunca tiver criado uma configuração antiphishing, será necessário criar uma:
 
 ![Antiphishing ‒ criar uma nova política](../../media/9337ec91-270e-4fa7-9dfa-a51a2d1eb95e.jpg)
 
@@ -380,19 +379,19 @@ Embora inicialmente possa ser difícil enviar domínios para autenticação, com
 
 ### <a name="viewing-reports-of-how-many-messages-were-marked-as-spoofed"></a>Exibir relatórios de quantas mensagens foram marcadas como falsificadas
 
-Depois que a política antifalsificação estiver habilitada, você poderá usar os recursos de resposta e investigação de ameaça para obter o número de mensagens marcadas como phishing. Para fazer isso, vá até o Centro de Conformidade &amp; Segurança, em Gerenciamento de Ameaças \> Explorer, defina a Exibição como Phish e agrupe por Domínio de Remetente ou Status de Proteção:
+Depois que a política antifalsificação estiver habilitada, você poderá usar os recursos de resposta e investigação de ameaça para obter o número de mensagens marcadas como phishing. Para fazer isso, acesse o Centro de conformidade e segurança (SCC) em Gerenciamento de ameaças \> Explorer, defina o modo de exibição como phishing e agrupe por domínio do remetente ou status de proteção:
 
 ![Exibir quantas mensagens estão marcadas como phishing](../../media/de25009a-44d4-4c5f-94ba-9c75cd9c64b3.jpg)
 
 Você pode interagir com vários relatórios para ver quantas foram marcadas como phishing, inclusive mensagens marcadas como FALSAS. Para saber mais, confira [Introdução à resposta e investigação de ameaças do Office 365](office-365-ti.md).
 
-Você ainda não pode separar as mensagens que foram marcadas devido à falsificação de outros tipos de phishing (phishing geral, representação de domínio ou usuário e assim por diante). No entanto, mais tarde, você poderá fazer isso por meio do Centro de Conformidade &amp; Segurança. Depois disso, você poderá usar esse relatório como ponto de partida para identificar domínios de envio que possam ser legítimos e que estejam sendo marcados como falsificação devido a falhas na autenticação.
+Você ainda não pode separar as mensagens que foram marcadas devido à falsificação de outros tipos de phishing (phishing geral, representação de domínio ou usuário e assim por diante). Entretanto, mais tarde, você poderá fazer isso através do Centro de conformidade e segurança. Depois disso, você poderá usar esse relatório como ponto de partida para identificar domínios de envio que possam ser legítimos e que estejam sendo marcados como falsificação devido a falhas na autenticação.
 
 A captura de tela a seguir é uma proposta da aparência que esses dados terão, mas eles poderão mudar quando forem lançados:
 
 ![Exibir relatórios de phishing por tipo de detecção](../../media/dd25d63f-152c-4c55-a07b-184ecda2de81.jpg)
 
-Para clientes não ATP e E5, esses relatórios estarão disponíveis mais tarde nos relatórios de TPS (Status de Proteção contra Ameaças), mas serão atrasados em pelo menos 24 horas. Essa página será atualizada à medida que eles forem integrados ao Centro de Conformidade &amp; Segurança.
+Para clientes não ATP e E5, esses relatórios estarão disponíveis mais tarde nos relatórios de TPS (Status de Proteção contra Ameaças), mas serão atrasados em pelo menos 24 horas. Esta página será atualizada à medida que forem integradas ao Centro de conformidade e segurança.
 
 ### <a name="predicting-how-many-messages-will-be-marked-as-spoof"></a>Prever quantas mensagens serão marcadas como falsas
 
@@ -503,7 +502,7 @@ New-AntiphishRule -Name $name -AntiphishPolicy -RecipientDomainIs $domains
 Set-AntiphishPolicy -Identity $name -EnableAntispoofEnforcement $false
 ```
 
-A desabilitação da antifalsificação está disponível apenas via cmdlet (mais tarde, ele estará disponível no Centro de Conformidade &amp; Segurança). Se você não tiver acesso ao PowerShell, crie um tíquete de suporte.
+A desativação da antifalsificação só está disponível via cmdlet (mais tarde estará disponível no Centro de conformidade e segurança). Se você não tiver acesso ao PowerShell, crie um tíquete de suporte.
 
 Lembre-se: isso só deve ser aplicado a domínios que passam por roteamento indireto quando enviados para o Office 365. Resista à tentação de desativar a antifalsificação por causa de alguns falsos positivos. Em longo prazo, será melhor lidar com eles.
 
@@ -650,9 +649,11 @@ Infelizmente, não, porque os phishers vão se adaptar para usar outras técnica
 
 Quase todos os grandes receptores de email implementam SPF, DKIM e DMARC tradicionais. Alguns receptores têm outras verificações que são mais rigorosas do que apenas esses padrões, mas poucos chegam ao mesmo nível que o Office 365 para bloquear emails não autenticados e tratá-los como uma falsificação. No entanto, a maior parte do setor está se tornando cada vez mais rigorosa em relação a esse tipo específico de email, principalmente devido ao problema de phishing.
 
-### <a name="do-i-still-need-the-advanced-spam-filtering-option-enabled-for-spf-hard-fail-if-i-enable-anti-spoofing"></a>Ainda precisarei ter a opção Filtragem de Spam Avançada habilitada para "Falha Irrecuperável de FPS" se eu habilitar a antifalsificação?
+### <a name="do-i-still-need-to-enable-the-advanced-spam-filter-asf-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda preciso ativar o "registro SPF: ocorreu um erro no hardware" da configuração de Filtro de spam avançado (SPF) (_MarkAsSpamSpfRecordHardFail_) se eu habilitar a antifalsificação?
 
-Não, essa opção não é mais necessária porque o recurso antifalsificação não considera apenas as falhas graves de SPF, mas um conjunto muito mais amplo de critérios. Se você tiver antifalsificação e a opção Falha Irrecuperável de FPS habilitadas, provavelmente obterá mais falsos positivos. Recomendamos desabilitar esse recurso porque ele não fornece quase nenhuma captura adicional de spam ou phishing, e gera principalmente falsos positivos.
+Não, essa opção não é mais necessária porque o recurso antifalsificação não considera apenas as falhas graves de SPF, mas um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
+
+Recomendamos que você desative esse recurso, pois ele não fornece quase nenhuma captura adicional de spam ou phishing e, em vez disso, gera principalmente falsos positivos. Para obter mais informações, consulte [Configurações avançadas do filtro de spam (ASF) no Office 365](advanced-spam-filtering-asf-options.md).
 
 ### <a name="does-sender-rewriting-scheme-srs-help-fix-forwarded-email"></a>O SRS (Esquema de Reescrita de Remetente) ajuda a corrigir o email encaminhado?
 

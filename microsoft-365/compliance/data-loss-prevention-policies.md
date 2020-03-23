@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: 574a3376aa54311db3edc581e0a3e602cb1ac383
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 9a7b31f779982381fcc0eea7e8aa051f4fa2dafc
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826286"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894882"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -88,6 +88,9 @@ Uma política DLP pode encontrar e proteger informações confidenciais no Offic
 Se optar por incluir ou excluir sites específicos do SharePoint ou contas do OneDrive, uma política de DLP pode conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
   
 ### <a name="rules"></a>Regras
+
+> [!NOTE]
+> O comportamento padrão de uma política DLP, quando não há alerta configurado, não é o de alertar ou acionar. Isso se aplica apenas aos tipos de informações padrão. Para tipos de informações personalizadas, o sistema alertará mesmo se não houver nenhuma ação definida na política.
 
 As regras aplicam os requisitos de negócios para o conteúdo da sua organização. Uma política contém uma ou mais regras, e cada regra consiste em condições e ações. Para cada regra, quando as condições forem atendidas, as ações são executadas automaticamente. As regras são executadas sequencialmente, começando pela prioridade mais alta em cada política.
   
@@ -423,16 +426,16 @@ Se estiver criando políticas DLP com um grande impacto em potencial, é recomen
 2. **Mover para o modo de teste com Dicas de Política e notificações** para que você possa começar a ensinar os usuários sobre suas políticas de conformidade e prepará-los para as regras que serão aplicadas. Nesse estágio, você também pode pedir aos usuários para relatar falsos positivos para que você possa refinar as regras. 
     
 3. **Inicie a imposição total das políticas** para que as ações sejam aplicadas nas regras e o conteúdo seja protegido. Continue a monitorar os relatórios de DLP e qualquer relatório de incidente ou notificações para se certificar de que os resultados sejam os desejados. 
-    
-![Opções para usar o modo de teste e ativar a política](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
-  
-Você pode desativar uma política de DLP a qualquer momento, o que afeta todas as regras da política. No entanto, as regras também podem ser desativadas individualmente, alternando o status no editor de regras.
-  
-![Opções para desativar uma regra em uma política](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências (**...**) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
+    ![Opções para usar o modo de teste e ativar a política](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
-![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
+    Você pode desativar uma política de DLP a qualquer momento, o que afeta todas as regras da política. No entanto, as regras também podem ser desativadas individualmente, alternando o status no editor de regras.
+
+    ![Opções para desativar uma regra em uma política](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+
+    Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências (**...**) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
+
+    ![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
   
 ## <a name="dlp-reports"></a>Relatórios DLP
 
@@ -534,9 +537,9 @@ No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o
     
 2. Usar qualquer um destes cmdlets para os relatórios DLP:
     
-  - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
-    
-  - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
+    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
+
+    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
     
 ## <a name="more-information"></a>Mais informações
 
@@ -554,4 +557,3 @@ No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o
     
 - [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
     
-

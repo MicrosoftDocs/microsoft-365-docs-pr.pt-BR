@@ -17,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Como usuário do Office 365, você pode exibir, liberar e excluir suas mensagens em quarentena (mensagens em que você é um destinatário e a filtragem de spam em quarentena colocou a mensagem como spam ou e-mail em massa). Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e de segurança.
-ms.openlocfilehash: e74358d57b96c8655fbf6a3f7f0b6eedb5e65ede
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 04f04cfddb123bf176f3c71568789c77d225a601
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857328"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893665"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Localize e libere mensagens em quarentena como usuário do Office 365
 
@@ -38,9 +38,9 @@ Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e 
 
 - Os administradores conseguem configurar pelo tempo que as mensagens forem mantidas em quarentena antes de serem excluídas permanentemente (políticas anti-spam). As mensagens que saíram da quarentena se tornam irrecuperáveis. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
-- Os administradores também podem [habilitar as notificações de spam do usuário final](configure-your-spam-filter-policies.md) na políticas anti-spam. A partir de outubro de 2019, você não poderá mais liberar mensagens em quarentena diretamente dessas notificações. Você pode clicar em **Revisão** na notificação, o que o levará à Quarentena no Centro de conformidade e segurança. Para obter mais informações, consulte [Notificações de spam do usuário final no Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+- Os administradores também podem [habilitar as notificações de spam do usuário final](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) na políticas anti-spam. A partir de outubro de 2019, você não poderá mais liberar mensagens em quarentena diretamente dessas notificações. Você pode clicar em **Revisão** na notificação, o que o levará à Quarentena no Centro de conformidade e segurança. Para obter mais informações sobre as notificações, consulte [Notificações de spam do usuário final no Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-- As mensagens que foram colocadas em quarentena por regras de phishing, malware ou fluxo de mensagens de alta confiança (também conhecidas como regras de transporte) estão disponíveis apenas aos administradores. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um administrador no Office 365](find-and-release-quarantined-messages-as-an-administrator.md).
+- As mensagens que foram colocadas em quarentena por regras de phishing, malware ou fluxo de mensagens de alta confiança (também conhecidas como regras de transporte) estão disponíveis apenas aos administradores. Para obter mais informações, consulte [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md).
 
 - Você só pode liberar uma mensagem e relatá-la como falso positivo (e não como lixo eletrônico) uma vez.
 

@@ -18,12 +18,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: Documento para administradores autônomos de EOP para ajudar a evitar falsos negativos de spam
-ms.openlocfilehash: 6261c183d39b84435110616491f5bd0b2f3f891b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b3b4005016d8a4192241299cac50eddf59f332d5
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086572"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895412"
 ---
 # <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Personalizar o filtro antispam do Office 365 com estas configurações
 
@@ -41,13 +41,13 @@ Personalize o filtro de spam do Office 365 adicionando o endereço IP do remeten
 
 ### <a name="block-bulk-mail-with-mail-flow-rules-transport-rules-or-the-spam-filter"></a>Bloquear emails em massa com regras de fluxo de emails (também conhecida como regras de transporte) ou filtro de spam
 
-O spam é, em grande parte, emails em massa, por exemplo, boletins informativos ou promoções. Personalize o filtro de spam no Office 365 se você [Usar regras de fluxo de emails para configurar a filtragem de email em massa](use-transport-rules-to-configure-bulk-email-filtering.md) ou ative a configuração de **Emails em massa** nas [Opções avançadas de filtragem de spam](advanced-spam-filtering-asf-options.md) em seu filtro de spam. No Centro de administração do Exchange, comece clicando em **Proteção** \> **Filtro de conteúdo** e, em seguida, clique duas vezes para filtrar a política que você deseja ajustar. Clique em **Ações para spam e emails em massa** para ajustar as configurações, conforme mostrado aqui.
+O spam é, em sua maioria, correio em massa, por exemplo, boletins ou promoções? Você pode personalizar o filtro de spam no Office 365 se [Usar regras de fluxo de e-mail para configurar a filtragem de e-mail em massa](use-transport-rules-to-configure-bulk-email-filtering.md) ou ativar a **Configuração de e-mail** em massa nas configurações de [Filtro de spam avançado (ASF) do filtro de spam no Office 365](advanced-spam-filtering-asf-options.md). No centro de administração do Exchange, clique em **Filtro de** \> **conteúdo de proteção** e clique duas vezes na política de filtro que deseja ajustar. Clique em **Ações de spam e e-mail em massa** para ajustar as configurações, como mostrado aqui.
 
 ![Definir o filtro de email em massa no Exchange Online](../../media/a45095c2-269d-45b8-a76c-999b5e78da68.png)
 
 ### <a name="block-email-spam-using-spam-filter-block-lists"></a>Bloquear spam usando listas de bloqueio de filtro de spam
 
-[Configure suas políticas de filtro de spam](configure-your-spam-filter-policies.md) para adicionar o endereço do remetente à lista de bloqueio de remetentes ou seu domínio à lista de bloqueio de domínios no filtro de spam. Os emails de um remetente ou domínio em uma lista de bloqueio de filtro de spam serão marcados como spam.
+[Configure suas políticas anti-spam no Office 365](configure-your-spam-filter-policies.md) para adicionar o endereço do remetente à lista de remetentes bloqueados ou domínio à lista de domínios bloqueados no filtro de spam. Os e-mails de um remetente ou domínio em uma lista de bloqueio de filtro de spam serão marcados como spam.
 
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>Os usuários de email também podem ajudar a garantir que os falsos negativos e spams sejam bloqueados com o filtro de spam do Office 365
 
@@ -56,7 +56,7 @@ Instruir seus usuários a adicionar o endereço do remetente de spam à lista de
 ![Bloquear um remetente no Outlook na web](../../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 
 > [!NOTE]
-> Para obter informações mais detalhadas sobre as listas de remetentes confiáveis, confira [Remetentes confiáveis e listas de remetentes bloqueados no Exchange Online](safe-sender-and-blocked-sender-lists-faq.md).
+> Para obter informações mais detalhadas das listas de remetentes seguros, consulte [Criar listas de remetentes seguros no Office 365.](create-safe-sender-lists-in-office-365.md).
 
 ## <a name="eop-only-customers-set-up-directory-synchronization"></a>Clientes somente EOP: configurar a sincronização de diretório
 
@@ -76,11 +76,11 @@ O serviço do EOP foi projetado para respeitar os remetentes confiáveis e bloqu
 
 2. Execute o comando a seguir para encaminhar mensagens de spam com conteúdo filtrado para a pasta Lixo Eletrônico a fim de atualizar o SCL em toda mensagem marcada com SCL -1:
 
-  ```powershell
-  New-TransportRule "NameForRule" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SCL:-1" -SetSCL 0
-  ```
+   ```powershell
+   New-TransportRule "NameForRule" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SCL:-1" -SetSCL 0
+   ```
 
-    Como o SCL é 0 em seu servidor local do Exchange, mensagens marcadas como não sendo spam serão entregues às caixas de entrada dos usuários, mas ainda poderão ser enviadas para o lixo eletrônico pela lista de remetentes bloqueados local dos usuários. Se você estiver usando a quarentena de spam no EOP, ainda será possível que os remetentes na lista de confiança do usuário sejam identificados como spam e enviados para quarentena. Se você estiver usando a pasta Lixo Eletrônico na caixa de correio local, isso permitirá a entrega de mensagens de remetentes confiáveis na Caixa de Entrada.
+   Como o SCL é 0 em seu servidor local do Exchange, mensagens marcadas como não sendo spam serão entregues às caixas de entrada dos usuários, mas ainda poderão ser enviadas para o lixo eletrônico pela lista de remetentes bloqueados local dos usuários. Se você estiver usando a quarentena de spam no EOP, ainda será possível que os remetentes na lista de confiança do usuário sejam identificados como spam e enviados para quarentena. Se você estiver usando a pasta Lixo Eletrônico na caixa de correio local, isso permitirá a entrega de mensagens de remetentes confiáveis na Caixa de Entrada.
 
 > [!WARNING]
 > Se você usar uma regra de fluxo de email para alterar o valor do SCL para 0 (ou para qualquer valor diferente de -1), todas as opções de lixo eletrônico do Outlook serão aplicadas à mensagem. Isso significa que as listas confiáveis e bloqueadas serão cumpridas, mas também significa que as mensagens que não têm endereços nas listas bloqueadas ou confiáveis serão possivelmente marcadas como lixo eletrônico pelo processamento do filtro de lixo eletrônico no lado do cliente. Se você quiser que o Outlook processe as listas bloqueadas e confiáveis, mas não use o filtro de lixo eletrônico no lado do cliente, defina a opção "Sem Filtragem Automática" nas Opções de Lixo Eletrônico do Outlook. "Sem Filtragem Automática" é a opção padrão nas versões mais recentes do Outlook, mas você deve confirmar se essa configuração está presente, a fim de garantir que o filtro de lixo eletrônico do lado do cliente não seja aplicado às mensagens. Como administrador, você pode impor a desativação da filtragem de Lixo Eletrônico do Outlook seguindo as instruções em [Outlook: configuração de política para desativar a IU de lixo eletrônico e o mecanismo de filtragem](https://support.microsoft.com/kb/2180568).
@@ -88,5 +88,3 @@ O serviço do EOP foi projetado para respeitar os remetentes confiáveis e bloqu
 ## <a name="see-also"></a>Confira também
 
 [Proteção anti-spam de emails do Office 365](anti-spam-protection.md)
-
-[Impedir falsos positivos marcados como spam usando uma lista confiável ou outras técnicas](prevent-email-from-being-marked-as-spam.md)

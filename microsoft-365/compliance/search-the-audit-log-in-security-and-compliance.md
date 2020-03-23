@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 6d83b9af94ecb086d933cd00476ca84e87d6db2e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634749"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894392"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -311,7 +311,8 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades do Yammer](#yammer-activities)|
 |[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
-|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)||
+|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|
+|[Atividades de administradores do Exchange](#exchange-admin-audit-log)||
 ||||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
@@ -802,7 +803,16 @@ Você pode pesquisar o log de auditoria de atividades relacionadas a aplicativos
 
 ### <a name="microsoft-stream-activities"></a>Atividades do Microsoft Stream
 
-Você pode pesquisar o log de auditoria para atividades no Microsoft Stream. Essas atividades incluem atividades de vídeo executadas por usuários, atividades de canal de grupo e atividades de administração, como gerenciar usuários, gerenciar as configurações da organização e exportar relatórios. Para obter uma descrição dessas atividades, confira a seção "Atividades registradas no Microsoft Stream em [Logs de auditoria do Microsoft Stream](https://docs.microsoft.com/stream/audit-logs).
+Você pode pesquisar o log de auditoria para atividades no Microsoft Stream. Essas atividades incluem atividades de vídeo executadas por usuários, atividades de canal de grupo e atividades de administração, como gerenciar usuários, gerenciar as configurações da organização e exportar relatórios. Para obter uma descrição dessas atividades, consulte a seção "Atividades registradas no Microsoft Stream em [Logs de auditoria do Microsoft Stream](https://docs.microsoft.com/stream/audit-logs#actions-logged-in-stream).
+
+### <a name="content-explorer-activities"></a>Atividades do explorador de conteúdo
+
+A tabela a seguir lista as atividades no explorador de conteúdo registradas no log de auditoria do Office 365. Explorador de conteúdo, que é acessado na ferramenta Classificações de dados no centro de conformidade do Microsoft 365. Para obter mais informações, consulte [Usar o conteúdo de classificação de dados do Explorer](data-classification-content-explorer.md).
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Item acessado|AccessedItem|Um administrador (ou um usuário que seja membro do grupo de funções do Visualizador de conteúdo do explorador de conteúdo) usa o explorador de conteúdo para exibir uma mensagem de e-mail ou documento do SharePoint/OneDrive.|
+||||
 
 ### <a name="microsoft-forms-activities"></a>Atividades do Microsoft Forms
 
