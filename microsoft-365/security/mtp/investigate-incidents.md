@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 82069224a3f38357e52c2772c984d20d6597342d
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1883f61f50dad9b601329369bf180ddecba70138
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857482"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928957"
 ---
 # <a name="investigate-incidents-in-microsoft-threat-protection"></a>Investigar incidentes na Proteção contra Ameaças da Microsoft
 
@@ -115,4 +115,4 @@ Cada entidade analisada será marcada com um veredicto (mal-intencionada, suspei
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Priorizar incidentes](incident-queue.md)
 - [Gerenciar incidentes](manage-incidents.md)
-- [Examinar eventos e alertas em um computador específico](machine-profile.md)
+

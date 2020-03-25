@@ -17,23 +17,25 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 598ef669e95081ef098dfa9cfdb5473b21b28306
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: dc91b97f48d6a5ca76c405e4c1006dceb9dc0b34
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234750"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929023"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar proativamente os eventos na sua rede para localizar indicadores e entidades interessantes. O acesso flexível aos dados facilita a busca irrestrita por ameaças potenciais e conhecidas.
 
-No centro de segurança do Microsoft 365, a busca avançada oferece suporte a consultas que procuram dados do Microsoft defender ATP, abrangendo dados de dispositivos integrados e o Office 365 ATP, fornecendo dados de emails. Para usar a busca avançada, é necessário [habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md).
+Você pode usar as mesmas consultas de busca de ameaças para criar regras de detecção personalizadas. Essas regras são executadas automaticamente para verificar e responder a vários eventos e Estados do sistema, incluindo atividade de violação suspeita e máquinas configuradas incorretamente.
+
+No centro de segurança do Microsoft 365, a busca avançada oferece suporte a consultas que procuram dados de vários espaços de trabalho, incluindo dados sobre dispositivos, emails, aplicativos e identidades do Microsoft defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Para usar a busca avançada, é necessário [habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 
@@ -42,39 +44,23 @@ Recomendamos que você execute várias etapas para começar a trabalhar rapidame
 | Meta de aprendizagem | Descrição | Recurso |
 |--|--|--|
 | **Ver qual seria a linguagem** | A busca avançada se baseia na [linguagem de consulta Kusto](https://docs.microsoft.com/azure/kusto/query/), que oferece suporte à mesma sintaxe e operadores. Comece a aprender a linguagem de consulta executando a primeira consulta. | [Visão geral sobre a linguagem de consulta](advanced-hunting-query-language.md) |
+| **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar os resultados. Explore como você pode ajustar rapidamente as consultas e aprofundar para obter informações mais ricas. | [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md) |
 | **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Isso ajuda a determinar onde procurar dados e como construir suas consultas. | [Referência de esquema](advanced-hunting-schema-tables.md) |
-| **Usar consultas predefinidas** | Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-| **Otimizar consultas** | Saiba como criar consultas eficientes e que combinem dados de emails e dispositivos. | [Práticas recomendadas de consulta](advanced-hunting-shared-queries.md), [Busca em dispositivos e emails](advanced-hunting-best-practices.md)
+| **Aproveitar consultas predefinidas** | Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | [Usar consultas compartilhadas](advanced-hunting-shared-queries.md) |
+| **Otimizar consultas** | Saiba como criar consultas eficientes e que combinem dados de emails e dispositivos. | - [Práticas recomendadas de consulta](advanced-hunting-shared-queries.md) <br>- [Procurar por dispositivos e emails](advanced-hunting-best-practices.md) |
+| **Criar regras de detecção personalizadas** | Saiba como você pode usar consultas de busca avançada para disparar alertas e aplicar ações de resposta automaticamente. | - [Visão geral das detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
 ## <a name="get-help-as-you-write-queries"></a>Obter ajuda durante a criação de consultas
 Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
-- **Sugestão automática** — conforme você faz a consulta, a busca avançada fornece sugestões. 
+- **Sugestão** automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
 - **Referência de esquema** — inclui a lista de tabelas e suas colunas ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
 
-## <a name="drilldown-from-query-results"></a>Detalhamento dos resultados da consulta
-Para ver em seus resultados de consulta mais informações sobre entidades, como máquinas, arquivos, usuários, endereços IP e URLs, simplesmente clique no identificador de entidade. Isso abre uma página de perfil detalhada para a entidade selecionada no Central de Segurança do Microsoft Defender.
-
-## <a name="tweak-your-queries-from-the-results"></a>Ajustar consultas a partir dos resultados
-Clique com o botão direito do mouse em um valor no conjunto de resultados para aprimorar rapidamente a consulta. Você pode usar as opções para:
-
-- Procurar explicitamente pelo valor selecionado (`==`)
-- Excluir o valor selecionado da consulta (`!=`)
-- Obter operadores mais avançados para adicionar o valor à sua consulta, como `contains`, `starts with` e `ends with` 
-
-![Imagem do conjunto de resultados da busca avançada do Microsoft Defender ATP](../../media/advanced-hunting-results-filter.png)
-
-## <a name="filter-the-query-results"></a>Filtrar os resultados da consulta
-Os filtros exibidos à direita fornecem um resumo do conjunto de resultados. Cada coluna tem sua própria seção, que lista os valores distintos encontrados para essa coluna e o número de instâncias.
-
-Refine a consulta selecionando os botões "+" ou "-" nos valores que você deseja incluir ou excluir e selecione **Executar consulta**.
-
-![Imagem do filtro de busca avançada](../../media/advanced-hunting-filter.png)
-
-Depois de aplicar o filtro para modificar e executar a consulta, os resultados serão atualizados de acordo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
+- [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
-- [Compreender o esquema](advanced-hunting-schema-tables.md)
+- [Entender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
+- [Visão geral de detecções personalizadas](custom-detections-overview.md)
