@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 446af9ad49649487f4df1982613f8e84fdf39910
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 22693bbf8acdf8872b621ae214dd8d7a62b98b40
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857186"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929545"
 ---
 # <a name="about-admin-roles"></a>Sobre as funções de administrador
 
@@ -119,6 +119,7 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Administrador do Power BI    |   Acesso completo às tarefas de gerenciamento do Power BI, gerencia solicitações de serviço e monitora a integridade do serviço.   |
 |Administrador da plataforma de alimentação     |    Acesso total ao Microsoft Dynamics 365, ao PowerApps, às políticas de prevenção contra perda de dados e ao Microsoft Flow.     |
 |Administrador de função com privilégios     |    Gerencia atribuições de funções e todos os recursos de controle de acesso do Gerenciamento de identidades com privilégios.     |
+|Administrador de autenticação privilegiada     |    Redefine senhas, atualiza as credenciais sem senha, força o usuário a sair, monitora a integridade do serviço e gerencia as solicitações de serviço.     |
 |Leitor de relatórios     |   Lê os dados de relatórios de uso do painel de relatórios, do pacote de conteúdo de adoção do PowerBI, os relatórios de entrada e a API de relatórios do Microsoft Graph.      |
 |Administrador de pesquisa     |    Acesso total à Microsoft Search, atribui as funções de administrador de pesquisa e editor de pesquisa, gerencia conteúdo editorial, monitora a integridade do serviço e cria solicitações de serviço.     |
 |Editor de pesquisa     |    Só pode criar, editar e excluir o conteúdo da pesquisa da Microsoft, como indicadores, Q&A e locais.     |
