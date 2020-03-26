@@ -69,7 +69,7 @@
           href: privileged-access-management-configuration.md
     - name: Proteger acesso de usuário e de dispositivo
       href: protect-access-to-data-and-services.md
-    - name: Sistema de Proteção de Dados do Cliente
+    - name: Sistema de proteção de dados do cliente
       href: customer-lockbox-requests.md
 - name: Gerenciar a proteção de informações
   href: protect-information.md
@@ -201,13 +201,13 @@
     - name: Entender a classificação de dados (visualização)
       href: data-classification-overview.md
       items:
-        - name: Exibir conteúdo rotulado (visualização)
+        - name: Introdução ao Gerenciador de conteúdo (visualização)
           href: data-classification-content-explorer.md
-        - name: Exibir atividade do rótulo (visualização)
+        - name: Começar a usar o gerenciador de atividades (visualização)
           href: data-classification-activity-explorer.md
         - name: Notas de versão de visualização pública de classificação de dados (visualização)
           href: data-classification-pub-preview-relnotes.md
-        - name: Introdução aos classificadores de treinamento (visualização)
+        - name: Introdução aos classificadores estagiários (visualização)
           href: classifier-getting-started-with.md
         - name: Usando um classificador interno (visualização)
           href: classifier-using-a-ready-to-use-classifier.md
@@ -243,6 +243,8 @@
           href: archive-linkedin-data.md
         - name: Configurar um conector para arquivar dados do Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Configurar um conector para arquivar dados de chat de gelo (visualização)
+          href: archive-icechat-data.md
         - name: Configurar um conector para importar dados de RH
           href: import-hr-data.md
         - name: Trabalhar com um parceiro para arquivar dados de terceiros
@@ -816,6 +818,10 @@
           href: gdpr-for-office-online-server.md
         - name: RGPD para compartilhamentos de arquivos no Windows Server local
           href: gdpr-for-on-premises-file-shares.md
+    - name: Orientação específica do setor
+      items:
+        - name: Segurança e conformidade dos serviços financeiros
+          href: ../solutions/financial-services-secure-collaboration.md
 - name: Planos de ação de conformidade regulatória
   items:
     - name: ISO — Plano de ação recomendado
