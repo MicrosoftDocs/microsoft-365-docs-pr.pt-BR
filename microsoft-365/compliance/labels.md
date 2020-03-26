@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 4052cf691e9123e3d840d5fa6759ff7f032b67c2
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3bcaee41ab178ae79b1f2ef46871dadb107f3f5b
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634299"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929445"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -261,14 +261,14 @@ Você pode optar por aplicar os rótulos de retenção automaticamente ao conte�
     
 - [Palavras-chave específicas que correspondem a uma consulta criada por você](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
 
-- [Uma correspondência de classificadores treináveis](#auto-apply-labels-to-content-by-using-trainable-classifers)
+- [Uma correspondência de classificadores treináveis](#auto-apply-labels-to-content-by-using-trainable-classifiers)
     
 ![Escolha a página de condição para aplicação automática de rótulo](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
 Pode levar até sete dias para que os rótulos de retenção sejam aplicados automaticamente a todo o conteúdo que corresponde às condições que você configurou.
   
 > [!TIP]
-> Confira [Gerenciar o ciclo de vida dos documentos do SharePoint com rótulos de retenção](auto-apply-retention-labels-scenario.md) para obter um cenário detalhado sobre como usar as propriedades gerenciadas no SharePont para aplicar automaticamente os rótulos de retenção e implementar a retenção voltada para o evento.
+> Confira [Gerenciar o ciclo de vida dos documentos do SharePoint com rótulos de retenção](auto-apply-retention-labels-scenario.md) para obter um cenário detalhado sobre como usar as propriedades gerenciadas no SharePoint para aplicar automaticamente os rótulos de retenção e implementar a retenção voltada para o evento.
 
 ### <a name="auto-apply-retention-labels-to-content-with-specific-types-of-sensitive-information"></a>Aplicar automaticamente rótulos de retenção a conteúdo com tipos específicos de informações confidenciais
 
@@ -311,15 +311,15 @@ Consultas de exemplos:
 ![Editor de consultas](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
 
-### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
+### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
-Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **palavras ofensivas**, **currículos**, **SourceCode**, **assédio**, **profanação** e **ameaças**:
+Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **`Palavras Ofensivas**, **Currículos**, **SourceCode**, **Assédio Direcionado**, **Profanação** e **Ameaças**:
 
 ![Escolha classificador treinável](../media/retention-label-classifers.png)
 
 Para aplicar um rótulo automaticamente usando essa opção, as caixas de correio e sites do SharePoint Online devem ter pelo menos 10 MB de dados.
 
-Para obter mais informações sobre os classificadores treináveis, confira [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md).
+Para obter mais informações sobre os classificadores treináveis, confira [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md).
 
 Para um exemplo de configuração, consulte [Como preparar e usar um classificador interno](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-built-in-classifier).
 

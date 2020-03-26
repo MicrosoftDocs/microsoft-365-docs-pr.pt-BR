@@ -1,5 +1,5 @@
 ---
-title: Usando o explorador de atividade de classificação de dados
+title: Começar a usar o gerenciador de atividades (visualização)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de atividade dá o toque final na funcionalidade do recurso de classificação de dados, permitindo que você veja e filtre as ações que os usuários estão executando no conteúdo rotulado.
-ms.openlocfilehash: f80ce94433028b2434d442a364c336060b730d94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 68304bc75d33c993db52895828ec49e3b5203a4c
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076748"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929455"
 ---
-# <a name="view-activity-on-your-labeled-content-preview"></a>Exibir atividade do seu conteúdo rotulado (visualização)
+# <a name="get-started-with-activity-explorer-preview"></a>Começar a usar o gerenciador de atividades (visualização)
 
 As guias visão geral de classificação de dados e explorador de conteúdo dão visibilidade ao conteúdo que foi descoberto e rotulado e mostra onde está esse conteúdo. O explorador de atividade arremata esse pacote de funcionalidade permitindo monitorar o que está sendo feito com o conteúdo rotulado. O explorador de atividades fornece um modo de exibição histórica.
 
