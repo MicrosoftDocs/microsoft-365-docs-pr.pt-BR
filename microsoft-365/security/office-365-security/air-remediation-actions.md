@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 2efe0124304a9f9dcfdc92b548c850882ad507a0
-ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
+ms.openlocfilehash: 1dff52fe1bdab364e03bc42afc84c9b54696ccf5
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42836853"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955528"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Ações de correção após uma investigação automatizada no Office 365
 
@@ -45,3 +45,9 @@ A tabela a seguir resume as ações de correção que estão atualmente disponí
 - [Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365](air-review-approve-pending-completed-actions.md)
 
 - [Detalhes e resultados de uma investigação automatizada no Office 365](air-view-investigation-results.md)
+
+## <a name="related-articles"></a>Artigos relacionados
+
+- [Investigação automatizada no Microsoft defender proteção avançada contra ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+
+- [Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)

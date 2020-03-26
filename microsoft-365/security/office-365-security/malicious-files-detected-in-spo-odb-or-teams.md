@@ -2,8 +2,8 @@
 title: Exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: Saiba onde ir para exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams e como executar ações nesses arquivos.
-ms.openlocfilehash: 49c7e1668602a63b8b82339ad0cc7823146212a4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3a14c7d69c7081be6bd08840eb8f52c5e11d4be7
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599008"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955550"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams
 
@@ -53,13 +53,13 @@ Para exibir o status e informações detalhadas sobre arquivos detectados pelo O
     
 4. Escolha uma ação disponível.
     
-  - Escolha o **arquivo de lançamento** para desbloquear o arquivo. 
-    
-    Selecione **Enviar relatório para a Microsoft** para relatar o arquivo como um falso positivo para a Microsoft. 
-    
-  - Escolha **baixar arquivo** para investigar o arquivo. 
-    
-  - Escolha **remover da quarentena** para remover o arquivo da lista de itens em quarentena. Se você escolher essa opção, também deverá excluir o arquivo de sua respectiva biblioteca no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Essa opção não desbloqueia um arquivo de ser aberto ou compartilhado. 
+    - Escolha o **arquivo de lançamento** para desbloquear o arquivo. 
+
+      Selecione **Enviar relatório para a Microsoft** para relatar o arquivo como um falso positivo para a Microsoft. 
+
+    - Escolha **baixar arquivo** para investigar o arquivo. 
+
+    - Escolha **remover da quarentena** para remover o arquivo da lista de itens em quarentena. Se você escolher essa opção, também deverá excluir o arquivo de sua respectiva biblioteca no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Essa opção não desbloqueia um arquivo de ser aberto ou compartilhado. 
     
 5. Escolha **fechar** para fechar os detalhes de um item selecionado. 
   

@@ -2,8 +2,8 @@
 title: Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 ms.date: 08/07/2019
 audience: ITPro
@@ -14,12 +14,12 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os vários tipos de modos de exibição disponíveis no Gerenciador de ameaças e detecções em tempo real.
-ms.openlocfilehash: 9e2d6ce0c51c6a43596885d9ccb529dc1464a052
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7b05ec1346df3bfa428c384a4236a8758e22da28
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084798"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955634"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 
@@ -40,7 +40,7 @@ Depois de selecionar um modo de exibição, você pode aplicar filtros e configu
 
 ## <a name="email--malware"></a>Malware de > de email
 
-Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **** > **malware**de email. Este modo de exibição mostra informações sobre mensagens de email identificadas como contendo malware.  
+Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **Email** > **malware**de email. Este modo de exibição mostra informações sobre mensagens de email identificadas como contendo malware.  
 
 ![Exibir dados sobre email identificados como malware](../../media/ExplorerEmailMalwareMenu.png) 
 
@@ -56,7 +56,7 @@ Abaixo do gráfico, veja mais detalhes sobre mensagens específicas. Quando voc�
 
 ## <a name="email--phish"></a>Phishing > Phish
 
-Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **** > **phishing**de email. Este modo de exibição mostra mensagens de email identificadas como tentativas de phishing.  
+Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **Email** > **phishing**de email. Este modo de exibição mostra mensagens de email identificadas como tentativas de phishing.  
 
 ![Exibir dados sobre email identificados como tentativas de phishing](../../media/ThreatExplorerEmailPhish.png) 
 
@@ -76,7 +76,7 @@ Quando você seleciona um item na lista, como uma URL que foi detectada, um pain
 
 ## <a name="email--submissions"></a>Envios de > de email
 
-Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **** > **envios**de email. Este modo de exibição mostra o email que os usuários relataram como lixo eletrônico, não lixo eletrônico ou email de phishing. 
+Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **Email** > **envios**de email. Este modo de exibição mostra o email que os usuários relataram como lixo eletrônico, não lixo eletrônico ou email de phishing. 
 
 ![Mensagens de email relatadas por usuários](../../media/ThreatExplorerEmailUserReportedViewOptions.png) 
 
@@ -107,7 +107,7 @@ Abaixo do gráfico, veja mais detalhes sobre mensagens de email específicas, co
 
 ## <a name="content--malware"></a>Malware de > de conteúdo
 
-Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **** > **malware**de conteúdo. Este modo de exibição mostra arquivos que foram identificados como mal-intencionados pela [proteção avançada contra ameaças do Office 365 no SharePoint Online, no onedrive for Business e no Microsoft Teams](atp-for-spo-odb-and-teams.md).
+Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha **Exibir** > **Content** > **malware**de conteúdo. Este modo de exibição mostra arquivos que foram identificados como mal-intencionados pela [proteção avançada contra ameaças do Office 365 no SharePoint Online, no onedrive for Business e no Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
 Exibir informações pela família de malware, tecnologia de detecção (como o malware foi detectado) e carga de trabalho (OneDrive, SharePoint ou Teams). 
 

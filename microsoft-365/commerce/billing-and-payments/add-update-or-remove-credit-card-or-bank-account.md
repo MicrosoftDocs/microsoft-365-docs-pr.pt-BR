@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 49f1c0847ef53bea9a16a6aedb20f7d3a96d6e2c
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 47635f5fe5ffd37fbd33c258ab1df729dfc13399
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409696"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42952001"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover seus métodos de pagamento
 
@@ -107,7 +107,7 @@ Se sua forma de pagamento estiver associada a qualquer assinatura e você não t
 6. Selecione o novo método de pagamento na lista suspensa e, em seguida, selecione **alterar**.
     > [!WARNING]
     > Isso moverá todas as assinaturas para a nova forma de pagamento.
-7. Selecione **excluir**.
+7. Selecione **Excluir**.
 
 ### <a name="change-the-payment-method-used-to-pay-for-subscriptions"></a>Alterar o método de pagamento usado para pagar por assinaturas
 
@@ -120,7 +120,7 @@ Se sua forma de pagamento estiver associada a qualquer assinatura, e se você ti
 5. Selecione uma método de pagamento alternativo na lista suspensa e selecione **alterar**.
     > [!WARNING]
     > Isso moverá todas as assinaturas para a forma de pagamento alternativo.
-6. Selecione **excluir**.
+6. Selecione **Excluir**.
 
 ### <a name="change-the-payment-method-for-a-billing-profile"></a>Alterar a forma de pagamento de um perfil de cobrança
 
@@ -158,9 +158,7 @@ Se sua forma de pagamento estiver associada a um perfil de cobrança e também f
 Você deve ser um Administrador Global ou um Administrador de cobrança para realizar as tarefas descritas neste artigo.
   
  **Não é um administrador?** Entre em contato com seu administrador de ti para obter ajuda. [Quem tem permissões de administrador na minha empresa?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- **Para o Office 365 Home ou pessoal**, confira [alterar o método de pagamento ou cartão de crédito vinculado à sua conta da Microsoft](https://support.microsoft.com/help/4026594).
-  
+
 > [!NOTE]
 > A opção de pagamento com uma conta bancária não está disponível em alguns países ou regiões.
 >
@@ -181,7 +179,7 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 4. Insira as informações para o novo cartão de crédito ou conta bancária e, em seguida, selecione **Enviar**.
 
     > [!NOTE]
-    > O novo cartão de crédito ou conta bancária só será usado para a assinatura do Office 365 que você escolheu na etapa 2. Caso tenha outras assinaturas para as quais deseja usar o novo cartão ou a nova conta, siga as etapas descritas neste artigo para alterar o cartão ou a conta para cada assinatura.
+    > O novo cartão de crédito ou conta bancária só será usado para a assinatura escolhida na etapa 2. Caso tenha outras assinaturas para as quais deseja usar o novo cartão ou a nova conta, siga as etapas descritas neste artigo para alterar o cartão ou a conta para cada assinatura.
 
 ::: moniker-end
 
@@ -191,8 +189,6 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 Você deve ser um Administrador Global ou um Administrador de cobrança para realizar as tarefas descritas neste artigo.
   
  **Não é um administrador?** Contate o administrador de TI para obter ajuda. [Quem tem permissões de administrador na minha empresa?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- **Para o Office 365 Home ou pessoal**, confira [alterar o método de pagamento ou cartão de crédito vinculado à sua conta da Microsoft](https://support.microsoft.com/help/4026594).
   
 > [!NOTE]
 > A opção de pagamento com uma conta bancária não está disponível em alguns países ou regiões.
@@ -212,7 +208,7 @@ Você deve ser um Administrador Global ou um Administrador de cobrança para rea
 4. Insira as informações para o novo cartão de crédito ou conta bancária e, em seguida, selecione **Enviar**.
 
     > [!NOTE]
-    > O novo cartão de crédito ou conta bancária só será usado para a assinatura do Office 365 que você escolheu na etapa 2. Caso tenha outras assinaturas para as quais deseja usar o novo cartão ou a nova conta, siga as etapas descritas neste artigo para alterar o cartão ou a conta para cada assinatura.
+    > O novo cartão de crédito ou conta bancária só será usado para a assinatura escolhida na etapa 2. Caso tenha outras assinaturas para as quais deseja usar o novo cartão ou a nova conta, siga as etapas descritas neste artigo para alterar o cartão ou a conta para cada assinatura.
 
 ::: moniker-end
 

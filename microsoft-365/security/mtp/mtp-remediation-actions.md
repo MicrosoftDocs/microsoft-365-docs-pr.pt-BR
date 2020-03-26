@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 76a4fe678ce0106c7345dd3bdf504673733b63b6
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: ca0c557de24320692d903a1136fc434d635f0507
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266047"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955586"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Ações de correção após as investigações automatizadas no Microsoft Threat Protection
 
@@ -43,16 +43,16 @@ A tabela a seguir resume as ações de correção que atualmente têm suporte na
 
 Ações de correção, se estão aguardando aprovação ou já estão concluídas, podem ser exibidas na [central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 
-## <a name="verdicts-and-outcomes-following-automated-investigations"></a>Verdicts e resultados após investigações automatizadas
+## <a name="remediation-actions-follow-automated-investigations"></a>As ações de correção seguem investigações automatizadas
 
 Quando uma investigação automatizada for concluída, um veredito será feito para cada evidência envolvida, e as ações de correção serão identificadas. Em alguns casos, as ações de correção são executadas automaticamente, em outros casos, as ações de correção aguardam aprovação. A tabela a seguir lista os possíveis verditos e resultados:
 
-|Verdito    |Área   |Resultados|
+|Verdito    |Área    |Resultados|
 |------|------|------|
-|Mal-intencionado  |Dispositivos (pontos de extremidade)    |As ações de correção são tomadas automaticamente|
-|Mal-intencionado  |Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
-|Suspeito |Conteúdo de dispositivos ou emails |As ações de correção recomendadas estão aguardando aprovação|
-|Limpar  |Conteúdo de dispositivos ou emails   |Nenhuma ação de correção é necessária|
+|Mal-intencionado    |Dispositivos (pontos de extremidade)    |As ações de correção são tomadas automaticamente|
+|Mal-intencionado    |Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
+|Suspeito    |Conteúdo de dispositivos ou emails |As ações de correção recomendadas estão aguardando aprovação|
+|Nenhuma ameaça encontrada    |Conteúdo de dispositivos ou emails    |Nenhuma ação de correção é necessária|
 
 [Revisar uma ação pendente na Central de Ações](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
 

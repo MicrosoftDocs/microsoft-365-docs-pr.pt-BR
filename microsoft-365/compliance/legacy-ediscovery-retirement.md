@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: a3e19580def43c894e13c58eeaa28af498ad1399
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f5ca92dc12fae102cef8e7dc5aa3c4c07785cd96
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894848"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955540"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -135,7 +135,13 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p>
 <p>Como alternativa, você pode exportar os resultados da pesquisa para arquivos PST e usar o serviço de importação do Microsoft 365 para importar os PSTs para uma caixa de correio de descoberta. Para instruções passo a passo, consulte usar o <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">carregamento de rede para importar arquivos pst para o Office 365</a>.
 </tr>
-<tr class="even">
+<tr class=even>
+  <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar o antigo funcionário nas. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
+  
+  </tr>
+<tr class="odd">
 <td>Restaurar itens da pasta itens recuperáveis</td>
   <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">Restore-RecoverableItems</td>
   <td>Você pode restaurar itens excluídos permanentemente (também conhecidos como itens <i>excluídos por software</i> ) em caixas de correio, desde que o período de retenção do item excluído de um item não tenha expirado. Para obter mais informações, consulte <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">pasta itens recuperáveis no Exchange Online</a>.</td>
@@ -216,6 +222,13 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <td>Nenhum</td>
 <td>Não há substituição direta para essa funcionalidade, pois ela não fornece acesso a todos os serviços do Microsoft 365. Consulte as seguintes perguntas frequentes abaixo para obter soluções alternativas.</td>
 </tr>
+  <tr class=even>
+  <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar o antigo funcionário nas. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
+  
+  </tr>
+
 </tbody>
 </table>
 

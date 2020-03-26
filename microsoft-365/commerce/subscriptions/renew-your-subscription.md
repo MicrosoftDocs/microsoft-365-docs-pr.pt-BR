@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Saiba como renovar sua assinatura do Office 365 para empresas usando uma chave de produto e ative ou desative a cobrança recorrente. '
-ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633699"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959211"
 ---
 # <a name="renew-office-365-for-business"></a>Renovar o Office 365 para empresas
 
 Este artigo aplica-se às assinaturas mais pagas do Office 365 para empresas.
   
-Para renovar usando uma chave do produto que você comprou de um parceiro do varejo ou do Office 365, confira [EFind e insira sua chave do produto](../enter-your-product-key.md).
+Para renovar usando uma chave do produto que você comprou de um parceiro do varejo ou do Office 365, confira [Localizar e insira sua chave do produto](../enter-your-product-key.md).
 
 > [!NOTE]
 > O pagamento por conta bancária não está disponível em alguns países ou regiões.
@@ -109,7 +109,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
     > [!NOTE]
     > - Você só pode alterar a configuração de **cobrança recorrente** para assinaturas ativas. Se sua assinatura já tiver expirado ou estiver desabilitada, será necessário [reativá-la](reactivate-your-subscription.md) para que você possa ativar ou desativar a **cobrança recorrente** .
-    > - Quando a **cobrança recorrente** está desativada, a assinatura não é cancelada imediatamente. Ele permanece ativo até expirar. Você pode exibir a data de expiração no cartão de assinatura
+    > - Quando a **cobrança recorrente** está desativada, a assinatura não é cancelada imediatamente. Ele permanece ativo até expirar. Você pode exibir a data de expiração no cartão de assinatura.
     > - Para saber como cancelar a assinatura imediatamente, confira [cancelar minha assinatura](cancel-your-subscription.md).
 
 ::: moniker-end
@@ -120,7 +120,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
   
 [Adicionar, atualizar ou remover um cartão de crédito](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
   
-[O que acontece com meus dados e acesso quando mysubscription termina?](what-if-my-subscription-expires.md)
+[O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md)
 
 [Adicionar, atualizar ou remover seus métodos de pagamento](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 

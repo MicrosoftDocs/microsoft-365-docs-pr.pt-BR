@@ -23,20 +23,20 @@ search.appverid:
 - BEA160
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: Saiba como adicionar licenças à sua assinatura do Office 365.
-ms.openlocfilehash: 93c2929ae575282716cad7b6f64519f5974e3158
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como adicionar licenças à sua assinatura.
+ms.openlocfilehash: 4d559d977ac507b448d816f3f87e85a923df810f
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237353"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951941"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Adicionar licenças ou estender uma assinatura paga usando uma chave do produto (Product Key)
 
 As licenças pré-paga são emitidas como um código alfanumérico de 25 caracteres. Após adquirir as licenças de que você precisa, você pode adicioná-las à sua assinatura. Você também pode usar uma chave do produto (Product Key) para estender a data de expiração da sua assinatura.
 
 > [!NOTE]
-> Se não quiser comprar uma nova chave de produto, você sempre poderá adicionar um cartão de crédito ou uma conta bancária à sua assinatura para pagar mais licenças ou estender a data de expiração da assinatura. Para obter mais informações, consulte [renovar o Office 365 for Business](../subscriptions/renew-your-subscription.md).
+> Se não quiser comprar uma nova chave de produto, você sempre poderá adicionar um cartão de crédito ou uma conta bancária à sua assinatura para pagar mais licenças ou estender a data de expiração da assinatura. Para obter mais informações, consulte [renovar sua assinatura](../subscriptions/renew-your-subscription.md).
   
 ## <a name="add-licenses-to-your-subscription"></a>Adicionar licenças à sua assinatura
 

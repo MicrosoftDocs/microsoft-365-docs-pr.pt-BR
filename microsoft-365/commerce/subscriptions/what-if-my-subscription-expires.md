@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando a sua assinatura do Office 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 717beff94255fe669f9ce9bc733300679ffc3d53
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2529d5027305a9ceaf71033b4de52a867b9fa9fb
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251495"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955668"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Office 365 for Business termina?
 
@@ -44,7 +44,7 @@ A tabela a seguir explica o que você pode esperar quando uma assinatura paga do
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos<br/>o Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
 | Os usuários têm acesso normal aos aplicativos do Office 365, aos dados e ao Office  | Os usuários têm acesso normal ao Office 365, arquivos e aplicativos              | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                                     |
-| Os administradores têm acesso normal aos aplicativos do Office 365, aos dados e ao Office | Os administradores podem acessar o centro de administração                                           | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
+| Os administradores têm acesso normal aos aplicativos do Office 365, aos dados e ao Office | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários   | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
 |                                                                        | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração |                                                                                           |
 
 * Na maioria das ofertas, na maioria dos países e regiões.
@@ -66,7 +66,7 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
 
   - Se você comprou o Office 365 Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
-  - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu revendedor ou parceiro do Office 365](../../admin/manage/find-your-partner-or-reseller.md).
+  - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu parceiro ou revendedor](../../admin/manage/find-your-partner-or-reseller.md).
 
   - Se você tiver o Office 365 Business, confira [gerenciar a cobrança recorrente para sua assinatura](renew-your-subscription.md).
 
@@ -90,9 +90,9 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
 
   - Se você comprou o Office 365 Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
-  - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu revendedor ou parceiro do Office 365](../../admin/manage/find-your-partner-or-reseller.md).
+  - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu parceiro ou revendedor](../../admin/manage/find-your-partner-or-reseller.md).
 
-  - Se você tiver o Office 365 Business, confira [renovar o office 365 para empresas](renew-your-subscription.md).
+  - Se você tiver o Office 365 Business, confira [renovar sua assinatura](renew-your-subscription.md).
 
 - **Deixe a assinatura expirar.**
 
@@ -143,7 +143,7 @@ Veja aqui o que você pode esperar quando sua assinatura estiver em cada Estado.
 
 Nesse estado, os usuários têm acesso normal ao portal do Office 365, aplicativos do Office e serviços como email e SharePoint Online.
   
-Como administrador, você ainda tem acesso ao centro de administração. Não se preocupe: os administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador, você ainda tem acesso ao centro de administração, mas não pode atribuir licenças aos usuários. Administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
   
 ### <a name="state-disabled"></a>Estado: desabilitado
   
