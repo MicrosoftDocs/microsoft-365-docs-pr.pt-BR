@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 66e75561084c3f3e8e67303e1cd359ef01c6b01a
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894392"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955680"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -311,8 +311,8 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades do Yammer](#yammer-activities)|
 |[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
-|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|
-|[Atividades de administradores do Exchange](#exchange-admin-audit-log)||
+|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades de quarentena](#quarantine-activities)|[Atividades do Microsoft Forms](#microsoft-forms-activities)
+|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
@@ -811,7 +811,20 @@ A tabela a seguir lista as atividades no explorador de conteúdo registradas no 
 
 |**Nome amigável**|**Operação**|**Descrição**|
 |:-----|:-----|:-----|
-|Item acessado|AccessedItem|Um administrador (ou um usuário que seja membro do grupo de funções do Visualizador de conteúdo do explorador de conteúdo) usa o explorador de conteúdo para exibir uma mensagem de e-mail ou documento do SharePoint/OneDrive.|
+|Item acessado|LabelContentExplorerAccessedItem|Um administrador (ou um usuário que seja membro do grupo de funções do Visualizador de conteúdo do explorador de conteúdo) usa o explorador de conteúdo para exibir uma mensagem de e-mail ou documento do SharePoint/OneDrive.|
+||||
+
+### <a name="quarantine-activities"></a>Atividades de quarentena
+
+A tabela a seguir lista as atividades de quarentena que podem ser pesquisadas no log de auditoria. Para saber mais sobre a quarentena, confira [Mensagens de e-mail em quarentena no Office 365](../security/office-365-security/quarantine-email-messages.md).
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Mensagem de quarentena excluída|QuarantineDelete|Um usuário excluiu uma mensagem de e-mail considerada nociva.|
+|Mensagem de quarentena exportada|QuarantineExport|Um usuário exportou uma mensagem de e-mail considerada nociva.|
+|Mensagem de quarentena exibida|QuarantinePreview|Um usuário visualizou uma mensagem de e-mail que foi considerada nociva.|
+|Mensagem de quarentena liberada|QuarantineRelease|Um usuário liberou uma mensagem de e-mail da quarentena que foi considerada prejudicial.|
+|Cabeçalho de mensagem de quarentena exibida|QuarantineViewHeader|Um usuário exibiu o cabeçalho uma mensagem de e-mail considerada nociva.|
 ||||
 
 ### <a name="microsoft-forms-activities"></a>Atividades do Microsoft Forms
