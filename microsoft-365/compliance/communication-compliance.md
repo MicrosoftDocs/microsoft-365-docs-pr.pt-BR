@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d733c73f1c418af2f9c12b67927838875b707aa1
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 61da6df18a8e41a609ae8aea7ff57c2f53f92d84
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179232"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982044"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -53,7 +53,7 @@ As políticas de conformidade de comunicação podem ajudar na revisão de mensa
 
 - **Conformidade normativa**
 
-    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações dos funcionários e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor para o revendedor em sua organização para proteger contra possíveis atividades de dinheiro Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas.
+    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações dos funcionários e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor para o revendedor em sua organização para proteger contra possíveis atividades de dinheiro Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas. Para obter mais informações sobre o suporte a organizações financeiras, consulte [Key Compliance and Security Considerations for US Banking e mercados de capital](../solutions/financial-services-secure-collaboration.md).
 
 ## <a name="new-enhancements"></a>Novos aprimoramentos
 
@@ -155,4 +155,4 @@ Manter o controle e o gerenciamento de problemas de conformidade identificados p
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
-Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configure Communication Compliance for Microsoft 365](communication-compliance-configure.md).
+Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configurar a conformidade de comunicação para o microsoft 365](communication-compliance-configure.md) ou confira o [estudo de caso para contoso](communication-compliance-case-study.md) e como configurou rapidamente uma política de conformidade de comunicação para monitorar uma linguagem ofensiva no Microsoft Teams e no Exchange Online Communications.

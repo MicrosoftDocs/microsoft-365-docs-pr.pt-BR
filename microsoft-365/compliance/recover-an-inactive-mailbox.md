@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Se um antigo funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho de um funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa no Office 365. Ao recuperar uma caixa de correio inativa, ela é convertida em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. '
-ms.openlocfilehash: f7e7b36a1f1a3258cac18b84c3c8881355ecbb43
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5048df8c17f4f44c1bbed33753da51dac53c7789
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070088"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978141"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Recuperar uma caixa de correio inativa no Office 365
 
@@ -32,9 +32,6 @@ Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por s
 - **Restaurar uma caixa de correio inativa** Se outro funcionário assumir as responsabilidades de trabalho do antigo funcionário ou se outro usuário precisar acessar o conteúdo da caixa de correio inativa, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente. Você também pode restaurar o arquivo morto de uma caixa de correio inativa. Para obter os procedimentos desse método, confira [restaurar uma caixa de correio inativa no Office 365](restore-an-inactive-mailbox.md).
     
 Consulte a seção [mais informações](#more-information) para obter mais detalhes sobre as diferenças entre a recuperação e restauração de uma caixa de correio inativa e para uma descrição do que acontece quando uma caixa de correio inativa é recuperada.
-  
-> [!NOTE]
-> Adiamos o prazo para a criação de novos bloqueios in-loco para tornar uma caixa de correio inativa. Mas em algum momento no futuro, você não poderá criar novos bloqueios in-loco no Exchange Online. Nesse momento, somente retenções de litígio e políticas de retenção do Office 365 poderão ser usadas para criar uma caixa de correio inativa. No entanto, as caixas de correio inativas existentes que estão com Bloqueio In-loco ainda terão suporte, e você poderá continuar a gerenciar Bloqueios In-loco em caixas de correio inativas. Isso inclui a alteração da duração de um Bloqueio In-loco e a exclusão permanente de uma caixa de correio inativa, removendo o Bloqueio In-loco. 
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -87,7 +84,7 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Offi
     
   - A retenção está habilitada e a duração da retenção é definida como 30 dias. Isso significa que a política de retenção padrão do Exchange e todas as políticas de retenção do Office 365 de toda a organização ou do Exchange que são atribuídas à nova caixa de correio não serão processadas por 30 dias. Isso fornece ao funcionário de retorno ou ao novo proprietário do tempo de caixa de correio inativo recuperado para gerenciar as mensagens antigas. Caso contrário, a política de retenção do Exchange ou do Office 365 pode excluir itens de caixa de correio antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações definidas para as políticas de retenção do Exchange ou do Office 365. Após 30 dias, a retenção expirará, a propriedade de caixa de correio **RetentionHoldEnabled** será definida como **false**e o assistente de pasta gerenciada começará a processar as políticas atribuídas à caixa de correio. Se você não precisar desse tempo adicional, só poderá remover a retenção. Como alternativa, você pode aumentar a duração da retenção, usando o comando **Set-Mailbox-EndDateForRetentionHold** . Para obter mais informações, consulte [colocar uma caixa de correio em retenção](https://go.microsoft.com/fwlink/?linkid=856300).
     
-- **Coloque uma retenção na caixa de correio recuperada se precisar preservar o estado original da caixa de correio inativa.** Para impedir que o novo proprietário da caixa de correio ou a política de retenção exclua permanentemente qualquer mensagem da caixa de correio inativa recuperada, você pode colocar a caixa de correio em retenção de litígio para obter mais informações, consulte [colocar uma caixa de correio em retenção de litígio](https://go.microsoft.com/fwlink/?linkid=856286).
+- **Coloque uma retenção na caixa de correio recuperada se precisar preservar o estado original da caixa de correio inativa.** Para impedir que o novo proprietário da caixa de correio ou a política de retenção exclua permanentemente qualquer mensagem da caixa de correio inativa recuperada, você pode colocar a caixa de correio em retenção de litígio. Para obter mais informações, consulte [colocar uma caixa de correio em retenção de litígio](https://go.microsoft.com/fwlink/?linkid=856286).
     
 - **Qual ID de usuário você pode usar ao recuperar uma caixa de correio inativa?** Ao recuperar uma caixa de correio inativa, o valor especificado para o parâmetro *MicrosoftOnlineServicesID* pode ser diferente do original que estava associado à caixa de correio inativa. Você também pode usar a ID de usuário original. Mas conforme declarado anteriormente, certifique-se de que os valores usados para *Name* e *MicrosoftOnlineServicesID* sejam exclusivos em sua organização quando você recuperar a caixa de correio inativa. 
     

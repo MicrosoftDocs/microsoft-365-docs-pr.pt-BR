@@ -16,19 +16,19 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Depois que uma caixa de correio do Office 365 é desativada, você pode alterar a duração da política de retenção de bloqueio ou do Office 365 atribuída à caixa de correio inativa. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos.
-ms.openlocfilehash: bcfea972bd627da831e9927884669d2ed8ee5234
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3d4b8f6195e0034b5801b394c232d21d85fa7d1e
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078929"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978241"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Alterar a duração da retenção para uma caixa de correio inativa no Office 365
 
 Uma caixa de correio inativa é usada para manter o email de um funcionário anterior, depois que ele deixa sua organização. Uma caixa de correio fica inativa quando uma retenção de litígio, um bloqueio in-loco, uma política de retenção do Office 365 ou uma retenção associada a uma ocorrência de descoberta eletrônica é colocada na caixa de correio e a conta de usuário do Office 365 correspondente é excluída. O conteúdo de uma caixa de correio inativa é mantido pela duração da retenção que foi colocada na caixa de correio antes de ser desativada. A duração da retenção define por quanto tempo os itens da pasta itens recuperáveis são mantidos. Quando a duração da retenção expira para um item na pasta itens recuperáveis, o item é excluído permanentemente (limpo) da caixa de correio inativa. Depois que uma caixa de correio for desativada, você poderá alterar a duração da política de retenção de espera ou do Office 365 atribuída à caixa de correio inativa.
   
 > [!IMPORTANT]
-> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção de litígio e do Office 365 para criar uma caixa de correio inativa. A partir de 1º de abril de 2020 você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, Iniciando em 1º de julho de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
+> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção de litígio e do Office 365 para criar uma caixa de correio inativa. A partir de 1º de julho de 2020, você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, a partir de 1º de outubro de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -139,7 +139,7 @@ O resultado é que os itens da caixa de correio inativa são mantidos indefinida
 
 2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
     
-3. Selecione o bloqueio in-loco que você deseja alterar e, em seguida **** ![, selecione Editar](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)ícone de edição.
+3. Selecione o bloqueio in-loco que você deseja alterar e, em seguida **Edit** ![, selecione Editar](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)ícone de edição.
     
 4. Na página Propriedades **de retenção de &amp; descoberta eletrônica in-loco** , selecione **bloqueio in-loco**. 
     

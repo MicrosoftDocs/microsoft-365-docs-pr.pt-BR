@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e093bd9c5a76b44cf66591b4212f37014189186e
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928991"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982000"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -57,8 +57,9 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 Esta é a aparência do aspecto da pesquisa avançada.
 
-![Imagem da consulta de busca avançada da proteção contra ameaças da Microsoft](../../media/advanced-hunting-query-example.png)
+![Imagem da consulta de busca avançada da proteção contra ameaças da Microsoft](../../media/advanced-hunting-query-example-2.png)
 
+### <a name="describe-the-query-and-specify-the-tables-to-search"></a>Descrever a consulta e especificar as tabelas a serem pesquisadas
 Um breve comentário foi adicionado ao início da consulta para descrever o que ele é. Isso ajudará se você decidir salvar a consulta mais tarde e compartilhá-la com outras pessoas em sua organização. 
 
 ```kusto
@@ -70,12 +71,14 @@ A consulta em si geralmente começará com um nome de tabela seguido de uma sér
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
+### <a name="set-the-time-range"></a>Definir o intervalo de tempo
 O primeiro elemento canalizado é um filtro de tempo com escopo para os sete dias anteriores. Manter o intervalo de tempo tão estreito quanto possível garante que as consultas sejam executadas, retornem resultados gerenciáveis e não o tempo limite.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
+### <a name="check-specific-processes"></a>Verificar processos específicos
 O intervalo de tempo é imediatamente seguido por uma pesquisa por nomes de arquivo de processo que representam o aplicativo PowerShell.
 
 ```
@@ -83,20 +86,23 @@ O intervalo de tempo é imediatamente seguido por uma pesquisa por nomes de arqu
 | where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
+### <a name="search-for-specific-command-strings"></a>Procurar cadeias de caracteres de comando específicas
 Posteriormente, a consulta procura por cadeias de caracteres em linhas de comando que normalmente são usadas para baixar arquivos usando o PowerShell.
 
 ```kusto
 // Suspicious commands
 | where ProcessCommandLine has_any("WebClient",
- "DownloadFile",
- "DownloadData",
- "DownloadString",
-"WebRequest",
-"Shellcode",
-"http",
-"https")
+    "DownloadFile",
+    "DownloadData",
+    "DownloadString",
+    "WebRequest",
+    "Shellcode",
+    "http",
+    "https")
 ```
-Agora que a consulta identifique claramente os dados que você deseja localizar, você pode adicionar elementos que definem a aparência dos resultados. `project`retorna colunas específicas e `top` limita o número de resultados, ajudando a garantir que os resultados sejam bem formatados e razoavelmente grandes e fáceis de processar.
+
+### <a name="customize-result-columns-and-length"></a>Personalizar colunas e comprimento do resultado 
+Agora que a consulta identifique claramente os dados que você deseja localizar, você pode adicionar elementos que definem a aparência dos resultados. `project`retorna colunas específicas e `top` limita o número de resultados. Esses operadores ajudam a garantir que os resultados sejam bem formatados e razoavelmente grandes e fáceis de processar.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -104,9 +110,12 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Clique **executar consulta** para ver os resultados. Selecione o ícone de expansão no canto superior direito do editor de consulta para se concentrar na consulta de busca e nos resultados.
+Clique **executar consulta** para ver os resultados. Selecione o ícone de expansão no canto superior direito do editor de consulta para se concentrar na consulta de busca e nos resultados. 
 
 ![Imagem do controle de expansão no editor de consulta de busca avançada](../../media/advanced-hunting-expand.png)
+
+>[!TIP]
+>Você pode exibir os resultados da consulta como gráficos e ajustar rapidamente os filtros. Para obter orientação, [Leia sobre como trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>Conheça operadores de consulta comuns para a caça avançada
 

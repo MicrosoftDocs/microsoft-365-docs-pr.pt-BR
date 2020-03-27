@@ -18,19 +18,19 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5f105912c5163b69368683cd4c6eaebf96250e3c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a179a3ccfc28b16aaa500d9222f69660bbc4c4df
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894826"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982034"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
 >[!IMPORTANT]
 >Este tópico se aplica à configuração da conformidade de comunicação em uma assinatura do Microsoft 365. Se você quiser configurar políticas de supervisão para uma assinatura do Office 365, consulte [Configure supervisão for Office 365](supervision-policies.md).
 
-Use políticas de conformidade de comunicação para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md).
+Use políticas de conformidade de comunicação para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md). Se você quiser rever como a contoso configurou rapidamente uma política de conformidade de comunicação para monitorar uma linguagem ofensiva no Microsoft Teams e no Exchange Online Communications, confira este [estudo de caso](communication-compliance-case-study.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 

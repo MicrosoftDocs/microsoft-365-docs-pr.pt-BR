@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: f5ca92dc12fae102cef8e7dc5aa3c4c07785cd96
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 5ee588b2c05241628242e8660f10c23dba809bf8
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955540"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978161"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
+
+> [!IMPORTANT]
+> A Microsoft está avaliando a situação de integridade pública e entendemos o impacto que isso ocorre em nossos clientes. Queremos ser fortes parceiros e cidadãos globais responsáveis. Para facilitar uma das muitas sobrecargas que você está enfrentando, vamos atrasar a aposentadoria agendada para as ferramentas de descoberta eletrônica herdadas listadas abaixo de três meses. **As datas de aposentadoria atualizadas estão refletidas abaixo.**
 
 Nos anos, a Microsoft forneceu ferramentas de descoberta eletrônica que permitem pesquisar, Visualizar e exportar conteúdo de email do Exchange Online. No entanto, essas ferramentas não oferecem mais uma maneira eficaz de pesquisar conteúdo não-Exchange em outros serviços do Office 365, como o SharePoint Online e os grupos do Office 365. Para resolver isso, a Microsoft oferece outras ferramentas de descoberta eletrônica que ajudam você a pesquisar uma ampla variedade de conteúdo do Office 365. E trabalhamos muito para incorporar as funcionalidades mais atuais e poderosas de eDiscovery no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com). Isso permite que as organizações respondam a solicitações de documentos legais, internas e de outros serviços do Office 365, incluindo o Exchange Online.
 
@@ -78,9 +81,9 @@ Como todos esses recursos (exceto para copiar os resultados da pesquisa para uma
 
 ### <a name="timeline-for-retirement"></a>Linha do tempo para aposentadoria
 
-- 1 de abril de 2020: você não poderá criar novas pesquisas e isenções, mas ainda poderá executar, editar e excluir pesquisas existentes de sua responsabilidade. O suporte da Microsoft não será mais & de descoberta eletrônica in-loco no Eat.
+- 1º de julho de 2020: você não poderá criar novas pesquisas e isenções, mas ainda poderá executar, editar e excluir pesquisas existentes de sua responsabilidade. O suporte da Microsoft não será mais & de descoberta eletrônica in-loco no Eat.
 
-- 1º de julho de 2020: o & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocado em um modo somente leitura. Isso significa que você só poderá remover pesquisas e isenções existentes.
+- 1 de outubro de 2020: a & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocada em um modo somente leitura. Isso significa que você só poderá remover pesquisas e isenções existentes.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 
@@ -181,9 +184,9 @@ Como esses recursos agora estão disponíveis no [<span class="underline">centro
 
 ### <a name="timeline"></a>Linha do tempo
 
-- 1 de abril de 2020: você não poderá usar o **New-MailboxSearch** para criar novas pesquisas de descoberta eletrônica in-loco e bloqueios in-loco, mas ainda poderá usar cmdlets para executar, editar e excluir pesquisas existentes e isenções por seu próprio risco. O suporte da Microsoft não fornecerá mais assistência para esses tipos de pesquisas e isenções.
+- 1º de julho de 2020: você não poderá usar o **New-MailboxSearch** para criar novas pesquisas de descoberta eletrônica in-loco e bloqueios in-loco, mas ainda poderá usar cmdlets para executar, editar e excluir pesquisas existentes e manter por sua conta e risco. O suporte da Microsoft não fornecerá mais assistência para esses tipos de pesquisas e isenções.
 
-- 1º de julho de 2020: como mencionado anteriormente, o & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocado em um modo somente leitura. Isso também significa que você não poderá usar os cmdlets **New-MailboxSearch**, **Start-MailboxSearch**ou **Set-MailboxSearch** . Você só poderá obter e remover pesquisas e isenções existentes.
+- 1 de outubro de 2020: como mencionado anteriormente, o & de descoberta eletrônica in-loco tem funcionalidade no Eat será colocado em um modo somente leitura. Isso também significa que você não poderá usar os cmdlets **New-MailboxSearch**, **Start-MailboxSearch**ou **Set-MailboxSearch** . Você só poderá obter e remover pesquisas e isenções existentes.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 
@@ -262,7 +265,7 @@ O cmdlet **Search-Mailbox** no Exchange Online PowerShell está sendo desativado
 
 ### <a name="timeline"></a>Linha do tempo
 
--  1 de abril de 2020: o cmdlet **Search-Mailbox** não estará mais disponível e o suporte da Microsoft não fornecerá mais assistência.
+-  1º de julho de 2020: o cmdlet **Search-Mailbox** não estará mais disponível e o suporte da Microsoft não fornecerá mais assistência.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 
@@ -324,7 +327,7 @@ Essas operações na API de serviços Web do Exchange são usadas pelo recurso d
 
 ### <a name="timeline"></a>Linha do tempo
 
-- 1 de abril de 2020: as operações GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes e GetHoldOnMailboxes não estarão mais disponíveis e o suporte da Microsoft não fornecerá mais assistência.
+- 1 de julho de 2020: as operações GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes e GetHoldOnMailboxes não estarão mais disponíveis e o suporte da Microsoft não fornecerá mais assistência.
 
 ## <a name="advanced-ediscovery-v10"></a>Descoberta eletrônica avançada v 1.0
 
@@ -332,7 +335,7 @@ O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avança
 
 A nova solução de descoberta eletrônica avançada no Microsoft 365 (também conhecida como *AutoDiscovery v 2.0*) fornece todos os recursos da solução original, mas agora inclui uma abordagem baseada em responsáveis de identificar conteúdo em outros serviços do Microsoft 365, coletar esse conteúdo e, em seguida, adicioná-lo a um conjunto de revisão em que os revisores podem aproveitar consultas de pesquisa rápida, marcação e recursos de análise para ajudar a analisar documentos relevantes. A descoberta eletrônica avançada agora inclui o processamento melhorado e os visualizadores nativos para tipos de arquivo da Microsoft e de terceiros, uma lista completa de tipos de arquivo é [aqui](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) e os campos de metadados suportados estão [aqui](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery). Além disso, a nova solução de descoberta eletrônica avançada fornece um recurso de gerenciamento poderoso que permite que você aplique isenções ao conteúdo em diferentes serviços, notifique os usuários das isenções e rastreie as respostas dos responsáveis, tudo em um caso de descoberta eletrônica avançada.
 
-No momento, recomendamos que você comece a migrar seu fluxo de trabalho de descoberta eletrônica para a nova funcionalidade avançada de descoberta eletrônica. Embora você ainda consiga acessar o eDiscovery v 1.0 avançado nos casos existentes, o suporte da Microsoft não fornecerá suporte após 1º de julho de 2020. Confira mais detalhes na linha do tempo a seguir.
+No momento, recomendamos que você comece a migrar seu fluxo de trabalho de descoberta eletrônica para a nova funcionalidade avançada de descoberta eletrônica. Embora você ainda consiga acessar o eDiscovery v 1.0 avançado nos casos existentes, o suporte da Microsoft não fornecerá suporte após 1º de outubro de 2020. Confira mais detalhes na linha do tempo a seguir.
 
 ### <a name="scope-of-affected-organizations"></a>Escopo de organizações afetadas
     
@@ -344,9 +347,9 @@ No momento, recomendamos que você comece a migrar seu fluxo de trabalho de desc
 
 ### <a name="timeline"></a>Linha do tempo
 
-- 1 de abril de 2020: você não poderá criar novos casos avançados de descoberta eletrônica v 1.0.
+- 1º de julho de 2020: você não poderá criar novos casos avançados de descoberta eletrônica v 1.0.
 
-- 1º de julho de 2020: você não poderá adicionar novos dados (preparar resultados de pesquisa para descoberta eletrônica avançada) para qualquer caso. Você poderá continuar a trabalhar com dados em casos existentes por sua conta e risco. O suporte da Microsoft não fornecerá mais assistência. 
+- 1 de outubro de 2020: você não poderá adicionar novos dados (preparar resultados de pesquisa para descoberta eletrônica avançada) para qualquer caso. Você poderá continuar a trabalhar com dados em casos existentes por sua conta e risco. O suporte da Microsoft não fornecerá mais assistência. 
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 

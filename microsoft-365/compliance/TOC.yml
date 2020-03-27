@@ -18,7 +18,7 @@
       href: plan-for-security-and-compliance.md
 - name: Gerenciar riscos insideres
   items:
-    - name: Gerenciamento de risco do insider
+    - name: Gerenciamento de risco interno
       items:
         - name: Saiba mais sobre o gerenciamento de riscos do insider
           href: insider-risk-management.md
@@ -46,6 +46,8 @@
           href: communication-compliance-investigate-remediate.md
         - name: Referência de recursos para conformidade de comunicação
           href: communication-compliance-feature-reference.md
+        - name: Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva
+          href: communication-compliance-case-study.md
         - name: Políticas de supervisão no Office 365
           href: supervision-policies.md
         - name: Configurar políticas de supervisão no Office 365
@@ -638,6 +640,8 @@
               href: use-advanced-ediscovery-utilities.md
             - name: Executar relatórios
               href: run-reports-in-advanced-ediscovery.md
+    - name: Aposentadoria de ferramentas de descoberta eletrônica herdadas
+      href: legacy-ediscovery-retirement.md
 - name: Gerenciar investigações de dados
   items:
     - name: Visão geral das investigações de dados
