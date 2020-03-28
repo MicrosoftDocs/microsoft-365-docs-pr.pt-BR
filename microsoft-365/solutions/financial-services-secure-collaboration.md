@@ -12,12 +12,12 @@ ms.collection:
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Saiba como o Microsoft 365 ajuda os serviços financeiros a migrar para uma moderna plataforma de colaboração, ajudando a manter os dados e sistemas seguros e em conformidade com os regulamentos
-ms.openlocfilehash: 41417013e3d199e4fb1d4f8ac4004cd837cf66ed
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: 4dc2c25001bb817dcf31927d2c15b1246cc52901
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959389"
+ms.locfileid: "42978273"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -64,7 +64,7 @@ Um cenário comum em que o Teams beneficia serviços financeiros é durante a ex
 
 O Teams pode fornecer um espaço de colaboração para armazenar com segurança dados confidenciais do cliente e conduzir conversas entre os membros da equipe, onde tópicos sensíveis podem ser discutidos. Vários membros da equipe podem editar ou colaborar em um único documento ao mesmo tempo. O proprietário ou coordenador do programa pode ser configurado como proprietário da equipe e pode adicionar e remover membros, conforme necessário.
 
-Outro cenário comum é usar o Teams como uma "sala de dados virtual" para colaborar, armazenar e gerenciar documentos com segurança. Os membros de equipes e sindicatos de empresas de bancos de investimento, gerenciamento de ativos ou de capital privado podem colaborar com segurança em um acordo ou investimento. As equipes multifuncionais geralmente estão envolvidas no planejamento e na realização de tais acordos, e a capacidade de compartilhar dados com segurança e conduzir conversas é um requisito essencial. Compartilhar com segurança documentos relacionados com investidores externos também é um requisito essencial. O Teams fornece um local seguro e totalmente auditável para armazenar, proteger e compartilhar centralmente dados de investimento.
+Outro cenário comum é usar o Teams como um "centro de dados virtual" para colaborar com segurança, incluindo armazenamento e gerenciamento de documentos. Os membros de equipes e sindicatos de empresas de bancos de investimento, gerenciamento de ativos ou de capital privado podem colaborar com segurança em um acordo ou investimento. As equipes multifuncionais geralmente estão envolvidas no planejamento e na realização de tais acordos, e a capacidade de compartilhar dados com segurança e conduzir conversas é um requisito essencial. Compartilhar com segurança documentos relacionados com investidores externos também é um requisito essencial. O Teams fornece um local seguro e totalmente auditável para armazenar, proteger e compartilhar centralmente dados de investimento.
 
 :::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Um grupo de trabalhadores de escritório em uma reunião discute sobre imagens em uma tela grande.":::
  
@@ -275,7 +275,7 @@ As barreiras de informações no Microsoft 365 oferecem suporte a conversas e ar
 
 Normalmente, as instituições financeiras são obrigadas a estabelecer e manter uma função de supervisão em suas organizações para monitorar as atividades dos funcionários e ajudá-lo a alcançar a conformidade com as leis de valores mobiliários aplicáveis. Especificamente, a FINRA estabeleceu estes requisitos de supervisão:
  
-* A [Regra 3110 (Supervisão) da FINRA](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110) exige que as empresas tenham procedimentos escritos de supervisão (WSPs) para supervisionar as atividades de seus funcionários e os tipos de negócios em que atua. Além de outros requisitos, os procedimentos devem incluir:
+* A [Regra 3110 (Supervisão) da FINRA](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110) exige que as empresas tenham procedimentos escritos de supervisão (WSPs) para supervisionar as atividades dos seus funcionários e os tipos de negócios em que atua. Além de outros requisitos, os procedimentos devem incluir:
    - Supervisão do pessoal de supervisão
    - Análise de banco de investimentos, negócios de valores mobiliários, comunicações internas e investigações internas de uma empresa
    - Análise de transações para verificar a presença de informações privilegiadas
