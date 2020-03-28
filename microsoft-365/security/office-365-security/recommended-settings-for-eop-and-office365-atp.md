@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895222"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032847"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -30,7 +30,7 @@ O **proteção do Exchange Online (EOP)** é o núcleo de segurança para assina
 Embora possamos permitir que os administradores de segurança personalizem suas configurações de segurança, há dois níveis de segurança no EOP e no Office 365 ATP que recomendamos: **padrão** e **estrito**. O ambiente e as necessidades de cada cliente são diferentes, mas acreditamos que esses níveis de configurações de filtragem de email ajudarão a impedir que emails indesejados cheguem à caixa de entrada de seus funcionários na maioria das situações.
 
 > [!IMPORTANT]
-> A regra de lixo eletrônico precisa estar habilitada em uma caixa de correio para que a filtragem funcione corretamente. Ele é habilitado por padrão, mas você deve verificá-lo se a filtragem não estiver funcionando. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+> A regra de lixo eletrônico precisa estar habilitada em uma caixa de correio para que a filtragem funcione corretamente. Ele é habilitado por padrão, mas você deve verificá-lo se a filtragem não estiver funcionando. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
 Este tópico descreve estas configurações recomendadas pela Microsoft para ajudar a proteger os usuários do Office 365.
 
@@ -47,7 +47,7 @@ Para criar e configurar políticas antispam, consulte [Configure anti-spam Polic
 
 |||||
 |---|---|---|---|
-|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comment**|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
 |Ação de detecção de **spam** <br/><br/> _Spam_|**Mover mensagem para a pasta Lixo Eletrônico** <br/><br/> `MoveToJmf`|**Mensagem em quarentena** <br/><br/> `Quarantine`||
 |Ação de detecção de **spam de alta confiança** <br/><br/> _HighConfidenceSpamAction_|**Mensagem em quarentena** <br/><br/> `Quarantine`|**Mensagem em quarentena** <br/><br/> `Quarantine`||
 |Ação de detecção de **email de phishing** <br/><br/> _PhishSpamAction_|**Mensagem em quarentena** <br/><br/> `Quarantine`|**Mensagem em quarentena** <br/><br/> `Quarantine`||
@@ -97,7 +97,7 @@ Para criar e configurar políticas de spam de saída, confira [Configure Outboun
 
 ||||
 |---|---|---|---|
-|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comment**|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
 |**Número máximo de destinatários por usuário: limite por hora externo** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
 |**Número máximo de destinatários por usuário: limite por hora interna** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
 |**Número máximo de destinatários por usuário: limite diário** <br/><br/> _RecipientLimitPerDay_|1000|800||
@@ -110,7 +110,7 @@ Para criar e configurar políticas Antimalware, consulte [Configure anti-malware
 
 |||||
 |---|---|---|---|
-|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comment**|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
 |**Deseja notificar destinatários se suas mensagens estiverem em quarentena?** <br/><br/> _Ação_|Não <br/><br/> _DeleteMessage_|Não <br/><br/> _DeleteMessage_|Se o malware for detectado em um anexo de email, a mensagem será colocada em quarentena e só poderá ser liberada por um administrador.|
 |**Filtro de tipos de anexo comuns** <br/><br/> _EnableFileFilter_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Essa configuração coloca em quarentena mensagens que contêm anexos executáveis com base no tipo de arquivo, independentemente do conteúdo do anexo.|
 |**Limpeza automática de malware zero-hora** <br/><br/> _ZapEnabled_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
@@ -190,12 +190,11 @@ Não rastrear quando os usuários clicarem em links seguros|Desabilitado|Desabil
 |Redirecionar o anexo na detecção|Habilitado|Habilitado|Redirecionar para o endereço de email de um administrador de segurança que sabe como determinar se o anexo é malware ou não|
 |Resposta de anexos seguros de ATP se a verificação de malware para anexos expirar ou o erro ocorrer|Habilitado|Habilitado||
 
-
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - Você está procurando práticas recomendadas com **regras de transporte de fluxo de mensagens do Exchange/Exchange**? Confira [Este artigo](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) para obter detalhes.
 
-- Envie emails suspeitos, spam, phishing ou URLs suspeitas à Microsoft para verificação. Use as direções de **envios de administrador** neste [artigo](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+- Administradores e usuários podem enviar falsos positivos (emails satisfatórios marcados como defeituosos) e falsos negativos (emails inválidos permitidos) para a Microsoft para análise. Para obter mais informações, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 - Use estes links para obter informações sobre como **Configurar** seu [serviço do EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)e **Configurar** a [proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). (Não se esqueça de ver as orientações úteis em '[proteger contra ameaças no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.)
 

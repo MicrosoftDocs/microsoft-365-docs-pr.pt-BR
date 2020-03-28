@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Veja algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP.
-ms.openlocfilehash: 9c027d6c1ded10becd7c73dc3468270ff50edb55
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c86d8dbf71cdfddf0562e9c572dc8d65043e1c69
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599338"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032859"
 ---
 # <a name="exchange-online-protection"></a>Proteção do Exchange Online
 
@@ -63,12 +63,8 @@ O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes cat
 
 O conteúdo da Ajuda para auxiliar usuários finais do EOP a gerenciar spam é composto pelos seguintes tópicos:
 
-- [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md): descreve como os usuários finais podem localizar e liberar suas próprias mensagens em quarentena de spam na interface de usuário de quarentena de spam e, opcionalmente, relatá-las como não sendo lixo eletrônico para a Microsoft.
+- [Relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md)
 
-- [Enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md): descreve as diferentes maneiras como os usuários finais podem enviar mensagens de spam (lixo eletrônico) e não spam (não lixo eletrônico) para a Microsoft. Este tópico inclui links para as ferramentas de relatório disponíveis no Microsoft Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App).
-
-- [Enviando malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md): descreve como os usuários finais podem enviar malwares que o fizeram após os filtros ou enviar um arquivo que foi identificado incorretamente como malware.
-
-- Os usuários finais podem adicionar usuários ou domínios específicos a uma lista de remetentes seguros ou uma lista de remetentes bloqueados Configurando suas configurações de lixo eletrônico no Outlook ou no Outlook na Web. Observe que as mensagens enviadas de remetentes bloqueados são marcadas como spam, não rejeitadas, o que significa que elas podem ser recuperadas da pasta de lixo eletrônico ou quarentena (dependendo de onde o administrador configurou o serviço para enviar spam.) Para obter mais informações, consulte [use the Report Message Add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Os usuários finais podem adicionar remetentes à sua própria lista de remetentes confiáveis ou bloquear a lista de remetentes no Outlook ou no Outlook na Web. Os administradores também podem modificar essas listas nas caixas de correio dos usuários. Para obter mais informações, consulte [sobre configurações de lixo eletrônico no Outlook](configure-junk-email-settings-on-exo-mailboxes.md#about-junk-email-settings-in-outlook).
 
 - [Ajuda e suporte para EOP](help-and-support-for-eop.md) Fornece informações sobre como obter ajuda e suporte técnico.

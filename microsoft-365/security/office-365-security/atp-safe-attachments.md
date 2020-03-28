@@ -17,12 +17,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: O recurso de anexos seguros oferece verificação de horário de clique de anexos de email. Use anexos seguros para proteger sua organização contra arquivos mal-intencionados enviados ou recebidos por email.
-ms.openlocfilehash: c95287b3dd05cce28bad6761ca7e69ce9cc2f914
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 60a5a95af846fe6dbe8c2c7aa6dced9deaae1a2d
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599808"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033453"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Anexos seguros de ATP do Office 365
 
@@ -68,4 +68,4 @@ A tabela a seguir descreve alguns exemplos de cenários. Em todos esses casos, a
 
 - Se você receber um arquivo que deseja solicitar à Microsoft para analisar, visite [enviar um arquivo para análise de malware](https://aka.ms/wdsi/submit).
 
-- Se você receber uma mensagem de email (com ou sem um anexo) que deseja enviar para a Microsoft para análise, use o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md).
+- Se você receber uma mensagem de email (com ou sem um anexo) que deseja enviar para a Microsoft para análise, confira [mensagens de relatório e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).

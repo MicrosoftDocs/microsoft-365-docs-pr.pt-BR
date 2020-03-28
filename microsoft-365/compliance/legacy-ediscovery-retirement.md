@@ -11,17 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: 5ee588b2c05241628242e8660f10c23dba809bf8
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: d0d9856a30d905e73ba31abc9af92bbe060c0ec4
+ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978161"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43024351"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
 > [!IMPORTANT]
-> A Microsoft está avaliando a situação de integridade pública e entendemos o impacto que isso ocorre em nossos clientes. Queremos ser fortes parceiros e cidadãos globais responsáveis. Para facilitar uma das muitas sobrecargas que você está enfrentando, vamos atrasar a aposentadoria agendada para as ferramentas de descoberta eletrônica herdadas listadas abaixo de três meses. **As datas de aposentadoria atualizadas estão refletidas abaixo.**
+> A Microsoft está avaliando a situação de integridade pública e entendemos o impacto que isso ocorre em nossos clientes. Queremos ser fortes parceiros e cidadãos globais responsáveis. Para facilitar uma das muitas sobrecargas que você está enfrentando, vamos atrasar o aposentadoria programado para as ferramentas de descoberta eletrônica herdadas descritas neste artigo em três meses. **As datas de aposentadoria atualizadas estão refletidas abaixo.**
 
 Nos anos, a Microsoft forneceu ferramentas de descoberta eletrônica que permitem pesquisar, Visualizar e exportar conteúdo de email do Exchange Online. No entanto, essas ferramentas não oferecem mais uma maneira eficaz de pesquisar conteúdo não-Exchange em outros serviços do Office 365, como o SharePoint Online e os grupos do Office 365. Para resolver isso, a Microsoft oferece outras ferramentas de descoberta eletrônica que ajudam você a pesquisar uma ampla variedade de conteúdo do Office 365. E trabalhamos muito para incorporar as funcionalidades mais atuais e poderosas de eDiscovery no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com). Isso permite que as organizações respondam a solicitações de documentos legais, internas e de outros serviços do Office 365, incluindo o Exchange Online.
 

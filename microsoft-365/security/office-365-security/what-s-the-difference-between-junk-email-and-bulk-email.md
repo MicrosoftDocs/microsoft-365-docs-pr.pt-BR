@@ -2,10 +2,10 @@
 title: Qual é a diferença entre lixo eletrônico e email em massa?
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 1/7/2015
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,35 +15,36 @@ search.appverid:
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
-description: Os clientes às vezes askwhat a diferença entre lixo eletrônico e mensagens de email em massa? O objetivo deste tópico é explicar a diferença e fornecer informações sobre as diferentes opções disponíveis para o Exchange Online e o Exchange Online Protection (EOP).
-ms.openlocfilehash: 55924ac5e83ca109fd66d1723cdb7c5f43f20df6
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Este tópico explica a diferença entre o lixo eletrônico (spam) e o email em massa e os controles relacionados no Office 365.
+ms.openlocfilehash: 56e997235a374ee9f56956be96458b46bffcdc21
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895030"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033621"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Qual é a diferença entre lixo eletrônico e email em massa?
 
-Às vezes, os clientes perguntam "qual é a diferença entre lixo eletrônico e mensagens de email em massa?" O objetivo deste tópico é explicar a diferença e fornecer informações sobre as várias opções disponíveis no Exchange Online e no Proteção do Exchange Online (EOP).
-  
- **O que é lixo eletrônico?**
-  
-As mensagens de lixo eletrônico são mensagens de "spam", significando emails não solicitados (e geralmente indesejados) que são filtrados pelo serviço. Por padrão, o serviço rejeita a mensagem de spam com base na reputação do endereço IP de envio. Entretanto, se ele passa pela inspeção de IP, mas é classificado como spam pelos filtros de conteúdo, a mensagem é enviada para a pasta Lixo Eletrônico dos destinatários pretendidos. 
-  
-> [!NOTE]
-> A ação executada em mensagens filtradas por conteúdo é configurável por meio de políticas de filtro de conteúdo no centro de administração do Exchange (Eat), conforme descrito em [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md). Além disso, se você discordar da classificação de spam, poderá relatar mensagens que você considerar como spam ou não spam para a Microsoft de várias maneiras, conforme descrito em [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md). 
-  
- **O que é email em massa?**
-  
-Email em massa é um tipo de mensagem de email mais difícil de classificar. Embora o lixo eletrônico seja uma ameaça constante, o email em massa geralmente é composto por uma mensagem publicitária ou de marketing que, muito provavelmente, não será enviada repetidas vezes. O email em massa é de interesse de alguns usuários e, de fato, eles podem ter deliberadamente concordado em receber essas mensagens, embora outros usuários talvez considerem esse tipo de mensagem como spam. Por exemplo, alguns usuários querem receber emails publicitários da Contoso Corporation ou convites para uma conferência futura sobre segurança cibernética; já outros usuários consideram tais emails como spam.
-  
+Os clientes do Office 365 com caixas de correio no Exchange Online ou no Exchange Online Protection (EOP) clientes sem caixas de correio do Exchange Online às vezes perguntam: "Qual é a diferença entre lixo eletrônico e email em massa?" Este tópico explica a diferença e descreve os controles disponíveis no EOP.
+
+- O **lixo eletrônico** é spam, que são mensagens não solicitadas e indesejadas universalmente (quando identificadas corretamente). Por padrão, o EOP rejeita spam com base na reputação do servidor de email de origem. Se uma mensagem transmite a inspeção de IP de origem, ela é enviada para filtragem de spam. Se a mensagem for classificada como spam por filtragem de spam, a mensagem será (por padrão) entregue aos destinatários pretendidos e movida para a pasta lixo eletrônico.
+
+  - Você pode configurar as ações a serem executadas no verdicts de filtragem de spam. Para obter instruções, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
+
+  - Se você discordar do veredicto de filtragem de spam, poderá relatar mensagens que você considerar como spam ou não spam para a Microsoft de várias maneiras, conforme descrito em [mensagens e arquivos de relatório para a Microsoft](report-junk-email-messages-to-microsoft.md).
+
+- **Email em massa** (também conhecido como _email cinza_), é mais difícil de classificá-lo. Enquanto spam é uma ameaça constante, o email em massa geralmente é um anúncio único ou mensagens de marketing. Alguns usuários querem mensagens de email em massa (e, na verdade, eles se assinaram propositalmente para recebê-los), enquanto outros usuários consideram o email em massa como spam. Por exemplo, alguns usuários desejam receber mensagens de publicidade da Contoso Corporation ou convites para uma conferência futura no Cyber Security, enquanto outros usuários consideram essas mesmas mensagens como spam.
+
+  Para obter mais informações sobre como os emails em massa são identificados, confira [BCL (nível de reclamação em massa) no Office 365](bulk-complaint-level-values.md).
+
 ## <a name="how-to-manage-bulk-email"></a>Como gerenciar o email em massa
 
-A maneira de gerenciar o email em massa não é uma decisão clara - afinal, se todos os emails em massa forem classificados como spam, os usuários interessados poderão reclamar e enviá-los como um falso positivo (mensagem de não spam e que foi incorretamente marcada como spam). Por outro lado, se todos os emails em massa forem liberados, os usuários não interessados poderão reclamar e enviá-los como uma mensagem de spam que escapou à inspeção (falso negativo) e chegou inadvertidamente à caixa de entrada deles.
-  
-### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>Habilitar o controle de sensibilidade de email em massa na política de filtro de conteúdo
+Devido à reação mista para email em massa, não há orientações universais que se aplicam a todas as organizações.
 
-Dependendo da política de sua empresa em relação a mensagens de email em massa, os administradores podem selecionar um limite para atribuir ao email em massa. A configuração é configurável por meio de políticas de filtro de conteúdo no Eat. Confira [Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md) para obter as etapas. Você pode escolher uma configuração de limite de 1-9, onde 1 marca a maior parte dos emails em massa como spam, e 9 permite que a maior parte dos emails em massa seja entregue. O serviço então executa a ação configurada; por exemplo, enviar a mensagem para a pasta Lixo Eletrônico do destinatário. 
-  
+As políticas antispam têm um limite de BCL padrão usado para identificar emails em massa como spam. Os administradores podem aumentar ou diminuir o limite. Para mais informações, confira os seguintes tópicos:
 
+- [Configure as políticas antispam no Office 365](configure-your-spam-filter-policies.md).
+
+- [Configurações de política antispam do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
+
+Outra opção que é fácil de ser ignorada: se um usuário reclamar de receber emails em massa, mas as mensagens forem provenientes de remetentes confiáveis que passam a filtragem de spam no EOP, peça que o usuário Verifique se há uma opção de cancelamento de assinatura na mensagem de email em massa.

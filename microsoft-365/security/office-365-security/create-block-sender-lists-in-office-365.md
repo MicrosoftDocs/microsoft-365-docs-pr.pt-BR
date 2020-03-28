@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Os administradores podem aprender sobre as opções disponíveis no Office 365 e EOP para bloquear mensagens de entrada.
-ms.openlocfilehash: a588c9c869dae39ab60fc7ad68b6496f57ae015a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0bfab3024bc781e53600092ebc88fae25c5f4afc
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893857"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033417"
 ---
 # <a name="create-blocked-sender-lists-in-office-365"></a>Criar listas de remetentes bloqueados no Office 365
 
@@ -30,12 +30,12 @@ O melhor método para bloquear remetentes varia de acordo com o escopo do impact
 
 2. Listas de remetentes bloqueados ou listas de domínios bloqueados (políticas antispam)
 
-3. Mai regras de fluxo
+3. Regras do fluxo de email
 
 4. A lista de bloqueios de IP (filtragem de conexão)
 
 > [!NOTE]
-> Embora você possa usar as configurações de bloco em toda a organização para tratar de falsos negativos (spam perdido), você também deve enviar essas mensagens para a Microsoft para análise. O gerenciamento de falsos negativos usando listas de bloqueio aumenta significativamente a sobrecarga administrativa. Se você usar listas de bloqueio para desviar spam perdido, precisará manter o tópico para [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis), no Ready.
+> Embora você possa usar as configurações de bloco em toda a organização para tratar de falsos negativos (spam perdido), você também deve enviar essas mensagens para a Microsoft para análise. O gerenciamento de falsos negativos usando listas de bloqueio aumenta significativamente a sobrecarga administrativa. Se você usar listas de bloqueio para desviar o spam perdido, precisará manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.
 
 Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, consulte [criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
 

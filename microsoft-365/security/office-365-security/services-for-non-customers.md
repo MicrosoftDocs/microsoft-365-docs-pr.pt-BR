@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: f6dc3cdb4ffb20fba1dbaa8d57d5041bf1cdbeae
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9e7985aed7c0b5b5c14c64d49e70ec6c731cb8b9
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598388"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032787"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Serviços para não clientes enviando emails para o Office 365
 
@@ -60,4 +60,4 @@ Este é um portal de autoatendimento que você pode usar para se remover da list
 
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online
 
-Às vezes, o Office 365 é usado por terceiros para enviar lixo eletrônico, violando nossos termos de uso e políticas. Se você receber uma mensagem de lixo eletrônico do Office 365, é possível relatar essas mensagens para o [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com). Anexe as mensagens incorretas, incluindo o cabeçalho completo da mensagem, no formato RFC 5322 ou ARF. Os usuários do Outlook na Web podem usar ferramentas internas para relatar lixo eletrônico. Para saber mais, confira [relatar spam e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).
+Às vezes, o Office 365 é usado por terceiros para enviar lixo eletrônico, violando nossos termos de uso e políticas. Se você receber uma mensagem de lixo eletrônico do Office 365, é possível relatar essas mensagens à Microsoft. Para obter instruções, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).

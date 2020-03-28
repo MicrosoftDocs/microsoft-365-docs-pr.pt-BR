@@ -16,28 +16,28 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: Os administradores podem importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. Isso permite que você arquive dados do Facebook, do Twitter e de outras fontes de dados de terceiros no Microsoft 365. Em seguida, você pode usar e aplicar recursos de conformidade do Microsoft 365 (como retenção legal, eDiscovery, arquivamento in-loco e políticas de retenção) para dados de terceiros.
-ms.openlocfilehash: ac732110dac8d590ac30cfb062251d2e970bdd3d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 72afb48f74a30bac2904e857a33487a83eba48cd
+ms.sourcegitcommit: f9b5eca20e025acc36635cbd1786ff3407295857
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595998"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43027651"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
 A Microsoft 365 permite que os administradores importem e arquivem dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos, para caixas de correio em sua organização do Microsoft 365. Exemplos de fontes de dados de terceiros que podem ser importadas para o Microsoft 365 incluem os seguintes serviços: 
   
-- **Social:** Facebook, LinkedIn, Twitter e Yammer 
+- **Social:** Facebook, LinkedIn, Twitter e Yammer
 
-- **Mensagens instantâneas:** Yahoo Messenger, GoogleTalk e Cisco Jabber 
+- **Mensagens instantâneas:** Yahoo Messenger e GoogleTalk
 
-- **Colaboração de documentos:** Caixa e DropBox 
+- **Colaboração de documentos:** Caixa e DropBox
 
-- **Setores verticais:** Gerenciamento de relacionamento com o cliente (como o Salesforce e os serviços financeiros (como Bloomberg e Thomson Reuters) 
+- **Setores verticais:** Gerenciamento de relacionamento com o cliente (como o Salesforce e os serviços financeiros (como Bloomberg e Thomson Reuters)
 
-- **SMS/mensagens de texto:** Rim 
+- **SMS/mensagens de texto:** Rim
 
-Após a importação dos dados de terceiros, é possível aplicar recursos&mdash;de conformidade do Microsoft 365, como retenção de litígio, EDiscovery, arquivamento in-loco, auditoria, conformidade de comunicação e políticas&mdash;de retenção a esses dados. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio, os dados de terceiros são preservados. Você pode pesquisar dados de terceiros usando as ferramentas de descoberta eletrônica da Microsoft. Ou você pode aplicar políticas de arquivamento e retenção a dados de terceiros, da mesma forma que você pode para os dados da Microsoft. Em suma, o arquivamento de dados de terceiros no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Após a importação dos dados de terceiros, é possível aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, eDiscovery, arquivamento in-loco, auditoria, conformidade de comunicação e políticas de retenção a esses dados. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio, os dados de terceiros são preservados. Você pode pesquisar dados de terceiros usando as ferramentas de descoberta eletrônica da Microsoft. Ou você pode aplicar políticas de arquivamento e retenção a dados de terceiros, da mesma forma que você pode para os dados da Microsoft. Em suma, o arquivamento de dados de terceiros no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 Há duas maneiras de importar e arquivar dados de terceiros no Microsoft 365:
 

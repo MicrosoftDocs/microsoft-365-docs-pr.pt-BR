@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como as mensagens de phishing foram recebidas e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: 94c28bf63ad7ba87d06298576cf7989b6848f8e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 56baf39335837158cd061b4cbaede25a81c484ee
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082020"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033645"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Ajustar a proteção contra phishing no Office 365
 
@@ -39,11 +39,7 @@ Verifique se esses recursos ATP estão ativados.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Relatar a mensagem de phishing para a Microsoft
 
-Relatar mensagens de phishing é útil para ajustar os filtros usados para proteger todos os clientes do Office 365.
-
-Envie a mensagem de phishing _como um anexo_ em uma nova mensagem, caso contrário, vazia para o **Phish@office365.microsoft.com**. Não encaminhe apenas a mensagem original; caso contrário, não é possível examinar os cabeçalhos da mensagem original. Ou você pode usar o suplemento de [mensagem de relatório](https://docs.microsoft.com/office365/securitycompliance/enable-the-report-message-add-in) no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App).
-
-Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Relatar mensagens de phishing é útil para ajustar os filtros usados para proteger todos os clientes do Office 365. Para obter instruções, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="inspect-the-message-headers"></a>Inspecionar os cabeçalhos da mensagem
 

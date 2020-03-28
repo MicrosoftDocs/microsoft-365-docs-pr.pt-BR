@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft.
-ms.openlocfilehash: 0910374051073cb67ee4d2a4fac0a88871a2fd73
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: df47f0df0f30de3529982099cb59efe2a741cd34
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333648"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029867"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Criptografia de serviço com a chave do cliente no Office 365
 
@@ -49,7 +49,7 @@ A chave do cliente só criptografa dados em repouso na nuvem. A chave do cliente
 
 ## <a name="about-the-data-encryption-policy-dep"></a>Sobre a DEP (política de criptografia de dados)
 
-Uma política de criptografia de dados define a hierarquia de criptografia para criptografar dados usando cada uma das chaves que você fornecer, bem como a chave de disponibilidade protegida pela Microsoft. Você cria DEPs usando os cmdlets do PowerShell, que são diferentes para cada serviço e os atribuem para criptografar dados de aplicativo. Por exemplo:
+Uma política de criptografia de dados define a hierarquia de criptografia para criptografar dados usando cada uma das chaves que você fornecer, bem como a chave de disponibilidade protegida pela Microsoft. Você cria DEPs usando cmdlets do PowerShell, que são diferentes para cada serviço e atribuem esses DEPs para criptografar dados de aplicativo. Por exemplo:
 
 **Exchange Online e Skype for Business** Você pode criar até 50 DEPs por locatário. Você associa DEPs às suas chaves de cliente no Azure Key Vault e, em seguida, atribui DEPs às caixas de correio individuais. Ao atribuir uma DEP a uma caixa de correio:
 

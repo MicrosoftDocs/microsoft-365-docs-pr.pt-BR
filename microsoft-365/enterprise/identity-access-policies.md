@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: b6e10757c3a4370c83b6ee0c1fb6c818a13089ea
+ms.sourcegitcommit: 7eaecb91c7cb1f8679f99882563f5c1149175992
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978261"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43022916"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -225,18 +225,22 @@ Com o acesso condicional, as organizações podem restringir o acesso aos aplica
 
 ## <a name="define-device-compliance-policies"></a>Definir políticas de conformidade de dispositivos
 
-As políticas de conformidade de dispositivos definem os requisitos para os quais os dispositivos devem aderir para serem marcados como em conformidade. Criar políticas de conformidade de dispositivo do Intune de dentro do portal do Azure. 
+As políticas de conformidade de dispositivos definem os requisitos para os quais os dispositivos devem aderir para serem marcados como em conformidade. Crie políticas de conformidade de dispositivo do Intune a partir do centro de administração do Microsoft Endpoint Manager.
 
 Criar uma política para cada plataforma:
-- Android
+- Administrador do dispositivo Android
 - Android Enterprise
-- iOS
+- iOS/iPadOS
 - macOS
 - Esta configuração está disponível nos seguintes tipos de dispositivos:
 - Windows 8,1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, faça logon no portal do Microsoft Azure com suas credenciais de administrador e, em seguida, navegue até o **Intune > o dispositivo de conformidade**. Selecione **Criar política**.
+Para criar políticas de conformidade de dispositivos, faça logon no [centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) com suas credenciais de administrador e, em seguida, navegue até**políticas**de**políticas** > de conformidade de **dispositivos** > . Selecione **criar política**.
+
+Para que as políticas de conformidade do dispositivo sejam implantadas, elas devem ser atribuídas a grupos de usuários. Você atribui uma política depois de criá-la e salvá-la. No centro de administração, selecione a política e, em seguida, selecione **atribuições**. Após selecionar os grupos para os quais você deseja receber a política, selecione **salvar** para salvar a atribuição de grupo e implantar a política.
+
+Para obter uma orientação passo a passo sobre a criação de políticas de conformidade no Intune, consulte [criar uma política de conformidade no Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy) na documentação do Intune.
 
 As configurações a seguir são recomendadas para o Windows 10.
 
@@ -255,8 +259,6 @@ As configurações a seguir são recomendadas para o Windows 10.
 |:---|:---------|:-----|:----|
 |Versão do sistema operacional|Tudo|Não configurado||
 
-Para todas as políticas acima para serem consideradas implantadas, elas devem ser direcionadas para grupos de usuários. Você pode fazer isso criando a política (ao salvar) ou posterior selecionando **gerenciar implantação** na seção **política** (mesmo nível de adição).
-
 **Segurança do sistema**
 
 |Tipo|Propriedades|Valores|Anotações|
@@ -273,9 +275,9 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 |Segurança do dispositivo|Firewall|Precisa||
 ||Antivírus|Precisa||
 ||AntiSpyware|Precisa|Esta configuração requer uma solução anti-spyware registrada com a central de segurança do Windows|
-|Defender|Windows Defender Antimalware|Precisa||
-||Versão mínima do Windows Defender Antimalware||Compatível apenas com a área de trabalho do Windows 10. A Microsoft recomenda as versões não mais do que cinco atrás da versão mais recente|
-||Assinatura antimalware do Windows Defender atualizada|Precisa||
+|Defender|Microsoft Defender Antimalware|Precisa||
+||Versão mínima do Microsoft Defender Antimalware||Compatível apenas com a área de trabalho do Windows 10. A Microsoft recomenda as versões não mais do que cinco atrás da versão mais recente|
+||Assinatura do Microsoft Defender Antimalware atualizada|Precisa||
 ||Proteção em tempo real|Precisa|Compatível apenas com a área de trabalho do Windows 10|
 
 **Microsoft Defender ATP**
@@ -283,6 +285,7 @@ Para todas as políticas acima para serem consideradas implantadas, elas devem s
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
 |Regras de proteção avançada contra ameaças do Microsoft defender|Exigir que o dispositivo esteja no ou abaixo da Pontuação de risco da máquina|Médio||
+
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Exigir computadores compatíveis (mas telefones e tablets não compatíveis)
 Antes de adicionar uma política para exigir computadores compatíveis, não deixe de inscrever dispositivos para gerenciamento no Intune. É recomendável usar a autenticação multifator antes de registrar dispositivos no Intune para garantir que o dispositivo esteja na posse do usuário desejado. 

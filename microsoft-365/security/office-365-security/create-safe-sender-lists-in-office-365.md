@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Os administradores podem saber mais sobre as opções disponíveis no Office 365 e EOP que permitem que mensagens de entrada ignorem a filtragem de spam.
-ms.openlocfilehash: 2b7463165bb376655fd7f63ac0bdd79a8eccb617
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f9178dae93f8eb33996d05034d27fceed66edd39
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893845"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033405"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -38,9 +38,9 @@ As listas de remetentes seguros disponíveis são descritas na lista a seguir na
 As regras de fluxo de emails permitem maior flexibilidade para garantir que apenas as mensagens corretas sejam permitidas. As listas de domínios permitidos e remetentes permitidos em políticas antispam não são tão seguras quanto a lista de permissões de IP, porque o domínio de email do remetente é facilmente falsificado. No entanto, a lista de IPs permitidos também apresenta um risco, pois o email de _qualquer_ domínio enviado desse endereço IP ignorará a filtragem de spam.
 
 > [!IMPORTANT]
-> <ul><li>Tenha cuidado e monitore *quaisquer* exceções que você deseja filtrar por spam usando listas de remetentes seguros.</li><li>Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico para o [envio de spam, não spam e emails de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) no Ready.</li><li>Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP e Outlook inspecionam Propriedades de mensagem diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.</li></ul>
+> <ul><li>Tenha cuidado e monitore *quaisquer* exceções que você deseja filtrar por spam usando listas de remetentes seguros.</li><li>Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.</li><li>Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP e Outlook inspecionam Propriedades de mensagem diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.</li></ul>
 
-Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, consulte [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md).
+Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no Office 365](create-block-sender-lists-in-office-365.md)
 
 ## <a name="recommended-use-mail-flow-rules"></a>Recomenda Usar regras de fluxo de email
 

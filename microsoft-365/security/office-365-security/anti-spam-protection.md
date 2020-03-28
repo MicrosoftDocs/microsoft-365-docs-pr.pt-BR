@@ -17,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Office 365. Obtendo muito spam no Office 365? Você pode personalizar suas configurações de filtro de spam e antispam.
-ms.openlocfilehash: 5558bfa29427df4df12a83bc8b30adaf6001b9c3
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: bb2b714273af5177d8c69c4b89b0daec87c31650
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894065"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033465"
 ---
 # <a name="anti-spam-protection-in-office-365"></a>Proteção antispam no Office 365
 
@@ -49,7 +49,7 @@ As configurações antispam no EOP são feitas das seguintes tecnologias:
 - **Filtragem de spam (filtragem de conteúdo)**: o EOP usa a filtragem de spam verdicts **spam**, **spam de alta confiança**, **email em massa**, **email de phishing** e email de **phishing de alta confiança** para classificar mensagens. É possível configurar as ações a serem executadas com base nesses verdicts, e você pode configurar as opções de notificação de usuário final para mensagens que foram colocadas em quarentena em vez de entregues. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
   > [!NOTE]
-  > Por padrão, a filtragem de spam é configurada para enviar mensagens que foram marcadas como spam para a pasta lixo eletrônico do destinatário. No entanto, em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar duas regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização do Exchange local para reconhecer os cabeçalhos de spam do EOP que são adicionados às mensagens. Para obter detalhes, consulte [Configurar o EOP autônomo para fornecer spam à pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+  > Por padrão, a filtragem de spam é configurada para enviar mensagens que foram marcadas como spam para a pasta lixo eletrônico do destinatário. No entanto, em ambientes híbridos onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar duas regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização do Exchange local para reconhecer os cabeçalhos de spam do EOP que são adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
 - **Filtragem de spam de saída**: o EOP também verifica se os usuários não enviam spam, seja no conteúdo da mensagem de saída ou excedem os limites de mensagens de saída. Para obter mais informações, consulte [Configure Outbound spam Filtering in Office 365](configure-the-outbound-spam-policy.md).
 
@@ -61,7 +61,7 @@ As configurações antispam no EOP são feitas das seguintes tecnologias:
 
 Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos cenários:
 
-- Sempre envie mensagens incorretamente classificadas para a Microsoft. Os administradores podem usar o [Gerenciador de envios](admin-submission.md)ou os usuários podem relatar mensagens usando o [suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Sempre envie mensagens incorretamente classificadas para a Microsoft. Para obter mais informações, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 - **Examinar os cabeçalhos de mensagens**antispam: esses valores informarão por que uma mensagem foi marcada como spam ou por que ela ignorou a filtragem de spam. Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
 
@@ -83,13 +83,13 @@ Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos ce
 
 - **Verifique suas configurações de organização**: Tome as configurações que permitem que as mensagens ignorem a filtragem de spam (por exemplo, se você adicionar seu próprio domínio à lista de domínios permitidos em políticas antispam). Para nossas configurações recomendadas, consulte [configurações recomendadas para o EOP e o office 365 ATP Security](recommended-settings-for-eop-and-office365-atp.md) e [criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
 
-- **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela é habilitada por padrão, mas se não houver mensagens marcadas como lixo eletrônico não podem ser movidas para a pasta lixo eletrônico. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela é habilitada por padrão, mas se não houver mensagens marcadas como lixo eletrônico não podem ser movidas para a pasta lixo eletrônico. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
 - **Use as listas de remetentes bloqueados disponíveis**: para saber mais, confira [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md).
 
 - **Cancelar assinatura de email em massa** Se a mensagem foi algo de que o usuário se inscreveu (boletins informativos, comunicados de produto etc.) e contém um link de cancelamento de assinatura de uma fonte respeitável, peça para que ele simplesmente cancele a assinatura.
 
-- **EOP autônomo: criar regras de fluxo de emails no Exchange local para filtragem de spam do EOP verdicts**: em ambientes autônomos do EOP onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar as regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir os EOP de filtragem de spam do veredicto, de forma Para obter detalhes, consulte [Configurar o EOP autônomo para fornecer spam à pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+- **EOP autônomo: criar regras de fluxo de emails no Exchange local para filtragem de spam do EOP verdicts**: em ambientes autônomos do EOP onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar as regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir os EOP de filtragem de spam do veredicto, de forma Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>Impedir que bons emails sejam identificados como spam
 

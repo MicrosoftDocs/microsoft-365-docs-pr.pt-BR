@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas recomendadas para a EOP (Proteção do Exchange Online) a fim de evitar erros comuns de configuração e obter êxito.
-ms.openlocfilehash: b4b1f02e3b034b7e89d605a2164b6add3f20dae5
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887298"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033429"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Práticas recomendadas para configurar o EOP e o Office 365 ATP
 
@@ -61,11 +61,9 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 
 Solucionar problemas gerais e tendências usando os relatórios no centro de administração. Encontre um ponto de dados específico sobre uma mensagem usando a ferramenta de Rastreamento de Mensagem. Saiba mais sobre relatórios em [Relatórios e rastreamento de mensagem no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Saiba mais sobre a ferramenta de rastreamento de mensagens no [rastreamento de mensagens no centro de conformidade de & de segurança](message-trace-scc.md).
 
-## <a name="reporting-false-positive-and-false-negatives-to-microsoft"></a>Relatar falsos positivos e falsos negativos para a Microsoft
+## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Relatar falsos positivos e falsos negativos à Microsoft
 
-Os administradores devem enviar falsos negativos (spam) e falsos positivos (não spam) para a Microsoft por meio do portal de envios do administrador. Emails, arquivos e URLs podem ser enviados para ajudar os administradores a determinar por que fornecemos ou não enviaram mensagens aos usuários finais. Para obter detalhes, consulte [como enviar spam, phishing, URLs e arquivos suspeitos para a verificação da Microsoft para o Office 365](admin-submission.md).
-
-Os usuários finais também podem relatar diretamente falsos negativos (spam) e falsos positivos (não spam) para a Microsoft para análise quando eles descordam com verdicts fornecidos. Para obter detalhes, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve relatar falsos positivos (emails satisfatórios marcados como defeituosos) e falsos negativos (emails inválidos permitidos) para a Microsoft para análise. Para obter mais informações, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="create-mail-flow-rules"></a>Criar regras de fluxo de emails
 

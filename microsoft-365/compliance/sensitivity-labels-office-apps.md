@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 8c37ea146447a7b38b10224db94f9995fd985e6e
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 2b77d273cdc589409506dc709669536fcea6c006
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826169"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030113"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -68,7 +68,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Visualização: no [canal mensal (direcionado)](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#monthly-channel-for-office-365-proplus)            | Visualização: no [Office Insider](https://office.com/insider)        | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Distribuindo para o [canal mensal](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#monthly-channel-for-office-365-proplus) (2003 +) | Distribuindo para o [canal mensal](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#monthly-channel-for-office-365-proplus) (16.35 +)   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Visualização: no [Office Insider](https://office.com/insider)                                  | Em revisão | Em revisão | Em revisão | [Visualização](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -91,7 +91,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Visualização: distribuição para o [Office Insider](https://office.com/insider)                       | Em revisão                    | Em revisão           | Em revisão               | Sim |
 |
 
-## <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Cliente de rotulamento interno do Office e o cliente de proteção de informações do Azure
+## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Cliente de rotulagem interno do Office e outras soluções de rótulo
 
 O cliente de rotulagem de rótulo do Office faz o download de rótulos de confidencialidade e definições de política de rótulo de confidencialidade dos seguintes centros de administração:
 
@@ -99,19 +99,25 @@ O cliente de rotulagem de rótulo do Office faz o download de rótulos de confid
 - Centro de segurança do Microsoft 365
 - Centro de Conformidade e Segurança do Office 365
 
-Para usar o cliente de rotulagem interno do Office, você deve ter uma ou mais [políticas de rótulo publicadas](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) para os usuários de um dos centros de administração listados.
+Para usar o cliente de rotulagem interno do Office, você deve ter uma ou mais [políticas de rótulo publicadas](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) para os usuários de um dos centros de administração listados e uma [versão com suporte do Office](#support-for-sensitivity-label-capabilities-in-apps).
 
-No entanto, se os usuários tiverem um dos clientes de proteção de informações do Azure instalados ([Unificação de nome de cliente](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) ou [cliente clássico](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)), por padrão, o cliente de rotulação interno será desativado em seus aplicativos do Office. Para usar o rotulamento interno, em vez do cliente de proteção de informações do Azure para aplicativos do Office, desative ou desinstale o suplemento do Office para proteção de informações do Azure:
+Se ambas as condições forem atendidas, mas você precisar desativar o cliente de rotulamento interno do Office, use a seguinte configuração de política de Grupo:
 
-1. Execute uma destas opções:
-    
-    - **Para vários computadores:** Configurar a configuração de diretiva de grupo **usar o recurso de confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** . Encontre essa configuração em **configuração do usuário/Modelos Administrativos/Microsoft Office 2016/configurações de segurança**. Implante essa configuração por meio da política de grupo ou usando o [serviço política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
-    
-    - **Para um único computador:** Consulte "Exibir, gerenciar e instalar suplementos nos programas do Office" para obter informações sobre como [desabilitar ou remover permanentemente](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) o suplemento de proteção de informações do Azure em um único computador.
+1. Navegue até **configuração do usuário/Modelos Administrativos/Microsoft Office 2016/configurações de segurança**
 
-2. Reinicie todos os aplicativos do Office.
+2. Definir **use o recurso de sensibilidade do Office para aplicar e exibir rótulos de sensibilidade** a **0**. 
+ 
+Implante essa configuração usando a política de grupo ou o serviço de [política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service). A configuração tem efeito quando os aplicativos do Office são reiniciados.
 
-Quando você desabilita ou desinstala este suplemento do Office, o cliente de proteção de informações do Azure permanece instalado para que você possa continuar a rotular arquivos fora de seus aplicativos do Office. Por exemplo, usando o explorador de arquivos ou o PowerShell.
+### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Cliente de rotulamento interno do Office e o cliente de proteção de informações do Azure
+
+Se os usuários tiverem um dos clientes de proteção de informações do Azure instalados ([Unificação de nome de cliente](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) ou [cliente clássico](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)), por padrão, o cliente de rotulação interno está desativado em seus aplicativos do Office. 
+
+Para usar o rotulamento interno, em vez do cliente de proteção de informações do Azure para aplicativos do Office, use as instruções da seção anterior, mas defina a configuração da política de grupo **use o recurso de sensibilidade no Office para aplicar e exibir rótulos de sensibilidade** para **1**. 
+
+Como alternativa, desabilite ou remova o suplemento do Office, **proteção de informações do Azure**. Este método é adequado para um único computador e testes ad-hoc. Para obter instruções, consulte [Exibir, gerenciar e instalar suplementos nos programas do Office](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d). 
+
+Quando você desabilita ou remove este suplemento do Office, o cliente de proteção de informações do Azure permanece instalado para que você possa continuar a rotular arquivos fora de seus aplicativos do Office. Por exemplo, usando o explorador de arquivos ou o PowerShell.
 
 Para obter informações sobre quais recursos são compatíveis com os clientes de proteção de informações do Azure e para o cliente de rotulagem interno do Office, consulte [escolher qual rotulação de cliente usar para computadores Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) a partir da documentação de proteção de informações do Azure.
 

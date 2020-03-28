@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: Apresenta dicas de segurança para mensagens de email filtradas pelo EOP e pelo filtro de spam do Office 365.
-ms.openlocfilehash: bd493fba7a41f9452f915ff456c9483f48e299f5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3e4e645c6ac0285d9d6fff43b301f1f5c61a90e3
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895186"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032811"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Dicas de segurança em mensagens de email no Office 365
 
@@ -60,4 +60,4 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
 
 As dicas de segurança sempre são habilitadas para o Outlook na Web, mesmo que nem todas as mensagens recebam um. Os administradores do Office 365 podem desativar Dicas de segurança para outros clientes de email, como o Outlook. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
-Se você discordar com o modo como o Office 365 e o EOP categorizaram uma mensagem (ou seja, não é spam ou não é legítimo), você pode enviar as mensagens para análise para ajudar a melhorar a experiência. Para saber mais, confira [relatar spam e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md). Você também pode clicar no link de comentários na dica de segurança para enviar comentários diretamente para a Microsoft para nos ajudar a melhorar.
+Se você discordar do modo como o EOP categorizou uma mensagem (ou seja, a mensagem não é spam ou deveria ter sido marcada como spam), você pode enviar as mensagens para a Microsoft para a análise para ajudar a melhorar sua experiência. Para obter instruções, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md). Você também pode clicar no link de comentários na dica de segurança para enviar comentários diretamente para a Microsoft para nos ajudar a melhorar.

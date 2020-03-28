@@ -1,5 +1,5 @@
 ---
-title: Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva
+title: Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
 description: Um estudo de caso para contoso e como eles configuram rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams e nas comunicações do Exchange Online
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6b5ce3b9ca738ddf94edbb035daeb730f5e3f96a
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 6f23bece83f0c0fc25ddb26b8ceddcb1c956bc5e
+ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982321"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43024341"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy"></a>Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva
+# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
 
 A conformidade de comunicação no Microsoft 365 ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams ou comunicações de terceiros em sua organização e tomar ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 

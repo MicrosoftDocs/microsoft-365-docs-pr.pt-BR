@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger os usuários de emails ofensivos, indesejados ou mal-intencionados.
-ms.openlocfilehash: e6e5565b032af656b2204ce448581014595013de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c95c586f6287857b910c82e8f21b3d977cdc5966
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598608"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033741"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
@@ -89,7 +89,7 @@ A Microsoft trabalha ativamente com órgãos de mercado e provedores de serviço
 
 ## <a name="abuse-and-spam-reporting"></a>Relatórios de abuso e spam
 
-Para relatar um email ilegal, abusivo, indesejado ou mal-intencionado, [denuncie o lixo eletrônico e golpes de phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md). O envio desses tipos de comunicação é uma violação da política da Microsoft e a ação apropriada será realizada nos relatórios confirmados.
+Para relatar um email ilegal, abusivo, indesejado ou mal-intencionado, confira [mensagens e arquivos de relatório para a Microsoft](report-junk-email-messages-to-microsoft.md). O envio desses tipos de comunicação é uma violação da política da Microsoft e a ação apropriada será realizada nos relatórios confirmados.
 
 ## <a name="law-enforcement"></a>Aplicação de leis
 

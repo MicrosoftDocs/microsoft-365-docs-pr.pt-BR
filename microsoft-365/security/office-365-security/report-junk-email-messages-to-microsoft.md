@@ -1,5 +1,5 @@
 ---
-title: Relatar mensagens de Lixo Eletrônico à Microsoft
+title: Relatar mensagens de spam, não spam e phishing à Microsoft
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,55 +16,25 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:'
-ms.openlocfilehash: b1ed918e4b954cc7b2d79e52abd6f58a99eda0f0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b7e7ed56f171ee3b74b36ed7c10c46286fb1e570
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895174"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033657"
 ---
-# <a name="report-junk-email-messages-to-microsoft"></a>Relatar mensagens de Lixo Eletrônico à Microsoft
+# <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos para a Microsoft
 
-O Suplemento de Relatório de Lixo Eletrônico da Microsoft do Microsoft Office Outlook oferece várias maneiras para você relatar mensagens de lixo eletrônico:
+Usuários e administradores nas organizações do Office 365 com caixas de correio no Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online para enviar mensagens de email têm vários métodos diferentes para relatar mensagens e arquivos para a Microsoft.
 
-- Da faixa de opções do Outlook
+|||
+|---|---|
+|**Method**|**Descrição**|
+|[Usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft](admin-submission.md)|Este é o método de relatório recomendado para administradores em organizações com caixas de correio do Exchange Online (não está disponível em EOP autônomo).|
+|[Habilitar o suplemento de mensagem de relatório no Office 365](enable-the-report-message-add-in.md)|Funciona com o Outlook, o Outlook para Mac e o Outlook na Web. Este é o suplemento recomendado. <br/><br/> Dependendo da sua licença, as mensagens relatadas estão disponíveis em [resultados de investigação e resposta automatizados (Air)](air-view-investigation-results.md), o [relatório de mensagens relatadas pelo usuário](view-email-security-reports.md#user-reported-messages-report) e o explorador de [ameaças](threat-explorer-views.md#email--submissions).|
+|[Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook no Office 365](junk-email-reporting-add-in-for-microsoft-outlook.md)|O só funciona no Outlook.|
+|[Relatar emails de lixo eletrônico e phishing no Outlook na Web no Office 365](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Use os recursos internos do Outlook na Web para organizações com caixas de correio do Exchange Online (não estão disponíveis em EOP autônomos).|
+|[Enviar malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o site do Microsoft Security Intelligence para enviar anexos e outros arquivos.|
+|
 
-- Da sua Caixa de Entrada
-
-- De dentro de uma mensagem de email aberta
-
-O Suplemento de Relatórios de Lixo Eletrônico ajuda você a enviar relatórios para o serviço Microsoft Proteção do Exchange Online (EOP). Se a sua caixa de correio não estiver protegida pelo serviço, o envio de relatório de lixo eletrônico não afetará os filtros de spam. Os administradores podem saber mais sobre as configurações de spam que se aplicam a uma organização inteira em [criar listas de remetentes seguros no office 365](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md). Elas serão úteis se você tiver o controle de nível de administrador e quiser impedir falsos positivos ou falsos negativos.
-
-> [!TIP]
-> Você também pode enviar mensagens de spam diretamente para a Microsoft usando o endereço de email do [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e mensagens falsas positivas (não spam) usando o endereço de email do [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) . Para obter mais informações, consulte [enviar mensagens de spam, não spam e golpes de phishing para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
-
-### <a name="to-report-junk-email-messages-from-outlook"></a>Para relatar mensagens de lixo eletrônico do Outlook
-
-[Usar o suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
-
-### <a name="to-report-junk-email-messages-from-your-inbox"></a>Para relatar mensagens de lixo eletrônico em Caixa de Entrada
-
-1. Clique com o botão direito do mouse nas mensagens que deseja relatar como lixo eletrônico.
-
-2. Selecione **Lixo Eletrônico** e clique em **Relatar lixo eletrônico**.
-    ![Reportar mensagens de lixo eletrônico da Caixa de Entrada](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
-
-3. A caixa de diálogo **Suplemento de Relatório de lixo eletrônico da Microsoft** será aberta. Se você tiver certeza de que deseja enviar as mensagens que selecionou como lixo eletrônico, clique em **Sim**.
-    ![Confirme o relatório como lixo eletrônico](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > Se você não quiser receber essa mensagem de confirmação ao enviar mensagens de lixo eletrônico, marque **Não mostrar essa mensagem novamente**.
-
-As mensagens selecionadas serão enviadas à Microsoft para análise e movidas para a pasta Lixo Eletrônico. Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
-
-### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>Para relatar uma mensagem de lixo eletrônico de dentro de uma mensagem de aberta
-
-1. De dentro de uma mensagem aberta, clique no botão **Relatar lixo eletrônico** na faixa de opções da mensagem. Por exemplo **, clique em** \> lixo eletrônico **relatar** ![lixo eletrônico de um lixo eletrônico de dentro de uma mensagem](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
-
-2. A caixa de diálogo **Suplemento de Relatório de lixo eletrônico da Microsoft** será aberta. Se você tiver certeza de que deseja enviar a mensagem selecionada como lixo eletrônico, clique em **Sim**.
-    ![Confirme o relatório como lixo eletrônico](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > Se você não quiser receber essa mensagem de confirmação ao enviar mensagens de lixo eletrônico, marque **Não mostrar essa mensagem novamente**.
-
-A mensagem selecionada será enviada à Microsoft para análise e movida para a pasta Lixo Eletrônico. Para confirmar se a mensagem foi enviada, abra sua pasta **Itens Enviados** para exibir a mensagem enviada.
+Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários podem relatar as mensagens para a Microsoft do portal de quarentena no centro de conformidade & segurança do Office 365. Para obter detalhes, consulte [Localizar e liberar mensagens em quarentena como um usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md).
