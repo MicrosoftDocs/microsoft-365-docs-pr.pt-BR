@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d8de760fb4690af6675b67678b2441773993a8e5
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 35c24153bdacbdc0d07d65b508e66878bd0045e4
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233912"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029823"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -36,11 +36,14 @@ Política | Descrição
 Linha de base de segurança | A [linha de base de segurança da Microsoft](https://docs.microsoft.com/windows/device-security/windows-security-baselines) para MDM é configurada para todos os dispositivos de área de trabalho gerenciado Essa linha de base é a configuração padrão da indústria. Ele é lançado publicamente, bem testado e revisado pelos especialistas de segurança da Microsoft para manter os dispositivos e aplicativos de área de trabalho gerenciada da Microsoft seguros no local de trabalho moderno. <br><br>Para reduzir as ameaças no panorama de ameaças à segurança em constante evolução, a linha de base de segurança da Microsoft será atualizada e implantada em dispositivos de área de trabalho gerenciada da Microsoft com cada atualização de recurso do Windows 10.<br><br>Para obter mais informações, consulte [Security Baseline for Windows 10](https://blogs.technet.microsoft.com/secguide/2017/10/18/security-baseline-for-windows-10-fall-creators-update-v1709-final/).
 Modelo de segurança recomendado para área de trabalho gerenciada da Microsoft | Um conjunto de alterações recomendadas à linha de base de segurança que otimizam a experiência do usuário.  Essas alterações são documentadas no [adendo de segurança](#security-addendum). As atualizações para o adendo de política ocorrem em uma base conforme necessário.  
 Implantação de atualização | Use o Windows Update para empresas para executar a implantação gradual de atualizações de software. Os administradores de ti não podem modificar as configurações das diretivas de grupo de implantação. Para obter mais informações sobre a implantação baseada em grupo, consulte [como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](updates.md).
-Dados de diagnóstico | Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários finais podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 Conexões limitadas | Por padrão, as atualizações em conexões limitadas (como redes LTE) estão desativadas, embora cada usuário possa ativar o recurso de forma independente em **configurações > atualizações > opções avançadas**. Se você deseja permitir que todos os usuários habilitem atualizações em conexões limitadas, [envie uma solicitação de alteração](../working-with-managed-desktop/admin-support.md), o que ativará essa configuração para todos os dispositivos.
 | Conformidade do dispositivo | Essas políticas são configuradas para todos os dispositivos de área de trabalho gerenciada da Microsoft. Um dispositivo é relatado como não compatível quando ele se desfere da configuração de segurança necessária.
 
- ## <a name="security-addendum"></a>Adendo de segurança
+## <a name="diagnostic-data"></a>Dados de diagnóstico
+
+ Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários finais podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
+
+## <a name="security-addendum"></a>Adendo de segurança
 
  Esta seção descreve as políticas que serão implantadas além das políticas padrão de área de trabalho gerenciada da Microsoft listada em [políticas padrão](#default-policies). Essa configuração foi projetada com serviços financeiros e setores altamente regulamentados em mente, otimizando o máximo de segurança enquanto mantém a produtividade do usuário.
 
