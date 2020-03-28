@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: 9e1a4cf31c2565eeb6be53b5c43bda0154f9ea6f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a81c22d83e0a476657aa89823e52d3eb6afc4514
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894133"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033477"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -631,7 +631,7 @@ A tecnologia antifalsificação da Microsoft foi implantada inicialmente nas org
 
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
-Você pode usar o [Suplemento para Relatar Mensagens para o Outlook](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) ou, se não estiver instalado, [Enviar mensagens de spam, não spam e de phishing à Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>Sou um administrador de domínio que não sabe quem são todos os meus remetentes!
 
