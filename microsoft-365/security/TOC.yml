@@ -3,6 +3,8 @@
   items:
     - name: Introdução
       items:
+        - name: Principais tarefas para facilitar o trabalho em casa
+          href: top-security-tasks-for-remote-work.md
         - name: Segurança do Microsoft 365 para responsáveis por decisões de negócios (BDMs)
           href: Microsoft-365-security-for-bdm.md
         - name: Workshop de treinamento de Diretor Executivo de Segurança da Informação (CISO)
