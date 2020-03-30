@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 94dd92ec-ea73-43c6-b51f-2a11fd78aa31
 description: Obtenha o relatório de atividades de grupos do Yammer para saber mais sobre o número de grupos do Yammer que estão sendo criados e usados na sua organização, além de suas atividades.
-ms.openlocfilehash: 69b9be1b6f632f0e6fa212e5be6209097ccb6669
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 117217f8dd275432342afd0381b39e93de23b92f
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353322"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047066"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Relatórios do Office 365 no centro de administração-relatório de atividades de grupos do Yammer
 
 O painel de **relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de atividades de grupos do Yammer, é possível obter informações sobre as atividades de grupos do Yammer em sua organização e ver quantos grupos do Yammer estão sendo criados e usados.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
 
 ## <a name="how-to-get-to-the-yammer-groups-activity-report"></a>Como acessar o relatório de atividades de grupos do Yammer
 

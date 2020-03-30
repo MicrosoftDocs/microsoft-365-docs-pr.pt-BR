@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Saiba como obter o relatório de uso de caixa de correio para saber mais sobre as atividades dos usuários com uma caixa de correio de usuário.
-ms.openlocfilehash: d7d36359801fe72ac1c3ffc210c7795030f0b2e2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7453bf20949e04f07d74f6cf1df13e88de522b92
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237031"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046922"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio
 
 O **relatório de uso da caixa de correio** fornece informações sobre os usuários com uma caixa de correio de usuário e o nível de atividade, com base no envio, leitura, criação de compromisso, envio de reunião, aceitação de reunião, recusa da reunião e cancelamento da atividade da reunião. Ele fornece também informações sobre o consumo do espaço de armazenamento de cada caixa de correio do usuário e quantas delas estão prestes a atingir as cotas de armazenamento. 
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios. 
  
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>Como obter o relatório de uso da caixa de correio
 

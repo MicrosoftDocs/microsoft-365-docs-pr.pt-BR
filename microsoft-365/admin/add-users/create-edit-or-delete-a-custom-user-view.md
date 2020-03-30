@@ -2,8 +2,8 @@
 title: Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
 f1.keywords:
 - NOCSH
-ms.author: twerner
-author: twernermsft
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Office 365.
-ms.openlocfilehash: ba03d3da3e8bfdc4f2a661d1dc59845a8a22609f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: ae12675afd47434ac6dd12dae683c79aae64be1f
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632949"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047054"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
 
@@ -89,6 +89,13 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 - **Usuários não licenciados** Selecione esta caixa para localizar todos os usuários que não receberam uma licença. Os resultados desse modo de exibição também podem incluir usuários que tenham uma caixa de correio do Exchange, mas não tenham uma licença. Para controlar esses usuários especificamente, use o filtro **usuários não licenciados com caixas de correio do Exchange ou arquivos mortos**. Os resultados desse modo de exibição também podem incluir usuários que têm um arquivo morto do Exchange, mas não têm uma licença.
     
 - **Usuários não licenciados com caixas de correio ou arquivos mortos do Exchange** Selecione esta caixa para mostrar as contas de usuário que foram criadas no Exchange Online e ter uma caixa de correio do Exchange, mas não foi atribuída uma licença do Office 365. Os resultados desse filtro incluem usuários que tenham ou quem foram atribuídos a um arquivo morto do Exchange. 
+
+> [!NOTE]
+> O filtro **usuários não licenciados com caixas de correio do Exchange** funciona quando:
+1. A caixa de correio foi convertida recentemente de **compartilhada** para **usuário** e não tem licença.
+2. A caixa de correio foi migrada recentemente para o Office 365, mas não foi atribuída uma licença.
+3. A caixa de correio foi criada usando o PowerShell e não foi atribuída uma licença.
+4. Uma nova caixa de correio criada no local com um cmdlet New-RemoteMailbox é provisionada para o usuário.
     
 > [!TIP]
 > Se você criar um modo de exibição personalizado que retorna mais de 2.000 usuários, a lista de usuários resultante não será classificada. Nesse caso, use a caixa Pesquisar para localizar usuários ou editar o modo de exibição personalizado para refinar sua pesquisa. 
@@ -170,4 +177,3 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 
      
-

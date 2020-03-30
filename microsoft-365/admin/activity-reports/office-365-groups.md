@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obtenha um relatório do Microsoft 365 groups para saber mais sobre os grupos e suas atividades.
-ms.openlocfilehash: b76bd83dfbd215a6645bd73b2f9b2fb4be0c493b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 23b72d960a693ddeb8b05d261bd90f180b7c731d
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353662"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047126"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de grupos do Microsoft 365, você pode obter informações sobre a atividade dos grupos em sua organização e ver quantos grupos estão sendo criados e usados.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
   
 ## <a name="how-to-get-to-the-groups-report"></a>Como obter o relatório de grupos
 

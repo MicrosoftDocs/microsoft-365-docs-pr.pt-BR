@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Saiba como obter um relatório de atividade de email usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: 34cacd3a1c4682a53fdefd8f3fe26c38651676df
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2cdf20014b04010e1912fbc41ec6f4ce61eaaca1
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353842"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046826"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de email
 
@@ -32,7 +32,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 Por exemplo, você pode obter uma visão de alto nível do tráfego de email dentro de sua organização na página Relatórios e, depois, pode analisar para o widget de Atividade de email para entender as tendências e detalhes da atividade de email de cada usuário em sua organização.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios. 
 
 ## <a name="how-to-get-to-the-email-activity-report"></a>Como acessar o relatório de atividade de email
 

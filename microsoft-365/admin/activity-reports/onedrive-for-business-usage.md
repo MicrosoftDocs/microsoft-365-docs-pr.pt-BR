@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Obter o relatório de uso do OneDrive for Business para saber mais sobre o número total de arquivos e armazenamento usados em toda a organização. '
-ms.openlocfilehash: 8bbf904faf1afe28f4a8a83209f681a44eaa932f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4c7cfaeed03627b6dfab6c694f3a5e858b125c40
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353552"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047078"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso do OneDrive for Business
 
@@ -35,7 +35,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 Por exemplo, o cartão do OneDrive no painel oferece uma visão geral de alto nível do valor que você obtém do OneDrive for Business em termos de armazenamento e número total de arquivos usados em sua organização. Você pode então aprofundar-se para entender as tendências de contas ativas do OneDrive, com quantos arquivos os usuários interagem, bem como o armazenamento utilizado. Ele também fornece detalhes de cada usuário do OneDrive.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
 ## <a name="how-do-i-get-to-the-onedrive-usage-report"></a>Como posso obter o relatório de uso do OneDrive?
 

@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Saiba como obter um relatório de usuários ativos usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365 e saiba quantas licenças de produto estão sendo usadas.
-ms.openlocfilehash: 6ac56f17e1d106eaa4d1c3a46ff603631532075f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e865fa1ed68e7e68c103bf6abc66816b844d7b2d
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353952"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046838"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Relatórios do Microsoft 365 no centro de administração-usuários ativos
 
@@ -32,7 +32,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 Por exemplo, você pode usar o relatório de **Usuários Ativos** para descobrir quantas licenças de produto estão sendo usadas pelas pessoas da sua organização e fazer o drill down para obter informações sobre quais usuários estão usando quais produtos. Esse relatório pode ajudar os administradores a identificar produtos subutilizados ou usuários que possam precisar de informações ou treinamento adicional. 
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
 
 ## <a name="how-to-get-to-the-active-users-report"></a>Como acessar o relatório Usuários Ativos
 

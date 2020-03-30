@@ -20,18 +20,19 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Obtenha o relatório de uso do site do SharePoint para saber quantos arquivos os usuários armazenam em sites do SharePoint, quantas são usadas ativamente e o armazenamento total consumido. '
-ms.openlocfilehash: c60d33ce299d63edafc4ce996bb4ba07ce9b7fa0
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 92ff9c4dbfcc7fcd9f9fdc511584400273030f21
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353462"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047114"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso do site do SharePoint
 
 Como um administrador do Microsoft 365, o painel **relatórios** mostra a visão geral das atividades em vários produtos da sua organização. Ele permite um detalhamento para que você possa obter informações mais granulares sobre as atividades específicas a cada produto. Por exemplo, você pode ter uma visão de alto nível do valor que está recebendo do SharePoint em termos do número total de arquivos armazenados pelos usuários nos sites do SharePoint, quantos arquivos estão sendo usados ativamente e o armazenamento consumido em todos esses sites. Em seguida, você pode analisar o relatório de uso do site do SharePoint para entender as tendências e os detalhes de acordo com o nível do site para todos os sites. 
   
-> Observação: você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver relatórios. 
+> [!NOTE]
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios. 
  
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>Como acessar o relatório de uso de site do SharePoint
 

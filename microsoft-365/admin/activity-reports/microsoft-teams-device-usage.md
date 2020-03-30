@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização obtendo o relatório de uso do aplicativo Microsoft Teams nos relatórios do Office 365.
-ms.openlocfilehash: 872cde92ccd66f4de5199a5035eaaa83b79f0cc0
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b0937e4366f1b10b0908ee8764986f2ded2999ec
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353652"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046958"
 ---
 # <a name="office-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Office 365 no centro de administração-uso de dispositivos do Microsoft Teams
 
 O painel de **relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de uso do aplicativo Microsoft Teams, você encontra informações sobre os aplicativos do Microsoft Teams em uso na sua organização.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
 ## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Como gerar o relatório de uso do aplicativo Microsoft Teams
 

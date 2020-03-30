@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: a91c958f-1279-499d-9959-12f0de08dc8f
 description: Obter o relatório de uso de atividades do SharePoint para saber mais sobre a atividade de cada usuário do SharePoint, o número de arquivos compartilhados e o uso do armazenamento.
-ms.openlocfilehash: df025d41a2c570761fd59e228eebb277c922e06e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a3c8d73707ef09c3702450ebddab6e43c159638c
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353422"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047042"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade do SharePoint
 
@@ -39,7 +39,7 @@ Por exemplo, você pode entender a atividade de cada usuário licenciado para us
 Se você quiser entender a quantidade de atividade que está ocorrendo em cada site do SharePoint e o uso do armazenamento, veja o [Relatório de uso do site do SharePoint](sharepoint-site-usage.md).
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
 ## <a name="how-do-i-get-to-the-to-the-sharepoint-activity-report"></a>Como posso acessar o relatório de atividade do SharePoint?
 

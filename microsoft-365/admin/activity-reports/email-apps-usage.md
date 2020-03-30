@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre os aplicativos de email que se conectam ao Exchange Online e os usuários da versão do Outlook estão usando o.
-ms.openlocfilehash: bb75b28e41de37d4f21acedd4705db71f6c2c303
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5bdd62d150cf103cd3c3520cf5a0c593dceb8e66
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353782"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046850"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de uso de aplicativos de email, você pode ver quantos aplicativos de email estão se conectando ao Exchange Online. Você também pode ver as informações de versão dos aplicativos do Outlook que os usuários estão usando, que permitem o acompanhamento com aqueles que estão usando versões sem suporte para instalar versões com suporte do Outlook.
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
 ## <a name="how-to-get-to-the-email-apps-report"></a>Como acessar o relatório de aplicativos de email
 
