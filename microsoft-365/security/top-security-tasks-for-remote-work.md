@@ -1,5 +1,5 @@
 ---
-title: As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho de casa
+title: As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 f1.keywords:
 - CSH
 ms.author: bcarter
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 73f2ae19a7424d392bb365d7a24a83532a1950bf
-ms.sourcegitcommit: 37f17c918208b83fc04ba92e986e0a7548d4c38d
+ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
+ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/29/2020
-ms.locfileid: "43036376"
+ms.locfileid: "43037471"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -116,7 +116,7 @@ A [proteção avançada contra ameaças do Azure](https://docs.microsoft.com/azu
 Agora que você tem o Office 365 ATP e o Azure ATP configurados, você pode exibir os sinais combinados desses recursos em um painel. A [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) (MTP) reúne alertas, incidentes, investigação e resposta automatizadas e busca avançada entre cargas de trabalho (Azure ATP, Office 365 ATP, Microsoft defender ATP e Microsoft Cloud app Security) em um único painel em [Security.Microsoft.com](https://security.microsoft.com). 
 <br>
 
-![Ilustração do painel MTP](../media/top-10-security-remote-work-mtp-dashboard.png)
+![Ilustração do painel MTP](../media/top-ten-security-remote-work-mtp-dashboard.png)
 <br><br>
 Depois de configurar um ou mais serviços avançados de proteção contra ameaças, ative o MTP. Novos recursos são adicionados continuamente ao MTP; Considere optar por receber recursos de visualização.
 
@@ -128,7 +128,7 @@ Depois de configurar um ou mais serviços avançados de proteção contra ameaç
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: configurar a proteção de aplicativos móveis do Intune para telefones e tablets
 
 O Microsoft Intune Mobile Application Management (MAM) permite que você gerencie e proteja os dados da sua organização em telefones e tablets sem gerenciar esses dispositivos. Veja como funciona:
-- Você cria uma política de proteção de aplicativo (aplicativo) que determina quais aplicativos em um dispositivo são gerenciados e quais comportamentos são permitidos (por exemplo, impedir que dados de um aplicativo gerenciado sejam copiados para um aplicativo não gerenciado). Você cria uma política para cada platorm (iOS, Android).
+- Você cria uma política de proteção de aplicativo (aplicativo) que determina quais aplicativos em um dispositivo são gerenciados e quais comportamentos são permitidos (por exemplo, impedir que os dados de um aplicativo gerenciado sejam copiados para um aplicativo não gerenciado). Você cria uma política para cada platorm (iOS, Android).
 - Depois de criar as políticas de proteção de aplicativo, você as aplica criando uma regra de acesso condicional no Azure AD para exigir aplicativos aprovados e proteção de dados de aplicativos.
 
 As políticas de proteção de aplicativos incluem muitas configurações. Felizmente, você não precisa saber mais sobre cada configuração e avaliar as opções. A Microsoft facilita a aplicação de uma configuração de configurações, recomendando pontos iniciais. A [estrutura de proteção de dados usando políticas de proteção de aplicativo](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) inclui três níveis que você pode escolher. 
