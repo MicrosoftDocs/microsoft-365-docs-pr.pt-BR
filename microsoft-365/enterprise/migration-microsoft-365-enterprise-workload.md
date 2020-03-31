@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de migração de versões do Microsoft Office, servidores do Office e Windows para o Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 3a501ec7919972e5b8b289bbddb3bf7e6ae9a8f0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 7506d374391e05202be685d8ebfe8a04e8d62761
+ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952013"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053078"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migração para o Microsoft 365 Enterprise
 
