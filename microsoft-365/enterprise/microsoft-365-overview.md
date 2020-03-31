@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 01c5eac2c1ad90bfaa189c26fa4997a1bd2fc10e
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 1e902d1ca0eb80a7588a9b4060a41183f5a5db24
+ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951989"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053090"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -72,7 +72,7 @@ O [cartaz do Microsoft 365 for Enterprise](../media/m365-poster/Microsoft365Ente
 Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
-## <a name="transition-your-entire-organization"></a>Transição para toda a organização
+## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
 
 Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 for Enterprise, baixe o [cartaz de transição](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
@@ -84,11 +84,11 @@ Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/micros
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Evite o fim do suporte para clientes e servidores do Windows 7 e do Office 2010
 
-Os seguintes produtos atingem o fim do suporte em **14 de janeiro de 2020**:
+Os seguintes produtos chegaram ao fim do suporte em **14 de janeiro de 2020**:
 
 - [Windows 7](https://aka.ms/win7upgrade)
 
-Os seguintes produtos atingem o fim do suporte em **13 de outubro de 2020**:
+Os seguintes produtos atingirão o fim do suporte em **13 de outubro de 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)

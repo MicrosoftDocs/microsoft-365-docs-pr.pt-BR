@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem saber mais sobre as permissões disponíveis no centro de conformidade & segurança do Office 365.
-ms.openlocfilehash: e45a9b369e127ca29de23f308f2d28808571cc42
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: b74537dfdbb7447b29d7ad0c0e0d8f8ff3e15c08
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569055"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058922"
 ---
 # <a name="permissions-in-the-office-365-security--compliance-center"></a>Permissões no Centro de Conformidade e Segurança do Office 365
 
@@ -41,8 +41,6 @@ Um **grupo de função** é um conjunto de funções que permite que as pessoas 
 O centro de conformidade do & de segurança inclui grupos de função padrão para as tarefas e funções mais comuns às quais você precisará atribuir pessoas. Recomendamos simplesmente adicionar usuários individuais como **Membros** aos grupos de função padrão.
 
 ![Diagrama que mostra a relação de grupos de funções para membros e funções](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
-
-Você pode editar ou excluir os grupos de função existentes, mas não recomendamos isso. Em vez de editar um grupo de função padrão, você pode copiá-lo, modificá-lo e salvá-lo com um nome diferente.
 
 ## <a name="permissions-needed-to-use-features-in-the-security--compliance-center"></a>Permissões necessárias para usar recursos no centro de conformidade de & de segurança
 

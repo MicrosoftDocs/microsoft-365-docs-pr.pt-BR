@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 3f60c40ecd1810d630a4607d6b0915d6f3089a99
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372039"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058900"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -45,7 +45,7 @@ A central de segurança do Microsoft 365 inclui:
 
 * **Página inicial** – obtenha uma visão geral da integridade geral da segurança da sua organização.
 * **Incidentes** – Veja a maior história de um ataque conectando os pontos vistos em alertas individuais em entidades. Você saberá exatamente onde um ataque começou, quais dispositivos sofreram impacto, quais são afetados e onde a ameaça foi eliminada.
-* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 356, incluindo alertas do Microsoft Cloud app Security, Office 365 ATP, Azure AD, Azure ATP e Microsoft defender ATP. Disponível para clientes E3 e e5.  
+* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 365, incluindo alertas do Microsoft Cloud app Security, Office 365 ATP, Azure AD, Azure ATP e Microsoft defender ATP. Disponível para clientes E3 e e5.  
 * **Central de ações** -reduza o volume de alertas que sua equipe de segurança deve resolver manualmente, permitindo que sua equipe de operações de segurança se concentre em ameaças mais sofisticadas e outras iniciativas de alto valor.
 * **Relatórios** – obtenha os detalhes e as informações de que você precisa para proteger melhor seus usuários, dispositivos, aplicativos e muito mais.
 * **Pontuação segura** – aprimore sua postura geral de segurança com a pontuação segura da Microsoft. Esta página fornece um resumo de recursos de segurança e recursos diferentes que você habilitou e inclui recomendações para as áreas a serem aprimoradas.
