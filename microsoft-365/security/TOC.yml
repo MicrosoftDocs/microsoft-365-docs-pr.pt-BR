@@ -255,12 +255,14 @@
                 - name: Relatar mensagens e arquivos à Microsoft
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                   items:
-                    - name: 'Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft'
+                    - name: Usar o envio do administrador
                       href: ./office-365-security/admin-submission.md
                     - name: Habilitar o suplemento de Mensagem de Relatório
                       href: ./office-365-security/enable-the-report-message-add-in.md
                     - name: Instalar e usar o suplemento Relatório de Lixo Eletrônico
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+                    - name: Relatar lixo eletrônico e esquemas de phishing no Outlook na Web
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                     - name: Enviar mensagens manualmente à Microsoft
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: Enviar malware e não malware à Microsoft
