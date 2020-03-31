@@ -18,12 +18,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: 'Para administradores: saiba mais sobre o serviço de importação no Centro de Conformidade e Segurança para importar dados de email (arquivos PST) em massa às caixas de correio de usuário no Exchange Online. Este tópico fornece perguntas frequentes e explica como funciona p processo de importação de PST.'
-ms.openlocfilehash: 94681af376d7c9ae32bdd2cbbb2a28da464712c1
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 2d28889f6cba782b5b9ee70b0fb17cff6ca911a2
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170541"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058934"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>Visão geral da importação dos arquivos PST da sua organização para o Office 365
 
@@ -174,6 +174,10 @@ Isso depende da capacidade da sua rede, mas normalmente cada terabyte (TB) leva 
   
 Quando diferentes arquivos PST são importados para diferentes caixas de correio de destino, o processo de importação ocorre em paralelo; em outras palavras, cada par PST/caixa de correio é importado simultaneamente. Da mesma maneira, quando vários arquivos PST são importados para a mesma caixa de correio, eles são importados simultaneamente.
   
+ **Como o processo de importação de PST controla os itens de email duplicados?**
+
+O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você importar novamente o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) do que a que você especificou em um trabalho de importação anterior, todos os itens do arquivo PST serão importados novamente.
+ 
  **Há um limite de tamanho de mensagem ao importar arquivos PST?**
   
 Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item é ignorado durante o processo de importação.
@@ -271,6 +275,10 @@ Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser im
   
 Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item é ignorado durante o processo de importação.
   
+  **Como o processo de importação de PST controla os itens de email duplicados?**
+
+O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você importar novamente o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) do que a que você especificou em um trabalho de importação anterior, todos os itens do arquivo PST serão importados novamente.
+ 
  **As propriedades da mensagem, como quando a mensagem foi enviada ou recebida, a lista de destinatários e outras propriedades, são mantidas quando os arquivos PST são importados para uma caixa de correio do Office 365?**
   
 Sim. Os metadados da mensagem original não são alterados durante o processo de importação
