@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Este artigo descreve como o Office 365 mitiga ataques de phishing que usam domínios de remetentes forjados, ou seja, domínios falsificados. Isso é feito analisando as mensagens e bloqueando as que não podem ser autenticadas com métodos de autenticação de email padrão nem outras técnicas de reputação de remetente. Essa alteração foi implementada para reduzir o número de ataques de phishing aos quais as organizações do Office 365 estão expostas.
-ms.openlocfilehash: a81c22d83e0a476657aa89823e52d3eb6afc4514
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 5d4b9f0c94a68d457aa59b768444746627dffb9d
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033477"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081359"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
 
@@ -61,7 +61,7 @@ Em segundo lugar, as mensagens falsificadas criam incerteza para os usuários qu
 
 A mensagem acima veio da Microsoft, mas, ao mesmo tempo, os usuários estão acostumados a receber mensagens de phishing que podem enganá-los para clicar em um link e fornecer credenciais, baixar malware ou responder a uma mensagem com conteúdo confidencial. Como é difícil distinguir entre uma redefinição de senha real e uma falsa, muitos usuários ignoram essas mensagens, as relatam como spam ou desnecessariamente à Microsoft como tentativas de phishing perdidas.
 
-Para impedir a falsificação, o setor de filtragem de email desenvolveu protocolos de autenticação de email, como [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) e [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email). O DMARC impede que falsificações examinem o remetente de uma mensagem. Ou seja, o remetente que os usuários veem em seus clientes de email (nos exemplos acima, são o service.outlook.com, o outlook.com e o accountprotection.microsoft.com). Além disso, os usuários também podem ver se o domínio já passou no SPF ou no DKIM, o que significa que o domínio foi autenticado e, portanto, não é falso. Para uma discussão mais completa, confira a seção "*Entender por que a autenticação de email nem sempre é suficiente para impedir a falsificação"* mais adiante neste artigo.
+Para impedir a falsificação, o setor de filtragem de email desenvolveu protocolos de autenticação de email, como [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md) e [DMARC](use-dmarc-to-validate-email.md). O DMARC impede que falsificações examinem o remetente de uma mensagem. Ou seja, o remetente que os usuários veem em seus clientes de email (nos exemplos acima, são o service.outlook.com, o outlook.com e o accountprotection.microsoft.com). Além disso, os usuários também podem ver se o domínio já passou no SPF ou no DKIM, o que significa que o domínio foi autenticado e, portanto, não é falso. Para uma discussão mais completa, confira a seção "*Entender por que a autenticação de email nem sempre é suficiente para impedir a falsificação"* mais adiante neste artigo.
 
 No entanto, o problema é que os registros de autenticação de email são opcionais, não obrigatórios. Portanto, enquanto domínios com políticas de autenticação fortes, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação mais fracas ou nenhuma política, são alvos de falsificação. Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas de autenticação de emails fortes. Os 91% restantes podem ser falsificados por um phisher e, a menos que o filtro de email os detecte usando outra política, podem ser entregues a um usuário final e enganá-lo:
 

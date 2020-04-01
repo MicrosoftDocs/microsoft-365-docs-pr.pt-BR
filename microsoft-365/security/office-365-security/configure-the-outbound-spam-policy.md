@@ -16,20 +16,20 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: e788310ae8fd3c0da7f1a39fbba2dc0d6e369d30
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3800134855d42870992105e66313100ee0d77cd5
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893873"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081467"
 ---
 # <a name="configure-outbound-spam-filtering-in-office-365"></a>Configurar a filtragem de spam de saída no Office 365
 
-Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, mensagens de email de saída enviadas por meio do EOP são verificadas automaticamente quanto ao spam e incomuns atividade de envio.
+Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente do Exchange Online Protection (EOP) autônomo sem caixas de correio do Exchange Online, as mensagens de email de saída enviadas por meio do EOP são verificadas automaticamente quanto ao spam e à atividade de envio incomum.
 
 O spam de saída de um usuário em sua organização normalmente indica uma conta comprometida. Mensagens de saída suspeitas são marcadas como spam (independentemente do nível de confiança de spam ou SCL) e são roteadas através do [pool de entrega de alto risco](high-risk-delivery-pool-for-outbound-messages.md) para ajudar a proteger a reputação do serviço (ou seja, manter os servidores de email de origem do Office 365 fora das listas de bloqueios de IP). Os administradores são notificados automaticamente sobre atividade de email de saída suspeita e usuários bloqueados por meio de [políticas de alerta](../../compliance/alert-policies.md).
 
-O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, consulte [proteção antispam no Office 365](anti-spam-protection.md).
+O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, confira [Proteção antispam no Office 365](anti-spam-protection.md).
 
 Os administradores podem exibir, editar e configurar (mas não excluir) a política de spam de saída padrão. Para maior granularidade, você também pode criar políticas personalizadas de spam de saída que se aplicam a usuários, grupos ou domínios específicos em sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
@@ -65,19 +65,19 @@ Todas as organizações têm uma política interna de spam de saída chamada Def
 
 - A política de filtro de spam de saída chamada default é aplicada a todos os destinatários na organização, mesmo que não haja nenhuma regra de filtro de spam de saída (filtros de destinatário) associada à política.
 
-- A política chamada padrão tem o valor de prioridade personalizado **mais baixo** que não é possível modificar (a política é sempre aplicada por último). Qualquer política personalizada que você criar sempre terá uma prioridade maior do que a política chamada padrão.
+- A política denominada Padrão tem o valor de prioridade personalizado **Menor**, que não pode ser modificado (a política é sempre aplicada por último). As políticas personalizadas que você cria têm sempre uma prioridade mais alta do que a política denominada Padrão.
 
-- A política chamada default é a política padrão (a propriedade **IsDefault** tem o valor `True`) e não é possível excluir a política padrão.
+- A política denominada Padrão é a política padrão (a propriedade **IsDefault** tem o valor `True`), e não é possível excluir a política padrão.
 
 Para aumentar a eficácia da filtragem de spam de saída, você pode criar políticas personalizadas de spam de saída com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o centro de conformidade & segurança em <https://protection.office.com/>. Para ir diretamente para a página **configurações antispam** , use <https://protection.office.com/antispam>.
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell autônomo do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para poder executar estes procedimentos. Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas de spam de saída, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas de spam de saída, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de conformidade e Segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
 - Para obter as configurações recomendadas para políticas de spam de saída, confira [configurações de política de filtro de spam de saída do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings).
 
@@ -87,15 +87,15 @@ Para aumentar a eficácia da filtragem de spam de saída, você pode criar polí
 
 Criar uma política de spam de saída personalizada no centro de conformidade de & de segurança cria a regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
 2. Na página **configurações antispam** , clique em **criar uma política de saída**.
 
 3. Na **política de filtro de spam de saída** , retire-o, defina as seguintes configurações:
 
-   - **Name**: Insira um nome exclusivo e descritivo para a política.
+   - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-   - **Descrição**: Insira uma descrição opcional para a política.
+   - **Descrição**: digite uma descrição opcional para a política.
 
 4. Opcion Expanda a seção **notificações** para configurar usuários adicionais que devem receber cópias e notificações de mensagens de email de saída suspeitas:
 
@@ -107,9 +107,9 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
      c. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto-e-vírgula (;) ou um destinatário por linha.
 
-     d. Clique em ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
+     d. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
 
-        Repita essas etapas quantas vezes forem necessárias.
+        Repita essas etapas quantas vezes for necessário.
 
         Os destinatários adicionados aparecem na seção **lista de destinatários** do submenu. Para excluir um destinatário, clique ![no botão](../../media/scc-remove-icon.png)remover.
 
@@ -130,9 +130,9 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
      c. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto-e-vírgula (;) ou um destinatário por linha.
 
-     d. Clique em ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
+     d. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
 
-        Repita essas etapas quantas vezes forem necessárias.
+        Repita essas etapas quantas vezes for necessário.
 
         Os destinatários adicionados aparecem na seção **lista de destinatários** do submenu. Para excluir um destinatário, clique ![no botão](../../media/scc-remove-icon.png)remover.
 
@@ -167,9 +167,9 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
 6. Precisam Expanda a seção **aplicado a** para identificar os remetentes internos aos quais a política se aplica.
 
-    Você só pode usar uma condição ou uma exceção uma vez, mas pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou uso de exceção ou lógica (por exemplo, _ \<sender1\> _ ou _ \<sender2\>_). Condições ou uso de exceções diferentes ou lógicas (por exemplo, _ \<sender1\> _ e _ \<membro do\>grupo 1_).
+    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou uso de exceção ou lógica (por exemplo, _ \<sender1\> _ ou _ \<sender2\>_). Condições ou uso de exceções diferentes ou lógicas (por exemplo, _ \<sender1\> _ e _ \<membro do\>grupo 1_).
 
-    É mais fácil clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Você pode clicar ![no botão](../../media/scc-remove-icon.png) remover para remover as condições que você não deseja configurar.
+    O mais fácil é clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Clique em ![botão Remover](../../media/scc-remove-icon.png) para remover condições que você não queira configurar.
 
     - **O domínio do remetente é**: especifica remetentes em um ou mais dos domínios aceitos configurados no Office 365. Clique na caixa **Adicionar uma marca** para ver e selecionar um domínio. Clique novamente na caixa **Adicionar uma marca** para selecionar domínios adicionais se mais de um domínio estiver disponível.
 
@@ -177,13 +177,13 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
     - **O remetente é um membro de**: especifica um ou mais grupos na sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar outros remetentes.
 
-    - **Exceto se**: para adicionar exceções à regra, clique em **Adicionar uma condição** três vezes para ver todas as exceções disponíveis. As configurações e o comportamento são exatamente semelhantes às condições.
+    - **Exceto se**: para adicionar exceções à regra, clique em **Adicionar uma condição** três vezes para ver todas as exceções disponíveis. As configurações e o comportamento são exatamente como as condições.
 
 7. Quando concluir, clique em **Salvar**.
 
 ## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para exibir políticas de spam de saída
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
 2. Na página **configurações antispam** , clique em ![expandir ícone](../../media/scc-expand-icon.png) para expandir uma política de spam de saída:
 
@@ -195,7 +195,7 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
 ## <a name="use-the-security--compliance-center-to-modify-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para modificar políticas de spam de saída
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
 2. Na página **configurações antispam** , clique em ![expandir ícone](../../media/scc-expand-icon.png) para expandir uma política de spam de saída:
 
@@ -209,33 +209,33 @@ Para políticas de spam de saída personalizadas, as configurações disponívei
 
 Para a política de spam de saída padrão chamada **política de filtro de spam de saída**, a seção **aplicado à** não está disponível (a política se aplica a todos) e não é possível renomear a política.
 
-Para habilitar ou desabilitar uma política, defina a ordem de prioridade da política ou configure as notificações de quarentena do usuário final, consulte as seções a seguir.
+Para habilitar ou desabilitar uma política, definir a ordem de prioridade da política ou configurar notificações de quarentena de usuário final, confira as seções a seguir.
 
 ### <a name="enable-or-disable-outbound-spam-policies"></a>Habilitar ou desabilitar políticas de spam de saída
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
 2. Na página **configurações antispam** ![, clique em expandir](../../media/scc-expand-icon.png) ícone para expandir uma política personalizada que você criou (o valor na coluna **tipo** é a política de **spam de saída personalizada**).
 
-3. Nos detalhes da política expandida que aparecem, observe o valor na coluna **em** .
+3. Nos detalhes exibidos da política expandida, observe o valor na coluna **Ativado**.
 
-   Mova a alternância para a esquerda para desabilitar a política: ![Desativar](../../media/scc-toggle-off.png)
+   Mova o botão de alternância para a esquerda para desabilitar a política: ![Desativar](../../media/scc-toggle-off.png)
 
-   Mova a opção para a direita para habilitar a política: ![Ativar/desativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+   Mova o botão de alternância para a direita para habilitar a política: ![Ativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
 
 Não é possível desabilitar a política de spam de saída padrão.
 
 ### <a name="set-the-priority-of-custom-outbound-spam-policies"></a>Definir a prioridade das políticas personalizadas de spam de saída
 
-Por padrão, as políticas de spam de saída recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma prioridade mais alta para a política (0 é a maior) e as políticas são processadas em ordem de prioridade (as políticas de prioridade mais alta são processadas antes das políticas de prioridade mais baixa). Duas políticas podem ter a mesma prioridade.
+Por padrão, as políticas de spam de saída recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
 
 As políticas de spam de saída personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0). A política de spam de saída padrão chamada **política de filtro de spam de saída** tem o valor de prioridade **mais baixo**e não pode ser alterada.
 
-Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **prioridade** no centro de conformidade do & de segurança).
+Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
-2. Na página **configurações antispam** , encontre as políticas nas quais o valor na coluna **tipo** é a política de **spam de saída personalizada**. Observe os valores na coluna **prioridade** :
+2. Na página **configurações antispam** , encontre as políticas nas quais o valor na coluna **tipo** é a política de **spam de saída personalizada**. Observe os valores na coluna **Prioridade**:
 
    - A política de spam de saída personalizada com a prioridade mais alta ![tem o ícone](../../media/ITPro-EAC-DownArrowIcon.png) de seta para baixo **0**.
 
@@ -243,17 +243,17 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
    - Se você tiver três ou mais políticas de spam de saída personalizadas, as políticas entre a prioridade mais alta e ![a mais baixa](../../media/ITPro-EAC-UpArrowIcon.png)![terão valores para](../../media/ITPro-EAC-DownArrowIcon.png) cima ícone de seta para baixo ícone **n** (por exemplo ![, seta para cima ícone de seta](../../media/ITPro-EAC-UpArrowIcon.png)![para baixo](../../media/ITPro-EAC-DownArrowIcon.png) **2**).
 
-3. Click ![Ícone de seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) ou ![Ícone de seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) para mover a política de spam de saída personalizada para cima ou para baixo na lista de prioridades.
+3. Clique em ![ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.png) ou ![ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.png) para mover a política de spam de saída personalizada para cima ou para baixo na lista de prioridades.
 
 ## <a name="use-the-security--compliance-center-to-remove-outbound-spam-policies"></a>Usar o centro de conformidade de & de segurança para remover políticas de spam de saída
 
-1. No centro de conformidade & segurança, vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
 2. Na página **configurações antispam** ![, clique em expandir](../../media/scc-expand-icon.png) ícone para expandir a política personalizada que você deseja excluir (a coluna **tipo** é **personalizada spam de saída**).
 
-3. Nos detalhes da política expandida que aparecem, clique em **excluir política**.
+3. Nas informações da política expandida, clique em **Excluir política**.
 
-4. Clique em **Sim** na caixa de diálogo de aviso que aparece.
+4. Clique em **Sim** na caixa de diálogo exibida.
 
 Não é possível remover a política padrão.
 
@@ -311,7 +311,7 @@ Este exemplo cria uma nova regra de filtro de spam de saída chamada contoso exe
 
 - A política de filtro de spam de saída chamada contoso executivos está associada à regra.
 
-- A regra se aplica aos membros do grupo chamado contoso executivos Group.
+- A regra se aplica aos membros do grupo chamado Contoso Executives Group.
 
 ```PowerShell
 New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
@@ -423,7 +423,7 @@ Este exemplo desabilita a regra de filtro de spam de saída chamada departamento
 Disable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 ```
 
-Este exemplo ativa a mesma regra.
+Este exemplo habilita a mesma regra.
 
 ```PowerShell
 Enable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
@@ -433,7 +433,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-Hos
 
 ### <a name="use-powershell-to-set-the-priority-of-outbound-spam-filter-rules"></a>Usar o PowerShell para definir a prioridade das regras de filtro de spam de saída
 
-O valor de maior prioridade que você pode definir em uma regra é 0. O valor mais baixo que você pode definir depende do número de regras. Por exemplo, se você tiver cinco regras, poderá usar os valores de prioridade de 0 a 4. Alterar a prioridade de uma regra existente pode ter um efeito em cascata em outras regras. Por exemplo, se você tiver cinco regras personalizadas (prioridades de 0 a 4) e alterar a prioridade de uma regra para 2, a regra existente com prioridade 2 será alterada para prioridade 3 e a regra com prioridade 3 será alterada para prioridade 4.
+O valor mais alto de prioridade que pode ser definido em uma regra é 0. O valor mais baixo que pode ser definido depende do número de regras. Por exemplo, se você tiver cinco regras, use os valores de prioridade de 0 a 4. Alterar a prioridade de uma regra existente pode ter um efeito cascata em outras regras. Por exemplo, se você tiver cinco regras personalizadas (prioridades de 0 a 4) e alterar a prioridade de uma regra para 2, a regra existente com prioridade 2 será alterada para a prioridade 3, e a regra com prioridade 3 será alterada para prioridade 4.
 
 Para definir a prioridade de uma regra de filtro de spam de saída no PowerShell, use a seguinte sintaxe:
 
@@ -441,7 +441,7 @@ Para definir a prioridade de uma regra de filtro de spam de saída no PowerShell
 Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" -Priority <Number>
 ```
 
-Este exemplo define a prioridade da regra chamada departamento de marketing como 2. Todas as regras existentes com prioridade inferior ou igual a 2 são reduzidas por 1 (seus números de prioridade aumentam em 1).
+Este exemplo define a prioridade da regra chamada Marketing Department como 2. Todas as regras existentes com prioridade inferior ou igual a 2 são reduzidas por 1 (seus números de prioridade são aumentados por 1).
 
 ```PowerShell
 Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
@@ -489,10 +489,9 @@ Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterrule).
 
-
 ## <a name="for-more-information"></a>Para obter mais informações
 
-[Remoção de um usuário do portal de Usuários Restritos após o envio de email de spam](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
+[Remover usuários bloqueados do portal Usuários restritos no Office 365](removing-user-from-restricted-users-portal-after-spam.md)
 
 [Pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md)
 

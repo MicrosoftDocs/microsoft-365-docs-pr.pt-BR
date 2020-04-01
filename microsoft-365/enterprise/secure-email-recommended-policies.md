@@ -15,12 +15,13 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: dd35bf0d7439a19d7b1562e7a0d0681679b34c36
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+- remotework
+ms.openlocfilehash: d04070bfcec0649c5c4a1a79c082f5c5b43ad5eb
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035106"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081287"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 

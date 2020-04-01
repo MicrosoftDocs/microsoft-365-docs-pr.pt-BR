@@ -16,16 +16,16 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os usuários do Office 365 com caixas de correio do Exchange Online podem usar o Outlook na Web (Outlook Web App) para enviar mensagens de spam, não spam e phishing para a Microsoft para análise.
-ms.openlocfilehash: c6aba9a701b23be4bbbe508825a55c6438461928
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: b58e3ae5be9bf2a473b655287ad9bb1cb8ef2c78
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033669"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075615"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Office 365
 
-Se você for um cliente do Office 365 com caixas de correio do Exchange Online, você pode usar as opções de relatório internas no Outlook na Web (anteriormente conhecido como Outlook Web App) para enviar falsos positivos (emails em boas condições marcados como spam), falsos negativos (emails inválidos) e mensagens de phishing para o Exchange Online Protection (EOP).
+Se você for um cliente do Office 365 com caixas de correio do Exchange Online, você pode usar as opções de relatório internas no Outlook na Web (anteriormente conhecido como Outlook Web App) para enviar falsos positivos (emails em boas condições marcados como spam), falsos negativos (email incorreto) e mensagens de phishing para o Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -73,13 +73,19 @@ Se você for um cliente do Office 365 com caixas de correio do Exchange Online, 
 
 ## <a name="disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>Desabilitar ou habilitar os relatórios de lixo eletrônico no Outlook na Web
 
-Por padrão, os usuários podem relatar falsos positivos de spam, falsos negativos e mensagens de phishing para a Microsoft para análise no Outlook na Web. Os administradores podem usar as políticas de caixa de correio da Web do Outlook no Exchange Online para desabilitar ou habilitar essa capacidade, mas somente no PowerShell do Exchange Online.
+Por padrão, os usuários podem relatar falsos positivos de spam, falsos negativos e mensagens de phishing para a Microsoft para análise no Outlook na Web. Os administradores podem configurar o Outlook nas políticas de caixa de correio da Web no PowerShell do Exchange Online para impedir que os usuários reportem falsos positivos e falsos negativos de spam para a Microsoft. Não é possível desabilitar a capacidade de os usuários reportarem mensagens de phishing para a Microsoft.
+
+### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa das funções de **Recipient** ou de **destinatários de email** no Exchange Online, que são atribuídas aos grupos de funções de gerenciamento de **destinatários** e de **Gerenciamento da organização** por padrão. Para obter mais informações sobre grupos de função no Exchange Online, consulte [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups).
 
 - Cada organização tem uma política padrão chamada OwaMailboxPolicy-padrão, mas você pode criar políticas personalizadas. Políticas personalizadas são aplicadas a usuários com escopo antes da política padrão. Para obter mais informações sobre o Outlook nas políticas de caixa de correio da Web, consulte [Outlook na Web políticas de caixa de correio no Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies).
+
+- Desabilitar o relatório de lixo eletrônico não remove a capacidade de marcar uma mensagem como lixo eletrônico ou não lixo eletrônico no Outlook na Web. Selecionar uma mensagem na pasta lixo eletrônico e clicar em **não é lixo** \> eletrônico ainda **não** move a mensagem de volta para a caixa de entrada. Selecionar uma mensagem em qualquer outra pasta de email e clicar em **lixo** \> **eletrônico ainda move** a mensagem para a pasta lixo eletrônico. O que não está mais disponível é a opção de relatar a mensagem à Microsoft.
+
+### <a name="use-exchange-online-powershell-to-disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>Usar o PowerShell do Exchange Online para desabilitar ou habilitar relatórios de lixo eletrônico no Outlook na Web
 
 1. Para localizar suas políticas de caixa de correio do Outlook na Web e o status do relatório de lixo eletrônico, execute o seguinte comando:
 
@@ -99,7 +105,7 @@ Por padrão, os usuários podem relatar falsos positivos de spam, falsos negativ
    Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnabled $false
    ```
 
-   Este exemplo habilitou o relatório de lixo eletrônico na política personalizada chamada gerentes da contoso.
+   Este exemplo habilita o envio de relatórios de lixo eletrônico na política personalizada chamada gerentes da contoso.
 
    ```powershell
    Set-OwaMailboxPolicy -Identity "Contoso Managers" -ReportJunkEmailEnabled $true
@@ -117,4 +123,13 @@ Para verificar se você habilitou ou desabilitou com êxito os relatórios de li
   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
   ```
 
-- Abra a caixa de correio de um usuário afetado no Outlook na Web e verifique se as opções para relatar mensagens de lixo eletrônico, não lixo eletrônico e phishing estão disponíveis ou não estão disponíveis. Observe que o usuário ainda pode marcar mensagens como lixo eletrônico, phishing e não lixo eletrônico, mas o usuário não pode relatá-las para a Microsoft.
+- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na caixa de entrada, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido.<sup>\*</sup>
+
+- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na pasta lixo eletrônico, clique em **lixo** \> **eletrônico e verifique** se o aviso para relatar a mensagem à Microsoft é ou não é exibido.<sup>\*</sup>
+
+<sup>\*</sup>Os usuários podem ocultar a solicitação para relatar a mensagem enquanto estiver relatando a mensagem. Para verificar essa configuração no Outlook na Web:
+
+1. Clique **em configurações** ![do Outlook no ícone](../../media/owa-settings-icon.png) \> configurações da Web **Exibir todas as configurações** \> do Outlook **lixo eletrônico**.
+2. Na seção **relatório** , verifique o valor: **perguntar antes de enviar um relatório**.
+
+   ![Configurações de relatório de lixo eletrônico do Outlook na Web](../../media/owa-junk-email-reporting-options.png)

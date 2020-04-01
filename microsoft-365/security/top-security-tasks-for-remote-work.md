@@ -11,13 +11,14 @@ ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+- remotework
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
-ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
+ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2020
-ms.locfileid: "43037471"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081299"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -165,8 +166,8 @@ Você também pode aproveitar estes tutoriais:
 - [Usar os recursos de registro de dispositivo corporativo da Apple no Apple Business Manager (ABM) para registrar dispositivos iOS/iPadOS no Intune](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
 Após registrar os dispositivos, use as orientações em [políticas comuns de acesso de dispositivo e identidade](../enterprise/identity-access-policies.md) para criar essas políticas:
-- [Definir políticas de conformidade de dispositivos](../enterprise/identity-access-policies.md#define-device-compliance-policies)
-- [Exigir computadores compatíveis](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) (regra de acesso condicional)
+- [Definir políticas de conformidade de dispositivo](../enterprise/identity-access-policies.md#define-device-compliance-policies) : as configurações recomendadas para o Windows 10 incluem a proteção antivírus. Se você tiver o Microsoft 365 e5, use a proteção avançada contra ameaças do Microsoft defender para monitorar a integridade dos dispositivos dos funcionários. Certifique-se de que as políticas de conformidade para outros sistemas operacionais incluem proteção antivírus e software de proteção de ponto final. 
+- [Exigir computadores compatíveis](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) -esta é a regra de acesso condicional no Azure AD que impõe as políticas de conformidade do dispositivo.
 
 Somente uma organização pode gerenciar um dispositivo, portanto, certifique-se de excluir as contas de convidado da regra de acesso condicional no Azure AD. Se você não excluir usuários convidados e externos de políticas que exigem conformidade de dispositivos, essas políticas bloquearão esses usuários. Para obter mais informações, consulte [atualizando as políticas comuns para permitir e proteger o acesso externo e convidado](../enterprise/identity-access-policies-guest-access.md).
 
@@ -174,7 +175,7 @@ Somente uma organização pode gerenciar um dispositivo, portanto, certifique-se
 
 Se você estiver rapidamente permitindo que a maior parte dos seus funcionários trabalhe de casa, essa opção repentina de padrões de conectividade pode ter um impacto significativo na infraestrutura de rede corporativa. Muitas redes foram dimensionadas e projetadas antes da adoção dos serviços em nuvem. Em muitos casos, as redes são tolerantes a funcionários remotos, mas não foram projetadas para serem usadas remotamente por todos os usuários simultaneamente.
 
-Elementos de rede, como concentradores VPN, equipamentos de saída de rede central (como proxies e dispositivos de prevenção contra perda de dados), largura de banda da Internet central, circuitos MPLS backhaul, recurso NAT e assim por diante são colocados em grande sobrecarga devido à carga de toda a empresa que as usa. O resultado final é desempenho e produtividade insatisfatórios, juntamente com uma experiência de usuário ruim para usuários que estão se adaptando para trabalhar de casa.
+Elementos de rede, como concentradores VPN, equipamentos de saída de rede central (como proxies e dispositivos de prevenção contra perda de dados), largura de banda da Internet central, circuitos MPLS backhaul, recurso NAT e assim por diante, são colocados em grande sobrecarga devido à carga de toda a empresa que os usa. O resultado final é desempenho e produtividade insatisfatórios, juntamente com uma experiência de usuário ruim para usuários que estão se adaptando para trabalhar de casa.
 
 Algumas das proteções que foram fornecidas tradicionalmente por meio de tráfego de roteamento de entrada em uma rede corporativa são fornecidas pelos aplicativos de nuvem que seus usuários estão acessando. Se você tiver atingido esta etapa neste artigo, implementou um conjunto de controles de segurança de nuvem sofisticados para os serviços e dados do Microsoft 365. Com esses controles in-loco, você pode estar pronto para rotear o tráfego de usuários remotos diretamente para o Office 365. Se ainda precisar de um link VPN para acessar outros aplicativos, você poderá melhorar muito o desempenho e a experiência do usuário implementando o túnel de divisão. Depois de obter o contrato no oganization, isso pode ser realizado dentro de um dia por uma equipe de rede bem coordenada.
 
@@ -200,7 +201,7 @@ A Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---------|---------|
 |Microsoft 365     |[Caminhos de aprendizado personalizáveis](https://docs.microsoft.com/office365/customlearning/) <p>Esses recursos podem ajudá-lo a reunir o treinamento para os usuários finais em sua organização        |
 |Segurança do Microsoft 365 |[Módulo de aprendizado: proteger sua organização com segurança integrada e interna da Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Este módulo permite descrever como os recursos de segurança da Microsoft 365 trabalham juntos e articulam os benefícios desses recursos de segurança. |
-|Multi-factor Authentication     | [Verificação em duas etapas: o que é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifator e por que ela está sendo usada na sua organização.    |
+|Autenticação multifator     | [Verificação em duas etapas: o que é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifator e por que ela está sendo usada na sua organização.    |
 | | |
 
 Além desta orientação, a Microsoft recomenda que os usuários executem as ações descritas neste artigo: [proteja sua conta e seus dispositivos contra hackers e malware](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx). Essas ações incluem:
