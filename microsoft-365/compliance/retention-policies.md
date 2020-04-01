@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: e7e6de977e8fad231ecb544a95f15caca5e56d13
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c012f3ddea19edb9ff22dd4e8353a0de1f3b3812
+ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634689"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43083648"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -52,10 +52,9 @@ Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem
   
 Finalmente, algumas organizações devem cumprir regulamentações, como a Regra 17a-4 da SEC (Comissão de Valores Mobiliários dos EUA), que exige que após uma política de retenção ser ativada, ela não pode ser desativada ou se tornar menos restritiva. Para atender a esse requisito, você pode usar o Bloqueio de Preservação. Após uma política ser bloqueada, ninguém, nem mesmo o administrador, poderá desativar a política ou torná-la menos restritiva.
   
-Você cria e gerencia políticas de retenção na:
+Você cria e gerencia políticas de retenção do [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/): **Políticas** > **Dados** > **Retenção**
 
-- Página **Políticas** no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
-- Página **Retenção** em **Governança de informações** no [Centro de Conformidade&amp; e Segurança do Office 365](https://protection.office.com/).
+Como alternativa, você pode navegar até o mesmo local no centro de conformidade do Microsoft 365 usando a guia **Soluções** > **Governança de informações** > **Retenção**. 
 
 **Se você quiser a capacidade de revisar o conteúdo antes que ele seja permanentemente excluído,** considere usar [rótulos de retenção](labels.md), em vez de uma política de retenção. Ao criar um rótulo de retenção, você pode configurar uma [revisão de disposição](disposition-reviews.md) para revisar o conteúdo no final do seu período de retenção.
 
@@ -75,27 +74,43 @@ Observações:
     
 ### <a name="content-in-onedrive-accounts-and-sharepoint-sites"></a>Conteúdo em contas do OneDrive e dos sites do SharePoint
 
-Uma política de retenção é aplicada no nível de um conjunto de site. Quando um conjunto de sites do SharePoint ou uma conta do OneDrive é incluído em uma política de retenção, uma Biblioteca de Retenção para Preservação será criada, caso ainda não exista. Você pode ver essa biblioteca na página **Conteúdo do site** no site de nível superior do conjunto de sites. A maioria dos usuários não poderá ver a biblioteca de Retenção para Preservação porque ela só fica visível para os administradores do conjunto de sites.
+Uma política de retenção é aplicada no nível de um conjunto de site. Quando um conjunto de sites do SharePoint ou uma conta do OneDrive é incluido(a) em uma política de retenção, uma Biblioteca de Retenção para Preservação será usada para reter documentos. Essa biblioteca é criada automaticamente caso ainda não exista. Você pode ver essa biblioteca na página **Conteúdo do site** no site de nível superior do conjunto de sites. A maioria dos usuários não poderá ver a biblioteca de Retenção para Preservação porque ela só fica visível para os administradores do conjunto de sites.
   
-Caso uma pessoa tente alterar ou excluir o conteúdo de um site que esteja sujeito à política de retenção, primeiro a política verificará se o conteúdo foi alterado desde a aplicação da política. Se essa for a primeira alteração desde que a política foi aplicada, a política de retenção copiará o conteúdo na Biblioteca de Retenção para Preservação e, então, permitirá que a pessoa altere ou exclua o conteúdo original. Qualquer conteúdo do conjunto de sites poderá ser copiado para a Biblioteca de Retenção para Preservação, mesmo se o conteúdo não corresponder à consulta usada pela política de retenção.
-  
-Em seguida, uma tarefa do temporizador limpa a Biblioteca de Retenção para Preservação. A tarefa do temporizador é executada periodicamente e compara todo o conteúdo da Biblioteca de Retenção para Preservação para todas as consultas usadas pelas políticas de retenção no site. A menos que o conteúdo corresponda a pelo menos uma das consultas, a tarefa do temporizador excluirá permanentemente o conteúdo da Biblioteca de Retenção para Preservação.
-  
-A medida anterior se aplica ao conteúdo existente, na ocasião em que a política de retenção é aplicada. Além disso, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele for incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado na biblioteca de retenção para preservação na primeira vez em que for editado, somente quando for excluído. Para reter todas as versões de um arquivo, será necessário ativar o controle de versão. Confira a seção abaixo sobre controle de versão.
+Caso uma pessoa tente alterar ou exclui o conteúdo de um site que esteja sujeito a retenção e exclusão, ou a somente reter, primeiro a política verificará se o conteúdo foi alterado desde a aplicação da política. Se essa for a primeira alteração desde que a política foi aplicada, a política de retenção copiará o conteúdo na Biblioteca de Retenção para Preservação e, então, permitirá que a pessoa altere ou exclua o conteúdo original. Qualquer conteúdo do conjunto de sites poderá ser copiado para a Biblioteca de Retenção para Preservação, mesmo se o conteúdo não corresponder à consulta usada pela política de retenção.
+
+Copiar conteúdo para a Biblioteca de Retenção para Preservação aplica-se ao conteúdo existente quando a política de retenção for aplicada. Além disso, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele tiver sido incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para reter todas as versões de um arquivo, ative o controle de versão, conforme explicado na [seção](#how-a-retention-policy-works-with-document-versions-in-a-site-collection) a seguir.
   
 Observe que o usuário recebe um erro se tentar excluir uma biblioteca, lista, pasta ou um site sujeitos a uma política de retenção. Para excluir uma pasta, o usuário deve mover ou excluir todos os arquivos da pasta que estejam sujeitos à política. Além disso, a Biblioteca de Retenção para Preservação será criada somente quando o primeiro item precisar ser copiado para a biblioteca e não quando a política de retenção for criada. Portanto, para testar a política, primeiro é necessário editar ou excluir um documento em um site sujeito à política e, em seguida, navegar até a Biblioteca de Retenção para Preservação para exibir a cópia retida.
   
-Depois que uma política de retenção é atribuída a uma conta do OneDrive ou site do SharePoint, o conteúdo pode seguir um destes dois caminhos:
+Depois que uma política de retenção é atribuída a uma conta do OneDrive ou a um site do SharePoint, os caminhos que o conteúdo assume dependem se a política de retenção for para reter e excluir, somente reter ou somente excluir.
+
+Quando a política de retenção for reter e excluir:
 
 ![Diagrama do ciclo de vida de conteúdo no SharePoint e no OneDrive](../media/Retention_Diagram_of_retention_flow_in_sites.png)
   
-1. **Se o conteúdo for modificado ou excluído** durante o período de retenção, uma cópia do conteúdo original existente na ocasião em que a política de retenção foi atribuída será criada na Biblioteca de Retenção para Preservação. Lá, um trabalho de temporizador é executado periodicamente e identifica itens cujo período de retenção expirou, e esses itens são movidos para a lixeira de segundo estágio, onde serão excluídos permanentemente após 93 dias. A lixeira de segundo estágio não está visível para os usuários finais (somente a lixeira de primeiro estágio está), mas os administradores de conjunto de sites podem exibir e restaurar o conteúdo de lá.
+1. **Se o conteúdo for modificado ou excluído** durante o período de retenção: uma cópia do conteúdo original existente quando a política de retenção foi atribuída será criada na Biblioteca de Retenção para Preservação. Lá, um trabalho do temporizador é executado periodicamente e identifica itens cujo período de retenção expirou. Esses são movidos para a lixeira de segundo estágio, onde serão excluídos permanentemente após 93 dias. A lixeira de segundo estágio não está visível para os usuários finais (somente a lixeira de primeiro estágio está), mas os administradores de conjunto de sites podem exibir e restaurar o conteúdo de lá.
 
     > [!NOTE]
-    > Alteramos recentemente como o conteúdo é excluído da Biblioteca de Retenção para Preservação. Para ajudar a evitar a perda de dados acidental, não excluímos mais permanentemente o conteúdo da biblioteca de Retenção para Preservação. Em vez disso, excluímos permanentemente somente o conteúdo da lixeira, portanto, todo o conteúdo da Biblioteca de Retenção para Preservação agora passará pela lixeira de segundo estágio.
+    > Para ajudar a evitar a perda de dados acidental, o conteúdo nunca será excluído automaticamente da Biblioteca de Retenção para Preservação, mas será transferido para a lixeira de segundo estágio. Lá, o período de cortesia de 93 dias permite que os administradores recuperem o conteúdo, se necessário.
     
-2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. A lixeira não é usada e, portanto, as pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
-    
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. A lixeira não é usada e, portanto, as pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo.
+
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção: no final do período de retenção, o documento será movido para a lixeira de primeiro estágio. Se um usuário excluir o documento da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na lixeira de primeiro ou de segundo estágio. Observe que a lixeira não é indexada e, portanto, pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo. 
+
+Quando a política de retenção for reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
+
+#### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
+
+1. **Se o conteúdo for modificado ou excluído** durante o período de retenção: uma cópia do documento original é criada na Biblioteca de Retenção para Preservação e retida até o fim do período de retenção, quando a cópia na Biblioteca de Retenção para Preservação é movida para a lixeira de segundo estágio e é excluída permanentemente após 93 dias.
+
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção: nada acontece antes e depois do período de retenção; o documento permanecerá no local original.
+
+#### <a name="content-paths-for-delete-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção excluir somente
+
+1. **Se o conteúdo for excluído** durante o período de retenção: o documento será movido para a lixeira de primeiro estágio. Se um usuário excluir o documento da lixeira ou esvaziá-la, o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na lixeira de primeiro ou de segundo estágio. Se o conteúdo for modificado durante o período de retenção, ele seguirá o mesmo caminho de exclusão depois que o conteúdo expirar.
+
+2. **Se o conteúdo não for excluído** durante o período de retenção: no final do período de retenção, o documento é movido para a lixeira de primeiro estágio. Se o conteúdo for excluído durante o período de retenção, ele será movido imediatamente para a lixeira de primeiro estágio. Se um usuário excluir o documento da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na lixeira de primeiro ou de segundo estágio. Observe que a lixeira não é indexada e, portanto, pesquisas não localizam seu conteúdo. Isso significa que um bloqueio de Descoberta Eletrônica não pode localizar conteúdo na lixeira para retê-lo.
+
 ### <a name="content-in-mailboxes-and-public-folders"></a>Conteúdo em caixas de correio e pastas públicas
 
 Para os emails de um usuário, calendário e outros itens, uma política de retenção é aplicada no nível de uma caixa de correio. Para uma pasta pública, uma política de retenção é aplicada ao nível da pasta, não ao nível da caixa de correio. Tanto uma caixa de correio quanto uma pasta pública usam a pasta Itens Recuperáveis para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta de itens recuperáveis de outro usuário. 
@@ -106,13 +121,25 @@ Um processo avalia itens periodicamente na pasta Itens Recuperáveis. Se um item
   
 Quando uma pessoa tenta alterar determinadas propriedades de um item de caixa de correio, como assunto, corpo, anexos, remetentes e destinatários, ou a data de envio ou de recebimento de uma mensagem, uma cópia do item original é salva na pasta Itens Recuperáveis antes da confirmação da alteração. Essa ação acontecerá para todas as alterações subsequentes. No final do período de retenção, as cópias na pasta Itens Recuperáveis são excluídas permanentemente.
   
-Depois que uma política de retenção é atribuída a uma caixa de correio ou pasta pública, o conteúdo pode seguir um destes dois caminhos:
+Quando a política de retenção for reter e excluir:
 
 ![Diagrama de fluxo de retenção em emails e pastas públicas](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
 
 1. **Se o item for modificado ou excluído permanentemente** pelo usuário (usando SHIFT + DELETE ou excluído de Itens Excluídos) durante o período de retenção, o item será movido (ou copiado, no caso de edição) para a pasta Itens Recuperáveis. Lá, um processo é executado periodicamente e identifica itens cujo período de retenção tenha expirado, e esses itens são permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, que pode ser estendida para até 30 dias.
     
-2. **Se o item não for modificado ou excluído** durante o período de retenção, o mesmo processo será executado periodicamente em todas as pastas na caixa de correio, identificando itens cujo período de retenção expirou. Esses itens são então permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias. 
+2. **Se o item não for modificado ou excluído** durante o período de retenção, o mesmo processo será executado periodicamente em todas as pastas na caixa de correio, identificando itens cujo período de retenção expirou. Esses itens são então permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias. Quando a política de retenção for reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
+
+#### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
+
+1. **Se o item for modificado ou excluído** durante o período de retenção: uma cópia do item original será criada na pasta Itens Recuperáveis e retida até o fim do período de retenção, quando a cópia na pasta Itens Recuperáveis será excluída permanentemente dentro de 14 dias após o item expirar. 
+
+2. **Se o item não for modificado ou excluído** durante o período de retenção: nada acontece antes e depois do período de retenção; o item permanecerá no local original.
+
+#### <a name="content-paths-for-delete-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção excluir somente
+
+1. **Se o item não for excluído** durante o período de retenção: no final do período de retenção, o item será movido para a pasta Itens Recuperáveis. 
+
+2. **Se o item for excluído** durante o período, o item será movido imediatamente para a pasta Itens Recuperáveis. Se um usuário excluir o item da pasta Itens Recuperáveis ou esvaziá-la, o item será excluído permanentemente. Caso contrário, o item será excluído permanentemente depois de ficar na pasta Itens Recuperáveis por 14 dias. 
 
 ### <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização
 
