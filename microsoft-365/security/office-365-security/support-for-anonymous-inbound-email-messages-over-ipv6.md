@@ -1,10 +1,10 @@
 ---
-title: Suporte para mensagens de email de entrada anônimas por IPv6
+title: Adicionar suporte para emails de entrada anônimos por IPv6
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
-manager: dansimp
+author: chrisda
+ms.author: chrisda
+manager: chrisda
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,36 +14,48 @@ search.appverid:
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
-description: Saiba como configurar o suporte para mensagens anônimas de fontes IPv6 para o Exchange Online Protection e o Exchange Online.
-ms.openlocfilehash: 1cd38798aa644b79c8f1d6362edd17a515b5c98d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: O administrador pode saber como configurar o suporte para emails de entrada anônimos de fontes IPv6 no Exchange Online e no Exchange Online Protection.
+ms.openlocfilehash: 67e839249d41381be22bbccf6b09d1616c387c66
+ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598228"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43083636"
 ---
-# <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>Suporte para mensagens de email de entrada anônimas por IPv6
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Adicionar suporte para email de entrada anônimo por IPv6 no Office 365
 
-Exchange Online Protection (EOP) e Exchange Online suportam o recebimento de mensagens de email de entrada anônimas sobre comunicações IPv6 de remetentes que não enviam mensagens sobre Transport Layer Security (TLS). Você pode optar por receber mensagens por IPv6 solicitando essa funcionalidade do suporte da Microsoft abrindo o centro de administração do Microsoft 365 em [https://admin.microsoft.com/adminportal/home](https://admin.microsoft.com/adminportal/home), clicando em **suporte**e, em seguida, clicando em **nova solicitação de serviço**. Se você não optar por IPv6, continuará recebendo mensagens sobre IPv4.
-  
-Remetentes que transmitem mensagens para serviço sobre IPv6 devem cumprir com os dois requisitos a seguir:
-  
-1. O endereço de IPv6 remetente deve ter um registro PTR válido ([registro DNS inverso](https://en.wikipedia.org/wiki/Reverse_DNS_lookup) do endereço IPv6 remetente). 
-    
-2. O remetente deve passar por verificação SPF (definida na [RFC 7208](https://tools.ietf.org/html/rfc7208)) ou [verificação DKIM](https://dkim.org/) (definida na [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
-    
-É obrigatório cumprir com esses requisitos, independentemente da configuração anterior à escolha do IPv6. Se ambos os requisitos forem satisfeitos, a mensagem passará pelo filtro de mensagens de email normal fornecido pelo serviço. Se uma ou outra não for atendida, a mensagem será rejeitada com uma das seguintes respostas 450:
-  
--  `450 4.7.25 Service unavailable, sending IPv6 address [2a01:111:f200:2004::240] must have reverse DNS record.`
-    
--  `450 4.7.26 Service unavailable, message sent over IPv6 [2a01:111:f200:2004::240] must pass either SPF or DKIM validation.`
-    
-Se você não tiver a opção de receber mensagens sobre IPv6 e o remetente tentar forçar uma mensagem sobre IPv6 manualmente conectando-se ao servidor de email, a mensagem será rejeitada com uma resposta 550 parecida com a seguinte:
-  
- `550 5.2.1 Service unavailable, [contoso.com] does not accept email over IPv6.`
-  
+As organizações do Office 365 com caixas de correio do Exchange Online e do proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online dão suporte a emails de entrada anônimos por IPv6. O servidor de email IPv6 de origem deve cumprir os seguintes requisitos:
+
+- O endereço IPv6 de origem deve ter um registro de pesquisa de DNS reverso válido que permite que o destino encontre o nome de domínio do endereço IPv6.
+
+- O remetente deve passar por verificação SPF (definida na [RFC 7208](https://tools.ietf.org/html/rfc7208)) ou [verificação DKIM](https://dkim.org/) (definida na [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
+
+Antes que sua organização possa receber emails de entrada anônimos por IPv6, um administrador precisa entrar em contato com o suporte da Microsoft e solicitá-lo:
+
+1. Abra o centro de administração do Microsoft <https://admin.microsoft.com/adminportal/home> 365 em e clique em **ajuda** (?).
+
+2. No submenu **precisa de ajuda?** que aparece, digite algo descritivo na caixa de pesquisa (por exemplo, "solicitar email IPv6 de entrada anônimo") e pressione Enter.
+
+3. Na parte inferior da página, clique em **entrar em contato com o suporte**.
+
+4. Na página de **suporte de contato** que aparece, preencha e verifique as informações (role para baixo conforme necessário) e clique em **entrar em contato comigo**.
+
+Depois que o suporte à mensagem IPv6 de entrada anônima estiver habilitado em sua organização, a mensagem passará pela filtragem de mensagens normal fornecida pelo serviço.
+
+## <a name="troubleshooting"></a>Solução de problemas
+
+- Se o servidor de email de origem não tiver um registro de pesquisa de DNS reverso IPv6, as mensagens serão rejeitadas com o seguinte erro:
+
+  > 450 o serviço 4.7.25 não está disponível, enviando endereço IPv6 [2a01:111: F200: de 2004:: 240] deve ter um registro DNS reverso.
+
+- Se o remetente não passar pela validação SPF ou DKIM, as mensagens serão rejeitadas com o seguinte erro:
+
+  > 450 4.7.26 serviço não disponível, a mensagem enviada por IPv6 [2a01:111: F200:2004:: 240] deve passar pela validação SPF ou DKIM.
+
+- Se você tentar receber mensagens IPv6 anônimas antes de optar por você, a mensagem será rejeitada com o seguinte erro:
+
+  > 550 o serviço 5.2.1 não está disponível, [contoso.com] não aceita emails sobre IPv6.
+
 ## <a name="for-more-information"></a>Para obter mais informações
 
 [Suporte para validação de mensagens assinadas por DKIM](support-for-validation-of-dkim-signed-messages.md)
-  
-

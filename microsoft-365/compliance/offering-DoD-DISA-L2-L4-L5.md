@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0cd96d9b7d769f75d5b7f26bb364cf517844e29d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfcad9829c32a7a4f91e4d7dee7dec922059cd18
+ms.sourcegitcommit: 397b22cea138cadef026128d878650f8f609a329
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602518"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068569"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -35,8 +35,8 @@ O suporte ao serviço de nuvem DoD define as políticas, os controles de seguran
 
 Os serviços de nuvem governamentais da Microsoft atendem aos requisitos exigentes do departamento de defesa dos EUA, desde os níveis de impacto de 2 a 5, permitindo que as agências de defesa dos EUA se beneficiem com a redução de custos e a segurança rigorosa da nuvem da Microsoft. Ao implantar serviços protegidos, incluindo o governo do Azure, o Office 365 U.S. governamentais e o Dynamics 365 governo, as agências de defesa podem usar uma ampla variedade de serviços compatíveis.
 
-- Saiba mais sobre os benefícios do DoD DISA L2, L4, L5 na nuvem da Microsoft: [baixar o departamento de defesa do plano de fundo do Disa](https://aka.ms/disa-backgrounder)
-- Saiba como acelerar a sua implantação do DISA do nível DoD, L4 e L5 com nosso plano de conformidade e segurança do Azure: [baixar as implementações de controle de segurança do nível 5 do Azure DOD](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=e391da04-ae17-472c-9634-959c5ce6ba92&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD%20Blueprint)
+- Saiba mais sobre os benefícios do nível de proteção do DISA DoD, L4 na nuvem da Microsoft: [baixar o departamento de defesa do plano de fundo do Disa](https://aka.ms/disa-backgrounder)
+- Saiba como acelerar o seu nível de implementação do [Disa do DoD](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>Autorização do nível 5 de impacto do DoD
 
@@ -83,17 +83,17 @@ Uma vez que um DoD PA, os serviços do Microsoft Cloud são monitorados e avalia
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Rastreie rapidamente sua implantação de soluções DoD no Azure
 
-Comece a aproveitar as vantagens dos benefícios da nuvem no governo com o departamento de defesa de segurança e conformidade do Azure. Este Blueprint fornece ferramentas e orientações para começar a criar soluções compatíveis com o DoD hoje. [Comece a usar o Azure DOD Blueprint](https://aka.ms/Azure-Blueprint-DoD-NIST).
+Comece a aproveitar as vantagens dos benefícios da nuvem no governo com o departamento de defesa de segurança e conformidade do Azure. Este Blueprint fornece ferramentas e orientações para começar a criar soluções compatíveis com o DoD hoje. [Comece a usar o Azure DOD Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**Posso usar a conformidade da Microsoft no processo de certificação de minha organização?**
+**Posso usar a conformidade da Microsoft no processo de certificação da minha organização?**
 
 Sim. Todas as agências DoD podem contar com as certificações dos serviços de nuvem da Microsoft como base para qualquer programa ou iniciativa que exija uma autorização de DoD. (Isso também se aplica a outras organizações que dão suporte ao DoD e exigem serviços em nuvem.) No entanto, você precisa obter suas próprias autorizações para componentes fora desses serviços.
 
 **A certificação DoD da Microsoft atende aos requisitos do NIST 800 – 171?**
 
-Em outubro de 2016, o departamento de defesa (DoD) promulgated uma regra final implementando as cláusulas do suplemento de regulamentação federal de aquisição da defesa (DFARS) que se aplicam a todos os contratadores DoD que processam, armazenam ou transmitem "informações de defesa abordadas" por meio seus sistemas de informações. A regra diz que esses sistemas devem atender aos requisitos de segurança definidos no NIST SP 800 – 171, [protegendo informações não classificadas e confidenciais em sistemas de informações não federais e organizações](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf), ou uma medida de segurança "alternativa, mas igualmente eficaz", que é aprovada pelo responsável pela DOD. E onde um empreiteiro do DoD usa um provedor de serviço de nuvem externo para processar, armazenar ou transmitir informações de defesa abordadas, esse provedor deve atender aos requisitos de segurança equivalentes à linha de base moderada do FedRAMP.
+Em outubro de 2016, o departamento de defesa (DoD) promulgated uma regra final implementando as cláusulas de defesa do governo federal de aquisição (DFARS) que se aplicam a todos os contratadores do DoD que processam, armazenam ou transmitem "informações de defesa abordadas" por meio de seus sistemas de informação. A regra diz que esses sistemas devem atender aos requisitos de segurança definidos no NIST SP 800 – 171, [protegendo informações não classificadas e confidenciais em sistemas de informações não federais e organizações](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf), ou uma medida de segurança "alternativa, mas igualmente eficaz", que é aprovada pelo responsável pela DOD. E onde um empreiteiro do DoD usa um provedor de serviço de nuvem externo para processar, armazenar ou transmitir informações de defesa abordadas, esse provedor deve atender aos requisitos de segurança equivalentes à linha de base moderada do FedRAMP.
 
 Os seguintes serviços do Microsoft Cloud receberam uma autorização moderada do FedRAMP: Azure, Azure governamentais, Dynamics 365 U.S. governamentais, Office 365 MT, Office 365 U.S. governamentais e Office 365 u.s. Defense governamentais.
 
@@ -107,7 +107,7 @@ Além disso, as ofertas da Microsoft fora do limite certificado por FedRAMP que 
 - [Estrutura NIST cybersecurity](https://www.nist.gov/cyberframework)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 
