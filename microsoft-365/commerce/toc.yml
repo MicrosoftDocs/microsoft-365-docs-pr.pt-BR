@@ -1,78 +1,78 @@
 - name: Gerenciar assinaturas comerciais
   href: index.yml
-  expanded: true
+- name: Centro de ajuda para Administradores do Microsoft 365
+  href: ../admin/admin-home.md
+- name: Experimentar ou comprar
   items:
-    - name: Experimentar ou comprar
-      items:
-        - name: Inscreva-se para uma avaliação do Office 365
-          href: sign-up-for-office-365-trial.md
-        - name: Experimente ou compre o Microsoft 365
-          href: try-or-buy-microsoft-365.md
-        - name: Prorrogar a avaliação
-          href: extend-your-trial.md
-        - name: Comprar outra assinatura
-          href: buy-another-subscription.md
-        - name: Comprar ou editar um suplemento
-          href: buy-or-edit-an-add-on.md
-        - name: Adicionar espaço de armazenamento
-          href: add-storage-space.md
-    - name: Gerenciar assinaturas
-      items:
-        - name: Atualizar assinaturas
-          href: subscriptions/upgrade-to-different-plan.md
-        - name: Renovar sua assinatura
-          href: subscriptions/renew-your-subscription.md
-        - name: Reativar sua assinatura
-          href: subscriptions/reactivate-your-subscription.md
-        - name: Cancelar sua assinatura
-          href: subscriptions/cancel-your-subscription.md
-        - name: E se a minha assinatura expirar?
-          href: subscriptions/what-if-my-subscription-expires.md
-        - name: Gerenciar aplicativos de terceiros
-          href: manage-saas-apps.md
-        - name: Gerenciar compras de autoatendimento (Usuários)
-          href: subscriptions/manage-self-service-purchases-users.md
-        - name: Gerenciar compras de autoatendimento (Administrador)
-          href: subscriptions/manage-self-service-purchases-admins.md
-    - name: Gerenciar licenças
-      items:
-        - name: Gerencie licenças de assinatura
-          href: licenses/buy-licenses.md
-        - name: Atribuir licenças aos usuários
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: Cancelar a atribuição de licenças dos usuários`
-          href: ../admin/manage/remove-licenses-from-users.md
-        - name: Entenda as assinaturas e licenças
-          href: licenses/subscriptions-and-licenses.md
-    - name: Contas e pagamentos
-      items:
-        - name: Exibir a fatura
-          href: billing-and-payments/view-your-bill-or-invoice.md
-        - name: Entenda a sua fatura
-          href: billing-and-payments/understand-your-invoice.md
-        - name: Gerenciar métodos de pagamento
-          href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
-        - name: Pagar por sua assinatura
-          href: billing-and-payments/pay-for-your-subscription.md
-        - name: Alterar sua forma de pagamento
-          href: billing-and-payments/change-payment-method.md
-        - name: Alterar a frequência de pagamento
-          href: billing-and-payments/change-payment-frequency.md
-        - name: Gerenciar perfis de cobrança
-          href: billing-and-payments/manage-billing-profiles.md
-        - name: Alterar os endereços para cobrança
-          href: billing-and-payments/change-your-billing-addresses.md
-        - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
-          href: billing-and-payments/psd2.md
-    - name: Contas de cobrança
-      items:
-        - name: Gerenciar contas de cobrança
-          href: manage-billing-accounts.md
-        - name: Associar um locatário à minha conta de cobrança
-          href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
-    - name: Gerenciar relacionamentos com meus parceiros
-      href: manage-partners.md
-    - name: Fechar sua conta
-      href: close-your-account.md
-    - name: Contatar o suporte
-      href: ../admin/contact-support-for-business-products.md
+    - name: Inscreva-se para uma avaliação do Office 365
+      href: sign-up-for-office-365-trial.md
+    - name: Experimente ou compre o Microsoft 365
+      href: try-or-buy-microsoft-365.md
+    - name: Prorrogar a avaliação
+      href: extend-your-trial.md
+    - name: Comprar outra assinatura
+      href: buy-another-subscription.md
+    - name: Comprar ou editar um suplemento
+      href: buy-or-edit-an-add-on.md
+    - name: Adicionar espaço de armazenamento
+      href: add-storage-space.md
+- name: Gerenciar assinaturas
+  items:
+    - name: Atualizar assinaturas
+      href: subscriptions/upgrade-to-different-plan.md
+    - name: Renovar sua assinatura
+      href: subscriptions/renew-your-subscription.md
+    - name: Reativar sua assinatura
+      href: subscriptions/reactivate-your-subscription.md
+    - name: Cancelar sua assinatura
+      href: subscriptions/cancel-your-subscription.md
+    - name: E se a minha assinatura expirar?
+      href: subscriptions/what-if-my-subscription-expires.md
+    - name: Gerenciar aplicativos de terceiros
+      href: manage-saas-apps.md
+    - name: Gerenciar compras de autoatendimento (Usuários)
+      href: subscriptions/manage-self-service-purchases-users.md
+    - name: Gerenciar compras de autoatendimento (Administrador)
+      href: subscriptions/manage-self-service-purchases-admins.md
+- name: Gerenciar licenças
+  items:
+    - name: Gerencie licenças de assinatura
+      href: licenses/buy-licenses.md
+    - name: Atribuir licenças aos usuários
+      href: ../admin/manage/assign-licenses-to-users.md
+    - name: Cancelar a atribuição de licenças dos usuários`
+      href: ../admin/manage/remove-licenses-from-users.md
+    - name: Entenda as assinaturas e licenças
+      href: licenses/subscriptions-and-licenses.md
+- name: Contas e pagamentos
+  items:
+    - name: Exibir a fatura
+      href: billing-and-payments/view-your-bill-or-invoice.md
+    - name: Entenda a sua fatura
+      href: billing-and-payments/understand-your-invoice.md
+    - name: Gerenciar métodos de pagamento
+      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - name: Pagar por sua assinatura
+      href: billing-and-payments/pay-for-your-subscription.md
+    - name: Alterar sua forma de pagamento
+      href: billing-and-payments/change-payment-method.md
+    - name: Alterar a frequência de pagamento
+      href: billing-and-payments/change-payment-frequency.md
+    - name: Gerenciar perfis de cobrança
+      href: billing-and-payments/manage-billing-profiles.md
+    - name: Alterar os endereços para cobrança
+      href: billing-and-payments/change-your-billing-addresses.md
+    - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
+      href: billing-and-payments/psd2.md
+- name: Contas de cobrança
+  items:
+    - name: Gerenciar contas de cobrança
+      href: manage-billing-accounts.md
+    - name: Associar um locatário à minha conta de cobrança
+      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+- name: Gerenciar relacionamentos com meus parceiros
+  href: manage-partners.md
+- name: Fechar sua conta
+  href: close-your-account.md
+- name: Contatar o suporte
+  href: ../admin/contact-support-for-business-products.md
