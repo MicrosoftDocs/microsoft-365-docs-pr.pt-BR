@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 1c44f5c4d5966d70b5fed0b1b99e69b2938c6ddd
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 275fedf7bf4e52320b769689516ad39a31c63ea1
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237119"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105730"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
@@ -34,94 +34,91 @@ ms.locfileid: "42237119"
 
 1. No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">segurança & privacidade</a> .
 2. Ao lado de **política de senha** , selecione **Editar**. 
-3. Se as senhas estiverem definidas para nunca expirar, defina a **opção para desativado**. Você terá a opção de especificar o número de dias até que as senhas expirem. 
+3. Se as senhas estiverem definidas para nunca expirar, defina a **opção para desativado**. Você terá a opção de especificar o número de dias até que as senhas expirem.
 
+## <a name="set-the-password-expiration-policy-for-individual-users"></a>Definir a política de expiração de senha para usuários individuais
 
-## <a name="set-the-password-expiration-policy-for-individual-users"></a>Definir a política de expiração de senha para usuários individuais 
-
-Um administrador global para um serviço de nuvem da Microsoft pode usar o módulo Microsoft Azure AD para Windows PowerShell para definir senhas que não expirem para usuários específicos. Você também pode usar os cmdlets do Windows PowerShell para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar. 
+Um administrador global para um serviço de nuvem da Microsoft pode usar o módulo Microsoft Azure AD para Windows PowerShell para definir senhas que não expirem para usuários específicos. Você também pode usar os cmdlets do Windows PowerShell para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
 
 Este guia se aplica a outros provedores, como o Intune e o Office 365, que também dependem do Azure AD para serviços de identidade e diretório. A expiração da senha é a única parte da política que pode ser alterada.
 
 > [!NOTE]
 > Somente senhas para contas de usuário que não estão sincronizadas por meio da sincronização de diretórios podem ser configuradas para não expirar. Para obter mais informações sobre a sincronização de diretórios, consulte [Connect ad with Azure ad](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
-
 ### <a name="how-to-check-the-expiration-policy-for-a-password"></a>Como verificar a política de expiração de uma senha
+Execute um dos seguintes comandos:
 
-* Execute um dos seguintes comandos:
+- Para ver se a senha de um único usuário está definida como nunca expirar, execute o seguinte cmdlet usando o UPN (por exemplo, *User@contoso.onmicrosoft.com*) ou a ID de usuário do usuário que você deseja verificar:
 
-   * Para ver se a senha de um único usuário está definida como nunca expirar, execute o seguinte cmdlet usando o UPN (por exemplo, *User@contoso.onmicrosoft.com*) ou a ID de usuário do usuário que você deseja verificar:
-```
-Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
-    N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
- }
-```  
-Exemplo:
-```
-Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
-    N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
- }
-```  
+    ```powershell
+    Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
+        N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
+    }
+    ```
 
- * Para ver a configuração da **senha nunca expira** para todos os usuários, execute o seguinte cmdlet: 
- 
-```
-Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
-    N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
- }
-```  
+    Exemplo:
 
-* Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. html**
+    ```powershell
+    Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
+        N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
+    }
+    ```  
 
+- Para ver a configuração da **senha nunca expira** para todos os usuários, execute o seguinte cmdlet:
 
-```
-Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
-    N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
-} | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
-```  
+    ```powershell
+    Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
+        N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
+     }
+    ```
 
-* Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. csv**
+- Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. html**
 
+    ```powershell
+    Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
+        N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
+    } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
+    ```  
 
-```
-Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
-    N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
-} | ConvertTo-Csv -NoTypeInformation | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.csv
-```  
+- Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. csv**
 
+    ```powershell
+    Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
+        N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
+    } | ConvertTo-Csv -NoTypeInformation | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.csv
+    ```
 
 ### <a name="set-a-password-to-expire"></a>Definir uma senha para expirar
 
 Execute um dos seguintes comandos:
 
-   * Para definir a senha de um usuário para que a senha expire, execute o seguinte cmdlet usando o UPN ou a ID do usuário:
+- Para definir a senha de um usuário para que a senha expire, execute o seguinte cmdlet usando o UPN ou a ID do usuário:
 
-```
- Set-AzureADUser -ObjectId <user ID> -PasswordPolicies None
+    ```powershell
+    Set-AzureADUser -ObjectId <user ID> -PasswordPolicies None
+    ```
 
-```
-   * Para definir as senhas de todos os usuários da organização de modo que eles expirem, use o seguinte cmdlet:
+- Para definir as senhas de todos os usuários da organização de modo que eles expirem, use o seguinte cmdlet:
 
-```
- Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
+    ```powershell
+    Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
+    ```
 
-```
 ### <a name="set-a-password-to-never-expire"></a>Definir uma senha para nunca expirar
 
 Execute um dos seguintes comandos:
 
-   * Para definir a senha de um usuário para nunca expirar, execute o seguinte cmdlet usando o UPN ou a ID de usuário do usuário: 
+- Para definir a senha de um usuário para nunca expirar, execute o seguinte cmdlet usando o UPN ou a ID de usuário do usuário:
 
-```
-Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
+    ```powershell
+    Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
+    ```
 
-```
-   * Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet: 
+- Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet:
 
-```
-Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
+    ```powershell
+    Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
+    ```
 
-```
-   > [!WARNING]
-   > As senhas definidas `-PasswordPolicies DisablePasswordExpiration` como idade ainda com base `pwdLastSet` no atributo. Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão. Com base no `pwdLastSet` atributo, se você alterar a expiração `-PasswordPolicies None`para, todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários. 
+> [!WARNING]
+> As senhas definidas `-PasswordPolicies DisablePasswordExpiration` como idade ainda com base `pwdLastSet` no atributo. Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão. Com base no `pwdLastSet` atributo, se você alterar a expiração `-PasswordPolicies None`para, todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.

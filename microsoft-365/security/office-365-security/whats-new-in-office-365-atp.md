@@ -15,13 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
-ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42230064"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106179"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -36,6 +35,7 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 ## <a name="januaryfebruary-2020"></a>Janeiro/fevereiro de 2020
 
+- [Disponibilidade geral de modos de exibição de campanha no Office 365 ATP](campaigns.md)
 - Aprimoramentos no [Gerenciador de ameaças](threat-explorer.md) para permitir que as equipes de operações de segurança pesquisem e filtrem vários campos ao [investigar emails](investigate-malicious-email-that-was-delivered.md):
     - Local de entrega e ações especiais
     - Direcionalidade (entrada, saída ou intra-org)

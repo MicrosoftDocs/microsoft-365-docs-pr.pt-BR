@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 1e902d1ca0eb80a7588a9b4060a41183f5a5db24
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: c66fb5e4d8cd0d24ec20a50ca2ead3f3b9e0851d
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053090"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113512"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -72,9 +72,9 @@ O [cartaz do Microsoft 365 for Enterprise](../media/m365-poster/Microsoft365Ente
 Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
-## <a name="transition-your-entire-organization"></a>Fazer a transição para toda a organização
+## <a name="transition-your-entire-organization"></a>Transição para toda a organização
 
-Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 for Enterprise, baixe o [cartaz de transição](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Para obter uma visão melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 for Enterprise, consulte o [cartaz de transição](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Imagem do pôster sobre a Transição para o Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 

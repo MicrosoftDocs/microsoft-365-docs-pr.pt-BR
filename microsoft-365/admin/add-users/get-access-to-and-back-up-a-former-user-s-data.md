@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Saiba como preservar os arquivos e emails de um funcionário quando a pessoa deixa sua organização.
-ms.openlocfilehash: 3c7a63852ad20fc005f7a0f4e3f909474bda2a3c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2b608b51060e746d0b69fd887882b51735578496
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353192"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105754"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Obter acesso e realizar backup dos dados de um ex-usuário
 
@@ -102,11 +102,15 @@ Como administrador global, você pode dar a si mesmo acesso ao conteúdo no OneD
 
 1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Administração</a> como administrador global ou administrador do SharePoint. 
 
+    Se você receber uma mensagem informando que você não tem permissão para acessar o centro de administração, você não tem permissões de administrador em sua organização.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Administração</a> como administrador global ou administrador do SharePoint.
+
+    Se você receber uma mensagem informando que você não tem permissão para acessar o centro de administração, você não tem permissões de administrador em sua organização.
 
 ::: moniker-end
 
@@ -114,9 +118,9 @@ Como administrador global, você pode dar a si mesmo acesso ao conteúdo no OneD
 
 1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Administração</a> como administrador global ou administrador do SharePoint.
 
-::: moniker-end
+    Se você receber uma mensagem informando que você não tem permissão para acessar o centro de administração, você não tem permissões de administrador em sua organização.
 
-   Se você receber uma mensagem informando que você não tem permissão para acessar o centro de administração, você não tem permissões de administrador em sua organização.
+::: moniker-end
 
 2. No painel esquerdo, selecione **central** \> de administração **do SharePoint**. (Talvez seja necessário selecionar **Mostrar tudo** para ver a lista de centros de administração.)
 
@@ -181,6 +185,10 @@ O Outlook começa a exportação imediatamente, a menos que um novo arquivo de d
     
 Confira como [exportar ou fazer backup de email, contatos e calendário para um arquivo. pst do Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) no Outlook 2010. 
   
+  
+  > [!NOTE]
+  > Por padrão, seu email fica disponível offline por um período de 12 meses. Se necessário, Confira como [aumentar os dados disponíveis offline](Https://docs.microsoft.com/outlook/troubleshoot/mailboxes/only-subset-items-synchronized).
+ 
 ## <a name="give-another-user-access-to-a-former-users-email"></a>Conceder a outro usuário acesso ao email de um usuário anterior 
 
 Para dar acesso às mensagens de email, calendário, tarefas e contatos do antigo funcionário para outro funcionário, importe as informações para a caixa de entrada do Outlook de outro funcionário.
@@ -210,6 +218,9 @@ Para dar acesso às mensagens de email, calendário, tarefas e contatos do antig
 8. Definir as opções de importação de itens. As configurações padrão normalmente não precisam ser alteradas.
     
 9. Selecione **Concluir**.
+
+> [!NOTE]
+> As etapas permanecem as mesmas para acessar os dados de email e do OneDrive de um usuário existente.
     
 > [!TIP]
 > Se quiser importar ou restaurar apenas alguns itens de um arquivo de dados do Outlook (. pst), você pode abrir o arquivo de dados do Outlook. Em seguida, no painel de navegação, arraste os itens das pastas de arquivos de dados do Outlook para suas pastas existentes do Outlook. 
@@ -224,4 +235,3 @@ Para dar acesso às mensagens de email, calendário, tarefas e contatos do antig
   
 [Retenção e exclusão do OneDrive](/onedrive/retention-and-deletion)
   
-
