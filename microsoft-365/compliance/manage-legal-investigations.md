@@ -1,5 +1,5 @@
 ---
-title: Gerenciar investigações legais no Office 365
+title: Gerenciar investigações legais no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,15 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
-description: Use casos de descoberta eletrônica no centro de conformidade & segurança no Office 365 para gerenciar a investigação legal da sua organização. Se você tiver uma assinatura e5, poderá analisar mais dados de caso usando a análise de texto, aprendizado de máquinas e recursos de codificação de descoberta eletrônica avançada.
-ms.openlocfilehash: f3d51fbd0df6d4bf4c88f5efef53a3c7f11e190c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Use casos de descoberta eletrônica no centro de conformidade da Microsoft 365 para gerenciar a investigação legal da sua organização. Se você tiver uma assinatura e5, poderá analisar mais dados de caso usando a análise de texto, aprendizado de máquinas e recursos de codificação de descoberta eletrônica avançada.
+ms.openlocfilehash: 0db2187259c0c828c492f56698963bf9f61c9c18
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600528"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097185"
 ---
-# <a name="manage-legal-investigations-in-office-365"></a>Gerenciar investigações legais no Office 365
+# <a name="manage-legal-investigations-in-microsoft-365"></a>Gerenciar investigações legais no Microsoft 365
 
 As organizações têm vários motivos para responder a um caso jurídico que envolve determinados executivos ou outros funcionários em sua organização. Isso pode envolver rapidamente a localização e a retenção de informações específicas de investigação em emails, documentos, conversas de mensagens instantâneas e outros locais de conteúdo usados por pessoas em suas tarefas de trabalho diárias. Você pode executar essas e muitas outras atividades semelhantes usando as ferramentas de casos de descoberta eletrônica no centro de segurança e conformidade.
   
@@ -52,9 +52,9 @@ Como a seção anterior que listava scripts para cenários de pesquisa de conte�
 
 A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos recursos de descoberta eletrônica e análise existentes no Office 365. Essa nova solução, chamada de *descoberta eletrônica avançada*, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal para se comunicarem com os responsáveis envolvidos em um caso.
 
-A descoberta eletrônica avançada requer uma assinatura E5 para sua organização do Office 365 ou do Microsoft 365. Como alternativa, os usuários com uma licença E3 exigem a assinatura de complemento de conformidade avançada para que você possa gerenciá-los como responsáveis em um caso de descoberta eletrônica avançada.
+A descoberta eletrônica avançada requer uma assinatura E5 para sua organização do Microsoft 365 ou do Office 365. Para obter mais informações sobre licenciamento, confira [introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses).
 
-Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrônica avançada. Para obter mais informações, confira [Visão geral da solução de Descoberta Eletrônica Avançada no Microsoft 365](overview-ediscovery-20.md).
+Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrônica avançada. Para obter mais informações, consulte [explorar o fluxo de trabalho de descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md#explore-the-advanced-ediscovery-workflow).
 
 - [Criar uma ocorrência](create-new-ediscovery-case.md) para começar
 

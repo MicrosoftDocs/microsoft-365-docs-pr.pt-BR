@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 840087be38c6e50244437fea63de655d8cd9363e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: e6e13ef14ed9ed3e60f2918df0c25c0601d0225e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894291"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106097"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
+
+>*[Diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/ComplianceSD).*
 
 Antes desta visualização, quando você aplicou rótulos de confidencialidade que incluíram criptografia para arquivos do Office armazenados no SharePoint e no OneDrive, o serviço não pôde processar o conteúdo desses arquivos. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. Essa visualização habilita esses recursos para arquivos novos e alterados que têm um rótulo de confidencialidade aplicado que inclui a criptografia com uma chave baseada na nuvem:
 
@@ -56,7 +58,7 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Esses recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 

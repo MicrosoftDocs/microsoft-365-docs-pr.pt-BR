@@ -16,16 +16,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: A criptografia de mensagem avançada no Office 365 ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores façam muito mais com mensagens protegidas.
-ms.openlocfilehash: 99dacc928c8549157ff0d9d1d9a7c07fc33c2600
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: 3b7f4d595b8c3592530b107dd7f71aeb8d0dc57e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610598"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106169"
 ---
 # <a name="office-365-advanced-message-encryption"></a>Criptografia de Mensagem Avançada do 365 Office
 
-O Office 365 Advanced Message Encryption está incluído no [microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 e5, Microsoft 365 E5 (precificação de pessoas sem fins lucrativos), Office 365 Enterprise E5 (precificação de pessoas sem fins lucrativos) e Office 365 Education a5. Se sua organização tem uma assinatura que não inclui a criptografia de mensagem avançada do Office 365, você pode comprá-la com o complemento de SKU de conformidade da Microsoft 365 E5 para Microsoft 365 E3, Microsoft 365 E3 (precificação de pessoas sem fins lucrativos) ou o Office 365 Advanced Complemento de SKU de conformidade para o Microsoft 365 E3, Microsoft 365 E3 (preço de equipe sem fins lucrativos) ou SKUs do Office 365.
+O Office 365 Advanced Message Encryption está incluído no [microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 e5, Microsoft 365 E5 (precificação de pessoas sem fins lucrativos), Office 365 Enterprise E5 (precificação de pessoas sem fins lucrativos) e Office 365 Education a5. Se sua organização tem uma assinatura que não inclui a criptografia de mensagem avançada do Office 365, você pode comprá-la com o complemento de SKU de conformidade da Microsoft 365 E5 para o Microsoft 365 E3, Microsoft 365 E3 (precificação de pessoas sem fins lucrativos) ou o complemento de SKU de conformidade avançada do Office 365 para o Microsoft 365 E3, a Microsoft 365 E3 (precificação de pessoas sem fins lucrativos), o Office 365 SKUs ou o complemento de proteção de informações do Microsoft 365 E5/a5 para a Microsoft 365 a3/E3.
 
 A criptografia de mensagem avançada no Office 365 ajuda os clientes a cumprir as obrigações de conformidade que exigem controles mais flexíveis sobre destinatários externos e seu acesso a emails criptografados. Com a criptografia de mensagem avançada no Office 365, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas. Você configura essas políticas para identificar tipos de informações confidenciais, como PII, finanças ou IDs de integridade, ou pode usar palavras-chave para melhorar a proteção. Depois de configurar as políticas, você emparelhará políticas com os modelos de email com identidade visual personalizada e, em seguida, adicionará uma data de expiração para o controle adicional de emails que se encaixam na política. Além disso, os administradores podem controlar ainda mais os emails criptografados acessados externamente por meio de um portal da Web seguro revogando o acesso ao email a qualquer momento.
 

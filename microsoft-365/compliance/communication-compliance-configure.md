@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 87be266fe9c117afdaf68b66db5d4cf4c7a3d94e
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 6d60693e8e67ba91341e01c80a213b75e821721b
+ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029887"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100874"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -34,11 +34,23 @@ Use políticas de conformidade de comunicação para capturar comunicações de 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Antes de começar a conformidade com comunicações, você deve confirmar sua assinatura do Microsoft 365. Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise E5 ou ser incluído em um Microsoft assinatura 365 e5.
+Antes de começar a manter a conformidade de comunicação, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e quaisquer Complementos. Para acessar e usar a conformidade de comunicação, sua organização deve ter uma das seguintes assinaturas ou Complementos:
+
+- Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
+- Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5
+- Assinatura do Microsoft 365 E3 + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider
+- Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
+- Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5
+- Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider
+- Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação)
+- Assinatura do Office 365 Enterprise E3 + o complemento de conformidade avançada do Office 365
+
+Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma das licenças acima atribuídas.
+
+>[!IMPORTANT]
+>O Office 365 Advanced Compliance não é mais vendido como uma assinatura autônoma. Quando as assinaturas atuais expiram, os clientes devem fazer a transição para uma das assinaturas acima, que contêm o mesmo ou outros recursos de conformidade.
 
 Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
-  
-Conclua estas etapas para configurar e usar a conformidade de comunicação em sua organização do Microsoft 365:
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Etapa 1 (obrigatório): Habilitar permissões para conformidade de comunicação
 

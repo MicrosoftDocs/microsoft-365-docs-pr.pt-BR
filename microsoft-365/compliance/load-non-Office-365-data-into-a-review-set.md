@@ -16,25 +16,22 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Importe dados que não sejam do Office 365 para uma análise definida em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: ae5effafd8a208d3c03ce40e03c9da2b0ea6b8d1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 816519fcaa8dc5172dbb5c369a3ec191585d3647
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097224"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>Carregar dados que não são do Office 365 em um conjunto de revisão
 
 Nem todos os documentos que você precisa analisar na descoberta eletrônica avançada estão localizados no Office 365. Com o recurso de importação de dados não-Office 365 na descoberta eletrônica avançada, você pode carregar documentos que não estão localizados no Office 365 para um conjunto de revisão. Este artigo mostra como trazer documentos não-Office 365 para a descoberta eletrônica avançada para análise.
 
->[!Note]
->A descoberta eletrônica avançada requer uma assinatura do Microsoft 365 ou do Office 365 E5 para sua organização ou uma assinatura E3 com a assinatura de complemento de conformidade avançada. Se você não tiver esse plano e quiser tentar a descoberta eletrônica avançada, poderá se inscrever para uma avaliação do Office 365 Enterprise e5.
-
 ## <a name="before-you-begin"></a>Antes de começar
 
 O uso do recurso de upload que não é do Office 365 descrito neste artigo requer que você tenha o seguinte:
 
-- Todos os responsáveis que você deseja associar o conteúdo não-Office 365 deve ser atribuído a uma licença E5 ou uma licença E3 com uma licença avançada de complemento de conformidade.
+- Todos os responsáveis que você deseja associar conteúdo não-Office 365 à licença apropriada devem ser atribuídos. Para obter mais informações, consulte [introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses).
 
 - Uma ocorrência de descoberta eletrônica avançada existente.
 
@@ -61,7 +58,7 @@ O uso do recurso de upload que não é do Office 365 descrito neste artigo reque
 
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Carregar conteúdo que não seja do Office 365 na descoberta eletrônica avançada
 
-1. Como um gerente de descoberta eletrônica ou administrador de descoberta eletrônica, abra a descoberta eletrônica avançada e, em seguida, o caso em que os dados que não sejam do Office 365 serão carregados.  
+1. Como um gerente de descoberta eletrônica ou administrador de descoberta eletrônica, abra descoberta eletrônica avançada e vá para o caso em que os dados não-Office 365 serão carregados.  
 
 2. Clique em **revisar conjuntos**e selecione o conjunto de revisão para carregar os dados que não são do Office 365.  Se você não tiver um conjunto de revisão, você pode criar um. 
  

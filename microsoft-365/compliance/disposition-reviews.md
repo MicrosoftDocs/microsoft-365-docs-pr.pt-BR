@@ -16,14 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: ee9ea34ee8527558af4d249364b539d3fa1f2fdd
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 333e1a2f14c553cbd1d116e23795ba80175df125
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634969"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105658"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
+
+>*[Diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/ComplianceSD).*
 
 Quando o conteúdo atinge o final do período de retenção, há vários motivos para que você possa querer revisar o conteúdo para decidir se ele pode ser excluído com segurança ("descartado"). Por exemplo, você pode precisar:
   
@@ -51,9 +53,6 @@ Ao criar um rótulo de retenção no centro de conformidade da Microsoft 365, no
     
 - Os revisores podem exibir as desposições pendentes ou concluídas e exportar essa lista como um arquivo. csv.
 
-> [!NOTE]
-> Revisões de disposição exigem uma assinatura do Office 365 Enterprise e5.
-  
 Uma análise de disposição pode incluir conteúdo em caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e grupos do Office 365. O conteúdo que está aguardando uma revisão de disposição nesses locais é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo.
   
 ![Página de desposições no centro de conformidade e segurança](../media/Retention-Dispositions-v2-page.png)

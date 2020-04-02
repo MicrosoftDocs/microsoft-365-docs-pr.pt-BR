@@ -15,38 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 2b77d273cdc589409506dc709669536fcea6c006
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 595381984390321ed810af61f6234428f31551f3
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030113"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106087"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
+
+>*[Diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/ComplianceSD).*
 
 Quando você [publicou](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) rótulos de sensibilidade do centro de conformidade da Microsoft 365 ou do centro de rotulação equivalente, eles começarão a aparecer em aplicativos do Office para que os usuários classifiquem e protejam os dados à medida que são criados ou editados.
 
 Use as informações deste artigo para ajudá-lo a gerenciar com êxito os rótulos de confidencialidade nos aplicativos do Office. Por exemplo, identifique as versões mínimas dos aplicativos necessários para dar suporte ao rotulamento interno e entenda as interações com o cliente de rotulação unificado de proteção de informações do Azure e a compatibilidade com outros aplicativos e serviços.
-
-## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>Requisitos de assinatura e licenciamento para rótulos de confidencialidade
-
-Os usuários devem ter pelo menos uma das seguintes licenças atribuídas:
-
-- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) ou superior
-
-- [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software) ou superior
-
-- [Proteção de informações do Azure Premium P1](https://azure.microsoft.com/pricing/details/information-protection/) ou superior
-
-O cliente de rotulagem interno do Office oferece suporte a rótulos de confidencialidade com uma edição de assinatura do Office. Este cliente de rótulo não dá suporte a edições autônomas do Office, como o Office 2016 ou o Office 2019. Para usar rótulos de confidencialidade com essas edições do Office em computadores com Windows, instale o cliente de rotulação unificado de proteção de informações do Azure.
-
-Para usar o rótulo de confidencialidade automático ou recomendado, seus usuários precisam de uma das seguintes licenças:
-
-- [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) ou superior
-
-- [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software) ou superior
-
-- [Proteção de Informações do Azure Premium P2](https://azure.microsoft.com/pricing/details/information-protection/)
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Suporte para recursos de rótulo de confidencialidade em aplicativos
 

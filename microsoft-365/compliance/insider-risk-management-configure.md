@@ -12,30 +12,32 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4b8bd0f8d540434410d9ebc2365789a669f455e1
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: e4f0f90ff7089ba72f7e8b452842d670d45a49f8
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634769"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097184"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos do insider
 
-Use políticas de gerenciamento de risco do insider para identificar atividades arriscadas e ferramentas de gerenciamento para executar ações nos alertas de risco em sua organização. Conclua as etapas a seguir para configurar os pré-requisitos e configurar uma política de gerenciamento de risco do insider.
+Use políticas de gerenciamento de riscos internos para identificar atividades de risco e ferramentas de gerenciamento para executar ações em alertas de risco em sua organização. Conclua as etapas a seguir para configurar os pré-requisitos e configurar uma política de gerenciamento de risco do insider.
 
 >[!IMPORTANT]
->A solução Microsoft 365 Insider Risk Management oferece uma opção de nível de locatário para ajudar os clientes a facilitar a governança interna no nível do usuário. Os administradores de nível de locatário podem configurar permissões para fornecer acesso a essa solução para os membros da sua organização e configurar os conectores de dados no centro de conformidade da Microsoft 365 para importar dados relevantes para dar suporte à identificação de nível de usuário potencialmente atividade arriscada. Os clientes reconhecem as ideias relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionado ao emprego que pode ser calculado pelo administrador e disponibilizado para outras pessoas na organização.
+>A solução Microsoft 365 Insider Risk Management oferece uma opção de nível de locatário para ajudar os clientes a facilitar a governança interna no nível do usuário. Os administradores de nível de locatário podem configurar permissões para fornecer acesso a essa solução para os membros da sua organização e configurar os conectores de dados no centro de conformidade da Microsoft 365 para importar dados relevantes para dar suporte à identificação de nível de usuário de atividades potencialmente arriscadas. Os clientes reconhecem as ideias relacionadas ao comportamento, ao caractere ou ao desempenho do usuário individual relacionado ao emprego que pode ser calculado pelo administrador e disponibilizado para outras pessoas na organização.
 
 Para obter mais informações sobre como as políticas de risco do insider podem ajudá-lo a gerenciar riscos em sua organização, consulte [Insider Risk Management in Microsoft 365](insider-risk-management.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Antes de começar a usar o gerenciamento de risco do Insider, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans). Para acessar e usar o gerenciamento de risco do Insider, sua organização deve ter uma das seguintes assinaturas:
+Antes de começar a usar o gerenciamento de risco do Insider, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e outros Complementos. Para acessar e usar o gerenciamento de risco do Insider, sua organização deve ter uma das seguintes assinaturas ou Complementos:
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
-- Assinatura do Microsoft 365 Enterprise E3 com o [complemento de conformidade da Microsoft E5](https://signup.microsoft.com/signup/?offerid=57806d24-4357-4eff-b0a3-4054ebdf2abe&DL=INFORMATION_PROTECTION_COMPLIANCE&ali=1)
+- Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5
+- Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
+- Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5
 
-Os usuários incluídos nas políticas de gerenciamento de risco do insider devem ter uma licença de conformidade do Microsoft 365 E5 ou incluídas em uma assinatura do Microsoft 365 e5.
+Os usuários incluídos nas políticas de gerenciamento de risco do insider devem receber uma das licenças acima.
 
 Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
 
@@ -56,7 +58,7 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 Conclua as seguintes etapas para adicionar usuários a um grupo de funções de gerenciamento de risco do insider.
 
-1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
+1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365. "" "" "" "
 
 2. No centro de segurança e conformidade do Microsoft Office 365, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
 
@@ -87,17 +89,17 @@ O gerenciamento de risco do insider oferece suporte à importação de dados de 
 Consulte o tópico [configurar um conector para importar dados de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização. Depois de configurar o conector de RH, retorne a estas etapas de configuração.
 
 >[!IMPORTANT]
->Se você configurar uma política usando o modelo de *roubo de dados do funcionário de canpartes* , será necessário configurar o conector de RH para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de um conector de RH para sua organização, o gerenciamento de riscos do insider receberá os indicadores automaticamente de todos os conectores de RH.
+>Se você configurar um p'licy usando o modelo de *roubo de dados do emplo'ee* , será necessário configurar o conector de RH para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de um conector de RH para sua organização, o gerenciamento de riscos do insider receberá os indicadores automaticamente de todos os conectores de RH.
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>Configurar políticas de DLP (prevenção contra perda de dados)
 
-O gerenciamento de riscos do insider suporta o uso de políticas DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política. Esta política ajuda a direcionar os indicadores de alerta para informações confidenciais é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização.
+O Insider Risk man'gement oferece suporte ao uso de políticas de DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política. Esta política ajuda a direcionar os indicadores de alerta para informações confidenciais é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização.
 
-Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas etapas de configuração.
+Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas configurações "ration Steps". "" "" "" "" "" "
 
 >[!IMPORTANT]
 >Se você configurar uma política usando o modelo de *vazamento de dados* , será necessário configurar pelo menos uma política de DLP para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de uma política de DLP para sua organização, será necessário atribuir uma política de gerenciamento de risco Insider por política DLP.
-
+""""""""
 ## <a name="step-4-required-configure-insider-risk-settings"></a>Etapa 4 (obrigatório): definir configurações de risco do insider
 
 [As configurações de risco do insider](insider-risk-management-policies.md#policy-settings) são aplicadas a todas as políticas de gerenciamento de risco do Insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são definidas usando o controle de **configurações de risco do insider** localizado na parte superior de todas as guias de gerenciamento de risco do insider Essas configurações controlam a privacidade, indicadores, monitoramento de janelas e detecções inteligentes.

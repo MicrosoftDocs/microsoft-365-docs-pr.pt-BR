@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 86a74051b4febbf469449a35cd14620f3e78932c
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 43c6f5db64c929fcdb8a9f64e9fc27d472d65ba8
+ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288599"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100894"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -43,12 +43,16 @@ Você terá acesso aos próximos recursos nos quais pode fornecer comentários p
 
 Ative a configuração de experiência de visualização para estar entre o primeiro a experimentar os recursos futuros.
 
-1. No painel de navegação, selecione **** > **recursos de visualização**de configurações.
+1. No painel de navegação, selecione **configurações**.
 
-2. Selecione **ativar recursos de visualização**. 
+2. Selecione **proteção contra ameaças da Microsoft**.
+
+
+3. Selecionar **recursos** > **de visualização ative os recursos de visualização**. 
 
 3. Selecione **Salvar**.
 
 
 ## <a name="preview-features"></a>Visualização prévia de recursos
 Esta seção será atualizada com uma lista de recursos que estão em versão prévia à medida que eles se tornarem disponíveis. 
+

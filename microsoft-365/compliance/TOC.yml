@@ -495,14 +495,14 @@
               href: manage-load-sets-in-advanced-ediscovery.md
         - name: Revisar dados de ocorrência
           items:
+            - name: Usar o painel de análise do conjunto (visualização)
+              href: advanced-ediscovery-dashboard.md
             - name: Exibir documentos em um conjunto de revisão
               href: view-documents-in-review-set.md
             - name: Consultar os dados em um conjunto de revisão
               href: review-set-search.md
             - name: Marcar documentos em um conjunto de revisão
               href: tagging-documents.md
-            - name: Usar o painel de análise do conjunto (visualização)
-              href: advanced-ediscovery-dashboard.md
         - name: Analisar dados de ocorrências
           href: analyzing-data-in-review-set.md
           items:

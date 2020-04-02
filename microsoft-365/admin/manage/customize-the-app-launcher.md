@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Crie links rápidos para seus emails, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao inicializador de aplicativos. '
-ms.openlocfilehash: 65c8da7aa0cdb68f4bf32a52b21140413a38a69a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e52bad5cdd1809e8aa0d97c681b69daa5143d3fd
+ms.sourcegitcommit: 4b73f070747a66874c03fdf670ffdf16f736585a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361976"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43103070"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 
@@ -37,7 +37,7 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Adicionar um bloco personalizado ao inicializador de aplicativos
 
-1. No centro de administração, vá para a **guia Configurações e escolha o** > **** **perfil da organização** .
+1. No centro de administração, vá para a **guia Configurações e escolha o** > **Settings** **perfil da organização** .
     
 2. Na guia **perfil da organização** , escolha **blocos personalizados do inicializador de aplicativos**.
   
@@ -69,7 +69,7 @@ Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de apl
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. No centro de administração, vá para a página de<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">perfil de organização</a> **configurações** > .
+1. No centro de administração, vá para a guia<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">perfil da organização</a> **configurações** > de **configurações** > .
     
 2. Na página **perfil da organização** , ao lado de **Adicionar blocos personalizados para sua organização**, selecione **Editar**.
 

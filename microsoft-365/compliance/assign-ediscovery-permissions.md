@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 32dc7e9a01211fcd0d1441c2434385ecd611d585
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 30d1a288236678c3daef0a9aaa134d49fea127af
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097204"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -30,9 +30,9 @@ Se quiser que as pessoas usem qualquer uma das ferramentas relacionadas à desco
   
 O grupo de função principal relacionado à descoberta eletrônica no centro de conformidade e segurança & é chamado de **Gerenciador de descoberta eletrônica**. Há dois subgrupos dentro desse grupo de funções. 
   
-- **gerentes de descoberta** eletrônica: um gerente de descoberta eletrônica pode usar a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança para pesquisar locais de conteúdo na organização e realizar várias ações relacionadas à pesquisa, como Visualizar e exportar resultados de pesquisa. Os membros também podem criar e gerenciar casos de descoberta eletrônica e casos de descoberta eletrônica avançados, adicionar e remover membros a um caso, criar isenções de caso, executar pesquisas associadas a uma ocorrência e acessar dados de caso. Os gerentes de descoberta eletrônica só podem acessar e gerenciar os casos que criam. Eles não podem acessar ou gerenciar casos criados por outros gerentes de descoberta eletrônica. 
+- **gerentes de descoberta** eletrônica: um gerente de descoberta eletrônica pode usar a ferramenta de pesquisa de conteúdo no centro de conformidade do & de segurança para pesquisar locais de conteúdo na organização e realizar várias ações relacionadas à pesquisa, como Visualizar e exportar resultados de pesquisa. Os membros também podem criar e gerenciar casos de descoberta eletrônica e casos de descoberta eletrônica avançados, adicionar e remover membros a um caso, criar isenções de caso, executar pesquisas associadas a uma ocorrência e acessar dados de caso. Os gerentes de descoberta eletrônica só podem acessar e gerenciar os casos que criam. Eles não podem acessar ou gerenciar casos criados por outros gerentes de descoberta eletrônica.
     
-- **Administradores** de descoberta eletrônica: um administrador de descoberta eletrônica é um membro do grupo de funções Gerenciador de descoberta eletrônica e pode executar as mesmas tarefas relacionadas ao gerenciamento de casos e pesquisa de conteúdo que um gerente de descoberta eletrônica pode executar. Além disso, um Administrador de Descoberta Eletrônica pode: 
+- **Administradores** de descoberta eletrônica: um administrador de descoberta eletrônica é um membro do grupo de funções Gerenciador de descoberta eletrônica e pode executar as mesmas tarefas relacionadas ao gerenciamento de casos e pesquisa de conteúdo que um gerente de descoberta eletrônica pode executar. Além disso, um Administrador de Descoberta Eletrônica pode:
     
   - Acessar todos os casos listados nas páginas de **descoberta eletrônica** e **descoberta eletrônica avançada** no centro de conformidade do & de segurança. 
 
@@ -40,10 +40,10 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
     
   - Gerencie qualquer caso de descoberta eletrônica após eles se adicionarem como um membro do caso.
   
-  Consulte a seção [mais informações](#more-information) por razões pelas quais você pode querer administradores de descoberta eletrônica em sua organização. 
+  Consulte a seção [mais informações](#more-information) por razões pelas quais você pode querer administradores de descoberta eletrônica em sua organização.
 
 > [!NOTE]
-> Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 ou do Microsoft e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou E3 podem receber uma licença avançada de complemento de conformidade; os usuários com uma licença do Microsoft 365 E1 ou E3 podem receber uma licença de complemento de conformidade e5. Administradores e gerentes de conformidade atribuídos aos casos e usar a descoberta eletrônica avançada para analisar os dados não precisam de uma licença e5.  
+> Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 E5 ou do Microsoft e5. Como alternativa, os usuários com uma licença E1 ou E3 podem receber uma licença de complemento e5. Administradores, responsáveis pela conformidade ou pessoal legal que são atribuídos a casos como membros e usam a descoberta eletrônica avançada para coletar, exibir e analisar dados não precisam de uma licença e5. Para obter mais informações sobre licenciamento, consulte [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/complianceSD).
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -78,7 +78,7 @@ A tabela a seguir lista as funções RBAC relacionadas à descoberta eletrônica
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |Gerenciamento de casos <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Pesquisa de Conformidade <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Exportar <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Exportação <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Retenção <br/>  |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Visualização <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Revisão <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
@@ -102,7 +102,7 @@ Da mesma forma, os usuários atribuídos à função de pesquisa de conformidade
 
 Para obter mais informações, consulte [pesquisa de conteúdo no Office 365](content-search.md). 
 
-### <a name="export"></a>Exportar
+### <a name="export"></a>Exportação
 
 A função permite que os usuários exportem os resultados de uma pesquisa de conteúdo para um computador local. Ele também permite que eles preparam resultados de pesquisa para análise na descoberta eletrônica avançada. 
 
