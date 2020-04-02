@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: 7593774b4cb0786cc82988442bbca522ce534cc8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a67d71c16f93cf8872646c5bbeb072f8b5f07935
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634639"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106149"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Para realizar seus trabalhos, as pessoas em sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo deixa de estar protegido por um firewall, podendo circular em qualquer lugar, entre dispositivos, aplicativos e serviços. E quando em roaming, é importante que esse processo seja feito de modo seguro e protegido, atendendo às políticas de conformidade dos negócios da organização.
 

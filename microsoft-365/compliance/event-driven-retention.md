@@ -16,14 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de retenção, você pode basear um período de retenção no momento que um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo. A retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros.
-ms.openlocfilehash: da5e10735e8980199a829ac50d096052abe93d14
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4389f3639de3e9e036491026455ce62a9e258432
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074475"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105618"
 ---
 # <a name="overview-of-event-driven-retention"></a>Visão geral da retenção controlada por eventos
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Quando você retém o conteúdo, o período de retenção normalmente é baseado na idade desse conteúdo. Por exemplo, você pode reter os documentos por sete anos após a criação e, depois disso, excluí-los. Porém, com os rótulos de retenção no Office 365, também é possível basear um período de retenção no momento em quando um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo.
   

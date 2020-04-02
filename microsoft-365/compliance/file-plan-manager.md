@@ -16,16 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: 26c34d40359d00b540b30e0f6e3ddf3878e80f9a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 23aa0e242464ebd450a0930bcda4274c026c7535
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634419"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105638"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
-O gerenciador de plano de arquivos fornece recursos avançados de gerenciamento para rótulos de retenção, políticas de rótulo de retenção e oferece uma maneira integrada de percorrer as atividades de rótulos e rótulo para conteúdo durante todo o ciclo de vida do conteúdo - desde a criação até a colaboração, declaração de registro, retenção e disposição final. 
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+
+O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição. 
 
 Para acessar o Gerenciador de planos de arquivos no centro de segurança e conformidade, acesse **Gerenciamento de registros** > **Plano de arquivos**.
 
@@ -33,11 +35,7 @@ Para acessar o Gerenciador de planos de arquivos no centro de segurança e confo
 
 ## <a name="accessing-file-plan-manager"></a>Acessar o gerenciador de planos de arquivo
 
-Há dois requisitos para acessar o gerenciador de planos de arquivo, que são:
-
-- Uma assinatura do Office 365 Enterprise E5.
-
-- O usuário recebeu uma das seguintes funções no Centro de segurança e conformidade:
+Para acessar o gerenciador de plano de arquivos, deve haver uma das seguintes funções de administrador:
     
     - Gerenciador de Retenção
     

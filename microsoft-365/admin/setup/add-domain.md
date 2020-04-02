@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Adicione seu domínio ao Office 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 86ca8f986624ad37f780961cb58923ea0a1b2308
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: a6ef611ec210bbfb2299b6d41edb7d6410d50073
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857374"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116009"
 ---
 # <a name="add-a-domain-to-office-365"></a>Adicionar um domínio ao Office 365
 
@@ -67,7 +67,7 @@ ms.locfileid: "42857374"
 
 ::: moniker-end
     
-2. Vá para a página de**domínios** de **configurações** > . 
+2. Vá para a página **Configurar** > **domínios** . 
 
 3. Selecione **Adicionar domínio**.
     
@@ -112,4 +112,4 @@ ms.locfileid: "42857374"
 
 [Configurar seu domínio (instruções específicas do host)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Obter ajuda com os domínios do Office 365](../get-help-with-domains/get-help-with-domains.yml)
+[Obter ajuda com os domínios do Office 365](../get-help-with-domains/get-help-with-domains.md)

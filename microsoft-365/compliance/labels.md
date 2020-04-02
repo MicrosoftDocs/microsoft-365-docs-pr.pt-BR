@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: e41c71a1f8bc0175b179ecd760dac7098551bc91
-ms.sourcegitcommit: 6b7eecad7162c065af80721204fbabdd2e31e42b
+ms.openlocfilehash: 59adebd9b61761f05156247bbb6c4cb27b42c52b
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43065637"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106003"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Provavelmente, há em sua organização tipos de conteúdo diferentes que exigem ações diferentes para atender às normas do setor e às políticas internas. Por exemplo, você pode ter:
   

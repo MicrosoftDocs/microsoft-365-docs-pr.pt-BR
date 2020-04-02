@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba mais sobre os problemas que você tem ao configurar um domínio personalizado certificando-se de que os registros DNS estão configurados corretamente.
-ms.openlocfilehash: 277e87ad6b06db0b1ef3b3cb5eaaa45a2e77ed6f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a93318d54b950b908319fe50a0cfedefe8586036
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250644"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115963"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records-in-office-365"></a>Localizar e corrigir problemas após adicionar seu domínio ou registros DNS no Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "42250644"
 Fazer com que o seu domínio funcione no Office 365 pode ser desafiador. É complicado trabalhar com o sistema DNS, e a configuração DNS do seu domínio afeta atividades comerciais importantes, como o email!
 
 > [!NOTE]
-> Você pode verificar se há problemas com seu domínio verificando seu status. Vá até **configurações** > de**domínios** e exiba as notificações na coluna **status** . Se você vir um problema, selecione mais ações (três pontos) e escolha **verificar integridade**. O painel que será aberto descreverá todos os problemas que ocorrem com o seu domínio.
+> Você pode verificar se há problemas com seu domínio verificando seu status. Vá para **Configurar** > **domínios** e exibir as notificações na coluna **status** . Se você vir um problema, selecione mais ações (três pontos) e escolha **verificar integridade**. O painel que será aberto descreverá todos os problemas que ocorrem com o seu domínio.
   
 ## <a name="whats-going-on"></a>O que está acontecendo?
 

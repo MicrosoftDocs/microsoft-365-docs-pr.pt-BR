@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: e92ec8be90d27696538f46e5609f6dc039200136
-ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
+ms.openlocfilehash: ba69c9705c14c2f836f67c8747d30ee2280c6d99
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586718"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106139"
 ---
 # <a name="overview-of-records"></a>Visão geral de registros
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 O gerenciamento de registros no Microsoft 365 ajuda a organização a cumprir suas políticas corporativas, obrigações legais e regulatórias, reduzindo o risco e a responsabilidade legal.
 
@@ -79,10 +81,6 @@ Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de r
    ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](../media/recordversioning6.png)
 
 3. [Publicar](labels.md#how-retention-labels-work-with-retention-label-policies) ou [aplicar automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) o rótulo de retenção aos sites do SharePoint e/ou contas do OneDrive.
-
-> [!NOTE]
-> Declarar um item como um registro usando [rótulos de retenção](labels.md) requer uma licença do Office 365 Enterprise E5 ou equivalente para cada usuário que tenha permissões para editar o conteúdo nesse local. Os usuários que têm acesso somente leitura não precisam de uma licença.
-
 
 ### <a name="applying-a-retention-label-to-content"></a>Aplicando um rótulo de retenção ao conteúdo
 

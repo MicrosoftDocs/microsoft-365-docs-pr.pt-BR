@@ -16,14 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção do Office 365. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção do Office 365 e configurando a retenção baseada em eventos.
-ms.openlocfilehash: aa73feecbfaa830b2297a5c64f653c4da4d4b325
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bccfb7d20bfcca6476ce5fa971a2ab0c455824a5
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079317"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106033"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos do SharePoint com rótulos de retenção
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Este artigo descreve como é possível gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção do Office 365, e especificamente aplicando automaticamente os rótulos e configurando a retenção baseada em eventos. A funcionalidade de aplicação automática usa a classificação de documentos usando os metadados do SharePoint. O cenário neste artigo se baseia em documentos relacionados a produtos, mas os mesmos conceitos podem ser usados para outros cenários. Por exemplo, no setor de petróleo e gás, você pode gerenciar o ciclo de vida dos documentos relacionados a ativos físicos, como plataformas de petróleo, registros de poços ou licenças de produção. No setor de serviços financeiros, você pode gerenciar documentos relacionados a contas bancárias, hipotecas ou contratos de seguro. No setor público, você pode gerenciar documentos relacionados a autorizações de construção ou formulários de imposto.
 
