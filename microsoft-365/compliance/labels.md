@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os rótulos de retenção para classificar dados em toda organização para governança e impor regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 3bcaee41ab178ae79b1f2ef46871dadb107f3f5b
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: e41c71a1f8bc0175b179ecd760dac7098551bc91
+ms.sourcegitcommit: 6b7eecad7162c065af80721204fbabdd2e31e42b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929445"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43065637"
 ---
 # <a name="overview-of-retention-labels"></a>Visão geral de rótulos de retenção
 
@@ -74,7 +74,7 @@ Os rótulos de retenção são blocos de construção independentes e reutilizá
   
 ![Diagrama de rótulos, políticas de rótulos e locais](../media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
   
-1. Quando você publica rótulos de retenção, eles são incluídos em uma política de rótulos de retenção. Observe que os nomes dos rótulos de retenção são imutáveis e não podem ser editados após a criação.
+1. Quando você publica rótulos de retenção, eles são incluídos em uma política de rótulos de retenção. Os nomes dos rótulos de retenção são imutáveis, o que significa que eles não podem ser editados após a criação.
 
 
 2. Um único rótulo de retenção pode ser incluído em várias políticas de rótulos de retenção.
@@ -416,7 +416,19 @@ Para entender como os rótulos diferentes são aplicados ao conteúdo, lembre-se
 Entenda que os princípios de retenção funcionam como um fluxo de desempate de cima para baixo: se as regras aplicadas por todas as políticas ou rótulos forem as mesmas em um nível, o fluxo se moverá para baixo até o próximo nível para determinar a precedência para a qual a regra será aplicada.
   
 Por fim, uma política de retenção ou rótulo não pode excluir permanentemente qualquer conteúdo que esteja retido para Descoberta Eletrônica. Quando a retenção for liberada, o conteúdo estará novamente qualificado para o processo de limpeza descrito acima.
-  
+
+### <a name="precedence-for-auto-labeling-with-trainable-classifiers"></a>Precedência para rotular automaticamente com classificadores treináveis
+
+Todos os rótulos de retenção que estão configurados para classificadores treináveis são avaliados simultaneamente. Se um item for detectado por mais de um classificador treinável, os seguintes critérios serão usados para determinar o rótulo de retenção a ser aplicado:
+
+1. Os rótulos de retenção configurados para apenas reter, ou reter e excluir, têm prioridade mais alta do que os rótulos de retenção que estão configurados para exclusão.
+
+2. Para rótulos de retenção que estão configurados para apenas reter, ou reter e, em seguida, excluir, o rótulo de retenção que é configurado para o período de retenção mais longo vence.
+
+3. Para rótulos de retenção que estão configurados para exclusão, o rótulo de retenção que foi configurado para o período mais curto vence.
+
+4. Os rótulos de retenção com a mesma ação e o mesmo período resultarão em uma seleção de rótulo de retenção não determinística.
+
 ## <a name="use-retention-labels-instead-of-these-features"></a>Usar rótulos de retenção em vez destes recursos
 
 Os rótulos de retenção podem ser disponibilizados facilmente para uma organização inteira e seu conteúdo no Office 365, incluindo Exchange, SharePoint, OneDrive e grupos do Office 365. Se você precisar classificar o conteúdo ou gerenciar registros em qualquer lugar no Office 365, recomendamos o uso de rótulos de retenção.
