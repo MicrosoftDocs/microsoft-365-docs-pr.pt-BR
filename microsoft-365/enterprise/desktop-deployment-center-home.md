@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: 8e5c76595bb5f2f00e5a167be5a88bfbbd70d740
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 540f0d50ef8adc292fc1fbd4ef13bb12556d596c
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067859"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113524"
 ---
 # <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
 

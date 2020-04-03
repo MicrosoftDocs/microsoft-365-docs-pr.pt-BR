@@ -185,6 +185,8 @@
                   href: mtp/mtp-permissions.md
                 - name: Definir fuso horário
                   href: mtp/mtp-time-zone.md
+            - name: Faça comentários
+              href: mtp/feedback.md
             - name: Gerenciar tíquetes pelo ServiceNow
               href: ./mtp/tickets.md
     - name: Segurança do Office 365
