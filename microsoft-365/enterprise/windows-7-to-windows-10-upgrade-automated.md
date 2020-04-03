@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 727f165dc941eeb429e865fc8321499af6f23512
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f9ba1022b4c7f702f6cb9b815deee59047c4b704
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085610"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113476"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
-A partir de 14 de janeiro de 2020, atualizações de segurança ou suporte para PCs com Windows 7 não serão mais fornecidos. Com apenas alguns meses restantes para a mudança do Windows 7 para o Windows 10 e com várias opções para implantar, uma pergunta comum na Comunidade de TI é: "Qual é a maneira mais rápida de se mover do Windows 7 para o Windows 10?" A resposta curta é executar atualizações in-loco para computadores existentes e fazendo isso você pode reduzir o foco em vários aspectos do processo de implantação da área de trabalho.
+A partir de 14 de janeiro de 2020, atualizações de segurança ou suporte para PCs com Windows 7 não serão mais fornecidos. Para a mudança do Windows 7 para o Windows 10 e com várias opções para implantar, uma pergunta comum na comunidade de TI é: "Qual é a maneira mais rápida de se mover do Windows 7 para o Windows 10?" A resposta curta é executar atualizações in-loco para computadores existentes e fazendo isso você pode reduzir o foco em vários aspectos do processo de implantação da área de trabalho.
 
 <center><img src="../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
@@ -38,7 +38,7 @@ As tarefas acinzentadas no gráfico de roda do processo de implantação acima n
 
 ## <a name="in-place-upgrade-reliability-safeguards-and-scale"></a>Segurança, proteções e confiabilidade no local
 
-As atualizações in-loco para o Windows 10 são uma abordagem confiável para mover um dispositivo existente com Windows 7 ou posterior para o Windows 10, sem exigir a migração de arquivos ou a reinstalação do aplicativo. Após uma atualização in-loco, os arquivos, as configurações e os aplicativos disponíveis do usuário são consistentes com a respectiva instalação anterior do Windows 7. Embora seja necessário realizar essa oportunidade para limpar aplicativos ou configurações existentes, realísticamente à medida que chegamos mais próximos da data do fim de suporte do Windows 7 em janeiro de 2020, o tempo está sendo executado para obter outras opções. As atualizações também funcionam quando uma mudança de arquiteturas similares (de 32 bits a 32 bits ou de 64 bits a 64 bits) e para as edições do Windows (Professional para Pro ou Enterprise para Enterprise).
+As atualizações in-loco para o Windows 10 são uma abordagem confiável para mover um dispositivo existente com Windows 7 ou posterior para o Windows 10, sem exigir a migração de arquivos ou a reinstalação do aplicativo. Após uma atualização in-loco, os arquivos, as configurações e os aplicativos disponíveis do usuário são consistentes com a respectiva instalação anterior do Windows 7. As atualizações também funcionam quando uma mudança de arquiteturas similares (de 32 bits a 32 bits ou de 64 bits a 64 bits) e para as edições do Windows (Professional para Pro ou Enterprise para Enterprise).
 
 O processo de atualização, por padrão, faz backup da instalação anterior do Windows, como parte da atualização, para que, no caso de uma falha de atualização, ou se um dispositivo ou aplicativo não funcionar corretamente após a atualização, o computador possa ser revertido para o Windows 7. Os computadores atualizados por padrão têm 10 dias, para que você possa iniciar manualmente uma reversão para o Windows 7, se necessário.
 
@@ -106,4 +106,4 @@ Os resultados dos próprios logs serão:
 
 Depois de implantar seqüências de cache com verificações de compatibilidade para um grande número de PCs em um conjunto, você pode começar a analisar os arquivos de log para a prontidão do dispositivo. Usar as saídas listadas acima \#, 1 (0xC1900210) pode ser reportado como "pronto para implantar \#" e 4 (0xC190020E) pode ser transportado ao liberar espaço em disco. Nesse caso, tome cuidado com o que excluir, mas a limpeza e a limpeza do Windows Update, da lixeira e dos arquivos temporários são locais para iniciar e muitos casos oferecem espaço suficiente para que a atualização seja bem-sucedida. Você pode executar a verificação de compatibilidade quantas vezes forem necessárias até que o PC esteja pronto para a atualização in-loco. Você pode encontrar mais informações sobre as opções de linha de comando da instalação do Windows no <https://aka.ms/setupswitches>
 
-## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[Centro de Implantação do Computador](https://aka.ms/howtoshift)
+## <a name="desktop-deployment-center"></a>[Centro de Implantação do Computador](https://aka.ms/howtoshift)

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como migrar arquivos e configurações de usuários.
-ms.openlocfilehash: 9332542e5b87de3e3c237f969a3842545eb03dc4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f17b11efe889359f97087ac5d96ffa968ca8cd88
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085280"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113536"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Etapa 4: Migração de arquivos e configurações de usuários.
 
@@ -49,7 +49,7 @@ Quando se trata de decidir o que manter quando mudamos para um novo PC ou uma no
 
 O fato de isso ser uma opção em sua organização vai depender da escala da migração que você está planejando. É claro que essa opção será limitada pelo tempo e física envolvidos no trabalho direto com os usuários, entendendo suas necessidades e copiando arquivos para seus novos PCs atualizados.
 
-Se optar por uma migração manual, você poderá precisar avaliar se conseguirá completar a tarefa até janeiro de 2020, quando termina o suporte ao Windows 7. Se tiver dúvidas, pense em usar uma das opções automatizadas abaixo ou solicite mais pessoas para ajudar.
+Se você estiver optando por uma migração manual, confira usando uma das opções automatizadas abaixo ou solicite a ajuda de mais pessoas.
 
 ## <a name="automated-migration-using-usmt"></a>Migração automatizada usando USMT 
 
@@ -89,8 +89,8 @@ O Windows 10 inclui muitos aplicativos internos úteis como parte da instalaçã
 
 ## <a name="next-step"></a>Próxima etapa
 
-## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[Etapa 5: Considerações de segurança e conformidade](https://aka.ms/mdd5)
+## <a name="step-5-security-and-compliance-considerations"></a>[Etapa 5: Considerações de segurança e conformidade](https://aka.ms/mdd5)
 
 ## <a name="previous-step"></a>Etapa anterior
 
-## <a name="step-3-office-and-lob-app-deliveryhttpsakamsmdd3"></a>[Etapa 3: Entrega de aplicativos do Office e LOB](https://aka.ms/mdd3)
+## <a name="step-3-office-and-lob-app-delivery"></a>[Etapa 3: Entrega de aplicativos do Office e LOB](https://aka.ms/mdd3)
