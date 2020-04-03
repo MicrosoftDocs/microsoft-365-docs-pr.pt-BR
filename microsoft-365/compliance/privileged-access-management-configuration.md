@@ -17,19 +17,36 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Use este tópico para saber mais sobre como configurar o gerenciamento de acesso privilegiado.
-ms.openlocfilehash: bb1589252ab7a5f7a512db92666827dd9d3cc2d3
-ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
+ms.openlocfilehash: 8c5a0a342c9cabf643bff5e20fc3b64f938c61b7
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42322520"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115987"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 
->[!IMPORTANT]
->Este tópico aborda as diretrizes de implantação e configuração dos recursos disponíveis atualmente no Office 365 E5 e nas SKUs de conformidade avançada.
+Este tópico fornece orientações sobre como habilitar e configurar o gerenciamento de acesso privilegiado em sua organização do Office 365. Você pode usar o centro de administração do Microsoft 365 ou o PowerShell de gerenciamento do Exchange para gerenciar e usar o acesso privilegiado.
 
-Este tópico fornece orientações sobre como habilitar e configurar o gerenciamento de acesso privilegiado em sua organização do Office 365. Você pode usar o centro de administração do Microsoft 365 ou o PowerShell de gerenciamento do Exchange para gerenciar e usar o acesso privilegiado. 
+## <a name="before-you-begin"></a>Antes de começar
+
+Antes de começar a usar o gerenciamento de acesso privilegiado, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e outros Complementos. Para acessar e usar o gerenciamento de acesso privilegiado, sua organização deve ter uma das seguintes assinaturas ou Complementos:
+
+- Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
+- Assinatura do Microsoft 365 E3 (ou Office 365 E3 Subscription + Enterprise Mobility e Security E3 Subscription) + o complemento de conformidade do Microsoft 365 e5
+- Qualquer assinatura do Microsoft 365, do Office 365, do Exchange, do SharePoint ou do OneDrive for Business + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider  
+- Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
+- Assinatura do Microsoft 365 a3 (ou a assinatura do Office 365 a3 + Enterprise Mobility and Security a3) + o complemento de conformidade da Microsoft a5
+- Qualquer assinatura do Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive for Education + o complemento de gerenciamento de risco do Microsoft 365 a5 Insider
+- Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação)
+- Assinatura do Office 365 Enterprise E3 + o complemento avançado de conformidade do Office 365 (não está mais disponível para novas assinaturas, consulte observação)
+
+Os usuários que enviam e respondem a solicitações de gerenciamento de acesso privilegiado devem receber uma das licenças acima.
+
+>[!IMPORTANT]
+>O Office 365 Advanced Compliance não é mais vendido como uma assinatura autônoma. Quando as assinaturas atuais expiram, os clientes devem fazer a transição para uma das assinaturas acima, que contêm o mesmo ou outros recursos de conformidade.
+
+Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de acesso privilegiado, [adicione o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [Inscreva-se para obter uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
 
 ## <a name="enable-and-configure-privileged-access-management"></a>Habilitar e configurar o gerenciamento de acesso privilegiado
 
@@ -103,7 +120,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 ```
 
 >[!NOTE]
->O recurso de contas de sistema é disponibilizado para garantir que determinadas automaçãos em suas organizações possam trabalhar sem dependências de acesso privilegiado, no entanto, é recomendável que essas exclusões sejam excepcionais e que as permitidas sejam aprovadas e auditadas atualizado.
+>O recurso de contas de sistema é disponibilizado para garantir que determinadas automaçãos em suas organizações possam trabalhar sem dependências de acesso privilegiado, no entanto, é recomendável que essas exclusões sejam excepcionais e que as permitidas sejam aprovadas e auditadas regularmente.
 
 <a name="step3"> </a>
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6d60693e8e67ba91341e01c80a213b75e821721b
-ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
+ms.openlocfilehash: 31444d677e7cd775f5364796c6821cb82b6dc654
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100874"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113568"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -42,8 +42,11 @@ Antes de começar a manter a conformidade de comunicação, você deve confirmar
 - Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
 - Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5
 - Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider
+- Assinatura do Microsoft 365 G5 (versão paga ou de avaliação)
+- Assinatura do Microsoft 365 G5 + o suplemento de conformidade do Microsoft 365 G5
+- Assinatura do Microsoft 365 G5 + o complemento de gerenciamento de risco do Microsoft 365 G5 Insider
 - Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação)
-- Assinatura do Office 365 Enterprise E3 + o complemento de conformidade avançada do Office 365
+- Assinatura do Office 365 Enterprise E3 + o complemento avançado de conformidade do Office 365 (não está mais disponível para novas assinaturas, consulte observação)
 
 Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma das licenças acima atribuídas.
 
@@ -94,7 +97,7 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização 
 | **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
 |Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Office 365 | Grupos dinâmicos de distribuição |
-| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
+| Revisores | None | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
   
 Quando você seleciona um grupo do Office 365 para usuários supervisionados, a política monitora o conteúdo da caixa de correio compartilhada do Office 365 e os canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política monitora caixas de correio de usuários individuais.
 

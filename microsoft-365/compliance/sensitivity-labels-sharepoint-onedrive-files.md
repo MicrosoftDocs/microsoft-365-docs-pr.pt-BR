@@ -17,18 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: e6e13ef14ed9ed3e60f2918df0c25c0601d0225e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d0496a194cc734304f8ba6f09e6497c8d4f233bc
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106097"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126018"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
->*[Diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Antes desta visualização, quando você aplicou rótulos de confidencialidade que incluíram criptografia para arquivos do Office armazenados no SharePoint e no OneDrive, o serviço não pôde processar o conteúdo desses arquivos. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. Essa visualização habilita esses recursos para arquivos novos e alterados que têm um rótulo de confidencialidade aplicado que inclui a criptografia com uma chave baseada na nuvem:
+Antes desta visualização, você não podia aplicar seus [Rótulos de confidencialidade](sensitivity-labels.md) no Office na Web. Você não vê a opção **sensibilidade** na faixa de opções ou o nome do rótulo aplicado na barra de status. Além disso, se você tiver usado aplicativos de área de trabalho para rotular seus arquivos e salvá-los no SharePoint ou no onedrive, o serviço não poderá processar o conteúdo desses arquivos se o rótulo estiver aplicado. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa, Delve e outros recursos colaborativos não funcionaram nessas circunstâncias. 
+
+Essa visualização habilita todos esses recursos. Além de exibir rótulos de confidencialidade aos usuários, para arquivos novos e alterados que tenham um rótulo de sensibilidade aplicado que inclua criptografia com uma chave baseada na nuvem:
 
 - O SharePoint reconhece rótulos de confidencialidade aplicados aos arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive: enquanto o arquivo é armazenado no SharePoint, a criptografia da proteção de informações do Azure é removida para que o conteúdo do arquivo possa ser processado. Para obter informações sobre como os documentos são protegidos enquanto estão armazenados no SharePoint, consulte [criptografia de dados no onedrive for Business e no SharePoint Online](data-encryption-in-odb-and-spo.md).
 
@@ -40,23 +42,21 @@ Antes desta visualização, quando você aplicou rótulos de confidencialidade q
 
 - O Office 365 eDiscovery oferece suporte à pesquisa de texto completo desses arquivos. As políticas de prevenção de perda de dados (DLP) abrangem conteúdo nesses arquivos.
 
-- Três novos [eventos de auditoria](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) estão disponíveis para monitoramento de rótulos de confidencialidade aplicados usando o Office na Web:
-  - **Rótulo de sensibilidade aplicado ao site**
-  - **Rótulo de sensibilidade alterado aplicado ao arquivo**
-  - **Rótulo de sensibilidade removido do site**
-
 > [!NOTE]
-> Se a criptografia não tiver sido aplicada com uma chave baseada na nuvem, mas uma chave local, uma topologia de gerenciamento de chave freqüentemente chamada de "conter sua própria chave" (HYOK), o comportamento do SharePoint não mudará com esta visualização.
+> Se a criptografia não tiver sido aplicada com uma chave baseada na nuvem, mas uma chave local, uma topologia de gerenciamento de chave freqüentemente mencionada como "conter sua própria chave" (HYOK), o comportamento do SharePoint para processamento do conteúdo do arquivo não é alterado com esta visualização.
 >
 > O comportamento do SharePoint também não é alterado para arquivos criptografados e rotulados existentes no SharePoint antes de habilitar a visualização. Para que esses arquivos se beneficiem dos novos recursos, eles devem ser baixados e carregados ou editados após a habilitação da visualização. Por exemplo, eles serão retornados em resultados de pesquisa e de descoberta eletrônica.
 
-Agora, você também pode aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. Para obter mais informações sobre essa visualização separada, confira [usar rótulos de sensibilidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
-
-Você sempre tem a opção de cancelar essa visualização a qualquer momento.
+Quando você habilita essa visualização, três novos [eventos de auditoria](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) estão disponíveis para monitoramento de rótulos de confidencialidade aplicados usando o Office na Web:
+- **Rótulo de sensibilidade aplicado ao site**
+- **Rótulo de sensibilidade alterado aplicado ao arquivo**
+- **Rótulo de sensibilidade removido do site**
 
 Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
+
+Você sempre tem a opção de cancelar essa visualização a qualquer momento.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -66,7 +66,9 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 
 ## <a name="limitations"></a>Limitações
 
-- Quando você habilita essa visualização, os usuários que alteram um rótulo em um arquivo em uma pasta de sincronização do OneDrive podem não conseguir salvar outras alterações que eles fazem no arquivo.  Os usuários vêem um [círculo vermelho com um erro de ícone de cruz branco](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)e são solicitados a salvar novas alterações como uma cópia separada.  Além das alterações de rótulo que são iniciadas pelos usuários, o mesmo comportamento pode ocorrer se um administrador alterar as configurações de um rótulo publicado já aplicado aos arquivos baixados para o cliente de sincronização dos usuários.
+- Quando você habilita essa visualização, os usuários que alteram um rótulo em um arquivo em uma pasta de sincronização do OneDrive podem não conseguir salvar outras alterações que eles fazem no arquivo. Este cenário se aplica a arquivos que são rotulados com criptografia e também quando a alteração do rótulo é de um rótulo que não aplicou criptografia a um rótulo que aplica criptografia. Os usuários vêem um [círculo vermelho com um erro de ícone de cruz branco](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)e são solicitados a salvar novas alterações como uma cópia separada.  
+    
+    Além das alterações de rótulo que são iniciadas pelos usuários, o mesmo comportamento pode ocorrer se um administrador alterar as configurações de um rótulo publicado já aplicado aos arquivos baixados para o cliente de sincronização dos usuários.
     
     Para evitar a perda de trabalho nesses cenários, execute uma destas ações:
     - Para aplicar rótulos, use as versões Web dos aplicativos do Office.
@@ -88,7 +90,7 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 
 - O site de acompanhamento de documentos da proteção de informações do Azure não é suportado.
 
-- Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria. Em vez disso, esses aplicativos continuam a abrir arquivos no modo de edição exclusivo.
+- Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria de arquivos rotulados com criptografia. Esses aplicativos continuam a abrir arquivos rotulados e criptografados no modo de edição exclusivo.
 
 - Se um documento rotulado for carregado no SharePoint e a criptografia aplicada usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Exemplos de cenários incluem o Microsoft Cloud app Security e um arquivo enviado para o Teams por email.
 

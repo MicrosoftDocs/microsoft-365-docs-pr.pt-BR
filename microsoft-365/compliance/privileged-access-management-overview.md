@@ -17,17 +17,14 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Use este tópico para saber mais sobre o gerenciamento de acesso privilegiado no Office 365
-ms.openlocfilehash: 8d1b6bbda57cbe51167c87a29e140e6b5f871bca
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 547f3f3179252c767d56b45d4ad64d67b3c82b7d
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070943"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116021"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Gerenciamento de acesso privilegiado no Office 365
-
-> [!IMPORTANT]
-> Este tópico aborda as diretrizes de implantação e configuração dos recursos disponíveis atualmente no Office 365 E5 e nas SKUs de conformidade avançada.
 
 O gerenciamento de acesso privilegiado permite o controle de acesso granular sobre tarefas administrativas privilegiadas no Office 365. Ele pode ajudar a proteger sua organização contra violações que usam contas de administrador privilegiadas existentes com acesso à dados confidenciais ou acesso a definições de configuração crítica. O gerenciamento de acesso privilegiado requer que os usuários solicitem acesso just-in-time para concluir tarefas privilegiadas e privilegiadas por meio de um fluxo de trabalho de aprovação com e sem limite de tempo. Essa configuração oferece aos usuários o acesso apenas suficiente para executar a tarefa em mãos, sem risco de exposição de dados confidenciais ou definições de configuração crítica. Habilitar o gerenciamento de acesso privilegiado no Office 365 permite que sua organização opere com nenhum privilégio de pé e forneça uma camada de defesa contra vulnerabilidades de acesso administrativo.
 
@@ -77,7 +74,7 @@ Para uma solicitação aprovada, a tarefa é processada pelo runspace de gerenci
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>Quais SKUs podem usar o acesso privilegiado no Office 365?
 
-O gerenciamento de acesso privilegiado está disponível para clientes com SKUs de conformidade avançada e do Office 365 e5.
+O gerenciamento de acesso privilegiado está disponível para clientes para uma ampla seleção de assinaturas e Complementos do Microsoft 365 e do Office 365. Confira [introdução ao gerenciamento de acesso privilegiado](privileged-access-management-configuration.md) para obter detalhes.
 
 ### <a name="when-will-privileged-access-support-office-365-workloads-beyond-exchange"></a>Quando o acesso privilegiado será compatível com cargas de trabalho do Office 365 além do Exchange?
 

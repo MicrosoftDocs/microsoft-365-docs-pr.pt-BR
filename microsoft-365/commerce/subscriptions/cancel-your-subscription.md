@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar o Office 365 para empresas ou a assinatura de avaliação ou pagamento da Microsoft 365.
-ms.openlocfilehash: 4e1491a02d97a3a249e377dbae0efbd4709cdf09
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.openlocfilehash: 47b4ae3e027a218f7d830bb6af24a39ca33a4abb
+ms.sourcegitcommit: 3d1abd7c06d316d6e6586e4bdcd5703291ac1ab0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42415646"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117939"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -94,13 +94,14 @@ Se você cancelar uma assinatura antes do fim do seu termo, a assinatura se move
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>O que você e seus usuários devem esperar caso cancelem uma assinatura
   
-- **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos. 
-    
+- **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos.
+
 - **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, como email ou documentos, em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
-    
- **Importante** Se você deseja que seus dados de assinatura sejam excluídos antes do término do período normal de desabilitação, você poderá solicitar o desprovisionamento expresso. Quando você solicita o desprovisionamento expresso, os dados da sua assinatura são excluídos em até três dias após o cancelamento. Para usar o desprovisionamento expresso, [ligue para o suporte](../../admin/contact-support-for-business-products.md).
-  
+
 Para saber mais, veja [o que acontece com meus dados e acesso quando minha assinatura termina?](what-if-my-subscription-expires.md)
+
+> [!IMPORTANT]
+> Se quiser que seus dados de assinatura sejam excluídos antes que o período normal desabilitado seja superior, você pode [fechar sua conta](../close-your-account.md).
 
 ## <a name="other-steps-you-might-have-to-take"></a>Outras etapas que podem ser necessárias
 

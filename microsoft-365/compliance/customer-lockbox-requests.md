@@ -17,16 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 8906fde608e6e6c26604450eed063915e4617d29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 254479f7c07b74abf04802a7e2e591a2ac375e59
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076797"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113558"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
-Este artigo fornece orientações de implantação e configuração para um recurso atualmente disponível apenas para organizações que têm um Microsoft 365 e5, o Office 365 e5, a proteção de informações e conformidade ou a assinatura de complemento de conformidade avançada. O Lockbox do cliente oferece suporte a solicitações de acesso a dados no Exchange Online, no SharePoint Online e no OneDrive for Business. Para recomendar o suporte para outros serviços do Office 365, envie uma solicitação no [Office 365 UserVoice](https://office365.uservoice.com/).
+Este artigo fornece orientações de implantação e configuração para o Lockbox de cliente. O Lockbox do cliente oferece suporte a solicitações de acesso a dados no Exchange Online, no SharePoint Online e no OneDrive for Business. Para recomendar o suporte para outros serviços do Office 365, envie uma solicitação no [Office 365 UserVoice](https://office365.uservoice.com/).
+
+Para ver as opções de licenciamento dos seus usuários para se beneficiar das ofertas de conformidade da Microsoft 365, incluindo este, a partir de 1º de abril de 2020, consulte o [Guia de licenciamento da microsoft 365 para conformidade com segurança &](https://aka.ms/ComplianceSD).
 
 A Lockbox do cliente garante que a Microsoft não possa acessar seu conteúdo para executar uma operação de serviço sem a sua aprovação explícita. O Lockbox do cliente o coloca no fluxo de trabalho de aprovação para solicitações de acesso ao seu conteúdo.
 
