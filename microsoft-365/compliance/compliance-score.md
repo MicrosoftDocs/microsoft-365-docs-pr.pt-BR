@@ -14,20 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: dff5e6c057df37c076e328d5203a1eb4e4b3207a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 77650747e28096fc05c4a9b30bc92545b6f2bc29
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635109"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141566"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
-A pontuação de conformidade da Microsoft ajuda a simplificar a forma como você gerencia a conformidade e reduz os riscos de conformidade por meio de uma experiência amigável. A pontuação de conformidade já está disponível para visualização pública no [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md).
+A [Pontuação de conformidade da Microsoft](https://compliance.microsoft.com/compliancescore) ajuda a simplificar a forma como você gerencia a conformidade e reduz os riscos de conformidade por meio de uma experiência amigável. A pontuação de conformidade está disponível para visualização pública no [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md).
 
 **Neste artigo:** Leia este artigo para entender qual é a pontuação de conformidade e como configurá-lo para sua organização.
 
-**Saiba mais sobre as atualizações:** Vá até as [notas de versão da Pontuação de conformidade](compliance-score-release-notes.md) para ver as novidades e os problemas conhecidos da versão prévia da Pontuação de conformidade.
+**Saiba mais sobre as atualizações:** Publicamos várias atualizações na versão de abril de 2020. Visite as [notas de versão da Pontuação de conformidade](compliance-score-release-notes.md) para ver as novidades e os problemas conhecidos da versão prévia da Pontuação de conformidade.
 
 ## <a name="what-is-compliance-score"></a>O que é a pontuação de conformidade
 
@@ -58,7 +58,7 @@ Considere a pontuação de conformidade como uma versão simplificada do Gerenci
 
 A pontuação de conformidade compartilha o mesmo backend com o gerente de conformidade, portanto, qualquer dado que você já tenha no Gerenciador de conformidade será exibido na pontuação de conformidade.
 
-Durante a visualização pública, algumas funcionalidades permanecem exclusivamente no Gerenciador de conformidade, como gerenciar avaliações e criar modelos. Recomendamos iniciar todas as atividades de gerenciamento de conformidade na pontuação de conformidade. Ao chegar às funções tratadas pelo gerente de conformidade, você será guiado para essa ferramenta. Por esse motivo, parte desta documentação direciona você aos tópicos do gerente de conformidade.
+Algumas funcionalidades permanecem exclusivamente no Gerenciador de conformidade durante a visualização pública, como o gerenciamento de avaliações e a criação de modelos. Recomendamos iniciar todas as atividades de gerenciamento de conformidade na pontuação de conformidade. Ao chegar às funções tratadas pelo gerente de conformidade, você será orientado para essa ferramenta. Por esse motivo, parte desta documentação direciona você aos tópicos do gerente de conformidade.
 
 Saiba mais sobre a relação entre a pontuação de conformidade e o gerente de conformidade nas [notas de versão de nota de conformidade](compliance-score-release-notes.md).
 
@@ -73,13 +73,11 @@ Saiba mais sobre [como a pontuação de conformidade é calculada e continuament
 
 ## <a name="key-components-controls-assessments-templates-groups"></a>Principais componentes: controles, avaliações, modelos, grupos
 
-A pontuação de conformidade usa vários componentes para ajudá-lo a gerenciar suas atividades de conformidade. À medida que você usa a pontuação de conformidade para atribuir, testar e monitorar atividades de conformidade, é útil ter uma compreensão básica desses componentes-chave. Este diagrama mostra as relações entre elas:
-
-![Relações no Gerenciador de conformidade versão 3](../media/compliance-manager-relationships.png "Componentes de Pontuação de conformidade")
+A pontuação de conformidade usa vários componentes para ajudá-lo a gerenciar suas atividades de conformidade. À medida que você usa a pontuação de conformidade para atribuir, testar e monitorar atividades de conformidade, é útil ter uma compreensão básica dos principais componentes: controles, avaliações, modelos e grupos.
 
 ### <a name="controls"></a>Controles
 
-Um controle define como avaliar e gerenciar a configuração do sistema, o processo organizacional e a responsabilidade de pessoas para atender a um requisito específico de uma política regulamentar, padrão ou interna.
+Um controle define como avaliar e gerenciar a configuração do sistema, o processo organizacional e as pessoas responsáveis por atender a um requisito específico de uma política regulamentar, padrão ou interna.
 
 A pontuação de conformidade controla dois tipos de controles:
 
@@ -90,9 +88,9 @@ A pontuação de conformidade controla dois tipos de controles:
 
 Uma avaliação é uma avaliação de um modelo que inicia o processo de Pontuação para sua organização. O grupo de avaliações as ações necessárias para atender aos requisitos de um padrão, regulamento ou legislação. Por exemplo, você pode ter uma avaliação que, quando concluir todas as ações dentro dela, traz suas configurações do Office 365 em linha com os requisitos ISO 27001.
 
-Por padrão, a pontuação de conformidade fornece à sua organização uma avaliação baseada na linha de base de proteção de dados 365 da Microsoft, uma recomendação para reduzir seus riscos de proteção e conformidade de dados ([saiba mais](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)).
+A pontuação de conformidade fornece à sua organização uma avaliação inicial baseada na linha de base de proteção de dados do Microsoft 365. Essa avaliação é uma recomendação para reduzir os riscos de proteção de dados e conformidade ([saiba mais](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)).
 
-As avaliações incluem vários componentes:
+As avaliações têm vários componentes:
 
 - **Serviços no escopo**: o conjunto específico de serviços Microsoft aplicável à avaliação
 - **Controles gerenciados**pela Microsoft: controles que a Microsoft implementou e testou
@@ -102,13 +100,11 @@ As avaliações incluem vários componentes:
 > [!NOTE]
 > A pontuação de conformidade exibe as avaliações e como elas fatoram em sua pontuação geral. No entanto, durante a visualização pública, você será direcionado ao Gerenciador de conformidade para gerenciar as avaliações.
 
-Exibir instruções detalhadas para [trabalhar com avaliações no Gerenciador de conformidade](working-with-compliance-manager.md#assessments).
+Exibir instruções detalhadas para [gerenciar avaliações no Gerenciador de conformidade](working-with-compliance-manager.md#assessments).
 
 ### <a name="templates"></a>Modelos
 
-A pontuação de conformidade fornece modelos pré-configurados para avaliações. A pontuação de conformidade também permite que você crie modelos para suas próprias avaliações para atender às suas necessidades. Por exemplo, você pode criar um modelo para seu controle de processo de negócios ou um modelo para uma proteção de dados regional ou padrão de conformidade que não esteja coberto por um dos modelos pré-configurados.  Ao criar seus próprios modelos, você pode criar avaliações personalizadas para garantir que a pontuação de conformidade rastreie não apenas avaliações da nuvem da Microsoft, mas também qualquer outra avaliação de risco no escopo da sua organização.
-
-Você pode criar novos modelos copiando um modelo existente ou importando as informações de controles de um arquivo do Excel. Veja instruções detalhadas para a [criação de modelos no Gerenciador de conformidade](working-with-compliance-manager.md#templates).
+A pontuação de conformidade fornece modelos pré-configurados para avaliações. Você também pode personalizar um modelo pré-configurado adicionando seus próprios controles e ações. Por exemplo, você pode criar um modelo para seu controle de processo de negócios ou um modelo para uma proteção de dados regional ou padrão de conformidade que não esteja coberto por um dos modelos pré-configurados. Ao trazer seus próprios modelos para a pontuação de conformidade, você pode controlar não apenas avaliações da nuvem da Microsoft, mas também qualquer outra avaliação de risco no escopo da sua organização.
 
 Os modelos pré-configurados de Pontuação de conformidade são:
 
@@ -130,14 +126,13 @@ Os modelos pré-configurados de Pontuação de conformidade são:
 16. [SOC 1](https://go.microsoft.com/fwlink/?linkid=2115184)
 17. [SOC 2](https://go.microsoft.com/fwlink/?linkid=2115184)
 
-> [!NOTE]
-> Durante a visualização pública, acesse o Gerenciador de conformidade para criar e gerenciar seus modelos.
+Exibir [instruções detalhadas para a criação de modelos](working-with-compliance-manager.md#templates), que ocorre no Gerenciador de conformidade.
 
 ### <a name="groups"></a>Grupos
 
 Os grupos permitem organizar avaliações de forma que seja lógica para você. Por exemplo, você pode optar por agrupar avaliações por ano, padrão de conformidade, serviço, equipes dentro da sua organização ou de alguma outra maneira.
 
-Quando duas avaliações diferentes no mesmo grupo compartilham ações gerenciadas pelo cliente, a conclusão de detalhes da implementação, teste e status da ação em uma avaliação sincroniza automaticamente com a mesma ação em qualquer outra avaliação no grupo. Isso unifica as ações de melhoria atribuídas no grupo e reduz o trabalho de duplicação.
+Quando duas avaliações diferentes no mesmo grupo compartilham ações gerenciadas pelo cliente, as atualizações feitas nos detalhes da implementação, teste e status da ação em uma avaliação serão automaticamente sincronizadas com a mesma ação em qualquer outra avaliação do grupo. A sincronização de ações dessa forma unifica as ações de melhoria atribuídas no grupo e reduz o trabalho de duplicação.
 
 Saiba como [criar grupos no Gerenciador de conformidade](working-with-compliance-manager.md#groups). Depois de criar grupos, você pode [filtrar o painel de Pontuação de conformidade](compliance-score-setup.md#filtering-your-dashboard-view) para exibir sua pontuação por um ou mais grupos.
 

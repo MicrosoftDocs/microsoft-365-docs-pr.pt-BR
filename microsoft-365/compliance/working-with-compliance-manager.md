@@ -13,36 +13,33 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos produtos da Microsoft.
-ms.openlocfilehash: a0cdabdc37779ee2f7624242eeb177f3d35b87da
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: O gerente de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho. Use-o para controlar, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
+ms.openlocfilehash: aaae5f1123872367ad98466833f9e06210bfb652
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634129"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142656"
 ---
-# <a name="work-with-microsoft-compliance-manager-preview"></a>Trabalhar com o Microsoft Compliance Manager (versão prévia)
+# <a name="working-with-microsoft-compliance-manager-preview"></a>Trabalhando com o Microsoft Compliance Manager (versão prévia)
 
 > [!IMPORTANT]
-> O gerente de conformidade da Microsoft é um painel e uma ferramenta de gerenciamento que fornece um resumo de seus Stature de proteção e conformidade de dados e recomendações para melhorar a proteção e conformidade dos dados. As ações do cliente fornecidas no gerente de conformidade são recomendações; a sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
+> O gerente de conformidade da Microsoft é um painel e uma ferramenta de gerenciamento que fornece um resumo de seus Stature de proteção e conformidade de dados e recomendações para melhorar a proteção e conformidade dos dados. As ações do cliente fornecidas no gerente de conformidade são recomendações. A sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
 
 ## <a name="access-compliance-manager"></a>Gerenciador de conformidade do Access
 
-Acesse o Gerenciador de Conformidade no Portal de Confiança do Serviço. Qualquer pessoa com uma conta Microsoft ou uma conta organizacional do Azure Active Directory pode acessar o Gerenciador de Conformidade.
-  
-1. Acesse [https://servicetrust.microsoft.com](https://servicetrust.microsoft.com/).
+O Gerenciador de conformidade pode ser acessado pelo portal de confiança do serviço Microsoft. Qualquer pessoa com uma conta da Microsoft ou uma conta organizacional do Azure Active Directory pode acessar o Gerenciador de conformidade.
+
+1. Acesse [https://servicetrust.microsoft.com/ComplianceManager/V3](https://servicetrust.microsoft.com/ComplianceManager/V3).
 
 2. Entre com sua conta de serviço Microsoft, que é a conta de usuário do Office 365, Microsoft 365 ou Azure Active Directory (Azure AD).
 
-3. No portal de confiança do serviço, recomendamos a seleção do **Gerenciador de conformidade**, que é a versão de visualização com os recursos mais atuais. O **Gerenciador de conformidade (clássico)** leva você para a versão anterior do Gerenciador de conformidade.
-
-4. Quando o contrato de não divulgação for exibido, leia-o e selecione **concordar**, que exibe o painel do Gerenciador de conformidade.
-
-Para começar, uma avaliação ISO/IEC 27001:2103 para o Office 365 aparece por padrão para sua organização.
+> [!NOTE]
+> No portal de confiança do serviço, selecione **Gerenciador de conformidade**, que é a versão de visualização com os recursos mais atuais. Não selecione **Gerenciador de conformidade (clássico)**, que contém recursos herdados não cobertos por esta documentação.
 
 ## <a name="administration"></a>Administração
 
-Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. O administrador global pode atribuir permissões de usuário e pode ativar as atualizações automáticas de Pontuação de segurança para todas as ações.
+Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. O administrador global pode atribuir permissões de usuário e ativar atualizações automáticas de Pontuação de segurança.
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>Atribuir funções do Gerenciador de Conformidade aos usuários
 
@@ -110,17 +107,21 @@ Você pode agrupar avaliações de uma forma que seja lógica para você, como p
   - Office 365 + ISO 27018:2014
 
 > [!NOTE]
-> Recomendamos determinar uma estratégia de agrupamento para sua organização *antes* de adicionar novas avaliações. Por padrão, um grupo chamado "grupo padrão" está disponível para suas avaliações iniciais.
+> Recomendamos determinar uma estratégia de agrupamento para sua organização *antes* de adicionar novas avaliações.
+
+Para começar, um grupo **padrão** é configurado para você que contém a linha de base de proteção de dados. Essa linha de base é um conjunto de controles que inclui normas e padrões comuns do setor ([saiba mais](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)).
 
 ### <a name="how-to-create-a-group"></a>Como criar um grupo
 
-Os grupos não podem ser criados como entidades autônomas. Um grupo sempre deve conter pelo menos uma avaliação, portanto, para criar um grupo, você deve primeiro criar uma avaliação para colocar no grupo. Siga as etapas abaixo para criar um grupo:
+Os grupos não podem ser criados como entidades autônomas. Um grupo sempre deve conter pelo menos uma avaliação, portanto, para criar um grupo, você deve primeiro criar uma avaliação para colocar no grupo.
+
+Siga as etapas abaixo para criar um grupo:
 
 1. Crie uma nova avaliação selecionando **+ Add Assessment** próximo à parte superior do seu painel.
 2. No painel de submenu de **avaliação** , insira um título para a avaliação e selecione um modelo no menu suspenso.
 3. Em **Selecione um grupo ou adicione um novo grupo**, selecione **Adicionar um novo grupo** e insira o nome do grupo no campo abaixo.
 4. Para copiar informações de um grupo existente, alterne o deseja **copiar os dados de um grupo existente?** alterne para **ativado.** Selecione o grupo que você deseja copiar do menu suspenso abaixo e marque as caixas de seleção dos campos que deseja transferir para a nova avaliação em seu novo grupo.
-5. Selecione **Salvar**. Quando concluído, o painel de submenus é fechado e seu novo grupo é exibido automaticamente no painel.
+5. Selecione **Salvar**. Quando for concluído, o painel do submenu será fechado e você verá o novo grupo no painel.
 
 O que saber ao trabalhar com grupos:
   
@@ -132,27 +133,25 @@ O que saber ao trabalhar com grupos:
 - Os grupos podem conter Avaliações para a mesma certificação ou regulamentação, mas cada grupo só pode conter uma avaliação para um par específico de certificação de produto. Por exemplo, um grupo não pode conter duas avaliações para o Office 365 e o NIST CSF. Um grupo pode conter várias avaliações para o mesmo produto apenas se a certificação ou regulamentação correspondente de cada um for diferente.
 - Ocultar uma apuração interrompe a relação entre essa avaliação e o grupo. Qualquer atualização adicional para outras avaliações relacionadas não é mais refletida na avaliação oculta. ([Saiba como ocultar avaliações.](#hide-a-template-or-an-assessment))
 - Os grupos não podem ser excluídos.
+- Quando uma alteração é feita em um item de ação que aparece em vários grupos, essa alteração é refletida em todas as instâncias desse item de ação.
 
-## <a name="tenant-management"></a>Gerenciamento de locatário
+## <a name="tenant-management-of-dimensions-owners--customer-actions"></a>Gerenciamento de locatários de dimensões, proprietários & ações do cliente
 
-O Gerenciador de conformidade (visualização) inclui uma nova interface para gerenciar novos elementos de dados chamados **Gerenciamento de locatários**. Esta interface permite que você gerencie as configurações de todos os locatários:
+A interface de **Gerenciamento de inquilino** permite que você gerencie essas configurações em toda a organização:
 
 - **Dimensões:** Exibir metadados para modelos, avaliações e itens de ação que permitem que você crie pivôs personalizados para filtros.
-- **Proprietários:** Especifique um proprietário para cada item de ação.
+- **Proprietários:** Preencher uma lista de partes responsáveis que podem ser associadas a ações.
 - **Ações do cliente:** Gerencie a lista completa de itens de ações incluídas no Gerenciador de conformidade (visualização) e habilite/desabilite o monitoramento de Pontuação segura para ações integradas à pontuação segura.
 
-Selecione **Gerenciamento de locatário** para abrir a interface de gerenciamento e use as etapas a seguir para gerenciar **dimensões**, **proprietários**e **ações do cliente**.
+Selecione **Gerenciamento de locatário** no canto superior direito da tela para abrir a interface de gerenciamento e use as etapas abaixo para gerenciar **dimensões**, **proprietários**e **ações do cliente**.
 
 ### <a name="dimensions"></a>Dimensões
 
-As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão do **tipo de ação** e dos valores de dimensão da **documentação**, **operacional**e **técnica**. Você pode editar ou excluir dimensões existentes.
-
-> [!IMPORTANT]
-> Você pode adicionar novas dimensões, e elas podem ser atribuídas a modelos que você já tenha importado. Você também pode adicionar novas dimensões a todos os novos modelos criados.
+As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão dos valores de finalidade e de dimensão de **ação** de **prevenção**, **detecção**e **correção**.
 
 ### <a name="owners"></a>Proprietários
 
-Os proprietários são usados para identificar a parte responsável de cada controle. Todos os controles internos são de propriedade da Microsoft, de clientes ou de ambos. Você pode criar valores personalizados para proprietários que podem ser usados para especificar responsabilidades mais granulares em sua organização. Por exemplo, você pode criar proprietários que representam grupos específicos, equipes ou unidades de negócios dentro de sua organização.
+Os proprietários são usados para identificar a pessoa responsável por cada controle. Todos os controles internos são de propriedade da Microsoft, de clientes ou de ambos. Você pode criar valores personalizados para proprietários que podem ser usados para especificar responsabilidades mais granulares em sua organização. Por exemplo, você pode criar proprietários que representam grupos específicos, equipes ou unidades de negócios dentro de sua organização.
 
 #### <a name="add-an-owner"></a>Adicionar um proprietário
 
@@ -192,24 +191,57 @@ Quando as organizações implantam pela primeira vez o Microsoft 365 ou o Office
 
 Qualquer ação que não é suportada pela integração de Pontuação segura pode ser implementada manualmente. Uma implementação manual será fatorar a pontuação para o grupo dessa ação.
 
-#### <a name="add-a-customer-action"></a>Adicionar uma ação de cliente
-
-1. Selecione **+ Adicionar ação do cliente**.
-2. Forneça um título exclusivo para a ação no campo **título** .
-3. Forneça uma pontuação de conformidade para a ação no campo **Pontuação de conformidade máxima** (pode ser qualquer número de 1-99).
-4. Use o menu suspenso de **tipo de ação** para especificar o tipo de ação que você está adicionando. Se o tipo de ação não existir, você poderá adicioná-lo adicionando o valor à chave de dimensão de tipo de ação.
-5. Use a lista suspensa **dimensões** para especificar ou adicionar valores e chaves de dimensão para a ação.
-6. Use o menu suspenso **proprietário** para especificar o proprietário da ação.
-7. Selecione **+** para adicionar um título de descrição e descrição para a ação.
-8. Selecione o **X** para fechar a folha de descrição.
-9. Selecione **salvar** para salvar a ação do cliente.
-
-#### <a name="delete-a-customer-action"></a>Excluir uma ação de cliente
-
-1. Selecione as reticências (...) da ação que você deseja modificar e selecione **excluir**.
-2. Quando a mensagem de confirmação for exibida, selecione **excluir**.
-
 ## <a name="assessments"></a>Avaliações
+
+Esta seção explica como exibir e trabalhar com suas avaliações, incluindo como adicionar novos, exportá-los, copiar informações de avaliações existentes e mantê-los atualizados por meio de controle de versão.
+
+### <a name="view-an-assessment-and-action-details"></a>Exibir uma avaliação e detalhes de ação
+  
+No painel de **avaliações** , selecione o nome da avaliação para abri-lo e exibir as informações sobre itens de ação e controles.
+
+Veja um exemplo da avaliação do Office 365 e ISO 27001. O primeiro modo de exibição ilustra o novo modo de exibição itens de ação no Gerenciador de conformidade (visualização).
+
+![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-action-items.png)
+
+As ações são listadas em ordem alfabética e cada ação é atribuída a uma pontuação e um proprietário. Selecione o link **ler mais** para ler os detalhes de cada ação.
+
+![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-actions-read-more.png)
+
+Selecione o link **revisar** para gerenciar, atribuir, implementar e testar a ação. Veja a seguir um exemplo de ação.
+
+![Exibição de ação do Gerenciador de conformidade](../media/compliance-manager-action.png)
+
+Use os campos a seguir para gerenciar o fluxo de trabalho de ação:
+
+- **Atribuir usuário:** Selecione este campo para escolher ou inserir o usuário ao qual esta ação deve ser atribuída. Você pode rolar pela lista ou digitar um nome para localizá-lo e, em seguida, selecioná-lo.
+- **Gerenciar documentos:** Você pode carregar evidências de implementação na forma de documentos do Office, arquivos de imagem e capturas de tela, saída do PowerShell em CSV ou TXT e PDFs.
+- **Status da implementação:** Usado para indicar o status de implementação atual da ação. Os valores possíveis não são implementados, implementados, implementação alternativa, planejado e não no escopo.
+- **Data de implementação:** A data na qual a ação foi realizada.
+- **Resultado do teste:** Usado para indicar os resultados da validação da implementação. Os valores possíveis não são avaliados, aprovados, risco de falha-baixo, risco de falha médio, falha-alto risco e não em escopo.
+- **Data do teste:** A data na qual a validação ocorreu.
+- **Notas de implementação:** Insira os detalhes de implementação da sua organização, juntamente com as anotações que você deseja incluir.
+- **Plano de teste:** Insira os detalhes do plano de teste para esta ação, juntamente com as anotações que você deseja incluir.
+- **Informações adicionais:** Insira qualquer informação adicional sobre esta ação ou como ela foi implementada em sua organização, juntamente com as anotações que você deseja incluir.
+
+No painel de **informações de controles** , você pode exibir informações de controles na avaliação e no nível do modelo. Veja a seguir um exemplo do painel de informações de controles para avaliações.
+
+![Exibição de informações de controles do Gerenciador de conformidade](../media/compliance-manager-controls-info.png)
+
+Para avaliações, o painel de informações de controles exibe as seguintes informações:
+
+- Um menu suspenso de **grupo** para selecionar qual grupo exibir (ao usar vários grupos).
+- Uma lista suspensa de **avaliação** para selecionar a avaliação a ser visualizada.
+- Metadados sobre a avaliação selecionada, incluindo:
+    - Um indicador de progresso para **controles avaliados** mostrando o número de controles avaliados sobre o número total de controles.
+    - A **Pontuação de conformidade** atual da avaliação, mostrada como uma porcentagem.
+    - Detalhes sobre a **certificação** e o **produto** usados na avaliação.
+    - O **status** atual e a data da última **modificação** da avaliação.
+- Uma lista dos **serviços de escopo** para avaliação.
+- Detalhes dos controles, agrupados por família de controle, com links para ações do cliente e detalhes da implementação da Microsoft:
+    - **Suas ações** exibe as ações do cliente que você pode executar para satisfazer alguns ou todos os requisitos do controle. Muitos controles têm várias ações associadas a eles, e todas as ações associadas a um controle são exibidas aqui. As ações aqui têm a mesma interface do usuário listadas no painel Ações.
+    - **Microsoft Actions** exibe a lista de controles da estrutura interna da Microsoft que se aplicam ao controle de certificação selecionado. Para cada controle interno, selecione **implementado** para ver os detalhes de implementação e teste da Microsoft, juntamente com o resultado do teste e a data de teste, conforme mostrado abaixo.
+
+![Modo de exibição de ação da Microsoft do gerente de conformidade](../media/compliance-manager-microsoft-action.png)
 
 ### <a name="add-an-assessment"></a>Adicionar uma avaliação
   
@@ -238,7 +270,7 @@ Qualquer ação que não é suportada pela integração de Pontuação segura po
 
 ### <a name="copying-information-from-existing-assessments"></a>Copiar informações de avaliações existentes
 
-Ao criar uma avaliação, você tem a opção de copiar informações de um grupo existente. Isso permite que você aplique as informações inseridas na avaliação copiada para os mesmos controles na nova avaliação. Por exemplo, se você tiver um grupo para todas as avaliações relacionadas a FFIEC em sua organização, você pode copiar as seguintes informações de avaliações existentes:
+Ao criar uma avaliação, você tem a opção de copiar informações de um grupo existente. A cópia permite que você aplique as informações inseridas na avaliação copiada para os mesmos controles na nova avaliação. Por exemplo, se você tiver um grupo para todas as avaliações relacionadas a FFIEC em sua organização, você pode copiar as seguintes informações de avaliações existentes:
 
 - Detalhes da implementação
 - Plano de teste & informações adicionais
@@ -260,62 +292,21 @@ Ao criar uma avaliação, você tem a opção de copiar informações de um grup
 
 3. Selecione **salvar** para criar a avaliação.
 
-### <a name="view-an-assessment"></a>Exibir uma avaliação
-  
-1. No painel de avaliações, selecione o nome da avaliação para abri-lo e exibir as informações sobre itens de ação e controles.
+### <a name="versioning-alerts-for-assessment-updates"></a>Alertas de controle de versão para atualizações de avaliação
 
-Veja um exemplo da avaliação do Office 365 e ISO 27001. O primeiro modo de exibição ilustra o novo modo de exibição itens de ação no Gerenciador de conformidade (visualização).
+Quando uma atualização estiver disponível para uma avaliação, um ícone de alerta o notificará de que uma atualização está pronta. Quando você clica nesse ícone, uma janela pop-up explica a atualização e solicita que você aceite. Veja a seguir um exemplo do alerta de controle de versão para uma avaliação:
 
-![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-action-items.png)
+![Pontuação de conformidade-alerta de controle de versão](../media/compliance-score-assessment-version.png "Alerta de atualização de versão de avaliação")
 
-As ações são listadas em ordem alfabética e cada ação é atribuída a uma pontuação e um proprietário. Selecione o link **ler mais** para ler os detalhes de cada ação. 
+Selecionar o ícone de alerta revela um painel de submenu que explica a atualização e solicita que você aceite:
 
-![Exibição de itens de ação do gerente de conformidade](../media/compliance-manager-actions-read-more.png)
+![Pontuação de conformidade-submenu de controle de versão](../media/compliance-score-assessment-version-accept.png "Painel de confirmação de atualização de avaliação")
 
-Selecione o link **revisar** para gerenciar, atribuir, implementar e testar a ação. Veja a seguir um exemplo de ação.
-
-![Exibição de ação do Gerenciador de conformidade](../media/compliance-manager-action.png)
-
-Nas versões anteriores do Gerenciador de conformidade, o fluxo de trabalho para implementar os requisitos foi executado no nível de controle. Um responsável pela conformidade atribuiria um controle a alguém para implementar o controle. Houve duas desvantagens a isso:
-
-- Os controles geralmente tinham várias ações associadas e o usuário ao qual um controle foi atribuído, pode não ser a pessoa certa para concluir todas as ações necessárias à implementação do controle
-- Combinar tarefas separadas em uma única ação impedia o conjunto de sinais e telemetria usados para registrar automaticamente alterações de configuração de locatário no Gerenciador de conformidade (visualização).
-
-No Gerenciador de conformidade (visualização), o processo de fluxo de trabalho foi movido do nível de controle para o nível de ação. Ao revisar uma ação, os campos a seguir podem ser usados para gerenciar o fluxo de trabalho de ação:
-
-- **Atribuir usuário:** Selecione este campo para escolher ou inserir o usuário ao qual esta ação deve ser atribuída. Você pode rolar pela lista ou digitar um nome para localizá-lo e, em seguida, selecioná-lo.
-- **Gerenciar documentos:** Você pode carregar evidências de implementação na forma de documentos do Office, arquivos de imagem e capturas de tela, saída do PowerShell em CSV ou TXT e PDFs.
-- **Status da implementação:** Usado para indicar o status de implementação atual da ação. Os valores possíveis não são implementados, implementados, implementação alternativa, planejado e não no escopo.
-- **Data de implementação:** A data na qual a ação foi realizada.
-- **Resultado do teste:** Usado para indicar os resultados da validação da implementação. Os valores possíveis não são avaliados, aprovados, risco de falha-baixo, risco de falha médio, falha-alto risco e não em escopo.
-- **Data do teste:** A data na qual a validação ocorreu.
-- **Notas de implementação:** Insira os detalhes de implementação da sua organização, juntamente com as anotações que você deseja incluir.
-- **Plano de teste:** Insira os detalhes do plano de teste para esta ação, juntamente com as anotações que você deseja incluir.
-- **Informações adicionais:** Insira qualquer informação adicional sobre esta ação ou como ela foi implementada em sua organização, juntamente com as anotações que você deseja incluir.
-
-O Gerenciador de conformidade (visualização) também inclui a tabela dinâmica baseada em controle encontrada em versões anteriores. Selecione o painel de **informações de controles** para exibi-lo. Você pode exibir informações de controles na avaliação e no nível do modelo. Veja a seguir um exemplo do painel de informações de controles para avaliações.
-
-![Exibição de informações de controles do Gerenciador de conformidade](../media/compliance-manager-controls-info.png)
-
-Para avaliações, o painel de informações de controles é exibido:
-
-- Um menu suspenso de **grupo** para selecionar qual grupo exibir (ao usar vários grupos).
-- Uma lista suspensa de **avaliação** para selecionar a avaliação a ser visualizada.
-- Metadados sobre a avaliação selecionada, incluindo:
-    - Um indicador de progresso para **controles avaliados** mostrando o número de controles avaliados sobre o número total de controles.
-    - A **Pontuação de conformidade** atual da avaliação, mostrada como uma porcentagem.
-    - Detalhes sobre a **certificação** e o **produto** usados na avaliação.
-    - O **status** atual e a data da última **modificação** da avaliação.
-- Uma lista dos **serviços de escopo** para avaliação.
-- Detalhes dos controles, agrupados por família de controle, com links para ações do cliente e detalhes da implementação da Microsoft:
-    - **Suas ações** exibe as ações do cliente que você pode executar para satisfazer alguns ou todos os requisitos do controle. Muitos controles têm várias ações associadas a eles, e todas as ações associadas a um controle são exibidas aqui. As ações aqui têm a mesma interface do usuário listadas no painel Ações.
-    - **Microsoft Actions** exibe a lista de controles da estrutura interna da Microsoft que se aplicam ao controle de certificação selecionado. Para cada controle interno, selecione **implementado** para ver os detalhes de implementação e teste da Microsoft, juntamente com o resultado do teste e a data de teste, conforme mostrado abaixo.
-
-![Modo de exibição de ação da Microsoft do gerente de conformidade](../media/compliance-manager-microsoft-action.png)
+É altamente recomendável aceitar todas as atualizações quando você recebe notificações de atualização.
 
 ### <a name="export-an-assessment"></a>Exportar uma avaliação
 
-Você pode exportar uma avaliação para um arquivo do Excel para stakeholders de conformidade em sua organização ou para auditores externos e reguladores. O relatório é um instantâneo da avaliação a partir da data e hora em que o relatório foi criado. O relatório contém os detalhes de todos os controles da Microsoft e gerenciados pelo cliente para avaliação, o status da implementação do controle, a data de teste de controle, os resultados do teste e fornece links para documentos de evidência carregados. Você deve exportar o relatório de avaliação antes de arquivar uma avaliação porque as avaliações arquivadas não mantêm links para documentos carregados.
+Você pode exportar uma avaliação para um arquivo do Excel para stakeholders de conformidade em sua organização ou para auditores externos e reguladores. O relatório é um instantâneo da avaliação a partir da data e hora em que o relatório foi criado. O relatório contém os detalhes de todos os controles da Microsoft e gerenciados pelo cliente para avaliação, o status da implementação do controle, a data de teste de controle, os resultados do teste e fornece links para documentos de evidência carregados.
   
 ### <a name="export-an-assessment-report"></a>Exportar um relatório de avaliação
   
@@ -332,7 +323,7 @@ Quando você termina com um modelo ou avaliação e não precisa mais dele para 
 ![Exibição de modelo oculto do Gerenciador de conformidade](../media/compliance-manager-hidden-template.png "Modelo oculto do Gerenciador de conformidade")
 
 > [!IMPORTANT]
-> As avaliações ocultas não retêm seus links para documentos de evidência carregados. É altamente recomendável que você exporte a avaliação antes de ocultá-la para manter links para os documentos de evidência no relatório.
+> As avaliações ocultas não retêm seus links para documentos de evidência carregados. É altamente recomendável que você exporte uma avaliação antes de ocultá-la para manter links para documentos de evidência no relatório.
   
 #### <a name="hiding-a-template"></a>Ocultar um modelo
 
@@ -383,7 +374,7 @@ Itens de ações são as tarefas recomendadas para a implementação dos requisi
   
 1. No painel **itens de ação** , selecione o **grupo** que contém a (s) avaliação (ões) cuja ação você deseja atribuir.
 2. Na lista suspensa de **avaliação** , selecione a avaliação cuja ação você deseja atribuir ou selecione **todas** na lista suspensa para ver todas as ações disponíveis.
-3. Localize a ação que você deseja atribuir e, na coluna **proprietário** , selecione o link para **revisão**, **implementado** ou **testar**.
+3. Localize a ação que você deseja atribuir e, na coluna **proprietário** , selecione o link para **revisão**, * * implementado ou **testar**.
 4. Selecione o campo **atribuir usuário** e uma lista de usuários em sua organização aparecerá. Role a lista e selecione usuário ou filtro a lista para selecionar um usuário digitando o nome do usuário.
 5. No campo notas de implementação, insira as anotações que você deseja transmitir para o usuário atribuído.
 6. Selecione **salvar** para atribuir a ação.
@@ -399,194 +390,190 @@ Essa função permite que uma organização remova as dependências ativas ou pe
 5. No campo notas de implementação, insira as anotações que você deseja transmitir para o usuário.
 6. Selecione **salvar** para reatribuir a ação.
 
+#### <a name="common-action-items-synch-status-across-groups"></a>Status de sincronização de itens de ação comuns entre grupos
+
+Se sua organização tiver vários grupos de avaliações, haverá um comportamento de ações técnicas (isto é, ações que afetam toda a organização). Todas as ações duplicadas entre grupos agora são combinadas em uma única ação. Essa ação única contém todas as anotações e evidências carregadas de versões previamente duplicadas. Qualquer alteração feita na ação em um grupo ou avaliação será refletida em todas as instâncias dessa ação. Os campos **status da implementação**, data de **implementação**, status do **teste**e data de **teste** refletem as atualizações mais recentes.
+
 ## <a name="templates"></a>Modelos
 
-Um modelo é o objeto base no Gerenciador de conformidade (visualização) associado a um produto e uma certificação (por exemplo, padrão, regulamento, estrutura de controle, etc.). Os modelos podem ser exibidos e adicionados a partir do painel modelos.
+Um modelo é o objeto base no Gerenciador de conformidade (visualização) associado a um produto e uma certificação (por exemplo, padrão, regulamento, estrutura de controle, etc.). Os modelos podem ser exibidos e adicionados a partir do painel **modelos** .
 
 ![Painel de modelo do Microsoft Gerenciador de conformidade](../media/compliance-manager-template-dashboard.png)
  
-O painel exibe cada modelo, juntamente com a certificação e o produto associados ao modelo, as datas em que o modelo foi criado e modificado pela última vez, o número de controles gerenciados pelo cliente e pela Microsoft, a pontuação de conformidade máxima para o Modelo e o status do modelo (por exemplo, aprovado, aprovação pendente, importado).
-
-Cada um dos modelos internos tem uma avaliação interna associada a eles, mas você pode criar avaliações adicionais com base nos modelos internos e pode importar seus próprios modelos e criar avaliações personalizadas com base nesses modelos e em uma avaliação personalizada.
+O painel exibe cada modelo, juntamente com a certificação e o produto associados ao modelo, as datas em que o modelo foi criado e modificado pela última vez, o número de controles gerenciados pelo cliente e a Microsoft, a pontuação de conformidade máxima do modelo e o status do modelo (por exemplo, aprovado, aprovação pendente, importado).
 
 ### <a name="create-a-template"></a>Criar um modelo
 
-Você pode criar um modelo copiando um modelo existente ou importando um modelo personalizado. Há um formato e esquema específicos que devem ser usados para os dados de modelo ou que não serão importados para o Gerenciador de conformidade. Um arquivo com o esquema e os dados de exemplo corretos podem ser baixados deste local.
-Cada modelo personalizado deve estar em uma pasta de trabalho do Excel separada (no formato. xls ou. xlsx) que contém cinco guias:
+Há três maneiras de trabalhar com modelos para criar avaliações:
 
-1. Modelo-avaliação
-2. ControlFamily
-3. Ações
-4. Propriedade
-5. Dimensões
+1. Use um dos modelos pré-configurados fornecidos pela Microsoft.
+2. Personalizar um modelo pré-configurado com suas próprias ações e controles por meio do processo de extensão.
+3. Crie seu próprio modelo e importe-o para o Gerenciador de conformidade.
 
-O esquema usado em cada guia é detalhado abaixo.
+#### <a name="use-a-microsoft-pre-configured-template"></a>Usar um modelo pré-configurado da Microsoft
 
-#### <a name="template-assessment-tab"></a>Modelo-guia avaliação
+Os modelos pré-configurados estão disponíveis no painel de **modelos** . Exibir a [lista atual de modelos](compliance-manager-overview.md#templates), que é atualizada sempre que um novo modelo está disponível.
 
-Esta guia tem uma única coluna:
-
-- **Inscopeservices**: lista delimitada por vírgula de produtos ou serviços que estão no escopo para o modelo.
-
-#### <a name="controlfamily-tab"></a>Guia ControlFamily
-
-Essa guia inclui colunas que definem os controles que são mapeados para as ações listadas na guia ações e inclui detalhes como o nome do controle, família, título e descrição.  As colunas dessa guia, que devem ser ordenadas no Excel na ordem listada abaixo, são: 
-
-- **ControlName:** Nome do controle de certificação/padrão/regulamentação, etc.
-- **controlFamily:** Família de controle do Certification/Standard, regulamento, etc.
-- **controlTitle:** Título de controle de certificação/padrão/regulamentação, etc.
-- **controlDescription:** Descrição de controle de Certification/Standard/regulamento, etc.
-- **controlVersion:** Informações de versão do controle opcional.  Exemplo: para o NIST 800-53, o valor atual é Rev 4, portanto, o controlVersion é 4.  Para CCM CSA, ele é o 3.0.1.
-- **IsDisabled:** Use TRUE ou FALSE para indicar se o controle foi desabilitado.
-- **ControlType:** Use CC para indicar que esses são controles gerenciados pelo cliente.
-- **controlComplianceScore:** Soma da Pontuação de todas as ações atribuídas ao controle.
-- **controlActionTitle:** Lista delimitada por ponto-e-vírgula duplo de todos os actionTitles para esse controle, conforme listado na guia ações. 
-
-#### <a name="actions-tab"></a>Guia ações
-
-Essa guia inclui colunas que definem ações individuais e inclui detalhes como título da ação, propriedade e dimensões. As colunas dessa guia, que devem ser ordenadas no Excel na ordem listada abaixo, são: 
-
-- **actionTitle:** Título da ação. Cada título deve ser exclusivo e é recomendável usar o caso do Pascal.
-- **actionRelatedODVs:** Lista delimitada por ponto-e-vírgula duplo de actionTitles que são pais do filho listados na coluna actionTitle. Em uma relação pai/filho, o pai representa a marca d' água alta. Portanto, se você concluir uma ação pai, também concluirá todas as ações filhas. Por exemplo, quando você tem requisitos semelhantes, mas valores definidos por padrão diferentes, como comprimento da senha, onde um padrão/regulamento requer um mínimo de 15 caracteres, e outro requer um mínimo de 12 ou 10. 15 seria o pai neste exemplo e, se você configurar um mínimo de 15 caracteres, também atenderá às ações que recomende 12 ou 10 caracteres em outras avaliações.
-
-    > [!NOTE]
-    > A coluna actionRelatedODVs é uma coluna obrigatória para o esquema; no entanto, o recurso (ações relacionadas) não está disponível no Gerenciador de conformidade (visualização).  Ele está agendado para ser adicionado em uma versão posterior.
-
-- **actionDimensionValues:** Lista delimitada por ponto-e-vírgula duplo de dimensões aplicáveis da guia dimensões, usando o seguinte formato:
-
-    ```Markdown
-    Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
-    ```
-    
-    Por exemplo:
-
-    ```Markdown
-    Product::Office 365;;Certification::NIST CSF
-    ```
-
-    Todas as dimensões usadas em um modelo personalizado devem estar listadas na guia dimensões do arquivo de importação, mesmo se já estiverem listadas no painel dimensões.
-- **actionScore:** Valor numérico para cada ação, que representa a pontuação dessa ação. Recomendamos seguir o modelo de Pontuação usado pelas avaliações internas, que se baseia no propósito e na aplicação de cada ação.
-- **actionOwnership:** Lista de proprietários delimitadas por ponto e vírgula. Todos os proprietários listados devem ser incluídos na guia propriedade.
-- **actionDescription:** Texto de cada ação, que deve ser exclusivo. Este campo suporta o idioma de redução, conforme descrito abaixo.
-
-#### <a name="ownership-tab"></a>Guia Propriedade
-
-Essa guia inclui colunas que definem proprietários para cada ação.  As colunas dessa guia, que devem ser ordenadas no Excel na ordem listada abaixo, são:
-
-- **propriedadeName:** Nome exclusivo do proprietário/parte responsável.
-- **ownershipDescription:** Descrição do proprietário/parte responsável.
-
-#### <a name="dimensions-tab"></a>Guia dimensões
-
-Essa guia inclui colunas que definem as dimensões que podem ser associadas a uma ação.  As colunas dessa guia, que devem ser ordenadas no Excel na ordem listada abaixo, são:
-
-- **dimensionKey:** Lista de chaves usadas para dimensões. Por exemplo, produto, certificação, etc.
-- **dimensionvalue:** Valor exclusivo para cada chave de dimensão. Por exemplo, Office 365, Intune, Azure, produto personalizado, etc.
-- **allowMultiSelect:** Use TRUE ou FALSE para indicar que vários valores de dimensão podem ser selecionados para uma única chave de dimensão.
-
-#### <a name="using-markdown-language-in-description-fields"></a>Usando o idioma de redução nos campos de descrição
-
-Os modelos e as avaliações dão suporte ao uso do idioma de redução para alguns elementos de texto e formatação.  Há três elementos de formatação de idiomas de redução usados no Gerenciador de conformidade:
-
-- Listas de marcadores e numeradas
-- Hiperlinks
-- Exibidas
-
-Os marcadores são representados como asteriscos em vez de marcadores do Word ou Excel. Por exemplo:
-
-```Markdown
-* Item A
-* Item B
-* Item C
-```
-
-Os números são representados como números, mas com espaços para recuo (três espaços por nível) e apenas números usados para todos os subníveis (por exemplo, sem letras).  Por exemplo:
-   1. Item A
-   2. Item B
-      1. Subitem A
-      2. Subitem B
-   3. Item C
-   4. Item D
-      1. Subitem A
-      2. Subitem B
-   5. Item E
-
-Os hiperlinks são construídos colocando-se entre colchetes ao redor do texto do hiperlink e do hiperlink em si, em parênteses imediatamente ao lado do colchete de fechamento.  Por exemplo:
-
-```Markdown
-Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
-```
-Este texto é renderizado da seguinte maneira: clique [aqui](https://www.microsoft.com) para ir para a Home Page da Microsoft.
-
-Conforme mostrado no exemplo acima, o Gerenciador de conformidade não renderiza URLs com sublinhado.
-
-O texto em negrito é dois asteriscos em cada lado do texto a ser negrito.  Por exemplo:
-
-```Markdown
-**This text will render in bold**
-```
-**Este texto é renderizado em negrito**
-
-### <a name="create-a-template"></a>Criar um modelo
-
-Você pode criar um modelo copiando um modelo existente ou importando dados de modelo do Excel. Ao importar dados do Excel, o modelo requer dois administradores de Gerenciador de conformidade diferentes para publicar os dados (um para publicar e um para aprovar).
-
-#### <a name="create-a-template-by-copying-an-existing-template"></a>Criar um modelo copiando um modelo existente
+#### <a name="customize-a-template-through-the-extension-process"></a>Personalizar um modelo por meio do processo de extensão
 
 1. Abra o painel de **modelos** e selecione **+ Adicionar modelo**.
-2. No campo **Inserir nome do modelo** , forneça um nome exclusivo para o modelo.
-3. Marque a caixa de seleção **Copiar de um modelo existente** e selecione o modelo que você deseja copiar da lista suspensa.
-4. Opcionalmente, adicione qualquer dimensão adicional.
-5. Selecione **Adicionar ao painel**.
+2. No painel do menu suspenso modelo, marque a caixa de seleção **criar extensão a partir do modelo global** .
+3. Selecione o modelo que você deseja estender no menu suspenso.
+4. Se você ainda não tiver formatado seus dados de modelo no Excel, selecione o link no painel de submenus para baixar um arquivo do Excel. Preencha a planilha de acordo com as instruções de [importação de dados do modelo com o Excel](#import-template-data-with-excel) e salve-o em sua unidade local.
+5. Importe os dados do modelo personalizado selecionando **procurar** para carregar o arquivo do Excel.
+6. Selecione **Adicionar ao painel**. Em seguida, você verá o novo modelo adicionado ao painel **modelos** .
 
-#### <a name="create-a-template-by-importing-data"></a>Criar um modelo importando dados
+#### <a name="create-your-own-template-and-import-it-into-compliance-manager"></a>Criar seu próprio modelo e importá-lo para o Gerenciador de conformidade
 
 1. Abra o painel de **modelos** e selecione **+ Adicionar modelo**.
-2. No campo **Inserir nome do modelo** , forneça um nome exclusivo para o modelo.
-3. Selecione pelo menos uma dimensão da lista disponível.
-4. Selecione **procurar** para navegar até o local do arquivo de importação, selecione-o e selecione **abrir**.
-5. O arquivo de importação será validado e indicará o número de controles e famílias de controle que foram detectados. Se houver erros, um link será fornecido para uma versão modificada do arquivo de importação que inclui detalhes do erro. Todos os erros devem ser resolvidos para que os dados sejam importados.
-6. Depois que os dados passarem na validação, selecione **Adicionar ao painel**.
-7. O modelo importado aparece no painel **modelos** e tem um status de **importado**. Selecione as reticências (...) e selecione **publicar** para publicar o modelo. Quando a mensagem de confirmação for exibida, selecione **publicar**. O status do modelo muda para **aprovação pendente**.
-8. Outro usuário com a função de administrador do gerente de conformidade deve aprovar o modelo no painel modelos. Eles devem selecionar as reticências (...) e selecionar **aprovar**. Quando a mensagem de confirmação for exibida, selecione **aprovar**. O modelo agora está pronto para uso.
+2. No painel do menu suspenso modelo, selecione **criar um novo modelo**.
+3. Importe os dados do modelo selecionando **procurar** para carregar o arquivo do Excel que contém os dados (consulte [importar dados de modelo com o Excel](#import-template-data-with-excel) abaixo).
+4. Selecione **Adicionar ao painel**. Em seguida, você verá o novo modelo adicionado ao painel **modelos** .
+
+#### <a name="import-template-data-with-excel"></a>Importar dados de modelo com o Excel
+
+Para modificar um modelo ou criar seu próprio modelo, você usará uma [planilha do Excel](https://go.microsoft.com/fwlink/?linkid=2124865) para capturar os dados necessários e carregá-los no Gerenciador de conformidade. Este modelo de planilha tem um formato e esquema específicos que deve ser usado ou não será importado para o Gerenciador de conformidade.
 
 > [!IMPORTANT]
-> Ao criar um modelo, você deve incluir as dimensões de **produto** e **certificação** para garantir que seu modelo seja exibido na pontuação de conformidade.
+> Se você já criou ou personalizou modelos no Gerenciador de conformidade, **esse processo foi atualizado** como parte da versão de abril de 2020 do gerente de conformidade (visualização). **Revise esta seção com cuidado.**
 
-### <a name="customize-a-template"></a>Personalizar um modelo
+A planilha contém quatro guias, três das quais são necessárias:
 
-Os modelos podem ser personalizados por meio de outros controles personalizados. Todos os controles personalizados são considerados controles gerenciados pelo cliente.
+1. Modelo (obrigatório)
+2. ControlFamily (obrigatório)
+3. Ações (obrigatório)
+4. Dimensões (opcional)
 
-#### <a name="add-a-custom-control-to-a-template"></a>Adicionar um controle personalizado a um modelo
+Sua planilha **deve incluir as guias nesta ordem**, caso contrário, seus dados não serão importados com êxito para um modelo.
 
-1. Abra o **modelo** que você deseja modificar.
-2. Selecione **+ Adicionar** controle personalizado.
-3. Selecione uma **família de controle** na lista suspensa ou insira uma nova família de controle, se ela não existir.
-4. Forneça um nome ou ID exclusivo para o controle no campo **ID do controle** .
-5. Forneça o título do controle no campo **título** .
-6. Forneça os requisitos e outras informações para o controle no campo **Descrição** .
-7. Selecione **atribuir** ação do cliente.
-8. Localize a (s) ação (ões) que você deseja atribuir ao controle:
-    - Use **Filtrar por dimensão** para usar dimensões atribuídas à (s) ação (ões) para localizar e listá-las.
-    - Use **Filtrar por proprietário** para usar os proprietários atribuídos à (s) ação (ões) para localizar e listá-los.
-    - Selecione um **tipo de ação** no menu suspenso para listar ações por tipo.
-    - Insira o título da ação a ser localizada e liste-a.
-9. Usando os critérios na etapa 8, uma lista de **ações correspondentes** será exibida. Selecione a primeira ação que você deseja atribuir ao controle.
-10. Os detalhes da ação são exibidos. Selecione a **Descrição** que você deseja usar e selecione **concluído**.
-11. Repita as etapas 9 e 10 para cada ação adicional que você deseja atribuir.
-12. Quando todas as ações aplicáveis forem selecionadas, selecione **atribuir**.
-13. Selecione **salvar** para salvar o novo controle.
+##### <a name="template-tab"></a>Guia modelo
+
+A guia **modelo** é necessária. As informações nesta guia fornecem metadados sobre o modelo. Há quatro colunas obrigatórias. As colunas devem reter a ordem na planilha do Excel, conforme listado abaixo. Você pode adicionar sua própria coluna **depois** das quatro colunas para fornecer suas próprias dimensões. Se você fizer isso, adicione-os à guia **dimensões** usando as [instruções abaixo](#dimensions-tab).
+
+- **título**: Este é o título do seu modelo, que deve ser exclusivo. Não é possível compartilhar um nome com outro modelo que você tem no gerente de conformidade, seja ele um modelo que você já tenha criado ou um modelo pré-configurado fornecido pela Microsoft.
+
+- **produto**: esta é uma dimensão obrigatória. Listar o produto associado ao modelo.
+
+- **certificação**: esta é a regulamentação que você está usando para o modelo.
+
+- **Inscopeservices**: estes são os serviços do produto que esta avaliação resolve (por exemplo, se você listou o Office 365 como produto, o Microsoft Teams pode ser um serviço no escopo). Você pode listar vários serviços separados por dois pontos e vírgulas.
 
 > [!NOTE]
-> As alterações feitas em um modelo não serão refletidas nas avaliações existentes. As atualizações de modelo devem ser feitas primeiro e, em seguida, aplicadas a uma nova avaliação, para que as alterações sejam vistas.
+> Sobre o produto e a certificação: os dados inseridos no **produto** e nas células de **certificação** não podem ser editados após a importação da planilha para criar ou personalizar um modelo. Além disso, um grupo não pode conter duas avaliações que tenham a mesma combinação de **produto/certificação** . Você pode ter vários modelos com a mesma combinação de produto/certificação.
+
+##### <a name="controlfamily-tab"></a>Guia ControlFamily
+
+A guia **ControlFamily** é necessária.  As colunas obrigatórias nesta guia, que devem seguir a ordem fornecida na planilha de exemplo, são:
+
+- **ControlName**: Este é o nome do controle da certificação, padrão ou regulamentação, que normalmente é um tipo de ID. Os nomes de controle devem ser exclusivos em um modelo. Não é possível ter vários controles com o mesmo nome na planilha.
+
+- **controlFamily**: forneça uma palavra ou frase para o controlFamily, que identifica um amplo agrupamento de controles. Um controlFamily não precisa ser exclusivo; Ele pode ser listado mais de uma vez em uma planilha. O mesmo controlFamily também pode ser listado em vários modelos, embora não tenham nenhuma relação entre si. Cada controlFamily deve ser mapeado para pelo menos um controle.
+
+- **controlTitle**: forneça um título para o controle. Enquanto o ControlName é um código de referência, o título é um formato Rich Text geralmente visto nas regulamentações.
+
+- **controlDescription**: forneça uma descrição do controle.
+
+- **controlActionTitle**: Este é o título de uma ação que você deseja relacionar a este controle. Você pode adicionar várias ações separando por dois pontos e vírgulas sem espaço entre elas. Todos os controles que você lista deve incluir pelo menos uma ação, e a ação deve existir (o que significa que você pode listar uma ação listada na guia **ações** da mesma planilha, uma ação que existe em um modelo diferente ou uma ação criada pela Microsoft). Diferentes controles podem fazer referência à mesma ação.
+
+##### <a name="actions-tab"></a>Guia ações
+
+A guia **ações** é necessária.  Ele designa ações da sua organização e não as ações da Microsoft, que já existem no gerente de conformidade. As colunas necessárias para esta guia, que devem seguir a ordem fornecida na planilha de exemplo, são:
+
+- **actionTitle**: Este é o título da ação e é um campo obrigatório. O título fornecido deve ser exclusivo. **Importante**: se você se referir a uma ação que já existe (como em outro modelo) e modificar qualquer um de seus elementos nas colunas subsequentes, essas alterações serão propagadas para a mesma ação em outros modelos.
+
+- **ImplementationType**: neste campo obrigatório, liste um dos três tipos de implementação abaixo:
+    - **Operações operacionais** implementadas por pessoas e processos para proteger a confidencialidade, integridade e disponibilidade de sistemas organizacionais, ativos, dados e funcionários (exemplo: reconhecimento de segurança e treinamento)
+    - **Técnicas** -ações concluídas por meio do uso de tecnologia e mecanismos contidos nos componentes de hardware, software ou firmware do sistema de informações para proteger a confidencialidade, integridade e disponibilidade de sistemas e dados organizacionais (exemplo: autenticação multifator)
+    - **Documentação** -ações implementadas por meio de políticas e procedimentos documentados que estabelecem e definem os controles necessários para proteger a confidencialidade, integridade e disponibilidade de sistemas organizacionais, ativos, dados e funcionários (exemplo: uma política de segurança de informações)
+
+- **actionScore**: neste campo obrigatório, forneça um valor numérico de Pontuação para a ação. Deve ser um número inteiro variando de 1 a 99; Ele não pode ser 0, nulo ou vazio. Quanto maior o número, maior o valor para melhorar a postura de conformidade. Para obter orientação, confira a seguir como a Microsoft classifica seus controles:
+
+![Valores de pontos de controles do Gerenciador de conformidade](../media/compliance-score-controls-scoring.png "Valores de pontos de controles do Gerenciador de conformidade")
+
+- **actionDescriptionTitle**: Este é o título da descrição e é obrigatório. Este título de descrição permite que você tenha a mesma ação em vários modelos e, em seguida, uma descrição diferente em cada modelo.  Este campo ajuda você a esclarecer em qual modelo a descrição faz referência. Na maioria dos casos, é possível colocar o nome do modelo que você está criando nesse campo.
+
+- **actionDescription**: forneça uma descrição da ação. Você pode aplicar formatação, como texto em negrito e hiperlinks. Este é um campo obrigatório.
+
+- **Dimension-propósito de ação**: Este é um campo opcional. Se você incluir, o cabeçalho deve incluir o prefixo "Dimension-". Qualquer dimensão que você incluir aqui será usada como [filtros na pontuação de conformidade](compliance-score-setup.md#filtering-your-dashboard-view) e aparecerá na [página de detalhes de ações de melhoria na pontuação de conformidade](working-with-compliance-score.md#view-your-improvement-actions).
+
+##### <a name="dimensions-tab"></a>Guia dimensões
+
+A guia **dimensões** é opcional. No entanto, se você fizer referência a uma dimensão em outro lugar, precisará especificá-la aqui se ela não existir em um modelo já criado ou em um modelo do Microsoft. As colunas desta guia estão listadas abaixo:
+
+- **dimensionKey**: list como "Product", "certifications", "Action purpose"
+- **dimensionvalue**: exemplos: Office 365, HIPPA, preventivo, detecção
+
+Você pode exibir as dimensões existentes indo para o **Gerenciamento de locatários** e selecionando a guia **dimensões** . Além disso, sempre que você exportar um modelo existente, a planilha exportada terá a guia **dimensões** , que lista todas as dimensões usadas no modelo.
+
+### <a name="modify-an-existing-template"></a>Modificar um modelo existente
+
+Para fazer alterações em um modelo que você criou ou personalizou usando o processo de importação descrito acima, use o mesmo processo para importar essas alterações no modelo.
+
+> [!NOTE]
+> Há vários fatores importantes que devem ser cientes à medida que você edita os componentes do modelo, portanto, leia esta seção com cuidado.
+
+#### <a name="general-process-for-modifying-a-template"></a>Processo geral para modificar um modelo
+
+Para fazer alterações em um dos modelos existentes da sua organização, o processo geral é:
+
+1. No painel **modelos** , selecione o modelo que você deseja modificar, que exibe o painel informações de seus **controles** mostrando a guia **modelo** .
+2. A partir daqui, selecione **Exportar**. Uma planilha do Excel com todos os seus dados de modelo será baixada.
+3. Para editar, adicionar ou remover uma ação, consulte as seções a seguir.
+4. Quando você terminar de fazer alterações no arquivo do Excel, importe o arquivo de volta para o modelo selecionando o modelo no painel e selecionando **importar**. Agora, o modelo incluirá as alterações feitas.
+
+#### <a name="to-edit-template-attributes"></a>Para editar atributos de modelo
+
+Na guia **modelos** , é possível editar qualquer coisa na coluna **título** , a coluna **inscopeservices** , e em qualquer outra coluna que você possa ter adicionado. No entanto, não é possível editar nada nas colunas **produto** ou **certificação** .
+
+#### <a name="to-add-an-action-to-a-template"></a>Para adicionar uma ação a um modelo
+
+1. Vá para a guia **ações** e adicione suas informações nos campos obrigatórios da primeira linha vazia abaixo de suas ações existentes.
+2. Vá para a guia **ControlFamily** . Localize a linha que contém o controle para o qual sua ação é mapeada. Adicione sua nova ação à coluna **controlActionTitle** nessa linha (Lembre-se de separar várias ações nesse campo com dois pontos e vírgulas, sem espaço entre elas).
+3. Salve sua planilha no computador local.
+
+#### <a name="to-edit-an-actions-information"></a>Para editar as informações de uma ação
+
+Você pode alterar as informações de qualquer ação *, exceto seu título*. Você pode editar qualquer célula das colunas B em diante e ao importar o arquivo de volta para o modelo, as ações nesse modelo agora conterá os dados atualizados.
+
+Não é possível editar o **actionTitle** (coluna A) porque, se você fizer isso, o Gerenciador de conformidade considera que isso seja uma nova ação. Se você quiser alterar o nome de uma ação, consulte as instruções imediatamente abaixo.
+
+#### <a name="to-change-the-name-of-an-action"></a>Para alterar o nome de uma ação
+
+Se você deseja alterar o nome de uma ação, é preciso designar explicitamente na planilha que você está substituindo um nome existente por um novo nome. Para alterar o nome de uma ação, siga estas etapas:
+
+1. Na guia **ações** da planilha, adicione uma nova coluna à planilha após A coluna a.
+2. Nesta nova coluna, que agora é a coluna B, coloque o cabeçalho na linha 1: **oldActionTitle**.
+3. Copie o conteúdo da coluna A e cole-o na coluna B. Isso coloca os títulos de ações existentes, que são o que você deseja alterar, na coluna B.
+4. Na coluna A, **actionTitle**, exclua o nome antigo e substitua-o pelo novo nome da ação.
+
+#### <a name="to-remove-an-action-from-a-template"></a>Para remover uma ação de um modelo
+
+A exclusão de uma ação de uma linha em **uma planilha não** remove a ação do modelo que você está editando. Em vez disso, siga o processo abaixo para remover uma ação:
+
+1. Na guia **ações** , insira uma nova coluna como A coluna a **e colocar na linha de cabeçalho** , que é a linha número um.
+2. Na linha da ação que você deseja remover, coloque **delete** na coluna A para essa linha.
+3. Certifique-se de que essa ação não é mais referenciada por um controle. Vá para a guia **ControlFamily** e procure o título da ação na coluna F, que é **controlActionTitle**.
+4. Quando você encontrar a ação listada na coluna **controlActionTitle** , exclua-a.
+5. Salve sua planilha no computador local.
+
+Quando você importar sua planilha de volta para o modelo, sua ação será removida do modelo. Remover uma ação de um modelo não remove completamente a ação. Essa ação ainda pode ser referenciada por outro modelo.
+
+Se você estiver removendo a última ação que um controle faz referência, será necessário remover o controle.
+
+> [!NOTE]
+> Para remover um controle: Siga o mesmo processo para remover uma ação, conforme descrito acima. Na guia **ControlFamily** , adicione uma coluna de **operação** e coloque **delete** ao lado do controle que você deseja remover.
+
+### <a name="updates-to-templates"></a>Atualizações para modelos
+
+Cada vez que uma avaliação é atualizada por meio do processo de controle de versão, sua avaliação personalizada herdará essas atualizações e manterá seus controles personalizados. Veja [alertas de controle de versão para atualizações de avaliação](#versioning-alerts-for-assessment-updates).
 
 ### <a name="export-a-template-to-json"></a>Exportar um modelo para JSON
 
-O Gerenciador de conformidade (visualização) também oferece suporte à exportação de modelos para o formato JSON (JavaScript Object Notation). Isso permite que você troque os dados do Gerenciador de conformidade com outros sistemas que dão suporte a JSON.
+O Gerenciador de conformidade (visualização) oferece suporte à exportação de modelos para o formato JSON (JavaScript Object Notation). Isso permite que você troque os dados do Gerenciador de conformidade com outros sistemas que dão suporte a JSON.
 
 ## <a name="reports"></a>Relatórios
 
-Você pode exportar uma avaliação para um arquivo do Excel para stakeholders de conformidade em sua organização ou para auditores externos e reguladores. O relatório é um instantâneo da avaliação a partir da data e hora da exportação. O relatório contém os detalhes do Microsoft e dos controles gerenciados pelo cliente para avaliação, o status da implementação do controle, a data de teste de controle, os resultados do teste e os links para documentos de evidência carregados. Você deve exportar avaliações antes de arquivá-las, pois as avaliações arquivadas não mantêm links para documentos carregados.
+Você pode exportar uma avaliação para um arquivo do Excel para stakeholders de conformidade em sua organização ou para auditores externos e reguladores. O relatório é um instantâneo da avaliação a partir da data e hora da exportação. O relatório contém os detalhes do Microsoft e dos controles gerenciados pelo cliente para avaliação, o status da implementação do controle, a data de teste de controle, os resultados do teste e os links para documentos de evidência carregados. Como as avaliações ocultas não retêm links para documentos carregados, você deve exportar a avaliação antes de ocultá-la.
 
 ### <a name="export-an-assessment"></a>Exportar uma avaliação
 
@@ -594,9 +581,9 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 2. Selecione o grupo e a avaliação nos menus suspensos da avaliação que você deseja exportar.
 3. Selecione exportar. A exportação de avaliação é baixada como um arquivo do Excel.
 
-![Relatório do Excel de avaliação do Gerenciador de conformidade](../media/compliance-manager-assessment-report.png)
+![Relatório do Excel de avaliação do Gerenciador de conformidade](../media/compliance-manager-assessment-report.png "Relatório do Excel de avaliação do Gerenciador de conformidade")
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

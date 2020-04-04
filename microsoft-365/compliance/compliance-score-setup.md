@@ -13,13 +13,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como entrar, configurar permissões e entender seu painel para a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar avaliações de riscos.
-ms.openlocfilehash: 8233fb3174d822e4f71115cab2a1a174c1749810
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Saiba como configurar e começar a usar a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar as avaliações de risco.
+ms.openlocfilehash: 334eb47ebf5057bfa1c426715e8f404979ceaf5b
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635119"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141516"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Configuração da Pontuação de conformidade da Microsoft (versão prévia)
 
@@ -32,15 +32,17 @@ O administrador global do Microsoft 365 da sua organização provavelmente será
 1. Vá para o [centro de conformidade da microsoft 365](https://compliance.microsoft.com/) e **entre** com sua conta de administrador global do Microsoft 365.
 2. Selecione a **Pontuação de conformidade** no painel de navegação esquerdo. Em seguida, você deve ver seu [painel de Pontuação de conformidade com sua pontuação](#understand-the-compliance-score-dashboard).
 
+O link direto para a pontuação de conformidade do [https://compliance.microsoft.com/compliancescore](https://compliance.microsoft.com/compliancescore)Access é:.
+
 ## <a name="set-user-permissions-and-assign-roles"></a>Definir permissões de usuário e atribuir funções
 
 A pontuação de conformidade usa um modelo de permissão RBAC (controle de acesso baseado em função). Somente os usuários atribuídos a uma função podem acessar a pontuação de conformidade, e as ações permitidas por cada usuário são restringidas por tipo de função.
 
 ### <a name="where-to-set-permissions"></a>Onde definir permissões
 
-O administrador global da sua organização pode definir permissões de usuário no centro de conformidade da Microsoft 365 ou no Azure Active Directory (Azure AD). Depois que as funções são definidas em qualquer um desses locais, os usuários poderão acessar a pontuação de conformidade (bem como o Gerenciador de conformidade).
+O administrador global da sua organização pode definir permissões de usuário no centro de conformidade da Microsoft 365 ou no Azure Active Directory (Azure AD). Depois que as funções são definidas em qualquer um desses locais, os usuários podem acessar a pontuação de conformidade, bem como o Gerenciador de conformidade.
 
-Observe que as funções do Gerenciador de conformidade existentes **não são** transferidas para a pontuação de conformidade.  Isso significa que, se você já tiver atribuído uma função ao gerente de conformidade, essa função não concederá acesso à pontuação de conformidade. Seu administrador global precisará definir permissões e uma função para você no centro de conformidade da Microsoft 365 ou no Azure AD para que você possa acessar a pontuação de conformidade.
+Observe que as funções do Gerenciador de conformidade existentes **não são** transferidas para a pontuação de conformidade. Se você tiver uma função no gerente de conformidade e for nova na pontuação de conformidade, sua função de gerente de conformidade não concederá acesso à pontuação de conformidade. Seu administrador global precisará definir permissões e uma função para você no centro de conformidade da Microsoft 365 ou no Azure AD para que você possa acessar a pontuação de conformidade.
 
 ### <a name="role-types"></a>Tipos de função
 
@@ -68,7 +70,7 @@ Para definir permissões no centro de conformidade da Microsoft 365:
 
 ## <a name="configure-automatic-secure-score-updates"></a>Configurar atualizações automáticas de Pontuação segura
 
-Por padrão, todos os novos locatários têm as atualizações automáticas de [Pontuação segura](../security/mtp/microsoft-secure-score.md) ativadas. Isso significa que todas as ações monitoradas por Pontuação segura atualizarão automaticamente o status da mesma ação na pontuação de conformidade.
+Por padrão, todos os novos locatários têm as atualizações automáticas de [Pontuação segura](../security/mtp/microsoft-secure-score.md) ativadas. Todas as ações monitoradas por Pontuação segura atualizarão automaticamente o status da mesma ação na pontuação de conformidade.
 
 O administrador global pode gerenciar essa configuração para desativar as atualizações automáticas de todas as ações ou definir atualizações para ações individualmente.
 
@@ -84,7 +86,7 @@ Para gerenciar atualizações automáticas de Pontuação segura, siga estas eta
 
 Se você escolher **definir por ação,** siga estas etapas adicionais para ativar as atualizações de Pontuação segura para ações individuais:
 
-4. Selecione **Gerenciador de conformidade** no menu superior (Observação: não selecione "Gerenciador de conformidade (clássico)").
+4. Selecione **Gerenciador de conformidade** no menu superior (não selecione "Gerenciador de conformidade (clássico)", que é um produto herdado).
 
 5. Selecione **Gerenciamento de locatário** no canto superior direito da tela.
 
@@ -106,7 +108,7 @@ O painel de Pontuação de conformidade foi projetado para fornecer uma visão g
 
 ### <a name="overall-compliance-score"></a>Pontuação de conformidade geral
 
-Sua pontuação de conformidade, destacada em destaque na parte superior, mostra uma porcentagem com base nos pontos obtidos para a conclusão das ações de melhorias que lidam com os principais padrões e regulamentações de proteção de dados.
+A pontuação de conformidade é apresentada em destaque na parte superior. Ele mostra uma porcentagem com base nos pontos obtidos para a conclusão de ações de melhoria que tratam das normas e dos padrões principais de proteção de dados.
 
 Quando você chegar à pontuação de conformidade pela primeira vez, sua pontuação inicial se baseará na linha de base de proteção de dados interna da Microsoft 365 — um conjunto de controles que inclui normas e padrões comuns do setor. Como a pontuação de conformidade verifica seu sistema de soluções existentes da Microsoft 365, ela fornece uma avaliação inicial da postura de conformidade com base nas configurações de privacidade e segurança atualmente habilitadas pela sua organização.
 
@@ -114,11 +116,11 @@ Quando você chegar à pontuação de conformidade pela primeira vez, sua pontua
 
 ### <a name="key-improvement-actions"></a>Ações de melhoria de chave
 
-Esta seção lista as principais ações de aprimoramento que você pode tomar agora para fazer o maior impacto positivo em sua pontuação geral de conformidade. Ele lista ações que não foram concluídas ou falharam com a avaliação com altos riscos.
+Esta seção lista as principais ações de aprimoramento que você pode tomar agora para fazer o maior impacto positivo em sua pontuação geral de conformidade.
 
 ### <a name="solutions-that-affect-your-score"></a>Soluções que afetam sua pontuação
 
-Esta seção mostra quais soluções contêm ações com a maior oportunidade de afetar positivamente sua pontuação e quantas ações de melhorias pendentes você tem em cada solução.
+Esta seção mostra soluções contendo ações com a maior oportunidade de afetar positivamente sua pontuação e o número de ações de melhorias pendentes em cada solução.
 
 ### <a name="compliance-score-breakdown"></a>Divisão de Pontuação de conformidade
 
@@ -134,9 +136,9 @@ Você pode filtrar o modo de exibição do painel para ver apenas os itens relac
 Para aplicar filtros:
 
 1. Selecione **filtro** no lado superior direito do painel.
-2. Selecione os critérios de filtro no painel **filtros** de submenu e selecione **aplicar**.
+2. Selecione seus critérios de filtro no painel de submenu **filtros** e selecione **aplicar**.
 
-Após a aplicação de um filtro, você verá sua pontuação ajustada em tempo real. A porcentagem de Pontuação de conformidade e as informações de divisão, e as ações e soluções de melhoria, agora pertencem apenas aos dados cobertos por seus critérios de filtro. Se você sair da Pontuação de conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
+Depois de aplicar um filtro, você verá sua pontuação ajustada em tempo real. A porcentagem de Pontuação de conformidade e as informações de divisão, e as ações e soluções de melhoria, agora pertencem apenas aos dados cobertos por seus critérios de filtro. Se você sair da Pontuação de conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
 
 Para remover filtros:
 

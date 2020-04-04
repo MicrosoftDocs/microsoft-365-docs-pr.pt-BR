@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: c3833b656eb00eeb5a8c5e78fbdb7ae4ff9c2321
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 8b9ae2a8396ff984b8468cf364c1112cb2ef6b13
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633409"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142592"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -87,8 +87,6 @@ Se você estiver migrando de *cartão de crédito ou conta bancária para fatura
   
 Quando você muda de pagamento por fatura para pagar com um cartão de crédito ou uma conta bancária, criamos automaticamente uma nova assinatura para você, move seus usuários para a nova assinatura e, em seguida, desabilita sua assinatura antiga. Não se preocupe, seus usuários não verão uma interrupção no serviço e todas as informações estarão disponíveis por meio da nova assinatura.
 
-### <a name="use-the-new-admin-center-to-change-from-invoice-to-credit-card-or-bank-account"></a>Usar o novo centro de administração para mudar de fatura para cartão de crédito ou conta bancária
-
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões**.
@@ -102,28 +100,6 @@ Quando você muda de pagamento por fatura para pagar com um cartão de crédito 
 6. Se você adicionar um método de pagamento, insira os detalhes do cartão ou da conta e selecione **salvar**.
   
 7. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
-
-### <a name="use-the-old-admin-center-to-change-from-invoice-to-credit-card-or-bank-account"></a>Usar o centro de administração antigo para mudar de fatura para cartão de crédito ou conta bancária
-
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de **cobrança** \> .
-
-2. Encontre a assinatura que você deseja alterar. Na seção **detalhes de pagamento** , selecione **alterar detalhes de pagamento**.
-  
-3. No painel **alterar detalhes de pagamento** , selecione **alterar a forma de pagamento**.
-  
-4. Na caixa de diálogo **alterar o método de pagamento** , selecione **continuar**.
-  
-5. Na página **como esta aparência?** , você pode, opcionalmente, aumentar o número de licenças desejadas para essa assinatura. Para continuar, selecione **Avançar**.
-
-6. Algumas assinaturas têm a opção de compromisso mensal ou anual. Se você vir uma opção de pagamento anual ou mensal na página **Como você deseja pagar?**, escolha a frequência com que você deseja pagar.
-  
-7. Na lista **de métodos de pagamento** , escolha **cartão existente**, **novo cartão de crédito**ou **nova conta bancária**.
-  
-8. Se você escolher a opção **novo cartão de crédito** ou **nova conta bancária** , preencha o restante das informações de pagamento.
-
-9. Quando tiver concluído o preenchimento do formulário, selecione **fazer pedido**.
-
-Ao retornar para a página **Assinaturas**, você verá a assinatura antiga marcada como **Desabilitada** e a nova marcada como **Ativa**. Você pode deixar a antiga assinatura expirar.
 
 ::: moniker-end
 
@@ -164,8 +140,6 @@ Você pode alterar para pagar por fatura somente se o seu pedido estiver acima d
 
 Se a quantidade de pedidos for muito alta, uma verificação de crédito poderá ser necessária. Em caso afirmativo, você verá a mensagem "não qualificado para mudar para fatura. Seu pedido requer uma verificação de crédito. " Nesse caso, você muda para pagar por fatura manualmente. Use as etapas a seguir para concluir a alteração manual.
 
-Se não for necessária nenhuma verificação de crédito, use as etapas em [usar o novo centro de administração para mudar de cartão de crédito ou conta bancária para fatura](#use-the-new-admin-center-to-change-from-credit-card-or-bank-account-to-invoice).
-
 1. Vá para <a href="https://Office365.com" target="_blank">office365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
 
 > [!IMPORTANT]
@@ -173,7 +147,7 @@ Se não for necessária nenhuma verificação de crédito, use as etapas em [usa
 
 2. Após a conclusão da compra, cancele a assinatura original. Seus usuários são automaticamente movidos para a nova assinatura.
 
-### <a name="use-the-new-admin-center-to-change-from-credit-card-or-bank-account-to-invoice"></a>Usar o novo centro de administração para mudar de cartão de crédito ou conta bancária para fatura
+Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura.
 
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
@@ -190,23 +164,6 @@ Se não for necessária nenhuma verificação de crédito, use as etapas em [usa
 7. Quando tiver terminado, selecione **salvar**.
 
 8. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
-
-### <a name="use-the-old-admin-center-to-change-from-credit-card-or-bank-account-to-invoice"></a>Usar o centro de administração antigo para mudar de cartão de crédito ou conta bancária para fatura
-
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de **cobrança** \> .
-
-2. Encontre a assinatura que você deseja alterar. Na seção **método de pagamento** , selecione **alterar detalhes de pagamento**.
-
-    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
-  
-3. No painel **alterar detalhes de pagamento** , selecione **alterar a forma de pagamento**.
-
-    > [!TIP]
-    > Se o link **alterar seu método de pagamento** não for exibido, isso significa que você não pode mudar de cartão de crédito ou conta bancária para fatura porque a assinatura não atende ao valor de custo mínimo necessário para pagar por fatura. O valor de custo mínimo varia por localização geográfica.
-  
-4. Na caixa de diálogo **alterar o método de pagamento** , selecione **continuar**.
-  
-5. Selecione **OK** para retornar ao centro de administração.
 
 ::: moniker-end
 
@@ -236,20 +193,9 @@ Se não for necessária nenhuma verificação de crédito, use as etapas em [usa
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.
 
-> [!NOTE]
-> Se você não usa o novo centro de administração do Microsoft 365, primeiro deve ativá-lo. Para ativá-lo, selecione o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page.
-
-### <a name="use-the-new-admin-center-to-verify-which-payment-method-is-configured"></a>Use o novo centro de administração para verificar qual método de pagamento está configurado
-
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece na seção **cobrança** .
-
-### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Usar o centro de administração antigo para verificar qual método de pagamento está configurado
-
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de **cobrança** \> .
-
-2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece sob **método de pagamento**.
 
 ::: moniker-end
 

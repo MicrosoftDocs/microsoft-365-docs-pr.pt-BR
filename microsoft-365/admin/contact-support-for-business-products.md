@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para sua região ou localidade, enviando uma solicitação de serviço online ou visitando a Microsoft Store.
 feedback_system: None
-ms.openlocfilehash: b77f08b8e0734cfa7629a5c5d61f22d63ef6328c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106055"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142546"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Contatar o suporte para produtos empresariais – Ajuda para Administradores
 
@@ -39,9 +39,6 @@ ms.locfileid: "43106055"
 ## <a name="online-support"></a>[Suporte online](#tab/online)
 
 Inicie uma solicitação de serviço online para economizar tempo. Ajudaremos você a encontrar uma solução ou indicaremos um especialista, que o contatará por email ou telefone. [Saiba mais sobre os tempos de resposta iniciais do suporte](https://go.microsoft.com/fwlink/p/?LinkId=518251).
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Se receber uma mensagem informando que você não tem permissão para acessar essa página ou executar essa ação, você não é um administrador. [Quem tem permissões de administrador na minha empresa?](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
 
@@ -80,8 +77,6 @@ Agora você pode agendar um horário no seu local Microsoft Store com um especia
 2. Insira sua localização e escolha pesquisar para encontrar uma Microsoft Store perto de você.
 
 3. Escolha a loja e selecione **Agendar uma sessão de atendimento agora**.
-
----
 
 ::: moniker-end
 

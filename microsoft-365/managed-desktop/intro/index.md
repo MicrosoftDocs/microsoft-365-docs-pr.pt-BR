@@ -5,14 +5,14 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 7c2cb707f606d6f3f622a72a9fea9fb437626b2b
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204230"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142678"
 ---
-# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
+# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
 
 O Microsoft Managed desktop é um serviço baseado em nuvem que reúne [o microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo o [Windows 10](https://docs.microsoft.com/windows/windows-10/) enterprise e o [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adicionando estes recursos:
@@ -67,13 +67,14 @@ Também monitoramos a integridade do dispositivo e fornecemos informações sobr
 ## <a name="need-more-details"></a>Precisa de mais detalhes?
 Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar com mais são o [mapa](https://aka.ms/AA6jiam) e um [Resumo de uma página para](https://aka.ms/AA6ob3h)download. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd)da área de trabalho gerenciada da Microsoft.
 
-Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organização, você pode aprofundar-se na documentação adicional que explica mais sobre o serviço, como preparar sua organização para se inscrever, como começar a usar o serviço e realizar operações em andamento posteriormente inclusive como você e seus usuários finais podem obter a ajuda facilmente, se necessário. Se você já está pronto para entrar, comece entrando em contato com sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
+Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organização, você pode aprofundar-se na documentação adicional que explica mais sobre o serviço, como preparar sua organização para se inscrever, como começar a usar o serviço e realizar operações em andamento, incluindo como você e seus usuários finais podem obter a ajuda facilmente, se necessário. Se você já está pronto para entrar, comece entrando em contato com sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
 
 **Mais visão geral e plano de fundo** Principalmente para tomadores de decisões técnicas e de negócios, esses tópicos detalham a divisão de funções e responsabilidades entre sua organização e a Microsoft, mais sobre as tecnologias usadas no Microsoft Managed desktop e como o serviço se encaixa em uma estratégia mais ampla como parte da estrutura ITIL.
 
 - [Funções e responsabilidades de área de trabalho gerenciada da Microsoft](roles-and-responsibilities.md)
 - [Tecnologias de área de trabalho gerenciada da Microsoft](technologies.md)
 - [Área de Trabalho e ITIL Gerenciados da Microsoft](../MMD-and-ITSM.md)
+- [Conformidade](compliance.md)
 - [Descrição do serviço da Área de Trabalho Gerenciada da Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
 
 **Prepare-se para registro** Estes tópicos descrevem as etapas que você precisará realizar em sua organização para se preparar para o registro, incluindo a verificação de que o ambiente atende aos principais pré-requisitos, a configuração de redes, a configuração de certificados e a preparação de seus aplicativos.

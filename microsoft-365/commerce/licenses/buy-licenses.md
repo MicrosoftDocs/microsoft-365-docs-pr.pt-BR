@@ -1,5 +1,5 @@
 ---
-title: Gerenciar licenças de assinatura
+title: Gerencie licenças de assinatura
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -25,23 +25,20 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Saiba como adicionar e remover licenças para sua assinatura do Office 365 for Business.
-ms.openlocfilehash: 2f9c6b58a478b18fa1844c33689a8a4974a5917a
-ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+ms.openlocfilehash: f596971016e18747ea2849c0dfcb0dd287a0c811
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42410038"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142170"
 ---
-# <a name="manage-subscription-licenses"></a>Gerenciar licenças de assinatura
+# <a name="manage-subscription-licenses"></a>Gerencie licenças de assinatura
 
 Você pode adicionar ou remover licenças de suas assinaturas usando estas etapas.
 
 Você não pode remover uma licença de uma assinatura se ela estiver atribuída a um usuário. Se você deseja remover uma licença atualmente atribuída a alguém, será necessário [remover as licenças dos usuários](../../admin/manage/remove-licenses-from-users.md) antes de poder remover a licença da assinatura.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>O que você precisa saber sobre comprar licenças para sua assinatura comercial
 
@@ -87,7 +84,7 @@ Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usu�
 
 ## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>Não está vendo o link para Adicionar/Remover licenças?
 
-Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças** pode não estar disponível e o que você pode fazer sobre ele. 
+Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças** pode não estar disponível e o que você pode fazer sobre ele.
 
 |Reason  |Descrição  |Solução  |
 |---------|---------|---------|

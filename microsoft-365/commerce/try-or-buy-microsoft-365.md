@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365.
-ms.openlocfilehash: 1b494457b20a1e75ad002b2832fd69ad0a284b53
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0b19a27b44aa62c65bb8dc5542337e106da2ddc5
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251494"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141618"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
@@ -41,9 +41,6 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ## <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Entre no centro de administração [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)em e vá para serviços de **compra**de **cobrança** \> .
 
@@ -70,16 +67,13 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 
 11. Na página **recibo do pedido** , selecione **continuar**.
 
-#### <a name="not-using-the-new-admin-center-yet"></a>Ainda não está usando o novo centro de administração?
-
-Se o novo centro de administração estiver desativado, Assista aos vídeos neste artigo para saber como se inscrever para uma assinatura de avaliação do Microsoft 365: [inscrever-se para obter uma assinatura](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 1. Entre no centro de administração [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)em e vá para serviços de **compra**de **cobrança** \> .
 
-2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
+2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas.
 
 3. Selecione as reticências no plano do Microsoft 365 que você deseja experimentar ou comprar e, em seguida, selecione **Iniciar avaliação gratuita**, que oferece 25 licenças de usuário por um termo de um mês ou você pode selecionar **comprar agora**.
 
@@ -105,6 +99,7 @@ Se o novo centro de administração estiver desativado, Assista aos vídeos nest
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
+
 1. Entre no centro de administração [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)em e vá para serviços de **compra**de **cobrança** \> .
 
 2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
@@ -132,10 +127,9 @@ Se o novo centro de administração estiver desativado, Assista aos vídeos nest
 
 ::: moniker-end
 
-
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de obter a nova assinatura, você precisa atribuir uma licença aos usuários que utilizarão essa assinatura. Para saber como, confira [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md) .
+Depois de obter a nova assinatura, você precisa atribuir uma licença aos usuários que utilizarão essa assinatura. Para saber como, confira [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
@@ -144,4 +138,3 @@ Depois de obter a nova assinatura, você precisa atribuir uma licença aos usuá
 [Comprar ou editar um complemento do Office 365 para empresas](buy-or-edit-an-add-on.md)
 
 [Adicionar espaço de armazenamento para sua assinatura](add-storage-space.md)
-

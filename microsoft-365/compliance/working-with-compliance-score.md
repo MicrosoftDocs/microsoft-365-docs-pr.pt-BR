@@ -14,26 +14,28 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como usar as ferramentas de fluxo de trabalho na pontuação de conformidade da Microsoft para ajudá-lo a gerenciar a conformidade da sua organização.
-ms.openlocfilehash: 046a370fe1294220ee4ee6150311df5f51905674
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8fe36f0cdf5e204e0fa6150141cc348b0d0e325f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601188"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142582"
 ---
 # <a name="working-with-microsoft-compliance-score-preview"></a>Trabalhando com a pontuação de conformidade da Microsoft (visualização)
 
-## <a name="managing-your-workflow-with-improvement-actions"></a>Gerenciando seu fluxo de trabalho com ações aprimoradas
+Este artigo explica como trabalhar com os principais elementos da Pontuação de conformidade. Você aprenderá a usar as **ações de melhoria** para gerenciar seu fluxo de trabalho de conformidade. Você também aprenderá a usar as informações em suas páginas de **soluções** e **avaliações** e como produzir relatórios.
 
-O uso de ações de melhoria na pontuação de conformidade centraliza os fluxos de trabalho de conformidade. As ações de melhoria sugerem ações recomendadas para alinhar-se às normas e aos padrões de proteção de dados e fornecer orientações detalhadas de implementação. Você pode atribuí-los aos usuários para executar a implementação e o trabalho de teste necessários. Você também pode armazenar a documentação e as anotações e registrar as atualizações de status imediatamente na própria ação de melhoria.
+## <a name="manage-your-workflow-with-improvement-actions"></a>Gerenciar seu fluxo de trabalho com ações aprimoradas
+
+As **ações de melhoria** centralizam suas atividades de conformidade. Cada ação de melhoria fornece orientações detalhadas de implementação para ajudá-lo a se alinhar com regulamentos e padrões de proteção de dados. As ações podem ser atribuídas aos usuários em sua organização para executar o trabalho de implementação e teste. Você também pode armazenar documentação, anotações e registrar as atualizações de status na ação de melhoria.
 
 ## <a name="view-your-improvement-actions"></a>Exibir suas ações de aperfeiçoamento
 
-O painel de Pontuação de conformidade mostra suas **ações de melhoria de chave**, as que têm os pontos mais disponíveis que atendem aos problemas mais importantes.
+O painel de Pontuação de conformidade mostra as **principais ações de aprimoramento**, as que têm os pontos mais disponíveis que tratam dos problemas mais importantes.
 
-Para exibir todas as ações de aperfeiçoamento, selecione a guia **ações de aprimoramento** no painel ou selecione **Exibir todas as ações de aprimoramento** abaixo da lista de ações de aprimoramento de chave no painel. Isso leva você para a página **ações de melhoria** , onde você pode ver todas as ações de melhoria da sua organização.
+Para exibir todas as ações de aperfeiçoamento na página **ações de aprimoramento** , selecione a guia ações de **aprimoramento** no painel. Ou selecione **Exibir todas as ações de aprimoramento** abaixo da lista de ações de melhoria de chave no painel.
 
-Se você tiver uma longa lista de ações, talvez seja útil filtrar o modo de exibição. Para fazer isso, selecione **filtro** no canto superior direito da lista ações. Quando o painel de submenu **filtros** for exibido, selecione os critérios desejados com base em regulamentos e padrões, solução e grupo. Você também pode personalizar o modo de exibição selecionando **Agrupar** no canto superior direito e, no menu suspenso, selecione para exibir por grupo, solução, categoria, tipo de ação ou status.
+Se você tiver uma longa lista de ações, talvez seja útil filtrar o modo de exibição. Selecione **filtro** no canto superior direito da lista ações. Quando o painel de submenu **filtros** for exibido, selecione seus critérios com base em regulamentos e padrões, solução e grupo. Você também pode personalizar o modo de exibição selecionando **Agrupar** no canto superior direito. No menu suspenso, selecione para exibir por grupo, solução, categoria, tipo de ação ou status.
 
 O modo de exibição padrão para esta página não mostra ações de aperfeiçoamento com um status de teste de **aprovado**. Para exibir ações que passaram no teste, marque a caixa **aprovado** no painel de submenu **filtros** . Somente as ações com um status de teste de contagem **passada** em relação à sua pontuação.
 
@@ -44,7 +46,7 @@ A página ações de melhoria mostra os seguintes pontos de dados para cada aç�
 - **Grupo**: o grupo ao qual você atribuiu a ação
 - **Soluções**: a solução onde você pode ir para executar a ação
 - **Avaliações**: a avaliação (que organiza os controles para atender a um determinado objetivo de conformidade) no qual a ação reside
-- **Categorias**: a categoria de proteção de dados relacionada (ou seja, proteger informações, gerenciar dispositivos etc.)
+- **Categorias**: a categoria de proteção de dados relacionada (como proteger informações, gerenciar dispositivos etc.)
 - **Status do teste**:
     - **Nenhuma** -nenhuma atualização de status registrada
     - **Não avaliado** -o teste não foi iniciado
@@ -56,9 +58,9 @@ A página ações de melhoria mostra os seguintes pontos de dados para cada aç�
 
 ### <a name="improvement-actions-details"></a>Detalhes das ações de melhoria
 
-Cada ação de melhoria tem uma página de detalhes. Esta página contém instruções de implementação detalhadas, que explicam como executar as ações recomendadas para lidar com os padrões relacionados e os requisitos normativos listados sob um cabeçalho de **visão geral** .
+Cada ação de melhoria tem uma página de detalhes. Esta página apresenta instruções de implementação detalhadas para concluir as ações recomendadas para atender aos padrões relacionados e requisitos normativos listados em um cabeçalho de **visão geral** .
 
-A página detalhes é onde você pode iniciar a ação recomendada ou atribuir o trabalho a outro usuário, atualizar status e anexar notas e documentação.
+A página detalhes é onde você pode iniciar a ação recomendada. Você também pode atribuir o trabalho a outro usuário, atualizar o status e anexar notas e documentação.
 
 Para exibir a página de detalhes de uma ação de aprimoramento:
 
@@ -73,7 +75,7 @@ Para iniciar o trabalho de implementação em uma ação de melhoria, você pode
 
 - Um proprietário de política da empresa
 - Um implementador de TI
-- Outro funcionário com responsabilidade de realizar a tarefa 
+- Outro funcionário com responsabilidade de realizar a tarefa
 
 Depois que a pessoa adequada for identificada, certifique-se de que ela tenha uma [função](compliance-score-setup.md#set-user-permissions-and-assign-roles) suficiente na pontuação de conformidade (administrador de conformidade, administrador de dados de conformidade, administrador de segurança ou administrador global) para executar o trabalho e siga estas etapas: 
 
@@ -87,7 +89,7 @@ O usuário atribuído pode então executar as ações recomendadas descritas nas
 
 ## <a name="perform-work-and-store-documentation"></a>Executar documentação de trabalho e armazenamento
 
-Quando você executa o trabalho de implementação, é possível carregar arquivos e anotações diretamente para a ação de melhoria na seção **observações e documentação** . Isso fornece um repositório seguro e centralizado para ajudá-lo a demonstrar a satisfação dos controles para atender aos padrões e regulamentos de conformidade. Qualquer usuário com acesso somente leitura pode ler o conteúdo desta seção. A capacidade de carregar, baixar ou excluir campos ou inserir ou editar anotações é restrita a funções com direitos de edição.
+Quando você executa o trabalho de implementação, é possível carregar arquivos e anotações diretamente para a ação de melhoria na seção **observações e documentação** .  Esse ambiente é um repositório seguro e centralizado para ajudá-lo a demonstrar a satisfação dos controles para atender aos padrões e às normas de conformidade. Qualquer usuário com acesso somente leitura pode ler o conteúdo desta seção. Somente os usuários com direitos de edição podem carregar e baixar arquivos e inserir ou editar anotações.
 
 Os campos da seção **notas e documentação** incluem:
 
@@ -104,7 +106,7 @@ Os campos da seção **notas e documentação** incluem:
 
 **Implementação, teste e notas adicionais**
 
-- Para adicionar anotações em qualquer um desses três campos, selecione **editar notas de implementação** abaixo de qualquer campo de thse.
+- Para adicionar anotações em qualquer um desses três campos, selecione **editar notas de implementação** abaixo de qualquer um desses campos.
 - Quando o painel de submenu abrir, insira notas no campo de texto e, em seguida, selecione **salvar e fechar**.
 - Para editar anotações, selecione **editar notas de implementação**, faça suas edições e, em seguida, selecione **salvar e fechar**.
 
@@ -157,7 +159,7 @@ A página soluções mostra o compartilhamento de pontos ganhos e potenciais com
 
 ### <a name="filtering-your-solutions-view"></a>Filtrando o modo de exibição de soluções
 
-Para filtrar a exibição de soluções: 
+Para filtrar a exibição de soluções:
 
 1. Selecione **filtro** no canto superior esquerdo da sua lista de avaliações.
 2. No painel **filtros** de submenu, coloque uma marca ao lado dos critérios desejados (padrões e regulamentos, solução, tipo de ação, grupo Gerenciador de conformidade, categoria).
@@ -167,13 +169,13 @@ Você também pode modificar o modo de exibição para ver avaliações por grup
 
 ### <a name="taking-actions-from-the-solutions-page"></a>Executando ações da página soluções
 
-A página soluções exibe as soluções da sua organização que estão conectadas às ações de melhoria. A tabela lista a contribuição de cada solução para sua pontuação geral, os pontos de aumento de Pontuação obtidos e possíveis dentro dessa solução, e o número restante de ações de aprimoramento agrupadas nessa solução que podem aumentar sua pontuação. 
+A página soluções exibe as soluções da sua organização que estão conectadas às ações de melhoria. A tabela lista a contribuição de cada solução para sua pontuação geral, os pontos de aumento de Pontuação obtidos e possíveis dentro dessa solução, e o número restante de ações de aprimoramento agrupadas nessa solução que podem aumentar sua pontuação.
 
 Há duas maneiras de executar uma ação nesta tela:
 
-1. Na linha da sua solução pretendida, na coluna **ações restantes** , clique ou toque no número de hiperlink. Isso leva você a um modo de exibição filtrado da tela ações de melhoria mostrando ações de aperfeiçoamento não testadas para essa solução.
+1. Na linha da sua solução pretendida, na coluna **ações restantes** , selecione o número de hiperlink. Você verá um modo de exibição filtrado da tela ações de melhoria mostrando ações de aperfeiçoamento não testadas para essa solução.
 
-2. Na linha da sua solução pretendida, na coluna **Abrir solução** , selecione **abrir**. Isso leva você para a solução ou local nos centros de segurança e conformidade do Microsoft 365 e Office 365, onde você pode executar a ação recomendada.
+2. Na linha da sua solução pretendida, na coluna **Abrir solução** , selecione **abrir**. Você verá a solução ou o local nos centros de segurança e conformidade do Microsoft 365 e do Office 365, onde você pode executar a ação recomendada.
 
 ## <a name="assessments-page"></a>Página de avaliações
 
@@ -185,7 +187,7 @@ Nesta página, você pode exibir rapidamente informações importantes sobre cad
 
 - **Status**: o status para a conclusão de todas as ações de melhoria na avaliação será listado como:
     - **Sem conformidade**: as ações de melhoria na avaliação não foram implementadas e foram testadas com êxito; o trabalho ainda não foi iniciado
-    - **Em andamento**: o trabalho está em andamento na implementação ou teste das ações de melhoria; Isso pode significar, por exemplo, que uma ação de melhoria na avaliação foi atribuída para trabalho, está no processo de implementação e teste
+    - **Em andamento**: o trabalho está em andamento na implementação ou teste das ações de melhoria; por exemplo, uma ação de melhoria na avaliação foi atribuída para trabalho, está em processo de implementação e teste
 - **Progresso da avaliação**: a porcentagem do trabalho realizado em relação à conclusão final da avaliação, conforme medido pelo número de controles testados com êxito.
 - **Ações gerenciadas pelo cliente**: o número de ações concluídas para satisfazer a implementação dos seus controles gerenciados pelo cliente
 - **Ações gerenciadas pela Microsoft**: o número de ações concluídas para satisfazer a implementação de controles gerenciados pela Microsoft
@@ -195,15 +197,15 @@ Nesta página, você pode exibir rapidamente informações importantes sobre cad
 
 ### <a name="default-assessments"></a>Avaliações padrão
 
-Por padrão, você verá a avaliação da linha de base de proteção de dados do Microsoft 365 na página avaliações. A pontuação de conformidade também fornece várias avaliações prontas para uso ([exibir a lista completa](compliance-score.md#templates)). Se quiser adicionar mais Avaliações para cobrir normas e padrões adicionais, você pode fazer isso no Gerenciador de conformidade.
+Por padrão, você verá a avaliação da linha de base de proteção de dados do Microsoft 365 na página avaliações. A pontuação de conformidade também fornece várias avaliações pré-configuradas ([exibir a lista completa](compliance-score.md#templates)). Você pode adicionar mais Avaliações para cobrir normas e padrões adicionais no Gerenciador de conformidade.
 
 ### <a name="managing-assessments"></a>Gerenciando avaliações
 
-Durante a visualização pública, a funcionalidade para exibir, criar, exportar e arquivar avaliações permanece na ferramenta Gerenciador de conformidade. 
+Durante a visualização pública, você vai para a ferramenta Gerenciador de conformidade para criar, personalizar e gerenciar avaliações.
 
-Para gerenciar suas avaliações, selecione **gerenciar avaliações no Gerenciador de conformidade** na parte superior da lista de avaliações.
+Na página **avaliações** , em Pontuação de conformidade, selecione **gerenciar avaliações no Gerenciador de conformidade** na parte superior da lista de avaliações. Este link leva você para seu painel de **avaliações** no Gerenciador de conformidade.
 
-O outro link na parte superior da lista de avaliações, **Microsoft Actions no gerente de conformidade**, leva você para a página no Gerenciador de conformidade mostrando os controles da Microsoft que contribuem para sua pontuação de conformidade.
+O outro link na parte superior da lista de avaliações, **Microsoft Actions no gerente de conformidade**, leva você para o painel de **informações de controles** no gerente de conformidade mostrando os controles da Microsoft que contribuem para sua pontuação de conformidade.
 
 ### <a name="filtering-your-assessments-view"></a>Filtrando o modo de exibição de avaliações
 
@@ -221,6 +223,11 @@ Na lista de avaliação, na coluna **ações gerenciadas pelo cliente** , seleci
 
 ## <a name="reporting"></a>Reporting
 
-Você pode exportar um relatório de todas as ações de melhorias na pontuação de conformidade. Na página **ações de melhoria** , selecione **Exportar** no canto superior esquerdo da tela, acima da lista de ações. Isso produzirá uma planilha do Excel com todas as suas ações de aperfeiçoamento e as categorias de filtro mostradas na página **ações de melhoria** , que você pode exibir e salvar no seu computador local.
+Você pode exportar um relatório de todas as ações de melhorias na pontuação de conformidade. Na página **ações de melhoria** , selecione **Exportar** no canto superior esquerdo da tela, acima da lista de ações. Isso produzirá uma planilha do Excel com todas as ações de aperfeiçoamento e as categorias de filtro mostradas na página **ações de aprimoramento** .
 
-Você também pode exportar um relatório do Gerenciador de conformidade. No gerente de conformidade, vá para a guia **informações de controles** e selecione **Exportar** na seção superior direita da tela. Isso produz uma planilha do Excel que você pode exibir e salvar.
+Você também pode exportar um relatório do Gerenciador de conformidade seguindo estas etapas:
+
+1. No gerente de conformidade, vá para o painel de **informações de controles** .
+2. Você verá uma guia de **avaliação** e uma guia de **modelo** .  
+3. Para exportar uma avaliação: selecione a guia **avaliação** . Use os menus suspensos de **grupo** e **avaliação** para selecionar a avaliação a ser exportada. Selecione **Exportar** perto da parte superior direita da tela. Um arquivo do Excel será baixado. Inclui uma lista de ações, agrupadas por controle, com seus detalhes de implementação e teste.
+4. Para exportar um modelo: selecione a guia **modelo** e escolha o modelo que você deseja exportar do menu suspenso **modelo** . Selecione **Exportar** perto da parte superior direita da tela. Um arquivo do Excel será baixado. Inclui uma lista de ações, agrupadas por controle, com seus detalhes de implementação e teste.

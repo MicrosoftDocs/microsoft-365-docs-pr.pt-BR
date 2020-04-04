@@ -10,6 +10,8 @@
           href: intro/technologies.md
         - name: Área de trabalho e ITIL gerenciados da Microsoft
           href: MMD-and-ITSM.md
+        - name: Conformidade
+          href: intro/compliance.md
     - name: Descrição do serviço da Área de trabalho gerenciada da Microsoft
       href: service-description/index.md
       items:

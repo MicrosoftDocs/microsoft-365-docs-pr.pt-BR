@@ -14,23 +14,29 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 4d79b0480462510927f0b1b4c8b5da7132cffec8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 7fd8e4e99edd976085cf9fd6fb3b9a0d88debf89
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635149"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141608"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
 > [!IMPORTANT]
 > O Gerenciador de Conformidade não está disponível no Office 365 operado pela 21Vianet, Office 365 Germany, Office 365 US Government Community High (GCC High) ou Office 365 Department of Defense.
 
-[O Microsoft Compliance Manager (versão prévia)](https://servicetrust.microsoft.com/ComplianceManager) é uma ferramenta de avaliação de risco baseada em fluxo de trabalho que permite controlar, atribuir e verificar atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft. Parte de sua assinatura do Microsoft 365, do Office 365 ou do Azure Active Directory, o Gerenciador de conformidade ajuda a gerenciar a conformidade normativa no modelo de responsabilidade compartilhada para os serviços de nuvem da Microsoft. O Gerenciador de conformidade oferece um painel centralizado para visualização de padrões, regulamentos e detalhes de implementação de controle e resultados de teste para avaliações de serviços da Microsoft. Ele também inclui ferramentas que permitem gerenciar as implementações de controle personalizado e o controle de conformidade específico da sua organização.
+**Neste artigo**: Leia este artigo para saber qual gerente de conformidade é e entenda seus componentes principais.
+
+**Saiba mais sobre as atualizações**: publicamos várias atualizações no lançamento da versão pública de abril de 2020. Visite as [notas de versão do Gerenciador de conformidade](compliance-manager-release-notes.md) para ver o que há de novo e problemas conhecidos.
+
+## <a name="what-is-compliance-manager"></a>O que é gerente de conformidade
+
+O [Microsoft Compliance Manager (versão prévia)](https://servicetrust.microsoft.com/ComplianceManager) é uma ferramenta de avaliação de riscos com base em fluxo de trabalho gratuita no portal de confiança do serviço Microsoft para gerenciar atividades de conformidade regulamentares relacionadas aos serviços em nuvem da Microsoft. Parte de sua assinatura do Microsoft 365, do Office 365 ou do Azure Active Directory, o Gerenciador de conformidade ajuda a gerenciar a conformidade normativa no modelo de responsabilidade compartilhada para os serviços de nuvem da Microsoft.
 
 Com o gerente de conformidade, sua organização pode:
   
-- Combinar informações detalhadas de conformidade da Microsoft fornecidas aos auditores e reguladores sobre seus serviços em nuvem com sua auto-avaliação de conformidade para padrões e regulamentações aplicáveis à sua organização. Eles incluem padrões e regulamentos descritos pela International Organization for Standardization (ISO), o National Institute of Standards and Technology (NIST), o Health Insurance Portability and Accountability Act (HIPAA), os dados gerais Regulamentação de proteção (RGPD) e muitas outras.
+- Combinar informações detalhadas de conformidade da Microsoft fornecidas aos auditores e reguladores sobre seus serviços em nuvem com sua auto-avaliação de conformidade para padrões e regulamentações aplicáveis à sua organização. Eles incluem padrões e regulamentos descritos pela International Organization for Standardization (ISO), o National Institute of Standards and Technology (NIST), o Health Insurance Portability and Accountability Act (HIPAA), a regulamentação geral de proteção de dados (RGPD) e muitas outras.
 - Permite que você atribua, rastreie e registre as atividades relacionadas à conformidade e à avaliação, o que pode ajudar sua organização a interrupções para atingir suas metas de conformidade.
 - Forneça uma pontuação de conformidade para ajudar a acompanhar o progresso e priorizar os controles de auditoria que ajudam a reduzir a exposição da sua organização a riscos.
 - Fornecer um repositório seguro para carregar e gerenciar evidências e outros artefatos relacionados às suas atividades de conformidade.
@@ -39,7 +45,16 @@ Com o gerente de conformidade, sua organização pode:
 > [!NOTE]
 > As ações do cliente fornecidas no gerente de conformidade são recomendações; a sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
 
-## <a name="compliance-manager-relationships"></a>Relações do gerente de conformidade
+## <a name="relationship-to-compliance-score"></a>Relação com a pontuação de conformidade
+
+A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que oferece uma visão de nível superior para a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
+
+O Gerenciador de conformidade compartilha o mesmo backend com pontuação de conformidade. Durante a fase de visualização pública para ambas as ferramentas, o Gerenciador de conformidade é onde você gerenciará as avaliações e as implementações de controle personalizado. Saiba mais sobre a [relação entre a pontuação de conformidade e o gerente de conformidade](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager).
+  
+> [!IMPORTANT]
+> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
+
+## <a name="compliance-manager-components"></a>Componentes do Gerenciador de conformidade
 
 O Gerenciador de conformidade usa vários componentes para ajudá-lo com suas atividades de gerenciamento de conformidade. Esses componentes funcionam juntos para fornecer um fluxo de trabalho de gerenciamento completo e relatórios de conformidade sem complicações para auditores.
 
@@ -61,11 +76,11 @@ Por padrão, o Gerenciador de conformidade cria as seguintes Avaliações para s
 - Office 365 NIST 800-53
 - Office 365 RGPD
 
-As avaliações incluem vários componentes:
+As avaliações têm vários componentes:
   
 - **Serviços no escopo**: cada avaliação se aplica a um conjunto específico de serviços da Microsoft.
 - **Controles gerenciados pela Microsoft**: para cada serviço de nuvem, a Microsoft implementa e gerencia um conjunto de controles de conformidade para padrões e regulamentações aplicáveis.
-- **Controles gerenciados pelo cliente**: esta é a coleção de controles implementados por sua organização quando você realiza ações para cada controle.
+- **Controles gerenciados pelo cliente**: esses controles são implementados pela sua organização quando você realiza ações para cada controle.
 - **Pontuação de avaliação**: a porcentagem da pontuação total possível para os controles gerenciados pelo cliente na avaliação. Isso ajuda a acompanhar a implementação das ações atribuídas a cada controle.
 
 ## <a name="controls"></a>Controles
@@ -79,7 +94,7 @@ Os [controles](working-with-compliance-manager.md#controls-and-actions) são con
 
 ![Controles no Gerenciador de conformidade versão 3](../media/compliance-manager-controls.png)
 
-Há três tipos de controles no Gerenciador de conformidade, **controles gerenciados pela Microsoft**, **controles gerenciados pelo cliente**e **controles de gerenciamento compartilhados**
+Há três tipos de controles no Gerenciador de conformidade, **controles gerenciados pela Microsoft**, **controles gerenciados pelo cliente**e **controles de gerenciamento compartilhados**.
 
 ### <a name="microsoft-managed-controls"></a>Controles gerenciados pela Microsoft
 
@@ -87,7 +102,7 @@ Para cada serviço de nuvem, a Microsoft implementa e gerencia um conjunto de co
 
 ### <a name="customer-managed-controls"></a>Controles gerenciados pelo cliente
 
-Este é o conjunto de controles gerenciados pela sua organização. Sua organização é responsável pela implementação de controle gerenciado pelo cliente como parte do seu processo de conformidade para um determinado padrão ou regulamentação. Os controles gerenciados pelo cliente são organizados em famílias de controle para a certificação ou regulamentação correspondente. Use os controles gerenciados pelo cliente para implementar as ações recomendadas sugeridas pela Microsoft como parte de suas atividades de conformidade. Sua organização pode usar orientações prescritivas e ações de cliente recomendadas em cada controle gerenciado pelo cliente para gerenciar o processo de implementação e avaliação desse controle.
+Os controles gerenciados pelo cliente são gerenciados por sua organização. Sua organização é responsável pela implementação de controle gerenciado pelo cliente como parte do seu processo de conformidade para um determinado padrão ou regulamentação. Os controles gerenciados pelo cliente são organizados em famílias de controle para a certificação ou regulamentação correspondente. Use os controles gerenciados pelo cliente para implementar as ações recomendadas sugeridas pela Microsoft como parte de suas atividades de conformidade. Sua organização pode usar orientações prescritivas e ações de cliente recomendadas em cada controle gerenciado pelo cliente para gerenciar o processo de implementação e avaliação desse controle.
 
 Os controles gerenciados pelo cliente nas avaliações também têm funcionalidade de gerenciamento de fluxo de trabalho interna que você pode usar para gerenciar e acompanhar o andamento da avaliação. Com essa funcionalidade de fluxo de trabalho, você pode:
 
@@ -109,9 +124,11 @@ Os [itens de ações](working-with-compliance-manager.md#controls-and-actions) s
 
 As pessoas da sua organização podem usar o Gerenciador de conformidade para analisar os controles gerenciados pelo cliente em todas as avaliações às quais estão atribuídos. Quando o usuário entra no Gerenciador de Conformidade e abre o painel **Itens de Ação**, é exibida uma lista de Itens de Ação que foram atribuídos a ela. Dependendo da função do Gerenciador de Conformidade atribuída ao usuário, ele pode fornecer detalhes da implementação ou dos testes, atualizar o Status ou atribuir Itens de Ação.
 
-Os controles de certificação geralmente são implementados por uma pessoa e testados por outra. Por exemplo, depois que os itens de ação atribuídos inicialmente a uma pessoa para implementação são concluídos, esses itens de ação são atribuídos à próxima pessoa para testar e carregar evidências. Qualquer usuário com permissões suficientes para as atribuições de controle pode atribuir e Reatribuir itens de ação. Isso permite o gerenciamento central de atribuições de controle e o roteamento descentralizado de itens de ação entre implementadores e testadores.
+Os controles de certificação normalmente são implementados por uma pessoa e testados por outra. Por exemplo, depois que os itens de ação atribuídos inicialmente a uma pessoa para implementação são concluídos, esses itens de ação são atribuídos à próxima pessoa para testar e carregar evidências. Qualquer usuário com permissões suficientes para as atribuições de controle pode atribuir e Reatribuir itens de ação. Isso permite o gerenciamento central de atribuições de controle e o roteamento descentralizado de itens de ação entre implementadores e testadores.
 
-## <a name="permissions"></a>Permissões
+Observe que as **ações de melhoria** na pontuação de conformidade são o equivalente dos itens de **ação** no Gerenciador de conformidade.
+
+## <a name="permissions"></a>Permissions
 
 O Gerenciador de Conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente usuários aos quais é atribuída uma função de usuário podem acessar o Gerenciador de Conformidade, e as ações permitidas por cada usuário são restritas por tipo de função. [Exibir uma tabela](working-with-compliance-manager.md#permissions) mostrando as ações permitidas para cada permissão.
 
@@ -120,7 +137,7 @@ O portal admin para o Gerenciador de conformidade pode definir permissões para 
 1. No menu suspenso **superior,** selecione **Administração**e **configurações**.
 2. A partir daqui, selecione a função que você deseja atribuir e, em seguida, adicione o funcionário que você deseja atribuir a essa função. Os usuários poderão executar determinadas ações.
 
-Além disso, os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade. No entanto, eles não podem editar dados nem executar ações no Gerenciador de conformidade.
+Os usuários atribuídos à [função de leitor global no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) têm permissão somente leitura para acessar o Gerenciador de conformidade. No entanto, eles não podem editar dados nem executar ações no Gerenciador de conformidade.
 
 Não há mais uma função de **acesso de convidado** padrão. Cada usuário deve ter uma função atribuída para acessar e trabalhar no Gerenciador de Conformidade.
   
@@ -148,13 +165,6 @@ Os modelos pré-configurados incluídos no Gerenciador de conformidade são:
 12. [Lei de privacidade do consumidor da Califórnia (CCPA)](https://go.microsoft.com/fwlink/?linkid=2108871) (visualização)
 13. [IRAP](https://go.microsoft.com/fwlink/?linkid=2113709) / [ISM do governo Australian](https://go.microsoft.com/fwlink/?linkid=2113024) IRAP (versão prévia)
 14. [Linha de base de proteção de dados 365 da Microsoft](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
-
-## <a name="compliance-score"></a>Pontuação de Conformidade
-
-A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que ajuda você a entender a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
-  
-> [!IMPORTANT]
-> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
 
 ## <a name="secure-score-integration"></a>Integração da Pontuação segura
 
