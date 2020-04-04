@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar as informações sobre encargos, cobrança e pagamento em sua fatura do Office 365 para empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 624480cdc810d5e764cad2a8e569ca60d14dc3ea
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354682"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142294"
 ---
 # <a name="understand-your-invoice-for-office-365-for-business"></a>Entenda sua fatura do Office 365 para empresas
 
@@ -66,7 +66,7 @@ A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados 
 > [!NOTE]
 > O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
   
-|**Name**|**Descrição**|
+|**Nome**|**Descrição**|
 |:-----|:-----|
 |Preço anual|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança anual durante a compra da assinatura, o preço anual da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
 |Período de Cobrança|Um período de cobrança é o período de tempo decorrido desde a data da última fatura. Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço.|
@@ -104,8 +104,6 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 
 ::: moniker range="o365-worldwide"
 
-### <a name="use-the-new-admin-center-to-change-your-purchase-order-number"></a>Use o novo centro de administração para alterar o número da ordem de compra
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões** para alternar entre modos de exibição.
@@ -115,16 +113,6 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 4. Na seção **cobrança** , ao lado de **fatura**, selecione **Editar**.
 
 5. Na parte inferior do painel **Editar detalhes de pagamento** , insira o número da OC e, em seguida, selecione **salvar**.
-
-### <a name="use-the-old-admin-center-to-change-your-purchase-order-number"></a>Usar o centro de administração antigo para alterar o número da ordem de compra
-
-1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Assinaturas</a>.
-
-2. Selecione a assinatura que você deseja alterar e, na seção **método de pagamento** , selecione **atualizar detalhes de pagamento**.
-
-3. No painel **atualizar detalhes de pagamento** , selecione **não agradecer**.
-
-4. Na parte inferior do painel **atualizar detalhes de pagamento** , insira o número da OC, selecione **Enviar**e **Fechar**.
 
 ::: moniker-end
 

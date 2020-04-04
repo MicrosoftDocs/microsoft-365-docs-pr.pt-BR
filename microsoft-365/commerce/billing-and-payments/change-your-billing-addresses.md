@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança do Office 365 para empresas. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
 ms.custom: okr_SMB
-ms.openlocfilehash: aa696be3fd541fb98bc29c65c1285e2b2e967726
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409636"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142306"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>Alterar os endereços para cobrança do Office 365 para empresas
 
@@ -61,9 +61,6 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 ::: moniker-end
 
@@ -176,12 +173,24 @@ Por padrão, as notificações de cobrança da organização são enviadas para 
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Alterar o endereço de email alternativo para outro administrador
 
 Você também pode alterar o endereço de email alternativo de outros administradores globais e administradores de fatura na sua organização.
-  
+
+::: moniker range="o365-worldwide"
+
 1. No Centro de Administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Notificações de cobrança</a>.
 
-    Se estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Notificações de cobrança</a>.
+::: moniker-end
 
-    Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">notificações de cobrança</a> .
+::: moniker range="o365-germany"
+
+1. No Centro de Administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Notificações de cobrança</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">notificações de cobrança</a> de **cobrança** \> .
+
+::: moniker-end
 
 2. Na página **notificações de cobrança** , selecione o administrador que você deseja alterar.
 
@@ -193,6 +202,4 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 [Entender sua fatura](understand-your-invoice2.md)
 
-[Pagar por yoursubscription](pay-for-your-subscription.md)
-
-[Assinaturas e ajuda para o administrador de cobrança](../index.yml)
+[Pagar sua assinatura](pay-for-your-subscription.md)

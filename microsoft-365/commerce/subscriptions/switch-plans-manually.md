@@ -22,18 +22,20 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Troque assinaturas do Office 365 para empresas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354702"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142098"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Trocar os planos do Office 365 para negócios manualmente
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [alterar planos manualmente](change-plans-manually.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365, e você pode optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [alterar planos manualmente](change-plans-manually.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>Etapa 1: decidir como mudar de planos
@@ -119,11 +121,11 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
   
 5. Alterne a opção para a posição **desativado** para as licenças que este usuário não precisa mais.
 
-6. Na parte inferior do painel **licenças de produto** , selecione **atribuir** \> **** \> fechar **fechar**.
+6. Na parte inferior do painel **licenças de produto** , selecione **atribuir** \> **Close** \> fechar **fechar**.
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Reatribuir licenças para vários usuários de uma só vez
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> ou selecione usuários **** \> **ativos**do usuário.
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> ou selecione usuários **Users** \> **ativos**do usuário.
 
     Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 

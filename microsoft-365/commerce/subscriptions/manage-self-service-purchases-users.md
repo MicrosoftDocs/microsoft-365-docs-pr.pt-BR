@@ -1,5 +1,5 @@
 ---
-title: Gerenciar compras de autoatendimento (usuários)
+title: Gerenciar compras de autoatendimento (Usuários)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,19 +14,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: cdc50144179dd4c0f9b6355501167e9420ff0b50
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 15fc43d488cb2a8fd38cea8ab2ed85c002e23d92
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080318"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142134"
 ---
-# <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (usuários)
+# <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
 Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas a pessoas da sua equipe. Você é responsável pelo pagamento de compras de autoatendimento feitas. Você pode gerenciar suas assinaturas no centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.Microsoft.com</a>.
-
-> [!NOTE]
-> Você deve ativar a nova experiência do centro de administração.
 
 Seu administrador tem um modo de exibição somente leitura em qualquer assinatura que você comprar. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o preço de compra e os usuários atribuídos para cada assinatura que você comprar.
 
@@ -55,7 +52,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 3. Escolha **atribuir licenças**.
 
-4. No painel **atribuir licenças a usuários** , comece a digitar um nome e, em seguida, escolha-o nos resultados para adicioná-lo à lista. Você pode adicionar até 20 usuários de cada vez.
+4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
 
     > [!NOTE]
     > Você só pode atribuir licenças a pessoas em sua organização.

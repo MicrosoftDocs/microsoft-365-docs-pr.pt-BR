@@ -1,5 +1,5 @@
 ---
-title: Migrar para outro plano do Office 365 para empresas
+title: Migrar para um outro plano do Office 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,32 +24,35 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Office 365 for Business.
-ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: e851ebaa89719f7dae62ed99bf72e2e2a4f361a2
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633399"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142086"
 ---
-# <a name="switch-to-a-different-office-365-for-business-plan"></a>Migrar para outro plano do Office 365 para empresas
+# <a name="switch-to-a-different-office-365-for-business-plan"></a>Migrar para um outro plano do Office 365 para empresas
 
 Quando sua empresa mudar ou precisar de mais recursos, você poderá mudar de plano.  
 
-A maneira mais fácil de mudar de planos é usar o botão **mudar de plano** no centro de administração. No entanto, o uso do botão **alternar planos** não é suportado em todas as situações. Em alguns casos, você poderá mudar de plano manualmente.
+A maneira mais fácil de mudar de plano é usar o botão **mudar de planos** no centro de administração. No entanto, o uso do botão **alternar planos** não é suportado em todas as situações. Em alguns casos, você poderá mudar de plano manualmente.
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [atualizar para um plano diferente](upgrade-to-different-plan.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365, e você pode optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Para obter mais informações, consulte[sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md) 
+> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [atualizar para um plano diferente](upgrade-to-different-plan.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365. Para obter mais informações, consulte[sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+
 ::: moniker-end
 
 **Precisa de mais alguma coisa?**
+
 - [Cancelar sua assinatura](cancel-your-subscription.md)
 - [Atualização do Office 365 para casa para uma assinatura comercial](https://support.office.com/article/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
 - [Contate o Suporte da Microsoft](../../admin/contact-support-for-business-products.md)
 
 ## <a name="use-the-switch-plans-button"></a>Use o botão mudar de plano
 
-Ao usar o botão **alternar planos** , você é orientado pelo processo de compra de um novo plano para o qual você pode alterar seu plano atual, todos os usuários recebem automaticamente licenças do novo plano e seu plano antigo é cancelado para você. 
+Ao usar o botão **alternar planos** , você é orientado pelo processo de compra de um novo plano para o qual você pode alterar seu plano atual, todos os usuários recebem automaticamente licenças do novo plano e seu plano antigo é cancelado para você.
   
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Assinaturas</a>.
 
@@ -95,4 +98,4 @@ Se você quiser mudar para um plano com menos serviços, poderá mudar de [plano
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Contate o suporte para ajudá-lo a trocar de plano
 
-![](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [Suporte para chamadas](../../admin/contact-support-for-business-products.md) telefônicas
+[Ligar para o suporte](../../admin/contact-support-for-business-products.md)

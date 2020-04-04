@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Compre uma assinatura do Office 365 para empresas. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
-ms.openlocfilehash: faac769a89824964315c84da507adcf18d8cfeac
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549798"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142282"
 ---
 # <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Comprar a versão de avaliação do Office 365 for Business
 
@@ -94,12 +94,9 @@ Você experimentou o Office 365 e agora está pronto para comprá-lo. Você tem 
 
 ## <a name="buy-a-different-plan-than-your-trial"></a>Comprar um plano diferente da avaliação
 
-Se você adquirir um tipo diferente de assinatura do que a sua avaliação, terá que reatribuir suas licenças de usuário do seu plano de avaliação para o novo plano (antes de o período de cortesia de 90 dias terminar após o plano de avaliação expirar) para manter seus dados, contas e configuração.
+Se você adquirir um tipo diferente de assinatura do que a sua avaliação, terá que reatribuir suas licenças de usuário do seu plano de avaliação para o novo plano (antes de o período de cortesia de 90 dias terminar após o plano de avaliação expirar) para manter seus dados, contas e configurações.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
 
@@ -139,7 +136,6 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 
 ::: moniker range="o365-21vianet"
 
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
 
 2. Na página **assinatura** , selecione **adicionar assinaturas**.
@@ -159,7 +155,6 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 8. Na página confirmação, selecione **ir para a home page do administrador**.
 
 ::: moniker-end
-
 
 ## <a name="related-articles"></a>Artigos relacionados
 

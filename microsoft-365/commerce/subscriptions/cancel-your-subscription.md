@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar o Office 365 para empresas ou a assinatura de avaliação ou pagamento da Microsoft 365.
-ms.openlocfilehash: 47b4ae3e027a218f7d830bb6af24a39ca33a4abb
-ms.sourcegitcommit: 3d1abd7c06d316d6e6586e4bdcd5703291ac1ab0
+ms.openlocfilehash: d58ad1b18c8834740984f0ff47b7983a6797e108
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117939"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142158"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -42,9 +42,6 @@ ms.locfileid: "43117939"
 Se você adicionou seu próprio nome de domínio para usar com sua assinatura, você deve remover o domínio antes de cancelar sua assinatura. Para obter mais informações, confira [Remover um domínio do Office 365](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 

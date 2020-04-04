@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Saiba mais sobre domínios no Office 365 encontrando respostas para suas perguntas em perguntas frequentes.
 ms.custom: okr_smb
-ms.openlocfilehash: f3c72f1ce772e3021d79aa4568dbfdb700400803
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3e1d5dce6de41e28ad4c04104cf0212c2b657615
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633179"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142498"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
 
@@ -230,7 +230,7 @@ Você deve ter pelo menos um domínio personalizado que tenha adicionado ao Offi
     
 2. Na página **domínios** , selecione o domínio que você deseja definir como o padrão para novos endereços de email. 
     
-3. Selecione **definir como padrão**.
+3. Selecione **Definir como Padrão**.
     
 ::: moniker range="o365-worldwide"
 
@@ -285,9 +285,9 @@ Ao adicionar vários domínios ao Office 365, você pode hospedar qualquer um do
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Por que eu tenho um domínio "onmicrosoft.com"?
 
-O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.com*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como *Alan@contoso.onmicrosoft.com*. 
+O Office 365 cria um domínio para você, como o _contoso.onmicrosoft.com_, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, _como\@Alan contoso.onmicrosoft.com_. 
   
- **Se você deseja que seu email pareça *\@Alan contoso.com*:** [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você já o possui. 
+ __Se você deseja que seu email pareça _\@Alan contoso.com_:__ [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você já o possui. 
   
 - **Não é possível renomear o domínio onmicrosoft após a inscrição.** Por exemplo, se o domínio inicial escolhido foi fourthcoffee.onmicrosoft.com, não será possível alterá-lo para ser fabrikam.onmicrosoft.com. Para usar um domínio onmicrosoft.com diferente, você terá que iniciar uma nova assinatura com o Office 365. 
     
@@ -300,11 +300,12 @@ Você pode continuar usando o domínio onmicrosoft.com inicial, mesmo depois de 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Por que eu tenho um domínio "onmicrosoft.de"?
 
-O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.de*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como *Alan@contoso.onmicrosoft.de*. 
+O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.de*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como "alan@contoso.onmicrosoft.de". 
   
- **Se você deseja que seu email pareça *Alan@contoso.de*:** [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365](add-domain.md) , se você já o possui. 
+Se você quiser que seu email se pareça com "alan@contoso.de": [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você for o proprietário dele já 
   
 - **Não é possível renomear o domínio onmicrosoft após a inscrição.** Por exemplo, se o domínio inicial escolhido foi fourthcoffee.onmicrosoft.de, não será possível alterá-lo para ser fabrikam.onmicrosoft.de. Para usar um domínio onmicrosoft.de diferente, você terá que iniciar uma nova assinatura com o Office 365. 
     
@@ -444,7 +445,7 @@ Você pode, mas há limitações:
         
     4. Teste o email para alguém que está no outro sistema de email. Por exemplo, envie um email para o usuário C. Este email deve ser entregue na caixa de correio do usuário C no seu servidor de email original.
         
-    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor origninal do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
+    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor original do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
         
 9. Mover conteúdo da caixa de correio
     

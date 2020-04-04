@@ -21,17 +21,14 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: 0042e0fd2fa5ac10be512246c252bc1d0f679709
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 80e10c3b24fa69ee5b1a6c89790260c2ac810588
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237226"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142146"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
-
-> [!NOTE]
-> Este artigo aplica-se ao novo centro de administração. O novo centro de administração está disponível para todos os administradores do Microsoft 365, e você pode optar por selecionar **experimentar o novo centro de administração** para alternar localizado na parte superior da Home Page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md). Para visualizar o artigo sobre o centro de administração antigo, confira [mudar o Office 365 para planos de negócios manualmente](switch-plans-manually.md).
 
 ## <a name="step-1-decide-how-to-change-plans"></a>Etapa 1: decidir como alterar planos
 
@@ -117,4 +114,5 @@ Se você moveu todos os usuários de uma assinatura para outra e não precisa ma
 Se você moveu apenas alguns usuários para uma assinatura diferente, [remova as licenças](../licenses/remove-licenses-from-subscription.md) que não são mais necessárias.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Ligar para o suporte para ajudá-lo a alterar planos
+
 [Chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md)

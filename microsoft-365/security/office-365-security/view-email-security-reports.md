@@ -17,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: fba10207fe0b7a8e02aa96f9c8513e1e5b2cd61f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b6c4e737d0bcc9f7373a669e8dcd20661733b294
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634059"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142700"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Exibir relatórios de segurança de email no &amp; centro de conformidade de segurança
 
@@ -31,7 +31,8 @@ Vários relatórios estão disponíveis no [centro de conformidade de &amp; segu
 ![Painel em que você vê como a proteção avançada contra ameaças está funcionando](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 Os relatórios de segurança de email incluem o seguinte:
-- [Relatório de usuários comprometidos (**novo!**)](#compromised-users-report-new)
+- [Relatório de proteção contra ameaças de URL](#url-threat-protection-report-new) (**novo!**)
+- [Relatório de usuários comprometidos](#compromised-users-report)
 - [Relatório de criptografia](#encryption-report)
 - [Relatório de Status da Proteção contra Ameaças](#threat-protection-status-report) 
 - [Relatório de detecções de malware](#malware-detections-report) 
@@ -43,9 +44,30 @@ Os relatórios de segurança de email incluem o seguinte:
 - [Relatório de mensagens relatadas pelo usuário](#user-reported-messages-report)
 
 
-## <a name="compromised-users-report-new"></a>Relatório de usuários comprometidos (**novo!**) 
+## <a name="url-threat-protection-report-new"></a>Relatório de proteção contra ameaças de URL (**novo!**)
 
-Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo ficasse. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
+O relatório de proteção contra ameaças de URL está disponível para qualquer pessoa com:
+
+- Uma proteção do Exchange Online *e* um complemento de proteção avançada contra ameaças (plano 1 *ou* plano 2) 
+- Uma assinatura do Microsoft 365 e5
+
+Este é um relatório de ' clique centralizado ' que tem dois modos de exibição agregados.
+ 
+1. O primeiro modo de exibição é por *ação de proteção de clique de URL*, que se concentra em mostrar o número de cliques de URL por usuários no locatário e o resultado do clique. Um clique aqui indica que o usuário clicou através da página de bloqueio para o site mal-intencionado (isso pode ser desabilitado pelo administrador dentro de uma política de links seguros).
+ 
+2. O segundo modo de exibição é *URL clique em aplicativos*, que mostra o número de URLs em diferentes aplicativos que dão suporte a links seguros hoje, como em um cliente de email ou no Microsoft Word. Os dados em modos de exibição agregados são atualizados uma vez a cada quatro horas.
+
+A tabela de detalhes do relatório de proteção contra ameaças de URL fornece uma visualização quase em tempo real de todos os cliques que acontecem no locatário, e inclui informações investigativas, como *nome de usuário*, *URL*, a ID da *mensagem de rede* (se a URL foi clicada em um email) e outras informações valiosas para investigações e análises.  
+
+Por padrão, o relatório mostra apenas os dados sobre os cliques de URLs que foram bloqueados por links seguros, mas também é possível ver as informações de todos os cliques de URL na caixa de seleção selecionar *URLs permitidas* nos filtros.  
+
+Este relatório não terá dados de cliques de usuários em que a política de links seguros aplicada tenha a opção *não rastrear os cliques do usuário* selecionada.
+
+![Gráfico do relatório de proteção contra ameaças de URL em ação.](../../media/tp-URLThreatProRpt1.PNG)
+
+## <a name="compromised-users-report"></a>Relatório de usuários comprometidos 
+
+Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo comprometida. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
 
 ![O relatório de usuários comprometidos como aparece no Office 365.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
@@ -205,7 +227,7 @@ Para exibir esse relatório, no [centro de &amp; conformidade de segurança](htt
 ![No centro de &amp; conformidade de segurança, escolha revisão \> \> de gerenciamento de ameaças mensagens relatadas pelo usuário](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
   
 > [!IMPORTANT]
-> Para que o relatório de mensagens relatadas pelo usuário funcione corretamente, o **log de auditoria deve estar ativado** para o seu ambiente do Office 365. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para obter mais informações, consulte [Ativar ou desativar a pesquisa de log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). 
+> Para que o relatório de mensagens relatadas pelo usuário funcione corretamente, o **log de auditoria deve estar ativado** para o seu ambiente do Office 365. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para obter mais informações, consulte [Ativar ou desativar a pesquisa de log de auditoria do Office 365.](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). 
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 

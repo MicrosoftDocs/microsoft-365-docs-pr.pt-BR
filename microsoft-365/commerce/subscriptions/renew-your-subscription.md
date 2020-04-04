@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Saiba como renovar sua assinatura do Office 365 para empresas usando uma chave de produto e ative ou desative a cobrança recorrente. '
-ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: acf5c81fae60fcce272dcee470de0588da3c4a97
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959211"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142110"
 ---
 # <a name="renew-office-365-for-business"></a>Renovar o Office 365 para empresas
 
@@ -47,9 +47,6 @@ Se você pagar por cartão de crédito ou conta bancária, a **cobrança recorre
 Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expirará no final do termo de assinatura. Você pode ativar a **cobrança recorrente** e fornecer informações do cartão de crédito ou da conta bancária para que sua assinatura continue a ser cobrada todos os anos no dia em que você se inscreveu. Você também tem a opção de pagar todos os meses ou pagar todo o ano até o início. Seu cartão de crédito ou sua conta bancária não serão cobrados até que o prazo inicial da assinatura tenha expirado.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
@@ -117,9 +114,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Reativar sua assinatura](reactivate-your-subscription.md)
-  
-[Adicionar, atualizar ou remover um cartão de crédito](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-  
+
 [O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md)
 
 [Adicionar, atualizar ou remover seus métodos de pagamento](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)

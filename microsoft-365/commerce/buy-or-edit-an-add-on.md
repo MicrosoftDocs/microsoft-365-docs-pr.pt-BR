@@ -22,24 +22,16 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Saiba como adquirir um complemento para adicionar mais funcionalidades à sua assinatura do Office 365 para empresas. Você também pode atualizar e remover um complemento.
 ms.custom: okr_SMB
-ms.openlocfilehash: 78113fcfdfce03ae09318e062847cedd1938760a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3bd7648d2db9af262df6540c8133871d3736790e
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354802"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142270"
 ---
 # <a name="buy-or-edit-an-add-on-for-office-365-for-business"></a>Comprar ou editar um complemento do Office 365 para empresas
 
 Várias dos planos do Office 365 para empresas possuem complementos que você pode comprar para sua assinatura. Um complemento fornece funcionalidade adicional para a assinatura para a qual você o comprou.
-
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
-::: moniker-end 
 
 ## <a name="buy-an-add-on"></a>Comprar um complemento
 
@@ -105,14 +97,13 @@ Várias dos planos do Office 365 para empresas possuem complementos que você po
 
 ::: moniker-end
 
-
 ## <a name="update-an-add-on"></a>Atualizar um complemento
 
-As etapas que você usa para atualizar um complemento dependem se o complemento é um complemento tradicional ou um complemento autônomo. 
+As etapas que você usa para atualizar um complemento dependem se o complemento é um complemento tradicional ou um complemento autônomo.
 
 Os *Complementos tradicionais* são vinculados a uma assinatura específica. Se você cancelar a assinatura, o complemento associado também será cancelado.
   
-Complementos *autônomos* não estão vinculados a uma assinatura específica. Os complementos autônomos aparecem como uma assinatura separada na página **assinaturas** (ou na página **produtos & serviços** no novo centro de administração) e têm sua própria data de expiração. Você gerencia um complemento autônomo da mesma maneira que você gerencia qualquer outra assinatura.
+Complementos *autônomos* não estão vinculados a uma assinatura específica. Os complementos autônomos aparecem como uma assinatura separada na página **produtos & serviços** e têm sua própria data de expiração. Você gerencia um complemento autônomo da mesma maneira que você gerencia qualquer outra assinatura.
   
 ### <a name="update-a-traditional-add-on"></a>Atualizar um complemento tradicional
 
@@ -129,7 +120,6 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 5. Insira a alteração de quantidade que você deseja para a assinatura e, em seguida, selecione **Enviar alteração**.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
 
@@ -174,7 +164,6 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
     > Você também pode usar a seta para cima e a seta para baixo para alterar a quantidade de licenças de usuário ou inserir apenas o número desejado na caixa.
   
     ![Caixa Total de licenças e o botão Enviar na caixa de diálogo Adicionar ou remover licenças.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
-
 
 ::: moniker-end
 
@@ -220,7 +209,6 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 
 ::: moniker-end
 
-
 ## <a name="remove-an-add-on"></a>Remover um complemento
 
 Você pode cancelar um complemento autônomo da mesma forma que [cancela uma assinatura](subscriptions/cancel-your-subscription.md). Ou você pode definir a **cobrança recorrente** como desativada para um complemento autônomo usando as etapas acima. No entanto, não é possível remover um complemento tradicional após ele ter sido comprado. Se você precisar remover um complemento tradicional, [entre em contato com o suporte para obter ajuda](../admin/contact-support-for-business-products.md).
@@ -231,8 +219,6 @@ A tabela a seguir lista complementos que estão disponíveis para edições dife
   
 Para saber mais sobre complementos do Skype for Business, veja [Licenciamento do complemento do Skype for Business e do Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
-****
-
 |**Complemento**|**Disponível nessas assinaturas**|
 |:-----|:-----|
 |Sistema de Proteção de Dados do Cliente  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |

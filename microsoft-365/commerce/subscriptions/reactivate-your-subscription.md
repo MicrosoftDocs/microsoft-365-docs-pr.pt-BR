@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Saiba como reativar sua assinatura quando ela expirar ou se a Microsoft a desabilitar ou se você a cancelar no meio.
-ms.openlocfilehash: 6126c9ccc05a1ee0927f928b045bd1c383479893
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 0d033a60c9e738c8e58f0ea061d551ee2dd3b4d2
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952037"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142122"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -40,9 +40,6 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
 2. Na página **produtos & serviços** , localize a assinatura que você deseja reativar. Na seção **cobrança** , selecione **reativar**.
@@ -51,15 +48,14 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 3. Insira seus detalhes de pagamento. Você pode atualizar suas informações de pagamento existentes aqui. Quando tiver terminado de inserir sua forma de pagamento, selecione **reativar**.
 
-  - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
+    - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
 
     > [!NOTE]
     > A capacidade de pagamento por conta bancária não está disponível em alguns países ou regiões.
   
-  - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
+    - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
   
@@ -73,14 +69,14 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 3. Insira os detalhes de pagamento. Você pode atualizar suas informações de pagamento existentes aqui.
 
-  - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
+    - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
 
     > [!NOTE]
     > A capacidade de pagamento por conta bancária não está disponível em alguns países ou regiões.
   
-  - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
+    - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
 
-  ::: moniker-end
+::: moniker-end
 
 ::: moniker range="o365-21vianet"
   
@@ -94,11 +90,11 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 3. Insira os detalhes de pagamento. Você pode atualizar suas informações de pagamento existentes aqui.
 
-  - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
+    - Se sua assinatura tiver expirado, depois que você enviar seus detalhes de pagamento, sua assinatura retornará a um estado ativo e a data de **facturação seguinte** se estenderá por um mês ou um ano, dependendo do compromisso atual da assinatura. Se você pagar por cartão de crédito ou conta bancária, seu cartão de crédito ou conta bancária serão cobrados pela extensão. Se você pagar por fatura, verá a extensão refletida na próxima fatura. Para garantir que sua assinatura não expire novamente, siga as etapas para [Ativar ou desativar a cobrança recorrente](renew-your-subscription.md).
 
     > [!NOTE]
     > A capacidade de pagamento por conta bancária não está disponível em alguns países ou regiões.
   
-  - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
+    - Se sua assinatura foi cancelada ou foi desabilitada porque um pagamento não foi recebido, ele retorna ao estado ativo e sua próxima data de **cobrança** permanece a mesma.
 
   ::: moniker-end

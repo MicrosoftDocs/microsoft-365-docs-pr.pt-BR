@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Saiba como rotear o tráfego para um site público existente hospedado fora do Office 365, se você tiver definido o Office 365 para gerenciar registros DNS para o seu domínio personalizado.
-ms.openlocfilehash: b92e778fb2fe0353a0d1d6bf83a4c617ab4541e2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3e71925f9b50e5520bd383aa5318db513202f6ec
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362406"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142534"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Atualizar registros DNS para manter seu site com seu provedor de hospedagem atual
 
@@ -34,7 +34,7 @@ ms.locfileid: "42362406"
  **Se o Office 365 gerenciar os registros DNS** a fim de rotear o tráfego para um site público existente hospedado fora do Office 365, após adicionar o domínio ao Office 365, faça o seguinte: 
   
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Atualizar registros DNS no centro de administração do Microsoft 365
-1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
+1. No centro de administração, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
 
 2. Na página **Domínios**, selecione o domínio que você usa para o site na lista de domínios e selecione **Configurações de DNS**, no Painel Gerenciamento. 
     

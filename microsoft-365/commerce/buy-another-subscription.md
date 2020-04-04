@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: 'Saiba como comprar outra assinatura do Office 365 for Business para sua organização quando você já tiver uma assinatura. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a322be8ee76e37259d4a2cddf9ed2d75c379576
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354642"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142258"
 ---
 # <a name="buy-another-office-365-for-business-subscription"></a>Comprar outra assinatura do Office 365 para empresas
 
@@ -40,9 +40,6 @@ Após adquirir uma nova assinatura, você precisará atribuir aos usuários que 
 ## <a name="buy-another-subscription"></a>Comprar outra assinatura
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
 
@@ -109,7 +106,6 @@ Após adquirir uma nova assinatura, você precisará atribuir aos usuários que 
 8. Na página confirmação, selecione **ir para a home page do administrador**.
 
 ::: moniker-end
-
 
 ## <a name="related-articles"></a>Artigos relacionados
 
