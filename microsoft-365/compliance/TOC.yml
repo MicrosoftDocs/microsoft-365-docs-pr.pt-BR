@@ -149,6 +149,8 @@
           href: document-fingerprinting.md
         - name: Funções DLP para informações confidenciais
           href: what-the-dlp-functions-look-for.md
+    - name: Criptografia no M365
+      href: encryption.md
     - name: Chave de Cliente
       items:
         - name: Criptografia de serviço com a chave do cliente no Office 365
@@ -200,6 +202,8 @@
               href: legacy-information-for-message-encryption.md
             - name: Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: Configurar o IRM no centro de administração do SharePoint
+      href: set-up-irm-in-sp-admin-center.md
     - name: Entender a classificação de dados (visualização)
       href: data-classification-overview.md
       items:
@@ -765,24 +769,24 @@
       href: get-started-with-service-trust-portal.md
     - name: Pontuação de Conformidade e Gerenciador de Conformidade
       items:
-        - name: Pontuação de Conformidade (visualização)
+        - name: Pontuação de conformidade (visualização)
           href: compliance-score.md
-        - name: Configurar a Pontuação de Conformidade (visualização)
+        - name: Configurar Pontuação de conformidade (visualização)
           href: compliance-score-setup.md
-        - name: Trabalhando com a Pontuação de Conformidade (visualização)
+        - name: Trabalhando com pontuação de conformidade (visualização)
           href: working-with-compliance-score.md
-        - name: Cálculo da Pontuação de Conformidade (visualização)
+        - name: Cálculo da Pontuação de conformidade (visualização)
           href: compliance-score-methodology.md
-        - name: Notas de versão da Pontuação de Conformidade (visualização)
+        - name: Notas de versão da Pontuação de conformidade (visualização)
           href: compliance-score-release-notes.md
         - name: FAQ de Pontuação de conformidade (versão prévia)
           href: compliance-score-faq.md
-        - name: Gerenciador de conformidade (visualização)
+        - name: Gerenciador de conformidade (versão prévia)
           href: compliance-manager-overview.md
           items:
-            - name: Novidades do Gerenciador de conformidade (visualização)
+            - name: Notas de versão do Gerenciador de conformidade (visualização)
               href: compliance-manager-release-notes.md
-            - name: Trabalhar com o Gerenciador de conformidade (visualização)
+            - name: Trabalhando com o Gerenciador de conformidade (visualização)
               href: working-with-compliance-manager.md
             - name: Gerenciador de conformidade (clássico)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
