@@ -1,7 +1,7 @@
 - name: Página inicial do administrador
-  href: admin-home.yml
+  href: admin-home.md
   items:
-    - name: Visão geral
+    - name: Visão Geral
       items:
         - name: Visão Geral do Administrador
           href: admin-overview/admin-overview.md
@@ -83,10 +83,10 @@
           href: add-users/assign-admin-roles.md
         - name: Sobre a função de administrador do Exchange Online
           href: add-users/about-exchange-online-admin-role.md
-    - name: Email
+    - name: E-mail
       items:
         - name: Email no Office 365
-          href: email/email.yml
+          href: email/email.md
         - name: Configurações de e-mail do usuário do Office 365
           href: email/office-365-user-email-settings.md
         - name: Adicionar outro alias de email para um usuário
@@ -154,7 +154,7 @@
     - name: Gerenciar
       items:
         - name: Gerenciar o Office 365
-          href: manage/manage.yml
+          href: manage/manage.md
         - name: Alterar preferências de contato
           href: manage/change-contact-preferences.md
         - name: 'Alterar o endereço, contatos e muito mais'
@@ -187,8 +187,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Resolver conflitos de licença
           href: manage/resolve-license-conflicts.md
-        - name: Gerenciar mensagens no centro de mensagens
-          href: manage/manage-messages.md
+        - name: Mostrar ou ocultar novos recursos usando o que há de novo gerenciamento
+          href: manage/show-hide-new-features.md
     - name: Assinaturas e cobrança
       items:
         - name: Gerenciar suas assinaturas
@@ -202,7 +202,7 @@
     - name: Domínios
       items:
         - name: Domínios em Office 365
-          href: get-help-with-domains/get-help-with-domains.yml
+          href: get-help-with-domains/get-help-with-domains.md
         - name: O que é um domínio?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Comprar um nome de domínio

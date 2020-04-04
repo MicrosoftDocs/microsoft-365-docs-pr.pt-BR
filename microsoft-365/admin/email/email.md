@@ -15,12 +15,12 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
 description: Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
-ms.openlocfilehash: 11d3a34b20cf8dc910931e2a52168945e4d0e969
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106191"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126006"
 ---
 # <a name="email"></a>E-mail
 
@@ -114,11 +114,11 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
                     <div class="cardText">
                         <h3>Configurar e-mail</h3>
                         <p><a href="https://support.office.com/article/d0cf6608-4862-4a7b-82fc-f5fef235c966">Vídeo: Importar e-mail</a></p>
-                        <p><a href="https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e">Migrar e-mails e contatos</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/admin/setup/migrate-email-and-contacts-admin">Migrar e-mails e contatos</a></p>
                         <p><a href="create-a-shared-mailbox.md">Criar caixas de correio compartilhadas.</a> </p>
                         <p><a href="add-another-email-alias-for-a-user.md">Adicionar endereços de e-mail adicionais a um usuário</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/owa-for-devices-contact-sync">Permitir que os usuários sincronizem contatos de e-mail com seus iPhones ou iPads</a></p>
-                        <p><a href="https://support.office.com/article/69f58e99-c550-4274-ad18-c805d654b4c4">Configurar um dispositivo multifuncional para enviar e-mails</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-office-3">Configurar um dispositivo multifuncional para enviar e-mails</a></p>
                     </div>
                 </div>
             </div>
@@ -131,10 +131,10 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
                     <div class="cardText">
                         <h3>Proteja seu e-mail</h3>
                         <p><a href="create-edit-or-delete-a-security-group.md">Criar, editar ou excluir um grupo de segurança</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection">Proteção antispam de e-mails</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/block-email-spam-to-prevent-false-negatives">Como definir as configurações de filtro de spam para ajudar a bloquear spams</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection">Proteção antispam e antimalware</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/prevent-email-from-being-marked-as-spam">Impedir que os e-mails sejam marcados como spam</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection">Proteção antispam de e-mails</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365">Criar listas de remetentes bloqueados</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection">Proteção antispam e antimalware</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection#manage-errors-in-spam-filtering">Impedir que os e-mails sejam marcados como spam</a></p>
                     </div>
                 </div>
             </div>
@@ -148,10 +148,9 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
                         <h3>Solucionar problemas de conexão e de entrega dos e-mails</a></h3>
                         <p><a href="https://diagnostics.outlook.com/#/">Corrigir problemas de conexão do Outlook no Office 365 e Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">Recuperar itens excluídos na caixa de correio de um usuário </a></p>
-                        <p><a href="https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6">Localizar e corrigir problemas de entrega de e-mails</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">Localizar e corrigir problemas de entrega de e-mails</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">Localizar e corrigir problemas (incluindo problemas com e-mails) após adicionar o seu domínio ou registros DNS</a></p>
-                        <p><a href="https://support.office.com/article/51daa6b9-2e35-49c4-a0c9-df85bf8533c3">Procurar por códigos de erro NDR nas notificações de falha na entrega de e-mails</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkID=618675">Solucionar problemas do Outlook</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online">Procurar por códigos de erro NDR nas notificações de falha na entrega de e-mails</a></p>
                     </div>
                 </div>
             </div>
@@ -167,7 +166,7 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
                         <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Maneiras de migrar várias contas de email para o Office 365</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Conteúdo da implantação híbrida do Exchange</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/eop/exchange-online-protection-overview">Proteção do Exchange Online</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Proteção do Exchange Online</a></p>
                     </div>
                 </div>
             </div>
