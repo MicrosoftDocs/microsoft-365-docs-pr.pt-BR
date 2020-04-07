@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business do Office 365 E3.
-ms.openlocfilehash: b86a163792aa71f0bca115ab918e0800acc0427d
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: cff6166529df2e56ba948a9bd3ea4594fb295b08
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409676"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153527"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Migrando do Office 365 E3 para a Microsoft 365 Business 
 
@@ -49,10 +49,10 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Office 365 
 | Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | Gerenciador de clientes do Outlook, MileIQ    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | | 
-| **Proteção contra ameaças**        | | | 
+| **Proteção contra Ameaças**        | | | 
 | Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    |  | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure, acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    |  | 
 | **Gerenciamento de dispositivos e aplicativos**        | | |
 | Microsoft Intune, piloto automático do Windows|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    |  |
 | Ativação de computador compartilhado|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png)| 
@@ -93,7 +93,7 @@ Se você atualizou todas as pessoas em sua organização para o Microsoft 365 Bu
 
 Você também pode concluir estas etapas na página dispositivos:
   
-1. No centro de administração, na navegação à esquerda, vá para **** \> **políticas**de dispositivos.
+1. No centro de administração, na navegação à esquerda, vá para **Devices** \> **políticas**de dispositivos.
     
 2. Na página **políticas de dispositivo** , escolha **Adicionar**.
     

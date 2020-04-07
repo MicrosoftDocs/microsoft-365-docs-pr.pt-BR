@@ -1,11 +1,11 @@
 ---
-title: Pesquisar atividades de descoberta eletrônica no log de auditoria do Office 365
+title: Procurar atividades de descoberta eletrônica no log de auditoria
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/24/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,27 +14,27 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba como pesquisar o log de auditoria do Office 365 em busca de eventos registrados quando os administradores de conformidade executam tarefas de pesquisa de conteúdo e casos de descoberta eletrônica no centro de conformidade de & de segurança.
-ms.openlocfilehash: ef9c40debb8c28f0d017423d29016ca4f52b7a17
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 21a7304abae594557c5ae8fcdc33ca8c88bc2dea
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634149"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151446"
 ---
-# <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Pesquisar atividades de descoberta eletrônica no log de auditoria do Office 365
+# <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
-Pesquisa de conteúdo e atividades relacionadas à descoberta eletrônica realizadas no centro de conformidade & segurança ou executando os cmdlets do Windows PowerShell correspondentes são registrados no log de auditoria do Office 365. Os eventos são registrados quando administradores ou administradores de conformidade (ou qualquer usuário que tenha permissões de descoberta eletrônica) executam as seguintes tarefas relacionadas à pesquisa de conteúdo e descoberta eletrônica no centro de conformidade de & de segurança:
+A pesquisa de conteúdo e as atividades relacionadas à descoberta eletrônica realizadas no centro de conformidade do & de segurança ou executando os cmdlets do PowerShell correspondentes são registradas no log de auditoria do Office 365. Os eventos são registrados quando administradores ou gerentes de descoberta eletrônica (ou qualquer permissão de descoberta eletrônica atribuída pelo usuário) realizam a pesquisa de conteúdo e as principais tarefas de descoberta eletrônica principais no centro de conformidade de & de segurança:
   
 - Criar e gerenciar casos de Descoberta Eletrônica
-    
+
 - Criar, iniciar e editar pesquisas de conteúdo
-    
+
 - Executar ações de pesquisa de conteúdo, como visualização, exportação e exclusão de resultados de pesquisa
-    
+
 - Configurar a filtragem de permissões para pesquisa de conteúdo
-    
+
 - Gerenciar a função de administrador de Descoberta Eletrônica
-    
+
 > [!IMPORTANT]
 > As atividades descritas neste artigo são apenas o resultado de tarefas de descoberta eletrônica realizadas usando o centro de conformidade do & de segurança. as tarefas de descoberta eletrônica realizadas com o uso da ferramenta de descoberta eletrônica in-loco no Exchange Online ou no centro de descoberta eletrônica no SharePoint Online não estão incluídas. 
   
@@ -67,10 +67,9 @@ Atualmente, você precisa fazer algumas coisas específicas para exibir as ativi
     
     É exibida uma página de saída de **detalhes** que contém as propriedades detalhadas do registro de eventos. Para exibir detalhes adicionais, clique em **mais informações**. Para obter uma descrição dessas propriedades, consulte a seção [propriedades detalhadas para atividades de descoberta eletrônica](#detailed-properties-for-ediscovery-activities) . 
 
-  
 ## <a name="ediscovery-activities"></a>Atividades de Descoberta Eletrônica
 
-A tabela a seguir descreve a pesquisa de conteúdo e as atividades relacionadas à descoberta eletrônica que são registradas quando um administrador ou usuário realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell remoto conectado ao centro de conformidade & segurança da sua organização. 
+A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descoberta eletrônica principais que são registradas quando um administrador ou gerente de descoberta eletrônica realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade de & de segurança ou executando o cmdlet correspondente no Office 365 Security & centro de conformidade do PowerShell. 
   
 > [!NOTE]
 > As atividades de descoberta eletrônica descritas nesta seção fornecem informações semelhantes às atividades de cmdlet de descoberta eletrônica descritas na próxima seção. Recomendamos que você use as atividades de descoberta eletrônica descritas nesta seção, pois elas aparecerão nos resultados da pesquisa de log de auditoria em 30 minutos. É necessário até 24 horas para que as atividades do cmdlet de descoberta eletrônica apareçam nos resultados da pesquisa de log de auditoria. 
@@ -94,10 +93,10 @@ A tabela a seguir descreve a pesquisa de conteúdo e as atividades relacionadas 
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica criada  <br/> |HoldCreated  <br/> |New-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi criado.  <br/> |
 |Pesquisa de conteúdo excluída  <br/> |SearchRemoved  <br/> |Remove-ComplianceSearch  <br/> |Uma pesquisa de conteúdo existente foi excluída.  <br/> |
 |Administrador de descoberta eletrônica excluído  <br/> |CaseAdminRemoved  <br/> |Remove-eDiscoveryCaseAdmin  <br/> |Um administrador de descoberta eletrônica foi excluído da sua organização.  <br/> |
-|Caso de descoberta eletrônica excluída  <br/> |CaseRemoved  <br/> |Remove-ComplianceCase  <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Observe que qualquer retenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
+|Caso de descoberta eletrônica excluída  <br/> |CaseRemoved  <br/> |Remove-ComplianceCase  <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Qualquer isenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
 |Filtro de permissões de pesquisa excluído  <br/> |SearchPermissionRemoved  <br/> |Remove-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi excluído.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica excluída  <br/> |HoldRemoved  <br/> |Remove-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi excluído. Remover a consulta da retenção geralmente é o resultado da exclusão de uma isenção. Quando uma consulta de bloqueio ou retenção é excluída, os locais de conteúdo que estavam em retenção são lançados.  <br/> |
-|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Observe que uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
+|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
 |Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |Não disponível  <br/> |Um usuário visualize os resultados de uma pesquisa de conteúdo.  <br/> |
 |Resultados excluídos da pesquisa de conteúdo  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Um usuário limpou os resultados de uma pesquisa de conteúdo executando o comando **New-ComplianceSearchAction-Purge** .  <br/> |
 |Análise de pesquisa de conteúdo removida  <br/> |RemovedSearchResultsSentToZoom  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de preparação de pesquisa de conteúdo (para preparar resultados de pesquisa para a descoberta eletrônica avançada do Office 365) foi excluída. Se a ação de preparação tiver menos de duas semanas, os resultados da pesquisa que foram preparados para descoberta eletrônica avançada foram excluídos da área de armazenamento do Microsoft Azure. Se a ação de preparação tiver mais de duas semanas, esse evento indicará que somente a ação de preparação correspondente foi excluída.  <br/> |
@@ -111,10 +110,15 @@ A tabela a seguir descreve a pesquisa de conteúdo e as atividades relacionadas 
 |Exportação de pesquisa de conteúdo iniciada  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou os resultados de uma pesquisa de conteúdo.  <br/> |
 |Relatório de exportação iniciado  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Um usuário exportou um relatório de pesquisa de conteúdo.  <br/> |
 |Pesquisa de conteúdo interrompida  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Um usuário interrompeu uma pesquisa de conteúdo.  <br/> |
+|(nenhum)|CaseViewed|Get-ComplianceCase|Um usuário exibiu a lista de casos na página de **descoberta eletrônica** no centro de segurança e conformidade ou executando o cmdlet.|
+|(nenhum)|SearchViewed|Get-ComplianceSearch|Um usuário exibiu a lista em pesquisas de conteúdo (listadas na guia **pesquisas** ) no centro de segurança e conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário exibe a lista de pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica (clicando na guia **pesquisas** em uma ocorrência) ou executando o comando **Get-ComplianceSearch-Case** .|
+|(nenhum)|ViewedSearchExported|Get-ComplianceSearchAction-Export|Um usuário exibiu a lista de trabalhos de exportação de pesquisa de conteúdo (listada na guia **exportações** ) no centro de segurança e conformidade ou executando o cmdlet. Essa atividade também é registrada quando um usuário exibe a lista de trabalhos de exportação em um caso de descoberta eletrônica (listado na guia **exportações** em um caso) ou executando o comando **Get-ComplianceSearchAction-Case-Export** .|
+|(nenhum)|ViewedSearchPreviewed|Get-ComplianceSearchAction-Preview|Um usuário visualiza os resultados de uma pesquisa de conteúdo no centro de conformidade e segurança ou executando o cmdlet.|
+|||||
   
 ## <a name="ediscovery-cmdlet-activities"></a>atividades de cmdlet de descoberta eletrônica
 
-A tabela a seguir lista os registros de log de auditoria de cmdlet que são registrados quando um administrador ou usuário realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell remoto conectado ao centro de conformidade & segurança da sua organização. Observe que as informações detalhadas no registro de log de auditoria são diferentes para as atividades de cmdlet listadas nesta tabela e as atividades de descoberta eletrônica descritas na seção anterior. 
+A tabela a seguir lista os registros de log de auditoria de cmdlet que são registrados quando um administrador ou usuário realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell remoto conectado ao centro de conformidade & segurança da sua organização. As informações detalhadas no registro de log de auditoria são diferentes para as atividades de cmdlet listadas nesta tabela e as atividades de descoberta eletrônica descritas na seção anterior. 
   
 Conforme mencionado anteriormente, é necessário até 24 horas para atividades de cmdlet de descoberta eletrônica serem exibidas nos resultados de pesquisa do log de auditoria.
   
@@ -130,7 +134,7 @@ Conforme mencionado anteriormente, é necessário até 24 horas para atividades 
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica excluída  <br/> |[Remove-CaseHoldRule](https://go.microsoft.com/fwlink/p/?LinkId=823820) <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi excluído. Remover a consulta da retenção geralmente é o resultado da exclusão de uma isenção. Quando uma consulta de bloqueio ou retenção é excluída, os locais de conteúdo que estavam em retenção são lançados.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica alterada  <br/> |[Set-CaseHoldRule](https://go.microsoft.com/fwlink/p/?LinkId=823819) <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi alterado. As alterações possíveis incluem a edição da consulta ou do intervalo de datas de uma retenção baseada em consulta.  <br/> |
 |Ocorrência de descoberta eletrônica criada  <br/> |[New-ComplianceCase](https://go.microsoft.com/fwlink/p/?LinkId=823842) <br/> |Um caso de descoberta eletrônica foi criado. Quando um caso é criado, você só precisa dar um nome a ele. Outras tarefas relacionadas a maiúsculas e minúsculas, como a adição de membros, a criação de isenções e a criação de pesquisas de conteúdo associadas ao caso de eventos adicionais serem registrados.  <br/> |
-|Caso de descoberta eletrônica excluída  <br/> |[Remove-ComplianceCase](https://go.microsoft.com/fwlink/p/?LinkId=823844) <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Observe que qualquer retenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
+|Caso de descoberta eletrônica excluída  <br/> |[Remove-ComplianceCase](https://go.microsoft.com/fwlink/p/?LinkId=823844) <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Qualquer isenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
 |Ocorrência de descoberta eletrônica alterada  <br/> |[Set-ComplianceCase](https://go.microsoft.com/fwlink/p/?LinkId=823846) <br/> |Uma ocorrência de descoberta eletrônica foi alterada. As alterações incluem fechar uma ocorrência aberta ou reabrir uma ocorrência fechada.  <br/> |
 |Membro adicionado ao caso de descoberta eletrônica  <br/> |[Add-ComplianceCaseMember](https://go.microsoft.com/fwlink/p/?LinkId=823848) <br/> |Um usuário foi adicionado como um membro de uma ocorrência de descoberta eletrônica. Como um membro de um caso, um usuário pode realizar várias tarefas relacionadas a maiúsculas e minúsculas, dependendo se foram atribuídas as permissões necessárias.  <br/> |
 |Membro removido da ocorrência de descoberta eletrônica  <br/> |[Remove-ComplianceCaseMember](https://go.microsoft.com/fwlink/p/?LinkId=823849) <br/> |Um usuário foi removido como membro de uma ocorrência de descoberta eletrônica.  <br/> |
@@ -151,7 +155,7 @@ Conforme mencionado anteriormente, é necessário até 24 horas para atividades 
    
 ## <a name="detailed-properties-for-ediscovery-activities"></a>Propriedades detalhadas para atividades de descoberta eletrônica
 
-A tabela a seguir descreve as propriedades que são incluídas quando você clica em **mais informações** na página de **detalhes** de uma atividade de descoberta eletrônica listada nos resultados da pesquisa. Essas propriedades também estão incluídas no arquivo CSV quando você exporta os resultados da pesquisa de log de auditoria. Observe que um registro de log de auditoria para uma atividade de descoberta eletrônica não incluirá todas as propriedades detalhadas listadas abaixo. 
+A tabela a seguir descreve as propriedades que são incluídas quando você clica em **mais informações** na página de **detalhes** de uma atividade de descoberta eletrônica listada nos resultados da pesquisa. Essas propriedades também estão incluídas no arquivo CSV quando você exporta os resultados da pesquisa de log de auditoria. Um registro de log de auditoria para uma atividade de descoberta eletrônica não incluirá todas as propriedades detalhadas listadas abaixo. 
   
 > [!TIP]
 > Quando você exporta os resultados da pesquisa, o arquivo CSV contém uma coluna chamada **Detail**, que contém as propriedades detalhadas descritas na tabela a seguir em uma propriedade de vários valores. Você pode usar o recurso de consulta de energia no Excel para dividir esta coluna em várias colunas, de forma que cada propriedade terá sua própria coluna. Isso permitirá que você classifique e filtre em uma ou mais dessas propriedades. Para obter mais informações, consulte a seção "exportar os resultados da pesquisa para um arquivo" em [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md#step-4-export-the-search-results-to-a-file). 
@@ -164,7 +168,7 @@ A tabela a seguir descreve as propriedades que são incluídas quando você clic
 |ClientRequestId  <br/> | Para atividades de descoberta eletrônica, essa propriedade geralmente está em branco.  <br/> |
 |CmdletVersion  <br/> |O número de compilação da versão do centro de conformidade & segurança em execução em sua organização.  <br/> |
 |CreationTime  <br/> |A data e hora no tempo universal coordenado (UTC) quando a atividade de descoberta eletrônica foi concluída.  <br/> |
-|EffectiveOrganization  <br/> |O nome da sua organização do Office 365.  <br/> |
+|EffectiveOrganization  <br/> |O nome da organização do Office 365.  <br/> |
 |ExchangeLocations  <br/> |As caixas de correio do Exchange Online que estão incluídas em uma pesquisa de conteúdo ou colocadas em espera em uma ocorrência de descoberta eletrônica.  <br/> |
 |Exclusões  <br/> |Locais de caixa de correio ou de site excluídos de uma pesquisa de conteúdo ou de um bloqueio em uma ocorrência de descoberta eletrônica.  <br/> |
 |ExtendedProperties  <br/> |Propriedades adicionais de uma pesquisa de conteúdo, uma ação de pesquisa de conteúdo ou uma retenção em caso de descoberta eletrônica, como o GUID do objeto e os parâmetros de cmdlet e cmdlet correspondentes que foram usados quando a atividade foi realizada.  <br/> |
@@ -182,7 +186,7 @@ A tabela a seguir descreve as propriedades que são incluídas quando você clic
 |SecurityComplianceCenterEventType  <br/> |Indica que a atividade era um evento de centro de conformidade de & de segurança. Todas as atividades de descoberta eletrônica terão o valor **0** para esta propriedade.  <br/> |
 |SharepointLocations  <br/> |Os sites do SharePoint Online que estão incluídos em uma pesquisa de conteúdo ou colocados em retenção em uma ocorrência de descoberta eletrônica.  <br/> |
 |StartTime  <br/> |A data e hora no tempo universal coordenado (UTC) quando a atividade de descoberta eletrônica foi iniciada.  <br/> |
-|UserId  <br/> |O usuário que realizou a atividade (especificado na Propriedade Operation) que resultou no registro que está sendo registrado em log. Observe que os registros de atividade de descoberta eletrônica realizadas por contas de sistema (como o NT AUTHORITY\SYSTEM) também estão incluídos no log de auditoria.  <br/> |
+|UserId  <br/> |O usuário que realizou a atividade (especificado na Propriedade Operation) que resultou no registro que está sendo registrado em log. Os registros de atividade de descoberta eletrônica realizadas por contas de sistema (como o NT AUTHORITY\SYSTEM) também estão incluídos no log de auditoria.  <br/> |
 |UserKey  <br/> |Uma ID alternativa para o usuário identificado na propriedade UserId. Para atividades de descoberta eletrônica, o valor dessa propriedade é geralmente o mesmo que a propriedade UserId.  <br/> |
 |UserServicePlan  <br/> |A assinatura do Office 365 usada por sua organização. Para atividades de descoberta eletrônica, essa propriedade geralmente está em branco.  <br/> |
 |UserType  <br/> |O tipo de usuário que executou a operação. Os valores a seguir indicam o tipo de usuário.  <br/> 0 um usuário regular. 2 um administrador na sua organização do Office 365. 3 uma conta de administrador de datacenter da Microsoft ou sistema de datacenter. 4 uma conta do sistema. 5 um aplicativo. 6 uma entidade de serviço. |

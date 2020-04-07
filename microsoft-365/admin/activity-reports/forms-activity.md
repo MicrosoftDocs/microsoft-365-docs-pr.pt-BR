@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Saiba como obter um relatório de atividades do Microsoft Forms usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046934"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151412"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de formulários
 
@@ -41,9 +41,9 @@ Por exemplo, você pode entender a atividade de cada usuário licenciado para us
     
 2. No menu suspenso **selecionar um relatório** , selecione **atividade**de **formulários** \> .
 
-## <a name="interpret-the-email-activity-report"></a>Interpretar o relatório de atividade de email
+## <a name="interpret-the-forms-activity-report"></a>Interpretar o relatório de atividades de formulários
 
-Você pode observar a atividade de email do usuário examinando os gráficos **Atividade** e **Usuários**. 
+Você pode obter uma visão da atividade formulários do usuário examinando os gráficos **atividade** e **usuários** . 
 
 ![Relatório de atividades de formulários](../../media/adminformsactivity.png)
 

@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o Office 365 Advanced eDiscovery v 1.0 também estão sendo retirados no mesmo período de tempo.
-ms.openlocfilehash: d0d9856a30d905e73ba31abc9af92bbe060c0ec4
-ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
+ms.openlocfilehash: 2d1f319986d761135e2c22b1d5882797f90f910c
+ms.sourcegitcommit: 9ba28b255640c7b22f627613430dc69191bfaede
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43024351"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43158432"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Aposentadoria de ferramentas de descoberta eletrônica herdadas
 
@@ -53,10 +53,8 @@ Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica 
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
-   
 
-
-- [Office 365 Advanced eDiscovery v 1.0](office-365-advanced-ediscovery.md), que é a primeira versão da descoberta eletrônica avançada que é acessada por meio de uma caixa de descoberta eletrônica no centro de conformidade & segurança do Office 365.
+- [Office 365 Advanced eDiscovery v 1.0](office-365-advanced-ediscovery.md), que é a primeira versão da descoberta eletrônica avançada que é acessada por meio de um principal caso de descoberta eletrônica no centro de conformidade & segurança do Office 365. A aposentadoria do Advanced eDiscovery v 1.0 não afeta sua capacidade de criar e gerenciar casos de descoberta eletrônica principais.
 
 > [!NOTE]
 > A funcionalidade de descoberta eletrônica que está sendo desativada só se aplica às versões baseadas em nuvem do Microsoft 365 e do Office 365. a funcionalidade de descoberta eletrônica em versões locais do Exchange e do SharePoint ainda será suportada até um aviso adicional.
@@ -141,7 +139,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class=even>
   <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
-  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar o antigo funcionário nas. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar a caixa de correio do funcionário anterior. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
   
   </tr>
 <tr class="odd">
@@ -228,7 +226,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
   <tr class=even>
   <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
-  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar o antigo funcionário nas. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar a caixa de correio do funcionário anterior. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
   
   </tr>
 
@@ -331,14 +329,28 @@ Essas operações na API de serviços Web do Exchange são usadas pelo recurso d
 
 ## <a name="advanced-ediscovery-v10"></a>Descoberta eletrônica avançada v 1.0
 
-O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica clicando em **alternar para a descoberta eletrônica avançada** está sendo desativada. Sua funcionalidade foi substituída pela nova [solução de descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
+O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica principal clicando em **alternar para descoberta eletrônica avançada**, está sendo desativado. Sua funcionalidade foi substituída pela nova [solução de descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
+
+Para determinar se sua organização está usando o eDiscovery v 1.0 avançado:
+
+1. Vá para o [centro de conformidade & segurança do Office 365](https://protection.office.com).
+
+2. No painel de navegação esquerdo do centro de conformidade & segurança, clique em **descoberta eletrônica > eDiscovery**e abra um caso de descoberta eletrônica principal.
+
+3. Se você vir o botão **alternar para descoberta eletrônica avançada** e, em seguida, clicar nele para obter a versão 1,0 da descoberta eletrônica avançada, que está sendo desativada. A capacidade de criar e gerenciar ocorrências na descoberta eletrônica principal não será afetada. Somente a capacidade de adicionar e analisar dados de caso no eDiscovery v 1.0 avançado (clicando em **alternar para descoberta eletrônica avançada**) está sendo desativada.
 
 A nova solução de descoberta eletrônica avançada no Microsoft 365 (também conhecida como *AutoDiscovery v 2.0*) fornece todos os recursos da solução original, mas agora inclui uma abordagem baseada em responsáveis de identificar conteúdo em outros serviços do Microsoft 365, coletar esse conteúdo e, em seguida, adicioná-lo a um conjunto de revisão em que os revisores podem aproveitar consultas de pesquisa rápida, marcação e recursos de análise para ajudar a analisar documentos relevantes. A descoberta eletrônica avançada agora inclui o processamento melhorado e os visualizadores nativos para tipos de arquivo da Microsoft e de terceiros, uma lista completa de tipos de arquivo é [aqui](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) e os campos de metadados suportados estão [aqui](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery). Além disso, a nova solução de descoberta eletrônica avançada fornece um recurso de gerenciamento poderoso que permite que você aplique isenções ao conteúdo em diferentes serviços, notifique os usuários das isenções e rastreie as respostas dos responsáveis, tudo em um caso de descoberta eletrônica avançada.
+
+Para acessar o eDiscovery v 2.0 avançado:
+
+1. Vá para o [centro de conformidade da Microsoft 365](https://compliance.microsoft.com).
+
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > avançado**.
 
 No momento, recomendamos que você comece a migrar seu fluxo de trabalho de descoberta eletrônica para a nova funcionalidade avançada de descoberta eletrônica. Embora você ainda consiga acessar o eDiscovery v 1.0 avançado nos casos existentes, o suporte da Microsoft não fornecerá suporte após 1º de outubro de 2020. Confira mais detalhes na linha do tempo a seguir.
 
 ### <a name="scope-of-affected-organizations"></a>Escopo de organizações afetadas
-    
+
 - Organizações do Office 365 e do Microsoft 365 Enterprise
 
 - Organizações do Office 365 e Microsoft 365 Education

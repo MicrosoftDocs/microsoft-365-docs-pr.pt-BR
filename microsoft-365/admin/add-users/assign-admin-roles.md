@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 431c51ea4859899ba9762d6f4c5b7bf1e9ba3d8a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237151"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151358"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -65,7 +65,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>Atribuir funções de administrador a usuários usando funções
 
-1. No centro de administração, > vá até **funções funções para** exibir todas as funções de administrador disponíveis para sua organização. ****
+1. No centro de administração, > vá até **funções funções para** exibir todas as funções de administrador disponíveis para sua organização. **Roles**
 2. Selecione a função de administrador à qual você deseja atribuir o usuário.
 3. Selecione **Administradores** > atribuídos **Adicionar**.
 4. Digite o nome de **exibição** do usuário ou o nome de **usuário**e, em seguida, selecione o usuário na lista de sugestões.
@@ -126,7 +126,7 @@ Você pode não ter as permissões corretas e, portanto, não tem acesso para at
 
 [Atribuir funções a contas de usuário com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
-[Autorizar ou remover relacionamentos de parceiros](https://support.office.com/article/201ccb3b-6011-4bf1-a6b2-84e7cc1ee2d0.aspx)
+[Autorizar ou remover relacionamentos de parceiros](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)
 
 [Adicionar um endereço de email alternativo usando o centro de administração do Exchange](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
 

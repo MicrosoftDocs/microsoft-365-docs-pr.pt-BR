@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas em sua organização estão usando os serviços do Office 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029855"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151424"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Relatórios de atividades no centro de administração do Microsoft 365
 
@@ -180,6 +180,6 @@ No entanto, quando você seleciona um determinado dia (Veja o número 3), até 2
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Relatórios no Centro de Conformidade &amp; e Segurança](https://support.office.com/article/7acd33ce-1ec8-49fb-b625-43bac7b58c5a)
+[Relatórios no Centro de Conformidade &amp; e Segurança](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
   
 

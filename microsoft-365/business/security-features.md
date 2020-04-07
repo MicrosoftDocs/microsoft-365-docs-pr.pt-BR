@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business para ajudar a proteger seus dados em PCs, telefones e tablets.
-ms.openlocfilehash: 85f9b50225c3dbdb0c1b76c33d516aaa03bec773
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561251"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153789"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
 
@@ -74,11 +74,11 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
 
 - **[Os recursos completos do Intune no portal do Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não está disponível através da Microsoft 365 centro de administração de negócios.
-- **Mesmo [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) que o plano P1 do Azure AD**
+    Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não está disponível no centro de administração de negócios do Microsoft 365.
+- **Mesmo [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) do Azure ad Premium P1 plano**
 
 
-    O acesso condicional pode ajudar a proteger sua organização contra o risco de entrada, as tentativas de acesso de uma rede ou localidade inesperada, o acesso tenta de tipos de dispositivos arriscados e assim por diante. As políticas de acesso condicional são aplicadas depois que a primeira autenticação é concluída e usa sinais do primeiro evento de autenticação para determinar se o acesso tentado deve ser aprovado, negado ou se for mais uma prova (como uma segunda forma de identificação) é necessário.
+    O acesso condicional pode ajudar a proteger sua organização contra o risco de entrada, as tentativas de acesso de uma rede ou localidade inesperada, o acesso tenta de tipos de dispositivos arriscados e assim por diante. As políticas de acesso condicional são aplicadas depois que a primeira autenticação é concluída e usa sinais do primeiro evento de autenticação para determinar se o acesso tentado deve ser aprovado, negado ou se é necessário mais prova (como uma segunda forma de identificação).
 
     Os recursos de acesso condicional incluídos são:
 

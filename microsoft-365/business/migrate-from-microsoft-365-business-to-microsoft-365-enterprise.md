@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business para a Microsoft 365 E3.
-ms.openlocfilehash: 9e9cfcf2212faa69f600267e4f9bfd2391e3f4e5
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 0d636c0572850a53612bf756508c4b57f1b3e4eb
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409666"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153515"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business para o Microsoft 365 E3
 
@@ -57,14 +57,14 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business e o Microsoft 3
 | OneDrive for Business    | limite de armazenamento de 1 TB por usuário    | Ilimitado | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Gerenciador de clientes do Outlook, MileIQ    | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | | 
-| **Proteção contra ameaças**        | | | 
+| **Proteção contra Ameaças**        | | | 
 | Recursos de redução de superfície de ataque    | [Confira esta lista](#threat-protection) | Gerenciamento corporativo de isolamento baseado em hardware para o Microsoft Edge | 
 | Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure, acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Descoberta do Cloud app, integridade do Azure AD Connect    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Logon único (SSO) de aplicativos do Azure AD Office 365:10 aplicativos por usuário (Galeria de aplicativos SaaS como Salesforce) * | ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do proxy de aplicativo do Azure AD e aplicativos não-Galeria usando modelos de integração de aplicativos de autoatendimento)    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Premium P1 SSO: sem limite (aplicativos locais por meio do proxy de aplicativo do Azure AD e aplicativos não-Galeria usando modelos de integração de aplicativos de autoatendimento)    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | **Gerenciamento de dispositivos e aplicativos**        | | | 
 | Microsoft Intune, piloto automático do Windows|     ![Incluído no Microsoft 365 Business](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 |Acesso à área de trabalho virtual (VDA)    |  |     ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
