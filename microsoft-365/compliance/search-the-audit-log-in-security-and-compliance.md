@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 66e75561084c3f3e8e67303e1cd359ef01c6b01a
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 9fb37cba0e7e9774b4de5c559b7bc0636b599776
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955680"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151436"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -588,9 +588,9 @@ A tabela a seguir lista as atividades de administração de usuários que são r
 |:-----|:-----|:-----|
 |Usuário adicionado|Adicionar usuário|Uma conta de usuário do Office 365 foi criada.|
 |Licença de usuário alterada|Alterar licença de usuário|A licença atribuída a um usuário foi alterada. Para ver quais licenças foram alteradas, veja a atividade **Usuário atualizado** correspondente.|
-|Senha do usuário alterada|Alterar senha do usuário|O administrador alterou a senha de um usuário.|
+|Senha do usuário alterada|Alterar senha do usuário|Um usuário altera sua senha. A redefinição de senha de autoatendimento deve estar ativada (para todos ou usuários selecionados) na sua organização para permitir que os usuários redefinam suas senhas. Você também pode acompanhar a atividade de redefinição de senha de autoatendimento no Azure Active Directory. Para obter mais informações, consulte [Opções de relatório do gerenciamento de senhas do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting).
 |Usuário excluído|Excluir usuário|Uma conta de usuário do Office 365 foi excluída.|
-|Redefinir senha do usuário|Redefinir senha do usuário|O administrador redefiniu a senha de um usuário.|
+|Redefinir senha do usuário|Redefinir senha do usuário|O administrador redefine a senha de um usuário.|
 |Propriedade definida que força o usuário a alterar a senha|Definir alteração forçada de senha do usuário|O administrador definiu a propriedade que força o usuário a redefinir a senha da próxima vez que esse usuário entrar no Office 365.|
 |Definir propriedades de licenças|Definir propriedades de licenças|O administrador modifica as propriedades de uma licença atribuída a um usuário.|
 |Usuário atualizado|Atualizar usuário|O administrador altera uma ou mais propriedades de uma conta de usuário. Para obter uma lista de propriedades do usuário que podem ser atualizadas, veja a seção "Atualizar atributos do usuário" em [Eventos de relatório de auditoria do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=616549).|

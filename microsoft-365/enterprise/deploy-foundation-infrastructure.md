@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda as principais fases da implantação da infraestrutura de base para o Microsoft 365 para empresas em sua organização, também conhecida como implantação principal.
-ms.openlocfilehash: 966fa8ad26d54328bf4d2e95c95b497e5d283e52
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 6c2784d22e236880b87ece9e04e11fb0502667dd
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951953"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153839"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 para empresas
 
@@ -88,23 +88,23 @@ Por exemplo, você cria as configurações para:
 
 | Fase | Resultados |
 |:-------|:-----|
-| Identidade | Sincronização de conta e grupos para políticas de acesso condicional baseadas na identidade. |
+| Identidade | Sincronização de conta e grupos para políticas de Acesso Condicional baseadas na identidade. |
 | Windows 10 Enterprise | Grupos para atualizar automaticamente os computadores executando o Windows 7 ou Windows 8.1 para o Windows 10 Enterprise em vigor. |
 | Office 365 ProPlus | Grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
-| Gerenciamento de dispositivo móvel | Grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
+| Gerenciamento de dispositivo móvel | Grupos para registro de dispositivo e políticas de Acesso Condicional baseadas em dispositivos. |
 | Proteção de informações | Grupos de rótulos de confidencialidade do Office 365. |
 
 Quando você estiver pronto para implantar elementos dessa infraestrutura aos usuários, você:
 
 | Fase | Ação de implantação |
 |:-------|:-----|
-| Identidade | Adicionar contas de usuário aos grupos para políticas de acesso condicional baseadas na identidade. |
+| Identidade | Adicionar contas de usuário aos grupos para políticas de Acesso Condicional baseadas na identidade. |
 | Windows 10 Enterprise | Adicionar contas aos grupos para implantar automaticamente o Windows 10 Enterprise em vigor para os usuários com o Windows 7 ou o Windows 8.1. |
 | Office 365 ProPlus | Adicionar contas de usuário aos grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
-| Gerenciamento de dispositivo móvel | Adicionar contas aos grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
+| Gerenciamento de dispositivo móvel | Adicionar contas aos grupos para registro de dispositivo e políticas de Acesso Condicional baseadas em dispositivos. |
 | Proteção de informações | Adicione contas de usuário aos grupos para obter os rótulos de confidencialidade. |
 
-Uma vez que as fases ou elementos da infraestrutura de base sejam concluídos, testados e tiverem o piloto definido, você pode implantar o software instalado, como o Windows 10 Enterprise, o Office 365 ProPlus e os serviços e proteções baseados em nuvem. Por exemplo, o registro de dispositivo e políticas de acesso condicional para os seus usuários da maneira que melhor se adapte aos seus objetivos de negócios e recursos de TI.
+Uma vez que as fases ou elementos da infraestrutura de base sejam concluídos, testados e tiverem o piloto definido, você pode implantar o software instalado, como o Windows 10 Enterprise, o Office 365 ProPlus e os serviços e proteções baseados em nuvem. Por exemplo, o registro de dispositivos e políticas de Acesso Condicional para os seus usuários da maneira que melhor se adapte às suas metas de negócios e recursos de TI.
 
 ## <a name="deployment-and-project-management-strategies"></a>Implantação e estratégias de gerenciamento de projetos
 

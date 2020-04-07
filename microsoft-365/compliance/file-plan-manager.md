@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: 23aa0e242464ebd450a0930bcda4274c026c7535
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: c4b1ddfaf3191a282a67917c2b2d257712a10802
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105638"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151456"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
@@ -35,11 +35,11 @@ Para acessar o Gerenciador de planos de arquivos no centro de segurança e confo
 
 ## <a name="accessing-file-plan-manager"></a>Acessar o gerenciador de planos de arquivo
 
-Para acessar o gerenciador de plano de arquivos, deve haver uma das seguintes funções de administrador:
+Para acessar o gerenciador do plano de arquivos, você deve ter uma das seguintes funções de administrador:
     
-    - Gerenciador de Retenção
-    
-    - Gerenciador de Retenção somente exibição
+- Gerenciador de Retenção
+
+- Gerenciador de Retenção somente exibição
 
 ## <a name="default-retention-labels-and-label-policy"></a>Rótulos de retenção e política de rótulos padrão
 

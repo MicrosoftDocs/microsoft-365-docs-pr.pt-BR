@@ -2,4 +2,4 @@
 - Você registrou dispositivos no Intune para que eles possam receber as políticas que você criou.
 - Os aplicativos são adicionados aos dispositivos para que os usuários tenham acesso a serviços de nuvem do Microsoft 365 da sua organização, como o Exchange Online e o SharePoint Online.
 - As configurações e os recursos estão definidos e aplicados aos seus dispositivos usando os usuários e os grupos do Azure AD que você criar, o que pode incluir habilitar antivírus e restringir aplicativos específicos.
-- As políticas de conformidade estão prontas para exigir um firewall ou tamanho de senha em um dispositivo. Se os dispositivos não estiverem em conformidade, o acesso condicional bloqueará o acesso aos dados da organização.
+- As políticas de conformidade estão prontas para exigir um firewall ou tamanho da senha em um dispositivo. Se os dispositivos não estiverem em conformidade, o Acesso Condicional bloqueará o acesso aos dados da organização.
