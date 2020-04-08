@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7419bc37b40bb7e2b9b2726c4672d7d8d481ab8b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80e9ab25fda70ae723b844691dc129d0b604921
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597908"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313776"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Lei de Proteção de Dados Pessoais (PDPA) da Argentina
 
 ## <a name="about-the-pdpa"></a>Sobre a PDPA
 
-De acordo com a Constituição Nacional Argentina, a [Lei de Proteção de Dados Pessoais 25.326](https://unpan1.un.org/intradoc/groups/public/documents/un-dpadm/unpan044147.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) foi executada em 2000 para ajudar a proteger a privacidade de dados pessoais e dar acessos individuais a qualquer informação armazenada em bancos de dados e registros públicos e privados. A Agência Argentina de Acesso à Informação Pública ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), dentro do Gabinete do Chefe do Ministério, é responsável pela aplicação desta lei.
+De acordo com a Constituição Nacional Argentina, a [Lei de Proteção de Dados Pessoais 25.326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) foi executada em 2000 para ajudar a proteger a privacidade de dados pessoais e dar acessos individuais a qualquer informação armazenada em bancos de dados e registros públicos e privados. A Agência Argentina de Acesso à Informação Pública ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), dentro do Gabinete do Chefe do Ministério, é responsável pela aplicação desta lei.
 
 A PDPA está alinhada com o modelo legislativo europeu para proteger a privacidade de dados, e a Argentina foi o primeiro país da América Latina a alcançar uma qualificação de “adequação” para transferências de dados da UE.
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 99d4b1b07c86989bce0da08324014bda7a8a7d5d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 728208960932ea8d642ad1604d45ba321f021735
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602408"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313756"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Autoridade Supervisora do Mercado Financeiro (FINMA) da Suíça
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602408"
 
 A [Autoridade do Mercado Financeiro](https://www.finma.ch/en) ([Eidgenössische Finanzmarktaufsicht](https://www.finma.ch/de/), FINMA) é a reguladora de mercados financeiros independentes na Suíça e é responsável por garantir que os mercados financeiros da Suíça funcionem de forma eficaz. Possui supervisão prudencial sobre bancos, empresas de seguros, câmbio, negociantes de títulos e outras instituições financeiras.
 
-A FINMA publicou a [Circular 2018/3 Terceirização - bancos e seguradores](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2018-03.pdf?la=en) para definir os requisitos que os bancos, os negociantes de títulos e as companhias de seguro devem obedecer ao terceirizar para um prestador de serviço quaisquer funções que sejam significativas para as atividades de negócios da empresa. Qualquer empresa que terceirize suas atividades de negócios é responsável perante a FINMA, assim como seria se realizasse as funções terceirizadas.
+A FINMA publicou a [Circular 2018/3 Terceirização - bancos e seguradores](https://www.finma.ch/en/~/media/finma/dokumente/rundschreiben-archiv/2018/rs-18-03/finma-rs-2018-03---20170921.pdf?la=en) para definir os requisitos que os bancos, os negociantes de títulos e as companhias de seguro devem obedecer ao terceirizar para um prestador de serviço quaisquer funções que sejam significativas para as atividades de negócios da empresa. Qualquer empresa que terceirize suas atividades de negócios é responsável perante a FINMA, assim como seria se realizasse as funções terceirizadas.
 
 ## <a name="microsoft-and-finma"></a>Microsoft e FINMA
 
