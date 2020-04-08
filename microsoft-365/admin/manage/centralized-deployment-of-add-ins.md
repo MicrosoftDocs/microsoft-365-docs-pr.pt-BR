@@ -19,20 +19,20 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário do Office 365 e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 78d87c5539daa77c2babb7ffa36967c5f27e3c10
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d6b81a5ac5ef3b5287810110e5d0582bf34bff93
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362126"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189023"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
 A Implantação Centralizada é a forma recomendada e com recursos mais avançados que a maioria dos clientes usa para implantar suplementos do Office para usuários e grupos na sua organização do Office 365. Se você for um administrador, use este guia para determinar se o locatário e os usuários atendem aos requisitos para que você possa usar a implantação centralizada.
 A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
-Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
+Pode levar até 24 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Office 365 ProPlus (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. O diretório da sua assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizada do office 365](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker).
@@ -56,7 +56,7 @@ A Implantação Centralizada não é compatível com:
 - Para suplementos do Word, Excel e PowerPoint, seus usuários devem estar usando um dos seguintes:
   - Em um dispositivo do Windows, versão 1704 ou posterior do Office 365 ProPlus.
   - Em um Mac, versão 15,34 ou posterior.
-      - No iOS (somente iPad), a versão 2.9.18010804 ou posterior.
+
 - Para o Outlook, seus usuários devem estar usando um dos seguintes: 
   - Versão 1701 ou posterior do Office 365 ProPlus.
   - Versão 1808 ou posterior do Office Professional Plus 2019 ou Office Standard 2019.

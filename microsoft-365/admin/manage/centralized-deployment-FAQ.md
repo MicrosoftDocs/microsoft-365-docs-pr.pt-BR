@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: d63158f70e3f905b0ee1acf994cbef207f1ab4f1
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: 313e1dd7481ccdd8bbf7531d5b7433f8bbd54e38
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43166481"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188963"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre implantação centralizada
 
@@ -33,7 +33,7 @@ A implantação centralizada é a maneira recomendada para o administrador do Of
 
 A implantação centralizada de suplementos requer que os usuários estejam usando o Office 365 ProPlus (e estejam conectados ao Office usando suas credenciais de login organizacionais) e tenham caixas de correio do Exchange Online. O diretório de assinatura deve estar no Azure Active Directory ou federado a ele.  
  
-A implantação centralizada só é suportada para caixas de correio do Outlook online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
+A implantação centralizada só é suportada para caixas de correio online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
  
 Você pode usar o [Verificador de compatibilidade de implantação centralizada do Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)para determinar se sua assinatura está qualificada. 
   
@@ -47,7 +47,7 @@ Para obter mais detalhes, consulte [User and Group assignments](https://docs.mic
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Quanto tempo leva para que suplementos sejam mostrados para todos os usuários?  
 
-Pode levar até 12 horas para que um suplemento seja exibido para todos os usuários. Pode levar a mesma quantidade de tempo para atualizações de suplemento, alterações de ativar ou desativar ou de remoções de suplemento. 
+Pode levar até 24 horas para que um suplemento seja exibido para todos os usuários. Pode levar a mesma quantidade de tempo para atualizações de suplemento, alterações de ativar ou desativar ou de remoções de suplemento. 
   
 ## <a name="as-an-administrator-how-do-i-manage-the-user-access-to-add-ins-for-my-organization"></a>Como administrador, como gerenciar o acesso do usuário aos suplementos da minha organização?
 
