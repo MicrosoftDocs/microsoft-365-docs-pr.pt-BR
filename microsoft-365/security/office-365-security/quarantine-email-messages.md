@@ -2,8 +2,8 @@
 title: Quarentena no Office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Admin
@@ -18,12 +18,12 @@ ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
 description: A quarentena no Office 365 contém mensagens potencialmente perigosas ou indesejadas. Administradores e usuários finais podem acessar a quarentena.
-ms.openlocfilehash: 29f9fcbed83e9019118bb8b37c19cad1199c4c45
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a11b4a0d86cfc5f74636d3a9f89cf598320d1ebf
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895294"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42940952"
 ---
 # <a name="quarantine-in-office-365"></a>Quarentena no Office 365
 
@@ -35,7 +35,7 @@ Por padrão, o anti-spam policia as mensagens de phishing e entrega mensagens de
 
 Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena:
 
-- Os administradores podem trabalhar com todos os tipos de mensagens em quarentena para todos os usuários. Somente os administradores podem trabalhar com mensagens colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md).
+- Os administradores podem trabalhar com todos os tipos de mensagens em quarentena para todos os usuários. Somente os administradores podem trabalhar com mensagens colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações, consulte [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md).
 
 - Os usuários podem trabalhar com mensagens em quarentena onde eles são um destinatário se a mensagem foi colocada em quarentena como spam, email em massa ou (a partir de abril de 2020). Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md).
 

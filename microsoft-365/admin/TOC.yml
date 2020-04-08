@@ -1,7 +1,7 @@
 - name: Página inicial do administrador
   href: admin-home.md
   items:
-    - name: Visão Geral
+    - name: Visão geral
       items:
         - name: Visão Geral do Administrador
           href: admin-overview/admin-overview.md
@@ -169,6 +169,8 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Use a implantação centralizada para implantar suplementos
           href: manage/manage-deployment-of-add-ins.md
+        - name: Perguntas frequentes sobre implantação centralizada
+          href: manage/centralized-deployment-FAQ.md
         - name: Localizar seu parceiro ou revendedor
           href: manage/find-your-partner-or-reseller.md
         - name: Caixas de correio de equipamentos e salas

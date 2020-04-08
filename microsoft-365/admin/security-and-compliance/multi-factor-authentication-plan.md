@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a autenticação multifator no Office 365 e as etapas que você precisa seguir para configurá-lo.
-ms.openlocfilehash: e3886387740fe904b9c9458f7b1abf736c3ef83f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: be3b355f4487e2df5c2e20c9911c3bb421d5f7e1
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153563"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170935"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Plano para a autenticação multifator para Implantações do Office 365
 
@@ -65,7 +65,7 @@ Você recebe um subconjunto de recursos, dependendo se tem uma implantação som
 |Configuração híbrida, gerenciada no local  <br/> | Se você gerencia identidades de usuário no local, tem as seguintes opções:  <br/>  Cartão inteligente físico ou virtual (ao usar o AD FS)  <br/> [Autenticação multifator do Azure](https://go.microsoft.com/fwlink/p/?LinkId=526677) (módulo para AD FS)  <br/>  Autenticação multifator do Azure Active Directory (Azure AD)  <br/> |
    
   
-A figura a seguir mostra como os aplicativos de dispositivo do Office 2013 (no Windows) permitem aos usuários entrar com MFA. Os aplicativos de dispositivo do Office 2013 dão suporte à autenticação multifator com o uso da [ADAL (biblioteca de autenticação do Active Directory)](https://go.microsoft.com/fwlink/p/?LinkId=526684). O Azure AD hospeda uma página da Web onde os usuários podem entrar. O provedor de identidade pode ser o Azure AD ou um provedor de identidade federada, como o AD FS. A autenticação para usuários federados envolve as seguintes etapas:
+A figura a seguir mostra como os aplicativos de dispositivo do Office 2013 (no Windows) permitem aos usuários entrar com MFA. Os aplicativos de dispositivo do Office 2013 dão suporte à autenticação multifator por meio do uso da [Adal (biblioteca de autenticação do Active Directory)](https://go.microsoft.com/fwlink/p/?LinkId=526684). O Azure AD hospeda uma página da Web onde os usuários podem entrar. O provedor de identidade pode ser o Azure AD ou um provedor de identidade federada, como o AD FS. A autenticação para usuários federados envolve as seguintes etapas:
   
 1. O Azure AD redireciona o usuário para a página da Web de entrada hospedada pelo provedor de identidade do registro para o locatário do Office 365. O provedor de identidade é determinado pelo domínio especificado no nome de entrada do usuário.
     

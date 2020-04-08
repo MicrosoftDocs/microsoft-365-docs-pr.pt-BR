@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: e8e10160da4ddb43b47ecf41e2184dc1b8953941
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1fa99d7676a16ccd83319e5fbf3a6fedb72aec12
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033441"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170947"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
 
@@ -75,7 +75,7 @@ Como parte do AIR, os guias de segurança são implantados em fases. Agora, a fa
 
 A fase 1 também inclui suporte para investigações de email disparadas pelo administrador (usando o [Explorador de ameaças](threat-explorer.md)).
 
-A fase 2 agora está em andamento com os seguintes guias estratégicos na **Visualização pública**, fornecendo recomendações para ações e administradores de segurança do auxiliar em problemas de investigação:
+A fase 2 está em andamento com os seguintes guias estratégicos na **Visualização pública**, fornecendo recomendações para ações e administradores de segurança do auxiliar em problemas de investigação:
 - Usuário relatado como comprometido (visualização pública)
 
 Os guias estratégicos serão lançados à medida que forem concluídos. Visite o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para ver o que mais está planejado e disponível em breve.

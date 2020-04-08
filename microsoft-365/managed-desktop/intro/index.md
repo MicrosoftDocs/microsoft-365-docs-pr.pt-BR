@@ -6,10 +6,10 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "43142678"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?

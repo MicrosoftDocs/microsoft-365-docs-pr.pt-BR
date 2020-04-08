@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 04/07/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: c66fb5e4d8cd0d24ec20a50ca2ead3f3b9e0851d
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113512"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43175185"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -45,7 +45,7 @@ O Microsoft 365 para empresas está disponível em três planos.
 |:-------|:-----|
 | E3 | Acessar os principais produtos e recursos do Microsoft 365 para melhorar a produtividade do local de trabalho e promover a inovação, com segurança. |
 | E5 | Acessar os produtos e recursos mais recentes no Microsoft 365, incluindo proteção avançada contra ameaças, ferramentas de segurança e colaboração.. Inclui todos os recursos do E3's, além de ferramentas avançadas de segurança, voz e análise de dados. |
-| F1 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
+| F3 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
 |||
 
 Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/):
@@ -55,7 +55,7 @@ Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https:/
 
 Essas ofertas contêm recursos adicionais que estão incluídos no Microsoft 365 e5.
 
-Para obter mais informações, consulte [recursos e funcionalidades de cada plano](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Para obter mais informações sobre o que está incluído em cada plano, consulte [Transform Your Enterprise with Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
 ## <a name="get-the-big-picture"></a>Obter a visão geral
 
