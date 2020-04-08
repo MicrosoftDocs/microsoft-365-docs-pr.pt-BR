@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 938a6d58c8781fcc04f6b86e15db88b5de523cdf
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: d271e0351f784e1616e81e0f0124e65c3526ab91
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142510"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170959"
 ---
 # <a name="top-10-ways-to-secure-office-365-and-microsoft-365-business-plans"></a>10 principais formas de proteger planos corporativos do Office 365 e do Microsoft 365
 
@@ -190,6 +190,7 @@ Para criar uma regra de transporte de emails:
 |:-----|:-----|
 |Nome  <br/> |Impedir o encaminhamento automático de emails para domínios externos  <br/> |
 |Aplicar esta regra se...  <br/> |O remetente. . . é externo/interno. . . Dentro da organização  <br/> |
+|Adicionar condição  <br/> |O destinatário. . . é externo/interno. . . Fora da organização  <br/> |
 |Adicionar condição  <br/> |As propriedades da mensagem. . . inclua o tipo de mensagem. . . Avanço automático  <br/> |
 |Faça o seguinte...  <br/> |Bloquear a mensagem. . . rejeitar a mensagem e incluir uma explicação.  <br/> |
 |Fornecer texto da mensagem  <br/> |O encaminhamento automático de emails fora dessa organização é impedido por motivos de segurança.  <br/> |

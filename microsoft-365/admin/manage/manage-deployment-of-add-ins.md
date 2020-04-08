@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: b2fe57bd2b3b51ac5097723613c608580da06bea
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4baba1504bbb7edaba1243d6e774efac81570c4f
+ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361946"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43165918"
 ---
 # <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos do Office 365 no Centro de administração do Microsoft 365
 
@@ -60,7 +60,7 @@ Dependendo do tamanho do público-alvo, talvez você queira adicionar ou remover
 Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização do Office 365](centralized-deployment-of-add-ins.md).
 
   
-1. No centro de administração, vá para a página **configurações** \> **de suplementos.**
+1. No centro de administração do Microsoft 365, vá para a página **configurações** > **de suplementos.**
     
 2. Selecione **implantar suplemento** na parte superior da página. Na página Visão geral, selecione **Avançar**.
     
@@ -101,12 +101,19 @@ A opção adequada para sua organização depende da sua configuração. No enta
   
 ### <a name="add-in-states"></a>Estados de suplementos
 
-Um suplemento pode estar no estado **ativado** ou **desativado** .
-  
+Os administradores podem ativar ou desativar os suplementos implantados para todos os usuários do centro de administração do Microsoft 365.
+
+1.    No centro de administração, vá para a página **configurações** > **de suplementos.** 
+2.    Selecione o suplemento implantado. 
+3.    Clique **no botão** **de alternância para ativar ou** **desativar**o suplemento. 
+4.    Salve as alterações.  
+
+Um dos três Estados de suplementos também está disponível.
+ 
 |**State**|**Como o estado ocorre**|**Impacto**|
 |:-----|:-----|:-----|
 |**Active**  <br/> |O administrador carregou o suplemento e o atribuiu a usuários ou grupos.  <br/> |Os usuários e grupos atribuídos ao suplemento o vêem nos clientes relevantes.  <br/> |
-|**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> Se o estado do suplemento for alterado para ativo, os usuários e grupos terão acesso a ele novamente.  <br/> |
+|**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> Se o estado do suplemento for alterado para **ativo**, os usuários e grupos terão acesso a ele novamente.  <br/> |
 |**Excluído**  <br/> |O administrador excluiu o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> |
    
 Considere excluir um suplemento se ninguém o estiver usando. A desativação de um suplemento pode fazer sentido se um suplemento for usado somente durante horários específicos do ano.
@@ -172,7 +179,6 @@ Isso impedirá que todos os usuários adquiram os seguintes suplementos do repos
     
   - Office
     
-  - iOS (somente iPad)
     
 - Aquisições começando no **AppSource**
     
@@ -217,7 +223,6 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 para Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.11.18020200  <br/> |
-|Office 2016 para iOS (somente iPad)  <br/> |2.12.18032600  <br/> |
 |Office para a Web  <br/> |Não disponível  <br/> |
    
  **Para o Outlook**: 
