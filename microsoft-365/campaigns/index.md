@@ -25,10 +25,10 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 para campanhas
 ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42056452"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 para Campanhas
