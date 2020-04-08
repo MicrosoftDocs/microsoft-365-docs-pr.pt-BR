@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a3379043108340391764781f52b6a1bc3e05cf3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b4699ca9fda4f8d5364dff0fdabd868b886540b3
+ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601928"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43165896"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Boas Práticas Clínicas, Laboratoriais e de Manufatura (GxP)
 
@@ -40,9 +40,9 @@ Não existe certificações GxP para provedores de serviços de nuvem; porém:
 
 Embora esses padrões e práticas recomendadas não se concentrem especificamente na conformidade regulamentar com a GxP, seus objetivos e fins são bastante semelhantes e ajudam a assegurar a confidencialidade, integridade e disponibilidade dos dados armazenados nos serviços de nuvem da Microsoft.
 
-A Microsoft contratou a [Montrium](https://www.montrium.com/), uma organização independente especializada na garantia da qualidade e conformidade regulamentar com a GxP do setor de ciências da vida, para realizar a revisão da qualificação GxP para a Microsoft. As Diretrizes de Qualificação resultantes ([Azure](https://aka.ms/gxpcompliance) e [Office 365](https://aka.ms/o365-qualification-guideline)) destinam-se a organizações de ciências da vida que planejam usar esses serviços de nuvem para hospedar e dar suporte a sistemas informatizados regulados pela GxP. As diretrizes identificam a responsabilidade compartilhada pela Microsoft e seus clientes em atender aos requisitos da GxP, além de recomendar atividades e controles que os clientes, usuários dos serviços de nuvem no escopo da Microsoft, podem estabelecer para manter o controle sobre os sistemas informatizados da GxP.
+A Microsoft contratou a [Montrium](https://www.montrium.com/), uma organização independente especializada na garantia da qualidade e conformidade regulamentar com a GxP do setor de ciências da vida, para realizar a revisão da qualificação GxP para a Microsoft. As Diretrizes de Qualificação resultantes ([Azure](https://aka.ms/gxpcompliance) e [Office 365](https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/Microsoft-Office-365-GxP-Guidelines.pdf)) destinam-se a organizações de ciências da vida que planejam usar esses serviços de nuvem para hospedar e dar suporte a sistemas informatizados regulados pela GxP. As diretrizes identificam a responsabilidade compartilhada pela Microsoft e seus clientes em atender aos requisitos da GxP, além de recomendar atividades e controles que os clientes, usuários dos serviços de nuvem no escopo da Microsoft, podem estabelecer para manter o controle sobre os sistemas informatizados da GxP.
 
-As organizações de ciências da vida que criam soluções de GxP no Azure e no Office 365 podem aproveitar as eficiências da nuvem, além de proteger a segurança do paciente, a qualidade do produto e a integridade dos dados. Os clientes também se beneficiam de várias camadas de segurança, tecnologias de governança, práticas operacionais e políticas de conformidade que reforçam a privacidade e a integridade dos dados em níveis específicos.
+As organizações de ciências naturais que criam soluções de GxP no Azure e no Office 365 podem aproveitar as eficiências da nuvem, além de proteger a segurança do paciente, a qualidade do produto e a integridade dos dados. Os clientes também se beneficiam de várias camadas de segurança, tecnologias de governança, práticas operacionais e políticas de conformidade que reforçam a privacidade e a integridade dos dados em níveis específicos.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
@@ -53,7 +53,7 @@ As organizações de ciências da vida que criam soluções de GxP no Azure e no
 
 - [Diretrizes da GxP no Azure](https://aka.ms/gxpcompliance): um conjunto abrangente de ferramentas para usar o Azure e aderir às práticas recomendadas e regulamentos da GxP.
 - [Como usar o Azure com sistemas GxP](https://aka.ms/GXP-Azure-Strategies): ajuda para organizações de ciências da vida para estabelecer uma estratégia para criar aplicativos GxP.
-- Guias da FDA CFR Título 21, Parte 11: obtenha ajuda para estabelecer uma estratégia de qualificação do [Azure](https://aka.ms/Azure-FDA-Guidelines) e [Office 365](https://aka.ms/o365-qualification-guideline) que esteja em conformidade com as diretrizes da FDA para registros eletrônicos.
+- Guias da FDA CFR Título 21, Parte 11: obtenha ajuda para estabelecer uma estratégia de qualificação do [Azure](https://aka.ms/Azure-FDA-Guidelines) e [Office 365](https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/Microsoft-Office-365-GxP-Guidelines.pdf) que esteja em conformidade com as diretrizes da FDA para registros eletrônicos.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
