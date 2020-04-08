@@ -11,19 +11,34 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
-  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+  ms.openlocfilehash: 9741932fcde29d2b64156c600f1bad1b309d5f66
+  ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/18/2020
-  ms.locfileid: "41233662"
+  ms.lasthandoff: 04/07/2020
+  ms.locfileid: "43165906"
+productDirectory:
+  title: Trabalho remoto seguro com o Microsoft 365 Business
+  items:
+  - title: O que há de novo?
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: O Azure AD Premium P1 está chegando ao Microsoft 365 Business!
+    url: https://aka.ms/aadp1smbblog
+  - title: Webinar do parceiro de inspeção
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Proteja seus clientes SMB à medida que eles lidam com o COVID-19.
+    url: https://aka.ms/M365v253PAL-Register
+  - title: Adesão
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Clique no link para comprar ou entrar em contato com seu parceiro.
+    url: https://aka.ms/m365bweb
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
-      text: Visão Geral
+      text: Visão geral
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Treinamento de negócios 365 da Microsoft
@@ -85,7 +100,7 @@ conceptualContent:
       text: Proteção Avançada contra Ameaças do Office 365
     - url: set-up-mfa.md
       itemType: how-to-guide
-      text: Configurar o MFA
+      text: Configure o MFA
     - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
       itemType: how-to-guide
       text: Proteger contra ransomware
@@ -102,7 +117,7 @@ conceptualContent:
       text: Prevenção contra Perda de Dados
     - url: https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
-      text: Enviar email criptografado
+      text: Enviar e-mail criptografado
     - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
       itemType: how-to-guide
       text: Configurar a retenção de email
@@ -119,7 +134,7 @@ conceptualContent:
       text: Dispositivos móveis para computador &
     - url: remove-company-data.md
       itemType: how-to-guide
-      text: Remover dados da empresa
+      text: Remova dados da empresa
     - url: reset-devices-to-factory-settings.md
       itemType: how-to-guide
       text: Apagar e redefinir
@@ -156,7 +171,7 @@ conceptualContent:
     links:
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
       itemType: whats-new
-      text: Comunicados
+      text: Announcements
     - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
       itemType: video
       text: Obtenha ajuda
@@ -173,10 +188,10 @@ conceptualContent:
       text: Inscreva-se no Microsoft 365 Business
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Migrar do Office 365 Business Premium
+      text: Migre do Office 365 Business Premium
     - url: migrate-from-e3.md
       itemType: how-to-guide
-      text: Migrar do Office 365 E3
+      text: Migre do Office 365 E3
     - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
       itemType: how-to-guide
       text: Migrar para o Microsoft 365 Enterprise E3
