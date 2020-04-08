@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8794a51c60b778814d05a84d2332dc018b54a80a
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 65578f8105d52c87eb74cba57a215682f92bd02d
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222003"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170903"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -37,7 +37,7 @@ O NIST cybersecurity Framework (CSF) é uma estrutura voluntária que consiste e
 
 Saiba como acelerar sua implantação de estrutura do NIST cybersecurity com a pontuação de conformidade e o plano de segurança e conformidade do Azure:
 
-- [Baixar a segurança do Azure e a estrutura de verificação de avaliação de risco do NIST CSF](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
+- [Baixar a segurança do Azure e a estrutura de verificação de avaliação de risco do NIST CSF](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy?command=Download&downloadType=Document&downloadId=89ec5635-be07-4a5d-87d3-51783e4d3002)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 em Pontuação de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
@@ -68,7 +68,7 @@ Cybersecurity permanece um problema de gerenciamento crítico na era da transfor
 
 **O consultor foi validado, pois o governo do Azure, o Dynamics 365 e o Office 365 dão suporte aos requisitos do NIST CSF?**
 
-Sim, uma organização de avaliação de terceiros atesta que a oferta de serviço de nuvem governamental do Azure está em conformidade com as práticas de gerenciamento de risco do cybersecurity Framework (CSF) do NIST, conforme definido na estrutura para melhorar a infraestrutura crítica Cybersecurity, versão 1,0, datada de 12 de fevereiro de 2014. O NIST CSF é mapeado para a estrutura de controles moderados do FedRAMP e um consultor independente avaliou o Dynamics 365 em relação à linha de base moderada do FedRAMP. Além disso, o Office 365 obteve [a carta de certificação NIST CSF](https://aka.ms/O365NISTCSFcertification) do HITRUST em junho de 2018.
+Sim, uma organização de avaliação de terceiros atesta que a oferta de serviço de nuvem governamental do Azure está em conformidade com as práticas de gerenciamento de risco do cybersecurity Framework (CSF) do NIST, conforme definido na estrutura para melhorar a infraestrutura crítica cybersecurity, a versão 1,0, datada de 12 de fevereiro de 2014. O NIST CSF é mapeado para a estrutura de controles moderados do FedRAMP e um consultor independente avaliou o Dynamics 365 em relação à linha de base moderada do FedRAMP. Além disso, o Office 365 obteve [a carta de certificação NIST CSF](https://aka.ms/O365NISTCSFcertification) do HITRUST em junho de 2018.
 
 **Como os serviços do Microsoft Cloud demonstram conformidade com a estrutura?**
 
@@ -88,7 +88,7 @@ De acordo com o [departamento de segurança do Homeland](https://www.dhs.gov/cri
 
 **Quais são os serviços no escopo para o Office 365?**
 
-Os serviços de escopo de certificação do NIST CSF são arquivamento do Exchange Online, proteção do Exchange Online, Exchange Online, Skype for Business, centro de administração, SharePoint Online, Project online, OneDrive for Business, Office Online, myAnalytics, Microsoft Teams, Office ProPlus no Office 365 Cloud de vários locatários e o Office 365 GCC.
+Os serviços dentro do escopo da certificação CSF do NIST são arquivamento do Exchange Online, proteção do Exchange Online, Exchange Online, Skype for Business, centro de administração, SharePoint Online, o Project online, o OneDrive for Business, o Office Online, o myAnalytics, o Microsoft Teams, o Office PROPLUS na nuvem de vários locatários do Office 365 e o Office 365 GCC.
 
 > [!NOTE]
 > O Office 365 ProPlus permite o acesso a vários serviços de nuvem, como configurações de roaming, licenciamento e armazenamento em nuvem do OneDrive para consumidores, e pode permitir o acesso a serviços de nuvem adicionais no futuro. As configurações de roaming e o licenciamento dão suporte aos padrões do HITRUST. O armazenamento em nuvem do OneDrive não é e outros serviços em nuvem que são acessíveis através do Office 365 ProPlus e que a Microsoft podem oferecer no futuro também podem não oferecer suporte a esses padrões. *
@@ -109,7 +109,7 @@ A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Ordem executiva presidencial para reforçar o cybersecurity de redes federais e infra-estrutura crítica](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

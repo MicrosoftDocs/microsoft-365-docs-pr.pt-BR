@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4a119e0ec082893d393d1b43af76b41dc93c76a1
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 834fb37eba578ff87477fd376cd5d33c8612e1b0
+ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053068"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43165930"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
 
@@ -41,7 +41,7 @@ Este estudo de caso abordará as noções básicas para configurar rapidamente u
 
 ## <a name="step-1---planning-for-communication-compliance"></a>Etapa 1-planejando a conformidade de comunicação
 
-Os administradores de ti e especialistas de ti da Contoso participaram online do webinars sobre soluções de conformidade no Microsoft 365 e decidiram que as políticas de conformidade de comunicação o ajudarão a atender aos requisitos de política corporativa atualizadas para reduzir o trabalho assédio. Trabalhando juntos, eles desenvolveram um plano para criar e habilitar uma política de conformidade de comunicação que irá monitorar a linguagem ofensiva para chats enviados no Microsoft Teams em mensagens de email enviadas no Exchange Online. O plano inclui a identificação:
+Os administradores de ti e especialistas de ti da Contoso participaram online do webinars sobre soluções de conformidade no Microsoft 365 e decidiram que as políticas de conformidade de comunicação o ajudarão a atender aos requisitos de política corporativa atualizadas para reduzir o assédio do trabalho. Trabalhando juntos, eles desenvolveram um plano para criar e habilitar uma política de conformidade de comunicação que irá monitorar a linguagem ofensiva para chats enviados no Microsoft Teams em mensagens de email enviadas no Exchange Online. O plano inclui a identificação:
 
 - Os administradores de ti que precisam acessar os recursos de conformidade de comunicação.
 - Os especialistas de conformidade que precisam criar e gerenciar políticas de comunicação.
@@ -53,10 +53,21 @@ Os administradores de ti e especialistas de ti da Contoso participaram online do
 A primeira etapa é confirmar que o licenciamento do Microsoft 365 da Contoso inclui suporte para a solução de conformidade de comunicação. Para acessar e usar a conformidade de comunicação, os administradores de ti da Contoso precisam verificar se a contoso tem uma das seguintes opções:
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
-- Licença do Office 365 Enterprise E3 com o complemento de conformidade avançada
+- Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5
+- Assinatura do Microsoft 365 E3 + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider
+- Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
+- Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5
+- Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider
+- Assinatura do Microsoft 365 G5 (versão paga ou de avaliação)
+- Assinatura do Microsoft 365 G5 + o suplemento de conformidade do Microsoft 365 G5
+- Assinatura do Microsoft 365 G5 + o complemento de gerenciamento de risco do Microsoft 365 G5 Insider
 - Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação)
+- Assinatura do Office 365 Enterprise E3 + o complemento avançado de conformidade do Office 365 (não está mais disponível para novas assinaturas, consulte observação)
 
-Eles também devem confirmar se os usuários incluídos nas políticas de conformidade de comunicação devem ser atribuídos a uma das licenças listadas acima.
+Eles também devem confirmar se os usuários incluídos nas políticas de conformidade de comunicação devem receber uma das licenças acima.
+
+>[!IMPORTANT]
+>O Office 365 Advanced Compliance não é mais vendido como uma assinatura autônoma. Quando as assinaturas atuais expiram, os clientes devem fazer a transição para uma das assinaturas acima, que contêm o mesmo ou outros recursos de conformidade.
 
 Os administradores de ti da Contoso usam as seguintes etapas para verificar o suporte de licenciamento para contoso:
 

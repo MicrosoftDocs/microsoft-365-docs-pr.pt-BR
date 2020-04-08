@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Obtenha uma visão geral do processo de análise, que permite definir parâmetros, opções de execução e exibir resultados, na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: ff26d0ce28d725cb922c228ff4b6ddf9ab174757
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 31745651ddbebbfc5e9670a5a906d82cf493aea4
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596118"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42556799"
 ---
-# <a name="analyze-case-data-with-office-365-advanced-ediscovery"></a>Analisar dados de caso com a descoberta eletrônica avançada do Office 365
+# <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>Analisar dados de caso com descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -43,9 +43,9 @@ O processo de **preparação** \> de **análise** na descoberta eletrônica avan
     
 Antes de executar Analyze, defina os critérios para seleção e processamento de arquivos, incluindo quais arquivos carregados serão analisados e o tipo de análise para o qual cada tipo de arquivo será enviado. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

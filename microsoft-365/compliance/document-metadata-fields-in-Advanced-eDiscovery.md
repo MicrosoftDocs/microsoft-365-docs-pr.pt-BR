@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 78cfba97c14259ec40abc17e17676263b37fcedf
-ms.sourcegitcommit: 9231cbea48374fca3aeeb1f267dcdcd270fd9f42
+ms.openlocfilehash: f53a754fce482ddc0944d84059b1e346e93f5067
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2020
-ms.locfileid: "42651835"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42941233"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
@@ -34,6 +34,9 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 - **Nome do campo exportado:** O nome do campo de metadados que incluiu quando os documentos são exportados.  Uma célula em branco significa que o campo não está incluído nos metadados exportados.
 
 - **Descrição:** Uma descrição do campo de metadados.
+
+> [!NOTE]
+> O campo **palavras-chave** em [Review Set Search](https://docs.microsoft.com/microsoft-365/compliance/review-set-search) use keyword Query Language (KQL). Os campos listados na coluna **nome do campo pesquisável** podem ser usados no campo **palavras-chave** em uma revisão definir pesquisa para formar consultas complexas sem ter que usar o construtor de consultas. Para obter mais informações sobre o KQL, consulte [keyword Query Language Syntax Reference](https://go.microsoft.com/fwlink/?LinkId=269603).
 
 |Nome do **campo** e **nome do campo de exibição**|**Nome do campo pesquisável**|**Nome do campo exportado**|**Descrição**|
 |:-----|:-----|:-----|:-----|

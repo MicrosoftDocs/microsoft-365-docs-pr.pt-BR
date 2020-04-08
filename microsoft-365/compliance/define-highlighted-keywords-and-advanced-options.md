@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Saiba como adicionar palavras-chave definidas pelo usuário à relevância para ajudar a identificar arquivos relevantes durante a marcação na descoberta eletrônica avançada do Office 365 e especificar os parâmetros de custo.  '
-ms.openlocfilehash: f24c2d736a1d3c36ed23d16e1bb5d2dadb42cec9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bec34867e7dfdb86848fd1fd2126d5cf96129802
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075910"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42556759"
 ---
-# <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Definir palavras-chave realçadas e opções avançadas na descoberta eletrônica avançada do Office 365
+# <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>Definir palavras-chave realçadas e opções avançadas em descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -72,9 +72,9 @@ Essas configurações afetam a faixa e decidem os gráficos de relevância.
   
 3. Clique em **Salvar**. As configurações selecionadas são salvas.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta Eletrônica Avançada do Office 365](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como definir problemas e atribuir usuários](define-issues-and-assign-users.md)
   

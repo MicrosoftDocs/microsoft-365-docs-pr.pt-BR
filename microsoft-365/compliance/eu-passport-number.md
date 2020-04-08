@@ -1,5 +1,7 @@
 ---
 title: Número do Passport da UE
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: 4afcf7b764eb8976e0588464515256f7cb1bdb8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0032d3e50d7dab0b696d9000242e70956469052e
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805944"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41592112"
 ---
 # <a name="eu-passport-number"></a>Número do Passport da UE
 
@@ -39,7 +41,7 @@ Uma combinação de uma letra, sete dígitos e um espaço:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -78,7 +80,7 @@ Duas letras e seguidas por seis dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -488,7 +490,7 @@ Duas letras ou dígitos seguidos por sete dígitos:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -570,7 +572,7 @@ Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -687,7 +689,7 @@ Nove letras ou dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -902,7 +904,7 @@ Uma combinação de letras e números de oito ou nove caracteres:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 

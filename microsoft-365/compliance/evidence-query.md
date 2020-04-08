@@ -1,5 +1,7 @@
 ---
 title: Consultar os dados em evidência
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d2c4fa5a4fbb46508962e1c6237c17b95b071b0c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dbb08031504059adffc652c1c66ce710eac2ead3
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37072658"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41590712"
 ---
 # <a name="query-the-data-in-evidence"></a>Consultar os dados em evidência
 
