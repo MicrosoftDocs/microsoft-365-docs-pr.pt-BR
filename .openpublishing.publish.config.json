@@ -6,7 +6,9 @@
       "build_output_subfolder": "Microsoft-365-docs",
       "locale": "pt-BR",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [
+        "=o365-worldwide || =o365-21vianet || =o365-germany"
+      ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -21,7 +23,7 @@
   "sync_notification_subscribers": [],
   "branches_to_filter": ["live","master-sxs"],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/microsoft-365-docs",
-  "git_repository_branch_open_to_public_contributors": "master",
+  "git_repository_branch_open_to_public_contributors": "public",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "continue_with_document_error": true,
@@ -39,7 +41,17 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/microsoft-365-docs-pr",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
     }
+
   ],
   "branch_target_mapping": {
     "live": [
