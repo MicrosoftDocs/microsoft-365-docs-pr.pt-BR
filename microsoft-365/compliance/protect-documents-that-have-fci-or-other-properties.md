@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Muitas organizações já têm um processo para identificar e classificar informações confidenciais usando as propriedades de classificação no arquivo de classificação de infraestrutura (FCI) do Windows Server, as propriedades do documento no SharePoint ou as propriedades do documento aplicadas por um sistema de terceiros. Se essa for a sua organização, você pode criar uma política de DLP no Office 365 que reconhece as propriedades que foram aplicadas a documentos pelo FCI do Windows Server ou outro sistema, para que a política de DLP possa ser imposta em documentos do Office com FCI específico ou outros valores de propriedade.
-ms.openlocfilehash: bfcbc30af3a3dac304dc57551e6246ec9e6554c0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 32d40c110ca67e15c1be3443999c75c0e36d323e
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070593"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193489"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
@@ -34,7 +34,7 @@ Por exemplo, sua organização pode usar o FCI do Windows Server para identifica
   
 Uma política de DLP simplesmente procura por um par de nome/valor de propriedade específico. Qualquer propriedade de documento pode ser usada, contanto que a propriedade tenha uma propriedade gerenciada correspondente para a pesquisa do SharePoint. Por exemplo, um conjunto de sites do SharePoint pode usar um tipo de conteúdo chamado **Relatório de viagem** com um campo obrigatório chamado **Cliente**. Sempre que uma pessoa criar um relatório de viagem, ela deve digitar o nome do cliente. Esse par de nome/valor de propriedade também pode ser usado em uma política de DLP — por exemplo, se você desejar que uma regra que bloqueia o acesso ao documento para usuários externos quando o campo **Cliente** contiver **Contoso**.
   
-Observe que, se você quiser aplicar sua política de DLP ao conteúdo com rótulos específicos do Office 365, não siga as etapas aqui. Em vez disso, saiba como [usar um rótulo como uma condição em uma política de DLP](data-loss-prevention-policies.md#using-a-label-as-a-condition-in-a-dlp-policy).
+Observe que, se você quiser aplicar sua política de DLP ao conteúdo com rótulos específicos do Office 365, não siga as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política de DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
   
 ## <a name="before-you-create-the-dlp-policy"></a>Antes de criar a política de DLP
 
@@ -52,7 +52,7 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
   
 ### <a name="step-2-create-a-managed-property"></a>Etapa 2: Criar uma propriedade gerenciada
 
-1. Entre no centro de administração do Microsoft 365.
+1. Acesse o centro de administração do Microsoft 365.
     
 2. No painel de navegação à esquerda, escolha **central** \> de administração **do SharePoint**. Agora você está no centro de administração do SharePoint.
     
@@ -96,7 +96,7 @@ Observe que as **Propriedades de documento de condição contêm qualquer um des
   
 Para obter mais informações sobre esses cmdlets, consulte [cmdlets &amp; do centro de conformidade de segurança do Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
   
-1. [Conectar ao &amp;Centro de Conformidade e Segurança do Office 365 usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Conectar-se ao Centro de Conformidade &amp; Segurança do Office 365 usando o PowerShell Remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. Crie a política usando `New-DlpCompliancePolicy`o.
 
@@ -124,7 +124,7 @@ Uma regra bloqueia o acesso ao conteúdo em que a propriedade **Informações de
   
 ## <a name="after-you-create-the-dlp-policy"></a>Depois de criar a política de DLP
 
-Executar as etapas nas seções anteriores criará uma política de DLP que detectará rapidamente o conteúdo com essa propriedade, mas somente se o conteúdo for carregado recentemente (para que o conteúdo seja indexado) ou se esse conteúdo for antigo, mas apenas editado (para que o conteúdo seja indexado novamente) .
+Executar as etapas nas seções anteriores criará uma política de DLP que detectará rapidamente o conteúdo com essa propriedade, mas somente se o conteúdo for carregado recentemente (para que o conteúdo seja indexado) ou se esse conteúdo for antigo, mas apenas editado (para que o conteúdo seja indexado novamente).
   
 Para detectar o conteúdo com essa propriedade em todos os lugares, convém solicitar manualmente que sua biblioteca, site ou conjunto de sites seja reindexado, para que a política de DLP esteja ciente de todo o conteúdo com essa propriedade. No SharePoint Online, o conteúdo é rastreado automaticamente com base em um agendamento de rastreamento definido. O rastreador seleciona o conteúdo que foi alterado desde o último rastreamento e atualiza o índice. Se você precisar de sua política de DLP para proteger o conteúdo antes do próximo rastreamento agendado, você pode executar estas etapas.
   

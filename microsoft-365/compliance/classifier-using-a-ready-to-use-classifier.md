@@ -14,18 +14,22 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
-ms.openlocfilehash: b8e4b51300bee86682924245bbf530e1e954b483
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 2bd36ac42278cfe7b015d03caf2d9e1958908f8f
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826242"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193499"
 ---
 # <a name="using-a-built-in-classifier-preview"></a>Usando um classificador interno (visualização)
 
-A Microsoft treinou e testou vários classificadores usando conjuntos de dados de amostra muito grandes, que podem ajudar a identificar determinadas categorias de conteúdo. Confira introdução [aos classificadores estagiários (visualização)](classifier-getting-started-with.md). Esses classificadores aparecem no `Ready to use` grupo por padrão.
+A Microsoft treinou e testou cinco classificadores usando conjuntos de dados de amostra muito grandes, que podem ajudar a identificar determinadas categorias de conteúdo. Confira introdução [aos classificadores estagiários (visualização)](classifier-getting-started-with.md). Esses classificadores aparecem no `Ready to use` grupo por padrão.
 
-- **Linguagem ofensiva**: detecta itens de texto que contêm obscenidades, slurs, taunts e expressões disfarçadas (que são expressões que têm o mesmo significado de um termo mais ofensivo).
+A Microsoft 365 vem com cinco classificadores internos recomendados:
+
+> [!CAUTION]
+> Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato.
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nos 25 idiomas principais de programação de computador usados no github.
 
@@ -45,7 +49,7 @@ A Microsoft treinou e testou vários classificadores usando conjuntos de dados d
 > Antes de usar classificadores internos em seu fluxo de trabalho de classificação e rotulação, você deve testá-lo em uma amostra do conteúdo da sua organização que você sente que se sinta à categoria para verificar se suas previsões de classificação atendem às suas expectativas.
 
 > [!IMPORTANT]
-> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
+> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar ofensivas e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso dessa linguagem. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
 
 ## <a name="how-to-prepare-for-and-use-a-built-in-classifier"></a>Como preparar e usar um classificador interno
 

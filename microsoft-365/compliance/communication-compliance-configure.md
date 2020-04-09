@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d4a98383e88634f1e87606df5bcd1d066254081f
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: e9e13c4bb9a950326a5fc718be26f93d046776e7
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170925"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193509"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Configurar conformidade de comunicação no Microsoft 365
 
@@ -119,7 +119,7 @@ Para obter mais informações sobre a configuração de grupos, consulte:
 
 4. Selecione **criar política** para criar e configurar uma nova política de um modelo ou para criar e configurar uma política personalizada.
 
-    Se você escolher um modelo de política para criar uma política, você irá:
+    Se você escolher um modelo de política interno para criar uma política, você irá:
 
     - Confirme ou atualize o nome da política. Os nomes de política não podem ser alterados depois que a política é criada.
     - Escolha os usuários ou grupos para supervisionar, incluindo a escolha de usuários ou grupos que você gostaria de excluir.
@@ -135,7 +135,11 @@ Para obter mais informações sobre a configuração de grupos, consulte:
     - Escolha a direção de comunicação para monitorar, incluindo comunicações de entrada, de saída ou internas.
     - Definir as [condições](communication-compliance-feature-reference.md#ConditionalSettings)de política de conformidade de comunicação. Você pode escolher entre as condições endereço da mensagem, palavra-chave, tipos de arquivo e correspondência de tamanho.
     - Escolha se você deseja incluir tipos de informações confidenciais. Esta etapa é onde você pode selecionar os tipos de informações confidenciais padrão e personalizadas. Escolha de tipos de informações confidenciais personalizados existentes ou dicionários de palavras-chave personalizados no assistente de política de conformidade de comunicação. Você pode criar esses itens antes de executar o assistente, se necessário. Você também pode criar novos tipos de informações confidenciais de dentro do assistente de política de conformidade de comunicação.
-    - Escolha se você deseja habilitar o classificador de idiomas ofensivo. Esse classificador detecta o idioma inapropriado enviado ou recebido no corpo de mensagens de email.
+    - Escolha se você deseja habilitar classificadores. Os classificadores podem detectar o idioma inadequado enviado ou recebido no corpo de mensagens de email ou outros tipos de texto.
+
+    >[!CAUTION]
+    >Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+
     - Defina a porcentagem de comunicação a ser revisada.
     - Revise suas seleções de política e crie a política.
 

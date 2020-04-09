@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 2db16773b305e2e5f929e96fb3ca0e7bfe541990
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081263"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198378"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -173,7 +173,7 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 
 1. No centro de conformidade e segurança &[https://protection.office.com](https://protection.office.com)(), escolha**Gerenciador** de **Gerenciamento** > de ameaças (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha**envios**de **email** > .
+2. No menu **Exibir** , escolha**envios**de **email** > . (Anteriormente, isso era chamado **de relatado pelo usuário**.)
 
    ![Menu Exibir para Explorer](../../media/ExplorerViewMenuEmailUserReported.png)
 
@@ -234,3 +234,7 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 
 - O relatório de **detecções em tempo real** está disponível no Office 365 ATP Plan 1, enquanto o **Explorador de ameaças** está disponível no Office 365 ATP Plan 2.
 - O relatório de **detecções em tempo real** permite que você visualize detecções em tempo real. O **Gerenciador de ameaças** também faz isso, mas também permite que você exiba detalhes adicionais de um determinado ataque.
+- Um modo de exibição de **todos os emails** está disponível no **Explorador de ameaças** (e não está no relatório de **detecções em tempo real** ).
+- Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças**.
+
+Para obter mais detalhes, consulte a [Descrição do serviço de ATP do Office 365: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bfcad9829c32a7a4f91e4d7dee7dec922059cd18
-ms.sourcegitcommit: 397b22cea138cadef026128d878650f8f609a329
+ms.openlocfilehash: c68e51fd0efe415458942736a8d19ae1c12adc3c
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068569"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189079"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -36,7 +36,7 @@ O suporte ao serviço de nuvem DoD define as políticas, os controles de seguran
 Os serviços de nuvem governamentais da Microsoft atendem aos requisitos exigentes do departamento de defesa dos EUA, desde os níveis de impacto de 2 a 5, permitindo que as agências de defesa dos EUA se beneficiem com a redução de custos e a segurança rigorosa da nuvem da Microsoft. Ao implantar serviços protegidos, incluindo o governo do Azure, o Office 365 U.S. governamentais e o Dynamics 365 governo, as agências de defesa podem usar uma ampla variedade de serviços compatíveis.
 
 - Saiba mais sobre os benefícios do nível de proteção do DISA DoD, L4 na nuvem da Microsoft: [baixar o departamento de defesa do plano de fundo do Disa](https://aka.ms/disa-backgrounder)
-- Saiba como acelerar o seu nível de implementação do [Disa do DoD](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)
+- Saiba como acelerar a sua implantação do DoD DISA, L4, com nossos [planos do Microsoft Azure DOD](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy)
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>Autorização do nível 5 de impacto do DoD
 
@@ -83,7 +83,7 @@ Uma vez que um DoD PA, os serviços do Microsoft Cloud são monitorados e avalia
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Rastreie rapidamente sua implantação de soluções DoD no Azure
 
-Comece a aproveitar as vantagens dos benefícios da nuvem no governo com o departamento de defesa de segurança e conformidade do Azure. Este Blueprint fornece ferramentas e orientações para começar a criar soluções compatíveis com o DoD hoje. [Comece a usar o Azure DOD Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/).
+Comece a aproveitar os benefícios da nuvem no governo com a amostra Blueprint para o departamento de defesa L4. Este Blueprint fornece ferramentas e orientações para começar a criar soluções compatíveis com o DoD hoje. [Comece a usar o projeto do Azure para DOD L4](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -107,7 +107,7 @@ Além disso, as ofertas da Microsoft fora do limite certificado por FedRAMP que 
 - [Estrutura NIST cybersecurity](https://www.nist.gov/cyberframework)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

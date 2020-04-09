@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6f3019c57d35e6ac54a9f1a2cd0dbede22601ec1
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 40e8be29c585c0490b93e81c27728085d59c5146
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029845"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193447"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -43,7 +43,7 @@ Os modelos de política são configurações de política predefinidas que você
 
 |**Área**|**Modelo de política**|**Detalhes**|
 |:-----|:-----|:-----|
-| **Linguagem ofensiva e antiassédio** | Monitorar comunicações para linguagem ofensiva | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 100% <br> -Condições: classificador de idiomas ofensivo |
+| **Linguagem ofensiva e antiassédio** | Monitorar comunicações para linguagem ofensiva | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 100% <br> -Condições: classificadores de idiomas contra ameaças, profanação e assédio |
 | **Informações confidenciais** | Monitorar as comunicações para informações confidenciais | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 10% <br> – Condições: informações confidenciais, padrões e tipos de conteúdo prontos, opção de dicionário personalizado, anexos com mais de 1 MB |
 | **Conformidade normativa** | Monitorar as comunicações para informações relacionadas à conformidade normativa financeira | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída <br> – Porcentagem de revisão: 10% <br> -Condições: opção de dicionário personalizado, anexos com mais de 1 MB |
 
@@ -133,7 +133,7 @@ Configure os dicionários de palavras-chave personalizados (ou léxicos) para fo
 
 Classificadores internos verificam mensagens enviadas ou recebidas em todos os canais de comunicação em sua organização para diferentes tipos de problemas de conformidade. Os classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma das mensagens que provavelmente violam as políticas antiassédio. Atualmente, os classificadores internos oferecem suporte somente a palavras-chave em inglês nas mensagens.
 
-Os classificadores incorporados de conformidade de comunicação verificam os termos e os seguintes tipos de idioma em comunicações.
+A conformidade com comunicação usa classificadores internos para verificar as comunicações em busca de termos e informativos para os seguintes tipos de idioma:
 
 - **Ameaça**: verifica se há ameaças para confirmar a violência ou danos físicos a uma pessoa ou a uma propriedade.
 - **Assédio**: procura por pessoas de alvo de conduta ofensiva relacionadas à corrida, cor, Religion, origem nacional.

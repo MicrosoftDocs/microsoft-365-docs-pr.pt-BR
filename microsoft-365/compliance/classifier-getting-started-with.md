@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 6706fe25194191d57ffd91f07f13d22fe5ec6cfd
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 4d11fcf4e1437641cb73510d341d299ce3695938
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826252"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193519"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -63,9 +63,11 @@ Há classificadores internos e classificadores estagiários. Obter um classifica
 
 ### <a name="understanding-built-in-classifiers"></a>Noções básicas sobre classificadores internos
 
-A Microsoft 365 vem com seis classificadores internos:
+A Microsoft 365 vem com cinco classificadores internos recomendados:
 
-- **Linguagem ofensiva**: detecta itens de texto que contêm obscenidades, slurs, taunts e expressões disfarçadas (que são expressões que têm o mesmo significado de um termo mais ofensivo).
+> [!CAUTION]
+> Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato.
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nos 25 idiomas principais de programação de computador usados no github.
 
@@ -87,7 +89,7 @@ Eles aparecem no modo de exibição de classificação de dados do **Centro** > 
 ![classificadores-prontos para uso-classificadores](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
-> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo.  Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar o ofensivo e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso de esse idioma. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
+> Observe que a linguagem ofensiva, assédio, profanação e classificadores de ameaças só funcionam com o texto pesquisável não é completo nem completo.  Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar esses classificadores em seu critério. Embora os classificadores possam ajudar sua organização a monitorar ofensivas e outros idiomas usados, os classificadores não resolvem as conseqüências de tal linguagem e não se destinam a fornecer o único meio de monitoramento ou resposta ao uso dessa linguagem. Sua organização, e não a Microsoft ou suas subsidiárias, permanece responsável por todas as decisões relacionadas ao monitoramento, imposição, bloqueio, remoção e retenção de qualquer conteúdo identificado por um classificador treinado.
 
 #### <a name="process-flow-for-using-built-in-classifiers"></a>Fluxo do processo para usar classificadores internos
 

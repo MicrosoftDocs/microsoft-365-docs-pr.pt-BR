@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: d0496a194cc734304f8ba6f09e6497c8d4f233bc
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+ms.openlocfilehash: 8f57a680bf5cbd53153cedc339b35bc2712c3f73
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126018"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188982"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -163,3 +163,7 @@ Para desabilitar a visualização, use o cmdlet Set-SPOTenant:
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $false
     ```
+
+## <a name="next-steps"></a>Próximas etapas
+
+Agora que você habilitou rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive, considere rotular automaticamente esses arquivos usando políticas de rotulação automática. Para obter mais informações, consulte [aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md).

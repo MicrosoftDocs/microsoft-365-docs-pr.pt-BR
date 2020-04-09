@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 'Entenda por que os resultados de pesquisa estimados e reais podem variar nas pesquisas executadas com as ferramentas de descoberta eletrônica no Office 365. '
-ms.openlocfilehash: 4b14e3aca51737b0a7c15b5219fda38c57ecad9d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1024a99ffa358e56783d562062f158e71f5e7ddc
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075441"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198368"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results-in-office-365"></a>Diferenças entre resultados de pesquisa de descoberta eletrônica estimados e reais no Office 365
 
@@ -55,7 +55,7 @@ Aqui estão alguns motivos para estas diferenças:
   
 - **A maneira como os resultados são estimados** -uma estimativa dos resultados da pesquisa é apenas isso, uma previsão (e não uma contagem real) dos itens que atendem aos critérios de consulta de pesquisa. Para compilar a estimativa de itens do Exchange, uma lista das IDs de mensagem que atendem aos critérios de pesquisa é solicitada do banco de dados do Exchange pela ferramenta de descoberta eletrônica que você está usando. Mas quando você exporta os resultados da pesquisa, a pesquisa é executada novamente e as mensagens reais são recuperadas do banco de dados do Exchange. Portanto, essas diferenças podem ocorrer devido a como o número estimado de itens e o número real de itens são determinados. 
     
-- **Alterações que ocorrem entre o momento ao estimar e exportar resultados de pesquisa** -quando você exporta os resultados da pesquisa, a pesquisa é reiniciada para coletar os itens mais recentes no índice de pesquisa que atendem aos critérios de pesquisa. É possível que haja itens adicionais criados, enviados ou recebidos que atendam aos critérios de pesquisa na hora entre o momento em que os resultados da pesquisa estimados foram coletados e quando os resultados da pesquisa foram exportados. Também é possível que os itens que estavam no índice de pesquisa quando os resultados da pesquisa fossem estimados não estão mais lá porque foram excluídos do local de conteúdo antes de os resultados da pesquisa serem exportados. Uma maneira de reduzir esse problema é especificar um intervalo de datas para uma pesquisa de descoberta eletrônica. Outra maneira é colocar uma retenção em locais de conteúdo para que os itens sejam preservados e não possam ser removidos. 
+- **Alterações que ocorrem entre o momento ao estimar e exportar resultados de pesquisa** -quando você exporta os resultados da pesquisa, a pesquisa é reiniciada para coletar os itens mais recentes no índice de pesquisa que atendem aos critérios de pesquisa. É possível que haja itens adicionais criados, enviados ou recebidos que atendam aos critérios de pesquisa na hora entre o momento em que os resultados da pesquisa estimados foram coletados e quando os resultados da pesquisa foram exportados. Também é possível que os itens que estavam no índice de pesquisa quando os resultados da pesquisa fossem estimados não estão mais lá porque foram excluídos do local de conteúdo antes de os resultados da pesquisa serem exportados. Uma maneira de reduzir esse problema é especificar um intervalo de datas para uma pesquisa de descoberta eletrônica. Outra maneira é colocar uma retenção em locais de conteúdo para que os itens sejam preservados e não possam ser removidos. Embora muito raro, mesmo no caso de uma retenção ser aplicada, a manutenção de itens de calendário internos (que não são editáveis pelo usuário, mas que estão incluídos em muitos resultados de pesquisa) podem ser removidas de tempos para a hora. Essa remoção periódica dos itens de calendário resultará em menos itens exportados.
     
 - **Itens não indexados** -itens não indexados para pesquisa podem causar diferenças entre resultados de pesquisa estimados e reais. Por exemplo, a descoberta eletrônica in-loco no Exchange e o centro de descoberta eletrônica no SharePoint não incluem itens não indexados (que não atendam aos critérios de pesquisa) quando você executa uma pesquisa para estimar os resultados da pesquisa. Mas você pode incluir itens não indexados ao exportar os resultados da pesquisa. Se você incluir itens não indexados ao exportar resultados de pesquisa, pode haver mais itens exportados. Isso causará uma diferença entre os resultados de pesquisa estimados e exportados. 
     

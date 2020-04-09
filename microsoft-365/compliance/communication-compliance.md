@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 61da6df18a8e41a609ae8aea7ff57c2f53f92d84
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 13b19079e52a390e8be3372939619541aa3b7294
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982044"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193467"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -121,10 +121,10 @@ Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformida
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
-- **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa o classificador interno para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
+- **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa os classificadores incorporados contra ameaças, profanação e assédio para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
 - **Informações confidenciais**: Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
 - **Conformidade normativa**: Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
-- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser revisada para supervisão em sua organização.
+- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, classificadores, condições individuais de detecção e a quantidade de conteúdo a ser revisada para supervisão em sua organização.
 
 ### <a name="investigate"></a>Investigar
 
