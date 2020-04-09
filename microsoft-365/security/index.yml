@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 8a93fc27b8d59484ae603d7bf76e954420e64966
-  ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+  ms.openlocfilehash: de1824abe2b35cb80552c6c261f1389db9b48ca0
+  ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/07/2019
-  ms.locfileid: "38029295"
+  ms.lasthandoff: 04/09/2020
+  ms.locfileid: "43198344"
 landingContent:
 - title: Proteção contra Ameaças da Microsoft
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Centro de segurança do Microsoft 365
       url: mtp/overview-security-center.md
-- title: Microsoft defender ATP
+- title: Microsoft Defender ATP
   linkLists:
   - linkListType: overview
     links:
@@ -44,7 +44,7 @@ landingContent:
       url: office-365-security/office-365-atp.md
     - text: Descrição do serviço ATP do Office 365
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: ATP do Azure
+- title: Azure ATP
   linkLists:
   - linkListType: overview
     links:
@@ -68,11 +68,11 @@ landingContent:
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
     - text: Introdução ao Microsoft Cloud app Security
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Azure Sentinel (visualização)
+- title: Sentinela do Azure
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Azure Sentinel? Prever
+    - text: O que é o Azure Sentinel?
       url: https://docs.microsoft.com/azure/sentinel/overview
 - title: Gerenciamento de segurança
   linkLists:
