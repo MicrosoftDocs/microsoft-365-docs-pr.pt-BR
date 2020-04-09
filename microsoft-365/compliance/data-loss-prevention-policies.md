@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: 9a7b31f779982381fcc0eea7e8aa051f4fa2dafc
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f61d6c13a66b7f1d93c7bdc1404265e8567e2fb7
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894882"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189075"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -112,7 +112,7 @@ As condições disponíveis agora podem determinar se:
   
 - O conteúdo contém um tipo de informação confidencial.
     
-- O conteúdo contém um rótulo. Para saber mais, confira a seção abaixo [Usar um rótulo como uma condição em uma política de DLP](#using-a-label-as-a-condition-in-a-dlp-policy).
+- O conteúdo contém um rótulo. Para saber mais, confira a seção a seguir [Usar um rótulo de retenção como condição em uma política de DLP](#using-a-retention-label-as-a-condition-in-a-dlp-policy).
     
 - O conteúdo é compartilhado com pessoas de fora ou de dentro da sua organização.
 
@@ -327,35 +327,23 @@ Por essas razões, a orientação para a criação de regras com diferentes prec
     
 - Qualquer nível de confiança intermediário normalmente varia de um valor logo acima do nível de confiança inferior para um valor logo abaixo do nível de confiança superior.
     
-## <a name="using-a-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo como condição em uma política DLP
+## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
-Você pode criar um rótulo e, em seguida:
-<!-- what kind of label? -->
-  
-- **Publicá-lo**, para que os usuários finais possam ver e aplicar manualmente o rótulo ao conteúdo. 
-    
-- **Aplicá-lo automaticamente** ao conteúdo que corresponde às condições escolhidas. 
-    
-Para mais informações sobre rótulos, consulte [Visão geral de rótulos de retenção](labels.md).
-  
-Após criar um rótulo, você pode usá-lo como uma condição em suas políticas de DLP. 
+Ao usar um [rótulo de retenção](labels.md) criado e publicado anteriormente como condição em uma política DLP, há algumas coisas a serem observadas:
+
+- É preciso ter criado, publicado e aplicado o rótulo de retenção antes de tentar usá-lo como condição em uma política DLP.
+- Os rótulos de retenção podem levar até um dia para sincronizar e até sete dias para serem aplicados automaticamente após a criação e publicação. Para obter informações detalhadas, confira, [Quanto tempo demora para os rótulos de retenção entrarem em vigor](labels.md#how-long-it-takes-for-retention-labels-to-take-effect).
+- O uso de um rótulo de retenção em uma política ***só tem suporte para itens do SharePoint Online e OneDrive for Business***.
+
 
 ![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
-Por exemplo, talvez você queira fazer isso porque:
-  
-- Publicou um rótulo denominado **Confidencial**, para que as pessoas da sua organização possam aplicar manualmente o rótulo a documentos e emails confidenciais. Usando esse rótulo como uma condição em sua política de DLP, você pode restringir que o conteúdo rotulado como **Confidencial** seja compartilhado com pessoas de fora da sua organização. 
-    
-- Você criou um rótulo chamado **Casa Alpina** para um projeto com esse nome e, em seguida, aplicou esse rótulo automaticamente ao conteúdo contendo as palavras-chave “Casa Alpina”. Usando esse rótulo como uma condição em sua política de DLP, você pode mostrar uma dica de política aos usuários finais quando eles estiverem prestes a compartilhar esse conteúdo com alguém de fora da sua organização. 
-    
-- Você publicou um rótulo chamado **Registro de impostos**, para que seu gerente de registros possa aplicar manualmente o rótulo ao conteúdo que precise ser classificado como um registro. Usando esse rótulo como uma condição em sua política de DLP, você pode procurar conteúdo com esse rótulo em outros tipos de informações confidenciais como CPF; aplicar ações de proteção ao conteúdo rotulado **Registro de impostos**; e obter relatórios de atividade detalhados sobre a política de DLP de relatórios de DLP e os dados do log de auditoria. 
-    
-- Você publicou um rótulo chamado **Equipe Executiva de Liderança – Confidencial** para as contas de caixa de correio do Exchange e OneDrive de um grupo de executivos. Usando esse rótulo como uma condição em sua política de DLP, você pode aplicar ações de retenção e proteção no mesmo subconjunto de conteúdo e usuários. 
-    
-Usando rótulos como uma condição em suas regras de DLP, você pode aplicar seletivamente ações de proteção a um conjunto específico de conteúdos, locais ou usuários. 
+Talvez você queira usar um rótulo de retenção em uma política DLP se tiver itens que estão sob retenção e descarte, e também aplicar outros controles a eles, por exemplo:
 
-> [!NOTE]
-> Se você especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local, receberá a seguinte mensagem de erro: "não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta abaixo ou desative o Exchange e ao Teams como um local. " Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
+- Você publicou um rótulo de retenção denominado **ano fiscal 2018**, que quando aplicado aos documentos fiscais de 2018 armazenados no SharePoint, os retém por dez anos e só após esse prazo os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
+
+> [!IMPORTANT]
+> Você receberá a seguinte mensagem de erro se especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local: **"não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta a seguir ou desative o Exchange e o Teams como um local."** Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
 
 ### <a name="support-for-sensitivity-labels-is-coming"></a>O suporte para rótulos de confidencialidade estará disponível em breve
 

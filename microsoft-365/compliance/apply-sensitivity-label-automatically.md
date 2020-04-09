@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 7bbfb85746c114fa277f28a87c04194bd290c1fd
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: a37e1ec6b342e8003427c0e90c2493ffa2952fe4
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163871"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189092"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -57,9 +57,10 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     Para obter instruções de configuração, confira [Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) nesta página.
     
     Específico para rotulagem automática para o SharePoint e OneDrive:
-    - Número máximo de 25.000 arquivos (Word, PowerPoint ou Excel) em seu locatário por dia
-    - Número máximo de 10 conjuntos de sites em todas as políticas
-    - Número máximo de 10 políticas em seu locatário
+    - Máximo de 25.000 arquivos (Word, PowerPoint ou Excel) em seu locatário por dia
+        - Máximo de 5 arquivos por usuário licenciado por dia
+    - Máximo de 10 conjuntos de sites em todas as políticas
+    - Máximo de 10 políticas em seu locatário
 
     Específico para rotulagem automática para o Exchange:
     - Diferentemente da rotulagem manual ou da rotulagem automática com aplicativos do Office, os anexos do Office também são verificados quanto às condições especificadas na política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
