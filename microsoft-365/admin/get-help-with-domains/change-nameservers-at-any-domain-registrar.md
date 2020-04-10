@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Saiba como adicionar e configurar seu domínio no Office 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
 ms.custom: okr_smb
-ms.openlocfilehash: 3030fc33a6d528fd6cb4e97c27cdbb7c251e9a97
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 838025002443ec35787ea91775c60d3829545af4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250648"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210487"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-any-domain-registrar"></a>Alterar os servidores de nomes para configurar o Office 365 com qualquer registrador de domínios
 
@@ -78,25 +78,25 @@ Caso esteja criando um registro TXT ou um registro MX, siga um destes procedimen
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Tipo de registro**|**Alias** ou **Nome do host**|**Valor**|**Prioridade**|**TTL**|
-|MX|Digite **@** ou seu nome de domínio. |MS = ms *XXXXXXXX* > [!NOTE]> Esse é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365.          [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Para obter **prioridade**, para evitar conflitos com o registro MX usado para o fluxo de emails, use uma prioridade menor do que a prioridade de qualquer registro MX existente. Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.md#what-is-mx-priority) |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
+|MX|Digite **@** ou seu nome de domínio. |MS = ms *XXXXXXXX* > [!NOTE]> Esse é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365.          [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Para **Priority**, para evitar conflitos com o registro MX usado para o fluxo de email, use uma prioridade menor do que a prioridade de qualquer registro MX existente. Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.md#what-is-mx-priority) |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
    
 ### <a name="save-the-record"></a>Salvar o registro
 
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Office 365 e solicite que o Office 365 procure o registro.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
   
 
-1. No centro de administração, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
     
-2. Na página **domínios** , selecione o domínio que você está verificando. 
+2. Na página **Domínios**, clique no domínio que você está verificando. 
     
   
-3. Na página **configuração** , selecione **Iniciar configuração**.
+3. Na página **Configuração**, clique em **Iniciar configuração**.
  
     
   
-4. Na página **verificar domínio** , selecione **verificar**.
+4. Na página **Verificar domínio**, marque **Verificar**.
     
     
   
@@ -158,7 +158,7 @@ Por exemplo, aqui estão algumas etapas adicionais que podem ser necessárias pa
     
 - Você deseja adicionar um domínio atualmente usado com um site da Web, como www.fourthcoffee.com? Você pode seguir as etapas ao adicionar o domínio para manter seu site hospedado onde o site está hospedado agora para que as pessoas possam acessar o site depois de alterar os registros NS do domínio para apontar para o Office 365.
 
-1. No centro de administração, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
 3. Selecione um domínio na página Domínios.
 

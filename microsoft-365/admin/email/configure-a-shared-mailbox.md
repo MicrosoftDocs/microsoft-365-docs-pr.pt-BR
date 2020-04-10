@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Depois de criar uma caixa de correio compartilhada, convém definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como os membros ou o nome da caixa de correio.
-ms.openlocfilehash: edea829a8578387459afe3ce4889dfa620f95956
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250685"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212016"
 ---
 # <a name="configure-a-shared-mailbox"></a>Configurar uma caixa de correio compartilhada
 
@@ -35,19 +35,19 @@ Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -63,19 +63,19 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -89,19 +89,19 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -126,19 +126,19 @@ Se quiser permitir que todos vejam os emails enviados, no centro de administraç
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -155,19 +155,19 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -184,19 +184,19 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -212,19 +212,19 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
@@ -244,23 +244,23 @@ Se você optar por não mostrar a caixa de correio compartilhada na lista de end
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **grupos** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">caixas de correio compartilhadas</a> .
+1. No centro de administração, vá para a página **Grupos** \><a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Caixas de correio compartilhadas</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **grupos** > de **caixas de correio compartilhadas** . 
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, acesse a página **Grupos**>**Caixas de correio compartilhadas**. 
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione \> **Mostrar na edição da lista de endereços global** . ****
+2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione \> **Mostrar na edição da lista de endereços global** . **Edit**
 
 3. Define a opção Ativar **ou** **desativar**. 
 

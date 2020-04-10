@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: Saiba como gerenciar seus próprios registros DNS ou permitir que o Office 365 gerencie seus registros DNS para você.
 ms.custom: okr_smb
-ms.openlocfilehash: dbd9dda6f84803732777ac75163f031b50419732
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7a5bcf6bb39497a37cbec4e2cd9b7efad0fc6724
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362136"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210351"
 ---
 # <a name="set-up-your-domain-host-specific-instructions"></a>Configurar seu domínio (instruções específicas do host)
 

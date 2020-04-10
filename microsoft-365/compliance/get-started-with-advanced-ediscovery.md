@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: 1f3eb78ab9f9e96eaa95dbfbc7e087fa1514b836
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: a43bfd94fcf0a2563a184a3a87d96c64bd8eb619
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43100864"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204041"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à descoberta eletrônica avançada
 
@@ -173,4 +173,4 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
    - [Analisar dados de caso](analyzing-data-in-review-set.md). A funcionalidade de análise na descoberta eletrônica avançada é poderosa. Depois de executar a análise nos dados no conjunto de revisão, realizamos análises como a detecção de duplicidades, encadeamento de email e temas que podem ajudar a reduzir o volume de documentos que você precisa examinar. Também geramos relatórios de análise que resumem o resultado da execução da análise. Como explicado anteriormente, a execução de análise também executa [o modelo de detecção de privilégio advogado-cliente](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model).
 
-5. **Exportar e baixar dados de caso**. Uma etapa final após coletar, revisar e analisar os dados do caso é exportá-lo para a descoberta eletrônica avançada para análise externa ou para análise por pessoas de fora da equipe de investigação. A exportação de dados é um processo de duas etapas. A primeira etapa é [Exportar](export-documents-from-review-set.md) o conjunto de análise e em um local de armazenamento do Azure diferente (fornecido pela Microsoft ou um gerenciado por sua organização). Em seguida, use o Azure Storage Explorer para [baixar](download-export-jobs.md) os dados para um computador local. Além dos arquivos de dados exportados, o contém o pacote de exportação também contém um relatório de exportação, um relatório de resumo e um relatório de erros.
+5. **Exportar e baixar dados de caso**. Uma etapa final após coletar, revisar e analisar os dados do caso é exportá-lo para a descoberta eletrônica avançada para análise externa ou para análise por pessoas de fora da equipe de investigação. A exportação de dados é um processo de duas etapas. A primeira etapa é [Exportar](export-documents-from-review-set.md) dados do conjunto de revisão e copiá-los para um local de armazenamento do Azure diferente (um fornecido pela Microsoft ou um gerenciado por sua organização). Em seguida, use o Azure Storage Explorer para [baixar](download-export-jobs.md) os dados para um computador local. Além dos arquivos de dados exportados, o contém o pacote de exportação também contém um relatório de exportação, um relatório de resumo e um relatório de erros.

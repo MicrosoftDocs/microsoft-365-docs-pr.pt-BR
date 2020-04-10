@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 34e57a00-2a7d-469c-beec-089423f18369
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Dyn.com para o Office 365.
-ms.openlocfilehash: a09ba409b1788432c5cd5c060252bb76b6903342
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d25d4d9712dcd2e2a171c6ad0eac70b8c01e75ab
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349342"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211770"
 ---
 # <a name="create-dns-records-at-dyncom-for-office-365"></a>Criar registros DNS no Dyn.com para o Office 365
 

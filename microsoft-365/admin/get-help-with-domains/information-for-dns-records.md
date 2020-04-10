@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Saiba como localizar os valores/informações de que você precisa para criar registros DNS para o Office 365. '
 ms.custom: okr_smb
-ms.openlocfilehash: d6093dd8a7e8d901be7b172a31dcd0e56c549ab3
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 2490532894ef00bab5de3f406b0c104529423382
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43188996"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210375"
 ---
 # <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>Coletar as informações de que você precisa para criar registros de DNS do Office 365
 

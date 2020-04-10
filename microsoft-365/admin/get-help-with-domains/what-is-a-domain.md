@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: c33d1ba6-077c-4cea-be04-cfffbe3f3ed8
 description: Entenda o que é um domínio e como você pode comprar um domínio ou usar o domínio padrão de sua empresa.
 ms.custom: okr_smb
-ms.openlocfilehash: 7937e9434f5a198f8a69bec10057d75929ce8eb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 65eae949ccc29e92821afc75e90781f7827442dd
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250626"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209719"
 ---
 # <a name="what-is-a-domain"></a>O que é um domínio?
 

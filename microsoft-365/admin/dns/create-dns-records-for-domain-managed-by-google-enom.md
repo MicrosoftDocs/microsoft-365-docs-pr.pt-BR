@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Saiba como acessar o eNom e criar o DNS por meio da página de domínios do Google.
-ms.openlocfilehash: 566b3990c6cc3080eac9d1367531eea42ab135d1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8fc13ea2ccc7dfee510ef7abb72f88030d048943
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362496"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210653"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Criar registros DNS quando o domínio for gerenciado pelo Google (eNom)
 

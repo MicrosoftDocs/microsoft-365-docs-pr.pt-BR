@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Agora o Microsoft Teams terá acesso a links seguros no momento do clique. Se você estiver usando chats 1-em-1, entre grupos ou em canais e guias, se você tiver uma assinatura do Office 365 ATP, terá a capacidade de habilitar e usar esse recurso de segurança.
-ms.openlocfilehash: 864b211a1f007a0f6bde83da12b61362b53bf041
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 49a49bd41e71daf0afc9e7a24e79898ff98ad798
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030123"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212540"
 ---
 <!--06/21/2019-->
 
@@ -35,6 +35,9 @@ Veja como funciona:
 1. Quando você iniciar o aplicativo Teams, o Office 365 verificará se o usuário pertence a uma organização que tem o Office 365 ATP e que o usuário faz parte de uma política de links seguros ativa com sua proteção habilitada para o Microsoft Teams.
 
 2. Se os itens acima forem verdadeiros, as URLs serão validadas no momento do clique em chats, chats de grupo, canais e em guias para esse usuário.
+
+> [!NOTE]
+> O recurso links seguros protege os usuários de links enviados por usuários convidados, usuários federados, usuários de locatários. Se o usuário conectado tiver links seguros para o Microsoft Teams habilitados, as proteções de links seguros serão aplicadas.
  
 ## <a name="what-will-users-experience"></a>O que os usuários irão experimentar? 
 

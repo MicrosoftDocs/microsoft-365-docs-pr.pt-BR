@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Aprenda a verificar seu domínio e criar registros de DNS em qualquer provedor de hospedagem de DNS para o Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 2d3c726f70ffb4588f7ae2fc8b53bf8f0c60e258
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 28df13d0ebe78d055df556d71c7a753d3434b030
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250649"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210475"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider-for-office-365"></a>Criar registros de DNS em qualquer provedor de hospedagem de DNS para o Office 365
 
@@ -89,11 +89,11 @@ Agora que você adicionou o registro no site do seu registrador de domínios, re
   
 Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
   
-1. No centro de administração do, vá para **Configurações** \>página <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios</a>.
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
     
-2. Na página **Domínios**, selecione o domínio que você está verificando. 
+2. Na página **Domínios**, clique no domínio que você está verificando. 
   
-3. Na página **Configuração**, selecione **Iniciar configuração**.
+3. Na página **Configuração**, clique em **Iniciar configuração**.
        
 4. Na página **Verificar domínio**, marque **Verificar**.   
   

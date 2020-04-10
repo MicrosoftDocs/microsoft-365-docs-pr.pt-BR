@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Bluehost para o Office 365.
-ms.openlocfilehash: 0e64ed8787dca9822e71a63c57de7a7a3e2b3fe4
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8d8217aa3b87e103f37063248899467d79b6cf18
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350952"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211830"
 ---
 # <a name="create-dns-records-at-bluehost-for-office-365"></a>Criar registros DNS na Bluehost para Office 365
 

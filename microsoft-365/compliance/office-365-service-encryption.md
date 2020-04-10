@@ -14,22 +14,22 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Resumo: entender a criptografia de dados na camada de serviço do Microsoft Office 365.'
-ms.openlocfilehash: a8faded033ade013924eeeab269aa213840430b4
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: fb6bf87fbd51bcb4383e9eb595ef11f081989d86
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193457"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211938"
 ---
 # <a name="office-365-service-encryption"></a>Criptografia de serviço do Office 365
 
 Além de usar o BitLocker para a criptografia no nível do volume, o Exchange Online, o Skype for Business, o SharePoint Online, o OneDrive for Business e o Microsoft Teams também usam a criptografia de serviço para criptografar os dados do cliente. A criptografia de serviço permite duas opções de gerenciamento de chave:
 
-- A Microsoft gerencia todas as chaves criptográficas. No momento, essa opção está disponível no SharePoint Online, no OneDrive for Business, no Skype for Business e em bate-papos do Microsoft Teams. Os dados são criptografados por padrão com as chaves gerenciadas pela Microsoft.
+- A Microsoft gerencia todas as chaves criptográficas. No momento, essa opção está disponível no SharePoint Online, no OneDrive for Business, no Skype for Business e em bate-papos do Microsoft Teams. Os dados são criptografados por padrão com chaves gerenciadas pela Microsoft.
 
-- Sua organização fornece as chaves raiz. Você gerencia essas chaves usando o Azure Key Vault. Essa opção é chamada de chave do cliente. A chave do cliente está disponível atualmente para os arquivos do Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business e Teams. Se você usar a chave do cliente, essas chaves substituirão as chaves gerenciadas pela Microsoft para criptografar seus dados.
+- Sua organização fornece as chaves raiz. Você gerencia essas chaves usando o Azure Key Vault. Essa opção é chamada de chave do cliente. A chave do cliente está disponível atualmente para os arquivos do Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business e Teams. Se você usar a chave do cliente, essas chaves substituirão chaves gerenciadas pela Microsoft para criptografar seus dados.
 
-Independentemente da opção escolhida, a criptografia de serviço oferece vários benefícios:
+Seja qual for a opção escolhida, a criptografia de serviço oferece vários benefícios:
 
 - Impõe a autenticação do usuário para recuperar e descriptografar dados solicitados por um usuário autorizado.
 

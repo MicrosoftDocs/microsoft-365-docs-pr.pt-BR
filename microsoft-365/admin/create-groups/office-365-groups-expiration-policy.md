@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Office 365.
-ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 92e472ac56128cc847471b51930aa73dc6598711
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894510"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212052"
 ---
 # <a name="office-365-group-expiration-policy"></a>Política de expiração de grupo do Office 365
 
@@ -38,7 +38,7 @@ Os administradores podem especificar um período de expiração e qualquer grupo
 Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer uma das ações a seguir irá renovar automaticamente um grupo:
 - SharePoint – exibir, editar, baixar, mover, compartilhar ou carregar arquivos.
 - Outlook-ingressar no grupo, ler ou gravar mensagem de grupo do grupo e como uma mensagem (Outlook na Web).
-- Teams – visitando um canal do teams.
+- Teams – visitando uma equipe do Channe '.
 
 > [!IMPORTANT]
 > Quando você altera a política de expiração, o serviço recalcula a data de expiração de cada grupo. Ele sempre inicia a contagem a partir da data em que o grupo foi criado e, em seguida, aplica a nova política de expiração.
@@ -53,7 +53,7 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 |Role|O que eles podem fazer|
 |---------|---------|
 |Administrador global do Office 365 (no Azure, o administrador da empresa), administrador do usuário|Criar, ler, atualizar ou excluir as configurações de política de expiração de grupos do Office 365.|
-|Usuário|Renovar ou [restaurar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Office 365 de sua propriedade|
+|User|Renovar ou [restaurar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Office 365 de sua propriedade|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Como definir a política de expiração
 
@@ -85,4 +85,4 @@ Se, por algum motivo, nenhum dos proprietários ou administradores renovar o gru
 
 [Atribuir um novo proprietário a um grupo órfão](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Configurar a expiração de grupos do Office 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+[Configurar a expiração de grupos do Office 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

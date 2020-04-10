@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Saiba mais sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios do Office 365.
-ms.openlocfilehash: 35c909988f17add3adcd01cd1e2623235f4a9959
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4fd41102193a9e630ed04a9d1fb2e196dc94486b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250647"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210463"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 

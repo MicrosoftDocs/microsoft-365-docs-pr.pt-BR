@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNSMadeEasy para o Office 365.
-ms.openlocfilehash: 82244d216652b1957aefc3b81acd881ea4b32393
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 29bdf78e3f9993267c5f0be3b107981bb9dd3fe3
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350312"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211794"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-office-365"></a>Criar registros DNS no DNSMadeEasy para o Office 365
 
@@ -146,7 +146,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
     
     Na área **Adicionar Registros CNAME**, nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    |**Name**|**Alias para**|**TTL**|
+    |**Nome**|**Alias para**|**TTL**|
     |:-----|:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
     |sip  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |

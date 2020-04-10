@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para o Office 365.
-ms.openlocfilehash: 16348eb03a6507e15d31d5c183bd91125d0236f6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d8c33df611a0ef1be95d32026f5d6b99808258f6
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350662"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211746"
 ---
 # <a name="create-dns-records-at-freenom-for-office-365"></a>Criar registros DNS no Freenom para o Office 365
 
@@ -221,7 +221,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
   
 6. In the boxes for the new record, type or copy and paste the following values. 
     
-    |**Name**|**Tipo de registro**|**TTL**|**Destino**|
+    |**Nome**|**Tipo de registro**|**TTL**|**Destino**|
     |:-----|:-----|:-----|:-----|
     |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    

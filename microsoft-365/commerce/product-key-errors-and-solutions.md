@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -23,12 +23,12 @@ ms.assetid: 88d337ab-e7b1-43eb-a25e-7d6204e91099
 ROBOTS: NOINDEX
 description: 'Saiba como resolver os problemas que você enfrenta ao inserir sua chave do produto para o Office 365 para empresas. '
 ms.custom: okr_SMB
-ms.openlocfilehash: dbc2281b390e20ce1de6b313bdb23a3b265e267b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ef61a1317ba27af337dfbc16e5e4d0a7312d71a5
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251459"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211980"
 ---
 # <a name="problems-with-your-office-365-for-business-product-key"></a>Problemas com a sua chave do produto do Office 365 para empresas?
 
@@ -44,9 +44,9 @@ Se houver uma mensagem de erro ao tentar resgatar uma chave do produto para o **
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "Esta é uma chave do produto (Product Key) inválida. Tente inseri-lo novamente. Se sua chave do produto for para o Office 365 Personal ou o Office 365 Home, resgate-a em office.com/setup. " <br/><br/>Se você estiver usando o Office 365 solo no Japão: "Infelizmente, esta é uma chave de produto inválida. Tente inseri-lo novamente. Se sua chave do produto for para o Office 365 solo, resgate-a em office.com/setup. " | Se você estiver configurando um produto do [Office 365 para casa](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx) , precisará resgatar sua chave do [https://www.office.com/setup](https://www.office.com/setup)produto em. Caso contrário, para clientes comerciais, verifique cuidadosamente os números e caracteres que você está inserindo. |
 | "A chave do produto (Product Key) inserida não é válida. Tente inseri-lo novamente. " Ou "esta chave do produto não é válida. Insira uma chave do produto (Product Key) diferente. " | Verifique cuidadosamente os números e caracteres que você está inserindo. Erros podem ser cometidos com 0 e o, 5 e S, l e I e assim por diante. Se o problema persistir, contate o revendedor onde você comprou sua chave do produto. |
-| "Você já inseriu esta chave de produto. Insira uma chave diferente. " | Verifique as chaves do produto já inseridas para ver se a chave já foi adicionada. Se você estiver renovando uma assinatura usando uma chave do produto, deverá usar uma chave do produto nova e não utilizada.  <br/><br/>Precisa comprar uma nova chave? Visite a [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=529160) ou um revendedor de terceiros ou, se você estiver trabalhando com um parceiro, entre em contato com seu parceiro. <br/><br/>Se o problema persistir, [entre em contato com o suporte](../admin/contact-support-for-business-products.md). Se você estiver trabalhando com um parceiro, entre em contato com seu parceiro para obter suporte para chave de produto. |
+| "Você já inseriu esta chave de produto. Insira uma chave diferente. " | Verifique as chaves do produto já inseridas para ver se a chave já foi adicionada. Se você estiver renovando uma assinatura usando uma chave do produto, deverá usar uma chave do produto nova e não utilizada.  <br/><br/>Precisa comprar uma nova chave? Visite a [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=529160) ou um revendedor terceirizado. Se estiver trabalhando com um parceiro, entre em contato com ele.  <br/><br/>Se o problema persistir, [entre em contato com o suporte](../admin/contact-support-for-business-products.md). Se você estiver trabalhando com um parceiro, entre em contato com seu parceiro para obter suporte para chave de produto. |
 | "A chave do produto (Product Key) inserida expirou. Insira uma chave diferente. " | Você deve usar uma chave do produto nova e não utilizada para renovar uma assinatura atual ou ativar uma nova.<br/><br/>Precisa comprar uma nova chave? Visite a [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=529160) ou um revendedor de terceiros ou, se você estiver trabalhando com um parceiro, entre em contato com seu parceiro. |
-| "Esta chave de produto já foi usada. Insira uma chave do produto (Product Key) diferente. " | Verifique se a chave ainda não foi usada por você ou por um membro da sua organização. Se a chave ainda não tiver sido usada, entre em contato com seu parceiro ou revendedor onde você comprou a chave de produto. |
+| "Esta chave de produto já foi usada. Insira uma chave do produto (Product Key) diferente. " | Verifique se a chave já foi usada por você ou um membro da sua organização. Se a chave não foi usada, fale com o parceiro ou revendedor onde você a comprou. |
 | "Desculpe, não podemos processar sua solicitação no momento. Aguarde alguns minutos e tente novamente. " | Se as tentativas subsequentes resultarem na mesma mensagem de erro por mais de 15 minutos, [entre em contato com o suporte](../admin/contact-support-for-business-products.md). |
 | "A assinatura solicitada não está disponível. Uma das seguintes razões pode ter causado isso: a oferta não está disponível-o serviço não está disponível em seu país-é impossível usar/selecionar a mesma versão de avaliação duas vezes. Se o problema persistir, entre em contato com o suporte da Microsoft. " | [Entre em contato com o suporte](../admin/contact-support-for-business-products.md). Se você estiver trabalhando com um parceiro, entre em contato com seu parceiro para obter suporte. |
 | "Você adicionou mais licenças de usuário do que essa oferta permite. O máximo é \<de\> licenças de usuário x. Remova essa chave de produto e insira uma que adicione menos licenças de usuário. " | Entre em contato com o revendedor ou parceiro. Você adquiriu mais licenças do que pode usar com esta assinatura do Office 365. |

@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Saiba como usar o OneDrive e um site de equipe para armazenamento e compartilhamento de arquivos.
-ms.openlocfilehash: be3c845710fdf5531b1a3d91b9579c55cdc4d203
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6494207518f919a3d984be7e7932740d82e9ea11
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360492"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209731"
 ---
 # <a name="set-up-office-365-file-storage-and-sharing"></a>Configurar o compartilhamento e o armazenamento de arquivos do Office 365
 

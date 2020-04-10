@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/13/2017
+ms.date: ''
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -18,18 +18,19 @@ search.appverid:
 - MOE150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 'Entenda por que os resultados de pesquisa estimados e reais podem variar nas pesquisas executadas com as ferramentas de descoberta eletrônica no Office 365. '
-ms.openlocfilehash: 1024a99ffa358e56783d562062f158e71f5e7ddc
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: 9ee24cc0e7b85d39480149d65897b303e23c0adb
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198368"
+ms.locfileid: "43204063"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results-in-office-365"></a>Diferenças entre resultados de pesquisa de descoberta eletrônica estimados e reais no Office 365
 
 Este tópico se aplica a pesquisas que podem ser executadas usando uma das seguintes ferramentas de descoberta eletrônica da Microsoft: 
 
 - Pesquisa de conteúdo no centro de conformidade & segurança  <br/>  
+- Pesquisas associadas a principais casos de descoberta eletrônica
 - Descoberta eletrônica in-loco no centro de administração do Exchange (Eat)  <br/>  
 - A Central de Descoberta Eletrônica no SharePoint Online  <br/> 
    
@@ -83,5 +84,3 @@ No centro de descoberta eletrônica no SharePoint Online, você tem a opção de
   
 > [!NOTE]
 > Se você não marcar a opção **incluir itens que estão criptografados ou com um formato não reconhecido** ao exportar os resultados da pesquisa ou apenas baixar os relatórios, os relatórios de erros de índice serão baixados, mas não terão entradas. Isso não significa que não há nenhum erro de indexação. Apenas significa que itens não indexados não foram incluídos na exportação. 
-  
-

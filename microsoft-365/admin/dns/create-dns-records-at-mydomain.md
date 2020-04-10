@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: Aprenda a verificar seu domínio e a configurar registros DNS para e-mails, Skype for Business Online e outros serviços em Meu Domínio do Office 365.
-ms.openlocfilehash: c85c04d369add95d3aaa815229257fe90a24fb28
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1a75c2ab0077cac07781e5102c43e53ed965b1df
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349850"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211686"
 ---
 # <a name="create-dns-records-at-mydomain-for-office-365"></a>Criar registros DNS no site Meu Domínio do Office 365
 

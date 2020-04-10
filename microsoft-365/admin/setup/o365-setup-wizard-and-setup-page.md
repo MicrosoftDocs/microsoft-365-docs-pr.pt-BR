@@ -6,7 +6,7 @@ ms.author: v-sharos
 author: shars
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba a diferença entre o assistente de instalação do Office 365 e a página de configuração.
-ms.openlocfilehash: 0873e37b849785feb7c70271b97b148f3cea8bd9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: fb4cf29b2cab493e0240cf9cfef4cbabeb45087c
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360452"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209695"
 ---
 # <a name="difference-between-the-office-365-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação do Office 365 e a página de configuração
 
@@ -49,7 +49,7 @@ O assistente de instalação orienta você durante as seguintes etapas:
 
 3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar os aplicativos do Office 365.
 
-4. Conecte seu domínio.
+4. Domínio Connect'your.
 
 ## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>Use a página de configuração para concluir e gerenciar sua configuração
 

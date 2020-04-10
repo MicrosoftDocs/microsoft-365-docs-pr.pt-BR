@@ -6,23 +6,23 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Encontre, teste e implante aplicativos de parceiros da Microsoft e da Microsoft para usuários e grupos em sua organização a partir do portal de aplicativos integrados no centro de administração do Microsoft 365.
-ms.openlocfilehash: 4cd8c71b521c80f8a3043cf13427132b3ec3e750
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5189eef7524242a87f1797f8856bbd33b9a32a31
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363058"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212264"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-in-the-microsoft-365-admin-center"></a>Testar e implantar os aplicativos do Microsoft 365 no centro de administração do Microsoft 365
 
-O centro de administração do Microsoft 365 oferece a flexibilidade para implantar os aplicativos de parceiros da Microsoft e da Microsoft em um único local. A capacidade de encontrar, testar e implantar completamente aplicativos comprados e licenciados pela Microsoft e parceiros da Microsoft a partir do portal de aplicativos integrados fornece a conveniência e os benefícios que sua organização exige para manter os serviços corporativos atualizados regularmente e em execução modo.  
+O centro de administração do Microsoft 365 oferece a flexibilidade para implantar os aplicativos de parceiros da Microsoft e da Microsoft em um único local. A capacidade de encontrar, testar e implantar completamente aplicativos comprados e licenciados pela Microsoft e parceiros da Microsoft a partir do portal de aplicativos integrados fornece a conveniência e os benefícios que sua organização exige para manter os serviços corporativos atualizados regularmente e com eficiência.  
 
 Para obter informações adicionais sobre como adquirir e licenciar os aplicativos do Microsoft 365 para sua organização, consulte a postagem do blog chamada [gerenciar e implantar os aplicativos do microsoft 365 no centro de administração do microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324).
   

@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: 3bb78cc272a1920d9eab92aff50a14e345dce2e1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8e9e4b1ae0235886a9dbb5b39ad4c0f78c27b53f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362376"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210535"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 

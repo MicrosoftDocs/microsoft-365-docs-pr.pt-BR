@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Netregistry para o Office 365.
-ms.openlocfilehash: 91f802afccd337a97b23ca514c9d9921595abcd1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e1f2414817357b8435bc002860a35c6e76d4314e
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42348812"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211129"
 ---
 # <a name="create-dns-records-at-netregistry-for-office-365"></a>Criar registros DNS no Netregistry para o Office 365
 
@@ -82,7 +82,7 @@ Antes de usar o seu domínio com o Office 365, precisamos verificar se você é 
   
     No formulário **novo registro txt** , digite ou copie e cole os valores da tabela a seguir. 
     
-    |**Name**|**TTL (SEG)**|**TXT (aponta para endereço ou valor)**|
+    |**Nome**|**TTL (SEG)**|**TXT (aponta para endereço ou valor)**|
     |:-----|:-----|:-----|
     |(deixar em branco)  <br/> |3600 (segundos)  <br/> |"MS = msXXXXXXXX"  <br/> **Observação**: esse é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  |
        
@@ -136,7 +136,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
   
 6. No formulário **novo registro MX** , digite ou copie e cole os valores da tabela a seguir. 
     
-    |**Name**|**TTL (SEG)**|**Exchange (aponta para o endereço ou valor)**|**O host está totalmente qualificado?**|**Preferência (prioridade)**|
+    |**Nome**|**TTL (SEG)**|**Exchange (aponta para o endereço ou valor)**|**O host está totalmente qualificado?**|**Preferência (prioridade)**|
     |:-----|:-----|:-----|:-----|:-----|
     |(deixar em branco)  <br/> |3600 (segundos)  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta do Office 365.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      |(marque a caixa de seleção)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        

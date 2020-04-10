@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
 description: Saiba como você pode configurar o Office 365 para gerenciar os registros DNS do seu domínio personalizado em domínios do Google.
-ms.openlocfilehash: f6faaa4a7b6540086752e88da2051a73450f4455
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 86dd1745fdc85c9837e5c20844427768d4c74a81
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351962"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211926"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-google-domains"></a>Alterar os nameservers para configurar o Office 365 com o Google Domains
 

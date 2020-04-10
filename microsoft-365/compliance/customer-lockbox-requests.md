@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 254479f7c07b74abf04802a7e2e591a2ac375e59
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: f909d67383c248ab42c469f850de0e42cc41eede
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113558"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211948"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -152,7 +152,7 @@ Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockb
 |:---------- |:----------|
 | Date       | A data e a hora em que a solicitação de lockbox do cliente foi aprovada ou negada.
 | Endereço IP | O endereço IP do computador que o aprovador usou para aprovar ou negar uma solicitação. |
-| Usuário       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
+| User       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
 | Atividade   | Set-AccessToCustomerDataRequest; Esta é a atividade de auditoria que é registrada quando você aprova ou nega uma solicitação de lockbox do cliente.                                |
 | Item       | O GUID da solicitação de lockbox do cliente                             |
 
@@ -171,7 +171,7 @@ As ações executadas por um engenheiro da Microsoft depois que uma solicitaçã
 |:---------- |:----------|
 | Date       | Data e hora em que a ação foi executada. Observe que a hora em que essa ação foi executada estará dentro de 4 horas após a aprovação da solicitação de lockbox do cliente.              |
 | Endereço IP | O endereço IP do engenheiro de máquina da Microsoft usado. |
-| Usuário       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
+| User       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
 | Atividade   | Nome da atividade realizada pelo engenheiro da Microsoft.|
 | Item       | \<Empty\>                                             |
 

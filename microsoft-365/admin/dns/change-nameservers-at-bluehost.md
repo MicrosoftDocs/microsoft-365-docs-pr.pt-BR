@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Saiba como você pode configurar o Office 365 para gerenciar seus registros DNS em Bluehost. '
-ms.openlocfilehash: 081abe977b498ea0cc0a0e2da9b54b00687df530
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dbd06791df2e7f8e6ca085b82dc880e9626c065c
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352372"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212336"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-bluehost"></a>Alterar os nameservers para configurar o Office 365 com a Bluehost
 

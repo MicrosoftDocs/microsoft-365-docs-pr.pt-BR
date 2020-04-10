@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Saiba como resolver conflitos de licença com sua assinatura do Office 365 for Business.
-ms.openlocfilehash: 63464951c4f1fd568248ca5c43da9f8c94347711
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9dbd483b01566039cb227cd3d2f086c3f6e34be5
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361776"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212288"
 ---
 # <a name="resolve-license-conflicts-in-office-365-for-business"></a>Resolver conflitos de licença no Office 365 para empresas
 

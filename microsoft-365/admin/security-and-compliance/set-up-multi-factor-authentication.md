@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Aprenda a usar padrões de segurança para configurar a autenticação multifator para usuários do Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 331552a4de21198fe7fbc9980e89bfcd87449ffa
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153551"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204017"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -68,11 +68,11 @@ Se você já configurou a MFA com políticas de linha de base, [será necessári
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>Mover das políticas de linha de base para padrões de segurança
 
-1. No [Centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione **Configuração**.
+1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione **Mostrar todos**e, em seguida, **Azure Active Directory** em **centros de administração**.
 
-2. Ao lado de **Entrada e segurança**, em **Tornar a entrada mais segura**, selecione **Exibir**.
+2. No **centro de administração do Azure Active Directory** , escolha**segurança** **do Azure Active Directory** > .
 
-3. Em **Tornar a entrada mais segura**, selecione **Gerenciar**. 
+3. Na **| segurança | Página Introdução** , escolha **acesso condicional**. 
 
 4. Na página **de políticas de acesso condicional do portal do Azure** escolha cada política de linha de base que esta **ligada**, e configure-as para **desligada**.
 5. Vá para a página [Azure Active Directory Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).

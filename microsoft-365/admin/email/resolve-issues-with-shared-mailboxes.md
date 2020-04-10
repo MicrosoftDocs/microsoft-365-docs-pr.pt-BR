@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Tente estas soluções se você tiver problemas com caixas de correio compartilhadas.
-ms.openlocfilehash: b45c2eefa8cb4fb5fa34808223efbc1f0023161d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 138bcee155652e84ab6ee16cf6a9acab310edde9
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250651"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210511"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Solucionar problemas com caixas de correio compartilhadas
 

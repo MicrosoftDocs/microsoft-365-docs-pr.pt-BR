@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Saiba o que você precisa fazer para configurar seu Office 365 para empresas.
-ms.openlocfilehash: 3b38f0092b323175c6a12170105e781fab21934d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bf2db70a77f6ddaf3a2bae04180f0f5be9dbaf05
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237789"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212156"
 ---
 # <a name="plan-your-setup-of-office-365-for-business"></a>Planejar a configuração do Office 365 para empresas
 

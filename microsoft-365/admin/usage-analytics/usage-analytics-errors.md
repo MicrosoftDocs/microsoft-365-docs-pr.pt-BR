@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: Saiba como solucionar problemas com o aplicativo de modelo de análise de uso do Microsoft 365.
-ms.openlocfilehash: a9da79a6d7760f7876de7a6321554545d411f6be
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7164aa246a79a8d8c5aa50d995b53b6221003c01
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237875"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212144"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>Solucionando problemas de análise de uso do Microsoft 365
 

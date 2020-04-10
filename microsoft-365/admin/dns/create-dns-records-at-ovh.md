@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em OVH para o Office 365.
-ms.openlocfilehash: 4857addd7dfd096c1ddd6e59f1f17ace76b75a9e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3ba4e61c875f74a0a6cf76c8b7cd82ea88e0221b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354342"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211105"
 ---
 # <a name="create-dns-records-at-ovh-for-office-365"></a>Criar registros DNS no OVH para o Office 365
 

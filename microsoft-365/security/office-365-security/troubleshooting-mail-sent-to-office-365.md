@@ -16,12 +16,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Office 365 e práticas recomendadas para envio de email em massa para clientes do Office 365.
-ms.openlocfilehash: 72dd0360038e58c2501728d9032fef95f81d90c2
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 7c5d355f1037df94d856ffff7080d4a12d22f709
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604058"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211902"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Solução de problemas de email enviados para o Office 365
 
@@ -136,7 +136,7 @@ Os emails de marketing, especialmente boletins informativos, devem sempre inclui
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
- `Update Profile/Email Address | Instant removal with SafeUnsubscribe™ | Privacy Policy`
+ `Update Profile/Email Address | Instant removal with SafeUnsubscribe&trade; | Privacy Policy`
 
 Alguns remetentes incluem essa opção exigindo que os destinatários enviem um email para um determinado alias com "unsubscribe" no assunto. Isso não é preferível ao exemplo de um clique acima. Se você optar por exigir que os destinatários enviem um email, certifique-se de que ao clicar no link, todos os campos obrigatórios sejam preenchidos previamente.
 
@@ -144,7 +144,7 @@ Alguns remetentes incluem essa opção exigindo que os destinatários enviem um 
 
 Essa prática recomendada do setor é recomendada se sua empresa requer ou incentiva os usuários a registrar suas informações de contato para acessar seu produto ou serviço. Algumas empresas fazem dele uma prática inscrever automaticamente seus usuários para emails de marketing ou boletins eletrônicos durante o processo de registro, mas isso é considerado uma prática de marketing questionável no mundo da filtragem de email.
 
-Durante o processo de registro, se a caixa de seleção "Sim, envie-me seu boletim informativo" ou "Sim, enviar ofertas especiais" estiver selecionada por padrão, os usuários que não pagarão mais atenção podem inadvertidamente involuntariamente inscrever-se no email de marketing ou boletins informativos de que não deseja receber.
+Durante o processo de registro, se a caixa de seleção "Sim, envie-me seu boletim informativo" ou "Sim, enviar ofertas especiais" estiver marcada por padrão, os usuários que não pagarão mais atenção podem inadvertidamente involuntariamente inscrever-se no email de marketing ou boletins informativos que não deseja receber.
 
  Recomendamos a opção de consentimento duplo em vez disso, o que significa que a caixa de seleção para os emails de marketing ou boletins informativos está desmarcada por padrão. Além disso, após o formulário de registro ter sido enviado, um email de verificação é enviado para o usuário com uma URL que permite confirmar sua decisão de receber emails de marketing.
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Saiba como configurar seu domínio personalizado do Office 365 com o Namecheap se quiser que o Office 365 gerencie seus registros DNS. '
-ms.openlocfilehash: 3a26f2acb9bb52d05974f050b265dd3e1a0fc0cb
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1130f8aca0f2d014d73f5a1b2e2edb2785a7c6b8
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351802"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212312"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-namecheap"></a>Alterar os nameservers para configurar o Office 365 com o Namecheap
 

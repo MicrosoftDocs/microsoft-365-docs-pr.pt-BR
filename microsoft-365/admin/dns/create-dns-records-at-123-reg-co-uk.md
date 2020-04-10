@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em 123-reg.co.uk para o Office 365.
-ms.openlocfilehash: 327f55dcedfda6eef31d56af1833a5c5438af2a6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 521426f039ac02e8c4566f5901fee49679de4e70
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351372"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211854"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-office-365"></a>Criar registros DNS no site 123-reg.co.uk para Office 365
 
@@ -106,7 +106,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
    
     ![Copiar e colar valores da tabela](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Selecione Adicionar](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
@@ -141,7 +141,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
    
     ![Copiar e colar os valores da tabela](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Selecione Adicionar](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
@@ -175,7 +175,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
    
     ![123Reg-BP-configure-4-1](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Selecione Adicionar](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
@@ -204,7 +204,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
    
     ![Copiar e colar os valores da tabela](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Selecione Adicionar](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   
