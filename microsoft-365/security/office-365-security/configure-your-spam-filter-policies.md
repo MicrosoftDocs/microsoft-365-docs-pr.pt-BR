@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: a497dc4cbce877c0aa6113e32223235ffebbfd41
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894201"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204095"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Configurar políticas antispam no Office 365
 
@@ -75,7 +75,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de conformidade e Segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
-- Para ver as configurações recomendadas para políticas antimalware, confira [Configurações de política antispam da EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
+- Para nossas configurações recomendadas para políticas antispam, confira [Configurações da política antispam EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para criar políticas antispam
 
