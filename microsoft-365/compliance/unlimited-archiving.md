@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Saiba mais sobre o arquivamento de expansão automática no Office 365, que fornece armazenamento de arquivo ilimitado para caixas de correio do Exchange Online.
-ms.openlocfilehash: 42318bf2ff102e6197800b2d6cba8b5c9132bcf9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eb7d75e87ac26dcf4f920b4858bc2f23862b0366
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069414"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225960"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Visão geral do arquivamento ilimitado no Office 365
 
@@ -43,17 +43,17 @@ Veja aqui uma rápida visão geral do processo.
 
 ![Visão geral do processo de arquivamento de expansão automática](../media/74355385-d990-44fe-8a87-6c3639d1f63f.png)
 
-1. O arquivamento está habilitado para uma caixa de correio de usuário ou uma caixa de correio compartilhada. Uma caixa de correio de arquivo morto com 100 GB de espaço de armazenamento é criada e a cota de aviso da caixa de correio de arquivo morto é definida como 90 GB.
+1. O arquivamento está habilitado para uma caixa de correio de usuário ou uma caixa de correio compartilhada. Uma caixa de correio de arquivo morto com 100 GB de espaço de armazenamento é criada (também chamada de *arquivo principal*), e a cota de aviso para a caixa de correio de arquivo morto é definida como 90 GB.
 
-2. Um administrador permite o arquivamento de expansão automática da caixa de correio. Quando a caixa de correio de arquivo morto (incluindo a pasta itens recuperáveis) atinge 90 GB, ela é convertida em um arquivo de expansão automática e o Office 365 adiciona espaço de armazenamento ao arquivo morto. Pode levar até 30 dias para que o espaço de armazenamento adicional seja provisionado.
+2. Um administrador permite o arquivamento de expansão automática da caixa de correio. Quando a caixa de correio de arquivo morto (incluindo a pasta itens recuperáveis) atinge 90 GB, ela é convertida em um arquivo de expansão automática e o Office 365 adiciona espaço de armazenamento ao arquivo morto. Esse armazenamento de arquivo adicional também é chamado de *arquivo auxiliar*. Pode levar até 30 dias para que o espaço de armazenamento adicional seja provisionado.
 
    > [!NOTE]
    > Se uma caixa de correio for colocada em espera ou atribuída a uma política de retenção do Office 365, a cota de armazenamento da caixa de correio de arquivo morto será aumentada para 110 GB quando o arquivamento de expansão automática estiver habilitado. Da mesma forma, a cota de aviso de arquivo morto é aumentada para 100 GB.
 
-3. O Office 365 adiciona mais espaço de armazenamento automaticamente quando necessário.
+3. O Office 365 adiciona automaticamente mais espaço de armazenamento ao arquivo auxiliar, quando necessário.
 
 > [!IMPORTANT]
-> O arquivo de expansão automática só é suportado para caixas de correio usadas para usuários individuais (ou caixas de correio compartilhadas) com uma taxa de crescimento que não excede 1 GB por dia. A caixa de correio de arquivo morto de um usuário destina-se somente a esse usuário. O uso de registro no diário, regras de transporte ou regras de encaminhamento automático para copiar mensagens para uma caixa de correio de arquivo morto não é permitido. A Microsoft reserva-se o direito de negar o arquivamento ilimitado em casos em que a caixa de correio de arquivo morto de um usuário é usada para armazenar dados de arquivo para outros usuários ou em outros casos do uso inadequado.
+> O arquivamento de expansão automática só é suportado para caixas de correio usadas para usuários individuais (ou caixas de correio compartilhadas) com uma taxa de crescimento que não excede 1 GB por dia. A caixa de correio de arquivo morto de um usuário destina-se somente a esse usuário. O uso de registro no diário, regras de transporte ou regras de encaminhamento automático para copiar mensagens para uma caixa de correio de arquivo morto não é permitido. A Microsoft reserva-se o direito de negar o arquivamento ilimitado em casos em que a caixa de correio de arquivo morto de um usuário é usada para armazenar dados de arquivo para outros usuários ou em outros casos de uso inadequado.
 
 ## <a name="what-gets-moved-to-the-additional-archive-storage-space"></a>O que é movido para o espaço de armazenamento de arquivo adicional?
 
@@ -86,15 +86,15 @@ Para acessar mensagens armazenadas em um arquivo morto expandido automaticamente
 
 - Outlook 2016 ou Outlook 2019 para Mac
 
-Aqui estão alguns pontos a considerar ao usar o Outlook ou o Outlook na Web para acessar mensagens armazenadas em um arquivo morto expandido automaticamente.
+Considere o seguinte ao usar o Outlook ou o Outlook na Web para acessar mensagens armazenadas em um arquivo morto expandido automaticamente.
 
 - Você pode acessar qualquer pasta na caixa de correio de arquivo morto, incluindo aquelas que foram movidas para a área de armazenamento expandida automaticamente.
 
 - Você pode pesquisar itens que foram movidos para uma área de armazenamento adicional somente pesquisando a própria pasta. Isso significa que você precisa selecionar a pasta de arquivo morto na lista de pastas para selecionar a opção **pasta atual** como o escopo de pesquisa. Da mesma forma, se uma pasta em uma área de armazenamento expandida contiver subpastas, você terá que pesquisar cada subpasta separadamente.
 
-- As contagens de itens no Outlook e nas contagens de leitura/não leitura (no Outlook e no Outlook na Web) em um arquivo morto expandido automaticamente podem não ser precisas.
+- Você pode excluir itens em uma subpasta que aponta para uma área de armazenamento expandida automaticamente, mas a própria pasta não pode ser excluída. Na verdade, quando o arquivamento de expansão automática está habilitado para uma caixa de correio, não é possível excluir pastas no arquivo morto principal ou em uma área de armazenamento expandida automaticamente.
 
-- Você pode excluir itens em uma subpasta que aponta para uma área de armazenamento expandida automaticamente, mas a própria pasta não pode ser excluída.
+- As contagens de itens no Outlook e nas contagens de leitura/não leitura (no Outlook e no Outlook na Web) em um arquivo morto expandido automaticamente podem não ser precisas.
 
 - Você não pode usar o recurso recuperar itens excluídos para recuperar um item que foi excluído de uma área de armazenamento expandida automaticamente.
 
@@ -102,9 +102,9 @@ Aqui estão alguns pontos a considerar ao usar o Outlook ou o Outlook na Web par
 
 Esta seção explica a funcionalidade entre o arquivamento de expansão automática e outros recursos de conformidade e controle de dados do Office 365.
 
-- **descoberta eletrônica:** Quando você usa uma ferramenta de descoberta eletrônica do Office 365, como a pesquisa de conteúdo ou descoberta eletrônica in-loco, as áreas de armazenamento adicionais em um arquivo estendido automático também são pesquisadas.
+- **descoberta eletrônica:** Quando você usa uma ferramenta de descoberta eletrônica do Office 365, como pesquisa de conteúdo, descoberta eletrônica principal ou descoberta eletrônica avançada, as áreas de armazenamento adicionais em um arquivo-expandido automático também são pesquisadas.
 
-- **Retenção:** Quando você coloca uma caixa de correio em espera usando ferramentas como retenção de litígio no Exchange Online ou políticas de retenção e retenção de ocorrências de descoberta eletrônica no centro de segurança e conformidade, o conteúdo localizado em um arquivo expandido automaticamente também é colocado em espera.
+- **Retenção:** Quando você coloca uma caixa de correio em espera usando ferramentas como retenção de litígio no Exchange Online ou em retenções e políticas de retenção no centro de segurança e conformidade, o conteúdo localizado em um arquivo compactado automaticamente também é colocado em espera.
 
 - **Gerenciamento de registros de mensagens (MRM):** Se você usar as políticas de exclusão do MRM no Exchange Online para excluir permanentemente os itens de caixa de correio expirados, os itens expirados localizados no arquivo morto expandido também serão excluídos.
 
