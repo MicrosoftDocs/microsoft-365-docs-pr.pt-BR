@@ -17,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Como usuário do Office 365, você pode exibir, liberar e excluir suas mensagens em quarentena (mensagens em que você é um destinatário e a filtragem de spam em quarentena colocou a mensagem como spam ou e-mail em massa). Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e de segurança.
-ms.openlocfilehash: 03c7ce474119ae5ff130b987b58d5130d53c33d6
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 32ae03c555742b9f08c272806464ed75585d08df
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42941400"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216899"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Localize e libere mensagens em quarentena como usuário do Office 365
 
@@ -66,7 +66,7 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
 
    - **ID da mensagem**
 
-   - **Nome da política**
+   - **Nome da política**: esta propriedade mostra a política que provocou a entrada da mensagem na quarentena. Você pode fornecer essa informação ao seu administrador.
 
    - **Tamanho**
 

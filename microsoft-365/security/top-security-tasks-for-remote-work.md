@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: d42760f0dbf38b72fe530a5670f3515bf3ba2f94
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081299"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225948"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -33,7 +33,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 - O Microsoft 365 E3 inclui o Enterprise Mobility + Security (EMS) E3 e o Azure AD P1
 - O Microsoft 365 E5 inclui o EMS E5 e o Azure AD P2
   
-||**Tarefa**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 e5**|
+||**Task**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 e5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1      |[Habilitar a MFA (autenticação multifator do Azure)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |duas     | [Proteção contra ameaças no Office 365](#2-protect-against-threats-in-office-365) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -45,7 +45,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 |8       |  [Registrar PCs no gerenciamento de dispositivos e exigir computadores compatíveis](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [Otimizar sua rede para conectividade de nuvem](#9-optimize-your-network-for-cloud-connectivity)  |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [Treinar usuários](#10-train-users) |    ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11 |[Introdução ao Microsoft Cloud app Security](#11-get-started-with-microsoft-cloud-app-security) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11 |[Introdução ao Microsoft Cloud app Security](#11-get-started-with-microsoft-cloud-app-security) |   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[Monitorar ameaças e tomar ações](#12-monitor-for-threats-and-take-action) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 
@@ -157,7 +157,7 @@ As políticas de proteção de aplicativos móveis do Intune criadas, junto com 
 
 ## <a name="8-enroll-pcs-into-device-management-and-require-compliant-pcs"></a>8: registrar os PCs no gerenciamento de dispositivos e exigir computadores compatíveis
 
-Há vários métodos para registrar os dispositivos de sua força de funcionários. Cada método depende da Propriedade do dispositivo (pessoal ou corporativo), do tipo de dispositivo (iOS, Windows, Android) e dos requisitos de gerenciamento (redefinições, afinidade, bloqueio). Isso pode levar algum tempo para ser classificado. Confira: [registrar dispositivos no Microsoft Intune](https://docs.microsoft.com/mem/intune/enrollment/). 
+Há vários métodos para registrar os dispositivos de sua força de funcionários. Cada método depende da propriedade (pessoal ou corporativa) do dispositivo, do tipo de dispositivo (iOS, Windows, Android) e dos requisitos de gerenciamento (redefinições, afinidade, bloqueio). Isso pode levar algum tempo para ser classificado. Confira: [registrar dispositivos no Microsoft Intune](https://docs.microsoft.com/mem/intune/enrollment/). 
 
 A maneira mais rápida de se começar é [Configurar o registro automático para dispositivos Windows 10](https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment). 
 
