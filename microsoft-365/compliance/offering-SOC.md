@@ -14,28 +14,28 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 80ee396d5a9862dd335118d8d4e8018214035f20
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 7cb065bb63bc30c4704abd3d4239fd80bca6d21e
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222043"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225904"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
 ## <a name="soc-1-2-and-3-reports-overview"></a>Visão geral dos relatórios SOC 1, 2 e 3
 
-Cada vez mais, as empresas terceirizam funções básicas, como o armazenamento de dados e o acesso a aplicativos, utilizando Provedores de Serviços de Nuvem (CSPs) e outras organizações de serviços. Em resposta, o American Institute of Certified Public Accountants (AICPA) desenvolveu a estrutura Service Organization Controls (SOC), um padrão de controles que protege a confidencialidade e a privacidade de informações armazenadas e processadas na nuvem. Ele está alinhado com o International Standard on Assurance Engagements (ISAE), o padrão de relatório de informações para organizações internacionais de serviço.
+Cada vez mais, as empresas terceirizam funções básicas, como o armazenamento de dados e o acesso a aplicativos, utilizando Provedores de Serviços de Nuvem (CSPs) e outras organizações de serviços. Em resposta, o American Institute of Certified Public Accountants (AICPA) desenvolveu a estrutura Service Organization Controls (SOC), um padrão de controles que protege a confidencialidade e a privacidade de informações armazenadas e processadas na nuvem. Esta estrutura está alinhada com o International Standard on Assurance Engagements (ISAE), o padrão de relatório para organizações internacionais de serviço.
 
-As auditorias de serviços baseadas na estrutura do SOC são divididas em duas categorias — SOC 1 e SOC 2 — que se aplicam aos serviços de nuvem da Microsoft dentro do escopo.
+As auditorias de serviço baseadas na estrutura do SOC se enquadram nas categorias do SOC 1 e do SOC 2 que se aplicam aos serviços de nuvem da Microsoft dentro do escopo.
 
 A auditoria do SOC 1, concebida para empresas CPA que auditam balanços financeiros, avalia a eficiência dos controles internos do CSP que afetam os relatórios financeiros de um cliente que utiliza os serviços de nuvem do provedor. Declaração sobre os Standards for Attestation Engagements (SSAE 18) e o International Standards for Assurance Engagements No. 3402 (ISAE 3402) são as normas sob as quais a auditoria é realizada e é a base do relatório do SOC 1.
 
 A auditoria do SOC 2 avalia a eficiência do sistema CSP com base no AICPA Trust Service Principles and Criteria. O Attest Engagement under Attestation Standards (AT) Section 101 é a base dos relatórios do SOC 2 e SOC 3.
 
-Ao concluir a auditoria do SOC 1 ou SOC 2, o auditor do serviço apresenta seu parecer em um relatório SOC 1 Type 2 ou SOC 2 Type 2, que descreve o sistema do CSP e avalia a legitimidade da descrição fornecida pelo CSP de seus controles. Ele também avalia se os controles do CSP foram projetados apropriadamente, se estavam em operação em determinada data e se funcionaram de forma efetiva durante um período específico.
+Ao concluir a auditoria do SOC 1 ou SOC 2, o auditor do serviço apresenta seu parecer em um relatório SOC 1 Tipo 2 ou SOC 2 Tipo 2, que descreve o sistema do CSP e avalia a legitimidade da descrição fornecida pelo CSP de seus controles. Ele também avalia se os controles do CSP foram projetados apropriadamente, se estavam em operação em determinada data e se funcionaram de forma efetiva durante um período específico.
 
-Os auditores também podem criar um relatório do SOC 3 — uma versão abreviada do relatório de auditoria SOC 2 Type 2 — para usuários que desejam ter uma garantia dos controles do CSP, mas não precisam de um relatório completo do SOC 2. O relatório do SOC 3 será concedido apenas se o CSP tiver um parecer de auditoria não qualificado para o SOC 2.
+Os auditores também podem criar um relatório do SOC 3 (uma versão abreviada do relatório de auditoria do SOC 2 Tipo 2) para usuários que desejam ter uma garantia dos controles do CSP, mas não precisam de um relatório completo do SOC 2. O relatório do SOC 3 será concedido apenas se o CSP tiver um parecer de auditoria não qualificado para o SOC 2.
 
 ## <a name="microsoft-and-soc-1-2-and-3-reports"></a>Relatórios da Microsoft e do SOC 1, 2 e 3
 
@@ -111,11 +111,11 @@ Os serviços de nuvem da Microsoft são auditados pelo menos anualmente, seguind
 Com os relatórios, os auditores podem comparar os resultados dos serviços de nuvem de negócios da Microsoft com seus próprios requisitos legais e regulatórios.
 
 - Você pode ver todos os relatórios do SOC pela [Plataforma de Confiança do Serviço](https://www.microsoft.com/trustcenter/STP/default.aspx).
-- Clientes Azure DevOps Service que não conseguem acessar a [Plataforma de Confiança do Serviço](https://www.microsoft.com/trustcenter/STP/default.aspx) podem enviar um email para o [Azure DevOps](mailto:AzureDevOpsSOCReport@microsoft.com), solicitando os relatórios do SOC 1 e do SOC 2. Esse email destina-se apenas a solicitar os relatórios do Azure DevOps.
+- Clientes Azure DevOps Service que não conseguem acessar a [Plataforma de Confiança do Serviço](https://www.microsoft.com/trustcenter/STP/default.aspx) podem enviar um email para o [Azure DevOps](mailto:AzureDevOpsSOCReport@microsoft.com), solicitando os relatórios do SOC 1 e SOC 2. Esse email destina-se apenas a solicitar os relatórios do Azure DevOps.
 
 **Com que frequência os relatórios do SOC para o Azure são emitidos?**
 
-Os relatórios do SOC para o Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e Microsoft Datacenters se baseiam em uma janela de execução de 12 meses (período de auditoria) com novos relatórios lançados por trimestre (o período termina em 31 de março e 30 de setembro). As cartas de pontes são emitidas em janeiro para cobrir o período de 1/10 – 31/12 e julho para cobrir o período de 1/4 – 30/6. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
+Os relatórios do SOC para o Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e Microsoft Datacenters se baseiam em uma janela de execução de 12 meses (período de auditoria) com novos relatórios lançados por trimestre (o período termina em 31 de março e 30 de setembro). As bridge letters (cartas-ponte) são emitidas por trimestre, normalmente na primeira semana de cada mês após o fim do trimestre. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
 
 **Preciso conduzir uma auditoria própria dos datacenters da Microsoft?**
 
@@ -131,7 +131,7 @@ O [SOC Toolkit for Service Organizations](https://aka.ms/soc-toolkit)é um recur
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de Conformidade](compliance-score-setup.md), selecione o modelo pré-configurado [SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) e o [modelo SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919) da lista suspensa **Template** para ajudar sua organização a atender aos requisitos deste regulamento.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudar você a compreender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de Conformidade](compliance-score-setup.md), selecione o modelo pré-configurado [SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) e o [modelo SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919) da lista suspensa **Template** para ajudar sua organização a atender aos requisitos deste regulamento.
 
 ## <a name="resources"></a>Recursos
 

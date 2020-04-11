@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204095"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216918"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Configurar políticas antispam no Office 365
 
@@ -39,7 +39,7 @@ Os elementos básicos de uma política antispam na EOP são:
 
 - **A regra de filtro de spam**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica) para uma política de filtro de spam.
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia as políticas antispam no Centro de Segurança e Conformidade:
+A diferença entre esses dois elementos não é óbvia quando você gerencia políticas antispam no Centro de Conformidade e Segurança:
 
 - Quando você cria uma política antispam no Centro de Conformidade e Segurança, você está, na verdade, criando uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, usando o mesmo nome para ambas.
 
@@ -280,7 +280,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
 3. Clique em **Editar política**.
 
-Para políticas antispam, as configurações disponíveis no submenu exibido são idênticas às descritas na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies).
+As configurações no submenu que aparece são idênticas às configurações disponíveis na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies).
 
 Para a política antispam padrão chamada **Política de filtragem de spam padrão**, a seção **Aplicada a** não está disponível (a política se aplica a todos), e não é possível renomear a política.
 
@@ -302,7 +302,7 @@ Não é possível desabilitar a política antispam padrão.
 
 ### <a name="set-the-priority-of-custom-anti-spam-policies"></a>Definir a prioridade das políticas antispam personalizadas
 
-Por padrão, as políticas antispam recebem uma prioridade com base na ordem em que foram criadas (políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
+Por padrão, as políticas antispam recebem uma prioridade baseada na ordem em que elas foram criadas (as políticas mais recentes são de prioridade mais baixa do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
 
 As políticas antispam personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão chamada **Política de filtro de spam padrão** tem o valor de prioridade **Menor**, e isso não pode ser alterado.
 
@@ -460,7 +460,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 Para visualizar regras de filtro de spam existentes, use a seguinte sintaxe:
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
 ```
 
 Para retornar uma lista de resumo de todas as regras de filtro de spam, execute este comando:
