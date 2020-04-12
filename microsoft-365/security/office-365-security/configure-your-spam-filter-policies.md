@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
-ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
+description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online e no Exchange Online Protection (EOP) autônomo.
+ms.openlocfilehash: 3f71a9c9a62e409d4a54c01523270fb10a723a96
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43216918"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43231011"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Configurar políticas antispam no Office 365
 
@@ -495,7 +495,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>Usar o PowerShell para modificar políticas de filtro de spam
 
-Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de malware no PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
+Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de spam no Windows PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
 
 - A opção _MakeDefault_ que transforma a política especificada em política padrão (aplicada a todos, sempre com a **Menor** prioridade, e que pode ser excluída) só está disponível quando você modifica uma política de filtro de spam no PowerShell.
 
