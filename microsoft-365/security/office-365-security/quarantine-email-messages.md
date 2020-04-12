@@ -18,12 +18,12 @@ ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
 description: A quarentena no Office 365 contém mensagens potencialmente perigosas ou indesejadas. Administradores e usuários finais podem acessar a quarentena.
-ms.openlocfilehash: a11b4a0d86cfc5f74636d3a9f89cf598320d1ebf
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: d3db036210886f7a4607f477bba2cf9f450ed90c
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42940952"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230927"
 ---
 # <a name="quarantine-in-office-365"></a>Quarentena no Office 365
 
@@ -31,7 +31,7 @@ Se você for um cliente do Office 365 com caixas de correio no Exchange Online o
 
 As políticas Antimalware automaticamente colocarão uma mensagem em quarentena se *qualquer* anexo tiver malware. Para obter mais informações, consulte [Configure anti-malware Policies in Office 365](configure-anti-malware-policies.md).
 
-Por padrão, o anti-spam policia as mensagens de phishing e entrega mensagens de email em massa e spam para a pasta lixo eletrônico do usuário. No entanto, você também pode criar e personalizar políticas antispam para colocar em quarentena spam e mensagens de email em massa. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+Por padrão, as políticas antispam quarentena mensagens de phishing e entregam mensagens de email em massa e spam para a pasta lixo eletrônico do usuário. No entanto, você também pode criar e personalizar políticas antispam para colocar em quarentena spam e mensagens de email em massa. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
 Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena:
 

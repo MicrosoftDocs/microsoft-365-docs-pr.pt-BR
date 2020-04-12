@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 86aa69b813641654a0f4b5e2b4049358aeace4df
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: a1a78afe7480ed9f68f8cd893c00876872317785
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193477"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230975"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -51,7 +51,7 @@ Com os links seguros de ATP habilitados, se um usuário clicar em um link em um 
     
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir: <br>
 
-    |Função  |Onde/como a atribuição  |
+    |Role  |Onde/como a atribuição  |
     |---------|---------|
     |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
     |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
