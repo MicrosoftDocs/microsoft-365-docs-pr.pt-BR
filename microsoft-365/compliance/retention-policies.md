@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: ffbc8026b8a0b1f85916c7697625bfa0935e275f
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: d06ad19ab247384f800b3b38c561ad8eb33d4066
+ms.sourcegitcommit: 9cea48e1b26e0465c00f8d053080cba1143970c2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189056"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237638"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -301,7 +301,7 @@ Você pode usar uma política de retenção para manter as conversas e as mensag
 As mensagens do canal e do chat do Teams não são afetadas pelas políticas de retenção aplicadas às caixas de correio de usuário ou do grupo nos locais de grupos do Exchange ou do Office 365. Mesmo que as mensagens do canal e do chat do Teams estejam armazenadas no Exchange, elas são afetadas apenas por uma política de retenção aplicada ao local do Teams.
 
 > [!NOTE]
-> Se um usuário estiver incluído em uma política de retenção ativa que mantém os dados do Teams, não será permitida a exclusão de uma caixa de correio desse usuário, pois o armazenamento de dados deve ser mantido. Para excluir uma caixa de correio de um usuário, o administrador deve excluir primeiro o usuário da política de retenção.
+> Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Teams e você excluir uma caixa de correio de um usuário incluído nessa política para reter os dados, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
   
 Depois que uma política de retenção é atribuída a uma equipe, chat e canal, as mensagens podem seguir um destes dois caminhos:
 
