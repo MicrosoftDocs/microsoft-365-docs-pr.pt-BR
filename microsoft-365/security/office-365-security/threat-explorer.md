@@ -16,16 +16,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: c854021eaf6c5d252f36961fde427c5532ba1ef6
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198378"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284243"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
-Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças**e escolha as detecções do **Explorer** ou **em tempo real**.
+Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças**e escolha as detecções do **Explorer** _ou_ **em tempo real**.
 
 |||
 |---|---|
@@ -157,7 +157,7 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
     O relatório é atualizado para mostrar duas tabelas de URL diferentes na guia URL no relatório:
 
-   - As **principais URLs** são as URLs contidas nas mensagens que foram filtradas para baixo e a ação de entrega de emails conta para cada URL. No modo de exibição email de phishing, essa lista normalmente conterá URLs legítimas. Os invasores incluem uma mistura de URLs boas e ruins nas mensagens para tentar obtê-las, mas eles farão com que os links mal-intencionados sejam mais interessantes para o usuário clicar. A tabela de URLs é classificada pela contagem total de emails (Observação: esta coluna não é mostrada para simplificar o modo de exibição).
+   - As **principais URLs** são as URLs contidas nas mensagens que foram filtradas para baixo e a ação de entrega de emails conta para cada URL. No modo de exibição email de phishing, essa lista normalmente conterá URLs legítimas. Os invasores incluem uma mistura de URLs boas e ruins nas mensagens para tentar obtê-las, mas eles farão com que os links mal-intencionados sejam mais interessantes para o usuário clicar. A tabela de URLs é classificada pela contagem total de emails (mas observe que essa coluna está oculta para simplificar o modo de exibição).
 
    - Os **principais cliques** são as URLs encapsuladas de links seguros que foram clicados, classificados por contagem de clique total (essa coluna também não é exibida para simplificar o modo de exibição). Total de contagens por coluna indicam os links seguros clique em contagem de veredicto para cada URL clicada. No modo de exibição email de phishing, essas URLs são mais frequentes ou mal-intencionadas, mas podem incluir URLs que não são ameaças, mas que estão em mensagens de phishing. Os cliques de URL em links não ajustados não aparecerão aqui.
 
@@ -165,7 +165,10 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
    ![URLs do Explorer que foram bloqueadas](../../media/ExplorerPhishClickVerdictURLs.png)
 
-   Selecione uma URL para exibir informações mais detalhadas. **Observação**: na caixa de diálogo de submenu URL, a filtragem em mensagens de email é removida para mostrar a exibição completa da exposição da URL em seu ambiente. Isso permite que você filtre mensagens de email no Explorer para as quais você está preocupado, encontre URLs específicas que são ameaças potenciais e, em seguida, expanda a compreensão da exposição de URL no seu ambiente (por meio da caixa de diálogo de detalhes da URL) sem ter que adicionar filtros de URL à própria exibição do Explorer.
+   Selecione uma URL para exibir informações mais detalhadas.
+   
+   > [!NOTE]
+   > Na caixa de diálogo de submenu URL, a filtragem em mensagens de email é removida para mostrar a exibição completa da exposição da URL em seu ambiente. Isso permite que você filtre mensagens de email no Explorer para as quais você está preocupado, encontre URLs específicas que são ameaças potenciais e, em seguida, expanda a compreensão da exposição de URL no seu ambiente (por meio da caixa de diálogo de detalhes da URL) sem ter que adicionar filtros de URL à própria exibição do Explorer.
 
 ## <a name="review-email-messages-reported-by-users"></a>Analisar mensagens de email relatadas por usuários
 
@@ -175,7 +178,7 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 
 2. No menu **Exibir** , escolha**envios**de **email** > . (Anteriormente, isso era chamado **de relatado pelo usuário**.)
 
-   ![Menu Exibir para Explorer](../../media/ExplorerViewMenuEmailUserReported.png)
+   ![Menu Exibir para Explorer](../../media/explorer-view-menu-email-user-reported.png)
 
 3. Clique em **remetente**e, em seguida, escolha**tipo de relatório** **básico** > .
 
@@ -237,4 +240,4 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 - Um modo de exibição de **todos os emails** está disponível no **Explorador de ameaças** (e não está no relatório de **detecções em tempo real** ).
 - Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças**.
 
-Para obter mais detalhes, consulte a [Descrição do serviço de ATP do Office 365: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+Para obter mais detalhes, consulte a [Descrição do serviço do Office 365 ATP: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

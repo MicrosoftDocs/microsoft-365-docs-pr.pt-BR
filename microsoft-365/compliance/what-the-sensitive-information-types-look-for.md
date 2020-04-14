@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 80 inclui tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: bd74551b7e8b2d659724a1222e115a479db76ec8
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: aa3a08961ccad92c9986db16c1d8180d9b0cd17e
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894292"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240274"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>O que os tipos de informações confidenciais procuram
 
@@ -1087,7 +1087,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Identiteit
 - Registratie
 - Identificatie 
-- Carte d’identité 
+- D'identité carte 
 - numéro d'immatriculation
 - numéro d'identification
 - identité 
@@ -2104,7 +2104,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - expiration date
 - exp date
 - expiry date
-- date d’expiration
+- Data de d'expiration
 - date d'exp
 - date expiration
 - bank card
@@ -2421,7 +2421,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+None
 
    
 ## <a name="eu-debit-card-number"></a>Número de cartão de débito da UE
@@ -2838,12 +2838,32 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
    
 ## <a name="finland-passport-number"></a>Número de Passaporte da Finlândia
 
-Combinação de formato de nove letras e dígitos combinação de padrões de nove letras e dígitos: duas letras (não diferencia maiúsculas de minúsculas) sete dígitos soma de verificação sem definição uma política de DLP é de 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de um proximidade de 300 caracteres: a expressão regular Regex_finland_passport_number localiza o conteúdo que corresponde ao padrão.
-Uma palavra-chave de Keyword_finland_passport_number for encontrada.
+### <a name="format"></a>Formatar
+Uma combinação de nove letras e dígitos
+
+### <a name="pattern"></a>Padrão
+Combinação de nove letras e dígitos: duas letras (não diferencia maiúsculas de minúsculas) sete dígitos
+
+### <a name="checksum"></a>Soma de verificação
+Não
+
+### <a name="definition"></a>Definição
+Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular Regex_finland_passport_number localiza o conteúdo que corresponde ao padrão.
+- Uma palavra-chave de Keyword_finland_passport_number for encontrada.
 <!-- Finland Passport Number -->
-<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
+```xml
+<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
+  <Pattern confidenceLevel="75">
+     <IdMatch idRef="Regex_finland_passport_number"/>
+     <Match idRef="Keyword_finland_passport_number"/>
+  </Pattern>
 </Entity>
-Palavras-chave Keyword_finland_passport_number Passport Passi
+```
+### <a name="keywords"></a>Palavras-chave
+- Keyword_finland_passport_number
+- Passaport
+- Passi
    
 ## <a name="france-drivers-license-number"></a>Número de carteira de motorista da França
 
@@ -2924,7 +2944,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+None
    
 ## <a name="france-passport-number"></a>Número de passaporte da França
 
@@ -3618,7 +3638,7 @@ O padrão deve incluir todos os seguintes itens:
 
 O formato de cada país é um pouco diferente. O tipo de informação confidencial do IBAN cobre estes 60 países:
 
-AD, AE, Al, at, AZ, BA, be, BG, BH, ch, CR, Cy, cz, de, DK, do, EE, es, Fi, fo, FR, GB, GE, GI, GL, GR, HR, Hu, IE, Il, se,-, KZ, lb, li, o (a) e o (a) , NL, no, pl, pt, Ro, RS, SA, se, si, SK, SM, TN, TR, VG
+AD, AE, Al, at, AZ, BA, or, BG, BH, ch, CR, Cy, cz, de, DK, do, EE, es, Fi, fo, FR, GB, GE, GI, GL, GA, HR, Hu, IE, Il, is, it, kW, KZ, lb, li, lt, Lu, LV, MC, MD, me, MK, Sr, MT, MU, NL, não, pl, pt,, RS, SK, SM, TN
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -3640,7 +3660,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+None
 
    
 ## <a name="ip-address"></a>Endereço IP
@@ -4994,7 +5014,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+None
 
 ## <a name="sql-server-connection-string"></a>Cadeia de caracteres de conexão do SQL Server
 

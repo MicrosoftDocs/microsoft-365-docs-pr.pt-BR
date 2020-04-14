@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 275fedf7bf4e52320b769689516ad39a31c63ea1
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 04fb2b0c17f695c41df2f8b1277c7918054ae9fe
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105730"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240230"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
@@ -38,14 +38,19 @@ ms.locfileid: "43105730"
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Definir a política de expiração de senha para usuários individuais
 
-Um administrador global para um serviço de nuvem da Microsoft pode usar o módulo Microsoft Azure AD para Windows PowerShell para definir senhas que não expirem para usuários específicos. Você também pode usar os cmdlets do Windows PowerShell para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
+Um administrador global para um serviço de nuvem da Microsoft pode usar o PowerShell do Azure Active Directory para Graph para definir senhas que não expirem para usuários específicos. Você também pode usar os cmdlets do AzureAD para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
 
 Este guia se aplica a outros provedores, como o Intune e o Office 365, que também dependem do Azure AD para serviços de identidade e diretório. A expiração da senha é a única parte da política que pode ser alterada.
+
+Para obter mais informações sobre o Azure AD PowerShell para Graph, confira [Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 > [!NOTE]
 > Somente senhas para contas de usuário que não estão sincronizadas por meio da sincronização de diretórios podem ser configuradas para não expirar. Para obter mais informações sobre a sincronização de diretórios, consulte [Connect ad with Azure ad](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
 ### <a name="how-to-check-the-expiration-policy-for-a-password"></a>Como verificar a política de expiração de uma senha
+
+Para obter mais informações sobre o comando Get-AzureADUser no módulo AzureAD, consulte o artigo de referência [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
+
 Execute um dos seguintes comandos:
 
 - Para ver se a senha de um único usuário está definida como nunca expirar, execute o seguinte cmdlet usando o UPN (por exemplo, *User@contoso.onmicrosoft.com*) ou a ID de usuário do usuário que você deseja verificar:

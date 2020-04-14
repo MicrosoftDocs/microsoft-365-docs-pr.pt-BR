@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: adf9d41fd528b2146ae3b3ee6f61390d61deaabe
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7d54c035d9bb7c9ecc5a543fb8f37749bf9437e7
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409576"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284266"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -44,13 +44,13 @@ No centro de conformidade de &amp; segurança do Office 365, ao criar uma polít
     
   - Para email no Outlook na Web e no Outlook 2013 e posterior, a dica de política aparece na parte superior de uma mensagem acima dos destinatários enquanto a mensagem está sendo redigida.
     
-  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em **** ![seguida, escolher o](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) ícone painel de informações de informações no canto superior direito da página para abrir o painel de detalhes. 
+  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em **Information** ![seguida, escolher o](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) ícone painel de informações de informações no canto superior direito da página para abrir o painel de detalhes. 
     
   - Para documentos do Excel, PowerPoint e Word que são armazenados em um site do onedrive for Business ou site do SharePoint Online incluído na política de DLP, a dica de política é exibida na barra de mensagens e no modo de exibição Backstage ( \> **informações**do menu de **arquivo** ).
     
 ## <a name="add-user-notifications-to-a-dlp-policy"></a>Adicionar notificações de usuário a uma política de DLP
 
-Ao criar uma política de DLP, você pode habilitar as **notificações do usuário**. Quando habilitada, o Microsoft 365 envia notificações por email e dicas de política. Você pode personalizar quem os emails de notificação são enviados para o, o texto de email e o texto de dica de política.
+Ao criar uma política de DLP, você pode habilitar as **notificações do usuário**. Quando as notificações de usuário estão habilitadas, o Microsoft 365 envia notificações por email e dicas de política. Você pode personalizar quem os emails de notificação são enviados para o, o texto de email e o texto de dica de política.
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
@@ -68,13 +68,13 @@ Ao criar uma política de DLP, você pode habilitar as **notificações do usuá
     
 6. Para escolher os locais que você deseja que a política de DLP proteja, siga um destes procedimentos:
     
-  - Escolha **todos os locais no Office 365** \> **em seguida**.
+   - Escolha **todos os locais no Office 365** \> **em seguida**.
     
-  - Escolha **deixe-me escolher locais** \> específicos **em seguida**.
+   - Escolha **deixe-me escolher locais** \> específicos **em seguida**.
     
-    Para incluir ou excluir um local inteiro, como todos os emails do Exchange ou todas as contas do OneDrive, altere ou desative o **status** desse local. 
+   Para incluir ou excluir um local inteiro, como todos os emails do Exchange ou todas as contas do OneDrive, altere ou desative o **status** desse local. 
     
-    Para incluir apenas sites específicos do SharePoint ou contas do OneDrive, altere o **status** para ativado e clique nos links em **incluir** para escolher sites ou contas específicos. 
+   Para incluir apenas sites específicos do SharePoint ou contas do OneDrive, altere o **status** para ativado e clique nos links em **incluir** para escolher sites ou contas específicos. 
     
 7. Escolha **usar configurações** \> avançadas **próximo**.
     
@@ -120,7 +120,7 @@ Você pode criar uma notificação de email personalizada em vez de enviar a not
   
 Você também pode usar os tokens a seguir para ajudar a personalizar a notificação por email. Esses tokens são variáveis que são substituídas por informações específicas na notificação que é enviada.
 
-|**Token**|**Descrição**|
+|**Geração**|**Descrição**|
 |:-----|:-----|
 |%% AppliedActions%%  <br/> |As ações aplicadas ao conteúdo.  <br/> |
 |%% ContentURL%%  <br/> |A URL do documento no site do SharePoint Online ou do OneDrive for Business.  <br/> |
@@ -166,7 +166,7 @@ Quando um documento em um site do OneDrive for Business ou do SharePoint Online 
     
 2. Se a regra bloquear o acesso ao documento, o ícone de bloqueado aparece.
     
-![Ícones de dica de política em documentos em uma conta do OneDrive](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
+   ![Ícones de dica de política em documentos em uma conta do OneDrive](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
   
 Para executar uma ação em um documento, você pode selecionar um \> item escolha o ícone](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) do painel de informações de **informações** ![no canto superior direito da página para abrir a \> **dica de política de exibição**do painel de detalhes.
   
