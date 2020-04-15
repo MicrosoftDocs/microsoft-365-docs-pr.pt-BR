@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure os navegadores da web e os dispositivos de borda para executar bypass de tráfego dos locais confiáveis do Office 365.
-ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066678"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504074"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Etapa 4: Configurar o bypass de tráfego
 
@@ -54,6 +54,13 @@ Os dispositivos de borda incluem firewalls, Interrupção e Inspeção de SSL, d
 
 Observe que você está apenas ignorando o processamento normal de segurança de rede e proxy do tráfego para os pontos de extremidade da categoria Otimizar e Permitir do Microsoft 365. Todo o outro tráfego geral da Internet será intermediado por proxy e estará sujeito ao processamento existente de segurança da rede.
 
+## <a name="optimizing-traffic-for-remote-workers-that-use-vpn-connections"></a>Otimizando o tráfego para funcionários remotos que usam conexões VPN
+
+As conexões VPN (rede virtual privada) são comumente usadas por funcionários remotos para acessar os recursos na intranet de uma organização. Uma conexão VPN convencional roteia todo o tráfego, incluindo o tráfego da Internet, para a intranet da organização. O tráfego de Internet é encaminhado para a rede de borda da organização e dispositivos de processamento de pacotes. Esse tráfego está sujeito a atrasos de viagens e processamentos que podem reduzir drasticamente o desempenho e afetar a produtividade dos funcionários remotos. 
+
+O tunelamento dividido é a capacidade de uma conexão VPN para direcionar o tráfego especificado pela Internet, em vez de enviá-lo pela VPN para a sua intranet. Para obter o melhor desempenho para funcionários remotos a serviços essenciais do Microsoft 365, como Teams, SharePoint Online e Exchange Online, configure suas conexões VPN de túnel dividido para enviar o tráfego para otimizar os pontos de extremidade do Office 365 diretamente pela Internet. 
+
+Para informações mais detalhadas, confira [Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel).
 
 Como um ponto de verificação provisório, é possível ver os [critérios de saída](networking-exit-criteria.md#crit-networking-step4) para esta etapa.
 
