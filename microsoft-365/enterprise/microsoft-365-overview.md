@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175185"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504086"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -84,15 +84,14 @@ Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/micros
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Evite o fim do suporte para clientes e servidores do Windows 7 e do Office 2010
 
-Os seguintes produtos chegaram ao fim do suporte em **14 de janeiro de 2020**:
-
-- [Windows 7](https://aka.ms/win7upgrade)
+O [Windows 7](https://aka.ms/win7upgrade) atingiu o fim do suporte em **14 de janeiro de 2020**.
 
 Os seguintes produtos atingirão o fim do suporte em **13 de outubro de 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+
+O [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) atingirá o fim do suporte em **13 de abril de 2021**.
 
 Para obter um resumo visual das opções de atualização, migração e mover para nuvem para esses produtos, confira o [Pôster sobre o fim do suporte](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 

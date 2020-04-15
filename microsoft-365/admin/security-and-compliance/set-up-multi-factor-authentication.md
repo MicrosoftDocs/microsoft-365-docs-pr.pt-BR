@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Aprenda a usar padrões de segurança para configurar a autenticação multifator para usuários do Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 7e48f72f2fd8cfc5042bd15f994cc98bfa5fca8c
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204017"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503966"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -37,6 +37,7 @@ ms.locfileid: "43204017"
 Todas as novas assinaturas do Office 365 para empresas ou do Microsoft 365 Business terão automaticamente os padrões de segurança ativados. Isso significa que cada usuário terá que configurar a MFA e instalar o aplicativo Microsoft Authenticator em seu dispositivo móvel. Para obter mais informações, confira [Configurar a verificação em duas etapas do Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).  
 
 As nove funções de administrador a seguir serão necessárias para executar uma autenticação adicional sempre que entrarem:
+
 - Administrador global
 - Administrador do SharePoint
 - Administrador do Exchange
@@ -47,7 +48,7 @@ As nove funções de administrador a seguir serão necessárias para executar um
 - Administrador de usuários
 - Administrador de Autenticação
 
-Todos os outros usuários serão solicitados a executar uma autenticação adicional quando necessário. Para saber mais, confira [Quais são os padrões de segurança?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+Todos os outros usuários serão solicitados a executar uma autenticação adicional quando necessário. Para obter mais informações, consulte [o que são padrões de segurança?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 > [!NOTE]
 > Você deve ser um administrador global do Office 365 para configurar ou modificar a MFA. <br><br>
@@ -60,9 +61,8 @@ Se você já configurou a MFA com políticas de linha de base, [será necessári
 
 ## <a name="manage-security-defaults"></a>Gerenciar padrões de segurança.
 
-1. Acesse o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822) com credenciais de administrador global.
-2. Vá para [Azure Active Directory Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-
+1. Entre no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822) com as suas credenciais de administrador global.
+2. Vá para [Propriedades do Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
 3. Na parte inferior da página, clique em **Gerenciar padrões de segurança**.
 4. Escolha **Sim** para habilitar os padrões de segurança ou **não** para desabilitar os padrões de segurança e, em seguida, escolha **salvar**.
 
@@ -74,9 +74,9 @@ Se você já configurou a MFA com políticas de linha de base, [será necessári
 
 3. Na **| segurança | Página Introdução** , escolha **acesso condicional**. 
 
-4. Na página **de políticas de acesso condicional do portal do Azure** escolha cada política de linha de base que esta **ligada**, e configure-as para **desligada**.
+4. Na página **acesso condicional-diretivas** , escolha cada diretiva de linha de base que está **ativada**e defina-as como **desativado**.
 5. Vá para a página [Azure Active Directory Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-6. Na parte inferior da página, escolha **gerenciar padrões de segurança**e, no painel **habilitar padrões de segurança**, defina **habilite o padrão de segurança** alterne para **Sim**. 
+6. Na parte inferior da página, escolha **gerenciar padrões de segurança**e, no painel **habilitar padrões de segurança** , defina **habilitar padrões de segurança** alterne para **Sim**e, em seguida, escolha **salvar**. 
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>Habilitar a autenticação moderna para sua organização
 
@@ -84,12 +84,13 @@ Todos os aplicativos cliente do Office 2016 oferecem suporte à MFA por meio do 
 
 1. Para habilitar a autenticação moderna, no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione **Configurações**\>**Configurações** e na guia **Serviços**, escolha **Autenticação moderna** na lista.
 
-2. Marque a caixa **Habilitar autenticação moderna**, no painel da **Autenticação moderna**. 
+2. Marque a caixa **habilitar autenticação moderna (recomendada)** no painel **autenticação moderna** e, em seguida, escolha **salvar alterações**. 
 
     ![Painel de autenticação moderna com a caixa de seleção Habilitar marcada.](../../media/enablemodernauth.png)
     
 > [!IMPORTANT]
 > A partir de agosto de 2017, todos os novos locatários do Office 365, que inclui o Skype for Business e o Exchange Online, têm autenticação moderna habilitada por padrão. Para verificar o status de autenticação moderna do Skype for Business Online, você pode usar o Skype for Business via PowerShell com credenciais de administrador global. Execute Get-CsOAuthConfiguration para verificar o resultado de -ClientADALAuthOverride. Se -ClientADALAuthOverride for ‘Allowed’, a autenticação moderna está ativada.
+
 Para verificar o status do seu MA no Exchange Online, visite [Habilitar a autenticação moderna no Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).
 
 ## <a name="related-articles"></a>Artigos relacionados

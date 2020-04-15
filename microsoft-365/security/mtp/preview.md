@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f04d2e587a55a680a65425b34a88896466e09be3
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113454"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503978"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -54,8 +54,9 @@ Ative a configuração de experiência de visualização para estar entre o prim
 
 Você saberá que os recursos de visualização estão ativados ao ver que a caixa de seleção **ativar recursos de visualização** está marcada. 
 
-
-
 ## <a name="preview-features"></a>Visualização prévia de recursos
-Esta seção será atualizada com uma lista de recursos que estão em versão prévia à medida que eles se tornarem disponíveis. 
+Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
 
+- **[Detecções personalizadas](custom-detections-overview.md)** — use as consultas de busca avançada para criar regras que pesquisem automaticamente a atividade de violação e outros itens de interesse em intervalos regulares. As correspondências com as consultas disparam alertas e as ações de resposta especificadas.
+
+- **[Tabelas de identidade e aplicativo](advanced-hunting-schema-tables.md)** — obtenha visibilidade em eventos de autenticação, consultas do Active Directory e atividades relacionadas a aplicativos com as tabelas [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)e [AppFileEvents](advanced-hunting-appfileevents-table.md) no esquema de caça avançada.

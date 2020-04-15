@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 0558709c729a0ca941124ac3e72762f4b973432d
-ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
+ms.openlocfilehash: 4ce9e06bb98fb391bb9eb5ffa01491e0c85eba1f
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43216882"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240296"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -95,7 +95,11 @@ Os rótulos são ordenados para avaliação de acordo com a posição especifica
 
 ## <a name="dont-configure-a-parent-label-to-be-applied-automatically-or-recommended"></a>Não configure uma etiqueta pai para ser aplicada automaticamente ou recomendada
 
-Lembre-se de que você não pode aplicar um rótulo pai (um rótulo com sub-rótulos) ao conteúdo. Certifique-se de não configurar uma etiqueta pai para aplicação automática ou para a opção recomendada, pois a etiqueta pai não será aplicada ao conteúdo em aplicativos do Office que usam o cliente de rotulagem unificada da Proteção de Informações do Azure. Confira mais informações em rótulos de pai e sub-rótulos[Sub-rótulos (agrupamento de rótulos)](sensitivity-labels.md#sublabels-grouping-labels).
+Lembre-se de que você não pode aplicar um rótulo pai (um rótulo com sub-rótulos) ao conteúdo. Certifique-se de não configurar um rótulo pai para ser aplicado automaticamente ou recomendado nos aplicativos do Office, e não clique em um rótulo pai para uma política de etiquetagem automática. Se o fizer, o rótulo principal não será aplicado ao conteúdo.
+
+Para usar a rotulagem automática com subrótulos, certifique0-se de publicar o rótulo pai e o subrótulo.
+
+Confira mais informações em rótulos de pai e sub-rótulos[Sub-rótulos (agrupamento de rótulos)](sensitivity-labels.md#sublabels-grouping-labels).
 
 ## <a name="how-to-configure-auto-labeling-for-office-apps"></a>Como configurar rotulagem automática para aplicativos do Office
 
