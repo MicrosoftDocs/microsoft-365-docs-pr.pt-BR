@@ -16,21 +16,21 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: a67d71c16f93cf8872646c5bbeb072f8b5f07935
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Use rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
+ms.openlocfilehash: 27accc57bce0b5597836e7683cf5b28d0fa9b942
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106149"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240306"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Para realizar seus trabalhos, as pessoas em sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo deixa de estar protegido por um firewall, podendo circular em qualquer lugar, entre dispositivos, aplicativos e serviços. E quando em roaming, é importante que esse processo seja feito de modo seguro e protegido, atendendo às políticas de conformidade dos negócios da organização.
+Para realizar o trabalho, as pessoas da sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo não fica mais atrás de um firewall, ele pode circular em qualquer lugar, em dispositivos, aplicativos e serviços. E quando estiver em roaming, você quer fazê-lo de uma maneira segura e protegida que atenda às políticas de negócios e conformidade da sua organização.
 
-Use rótulos de confidencialidade da estrutura de Proteção de Informações da Microsoft permitem a classificação e proteção dos dados da sua organização, enquanto garante que a produtividade e a capacidade de colaboração do usuário não sejam prejudicadas.
+Os rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft permitem classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas.
 
 Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na guia **Página Inicial** na faixa de opções. Neste exemplo, o rótulo aplicado exibe na barra de status:
 
@@ -49,8 +49,6 @@ Você pode usar rótulos de confidencialidade para:
 
 - **Proteja o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Para obter uma lista de aplicativos com suporte, confira [Uso de rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
 
-- **Evitar que conteúdo confidencial saia de sua organização em dispositivos executando o Windows**, usando a proteção de pontos de extremidade no Microsoft Intune. Depois que um rótulo de confidencialidade for aplicado ao conteúdo que está em um dispositivo do Windows, a proteção de ponto de extremidade pode evitar que o conteúdo seja copiado para um aplicativo de terceiros, como o Twitter ou o Gmail. Ou de ser copiado para armazenamento removível, como uma unidade USB.
-
 - **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em serviços e aplicativos de terceiros, como SalesForce, Box ou Dropbox, mesmo que o aplicativo ou serviço de terceiros não leia nem ofereça suporte a rótulos de confidencialidade.
 
 - **Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros.** Usando o SDK de Proteção de informações da Microsoft, os aplicativos e os serviços de terceiros podem ler os rótulos de confidencialidade e aplicar as configurações de proteção.
@@ -61,7 +59,7 @@ Em todos esses casos, os rótulos de confidencialidade no Microsoft 365 podem aj
 
 ## <a name="what-a-sensitivity-label-is"></a>O que é um rótulo de confidencialidade
 
-Quando você atribui um rótulo de confidencialidade a um documento ou email, é como um carimbo que aplicado ao conteúdo que é:
+Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso é como um carimbo aplicado ao conteúdo, qual seja:
 
 - **Personalizável.** Você pode criar categorias para diferentes níveis de conteúdo confidencial em sua organização, como Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
 
@@ -98,9 +96,6 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     Comprimentos de cadeias de caracteres: as marcas d' água estão limitadas a 255 caracteres. Os cabeçalhos e rodapés estão limitados a 1024 caracteres, exceto no Excel. O Excel tem um limite total de 255 caracteres para cabeçalhos e rodapés, mas esse limite inclui caracteres que não estão visíveis, como códigos de formatação. Se esse limite for alcançado, a cadeia de caracteres inserida não será exibida no Excel.
 
-- **Evitar a perda de dados** ativando o Endpoint Protection no Intune. Se o conteúdo confidencial for baixado, você pode ajudar a evitar a perda de dados de dispositivos Windows. Por exemplo, não é possível copiar o conteúdo rotulado para o Dropbox, Gmail ou para uma unidade USB. Para que seus rótulos de confidencialidade possam usar a proteção de informações do Windows (WIP), primeiro é necessário criar uma política de proteção de aplicativos no portal do Azure. 
-    
-    Para obter mais informações sobre as configurações de**ponto de extremidade de prevenção contra perda de dados **, quando você cria ou edita um rótulo de confidencialidade, incluindo pré-requisitos importantes, consulte [Como a proteção de informações do Windows protege arquivos com um rótulo de confidencialidade](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553).
 
 - **Proteja o conteúdo em contêineres, como sites e grupos**, ao optar pela visualização do [uso de rótulos de confidencialidade no Microsoft Teams, em grupos do Office 365 e em sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
     
@@ -124,11 +119,11 @@ Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sen
 
 ### <a name="sublabels-grouping-labels"></a>Sub-rótulos (agrupamento de rótulos)
 
-Com os sub-rótulos, você pode agrupar um ou mais rótulos abaixo de um rótulo pai que o usuário verá em um aplicativo do Office. Por exemplo, em Confidencial, sua organização pode usar várias etiquetas diferentes para tipos específicos dessa classificação. Neste exemplo, o rótulo pai Confidencial é simplesmente um rótulo de texto sem as configurações de proteção e por ser um sub-rótulo, não pode ser aplicado ao conteúdo. Em vez disso, os usuários deverão escolher Confidencial para visualizar os sub-rótulos e, em seguida, eles podem escolher um sub-rótulo para aplicar o conteúdo.
+Com os sub-rótulos, você pode agrupar um ou mais rótulos abaixo de um rótulo pai que o usuário verá em um aplicativo do Office. Por exemplo, em Confidencial, sua organização pode usar várias etiquetas diferentes para tipos específicos dessa classificação. Nesse exemplo, o rótulo pai confidencial é simplesmente um rótulo de texto sem as configurações de proteção, e por ser um subrótulo, não pode ser aplicado ao conteúdo. Em vez disso, os usuários deverão escolher Confidencial para visualizar os sub-rótulos e, em seguida, eles podem escolher um sub-rótulo para aplicar o conteúdo.
 
-Os sub-rótulos são simplesmente uma maneira de apresentar as etiquetas aos usuários em grupos lógicos. Os sub-rótulos não herdam as configurações da sua etiqueta pai. Quando você publica um sub-rótulo para um usuário, esse usuário pode aplicá-lo ao conteúdo, mas não pode aplicar apenas o rótulo pai.
+Os sub-rótulos são simplesmente uma maneira de apresentar as etiquetas aos usuários em grupos lógicos. Os subrótulos não herdam nenhuma configuração do rótulo pai. Quando você publica um sub-rótulo para um usuário, esse usuário pode aplicá-lo ao conteúdo, mas não pode aplicar apenas o rótulo pai.
 
-Não escolha um rótulo pai como rótulo padrão ou configure um rótulo pai para ser aplicado automaticamente ou recomendado, pois a etiqueta pai não será aplicada ao conteúdo em aplicativos do Office que usam o cliente de rotulagem unificada da Proteção de Informações do Azure.
+Não escolha um rótulo pai como rótulo padrão nem configure-o para ser aplicado automaticamente (ou recomendado). Se o fizer, o rótulo principal não será aplicado ao conteúdo.
 
 Exemplo de como os sub-rótulos são exibidos para os usuários:
 
@@ -138,7 +133,7 @@ Exemplo de como os sub-rótulos são exibidos para os usuários:
 
 Se você excluir um rótulo de confidencialidade do centro de administração, o rótulo não será removido automaticamente do conteúdo, e todas as configurações de proteção continuarão impostas ao conteúdo que tinha o rótulo aplicado.
 
-Se você editar um rótulo de confidencialidade, a versão do rótulo que foi aplicada ao conteúdo é a que será imposta a esse conteúdo.
+Se você editar um rótulo de sensibilidade, a versão do rótulo que foi aplicada ao conteúdo será aplicado nesse conteúdo.
 
 ## <a name="what-label-policies-can-do"></a>O que as políticas de rótulo podem fazer
 
@@ -161,7 +156,7 @@ Com uma política de rótulos, você pode:
     > [!NOTE]
     > O rotulamento obrigatório exige uma assinatura de proteção de informações do Azure. Para usar esse recurso, você deve instalar o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). O cliente só é executado no Windows, portanto esse recurso ainda não é compatível com Mac, iOS e Android.
 
-- **Fornecer um link de ajuda para uma página de ajuda personalizada** Se os usuários não tiverem certeza do que significam os rótulos de confidencialidade como eles devem ser usados, você pode fornecer uma URL do tipo Saiba mais na parte inferior do menu de **Rótulo de Confidencialidade** nos aplicativos do Office:
+- **Fornecer um link de ajuda para uma página de ajuda personalizada** Se os usuários não tiverem certeza do significado dos rótulos de sensibilidade ou de como devem ser usados, você pode fornecer um URL Saiba mais que aparece na parte inferior do menu do **Rótulo de sensibilidade** nos aplicativos do Office:
 
     ![Link do Saiba mais no botão Confidencialidade na faixa de opções](../media/Sensitivity-label-learn-more.png)
 
