@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: d06ad19ab247384f800b3b38c561ad8eb33d4066
-ms.sourcegitcommit: 9cea48e1b26e0465c00f8d053080cba1143970c2
+ms.openlocfilehash: df2e89e26de2baab21cb334c1852cb261e1b8c98
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237638"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521507"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -261,13 +261,17 @@ Como uma política no âmbito da organização, se uma política for aplicada a 
 
 Você também pode aplicar uma política de retenção a usuários específicos, grupos do Office 365 ou sites. Para fazer isso, ative o **Status** desse local e, em seguida, use os links para incluir ou excluir usuários, grupos do Office 365 ou locais específicos. 
   
-No entanto, observe que os seguintes limites existem para uma política de retenção que inclui ou exclui mais de 1.000 locais específicos:
+No entanto, observe que os seguintes limites existem ao configurar uma política de retenção que inclui ou exclui mais de 1.000 locais específicos:
   
-- Essa política de retenção pode conter, no máximo, 1.000 caixas de correio e 100 conjuntos de sites.
-    
+- Números máximos da política de retenção:
+    - 1.000 caixas de correio
+    - 1.000 grupos do Office 365
+    - 1.000 usuários para conversas privadas do Teams
+    - 100 sites (OneDrive ou SharePoint)
+
 - Um locatário pode conter no máximo 10.000 políticas de retenção.
     
-Embora esses limites existam, entenda que você pode acessar ignorá-los aplicando uma política no âmbito da organização ou uma política a locais inteiros.
+Embora esses limites existam, é possível evitá-los aplicando uma política de toda a organização ou uma política que se aplique a locais inteiros.
   
 ### <a name="skype-locations"></a>Locais do Skype
 

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização do Office 365.
-ms.openlocfilehash: 9fb37cba0e7e9774b4de5c559b7bc0636b599776
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: f1fcfd883cb8becea861b6fcebcf59d61b104750
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151436"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521487"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -694,7 +694,7 @@ A tabela a seguir lista as atividades resultantes de profissionais de TI e profi
 |Pesquisa do conjunto de revisão excluído|DeleteWorkingSetSearch|O usuário excluiu uma consulta de pesquisa em um conjunto de revisão.|
 |Marca excluída|DeleteTag|O usuário excluiu um grupo de marcas em um conjunto de revisão.|
 |Documento baixado|DownloadDocument|O usuário baixou um documento de um conjunto de revisão.|
-|Marca editada|DownloadDocument|O usuário alterou uma marca em um conjunto de revisão.|
+|Marca editada|UpdateTag|O usuário alterou uma marca em um conjunto de revisão.|
 |Documentos exportados do conjunto de revisão|ExportJob|O usuário exporta documentos de um conjunto de revisão.|
 |Configuração de caso modificado|UpdateCaseSettings|O usuário modifica as configurações de uma ocorrência. As configurações da ocorrência incluem informações sobre o caso, permissões de acesso e configurações que controlam o comportamento da pesquisa e da análise.|
 |Pesquisa do conjunto de revisão modificada|UpdateWorkingSetSearch|O usuário editou uma consulta de pesquisa em um conjunto de revisão.|
@@ -891,9 +891,9 @@ A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos 
 |:-----|:-----|:-----|
 |Rótulo de sensibilidade aplicado ao site|SensitivityLabelApplied|Um rótulo de sensibilidade foi aplicado a um site do SharePoint ou do Teams.|
 |Rótulo de sensibilidade removido do site|SensitivityLabelRemoved|Um rótulo de sensibilidade foi removido de um site do SharePoint ou do Teams.|
-|Rótulo de sensibilidade aplicado ao site|FileSensitivityLabelApplied|Um rótulo de sensibilidade foi aplicado a um documento usando o Office na Web.|
-|Rótulo de sensibilidade alterado aplicado ao arquivo|FileSensitivityLabelChanged|Um rótulo de sensibilidade diferente foi aplicado a um documento usando o Office na Web.|
-|Rótulo de sensibilidade removido do site|FileSensitivityLabelRemoved|Um rótulo de sensibilidade foi removido de um documento usando o Office na Web.|
+|Rótulo de sensibilidade aplicado ao site|FileSensitivityLabelApplied|Um rótulo de confidencialidade foi aplicado a um documento usando o Office na Web ou uma política de rotulação automática.|
+|Rótulo de sensibilidade alterado aplicado ao arquivo|FileSensitivityLabelChanged|Um rótulo de confidencialidade diferente foi aplicado a um documento usando o Office na Web ou uma política de rotulação automática.|
+|Rótulo de sensibilidade removido do site|FileSensitivityLabelRemoved|Um rótulo de confidencialidade foi removido de um documento usando o Office na Web ou uma política de rotulação automática.|
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
