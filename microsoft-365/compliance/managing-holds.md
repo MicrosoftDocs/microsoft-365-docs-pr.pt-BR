@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 49b75e77f9884bb7cb40721a2aa986e203623c07
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c36a9865757a76708ac9e7385a2a9ef3e977050e
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582750"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521454"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar isenções na descoberta eletrônica avançada
 
@@ -31,15 +31,15 @@ Você pode usar um caso de descoberta eletrônica avançada para criar isençõe
 
 ## <a name="manage-custodian-based-holds"></a>Gerenciar bloqueios baseados em responsáveis
 
-Em alguns casos, você pode ter um conjunto de responsáveis que você identificou e decidiu preservar seus dados durante o caso. Na descoberta eletrônica avançada, quando esses responsáveis são colocados em espera, o usuário e suas fontes de dados selecionadas são adicionados automaticamente a uma política de retenção de responsáveis. 
+Em alguns casos, você pode ter um conjunto de responsáveis que você identificou e decidiu preservar seus dados durante o caso. Na descoberta eletrônica avançada, quando esses responsáveis são colocados em espera, o usuário e suas fontes de dados selecionadas são adicionados automaticamente a uma política de retenção de responsáveis.
 
 Para exibir a política de retenção de responsáveis:
 
-1. No **centro de conformidade & de segurança**, clique em descoberta eletrônica **avançada > eDiscovery** para exibir a lista de casos em sua organização.
+1. No centro de conformidade da Microsoft 365, clique em **descoberta eletrônica > avançado** para exibir a lista de casos em sua organização.
    
 2. Vá para a guia **responsáveis** para adicionar os responsáveis dentro do seu caso. Para saber como adicionar e colocar os responsáveis em espera dentro de um caso de descoberta eletrônica avançada, confira [Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada](add-custodians-to-case.md). Se você já tiver adicionado os responsáveis e os colocou em espera, vá para a etapa 3.
    
-3. Vá até a guia **isenções** e selecione "política de responsáveis".
+3. Vá para a guia **isenções** e clique **em\<CustodianHold holdid>**.
    
 4. Na página do menu suspenso, você pode ver estatísticas de retenção da política. Você também pode executar ações como aplicar uma consulta à sua retenção baseada em responsáveis. Para obter mais informações sobre como criar uma consulta de retenção e usar condições, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).
  
@@ -47,12 +47,13 @@ Para exibir a política de retenção de responsáveis:
 
 Ao criar uma isenção, você tem as seguintes opções para fazer o escopo do conteúdo mantido nos locais de conteúdo especificado:
 
-  - Você cria uma retenção infinita onde todo o conteúdo é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta, onde somente o conteúdo que corresponde a uma consulta de pesquisa é colocado em espera.
-  - Você pode especificar um intervalo de datas para armazenar somente o conteúdo que foi enviado, recebido ou criado dentro desse intervalo de datas. Como alternativa, você pode manter todo o conteúdo independentemente de quando ele foi enviado, recebido ou criado.
+- Você cria uma retenção infinita onde todo o conteúdo é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta, onde somente o conteúdo que corresponde a uma consulta de pesquisa é colocado em espera.
+  
+- Você pode especificar um intervalo de datas para armazenar somente o conteúdo que foi enviado, recebido ou criado dentro desse intervalo de datas. Como alternativa, você pode manter todo o conteúdo independentemente de quando ele foi enviado, recebido ou criado.
 
-Para criar uma retenção para um caso de descoberta eletrônica avançada:
+Para criar uma isenção não custodial para um caso de descoberta eletrônica avançada:
 
-1. No **centro de conformidade & de segurança**, clique em descoberta eletrônica **avançada > eDiscovery** para exibir a lista de casos em sua organização.
+1. No centro de conformidade da Microsoft 365, clique em **descoberta eletrônica > avançado** para exibir a lista de casos em sua organização.
   
 2. Clique em **abrir** ao lado do caso para o qual você deseja criar as isenções.
   
@@ -73,12 +74,12 @@ Para criar uma retenção para um caso de descoberta eletrônica avançada:
     > [!NOTE]
     > Ao clicar em **escolher usuários, grupos ou equipes** para especificar as caixas de correio que serão colocadas em espera, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a esta lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa.
 
-    b. **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar o SharePoint e os sites do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um grupo do Office 365 ou uma equipe da Microsoft. Clique em **escolher**e em **concluído**.
+    b. **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar o SharePoint e os sites do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um grupo do Microsoft Team ou do Office 365. Clique em **escolher**e em **concluído**.
     
-     Consulte a seção **perguntas frequentes** para obter dicas sobre como colocar grupos do Office 365 e o Microsoft Teams em espera.
+     Para obter dicas sobre como colocar o Microsoft Teams e os grupos do Office 365 e em espera, consulte a seção [colocar um bloqueio no Microsoft Teams e grupos do Office 365](#place-a-hold-on-microsoft-teams-and-office-365-groups) .
 
     > [!NOTE]
-    > No caso raro que o UPN (nome principal de usuário) de uma pessoa tenha mudado, a URL de sua conta do OneDrive também será alterada para incorporar o novo UPN. Se isso acontecer, você terá que modificar a retenção adicionando a nova URL do OneDrive do usuário e removendo a antiga.
+    > A URL de uma conta do usuário do OneDrive inclui seu nome de princípio de usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de uma retenção não custodial e seu UPN for alterado, você precisará atualizar a isenção e apontar para a nova URL do OneDrive. Para obter mais informações, consulte [como as alterações de UPN afetam a URL do onedrive](https://docs.microsoft.com/onedrive/upn-changes).
 
      c. **Pastas públicas do Exchange** -mova o comutador alternar para a posição All para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Observe que você não pode escolher pastas públicas específicas para colocar em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
 
@@ -92,10 +93,9 @@ Para criar uma retenção para um caso de descoberta eletrônica avançada:
 
      Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [keyword queries and Search Conditions for Content Search](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions).
 
-12. Depois de configurar um bloqueio baseado em consulta, clique em **Avançar**.
- 
-13. Revise suas configurações e clique em **criar esta isenção**.
+11. Depois de configurar um bloqueio baseado em consulta, clique em **Avançar**.
 
+12. Revise suas configurações e clique em **criar esta isenção**.
 
 ## <a name="view-hold-statistics"></a>Exibir estatísticas de retenção
 
@@ -115,12 +115,15 @@ Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
 
 - Se um site do SharePoint ou uma conta do OneDrive for movido para uma região diferente em um ambiente multigeográfico, as estatísticas desse site não serão incluídas nas estatísticas de retenção. No entanto, o conteúdo do site permanecerá em espera. Além disso, se um site for movido para uma região diferente, a URL exibida na retenção não será atualizada. Você terá que editar a isenção e atualizar a URL.
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="place-a-hold-on-microsoft-teams-and-office-365-groups"></a>Colocar um bloqueio no Microsoft Teams e nos grupos do Office 365
 
-- **Como mapear outros grupos do Office 365 ou site do Microsoft Teams para um? E como colocar um bloqueio não custodial nos grupos do Office 365 e no Microsoft Teams?** O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los em espera em um caso de descoberta eletrônica é muito semelhante. Lembre-se do seguinte ao colocar grupos do Office 365 e do Microsoft Teams em espera.
-  - Para colocar o conteúdo localizado nos grupos do Office 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
+O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los em espera na descoberta eletrônica avançada é muito semelhante. 
+
+Lembre-se do seguinte ao colocar grupos do Office 365 e do Microsoft Teams em espera.
+
+- Para colocar o conteúdo localizado nos grupos do Office 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
   
-  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Office 365 ou equipe da Microsoft. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Office 365 ou a uma equipe da Microsoft. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
+- Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Office 365 ou equipe da Microsoft. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Office 365 ou a uma equipe da Microsoft. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
 
 
     ```text
@@ -134,9 +137,9 @@ Tenha em mente as seguintes coisas em relação a estatísticas de retenção:
     > [!NOTE]
     > Para executar o cmdlet Get-UnifiedGroup, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura.
 
- - Quando a caixa de correio de um usuário é pesquisada, qualquer grupo do Office 365 ou Microsoft Team do qual o usuário é membro não será pesquisado. Da mesma forma, quando você coloca um grupo do Office 365 ou um bloqueio de equipe da Microsoft, somente a caixa de correio de grupo e o site de grupo são colocados em espera; as caixas de correio e os sites do OneDrive for Business de membros do grupo não são colocados em espera, a menos que você os adicione explicitamente como responsáveis ou coloque suas fontes de dados em espera. Portanto, se você precisar colocar um grupo do Office 365 ou o Microsoft Team em espera para um determinado local, considere o mapeamento do site de grupo e da caixa de correio de grupo para os responsáveis (consulte Gerenciando responsáveis em descoberta eletrônica avançada). Se o grupo do Office 365 ou a equipe da Microsoft não puder ser atribuído a um único membro, considere a adição da origem a um bloqueio não custodial. 
- 
- - Para obter uma lista dos membros de um grupo do Office 365 ou de uma equipe da Microsoft, você pode exibir as propriedades na página de grupos de > domésticos no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online:
+- Quando a caixa de correio de um usuário é pesquisada, qualquer grupo do Office 365 ou Microsoft Team do qual o usuário é membro não será pesquisado. Da mesma forma, quando você coloca um grupo do Office 365 ou um bloqueio de equipe da Microsoft, somente a caixa de correio de grupo e o site de grupo são colocados em espera; as caixas de correio e os sites do OneDrive for Business de membros do grupo não são colocados em espera, a menos que você os adicione explicitamente como responsáveis ou coloque suas fontes de dados em espera. Portanto, se você precisar colocar um grupo do Office 365 ou o Microsoft Team em espera para um determinado local, considere o mapeamento do site de grupo e da caixa de correio de grupo para os responsáveis (consulte Gerenciando responsáveis em descoberta eletrônica avançada). Se o grupo do Office 365 ou a equipe da Microsoft não puder ser atribuído a um único membro, considere a adição da origem a um bloqueio não custodial. 
+
+- Para obter uma lista dos membros de um grupo do Office 365 ou de uma equipe da Microsoft, você pode exibir as propriedades na página de **grupos de > domésticos** no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online:
 
    ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress

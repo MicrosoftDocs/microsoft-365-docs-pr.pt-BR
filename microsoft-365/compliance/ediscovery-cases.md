@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Use o centro de conformidade de & de segurança para criar e gerenciar casos de descoberta eletrônica em sua organização. Você pode atribuir Membros ao caso, colocar os locais de conteúdo em espera, executar pesquisas de conteúdo associadas ao caso e exportar os resultados da pesquisa. Você também pode preparar dados de caso para análise adicional na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 471dd99d6e21afbb4db1a05cd5609cda9e97346c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f6484fb43b1d117856ba78bb918289b28776b021
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894960"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521517"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>Gerenciar ocorrências de Descoberta Eletrônica no Centro de Conformidade e Segurança
 
@@ -194,7 +194,7 @@ Para criar uma retenção para um caso de descoberta eletrônica:
     Consulte a seção [mais informações](#more-information) para obter dicas sobre como colocar o Microsoft Teams, os grupos do Yammer e os grupos do Office 365 em espera. 
     
     > [!NOTE]
-    > No caso raro em que o UPN (nome principal de usuário) de uma pessoa é alterado, a URL de sua conta do OneDrive também será alterada para incorporar o novo UPN. Se isso acontecer, você terá que modificar a retenção adicionando a nova URL do OneDrive do usuário e removendo a antiga. 
+    > No caso raro em que o UPN (nome principal de usuário) de uma pessoa é alterado, a URL de sua conta do OneDrive também será alterada para incorporar o novo UPN. Se isso acontecer, você terá que modificar a retenção adicionando a nova URL do OneDrive do usuário e removendo a antiga. Para obter mais informações, consulte [como as alterações de UPN afetam a URL do onedrive](https://docs.microsoft.com/onedrive/upn-changes).
   
    c. **Pastas públicas do Exchange.** Mova o ![controle](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) de alternância de alternância para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
     
@@ -270,7 +270,7 @@ Depois de criar uma ocorrência de Descoberta Eletrônica e os responsáveis rel
     
     ![Locais, locais em espera](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
   
-    - **Todos os locais** -Selecione essa opção para pesquisar todos os locais de conteúdo em sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (que inclui as caixas de correio de todos os grupos do Microsoft Teams, do Yammer e do Office 365), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites para todos os Microsoft Teams, grupos do Yammer e grupos do Office 365) e todas as pastas públicas.
+    - **Todos os locais** -Selecione essa opção para pesquisar todos os locais de conteúdo em sua organização. Ao selecionar essa opção, você pode optar por pesquisar todas as caixas de correio do Exchange (que inclui as caixas de correio de todos os grupos do Microsoft Teams, do Yammer e do Office 365), todos os sites do SharePoint e do OneDrive for Business (que inclui os sites de todos os grupos do Microsoft Teams, do Yammer e do Office 365) e todas as pastas públicas.
     
     - **Todos os locais em espera.** Selecione essa opção para pesquisar todos os locais de conteúdo que foram colocados em espera no caso. Se o caso contiver várias isenções, os locais de conteúdo de todas as isenções serão pesquisados quando você selecionar essa opção. Além disso, se um local de conteúdo foi colocado em um bloqueio baseado em consulta, somente os itens que estão em retenção serão pesquisados quando você executar a pesquisa de conteúdo que você está criando nesta etapa. Por exemplo, se um usuário foi colocado em um bloqueio de caso baseado em consulta que preserva os itens que foram enviados ou criados antes de uma data específica, somente esses itens seriam pesquisados usando os critérios de pesquisa da pesquisa de conteúdo. Isso é feito conectando-se à consulta de retenção de caso e à consulta de pesquisa de conteúdo por um operador **and** . Consulte a seção [mais informações](#more-information) no final deste artigo para obter mais detalhes sobre como pesquisar o conteúdo do caso. 
     
@@ -367,7 +367,7 @@ Como alternativa para exportar os resultados de uma única pesquisa de conteúdo
     O fluxo de trabalho para exportar os resultados de várias pesquisas de conteúdo associadas a um caso é o mesmo que exportar os resultados da pesquisa para uma única pesquisa. Para obter instruções detalhadas, confira [Exportar resultados de pesquisa de conteúdo](export-search-results.md).
     
     > [!NOTE]
-    > Ao exportar resultados de pesquisa de várias pesquisas associadas a um caso, você também tem a opção de habilitar a eliminação de duplicação para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas no caixas de correio que foram pesquisadas em uma ou mais pesquisas. Para obter mais informações sobre a eliminação de duplicação e como os itens duplicados são identificados, consulte [desduplicação nos resultados da pesquisa de descoberta eletrônica](de-duplication-in-ediscovery-search-results.md). 
+    > Ao exportar resultados de pesquisa de várias pesquisas associadas a um caso, você também tem a opção de habilitar a eliminação de duplicação para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas nas caixas de correio que foram pesquisadas em uma ou mais das pesquisas. Para obter mais informações sobre a eliminação de duplicação e como os itens duplicados são identificados, consulte [desduplicação nos resultados da pesquisa de descoberta eletrônica](de-duplication-in-ediscovery-search-results.md). 
   
 8. Depois de iniciar a exportação, clique na guia **Exportar** para exibir a lista de trabalhos de exportação para esse caso. 
     

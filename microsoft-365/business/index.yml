@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 10a49d657fcef00c589c3150f93ea0471d9522a6
-  ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+  ms.openlocfilehash: bf50c985029587ec063e2933d137d6a9b115fa6c
+  ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/14/2020
-  ms.locfileid: "43284200"
+  ms.lasthandoff: 04/15/2020
+  ms.locfileid: "43516836"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business
   items:
@@ -30,7 +30,7 @@ productDirectory:
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Ler
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Melhores maneiras de habilitar o trabalho remoto seguro usando o Microsoft 365 Business.
+    summary: Melhores maneiras de habilitar o trabalho remoto seguro com o Microsoft 365 Business.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:

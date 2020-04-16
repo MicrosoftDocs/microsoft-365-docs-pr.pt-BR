@@ -19,12 +19,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: A limpeza automática de zero horas (ZAP) é um recurso de proteção de email no Office 365 que detecta spam, malware ou mensagens de phishing que já foram entregues ao Exchange Online. Como o ZAP faz isso depende do tipo de conteúdo mal-intencionado detectado.
-ms.openlocfilehash: 7cce0c15d861ee43d5704f3fc4da5a6dccb9d5d4
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 44bdab5d37863bc543d953a89ac3129b3530437d
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895006"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516768"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-office-365"></a>Limpeza automática de zero horas (ZAP)-proteção contra spam e malware no Office 365
 
@@ -54,7 +54,7 @@ Para **mensagens de leitura ou não lidas** que são identificadas como Phish ap
 
 - **Adicionar cabeçalho X**, **preceder a linha de assunto com o texto**: zap não realiza nenhuma ação na mensagem.
 
-- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
 - **Redirecionar mensagem para endereço de email**, **Excluir mensagem**, **mensagem de quarentena**: zap coloca a mensagem em quarentena. Somente os administradores podem exibir e gerenciar mensagens em quarentena de phishing.
 
@@ -68,7 +68,7 @@ Para **mensagens não lidas** identificadas como spam após a entrega, o resulta
 
 - **Adicionar cabeçalho X**, **preceder a linha de assunto com o texto**: zap não realiza nenhuma ação na mensagem.
 
-- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
 - **Redirecionar mensagem para endereço de email**, **Excluir mensagem**, **mensagem de quarentena**: zap coloca a mensagem em quarentena. Os usuários finais podem exibir e gerenciar suas próprias mensagens em quarentena de spam.
 
@@ -100,7 +100,7 @@ A: regras de fluxo de emails ou bloqueio e permitir configurações organizacion
 
 ### <a name="q-what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>P: e se uma mensagem for movida para outra pasta (por exemplo, regras de caixa de entrada)?
 
-A: ZAP ainda funciona desde que a mensagem não tenha sido excluída ou movida para a pasta lixo eletrônico.
+A: ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde que a mesma ação, ou mais forte, ainda não tenha sido aplicada. Por exemplo, se a política de phishing estiver definida como quarentena e o usuário ou administrador já tiver desenviado o email, a quarentena executará uma ação para colocar em quarentena o arquivo.
 
 ### <a name="q-does-zap-change-the-message-header"></a>P: a ZAP altera o cabeçalho da mensagem?
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c2798238f0e3cb10edab7f98bf096474a80fa006
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857470"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521475"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -42,8 +42,8 @@ Uma licença de segurança do Microsoft 365 e5, E5 Security, a5 ou a5 ou uma com
 | ------ | ------ |
 | Microsoft Defender ATP | Conjunto de pontos de extremidade do Endpoint desenvolvido com base em poderosos sensores comportamentais, análise de nuvem e inteligência de ameaças |
 | Office 365 ATP | Proteção avançada para seus aplicativos e dados no Office 365, incluindo emails e outras ferramentas de colaboração |
-| Azure ATP | Proteção contra ameaças avançadas, identidades comprometidas e insideres mal-intencionados usando sinais correlatos do Active Directory |
-| Microsoft Cloud App Security | Identifica e combate o ciberataques em seus serviços de nuvem da Microsoft e de terceiros |
+| Azure ATP | Defesa contra ameaças avançadas, identidades comprometidas e insideres mal-intencionados usando sinais correlatos do Active Directory |
+| Microsoft Cloud App Security | Identificar e combater o ciberataques em seus serviços de nuvem da Microsoft e de terceiros |
 
 ## <a name="deployed-services-and-functionality"></a>Serviços e funcionalidade implantados
 A proteção contra ameaças da Microsoft oferece melhor visibilidade, correlação e correção à medida que você implanta serviços mais suportados.
@@ -61,10 +61,10 @@ A tabela a seguir lista como cada serviço suportado fornece dados adicionais, o
 
 | Serviço | Dados (sinais & informações correlacionadas) | Escopo de resposta de & de correção |
 | ------ | ------ | ------ |
-| Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Extremidade |
+| Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Pontos de extremidade |
 | Office 365 ATP | -Mensagens e Estados de caixa de correio e eventos brutos<br />– Detecções de email, anexos e links | -Caixas de correio<br />-Contas do Office 365 |
 | Azure ATP | -Sinais do Active Directory, incluindo eventos de autenticação<br />-Detecções de comportamento relacionadas à identidade | Identidades |
-| Microsoft Cloud App Security | – Detecção de aplicativos de nuvem não aprovados & serviços (Shadow IT)<br />– Exposição de dados para aplicativos em nuvem<br />– Aplicativos de nuvem associados à atividade de ameaça | Aplicativos em nuvem |
+| Microsoft Cloud App Security | – Detecção de serviços e aplicativos de nuvem não aprovados (Shadow IT)<br />– Exposição de dados para aplicativos em nuvem<br />-Atividade de ameaça associada aos aplicativos de nuvem | Aplicativos em nuvem |
 
 ## <a name="deploy-the-services"></a>Implantar os serviços
 A implantação de cada serviço normalmente requer o provisionamento para seu locatário e uma configuração inicial. Consulte a tabela a seguir para entender como cada um desses serviços é implantado.

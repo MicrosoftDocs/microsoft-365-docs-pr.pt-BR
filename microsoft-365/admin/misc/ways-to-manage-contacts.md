@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 32639d73-981f-48c2-951c-62ab12b7b48c
 ROBOTS: NOINDEX
 description: Saiba como gerenciar seus contatos no centro de administração.
-ms.openlocfilehash: da4bb1f16ac7183b9ade96cb9ee6f2a24318b1f8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b89ddd0177e652d1ca9b9f07a3ad9ab10f9e902c
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237831"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516894"
 ---
 # <a name="quick-help-ways-to-manage-contacts"></a>Ajuda rápida: maneiras de gerenciar contatos
 

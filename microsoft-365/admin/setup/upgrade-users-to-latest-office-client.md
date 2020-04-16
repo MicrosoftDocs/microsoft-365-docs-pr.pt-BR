@@ -2,11 +2,10 @@
 title: Atualize seu Office 365 para usuários corporativos para o cliente Office mais recente
 f1.keywords:
 - NOCSH
-ms.author: janellem
-author: janellem
-manager: eliree
+ms.author: kwekuako
+author: kwekuako
+manager: scotv
 audience: Admin
-ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +19,12 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: 3d9c92a5362889db69926552848ba4c71d7c4c42
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 18200184ed8d7eb15ee4eef3903ac9d8e08b9854
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360402"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521453"
 ---
 # <a name="upgrade-your-office-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Office 365 para usuários corporativos para o cliente Office mais recente
 
@@ -47,7 +46,7 @@ Confira o [roteiro de fim do suporte do Office 2010](https://docs.microsoft.com/
 
  Se você não for um administrador e tiver um produto [do Office para casa](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , confira [como atualizar o Office](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) para obter informações sobre como atualizar sua versão de uso inicial do Office.
 
-## <a name="getting-ready-to-upgrade"></a>Preparação para atualização
+## <a name="get-ready-to-upgrade"></a>Prepare-se para atualizar
 
 Como administrador, você pode controlar qual versão do Office as pessoas da sua organização podem instalar. É altamente recomendável que você ajude os usuários em sua organização a executar versões mais antigas do Office, como o Office 2010, o Office 2013 ou a atualização do Office 2016 para a versão mais recente para aproveitar seus aprimoramentos de segurança e produtividade.
 

@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obtenha um relatório do Microsoft 365 groups para saber mais sobre os grupos e suas atividades.
-ms.openlocfilehash: 23b72d960a693ddeb8b05d261bd90f180b7c731d
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: f1d1c333946f20ecfb76223d79a38e1a18783550
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047126"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516848"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos
 

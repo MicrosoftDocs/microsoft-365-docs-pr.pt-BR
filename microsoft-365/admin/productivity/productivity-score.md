@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 03a8e68248458f5dfa1d7192a5c2771b46723129
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 06c1bb5d5e5edfd21fa9224846d584cbe6678d07
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361312"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516860"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 

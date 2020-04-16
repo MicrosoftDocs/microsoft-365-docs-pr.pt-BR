@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: 7136243aa0a358a59e4be6c348f53ca459e8a65d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 74f78b6abcc3e3aa7eb3c18c858afcd8e916d432
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361322"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516918"
 ---
 # <a name="password-policy-recommendations-for-office-365"></a>Recomendações de política de senha para o Office 365
  

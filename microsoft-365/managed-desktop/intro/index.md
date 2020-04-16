@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43142678"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516804"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -65,7 +65,7 @@ Também monitoramos a integridade do dispositivo e fornecemos informações sobr
 
 
 ## <a name="need-more-details"></a>Precisa de mais detalhes?
-Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar com mais são o [mapa](https://aka.ms/AA6jiam) e um [Resumo de uma página para](https://aka.ms/AA6ob3h)download. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd)da área de trabalho gerenciada da Microsoft.
+Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar a usar mais são o [roteiro](https://aka.ms/AA6jiam), um [estudo de caso de impacto econômico total da Forrester](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf)e um [Resumo de uma página para](https://aka.ms/AA6ob3h)download. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd)da área de trabalho gerenciada da Microsoft.
 
 Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organização, você pode aprofundar-se na documentação adicional que explica mais sobre o serviço, como preparar sua organização para se inscrever, como começar a usar o serviço e realizar operações em andamento, incluindo como você e seus usuários finais podem obter a ajuda facilmente, se necessário. Se você já está pronto para entrar, comece entrando em contato com sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
 

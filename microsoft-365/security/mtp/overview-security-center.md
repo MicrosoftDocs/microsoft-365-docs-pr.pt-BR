@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058900"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516906"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -48,11 +48,11 @@ A central de segurança do Microsoft 365 inclui:
 * **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 365, incluindo alertas do Microsoft Cloud app Security, Office 365 ATP, Azure AD, Azure ATP e Microsoft defender ATP. Disponível para clientes E3 e e5.  
 * **Central de ações** -reduza o volume de alertas que sua equipe de segurança deve resolver manualmente, permitindo que sua equipe de operações de segurança se concentre em ameaças mais sofisticadas e outras iniciativas de alto valor.
 * **Relatórios** – obtenha os detalhes e as informações de que você precisa para proteger melhor seus usuários, dispositivos, aplicativos e muito mais.
-* **Pontuação segura** – aprimore sua postura geral de segurança com a pontuação segura da Microsoft. Esta página fornece um resumo de recursos de segurança e recursos diferentes que você habilitou e inclui recomendações para as áreas a serem aprimoradas.
+* **Classificação de segurança** – melhore a postura geral de segurança com o Microsoft Secure Score. Esta página fornece um resumo de recursos de segurança e recursos diferentes que você habilitou e inclui recomendações para as áreas a serem aprimoradas.
 * Busca **avançada** – pesquise proativamente por malware, arquivos suspeitos e atividades em sua organização do Microsoft 365.
-* **Classificação** – ajude a proteger a perda de dados adicionando rótulos para classificar documentos, mensagens de email, documentos, sites e muito mais. Quando um rótulo é aplicado (automaticamente ou pelo usuário), o conteúdo ou site é protegido com base nas configurações escolhidas. Por exemplo, você pode criar rótulos que criptografam arquivos, adicionam a marcação de conteúdo e controlam o acesso do usuário a sites específicos.
-* **Políticas** : configurar políticas para gerenciar dispositivos, proteger contra ameaças e receber alertas sobre várias atividades em sua organização.
-* **Permissões** – gerencie quem em sua organização tem acesso à central de segurança do Microsoft 365 para exibir conteúdo e realizar tarefas. Você também pode atribuir permissões do Microsoft 365 no portal do Azure AD.
+* **Classificação** – ajude a proteger a perda de dados adicionando rótulos para classificar documentos, mensagens de email, documentos, sites e muito mais. Quando um rótulo é aplicado (automaticamente ou pelo usuário), o conteúdo ou site é protegido com base nas configurações escolhidas. Por exemplo, você pode criar rótulos que criptografam arquivos, adicionar marcação de conteúdo e controlar o acesso do usuário a sites específicos.
+* **Políticas** – configure políticas para gerenciar dispositivos, protegê-los contra ameaças e receber alertas sobre várias atividades em sua organização.
+* **Permissões** – gerencie quem na sua organização tem acesso à central de segurança do Microsoft 365 com permissão de exibição de conteúdos e execução de tarefas. Você também pode atribuir permissões do Microsoft 365 no Portal do Azure AD.
 
 ## <a name="learn-more"></a>Saiba mais 
 
@@ -60,6 +60,7 @@ Explore estes tópicos sobre como monitorar, analisar e responder às suas neces
 - Conectar os pontos em alertas por meio de [incidentes](incident-queue.md)
 - Corrigir ameaças automaticamente usando a [investigação e a correção automatizadas](mtp-autoir.md)
 - Revise e aprimore a postura de segurança globalmente com a [Pontuação segura da Microsoft](microsoft-secure-score.md)
+- Exibir [dispositivos](device-profile.md) na sua rede
 - [Relatar](monitoring-and-reporting.md) o status de suas identidades, dados, dispositivos, aplicativos e infraestrutura
 - [Busca pró-ativa de ameaças](advanced-hunting-overview.md) para tentativas de invasão e atividade de violação que afetem seus emails, dados, dispositivos e contas
 - [Entender as campanhas e as técnicas de ataque mais recentes com a](latest-attack-campaigns.md) análise de ameaças
