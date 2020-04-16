@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Documentação de conformidade do Microsoft 365
-summary: Se sua organização precisar cumprir padrões legais ou normativos, comece aqui para saber mais sobre a conformidade no Microsoft 365.
+summary: Se a sua organização precisa obedecer a padrões normativos ou regulatórios, comece aqui para saber mais sobre a conformidade no Microsoft 365.
 metadata:
   title: Documentação de conformidade do Microsoft 365
   description: Documentação dos recursos de conformidade do Microsoft 365
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
   ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 02/27/2020
   ms.locfileid: "42322521"
@@ -30,7 +30,7 @@ landingContent:
       url: data-loss-prevention-policies.md
     - text: Tipos de informações confidenciais
       url: custom-sensitive-info-types.md
-    - text: Criptografia de Email
+    - text: Criptografia de E-mail
       url: email-encryption.md
     - text: Chave de Cliente
       url: customer-key-overview.md
@@ -40,7 +40,7 @@ landingContent:
     links:
     - text: Rótulos de retenção
       url: labels.md
-    - text: Diretivas de retenção
+    - text: Políticas de retenção
       url: retention-policies.md
     - text: Gerenciamento de registros
       url: records-management.md
@@ -54,11 +54,11 @@ landingContent:
       url: archiving-third-party-data.md
     - text: Relatórios de governança de dados
       url: view-the-data-governance-reports.md
-- title: Gerenciar riscos insideres
+- title: Gerenciar riscos internos
   linkLists:
   - linkListType: overview
     links:
-    - text: Gerenciamento de risco do insider
+    - text: Gerenciamento de risco interno
       url: insider-risk-management.md
     - text: Conformidade em comunicações
       url: communication-compliance.md
@@ -66,7 +66,7 @@ landingContent:
       url: information-barriers.md
     - text: Gerenciamento de acesso privilegiado
       url: privileged-access-management-overview.md
-    - text: Sistema de Proteção de Dados do Cliente
+    - text: Sistema de Proteção de Dados do cliente
       url: customer-lockbox-requests.md
 - title: Descobrir e responder
   linkLists:
@@ -74,25 +74,25 @@ landingContent:
     links:
     - text: Descoberta Eletrônica Avançada
       url: overview-ediscovery-20.md
-    - text: Descoberta eletrônica principal
+    - text: Descoberta Eletrônica Central
       url: ediscovery-cases.md
     - text: Pesquisa de conteúdo
       url: search-for-content.md
-    - text: Investigações de dados (versão prévia)
+    - text: Investigações de dados (pre-visualização)
       url: overview-data-investigations.md
     - text: Auditoria
       url: search-the-audit-log-in-security-and-compliance.md
-- title: Introdução à conformidade normativa
+- title: Introdução à conformidade regulamentar
   linkLists:
   - linkListType: get-started
     links:
     - text: Pontuação de Conformidade
       url: compliance-score.md
-    - text: Plano de ação de conformidade do RGPD
+    - text: Plano de ação de conformidade GDPR
       url: gdpr-action-plan.md
-    - text: Proteção de informações para o RGPD
+    - text: Proteção de Informações para RGPD
       url: office-365-info-protection-for-gdpr-overview.md
     - text: Plano de ação de conformidade ISO
       url: iso-action-plan.md
-    - text: Plano de ação de conformidade do NIST
+    - text: Plano de ação de conformidade NIST
       url: nist-action-plan.md
