@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: aac4cb43386577851d74e424d6435d0c15762bab
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: 34dc541087eb05af6b688670112cf02489164fb1
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612601"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528600"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
@@ -45,9 +45,11 @@ A Proteção Avançada contra Ameaças do Office 365 (ATP) protege sua organiza�
 
 A tabela a seguir resume o que está incluído em cada plano.
 
-|Plano 1 do Office 365 ATP  |Plano 2 do Office 365 ATP|
-|---------|---------|
-|Capacidade de configuração, proteção e detecção:<br/>- [Anexos seguros](atp-safe-attachments.md)<br/>- [Links seguros](atp-safe-links.md)<br/>- [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Proteção avançada contra phishing](atp-anti-phishing.md)<br/>- [Detecção em tempo real](threat-explorer.md)     |Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:<br/>- [Rastreadores de ameaças](threat-trackers.md)<br/>- [Explorador de ameaças](threat-explorer.md)<br/>- [Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [Simulador de ataque](attack-simulator.md)|
+|||
+|---|---|
+|**Plano 1 da ATP do Office 365**|**Plano 2 da APT do Office 365**|
+|Capacidade de configuração, proteção e detecção:<br/>• [Anexos seguros](atp-safe-attachments.md)<br/>• [Links seguros](atp-safe-links.md)<br/>• [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [Proteção antiphishing da ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Detecções em tempo real](threat-explorer.md)|Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:<br/>• [Rastreadores de ameaças](threat-trackers.md)<br/>• [Explorador de ameaças](threat-explorer.md)<br/>• [Investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [Simulador de ataque](attack-simulator.md)|
+|
 
 - O plano 2 do Office 365 ATP está incluído no Office 365 e5, no Office 365 a5 e no Microsoft 365 e5.
 
@@ -72,7 +74,7 @@ As políticas definidas para a sua organização determinam o comportamento e o 
 
 - **[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)**: protege sua organização quando os usuários colaboram e compartilham arquivos, identificando e bloqueando arquivos mal-intencionados em sites de equipe e bibliotecas de documentos. Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
-- **[Proteção anti-phishing da ATP](atp-anti-phishing.md)**: detecta tentativas de usurpar a identidade de seus usuários e domínios personalizados. Ela aplica modelos de aprendizagem de computador e algoritmos avançados de detecção de usurpação de identidade para evitar ataques de phishing. Para saber mais, confira [ Configurar políticas antiphishing e antiphishing da ATP do Office 365](set-up-anti-phishing-policies.md).
+- **[Proteção antiphishing da ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)**: detecta tentativas de usurpar a identidade de seus usuários e domínios internos ou personalizados. Ela aplica modelos de aprendizagem de computador e algoritmos avançados de detecção de usurpação de identidade para evitar ataques de phishing. Para saber mais, confira [Configurar políticas de antiphishing da ATP no Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="view-office-365-atp-reports"></a>Visualizar relatórios do Office 365 ATP
 

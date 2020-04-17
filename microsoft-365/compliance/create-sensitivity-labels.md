@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 196efe65eda1265d6f2c0578d1f444709dadb26c
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 39e83c74d2df8d0efe12225600813ef8007833e2
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516816"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528344"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -138,7 +138,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 
 6. Siga as notificações para definir as configurações de política.
     
-    Para obter mais informações sobre as configurações, confira [O que as políticas de rótulo podem fazer](sensitivity-labels.md#what-label-policies-can-do) nas informações gerais.
+    Para obter mais informações sobre essas configurações, confira [O que as políticas de rótulo podem fazer](sensitivity-labels.md#what-label-policies-can-do) nas informações gerais.
 
 7. Repita essas etapas se você precisar de configurações de política para usuários ou locais diferentes. Por exemplo, você deseja rótulos adicionais para um grupo de usuários ou um rótulo padrão diferente para um subconjunto de usuários.
 

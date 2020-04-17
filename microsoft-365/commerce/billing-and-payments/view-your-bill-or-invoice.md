@@ -25,12 +25,12 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
-ms.openlocfilehash: 5982e65ce9720b85d29126986cfcb8123b4aef5f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fa3809e588bca50ae0ffd7e5dfc060bbc91a4bd6
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250833"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540850"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua fatura
 
@@ -50,10 +50,23 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
   
 ## <a name="view-a-bill-or-invoice"></a>Exibir uma fatura
 
+::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Faturas e pagamentos</a>.
 
-    Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Faturas e pagamentos</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Faturas e pagamentos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Faturas e pagamentos</a>.
+
+::: moniker-end
 
 2. Selecione um intervalo de datas na lista suspensa e escolha o pedido que você deseja exibir.
 
