@@ -21,39 +21,39 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 04fb2b0c17f695c41df2f8b1277c7918054ae9fe
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+ms.openlocfilehash: 2645e6d5f307a5e5ce8fab5f3a848bf4a539b031
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240230"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540886"
 ---
-# <a name="set-an-individual-users-password-to-never-expire"></a><span data-ttu-id="1cacf-103">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="1cacf-103">Set an individual user's password to never expire</span></span>
+# <a name="set-an-individual-users-password-to-never-expire"></a><span data-ttu-id="195e0-103">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="195e0-103">Set an individual user's password to never expire</span></span>
 
-## <a name="set-the-password-expiration-policy-for-your-organization"></a><span data-ttu-id="1cacf-104">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="1cacf-104">Set the password expiration policy for your organization</span></span>
+## <a name="set-the-password-expiration-policy-for-your-organization"></a><span data-ttu-id="195e0-104">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="195e0-104">Set the password expiration policy for your organization</span></span>
 
-1. <span data-ttu-id="1cacf-105">No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">segurança & privacidade</a> .</span><span class="sxs-lookup"><span data-stu-id="1cacf-105">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Security & privacy</a> page.</span></span>
-2. <span data-ttu-id="1cacf-106">Ao lado de **política de senha** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="1cacf-106">Next to **Password policy** select **Edit**.</span></span> 
-3. <span data-ttu-id="1cacf-107">Se as senhas estiverem definidas para nunca expirar, defina a **opção para desativado**.</span><span class="sxs-lookup"><span data-stu-id="1cacf-107">If passwords are set to never expire, set the toggle to **Off**.</span></span> <span data-ttu-id="1cacf-108">Você terá a opção de especificar o número de dias até que as senhas expirem.</span><span class="sxs-lookup"><span data-stu-id="1cacf-108">You'll get the option to specify the number of days until passwords expire.</span></span>
+1. <span data-ttu-id="195e0-105">No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">segurança & privacidade</a> .</span><span class="sxs-lookup"><span data-stu-id="195e0-105">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Security & privacy</a> page.</span></span>
+2. <span data-ttu-id="195e0-106">Ao lado de **política de senha** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="195e0-106">Next to **Password policy** select **Edit**.</span></span> 
+3. <span data-ttu-id="195e0-107">Se as senhas estiverem definidas para nunca expirar, defina a **opção para desativado**.</span><span class="sxs-lookup"><span data-stu-id="195e0-107">If passwords are set to never expire, set the toggle to **Off**.</span></span> <span data-ttu-id="195e0-108">Você terá a opção de especificar o número de dias até que as senhas expirem.</span><span class="sxs-lookup"><span data-stu-id="195e0-108">You'll get the option to specify the number of days until passwords expire.</span></span>
 
-## <a name="set-the-password-expiration-policy-for-individual-users"></a><span data-ttu-id="1cacf-109">Definir a política de expiração de senha para usuários individuais</span><span class="sxs-lookup"><span data-stu-id="1cacf-109">Set the password expiration policy for individual users</span></span>
+## <a name="set-the-password-expiration-policy-for-individual-users"></a><span data-ttu-id="195e0-109">Definir a política de expiração de senha para usuários individuais</span><span class="sxs-lookup"><span data-stu-id="195e0-109">Set the password expiration policy for individual users</span></span>
 
-<span data-ttu-id="1cacf-110">Um administrador global para um serviço de nuvem da Microsoft pode usar o PowerShell do Azure Active Directory para Graph para definir senhas que não expirem para usuários específicos.</span><span class="sxs-lookup"><span data-stu-id="1cacf-110">A global admin for a Microsoft cloud service can use the Azure Active Directory PowerShell for Graph to set passwords not to expire for specific users.</span></span> <span data-ttu-id="1cacf-111">Você também pode usar os cmdlets do AzureAD para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.</span><span class="sxs-lookup"><span data-stu-id="1cacf-111">You can also use AzureAD cmdlets to remove the never-expires configuration or to see which user passwords are set to never expire.</span></span>
+<span data-ttu-id="195e0-110">Um administrador global para um serviço de nuvem da Microsoft pode usar o [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) para definir senhas que não expirem para usuários específicos.</span><span class="sxs-lookup"><span data-stu-id="195e0-110">A global admin for a Microsoft cloud service can use the [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) to set passwords not to expire for specific users.</span></span> <span data-ttu-id="195e0-111">Você também pode usar os cmdlets do [AzureAD](https://docs.microsoft.com/powershell/module/Azuread) para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.</span><span class="sxs-lookup"><span data-stu-id="195e0-111">You can also use [AzureAD](https://docs.microsoft.com/powershell/module/Azuread) cmdlets to remove the never-expires configuration or to see which user passwords are set to never expire.</span></span>
 
-<span data-ttu-id="1cacf-112">Este guia se aplica a outros provedores, como o Intune e o Office 365, que também dependem do Azure AD para serviços de identidade e diretório.</span><span class="sxs-lookup"><span data-stu-id="1cacf-112">This guide applies to other providers, such as Intune and Office 365, which also rely on Azure AD for identity and directory services.</span></span> <span data-ttu-id="1cacf-113">A expiração da senha é a única parte da política que pode ser alterada.</span><span class="sxs-lookup"><span data-stu-id="1cacf-113">Password expiration is the only part of the policy that can be changed.</span></span>
+<span data-ttu-id="195e0-112">Este guia se aplica a outros provedores, como o Intune e o Office 365, que também dependem do Azure AD para serviços de identidade e diretório.</span><span class="sxs-lookup"><span data-stu-id="195e0-112">This guide applies to other providers, such as Intune and Office 365, which also rely on Azure AD for identity and directory services.</span></span> <span data-ttu-id="195e0-113">A expiração da senha é a única parte da política que pode ser alterada.</span><span class="sxs-lookup"><span data-stu-id="195e0-113">Password expiration is the only part of the policy that can be changed.</span></span>
 
-<span data-ttu-id="1cacf-114">Para obter mais informações sobre o Azure AD PowerShell para Graph, confira [Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="1cacf-114">For more information about Azure AD PowerShell for Graph, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).</span></span>
+<span data-ttu-id="195e0-114">Para obter mais informações sobre o Azure AD PowerShell para Graph, confira [Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="195e0-114">For more information about Azure AD PowerShell for Graph, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1cacf-115">Somente senhas para contas de usuário que não estão sincronizadas por meio da sincronização de diretórios podem ser configuradas para não expirar.</span><span class="sxs-lookup"><span data-stu-id="1cacf-115">Only passwords for user accounts that are not synchronized through directory synchronization can be configured to not expire.</span></span> <span data-ttu-id="1cacf-116">Para obter mais informações sobre a sincronização de diretórios, consulte [Connect ad with Azure ad](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span><span class="sxs-lookup"><span data-stu-id="1cacf-116">For more information about directory synchronization, see [Connect AD with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span></span>
+> <span data-ttu-id="195e0-115">Somente senhas para contas de usuário que não estão sincronizadas por meio da sincronização de diretórios podem ser configuradas para não expirar.</span><span class="sxs-lookup"><span data-stu-id="195e0-115">Only passwords for user accounts that are not synchronized through directory synchronization can be configured to not expire.</span></span> <span data-ttu-id="195e0-116">Para obter mais informações sobre a sincronização de diretórios, consulte [Connect ad with Azure ad](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span><span class="sxs-lookup"><span data-stu-id="195e0-116">For more information about directory synchronization, see [Connect AD with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span></span>
 
-### <a name="how-to-check-the-expiration-policy-for-a-password"></a><span data-ttu-id="1cacf-117">Como verificar a política de expiração de uma senha</span><span class="sxs-lookup"><span data-stu-id="1cacf-117">How to check the expiration policy for a password</span></span>
+### <a name="how-to-check-the-expiration-policy-for-a-password"></a><span data-ttu-id="195e0-117">Como verificar a política de expiração de uma senha</span><span class="sxs-lookup"><span data-stu-id="195e0-117">How to check the expiration policy for a password</span></span>
 
-<span data-ttu-id="1cacf-118">Para obter mais informações sobre o comando Get-AzureADUser no módulo AzureAD, consulte o artigo de referência [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="1cacf-118">For more information about the Get-AzureADUser command in the AzureAD module, see the reference article [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).</span></span>
+<span data-ttu-id="195e0-118">Para obter mais informações sobre o comando Get-AzureADUser no módulo AzureAD, consulte o artigo de referência [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).</span><span class="sxs-lookup"><span data-stu-id="195e0-118">For more information about the Get-AzureADUser command in the AzureAD module, see the reference article [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).</span></span>
 
-<span data-ttu-id="1cacf-119">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="1cacf-119">Run one of the following commands:</span></span>
+<span data-ttu-id="195e0-119">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="195e0-119">Run one of the following commands:</span></span>
 
-- <span data-ttu-id="1cacf-120">Para ver se a senha de um único usuário está definida como nunca expirar, execute o seguinte cmdlet usando o UPN (por exemplo, *User@contoso.onmicrosoft.com*) ou a ID de usuário do usuário que você deseja verificar:</span><span class="sxs-lookup"><span data-stu-id="1cacf-120">To see if a single user's password is set to never expire, run the following cmdlet by using the UPN (for example, *user@contoso.onmicrosoft.com*) or the user ID of the user you want to check:</span></span>
+- <span data-ttu-id="195e0-120">Para ver se a senha de um único usuário está definida como nunca expirar, execute o seguinte cmdlet usando o UPN (por exemplo, *User@contoso.onmicrosoft.com*) ou a ID de usuário do usuário que você deseja verificar:</span><span class="sxs-lookup"><span data-stu-id="195e0-120">To see if a single user's password is set to never expire, run the following cmdlet by using the UPN (for example, *user@contoso.onmicrosoft.com*) or the user ID of the user you want to check:</span></span>
 
     ```powershell
     Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
@@ -61,7 +61,7 @@ ms.locfileid: "43240230"
     }
     ```
 
-    <span data-ttu-id="1cacf-121">Exemplo:</span><span class="sxs-lookup"><span data-stu-id="1cacf-121">Example:</span></span>
+    <span data-ttu-id="195e0-121">Exemplo:</span><span class="sxs-lookup"><span data-stu-id="195e0-121">Example:</span></span>
 
     ```powershell
     Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
@@ -69,7 +69,7 @@ ms.locfileid: "43240230"
     }
     ```  
 
-- <span data-ttu-id="1cacf-122">Para ver a configuração da **senha nunca expira** para todos os usuários, execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="1cacf-122">To see the **Password never expires** setting for all users, run the following cmdlet:</span></span>
+- <span data-ttu-id="195e0-122">Para ver a configuração da **senha nunca expira** para todos os usuários, execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="195e0-122">To see the **Password never expires** setting for all users, run the following cmdlet:</span></span>
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -77,7 +77,7 @@ ms.locfileid: "43240230"
      }
     ```
 
-- <span data-ttu-id="1cacf-123">Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. html**</span><span class="sxs-lookup"><span data-stu-id="1cacf-123">To get a report of all the users with PasswordNeverExpires in Html on the desktop of the current user with name  **ReportPasswordNeverExpires.html**</span></span>
+- <span data-ttu-id="195e0-123">Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. html**</span><span class="sxs-lookup"><span data-stu-id="195e0-123">To get a report of all the users with PasswordNeverExpires in Html on the desktop of the current user with name  **ReportPasswordNeverExpires.html**</span></span>
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -85,7 +85,7 @@ ms.locfileid: "43240230"
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- <span data-ttu-id="1cacf-124">Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. csv**</span><span class="sxs-lookup"><span data-stu-id="1cacf-124">To get a report of all the users with PasswordNeverExpires in CSV on the desktop of the current user with name **ReportPasswordNeverExpires.csv**</span></span>
+- <span data-ttu-id="195e0-124">Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. csv**</span><span class="sxs-lookup"><span data-stu-id="195e0-124">To get a report of all the users with PasswordNeverExpires in CSV on the desktop of the current user with name **ReportPasswordNeverExpires.csv**</span></span>
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -93,37 +93,37 @@ ms.locfileid: "43240230"
     } | ConvertTo-Csv -NoTypeInformation | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.csv
     ```
 
-### <a name="set-a-password-to-expire"></a><span data-ttu-id="1cacf-125">Definir uma senha para expirar</span><span class="sxs-lookup"><span data-stu-id="1cacf-125">Set a password to expire</span></span>
+### <a name="set-a-password-to-expire"></a><span data-ttu-id="195e0-125">Definir uma senha para expirar</span><span class="sxs-lookup"><span data-stu-id="195e0-125">Set a password to expire</span></span>
 
-<span data-ttu-id="1cacf-126">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="1cacf-126">Run one of the following commands:</span></span>
+<span data-ttu-id="195e0-126">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="195e0-126">Run one of the following commands:</span></span>
 
-- <span data-ttu-id="1cacf-127">Para definir a senha de um usuário para que a senha expire, execute o seguinte cmdlet usando o UPN ou a ID do usuário:</span><span class="sxs-lookup"><span data-stu-id="1cacf-127">To set the password of one user so that the password expires, run the following cmdlet by using the UPN or the user ID of the user:</span></span>
+- <span data-ttu-id="195e0-127">Para definir a senha de um usuário para que a senha expire, execute o seguinte cmdlet usando o UPN ou a ID do usuário:</span><span class="sxs-lookup"><span data-stu-id="195e0-127">To set the password of one user so that the password expires, run the following cmdlet by using the UPN or the user ID of the user:</span></span>
 
     ```powershell
     Set-AzureADUser -ObjectId <user ID> -PasswordPolicies None
     ```
 
-- <span data-ttu-id="1cacf-128">Para definir as senhas de todos os usuários da organização de modo que eles expirem, use o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="1cacf-128">To set the passwords of all users in the organization so that they expire, use the following cmdlet:</span></span>
+- <span data-ttu-id="195e0-128">Para definir as senhas de todos os usuários da organização de modo que eles expirem, use o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="195e0-128">To set the passwords of all users in the organization so that they expire, use the following cmdlet:</span></span>
 
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
 
-### <a name="set-a-password-to-never-expire"></a><span data-ttu-id="1cacf-129">Definir uma senha para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="1cacf-129">Set a password to never expire</span></span>
+### <a name="set-a-password-to-never-expire"></a><span data-ttu-id="195e0-129">Definir uma senha para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="195e0-129">Set a password to never expire</span></span>
 
-<span data-ttu-id="1cacf-130">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="1cacf-130">Run one of the following commands:</span></span>
+<span data-ttu-id="195e0-130">Execute um dos seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="195e0-130">Run one of the following commands:</span></span>
 
-- <span data-ttu-id="1cacf-131">Para definir a senha de um usuário para nunca expirar, execute o seguinte cmdlet usando o UPN ou a ID de usuário do usuário:</span><span class="sxs-lookup"><span data-stu-id="1cacf-131">To set the password of one user to never expire, run the following cmdlet by using the UPN or the user ID of the user:</span></span>
+- <span data-ttu-id="195e0-131">Para definir a senha de um usuário para nunca expirar, execute o seguinte cmdlet usando o UPN ou a ID de usuário do usuário:</span><span class="sxs-lookup"><span data-stu-id="195e0-131">To set the password of one user to never expire, run the following cmdlet by using the UPN or the user ID of the user:</span></span>
 
     ```powershell
     Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
     ```
 
-- <span data-ttu-id="1cacf-132">Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="1cacf-132">To set the passwords of all the users in an organization to never expire, run the following cmdlet:</span></span>
+- <span data-ttu-id="195e0-132">Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="195e0-132">To set the passwords of all the users in an organization to never expire, run the following cmdlet:</span></span>
 
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
 > [!WARNING]
-> <span data-ttu-id="1cacf-133">As senhas definidas `-PasswordPolicies DisablePasswordExpiration` como idade ainda com base `pwdLastSet` no atributo.</span><span class="sxs-lookup"><span data-stu-id="1cacf-133">Passwords set to `-PasswordPolicies DisablePasswordExpiration` still age based on the `pwdLastSet` attribute.</span></span> <span data-ttu-id="1cacf-134">Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão.</span><span class="sxs-lookup"><span data-stu-id="1cacf-134">If you set the user passwords to never expire and then 90+ days go by, the passwords expire.</span></span> <span data-ttu-id="1cacf-135">Com base no `pwdLastSet` atributo, se você alterar a expiração `-PasswordPolicies None`para, todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar.</span><span class="sxs-lookup"><span data-stu-id="1cacf-135">Based on the `pwdLastSet` attribute, if you change the expiration to `-PasswordPolicies None`, all passwords that have a `pwdLastSet` older than 90 days require the user to change them the next time they sign in.</span></span> <span data-ttu-id="1cacf-136">Essa alteração pode afetar um grande número de usuários.</span><span class="sxs-lookup"><span data-stu-id="1cacf-136">This change can affect a large number of users.</span></span>
+> <span data-ttu-id="195e0-133">As senhas definidas `-PasswordPolicies DisablePasswordExpiration` como idade ainda com base `pwdLastSet` no atributo.</span><span class="sxs-lookup"><span data-stu-id="195e0-133">Passwords set to `-PasswordPolicies DisablePasswordExpiration` still age based on the `pwdLastSet` attribute.</span></span> <span data-ttu-id="195e0-134">Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão.</span><span class="sxs-lookup"><span data-stu-id="195e0-134">If you set the user passwords to never expire and then 90+ days go by, the passwords expire.</span></span> <span data-ttu-id="195e0-135">Com base no `pwdLastSet` atributo, se você alterar a expiração `-PasswordPolicies None`para, todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar.</span><span class="sxs-lookup"><span data-stu-id="195e0-135">Based on the `pwdLastSet` attribute, if you change the expiration to `-PasswordPolicies None`, all passwords that have a `pwdLastSet` older than 90 days require the user to change them the next time they sign in.</span></span> <span data-ttu-id="195e0-136">Essa alteração pode afetar um grande número de usuários.</span><span class="sxs-lookup"><span data-stu-id="195e0-136">This change can affect a large number of users.</span></span>
