@@ -283,26 +283,29 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-            - name: Proteção antiphishing no Office 365
+            - name: Proteção anti-phishing
               href: ./office-365-security/anti-phishing-protection.md
               items:
+                - name: Políticas anti-phishing
+                  href: ./office-365-security/set-up-anti-phishing-policies.md
+                  items:
+                    - name: Configurar a política anti-phishing padrão no EOP
+                      href: ./office-365-security/configure-anti-phishing-policies-eop.md
+                    - name: Configurar políticas anti-phishing ATP
+                      href: ./office-365-security/configure-atp-anti-phishing-policies.md
+                - name: Como o Office 365 valida o Endereço do remetente para impedir o phishing
+                  href: ./office-365-security/how-office-365-validates-the-from-address.md
                 - name: Ajustar a proteção contra phishing
                   href: ./office-365-security/tuning-anti-phishing.md
-                - name: Recursos antiphishing ATP no Office 365
-                  href: ./office-365-security/atp-anti-phishing.md
-                - name: Configurar políticas de antiphishing e antiphishing ATP
-                  href: ./office-365-security/set-up-anti-phishing-policies.md
-                - name: Como o Office 365 valida o endereço do emissor para impedir o phishing
-                  href: ./office-365-security/how-office-365-validates-the-from-address.md
-            - name: Proteção antifalsificação no Office 365
+            - name: Proteção antifalsificação
               href: ./office-365-security/anti-spoofing-protection.md
               items:
-                - name: Saiba mais sobre a inteligência de falsificação
+                - name: Perguntas frequentes sobre a proteção antifalsificação
+                  href: ./office-365-security/anti-spoofing-protection-faq.md
+                - name: Configurar a inteligência contra falsificação
                   href: ./office-365-security/learn-about-spoof-intelligence.md
-                - name: Passo a passo para insight de inteligência contra falsificação
+                - name: Passo a passo - Informações sobre Inteligência contra Falsificação ATP
                   href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
-                - name: Identificar mensagens suspeitas no Outlook.com e no Outlook na Web
-                  href: ./office-365-security/unverified-sender-feature.md
             - name: Quarentena
               href: ./office-365-security/quarantine-email-messages.md
               items:
@@ -314,7 +317,8 @@
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
                 - name: Notificações de spam do usuário final
                   href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
-            - name: Validação e autenticação de email
+            - name: Autenticação do email
+              href: ./office-365-security/email-validation-and-authentication.md
               items:
                 - name: Como Office 365 usa o SPF para evitar a falsificação
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
